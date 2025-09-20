@@ -19,7 +19,7 @@ export default function Home() {
       </div>
       <div className="space-y-6 text-center">
       <h2 className="font-extrabold tracking-tighter text-9xl">Design That Gives</h2>
-      <p className="text-muted-foreground font-light text-xl">Giving life to ideas through thoughtful visual storytelling</p>
+      <p className="text-muted-foreground font-light text-xl">Giving life to ideas through thoughtful visual storytelling.</p>
       <ModeToggle/>
       </div>
     </div>
