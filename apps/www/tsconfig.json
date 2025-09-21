@@ -8,7 +8,9 @@
     ],
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/.source": ["./.source/index.ts"],
+      "react": ["./node_modules/@types/react"],
+      "@/*": ["./*"]
     }
   },
   "include": [

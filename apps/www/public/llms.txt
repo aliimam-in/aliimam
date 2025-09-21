@@ -1,0 +1,18 @@
+# aliimam
+
+> A set of beautifully designed components that you can customize, extend, and build on. Start here then make it your own. Open Source. Open Code.
+
+This file provides LLM-friendly entry points to documentation and examples.
+
+## Components
+
+- [button](https://aliimam.in/docs/components/button): The button component.
+
+## Examples
+
+- [Button Demo](https://github.com/aliimam-in/blob/main/example/button-demo.tsx): Example usage
+
+## Optional
+
+- [Repository](https://github.com/aliimam-in): Source code and issues
+- [Sitemap](https://aliimam.in/sitemap.xml): Indexable pages

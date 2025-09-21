@@ -1,0 +1,22 @@
+---
+title: Award
+description: A vertically stacked set of interactive headings that each reveal a section of content.
+component: true
+---
+  
+### Awards
+
+A flexible award component that supports multiple visual variants (`stamp`, `award`, `certificate`, `badge`) with customizable details.
+
+| Prop          | Type                                             | Default   | Description                                                         |
+| ------------- | ------------------------------------------------ | --------- | ------------------------------------------------------------------- |
+| `variant`     | `"stamp" \| "award" \| "certificate" \| "badge"` | `"award"` | Determines the style of the award display.                          |
+| `title`       | string                                           | –         | Main title of the award.                                            |
+| `subtitle`    | string                                           | –         | Subtitle or secondary text.                                         |
+| `description` | string                                           | –         | Additional descriptive text. _(Currently not used in all variants)_ |
+| `date`        | string                                           | –         | Date of the award or certificate.                                   |
+| `recipient`   | string                                           | –         | Name of the award recipient.                                        |
+| `level`       | `"bronze" \| "silver" \| "gold" \| "platinum"`   | `"gold"`  | Award level (used in `award` variant with gradient styling).        |
+| `className`   | string                                           | –         | Tailwind/CSS classes for extra styling.                             |
+| `showIcon`    | boolean                                          | `true`    | Whether to show an icon in some variants (e.g., `stamp`).           |
+| `customIcon`  | `React.ReactNode`                                | –         | Custom React node to replace the default icon.                      |

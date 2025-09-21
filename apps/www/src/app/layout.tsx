@@ -1,11 +1,14 @@
 import type { Metadata } from "next";
-import "@/styles/globals.css";
+import "@/src/styles/globals.css"; 
 import { Geist } from "next/font/google";
 import { Suspense } from "react";
 import { Loader } from "lucide-react";
 
-import { Provider } from "@/components/common/provider";
-import { siteConfig } from "@/lib/config";
+import { Provider } from "@/src/components/common/provider";
+import { siteConfig } from "@/src/lib/config";
+import { Header } from "@/src/components/layout/header";
+import { Footer } from "../components/layout/footer";
+import { cn } from "@/registry/default/lib/utils";
 
 const fontSans = Geist({
   subsets: ["latin"],
@@ -56,7 +59,7 @@ export const metadata: Metadata = {
     apple: "/ai-logo.png",
   },
   manifest: `${siteConfig.url}/site.webmanifest`,
-}
+};
 
 export default function RootLayout({
   children,
@@ -66,9 +69,13 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth" suppressHydrationWarning>
       <body
-        className={`${fontSans.variable} has-not-data-home:before:absolute has-not-data-home:before:inset-x-0 has-not-data-home:before:h-100 has-not-data-home:before:bg-linear-to-b has-not-data-home:before:from-zinc-100 has-data-home:bg-zinc-50 dark:has-not-data-home:before:hidden dark:has-data-home:bg-zinc-950 font-sans tracking-[-0.25px] antialiased`}
+        className={cn(
+          "text-foreground group/body overscroll-none font-sans antialiased [--footer-height:calc(var(--spacing)*14)] [--header-height:calc(var(--spacing)*14)] xl:[--footer-height:calc(var(--spacing)*24)]",
+          fontSans
+        )}
       >
         <Provider>
+          <Header />
           <Suspense
             fallback={
               <div className="mt-[400px] flex h-screen justify-center">
@@ -78,6 +85,7 @@ export default function RootLayout({
           >
             <main className="grow">{children}</main>
           </Suspense>
+          <Footer />
         </Provider>
       </body>
     </html>
