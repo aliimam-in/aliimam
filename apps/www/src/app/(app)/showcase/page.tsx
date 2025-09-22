@@ -14,7 +14,7 @@ export default function Page() {
   const showcases: Showcase[] = showcaseSource.getPages();
 
   return (
-    <article className="container py-14">
+    <article className="container py-40">
       <h2 className="mb-2 text-center text-5xl font-bold tracking-tighter">
         Showcase
       </h2>

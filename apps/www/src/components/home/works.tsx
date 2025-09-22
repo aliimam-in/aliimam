@@ -12,7 +12,7 @@ export function Works() {
             className="border h-[350px] relative overflow-hidden md:h-[600px] rounded-md p-6 bg-card text-card-foreground"
           >
             <div className="text-center flex justify-center items-center h-full w-full">
-              <h1 className="text-9xl font-bold tracking-tighter">
+              <h1 className="text-5xl md:text-9xl font-bold tracking-tighter">
                 Work Samples.
               </h1>
             </div> 
@@ -22,7 +22,7 @@ export function Works() {
             className="border h-[350px] relative overflow-hidden md:h-[600px] rounded-md p-6 bg-card text-card-foreground"
           >
             <div className="text-center flex justify-center items-center h-full w-full">
-              <h1 className="text-9xl font-bold tracking-tighter">
+              <h1 className="text-5xl md:text-9xl  font-bold tracking-tighter">
                 Are You Ready?
               </h1>
             </div> 
@@ -32,7 +32,7 @@ export function Works() {
             className="border h-[350px] relative overflow-hidden md:h-[600px] rounded-md p-6 bg-card text-card-foreground"
           >
             <div className="text-center flex justify-center items-center h-full w-full">
-              <h1 className="text-9xl font-bold tracking-tighter">
+              <h1 className="text-5xl md:text-9xl  font-bold tracking-tighter">
                 Get Start!
               </h1>
             </div> 
@@ -40,7 +40,7 @@ export function Works() {
         ]}
       />
       <Link className="flex justify-center mt-10" href="#">
-        <Button className="h-14 cursor-pointer px-10">See All Works</Button>
+        <Button className="h-14 cursor-pointer rounded-full px-10">See All Works</Button>
       </Link>
     </div>
   );

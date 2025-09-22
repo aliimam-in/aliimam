@@ -9,7 +9,7 @@ import Image from "next/image";
 import { Menus } from "./menus";
 
 const menuItems = [
-  { name: "About", href: "#link" },
+  { name: "About", href: "/about" },
   { name: "Components", href: "/docs" },
   { name: "Pricing", href: "#link" },
   { name: "Contact", href: "#link" },
@@ -73,7 +73,7 @@ export const Header = () => {
               </div>
             </div>
 
-            <div className="absolute inset-0 m-auto hidden size-fit">
+            <div className="absolute inset-0 m-auto hidden lg:block size-fit">
               <Menus/>
             </div>
 
@@ -95,7 +95,7 @@ export const Header = () => {
               </div>
               <div className="flex w-full flex-col space-y-3 sm:flex-row sm:gap-2 sm:space-y-0">
                 <ModeToggle />
-                <Button asChild className={cn(isScrolled && "lg:hidden")}>
+                <Button variant={'secondary'} asChild className={cn(isScrolled && "lg:hidden")}>
                   <Link target="_blank" href="https://cal.com/aliimam-in/30min">
                     <span>Book an Intro call</span>
                   </Link>

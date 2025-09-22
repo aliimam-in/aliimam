@@ -16,39 +16,27 @@ import { cn } from "@/src/lib/utils";
 
 const components: { title: string; href: string; description: string }[] = [
   {
-    title: "Alert Dialog",
-    href: "/docs/primitives/alert-dialog",
+    title: "Docs",
+    href: "/docs",
     description:
-      "A modal dialog that interrupts the user with important content and expects a response.",
+      "Coming Soon!",
+  },  
+  {
+    title: "Pricing",
+    href: "/pricing",
+    description: "Coming Soon!",
   },
   {
-    title: "Hover Card",
-    href: "/docs/primitives/hover-card",
+    title: "Showcase",
+    href: "/showcase",
     description:
-      "For sighted users to preview content available behind a link.",
+      "Coming Soon!",
   },
   {
-    title: "Progress",
-    href: "/docs/primitives/progress",
+    title: "Blogs",
+    href: "/blogs",
     description:
-      "Displays an indicator showing the completion progress of a task, typically displayed as a progress bar.",
-  },
-  {
-    title: "Scroll-area",
-    href: "/docs/primitives/scroll-area",
-    description: "Visually or semantically separates content.",
-  },
-  {
-    title: "Tabs",
-    href: "/docs/primitives/tabs",
-    description:
-      "A set of layered sections of content—known as tab panels—that are displayed one at a time.",
-  },
-  {
-    title: "Tooltip",
-    href: "/docs/primitives/tooltip",
-    description:
-      "A popup that displays information related to an element when the element receives keyboard focus or the mouse hovers over it.",
+      "Coming Soon!",
   },
 ];
 
@@ -66,10 +54,10 @@ export function Menus() {
         </NavigationMenuItem>
         <NavigationMenuItem>
           <NavigationMenuTrigger className="bg-transparent">
-            Components
+            Resources
           </NavigationMenuTrigger>
-          <NavigationMenuContent className="p-4">
-            <ul className="grid w-[400px] gap-2 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
+          <NavigationMenuContent className="p-3">
+            <ul className="grid gap-3 md:grid-cols-2 lg:w-[400px]">
               {components.map((component) => (
                 <ListItem
                   key={component.title}
@@ -83,16 +71,12 @@ export function Menus() {
           </NavigationMenuContent>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <NavigationMenuTrigger className="bg-transparent">
-            Designs
-          </NavigationMenuTrigger>
-          <NavigationMenuContent className="p-4">
-            <ul className="grid w-[400px] gap-2 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
-              <ListItem title={"dsfbdfs"} href={"dfbdf"}>
-                sfabdfab
-              </ListItem>
-            </ul>
-          </NavigationMenuContent>
+          <NavigationMenuLink
+            asChild
+            className={cn(navigationMenuTriggerStyle(), "bg-transparent")}
+          >
+            <Link href="/design">Design</Link>
+          </NavigationMenuLink>
         </NavigationMenuItem>
       </NavigationMenuList>
     </NavigationMenu>
@@ -108,7 +92,7 @@ function ListItem({
   return (
     <li {...props}>
       <NavigationMenuLink asChild>
-        <Link href={href}>
+        <Link className="p-6" href={href}>
           <div className="text-sm leading-none font-medium">{title}</div>
           <p className="text-muted-foreground line-clamp-2 text-sm leading-snug">
             {children}

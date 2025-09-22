@@ -26,7 +26,7 @@ export function DocsSidebar({
 
   return (
     <Sidebar
-      className="sticky ml-auto top-[calc(var(--header-height)+1px)] px-2 z-30 hidden h-[calc(100svh-var(--header-height))] bg-transparent lg:flex"
+      className="sticky ml-auto top-20 px-2 z-30 hidden h-[calc(100svh-var(--header-height))] bg-transparent lg:flex"
       collapsible="none"
       {...props}
     >

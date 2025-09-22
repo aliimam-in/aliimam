@@ -12,18 +12,35 @@ const navigation = {
   categories: [
     {
       id: "menus",
-      name: "Menus",
-
+      name: "Menus", 
       sections: [
         {
           id: "about",
           name: "About",
           items: [
             { name: "About", href: "/about" },
-            { name: "Works", href: "/works" },
+            { name: "Components", href: "/components" },
             { name: "Pricing", href: "/pricing" },
           ],
         },
+        {
+          id: "features",
+          name: "Features",
+          items: [
+            { name: "Blogs", href: "/blogs" },
+            { name: "Showcase", href: "/showcase" },
+            { name: "Contact", href: "/" },
+          ],
+        },
+        {
+          id: "privacy",
+          name: "Privacy",
+          items: [
+            { name: "Privacy", href: "/" },
+            { name: "Terms", href: "/" },
+            { name: "Cookie", href: "/" },
+          ],
+        },  
       ],
     },
   ],
@@ -31,8 +48,8 @@ const navigation = {
 
 export function Footer() {
   return (
-    <footer className="container">
-      <div className="relative mt-20 grid items-center justify-center">
+    <footer className="">
+      <div className="relative container mt-20 grid items-center justify-center">
         <Link href="/">
           <Image
             src="/ai-logo.png"
@@ -49,7 +66,7 @@ export function Footer() {
       <Separator className="my-10" />
       <div>
         {navigation.categories.map((category) => (
-          <div key={category.name} className="grid grid-cols-3 gap-6">
+          <div key={category.name} className="grid text-center grid-cols-3 gap-6">
             {category.sections.map((section) => (
               <div key={section.name}>
                 <ul
