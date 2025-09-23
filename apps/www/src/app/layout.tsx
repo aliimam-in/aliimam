@@ -1,14 +1,12 @@
 import type { Metadata } from "next";
-import "@/src/styles/globals.css"; 
+import "@/src/styles/globals.css";
 import { Geist } from "next/font/google";
-import { Suspense } from "react";
-import { Loader } from "lucide-react";
 
 import { Provider } from "@/src/components/common/provider";
-import { siteConfig } from "@/src/lib/config";
-import { Header } from "@/src/components/layout/header";
-import { Footer } from "../components/layout/footer";
+import { META_THEME_COLORS, siteConfig } from "@/src/lib/config";
 import { cn } from "@/registry/default/lib/utils";
+import { ActiveThemeProvider } from "../components/docs/active-theme";
+import { LayoutProvider } from "../hooks/use-layout";
 
 const fontSans = Geist({
   subsets: ["latin"],
@@ -22,10 +20,10 @@ export const metadata: Metadata = {
   },
   metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL!),
   description: siteConfig.description,
-  keywords: ["Next.js", "React", "Tailwind CSS", "Components", "aliimam"],
+  keywords: ["Next.js", "React", "Tailwind CSS", "Components", "Ali Imam"],
   authors: [
     {
-      name: "aliimam",
+      name: "Ali Imam",
       url: "https://aliimam.in",
     },
   ],
@@ -68,24 +66,33 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth" suppressHydrationWarning>
+      <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              try {
+                if (localStorage.theme === 'dark' || ((!('theme' in localStorage) || localStorage.theme === 'system') && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                  document.querySelector('meta[name="theme-color"]').setAttribute('content', '${META_THEME_COLORS.dark}')
+                }
+                if (localStorage.layout) {
+                  document.documentElement.classList.add('layout-' + localStorage.layout)
+                }
+              } catch (_) {}
+            `,
+          }}
+        />
+        <meta name="theme-color" content={META_THEME_COLORS.light} />
+      </head>
       <body
         className={cn(
-          "text-foreground group/body overscroll-none font-sans antialiased [--footer-height:calc(var(--spacing)*14)] [--header-height:calc(var(--spacing)*14)] xl:[--footer-height:calc(var(--spacing)*24)]",
+          "text-foreground bg-background group/body overscroll-none antialiased [--footer-height:calc(var(--spacing)*14)] [--header-height:calc(var(--spacing)*14)] xl:[--footer-height:calc(var(--spacing)*24)]",
           fontSans
         )}
       >
         <Provider>
-          <Header />
-          <Suspense
-            fallback={
-              <div className="mt-[400px] flex h-screen justify-center">
-                <Loader strokeWidth={0.5} className="h-10 w-10 animate-spin" />
-              </div>
-            }
-          >
-            <main className="grow">{children}</main>
-          </Suspense>
-          <Footer />
+          <LayoutProvider>
+            <ActiveThemeProvider>{children}</ActiveThemeProvider>
+          </LayoutProvider>
         </Provider>
       </body>
     </html>

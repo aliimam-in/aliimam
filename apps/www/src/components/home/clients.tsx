@@ -34,10 +34,9 @@ export function Clients({ className }: { className?: string }) {
                   />
                 </div>
               ))}
-            </Marquee>
-
-            <div className="bg-linear-to-r from-background absolute inset-y-0 left-0 w-20"></div>
-            <div className="bg-linear-to-l from-background absolute inset-y-0 right-0 w-20"></div>
+            </Marquee> 
+            <div className="bg-linear-to-r from-[oklch(0.141 0.005 285.823)] absolute inset-y-0 left-0 w-40"></div>
+            <div className="bg-linear-to-l from-[oklch(0.141 0.005 285.823)] absolute inset-y-0 right-0 w-40"></div>
             <ProgressiveBlur
               className="pointer-events-none absolute left-0 top-0 h-full w-20"
               direction="left"

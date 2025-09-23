@@ -1,4 +1,4 @@
-# aliimam
+# Ali Imam
 
 > A set of beautifully designed components that you can customize, extend, and build on. Start here then make it your own. Open Source. Open Code.
 
@@ -6,11 +6,65 @@ This file provides LLM-friendly entry points to documentation and examples.
 
 ## Components
 
+- [accordion](https://aliimam.in/docs/components/accordion): The accordion component.
+- [alert](https://aliimam.in/docs/components/alert): The alert component.
+- [alert-dialog](https://aliimam.in/docs/components/alert-dialog): The alert-dialog component.
+- [aspect-ratio](https://aliimam.in/docs/components/aspect-ratio): The aspect-ratio component.
+- [avatar](https://aliimam.in/docs/components/avatar): The avatar component.
+- [badge](https://aliimam.in/docs/components/badge): The badge component.
+- [breadcrumb](https://aliimam.in/docs/components/breadcrumb): The breadcrumb component.
 - [button](https://aliimam.in/docs/components/button): The button component.
+- [calendar](https://aliimam.in/docs/components/calendar): The calendar component.
+- [card](https://aliimam.in/docs/components/card): The card component.
+- [carousel](https://aliimam.in/docs/components/carousel): The carousel component.
+- [chart](https://aliimam.in/docs/components/chart): The chart component.
+- [checkbox](https://aliimam.in/docs/components/checkbox): The checkbox component.
+- [collapsible](https://aliimam.in/docs/components/collapsible): The collapsible component.
+- [command](https://aliimam.in/docs/components/command): The command component.
+- [dialog](https://aliimam.in/docs/components/dialog): The dialog component.
+- [drawer](https://aliimam.in/docs/components/drawer): The drawer component.
+- [dropdown-menu](https://aliimam.in/docs/components/dropdown-menu): The dropdown-menu component.
+- [input](https://aliimam.in/docs/components/input): The input component.
+- [label](https://aliimam.in/docs/components/label): The label component.
+- [navigation-menu](https://aliimam.in/docs/components/navigation-menu): The navigation-menu component.
+- [pagination](https://aliimam.in/docs/components/pagination): The pagination component.
+- [popover](https://aliimam.in/docs/components/popover): The popover component.
+- [progress](https://aliimam.in/docs/components/progress): The progress component.
+- [radio-group](https://aliimam.in/docs/components/radio-group): The radio-group component.
+- [scroll-area](https://aliimam.in/docs/components/scroll-area): The scroll-area component.
+- [select](https://aliimam.in/docs/components/select): The select component.
+- [separator](https://aliimam.in/docs/components/separator): The separator component.
+- [sheet](https://aliimam.in/docs/components/sheet): The sheet component.
+- [sidebar](https://aliimam.in/docs/components/sidebar): The sidebar component.
+- [skeleton](https://aliimam.in/docs/components/skeleton): The skeleton component.
+- [slider](https://aliimam.in/docs/components/slider): The slider component.
+- [sonner](https://aliimam.in/docs/components/sonner): The sonner component.
+- [switch](https://aliimam.in/docs/components/switch): The switch component.
+- [table](https://aliimam.in/docs/components/table): The table component.
+- [tabs](https://aliimam.in/docs/components/tabs): The tabs component.
+- [textarea](https://aliimam.in/docs/components/textarea): The textarea component.
+- [toggle](https://aliimam.in/docs/components/toggle): The toggle component.
+- [toggle-group](https://aliimam.in/docs/components/toggle-group): The toggle-group component.
+- [tooltip](https://aliimam.in/docs/components/tooltip): The tooltip component.
 
 ## Examples
 
+- [Button Demo](https://github.com/aliimam-in/blob/main/example/accordion/accordion-01.tsx): Example usage
 - [Button Demo](https://github.com/aliimam-in/blob/main/example/button-demo.tsx): Example usage
+- [typography-blockquote](https://github.com/aliimam-in/blob/main/example/typography/typography-blockquote.tsx): Example usage
+- [typography-demo](https://github.com/aliimam-in/blob/main/example/typography/typography-demo.tsx): Example usage
+- [typography-h1](https://github.com/aliimam-in/blob/main/example/typography/typography-h1.tsx): Example usage
+- [typography-h2](https://github.com/aliimam-in/blob/main/example/typography/typography-h2.tsx): Example usage
+- [typography-h3](https://github.com/aliimam-in/blob/main/example/typography/typography-h3.tsx): Example usage
+- [typography-h4](https://github.com/aliimam-in/blob/main/example/typography/typography-h4.tsx): Example usage
+- [typography-inline-code](https://github.com/aliimam-in/blob/main/example/typography/typography-inline-code.tsx): Example usage
+- [typography-large](https://github.com/aliimam-in/blob/main/example/typography/typography-large.tsx): Example usage
+- [typography-lead](https://github.com/aliimam-in/blob/main/example/typography/typography-lead.tsx): Example usage
+- [typography-list](https://github.com/aliimam-in/blob/main/example/typography/typography-list.tsx): Example usage
+- [typography-muted](https://github.com/aliimam-in/blob/main/example/typography/typography-muted.tsx): Example usage
+- [typography-p](https://github.com/aliimam-in/blob/main/example/typography/typography-p.tsx): Example usage
+- [typography-small](https://github.com/aliimam-in/blob/main/example/typography/typography-small.tsx): Example usage
+- [typography-table](https://github.com/aliimam-in/blob/main/example/typography/typography-table.tsx): Example usage
 
 ## Optional
 

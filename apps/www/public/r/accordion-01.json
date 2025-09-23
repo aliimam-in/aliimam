@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "accordion-01",
+  "type": "registry:example",
+  "title": "Button Demo",
+  "description": "Example showing a spotlight effect that follows your mouse cursor and highlights borders on hover.",
+  "registryDependencies": [
+    "@aliimam/accordion"
+  ],
+  "files": [
+    {
+      "path": "registry/default/example/accordion/accordion-01.tsx",
+      "content": "import {\n  Accordion,\n  AccordionContent,\n  AccordionItem,\n  AccordionTrigger,\n} from \"@/registry/default/ui/accordion\"\n\nconst items = [\n  {\n    id: \"1\",\n    title: \"What makes Dalim Design different?\",\n    content:\n      \"Dalim Design blends creativity with clarity, offering a visually consistent system that empowers both designers and developers. It emphasizes minimal aesthetics, strong typography, and pixel-perfect components tailored for modern web experiences.\",\n  },\n  {\n    id: \"2\",\n    title: \"How can I customize the design system?\",\n    content:\n      \"Dalim Design is highly flexible—modify design tokens, color palettes, typography scales, and spacing units to suit your brand. The system supports seamless theming, including dark mode and accessibility-aware contrast settings.\",\n  },\n  {\n    id: \"3\",\n    title: \"Is Dalim Design optimized for performance?\",\n    content:\n      \"Absolutely. The design system is streamlined to avoid bloat, enabling fast load times and high responsiveness. Assets are optimized for modern rendering pipelines and support responsive and adaptive layouts by default.\",\n  },\n  {\n    id: \"4\",\n    title: \"How accessible is Dalim Design?\",\n    content:\n      \"Accessibility is a core principle. All visual elements are designed with inclusive UX in mind—ensuring legible typography, sufficient contrast, focus indicators, and compatibility with assistive technologies.\",\n  },\n]\n\nexport default function Component() {\n  return (\n    <div className=\"flex h-full w-full items-center justify-center\">\n      <Accordion\n        type=\"single\"\n        collapsible\n        className=\"w-full max-w-lg -space-y-px rounded-xl\"\n        defaultValue=\"2\"\n      >\n        {items.map((item) => (\n          <AccordionItem\n            value={item.id}\n            key={item.id}\n            className=\"bg-background has-focus-visible:border-ring has-focus-visible:ring-ring/50 relative border px-4 py-1 outline-none first:rounded-t-md last:rounded-b-md last:border-b has-focus-visible:z-10 has-focus-visible:ring-[3px]\"\n          >\n            <AccordionTrigger className=\"justify-start gap-3 rounded-md py-2 text-[15px] leading-6 outline-none hover:no-underline focus-visible:ring-0 [&>svg]:-order-1\">\n              {item.title}\n            </AccordionTrigger>\n            <AccordionContent className=\"text-muted-foreground ps-7 pb-2\">\n              {item.content}\n            </AccordionContent>\n          </AccordionItem>\n        ))}\n      </Accordion>\n    </div>\n  )\n}\n",
+      "type": "registry:example"
+    }
+  ]
+}

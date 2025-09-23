@@ -10,7 +10,7 @@
   "files": [
     {
       "path": "registry/default/example/button-demo.tsx",
-      "content": "import { Button } from \"@/registry/default/ui/button\";\n\nexport default function Demo() {\n  return (\n    <div className=\"relative\">\n      <Button>Button</Button>\n    </div>\n  );\n}\n",
+      "content": "import { Button } from \"@/registry/default/ui/button\";\n\nexport default function Demo() {\n  return (\n    <div>\n      <Button>Button</Button>\n    </div>\n  );\n}\n",
       "type": "registry:example"
     }
   ]

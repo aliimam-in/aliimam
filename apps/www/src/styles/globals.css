@@ -1,6 +1,8 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
+@import "./themes.css";
+
 @custom-variant dark (&:is(.dark *));
 
 @custom-variant fixed (&:is(.layout-fixed *));
@@ -98,7 +100,7 @@
 
 .dark {
   --background: oklch(0.141 0.005 285.823);
-  --foreground: oklch(0.985 0 0);
+  --foreground: oklch(1 0 0);
   --card: oklch(0.21 0.006 285.885);
   --card-foreground: oklch(0.985 0 0);
   --popover: oklch(0.21 0.006 285.885);
@@ -138,25 +140,43 @@
   --selection-foreground: oklch(0.205 0 0);
 }
 
+.lucide {
+  width: 16px;
+  height: 16px;
+  stroke-width: 1.5;
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
   }
+  ::selection {
+    @apply bg-selection text-selection-foreground;
+  }
+  html {
+    @apply scroll-smooth;
+  }
   body {
-    @apply bg-background text-foreground;
+    font-synthesis-weight: none;
+    text-rendering: optimizeLegibility;
+  }
+
+  @supports (font: -apple-system-body) and (-webkit-appearance: none) {
+    [data-wrapper] {
+      @apply min-[1800px]:border-t;
+    }
+  }
+
+  a:active,
+  button:active {
+    @apply opacity-60 md:opacity-100;
   }
 }
 
 @layer utilities {
   .container {
     @apply px-3 mx-auto max-w-screen-lg;
-  }
-}
-
-.lucide {
-  width: 16px;
-  height: 16px;
-  stroke-width: 1.5;
+  } 
 }
 
 @layer components {

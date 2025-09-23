@@ -1,3 +1,57 @@
+===== COMPONENT: accordion =====
+Title: accordion
+Description: The accordion component.
+
+
+
+===== EXAMPLE: accordion-01 =====
+Title: Button Demo
+
+
+
+
+===== COMPONENT: alert =====
+Title: alert
+Description: The alert component.
+
+
+
+
+===== COMPONENT: alert-dialog =====
+Title: alert-dialog
+Description: The alert-dialog component.
+
+
+
+
+===== COMPONENT: aspect-ratio =====
+Title: aspect-ratio
+Description: The aspect-ratio component.
+
+
+
+
+===== COMPONENT: avatar =====
+Title: avatar
+Description: The avatar component.
+
+
+
+
+===== COMPONENT: badge =====
+Title: badge
+Description: The badge component.
+
+
+
+
+===== COMPONENT: breadcrumb =====
+Title: breadcrumb
+Description: The breadcrumb component.
+
+
+
+
 ===== COMPONENT: button =====
 Title: button
 Description: The button component.
@@ -6,4 +60,228 @@ Description: The button component.
 
 ===== EXAMPLE: button-demo =====
 Title: Button Demo
+
+
+
+
+===== COMPONENT: calendar =====
+Title: calendar
+Description: The calendar component.
+
+
+
+
+===== COMPONENT: card =====
+Title: card
+Description: The card component.
+
+
+
+
+===== COMPONENT: carousel =====
+Title: carousel
+Description: The carousel component.
+
+
+
+
+===== COMPONENT: chart =====
+Title: chart
+Description: The chart component.
+
+
+
+
+===== COMPONENT: checkbox =====
+Title: checkbox
+Description: The checkbox component.
+
+
+
+
+===== COMPONENT: collapsible =====
+Title: collapsible
+Description: The collapsible component.
+
+
+
+
+===== COMPONENT: command =====
+Title: command
+Description: The command component.
+
+
+
+
+===== COMPONENT: dialog =====
+Title: dialog
+Description: The dialog component.
+
+
+
+
+===== COMPONENT: drawer =====
+Title: drawer
+Description: The drawer component.
+
+
+
+
+===== COMPONENT: dropdown-menu =====
+Title: dropdown-menu
+Description: The dropdown-menu component.
+
+
+
+
+===== COMPONENT: input =====
+Title: input
+Description: The input component.
+
+
+
+
+===== COMPONENT: label =====
+Title: label
+Description: The label component.
+
+
+
+
+===== COMPONENT: navigation-menu =====
+Title: navigation-menu
+Description: The navigation-menu component.
+
+
+
+
+===== COMPONENT: pagination =====
+Title: pagination
+Description: The pagination component.
+
+
+
+
+===== COMPONENT: popover =====
+Title: popover
+Description: The popover component.
+
+
+
+
+===== COMPONENT: progress =====
+Title: progress
+Description: The progress component.
+
+
+
+
+===== COMPONENT: radio-group =====
+Title: radio-group
+Description: The radio-group component.
+
+
+
+
+===== COMPONENT: scroll-area =====
+Title: scroll-area
+Description: The scroll-area component.
+
+
+
+
+===== COMPONENT: select =====
+Title: select
+Description: The select component.
+
+
+
+
+===== COMPONENT: separator =====
+Title: separator
+Description: The separator component.
+
+
+
+
+===== COMPONENT: sheet =====
+Title: sheet
+Description: The sheet component.
+
+
+
+
+===== COMPONENT: sidebar =====
+Title: sidebar
+Description: The sidebar component.
+
+
+
+
+===== COMPONENT: skeleton =====
+Title: skeleton
+Description: The skeleton component.
+
+
+
+
+===== COMPONENT: slider =====
+Title: slider
+Description: The slider component.
+
+
+
+
+===== COMPONENT: sonner =====
+Title: sonner
+Description: The sonner component.
+
+
+
+
+===== COMPONENT: switch =====
+Title: switch
+Description: The switch component.
+
+
+
+
+===== COMPONENT: table =====
+Title: table
+Description: The table component.
+
+
+
+
+===== COMPONENT: tabs =====
+Title: tabs
+Description: The tabs component.
+
+
+
+
+===== COMPONENT: textarea =====
+Title: textarea
+Description: The textarea component.
+
+
+
+
+===== COMPONENT: toggle =====
+Title: toggle
+Description: The toggle component.
+
+
+
+
+===== COMPONENT: toggle-group =====
+Title: toggle-group
+Description: The toggle-group component.
+
+
+
+
+===== COMPONENT: tooltip =====
+Title: tooltip
+Description: The tooltip component.
 

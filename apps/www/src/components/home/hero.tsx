@@ -8,7 +8,7 @@ import { Clients } from "./clients";
 export function Hero() {
   return (
     <div className="h-screen flex flex-col justify-center items-center">
-      <div className="relative pb-10 text-center">
+      <div className="relative mt-20 pb-10 text-center">
         <Image
           src="/brand/ai-logo.png"
           alt="Logo"

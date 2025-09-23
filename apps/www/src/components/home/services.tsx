@@ -1,6 +1,7 @@
 "use client";
 import * as React from "react";
 import { Gravity, MatterBody } from "@/src/components/ui/gravity";
+
 const designServices = {
   graphicDesign: [
     "Logos",
@@ -64,18 +65,35 @@ const colors = [
   'bg-emerald-500', 'bg-emerald-500', 'bg-emerald-500',
 ];
 
-const Services = () => {
-  // Flatten services and assign positions and colors
-  const allServices = Object.values(designServices).flat();
-  const servicesWithProps = allServices.map((service, index) => ({
-    service,
-    x: `${10 + (index % 10) * 8}%`, // Spread horizontally
-    y: `${10 + Math.floor(index / 10) * 15}%`, // Spread vertically
-    color: colors[Math.floor(Math.random() * colors.length)], // Randomly select a color
-    angle: Math.random() * 30 - 15, // Random angle between -15 and 15 degrees
-  }));
+// Define the type for service items
+type ServiceItem = {
+  service: string;
+  x: string;
+  y: string;
+  color: string;
+  angle: number;
+};
 
+const Services = () => {
+  // Flatten services first
+  const allServices = Object.values(designServices).flat();
+  
+  // State for services with random properties - properly typed
+  const [servicesWithProps, setServicesWithProps] = React.useState<ServiceItem[]>([]);
   const [isMobile, setIsMobile] = React.useState(false);
+
+  // Generate random properties only on client side
+  React.useEffect(() => {
+    const servicesWithRandomProps = allServices.map((service, index) => ({
+      service,
+      x: `${10 + (index % 10) * 8}%`, // Spread horizontally
+      y: `${10 + Math.floor(index / 10) * 15}%`, // Spread vertically
+      color: colors[Math.floor(Math.random() * colors.length)] || 'bg-gray-500', // Randomly select a color with fallback
+      angle: Math.random() * 30 - 15, // Random angle between -15 and 15 degrees
+    }));
+    
+    setServicesWithProps(servicesWithRandomProps);
+  }, []); // Empty dependency array - runs once after mount
 
   React.useEffect(() => {
     const check = () => setIsMobile(window.innerWidth < 768); // md breakpoint
@@ -90,6 +108,21 @@ const Services = () => {
     ? numRows * 300 + 50 // 📱 mobile
     : numRows * 200 + 100; // 💻 desktop
 
+  // Show loading state while random properties are being generated
+  if (servicesWithProps.length === 0) {
+    return (
+      <div className="container" style={{ height: `${containerHeight}px` }}>
+        <div className="w-full h-full border-x border-t rounded-t-3xl relative overflow-hidden">
+          <h1 className="text-7xl md:text-9xl font-bold tracking-tighter absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
+            Skills & Strengths
+          </h1>
+          <div className="absolute inset-0 flex items-center justify-center">
+            <div className="animate-spin rounded-full h-32 w-32 border-b-2 border-gray-900"></div>
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="container" style={{ height: `${containerHeight}px` }}>

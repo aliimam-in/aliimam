@@ -57,8 +57,17 @@ var transformers = [
 ];
 
 // source.config.ts
+import { remarkImage } from "fumadocs-core/mdx-plugins";
 var source_config_default = defineConfig({
   mdxOptions: {
+    remarkPlugins: [
+      [
+        remarkImage,
+        {
+          onError: "ignore"
+        }
+      ]
+    ],
     rehypePlugins: (plugins) => {
       plugins.shift();
       plugins.push([
@@ -98,7 +107,20 @@ var showcase = defineDocs({
     })
   }
 });
+var blogs = defineDocs({
+  dir: "./src/content/blogs",
+  docs: {
+    schema: frontmatterSchema.extend({
+      tag: z.array(z.string()).optional(),
+      publishedOn: z.string(),
+      featured: z.boolean().optional().default(false),
+      image: z.string().optional(),
+      author: z.string().optional()
+    })
+  }
+});
 export {
+  blogs,
   source_config_default as default,
   docs,
   showcase

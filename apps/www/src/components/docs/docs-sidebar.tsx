@@ -1,42 +1,59 @@
-"use client"
+"use client";
 
-import Link from "next/link"
-import { usePathname } from "next/navigation"
-import type { source } from "@/src/lib/source"
+import Link from "next/link"; 
+import { usePathname } from "next/navigation";
+import type { source } from "@/src/lib/source";
 
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@/registry/default/ui/accordion"
+} from "@/registry/default/ui/accordion";
 import {
   Sidebar,
   SidebarContent,
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
-} from "@/registry/default/ui/sidebar"
+} from "@/registry/default/ui/sidebar"; 
+import { SwitchPage } from "./switch-pages";
 
 export function DocsSidebar({
   tree,
   ...props
 }: React.ComponentProps<typeof Sidebar> & { tree: typeof source.pageTree }) {
-  const pathname = usePathname()
+  const pathname = usePathname();
 
+  // Find the parent folder ID for the current pathname
+  const defaultOpenItem = tree.children.find(
+    (item) =>
+      item.type === "folder" &&
+      //@ts-ignore
+      item.children?.some((child) => child.url === pathname)
+  )?.$id;
+ 
   return (
     <Sidebar
-      className="sticky ml-auto top-20 px-2 z-30 hidden h-[calc(100svh-var(--header-height))] bg-transparent lg:flex"
+      className="sticky ml-auto top-20 pr-2 z-30 hidden h-[calc(100svh-var(--header-height))] bg-transparent lg:flex"
       collapsible="none"
       {...props}
     >
       <SidebarContent className="no-scrollbar px-2 pb-12">
+      <SwitchPage/>
         <div className="h-[var(--top-spacing)] shrink-0" />
 
-        <Accordion defaultValue="backgrounds" type="single" collapsible className="w-full">
+        <Accordion
+          type="single"
+          collapsible
+          className="w-full"
+          defaultValue={defaultOpenItem ? String(defaultOpenItem) : undefined}
+        >
           {tree.children.map((item) => (
             <AccordionItem key={item.$id} value={String(item.$id)}>
-              <AccordionTrigger className="text-muted-foreground py-2 font-medium">{item.name}</AccordionTrigger>
+              <AccordionTrigger className="text-muted-foreground py-2 font-medium">
+                {item.name}
+              </AccordionTrigger>
 
               <AccordionContent>
                 {item.type === "folder" && item.children && (
@@ -54,7 +71,7 @@ export function DocsSidebar({
                             </SidebarMenuButton>
                           </SidebarMenuItem>
                         )
-                      )
+                      );
                     })}
                   </SidebarMenu>
                 )}
@@ -64,5 +81,5 @@ export function DocsSidebar({
         </Accordion>
       </SidebarContent>
     </Sidebar>
-  )
+  );
 }

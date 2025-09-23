@@ -5,7 +5,7 @@ type Config = {
   style: "default"
   packageManager: "npm" | "yarn" | "pnpm" | "bun"
   installationType: "cli" | "manual"
-  radius: number
+  radius: number 
 }
 
 const configAtom = atomWithStorage<Config>("config", {

@@ -37,6 +37,36 @@ export function Works() {
               </h1>
             </div> 
           </div>, 
+          <div
+            key={"4"}
+            className="border h-[350px] relative overflow-hidden md:h-[600px] rounded-md p-6 bg-card text-card-foreground"
+          >
+            <div className="text-center flex justify-center items-center h-full w-full">
+              <h1 className="text-5xl md:text-9xl  font-bold tracking-tighter">
+               Design.
+              </h1>
+            </div> 
+          </div>, 
+          <div
+            key={"5"}
+            className="border h-[350px] relative overflow-hidden md:h-[600px] rounded-md p-6 bg-card text-card-foreground"
+          >
+            <div className="text-center flex justify-center items-center h-full w-full">
+              <h1 className="text-5xl md:text-9xl font-bold tracking-tighter">
+                Without.
+              </h1>
+            </div> 
+          </div>, 
+          <div
+            key={"6"}
+            className="border h-[350px] relative overflow-hidden md:h-[600px] rounded-md p-6 bg-card text-card-foreground"
+          >
+            <div className="text-center flex justify-center items-center h-full w-full">
+              <h1 className="text-5xl md:text-9xl  font-bold tracking-tighter">
+                Limits.
+              </h1>
+            </div> 
+          </div>, 
         ]}
       />
       <Link className="flex justify-center mt-10" href="#">

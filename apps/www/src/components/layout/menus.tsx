@@ -22,6 +22,12 @@ const components: { title: string; href: string; description: string }[] = [
       "Coming Soon!",
   },  
   {
+    title: "UI",
+    href: "/docs/ui",
+    description:
+      "Coming Soon!",
+  },  
+  {
     title: "Pricing",
     href: "/pricing",
     description: "Coming Soon!",

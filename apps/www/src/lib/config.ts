@@ -1,5 +1,5 @@
 export const siteConfig = {
-  name: "aliimam",
+  name: "Ali Imam",
   url: "https://aliimam.in",
   ogImage: "https://aliimam.in/opengraph-image.jpg",
   description:

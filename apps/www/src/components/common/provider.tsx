@@ -3,7 +3,8 @@
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { ThemeProvider } from "./theme-provider";
-import { GoogleAnalytics } from '@next/third-parties/google'
+import { GoogleAnalytics } from "@next/third-parties/google";
+import { Toaster } from "@/registry/default/ui/sonner" 
 
 export function Provider({
   children,
@@ -19,6 +20,7 @@ export function Provider({
         disableTransitionOnChange
       >
         {children}
+        <Toaster position="top-center" />
       </ThemeProvider>
       <Analytics />
       <GoogleAnalytics gaId="G-7DJXCEPQ1E" />

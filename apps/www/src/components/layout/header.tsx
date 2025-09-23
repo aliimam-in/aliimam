@@ -36,7 +36,7 @@ export const Header = () => {
           className={cn(
             "mx-auto mt-2 transition-all duration-300",
             isScrolled &&
-              "bg-background/50 max-w-5xl rounded-2xl border backdrop-blur-2xl px-3"
+              "bg-[oklch(0.141 0.005 285.823)]/50 max-w-5xl rounded-2xl border backdrop-blur-xl px-3" 
           )}
         >
           <div className="relative flex flex-wrap items-center justify-between gap-3 py-3">
