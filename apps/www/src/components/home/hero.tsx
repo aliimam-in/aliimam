@@ -62,9 +62,9 @@ export function Hero() {
         className="h-[800px] w-full inset-0 absolute mask-b-from-0% object-cover -z-50 invert dark:invert-0"
       />
       <Backgrounds
-        className="absolute -z-20 mask-b-from-0% mask-l-from-10% mask-r-from-10%"
-        squareSize={1}
-        gridGap={4}
+        className="absolute -z-20 mask-b-from-0% mask-l-from-30% mask-r-from-30%"
+        squareSize={1.5}
+        gridGap={3}
         color="#6B7280"
         maxOpacity={1}
         flickerChance={0.5}

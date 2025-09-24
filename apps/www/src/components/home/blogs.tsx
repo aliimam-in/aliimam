@@ -33,9 +33,9 @@ export async function Blogs() {
 
   return (
     <section className="container">
-      <div className="border-x border-t p-20">
+      <div className="border-x border-t p-6 md:p-20">
         <BlogPosts posts={blogPosts} />
-        <Link className="flex justify-center mt-20" href="/blogs">
+        <Link className="flex justify-center mt-6 md:mt-20" href="/blogs">
           <Button className="h-14 cursor-pointer rounded-full px-10">
             See All Blogs
           </Button>

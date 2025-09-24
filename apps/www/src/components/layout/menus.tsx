@@ -19,30 +19,36 @@ const components: { title: string; href: string; description: string }[] = [
     title: "Docs",
     href: "/docs",
     description:
-      "Coming Soon!",
+      "Explore our comprehensive UI design and components docs, empowering integration.",
   },  
   {
-    title: "UI",
-    href: "/docs/ui",
+    title: "Colors",
+    href: "/colors",
     description:
-      "Coming Soon!",
+      "Vibrant, accessible color palette for intuitive, seamless UI design and components.",
   },  
   {
-    title: "Pricing",
-    href: "/pricing",
-    description: "Coming Soon!",
+    title: "Blocks",
+    href: "/blocks",
+    description: "Modular, flexible UI blocks for intuitive, seamless design and robust functionality.",
   },
   {
     title: "Showcase",
     href: "/showcase",
     description:
-      "Coming Soon!",
+      "Stunning UI component showcase for inspiring, seamless design exploration.",
   },
   {
     title: "Blogs",
     href: "/blogs",
     description:
-      "Coming Soon!",
+      "Engaging UI design blogs with insights for seamless component integration.",
+  },
+  {
+    title: "Contact",
+    href: "/docs/legal/contact",
+    description:
+      "Get in touch for UI design inquiries, support, and seamless collaboration opportunities.",
   },
 ];
 
@@ -63,7 +69,7 @@ export function Menus() {
             Resources
           </NavigationMenuTrigger>
           <NavigationMenuContent className="p-3">
-            <ul className="grid gap-3 md:grid-cols-2 lg:w-[400px]">
+            <ul className="grid gap-3 md:grid-cols-3 lg:w-3xl">
               {components.map((component) => (
                 <ListItem
                   key={component.title}
@@ -81,7 +87,7 @@ export function Menus() {
             asChild
             className={cn(navigationMenuTriggerStyle(), "bg-transparent")}
           >
-            <Link href="/design">Design</Link>
+            <Link href="/docs/ui">Components</Link>
           </NavigationMenuLink>
         </NavigationMenuItem>
       </NavigationMenuList>
@@ -98,7 +104,7 @@ function ListItem({
   return (
     <li {...props}>
       <NavigationMenuLink asChild>
-        <Link className="p-6" href={href}>
+        <Link className="p-3" href={href}>
           <div className="text-sm leading-none font-medium">{title}</div>
           <p className="text-muted-foreground line-clamp-2 text-sm leading-snug">
             {children}

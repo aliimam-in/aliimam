@@ -92,7 +92,7 @@ export default async function PagePage({ params }: PageProps) {
   const { doc, page } = await getDocFromParams({ params });
 
   return (
-    <article className="container py-14">
+    <article className="container py-40">
       <h2 className="mb-4 text-center text-5xl font-bold leading-[1.2] tracking-tighter text-foreground">
         {doc.title}
       </h2>

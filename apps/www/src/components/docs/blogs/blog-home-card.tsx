@@ -39,15 +39,13 @@ export function BlogPosts({ posts }: FeaturesProps) {
   const activePost = posts.find((post) => post.url === activeItem);
 
   return (
-    <div>
+    <div className="mt-6 flex justify-center flex-col">
       <div className="relative z-10 space-y-3 text-center">
         <h2 className="text-3xl font-medium lg:text-5xl">
-          Start Your Project Today
+          UI, Animations & Web Dev
         </h2>
         <p className="text-muted-foreground mx-auto max-w-xl font-light text-sm md:text-md">
-          Bring your brand and ideas to life with professional design services.
-          Whether it’s branding, UI/UX, or marketing materials, our team is
-          ready to help.
+          Latest articles on UI components, animations, and web dev best practices for creating intuitive, engaging, and responsive web designs in 2025.
         </p>
       </div>
 
@@ -56,7 +54,7 @@ export function BlogPosts({ posts }: FeaturesProps) {
           No blog posts available.
         </p>
       ) : (
-        <div className="grid mt-20 gap-10 md:grid-cols-[40%_60%]">
+        <div className="grid justify-center mt-6 md:mt-20 gap-10 lg:grid-cols-[40%_60%]">
           <Accordion
             type="single"
             value={activeItem}
@@ -94,8 +92,8 @@ export function BlogPosts({ posts }: FeaturesProps) {
             ))}
           </Accordion>
 
-          <div className="bg-background relative flex overflow-hidden rounded-3xl border p-2">
-            <div className="bg-background relative w-[calc(3/2*100%+3rem)] rounded-2xl">
+          <div className="relative flex overflow-hidden rounded-3xl border p-2">
+            <div className="relative rounded-2xl">
               <AnimatePresence mode="wait">
                 <motion.div
                   key={`${activeItem}-id`}

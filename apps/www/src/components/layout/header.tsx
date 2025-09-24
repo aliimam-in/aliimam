@@ -11,8 +11,8 @@ import { Menus } from "./menus";
 const menuItems = [
   { name: "About", href: "/about" },
   { name: "Components", href: "/docs" },
-  { name: "Pricing", href: "#link" },
-  { name: "Contact", href: "#link" },
+  { name: "Pricing", href: "/pricing" },
+  { name: "Contact", href: "/docs/legal/contact" },
 ];
 
 export const Header = () => {

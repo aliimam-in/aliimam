@@ -41,13 +41,12 @@ export function DocsSidebar({
     >
       <SidebarContent className="no-scrollbar px-2 pb-12">
       <SwitchPage/>
-        <div className="h-[var(--top-spacing)] shrink-0" />
-
+        <div className="h-[var(--top-spacing)] shrink-0" /> 
         <Accordion
           type="single"
           collapsible
           className="w-full"
-          defaultValue={defaultOpenItem ? String(defaultOpenItem) : undefined}
+          defaultValue={defaultOpenItem ? String(defaultOpenItem) : "ui"}
         >
           {tree.children.map((item) => (
             <AccordionItem key={item.$id} value={String(item.$id)}>
