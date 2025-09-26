@@ -1,8 +1,9 @@
 {
-	"icons": {
-		":15": {
-			"modulz-logo": "icons/15/modulz-logo.svg",
-			"figma-logo": "icons/15/figma-logo.svg"
-		}
-	}
+  "": {
+    ":icons": {
+      "arrow-left": "icons/arrow-left.svg",
+      "arrow-right": "icons/arrow-right.svg"
+    },
+    ":logos": { "cursor": "logos/cursor.svg", "openai": "logos/openai.svg" }
+  }
 }

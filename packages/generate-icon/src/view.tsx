@@ -40,7 +40,7 @@ const CliView = ({ state }: ICliViewProps) => {
 				}>
 					items={[
 						{
-							title: "Generate Icon Lib",
+							title: "Generate Icon",
 							description: "(Figma File → NPM Package)",
 						},
 						{
