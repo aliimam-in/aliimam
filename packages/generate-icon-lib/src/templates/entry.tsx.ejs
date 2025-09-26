@@ -1,7 +1,3 @@
-<% for (const category in iconsByCategory) { -%>
-// <%- category %> Icons
-<% for (const icon of iconsByCategory[category]) { -%>
-export { default as <%- iconToComponentName(icon) %> } from "./<%- category %>/<%- iconToComponentName(icon) %>";
-<% } -%>
-
-<% } -%>
+<% for (const i in icons) { -%>
+export { default as <%- iconToComponentName(icons[i]) %> } from "./<%- stripExtension(iconToReactFileName(icons[i])) %>.js";
+<% } %>
