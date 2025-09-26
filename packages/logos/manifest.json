@@ -2,8 +2,15 @@
   "": {
     ":icons": {
       "arrow-left": "icons/arrow-left.svg",
-      "arrow-right": "icons/arrow-right.svg"
+      "arrow-right": "icons/arrow-right.svg",
+      "arrow-up": "icons/arrow-up.svg",
+      "arrow-down": "icons/arrow-down.svg"
     },
-    ":logos": { "cursor": "logos/cursor.svg", "openai": "logos/openai.svg" }
+    ":logos": {
+      "cursor": "logos/cursor.svg",
+      "openai": "logos/openai.svg",
+      "vercel": "logos/vercel.svg",
+      "google": "logos/google.svg"
+    }
   }
 }
