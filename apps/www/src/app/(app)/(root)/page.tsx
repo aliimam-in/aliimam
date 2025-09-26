@@ -12,16 +12,16 @@ import { Works } from "@/src/components/home/works";
 export default function Home() {
   return (
     <div className=""> 
-      <Hero /> 
+      <Hero />
       <Clients className="md:hidden" />
       <Works />
       <Stats />
-      <Services/>
-      <Pricing/>
-      <Tools/>
-      <Blogs/>
-      <FAQs/>
-      <CallToAction/>
+      <Services />
+      <Pricing />
+      <Tools />
+      <Blogs />
+      <FAQs />
+      <CallToAction />
     </div>
   );
 }
