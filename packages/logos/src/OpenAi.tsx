@@ -1,8 +1,8 @@
 import * as React from "react";
 import type { IconProps } from "./types.js";
 
-export const OpenAiIcon = React.forwardRef<SVGSVGElement, IconProps>(
-  function OpenAiIcon({ color = "currentColor", ...props }, forwardedRef) {
+export const OpenAi = React.forwardRef<SVGSVGElement, IconProps>(
+  function OpenAi({ color = "currentColor", ...props }, forwardedRef) {
     return (
       <svg
         width="15"
@@ -22,4 +22,4 @@ export const OpenAiIcon = React.forwardRef<SVGSVGElement, IconProps>(
   },
 );
 
-export default OpenAiIcon;
+export default OpenAi;

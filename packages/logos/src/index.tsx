@@ -1,4 +1,4 @@
-export { default as ArrowLeftIcon } from "./ArrowLeftIcon.js";
-export { default as ArrowRightIcon } from "./ArrowRightIcon.js";
-export { default as CursorIcon } from "./CursorIcon.js";
-export { default as OpenAiIcon } from "./OpenAiIcon.js";
+export { default as ArrowLeft } from "./ArrowLeft.js";
+export { default as ArrowRight } from "./ArrowRight.js";
+export { default as Cursor } from "./Cursor.js";
+export { default as OpenAi } from "./OpenAi.js";
