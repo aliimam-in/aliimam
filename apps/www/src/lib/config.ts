@@ -3,7 +3,7 @@ export const siteConfig = {
   url: "https://aliimam.in",
   ogImage: "https://aliimam.in/opengraph-image.jpg",
   description:
-    "A set of beautifully designed components that you can customize, extend, and build on. Start here then make it your own. Open Source. Open Code.",
+    "Hi, I'm Ali Imam, I love design and code, I'm currently building a free, open-source design library for everyone.",
   links: {
     twitter: "https://twitter.com/aliimam-in",
     github: "https://github.com/aliimam-in",

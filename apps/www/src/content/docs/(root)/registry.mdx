@@ -1,0 +1,46 @@
+---
+title: Registry
+description: Namespaced registries let you configure multiple resource sources in one project. 
+---
+
+**The Ali Imam Registry lets you install production‑ready shadcn/UI marketing blocks directly into your project using the shadcn CLI. Add the registry once and then pull blocks by name, no rigid templates, just flexible, composable components you can customize and scale across marketing sites.**
+
+## Add registry
+
+Add the Ali Imam registry namespace to your components.json.
+
+```tsx showLineNumbers
+{
+	"registries": {
+	  "@aliimam": "https://aliimam.in/r/{name}.json"
+	}
+}
+```
+
+**Learn more about registry config from** [Shadcn UI docs](https://ui.shadcn.com/docs/registry/namespace) 
+
+## Usage
+
+Install blocks via the shadcn CLI using the `@aliimam/{name}` syntax.
+
+```tsx showLineNumbers
+pnpm dlx shadcn add @aliimam/hero-section-1
+```
+
+## Configure MCP
+
+Run the following command to configure the mcp server:
+
+```tsx showLineNumbers
+pnpm dlx shadcn mcp init
+```
+
+Select your MCP client when prompted. Remember to enable the MCP server in your client when done.
+
+## Prompt
+
+**You can now prompt the server. Here are some prompts to try:**
+
+- Find me a hero from aliimam registry
+- Build me a landing page using a hero and features section from aliimam registry
+- Build me a pricing page using a pricing, logo cloud, comparator and faqs blocks from aliimam mist registry

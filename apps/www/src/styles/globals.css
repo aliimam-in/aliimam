@@ -179,6 +179,10 @@
   } 
 }
 
+@utility theme-container {
+  @apply font-sans;
+}
+
 @layer components {
   .steps {
     &:first-child {

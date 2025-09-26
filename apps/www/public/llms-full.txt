@@ -5,7 +5,27 @@ Description: The accordion component.
 
 
 ===== EXAMPLE: accordion-01 =====
-Title: Button Demo
+Title: Accordion Demo
+
+
+
+===== EXAMPLE: accordion-02 =====
+Title: Accordion Demo
+
+
+
+===== EXAMPLE: accordion-03 =====
+Title: Accordion Demo
+
+
+
+===== EXAMPLE: accordion-04 =====
+Title: Accordion Demo
+
+
+
+===== EXAMPLE: accordion-05 =====
+Title: Accordion Demo
 
 
 

@@ -3,59 +3,91 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@/registry/default/ui/accordion"
+} from "@/registry/default/ui/accordion";
+import { PlusIcon } from "lucide-react";
+import { cn } from "@/registry/default/lib/utils";
+
 
 const items = [
   {
-    id: "1",
-    title: "What makes Dalim Design different?",
+    id: "01",
+    title: "Who am I?",
     content:
-      "Dalim Design blends creativity with clarity, offering a visually consistent system that empowers both designers and developers. It emphasizes minimal aesthetics, strong typography, and pixel-perfect components tailored for modern web experiences.",
+      "I’m Ali Imam — a designer and creative developer focused on building digital experiences that are minimal, meaningful, and timeless.",
   },
   {
-    id: "2",
-    title: "How can I customize the design system?",
+    id: "02",
+    title: "What do I design?",
     content:
-      "Dalim Design is highly flexible—modify design tokens, color palettes, typography scales, and spacing units to suit your brand. The system supports seamless theming, including dark mode and accessibility-aware contrast settings.",
+      "I create clean, functional interfaces, brand systems, and digital products. My work blends simplicity with clarity and usability.",
   },
   {
-    id: "3",
-    title: "Is Dalim Design optimized for performance?",
+    id: "03",
+    title: "My design approach",
     content:
-      "Absolutely. The design system is streamlined to avoid bloat, enabling fast load times and high responsiveness. Assets are optimized for modern rendering pipelines and support responsive and adaptive layouts by default.",
+      "For me, design isn’t just visuals — it’s how something feels and works. I focus on clarity, detail, and storytelling in every project.",
   },
   {
-    id: "4",
-    title: "How accessible is Dalim Design?",
+    id: "04",
+    title: "Beyond design",
     content:
-      "Accessibility is a core principle. All visual elements are designed with inclusive UX in mind—ensuring legible typography, sufficient contrast, focus indicators, and compatibility with assistive technologies.",
+      "I bridge design and development, turning ideas into interactive experiences with modern tools and technology.",
   },
-]
+  {
+    id: "05",
+    title: "What inspires me",
+    content:
+      "Minimalism, architecture, and everyday details. I believe great design is found in the small things we often overlook.",
+  },
+  {
+    id: "06",
+    title: "Who I work with",
+    content:
+      "I collaborate with startups, brands, and individuals who value thoughtful design and want to create lasting impact.",
+  },
+  {
+    id: "07",
+    title: "My toolkit",
+    content:
+      "Figma, Next.js, and modern frameworks are part of my process — but for me, tools always serve the idea, not the other way around.",
+  },
+  {
+    id: "08",
+    title: "Let’s connect",
+    content:
+      "You can reach me through contact@aliimam.in or on social platforms. I’m always open to new projects, collaborations, and conversations.",
+  },
+];
 
-export default function Component() {
+export function PricingAccordion() {
   return (
-    <div className="flex h-full w-full items-center justify-center">
-      <Accordion
-        type="single"
-        collapsible
-        className="w-full max-w-lg -space-y-px rounded-xl"
-        defaultValue="2"
-      >
+    <div className="w-full max-w-xl mx-auto">
+      <Accordion type="single" defaultValue="04" collapsible className="w-full">
         {items.map((item) => (
-          <AccordionItem
-            value={item.id}
-            key={item.id}
-            className="bg-background has-focus-visible:border-ring has-focus-visible:ring-ring/50 relative border px-4 py-1 outline-none first:rounded-t-md last:rounded-b-md last:border-b has-focus-visible:z-10 has-focus-visible:ring-[3px]"
-          >
-            <AccordionTrigger className="justify-start gap-3 rounded-md py-2 text-[15px] leading-6 outline-none hover:no-underline focus-visible:ring-0 [&>svg]:-order-1">
-              {item.title}
+          <AccordionItem value={item.id} key={item.id}>
+            <AccordionTrigger className="text-left hover:pl-3 hover:[&_div.bg-primary]:bg-secondary duration-1000 hover:no-underline cursor-pointer [data-slot=accordion-trigger] [&>svg]:hidden hover:[&_svg]:rotate-90 hover:[&_svg]:text-primary">
+              <div className="flex flex-1 items-start justify-between gap-4">
+                <div className="flex gap-3 items-center">
+                  <h1>{item.id}</h1>
+                  <h3 className="text-lg md:text-xl font-semibold">{item.title}</h3>
+                </div>
+                <div className="bg-primary duration-500 rounded-sm flex items-center p-2">
+                  <PlusIcon
+                    className={cn(
+                      "text-primary-foreground h-6 w-6 shrink-0 transition-transform duration-1000",
+                      "[data-state=open]:rotate-90"
+                    )}
+                  />
+                </div>
+              </div>
             </AccordionTrigger>
-            <AccordionContent className="text-muted-foreground ps-7 pb-2">
+
+            <AccordionContent className="text-muted-foreground pb-6 pr-20">
               {item.content}
             </AccordionContent>
           </AccordionItem>
         ))}
       </Accordion>
     </div>
-  )
+  );
 }

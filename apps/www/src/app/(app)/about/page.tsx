@@ -7,6 +7,8 @@ import { Welcome } from "@/src/components/pages/about/welcome";
 import { Workstation } from "@/src/components/pages/about/workstation";
 import { Journey } from "@/src/components/pages/about/journey";
 import { Connect } from "@/src/components/pages/about/connect";
+import { Timeline } from "@/src/components/pages/about/timeline";
+import { Craete } from "@/src/components/pages/about/create";
 
 export default function About() {
   return (
@@ -24,6 +26,8 @@ export default function About() {
       <Welcome />
       <Workstation/>
       <Journey/>
+      <Timeline/>
+      <Craete/>
       <Connect/>
       <Image
         src="/brand/bg-dot.jpg"

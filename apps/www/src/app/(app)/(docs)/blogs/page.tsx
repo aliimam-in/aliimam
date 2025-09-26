@@ -1,3 +1,4 @@
+import { SidebarTrigger } from "@/registry/default/ui/sidebar";
 import { siteConfig } from "@/src/lib/config";
 import { blogSource } from "@/src/lib/source";
 import {
@@ -98,142 +99,143 @@ export default async function Page({
         }}
       />
       <div
-        data-slot="blocks"
-        className="flex items-stretch text-[1.05rem] mt-3 sm:text-[15px] xl:w-full"
+        data-slot="blogs"
+        className="flex relative items-stretch text-[1.05rem] sm:text-[15px] xl:w-full"
       >
-        <main className="flex px-6 lg:px-10 min-w-0 gap-10 pb-10 flex-1 border rounded-md flex-col">
-          <div className="space-y-6 my-6 md:my-10 text-center px-6">
-            <h2 className="font-extrabold tracking-tighter text-5xl md:text-7xl lg:text-9xl">
-              Blogs
-            </h2>
-            <p className="text-muted-foreground font-light text-sm md:text-xl">
-              Coming Soon!
-            </p>
-            {filteredPosts.length > 0 && (
-              <p className="text-sm text-muted-foreground">
-                {selectedTag
-                  ? `${pluralize(filteredPosts.length, "article")} tagged with "${selectedTag}"`
-                  : `${pluralize(filteredPosts.length, "article")} total`}
+        <div className="flex min-w-0 flex-1 border rounded-md flex-col">
+          
+          <main className="p-6 space-y-6">
+            <div className="space-y-6 my-6 md:my-10 text-center px-6">
+              <h2 className="font-extrabold tracking-tighter text-5xl md:text-7xl lg:text-9xl">
+                Blogs
+              </h2>
+              <p className="text-muted-foreground font-light text-sm md:text-xl">
+                Coming Soon!
               </p>
-            )}
-          </div>
+              {filteredPosts.length > 0 && (
+                <p className="text-sm text-muted-foreground">
+                  {selectedTag
+                    ? `${pluralize(filteredPosts.length, "article")} tagged with "${selectedTag}"`
+                    : `${pluralize(filteredPosts.length, "article")} total`}
+                </p>
+              )}
+            </div>
 
-          {tags.length > 0 && (
-            <nav className="">
-              <div className="flex flex-wrap gap-2">
-                <Link
-                  href="/blogs"
-                  className={`rounded-full border px-3 py-1.5 text-sm font-medium transition-colors ${
-                    !selectedTag
-                      ? "bg-primary text-primary-foreground"
-                      : "text-muted-foreground hover:bg-muted hover:text-foreground"
-                  }`}
-                >
-                  All
-                </Link>
-                {tags.map((tag) => (
+            {tags.length > 0 && (
+              <nav className="">
+                <div className="flex flex-wrap gap-2">
                   <Link
-                    key={tag}
-                    href={`/blogs?tag=${encodeURIComponent(tag)}`}
+                    href="/blogs"
                     className={`rounded-full border px-3 py-1.5 text-sm font-medium transition-colors ${
-                      selectedTag === tag
+                      !selectedTag
                         ? "bg-primary text-primary-foreground"
                         : "text-muted-foreground hover:bg-muted hover:text-foreground"
                     }`}
                   >
-                    {tag}
+                    All
                   </Link>
-                ))}
+                  {tags.map((tag) => (
+                    <Link
+                      key={tag}
+                      href={`/blogs?tag=${encodeURIComponent(tag)}`}
+                      className={`rounded-full border px-3 py-1.5 text-sm font-medium transition-colors ${
+                        selectedTag === tag
+                          ? "bg-primary text-primary-foreground"
+                          : "text-muted-foreground hover:bg-muted hover:text-foreground"
+                      }`}
+                    >
+                      {tag}
+                    </Link>
+                  ))}
+                </div>
+              </nav>
+            )}
+
+            {filteredPosts.length === 0 ? (
+              <div className="py-16 text-center">
+                <p className="text-lg text-muted-foreground">
+                  {selectedTag
+                    ? `No articles found for "${selectedTag}".`
+                    : "No posts yet."}
+                </p>
+                {selectedTag && (
+                  <Link
+                    href="/blogs"
+                    className="mt-4 inline-flex items-center text-primary hover:underline"
+                  >
+                    View all articles
+                  </Link>
+                )}
               </div>
-            </nav>
-          )}
+            ) : (
+              <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+                {filteredPosts.map((post) => (
+                  <article
+                    key={post.url}
+                    className="group flex flex-col overflow-hidden rounded-xl border bg-card transition-all duration-200 hover:bg-accent/5"
+                  >
+                    <Link href={post.url} className="flex flex-col h-full">
+                      {post.data?.image && (
+                        <div className="aspect-video overflow-hidden">
+                          <img
+                            src={post.data.image}
+                            alt={post.data?.title ?? post.url}
+                            width={640}
+                            height={360}
+                            className="h-full w-full object-cover"
+                          />
+                        </div>
+                      )}
 
-          {filteredPosts.length === 0 ? (
-            <div className="py-16 text-center">
-              <p className="text-lg text-muted-foreground">
-                {selectedTag
-                  ? `No articles found for "${selectedTag}".`
-                  : "No posts yet."}
-              </p>
-              {selectedTag && (
-                <Link
-                  href="/blogs"
-                  className="mt-4 inline-flex items-center text-primary hover:underline"
-                >
-                  View all articles
-                </Link>
-              )}
-            </div>
-          ) : (
-            <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-              {filteredPosts.map((post) => (
-                <article
-                  key={post.url}
-                  className="group flex flex-col overflow-hidden rounded-xl border bg-card transition-all duration-200 hover:bg-accent/5"
-                >
-                  <Link href={post.url} className="flex flex-col h-full">
-                    {post.data?.image && (
-                      <div className="aspect-video overflow-hidden">
-                        <img
-                          src={post.data.image}
-                          alt={post.data?.title ?? post.url}
-                          width={640}
-                          height={360}
-                          className="h-full w-full object-cover"
-                        />
-                      </div>
-                    )}
-
-                    <div className="flex flex-col flex-1 p-6 space-y-4">
-                      <div className="flex-1 space-y-2">
-                        <h2 className="line-clamp-2 text-xl font-semibold leading-tight group-hover:text-primary transition-colors">
-                          {post.data?.title ?? post.url}
-                        </h2>
-                        {post.data?.description && (
-                          <p className="line-clamp-3 text-sm text-muted-foreground leading-relaxed">
-                            {post.data.description}
-                          </p>
-                        )}
-                      </div>
-
-                      <div className="flex flex-col gap-2 text-xs text-muted-foreground">
-                        <div className="flex items-center gap-2">
-                          {post.data?.publishedOn && (
-                            <time dateTime={post.data.publishedOn}>
-                              {formatDate(post.data.publishedOn)}
-                            </time>
+                      <div className="flex flex-col flex-1 p-6 space-y-4">
+                        <div className="flex-1 space-y-2">
+                          <h2 className="line-clamp-2 text-xl font-semibold leading-tight group-hover:text-primary transition-colors">
+                            {post.data?.title ?? post.url}
+                          </h2>
+                          {post.data?.description && (
+                            <p className="line-clamp-3 text-sm text-muted-foreground leading-relaxed">
+                              {post.data.description}
+                            </p>
                           )}
-                          {post.data?.publishedOn && <span>·</span>}
-                          <span>
-                            {calculateReadingTime(post.data?.content ?? "")} min
-                            read
-                          </span>
                         </div>
 
-                        {normalizeTag(post.data?.tag).length > 0 && (
-                          <div className="flex flex-wrap gap-1">
-                            {normalizeTag(post.data.tag).map((tag) => (
-                              <Link 
-                                key={tag}
-                                href={`/blogs?tag=${encodeURIComponent(tag)}`}
-                                className="rounded-md border px-2 py-1 text-xs transition-colors hover:bg-accent"
-                              >
-                                {tag}
-                              </Link>
-                            ))}
+                        <div className="flex flex-col gap-2 text-xs text-muted-foreground">
+                          <div className="flex items-center gap-2">
+                            {post.data?.publishedOn && (
+                              <time dateTime={post.data.publishedOn}>
+                                {formatDate(post.data.publishedOn)}
+                              </time>
+                            )}
+                            {post.data?.publishedOn && <span>·</span>}
+                            <span>
+                              {calculateReadingTime(post.data?.content ?? "")}{" "}
+                              min read
+                            </span>
                           </div>
-                        )}
+
+                          {normalizeTag(post.data?.tag).length > 0 && (
+                            <div className="flex flex-wrap gap-1">
+                              {normalizeTag(post.data.tag).map((tag) => (
+                                <Link
+                                  key={tag}
+                                  href={`/blogs?tag=${encodeURIComponent(tag)}`}
+                                  className="rounded-md border px-2 py-1 text-xs transition-colors hover:bg-accent"
+                                >
+                                  {tag}
+                                </Link>
+                              ))}
+                            </div>
+                          )}
+                        </div>
                       </div>
-                    </div>
-                  </Link>
-                </article>
-              ))}
-            </div>
-          )}
-        </main>
-        <div className="sticky top-24 z-30 ml-auto hidden h-[calc(100svh-var(--footer-height)+2rem)] w-64 flex-col gap-4 overflow-hidden overscroll-none pb-8 xl:flex">
-          <div className="h-(--top-spacing) shrink-0" />
+                    </Link>
+                  </article>
+                ))}
+              </div>
+            )}
+          </main>
         </div>
+        
       </div>
     </>
   );

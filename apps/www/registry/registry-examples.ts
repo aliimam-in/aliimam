@@ -4,13 +4,69 @@ export const examples: Registry["items"] = [
   {
     name: "accordion-01",
     type: "registry:example",
-    title: "Button Demo",
+    title: "Accordion Demo",
+    description:
+      "Personal FAQ accordion introducing Ali Imam, his design approach, inspirations, and ways to connect for collaborations.",
+    registryDependencies: ["@aliimam/accordion"],
+    files: [
+      {
+        path: "example/accordion/accordion-01.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    name: "accordion-02",
+    type: "registry:example",
+    title: "Accordion Demo",
     description:
       "Example showing a spotlight effect that follows your mouse cursor and highlights borders on hover.",
     registryDependencies: ["@aliimam/accordion"],
     files: [
       {
-        path: "example/accordion/accordion-01.tsx",
+        path: "example/accordion/accordion-02.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    name: "accordion-03",
+    type: "registry:example",
+    title: "Accordion Demo",
+    description:
+      "Example showing a spotlight effect that follows your mouse cursor and highlights borders on hover.",
+    registryDependencies: ["@aliimam/accordion"],
+    files: [
+      {
+        path: "example/accordion/accordion-03.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    name: "accordion-04",
+    type: "registry:example",
+    title: "Accordion Demo",
+    description:
+      "Example showing a spotlight effect that follows your mouse cursor and highlights borders on hover.",
+    registryDependencies: ["@aliimam/accordion"],
+    files: [
+      {
+        path: "example/accordion/accordion-04.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    name: "accordion-05",
+    type: "registry:example",
+    title: "Accordion Demo",
+    description:
+      "Example showing a spotlight effect that follows your mouse cursor and highlights borders on hover.",
+    registryDependencies: ["@aliimam/accordion"],
+    files: [
+      {
+        path: "example/accordion/accordion-05.tsx",
         type: "registry:example",
       },
     ],

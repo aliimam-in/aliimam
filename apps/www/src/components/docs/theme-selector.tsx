@@ -170,7 +170,7 @@ export function DocThemeSelector({ className }: React.ComponentProps<"div">) {
   }
 
   return (
-    <div className="flex flex-col justify-center gap-3 px-6">
+    <div className="flex flex-col px-4 pt-6 justify-center gap-3">
       {mounted && (
         <div className="flex flex-col items-center gap-3">
           <div className="text-muted-foreground flex justify-between gap-2 text-xs">
@@ -242,12 +242,12 @@ export function DocThemeSelector({ className }: React.ComponentProps<"div">) {
           </SelectContent>
         </Select>
       </div>
-      <Separator className="my-4" />
     </div>
   );
 }
 
 export function BlockThemeSelector({}: React.ComponentProps<"div">) {
+  const { activeTheme, setActiveTheme } = useThemeConfig();
   const [config, setConfig] = useConfig();
   const [mounted, setMounted] = useState(false);
   useEffect(() => setMounted(true), []);
@@ -258,10 +258,15 @@ export function BlockThemeSelector({}: React.ComponentProps<"div">) {
   }
 
   return (
-    <div className="flex flex-col justify-center gap-3 px-6">
+    <div className="flex px-4 pt-6 items-end justify-center gap-3">
       {mounted && (
-        <div className="flex items-center gap-2">
-          <Label className="text-xs font-medium">Border Radius</Label>
+        <div className="flex flex-col items-center gap-3">
+          <div className="text-muted-foreground flex justify-between gap-2 text-xs">
+            <Label className="text-xs font-medium">Border Radius:</Label>
+            <span className="text-brand font-semibold">
+              {config.radius}rem
+            </span>
+          </div>
           <Slider
             value={[config.radius]}
             onValueChange={(value) => {
@@ -277,11 +282,49 @@ export function BlockThemeSelector({}: React.ComponentProps<"div">) {
             step={0.1}
             className="w-40"
           />
-          <div className="text-muted-foreground flex justify-between gap-2 text-xs">
-            <span className="font-medium">{config.radius} rem</span>
-          </div>
         </div>
       )}
+      <div className={cn("flex w-full items-center justify-center gap-2")}>
+        <Label htmlFor="theme-selector" className="sr-only">
+          Theme
+        </Label>
+        <Select value={activeTheme} onValueChange={setActiveTheme}>
+          <SelectTrigger
+            id="theme-selector"
+            size="sm"
+            className="bg-secondary text-secondary-foreground border-secondary justify-start shadow-none *:data-[slot=select-value]:w-12"
+          >
+            <span className="font-medium">Theme:</span>
+            <SelectValue placeholder="Select a theme" />
+          </SelectTrigger>
+          <SelectContent align="end">
+            <SelectGroup>
+              {DEFAULT_THEMES.map((theme) => (
+                <SelectItem
+                  key={theme.name}
+                  value={theme.value}
+                  className="data-[state=checked]:opacity-50"
+                >
+                  {theme.name}
+                </SelectItem>
+              ))}
+            </SelectGroup>
+            <SelectSeparator />
+            <SelectGroup>
+              <SelectLabel>Colors</SelectLabel>
+              {COLOR_THEMES.map((theme) => (
+                <SelectItem
+                  key={theme.name}
+                  value={theme.value}
+                  className="data-[state=checked]:opacity-50"
+                >
+                  {theme.name}
+                </SelectItem>
+              ))}
+            </SelectGroup>
+          </SelectContent>
+        </Select>
+      </div>
     </div>
   );
 }

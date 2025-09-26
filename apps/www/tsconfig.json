@@ -18,6 +18,7 @@
     "**/*.tsx",
     "next-env.d.ts",
     "next.config.mjs",
+    "scripts/build-registry.mts",
     ".next/types/**/*.ts"
   ],
   "exclude": [

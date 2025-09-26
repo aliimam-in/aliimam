@@ -1,0 +1,69 @@
+{
+	"name": "@aliimam/logos",
+	"version": "0.0.4",
+	"license": "MIT",
+	"description": "Ali Imam React Icon Set",
+	"source": "./src/index.tsx",
+	"type": "module",
+	"main": "./src/index.tsx",
+	"module": "./src/index.tsx", 
+	"scripts": {
+		"generate-src": "generate-icon --file=9LLDXYb3i7M7fg3sGFHkyQ && mv ./icons/15/* ./icons && rmdir ./icons/15 && cd ./icons && zip -r ../../../radix-icons.zip ./",
+		"build": "rimraf dist && pnpm build:esm && pnpm build:cjs",
+		"build:esm": "tsc",
+		"build:cjs": "tsc --project tsconfig.cjs.json",
+		"prepublishOnly": "pnpm build"
+	},
+	"exports": {
+		".": "./src/index.tsx",
+		"./icons/*.svg": "./icons/*.svg",
+		"./*": "./src/*.tsx"
+	},
+	"files": [
+		"dist",
+		"src",
+		"icons",
+		"manifest.json"
+	],
+	"sideEffects": false,
+	"publishConfig": {
+		"access": "public",
+		"module": "dist/index.js",
+		"main": "dist/index.js",
+		"types": "dist/index.d.ts",
+		"exports": {
+			".": {
+				"import": {
+					"types": "./dist/index.d.ts",
+					"default": "./dist/index.js"
+				},
+				"require": {
+					"types": "./dist/csj/index.d.ts",
+					"default": "./dist/cjs/index.js"
+				}
+			},
+			"./icons/*.svg": "./icons/*.svg",
+			"./*": {
+				"import": {
+					"types": "./dist/*.d.ts",
+					"default": "./dist/*.js"
+				},
+				"require": {
+					"types": "./dist/csj/*.d.ts",
+					"default": "./dist/cjs/*.js"
+				}
+			}
+		}
+	},
+	"peerDependencies": {
+		"react": "^16.x || ^17.x || ^18.x || ^19.x"
+	},
+	"devDependencies": {
+		"@aliimam/generate-icon": "workspace:*",
+		"@types/react": "^19.1.12",
+		"@types/react-dom": "^19.1.9",
+		"react": "^19.1.1",
+		"tsdx": "^0.14.1",
+		"typescript": "^5.9.2"
+	}
+}

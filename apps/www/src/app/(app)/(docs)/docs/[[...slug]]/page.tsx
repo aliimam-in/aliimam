@@ -12,7 +12,8 @@ import { Badge } from "@/registry/default/ui/badge";
 import { Button } from "@/registry/default/ui/button";
 import { ArrowLeft, ArrowRight, ArrowUpRight } from "lucide-react";
 import { DocThemeSelector } from "@/src/components/docs/theme-selector";
-
+import { Separator } from "@/registry/default/ui/separator";
+ 
 export const revalidate = false;
 export const dynamic = "force-static";
 export const dynamicParams = false;
@@ -88,12 +89,12 @@ export default async function Page(props: {
 
   return (
     <div
-      data-slot="docs"
-      className="flex items-stretch text-[1.05rem] mt-3 sm:text-[15px] xl:w-full"
+      data-slot="blocks"
+      className="flex relative items-stretch xl:w-full"
     >
-      <div className="flex px-6 lg:px-10 min-w-0 flex-1 border rounded-md flex-col">
-        <div className="h-(--top-spacing) shrink-0" />
-        <div className="flex w-full min-w-0 flex-1 flex-col gap-8 py-6 md:px-0 lg:py-8">
+      <div className="flex min-w-0 flex-1 border rounded-md flex-col">
+         
+        <div className="px-6 pt-6 flex flex-1 gap-10 pb-10 md:gap-20 min-w-0 flex-col">
           <div className="flex flex-col gap-2">
             <div className="flex flex-col gap-2">
               <div className="flex items-start justify-between">
@@ -162,48 +163,46 @@ export default async function Page(props: {
           <div className="w-full flex-1 *:data-[slot=alert]:first:mt-0">
             <MDX components={mdxComponents} />
           </div>
-        </div>
-        <div className="hidden mb-2 lg:mb-6 h-16 w-full items-center gap-2 px-4 sm:flex md:px-0">
-          {neighbours.previous && (
-            <Button
-              variant="secondary"
-              size="sm"
-              asChild
-              className="shadow-none"
-            >
-              <Link href={neighbours.previous.url}>
-                <ArrowLeft /> {neighbours.previous.name}
-              </Link>
-            </Button>
-          )}
-          {neighbours.next && (
-            <Button
-              variant="secondary"
-              size="sm"
-              className="ml-auto shadow-none"
-              asChild
-            >
-              <Link href={neighbours.next.url}>
-                {neighbours.next.name} <ArrowRight />
-              </Link>
-            </Button>
-          )}
+          <div className="hidden mb-2 lg:mb-6 h-16 w-full items-center gap-2 px-4 sm:flex md:px-0">
+            {neighbours.previous && (
+              <Button
+                variant="secondary"
+                size="sm"
+                asChild
+                className="shadow-none"
+              >
+                <Link href={neighbours.previous.url}>
+                  <ArrowLeft /> {neighbours.previous.name}
+                </Link>
+              </Button>
+            )}
+            {neighbours.next && (
+              <Button
+                variant="secondary"
+                size="sm"
+                className="ml-auto shadow-none"
+                asChild
+              >
+                <Link href={neighbours.next.url}>
+                  {neighbours.next.name} <ArrowRight />
+                </Link>
+              </Button>
+            )}
+          </div>
         </div>
       </div>
-      <div className="sticky top-24 z-30 ml-auto hidden h-[calc(100svh-var(--footer-height)+2rem)] w-64 flex-col gap-4 overflow-hidden overscroll-none pb-8 xl:flex">
-        <div className="h-(--top-spacing) shrink-0" />
-        <DocThemeSelector className="hidden py-3 md:flex" />
+      <div className="sticky top-24 z-30 ml-auto hidden h-[calc(100svh-var(--footer-height)+2rem)] w-60 flex-col gap-4 overflow-hidden overscroll-none pb-8 xl:flex">
+        <DocThemeSelector className="hidden py-3 md:flex" /> 
         {/* @ts-expect-error - revisit fumadocs types. */}
         {doc.toc?.length ? (
           <div className="no-scrollbar overflow-y-auto px-6">
+             <Separator className="mb-6"/>
             {/* @ts-expect-error - revisit fumadocs types. */}
             <DocsTableOfContents toc={doc.toc} />
-            <div className="h-12" />
+            
           </div>
         ) : null}
-        <div className="flex flex-1 flex-col gap-12 px-6">
-           
-        </div>
+        <div className="flex flex-1 flex-col gap-12 px-6"></div>
       </div>
     </div>
   );

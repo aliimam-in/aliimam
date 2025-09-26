@@ -697,7 +697,7 @@ export const Index: Record<string, any> = {
   },
   "accordion-01": {
     name: "accordion-01",
-    description: "Example showing a spotlight effect that follows your mouse cursor and highlights borders on hover.",
+    description: "Personal FAQ accordion introducing Ali Imam, his design approach, inspirations, and ways to connect for collaborations.",
     type: "registry:example",
     registryDependencies: ["@aliimam/accordion"],
     files: [{
@@ -707,6 +707,74 @@ export const Index: Record<string, any> = {
     }],
     component: React.lazy(async () => {
       const mod = await import("@/registry/default/example/accordion/accordion-01.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    meta: undefined,
+  },
+  "accordion-02": {
+    name: "accordion-02",
+    description: "Example showing a spotlight effect that follows your mouse cursor and highlights borders on hover.",
+    type: "registry:example",
+    registryDependencies: ["@aliimam/accordion"],
+    files: [{
+      path: "registry/default/example/accordion/accordion-02.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/accordion/accordion-02.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    meta: undefined,
+  },
+  "accordion-03": {
+    name: "accordion-03",
+    description: "Example showing a spotlight effect that follows your mouse cursor and highlights borders on hover.",
+    type: "registry:example",
+    registryDependencies: ["@aliimam/accordion"],
+    files: [{
+      path: "registry/default/example/accordion/accordion-03.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/accordion/accordion-03.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    meta: undefined,
+  },
+  "accordion-04": {
+    name: "accordion-04",
+    description: "Example showing a spotlight effect that follows your mouse cursor and highlights borders on hover.",
+    type: "registry:example",
+    registryDependencies: ["@aliimam/accordion"],
+    files: [{
+      path: "registry/default/example/accordion/accordion-04.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/accordion/accordion-04.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    meta: undefined,
+  },
+  "accordion-05": {
+    name: "accordion-05",
+    description: "Example showing a spotlight effect that follows your mouse cursor and highlights borders on hover.",
+    type: "registry:example",
+    registryDependencies: ["@aliimam/accordion"],
+    files: [{
+      path: "registry/default/example/accordion/accordion-05.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/accordion/accordion-05.tsx")
       const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
       return { default: mod.default || mod[exportName] }
     }),

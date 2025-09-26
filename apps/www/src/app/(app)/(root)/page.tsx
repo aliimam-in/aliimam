@@ -8,11 +8,13 @@ import { Services } from "@/src/components/home/services";
 import { Stats } from "@/src/components/home/stats";
 import { Tools } from "@/src/components/home/tools";
 import { Works } from "@/src/components/home/works";
+import { Gemini } from "@aliimam/logos";
 
 export default function Home() {
   return (
-    <div className="">
+    <div className=""> 
       <Hero />
+      <Gemini/>
       <Clients className="md:hidden" />
       <Works />
       <Stats />

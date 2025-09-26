@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"module": "nodenext",
+		"esModuleInterop": true,
+		"target": "esnext",
+		"moduleResolution": "nodenext",
+		"sourceMap": true,
+		"baseUrl": ".",
+		"jsx": "react-jsx",
+		"strict": true,
+		"noImplicitAny": true
+	},
+	"include": ["src/**/*"],
+	"ts-node": {
+		"compilerOptions": {
+			"module": "esnext"
+		}
+	}
+}

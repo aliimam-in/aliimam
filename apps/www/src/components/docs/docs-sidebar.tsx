@@ -1,6 +1,6 @@
 "use client";
 
-import Link from "next/link"; 
+import Link from "next/link";
 import { usePathname } from "next/navigation";
 import type { source } from "@/src/lib/source";
 
@@ -16,8 +16,7 @@ import {
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
-} from "@/registry/default/ui/sidebar"; 
-import { SwitchPage } from "./switch-pages";
+} from "@/registry/default/ui/sidebar";
 
 export function DocsSidebar({
   tree,
@@ -32,16 +31,14 @@ export function DocsSidebar({
       //@ts-ignore
       item.children?.some((child) => child.url === pathname)
   )?.$id;
- 
+
   return (
     <Sidebar
-      className="sticky ml-auto top-20 pr-2 z-30 hidden h-[calc(100svh-var(--header-height))] bg-transparent lg:flex"
       collapsible="none"
       {...props}
+      className="top-20 z-30 hidden bg-transparent lg:flex sticky"
     >
-      <SidebarContent className="no-scrollbar px-2 pb-12">
-      <SwitchPage/>
-        <div className="h-[var(--top-spacing)] shrink-0" /> 
+      <SidebarContent className="no-scrollbar pt-3 px-2 pb-12">
         <Accordion
           type="single"
           collapsible

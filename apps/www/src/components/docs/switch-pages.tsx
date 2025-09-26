@@ -50,9 +50,9 @@ export function SwitchPage() {
   };
 
   return (
-    <div className='mt-3'>
+    <div className='mt-2'>
       <Select value={selectedValue} onValueChange={handleSelectChange}>
-        <SelectTrigger className="w-full min-h-12">
+        <SelectTrigger className="w-full rounded-sm min-h-12">
           <SelectValue className="h-16" placeholder="Select framework" />
         </SelectTrigger>
         <SelectContent>

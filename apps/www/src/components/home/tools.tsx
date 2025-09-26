@@ -21,14 +21,14 @@ export function Tools() {
             <div className="mask-b-from-75% mask-b-to-95% relative h-fit pl-6 md:pl-12">
               <div className="bg-background overflow-hidden rounded-tl-lg border-l border-t pl-2 pt-2 dark:bg-zinc-950">
                 <Image
-                  src="/mail2.png"
+                  src="https://oxymor-ns.tailus.io/logos/linear.svg"
                   className="hidden dark:block"
                   alt="payments illustration dark"
                   width={1207}
                   height={929}
                 />
                 <Image
-                  src="/mail2-light.png"
+                  src="https://oxymor-ns.tailus.io/logos/linear.svg"
                   className="shadow dark:hidden"
                   alt="payments illustration light"
                   width={1207}
@@ -47,14 +47,14 @@ export function Tools() {
               <div className="mask-radial-at-right mask-radial-from-75% mask-radial-[75%_75%] relative max-sm:mb-6">
                 <div className="aspect-76/59 overflow-hidden rounded-r-lg border">
                   <Image
-                    src="/origin-cal-dark.png"
+                    src="https://oxymor-ns.tailus.io/logos/linear.svg"
                     className="hidden dark:block"
                     alt="payments illustration dark"
                     width={1207}
                     height={929}
                   />
                   <Image
-                    src="/origin-cal.png"
+                    src="https://oxymor-ns.tailus.io/logos/linear.svg"
                     className="shadow dark:hidden"
                     alt="payments illustration light"
                     width={1207}

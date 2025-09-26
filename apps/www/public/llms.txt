@@ -1,6 +1,6 @@
 # Ali Imam
 
-> A set of beautifully designed components that you can customize, extend, and build on. Start here then make it your own. Open Source. Open Code.
+> Hi, I'm Ali Imam, I love design and code, I'm currently building a free, open-source design library for everyone.
 
 This file provides LLM-friendly entry points to documentation and examples.
 
@@ -49,7 +49,11 @@ This file provides LLM-friendly entry points to documentation and examples.
 
 ## Examples
 
-- [Button Demo](https://github.com/aliimam-in/blob/main/example/accordion/accordion-01.tsx): Example usage
+- [Accordion Demo](https://github.com/aliimam-in/blob/main/example/accordion/accordion-01.tsx): Example usage
+- [Accordion Demo](https://github.com/aliimam-in/blob/main/example/accordion/accordion-02.tsx): Example usage
+- [Accordion Demo](https://github.com/aliimam-in/blob/main/example/accordion/accordion-03.tsx): Example usage
+- [Accordion Demo](https://github.com/aliimam-in/blob/main/example/accordion/accordion-04.tsx): Example usage
+- [Accordion Demo](https://github.com/aliimam-in/blob/main/example/accordion/accordion-05.tsx): Example usage
 - [Button Demo](https://github.com/aliimam-in/blob/main/example/button-demo.tsx): Example usage
 - [typography-blockquote](https://github.com/aliimam-in/blob/main/example/typography/typography-blockquote.tsx): Example usage
 - [typography-demo](https://github.com/aliimam-in/blob/main/example/typography/typography-demo.tsx): Example usage
