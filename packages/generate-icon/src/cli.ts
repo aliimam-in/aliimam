@@ -29,7 +29,7 @@ async function main() {
 	  --help        Show this message
 
 	Examples
-	  $ ${path.basename(process.argv[1])} --file=EEggMA9IV81CYzCSI8LFEUOY
+	  $ ${path.basename(process.argv[1])} --file=9LLDXYb3i7M7fg3sGFHkyQ
 `,
 		{
 			importMeta: import.meta,
