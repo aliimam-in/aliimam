@@ -1,8 +1,8 @@
 import * as React from "react";
 import type { IconProps } from "./types.js";
 
-export const VercelIcon = React.forwardRef<SVGSVGElement, IconProps>(
-  function VercelIcon({ color = "currentColor", ...props }, forwardedRef) {
+export const Vercel = React.forwardRef<SVGSVGElement, IconProps>(
+  function Vercel({ color = "currentColor", ...props }, forwardedRef) {
     return (
       <svg
         width="15"
@@ -19,4 +19,4 @@ export const VercelIcon = React.forwardRef<SVGSVGElement, IconProps>(
   },
 );
 
-export default VercelIcon;
+export default Vercel;

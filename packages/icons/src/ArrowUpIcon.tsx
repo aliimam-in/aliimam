@@ -1,8 +1,8 @@
 import * as React from "react";
 import type { IconProps } from "./types.js";
 
-export const ArrowUpIcon = React.forwardRef<SVGSVGElement, IconProps>(
-  function ArrowUpIcon({ color = "currentColor", ...props }, forwardedRef) {
+export const ArrowUp = React.forwardRef<SVGSVGElement, IconProps>(
+  function ArrowUp({ color = "currentColor", ...props }, forwardedRef) {
     return (
       <svg
         width="15"
@@ -22,4 +22,4 @@ export const ArrowUpIcon = React.forwardRef<SVGSVGElement, IconProps>(
   },
 );
 
-export default ArrowUpIcon;
+export default ArrowUp;

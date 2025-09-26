@@ -1,8 +1,8 @@
 import * as React from "react";
 import type { IconProps } from "./types.js";
 
-export const CursorIcon = React.forwardRef<SVGSVGElement, IconProps>(
-  function CursorIcon({ color = "currentColor", ...props }, forwardedRef) {
+export const Cursor = React.forwardRef<SVGSVGElement, IconProps>(
+  function Cursor({ color = "currentColor", ...props }, forwardedRef) {
     return (
       <svg
         width="13"
@@ -29,4 +29,4 @@ export const CursorIcon = React.forwardRef<SVGSVGElement, IconProps>(
   },
 );
 
-export default CursorIcon;
+export default Cursor;

@@ -1,9 +1,9 @@
 // File: ./general/index.ts
-export { default as ArrowLeftIcon } from "./ArrowLeftIcon";
-export { default as ArrowRightIcon } from "./ArrowRightIcon";
-export { default as ArrowUpIcon } from "./ArrowUpIcon";
-export { default as ArrowDownIcon } from "./ArrowDownIcon";
-export { default as CursorIcon } from "./CursorIcon";
-export { default as OpenAiIcon } from "./OpenAiIcon";
-export { default as VercelIcon } from "./VercelIcon";
-export { default as GoogleIcon } from "./GoogleIcon";
+export { default as ArrowLeft } from "./ArrowLeft";
+export { default as ArrowRight } from "./ArrowRight";
+export { default as ArrowUp } from "./ArrowUp";
+export { default as ArrowDown } from "./ArrowDown";
+export { default as Cursor } from "./Cursor";
+export { default as OpenAi } from "./OpenAi";
+export { default as Vercel } from "./Vercel";
+export { default as Google } from "./Google";

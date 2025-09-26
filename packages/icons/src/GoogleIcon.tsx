@@ -1,8 +1,8 @@
 import * as React from "react";
 import type { IconProps } from "./types.js";
 
-export const GoogleIcon = React.forwardRef<SVGSVGElement, IconProps>(
-  function GoogleIcon({ color = "currentColor", ...props }, forwardedRef) {
+export const Google = React.forwardRef<SVGSVGElement, IconProps>(
+  function Google({ color = "currentColor", ...props }, forwardedRef) {
     return (
       <svg
         width="15"
@@ -34,4 +34,4 @@ export const GoogleIcon = React.forwardRef<SVGSVGElement, IconProps>(
   },
 );
 
-export default GoogleIcon;
+export default Google;

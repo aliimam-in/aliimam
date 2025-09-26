@@ -148,7 +148,7 @@ const labelling = {
     return path.join(icon.type, labelling.stripSizePrefix(icon.size), `${icon.svgName}.svg`)
   },
   componentFilePathFromIcon(icon: IIcon): string {
-    return path.join("src", icon.type, `${icon.jsxName}Icon.tsx`)
+    return path.join("src", icon.type, `${icon.jsxName}.tsx`)
   },
   stripSizePrefix(size: string) {
     return size.replace(/^:?(.*)/, "$1")
