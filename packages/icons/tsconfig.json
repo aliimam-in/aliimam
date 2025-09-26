@@ -1,22 +1,20 @@
 {
-	"include": ["src"],
-	"exclude": ["node_modules", "dist"],
-	"compilerOptions": {
-		"forceConsistentCasingInFileNames": true,
-		"declaration": true,
-		"declarationMap": true,
-		"esModuleInterop": true,
-		"incremental": false,
-		"isolatedModules": true,
-		"lib": ["ESNext", "DOM", "DOM.Iterable"],
-		"moduleDetection": "force",
-		"moduleResolution": "NodeNext",
-		"noUncheckedIndexedAccess": true,
-		"outDir": "dist",
-		"skipLibCheck": true,
-		"strict": true,
-		"target": "ES2022",
-		"jsx": "react",
-		"module": "NodeNext"
-	}
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "allowJs": true,
+    "strict": true,
+    "noEmit": false,
+    "declaration": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react-jsx"
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
 }

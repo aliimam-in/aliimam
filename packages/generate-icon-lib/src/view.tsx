@@ -1,4 +1,3 @@
-import * as React from "react";
 import type { Instance as InkInstance } from "ink";
 import { render as inkRender, Box, Text, Static } from "ink";
 import InkSpinner from "ink-spinner";

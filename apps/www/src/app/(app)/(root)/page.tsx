@@ -7,11 +7,13 @@ import { Pricing } from "@/src/components/home/pricing";
 import { Services } from "@/src/components/home/services";
 import { Stats } from "@/src/components/home/stats";
 import { Tools } from "@/src/components/home/tools";
-import { Works } from "@/src/components/home/works"; 
+import { Works } from "@/src/components/home/works";
+import { VercelIcon } from "@aliimam/icons";
 
 export default function Home() {
   return (
-    <div className=""> 
+    <div className="">
+      <VercelIcon />
       <Hero />
       <Clients className="md:hidden" />
       <Works />
