@@ -1,3 +1,9 @@
-<% for (const i in icons) { -%>
-export { default as <%- iconToComponentName(icons[i]) %> } from "./<%- stripExtension(iconToReactFileName(icons[i])) %>.js";
-<% } %>
+<% const allowedCategories = ["arrows", "icons", "ai"]; %>
+<% for (const category in iconsByCategory) { -%>
+<% if (allowedCategories.includes(category)) { -%>
+// <%- category %> Icons
+<% for (const icon of iconsByCategory[category]) { -%>
+export { default as <%- iconToComponentName(icon) %> } from "./<%- category %>/<%- iconToComponentName(icon) %>";
+<% } -%>
+<% } -%>
+<% } -%>
