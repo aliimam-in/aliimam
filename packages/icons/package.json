@@ -1,6 +1,6 @@
 {
   "name": "@aliimam/icons",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "license": "MIT",
   "description": "Radix UI React Icon Set",
   "source": "./src/index.tsx",

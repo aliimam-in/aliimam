@@ -8,13 +8,13 @@ import { Services } from "@/src/components/home/services";
 import { Stats } from "@/src/components/home/stats";
 import { Tools } from "@/src/components/home/tools";
 import { Works } from "@/src/components/home/works";
-import { Vercel } from "@aliimam/icons";
+import { ArrowDownIcon } from "@aliimam/icons";
 
 export default function Home() {
   return (
     <div className="">
-      <Vercel />
       <Hero />
+      <ArrowDownIcon strokeWidth={3} stroke="2" color="blue" className="mb-8"/>
       <Clients className="md:hidden" />
       <Works />
       <Stats />
