@@ -4,6 +4,9 @@
       "arrow-left": "icons/arrow-left.svg",
       "arrow-right": "icons/arrow-right.svg"
     },
-    ":logos": { "cursor": "logos/cursor.svg", "openai": "logos/openai.svg" }
+    ":logos": { 
+      "cursor": "logos/cursor.svg", 
+      "openai": "logos/openai.svg" 
+    }
   }
 }
