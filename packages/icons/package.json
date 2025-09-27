@@ -1,6 +1,6 @@
 {
   "name": "@aliimam/icons",
-  "version": "1.0.3",
+  "version": "0.0.1",
   "license": "MIT",
   "description": "Radix UI React Icon Set",
   "source": "./src/index.tsx",
@@ -12,6 +12,13 @@
       "import": "./dist/index.js",
       "types": "./dist/index.d.ts"
     }
+  },
+  "scripts": {
+    "generate-src": "generate-icon-lib --file=9LLDXYb3i7M7fg3sGFHkyQ && cd ./icons && zip -r ../../../icons.zip ./",
+    "build": "rimraf dist && pnpm build:esm && pnpm build:cjs",
+    "build:esm": "tsc --project tsconfig.json",
+    "build:cjs": "tsc --project tsconfig.cjs.json",
+    "prepublishOnly": "pnpm build"
   },
   "files": [
     "dist",
@@ -48,13 +55,6 @@
         }
       }
     }
-  },
-  "scripts": {
-    "generate-src": "generate-icon-lib --file=9LLDXYb3i7M7fg3sGFHkyQ && cd ./icons && zip -r ../../../icons.zip ./",
-    "build": "rimraf dist && pnpm build:esm && pnpm build:cjs",
-    "build:esm": "tsc --project tsconfig.json",
-    "build:cjs": "tsc --project tsconfig.cjs.json",
-    "prepublishOnly": "pnpm build"
   },
   "peerDependencies": {
     "react": "^16.x || ^17.x || ^18.x || ^19.x"
