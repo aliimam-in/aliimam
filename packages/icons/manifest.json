@@ -7,12 +7,12 @@
       "arrow-down": "icons/icons/arrows/arrow-down.svg"
     }
   },
-  "logos/ai": {
+  "logos/design": {
     ":16": {
-      "cursor": "icons/logos/ai/cursor.svg",
-      "openai": "icons/logos/ai/openai.svg",
-      "vercel": "icons/logos/ai/vercel.svg",
-      "google": "icons/logos/ai/google.svg"
+      "book": "icons/logos/design/book.svg",
+      "a": "icons/logos/design/a.svg",
+      "d": "icons/logos/design/d.svg",
+      "c": "icons/logos/design/c.svg"
     }
   }
 }
