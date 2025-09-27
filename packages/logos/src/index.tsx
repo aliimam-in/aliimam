@@ -2,5 +2,6 @@
 
 export * from "./wordmark/ai";
 export * from "./icon/design";
+export * from "./icon/ali";
 
 export type { IconProps } from "./types";

@@ -134,6 +134,7 @@ const transformers = {
       .replace(/width=['"][\d.]+['"]/g, "width={size}")
       .replace(/height=['"][\d.]+['"]/g, "height={size}")
       .replace(/stroke=['|"]currentColor['|"]/g, "stroke={color}")
+      .replace(/style=["']({.*})["']/g, "style={$1}")
       .replace(
         'props="..."',
         "className={className}\n      strokeWidth={strokeWidth}\n      strokeLinecap={strokeLinecap}\n      strokeLinejoin={strokeLinejoin}\n      strokeDasharray={strokeDasharray}\n      opacity={opacity}\n      {...props}"

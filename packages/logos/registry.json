@@ -48,6 +48,27 @@
       "category": "icon",
       "subcategory": "design",
       "size": "16"
+    },
+    "AiBlack": {
+      "name": "AiBlack",
+      "path": "src/icon/ali/AiBlack.tsx",
+      "category": "icon",
+      "subcategory": "ali",
+      "size": "16"
+    },
+    "Ai": {
+      "name": "Ai",
+      "path": "src/icon/ali/Ai.tsx",
+      "category": "icon",
+      "subcategory": "ali",
+      "size": "16"
+    },
+    "AiWhite": {
+      "name": "AiWhite",
+      "path": "src/icon/ali/AiWhite.tsx",
+      "category": "icon",
+      "subcategory": "ali",
+      "size": "16"
     }
   },
   "categories": {
@@ -55,8 +76,9 @@
       "ai": ["Save", "Layes", "Erfg", "Asfsbfd"]
     },
     "icon": {
-      "design": ["A", "D", "C"]
+      "design": ["A", "D", "C"],
+      "ali": ["AiBlack", "Ai", "AiWhite"]
     }
   },
-  "total": 7
+  "total": 10
 }

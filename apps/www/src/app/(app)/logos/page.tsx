@@ -2,6 +2,8 @@
 import * as Icons from "@aliimam/logos";
 import React from "react";
 
+import { AiBlack } from "@aliimam/logos";
+
 export default function About() { 
 
   // Get all named exports from the icons module
@@ -17,7 +19,7 @@ export default function About() {
 
   return (
     <div className="h-full pt-40 flex flex-col justify-center items-center p-4">
-       
+       <AiBlack/>
       <div className="flex flex-wrap justify-center gap-20">
         {iconComponents.length > 0 ? (
           iconComponents.map(({ name, Component }) => (
