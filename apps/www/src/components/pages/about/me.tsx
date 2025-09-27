@@ -33,7 +33,7 @@ export function AboutMe() {
               </div>
             </ImageZoom>
           </div>
-          <h1 className="mt-6 text-center">Designs That Give.</h1>
+          <h1 className="mt-6 text-center">Design That Gives.</h1>
         </div>
       </div>
       <div className="relative space-y-10 md:space-y-16"></div>
