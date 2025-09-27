@@ -12,7 +12,7 @@ export interface IconProps extends React.SVGAttributes<SVGElement> {
   strokeDasharray?: string;
   opacity?: number;
   className?: string;
-  type?: string | `${"solid" | "stroke" | "duotone" | "twotone" | "bulk"}/${string}`; // Allow type to include variant/category format
+  type?: "stroke" | "solid" | "duotone" | "twotone" | "bulk"; // Restrict to top-level variants
 }
 
 export interface IconMetadata {

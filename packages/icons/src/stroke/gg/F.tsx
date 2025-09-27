@@ -1,8 +1,8 @@
 import * as React from "react";
-import type { IconProps, IconMetadata, IconComponent } from "../types";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
 
-export const R: IconComponent = React.forwardRef<SVGSVGElement, IconProps>(
-  function R(
+export const F: IconComponent = React.forwardRef<SVGSVGElement, IconProps>(
+  function F(
     {
       color = "currentColor",
       fill,
@@ -34,7 +34,7 @@ export const R: IconComponent = React.forwardRef<SVGSVGElement, IconProps>(
         ref={forwardedRef}
       >
         <path
-          d="M8.14648 3.14648C8.34175 2.95122 8.65825 2.95122 8.85352 3.14648L12.8535 7.14648C13.0488 7.34175 13.0488 7.65825 12.8535 7.85352L8.85352 11.8535C8.65825 12.0488 8.34175 12.0488 8.14648 11.8535C7.95122 11.6583 7.95122 11.3417 8.14648 11.1465L11.293 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.293L8.14648 3.85352C7.95122 3.65825 7.95122 3.34175 8.14648 3.14648Z"
+          d="M6.14648 3.14648C6.34175 2.95122 6.65825 2.95122 6.85352 3.14648C7.04878 3.34175 7.04878 3.65825 6.85352 3.85352L3.70703 7H12.5C12.7761 7 13 7.22386 13 7.5C13 7.77614 12.7761 8 12.5 8H3.70703L6.85352 11.1465C7.04878 11.3417 7.04878 11.6583 6.85352 11.8535C6.65825 12.0488 6.34175 12.0488 6.14648 11.8535L2.14648 7.85352C1.95122 7.65825 1.95122 7.34175 2.14648 7.14648L6.14648 3.14648Z"
           fill={color}
         />
       </svg>
@@ -42,14 +42,14 @@ export const R: IconComponent = React.forwardRef<SVGSVGElement, IconProps>(
   },
 );
 
-R.displayName = "R";
+F.displayName = "F";
 
-R.metadata = {
-  name: "R",
+F.metadata = {
+  name: "F",
   category: "stroke",
   tags: ["icon"],
-  description: "R icon from stroke category",
+  description: "F icon from stroke category",
   variants: ["stroke", "solid"],
 } as IconMetadata;
 
-export default R;
+export default F;

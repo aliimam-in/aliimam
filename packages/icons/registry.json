@@ -2,137 +2,126 @@
   "components": {
     "A": {
       "name": "A",
-      "path": "src/solid/A.tsx",
+      "path": "src/solid/design/A.tsx",
       "category": "solid",
-      "subcategory": null,
+      "subcategory": "design",
       "size": "16"
     },
     "D": {
       "name": "D",
-      "path": "src/solid/D.tsx",
+      "path": "src/solid/design/D.tsx",
       "category": "solid",
-      "subcategory": null,
+      "subcategory": "design",
       "size": "16"
     },
     "C": {
       "name": "C",
-      "path": "src/solid/C.tsx",
+      "path": "src/solid/design/C.tsx",
       "category": "solid",
-      "subcategory": null,
+      "subcategory": "design",
       "size": "16"
     },
     "Save": {
       "name": "Save",
-      "path": "src/stroke/Save.tsx",
+      "path": "src/stroke/ali/Save.tsx",
       "category": "stroke",
-      "subcategory": null,
+      "subcategory": "ali",
       "size": "16"
     },
     "Layes": {
       "name": "Layes",
-      "path": "src/stroke/Layes.tsx",
+      "path": "src/stroke/ali/Layes.tsx",
       "category": "stroke",
-      "subcategory": null,
+      "subcategory": "ali",
       "size": "16"
     },
     "Erfg": {
       "name": "Erfg",
-      "path": "src/stroke/Erfg.tsx",
+      "path": "src/stroke/ali/Erfg.tsx",
       "category": "stroke",
-      "subcategory": null,
+      "subcategory": "ali",
       "size": "16"
     },
     "Asfsbfd": {
       "name": "Asfsbfd",
-      "path": "src/stroke/Asfsbfd.tsx",
+      "path": "src/stroke/ali/Asfsbfd.tsx",
       "category": "stroke",
-      "subcategory": null,
+      "subcategory": "ali",
       "size": "16"
     },
     "ArrowLeft": {
       "name": "ArrowLeft",
-      "path": "src/stroke/ArrowLeft.tsx",
+      "path": "src/stroke/arrows/ArrowLeft.tsx",
       "category": "stroke",
-      "subcategory": null,
+      "subcategory": "arrows",
       "size": "16"
     },
     "ArrowUpp": {
       "name": "ArrowUpp",
-      "path": "src/stroke/ArrowUpp.tsx",
+      "path": "src/stroke/arrows/ArrowUpp.tsx",
       "category": "stroke",
-      "subcategory": null,
+      "subcategory": "arrows",
       "size": "16"
     },
     "ArrowRight": {
       "name": "ArrowRight",
-      "path": "src/stroke/ArrowRight.tsx",
+      "path": "src/stroke/arrows/ArrowRight.tsx",
       "category": "stroke",
-      "subcategory": null,
+      "subcategory": "arrows",
       "size": "16"
     },
     "ArrowUp": {
       "name": "ArrowUp",
-      "path": "src/stroke/ArrowUp.tsx",
+      "path": "src/stroke/arrows/ArrowUp.tsx",
       "category": "stroke",
-      "subcategory": null,
+      "subcategory": "arrows",
       "size": "16"
     },
     "ArrowDown": {
       "name": "ArrowDown",
-      "path": "src/stroke/ArrowDown.tsx",
+      "path": "src/stroke/arrows/ArrowDown.tsx",
       "category": "stroke",
-      "subcategory": null,
+      "subcategory": "arrows",
       "size": "16"
     },
     "F": {
       "name": "F",
-      "path": "src/stroke/F.tsx",
+      "path": "src/stroke/gg/F.tsx",
       "category": "stroke",
-      "subcategory": null,
+      "subcategory": "gg",
       "size": "16"
     },
     "R": {
       "name": "R",
-      "path": "src/stroke/R.tsx",
+      "path": "src/stroke/gg/R.tsx",
       "category": "stroke",
-      "subcategory": null,
+      "subcategory": "gg",
       "size": "16"
     },
     "T": {
       "name": "T",
-      "path": "src/stroke/T.tsx",
+      "path": "src/stroke/gg/T.tsx",
       "category": "stroke",
-      "subcategory": null,
+      "subcategory": "gg",
       "size": "16"
     },
     "Y": {
       "name": "Y",
-      "path": "src/stroke/Y.tsx",
+      "path": "src/stroke/gg/Y.tsx",
       "category": "stroke",
-      "subcategory": null,
+      "subcategory": "gg",
       "size": "16"
     }
   },
   "categories": {
     "solid": {
-      "icons": ["A", "D", "C", "Save", "Layes", "Erfg", "Asfsbfd"]
+      "design": ["A", "D", "C"],
+      "ali": ["Save", "Layes", "Erfg", "Asfsbfd"]
     },
     "stroke": {
-      "icons": [
-        "ArrowLeft",
-        "ArrowUpp",
-        "ArrowRight",
-        "ArrowUp",
-        "ArrowDown",
-        "F",
-        "R",
-        "T",
-        "Y",
-        "Save",
-        "Layes",
-        "Erfg",
-        "Asfsbfd"
-      ]
+      "arrows": ["ArrowLeft", "ArrowUpp", "ArrowRight", "ArrowUp", "ArrowDown"],
+      "gg": ["F", "R", "T", "Y"],
+      "ali": ["Save", "Layes", "Erfg", "Asfsbfd"]
     }
   },
   "total": 16
