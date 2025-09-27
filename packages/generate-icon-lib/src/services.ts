@@ -364,22 +364,46 @@ export async function downloadSvgsToFs(urls: IIconsSvgUrls, icons: IIcons, onPro
   )
 }
 
-export function iconsToManifest(icons: IIcons): IIconManifest {
-  return Object.keys(icons).reduce((iconManifest: IIconManifest, iconId) => {
+export function iconsToComponentManifest(icons: IIcons): any {
+  const components: any = {}
+  const categories: any = {}
+  
+  Object.keys(icons).forEach((iconId) => {
     const icon = icons[iconId]
-
-    if (!iconManifest[icon.type]) {
-      iconManifest[icon.type] = {}
+    const category = icon.type.split('/')[0] || 'icons'
+    const subcategory = icon.type.split('/')[1]
+    
+    // Add to components list
+    components[icon.jsxName] = {
+      name: icon.jsxName,
+      path: `src/${icon.type}/${icon.jsxName}.tsx`,
+      category,
+      subcategory: subcategory || null,
+      size: labelling.stripSizePrefix(icon.size)
     }
-    if (!iconManifest[icon.type][icon.size]) {
-      iconManifest[icon.type][icon.size] = {}
+    
+    // Group by category
+    if (!categories[category]) {
+      categories[category] = {}
     }
-    if (!iconManifest[icon.type][icon.size][icon.svgName]) {
-      iconManifest[icon.type][icon.size][icon.svgName] = labelling.filePathFromIcon(icon)
+    if (subcategory) {
+      if (!categories[category][subcategory]) {
+        categories[category][subcategory] = []
+      }
+      categories[category][subcategory].push(icon.jsxName)
+    } else {
+      if (!categories[category].icons) {
+        categories[category].icons = []
+      }
+      categories[category].icons.push(icon.jsxName)
     }
-
-    return iconManifest
-  }, {})
+  })
+  
+  return {
+    components,
+    categories,
+    total: Object.keys(components).length
+  }
 }
 
 export function iconsToSvgPaths(icons: IIcons) {
@@ -579,14 +603,28 @@ export async function getCurrentIconManifest(): Promise<IIconManifest> {
 
 export async function generateIconManifest(icons: IIcons) {
   const iconManifestFilePath = path.resolve(currentTempDir, FILE_PATH_MANIFEST)
-  const iconManifest = iconsToManifest(icons)
-  let iconManifestRaw = JSON.stringify(iconManifest)
+  
+  // Choose which format you prefer:
+  // const iconManifest = iconsToRegistry(icons)           // Full shadcn-style
+  // const iconManifest = iconsToSimpleManifest(icons)     // Simple flat structure  
+  const iconManifest = iconsToComponentManifest(icons)     // Component-focused
+  
+  let iconManifestRaw = JSON.stringify(iconManifest, null, 2)
   const prettierOptions = await prettier.resolveConfig(process.cwd())
   iconManifestRaw = await prettier.format(iconManifestRaw, {
     ...prettierOptions,
     parser: "json",
   })
-  const previousIconManifest = await getCurrentIconManifest()
+  
+  // For comparison, get the previous manifest in the same format
+  let previousIconManifest: any = {}
+  try {
+    previousIconManifest = await getCurrentIconManifest()
+  } catch (error) {
+    // If no previous manifest exists, use empty object
+    previousIconManifest = { components: {}, categories: {}, total: 0 }
+  }
+  
   await fs.promises.writeFile(iconManifestFilePath, iconManifestRaw, {
     encoding: "utf8",
   })

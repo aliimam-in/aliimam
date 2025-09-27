@@ -1,4 +1,5 @@
-import type * as React from "react"
+// Add this to your types.tsx file
+import * as React from "react"
 
 export interface IconProps extends React.SVGAttributes<SVGElement> {
   children?: never
@@ -22,4 +23,10 @@ export interface IconMetadata {
   author?: string;
   created?: string;
   variants: ("stroke" | "solid" | "duotone" | "twotone" | "bulk")[]; 
+}
+
+// Add this new type for icon components with metadata
+export type IconComponent = React.ForwardRefExoticComponent<IconProps & React.RefAttributes<SVGSVGElement>> & {
+  metadata?: IconMetadata;
+  displayName?: string;
 }
