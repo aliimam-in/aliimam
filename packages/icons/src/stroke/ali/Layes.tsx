@@ -16,7 +16,6 @@ export const Layes: IconComponent = React.forwardRef<SVGSVGElement, LayesProps>(
       strokeDasharray,
       opacity,
       className,
-      variant = "stroke",
       type,
       ...props
     },

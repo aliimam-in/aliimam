@@ -73,7 +73,7 @@ interface <%- iconToPropsName(icon) %> extends IconProps {
   type<%- icon.types[0] === getDefaultType() ? '?' : '' %>: <%- icon.types.map(t => `"${t}"`).join(' | ') %>;
 }
 
-export const <%- iconToComponentName(icon) %>: IconComponent = React.forwardRef<SVGSVGElement, <%- iconToPropsName(icon) %>>(
+export const <%- iconToComponentName(icon)  %>: IconComponent<%- iconToPropsName(icon) %> = React.forwardRef<SVGSVGElement, <%- iconToPropsName(icon) %>>(
   function <%- iconToComponentName(icon) %>({
     color = 'currentColor',
     fill,

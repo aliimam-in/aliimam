@@ -18,7 +18,6 @@ export const Asfsbfd: IconComponent = React.forwardRef<
     strokeDasharray,
     opacity,
     className,
-    variant = "stroke",
     type,
     ...props
   },

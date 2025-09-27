@@ -16,7 +16,6 @@ export const Erfg: IconComponent = React.forwardRef<SVGSVGElement, ErfgProps>(
       strokeDasharray,
       opacity,
       className,
-      variant = "stroke",
       type,
       ...props
     },

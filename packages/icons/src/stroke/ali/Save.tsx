@@ -5,7 +5,7 @@ interface SaveProps extends IconProps {
   type: "stroke/ali" | "solid/ali";
 }
 
-export const Save: IconComponent = React.forwardRef<SVGSVGElement, SaveProps>(
+export const Save: IconComponent<SaveProps> = React.forwardRef<SVGSVGElement, SaveProps>(
   function Save(
     {
       color = "currentColor",
@@ -16,7 +16,6 @@ export const Save: IconComponent = React.forwardRef<SVGSVGElement, SaveProps>(
       strokeDasharray,
       opacity,
       className,
-      variant = "stroke",
       type,
       ...props
     },
