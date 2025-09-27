@@ -11,6 +11,7 @@ export const Save = React.forwardRef<SVGSVGElement, IconProps>(function Save(
     strokeDasharray,
     opacity,
     className,
+    variant = "stroke",
     ...props
   },
   forwardedRef,
@@ -39,5 +40,15 @@ export const Save = React.forwardRef<SVGSVGElement, IconProps>(function Save(
     </svg>
   );
 });
+
+Save.displayName = "Save";
+
+Save.metadata = {
+  name: "Save",
+  category: "logos",
+  tags: ["save", "brand", "company", "logo"],
+  description: "Save icon from logos category",
+  variants: ["stroke", "solid"],
+} as IconMetadata;
 
 export default Save;

@@ -12,6 +12,7 @@ export const Asfsbfd = React.forwardRef<SVGSVGElement, IconProps>(
       strokeDasharray,
       opacity,
       className,
+      variant = "stroke",
       ...props
     },
     forwardedRef,
@@ -46,5 +47,15 @@ export const Asfsbfd = React.forwardRef<SVGSVGElement, IconProps>(
     );
   },
 );
+
+Asfsbfd.displayName = "Asfsbfd";
+
+Asfsbfd.metadata = {
+  name: "Asfsbfd",
+  category: "logos",
+  tags: ["asfsbfd", "brand", "company", "logo"],
+  description: "Asfsbfd icon from logos category",
+  variants: ["stroke", "solid"],
+} as IconMetadata;
 
 export default Asfsbfd;

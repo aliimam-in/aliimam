@@ -12,6 +12,7 @@ export const ArrowRight = React.forwardRef<SVGSVGElement, IconProps>(
       strokeDasharray,
       opacity,
       className,
+      variant = "stroke",
       ...props
     },
     forwardedRef,
@@ -34,5 +35,15 @@ export const ArrowRight = React.forwardRef<SVGSVGElement, IconProps>(
     );
   },
 );
+
+ArrowRight.displayName = "ArrowRight";
+
+ArrowRight.metadata = {
+  name: "ArrowRight",
+  category: "icons",
+  tags: ["arrow", "right", "interface", "ui", "icon"],
+  description: "ArrowRight icon from icons category",
+  variants: ["stroke", "solid"],
+} as IconMetadata;
 
 export default ArrowRight;

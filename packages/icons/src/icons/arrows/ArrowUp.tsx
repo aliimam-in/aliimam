@@ -12,6 +12,7 @@ export const ArrowUp = React.forwardRef<SVGSVGElement, IconProps>(
       strokeDasharray,
       opacity,
       className,
+      variant = "stroke",
       ...props
     },
     forwardedRef,
@@ -34,5 +35,15 @@ export const ArrowUp = React.forwardRef<SVGSVGElement, IconProps>(
     );
   },
 );
+
+ArrowUp.displayName = "ArrowUp";
+
+ArrowUp.metadata = {
+  name: "ArrowUp",
+  category: "icons",
+  tags: ["arrow", "up", "interface", "ui", "icon"],
+  description: "ArrowUp icon from icons category",
+  variants: ["stroke", "solid"],
+} as IconMetadata;
 
 export default ArrowUp;

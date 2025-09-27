@@ -11,6 +11,7 @@ export const F = React.forwardRef<SVGSVGElement, IconProps>(function F(
     strokeDasharray,
     opacity,
     className,
+    variant = "stroke",
     ...props
   },
   forwardedRef,
@@ -32,5 +33,15 @@ export const F = React.forwardRef<SVGSVGElement, IconProps>(function F(
     </svg>
   );
 });
+
+F.displayName = "F";
+
+F.metadata = {
+  name: "F",
+  category: "icons",
+  tags: ["interface", "ui", "icon"],
+  description: "F icon from icons category",
+  variants: ["stroke", "solid"],
+} as IconMetadata;
 
 export default F;

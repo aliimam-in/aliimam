@@ -11,6 +11,7 @@ export const Erfg = React.forwardRef<SVGSVGElement, IconProps>(function Erfg(
     strokeDasharray,
     opacity,
     className,
+    variant = "stroke",
     ...props
   },
   forwardedRef,
@@ -29,5 +30,15 @@ export const Erfg = React.forwardRef<SVGSVGElement, IconProps>(function Erfg(
     </svg>
   );
 });
+
+Erfg.displayName = "Erfg";
+
+Erfg.metadata = {
+  name: "Erfg",
+  category: "logos",
+  tags: ["erfg", "brand", "company", "logo"],
+  description: "Erfg icon from logos category",
+  variants: ["stroke", "solid"],
+} as IconMetadata;
 
 export default Erfg;

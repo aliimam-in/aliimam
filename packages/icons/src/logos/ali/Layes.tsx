@@ -11,6 +11,7 @@ export const Layes = React.forwardRef<SVGSVGElement, IconProps>(function Layes(
     strokeDasharray,
     opacity,
     className,
+    variant = "stroke",
     ...props
   },
   forwardedRef,
@@ -32,5 +33,15 @@ export const Layes = React.forwardRef<SVGSVGElement, IconProps>(function Layes(
     </svg>
   );
 });
+
+Layes.displayName = "Layes";
+
+Layes.metadata = {
+  name: "Layes",
+  category: "logos",
+  tags: ["layes", "brand", "company", "logo"],
+  description: "Layes icon from logos category",
+  variants: ["stroke", "solid"],
+} as IconMetadata;
 
 export default Layes;
