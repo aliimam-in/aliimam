@@ -347,6 +347,7 @@ export function getIcons(iconsCanvas: IFigmaCanvas): IIcons {
   }, {})
 }
 
+
 export async function downloadSvgsToFs(urls: IIconsSvgUrls, icons: IIcons, onProgress: () => void) {
   await Promise.all(
     Object.keys(urls).map(async (iconId) => {
