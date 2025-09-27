@@ -50,7 +50,7 @@
     }
   },
   "scripts": {
-    "generate-src": "generate-icon-lib --file=9LLDXYb3i7M7fg3sGFHkyQ && cd ./icons",
+    "generate-src": "generate-icon-lib --file=9LLDXYb3i7M7fg3sGFHkyQ && cd ./icons && zip -r ../../../icons.zip ./",
     "build": "rimraf dist && pnpm build:esm && pnpm build:cjs",
     "build:esm": "tsc --project tsconfig.json",
     "build:cjs": "tsc --project tsconfig.cjs.json",
