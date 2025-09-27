@@ -18,7 +18,7 @@ export const Save: IconComponent<SaveProps> = React.forwardRef<
     strokeDasharray,
     opacity,
     className,
-    type,
+    type = "stroke",
     ...props
   },
   forwardedRef,

@@ -1,10 +1,10 @@
-import { Save } from "@aliimam/logos";
+import { Save } from "@aliimam/icons";
 
   
 export default function About() {
   return (
     <div className="h-screen flex flex-col justify-center items-center">
-      <Save />
+      <Save type={"stroke"} />
     </div>
   );
 }

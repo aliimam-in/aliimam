@@ -76,9 +76,11 @@ const cleanType = (type) => type.split('/')[0];
 const cleanedTypes = icon.types.map(cleanType);
 // Ensure unique types (in case multiple types map to the same base, e.g., stroke/ali and stroke/bob)
 const uniqueCleanedTypes = [...new Set(cleanedTypes)];
+// Determine default type: use "stroke" if available, otherwise first type
+const defaultType = uniqueCleanedTypes.includes('stroke') ? 'stroke' : uniqueCleanedTypes[0];
 %>
 interface <%- iconToPropsName(icon) %> extends IconProps {
-  type<%- uniqueCleanedTypes[0] === getDefaultType() ? '?' : '' %>: <%- uniqueCleanedTypes.map(t => `"${t}"`).join(' | ') %>;
+  type?: <%- uniqueCleanedTypes.map(t => `"${t}"`).join(' | ') %>;
 }
 
 export const <%- iconToComponentName(icon) %>: IconComponent<<%- iconToPropsName(icon) %>> = React.forwardRef<SVGSVGElement, <%- iconToPropsName(icon) %>>(
@@ -91,7 +93,7 @@ export const <%- iconToComponentName(icon) %>: IconComponent<<%- iconToPropsName
     strokeDasharray,
     opacity,
     className,
-    type<%- uniqueCleanedTypes[0] === getDefaultType() ? ` = '${uniqueCleanedTypes[0]}'` : '' %>,
+    type = '<%- defaultType %>',
     ...props
   }, forwardedRef) {
 <%   for (const t in icon.types) { %>
