@@ -1,0 +1,127 @@
+{
+  "components": {
+    "ArrowLeft": {
+      "name": "ArrowLeft",
+      "path": "src/icons/arrows/ArrowLeft.tsx",
+      "category": "icons",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "ArrowUpp": {
+      "name": "ArrowUpp",
+      "path": "src/icons/arrows/ArrowUpp.tsx",
+      "category": "icons",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "ArrowRight": {
+      "name": "ArrowRight",
+      "path": "src/icons/arrows/ArrowRight.tsx",
+      "category": "icons",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "ArrowUp": {
+      "name": "ArrowUp",
+      "path": "src/icons/arrows/ArrowUp.tsx",
+      "category": "icons",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "ArrowDown": {
+      "name": "ArrowDown",
+      "path": "src/icons/arrows/ArrowDown.tsx",
+      "category": "icons",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "F": {
+      "name": "F",
+      "path": "src/icons/gg/F.tsx",
+      "category": "icons",
+      "subcategory": "gg",
+      "size": "16"
+    },
+    "R": {
+      "name": "R",
+      "path": "src/icons/gg/R.tsx",
+      "category": "icons",
+      "subcategory": "gg",
+      "size": "16"
+    },
+    "T": {
+      "name": "T",
+      "path": "src/icons/gg/T.tsx",
+      "category": "icons",
+      "subcategory": "gg",
+      "size": "16"
+    },
+    "Y": {
+      "name": "Y",
+      "path": "src/icons/gg/Y.tsx",
+      "category": "icons",
+      "subcategory": "gg",
+      "size": "16"
+    },
+    "A": {
+      "name": "A",
+      "path": "src/logos/design/A.tsx",
+      "category": "logos",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "D": {
+      "name": "D",
+      "path": "src/logos/design/D.tsx",
+      "category": "logos",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "C": {
+      "name": "C",
+      "path": "src/logos/design/C.tsx",
+      "category": "logos",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Save": {
+      "name": "Save",
+      "path": "src/logos/ali/Save.tsx",
+      "category": "logos",
+      "subcategory": "ali",
+      "size": "16"
+    },
+    "Layes": {
+      "name": "Layes",
+      "path": "src/logos/ali/Layes.tsx",
+      "category": "logos",
+      "subcategory": "ali",
+      "size": "16"
+    },
+    "Erfg": {
+      "name": "Erfg",
+      "path": "src/logos/ali/Erfg.tsx",
+      "category": "logos",
+      "subcategory": "ali",
+      "size": "16"
+    },
+    "Asfsbfd": {
+      "name": "Asfsbfd",
+      "path": "src/logos/ali/Asfsbfd.tsx",
+      "category": "logos",
+      "subcategory": "ali",
+      "size": "16"
+    }
+  },
+  "categories": {
+    "icons": {
+      "arrows": ["ArrowLeft", "ArrowUpp", "ArrowRight", "ArrowUp", "ArrowDown"],
+      "gg": ["F", "R", "T", "Y"]
+    },
+    "logos": {
+      "design": ["A", "D", "C"],
+      "ali": ["Save", "Layes", "Erfg", "Asfsbfd"]
+    }
+  },
+  "total": 16
+}
