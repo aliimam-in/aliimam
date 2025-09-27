@@ -2,7 +2,7 @@ import * as React from "react";
 import type { IconProps, IconMetadata, IconComponent } from "../../types";
 
 interface LayesProps extends IconProps {
-  type: "solid/ali" | "stroke/ali";
+  type: "stroke/ali" | "solid/ali";
 }
 
 export const Layes: IconComponent = React.forwardRef<SVGSVGElement, LayesProps>(
@@ -22,7 +22,7 @@ export const Layes: IconComponent = React.forwardRef<SVGSVGElement, LayesProps>(
     },
     forwardedRef,
   ) {
-    if (type === "solid/ali") {
+    if (type === "stroke/ali") {
       return (
         <svg
           width="15"
@@ -47,7 +47,7 @@ export const Layes: IconComponent = React.forwardRef<SVGSVGElement, LayesProps>(
       );
     }
 
-    if (type === "stroke/ali") {
+    if (type === "solid/ali") {
       return (
         <svg
           width="15"
@@ -84,7 +84,7 @@ Layes.metadata = {
   category: "ali",
   tags: ["layes", "alibaba", "brand", "ecommerce"],
   description: "Layes icon from ali category",
-  variants: ["solid"],
+  variants: ["stroke"],
 } as IconMetadata;
 
 export default Layes;
