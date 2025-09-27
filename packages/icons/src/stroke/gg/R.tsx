@@ -46,10 +46,10 @@ R.displayName = "R";
 
 R.metadata = {
   name: "R",
-  category: "stroke",
-  tags: ["icon"],
-  description: "R icon from stroke category",
-  variants: ["stroke", "solid"],
+  category: "ali",
+  tags: ["alibaba", "brand", "ecommerce"],
+  description: "R icon from ali category",
+  variants: ["solid", "stroke"],
 } as IconMetadata;
 
 export default R;

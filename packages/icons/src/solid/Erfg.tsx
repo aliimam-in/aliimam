@@ -1,8 +1,8 @@
 import * as React from "react";
-import type { IconProps, IconMetadata, IconComponent } from "../../types";
+import type { IconProps, IconMetadata, IconComponent } from "../types";
 
 interface ErfgProps extends IconProps {
-  type: "solid/ali" | "stroke/ali";
+  type: "solid" | "stroke";
 }
 
 export const Erfg: IconComponent = React.forwardRef<SVGSVGElement, ErfgProps>(
@@ -22,7 +22,7 @@ export const Erfg: IconComponent = React.forwardRef<SVGSVGElement, ErfgProps>(
     },
     forwardedRef,
   ) {
-    if (type === "solid/ali") {
+    if (type === "solid") {
       return (
         <svg
           width="15"
@@ -44,7 +44,7 @@ export const Erfg: IconComponent = React.forwardRef<SVGSVGElement, ErfgProps>(
       );
     }
 
-    if (type === "stroke/ali") {
+    if (type === "stroke") {
       return (
         <svg
           width="15"
@@ -78,7 +78,7 @@ Erfg.metadata = {
   category: "ali",
   tags: ["erfg", "alibaba", "brand", "ecommerce"],
   description: "Erfg icon from ali category",
-  variants: ["solid"],
+  variants: ["solid", "stroke"],
 } as IconMetadata;
 
 export default Erfg;

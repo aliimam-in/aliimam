@@ -46,10 +46,10 @@ Y.displayName = "Y";
 
 Y.metadata = {
   name: "Y",
-  category: "stroke",
-  tags: ["icon"],
-  description: "Y icon from stroke category",
-  variants: ["stroke", "solid"],
+  category: "ali",
+  tags: ["alibaba", "brand", "ecommerce"],
+  description: "Y icon from ali category",
+  variants: ["solid", "stroke"],
 } as IconMetadata;
 
 export default Y;

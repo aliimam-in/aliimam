@@ -50,10 +50,10 @@ ArrowUpp.displayName = "ArrowUpp";
 
 ArrowUpp.metadata = {
   name: "ArrowUpp",
-  category: "stroke",
-  tags: ["arrow", "upp", "icon"],
-  description: "ArrowUpp icon from stroke category",
-  variants: ["stroke", "solid"],
+  category: "ali",
+  tags: ["arrow", "upp", "alibaba", "brand", "ecommerce"],
+  description: "ArrowUpp icon from ali category",
+  variants: ["solid", "stroke"],
 } as IconMetadata;
 
 export default ArrowUpp;

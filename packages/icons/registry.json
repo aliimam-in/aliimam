@@ -3,48 +3,48 @@
     "A": {
       "name": "A",
       "path": "src/solid/design/A.tsx",
-      "category": "design",
-      "subcategory": "solid",
+      "category": "solid",
+      "subcategory": "design",
       "size": "16"
     },
     "D": {
       "name": "D",
       "path": "src/solid/design/D.tsx",
-      "category": "design",
-      "subcategory": "solid",
+      "category": "solid",
+      "subcategory": "design",
       "size": "16"
     },
     "C": {
       "name": "C",
       "path": "src/solid/design/C.tsx",
-      "category": "design",
-      "subcategory": "solid",
+      "category": "solid",
+      "subcategory": "design",
       "size": "16"
     },
     "Save": {
       "name": "Save",
-      "path": "src/stroke/ali/Save.tsx",
+      "path": "src/ali/stroke/Save.tsx",
       "category": "ali",
       "subcategory": "stroke",
       "size": "16"
     },
     "Layes": {
       "name": "Layes",
-      "path": "src/stroke/ali/Layes.tsx",
+      "path": "src/ali/stroke/Layes.tsx",
       "category": "ali",
       "subcategory": "stroke",
       "size": "16"
     },
     "Erfg": {
       "name": "Erfg",
-      "path": "src/stroke/ali/Erfg.tsx",
+      "path": "src/ali/stroke/Erfg.tsx",
       "category": "ali",
       "subcategory": "stroke",
       "size": "16"
     },
     "Asfsbfd": {
       "name": "Asfsbfd",
-      "path": "src/stroke/ali/Asfsbfd.tsx",
+      "path": "src/ali/stroke/Asfsbfd.tsx",
       "category": "ali",
       "subcategory": "stroke",
       "size": "16"
@@ -52,80 +52,78 @@
     "ArrowLeft": {
       "name": "ArrowLeft",
       "path": "src/stroke/arrows/ArrowLeft.tsx",
-      "category": "arrows",
-      "subcategory": "stroke",
+      "category": "stroke",
+      "subcategory": "arrows",
       "size": "16"
     },
     "ArrowUpp": {
       "name": "ArrowUpp",
       "path": "src/stroke/arrows/ArrowUpp.tsx",
-      "category": "arrows",
-      "subcategory": "stroke",
+      "category": "stroke",
+      "subcategory": "arrows",
       "size": "16"
     },
     "ArrowRight": {
       "name": "ArrowRight",
       "path": "src/stroke/arrows/ArrowRight.tsx",
-      "category": "arrows",
-      "subcategory": "stroke",
+      "category": "stroke",
+      "subcategory": "arrows",
       "size": "16"
     },
     "ArrowUp": {
       "name": "ArrowUp",
       "path": "src/stroke/arrows/ArrowUp.tsx",
-      "category": "arrows",
-      "subcategory": "stroke",
+      "category": "stroke",
+      "subcategory": "arrows",
       "size": "16"
     },
     "ArrowDown": {
       "name": "ArrowDown",
       "path": "src/stroke/arrows/ArrowDown.tsx",
-      "category": "arrows",
-      "subcategory": "stroke",
+      "category": "stroke",
+      "subcategory": "arrows",
       "size": "16"
     },
     "F": {
       "name": "F",
       "path": "src/stroke/gg/F.tsx",
-      "category": "gg",
-      "subcategory": "stroke",
+      "category": "stroke",
+      "subcategory": "gg",
       "size": "16"
     },
     "R": {
       "name": "R",
       "path": "src/stroke/gg/R.tsx",
-      "category": "gg",
-      "subcategory": "stroke",
+      "category": "stroke",
+      "subcategory": "gg",
       "size": "16"
     },
     "T": {
       "name": "T",
       "path": "src/stroke/gg/T.tsx",
-      "category": "gg",
-      "subcategory": "stroke",
+      "category": "stroke",
+      "subcategory": "gg",
       "size": "16"
     },
     "Y": {
       "name": "Y",
       "path": "src/stroke/gg/Y.tsx",
-      "category": "gg",
-      "subcategory": "stroke",
+      "category": "stroke",
+      "subcategory": "gg",
       "size": "16"
     }
   },
   "categories": {
-    "design": {
-      "solid": ["A", "D", "C"]
+    "solid": {
+      "design": ["A", "D", "C"]
     },
     "ali": {
       "solid": ["Save", "Layes", "Erfg", "Asfsbfd"],
       "stroke": ["Save", "Layes", "Erfg", "Asfsbfd"]
     },
-    "arrows": {
-      "stroke": ["ArrowLeft", "ArrowUpp", "ArrowRight", "ArrowUp", "ArrowDown"]
-    },
-    "gg": {
-      "stroke": ["F", "R", "T", "Y"]
+    "stroke": {
+      "arrows": ["ArrowLeft", "ArrowUpp", "ArrowRight", "ArrowUp", "ArrowDown"],
+      "gg": ["F", "R", "T", "Y"]
     }
   },
   "total": 16

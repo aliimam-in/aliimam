@@ -58,10 +58,10 @@ C.displayName = "C";
 
 C.metadata = {
   name: "C",
-  category: "solid",
-  tags: ["icon"],
-  description: "C icon from solid category",
-  variants: ["stroke", "solid"],
+  category: "ali",
+  tags: ["alibaba", "brand", "ecommerce"],
+  description: "C icon from ali category",
+  variants: ["solid", "stroke"],
 } as IconMetadata;
 
 export default C;
