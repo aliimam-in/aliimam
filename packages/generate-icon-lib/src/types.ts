@@ -33,14 +33,11 @@ export interface IFigmaConfig {
 }
 
 export interface IIcon {
-  jsxName: string;
-  svgName: string;
-  id: string;
-  size: string;
-  type: string; // "solid" | "stroke"
-  subCategory?: string;
-  topLevelCategory?: string;
-  hasBothVariants?: boolean; // New optional flag
+	id: string;
+	size: string;
+	type: string;
+	jsxName: string;
+	svgName: string;
 }
 
 export interface IIcons {
