@@ -301,10 +301,13 @@ export function getIcons(iconsCanvas: IFigmaCanvas): IIcons {
             svgName,
             id: iconGroupNode.id,
             size: labelling.sizeFromFrameNodeName(iconSetNode.name),
-            type: topLevelCategory, // e.g., "solid" or "stroke"
-            category: iconGroupNode.name.toLowerCase(), // e.g., "frames"
+            type: topLevelCategory, // Use top-level category for type prop
+            folderCategory: topLevelCategory, // Use top-level category for folder
           };
         } else if (iconGroupNode.type === "FRAME" || iconGroupNode.type === "GROUP") {
+          const subCategory = _.camelCase(iconGroupNode.name.toLowerCase()); // e.g., "frames"
+          const combinedCategory = `${topLevelCategory}/${subCategory}`; // e.g., "solid/frames"
+
           iconGroupNode.children.forEach((iconNode) => {
             if (iconNode.type === "COMPONENT") {
               const svgName = _.kebabCase(iconNode.name.toLowerCase());
@@ -315,8 +318,8 @@ export function getIcons(iconsCanvas: IFigmaCanvas): IIcons {
                 svgName,
                 id: iconNode.id,
                 size: labelling.sizeFromFrameNodeName(iconGroupNode.name),
-                type: topLevelCategory, // e.g., "solid" or "stroke"
-                category: iconGroupNode.name.toLowerCase(), // e.g., "frames"
+                type: topLevelCategory, // Use top-level category for type prop
+                folderCategory: combinedCategory, // Use combined category for folder
               };
             } else if (iconNode.type === "FRAME" || iconNode.type === "GROUP") {
               iconNode.children.forEach((deepIconNode) => {
@@ -324,13 +327,13 @@ export function getIcons(iconsCanvas: IFigmaCanvas): IIcons {
                   const svgName = _.kebabCase(deepIconNode.name.toLowerCase());
                   const jsxName = _.upperFirst(_.camelCase(deepIconNode.name.replace(/([0-9a-z])([0-9A-Z])/g, "$1 $2")));
 
-                  icons[deepIconNode.id] = {
+                  icons[iconNode.id] = {
                     jsxName,
                     svgName,
                     id: deepIconNode.id,
                     size: labelling.sizeFromFrameNodeName(iconNode.name),
-                    type: topLevelCategory, // e.g., "solid" or "stroke"
-                    category: iconNode.name.toLowerCase(), // e.g., "frames"
+                    type: topLevelCategory, // Use top-level category for type prop
+                    folderCategory: combinedCategory, // Use combined category for folder
                   };
                 }
               });
@@ -519,6 +522,7 @@ export async function generateReactComponents(icons: IIcons) {
         jsxName: icon.jsxName,
         size,
         type,
+        folderCategory: icon.types[0],
       })
       return filePathToSVGinJSXSync(filePath)
     },
@@ -554,6 +558,7 @@ export async function generateReactComponents(icons: IIcons) {
         jsxName: icon.jsxName,
         size: icon.sizes[0],
         type: icon.types[0],
+        folderCategory: icon.types[0],
       }),
     )
     await fse.outputFile(iconComponentFilePath, iconSource)
