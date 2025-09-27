@@ -1,5 +1,5 @@
 import * as React from "react";
-import type { IconProps } from "./types.js";
+import type { IconProps } from "./types";
 
 export const OpenAi = React.forwardRef<SVGSVGElement, IconProps>(
   function OpenAi({ color = "currentColor", ...props }, forwardedRef) {

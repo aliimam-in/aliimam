@@ -1,9 +1,8 @@
 import * as React from 'react';
-import type { IconProps } from './types.js';
+import type { IconProps } from '../types';
 
-<% /* A. There are variants both for size and type */ %>
+<% /* A. Variants for both size and type */ %>
 <% if (icon.sizes.length > 1 && icon.types.length > 1) { %>
-
 interface <%- iconToPropsName(icon) %> extends IconProps {
   size<%- icon.sizes[0] === getDefaultSize() ? '?' : '' %>: <%- icon.sizes.map(s => `"${s}"`).join(' | ') %>;
   type<%- icon.types[0] === getDefaultType() ? '?' : '' %>: <%- icon.types.map(t => `"${t}"`).join(' | ') %>;
@@ -12,9 +11,16 @@ interface <%- iconToPropsName(icon) %> extends IconProps {
 export const <%- iconToComponentName(icon) %> = React.forwardRef<SVGSVGElement, <%- iconToPropsName(icon) %>>(
   function <%- iconToComponentName(icon) %>({
     color = 'currentColor',
+    fill,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
     size<%- icon.sizes[0] === getDefaultSize() ? ` = '${icon.sizes[0]}'` : '' %>,
     type<%- icon.types[0] === getDefaultType() ? ` = '${icon.types[0]}'` : '' %>,
-    ...props,
+    ...props
   }, forwardedRef) {
 <%   for (const t in icon.types) { %>
 <%     for (const s in icon.sizes) { %>
@@ -25,15 +31,13 @@ export const <%- iconToComponentName(icon) %> = React.forwardRef<SVGSVGElement, 
 <%       } %>
 <%     } %>
 <%   } %>
-
     console.error(`<%- iconToComponentName(icon) %> doesn't support the combination of ${size} and ${type}`)
-    return null;
+    return null
   }
 );
 
-<% /* B. There are only size variants */ %>
+<% /* B. Only size variants */ %>
 <% } else if (icon.sizes.length > 1) { %>
-
 interface <%- iconToPropsName(icon) %> extends IconProps {
   size<%- icon.sizes[0] === getDefaultSize() ? '?' : '' %>: <%- icon.sizes.map(s => `"${s}"`).join(' | ') %>;
 }
@@ -41,8 +45,15 @@ interface <%- iconToPropsName(icon) %> extends IconProps {
 export const <%- iconToComponentName(icon) %> = React.forwardRef<SVGSVGElement, <%- iconToPropsName(icon) %>>(
   function <%- iconToComponentName(icon) %>({
     color = 'currentColor',
+    fill,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
     size<%- icon.sizes[0] === getDefaultSize() ? ` = '${icon.sizes[0]}'` : '' %>,
-    ...props,
+    ...props
   }, forwardedRef) {
 <%   for (const s in icon.sizes) { %>
 <%     if (iconHasSizeAndType(icon, icon.sizes[s], icon.types[0])) { %>
@@ -51,15 +62,13 @@ export const <%- iconToComponentName(icon) %> = React.forwardRef<SVGSVGElement, 
     }
 <%     } %>
 <%   } %>
-
     console.error(`<%- iconToComponentName(icon) %> doesn't support ${size}`)
-    return null;
+    return null
   }
 );
-  
-<% /* C. There are only type variants */ %>
-<% } else if (icon.types.length > 1) { %>
 
+<% /* C. Only type variants */ %>
+<% } else if (icon.types.length > 1) { %>
 interface <%- iconToPropsName(icon) %> extends IconProps {
   type<%- icon.types[0] === getDefaultType() ? '?' : '' %>: <%- icon.types.map(t => `"${t}"`).join(' | ') %>;
 }
@@ -67,8 +76,15 @@ interface <%- iconToPropsName(icon) %> extends IconProps {
 export const <%- iconToComponentName(icon) %> = React.forwardRef<SVGSVGElement, <%- iconToPropsName(icon) %>>(
   function <%- iconToComponentName(icon) %>({
     color = 'currentColor',
+    fill,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
     type<%- icon.types[0] === getDefaultType() ? ` = '${icon.types[0]}'` : '' %>,
-    ...props,
+    ...props
   }, forwardedRef) {
 <%   for (const t in icon.types) { %>
 <%     if (iconHasSizeAndType(icon, icon.sizes[0], icon.types[t])) { %>
@@ -77,19 +93,29 @@ export const <%- iconToComponentName(icon) %> = React.forwardRef<SVGSVGElement, 
     }
 <%     } %>
 <%   } %>
-
     console.error(`<%- iconToComponentName(icon) %> doesn't support ${type}`)
-    return null;
+    return null
   }
 );
 
-<% /* D. There are no variants */ %>
+<% /* D. No variants */ %>
 <% } else { %>
 export const <%- iconToComponentName(icon) %> = React.forwardRef<SVGSVGElement, IconProps>(
-  function <%- iconToComponentName(icon) %>({ color = 'currentColor', ...props }, forwardedRef) {
+  function <%- iconToComponentName(icon) %>({
+    color = 'currentColor',
+    fill,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  }, forwardedRef) {
     return <%- iconToSVGSourceAsJSX(icon, icon.sizes[0], icon.types[0]) %>
   }
 );
+
 <% } %>
 
 export default <%- iconToComponentName(icon) %>;

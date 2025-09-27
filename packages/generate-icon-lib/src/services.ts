@@ -145,7 +145,7 @@ const labelling = {
     return labelling.addSizePrefix(path.basename(nodeName).toLowerCase().trim())
   },
   filePathFromIcon(icon: IIcon): string {
-    return path.join(icon.type, labelling.stripSizePrefix(icon.size), `${icon.svgName}.svg`)
+    return path.join("icons", icon.type, labelling.stripSizePrefix(icon.size), `${icon.svgName}.svg`)
   },
   componentFilePathFromIcon(icon: IIcon): string {
     return path.join("src", icon.type, `${icon.jsxName}.tsx`)
@@ -461,6 +461,20 @@ export async function generateReactComponents(icons: IIcons) {
     )
     await fse.outputFile(iconComponentFilePath, iconSource)
     currentListOfAddedFiles.push(iconComponentFilePath)
+  }
+
+  for (const category in iconsByCategory) {
+    const categoryIcons = iconsByCategory[category]
+    const categoryIndexContent = categoryIcons
+      .map(
+        (icon) =>
+          `export { default as ${templateHelpers.iconToComponentName(icon)} } from "./${templateHelpers.iconToComponentName(icon)}";`,
+      )
+      .join("\n")
+
+    const categoryIndexPath = path.resolve(currentTempDir, "src", category, "index.ts")
+    await fse.outputFile(categoryIndexPath, categoryIndexContent)
+    currentListOfAddedFiles.push(categoryIndexPath)
   }
 
   const entrySourceRaw = await ejs.render(templates.entry, {

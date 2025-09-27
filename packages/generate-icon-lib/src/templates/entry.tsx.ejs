@@ -1,6 +1,9 @@
 <% for (const category in iconsByCategory) { -%>
-  // File: ./<%- category %>/index.ts
+// File: ./<%- category %>/index.ts
 <% for (const icon of iconsByCategory[category]) { -%>
-export { default as <%- iconToComponentName(icon) %> } from "./<%- iconToComponentName(icon) %>";
+export { default as <%- iconToComponentName(icon) %> } from "./<%- category %>/<%- iconToComponentName(icon) %>";
 <% } -%>
 <% } -%>
+
+// Re-export types
+export type { IconProps } from './types';

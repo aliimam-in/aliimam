@@ -1,5 +1,5 @@
 import * as React from "react";
-import type { IconProps } from "./types.js";
+import type { IconProps } from "./types";
 
 export const Cursor = React.forwardRef<SVGSVGElement, IconProps>(
   function Cursor({ color = "currentColor", ...props }, forwardedRef) {
