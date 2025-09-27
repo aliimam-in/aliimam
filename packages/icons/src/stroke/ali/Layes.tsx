@@ -81,10 +81,10 @@ Layes.displayName = "Layes";
 
 Layes.metadata = {
   name: "Layes",
-  category: "",
-  tags: ["layes", "icon"],
-  description: "Layes icon from  category",
-  variants: ["stroke", "solid"],
+  category: "ali",
+  tags: ["layes", "alibaba", "brand", "ecommerce"],
+  description: "Layes icon from ali category",
+  variants: ["stroke"],
 } as IconMetadata;
 
 export default Layes;

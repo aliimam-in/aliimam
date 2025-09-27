@@ -47,9 +47,9 @@ ArrowLeft.displayName = "ArrowLeft";
 
 ArrowLeft.metadata = {
   name: "ArrowLeft",
-  category: "",
+  category: "stroke",
   tags: ["arrow", "left", "icon"],
-  description: "ArrowLeft icon from  category",
+  description: "ArrowLeft icon from stroke category",
   variants: ["stroke", "solid"],
 } as IconMetadata;
 

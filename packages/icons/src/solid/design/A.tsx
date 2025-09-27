@@ -46,9 +46,9 @@ A.displayName = "A";
 
 A.metadata = {
   name: "A",
-  category: "",
+  category: "solid",
   tags: ["icon"],
-  description: "A icon from  category",
+  description: "A icon from solid category",
   variants: ["stroke", "solid"],
 } as IconMetadata;
 
