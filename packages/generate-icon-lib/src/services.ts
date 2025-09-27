@@ -26,6 +26,7 @@ import { CodedError, ERRORS } from "./types.js"
 import * as svgo from "svgo"
 import { fetch, pushObjLeafNodesToArr, handleError } from "./utils.js"
 import chalk from "chalk" 
+import { IconMetadata } from "./templates/types.js"
 
 const transformers = {
   /**
@@ -391,7 +392,46 @@ export function filePathToSVGinJSXSync(filePath: string) {
   return transformers.readyForJSX(svgRaw)
 }
 
-export async function generateReactComponents(icons: IIcons) {
+const metadata = {
+  /**
+   * Generate metadata for an icon based on its properties
+   */
+  generateIconMetadata(icon: IIcon): IconMetadata {
+    // Extract category from type (e.g., "logos/ai" -> "logos")
+    const category = icon.type.split('/')[0] || 'icons'
+    
+    // Generate tags based on icon name and category
+    const nameTags = icon.svgName
+      .split('-')
+      .filter(tag => tag.length > 1) // Remove single character parts
+    
+    // Category-specific tags with proper typing
+    const categoryTags: Record<string, string[]> = {
+      'logos': ['brand', 'company', 'logo'],
+      'icons': ['interface', 'ui', 'icon'],
+      'arrows': ['direction', 'navigation', 'pointer'],
+      'social': ['social media', 'platform', 'network'],
+      'files': ['document', 'file', 'format'],
+      'devices': ['hardware', 'device', 'tech']
+    }
+    
+    const baseTags = categoryTags[category] || ['icon']
+    const allTags = [...new Set([...nameTags, ...baseTags])]
+    
+    // Determine variants based on icon structure or defaults
+    const variants: ("stroke" | "solid" | "duotone" | "twotone" | "bulk")[] = ["stroke", "solid"]
+    
+    return {
+      name: icon.jsxName,
+      category,
+      tags: allTags,
+      description: `${icon.jsxName} icon from ${category} category`,
+      variants
+    }
+  }
+}
+
+export async function generateReactComponentsWithMetadata(icons: IIcons) {
   const getTemplateSource = (templateFile: string) =>
     fs.promises.readFile(path.resolve(import.meta.dirname, "./templates/", templateFile), { encoding: "utf8" })
   
@@ -400,6 +440,7 @@ export async function generateReactComponents(icons: IIcons) {
     icon: await getTemplateSource("named-icon.tsx.ejs"),
     types: await getTemplateSource("types.tsx"),
   }
+  
   const firstIcon = Object.values(icons)[0]
   const iconsWithVariants = Object.values<ITemplateIcon>(
     Object.keys(icons).reduce((iconsWithVariants: { [name: string]: ITemplateIcon }, iconId) => {
@@ -409,6 +450,7 @@ export async function generateReactComponents(icons: IIcons) {
         types: [],
         svgName: icons[iconId].svgName,
         jsxName: icons[iconId].jsxName,
+        metadata: metadata.generateIconMetadata(icons[iconId]) // Add metadata here
       }
       icon.ids = _.uniq(icon.ids.concat(icons[iconId].id))
       icon.sizes = _.uniq(icon.sizes.concat(labelling.stripSizePrefix(icons[iconId].size)))
