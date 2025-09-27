@@ -1,8 +1,8 @@
 import * as React from "react";
 import type { IconProps, IconMetadata, IconComponent } from "../../types";
 
-export const D: IconComponent = React.forwardRef<SVGSVGElement, IconProps>(
-  function D(
+export const F: IconComponent = React.forwardRef<SVGSVGElement, IconProps>(
+  function F(
     {
       color = "currentColor",
       fill,
@@ -32,20 +32,23 @@ export const D: IconComponent = React.forwardRef<SVGSVGElement, IconProps>(
         {...props}
         ref={forwardedRef}
       >
-        <path d="M7.5 1L15 14H0L7.5 1Z" fill={color} />
+        <path
+          d="M6.14648 3.14648C6.34175 2.95122 6.65825 2.95122 6.85352 3.14648C7.04878 3.34175 7.04878 3.65825 6.85352 3.85352L3.70703 7H12.5C12.7761 7 13 7.22386 13 7.5C13 7.77614 12.7761 8 12.5 8H3.70703L6.85352 11.1465C7.04878 11.3417 7.04878 11.6583 6.85352 11.8535C6.65825 12.0488 6.34175 12.0488 6.14648 11.8535L2.14648 7.85352C1.95122 7.65825 1.95122 7.34175 2.14648 7.14648L6.14648 3.14648Z"
+          fill={color}
+        />
       </svg>
     );
   },
 );
 
-D.displayName = "D";
+F.displayName = "F";
 
-D.metadata = {
-  name: "D",
-  category: "solid/design",
+F.metadata = {
+  name: "F",
+  category: "wordmark/gg",
   tags: ["icon"],
-  description: "D icon from solid/design category",
+  description: "F icon from wordmark/gg category",
   type: ["stroke", "solid"],
 } as IconMetadata;
 
-export default D;
+export default F;

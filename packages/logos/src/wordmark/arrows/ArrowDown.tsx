@@ -1,10 +1,10 @@
 import * as React from "react";
 import type { IconProps, IconMetadata, IconComponent } from "../../types";
 
-export const ArrowLeft: IconComponent = React.forwardRef<
+export const ArrowDown: IconComponent = React.forwardRef<
   SVGSVGElement,
   IconProps
->(function ArrowLeft(
+>(function ArrowDown(
   {
     color = "currentColor",
     fill,
@@ -35,21 +35,21 @@ export const ArrowLeft: IconComponent = React.forwardRef<
       ref={forwardedRef}
     >
       <path
-        d="M6.14648 3.14648C6.34175 2.95122 6.65825 2.95122 6.85352 3.14648C7.04878 3.34175 7.04878 3.65825 6.85352 3.85352L3.70703 7H12.5C12.7761 7 13 7.22386 13 7.5C13 7.77614 12.7761 8 12.5 8H3.70703L6.85352 11.1465C7.04878 11.3417 7.04878 11.6583 6.85352 11.8535C6.65825 12.0488 6.34175 12.0488 6.14648 11.8535L2.14648 7.85352C1.95122 7.65825 1.95122 7.34175 2.14648 7.14648L6.14648 3.14648Z"
+        d="M11.8535 8.14649C12.0488 8.34175 12.0488 8.65826 11.8535 8.85352L7.85351 12.8535C7.65825 13.0488 7.34174 13.0488 7.14648 12.8535L3.14648 8.85352C2.95121 8.65826 2.95121 8.34175 3.14648 8.14649C3.34174 7.95123 3.65825 7.95123 3.85351 8.14649L6.99999 11.293L6.99999 2.50001C6.99999 2.22387 7.22385 2.00001 7.49999 2.00001C7.77613 2.00001 7.99999 2.22387 7.99999 2.50001L7.99999 11.293L11.1465 8.14649C11.3417 7.95123 11.6582 7.95123 11.8535 8.14649Z"
         fill={color}
       />
     </svg>
   );
 });
 
-ArrowLeft.displayName = "ArrowLeft";
+ArrowDown.displayName = "ArrowDown";
 
-ArrowLeft.metadata = {
-  name: "ArrowLeft",
-  category: "stroke/arrows",
-  tags: ["arrow", "left", "icon"],
-  description: "ArrowLeft icon from stroke/arrows category",
+ArrowDown.metadata = {
+  name: "ArrowDown",
+  category: "wordmark/arrows",
+  tags: ["arrow", "down", "icon"],
+  description: "ArrowDown icon from wordmark/arrows category",
   type: ["stroke", "solid"],
 } as IconMetadata;
 
-export default ArrowLeft;
+export default ArrowDown;

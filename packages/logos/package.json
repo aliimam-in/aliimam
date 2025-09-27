@@ -14,7 +14,7 @@
     }
   },
   "scripts": {
-    "generate-src": "generate-icon-lib --file=5GAK0P4VrK66MjtHXK9KZc && cd ./logos",
+    "generate-src": "generate-icon-lib --file=5GAK0P4VrK66MjtHXK9KZc && cd ./icons",
     "build": "rimraf dist && pnpm build:esm && pnpm build:cjs",
     "build:esm": "tsc --project tsconfig.json",
     "build:cjs": "tsc --project tsconfig.cjs.json",
@@ -43,7 +43,7 @@
           "default": "./dist/cjs/index.js"
         }
       },
-      "./logos/*.svg": "./logos/*.svg",
+      "./icons/*.svg": "./icons/*.svg",
       "./*": {
         "import": {
           "types": "./dist/*.d.ts",
