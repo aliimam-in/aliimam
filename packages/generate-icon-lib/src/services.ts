@@ -148,11 +148,11 @@ const labelling = {
     return labelling.addSizePrefix(size)
   },
   filePathFromIcon(icon: IIcon): string {
-    // Create path: icons/logos/cursor.svg or icons/arrows/arrow-down.svg
+    // Create path: icons/logos/ai/cursor.svg or icons/icons/arrows/arrow-down.svg
     return path.join("icons", icon.type, `${icon.svgName}.svg`)
   },
   componentFilePathFromIcon(icon: IIcon): string {
-    // Create path: src/logos/Cursor.tsx or src/arrows/ArrowDown.tsx
+    // Create path: src/logos/ai/Cursor.tsx or src/icons/arrows/ArrowDown.tsx
     return path.join("src", icon.type, `${icon.jsxName}.tsx`)
   },
   stripSizePrefix(size: string) {
@@ -289,11 +289,12 @@ export function getIcons(iconsCanvas: IFigmaCanvas): IIcons {
   return iconsCanvas.children.reduce((icons: IIcons, iconSetNode) => {
     // iconSetNode represents top-level frames like "Logos", "Icons", etc.
     if (iconSetNode.type === "FRAME" || iconSetNode.type === "GROUP") {
+      const topLevelCategory = _.camelCase(iconSetNode.name.toLowerCase()) // "logos", "icons"
       
       iconSetNode.children.forEach((iconGroupNode) => {
         // Icons can be directly in the top-level frame or in subframes
         if (iconGroupNode.type === "COMPONENT") {
-          // Direct components in top-level frames - shouldn't happen with your new structure
+          // Direct components in top-level frames
           const svgName = _.kebabCase(iconGroupNode.name.toLowerCase())
           const jsxName = _.upperFirst(_.camelCase(iconGroupNode.name.replace(/([0-9a-z])([0-9A-Z])/g, "$1 $2")))
 
@@ -302,11 +303,12 @@ export function getIcons(iconsCanvas: IFigmaCanvas): IIcons {
             svgName,
             id: iconGroupNode.id,
             size: labelling.sizeFromFrameNodeName(iconSetNode.name),
-            type: _.camelCase(iconSetNode.name.toLowerCase()),
+            type: topLevelCategory, // Just use top-level category
           }
         } else if (iconGroupNode.type === "FRAME" || iconGroupNode.type === "GROUP") {
           // This is the subcategory frame (like "AI" under "Logos", or "Arrows" under "Icons")
-          const categoryName = _.camelCase(iconGroupNode.name.toLowerCase()) // "ai", "arrows"
+          const subCategory = _.camelCase(iconGroupNode.name.toLowerCase()) // "ai", "arrows"
+          const combinedCategory = `${topLevelCategory}/${subCategory}` // "logos/ai", "icons/arrows"
           
           iconGroupNode.children.forEach((iconNode) => {
             if (iconNode.type === "COMPONENT") {
@@ -317,8 +319,8 @@ export function getIcons(iconsCanvas: IFigmaCanvas): IIcons {
                 jsxName,
                 svgName,
                 id: iconNode.id,
-                size: labelling.sizeFromFrameNodeName(iconGroupNode.name), // Use subframe for size
-                type: categoryName, // Use the immediate parent frame name as category
+                size: labelling.sizeFromFrameNodeName(iconGroupNode.name),
+                type: combinedCategory, // Use combined path like "logos/ai"
               }
             } else if (iconNode.type === "FRAME" || iconNode.type === "GROUP") {
               // Handle even deeper nesting if needed (3+ levels)
@@ -332,7 +334,7 @@ export function getIcons(iconsCanvas: IFigmaCanvas): IIcons {
                     svgName,
                     id: deepIconNode.id,
                     size: labelling.sizeFromFrameNodeName(iconNode.name),
-                    type: categoryName, // Still use the main subcategory
+                    type: combinedCategory, // Still use combined category
                   }
                 }
               })
