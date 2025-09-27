@@ -23,30 +23,30 @@
     },
     "Save": {
       "name": "Save",
-      "path": "src/stroke/ali/Save.tsx",
+      "path": "src/stroke/Save.tsx",
       "category": "stroke",
-      "subcategory": "ali",
+      "subcategory": null,
       "size": "16"
     },
     "Layes": {
       "name": "Layes",
-      "path": "src/stroke/ali/Layes.tsx",
+      "path": "src/stroke/Layes.tsx",
       "category": "stroke",
-      "subcategory": "ali",
+      "subcategory": null,
       "size": "16"
     },
     "Erfg": {
       "name": "Erfg",
-      "path": "src/stroke/ali/Erfg.tsx",
+      "path": "src/stroke/Erfg.tsx",
       "category": "stroke",
-      "subcategory": "ali",
+      "subcategory": null,
       "size": "16"
     },
     "Asfsbfd": {
       "name": "Asfsbfd",
-      "path": "src/stroke/ali/Asfsbfd.tsx",
+      "path": "src/stroke/Asfsbfd.tsx",
       "category": "stroke",
-      "subcategory": "ali",
+      "subcategory": null,
       "size": "16"
     },
     "ArrowLeft": {
@@ -116,12 +116,12 @@
   "categories": {
     "solid": {
       "design": ["A", "D", "C"],
-      "ali": ["Save", "Layes", "Erfg", "Asfsbfd"]
+      "icons": ["Save", "Layes", "Erfg", "Asfsbfd"]
     },
     "stroke": {
       "arrows": ["ArrowLeft", "ArrowUpp", "ArrowRight", "ArrowUp", "ArrowDown"],
       "gg": ["F", "R", "T", "Y"],
-      "ali": ["Save", "Layes", "Erfg", "Asfsbfd"]
+      "icons": ["Save", "Layes", "Erfg", "Asfsbfd"]
     }
   },
   "total": 16

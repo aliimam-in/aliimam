@@ -1,5 +1,4 @@
-// Add this to your types.tsx file
-import * as React from "react"
+import * as React from "react";
 
 export interface IconProps extends React.SVGAttributes<SVGElement> {
   children?: never;
@@ -13,7 +12,7 @@ export interface IconProps extends React.SVGAttributes<SVGElement> {
   strokeDasharray?: string;
   opacity?: number;
   className?: string;
-  type?: string; // Add type as optional
+  type?: string;  
 }
 
 export interface IconMetadata {
@@ -23,11 +22,12 @@ export interface IconMetadata {
   description?: string;
   author?: string;
   created?: string;
-  variants: ("stroke" | "solid" | "duotone" | "twotone" | "bulk")[]; 
+  variants: ("stroke" | "solid" | "duotone" | "twotone" | "bulk")[];
 }
 
-// Add this new type for icon components with metadata
-export type IconComponent = React.ForwardRefExoticComponent<IconProps & React.RefAttributes<SVGSVGElement>> & {
-  metadata?: IconMetadata;
-  displayName?: string;
-}
+// 🔑 Make IconComponent generic
+export type IconComponent<P extends IconProps = IconProps> =
+  React.ForwardRefExoticComponent<P & React.RefAttributes<SVGSVGElement>> & {
+    metadata?: IconMetadata;
+    displayName?: string;
+  };
