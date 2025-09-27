@@ -2,7 +2,7 @@ import * as React from "react";
 import type { IconProps, IconMetadata, IconComponent } from "../../types";
 
 interface ErfgProps extends IconProps {
-  type: "stroke/ali" | "solid/ali";
+  type: "stroke" | "solid";
 }
 
 export const Erfg: IconComponent<ErfgProps> = React.forwardRef<
@@ -23,7 +23,7 @@ export const Erfg: IconComponent<ErfgProps> = React.forwardRef<
   },
   forwardedRef,
 ) {
-  if (type === "stroke/ali") {
+  if (type === "stroke") {
     return (
       <svg
         width="15"
@@ -45,7 +45,7 @@ export const Erfg: IconComponent<ErfgProps> = React.forwardRef<
     );
   }
 
-  if (type === "solid/ali") {
+  if (type === "solid") {
     return (
       <svg
         width="15"

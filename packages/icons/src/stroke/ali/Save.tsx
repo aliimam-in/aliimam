@@ -95,9 +95,9 @@ Save.displayName = "Save";
 
 Save.metadata = {
   name: "Save",
-  category: "stroke",
+  category: "stroke/ali",
   tags: ["save", "icon"],
-  description: "Save icon from stroke category",
+  description: "Save icon from stroke/ali category",
   type: ["stroke", "solid"],
 } as IconMetadata;
 
