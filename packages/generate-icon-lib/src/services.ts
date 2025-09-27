@@ -301,12 +301,11 @@ export function getIcons(iconsCanvas: IFigmaCanvas): IIcons {
             svgName,
             id: iconGroupNode.id,
             size: labelling.sizeFromFrameNodeName(iconSetNode.name),
-            type: topLevelCategory, // e.g., "solid"
+            type: topLevelCategory, // Use only top-level category, e.g., "solid"
           };
         } else if (iconGroupNode.type === "FRAME" || iconGroupNode.type === "GROUP") {
           const subCategory = _.camelCase(iconGroupNode.name.toLowerCase()); // e.g., "ali"
-          const combinedCategory = `${topLevelCategory}/${subCategory}`; // e.g., "solid/ali", "stroke/ali"
- 
+
           iconGroupNode.children.forEach((iconNode) => {
             if (iconNode.type === "COMPONENT") {
               const svgName = _.kebabCase(iconNode.name.toLowerCase());
@@ -317,7 +316,8 @@ export function getIcons(iconsCanvas: IFigmaCanvas): IIcons {
                 svgName,
                 id: iconNode.id,
                 size: labelling.sizeFromFrameNodeName(iconGroupNode.name),
-                type: combinedCategory, // e.g., "solid/ali"
+                type: topLevelCategory, // Use only top-level category, e.g., "solid"
+                category: subCategory, // Store subcategory separately for metadata
               };
             } else if (iconNode.type === "FRAME" || iconNode.type === "GROUP") {
               iconNode.children.forEach((deepIconNode) => {
@@ -330,7 +330,8 @@ export function getIcons(iconsCanvas: IFigmaCanvas): IIcons {
                     svgName,
                     id: deepIconNode.id,
                     size: labelling.sizeFromFrameNodeName(iconNode.name),
-                    type: combinedCategory, // e.g., "solid/ali"
+                    type: topLevelCategory, // Use only top-level category, e.g., "solid"
+                    category: subCategory, // Store subcategory separately for metadata
                   };
                 }
               });
