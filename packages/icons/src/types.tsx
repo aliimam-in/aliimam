@@ -13,7 +13,7 @@ export interface IconProps extends React.SVGAttributes<SVGElement> {
   strokeDasharray?: string;
   opacity?: number;
   className?: string;
-  type?: string; // Add type as optional
+  type?: string;  
 }
 
 export interface IconMetadata {
@@ -23,7 +23,7 @@ export interface IconMetadata {
   description?: string;
   author?: string;
   created?: string;
-  variants: ("stroke" | "solid" | "duotone" | "twotone" | "bulk")[]; 
+  variants: string[];
 }
 
 // Add this new type for icon components with metadata

@@ -46,10 +46,10 @@ A.displayName = "A";
 
 A.metadata = {
   name: "A",
-  category: "ali",
-  tags: ["alibaba", "brand", "ecommerce"],
-  description: "A icon from ali category",
-  variants: ["solid", "stroke"],
+  category: "solid",
+  tags: ["icon"],
+  description: "A icon from solid category",
+  variants: ["stroke", "solid"],
 } as IconMetadata;
 
 export default A;

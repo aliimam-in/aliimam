@@ -47,10 +47,10 @@ ArrowLeft.displayName = "ArrowLeft";
 
 ArrowLeft.metadata = {
   name: "ArrowLeft",
-  category: "ali",
-  tags: ["arrow", "left", "alibaba", "brand", "ecommerce"],
-  description: "ArrowLeft icon from ali category",
-  variants: ["solid", "stroke"],
+  category: "stroke",
+  tags: ["arrow", "left", "icon"],
+  description: "ArrowLeft icon from stroke category",
+  variants: ["stroke", "solid"],
 } as IconMetadata;
 
 export default ArrowLeft;
