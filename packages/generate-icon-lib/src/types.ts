@@ -35,10 +35,10 @@ export interface IFigmaConfig {
 export interface IIcon {
   id: string;
   size: string;
-  type: string; // e.g., "solid" or "stroke"
+  type: string;
   jsxName: string;
   svgName: string;
-  folderCategory: string; // e.g., "solid/frames" or "solid"
+  category?: string; 
 }
 
 export interface IIcons {
