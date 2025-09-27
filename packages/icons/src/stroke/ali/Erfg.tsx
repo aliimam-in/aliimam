@@ -27,14 +27,12 @@ export const Erfg: IconComponent<ErfgProps> = React.forwardRef<
   if (type === "stroke") {
     return (
       <svg
-        width="15"
-        height="15"
+        width={size}
+        height={size}
         viewBox="0 0 15 15"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         className={className}
-        width={size}
-        height={size}
         strokeWidth={strokeWidth}
         strokeLinecap={strokeLinecap}
         strokeLinejoin={strokeLinejoin}
@@ -51,14 +49,12 @@ export const Erfg: IconComponent<ErfgProps> = React.forwardRef<
   if (type === "solid") {
     return (
       <svg
-        width="15"
-        height="15"
+        width={size}
+        height={size}
         viewBox="0 0 15 15"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         className={className}
-        width={size}
-        height={size}
         strokeWidth={strokeWidth}
         strokeLinecap={strokeLinecap}
         strokeLinejoin={strokeLinejoin}

@@ -21,7 +21,7 @@ export default function About() {
         {iconComponents.length > 0 ? (
           iconComponents.map(({ name, Component }) => (
             <div key={name} className="flex flex-col items-center">
-              <Component size={40} />
+              <Component />
             </div>
           ))
         ) : (
