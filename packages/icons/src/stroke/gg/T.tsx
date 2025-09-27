@@ -46,10 +46,10 @@ T.displayName = "T";
 
 T.metadata = {
   name: "T",
-  category: "stroke",
-  tags: ["icon"],
-  description: "T icon from stroke category",
-  variants: ["stroke", "solid"],
+  category: "ali",
+  tags: ["alibaba", "brand", "ecommerce"],
+  description: "T icon from ali category",
+  variants: ["solid", "stroke"],
 } as IconMetadata;
 
 export default T;

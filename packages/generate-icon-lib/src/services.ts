@@ -305,7 +305,7 @@ export function getIcons(iconsCanvas: IFigmaCanvas): IIcons {
           };
         } else if (iconGroupNode.type === "FRAME" || iconGroupNode.type === "GROUP") {
           const subCategory = _.camelCase(iconGroupNode.name.toLowerCase()); // e.g., "ali"
-          const combinedCategory = subCategory === "ali" ? topLevelCategory : `${topLevelCategory}/${subCategory}`; // Use "solid" or "stroke" for ali
+          const combinedCategory = `${topLevelCategory}/${subCategory}`; // e.g., "solid/ali", "stroke/ali"
 
           iconGroupNode.children.forEach((iconNode) => {
             if (iconNode.type === "COMPONENT") {
@@ -317,7 +317,7 @@ export function getIcons(iconsCanvas: IFigmaCanvas): IIcons {
                 svgName,
                 id: iconNode.id,
                 size: labelling.sizeFromFrameNodeName(iconGroupNode.name),
-                type: combinedCategory, // e.g., "solid" for ali
+                type: combinedCategory, // e.g., "solid/ali"
               };
             } else if (iconNode.type === "FRAME" || iconNode.type === "GROUP") {
               iconNode.children.forEach((deepIconNode) => {
@@ -330,7 +330,7 @@ export function getIcons(iconsCanvas: IFigmaCanvas): IIcons {
                     svgName,
                     id: deepIconNode.id,
                     size: labelling.sizeFromFrameNodeName(iconNode.name),
-                    type: combinedCategory, // e.g., "solid" for ali
+                    type: combinedCategory, // e.g., "solid/ali"
                   };
                 }
               });
@@ -361,45 +361,45 @@ export async function downloadSvgsToFs(urls: IIconsSvgUrls, icons: IIcons, onPro
 }
 
 export function iconsToComponentManifest(icons: IIcons): any {
-  const components: any = {};
-  const categories: any = {};
-
+  const components: any = {}
+  const categories: any = {}
+  
   Object.keys(icons).forEach((iconId) => {
-    const icon = icons[iconId];
-    const [variant, subcategory] = icon.type.split("/"); // e.g., "solid/ali" -> ["solid", "ali"]
-    const category = subcategory || variant || "icons"; // Use subcategory (e.g., "ali") or fallback
-
+    const icon = icons[iconId]
+    const category = icon.type.split('/')[0] || 'icons'
+    const subcategory = icon.type.split('/')[1]
+    
     // Add to components list
     components[icon.jsxName] = {
       name: icon.jsxName,
       path: `src/${icon.type}/${icon.jsxName}.tsx`,
       category,
-      subcategory: subcategory ? variant : null, // e.g., "solid" as subcategory for "ali"
-      size: labelling.stripSizePrefix(icon.size),
-    };
-
+      subcategory: subcategory || null,
+      size: labelling.stripSizePrefix(icon.size)
+    }
+    
     // Group by category
     if (!categories[category]) {
-      categories[category] = {};
+      categories[category] = {}
     }
     if (subcategory) {
-      if (!categories[category][variant]) {
-        categories[category][variant] = [];
+      if (!categories[category][subcategory]) {
+        categories[category][subcategory] = []
       }
-      categories[category][variant].push(icon.jsxName);
+      categories[category][subcategory].push(icon.jsxName)
     } else {
       if (!categories[category].icons) {
-        categories[category].icons = [];
+        categories[category].icons = []
       }
-      categories[category].icons.push(icon.jsxName);
+      categories[category].icons.push(icon.jsxName)
     }
-  });
-
+  })
+  
   return {
     components,
     categories,
-    total: Object.keys(components).length,
-  };
+    total: Object.keys(components).length
+  }
 }
 
 export function iconsToSvgPaths(icons: IIcons) {
@@ -414,14 +414,15 @@ export function filePathToSVGinJSXSync(filePath: string) {
 
 const metadata = {
   generateIconMetadata(icon: IIcon): IconMetadata {
-    // Extract category from type (e.g., "solid" or "stroke" for ali icons)
-    const category = icon.type.startsWith("solid") || icon.type.startsWith("stroke") ? "ali" : icon.type.split("/")[0] || "icons";
+    // Extract category from type (e.g., "solid/ali" -> "ali")
+    const category = icon.type.includes("/ali") ? "ali" : icon.type.split("/")[0] || "icons";
 
     // Generate tags based on icon name and category
     const nameTags = icon.svgName
       .split("-")
-      .filter((tag) => tag.length > 1);
+      .filter((tag) => tag.length > 1); // Remove single character parts
 
+    // Category-specific tags
     const categoryTags: Record<string, string[]> = {
       ali: ["alibaba", "brand", "ecommerce"],
       logos: ["brand", "company", "logo"],
@@ -437,7 +438,9 @@ const metadata = {
 
     // Determine variants based on icon type
     const variants: ("stroke" | "solid" | "duotone" | "twotone" | "bulk")[] = 
-      category === "ali" ? ["solid", "stroke"] : ["stroke", "solid"];
+      icon.type.includes("solid/ali") ? ["solid"] : 
+      icon.type.includes("stroke/ali") ? ["stroke"] : 
+      ["stroke", "solid"]; // Default for other categories
 
     return {
       name: icon.jsxName,
