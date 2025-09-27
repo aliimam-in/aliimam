@@ -1,27 +1,29 @@
-"use client";
+"use client"
 import * as Icons from "@aliimam/icons";
-import React, { useState } from "react";
+import React from "react";
 
-export default function About() {
+export default function About() { 
+
+  // Get all named exports from the icons module
   const iconComponents = Object.keys(Icons)
     .filter((key) => {
       const value = Icons[key as keyof typeof Icons];
-      return typeof value === "function" || typeof value === "object";
+      return typeof value === "function" || (typeof value === "object");
     })
     .map((key) => ({
       name: key,
-      Component: Icons[key as keyof typeof Icons] as React.ComponentType<{
-        size?: number;
-      }>,
+      Component: Icons[key as keyof typeof Icons] as React.ComponentType<{ size?: number }>,
     }));
 
   return (
     <div className="h-screen flex flex-col justify-center items-center p-4">
-      <div className="grid grid-cols-4 gap-4">
+       
+      <div className="grid grid-cols-4 gap-20">
         {iconComponents.length > 0 ? (
           iconComponents.map(({ name, Component }) => (
             <div key={name} className="flex flex-col items-center">
-              <Component />
+              <Component size={40} />
+              
             </div>
           ))
         ) : (

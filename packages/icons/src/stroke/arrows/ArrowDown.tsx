@@ -8,6 +8,7 @@ export const ArrowDown: IconComponent = React.forwardRef<
   {
     color = "currentColor",
     fill,
+    size,
     strokeWidth,
     strokeLinecap,
     strokeLinejoin,

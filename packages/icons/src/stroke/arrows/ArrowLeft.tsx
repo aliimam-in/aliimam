@@ -8,6 +8,7 @@ export const ArrowLeft: IconComponent = React.forwardRef<
   {
     color = "currentColor",
     fill,
+    size,
     strokeWidth,
     strokeLinecap,
     strokeLinejoin,

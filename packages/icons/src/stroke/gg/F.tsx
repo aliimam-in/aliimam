@@ -6,6 +6,7 @@ export const F: IconComponent = React.forwardRef<SVGSVGElement, IconProps>(
     {
       color = "currentColor",
       fill,
+      size,
       strokeWidth,
       strokeLinecap,
       strokeLinejoin,
