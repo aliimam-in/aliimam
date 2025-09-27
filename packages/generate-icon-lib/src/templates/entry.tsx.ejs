@@ -1,16 +1,7 @@
-// entry.tsx.ejs - Updated to handle category-based structure
+// entry.tsx.ejs - Simple re-export structure
 
 <% for (const category in iconsByCategory) { -%>
-// Export all icons from <%- category %> category
-<% for (const icon of iconsByCategory[category]) { -%>
-export { default as <%- iconToComponentName(icon) %> } from './<%- category %>/<%- iconToComponentName(icon) %>';
+export * from "./<%- category %>";
 <% } -%>
 
-<% } -%>
-// Export category-specific bundles
-<% for (const category in iconsByCategory) { -%>
-export * as <%- category.charAt(0).toUpperCase() + category.slice(1) %> from './<%- category %>';
-<% } -%>
-
-// Re-export types
-export type { IconProps } from './types';
+export type { IconProps } from "./types";
