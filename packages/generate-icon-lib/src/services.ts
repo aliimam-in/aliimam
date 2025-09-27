@@ -294,54 +294,43 @@ export function getIcons(iconsCanvas: IFigmaCanvas): IIcons {
       iconSetNode.children.forEach((iconGroupNode) => {
         if (iconGroupNode.type === "COMPONENT") {
           const svgName = _.kebabCase(iconGroupNode.name.toLowerCase());
-          const jsxName = _.upperFirst(
-            _.camelCase(iconGroupNode.name.replace(/([0-9a-z])([0-9A-Z])/g, "$1 $2")),
-          );
+          const jsxName = _.upperFirst(_.camelCase(iconGroupNode.name.replace(/([0-9a-z])([0-9A-Z])/g, "$1 $2")));
 
           icons[iconGroupNode.id] = {
             jsxName,
             svgName,
             id: iconGroupNode.id,
             size: labelling.sizeFromFrameNodeName(iconSetNode.name),
-            type: topLevelCategory, // ✅ "solid" | "stroke"
+            type: topLevelCategory, // e.g., "solid"
           };
         } else if (iconGroupNode.type === "FRAME" || iconGroupNode.type === "GROUP") {
-          const subCategory = _.camelCase(iconGroupNode.name.toLowerCase());
-          let combinedCategory = `${topLevelCategory}/${subCategory}`;
-
-          // ✅ normalize: drop "/ali"
-          if (subCategory === "ali") {
-            combinedCategory = topLevelCategory;
-          }
+          const subCategory = _.camelCase(iconGroupNode.name.toLowerCase()); // e.g., "ali"
+          const combinedCategory = `${topLevelCategory}/${subCategory}`; // e.g., "solid/ali", "stroke/ali"
 
           iconGroupNode.children.forEach((iconNode) => {
             if (iconNode.type === "COMPONENT") {
               const svgName = _.kebabCase(iconNode.name.toLowerCase());
-              const jsxName = _.upperFirst(
-                _.camelCase(iconNode.name.replace(/([0-9a-z])([0-9A-Z])/g, "$1 $2")),
-              );
+              const jsxName = _.upperFirst(_.camelCase(iconNode.name.replace(/([0-9a-z])([0-9A-Z])/g, "$1 $2")));
 
               icons[iconNode.id] = {
                 jsxName,
                 svgName,
                 id: iconNode.id,
                 size: labelling.sizeFromFrameNodeName(iconGroupNode.name),
-                type: combinedCategory, // ✅ now "solid"
+                type: combinedCategory, // e.g., "solid/ali"
               };
             } else if (iconNode.type === "FRAME" || iconNode.type === "GROUP") {
               iconNode.children.forEach((deepIconNode) => {
                 if (deepIconNode.type === "COMPONENT") {
                   const svgName = _.kebabCase(deepIconNode.name.toLowerCase());
-                  const jsxName = _.upperFirst(
-                    _.camelCase(deepIconNode.name.replace(/([0-9a-z])([0-9A-Z])/g, "$1 $2")),
-                  );
+                  const jsxName = _.upperFirst(_.camelCase(deepIconNode.name.replace(/([0-9a-z])([0-9A-Z])/g, "$1 $2")));
 
                   icons[deepIconNode.id] = {
                     jsxName,
                     svgName,
                     id: deepIconNode.id,
                     size: labelling.sizeFromFrameNodeName(iconNode.name),
-                    type: combinedCategory, // ✅ now "solid"
+                    type: combinedCategory, // e.g., "solid/ali"
                   };
                 }
               });
@@ -353,7 +342,6 @@ export function getIcons(iconsCanvas: IFigmaCanvas): IIcons {
     return icons;
   }, {});
 }
-
 
 
 export async function downloadSvgsToFs(urls: IIconsSvgUrls, icons: IIcons, onProgress: () => void) {

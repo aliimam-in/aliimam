@@ -25,9 +25,9 @@ export interface IconMetadata {
   variants: ("stroke" | "solid" | "duotone" | "twotone" | "bulk")[];
 }
 
-// 🔑 Make IconComponent generic
 export type IconComponent<P extends IconProps = IconProps> =
   React.ForwardRefExoticComponent<P & React.RefAttributes<SVGSVGElement>> & {
     metadata?: IconMetadata;
     displayName?: string;
   };
+
