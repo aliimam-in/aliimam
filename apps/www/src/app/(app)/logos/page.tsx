@@ -1,5 +1,5 @@
 "use client"; 
-import * as Icons from "@aliimam/icons";
+import * as Icons from "@aliimam/logos";
 import React from "react";
 
 export default function About() {
@@ -31,9 +31,7 @@ export default function About() {
         ) : (
           <p>No icons found in @aliimam/logos</p>
         )}
-      </div>
-        
-       <Icons.ArrowDown />
+      </div> 
     </div>
   );
 }
