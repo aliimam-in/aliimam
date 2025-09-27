@@ -3,3 +3,7 @@ export { default as ArrowUpp } from "./ArrowUpp";
 export { default as ArrowRight } from "./ArrowRight";
 export { default as ArrowUp } from "./ArrowUp";
 export { default as ArrowDown } from "./ArrowDown";
+export { default as F } from "./F";
+export { default as R } from "./R";
+export { default as T } from "./T";
+export { default as Y } from "./Y";
