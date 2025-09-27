@@ -286,7 +286,6 @@ export function getIconsPage(document: IFigmaDocument): IFigmaCanvas | null {
   return canvas && canvas.type === "CANVAS" ? canvas : null
 }
 
-
 export function getIcons(iconsCanvas: IFigmaCanvas): IIcons {
   return iconsCanvas.children.reduce((icons: IIcons, iconSetNode) => {
     if (iconSetNode.type === "FRAME" || iconSetNode.type === "GROUP") {
@@ -305,15 +304,11 @@ export function getIcons(iconsCanvas: IFigmaCanvas): IIcons {
             id: iconGroupNode.id,
             size: labelling.sizeFromFrameNodeName(iconSetNode.name),
             type: topLevelCategory, // ✅ "solid" | "stroke"
+            topLevelCategory, // Store for file path distinction
           };
         } else if (iconGroupNode.type === "FRAME" || iconGroupNode.type === "GROUP") {
-          const subCategory = _.camelCase(iconGroupNode.name.toLowerCase());
-          let combinedCategory = `${topLevelCategory}/${subCategory}`;
-
-          // ✅ normalize: drop "/ali"
-          if (subCategory === "ali") {
-            combinedCategory = topLevelCategory;
-          }
+          const subCategory = _.camelCase(iconGroupNode.name.toLowerCase()); // e.g., "ali", "logos"
+          const combinedCategory = subCategory; // Use subCategory as the primary type
 
           iconGroupNode.children.forEach((iconNode) => {
             if (iconNode.type === "COMPONENT") {
@@ -327,7 +322,9 @@ export function getIcons(iconsCanvas: IFigmaCanvas): IIcons {
                 svgName,
                 id: iconNode.id,
                 size: labelling.sizeFromFrameNodeName(iconGroupNode.name),
-                type: combinedCategory, // ✅ now "solid"
+                type: topLevelCategory, // ✅ "solid" | "stroke"
+                subCategory, // Store subCategory for category
+                topLevelCategory, // Store for file path distinction
               };
             } else if (iconNode.type === "FRAME" || iconNode.type === "GROUP") {
               iconNode.children.forEach((deepIconNode) => {
@@ -342,7 +339,9 @@ export function getIcons(iconsCanvas: IFigmaCanvas): IIcons {
                     svgName,
                     id: deepIconNode.id,
                     size: labelling.sizeFromFrameNodeName(iconNode.name),
-                    type: combinedCategory, // ✅ now "solid"
+                    type: topLevelCategory, // ✅ "solid" | "stroke"
+                    subCategory, // Store subCategory for category
+                    topLevelCategory, // Store for file path distinction
                   };
                 }
               });
@@ -354,7 +353,6 @@ export function getIcons(iconsCanvas: IFigmaCanvas): IIcons {
     return icons;
   }, {});
 }
- 
 
 export async function downloadSvgsToFs(urls: IIconsSvgUrls, icons: IIcons, onProgress: () => void) {
   await Promise.all(
