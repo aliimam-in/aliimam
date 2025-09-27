@@ -13,13 +13,3 @@ export interface IconProps extends React.SVGAttributes<SVGElement> {
   opacity?: number
   className?: string
 }
-
-export interface IconMetadata {
-  name: string;
-  category: string;
-  tags: string[];
-  description?: string;
-  author?: string;
-  created?: string;
-  variants: ("stroke" | "solid" | "duotone" | "twotone" | "bulk")[]; 
-}

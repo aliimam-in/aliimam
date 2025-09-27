@@ -1,5 +1,5 @@
 import * as React from "react";
-import type { IconProps, IconMetadata } from "../types";
+import type { IconProps } from "../types";
 
 export const C = React.forwardRef<SVGSVGElement, IconProps>(function C(
   {
@@ -11,7 +11,6 @@ export const C = React.forwardRef<SVGSVGElement, IconProps>(function C(
     strokeDasharray,
     opacity,
     className,
-    variant = "stroke",
     ...props
   },
   forwardedRef,
@@ -31,7 +30,7 @@ export const C = React.forwardRef<SVGSVGElement, IconProps>(function C(
         fill={color}
       />
       <path
-        d="M7.65264 15.2652C9.71342 15.2652 11.4435 14.5867 12.7071 13.4164L10.2986 11.5506C9.65408 12.0001 8.78903 12.3138 7.65264 12.3138C5.63423 12.3138 3.92114 10.9824 3.31047 9.14209L3.22096 9.14969L0.864918 10.9731L0.834106 11.0587C2.08924 13.552 4.66739 15.2652 7.65264 15.2652Z"
+        d="M7.65264 15.2652C9.71343 15.2652 11.4435 14.5867 12.7072 13.4164L10.2986 11.5506C9.65409 12.0001 8.78904 12.3138 7.65264 12.3138C5.63424 12.3138 3.92115 10.9824 3.31048 9.14209L3.22096 9.14969L0.864925 10.9731L0.834114 11.0587C2.08925 13.552 4.6674 15.2652 7.65264 15.2652Z"
         fill={color}
       />
       <path
@@ -39,7 +38,7 @@ export const C = React.forwardRef<SVGSVGElement, IconProps>(function C(
         fill={color}
       />
       <path
-        d="M7.65264 2.95128C9.08586 2.95128 10.0526 3.57037 10.6039 4.08773L12.758 1.98449C11.4351 0.754788 9.71342 0 7.65264 0C4.66739 0 2.08924 1.7131 0.834106 4.20641L3.30199 6.12308C3.92114 4.28277 5.63423 2.95128 7.65264 2.95128Z"
+        d="M7.65264 2.95128C9.08586 2.95128 10.0526 3.57037 10.6039 4.08773L12.758 1.98449C11.4351 0.754788 9.71343 0 7.65264 0C4.6674 0 2.08925 1.7131 0.834114 4.20641L3.302 6.12308C3.92115 4.28277 5.63424 2.95128 7.65264 2.95128Z"
         fill={color}
       />
     </svg>

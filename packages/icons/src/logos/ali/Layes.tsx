@@ -1,5 +1,5 @@
 import * as React from "react";
-import type { IconProps, IconMetadata } from "../types";
+import type { IconProps } from "../types";
 
 export const Layes = React.forwardRef<SVGSVGElement, IconProps>(function Layes(
   {
@@ -11,7 +11,6 @@ export const Layes = React.forwardRef<SVGSVGElement, IconProps>(function Layes(
     strokeDasharray,
     opacity,
     className,
-    variant = "stroke",
     ...props
   },
   forwardedRef,
