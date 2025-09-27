@@ -1,5 +1,5 @@
 "use client"
-import * as Icons from "@aliimam/icons";
+import * as Icons from "@aliimam/logos";
 import React from "react";
 
 export default function About() { 
@@ -16,9 +16,9 @@ export default function About() {
     }));
 
   return (
-    <div className="h-screen flex flex-col justify-center items-center p-4">
+    <div className="h-full pt-40 flex flex-col justify-center items-center p-4">
        
-      <div className="grid grid-cols-4 gap-20">
+      <div className="flex flex-wrap justify-center gap-20">
         {iconComponents.length > 0 ? (
           iconComponents.map(({ name, Component }) => (
             <div key={name} className="flex flex-col items-center">

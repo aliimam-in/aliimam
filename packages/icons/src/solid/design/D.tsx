@@ -33,7 +33,7 @@ export const D: IconComponent = React.forwardRef<SVGSVGElement, IconProps>(
         {...props}
         ref={forwardedRef}
       >
-        <path d="M7.5 1L15 14H0L7.5 1Z" fill="#000" />
+        <path d="M7.5 1L15 14H0L7.5 1Z" fill="currentColor" />
       </svg>
     );
   },
