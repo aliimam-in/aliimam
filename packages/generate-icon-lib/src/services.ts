@@ -126,8 +126,9 @@ const transformers = {
     .attr("props", "...")
     .attr("ref", "forwardedRef")
     .toString()
+    .replace(/strokeWidth=['"][\d.]+['"]/g, "strokeWidth={strokeWidth}")
     .replace(/stroke=['|"]currentColor['|"]/g, "stroke={color}")
-    .replace(/fill=['|"]currentColor['|"]/g, "fill={color}")
+    .replace(/fill=['|"]currentColor['|"]/g, "fill={color}") 
     .replace('props="..."', "className={className}\n      strokeWidth={strokeWidth}\n      strokeLinecap={strokeLinecap}\n      strokeLinejoin={strokeLinejoin}\n      strokeDasharray={strokeDasharray}\n      opacity={opacity}\n      {...props}")
     .replace('ref="forwardedRef"', "ref={forwardedRef}")
 },
