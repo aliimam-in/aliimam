@@ -50,9 +50,9 @@ ArrowUpp.displayName = "ArrowUpp";
 
 ArrowUpp.metadata = {
   name: "ArrowUpp",
-  category: "stroke",
+  category: "stroke/arrows",
   tags: ["arrow", "upp", "icon"],
-  description: "ArrowUpp icon from stroke category",
+  description: "ArrowUpp icon from stroke/arrows category",
   variants: ["stroke", "solid"],
 } as IconMetadata;
 

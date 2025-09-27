@@ -95,10 +95,10 @@ Save.displayName = "Save";
 
 Save.metadata = {
   name: "Save",
-  category: "ali",
-  tags: ["save", "alibaba", "brand", "ecommerce"],
-  description: "Save icon from ali category",
-  variants: ["stroke"],
+  category: "stroke/ali",
+  tags: ["save", "icon"],
+  description: "Save icon from stroke/ali category",
+  variants: ["stroke", "solid"],
 } as IconMetadata;
 
 export default Save;

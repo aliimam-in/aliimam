@@ -106,10 +106,10 @@ Asfsbfd.displayName = "Asfsbfd";
 
 Asfsbfd.metadata = {
   name: "Asfsbfd",
-  category: "ali",
-  tags: ["asfsbfd", "alibaba", "brand", "ecommerce"],
-  description: "Asfsbfd icon from ali category",
-  variants: ["stroke"],
+  category: "stroke/ali",
+  tags: ["asfsbfd", "icon"],
+  description: "Asfsbfd icon from stroke/ali category",
+  variants: ["stroke", "solid"],
 } as IconMetadata;
 
 export default Asfsbfd;

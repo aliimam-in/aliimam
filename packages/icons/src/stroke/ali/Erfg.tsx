@@ -75,10 +75,10 @@ Erfg.displayName = "Erfg";
 
 Erfg.metadata = {
   name: "Erfg",
-  category: "ali",
-  tags: ["erfg", "alibaba", "brand", "ecommerce"],
-  description: "Erfg icon from ali category",
-  variants: ["stroke"],
+  category: "stroke/ali",
+  tags: ["erfg", "icon"],
+  description: "Erfg icon from stroke/ali category",
+  variants: ["stroke", "solid"],
 } as IconMetadata;
 
 export default Erfg;

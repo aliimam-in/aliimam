@@ -46,9 +46,9 @@ R.displayName = "R";
 
 R.metadata = {
   name: "R",
-  category: "stroke",
+  category: "stroke/gg",
   tags: ["icon"],
-  description: "R icon from stroke category",
+  description: "R icon from stroke/gg category",
   variants: ["stroke", "solid"],
 } as IconMetadata;
 
