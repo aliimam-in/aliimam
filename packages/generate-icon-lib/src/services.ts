@@ -145,10 +145,12 @@ const labelling = {
     return labelling.addSizePrefix(path.basename(nodeName).toLowerCase().trim())
   },
   filePathFromIcon(icon: IIcon): string {
-    return path.join("icons", icon.type, labelling.stripSizePrefix(icon.size), `${icon.svgName}.svg`)
+    const category = icon.type || "general"
+    return path.join("icons", category, `${icon.svgName}.svg`)
   },
   componentFilePathFromIcon(icon: IIcon): string {
-    return path.join("src", icon.type, `${icon.jsxName}.tsx`)
+    const category = icon.type || "general"
+    return path.join("src", category, `${icon.jsxName}.tsx`)
   },
   stripSizePrefix(size: string) {
     return size.replace(/^:?(.*)/, "$1")

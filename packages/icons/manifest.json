@@ -1,16 +1,16 @@
 {
   "": {
     ":icons": {
-      "arrow-left": "icons/arrow-left.svg",
-      "arrow-right": "icons/arrow-right.svg",
-      "arrow-up": "icons/arrow-up.svg",
-      "arrow-down": "icons/arrow-down.svg"
+      "arrow-left": "icons/icons/arrow-left.svg",
+      "arrow-right": "icons/icons/arrow-right.svg",
+      "arrow-up": "icons/icons/arrow-up.svg",
+      "arrow-down": "icons/icons/arrow-down.svg"
     },
     ":logos": {
-      "cursor": "logos/cursor.svg",
-      "openai": "logos/openai.svg",
-      "vercel": "logos/vercel.svg",
-      "google": "logos/google.svg"
+      "cursor": "icons/logos/cursor.svg",
+      "openai": "icons/logos/openai.svg",
+      "vercel": "icons/logos/vercel.svg",
+      "google": "icons/logos/google.svg"
     }
   }
 }

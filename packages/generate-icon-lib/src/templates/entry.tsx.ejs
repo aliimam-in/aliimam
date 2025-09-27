@@ -1,5 +1,4 @@
 <% for (const category in iconsByCategory) { -%>
-// File: ./<%- category %>/index.ts
 <% for (const icon of iconsByCategory[category]) { -%>
 export { default as <%- iconToComponentName(icon) %> } from "./<%- category %>/<%- iconToComponentName(icon) %>";
 <% } -%>
