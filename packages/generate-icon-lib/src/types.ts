@@ -38,7 +38,7 @@ export interface IIcon {
   type: string;
   jsxName: string;
   svgName: string;
-  category?: string; // Added to store subcategory (e.g., "ali")
+  category?: string; 
 }
 
 export interface IIcons {
