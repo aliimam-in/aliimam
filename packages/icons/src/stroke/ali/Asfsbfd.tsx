@@ -2,7 +2,7 @@ import * as React from "react";
 import type { IconProps, IconMetadata, IconComponent } from "../../types";
 
 interface AsfsbfdProps extends IconProps {
-  type: "stroke" | "solid";
+  type?: "stroke" | "solid";
 }
 
 export const Asfsbfd: IconComponent<AsfsbfdProps> = React.forwardRef<
@@ -18,7 +18,7 @@ export const Asfsbfd: IconComponent<AsfsbfdProps> = React.forwardRef<
     strokeDasharray,
     opacity,
     className,
-    type,
+    type = "stroke",
     ...props
   },
   forwardedRef,

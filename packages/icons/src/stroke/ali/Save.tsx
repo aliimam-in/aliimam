@@ -2,7 +2,7 @@ import * as React from "react";
 import type { IconProps, IconMetadata, IconComponent } from "../../types";
 
 interface SaveProps extends IconProps {
-  type: "stroke" | "solid";
+  type?: "stroke" | "solid";
 }
 
 export const Save: IconComponent<SaveProps> = React.forwardRef<

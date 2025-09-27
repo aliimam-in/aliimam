@@ -78,6 +78,10 @@ const cleanedTypes = icon.types.map(cleanType);
 const uniqueCleanedTypes = [...new Set(cleanedTypes)];
 // Determine default type: use "stroke" if available, otherwise first type
 const defaultType = uniqueCleanedTypes.includes('stroke') ? 'stroke' : uniqueCleanedTypes[0];
+// Validate that there are valid types
+if (!uniqueCleanedTypes.length) {
+  throw new Error(`No valid types for icon ${icon.name}`);
+}
 %>
 interface <%- iconToPropsName(icon) %> extends IconProps {
   type?: <%- uniqueCleanedTypes.map(t => `"${t}"`).join(' | ') %>;

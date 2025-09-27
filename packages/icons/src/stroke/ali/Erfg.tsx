@@ -2,7 +2,7 @@ import * as React from "react";
 import type { IconProps, IconMetadata, IconComponent } from "../../types";
 
 interface ErfgProps extends IconProps {
-  type: "stroke" | "solid";
+  type?: "stroke" | "solid";
 }
 
 export const Erfg: IconComponent<ErfgProps> = React.forwardRef<
@@ -18,7 +18,7 @@ export const Erfg: IconComponent<ErfgProps> = React.forwardRef<
     strokeDasharray,
     opacity,
     className,
-    type,
+    type = "stroke",
     ...props
   },
   forwardedRef,
