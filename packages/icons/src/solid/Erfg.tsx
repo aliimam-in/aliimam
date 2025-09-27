@@ -2,7 +2,7 @@ import * as React from "react";
 import type { IconProps, IconMetadata, IconComponent } from "../types";
 
 interface ErfgProps extends IconProps {
-  type: "solid" | "stroke";
+  type?: "solid" | "stroke";
 }
 
 export const Erfg: IconComponent = React.forwardRef<SVGSVGElement, ErfgProps>(
@@ -17,7 +17,7 @@ export const Erfg: IconComponent = React.forwardRef<SVGSVGElement, ErfgProps>(
       opacity,
       className,
       variant = "stroke",
-      type,
+      type = "solid",
       ...props
     },
     forwardedRef,

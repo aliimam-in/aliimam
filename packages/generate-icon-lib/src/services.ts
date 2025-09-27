@@ -303,8 +303,8 @@ export function getIcons(iconsCanvas: IFigmaCanvas): IIcons {
             svgName,
             id: iconGroupNode.id,
             size: labelling.sizeFromFrameNodeName(iconSetNode.name),
-            type: topLevelCategory, // ✅ "solid" | "stroke"
-            topLevelCategory, // Store for file path distinction
+            type: topLevelCategory,
+            topLevelCategory,
           };
         } else if (iconGroupNode.type === "FRAME" || iconGroupNode.type === "GROUP") {
           const subCategory = _.camelCase(iconGroupNode.name.toLowerCase()); // e.g., "ali", "logos"
@@ -322,10 +322,11 @@ export function getIcons(iconsCanvas: IFigmaCanvas): IIcons {
                 svgName,
                 id: iconNode.id,
                 size: labelling.sizeFromFrameNodeName(iconGroupNode.name),
-                type: topLevelCategory, // ✅ "solid" | "stroke"
-                subCategory, // Store subCategory for category
-                topLevelCategory, // Store for file path distinction
+                type: topLevelCategory,
+                subCategory,
+                topLevelCategory,
               };
+              console.log(`Icon: ${jsxName}, Type: ${topLevelCategory}, SubCategory: ${subCategory}, TopLevelCategory: ${topLevelCategory}`);
             } else if (iconNode.type === "FRAME" || iconNode.type === "GROUP") {
               iconNode.children.forEach((deepIconNode) => {
                 if (deepIconNode.type === "COMPONENT") {
@@ -339,10 +340,11 @@ export function getIcons(iconsCanvas: IFigmaCanvas): IIcons {
                     svgName,
                     id: deepIconNode.id,
                     size: labelling.sizeFromFrameNodeName(iconNode.name),
-                    type: topLevelCategory, // ✅ "solid" | "stroke"
-                    subCategory, // Store subCategory for category
-                    topLevelCategory, // Store for file path distinction
+                    type: topLevelCategory,
+                    subCategory,
+                    topLevelCategory,
                   };
+                  console.log(`Icon: ${jsxName}, Type: ${topLevelCategory}, SubCategory: ${subCategory}, TopLevelCategory: ${topLevelCategory}`);
                 }
               });
             }
