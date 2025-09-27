@@ -489,8 +489,7 @@ export function filePathToSVGinJSXSync(filePath: string) {
 }
 
 const metadata = {
-  generateIconMetadata(icon: IIcon): IconMetadata {
-    // Extract category from type (e.g., "solid/ali" -> "ali")
+  generateIconMetadata(icon: IIcon): IconMetadata { 
     const category = icon.type || "icons";
 
     // Generate tags based on icon name and category
@@ -511,7 +510,7 @@ const metadata = {
     const allTags = [...new Set([...nameTags, ...baseTags])];
 
     // Determine variants based on icon type
-    const variants: ("stroke" | "solid" | "duotone" | "twotone" | "bulk")[] = [
+    const type: ("stroke" | "solid" | "duotone" | "twotone" | "bulk")[] = [
       "stroke",
       "solid",
     ];
@@ -521,7 +520,7 @@ const metadata = {
       category,
       tags: allTags,
       description: `${icon.jsxName} icon from ${category} category`,
-      variants,
+      type,
     };
   },
 };
