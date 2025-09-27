@@ -12,6 +12,7 @@ export const Asfsbfd: IconComponent<AsfsbfdProps> = React.forwardRef<
   {
     color = "currentColor",
     fill,
+    size,
     strokeWidth,
     strokeLinecap,
     strokeLinejoin,
@@ -32,6 +33,8 @@ export const Asfsbfd: IconComponent<AsfsbfdProps> = React.forwardRef<
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         className={className}
+        width={size}
+        height={size}
         strokeWidth={strokeWidth}
         strokeLinecap={strokeLinecap}
         strokeLinejoin={strokeLinejoin}
@@ -69,6 +72,8 @@ export const Asfsbfd: IconComponent<AsfsbfdProps> = React.forwardRef<
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         className={className}
+        width={size}
+        height={size}
         strokeWidth={strokeWidth}
         strokeLinecap={strokeLinecap}
         strokeLinejoin={strokeLinejoin}

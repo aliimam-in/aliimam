@@ -27,12 +27,14 @@ export const Save: IconComponent<SaveProps> = React.forwardRef<
   if (type === "stroke") {
     return (
       <svg
-        width={size}
-        height={size}
+        width="15"
+        height="15"
         viewBox="0 0 15 15"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         className={className}
+        width={size}
+        height={size}
         strokeWidth={strokeWidth}
         strokeLinecap={strokeLinecap}
         strokeLinejoin={strokeLinejoin}
@@ -58,6 +60,8 @@ export const Save: IconComponent<SaveProps> = React.forwardRef<
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         className={className}
+        width={size}
+        height={size}
         strokeWidth={strokeWidth}
         strokeLinecap={strokeLinecap}
         strokeLinejoin={strokeLinejoin}
@@ -80,7 +84,7 @@ export const Save: IconComponent<SaveProps> = React.forwardRef<
       </svg>
     );
   }
- 
+
   console.error(`Save doesn't support ${type}`);
   return null;
 });
