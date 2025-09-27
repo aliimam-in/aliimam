@@ -1,33 +1,33 @@
 {
-  "icons/arrows": {
+  "arrows": {
     ":16": {
-      "arrow-left": "icons/icons/arrows/arrow-left.svg",
-      "arrow-right": "icons/icons/arrows/arrow-right.svg",
-      "arrow-up": "icons/icons/arrows/arrow-up.svg",
-      "arrow-down": "icons/icons/arrows/arrow-down.svg"
+      "arrow-left": "icons/arrows/arrow-left.svg",
+      "arrow-right": "icons/arrows/arrow-right.svg",
+      "arrow-up": "icons/arrows/arrow-up.svg",
+      "arrow-down": "icons/arrows/arrow-down.svg"
     }
   },
-  "icons/gg": {
+  "gg": {
     ":16": {
-      "f": "icons/icons/gg/f.svg",
-      "r": "icons/icons/gg/r.svg",
-      "t": "icons/icons/gg/t.svg",
-      "y": "icons/icons/gg/y.svg"
+      "f": "icons/gg/f.svg",
+      "r": "icons/gg/r.svg",
+      "t": "icons/gg/t.svg",
+      "y": "icons/gg/y.svg"
     }
   },
-  "logos/design": {
+  "design": {
     ":16": {
-      "a": "icons/logos/design/a.svg",
-      "d": "icons/logos/design/d.svg",
-      "c": "icons/logos/design/c.svg"
+      "a": "icons/design/a.svg",
+      "d": "icons/design/d.svg",
+      "c": "icons/design/c.svg"
     }
   },
-  "logos/ali": {
+  "ali": {
     ":16": {
-      "save": "icons/logos/ali/save.svg",
-      "layes": "icons/logos/ali/layes.svg",
-      "erfg": "icons/logos/ali/erfg.svg",
-      "asfsbfd": "icons/logos/ali/asfsbfd.svg"
+      "save": "icons/ali/save.svg",
+      "layes": "icons/ali/layes.svg",
+      "erfg": "icons/ali/erfg.svg",
+      "asfsbfd": "icons/ali/asfsbfd.svg"
     }
   }
 }
