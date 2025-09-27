@@ -1,84 +1,170 @@
 {
   "components": {
-    "Save": {
-      "name": "Save",
-      "path": "src/wordmark/ai/Save.tsx",
+    "Cursor": {
+      "name": "Cursor",
+      "path": "src/icon/software/Cursor.tsx",
+      "category": "icon",
+      "subcategory": "software",
+      "size": "16"
+    },
+    "GitHub": {
+      "name": "GitHub",
+      "path": "src/wordmark/software/GitHub.tsx",
       "category": "wordmark",
+      "subcategory": "software",
+      "size": "16"
+    },
+    "OpenAi": {
+      "name": "OpenAi",
+      "path": "src/icon/ai/OpenAi.tsx",
+      "category": "icon",
       "subcategory": "ai",
       "size": "16"
     },
-    "Layes": {
-      "name": "Layes",
-      "path": "src/wordmark/ai/Layes.tsx",
-      "category": "wordmark",
+    "Grok": {
+      "name": "Grok",
+      "path": "src/icon/ai/Grok.tsx",
+      "category": "icon",
       "subcategory": "ai",
       "size": "16"
     },
-    "Erfg": {
-      "name": "Erfg",
-      "path": "src/wordmark/ai/Erfg.tsx",
-      "category": "wordmark",
+    "Google": {
+      "name": "Google",
+      "path": "src/icon/google/Google.tsx",
+      "category": "icon",
+      "subcategory": "google",
+      "size": "16"
+    },
+    "Gemini": {
+      "name": "Gemini",
+      "path": "src/icon/ai/Gemini.tsx",
+      "category": "icon",
       "subcategory": "ai",
       "size": "16"
     },
-    "Asfsbfd": {
-      "name": "Asfsbfd",
-      "path": "src/wordmark/ai/Asfsbfd.tsx",
-      "category": "wordmark",
+    "DeepSeek": {
+      "name": "DeepSeek",
+      "path": "src/icon/ai/DeepSeek.tsx",
+      "category": "icon",
       "subcategory": "ai",
       "size": "16"
     },
-    "A": {
-      "name": "A",
-      "path": "src/icon/design/A.tsx",
+    "ClaudeAi": {
+      "name": "ClaudeAi",
+      "path": "src/icon/ai/ClaudeAi.tsx",
+      "category": "icon",
+      "subcategory": "ai",
+      "size": "16"
+    },
+    "Replicate": {
+      "name": "Replicate",
+      "path": "src/icon/ai/Replicate.tsx",
+      "category": "icon",
+      "subcategory": "ai",
+      "size": "16"
+    },
+    "GoogleCloud": {
+      "name": "GoogleCloud",
+      "path": "src/icon/google/GoogleCloud.tsx",
+      "category": "icon",
+      "subcategory": "google",
+      "size": "16"
+    },
+    "GoogleMaps": {
+      "name": "GoogleMaps",
+      "path": "src/icon/google/GoogleMaps.tsx",
+      "category": "icon",
+      "subcategory": "google",
+      "size": "16"
+    },
+    "Figma": {
+      "name": "Figma",
+      "path": "src/icon/design/Figma.tsx",
       "category": "icon",
       "subcategory": "design",
       "size": "16"
     },
-    "D": {
-      "name": "D",
-      "path": "src/icon/design/D.tsx",
+    "Photoshop": {
+      "name": "Photoshop",
+      "path": "src/icon/design/Photoshop.tsx",
       "category": "icon",
       "subcategory": "design",
       "size": "16"
     },
-    "C": {
-      "name": "C",
-      "path": "src/icon/design/C.tsx",
+    "Github": {
+      "name": "Github",
+      "path": "src/icon/software/Github.tsx",
       "category": "icon",
-      "subcategory": "design",
+      "subcategory": "software",
       "size": "16"
     },
-    "AiBlack": {
-      "name": "AiBlack",
-      "path": "src/icon/ali/AiBlack.tsx",
+    "Lovable": {
+      "name": "Lovable",
+      "path": "src/icon/ai/Lovable.tsx",
       "category": "icon",
-      "subcategory": "ali",
+      "subcategory": "ai",
       "size": "16"
     },
-    "Ai": {
-      "name": "Ai",
-      "path": "src/icon/ali/Ai.tsx",
+    "XAiGrok": {
+      "name": "XAiGrok",
+      "path": "src/icon/ai/XAiGrok.tsx",
       "category": "icon",
-      "subcategory": "ali",
+      "subcategory": "ai",
       "size": "16"
     },
-    "AiWhite": {
-      "name": "AiWhite",
-      "path": "src/icon/ali/AiWhite.tsx",
+    "Hume": {
+      "name": "Hume",
+      "path": "src/icon/ai/Hume.tsx",
       "category": "icon",
-      "subcategory": "ali",
+      "subcategory": "ai",
+      "size": "16"
+    },
+    "HuggingFace": {
+      "name": "HuggingFace",
+      "path": "src/icon/ai/HuggingFace.tsx",
+      "category": "icon",
+      "subcategory": "ai",
+      "size": "16"
+    },
+    "Midday": {
+      "name": "Midday",
+      "path": "src/icon/ai/Midday.tsx",
+      "category": "icon",
+      "subcategory": "ai",
       "size": "16"
     }
   },
   "categories": {
     "wordmark": {
-      "ai": ["Save", "Layes", "Erfg", "Asfsbfd"]
+      "software": ["Cursor", "GitHub"],
+      "ai": [
+        "OpenAi",
+        "Grok",
+        "Google",
+        "Gemini",
+        "DeepSeek",
+        "ClaudeAi",
+        "Replicate"
+      ]
     },
     "icon": {
-      "design": ["A", "D", "C"],
-      "ali": ["AiBlack", "Ai", "AiWhite"]
+      "google": ["Google", "GoogleCloud", "GoogleMaps"],
+      "software": ["Figma", "Photoshop", "Cursor", "Github"],
+      "design": ["Figma", "Photoshop"],
+      "ai": [
+        "OpenAi",
+        "Grok",
+        "Lovable",
+        "XAiGrok",
+        "Gemini",
+        "DeepSeek",
+        "ClaudeAi",
+        "Hume",
+        "HuggingFace",
+        "Replicate",
+        "Midday"
+      ]
     }
   },
-  "total": 10
+  "total": 19
 }

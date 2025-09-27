@@ -1,0 +1,18 @@
+export const categoryTags: Record<string, string[]> = {
+  ali: ["alibaba", "brand", "ecommerce", "marketplace", "retail"],
+  google: ["google", "ai", "maps", "cloud", "search", "android"],
+  logos: ["brand", "company", "logo", "identity", "design"],
+  icons: ["interface", "ui", "icon", "symbol", "graphic"],
+  arrows: ["direction", "navigation", "pointer", "indicator", "movement"],
+  social: ["social media", "platform", "network", "communication", "community"],
+  files: ["document", "file", "format", "data", "storage"],
+  devices: ["hardware", "device", "tech", "electronics", "gadget"],
+  payments: ["finance", "payment", "transaction", "banking", "money"],
+  security: ["safety", "protection", "cybersecurity", "lock", "privacy"],
+  analytics: ["data", "statistics", "tracking", "insights", "metrics"],
+  communication: ["chat", "message", "email", "call", "connect"],
+  media: ["video", "audio", "image", "multimedia", "content"],
+  travel: ["journey", "navigation", "map", "destination", "tourism"],
+  health: ["medical", "wellness", "fitness", "healthcare", "medicine"],
+  education: ["learning", "study", "school", "knowledge", "training"],
+};

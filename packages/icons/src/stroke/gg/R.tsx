@@ -6,7 +6,7 @@ export const R: IconComponent = React.forwardRef<SVGSVGElement, IconProps>(
     {
       color = "currentColor",
       fill,
-      size,
+      size = 20,
       strokeWidth,
       strokeLinecap,
       strokeLinejoin,
@@ -49,7 +49,7 @@ R.metadata = {
   category: "stroke/gg",
   tags: ["icon"],
   description: "R icon from stroke/gg category",
-  type: ["stroke", "solid"],
+  type: ["stroke", "icon"],
 } as IconMetadata;
 
 export default R;

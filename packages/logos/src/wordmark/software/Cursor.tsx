@@ -1,0 +1,91 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+interface CursorProps extends IconProps {
+  type?: "wordmark" | "icon";
+}
+
+export const Cursor: IconComponent<CursorProps> = React.forwardRef<
+  SVGSVGElement,
+  CursorProps
+>(function Cursor(
+  {
+    color = "currentColor",
+    fill,
+    size = 20,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    type = "icon",
+    ...props
+  },
+  forwardedRef,
+) {
+  if (type === "wordmark") {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 100 100"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M8.399 41.281H13.875V44.325H8.585C5.731 44.325 3.503 45.988 3.503 49.5 3.503 53.013 5.731 54.675 8.585 54.675H13.875V57.72H8.167C3.387 57.72 0 54.886 0 49.5 0 44.114 3.619 41.281 8.399 41.281ZM16.659 41.281H20.046V51.326C20.046 53.832 21.183 55.003 23.851 55.003 26.52 55.003 27.657 53.832 27.657 51.326V41.281H31.044V52.029C31.044 55.681 28.747 58 23.851 58 18.956 58 16.659 55.658 16.659 52.006V41.281ZM48.747 45.941C48.747 47.768 47.703 49.172 46.31 49.781V49.828C47.772 50.039 48.515 51.093 48.538 52.521L48.607 57.72H45.22L45.15 53.083C45.127 52.053 44.524 51.421 43.318 51.421H37.679V57.72H34.292V41.281H43.643C46.705 41.281 48.747 42.85 48.747 45.941ZM45.337 46.409C45.337 45.004 44.594 44.231 43.202 44.231H37.68V48.586H43.248C44.524 48.586 45.337 47.814 45.337 46.409V46.409ZM61.554 52.919C61.554 51.748 60.812 51.256 59.698 51.163L55.939 50.812C52.691 50.508 50.997 49.219 50.997 46.105 50.997 42.991 53.086 41.281 56.078 41.281H64.385V44.231H56.31C55.15 44.231 54.408 44.84 54.408 46.011 54.408 47.182 55.173 47.744 56.334 47.838L60.162 48.166C63.063 48.423 64.965 49.758 64.965 52.896 64.965 56.033 62.947 57.72 60.093 57.72H51.415V54.769H59.768C60.858 54.769 61.554 54.02 61.554 52.919V52.919ZM74.872 41C79.976 41 83.202 44.302 83.202 49.477 83.202 54.652 79.837 58 74.733 58 69.629 58 66.403 54.652 66.403 49.477 66.403 44.302 69.768 41 74.872 41ZM79.698 49.5C79.698 46.034 77.703 43.997 74.803 43.997 71.902 43.997 69.907 46.034 69.907 49.5 69.907 52.965 71.902 55.002 74.803 55.002 77.703 55.002 79.698 52.965 79.698 49.5ZM100 45.941C100 47.768 98.956 49.172 97.564 49.781V49.828C99.026 50.039 99.768 51.093 99.791 52.521L99.861 57.72H96.473L96.404 53.083C96.381 52.053 95.777 51.421 94.571 51.421H88.933V57.72H85.545V41.281H94.896C97.959 41.281 100 42.85 100 45.941ZM96.589 46.409C96.589 45.004 95.847 44.231 94.455 44.231H88.933V48.586H94.501C95.777 48.586 96.589 47.814 96.589 46.409V46.409Z"
+          fill="currentColor"
+        />
+      </svg>
+    );
+  }
+
+  if (type === "icon") {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M21.5812 5.68057L11.9972 0.133622C11.6895 -0.0445407 11.3097 -0.0445407 11.002 0.133622L1.41842 5.68057C1.15971 5.83032 0.999985 6.10726 0.999985 6.4072V17.5927C0.999985 17.8926 1.15971 18.1695 1.41842 18.3193L11.0024 23.8662C11.3102 24.0444 11.6899 24.0444 11.9977 23.8662L21.5817 18.3193C21.8404 18.1695 22.0001 17.8926 22.0001 17.5927V6.4072C22.0001 6.10726 21.8404 5.83032 21.5817 5.68057H21.5812ZM20.9792 6.85554L11.7273 22.9199C11.6647 23.0282 11.4996 22.984 11.4996 22.8586V12.3398C11.4996 12.1296 11.3876 11.9352 11.2058 11.8297L2.11897 6.57048C2.01098 6.50778 2.05508 6.34225 2.18016 6.34225H20.6841C20.9468 6.34225 21.111 6.62776 20.9797 6.85599H20.9792V6.85554Z"
+          fill="currentColor"
+        />
+      </svg>
+    );
+  }
+
+  console.error(`Cursor doesn't support ${type}`);
+  return null;
+});
+
+Cursor.displayName = "Cursor";
+
+Cursor.metadata = {
+  name: "Cursor",
+  category: "wordmark/software",
+  tags: ["cursor", "icon"],
+  description: "Cursor icon from wordmark/software category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default Cursor;

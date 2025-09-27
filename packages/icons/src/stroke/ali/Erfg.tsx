@@ -12,7 +12,7 @@ export const Erfg: IconComponent<ErfgProps> = React.forwardRef<
   {
     color = "currentColor",
     fill,
-    size,
+    size = 20,
     strokeWidth,
     strokeLinecap,
     strokeLinejoin,
@@ -79,7 +79,7 @@ Erfg.metadata = {
   category: "stroke/ali",
   tags: ["erfg", "icon"],
   description: "Erfg icon from stroke/ali category",
-  type: ["stroke", "solid"],
+  type: ["stroke", "icon"],
 } as IconMetadata;
 
 export default Erfg;

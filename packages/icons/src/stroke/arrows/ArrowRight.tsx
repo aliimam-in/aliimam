@@ -8,7 +8,7 @@ export const ArrowRight: IconComponent = React.forwardRef<
   {
     color = "currentColor",
     fill,
-    size,
+    size = 20,
     strokeWidth,
     strokeLinecap,
     strokeLinejoin,
@@ -50,7 +50,7 @@ ArrowRight.metadata = {
   category: "stroke/arrows",
   tags: ["arrow", "right", "icon"],
   description: "ArrowRight icon from stroke/arrows category",
-  type: ["stroke", "solid"],
+  type: ["stroke", "icon"],
 } as IconMetadata;
 
 export default ArrowRight;

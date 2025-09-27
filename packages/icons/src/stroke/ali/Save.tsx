@@ -12,7 +12,7 @@ export const Save: IconComponent<SaveProps> = React.forwardRef<
   {
     color = "currentColor",
     fill,
-    size,
+    size = 20,
     strokeWidth,
     strokeLinecap,
     strokeLinejoin,
@@ -92,7 +92,7 @@ Save.metadata = {
   category: "stroke/ali",
   tags: ["save", "icon"],
   description: "Save icon from stroke/ali category",
-  type: ["stroke", "solid"],
+  type: ["stroke", "icon"],
 } as IconMetadata;
 
 export default Save;

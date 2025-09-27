@@ -80,8 +80,8 @@ const uniqueCleanedTypes = [...new Set(cleanedTypes)];
 if (!uniqueCleanedTypes.length) {
   throw new Error(`No valid types for icon ${icon.name}`);
 }
-// Determine default type: use "stroke" if available, otherwise first type
-const defaultType = uniqueCleanedTypes.includes('stroke') ? 'stroke' : uniqueCleanedTypes[0];
+// Determine default type: prioritize "stroke", then "icon", otherwise first type
+const defaultType = uniqueCleanedTypes.includes('stroke') ? 'stroke' : uniqueCleanedTypes.includes('icon') ? 'icon' : uniqueCleanedTypes[0];
 %>
 interface <%- iconToPropsName(icon) %> extends IconProps {
   type?: <%- uniqueCleanedTypes.map(t => `"${t}"`).join(' | ') %>;
@@ -91,7 +91,7 @@ export const <%- iconToComponentName(icon) %>: IconComponent<<%- iconToPropsName
   function <%- iconToComponentName(icon) %>({
     color = 'currentColor',
     fill,
-    size,
+    size = 24,
     strokeWidth,
     strokeLinecap,
     strokeLinejoin,
@@ -119,7 +119,7 @@ export const <%- iconToComponentName(icon) %>: IconComponent = React.forwardRef<
   function <%- iconToComponentName(icon) %>({
     color = 'currentColor',
     fill,
-    size,
+    size = 24,
     strokeWidth,
     strokeLinecap,
     strokeLinejoin,

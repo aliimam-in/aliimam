@@ -8,7 +8,7 @@ export const ArrowUp: IconComponent = React.forwardRef<
   {
     color = "currentColor",
     fill,
-    size,
+    size = 20,
     strokeWidth,
     strokeLinecap,
     strokeLinejoin,
@@ -50,7 +50,7 @@ ArrowUp.metadata = {
   category: "stroke/arrows",
   tags: ["arrow", "up", "icon"],
   description: "ArrowUp icon from stroke/arrows category",
-  type: ["stroke", "solid"],
+  type: ["stroke", "icon"],
 } as IconMetadata;
 
 export default ArrowUp;

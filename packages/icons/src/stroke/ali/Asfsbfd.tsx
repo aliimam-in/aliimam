@@ -12,7 +12,7 @@ export const Asfsbfd: IconComponent<AsfsbfdProps> = React.forwardRef<
   {
     color = "currentColor",
     fill,
-    size,
+    size = 20,
     strokeWidth,
     strokeLinecap,
     strokeLinejoin,
@@ -109,7 +109,7 @@ Asfsbfd.metadata = {
   category: "stroke/ali",
   tags: ["asfsbfd", "icon"],
   description: "Asfsbfd icon from stroke/ali category",
-  type: ["stroke", "solid"],
+  type: ["stroke", "icon"],
 } as IconMetadata;
 
 export default Asfsbfd;

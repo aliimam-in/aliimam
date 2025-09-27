@@ -4,14 +4,14 @@ export interface IconProps extends React.SVGAttributes<SVGElement> {
   children?: never;
   color?: string;
   fill?: string;
-  size?: number;
-  strokeWidth?: number;
+  size?: 20 | number;
+  strokeWidth?: 2 | number;
   strokeLinecap?: "butt" | "round" | "square";
   strokeLinejoin?: "round" | "miter" | "bevel"; 
   strokeDasharray?: string;
   opacity?: number;
   className?: string;
-  type?: string;
+  type?: "stroke" | "icon" | string;
 }
 
 export interface IconMetadata {
@@ -21,7 +21,7 @@ export interface IconMetadata {
   description?: string;
   author?: string;
   created?: string;
-  type?: ("stroke" | "solid" | "duotone" | "twotone" | "bulk")[];
+  type?: ("stroke" | "icon")[];
 }
 
 export type IconComponent<P extends IconProps = IconProps> =

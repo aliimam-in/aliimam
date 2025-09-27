@@ -6,7 +6,7 @@ export const C: IconComponent = React.forwardRef<SVGSVGElement, IconProps>(
     {
       color = "currentColor",
       fill,
-      size,
+      size = 20,
       strokeWidth,
       strokeLinecap,
       strokeLinejoin,
@@ -61,7 +61,7 @@ C.metadata = {
   category: "solid/design",
   tags: ["icon"],
   description: "C icon from solid/design category",
-  type: ["stroke", "solid"],
+  type: ["stroke", "icon"],
 } as IconMetadata;
 
 export default C;

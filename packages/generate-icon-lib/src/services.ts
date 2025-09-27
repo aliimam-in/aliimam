@@ -32,6 +32,7 @@ import * as svgo from "svgo";
 import { fetch, pushObjLeafNodesToArr, handleError } from "./utils.js";
 import chalk from "chalk";
 import { IconMetadata } from "./templates/types.js";
+import { categoryTags } from "./category.js";
 
 const transformers = {
   /**
@@ -109,8 +110,10 @@ const transformers = {
     });
   },
 
-  readyForJSX(svgRaw: string) {
+  readyForJSX(svgRaw: string): string {
     const $ = cheerio.load(svgRaw, { xmlMode: true });
+
+    // Process attributes
     $("*").each((_i, el) => {
       if (isTagElement(el)) {
         Object.keys(el.attribs).forEach((attrKey) => {
@@ -121,6 +124,26 @@ const transformers = {
           }
           if (attrKey === "class") {
             $(el).attr("className", el.attribs[attrKey]).removeAttr(attrKey);
+          }
+          // Handle style attribute
+          if (attrKey === "style") {
+            const styleValue = el.attribs[attrKey];
+            // Convert CSS string (e.g., "fill: red; font-size: 12px") to object
+            const styleObject = styleValue
+              ? styleValue.split(";").reduce(
+                  (acc, style) => {
+                    const [key, value] = style.split(":").map((s) => s.trim());
+                    if (key && value) {
+                      acc[_.camelCase(key)] = value;
+                    }
+                    return acc;
+                  },
+                  {} as Record<string, string>
+                )
+              : {};
+            $(el)
+              .attr("style", JSON.stringify(styleObject))
+              .removeAttr(attrKey);
           }
         });
       }
@@ -133,7 +156,7 @@ const transformers = {
       .replace(/strokeWidth=['"][\d.]+['"]/g, "strokeWidth={strokeWidth}")
       .replace(/width=['"][\d.]+['"]/g, "width={size}")
       .replace(/height=['"][\d.]+['"]/g, "height={size}")
-      .replace(/stroke=['|"]currentColor['|"]/g, "stroke={color}")
+      .replace(/stroke=['"]currentColor['"]/g, "stroke={color}")
       .replace(/style=["']({.*})["']/g, "style={$1}")
       .replace(
         'props="..."',
@@ -352,14 +375,14 @@ export function getIcons(iconsCanvas: IFigmaCanvas): IIcons {
             svgName,
             id: iconGroupNode.id,
             size: labelling.sizeFromFrameNodeName(iconSetNode.name),
-            type: topLevelCategory, // e.g., "solid"
+            type: topLevelCategory, // e.g.,
           };
         } else if (
           iconGroupNode.type === "FRAME" ||
           iconGroupNode.type === "GROUP"
         ) {
-          const subCategory = _.camelCase(iconGroupNode.name.toLowerCase()); // e.g., "ali"
-          const combinedCategory = `${topLevelCategory}/${subCategory}`; // e.g., "solid/ali", "stroke/ali"
+          const subCategory = _.camelCase(iconGroupNode.name.toLowerCase()); // e.g.,
+          const combinedCategory = `${topLevelCategory}/${subCategory}`; // e.g.,
 
           iconGroupNode.children.forEach((iconNode) => {
             if (iconNode.type === "COMPONENT") {
@@ -375,7 +398,7 @@ export function getIcons(iconsCanvas: IFigmaCanvas): IIcons {
                 svgName,
                 id: iconNode.id,
                 size: labelling.sizeFromFrameNodeName(iconGroupNode.name),
-                type: combinedCategory, // e.g., "solid/ali"
+                type: combinedCategory, // e.g.,
               };
             } else if (iconNode.type === "FRAME" || iconNode.type === "GROUP") {
               iconNode.children.forEach((deepIconNode) => {
@@ -395,7 +418,7 @@ export function getIcons(iconsCanvas: IFigmaCanvas): IIcons {
                     svgName,
                     id: deepIconNode.id,
                     size: labelling.sizeFromFrameNodeName(iconNode.name),
-                    type: combinedCategory, // e.g., "solid/ali"
+                    type: combinedCategory, // e.g.,
                   };
                 }
               });
@@ -494,25 +517,11 @@ const metadata = {
     // Generate tags based on icon name and category
     const nameTags = icon.svgName.split("-").filter((tag) => tag.length > 1); // Remove single character parts
 
-    // Category-specific tags
-    const categoryTags: Record<string, string[]> = {
-      ali: ["alibaba", "brand", "ecommerce"],
-      logos: ["brand", "company", "logo"],
-      icons: ["interface", "ui", "icon"],
-      arrows: ["direction", "navigation", "pointer"],
-      social: ["social media", "platform", "network"],
-      files: ["document", "file", "format"],
-      devices: ["hardware", "device", "tech"],
-    };
-
     const baseTags = categoryTags[category] || ["icon"];
     const allTags = [...new Set([...nameTags, ...baseTags])];
 
     // Determine variants based on icon type
-    const type: ("stroke" | "solid" | "duotone" | "twotone" | "bulk")[] = [
-      "stroke",
-      "solid",
-    ];
+    const type: ("stroke" | "icon")[] = ["stroke", "icon"];
 
     return {
       name: icon.jsxName,
