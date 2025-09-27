@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <div className="">
       <Hero />
-      <ArrowDown strokeWidth={3} className="m-20 bg-blue-500"/>
+      <ArrowDown strokeWidth={6} stroke="4" className="m-20 p-2 text-green-500 w-16 h-16 bg-blue-500"/>
       <Clients className="md:hidden" />
       <Works />
       <Stats />

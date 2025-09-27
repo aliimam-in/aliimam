@@ -26,6 +26,12 @@ export const Asfsbfd: IconComponent = React.forwardRef<
       viewBox="0 0 15 16"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
       {...props}
       ref={forwardedRef}
     >
