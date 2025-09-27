@@ -1,4 +1,3 @@
-// File: ./general/index.ts
 export { default as ArrowLeft } from "./general/ArrowLeft";
 export { default as ArrowRight } from "./general/ArrowRight";
 export { default as ArrowUp } from "./general/ArrowUp";

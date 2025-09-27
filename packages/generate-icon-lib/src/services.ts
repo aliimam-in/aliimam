@@ -145,12 +145,12 @@ const labelling = {
     return labelling.addSizePrefix(path.basename(nodeName).toLowerCase().trim())
   },
   filePathFromIcon(icon: IIcon): string {
-    const category = icon.type || "general"
-    return path.join("icons", category, `${icon.svgName}.svg`)
+    // Include the type (category) in the path structure
+    return path.join("icons", icon.type, labelling.stripSizePrefix(icon.size), `${icon.svgName}.svg`)
   },
   componentFilePathFromIcon(icon: IIcon): string {
-    const category = icon.type || "general"
-    return path.join("src", category, `${icon.jsxName}.tsx`)
+    // Include the type (category) in the path structure
+    return path.join("src", icon.type, `${icon.jsxName}.tsx`)
   },
   stripSizePrefix(size: string) {
     return size.replace(/^:?(.*)/, "$1")
@@ -159,6 +159,7 @@ const labelling = {
     return `:${size.replace(/^(:?)(.*)/, "$2")}`
   },
 }
+
 
 const currentTempDir = temporaryDirectory()
 
@@ -364,6 +365,7 @@ export function filePathToSVGinJSXSync(filePath: string) {
 export async function generateReactComponents(icons: IIcons) {
   const getTemplateSource = (templateFile: string) =>
     fs.promises.readFile(path.resolve(import.meta.dirname, "./templates/", templateFile), { encoding: "utf8" })
+  
   const templates = {
     entry: await getTemplateSource("entry.tsx.ejs"),
     icon: await getTemplateSource("named-icon.tsx.ejs"),
@@ -391,7 +393,7 @@ export async function generateReactComponents(icons: IIcons) {
 
   const iconsByCategory = iconsWithVariants.reduce(
     (acc, icon) => {
-      const category = icon.types[0] || "general"
+      const category = icon.types[0] || "ai"
       if (!acc[category]) {
         acc[category] = []
       }
