@@ -455,6 +455,7 @@ const metadata = {
   }
 }
 
+// Modify the generateReactComponents function to include metadata
 export async function generateReactComponents(icons: IIcons) {
   const getTemplateSource = (templateFile: string) =>
     fs.promises.readFile(path.resolve(import.meta.dirname, "./templates/", templateFile), { encoding: "utf8" })
