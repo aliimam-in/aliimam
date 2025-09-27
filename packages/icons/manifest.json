@@ -7,12 +7,28 @@
       "arrow-down": "icons/icons/arrows/arrow-down.svg"
     }
   },
+  "icons/gg": {
+    ":16": {
+      "f": "icons/icons/gg/f.svg",
+      "r": "icons/icons/gg/r.svg",
+      "t": "icons/icons/gg/t.svg",
+      "y": "icons/icons/gg/y.svg"
+    }
+  },
   "logos/design": {
     ":16": {
       "book": "icons/logos/design/book.svg",
       "a": "icons/logos/design/a.svg",
       "d": "icons/logos/design/d.svg",
       "c": "icons/logos/design/c.svg"
+    }
+  },
+  "logos/ali": {
+    ":16": {
+      "save": "icons/logos/ali/save.svg",
+      "layes": "icons/logos/ali/layes.svg",
+      "erfg": "icons/logos/ali/erfg.svg",
+      "asfsbfd": "icons/logos/ali/asfsbfd.svg"
     }
   }
 }
