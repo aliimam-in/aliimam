@@ -1,8 +1,8 @@
 import * as React from "react";
 import type { IconProps, IconMetadata, IconComponent } from "../../types";
 
-export const Layes: IconComponent = React.forwardRef<SVGSVGElement, IconProps>(
-  function Layes(
+export const A: IconComponent = React.forwardRef<SVGSVGElement, IconProps>(
+  function A(
     {
       color = "currentColor",
       fill,
@@ -12,7 +12,6 @@ export const Layes: IconComponent = React.forwardRef<SVGSVGElement, IconProps>(
       strokeDasharray,
       opacity,
       className,
-      variant = "stroke",
       ...props
     },
     forwardedRef,
@@ -42,14 +41,14 @@ export const Layes: IconComponent = React.forwardRef<SVGSVGElement, IconProps>(
   },
 );
 
-Layes.displayName = "Layes";
+A.displayName = "A";
 
-Layes.metadata = {
-  name: "Layes",
-  category: "logos",
-  tags: ["layes", "brand", "company", "logo"],
-  description: "Layes icon from logos category",
-  variants: ["stroke", "solid"],
+A.metadata = {
+  name: "A",
+  category: "solid/design",
+  tags: ["icon"],
+  description: "A icon from solid/design category",
+  type: ["stroke", "solid"],
 } as IconMetadata;
 
-export default Layes;
+export default A;

@@ -50,10 +50,10 @@ import * as docs_3 from "../src/content/docs/icons/introduction.mdx?collection=d
 import * as docs_2 from "../src/content/docs/(root)/ui.mdx?collection=docs&hash=1758639770817"
 import * as docs_1 from "../src/content/docs/(root)/registry.mdx?collection=docs&hash=1758639770817"
 import * as docs_0 from "../src/content/docs/(root)/index.mdx?collection=docs&hash=1758639770817"
+import * as showcase_0 from "../src/content/showcase/dalim.mdx?collection=showcase&hash=1758639770817"
 import * as blogs_2 from "../src/content/blogs/websites-to-build-and-publish.mdx?collection=blogs&hash=1758639770817"
 import * as blogs_1 from "../src/content/blogs/open-source-nextjs-projects.mdx?collection=blogs&hash=1758639770817"
 import * as blogs_0 from "../src/content/blogs/free-ui-component-libraries.mdx?collection=blogs&hash=1758639770817"
-import * as showcase_0 from "../src/content/showcase/dalim.mdx?collection=showcase&hash=1758639770817"
 import { _runtime } from "fumadocs-mdx"
 import * as _source from "../source.config"
 export const blogs = _runtime.docs<typeof _source.blogs>([{ info: {"path":"free-ui-component-libraries.mdx","absolutePath":"/Users/aliimam/Desktop/Imam/AI/aliimam/apps/www/src/content/blogs/free-ui-component-libraries.mdx"}, data: blogs_0 }, { info: {"path":"open-source-nextjs-projects.mdx","absolutePath":"/Users/aliimam/Desktop/Imam/AI/aliimam/apps/www/src/content/blogs/open-source-nextjs-projects.mdx"}, data: blogs_1 }, { info: {"path":"websites-to-build-and-publish.mdx","absolutePath":"/Users/aliimam/Desktop/Imam/AI/aliimam/apps/www/src/content/blogs/websites-to-build-and-publish.mdx"}, data: blogs_2 }], [])

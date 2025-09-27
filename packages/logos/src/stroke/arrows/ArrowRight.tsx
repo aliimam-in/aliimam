@@ -1,10 +1,10 @@
 import * as React from "react";
 import type { IconProps, IconMetadata, IconComponent } from "../../types";
 
-export const ArrowUp: IconComponent = React.forwardRef<
+export const ArrowRight: IconComponent = React.forwardRef<
   SVGSVGElement,
   IconProps
->(function ArrowUp(
+>(function ArrowRight(
   {
     color = "currentColor",
     fill,
@@ -14,7 +14,6 @@ export const ArrowUp: IconComponent = React.forwardRef<
     strokeDasharray,
     opacity,
     className,
-    variant = "stroke",
     ...props
   },
   forwardedRef,
@@ -36,21 +35,21 @@ export const ArrowUp: IconComponent = React.forwardRef<
       ref={forwardedRef}
     >
       <path
-        d="M3.14648 6.85352C2.95122 6.65825 2.95122 6.34175 3.14648 6.14648L7.14648 2.14648C7.34175 1.95122 7.65825 1.95122 7.85352 2.14648L11.8535 6.14648C12.0488 6.34175 12.0488 6.65825 11.8535 6.85352C11.6583 7.04878 11.3417 7.04878 11.1465 6.85352L8 3.70703L8 12.5C8 12.7761 7.77614 13 7.5 13C7.22386 13 7 12.7761 7 12.5L7 3.70703L3.85352 6.85352C3.65825 7.04878 3.34175 7.04878 3.14648 6.85352Z"
+        d="M8.14648 3.14648C8.34175 2.95122 8.65825 2.95122 8.85352 3.14648L12.8535 7.14648C13.0488 7.34175 13.0488 7.65825 12.8535 7.85352L8.85352 11.8535C8.65825 12.0488 8.34175 12.0488 8.14648 11.8535C7.95122 11.6583 7.95122 11.3417 8.14648 11.1465L11.293 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.293L8.14648 3.85352C7.95122 3.65825 7.95122 3.34175 8.14648 3.14648Z"
         fill={color}
       />
     </svg>
   );
 });
 
-ArrowUp.displayName = "ArrowUp";
+ArrowRight.displayName = "ArrowRight";
 
-ArrowUp.metadata = {
-  name: "ArrowUp",
-  category: "icons",
-  tags: ["arrow", "up", "interface", "ui", "icon"],
-  description: "ArrowUp icon from icons category",
-  variants: ["stroke", "solid"],
+ArrowRight.metadata = {
+  name: "ArrowRight",
+  category: "stroke/arrows",
+  tags: ["arrow", "right", "icon"],
+  description: "ArrowRight icon from stroke/arrows category",
+  type: ["stroke", "solid"],
 } as IconMetadata;
 
-export default ArrowUp;
+export default ArrowRight;

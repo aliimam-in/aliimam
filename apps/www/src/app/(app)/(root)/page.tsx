@@ -8,13 +8,12 @@ import { Services } from "@/src/components/home/services";
 import { Stats } from "@/src/components/home/stats";
 import { Tools } from "@/src/components/home/tools";
 import { Works } from "@/src/components/home/works";
-import { ArrowUpp } from "@aliimam/icons";
+import { Save } from "@aliimam/icons";
 
 export default function Home() {
   return (
     <div className="">
-      <Hero />
-      <ArrowUpp variant="solid" strokeWidth={4} className="m-20 p-2 w-16 h-16 bg-blue-500"/>
+      <Hero /> 
       <Clients className="md:hidden" />
       <Works />
       <Stats />

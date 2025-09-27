@@ -12,7 +12,6 @@ export const R: IconComponent = React.forwardRef<SVGSVGElement, IconProps>(
       strokeDasharray,
       opacity,
       className,
-      variant = "stroke",
       ...props
     },
     forwardedRef,
@@ -46,10 +45,10 @@ R.displayName = "R";
 
 R.metadata = {
   name: "R",
-  category: "icons",
-  tags: ["interface", "ui", "icon"],
-  description: "R icon from icons category",
-  variants: ["stroke", "solid"],
+  category: "stroke/gg",
+  tags: ["icon"],
+  description: "R icon from stroke/gg category",
+  type: ["stroke", "solid"],
 } as IconMetadata;
 
 export default R;

@@ -21,8 +21,8 @@ importers:
   apps/www:
     dependencies:
       '@aliimam/icons':
-        specifier: ^0.0.3
-        version: 0.0.3(react@19.1.0)
+        specifier: ^0.0.4
+        version: 0.0.4(react@19.1.0)
       '@hookform/resolvers':
         specifier: ^5.2.2
         version: 5.2.2(react-hook-form@7.63.0(react@19.1.0))
@@ -418,6 +418,27 @@ importers:
         specifier: ^5.9.2
         version: 5.9.2
 
+  packages/logos:
+    devDependencies:
+      '@repo/generate-icon-lib':
+        specifier: workspace:*
+        version: link:../generate-icon-lib
+      '@types/react':
+        specifier: ^19.1.12
+        version: 19.1.14
+      '@types/react-dom':
+        specifier: ^19.1.9
+        version: 19.1.9(@types/react@19.1.14)
+      react:
+        specifier: ^19.1.1
+        version: 19.1.1
+      tsdx:
+        specifier: ^0.14.1
+        version: 0.14.1(@types/babel__core@7.20.5)(@types/node@22.15.3)
+      typescript:
+        specifier: ^5.9.2
+        version: 5.9.2
+
   packages/typescript-config: {}
 
 packages:
@@ -426,8 +447,8 @@ packages:
     resolution: {integrity: sha512-qI/5TaaaCZE4yeSZ83lu0+xi1r88JSxUjnH4OP/iZF7+KKZ75u3ee5isd0LxX+6N8U0npL61YrpbthILHB6BnA==}
     engines: {node: '>=18'}
 
-  '@aliimam/icons@0.0.3':
-    resolution: {integrity: sha512-2s4j3YGSKSmRSH0Ii5xl06eSFaE/WQZwx8OCNCnzc0PiOjYYvpTZE81LuX6nekI1oUZsJYMBRGY2Q3AKlqK8NQ==}
+  '@aliimam/icons@0.0.4':
+    resolution: {integrity: sha512-T7VxO7O071TFBYJh+b7H85l82XNI3ubmVNVs4LF6yZ+fczbvozwBbivKf9S1hBaFFCCb5A/Y7lNgn5n+Jj6WhA==}
     peerDependencies:
       react: ^16.x || ^17.x || ^18.x || ^19.x
 
@@ -7905,7 +7926,7 @@ snapshots:
       ansi-styles: 6.2.3
       is-fullwidth-code-point: 5.1.0
 
-  '@aliimam/icons@0.0.3(react@19.1.0)':
+  '@aliimam/icons@0.0.4(react@19.1.0)':
     dependencies:
       react: 19.1.0
 

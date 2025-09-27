@@ -1,8 +1,8 @@
 import * as React from "react";
 import type { IconProps, IconMetadata, IconComponent } from "../../types";
 
-export const Erfg: IconComponent = React.forwardRef<SVGSVGElement, IconProps>(
-  function Erfg(
+export const D: IconComponent = React.forwardRef<SVGSVGElement, IconProps>(
+  function D(
     {
       color = "currentColor",
       fill,
@@ -12,7 +12,6 @@ export const Erfg: IconComponent = React.forwardRef<SVGSVGElement, IconProps>(
       strokeDasharray,
       opacity,
       className,
-      variant = "stroke",
       ...props
     },
     forwardedRef,
@@ -39,14 +38,14 @@ export const Erfg: IconComponent = React.forwardRef<SVGSVGElement, IconProps>(
   },
 );
 
-Erfg.displayName = "Erfg";
+D.displayName = "D";
 
-Erfg.metadata = {
-  name: "Erfg",
-  category: "logos",
-  tags: ["erfg", "brand", "company", "logo"],
-  description: "Erfg icon from logos category",
-  variants: ["stroke", "solid"],
+D.metadata = {
+  name: "D",
+  category: "solid/design",
+  tags: ["icon"],
+  description: "D icon from solid/design category",
+  type: ["stroke", "solid"],
 } as IconMetadata;
 
-export default Erfg;
+export default D;

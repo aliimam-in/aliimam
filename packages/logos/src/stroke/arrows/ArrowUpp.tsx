@@ -14,7 +14,6 @@ export const ArrowUpp: IconComponent = React.forwardRef<
     strokeDasharray,
     opacity,
     className,
-    variant = "stroke",
     ...props
   },
   forwardedRef,
@@ -50,10 +49,10 @@ ArrowUpp.displayName = "ArrowUpp";
 
 ArrowUpp.metadata = {
   name: "ArrowUpp",
-  category: "icons",
-  tags: ["arrow", "upp", "interface", "ui", "icon"],
-  description: "ArrowUpp icon from icons category",
-  variants: ["stroke", "solid"],
+  category: "stroke/arrows",
+  tags: ["arrow", "upp", "icon"],
+  description: "ArrowUpp icon from stroke/arrows category",
+  type: ["stroke", "solid"],
 } as IconMetadata;
 
 export default ArrowUpp;

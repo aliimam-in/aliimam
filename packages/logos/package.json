@@ -1,6 +1,6 @@
 {
   "name": "@aliimam/logos",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "license": "MIT",
   "description": "Radix UI React Icon Set",
   "source": "./src/index.tsx",
@@ -14,7 +14,7 @@
     }
   },
   "scripts": {
-    "generate-src": "generate-icon-lib --file=9LLDXYb3i7M7fg3sGFHkyQ && cd ./logos",
+    "generate-src": "generate-icon-lib --file=5GAK0P4VrK66MjtHXK9KZc && cd ./logos",
     "build": "rimraf dist && pnpm build:esm && pnpm build:cjs",
     "build:esm": "tsc --project tsconfig.json",
     "build:cjs": "tsc --project tsconfig.cjs.json",
@@ -43,7 +43,7 @@
           "default": "./dist/cjs/index.js"
         }
       },
-      "./icons/*.svg": "./icons/*.svg",
+      "./logos/*.svg": "./logos/*.svg",
       "./*": {
         "import": {
           "types": "./dist/*.d.ts",
