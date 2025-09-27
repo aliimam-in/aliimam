@@ -1,5 +1,5 @@
 import * as React from 'react';
-import type { IconProps, IconMetadata, IconComponent } from '../types';
+import type { IconProps, IconMetadata, IconComponent } from '<%= "../".repeat(icon.types[0].split("/").length) %>types';
 
 <% /* A. Variants for both size and type */ %>
 <% if (icon.sizes.length > 1 && icon.types.length > 1) { %>
@@ -23,17 +23,17 @@ export const <%- iconToComponentName(icon) %>: IconComponent = React.forwardRef<
     type<%- icon.types[0] === getDefaultType() ? ` = '${icon.types[0]}'` : '' %>,
     ...props
   }, forwardedRef) {
-<%   icon.types.forEach((t, tIndex) => { %>
-<%     icon.sizes.forEach((s, sIndex) => { %>
-<%       if (iconHasSizeAndType(icon, s, t)) { %>
-    if (type === '<%- t %>' && size === '<%- s %>') {
-      return <%- iconToSVGSourceAsJSX(icon, s, t) %>
+<%   for (const t in icon.types) { %>
+<%     for (const s in icon.sizes) { %>
+<%       if (iconHasSizeAndType(icon, icon.sizes[s], icon.types[t])) { %>
+    if (type === '<%- icon.types[t] %>' && size === '<%- icon.sizes[s] %>') {
+      return <%- iconToSVGSourceAsJSX(icon, icon.sizes[s], icon.types[t]) %>
     }
 <%       } %>
-<%     }) %>
-<%   }) %>
-    console.error(`<%- iconToComponentName(icon) %> doesn't support the combination of ${size} and ${type}`);
-    return null;
+<%     } %>
+<%   } %>
+    console.error(`<%- iconToComponentName(icon) %> doesn't support the combination of ${size} and ${type}`)
+    return null
   }
 );
 
@@ -57,15 +57,15 @@ export const <%- iconToComponentName(icon) %>: IconComponent = React.forwardRef<
     size<%- icon.sizes[0] === getDefaultSize() ? ` = '${icon.sizes[0]}'` : '' %>,
     ...props
   }, forwardedRef) {
-<%   icon.sizes.forEach((s, sIndex) => { %>
-<%     if (iconHasSizeAndType(icon, s, icon.types[0])) { %>
-    if (size === '<%- s %>') {
-      return <%- iconToSVGSourceAsJSX(icon, s, icon.types[0]) %>
+<%   for (const s in icon.sizes) { %>
+<%     if (iconHasSizeAndType(icon, icon.sizes[s], icon.types[0])) { %>
+    if (size === '<%- icon.sizes[s] %>') {
+      return <%- iconToSVGSourceAsJSX(icon, icon.sizes[s], icon.types[0]) %>
     }
 <%     } %>
-<%   }) %>
-    console.error(`<%- iconToComponentName(icon) %> doesn't support ${size}`);
-    return null;
+<%   } %>
+    console.error(`<%- iconToComponentName(icon) %> doesn't support ${size}`)
+    return null
   }
 );
 
@@ -89,15 +89,15 @@ export const <%- iconToComponentName(icon) %>: IconComponent = React.forwardRef<
     type<%- icon.types[0] === getDefaultType() ? ` = '${icon.types[0]}'` : '' %>,
     ...props
   }, forwardedRef) {
-<%   icon.types.forEach((t, tIndex) => { %>
-<%     if (iconHasSizeAndType(icon, icon.sizes[0], t)) { %>
-    if (type === '<%- t %>') {
-      return <%- iconToSVGSourceAsJSX(icon, icon.sizes[0], t) %>
+<%   for (const t in icon.types) { %>
+<%     if (iconHasSizeAndType(icon, icon.sizes[0], icon.types[t])) { %>
+    if (type === '<%- icon.types[t] %>') {
+      return <%- iconToSVGSourceAsJSX(icon, icon.sizes[0], icon.types[t]) %>
     }
 <%     } %>
-<%   }) %>
-    console.error(`<%- iconToComponentName(icon) %> doesn't support ${type}`);
-    return null;
+<%   } %>
+    console.error(`<%- iconToComponentName(icon) %> doesn't support ${type}`)
+    return null
   }
 );
 

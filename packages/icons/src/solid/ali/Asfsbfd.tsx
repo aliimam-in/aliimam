@@ -2,7 +2,7 @@ import * as React from "react";
 import type { IconProps, IconMetadata, IconComponent } from "../types";
 
 interface AsfsbfdProps extends IconProps {
-  type?: "solid" | "stroke";
+  type: "solid/ali" | "stroke/ali";
 }
 
 export const Asfsbfd: IconComponent = React.forwardRef<
@@ -19,12 +19,12 @@ export const Asfsbfd: IconComponent = React.forwardRef<
     opacity,
     className,
     variant = "stroke",
-    type = "solid",
+    type,
     ...props
   },
   forwardedRef,
 ) {
-  if (type === "solid") {
+  if (type === "solid/ali") {
     return (
       <svg
         width="15"
@@ -61,7 +61,7 @@ export const Asfsbfd: IconComponent = React.forwardRef<
     );
   }
 
-  if (type === "stroke") {
+  if (type === "stroke/ali") {
     return (
       <svg
         width="15"
@@ -106,10 +106,10 @@ Asfsbfd.displayName = "Asfsbfd";
 
 Asfsbfd.metadata = {
   name: "Asfsbfd",
-  category: "solid",
-  tags: ["asfsbfd", "icon"],
-  description: "Asfsbfd icon from solid category",
-  variants: ["stroke", "solid"],
+  category: "ali",
+  tags: ["asfsbfd", "alibaba", "brand", "ecommerce"],
+  description: "Asfsbfd icon from ali category",
+  variants: ["solid"],
 } as IconMetadata;
 
 export default Asfsbfd;

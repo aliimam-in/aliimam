@@ -2,7 +2,7 @@ import * as React from "react";
 import type { IconProps, IconMetadata, IconComponent } from "../types";
 
 interface ErfgProps extends IconProps {
-  type?: "solid" | "stroke";
+  type: "solid/ali" | "stroke/ali";
 }
 
 export const Erfg: IconComponent = React.forwardRef<SVGSVGElement, ErfgProps>(
@@ -17,12 +17,12 @@ export const Erfg: IconComponent = React.forwardRef<SVGSVGElement, ErfgProps>(
       opacity,
       className,
       variant = "stroke",
-      type = "solid",
+      type,
       ...props
     },
     forwardedRef,
   ) {
-    if (type === "solid") {
+    if (type === "solid/ali") {
       return (
         <svg
           width="15"
@@ -44,7 +44,7 @@ export const Erfg: IconComponent = React.forwardRef<SVGSVGElement, ErfgProps>(
       );
     }
 
-    if (type === "stroke") {
+    if (type === "stroke/ali") {
       return (
         <svg
           width="15"
@@ -75,10 +75,10 @@ Erfg.displayName = "Erfg";
 
 Erfg.metadata = {
   name: "Erfg",
-  category: "solid",
-  tags: ["erfg", "icon"],
-  description: "Erfg icon from solid category",
-  variants: ["stroke", "solid"],
+  category: "ali",
+  tags: ["erfg", "alibaba", "brand", "ecommerce"],
+  description: "Erfg icon from ali category",
+  variants: ["solid"],
 } as IconMetadata;
 
 export default Erfg;
