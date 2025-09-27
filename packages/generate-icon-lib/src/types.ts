@@ -38,8 +38,9 @@ export interface IIcon {
   id: string;
   size: string;
   type: string; // "solid" | "stroke"
-  subCategory?: string; // e.g., "ali", "logos"
-  topLevelCategory?: string; // e.g., "solid", "stroke"
+  subCategory?: string;
+  topLevelCategory?: string;
+  hasBothVariants?: boolean; // New optional flag
 }
 
 export interface IIcons {

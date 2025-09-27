@@ -2,7 +2,7 @@ import * as React from "react";
 import type { IconProps, IconMetadata, IconComponent } from "../types";
 
 interface SaveProps extends IconProps {
-  type?: "solid" | "stroke";
+  type: "solid" | "stroke";
 }
 
 export const Save: IconComponent = React.forwardRef<SVGSVGElement, SaveProps>(
@@ -17,7 +17,7 @@ export const Save: IconComponent = React.forwardRef<SVGSVGElement, SaveProps>(
       opacity,
       className,
       variant = "stroke",
-      type = "solid",
+      type,
       ...props
     },
     forwardedRef,

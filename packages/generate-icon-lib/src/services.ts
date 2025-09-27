@@ -288,6 +288,33 @@ export function getIconsPage(document: IFigmaDocument): IFigmaCanvas | null {
 
 
 export function getIcons(iconsCanvas: IFigmaCanvas): IIcons {
+  const iconVariants: { [key: string]: Set<string> } = {}; // Track variants per icon name
+
+  // First pass: Collect variants
+  iconsCanvas.children.forEach((iconSetNode) => {
+    if (iconSetNode.type === "FRAME" || iconSetNode.type === "GROUP") {
+      const topLevelCategory = _.camelCase(iconSetNode.name.toLowerCase()); // e.g., "solid", "stroke"
+
+      iconSetNode.children.forEach((iconGroupNode) => {
+        if (iconGroupNode.type === "FRAME" || iconGroupNode.type === "GROUP") {
+          const subCategory = _.camelCase(iconGroupNode.name.toLowerCase()); // e.g., "ali"
+          iconGroupNode.children.forEach((iconNode) => {
+            if (iconNode.type === "COMPONENT") {
+              const jsxName = _.upperFirst(
+                _.camelCase(iconNode.name.replace(/([0-9a-z])([0-9A-Z])/g, "$1 $2")),
+              );
+              if (!iconVariants[jsxName]) {
+                iconVariants[jsxName] = new Set();
+              }
+              iconVariants[jsxName].add(topLevelCategory);
+            }
+          });
+        }
+      });
+    }
+  });
+
+  // Second pass: Assign icons with logic for default folder
   return iconsCanvas.children.reduce((icons: IIcons, iconSetNode) => {
     if (iconSetNode.type === "FRAME" || iconSetNode.type === "GROUP") {
       const topLevelCategory = _.camelCase(iconSetNode.name.toLowerCase()); // e.g., "solid", "stroke"
@@ -304,17 +331,11 @@ export function getIcons(iconsCanvas: IFigmaCanvas): IIcons {
             svgName,
             id: iconGroupNode.id,
             size: labelling.sizeFromFrameNodeName(iconSetNode.name),
-            type: topLevelCategory, // ✅ "solid" | "stroke"
+            type: topLevelCategory,
+            topLevelCategory,
           };
         } else if (iconGroupNode.type === "FRAME" || iconGroupNode.type === "GROUP") {
-          const subCategory = _.camelCase(iconGroupNode.name.toLowerCase());
-          let combinedCategory = `${topLevelCategory}/${subCategory}`;
-
-          // ✅ normalize: drop "/ali" but preserve top-level category for folder structure
-          if (subCategory === "ali") {
-            combinedCategory = topLevelCategory; // Keep type as "solid" or "stroke"
-          }
-
+          const subCategory = _.camelCase(iconGroupNode.name.toLowerCase()); // e.g., "ali"
           iconGroupNode.children.forEach((iconNode) => {
             if (iconNode.type === "COMPONENT") {
               const svgName = _.kebabCase(iconNode.name.toLowerCase());
@@ -322,33 +343,17 @@ export function getIcons(iconsCanvas: IFigmaCanvas): IIcons {
                 _.camelCase(iconNode.name.replace(/([0-9a-z])([0-9A-Z])/g, "$1 $2")),
               );
 
+              const hasBothVariants = iconVariants[jsxName]?.size > 1; // True if both "solid" and "stroke" exist
               icons[iconNode.id] = {
                 jsxName,
                 svgName,
                 id: iconNode.id,
                 size: labelling.sizeFromFrameNodeName(iconGroupNode.name),
-                type: combinedCategory, // ✅ now "solid" or "stroke"
-                // Add topLevelCategory to distinguish folders later
-                topLevelCategory: topLevelCategory,
+                type: topLevelCategory,
+                subCategory,
+                topLevelCategory,
+                hasBothVariants, // New flag to indicate multiple variants
               };
-            } else if (iconNode.type === "FRAME" || iconNode.type === "GROUP") {
-              iconNode.children.forEach((deepIconNode) => {
-                if (deepIconNode.type === "COMPONENT") {
-                  const svgName = _.kebabCase(deepIconNode.name.toLowerCase());
-                  const jsxName = _.upperFirst(
-                    _.camelCase(deepIconNode.name.replace(/([0-9a-z])([0-9A-Z])/g, "$1 $2")),
-                  );
-
-                  icons[deepIconNode.id] = {
-                    jsxName,
-                    svgName,
-                    id: deepIconNode.id,
-                    size: labelling.sizeFromFrameNodeName(iconNode.name),
-                    type: combinedCategory, // ✅ now "solid" or "stroke"
-                    topLevelCategory: topLevelCategory,
-                  };
-                }
-              });
             }
           });
         }

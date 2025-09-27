@@ -2,7 +2,7 @@ import * as React from "react";
 import type { IconProps, IconMetadata, IconComponent } from "../types";
 
 interface AsfsbfdProps extends IconProps {
-  type?: "solid" | "stroke";
+  type: "solid" | "stroke";
 }
 
 export const Asfsbfd: IconComponent = React.forwardRef<
@@ -19,7 +19,7 @@ export const Asfsbfd: IconComponent = React.forwardRef<
     opacity,
     className,
     variant = "stroke",
-    type = "solid",
+    type,
     ...props
   },
   forwardedRef,
