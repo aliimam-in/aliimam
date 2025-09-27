@@ -5,112 +5,112 @@
       "path": "src/stroke/arrows/ArrowLeft.tsx",
       "category": "stroke",
       "subcategory": "arrows",
-      "size": "16"
+      "size": "arrows"
     },
     "ArrowUpp": {
       "name": "ArrowUpp",
       "path": "src/stroke/arrows/ArrowUpp.tsx",
       "category": "stroke",
       "subcategory": "arrows",
-      "size": "16"
+      "size": "arrows"
     },
     "ArrowRight": {
       "name": "ArrowRight",
       "path": "src/stroke/arrows/ArrowRight.tsx",
       "category": "stroke",
       "subcategory": "arrows",
-      "size": "16"
+      "size": "arrows"
     },
     "ArrowUp": {
       "name": "ArrowUp",
       "path": "src/stroke/arrows/ArrowUp.tsx",
       "category": "stroke",
       "subcategory": "arrows",
-      "size": "16"
+      "size": "arrows"
     },
     "ArrowDown": {
       "name": "ArrowDown",
       "path": "src/stroke/arrows/ArrowDown.tsx",
       "category": "stroke",
       "subcategory": "arrows",
-      "size": "16"
+      "size": "arrows"
     },
     "F": {
       "name": "F",
       "path": "src/stroke/gg/F.tsx",
       "category": "stroke",
       "subcategory": "gg",
-      "size": "16"
+      "size": "gg"
     },
     "R": {
       "name": "R",
       "path": "src/stroke/gg/R.tsx",
       "category": "stroke",
       "subcategory": "gg",
-      "size": "16"
+      "size": "gg"
     },
     "T": {
       "name": "T",
       "path": "src/stroke/gg/T.tsx",
       "category": "stroke",
       "subcategory": "gg",
-      "size": "16"
+      "size": "gg"
     },
     "Y": {
       "name": "Y",
       "path": "src/stroke/gg/Y.tsx",
       "category": "stroke",
       "subcategory": "gg",
-      "size": "16"
+      "size": "gg"
     },
     "Save": {
       "name": "Save",
       "path": "src/solid/ali/Save.tsx",
       "category": "solid",
       "subcategory": "ali",
-      "size": "16"
+      "size": "ali"
     },
     "Layes": {
       "name": "Layes",
       "path": "src/solid/ali/Layes.tsx",
       "category": "solid",
       "subcategory": "ali",
-      "size": "16"
+      "size": "ali"
     },
     "Erfg": {
       "name": "Erfg",
       "path": "src/solid/ali/Erfg.tsx",
       "category": "solid",
       "subcategory": "ali",
-      "size": "16"
+      "size": "ali"
     },
     "Asfsbfd": {
       "name": "Asfsbfd",
       "path": "src/solid/ali/Asfsbfd.tsx",
       "category": "solid",
       "subcategory": "ali",
-      "size": "16"
+      "size": "ali"
     },
     "A": {
       "name": "A",
       "path": "src/solid/design/A.tsx",
       "category": "solid",
       "subcategory": "design",
-      "size": "16"
+      "size": "design"
     },
     "D": {
       "name": "D",
       "path": "src/solid/design/D.tsx",
       "category": "solid",
       "subcategory": "design",
-      "size": "16"
+      "size": "design"
     },
     "C": {
       "name": "C",
       "path": "src/solid/design/C.tsx",
       "category": "solid",
       "subcategory": "design",
-      "size": "16"
+      "size": "design"
     }
   },
   "categories": {

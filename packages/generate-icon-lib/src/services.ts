@@ -398,7 +398,7 @@ export function getIcons(iconsCanvas: IFigmaCanvas): IIcons {
                     svgName,
                     id: deepIconNode.id,
                     size: labelling.sizeFromFrameNodeName(iconNode.name),
-                    type: labelling.typeFromFrameNodeName(iconSetNode.name),
+                    type: combinedCategory
                   };
                 }
               });
