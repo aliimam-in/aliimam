@@ -1,18 +1,18 @@
 {
-  "arrows": {
+  "icons/arrows": {
     ":16": {
-      "arrow-left": "icons/arrows/arrow-left.svg",
-      "arrow-right": "icons/arrows/arrow-right.svg",
-      "arrow-up": "icons/arrows/arrow-up.svg",
-      "arrow-down": "icons/arrows/arrow-down.svg"
+      "arrow-left": "icons/icons/arrows/arrow-left.svg",
+      "arrow-right": "icons/icons/arrows/arrow-right.svg",
+      "arrow-up": "icons/icons/arrows/arrow-up.svg",
+      "arrow-down": "icons/icons/arrows/arrow-down.svg"
     }
   },
-  "ai": {
+  "logos/ai": {
     ":16": {
-      "cursor": "icons/ai/cursor.svg",
-      "openai": "icons/ai/openai.svg",
-      "vercel": "icons/ai/vercel.svg",
-      "google": "icons/ai/google.svg"
+      "cursor": "icons/logos/ai/cursor.svg",
+      "openai": "icons/logos/ai/openai.svg",
+      "vercel": "icons/logos/ai/vercel.svg",
+      "google": "icons/logos/ai/google.svg"
     }
   }
 }
