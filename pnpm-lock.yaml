@@ -21,8 +21,8 @@ importers:
   apps/www:
     dependencies:
       '@aliimam/icons':
-        specifier: ^0.0.2
-        version: 0.0.2(react@19.1.0)
+        specifier: ^0.0.3
+        version: 0.0.3(react@19.1.0)
       '@hookform/resolvers':
         specifier: ^5.2.2
         version: 5.2.2(react-hook-form@7.63.0(react@19.1.0))
@@ -426,8 +426,8 @@ packages:
     resolution: {integrity: sha512-qI/5TaaaCZE4yeSZ83lu0+xi1r88JSxUjnH4OP/iZF7+KKZ75u3ee5isd0LxX+6N8U0npL61YrpbthILHB6BnA==}
     engines: {node: '>=18'}
 
-  '@aliimam/icons@0.0.2':
-    resolution: {integrity: sha512-1yLi5zYVpWH9db6gupW+6zTmUkNBWy00I7C/FBOJ2iZ5P52oRWendnx1PXiBIftL8R/gLiH0HYt2FQpZv2AAgw==}
+  '@aliimam/icons@0.0.3':
+    resolution: {integrity: sha512-2s4j3YGSKSmRSH0Ii5xl06eSFaE/WQZwx8OCNCnzc0PiOjYYvpTZE81LuX6nekI1oUZsJYMBRGY2Q3AKlqK8NQ==}
     peerDependencies:
       react: ^16.x || ^17.x || ^18.x || ^19.x
 
@@ -7905,7 +7905,7 @@ snapshots:
       ansi-styles: 6.2.3
       is-fullwidth-code-point: 5.1.0
 
-  '@aliimam/icons@0.0.2(react@19.1.0)':
+  '@aliimam/icons@0.0.3(react@19.1.0)':
     dependencies:
       react: 19.1.0
 

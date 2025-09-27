@@ -38,7 +38,7 @@ export const ArrowUpp: IconComponent = React.forwardRef<
       <path
         d="M3.2 20 11.2 12 3.2 4M14.2 20 21.2 12 14.2 4"
         stroke={color}
-        strokeWidth="2"
+        strokeWidth={strokeWidth}
         strokeLinecap="round"
         strokeLinejoin="round"
       />

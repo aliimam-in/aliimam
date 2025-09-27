@@ -476,7 +476,7 @@ export async function generateReactComponents(icons: IIcons) {
         types: [],
         svgName: icons[iconId].svgName,
         jsxName: icons[iconId].jsxName,
-        metadata: metadata.generateIconMetadata(icons[iconId]) // Add metadata here
+        metadata: metadata.generateIconMetadata(icons[iconId])  
       }
       icon.ids = _.uniq(icon.ids.concat(icons[iconId].id))
       icon.sizes = _.uniq(icon.sizes.concat(labelling.stripSizePrefix(icons[iconId].size)))
