@@ -289,12 +289,11 @@ export function getIcons(iconsCanvas: IFigmaCanvas): IIcons {
   return iconsCanvas.children.reduce((icons: IIcons, iconSetNode) => {
     // iconSetNode represents top-level frames like "Logos", "Icons", etc.
     if (iconSetNode.type === "FRAME" || iconSetNode.type === "GROUP") {
-      const topLevelCategory = _.camelCase(iconSetNode.name.toLowerCase()) // "logos", "icons"
       
       iconSetNode.children.forEach((iconGroupNode) => {
         // Icons can be directly in the top-level frame or in subframes
         if (iconGroupNode.type === "COMPONENT") {
-          // Direct components in top-level frames (like Logos frame)
+          // Direct components in top-level frames - shouldn't happen with your new structure
           const svgName = _.kebabCase(iconGroupNode.name.toLowerCase())
           const jsxName = _.upperFirst(_.camelCase(iconGroupNode.name.replace(/([0-9a-z])([0-9A-Z])/g, "$1 $2")))
 
@@ -302,14 +301,12 @@ export function getIcons(iconsCanvas: IFigmaCanvas): IIcons {
             jsxName,
             svgName,
             id: iconGroupNode.id,
-            size: labelling.sizeFromFrameNodeName(iconSetNode.name), // Use parent frame for size
-            type: topLevelCategory, // Use top-level frame name as category
+            size: labelling.sizeFromFrameNodeName(iconSetNode.name),
+            type: _.camelCase(iconSetNode.name.toLowerCase()),
           }
-        } else if (iconGroupNode.type === "FRAME") {
-          // Subframes (like "Arrows" inside "Icons")
-          const subCategory = _.camelCase(iconGroupNode.name.toLowerCase()) // "arrows"
-          // For nested structure, we can use either the subcategory or combine them
-          const finalCategory = topLevelCategory === 'icons' ? subCategory : topLevelCategory
+        } else if (iconGroupNode.type === "FRAME" || iconGroupNode.type === "GROUP") {
+          // This is the subcategory frame (like "AI" under "Logos", or "Arrows" under "Icons")
+          const categoryName = _.camelCase(iconGroupNode.name.toLowerCase()) // "ai", "arrows"
           
           iconGroupNode.children.forEach((iconNode) => {
             if (iconNode.type === "COMPONENT") {
@@ -321,8 +318,24 @@ export function getIcons(iconsCanvas: IFigmaCanvas): IIcons {
                 svgName,
                 id: iconNode.id,
                 size: labelling.sizeFromFrameNodeName(iconGroupNode.name), // Use subframe for size
-                type: finalCategory, // Use subcategory or top-level category
+                type: categoryName, // Use the immediate parent frame name as category
               }
+            } else if (iconNode.type === "FRAME" || iconNode.type === "GROUP") {
+              // Handle even deeper nesting if needed (3+ levels)
+              iconNode.children.forEach((deepIconNode) => {
+                if (deepIconNode.type === "COMPONENT") {
+                  const svgName = _.kebabCase(deepIconNode.name.toLowerCase())
+                  const jsxName = _.upperFirst(_.camelCase(deepIconNode.name.replace(/([0-9a-z])([0-9A-Z])/g, "$1 $2")))
+
+                  icons[deepIconNode.id] = {
+                    jsxName,
+                    svgName,
+                    id: deepIconNode.id,
+                    size: labelling.sizeFromFrameNodeName(iconNode.name),
+                    type: categoryName, // Still use the main subcategory
+                  }
+                }
+              })
             }
           })
         }
