@@ -288,64 +288,59 @@ export function getIconsPage(document: IFigmaDocument): IFigmaCanvas | null {
 
 export function getIcons(iconsCanvas: IFigmaCanvas): IIcons {
   return iconsCanvas.children.reduce((icons: IIcons, iconSetNode) => {
-    // iconSetNode represents top-level frames like "Logos", "Icons", etc.
     if (iconSetNode.type === "FRAME" || iconSetNode.type === "GROUP") {
-      const topLevelCategory = _.camelCase(iconSetNode.name.toLowerCase()) // "logos", "icons"
-      
+      const topLevelCategory = _.camelCase(iconSetNode.name.toLowerCase()); // e.g., "solid", "stroke"
+
       iconSetNode.children.forEach((iconGroupNode) => {
-        // Icons can be directly in the top-level frame or in subframes
         if (iconGroupNode.type === "COMPONENT") {
-          // Direct components in top-level frames
-          const svgName = _.kebabCase(iconGroupNode.name.toLowerCase())
-          const jsxName = _.upperFirst(_.camelCase(iconGroupNode.name.replace(/([0-9a-z])([0-9A-Z])/g, "$1 $2")))
+          const svgName = _.kebabCase(iconGroupNode.name.toLowerCase());
+          const jsxName = _.upperFirst(_.camelCase(iconGroupNode.name.replace(/([0-9a-z])([0-9A-Z])/g, "$1 $2")));
 
           icons[iconGroupNode.id] = {
             jsxName,
             svgName,
             id: iconGroupNode.id,
             size: labelling.sizeFromFrameNodeName(iconSetNode.name),
-            type: topLevelCategory, // Just use top-level category
-          }
+            type: topLevelCategory, // e.g., "solid"
+          };
         } else if (iconGroupNode.type === "FRAME" || iconGroupNode.type === "GROUP") {
-          // This is the subcategory frame (like "AI" under "Logos", or "Arrows" under "Icons")
-          const subCategory = _.camelCase(iconGroupNode.name.toLowerCase()) // "ai", "arrows"
-          const combinedCategory = `${topLevelCategory}/${subCategory}` // "logos/ai", "icons/arrows"
-          
+          const subCategory = _.camelCase(iconGroupNode.name.toLowerCase()); // e.g., "ali"
+          const combinedCategory = `${topLevelCategory}/${subCategory}`; // e.g., "solid/ali", "stroke/ali"
+
           iconGroupNode.children.forEach((iconNode) => {
             if (iconNode.type === "COMPONENT") {
-              const svgName = _.kebabCase(iconNode.name.toLowerCase())
-              const jsxName = _.upperFirst(_.camelCase(iconNode.name.replace(/([0-9a-z])([0-9A-Z])/g, "$1 $2")))
+              const svgName = _.kebabCase(iconNode.name.toLowerCase());
+              const jsxName = _.upperFirst(_.camelCase(iconNode.name.replace(/([0-9a-z])([0-9A-Z])/g, "$1 $2")));
 
               icons[iconNode.id] = {
                 jsxName,
                 svgName,
                 id: iconNode.id,
                 size: labelling.sizeFromFrameNodeName(iconGroupNode.name),
-                type: combinedCategory, // Use combined path like "logos/ai"
-              }
+                type: combinedCategory, // e.g., "solid/ali"
+              };
             } else if (iconNode.type === "FRAME" || iconNode.type === "GROUP") {
-              // Handle even deeper nesting if needed (3+ levels)
               iconNode.children.forEach((deepIconNode) => {
                 if (deepIconNode.type === "COMPONENT") {
-                  const svgName = _.kebabCase(deepIconNode.name.toLowerCase())
-                  const jsxName = _.upperFirst(_.camelCase(deepIconNode.name.replace(/([0-9a-z])([0-9A-Z])/g, "$1 $2")))
+                  const svgName = _.kebabCase(deepIconNode.name.toLowerCase());
+                  const jsxName = _.upperFirst(_.camelCase(deepIconNode.name.replace(/([0-9a-z])([0-9A-Z])/g, "$1 $2")));
 
                   icons[deepIconNode.id] = {
                     jsxName,
                     svgName,
                     id: deepIconNode.id,
                     size: labelling.sizeFromFrameNodeName(iconNode.name),
-                    type: combinedCategory, // Still use combined category
-                  }
+                    type: combinedCategory, // e.g., "solid/ali"
+                  };
                 }
-              })
+              });
             }
-          })
+          });
         }
-      })
+      });
     }
-    return icons
-  }, {})
+    return icons;
+  }, {});
 }
 
 
@@ -366,45 +361,45 @@ export async function downloadSvgsToFs(urls: IIconsSvgUrls, icons: IIcons, onPro
 }
 
 export function iconsToComponentManifest(icons: IIcons): any {
-  const components: any = {}
-  const categories: any = {}
-  
+  const components: any = {};
+  const categories: any = {};
+
   Object.keys(icons).forEach((iconId) => {
-    const icon = icons[iconId]
-    const category = icon.type.split('/')[0] || 'icons'
-    const subcategory = icon.type.split('/')[1]
-    
+    const icon = icons[iconId];
+    const [variant, subcategory] = icon.type.split("/"); // e.g., "solid/ali" -> ["solid", "ali"]
+    const category = subcategory || variant || "icons"; // Use subcategory (e.g., "ali") or fallback
+
     // Add to components list
     components[icon.jsxName] = {
       name: icon.jsxName,
       path: `src/${icon.type}/${icon.jsxName}.tsx`,
       category,
-      subcategory: subcategory || null,
-      size: labelling.stripSizePrefix(icon.size)
-    }
-    
+      subcategory: subcategory ? variant : null, // e.g., "solid" as subcategory for "ali"
+      size: labelling.stripSizePrefix(icon.size),
+    };
+
     // Group by category
     if (!categories[category]) {
-      categories[category] = {}
+      categories[category] = {};
     }
     if (subcategory) {
-      if (!categories[category][subcategory]) {
-        categories[category][subcategory] = []
+      if (!categories[category][variant]) {
+        categories[category][variant] = [];
       }
-      categories[category][subcategory].push(icon.jsxName)
+      categories[category][variant].push(icon.jsxName);
     } else {
       if (!categories[category].icons) {
-        categories[category].icons = []
+        categories[category].icons = [];
       }
-      categories[category].icons.push(icon.jsxName)
+      categories[category].icons.push(icon.jsxName);
     }
-  })
-  
+  });
+
   return {
     components,
     categories,
-    total: Object.keys(components).length
-  }
+    total: Object.keys(components).length,
+  };
 }
 
 export function iconsToSvgPaths(icons: IIcons) {
@@ -418,43 +413,44 @@ export function filePathToSVGinJSXSync(filePath: string) {
 }
 
 const metadata = {
-  /**
-   * Generate metadata for an icon based on its properties
-   */
   generateIconMetadata(icon: IIcon): IconMetadata {
-    // Extract category from type (e.g., "logos/ai" -> "logos")
-    const category = icon.type.split('/')[0] || 'icons'
-    
+    // Extract category from type (e.g., "solid/ali" -> "ali")
+    const category = icon.type.includes("/ali") ? "ali" : icon.type.split("/")[0] || "icons";
+
     // Generate tags based on icon name and category
     const nameTags = icon.svgName
-      .split('-')
-      .filter(tag => tag.length > 1) // Remove single character parts
-    
-    // Category-specific tags with proper typing
+      .split("-")
+      .filter((tag) => tag.length > 1); // Remove single character parts
+
+    // Category-specific tags
     const categoryTags: Record<string, string[]> = {
-      'logos': ['brand', 'company', 'logo'],
-      'icons': ['interface', 'ui', 'icon'],
-      'arrows': ['direction', 'navigation', 'pointer'],
-      'social': ['social media', 'platform', 'network'],
-      'files': ['document', 'file', 'format'],
-      'devices': ['hardware', 'device', 'tech']
-    }
-    
-    const baseTags = categoryTags[category] || ['icon']
-    const allTags = [...new Set([...nameTags, ...baseTags])]
-    
-    // Determine variants based on icon structure or defaults
-    const variants: ("stroke" | "solid" | "duotone" | "twotone" | "bulk")[] = ["stroke", "solid"]
-    
+      ali: ["alibaba", "brand", "ecommerce"],
+      logos: ["brand", "company", "logo"],
+      icons: ["interface", "ui", "icon"],
+      arrows: ["direction", "navigation", "pointer"],
+      social: ["social media", "platform", "network"],
+      files: ["document", "file", "format"],
+      devices: ["hardware", "device", "tech"],
+    };
+
+    const baseTags = categoryTags[category] || ["icon"];
+    const allTags = [...new Set([...nameTags, ...baseTags])];
+
+    // Determine variants based on icon type
+    const variants: ("stroke" | "solid" | "duotone" | "twotone" | "bulk")[] = 
+      icon.type.includes("solid/ali") ? ["solid"] : 
+      icon.type.includes("stroke/ali") ? ["stroke"] : 
+      ["stroke", "solid"]; // Default for other categories
+
     return {
       name: icon.jsxName,
       category,
       tags: allTags,
       description: `${icon.jsxName} icon from ${category} category`,
-      variants
-    }
-  }
-}
+      variants,
+    };
+  },
+};
 
 // Modify the generateReactComponents function to include metadata
 export async function generateReactComponents(icons: IIcons) {
