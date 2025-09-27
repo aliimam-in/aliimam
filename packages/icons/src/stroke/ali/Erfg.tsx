@@ -41,7 +41,7 @@ export const Erfg: IconComponent<ErfgProps> = React.forwardRef<
         {...props}
         ref={forwardedRef}
       >
-        <path d="M7.5 1L15 14H0L7.5 1Z" fill="currentColor" />
+        <path d="M7.5 1L15 14H0L7.5 1Z" fill="#000" />
       </svg>
     );
   }
@@ -63,7 +63,7 @@ export const Erfg: IconComponent<ErfgProps> = React.forwardRef<
         {...props}
         ref={forwardedRef}
       >
-        <path d="M7.5 1L15 14H0L7.5 1Z" fill="currentColor" />
+        <path d="M7.5 1L15 14H0L7.5 1Z" fill="#000" />
       </svg>
     );
   }

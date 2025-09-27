@@ -82,7 +82,24 @@ const transformers = {
     });
     return data;
   },
- 
+
+  injectCurrentColor(svgRaw: string) {
+    const $ = cheerio.load(svgRaw, { xmlMode: true });
+    $("*").each((i, el) => {
+      if (isTagElement(el)) {
+        Object.keys(el.attribs).forEach((attrKey) => {
+          if (["fill", "stroke"].includes(attrKey)) {
+            const val = $(el).attr(attrKey);
+            if (val === "#000") {
+              $(el).attr(attrKey, "currentColor");
+            }
+          }
+        });
+      }
+    });
+
+    return $.xml();
+  },
 
   async prettify(svgRaw: string) {
     const prettierOptions = await prettier.resolveConfig(process.cwd());
@@ -111,12 +128,12 @@ const transformers = {
 
     return $("svg")
       .attr("props", "...")
-      .attr("ref", "forwardedRef") 
+      .attr("ref", "forwardedRef")
       .toString()
       .replace(/strokeWidth=['"][\d.]+['"]/g, "strokeWidth={strokeWidth}")
       .replace(/width=['"][\d.]+['"]/g, "width={size}")
       .replace(/height=['"][\d.]+['"]/g, "height={size}")
-      .replace(/stroke=['|"]currentColor['|"]/g, "stroke={color}") 
+      .replace(/stroke=['|"]currentColor['|"]/g, "stroke={color}")
       .replace(
         'props="..."',
         "className={className}\n      strokeWidth={strokeWidth}\n      strokeLinecap={strokeLinecap}\n      strokeLinejoin={strokeLinejoin}\n      strokeDasharray={strokeDasharray}\n      opacity={opacity}\n      {...props}"
@@ -402,7 +419,7 @@ export async function downloadSvgsToFs(
       )
         .text()
         .then((svgRaw) => transformers.passSVGO(svgRaw))
- 
+        .then((svgRaw) => transformers.injectCurrentColor(svgRaw));
 
       const filePath = path.resolve(
         currentTempDir,
@@ -470,7 +487,7 @@ export function filePathToSVGinJSXSync(filePath: string) {
 }
 
 const metadata = {
-  generateIconMetadata(icon: IIcon): IconMetadata { 
+  generateIconMetadata(icon: IIcon): IconMetadata {
     const category = icon.type || "icons";
 
     // Generate tags based on icon name and category
