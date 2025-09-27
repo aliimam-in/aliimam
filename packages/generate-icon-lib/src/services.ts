@@ -82,27 +82,7 @@ const transformers = {
     });
     return data;
   },
-
-  /**
-   * Swaps out all colors (except for "non") for stroke and fill to "currentColor".
-   */
-  injectCurrentColor(svgRaw: string) {
-    const $ = cheerio.load(svgRaw, { xmlMode: true });
-    $("*").each((i, el) => {
-      if (isTagElement(el)) {
-        Object.keys(el.attribs).forEach((attrKey) => {
-          if (["fill", "stroke"].includes(attrKey)) {
-            const val = $(el).attr(attrKey);
-            if (val !== "none") {
-              $(el).attr(attrKey, "currentColor");
-            }
-          }
-        });
-      }
-    });
-
-    return $.xml();
-  },
+ 
 
   async prettify(svgRaw: string) {
     const prettierOptions = await prettier.resolveConfig(process.cwd());
@@ -422,7 +402,7 @@ export async function downloadSvgsToFs(
       )
         .text()
         .then((svgRaw) => transformers.passSVGO(svgRaw))
-        .then((svgRaw) => transformers.injectCurrentColor(svgRaw));
+ 
 
       const filePath = path.resolve(
         currentTempDir,
