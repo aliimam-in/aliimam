@@ -1,94 +1,31 @@
 {
   "components": {
-    "ArrowLeft": {
-      "name": "ArrowLeft",
-      "path": "src/wordmark/arrows/ArrowLeft.tsx",
-      "category": "wordmark",
-      "subcategory": "arrows",
-      "size": "16"
-    },
-    "ArrowUpp": {
-      "name": "ArrowUpp",
-      "path": "src/wordmark/arrows/ArrowUpp.tsx",
-      "category": "wordmark",
-      "subcategory": "arrows",
-      "size": "16"
-    },
-    "ArrowRight": {
-      "name": "ArrowRight",
-      "path": "src/wordmark/arrows/ArrowRight.tsx",
-      "category": "wordmark",
-      "subcategory": "arrows",
-      "size": "16"
-    },
-    "ArrowUp": {
-      "name": "ArrowUp",
-      "path": "src/wordmark/arrows/ArrowUp.tsx",
-      "category": "wordmark",
-      "subcategory": "arrows",
-      "size": "16"
-    },
-    "ArrowDown": {
-      "name": "ArrowDown",
-      "path": "src/wordmark/arrows/ArrowDown.tsx",
-      "category": "wordmark",
-      "subcategory": "arrows",
-      "size": "16"
-    },
-    "F": {
-      "name": "F",
-      "path": "src/wordmark/gg/F.tsx",
-      "category": "wordmark",
-      "subcategory": "gg",
-      "size": "16"
-    },
-    "R": {
-      "name": "R",
-      "path": "src/wordmark/gg/R.tsx",
-      "category": "wordmark",
-      "subcategory": "gg",
-      "size": "16"
-    },
-    "T": {
-      "name": "T",
-      "path": "src/wordmark/gg/T.tsx",
-      "category": "wordmark",
-      "subcategory": "gg",
-      "size": "16"
-    },
-    "Y": {
-      "name": "Y",
-      "path": "src/wordmark/gg/Y.tsx",
-      "category": "wordmark",
-      "subcategory": "gg",
-      "size": "16"
-    },
     "Save": {
       "name": "Save",
-      "path": "src/icon/ali/Save.tsx",
-      "category": "icon",
-      "subcategory": "ali",
+      "path": "src/wordmark/ai/Save.tsx",
+      "category": "wordmark",
+      "subcategory": "ai",
       "size": "16"
     },
     "Layes": {
       "name": "Layes",
-      "path": "src/icon/ali/Layes.tsx",
-      "category": "icon",
-      "subcategory": "ali",
+      "path": "src/wordmark/ai/Layes.tsx",
+      "category": "wordmark",
+      "subcategory": "ai",
       "size": "16"
     },
     "Erfg": {
       "name": "Erfg",
-      "path": "src/icon/ali/Erfg.tsx",
-      "category": "icon",
-      "subcategory": "ali",
+      "path": "src/wordmark/ai/Erfg.tsx",
+      "category": "wordmark",
+      "subcategory": "ai",
       "size": "16"
     },
     "Asfsbfd": {
       "name": "Asfsbfd",
-      "path": "src/icon/ali/Asfsbfd.tsx",
-      "category": "icon",
-      "subcategory": "ali",
+      "path": "src/wordmark/ai/Asfsbfd.tsx",
+      "category": "wordmark",
+      "subcategory": "ai",
       "size": "16"
     },
     "A": {
@@ -115,14 +52,11 @@
   },
   "categories": {
     "wordmark": {
-      "arrows": ["ArrowLeft", "ArrowUpp", "ArrowRight", "ArrowUp", "ArrowDown"],
-      "gg": ["F", "R", "T", "Y"],
-      "ali": ["Save", "Layes", "Erfg", "Asfsbfd"]
+      "ai": ["Save", "Layes", "Erfg", "Asfsbfd"]
     },
     "icon": {
-      "design": ["A", "D", "C"],
-      "ali": ["Save", "Layes", "Erfg", "Asfsbfd"]
+      "design": ["A", "D", "C"]
     }
   },
-  "total": 16
+  "total": 7
 }
