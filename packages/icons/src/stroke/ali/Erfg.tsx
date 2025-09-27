@@ -5,7 +5,7 @@ interface ErfgProps extends IconProps {
   type: "stroke/ali" | "solid/ali";
 }
 
-export const Erfg: IconComponentErfgProps = React.forwardRef<
+export const Erfg: IconComponent<ErfgProps> = React.forwardRef<
   SVGSVGElement,
   ErfgProps
 >(function Erfg(

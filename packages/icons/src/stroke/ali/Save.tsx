@@ -2,10 +2,10 @@ import * as React from "react";
 import type { IconProps, IconMetadata, IconComponent } from "../../types";
 
 interface SaveProps extends IconProps {
-  type: "stroke/ali" | "solid/ali";
+  type: "stroke" | "solid";
 }
 
-export const Save: IconComponentSaveProps = React.forwardRef<
+export const Save: IconComponent<SaveProps> = React.forwardRef<
   SVGSVGElement,
   SaveProps
 >(function Save(
@@ -23,7 +23,7 @@ export const Save: IconComponentSaveProps = React.forwardRef<
   },
   forwardedRef,
 ) {
-  if (type === "stroke/ali") {
+  if (type === "stroke") {
     return (
       <svg
         width="13"
@@ -55,7 +55,7 @@ export const Save: IconComponentSaveProps = React.forwardRef<
     );
   }
 
-  if (type === "solid/ali") {
+  if (type === "solid") {
     return (
       <svg
         width="13"
@@ -95,9 +95,9 @@ Save.displayName = "Save";
 
 Save.metadata = {
   name: "Save",
-  category: "stroke/ali",
+  category: "stroke",
   tags: ["save", "icon"],
-  description: "Save icon from stroke/ali category",
+  description: "Save icon from stroke category",
   type: ["stroke", "solid"],
 } as IconMetadata;
 

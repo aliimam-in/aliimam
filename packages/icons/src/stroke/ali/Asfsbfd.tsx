@@ -5,7 +5,7 @@ interface AsfsbfdProps extends IconProps {
   type: "stroke/ali" | "solid/ali";
 }
 
-export const Asfsbfd: IconComponentAsfsbfdProps = React.forwardRef<
+export const Asfsbfd: IconComponent<AsfsbfdProps> = React.forwardRef<
   SVGSVGElement,
   AsfsbfdProps
 >(function Asfsbfd(

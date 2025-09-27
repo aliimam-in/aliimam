@@ -5,7 +5,7 @@ interface LayesProps extends IconProps {
   type: "stroke/ali" | "solid/ali";
 }
 
-export const Layes: IconComponentLayesProps = React.forwardRef<
+export const Layes: IconComponent<LayesProps> = React.forwardRef<
   SVGSVGElement,
   LayesProps
 >(function Layes(
