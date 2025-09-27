@@ -108,29 +108,29 @@ const transformers = {
   },
 
   readyForJSX(svgRaw: string) {
-    const $ = cheerio.load(svgRaw, { xmlMode: true })
-    $("*").each((_i, el) => {
-      if (isTagElement(el)) {
-        Object.keys(el.attribs).forEach((attrKey) => {
-          if (attrKey.includes("-")) {
-            $(el).attr(_.camelCase(attrKey), el.attribs[attrKey]).removeAttr(attrKey)
-          }
-          if (attrKey === "class") {
-            $(el).attr("className", el.attribs[attrKey]).removeAttr(attrKey)
-          }
-        })
-      }
-    })
+  const $ = cheerio.load(svgRaw, { xmlMode: true })
+  $("*").each((_i, el) => {
+    if (isTagElement(el)) {
+      Object.keys(el.attribs).forEach((attrKey) => {
+        if (attrKey.includes("-")) {
+          $(el).attr(_.camelCase(attrKey), el.attribs[attrKey]).removeAttr(attrKey)
+        }
+        if (attrKey === "class") {
+          $(el).attr("className", el.attribs[attrKey]).removeAttr(attrKey)
+        }
+      })
+    }
+  })
 
-    return $("svg")
-      .attr("props", "...")
-      .attr("ref", "forwardedRef")
-      .toString()
-      .replace(/stroke=['|"]currentColor['|"]/g, "stroke={color}")
-      .replace(/fill=['|"]currentColor['|"]/g, "fill={color}")
-      .replace('props="..."', "{...props}")
-      .replace('ref="forwardedRef"', "ref={forwardedRef}")
-  },
+  return $("svg")
+    .attr("props", "...")
+    .attr("ref", "forwardedRef")
+    .toString()
+    .replace(/stroke=['|"]currentColor['|"]/g, "stroke={color}")
+    .replace(/fill=['|"]currentColor['|"]/g, "fill={color}")
+    .replace('props="..."', "className={className}\n      strokeWidth={strokeWidth}\n      strokeLinecap={strokeLinecap}\n      strokeLinejoin={strokeLinejoin}\n      strokeDasharray={strokeDasharray}\n      opacity={opacity}\n      {...props}")
+    .replace('ref="forwardedRef"', "ref={forwardedRef}")
+},
 }
  
 const labelling = {
