@@ -140,16 +140,19 @@ const labelling = {
     return camelCased
   },
   sizeFromFrameNodeName(nodeName: string): string {
-    // Note: We ensure ordering by assignment-time in the object, and avoid numerical
-    // key ordering, by adding a non-numerical to the key.
-    return labelling.addSizePrefix(path.basename(nodeName).toLowerCase().trim())
+    // Extract size from frame name, default to "16" if no size specified
+    const basename = path.basename(nodeName).toLowerCase().trim()
+    // If the frame name contains a size (like "16", "24", "32"), use it
+    const sizeMatch = basename.match(/(\d+)/)
+    const size = sizeMatch ? sizeMatch[1] : "16" // default to 16
+    return labelling.addSizePrefix(size)
   },
   filePathFromIcon(icon: IIcon): string {
-    // Include the type (category) in the path structure
-    return path.join("icons", icon.type, labelling.stripSizePrefix(icon.size), `${icon.svgName}.svg`)
+    // Create path: icons/logos/cursor.svg or icons/arrows/arrow-down.svg
+    return path.join("icons", icon.type, `${icon.svgName}.svg`)
   },
   componentFilePathFromIcon(icon: IIcon): string {
-    // Include the type (category) in the path structure
+    // Create path: src/logos/Cursor.tsx or src/arrows/ArrowDown.tsx
     return path.join("src", icon.type, `${icon.jsxName}.tsx`)
   },
   stripSizePrefix(size: string) {
@@ -284,30 +287,41 @@ export function getIconsPage(document: IFigmaDocument): IFigmaCanvas | null {
 
 export function getIcons(iconsCanvas: IFigmaCanvas): IIcons {
   return iconsCanvas.children.reduce((icons: IIcons, iconSetNode) => {
-    // We technically don't want icon sets to be in Groups, but we should still allow it
+    // iconSetNode represents top-level frames like "Logos", "Icons", etc.
     if (iconSetNode.type === "FRAME" || iconSetNode.type === "GROUP") {
+      const topLevelCategory = _.camelCase(iconSetNode.name.toLowerCase()) // "logos", "icons"
+      
       iconSetNode.children.forEach((iconGroupNode) => {
-        // Icons are grouped in frames
-        if (iconGroupNode.type === "FRAME") {
-          iconGroupNode.children.forEach((iconNode) => {
-            // Our individual icons are Figma "Components"
-            if (iconNode.type === "COMPONENT") {
-              // 'Break Link' => 'break-link'
-              // 'GitHub Logo' => 'github-logo'
-              const svgName = _.kebabCase(iconNode.name.toLowerCase())
+        // Icons can be directly in the top-level frame or in subframes
+        if (iconGroupNode.type === "COMPONENT") {
+          // Direct components in top-level frames (like Logos frame)
+          const svgName = _.kebabCase(iconGroupNode.name.toLowerCase())
+          const jsxName = _.upperFirst(_.camelCase(iconGroupNode.name.replace(/([0-9a-z])([0-9A-Z])/g, "$1 $2")))
 
-              // We insert whitespace between lower and uppercase letters
-              // to make sure that lodash preserves existing camel-casing.
-              // 'Break Link' => 'BreakLink'
-              // 'GitHub Logo' => 'GitHubLogo'
+          icons[iconGroupNode.id] = {
+            jsxName,
+            svgName,
+            id: iconGroupNode.id,
+            size: labelling.sizeFromFrameNodeName(iconSetNode.name), // Use parent frame for size
+            type: topLevelCategory, // Use top-level frame name as category
+          }
+        } else if (iconGroupNode.type === "FRAME") {
+          // Subframes (like "Arrows" inside "Icons")
+          const subCategory = _.camelCase(iconGroupNode.name.toLowerCase()) // "arrows"
+          // For nested structure, we can use either the subcategory or combine them
+          const finalCategory = topLevelCategory === 'icons' ? subCategory : topLevelCategory
+          
+          iconGroupNode.children.forEach((iconNode) => {
+            if (iconNode.type === "COMPONENT") {
+              const svgName = _.kebabCase(iconNode.name.toLowerCase())
               const jsxName = _.upperFirst(_.camelCase(iconNode.name.replace(/([0-9a-z])([0-9A-Z])/g, "$1 $2")))
 
               icons[iconNode.id] = {
                 jsxName,
                 svgName,
                 id: iconNode.id,
-                size: labelling.sizeFromFrameNodeName(iconSetNode.name),
-                type: labelling.typeFromFrameNodeName(iconSetNode.name),
+                size: labelling.sizeFromFrameNodeName(iconGroupNode.name), // Use subframe for size
+                type: finalCategory, // Use subcategory or top-level category
               }
             }
           })
