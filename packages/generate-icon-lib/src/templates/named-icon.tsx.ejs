@@ -76,12 +76,12 @@ const cleanType = (type) => type.split('/')[0];
 const cleanedTypes = icon.types.map(cleanType);
 // Ensure unique types (in case multiple types map to the same base, e.g., stroke/ali and stroke/bob)
 const uniqueCleanedTypes = [...new Set(cleanedTypes)];
-// Determine default type: use "stroke" if available, otherwise first type
-const defaultType = uniqueCleanedTypes.includes('stroke') ? 'stroke' : uniqueCleanedTypes[0];
 // Validate that there are valid types
 if (!uniqueCleanedTypes.length) {
   throw new Error(`No valid types for icon ${icon.name}`);
 }
+// Determine default type: use "stroke" if available, otherwise first type
+const defaultType = uniqueCleanedTypes.includes('stroke') ? 'stroke' : uniqueCleanedTypes[0];
 %>
 interface <%- iconToPropsName(icon) %> extends IconProps {
   type?: <%- uniqueCleanedTypes.map(t => `"${t}"`).join(' | ') %>;
@@ -91,6 +91,7 @@ export const <%- iconToComponentName(icon) %>: IconComponent<<%- iconToPropsName
   function <%- iconToComponentName(icon) %>({
     color = 'currentColor',
     fill,
+    size,
     strokeWidth,
     strokeLinecap,
     strokeLinejoin,
@@ -107,8 +108,8 @@ export const <%- iconToComponentName(icon) %>: IconComponent<<%- iconToPropsName
     }
 <%     } %>
 <%   } %>
-    console.error(`<%- iconToComponentName(icon) %> doesn't support ${type}`)
-    return null
+    console.error(`<%- iconToComponentName(icon) %> doesn't support ${type}`);
+    return null;
   }
 );
 
