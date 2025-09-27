@@ -1,8 +1,8 @@
 import * as React from "react";
-import type { IconProps, IconMetadata, IconComponent } from "../../types";
+import type { IconProps, IconMetadata, IconComponent } from "../types";
 
 interface SaveProps extends IconProps {
-  type: "solid/ali" | "stroke/ali";
+  type?: "solid" | "stroke";
 }
 
 export const Save: IconComponent = React.forwardRef<SVGSVGElement, SaveProps>(
@@ -17,12 +17,12 @@ export const Save: IconComponent = React.forwardRef<SVGSVGElement, SaveProps>(
       opacity,
       className,
       variant = "stroke",
-      type,
+      type = "solid",
       ...props
     },
     forwardedRef,
   ) {
-    if (type === "solid/ali") {
+    if (type === "solid") {
       return (
         <svg
           width="13"
@@ -54,7 +54,7 @@ export const Save: IconComponent = React.forwardRef<SVGSVGElement, SaveProps>(
       );
     }
 
-    if (type === "stroke/ali") {
+    if (type === "stroke") {
       return (
         <svg
           width="13"
@@ -95,10 +95,10 @@ Save.displayName = "Save";
 
 Save.metadata = {
   name: "Save",
-  category: "ali",
-  tags: ["save", "alibaba", "brand", "ecommerce"],
-  description: "Save icon from ali category",
-  variants: ["solid"],
+  category: "solid",
+  tags: ["save", "icon"],
+  description: "Save icon from solid category",
+  variants: ["stroke", "solid"],
 } as IconMetadata;
 
 export default Save;
