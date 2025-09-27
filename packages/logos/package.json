@@ -2,7 +2,7 @@
   "name": "@aliimam/logos",
   "version": "0.0.0",
   "license": "MIT",
-  "description": "Radix UI React Icon Set",
+  "description": "Ali Imam React SVG Logo Set",
   "source": "./src/index.tsx",
   "main": "./dist/index.js",
   "module": "./dist/index.js",

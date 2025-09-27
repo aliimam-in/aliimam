@@ -21,8 +21,11 @@ importers:
   apps/www:
     dependencies:
       '@aliimam/icons':
-        specifier: ^0.0.4
-        version: 0.0.4(react@19.1.0)
+        specifier: workspace:*
+        version: link:../../packages/icons
+      '@aliimam/logos':
+        specifier: workspace:*
+        version: link:../../packages/logos
       '@hookform/resolvers':
         specifier: ^5.2.2
         version: 5.2.2(react-hook-form@7.63.0(react@19.1.0))
@@ -446,11 +449,6 @@ packages:
   '@alcalzone/ansi-tokenize@0.2.0':
     resolution: {integrity: sha512-qI/5TaaaCZE4yeSZ83lu0+xi1r88JSxUjnH4OP/iZF7+KKZ75u3ee5isd0LxX+6N8U0npL61YrpbthILHB6BnA==}
     engines: {node: '>=18'}
-
-  '@aliimam/icons@0.0.4':
-    resolution: {integrity: sha512-T7VxO7O071TFBYJh+b7H85l82XNI3ubmVNVs4LF6yZ+fczbvozwBbivKf9S1hBaFFCCb5A/Y7lNgn5n+Jj6WhA==}
-    peerDependencies:
-      react: ^16.x || ^17.x || ^18.x || ^19.x
 
   '@alloc/quick-lru@5.2.0':
     resolution: {integrity: sha512-UrcABB+4bUrFABwbluTIBErXwvbsU/V7TZWfmbgJfbkwiBuziS9gxdODUyuiecfdGQ85jglMW6juS3+z5TsKLw==}
@@ -7925,10 +7923,6 @@ snapshots:
     dependencies:
       ansi-styles: 6.2.3
       is-fullwidth-code-point: 5.1.0
-
-  '@aliimam/icons@0.0.4(react@19.1.0)':
-    dependencies:
-      react: 19.1.0
 
   '@alloc/quick-lru@5.2.0': {}
 

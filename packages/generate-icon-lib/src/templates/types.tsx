@@ -21,7 +21,7 @@ export interface IconMetadata {
   description?: string;
   author?: string;
   created?: string;
-  type: ("stroke" | "solid" | "duotone" | "twotone" | "bulk")[];
+  type?: ("stroke" | "solid" | "duotone" | "twotone" | "bulk")[];
 }
 
 export type IconComponent<P extends IconProps = IconProps> =

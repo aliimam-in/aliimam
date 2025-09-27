@@ -14,7 +14,8 @@
     "check-types": "tsc --noEmit"
   },
   "dependencies": {
-    "@aliimam/icons": "^0.0.4",
+    "@aliimam/icons": "workspace:*",
+    "@aliimam/logos": "workspace:*",
     "@hookform/resolvers": "^5.2.2",
     "@next/third-parties": "^15.5.3",
     "@radix-ui/react-accordion": "^1.2.12",

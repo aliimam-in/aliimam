@@ -2,7 +2,7 @@
   "name": "@aliimam/icons",
   "version": "0.0.4",
   "license": "MIT",
-  "description": "Radix UI React Icon Set",
+  "description": "Ali Imam React SVG Icon Set",
   "source": "./src/index.tsx",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
