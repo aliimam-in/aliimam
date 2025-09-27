@@ -49,7 +49,7 @@ T.metadata = {
   category: "stroke/gg",
   tags: ["icon"],
   description: "T icon from stroke/gg category",
-  variants: ["stroke", "solid"],
+  type: ["stroke", "solid"],
 } as IconMetadata;
 
 export default T;

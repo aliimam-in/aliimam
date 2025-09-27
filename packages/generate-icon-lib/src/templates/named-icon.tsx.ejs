@@ -17,8 +17,7 @@ export const <%- iconToComponentName(icon) %>: IconComponent = React.forwardRef<
     strokeLinejoin,
     strokeDasharray,
     opacity,
-    className,
-    variant = 'stroke',
+    className, 
     size<%- icon.sizes[0] === getDefaultSize() ? ` = '${icon.sizes[0]}'` : '' %>,
     type<%- icon.types[0] === getDefaultType() ? ` = '${icon.types[0]}'` : '' %>,
     ...props
@@ -52,8 +51,7 @@ export const <%- iconToComponentName(icon) %>: IconComponent = React.forwardRef<
     strokeLinejoin,
     strokeDasharray,
     opacity,
-    className,
-    variant = 'stroke',
+    className, 
     size<%- icon.sizes[0] === getDefaultSize() ? ` = '${icon.sizes[0]}'` : '' %>,
     ...props
   }, forwardedRef) {
@@ -84,8 +82,7 @@ export const <%- iconToComponentName(icon) %>: IconComponent = React.forwardRef<
     strokeLinejoin,
     strokeDasharray,
     opacity,
-    className,
-    variant = 'stroke',
+    className, 
     type<%- icon.types[0] === getDefaultType() ? ` = '${icon.types[0]}'` : '' %>,
     ...props
   }, forwardedRef) {
@@ -112,8 +109,7 @@ export const <%- iconToComponentName(icon) %>: IconComponent = React.forwardRef<
     strokeLinejoin,
     strokeDasharray,
     opacity,
-    className,
-    variant = 'stroke',
+    className, 
     ...props
   }, forwardedRef) {
     return <%- iconToSVGSourceAsJSX(icon, icon.sizes[0], icon.types[0]) %>

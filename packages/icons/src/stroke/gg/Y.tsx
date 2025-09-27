@@ -49,7 +49,7 @@ Y.metadata = {
   category: "stroke/gg",
   tags: ["icon"],
   description: "Y icon from stroke/gg category",
-  variants: ["stroke", "solid"],
+  type: ["stroke", "solid"],
 } as IconMetadata;
 
 export default Y;

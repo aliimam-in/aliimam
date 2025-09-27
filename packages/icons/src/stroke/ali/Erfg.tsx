@@ -78,7 +78,7 @@ Erfg.metadata = {
   category: "stroke/ali",
   tags: ["erfg", "icon"],
   description: "Erfg icon from stroke/ali category",
-  variants: ["stroke", "solid"],
+  type: ["stroke", "solid"],
 } as IconMetadata;
 
 export default Erfg;

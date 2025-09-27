@@ -84,7 +84,7 @@ Layes.metadata = {
   category: "stroke/ali",
   tags: ["layes", "icon"],
   description: "Layes icon from stroke/ali category",
-  variants: ["stroke", "solid"],
+  type: ["stroke", "solid"],
 } as IconMetadata;
 
 export default Layes;

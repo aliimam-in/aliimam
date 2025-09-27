@@ -109,7 +109,7 @@ Asfsbfd.metadata = {
   category: "stroke/ali",
   tags: ["asfsbfd", "icon"],
   description: "Asfsbfd icon from stroke/ali category",
-  variants: ["stroke", "solid"],
+  type: ["stroke", "solid"],
 } as IconMetadata;
 
 export default Asfsbfd;

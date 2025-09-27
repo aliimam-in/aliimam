@@ -50,7 +50,7 @@ ArrowLeft.metadata = {
   category: "stroke/arrows",
   tags: ["arrow", "left", "icon"],
   description: "ArrowLeft icon from stroke/arrows category",
-  variants: ["stroke", "solid"],
+  type: ["stroke", "solid"],
 } as IconMetadata;
 
 export default ArrowLeft;

@@ -49,7 +49,7 @@ R.metadata = {
   category: "stroke/gg",
   tags: ["icon"],
   description: "R icon from stroke/gg category",
-  variants: ["stroke", "solid"],
+  type: ["stroke", "solid"],
 } as IconMetadata;
 
 export default R;

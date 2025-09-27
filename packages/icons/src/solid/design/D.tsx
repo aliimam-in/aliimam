@@ -46,7 +46,7 @@ D.metadata = {
   category: "solid/design",
   tags: ["icon"],
   description: "D icon from solid/design category",
-  variants: ["stroke", "solid"],
+  type: ["stroke", "solid"],
 } as IconMetadata;
 
 export default D;

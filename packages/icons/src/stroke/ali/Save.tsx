@@ -98,7 +98,7 @@ Save.metadata = {
   category: "stroke/ali",
   tags: ["save", "icon"],
   description: "Save icon from stroke/ali category",
-  variants: ["stroke", "solid"],
+  type: ["stroke", "solid"],
 } as IconMetadata;
 
 export default Save;
