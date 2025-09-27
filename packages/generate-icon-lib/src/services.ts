@@ -286,6 +286,7 @@ export function getIconsPage(document: IFigmaDocument): IFigmaCanvas | null {
   return canvas && canvas.type === "CANVAS" ? canvas : null
 }
 
+
 export function getIcons(iconsCanvas: IFigmaCanvas): IIcons {
   return iconsCanvas.children.reduce((icons: IIcons, iconSetNode) => {
     if (iconSetNode.type === "FRAME" || iconSetNode.type === "GROUP") {
@@ -303,12 +304,16 @@ export function getIcons(iconsCanvas: IFigmaCanvas): IIcons {
             svgName,
             id: iconGroupNode.id,
             size: labelling.sizeFromFrameNodeName(iconSetNode.name),
-            type: topLevelCategory,
-            topLevelCategory,
+            type: topLevelCategory, // ✅ "solid" | "stroke"
           };
         } else if (iconGroupNode.type === "FRAME" || iconGroupNode.type === "GROUP") {
-          const subCategory = _.camelCase(iconGroupNode.name.toLowerCase()); // e.g., "ali", "logos"
-          const combinedCategory = subCategory; // Use subCategory as the primary type
+          const subCategory = _.camelCase(iconGroupNode.name.toLowerCase());
+          let combinedCategory = `${topLevelCategory}/${subCategory}`;
+
+          // ✅ normalize: drop "/ali" but preserve top-level category for folder structure
+          if (subCategory === "ali") {
+            combinedCategory = topLevelCategory; // Keep type as "solid" or "stroke"
+          }
 
           iconGroupNode.children.forEach((iconNode) => {
             if (iconNode.type === "COMPONENT") {
@@ -322,11 +327,10 @@ export function getIcons(iconsCanvas: IFigmaCanvas): IIcons {
                 svgName,
                 id: iconNode.id,
                 size: labelling.sizeFromFrameNodeName(iconGroupNode.name),
-                type: topLevelCategory,
-                subCategory,
-                topLevelCategory,
+                type: combinedCategory, // ✅ now "solid" or "stroke"
+                // Add topLevelCategory to distinguish folders later
+                topLevelCategory: topLevelCategory,
               };
-              console.log(`Icon: ${jsxName}, Type: ${topLevelCategory}, SubCategory: ${subCategory}, TopLevelCategory: ${topLevelCategory}`);
             } else if (iconNode.type === "FRAME" || iconNode.type === "GROUP") {
               iconNode.children.forEach((deepIconNode) => {
                 if (deepIconNode.type === "COMPONENT") {
@@ -340,11 +344,9 @@ export function getIcons(iconsCanvas: IFigmaCanvas): IIcons {
                     svgName,
                     id: deepIconNode.id,
                     size: labelling.sizeFromFrameNodeName(iconNode.name),
-                    type: topLevelCategory,
-                    subCategory,
-                    topLevelCategory,
+                    type: combinedCategory, // ✅ now "solid" or "stroke"
+                    topLevelCategory: topLevelCategory,
                   };
-                  console.log(`Icon: ${jsxName}, Type: ${topLevelCategory}, SubCategory: ${subCategory}, TopLevelCategory: ${topLevelCategory}`);
                 }
               });
             }
@@ -355,6 +357,7 @@ export function getIcons(iconsCanvas: IFigmaCanvas): IIcons {
     return icons;
   }, {});
 }
+ 
 
 export async function downloadSvgsToFs(urls: IIconsSvgUrls, icons: IIcons, onProgress: () => void) {
   await Promise.all(
