@@ -1,5 +1,5 @@
 import * as React from "react";
-import type { IconProps } from "../types";
+import type { IconProps, IconMetadata } from "../types";
 
 export const ArrowRight = React.forwardRef<SVGSVGElement, IconProps>(
   function ArrowRight(
@@ -12,6 +12,7 @@ export const ArrowRight = React.forwardRef<SVGSVGElement, IconProps>(
       strokeDasharray,
       opacity,
       className,
+      variant = "stroke",
       ...props
     },
     forwardedRef,
