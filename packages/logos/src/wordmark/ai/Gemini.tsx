@@ -12,7 +12,7 @@ export const Gemini: IconComponent<GeminiProps> = React.forwardRef<
   {
     color = "currentColor",
     fill,
-    size = 20,
+    size = 24,
     strokeWidth,
     strokeLinecap,
     strokeLinejoin,
@@ -41,9 +41,9 @@ export const Gemini: IconComponent<GeminiProps> = React.forwardRef<
         {...props}
         ref={forwardedRef}
       >
-        <g clipPath="url(#a)">
+        <g clipPath="url(#undefined-clip0_2011_435)">
           <mask
-            id="b"
+            id="undefined-mask0_2011_435"
             maskUnits="userSpaceOnUse"
             x="0"
             y="0"
@@ -57,16 +57,16 @@ export const Gemini: IconComponent<GeminiProps> = React.forwardRef<
               clipRule="evenodd"
             />
           </mask>
-          <g mask="url(#b)">
+          <g mask="url(#undefined-mask0_2011_435)">
             <path
               d="M-29.9019 -86.0679H127.324V43.4422H-29.9019V-86.0679Z"
-              fill="url(#c)"
+              fill="url(#undefined-paint0_linear_2011_435)"
             />
           </g>
         </g>
         <defs>
           <linearGradient
-            id="c"
+            id="undefined-paint0_linear_2011_435"
             x1="-10.847"
             y1="24.65"
             x2="67.074"
@@ -79,7 +79,7 @@ export const Gemini: IconComponent<GeminiProps> = React.forwardRef<
             <stop offset=".888" stopColor="#bc688e" />
             <stop offset="1" stopColor="#d6645d" />
           </linearGradient>
-          <clipPath id="a">
+          <clipPath id="undefined-clip0_2011_435">
             <path fill="#fff" d="M0 0H65V24H0z" />
           </clipPath>
         </defs>
@@ -105,7 +105,7 @@ export const Gemini: IconComponent<GeminiProps> = React.forwardRef<
         ref={forwardedRef}
       >
         <mask
-          id="a"
+          id="undefined-mask0_2011_419"
           maskUnits="userSpaceOnUse"
           x="0"
           y="0"
@@ -117,44 +117,44 @@ export const Gemini: IconComponent<GeminiProps> = React.forwardRef<
             fill="#3186ff"
           />
         </mask>
-        <g mask="url(#a)">
-          <g filter="url(#b)">
+        <g mask="url(#undefined-mask0_2011_419)">
+          <g filter="url(#undefined-filter0_f_2011_419)">
             <path
               d="M13.1124 24.8053C21.8303 24.8053 28.8976 19.0722 28.8976 11.9999C28.8976 4.92774 21.8303 -0.80542 13.1124 -0.80542C4.39441 -0.80542 -2.67288 4.92774 -2.67288 11.9999C-2.67288 19.0722 4.39441 24.8053 13.1124 24.8053Z"
               fill="#3689ff"
             />
           </g>
-          <g filter="url(#c)">
+          <g filter="url(#undefined-filter1_f_2011_419)">
             <path
               d="M2.68283 17.3154C5.72966 17.3154 8.1996 14.7013 8.1996 11.4765C8.1996 8.25175 5.72966 5.63757 2.68283 5.63757C-0.364008 5.63757 -2.83395 8.25175 -2.83395 11.4765C-2.83395 14.7013 -0.364008 17.3154 2.68283 17.3154Z"
               fill="#f6c013"
             />
           </g>
-          <g filter="url(#d)">
+          <g filter="url(#undefined-filter2_f_2011_419)">
             <path
               d="M1.55531 17.7986C4.60214 17.7986 7.07209 15.1844 7.07209 11.9597C7.07209 8.7349 4.60214 6.12073 1.55531 6.12073C-1.49153 6.12073 -3.96147 8.7349 -3.96147 11.9597C-3.96147 15.1844 -1.49153 17.7986 1.55531 17.7986Z"
               fill="#f6c013"
             />
           </g>
-          <g filter="url(#e)">
+          <g filter="url(#undefined-filter3_f_2011_419)">
             <path
               d="M15.609 0.845644C13.8372 6.6443 5.26001 10.8188 1.79692 10.8725L11.5822 -5.31543L15.609 0.845644Z"
               fill="#fa4340"
             />
           </g>
-          <g filter="url(#f)">
+          <g filter="url(#undefined-filter4_f_2011_419)">
             <path
               d="M15.3271 -1.00677C13.5553 4.79189 4.97812 8.96636 1.51504 9.02007L11.3003 -7.16785L15.3271 -1.00677Z"
               fill="#fa4340"
             />
           </g>
-          <g filter="url(#g)">
+          <g filter="url(#undefined-filter5_f_2011_419)">
             <path
               d="M15.6493 22.51C13.8775 16.7113 5.30028 12.5369 1.83719 12.4832L11.6224 28.6711L15.6493 22.51Z"
               fill="#14bb69"
             />
           </g>
-          <g filter="url(#h)">
+          <g filter="url(#undefined-filter6_f_2011_419)">
             <path
               d="M15.8103 25.812C14.0385 20.0133 5.46135 15.8389 1.99826 15.7852L11.7835 31.9731L15.8103 25.812Z"
               fill="#14bb69"
@@ -163,7 +163,7 @@ export const Gemini: IconComponent<GeminiProps> = React.forwardRef<
         </g>
         <defs>
           <filter
-            id="b"
+            id="undefined-filter0_f_2011_419"
             x="-5.572"
             y="-3.705"
             width={size}
@@ -183,7 +183,7 @@ export const Gemini: IconComponent<GeminiProps> = React.forwardRef<
             />
           </filter>
           <filter
-            id="c"
+            id="undefined-filter1_f_2011_419"
             x="-7.988"
             y=".483"
             width={size}
@@ -203,7 +203,7 @@ export const Gemini: IconComponent<GeminiProps> = React.forwardRef<
             />
           </filter>
           <filter
-            id="d"
+            id="undefined-filter2_f_2011_419"
             x="-9.116"
             y=".966"
             width={size}
@@ -223,7 +223,7 @@ export const Gemini: IconComponent<GeminiProps> = React.forwardRef<
             />
           </filter>
           <filter
-            id="e"
+            id="undefined-filter3_f_2011_419"
             x="-3.357"
             y="-10.47"
             width={size}
@@ -243,7 +243,7 @@ export const Gemini: IconComponent<GeminiProps> = React.forwardRef<
             />
           </filter>
           <filter
-            id="f"
+            id="undefined-filter4_f_2011_419"
             x="-3.639"
             y="-12.322"
             width={size}
@@ -263,7 +263,7 @@ export const Gemini: IconComponent<GeminiProps> = React.forwardRef<
             />
           </filter>
           <filter
-            id="g"
+            id="undefined-filter5_f_2011_419"
             x="-3.317"
             y="7.329"
             width={size}
@@ -283,7 +283,7 @@ export const Gemini: IconComponent<GeminiProps> = React.forwardRef<
             />
           </filter>
           <filter
-            id="h"
+            id="undefined-filter6_f_2011_419"
             x="-3.156"
             y="10.631"
             width={size}

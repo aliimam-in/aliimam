@@ -87,7 +87,7 @@ export function ThemeSelector({ className }: React.ComponentProps<"div">) {
   }
 
   return (
-    <div className="flex flex-wrap my-3 justify-center gap-3">
+    <div className="flex flex-wrap justify-center gap-3">
       <div className={cn("flex items-center gap-2", className)}>
         <Label htmlFor="theme-selector" className="sr-only">
           Theme
@@ -258,7 +258,7 @@ export function BlockThemeSelector({}: React.ComponentProps<"div">) {
   }
 
   return (
-    <div className="flex px-4 pt-6 items-end justify-center gap-3">
+    <div className="flex px-6 items-end justify-center gap-3">
       {mounted && (
         <div className="flex flex-col items-center gap-3">
           <div className="text-muted-foreground flex justify-between gap-2 text-xs">

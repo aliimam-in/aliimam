@@ -6,7 +6,7 @@ export const Midday: IconComponent = React.forwardRef<SVGSVGElement, IconProps>(
     {
       color = "currentColor",
       fill,
-      size = 20,
+      size = 24,
       strokeWidth,
       strokeLinecap,
       strokeLinejoin,
@@ -33,7 +33,7 @@ export const Midday: IconComponent = React.forwardRef<SVGSVGElement, IconProps>(
         {...props}
         ref={forwardedRef}
       >
-        <g clipPath="url(#a)">
+        <g clipPath="url(#undefined-clip0_2011_425)">
           <path
             d="M20.4 0H3.6C1.61177 0 0 1.61177 0 3.6V20.4C0 22.3882 1.61177 24 3.6 24H20.4C22.3882 24 24 22.3882 24 20.4V3.6C24 1.61177 22.3882 0 20.4 0Z"
             fill="#141414"
@@ -46,7 +46,7 @@ export const Midday: IconComponent = React.forwardRef<SVGSVGElement, IconProps>(
           />
         </g>
         <defs>
-          <clipPath id="a">
+          <clipPath id="undefined-clip0_2011_425">
             <path fill="#fff" d="M0 0H24V24H0z" />
           </clipPath>
         </defs>

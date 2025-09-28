@@ -45,21 +45,18 @@ const transformers = {
         "removeXMLProcInst",
         "removeComments",
         "removeMetadata",
-        // "removeXMLNS",
         "removeEditorsNSData",
         "cleanupAttrs",
         "minifyStyles",
         "convertStyleToAttrs",
-        "cleanupIds",
+        // "cleanupIds", // Disabled to preserve id attributes
         "removeRasterImages",
         "removeUselessDefs",
         "cleanupNumericValues",
-        // "cleanupListOfValues",
         "convertColors",
         "removeUnknownsAndDefaults",
         "removeNonInheritableGroupAttrs",
         "removeUselessStrokeAndFill",
-        // "removeViewBox",
         "cleanupEnableBackground",
         "removeHiddenElems",
         "removeEmptyText",
@@ -67,18 +64,13 @@ const transformers = {
         "moveElemsAttrsToGroup",
         "moveGroupAttrsToElems",
         "collapseGroups",
-        // "convertPathData",
         "convertTransform",
         "removeEmptyAttrs",
         "removeEmptyContainers",
         "mergePaths",
         "removeUnusedNS",
-        // "sortAttrs",
         "removeTitle",
         "removeDesc",
-        // "removeDimensions",
-        // "removeStyleElement",
-        // "removeScripts",
       ],
     });
     return data;
@@ -110,13 +102,17 @@ const transformers = {
     });
   },
 
-  readyForJSX(svgRaw: string): string {
+  readyForJSX(svgRaw: string, iconName: string): string {
     const $ = cheerio.load(svgRaw, { xmlMode: true });
-
-    // Process attributes
     $("*").each((_i, el) => {
       if (isTagElement(el)) {
         Object.keys(el.attribs).forEach((attrKey) => {
+          if (attrKey === "id") {
+            const originalId = el.attribs[attrKey];
+            if (originalId) {
+              $(el).attr("id", `${iconName}-${originalId}`);
+            }
+          }
           if (attrKey.includes("-")) {
             $(el)
               .attr(_.camelCase(attrKey), el.attribs[attrKey])
@@ -125,10 +121,8 @@ const transformers = {
           if (attrKey === "class") {
             $(el).attr("className", el.attribs[attrKey]).removeAttr(attrKey);
           }
-          // Handle style attribute
           if (attrKey === "style") {
             const styleValue = el.attribs[attrKey];
-            // Convert CSS string (e.g., "fill: red; font-size: 12px") to object
             const styleObject = styleValue
               ? styleValue.split(";").reduce(
                   (acc, style) => {
@@ -148,11 +142,15 @@ const transformers = {
         });
       }
     });
-
-    return $("svg")
+    let svgString = $("svg")
       .attr("props", "...")
       .attr("ref", "forwardedRef")
-      .toString()
+      .toString();
+    svgString = svgString.replace(
+      /url\(#([^)]+)\)/g,
+      (match, id) => `url(#${iconName}-${id})`
+    );
+    return svgString
       .replace(/strokeWidth=['"][\d.]+['"]/g, "strokeWidth={strokeWidth}")
       .replace(/width=['"][\d.]+['"]/g, "width={size}")
       .replace(/height=['"][\d.]+['"]/g, "height={size}")
@@ -504,10 +502,10 @@ export function iconsToSvgPaths(icons: IIcons) {
   );
 }
 
-export function filePathToSVGinJSXSync(filePath: string) {
+export function filePathToSVGinJSXSync(filePath: string, iconName: string) {
   const absFilePath = path.resolve(currentTempDir, filePath);
   const svgRaw = fs.readFileSync(absFilePath, { encoding: "utf8" });
-  return transformers.readyForJSX(svgRaw);
+  return transformers.readyForJSX(svgRaw, iconName);
 }
 
 const metadata = {
@@ -557,6 +555,7 @@ export async function generateReactComponents(icons: IIcons) {
           types: [],
           svgName: icons[iconId].svgName,
           jsxName: icons[iconId].jsxName,
+          name: icons[iconId].svgName, // Ensure name is included
           metadata: metadata.generateIconMetadata(icons[iconId]),
         };
         icon.ids = _.uniq(icon.ids.concat(icons[iconId].id));
@@ -601,7 +600,12 @@ export async function generateReactComponents(icons: IIcons) {
     iconToReactFileName(icon: ITemplateIcon) {
       return `${icon.jsxName}.tsx`;
     },
-    iconToSVGSourceAsJSX(icon: ITemplateIcon, size: string, type: string) {
+    iconToSVGSourceAsJSX(
+      icon: ITemplateIcon,
+      size: string,
+      type: string,
+      iconName: string
+    ) {
       const filePath = labelling.filePathFromIcon({
         id: icon.ids[0],
         svgName: icon.svgName,
@@ -609,7 +613,7 @@ export async function generateReactComponents(icons: IIcons) {
         size,
         type,
       });
-      return filePathToSVGinJSXSync(filePath);
+      return filePathToSVGinJSXSync(filePath, iconName);
     },
     iconHasSizeAndType(icon: ITemplateIcon, size: string, type: string) {
       return icon.ids.some((iconId) => {

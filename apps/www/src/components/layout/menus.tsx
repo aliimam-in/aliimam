@@ -33,8 +33,8 @@ const components: { title: string; href: string; description: string }[] = [
     description: "Modular, flexible UI blocks for intuitive, seamless design and robust functionality.",
   },
   {
-    title: "Showcase",
-    href: "/showcase",
+    title: "UI",
+    href: "/docs/ui",
     description:
       "Stunning UI component showcase for inspiring, seamless design exploration.",
   },
@@ -62,6 +62,22 @@ export function Menus() {
             className={cn(navigationMenuTriggerStyle(), "bg-transparent")}
           >
             <Link href="/about">About</Link>
+          </NavigationMenuLink>
+        </NavigationMenuItem>
+        <NavigationMenuItem>
+          <NavigationMenuLink
+            asChild
+            className={cn(navigationMenuTriggerStyle(), "bg-transparent")}
+          >
+            <Link href="/templates">Templates</Link>
+          </NavigationMenuLink>
+        </NavigationMenuItem>
+        <NavigationMenuItem>
+          <NavigationMenuLink
+            asChild
+            className={cn(navigationMenuTriggerStyle(), "bg-transparent")}
+          >
+            <Link href="/blocks">Blocks</Link>
           </NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem>

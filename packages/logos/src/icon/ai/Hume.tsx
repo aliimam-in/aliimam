@@ -6,7 +6,7 @@ export const Hume: IconComponent = React.forwardRef<SVGSVGElement, IconProps>(
     {
       color = "currentColor",
       fill,
-      size = 20,
+      size = 24,
       strokeWidth,
       strokeLinecap,
       strokeLinejoin,
@@ -51,7 +51,7 @@ export const Hume: IconComponent = React.forwardRef<SVGSVGElement, IconProps>(
         />
         <path
           d="M19.1173 12.0948C18.28 11.9026 17.4768 12.4009 17.2846 13.2496C17.0923 14.0983 17.6019 14.9014 18.4393 15.0823C19.2766 15.2746 20.0798 14.7763 20.272 13.9276C20.4644 13.079 19.9546 12.2871 19.1173 12.0948Z"
-          fill="url(#a)"
+          fill="url(#undefined-paint0_linear_2011_422)"
         />
         <path
           d="M18.6078 8.89332C19.2756 8.36088 19.3882 7.4223 18.8456 6.7431C18.3029 6.06392 17.3632 5.97404 16.6954 6.50534C16.0275 7.03778 15.9149 7.97634 16.4576 8.65554C17.0014 9.33472 17.94 9.4246 18.6078 8.89332Z"
@@ -63,7 +63,7 @@ export const Hume: IconComponent = React.forwardRef<SVGSVGElement, IconProps>(
         />
         <defs>
           <linearGradient
-            id="a"
+            id="undefined-paint0_linear_2011_422"
             x1="18.34"
             y1="15.063"
             x2="19.19"

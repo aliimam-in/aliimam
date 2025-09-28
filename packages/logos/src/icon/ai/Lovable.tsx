@@ -8,7 +8,7 @@ export const Lovable: IconComponent = React.forwardRef<
   {
     color = "currentColor",
     fill,
-    size = 20,
+    size = 24,
     strokeWidth,
     strokeLinecap,
     strokeLinejoin,
@@ -36,7 +36,7 @@ export const Lovable: IconComponent = React.forwardRef<
       ref={forwardedRef}
     >
       <mask
-        id="b"
+        id="undefined-mask0_2011_417"
         maskUnits="userSpaceOnUse"
         x="0"
         y="0"
@@ -45,31 +45,31 @@ export const Lovable: IconComponent = React.forwardRef<
       >
         <path
           d="M7.0955 0C11.0142 0 14.1908 3.17802 14.1908 7.09845V9.79608H16.5522C20.4709 9.79608 23.6477 12.9743 23.6477 16.8945C23.6477 20.8148 20.4709 23.9928 16.5522 23.9928H0V7.09845C0 3.17802 3.17664 0 7.0955 0Z"
-          fill="url(#a)"
+          fill="url(#undefined-paint0_linear_2011_417)"
           fillRule="evenodd"
           clipRule="evenodd"
         />
       </mask>
-      <g mask="url(#b)">
-        <g filter="url(#c)">
+      <g mask="url(#undefined-mask0_2011_417)">
+        <g filter="url(#undefined-filter0_f_2011_417)">
           <path
             d="M10.3746 28.779C19.2155 28.779 26.3824 21.628 26.3824 12.8068C26.3824 3.98569 19.2155 -3.16527 10.3746 -3.16527C1.53383 -3.16527 -5.63307 3.98569 -5.63307 12.8068C-5.63307 21.628 1.53383 28.779 10.3746 28.779Z"
             fill="#4b73ff"
           />
         </g>
-        <g filter="url(#d)">
+        <g filter="url(#undefined-filter1_f_2011_417)">
           <path
             d="M12.1323 20.0142C23.4549 20.0142 32.6337 12.8633 32.6337 4.04212C32.6337 -4.77904 23.4549 -11.93 12.1323 -11.93C0.809723 -11.93 -8.36907 -4.77904 -8.36907 4.04212C-8.36907 12.8633 0.809723 20.0142 12.1323 20.0142Z"
             fill="#ff66f4"
           />
         </g>
-        <g filter="url(#e)">
+        <g filter="url(#undefined-filter2_f_2011_417)">
           <path
             d="M15.4752 15.0635C24.316 15.0635 31.4829 8.78339 31.4829 1.03653C31.4829 -6.71034 24.316 -12.9904 15.4752 -12.9904C6.63437 -12.9904 -0.532529 -6.71034 -0.532529 1.03653C-0.532529 8.78339 6.63437 15.0635 15.4752 15.0635Z"
             fill="#ff0105"
           />
         </g>
-        <g filter="url(#f)">
+        <g filter="url(#undefined-filter3_f_2011_417)">
           <path
             d="M12.4172 13.6438C17.734 13.6438 22.0441 9.34324 22.0441 4.03818C22.0441 -1.26688 17.734 -5.56748 12.4172 -5.56748C7.10039 -5.56748 2.79028 -1.26688 2.79028 4.03818C2.79028 9.34324 7.10039 13.6438 12.4172 13.6438Z"
             fill="#fe7b02"
@@ -78,7 +78,7 @@ export const Lovable: IconComponent = React.forwardRef<
       </g>
       <defs>
         <filter
-          id="c"
+          id="undefined-filter0_f_2011_417"
           x="-12.791"
           y="-10.323"
           width={size}
@@ -94,7 +94,7 @@ export const Lovable: IconComponent = React.forwardRef<
           />
         </filter>
         <filter
-          id="d"
+          id="undefined-filter1_f_2011_417"
           x="-15.527"
           y="-19.088"
           width={size}
@@ -110,7 +110,7 @@ export const Lovable: IconComponent = React.forwardRef<
           />
         </filter>
         <filter
-          id="e"
+          id="undefined-filter2_f_2011_417"
           x="-7.691"
           y="-20.149"
           width={size}
@@ -126,7 +126,7 @@ export const Lovable: IconComponent = React.forwardRef<
           />
         </filter>
         <filter
-          id="f"
+          id="undefined-filter3_f_2011_417"
           x="-4.368"
           y="-12.726"
           width={size}
@@ -142,7 +142,7 @@ export const Lovable: IconComponent = React.forwardRef<
           />
         </filter>
         <linearGradient
-          id="a"
+          id="undefined-paint0_linear_2011_417"
           x1="7.958"
           y1="4.216"
           x2="15.134"

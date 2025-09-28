@@ -1,7 +1,7 @@
  import { BlockDisplay } from "@/src/components/docs/blocks/block-display";
 
 const FEATURED_BLOCKS = [
-  "dashboard-01",
+  "logos-01", 
   "login-01",
   "logos-03",
   "pricing-01",
@@ -14,7 +14,7 @@ export default function BlocksPage() {
       data-slot="blocks"
       className="flex relative pt-3 items-stretch text-[1.05rem] sm:text-[15px] xl:w-full"
     >
-      <div className="flex min-w-0 py-6 flex-1 border rounded-md flex-col">
+      <div className="flex min-w-0 py-6 flex-1 flex-col">
         
         <div className="px-6 flex flex-1 gap-10 pb-10 md:gap-20 min-w-0 flex-col">
           

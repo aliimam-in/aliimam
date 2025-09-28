@@ -949,6 +949,28 @@
       ]
     },
     {
+      "name": "logos-01",
+      "type": "registry:block",
+      "description": "A simple logos section.",
+      "dependencies": [
+        "@aliimam/logos"
+      ],
+      "files": [
+        {
+          "path": "registry/default/blocks/logos/logos-01/page.tsx",
+          "type": "registry:page",
+          "target": "app/logos-01/page.tsx"
+        }
+      ],
+      "meta": {
+        "iframeHeight": "600px"
+      },
+      "categories": [
+        "client",
+        "logos"
+      ]
+    },
+    {
       "name": "utils",
       "type": "registry:lib",
       "dependencies": [

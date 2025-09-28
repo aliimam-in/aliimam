@@ -50,6 +50,7 @@ export interface ITemplateIcon {
 	sizes: string[];
 	types: string[];
 	jsxName: string;
+	name: string;  
 	svgName: string;
 }
 

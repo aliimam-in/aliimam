@@ -10,9 +10,9 @@ export function BlocksNav() {
   const pathname = usePathname()
 
   return (
-    <div className="relative overflow-hidden">
+    <div className="relative px-6 overflow-hidden">
       <ScrollArea className="max-w-none">
-        <div className="flex items-center">
+        <div className="flex gap-2 items-center">
           <BlocksNavLink
             category={{ name: "Featured", slug: "", hidden: false }}
             isActive={pathname === "/blocks"}

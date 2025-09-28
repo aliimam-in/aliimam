@@ -1093,6 +1093,23 @@ export const Index: Record<string, any> = {
     }),
     meta: undefined,
   },
+  "logos-01": {
+    name: "logos-01",
+    description: "A simple logos section.",
+    type: "registry:block",
+    registryDependencies: undefined,
+    files: [{
+      path: "registry/default/blocks/logos/logos-01/page.tsx",
+      type: "registry:page",
+      target: "app/logos-01/page.tsx"
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/blocks/logos/logos-01/page.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    meta: {"iframeHeight":"600px"},
+  },
   "utils": {
     name: "utils",
     description: "",

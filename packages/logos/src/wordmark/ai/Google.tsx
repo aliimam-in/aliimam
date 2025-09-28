@@ -12,7 +12,7 @@ export const Google: IconComponent<GoogleProps> = React.forwardRef<
   {
     color = "currentColor",
     fill,
-    size = 20,
+    size = 24,
     strokeWidth,
     strokeLinecap,
     strokeLinejoin,
@@ -41,7 +41,7 @@ export const Google: IconComponent<GoogleProps> = React.forwardRef<
         {...props}
         ref={forwardedRef}
       >
-        <g clipPath="url(#a)">
+        <g clipPath="url(#undefined-clip0_2011_434)">
           <path
             d="M30.1955 12.3077C30.1955 15.639 27.5894 18.0938 24.3912 18.0938C21.193 18.0938 18.5869 15.639 18.5869 12.3077C18.5869 8.95296 21.193 6.52166 24.3912 6.52166C27.5894 6.52166 30.1955 8.95296 30.1955 12.3077ZM27.6547 12.3077C27.6547 10.226 26.1442 8.80165 24.3912 8.80165C22.6382 8.80165 21.1277 10.226 21.1277 12.3077C21.1277 14.3686 22.6382 15.8138 24.3912 15.8138C26.1442 15.8138 27.6547 14.366 27.6547 12.3077Z"
             fill="#ea4335"
@@ -68,7 +68,7 @@ export const Google: IconComponent<GoogleProps> = React.forwardRef<
           />
         </g>
         <defs>
-          <clipPath id="a">
+          <clipPath id="undefined-clip0_2011_434">
             <path fill="#fff" d="M0 0H70.957V24H0z" />
           </clipPath>
         </defs>
@@ -93,7 +93,7 @@ export const Google: IconComponent<GoogleProps> = React.forwardRef<
         {...props}
         ref={forwardedRef}
       >
-        <g clipPath="url(#a)">
+        <g clipPath="url(#undefined-clip0_2008_255)">
           <path
             d="M22.9891 12.2245C22.9891 11.2413 22.9108 10.5238 22.7415 9.77966H11.7291V14.2176H18.1931C18.0628 15.3205 17.3591 16.9815 15.7952 18.0976L15.7733 18.2462L19.2552 20.9964L19.4964 21.0209C21.7118 18.9347 22.9891 15.8653 22.9891 12.2245Z"
             fill="#4285f4"
@@ -112,7 +112,7 @@ export const Google: IconComponent<GoogleProps> = React.forwardRef<
           />
         </g>
         <defs>
-          <clipPath id="a">
+          <clipPath id="undefined-clip0_2008_255">
             <path fill="#fff" d="M0 0H23V24H0z" />
           </clipPath>
         </defs>

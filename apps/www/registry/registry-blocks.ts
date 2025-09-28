@@ -1,4 +1,4 @@
-import { type Registry } from "shadcn/registry"
+import { type Registry } from "shadcn/registry";
 
 export const blocks: Registry["items"] = [
   {
@@ -83,5 +83,22 @@ export const blocks: Registry["items"] = [
       },
     ],
     categories: ["authentication", "login"],
-  }, 
-]
+  },
+  {
+    name: "logos-01",
+    description: "A simple logos section.",
+    type: "registry:block",
+    dependencies: ["@aliimam/logos"],
+    files: [
+      {
+        path: "blocks/logos/logos-01/page.tsx",
+        target: "app/logos-01/page.tsx",
+        type: "registry:page",
+      },
+    ],
+    categories: ["client", "logos"],
+    meta: {
+      iframeHeight: "600px",
+    },
+  },
+];

@@ -142,16 +142,9 @@ function BlockViewerToolbar() {
       >
         <TabsList className="grid h-8 grid-cols-2 items-center rounded-md p-1 *:data-[slot=tabs-trigger]:h-6 *:data-[slot=tabs-trigger]:rounded-sm *:data-[slot=tabs-trigger]:px-2 *:data-[slot=tabs-trigger]:text-xs">
           <TabsTrigger value="preview">Preview</TabsTrigger>
-          <TabsTrigger value="code">Code</TabsTrigger>
+          <TabsTrigger value="code">Code</TabsTrigger> 
         </TabsList>
-      </Tabs>
-      <Separator orientation="vertical" className="mx-2 !h-4" />
-      <a
-        href={`#${item.name}`}
-        className="flex-1 text-muted-foreground truncate text-center text-sm font-medium underline-offset-2 hover:underline md:flex-auto md:text-left"
-      >
-        {item.description?.replace(/\.$/, "")}
-      </a>
+      </Tabs> 
       <div className="ml-auto flex items-center gap-2">
         <div className="h-8 items-center gap-1.5 rounded-md border p-1 shadow-none">
           <ToggleGroup
@@ -210,11 +203,11 @@ function BlockViewerToolbar() {
           className="w-fit gap-1 px-2 shadow-none"
           size="sm"
           onClick={() => {
-            copyToClipboard(`npx shadcn@latest add ${process.env.NEXT_PUBLIC_APP_URL}/r/styles/default/${item.name}.json`)
+            copyToClipboard(`npx shadcn@latest add ${process.env.NEXT_PUBLIC_APP_URL}/r/${item.name}.json`)
           }}
         >
           {isCopied ? <Check /> : <Terminal />}
-          <span>npx shadcn add {item.name}</span>
+          <span>pnpm dlx shadcn add @aliimam/{item.name}</span>
         </Button>
         <Separator orientation="vertical" className="mx-1 !h-4" />
         <OpenInV0Button name={item.name} />
