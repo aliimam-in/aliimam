@@ -1,0 +1,12 @@
+export { default as Figma } from "./Figma";
+export { default as Photoshop } from "./Photoshop";
+export { default as Illustrator } from "./Illustrator";
+export { default as AfterEffects } from "./AfterEffects";
+export { default as PremierePro } from "./PremierePro";
+export { default as Lightroom } from "./Lightroom";
+export { default as InDesign } from "./InDesign";
+export { default as Animate } from "./Animate";
+export { default as Canva } from "./Canva";
+export { default as Blender } from "./Blender";
+export { default as Sketch } from "./Sketch";
+export { default as Layers } from "./Layers";

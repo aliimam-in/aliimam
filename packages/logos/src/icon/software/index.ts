@@ -1,2 +1,11 @@
-export { default as Figma } from "./Figma";
-export { default as Photoshop } from "./Photoshop";
+export { default as Polar } from "./Polar";
+export { default as Bento } from "./Bento";
+export { default as Zoom } from "./Zoom";
+export { default as LemonSqueezy } from "./LemonSqueezy";
+export { default as Notion } from "./Notion";
+export { default as Android } from "./Android";
+export { default as Steam } from "./Steam";
+export { default as PNPM } from "./PNPM";
+export { default as Xbox } from "./Xbox";
+export { default as Playstation } from "./Playstation";
+export { default as V0 } from "./V0";

@@ -1,0 +1,67 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const InDesign: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function InDesign(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 23"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <g clipPath="url(#undefined-clip0_2039_251)">
+        <path
+          d="M19.5243 0H4.20142C1.88104 0 0 1.87026 0 4.17735V18.8227C0 21.1297 1.88104 23 4.20142 23H19.5243C21.8446 23 23.7257 21.1297 23.7257 18.8227V4.17735C23.7257 1.87026 21.8446 0 19.5243 0Z"
+          fill="#49021f"
+        />
+        <path
+          d="M8.616 6.017V16.097C8.616 16.203 8.568 16.256 8.473 16.256H6.547C6.462 16.256 6.42 16.203 6.42 16.097V6.017C6.42 5.933 6.468 5.89 6.563 5.89H8.489C8.506 5.888 8.524 5.89 8.54 5.895 8.557 5.901 8.572 5.91 8.584 5.922 8.597 5.934 8.606 5.949 8.612 5.966 8.617 5.982 8.619 6 8.616 6.017ZM14.314 16.414C13.582 16.425 12.856 16.274 12.189 15.971 11.569 15.685 11.05 15.219 10.701 14.634 10.34 14.038 10.16 13.291 10.16 12.394 10.154 11.668 10.341 10.953 10.701 10.321 11.073 9.678 11.619 9.151 12.277 8.802 12.967 8.422 13.799 8.232 14.776 8.232 14.829 8.232 14.898 8.235 14.983 8.24 15.067 8.246 15.168 8.254 15.285 8.264V5.147C15.285 5.073 15.317 5.036 15.381 5.036H17.386C17.399 5.034 17.412 5.035 17.425 5.039 17.437 5.043 17.448 5.05 17.458 5.06 17.467 5.069 17.474 5.08 17.478 5.092 17.482 5.105 17.483 5.118 17.481 5.131V14.483C17.481 14.663 17.489 14.858 17.505 15.069 17.521 15.28 17.535 15.47 17.545 15.639 17.547 15.671 17.539 15.704 17.522 15.732 17.505 15.761 17.48 15.783 17.45 15.797 16.932 16.011 16.393 16.17 15.842 16.272 15.338 16.364 14.827 16.412 14.314 16.414ZM15.285 14.452V10.132C15.199 10.108 15.111 10.092 15.022 10.084 14.914 10.073 14.805 10.068 14.696 10.068 14.31 10.064 13.928 10.151 13.582 10.321 13.245 10.488 12.957 10.739 12.746 11.049 12.529 11.366 12.42 11.783 12.42 12.299 12.412 12.644 12.469 12.988 12.587 13.312 12.683 13.574 12.836 13.811 13.033 14.009 13.222 14.19 13.451 14.326 13.701 14.404 13.966 14.489 14.243 14.532 14.521 14.531 14.67 14.531 14.807 14.526 14.935 14.515 15.054 14.506 15.171 14.485 15.285 14.452Z"
+          fill="#f36"
+        />
+      </g>
+      <defs>
+        <clipPath id="undefined-clip0_2039_251">
+          <path fill="#fff" d="M0 0H24V23H0z" />
+        </clipPath>
+      </defs>
+    </svg>
+  );
+});
+
+InDesign.displayName = "InDesign";
+
+InDesign.metadata = {
+  name: "InDesign",
+  category: "icon/design",
+  tags: ["in", "design", "icon"],
+  description: "InDesign icon from icon/design category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default InDesign;

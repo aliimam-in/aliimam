@@ -1,0 +1,123 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const Chromium: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function Chromium(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <g clipPath="url(#undefined-clip0_2039_374)">
+        <path
+          d="M12.0001 12L17.1963 15L12.0001 24C18.6275 24 24 18.6274 24 12C24 9.81365 23.4124 7.76563 22.3907 6H11.9999L12.0001 12Z"
+          fill="url(#undefined-paint0_linear_2039_374)"
+        />
+        <path
+          d="M11.9999 0C7.55839 0 3.68342 2.41476 1.60846 6.00146L6.80367 15L11.9999 12.0001V6.00004H22.3907C20.3154 2.41423 16.4409 0 11.9999 0Z"
+          fill="url(#undefined-paint1_linear_2039_374)"
+        />
+        <path
+          d="M7.08663e-05 12.0001C7.08663e-05 18.6275 5.37244 24 12 24L17.1963 15L12 12.0001L6.80377 15L1.60856 6.00146C0.587428 7.76659 0 9.81388 0 11.9999"
+          fill="url(#undefined-paint2_linear_2039_374)"
+        />
+        <path
+          d="M18.0001 12C18.0001 15.3137 15.3137 18.0001 12 18.0001C8.6863 18.0001 5.99994 15.3137 5.99994 12C5.99994 8.68635 8.6863 6 12 6C15.3137 6 18.0001 8.68635 18.0001 12Z"
+          fill="#fff"
+        />
+        <path
+          d="M16.8751 12C16.8751 14.6924 14.6924 16.8751 12 16.8751C9.30762 16.8751 7.12494 14.6924 7.12494 12C7.12494 9.30767 9.30762 7.125 12 7.125C14.6924 7.125 16.8751 9.30767 16.8751 12Z"
+          fill="url(#undefined-paint3_linear_2039_374)"
+        />
+      </g>
+      <defs>
+        <linearGradient
+          id="undefined-paint0_linear_2039_374"
+          x1="18.026"
+          y1="5.975"
+          x2="18"
+          y2="24"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#afccfb" />
+          <stop offset="1" stopColor="#8bb5f8" />
+        </linearGradient>
+        <linearGradient
+          id="undefined-paint1_linear_2039_374"
+          x1="10.26"
+          y1=".183"
+          x2="11.252"
+          y2="16.309"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#1972e7" />
+          <stop offset="1" stopColor="#1969d5" />
+        </linearGradient>
+        <linearGradient
+          id="undefined-paint2_linear_2039_374"
+          x1="8.598"
+          y1="6.001"
+          x2="8.598"
+          y2="24"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#659cf6" />
+          <stop offset="1" stopColor="#4285f4" />
+        </linearGradient>
+        <linearGradient
+          id="undefined-paint3_linear_2039_374"
+          x1="11.95"
+          y1="7.144"
+          x2="12"
+          y2="16.875"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop stopColor="#3680f0" />
+          <stop offset="1" stopColor="#2678ec" />
+        </linearGradient>
+        <clipPath id="undefined-clip0_2039_374">
+          <path fill="#fff" d="M0 0H24V24H0z" />
+        </clipPath>
+      </defs>
+    </svg>
+  );
+});
+
+Chromium.displayName = "Chromium";
+
+Chromium.metadata = {
+  name: "Chromium",
+  category: "icon/browser",
+  tags: ["chromium", "icon"],
+  description: "Chromium icon from icon/browser category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default Chromium;

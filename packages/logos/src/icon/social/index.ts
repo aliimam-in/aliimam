@@ -1,0 +1,12 @@
+export { default as Instagram } from "./Instagram";
+export { default as LinkedIn } from "./LinkedIn";
+export { default as X } from "./X";
+export { default as WhatsApp } from "./WhatsApp";
+export { default as Facebook } from "./Facebook";
+export { default as Threads } from "./Threads";
+export { default as Bluesky } from "./Bluesky";
+export { default as TikTok } from "./TikTok";
+export { default as Meta } from "./Meta";
+export { default as Reddit } from "./Reddit";
+export { default as Pinterest } from "./Pinterest";
+export { default as Telegram } from "./Telegram";

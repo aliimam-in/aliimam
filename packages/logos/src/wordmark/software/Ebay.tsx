@@ -1,0 +1,74 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const Ebay: IconComponent = React.forwardRef<SVGSVGElement, IconProps>(
+  function Ebay(
+    {
+      color = "currentColor",
+      fill,
+      size = 24,
+      strokeWidth,
+      strokeLinecap,
+      strokeLinejoin,
+      strokeDasharray,
+      opacity,
+      className,
+      ...props
+    },
+    forwardedRef,
+  ) {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 60 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <g clipPath="url(#undefined-clip0_2039_651)">
+          <path
+            d="M7.75857 5.23633C3.52655 5.23633 0 7.02846 0 12.436C0 16.72 2.37138 19.4176 7.86765 19.4176C14.3372 19.4176 14.7518 15.1632 14.7518 15.1632H11.6171C11.6171 15.1632 10.9451 17.454 7.67652 17.454C5.01434 17.454 3.09967 15.6587 3.09967 13.1425H15.0799V11.5633C15.0799 9.07393 13.4968 5.23633 7.75857 5.23633ZM7.6491 7.25443C10.1832 7.25443 11.9107 8.80421 11.9107 11.127H3.16891C3.16891 8.66096 5.42402 7.25443 7.6491 7.25443Z"
+            fill="#e53238"
+          />
+          <path
+            d="M15.0776 0V16.702C15.0776 17.65 15.0098 18.9812 15.0098 18.9812H17.9996C17.9996 18.9812 18.107 18.0252 18.107 17.1513C18.107 17.1513 19.5842 19.4585 23.6009 19.4585C27.8305 19.4585 30.7036 16.5268 30.7036 12.327C30.7036 8.41963 28.0647 5.2771 23.6077 5.2771C19.4341 5.2771 18.1373 7.52696 18.1373 7.52696V0H15.0776ZM22.836 7.34295C25.7083 7.34295 27.5349 9.47114 27.5349 12.327C27.5349 15.3894 25.4253 17.3927 22.8566 17.3927C19.791 17.3927 18.1373 15.003 18.1373 12.3541C18.1373 9.8859 19.621 7.34295 22.836 7.34295Z"
+            fill="#0064d2"
+          />
+          <path
+            d="M38.1345 5.23633C31.7678 5.23633 31.3596 8.7163 31.3596 9.27252H34.5285C34.5285 9.27252 34.6946 7.24084 37.9159 7.24084C40.0091 7.24084 41.6312 8.19744 41.6312 10.0361V10.6906H37.9159C32.9836 10.6906 30.3761 12.1311 30.3761 15.0543C30.3761 17.9309 32.7853 19.4961 36.0413 19.4961C40.4786 19.4961 41.908 17.0484 41.908 17.0484C41.908 18.022 41.983 18.9814 41.983 18.9814H44.8001C44.8001 18.9814 44.691 17.7923 44.691 17.0314V10.4555C44.691 6.14358 41.2071 5.23633 38.1345 5.23633ZM41.6312 12.6542V13.5269C41.6312 14.6651 40.9275 17.495 36.7856 17.495C34.5175 17.495 33.545 16.3649 33.545 15.0541C33.545 12.6696 36.8198 12.6542 41.6312 12.6542Z"
+            fill="#f5af02"
+          />
+          <path
+            d="M42.9845 5.78223H46.5495L51.6659 16.0152L56.7705 5.78223H60L50.702 24H47.3144L49.9974 18.9215L42.9845 5.78223Z"
+            fill="#86b817"
+          />
+        </g>
+        <defs>
+          <clipPath id="undefined-clip0_2039_651">
+            <path fill="#fff" d="M0 0H60V24H0z" />
+          </clipPath>
+        </defs>
+      </svg>
+    );
+  },
+);
+
+Ebay.displayName = "Ebay";
+
+Ebay.metadata = {
+  name: "Ebay",
+  category: "wordmark/software",
+  tags: ["ebay", "icon"],
+  description: "Ebay icon from wordmark/software category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default Ebay;

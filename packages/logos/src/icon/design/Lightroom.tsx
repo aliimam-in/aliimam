@@ -1,0 +1,67 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const Lightroom: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function Lightroom(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 23"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <g clipPath="url(#undefined-clip0_2039_244)">
+        <path
+          d="M19.5243 0H4.20142C1.88104 0 0 1.87026 0 4.17735V18.8227C0 21.1297 1.88104 23 4.20142 23H19.5243C21.8446 23 23.7257 21.1297 23.7257 18.8227V4.17735C23.7257 1.87026 21.8446 0 19.5243 0Z"
+          fill="#001e36"
+        />
+        <path
+          d="M12.46 16.256H6.189C6.083 16.256 6.03 16.198 6.03 16.082V6.033C6.027 6.014 6.029 5.994 6.035 5.975 6.041 5.957 6.052 5.94 6.066 5.926 6.08 5.912 6.097 5.902 6.115 5.896 6.134 5.889 6.154 5.888 6.173 5.89H8.115C8.13 5.888 8.145 5.89 8.16 5.895 8.174 5.899 8.188 5.907 8.198 5.918 8.209 5.929 8.217 5.942 8.222 5.956 8.227 5.971 8.228 5.986 8.226 6.001V14.262H12.794C12.89 14.262 12.927 14.309 12.906 14.404L12.619 16.113C12.619 16.137 12.612 16.159 12.601 16.18 12.59 16.201 12.575 16.218 12.556 16.232 12.526 16.247 12.493 16.255 12.46 16.256ZM14.036 8.391H15.77C15.817 8.391 15.863 8.407 15.901 8.435 15.938 8.464 15.965 8.504 15.977 8.549 16.015 8.618 16.042 8.693 16.057 8.771 16.079 8.872 16.095 8.975 16.105 9.079 16.115 9.19 16.12 9.309 16.121 9.435 16.418 9.091 16.777 8.804 17.179 8.589 17.631 8.346 18.138 8.223 18.651 8.232 18.671 8.23 18.69 8.231 18.709 8.238 18.728 8.244 18.745 8.254 18.759 8.268 18.773 8.282 18.783 8.299 18.789 8.317 18.795 8.336 18.797 8.356 18.794 8.375V10.29C18.794 10.364 18.741 10.401 18.635 10.4 17.994 10.361 17.353 10.475 16.765 10.733 16.565 10.819 16.384 10.942 16.232 11.097V16.113C16.232 16.208 16.189 16.256 16.105 16.256H14.179C14.157 16.259 14.135 16.257 14.114 16.25 14.094 16.243 14.075 16.232 14.059 16.216 14.044 16.201 14.032 16.182 14.025 16.161 14.019 16.141 14.017 16.119 14.02 16.097V10.654C14.02 10.422 14.017 10.176 14.012 9.918 14.006 9.659 13.998 9.404 13.988 9.15 13.981 8.933 13.959 8.716 13.924 8.501 13.92 8.486 13.92 8.47 13.924 8.455 13.929 8.44 13.937 8.426 13.948 8.414 13.959 8.403 13.973 8.395 13.989 8.391 14.004 8.387 14.02 8.387 14.036 8.391Z"
+          fill="#31a8ff"
+        />
+      </g>
+      <defs>
+        <clipPath id="undefined-clip0_2039_244">
+          <path fill="#fff" d="M0 0H24V23H0z" />
+        </clipPath>
+      </defs>
+    </svg>
+  );
+});
+
+Lightroom.displayName = "Lightroom";
+
+Lightroom.metadata = {
+  name: "Lightroom",
+  category: "icon/design",
+  tags: ["lightroom", "icon"],
+  description: "Lightroom icon from icon/design category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default Lightroom;

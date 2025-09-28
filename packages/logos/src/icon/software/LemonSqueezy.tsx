@@ -1,0 +1,58 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const LemonSqueezy: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function LemonSqueezy(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <path
+        d="M8.9389 14.7304L15.3771 17.7069C16.1751 18.076 16.7383 18.6955 17.0425 19.406C17.8118 21.2054 16.7603 23.0457 15.1096 23.7076C13.4586 24.3691 11.6991 23.9434 10.899 22.0721L8.09715 15.5026C7.88003 14.9934 8.42546 14.493 8.9389 14.7304ZM9.32481 12.8035L15.9707 10.2913C18.1795 9.45633 20.5922 11.0361 20.5596 13.3315C20.5591 13.3615 20.5586 13.3914 20.5578 13.4217C20.5101 15.6569 18.1645 17.1593 16.0042 16.3685L9.33111 13.9261C8.79879 13.7314 8.79486 13.0038 9.32481 12.8035ZM8.95276 11.9334L15.4859 9.15736C17.6569 8.2348 18.2078 5.4659 16.5075 3.86604C16.4853 3.84501 16.4629 3.82411 16.4404 3.80334C14.7734 2.25604 12.0177 2.80083 11.0687 4.83886L8.13697 11.1355C7.90306 11.6376 8.43171 12.1547 8.95276 11.9334ZM7.27149 10.8364L9.64675 4.32351C9.94123 3.51596 9.88668 2.69243 9.58224 1.98187C8.81129 0.183238 6.72344 -0.397349 5.07297 0.26549C3.42278 0.928585 2.4903 2.43451 3.29193 4.30498L6.11218 10.8673C6.33088 11.3759 7.08217 11.3558 7.27149 10.8364Z"
+        fill="#ffc233"
+        fillRule="evenodd"
+        clipRule="evenodd"
+      />
+    </svg>
+  );
+});
+
+LemonSqueezy.displayName = "LemonSqueezy";
+
+LemonSqueezy.metadata = {
+  name: "LemonSqueezy",
+  category: "icon/software",
+  tags: ["lemon", "squeezy", "icon"],
+  description: "LemonSqueezy icon from icon/software category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default LemonSqueezy;

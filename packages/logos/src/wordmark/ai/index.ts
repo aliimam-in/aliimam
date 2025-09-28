@@ -5,3 +5,7 @@ export { default as Gemini } from "./Gemini";
 export { default as DeepSeek } from "./DeepSeek";
 export { default as ClaudeAI } from "./ClaudeAI";
 export { default as Replicate } from "./Replicate";
+export { default as PerplexityAI } from "./PerplexityAI";
+export { default as Suno } from "./Suno";
+export { default as TogetherAI } from "./TogetherAI";
+export { default as Windsurf } from "./Windsurf";

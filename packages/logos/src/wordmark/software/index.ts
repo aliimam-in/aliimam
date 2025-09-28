@@ -1,2 +1,11 @@
 export { default as Cursor } from "./Cursor";
 export { default as Github } from "./Github";
+export { default as Clerk } from "./Clerk";
+export { default as Dropbox } from "./Dropbox";
+export { default as Dub } from "./Dub";
+export { default as Resend } from "./Resend";
+export { default as Raycast } from "./Raycast";
+export { default as Ibm } from "./Ibm";
+export { default as Ebay } from "./Ebay";
+export { default as Vercel } from "./Vercel";
+export { default as Nextjs } from "./Nextjs";
