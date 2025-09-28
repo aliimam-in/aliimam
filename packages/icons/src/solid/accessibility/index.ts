@@ -1,2 +1,16 @@
 export { default as Moon } from "./Moon";
 export { default as Sun } from "./Sun";
+export { default as Accessibility } from "./Accessibility";
+export { default as Baby } from "./Baby";
+export { default as BadgeInfo } from "./BadgeInfo";
+export { default as BadgeQuestionMark } from "./BadgeQuestionMark";
+export { default as CircleQuestionMark } from "./CircleQuestionMark";
+export { default as ClosedCaption } from "./ClosedCaption";
+export { default as Contrast } from "./Contrast";
+export { default as EarOff } from "./EarOff";
+export { default as Ear } from "./Ear";
+export { default as Eclipse } from "./Eclipse";
+export { default as EyeClosed } from "./EyeClosed";
+export { default as EyeOff } from "./EyeOff";
+export { default as Eye } from "./Eye";
+export { default as Glasses } from "./Glasses";

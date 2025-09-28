@@ -1,0 +1,101 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+interface EyeClosedProps extends IconProps {
+  type?: "solid" | "stroke";
+}
+
+export const EyeClosed: IconComponent<EyeClosedProps> = React.forwardRef<
+  SVGSVGElement,
+  EyeClosedProps
+>(function EyeClosed(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    type = "stroke",
+    ...props
+  },
+  forwardedRef,
+) {
+  if (type === "solid") {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M13.9528 13.2862C14.7615 13.1065 15.5622 13.6161 15.7419 14.4248L16.4645 17.6748C16.6441 18.4835 16.1335 19.2842 15.3249 19.4639C14.5163 19.6433 13.7154 19.1338 13.5358 18.3252L12.8141 15.0752C12.6345 14.2665 13.1441 13.4658 13.9528 13.2862Z"
+          fill="currentColor"
+        />
+        <path
+          d="M20.5908 7.48534C20.8749 6.70735 21.7365 6.30687 22.5146 6.59081C23.2926 6.87493 23.6931 7.73653 23.4092 8.51464C22.5553 10.8542 21.0026 12.8751 18.9619 14.3027C16.9211 15.7304 14.4906 16.4961 12 16.4961C9.50941 16.4961 7.07888 15.7304 5.03809 14.3027C2.99736 12.8751 1.44465 10.8542 0.59082 8.51464C0.30688 7.73653 0.707365 6.87493 1.48535 6.59081C2.26346 6.30687 3.12505 6.70735 3.40918 7.48534C4.05206 9.24707 5.22118 10.7687 6.75781 11.8437C8.29453 12.9188 10.1246 13.4961 12 13.4961L12.3506 13.4892C14.1028 13.422 15.8014 12.8517 17.2422 11.8437C18.7788 10.7687 19.9479 9.24707 20.5908 7.48534Z"
+          fill="currentColor"
+        />
+        <path
+          d="M17.308 11.803C17.942 11.269 18.888 11.351 19.422 11.984L21.147 14.034C21.681 14.668 21.6 15.614 20.966 16.147 20.333 16.681 19.386 16.599 18.852 15.966L17.127 13.916C16.593 13.282 16.675 12.336 17.308 11.803ZM4.578 11.984C5.112 11.351 6.059 11.269 6.692 11.803 7.326 12.336 7.407 13.282 6.873 13.916L5.147 15.966C4.614 16.599 3.668 16.681 3.034 16.147 2.4 15.614 2.319 14.668 2.853 14.034L4.578 11.984ZM8.258 14.425C8.437 13.616 9.238 13.107 10.047 13.286 10.856 13.466 11.366 14.267 11.187 15.075L10.464 18.325C10.284 19.134 9.484 19.644 8.675 19.464 7.866 19.284 7.356 18.484 7.536 17.675L8.258 14.425Z"
+          fill="currentColor"
+        />
+      </svg>
+    );
+  }
+
+  if (type === "stroke") {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M15 18 14.278 14.75M2 8C2.748 10.051 4.109 11.822 5.898 13.073 7.687 14.325 9.817 14.996 12 14.996 14.183 14.996 16.313 14.325 18.102 13.073 19.891 11.822 21.252 10.051 22 8M20 15 18.274 12.95M4 15 5.726 12.95M9 18 9.722 14.75"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    );
+  }
+
+  console.error(`EyeClosed doesn't support ${type}`);
+  return null;
+});
+
+EyeClosed.displayName = "EyeClosed";
+
+EyeClosed.metadata = {
+  name: "EyeClosed",
+  category: "solid/accessibility",
+  tags: ["eye", "closed", "icon"],
+  description: "EyeClosed icon from solid/accessibility category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default EyeClosed;

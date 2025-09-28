@@ -14,50 +14,146 @@
       "subcategory": "accessibility",
       "size": "16"
     },
-    "ArrowLeft": {
-      "name": "ArrowLeft",
-      "path": "src/stroke/arrows/ArrowLeft.tsx",
+    "Accessibility": {
+      "name": "Accessibility",
+      "path": "src/stroke/accessibility/Accessibility.tsx",
       "category": "stroke",
-      "subcategory": "arrows",
+      "subcategory": "accessibility",
       "size": "16"
     },
-    "ArrowUpp": {
-      "name": "ArrowUpp",
-      "path": "src/stroke/arrows/ArrowUpp.tsx",
+    "Baby": {
+      "name": "Baby",
+      "path": "src/stroke/accessibility/Baby.tsx",
       "category": "stroke",
-      "subcategory": "arrows",
+      "subcategory": "accessibility",
       "size": "16"
     },
-    "ArrowRight": {
-      "name": "ArrowRight",
-      "path": "src/stroke/arrows/ArrowRight.tsx",
+    "BadgeInfo": {
+      "name": "BadgeInfo",
+      "path": "src/stroke/accessibility/BadgeInfo.tsx",
       "category": "stroke",
-      "subcategory": "arrows",
+      "subcategory": "accessibility",
       "size": "16"
     },
-    "ArrowUp": {
-      "name": "ArrowUp",
-      "path": "src/stroke/arrows/ArrowUp.tsx",
+    "BadgeQuestionMark": {
+      "name": "BadgeQuestionMark",
+      "path": "src/stroke/accessibility/BadgeQuestionMark.tsx",
       "category": "stroke",
-      "subcategory": "arrows",
+      "subcategory": "accessibility",
       "size": "16"
     },
-    "ArrowDown": {
-      "name": "ArrowDown",
-      "path": "src/stroke/arrows/ArrowDown.tsx",
+    "CircleQuestionMark": {
+      "name": "CircleQuestionMark",
+      "path": "src/stroke/accessibility/CircleQuestionMark.tsx",
       "category": "stroke",
-      "subcategory": "arrows",
+      "subcategory": "accessibility",
+      "size": "16"
+    },
+    "ClosedCaption": {
+      "name": "ClosedCaption",
+      "path": "src/stroke/accessibility/ClosedCaption.tsx",
+      "category": "stroke",
+      "subcategory": "accessibility",
+      "size": "16"
+    },
+    "Contrast": {
+      "name": "Contrast",
+      "path": "src/stroke/accessibility/Contrast.tsx",
+      "category": "stroke",
+      "subcategory": "accessibility",
+      "size": "16"
+    },
+    "EarOff": {
+      "name": "EarOff",
+      "path": "src/stroke/accessibility/EarOff.tsx",
+      "category": "stroke",
+      "subcategory": "accessibility",
+      "size": "16"
+    },
+    "Ear": {
+      "name": "Ear",
+      "path": "src/stroke/accessibility/Ear.tsx",
+      "category": "stroke",
+      "subcategory": "accessibility",
+      "size": "16"
+    },
+    "Eclipse": {
+      "name": "Eclipse",
+      "path": "src/stroke/accessibility/Eclipse.tsx",
+      "category": "stroke",
+      "subcategory": "accessibility",
+      "size": "16"
+    },
+    "EyeClosed": {
+      "name": "EyeClosed",
+      "path": "src/stroke/accessibility/EyeClosed.tsx",
+      "category": "stroke",
+      "subcategory": "accessibility",
+      "size": "16"
+    },
+    "EyeOff": {
+      "name": "EyeOff",
+      "path": "src/stroke/accessibility/EyeOff.tsx",
+      "category": "stroke",
+      "subcategory": "accessibility",
+      "size": "16"
+    },
+    "Eye": {
+      "name": "Eye",
+      "path": "src/stroke/accessibility/Eye.tsx",
+      "category": "stroke",
+      "subcategory": "accessibility",
+      "size": "16"
+    },
+    "Glasses": {
+      "name": "Glasses",
+      "path": "src/stroke/accessibility/Glasses.tsx",
+      "category": "stroke",
+      "subcategory": "accessibility",
       "size": "16"
     }
   },
   "categories": {
     "solid": {
-      "accessibility": ["Moon", "Sun"]
+      "accessibility": [
+        "Moon",
+        "Sun",
+        "Accessibility",
+        "Baby",
+        "BadgeInfo",
+        "BadgeQuestionMark",
+        "CircleQuestionMark",
+        "ClosedCaption",
+        "Contrast",
+        "EarOff",
+        "Ear",
+        "Eclipse",
+        "EyeClosed",
+        "EyeOff",
+        "Eye",
+        "Glasses"
+      ]
     },
     "stroke": {
-      "arrows": ["ArrowLeft", "ArrowUpp", "ArrowRight", "ArrowUp", "ArrowDown"],
-      "accessibility": ["Moon", "Sun"]
+      "accessibility": [
+        "Moon",
+        "Sun",
+        "Accessibility",
+        "Baby",
+        "BadgeInfo",
+        "BadgeQuestionMark",
+        "CircleQuestionMark",
+        "ClosedCaption",
+        "Contrast",
+        "EarOff",
+        "Ear",
+        "Eclipse",
+        "EyeClosed",
+        "EyeOff",
+        "Eye",
+        "Glasses"
+      ]
     }
   },
-  "total": 7
+  "total": 16
 }
