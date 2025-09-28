@@ -14,7 +14,7 @@ import { useIsMobile } from "@/src/hooks/use-mobile";
 import { cn } from "@/src/lib/utils";
 import { Button } from "@/registry/default/ui/button";
 import { ArrowLeft, Expand, Loader2, X } from "lucide-react";
-import { GitHub } from "@aliimam/logos";
+import { Github } from "@aliimam/logos";
 
 interface CardProps {
   card: {
@@ -63,7 +63,7 @@ export default function Card({ card }: CardProps) {
                     className="inline-flex items-center gap-1 text-sm hover:underline"
                     target="_blank"
                   >
-                    <GitHub />
+                    <Github />
                   </Link>
                 </div>
               ) : (
