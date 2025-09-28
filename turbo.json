@@ -17,5 +17,9 @@
       "cache": false,
       "persistent": true
     }
-  }
+  },
+  "globalEnv": [
+    "NEXT_PUBLIC_APP_URL",
+    "AUTH_SECRET"
+  ]
 }

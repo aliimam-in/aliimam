@@ -7,8 +7,7 @@ import { Pricing } from "@/src/components/home/pricing";
 import { Services } from "@/src/components/home/services";
 import { Stats } from "@/src/components/home/stats";
 import { Tools } from "@/src/components/home/tools";
-import { Works } from "@/src/components/home/works";
-import { Save } from "@aliimam/icons";
+import { Works } from "@/src/components/home/works"; 
 
 export default function Home() {
   return (
