@@ -113,7 +113,7 @@ export default function About() {
               : "text-gray-600 hover:text-gray-900"
           }`}
         >
-          Wordmarks
+          Wordmark
         </button>
       </div>
 
