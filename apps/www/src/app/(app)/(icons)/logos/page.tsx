@@ -1,4 +1,5 @@
 "use client";
+import { TabsNav } from "@/src/components/icons/tabs-nav";
 import * as Icons from "@aliimam/logos";
 import React from "react";
 
@@ -18,8 +19,8 @@ export default function About() {
     }));
 
   return (
-    <div className="h-full p-40 flex flex-col justify-center items-center pt-60">
-      
+    <div className="h-full p-40 flex flex-col justify-center items-center pt-40">
+      <TabsNav/>
       <div className="flex flex-wrap justify-center gap-20">
         {iconComponents.length > 0 ? (
           iconComponents.map(({ name, Component }) => (
