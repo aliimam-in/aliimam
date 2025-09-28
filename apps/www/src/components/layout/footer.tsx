@@ -1,11 +1,11 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 
 import Link from "next/link";
 
 import { ThemeSwitch } from "./mode-toggle";
 import { Heart } from "lucide-react"; 
-import { Separator } from "@/registry/default/ui/separator";
-import Image from "next/image";
+import { Separator } from "@/registry/default/ui/separator"; 
 import { LinkedIn, X, Instagram } from "../logos";
 
 const navigation = {
@@ -51,7 +51,7 @@ export function Footer() {
     <footer className="">
       <div className="relative container mt-20 grid items-center justify-center">
         <Link href="/">
-          <Image
+          <img
             src="/ai-logo.png"
             alt="logo"
             height={80}

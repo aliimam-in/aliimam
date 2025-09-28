@@ -1,10 +1,10 @@
 import * as React from "react";
 import type { IconProps, IconMetadata, IconComponent } from "../../types";
 
-export const XAiGrok: IconComponent = React.forwardRef<
+export const XAIGrok: IconComponent = React.forwardRef<
   SVGSVGElement,
   IconProps
->(function XAiGrok(
+>(function XAIGrok(
   {
     color = "currentColor",
     fill,
@@ -43,14 +43,14 @@ export const XAiGrok: IconComponent = React.forwardRef<
   );
 });
 
-XAiGrok.displayName = "XAiGrok";
+XAIGrok.displayName = "XAIGrok";
 
-XAiGrok.metadata = {
-  name: "XAiGrok",
+XAIGrok.metadata = {
+  name: "XAIGrok",
   category: "icon/ai",
-  tags: ["xai", "grok", "icon"],
-  description: "XAiGrok icon from icon/ai category",
+  tags: ["xa", "grok", "icon"],
+  description: "XAIGrok icon from icon/ai category",
   type: ["stroke", "icon"],
 } as IconMetadata;
 
-export default XAiGrok;
+export default XAIGrok;

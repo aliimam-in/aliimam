@@ -9,9 +9,9 @@
   "files": [
     {
       "path": "registry/default/blocks/logos/logos-01/page.tsx",
-      "content": "\"use client\";\n\nimport {\n  ClaudeAi,\n  Cursor,\n  DeepSeek,\n  Gemini,\n  GitHub,\n  Google,\n  Grok,\n  Replicate,\n} from \"@aliimam/logos\";\n\nexport default function Page() {\n  return (\n    <div className=\"flex min-h-screen w-full flex-col items-center justify-center p-6 md:p-10\">\n      <h1 className=\"mb-10 px-6 text-center text-lg font-medium\">\n        Trusted by the world’s most creative companies.\n      </h1>\n      <div className=\"mx-auto max-w-5xl px-6\">\n        <div className=\"flex flex-wrap h-full w-full items-center justify-center gap-x-20 gap-y-12\">\n          <ClaudeAi type=\"wordmark\" size={200} height={30} />\n          <Replicate type=\"wordmark\" size={200} height={30} />\n          <Cursor type=\"wordmark\" size={200} height={25} />\n          <GitHub type=\"wordmark\" size={200} height={30} />\n          <Grok type=\"wordmark\" size={200} height={40} />\n          <Google type=\"wordmark\" size={200} height={40} />\n        </div>\n      </div>\n    </div>\n  );\n}\n",
-      "type": "registry:page",
-      "target": "app/logos-01/page.tsx"
+      "content": "\"use client\";\n\nimport {\n  ClaudeAI,\n  Cursor, \n  Github,\n  Google,\n  Grok,\n  Replicate,\n} from \"@aliimam/logos\";\n\nexport default function Logos01() {\n  return (\n    <div className=\"flex min-h-screen w-full flex-col items-center justify-center p-6 md:p-10\">\n      <h1 className=\"mb-10 px-6 text-center text-lg font-medium\">\n        Trusted by the world’s most creative companies.\n      </h1>\n      <div className=\"mx-auto max-w-5xl px-6\">\n        <div className=\"flex flex-wrap h-full w-full items-center justify-center gap-x-20 gap-y-12\">\n          <ClaudeAI type=\"wordmark\" size={200} height={30} />\n          <Replicate type=\"wordmark\" size={200} height={30} />\n          <Cursor type=\"wordmark\" size={200} height={25} />\n          <Github type=\"wordmark\" size={200} height={30} />\n          <Grok type=\"wordmark\" size={200} height={40} />\n          <Google type=\"wordmark\" size={200} height={40} />\n        </div>\n      </div>\n    </div>\n  );\n}\n",
+      "type": "registry:component",
+      "target": "components/logos-01.tsx"
     }
   ],
   "meta": {

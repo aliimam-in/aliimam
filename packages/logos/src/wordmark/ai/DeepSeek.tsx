@@ -97,7 +97,7 @@ DeepSeek.displayName = "DeepSeek";
 DeepSeek.metadata = {
   name: "DeepSeek",
   category: "wordmark/ai",
-  tags: ["deepseek", "icon"],
+  tags: ["deep", "seek", "icon"],
   description: "DeepSeek icon from wordmark/ai category",
   type: ["stroke", "icon"],
 } as IconMetadata;

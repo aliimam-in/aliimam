@@ -1,14 +1,14 @@
 import * as React from "react";
 import type { IconProps, IconMetadata, IconComponent } from "../../types";
 
-interface OpenAiProps extends IconProps {
+interface OpenAIProps extends IconProps {
   type?: "wordmark" | "icon";
 }
 
-export const OpenAi: IconComponent<OpenAiProps> = React.forwardRef<
+export const OpenAI: IconComponent<OpenAIProps> = React.forwardRef<
   SVGSVGElement,
-  OpenAiProps
->(function OpenAi(
+  OpenAIProps
+>(function OpenAI(
   {
     color = "currentColor",
     fill,
@@ -74,18 +74,18 @@ export const OpenAi: IconComponent<OpenAiProps> = React.forwardRef<
     );
   }
 
-  console.error(`OpenAi doesn't support ${type}`);
+  console.error(`OpenAI doesn't support ${type}`);
   return null;
 });
 
-OpenAi.displayName = "OpenAi";
+OpenAI.displayName = "OpenAI";
 
-OpenAi.metadata = {
-  name: "OpenAi",
+OpenAI.metadata = {
+  name: "OpenAI",
   category: "wordmark/ai",
-  tags: ["openai", "icon"],
-  description: "OpenAi icon from wordmark/ai category",
+  tags: ["open", "icon"],
+  description: "OpenAI icon from wordmark/ai category",
   type: ["stroke", "icon"],
 } as IconMetadata;
 
-export default OpenAi;
+export default OpenAI;

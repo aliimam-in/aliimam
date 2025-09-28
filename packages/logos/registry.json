@@ -1,5 +1,12 @@
 {
   "components": {
+    "India": {
+      "name": "India",
+      "path": "src/flags/flags/India.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
     "Cursor": {
       "name": "Cursor",
       "path": "src/icon/software/Cursor.tsx",
@@ -7,16 +14,16 @@
       "subcategory": "software",
       "size": "16"
     },
-    "GitHub": {
-      "name": "GitHub",
-      "path": "src/wordmark/software/GitHub.tsx",
-      "category": "wordmark",
+    "Github": {
+      "name": "Github",
+      "path": "src/icon/software/Github.tsx",
+      "category": "icon",
       "subcategory": "software",
       "size": "16"
     },
-    "OpenAi": {
-      "name": "OpenAi",
-      "path": "src/icon/ai/OpenAi.tsx",
+    "OpenAI": {
+      "name": "OpenAI",
+      "path": "src/icon/ai/OpenAI.tsx",
       "category": "icon",
       "subcategory": "ai",
       "size": "16"
@@ -49,9 +56,9 @@
       "subcategory": "ai",
       "size": "16"
     },
-    "ClaudeAi": {
-      "name": "ClaudeAi",
-      "path": "src/icon/ai/ClaudeAi.tsx",
+    "ClaudeAI": {
+      "name": "ClaudeAI",
+      "path": "src/icon/ai/ClaudeAI.tsx",
       "category": "icon",
       "subcategory": "ai",
       "size": "16"
@@ -91,13 +98,6 @@
       "subcategory": "design",
       "size": "16"
     },
-    "Github": {
-      "name": "Github",
-      "path": "src/icon/software/Github.tsx",
-      "category": "icon",
-      "subcategory": "software",
-      "size": "16"
-    },
     "Lovable": {
       "name": "Lovable",
       "path": "src/icon/ai/Lovable.tsx",
@@ -105,9 +105,9 @@
       "subcategory": "ai",
       "size": "16"
     },
-    "XAiGrok": {
-      "name": "XAiGrok",
-      "path": "src/icon/ai/XAiGrok.tsx",
+    "XAIGrok": {
+      "name": "XAIGrok",
+      "path": "src/icon/ai/XAIGrok.tsx",
       "category": "icon",
       "subcategory": "ai",
       "size": "16"
@@ -135,15 +135,18 @@
     }
   },
   "categories": {
+    "flags": {
+      "flags": ["India"]
+    },
     "wordmark": {
-      "software": ["Cursor", "GitHub"],
+      "software": ["Cursor", "Github"],
       "ai": [
-        "OpenAi",
+        "OpenAI",
         "Grok",
         "Google",
         "Gemini",
         "DeepSeek",
-        "ClaudeAi",
+        "ClaudeAI",
         "Replicate"
       ]
     },
@@ -152,13 +155,13 @@
       "software": ["Figma", "Photoshop", "Cursor", "Github"],
       "design": ["Figma", "Photoshop"],
       "ai": [
-        "OpenAi",
+        "OpenAI",
         "Grok",
         "Lovable",
-        "XAiGrok",
+        "XAIGrok",
         "Gemini",
         "DeepSeek",
-        "ClaudeAi",
+        "ClaudeAI",
         "Hume",
         "HuggingFace",
         "Replicate",

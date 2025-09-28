@@ -1,14 +1,14 @@
 import * as React from "react";
 import type { IconProps, IconMetadata, IconComponent } from "../../types";
 
-interface ClaudeAiProps extends IconProps {
+interface ClaudeAIProps extends IconProps {
   type?: "wordmark" | "icon";
 }
 
-export const ClaudeAi: IconComponent<ClaudeAiProps> = React.forwardRef<
+export const ClaudeAI: IconComponent<ClaudeAIProps> = React.forwardRef<
   SVGSVGElement,
-  ClaudeAiProps
->(function ClaudeAi(
+  ClaudeAIProps
+>(function ClaudeAI(
   {
     color = "currentColor",
     fill,
@@ -92,18 +92,18 @@ export const ClaudeAi: IconComponent<ClaudeAiProps> = React.forwardRef<
     );
   }
 
-  console.error(`ClaudeAi doesn't support ${type}`);
+  console.error(`ClaudeAI doesn't support ${type}`);
   return null;
 });
 
-ClaudeAi.displayName = "ClaudeAi";
+ClaudeAI.displayName = "ClaudeAI";
 
-ClaudeAi.metadata = {
-  name: "ClaudeAi",
+ClaudeAI.metadata = {
+  name: "ClaudeAI",
   category: "wordmark/ai",
-  tags: ["claude", "ai", "icon"],
-  description: "ClaudeAi icon from wordmark/ai category",
+  tags: ["claude", "icon"],
+  description: "ClaudeAI icon from wordmark/ai category",
   type: ["stroke", "icon"],
 } as IconMetadata;
 
-export default ClaudeAi;
+export default ClaudeAI;

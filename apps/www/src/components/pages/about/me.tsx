@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 import React from "react";
 import { ImageZoom } from "@/src/components/ui/image-zoom";
@@ -19,7 +20,7 @@ export function AboutMe() {
             <Plus className="text-brand absolute -right-2 -top-2" />
             <Plus className="text-brand absolute -bottom-2 -right-2" />
             <ImageZoom>
-              <Image
+              <img
                 src="/ai.jpg"
                 alt="Your Image"
                 height={700}

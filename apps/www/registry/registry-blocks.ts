@@ -92,8 +92,8 @@ export const blocks: Registry["items"] = [
     files: [
       {
         path: "blocks/logos/logos-01/page.tsx",
-        target: "app/logos-01/page.tsx",
-        type: "registry:page",
+        target: "components/logos-01.tsx",
+        type: "registry:component",
       },
     ],
     categories: ["client", "logos"],

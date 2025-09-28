@@ -1,14 +1,14 @@
 import * as React from "react";
 import type { IconProps, IconMetadata, IconComponent } from "../../types";
 
-interface GitHubProps extends IconProps {
+interface GithubProps extends IconProps {
   type?: "wordmark" | "icon";
 }
 
-export const GitHub: IconComponent<GitHubProps> = React.forwardRef<
+export const Github: IconComponent<GithubProps> = React.forwardRef<
   SVGSVGElement,
-  GitHubProps
->(function GitHub(
+  GithubProps
+>(function Github(
   {
     color = "currentColor",
     fill,
@@ -90,18 +90,18 @@ export const GitHub: IconComponent<GitHubProps> = React.forwardRef<
     );
   }
 
-  console.error(`GitHub doesn't support ${type}`);
+  console.error(`Github doesn't support ${type}`);
   return null;
 });
 
-GitHub.displayName = "GitHub";
+Github.displayName = "Github";
 
-GitHub.metadata = {
-  name: "GitHub",
+Github.metadata = {
+  name: "Github",
   category: "wordmark/software",
   tags: ["github", "icon"],
-  description: "GitHub icon from wordmark/software category",
+  description: "Github icon from wordmark/software category",
   type: ["stroke", "icon"],
 } as IconMetadata;
 
-export default GitHub;
+export default Github;

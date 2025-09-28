@@ -1,9 +1,7 @@
-import { SidebarProvider } from "@/registry/default/ui/sidebar";
-import { BlockSidebar } from "@/src/components/docs/blocks/block-sidebar";
+ 
 import { BlocksNav } from "@/src/components/docs/blocks/blocks-nav";
 import {
-  BlockThemeSelector,
-  DocThemeSelector,
+  BlockThemeSelector, 
 } from "@/src/components/docs/theme-selector";
 
 export default function DocsLayout({

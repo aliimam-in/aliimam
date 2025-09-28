@@ -1100,8 +1100,8 @@ export const Index: Record<string, any> = {
     registryDependencies: undefined,
     files: [{
       path: "registry/default/blocks/logos/logos-01/page.tsx",
-      type: "registry:page",
-      target: "app/logos-01/page.tsx"
+      type: "registry:component",
+      target: "components/logos-01.tsx"
     }],
     component: React.lazy(async () => {
       const mod = await import("@/registry/default/blocks/logos/logos-01/page.tsx")
