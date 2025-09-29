@@ -12,7 +12,7 @@ export function BlocksNav() {
   return (
     <div className="relative px-6 overflow-hidden">
       <ScrollArea className="max-w-none">
-        <div className="flex gap-2 items-center">
+        <div className="flex whitespace-nowrap gap-2 items-center">
           <BlocksNavLink
             category={{ name: "Featured", slug: "", hidden: false }}
             isActive={pathname === "/blocks"}

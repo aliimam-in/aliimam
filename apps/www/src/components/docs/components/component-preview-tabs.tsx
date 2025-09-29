@@ -77,7 +77,7 @@ export function ComponentPreviewTabs({
           <div
             data-align={align}
             className={cn(
-              "preview theme-container flex h-[500px] w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start"
+              "preview flex h-[500px] theme-container w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start"
             )}
           >
             <div className="absolute top-2 right-2">

@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 
 import { useState } from "react";
@@ -20,6 +21,7 @@ interface CardProps {
   card: {
     id: number;
     title: string;
+    src: string;
     demoUrl?: string;
     repoUrl?: string;
     cmd?: string;
@@ -47,7 +49,7 @@ export default function Card({ card }: CardProps) {
               <div>
                 <img
                   className="w-full cursor-pointer rounded-md"
-                  src={`/templates/template-0${card.id}.jpg`}
+                  src={card.src}
                   alt={card.title}
                   width={800}
                   height={card.imgHeight}

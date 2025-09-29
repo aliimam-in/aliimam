@@ -4,15 +4,15 @@
 import Link from "next/link";
 
 import { ThemeSwitch } from "./mode-toggle";
-import { Heart } from "lucide-react"; 
-import { Separator } from "@/registry/default/ui/separator"; 
+import { Heart } from "lucide-react";
+import { Separator } from "@/registry/default/ui/separator";
 import { LinkedIn, X, Instagram } from "../logos";
 
 const navigation = {
   categories: [
     {
       id: "menus",
-      name: "Menus", 
+      name: "Menus",
       sections: [
         {
           id: "about",
@@ -40,7 +40,7 @@ const navigation = {
             { name: "Terms", href: "/docs/legal/terms" },
             { name: "Contact", href: "/docs/legal/privacy" },
           ],
-        },  
+        },
       ],
     },
   ],
@@ -49,24 +49,13 @@ const navigation = {
 export function Footer() {
   return (
     <footer className="">
-      <div className="relative container mt-20 grid items-center justify-center">
-        <Link href="/">
-          <img
-            src="/ai-logo.png"
-            alt="logo"
-            height={80}
-            width={80}
-            className="h-40 z-10 w-full object-contain"
-          />
-        </Link>
-        <p className="text-center text-muted-foreground text-xs px-6">
-          I create digital experiences that connect and inspire. I build apps, websites, brands, and products end-to-end.
-        </p>
-      </div>
       <Separator className="my-10" />
       <div>
         {navigation.categories.map((category) => (
-          <div key={category.name} className="grid text-center grid-cols-3 gap-6">
+          <div
+            key={category.name}
+            className="grid text-center grid-cols-3 gap-6"
+          >
             {category.sections.map((section) => (
               <div key={section.name}>
                 <ul

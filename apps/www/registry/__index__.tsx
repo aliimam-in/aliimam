@@ -1192,6 +1192,24 @@ export const Index: Record<string, any> = {
     categories: ["connect","about"],
     meta: {"iframeHeight":"800px"},
   },
+  "chat-01": {
+    name: "chat-01",
+    description: "A simple chat section.",
+    type: "registry:block",
+    registryDependencies: undefined,
+    files: [{
+      path: "registry/default/blocks/chat/chat-01/page.tsx",
+      type: "registry:component",
+      target: "components/chat-01.tsx"
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/blocks/chat/chat-01/page.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: ["chat","connect"],
+    meta: {"iframeHeight":"800px"},
+  },
   "utils": {
     name: "utils",
     description: "",

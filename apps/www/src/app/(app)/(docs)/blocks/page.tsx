@@ -1,9 +1,9 @@
- import { BlockDisplay } from "@/src/components/docs/blocks/block-display";
+import { BlockDisplay } from "@/src/components/docs/blocks/block-display";
 
-const FEATURED_BLOCKS = [
+const FEATURED_BLOCKS = [ 
   "logos-01", 
   "login-01",
-  "logos-03",
+  "connect-01",
   "pricing-01",
   "call-to-action-02",
 ];

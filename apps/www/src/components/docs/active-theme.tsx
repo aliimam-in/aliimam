@@ -25,10 +25,21 @@ export function ActiveThemeProvider({
   children: ReactNode
   initialTheme?: string
 }) {
-  const [activeTheme, setActiveTheme] = useState<string>(
-    () => initialTheme || DEFAULT_THEME
-  )
-   const [config] = useConfig()
+  const [activeTheme, setActiveThemeState] = useState<string>(() => {
+    if (typeof window !== 'undefined') {
+      return localStorage.getItem('activeTheme') || initialTheme || DEFAULT_THEME
+    }
+    return initialTheme || DEFAULT_THEME
+  })
+  
+  const [config] = useConfig()
+
+  const setActiveTheme = (theme: string) => {
+    setActiveThemeState(theme)
+    if (typeof window !== 'undefined') {
+      localStorage.setItem('activeTheme', theme)
+    }
+  }
 
   useEffect(() => {
     Array.from(document.body.classList)
@@ -40,10 +51,18 @@ export function ActiveThemeProvider({
     if (activeTheme.endsWith("-scaled")) {
       document.body.classList.add("theme-scaled")
     }
+    
+    localStorage.setItem('activeTheme', activeTheme)
   }, [activeTheme])
 
   useEffect(() => {
-    document.body.style.setProperty("--radius", `${config.radius}rem`)
+    // Apply radius only to theme-container elements, not globally
+    const themeContainers = document.querySelectorAll('.theme-container')
+    themeContainers.forEach((container) => {
+      if (container instanceof HTMLElement) {
+        container.style.setProperty("--radius", `${config.radius}rem`)
+      }
+    })
   }, [config.radius])
 
   return (

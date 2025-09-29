@@ -2,7 +2,8 @@ import * as React from "react"
 import { Metadata } from "next"
 import { notFound } from "next/navigation"
 import { registryItemSchema } from "shadcn/registry"
-import { z } from "zod"
+import { z } from "zod" 
+import "@/src/styles/globals.css"
 
 import { siteConfig } from "@/src/lib/config"
 import { getRegistryComponent, getRegistryItem } from "@/src/lib/registry"
@@ -95,7 +96,7 @@ export default async function BlockPage({
 
   return (
     <>
-      <div className={cn("bg-background", item.meta?.container)}>
+      <div className={cn("bg-background theme-container", item.meta?.container)}>
         <Component />
       </div>
     </>

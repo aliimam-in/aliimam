@@ -993,6 +993,25 @@
       ]
     },
     {
+      "name": "chat-01",
+      "type": "registry:block",
+      "description": "A simple chat section.",
+      "files": [
+        {
+          "path": "registry/default/blocks/chat/chat-01/page.tsx",
+          "type": "registry:component",
+          "target": "components/chat-01.tsx"
+        }
+      ],
+      "meta": {
+        "iframeHeight": "800px"
+      },
+      "categories": [
+        "chat",
+        "connect"
+      ]
+    },
+    {
       "name": "utils",
       "type": "registry:lib",
       "dependencies": [

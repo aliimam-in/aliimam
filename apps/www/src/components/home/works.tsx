@@ -2,6 +2,7 @@
 import { Button } from "@/registry/default/ui/button";
 import { Carousel } from "../ui/carousel";
 import Link from "next/link";
+import { ImageZoom } from "../ui/image-zoom";
 
 export function Works() {
   return (
@@ -13,10 +14,12 @@ export function Works() {
             className="border h-full w-full relative overflow-hidden rounded-md bg-card text-card-foreground"
           >
             <div className="w-full h-full overflow-hidden">
+              <ImageZoom>
               <img
                 src="/works/social-media-posts.jpg" 
                 className="object-cover h-full w-full"
               />
+              </ImageZoom>
             </div>
           </div>,
           <div
@@ -24,10 +27,12 @@ export function Works() {
             className="border h-full w-full relative overflow-hidden rounded-md bg-card text-card-foreground"
           >
             <div className="w-full h-full overflow-hidden">
+               <ImageZoom>
               <img
                 src="/works/dalim.jpg" 
                 className="object-cover h-full w-full"
               />
+              </ImageZoom>
             </div>
           </div>,
           <div
@@ -35,10 +40,12 @@ export function Works() {
             className="border h-full w-full relative overflow-hidden rounded-md bg-card text-card-foreground"
           >
             <div className="w-full h-full overflow-hidden">
+               <ImageZoom>
               <img
                 src="/works/website-designs.jpg" 
                 className="object-cover h-full w-full"
               />
+              </ImageZoom>
             </div>
           </div>, 
         ]}

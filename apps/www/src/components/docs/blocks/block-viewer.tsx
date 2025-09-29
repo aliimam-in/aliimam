@@ -218,15 +218,116 @@ function BlockViewerToolbar() {
 
 function BlockViewerIframe({ className }: { className?: string }) {
   const { item, iframeKey } = useBlockViewer()
+  const iframeRef = React.useRef<HTMLIFrameElement>(null)
+
+  React.useEffect(() => {
+    const iframe = iframeRef.current
+    if (!iframe) return
+
+    // Function to extract and send theme + CSS variables
+    const sendTheme = () => {
+      if (iframe.contentWindow) {
+        const root = document.documentElement
+        const body = document.body
+        const computedStyle = getComputedStyle(root)
+        
+        // Get theme classes from body (theme-default, theme-blue, etc.)
+        const themeClasses = Array.from(body.classList)
+          .filter(cls => cls.startsWith('theme-'))
+        
+        // Get data-theme attribute if it exists
+        const dataTheme = root.getAttribute('data-theme') || body.getAttribute('data-theme')
+        
+        // Extract all CSS custom properties (variables)
+        const cssVariables: Record<string, string> = {}
+        
+        // Get all CSS variables from :root
+        for (let i = 0; i < computedStyle.length; i++) {
+          const prop = computedStyle[i]
+          if (prop && prop.startsWith('--')) {
+            cssVariables[prop] = computedStyle.getPropertyValue(prop)
+          }
+        }
+
+        // Also check theme-container element if it exists
+        const themeContainer = document.querySelector('.theme-container')
+        if (themeContainer) {
+          const containerStyle = getComputedStyle(themeContainer)
+          for (let i = 0; i < containerStyle.length; i++) {
+            const prop = containerStyle[i]
+            if (prop && prop.startsWith('--')) {
+              cssVariables[prop] = containerStyle.getPropertyValue(prop)
+            }
+          }
+        }
+        
+        iframe.contentWindow.postMessage(
+          { 
+            type: 'theme-sync', 
+            themeClasses,
+            dataTheme,
+            cssVariables 
+          },
+          '*'
+        )
+      }
+    }
+
+    // Send theme when iframe loads
+    const handleLoad = () => {
+      setTimeout(sendTheme, 100)
+    }
+
+    iframe.addEventListener('load', handleLoad)
+
+    // Watch for theme changes on both html and body
+    const rootObserver = new MutationObserver(sendTheme)
+    rootObserver.observe(document.documentElement, {
+      attributes: true,
+      attributeFilter: ['data-theme', 'class', 'style']
+    })
+
+    const bodyObserver = new MutationObserver(sendTheme)
+    bodyObserver.observe(document.body, {
+      attributes: true,
+      attributeFilter: ['data-theme', 'class', 'style']
+    })
+
+    // Watch for style changes
+    const styleObserver = new MutationObserver(sendTheme)
+    if (document.head) {
+      styleObserver.observe(document.head, {
+        childList: true,
+        subtree: true
+      })
+    }
+
+    // Listen for theme requests from iframe
+    const handleMessage = (event: MessageEvent) => {
+      if (event.data.type === 'request-theme') {
+        sendTheme()
+      }
+    }
+    window.addEventListener('message', handleMessage)
+
+    return () => {
+      iframe.removeEventListener('load', handleLoad)
+      rootObserver.disconnect()
+      bodyObserver.disconnect()
+      styleObserver.disconnect()
+      window.removeEventListener('message', handleMessage)
+    }
+  }, [iframeKey])
 
   return (
     <iframe
+      ref={iframeRef}
       key={iframeKey}
       src={`/view/${item.name}`}
       height={item.meta?.iframeHeight ?? 930}
       loading="lazy"
       className={cn(
-          "relative z-10 w-full h-full bg-transparent",
+        "relative z-10 w-full h-full bg-transparent",
         className
       )}
     />
@@ -246,7 +347,7 @@ function BlockViewerView() {
         >
           <ResizablePanel
             ref={resizablePanelRef}
-            className="relative bg-transparent aspect-[4/2.5] overflow-hidden rounded-lg border md:aspect-auto md:rounded-xl"
+            className="relative bg-transparent  theme-container  aspect-[4/2.5] overflow-hidden rounded-lg border md:aspect-auto md:rounded-xl"
             defaultSize={100}
             minSize={30}
           >

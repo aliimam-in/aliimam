@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "@/src/styles/globals.css";
+import "@/src/styles/themes.css";
 import { Geist } from "next/font/google";
 
 import { Provider } from "@/src/components/common/provider";
@@ -70,20 +71,29 @@ export default function RootLayout({
         <script
           dangerouslySetInnerHTML={{
             __html: `
-              try {
-                if (localStorage.theme === 'dark' || ((!('theme' in localStorage) || localStorage.theme === 'system') && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-                  document.querySelector('meta[name="theme-color"]').setAttribute('content', '${META_THEME_COLORS.dark}')
-                }
-                if (localStorage.layout) {
-                  document.documentElement.classList.add('layout-' + localStorage.layout)
-                }
-              } catch (_) {}
-            `,
+        try {
+          if (localStorage.theme === 'dark' || ((!('theme' in localStorage) || localStorage.theme === 'system') && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.querySelector('meta[name="theme-color"]').setAttribute('content', '${META_THEME_COLORS.dark}')
+          }
+          if (localStorage.layout) {
+            document.documentElement.classList.add('layout-' + localStorage.layout)
+          }
+          // Add theme initialization
+          const storedConfig = localStorage.getItem('config');
+          if (storedConfig) {
+            const config = JSON.parse(storedConfig);
+            if (config.radius !== undefined) {
+              document.documentElement.style.setProperty('--radius', config.radius + 'rem');
+            }
+          }
+        } catch (_) {}
+      `,
           }}
         />
         <meta name="theme-color" content={META_THEME_COLORS.light} />
-      </head>
+      </head> 
       <body
+        suppressHydrationWarning
         className={cn(
           "text-foreground bg-background group/body overscroll-none antialiased [--footer-height:calc(var(--spacing)*14)] [--header-height:calc(var(--spacing)*14)] xl:[--footer-height:calc(var(--spacing)*24)]",
           fontSans

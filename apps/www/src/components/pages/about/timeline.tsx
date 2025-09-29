@@ -1,6 +1,5 @@
 import {
-  Card,
-  CardContent,
+  Card, 
   CardDescription,
   CardHeader,
   CardTitle,
@@ -39,8 +38,7 @@ const timelineData: TimelineItem[] = [
     period: "Feb 2024 - Present",
     description:
       "Designing innovative visuals and UI/UX solutions for a leading tech company.",
-    type: "current",
-    isPresent: true,
+    type: "past", 
   },
   {
     id: "3",

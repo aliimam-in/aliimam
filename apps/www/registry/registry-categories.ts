@@ -2,7 +2,7 @@ export const registryCategories = [
   {
     name: "Hero",
     slug: "hero",
-    hidden: false,
+    hidden: true,
   },
   {
     name: "Logos",
@@ -17,17 +17,17 @@ export const registryCategories = [
   {
     name: "Pricing",
     slug: "pricing",
-    hidden: false,
+    hidden: true,
   },
   {
     name: "Call to Action",
     slug: "call-to-action",
-    hidden: false,
+    hidden: true,
   },
   {
     name: "Stats",
     slug: "stats",
-    hidden: false,
+    hidden: true,
   },
   {
     name: "Login",

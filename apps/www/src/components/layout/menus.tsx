@@ -111,7 +111,7 @@ export function Menus() {
             asChild
             className={cn(navigationMenuTriggerStyle(), "bg-transparent")}
           >
-            <Link href="/docs/ui">Components</Link>
+            <Link href="/docs/ui/accordion">Components</Link>
           </NavigationMenuLink>
         </NavigationMenuItem>
       </NavigationMenuList>

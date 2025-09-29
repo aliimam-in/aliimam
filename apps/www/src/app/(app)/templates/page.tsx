@@ -6,21 +6,33 @@ export const dynamicParams = false;
 
 const cards = [
   {
-    id: 1,
-    title: "Simple Portfolio",
+    id: 0,
+    title: "Portfolio",
+    src: "/templates/portfolio.jpg",
     subheading:
       "Beautifully designed open-source templates and UI components built with Dalim UI and shadcn/ui.",
-    demoUrl: "https://template-01-ui.dalim.in",
-    repoUrl: "https://github.com/dalim-in/templates/tree/main/apps/template-01",
+    demoUrl: "https://portfolio.aliimam.in",
+    repoUrl: "https://github.com/aliimam-in/templates/tree/main/apps/portfolio",
+    imgHeight: 900,
+  },
+  {
+    id: 1,
+    title: "Design Agency",
+    src: "/templates/template-02.jpg",
+    subheading:
+      "Beautifully designed open-source templates and UI components built with Dalim UI and shadcn/ui.",
+    demoUrl: "https://template-02.aliimam.in",
+    repoUrl: "https://github.com/aliimam-in/templates/tree/main/apps/template-02",
     imgHeight: 900,
   },
   {
     id: 2,
-    title: "Design Agency",
+    title: "Simple Portfolio",
+    src: "/templates/template-01.jpg",
     subheading:
       "Beautifully designed open-source templates and UI components built with Dalim UI and shadcn/ui.",
-    demoUrl: "https://template-02-ui.dalim.in",
-    repoUrl: "https://github.com/dalim-in/templates/tree/main/apps/template-02",
+    demoUrl: "https://template-01.aliimam.in",
+    repoUrl: "https://github.com/aliimam-in/templates/tree/main/apps/template-01",
     imgHeight: 900,
   },
 ];

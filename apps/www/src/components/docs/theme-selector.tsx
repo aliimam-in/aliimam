@@ -15,8 +15,7 @@ import {
   SelectSeparator,
   SelectTrigger,
   SelectValue,
-} from "@/registry/default/ui/select";
-import { Separator } from "@/registry/default/ui/separator";
+} from "@/registry/default/ui/select"; 
 import { Slider } from "@/registry/default/ui/slider";
 
 import { ThemeCustomizer } from "./theme-customizer";
@@ -258,7 +257,7 @@ export function BlockThemeSelector({}: React.ComponentProps<"div">) {
   }
 
   return (
-    <div className="flex px-6 items-end justify-center gap-3">
+    <div className="hidden lg:flex px-6 items-end justify-center gap-3">
       {mounted && (
         <div className="flex flex-col items-center gap-3">
           <div className="text-muted-foreground flex justify-between gap-2 text-xs">
