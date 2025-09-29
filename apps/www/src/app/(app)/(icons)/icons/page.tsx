@@ -1,69 +1,64 @@
 "use client";
-import { TabsNav } from "@/src/components/icons/tabs-nav";
-import * as Icons from "@aliimam/icons";
 import React, { useState } from "react";
 import {
   Tooltip,
   TooltipContent,
   TooltipTrigger,
 } from "@/registry/default/ui/tooltip";
+import { TabsContent } from "@/registry/default/ui/tabs";
+import { useIcons } from "@/src/components/icons/icon-context";
+import { IconPreviewPanel } from "@/src/components/icons/icon-preview";
 
 export default function About() {
-  const [activeTab, setActiveTab] = useState<"stroke" | "solid">("stroke");
+  const { searchQuery, activeCategory, iconComponents } = useIcons();
+  const [selectedIcon, setSelectedIcon] = useState<{
+    name: string;
+    Component: React.ComponentType<React.SVGProps<SVGSVGElement>>;
+    type: string;
+  } | null>(null);
 
-  // Get all named exports from the icons module
-  const iconComponents = Object.keys(Icons)
-    .filter((key) => {
-      const value = Icons[key as keyof typeof Icons];
-      return typeof value === "function" || typeof value === "object";
-    })
-    .map((key) => ({
-      name: key,
-      Component: Icons[key as keyof typeof Icons] as React.ComponentType<
-        React.SVGProps<SVGSVGElement>
-      >,
-    }));
-
-  // Test if a component supports solid type
-  const supportssolid = (
+  const supportsType = (
     Component: React.ComponentType<any>,
-    name: string
+    name: string,
+    type: string
   ): boolean => {
     try {
-      // Try to create the component with solid type
       const TestComponent = Component as any;
-
-      // Check if the component has solid in its source code or metadata
       const componentString = TestComponent.toString();
-      const hassolidInCode =
-        componentString.includes("solid") ||
-        componentString.includes('type === "solid"');
+      const hasTypeInCode =
+        componentString.includes(type) ||
+        componentString.includes(`type === "${type}"`);
 
-      // Also check metadata for solid support
       const metadata = TestComponent.metadata;
-      const hassolidInMetadata =
+      const hasTypeInMetadata =
         metadata &&
-        (metadata.name?.toLowerCase().includes("solid") ||
-          metadata.category?.toLowerCase().includes("solid") ||
+        (metadata.name?.toLowerCase().includes(type) ||
+          metadata.category?.toLowerCase().includes(type) ||
           (metadata.type &&
             (Array.isArray(metadata.type)
-              ? metadata.type.includes("solid")
-              : metadata.type === "solid")));
+              ? metadata.type.includes(type)
+              : metadata.type === type)));
 
-      return hassolidInCode || hassolidInMetadata;
+      return hasTypeInCode || hasTypeInMetadata;
     } catch (error) {
       return false;
     }
   };
 
-  // Filter icons based on the active tab
-  const getFilteredIconsByCategory = (type: "stroke" | "solid") => {
+  const getFilteredIconsByCategory = (
+    type: "stroke" | "solid" | "duotone" | "twotone" | "bulk"
+  ) => {
     let filteredComponents = iconComponents;
 
-    if (type === "solid") {
-      // Only show icons that support solid
+    if (type !== "stroke") {
       filteredComponents = iconComponents.filter(({ name, Component }) =>
-        supportssolid(Component, name)
+        supportsType(Component, name, type)
+      );
+    }
+
+    if (searchQuery) {
+      filteredComponents = filteredComponents.filter(({ name }) =>
+        name.toLowerCase().includes(searchQuery.toLowerCase())
       );
     }
 
@@ -71,6 +66,11 @@ export default function About() {
       (acc, { name, Component }) => {
         const category =
           (Component as any).metadata?.category || "Uncategorized";
+
+        if (activeCategory !== "all" && category !== activeCategory) {
+          return acc;
+        }
+
         if (!acc[category]) {
           acc[category] = [];
         }
@@ -87,78 +87,98 @@ export default function About() {
     );
   };
 
-  const iconsByCategory = getFilteredIconsByCategory(activeTab);
+  const getSizeClasses = (
+    type: "stroke" | "solid" | "duotone" | "twotone" | "bulk"
+  ) => {
+    switch (type) {
+      case "solid":
+        return "h-10 w-10";
+      case "duotone":
+        return "h-12 w-16";
+      case "twotone":
+        return "h-16 w-16";
+      default:
+        return "h-10 w-10";
+    }
+  };
 
-  return (
-    <div className="h-full px-6 flex flex-col justify-center items-center pt-40">
-      <TabsNav />
+  const renderIcons = (
+    type: "stroke" | "solid" | "duotone" | "twotone" | "bulk"
+  ) => {
+    const iconsByCategory = getFilteredIconsByCategory(type);
+    const sizeClasses = getSizeClasses(type);
 
-      {/* Tab Navigation */}
-      <div className="mb-8 flex bg-gray-100 rounded-lg p-1">
-        <button
-          onClick={() => setActiveTab("stroke")}
-          className={`px-6 py-2 rounded-md font-medium transition-colors ${
-            activeTab === "stroke"
-              ? "bg-white text-gray-900 shadow-sm"
-              : "text-gray-600 hover:text-gray-900"
-          }`}
-        >
-          Icons
-        </button>
-        <button
-          onClick={() => setActiveTab("solid")}
-          className={`px-6 py-2 rounded-md font-medium transition-colors ${
-            activeTab === "solid"
-              ? "bg-white text-gray-900 shadow-sm"
-              : "text-gray-600 hover:text-gray-900"
-          }`}
-        >
-          solids
-        </button>
-      </div>
-
-      {/* Tab Content */}
-      <div key={activeTab} className="w-full max-w-5xl">
-        {Object.keys(iconsByCategory).length > 0 ? (
-          Object.entries(iconsByCategory)
-            .sort() // Sort categories alphabetically
-            .map(([category, icons]) => (
-              <div
-                key={`${category}-${activeTab}`}
-                className="mb-6 rounded-xl p-6 border"
-              >
-                <h2 className="text-sm text-muted-foreground mb-6">
-                  {category}
-                </h2>
-
-                <div className="flex flex-wrap justify-center gap-12">
-                  {icons.map(({ name, Component }) => (
-                    <>
-                      <Tooltip>
+    return (
+      <div className="flex relative items-stretch xl:w-full">
+        <div className="flex min-w-0 flex-1 border rounded-md p-6 flex-col">
+          {Object.keys(iconsByCategory).length > 0 ? (
+            Object.entries(iconsByCategory)
+              .sort()
+              .map(([category, icons]) => (
+                <div key={`${category}-${type}`} className="mb-2">
+                  <div className="flex flex-wrap gap-2">
+                    {icons.map(({ name, Component }) => (
+                      <Tooltip key={`${name}-${type}`}>
                         <TooltipTrigger asChild>
                           <div
-                            key={`${name}-${activeTab}`}
-                            className="flex flex-col items-center"
+                            className={`flex flex-col cursor-pointer hover:ring-2 ring-ring/20 bg-muted/50 dark:bg-muted/30 p-8 rounded-3xl items-center transition-all ${
+                              selectedIcon?.name === name &&
+                              selectedIcon?.type === type
+                                ? "ring-2 ring-primary"
+                                : ""
+                            }`}
+                            onClick={() =>
+                              setSelectedIcon({ name, Component, type })
+                            }
                           >
-                            <Component
-                              type={activeTab === "solid" ? "solid" : "stroke"}
-                              className="h-10 w-10"
-                            />
+                            <Component type={type} className={sizeClasses} />
                           </div>
                         </TooltipTrigger>
-                        <TooltipContent>
+                        <TooltipContent side="bottom">
                           <p className="text-xs">{name}</p>
                         </TooltipContent>
                       </Tooltip>
-                    </>
-                  ))}
+                    ))}
+                  </div>
                 </div>
-              </div>
-            ))
-        ) : (
-          <p>No {activeTab}s found in @aliimam/logos</p>
-        )}
+              ))
+          ) : (
+            <p className="text-muted-foreground">
+              No {type} found {searchQuery && `matching "${searchQuery}"`}
+            </p>
+          )}
+        </div>
+        <div className="sticky w-60 -mr-2 top-45 z-30 ml-auto hidden h-[calc(100svh-var(--footer-height)+2rem)] flex-col gap-3 overflow-hidden overscroll-none pb-8 xl:flex">
+          <IconPreviewPanel
+            selectedIcon={selectedIcon}
+            onClearSelection={() => setSelectedIcon(null)}
+          />
+        </div>
       </div>
+    );
+  };
+
+  return (
+    <div className="h-full flex flex-col items-center">
+      <TabsContent value="stroke" className="mt-0 w-full flex justify-center">
+        {renderIcons("stroke")}
+      </TabsContent>
+
+      <TabsContent value="solid" className="mt-0 w-full flex justify-center">
+        {renderIcons("solid")}
+      </TabsContent>
+
+      <TabsContent value="duotone" className="mt-0 w-full flex justify-center">
+        {renderIcons("duotone")}
+      </TabsContent>
+
+      <TabsContent value="twotone" className="mt-0 w-full flex justify-center">
+        {renderIcons("twotone")}
+      </TabsContent>
+
+       <TabsContent value="bulk" className="mt-0 w-full flex justify-center">
+        {renderIcons("bulk")}
+      </TabsContent>
     </div>
   );
 }

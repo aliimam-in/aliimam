@@ -13,7 +13,7 @@ export default function DocsLayout({
     <div className="pt-20">
        
       <div
-        className="flex py-3 items-center justify-between border-y"
+        className="flex bg-background py-3 items-center justify-between border-y"
         id="blocks"
       >
         <BlocksNav />

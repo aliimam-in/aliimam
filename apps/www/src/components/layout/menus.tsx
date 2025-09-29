@@ -103,6 +103,14 @@ export function Menus() {
             asChild
             className={cn(navigationMenuTriggerStyle(), "bg-transparent")}
           >
+            <Link href="/icons">Icons</Link>
+          </NavigationMenuLink>
+        </NavigationMenuItem>
+        <NavigationMenuItem>
+          <NavigationMenuLink
+            asChild
+            className={cn(navigationMenuTriggerStyle(), "bg-transparent")}
+          >
             <Link href="/docs/ui">Components</Link>
           </NavigationMenuLink>
         </NavigationMenuItem>

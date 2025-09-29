@@ -101,4 +101,21 @@ export const blocks: Registry["items"] = [
       iframeHeight: "600px",
     },
   },
+  {
+    name: "connect-01",
+    description: "A simple connect section.",
+    type: "registry:block",
+    dependencies: ["@aliimam/logos"],
+    files: [
+      {
+        path: "blocks/connect/connect-01/page.tsx",
+        target: "components/connect-01.tsx",
+        type: "registry:component",
+      },
+    ],
+    categories: ["connect", "about"],
+    meta: {
+      iframeHeight: "800px",
+    },
+  },
 ];

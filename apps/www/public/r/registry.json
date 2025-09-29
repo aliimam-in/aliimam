@@ -971,6 +971,28 @@
       ]
     },
     {
+      "name": "connect-01",
+      "type": "registry:block",
+      "description": "A simple connect section.",
+      "dependencies": [
+        "@aliimam/logos"
+      ],
+      "files": [
+        {
+          "path": "registry/default/blocks/connect/connect-01/page.tsx",
+          "type": "registry:component",
+          "target": "components/connect-01.tsx"
+        }
+      ],
+      "meta": {
+        "iframeHeight": "800px"
+      },
+      "categories": [
+        "connect",
+        "about"
+      ]
+    },
+    {
       "name": "utils",
       "type": "registry:lib",
       "dependencies": [

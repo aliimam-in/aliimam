@@ -10,6 +10,11 @@ export const registryCategories = [
     hidden: false,
   },
   {
+    name: "Connect",
+    slug: "connect",
+    hidden: false,
+  },
+  {
     name: "Pricing",
     slug: "pricing",
     hidden: false,
@@ -35,3 +40,23 @@ export const registryCategories = [
     hidden: false,
   },
 ]
+
+
+export const iconCategories = [ 
+  {
+    name: "Logos",
+    slug: "logos",
+    hidden: false,
+  }, 
+  {
+    name: "Flags",
+    slug: "flags",
+    hidden: true,
+  }, 
+  {
+    name: "Stickers",
+    slug: "stickers",
+    hidden: true,
+  }, 
+]
+ 

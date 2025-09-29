@@ -8,6 +8,7 @@
     "build": "next build",
     "shadcn:build": "npx shadcn build registry.json --output ../www/public/r",
     "build:registry": "npx tsx ./scripts/build-registry.mts",
+    "registry:capture": "tsx --tsconfig ./tsconfig.scripts.json ./scripts/capture-registry.mts",
     "start": "next start",
     "postinstall": "fumadocs-mdx",
     "lint": "next lint --max-warnings 0",

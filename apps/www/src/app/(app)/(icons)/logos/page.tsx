@@ -1,69 +1,64 @@
 "use client";
-import { TabsNav } from "@/src/components/icons/tabs-nav";
-import * as Icons from "@aliimam/logos";
 import React, { useState } from "react";
 import {
   Tooltip,
   TooltipContent,
   TooltipTrigger,
 } from "@/registry/default/ui/tooltip";
+import { TabsContent } from "@/registry/default/ui/tabs";
+import { useLogos } from "@/src/components/icons/logo-context";
+import { LogoPreviewPanel } from "@/src/components/icons/icon-preview";
 
 export default function About() {
-  const [activeTab, setActiveTab] = useState<"icon" | "wordmark">("icon");
+  const { searchQuery, activeCategory, iconComponents } = useLogos();
+  const [selectedIcon, setSelectedIcon] = useState<{
+    name: string;
+    Component: React.ComponentType<React.SVGProps<SVGSVGElement>>;
+    type: string;
+  } | null>(null);
 
-  // Get all named exports from the icons module
-  const iconComponents = Object.keys(Icons)
-    .filter((key) => {
-      const value = Icons[key as keyof typeof Icons];
-      return typeof value === "function" || typeof value === "object";
-    })
-    .map((key) => ({
-      name: key,
-      Component: Icons[key as keyof typeof Icons] as React.ComponentType<
-        React.SVGProps<SVGSVGElement>
-      >,
-    }));
-
-  // Test if a component supports wordmark type
-  const supportsWordmark = (
+  const supportsType = (
     Component: React.ComponentType<any>,
-    name: string
+    name: string,
+    type: string
   ): boolean => {
     try {
-      // Try to create the component with wordmark type
       const TestComponent = Component as any;
-
-      // Check if the component has wordmark in its source code or metadata
       const componentString = TestComponent.toString();
-      const hasWordmarkInCode =
-        componentString.includes("wordmark") ||
-        componentString.includes('type === "wordmark"');
+      const hasTypeInCode =
+        componentString.includes(type) ||
+        componentString.includes(`type === "${type}"`);
 
-      // Also check metadata for wordmark support
       const metadata = TestComponent.metadata;
-      const hasWordmarkInMetadata =
+      const hasTypeInMetadata =
         metadata &&
-        (metadata.name?.toLowerCase().includes("wordmark") ||
-          metadata.category?.toLowerCase().includes("wordmark") ||
+        (metadata.name?.toLowerCase().includes(type) ||
+          metadata.category?.toLowerCase().includes(type) ||
           (metadata.type &&
             (Array.isArray(metadata.type)
-              ? metadata.type.includes("wordmark")
-              : metadata.type === "wordmark")));
+              ? metadata.type.includes(type)
+              : metadata.type === type)));
 
-      return hasWordmarkInCode || hasWordmarkInMetadata;
+      return hasTypeInCode || hasTypeInMetadata;
     } catch (error) {
       return false;
     }
   };
 
-  // Filter icons based on the active tab
-  const getFilteredIconsByCategory = (type: "icon" | "wordmark") => {
+  const getFilteredIconsByCategory = (
+    type: "icon" | "wordmark" | "flags" | "stickers"
+  ) => {
     let filteredComponents = iconComponents;
 
-    if (type === "wordmark") {
-      // Only show icons that support wordmark
+    if (type !== "icon") {
       filteredComponents = iconComponents.filter(({ name, Component }) =>
-        supportsWordmark(Component, name)
+        supportsType(Component, name, type)
+      );
+    }
+
+    if (searchQuery) {
+      filteredComponents = filteredComponents.filter(({ name }) =>
+        name.toLowerCase().includes(searchQuery.toLowerCase())
       );
     }
 
@@ -71,6 +66,11 @@ export default function About() {
       (acc, { name, Component }) => {
         const category =
           (Component as any).metadata?.category || "Uncategorized";
+
+        if (activeCategory !== "all" && category !== activeCategory) {
+          return acc;
+        }
+
         if (!acc[category]) {
           acc[category] = [];
         }
@@ -87,83 +87,90 @@ export default function About() {
     );
   };
 
-  const iconsByCategory = getFilteredIconsByCategory(activeTab);
+  const getSizeClasses = (type: "icon" | "wordmark" | "flags" | "stickers") => {
+    switch (type) {
+      case "wordmark":
+        return "h-8 w-32";
+      case "flags":
+        return "h-12 w-16";
+      case "stickers":
+        return "h-16 w-16";
+      default:
+        return "h-10 w-10";
+    }
+  };
 
-  return (
-    <div className="h-full px-6 flex flex-col justify-center items-center pt-40">
-      <TabsNav />
+  const renderIcons = (type: "icon" | "wordmark" | "flags" | "stickers") => {
+    const iconsByCategory = getFilteredIconsByCategory(type);
+    const sizeClasses = getSizeClasses(type);
 
-      {/* Tab Navigation */}
-      <div className="mb-8 flex bg-gray-100 rounded-lg p-1">
-        <button
-          onClick={() => setActiveTab("icon")}
-          className={`px-6 py-2 rounded-md font-medium transition-colors ${
-            activeTab === "icon"
-              ? "bg-white text-gray-900 shadow-sm"
-              : "text-gray-600 hover:text-gray-900"
-          }`}
-        >
-          Icons
-        </button>
-        <button
-          onClick={() => setActiveTab("wordmark")}
-          className={`px-6 py-2 rounded-md font-medium transition-colors ${
-            activeTab === "wordmark"
-              ? "bg-white text-gray-900 shadow-sm"
-              : "text-gray-600 hover:text-gray-900"
-          }`}
-        >
-          Wordmark
-        </button>
-      </div>
-
-      {/* Tab Content */}
-      <div key={activeTab} className="w-full max-w-5xl">
-        {Object.keys(iconsByCategory).length > 0 ? (
-          Object.entries(iconsByCategory)
-            .sort() // Sort categories alphabetically
-            .map(([category, icons]) => (
-              <div
-                key={`${category}-${activeTab}`}
-                className="mb-6 rounded-xl p-6 border"
-              >
-                <h2 className="text-sm text-muted-foreground mb-6">
-                  {category}
-                </h2>
-                <div
-                  className={`flex flex-wrap justify-center ${activeTab === "wordmark" ? "gap-20" : "gap-10"}`}
-                >
-                  {icons.map(({ name, Component }) => (
-                    <>
-                      <Tooltip>
+    return (
+      <div className="flex relative items-stretch xl:w-full">
+        <div className="flex min-w-0 flex-1 border rounded-md p-6 flex-col">
+          {Object.keys(iconsByCategory).length > 0 ? (
+            Object.entries(iconsByCategory)
+              .sort()
+              .map(([category, icons]) => (
+                <div key={`${category}-${type}`} className="mb-2">
+                  <div className="flex flex-wrap gap-2">
+                    {icons.map(({ name, Component }) => (
+                      <Tooltip key={`${name}-${type}`}>
                         <TooltipTrigger asChild>
                           <div
-                            key={`${name}-${activeTab}`}
-                            className="flex flex-col items-center"
+                            className={`flex flex-col cursor-pointer hover:ring-2 ring-ring/20 bg-muted/50 dark:bg-muted/30 p-8 rounded-3xl items-center transition-all ${
+                              selectedIcon?.name === name &&
+                              selectedIcon?.type === type
+                                ? "ring-2 ring-primary"
+                                : ""
+                            }`}
+                           onClick={() =>
+                              setSelectedIcon({ name, Component, type })
+                            }
                           >
-                            <Component
-                              type={
-                                activeTab === "wordmark" ? "wordmark" : "icon"
-                              }
-                              className={
-                                activeTab === "icon" ? "h-12 w-12" : "h-10 w-30"
-                              }
-                            />
+                            <Component type={type} className={sizeClasses} />
                           </div>
                         </TooltipTrigger>
-                        <TooltipContent>
+                        <TooltipContent side="bottom">
                           <p className="text-xs">{name}</p>
                         </TooltipContent>
                       </Tooltip>
-                    </>
-                  ))}
+                    ))}
+                  </div>
                 </div>
-              </div>
-            ))
-        ) : (
-          <p>No {activeTab}s found in @aliimam/logos</p>
-        )}
+              ))
+          ) : (
+            <p className="text-muted-foreground">
+              No {type} found {searchQuery && `matching "${searchQuery}"`}
+            </p>
+          )}
+        </div>
+        <div className="sticky w-60 -mr-2 top-45 z-30 ml-auto hidden h-[calc(100svh-var(--footer-height)+2rem)] flex-col gap-3 overflow-hidden overscroll-none pb-8 xl:flex">
+          <LogoPreviewPanel
+            selectedIcon={selectedIcon}
+            onClearSelection={() => setSelectedIcon(null)}
+          />
+        </div>
       </div>
+    );
+  };
+
+  return (
+    <div className="h-full flex flex-col items-center">
+      <TabsContent value="icon" className="mt-0 w-full flex justify-center">
+        {renderIcons("icon")}
+      </TabsContent>
+
+      <TabsContent value="wordmark" className="mt-0 w-full flex justify-center">
+        {renderIcons("wordmark")}
+      </TabsContent>
+
+      <TabsContent value="flags" className="mt-0 w-full flex justify-center">
+        {renderIcons("flags")}
+      </TabsContent>
+
+      <TabsContent value="stickers" className="mt-0 w-full flex justify-center">
+        {renderIcons("stickers")}
+      </TabsContent>
     </div>
   );
 }

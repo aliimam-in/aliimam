@@ -1,10 +1,10 @@
 import { LinkedIn, X, Instagram, YouTube, Figma, Github, Threads, Pinterest } from "@aliimam/logos";
 import Link from "next/link";
 
-export function Connect() {
+export default function Connect01() {
   return (
-    <section className="container">
-      <div className="border-x space-y-6 border-b rounded-b-2xl px-6 py-20 md:px-20">
+    <section className="py-20 flex min-h-screen flex-col items-center justify-center">
+      <div className="space-y-6">
         <div className="relative z-10 space-y-3 text-center">
           <h2 className="text-3xl font-medium lg:text-5xl">Connect</h2>
           <p className="text-muted-foreground mx-auto max-w-3xl font-light text-sm md:text-md">
@@ -12,7 +12,7 @@ export function Connect() {
             social links in here
           </p>
         </div>
-        <div className="[mask-image:radial-gradient(ellipse_100%_100%_at_50%_0%,#000_70%,transparent_100%)]">
+        <div className="mx-auto max-w-4xl [mask-image:radial-gradient(ellipse_100%_100%_at_50%_0%,#000_70%,transparent_100%)]">
           <div className="bg-background gap-x-6 grid md:grid-cols-2 dark:bg-muted/50 rounded-xl border px-6 pb-10 pt-3 shadow-xl">
             <Integration
               icon={<X />}

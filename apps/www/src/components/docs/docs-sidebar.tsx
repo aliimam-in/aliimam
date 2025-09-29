@@ -34,9 +34,9 @@ export function DocsSidebar({
 
   return (
     <Sidebar
+      className="sticky ml-auto top-20 z-30 hidden h-[calc(100svh-var(--header-height))] bg-transparent lg:flex"
       collapsible="none"
       {...props}
-      className="top-20 z-30 hidden bg-transparent lg:flex sticky"
     >
       <SidebarContent className="no-scrollbar pt-3 px-2 pb-12">
         <Accordion
