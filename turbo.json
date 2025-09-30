@@ -20,6 +20,7 @@
   },
   "globalEnv": [
     "NEXT_PUBLIC_APP_URL",
-    "AUTH_SECRET"
+    "NEXT_PUBLIC_V0_URL",
+    "FIGMA_ACCESS_TOKEN"
   ]
 }
