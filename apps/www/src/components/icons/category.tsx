@@ -7,6 +7,8 @@ export function IconCategoryTabs() {
   const { activeCategory, setActiveCategory, allCategories } = useIcons();
 
   const getDisplayName = (category: string): string => {
+    if (category === "all") return "All Icons";
+    
     const parts = category.split("/");
     //@ts-ignore
     return parts.length > 1 ? parts[1] : category;
@@ -43,11 +45,23 @@ export function LogoCategoryTabs() {
   const { activeCategory, setActiveCategory, allCategories } = useLogos();
 
   const getDisplayName = (category: string): string => {
+    if (category === "all") return "All Logos";
+    
     const parts = category.split("/");
-
     //@ts-ignore
     return parts.length > 1 ? parts[1] : category;
   };
+
+  // Filter to show only flag-related categories
+  const flagCategories = allCategories.filter((category) => {
+    if (category === "all") return false; // Exclude "all" from the filtered list
+    const lowerCategory = category.toLowerCase();
+    return lowerCategory.includes("icon") || 
+           lowerCategory.includes("wordmark")
+  });
+
+  // Add "all" at the beginning for "All Flags" option
+  const categoriesToShow = ["all", ...flagCategories];
 
   return (
     <Sidebar
@@ -56,7 +70,106 @@ export function LogoCategoryTabs() {
     >
       <SidebarContent className="no-scrollbar pl-1 pb-12">
         <div className="grid gap-1 pl-1">
-          {allCategories.map((category) => (
+          {categoriesToShow.map((category) => (
+            <button
+              key={category}
+              onClick={() => setActiveCategory(category)}
+              className={`rounded-md text-sm cursor-pointer py-1.5 text-start px-4 ${
+                activeCategory === category
+                  ? "bg-primary text-primary-foreground"
+                  : "hover:bg-secondary"
+              }`}
+            >
+              {getDisplayName(category).charAt(0).toUpperCase() +
+                getDisplayName(category).slice(1)}
+            </button>
+          ))}
+        </div>
+      </SidebarContent>
+    </Sidebar>
+  );
+}
+
+export function FlagCategoryTabs() {
+  const { activeCategory, setActiveCategory, allCategories } = useLogos();
+
+  const getDisplayName = (category: string): string => {
+    if (category === "all") return "All Flags";
+    
+    const parts = category.split("/");
+    //@ts-ignore
+    return parts.length > 1 ? parts[1] : category;
+  };
+
+  // Filter to show only flag-related categories
+  const flagCategories = allCategories.filter((category) => {
+    if (category === "all") return false; // Exclude "all" from the filtered list
+    const lowerCategory = category.toLowerCase();
+    return lowerCategory.includes("flag") || 
+           lowerCategory.includes("country") ||
+           lowerCategory.includes("nation");
+  });
+
+  // Add "all" at the beginning for "All Flags" option
+  const categoriesToShow = ["all", ...flagCategories];
+
+  return (
+    <Sidebar
+      collapsible="none"
+      className="top-38 hidden md:block sticky bg-transparent h-full"
+    >
+      <SidebarContent className="no-scrollbar pl-1 pb-12">
+        <div className="grid gap-1 pl-1">
+          {categoriesToShow.map((category) => (
+            <button
+              key={category}
+              onClick={() => setActiveCategory(category)}
+              className={`rounded-md text-sm cursor-pointer py-1.5 text-start px-4 ${
+                activeCategory === category
+                  ? "bg-primary text-primary-foreground"
+                  : "hover:bg-secondary"
+              }`}
+            >
+              {getDisplayName(category).charAt(0).toUpperCase() +
+                getDisplayName(category).slice(1)}
+            </button>
+          ))}
+        </div>
+      </SidebarContent>
+    </Sidebar>
+  );
+}
+
+
+export function StickersCategoryTabs() {
+  const { activeCategory, setActiveCategory, allCategories } = useLogos();
+
+  const getDisplayName = (category: string): string => {
+    if (category === "all") return "All Stickers";
+    
+    const parts = category.split("/");
+    //@ts-ignore
+    return parts.length > 1 ? parts[1] : category;
+  };
+
+  // Filter to show only flag-related categories
+  const flagCategories = allCategories.filter((category) => {
+    if (category === "all") return false; // Exclude "all" from the filtered list
+    const lowerCategory = category.toLowerCase();
+    return lowerCategory.includes("stickers") 
+  });
+
+  // Add "all" at the beginning for "All Flags" option
+  const categoriesToShow = ["all", ...flagCategories];
+
+  return (
+    <Sidebar
+      collapsible="none"
+      className="top-38 hidden md:block sticky bg-transparent h-full"
+    >
+      <SidebarContent className="no-scrollbar pl-1 pb-12">
+        <div className="grid gap-1 pl-1">
+          {categoriesToShow.map((category) => (
             <button
               key={category}
               onClick={() => setActiveCategory(category)}

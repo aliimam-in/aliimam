@@ -1,3 +1,5 @@
+
+
 .theme-default .theme-container {
   --chart-1: var(--color-blue-300);
   --chart-2: var(--color-blue-500);
@@ -246,6 +248,42 @@
     --text-base: 0.85rem;
     --text-sm: 0.8rem;
     --spacing: 0.2rem;
+  }
+
+  [data-slot="select-trigger"],
+  [data-slot="toggle-group-item"] {
+    --spacing: 0.2rem;
+  }
+
+  [data-slot="card"] {
+    border-radius: var(--radius);
+    padding-block: calc(var(--spacing) * 4);
+    gap: calc(var(--spacing) * 2);
+  }
+
+  [data-slot="card"].pb-0 {
+    padding-bottom: 0;
+  }
+}
+
+.theme-rounded .theme-container {
+  --font-nunito: "Nunito", sans-serif;
+  --chart-1: var(--color-blue-300);
+  --chart-2: var(--color-blue-500);
+  --chart-3: var(--color-blue-600);
+  --chart-4: var(--color-blue-700);
+  --chart-5: var(--color-blue-800);
+
+  @media (min-width: 1024px) {
+   --font-nunito: "Nunito", sans-serif;
+  }
+
+  .rounded-xs,
+  .rounded-sm,
+  .rounded-md,
+  .rounded-lg,
+  .rounded-xl {
+    border-radius: 3rem;
   }
 
   [data-slot="select-trigger"],

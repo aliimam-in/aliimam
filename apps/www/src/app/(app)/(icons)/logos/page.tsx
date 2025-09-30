@@ -9,7 +9,7 @@ import { TabsContent } from "@/registry/default/ui/tabs";
 import { useLogos } from "@/src/components/icons/logo-context";
 import { LogoPreviewPanel } from "@/src/components/icons/icon-preview";
 
-export default function About() {
+export default function LogosPage() {
   const { searchQuery, activeCategory, iconComponents } = useLogos();
   const [selectedIcon, setSelectedIcon] = useState<{
     name: string;
@@ -45,13 +45,27 @@ export default function About() {
     }
   };
 
+  const isNotFlagOrSticker = (Component: React.ComponentType<any>, name: string): boolean => {
+    const metadata = (Component as any).metadata;
+    const category = metadata?.category?.toLowerCase() || "";
+    const lowerName = name.toLowerCase();
+    
+    // Exclude if it's a flag or sticker
+    return !category.includes("flag") && 
+           !category.includes("sticker") && 
+           !lowerName.includes("flag") &&
+           !lowerName.includes("sticker");
+  };
+
   const getFilteredIconsByCategory = (
-    type: "icon" | "wordmark" | "flags" | "stickers"
+    type: "icon" | "wordmark"
   ) => {
-    let filteredComponents = iconComponents;
+    let filteredComponents = iconComponents.filter(({ name, Component }) =>
+      isNotFlagOrSticker(Component, name)
+    );
 
     if (type !== "icon") {
-      filteredComponents = iconComponents.filter(({ name, Component }) =>
+      filteredComponents = filteredComponents.filter(({ name, Component }) =>
         supportsType(Component, name, type)
       );
     }
@@ -87,20 +101,16 @@ export default function About() {
     );
   };
 
-  const getSizeClasses = (type: "icon" | "wordmark" | "flags" | "stickers") => {
+  const getSizeClasses = (type: "icon" | "wordmark") => {
     switch (type) {
       case "wordmark":
         return "h-8 w-32";
-      case "flags":
-        return "h-12 w-16";
-      case "stickers":
-        return "h-16 w-16";
       default:
         return "h-10 w-10";
     }
   };
 
-  const renderIcons = (type: "icon" | "wordmark" | "flags" | "stickers") => {
+  const renderIcons = (type: "icon" | "wordmark") => {
     const iconsByCategory = getFilteredIconsByCategory(type);
     const sizeClasses = getSizeClasses(type);
 
@@ -123,7 +133,7 @@ export default function About() {
                                 ? "ring-2 ring-primary"
                                 : ""
                             }`}
-                           onClick={() =>
+                            onClick={() =>
                               setSelectedIcon({ name, Component, type })
                             }
                           >
@@ -162,14 +172,6 @@ export default function About() {
 
       <TabsContent value="wordmark" className="mt-0 w-full flex justify-center">
         {renderIcons("wordmark")}
-      </TabsContent>
-
-      <TabsContent value="flags" className="mt-0 w-full flex justify-center">
-        {renderIcons("flags")}
-      </TabsContent>
-
-      <TabsContent value="stickers" className="mt-0 w-full flex justify-center">
-        {renderIcons("stickers")}
       </TabsContent>
     </div>
   );

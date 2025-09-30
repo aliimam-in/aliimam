@@ -113,8 +113,7 @@ export interface LogoControlsProps {
 
 export function LogoControlsPanel({
   size,
-  color,
-
+  color, 
   onSizeChange,
   onColorChange,
 }: LogoControlsProps) {

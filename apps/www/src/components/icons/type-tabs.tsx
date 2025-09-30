@@ -33,14 +33,9 @@ export function LogosTypeTabs() {
         </TabsTrigger>
         <TabsTrigger className="px-4" value="wordmark">
           Wordmark
-        </TabsTrigger>
-        <TabsTrigger className="px-4" value="flags">
-          Flags
-        </TabsTrigger>
-        <TabsTrigger className="px-4" value="stickers">
-          Stickers
-        </TabsTrigger>
+        </TabsTrigger> 
       </TabsList>
     </div>
   );
 }
+ 

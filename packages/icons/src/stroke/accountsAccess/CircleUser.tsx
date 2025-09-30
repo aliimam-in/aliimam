@@ -1,0 +1,64 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const CircleUser: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function CircleUser(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <path
+        d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+        stroke={color}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M12 13C13.657 13 15 11.657 15 10 15 8.343 13.657 7 12 7 10.343 7 9 8.343 9 10 9 11.657 10.343 13 12 13ZM7 20.662V19C7 18.47 7.211 17.961 7.586 17.586 7.961 17.211 8.47 17 9 17H15C15.53 17 16.039 17.211 16.414 17.586 16.789 17.961 17 18.47 17 19V20.662"
+        stroke={color}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+});
+
+CircleUser.displayName = "CircleUser";
+
+CircleUser.metadata = {
+  name: "CircleUser",
+  category: "stroke/accountsAccess",
+  tags: ["circle", "user", "icon"],
+  description: "CircleUser icon from stroke/accountsAccess category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default CircleUser;

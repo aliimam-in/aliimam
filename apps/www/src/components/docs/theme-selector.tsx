@@ -32,7 +32,7 @@ const DEFAULT_THEMES = [
   {
     name: "Mono",
     value: "mono",
-  },
+  }
 ];
 
 const COLOR_THEMES = [

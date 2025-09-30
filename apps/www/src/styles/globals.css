@@ -1,4 +1,6 @@
-@import "tailwindcss";
+ 
+@import "tailwindcss"; 
+
 @import "tw-animate-css";
 
 @import "./themes.css";
@@ -56,7 +58,7 @@
 }
 
 :root {
-  --radius: 0.5rem;
+  --radius: 0.65rem;
   --background: oklch(1 0 0);
   --foreground: oklch(0.141 0.005 285.823);
   --card: oklch(1 0 0);

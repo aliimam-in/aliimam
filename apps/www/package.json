@@ -92,6 +92,7 @@
     "@aliimam/eslint-config": "workspace:*",
     "@aliimam/typescript-config": "workspace:*",
     "@tailwindcss/postcss": "^4.1.13",
+    "@tailwindcss/typography": "^0.5.16",
     "@types/lodash": "^4.17.20",
     "@types/matter-js": "^0.20.2",
     "@types/mdx": "^2.0.13",

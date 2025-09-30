@@ -51,12 +51,12 @@ export const iconCategories = [
   {
     name: "Flags",
     slug: "flags",
-    hidden: true,
+    hidden: false,
   }, 
   {
     name: "Stickers",
     slug: "stickers",
-    hidden: true,
+    hidden: false,
   }, 
 ]
  

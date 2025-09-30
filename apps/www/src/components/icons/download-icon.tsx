@@ -32,8 +32,7 @@ export function LogoDownloadPanel({
     const clonedIcon = iconElement.cloneNode(true) as SVGElement;
     clonedIcon.setAttribute("width", exportSize.toString());
     clonedIcon.setAttribute("height", exportSize.toString());
-    clonedIcon.style.color = color;
-    clonedIcon.style.stroke = color;
+    clonedIcon.style.color = color; 
 
     const serializer = new XMLSerializer();
     return serializer.serializeToString(clonedIcon);
@@ -49,7 +48,7 @@ export function LogoDownloadPanel({
       const url = URL.createObjectURL(blob);
       const link = document.createElement("a");
       link.href = url;
-      link.download = `${selectedIcon.name}-${selectedIcon.type}-${exportSize}px.svg`;
+      link.download = `${selectedIcon.name}-${exportSize}px.svg`;
       link.click();
       URL.revokeObjectURL(url);
     } else {
@@ -79,7 +78,7 @@ export function LogoDownloadPanel({
               const downloadUrl = URL.createObjectURL(blob);
               const link = document.createElement("a");
               link.href = downloadUrl;
-              link.download = `${selectedIcon.name}-${selectedIcon.type}-${exportSize}px.${format}`;
+              link.download = `${selectedIcon.name}-${exportSize}px.${format}`;
               link.click();
               URL.revokeObjectURL(downloadUrl);
             }
