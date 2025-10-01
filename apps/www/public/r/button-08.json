@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "button-08",
+  "type": "registry:example",
+  "title": "Button Demo",
+  "description": "Example showing a simple button.",
+  "registryDependencies": [
+    "@aliimam/button"
+  ],
+  "files": [
+    {
+      "path": "registry/default/example/button/button-08.tsx",
+      "content": "import { Button } from \"@/registry/default/ui/button\";\nimport { Moon, Sun } from \"@aliimam/icons\";\n\nexport default function ButtonDemo() {\n  return (\n    <div className=\"flex gap-3 items-center\">\n      <Button>Default</Button>\n      <Button size={'sm'} >sm</Button>\n      <Button size={'md'} >md</Button>\n      <Button size={'lg'} >lg</Button>\n      <Button size={'xl'} >xl</Button>\n      <Button size={'xxl'} >xxl</Button>\n      <Button size={'icon'} ><Moon/></Button>\n      <Button size={'iconxl'} ><Sun strokeWidth={2} className=\"w-6 size-full\"/></Button>\n    </div>\n  );\n}\n",
+      "type": "registry:example"
+    }
+  ]
+}

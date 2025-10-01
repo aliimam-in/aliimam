@@ -54,7 +54,14 @@ This file provides LLM-friendly entry points to documentation and examples.
 - [Accordion Demo](https://github.com/aliimam-in/blob/main/example/accordion/accordion-03.tsx): Example usage
 - [Accordion Demo](https://github.com/aliimam-in/blob/main/example/accordion/accordion-04.tsx): Example usage
 - [Accordion Demo](https://github.com/aliimam-in/blob/main/example/accordion/accordion-05.tsx): Example usage
-- [Button Demo](https://github.com/aliimam-in/blob/main/example/button-demo.tsx): Example usage
+- [Button Demo](https://github.com/aliimam-in/blob/main/example/button/button-01.tsx): Example usage
+- [Button Demo](https://github.com/aliimam-in/blob/main/example/button/button-02.tsx): Example usage
+- [Button Demo](https://github.com/aliimam-in/blob/main/example/button/button-03.tsx): Example usage
+- [Button Demo](https://github.com/aliimam-in/blob/main/example/button/button-04.tsx): Example usage
+- [Button Demo](https://github.com/aliimam-in/blob/main/example/button/button-05.tsx): Example usage
+- [Button Demo](https://github.com/aliimam-in/blob/main/example/button/button-06.tsx): Example usage
+- [Button Demo](https://github.com/aliimam-in/blob/main/example/button/button-07.tsx): Example usage
+- [Button Demo](https://github.com/aliimam-in/blob/main/example/button/button-08.tsx): Example usage
 - [typography-blockquote](https://github.com/aliimam-in/blob/main/example/typography/typography-blockquote.tsx): Example usage
 - [typography-demo](https://github.com/aliimam-in/blob/main/example/typography/typography-demo.tsx): Example usage
 - [typography-h1](https://github.com/aliimam-in/blob/main/example/typography/typography-h1.tsx): Example usage

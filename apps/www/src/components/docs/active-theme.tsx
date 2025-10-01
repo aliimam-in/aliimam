@@ -55,8 +55,7 @@ export function ActiveThemeProvider({
     localStorage.setItem('activeTheme', activeTheme)
   }, [activeTheme])
 
-  useEffect(() => {
-    // Apply radius only to theme-container elements, not globally
+  useEffect(() => { 
     const themeContainers = document.querySelectorAll('.theme-container')
     themeContainers.forEach((container) => {
       if (container instanceof HTMLElement) {

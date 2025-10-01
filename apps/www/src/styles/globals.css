@@ -1,5 +1,4 @@
- 
-@import "tailwindcss"; 
+@import "tailwindcss";
 
 @import "tw-animate-css";
 
@@ -55,10 +54,12 @@
   --color-selection-foreground: var(--selection-foreground);
   --animate-marquee: marquee var(--duration) infinite linear;
   --animate-marquee-vertical: marquee-vertical var(--duration) linear infinite;
+  --animate-shine: shine 6s linear infinite;
+  --animate-brightness: brightness 2.2s linear infinite;
 }
 
 :root {
-  --radius: 0.65rem;
+  --radius: 1rem;
   --background: oklch(1 0 0);
   --foreground: oklch(0.141 0.005 285.823);
   --card: oklch(1 0 0);
@@ -178,7 +179,7 @@
 @layer utilities {
   .container {
     @apply px-3 mx-auto max-w-screen-lg;
-  } 
+  }
 }
 
 @utility theme-container {
@@ -381,5 +382,23 @@
   }
   100% {
     transform: translate3d(100%, 0, 0);
+  }
+}
+
+@keyframes shine {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -400% 0;
+  }
+}
+
+@keyframes brightness {
+  0% {
+    transform: skew(-13deg) translateX(-100%);
+  }
+  100% {
+    transform: skew(-13deg) translateX(100%);
   }
 }

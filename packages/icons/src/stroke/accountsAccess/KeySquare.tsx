@@ -1,0 +1,58 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const KeySquare: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function KeySquare(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <path
+        d="M12.4 2.7C12.862 2.271 13.47 2.033 14.1 2.033 14.731 2.033 15.338 2.271 15.8 2.7L21.3 8.2C21.729 8.662 21.967 9.269 21.967 9.9 21.967 10.531 21.729 11.138 21.3 11.6L17.6 15.3C17.138 15.729 16.531 15.967 15.9 15.967 15.27 15.967 14.662 15.729 14.2 15.3L8.7 9.8C8.271 9.338 8.033 8.73 8.033 8.1 8.033 7.469 8.271 6.862 8.7 6.4L12.4 2.7ZM14 7 17 10M9.4 10.6 2.586 17.414C2.211 17.789 2 18.298 2 18.828V21C2 21.265 2.105 21.52 2.293 21.707 2.48 21.895 2.735 22 3 22H6C6.265 22 6.52 21.895 6.707 21.707 6.895 21.52 7 21.265 7 21V20C7 19.735 7.105 19.48 7.293 19.293 7.48 19.105 7.735 19 8 19H9C9.265 19 9.52 18.895 9.707 18.707 9.895 18.52 10 18.265 10 18V17C10 16.735 10.105 16.48 10.293 16.293 10.48 16.105 10.735 16 11 16H11.172C11.702 16 12.211 15.789 12.586 15.414L13.4 14.6"
+        stroke={color}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+});
+
+KeySquare.displayName = "KeySquare";
+
+KeySquare.metadata = {
+  name: "KeySquare",
+  category: "stroke/accountsAccess",
+  tags: ["key", "square", "icon"],
+  description: "KeySquare icon from stroke/accountsAccess category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default KeySquare;

@@ -72,15 +72,113 @@ export const examples: Registry["items"] = [
     ],
   },
   {
-    name: "button-demo",
+    name: "button-01",
     type: "registry:example",
     title: "Button Demo",
     description:
-      "Example showing a spotlight effect that follows your mouse cursor and highlights borders on hover.",
+      "Example showing a simple button.",
     registryDependencies: ["@aliimam/button"],
     files: [
       {
-        path: "example/button-demo.tsx",
+        path: "example/button/button-01.tsx",
+        type: "registry:example",
+      },
+    ],
+  }, 
+  {
+    name: "button-02",
+    type: "registry:example",
+    title: "Button Demo",
+    description:
+      "Example showing a simple button.",
+    registryDependencies: ["@aliimam/button"],
+    files: [
+      {
+        path: "example/button/button-02.tsx",
+        type: "registry:example",
+      },
+    ],
+  }, 
+  {
+    name: "button-03",
+    type: "registry:example",
+    title: "Button Demo",
+    description:
+      "Example showing a simple button.",
+    registryDependencies: ["@aliimam/button"],
+    files: [
+      {
+        path: "example/button/button-03.tsx",
+        type: "registry:example",
+      },
+    ],
+  }, 
+  {
+    name: "button-04",
+    type: "registry:example",
+    title: "Button Demo",
+    description:
+      "Example showing a simple button.",
+    registryDependencies: ["@aliimam/button"],
+    files: [
+      {
+        path: "example/button/button-04.tsx",
+        type: "registry:example",
+      },
+    ],
+  }, 
+  {
+    name: "button-05",
+    type: "registry:example",
+    title: "Button Demo",
+    description:
+      "Example showing a simple button.",
+    registryDependencies: ["@aliimam/button"],
+    files: [
+      {
+        path: "example/button/button-05.tsx",
+        type: "registry:example",
+      },
+    ],
+  }, 
+  {
+    name: "button-06",
+    type: "registry:example",
+    title: "Button Demo",
+    description:
+      "Example showing a simple button.",
+    registryDependencies: ["@aliimam/button"],
+    files: [
+      {
+        path: "example/button/button-06.tsx",
+        type: "registry:example",
+      },
+    ],
+  }, 
+  {
+    name: "button-07",
+    type: "registry:example",
+    title: "Button Demo",
+    description:
+      "Example showing a simple button.",
+    registryDependencies: ["@aliimam/button"],
+    files: [
+      {
+        path: "example/button/button-07.tsx",
+        type: "registry:example",
+      },
+    ],
+  }, 
+  {
+    name: "button-08",
+    type: "registry:example",
+    title: "Button Demo",
+    description:
+      "Example showing a simple button.",
+    registryDependencies: ["@aliimam/button"],
+    files: [
+      {
+        path: "example/button/button-08.tsx",
         type: "registry:example",
       },
     ],

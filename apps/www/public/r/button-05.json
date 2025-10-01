@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "button-05",
+  "type": "registry:example",
+  "title": "Button Demo",
+  "description": "Example showing a simple button.",
+  "registryDependencies": [
+    "@aliimam/button"
+  ],
+  "files": [
+    {
+      "path": "registry/default/example/button/button-05.tsx",
+      "content": "import { Button } from \"@/registry/default/ui/button\";\n\nexport default function ButtonDemo() {\n  return (\n    <div>\n      <Button size={'lg'} variant={\"shine\"}>Shine</Button>\n    </div>\n  );\n}\n",
+      "type": "registry:example"
+    }
+  ]
+}

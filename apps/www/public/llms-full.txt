@@ -78,7 +78,42 @@ Description: The button component.
 
 
 
-===== EXAMPLE: button-demo =====
+===== EXAMPLE: button-01 =====
+Title: Button Demo
+
+
+
+===== EXAMPLE: button-02 =====
+Title: Button Demo
+
+
+
+===== EXAMPLE: button-03 =====
+Title: Button Demo
+
+
+
+===== EXAMPLE: button-04 =====
+Title: Button Demo
+
+
+
+===== EXAMPLE: button-05 =====
+Title: Button Demo
+
+
+
+===== EXAMPLE: button-06 =====
+Title: Button Demo
+
+
+
+===== EXAMPLE: button-07 =====
+Title: Button Demo
+
+
+
+===== EXAMPLE: button-08 =====
 Title: Button Demo
 
 

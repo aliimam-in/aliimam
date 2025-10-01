@@ -168,6 +168,48 @@
       "subcategory": "accessibility",
       "size": "16"
     },
+    "SunDim": {
+      "name": "SunDim",
+      "path": "src/stroke/accessibility/SunDim.tsx",
+      "category": "stroke",
+      "subcategory": "accessibility",
+      "size": "16"
+    },
+    "SunMedium": {
+      "name": "SunMedium",
+      "path": "src/stroke/accessibility/SunMedium.tsx",
+      "category": "stroke",
+      "subcategory": "accessibility",
+      "size": "16"
+    },
+    "SunMoon": {
+      "name": "SunMoon",
+      "path": "src/stroke/accessibility/SunMoon.tsx",
+      "category": "stroke",
+      "subcategory": "accessibility",
+      "size": "16"
+    },
+    "Transgender": {
+      "name": "Transgender",
+      "path": "src/stroke/accessibility/Transgender.tsx",
+      "category": "stroke",
+      "subcategory": "accessibility",
+      "size": "16"
+    },
+    "ZoomIn": {
+      "name": "ZoomIn",
+      "path": "src/stroke/accessibility/ZoomIn.tsx",
+      "category": "stroke",
+      "subcategory": "accessibility",
+      "size": "16"
+    },
+    "ZoomOut": {
+      "name": "ZoomOut",
+      "path": "src/stroke/accessibility/ZoomOut.tsx",
+      "category": "stroke",
+      "subcategory": "accessibility",
+      "size": "16"
+    },
     "ArrowBigDown": {
       "name": "ArrowBigDown",
       "path": "src/stroke/arrows/ArrowBigDown.tsx",
@@ -560,46 +602,620 @@
       "subcategory": "accountsAccess",
       "size": "16"
     },
-    "SunDim": {
-      "name": "SunDim",
-      "path": "src/stroke/accessibility/SunDim.tsx",
+    "Key": {
+      "name": "Key",
+      "path": "src/stroke/accountsAccess/Key.tsx",
       "category": "stroke",
-      "subcategory": "accessibility",
+      "subcategory": "accountsAccess",
       "size": "16"
     },
-    "SunMedium": {
-      "name": "SunMedium",
-      "path": "src/stroke/accessibility/SunMedium.tsx",
+    "KeyRound": {
+      "name": "KeyRound",
+      "path": "src/stroke/accountsAccess/KeyRound.tsx",
       "category": "stroke",
-      "subcategory": "accessibility",
+      "subcategory": "accountsAccess",
       "size": "16"
     },
-    "SunMoon": {
-      "name": "SunMoon",
-      "path": "src/stroke/accessibility/SunMoon.tsx",
+    "KeySquare": {
+      "name": "KeySquare",
+      "path": "src/stroke/accountsAccess/KeySquare.tsx",
       "category": "stroke",
-      "subcategory": "accessibility",
+      "subcategory": "accountsAccess",
       "size": "16"
     },
-    "Transgender": {
-      "name": "Transgender",
-      "path": "src/stroke/accessibility/Transgender.tsx",
+    "Link": {
+      "name": "Link",
+      "path": "src/stroke/accountsAccess/Link.tsx",
       "category": "stroke",
-      "subcategory": "accessibility",
+      "subcategory": "accountsAccess",
       "size": "16"
     },
-    "ZoomIn": {
-      "name": "ZoomIn",
-      "path": "src/stroke/accessibility/ZoomIn.tsx",
+    "Link2": {
+      "name": "Link2",
+      "path": "src/stroke/accountsAccess/Link2.tsx",
       "category": "stroke",
-      "subcategory": "accessibility",
+      "subcategory": "accountsAccess",
       "size": "16"
     },
-    "ZoomOut": {
-      "name": "ZoomOut",
-      "path": "src/stroke/accessibility/ZoomOut.tsx",
+    "LogIn": {
+      "name": "LogIn",
+      "path": "src/stroke/accountsAccess/LogIn.tsx",
       "category": "stroke",
-      "subcategory": "accessibility",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "LogOut": {
+      "name": "LogOut",
+      "path": "src/stroke/accountsAccess/LogOut.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "Mail": {
+      "name": "Mail",
+      "path": "src/stroke/accountsAccess/Mail.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "MapPin": {
+      "name": "MapPin",
+      "path": "src/stroke/accountsAccess/MapPin.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "MapPinCheck": {
+      "name": "MapPinCheck",
+      "path": "src/stroke/accountsAccess/MapPinCheck.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "MapPinCheckInside": {
+      "name": "MapPinCheckInside",
+      "path": "src/stroke/accountsAccess/MapPinCheckInside.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "MapPinHouse": {
+      "name": "MapPinHouse",
+      "path": "src/stroke/accountsAccess/MapPinHouse.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "MapPinMinus": {
+      "name": "MapPinMinus",
+      "path": "src/stroke/accountsAccess/MapPinMinus.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "MapPinMinusInside": {
+      "name": "MapPinMinusInside",
+      "path": "src/stroke/accountsAccess/MapPinMinusInside.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "MapPinPen": {
+      "name": "MapPinPen",
+      "path": "src/stroke/accountsAccess/MapPinPen.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "MapPinPlus": {
+      "name": "MapPinPlus",
+      "path": "src/stroke/accountsAccess/MapPinPlus.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "MapPinPlusInside": {
+      "name": "MapPinPlusInside",
+      "path": "src/stroke/accountsAccess/MapPinPlusInside.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "MapPinX": {
+      "name": "MapPinX",
+      "path": "src/stroke/accountsAccess/MapPinX.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "MapPinXInside": {
+      "name": "MapPinXInside",
+      "path": "src/stroke/accountsAccess/MapPinXInside.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "MapPinned": {
+      "name": "MapPinned",
+      "path": "src/stroke/accountsAccess/MapPinned.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "Menu": {
+      "name": "Menu",
+      "path": "src/stroke/accountsAccess/Menu.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "MessageCircleX": {
+      "name": "MessageCircleX",
+      "path": "src/stroke/accountsAccess/MessageCircleX.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "NotebookTabs": {
+      "name": "NotebookTabs",
+      "path": "src/stroke/accountsAccess/NotebookTabs.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "Pin": {
+      "name": "Pin",
+      "path": "src/stroke/accountsAccess/Pin.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "RotateCcwKey": {
+      "name": "RotateCcwKey",
+      "path": "src/stroke/accountsAccess/RotateCcwKey.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "ScanFace": {
+      "name": "ScanFace",
+      "path": "src/stroke/accountsAccess/ScanFace.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "ScanQrCode": {
+      "name": "ScanQrCode",
+      "path": "src/stroke/accountsAccess/ScanQrCode.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "Settings": {
+      "name": "Settings",
+      "path": "src/stroke/accountsAccess/Settings.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "Settings2": {
+      "name": "Settings2",
+      "path": "src/stroke/accountsAccess/Settings2.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "Share": {
+      "name": "Share",
+      "path": "src/stroke/accountsAccess/Share.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "Share2": {
+      "name": "Share2",
+      "path": "src/stroke/accountsAccess/Share2.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "Shield": {
+      "name": "Shield",
+      "path": "src/stroke/accountsAccess/Shield.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "ShieldAlert": {
+      "name": "ShieldAlert",
+      "path": "src/stroke/accountsAccess/ShieldAlert.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "ShieldBan": {
+      "name": "ShieldBan",
+      "path": "src/stroke/accountsAccess/ShieldBan.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "ShieldCheck": {
+      "name": "ShieldCheck",
+      "path": "src/stroke/accountsAccess/ShieldCheck.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "ShieldEllipsis": {
+      "name": "ShieldEllipsis",
+      "path": "src/stroke/accountsAccess/ShieldEllipsis.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "ShieldHalf": {
+      "name": "ShieldHalf",
+      "path": "src/stroke/accountsAccess/ShieldHalf.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "ShieldMinus": {
+      "name": "ShieldMinus",
+      "path": "src/stroke/accountsAccess/ShieldMinus.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "ShieldOff": {
+      "name": "ShieldOff",
+      "path": "src/stroke/accountsAccess/ShieldOff.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "ShieldPlus": {
+      "name": "ShieldPlus",
+      "path": "src/stroke/accountsAccess/ShieldPlus.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "ShieldQuestionMark": {
+      "name": "ShieldQuestionMark",
+      "path": "src/stroke/accountsAccess/ShieldQuestionMark.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "ShieldUser": {
+      "name": "ShieldUser",
+      "path": "src/stroke/accountsAccess/ShieldUser.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "ShieldX": {
+      "name": "ShieldX",
+      "path": "src/stroke/accountsAccess/ShieldX.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "SlidersHorizontal": {
+      "name": "SlidersHorizontal",
+      "path": "src/stroke/accountsAccess/SlidersHorizontal.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "SlidersVertical": {
+      "name": "SlidersVertical",
+      "path": "src/stroke/accountsAccess/SlidersVertical.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "Smile": {
+      "name": "Smile",
+      "path": "src/stroke/accountsAccess/Smile.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "SquareUser": {
+      "name": "SquareUser",
+      "path": "src/stroke/accountsAccess/SquareUser.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "SquareUserRound": {
+      "name": "SquareUserRound",
+      "path": "src/stroke/accountsAccess/SquareUserRound.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "Star": {
+      "name": "Star",
+      "path": "src/stroke/accountsAccess/Star.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "Tag": {
+      "name": "Tag",
+      "path": "src/stroke/accountsAccess/Tag.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "Tags": {
+      "name": "Tags",
+      "path": "src/stroke/accountsAccess/Tags.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "ThumbsDown": {
+      "name": "ThumbsDown",
+      "path": "src/stroke/accountsAccess/ThumbsDown.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "ThumbsUp": {
+      "name": "ThumbsUp",
+      "path": "src/stroke/accountsAccess/ThumbsUp.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "Ticket": {
+      "name": "Ticket",
+      "path": "src/stroke/accountsAccess/Ticket.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "Tickets": {
+      "name": "Tickets",
+      "path": "src/stroke/accountsAccess/Tickets.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "ToggleLeft": {
+      "name": "ToggleLeft",
+      "path": "src/stroke/accountsAccess/ToggleLeft.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "ToggleRight": {
+      "name": "ToggleRight",
+      "path": "src/stroke/accountsAccess/ToggleRight.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "User": {
+      "name": "User",
+      "path": "src/stroke/accountsAccess/User.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "UserCheck": {
+      "name": "UserCheck",
+      "path": "src/stroke/accountsAccess/UserCheck.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "UserCog": {
+      "name": "UserCog",
+      "path": "src/stroke/accountsAccess/UserCog.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "UserLock": {
+      "name": "UserLock",
+      "path": "src/stroke/accountsAccess/UserLock.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "UserMinus": {
+      "name": "UserMinus",
+      "path": "src/stroke/accountsAccess/UserMinus.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "UserPen": {
+      "name": "UserPen",
+      "path": "src/stroke/accountsAccess/UserPen.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "UserPlus": {
+      "name": "UserPlus",
+      "path": "src/stroke/accountsAccess/UserPlus.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "UserRound": {
+      "name": "UserRound",
+      "path": "src/stroke/accountsAccess/UserRound.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "UserRoundCheck": {
+      "name": "UserRoundCheck",
+      "path": "src/stroke/accountsAccess/UserRoundCheck.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "UserRoundCog": {
+      "name": "UserRoundCog",
+      "path": "src/stroke/accountsAccess/UserRoundCog.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "UserRoundMinus": {
+      "name": "UserRoundMinus",
+      "path": "src/stroke/accountsAccess/UserRoundMinus.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "UserRoundPen": {
+      "name": "UserRoundPen",
+      "path": "src/stroke/accountsAccess/UserRoundPen.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "UserRoundPlus": {
+      "name": "UserRoundPlus",
+      "path": "src/stroke/accountsAccess/UserRoundPlus.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "UserRoundSearch": {
+      "name": "UserRoundSearch",
+      "path": "src/stroke/accountsAccess/UserRoundSearch.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "UserRoundX": {
+      "name": "UserRoundX",
+      "path": "src/stroke/accountsAccess/UserRoundX.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "UserSearch": {
+      "name": "UserSearch",
+      "path": "src/stroke/accountsAccess/UserSearch.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "UserStar": {
+      "name": "UserStar",
+      "path": "src/stroke/accountsAccess/UserStar.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "UserX": {
+      "name": "UserX",
+      "path": "src/stroke/accountsAccess/UserX.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "Users": {
+      "name": "Users",
+      "path": "src/stroke/accountsAccess/Users.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "UsersRound": {
+      "name": "UsersRound",
+      "path": "src/stroke/accountsAccess/UsersRound.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "VenetianMask": {
+      "name": "VenetianMask",
+      "path": "src/stroke/accountsAccess/VenetianMask.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "Vibrate": {
+      "name": "Vibrate",
+      "path": "src/stroke/accountsAccess/Vibrate.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "VibrateOff": {
+      "name": "VibrateOff",
+      "path": "src/stroke/accountsAccess/VibrateOff.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "Wallet": {
+      "name": "Wallet",
+      "path": "src/stroke/accountsAccess/Wallet.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "WalletCards": {
+      "name": "WalletCards",
+      "path": "src/stroke/accountsAccess/WalletCards.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "WalletMinimal": {
+      "name": "WalletMinimal",
+      "path": "src/stroke/accountsAccess/WalletMinimal.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "Wallpaper": {
+      "name": "Wallpaper",
+      "path": "src/stroke/accountsAccess/Wallpaper.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "Waypoints": {
+      "name": "Waypoints",
+      "path": "src/stroke/accountsAccess/Waypoints.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "Webhook": {
+      "name": "Webhook",
+      "path": "src/stroke/accountsAccess/Webhook.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "WebhookOff": {
+      "name": "WebhookOff",
+      "path": "src/stroke/accountsAccess/WebhookOff.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "Wrench": {
+      "name": "Wrench",
+      "path": "src/stroke/accountsAccess/Wrench.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
       "size": "16"
     }
   },
@@ -629,7 +1245,13 @@
         "PersonStanding",
         "ScanEye",
         "ScanSearch",
-        "Speech"
+        "Speech",
+        "SunDim",
+        "SunMedium",
+        "SunMoon",
+        "Transgender",
+        "ZoomIn",
+        "ZoomOut"
       ]
     },
     "stroke": {
@@ -692,7 +1314,96 @@
         "HeartPlus",
         "IdCard",
         "IdCardLanyard",
-        "Inbox"
+        "Inbox",
+        "Key",
+        "KeyRound",
+        "KeySquare",
+        "Link",
+        "Link2",
+        "LogIn",
+        "LogOut",
+        "Mail",
+        "MapPin",
+        "MapPinCheck",
+        "MapPinCheckInside",
+        "MapPinHouse",
+        "MapPinMinus",
+        "MapPinMinusInside",
+        "MapPinPen",
+        "MapPinPlus",
+        "MapPinPlusInside",
+        "MapPinX",
+        "MapPinXInside",
+        "MapPinned",
+        "Menu",
+        "MessageCircleX",
+        "NotebookTabs",
+        "Pin",
+        "RotateCcwKey",
+        "ScanEye",
+        "ScanFace",
+        "ScanQrCode",
+        "Settings",
+        "Settings2",
+        "Share",
+        "Share2",
+        "Shield",
+        "ShieldAlert",
+        "ShieldBan",
+        "ShieldCheck",
+        "ShieldEllipsis",
+        "ShieldHalf",
+        "ShieldMinus",
+        "ShieldOff",
+        "ShieldPlus",
+        "ShieldQuestionMark",
+        "ShieldUser",
+        "ShieldX",
+        "SlidersHorizontal",
+        "SlidersVertical",
+        "Smile",
+        "SquareUser",
+        "SquareUserRound",
+        "Star",
+        "Tag",
+        "Tags",
+        "ThumbsDown",
+        "ThumbsUp",
+        "Ticket",
+        "Tickets",
+        "ToggleLeft",
+        "ToggleRight",
+        "User",
+        "UserCheck",
+        "UserCog",
+        "UserLock",
+        "UserMinus",
+        "UserPen",
+        "UserPlus",
+        "UserRound",
+        "UserRoundCheck",
+        "UserRoundCog",
+        "UserRoundMinus",
+        "UserRoundPen",
+        "UserRoundPlus",
+        "UserRoundSearch",
+        "UserRoundX",
+        "UserSearch",
+        "UserStar",
+        "UserX",
+        "Users",
+        "UsersRound",
+        "VenetianMask",
+        "Vibrate",
+        "VibrateOff",
+        "Wallet",
+        "WalletCards",
+        "WalletMinimal",
+        "Wallpaper",
+        "Waypoints",
+        "Webhook",
+        "WebhookOff",
+        "Wrench"
       ],
       "accessibility": [
         "Moon",
@@ -728,5 +1439,5 @@
       ]
     }
   },
-  "total": 86
+  "total": 174
 }
