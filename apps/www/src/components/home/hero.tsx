@@ -33,7 +33,7 @@ export function Hero() {
       </div>
       <div className="space-y-6 my-6 md:my-20 text-center px-6">
         <h2 className="font-extrabold tracking-tighter text-5xl md:text-7xl lg:text-9xl">
-          Design <br className="block md:hidden" /> That Gives.
+          Design <br className="block md:hidden" /> without Limits
         </h2>
         <p className="text-muted-foreground font-light text-sm md:text-xl">
           I create digital experiences that connect and inspire. I build apps,

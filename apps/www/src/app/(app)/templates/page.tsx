@@ -14,27 +14,7 @@ const cards = [
     demoUrl: "https://portfolio.aliimam.in",
     repoUrl: "https://github.com/aliimam-in/templates/tree/main/apps/portfolio",
     imgHeight: 900,
-  },
-  {
-    id: 1,
-    title: "Design Agency",
-    src: "/templates/template-02.jpg",
-    subheading:
-      "Beautifully designed open-source templates and UI components built with Dalim UI and shadcn/ui.",
-    demoUrl: "https://template-02.aliimam.in",
-    repoUrl: "https://github.com/aliimam-in/templates/tree/main/apps/template-02",
-    imgHeight: 900,
-  },
-  {
-    id: 2,
-    title: "Simple Portfolio",
-    src: "/templates/template-01.jpg",
-    subheading:
-      "Beautifully designed open-source templates and UI components built with Dalim UI and shadcn/ui.",
-    demoUrl: "https://template-01.aliimam.in",
-    repoUrl: "https://github.com/aliimam-in/templates/tree/main/apps/template-01",
-    imgHeight: 900,
-  },
+  }
 ];
 
 export default function Page() {
