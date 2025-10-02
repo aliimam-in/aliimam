@@ -1222,6 +1222,250 @@ export const Index: Record<string, any> = {
     categories: undefined,
     meta: undefined,
   },
+  "header-01": {
+    name: "header-01",
+    description: "A simple header section.",
+    type: "registry:block",
+    registryDependencies: ["button","navigation-menu","toggle"],
+    files: [{
+      path: "registry/default/blocks/header/header-01/page.tsx",
+      type: "registry:component",
+      target: "components/header-01.tsx"
+    },{
+      path: "registry/default/blocks/header/header-01/components/header.tsx",
+      type: "registry:component",
+      target: ""
+    },{
+      path: "registry/default/blocks/header/header-01/components/theme-switch.tsx",
+      type: "registry:component",
+      target: ""
+    },{
+      path: "registry/default/blocks/header/header-01/components/menus.tsx",
+      type: "registry:component",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/blocks/header/header-01/page.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: ["header","navbar"],
+    meta: {"iframeHeight":"500px"},
+  },
+  "header-02": {
+    name: "header-02",
+    description: "A simple header section.",
+    type: "registry:block",
+    registryDependencies: ["button","command","navigation-menu","toggle","accordion","sheet"],
+    files: [{
+      path: "registry/default/blocks/header/header-02/page.tsx",
+      type: "registry:component",
+      target: "components/header-02.tsx"
+    },{
+      path: "registry/default/blocks/header/header-02/components/header.tsx",
+      type: "registry:component",
+      target: ""
+    },{
+      path: "registry/default/blocks/header/header-02/components/theme-switch.tsx",
+      type: "registry:component",
+      target: ""
+    },{
+      path: "registry/default/blocks/header/header-02/components/search.tsx",
+      type: "registry:component",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/blocks/header/header-02/page.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: ["header","navbar"],
+    meta: {"iframeHeight":"500px"},
+  },
+  "header-03": {
+    name: "header-03",
+    description: "A simple header section.",
+    type: "registry:block",
+    registryDependencies: ["button","navigation-menu","toggle","accordion","sheet"],
+    files: [{
+      path: "registry/default/blocks/header/header-03/page.tsx",
+      type: "registry:component",
+      target: "components/header-03.tsx"
+    },{
+      path: "registry/default/blocks/header/header-03/components/header.tsx",
+      type: "registry:component",
+      target: ""
+    },{
+      path: "registry/default/blocks/header/header-03/components/theme-switch.tsx",
+      type: "registry:component",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/blocks/header/header-03/page.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: ["header","navbar"],
+    meta: {"iframeHeight":"500px"},
+  },
+  "header-04": {
+    name: "header-04",
+    description: "A simple header section.",
+    type: "registry:block",
+    registryDependencies: ["button","command","toggle","separator"],
+    files: [{
+      path: "registry/default/blocks/header/header-04/page.tsx",
+      type: "registry:component",
+      target: "components/header-04.tsx"
+    },{
+      path: "registry/default/blocks/header/header-04/components/header.tsx",
+      type: "registry:component",
+      target: ""
+    },{
+      path: "registry/default/blocks/header/header-04/components/theme-switch.tsx",
+      type: "registry:component",
+      target: ""
+    },{
+      path: "registry/default/blocks/header/header-04/components/search.tsx",
+      type: "registry:component",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/blocks/header/header-04/page.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: ["header","navbar"],
+    meta: {"iframeHeight":"500px"},
+  },
+  "header-05": {
+    name: "header-05",
+    description: "A simple header section.",
+    type: "registry:block",
+    registryDependencies: ["command","sheet"],
+    files: [{
+      path: "registry/default/blocks/header/header-05/page.tsx",
+      type: "registry:component",
+      target: "components/header-05.tsx"
+    },{
+      path: "registry/default/blocks/header/header-05/components/header.tsx",
+      type: "registry:component",
+      target: ""
+    },{
+      path: "registry/default/blocks/header/header-05/components/menus.tsx",
+      type: "registry:component",
+      target: ""
+    },{
+      path: "registry/default/blocks/header/header-05/components/phone-menus.tsx",
+      type: "registry:component",
+      target: ""
+    },{
+      path: "registry/default/blocks/header/header-05/components/navigation.tsx",
+      type: "registry:component",
+      target: ""
+    },{
+      path: "registry/default/blocks/header/header-05/components/search.tsx",
+      type: "registry:component",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/blocks/header/header-05/page.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: ["header","navbar"],
+    meta: {"iframeHeight":"500px"},
+  },
+  "hero-01": {
+    name: "hero-01",
+    description: "A simple hero section.",
+    type: "registry:block",
+    registryDependencies: undefined,
+    files: [{
+      path: "registry/default/blocks/hero/hero-01/page.tsx",
+      type: "registry:component",
+      target: "components/hero-01.tsx"
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/blocks/hero/hero-01/page.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: ["hero"],
+    meta: {"iframeHeight":"900px"},
+  },
+  "hero-02": {
+    name: "hero-02",
+    description: "A simple hero section.",
+    type: "registry:block",
+    registryDependencies: undefined,
+    files: [{
+      path: "registry/default/blocks/hero/hero-02/page.tsx",
+      type: "registry:component",
+      target: "components/hero-02.tsx"
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/blocks/hero/hero-02/page.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: ["hero"],
+    meta: {"iframeHeight":"900px"},
+  },
+  "hero-03": {
+    name: "hero-03",
+    description: "A simple hero section.",
+    type: "registry:block",
+    registryDependencies: undefined,
+    files: [{
+      path: "registry/default/blocks/hero/hero-03/page.tsx",
+      type: "registry:component",
+      target: "components/hero-03.tsx"
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/blocks/hero/hero-03/page.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: ["hero"],
+    meta: {"iframeHeight":"900px"},
+  },
+  "hero-04": {
+    name: "hero-04",
+    description: "A simple hero section.",
+    type: "registry:block",
+    registryDependencies: undefined,
+    files: [{
+      path: "registry/default/blocks/hero/hero-04/page.tsx",
+      type: "registry:component",
+      target: "components/hero-04.tsx"
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/blocks/hero/hero-04/page.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: ["hero"],
+    meta: {"iframeHeight":"900px"},
+  },
+  "hero-05": {
+    name: "hero-05",
+    description: "A simple hero section.",
+    type: "registry:block",
+    registryDependencies: undefined,
+    files: [{
+      path: "registry/default/blocks/hero/hero-05/page.tsx",
+      type: "registry:component",
+      target: "components/hero-05.tsx"
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/blocks/hero/hero-05/page.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: ["hero"],
+    meta: {"iframeHeight":"900px"},
+  },
   "dashboard-01": {
     name: "dashboard-01",
     description: "A dashboard with sidebar, charts and data table.",

@@ -210,6 +210,20 @@
       "subcategory": "accessibility",
       "size": "16"
     },
+    "Equal": {
+      "name": "Equal",
+      "path": "src/stroke/mathematics/Equal.tsx",
+      "category": "stroke",
+      "subcategory": "mathematics",
+      "size": "16"
+    },
+    "X": {
+      "name": "X",
+      "path": "src/stroke/mathematics/X.tsx",
+      "category": "stroke",
+      "subcategory": "mathematics",
+      "size": "16"
+    },
     "ArrowBigDown": {
       "name": "ArrowBigDown",
       "path": "src/stroke/arrows/ArrowBigDown.tsx",
@@ -325,6 +339,244 @@
     "ArrowDownToDot": {
       "name": "ArrowDownToDot",
       "path": "src/stroke/arrows/ArrowDownToDot.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "ArrowDownToLine": {
+      "name": "ArrowDownToLine",
+      "path": "src/stroke/arrows/ArrowDownToLine.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "ArrowDownUp": {
+      "name": "ArrowDownUp",
+      "path": "src/stroke/arrows/ArrowDownUp.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "ArrowDownWideNarrow": {
+      "name": "ArrowDownWideNarrow",
+      "path": "src/stroke/arrows/ArrowDownWideNarrow.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "ArrowDownZA": {
+      "name": "ArrowDownZA",
+      "path": "src/stroke/arrows/ArrowDownZA.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "ArrowLeft": {
+      "name": "ArrowLeft",
+      "path": "src/stroke/arrows/ArrowLeft.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "ArrowLeftFromLine": {
+      "name": "ArrowLeftFromLine",
+      "path": "src/stroke/arrows/ArrowLeftFromLine.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "ArrowLeftRight": {
+      "name": "ArrowLeftRight",
+      "path": "src/stroke/arrows/ArrowLeftRight.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "ArrowLeftToLine": {
+      "name": "ArrowLeftToLine",
+      "path": "src/stroke/arrows/ArrowLeftToLine.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "ArrowRight": {
+      "name": "ArrowRight",
+      "path": "src/stroke/arrows/ArrowRight.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "ArrowRightFromLine": {
+      "name": "ArrowRightFromLine",
+      "path": "src/stroke/arrows/ArrowRightFromLine.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "ArrowRightLeft": {
+      "name": "ArrowRightLeft",
+      "path": "src/stroke/arrows/ArrowRightLeft.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "ArrowRightToLine": {
+      "name": "ArrowRightToLine",
+      "path": "src/stroke/arrows/ArrowRightToLine.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "ArrowUp": {
+      "name": "ArrowUp",
+      "path": "src/stroke/arrows/ArrowUp.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "ArrowUp01": {
+      "name": "ArrowUp01",
+      "path": "src/stroke/arrows/ArrowUp01.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "ArrowUp10": {
+      "name": "ArrowUp10",
+      "path": "src/stroke/arrows/ArrowUp10.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "ArrowUpAZ": {
+      "name": "ArrowUpAZ",
+      "path": "src/stroke/arrows/ArrowUpAZ.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "ArrowUpDown": {
+      "name": "ArrowUpDown",
+      "path": "src/stroke/arrows/ArrowUpDown.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "ArrowUpFromDot": {
+      "name": "ArrowUpFromDot",
+      "path": "src/stroke/arrows/ArrowUpFromDot.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "ArrowUpFromLine": {
+      "name": "ArrowUpFromLine",
+      "path": "src/stroke/arrows/ArrowUpFromLine.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "ArrowUpLeft": {
+      "name": "ArrowUpLeft",
+      "path": "src/stroke/arrows/ArrowUpLeft.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "ArrowUpNarrowWide": {
+      "name": "ArrowUpNarrowWide",
+      "path": "src/stroke/arrows/ArrowUpNarrowWide.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "ArrowUpRight": {
+      "name": "ArrowUpRight",
+      "path": "src/stroke/arrows/ArrowUpRight.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "ArrowUpToLine": {
+      "name": "ArrowUpToLine",
+      "path": "src/stroke/arrows/ArrowUpToLine.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "ArrowUpWideNarrow": {
+      "name": "ArrowUpWideNarrow",
+      "path": "src/stroke/arrows/ArrowUpWideNarrow.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "ArrowUpZA": {
+      "name": "ArrowUpZA",
+      "path": "src/stroke/arrows/ArrowUpZA.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "ArrowsUpFromLine": {
+      "name": "ArrowsUpFromLine",
+      "path": "src/stroke/arrows/ArrowsUpFromLine.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "CalendarSync": {
+      "name": "CalendarSync",
+      "path": "src/stroke/arrows/CalendarSync.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "ChevronDown": {
+      "name": "ChevronDown",
+      "path": "src/stroke/arrows/ChevronDown.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "ChevronFirst": {
+      "name": "ChevronFirst",
+      "path": "src/stroke/arrows/ChevronFirst.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "ChevronLast": {
+      "name": "ChevronLast",
+      "path": "src/stroke/arrows/ChevronLast.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "ChevronLeft": {
+      "name": "ChevronLeft",
+      "path": "src/stroke/arrows/ChevronLeft.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "ChevronRight": {
+      "name": "ChevronRight",
+      "path": "src/stroke/arrows/ChevronRight.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "ChevronUp": {
+      "name": "ChevronUp",
+      "path": "src/stroke/arrows/ChevronUp.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "ChevronsDown": {
+      "name": "ChevronsDown",
+      "path": "src/stroke/arrows/ChevronsDown.tsx",
       "category": "stroke",
       "subcategory": "arrows",
       "size": "16"
@@ -1255,6 +1507,7 @@
       ]
     },
     "stroke": {
+      "mathematics": ["Equal", "X"],
       "arrows": [
         "ArrowBigDown",
         "ArrowBigDowDash",
@@ -1272,7 +1525,41 @@
         "ArrowDownLeft",
         "ArrowDownNarrowWide",
         "ArrowDownRight",
-        "ArrowDownToDot"
+        "ArrowDownToDot",
+        "ArrowDownToLine",
+        "ArrowDownUp",
+        "ArrowDownWideNarrow",
+        "ArrowDownZA",
+        "ArrowLeft",
+        "ArrowLeftFromLine",
+        "ArrowLeftRight",
+        "ArrowLeftToLine",
+        "ArrowRight",
+        "ArrowRightFromLine",
+        "ArrowRightLeft",
+        "ArrowRightToLine",
+        "ArrowUp",
+        "ArrowUp01",
+        "ArrowUp10",
+        "ArrowUpAZ",
+        "ArrowUpDown",
+        "ArrowUpFromDot",
+        "ArrowUpFromLine",
+        "ArrowUpLeft",
+        "ArrowUpNarrowWide",
+        "ArrowUpRight",
+        "ArrowUpToLine",
+        "ArrowUpWideNarrow",
+        "ArrowUpZA",
+        "ArrowsUpFromLine",
+        "CalendarSync",
+        "ChevronDown",
+        "ChevronFirst",
+        "ChevronLast",
+        "ChevronLeft",
+        "ChevronRight",
+        "ChevronUp",
+        "ChevronsDown"
       ],
       "accountsAccess": [
         "Activity",
@@ -1439,5 +1726,5 @@
       ]
     }
   },
-  "total": 174
+  "total": 210
 }

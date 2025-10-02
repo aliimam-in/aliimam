@@ -1,6 +1,6 @@
 {
   "name": "@aliimam/icons",
-  "version": "0.0.9",
+  "version": "0.1.1",
   "license": "MIT",
   "description": "Ali Imam React SVG Icon Set",
   "source": "./src/index.tsx",

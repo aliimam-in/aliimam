@@ -1,0 +1,20 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "hero-04",
+  "type": "registry:block",
+  "description": "A simple hero section.",
+  "files": [
+    {
+      "path": "registry/default/blocks/hero/hero-04/page.tsx",
+      "content": "import { Button } from \"@/registry/default/ui/button\";\n\nexport default function HeroDemo() {\n  return (\n    <div>\n      <Button>Button</Button>\n    </div>\n  );\n}\n",
+      "type": "registry:component",
+      "target": "components/hero-04.tsx"
+    }
+  ],
+  "meta": {
+    "iframeHeight": "900px"
+  },
+  "categories": [
+    "hero"
+  ]
+}

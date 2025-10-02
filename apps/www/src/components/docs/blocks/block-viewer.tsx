@@ -347,7 +347,7 @@ function BlockViewerView() {
         >
           <ResizablePanel
             ref={resizablePanelRef}
-            className="relative bg-transparent  theme-container  aspect-[4/2.5] overflow-hidden rounded-lg border md:aspect-auto md:rounded-xl"
+            className="relative bg-transparent theme-container aspect-[4/2.5] overflow-hidden rounded-lg border md:aspect-auto md:rounded-xl"
             defaultSize={100}
             minSize={30}
           >

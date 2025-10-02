@@ -1,11 +1,9 @@
 import { BlockDisplay } from "@/src/components/docs/blocks/block-display";
 
 const FEATURED_BLOCKS = [ 
-  "logos-01", 
-  "login-01",
-  "connect-01",
-  "pricing-01",
-  "call-to-action-02",
+  "header-05", 
+  "logos-01",
+  "connect-01",  
 ];
 
 export default function BlocksPage() {
