@@ -1,6 +1,7 @@
 import { BlockDisplay } from "@/src/components/docs/blocks/block-display";
 
 const FEATURED_BLOCKS = [ 
+  "hero-01", 
   "header-05", 
   "logos-01",
   "connect-01",  

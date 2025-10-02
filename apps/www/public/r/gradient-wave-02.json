@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "gradient-wave-02",
+  "type": "registry:example",
+  "title": "Gradient Wave",
+  "description": "Example showing a simple gradient wave.",
+  "registryDependencies": [
+    "gradient-wave"
+  ],
+  "files": [
+    {
+      "path": "registry/default/example/backgrounds/gradient-wave/gradient-wave-02.tsx",
+      "content": "\"use client\";\n\nimport { GradientWave } from \"@/registry/default/components/gradient-wave\";\n\nexport default function HeroSection() {\n  return (\n     <div className=\"h-full w-full flex items-center justify-center relative\">\n      <GradientWave\n        gradientColors={[\"#e0eaff\", \"#241d9a\", \"#f75092\", \"#9f50d3\"]}\n        width=\"100%\"\n        height=\"100%\"\n      /> \n      <h1 className=\"text-white text-5xl font-bold text-center z-10\">\n        Gradient Wave\n      </h1>\n    </div>\n  );\n}\n",
+      "type": "registry:example"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+---
+title: Gradient Wave
+description: Namespaced registries let you configure multiple resource sources in one project.
+---
+
+<ComponentPreview
+  name="gradient-wave-01"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[80%] **:[.preview]:min-h-[650px]"
+  description="An accordion with three items"
+  align="start"
+/>
+
+<ComponentPreview
+  name="gradient-wave-02"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[80%] **:[.preview]:min-h-[650px]"
+  description="An accordion with three items"
+  align="start"
+/>
+
+<ComponentPreview
+  name="gradient-wave-03"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[80%] **:[.preview]:min-h-[650px]"
+  description="An accordion with three items"
+  align="start"
+/>
+
+**Learn more about registry config from** [Shadcn UI docs](https://ui.shadcn.com/docs/registry/namespace)
+
+## Usage
+
+Install blocks via the shadcn CLI using the `@aliimam/{name}` syntax.
+
+```tsx showLineNumbers
+pnpm dlx shadcn add @aliimam/hero-section-1
+```
+
+## Configure MCP
+
+Run the following command to configure the mcp server:
+
+```tsx showLineNumbers
+pnpm dlx shadcn mcp init
+```
+
+Select your MCP client when prompted. Remember to enable the MCP server in your client when done.
+
+## Prompt
+
+**You can now prompt the server. Here are some prompts to try:**
+
+- Find me a hero from aliimam registry
+- Build me a landing page using a hero and features section from aliimam registry
+- Build me a pricing page using a pricing, logo cloud, comparator and faqs blocks from aliimam mist registry

@@ -1,36 +1,39 @@
-'use client';
+"use client";
 
-import { useState, useEffect } from 'react';
+import { GradientMesh } from "@/registry/default/components/gradient-mesh";
+import { Button } from "@/registry/default/ui/button";
+import Link from "next/link";
 
 export default function HeroSection() {
-  const [isLoaded, setIsLoaded] = useState(false);
-
-  useEffect(() => {
-    setIsLoaded(true);
-  }, []);
- 
-
   return (
-    <div className="relative min-h-screen w-full overflow-hidden">
-      
- 
-      <div 
-        className="absolute inset-0  z-10 pointer-events-none"
-        style={{
-          backgroundImage: 'radial-gradient(circle, grey 1px, transparent 1px)',
-          backgroundSize: '20px 20px'
-        }}
-      />
-
-       
-      <div className="relative z-20 flex flex-col items-center justify-center min-h-screen px-6 py-20">
-        <div className={`max-w-6xl w-full transition-all duration-1000 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
+    <div className="h-screen flex items-center justify-center relative">
+      {/* GradientWave behind the text */}
+      <GradientMesh />
+      <div className="flex flex-col text-center">
+        <h2 className="font-extrabold text-black mix-blend-overlay tracking-tighter text-7xl md:text-7xl lg:text-9xl">
+            Design <br/> without Limits
+          </h2>
+        <div className="space-y-6 z-10 pt-20 flex justify-center items-center flex-col text-center px-6">
           
-           
+          <p className="text-black w-full  max-w-lg font-light text-sm md:text-xl">
+            I create digital experiences that connect and inspire. I build apps,
+            websites, brands, and products end-to-end.
+          </p>
+          <div className="flex gap-3 mt-6 flex-wrap justify-center">
+            <Link target="_blank" href="https://cal.com/aliimam-in/30min">
+              <Button className="h-12 md:h-14 rounded-full cursor-pointer px-8 md:px-10">
+                Book an Intro Call
+              </Button>
+            </Link>
+            <Button
+              variant={"secondary"}
+              className="h-12 md:h-14 cursor-pointer rounded-full px-8 md:px-10"
+            >
+              Get Started Explore
+            </Button>
+          </div>
         </div>
       </div>
-
-       
     </div>
   );
 }

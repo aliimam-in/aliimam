@@ -323,4 +323,88 @@ export const examples: Registry["items"] = [
       },
     ],
   },
+  {
+    title: "Gradient Wave",
+    name: "gradient-wave-01",
+    type: "registry:example",
+    description:
+      "Example showing a simple gradient wave.",
+    registryDependencies: ["gradient-wave"],
+    files: [
+      {
+        path: "example/backgrounds/gradient-wave/gradient-wave-01.tsx",
+        type: "registry:example",
+      },
+    ],
+  }, 
+  {
+    title: "Gradient Wave",
+    name: "gradient-wave-02",
+    type: "registry:example",
+    description:
+      "Example showing a simple gradient wave.",
+    registryDependencies: ["gradient-wave"],
+    files: [
+      {
+        path: "example/backgrounds/gradient-wave/gradient-wave-02.tsx",
+        type: "registry:example",
+      },
+    ],
+  }, 
+  {
+    title: "Gradient Wave",
+    name: "gradient-wave-03",
+    type: "registry:example",
+    description:
+      "Example showing a simple gradient wave.",
+    registryDependencies: ["gradient-wave"],
+    files: [
+      {
+        path: "example/backgrounds/gradient-wave/gradient-wave-03.tsx",
+        type: "registry:example",
+      },
+    ],
+  }, 
+  {
+    title: "Gradient Mesh",
+    name: "gradient-mesh-01",
+    type: "registry:example",
+    description:
+      "Example showing a simple gradient mesh.",
+    registryDependencies: ["gradient-mesh"],
+    files: [
+      {
+        path: "example/backgrounds/gradient-mesh/gradient-mesh-01.tsx",
+        type: "registry:example",
+      },
+    ],
+  }, 
+  {
+    title: "Gradient Mesh",
+    name: "gradient-mesh-02",
+    type: "registry:example",
+    description:
+      "Example showing a simple gradient mesh.",
+    registryDependencies: ["gradient-mesh"],
+    files: [
+      {
+        path: "example/backgrounds/gradient-mesh/gradient-mesh-02.tsx",
+        type: "registry:example",
+      },
+    ],
+  }, 
+  {
+    title: "Gradient Mesh",
+    name: "gradient-mesh-03",
+    type: "registry:example",
+    description:
+      "Example showing a simple gradient mesh.",
+    registryDependencies: ["gradient-mesh"],
+    files: [
+      {
+        path: "example/backgrounds/gradient-mesh/gradient-mesh-03.tsx",
+        type: "registry:example",
+      },
+    ],
+  }, 
 ];

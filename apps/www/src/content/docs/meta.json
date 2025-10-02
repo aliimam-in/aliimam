@@ -3,6 +3,7 @@
   "pages": [  
     "(root)",
     "ui",
+    "backgrounds",
     "icons",
     "legal"
   ]

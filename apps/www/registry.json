@@ -961,6 +961,96 @@
       ]
     },
     {
+      "name": "gradient-wave-01",
+      "type": "registry:example",
+      "title": "Gradient Wave",
+      "description": "Example showing a simple gradient wave.",
+      "registryDependencies": [
+        "gradient-wave"
+      ],
+      "files": [
+        {
+          "path": "registry/default/example/backgrounds/gradient-wave/gradient-wave-01.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "gradient-wave-02",
+      "type": "registry:example",
+      "title": "Gradient Wave",
+      "description": "Example showing a simple gradient wave.",
+      "registryDependencies": [
+        "gradient-wave"
+      ],
+      "files": [
+        {
+          "path": "registry/default/example/backgrounds/gradient-wave/gradient-wave-02.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "gradient-wave-03",
+      "type": "registry:example",
+      "title": "Gradient Wave",
+      "description": "Example showing a simple gradient wave.",
+      "registryDependencies": [
+        "gradient-wave"
+      ],
+      "files": [
+        {
+          "path": "registry/default/example/backgrounds/gradient-wave/gradient-wave-03.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "gradient-mesh-01",
+      "type": "registry:example",
+      "title": "Gradient Mesh",
+      "description": "Example showing a simple gradient mesh.",
+      "registryDependencies": [
+        "gradient-mesh"
+      ],
+      "files": [
+        {
+          "path": "registry/default/example/backgrounds/gradient-mesh/gradient-mesh-01.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "gradient-mesh-02",
+      "type": "registry:example",
+      "title": "Gradient Mesh",
+      "description": "Example showing a simple gradient mesh.",
+      "registryDependencies": [
+        "gradient-mesh"
+      ],
+      "files": [
+        {
+          "path": "registry/default/example/backgrounds/gradient-mesh/gradient-mesh-02.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "gradient-mesh-03",
+      "type": "registry:example",
+      "title": "Gradient Mesh",
+      "description": "Example showing a simple gradient mesh.",
+      "registryDependencies": [
+        "gradient-mesh"
+      ],
+      "files": [
+        {
+          "path": "registry/default/example/backgrounds/gradient-mesh/gradient-mesh-03.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
       "name": "header-01",
       "type": "registry:block",
       "description": "A simple header section.",
@@ -1412,6 +1502,29 @@
       "categories": [
         "chat",
         "connect"
+      ]
+    },
+    {
+      "name": "gradient-mesh",
+      "type": "registry:component",
+      "dependencies": [
+        "ogl"
+      ],
+      "files": [
+        {
+          "path": "registry/default/components/gradient-mesh.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "gradient-wave",
+      "type": "registry:component",
+      "files": [
+        {
+          "path": "registry/default/components/gradient-wave.tsx",
+          "type": "registry:component"
+        }
       ]
     },
     {

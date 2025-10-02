@@ -1,108 +1,88 @@
 const PhoneMenu = () => {
   const mainNav = [
     {
-      title: "Store",
+      title: "Products",
       items: [
-        { label: "Shop the Latest", href: "#" },
-        { label: "Mac", href: "#" },
-        { label: "iPad", href: "#" },
-        { label: "iPhone", href: "#" },
-        { label: "Apple Watch", href: "#" },
-        { label: "AirPods", href: "#" },
-        { label: "Accessories", href: "#" },
+        { label: "New Arrivals", href: "#" },
+        { label: "Best Sellers", href: "#" },
+        { label: "Trending Now", href: "#" },
+        { label: "Gift Ideas", href: "#" },
       ],
     },
     {
-      title: "Mac",
+      title: "Services",
       items: [
-        { label: "Explore All Mac", href: "#" },
-        { label: "MacBook Air", href: "#" },
-        { label: "MacBook Pro", href: "#" },
-        { label: "iMac", href: "#" },
-        { label: "Mac mini", href: "#" },
-        { label: "Mac Studio", href: "#" },
-        { label: "Mac Pro", href: "#" },
-        { label: "Compare Mac", href: "#" },
+        { label: "Consulting", href: "#" },
+        { label: "Custom Solutions", href: "#" },
+        { label: "Training & Support", href: "#" },
+        { label: "Maintenance Plans", href: "#" },
       ],
     },
     {
-      title: "iPad",
+      title: "Company",
       items: [
-        { label: "Explore All iPad", href: "#" },
-        { label: "iPad Pro", href: "#" },
-        { label: "iPad Air", href: "#" },
-        { label: "iPad", href: "#" },
-        { label: "iPad mini", href: "#" },
-        { label: "Apple Pencil", href: "#" },
-        { label: "Keyboards", href: "#" },
+        { label: "About Us", href: "#" },
+        { label: "Careers", href: "#" },
+        { label: "Press", href: "#" },
+        { label: "Partners", href: "#" },
       ],
     },
     {
-      title: "iPhone",
+      title: "Resources",
       items: [
-        { label: "Explore All iPhone", href: "#" },
-        { label: "iPhone 17 Pro", href: "#" },
-        { label: "iPhone Air", href: "#" },
-        { label: "iPhone 17", href: "#" },
-        { label: "iPhone 16", href: "#" },
-        { label: "iPhone 16e", href: "#" },
-      ],
-    },
-    {
-      title: "Watch",
-      items: [
-        { label: "Explore All Apple Watch", href: "#" },
-        { label: "Apple Watch Series 11", href: "#" },
-        { label: "Apple Watch SE 3", href: "#" },
-        { label: "Apple Watch Ultra 3", href: "#" },
-        { label: "Apple Watch Nike", href: "#" },
-      ],
-    },
-    {
-      title: "AirPods",
-      items: [
-        { label: "Explore All AirPods", href: "#" },
-        { label: "AirPods 4", href: "#" },
-        { label: "AirPods Pro 3", href: "#" },
-        { label: "AirPods Max", href: "#" },
-      ],
-    },
-    {
-      title: "TV & Home",
-      items: [
-        { label: "Explore TV & Home", href: "#" },
-        { label: "Apple TV 4K", href: "#" },
-        { label: "HomePod", href: "#" },
-        { label: "HomePod mini", href: "#" },
-      ],
-    },
-    {
-      title: "Entertainment",
-      items: [
-        { label: "Explore Entertainment", href: "#" },
-        { label: "Apple One", href: "#" },
-        { label: "Apple TV+", href: "#" },
-        { label: "Apple Music", href: "#" },
-        { label: "Apple Arcade", href: "#" },
-      ],
-    },
-    {
-      title: "Accessories",
-      items: [
-        { label: "Shop All Accessories", href: "#" },
-        { label: "Made by Apple", href: "#" },
-        { label: "Beats by Dr. Dre", href: "#" },
-        { label: "AirTag", href: "#" },
+        { label: "Blog", href: "#" },
+        { label: "Guides & Tutorials", href: "#" },
+        { label: "Webinars", href: "#" },
+        { label: "Documentation", href: "#" },
       ],
     },
     {
       title: "Support",
       items: [
-        { label: "iPhone Support", href: "#" },
-        { label: "Mac Support", href: "#" },
-        { label: "iPad Support", href: "#" },
-        { label: "Watch Support", href: "#" },
-        { label: "AirPods Support", href: "#" },
+        { label: "Help Center", href: "#" },
+        { label: "Contact Support", href: "#" },
+        { label: "FAQ", href: "#" },
+        { label: "Community Forums", href: "#" },
+      ],
+    },
+    {
+      title: "Legal",
+      items: [
+        { label: "Privacy Policy", href: "#" },
+        { label: "Terms of Service", href: "#" },
+        { label: "Cookie Policy", href: "#" },
+      ],
+    },
+    {
+      title: "Locations",
+      items: [
+        { label: "Find a Store", href: "#" },
+        { label: "International Offices", href: "#" },
+        { label: "Events", href: "#" },
+      ],
+    },
+    {
+      title: "Contact",
+      items: [
+        { label: "Email Us", href: "#" },
+        { label: "Request a Call", href: "#" },
+        { label: "Live Chat", href: "#" },
+      ],
+    },
+    {
+      title: "Community",
+      items: [
+        { label: "Forums", href: "#" },
+        { label: "Ambassadors", href: "#" },
+        { label: "User Stories", href: "#" },
+      ],
+    },
+    {
+      title: "Extras",
+      items: [
+        { label: "Gift Cards", href: "#" },
+        { label: "Promotions", href: "#" },
+        { label: "Newsletter", href: "#" },
       ],
     },
   ];

@@ -1222,6 +1222,114 @@ export const Index: Record<string, any> = {
     categories: undefined,
     meta: undefined,
   },
+  "gradient-wave-01": {
+    name: "gradient-wave-01",
+    description: "Example showing a simple gradient wave.",
+    type: "registry:example",
+    registryDependencies: ["gradient-wave"],
+    files: [{
+      path: "registry/default/example/backgrounds/gradient-wave/gradient-wave-01.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/backgrounds/gradient-wave/gradient-wave-01.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "gradient-wave-02": {
+    name: "gradient-wave-02",
+    description: "Example showing a simple gradient wave.",
+    type: "registry:example",
+    registryDependencies: ["gradient-wave"],
+    files: [{
+      path: "registry/default/example/backgrounds/gradient-wave/gradient-wave-02.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/backgrounds/gradient-wave/gradient-wave-02.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "gradient-wave-03": {
+    name: "gradient-wave-03",
+    description: "Example showing a simple gradient wave.",
+    type: "registry:example",
+    registryDependencies: ["gradient-wave"],
+    files: [{
+      path: "registry/default/example/backgrounds/gradient-wave/gradient-wave-03.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/backgrounds/gradient-wave/gradient-wave-03.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "gradient-mesh-01": {
+    name: "gradient-mesh-01",
+    description: "Example showing a simple gradient mesh.",
+    type: "registry:example",
+    registryDependencies: ["gradient-mesh"],
+    files: [{
+      path: "registry/default/example/backgrounds/gradient-mesh/gradient-mesh-01.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/backgrounds/gradient-mesh/gradient-mesh-01.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "gradient-mesh-02": {
+    name: "gradient-mesh-02",
+    description: "Example showing a simple gradient mesh.",
+    type: "registry:example",
+    registryDependencies: ["gradient-mesh"],
+    files: [{
+      path: "registry/default/example/backgrounds/gradient-mesh/gradient-mesh-02.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/backgrounds/gradient-mesh/gradient-mesh-02.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "gradient-mesh-03": {
+    name: "gradient-mesh-03",
+    description: "Example showing a simple gradient mesh.",
+    type: "registry:example",
+    registryDependencies: ["gradient-mesh"],
+    files: [{
+      path: "registry/default/example/backgrounds/gradient-mesh/gradient-mesh-03.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/backgrounds/gradient-mesh/gradient-mesh-03.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
   "header-01": {
     name: "header-01",
     description: "A simple header section.",
@@ -1579,6 +1687,42 @@ export const Index: Record<string, any> = {
     }),
     categories: ["chat","connect"],
     meta: {"iframeHeight":"800px"},
+  },
+  "gradient-mesh": {
+    name: "gradient-mesh",
+    description: "",
+    type: "registry:component",
+    registryDependencies: undefined,
+    files: [{
+      path: "registry/default/components/gradient-mesh.tsx",
+      type: "registry:component",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/components/gradient-mesh.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "gradient-wave": {
+    name: "gradient-wave",
+    description: "",
+    type: "registry:component",
+    registryDependencies: undefined,
+    files: [{
+      path: "registry/default/components/gradient-wave.tsx",
+      type: "registry:component",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/components/gradient-wave.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
   },
   "utils": {
     name: "utils",
