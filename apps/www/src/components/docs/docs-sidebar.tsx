@@ -43,7 +43,7 @@ export function DocsSidebar({
           type="single"
           collapsible
           className="w-full"
-          defaultValue={defaultOpenItem ? String(defaultOpenItem) : "ui"}
+          defaultValue={defaultOpenItem ? String(defaultOpenItem) : "backgrounds"}
         >
           {tree.children.map((item) => (
             <AccordionItem key={item.$id} value={String(item.$id)}>

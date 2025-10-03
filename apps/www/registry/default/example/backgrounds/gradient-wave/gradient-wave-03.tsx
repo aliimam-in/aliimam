@@ -4,14 +4,16 @@ import { GradientWave } from "@/registry/default/components/gradient-wave";
 
 export default function HeroSection() {
   return (
-     <div className="h-full w-full flex items-center justify-center relative">
+    <div className="h-full w-full flex items-center justify-center relative">
       <GradientWave
-        gradientColors={["#e0eaff", "#241d9a", "#f75092", "#9f50d3"]}
-        width="100%"
-        height="100%"
+        colors={["#ffffff", "#000000", "#ffffff", "#000000", "#ffffff", "#000000"]}
+        shadowPower={10}  
+        noiseSpeed={0.000005} 
+        noiseFrequency={[0.00005, 0.0005]}
+        deform={{ incline: 2.5, noiseAmp: 50, noiseFlow: 5 }}
       />
 
-      <h1 className="text-white text-5xl font-bold text-center z-10">
+      <h1 className="text-white tracking-tighter text-7xl font-bold text-center z-10">
         Gradient Wave
       </h1>
     </div>

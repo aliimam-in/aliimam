@@ -22,4 +22,24 @@ export const components: Registry["items"] = [
       },
     ],
   },
+  {
+    name: "marquee",
+    type: "registry:component", 
+    files: [
+      {
+        path: "components/marquee.tsx",
+        type: "registry:component",
+      },
+    ],
+  },
+  {
+    name: "device",
+    type: "registry:component", 
+    files: [
+      {
+        path: "components/device.tsx",
+        type: "registry:component",
+      },
+    ],
+  },
 ]

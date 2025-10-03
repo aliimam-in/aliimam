@@ -158,6 +158,7 @@ export const blocks: Registry["items"] = [
   {
     name: "hero-01",
     description: "A simple hero section.",
+    registryDependencies: ["button", "gradient-mesh"],
     type: "registry:block",
     files: [
       {
@@ -174,6 +175,8 @@ export const blocks: Registry["items"] = [
   {
     name: "hero-02",
     description: "A simple hero section.",
+    dependencies: ["@aliimam/logos"],
+    registryDependencies: ["button", "gradient-wave", "marquee"],
     type: "registry:block",
     files: [
       {

@@ -1262,6 +1262,10 @@
       "name": "hero-01",
       "type": "registry:block",
       "description": "A simple hero section.",
+      "registryDependencies": [
+        "button",
+        "gradient-mesh"
+      ],
       "files": [
         {
           "path": "registry/default/blocks/hero/hero-01/page.tsx",
@@ -1280,6 +1284,14 @@
       "name": "hero-02",
       "type": "registry:block",
       "description": "A simple hero section.",
+      "dependencies": [
+        "@aliimam/logos"
+      ],
+      "registryDependencies": [
+        "button",
+        "gradient-wave",
+        "marquee"
+      ],
       "files": [
         {
           "path": "registry/default/blocks/hero/hero-02/page.tsx",
@@ -1523,6 +1535,26 @@
       "files": [
         {
           "path": "registry/default/components/gradient-wave.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "marquee",
+      "type": "registry:component",
+      "files": [
+        {
+          "path": "registry/default/components/marquee.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "device",
+      "type": "registry:component",
+      "files": [
+        {
+          "path": "registry/default/components/device.tsx",
           "type": "registry:component"
         }
       ]

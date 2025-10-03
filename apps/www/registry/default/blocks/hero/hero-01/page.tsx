@@ -10,11 +10,17 @@ export default function HeroSection() {
       {/* GradientWave behind the text */}
       <GradientMesh />
       <div className="flex flex-col text-center">
-        <h2 className="font-extrabold text-black mix-blend-overlay tracking-tighter text-7xl md:text-7xl lg:text-9xl">
-            Design <br/> without Limits
-          </h2>
+        <img
+          src="/ai-logo.png"
+          alt="Your Image"
+          height={50}
+          width={50}
+          className="h-30 z-40 w-full object-contain"
+        />
+        <h2 className="font-extrabold pt-10 text-black mix-blend-overlay tracking-tighter text-7xl md:text-7xl lg:text-9xl">
+          Design <br /> without Limits
+        </h2>
         <div className="space-y-6 z-10 pt-20 flex justify-center items-center flex-col text-center px-6">
-          
           <p className="text-black w-full  max-w-lg font-light text-sm md:text-xl">
             I create digital experiences that connect and inspire. I build apps,
             websites, brands, and products end-to-end.

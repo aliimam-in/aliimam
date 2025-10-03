@@ -18,7 +18,7 @@ export default function DocsLayout({
         <BlocksNav />
         <BlockThemeSelector/>
       </div> 
-      <div className="h-full pt-20 mx-auto max-w-7xl w-full">{children}</div>
+      <div className="h-full pt-20 mx-auto max-w-[1400px] w-full">{children}</div>
     </div>
   );
 }

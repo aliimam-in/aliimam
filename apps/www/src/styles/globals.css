@@ -402,3 +402,18 @@
     transform: skew(-13deg) translateX(100%);
   }
 }
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-20px);  
+    transform: translateY(-20px) rotate(3deg);  
+  }
+}
+
+.float-updown {
+  animation: float 3s ease-in-out infinite;
+}

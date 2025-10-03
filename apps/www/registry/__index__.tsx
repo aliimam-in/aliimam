@@ -1488,7 +1488,7 @@ export const Index: Record<string, any> = {
     name: "hero-01",
     description: "A simple hero section.",
     type: "registry:block",
-    registryDependencies: undefined,
+    registryDependencies: ["button","gradient-mesh"],
     files: [{
       path: "registry/default/blocks/hero/hero-01/page.tsx",
       type: "registry:component",
@@ -1506,7 +1506,7 @@ export const Index: Record<string, any> = {
     name: "hero-02",
     description: "A simple hero section.",
     type: "registry:block",
-    registryDependencies: undefined,
+    registryDependencies: ["button","gradient-wave","marquee"],
     files: [{
       path: "registry/default/blocks/hero/hero-02/page.tsx",
       type: "registry:component",
@@ -1718,6 +1718,42 @@ export const Index: Record<string, any> = {
     }],
     component: React.lazy(async () => {
       const mod = await import("@/registry/default/components/gradient-wave.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "marquee": {
+    name: "marquee",
+    description: "",
+    type: "registry:component",
+    registryDependencies: undefined,
+    files: [{
+      path: "registry/default/components/marquee.tsx",
+      type: "registry:component",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/components/marquee.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "device": {
+    name: "device",
+    description: "",
+    type: "registry:component",
+    registryDependencies: undefined,
+    files: [{
+      path: "registry/default/components/device.tsx",
+      type: "registry:component",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/components/device.tsx")
       const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
       return { default: mod.default || mod[exportName] }
     }),
