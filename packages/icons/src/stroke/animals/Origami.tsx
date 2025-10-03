@@ -1,0 +1,64 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const Origami: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function Origami(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <path
+        d="M12 12V4C12 3.735 12.105 3.48 12.293 3.293 12.48 3.105 12.735 3 13 3H19.297C19.501 3 19.701 3.063 19.868 3.179 20.036 3.296 20.164 3.461 20.235 3.653 20.306 3.844 20.316 4.053 20.265 4.251 20.214 4.449 20.103 4.626 19.948 4.759L15.252 8.784M12 21 4.586 13.586C4.211 13.211 4 12.702 4 12.172V6.415C4.001 6.218 4.06 6.025 4.17 5.861 4.28 5.697 4.436 5.57 4.619 5.494 4.801 5.419 5.001 5.399 5.195 5.437 5.389 5.475 5.567 5.569 5.707 5.708L20 20.009"
+        stroke={color}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M12.214 3.381L20.628 18.347C20.7351 18.5376 20.7767 18.7581 20.7465 18.9746C20.7164 19.1912 20.6161 19.3919 20.461 19.546L19.293 20.709C19.1054 20.8956 18.8516 21.0002 18.587 21H6.35101C6.12385 21.0001 5.90342 20.9229 5.72601 20.781L3.25001 18.8C3.08772 18.6702 2.96988 18.4931 2.91288 18.2933C2.85587 18.0935 2.86253 17.8809 2.93192 17.685C3.00132 17.4892 3.13 17.3198 3.30009 17.2004C3.47017 17.0811 3.67322 17.0176 3.88101 17.019L8.04601 17.046"
+        stroke={color}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+});
+
+Origami.displayName = "Origami";
+
+Origami.metadata = {
+  name: "Origami",
+  category: "stroke/animals",
+  tags: ["origami", "icon"],
+  description: "Origami icon from stroke/animals category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default Origami;

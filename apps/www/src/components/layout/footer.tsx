@@ -19,7 +19,7 @@ const navigation = {
           name: "About",
           items: [
             { name: "About", href: "/about" },
-            { name: "Components", href: "/components" },
+            { name: "Works", href: "/works" },
             { name: "Pricing", href: "/pricing" },
           ],
         },
@@ -30,6 +30,24 @@ const navigation = {
             { name: "Templates", href: "/templates" },
             { name: "Blocks", href: "/blocks" },
             { name: "components", href: "/docs/ui" },
+          ],
+        },
+        {
+          id: "designs",
+          name: "Designs",
+          items: [
+            { name: "Graphic", href: "/graphics" },
+            { name: "Backgrounds", href: "/backgrounds" },
+            { name: "Designs", href: "/designs" },
+          ],
+        },
+        {
+          id: "icons",
+          name: "Icons",
+          items: [
+            { name: "Icons", href: "/icons" },
+            { name: "Logos", href: "/logos" },
+            { name: "Flags", href: "/flags" },
           ],
         },
         {
@@ -54,7 +72,7 @@ export function Footer() {
         {navigation.categories.map((category) => (
           <div
             key={category.name}
-            className="grid text-center grid-cols-3 gap-6"
+            className="grid text-center grid-cols-2 md:grid-cols-5 gap-6"
           >
             {category.sections.map((section) => (
               <div key={section.name}>

@@ -28,9 +28,9 @@ const components: { title: string; href: string; description: string }[] = [
       "Vibrant, accessible color palette for intuitive, seamless UI design and components.",
   },  
   {
-    title: "Blocks",
-    href: "/blocks",
-    description: "Modular, flexible UI blocks for intuitive, seamless design and robust functionality.",
+    title: "Easings",
+    href: "/easings",
+    description: "A set of easing functions ready to copy and paste into your Tailwind CSS project.",
   },
   {
     title: "UI",
@@ -104,6 +104,14 @@ export function Menus() {
             className={cn(navigationMenuTriggerStyle(), "bg-transparent")}
           >
             <Link href="/icons">Icons</Link>
+          </NavigationMenuLink>
+        </NavigationMenuItem>
+        <NavigationMenuItem>
+          <NavigationMenuLink
+            asChild
+            className={cn(navigationMenuTriggerStyle(), "bg-transparent")}
+          >
+            <Link href="/backgrounds">Graphics</Link>
           </NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem>

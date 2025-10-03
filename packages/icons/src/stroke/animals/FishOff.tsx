@@ -1,0 +1,70 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const FishOff: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function FishOff(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <path
+        d="M18 12.5V12.47V12M17.525 17.526C16.7215 17.8443 15.8643 18.0053 15 18C11.44 18 7.44 15.47 6.5 12C6.848 10.72 7.614 9.567 8.621 8.62M12.065 6.532C13.0059 6.18898 13.9985 6.00907 15 6C18.56 6 21.06 8.54 22 12C21.691 13.14 21.214 14.177 20.587 15.058"
+        stroke={color}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M6.99998 10.67C6.99998 8 5.57998 5.97 2.72998 5.5C1.72998 7 1.72998 10.5 2.95998 12C1.71998 13.5 1.71998 17 2.72998 18.5C5.57998 18.03 6.99998 16 6.99998 13.33M14.48 8.958C14.8211 7.91692 15.335 6.94064 16 6.07M16 17.93C15.1801 16.8564 14.5917 15.6245 14.272 14.312"
+        stroke={color}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M16.01 17.93L15.78 19.33C15.7017 19.798 15.4596 20.2229 15.0969 20.5288C14.7342 20.8348 14.2745 21.0018 13.8 21H9.5C10.4689 19.9015 10.9993 18.4847 10.99 17.02M8.53 3H13.8C14.2745 2.99824 14.7342 3.16524 15.0969 3.47117C15.4596 3.77709 15.7017 4.202 15.78 4.67L16.01 6.07M2 2L22 22"
+        stroke={color}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+});
+
+FishOff.displayName = "FishOff";
+
+FishOff.metadata = {
+  name: "FishOff",
+  category: "stroke/animals",
+  tags: ["fish", "off", "icon"],
+  description: "FishOff icon from stroke/animals category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default FishOff;

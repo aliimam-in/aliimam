@@ -50,7 +50,7 @@ export function Works() {
           </div>, 
         ]}
       />
-      <Link className="flex justify-center mt-10" href="#">
+      <Link className="flex justify-center mt-10" href="/works">
         <Button className="h-14 cursor-pointer rounded-full px-10">
           See All Works
         </Button>

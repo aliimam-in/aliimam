@@ -1,5 +1,117 @@
 {
   "components": {
+    "Activity": {
+      "name": "Activity",
+      "path": "src/stroke/accountsAccess/Activity.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "AtSign": {
+      "name": "AtSign",
+      "path": "src/stroke/accountsAccess/AtSign.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "Award": {
+      "name": "Award",
+      "path": "src/stroke/accountsAccess/Award.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "Badge": {
+      "name": "Badge",
+      "path": "src/stroke/accountsAccess/Badge.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "BadgeAlert": {
+      "name": "BadgeAlert",
+      "path": "src/stroke/accountsAccess/BadgeAlert.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "BadgeInfo": {
+      "name": "BadgeInfo",
+      "path": "src/stroke/accessibility/BadgeInfo.tsx",
+      "category": "stroke",
+      "subcategory": "accessibility",
+      "size": "16"
+    },
+    "Ban": {
+      "name": "Ban",
+      "path": "src/stroke/accountsAccess/Ban.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "Bell": {
+      "name": "Bell",
+      "path": "src/stroke/accountsAccess/Bell.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "BellDot": {
+      "name": "BellDot",
+      "path": "src/stroke/accountsAccess/BellDot.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "BookUser": {
+      "name": "BookUser",
+      "path": "src/stroke/accountsAccess/BookUser.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "Bookmark": {
+      "name": "Bookmark",
+      "path": "src/stroke/accountsAccess/Bookmark.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "BookmarkCheck": {
+      "name": "BookmarkCheck",
+      "path": "src/stroke/accountsAccess/BookmarkCheck.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "BookmarkMinus": {
+      "name": "BookmarkMinus",
+      "path": "src/stroke/accountsAccess/BookmarkMinus.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "BookmarkPlus": {
+      "name": "BookmarkPlus",
+      "path": "src/stroke/accountsAccess/BookmarkPlus.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "BookmarkX": {
+      "name": "BookmarkX",
+      "path": "src/stroke/accountsAccess/BookmarkX.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "Building": {
+      "name": "Building",
+      "path": "src/stroke/accountsAccess/Building.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
     "Moon": {
       "name": "Moon",
       "path": "src/stroke/accessibility/Moon.tsx",
@@ -24,13 +136,6 @@
     "Baby": {
       "name": "Baby",
       "path": "src/stroke/accessibility/Baby.tsx",
-      "category": "stroke",
-      "subcategory": "accessibility",
-      "size": "16"
-    },
-    "BadgeInfo": {
-      "name": "BadgeInfo",
-      "path": "src/stroke/accessibility/BadgeInfo.tsx",
       "category": "stroke",
       "subcategory": "accessibility",
       "size": "16"
@@ -222,6 +327,335 @@
       "path": "src/stroke/mathematics/X.tsx",
       "category": "stroke",
       "subcategory": "mathematics",
+      "size": "16"
+    },
+    "Bird": {
+      "name": "Bird",
+      "path": "src/stroke/animals/Bird.tsx",
+      "category": "stroke",
+      "subcategory": "animals",
+      "size": "16"
+    },
+    "Fish": {
+      "name": "Fish",
+      "path": "src/stroke/animals/Fish.tsx",
+      "category": "stroke",
+      "subcategory": "animals",
+      "size": "16"
+    },
+    "Squirrel": {
+      "name": "Squirrel",
+      "path": "src/stroke/animals/Squirrel.tsx",
+      "category": "stroke",
+      "subcategory": "animals",
+      "size": "16"
+    },
+    "Bone": {
+      "name": "Bone",
+      "path": "src/stroke/animals/Bone.tsx",
+      "category": "stroke",
+      "subcategory": "animals",
+      "size": "16"
+    },
+    "FishOff": {
+      "name": "FishOff",
+      "path": "src/stroke/animals/FishOff.tsx",
+      "category": "stroke",
+      "subcategory": "animals",
+      "size": "16"
+    },
+    "Turtle": {
+      "name": "Turtle",
+      "path": "src/stroke/animals/Turtle.tsx",
+      "category": "stroke",
+      "subcategory": "animals",
+      "size": "16"
+    },
+    "Bug": {
+      "name": "Bug",
+      "path": "src/stroke/animals/Bug.tsx",
+      "category": "stroke",
+      "subcategory": "animals",
+      "size": "16"
+    },
+    "FishSymbol": {
+      "name": "FishSymbol",
+      "path": "src/stroke/animals/FishSymbol.tsx",
+      "category": "stroke",
+      "subcategory": "animals",
+      "size": "16"
+    },
+    "Worm": {
+      "name": "Worm",
+      "path": "src/stroke/animals/Worm.tsx",
+      "category": "stroke",
+      "subcategory": "animals",
+      "size": "16"
+    },
+    "BugOff": {
+      "name": "BugOff",
+      "path": "src/stroke/animals/BugOff.tsx",
+      "category": "stroke",
+      "subcategory": "animals",
+      "size": "16"
+    },
+    "Origami": {
+      "name": "Origami",
+      "path": "src/stroke/animals/Origami.tsx",
+      "category": "stroke",
+      "subcategory": "animals",
+      "size": "16"
+    },
+    "BugPlay": {
+      "name": "BugPlay",
+      "path": "src/stroke/animals/BugPlay.tsx",
+      "category": "stroke",
+      "subcategory": "animals",
+      "size": "16"
+    },
+    "Panda": {
+      "name": "Panda",
+      "path": "src/stroke/animals/Panda.tsx",
+      "category": "stroke",
+      "subcategory": "animals",
+      "size": "16"
+    },
+    "Cat": {
+      "name": "Cat",
+      "path": "src/stroke/animals/Cat.tsx",
+      "category": "stroke",
+      "subcategory": "animals",
+      "size": "16"
+    },
+    "PawPrint": {
+      "name": "PawPrint",
+      "path": "src/stroke/animals/PawPrint.tsx",
+      "category": "stroke",
+      "subcategory": "animals",
+      "size": "16"
+    },
+    "Dog": {
+      "name": "Dog",
+      "path": "src/stroke/animals/Dog.tsx",
+      "category": "stroke",
+      "subcategory": "animals",
+      "size": "16"
+    },
+    "Shrimp": {
+      "name": "Shrimp",
+      "path": "src/stroke/animals/Shrimp.tsx",
+      "category": "stroke",
+      "subcategory": "animals",
+      "size": "16"
+    },
+    "Egg": {
+      "name": "Egg",
+      "path": "src/stroke/animals/Egg.tsx",
+      "category": "stroke",
+      "subcategory": "animals",
+      "size": "16"
+    },
+    "Snail": {
+      "name": "Snail",
+      "path": "src/stroke/animals/Snail.tsx",
+      "category": "stroke",
+      "subcategory": "animals",
+      "size": "16"
+    },
+    "ChartArea": {
+      "name": "ChartArea",
+      "path": "src/stroke/charts/ChartArea.tsx",
+      "category": "stroke",
+      "subcategory": "charts",
+      "size": "16"
+    },
+    "ChartBar": {
+      "name": "ChartBar",
+      "path": "src/stroke/charts/ChartBar.tsx",
+      "category": "stroke",
+      "subcategory": "charts",
+      "size": "16"
+    },
+    "ChartBarBig": {
+      "name": "ChartBarBig",
+      "path": "src/stroke/charts/ChartBarBig.tsx",
+      "category": "stroke",
+      "subcategory": "charts",
+      "size": "16"
+    },
+    "ChartBarDecreasing": {
+      "name": "ChartBarDecreasing",
+      "path": "src/stroke/charts/ChartBarDecreasing.tsx",
+      "category": "stroke",
+      "subcategory": "charts",
+      "size": "16"
+    },
+    "ChartBarIncreasing": {
+      "name": "ChartBarIncreasing",
+      "path": "src/stroke/charts/ChartBarIncreasing.tsx",
+      "category": "stroke",
+      "subcategory": "charts",
+      "size": "16"
+    },
+    "ChartBarStacked": {
+      "name": "ChartBarStacked",
+      "path": "src/stroke/charts/ChartBarStacked.tsx",
+      "category": "stroke",
+      "subcategory": "charts",
+      "size": "16"
+    },
+    "ChartCandlestick": {
+      "name": "ChartCandlestick",
+      "path": "src/stroke/charts/ChartCandlestick.tsx",
+      "category": "stroke",
+      "subcategory": "charts",
+      "size": "16"
+    },
+    "ChartColumn": {
+      "name": "ChartColumn",
+      "path": "src/stroke/charts/ChartColumn.tsx",
+      "category": "stroke",
+      "subcategory": "charts",
+      "size": "16"
+    },
+    "ChartColumnBig": {
+      "name": "ChartColumnBig",
+      "path": "src/stroke/charts/ChartColumnBig.tsx",
+      "category": "stroke",
+      "subcategory": "charts",
+      "size": "16"
+    },
+    "ChartColumnDecreasing": {
+      "name": "ChartColumnDecreasing",
+      "path": "src/stroke/charts/ChartColumnDecreasing.tsx",
+      "category": "stroke",
+      "subcategory": "charts",
+      "size": "16"
+    },
+    "ChartColumnIncreasing": {
+      "name": "ChartColumnIncreasing",
+      "path": "src/stroke/charts/ChartColumnIncreasing.tsx",
+      "category": "stroke",
+      "subcategory": "charts",
+      "size": "16"
+    },
+    "ChartColumnStacked": {
+      "name": "ChartColumnStacked",
+      "path": "src/stroke/charts/ChartColumnStacked.tsx",
+      "category": "stroke",
+      "subcategory": "charts",
+      "size": "16"
+    },
+    "ChartGantt": {
+      "name": "ChartGantt",
+      "path": "src/stroke/charts/ChartGantt.tsx",
+      "category": "stroke",
+      "subcategory": "charts",
+      "size": "16"
+    },
+    "ChartLine": {
+      "name": "ChartLine",
+      "path": "src/stroke/charts/ChartLine.tsx",
+      "category": "stroke",
+      "subcategory": "charts",
+      "size": "16"
+    },
+    "ChartNoAxesColumnIncreasing": {
+      "name": "ChartNoAxesColumnIncreasing",
+      "path": "src/stroke/charts/ChartNoAxesColumnIncreasing.tsx",
+      "category": "stroke",
+      "subcategory": "charts",
+      "size": "16"
+    },
+    "ChartNoAxesCombined": {
+      "name": "ChartNoAxesCombined",
+      "path": "src/stroke/charts/ChartNoAxesCombined.tsx",
+      "category": "stroke",
+      "subcategory": "charts",
+      "size": "16"
+    },
+    "ChartNoAxesGantt": {
+      "name": "ChartNoAxesGantt",
+      "path": "src/stroke/charts/ChartNoAxesGantt.tsx",
+      "category": "stroke",
+      "subcategory": "charts",
+      "size": "16"
+    },
+    "ChartPie": {
+      "name": "ChartPie",
+      "path": "src/stroke/charts/ChartPie.tsx",
+      "category": "stroke",
+      "subcategory": "charts",
+      "size": "16"
+    },
+    "ChartScatter": {
+      "name": "ChartScatter",
+      "path": "src/stroke/charts/ChartScatter.tsx",
+      "category": "stroke",
+      "subcategory": "charts",
+      "size": "16"
+    },
+    "ChartSpline": {
+      "name": "ChartSpline",
+      "path": "src/stroke/charts/ChartSpline.tsx",
+      "category": "stroke",
+      "subcategory": "charts",
+      "size": "16"
+    },
+    "FolderKanban": {
+      "name": "FolderKanban",
+      "path": "src/stroke/charts/FolderKanban.tsx",
+      "category": "stroke",
+      "subcategory": "charts",
+      "size": "16"
+    },
+    "Kanban": {
+      "name": "Kanban",
+      "path": "src/stroke/charts/Kanban.tsx",
+      "category": "stroke",
+      "subcategory": "charts",
+      "size": "16"
+    },
+    "SquareChartGantt": {
+      "name": "SquareChartGantt",
+      "path": "src/stroke/charts/SquareChartGantt.tsx",
+      "category": "stroke",
+      "subcategory": "charts",
+      "size": "16"
+    },
+    "SquareDashedKanban": {
+      "name": "SquareDashedKanban",
+      "path": "src/stroke/charts/SquareDashedKanban.tsx",
+      "category": "stroke",
+      "subcategory": "charts",
+      "size": "16"
+    },
+    "SquareKanban": {
+      "name": "SquareKanban",
+      "path": "src/stroke/charts/SquareKanban.tsx",
+      "category": "stroke",
+      "subcategory": "charts",
+      "size": "16"
+    },
+    "TrendingDown": {
+      "name": "TrendingDown",
+      "path": "src/stroke/charts/TrendingDown.tsx",
+      "category": "stroke",
+      "subcategory": "charts",
+      "size": "16"
+    },
+    "TrendingUp": {
+      "name": "TrendingUp",
+      "path": "src/stroke/charts/TrendingUp.tsx",
+      "category": "stroke",
+      "subcategory": "charts",
+      "size": "16"
+    },
+    "TrendingUpDown": {
+      "name": "TrendingUpDown",
+      "path": "src/stroke/charts/TrendingUpDown.tsx",
+      "category": "stroke",
+      "subcategory": "charts",
       "size": "16"
     },
     "ArrowBigDown": {
@@ -579,111 +1013,6 @@
       "path": "src/stroke/arrows/ChevronsDown.tsx",
       "category": "stroke",
       "subcategory": "arrows",
-      "size": "16"
-    },
-    "Activity": {
-      "name": "Activity",
-      "path": "src/stroke/accountsAccess/Activity.tsx",
-      "category": "stroke",
-      "subcategory": "accountsAccess",
-      "size": "16"
-    },
-    "AtSign": {
-      "name": "AtSign",
-      "path": "src/stroke/accountsAccess/AtSign.tsx",
-      "category": "stroke",
-      "subcategory": "accountsAccess",
-      "size": "16"
-    },
-    "Award": {
-      "name": "Award",
-      "path": "src/stroke/accountsAccess/Award.tsx",
-      "category": "stroke",
-      "subcategory": "accountsAccess",
-      "size": "16"
-    },
-    "Badge": {
-      "name": "Badge",
-      "path": "src/stroke/accountsAccess/Badge.tsx",
-      "category": "stroke",
-      "subcategory": "accountsAccess",
-      "size": "16"
-    },
-    "BadgeAlert": {
-      "name": "BadgeAlert",
-      "path": "src/stroke/accountsAccess/BadgeAlert.tsx",
-      "category": "stroke",
-      "subcategory": "accountsAccess",
-      "size": "16"
-    },
-    "Ban": {
-      "name": "Ban",
-      "path": "src/stroke/accountsAccess/Ban.tsx",
-      "category": "stroke",
-      "subcategory": "accountsAccess",
-      "size": "16"
-    },
-    "Bell": {
-      "name": "Bell",
-      "path": "src/stroke/accountsAccess/Bell.tsx",
-      "category": "stroke",
-      "subcategory": "accountsAccess",
-      "size": "16"
-    },
-    "BellDot": {
-      "name": "BellDot",
-      "path": "src/stroke/accountsAccess/BellDot.tsx",
-      "category": "stroke",
-      "subcategory": "accountsAccess",
-      "size": "16"
-    },
-    "BookUser": {
-      "name": "BookUser",
-      "path": "src/stroke/accountsAccess/BookUser.tsx",
-      "category": "stroke",
-      "subcategory": "accountsAccess",
-      "size": "16"
-    },
-    "Bookmark": {
-      "name": "Bookmark",
-      "path": "src/stroke/accountsAccess/Bookmark.tsx",
-      "category": "stroke",
-      "subcategory": "accountsAccess",
-      "size": "16"
-    },
-    "BookmarkCheck": {
-      "name": "BookmarkCheck",
-      "path": "src/stroke/accountsAccess/BookmarkCheck.tsx",
-      "category": "stroke",
-      "subcategory": "accountsAccess",
-      "size": "16"
-    },
-    "BookmarkMinus": {
-      "name": "BookmarkMinus",
-      "path": "src/stroke/accountsAccess/BookmarkMinus.tsx",
-      "category": "stroke",
-      "subcategory": "accountsAccess",
-      "size": "16"
-    },
-    "BookmarkPlus": {
-      "name": "BookmarkPlus",
-      "path": "src/stroke/accountsAccess/BookmarkPlus.tsx",
-      "category": "stroke",
-      "subcategory": "accountsAccess",
-      "size": "16"
-    },
-    "BookmarkX": {
-      "name": "BookmarkX",
-      "path": "src/stroke/accountsAccess/BookmarkX.tsx",
-      "category": "stroke",
-      "subcategory": "accountsAccess",
-      "size": "16"
-    },
-    "Building": {
-      "name": "Building",
-      "path": "src/stroke/accountsAccess/Building.tsx",
-      "category": "stroke",
-      "subcategory": "accountsAccess",
       "size": "16"
     },
     "Building2": {
@@ -1473,6 +1802,24 @@
   },
   "categories": {
     "solid": {
+      "accountsAccess": [
+        "Activity",
+        "AtSign",
+        "Award",
+        "Badge",
+        "BadgeAlert",
+        "BadgeInfo",
+        "Ban",
+        "Bell",
+        "BellDot",
+        "BookUser",
+        "Bookmark",
+        "BookmarkCheck",
+        "BookmarkMinus",
+        "BookmarkPlus",
+        "BookmarkX",
+        "Building"
+      ],
       "accessibility": [
         "Moon",
         "Sun",
@@ -1508,6 +1855,57 @@
     },
     "stroke": {
       "mathematics": ["Equal", "X"],
+      "animals": [
+        "Bird",
+        "Fish",
+        "Squirrel",
+        "Bone",
+        "FishOff",
+        "Turtle",
+        "Bug",
+        "FishSymbol",
+        "Worm",
+        "BugOff",
+        "Origami",
+        "BugPlay",
+        "Panda",
+        "Cat",
+        "PawPrint",
+        "Dog",
+        "Shrimp",
+        "Egg",
+        "Snail"
+      ],
+      "charts": [
+        "ChartArea",
+        "ChartBar",
+        "ChartBarBig",
+        "ChartBarDecreasing",
+        "ChartBarIncreasing",
+        "ChartBarStacked",
+        "ChartCandlestick",
+        "ChartColumn",
+        "ChartColumnBig",
+        "ChartColumnDecreasing",
+        "ChartColumnIncreasing",
+        "ChartColumnStacked",
+        "ChartGantt",
+        "ChartLine",
+        "ChartNoAxesColumnIncreasing",
+        "ChartNoAxesCombined",
+        "ChartNoAxesGantt",
+        "ChartPie",
+        "ChartScatter",
+        "ChartSpline",
+        "FolderKanban",
+        "Kanban",
+        "SquareChartGantt",
+        "SquareDashedKanban",
+        "SquareKanban",
+        "TrendingDown",
+        "TrendingUp",
+        "TrendingUpDown"
+      ],
       "arrows": [
         "ArrowBigDown",
         "ArrowBigDowDash",
@@ -1726,5 +2124,5 @@
       ]
     }
   },
-  "total": 210
+  "total": 257
 }

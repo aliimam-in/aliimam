@@ -9,7 +9,7 @@ export default function BlocksPage() {
       data-slot="colors"
       className="flex relative items-stretch text-[1.05rem] sm:text-[15px] xl:w-full"
     >
-      <div className="flex  min-w-0 flex-1 border rounded-md flex-col">
+      <div className="flex  min-w-0 flex-1 flex-col">
         
         <div className="px-6 flex flex-1 gap-10 pb-10 md:gap-20 min-w-0 flex-col">
           <div className="space-y-6 my-6 md:my-10 text-center px-6">

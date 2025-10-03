@@ -2,7 +2,6 @@ export { default as Moon } from "./Moon";
 export { default as Sun } from "./Sun";
 export { default as Accessibility } from "./Accessibility";
 export { default as Baby } from "./Baby";
-export { default as BadgeInfo } from "./BadgeInfo";
 export { default as BadgeQuestionMark } from "./BadgeQuestionMark";
 export { default as CircleQuestionMark } from "./CircleQuestionMark";
 export { default as ClosedCaption } from "./ClosedCaption";

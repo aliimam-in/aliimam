@@ -45,12 +45,14 @@ export function Hero() {
               Book an Intro Call
             </Button>
           </Link>
+          <Link href="/blocks">
           <Button
             variant={"outline"}
             className="h-12 md:h-14 cursor-pointer rounded-full px-8 md:px-10"
           >
             Get Started Explore
           </Button>
+          </Link>
         </div>
       </div>
       <Clients className="hidden md:block absolute bottom-6" />
