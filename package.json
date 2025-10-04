@@ -4,6 +4,8 @@
   "scripts": {
     "build": "turbo run build",
     "build:www": "turbo run build --filter=www...",
+    "build:icons": "turbo run build --filter=icons...",
+    "build:logos": "turbo run build --filter=logos...",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",

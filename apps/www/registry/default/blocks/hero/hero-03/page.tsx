@@ -3,7 +3,7 @@ import { BadgeQuestionMark } from "@aliimam/icons";
 import { Instagram, Threads, X } from "@aliimam/logos";
 import React from "react";
 
-export default function PortfolioHero() {
+export default function HeroSection03() {
   return (
     <div className="min-h-screen relative">
       <div className="w-full absolute h-full z-0 bg-[radial-gradient(circle,_black_1px,_transparent_1px)] dark:bg-[radial-gradient(circle,_white_1px,_transparent_1px)] opacity-15 [background-size:20px_20px]"/>
@@ -43,11 +43,11 @@ export default function PortfolioHero() {
           </nav>
         </header>
 
-        <main className="relative pt-20 md:pt-40 pb-20">
+        <main className="relative pt-20 pb-20">
           <div className="flex relative gap-2 px-6 md:items-center w-full flex-col justify-center">
             <div className="md:flex gap-6 items-center">
               <p className="text-xs text-muted-foreground md:text-sm text-start md:text-right leading-5 max-w-[220px] md:max-w-[180px]">
-                I am korean digital product designer based in Beijing, China.
+                I am india digital product designer based in Bokaro Steel City, India.
               </p>
               <h1 className="text-6xl md:text-7xl xl:text-[10rem] font-light leading-none tracking-wider">
                 DIGITAL
@@ -99,7 +99,7 @@ export default function PortfolioHero() {
             </div>
           </div>
           <div className="mx-auto max-w-7xl w-full px-6 gap-3">
-            <div className="md:flex grid md:justify-end items-center gap-3">
+            <div className="md:flex md:mx-8 grid md:justify-end items-center gap-3">
               <Separator className="w-full my-6 mx-auto max-w-3xl" />
               <div className="text-xs whitespace-nowrap md:text-sm">
                 BOKARO STEEL CITY, INDIA 827010

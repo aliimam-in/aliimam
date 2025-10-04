@@ -1273,9 +1273,6 @@
           "target": "components/hero-01.tsx"
         }
       ],
-      "meta": {
-        "iframeHeight": "900px"
-      },
       "categories": [
         "hero"
       ]
@@ -1299,9 +1296,6 @@
           "target": "components/hero-02.tsx"
         }
       ],
-      "meta": {
-        "iframeHeight": "900px"
-      },
       "categories": [
         "hero"
       ]
@@ -1317,9 +1311,6 @@
           "target": "components/hero-03.tsx"
         }
       ],
-      "meta": {
-        "iframeHeight": "900px"
-      },
       "categories": [
         "hero"
       ]
@@ -1328,6 +1319,9 @@
       "name": "hero-04",
       "type": "registry:block",
       "description": "A simple hero section.",
+      "dependencies": [
+        "@aliimam/icons"
+      ],
       "files": [
         {
           "path": "registry/default/blocks/hero/hero-04/page.tsx",
@@ -1335,9 +1329,6 @@
           "target": "components/hero-04.tsx"
         }
       ],
-      "meta": {
-        "iframeHeight": "900px"
-      },
       "categories": [
         "hero"
       ]
@@ -1346,6 +1337,17 @@
       "name": "hero-05",
       "type": "registry:block",
       "description": "A simple hero section.",
+      "dependencies": [
+        "@aliimam/logos",
+        "@aliimam/icons"
+      ],
+      "registryDependencies": [
+        "button",
+        "badge",
+        "card",
+        "marquee",
+        "blur"
+      ],
       "files": [
         {
           "path": "registry/default/blocks/hero/hero-05/page.tsx",
@@ -1353,9 +1355,6 @@
           "target": "components/hero-05.tsx"
         }
       ],
-      "meta": {
-        "iframeHeight": "900px"
-      },
       "categories": [
         "hero"
       ]
@@ -1535,6 +1534,16 @@
       "files": [
         {
           "path": "registry/default/components/gradient-wave.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "blur",
+      "type": "registry:component",
+      "files": [
+        {
+          "path": "registry/default/components/blur.tsx",
           "type": "registry:component"
         }
       ]

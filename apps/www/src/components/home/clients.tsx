@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
-import { cn } from "@/src/lib/utils";
-import { ProgressiveBlur } from "../ui/blur";
+import { cn } from "@/src/lib/utils"; 
 import { Marquee } from "../ui/marquee";
+import { Blur } from "@/registry/default/components/blur";
 
 const technologies = [
   { name: "JKtype", image: "/logos/c3-2.png" },
@@ -37,12 +37,12 @@ export function Clients({ className }: { className?: string }) {
             </Marquee> 
             <div className="bg-linear-to-r from-[oklch(0.141 0.005 285.823)] absolute inset-y-0 left-0 w-40"></div>
             <div className="bg-linear-to-l from-[oklch(0.141 0.005 285.823)] absolute inset-y-0 right-0 w-40"></div>
-            <ProgressiveBlur
+            <Blur
               className="pointer-events-none absolute left-0 top-0 h-full w-20"
               direction="left"
               blurIntensity={1}
             />
-            <ProgressiveBlur
+            <Blur
               className="pointer-events-none absolute right-0 top-0 h-full w-20"
               direction="right"
               blurIntensity={1}

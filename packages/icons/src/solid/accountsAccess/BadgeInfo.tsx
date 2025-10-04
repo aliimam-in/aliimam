@@ -47,7 +47,8 @@ export const BadgeInfo: IconComponent<BadgeInfoProps> = React.forwardRef<
         />
       </svg>
     );
-  } 
+  }
+ 
 
   if (type === "stroke") {
     return (

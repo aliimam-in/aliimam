@@ -1,4 +1,4 @@
-import React, { ReactNode } from "react";
+import React, { ReactNode, useEffect, useState } from "react";
 
 // Shared type for children
 interface ChildrenProps {
@@ -58,10 +58,27 @@ const NavigationMenuContent: React.FC<NavigationMenuContentProps> = ({
   children,
   isOpen = false,
 }) => {
-  if (!isOpen) return null;
+  const [visible, setVisible] = useState(isOpen);
+
+  useEffect(() => {
+    if (isOpen) {
+      setVisible(true); // mount immediately
+    } else {
+      // delay unmount until after fade-out
+      const timeout = setTimeout(() => setVisible(false), 400);
+      return () => clearTimeout(timeout);
+    }
+  }, [isOpen]);
+
+  if (!visible) return null;
 
   return (
-    <div className="fixed left-0 right-0 z-40 top-12 w-screen bg-foreground animate-in slide-in-from-top-2 duration-400">
+   <div
+      className={`fixed left-0 right-0 top-12 z-40 w-screen bg-foreground
+        transform transition-all duration-800 ease-[cubic-bezier(0.4,0,0.2,1)]
+        ${isOpen ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-4 pointer-events-none"}
+      `}
+    >
       <div className="w-full max-w-4xl mx-auto px-8 py-12">{children}</div>
     </div>
   );

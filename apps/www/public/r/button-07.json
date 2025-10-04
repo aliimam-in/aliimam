@@ -10,7 +10,7 @@
   "files": [
     {
       "path": "registry/default/example/button/button-07.tsx",
-      "content": "import { Button } from \"@/registry/default/ui/button\";\n\nexport default function ButtonDemo() {\n  return (\n    <div className=\"flex gap-3 items-center\">\n      <Button variant={\"animated-border\"}>Animated Border</Button>\n    </div>\n  );\n}\n",
+      "content": "import { Button } from \"@/registry/default/ui/button\";\n\nexport default function ButtonDemo() {\n  return (\n    <div className=\"flex gap-3 items-center\">\n      <Button >Animated Border</Button>\n    </div>\n  );\n}\n",
       "type": "registry:example"
     }
   ]

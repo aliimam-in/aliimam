@@ -103,7 +103,6 @@ export default async function Page({
         className="flex relative items-stretch text-[1.05rem] sm:text-[15px] xl:w-full"
       >
         <div className="flex min-w-0 flex-1 border rounded-md flex-col">
-          
           <main className="p-6 space-y-6">
             <div className="space-y-6 my-6 md:my-10 text-center px-6">
               <h2 className="font-extrabold tracking-tighter text-5xl md:text-7xl lg:text-9xl">
@@ -174,16 +173,18 @@ export default async function Page({
                     key={post.url}
                     className="group flex flex-col overflow-hidden rounded-xl border bg-card transition-all duration-200 hover:bg-accent/5"
                   >
-                    <Link href={post.url} className="flex flex-col h-full">
+                    <div className="flex flex-col h-full">
                       {post.data?.image && (
                         <div className="aspect-video overflow-hidden">
-                          <img
-                            src={post.data.image}
-                            alt={post.data?.title ?? post.url}
-                            width={640}
-                            height={360}
-                            className="h-full w-full object-cover"
-                          />
+                          <Link href={post.url}>
+                            <img
+                              src={post.data.image}
+                              alt={post.data?.title ?? post.url}
+                              width={640}
+                              height={360}
+                              className="h-full w-full object-cover"
+                            />
+                          </Link>
                         </div>
                       )}
 
@@ -228,14 +229,13 @@ export default async function Page({
                           )}
                         </div>
                       </div>
-                    </Link>
+                    </div>
                   </article>
                 ))}
               </div>
             )}
           </main>
         </div>
-        
       </div>
     </>
   );

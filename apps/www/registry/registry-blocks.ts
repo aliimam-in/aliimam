@@ -168,9 +168,7 @@ export const blocks: Registry["items"] = [
       },
     ],
     categories: ["hero"],
-    meta: {
-      iframeHeight: "900px",
-    },
+     
   },
   {
     name: "hero-02",
@@ -186,9 +184,7 @@ export const blocks: Registry["items"] = [
       },
     ],
     categories: ["hero"],
-    meta: {
-      iframeHeight: "900px",
-    },
+    
   },
   {
     name: "hero-03",
@@ -202,13 +198,12 @@ export const blocks: Registry["items"] = [
       },
     ],
     categories: ["hero"],
-    meta: {
-      iframeHeight: "900px",
-    },
+    
   },
   {
     name: "hero-04",
     description: "A simple hero section.",
+    dependencies: ["@aliimam/icons"],
     type: "registry:block",
     files: [
       {
@@ -218,13 +213,13 @@ export const blocks: Registry["items"] = [
       },
     ],
     categories: ["hero"],
-    meta: {
-      iframeHeight: "900px",
-    },
+    
   },
   {
     name: "hero-05",
     description: "A simple hero section.",
+    dependencies: ["@aliimam/logos", "@aliimam/icons"],
+    registryDependencies: ["button", "badge", "card", "marquee", "blur"],
     type: "registry:block",
     files: [
       {
@@ -234,9 +229,7 @@ export const blocks: Registry["items"] = [
       },
     ],
     categories: ["hero"],
-    meta: {
-      iframeHeight: "900px",
-    },
+    
   },
   {
     name: "dashboard-01",

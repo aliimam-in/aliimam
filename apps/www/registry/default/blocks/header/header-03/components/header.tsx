@@ -1,53 +1,53 @@
 "use client";
-import React, { useState } from 'react';
+import React, { useState } from "react";
 import {
   NavigationMenu,
   NavigationMenuContent,
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
-  NavigationMenuTrigger, 
-} from '@/registry/default/ui/navigation-menu';
-import { Button } from '@/registry/default/ui/button';
-import { Sheet, SheetContent, SheetTrigger } from '@/registry/default/ui/sheet';
+  NavigationMenuTrigger,
+} from "@/registry/default/ui/navigation-menu";
+import { Button } from "@/registry/default/ui/button";
+import { Sheet, SheetContent, SheetTrigger } from "@/registry/default/ui/sheet";
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from '@/registry/default/ui/accordion';
-import { ModeToggle } from '@/registry/default/blocks/header/header-03/components/theme-switch';
-import { ArrowUpRight, Equal, X } from '@aliimam/icons';
+} from "@/registry/default/ui/accordion";
+import { ModeToggle } from "@/registry/default/blocks/header/header-03/components/theme-switch";
+import { ArrowUpRight, Equal, X } from "@aliimam/icons";
 
 const services = [
-  { name: 'UI/UX Design', href: '/services/ui-ux-design' },
-  { name: 'Graphic Design', href: '/services/graphic-design' },
-  { name: 'Web Design', href: '/services/web-design' },
-  { name: 'Branding', href: '/services/branding' },
+  { name: "UI/UX Design", href: "/services/ui-ux-design" },
+  { name: "Graphic Design", href: "/services/graphic-design" },
+  { name: "Web Design", href: "/services/web-design" },
+  { name: "Branding", href: "/services/branding" },
 ];
 
 const industries = [
-  { name: 'Technology', href: '/industries/technology' },
-  { name: 'E-commerce', href: '/industries/e-commerce' },
-  { name: 'Healthcare', href: '/industries/healthcare' },
-  { name: 'Education', href: '/industries/education' },
-  { name: 'Finance', href: '/industries/finance' },
-  { name: 'Entertainment', href: '/industries/entertainment' },
-  { name: 'Retail', href: '/industries/retail' },
-  { name: 'Hospitality', href: '/industries/hospitality' },
+  { name: "Technology", href: "/industries/technology" },
+  { name: "E-commerce", href: "/industries/e-commerce" },
+  { name: "Healthcare", href: "/industries/healthcare" },
+  { name: "Education", href: "/industries/education" },
+  { name: "Finance", href: "/industries/finance" },
+  { name: "Entertainment", href: "/industries/entertainment" },
+  { name: "Retail", href: "/industries/retail" },
+  { name: "Hospitality", href: "/industries/hospitality" },
 ];
 
 const insights = [
-  { name: 'Design Trends', href: '/insights/design-trends' },
-  { name: 'Case Studies', href: '/insights/case-studies' },
-  { name: 'Design Tips', href: '/insights/design-tips' },
-  { name: 'Podcast Hub', href: '/insights/podcasts' },
+  { name: "Design Trends", href: "/insights/design-trends" },
+  { name: "Case Studies", href: "/insights/case-studies" },
+  { name: "Design Tips", href: "/insights/design-tips" },
+  { name: "Podcast Hub", href: "/insights/podcasts" },
 ];
 
 const aboutUs = [
-  { name: 'Our Team', href: '/about/team' },
-  { name: 'Portfolio', href: '/about/portfolio' },
-  { name: 'Careers', href: '/careers' },
+  { name: "Our Team", href: "/about/team" },
+  { name: "Portfolio", href: "/about/portfolio" },
+  { name: "Careers", href: "/careers" },
 ];
 
 export function Header() {
@@ -70,7 +70,9 @@ export function Header() {
                 width={50}
                 className="h-10 z-10 w-full object-contain"
               />
-              <span className="font-semibold pr-2 hidden md:block text-primary-foreground text-xl">Ali Imam</span>
+              <span className="font-semibold pr-2 hidden md:block text-primary-foreground text-xl">
+                Ali Imam
+              </span>
             </a>
           </div>
 
@@ -177,14 +179,14 @@ export function Header() {
                     </ul>
                   </NavigationMenuContent>
                 </NavigationMenuItem>
-              </NavigationMenuList> 
+              </NavigationMenuList>
             </NavigationMenu>
           </nav>
 
           {/* CTA Button */}
           <div className="hidden gap-1 lg:flex items-center">
             <ModeToggle />
-            <Button asChild size={"xxl"}>
+            <Button className="px-6 h-14 ">
               <a href="/contact" className="flex items-center gap-2">
                 Get in touch
                 <ArrowUpRight />
@@ -195,11 +197,18 @@ export function Header() {
           {/* Mobile Menu */}
           <Sheet open={isOpen} onOpenChange={setIsOpen}>
             <SheetTrigger asChild className="lg:hidden">
-              <Button variant="ghost" size="xxl">
-                {isOpen ? <X className="size-8" /> : <Equal className="size-8" />}
+              <Button variant="ghost">
+                {isOpen ? (
+                  <X className="size-8" />
+                ) : (
+                  <Equal className="size-8" />
+                )}
               </Button>
             </SheetTrigger>
-            <SheetContent side="right" className="w-full p-6 sm:w-[550px] overflow-y-auto">
+            <SheetContent
+              side="right"
+              className="w-full p-6 sm:w-[550px] overflow-y-auto"
+            >
               <div className="flex flex-col h-full">
                 <div className="flex-1 py-6">
                   <Accordion type="single" collapsible className="w-full">
@@ -290,8 +299,11 @@ export function Header() {
                 </div>
 
                 <div className="pb-6">
-                  <Button asChild size={'xxl'} className="w-full">
-                    <a href="/contact" className="flex items-center justify-center gap-2">
+                  <Button asChild className="w-full">
+                    <a
+                      href="/contact"
+                      className="flex items-center justify-center gap-2"
+                    >
                       Get in touch
                       <svg
                         width="16"

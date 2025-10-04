@@ -217,67 +217,67 @@ export function Menus() {
             </NavigationMenuContent>
           </NavigationMenuItem>
 
-          {/* 7. Services */}
-          <NavigationMenuItem
-            onMouseEnter={() => handleMouseEnter("services")}
-            onMouseLeave={handleMouseLeave}
-          >
-            <NavigationMenuTrigger isActive={activeMenu === "services"}>
-              Services
-            </NavigationMenuTrigger>
-            <NavigationMenuContent isOpen={activeMenu === "services"}>
-              <ul className="grid grid-cols-1 md:grid-cols-5 gap-6 w-full">
-                <li>
-                  <a href="#" className="block group">
-                    <div className="mb-3 text-xl font-semibold hover:text-background text-background/80">
-                      Consulting
-                    </div>
-                  </a>
-                  <a href="#" className="block group">
-                    <div className="mb-3 text-xl font-semibold hover:text-background text-background/80">
-                      Workshops
-                    </div>
-                  </a>
-                  <a href="#" className="block group">
-                    <div className="mb-3 text-xl font-semibold hover:text-background text-background/80">
-                      Support
-                    </div>
-                  </a>
-                </li>
-              </ul>
-            </NavigationMenuContent>
-          </NavigationMenuItem>
+          <div className="hidden lg:flex">
+            <NavigationMenuItem
+              onMouseEnter={() => handleMouseEnter("services")}
+              onMouseLeave={handleMouseLeave}
+            >
+              <NavigationMenuTrigger isActive={activeMenu === "services"}>
+                Services
+              </NavigationMenuTrigger>
+              <NavigationMenuContent isOpen={activeMenu === "services"}>
+                <ul className="grid grid-cols-1 md:grid-cols-5 gap-6 w-full">
+                  <li>
+                    <a href="#" className="block group">
+                      <div className="mb-3 text-xl font-semibold hover:text-background text-background/80">
+                        Consulting
+                      </div>
+                    </a>
+                    <a href="#" className="block group">
+                      <div className="mb-3 text-xl font-semibold hover:text-background text-background/80">
+                        Workshops
+                      </div>
+                    </a>
+                    <a href="#" className="block group">
+                      <div className="mb-3 text-xl font-semibold hover:text-background text-background/80">
+                        Support
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </NavigationMenuContent>
+            </NavigationMenuItem>
 
-          {/* 8. Company */}
-          <NavigationMenuItem
-            onMouseEnter={() => handleMouseEnter("company")}
-            onMouseLeave={handleMouseLeave}
-          >
-            <NavigationMenuTrigger isActive={activeMenu === "company"}>
-              Company
-            </NavigationMenuTrigger>
-            <NavigationMenuContent isOpen={activeMenu === "company"}>
-              <ul className="grid grid-cols-1 md:grid-cols-5 gap-6 w-full">
-                <li>
-                  <a href="#" className="block group">
-                    <div className="mb-3 text-xl font-semibold hover:text-background text-background/80">
-                      About Us
-                    </div>
-                  </a>
-                  <a href="#" className="block group">
-                    <div className="mb-3 text-xl font-semibold hover:text-background text-background/80">
-                      Careers
-                    </div>
-                  </a>
-                  <a href="#" className="block group">
-                    <div className="mb-3 text-xl font-semibold hover:text-background text-background/80">
-                      Contact
-                    </div>
-                  </a>
-                </li>
-              </ul>
-            </NavigationMenuContent>
-          </NavigationMenuItem>
+            <NavigationMenuItem
+              onMouseEnter={() => handleMouseEnter("company")}
+              onMouseLeave={handleMouseLeave}
+            >
+              <NavigationMenuTrigger isActive={activeMenu === "company"}>
+                Company
+              </NavigationMenuTrigger>
+              <NavigationMenuContent isOpen={activeMenu === "company"}>
+                <ul className="grid grid-cols-1 md:grid-cols-5 gap-6 w-full">
+                  <li>
+                    <a href="#" className="block group">
+                      <div className="mb-3 text-xl font-semibold hover:text-background text-background/80">
+                        About Us
+                      </div>
+                    </a>
+                    <a href="#" className="block group">
+                      <div className="mb-3 text-xl font-semibold hover:text-background text-background/80">
+                        Careers
+                      </div>
+                    </a>
+                    <a href="#" className="block group">
+                      <div className="mb-3 text-xl font-semibold hover:text-background text-background/80">
+                        Contact
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </NavigationMenuContent>
+            </NavigationMenuItem>
+          </div>
         </NavigationMenuList>
       </NavigationMenu>
     </div>

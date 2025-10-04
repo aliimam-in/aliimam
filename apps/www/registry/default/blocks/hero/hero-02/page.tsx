@@ -10,39 +10,39 @@ const technologies = [
   {
     name: "Figma",
     designation: "UI/UX Design Tool",
-    description: "Collaborative interface design and prototyping platform",
-    logo: "/ali.jpg",
+    description: "Collaborative interface design.",
+    logo: "/templates/dalim-www.jpg",
     icon: <Github className="h-6 w-6 text-black" />,
   },
   {
     name: "Adobe XD",
     designation: "Design & Prototyping",
-    description: "Create wireframes, prototypes, and screen designs quickly",
-    logo: "/ali.jpg",
+    description: "Create wireframes, prototypes.",
+    logo: "/templates/dalim-ui.jpg",
     icon: <OpenAI className="h-6 w-6 text-black" />,
   },
   {
     name: "Sketch",
     designation: "Vector Design Tool",
     description: "Professional digital design for macOS",
-    logo: "/ali.jpg",
+    logo: "/templates/dalim-icons.jpg",
     icon: <Cursor className="h-6 w-6 text-black" />,
   },
   {
     name: "Canva",
     designation: "Graphic Design Platform",
     description:
-      "Easily create social media posts, presentations, and graphics",
-    logo: "/ali.jpg",
+      "Easily create social media posts.",
+    logo: "/templates/dalim-graphic.jpg",
     icon: <Google className="h-6 w-6 text-black" />,
   },
 ];
 
-export default function HeroSection() {
+export default function HeroSection02() {
   return (
-    <div className="bg-background min-h-screen relative">
-      <div className=" overflow-hidden flex flex-col px-6 items-center justify-center">
-        <GradientWave className="absolute inset-0 opacity-30 dark:opacity-20" /> 
+    <div className="min-h-screen relative">
+      <div className="overflow-hidden flex flex-col px-6 items-center justify-center">
+        <GradientWave className="absolute inset-0 opacity-50 dark:opacity-10" /> 
         <div className="flex w-full absolute z-20 top-4 px-4 justify-between">
           <div>
             <img
@@ -56,7 +56,7 @@ export default function HeroSection() {
           <Button className="rounded-full">Explore Designs</Button>
         </div>
 
-        <div className="z-10 mt-40 my-20 space-y-10 border shadow-2xl backdrop-blur-sm rounded-xl p-10 lg:p-20 mx-auto max-w-7xl flex flex-col">
+        <div className="z-10 mt-28 my-20 space-y-10 border shadow-2xl backdrop-blur-sm rounded-xl p-10 lg:p-20 mx-auto max-w-7xl flex flex-col">
           <div className="flex justify-center flex-col lg:flex-row items-center gap-6 lg:gap-10">
             <h1 className="text-3xl font-medium mix-blend-overlay md:text-5xl lg:text-8xl text-center">
               Design Code
@@ -117,7 +117,7 @@ export default function HeroSection() {
 
        
       </div>
-       <div className=" w-full z-10 relative flex flex-col items-center">
+       <div className="w-full z-10 relative flex flex-col items-center">
           <p className="text-center text-muted-foreground mb-10 text-lg z-10 relative">
             Some of the top design tools used by professionals
           </p>
@@ -140,7 +140,7 @@ export default function HeroSection() {
                   <img
                     src={tech.logo}
                     alt={tech.name}
-                    className="h-full w-24 object-cover rounded-r-xl"
+                    className="h-full w-38 object-cover rounded-r-xl"
                   />
                 </div>
               </div>

@@ -27,10 +27,10 @@ importers:
   apps/www:
     dependencies:
       '@aliimam/icons':
-        specifier: latest
-        version: 0.1.1(react@19.1.0)
+        specifier: 0.1.2
+        version: 0.1.2(react@19.1.0)
       '@aliimam/logos':
-        specifier: latest
+        specifier: 0.1.6
         version: 0.1.6(react@19.1.0)
       '@hookform/resolvers':
         specifier: ^5.2.2
@@ -197,6 +197,9 @@ importers:
       postcss:
         specifier: ^8.5.6
         version: 8.5.6
+      qrcode:
+        specifier: ^1.5.4
+        version: 1.5.4
       react:
         specifier: ^19.1.0
         version: 19.1.0
@@ -255,7 +258,7 @@ importers:
         specifier: ^1.1.2
         version: 1.1.2(@types/react-dom@19.1.1(@types/react@19.1.0))(@types/react@19.1.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       zod:
-        specifier: ^3.25.63
+        specifier: ^3.25.76
         version: 3.25.76
     devDependencies:
       '@aliimam/eslint-config':
@@ -282,6 +285,9 @@ importers:
       '@types/node':
         specifier: ^22.15.3
         version: 22.15.3
+      '@types/qrcode':
+        specifier: ^1.5.5
+        version: 1.5.5
       '@types/react':
         specifier: 19.1.0
         version: 19.1.0
@@ -477,8 +483,8 @@ packages:
     resolution: {integrity: sha512-qI/5TaaaCZE4yeSZ83lu0+xi1r88JSxUjnH4OP/iZF7+KKZ75u3ee5isd0LxX+6N8U0npL61YrpbthILHB6BnA==}
     engines: {node: '>=18'}
 
-  '@aliimam/icons@0.1.1':
-    resolution: {integrity: sha512-fchSI/G+fNxMpm27oqp6478/PtSjM5wfrIsjjm+7QQWNveZqmWs6RBZ1wnDXrTakZKtRTilJRyaIpDTVWaCAdA==}
+  '@aliimam/icons@0.1.2':
+    resolution: {integrity: sha512-zxZCHlQkQE5wJtO6WMf5h0sMMIV9t1z8iAnfO5rcoJmlDuUXabSFlp+xT1IU+H4kNQ4XwfqajnNG8TdaXGfO7w==}
     peerDependencies:
       react: ^16.x || ^17.x || ^18.x || ^19.x
 
@@ -2687,6 +2693,9 @@ packages:
   '@types/prettier@1.19.1':
     resolution: {integrity: sha512-5qOlnZscTn4xxM5MeGXAMOsIOIKIbh9e85zJWfBRVPlRMEVawzoPhINYbRGkBZCI8LxvBe7tJCdWiarA99OZfQ==}
 
+  '@types/qrcode@1.5.5':
+    resolution: {integrity: sha512-CdfBi/e3Qk+3Z/fXYShipBT13OJ2fDO2Q2w5CIP5anLTLIndQG9z6P1cnm+8zCWSpm5dnxMFd/uREtb0EXuQzg==}
+
   '@types/react-dom@19.1.1':
     resolution: {integrity: sha512-jFf/woGTVTjUJsl2O7hcopJ1r0upqoq/vIOoCj0yLh3RIXxWcljlpuZ+vEBRXsymD1jhfeJrlyTy/S1UW+4y1w==}
     peerDependencies:
@@ -3891,6 +3900,9 @@ packages:
   diff@5.2.0:
     resolution: {integrity: sha512-uIFDxqpRZGZ6ThOk84hEfqWoHx2devRFvpTZcTHur85vImfaxUbTW9Ryh4CpCuDnToOP1CEtXKIgytHBPVff5A==}
     engines: {node: '>=0.3.1'}
+
+  dijkstrajs@1.0.3:
+    resolution: {integrity: sha512-qiSlmBq9+BCdCA/L46dw8Uy93mloxsPSbwnm5yrKn2vMPiy8KyAskTF6zuV/j5BMsmOGZDPs7KjU+mjb670kfA==}
 
   dns-packet@5.6.1:
     resolution: {integrity: sha512-l4gcSouhcgIKRvyy99RNVOgxXiicE+2jZoNmaNmZ6JXiGajBOJAesk1OBlJuM5k2c+eudGdLxDqXuPCKIj6kpw==}
@@ -6553,6 +6565,10 @@ packages:
   pn@1.1.0:
     resolution: {integrity: sha512-2qHaIQr2VLRFoxe2nASzsV6ef4yOOH+Fi9FBOVH6cqeSgUnoyySPZkxzLuzd+RYOQTRpROA0ztTMqxROKSb/nA==}
 
+  pngjs@5.0.0:
+    resolution: {integrity: sha512-40QW5YalBNfQo5yRYmiw7Yz6TKKVr3h6970B2YE+3fQpsWcrbj1PzJgxeJ19DRQjhMbKPIuMY8rFaXc8moolVw==}
+    engines: {node: '>=10.13.0'}
+
   poly-decomp@0.3.0:
     resolution: {integrity: sha512-hWeBxGzPYiybmI4548Fca7Up/0k1qS5+79cVHI9+H33dKya5YNb9hxl0ZnDaDgvrZSuYFBhkCK/HOnqN7gefkQ==}
 
@@ -6673,6 +6689,11 @@ packages:
       You or someone you depend on is using Q, the JavaScript Promise library that gave JavaScript developers strong feelings about promises. They can almost certainly migrate to the native JavaScript promise now. Thank you literally everyone for joining me in this bet against the odds. Be excellent to each other.
 
       (For a CapTP with native promises, see @endo/eventual-send and @endo/captp)
+
+  qrcode@1.5.4:
+    resolution: {integrity: sha512-1ca71Zgiu6ORjHqFBDpnSMTR2ReToX4l1Au1VFLyVeBTFavzQnv5JxMFr3ukHVKpSrSA2MCk0lNJSykjUfz7Zg==}
+    engines: {node: '>=10.13.0'}
+    hasBin: true
 
   qs@6.14.0:
     resolution: {integrity: sha512-YWWTjgABSKcvs/nWBi9PycY/JiPJqOD4JA6o9Sej2AtvSGarXxKC3OQSk4pAarbdQlKAh5D4FCQkJNkW+GAn3w==}
@@ -8244,7 +8265,7 @@ snapshots:
       ansi-styles: 6.2.3
       is-fullwidth-code-point: 5.1.0
 
-  '@aliimam/icons@0.1.1(react@19.1.0)':
+  '@aliimam/icons@0.1.2(react@19.1.0)':
     dependencies:
       react: 19.1.0
 
@@ -10701,6 +10722,10 @@ snapshots:
 
   '@types/prettier@1.19.1': {}
 
+  '@types/qrcode@1.5.5':
+    dependencies:
+      '@types/node': 22.15.3
+
   '@types/react-dom@19.1.1(@types/react@19.1.0)':
     dependencies:
       '@types/react': 19.1.0
@@ -11946,6 +11971,8 @@ snapshots:
   diff-sequences@25.2.6: {}
 
   diff@5.2.0: {}
+
+  dijkstrajs@1.0.3: {}
 
   dns-packet@5.6.1:
     dependencies:
@@ -15495,6 +15522,8 @@ snapshots:
 
   pn@1.1.0: {}
 
+  pngjs@5.0.0: {}
+
   poly-decomp@0.3.0: {}
 
   posix-character-classes@0.1.1: {}
@@ -15639,6 +15668,12 @@ snapshots:
       - utf-8-validate
 
   q@1.5.1: {}
+
+  qrcode@1.5.4:
+    dependencies:
+      dijkstrajs: 1.0.3
+      pngjs: 5.0.0
+      yargs: 15.4.1
 
   qs@6.14.0:
     dependencies:

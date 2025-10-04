@@ -9,20 +9,20 @@ export const GRADIENT_ANGLES = {
   left: 270,
 };
 
-export type ProgressiveBlurProps = {
+export type BlurProps = {
   direction?: keyof typeof GRADIENT_ANGLES;
   blurLayers?: number;
   className?: string;
   blurIntensity?: number;
 } & HTMLMotionProps<"div">;
 
-export function ProgressiveBlur({
+export function Blur({
   direction = "bottom",
   blurLayers = 8,
   className,
   blurIntensity = 0.25,
   ...props
-}: ProgressiveBlurProps) {
+}: BlurProps) {
   const layers = Math.max(blurLayers, 2);
   const segmentSize = 1 / (blurLayers + 1);
 

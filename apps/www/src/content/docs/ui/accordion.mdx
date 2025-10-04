@@ -5,6 +5,7 @@ component: true
 links:
   doc: https://www.radix-ui.com/docs/primitives/components/accordion
   api: https://www.radix-ui.com/docs/primitives/components/accordion#api-reference
+  shadcn: https://ui.shadcn.com/docs/components/accordion
 ---
   
 <ComponentPreview
@@ -81,62 +82,4 @@ npm install @radix-ui/react-accordion
 </TabsContent>
 
 </CodeTabs>
-
-## Usage
-
-```tsx showLineNumbers
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion"
-```
-
-```tsx showLineNumbers
-<Accordion type="single" collapsible>
-  <AccordionItem value="item-1">
-    <AccordionTrigger>Is it accessible?</AccordionTrigger>
-    <AccordionContent>
-      Yes. It adheres to the WAI-ARIA design pattern.
-    </AccordionContent>
-  </AccordionItem>
-</Accordion>
-```
-
-## API Reference
-
-### Accordion
-
-| Prop      | Type | Default | Description |
-|-----------|------|---------|-------------|
-| `...props` | Inherits from `@radix-ui/react-accordion.Root` | — | Root wrapper for the accordion. |
-
----
-
-### AccordionItem
-
-| Prop      | Type                                | Default   | Description |
-|-----------|-------------------------------------|-----------|-------------|
-| `variant` | `"default"` \| `"ghost"` \| `"outline"` | `"default"` | Defines the border and container style. |
-| `...props` | Inherits from `@radix-ui/react-accordion.Item` | — | Single accordion item wrapper. |
-
----
-
-### AccordionTrigger
-
-| Prop      | Type                                | Default   | Description |
-|-----------|-------------------------------------|-----------|-------------|
-| `variant` | `"default"` \| `"ghost"` \| `"outline"` | `"default"` | Controls visual style of the trigger. |
-| `size`    | `"sm"` \| `"md"` \| `"lg"`             | `"md"`      | Controls padding and text size. |
-| `...props` | Inherits from `@radix-ui/react-accordion.Trigger` | — | Expand/collapse button for the item. |
-
----
-
-### AccordionContent
-
-| Prop      | Type                                | Default   | Description |
-|-----------|-------------------------------------|-----------|-------------|
-| `variant` | `"default"` \| `"ghost"` \| `"outline"` | `"default"` | Adjusts padding and background style. |
-| `size`    | `"sm"` \| `"md"` \| `"lg"`             | `"md"`      | Controls text size and spacing. |
-| `...props` | Inherits from `@radix-ui/react-accordion.Content` | — | Collapsible content area revealed on open. |
+ 

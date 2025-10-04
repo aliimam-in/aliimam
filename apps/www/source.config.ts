@@ -47,6 +47,7 @@ export const docs = defineDocs({
         .object({
           doc: z.string().optional(),
           api: z.string().optional(),
+          shadcn: z.string().optional(),
         })
         .optional(),
     }),

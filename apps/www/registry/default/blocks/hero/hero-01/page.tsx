@@ -4,7 +4,7 @@ import { GradientMesh } from "@/registry/default/components/gradient-mesh";
 import { Button } from "@/registry/default/ui/button";
 import Link from "next/link";
 
-export default function HeroSection() {
+export default function HeroSection01() {
   return (
     <div className="h-screen flex items-center justify-center relative">
       {/* GradientWave behind the text */}

@@ -1500,7 +1500,7 @@ export const Index: Record<string, any> = {
       return { default: mod.default || mod[exportName] }
     }),
     categories: ["hero"],
-    meta: {"iframeHeight":"900px"},
+    meta: undefined,
   },
   "hero-02": {
     name: "hero-02",
@@ -1518,7 +1518,7 @@ export const Index: Record<string, any> = {
       return { default: mod.default || mod[exportName] }
     }),
     categories: ["hero"],
-    meta: {"iframeHeight":"900px"},
+    meta: undefined,
   },
   "hero-03": {
     name: "hero-03",
@@ -1536,7 +1536,7 @@ export const Index: Record<string, any> = {
       return { default: mod.default || mod[exportName] }
     }),
     categories: ["hero"],
-    meta: {"iframeHeight":"900px"},
+    meta: undefined,
   },
   "hero-04": {
     name: "hero-04",
@@ -1554,13 +1554,13 @@ export const Index: Record<string, any> = {
       return { default: mod.default || mod[exportName] }
     }),
     categories: ["hero"],
-    meta: {"iframeHeight":"900px"},
+    meta: undefined,
   },
   "hero-05": {
     name: "hero-05",
     description: "A simple hero section.",
     type: "registry:block",
-    registryDependencies: undefined,
+    registryDependencies: ["button","badge","card","marquee","blur"],
     files: [{
       path: "registry/default/blocks/hero/hero-05/page.tsx",
       type: "registry:component",
@@ -1572,7 +1572,7 @@ export const Index: Record<string, any> = {
       return { default: mod.default || mod[exportName] }
     }),
     categories: ["hero"],
-    meta: {"iframeHeight":"900px"},
+    meta: undefined,
   },
   "dashboard-01": {
     name: "dashboard-01",
@@ -1718,6 +1718,24 @@ export const Index: Record<string, any> = {
     }],
     component: React.lazy(async () => {
       const mod = await import("@/registry/default/components/gradient-wave.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "blur": {
+    name: "blur",
+    description: "",
+    type: "registry:component",
+    registryDependencies: undefined,
+    files: [{
+      path: "registry/default/components/blur.tsx",
+      type: "registry:component",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/components/blur.tsx")
       const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
       return { default: mod.default || mod[exportName] }
     }),

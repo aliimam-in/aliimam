@@ -23,6 +23,16 @@ export const components: Registry["items"] = [
     ],
   },
   {
+    name: "blur",
+    type: "registry:component", 
+    files: [
+      {
+        path: "components/blur.tsx",
+        type: "registry:component",
+      },
+    ],
+  },
+  {
     name: "marquee",
     type: "registry:component", 
     files: [

@@ -15,8 +15,8 @@
     "check-types": "tsc --noEmit"
   },
   "dependencies": {
-    "@aliimam/icons": "latest",
-    "@aliimam/logos": "latest",
+    "@aliimam/icons": "0.1.2",
+    "@aliimam/logos": "0.1.6",
     "@hookform/resolvers": "^5.2.2",
     "@next/third-parties": "^15.5.3",
     "@radix-ui/react-accordion": "^1.2.12",
@@ -72,6 +72,7 @@
     "ogl": "^1.0.11",
     "poly-decomp": "^0.3.0",
     "postcss": "^8.5.6",
+    "qrcode": "^1.5.4",
     "react": "^19.1.0",
     "react-day-picker": "^9.11.0",
     "react-dom": "^19.1.0",
@@ -91,7 +92,7 @@
     "three": "^0.180.0",
     "ts-morph": "18.0.0",
     "vaul": "^1.1.2",
-    "zod": "^3.25.63"
+    "zod": "^3.25.76"
   },
   "devDependencies": {
     "@aliimam/eslint-config": "workspace:*",
@@ -102,6 +103,7 @@
     "@types/matter-js": "^0.20.2",
     "@types/mdx": "^2.0.13",
     "@types/node": "^22.15.3",
+    "@types/qrcode": "^1.5.5",
     "@types/react": "19.1.0",
     "@types/react-dom": "19.1.1",
     "@types/three": "^0.180.0",

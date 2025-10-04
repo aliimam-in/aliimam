@@ -144,16 +144,23 @@ export default async function Page(props: {
             {links ? (
               <div className="flex items-center space-x-2 pt-4">
                 {links?.doc && (
-                  <Badge asChild variant="secondary">
-                    <Link href={links.doc} target="_blank" rel="noreferrer">
+                  <Badge variant="secondary">
+                    <Link className="flex" href={links.doc} target="_blank" rel="noreferrer">
                       Docs <ArrowUpRight />
                     </Link>
                   </Badge>
                 )}
                 {links?.api && (
-                  <Badge asChild variant="secondary">
-                    <Link href={links.api} target="_blank" rel="noreferrer">
+                  <Badge variant="secondary">
+                    <Link className="flex" href={links.api} target="_blank" rel="noreferrer">
                       API Reference <ArrowUpRight />
+                    </Link>
+                  </Badge>
+                )}
+                {links?.shadcn && (
+                  <Badge variant="secondary">
+                    <Link className="flex" href={links.shadcn} target="_blank" rel="noreferrer">
+                      shadcn/ui <ArrowUpRight />
                     </Link>
                   </Badge>
                 )}

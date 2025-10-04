@@ -1,29 +1,27 @@
-"use client"
- 
+"use client";
 
-import { useCopyToClipboard } from "@/src/hooks/use-copy-to-clipboard"
-import { Button } from "@/registry/default/ui/button"
+import { useCopyToClipboard } from "@/src/hooks/use-copy-to-clipboard";
+import { Button } from "@/registry/default/ui/button";
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from "@/registry/default/ui/dropdown-menu"
+} from "@/registry/default/ui/dropdown-menu";
 import {
   Popover,
-  PopoverAnchor,
   PopoverContent,
   PopoverTrigger,
-} from "@/registry/default/ui/popover"
-import { Separator } from "@/registry/default/ui/separator"
-import { Check, ChevronDown, Copy } from "lucide-react"
+} from "@/registry/default/ui/popover";
+import { Separator } from "@/registry/default/ui/separator";
+import { Check, ChevronDown, Copy } from "lucide-react";
 
 function getPromptUrl(baseURL: string, url: string) {
   return `${baseURL}?q=${encodeURIComponent(
     `I’m looking at this dalim/ui documentation: ${url}.
     Help me understand how to use it. Be ready to explain concepts, give examples, or help debug based on it.
   `
-  )}`
+  )}`;
 }
 
 const menuItems = {
@@ -87,10 +85,10 @@ const menuItems = {
       Open in Claude
     </a>
   ),
-}
+};
 
 export function DocsCopyPage({ page, url }: { page: string; url: string }) {
-  const { copyToClipboard, isCopied } = useCopyToClipboard()
+  const { copyToClipboard, isCopied } = useCopyToClipboard();
 
   const trigger = (
     <Button
@@ -100,12 +98,11 @@ export function DocsCopyPage({ page, url }: { page: string; url: string }) {
     >
       <ChevronDown className="rotate-180 sm:rotate-0" />
     </Button>
-  )
+  );
 
   return (
     <Popover>
       <div className="bg-secondary group/buttons relative flex rounded-lg *:[[data-slot=button]]:focus-visible:relative *:[[data-slot=button]]:focus-visible:z-10">
-        <PopoverAnchor />
         <Button
           variant="secondary"
           size="sm"
@@ -152,5 +149,5 @@ export function DocsCopyPage({ page, url }: { page: string; url: string }) {
         </PopoverContent>
       </div>
     </Popover>
-  )
+  );
 }

@@ -33,8 +33,8 @@ export function DocsSidebar({
   )?.$id;
 
   return (
-    <Sidebar
-      className="sticky ml-auto top-20 z-30 hidden h-[calc(100svh-var(--header-height))] bg-transparent lg:flex"
+     <Sidebar
+      className="sticky top-20 z-30 hidden h-[calc(100svh-var(--footer-height)+2rem)] bg-transparent lg:flex"
       collapsible="none"
       {...props}
     >

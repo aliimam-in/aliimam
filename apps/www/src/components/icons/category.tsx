@@ -15,9 +15,9 @@ export function IconCategoryTabs() {
   };
 
   return (
-    <Sidebar
+     <Sidebar
+      className="sticky top-36 z-30 hidden h-[calc(100svh-var(--footer-height)+2rem)] bg-transparent lg:flex"
       collapsible="none"
-      className="top-38 hidden md:block sticky bg-transparent h-full"
     >
       <SidebarContent className="no-scrollbar pl-1 pb-12">
         <div className="grid gap-1 pl-1">
@@ -64,9 +64,9 @@ export function LogoCategoryTabs() {
   const categoriesToShow = ["all", ...flagCategories];
 
   return (
-    <Sidebar
+     <Sidebar
+      className="sticky top-36 z-30 hidden h-[calc(100svh-var(--footer-height)+2rem)] bg-transparent lg:flex"
       collapsible="none"
-      className="top-38 hidden md:block sticky bg-transparent h-full"
     >
       <SidebarContent className="no-scrollbar pl-1 pb-12">
         <div className="grid gap-1 pl-1">
@@ -114,9 +114,9 @@ export function FlagCategoryTabs() {
   const categoriesToShow = ["all", ...flagCategories];
 
   return (
-    <Sidebar
+     <Sidebar
+      className="sticky top-36 z-30 hidden h-[calc(100svh-var(--footer-height)+2rem)] bg-transparent lg:flex"
       collapsible="none"
-      className="top-38 hidden md:block sticky bg-transparent h-full"
     >
       <SidebarContent className="no-scrollbar pl-1 pb-12">
         <div className="grid gap-1 pl-1">
@@ -163,9 +163,9 @@ export function StickersCategoryTabs() {
   const categoriesToShow = ["all", ...flagCategories];
 
   return (
-    <Sidebar
+     <Sidebar
+      className="sticky top-36 z-30 hidden h-[calc(100svh-var(--footer-height)+2rem)] bg-transparent lg:flex"
       collapsible="none"
-      className="top-38 hidden md:block sticky bg-transparent h-full"
     >
       <SidebarContent className="no-scrollbar pl-1 pb-12">
         <div className="grid gap-1 pl-1">

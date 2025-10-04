@@ -54,12 +54,12 @@ const components: { title: string; href: string; description: string }[] = [
 
 export function Menus() {
   return (
-    <NavigationMenu viewport={true}>
+    <NavigationMenu>
       <NavigationMenuList>
         <NavigationMenuItem>
           <NavigationMenuLink
             asChild
-            className={cn(navigationMenuTriggerStyle(), "bg-transparent")}
+            className={cn(navigationMenuTriggerStyle(), "bg-transparent text-xs")}
           >
             <Link href="/about">About</Link>
           </NavigationMenuLink>
@@ -67,7 +67,7 @@ export function Menus() {
         <NavigationMenuItem>
           <NavigationMenuLink
             asChild
-            className={cn(navigationMenuTriggerStyle(), "bg-transparent")}
+            className={cn(navigationMenuTriggerStyle(), "bg-transparent text-xs")}
           >
             <Link href="/templates">Templates</Link>
           </NavigationMenuLink>
@@ -75,17 +75,17 @@ export function Menus() {
         <NavigationMenuItem>
           <NavigationMenuLink
             asChild
-            className={cn(navigationMenuTriggerStyle(), "bg-transparent")}
+            className={cn(navigationMenuTriggerStyle(), "bg-transparent text-xs")}
           >
             <Link href="/blocks">Blocks</Link>
           </NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <NavigationMenuTrigger className="bg-transparent">
+          <NavigationMenuTrigger className="bg-transparent text-xs">
             Resources
           </NavigationMenuTrigger>
           <NavigationMenuContent className="p-3">
-            <ul className="grid gap-3 md:grid-cols-3 lg:w-3xl">
+            <ul className="grid w-[400px] gap-2 md:w-[500px] md:grid-cols-2 lg:w-[650px]">
               {components.map((component) => (
                 <ListItem
                   key={component.title}
@@ -101,7 +101,7 @@ export function Menus() {
         <NavigationMenuItem>
           <NavigationMenuLink
             asChild
-            className={cn(navigationMenuTriggerStyle(), "bg-transparent")}
+            className={cn(navigationMenuTriggerStyle(), "bg-transparent text-xs")}
           >
             <Link href="/icons">Icons</Link>
           </NavigationMenuLink>
@@ -109,7 +109,7 @@ export function Menus() {
         <NavigationMenuItem>
           <NavigationMenuLink
             asChild
-            className={cn(navigationMenuTriggerStyle(), "bg-transparent")}
+            className={cn(navigationMenuTriggerStyle(), "bg-transparent text-xs")}
           >
             <Link href="/backgrounds">Graphics</Link>
           </NavigationMenuLink>
@@ -117,7 +117,7 @@ export function Menus() {
         <NavigationMenuItem>
           <NavigationMenuLink
             asChild
-            className={cn(navigationMenuTriggerStyle(), "bg-transparent")}
+            className={cn(navigationMenuTriggerStyle(), "bg-transparent text-xs")}
           >
             <Link href="/docs/backgrounds/gradient-mesh">Components</Link>
           </NavigationMenuLink>
@@ -136,12 +136,14 @@ function ListItem({
   return (
     <li {...props}>
       <NavigationMenuLink asChild>
-        <Link className="p-3" href={href}>
+        <div className="hover:bg-secondary rounded-md p-5">
+        <Link  href={href}>
           <div className="text-sm leading-none font-medium">{title}</div>
           <p className="text-muted-foreground line-clamp-2 text-sm leading-snug">
             {children}
           </p>
         </Link>
+        </div>
       </NavigationMenuLink>
     </li>
   );

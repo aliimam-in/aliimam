@@ -329,6 +329,20 @@
       "subcategory": "mathematics",
       "size": "16"
     },
+    "Plus": {
+      "name": "Plus",
+      "path": "src/stroke/mathematics/Plus.tsx",
+      "category": "stroke",
+      "subcategory": "mathematics",
+      "size": "16"
+    },
+    "Asterisk": {
+      "name": "Asterisk",
+      "path": "src/stroke/mathematics/Asterisk.tsx",
+      "category": "stroke",
+      "subcategory": "mathematics",
+      "size": "16"
+    },
     "Bird": {
       "name": "Bird",
       "path": "src/stroke/animals/Bird.tsx",
@@ -1854,7 +1868,7 @@
       ]
     },
     "stroke": {
-      "mathematics": ["Equal", "X"],
+      "mathematics": ["Equal", "X", "Plus", "Asterisk"],
       "animals": [
         "Bird",
         "Fish",
@@ -2124,5 +2138,5 @@
       ]
     }
   },
-  "total": 257
+  "total": 259
 }

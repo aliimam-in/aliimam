@@ -5,6 +5,7 @@ const FEATURED_BLOCKS = [
   "header-05", 
   "logos-01",
   "connect-01",  
+  "hero-05",  
 ];
 
 export default function BlocksPage() {

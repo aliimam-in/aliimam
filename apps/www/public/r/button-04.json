@@ -10,7 +10,7 @@
   "files": [
     {
       "path": "registry/default/example/button/button-04.tsx",
-      "content": "import { Button } from \"@/registry/default/ui/button\";\n\nexport default function ButtonDemo() {\n  return (\n    <div>\n      <Button size={'xxl'} variant={\"liquid-glass\"}>Liquid Glass</Button>\n    </div>\n  );\n}\n",
+      "content": "import { Button } from \"@/registry/default/ui/button\";\n\nexport default function ButtonDemo() {\n  return (\n    <div>\n      <Button >Liquid Glass</Button>\n    </div>\n  );\n}\n",
       "type": "registry:example"
     }
   ]

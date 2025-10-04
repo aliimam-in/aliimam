@@ -4,7 +4,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/registry/default/ui/accordion";
-import { PlusIcon } from "lucide-react";
+import { Plus } from "@aliimam/icons";
 import { cn } from "@/registry/default/lib/utils";
 
 
@@ -72,9 +72,9 @@ export function PricingAccordion() {
                   <h3 className="text-lg md:text-xl font-semibold">{item.title}</h3>
                 </div>
                 <div className="bg-primary duration-500 rounded-sm flex items-center p-2">
-                  <PlusIcon
+                  <Plus
                     className={cn(
-                      "text-primary-foreground h-6 w-6 shrink-0 transition-transform duration-1000",
+                      "text-primary-foreground size-4 shrink-0 transition-transform duration-1000",
                       "[data-state=open]:rotate-90"
                     )}
                   />
