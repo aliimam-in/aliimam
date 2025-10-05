@@ -1,88 +1,81 @@
- 
+/* eslint-disable react/jsx-key */
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
 } from "@/registry/default/ui/accordion";
-import { PlusIcon } from "lucide-react";
-import { cn } from "@/registry/default/lib/utils";
+import { X, Plus } from "@aliimam/icons";
+import { cn } from "@/registry/default/lib/utils"; 
+
 
 const items = [
   {
-    id: "1",
+    id: "01",
     title: "Who am I?",
     content:
       "I’m Ali Imam — a designer and creative developer focused on building digital experiences that are minimal, meaningful, and timeless.",
   },
   {
-    id: "2",
+    id: "02",
     title: "What do I design?",
     content:
       "I create clean, functional interfaces, brand systems, and digital products. My work blends simplicity with clarity and usability.",
   },
   {
-    id: "3",
+    id: "03",
     title: "My design approach",
     content:
       "For me, design isn’t just visuals — it’s how something feels and works. I focus on clarity, detail, and storytelling in every project.",
   },
   {
-    id: "4",
+    id: "04",
     title: "Beyond design",
     content:
       "I bridge design and development, turning ideas into interactive experiences with modern tools and technology.",
   },
   {
-    id: "5",
+    id: "05",
     title: "What inspires me",
     content:
       "Minimalism, architecture, and everyday details. I believe great design is found in the small things we often overlook.",
-  },
-  {
-    id: "6",
-    title: "Who I work with",
-    content:
-      "I collaborate with startups, brands, and individuals who value thoughtful design and want to create lasting impact.",
-  },
-  {
-    id: "7",
-    title: "My toolkit",
-    content:
-      "Figma, Next.js, and modern frameworks are part of my process — but for me, tools always serve the idea, not the other way around.",
-  },
-  {
-    id: "8",
-    title: "Let’s connect",
-    content:
-      "You can reach me through contact@aliimam.in or on social platforms. I’m always open to new projects, collaborations, and conversations.",
-  },
+  }, 
 ];
 
-
-export function PricingAccordion() {
+export function Accordion02() {
   return (
-    <div className="w-full max-w-3xl mx-auto">
-      <Accordion type="single" collapsible className="w-full">
+    <div className="w-full max-w-xl">
+      <Accordion type="single" defaultValue="02" collapsible className="w-full space-y-2">
         {items.map((item) => (
-          <AccordionItem value={item.id} key={item.id}>
-            <AccordionTrigger className="text-left hover:pl-3 hover:[&_div.bg-primary]:bg-secondary duration-200 hover:no-underline cursor-pointer [data-slot=accordion-trigger] [&>svg]:hidden hover:[&_svg]:rotate-90 hover:[&_svg]:text-primary">
-              <div className="flex flex-1 items-start justify-between gap-4">
-                <h3 className="text-lg font-semibold">{item.title}</h3>
-                <div className="bg-primary rounded-sm flex items-center p-2">
-                  <PlusIcon
+          <AccordionItem value={item.id} key={item.id} className="border last:border-b rounded-xl ">
+            <AccordionTrigger className="text-left m-1 data-[state=open]:rounded-b-none bg-primary/10 data-[state=open]:[&_svg]:rotate-180 data-[state=open]:[&_svg]:[#plus]:opacity-0 [&_svg]:[#plus]:[data-state=open]:opacity-0 duration-500 hover:no-underline cursor-pointer [data-slot=accordion-trigger] [&>svg]:hidden">
+              <div className="flex flex-1 px-6 justify-between items-center gap-4">
+                 <h3 className="text-2xl font-semibold">{item.title}</h3>
+                <div className="relative">
+                  <Plus
+                    id="plus"
+                    strokeWidth={2}
                     className={cn(
-                      "text-primary-foreground h-6 w-6 shrink-0 transition-transform duration-200",
-                      "[data-state=open]:rotate-90"
+                      "h-6 w-6 shrink-0 transition-all duration-500",
+                      "data-[state=open]:opacity-0 data-[state=closed]:opacity-100",
+                      "data-[state=open]:rotate-180"
+                    )}
+                  />
+                  <X
+                  strokeWidth={2}
+                    id="minus"
+                    className={cn(
+                      "absolute inset-0 opacity-100 transition-all duration-500",
+                      "hover:opacity-100 [data-state=close]:opacity-100",
+                      "data-[state=open]:rotate-180"
                     )}
                   />
                 </div>
+               
               </div>
             </AccordionTrigger>
 
-            <AccordionContent className="text-muted-foreground pb-6 pr-6">
-              {item.content}
-            </AccordionContent>
+            <AccordionContent className="p-6">{item.content}</AccordionContent>
           </AccordionItem>
         ))}
       </Accordion>

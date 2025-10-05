@@ -59,7 +59,7 @@ const items = [
   },
 ];
 
-export function PricingAccordion() {
+export function Accordion01() {
   return (
     <div className="w-full max-w-xl mx-auto">
       <Accordion type="single" defaultValue="04" collapsible className="w-full">

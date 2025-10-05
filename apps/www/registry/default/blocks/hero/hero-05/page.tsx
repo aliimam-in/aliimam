@@ -165,7 +165,7 @@ export default function HeroSection05() {
                 </div>
               </div>
 
-              <CardContent className="space-y-6 overflow-hidden">
+              <CardContent className="space-y-6 md:mt-6 overflow-hidden">
                 <div className="border rounded-lg w-[500px] p-4">
                   <div className="flex justify-between items-center mb-4">
                     <h3 className="font-semibold ">May 2025</h3>

@@ -76,6 +76,7 @@ This file provides LLM-friendly entry points to documentation and examples.
 - [typography-p](https://github.com/aliimam-in/blob/main/example/typography/typography-p.tsx): Example usage
 - [typography-small](https://github.com/aliimam-in/blob/main/example/typography/typography-small.tsx): Example usage
 - [typography-table](https://github.com/aliimam-in/blob/main/example/typography/typography-table.tsx): Example usage
+- [typography](https://github.com/aliimam-in/blob/main/example/typography/typography.tsx): Example usage
 - [Gradient Wave](https://github.com/aliimam-in/blob/main/example/backgrounds/gradient-wave/gradient-wave-01.tsx): Example usage
 - [Gradient Wave](https://github.com/aliimam-in/blob/main/example/backgrounds/gradient-wave/gradient-wave-02.tsx): Example usage
 - [Gradient Wave](https://github.com/aliimam-in/blob/main/example/backgrounds/gradient-wave/gradient-wave-03.tsx): Example usage

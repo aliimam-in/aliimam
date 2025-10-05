@@ -24,30 +24,59 @@ description: Namespaced registries let you configure multiple resource sources i
   align="start"
 />
 
-**Learn more about registry config from** [Shadcn UI docs](https://ui.shadcn.com/docs/registry/namespace)
 
+
+## Installation
+
+<CodeTabs>
+
+<TabsList>
+  <TabsTrigger value="cli">CLI</TabsTrigger>
+  <TabsTrigger value="manual">Manual</TabsTrigger>
+</TabsList>
+
+<TabsContent value="cli">
+
+```bash
+pnpm dlx shadcn@latest add https://aliimam.in/r/gradient-wave.json
+```
+
+</TabsContent>
+
+<TabsContent value="manual">
+
+<Steps>
+ 
+<Step>Copy and paste the following code into your project.</Step>
+
+<ComponentSource name="wave" title="components/wave.tsx" />
+
+<Step>Update the import paths to match your project setup.</Step>
+
+</Steps>
+
+</TabsContent>
+
+</CodeTabs>
+ 
 ## Usage
 
-Install blocks via the shadcn CLI using the `@aliimam/{name}` syntax.
-
 ```tsx showLineNumbers
-pnpm dlx shadcn add @aliimam/hero-section-1
+import { GradientWave } from "@/components/gradient-wave";
 ```
-
-## Configure MCP
-
-Run the following command to configure the mcp server:
-
+ 
 ```tsx showLineNumbers
-pnpm dlx shadcn mcp init
-```
-
-Select your MCP client when prompted. Remember to enable the MCP server in your client when done.
-
-## Prompt
-
-**You can now prompt the server. Here are some prompts to try:**
-
-- Find me a hero from aliimam registry
-- Build me a landing page using a hero and features section from aliimam registry
-- Build me a pricing page using a pricing, logo cloud, comparator and faqs blocks from aliimam mist registry
+export default function Page() {
+  return (
+    <div>
+       <GradientWave
+        colors={["#ffffff", "#fb7185", '#e879f9', "#a3e635", "#ffffff"]}
+        shadowPower={4}
+        darkenTop={false} 
+        noiseFrequency={[0.0001, 0.0002]}
+        deform={{ incline: 0.2, noiseAmp: 100, noiseFlow: 2 }}
+      />
+    </div>
+  );
+}
+``` 

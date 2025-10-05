@@ -961,6 +961,16 @@
       ]
     },
     {
+      "name": "typography",
+      "type": "registry:example",
+      "files": [
+        {
+          "path": "registry/default/example/typography/typography.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
       "name": "gradient-wave-01",
       "type": "registry:example",
       "title": "Gradient Wave",

@@ -1,87 +1,71 @@
- 
+/* eslint-disable @next/next/no-img-element */
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
 } from "@/registry/default/ui/accordion";
-import { PlusIcon } from "lucide-react";
-import { cn } from "@/registry/default/lib/utils";
+import { Button } from "../../ui/button";
 
 const items = [
   {
-    id: "1",
+    id: "01",
     title: "Who am I?",
+    img: "/templates/dalim-www.jpg",
     content:
-      "I’m Ali Imam — a designer and creative developer focused on building digital experiences that are minimal, meaningful, and timeless.",
+      "I’m Ali Imam — a multidisciplinary designer and creative developer crafting thoughtful digital experiences with purpose and precision.",
   },
   {
-    id: "2",
+    id: "02",
     title: "What do I design?",
+    img: "/templates/dalim-ui.jpg",
     content:
-      "I create clean, functional interfaces, brand systems, and digital products. My work blends simplicity with clarity and usability.",
+      "I design intuitive interfaces, visual identities, and digital products that connect clarity with emotion — always guided by simplicity and usability.",
   },
   {
-    id: "3",
+    id: "03",
     title: "My design approach",
+    img: "/templates/dalim-icons.jpg",
     content:
-      "For me, design isn’t just visuals — it’s how something feels and works. I focus on clarity, detail, and storytelling in every project.",
+      "Every project begins with understanding. I combine logic, emotion, and craft to create experiences that feel effortless and meaningful.",
   },
   {
-    id: "4",
+    id: "04",
+    title: "Philosophy & values",
+    img: "/templates/dalim-agency.jpg",
+    content:
+      "Design should be timeless — not trendy. I value honesty in visuals, restraint in detail, and intention in every decision I make.",
+  },
+  {
+    id: "05",
     title: "Beyond design",
+    img: "/templates/dalim-fonts.jpg",
     content:
-      "I bridge design and development, turning ideas into interactive experiences with modern tools and technology.",
-  },
-  {
-    id: "5",
-    title: "What inspires me",
-    content:
-      "Minimalism, architecture, and everyday details. I believe great design is found in the small things we often overlook.",
-  },
-  {
-    id: "6",
-    title: "Who I work with",
-    content:
-      "I collaborate with startups, brands, and individuals who value thoughtful design and want to create lasting impact.",
-  },
-  {
-    id: "7",
-    title: "My toolkit",
-    content:
-      "Figma, Next.js, and modern frameworks are part of my process — but for me, tools always serve the idea, not the other way around.",
-  },
-  {
-    id: "8",
-    title: "Let’s connect",
-    content:
-      "You can reach me through contact@aliimam.in or on social platforms. I’m always open to new projects, collaborations, and conversations.",
+      "Outside of work, I explore photography, motion, and creative coding — all ways to see and shape the world differently.",
   },
 ];
 
 
-export function PricingAccordion() {
+export function Accordion03() {
   return (
-    <div className="w-full max-w-3xl mx-auto">
-      <Accordion type="single" collapsible className="w-full">
+    <div className="w-full border max-w-3xl">
+      <Accordion type="single" defaultValue="02" collapsible className="w-full">
         {items.map((item) => (
-          <AccordionItem value={item.id} key={item.id}>
-            <AccordionTrigger className="text-left hover:pl-3 hover:[&_div.bg-primary]:bg-secondary duration-200 hover:no-underline cursor-pointer [data-slot=accordion-trigger] [&>svg]:hidden hover:[&_svg]:rotate-90 hover:[&_svg]:text-primary">
-              <div className="flex flex-1 items-start justify-between gap-4">
-                <h3 className="text-lg font-semibold">{item.title}</h3>
-                <div className="bg-primary rounded-sm flex items-center p-2">
-                  <PlusIcon
-                    className={cn(
-                      "text-primary-foreground h-6 w-6 shrink-0 transition-transform duration-200",
-                      "[data-state=open]:rotate-90"
-                    )}
-                  />
-                </div>
-              </div>
+          <AccordionItem className="relative" value={item.id} key={item.id}>
+            <AccordionTrigger className="pl-6 hover:no-underline [&>svg]:hidden">
+              <h1 className="text-lg md:text-xl font-semibold">{item.title}</h1>
             </AccordionTrigger>
-
-            <AccordionContent className="text-muted-foreground pb-6 pr-6">
-              {item.content}
+            <AccordionContent className="space-y-6 text-muted-foreground w-full h-full md:h-full grid md:grid-cols-2">
+              <div className="px-6 space-y-6">
+                <p> {item.content}</p>
+                <Button>View More</Button>
+              </div>
+              <img
+                className="h-full md:border-l border-t md:border-t-0 md:absolute md:w-1/2 object-cover right-0 top-0"
+                src={item.img}
+                alt={item.img}
+                aria-hidden="true"
+              />
             </AccordionContent>
           </AccordionItem>
         ))}

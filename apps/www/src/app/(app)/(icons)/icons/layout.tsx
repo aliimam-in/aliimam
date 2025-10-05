@@ -15,7 +15,7 @@ export default function DocsLayout({
     <IconsProvider>
       <div>
         <Tabs defaultValue="stroke">
-          <div className="flex h-14 sticky z-40 top-20 bg-background py-3 items-center border-y px-6">
+          <div className="flex h-14 sticky z-40 top-20 bg-background py-3 items-center border-y px-4">
             <div className="flex-none">
               <IconsNav />
             </div>

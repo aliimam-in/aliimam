@@ -5,22 +5,18 @@ featured: true
 component: true
 ---
 
-<div className="grid gap-6 md:grid-cols-2">
-  <ComponentPreview name="button-01" description="A default button" />
-  <ComponentPreview name="button-02" description="A border button" />
-</div>
+<ComponentPreview name="button-01" description="A default button" />
+<ComponentPreview name="button-02" description="A border button" />
 
 <ComponentPreview
   name="button-03"
   description="All button with different variants ( Destructive, Outline, Secondary, Ghost, Link )"
 />
 
-<div className="grid gap-6 md:grid-cols-2">
-  <ComponentPreview name="button-04" description="A secondary button" />
-  <ComponentPreview name="button-05" />
-  <ComponentPreview name="button-06" />
-  <ComponentPreview name="button-07" />
-</div>
+<ComponentPreview name="button-04" description="A secondary button" />
+<ComponentPreview name="button-05" />
+<ComponentPreview name="button-06" />
+<ComponentPreview name="button-07" />
 
 <ComponentPreview
   name="button-08"
@@ -38,7 +34,7 @@ component: true
 <TabsContent value="cli">
 
 ```bash
-npx shadcn@latest add button
+pnpm dlx shadcn@latest add https://aliimam.in/r/button.json
 ```
 
 </TabsContent>
@@ -64,31 +60,4 @@ npm install @radix-ui/react-slot
 </TabsContent>
 
 </CodeTabs>
-
-## Usage
-
-```tsx
-import { Button } from "@/components/ui/button";
-```
-
-```tsx
-<Button variant="outline">Button</Button>
-```
-
-## Link
-
-You can use the `asChild` prop to make another component look like a button. Here's an example of a link that looks like a button.
-
-```tsx showLineNumbers
-import { Link } from "next/link";
-
-import { Button } from "@/components/ui/button";
-
-export function LinkAsButton() {
-  return (
-    <Button asChild>
-      <Link href="/login">Login</Link>
-    </Button>
-  );
-}
-```
+ 

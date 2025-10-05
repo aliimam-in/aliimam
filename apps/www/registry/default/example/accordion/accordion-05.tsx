@@ -1,4 +1,4 @@
- 
+import { Oswald } from "next/font/google";
 import {
   Accordion,
   AccordionContent,
@@ -7,6 +7,11 @@ import {
 } from "@/registry/default/ui/accordion";
 import { PlusIcon } from "lucide-react";
 import { cn } from "@/registry/default/lib/utils";
+
+const myFont = Oswald({
+  weight: ["400", "700"],
+  subsets: ["latin"],
+});
 
 const items = [
   {
@@ -59,28 +64,24 @@ const items = [
   },
 ];
 
-
 export function PricingAccordion() {
   return (
     <div className="w-full max-w-3xl mx-auto">
       <Accordion type="single" collapsible className="w-full">
         {items.map((item) => (
-          <AccordionItem value={item.id} key={item.id}>
-            <AccordionTrigger className="text-left hover:pl-3 hover:[&_div.bg-primary]:bg-secondary duration-200 hover:no-underline cursor-pointer [data-slot=accordion-trigger] [&>svg]:hidden hover:[&_svg]:rotate-90 hover:[&_svg]:text-primary">
-              <div className="flex flex-1 items-start justify-between gap-4">
-                <h3 className="text-lg font-semibold">{item.title}</h3>
-                <div className="bg-primary rounded-sm flex items-center p-2">
-                  <PlusIcon
-                    className={cn(
-                      "text-primary-foreground h-6 w-6 shrink-0 transition-transform duration-200",
-                      "[data-state=open]:rotate-90"
-                    )}
-                  />
-                </div>
+          <AccordionItem value={item.id} key={item.id} className="last:border-b">
+            <AccordionTrigger className="text-left pl-6 md:pl-14 overflow-hidden text-foreground/20 duration-200 hover:no-underline cursor-pointer -space-y-6 data-[state=open]:space-y-0 data-[state=open]:text-primary [&>svg]:hidden">
+              <div className="flex flex-1 items-start gap-4">
+                <p className="text-xs">{item.id}</p>
+                <h1
+                  className={`${myFont.className} uppercase relative text-center text-3xl md:text-5xl`}
+                >
+                  {item.title}
+                </h1>
               </div>
             </AccordionTrigger>
 
-            <AccordionContent className="text-muted-foreground pb-6 pr-6">
+            <AccordionContent className="text-muted-foreground pb-6 pl-6 md:px-20">
               {item.content}
             </AccordionContent>
           </AccordionItem>

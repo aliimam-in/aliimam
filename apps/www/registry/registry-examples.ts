@@ -324,6 +324,16 @@ export const examples: Registry["items"] = [
     ],
   },
   {
+    name: "typography",
+    type: "registry:example",
+    files: [
+      {
+        path: "example/typography/typography.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
     title: "Gradient Wave",
     name: "gradient-wave-01",
     type: "registry:example",

@@ -3,8 +3,7 @@ import React from "react";
 import { ArrowDownRight } from "@aliimam/icons";
 import { Oswald } from "next/font/google";
 import { Button } from "@/registry/default/ui/button";
-
-// Import font
+ 
 const myFont = Oswald({
   weight: ["400", "700"],
   subsets: ["latin"],
