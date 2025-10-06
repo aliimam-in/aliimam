@@ -13,6 +13,22 @@ export const Instagram = ({ className }: { className?: string }) => {
   );
 };
 
+export const TwentyFirst = ({ className }: { className?: string }) => {
+  return (
+    <svg
+      width="84"
+      height="84"
+      viewBox="0 0 84 84"
+      fill="currentColor"
+      xmlns="http://www.w3.org/2000/svg"
+      className={cn("h-5 w-auto", className)}
+    >
+      <path d="M13 32C13 20.9543 21.9543 12 33 12C44.0457 12 53 20.9543 53 32C53 43.0457 44.5 47.5 33 52H53C53 63.0457 44.0457 72 33 72C21.9543 72 13 63.0457 13 52C13 40.9543 22.5 34 33 32H13Z" />
+      <path d="M53 72C64.7324 67.0977 73 55.5117 73 42C73 28.4883 64.7324 16.9023 53 12V72Z" />{" "}
+    </svg>
+  );
+};
+
 export const LinkedIn = ({ className }: { className?: string }) => {
   return (
     <svg
@@ -66,7 +82,10 @@ export const Facebook = ({ className }: { className?: string }) => {
       xmlns="http://www.w3.org/2000/svg"
       className={cn("h-5 w-auto", className)}
     >
-      <path fill="#555" d="M15 35.8C6.5 34.3 0 26.9 0 18 0 8.1 8.1 0 18 0s18 8.1 18 18c0 8.9-6.5 16.3-15 17.8l-1-.8h-4l-1 .8z" />
+      <path
+        fill="#555"
+        d="M15 35.8C6.5 34.3 0 26.9 0 18 0 8.1 8.1 0 18 0s18 8.1 18 18c0 8.9-6.5 16.3-15 17.8l-1-.8h-4l-1 .8z"
+      />
       <path
         fill="#FFF"
         d="m25 23 .8-5H21v-3.5c0-1.4.5-2.5 2.7-2.5H26V7.4c-1.3-.2-2.7-.4-4-.4-4.1 0-7 2.5-7 7v4h-4.5v5H15v12.7c1 .2 2 .3 3 .3s2-.1 3-.3V23h4z"

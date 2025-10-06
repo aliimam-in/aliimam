@@ -3,7 +3,6 @@ export { default as AtSign } from "./AtSign";
 export { default as Award } from "./Award";
 export { default as Badge } from "./Badge";
 export { default as BadgeAlert } from "./BadgeAlert";
-export { default as BadgeInfo } from "./BadgeInfo";
 export { default as Ban } from "./Ban";
 export { default as Bell } from "./Bell";
 export { default as BellDot } from "./BellDot";

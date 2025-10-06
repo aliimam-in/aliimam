@@ -5,6 +5,7 @@ export * from "./flags/flags";
 export * from "./wordmark/social";
 export * from "./wordmark/software";
 export * from "./wordmark/ai";
+export * from "./icon/sports";
 export * from "./icon/social";
 export * from "./icon/software";
 export * from "./icon/google";

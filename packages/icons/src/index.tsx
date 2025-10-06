@@ -2,6 +2,9 @@
 
 export * from "./solid/accountsAccess";
 export * from "./solid/accessibility";
+export * from "./stroke/connectivity";
+export * from "./stroke/communication";
+export * from "./stroke/buildings";
 export * from "./stroke/mathematics";
 export * from "./stroke/animals";
 export * from "./stroke/charts";

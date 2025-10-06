@@ -1,10 +1,73 @@
 {
   "components": {
+    "VerifiedBadge": {
+      "name": "VerifiedBadge",
+      "path": "src/stickers/stickers/VerifiedBadge.tsx",
+      "category": "stickers",
+      "subcategory": "stickers",
+      "size": "16"
+    },
     "India": {
       "name": "India",
       "path": "src/flags/flags/India.tsx",
       "category": "flags",
       "subcategory": "flags",
+      "size": "16"
+    },
+    "AalandIslands": {
+      "name": "AalandIslands",
+      "path": "src/flags/flags/AalandIslands.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Afghanistan": {
+      "name": "Afghanistan",
+      "path": "src/flags/flags/Afghanistan.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Albania": {
+      "name": "Albania",
+      "path": "src/flags/flags/Albania.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Algeria": {
+      "name": "Algeria",
+      "path": "src/flags/flags/Algeria.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Andorra": {
+      "name": "Andorra",
+      "path": "src/flags/flags/Andorra.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Angola": {
+      "name": "Angola",
+      "path": "src/flags/flags/Angola.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Anguilla": {
+      "name": "Anguilla",
+      "path": "src/flags/flags/Anguilla.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "YouTube": {
+      "name": "YouTube",
+      "path": "src/icon/social/YouTube.tsx",
+      "category": "icon",
+      "subcategory": "social",
       "size": "16"
     },
     "Cursor": {
@@ -17,6 +80,69 @@
     "Github": {
       "name": "Github",
       "path": "src/icon/software/Github.tsx",
+      "category": "icon",
+      "subcategory": "software",
+      "size": "16"
+    },
+    "Clerk": {
+      "name": "Clerk",
+      "path": "src/icon/software/Clerk.tsx",
+      "category": "icon",
+      "subcategory": "software",
+      "size": "16"
+    },
+    "Dropbox": {
+      "name": "Dropbox",
+      "path": "src/icon/software/Dropbox.tsx",
+      "category": "icon",
+      "subcategory": "software",
+      "size": "16"
+    },
+    "Dub": {
+      "name": "Dub",
+      "path": "src/icon/software/Dub.tsx",
+      "category": "icon",
+      "subcategory": "software",
+      "size": "16"
+    },
+    "Resend": {
+      "name": "Resend",
+      "path": "src/icon/software/Resend.tsx",
+      "category": "icon",
+      "subcategory": "software",
+      "size": "16"
+    },
+    "Raycast": {
+      "name": "Raycast",
+      "path": "src/icon/software/Raycast.tsx",
+      "category": "icon",
+      "subcategory": "software",
+      "size": "16"
+    },
+    "Ibm": {
+      "name": "Ibm",
+      "path": "src/wordmark/software/Ibm.tsx",
+      "category": "wordmark",
+      "subcategory": "software",
+      "size": "16"
+    },
+    "Ebay": {
+      "name": "Ebay",
+      "path": "src/wordmark/software/Ebay.tsx",
+      "category": "wordmark",
+      "subcategory": "software",
+      "size": "16"
+    },
+    "Vercel": {
+      "name": "Vercel",
+      "path": "src/icon/software/Vercel.tsx",
+      "category": "icon",
+      "subcategory": "software",
+      "size": "16"
+    },
+    "Nextjs": {
+      "name": "Nextjs",
+      "path": "src/icon/software/Nextjs.tsx",
       "category": "icon",
       "subcategory": "software",
       "size": "16"
@@ -70,6 +196,209 @@
       "subcategory": "ai",
       "size": "16"
     },
+    "PerplexityAI": {
+      "name": "PerplexityAI",
+      "path": "src/icon/ai/PerplexityAI.tsx",
+      "category": "icon",
+      "subcategory": "ai",
+      "size": "16"
+    },
+    "Suno": {
+      "name": "Suno",
+      "path": "src/icon/ai/Suno.tsx",
+      "category": "icon",
+      "subcategory": "ai",
+      "size": "16"
+    },
+    "TogetherAI": {
+      "name": "TogetherAI",
+      "path": "src/wordmark/ai/TogetherAI.tsx",
+      "category": "wordmark",
+      "subcategory": "ai",
+      "size": "16"
+    },
+    "Windsurf": {
+      "name": "Windsurf",
+      "path": "src/icon/ai/Windsurf.tsx",
+      "category": "icon",
+      "subcategory": "ai",
+      "size": "16"
+    },
+    "Nike": {
+      "name": "Nike",
+      "path": "src/icon/sports/Nike.tsx",
+      "category": "icon",
+      "subcategory": "sports",
+      "size": "16"
+    },
+    "Instagram": {
+      "name": "Instagram",
+      "path": "src/icon/social/Instagram.tsx",
+      "category": "icon",
+      "subcategory": "social",
+      "size": "16"
+    },
+    "LinkedIn": {
+      "name": "LinkedIn",
+      "path": "src/icon/social/LinkedIn.tsx",
+      "category": "icon",
+      "subcategory": "social",
+      "size": "16"
+    },
+    "X": {
+      "name": "X",
+      "path": "src/icon/social/X.tsx",
+      "category": "icon",
+      "subcategory": "social",
+      "size": "16"
+    },
+    "WhatsApp": {
+      "name": "WhatsApp",
+      "path": "src/icon/social/WhatsApp.tsx",
+      "category": "icon",
+      "subcategory": "social",
+      "size": "16"
+    },
+    "Facebook": {
+      "name": "Facebook",
+      "path": "src/icon/social/Facebook.tsx",
+      "category": "icon",
+      "subcategory": "social",
+      "size": "16"
+    },
+    "Threads": {
+      "name": "Threads",
+      "path": "src/icon/social/Threads.tsx",
+      "category": "icon",
+      "subcategory": "social",
+      "size": "16"
+    },
+    "Bluesky": {
+      "name": "Bluesky",
+      "path": "src/icon/social/Bluesky.tsx",
+      "category": "icon",
+      "subcategory": "social",
+      "size": "16"
+    },
+    "TikTok": {
+      "name": "TikTok",
+      "path": "src/icon/social/TikTok.tsx",
+      "category": "icon",
+      "subcategory": "social",
+      "size": "16"
+    },
+    "Meta": {
+      "name": "Meta",
+      "path": "src/icon/social/Meta.tsx",
+      "category": "icon",
+      "subcategory": "social",
+      "size": "16"
+    },
+    "Reddit": {
+      "name": "Reddit",
+      "path": "src/icon/social/Reddit.tsx",
+      "category": "icon",
+      "subcategory": "social",
+      "size": "16"
+    },
+    "Pinterest": {
+      "name": "Pinterest",
+      "path": "src/icon/social/Pinterest.tsx",
+      "category": "icon",
+      "subcategory": "social",
+      "size": "16"
+    },
+    "Telegram": {
+      "name": "Telegram",
+      "path": "src/icon/social/Telegram.tsx",
+      "category": "icon",
+      "subcategory": "social",
+      "size": "16"
+    },
+    "Polar": {
+      "name": "Polar",
+      "path": "src/icon/software/Polar.tsx",
+      "category": "icon",
+      "subcategory": "software",
+      "size": "16"
+    },
+    "Bento": {
+      "name": "Bento",
+      "path": "src/icon/software/Bento.tsx",
+      "category": "icon",
+      "subcategory": "software",
+      "size": "16"
+    },
+    "Zoom": {
+      "name": "Zoom",
+      "path": "src/icon/software/Zoom.tsx",
+      "category": "icon",
+      "subcategory": "software",
+      "size": "16"
+    },
+    "LemonSqueezy": {
+      "name": "LemonSqueezy",
+      "path": "src/icon/software/LemonSqueezy.tsx",
+      "category": "icon",
+      "subcategory": "software",
+      "size": "16"
+    },
+    "Notion": {
+      "name": "Notion",
+      "path": "src/icon/software/Notion.tsx",
+      "category": "icon",
+      "subcategory": "software",
+      "size": "16"
+    },
+    "Android": {
+      "name": "Android",
+      "path": "src/icon/software/Android.tsx",
+      "category": "icon",
+      "subcategory": "software",
+      "size": "16"
+    },
+    "Steam": {
+      "name": "Steam",
+      "path": "src/icon/software/Steam.tsx",
+      "category": "icon",
+      "subcategory": "software",
+      "size": "16"
+    },
+    "PNPM": {
+      "name": "PNPM",
+      "path": "src/icon/software/PNPM.tsx",
+      "category": "icon",
+      "subcategory": "software",
+      "size": "16"
+    },
+    "Xbox": {
+      "name": "Xbox",
+      "path": "src/icon/software/Xbox.tsx",
+      "category": "icon",
+      "subcategory": "software",
+      "size": "16"
+    },
+    "Playstation": {
+      "name": "Playstation",
+      "path": "src/icon/software/Playstation.tsx",
+      "category": "icon",
+      "subcategory": "software",
+      "size": "16"
+    },
+    "V0": {
+      "name": "V0",
+      "path": "src/icon/software/V0.tsx",
+      "category": "icon",
+      "subcategory": "software",
+      "size": "16"
+    },
+    "Apple": {
+      "name": "Apple",
+      "path": "src/icon/software/Apple.tsx",
+      "category": "icon",
+      "subcategory": "software",
+      "size": "16"
+    },
     "GoogleCloud": {
       "name": "GoogleCloud",
       "path": "src/icon/google/GoogleCloud.tsx",
@@ -84,6 +413,55 @@
       "subcategory": "google",
       "size": "16"
     },
+    "Safari": {
+      "name": "Safari",
+      "path": "src/icon/browser/Safari.tsx",
+      "category": "icon",
+      "subcategory": "browser",
+      "size": "16"
+    },
+    "Edge": {
+      "name": "Edge",
+      "path": "src/icon/browser/Edge.tsx",
+      "category": "icon",
+      "subcategory": "browser",
+      "size": "16"
+    },
+    "Chromium": {
+      "name": "Chromium",
+      "path": "src/icon/browser/Chromium.tsx",
+      "category": "icon",
+      "subcategory": "browser",
+      "size": "16"
+    },
+    "Opera": {
+      "name": "Opera",
+      "path": "src/icon/browser/Opera.tsx",
+      "category": "icon",
+      "subcategory": "browser",
+      "size": "16"
+    },
+    "Firefox": {
+      "name": "Firefox",
+      "path": "src/icon/browser/Firefox.tsx",
+      "category": "icon",
+      "subcategory": "browser",
+      "size": "16"
+    },
+    "Bing": {
+      "name": "Bing",
+      "path": "src/icon/browser/Bing.tsx",
+      "category": "icon",
+      "subcategory": "browser",
+      "size": "16"
+    },
+    "Chrome": {
+      "name": "Chrome",
+      "path": "src/icon/browser/Chrome.tsx",
+      "category": "icon",
+      "subcategory": "browser",
+      "size": "16"
+    },
     "Figma": {
       "name": "Figma",
       "path": "src/icon/design/Figma.tsx",
@@ -94,6 +472,76 @@
     "Photoshop": {
       "name": "Photoshop",
       "path": "src/icon/design/Photoshop.tsx",
+      "category": "icon",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Illustrator": {
+      "name": "Illustrator",
+      "path": "src/icon/design/Illustrator.tsx",
+      "category": "icon",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "AfterEffects": {
+      "name": "AfterEffects",
+      "path": "src/icon/design/AfterEffects.tsx",
+      "category": "icon",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "PremierePro": {
+      "name": "PremierePro",
+      "path": "src/icon/design/PremierePro.tsx",
+      "category": "icon",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Lightroom": {
+      "name": "Lightroom",
+      "path": "src/icon/design/Lightroom.tsx",
+      "category": "icon",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "InDesign": {
+      "name": "InDesign",
+      "path": "src/icon/design/InDesign.tsx",
+      "category": "icon",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Animate": {
+      "name": "Animate",
+      "path": "src/icon/design/Animate.tsx",
+      "category": "icon",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Canva": {
+      "name": "Canva",
+      "path": "src/icon/design/Canva.tsx",
+      "category": "icon",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Blender": {
+      "name": "Blender",
+      "path": "src/icon/design/Blender.tsx",
+      "category": "icon",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Sketch": {
+      "name": "Sketch",
+      "path": "src/icon/design/Sketch.tsx",
+      "category": "icon",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Layers": {
+      "name": "Layers",
+      "path": "src/icon/design/Layers.tsx",
       "category": "icon",
       "subcategory": "design",
       "size": "16"
@@ -132,14 +580,46 @@
       "category": "icon",
       "subcategory": "ai",
       "size": "16"
+    },
+    "Runway": {
+      "name": "Runway",
+      "path": "src/icon/ai/Runway.tsx",
+      "category": "icon",
+      "subcategory": "ai",
+      "size": "16"
     }
   },
   "categories": {
+    "stickers": {
+      "stickers": ["VerifiedBadge"]
+    },
     "flags": {
-      "flags": ["India"]
+      "flags": [
+        "India",
+        "AalandIslands",
+        "Afghanistan",
+        "Albania",
+        "Algeria",
+        "Andorra",
+        "Angola",
+        "Anguilla"
+      ]
     },
     "wordmark": {
-      "software": ["Cursor", "Github"],
+      "social": ["YouTube"],
+      "software": [
+        "Cursor",
+        "Github",
+        "Clerk",
+        "Dropbox",
+        "Dub",
+        "Resend",
+        "Raycast",
+        "Ibm",
+        "Ebay",
+        "Vercel",
+        "Nextjs"
+      ],
       "ai": [
         "OpenAI",
         "Grok",
@@ -147,13 +627,77 @@
         "Gemini",
         "DeepSeek",
         "ClaudeAI",
-        "Replicate"
+        "Replicate",
+        "PerplexityAI",
+        "Suno",
+        "TogetherAI",
+        "Windsurf"
       ]
     },
     "icon": {
+      "sports": ["Nike"],
+      "social": [
+        "Instagram",
+        "LinkedIn",
+        "X",
+        "WhatsApp",
+        "Facebook",
+        "Threads",
+        "YouTube",
+        "Bluesky",
+        "TikTok",
+        "Meta",
+        "Reddit",
+        "Pinterest",
+        "Telegram"
+      ],
+      "software": [
+        "Cursor",
+        "Clerk",
+        "Github",
+        "Dropbox",
+        "Polar",
+        "Bento",
+        "Dub",
+        "Resend",
+        "Zoom",
+        "LemonSqueezy",
+        "Notion",
+        "Android",
+        "Steam",
+        "PNPM",
+        "Xbox",
+        "Playstation",
+        "Raycast",
+        "Vercel",
+        "V0",
+        "Nextjs",
+        "Apple"
+      ],
       "google": ["Google", "GoogleCloud", "GoogleMaps"],
-      "software": ["Figma", "Photoshop", "Cursor", "Github"],
-      "design": ["Figma", "Photoshop"],
+      "browser": [
+        "Safari",
+        "Edge",
+        "Chromium",
+        "Opera",
+        "Firefox",
+        "Bing",
+        "Chrome"
+      ],
+      "design": [
+        "Figma",
+        "Photoshop",
+        "Illustrator",
+        "AfterEffects",
+        "PremierePro",
+        "Lightroom",
+        "InDesign",
+        "Animate",
+        "Canva",
+        "Blender",
+        "Sketch",
+        "Layers"
+      ],
       "ai": [
         "OpenAI",
         "Grok",
@@ -165,9 +709,13 @@
         "Hume",
         "HuggingFace",
         "Replicate",
-        "Midday"
+        "Midday",
+        "PerplexityAI",
+        "Runway",
+        "Suno",
+        "Windsurf"
       ]
     }
   },
-  "total": 19
+  "total": 84
 }

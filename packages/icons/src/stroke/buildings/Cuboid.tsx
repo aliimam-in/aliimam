@@ -1,0 +1,63 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const Cuboid: IconComponent = React.forwardRef<SVGSVGElement, IconProps>(
+  function Cuboid(
+    {
+      color = "currentColor",
+      fill,
+      size = 24,
+      strokeWidth,
+      strokeLinecap,
+      strokeLinejoin,
+      strokeDasharray,
+      opacity,
+      className,
+      ...props
+    },
+    forwardedRef,
+  ) {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M21.12 6.4L15.07 2.34C14.7515 2.12367 14.3773 2.00388 13.9924 1.99501C13.6074 1.98614 13.2281 2.08857 12.9 2.29L2.95 8.41C2.65992 8.58893 2.42038 8.83903 2.25411 9.13656C2.08785 9.43409 2.00038 9.76917 2 10.11V15.93C1.99951 16.2576 2.0795 16.5803 2.23294 16.8698C2.38639 17.1592 2.60858 17.4065 2.88 17.59L8.93 21.66C9.24852 21.8763 9.6227 21.9961 10.0076 22.005C10.3926 22.0139 10.7719 21.9114 11.1 21.71L21.05 15.59C21.3401 15.4111 21.5796 15.161 21.7459 14.8634C21.9122 14.5659 21.9996 14.2308 22 13.89V8.06C22.0005 7.73239 21.9205 7.40968 21.7671 7.12023C21.6136 6.83078 21.3914 6.58346 21.12 6.4Z"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M10 22V14L2.25 9.15M10 14 21.77 7.13"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    );
+  },
+);
+
+Cuboid.displayName = "Cuboid";
+
+Cuboid.metadata = {
+  name: "Cuboid",
+  category: "stroke/buildings",
+  tags: ["cuboid", "icon"],
+  description: "Cuboid icon from stroke/buildings category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default Cuboid;

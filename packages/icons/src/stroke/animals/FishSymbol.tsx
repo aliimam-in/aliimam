@@ -36,7 +36,7 @@ export const FishSymbol: IconComponent = React.forwardRef<
       ref={forwardedRef}
     >
       <path
-        d="M2 16C2 16 11 1 22 12C11 23 2 8 2 8"
+        d="M2 16C2 16 11 0.999989 22 12C11 23 2 7.99999 2 7.99999"
         stroke={color}
         strokeLinecap="round"
         strokeLinejoin="round"

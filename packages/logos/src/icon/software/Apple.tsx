@@ -1,0 +1,55 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const Apple: IconComponent = React.forwardRef<SVGSVGElement, IconProps>(
+  function Apple(
+    {
+      color = "currentColor",
+      fill,
+      size = 24,
+      strokeWidth,
+      strokeLinecap,
+      strokeLinejoin,
+      strokeDasharray,
+      opacity,
+      className,
+      ...props
+    },
+    forwardedRef,
+  ) {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M21.3636 8.1816C21.2211 8.2896 18.7052 9.6744 18.7052 12.7536C18.7052 16.3152 21.9066 17.5752 22.0025 17.6064C21.9877 17.6832 21.4939 19.332 20.3145 21.012C19.2629 22.4904 18.1646 23.9664 16.4939 23.9664C14.8231 23.9664 14.3931 23.0184 12.4644 23.0184C10.5848 23.0184 9.91646 23.9976 8.38821 23.9976C6.85995 23.9976 5.79361 22.6296 4.56757 20.9496C3.14742 18.9768 2 15.912 2 13.0032C2 8.3376 5.10565 5.8632 8.16216 5.8632C9.78624 5.8632 11.14 6.9048 12.1597 6.9048C13.1302 6.9048 14.6437 5.8008 16.4914 5.8008C17.1916 5.8008 19.7076 5.8632 21.3636 8.1816ZM15.6143 3.8256C16.3784 2.94 16.9189 1.7112 16.9189 0.4824C16.9189 0.312 16.9042 0.1392 16.8722 0C15.629 0.0456 14.1499 0.8088 13.258 1.8192C12.5577 2.5968 11.9042 3.8256 11.9042 5.0712C11.9042 5.2584 11.9361 5.4456 11.9509 5.5056C12.0295 5.52 12.1572 5.5368 12.285 5.5368C13.4005 5.5368 14.8034 4.8072 15.6143 3.8256Z"
+          fill="currentColor"
+        />
+      </svg>
+    );
+  },
+);
+
+Apple.displayName = "Apple";
+
+Apple.metadata = {
+  name: "Apple",
+  category: "icon/software",
+  tags: ["apple", "icon"],
+  description: "Apple icon from icon/software category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default Apple;

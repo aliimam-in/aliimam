@@ -35,13 +35,6 @@
       "subcategory": "accountsAccess",
       "size": "16"
     },
-    "BadgeInfo": {
-      "name": "BadgeInfo",
-      "path": "src/stroke/accessibility/BadgeInfo.tsx",
-      "category": "stroke",
-      "subcategory": "accessibility",
-      "size": "16"
-    },
     "Ban": {
       "name": "Ban",
       "path": "src/stroke/accountsAccess/Ban.tsx",
@@ -136,6 +129,13 @@
     "Baby": {
       "name": "Baby",
       "path": "src/stroke/accessibility/Baby.tsx",
+      "category": "stroke",
+      "subcategory": "accessibility",
+      "size": "16"
+    },
+    "BadgeInfo": {
+      "name": "BadgeInfo",
+      "path": "src/stroke/accessibility/BadgeInfo.tsx",
       "category": "stroke",
       "subcategory": "accessibility",
       "size": "16"
@@ -315,6 +315,951 @@
       "subcategory": "accessibility",
       "size": "16"
     },
+    "Airplay": {
+      "name": "Airplay",
+      "path": "src/stroke/connectivity/Airplay.tsx",
+      "category": "stroke",
+      "subcategory": "connectivity",
+      "size": "16"
+    },
+    "Battery": {
+      "name": "Battery",
+      "path": "src/stroke/connectivity/Battery.tsx",
+      "category": "stroke",
+      "subcategory": "connectivity",
+      "size": "16"
+    },
+    "BatteryCharging": {
+      "name": "BatteryCharging",
+      "path": "src/stroke/connectivity/BatteryCharging.tsx",
+      "category": "stroke",
+      "subcategory": "connectivity",
+      "size": "16"
+    },
+    "BatteryFull": {
+      "name": "BatteryFull",
+      "path": "src/stroke/connectivity/BatteryFull.tsx",
+      "category": "stroke",
+      "subcategory": "connectivity",
+      "size": "16"
+    },
+    "BatteryLow": {
+      "name": "BatteryLow",
+      "path": "src/stroke/connectivity/BatteryLow.tsx",
+      "category": "stroke",
+      "subcategory": "connectivity",
+      "size": "16"
+    },
+    "BatteryMedium": {
+      "name": "BatteryMedium",
+      "path": "src/stroke/connectivity/BatteryMedium.tsx",
+      "category": "stroke",
+      "subcategory": "connectivity",
+      "size": "16"
+    },
+    "BatteryWarning": {
+      "name": "BatteryWarning",
+      "path": "src/stroke/connectivity/BatteryWarning.tsx",
+      "category": "stroke",
+      "subcategory": "connectivity",
+      "size": "16"
+    },
+    "Bluetooth": {
+      "name": "Bluetooth",
+      "path": "src/stroke/connectivity/Bluetooth.tsx",
+      "category": "stroke",
+      "subcategory": "connectivity",
+      "size": "16"
+    },
+    "BluetoothConnected": {
+      "name": "BluetoothConnected",
+      "path": "src/stroke/connectivity/BluetoothConnected.tsx",
+      "category": "stroke",
+      "subcategory": "connectivity",
+      "size": "16"
+    },
+    "BluetoothOff": {
+      "name": "BluetoothOff",
+      "path": "src/stroke/connectivity/BluetoothOff.tsx",
+      "category": "stroke",
+      "subcategory": "connectivity",
+      "size": "16"
+    },
+    "BluetoothSearching": {
+      "name": "BluetoothSearching",
+      "path": "src/stroke/connectivity/BluetoothSearching.tsx",
+      "category": "stroke",
+      "subcategory": "connectivity",
+      "size": "16"
+    },
+    "BrickWallFire": {
+      "name": "BrickWallFire",
+      "path": "src/stroke/connectivity/BrickWallFire.tsx",
+      "category": "stroke",
+      "subcategory": "connectivity",
+      "size": "16"
+    },
+    "BrickWallShield": {
+      "name": "BrickWallShield",
+      "path": "src/stroke/connectivity/BrickWallShield.tsx",
+      "category": "stroke",
+      "subcategory": "connectivity",
+      "size": "16"
+    },
+    "Cable": {
+      "name": "Cable",
+      "path": "src/stroke/connectivity/Cable.tsx",
+      "category": "stroke",
+      "subcategory": "connectivity",
+      "size": "16"
+    },
+    "CardSim": {
+      "name": "CardSim",
+      "path": "src/stroke/communication/CardSim.tsx",
+      "category": "stroke",
+      "subcategory": "communication",
+      "size": "16"
+    },
+    "CassetteTape": {
+      "name": "CassetteTape",
+      "path": "src/stroke/communication/CassetteTape.tsx",
+      "category": "stroke",
+      "subcategory": "communication",
+      "size": "16"
+    },
+    "Cast": {
+      "name": "Cast",
+      "path": "src/stroke/connectivity/Cast.tsx",
+      "category": "stroke",
+      "subcategory": "connectivity",
+      "size": "16"
+    },
+    "Cctv": {
+      "name": "Cctv",
+      "path": "src/stroke/communication/Cctv.tsx",
+      "category": "stroke",
+      "subcategory": "communication",
+      "size": "16"
+    },
+    "CirclePower": {
+      "name": "CirclePower",
+      "path": "src/stroke/connectivity/CirclePower.tsx",
+      "category": "stroke",
+      "subcategory": "connectivity",
+      "size": "16"
+    },
+    "CloudOff": {
+      "name": "CloudOff",
+      "path": "src/stroke/connectivity/CloudOff.tsx",
+      "category": "stroke",
+      "subcategory": "connectivity",
+      "size": "16"
+    },
+    "Contact": {
+      "name": "Contact",
+      "path": "src/stroke/accountsAccess/Contact.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "ContactRound": {
+      "name": "ContactRound",
+      "path": "src/stroke/accountsAccess/ContactRound.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "HeadphoneOff": {
+      "name": "HeadphoneOff",
+      "path": "src/stroke/communication/HeadphoneOff.tsx",
+      "category": "stroke",
+      "subcategory": "communication",
+      "size": "16"
+    },
+    "Headphones": {
+      "name": "Headphones",
+      "path": "src/stroke/connectivity/Headphones.tsx",
+      "category": "stroke",
+      "subcategory": "connectivity",
+      "size": "16"
+    },
+    "Headset": {
+      "name": "Headset",
+      "path": "src/stroke/connectivity/Headset.tsx",
+      "category": "stroke",
+      "subcategory": "connectivity",
+      "size": "16"
+    },
+    "HouseWifi": {
+      "name": "HouseWifi",
+      "path": "src/stroke/buildings/HouseWifi.tsx",
+      "category": "stroke",
+      "subcategory": "buildings",
+      "size": "16"
+    },
+    "Mic": {
+      "name": "Mic",
+      "path": "src/stroke/communication/Mic.tsx",
+      "category": "stroke",
+      "subcategory": "communication",
+      "size": "16"
+    },
+    "MicOff": {
+      "name": "MicOff",
+      "path": "src/stroke/communication/MicOff.tsx",
+      "category": "stroke",
+      "subcategory": "communication",
+      "size": "16"
+    },
+    "Monitor": {
+      "name": "Monitor",
+      "path": "src/stroke/connectivity/Monitor.tsx",
+      "category": "stroke",
+      "subcategory": "connectivity",
+      "size": "16"
+    },
+    "MonitorCheck": {
+      "name": "MonitorCheck",
+      "path": "src/stroke/connectivity/MonitorCheck.tsx",
+      "category": "stroke",
+      "subcategory": "connectivity",
+      "size": "16"
+    },
+    "MonitorCog": {
+      "name": "MonitorCog",
+      "path": "src/stroke/connectivity/MonitorCog.tsx",
+      "category": "stroke",
+      "subcategory": "connectivity",
+      "size": "16"
+    },
+    "MonitorDot": {
+      "name": "MonitorDot",
+      "path": "src/stroke/connectivity/MonitorDot.tsx",
+      "category": "stroke",
+      "subcategory": "connectivity",
+      "size": "16"
+    },
+    "MonitorDown": {
+      "name": "MonitorDown",
+      "path": "src/stroke/connectivity/MonitorDown.tsx",
+      "category": "stroke",
+      "subcategory": "connectivity",
+      "size": "16"
+    },
+    "MonitorOff": {
+      "name": "MonitorOff",
+      "path": "src/stroke/connectivity/MonitorOff.tsx",
+      "category": "stroke",
+      "subcategory": "connectivity",
+      "size": "16"
+    },
+    "MonitorPause": {
+      "name": "MonitorPause",
+      "path": "src/stroke/connectivity/MonitorPause.tsx",
+      "category": "stroke",
+      "subcategory": "connectivity",
+      "size": "16"
+    },
+    "MonitorPlay": {
+      "name": "MonitorPlay",
+      "path": "src/stroke/connectivity/MonitorPlay.tsx",
+      "category": "stroke",
+      "subcategory": "connectivity",
+      "size": "16"
+    },
+    "MonitorSmartphone": {
+      "name": "MonitorSmartphone",
+      "path": "src/stroke/connectivity/MonitorSmartphone.tsx",
+      "category": "stroke",
+      "subcategory": "connectivity",
+      "size": "16"
+    },
+    "MonitorSpeaker": {
+      "name": "MonitorSpeaker",
+      "path": "src/stroke/connectivity/MonitorSpeaker.tsx",
+      "category": "stroke",
+      "subcategory": "connectivity",
+      "size": "16"
+    },
+    "MonitorStop": {
+      "name": "MonitorStop",
+      "path": "src/stroke/connectivity/MonitorStop.tsx",
+      "category": "stroke",
+      "subcategory": "connectivity",
+      "size": "16"
+    },
+    "MonitorUp": {
+      "name": "MonitorUp",
+      "path": "src/stroke/connectivity/MonitorUp.tsx",
+      "category": "stroke",
+      "subcategory": "connectivity",
+      "size": "16"
+    },
+    "MonitorX": {
+      "name": "MonitorX",
+      "path": "src/stroke/connectivity/MonitorX.tsx",
+      "category": "stroke",
+      "subcategory": "connectivity",
+      "size": "16"
+    },
+    "Phone": {
+      "name": "Phone",
+      "path": "src/stroke/communication/Phone.tsx",
+      "category": "stroke",
+      "subcategory": "communication",
+      "size": "16"
+    },
+    "PhoneCall": {
+      "name": "PhoneCall",
+      "path": "src/stroke/communication/PhoneCall.tsx",
+      "category": "stroke",
+      "subcategory": "communication",
+      "size": "16"
+    },
+    "PhoneForwarded": {
+      "name": "PhoneForwarded",
+      "path": "src/stroke/arrows/PhoneForwarded.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "PhoneIncoming": {
+      "name": "PhoneIncoming",
+      "path": "src/stroke/arrows/PhoneIncoming.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "PhoneMissed": {
+      "name": "PhoneMissed",
+      "path": "src/stroke/communication/PhoneMissed.tsx",
+      "category": "stroke",
+      "subcategory": "communication",
+      "size": "16"
+    },
+    "PhoneOff": {
+      "name": "PhoneOff",
+      "path": "src/stroke/communication/PhoneOff.tsx",
+      "category": "stroke",
+      "subcategory": "communication",
+      "size": "16"
+    },
+    "PhoneOutgoing": {
+      "name": "PhoneOutgoing",
+      "path": "src/stroke/arrows/PhoneOutgoing.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "Power": {
+      "name": "Power",
+      "path": "src/stroke/connectivity/Power.tsx",
+      "category": "stroke",
+      "subcategory": "connectivity",
+      "size": "16"
+    },
+    "RectangleGoggles": {
+      "name": "RectangleGoggles",
+      "path": "src/stroke/connectivity/RectangleGoggles.tsx",
+      "category": "stroke",
+      "subcategory": "connectivity",
+      "size": "16"
+    },
+    "Router": {
+      "name": "Router",
+      "path": "src/stroke/connectivity/Router.tsx",
+      "category": "stroke",
+      "subcategory": "connectivity",
+      "size": "16"
+    },
+    "Satellite": {
+      "name": "Satellite",
+      "path": "src/stroke/connectivity/Satellite.tsx",
+      "category": "stroke",
+      "subcategory": "connectivity",
+      "size": "16"
+    },
+    "SatelliteDish": {
+      "name": "SatelliteDish",
+      "path": "src/stroke/connectivity/SatelliteDish.tsx",
+      "category": "stroke",
+      "subcategory": "connectivity",
+      "size": "16"
+    },
+    "ScreenShare": {
+      "name": "ScreenShare",
+      "path": "src/stroke/communication/ScreenShare.tsx",
+      "category": "stroke",
+      "subcategory": "communication",
+      "size": "16"
+    },
+    "ScreenShareOff": {
+      "name": "ScreenShareOff",
+      "path": "src/stroke/communication/ScreenShareOff.tsx",
+      "category": "stroke",
+      "subcategory": "communication",
+      "size": "16"
+    },
+    "Send": {
+      "name": "Send",
+      "path": "src/stroke/communication/Send.tsx",
+      "category": "stroke",
+      "subcategory": "communication",
+      "size": "16"
+    },
+    "SendHorizontal": {
+      "name": "SendHorizontal",
+      "path": "src/stroke/communication/SendHorizontal.tsx",
+      "category": "stroke",
+      "subcategory": "communication",
+      "size": "16"
+    },
+    "Signal": {
+      "name": "Signal",
+      "path": "src/stroke/connectivity/Signal.tsx",
+      "category": "stroke",
+      "subcategory": "connectivity",
+      "size": "16"
+    },
+    "SignalHigh": {
+      "name": "SignalHigh",
+      "path": "src/stroke/connectivity/SignalHigh.tsx",
+      "category": "stroke",
+      "subcategory": "connectivity",
+      "size": "16"
+    },
+    "SignalLow": {
+      "name": "SignalLow",
+      "path": "src/stroke/connectivity/SignalLow.tsx",
+      "category": "stroke",
+      "subcategory": "connectivity",
+      "size": "16"
+    },
+    "SignalMedium": {
+      "name": "SignalMedium",
+      "path": "src/stroke/connectivity/SignalMedium.tsx",
+      "category": "stroke",
+      "subcategory": "connectivity",
+      "size": "16"
+    },
+    "SignalZero": {
+      "name": "SignalZero",
+      "path": "src/stroke/connectivity/SignalZero.tsx",
+      "category": "stroke",
+      "subcategory": "connectivity",
+      "size": "16"
+    },
+    "Smartphone": {
+      "name": "Smartphone",
+      "path": "src/stroke/connectivity/Smartphone.tsx",
+      "category": "stroke",
+      "subcategory": "connectivity",
+      "size": "16"
+    },
+    "SmartphoneCharging": {
+      "name": "SmartphoneCharging",
+      "path": "src/stroke/connectivity/SmartphoneCharging.tsx",
+      "category": "stroke",
+      "subcategory": "connectivity",
+      "size": "16"
+    },
+    "SquarePower": {
+      "name": "SquarePower",
+      "path": "src/stroke/connectivity/SquarePower.tsx",
+      "category": "stroke",
+      "subcategory": "connectivity",
+      "size": "16"
+    },
+    "Vibrate": {
+      "name": "Vibrate",
+      "path": "src/stroke/accountsAccess/Vibrate.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "VibrateOff": {
+      "name": "VibrateOff",
+      "path": "src/stroke/accountsAccess/VibrateOff.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "Video": {
+      "name": "Video",
+      "path": "src/stroke/communication/Video.tsx",
+      "category": "stroke",
+      "subcategory": "communication",
+      "size": "16"
+    },
+    "VideoOff": {
+      "name": "VideoOff",
+      "path": "src/stroke/communication/VideoOff.tsx",
+      "category": "stroke",
+      "subcategory": "communication",
+      "size": "16"
+    },
+    "Videotape": {
+      "name": "Videotape",
+      "path": "src/stroke/connectivity/Videotape.tsx",
+      "category": "stroke",
+      "subcategory": "connectivity",
+      "size": "16"
+    },
+    "Voicemail": {
+      "name": "Voicemail",
+      "path": "src/stroke/connectivity/Voicemail.tsx",
+      "category": "stroke",
+      "subcategory": "connectivity",
+      "size": "16"
+    },
+    "Volume": {
+      "name": "Volume",
+      "path": "src/stroke/communication/Volume.tsx",
+      "category": "stroke",
+      "subcategory": "communication",
+      "size": "16"
+    },
+    "Volume1": {
+      "name": "Volume1",
+      "path": "src/stroke/communication/Volume1.tsx",
+      "category": "stroke",
+      "subcategory": "communication",
+      "size": "16"
+    },
+    "Volume2": {
+      "name": "Volume2",
+      "path": "src/stroke/communication/Volume2.tsx",
+      "category": "stroke",
+      "subcategory": "communication",
+      "size": "16"
+    },
+    "VolumeOff": {
+      "name": "VolumeOff",
+      "path": "src/stroke/communication/VolumeOff.tsx",
+      "category": "stroke",
+      "subcategory": "communication",
+      "size": "16"
+    },
+    "VolumeX": {
+      "name": "VolumeX",
+      "path": "src/stroke/communication/VolumeX.tsx",
+      "category": "stroke",
+      "subcategory": "communication",
+      "size": "16"
+    },
+    "Webcam": {
+      "name": "Webcam",
+      "path": "src/stroke/communication/Webcam.tsx",
+      "category": "stroke",
+      "subcategory": "communication",
+      "size": "16"
+    },
+    "Wifi": {
+      "name": "Wifi",
+      "path": "src/stroke/connectivity/Wifi.tsx",
+      "category": "stroke",
+      "subcategory": "connectivity",
+      "size": "16"
+    },
+    "WifiCog": {
+      "name": "WifiCog",
+      "path": "src/stroke/connectivity/WifiCog.tsx",
+      "category": "stroke",
+      "subcategory": "connectivity",
+      "size": "16"
+    },
+    "WifiHigh": {
+      "name": "WifiHigh",
+      "path": "src/stroke/connectivity/WifiHigh.tsx",
+      "category": "stroke",
+      "subcategory": "connectivity",
+      "size": "16"
+    },
+    "WifiLow": {
+      "name": "WifiLow",
+      "path": "src/stroke/connectivity/WifiLow.tsx",
+      "category": "stroke",
+      "subcategory": "connectivity",
+      "size": "16"
+    },
+    "WifiOff": {
+      "name": "WifiOff",
+      "path": "src/stroke/connectivity/WifiOff.tsx",
+      "category": "stroke",
+      "subcategory": "connectivity",
+      "size": "16"
+    },
+    "WifiPen": {
+      "name": "WifiPen",
+      "path": "src/stroke/connectivity/WifiPen.tsx",
+      "category": "stroke",
+      "subcategory": "connectivity",
+      "size": "16"
+    },
+    "WifiSync": {
+      "name": "WifiSync",
+      "path": "src/stroke/connectivity/WifiSync.tsx",
+      "category": "stroke",
+      "subcategory": "connectivity",
+      "size": "16"
+    },
+    "WifiZero": {
+      "name": "WifiZero",
+      "path": "src/stroke/connectivity/WifiZero.tsx",
+      "category": "stroke",
+      "subcategory": "connectivity",
+      "size": "16"
+    },
+    "Zap": {
+      "name": "Zap",
+      "path": "src/stroke/connectivity/Zap.tsx",
+      "category": "stroke",
+      "subcategory": "connectivity",
+      "size": "16"
+    },
+    "ZapOff": {
+      "name": "ZapOff",
+      "path": "src/stroke/connectivity/ZapOff.tsx",
+      "category": "stroke",
+      "subcategory": "connectivity",
+      "size": "16"
+    },
+    "Antenna": {
+      "name": "Antenna",
+      "path": "src/stroke/communication/Antenna.tsx",
+      "category": "stroke",
+      "subcategory": "communication",
+      "size": "16"
+    },
+    "AudioLines": {
+      "name": "AudioLines",
+      "path": "src/stroke/communication/AudioLines.tsx",
+      "category": "stroke",
+      "subcategory": "communication",
+      "size": "16"
+    },
+    "AudioWaveForm": {
+      "name": "AudioWaveForm",
+      "path": "src/stroke/communication/AudioWaveForm.tsx",
+      "category": "stroke",
+      "subcategory": "communication",
+      "size": "16"
+    },
+    "Camera": {
+      "name": "Camera",
+      "path": "src/stroke/communication/Camera.tsx",
+      "category": "stroke",
+      "subcategory": "communication",
+      "size": "16"
+    },
+    "CameraOff": {
+      "name": "CameraOff",
+      "path": "src/stroke/communication/CameraOff.tsx",
+      "category": "stroke",
+      "subcategory": "communication",
+      "size": "16"
+    },
+    "ChevronsLeftRightEllipsis": {
+      "name": "ChevronsLeftRightEllipsis",
+      "path": "src/stroke/communication/ChevronsLeftRightEllipsis.tsx",
+      "category": "stroke",
+      "subcategory": "communication",
+      "size": "16"
+    },
+    "CircleFadingPlus": {
+      "name": "CircleFadingPlus",
+      "path": "src/stroke/communication/CircleFadingPlus.tsx",
+      "category": "stroke",
+      "subcategory": "communication",
+      "size": "16"
+    },
+    "EthernetPort": {
+      "name": "EthernetPort",
+      "path": "src/stroke/communication/EthernetPort.tsx",
+      "category": "stroke",
+      "subcategory": "communication",
+      "size": "16"
+    },
+    "HandFist": {
+      "name": "HandFist",
+      "path": "src/stroke/communication/HandFist.tsx",
+      "category": "stroke",
+      "subcategory": "communication",
+      "size": "16"
+    },
+    "HandShake": {
+      "name": "HandShake",
+      "path": "src/stroke/communication/HandShake.tsx",
+      "category": "stroke",
+      "subcategory": "communication",
+      "size": "16"
+    },
+    "Lectern": {
+      "name": "Lectern",
+      "path": "src/stroke/communication/Lectern.tsx",
+      "category": "stroke",
+      "subcategory": "communication",
+      "size": "16"
+    },
+    "Newspaper": {
+      "name": "Newspaper",
+      "path": "src/stroke/communication/Newspaper.tsx",
+      "category": "stroke",
+      "subcategory": "communication",
+      "size": "16"
+    },
+    "Nfc": {
+      "name": "Nfc",
+      "path": "src/stroke/communication/Nfc.tsx",
+      "category": "stroke",
+      "subcategory": "communication",
+      "size": "16"
+    },
+    "Notebook": {
+      "name": "Notebook",
+      "path": "src/stroke/communication/Notebook.tsx",
+      "category": "stroke",
+      "subcategory": "communication",
+      "size": "16"
+    },
+    "NotebookTabs": {
+      "name": "NotebookTabs",
+      "path": "src/stroke/accountsAccess/NotebookTabs.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "Presentation": {
+      "name": "Presentation",
+      "path": "src/stroke/communication/Presentation.tsx",
+      "category": "stroke",
+      "subcategory": "communication",
+      "size": "16"
+    },
+    "Projector": {
+      "name": "Projector",
+      "path": "src/stroke/communication/Projector.tsx",
+      "category": "stroke",
+      "subcategory": "communication",
+      "size": "16"
+    },
+    "Radar": {
+      "name": "Radar",
+      "path": "src/stroke/communication/Radar.tsx",
+      "category": "stroke",
+      "subcategory": "communication",
+      "size": "16"
+    },
+    "SmartphoneNfc": {
+      "name": "SmartphoneNfc",
+      "path": "src/stroke/communication/SmartphoneNfc.tsx",
+      "category": "stroke",
+      "subcategory": "communication",
+      "size": "16"
+    },
+    "SmilePlus": {
+      "name": "SmilePlus",
+      "path": "src/stroke/communication/SmilePlus.tsx",
+      "category": "stroke",
+      "subcategory": "communication",
+      "size": "16"
+    },
+    "Spool": {
+      "name": "Spool",
+      "path": "src/stroke/communication/Spool.tsx",
+      "category": "stroke",
+      "subcategory": "communication",
+      "size": "16"
+    },
+    "Spotlight": {
+      "name": "Spotlight",
+      "path": "src/stroke/communication/Spotlight.tsx",
+      "category": "stroke",
+      "subcategory": "communication",
+      "size": "16"
+    },
+    "SwitchCamera": {
+      "name": "SwitchCamera",
+      "path": "src/stroke/communication/SwitchCamera.tsx",
+      "category": "stroke",
+      "subcategory": "communication",
+      "size": "16"
+    },
+    "Tv": {
+      "name": "Tv",
+      "path": "src/stroke/communication/Tv.tsx",
+      "category": "stroke",
+      "subcategory": "communication",
+      "size": "16"
+    },
+    "VideoTape": {
+      "name": "VideoTape",
+      "path": "src/stroke/communication/VideoTape.tsx",
+      "category": "stroke",
+      "subcategory": "communication",
+      "size": "16"
+    },
+    "Anvil": {
+      "name": "Anvil",
+      "path": "src/stroke/buildings/Anvil.tsx",
+      "category": "stroke",
+      "subcategory": "buildings",
+      "size": "16"
+    },
+    "BrickWall": {
+      "name": "BrickWall",
+      "path": "src/stroke/buildings/BrickWall.tsx",
+      "category": "stroke",
+      "subcategory": "buildings",
+      "size": "16"
+    },
+    "Building2": {
+      "name": "Building2",
+      "path": "src/stroke/accountsAccess/Building2.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "Castle": {
+      "name": "Castle",
+      "path": "src/stroke/buildings/Castle.tsx",
+      "category": "stroke",
+      "subcategory": "buildings",
+      "size": "16"
+    },
+    "Church": {
+      "name": "Church",
+      "path": "src/stroke/buildings/Church.tsx",
+      "category": "stroke",
+      "subcategory": "buildings",
+      "size": "16"
+    },
+    "Cuboid": {
+      "name": "Cuboid",
+      "path": "src/stroke/buildings/Cuboid.tsx",
+      "category": "stroke",
+      "subcategory": "buildings",
+      "size": "16"
+    },
+    "Dam": {
+      "name": "Dam",
+      "path": "src/stroke/buildings/Dam.tsx",
+      "category": "stroke",
+      "subcategory": "buildings",
+      "size": "16"
+    },
+    "Factory": {
+      "name": "Factory",
+      "path": "src/stroke/buildings/Factory.tsx",
+      "category": "stroke",
+      "subcategory": "buildings",
+      "size": "16"
+    },
+    "Fence": {
+      "name": "Fence",
+      "path": "src/stroke/buildings/Fence.tsx",
+      "category": "stroke",
+      "subcategory": "buildings",
+      "size": "16"
+    },
+    "GraduationCap": {
+      "name": "GraduationCap",
+      "path": "src/stroke/buildings/GraduationCap.tsx",
+      "category": "stroke",
+      "subcategory": "buildings",
+      "size": "16"
+    },
+    "Hospital": {
+      "name": "Hospital",
+      "path": "src/stroke/buildings/Hospital.tsx",
+      "category": "stroke",
+      "subcategory": "buildings",
+      "size": "16"
+    },
+    "Hotel": {
+      "name": "Hotel",
+      "path": "src/stroke/buildings/Hotel.tsx",
+      "category": "stroke",
+      "subcategory": "buildings",
+      "size": "16"
+    },
+    "House": {
+      "name": "House",
+      "path": "src/stroke/buildings/House.tsx",
+      "category": "stroke",
+      "subcategory": "buildings",
+      "size": "16"
+    },
+    "HouseHeart": {
+      "name": "HouseHeart",
+      "path": "src/stroke/buildings/HouseHeart.tsx",
+      "category": "stroke",
+      "subcategory": "buildings",
+      "size": "16"
+    },
+    "HousePlug": {
+      "name": "HousePlug",
+      "path": "src/stroke/buildings/HousePlug.tsx",
+      "category": "stroke",
+      "subcategory": "buildings",
+      "size": "16"
+    },
+    "HousePlus": {
+      "name": "HousePlus",
+      "path": "src/stroke/buildings/HousePlus.tsx",
+      "category": "stroke",
+      "subcategory": "buildings",
+      "size": "16"
+    },
+    "Landmark": {
+      "name": "Landmark",
+      "path": "src/stroke/buildings/Landmark.tsx",
+      "category": "stroke",
+      "subcategory": "buildings",
+      "size": "16"
+    },
+    "School": {
+      "name": "School",
+      "path": "src/stroke/buildings/School.tsx",
+      "category": "stroke",
+      "subcategory": "buildings",
+      "size": "16"
+    },
+    "Store": {
+      "name": "Store",
+      "path": "src/stroke/buildings/Store.tsx",
+      "category": "stroke",
+      "subcategory": "buildings",
+      "size": "16"
+    },
+    "Theater": {
+      "name": "Theater",
+      "path": "src/stroke/buildings/Theater.tsx",
+      "category": "stroke",
+      "subcategory": "buildings",
+      "size": "16"
+    },
+    "University": {
+      "name": "University",
+      "path": "src/stroke/buildings/University.tsx",
+      "category": "stroke",
+      "subcategory": "buildings",
+      "size": "16"
+    },
+    "UtilityPole": {
+      "name": "UtilityPole",
+      "path": "src/stroke/buildings/UtilityPole.tsx",
+      "category": "stroke",
+      "subcategory": "buildings",
+      "size": "16"
+    },
+    "Warehouse": {
+      "name": "Warehouse",
+      "path": "src/stroke/buildings/Warehouse.tsx",
+      "category": "stroke",
+      "subcategory": "buildings",
+      "size": "16"
+    },
     "Equal": {
       "name": "Equal",
       "path": "src/stroke/mathematics/Equal.tsx",
@@ -339,6 +1284,13 @@
     "Asterisk": {
       "name": "Asterisk",
       "path": "src/stroke/mathematics/Asterisk.tsx",
+      "category": "stroke",
+      "subcategory": "mathematics",
+      "size": "16"
+    },
+    "Minus": {
+      "name": "Minus",
+      "path": "src/stroke/mathematics/Minus.tsx",
       "category": "stroke",
       "subcategory": "mathematics",
       "size": "16"
@@ -653,23 +1605,23 @@
     },
     "TrendingDown": {
       "name": "TrendingDown",
-      "path": "src/stroke/charts/TrendingDown.tsx",
+      "path": "src/stroke/arrows/TrendingDown.tsx",
       "category": "stroke",
-      "subcategory": "charts",
+      "subcategory": "arrows",
       "size": "16"
     },
     "TrendingUp": {
       "name": "TrendingUp",
-      "path": "src/stroke/charts/TrendingUp.tsx",
+      "path": "src/stroke/arrows/TrendingUp.tsx",
       "category": "stroke",
-      "subcategory": "charts",
+      "subcategory": "arrows",
       "size": "16"
     },
     "TrendingUpDown": {
       "name": "TrendingUpDown",
-      "path": "src/stroke/charts/TrendingUpDown.tsx",
+      "path": "src/stroke/arrows/TrendingUpDown.tsx",
       "category": "stroke",
-      "subcategory": "charts",
+      "subcategory": "arrows",
       "size": "16"
     },
     "ArrowBigDown": {
@@ -1029,11 +1981,1054 @@
       "subcategory": "arrows",
       "size": "16"
     },
-    "Building2": {
-      "name": "Building2",
-      "path": "src/stroke/accountsAccess/Building2.tsx",
+    "ChevronsDownUp": {
+      "name": "ChevronsDownUp",
+      "path": "src/stroke/arrows/ChevronsDownUp.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "ChevronsLeft": {
+      "name": "ChevronsLeft",
+      "path": "src/stroke/arrows/ChevronsLeft.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "ChevronsLeftRight": {
+      "name": "ChevronsLeftRight",
+      "path": "src/stroke/arrows/ChevronsLeftRight.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "ChevronsRight": {
+      "name": "ChevronsRight",
+      "path": "src/stroke/arrows/ChevronsRight.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "ChevronsUpDown": {
+      "name": "ChevronsUpDown",
+      "path": "src/stroke/arrows/ChevronsUpDown.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "ChevronsRightLeft": {
+      "name": "ChevronsRightLeft",
+      "path": "src/stroke/arrows/ChevronsRightLeft.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "ChevronsUp": {
+      "name": "ChevronsUp",
+      "path": "src/stroke/arrows/ChevronsUp.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "CircleArrowDown": {
+      "name": "CircleArrowDown",
+      "path": "src/stroke/arrows/CircleArrowDown.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "CircleArrowLeft": {
+      "name": "CircleArrowLeft",
+      "path": "src/stroke/arrows/CircleArrowLeft.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "CircleArrowOutDownLeft": {
+      "name": "CircleArrowOutDownLeft",
+      "path": "src/stroke/arrows/CircleArrowOutDownLeft.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "CircleArrowOutDownRight": {
+      "name": "CircleArrowOutDownRight",
+      "path": "src/stroke/arrows/CircleArrowOutDownRight.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "CircleArrowOutUpLeft": {
+      "name": "CircleArrowOutUpLeft",
+      "path": "src/stroke/arrows/CircleArrowOutUpLeft.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "CircleArrowOutUpRight": {
+      "name": "CircleArrowOutUpRight",
+      "path": "src/stroke/arrows/CircleArrowOutUpRight.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "CircleArrowRight": {
+      "name": "CircleArrowRight",
+      "path": "src/stroke/arrows/CircleArrowRight.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "CircleArrowUp": {
+      "name": "CircleArrowUp",
+      "path": "src/stroke/arrows/CircleArrowUp.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "CircleChevronDown": {
+      "name": "CircleChevronDown",
+      "path": "src/stroke/arrows/CircleChevronDown.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "CircleChevronLeft": {
+      "name": "CircleChevronLeft",
+      "path": "src/stroke/arrows/CircleChevronLeft.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "CircleChevronRight": {
+      "name": "CircleChevronRight",
+      "path": "src/stroke/arrows/CircleChevronRight.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "CircleChevronUp": {
+      "name": "CircleChevronUp",
+      "path": "src/stroke/arrows/CircleChevronUp.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "CircleFadingArrowUp": {
+      "name": "CircleFadingArrowUp",
+      "path": "src/stroke/arrows/CircleFadingArrowUp.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "ClipboardCopy": {
+      "name": "ClipboardCopy",
+      "path": "src/stroke/arrows/ClipboardCopy.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "ClipboardPaste": {
+      "name": "ClipboardPaste",
+      "path": "src/stroke/arrows/ClipboardPaste.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "CloudDownload": {
+      "name": "CloudDownload",
+      "path": "src/stroke/arrows/CloudDownload.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "CloudUpload": {
+      "name": "CloudUpload",
+      "path": "src/stroke/arrows/CloudUpload.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "CornerDownLeft": {
+      "name": "CornerDownLeft",
+      "path": "src/stroke/arrows/CornerDownLeft.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "CornerDownRight": {
+      "name": "CornerDownRight",
+      "path": "src/stroke/arrows/CornerDownRight.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "CornerLeftDown": {
+      "name": "CornerLeftDown",
+      "path": "src/stroke/arrows/CornerLeftDown.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "CornerLeftUp": {
+      "name": "CornerLeftUp",
+      "path": "src/stroke/arrows/CornerLeftUp.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "CornerRightDown": {
+      "name": "CornerRightDown",
+      "path": "src/stroke/arrows/CornerRightDown.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "CornerRightUp": {
+      "name": "CornerRightUp",
+      "path": "src/stroke/arrows/CornerRightUp.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "CornerUpLeft": {
+      "name": "CornerUpLeft",
+      "path": "src/stroke/arrows/CornerUpLeft.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "CornerUpRight": {
+      "name": "CornerUpRight",
+      "path": "src/stroke/arrows/CornerUpRight.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "DatabaseBackup": {
+      "name": "DatabaseBackup",
+      "path": "src/stroke/arrows/DatabaseBackup.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "DecimalsArrowLeft": {
+      "name": "DecimalsArrowLeft",
+      "path": "src/stroke/arrows/DecimalsArrowLeft.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "DecimalsArrowRight": {
+      "name": "DecimalsArrowRight",
+      "path": "src/stroke/arrows/DecimalsArrowRight.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "Delete": {
+      "name": "Delete",
+      "path": "src/stroke/arrows/Delete.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "Download": {
+      "name": "Download",
+      "path": "src/stroke/arrows/Download.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "Expand": {
+      "name": "Expand",
+      "path": "src/stroke/arrows/Expand.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "ExternalLink": {
+      "name": "ExternalLink",
+      "path": "src/stroke/arrows/ExternalLink.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "FastForward": {
+      "name": "FastForward",
+      "path": "src/stroke/arrows/FastForward.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "FileDown": {
+      "name": "FileDown",
+      "path": "src/stroke/arrows/FileDown.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "FileInput": {
+      "name": "FileInput",
+      "path": "src/stroke/arrows/FileInput.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "FileOutput": {
+      "name": "FileOutput",
+      "path": "src/stroke/arrows/FileOutput.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "FileUp": {
+      "name": "FileUp",
+      "path": "src/stroke/arrows/FileUp.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "FoldHorizontal": {
+      "name": "FoldHorizontal",
+      "path": "src/stroke/arrows/FoldHorizontal.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "FoldVertical": {
+      "name": "FoldVertical",
+      "path": "src/stroke/arrows/FoldVertical.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "FolderDown": {
+      "name": "FolderDown",
+      "path": "src/stroke/arrows/FolderDown.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "FolderInput": {
+      "name": "FolderInput",
+      "path": "src/stroke/arrows/FolderInput.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "FolderOutput": {
+      "name": "FolderOutput",
+      "path": "src/stroke/arrows/FolderOutput.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "FolderSync": {
+      "name": "FolderSync",
+      "path": "src/stroke/arrows/FolderSync.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "FolderUp": {
+      "name": "FolderUp",
+      "path": "src/stroke/arrows/FolderUp.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "GitCompareArrows": {
+      "name": "GitCompareArrows",
+      "path": "src/stroke/arrows/GitCompareArrows.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "GitPullRequestArrow": {
+      "name": "GitPullRequestArrow",
+      "path": "src/stroke/arrows/GitPullRequestArrow.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "GitPulLRequestCreateArrow": {
+      "name": "GitPulLRequestCreateArrow",
+      "path": "src/stroke/arrows/GitPulLRequestCreateArrow.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "HardDriveDownload": {
+      "name": "HardDriveDownload",
+      "path": "src/stroke/arrows/HardDriveDownload.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "HardDriveUpload": {
+      "name": "HardDriveUpload",
+      "path": "src/stroke/arrows/HardDriveUpload.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "History": {
+      "name": "History",
+      "path": "src/stroke/arrows/History.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "Import": {
+      "name": "Import",
+      "path": "src/stroke/arrows/Import.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "IterationCcw": {
+      "name": "IterationCcw",
+      "path": "src/stroke/arrows/IterationCcw.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "IterationCw": {
+      "name": "IterationCw",
+      "path": "src/stroke/arrows/IterationCw.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "LassoSelect": {
+      "name": "LassoSelect",
+      "path": "src/stroke/arrows/LassoSelect.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "ListChevronsDownUp": {
+      "name": "ListChevronsDownUp",
+      "path": "src/stroke/arrows/ListChevronsDownUp.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "ListChevronsUpDown": {
+      "name": "ListChevronsUpDown",
+      "path": "src/stroke/arrows/ListChevronsUpDown.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "LogIn": {
+      "name": "LogIn",
+      "path": "src/stroke/accountsAccess/LogIn.tsx",
       "category": "stroke",
       "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "LogOut": {
+      "name": "LogOut",
+      "path": "src/stroke/accountsAccess/LogOut.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "Maximize2": {
+      "name": "Maximize2",
+      "path": "src/stroke/arrows/Maximize2.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "Merge": {
+      "name": "Merge",
+      "path": "src/stroke/arrows/Merge.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "Milestone": {
+      "name": "Milestone",
+      "path": "src/stroke/arrows/Milestone.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "Minimize2": {
+      "name": "Minimize2",
+      "path": "src/stroke/arrows/Minimize2.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "MousePointer": {
+      "name": "MousePointer",
+      "path": "src/stroke/arrows/MousePointer.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "MousePointer2": {
+      "name": "MousePointer2",
+      "path": "src/stroke/arrows/MousePointer2.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "MousePointerBan": {
+      "name": "MousePointerBan",
+      "path": "src/stroke/arrows/MousePointerBan.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "MousePointerClick": {
+      "name": "MousePointerClick",
+      "path": "src/stroke/arrows/MousePointerClick.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "Move": {
+      "name": "Move",
+      "path": "src/stroke/arrows/Move.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "MoveDiagonal": {
+      "name": "MoveDiagonal",
+      "path": "src/stroke/arrows/MoveDiagonal.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "MoveDiagonal2": {
+      "name": "MoveDiagonal2",
+      "path": "src/stroke/arrows/MoveDiagonal2.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "MoveDown": {
+      "name": "MoveDown",
+      "path": "src/stroke/arrows/MoveDown.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "MoveDownLeft": {
+      "name": "MoveDownLeft",
+      "path": "src/stroke/arrows/MoveDownLeft.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "MoveDownRight": {
+      "name": "MoveDownRight",
+      "path": "src/stroke/arrows/MoveDownRight.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "MoveHorizontal": {
+      "name": "MoveHorizontal",
+      "path": "src/stroke/arrows/MoveHorizontal.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "MoveLeft": {
+      "name": "MoveLeft",
+      "path": "src/stroke/arrows/MoveLeft.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "MoveRight": {
+      "name": "MoveRight",
+      "path": "src/stroke/arrows/MoveRight.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "MoveUp": {
+      "name": "MoveUp",
+      "path": "src/stroke/arrows/MoveUp.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "MoveUpLeft": {
+      "name": "MoveUpLeft",
+      "path": "src/stroke/arrows/MoveUpLeft.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "MoveUpRight": {
+      "name": "MoveUpRight",
+      "path": "src/stroke/arrows/MoveUpRight.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "MoveVertical": {
+      "name": "MoveVertical",
+      "path": "src/stroke/arrows/MoveVertical.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "PanelBottomClose": {
+      "name": "PanelBottomClose",
+      "path": "src/stroke/arrows/PanelBottomClose.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "PanelBottomOpen": {
+      "name": "PanelBottomOpen",
+      "path": "src/stroke/arrows/PanelBottomOpen.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "PanelLeftClose": {
+      "name": "PanelLeftClose",
+      "path": "src/stroke/arrows/PanelLeftClose.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "PanelLeftOpen": {
+      "name": "PanelLeftOpen",
+      "path": "src/stroke/arrows/PanelLeftOpen.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "PanelRightClose": {
+      "name": "PanelRightClose",
+      "path": "src/stroke/arrows/PanelRightClose.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "PanelRightOpen": {
+      "name": "PanelRightOpen",
+      "path": "src/stroke/arrows/PanelRightOpen.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "PanelTopClose": {
+      "name": "PanelTopClose",
+      "path": "src/stroke/arrows/PanelTopClose.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "PanelTopOpen": {
+      "name": "PanelTopOpen",
+      "path": "src/stroke/arrows/PanelTopOpen.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "Play": {
+      "name": "Play",
+      "path": "src/stroke/arrows/Play.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "Redo": {
+      "name": "Redo",
+      "path": "src/stroke/arrows/Redo.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "Redo2": {
+      "name": "Redo2",
+      "path": "src/stroke/arrows/Redo2.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "RedoDot": {
+      "name": "RedoDot",
+      "path": "src/stroke/arrows/RedoDot.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "RefreshCcw": {
+      "name": "RefreshCcw",
+      "path": "src/stroke/arrows/RefreshCcw.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "RefreshCcwDot": {
+      "name": "RefreshCcwDot",
+      "path": "src/stroke/arrows/RefreshCcwDot.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "RefreshCw": {
+      "name": "RefreshCw",
+      "path": "src/stroke/arrows/RefreshCw.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "RefreshCwOff": {
+      "name": "RefreshCwOff",
+      "path": "src/stroke/arrows/RefreshCwOff.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "Repeat": {
+      "name": "Repeat",
+      "path": "src/stroke/arrows/Repeat.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "Repeat2": {
+      "name": "Repeat2",
+      "path": "src/stroke/arrows/Repeat2.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "Rewind": {
+      "name": "Rewind",
+      "path": "src/stroke/arrows/Rewind.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "RotateCcw": {
+      "name": "RotateCcw",
+      "path": "src/stroke/arrows/RotateCcw.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "RotateCcwSquare": {
+      "name": "RotateCcwSquare",
+      "path": "src/stroke/arrows/RotateCcwSquare.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "RotateCw": {
+      "name": "RotateCw",
+      "path": "src/stroke/arrows/RotateCw.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "RotateCwSquare": {
+      "name": "RotateCwSquare",
+      "path": "src/stroke/arrows/RotateCwSquare.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "SeparatorHorizontal": {
+      "name": "SeparatorHorizontal",
+      "path": "src/stroke/arrows/SeparatorHorizontal.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "SeparatorVertical": {
+      "name": "SeparatorVertical",
+      "path": "src/stroke/arrows/SeparatorVertical.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "Shrink": {
+      "name": "Shrink",
+      "path": "src/stroke/arrows/Shrink.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "Shuffle": {
+      "name": "Shuffle",
+      "path": "src/stroke/arrows/Shuffle.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "Signpost": {
+      "name": "Signpost",
+      "path": "src/stroke/arrows/Signpost.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "SignpostBig": {
+      "name": "SignpostBig",
+      "path": "src/stroke/arrows/SignpostBig.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "SkipBack": {
+      "name": "SkipBack",
+      "path": "src/stroke/arrows/SkipBack.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "SkipForward": {
+      "name": "SkipForward",
+      "path": "src/stroke/arrows/SkipForward.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "SplinePointer": {
+      "name": "SplinePointer",
+      "path": "src/stroke/arrows/SplinePointer.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "Split": {
+      "name": "Split",
+      "path": "src/stroke/arrows/Split.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "ArrowUp11": {
+      "name": "ArrowUp11",
+      "path": "src/stroke/arrows/ArrowUp11.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "SquareArrowDown": {
+      "name": "SquareArrowDown",
+      "path": "src/stroke/arrows/SquareArrowDown.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "SquareArrowDownLeft": {
+      "name": "SquareArrowDownLeft",
+      "path": "src/stroke/arrows/SquareArrowDownLeft.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "SquareArrowDownRight": {
+      "name": "SquareArrowDownRight",
+      "path": "src/stroke/arrows/SquareArrowDownRight.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "SquareArrowLeft": {
+      "name": "SquareArrowLeft",
+      "path": "src/stroke/arrows/SquareArrowLeft.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "SquareArrowOutDownLeft": {
+      "name": "SquareArrowOutDownLeft",
+      "path": "src/stroke/arrows/SquareArrowOutDownLeft.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "SquareArrowOutDownRight": {
+      "name": "SquareArrowOutDownRight",
+      "path": "src/stroke/arrows/SquareArrowOutDownRight.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "SquareArrowOutUpLeft": {
+      "name": "SquareArrowOutUpLeft",
+      "path": "src/stroke/arrows/SquareArrowOutUpLeft.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "SquareArrowOutUpRight": {
+      "name": "SquareArrowOutUpRight",
+      "path": "src/stroke/arrows/SquareArrowOutUpRight.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "SquareArrowRight": {
+      "name": "SquareArrowRight",
+      "path": "src/stroke/arrows/SquareArrowRight.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "SquareArrowUp": {
+      "name": "SquareArrowUp",
+      "path": "src/stroke/arrows/SquareArrowUp.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "SquareArrowUpLeft": {
+      "name": "SquareArrowUpLeft",
+      "path": "src/stroke/arrows/SquareArrowUpLeft.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "SquareArrowUpRight": {
+      "name": "SquareArrowUpRight",
+      "path": "src/stroke/arrows/SquareArrowUpRight.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "SquareChevronDown": {
+      "name": "SquareChevronDown",
+      "path": "src/stroke/arrows/SquareChevronDown.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "SquareChevronLeft": {
+      "name": "SquareChevronLeft",
+      "path": "src/stroke/arrows/SquareChevronLeft.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "SquareChevronRight": {
+      "name": "SquareChevronRight",
+      "path": "src/stroke/arrows/SquareChevronRight.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "SquareChevronUp": {
+      "name": "SquareChevronUp",
+      "path": "src/stroke/arrows/SquareChevronUp.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "SquareDashedMousePointer": {
+      "name": "SquareDashedMousePointer",
+      "path": "src/stroke/arrows/SquareDashedMousePointer.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "SquareMousePointer": {
+      "name": "SquareMousePointer",
+      "path": "src/stroke/arrows/SquareMousePointer.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "SquarePlay": {
+      "name": "SquarePlay",
+      "path": "src/stroke/arrows/SquarePlay.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "StepBack": {
+      "name": "StepBack",
+      "path": "src/stroke/arrows/StepBack.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "StepForward": {
+      "name": "StepForward",
+      "path": "src/stroke/arrows/StepForward.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "Sunrise": {
+      "name": "Sunrise",
+      "path": "src/stroke/arrows/Sunrise.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "Sunset": {
+      "name": "Sunset",
+      "path": "src/stroke/arrows/Sunset.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "TextWrap": {
+      "name": "TextWrap",
+      "path": "src/stroke/arrows/TextWrap.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "Undo": {
+      "name": "Undo",
+      "path": "src/stroke/arrows/Undo.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "Undo2": {
+      "name": "Undo2",
+      "path": "src/stroke/arrows/Undo2.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "UndoDot": {
+      "name": "UndoDot",
+      "path": "src/stroke/arrows/UndoDot.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "UnfoldHorizontal": {
+      "name": "UnfoldHorizontal",
+      "path": "src/stroke/arrows/UnfoldHorizontal.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "UnfoldVertical": {
+      "name": "UnfoldVertical",
+      "path": "src/stroke/arrows/UnfoldVertical.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "Upload": {
+      "name": "Upload",
+      "path": "src/stroke/arrows/Upload.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
       "size": "16"
     },
     "Cake": {
@@ -1060,20 +3055,6 @@
     "Cog": {
       "name": "Cog",
       "path": "src/stroke/accountsAccess/Cog.tsx",
-      "category": "stroke",
-      "subcategory": "accountsAccess",
-      "size": "16"
-    },
-    "Contact": {
-      "name": "Contact",
-      "path": "src/stroke/accountsAccess/Contact.tsx",
-      "category": "stroke",
-      "subcategory": "accountsAccess",
-      "size": "16"
-    },
-    "ContactRound": {
-      "name": "ContactRound",
-      "path": "src/stroke/accountsAccess/ContactRound.tsx",
       "category": "stroke",
       "subcategory": "accountsAccess",
       "size": "16"
@@ -1232,20 +3213,6 @@
       "subcategory": "accountsAccess",
       "size": "16"
     },
-    "LogIn": {
-      "name": "LogIn",
-      "path": "src/stroke/accountsAccess/LogIn.tsx",
-      "category": "stroke",
-      "subcategory": "accountsAccess",
-      "size": "16"
-    },
-    "LogOut": {
-      "name": "LogOut",
-      "path": "src/stroke/accountsAccess/LogOut.tsx",
-      "category": "stroke",
-      "subcategory": "accountsAccess",
-      "size": "16"
-    },
     "Mail": {
       "name": "Mail",
       "path": "src/stroke/accountsAccess/Mail.tsx",
@@ -1347,13 +3314,6 @@
     "MessageCircleX": {
       "name": "MessageCircleX",
       "path": "src/stroke/accountsAccess/MessageCircleX.tsx",
-      "category": "stroke",
-      "subcategory": "accountsAccess",
-      "size": "16"
-    },
-    "NotebookTabs": {
-      "name": "NotebookTabs",
-      "path": "src/stroke/accountsAccess/NotebookTabs.tsx",
       "category": "stroke",
       "subcategory": "accountsAccess",
       "size": "16"
@@ -1743,20 +3703,6 @@
       "subcategory": "accountsAccess",
       "size": "16"
     },
-    "Vibrate": {
-      "name": "Vibrate",
-      "path": "src/stroke/accountsAccess/Vibrate.tsx",
-      "category": "stroke",
-      "subcategory": "accountsAccess",
-      "size": "16"
-    },
-    "VibrateOff": {
-      "name": "VibrateOff",
-      "path": "src/stroke/accountsAccess/VibrateOff.tsx",
-      "category": "stroke",
-      "subcategory": "accountsAccess",
-      "size": "16"
-    },
     "Wallet": {
       "name": "Wallet",
       "path": "src/stroke/accountsAccess/Wallet.tsx",
@@ -1822,7 +3768,6 @@
         "Award",
         "Badge",
         "BadgeAlert",
-        "BadgeInfo",
         "Ban",
         "Bell",
         "BellDot",
@@ -1868,7 +3813,180 @@
       ]
     },
     "stroke": {
-      "mathematics": ["Equal", "X", "Plus", "Asterisk"],
+      "connectivity": [
+        "Airplay",
+        "Battery",
+        "BatteryCharging",
+        "BatteryFull",
+        "BatteryLow",
+        "BatteryMedium",
+        "BatteryWarning",
+        "Bluetooth",
+        "BluetoothConnected",
+        "BluetoothOff",
+        "BluetoothSearching",
+        "BookUser",
+        "BrickWallFire",
+        "BrickWallShield",
+        "Cable",
+        "CardSim",
+        "CassetteTape",
+        "Cast",
+        "Cctv",
+        "CirclePower",
+        "CloudOff",
+        "Contact",
+        "ContactRound",
+        "HeadphoneOff",
+        "Headphones",
+        "Headset",
+        "HouseWifi",
+        "Mic",
+        "MicOff",
+        "Monitor",
+        "MonitorCheck",
+        "MonitorCog",
+        "MonitorDot",
+        "MonitorDown",
+        "MonitorOff",
+        "MonitorPause",
+        "MonitorPlay",
+        "MonitorSmartphone",
+        "MonitorSpeaker",
+        "MonitorStop",
+        "MonitorUp",
+        "MonitorX",
+        "Phone",
+        "PhoneCall",
+        "PhoneForwarded",
+        "PhoneIncoming",
+        "PhoneMissed",
+        "PhoneOff",
+        "PhoneOutgoing",
+        "Power",
+        "RectangleGoggles",
+        "Router",
+        "Satellite",
+        "SatelliteDish",
+        "ScreenShare",
+        "ScreenShareOff",
+        "Send",
+        "SendHorizontal",
+        "Signal",
+        "SignalHigh",
+        "SignalLow",
+        "SignalMedium",
+        "SignalZero",
+        "Smartphone",
+        "SmartphoneCharging",
+        "SquarePower",
+        "Vibrate",
+        "VibrateOff",
+        "Video",
+        "VideoOff",
+        "Videotape",
+        "Voicemail",
+        "Volume",
+        "Volume1",
+        "Volume2",
+        "VolumeOff",
+        "VolumeX",
+        "Webcam",
+        "Wifi",
+        "WifiCog",
+        "WifiHigh",
+        "WifiLow",
+        "WifiOff",
+        "WifiPen",
+        "WifiSync",
+        "WifiZero",
+        "Zap",
+        "ZapOff"
+      ],
+      "communication": [
+        "Antenna",
+        "AudioLines",
+        "AudioWaveForm",
+        "BookUser",
+        "Camera",
+        "CameraOff",
+        "CardSim",
+        "CassetteTape",
+        "Cctv",
+        "ChevronsLeftRightEllipsis",
+        "CircleFadingPlus",
+        "Contact",
+        "ContactRound",
+        "EthernetPort",
+        "HandFist",
+        "HandShake",
+        "HeadphoneOff",
+        "Lectern",
+        "Mic",
+        "MicOff",
+        "Newspaper",
+        "Nfc",
+        "Notebook",
+        "NotebookTabs",
+        "Phone",
+        "PhoneCall",
+        "PhoneForwarded",
+        "PhoneIncoming",
+        "PhoneMissed",
+        "PhoneOff",
+        "PhoneOutgoing",
+        "Presentation",
+        "Projector",
+        "Radar",
+        "ScreenShare",
+        "ScreenShareOff",
+        "Send",
+        "SendHorizontal",
+        "SmartphoneNfc",
+        "SmilePlus",
+        "Speech",
+        "Spool",
+        "Spotlight",
+        "SwitchCamera",
+        "Tv",
+        "Video",
+        "VideoOff",
+        "VideoTape",
+        "Volume",
+        "Volume1",
+        "Volume2",
+        "VolumeOff",
+        "VolumeX",
+        "Webcam"
+      ],
+      "buildings": [
+        "Anvil",
+        "BrickWall",
+        "Building",
+        "Building2",
+        "Castle",
+        "Church",
+        "Cuboid",
+        "Dam",
+        "Factory",
+        "Fence",
+        "GraduationCap",
+        "Hospital",
+        "Hotel",
+        "House",
+        "HouseHeart",
+        "HousePlug",
+        "HousePlus",
+        "HouseWifi",
+        "Landmark",
+        "School",
+        "Store",
+        "Theater",
+        "University",
+        "UtilityPole",
+        "Warehouse"
+      ],
+      "mathematics": ["Equal", "X", "Plus", "Asterisk", "Minus"],
       "animals": [
         "Bird",
         "Fish",
@@ -1971,7 +4089,168 @@
         "ChevronLeft",
         "ChevronRight",
         "ChevronUp",
-        "ChevronsDown"
+        "ChevronsDown",
+        "ChevronsDownUp",
+        "ChevronsLeft",
+        "ChevronsLeftRight",
+        "ChevronsRight",
+        "ChevronsUpDown",
+        "ChevronsRightLeft",
+        "ChevronsUp",
+        "ChevronsRightLeft",
+        "CircleArrowDown",
+        "CircleArrowLeft",
+        "CircleArrowOutDownLeft",
+        "CircleArrowOutDownRight",
+        "CircleArrowOutUpLeft",
+        "CircleArrowOutUpRight",
+        "CircleArrowRight",
+        "CircleArrowUp",
+        "CircleChevronDown",
+        "CircleChevronLeft",
+        "CircleChevronRight",
+        "CircleChevronUp",
+        "CircleFadingArrowUp",
+        "ClipboardCopy",
+        "ClipboardPaste",
+        "CloudDownload",
+        "CloudUpload",
+        "CornerDownLeft",
+        "CornerDownRight",
+        "CornerLeftDown",
+        "CornerLeftUp",
+        "CornerRightDown",
+        "CornerRightUp",
+        "CornerUpLeft",
+        "CornerUpRight",
+        "DatabaseBackup",
+        "DecimalsArrowLeft",
+        "DecimalsArrowRight",
+        "Delete",
+        "Download",
+        "Expand",
+        "ExternalLink",
+        "FastForward",
+        "FileDown",
+        "FileInput",
+        "FileOutput",
+        "FileUp",
+        "FoldHorizontal",
+        "FoldVertical",
+        "FolderDown",
+        "FolderInput",
+        "FolderOutput",
+        "FolderSync",
+        "FolderUp",
+        "GitCompareArrows",
+        "GitPullRequestArrow",
+        "GitPulLRequestCreateArrow",
+        "HardDriveDownload",
+        "HardDriveUpload",
+        "History",
+        "Import",
+        "IterationCcw",
+        "IterationCw",
+        "LassoSelect",
+        "ListChevronsDownUp",
+        "ListChevronsUpDown",
+        "LogIn",
+        "LogOut",
+        "Maximize2",
+        "Merge",
+        "Milestone",
+        "Minimize2",
+        "MousePointer",
+        "MousePointer2",
+        "MousePointerBan",
+        "MousePointerClick",
+        "Move",
+        "MoveDiagonal",
+        "MoveDiagonal2",
+        "MoveDown",
+        "MoveDownLeft",
+        "MoveDownRight",
+        "MoveHorizontal",
+        "MoveLeft",
+        "MoveRight",
+        "MoveUp",
+        "MoveUpLeft",
+        "MoveUpRight",
+        "MoveVertical",
+        "PanelBottomClose",
+        "PanelBottomOpen",
+        "PanelLeftClose",
+        "PanelLeftOpen",
+        "PanelRightClose",
+        "PanelRightOpen",
+        "PanelTopClose",
+        "PanelTopOpen",
+        "PhoneForwarded",
+        "PhoneIncoming",
+        "PhoneOutgoing",
+        "Play",
+        "Redo",
+        "Redo2",
+        "RedoDot",
+        "RefreshCcw",
+        "RefreshCcwDot",
+        "RefreshCw",
+        "RefreshCwOff",
+        "Repeat",
+        "Repeat2",
+        "Rewind",
+        "RotateCcw",
+        "RotateCcwSquare",
+        "RotateCw",
+        "RotateCwSquare",
+        "SeparatorHorizontal",
+        "SeparatorVertical",
+        "Shrink",
+        "Shuffle",
+        "Signpost",
+        "SignpostBig",
+        "SkipBack",
+        "SkipForward",
+        "SplinePointer",
+        "Split",
+        "ArrowLeftFromLine",
+        "ArrowRightLeft",
+        "ArrowUpFromLine",
+        "ArrowUp11",
+        "ArrowUpFromDot",
+        "SquareArrowDown",
+        "SquareArrowDownLeft",
+        "SquareArrowDownRight",
+        "SquareArrowLeft",
+        "SquareArrowOutDownLeft",
+        "SquareArrowOutDownRight",
+        "SquareArrowOutUpLeft",
+        "SquareArrowOutUpRight",
+        "SquareArrowRight",
+        "SquareArrowUp",
+        "SquareArrowUpLeft",
+        "SquareArrowUpRight",
+        "SquareChevronDown",
+        "SquareChevronLeft",
+        "SquareChevronRight",
+        "SquareChevronUp",
+        "SquareDashedMousePointer",
+        "SquareMousePointer",
+        "SquarePlay",
+        "StepBack",
+        "StepForward",
+        "Sunrise",
+        "Sunset",
+        "TextWrap",
+        "TrendingDown",
+        "TrendingUp",
+        "TrendingUpDown",
+        "Undo",
+        "Undo2",
+        "UndoDot",
+        "UnfoldHorizontal",
+        "UnfoldVertical",
+        "Upload"
       ],
       "accountsAccess": [
         "Activity",
@@ -2138,5 +4417,5 @@
       ]
     }
   },
-  "total": 259
+  "total": 537
 }

@@ -9,3 +9,4 @@ export { default as PNPM } from "./PNPM";
 export { default as Xbox } from "./Xbox";
 export { default as Playstation } from "./Playstation";
 export { default as V0 } from "./V0";
+export { default as Apple } from "./Apple";

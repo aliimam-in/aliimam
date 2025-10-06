@@ -38,7 +38,7 @@ export const ClientHeader = ({ children }: { children: React.ReactNode }) => {
               "bg-[oklch(0.141 0.005 285.823)]/50 max-w-5xl rounded-2xl border backdrop-blur-xl px-3"
           )}
         >
-          <div className="relative flex items-center justify-between gap-3 py-2">
+          <div className="relative lg:flex items-center justify-between gap-3 py-2">
             <div className="flex w-full justify-between lg:w-auto">
               <Link
                 href="/"
@@ -90,9 +90,24 @@ export const ClientHeader = ({ children }: { children: React.ReactNode }) => {
                     </li>
                   ))}
                 </ul>
+                <div className="flex gap-3 py-3">
+                  {children}
+                  <Button
+                    variant={"secondary"}
+                    asChild
+                    className={cn(isScrolled && "lg:hidden")}
+                  >
+                    <Link
+                      target="_blank"
+                      href="https://cal.com/aliimam-in/30min"
+                    >
+                      <span>Book an Intro call</span>
+                    </Link>
+                  </Button>
+                </div>
               </div>
             </div>
-            <div className="flex gap-2">
+            <div className="lg:flex hidden gap-2">
               {children}
               <Button
                 variant={"secondary"}

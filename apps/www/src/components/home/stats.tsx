@@ -1,3 +1,5 @@
+import { TwentyFirst } from "../logos";
+
 export function Stats() {
   return (
     <section className="py-12 md:py-20">
@@ -24,6 +26,12 @@ export function Stats() {
             <div className="text-5xl font-bold">+240</div>
             <p className="text-muted-foreground">Brands shaped</p>
           </div>
+        </div>
+      </div>
+      <div className="flex w-full p-3 justify-center">
+        <div className="flex items-center border w-fit pl-6 rounded-full justify-center mt-20">
+          <h1 className="text-xl font-semibold md:text-2xl">I'm an Ambesador with</h1>
+          <TwentyFirst className="size-12 md:size-20" />
         </div>
       </div>
     </section>

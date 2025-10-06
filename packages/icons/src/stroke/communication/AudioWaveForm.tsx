@@ -1,0 +1,58 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const AudioWaveForm: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function AudioWaveForm(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <path
+        d="M2 13C2.53043 13 3.03914 12.7893 3.41421 12.4142C3.78929 12.0391 4 11.5304 4 11V7C4 6.46957 4.21071 5.96086 4.58579 5.58579C4.96086 5.21071 5.46957 5 6 5C6.53043 5 7.03914 5.21071 7.41421 5.58579C7.78929 5.96086 8 6.46957 8 7V20C8 20.5304 8.21071 21.0391 8.58579 21.4142C8.96086 21.7893 9.46957 22 10 22C10.5304 22 11.0391 21.7893 11.4142 21.4142C11.7893 21.0391 12 20.5304 12 20V4C12 3.46957 12.2107 2.96086 12.5858 2.58579C12.9609 2.21071 13.4696 2 14 2C14.5304 2 15.0391 2.21071 15.4142 2.58579C15.7893 2.96086 16 3.46957 16 4V17C16 17.5304 16.2107 18.0391 16.5858 18.4142C16.9609 18.7893 17.4696 19 18 19C18.5304 19 19.0391 18.7893 19.4142 18.4142C19.7893 18.0391 20 17.5304 20 17V13C20 12.4696 20.2107 11.9609 20.5858 11.5858C20.9609 11.2107 21.4696 11 22 11"
+        stroke={color}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+});
+
+AudioWaveForm.displayName = "AudioWaveForm";
+
+AudioWaveForm.metadata = {
+  name: "AudioWaveForm",
+  category: "stroke/communication",
+  tags: ["audio", "wave", "form", "icon"],
+  description: "AudioWaveForm icon from stroke/communication category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default AudioWaveForm;
