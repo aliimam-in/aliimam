@@ -315,6 +315,2456 @@
       "subcategory": "accessibility",
       "size": "16"
     },
+    "Ampersand": {
+      "name": "Ampersand",
+      "path": "src/stroke/codingDevelopment/Ampersand.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "Ampersands": {
+      "name": "Ampersands",
+      "path": "src/stroke/codingDevelopment/Ampersands.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "AppWindow": {
+      "name": "AppWindow",
+      "path": "src/stroke/design/AppWindow.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "AppWindowMac": {
+      "name": "AppWindowMac",
+      "path": "src/stroke/design/AppWindowMac.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "ArrowBigUp": {
+      "name": "ArrowBigUp",
+      "path": "src/stroke/arrows/ArrowBigUp.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "ArrowBigUpDash": {
+      "name": "ArrowBigUpDash",
+      "path": "src/stroke/arrows/ArrowBigUpDash.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "ArrowDownToLine": {
+      "name": "ArrowDownToLine",
+      "path": "src/stroke/arrows/ArrowDownToLine.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "ArrowRightToLine": {
+      "name": "ArrowRightToLine",
+      "path": "src/stroke/arrows/ArrowRightToLine.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "ArrowUpFromLine": {
+      "name": "ArrowUpFromLine",
+      "path": "src/stroke/arrows/ArrowUpFromLine.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "Asterisk": {
+      "name": "Asterisk",
+      "path": "src/stroke/mathematics/Asterisk.tsx",
+      "category": "stroke",
+      "subcategory": "mathematics",
+      "size": "16"
+    },
+    "Binary": {
+      "name": "Binary",
+      "path": "src/stroke/codingDevelopment/Binary.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "Binoculars": {
+      "name": "Binoculars",
+      "path": "src/stroke/codingDevelopment/Binoculars.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "Bitcoin": {
+      "name": "Bitcoin",
+      "path": "src/stroke/codingDevelopment/Bitcoin.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "Blend": {
+      "name": "Blend",
+      "path": "src/stroke/design/Blend.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Blocks": {
+      "name": "Blocks",
+      "path": "src/stroke/codingDevelopment/Blocks.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "Book": {
+      "name": "Book",
+      "path": "src/stroke/codingDevelopment/Book.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "BookAlert": {
+      "name": "BookAlert",
+      "path": "src/stroke/codingDevelopment/BookAlert.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "BookCheck": {
+      "name": "BookCheck",
+      "path": "src/stroke/codingDevelopment/BookCheck.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "BookCopy": {
+      "name": "BookCopy",
+      "path": "src/stroke/codingDevelopment/BookCopy.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "BookDashed": {
+      "name": "BookDashed",
+      "path": "src/stroke/codingDevelopment/BookDashed.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "BookDown": {
+      "name": "BookDown",
+      "path": "src/stroke/codingDevelopment/BookDown.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "BookKey": {
+      "name": "BookKey",
+      "path": "src/stroke/codingDevelopment/BookKey.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "BookLock": {
+      "name": "BookLock",
+      "path": "src/stroke/codingDevelopment/BookLock.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "BookMarked": {
+      "name": "BookMarked",
+      "path": "src/stroke/codingDevelopment/BookMarked.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "BookMinus": {
+      "name": "BookMinus",
+      "path": "src/stroke/codingDevelopment/BookMinus.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "BookOpen": {
+      "name": "BookOpen",
+      "path": "src/stroke/codingDevelopment/BookOpen.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "BookOpenCheck": {
+      "name": "BookOpenCheck",
+      "path": "src/stroke/codingDevelopment/BookOpenCheck.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "BookOpenText": {
+      "name": "BookOpenText",
+      "path": "src/stroke/codingDevelopment/BookOpenText.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "BookPlus": {
+      "name": "BookPlus",
+      "path": "src/stroke/codingDevelopment/BookPlus.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "BookUp": {
+      "name": "BookUp",
+      "path": "src/stroke/codingDevelopment/BookUp.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "BookUp2": {
+      "name": "BookUp2",
+      "path": "src/stroke/codingDevelopment/BookUp2.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "Bot": {
+      "name": "Bot",
+      "path": "src/stroke/codingDevelopment/Bot.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "BotMessageSquare": {
+      "name": "BotMessageSquare",
+      "path": "src/stroke/codingDevelopment/BotMessageSquare.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "BotOff": {
+      "name": "BotOff",
+      "path": "src/stroke/codingDevelopment/BotOff.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "Box": {
+      "name": "Box",
+      "path": "src/stroke/codingDevelopment/Box.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "Boxes": {
+      "name": "Boxes",
+      "path": "src/stroke/codingDevelopment/Boxes.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "Braces": {
+      "name": "Braces",
+      "path": "src/stroke/codingDevelopment/Braces.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "Brackets": {
+      "name": "Brackets",
+      "path": "src/stroke/codingDevelopment/Brackets.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "BrainCircuit": {
+      "name": "BrainCircuit",
+      "path": "src/stroke/codingDevelopment/BrainCircuit.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "BrainCog": {
+      "name": "BrainCog",
+      "path": "src/stroke/codingDevelopment/BrainCog.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "Bug": {
+      "name": "Bug",
+      "path": "src/stroke/animals/Bug.tsx",
+      "category": "stroke",
+      "subcategory": "animals",
+      "size": "16"
+    },
+    "BugOff": {
+      "name": "BugOff",
+      "path": "src/stroke/animals/BugOff.tsx",
+      "category": "stroke",
+      "subcategory": "animals",
+      "size": "16"
+    },
+    "BugPlay": {
+      "name": "BugPlay",
+      "path": "src/stroke/animals/BugPlay.tsx",
+      "category": "stroke",
+      "subcategory": "animals",
+      "size": "16"
+    },
+    "CaseLower": {
+      "name": "CaseLower",
+      "path": "src/stroke/codingDevelopment/CaseLower.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "CaseUpper": {
+      "name": "CaseUpper",
+      "path": "src/stroke/codingDevelopment/CaseUpper.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "ChartNoAxesGantt": {
+      "name": "ChartNoAxesGantt",
+      "path": "src/stroke/charts/ChartNoAxesGantt.tsx",
+      "category": "stroke",
+      "subcategory": "charts",
+      "size": "16"
+    },
+    "ChevronRight": {
+      "name": "ChevronRight",
+      "path": "src/stroke/arrows/ChevronRight.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "CircleArrowOutUpLeft": {
+      "name": "CircleArrowOutUpLeft",
+      "path": "src/stroke/arrows/CircleArrowOutUpLeft.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "CircleDashed": {
+      "name": "CircleDashed",
+      "path": "src/stroke/codingDevelopment/CircleDashed.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "CircleDot": {
+      "name": "CircleDot",
+      "path": "src/stroke/codingDevelopment/CircleDot.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "CircleDotDashed": {
+      "name": "CircleDotDashed",
+      "path": "src/stroke/codingDevelopment/CircleDotDashed.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "CircleEllipsis": {
+      "name": "CircleEllipsis",
+      "path": "src/stroke/codingDevelopment/CircleEllipsis.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "CircleFadingArrowUp": {
+      "name": "CircleFadingArrowUp",
+      "path": "src/stroke/arrows/CircleFadingArrowUp.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "CirclePlus": {
+      "name": "CirclePlus",
+      "path": "src/stroke/codingDevelopment/CirclePlus.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "CircleSlash": {
+      "name": "CircleSlash",
+      "path": "src/stroke/codingDevelopment/CircleSlash.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "CircleSlash2": {
+      "name": "CircleSlash2",
+      "path": "src/stroke/codingDevelopment/CircleSlash2.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "CircleX": {
+      "name": "CircleX",
+      "path": "src/stroke/codingDevelopment/CircleX.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "CircuitBoard": {
+      "name": "CircuitBoard",
+      "path": "src/stroke/codingDevelopment/CircuitBoard.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "CloudAlert": {
+      "name": "CloudAlert",
+      "path": "src/stroke/codingDevelopment/CloudAlert.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "CloudCheck": {
+      "name": "CloudCheck",
+      "path": "src/stroke/codingDevelopment/CloudCheck.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "CloudCog": {
+      "name": "CloudCog",
+      "path": "src/stroke/codingDevelopment/CloudCog.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "Code": {
+      "name": "Code",
+      "path": "src/stroke/codingDevelopment/Code.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "CodeXml": {
+      "name": "CodeXml",
+      "path": "src/stroke/codingDevelopment/CodeXml.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "Codepen": {
+      "name": "Codepen",
+      "path": "src/stroke/codingDevelopment/Codepen.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "CodesAndBox": {
+      "name": "CodesAndBox",
+      "path": "src/stroke/codingDevelopment/CodesAndBox.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "Combine": {
+      "name": "Combine",
+      "path": "src/stroke/codingDevelopment/Combine.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "Command": {
+      "name": "Command",
+      "path": "src/stroke/codingDevelopment/Command.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "Component": {
+      "name": "Component",
+      "path": "src/stroke/design/Component.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Computer": {
+      "name": "Computer",
+      "path": "src/stroke/codingDevelopment/Computer.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "Construction": {
+      "name": "Construction",
+      "path": "src/stroke/codingDevelopment/Construction.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "Container": {
+      "name": "Container",
+      "path": "src/stroke/codingDevelopment/Container.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "CopySlash": {
+      "name": "CopySlash",
+      "path": "src/stroke/codingDevelopment/CopySlash.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "CornerDownRight": {
+      "name": "CornerDownRight",
+      "path": "src/stroke/arrows/CornerDownRight.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "Database": {
+      "name": "Database",
+      "path": "src/stroke/codingDevelopment/Database.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "DatabaseBackup": {
+      "name": "DatabaseBackup",
+      "path": "src/stroke/arrows/DatabaseBackup.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "DatabaseZap": {
+      "name": "DatabaseZap",
+      "path": "src/stroke/codingDevelopment/DatabaseZap.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "Diff": {
+      "name": "Diff",
+      "path": "src/stroke/codingDevelopment/Diff.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "Divide": {
+      "name": "Divide",
+      "path": "src/stroke/codingDevelopment/Divide.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "Dock": {
+      "name": "Dock",
+      "path": "src/stroke/design/Dock.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "EarthLock": {
+      "name": "EarthLock",
+      "path": "src/stroke/codingDevelopment/EarthLock.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "Ellipsis": {
+      "name": "Ellipsis",
+      "path": "src/stroke/codingDevelopment/Ellipsis.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "Equal": {
+      "name": "Equal",
+      "path": "src/stroke/mathematics/Equal.tsx",
+      "category": "stroke",
+      "subcategory": "mathematics",
+      "size": "16"
+    },
+    "EqualNot": {
+      "name": "EqualNot",
+      "path": "src/stroke/codingDevelopment/EqualNot.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "FileCode": {
+      "name": "FileCode",
+      "path": "src/stroke/codingDevelopment/FileCode.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "FileCode2": {
+      "name": "FileCode2",
+      "path": "src/stroke/codingDevelopment/FileCode2.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "FileDiff": {
+      "name": "FileDiff",
+      "path": "src/stroke/codingDevelopment/FileDiff.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "FileDigit": {
+      "name": "FileDigit",
+      "path": "src/stroke/codingDevelopment/FileDigit.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "FileJson": {
+      "name": "FileJson",
+      "path": "src/stroke/codingDevelopment/FileJson.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "FileJson2": {
+      "name": "FileJson2",
+      "path": "src/stroke/codingDevelopment/FileJson2.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "FileSliders": {
+      "name": "FileSliders",
+      "path": "src/stroke/codingDevelopment/FileSliders.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "FileStack": {
+      "name": "FileStack",
+      "path": "src/stroke/codingDevelopment/FileStack.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "FileTerminal": {
+      "name": "FileTerminal",
+      "path": "src/stroke/codingDevelopment/FileTerminal.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "FlagTriangleLeft": {
+      "name": "FlagTriangleLeft",
+      "path": "src/stroke/codingDevelopment/FlagTriangleLeft.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "FlagTriangleRight": {
+      "name": "FlagTriangleRight",
+      "path": "src/stroke/codingDevelopment/FlagTriangleRight.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "FolderCode": {
+      "name": "FolderCode",
+      "path": "src/stroke/codingDevelopment/FolderCode.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "FolderDot": {
+      "name": "FolderDot",
+      "path": "src/stroke/codingDevelopment/FolderDot.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "FolderKanban": {
+      "name": "FolderKanban",
+      "path": "src/stroke/charts/FolderKanban.tsx",
+      "category": "stroke",
+      "subcategory": "charts",
+      "size": "16"
+    },
+    "FolderOpenDot": {
+      "name": "FolderOpenDot",
+      "path": "src/stroke/codingDevelopment/FolderOpenDot.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "FolderRoot": {
+      "name": "FolderRoot",
+      "path": "src/stroke/codingDevelopment/FolderRoot.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "GalleryHorizontal": {
+      "name": "GalleryHorizontal",
+      "path": "src/stroke/design/GalleryHorizontal.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "GalleryHorizontalEnd": {
+      "name": "GalleryHorizontalEnd",
+      "path": "src/stroke/design/GalleryHorizontalEnd.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "GalleryThumbnails": {
+      "name": "GalleryThumbnails",
+      "path": "src/stroke/design/GalleryThumbnails.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "GalleryVertical": {
+      "name": "GalleryVertical",
+      "path": "src/stroke/design/GalleryVertical.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "GalleryVerticalEnd": {
+      "name": "GalleryVerticalEnd",
+      "path": "src/stroke/design/GalleryVerticalEnd.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Gem": {
+      "name": "Gem",
+      "path": "src/stroke/codingDevelopment/Gem.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "GitBranch": {
+      "name": "GitBranch",
+      "path": "src/stroke/codingDevelopment/GitBranch.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "GitBranchPlus": {
+      "name": "GitBranchPlus",
+      "path": "src/stroke/codingDevelopment/GitBranchPlus.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "GitCommitHorizontal": {
+      "name": "GitCommitHorizontal",
+      "path": "src/stroke/codingDevelopment/GitCommitHorizontal.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "GitCommitVertical": {
+      "name": "GitCommitVertical",
+      "path": "src/stroke/codingDevelopment/GitCommitVertical.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "GitCompare": {
+      "name": "GitCompare",
+      "path": "src/stroke/codingDevelopment/GitCompare.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "GitCompareArrows": {
+      "name": "GitCompareArrows",
+      "path": "src/stroke/arrows/GitCompareArrows.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "GitFork": {
+      "name": "GitFork",
+      "path": "src/stroke/codingDevelopment/GitFork.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "GitGraph": {
+      "name": "GitGraph",
+      "path": "src/stroke/codingDevelopment/GitGraph.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "GitMerge": {
+      "name": "GitMerge",
+      "path": "src/stroke/codingDevelopment/GitMerge.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "GitPullRequest": {
+      "name": "GitPullRequest",
+      "path": "src/stroke/codingDevelopment/GitPullRequest.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "GitPullRequestArrow": {
+      "name": "GitPullRequestArrow",
+      "path": "src/stroke/arrows/GitPullRequestArrow.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "GitPullRequestClosed": {
+      "name": "GitPullRequestClosed",
+      "path": "src/stroke/codingDevelopment/GitPullRequestClosed.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "GitPullRequestCreate": {
+      "name": "GitPullRequestCreate",
+      "path": "src/stroke/codingDevelopment/GitPullRequestCreate.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "GitPullRequestCreateArrow": {
+      "name": "GitPullRequestCreateArrow",
+      "path": "src/stroke/codingDevelopment/GitPullRequestCreateArrow.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "GitPullRequestDraft": {
+      "name": "GitPullRequestDraft",
+      "path": "src/stroke/codingDevelopment/GitPullRequestDraft.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "Github": {
+      "name": "Github",
+      "path": "src/stroke/codingDevelopment/Github.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "Gitlab": {
+      "name": "Gitlab",
+      "path": "src/stroke/codingDevelopment/Gitlab.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "GlobeLock": {
+      "name": "GlobeLock",
+      "path": "src/stroke/codingDevelopment/GlobeLock.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "HardDrive": {
+      "name": "HardDrive",
+      "path": "src/stroke/codingDevelopment/HardDrive.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "HardDriveDownload": {
+      "name": "HardDriveDownload",
+      "path": "src/stroke/arrows/HardDriveDownload.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "HardDriveUpload": {
+      "name": "HardDriveUpload",
+      "path": "src/stroke/arrows/HardDriveUpload.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "Hexagon": {
+      "name": "Hexagon",
+      "path": "src/stroke/codingDevelopment/Hexagon.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "Kanban": {
+      "name": "Kanban",
+      "path": "src/stroke/charts/Kanban.tsx",
+      "category": "stroke",
+      "subcategory": "charts",
+      "size": "16"
+    },
+    "Keyboard": {
+      "name": "Keyboard",
+      "path": "src/stroke/codingDevelopment/Keyboard.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "KeyboardOff": {
+      "name": "KeyboardOff",
+      "path": "src/stroke/codingDevelopment/KeyboardOff.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "Library": {
+      "name": "Library",
+      "path": "src/stroke/codingDevelopment/Library.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "LibraryBig": {
+      "name": "LibraryBig",
+      "path": "src/stroke/codingDevelopment/LibraryBig.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "ListIndentDecrease": {
+      "name": "ListIndentDecrease",
+      "path": "src/stroke/codingDevelopment/ListIndentDecrease.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "ListIndentIncrease": {
+      "name": "ListIndentIncrease",
+      "path": "src/stroke/codingDevelopment/ListIndentIncrease.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "Merge": {
+      "name": "Merge",
+      "path": "src/stroke/arrows/Merge.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "MessageCircleCode": {
+      "name": "MessageCircleCode",
+      "path": "src/stroke/codingDevelopment/MessageCircleCode.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "MessageSquareCode": {
+      "name": "MessageSquareCode",
+      "path": "src/stroke/codingDevelopment/MessageSquareCode.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "MessageSquareDiff": {
+      "name": "MessageSquareDiff",
+      "path": "src/stroke/codingDevelopment/MessageSquareDiff.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "Milestone": {
+      "name": "Milestone",
+      "path": "src/stroke/arrows/Milestone.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "Minus": {
+      "name": "Minus",
+      "path": "src/stroke/mathematics/Minus.tsx",
+      "category": "stroke",
+      "subcategory": "mathematics",
+      "size": "16"
+    },
+    "Network": {
+      "name": "Network",
+      "path": "src/stroke/codingDevelopment/Network.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "Omega": {
+      "name": "Omega",
+      "path": "src/stroke/codingDevelopment/Omega.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "Option": {
+      "name": "Option",
+      "path": "src/stroke/codingDevelopment/Option.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "Package": {
+      "name": "Package",
+      "path": "src/stroke/codingDevelopment/Package.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "Package2": {
+      "name": "Package2",
+      "path": "src/stroke/codingDevelopment/Package2.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "PackageCheck": {
+      "name": "PackageCheck",
+      "path": "src/stroke/codingDevelopment/PackageCheck.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "PackageMinus": {
+      "name": "PackageMinus",
+      "path": "src/stroke/codingDevelopment/PackageMinus.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "PackageOpen": {
+      "name": "PackageOpen",
+      "path": "src/stroke/codingDevelopment/PackageOpen.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "PackagePlus": {
+      "name": "PackagePlus",
+      "path": "src/stroke/codingDevelopment/PackagePlus.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "PackageSearch": {
+      "name": "PackageSearch",
+      "path": "src/stroke/codingDevelopment/PackageSearch.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "PackageX": {
+      "name": "PackageX",
+      "path": "src/stroke/codingDevelopment/PackageX.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "PanelTop": {
+      "name": "PanelTop",
+      "path": "src/stroke/design/PanelTop.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "PanelsTopLeft": {
+      "name": "PanelsTopLeft",
+      "path": "src/stroke/design/PanelsTopLeft.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Parentheses": {
+      "name": "Parentheses",
+      "path": "src/stroke/codingDevelopment/Parentheses.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "Percent": {
+      "name": "Percent",
+      "path": "src/stroke/codingDevelopment/Percent.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "Pi": {
+      "name": "Pi",
+      "path": "src/stroke/codingDevelopment/Pi.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "Plug": {
+      "name": "Plug",
+      "path": "src/stroke/codingDevelopment/Plug.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "Plug2": {
+      "name": "Plug2",
+      "path": "src/stroke/codingDevelopment/Plug2.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "Plus": {
+      "name": "Plus",
+      "path": "src/stroke/mathematics/Plus.tsx",
+      "category": "stroke",
+      "subcategory": "mathematics",
+      "size": "16"
+    },
+    "Puzzle": {
+      "name": "Puzzle",
+      "path": "src/stroke/codingDevelopment/Puzzle.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "QrCode": {
+      "name": "QrCode",
+      "path": "src/stroke/codingDevelopment/QrCode.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "Radical": {
+      "name": "Radical",
+      "path": "src/stroke/codingDevelopment/Radical.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "RectangleCircle": {
+      "name": "RectangleCircle",
+      "path": "src/stroke/codingDevelopment/RectangleCircle.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "RectangleEllipsis": {
+      "name": "RectangleEllipsis",
+      "path": "src/stroke/codingDevelopment/RectangleEllipsis.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "RefreshCcwDot": {
+      "name": "RefreshCcwDot",
+      "path": "src/stroke/arrows/RefreshCcwDot.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "Regex": {
+      "name": "Regex",
+      "path": "src/stroke/codingDevelopment/Regex.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "Rocket": {
+      "name": "Rocket",
+      "path": "src/stroke/codingDevelopment/Rocket.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "Router": {
+      "name": "Router",
+      "path": "src/stroke/connectivity/Router.tsx",
+      "category": "stroke",
+      "subcategory": "connectivity",
+      "size": "16"
+    },
+    "Rss": {
+      "name": "Rss",
+      "path": "src/stroke/codingDevelopment/Rss.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "Scroll": {
+      "name": "Scroll",
+      "path": "src/stroke/codingDevelopment/Scroll.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "ScrollText": {
+      "name": "ScrollText",
+      "path": "src/stroke/codingDevelopment/ScrollText.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "SearchCode": {
+      "name": "SearchCode",
+      "path": "src/stroke/codingDevelopment/SearchCode.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "Server": {
+      "name": "Server",
+      "path": "src/stroke/codingDevelopment/Server.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "ServerCog": {
+      "name": "ServerCog",
+      "path": "src/stroke/codingDevelopment/ServerCog.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "ServerCrash": {
+      "name": "ServerCrash",
+      "path": "src/stroke/codingDevelopment/ServerCrash.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "ServerOff": {
+      "name": "ServerOff",
+      "path": "src/stroke/codingDevelopment/ServerOff.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "Shell": {
+      "name": "Shell",
+      "path": "src/stroke/codingDevelopment/Shell.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "Shield": {
+      "name": "Shield",
+      "path": "src/stroke/accountsAccess/Shield.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "ShieldAlert": {
+      "name": "ShieldAlert",
+      "path": "src/stroke/accountsAccess/ShieldAlert.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "ShieldBan": {
+      "name": "ShieldBan",
+      "path": "src/stroke/accountsAccess/ShieldBan.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "ShieldCheck": {
+      "name": "ShieldCheck",
+      "path": "src/stroke/accountsAccess/ShieldCheck.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "ShieldEllipsis": {
+      "name": "ShieldEllipsis",
+      "path": "src/stroke/accountsAccess/ShieldEllipsis.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "ShieldHalf": {
+      "name": "ShieldHalf",
+      "path": "src/stroke/accountsAccess/ShieldHalf.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "ShieldMinus": {
+      "name": "ShieldMinus",
+      "path": "src/stroke/accountsAccess/ShieldMinus.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "ShieldOff": {
+      "name": "ShieldOff",
+      "path": "src/stroke/accountsAccess/ShieldOff.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "ShieldPlus": {
+      "name": "ShieldPlus",
+      "path": "src/stroke/accountsAccess/ShieldPlus.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "ShieldQuestionMark": {
+      "name": "ShieldQuestionMark",
+      "path": "src/stroke/accountsAccess/ShieldQuestionMark.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "ShieldUser": {
+      "name": "ShieldUser",
+      "path": "src/stroke/accountsAccess/ShieldUser.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "ShieldX": {
+      "name": "ShieldX",
+      "path": "src/stroke/accountsAccess/ShieldX.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "Signpost": {
+      "name": "Signpost",
+      "path": "src/stroke/arrows/Signpost.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "SignpostBig": {
+      "name": "SignpostBig",
+      "path": "src/stroke/arrows/SignpostBig.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "Slack": {
+      "name": "Slack",
+      "path": "src/stroke/codingDevelopment/Slack.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "Slash": {
+      "name": "Slash",
+      "path": "src/stroke/codingDevelopment/Slash.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "SpellCheck": {
+      "name": "SpellCheck",
+      "path": "src/stroke/codingDevelopment/SpellCheck.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "SpellCheck2": {
+      "name": "SpellCheck2",
+      "path": "src/stroke/codingDevelopment/SpellCheck2.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "Split": {
+      "name": "Split",
+      "path": "src/stroke/arrows/Split.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "SquareAsterisk": {
+      "name": "SquareAsterisk",
+      "path": "src/stroke/codingDevelopment/SquareAsterisk.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "SquareBottomDashedScissors": {
+      "name": "SquareBottomDashedScissors",
+      "path": "src/stroke/design/SquareBottomDashedScissors.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "SquareChartGantt": {
+      "name": "SquareChartGantt",
+      "path": "src/stroke/charts/SquareChartGantt.tsx",
+      "category": "stroke",
+      "subcategory": "charts",
+      "size": "16"
+    },
+    "SquareChevronRight": {
+      "name": "SquareChevronRight",
+      "path": "src/stroke/arrows/SquareChevronRight.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "SquareCode": {
+      "name": "SquareCode",
+      "path": "src/stroke/codingDevelopment/SquareCode.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "SquareDashedBottom": {
+      "name": "SquareDashedBottom",
+      "path": "src/stroke/codingDevelopment/SquareDashedBottom.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "SquareDashedBottomCode": {
+      "name": "SquareDashedBottomCode",
+      "path": "src/stroke/codingDevelopment/SquareDashedBottomCode.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "SquareDashedKanban": {
+      "name": "SquareDashedKanban",
+      "path": "src/stroke/charts/SquareDashedKanban.tsx",
+      "category": "stroke",
+      "subcategory": "charts",
+      "size": "16"
+    },
+    "SquareDashedMousePointer": {
+      "name": "SquareDashedMousePointer",
+      "path": "src/stroke/arrows/SquareDashedMousePointer.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "SquareDashedTopSolid": {
+      "name": "SquareDashedTopSolid",
+      "path": "src/stroke/design/SquareDashedTopSolid.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "SquareDot": {
+      "name": "SquareDot",
+      "path": "src/stroke/codingDevelopment/SquareDot.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "SquareFunction": {
+      "name": "SquareFunction",
+      "path": "src/stroke/codingDevelopment/SquareFunction.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "SquareKanban": {
+      "name": "SquareKanban",
+      "path": "src/stroke/charts/SquareKanban.tsx",
+      "category": "stroke",
+      "subcategory": "charts",
+      "size": "16"
+    },
+    "SquareLibrary": {
+      "name": "SquareLibrary",
+      "path": "src/stroke/codingDevelopment/SquareLibrary.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "SquareMinus": {
+      "name": "SquareMinus",
+      "path": "src/stroke/codingDevelopment/SquareMinus.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "SquareMousePointer": {
+      "name": "SquareMousePointer",
+      "path": "src/stroke/arrows/SquareMousePointer.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "SquarePi": {
+      "name": "SquarePi",
+      "path": "src/stroke/codingDevelopment/SquarePi.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "SquarePlus": {
+      "name": "SquarePlus",
+      "path": "src/stroke/codingDevelopment/SquarePlus.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "SquareRadical": {
+      "name": "SquareRadical",
+      "path": "src/stroke/codingDevelopment/SquareRadical.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "SquareRoundCorner": {
+      "name": "SquareRoundCorner",
+      "path": "src/stroke/design/SquareRoundCorner.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "SquareScissors": {
+      "name": "SquareScissors",
+      "path": "src/stroke/design/SquareScissors.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "SquareSlash": {
+      "name": "SquareSlash",
+      "path": "src/stroke/codingDevelopment/SquareSlash.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "SquareStack": {
+      "name": "SquareStack",
+      "path": "src/stroke/codingDevelopment/SquareStack.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "SquareTerminal": {
+      "name": "SquareTerminal",
+      "path": "src/stroke/codingDevelopment/SquareTerminal.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "SquircleDashed": {
+      "name": "SquircleDashed",
+      "path": "src/stroke/design/SquircleDashed.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "TableProperties": {
+      "name": "TableProperties",
+      "path": "src/stroke/codingDevelopment/TableProperties.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "TabletSmartphone": {
+      "name": "TabletSmartphone",
+      "path": "src/stroke/design/TabletSmartphone.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Telescope": {
+      "name": "Telescope",
+      "path": "src/stroke/codingDevelopment/Telescope.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "Terminal": {
+      "name": "Terminal",
+      "path": "src/stroke/codingDevelopment/Terminal.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "ToggleLeft": {
+      "name": "ToggleLeft",
+      "path": "src/stroke/accountsAccess/ToggleLeft.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "ToggleRight": {
+      "name": "ToggleRight",
+      "path": "src/stroke/accountsAccess/ToggleRight.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "ToolCase": {
+      "name": "ToolCase",
+      "path": "src/stroke/codingDevelopment/ToolCase.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "ToyBrick": {
+      "name": "ToyBrick",
+      "path": "src/stroke/codingDevelopment/ToyBrick.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "Trello": {
+      "name": "Trello",
+      "path": "src/stroke/codingDevelopment/Trello.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "TriangleAlert": {
+      "name": "TriangleAlert",
+      "path": "src/stroke/codingDevelopment/TriangleAlert.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "Unplug": {
+      "name": "Unplug",
+      "path": "src/stroke/codingDevelopment/Unplug.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "Variable": {
+      "name": "Variable",
+      "path": "src/stroke/codingDevelopment/Variable.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "Waypoints": {
+      "name": "Waypoints",
+      "path": "src/stroke/accountsAccess/Waypoints.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "Webhook": {
+      "name": "Webhook",
+      "path": "src/stroke/accountsAccess/Webhook.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "WebhookOff": {
+      "name": "WebhookOff",
+      "path": "src/stroke/accountsAccess/WebhookOff.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "Workflow": {
+      "name": "Workflow",
+      "path": "src/stroke/codingDevelopment/Workflow.tsx",
+      "category": "stroke",
+      "subcategory": "codingDevelopment",
+      "size": "16"
+    },
+    "Wrench": {
+      "name": "Wrench",
+      "path": "src/stroke/accountsAccess/Wrench.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "AArrowDown": {
+      "name": "AArrowDown",
+      "path": "src/stroke/design/AArrowDown.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "AArrowUp": {
+      "name": "AArrowUp",
+      "path": "src/stroke/design/AArrowUp.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "ALargeSmall": {
+      "name": "ALargeSmall",
+      "path": "src/stroke/design/ALargeSmall.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Axis3D": {
+      "name": "Axis3D",
+      "path": "src/stroke/design/Axis3D.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "BetweenHorizontalEnd": {
+      "name": "BetweenHorizontalEnd",
+      "path": "src/stroke/design/BetweenHorizontalEnd.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "BetweenHorizontalStart": {
+      "name": "BetweenHorizontalStart",
+      "path": "src/stroke/design/BetweenHorizontalStart.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "BetweenVerticalEnd": {
+      "name": "BetweenVerticalEnd",
+      "path": "src/stroke/design/BetweenVerticalEnd.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "BetweenVerticalStart": {
+      "name": "BetweenVerticalStart",
+      "path": "src/stroke/design/BetweenVerticalStart.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "BookType": {
+      "name": "BookType",
+      "path": "src/stroke/design/BookType.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "BringToFront": {
+      "name": "BringToFront",
+      "path": "src/stroke/design/BringToFront.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Brush": {
+      "name": "Brush",
+      "path": "src/stroke/design/Brush.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "BrushCleaning": {
+      "name": "BrushCleaning",
+      "path": "src/stroke/design/BrushCleaning.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Columns2": {
+      "name": "Columns2",
+      "path": "src/stroke/design/Columns2.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Columns3": {
+      "name": "Columns3",
+      "path": "src/stroke/design/Columns3.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Columns3Cog": {
+      "name": "Columns3Cog",
+      "path": "src/stroke/design/Columns3Cog.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Columns4": {
+      "name": "Columns4",
+      "path": "src/stroke/design/Columns4.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Crop": {
+      "name": "Crop",
+      "path": "src/stroke/design/Crop.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Cylinder": {
+      "name": "Cylinder",
+      "path": "src/stroke/design/Cylinder.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "DecimalsArrowLeft": {
+      "name": "DecimalsArrowLeft",
+      "path": "src/stroke/arrows/DecimalsArrowLeft.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "DecimalsArrowRight": {
+      "name": "DecimalsArrowRight",
+      "path": "src/stroke/arrows/DecimalsArrowRight.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "Diameter": {
+      "name": "Diameter",
+      "path": "src/stroke/design/Diameter.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "DraftingCompass": {
+      "name": "DraftingCompass",
+      "path": "src/stroke/design/DraftingCompass.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Dribbble": {
+      "name": "Dribbble",
+      "path": "src/stroke/design/Dribbble.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Figma": {
+      "name": "Figma",
+      "path": "src/stroke/design/Figma.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "FileAxis3D": {
+      "name": "FileAxis3D",
+      "path": "src/stroke/design/FileAxis3D.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "FlipHorizontal": {
+      "name": "FlipHorizontal",
+      "path": "src/stroke/design/FlipHorizontal.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "FlipHorizontal2": {
+      "name": "FlipHorizontal2",
+      "path": "src/stroke/design/FlipHorizontal2.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "FlipVertical": {
+      "name": "FlipVertical",
+      "path": "src/stroke/design/FlipVertical.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "FlipVertical2": {
+      "name": "FlipVertical2",
+      "path": "src/stroke/design/FlipVertical2.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Frame": {
+      "name": "Frame",
+      "path": "src/stroke/accountsAccess/Frame.tsx",
+      "category": "stroke",
+      "subcategory": "accountsAccess",
+      "size": "16"
+    },
+    "Framer": {
+      "name": "Framer",
+      "path": "src/stroke/design/Framer.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Fullscreen": {
+      "name": "Fullscreen",
+      "path": "src/stroke/design/Fullscreen.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Grid2X2": {
+      "name": "Grid2X2",
+      "path": "src/stroke/design/Grid2X2.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Grid3X2": {
+      "name": "Grid3X2",
+      "path": "src/stroke/design/Grid3X2.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Grid3X3": {
+      "name": "Grid3X3",
+      "path": "src/stroke/design/Grid3X3.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "HandGrab": {
+      "name": "HandGrab",
+      "path": "src/stroke/design/HandGrab.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Highlighter": {
+      "name": "Highlighter",
+      "path": "src/stroke/design/Highlighter.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "IterationCcw": {
+      "name": "IterationCcw",
+      "path": "src/stroke/arrows/IterationCcw.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "IterationCw": {
+      "name": "IterationCw",
+      "path": "src/stroke/arrows/IterationCw.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "LandPlot": {
+      "name": "LandPlot",
+      "path": "src/stroke/design/LandPlot.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Lasso": {
+      "name": "Lasso",
+      "path": "src/stroke/design/Lasso.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "LassoSelect": {
+      "name": "LassoSelect",
+      "path": "src/stroke/arrows/LassoSelect.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "Layers": {
+      "name": "Layers",
+      "path": "src/stroke/design/Layers.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Layers2": {
+      "name": "Layers2",
+      "path": "src/stroke/design/Layers2.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "LayoutDashboard": {
+      "name": "LayoutDashboard",
+      "path": "src/stroke/design/LayoutDashboard.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "LayoutGrid": {
+      "name": "LayoutGrid",
+      "path": "src/stroke/design/LayoutGrid.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "LayoutList": {
+      "name": "LayoutList",
+      "path": "src/stroke/design/LayoutList.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "LayoutPanelLeft": {
+      "name": "LayoutPanelLeft",
+      "path": "src/stroke/design/LayoutPanelLeft.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "LineSquiggle": {
+      "name": "LineSquiggle",
+      "path": "src/stroke/design/LineSquiggle.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Loader": {
+      "name": "Loader",
+      "path": "src/stroke/design/Loader.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "LoaderPinwheel": {
+      "name": "LoaderPinwheel",
+      "path": "src/stroke/design/LoaderPinwheel.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Magnet": {
+      "name": "Magnet",
+      "path": "src/stroke/design/Magnet.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Maximize": {
+      "name": "Maximize",
+      "path": "src/stroke/design/Maximize.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Maximize2": {
+      "name": "Maximize2",
+      "path": "src/stroke/arrows/Maximize2.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "Minimize": {
+      "name": "Minimize",
+      "path": "src/stroke/design/Minimize.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Minimize2": {
+      "name": "Minimize2",
+      "path": "src/stroke/arrows/Minimize2.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "Move3D": {
+      "name": "Move3D",
+      "path": "src/stroke/design/Move3D.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Notebook": {
+      "name": "Notebook",
+      "path": "src/stroke/communication/Notebook.tsx",
+      "category": "stroke",
+      "subcategory": "communication",
+      "size": "16"
+    },
+    "Origami": {
+      "name": "Origami",
+      "path": "src/stroke/animals/Origami.tsx",
+      "category": "stroke",
+      "subcategory": "animals",
+      "size": "16"
+    },
+    "PaintBucket": {
+      "name": "PaintBucket",
+      "path": "src/stroke/design/PaintBucket.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "PaintRoller": {
+      "name": "PaintRoller",
+      "path": "src/stroke/design/PaintRoller.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "PaintBrush": {
+      "name": "PaintBrush",
+      "path": "src/stroke/design/PaintBrush.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "PaintBrushVertical": {
+      "name": "PaintBrushVertical",
+      "path": "src/stroke/design/PaintBrushVertical.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Palette": {
+      "name": "Palette",
+      "path": "src/stroke/design/Palette.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Paperclip": {
+      "name": "Paperclip",
+      "path": "src/stroke/design/Paperclip.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Pen": {
+      "name": "Pen",
+      "path": "src/stroke/design/Pen.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "PenLine": {
+      "name": "PenLine",
+      "path": "src/stroke/design/PenLine.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "PenOff": {
+      "name": "PenOff",
+      "path": "src/stroke/design/PenOff.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "PenTool": {
+      "name": "PenTool",
+      "path": "src/stroke/design/PenTool.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Pencil": {
+      "name": "Pencil",
+      "path": "src/stroke/design/Pencil.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "PencilLine": {
+      "name": "PencilLine",
+      "path": "src/stroke/design/PencilLine.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "PencilOff": {
+      "name": "PencilOff",
+      "path": "src/stroke/design/PencilOff.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "PencilRuler": {
+      "name": "PencilRuler",
+      "path": "src/stroke/design/PencilRuler.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Pipette": {
+      "name": "Pipette",
+      "path": "src/stroke/design/Pipette.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Presentation": {
+      "name": "Presentation",
+      "path": "src/stroke/communication/Presentation.tsx",
+      "category": "stroke",
+      "subcategory": "communication",
+      "size": "16"
+    },
+    "Proportions": {
+      "name": "Proportions",
+      "path": "src/stroke/design/Proportions.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Radius": {
+      "name": "Radius",
+      "path": "src/stroke/design/Radius.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Ratio": {
+      "name": "Ratio",
+      "path": "src/stroke/design/Ratio.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "RectangleHorizontal": {
+      "name": "RectangleHorizontal",
+      "path": "src/stroke/design/RectangleHorizontal.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "RectangleVertical": {
+      "name": "RectangleVertical",
+      "path": "src/stroke/design/RectangleVertical.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Rotate3D": {
+      "name": "Rotate3D",
+      "path": "src/stroke/design/Rotate3D.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "RotateCcw": {
+      "name": "RotateCcw",
+      "path": "src/stroke/arrows/RotateCcw.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "RotateCcwSquare": {
+      "name": "RotateCcwSquare",
+      "path": "src/stroke/arrows/RotateCcwSquare.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "RotateCw": {
+      "name": "RotateCw",
+      "path": "src/stroke/arrows/RotateCw.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "RotateCwSquare": {
+      "name": "RotateCwSquare",
+      "path": "src/stroke/arrows/RotateCwSquare.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "Rows2": {
+      "name": "Rows2",
+      "path": "src/stroke/design/Rows2.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Rows3": {
+      "name": "Rows3",
+      "path": "src/stroke/design/Rows3.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Rows4": {
+      "name": "Rows4",
+      "path": "src/stroke/design/Rows4.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Ruler": {
+      "name": "Ruler",
+      "path": "src/stroke/design/Ruler.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "RulerDimensionLine": {
+      "name": "RulerDimensionLine",
+      "path": "src/stroke/design/RulerDimensionLine.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Scale3D": {
+      "name": "Scale3D",
+      "path": "src/stroke/design/Scale3D.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Scaling": {
+      "name": "Scaling",
+      "path": "src/stroke/design/Scaling.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Scissors": {
+      "name": "Scissors",
+      "path": "src/stroke/design/Scissors.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "ScissorsLineDashed": {
+      "name": "ScissorsLineDashed",
+      "path": "src/stroke/design/ScissorsLineDashed.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "SendToBack": {
+      "name": "SendToBack",
+      "path": "src/stroke/design/SendToBack.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Slice": {
+      "name": "Slice",
+      "path": "src/stroke/design/Slice.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Spline": {
+      "name": "Spline",
+      "path": "src/stroke/design/Spline.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "SplinePointer": {
+      "name": "SplinePointer",
+      "path": "src/stroke/arrows/SplinePointer.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "SprayCan": {
+      "name": "SprayCan",
+      "path": "src/stroke/design/SprayCan.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "SquareDashed": {
+      "name": "SquareDashed",
+      "path": "src/stroke/design/SquareDashed.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "SquaresExclude": {
+      "name": "SquaresExclude",
+      "path": "src/stroke/design/SquaresExclude.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "SquaresIntersect": {
+      "name": "SquaresIntersect",
+      "path": "src/stroke/design/SquaresIntersect.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "SquaresSubtract": {
+      "name": "SquaresSubtract",
+      "path": "src/stroke/design/SquaresSubtract.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "SquaresUnite": {
+      "name": "SquaresUnite",
+      "path": "src/stroke/design/SquaresUnite.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Stamp": {
+      "name": "Stamp",
+      "path": "src/stroke/design/Stamp.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "SwatchBook": {
+      "name": "SwatchBook",
+      "path": "src/stroke/design/SwatchBook.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Tangent": {
+      "name": "Tangent",
+      "path": "src/stroke/design/Tangent.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Torus": {
+      "name": "Torus",
+      "path": "src/stroke/design/Torus.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "VectorSquare": {
+      "name": "VectorSquare",
+      "path": "src/stroke/design/VectorSquare.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "View": {
+      "name": "View",
+      "path": "src/stroke/design/View.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Wand": {
+      "name": "Wand",
+      "path": "src/stroke/design/Wand.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "WandSparkles": {
+      "name": "WandSparkles",
+      "path": "src/stroke/design/WandSparkles.tsx",
+      "category": "stroke",
+      "subcategory": "design",
+      "size": "16"
+    },
     "Airplay": {
       "name": "Airplay",
       "path": "src/stroke/connectivity/Airplay.tsx",
@@ -665,13 +3115,6 @@
       "subcategory": "connectivity",
       "size": "16"
     },
-    "Router": {
-      "name": "Router",
-      "path": "src/stroke/connectivity/Router.tsx",
-      "category": "stroke",
-      "subcategory": "connectivity",
-      "size": "16"
-    },
     "Satellite": {
       "name": "Satellite",
       "path": "src/stroke/connectivity/Satellite.tsx",
@@ -1015,25 +3458,11 @@
       "subcategory": "communication",
       "size": "16"
     },
-    "Notebook": {
-      "name": "Notebook",
-      "path": "src/stroke/communication/Notebook.tsx",
-      "category": "stroke",
-      "subcategory": "communication",
-      "size": "16"
-    },
     "NotebookTabs": {
       "name": "NotebookTabs",
       "path": "src/stroke/accountsAccess/NotebookTabs.tsx",
       "category": "stroke",
       "subcategory": "accountsAccess",
-      "size": "16"
-    },
-    "Presentation": {
-      "name": "Presentation",
-      "path": "src/stroke/communication/Presentation.tsx",
-      "category": "stroke",
-      "subcategory": "communication",
       "size": "16"
     },
     "Projector": {
@@ -1260,37 +3689,9 @@
       "subcategory": "buildings",
       "size": "16"
     },
-    "Equal": {
-      "name": "Equal",
-      "path": "src/stroke/mathematics/Equal.tsx",
-      "category": "stroke",
-      "subcategory": "mathematics",
-      "size": "16"
-    },
     "X": {
       "name": "X",
       "path": "src/stroke/mathematics/X.tsx",
-      "category": "stroke",
-      "subcategory": "mathematics",
-      "size": "16"
-    },
-    "Plus": {
-      "name": "Plus",
-      "path": "src/stroke/mathematics/Plus.tsx",
-      "category": "stroke",
-      "subcategory": "mathematics",
-      "size": "16"
-    },
-    "Asterisk": {
-      "name": "Asterisk",
-      "path": "src/stroke/mathematics/Asterisk.tsx",
-      "category": "stroke",
-      "subcategory": "mathematics",
-      "size": "16"
-    },
-    "Minus": {
-      "name": "Minus",
-      "path": "src/stroke/mathematics/Minus.tsx",
       "category": "stroke",
       "subcategory": "mathematics",
       "size": "16"
@@ -1337,13 +3738,6 @@
       "subcategory": "animals",
       "size": "16"
     },
-    "Bug": {
-      "name": "Bug",
-      "path": "src/stroke/animals/Bug.tsx",
-      "category": "stroke",
-      "subcategory": "animals",
-      "size": "16"
-    },
     "FishSymbol": {
       "name": "FishSymbol",
       "path": "src/stroke/animals/FishSymbol.tsx",
@@ -1354,27 +3748,6 @@
     "Worm": {
       "name": "Worm",
       "path": "src/stroke/animals/Worm.tsx",
-      "category": "stroke",
-      "subcategory": "animals",
-      "size": "16"
-    },
-    "BugOff": {
-      "name": "BugOff",
-      "path": "src/stroke/animals/BugOff.tsx",
-      "category": "stroke",
-      "subcategory": "animals",
-      "size": "16"
-    },
-    "Origami": {
-      "name": "Origami",
-      "path": "src/stroke/animals/Origami.tsx",
-      "category": "stroke",
-      "subcategory": "animals",
-      "size": "16"
-    },
-    "BugPlay": {
-      "name": "BugPlay",
-      "path": "src/stroke/animals/BugPlay.tsx",
       "category": "stroke",
       "subcategory": "animals",
       "size": "16"
@@ -1540,13 +3913,6 @@
       "subcategory": "charts",
       "size": "16"
     },
-    "ChartNoAxesGantt": {
-      "name": "ChartNoAxesGantt",
-      "path": "src/stroke/charts/ChartNoAxesGantt.tsx",
-      "category": "stroke",
-      "subcategory": "charts",
-      "size": "16"
-    },
     "ChartPie": {
       "name": "ChartPie",
       "path": "src/stroke/charts/ChartPie.tsx",
@@ -1564,41 +3930,6 @@
     "ChartSpline": {
       "name": "ChartSpline",
       "path": "src/stroke/charts/ChartSpline.tsx",
-      "category": "stroke",
-      "subcategory": "charts",
-      "size": "16"
-    },
-    "FolderKanban": {
-      "name": "FolderKanban",
-      "path": "src/stroke/charts/FolderKanban.tsx",
-      "category": "stroke",
-      "subcategory": "charts",
-      "size": "16"
-    },
-    "Kanban": {
-      "name": "Kanban",
-      "path": "src/stroke/charts/Kanban.tsx",
-      "category": "stroke",
-      "subcategory": "charts",
-      "size": "16"
-    },
-    "SquareChartGantt": {
-      "name": "SquareChartGantt",
-      "path": "src/stroke/charts/SquareChartGantt.tsx",
-      "category": "stroke",
-      "subcategory": "charts",
-      "size": "16"
-    },
-    "SquareDashedKanban": {
-      "name": "SquareDashedKanban",
-      "path": "src/stroke/charts/SquareDashedKanban.tsx",
-      "category": "stroke",
-      "subcategory": "charts",
-      "size": "16"
-    },
-    "SquareKanban": {
-      "name": "SquareKanban",
-      "path": "src/stroke/charts/SquareKanban.tsx",
       "category": "stroke",
       "subcategory": "charts",
       "size": "16"
@@ -1666,20 +3997,6 @@
       "subcategory": "arrows",
       "size": "16"
     },
-    "ArrowBigUp": {
-      "name": "ArrowBigUp",
-      "path": "src/stroke/arrows/ArrowBigUp.tsx",
-      "category": "stroke",
-      "subcategory": "arrows",
-      "size": "16"
-    },
-    "ArrowBigUpDash": {
-      "name": "ArrowBigUpDash",
-      "path": "src/stroke/arrows/ArrowBigUpDash.tsx",
-      "category": "stroke",
-      "subcategory": "arrows",
-      "size": "16"
-    },
     "ArrowDown": {
       "name": "ArrowDown",
       "path": "src/stroke/arrows/ArrowDown.tsx",
@@ -1739,13 +4056,6 @@
     "ArrowDownToDot": {
       "name": "ArrowDownToDot",
       "path": "src/stroke/arrows/ArrowDownToDot.tsx",
-      "category": "stroke",
-      "subcategory": "arrows",
-      "size": "16"
-    },
-    "ArrowDownToLine": {
-      "name": "ArrowDownToLine",
-      "path": "src/stroke/arrows/ArrowDownToLine.tsx",
       "category": "stroke",
       "subcategory": "arrows",
       "size": "16"
@@ -1820,13 +4130,6 @@
       "subcategory": "arrows",
       "size": "16"
     },
-    "ArrowRightToLine": {
-      "name": "ArrowRightToLine",
-      "path": "src/stroke/arrows/ArrowRightToLine.tsx",
-      "category": "stroke",
-      "subcategory": "arrows",
-      "size": "16"
-    },
     "ArrowUp": {
       "name": "ArrowUp",
       "path": "src/stroke/arrows/ArrowUp.tsx",
@@ -1865,13 +4168,6 @@
     "ArrowUpFromDot": {
       "name": "ArrowUpFromDot",
       "path": "src/stroke/arrows/ArrowUpFromDot.tsx",
-      "category": "stroke",
-      "subcategory": "arrows",
-      "size": "16"
-    },
-    "ArrowUpFromLine": {
-      "name": "ArrowUpFromLine",
-      "path": "src/stroke/arrows/ArrowUpFromLine.tsx",
       "category": "stroke",
       "subcategory": "arrows",
       "size": "16"
@@ -1956,13 +4252,6 @@
     "ChevronLeft": {
       "name": "ChevronLeft",
       "path": "src/stroke/arrows/ChevronLeft.tsx",
-      "category": "stroke",
-      "subcategory": "arrows",
-      "size": "16"
-    },
-    "ChevronRight": {
-      "name": "ChevronRight",
-      "path": "src/stroke/arrows/ChevronRight.tsx",
       "category": "stroke",
       "subcategory": "arrows",
       "size": "16"
@@ -2058,13 +4347,6 @@
       "subcategory": "arrows",
       "size": "16"
     },
-    "CircleArrowOutUpLeft": {
-      "name": "CircleArrowOutUpLeft",
-      "path": "src/stroke/arrows/CircleArrowOutUpLeft.tsx",
-      "category": "stroke",
-      "subcategory": "arrows",
-      "size": "16"
-    },
     "CircleArrowOutUpRight": {
       "name": "CircleArrowOutUpRight",
       "path": "src/stroke/arrows/CircleArrowOutUpRight.tsx",
@@ -2114,13 +4396,6 @@
       "subcategory": "arrows",
       "size": "16"
     },
-    "CircleFadingArrowUp": {
-      "name": "CircleFadingArrowUp",
-      "path": "src/stroke/arrows/CircleFadingArrowUp.tsx",
-      "category": "stroke",
-      "subcategory": "arrows",
-      "size": "16"
-    },
     "ClipboardCopy": {
       "name": "ClipboardCopy",
       "path": "src/stroke/arrows/ClipboardCopy.tsx",
@@ -2152,13 +4427,6 @@
     "CornerDownLeft": {
       "name": "CornerDownLeft",
       "path": "src/stroke/arrows/CornerDownLeft.tsx",
-      "category": "stroke",
-      "subcategory": "arrows",
-      "size": "16"
-    },
-    "CornerDownRight": {
-      "name": "CornerDownRight",
-      "path": "src/stroke/arrows/CornerDownRight.tsx",
       "category": "stroke",
       "subcategory": "arrows",
       "size": "16"
@@ -2201,27 +4469,6 @@
     "CornerUpRight": {
       "name": "CornerUpRight",
       "path": "src/stroke/arrows/CornerUpRight.tsx",
-      "category": "stroke",
-      "subcategory": "arrows",
-      "size": "16"
-    },
-    "DatabaseBackup": {
-      "name": "DatabaseBackup",
-      "path": "src/stroke/arrows/DatabaseBackup.tsx",
-      "category": "stroke",
-      "subcategory": "arrows",
-      "size": "16"
-    },
-    "DecimalsArrowLeft": {
-      "name": "DecimalsArrowLeft",
-      "path": "src/stroke/arrows/DecimalsArrowLeft.tsx",
-      "category": "stroke",
-      "subcategory": "arrows",
-      "size": "16"
-    },
-    "DecimalsArrowRight": {
-      "name": "DecimalsArrowRight",
-      "path": "src/stroke/arrows/DecimalsArrowRight.tsx",
       "category": "stroke",
       "subcategory": "arrows",
       "size": "16"
@@ -2338,37 +4585,9 @@
       "subcategory": "arrows",
       "size": "16"
     },
-    "GitCompareArrows": {
-      "name": "GitCompareArrows",
-      "path": "src/stroke/arrows/GitCompareArrows.tsx",
-      "category": "stroke",
-      "subcategory": "arrows",
-      "size": "16"
-    },
-    "GitPullRequestArrow": {
-      "name": "GitPullRequestArrow",
-      "path": "src/stroke/arrows/GitPullRequestArrow.tsx",
-      "category": "stroke",
-      "subcategory": "arrows",
-      "size": "16"
-    },
     "GitPulLRequestCreateArrow": {
       "name": "GitPulLRequestCreateArrow",
       "path": "src/stroke/arrows/GitPulLRequestCreateArrow.tsx",
-      "category": "stroke",
-      "subcategory": "arrows",
-      "size": "16"
-    },
-    "HardDriveDownload": {
-      "name": "HardDriveDownload",
-      "path": "src/stroke/arrows/HardDriveDownload.tsx",
-      "category": "stroke",
-      "subcategory": "arrows",
-      "size": "16"
-    },
-    "HardDriveUpload": {
-      "name": "HardDriveUpload",
-      "path": "src/stroke/arrows/HardDriveUpload.tsx",
       "category": "stroke",
       "subcategory": "arrows",
       "size": "16"
@@ -2383,27 +4602,6 @@
     "Import": {
       "name": "Import",
       "path": "src/stroke/arrows/Import.tsx",
-      "category": "stroke",
-      "subcategory": "arrows",
-      "size": "16"
-    },
-    "IterationCcw": {
-      "name": "IterationCcw",
-      "path": "src/stroke/arrows/IterationCcw.tsx",
-      "category": "stroke",
-      "subcategory": "arrows",
-      "size": "16"
-    },
-    "IterationCw": {
-      "name": "IterationCw",
-      "path": "src/stroke/arrows/IterationCw.tsx",
-      "category": "stroke",
-      "subcategory": "arrows",
-      "size": "16"
-    },
-    "LassoSelect": {
-      "name": "LassoSelect",
-      "path": "src/stroke/arrows/LassoSelect.tsx",
       "category": "stroke",
       "subcategory": "arrows",
       "size": "16"
@@ -2434,34 +4632,6 @@
       "path": "src/stroke/accountsAccess/LogOut.tsx",
       "category": "stroke",
       "subcategory": "accountsAccess",
-      "size": "16"
-    },
-    "Maximize2": {
-      "name": "Maximize2",
-      "path": "src/stroke/arrows/Maximize2.tsx",
-      "category": "stroke",
-      "subcategory": "arrows",
-      "size": "16"
-    },
-    "Merge": {
-      "name": "Merge",
-      "path": "src/stroke/arrows/Merge.tsx",
-      "category": "stroke",
-      "subcategory": "arrows",
-      "size": "16"
-    },
-    "Milestone": {
-      "name": "Milestone",
-      "path": "src/stroke/arrows/Milestone.tsx",
-      "category": "stroke",
-      "subcategory": "arrows",
-      "size": "16"
-    },
-    "Minimize2": {
-      "name": "Minimize2",
-      "path": "src/stroke/arrows/Minimize2.tsx",
-      "category": "stroke",
-      "subcategory": "arrows",
       "size": "16"
     },
     "MousePointer": {
@@ -2674,13 +4844,6 @@
       "subcategory": "arrows",
       "size": "16"
     },
-    "RefreshCcwDot": {
-      "name": "RefreshCcwDot",
-      "path": "src/stroke/arrows/RefreshCcwDot.tsx",
-      "category": "stroke",
-      "subcategory": "arrows",
-      "size": "16"
-    },
     "RefreshCw": {
       "name": "RefreshCw",
       "path": "src/stroke/arrows/RefreshCw.tsx",
@@ -2716,34 +4879,6 @@
       "subcategory": "arrows",
       "size": "16"
     },
-    "RotateCcw": {
-      "name": "RotateCcw",
-      "path": "src/stroke/arrows/RotateCcw.tsx",
-      "category": "stroke",
-      "subcategory": "arrows",
-      "size": "16"
-    },
-    "RotateCcwSquare": {
-      "name": "RotateCcwSquare",
-      "path": "src/stroke/arrows/RotateCcwSquare.tsx",
-      "category": "stroke",
-      "subcategory": "arrows",
-      "size": "16"
-    },
-    "RotateCw": {
-      "name": "RotateCw",
-      "path": "src/stroke/arrows/RotateCw.tsx",
-      "category": "stroke",
-      "subcategory": "arrows",
-      "size": "16"
-    },
-    "RotateCwSquare": {
-      "name": "RotateCwSquare",
-      "path": "src/stroke/arrows/RotateCwSquare.tsx",
-      "category": "stroke",
-      "subcategory": "arrows",
-      "size": "16"
-    },
     "SeparatorHorizontal": {
       "name": "SeparatorHorizontal",
       "path": "src/stroke/arrows/SeparatorHorizontal.tsx",
@@ -2772,20 +4907,6 @@
       "subcategory": "arrows",
       "size": "16"
     },
-    "Signpost": {
-      "name": "Signpost",
-      "path": "src/stroke/arrows/Signpost.tsx",
-      "category": "stroke",
-      "subcategory": "arrows",
-      "size": "16"
-    },
-    "SignpostBig": {
-      "name": "SignpostBig",
-      "path": "src/stroke/arrows/SignpostBig.tsx",
-      "category": "stroke",
-      "subcategory": "arrows",
-      "size": "16"
-    },
     "SkipBack": {
       "name": "SkipBack",
       "path": "src/stroke/arrows/SkipBack.tsx",
@@ -2796,20 +4917,6 @@
     "SkipForward": {
       "name": "SkipForward",
       "path": "src/stroke/arrows/SkipForward.tsx",
-      "category": "stroke",
-      "subcategory": "arrows",
-      "size": "16"
-    },
-    "SplinePointer": {
-      "name": "SplinePointer",
-      "path": "src/stroke/arrows/SplinePointer.tsx",
-      "category": "stroke",
-      "subcategory": "arrows",
-      "size": "16"
-    },
-    "Split": {
-      "name": "Split",
-      "path": "src/stroke/arrows/Split.tsx",
       "category": "stroke",
       "subcategory": "arrows",
       "size": "16"
@@ -2919,30 +5026,9 @@
       "subcategory": "arrows",
       "size": "16"
     },
-    "SquareChevronRight": {
-      "name": "SquareChevronRight",
-      "path": "src/stroke/arrows/SquareChevronRight.tsx",
-      "category": "stroke",
-      "subcategory": "arrows",
-      "size": "16"
-    },
     "SquareChevronUp": {
       "name": "SquareChevronUp",
       "path": "src/stroke/arrows/SquareChevronUp.tsx",
-      "category": "stroke",
-      "subcategory": "arrows",
-      "size": "16"
-    },
-    "SquareDashedMousePointer": {
-      "name": "SquareDashedMousePointer",
-      "path": "src/stroke/arrows/SquareDashedMousePointer.tsx",
-      "category": "stroke",
-      "subcategory": "arrows",
-      "size": "16"
-    },
-    "SquareMousePointer": {
-      "name": "SquareMousePointer",
-      "path": "src/stroke/arrows/SquareMousePointer.tsx",
       "category": "stroke",
       "subcategory": "arrows",
       "size": "16"
@@ -3083,13 +5169,6 @@
     "Fingerprint": {
       "name": "Fingerprint",
       "path": "src/stroke/accountsAccess/Fingerprint.tsx",
-      "category": "stroke",
-      "subcategory": "accountsAccess",
-      "size": "16"
-    },
-    "Frame": {
-      "name": "Frame",
-      "path": "src/stroke/accountsAccess/Frame.tsx",
       "category": "stroke",
       "subcategory": "accountsAccess",
       "size": "16"
@@ -3374,90 +5453,6 @@
       "subcategory": "accountsAccess",
       "size": "16"
     },
-    "Shield": {
-      "name": "Shield",
-      "path": "src/stroke/accountsAccess/Shield.tsx",
-      "category": "stroke",
-      "subcategory": "accountsAccess",
-      "size": "16"
-    },
-    "ShieldAlert": {
-      "name": "ShieldAlert",
-      "path": "src/stroke/accountsAccess/ShieldAlert.tsx",
-      "category": "stroke",
-      "subcategory": "accountsAccess",
-      "size": "16"
-    },
-    "ShieldBan": {
-      "name": "ShieldBan",
-      "path": "src/stroke/accountsAccess/ShieldBan.tsx",
-      "category": "stroke",
-      "subcategory": "accountsAccess",
-      "size": "16"
-    },
-    "ShieldCheck": {
-      "name": "ShieldCheck",
-      "path": "src/stroke/accountsAccess/ShieldCheck.tsx",
-      "category": "stroke",
-      "subcategory": "accountsAccess",
-      "size": "16"
-    },
-    "ShieldEllipsis": {
-      "name": "ShieldEllipsis",
-      "path": "src/stroke/accountsAccess/ShieldEllipsis.tsx",
-      "category": "stroke",
-      "subcategory": "accountsAccess",
-      "size": "16"
-    },
-    "ShieldHalf": {
-      "name": "ShieldHalf",
-      "path": "src/stroke/accountsAccess/ShieldHalf.tsx",
-      "category": "stroke",
-      "subcategory": "accountsAccess",
-      "size": "16"
-    },
-    "ShieldMinus": {
-      "name": "ShieldMinus",
-      "path": "src/stroke/accountsAccess/ShieldMinus.tsx",
-      "category": "stroke",
-      "subcategory": "accountsAccess",
-      "size": "16"
-    },
-    "ShieldOff": {
-      "name": "ShieldOff",
-      "path": "src/stroke/accountsAccess/ShieldOff.tsx",
-      "category": "stroke",
-      "subcategory": "accountsAccess",
-      "size": "16"
-    },
-    "ShieldPlus": {
-      "name": "ShieldPlus",
-      "path": "src/stroke/accountsAccess/ShieldPlus.tsx",
-      "category": "stroke",
-      "subcategory": "accountsAccess",
-      "size": "16"
-    },
-    "ShieldQuestionMark": {
-      "name": "ShieldQuestionMark",
-      "path": "src/stroke/accountsAccess/ShieldQuestionMark.tsx",
-      "category": "stroke",
-      "subcategory": "accountsAccess",
-      "size": "16"
-    },
-    "ShieldUser": {
-      "name": "ShieldUser",
-      "path": "src/stroke/accountsAccess/ShieldUser.tsx",
-      "category": "stroke",
-      "subcategory": "accountsAccess",
-      "size": "16"
-    },
-    "ShieldX": {
-      "name": "ShieldX",
-      "path": "src/stroke/accountsAccess/ShieldX.tsx",
-      "category": "stroke",
-      "subcategory": "accountsAccess",
-      "size": "16"
-    },
     "SlidersHorizontal": {
       "name": "SlidersHorizontal",
       "path": "src/stroke/accountsAccess/SlidersHorizontal.tsx",
@@ -3538,20 +5533,6 @@
     "Tickets": {
       "name": "Tickets",
       "path": "src/stroke/accountsAccess/Tickets.tsx",
-      "category": "stroke",
-      "subcategory": "accountsAccess",
-      "size": "16"
-    },
-    "ToggleLeft": {
-      "name": "ToggleLeft",
-      "path": "src/stroke/accountsAccess/ToggleLeft.tsx",
-      "category": "stroke",
-      "subcategory": "accountsAccess",
-      "size": "16"
-    },
-    "ToggleRight": {
-      "name": "ToggleRight",
-      "path": "src/stroke/accountsAccess/ToggleRight.tsx",
       "category": "stroke",
       "subcategory": "accountsAccess",
       "size": "16"
@@ -3730,34 +5711,6 @@
       "category": "stroke",
       "subcategory": "accountsAccess",
       "size": "16"
-    },
-    "Waypoints": {
-      "name": "Waypoints",
-      "path": "src/stroke/accountsAccess/Waypoints.tsx",
-      "category": "stroke",
-      "subcategory": "accountsAccess",
-      "size": "16"
-    },
-    "Webhook": {
-      "name": "Webhook",
-      "path": "src/stroke/accountsAccess/Webhook.tsx",
-      "category": "stroke",
-      "subcategory": "accountsAccess",
-      "size": "16"
-    },
-    "WebhookOff": {
-      "name": "WebhookOff",
-      "path": "src/stroke/accountsAccess/WebhookOff.tsx",
-      "category": "stroke",
-      "subcategory": "accountsAccess",
-      "size": "16"
-    },
-    "Wrench": {
-      "name": "Wrench",
-      "path": "src/stroke/accountsAccess/Wrench.tsx",
-      "category": "stroke",
-      "subcategory": "accountsAccess",
-      "size": "16"
     }
   },
   "categories": {
@@ -3813,6 +5766,393 @@
       ]
     },
     "stroke": {
+      "codingDevelopment": [
+        "Ampersand",
+        "Ampersands",
+        "AppWindow",
+        "AppWindowMac",
+        "ArrowBigUp",
+        "ArrowBigUpDash",
+        "ArrowDownToLine",
+        "ArrowRightToLine",
+        "ArrowUpFromLine",
+        "Asterisk",
+        "Binary",
+        "Binoculars",
+        "Bitcoin",
+        "Blend",
+        "Blocks",
+        "Book",
+        "BookAlert",
+        "BookCheck",
+        "BookCopy",
+        "BookDashed",
+        "BookDown",
+        "BookKey",
+        "BookLock",
+        "BookMarked",
+        "BookMinus",
+        "BookOpen",
+        "BookOpenCheck",
+        "BookOpenText",
+        "BookPlus",
+        "BookUp",
+        "BookUp2",
+        "Bot",
+        "BotMessageSquare",
+        "BotOff",
+        "Box",
+        "Boxes",
+        "Braces",
+        "Brackets",
+        "BrainCircuit",
+        "BrainCog",
+        "Bug",
+        "BugOff",
+        "BugPlay",
+        "CaseLower",
+        "CaseUpper",
+        "ChartNoAxesGantt",
+        "ChevronRight",
+        "CircleArrowOutUpLeft",
+        "CircleDashed",
+        "CircleDot",
+        "CircleDotDashed",
+        "CircleEllipsis",
+        "CircleFadingArrowUp",
+        "CirclePlus",
+        "CircleSlash",
+        "CircleSlash2",
+        "CircleX",
+        "CircuitBoard",
+        "CloudAlert",
+        "CloudCheck",
+        "CloudCog",
+        "Code",
+        "CodeXml",
+        "Codepen",
+        "CodesAndBox",
+        "Combine",
+        "Command",
+        "Component",
+        "Computer",
+        "Construction",
+        "Container",
+        "CopySlash",
+        "CornerDownRight",
+        "Database",
+        "DatabaseBackup",
+        "DatabaseZap",
+        "Diff",
+        "Divide",
+        "Dock",
+        "EarthLock",
+        "Eclipse",
+        "Ellipsis",
+        "Equal",
+        "EqualNot",
+        "FileCode",
+        "FileCode2",
+        "FileDiff",
+        "FileDigit",
+        "FileJson",
+        "FileJson2",
+        "FileSliders",
+        "FileStack",
+        "FileTerminal",
+        "FlagTriangleLeft",
+        "FlagTriangleRight",
+        "FolderCode",
+        "FolderDot",
+        "FolderKanban",
+        "FolderOpenDot",
+        "FolderRoot",
+        "GalleryHorizontal",
+        "GalleryHorizontalEnd",
+        "GalleryThumbnails",
+        "GalleryVertical",
+        "GalleryVerticalEnd",
+        "Gem",
+        "GitBranch",
+        "GitBranchPlus",
+        "GitCommitHorizontal",
+        "GitCommitVertical",
+        "GitCompare",
+        "GitCompareArrows",
+        "GitFork",
+        "GitGraph",
+        "GitMerge",
+        "GitPullRequest",
+        "GitPullRequestArrow",
+        "GitPullRequestClosed",
+        "GitPullRequestCreate",
+        "GitPullRequestCreateArrow",
+        "GitPullRequestDraft",
+        "Github",
+        "Gitlab",
+        "GlobeLock",
+        "HardDrive",
+        "HardDriveDownload",
+        "HardDriveUpload",
+        "Hexagon",
+        "Kanban",
+        "Keyboard",
+        "KeyboardOff",
+        "Library",
+        "LibraryBig",
+        "ListIndentDecrease",
+        "ListIndentIncrease",
+        "Merge",
+        "MessageCircleCode",
+        "MessageSquareCode",
+        "MessageSquareDiff",
+        "Milestone",
+        "Minus",
+        "Network",
+        "Omega",
+        "Option",
+        "Package",
+        "Package2",
+        "PackageCheck",
+        "PackageMinus",
+        "PackageOpen",
+        "PackagePlus",
+        "PackageSearch",
+        "PackageX",
+        "PanelTop",
+        "PanelsTopLeft",
+        "Parentheses",
+        "Percent",
+        "Pi",
+        "Plug",
+        "Plug2",
+        "Plus",
+        "Puzzle",
+        "QrCode",
+        "Radical",
+        "RectangleCircle",
+        "RectangleEllipsis",
+        "RefreshCcwDot",
+        "Regex",
+        "Rocket",
+        "Router",
+        "Rss",
+        "Scroll",
+        "ScrollText",
+        "SearchCode",
+        "Server",
+        "ServerCog",
+        "ServerCrash",
+        "ServerOff",
+        "Shell",
+        "Shield",
+        "ShieldAlert",
+        "ShieldBan",
+        "ShieldCheck",
+        "ShieldEllipsis",
+        "ShieldHalf",
+        "ShieldMinus",
+        "ShieldOff",
+        "ShieldPlus",
+        "ShieldQuestionMark",
+        "ShieldUser",
+        "ShieldX",
+        "Signpost",
+        "SignpostBig",
+        "Slack",
+        "Slash",
+        "SpellCheck",
+        "SpellCheck2",
+        "Split",
+        "SquareAsterisk",
+        "SquareBottomDashedScissors",
+        "SquareChartGantt",
+        "SquareChevronRight",
+        "SquareCode",
+        "SquareDashedBottom",
+        "SquareDashedBottomCode",
+        "SquareDashedKanban",
+        "SquareDashedMousePointer",
+        "SquareDashedTopSolid",
+        "SquareDot",
+        "SquareFunction",
+        "SquareKanban",
+        "SquareLibrary",
+        "SquareMinus",
+        "SquareMousePointer",
+        "SquarePi",
+        "SquarePlus",
+        "SquareRadical",
+        "SquareRoundCorner",
+        "SquareScissors",
+        "SquareSlash",
+        "SquareStack",
+        "SquareTerminal",
+        "SquircleDashed",
+        "TableProperties",
+        "TabletSmartphone",
+        "Telescope",
+        "Terminal",
+        "ToggleLeft",
+        "ToggleRight",
+        "ToolCase",
+        "ToyBrick",
+        "Trello",
+        "TriangleAlert",
+        "Unplug",
+        "Variable",
+        "Waypoints",
+        "Webhook",
+        "WebhookOff",
+        "Workflow",
+        "Wrench"
+      ],
+      "design": [
+        "AArrowDown",
+        "AArrowUp",
+        "ALargeSmall",
+        "AppWindow",
+        "AppWindowMac",
+        "Axis3D",
+        "BetweenHorizontalEnd",
+        "BetweenHorizontalStart",
+        "BetweenVerticalEnd",
+        "BetweenVerticalStart",
+        "Blend",
+        "BookType",
+        "BringToFront",
+        "Brush",
+        "BrushCleaning",
+        "ChartNoAxesGantt",
+        "Columns2",
+        "Columns3",
+        "Columns3Cog",
+        "Columns4",
+        "Component",
+        "Contrast",
+        "Crop",
+        "Cylinder",
+        "DatabaseBackup",
+        "DecimalsArrowLeft",
+        "DecimalsArrowRight",
+        "Diameter",
+        "Dock",
+        "DraftingCompass",
+        "Dribbble",
+        "Eclipse",
+        "Eye",
+        "EyeClosed",
+        "EyeOff",
+        "Figma",
+        "FileAxis3D",
+        "FlipHorizontal",
+        "FlipHorizontal2",
+        "FlipVertical",
+        "FlipVertical2",
+        "FolderKanban",
+        "Frame",
+        "Framer",
+        "Fullscreen",
+        "GalleryHorizontal",
+        "GalleryHorizontalEnd",
+        "GalleryThumbnails",
+        "GalleryVertical",
+        "GalleryVerticalEnd",
+        "Grid2X2",
+        "Grid3X2",
+        "Grid3X3",
+        "HandGrab",
+        "Highlighter",
+        "IterationCcw",
+        "IterationCw",
+        "Kanban",
+        "LandPlot",
+        "Lasso",
+        "LassoSelect",
+        "Layers",
+        "Layers2",
+        "LayoutDashboard",
+        "LayoutGrid",
+        "LayoutList",
+        "LayoutPanelLeft",
+        "LineSquiggle",
+        "Loader",
+        "LoaderPinwheel",
+        "Magnet",
+        "Maximize",
+        "Maximize2",
+        "Minimize",
+        "Minimize2",
+        "Move3D",
+        "Notebook",
+        "Origami",
+        "PaintBucket",
+        "PaintRoller",
+        "PaintBrush",
+        "PaintBrushVertical",
+        "Palette",
+        "PanelTop",
+        "PanelsTopLeft",
+        "Paperclip",
+        "Pen",
+        "PenLine",
+        "PenOff",
+        "PenTool",
+        "Pencil",
+        "PencilLine",
+        "PencilOff",
+        "PencilRuler",
+        "Pipette",
+        "Presentation",
+        "Proportions",
+        "Radius",
+        "Ratio",
+        "RectangleHorizontal",
+        "RectangleVertical",
+        "Rotate3D",
+        "RotateCcw",
+        "RotateCcwSquare",
+        "RotateCw",
+        "RotateCwSquare",
+        "Rows2",
+        "Rows3",
+        "Rows4",
+        "Ruler",
+        "RulerDimensionLine",
+        "Scale3D",
+        "Scaling",
+        "Scissors",
+        "ScissorsLineDashed",
+        "SendToBack",
+        "Slice",
+        "Spline",
+        "SplinePointer",
+        "SprayCan",
+        "SquareBottomDashedScissors",
+        "SquareChartGantt",
+        "SquareDashed",
+        "SquareDashedKanban",
+        "SquareDashedTopSolid",
+        "SquareKanban",
+        "SquareRoundCorner",
+        "SquareScissors",
+        "SquaresExclude",
+        "SquaresIntersect",
+        "SquaresSubtract",
+        "SquaresUnite",
+        "SquircleDashed",
+        "Stamp",
+        "SwatchBook",
+        "TabletSmartphone",
+        "Tangent",
+        "Torus",
+        "VectorSquare",
+        "View",
+        "Wand",
+        "WandSparkles",
+        "ZoomIn",
+        "ZoomOut"
+      ],
       "connectivity": [
         "Airplay",
         "Battery",
@@ -4417,5 +6757,5 @@
       ]
     }
   },
-  "total": 537
+  "total": 816
 }

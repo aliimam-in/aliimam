@@ -83,6 +83,12 @@ This file provides LLM-friendly entry points to documentation and examples.
 - [Gradient Mesh](https://github.com/aliimam-in/blob/main/example/backgrounds/gradient-mesh/gradient-mesh-01.tsx): Example usage
 - [Gradient Mesh](https://github.com/aliimam-in/blob/main/example/backgrounds/gradient-mesh/gradient-mesh-02.tsx): Example usage
 - [Gradient Mesh](https://github.com/aliimam-in/blob/main/example/backgrounds/gradient-mesh/gradient-mesh-03.tsx): Example usage
+- [Render Canvas](https://github.com/aliimam-in/blob/main/example/backgrounds/render-canvas/render-canvas-01.tsx): Example usage
+- [Render Canvas](https://github.com/aliimam-in/blob/main/example/backgrounds/render-canvas/render-canvas-02.tsx): Example usage
+- [Render Canvas](https://github.com/aliimam-in/blob/main/example/backgrounds/render-canvas/render-canvas-03.tsx): Example usage
+- [Shader Ripple](https://github.com/aliimam-in/blob/main/example/backgrounds/shader-ripple/shader-ripple-01.tsx): Example usage
+- [Shader Ripple](https://github.com/aliimam-in/blob/main/example/backgrounds/shader-ripple/shader-ripple-02.tsx): Example usage
+- [Shader Ripple](https://github.com/aliimam-in/blob/main/example/backgrounds/shader-ripple/shader-ripple-03.tsx): Example usage
 
 ## Optional
 

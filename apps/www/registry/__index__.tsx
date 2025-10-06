@@ -1348,6 +1348,114 @@ export const Index: Record<string, any> = {
     categories: undefined,
     meta: undefined,
   },
+  "render-canvas-01": {
+    name: "render-canvas-01",
+    description: "Example showing a simple render canvas.",
+    type: "registry:example",
+    registryDependencies: ["render-canvas"],
+    files: [{
+      path: "registry/default/example/backgrounds/render-canvas/render-canvas-01.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/backgrounds/render-canvas/render-canvas-01.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "render-canvas-02": {
+    name: "render-canvas-02",
+    description: "Example showing a simple render canvas.",
+    type: "registry:example",
+    registryDependencies: ["render-canvas"],
+    files: [{
+      path: "registry/default/example/backgrounds/render-canvas/render-canvas-02.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/backgrounds/render-canvas/render-canvas-02.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "render-canvas-03": {
+    name: "render-canvas-03",
+    description: "Example showing a simple render canvas.",
+    type: "registry:example",
+    registryDependencies: ["render-canvas"],
+    files: [{
+      path: "registry/default/example/backgrounds/render-canvas/render-canvas-03.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/backgrounds/render-canvas/render-canvas-03.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "shader-ripple-01": {
+    name: "shader-ripple-01",
+    description: "Example showing a simple shader ripple.",
+    type: "registry:example",
+    registryDependencies: ["shader-ripple"],
+    files: [{
+      path: "registry/default/example/backgrounds/shader-ripple/shader-ripple-01.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/backgrounds/shader-ripple/shader-ripple-01.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "shader-ripple-02": {
+    name: "shader-ripple-02",
+    description: "Example showing a simple shader ripple.",
+    type: "registry:example",
+    registryDependencies: ["shader-ripple"],
+    files: [{
+      path: "registry/default/example/backgrounds/shader-ripple/shader-ripple-02.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/backgrounds/shader-ripple/shader-ripple-02.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "shader-ripple-03": {
+    name: "shader-ripple-03",
+    description: "Example showing a simple shader ripple.",
+    type: "registry:example",
+    registryDependencies: ["shader-ripple"],
+    files: [{
+      path: "registry/default/example/backgrounds/shader-ripple/shader-ripple-03.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/backgrounds/shader-ripple/shader-ripple-03.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
   "header-01": {
     name: "header-01",
     description: "A simple header section.",
@@ -1790,6 +1898,42 @@ export const Index: Record<string, any> = {
     }],
     component: React.lazy(async () => {
       const mod = await import("@/registry/default/components/device.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "render-canvas": {
+    name: "render-canvas",
+    description: "",
+    type: "registry:component",
+    registryDependencies: undefined,
+    files: [{
+      path: "registry/default/components/render-canvas.tsx",
+      type: "registry:component",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/components/render-canvas.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "shader-ripple": {
+    name: "shader-ripple",
+    description: "",
+    type: "registry:component",
+    registryDependencies: undefined,
+    files: [{
+      path: "registry/default/components/shader-ripple.tsx",
+      type: "registry:component",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/components/shader-ripple.tsx")
       const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
       return { default: mod.default || mod[exportName] }
     }),

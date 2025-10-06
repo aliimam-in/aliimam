@@ -1,0 +1,65 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const Palette: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function Palette(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <path
+        d="M12 22C9.34784 22 6.8043 20.9464 4.92893 19.0711C3.05357 17.1957 2 14.6522 2 12C2 9.34784 3.05357 6.8043 4.92893 4.92893C6.8043 3.05357 9.34784 2 12 2C14.6522 2 17.1957 2.94821 19.0711 4.63604C20.9464 6.32387 22 8.61305 22 11C22 12.3261 21.4732 13.5979 20.5355 14.5355C19.5979 15.4732 18.3261 16 17 16H14.75C14.425 16 14.1064 16.0905 13.83 16.2614C13.5535 16.4322 13.3301 16.6767 13.1848 16.9674C13.0394 17.2581 12.9779 17.5835 13.0071 17.9072C13.0363 18.2308 13.155 18.54 13.35 18.8L13.65 19.2C13.845 19.46 13.9637 19.7692 13.9929 20.0928C14.0221 20.4165 13.9606 20.7419 13.8152 21.0326C13.6699 21.3233 13.4465 21.5678 13.17 21.7386C12.8936 21.9095 12.575 22 12.25 22H12Z"
+        stroke={color}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M13.5 7C13.776 7 14 6.776 14 6.5 14 6.224 13.776 6 13.5 6 13.224 6 13 6.224 13 6.5 13 6.776 13.224 7 13.5 7ZM17.5 11C17.776 11 18 10.776 18 10.5 18 10.224 17.776 10 17.5 10 17.224 10 17 10.224 17 10.5 17 10.776 17.224 11 17.5 11ZM6.5 13C6.776 13 7 12.776 7 12.5 7 12.224 6.776 12 6.5 12 6.224 12 6 12.224 6 12.5 6 12.776 6.224 13 6.5 13ZM8.5 8C8.776 8 9 7.776 9 7.5 9 7.224 8.776 7 8.5 7 8.224 7 8 7.224 8 7.5 8 7.776 8.224 8 8.5 8Z"
+        fill="currentColor"
+        stroke={color}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+});
+
+Palette.displayName = "Palette";
+
+Palette.metadata = {
+  name: "Palette",
+  category: "stroke/design",
+  tags: ["palette", "icon"],
+  description: "Palette icon from stroke/design category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default Palette;

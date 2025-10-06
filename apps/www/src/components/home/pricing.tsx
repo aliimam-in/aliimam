@@ -32,7 +32,7 @@ export function Pricing() {
                 </p>
               </div>
 
-              <Link href="/login">
+              <Link href="/blocks">
                 <Button variant={'outline'} className="h-12 md:h-14 rounded-full cursor-pointer px-8 md:px-10">
                   Get Started
                 </Button>
@@ -77,12 +77,12 @@ export function Pricing() {
                 </p>
               </div>
               <div className="flex gap-2">
-                <Link href="/signup">
+                <Link href="https://cal.com/aliimam-in/30min" target="_blank">
                   <Button className="h-12 md:h-14 rounded-full cursor-pointer px-8 md:px-10">
                     Join Today
                   </Button>
                 </Link>
-                <Link href="/signup">
+                <Link href="https://cal.com/aliimam-in/30min" target="_blank">
                   <Button variant={'outline'} className="h-12 md:h-14 rounded-full cursor-pointer px-8 md:px-10">
                     Book a Call
                   </Button>

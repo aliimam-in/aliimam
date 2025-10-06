@@ -2,6 +2,8 @@
   "title": "Backgrounds",
   "pages": [
     "gradient-mesh",
-    "gradient-wave"
+    "gradient-wave",
+    "shader-ripple",
+    "render-canvas"
   ]
 }

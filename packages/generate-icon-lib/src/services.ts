@@ -293,58 +293,113 @@ export async function renderIdsToSvgs(
   ids: string[],
   config: IFigmaConfig
 ): Promise<IIconsSvgUrls> {
-  const resp = await fetch(
-    `${config.baseUrl}/v1/images/${config.fileKey}?ids=${ids}&format=svg`,
-    {
-      headers: config.headers,
-    }
-  );
-
-  // We can't be sure the response, when an error, will have a body that can be streamed to JSON.
-  let data: IFigmaFileImageResponse = {
-    err: undefined,
-    images: {},
-  };
-  if (resp.headers.get("content-type")?.includes("application/json")) {
-    data = (await resp.json()) as IFigmaFileImageResponse;
+  if (!ids || !ids.length) {
+    throw new CodedError(ERRORS.UNEXPECTED, "No ids provided to renderIdsToSvgs.");
   }
-  const error =
-    typeof data.err === "object" ? JSON.stringify(data.err, null, 2) : data.err;
 
-  if (!resp.ok) {
-    switch (resp.status) {
-      case 400:
-        throw new CodedError(
-          ERRORS.FIGMA_API,
-          `Unexpected error encountered from Figma API\n${error}`
-        );
-      case 404:
-        throw new CodedError(
-          ERRORS.FIGMA_API,
-          "One or more of the icons couldn't be found in Figma. Check to see if they still exist, and try again."
-        );
-      case 500:
-        throw new CodedError(
-          ERRORS.FIGMA_API,
-          "Figma could not render the icons. ಠ_ಠ"
-        );
-      default:
+  // Tune this if you still get 413s. Start at 50, reduce to 10-20 if necessary.
+  const DEFAULT_CHUNK_SIZE = 50;
+  const chunkSize = Number(process.env.FIGMA_IDS_CHUNK_SIZE) || DEFAULT_CHUNK_SIZE;
+
+  const chunks: string[][] = [];
+  for (let i = 0; i < ids.length; i += chunkSize) {
+    chunks.push(ids.slice(i, i + chunkSize));
+  }
+
+  const aggregatedImages: IIconsSvgUrls = {};
+
+  for (let chunkIndex = 0; chunkIndex < chunks.length; chunkIndex += 1) {
+    const chunk = chunks[chunkIndex];
+    const idsParam = encodeURIComponent(chunk.join(","));
+    const url = `${config.baseUrl}/v1/images/${config.fileKey}?ids=${idsParam}&format=svg`;
+
+    // Debug info (optional)
+    // console.log(`Requesting chunk ${chunkIndex + 1}/${chunks.length} — ids=${chunk.length} urlLength=${url.length}`);
+
+    const resp = await fetch(url, {
+      headers: config.headers,
+    });
+
+    // Figma sometimes returns non-json bodies for some error statuses, so try to parse carefully:
+    let data: IFigmaFileImageResponse = { err: undefined, images: {} };
+    const contentType = resp.headers.get("content-type") || "";
+    if (contentType.includes("application/json")) {
+      try {
+        data = (await resp.json()) as IFigmaFileImageResponse;
+      } catch (err) {
         throw new CodedError(
           ERRORS.UNEXPECTED,
-          `An error occured while rendering icons to SVG.\n${resp.status}\n${error}`
+          `Failed to parse JSON response from Figma for chunk ${chunkIndex + 1}/${chunks.length}: ${String(err)}`
         );
+      }
+    } else {
+      // If server responded with non-json on error, collect some text for debugging
+      const text = await resp.text().catch(() => "<no-body>");
+      if (!resp.ok) {
+        throw new CodedError(
+          ERRORS.UNEXPECTED,
+          `Figma returned status ${resp.status} for chunk ${chunkIndex + 1}/${chunks.length}. Response body:\n${text}`
+        );
+      }
     }
+
+    // Build stringified error if present
+    const error =
+      typeof data.err === "object" ? JSON.stringify(data.err, null, 2) : data.err;
+
+    if (!resp.ok) {
+      switch (resp.status) {
+        case 400:
+          throw new CodedError(
+            ERRORS.FIGMA_API,
+            `Unexpected error encountered from Figma API for chunk ${chunkIndex + 1}/${chunks.length}.\n${error}`
+          );
+        case 404:
+          throw new CodedError(
+            ERRORS.FIGMA_API,
+            `One or more of the icons couldn't be found in Figma for chunk ${chunkIndex + 1}/${chunks.length}. Check to see if they still exist, and try again.`
+          );
+        case 413:
+          throw new CodedError(
+            ERRORS.UNEXPECTED,
+            `Figma returned HTTP 413 (Request too large) for chunk ${chunkIndex + 1}/${chunks.length}. Try reducing the chunk size. Current chunk size: ${chunkSize}. You can set environment variable FIGMA_IDS_CHUNK_SIZE to a lower number (e.g. 20 or 10).`
+          );
+        case 500:
+          throw new CodedError(
+            ERRORS.FIGMA_API,
+            `Figma could not render the icons for chunk ${chunkIndex + 1}/${chunks.length}. ಠ_ಠ`
+          );
+        default:
+          throw new CodedError(
+            ERRORS.UNEXPECTED,
+            `An error occured while rendering icons to SVG for chunk ${chunkIndex + 1}/${chunks.length}.\nStatus: ${resp.status}\n${error}`
+          );
+      }
+    }
+
+    if (!data.images || !Object.keys(data.images).length) {
+      throw new CodedError(
+        ERRORS.UNEXPECTED,
+        `No images returned for chunk ${chunkIndex + 1}/${chunks.length}. Render response:\n${JSON.stringify(data, null, 2)}`
+      );
+    }
+
+    // Merge images into aggregatedImages
+    Object.assign(aggregatedImages, data.images);
   }
 
-  if (!data.images || !Object.keys(data.images).length) {
+  // Final guard — ensure we got something for all ids
+  const missingIds = ids.filter((id) => !aggregatedImages[id]);
+  if (missingIds.length) {
     throw new CodedError(
-      ERRORS.UNEXPECTED,
-      `An error occured after rendering icons in Figma. Render response:\n${JSON.stringify(data, null, 2)}`
+      ERRORS.FIGMA_API,
+      `Some IDs were not returned by Figma: ${missingIds.join(", ")}`
     );
   }
 
-  return data.images;
+  return aggregatedImages;
 }
+
 
 export function getIconsPage(document: IFigmaDocument): IFigmaCanvas | null {
   const canvas = document.children.find(

@@ -52,4 +52,25 @@ export const components: Registry["items"] = [
       },
     ],
   },
+  {
+    name: "render-canvas",
+    type: "registry:component", 
+    files: [
+      {
+        path: "components/render-canvas.tsx",
+        type: "registry:component",
+      },
+    ],
+  },
+  {
+    name: "shader-ripple",
+    type: "registry:component", 
+    dependencies: ["three"],
+    files: [
+      {
+        path: "components/shader-ripple.tsx",
+        type: "registry:component",
+      },
+    ],
+  },
 ]

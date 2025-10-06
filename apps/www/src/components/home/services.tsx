@@ -1,6 +1,7 @@
 "use client";
 import * as React from "react";
 import { Gravity, MatterBody } from "@/src/components/ui/gravity";
+import { RenderCanvas } from "@/registry/default/components/render-canvas";
 
 const designServices = {
   graphicDesign: [
@@ -130,6 +131,7 @@ const Services = () => {
         <h1 className="text-7xl md:text-9xl font-bold tracking-tighter absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
           Skills & Strengths
         </h1>
+        <RenderCanvas lineWidth={20} trails={200} />
         <Gravity
           gravity={{ x: 0, y: 1 }}
           className="w-full h-full"

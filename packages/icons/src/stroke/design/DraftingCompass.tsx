@@ -1,0 +1,58 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const DraftingCompass: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function DraftingCompass(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <path
+        d="M12.99 6.74 14.92 10.18M19.136 12C18.205 12.948 17.095 13.701 15.87 14.215 14.644 14.729 13.329 14.994 12.001 14.994 10.672 14.994 9.357 14.729 8.131 14.215 6.906 13.701 5.796 12.948 4.865 12M21 21 18.84 17.16M3 21 11.02 6.74M12 7C13.105 7 14 6.105 14 5 14 3.895 13.105 3 12 3 10.895 3 10 3.895 10 5 10 6.105 10.895 7 12 7Z"
+        stroke={color}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+});
+
+DraftingCompass.displayName = "DraftingCompass";
+
+DraftingCompass.metadata = {
+  name: "DraftingCompass",
+  category: "stroke/design",
+  tags: ["drafting", "compass", "icon"],
+  description: "DraftingCompass icon from stroke/design category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default DraftingCompass;

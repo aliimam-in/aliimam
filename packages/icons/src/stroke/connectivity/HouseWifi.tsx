@@ -54,7 +54,7 @@ export const HouseWifi: IconComponent<HouseWifiProps> = React.forwardRef<
           strokeLinejoin="round"
         />
         <path
-          d="M7 10.754C8.4189 9.61797 10.1824 8.99899 12 8.99899C13.8176 8.99899 15.5811 9.61797 17 10.754"
+          d="M7 10.754C8.4189 9.618 10.1824 8.99902 12 8.99902C13.8176 8.99902 15.5811 9.618 17 10.754"
           stroke={color}
           strokeLinecap="round"
           strokeLinejoin="round"

@@ -1,0 +1,58 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const PaintBrush: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function PaintBrush(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <path
+        d="M14.622 17.897 3.942 14.984M18.376 2.622C18.573 2.425 18.807 2.269 19.065 2.162 19.322 2.055 19.598 2 19.877 2 20.156 2 20.432 2.055 20.689 2.162 20.947 2.269 21.181 2.425 21.378 2.622 21.575 2.819 21.731 3.053 21.838 3.311 21.945 3.568 22 3.844 22 4.123 22 4.402 21.945 4.678 21.838 4.935 21.731 5.193 21.575 5.427 21.378 5.624L17.36 9.643C17.266 9.737 17.214 9.864 17.214 9.996 17.214 10.129 17.266 10.256 17.36 10.35L18.304 11.294C18.756 11.746 19.01 12.359 19.01 12.998 19.01 13.637 18.756 14.25 18.304 14.702L17.36 15.646C17.266 15.74 17.139 15.792 17.006 15.792 16.874 15.792 16.747 15.74 16.653 15.646L8.354 7.348C8.26 7.254 8.208 7.127 8.208 6.994 8.208 6.862 8.26 6.735 8.354 6.641L9.298 5.697C9.75 5.245 10.363 4.991 11.002 4.991 11.641 4.991 12.254 5.245 12.706 5.697L13.65 6.641C13.744 6.735 13.871 6.787 14.003 6.787 14.136 6.787 14.263 6.735 14.357 6.641L18.376 2.622ZM9 8C7.196 10.71 5.03 11.46 2.417 11.948 2.33 11.964 2.249 12.002 2.182 12.059 2.114 12.115 2.063 12.189 2.032 12.271 2.002 12.354 1.993 12.443 2.008 12.53 2.022 12.617 2.059 12.699 2.115 12.767L9.435 21.65C9.584 21.808 9.78 21.913 9.993 21.95 10.207 21.987 10.427 21.953 10.62 21.854 12.735 20.405 16 16.792 16 15"
+        stroke={color}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+});
+
+PaintBrush.displayName = "PaintBrush";
+
+PaintBrush.metadata = {
+  name: "PaintBrush",
+  category: "stroke/design",
+  tags: ["paint", "brush", "icon"],
+  description: "PaintBrush icon from stroke/design category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default PaintBrush;

@@ -1,0 +1,58 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const GitGraph: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function GitGraph(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <path
+        d="M5 9C6.657 9 8 7.657 8 6 8 4.343 6.657 3 5 3 3.343 3 2 4.343 2 6 2 7.657 3.343 9 5 9ZM5 9V15M5 21C6.657 21 8 19.657 8 18 8 16.343 6.657 15 5 15 3.343 15 2 16.343 2 18 2 19.657 3.343 21 5 21ZM12 3V21M19 9C20.657 9 22 7.657 22 6 22 4.343 20.657 3 19 3 17.343 3 16 4.343 16 6 16 7.657 17.343 9 19 9ZM16 15.7C16.943 14.857 17.697 13.824 18.214 12.67 18.731 11.515 18.999 10.265 19 9"
+        stroke={color}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+});
+
+GitGraph.displayName = "GitGraph";
+
+GitGraph.metadata = {
+  name: "GitGraph",
+  category: "stroke/codingDevelopment",
+  tags: ["git", "graph", "icon"],
+  description: "GitGraph icon from stroke/codingDevelopment category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default GitGraph;

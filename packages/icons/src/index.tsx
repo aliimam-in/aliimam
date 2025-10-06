@@ -2,6 +2,8 @@
 
 export * from "./solid/accountsAccess";
 export * from "./solid/accessibility";
+export * from "./stroke/codingDevelopment";
+export * from "./stroke/design";
 export * from "./stroke/connectivity";
 export * from "./stroke/communication";
 export * from "./stroke/buildings";

@@ -1061,6 +1061,96 @@
       ]
     },
     {
+      "name": "render-canvas-01",
+      "type": "registry:example",
+      "title": "Render Canvas",
+      "description": "Example showing a simple render canvas.",
+      "registryDependencies": [
+        "render-canvas"
+      ],
+      "files": [
+        {
+          "path": "registry/default/example/backgrounds/render-canvas/render-canvas-01.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "render-canvas-02",
+      "type": "registry:example",
+      "title": "Render Canvas",
+      "description": "Example showing a simple render canvas.",
+      "registryDependencies": [
+        "render-canvas"
+      ],
+      "files": [
+        {
+          "path": "registry/default/example/backgrounds/render-canvas/render-canvas-02.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "render-canvas-03",
+      "type": "registry:example",
+      "title": "Render Canvas",
+      "description": "Example showing a simple render canvas.",
+      "registryDependencies": [
+        "render-canvas"
+      ],
+      "files": [
+        {
+          "path": "registry/default/example/backgrounds/render-canvas/render-canvas-03.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "shader-ripple-01",
+      "type": "registry:example",
+      "title": "Shader Ripple",
+      "description": "Example showing a simple shader ripple.",
+      "registryDependencies": [
+        "shader-ripple"
+      ],
+      "files": [
+        {
+          "path": "registry/default/example/backgrounds/shader-ripple/shader-ripple-01.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "shader-ripple-02",
+      "type": "registry:example",
+      "title": "Shader Ripple",
+      "description": "Example showing a simple shader ripple.",
+      "registryDependencies": [
+        "shader-ripple"
+      ],
+      "files": [
+        {
+          "path": "registry/default/example/backgrounds/shader-ripple/shader-ripple-02.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "shader-ripple-03",
+      "type": "registry:example",
+      "title": "Shader Ripple",
+      "description": "Example showing a simple shader ripple.",
+      "registryDependencies": [
+        "shader-ripple"
+      ],
+      "files": [
+        {
+          "path": "registry/default/example/backgrounds/shader-ripple/shader-ripple-03.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
       "name": "header-01",
       "type": "registry:block",
       "description": "A simple header section.",
@@ -1574,6 +1664,29 @@
       "files": [
         {
           "path": "registry/default/components/device.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "render-canvas",
+      "type": "registry:component",
+      "files": [
+        {
+          "path": "registry/default/components/render-canvas.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shader-ripple",
+      "type": "registry:component",
+      "dependencies": [
+        "three"
+      ],
+      "files": [
+        {
+          "path": "registry/default/components/shader-ripple.tsx",
           "type": "registry:component"
         }
       ]

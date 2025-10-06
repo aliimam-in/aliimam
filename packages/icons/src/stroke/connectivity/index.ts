@@ -48,7 +48,6 @@ export { default as PhoneOff } from "./PhoneOff";
 export { default as PhoneOutgoing } from "./PhoneOutgoing";
 export { default as Power } from "./Power";
 export { default as RectangleGoggles } from "./RectangleGoggles";
-export { default as Router } from "./Router";
 export { default as Satellite } from "./Satellite";
 export { default as SatelliteDish } from "./SatelliteDish";
 export { default as ScreenShare } from "./ScreenShare";

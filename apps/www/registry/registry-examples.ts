@@ -417,4 +417,88 @@ export const examples: Registry["items"] = [
       },
     ],
   }, 
+  {
+    title: "Render Canvas",
+    name: "render-canvas-01",
+    type: "registry:example",
+    description:
+      "Example showing a simple render canvas.",
+    registryDependencies: ["render-canvas"],
+    files: [
+      {
+        path: "example/backgrounds/render-canvas/render-canvas-01.tsx",
+        type: "registry:example",
+      },
+    ],
+  }, 
+  {
+    title: "Render Canvas",
+    name: "render-canvas-02",
+    type: "registry:example",
+    description:
+      "Example showing a simple render canvas.",
+    registryDependencies: ["render-canvas"],
+    files: [
+      {
+        path: "example/backgrounds/render-canvas/render-canvas-02.tsx",
+        type: "registry:example",
+      },
+    ],
+  }, 
+  {
+    title: "Render Canvas",
+    name: "render-canvas-03",
+    type: "registry:example",
+    description:
+      "Example showing a simple render canvas.",
+    registryDependencies: ["render-canvas"],
+    files: [
+      {
+        path: "example/backgrounds/render-canvas/render-canvas-03.tsx",
+        type: "registry:example",
+      },
+    ],
+  }, 
+  {
+    title: "Shader Ripple",
+    name: "shader-ripple-01",
+    type: "registry:example",
+    description:
+      "Example showing a simple shader ripple.",
+    registryDependencies: ["shader-ripple"],
+    files: [
+      {
+        path: "example/backgrounds/shader-ripple/shader-ripple-01.tsx",
+        type: "registry:example",
+      },
+    ],
+  }, 
+  {
+    title: "Shader Ripple",
+    name: "shader-ripple-02",
+    type: "registry:example",
+    description:
+      "Example showing a simple shader ripple.",
+    registryDependencies: ["shader-ripple"],
+    files: [
+      {
+        path: "example/backgrounds/shader-ripple/shader-ripple-02.tsx",
+        type: "registry:example",
+      },
+    ],
+  }, 
+  {
+    title: "Shader Ripple",
+    name: "shader-ripple-03",
+    type: "registry:example",
+    description:
+      "Example showing a simple shader ripple.",
+    registryDependencies: ["shader-ripple"],
+    files: [
+      {
+        path: "example/backgrounds/shader-ripple/shader-ripple-03.tsx",
+        type: "registry:example",
+      },
+    ],
+  }, 
 ];
