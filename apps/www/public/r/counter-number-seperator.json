@@ -2,6 +2,8 @@
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "counter-number-seperator",
   "type": "registry:example",
+  "title": "Counter Number",
+  "description": "",
   "registryDependencies": [
     "counter-number"
   ],

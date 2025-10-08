@@ -241,7 +241,9 @@ export const examples: Registry["items"] = [
     ],
   },
   {
+    title: "Typography",
     name: "typography",
+    description: "",
     type: "registry:example",
     files: [
       {
@@ -251,7 +253,9 @@ export const examples: Registry["items"] = [
     ],
   },
   {
+    title: "Typography",
     name: "typography-01",
+    description: "",
     type: "registry:example",
     files: [
       {
@@ -261,7 +265,9 @@ export const examples: Registry["items"] = [
     ],
   },
   {
+    title: "Typography",
     name: "typography-02",
+    description: "",
     type: "registry:example",
     files: [
       {
@@ -271,7 +277,9 @@ export const examples: Registry["items"] = [
     ],
   },
   {
+    title: "Typography",
     name: "typography-03",
+    description: "",
     type: "registry:example",
     files: [
       {
@@ -281,8 +289,10 @@ export const examples: Registry["items"] = [
     ],
   },
   {
+    title: "Book",
     name: "book-01",
     type: "registry:example",
+    description: "",
     registryDependencies: ["book"],
     files: [
       {
@@ -292,8 +302,10 @@ export const examples: Registry["items"] = [
     ],
   },
   {
+    title: "Book",
     name: "book-02",
     type: "registry:example",
+    description: "",
     registryDependencies: ["book"],
     files: [
       {
@@ -303,8 +315,10 @@ export const examples: Registry["items"] = [
     ],
   },
   {
+    title: "Book",
     name: "book-03",
     type: "registry:example",
+    description: "",
     registryDependencies: ["book"],
     files: [
       {
@@ -314,8 +328,10 @@ export const examples: Registry["items"] = [
     ],
   },
   {
+    title: "Book",
     name: "device-01",
     type: "registry:example",
+    description: "",
     registryDependencies: ["device"],
     files: [
       {
@@ -325,8 +341,10 @@ export const examples: Registry["items"] = [
     ],
   },
   {
+    title: "Device",
     name: "device-02",
     type: "registry:example",
+    description: "",
     registryDependencies: ["device"],
     files: [
       {
@@ -336,8 +354,10 @@ export const examples: Registry["items"] = [
     ],
   },
   {
+    title: "Device",
     name: "device-03",
     type: "registry:example",
+    description: "",
     registryDependencies: ["device"],
     files: [
       {
@@ -347,8 +367,10 @@ export const examples: Registry["items"] = [
     ],
   },
   {
+    title: "Device",
     name: "device-04",
     type: "registry:example",
+    description: "",
     registryDependencies: ["device"],
     files: [
       {
@@ -358,8 +380,10 @@ export const examples: Registry["items"] = [
     ],
   },
   {
+    title: "Browser",
     name: "browser-01",
     type: "registry:example",
+    description: "",
     registryDependencies: ["browser"],
     files: [
       {
@@ -369,7 +393,9 @@ export const examples: Registry["items"] = [
     ],
   },
   {
+    title: "Browser",
     name: "browser-02",
+    description: "",
     type: "registry:example",
     registryDependencies: ["browser"],
     files: [
@@ -380,106 +406,9 @@ export const examples: Registry["items"] = [
     ],
   },
   {
-    name: "marquee-01",
-    type: "registry:example",
-    registryDependencies: ["marquee"],
-    files: [
-      {
-        path: "example/marquee/marquee-01.tsx",
-        type: "registry:example",
-      },
-    ],
-  },
-  {
-    name: "award-default",
-    type: "registry:example",
-    registryDependencies: ["award"],
-    files: [
-      {
-        path: "example/award/award-default.tsx",
-        type: "registry:example",
-      },
-    ],
-  },
-  {
-    name: "award-stamp",
-    type: "registry:example",
-    registryDependencies: ["award"],
-    files: [
-      {
-        path: "example/award/award-stamp.tsx",
-        type: "registry:example",
-      },
-    ],
-  },
-  {
-    name: "award-badge",
-    type: "registry:example",
-    registryDependencies: ["award"],
-    files: [
-      {
-        path: "example/award/award-badge.tsx",
-        type: "registry:example",
-      },
-    ],
-  },
-  {
-    name: "award-certificate",
-    type: "registry:example",
-    registryDependencies: ["award"],
-    files: [
-      {
-        path: "example/award/award-certificate.tsx",
-        type: "registry:example",
-      },
-    ],
-  },
-  {
-    name: "gauge-default",
-    type: "registry:example",
-    registryDependencies: ["gauge"],
-    files: [
-      {
-        path: "example/gauge/gauge-default.tsx",
-        type: "registry:example",
-      },
-    ],
-  },
-  {
-    name: "gauge-tickmark",
-    type: "registry:example",
-    registryDependencies: ["gauge"],
-    files: [
-      {
-        path: "example/gauge/gauge-tickmark.tsx",
-        type: "registry:example",
-      },
-    ],
-  },
-  {
-    name: "gauge-rings",
-    type: "registry:example",
-    registryDependencies: ["gauge"],
-    files: [
-      {
-        path: "example/gauge/gauge-rings.tsx",
-        type: "registry:example",
-      },
-    ],
-  },
-  {
-    name: "gauge-half",
-    type: "registry:example",
-    registryDependencies: ["gauge"],
-    files: [
-      {
-        path: "example/gauge/gauge-half.tsx",
-        type: "registry:example",
-      },
-    ],
-  },
-  {
+    title: "Font Weight",
     name: "font-weight-default",
+    description: "",
     type: "registry:example",
     registryDependencies: ["font-weight"],
     files: [
@@ -490,8 +419,127 @@ export const examples: Registry["items"] = [
     ],
   },
   {
+    title: "Marquee",
+    name: "marquee-01",
+    type: "registry:example",
+    description: "",
+    registryDependencies: ["marquee"],
+    files: [
+      {
+        path: "example/marquee/marquee-01.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    title: "Award",
+    name: "award-default",
+    type: "registry:example",
+    description: "",
+    registryDependencies: ["award"],
+    files: [
+      {
+        path: "example/award/award-default.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    title: "Award",
+    name: "award-stamp",
+    type: "registry:example",
+    description: "",
+    registryDependencies: ["award"],
+    files: [
+      {
+        path: "example/award/award-stamp.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    title: "Award",
+    name: "award-badge",
+    type: "registry:example",
+    description: "",
+    registryDependencies: ["award"],
+    files: [
+      {
+        path: "example/award/award-badge.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    title: "Award",
+    name: "award-certificate",
+    description: "",
+    type: "registry:example",
+    registryDependencies: ["award"],
+    files: [
+      {
+        path: "example/award/award-certificate.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    title: "Gauge",
+    name: "gauge-default",
+    type: "registry:example",
+    description: "",
+    registryDependencies: ["gauge"],
+    files: [
+      {
+        path: "example/gauge/gauge-default.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    title: "Gauge",
+    name: "gauge-tickmark",
+    type: "registry:example",
+    description: "",
+    registryDependencies: ["gauge"],
+    files: [
+      {
+        path: "example/gauge/gauge-tickmark.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    title: "Gauge",
+    name: "gauge-rings",
+    type: "registry:example",
+    description: "",
+    registryDependencies: ["gauge"],
+    files: [
+      {
+        path: "example/gauge/gauge-rings.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    title: "Gauge",
+    name: "gauge-half",
+    type: "registry:example",
+    description: "",
+    registryDependencies: ["gauge"],
+    files: [
+      {
+        path: "example/gauge/gauge-half.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    title: "Rainbow Effect",
     name: "rainbow-effect-default",
     type: "registry:example",
+    description: "",
     registryDependencies: ["rainbow-effectt"],
     files: [
       {
@@ -501,8 +549,10 @@ export const examples: Registry["items"] = [
     ],
   },
   {
+    title: "Counter Number",
     name: "counter-number-default",
     type: "registry:example",
+    description: "",
     registryDependencies: ["counter-number"],
     files: [
       {
@@ -512,8 +562,10 @@ export const examples: Registry["items"] = [
     ],
   },
   {
+    title: "Counter Number",
     name: "counter-number-currency",
     type: "registry:example",
+    description: "",
     registryDependencies: ["counter-number"],
     files: [
       {
@@ -523,8 +575,10 @@ export const examples: Registry["items"] = [
     ],
   },
   {
+    title: "Counter Number",
     name: "counter-number-custom",
     type: "registry:example",
+    description: "",
     registryDependencies: ["counter-number"],
     files: [
       {
@@ -534,8 +588,10 @@ export const examples: Registry["items"] = [
     ],
   },
   {
+    title: "Counter Number",
     name: "counter-number-decimal",
     type: "registry:example",
+    description: "",
     registryDependencies: ["counter-number"],
     files: [
       {
@@ -545,8 +601,10 @@ export const examples: Registry["items"] = [
     ],
   },
   {
+    title: "Counter Number",
     name: "counter-number-percentage",
     type: "registry:example",
+    description: "",
     registryDependencies: ["counter-number"],
     files: [
       {
@@ -556,8 +614,10 @@ export const examples: Registry["items"] = [
     ],
   },
   {
+    title: "Counter Number",
     name: "counter-number-prefix",
     type: "registry:example",
+    description: "",
     registryDependencies: ["counter-number"],
     files: [
       {
@@ -567,8 +627,10 @@ export const examples: Registry["items"] = [
     ],
   },
   {
+    title: "Counter Number",
     name: "counter-number-seperator",
     type: "registry:example",
+    description: "",
     registryDependencies: ["counter-number"],
     files: [
       {

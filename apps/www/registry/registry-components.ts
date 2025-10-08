@@ -71,17 +71,7 @@ export const components: Registry["items"] = [
         type: "registry:component",
       },
     ],
-  },
-  {
-    name: "font-weight",
-    type: "registry:component", 
-    files: [
-      {
-        path: "components/font-weight.tsx",
-        type: "registry:component",
-      },
-    ],
-  },
+  }, 
   {
     name: "counter-number",
     type: "registry:component", 
@@ -192,17 +182,7 @@ export const components: Registry["items"] = [
         type: "registry:component",
       },
     ],
-  },
-  {
-    name: "particle-highlight",
-    type: "registry:component",  
-    files: [
-      {
-        path: "components/particle-highlight.tsx",
-        type: "registry:component",
-      },
-    ],
-  },
+  }, 
   {
     name: "scroll-progress",
     type: "registry:component",  

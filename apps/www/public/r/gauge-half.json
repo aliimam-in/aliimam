@@ -2,6 +2,8 @@
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "gauge-half",
   "type": "registry:example",
+  "title": "Gauge",
+  "description": "",
   "registryDependencies": [
     "gauge"
   ],

@@ -221,22 +221,22 @@ Description: The gauge component.
 
 
 ===== EXAMPLE: gauge-default =====
-Title: gauge-default
+Title: Gauge
 
 
 
 ===== EXAMPLE: gauge-tickmark =====
-Title: gauge-tickmark
+Title: Gauge
 
 
 
 ===== EXAMPLE: gauge-rings =====
-Title: gauge-rings
+Title: Gauge
 
 
 
 ===== EXAMPLE: gauge-half =====
-Title: gauge-half
+Title: Gauge
 
 
 

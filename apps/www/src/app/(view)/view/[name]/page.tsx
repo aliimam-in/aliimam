@@ -56,7 +56,7 @@ export async function generateMetadata({
       title,
       description,
       images: [siteConfig.ogImage],
-      creator: "@shadcn",
+      creator: "@aliiamm",
     },
   }
 }

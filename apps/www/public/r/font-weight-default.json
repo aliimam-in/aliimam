@@ -2,6 +2,8 @@
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "font-weight-default",
   "type": "registry:example",
+  "title": "Font Weight",
+  "description": "",
   "registryDependencies": [
     "font-weight"
   ],

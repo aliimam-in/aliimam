@@ -2,6 +2,8 @@
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "typography",
   "type": "registry:example",
+  "title": "Typography",
+  "description": "",
   "files": [
     {
       "path": "registry/default/example/typography/typography.tsx",

@@ -1,11 +1,16 @@
-import { createMDX } from "fumadocs-mdx/next"
+import { createMDX } from "fumadocs-mdx/next";
 
 /** @type {import('next').NextConfig} */
 
 const nextConfig = {
-  reactStrictMode: true,
+  output: 'standalone',
+  devIndicators: false,
+  reactStrictMode: true, 
   eslint: {
     ignoreDuringBuilds: true,
+  },
+  outputFileTracingIncludes: {
+    "/*": ["./registry/**/*", "./src/content/docs/**/*"],
   },
   typescript: {
     ignoreBuildErrors: true,
@@ -34,8 +39,36 @@ const nextConfig = {
       },
     ],
   },
+  redirects() {
+    return [
+      {
+        source: "/view/styles/:style/:name",
+        destination: "/view/:name",
+        permanent: true,
+      },
+      {
+        source: "/docs/:path*.mdx",
+        destination: "/docs/:path*.md",
+        permanent: true,
+      },
+    ];
+  },
+  rewrites() {
+    return [
+      {
+        source: "/docs/:path*.md",
+        destination: "/llm/:path*",
+      },
+    ];
+  },
+  webpack: (config, { isServer }) => {
+    if (isServer) {
+      config.externals.push('tsconfig-paths', 'cosmiconfig');
+    }
+    return config;
+  },
 };
 
-const withMDX = createMDX({})
+const withMDX = createMDX({});
 
-export default withMDX(nextConfig)
+export default withMDX(nextConfig);

@@ -68,37 +68,37 @@ This file provides LLM-friendly entry points to documentation and examples.
 - [Button Demo](https://github.com/aliimam-in/blob/main/example/button/button-06.tsx): Example usage
 - [Button Demo](https://github.com/aliimam-in/blob/main/example/button/button-07.tsx): Example usage
 - [Button Demo](https://github.com/aliimam-in/blob/main/example/button/button-08.tsx): Example usage
-- [typography](https://github.com/aliimam-in/blob/main/example/typography/typography.tsx): Example usage
-- [typography-01](https://github.com/aliimam-in/blob/main/example/typography/typography-01.tsx): Example usage
-- [typography-02](https://github.com/aliimam-in/blob/main/example/typography/typography-02.tsx): Example usage
-- [typography-03](https://github.com/aliimam-in/blob/main/example/typography/typography-03.tsx): Example usage
-- [book-01](https://github.com/aliimam-in/blob/main/example/book/book-01.tsx): Example usage
-- [book-02](https://github.com/aliimam-in/blob/main/example/book/book-02.tsx): Example usage
-- [book-03](https://github.com/aliimam-in/blob/main/example/book/book-03.tsx): Example usage
-- [device-01](https://github.com/aliimam-in/blob/main/example/device/device-01.tsx): Example usage
-- [device-02](https://github.com/aliimam-in/blob/main/example/device/device-02.tsx): Example usage
-- [device-03](https://github.com/aliimam-in/blob/main/example/device/device-03.tsx): Example usage
-- [device-04](https://github.com/aliimam-in/blob/main/example/device/device-04.tsx): Example usage
-- [browser-01](https://github.com/aliimam-in/blob/main/example/browser/browser-01.tsx): Example usage
-- [browser-02](https://github.com/aliimam-in/blob/main/example/browser/browser-02.tsx): Example usage
-- [marquee-01](https://github.com/aliimam-in/blob/main/example/marquee/marquee-01.tsx): Example usage
-- [award-default](https://github.com/aliimam-in/blob/main/example/award/award-default.tsx): Example usage
-- [award-stamp](https://github.com/aliimam-in/blob/main/example/award/award-stamp.tsx): Example usage
-- [award-badge](https://github.com/aliimam-in/blob/main/example/award/award-badge.tsx): Example usage
-- [award-certificate](https://github.com/aliimam-in/blob/main/example/award/award-certificate.tsx): Example usage
-- [gauge-default](https://github.com/aliimam-in/blob/main/example/gauge/gauge-default.tsx): Example usage
-- [gauge-tickmark](https://github.com/aliimam-in/blob/main/example/gauge/gauge-tickmark.tsx): Example usage
-- [gauge-rings](https://github.com/aliimam-in/blob/main/example/gauge/gauge-rings.tsx): Example usage
-- [gauge-half](https://github.com/aliimam-in/blob/main/example/gauge/gauge-half.tsx): Example usage
-- [font-weight-default](https://github.com/aliimam-in/blob/main/example/font-weight/font-weight-default.tsx): Example usage
-- [rainbow-effect-default](https://github.com/aliimam-in/blob/main/example/rainbow-effect/rainbow-effect-default.tsx): Example usage
-- [counter-number-default](https://github.com/aliimam-in/blob/main/example/counter-number/counter-number-default.tsx): Example usage
-- [counter-number-currency](https://github.com/aliimam-in/blob/main/example/counter-number/counter-number-currency.tsx): Example usage
-- [counter-number-custom](https://github.com/aliimam-in/blob/main/example/counter-number/counter-number-custom.tsx): Example usage
-- [counter-number-decimal](https://github.com/aliimam-in/blob/main/example/counter-number/counter-number-decimal.tsx): Example usage
-- [counter-number-percentage](https://github.com/aliimam-in/blob/main/example/counter-number/counter-number-percentage.tsx): Example usage
-- [counter-number-prefix](https://github.com/aliimam-in/blob/main/example/counter-number/counter-number-prefix.tsx): Example usage
-- [counter-number-seperator](https://github.com/aliimam-in/blob/main/example/counter-number/counter-number-seperator.tsx): Example usage
+- [Typography](https://github.com/aliimam-in/blob/main/example/typography/typography.tsx): Example usage
+- [Typography](https://github.com/aliimam-in/blob/main/example/typography/typography-01.tsx): Example usage
+- [Typography](https://github.com/aliimam-in/blob/main/example/typography/typography-02.tsx): Example usage
+- [Typography](https://github.com/aliimam-in/blob/main/example/typography/typography-03.tsx): Example usage
+- [Book](https://github.com/aliimam-in/blob/main/example/book/book-01.tsx): Example usage
+- [Book](https://github.com/aliimam-in/blob/main/example/book/book-02.tsx): Example usage
+- [Book](https://github.com/aliimam-in/blob/main/example/book/book-03.tsx): Example usage
+- [Book](https://github.com/aliimam-in/blob/main/example/device/device-01.tsx): Example usage
+- [Device](https://github.com/aliimam-in/blob/main/example/device/device-02.tsx): Example usage
+- [Device](https://github.com/aliimam-in/blob/main/example/device/device-03.tsx): Example usage
+- [Device](https://github.com/aliimam-in/blob/main/example/device/device-04.tsx): Example usage
+- [Browser](https://github.com/aliimam-in/blob/main/example/browser/browser-01.tsx): Example usage
+- [Browser](https://github.com/aliimam-in/blob/main/example/browser/browser-02.tsx): Example usage
+- [Font Weight](https://github.com/aliimam-in/blob/main/example/font-weight/font-weight-default.tsx): Example usage
+- [Marquee](https://github.com/aliimam-in/blob/main/example/marquee/marquee-01.tsx): Example usage
+- [Award](https://github.com/aliimam-in/blob/main/example/award/award-default.tsx): Example usage
+- [Award](https://github.com/aliimam-in/blob/main/example/award/award-stamp.tsx): Example usage
+- [Award](https://github.com/aliimam-in/blob/main/example/award/award-badge.tsx): Example usage
+- [Award](https://github.com/aliimam-in/blob/main/example/award/award-certificate.tsx): Example usage
+- [Gauge](https://github.com/aliimam-in/blob/main/example/gauge/gauge-default.tsx): Example usage
+- [Gauge](https://github.com/aliimam-in/blob/main/example/gauge/gauge-tickmark.tsx): Example usage
+- [Gauge](https://github.com/aliimam-in/blob/main/example/gauge/gauge-rings.tsx): Example usage
+- [Gauge](https://github.com/aliimam-in/blob/main/example/gauge/gauge-half.tsx): Example usage
+- [Rainbow Effect](https://github.com/aliimam-in/blob/main/example/rainbow-effect/rainbow-effect-default.tsx): Example usage
+- [Counter Number](https://github.com/aliimam-in/blob/main/example/counter-number/counter-number-default.tsx): Example usage
+- [Counter Number](https://github.com/aliimam-in/blob/main/example/counter-number/counter-number-currency.tsx): Example usage
+- [Counter Number](https://github.com/aliimam-in/blob/main/example/counter-number/counter-number-custom.tsx): Example usage
+- [Counter Number](https://github.com/aliimam-in/blob/main/example/counter-number/counter-number-decimal.tsx): Example usage
+- [Counter Number](https://github.com/aliimam-in/blob/main/example/counter-number/counter-number-percentage.tsx): Example usage
+- [Counter Number](https://github.com/aliimam-in/blob/main/example/counter-number/counter-number-prefix.tsx): Example usage
+- [Counter Number](https://github.com/aliimam-in/blob/main/example/counter-number/counter-number-seperator.tsx): Example usage
 - [Gradient Wave](https://github.com/aliimam-in/blob/main/example/backgrounds/gradient-wave/gradient-wave-01.tsx): Example usage
 - [Gradient Wave](https://github.com/aliimam-in/blob/main/example/backgrounds/gradient-wave/gradient-wave-02.tsx): Example usage
 - [Gradient Wave](https://github.com/aliimam-in/blob/main/example/backgrounds/gradient-wave/gradient-wave-03.tsx): Example usage

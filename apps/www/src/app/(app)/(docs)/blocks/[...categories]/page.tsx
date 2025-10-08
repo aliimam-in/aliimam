@@ -15,9 +15,9 @@ export async function generateStaticParams() {
 export default async function BlocksPage({
   params,
 }: {
-  params: Promise<{ categories?: string[] }>;
+  params: { categories?: string[] };
 }) {
-  const { categories = [] } = await params;
+  const { categories = [] } = params;
   const blocks = await getAllBlockIds(["registry:block"], categories);
 
   return (

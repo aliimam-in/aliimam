@@ -2,6 +2,8 @@
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "device-04",
   "type": "registry:example",
+  "title": "Device",
+  "description": "",
   "registryDependencies": [
     "device"
   ],
