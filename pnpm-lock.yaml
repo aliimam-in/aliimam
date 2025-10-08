@@ -27,8 +27,8 @@ importers:
   apps/www:
     dependencies:
       '@aliimam/icons':
-        specifier: 0.1.4
-        version: 0.1.4(react@19.1.0)
+        specifier: 0.1.5
+        version: 0.1.5(react@19.1.0)
       '@aliimam/logos':
         specifier: 0.1.7
         version: 0.1.7(react@19.1.0)
@@ -483,8 +483,8 @@ packages:
     resolution: {integrity: sha512-qI/5TaaaCZE4yeSZ83lu0+xi1r88JSxUjnH4OP/iZF7+KKZ75u3ee5isd0LxX+6N8U0npL61YrpbthILHB6BnA==}
     engines: {node: '>=18'}
 
-  '@aliimam/icons@0.1.4':
-    resolution: {integrity: sha512-THRoyPaJ+Jt9eAkWiznULdMeICT6/SGn+jm39pQjZ+CbAeaBantCvQDCzLs1bV6l5Jv4gCf+qeygdN73MASTAA==}
+  '@aliimam/icons@0.1.5':
+    resolution: {integrity: sha512-txmSMDgtgrldbJtwJbaty9GbB0MWvCR8MVsEgPmTu3j07IfpwjF6qEZrR2iyeolu53MrmtocQ3CsAbJBkt2bOQ==}
     peerDependencies:
       react: ^16.x || ^17.x || ^18.x || ^19.x
 
@@ -8265,7 +8265,7 @@ snapshots:
       ansi-styles: 6.2.3
       is-fullwidth-code-point: 5.1.0
 
-  '@aliimam/icons@0.1.4(react@19.1.0)':
+  '@aliimam/icons@0.1.5(react@19.1.0)':
     dependencies:
       react: 19.1.0
 

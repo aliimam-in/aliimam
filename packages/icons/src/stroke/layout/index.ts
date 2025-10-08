@@ -22,14 +22,10 @@ export { default as AlignVerticalSpaceAround } from "./AlignVerticalSpaceAround"
 export { default as AlignVerticalSpaceBetween } from "./AlignVerticalSpaceBetween";
 export { default as AppWindow } from "./AppWindow";
 export { default as AppWindowMac } from "./AppWindowMac";
-export { default as ArrowDown01 } from "./ArrowDown01";
-export { default as ArrowDown10 } from "./ArrowDown10";
 export { default as ArrowDownAZ } from "./ArrowDownAZ";
 export { default as ArrowDownNarrowWide } from "./ArrowDownNarrowWide";
 export { default as ArrowDownWideNarrow } from "./ArrowDownWideNarrow";
 export { default as ArrowDownZA } from "./ArrowDownZA";
-export { default as ArrowUp01 } from "./ArrowUp01";
-export { default as ArrowUp10 } from "./ArrowUp10";
 export { default as ArrowUpAZ } from "./ArrowUpAZ";
 export { default as ArrowUpNarrowWide } from "./ArrowUpNarrowWide";
 export { default as ArrowUpWideNarrow } from "./ArrowUpWideNarrow";
