@@ -1,0 +1,30 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "hero-06",
+  "type": "registry:block",
+  "description": "A simple hero section.",
+  "dependencies": [
+    "lucide-react"
+  ],
+  "registryDependencies": [
+    "button",
+    "dot-pattern",
+    "render-canvas"
+  ],
+  "files": [
+    {
+      "path": "registry/default/blocks/hero/hero-06/page.tsx",
+      "content": "\"use client\"\n\nimport { Hero } from \"@/registry/default/blocks/hero/hero-06/components/hero\"\nimport { RenderCanvas } from \"@/registry/default/components/render-canvas\"\n\nexport default function Page() {\n  return (\n    <div className=\"relative min-h-svh w-full overflow-y-auto\">\n      <RenderCanvas\n        lineWidth={20}\n        trails={100}\n        width={1400}\n        height={920}\n        className=\"absolute inset-0\"\n      />\n\n      <div className=\"relative z-40 flex min-h-svh items-center justify-center\">\n        <Hero />\n      </div>\n    </div>\n  )\n}\n",
+      "type": "registry:component",
+      "target": "components/hero-06.tsx"
+    },
+    {
+      "path": "registry/default/blocks/hero/hero-06/components/hero.tsx",
+      "content": "\"use client\"\n\nimport Link from \"next/link\"\nimport { ArrowRight, Plus, Shapes } from \"lucide-react\"\n\nimport { DotPattern } from \"@/registry/default/components/dot-pattern\"\nimport { Button } from \"@/registry/default/ui/button\"\n\nexport function Hero() {\n  return (\n    <div className=\"animation-delay-8 animate-fadeIn flex flex-col items-center justify-center px-4 text-center\">\n      <div className=\"z-10 mb-6 sm:justify-center\">\n        <div className=\"bg-popover text-primary/60 relative flex items-center rounded-full border px-3 py-1 text-xs leading-6 whitespace-nowrap\">\n          <Shapes className=\"h-5 p-1\" /> Introducing\n          <Link\n            href=\"/docs\"\n            rel=\"noreferrer\"\n            className=\"hover:text-ali ml-1 flex items-center font-semibold\"\n          >\n            <div className=\"absolute inset-0 flex\" aria-hidden=\"true\" />\n            Explore Shader\n            <span aria-hidden=\"true\">\n              <ArrowRight className=\"h-4 w-4\" />\n            </span>\n          </Link>\n        </div>\n      </div>\n\n      <div className=\"mt-4 mb-10 md:mt-6\">\n        <div className=\"px-2\">\n          <div className=\"border-ali relative mx-auto h-full max-w-5xl border [mask-image:radial-gradient(800rem_96rem_at_center,white,transparent)] p-6 md:px-10 md:py-12\">\n            <DotPattern />\n            <h1 className=\"flex flex-col px-3 py-2 text-center text-5xl leading-none font-semibold tracking-tight select-none md:flex-col md:text-8xl lg:flex-row lg:text-8xl\">\n              <Plus\n                strokeWidth={4}\n                className=\"text-ali absolute -top-5 -left-5 h-10 w-10\"\n              />\n              <Plus\n                strokeWidth={4}\n                className=\"text-ali absolute -bottom-5 -left-5 h-10 w-10\"\n              />\n              <Plus\n                strokeWidth={4}\n                className=\"text-ali absolute -top-5 -right-5 h-10 w-10\"\n              />\n              <Plus\n                strokeWidth={4}\n                className=\"text-ali absolute -right-5 -bottom-5 h-10 w-10\"\n              />\n              Your complete platform for the Design.\n            </h1>\n            <div className=\"flex items-center justify-center gap-1\">\n              <span className=\"relative flex h-3 w-3 items-center justify-center\">\n                <span className=\"absolute inline-flex h-full w-full animate-ping rounded-full bg-green-500 opacity-75\"></span>\n                <span className=\"relative inline-flex h-2 w-2 rounded-full bg-green-500\"></span>\n              </span>\n              <p className=\"text-xs text-green-500\">Available Now</p>\n            </div>\n          </div>\n        </div>\n\n        <h1 className=\"mt-8 text-2xl md:text-2xl\">\n          Welcome to my creative playground! I&#39;m{\" \"}\n          <span className=\"text-ali font-bold\">Ali </span>\n        </h1>\n\n        <p className=\"md:text-md text-primary/60 mx-auto mt-2 mb-16 max-w-2xl px-6 text-sm sm:px-6 md:max-w-4xl md:px-20 lg:text-lg\">\n          I craft enchanting visuals for brands, and conjure design resources to\n          empower others.\n        </p>\n        <div className=\"flex justify-center gap-2\">\n          <Link href={\"/\"}>\n            <Button className=\"cursor-pointer\" variant=\"default\" size=\"lg\">\n              Start Project\n            </Button>\n          </Link>\n          <Link href={\"https://cal.com/dalim/15min\"} target=\"_blank\">\n            <Button className=\"cursor-pointer\" variant=\"outline\" size=\"lg\">\n              Book a call\n            </Button>\n          </Link>\n        </div>\n      </div>\n    </div>\n  )\n}\n",
+      "type": "registry:component"
+    }
+  ],
+  "categories": [
+    "hero"
+  ]
+}

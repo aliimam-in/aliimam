@@ -1,0 +1,48 @@
+---
+title: Shader RGB
+description: A full-screen animated background built with Three.js shaders. Renders smooth  of RGB line effects using a custom fragment shader.
+component: true
+---
+
+<ComponentPreview
+  name="shader-rgb-default"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[630px]"
+  description="Full-screen animated shader background using Three.js."
+  align="start"
+/>
+
+## Installation
+
+<CodeTabs>
+
+<TabsList>
+  <TabsTrigger value="cli">CLI</TabsTrigger>
+  <TabsTrigger value="manual">Manual</TabsTrigger>
+</TabsList>
+
+<TabsContent value="cli">
+
+```bash
+npx shadcn@latest add https://ui.dalim.in/r/styles/default/shader-rgb.json
+```
+
+</TabsContent> <TabsContent value="manual"> <Steps>
+
+<Step>Copy and paste the following code into your project.</Step>
+
+<ComponentSource name="shader-rgb" title="components/ui/shader-rgb.tsx" />
+
+<Step>Update the import paths to match your project setup.</Step>
+
+</Steps> </TabsContent> </CodeTabs>
+
+## Usage
+
+```tsx  
+import { ShaderRGB } from "@/components/ui/shader-rgb"
+```
+
+```tsx  
+<ShaderRGB /> 
+```
+ 

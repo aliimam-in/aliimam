@@ -20,7 +20,7 @@ export function Provider({
         disableTransitionOnChange
       >
         {children}
-        <Toaster position="top-center" />
+        <Toaster position="bottom-center" />
       </ThemeProvider>
       <Analytics />
       <GoogleAnalytics gaId="G-7DJXCEPQ1E" />

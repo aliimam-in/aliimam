@@ -740,7 +740,7 @@ export const Index: Record<string, any> = {
     name: "accordion-01",
     description: "Personal FAQ accordion introducing Ali Imam, his design approach, inspirations, and ways to connect for collaborations.",
     type: "registry:example",
-    registryDependencies: ["@aliimam/accordion"],
+    registryDependencies: ["accordion"],
     files: [{
       path: "registry/default/example/accordion/accordion-01.tsx",
       type: "registry:example",
@@ -758,7 +758,7 @@ export const Index: Record<string, any> = {
     name: "accordion-02",
     description: "Example showing a spotlight effect that follows your mouse cursor and highlights borders on hover.",
     type: "registry:example",
-    registryDependencies: ["@aliimam/accordion"],
+    registryDependencies: ["accordion"],
     files: [{
       path: "registry/default/example/accordion/accordion-02.tsx",
       type: "registry:example",
@@ -776,7 +776,7 @@ export const Index: Record<string, any> = {
     name: "accordion-03",
     description: "Example showing a spotlight effect that follows your mouse cursor and highlights borders on hover.",
     type: "registry:example",
-    registryDependencies: ["@aliimam/accordion"],
+    registryDependencies: ["accordion"],
     files: [{
       path: "registry/default/example/accordion/accordion-03.tsx",
       type: "registry:example",
@@ -794,7 +794,7 @@ export const Index: Record<string, any> = {
     name: "accordion-04",
     description: "Example showing a spotlight effect that follows your mouse cursor and highlights borders on hover.",
     type: "registry:example",
-    registryDependencies: ["@aliimam/accordion"],
+    registryDependencies: ["accordion"],
     files: [{
       path: "registry/default/example/accordion/accordion-04.tsx",
       type: "registry:example",
@@ -812,7 +812,7 @@ export const Index: Record<string, any> = {
     name: "accordion-05",
     description: "Example showing a spotlight effect that follows your mouse cursor and highlights borders on hover.",
     type: "registry:example",
-    registryDependencies: ["@aliimam/accordion"],
+    registryDependencies: ["accordion"],
     files: [{
       path: "registry/default/example/accordion/accordion-05.tsx",
       type: "registry:example",
@@ -830,7 +830,7 @@ export const Index: Record<string, any> = {
     name: "alert-01",
     description: "",
     type: "registry:example",
-    registryDependencies: ["@aliimam/alert"],
+    registryDependencies: ["alert"],
     files: [{
       path: "registry/default/example/alert/alert-01.tsx",
       type: "registry:example",
@@ -848,7 +848,7 @@ export const Index: Record<string, any> = {
     name: "alert-02",
     description: "",
     type: "registry:example",
-    registryDependencies: ["@aliimam/alert"],
+    registryDependencies: ["alert"],
     files: [{
       path: "registry/default/example/alert/alert-02.tsx",
       type: "registry:example",
@@ -866,7 +866,7 @@ export const Index: Record<string, any> = {
     name: "alert-03",
     description: "",
     type: "registry:example",
-    registryDependencies: ["@aliimam/alert"],
+    registryDependencies: ["alert"],
     files: [{
       path: "registry/default/example/alert/alert-03.tsx",
       type: "registry:example",
@@ -884,7 +884,7 @@ export const Index: Record<string, any> = {
     name: "alert-04",
     description: "",
     type: "registry:example",
-    registryDependencies: ["@aliimam/alert"],
+    registryDependencies: ["alert"],
     files: [{
       path: "registry/default/example/alert/alert-04.tsx",
       type: "registry:example",
@@ -902,7 +902,7 @@ export const Index: Record<string, any> = {
     name: "alert-05",
     description: "",
     type: "registry:example",
-    registryDependencies: ["@aliimam/alert"],
+    registryDependencies: ["alert"],
     files: [{
       path: "registry/default/example/alert/alert-05.tsx",
       type: "registry:example",
@@ -920,7 +920,7 @@ export const Index: Record<string, any> = {
     name: "button-01",
     description: "Example showing a simple button.",
     type: "registry:example",
-    registryDependencies: ["@aliimam/button"],
+    registryDependencies: ["button"],
     files: [{
       path: "registry/default/example/button/button-01.tsx",
       type: "registry:example",
@@ -938,7 +938,7 @@ export const Index: Record<string, any> = {
     name: "button-02",
     description: "Example showing a simple button.",
     type: "registry:example",
-    registryDependencies: ["@aliimam/button"],
+    registryDependencies: ["button"],
     files: [{
       path: "registry/default/example/button/button-02.tsx",
       type: "registry:example",
@@ -956,7 +956,7 @@ export const Index: Record<string, any> = {
     name: "button-03",
     description: "Example showing a simple button.",
     type: "registry:example",
-    registryDependencies: ["@aliimam/button"],
+    registryDependencies: ["button"],
     files: [{
       path: "registry/default/example/button/button-03.tsx",
       type: "registry:example",
@@ -974,7 +974,7 @@ export const Index: Record<string, any> = {
     name: "button-04",
     description: "Example showing a simple button.",
     type: "registry:example",
-    registryDependencies: ["@aliimam/button"],
+    registryDependencies: ["button"],
     files: [{
       path: "registry/default/example/button/button-04.tsx",
       type: "registry:example",
@@ -992,7 +992,7 @@ export const Index: Record<string, any> = {
     name: "button-05",
     description: "Example showing a simple button.",
     type: "registry:example",
-    registryDependencies: ["@aliimam/button"],
+    registryDependencies: ["button"],
     files: [{
       path: "registry/default/example/button/button-05.tsx",
       type: "registry:example",
@@ -1010,7 +1010,7 @@ export const Index: Record<string, any> = {
     name: "button-06",
     description: "Example showing a simple button.",
     type: "registry:example",
-    registryDependencies: ["@aliimam/button"],
+    registryDependencies: ["button"],
     files: [{
       path: "registry/default/example/button/button-06.tsx",
       type: "registry:example",
@@ -1028,7 +1028,7 @@ export const Index: Record<string, any> = {
     name: "button-07",
     description: "Example showing a simple button.",
     type: "registry:example",
-    registryDependencies: ["@aliimam/button"],
+    registryDependencies: ["button"],
     files: [{
       path: "registry/default/example/button/button-07.tsx",
       type: "registry:example",
@@ -1046,7 +1046,7 @@ export const Index: Record<string, any> = {
     name: "button-08",
     description: "Example showing a simple button.",
     type: "registry:example",
-    registryDependencies: ["@aliimam/button"],
+    registryDependencies: ["button"],
     files: [{
       path: "registry/default/example/button/button-08.tsx",
       type: "registry:example",
@@ -1072,6 +1072,546 @@ export const Index: Record<string, any> = {
     }],
     component: React.lazy(async () => {
       const mod = await import("@/registry/default/example/typography/typography.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "typography-01": {
+    name: "typography-01",
+    description: "",
+    type: "registry:example",
+    registryDependencies: undefined,
+    files: [{
+      path: "registry/default/example/typography/typography-01.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/typography/typography-01.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "typography-02": {
+    name: "typography-02",
+    description: "",
+    type: "registry:example",
+    registryDependencies: undefined,
+    files: [{
+      path: "registry/default/example/typography/typography-02.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/typography/typography-02.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "typography-03": {
+    name: "typography-03",
+    description: "",
+    type: "registry:example",
+    registryDependencies: undefined,
+    files: [{
+      path: "registry/default/example/typography/typography-03.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/typography/typography-03.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "book-01": {
+    name: "book-01",
+    description: "",
+    type: "registry:example",
+    registryDependencies: ["book"],
+    files: [{
+      path: "registry/default/example/book/book-01.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/book/book-01.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "book-02": {
+    name: "book-02",
+    description: "",
+    type: "registry:example",
+    registryDependencies: ["book"],
+    files: [{
+      path: "registry/default/example/book/book-02.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/book/book-02.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "book-03": {
+    name: "book-03",
+    description: "",
+    type: "registry:example",
+    registryDependencies: ["book"],
+    files: [{
+      path: "registry/default/example/book/book-03.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/book/book-03.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "device-01": {
+    name: "device-01",
+    description: "",
+    type: "registry:example",
+    registryDependencies: ["device"],
+    files: [{
+      path: "registry/default/example/device/device-01.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/device/device-01.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "device-02": {
+    name: "device-02",
+    description: "",
+    type: "registry:example",
+    registryDependencies: ["device"],
+    files: [{
+      path: "registry/default/example/device/device-02.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/device/device-02.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "device-03": {
+    name: "device-03",
+    description: "",
+    type: "registry:example",
+    registryDependencies: ["device"],
+    files: [{
+      path: "registry/default/example/device/device-03.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/device/device-03.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "device-04": {
+    name: "device-04",
+    description: "",
+    type: "registry:example",
+    registryDependencies: ["device"],
+    files: [{
+      path: "registry/default/example/device/device-04.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/device/device-04.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "browser-01": {
+    name: "browser-01",
+    description: "",
+    type: "registry:example",
+    registryDependencies: ["browser"],
+    files: [{
+      path: "registry/default/example/browser/browser-01.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/browser/browser-01.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "browser-02": {
+    name: "browser-02",
+    description: "",
+    type: "registry:example",
+    registryDependencies: ["browser"],
+    files: [{
+      path: "registry/default/example/browser/browser-02.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/browser/browser-02.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "marquee-01": {
+    name: "marquee-01",
+    description: "",
+    type: "registry:example",
+    registryDependencies: ["marquee"],
+    files: [{
+      path: "registry/default/example/marquee/marquee-01.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/marquee/marquee-01.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "award-default": {
+    name: "award-default",
+    description: "",
+    type: "registry:example",
+    registryDependencies: ["award"],
+    files: [{
+      path: "registry/default/example/award/award-default.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/award/award-default.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "award-stamp": {
+    name: "award-stamp",
+    description: "",
+    type: "registry:example",
+    registryDependencies: ["award"],
+    files: [{
+      path: "registry/default/example/award/award-stamp.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/award/award-stamp.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "award-badge": {
+    name: "award-badge",
+    description: "",
+    type: "registry:example",
+    registryDependencies: ["award"],
+    files: [{
+      path: "registry/default/example/award/award-badge.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/award/award-badge.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "award-certificate": {
+    name: "award-certificate",
+    description: "",
+    type: "registry:example",
+    registryDependencies: ["award"],
+    files: [{
+      path: "registry/default/example/award/award-certificate.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/award/award-certificate.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "gauge-default": {
+    name: "gauge-default",
+    description: "",
+    type: "registry:example",
+    registryDependencies: ["gauge"],
+    files: [{
+      path: "registry/default/example/gauge/gauge-default.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/gauge/gauge-default.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "gauge-tickmark": {
+    name: "gauge-tickmark",
+    description: "",
+    type: "registry:example",
+    registryDependencies: ["gauge"],
+    files: [{
+      path: "registry/default/example/gauge/gauge-tickmark.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/gauge/gauge-tickmark.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "gauge-rings": {
+    name: "gauge-rings",
+    description: "",
+    type: "registry:example",
+    registryDependencies: ["gauge"],
+    files: [{
+      path: "registry/default/example/gauge/gauge-rings.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/gauge/gauge-rings.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "gauge-half": {
+    name: "gauge-half",
+    description: "",
+    type: "registry:example",
+    registryDependencies: ["gauge"],
+    files: [{
+      path: "registry/default/example/gauge/gauge-half.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/gauge/gauge-half.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "font-weight-default": {
+    name: "font-weight-default",
+    description: "",
+    type: "registry:example",
+    registryDependencies: ["font-weight"],
+    files: [{
+      path: "registry/default/example/font-weight/font-weight-default.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/font-weight/font-weight-default.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "rainbow-effect-default": {
+    name: "rainbow-effect-default",
+    description: "",
+    type: "registry:example",
+    registryDependencies: ["rainbow-effectt"],
+    files: [{
+      path: "registry/default/example/rainbow-effect/rainbow-effect-default.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/rainbow-effect/rainbow-effect-default.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "counter-number-default": {
+    name: "counter-number-default",
+    description: "",
+    type: "registry:example",
+    registryDependencies: ["counter-number"],
+    files: [{
+      path: "registry/default/example/counter-number/counter-number-default.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/counter-number/counter-number-default.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "counter-number-currency": {
+    name: "counter-number-currency",
+    description: "",
+    type: "registry:example",
+    registryDependencies: ["counter-number"],
+    files: [{
+      path: "registry/default/example/counter-number/counter-number-currency.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/counter-number/counter-number-currency.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "counter-number-custom": {
+    name: "counter-number-custom",
+    description: "",
+    type: "registry:example",
+    registryDependencies: ["counter-number"],
+    files: [{
+      path: "registry/default/example/counter-number/counter-number-custom.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/counter-number/counter-number-custom.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "counter-number-decimal": {
+    name: "counter-number-decimal",
+    description: "",
+    type: "registry:example",
+    registryDependencies: ["counter-number"],
+    files: [{
+      path: "registry/default/example/counter-number/counter-number-decimal.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/counter-number/counter-number-decimal.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "counter-number-percentage": {
+    name: "counter-number-percentage",
+    description: "",
+    type: "registry:example",
+    registryDependencies: ["counter-number"],
+    files: [{
+      path: "registry/default/example/counter-number/counter-number-percentage.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/counter-number/counter-number-percentage.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "counter-number-prefix": {
+    name: "counter-number-prefix",
+    description: "",
+    type: "registry:example",
+    registryDependencies: ["counter-number"],
+    files: [{
+      path: "registry/default/example/counter-number/counter-number-prefix.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/counter-number/counter-number-prefix.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "counter-number-seperator": {
+    name: "counter-number-seperator",
+    description: "",
+    type: "registry:example",
+    registryDependencies: ["counter-number"],
+    files: [{
+      path: "registry/default/example/counter-number/counter-number-seperator.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/counter-number/counter-number-seperator.tsx")
       const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
       return { default: mod.default || mod[exportName] }
     }),
@@ -1288,6 +1828,258 @@ export const Index: Record<string, any> = {
     }],
     component: React.lazy(async () => {
       const mod = await import("@/registry/default/example/backgrounds/shader-ripple/shader-ripple-03.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "shader-lines-default": {
+    name: "shader-lines-default",
+    description: "Example showing a simple shader lines.",
+    type: "registry:example",
+    registryDependencies: ["shader-lines"],
+    files: [{
+      path: "registry/default/example/backgrounds/shader-lines/shader-lines-default.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/backgrounds/shader-lines/shader-lines-default.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "dot-pattern-default": {
+    name: "dot-pattern-default",
+    description: "Example showing a simple dot pattern.",
+    type: "registry:example",
+    registryDependencies: ["dot-pattern"],
+    files: [{
+      path: "registry/default/example/backgrounds/dot-pattern/dot-pattern-default.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/backgrounds/dot-pattern/dot-pattern-default.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "dot-pattern-custom": {
+    name: "dot-pattern-custom",
+    description: "Example showing a simple dot pattern.",
+    type: "registry:example",
+    registryDependencies: ["dot-pattern"],
+    files: [{
+      path: "registry/default/example/backgrounds/dot-pattern/dot-pattern-custom.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/backgrounds/dot-pattern/dot-pattern-custom.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "gradient-bars-default": {
+    name: "gradient-bars-default",
+    description: "Example showing a simple gradient bars.",
+    type: "registry:example",
+    registryDependencies: ["gradient-bars"],
+    files: [{
+      path: "registry/default/example/backgrounds/gradient-bars/gradient-bars-default.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/backgrounds/gradient-bars/gradient-bars-default.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "grid-pattern-default": {
+    name: "grid-pattern-default",
+    description: "Example showing a simple grid pattern.",
+    type: "registry:example",
+    registryDependencies: ["grid-pattern"],
+    files: [{
+      path: "registry/default/example/backgrounds/grid-pattern/grid-pattern-default.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/backgrounds/grid-pattern/grid-pattern-default.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "grid-pattern-custom": {
+    name: "grid-pattern-custom",
+    description: "Example showing a simple grid pattern.",
+    type: "registry:example",
+    registryDependencies: ["grid-pattern"],
+    files: [{
+      path: "registry/default/example/backgrounds/grid-pattern/grid-pattern-custom.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/backgrounds/grid-pattern/grid-pattern-custom.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "grid-pattern-large": {
+    name: "grid-pattern-large",
+    description: "Example showing a simple grid pattern.",
+    type: "registry:example",
+    registryDependencies: ["grid-pattern"],
+    files: [{
+      path: "registry/default/example/backgrounds/grid-pattern/grid-pattern-large.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/backgrounds/grid-pattern/grid-pattern-large.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "grid-pattern-small": {
+    name: "grid-pattern-small",
+    description: "Example showing a simple grid pattern.",
+    type: "registry:example",
+    registryDependencies: ["grid-pattern"],
+    files: [{
+      path: "registry/default/example/backgrounds/grid-pattern/grid-pattern-small.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/backgrounds/grid-pattern/grid-pattern-small.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "particle-circle-default": {
+    name: "particle-circle-default",
+    description: "Example showing a simple particle circle.",
+    type: "registry:example",
+    registryDependencies: ["particle-circle"],
+    files: [{
+      path: "registry/default/example/backgrounds/particle-circle/particle-circle-default.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/backgrounds/particle-circle/particle-circle-default.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "particle-highlight-default": {
+    name: "particle-highlight-default",
+    description: "Example showing a simple particle highlight.",
+    type: "registry:example",
+    registryDependencies: ["particle-highlight"],
+    files: [{
+      path: "registry/default/example/backgrounds/particle-highlight/particle-highlight-default.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/backgrounds/particle-highlight/particle-highlight-default.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "scroll-progress-default": {
+    name: "scroll-progress-default",
+    description: "Example showing a simple scroll progress.",
+    type: "registry:example",
+    registryDependencies: ["scroll-progress"],
+    files: [{
+      path: "registry/default/example/backgrounds/scroll-progress/scroll-progress-default.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/backgrounds/scroll-progress/scroll-progress-default.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "shader-void-default": {
+    name: "shader-void-default",
+    description: "Example showing a simple shader void.",
+    type: "registry:example",
+    registryDependencies: ["shader-void"],
+    files: [{
+      path: "registry/default/example/backgrounds/shader-void/shader-void-default.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/backgrounds/shader-void/shader-void-default.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "shader-rgb-default": {
+    name: "shader-rgb-default",
+    description: "Example showing a simple shader rgb.",
+    type: "registry:example",
+    registryDependencies: ["shader-rgb"],
+    files: [{
+      path: "registry/default/example/backgrounds/shader-rgb/shader-rgb-default.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/backgrounds/shader-rgb/shader-rgb-default.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "shine-border-default": {
+    name: "shine-border-default",
+    description: "Example showing a simple shine-border.",
+    type: "registry:example",
+    registryDependencies: ["shine-border"],
+    files: [{
+      path: "registry/default/example/backgrounds/shine-border/shine-border-default.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/backgrounds/shine-border/shine-border-default.tsx")
       const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
       return { default: mod.default || mod[exportName] }
     }),
@@ -1538,6 +2330,120 @@ export const Index: Record<string, any> = {
     categories: ["hero"],
     meta: undefined,
   },
+  "hero-06": {
+    name: "hero-06",
+    description: "A simple hero section.",
+    type: "registry:block",
+    registryDependencies: ["button","dot-pattern","render-canvas"],
+    files: [{
+      path: "registry/default/blocks/hero/hero-06/page.tsx",
+      type: "registry:component",
+      target: "components/hero-06.tsx"
+    },{
+      path: "registry/default/blocks/hero/hero-06/components/hero.tsx",
+      type: "registry:component",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/blocks/hero/hero-06/page.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: ["hero"],
+    meta: undefined,
+  },
+  "hero-07": {
+    name: "hero-07",
+    description: "A simple hero section.",
+    type: "registry:block",
+    registryDependencies: ["button","grid-pattern"],
+    files: [{
+      path: "registry/default/blocks/hero/hero-07/page.tsx",
+      type: "registry:component",
+      target: "components/hero-07.tsx"
+    },{
+      path: "registry/default/blocks/hero/hero-07/components/gallery.tsx",
+      type: "registry:component",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/blocks/hero/hero-07/page.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: ["hero"],
+    meta: undefined,
+  },
+  "hero-08": {
+    name: "hero-08",
+    description: "A simple hero section.",
+    type: "registry:block",
+    registryDependencies: ["button","gradient-bars"],
+    files: [{
+      path: "registry/default/blocks/hero/hero-08/page.tsx",
+      type: "registry:component",
+      target: "components/hero-08.tsx"
+    },{
+      path: "registry/default/blocks/hero/hero-08/components/hero.tsx",
+      type: "registry:component",
+      target: ""
+    },{
+      path: "registry/default/blocks/hero/hero-08/components/button-rotate.tsx",
+      type: "registry:component",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/blocks/hero/hero-08/page.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: ["hero"],
+    meta: undefined,
+  },
+  "hero-09": {
+    name: "hero-09",
+    description: "A simple hero section.",
+    type: "registry:block",
+    registryDependencies: ["button","shader-rgb"],
+    files: [{
+      path: "registry/default/blocks/hero/hero-09/page.tsx",
+      type: "registry:component",
+      target: "components/hero-09.tsx"
+    },{
+      path: "registry/default/blocks/hero/hero-09/components/hero.tsx",
+      type: "registry:component",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/blocks/hero/hero-09/page.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: ["hero"],
+    meta: undefined,
+  },
+  "hero-10": {
+    name: "hero-10",
+    description: "A simple hero section.",
+    type: "registry:block",
+    registryDependencies: ["button","shader-void"],
+    files: [{
+      path: "registry/default/blocks/hero/hero-10/page.tsx",
+      type: "registry:component",
+      target: "components/hero-10.tsx"
+    },{
+      path: "registry/default/blocks/hero/hero-10/components/hero.tsx",
+      type: "registry:component",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/blocks/hero/hero-10/page.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: ["hero"],
+    meta: undefined,
+  },
   "dashboard-01": {
     name: "dashboard-01",
     description: "A dashboard with sidebar, charts and data table.",
@@ -1764,6 +2670,132 @@ export const Index: Record<string, any> = {
     categories: undefined,
     meta: undefined,
   },
+  "book": {
+    name: "book",
+    description: "",
+    type: "registry:component",
+    registryDependencies: undefined,
+    files: [{
+      path: "registry/default/components/book.tsx",
+      type: "registry:component",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/components/book.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "browser": {
+    name: "browser",
+    description: "",
+    type: "registry:component",
+    registryDependencies: undefined,
+    files: [{
+      path: "registry/default/components/browser.tsx",
+      type: "registry:component",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/components/browser.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "font-weight": {
+    name: "font-weight",
+    description: "",
+    type: "registry:component",
+    registryDependencies: undefined,
+    files: [{
+      path: "registry/default/components/font-weight.tsx",
+      type: "registry:component",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/components/font-weight.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "counter-number": {
+    name: "counter-number",
+    description: "",
+    type: "registry:component",
+    registryDependencies: undefined,
+    files: [{
+      path: "registry/default/components/counter-number.tsx",
+      type: "registry:component",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/components/counter-number.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "rainbow-effect": {
+    name: "rainbow-effect",
+    description: "",
+    type: "registry:component",
+    registryDependencies: undefined,
+    files: [{
+      path: "registry/default/components/rainbow-effect.tsx",
+      type: "registry:component",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/components/rainbow-effect.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "award": {
+    name: "award",
+    description: "",
+    type: "registry:component",
+    registryDependencies: undefined,
+    files: [{
+      path: "registry/default/components/award.tsx",
+      type: "registry:component",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/components/award.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "gauge": {
+    name: "gauge",
+    description: "",
+    type: "registry:ui",
+    registryDependencies: undefined,
+    files: [{
+      path: "registry/default/components/gauge.tsx",
+      type: "registry:component",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/components/gauge.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
   "render-canvas": {
     name: "render-canvas",
     description: "",
@@ -1794,6 +2826,204 @@ export const Index: Record<string, any> = {
     }],
     component: React.lazy(async () => {
       const mod = await import("@/registry/default/components/shader-ripple.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "dot-pattern": {
+    name: "dot-pattern",
+    description: "",
+    type: "registry:component",
+    registryDependencies: undefined,
+    files: [{
+      path: "registry/default/components/dot-pattern.tsx",
+      type: "registry:component",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/components/dot-pattern.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "gradient-bars": {
+    name: "gradient-bars",
+    description: "",
+    type: "registry:component",
+    registryDependencies: undefined,
+    files: [{
+      path: "registry/default/components/gradient-bars.tsx",
+      type: "registry:component",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/components/gradient-bars.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "particle-circle": {
+    name: "particle-circle",
+    description: "",
+    type: "registry:component",
+    registryDependencies: undefined,
+    files: [{
+      path: "registry/default/components/particle-circle.tsx",
+      type: "registry:component",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/components/particle-circle.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "grid-pattern": {
+    name: "grid-pattern",
+    description: "",
+    type: "registry:component",
+    registryDependencies: undefined,
+    files: [{
+      path: "registry/default/components/grid-pattern.tsx",
+      type: "registry:component",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/components/grid-pattern.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "particle-circle": {
+    name: "particle-circle",
+    description: "",
+    type: "registry:component",
+    registryDependencies: undefined,
+    files: [{
+      path: "registry/default/components/particle-circle.tsx",
+      type: "registry:component",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/components/particle-circle.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "particle-highlight": {
+    name: "particle-highlight",
+    description: "",
+    type: "registry:component",
+    registryDependencies: undefined,
+    files: [{
+      path: "registry/default/components/particle-highlight.tsx",
+      type: "registry:component",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/components/particle-highlight.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "scroll-progress": {
+    name: "scroll-progress",
+    description: "",
+    type: "registry:component",
+    registryDependencies: undefined,
+    files: [{
+      path: "registry/default/components/scroll-progress.tsx",
+      type: "registry:component",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/components/scroll-progress.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "shader-lines": {
+    name: "shader-lines",
+    description: "",
+    type: "registry:component",
+    registryDependencies: undefined,
+    files: [{
+      path: "registry/default/components/shader-lines.tsx",
+      type: "registry:component",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/components/shader-lines.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "shader-rgb": {
+    name: "shader-rgb",
+    description: "",
+    type: "registry:component",
+    registryDependencies: undefined,
+    files: [{
+      path: "registry/default/components/shader-rgb.tsx",
+      type: "registry:component",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/components/shader-rgb.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "shine-border": {
+    name: "shine-border",
+    description: "",
+    type: "registry:component",
+    registryDependencies: undefined,
+    files: [{
+      path: "registry/default/components/shine-border.tsx",
+      type: "registry:component",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/components/shine-border.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "shader-void": {
+    name: "shader-void",
+    description: "",
+    type: "registry:component",
+    registryDependencies: undefined,
+    files: [{
+      path: "registry/default/components/shader-void.tsx",
+      type: "registry:component",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/components/shader-void.tsx")
       const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
       return { default: mod.default || mod[exportName] }
     }),

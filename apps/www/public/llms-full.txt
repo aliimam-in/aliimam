@@ -214,6 +214,33 @@ Description: The dropdown-menu component.
 
 
 
+===== COMPONENT: gauge =====
+Title: gauge
+Description: The gauge component.
+
+
+
+===== EXAMPLE: gauge-default =====
+Title: gauge-default
+
+
+
+===== EXAMPLE: gauge-tickmark =====
+Title: gauge-tickmark
+
+
+
+===== EXAMPLE: gauge-rings =====
+Title: gauge-rings
+
+
+
+===== EXAMPLE: gauge-half =====
+Title: gauge-half
+
+
+
+
 ===== COMPONENT: input =====
 Title: input
 Description: The input component.

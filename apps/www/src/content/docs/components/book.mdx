@@ -1,0 +1,78 @@
+---
+title: Book
+description: A 3D styled, interactive book component with multiple variants and props.
+component: true 
+---
+
+<ComponentPreview
+  name="book-01"
+  className="[.preview]:min-h-[400px]"
+  description="A 3D interactive book with title, author, and bookmark"
+  align="start"
+/>
+
+<ComponentPreview
+  name="book-02"
+  className="[.preview]:min-h-[400px]"
+  description="A 3D interactive book with title, author, and bookmark"
+  align="start"
+/>
+
+
+<ComponentPreview
+  name="book-03"
+  className="[.preview]:min-h-[400px]"
+  description="A 3D interactive book with title, author, and bookmark"
+  align="start"
+/>
+
+## Installation
+
+<CodeTabs>
+
+<TabsList>
+  <TabsTrigger value="cli">CLI</TabsTrigger>
+  <TabsTrigger value="manual">Manual</TabsTrigger>
+</TabsList>
+
+<TabsContent value="cli">
+
+```bash
+npx shadcn@latest add https://aliimam.in/r/book.json
+```
+
+</TabsContent>
+
+<TabsContent value="manual">
+
+<Steps>
+
+<Step>Copy and paste the following code into your project.</Step>
+
+<ComponentSource name="book" title="components/ui/book.tsx" />
+
+<Step>Update the import paths to match your project setup.</Step>
+
+</Steps>
+
+</TabsContent>
+
+</CodeTabs>
+
+## Usage
+
+```tsx showLineNumbers
+import { Book } from "@/components/ui/book"
+
+<Book
+  title="The Great Adventure"
+  author="John Doe"
+  spineText="Adventure"
+  bookmark
+  variant="hardcover"
+  animation="hover"
+>
+  <p>This is some content inside the book.</p>
+</Book>
+```
+ 

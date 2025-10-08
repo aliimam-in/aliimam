@@ -1,0 +1,15 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "award-certificate",
+  "type": "registry:example",
+  "registryDependencies": [
+    "award"
+  ],
+  "files": [
+    {
+      "path": "registry/default/example/award/award-certificate.tsx",
+      "content": "\"use client\"\n\nimport { Awards } from \"@/registry/default/components/award\"\n\nexport default function Component() {\n  return (\n    <div className=\"flex h-full w-full items-center justify-center\">\n      <Awards\n        variant=\"certificate\"\n        title=\"WINNER\"\n        subtitle=\"A Design Award & Competetion\"\n        recipient=\"Ali Imam\"\n        date=\"June 2025\"\n        level=\"gold\"\n      />\n    </div>\n  )\n}\n",
+      "type": "registry:example"
+    }
+  ]
+}

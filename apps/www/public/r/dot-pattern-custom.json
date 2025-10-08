@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "dot-pattern-custom",
+  "type": "registry:example",
+  "title": "Dot Pattern",
+  "description": "Example showing a simple dot pattern.",
+  "registryDependencies": [
+    "dot-pattern"
+  ],
+  "files": [
+    {
+      "path": "registry/default/example/backgrounds/dot-pattern/dot-pattern-custom.tsx",
+      "content": "import { DotPattern } from \"@/registry/default/components/dot-pattern\"\n\nexport default function Component() {\n  return (\n    <div>\n      <DotPattern\n        dotSize={0.5}\n        width={5}\n        height={5}\n        className=\"text-red-500 dark:text-lime-500\"\n      />\n    </div>\n  )\n}\n",
+      "type": "registry:example"
+    }
+  ]
+}

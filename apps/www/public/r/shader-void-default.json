@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "shader-void-default",
+  "type": "registry:example",
+  "title": "Shader Void",
+  "description": "Example showing a simple shader void.",
+  "registryDependencies": [
+    "shader-void"
+  ],
+  "files": [
+    {
+      "path": "registry/default/example/backgrounds/shader-void/shader-void-default.tsx",
+      "content": "import { ShaderVoid } from \"@/registry/default/components/shader-void\";\n\nexport default function DemoOne() {\n  return (\n    <div className=\"relative flex h-full w-full flex-col items-center justify-center overflow-hidden rounded-xl border\">\n      <ShaderVoid\n        voidBallsAmount={0}\n        voidBallsColor=\"#fff200\"\n        plasmaBallsColor=\"#fff200\"\n        plasmaBallsStroke=\"#fff200\"\n        gooeyCircleSize={30}\n        blendMode=\"overlay\"\n        className=\"mx-auto\"\n      />\n    </div>\n  );\n}\n",
+      "type": "registry:example"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+---
+title: Device
+description: A responsive device frame component for showcasing images or UI previews inside MacBook, iMac, iPhone, or iPad mockups.
+component: true 
+---
+
+<ComponentPreview
+  name="device-01"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[400px]"
+  description="A customizable device frame component with multiple variants."
+  align="start"
+/>
+
+<ComponentPreview
+  name="device-02"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[400px]"
+  description="A customizable device frame component with multiple variants."
+  align="start"
+/>
+
+<ComponentPreview
+  name="device-03"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[400px]"
+  description="A customizable device frame component with multiple variants."
+  align="start"
+/>
+
+<ComponentPreview
+  name="device-04"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[400px]"
+  description="A customizable device frame component with multiple variants."
+  align="start"
+/>
+
+## Installation
+
+<CodeTabs>
+
+<TabsList>
+  <TabsTrigger value="cli">CLI</TabsTrigger>
+  <TabsTrigger value="manual">Manual</TabsTrigger>
+</TabsList>
+
+<TabsContent value="cli">
+
+```bash
+npx shadcn@latest add https://aliimam.in/r/device.json
+```
+
+</TabsContent>
+
+<TabsContent value="manual">
+
+<Steps>
+
+<Step>Copy and paste the following code into your project.</Step>
+
+<ComponentSource name="device" title="components/ui/device.tsx" />
+
+<Step>Update the import paths to match your project setup.</Step>
+
+</Steps>
+
+</TabsContent>
+
+</CodeTabs>
+
+## Usage
+
+```tsx showLineNumbers
+import { Device } from "@/components/ui/device"
+```
+
+```tsx showLineNumbers
+<Device variant="macbook" src="/screenshot.png" className="text-gray-900" />
+<Device variant="imac" src="/screenshot.png" />
+<Device variant="iphone" src="/mobile-preview.png" />
+<Device variant="ipad" src="/tablet-preview.png" />
+```
+ 

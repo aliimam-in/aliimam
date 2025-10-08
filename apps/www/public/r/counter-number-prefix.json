@@ -1,0 +1,15 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "counter-number-prefix",
+  "type": "registry:example",
+  "registryDependencies": [
+    "counter-number"
+  ],
+  "files": [
+    {
+      "path": "registry/default/example/counter-number/counter-number-prefix.tsx",
+      "content": "import { CounterNumber } from \"@/registry/default/components/counter-number\"\n\nexport default function Component() {\n  return (\n    <div className=\"flex h-full w-full items-center justify-center\">\n      <CounterNumber value={500} size=\"xl\" prefix=\"$\" suffix=\" USD\" />\n    </div>\n  )\n}\n",
+      "type": "registry:example"
+    }
+  ]
+}

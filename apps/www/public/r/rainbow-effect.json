@@ -1,0 +1,12 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "rainbow-effect",
+  "type": "registry:component",
+  "files": [
+    {
+      "path": "registry/default/components/rainbow-effect.tsx",
+      "content": "\"use client\"\n\nimport { useEffect, useState } from \"react\"\n\ninterface RainbowEffectProps {\n  text?: string\n  className?: string\n  fontSize?: number\n}\n\nexport function RainbowEffect({\n  fontSize = 20,\n  text = \"design\",\n  className = \"\",\n}: RainbowEffectProps) {\n  const [isMobile, setIsMobile] = useState(false)\n\n  useEffect(() => {\n    const checkMobile = () => {\n      setIsMobile(window.innerWidth <= 400)\n    }\n\n    checkMobile()\n    window.addEventListener(\"resize\", checkMobile)\n    return () => window.removeEventListener(\"resize\", checkMobile)\n  }, [])\n\n  const desktopTextShadow = `\n    1px 5px #FFD20E, 1px 6px #000, \n    2px 10px #E5BC08, 2px 11px #000, \n    3px 15px #EC8401, 3px 16px #000, \n    4px 20px #E65C04, 4px 21px #000, \n    5px 25px #E52E06, 5px 26px #000, \n    6px 30px #DE006B, 6px 31px #000, \n    7px 35px #CA039E, 7px 36px #000, \n    8px 40px #A203CB, 8px 41px #000, \n    9px 45px #6D01C9, 9px 46px #000, \n    10px 50px #22008F, 10px 51px #000,\n    11px 55px #062F9A, 11px 56px #000,\n    12px 60px #0045AC, 12px 61px #000,\n    13px 65px #007DB2, 13px 66px #000, \n    14px 70px #00B8D9, 14px 71px #000\n  `\n\n  const mobileStyles = {\n    textShadow: \"none\",\n    background: \"linear-gradient(to bottom, #FFD20E, #EC8401, #E65C04)\",\n    backgroundClip: \"text\",\n    WebkitBackgroundClip: \"text\",\n    color: \"transparent\",\n    lineHeight: \"130%\",\n  }\n\n  const desktopStyles = {\n    color: \"white\",\n    WebkitTextStroke: \"1px #000\",\n    textStroke: \"1px #000\",\n    textShadow: desktopTextShadow,\n    lineHeight: \"100%\",\n  }\n\n  const baseStyles = {\n    fontFamily: \"sans-serif\",\n    fontStyle: \"italic\" as const,\n    fontSize: `${fontSize}vw`,\n    wordBreak: \"break-all\" as const,\n  }\n\n  return (\n    <>\n      <div\n        style={{\n          textAlign: \"center\",\n        }}\n        className={className}\n      >\n        <p\n          className={className}\n          style={{\n            ...baseStyles,\n            ...(isMobile ? mobileStyles : desktopStyles),\n          }}\n        >\n          {text}\n        </p>\n      </div>\n    </>\n  )\n}\n",
+      "type": "registry:component"
+    }
+  ]
+}

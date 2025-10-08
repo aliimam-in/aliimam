@@ -1,0 +1,77 @@
+---
+title: Particles Highlight
+description: Interactive particle background and highlight effects with mouse tracking.
+component: true
+---
+
+<ComponentPreview
+  name="particle-highlight-default"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[300px]"
+  description="Highlight effect that follows the mouse inside child elements."
+  align="start"
+/>
+ 
+## Installation
+
+<CodeTabs>
+
+<TabsList>
+  <TabsTrigger value="cli">CLI</TabsTrigger>
+  <TabsTrigger value="manual">Manual</TabsTrigger>
+</TabsList>
+
+<TabsContent value="cli">
+
+```bash
+npx shadcn@latest add https://ui.dalim.in/r/styles/default/particle-highlight.json
+```
+
+</TabsContent> <TabsContent value="manual"> <Steps>
+
+<Step>Copy and paste the following code into your project.</Step>
+
+<ComponentSource
+  name="particle-circle"
+  title="components/ui/particle-circle.tsx"
+/>
+
+<Step>Update the import paths to match your project setup.</Step>
+
+</Steps> </TabsContent> </CodeTabs>
+
+## Usage
+
+```tsx showLineNumbers
+import { ParticleCircle } from "@/components/ui/particle-circle"
+```
+
+```tsx showLineNumbers
+<div className="relative h-screen w-full overflow-hidden">
+  <ParticleCircle
+    colors={["#9c88ff", "#7c3aed", "#a855f7", "#c084fc"]}
+    particleSize={[1, 5]}
+    particleCount={1500}
+    size={400}
+  />
+  <div className="absolute inset-0 z-10 flex items-center justify-center">
+    <p className="text-xl font-semibold">Content over particle circle</p>
+  </div>
+</div>
+```
+
+## API Reference
+
+### ParticleCircle
+
+A configurable animated particle circle component.
+
+| Prop              | Type             | Default                                                   | Description                                            |
+| ----------------- | ---------------- | --------------------------------------------------------- | ------------------------------------------------------ |
+| `particleCount`   | number           | Responsive (`1000` on small screens, `2000` on large)     | Number of particles to render.                         |
+| `shrinkDuration`  | number           | `8`                                                       | Duration (seconds) for shrinking phase.                |
+| `growDuration`    | number           | `8`                                                       | Duration (seconds) for growing phase.                  |
+| `colors`          | string[]         | `["#393e46", "#00adb5", "#393e46", "#00adb5", "#e6eeef"]` | Array of particle colors.                              |
+| `baseRadius`      | number           | `0.35`                                                    | Base radius multiplier relative to canvas size.        |
+| `particleSize`    | [number, number] | `[2, 8]`                                                  | Range for particle size.                               |
+| `enableBlendMode` | boolean          | `true` (disabled in Firefox)                              | Whether to use `SCREEN` blend mode for vibrant colors. |
+| `size`            | number           | Auto (`min(windowWidth, windowHeight)`)                   | Custom width/height of the canvas.                     |

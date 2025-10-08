@@ -5,7 +5,7 @@
   "title": "Alert Demo",
   "description": "",
   "registryDependencies": [
-    "@aliimam/alert"
+    "alert"
   ],
   "files": [
     {

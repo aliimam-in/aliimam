@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "scroll-progress-default",
+  "type": "registry:example",
+  "title": "Scroll Progress",
+  "description": "Example showing a simple scroll progress.",
+  "registryDependencies": [
+    "scroll-progress"
+  ],
+  "files": [
+    {
+      "path": "registry/default/example/backgrounds/scroll-progress/scroll-progress-default.tsx",
+      "content": "\"use client\"\n\nimport { ScrollProgress } from \"@/registry/default/components/scroll-progress\"\n\nexport default function DemoOne() {\n  return (\n    <div className=\"relative flex h-[500px] w-full flex-col items-center justify-center overflow-hidden rounded-xl border\">\n      <ScrollProgress\n        variant=\"rainbow\"\n        size=\"lg\"\n        position={\"bottom\"}\n        showPercentage\n        percentagePosition=\"left\"\n      />\n      <div className=\"py-8 text-center\">\n        <h1 className=\"mb-2 text-xl font-semibold\">\n          The Scroll Progess is showing at bottom\n        </h1>\n        <p className=\"text-muted-foreground text-xs\">\n          Customize the scroll progress component with different variants and\n          options\n        </p>\n      </div>\n    </div>\n  )\n}\n",
+      "type": "registry:example"
+    }
+  ]
+}

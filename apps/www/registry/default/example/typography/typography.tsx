@@ -4,7 +4,7 @@ import "@/src/styles/typography.css";
 import Image from "next/image";
 
 const Example = () => (
-  <div className="size-full overflow-y-auto">
+  <div className="size-full h-[600px] overflow-y-auto">
     <div className="typography">
       <h1>Designing the Future: Crafting Beautiful Digital Experiences</h1>
 
@@ -63,7 +63,7 @@ const Example = () => (
         <Image
           alt="Modern design layout"
           height={400}
-          src="https://placehold.co/600x400?text=Modern+Design"
+          src="/placeholder.svg"
           unoptimized
           width={600}
         />

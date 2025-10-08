@@ -1,0 +1,60 @@
+---
+title: Shine Border
+description: Renders an animated neon gradient border around any child content. The border is drawn using a masked overlay with CSS animations — no Tailwind or external CSS required. Supports customization of radius, width, speed, and colors.
+component: true
+---
+
+<ComponentPreview
+  name="shine-border-default"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[580px]"
+  description="Animated colorful leaves with blur and circular motion."
+  align="start"
+/>
+
+## Installation
+
+<CodeTabs>
+
+<TabsList>
+  <TabsTrigger value="cli">CLI</TabsTrigger>
+  <TabsTrigger value="manual">Manual</TabsTrigger>
+</TabsList>
+
+<TabsContent value="cli">
+
+```bash
+npx shadcn@latest add https://ui.dalim.in/r/styles/default/shine-border.json
+```
+
+</TabsContent>
+
+<TabsContent value="manual">
+
+<Steps>
+
+<Step>Copy and paste the following code into your project.</Step>
+
+<ComponentSource name="shine-border" title="components/ui/shine-border.tsx" />
+
+<Step>Update the import paths to match your project setup.</Step>
+
+</Steps>
+
+</TabsContent>
+
+</CodeTabs>
+
+## Usage
+
+```tsx showLineNumbers
+import { ShineBorder } from "@/components/ui/shine-border"
+```
+
+```tsx showLineNumbers
+<div className="relative h-screen w-full overflow-hidden">
+  <ShineBorder borderRadius={12} borderWidth={3} duration={10}>
+    <span style={{ color: "white", fontSize: 20 }}>Neon Glow ✨</span>
+  </ShineBorder>
+</div>
+```
+ 

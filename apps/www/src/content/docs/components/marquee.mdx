@@ -1,5 +1,90 @@
 ---
 title: Marquee
-description: Coming Soon!
+description: Renders a looping marquee animation with horizontal or vertical scrolling. Supports adjustable speed, direction, repeat count, and pause on hover.
+component: true
 ---
+
+<ComponentPreview
+  name="marquee-01"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[80%] **:[.preview]:min-h-[400px]"
+  description="An accordion with three items"
+  align="start"
+/>
+## Installation
+
+<CodeTabs>
+
+<TabsList>
+  <TabsTrigger value="cli">CLI</TabsTrigger>
+  <TabsTrigger value="manual">Manual</TabsTrigger>
+</TabsList>
+
+<TabsContent value="cli">
+
+```bash
+npx shadcn@latest add https://aliimam.in/r/marquee.json
+```
+
+</TabsContent>
+
+<TabsContent value="manual">
+
+<Steps>
+
+<Step>Copy and paste the following code into your project.</Step>
+
+<ComponentSource name="marquee" title="components/ui/marquee.tsx" />
+
+<Step>Update the import paths to match your project setup.</Step>
+
+</Steps>
+
+</TabsContent>
+
+</CodeTabs>
+
+## Usage
+
+```tsx showLineNumbers
+import { Marquee } from "@/components/marquee"
+```
+
+```tsx showLineNumbers
+<Marquee speed="fast" pauseOnHover className="bg-gray-900 p-2 text-white">
+  <span className="px-4">🚀 Fast</span>
+  <span className="px-4">🔥 Scrolling</span>
+  <span className="px-4">🌈 Marquee</span>
+</Marquee>
+```
+
+## CSS
+
+```tsx showLineNumbers
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme inline {
+  --animate-marquee: marquee var(--duration) infinite linear;
+  --animate-marquee-vertical: marquee-vertical var(--duration) linear infinite;
+}
+
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-100% - var(--gap)));
+  }
+}
+
+@keyframes marquee-vertical {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(calc(-100% - var(--gap)));
+  }
+}
+```
  

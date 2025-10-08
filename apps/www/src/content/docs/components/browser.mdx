@@ -1,0 +1,77 @@
+---
+title: Browser
+description: A customizable browser-like component with tabs, bookmarks, history, downloads, and settings simulation.
+component: true 
+---
+
+<ComponentPreview
+  name="browser-01"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[580px]"
+  description="A simulated browser component with tabs, bookmarks, history, and status bar."
+  align="start"
+/>
+
+<ComponentPreview
+  name="browser-02"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[700px]"
+  description="A simulated browser component with tabs, bookmarks, history, and status bar."
+  align="start"
+/>
+
+## Installation
+
+<CodeTabs>
+
+<TabsList>
+  <TabsTrigger value="cli">CLI</TabsTrigger>
+  <TabsTrigger value="manual">Manual</TabsTrigger>
+</TabsList>
+
+<TabsContent value="cli">
+
+```bash
+npx shadcn@latest add https://aliimam.in/r/browser.json
+```
+
+</TabsContent>
+
+<TabsContent value="manual">
+
+<Steps>
+
+<Step>Install the following dependencies:</Step>
+
+```bash
+npm install lucide-react
+```
+
+<Step>Copy and paste the following code into your project.</Step>
+
+<ComponentSource name="browser" title="components/ui/ai/browser.tsx" />
+
+<Step>Update the import paths to match your project setup.</Step>
+
+</Steps>
+
+</TabsContent>
+
+</CodeTabs>
+
+## Usage
+
+```tsx showLineNumbers
+import { Browser } from "@/components/ui/ai/browser"
+```
+
+```tsx showLineNumbers
+<Browser
+  showWindowControls
+  enableTabManagement
+  showBookmarksBar
+  enableDownloads
+  enableHistory
+  enableSettings
+  autoFocusAddressBar
+/>
+```
+ 

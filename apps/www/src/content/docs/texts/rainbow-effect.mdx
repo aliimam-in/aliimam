@@ -1,0 +1,50 @@
+---
+title: Rainbow Effect
+description: An animated rainbow-styled text component that applies colorful layered shadows on desktop and gradient text fill on mobile. Great for decorative headings and playful typography.
+component: true
+---
+
+<ComponentPreview
+  name="rainbow-effect-default"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[280px]"
+  description="Rainbow-styled text with layered shadows on desktop and gradient fill on mobile."
+  align="start"
+/>
+
+## Installation
+
+<CodeTabs>
+
+<TabsList>
+  <TabsTrigger value="cli">CLI</TabsTrigger>
+  <TabsTrigger value="manual">Manual</TabsTrigger>
+</TabsList>
+
+<TabsContent value="cli">
+
+```bash
+npx shadcn@latest add https://aliimam.in/r/rainbow-effect.json
+```
+
+</TabsContent> <TabsContent value="manual"> <Steps>
+
+<Step>Copy and paste the following code into your project.</Step>
+
+<ComponentSource name="rainbow-effect" title="components/ui/rainbow-effect.tsx" />
+
+<Step>Update the import paths to match your project setup.</Step>
+
+</Steps> </TabsContent> </CodeTabs>
+
+## Usage
+
+```tsx  
+import { RainbowEffect } from "@/components/ui/rainbow-effect"
+```
+
+```tsx showLineNumbers
+<div className="relative flex h-screen w-full items-center justify-center">
+  <RainbowEffect text="Design" fontSize={12} />
+</div>
+```
+ 

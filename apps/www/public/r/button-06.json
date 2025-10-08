@@ -5,7 +5,7 @@
   "title": "Button Demo",
   "description": "Example showing a simple button.",
   "registryDependencies": [
-    "@aliimam/button"
+    "button"
   ],
   "files": [
     {

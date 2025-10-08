@@ -1,0 +1,34 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "hero-08",
+  "type": "registry:block",
+  "description": "A simple hero section.",
+  "dependencies": [
+    "framer-motion"
+  ],
+  "registryDependencies": [
+    "button",
+    "gradient-bars"
+  ],
+  "files": [
+    {
+      "path": "registry/default/blocks/hero/hero-08/page.tsx",
+      "content": "\"use client\"\n\nimport { ButtonRotate } from \"@/registry/default/blocks/hero/hero-08/components/button-rotate\"\nimport { Hero } from \"@/registry/default/blocks/hero/hero-08/components/hero\"\nimport { GradientBars } from \"@/registry/default/components/gradient-bars\"\n\nexport default function HeroSection() {\n  return (\n    <div className=\"relative flex min-h-svh w-full flex-col items-center justify-center overflow-y-auto\">\n      <GradientBars numBars={20} color=\"#a855f7\" />\n      <ButtonRotate />\n      <Hero />\n    </div>\n  )\n}\n",
+      "type": "registry:component",
+      "target": "components/hero-08.tsx"
+    },
+    {
+      "path": "registry/default/blocks/hero/hero-08/components/hero.tsx",
+      "content": "\"use client\"\n\nimport * as React from \"react\"\nimport Link from \"next/link\"\n\nimport { Button } from \"@/registry/default/ui/button\"\n\nexport function Hero() {\n  return (\n    <div className=\"bg-background/20 relative z-20 mx-4 mt-10 flex flex-col items-center rounded-3xl border py-20 shadow-2xl backdrop-blur-md md:p-10\">\n      <main className=\"relative w-full overflow-hidden px-6\">\n        <h1 className=\"mb-3 text-center text-6xl font-extrabold tracking-tighter md:text-[clamp(2rem,8vw,7rem)]\">\n          Designs That Give\n        </h1>\n        <p className=\"text-primary/60 px-6 text-center text-xs md:text-sm lg:text-lg\">\n          Unleashing creativity through bold visuals, seamless interfaces, and\n          limitless possibilities.\n        </p>\n        <div className=\"my-8 flex items-center justify-center gap-1\">\n          <span className=\"relative flex h-3 w-3 items-center justify-center\">\n            <span className=\"absolute inline-flex h-full w-full animate-ping rounded-full bg-green-500 opacity-75\"></span>\n            <span className=\"relative inline-flex h-2 w-2 rounded-full bg-green-500\"></span>\n          </span>\n          <p className=\"text-xs text-green-500\">Available for New Projects</p>\n        </div>\n      </main>\n      <div className=\"\">\n        <Link href={\"/\"}>\n          <Button size={\"lg\"}>Let&apos;s Go</Button>\n        </Link>\n      </div>\n    </div>\n  )\n}\n",
+      "type": "registry:component"
+    },
+    {
+      "path": "registry/default/blocks/hero/hero-08/components/button-rotate.tsx",
+      "content": "import { Button } from \"@/registry/default/ui/button\"\n\nexport const ButtonRotate = () => {\n  const text = \"I LOVE YOUR DESIGN\"\n\n  return (\n    <div className=\"border-primary rounded-full border border-dotted p-1\">\n      <Button className=\"bg-primary relative grid h-[100px] w-[100px] place-content-center overflow-hidden rounded-full p-0\">\n        <p\n          className=\"absolute inset-0\"\n          style={{\n            animation: \"text-rotation 8s linear infinite\",\n            position: \"absolute\",\n            inset: 0,\n          }}\n        >\n          {Array.from(text).map((char, i) => (\n            <span\n              key={i}\n              style={{\n                position: \"absolute\",\n                inset: \"6px\",\n                transform: `rotate(${19 * i}deg)`,\n                transformOrigin: \"50% 50%\",\n                userSelect: \"none\",\n                display: \"inline-block\",\n              }}\n            >\n              {char === \" \" ? \"\\u00A0\" : char}\n            </span>\n          ))}\n        </p>\n\n        <div className=\"text-primary bg-background relative flex h-[40px] w-[40px] items-center justify-center overflow-hidden rounded-full\">\n          <svg\n            viewBox=\"0 0 14 15\"\n            fill=\"none\"\n            xmlns=\"http://www.w3.org/2000/svg\"\n            className=\"absolute h-4 w-4 transition-transform duration-300 ease-in-out\"\n            style={{ transform: \"translate(0, 0)\" }}\n          >\n            <path\n              d=\"M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z\"\n              fill=\"currentColor\"\n            />\n          </svg>\n          <svg\n            viewBox=\"0 0 14 15\"\n            fill=\"none\"\n            xmlns=\"http://www.w3.org/2000/svg\"\n            className=\"absolute h-4 w-4 transition-transform duration-300 ease-in-out\"\n            style={{ transform: \"translate(-150%, 150%)\" }}\n          >\n            <path\n              d=\"M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z\"\n              fill=\"currentColor\"\n            />\n          </svg>\n        </div>\n\n        <style jsx>{`\n          @keyframes text-rotation {\n            to {\n              rotate: 360deg;\n            }\n          }\n          p {\n            animation: text-rotation 8s linear infinite;\n          }\n          span {\n            user-select: none;\n          }\n          button:hover svg:first-child {\n            transform: translate(150%, -150%);\n            color: black;\n          }\n          button:hover svg:last-child {\n            transform: translate(0);\n            color: black;\n            transition-delay: 0.1s;\n          }\n        `}</style>\n      </Button>\n    </div>\n  )\n}\n",
+      "type": "registry:component"
+    }
+  ],
+  "categories": [
+    "hero"
+  ]
+}

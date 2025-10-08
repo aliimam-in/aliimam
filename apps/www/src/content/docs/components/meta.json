@@ -1,7 +1,12 @@
 {
   "title": "Components",
   "pages": [
+    "award",
     "marquee",
+    "book",
+    "browser",
+    "device",
+    "gauge",
     "blur"
   ]
 }

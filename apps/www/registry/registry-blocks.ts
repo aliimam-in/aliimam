@@ -232,6 +232,105 @@ export const blocks: Registry["items"] = [
     
   },
   {
+    name: "hero-06",
+    description: "A simple hero section.",
+    dependencies: ["lucide-react"],
+    registryDependencies: ["button", "dot-pattern", "render-canvas"],
+    type: "registry:block",
+    files: [
+      {
+        path: "blocks/hero/hero-06/page.tsx",
+        target: "components/hero-06.tsx",
+        type: "registry:component",
+      },
+      {
+        path: "blocks/hero/hero-06/components/hero.tsx",
+        type: "registry:component",
+      },
+    ],
+    categories: ["hero"], 
+  },
+  {
+    name: "hero-07",
+    description: "A simple hero section.",
+    dependencies: ["framer-motion"],
+    registryDependencies: ["button", "grid-pattern"],
+    type: "registry:block",
+    files: [
+      {
+        path: "blocks/hero/hero-07/page.tsx",
+        target: "components/hero-07.tsx",
+        type: "registry:component",
+      },
+      {
+        path: "blocks/hero/hero-07/components/gallery.tsx",
+        type: "registry:component",
+      },
+    ],
+    categories: ["hero"], 
+  },
+  {
+    name: "hero-08",
+    description: "A simple hero section.",
+    dependencies: ["framer-motion"],
+    registryDependencies: ["button", "gradient-bars"],
+    type: "registry:block",
+    files: [
+      {
+        path: "blocks/hero/hero-08/page.tsx",
+        target: "components/hero-08.tsx",
+        type: "registry:component",
+      },
+      {
+        path: "blocks/hero/hero-08/components/hero.tsx",
+        type: "registry:component",
+      },
+      {
+        path: "blocks/hero/hero-08/components/button-rotate.tsx",
+        type: "registry:component",
+      },
+    ],
+    categories: ["hero"], 
+  },
+  {
+    name: "hero-09",
+    description: "A simple hero section.",
+    dependencies: ["framer-motion"],
+    registryDependencies: ["button", "shader-rgb"],
+    type: "registry:block",
+    files: [
+      {
+        path: "blocks/hero/hero-09/page.tsx",
+        target: "components/hero-09.tsx",
+        type: "registry:component",
+      },
+      {
+        path: "blocks/hero/hero-09/components/hero.tsx",
+        type: "registry:component",
+      }
+    ],
+    categories: ["hero"], 
+  },
+  {
+    name: "hero-10",
+    description: "A simple hero section.",
+    dependencies: ["framer-motion"],
+    registryDependencies: ["button", "shader-void"],
+    type: "registry:block",
+    files: [
+      {
+        path: "blocks/hero/hero-10/page.tsx",
+        target: "components/hero-10.tsx",
+        type: "registry:component",
+      },
+      {
+        path: "blocks/hero/hero-10/components/hero.tsx",
+        type: "registry:component",
+      }
+    ],
+    categories: ["hero"], 
+  },
+  {
     name: "dashboard-01",
     type: "registry:block",
     description: "A dashboard with sidebar, charts and data table.",

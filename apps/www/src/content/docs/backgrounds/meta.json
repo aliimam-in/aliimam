@@ -4,6 +4,16 @@
     "gradient-mesh",
     "gradient-wave",
     "shader-ripple",
-    "render-canvas"
+    "shader-lines",
+    "shader-rgb",
+    "particle-highlight",
+    "particle-circle",
+    "shader-void",
+    "gradient-bars",
+    "render-canvas",
+    "scroll-progress",
+    "shine-border",
+    "dot-pattern",
+    "grid-pattern"
   ]
 }

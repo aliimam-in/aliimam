@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "particle-highlight-default",
+  "type": "registry:example",
+  "title": "Particle Highlight",
+  "description": "Example showing a simple particle highlight.",
+  "registryDependencies": [
+    "particle-highlight"
+  ],
+  "files": [
+    {
+      "path": "registry/default/example/backgrounds/particle-highlight/particle-highlight-default.tsx",
+      "content": "import { Particles } from \"@/registry/default/components/particle-highlight\"\n\nexport default function Component() {\n  return (\n    <div className=\"relative h-[400px] w-[500px] overflow-hidden rounded-xl border\">\n      <Particles\n        className=\"absolute h-full w-full\"\n        quantity={200}\n        color={\"#d946ef\"}\n        vy={-0.2}\n      />\n    </div>\n  )\n}\n",
+      "type": "registry:example"
+    }
+  ]
+}

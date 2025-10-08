@@ -5,7 +5,7 @@
   "title": "Accordion Demo",
   "description": "Personal FAQ accordion introducing Ali Imam, his design approach, inspirations, and ways to connect for collaborations.",
   "registryDependencies": [
-    "@aliimam/accordion"
+    "accordion"
   ],
   "files": [
     {

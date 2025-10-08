@@ -631,7 +631,7 @@
       "title": "Accordion Demo",
       "description": "Personal FAQ accordion introducing Ali Imam, his design approach, inspirations, and ways to connect for collaborations.",
       "registryDependencies": [
-        "@aliimam/accordion"
+        "accordion"
       ],
       "files": [
         {
@@ -646,7 +646,7 @@
       "title": "Accordion Demo",
       "description": "Example showing a spotlight effect that follows your mouse cursor and highlights borders on hover.",
       "registryDependencies": [
-        "@aliimam/accordion"
+        "accordion"
       ],
       "files": [
         {
@@ -661,7 +661,7 @@
       "title": "Accordion Demo",
       "description": "Example showing a spotlight effect that follows your mouse cursor and highlights borders on hover.",
       "registryDependencies": [
-        "@aliimam/accordion"
+        "accordion"
       ],
       "files": [
         {
@@ -676,7 +676,7 @@
       "title": "Accordion Demo",
       "description": "Example showing a spotlight effect that follows your mouse cursor and highlights borders on hover.",
       "registryDependencies": [
-        "@aliimam/accordion"
+        "accordion"
       ],
       "files": [
         {
@@ -691,7 +691,7 @@
       "title": "Accordion Demo",
       "description": "Example showing a spotlight effect that follows your mouse cursor and highlights borders on hover.",
       "registryDependencies": [
-        "@aliimam/accordion"
+        "accordion"
       ],
       "files": [
         {
@@ -706,7 +706,7 @@
       "title": "Alert Demo",
       "description": "",
       "registryDependencies": [
-        "@aliimam/alert"
+        "alert"
       ],
       "files": [
         {
@@ -721,7 +721,7 @@
       "title": "Alert Demo",
       "description": "",
       "registryDependencies": [
-        "@aliimam/alert"
+        "alert"
       ],
       "files": [
         {
@@ -736,7 +736,7 @@
       "title": "Alert Demo",
       "description": "",
       "registryDependencies": [
-        "@aliimam/alert"
+        "alert"
       ],
       "files": [
         {
@@ -751,7 +751,7 @@
       "title": "Alert Demo",
       "description": "",
       "registryDependencies": [
-        "@aliimam/alert"
+        "alert"
       ],
       "files": [
         {
@@ -766,7 +766,7 @@
       "title": "Alert Demo",
       "description": "",
       "registryDependencies": [
-        "@aliimam/alert"
+        "alert"
       ],
       "files": [
         {
@@ -781,7 +781,7 @@
       "title": "Button Demo",
       "description": "Example showing a simple button.",
       "registryDependencies": [
-        "@aliimam/button"
+        "button"
       ],
       "files": [
         {
@@ -796,7 +796,7 @@
       "title": "Button Demo",
       "description": "Example showing a simple button.",
       "registryDependencies": [
-        "@aliimam/button"
+        "button"
       ],
       "files": [
         {
@@ -811,7 +811,7 @@
       "title": "Button Demo",
       "description": "Example showing a simple button.",
       "registryDependencies": [
-        "@aliimam/button"
+        "button"
       ],
       "files": [
         {
@@ -826,7 +826,7 @@
       "title": "Button Demo",
       "description": "Example showing a simple button.",
       "registryDependencies": [
-        "@aliimam/button"
+        "button"
       ],
       "files": [
         {
@@ -841,7 +841,7 @@
       "title": "Button Demo",
       "description": "Example showing a simple button.",
       "registryDependencies": [
-        "@aliimam/button"
+        "button"
       ],
       "files": [
         {
@@ -856,7 +856,7 @@
       "title": "Button Demo",
       "description": "Example showing a simple button.",
       "registryDependencies": [
-        "@aliimam/button"
+        "button"
       ],
       "files": [
         {
@@ -871,7 +871,7 @@
       "title": "Button Demo",
       "description": "Example showing a simple button.",
       "registryDependencies": [
-        "@aliimam/button"
+        "button"
       ],
       "files": [
         {
@@ -886,7 +886,7 @@
       "title": "Button Demo",
       "description": "Example showing a simple button.",
       "registryDependencies": [
-        "@aliimam/button"
+        "button"
       ],
       "files": [
         {
@@ -901,6 +901,387 @@
       "files": [
         {
           "path": "registry/default/example/typography/typography.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "typography-01",
+      "type": "registry:example",
+      "files": [
+        {
+          "path": "registry/default/example/typography/typography-01.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "typography-02",
+      "type": "registry:example",
+      "files": [
+        {
+          "path": "registry/default/example/typography/typography-02.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "typography-03",
+      "type": "registry:example",
+      "files": [
+        {
+          "path": "registry/default/example/typography/typography-03.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "book-01",
+      "type": "registry:example",
+      "registryDependencies": [
+        "book"
+      ],
+      "files": [
+        {
+          "path": "registry/default/example/book/book-01.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "book-02",
+      "type": "registry:example",
+      "registryDependencies": [
+        "book"
+      ],
+      "files": [
+        {
+          "path": "registry/default/example/book/book-02.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "book-03",
+      "type": "registry:example",
+      "registryDependencies": [
+        "book"
+      ],
+      "files": [
+        {
+          "path": "registry/default/example/book/book-03.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "device-01",
+      "type": "registry:example",
+      "registryDependencies": [
+        "device"
+      ],
+      "files": [
+        {
+          "path": "registry/default/example/device/device-01.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "device-02",
+      "type": "registry:example",
+      "registryDependencies": [
+        "device"
+      ],
+      "files": [
+        {
+          "path": "registry/default/example/device/device-02.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "device-03",
+      "type": "registry:example",
+      "registryDependencies": [
+        "device"
+      ],
+      "files": [
+        {
+          "path": "registry/default/example/device/device-03.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "device-04",
+      "type": "registry:example",
+      "registryDependencies": [
+        "device"
+      ],
+      "files": [
+        {
+          "path": "registry/default/example/device/device-04.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "browser-01",
+      "type": "registry:example",
+      "registryDependencies": [
+        "browser"
+      ],
+      "files": [
+        {
+          "path": "registry/default/example/browser/browser-01.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "browser-02",
+      "type": "registry:example",
+      "registryDependencies": [
+        "browser"
+      ],
+      "files": [
+        {
+          "path": "registry/default/example/browser/browser-02.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "marquee-01",
+      "type": "registry:example",
+      "registryDependencies": [
+        "marquee"
+      ],
+      "files": [
+        {
+          "path": "registry/default/example/marquee/marquee-01.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "award-default",
+      "type": "registry:example",
+      "registryDependencies": [
+        "award"
+      ],
+      "files": [
+        {
+          "path": "registry/default/example/award/award-default.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "award-stamp",
+      "type": "registry:example",
+      "registryDependencies": [
+        "award"
+      ],
+      "files": [
+        {
+          "path": "registry/default/example/award/award-stamp.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "award-badge",
+      "type": "registry:example",
+      "registryDependencies": [
+        "award"
+      ],
+      "files": [
+        {
+          "path": "registry/default/example/award/award-badge.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "award-certificate",
+      "type": "registry:example",
+      "registryDependencies": [
+        "award"
+      ],
+      "files": [
+        {
+          "path": "registry/default/example/award/award-certificate.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "gauge-default",
+      "type": "registry:example",
+      "registryDependencies": [
+        "gauge"
+      ],
+      "files": [
+        {
+          "path": "registry/default/example/gauge/gauge-default.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "gauge-tickmark",
+      "type": "registry:example",
+      "registryDependencies": [
+        "gauge"
+      ],
+      "files": [
+        {
+          "path": "registry/default/example/gauge/gauge-tickmark.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "gauge-rings",
+      "type": "registry:example",
+      "registryDependencies": [
+        "gauge"
+      ],
+      "files": [
+        {
+          "path": "registry/default/example/gauge/gauge-rings.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "gauge-half",
+      "type": "registry:example",
+      "registryDependencies": [
+        "gauge"
+      ],
+      "files": [
+        {
+          "path": "registry/default/example/gauge/gauge-half.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "font-weight-default",
+      "type": "registry:example",
+      "registryDependencies": [
+        "font-weight"
+      ],
+      "files": [
+        {
+          "path": "registry/default/example/font-weight/font-weight-default.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "rainbow-effect-default",
+      "type": "registry:example",
+      "registryDependencies": [
+        "rainbow-effectt"
+      ],
+      "files": [
+        {
+          "path": "registry/default/example/rainbow-effect/rainbow-effect-default.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "counter-number-default",
+      "type": "registry:example",
+      "registryDependencies": [
+        "counter-number"
+      ],
+      "files": [
+        {
+          "path": "registry/default/example/counter-number/counter-number-default.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "counter-number-currency",
+      "type": "registry:example",
+      "registryDependencies": [
+        "counter-number"
+      ],
+      "files": [
+        {
+          "path": "registry/default/example/counter-number/counter-number-currency.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "counter-number-custom",
+      "type": "registry:example",
+      "registryDependencies": [
+        "counter-number"
+      ],
+      "files": [
+        {
+          "path": "registry/default/example/counter-number/counter-number-custom.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "counter-number-decimal",
+      "type": "registry:example",
+      "registryDependencies": [
+        "counter-number"
+      ],
+      "files": [
+        {
+          "path": "registry/default/example/counter-number/counter-number-decimal.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "counter-number-percentage",
+      "type": "registry:example",
+      "registryDependencies": [
+        "counter-number"
+      ],
+      "files": [
+        {
+          "path": "registry/default/example/counter-number/counter-number-percentage.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "counter-number-prefix",
+      "type": "registry:example",
+      "registryDependencies": [
+        "counter-number"
+      ],
+      "files": [
+        {
+          "path": "registry/default/example/counter-number/counter-number-prefix.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "counter-number-seperator",
+      "type": "registry:example",
+      "registryDependencies": [
+        "counter-number"
+      ],
+      "files": [
+        {
+          "path": "registry/default/example/counter-number/counter-number-seperator.tsx",
           "type": "registry:example"
         }
       ]
@@ -1081,6 +1462,216 @@
       "files": [
         {
           "path": "registry/default/example/backgrounds/shader-ripple/shader-ripple-03.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "shader-lines-default",
+      "type": "registry:example",
+      "title": "Shader Lines",
+      "description": "Example showing a simple shader lines.",
+      "registryDependencies": [
+        "shader-lines"
+      ],
+      "files": [
+        {
+          "path": "registry/default/example/backgrounds/shader-lines/shader-lines-default.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "dot-pattern-default",
+      "type": "registry:example",
+      "title": "Dot Pattern",
+      "description": "Example showing a simple dot pattern.",
+      "registryDependencies": [
+        "dot-pattern"
+      ],
+      "files": [
+        {
+          "path": "registry/default/example/backgrounds/dot-pattern/dot-pattern-default.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "dot-pattern-custom",
+      "type": "registry:example",
+      "title": "Dot Pattern",
+      "description": "Example showing a simple dot pattern.",
+      "registryDependencies": [
+        "dot-pattern"
+      ],
+      "files": [
+        {
+          "path": "registry/default/example/backgrounds/dot-pattern/dot-pattern-custom.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "gradient-bars-default",
+      "type": "registry:example",
+      "title": "Gradient Bars",
+      "description": "Example showing a simple gradient bars.",
+      "registryDependencies": [
+        "gradient-bars"
+      ],
+      "files": [
+        {
+          "path": "registry/default/example/backgrounds/gradient-bars/gradient-bars-default.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "grid-pattern-default",
+      "type": "registry:example",
+      "title": "Grid Pattern",
+      "description": "Example showing a simple grid pattern.",
+      "registryDependencies": [
+        "grid-pattern"
+      ],
+      "files": [
+        {
+          "path": "registry/default/example/backgrounds/grid-pattern/grid-pattern-default.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "grid-pattern-custom",
+      "type": "registry:example",
+      "title": "Grid Pattern",
+      "description": "Example showing a simple grid pattern.",
+      "registryDependencies": [
+        "grid-pattern"
+      ],
+      "files": [
+        {
+          "path": "registry/default/example/backgrounds/grid-pattern/grid-pattern-custom.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "grid-pattern-large",
+      "type": "registry:example",
+      "title": "Grid Pattern",
+      "description": "Example showing a simple grid pattern.",
+      "registryDependencies": [
+        "grid-pattern"
+      ],
+      "files": [
+        {
+          "path": "registry/default/example/backgrounds/grid-pattern/grid-pattern-large.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "grid-pattern-small",
+      "type": "registry:example",
+      "title": "Grid Pattern",
+      "description": "Example showing a simple grid pattern.",
+      "registryDependencies": [
+        "grid-pattern"
+      ],
+      "files": [
+        {
+          "path": "registry/default/example/backgrounds/grid-pattern/grid-pattern-small.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "particle-circle-default",
+      "type": "registry:example",
+      "title": "Particle Circle",
+      "description": "Example showing a simple particle circle.",
+      "registryDependencies": [
+        "particle-circle"
+      ],
+      "files": [
+        {
+          "path": "registry/default/example/backgrounds/particle-circle/particle-circle-default.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "particle-highlight-default",
+      "type": "registry:example",
+      "title": "Particle Highlight",
+      "description": "Example showing a simple particle highlight.",
+      "registryDependencies": [
+        "particle-highlight"
+      ],
+      "files": [
+        {
+          "path": "registry/default/example/backgrounds/particle-highlight/particle-highlight-default.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "scroll-progress-default",
+      "type": "registry:example",
+      "title": "Scroll Progress",
+      "description": "Example showing a simple scroll progress.",
+      "registryDependencies": [
+        "scroll-progress"
+      ],
+      "files": [
+        {
+          "path": "registry/default/example/backgrounds/scroll-progress/scroll-progress-default.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "shader-void-default",
+      "type": "registry:example",
+      "title": "Shader Void",
+      "description": "Example showing a simple shader void.",
+      "registryDependencies": [
+        "shader-void"
+      ],
+      "files": [
+        {
+          "path": "registry/default/example/backgrounds/shader-void/shader-void-default.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "shader-rgb-default",
+      "type": "registry:example",
+      "title": "Shader RGB",
+      "description": "Example showing a simple shader rgb.",
+      "registryDependencies": [
+        "shader-rgb"
+      ],
+      "files": [
+        {
+          "path": "registry/default/example/backgrounds/shader-rgb/shader-rgb-default.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "shine-border-default",
+      "type": "registry:example",
+      "title": "Shine Border",
+      "description": "Example showing a simple shine-border.",
+      "registryDependencies": [
+        "shine-border"
+      ],
+      "files": [
+        {
+          "path": "registry/default/example/backgrounds/shine-border/shine-border-default.tsx",
           "type": "registry:example"
         }
       ]
@@ -1395,6 +1986,141 @@
       ]
     },
     {
+      "name": "hero-06",
+      "type": "registry:block",
+      "description": "A simple hero section.",
+      "dependencies": [
+        "lucide-react"
+      ],
+      "registryDependencies": [
+        "button",
+        "dot-pattern",
+        "render-canvas"
+      ],
+      "files": [
+        {
+          "path": "registry/default/blocks/hero/hero-06/page.tsx",
+          "type": "registry:component",
+          "target": "components/hero-06.tsx"
+        },
+        {
+          "path": "registry/default/blocks/hero/hero-06/components/hero.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "categories": [
+        "hero"
+      ]
+    },
+    {
+      "name": "hero-07",
+      "type": "registry:block",
+      "description": "A simple hero section.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "registryDependencies": [
+        "button",
+        "grid-pattern"
+      ],
+      "files": [
+        {
+          "path": "registry/default/blocks/hero/hero-07/page.tsx",
+          "type": "registry:component",
+          "target": "components/hero-07.tsx"
+        },
+        {
+          "path": "registry/default/blocks/hero/hero-07/components/gallery.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "categories": [
+        "hero"
+      ]
+    },
+    {
+      "name": "hero-08",
+      "type": "registry:block",
+      "description": "A simple hero section.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "registryDependencies": [
+        "button",
+        "gradient-bars"
+      ],
+      "files": [
+        {
+          "path": "registry/default/blocks/hero/hero-08/page.tsx",
+          "type": "registry:component",
+          "target": "components/hero-08.tsx"
+        },
+        {
+          "path": "registry/default/blocks/hero/hero-08/components/hero.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/default/blocks/hero/hero-08/components/button-rotate.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "categories": [
+        "hero"
+      ]
+    },
+    {
+      "name": "hero-09",
+      "type": "registry:block",
+      "description": "A simple hero section.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "registryDependencies": [
+        "button",
+        "shader-rgb"
+      ],
+      "files": [
+        {
+          "path": "registry/default/blocks/hero/hero-09/page.tsx",
+          "type": "registry:component",
+          "target": "components/hero-09.tsx"
+        },
+        {
+          "path": "registry/default/blocks/hero/hero-09/components/hero.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "categories": [
+        "hero"
+      ]
+    },
+    {
+      "name": "hero-10",
+      "type": "registry:block",
+      "description": "A simple hero section.",
+      "dependencies": [
+        "framer-motion"
+      ],
+      "registryDependencies": [
+        "button",
+        "shader-void"
+      ],
+      "files": [
+        {
+          "path": "registry/default/blocks/hero/hero-10/page.tsx",
+          "type": "registry:component",
+          "target": "components/hero-10.tsx"
+        },
+        {
+          "path": "registry/default/blocks/hero/hero-10/components/hero.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "categories": [
+        "hero"
+      ]
+    },
+    {
       "name": "dashboard-01",
       "type": "registry:block",
       "description": "A dashboard with sidebar, charts and data table.",
@@ -1630,6 +2356,76 @@
       ]
     },
     {
+      "name": "book",
+      "type": "registry:component",
+      "files": [
+        {
+          "path": "registry/default/components/book.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "browser",
+      "type": "registry:component",
+      "files": [
+        {
+          "path": "registry/default/components/browser.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "font-weight",
+      "type": "registry:component",
+      "files": [
+        {
+          "path": "registry/default/components/font-weight.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "counter-number",
+      "type": "registry:component",
+      "files": [
+        {
+          "path": "registry/default/components/counter-number.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "rainbow-effect",
+      "type": "registry:component",
+      "files": [
+        {
+          "path": "registry/default/components/rainbow-effect.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "award",
+      "type": "registry:component",
+      "files": [
+        {
+          "path": "registry/default/components/award.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "gauge",
+      "type": "registry:ui",
+      "files": [
+        {
+          "path": "registry/default/components/gauge.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
       "name": "render-canvas",
       "type": "registry:component",
       "files": [
@@ -1648,6 +2444,116 @@
       "files": [
         {
           "path": "registry/default/components/shader-ripple.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "dot-pattern",
+      "type": "registry:component",
+      "files": [
+        {
+          "path": "registry/default/components/dot-pattern.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "gradient-bars",
+      "type": "registry:component",
+      "files": [
+        {
+          "path": "registry/default/components/gradient-bars.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "particle-circle",
+      "type": "registry:component",
+      "files": [
+        {
+          "path": "registry/default/components/particle-circle.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "grid-pattern",
+      "type": "registry:component",
+      "files": [
+        {
+          "path": "registry/default/components/grid-pattern.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "particle-circle",
+      "type": "registry:component",
+      "files": [
+        {
+          "path": "registry/default/components/particle-circle.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "particle-highlight",
+      "type": "registry:component",
+      "files": [
+        {
+          "path": "registry/default/components/particle-highlight.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "scroll-progress",
+      "type": "registry:component",
+      "files": [
+        {
+          "path": "registry/default/components/scroll-progress.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shader-lines",
+      "type": "registry:component",
+      "files": [
+        {
+          "path": "registry/default/components/shader-lines.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shader-rgb",
+      "type": "registry:component",
+      "files": [
+        {
+          "path": "registry/default/components/shader-rgb.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shine-border",
+      "type": "registry:component",
+      "files": [
+        {
+          "path": "registry/default/components/shine-border.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "shader-void",
+      "type": "registry:component",
+      "files": [
+        {
+          "path": "registry/default/components/shader-void.tsx",
           "type": "registry:component"
         }
       ]
