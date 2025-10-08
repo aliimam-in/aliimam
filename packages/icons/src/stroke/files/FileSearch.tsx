@@ -1,0 +1,70 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const FileSearch: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function FileSearch(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <path
+        d="M14 2V6C14 6.53043 14.2107 7.03914 14.5858 7.41421C14.9609 7.78929 15.4696 8 16 8H20"
+        stroke={color}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M4.268 21C4.443 21.303 4.695 21.555 4.998 21.731 5.301 21.906 5.645 21.999 5.995 22H18C18.53 22 19.039 21.789 19.414 21.414 19.789 21.039 20 20.53 20 20V7L15 2H6C5.47 2 4.961 2.211 4.586 2.586 4.211 2.961 4 3.47 4 4V7M9 18 7.5 16.5"
+        stroke={color}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M5 17C6.65685 17 8 15.6569 8 14C8 12.3431 6.65685 11 5 11C3.34315 11 2 12.3431 2 14C2 15.6569 3.34315 17 5 17Z"
+        stroke={color}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+});
+
+FileSearch.displayName = "FileSearch";
+
+FileSearch.metadata = {
+  name: "FileSearch",
+  category: "stroke/files",
+  tags: ["file", "search", "icon"],
+  description: "FileSearch icon from stroke/files category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default FileSearch;

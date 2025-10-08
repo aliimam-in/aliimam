@@ -1,0 +1,119 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+interface SaladProps extends IconProps {
+  type?: "stroke";
+}
+
+export const Salad: IconComponent<SaladProps> = React.forwardRef<
+  SVGSVGElement,
+  SaladProps
+>(function Salad(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    type = "stroke",
+    ...props
+  },
+  forwardedRef,
+) {
+  if (type === "stroke") {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M7 21H17M12 21C14.387 21 16.676 20.052 18.364 18.364 20.052 16.676 21 14.387 21 12H3C3 14.387 3.948 16.676 5.636 18.364 7.324 20.052 9.613 21 12 21Z"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M11.38 12C10.774 12.006 10.189 11.782 9.741 11.374 9.294 10.966 9.017 10.404 8.966 9.801 8.915 9.197 9.095 8.597 9.468 8.12 9.842 7.643 10.382 7.325 10.98 7.23 10.884 6.806 10.905 6.364 11.041 5.952 11.177 5.539 11.422 5.171 11.75 4.886 12.079 4.602 12.478 4.412 12.906 4.337 13.334 4.262 13.774 4.305 14.18 4.46 14.358 4.18 14.591 3.941 14.866 3.756 15.141 3.571 15.451 3.445 15.777 3.386 16.103 3.326 16.438 3.335 16.76 3.412 17.082 3.488 17.385 3.631 17.65 3.83 18.112 3.467 18.69 3.286 19.276 3.321 19.862 3.356 20.415 3.605 20.83 4.02 21.245 4.435 21.494 4.988 21.529 5.574 21.564 6.16 21.383 6.738 21.02 7.2 21.246 7.5 21.398 7.849 21.465 8.218 21.531 8.588 21.51 8.968 21.403 9.327 21.296 9.687 21.106 10.017 20.849 10.29 20.591 10.563 20.273 10.772 19.92 10.9 20.011 11.26 20.022 11.636 19.95 12M13 12 17 8"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M10.9 7.25003C10.3515 6.6653 9.63954 6.25937 8.85697 6.08515C8.07439 5.91093 7.25748 5.97651 6.51272 6.27334C5.76796 6.57016 5.12989 7.08447 4.68169 7.74921C4.23348 8.41395 3.99593 9.19831 3.99999 10C3.99999 10.73 4.19999 11.41 4.53999 12"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    );
+  }
+
+  if (type === "stroke") {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M7 21H17M12 21C14.387 21 16.676 20.052 18.364 18.364 20.052 16.676 21 14.387 21 12H3C3 14.387 3.948 16.676 5.636 18.364 7.324 20.052 9.613 21 12 21Z"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M11.38 12C10.774 12.006 10.189 11.782 9.741 11.374 9.294 10.966 9.017 10.404 8.966 9.801 8.915 9.197 9.095 8.597 9.468 8.12 9.842 7.643 10.382 7.325 10.98 7.23 10.884 6.806 10.905 6.364 11.041 5.952 11.177 5.539 11.422 5.171 11.75 4.886 12.079 4.602 12.478 4.412 12.906 4.337 13.334 4.262 13.774 4.304 14.18 4.46 14.358 4.18 14.591 3.941 14.866 3.756 15.141 3.571 15.451 3.445 15.777 3.385 16.103 3.326 16.438 3.335 16.76 3.412 17.082 3.488 17.385 3.631 17.65 3.83 18.112 3.467 18.69 3.286 19.276 3.321 19.862 3.356 20.415 3.605 20.83 4.02 21.245 4.435 21.494 4.988 21.529 5.574 21.564 6.16 21.383 6.738 21.02 7.2 21.246 7.5 21.398 7.849 21.465 8.218 21.531 8.588 21.51 8.968 21.403 9.327 21.296 9.687 21.106 10.017 20.849 10.29 20.591 10.563 20.273 10.772 19.92 10.9 20.011 11.26 20.022 11.636 19.95 12M13 12 17 8"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M10.9 7.24997C10.3515 6.66523 9.63956 6.25931 8.85698 6.08509C8.07441 5.91087 7.2575 5.97645 6.51274 6.27328C5.76798 6.5701 5.12991 7.0844 4.6817 7.74915C4.2335 8.41389 3.99594 9.19824 4.00001 9.99997C4.00001 10.73 4.20001 11.41 4.54001 12"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    );
+  }
+
+  console.error(`Salad doesn't support ${type}`);
+  return null;
+});
+
+Salad.displayName = "Salad";
+
+Salad.metadata = {
+  name: "Salad",
+  category: "stroke/foodBeverage",
+  tags: ["salad", "icon"],
+  description: "Salad icon from stroke/foodBeverage category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default Salad;

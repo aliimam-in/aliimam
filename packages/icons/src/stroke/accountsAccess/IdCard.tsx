@@ -34,7 +34,7 @@ export const IdCard: IconComponent = React.forwardRef<SVGSVGElement, IconProps>(
         ref={forwardedRef}
       >
         <path
-          d="M16 10H18M16 14H18M6.17 15C6.376 14.414 6.759 13.907 7.266 13.547 7.773 13.188 8.379 12.996 9 12.996 9.621 12.996 10.227 13.188 10.734 13.547 11.241 13.907 11.624 14.414 11.83 15"
+          d="M16 10H18M16 14H18M6.17 15C6.376 14.414 6.759 13.906 7.266 13.547 7.773 13.188 8.379 12.996 9 12.996 9.621 12.996 10.227 13.188 10.734 13.547 11.241 13.906 11.624 14.414 11.83 15"
           stroke={color}
           strokeLinecap="round"
           strokeLinejoin="round"

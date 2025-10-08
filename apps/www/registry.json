@@ -701,6 +701,81 @@
       ]
     },
     {
+      "name": "alert-01",
+      "type": "registry:example",
+      "title": "Alert Demo",
+      "description": "",
+      "registryDependencies": [
+        "@aliimam/alert"
+      ],
+      "files": [
+        {
+          "path": "registry/default/example/alert/alert-01.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "alert-02",
+      "type": "registry:example",
+      "title": "Alert Demo",
+      "description": "",
+      "registryDependencies": [
+        "@aliimam/alert"
+      ],
+      "files": [
+        {
+          "path": "registry/default/example/alert/alert-02.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "alert-03",
+      "type": "registry:example",
+      "title": "Alert Demo",
+      "description": "",
+      "registryDependencies": [
+        "@aliimam/alert"
+      ],
+      "files": [
+        {
+          "path": "registry/default/example/alert/alert-03.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "alert-04",
+      "type": "registry:example",
+      "title": "Alert Demo",
+      "description": "",
+      "registryDependencies": [
+        "@aliimam/alert"
+      ],
+      "files": [
+        {
+          "path": "registry/default/example/alert/alert-04.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "alert-05",
+      "type": "registry:example",
+      "title": "Alert Demo",
+      "description": "",
+      "registryDependencies": [
+        "@aliimam/alert"
+      ],
+      "files": [
+        {
+          "path": "registry/default/example/alert/alert-05.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
       "name": "button-01",
       "type": "registry:example",
       "title": "Button Demo",
@@ -816,146 +891,6 @@
       "files": [
         {
           "path": "registry/default/example/button/button-08.tsx",
-          "type": "registry:example"
-        }
-      ]
-    },
-    {
-      "name": "typography-blockquote",
-      "type": "registry:example",
-      "files": [
-        {
-          "path": "registry/default/example/typography/typography-blockquote.tsx",
-          "type": "registry:example"
-        }
-      ]
-    },
-    {
-      "name": "typography-demo",
-      "type": "registry:example",
-      "files": [
-        {
-          "path": "registry/default/example/typography/typography-demo.tsx",
-          "type": "registry:example"
-        }
-      ]
-    },
-    {
-      "name": "typography-h1",
-      "type": "registry:example",
-      "files": [
-        {
-          "path": "registry/default/example/typography/typography-h1.tsx",
-          "type": "registry:example"
-        }
-      ]
-    },
-    {
-      "name": "typography-h2",
-      "type": "registry:example",
-      "files": [
-        {
-          "path": "registry/default/example/typography/typography-h2.tsx",
-          "type": "registry:example"
-        }
-      ]
-    },
-    {
-      "name": "typography-h3",
-      "type": "registry:example",
-      "files": [
-        {
-          "path": "registry/default/example/typography/typography-h3.tsx",
-          "type": "registry:example"
-        }
-      ]
-    },
-    {
-      "name": "typography-h4",
-      "type": "registry:example",
-      "files": [
-        {
-          "path": "registry/default/example/typography/typography-h4.tsx",
-          "type": "registry:example"
-        }
-      ]
-    },
-    {
-      "name": "typography-inline-code",
-      "type": "registry:example",
-      "files": [
-        {
-          "path": "registry/default/example/typography/typography-inline-code.tsx",
-          "type": "registry:example"
-        }
-      ]
-    },
-    {
-      "name": "typography-large",
-      "type": "registry:example",
-      "files": [
-        {
-          "path": "registry/default/example/typography/typography-large.tsx",
-          "type": "registry:example"
-        }
-      ]
-    },
-    {
-      "name": "typography-lead",
-      "type": "registry:example",
-      "files": [
-        {
-          "path": "registry/default/example/typography/typography-lead.tsx",
-          "type": "registry:example"
-        }
-      ]
-    },
-    {
-      "name": "typography-list",
-      "type": "registry:example",
-      "files": [
-        {
-          "path": "registry/default/example/typography/typography-list.tsx",
-          "type": "registry:example"
-        }
-      ]
-    },
-    {
-      "name": "typography-muted",
-      "type": "registry:example",
-      "files": [
-        {
-          "path": "registry/default/example/typography/typography-muted.tsx",
-          "type": "registry:example"
-        }
-      ]
-    },
-    {
-      "name": "typography-p",
-      "type": "registry:example",
-      "files": [
-        {
-          "path": "registry/default/example/typography/typography-p.tsx",
-          "type": "registry:example"
-        }
-      ]
-    },
-    {
-      "name": "typography-small",
-      "type": "registry:example",
-      "files": [
-        {
-          "path": "registry/default/example/typography/typography-small.tsx",
-          "type": "registry:example"
-        }
-      ]
-    },
-    {
-      "name": "typography-table",
-      "type": "registry:example",
-      "files": [
-        {
-          "path": "registry/default/example/typography/typography-table.tsx",
           "type": "registry:example"
         }
       ]
@@ -1538,12 +1473,38 @@
       ],
       "files": [
         {
-          "path": "registry/default/blocks/login-01/page.tsx",
+          "path": "registry/default/blocks/login/login-01/page.tsx",
           "type": "registry:page",
           "target": "app/login-01/page.tsx"
         },
         {
-          "path": "registry/default/blocks/login-01/components/login-form.tsx",
+          "path": "registry/default/blocks/login/login-01/components/login-form.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "categories": [
+        "authentication",
+        "login"
+      ]
+    },
+    {
+      "name": "login-02",
+      "type": "registry:block",
+      "description": "A simple login form.",
+      "registryDependencies": [
+        "button",
+        "card",
+        "input",
+        "label"
+      ],
+      "files": [
+        {
+          "path": "registry/default/blocks/login/login-02/page.tsx",
+          "type": "registry:page",
+          "target": "app/login-02/page.tsx"
+        },
+        {
+          "path": "registry/default/blocks/login/login-02/components/login-form.tsx",
           "type": "registry:component"
         }
       ],

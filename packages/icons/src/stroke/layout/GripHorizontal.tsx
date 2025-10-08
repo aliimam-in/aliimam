@@ -1,0 +1,58 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const GripHorizontal: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function GripHorizontal(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <path
+        d="M12 10C12.552 10 13 9.552 13 9 13 8.448 12.552 8 12 8 11.448 8 11 8.448 11 9 11 9.552 11.448 10 12 10ZM19 10C19.552 10 20 9.552 20 9 20 8.448 19.552 8 19 8 18.448 8 18 8.448 18 9 18 9.552 18.448 10 19 10ZM5 10C5.552 10 6 9.552 6 9 6 8.448 5.552 8 5 8 4.448 8 4 8.448 4 9 4 9.552 4.448 10 5 10ZM12 16C12.552 16 13 15.552 13 15 13 14.448 12.552 14 12 14 11.448 14 11 14.448 11 15 11 15.552 11.448 16 12 16ZM19 16C19.552 16 20 15.552 20 15 20 14.448 19.552 14 19 14 18.448 14 18 14.448 18 15 18 15.552 18.448 16 19 16ZM5 16C5.552 16 6 15.552 6 15 6 14.448 5.552 14 5 14 4.448 14 4 14.448 4 15 4 15.552 4.448 16 5 16Z"
+        stroke={color}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+});
+
+GripHorizontal.displayName = "GripHorizontal";
+
+GripHorizontal.metadata = {
+  name: "GripHorizontal",
+  category: "stroke/layout",
+  tags: ["grip", "horizontal", "icon"],
+  description: "GripHorizontal icon from stroke/layout category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default GripHorizontal;

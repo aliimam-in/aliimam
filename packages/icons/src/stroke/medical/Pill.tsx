@@ -1,0 +1,57 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const Pill: IconComponent = React.forwardRef<SVGSVGElement, IconProps>(
+  function Pill(
+    {
+      color = "currentColor",
+      fill,
+      size = 24,
+      strokeWidth,
+      strokeLinecap,
+      strokeLinejoin,
+      strokeDasharray,
+      opacity,
+      className,
+      ...props
+    },
+    forwardedRef,
+  ) {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M10.5 20.5 20.5 10.5C20.967 10.042 21.339 9.496 21.594 8.894 21.849 8.291 21.982 7.644 21.985 6.99 21.989 6.335 21.862 5.687 21.613 5.082 21.365 4.477 20.998 3.927 20.536 3.464 20.073 3.002 19.523 2.636 18.918 2.387 18.313 2.138 17.665 2.011 17.01 2.015 16.356 2.018 15.709 2.151 15.107 2.406 14.504 2.661 13.958 3.033 13.5 3.5L3.5 13.5C3.033 13.958 2.661 14.504 2.406 15.107 2.151 15.709 2.018 16.356 2.015 17.01 2.011 17.665 2.138 18.313 2.387 18.918 2.636 19.523 3.002 20.073 3.464 20.536 3.927 20.998 4.477 21.365 5.082 21.613 5.687 21.862 6.335 21.989 6.99 21.985 7.644 21.982 8.291 21.849 8.894 21.594 9.496 21.339 10.042 20.967 10.5 20.5ZM8.5 8.5 15.5 15.5"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    );
+  },
+);
+
+Pill.displayName = "Pill";
+
+Pill.metadata = {
+  name: "Pill",
+  category: "stroke/medical",
+  tags: ["pill", "icon"],
+  description: "Pill icon from stroke/medical category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default Pill;

@@ -1,0 +1,95 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+interface Layers2Props extends IconProps {
+  type?: "stroke";
+}
+
+export const Layers2: IconComponent<Layers2Props> = React.forwardRef<
+  SVGSVGElement,
+  Layers2Props
+>(function Layers2(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    type = "stroke",
+    ...props
+  },
+  forwardedRef,
+) {
+  if (type === "stroke") {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M13 13.74C12.696 13.916 12.351 14.008 12 14.008 11.649 14.008 11.304 13.916 11 13.74L2.5 8.87C2.346 8.783 2.218 8.656 2.129 8.503 2.04 8.351 1.993 8.177 1.993 8 1.993 7.823 2.04 7.649 2.129 7.497 2.218 7.344 2.346 7.217 2.5 7.13L11 2.26C11.304 2.084 11.649 1.992 12 1.992 12.351 1.992 12.696 2.084 13 2.26L21.5 7.13C21.654 7.217 21.782 7.344 21.871 7.497 21.96 7.649 22.007 7.823 22.007 8 22.007 8.177 21.96 8.351 21.871 8.503 21.782 8.656 21.654 8.783 21.5 8.87L13 13.74ZM20 14.285 21.5 15.13C21.654 15.217 21.782 15.344 21.871 15.497 21.96 15.649 22.007 15.823 22.007 16 22.007 16.177 21.96 16.351 21.871 16.503 21.782 16.656 21.654 16.783 21.5 16.87L13 21.74C12.696 21.916 12.351 22.008 12 22.008 11.649 22.008 11.304 21.916 11 21.74L2.5 16.87C2.346 16.783 2.218 16.656 2.129 16.503 2.04 16.351 1.993 16.177 1.993 16 1.993 15.823 2.04 15.649 2.129 15.497 2.218 15.344 2.346 15.217 2.5 15.13L4 14.285"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    );
+  }
+
+  if (type === "stroke") {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M13 13.74C12.696 13.916 12.351 14.008 12 14.008 11.649 14.008 11.304 13.916 11 13.74L2.5 8.87C2.346 8.783 2.218 8.656 2.129 8.503 2.04 8.351 1.993 8.177 1.993 8 1.993 7.823 2.04 7.649 2.129 7.497 2.218 7.344 2.346 7.217 2.5 7.13L11 2.26C11.304 2.084 11.649 1.992 12 1.992 12.351 1.992 12.696 2.084 13 2.26L21.5 7.13C21.654 7.217 21.782 7.344 21.871 7.497 21.96 7.649 22.007 7.823 22.007 8 22.007 8.177 21.96 8.351 21.871 8.503 21.782 8.656 21.654 8.783 21.5 8.87L13 13.74ZM20 14.285 21.5 15.13C21.654 15.217 21.782 15.344 21.871 15.497 21.96 15.649 22.007 15.823 22.007 16 22.007 16.177 21.96 16.351 21.871 16.504 21.782 16.656 21.654 16.783 21.5 16.87L13 21.74C12.696 21.916 12.351 22.008 12 22.008 11.649 22.008 11.304 21.916 11 21.74L2.5 16.87C2.346 16.783 2.218 16.656 2.129 16.504 2.04 16.351 1.993 16.177 1.993 16 1.993 15.823 2.04 15.649 2.129 15.497 2.218 15.344 2.346 15.217 2.5 15.13L4 14.285"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    );
+  }
+
+  console.error(`Layers2 doesn't support ${type}`);
+  return null;
+});
+
+Layers2.displayName = "Layers2";
+
+Layers2.metadata = {
+  name: "Layers2",
+  category: "stroke/layout",
+  tags: ["layers", "icon"],
+  description: "Layers2 icon from stroke/layout category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default Layers2;

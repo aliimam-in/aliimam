@@ -1,0 +1,64 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const BadgeEuro: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function BadgeEuro(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <path
+        d="M3.85 8.62C3.704 7.963 3.726 7.279 3.915 6.632 4.104 5.986 4.453 5.397 4.929 4.922 5.406 4.446 5.995 4.098 6.642 3.911 7.289 3.724 7.973 3.703 8.63 3.85 8.992 3.284 9.49 2.819 10.079 2.496 10.668 2.174 11.329 2.005 12 2.005 12.671 2.005 13.332 2.174 13.921 2.496 14.51 2.819 15.008 3.284 15.37 3.85 16.028 3.702 16.713 3.723 17.361 3.911 18.009 4.098 18.599 4.447 19.076 4.924 19.553 5.401 19.902 5.991 20.089 6.639 20.277 7.287 20.298 7.972 20.15 8.63 20.716 8.992 21.181 9.49 21.504 10.079 21.826 10.668 21.995 11.329 21.995 12 21.995 12.671 21.826 13.332 21.504 13.921 21.181 14.51 20.716 15.008 20.15 15.37 20.297 16.027 20.276 16.711 20.089 17.358 19.902 18.005 19.554 18.594 19.078 19.071 18.603 19.547 18.014 19.896 17.368 20.085 16.721 20.274 16.038 20.296 15.38 20.15 15.019 20.718 14.52 21.185 13.93 21.509 13.34 21.833 12.678 22.003 12.005 22.003 11.332 22.003 10.67 21.833 10.08 21.509 9.49 21.185 8.991 20.718 8.63 20.15 7.973 20.297 7.289 20.276 6.642 20.089 5.995 19.902 5.406 19.554 4.929 19.078 4.453 18.603 4.104 18.014 3.915 17.368 3.726 16.721 3.704 16.037 3.85 15.38 3.28 15.019 2.81 14.52 2.485 13.929 2.16 13.338 1.989 12.675 1.989 12 1.989 11.325 2.16 10.662 2.485 10.071 2.81 9.48 3.28 8.981 3.85 8.62ZM7 12H12"
+        stroke={color}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M15 9.4C14.4685 8.77864 13.7594 8.33507 12.9681 8.12905C12.1769 7.92303 11.3414 7.96446 10.5744 8.24774C9.80742 8.53102 9.14565 9.04256 8.67825 9.71344C8.21084 10.3843 7.96027 11.1823 7.96027 12C7.96027 12.8177 8.21084 13.6157 8.67825 14.2866C9.14565 14.9574 9.80742 15.469 10.5744 15.7523C11.3414 16.0355 12.1769 16.077 12.9681 15.8709C13.7594 15.6649 14.4685 15.2214 15 14.6"
+        stroke={color}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+});
+
+BadgeEuro.displayName = "BadgeEuro";
+
+BadgeEuro.metadata = {
+  name: "BadgeEuro",
+  category: "stroke/finance",
+  tags: ["badge", "euro", "icon"],
+  description: "BadgeEuro icon from stroke/finance category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default BadgeEuro;

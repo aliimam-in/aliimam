@@ -1,0 +1,58 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const AirVent: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function AirVent(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <path
+        d="M18 17.5C18.34 17.755 18.609 18.092 18.782 18.48 18.956 18.868 19.027 19.294 18.99 19.717 18.954 20.14 18.809 20.547 18.572 20.899 18.334 21.251 18.01 21.537 17.631 21.729 17.252 21.922 16.831 22.014 16.406 21.998 15.982 21.982 15.568 21.858 15.205 21.638 14.841 21.418 14.54 21.109 14.329 20.74 14.118 20.371 14.005 19.955 14 19.53V12M6 12H4C3.47 12 2.961 11.789 2.586 11.414 2.211 11.039 2 10.53 2 10V5C2 4.47 2.211 3.961 2.586 3.586 2.961 3.211 3.47 3 4 3H20C20.53 3 21.039 3.211 21.414 3.586 21.789 3.961 22 4.47 22 5V10C22 10.53 21.789 11.039 21.414 11.414 21.039 11.789 20.53 12 20 12H18M6 8H18M6.6 15.572C6.365 15.803 6.19 16.088 6.091 16.403 5.993 16.718 5.974 17.052 6.036 17.376 6.097 17.7 6.239 18.003 6.446 18.26 6.654 18.516 6.922 18.717 7.226 18.844 7.53 18.972 7.86 19.023 8.189 18.991 8.517 18.96 8.833 18.848 9.107 18.666 9.382 18.483 9.607 18.236 9.763 17.945 9.919 17.654 10 17.33 10 17V12"
+        stroke={color}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+});
+
+AirVent.displayName = "AirVent";
+
+AirVent.metadata = {
+  name: "AirVent",
+  category: "stroke/home",
+  tags: ["air", "vent", "icon"],
+  description: "AirVent icon from stroke/home category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default AirVent;

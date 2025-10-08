@@ -1,0 +1,64 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const FolderTree: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function FolderTree(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <path
+        d="M20 10C20.265 10 20.52 9.895 20.707 9.707 20.895 9.52 21 9.265 21 9V6C21 5.735 20.895 5.48 20.707 5.293 20.52 5.105 20.265 5 20 5H17.5C17.345 5 17.192 4.964 17.053 4.894 16.914 4.825 16.793 4.724 16.7 4.6L15.8 3.4C15.707 3.276 15.586 3.175 15.447 3.106 15.308 3.036 15.155 3 15 3H13C12.735 3 12.48 3.105 12.293 3.293 12.105 3.48 12 3.735 12 4V9C12 9.265 12.105 9.52 12.293 9.707 12.48 9.895 12.735 10 13 10H20ZM20 21C20.265 21 20.52 20.895 20.707 20.707 20.895 20.52 21 20.265 21 20V17C21 16.735 20.895 16.48 20.707 16.293 20.52 16.105 20.265 16 20 16H17.1C16.917 15.998 16.738 15.945 16.583 15.848 16.428 15.751 16.302 15.613 16.22 15.45L15.8 14.6C15.722 14.421 15.593 14.269 15.43 14.162 15.266 14.056 15.075 13.999 14.88 14H13C12.735 14 12.48 14.105 12.293 14.293 12.105 14.48 12 14.735 12 15V20C12 20.265 12.105 20.52 12.293 20.707 12.48 20.895 12.735 21 13 21H20ZM3 5C3 5.53 3.211 6.039 3.586 6.414 3.961 6.789 4.47 7 5 7H8"
+        stroke={color}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M3 3V16C3 16.5304 3.21071 17.0391 3.58579 17.4142C3.96086 17.7893 4.46957 18 5 18H8"
+        stroke={color}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+});
+
+FolderTree.displayName = "FolderTree";
+
+FolderTree.metadata = {
+  name: "FolderTree",
+  category: "stroke/files",
+  tags: ["folder", "tree", "icon"],
+  description: "FolderTree icon from stroke/files category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default FolderTree;

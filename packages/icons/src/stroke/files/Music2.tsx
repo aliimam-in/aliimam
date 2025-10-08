@@ -1,0 +1,57 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const Music2: IconComponent = React.forwardRef<SVGSVGElement, IconProps>(
+  function Music2(
+    {
+      color = "currentColor",
+      fill,
+      size = 24,
+      strokeWidth,
+      strokeLinecap,
+      strokeLinejoin,
+      strokeDasharray,
+      opacity,
+      className,
+      ...props
+    },
+    forwardedRef,
+  ) {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M8 22C10.209 22 12 20.209 12 18 12 15.791 10.209 14 8 14 5.791 14 4 15.791 4 18 4 20.209 5.791 22 8 22ZM12 18V2L19 6"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    );
+  },
+);
+
+Music2.displayName = "Music2";
+
+Music2.metadata = {
+  name: "Music2",
+  category: "stroke/files",
+  tags: ["music", "icon"],
+  description: "Music2 icon from stroke/files category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default Music2;

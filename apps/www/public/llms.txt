@@ -54,6 +54,11 @@ This file provides LLM-friendly entry points to documentation and examples.
 - [Accordion Demo](https://github.com/aliimam-in/blob/main/example/accordion/accordion-03.tsx): Example usage
 - [Accordion Demo](https://github.com/aliimam-in/blob/main/example/accordion/accordion-04.tsx): Example usage
 - [Accordion Demo](https://github.com/aliimam-in/blob/main/example/accordion/accordion-05.tsx): Example usage
+- [Alert Demo](https://github.com/aliimam-in/blob/main/example/alert/alert-01.tsx): Example usage
+- [Alert Demo](https://github.com/aliimam-in/blob/main/example/alert/alert-02.tsx): Example usage
+- [Alert Demo](https://github.com/aliimam-in/blob/main/example/alert/alert-03.tsx): Example usage
+- [Alert Demo](https://github.com/aliimam-in/blob/main/example/alert/alert-04.tsx): Example usage
+- [Alert Demo](https://github.com/aliimam-in/blob/main/example/alert/alert-05.tsx): Example usage
 - [Button Demo](https://github.com/aliimam-in/blob/main/example/button/button-01.tsx): Example usage
 - [Button Demo](https://github.com/aliimam-in/blob/main/example/button/button-02.tsx): Example usage
 - [Button Demo](https://github.com/aliimam-in/blob/main/example/button/button-03.tsx): Example usage
@@ -62,20 +67,6 @@ This file provides LLM-friendly entry points to documentation and examples.
 - [Button Demo](https://github.com/aliimam-in/blob/main/example/button/button-06.tsx): Example usage
 - [Button Demo](https://github.com/aliimam-in/blob/main/example/button/button-07.tsx): Example usage
 - [Button Demo](https://github.com/aliimam-in/blob/main/example/button/button-08.tsx): Example usage
-- [typography-blockquote](https://github.com/aliimam-in/blob/main/example/typography/typography-blockquote.tsx): Example usage
-- [typography-demo](https://github.com/aliimam-in/blob/main/example/typography/typography-demo.tsx): Example usage
-- [typography-h1](https://github.com/aliimam-in/blob/main/example/typography/typography-h1.tsx): Example usage
-- [typography-h2](https://github.com/aliimam-in/blob/main/example/typography/typography-h2.tsx): Example usage
-- [typography-h3](https://github.com/aliimam-in/blob/main/example/typography/typography-h3.tsx): Example usage
-- [typography-h4](https://github.com/aliimam-in/blob/main/example/typography/typography-h4.tsx): Example usage
-- [typography-inline-code](https://github.com/aliimam-in/blob/main/example/typography/typography-inline-code.tsx): Example usage
-- [typography-large](https://github.com/aliimam-in/blob/main/example/typography/typography-large.tsx): Example usage
-- [typography-lead](https://github.com/aliimam-in/blob/main/example/typography/typography-lead.tsx): Example usage
-- [typography-list](https://github.com/aliimam-in/blob/main/example/typography/typography-list.tsx): Example usage
-- [typography-muted](https://github.com/aliimam-in/blob/main/example/typography/typography-muted.tsx): Example usage
-- [typography-p](https://github.com/aliimam-in/blob/main/example/typography/typography-p.tsx): Example usage
-- [typography-small](https://github.com/aliimam-in/blob/main/example/typography/typography-small.tsx): Example usage
-- [typography-table](https://github.com/aliimam-in/blob/main/example/typography/typography-table.tsx): Example usage
 - [typography](https://github.com/aliimam-in/blob/main/example/typography/typography.tsx): Example usage
 - [Gradient Wave](https://github.com/aliimam-in/blob/main/example/backgrounds/gradient-wave/gradient-wave-01.tsx): Example usage
 - [Gradient Wave](https://github.com/aliimam-in/blob/main/example/backgrounds/gradient-wave/gradient-wave-02.tsx): Example usage

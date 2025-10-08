@@ -5,42 +5,6 @@ component: true
 ---
 
 <ComponentPreview
-  name="alert-default"
-  title="An alert with an icon, title and description."
-  description="An alert with an icon, title and description. The title says 'Heads up!' and the description is 'You can add components to your app using the cli.'."
-/>
-
-<ComponentPreview
-  name="alert-error"
-  title="An alert with an icon, title and description."
-  description="An alert with an icon, title and description. The title says 'Heads up!' and the description is 'You can add components to your app using the cli.'."
-/>
-
-<ComponentPreview
-  name="alert-info"
-  title="An alert with an icon, title and description."
-  description="An alert with an icon, title and description. The title says 'Heads up!' and the description is 'You can add components to your app using the cli.'."
-/>
-
-<ComponentPreview
-  name="alert-success"
-  title="An alert with an icon, title and description."
-  description="An alert with an icon, title and description. The title says 'Heads up!' and the description is 'You can add components to your app using the cli.'."
-/>
-
-<ComponentPreview
-  name="alert-warning"
-  title="An alert with an icon, title and description."
-  description="An alert with an icon, title and description. The title says 'Heads up!' and the description is 'You can add components to your app using the cli.'."
-/>
-
-<ComponentPreview
-  name="alert-size"
-  title="An alert with an icon, title and description."
-  description="An alert with an icon, title and description. The title says 'Heads up!' and the description is 'You can add components to your app using the cli.'."
-/>
-
-<ComponentPreview
   name="alert-01"
   title="An alert with an icon, title and description."
   description="An alert with an icon, title and description. The title says 'Heads up!' and the description is 'You can add components to your app using the cli.'."
@@ -51,6 +15,24 @@ component: true
   title="An alert with an icon, title and description."
   description="An alert with an icon, title and description. The title says 'Heads up!' and the description is 'You can add components to your app using the cli.'."
 />
+
+<ComponentPreview
+  name="alert-03"
+  title="An alert with an icon, title and description."
+  description="An alert with an icon, title and description. The title says 'Heads up!' and the description is 'You can add components to your app using the cli.'."
+/>
+
+<ComponentPreview
+  name="alert-04"
+  title="An alert with an icon, title and description."
+  description="An alert with an icon, title and description. The title says 'Heads up!' and the description is 'You can add components to your app using the cli.'."
+/>
+
+<ComponentPreview
+  name="alert-05"
+  title="An alert with an icon, title and description."
+  description="An alert with an icon, title and description. The title says 'Heads up!' and the description is 'You can add components to your app using the cli.'."
+/> 
 
 ## Installation
 
@@ -63,7 +45,7 @@ component: true
 <TabsContent value="cli">
 
 ```bash
-npx shadcn@latest add alert
+pnpm dlx shadcn@latest add https://aliimam.in/r/alert.json
 ```
 
 </TabsContent>
@@ -99,32 +81,4 @@ import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"
   </AlertDescription>
 </Alert>
 ```
-
-## API Reference
-
-### Alert
-
-| Prop       | Type                                                                 | Default    | Description |
-|------------|----------------------------------------------------------------------|------------|-------------|
-| `variant`  | `"default"` \| `"destructive"` \| `"success"` \| `"warning"` \| `"info"` | `"default"` | Controls the color scheme and intent of the alert. |
-| `size`     | `"sm"` \| `"md"` \| `"lg"`                                          | `"md"`     | Adjusts padding, text size, and icon sizing. |
-| `className` | `string`                                                            | —          | Additional CSS classes to style the alert. |
-| `...props` | `React.ComponentProps<"div">`                                       | —          | All native `div` element props. |
-
----
-
-### AlertTitle
-
-| Prop       | Type                         | Default | Description |
-|------------|------------------------------|---------|-------------|
-| `className` | `string`                     | —       | Additional CSS classes for the title. |
-| `...props` | `React.ComponentProps<"div">` | —       | All native `div` element props. |
-
----
-
-### AlertDescription
-
-| Prop       | Type                         | Default | Description |
-|------------|------------------------------|---------|-------------|
-| `className` | `string`                     | —       | Additional CSS classes for the description. |
-| `...props` | `React.ComponentProps<"div">` | —       | All native `div` element props. |
+ 

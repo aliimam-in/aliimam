@@ -40,7 +40,7 @@ export const Store: IconComponent = React.forwardRef<SVGSVGElement, IconProps>(
           strokeLinejoin="round"
         />
         <path
-          d="M4 10.95V19C4 19.5304 4.21071 20.0392 4.58579 20.4142C4.96086 20.7893 5.46957 21 6 21H18C18.5304 21 19.0391 20.7893 19.4142 20.4142C19.7893 20.0392 20 19.5304 20 19V10.95"
+          d="M4 10.95V19C4 19.5304 4.21071 20.0391 4.58579 20.4142C4.96086 20.7892 5.46957 21 6 21H18C18.5304 21 19.0391 20.7892 19.4142 20.4142C19.7893 20.0391 20 19.5304 20 19V10.95"
           stroke={color}
           strokeLinecap="round"
           strokeLinejoin="round"

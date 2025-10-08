@@ -1,0 +1,93 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+interface BrushCleaningProps extends IconProps {
+  type?: "stroke";
+}
+
+export const BrushCleaning: IconComponent<BrushCleaningProps> =
+  React.forwardRef<SVGSVGElement, BrushCleaningProps>(function BrushCleaning(
+    {
+      color = "currentColor",
+      fill,
+      size = 24,
+      strokeWidth,
+      strokeLinecap,
+      strokeLinejoin,
+      strokeDasharray,
+      opacity,
+      className,
+      type = "stroke",
+      ...props
+    },
+    forwardedRef,
+  ) {
+    if (type === "stroke") {
+      return (
+        <svg
+          width={size}
+          height={size}
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          className={className}
+          strokeWidth={strokeWidth}
+          strokeLinecap={strokeLinecap}
+          strokeLinejoin={strokeLinejoin}
+          strokeDasharray={strokeDasharray}
+          opacity={opacity}
+          {...props}
+          ref={forwardedRef}
+        >
+          <path
+            d="M16 22 15 18M19 13.99C19.265 13.99 19.52 13.885 19.707 13.697 19.895 13.51 20 13.255 20 12.99V12C20 11.47 19.789 10.961 19.414 10.586 19.039 10.211 18.53 10 18 10H15C14.735 10 14.48 9.895 14.293 9.707 14.105 9.52 14 9.265 14 9V4C14 3.47 13.789 2.961 13.414 2.586 13.039 2.211 12.53 2 12 2 11.47 2 10.961 2.211 10.586 2.586 10.211 2.961 10 3.47 10 4V9C10 9.265 9.895 9.52 9.707 9.707 9.52 9.895 9.265 10 9 10H6C5.47 10 4.961 10.211 4.586 10.586 4.211 10.961 4 11.47 4 12V12.99C4 13.255 4.105 13.51 4.293 13.697 4.48 13.885 4.735 13.99 5 13.99M5 14H19L20.973 20.767C21.008 20.914 21.01 21.067 20.977 21.215 20.945 21.362 20.879 21.501 20.786 21.62 20.692 21.738 20.573 21.834 20.437 21.9 20.3 21.966 20.151 22 20 22H4C3.849 22 3.7 21.966 3.564 21.9 3.428 21.834 3.308 21.738 3.215 21.62 3.121 21.501 3.055 21.362 3.023 21.215 2.99 21.067 2.992 20.914 3.027 20.767L5 14ZM8 22 9 18"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      );
+    }
+
+    if (type === "stroke") {
+      return (
+        <svg
+          width={size}
+          height={size}
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          className={className}
+          strokeWidth={strokeWidth}
+          strokeLinecap={strokeLinecap}
+          strokeLinejoin={strokeLinejoin}
+          strokeDasharray={strokeDasharray}
+          opacity={opacity}
+          {...props}
+          ref={forwardedRef}
+        >
+          <path
+            d="M16 22 15 18M19 13.99C19.265 13.99 19.52 13.885 19.707 13.697 19.895 13.51 20 13.255 20 12.99V12C20 11.47 19.789 10.961 19.414 10.586 19.039 10.211 18.53 10 18 10H15C14.735 10 14.48 9.895 14.293 9.707 14.105 9.52 14 9.265 14 9V4C14 3.47 13.789 2.961 13.414 2.586 13.039 2.211 12.53 2 12 2 11.47 2 10.961 2.211 10.586 2.586 10.211 2.961 10 3.47 10 4V9C10 9.265 9.895 9.52 9.707 9.707 9.52 9.895 9.265 10 9 10H6C5.47 10 4.961 10.211 4.586 10.586 4.211 10.961 4 11.47 4 12V12.99C4 13.255 4.105 13.51 4.293 13.697 4.48 13.885 4.735 13.99 5 13.99M5 14H19L20.973 20.767C21.008 20.914 21.01 21.067 20.977 21.215 20.945 21.362 20.879 21.501 20.786 21.62 20.692 21.738 20.573 21.834 20.437 21.9 20.3 21.966 20.151 22 20 22H4C3.849 22 3.7 21.966 3.564 21.9 3.428 21.834 3.308 21.738 3.215 21.62 3.121 21.501 3.055 21.362 3.023 21.215 2.99 21.067 2.992 20.914 3.027 20.767L5 14ZM8 22 9 18"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      );
+    }
+
+    console.error(`BrushCleaning doesn't support ${type}`);
+    return null;
+  });
+
+BrushCleaning.displayName = "BrushCleaning";
+
+BrushCleaning.metadata = {
+  name: "BrushCleaning",
+  category: "stroke/home",
+  tags: ["brush", "cleaning", "icon"],
+  description: "BrushCleaning icon from stroke/home category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default BrushCleaning;

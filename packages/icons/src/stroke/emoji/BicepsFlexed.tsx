@@ -1,0 +1,70 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const BicepsFlexed: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function BicepsFlexed(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <path
+        d="M12.409 13.017C12.8648 11.9604 13.6711 11.0934 14.6919 10.5622C15.7127 10.031 16.8855 9.86815 18.0124 10.1011C19.1393 10.3341 20.1513 10.9487 20.8777 11.8411C21.6042 12.7336 22.0006 13.8493 22 15C22 18.866 18 22 13 22C8.923 22 4.847 21.18 2.629 19.538C2.203 19.222 1.998 18.706 2.009 18.176C2.118 12.723 2.627 2 10 2C10.7956 2 11.5587 2.31607 12.1213 2.87868C12.6839 3.44129 13 4.20435 13 5C13 5.53043 12.7893 6.03914 12.4142 6.41421C12.0391 6.78929 11.5304 7 11 7C9.895 7 9.36 6.556 9 6"
+        stroke={color}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M15 14C14.3965 13.5471 13.6983 13.2366 12.9578 13.0919C12.2172 12.9472 11.4535 12.972 10.724 13.1644C9.99435 13.3568 9.31776 13.7119 8.74488 14.2029C8.172 14.694 7.7177 15.3083 7.416 16"
+        stroke={color}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M9.964 6.82495C8.019 7.97695 9.5 13 8 15"
+        stroke={color}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+});
+
+BicepsFlexed.displayName = "BicepsFlexed";
+
+BicepsFlexed.metadata = {
+  name: "BicepsFlexed",
+  category: "stroke/emoji",
+  tags: ["biceps", "flexed", "icon"],
+  description: "BicepsFlexed icon from stroke/emoji category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default BicepsFlexed;

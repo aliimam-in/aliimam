@@ -1,0 +1,63 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const NutOff: IconComponent = React.forwardRef<SVGSVGElement, IconProps>(
+  function NutOff(
+    {
+      color = "currentColor",
+      fill,
+      size = 24,
+      strokeWidth,
+      strokeLinecap,
+      strokeLinejoin,
+      strokeDasharray,
+      opacity,
+      className,
+      ...props
+    },
+    forwardedRef,
+  ) {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M12 4V2M5 10V14C5 15.557 5.519 17.069 6.475 18.298 7.43 19.528 8.768 20.403 10.277 20.787 10.689 20.891 11.079 21.079 11.379 21.379L12 22 12.621 21.379C12.921 21.079 13.311 20.891 13.723 20.787 15.416 20.356 16.887 19.308 17.848 17.848M19 10V13.343"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M12 12C10.651 11.427 10.095 10.995 9.5 10 8.954 10.902 8.452 11.353 7 12 5.982 11.356 5.54 10.92 5 10 3.972 10.71 3.31 10.918 2 11 3.081 9.952 3.757 8.97 4 8 4.194 7.224 4.84 6.449 5.79 5.79M17.444 11.787C18.331 11.33 18.724 10.896 19 10 20.032 10.916 20.683 11.157 22 11 20.703 9.964 20.242 8.97 20 8 19.5 6 16 4 12 4 11.26 4 10.539 4.068 9.85 4.192M2 2 22 22"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    );
+  },
+);
+
+NutOff.displayName = "NutOff";
+
+NutOff.metadata = {
+  name: "NutOff",
+  category: "stroke/foodBeverage",
+  tags: ["nut", "off", "icon"],
+  description: "NutOff icon from stroke/foodBeverage category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default NutOff;

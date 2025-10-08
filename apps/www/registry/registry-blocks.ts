@@ -303,12 +303,30 @@ export const blocks: Registry["items"] = [
     registryDependencies: ["button", "card", "input", "label"],
     files: [
       {
-        path: "blocks/login-01/page.tsx",
+        path: "blocks/login/login-01/page.tsx",
         target: "app/login-01/page.tsx",
         type: "registry:page",
       },
       {
-        path: "blocks/login-01/components/login-form.tsx",
+        path: "blocks/login/login-01/components/login-form.tsx",
+        type: "registry:component",
+      },
+    ],
+    categories: ["authentication", "login"],
+  },
+  {
+    name: "login-02",
+    description: "A simple login form.",
+    type: "registry:block",
+    registryDependencies: ["button", "card", "input", "label"],
+    files: [
+      {
+        path: "blocks/login/login-02/page.tsx",
+        target: "app/login-02/page.tsx",
+        type: "registry:page",
+      },
+      {
+        path: "blocks/login/login-02/components/login-form.tsx",
         type: "registry:component",
       },
     ],

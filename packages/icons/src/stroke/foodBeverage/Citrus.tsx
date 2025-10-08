@@ -1,0 +1,69 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const Citrus: IconComponent = React.forwardRef<SVGSVGElement, IconProps>(
+  function Citrus(
+    {
+      color = "currentColor",
+      fill,
+      size = 24,
+      strokeWidth,
+      strokeLinecap,
+      strokeLinejoin,
+      strokeDasharray,
+      opacity,
+      className,
+      ...props
+    },
+    forwardedRef,
+  ) {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M21.66 17.67C21.7691 17.774 21.8553 17.8997 21.9129 18.039C21.9706 18.1783 21.9984 18.3282 21.9946 18.4789C21.9908 18.6296 21.9556 18.7778 21.891 18.9141C21.8265 19.0503 21.7342 19.1716 21.62 19.27C19.3174 21.1624 16.393 22.1301 13.4162 21.9849C10.4393 21.8397 7.62299 20.5919 5.51552 18.4845C3.40806 16.377 2.16026 13.5607 2.01505 10.5838C1.86985 7.60695 2.83763 4.68257 4.72999 2.38C4.83015 2.26686 4.95255 2.17558 5.08955 2.11183C5.22655 2.04808 5.37522 2.01325 5.52628 2.00949C5.67734 2.00574 5.82755 2.03315 5.96755 2.09002C6.10755 2.14688 6.23433 2.23198 6.33999 2.34L21.66 17.67Z"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M19.65 15.66C18.136 17.096 16.122 17.883 14.036 17.855 11.949 17.826 9.957 16.984 8.483 15.507 7.009 14.031 6.17 12.037 6.145 9.951 6.121 7.865 6.912 5.851 8.35 4.34M14 10 8.5 15.5"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M14 17.85V10H6.15002"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    );
+  },
+);
+
+Citrus.displayName = "Citrus";
+
+Citrus.metadata = {
+  name: "Citrus",
+  category: "stroke/foodBeverage",
+  tags: ["citrus", "icon"],
+  description: "Citrus icon from stroke/foodBeverage category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default Citrus;

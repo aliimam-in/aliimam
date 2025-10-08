@@ -1,0 +1,58 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const AlignCenterHorizontal: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function AlignCenterHorizontal(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <path
+        d="M2 12H22M10 16V20C10 20.53 9.789 21.039 9.414 21.414 9.039 21.789 8.53 22 8 22H6C5.47 22 4.961 21.789 4.586 21.414 4.211 21.039 4 20.53 4 20V16M10 8V4C10 3.47 9.789 2.961 9.414 2.586 9.039 2.211 8.53 2 8 2H6C5.47 2 4.961 2.211 4.586 2.586 4.211 2.961 4 3.47 4 4V8M20 16V17C20 17.53 19.789 18.039 19.414 18.414 19.039 18.789 18.53 19 18 19H16C15.47 19 14.961 18.789 14.586 18.414 14.211 18.039 14 17.53 14 17V16M14 8V7C14 5.9 14.9 5 16 5H18C18.53 5 19.039 5.211 19.414 5.586 19.789 5.961 20 6.47 20 7V8"
+        stroke={color}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+});
+
+AlignCenterHorizontal.displayName = "AlignCenterHorizontal";
+
+AlignCenterHorizontal.metadata = {
+  name: "AlignCenterHorizontal",
+  category: "stroke/layout",
+  tags: ["align", "center", "horizontal", "icon"],
+  description: "AlignCenterHorizontal icon from stroke/layout category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default AlignCenterHorizontal;

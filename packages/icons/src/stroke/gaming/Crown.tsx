@@ -1,0 +1,57 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const Crown: IconComponent = React.forwardRef<SVGSVGElement, IconProps>(
+  function Crown(
+    {
+      color = "currentColor",
+      fill,
+      size = 24,
+      strokeWidth,
+      strokeLinecap,
+      strokeLinejoin,
+      strokeDasharray,
+      opacity,
+      className,
+      ...props
+    },
+    forwardedRef,
+  ) {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M11.562 3.266C11.605 3.188 11.669 3.122 11.746 3.077 11.823 3.031 11.911 3.007 12 3.007 12.09 3.007 12.177 3.031 12.254 3.077 12.332 3.122 12.395 3.188 12.438 3.266L15.39 8.87C15.461 9 15.559 9.112 15.678 9.2 15.797 9.287 15.934 9.347 16.079 9.375 16.224 9.403 16.373 9.399 16.516 9.362 16.659 9.326 16.792 9.258 16.906 9.164L21.183 5.5C21.265 5.433 21.366 5.394 21.472 5.389 21.578 5.383 21.682 5.411 21.771 5.469 21.86 5.526 21.928 5.611 21.966 5.71 22.003 5.809 22.009 5.917 21.981 6.019L19.147 16.265C19.089 16.475 18.965 16.66 18.792 16.792 18.62 16.925 18.409 16.997 18.191 16.999H5.81C5.592 16.998 5.381 16.925 5.208 16.793 5.036 16.66 4.911 16.475 4.853 16.265L2.02 6.02C1.992 5.918 1.998 5.81 2.035 5.711 2.073 5.612 2.141 5.527 2.23 5.47 2.319 5.412 2.423 5.384 2.529 5.39 2.635 5.395 2.736 5.434 2.818 5.501L7.094 9.165C7.208 9.259 7.341 9.327 7.484 9.363 7.627 9.4 7.777 9.404 7.921 9.376 8.066 9.348 8.203 9.288 8.322 9.201 8.441 9.113 8.54 9.001 8.61 8.871L11.562 3.266ZM5 21H19"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    );
+  },
+);
+
+Crown.displayName = "Crown";
+
+Crown.metadata = {
+  name: "Crown",
+  category: "stroke/gaming",
+  tags: ["crown", "icon"],
+  description: "Crown icon from stroke/gaming category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default Crown;

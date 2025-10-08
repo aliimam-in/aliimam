@@ -1,0 +1,64 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const IceCreamBowl: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function IceCreamBowl(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <path
+        d="M8 21H16M12 18V21M5.14 11C4.9848 10.4777 4.95367 9.92639 5.0491 9.38996C5.14454 8.85353 5.36389 8.34679 5.6897 7.91008C6.01551 7.47337 6.43877 7.11876 6.9258 6.87448C7.41282 6.6302 7.95015 6.50299 8.495 6.50299C9.03985 6.50299 9.57718 6.6302 10.0642 6.87448C10.5512 7.11876 10.9745 7.47337 11.3003 7.91008C11.6261 8.34679 11.8455 8.85353 11.9409 9.38996C12.0363 9.92639 12.0052 10.4777 11.85 11M12 17C17 17 20 14.31 20 11H4C4 14.31 7 17 12 17Z"
+        stroke={color}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M12.14 11C11.985 10.478 11.954 9.926 12.049 9.39 12.145 8.854 12.364 8.347 12.69 7.91 13.016 7.473 13.439 7.119 13.926 6.874 14.413 6.63 14.95 6.503 15.495 6.503 16.04 6.503 16.577 6.63 17.064 6.874 17.551 7.119 17.975 7.473 18.3 7.91 18.626 8.347 18.846 8.854 18.941 9.39 19.036 9.926 19.005 10.478 18.85 11M15.5 6.5C15.5 6.04 15.41 5.585 15.234 5.161 15.058 4.736 14.8 4.35 14.475 4.025 14.15 3.7 13.764 3.442 13.339 3.266 12.915 3.091 12.46 3 12 3 11.54 3 11.085 3.091 10.661 3.266 10.236 3.442 9.85 3.7 9.525 4.025 9.2 4.35 8.942 4.736 8.766 5.161 8.591 5.585 8.5 6.04 8.5 6.5"
+        stroke={color}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+});
+
+IceCreamBowl.displayName = "IceCreamBowl";
+
+IceCreamBowl.metadata = {
+  name: "IceCreamBowl",
+  category: "stroke/foodBeverage",
+  tags: ["ice", "cream", "bowl", "icon"],
+  description: "IceCreamBowl icon from stroke/foodBeverage category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default IceCreamBowl;

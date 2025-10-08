@@ -1,0 +1,107 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+interface FileDigitProps extends IconProps {
+  type?: "stroke";
+}
+
+export const FileDigit: IconComponent<FileDigitProps> = React.forwardRef<
+  SVGSVGElement,
+  FileDigitProps
+>(function FileDigit(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    type = "stroke",
+    ...props
+  },
+  forwardedRef,
+) {
+  if (type === "stroke") {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M4 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V7L15 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V8"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M14 2V6C14 6.53 14.211 7.039 14.586 7.414 14.961 7.789 15.47 8 16 8H20M6 14C6 12.895 5.105 12 4 12 2.895 12 2 12.895 2 14V16C2 17.105 2.895 18 4 18 5.105 18 6 17.105 6 16V14ZM10 12H12V18M10 18H14"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    );
+  }
+
+  if (type === "stroke") {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M4 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V7L15 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V8"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M14 2V6C14 6.53 14.211 7.039 14.586 7.414 14.961 7.789 15.47 8 16 8H20M6 14C6 12.895 5.105 12 4 12 2.895 12 2 12.895 2 14V16C2 17.105 2.895 18 4 18 5.105 18 6 17.105 6 16V14ZM10 12H12V18M10 18H14"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    );
+  }
+
+  console.error(`FileDigit doesn't support ${type}`);
+  return null;
+});
+
+FileDigit.displayName = "FileDigit";
+
+FileDigit.metadata = {
+  name: "FileDigit",
+  category: "stroke/files",
+  tags: ["file", "digit", "icon"],
+  description: "FileDigit icon from stroke/files category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default FileDigit;

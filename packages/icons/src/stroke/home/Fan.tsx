@@ -1,0 +1,57 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const Fan: IconComponent = React.forwardRef<SVGSVGElement, IconProps>(
+  function Fan(
+    {
+      color = "currentColor",
+      fill,
+      size = 24,
+      strokeWidth,
+      strokeLinecap,
+      strokeLinejoin,
+      strokeDasharray,
+      opacity,
+      className,
+      ...props
+    },
+    forwardedRef,
+  ) {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M10.827 16.379C9.779 16.909 8.6 17.123 7.433 16.998 6.266 16.872 5.16 16.411 4.249 15.671 3.337 14.931 2.66 13.943 2.298 12.826 1.936 11.709 1.905 10.511 2.209 9.377L7.621 10.827C7.091 9.779 6.877 8.6 7.002 7.433 7.128 6.266 7.589 5.16 8.329 4.249 9.069 3.337 10.057 2.66 11.174 2.298 12.291 1.936 13.489 1.905 14.623 2.209L13.173 7.621C14.221 7.091 15.4 6.877 16.567 7.002 17.734 7.128 18.84 7.589 19.751 8.329 20.663 9.069 21.34 10.057 21.702 11.174 22.064 12.291 22.095 13.489 21.791 14.623L16.379 13.173C16.909 14.221 17.123 15.4 16.998 16.567 16.872 17.734 16.411 18.84 15.671 19.751 14.931 20.663 13.943 21.34 12.826 21.702 11.709 22.064 10.511 22.095 9.377 21.791L10.827 16.379ZM12 12V12.01"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    );
+  },
+);
+
+Fan.displayName = "Fan";
+
+Fan.metadata = {
+  name: "Fan",
+  category: "stroke/home",
+  tags: ["fan", "icon"],
+  description: "Fan icon from stroke/home category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default Fan;

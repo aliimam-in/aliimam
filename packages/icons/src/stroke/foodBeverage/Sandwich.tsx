@@ -1,0 +1,64 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const Sandwich: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function Sandwich(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <path
+        d="M2.37 11.223 10.742 4.446C11.098 4.158 11.542 4.001 12 4.001 12.458 4.001 12.902 4.158 13.258 4.446L21.629 11.223M21 15C21.265 15 21.52 15.105 21.707 15.293 21.895 15.48 22 15.735 22 16V18C22 18.265 21.895 18.52 21.707 18.707 21.52 18.895 21.265 19 21 19H15.75M3 15C2.735 15 2.48 15.105 2.293 15.293 2.105 15.48 2 15.735 2 16V18C2 18.265 2.105 18.52 2.293 18.707 2.48 18.895 2.735 19 3 19H12M6.67 15 12.8 19.6C13.01 19.758 13.249 19.872 13.504 19.937 13.758 20.003 14.023 20.017 14.283 19.98 14.543 19.943 14.793 19.855 15.019 19.721 15.245 19.587 15.442 19.41 15.6 19.2L18.75 15"
+        stroke={color}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M21 11H3C2.44772 11 2 11.4477 2 12V14C2 14.5523 2.44772 15 3 15H21C21.5523 15 22 14.5523 22 14V12C22 11.4477 21.5523 11 21 11Z"
+        stroke={color}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+});
+
+Sandwich.displayName = "Sandwich";
+
+Sandwich.metadata = {
+  name: "Sandwich",
+  category: "stroke/foodBeverage",
+  tags: ["sandwich", "icon"],
+  description: "Sandwich icon from stroke/foodBeverage category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default Sandwich;

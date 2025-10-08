@@ -1,0 +1,58 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const WineOff: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function WineOff(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <path
+        d="M8 22H16M7 10H10M17 10H15.657M12 15V22M7.307 7.307C7.106 8.191 7.003 9.094 7 10 7 10.867 7.226 11.719 7.654 12.473 8.083 13.226 8.701 13.856 9.446 14.298 10.192 14.741 11.039 14.983 11.906 14.999 12.773 15.015 13.63 14.806 14.391 14.391M8.638 2.981C8.75 2.668 8.872 2.34 9 2H15C16.5 6 17 8 17 10 17 10.407 16.95 10.809 16.855 11.198M2 2 22 22"
+        stroke={color}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+});
+
+WineOff.displayName = "WineOff";
+
+WineOff.metadata = {
+  name: "WineOff",
+  category: "stroke/foodBeverage",
+  tags: ["wine", "off", "icon"],
+  description: "WineOff icon from stroke/foodBeverage category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default WineOff;

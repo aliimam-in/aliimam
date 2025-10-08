@@ -1,0 +1,64 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const LampWallUp: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function LampWallUp(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <path
+        d="M19.929 9.629C19.99 9.781 20.012 9.945 19.995 10.108 19.977 10.27 19.92 10.426 19.828 10.561 19.737 10.696 19.613 10.807 19.469 10.884 19.324 10.96 19.163 11 19 11H9C8.837 11 8.676 10.96 8.532 10.883 8.387 10.807 8.264 10.696 8.172 10.561 8.081 10.425 8.024 10.27 8.006 10.107 7.989 9.945 8.011 9.781 8.072 9.629L10.072 4.629C10.146 4.443 10.274 4.284 10.44 4.172 10.605 4.06 10.8 4 11 4H17C17.2 4 17.395 4.06 17.56 4.172 17.726 4.284 17.854 4.443 17.928 4.629L19.929 9.629ZM6 15C6.53 15 7.039 15.211 7.414 15.586 7.789 15.961 8 16.47 8 17V19C8 19.53 7.789 20.039 7.414 20.414 7.039 20.789 6.53 21 6 21H5C4.735 21 4.48 20.895 4.293 20.707 4.105 20.52 4 20.265 4 20V16C4 15.735 4.105 15.48 4.293 15.293 4.48 15.105 4.735 15 5 15H6Z"
+        stroke={color}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M8 18H12C12.5304 18 13.0391 17.7893 13.4142 17.4142C13.7893 17.0391 14 16.5304 14 16V11"
+        stroke={color}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+});
+
+LampWallUp.displayName = "LampWallUp";
+
+LampWallUp.metadata = {
+  name: "LampWallUp",
+  category: "stroke/home",
+  tags: ["lamp", "wall", "up", "icon"],
+  description: "LampWallUp icon from stroke/home category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default LampWallUp;

@@ -1,0 +1,119 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+interface AmphoraProps extends IconProps {
+  type?: "stroke";
+}
+
+export const Amphora: IconComponent<AmphoraProps> = React.forwardRef<
+  SVGSVGElement,
+  AmphoraProps
+>(function Amphora(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    type = "stroke",
+    ...props
+  },
+  forwardedRef,
+) {
+  if (type === "stroke") {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M10 2V7.632C10 8.056 9.728 8.427 9.347 8.614C8.34175 9.10956 7.4954 9.87678 6.90384 10.8287C6.31229 11.7806 5.99918 12.8792 6 14C6.006 18 9 21 11 22"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M10 5H8C7.47 5 6.961 5.211 6.586 5.586 6.211 5.961 6 6.47 6 7 6 7.53 6.211 8.039 6.586 8.414 6.961 8.789 7.47 9 8 9H8.68M14 2V7.632C14 8.056 14.272 8.427 14.652 8.614 15.657 9.109 16.504 9.877 17.096 10.829 17.688 11.781 18.001 12.879 18 14 18 18 15 21 13 22"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M14 5H16C16.53 5 17.039 5.211 17.414 5.586 17.789 5.961 18 6.47 18 7 18 7.53 17.789 8.039 17.414 8.414 17.039 8.789 16.53 9 16 9H15.32M18 22H6M9 2H15"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    );
+  }
+
+  if (type === "stroke") {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M10 2V7.632C10 8.056 9.728 8.427 9.347 8.614C8.34175 9.10956 7.4954 9.87678 6.90384 10.8287C6.31229 11.7806 5.99918 12.8792 6 14C6.006 18 9 21 11 22"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M10 5H8C7.47 5 6.961 5.211 6.586 5.586 6.211 5.961 6 6.47 6 7 6 7.53 6.211 8.039 6.586 8.414 6.961 8.789 7.47 9 8 9H8.68M14 2V7.632C14 8.056 14.272 8.427 14.652 8.614 15.657 9.109 16.504 9.877 17.096 10.829 17.688 11.781 18.001 12.879 18 14 18 18 15 21 13 22"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M14 5H16C16.53 5 17.039 5.211 17.414 5.586 17.789 5.961 18 6.47 18 7 18 7.53 17.789 8.039 17.414 8.414 17.039 8.789 16.53 9 16 9H15.32M18 22H6M9 2H15"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    );
+  }
+
+  console.error(`Amphora doesn't support ${type}`);
+  return null;
+});
+
+Amphora.displayName = "Amphora";
+
+Amphora.metadata = {
+  name: "Amphora",
+  category: "stroke/gaming",
+  tags: ["amphora", "icon"],
+  description: "Amphora icon from stroke/gaming category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default Amphora;

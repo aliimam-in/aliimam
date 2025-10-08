@@ -1,0 +1,95 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+interface PencilRulerProps extends IconProps {
+  type?: "stroke";
+}
+
+export const PencilRuler: IconComponent<PencilRulerProps> = React.forwardRef<
+  SVGSVGElement,
+  PencilRulerProps
+>(function PencilRuler(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    type = "stroke",
+    ...props
+  },
+  forwardedRef,
+) {
+  if (type === "stroke") {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M13 7 8.7 2.7C8.248 2.251 7.637 1.998 7 1.998 6.363 1.998 5.752 2.251 5.3 2.7L2.7 5.3C2.251 5.752 1.998 6.363 1.998 7 1.998 7.637 2.251 8.248 2.7 8.7L7 13M8 6 10 4M18 16 20 14M17 11 21.3 15.3C22.24 16.24 22.24 17.76 21.3 18.7L18.7 21.3C17.76 22.24 16.24 22.24 15.3 21.3L11 17M21.174 6.812C21.703 6.283 22 5.566 22 4.819 22 4.071 21.703 3.354 21.175 2.826 20.646 2.297 19.929 2 19.181 2 18.434 2 17.717 2.296 17.188 2.825L3.842 16.174C3.61 16.406 3.438 16.691 3.342 17.004L2.021 21.356C1.995 21.443 1.993 21.534 2.015 21.622 2.038 21.709 2.083 21.789 2.147 21.853 2.211 21.917 2.291 21.962 2.378 21.984 2.466 22.006 2.558 22.004 2.644 21.978L6.997 20.658C7.31 20.563 7.595 20.392 7.827 20.161L21.174 6.812ZM15 5 19 9"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    );
+  }
+
+  if (type === "stroke") {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M13 7 8.7 2.7C8.248 2.251 7.637 1.998 7 1.998 6.363 1.998 5.752 2.251 5.3 2.7L2.7 5.3C2.251 5.752 1.998 6.363 1.998 7 1.998 7.637 2.251 8.248 2.7 8.7L7 13M8 6 10 4M18 16 20 14M17 11 21.3 15.3C22.24 16.24 22.24 17.76 21.3 18.7L18.7 21.3C17.76 22.24 16.24 22.24 15.3 21.3L11 17M21.174 6.812C21.703 6.283 22 5.566 22 4.819 22 4.071 21.703 3.354 21.174 2.826 20.646 2.297 19.929 2 19.181 2 18.434 2 17.717 2.296 17.188 2.825L3.842 16.174C3.61 16.406 3.438 16.691 3.342 17.004L2.021 21.356C1.995 21.443 1.993 21.534 2.015 21.622 2.037 21.709 2.083 21.789 2.147 21.853 2.211 21.917 2.291 21.962 2.378 21.984 2.466 22.006 2.557 22.004 2.644 21.978L6.997 20.658C7.31 20.563 7.595 20.392 7.827 20.161L21.174 6.812ZM15 5 19 9"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    );
+  }
+
+  console.error(`PencilRuler doesn't support ${type}`);
+  return null;
+});
+
+PencilRuler.displayName = "PencilRuler";
+
+PencilRuler.metadata = {
+  name: "PencilRuler",
+  category: "stroke/layout",
+  tags: ["pencil", "ruler", "icon"],
+  description: "PencilRuler icon from stroke/layout category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default PencilRuler;

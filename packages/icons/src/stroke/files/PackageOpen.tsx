@@ -1,0 +1,119 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+interface PackageOpenProps extends IconProps {
+  type?: "stroke";
+}
+
+export const PackageOpen: IconComponent<PackageOpenProps> = React.forwardRef<
+  SVGSVGElement,
+  PackageOpenProps
+>(function PackageOpen(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    type = "stroke",
+    ...props
+  },
+  forwardedRef,
+) {
+  if (type === "stroke") {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M12 22V13M15.17 2.21C15.419 2.071 15.7 1.998 15.985 1.998 16.27 1.998 16.551 2.071 16.8 2.21L21 4.57C21.297 4.738 21.545 4.982 21.717 5.278 21.889 5.573 21.98 5.908 21.98 6.25 21.98 6.592 21.889 6.927 21.717 7.222 21.545 7.518 21.297 7.762 21 7.93L8.82 14.79C8.57 14.933 8.288 15.007 8 15.007 7.712 15.007 7.43 14.933 7.18 14.79L3 12.43C2.703 12.262 2.455 12.018 2.283 11.723 2.111 11.427 2.02 11.092 2.02 10.75 2.02 10.408 2.111 10.073 2.283 9.778 2.455 9.482 2.703 9.238 3 9.07L15.17 2.21Z"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M20 13V16.87C20.0004 17.2474 19.8971 17.6178 19.7013 17.9405C19.5056 18.2632 19.2249 18.5259 18.89 18.7L12.89 21.78C12.6151 21.9229 12.3098 21.9975 12 21.9975C11.6902 21.9975 11.3849 21.9229 11.11 21.78L5.11 18.7C4.77508 18.5259 4.49443 18.2632 4.29868 17.9405C4.10293 17.6178 3.99961 17.2474 4 16.87V13"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M21 12.43C21.2974 12.2618 21.5449 12.0176 21.7171 11.7225C21.8893 11.4273 21.98 11.0917 21.98 10.75C21.98 10.4083 21.8893 10.0727 21.7171 9.77753C21.5449 9.48236 21.2974 9.2382 21 9.07L8.82999 2.2C8.58187 2.05791 8.30091 1.98315 8.01499 1.98315C7.72906 1.98315 7.44811 2.05791 7.19999 2.2L2.99999 4.57C2.70254 4.7382 2.45508 4.98236 2.2829 5.27753C2.11072 5.57269 2.01999 5.90828 2.01999 6.25C2.01999 6.59171 2.11072 6.9273 2.2829 7.22247C2.45508 7.51764 2.70254 7.7618 2.99999 7.93L15.18 14.79C15.428 14.9325 15.709 15.0075 15.995 15.0075C16.281 15.0075 16.562 14.9325 16.81 14.79L21 12.43Z"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    );
+  }
+
+  if (type === "stroke") {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M12 22V13M15.17 2.21C15.419 2.071 15.7 1.998 15.985 1.998 16.27 1.998 16.551 2.071 16.8 2.21L21 4.57C21.298 4.738 21.545 4.982 21.717 5.278 21.889 5.573 21.98 5.908 21.98 6.25 21.98 6.592 21.889 6.927 21.717 7.223 21.545 7.518 21.298 7.762 21 7.93L8.82 14.79C8.57 14.933 8.288 15.008 8 15.008 7.712 15.008 7.43 14.933 7.18 14.79L3 12.43C2.703 12.262 2.455 12.018 2.283 11.723 2.111 11.427 2.02 11.092 2.02 10.75 2.02 10.408 2.111 10.073 2.283 9.778 2.455 9.482 2.703 9.238 3 9.07L15.17 2.21Z"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M20 13V16.87C20.0004 17.2474 19.8971 17.6178 19.7013 17.9405C19.5056 18.2632 19.2249 18.5259 18.89 18.7L12.89 21.78C12.6151 21.9229 12.3098 21.9975 12 21.9975C11.6902 21.9975 11.3849 21.9229 11.11 21.78L5.11 18.7C4.77508 18.5259 4.49443 18.2632 4.29868 17.9405C4.10293 17.6178 3.99961 17.2474 4 16.87V13"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M21 12.43C21.2975 12.2618 21.5449 12.0176 21.7171 11.7225C21.8893 11.4273 21.98 11.0917 21.98 10.75C21.98 10.4083 21.8893 10.0727 21.7171 9.77753C21.5449 9.48236 21.2975 9.2382 21 9.07L8.83002 2.2C8.5819 2.05791 8.30094 1.98315 8.01502 1.98315C7.7291 1.98315 7.44814 2.05791 7.20002 2.2L3.00002 4.57C2.70257 4.7382 2.45511 4.98236 2.28293 5.27753C2.11075 5.57269 2.02002 5.90828 2.02002 6.25C2.02002 6.59171 2.11075 6.9273 2.28293 7.22247C2.45511 7.51764 2.70257 7.7618 3.00002 7.93L15.18 14.79C15.428 14.9325 15.709 15.0075 15.995 15.0075C16.281 15.0075 16.562 14.9325 16.81 14.79L21 12.43Z"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    );
+  }
+
+  console.error(`PackageOpen doesn't support ${type}`);
+  return null;
+});
+
+PackageOpen.displayName = "PackageOpen";
+
+PackageOpen.metadata = {
+  name: "PackageOpen",
+  category: "stroke/files",
+  tags: ["package", "open", "icon"],
+  description: "PackageOpen icon from stroke/files category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default PackageOpen;

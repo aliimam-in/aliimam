@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "alert-04",
+  "type": "registry:example",
+  "title": "Alert Demo",
+  "description": "",
+  "registryDependencies": [
+    "@aliimam/alert"
+  ],
+  "files": [
+    {
+      "path": "registry/default/example/alert/alert-04.tsx",
+      "content": "import {\n  Alert,\n  AlertDescription,\n  AlertTitle,\n} from \"@/registry/default/ui/alert\";\nimport { CheckCircle2 } from \"lucide-react\";\n\nexport function Alert04() {\n  return (\n    <div className=\"w-full max-w-xl mx-auto\">\n      <Alert>\n        <CheckCircle2 />\n        <AlertTitle>Success! Your changes have been saved</AlertTitle>\n        <AlertDescription>\n          This is an alert with icon, title and description.\n        </AlertDescription>\n      </Alert>\n    </div>\n  );\n}\n",
+      "type": "registry:example"
+    }
+  ]
+}

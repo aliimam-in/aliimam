@@ -1,0 +1,58 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const GeorgianLari: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function GeorgianLari(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <path
+        d="M11.5 21C10.081 21 8.691 20.597 7.492 19.838 6.293 19.08 5.333 17.996 4.725 16.714 4.117 15.432 3.885 14.004 4.056 12.595 4.228 11.186 4.795 9.855 5.693 8.756 6.59 7.657 7.781 6.835 9.127 6.386 10.473 5.937 11.919 5.878 13.297 6.218 14.675 6.558 15.928 7.281 16.911 8.305 17.894 9.328 18.566 10.61 18.85 12M13 12V3M4 21H20M9 12V3"
+        stroke={color}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+});
+
+GeorgianLari.displayName = "GeorgianLari";
+
+GeorgianLari.metadata = {
+  name: "GeorgianLari",
+  category: "stroke/finance",
+  tags: ["georgian", "lari", "icon"],
+  description: "GeorgianLari icon from stroke/finance category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default GeorgianLari;

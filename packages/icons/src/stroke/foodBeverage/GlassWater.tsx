@@ -1,0 +1,64 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const GlassWater: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function GlassWater(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <path
+        d="M5.11602 4.104C5.10145 3.96471 5.11631 3.82392 5.15962 3.69074C5.20293 3.55756 5.27373 3.43496 5.36744 3.33089C5.46114 3.22681 5.57566 3.14358 5.70358 3.08658C5.83151 3.02958 5.96997 3.00008 6.11002 3H17.89C18.0302 3.00007 18.1687 3.02959 18.2967 3.08665C18.4247 3.14371 18.5393 3.22703 18.633 3.33122C18.7267 3.43541 18.7975 3.55813 18.8407 3.69143C18.884 3.82473 18.8987 3.96564 18.884 4.105L17.19 20.21C17.1381 20.7015 16.9061 21.1564 16.5386 21.487C16.1711 21.8175 15.6943 22.0003 15.2 22H8.80002C8.30404 22.0027 7.82474 21.8211 7.45516 21.4903C7.08558 21.1595 6.85209 20.7032 6.80002 20.21L5.11602 4.104Z"
+        stroke={color}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M6 12C6.86548 11.3509 7.91815 11 9 11C10.0819 11 11.1345 11.3509 12 12C12.8655 12.6491 13.9181 13 15 13C16.0819 13 17.1345 12.6491 18 12"
+        stroke={color}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+});
+
+GlassWater.displayName = "GlassWater";
+
+GlassWater.metadata = {
+  name: "GlassWater",
+  category: "stroke/foodBeverage",
+  tags: ["glass", "water", "icon"],
+  description: "GlassWater icon from stroke/foodBeverage category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default GlassWater;

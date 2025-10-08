@@ -67,7 +67,7 @@ const items = [
 export function PricingAccordion() {
   return (
     <div className="w-full max-w-3xl mx-auto">
-      <Accordion type="single" collapsible className="w-full">
+      <Accordion type="single" defaultValue="5" collapsible className="w-full">
         {items.map((item) => (
           <AccordionItem value={item.id} key={item.id} className="last:border-b">
             <AccordionTrigger className="text-left pl-6 md:pl-14 overflow-hidden text-foreground/20 duration-200 hover:no-underline cursor-pointer -space-y-6 data-[state=open]:space-y-0 data-[state=open]:text-primary [&>svg]:hidden">

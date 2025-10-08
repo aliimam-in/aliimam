@@ -36,6 +36,31 @@ Description: The alert component.
 
 
 
+===== EXAMPLE: alert-01 =====
+Title: Alert Demo
+
+
+
+===== EXAMPLE: alert-02 =====
+Title: Alert Demo
+
+
+
+===== EXAMPLE: alert-03 =====
+Title: Alert Demo
+
+
+
+===== EXAMPLE: alert-04 =====
+Title: Alert Demo
+
+
+
+===== EXAMPLE: alert-05 =====
+Title: Alert Demo
+
+
+
 
 ===== COMPONENT: alert-dialog =====
 Title: alert-dialog

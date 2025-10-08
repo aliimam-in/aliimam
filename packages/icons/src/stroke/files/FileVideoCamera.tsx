@@ -1,0 +1,64 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const FileVideoCamera: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function FileVideoCamera(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <path
+        d="M4 22H18C18.5304 22 19.0391 21.7893 19.4142 21.4142C19.7893 21.0391 20 20.5304 20 20V7L15 2H6C5.46957 2 4.96086 2.21071 4.58579 2.58579C4.21071 2.96086 4 3.46957 4 4V8"
+        stroke={color}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M14 2V6C14 6.53 14.211 7.039 14.586 7.414 14.961 7.789 15.47 8 16 8H20M9 12H3C2.448 12 2 12.448 2 13V17C2 17.552 2.448 18 3 18H9C9.552 18 10 17.552 10 17V13C10 12.448 9.552 12 9 12ZM10 13.843 13.033 12.088C13.131 12.032 13.242 12.002 13.356 12.002 13.469 12.002 13.58 12.032 13.678 12.089 13.776 12.146 13.858 12.227 13.914 12.325 13.971 12.423 14 12.535 14 12.648V17.352C14 17.465 13.971 17.577 13.914 17.675 13.858 17.773 13.776 17.855 13.678 17.911 13.58 17.968 13.469 17.998 13.356 17.998 13.242 17.998 13.131 17.969 13.033 17.912L10 16.157"
+        stroke={color}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+});
+
+FileVideoCamera.displayName = "FileVideoCamera";
+
+FileVideoCamera.metadata = {
+  name: "FileVideoCamera",
+  category: "stroke/files",
+  tags: ["file", "video", "camera", "icon"],
+  description: "FileVideoCamera icon from stroke/files category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default FileVideoCamera;

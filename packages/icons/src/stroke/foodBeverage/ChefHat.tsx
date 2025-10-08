@@ -1,0 +1,58 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const ChefHat: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function ChefHat(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <path
+        d="M17 21C17.265 21 17.52 20.895 17.707 20.707 17.895 20.52 18 20.265 18 20V14.65C18 14.193 18.316 13.806 18.727 13.609 19.578 13.203 20.258 12.51 20.648 11.651 21.037 10.792 21.111 9.824 20.855 8.916 20.6 8.008 20.033 7.22 19.253 6.69 18.473 6.16 17.531 5.923 16.593 6.02 16.207 5.122 15.566 4.357 14.75 3.82 13.933 3.282 12.977 2.996 12 2.996 11.023 2.996 10.067 3.282 9.25 3.82 8.434 4.357 7.793 5.122 7.407 6.02 6.47 5.924 5.528 6.161 4.749 6.691 3.97 7.221 3.402 8.009 3.147 8.916 2.892 9.823 2.966 10.791 3.354 11.65 3.743 12.508 4.423 13.202 5.273 13.608 5.684 13.806 6 14.193 6 14.649V20C6 20.265 6.105 20.52 6.293 20.707 6.48 20.895 6.735 21 7 21H17ZM6 17H18"
+        stroke={color}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+});
+
+ChefHat.displayName = "ChefHat";
+
+ChefHat.metadata = {
+  name: "ChefHat",
+  category: "stroke/foodBeverage",
+  tags: ["chef", "hat", "icon"],
+  description: "ChefHat icon from stroke/foodBeverage category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default ChefHat;
