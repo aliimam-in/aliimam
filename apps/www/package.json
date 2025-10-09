@@ -82,6 +82,7 @@
     "react-resizable-panels": "^3.0.6",
     "recharts": "2.15.4",
     "rehype-pretty-code": "^0.14.1",
+    "resend": "^4.0.0",
     "schema-dts": "^1.1.5",
     "shadcn": "2.9.3-canary.0",
     "shiki": "^1.10.1",

@@ -1,5 +1,33 @@
 {
   "components": {
+    "Ellipse1": {
+      "name": "Ellipse1",
+      "path": "src/shapes/shapes/Ellipse1.tsx",
+      "category": "shapes",
+      "subcategory": "shapes",
+      "size": "16"
+    },
+    "Star1": {
+      "name": "Star1",
+      "path": "src/shapes/shapes/Star1.tsx",
+      "category": "shapes",
+      "subcategory": "shapes",
+      "size": "16"
+    },
+    "Star2": {
+      "name": "Star2",
+      "path": "src/shapes/shapes/Star2.tsx",
+      "category": "shapes",
+      "subcategory": "shapes",
+      "size": "16"
+    },
+    "Flower1": {
+      "name": "Flower1",
+      "path": "src/shapes/shapes/Flower1.tsx",
+      "category": "shapes",
+      "subcategory": "shapes",
+      "size": "16"
+    },
     "VerifiedBadge": {
       "name": "VerifiedBadge",
       "path": "src/stickers/stickers/VerifiedBadge.tsx",
@@ -59,6 +87,391 @@
     "Anguilla": {
       "name": "Anguilla",
       "path": "src/flags/flags/Anguilla.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Antarctica": {
+      "name": "Antarctica",
+      "path": "src/flags/flags/Antarctica.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "AntiguaBarbuda": {
+      "name": "AntiguaBarbuda",
+      "path": "src/flags/flags/AntiguaBarbuda.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Argentina": {
+      "name": "Argentina",
+      "path": "src/flags/flags/Argentina.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Armenia": {
+      "name": "Armenia",
+      "path": "src/flags/flags/Armenia.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Aruba": {
+      "name": "Aruba",
+      "path": "src/flags/flags/Aruba.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Australia": {
+      "name": "Australia",
+      "path": "src/flags/flags/Australia.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Austria": {
+      "name": "Austria",
+      "path": "src/flags/flags/Austria.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Azerbaijan": {
+      "name": "Azerbaijan",
+      "path": "src/flags/flags/Azerbaijan.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Bahamas": {
+      "name": "Bahamas",
+      "path": "src/flags/flags/Bahamas.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Bahrain": {
+      "name": "Bahrain",
+      "path": "src/flags/flags/Bahrain.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Bangladesh": {
+      "name": "Bangladesh",
+      "path": "src/flags/flags/Bangladesh.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Barbados": {
+      "name": "Barbados",
+      "path": "src/flags/flags/Barbados.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Basque": {
+      "name": "Basque",
+      "path": "src/flags/flags/Basque.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Belarus": {
+      "name": "Belarus",
+      "path": "src/flags/flags/Belarus.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Belgium": {
+      "name": "Belgium",
+      "path": "src/flags/flags/Belgium.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Belize": {
+      "name": "Belize",
+      "path": "src/flags/flags/Belize.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Benin": {
+      "name": "Benin",
+      "path": "src/flags/flags/Benin.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Bermuda": {
+      "name": "Bermuda",
+      "path": "src/flags/flags/Bermuda.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Bhutan": {
+      "name": "Bhutan",
+      "path": "src/flags/flags/Bhutan.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Bolivia": {
+      "name": "Bolivia",
+      "path": "src/flags/flags/Bolivia.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "BosniaHerzegovina": {
+      "name": "BosniaHerzegovina",
+      "path": "src/flags/flags/BosniaHerzegovina.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Botswana": {
+      "name": "Botswana",
+      "path": "src/flags/flags/Botswana.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Brazil": {
+      "name": "Brazil",
+      "path": "src/flags/flags/Brazil.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "BritishVirginIslands": {
+      "name": "BritishVirginIslands",
+      "path": "src/flags/flags/BritishVirginIslands.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Brunei": {
+      "name": "Brunei",
+      "path": "src/flags/flags/Brunei.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Bulgaria": {
+      "name": "Bulgaria",
+      "path": "src/flags/flags/Bulgaria.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "BurkinaFaso": {
+      "name": "BurkinaFaso",
+      "path": "src/flags/flags/BurkinaFaso.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Burundi": {
+      "name": "Burundi",
+      "path": "src/flags/flags/Burundi.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Cambodia": {
+      "name": "Cambodia",
+      "path": "src/flags/flags/Cambodia.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Cameroon": {
+      "name": "Cameroon",
+      "path": "src/flags/flags/Cameroon.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Canada": {
+      "name": "Canada",
+      "path": "src/flags/flags/Canada.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "CanaryIslands": {
+      "name": "CanaryIslands",
+      "path": "src/flags/flags/CanaryIslands.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "CapeVerde": {
+      "name": "CapeVerde",
+      "path": "src/flags/flags/CapeVerde.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "CaymanIslands": {
+      "name": "CaymanIslands",
+      "path": "src/flags/flags/CaymanIslands.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "CentralAfricanRepu": {
+      "name": "CentralAfricanRepu",
+      "path": "src/flags/flags/CentralAfricanRepu.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Chad": {
+      "name": "Chad",
+      "path": "src/flags/flags/Chad.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Chile": {
+      "name": "Chile",
+      "path": "src/flags/flags/Chile.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "China": {
+      "name": "China",
+      "path": "src/flags/flags/China.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Colombia": {
+      "name": "Colombia",
+      "path": "src/flags/flags/Colombia.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Comoros": {
+      "name": "Comoros",
+      "path": "src/flags/flags/Comoros.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "CookIslands": {
+      "name": "CookIslands",
+      "path": "src/flags/flags/CookIslands.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "CostaRica": {
+      "name": "CostaRica",
+      "path": "src/flags/flags/CostaRica.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Croatia": {
+      "name": "Croatia",
+      "path": "src/flags/flags/Croatia.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Cuba": {
+      "name": "Cuba",
+      "path": "src/flags/flags/Cuba.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Curacao": {
+      "name": "Curacao",
+      "path": "src/flags/flags/Curacao.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Cyprus": {
+      "name": "Cyprus",
+      "path": "src/flags/flags/Cyprus.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Czechia": {
+      "name": "Czechia",
+      "path": "src/flags/flags/Czechia.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "DemocraticRepublicOfCongo": {
+      "name": "DemocraticRepublicOfCongo",
+      "path": "src/flags/flags/DemocraticRepublicOfCongo.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Denmark": {
+      "name": "Denmark",
+      "path": "src/flags/flags/Denmark.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Djibouti": {
+      "name": "Djibouti",
+      "path": "src/flags/flags/Djibouti.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Dominica": {
+      "name": "Dominica",
+      "path": "src/flags/flags/Dominica.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "DominicanRepublic": {
+      "name": "DominicanRepublic",
+      "path": "src/flags/flags/DominicanRepublic.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "EastTimor": {
+      "name": "EastTimor",
+      "path": "src/flags/flags/EastTimor.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Ecuador": {
+      "name": "Ecuador",
+      "path": "src/flags/flags/Ecuador.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Egypt": {
+      "name": "Egypt",
+      "path": "src/flags/flags/Egypt.tsx",
       "category": "flags",
       "subcategory": "flags",
       "size": "16"
@@ -590,6 +1003,9 @@
     }
   },
   "categories": {
+    "shapes": {
+      "shapes": ["Ellipse1", "Star1", "Star2", "Flower1"]
+    },
     "stickers": {
       "stickers": ["VerifiedBadge"]
     },
@@ -602,7 +1018,62 @@
         "Algeria",
         "Andorra",
         "Angola",
-        "Anguilla"
+        "Anguilla",
+        "Antarctica",
+        "AntiguaBarbuda",
+        "Argentina",
+        "Armenia",
+        "Aruba",
+        "Australia",
+        "Austria",
+        "Azerbaijan",
+        "Bahamas",
+        "Bahrain",
+        "Bangladesh",
+        "Barbados",
+        "Basque",
+        "Belarus",
+        "Belgium",
+        "Belize",
+        "Benin",
+        "Bermuda",
+        "Bhutan",
+        "Bolivia",
+        "BosniaHerzegovina",
+        "Botswana",
+        "Brazil",
+        "BritishVirginIslands",
+        "Brunei",
+        "Bulgaria",
+        "BurkinaFaso",
+        "Burundi",
+        "Cambodia",
+        "Cameroon",
+        "Canada",
+        "CanaryIslands",
+        "CapeVerde",
+        "CaymanIslands",
+        "CentralAfricanRepu",
+        "Chad",
+        "Chile",
+        "China",
+        "Colombia",
+        "Comoros",
+        "CookIslands",
+        "CostaRica",
+        "Croatia",
+        "Cuba",
+        "Curacao",
+        "Cyprus",
+        "Czechia",
+        "DemocraticRepublicOfCongo",
+        "Denmark",
+        "Djibouti",
+        "Dominica",
+        "DominicanRepublic",
+        "EastTimor",
+        "Ecuador",
+        "Egypt"
       ]
     },
     "wordmark": {
@@ -717,5 +1188,5 @@
       ]
     }
   },
-  "total": 84
+  "total": 143
 }

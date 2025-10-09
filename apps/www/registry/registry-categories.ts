@@ -63,5 +63,10 @@ export const iconCategories = [
     slug: "stickers",
     hidden: false,
   }, 
+  {
+    name: "Shapes",
+    slug: "shapes",
+    hidden: false,
+  }, 
 ]
  

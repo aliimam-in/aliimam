@@ -1,3 +1,4 @@
+ 
 import { Blogs } from "@/src/components/home/blogs";
 import { Clients } from "@/src/components/home/clients";
 import { CallToAction } from "@/src/components/home/cta";
@@ -12,7 +13,7 @@ import { Works } from "@/src/components/home/works";
 export default function Home() {
   return (
     <div className="">
-      <Hero /> 
+      <Hero />  
       <Clients className="md:hidden" />
       <Works />
       <Stats />

@@ -92,8 +92,7 @@ export default async function Page(props: {
       data-slot="blocks"
       className="flex relative items-stretch xl:w-full"
     >
-      <div className="flex min-w-0 flex-1 border rounded-md flex-col">
-         
+      <div className="flex min-w-0 flex-1 border rounded-md flex-col"> 
         <div className="px-6 pt-6 flex flex-1 gap-10 pb-10 md:gap-20 min-w-0 flex-col">
           <div className="flex flex-col gap-2">
             <div className="flex flex-col gap-2">

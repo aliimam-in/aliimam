@@ -1,5 +1,6 @@
 // entry.tsx.ejs - Simple re-export structure
 
+export * from "./shapes/shapes";
 export * from "./stickers/stickers";
 export * from "./flags/flags";
 export * from "./wordmark/social";
