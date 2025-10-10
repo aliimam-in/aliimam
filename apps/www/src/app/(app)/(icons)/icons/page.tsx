@@ -119,7 +119,7 @@ export default function About() {
             Object.entries(iconsByCategory)
               .sort()
               .map(([category, icons]) => (
-                <div key={`${category}-${type}`} className="mb-2">
+                <div key={`${category}-${type}`} className="mb-2"> 
                   <div className="flex flex-wrap gap-2">
                     {icons.map(({ name, Component }) => (
                       <Tooltip key={`${name}-${type}`}>
@@ -151,7 +151,7 @@ export default function About() {
               No {type} found {searchQuery && `matching "${searchQuery}"`}
             </p>
           )}
-        </div> 
+        </div>
         <div className="sticky w-60 -mr-2 top-38 z-30 ml-auto hidden h-[calc(100svh-var(--footer-height)-2rem)] flex-col gap-3 overflow-hidden overscroll-none pb-8 xl:flex">
           <IconPreviewPanel
             selectedIcon={selectedIcon}

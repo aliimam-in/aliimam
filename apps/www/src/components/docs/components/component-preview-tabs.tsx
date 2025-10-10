@@ -8,6 +8,7 @@ import { Button } from "@/registry/default/ui/button";
 import { Tabs, TabsList, TabsTrigger } from "@/registry/default/ui/tabs";
 
 import { CodeBlockCommand } from "./code-block-command";
+import { useConfig } from "@/src/hooks/use-config";
 
 export function ComponentPreviewTabs({
   className,
@@ -26,6 +27,23 @@ export function ComponentPreviewTabs({
 }) {
   const [tab, setTab] = React.useState("preview");
   const [key, setKey] = React.useState(0);
+  const [config] = useConfig();
+
+  const divRef = React.useRef<HTMLDivElement>(null);
+  const [mounted, setMounted] = React.useState(false);
+
+  React.useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  React.useEffect(() => { 
+    if (divRef.current) {
+      divRef.current.style.setProperty("--radius", `${config.radius}rem`);
+    }
+  }, [config.radius]);
+
+  // Don't render preview until mounted to avoid SSR/client mismatch
+  if (!mounted) return null;
 
   return (
     <div
@@ -41,22 +59,13 @@ export function ComponentPreviewTabs({
         <div className="flex items-center justify-between">
           {!hideCode && (
             <TabsList className="justify-start gap-2 rounded-none bg-transparent px-2 md:px-0">
-              <TabsTrigger
-                value="preview"
-                className="text-muted-foreground h-8 data-[state=active]:text-foreground data-[state=active]:bg-secondary text-base data-[state=active]:shadow-none dark:data-[state=active]:border-transparent "
-              >
+              <TabsTrigger value="preview">
                 <Eye />
               </TabsTrigger>
-              <TabsTrigger
-                value="code"
-                className="text-muted-foreground h-8 data-[state=active]:text-foreground text-base data-[state=active]:bg-secondary data-[state=active]:shadow-none dark:data-[state=active]:border-transparent "
-              >
+              <TabsTrigger value="code">
                 <Code />
               </TabsTrigger>
-              <TabsTrigger
-                value="install"
-                className="text-muted-foreground h-8 data-[state=active]:text-foreground text-base data-[state=active]:bg-secondary data-[state=active]:shadow-none dark:data-[state=active]:border-transparent "
-              >
+              <TabsTrigger value="install">
                 <Settings />
               </TabsTrigger>
             </TabsList>
@@ -64,10 +73,8 @@ export function ComponentPreviewTabs({
           <p className="font-light text-muted-foreground text-sm">{name}</p>
         </div>
       </Tabs>
-      <div
-        data-tab={tab}
-        className="data-[tab=code]:border-code relative rounded-lg md:-mx-1"
-      >
+
+      <div data-tab={tab} className="relative">
         <div
           data-slot="preview"
           key={key}
@@ -75,27 +82,24 @@ export function ComponentPreviewTabs({
           className="invisible rounded-lg border data-[active=true]:visible"
         >
           <div
+            ref={divRef}
             data-align={align}
             className={cn(
-              "preview flex h-[500px] theme-container w-full justify-center p-10 data-[align=center]:items-center data-[align=end]:items-end data-[align=start]:items-start"
+              "preview flex h-[500px] theme-container w-full justify-center p-10",
+              align === "center" ? "items-center" : align === "end" ? "items-end" : "items-start"
             )}
           >
-            <div className="absolute top-2 right-2">
-              <div className="flex gap-2">
-                <Button
-                  onClick={() => setKey((prev) => prev + 1)}
-                  className="flex hover:rotate-45 hover:bg-transparent dark:hover:bg-black items-center rounded-lg px-3 py-1"
-                  variant="ghost"
-                  size={"icon"}
-                >
-                  <RotateCcw
-                    className="hover:rotate-45"
-                    aria-label="restart-btn"
-                    size={16}
-                  />
-                </Button> 
-              </div>
-            </div> 
+            <div className="absolute top-2 right-2 flex gap-2">
+              <Button
+                onClick={() => setKey((prev) => prev + 1)}
+                className="flex hover:rotate-45 hover:bg-transparent dark:hover:bg-black items-center rounded-lg px-3 py-1"
+                variant="ghost"
+                size="icon"
+              >
+                <RotateCcw size={16} />
+              </Button>
+            </div>
+
             <React.Suspense
               fallback={
                 <div className="text-muted-foreground flex items-center text-sm">
@@ -108,6 +112,7 @@ export function ComponentPreviewTabs({
             </React.Suspense>
           </div>
         </div>
+
         <div
           data-slot="code"
           data-active={tab === "code"}
@@ -115,15 +120,13 @@ export function ComponentPreviewTabs({
         >
           {source}
         </div>
+
         <div
           data-slot="install"
           data-active={tab === "install"}
           className="absolute inset-0 hidden overflow-hidden data-[active=true]:block **:[figure]:!m-0 **:[pre]:h-auto"
         >
-          <figure
-            data-rehype-pretty-code-figure=""
-            className="[&>pre]:max-h-24"
-          >
+          <figure className="[&>pre]:max-h-24">
             <CodeBlockCommand
               __npm__={`npx shadcn@latest add "https://aliimam.in/r/${name}.json"`}
               __yarn__={`npx shadcn@latest add "https://aliimam.in/r/${name}.json"`}

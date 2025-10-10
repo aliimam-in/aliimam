@@ -8,23 +8,31 @@ export function IconCategoryTabs() {
 
   const getDisplayName = (category: string): string => {
     if (category === "all") return "All Icons";
-    
+
     const parts = category.split("/");
     //@ts-ignore
     return parts.length > 1 ? parts[1] : category;
   };
 
+  const handleCategoryClick = (category: string) => {
+    setActiveCategory(category); 
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
-     <Sidebar
+    <Sidebar
       className="sticky top-36 z-30 hidden h-[calc(100svh-var(--footer-height)+2rem)] bg-transparent lg:flex"
       collapsible="none"
     >
-      <SidebarContent className="no-scrollbar pl-1 pb-12">
+      <SidebarContent className="no-scrollbar pl-1 pb-40">
         <div className="grid gap-1 pl-1">
           {allCategories.map((category) => (
             <button
               key={category}
-              onClick={() => setActiveCategory(category)}
+              onClick={() => handleCategoryClick(category)}
               className={`rounded-md text-sm cursor-pointer py-1.5 text-start px-4 ${
                 activeCategory === category
                   ? "bg-primary text-primary-foreground"
@@ -40,6 +48,7 @@ export function IconCategoryTabs() {
     </Sidebar>
   );
 }
+
 
 export function LogoCategoryTabs() {
   const { activeCategory, setActiveCategory, allCategories } = useLogos();
@@ -63,17 +72,25 @@ export function LogoCategoryTabs() {
   // Add "all" at the beginning for "All Flags" option
   const categoriesToShow = ["all", ...flagCategories];
 
+  const handleCategoryClick = (category: string) => {
+    setActiveCategory(category); 
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
      <Sidebar
       className="sticky top-36 z-30 hidden h-[calc(100svh-var(--footer-height)+2rem)] bg-transparent lg:flex"
       collapsible="none"
     >
-      <SidebarContent className="no-scrollbar pl-1 pb-12">
+      <SidebarContent className="no-scrollbar pl-1 pb-40">
         <div className="grid gap-1 pl-1">
           {categoriesToShow.map((category) => (
             <button
               key={category}
-              onClick={() => setActiveCategory(category)}
+              onClick={() => handleCategoryClick(category)}
               className={`rounded-md text-sm cursor-pointer py-1.5 text-start px-4 ${
                 activeCategory === category
                   ? "bg-primary text-primary-foreground"
@@ -113,17 +130,25 @@ export function FlagCategoryTabs() {
   // Add "all" at the beginning for "All Flags" option
   const categoriesToShow = ["all", ...flagCategories];
 
+  const handleCategoryClick = (category: string) => {
+    setActiveCategory(category); 
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
      <Sidebar
       className="sticky top-36 z-30 hidden h-[calc(100svh-var(--footer-height)+2rem)] bg-transparent lg:flex"
       collapsible="none"
     >
-      <SidebarContent className="no-scrollbar pl-1 pb-12">
+      <SidebarContent className="no-scrollbar pl-1 pb-40">
         <div className="grid gap-1 pl-1">
           {categoriesToShow.map((category) => (
             <button
               key={category}
-              onClick={() => setActiveCategory(category)}
+              onClick={() => handleCategoryClick(category)}
               className={`rounded-md text-sm cursor-pointer py-1.5 text-start px-4 ${
                 activeCategory === category
                   ? "bg-primary text-primary-foreground"
@@ -162,17 +187,25 @@ export function StickersCategoryTabs() {
   // Add "all" at the beginning for "All Flags" option
   const categoriesToShow = ["all", ...flagCategories];
 
+  const handleCategoryClick = (category: string) => {
+    setActiveCategory(category); 
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
      <Sidebar
       className="sticky top-36 z-30 hidden h-[calc(100svh-var(--footer-height)+2rem)] bg-transparent lg:flex"
       collapsible="none"
     >
-      <SidebarContent className="no-scrollbar pl-1 pb-12">
+      <SidebarContent className="no-scrollbar pl-1 pb-40">
         <div className="grid gap-1 pl-1">
           {categoriesToShow.map((category) => (
             <button
               key={category}
-              onClick={() => setActiveCategory(category)}
+              onClick={() => handleCategoryClick(category)}
               className={`rounded-md text-sm cursor-pointer py-1.5 text-start px-4 ${
                 activeCategory === category
                   ? "bg-primary text-primary-foreground"
@@ -211,17 +244,25 @@ export function ShapesCategoryTabs() {
   // Add "all" at the beginning for "All Flags" option
   const categoriesToShow = ["all", ...flagCategories];
 
+  const handleCategoryClick = (category: string) => {
+    setActiveCategory(category); 
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
      <Sidebar
       className="sticky top-36 z-30 hidden h-[calc(100svh-var(--footer-height)+2rem)] bg-transparent lg:flex"
       collapsible="none"
     >
-      <SidebarContent className="no-scrollbar pl-1 pb-12">
+      <SidebarContent className="no-scrollbar pl-1 pb-40">
         <div className="grid gap-1 pl-1">
           {categoriesToShow.map((category) => (
             <button
               key={category}
-              onClick={() => setActiveCategory(category)}
+              onClick={() => handleCategoryClick(category)}
               className={`rounded-md text-sm cursor-pointer py-1.5 text-start px-4 ${
                 activeCategory === category
                   ? "bg-primary text-primary-foreground"

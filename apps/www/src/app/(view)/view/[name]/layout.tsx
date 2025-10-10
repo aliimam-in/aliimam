@@ -1,58 +1,34 @@
 "use client";
 
+import * as React from "react";
 import "@/src/styles/globals.css";
-import Script from "next/script";
+import { useConfig } from "@/src/hooks/use-config";
+import { cn } from "@/src/lib/utils";
 
 export default function ViewLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  return (
-    <>
-      <Script
-        id="theme-sync"
-        strategy="beforeInteractive"
-        dangerouslySetInnerHTML={{
-          __html: `
-            (function() {
-              const ALLOWED_ORIGINS = [window.origin]; // Adjust if cross-domain
-              
-              window.addEventListener('message', function(event) {
-                if (!event.data || event.data.type !== 'theme-sync') return;
-                if (ALLOWED_ORIGINS.length && !ALLOWED_ORIGINS.includes(event.origin)) return;
+  const [config] = useConfig();
+  const divRef = React.useRef<HTMLDivElement>(null);
+  const [mounted, setMounted] = React.useState(false);
 
-                const root = document.documentElement;
-                const body = document.body;
-                
-                if (event.data.themeClasses?.length) {
-                  Array.from(body.classList)
-                    .filter((cls) => cls.startsWith('theme-'))
-                    .forEach((cls) => body.classList.remove(cls));
-                  event.data.themeClasses.forEach((cls) => body.classList.add(cls));
-                }
-                
-                if (event.data.dataTheme) {
-                  root.setAttribute('data-theme', event.data.dataTheme);
-                  body.setAttribute('data-theme', event.data.dataTheme);
-                }
-                
-                if (event.data.cssVariables) {
-                  Object.entries(event.data.cssVariables).forEach(([key, value]) => {
-                    root.style.setProperty(key, value);
-                    body.style.setProperty(key, value);
-                  });
-                }
-              });
-              
-              if (window.parent !== window) {
-                window.parent.postMessage({ type: 'request-theme' }, '*');
-              }
-            })();
-          `,
-        }}
-      />
+  React.useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  React.useEffect(() => {
+    if (divRef.current) {
+      divRef.current.style.setProperty("--radius", `${config.radius}rem`);
+    }
+  }, [config.radius]);
+
+  if (!mounted) return null;
+
+  return (
+    <div ref={divRef} className={cn("theme-container")}>
       {children}
-    </>
+    </div>
   );
 }
