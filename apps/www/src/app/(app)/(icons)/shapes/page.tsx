@@ -8,6 +8,10 @@ import {
 import { TabsContent } from "@/registry/default/ui/tabs";
 import { useLogos } from "@/src/components/icons/logo-context";
 import { LogoPreviewPanel } from "@/src/components/icons/icon-preview";
+import Link from "next/link";
+import { Button } from "@/registry/default/ui/button";
+import { Figma } from "@aliimam/logos";
+import { ContentCopyButton } from "@/src/components/ui/copy-button";
 
 export default function About() {
   const { searchQuery, activeCategory, iconComponents } = useLogos();
@@ -140,11 +144,30 @@ export default function About() {
             </p>
           )}
         </div>
-        <div className="sticky w-60 -mr-2 top-45 z-30 ml-auto hidden h-[calc(100svh-var(--footer-height)+2rem)] flex-col gap-3 overflow-hidden overscroll-none pb-8 xl:flex">
+        <div className="sticky w-60 -mr-2 top-38 z-30 ml-auto hidden h-[calc(100svh-var(--footer-height)-2rem)] flex-col gap-3 overflow-hidden overscroll-none pb-8 xl:flex">
           <LogoPreviewPanel
             selectedIcon={selectedIcon}
             onClearSelection={() => setSelectedIcon(null)}
           />
+          <div className="px-3 grid gap-2">
+            <Link
+              target="_blank"
+              href={
+                "https://www.figma.com/community/file/1553761057642972203/ai-logos"
+              }
+            >
+              <Button variant={"outline"} className="w-full">
+                <Figma /> Open in Figma
+              </Button>
+            </Link>
+            <ContentCopyButton
+              className="w-full font-mono text-xs"
+              value={"npm i @aliimam/logos"}
+            />
+            <Link href={"/docs/icons/introduction"}>
+              <Button className="w-full">See Docs</Button>
+            </Link>
+          </div>
         </div>
       </div>
     );

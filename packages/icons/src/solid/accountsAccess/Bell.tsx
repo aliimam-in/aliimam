@@ -76,6 +76,33 @@ export const Bell: IconComponent<BellProps> = React.forwardRef<
     );
   }
 
+  if (type === "stroke") {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M10.268 21C10.444 21.304 10.696 21.557 11 21.732 11.304 21.908 11.649 22 12 22 12.351 22 12.696 21.908 13 21.732 13.304 21.557 13.557 21.304 13.732 21M3.262 15.326C3.131 15.469 3.045 15.647 3.014 15.839 2.983 16.03 3.008 16.226 3.086 16.403 3.164 16.581 3.292 16.732 3.454 16.838 3.617 16.943 3.806 17 4 17H20C20.194 17 20.383 16.944 20.546 16.838 20.708 16.732 20.837 16.582 20.915 16.405 20.993 16.227 21.019 16.031 20.987 15.84 20.956 15.649 20.87 15.47 20.74 15.327 19.41 13.956 18 12.499 18 8 18 6.409 17.368 4.883 16.243 3.757 15.117 2.632 13.591 2 12 2 10.409 2 8.883 2.632 7.757 3.757 6.632 4.883 6 6.409 6 8 6 12.499 4.589 13.956 3.262 15.326Z"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    );
+  }
+
   console.error(`Bell doesn't support ${type}`);
   return null;
 });

@@ -1,0 +1,58 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const RouteOff: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function RouteOff(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <path
+        d="M6 22C7.657 22 9 20.657 9 19 9 17.343 7.657 16 6 16 4.343 16 3 17.343 3 19 3 20.657 4.343 22 6 22ZM9 19H17.5C17.9 19 18.4 18.9 18.8 18.8M5.2 5.2C4.45 5.508 3.828 6.069 3.442 6.787 3.056 7.505 2.928 8.336 3.082 9.138 3.235 9.941 3.66 10.665 4.283 11.186 4.906 11.708 5.69 11.996 6.5 12H12M2 2 22 22M21 15.3C20.952 14.44 20.589 13.629 19.98 13.02 19.371 12.411 18.56 12.048 17.7 12M15 5H10.7M18 8C19.657 8 21 6.657 21 5 21 3.343 19.657 2 18 2 16.343 2 15 3.343 15 5 15 6.657 16.343 8 18 8Z"
+        stroke={color}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+});
+
+RouteOff.displayName = "RouteOff";
+
+RouteOff.metadata = {
+  name: "RouteOff",
+  category: "stroke/navigation",
+  tags: ["route", "off", "icon"],
+  description: "RouteOff icon from stroke/navigation category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default RouteOff;

@@ -1,0 +1,58 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const Signature: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function Signature(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <path
+        d="M21 17 18.844 15.132C18.773 15.064 18.683 15.019 18.586 15.002 18.49 14.985 18.39 14.997 18.3 15.037 18.21 15.076 18.134 15.141 18.08 15.223 18.027 15.306 17.999 15.402 18 15.5V16C18 16.265 17.895 16.52 17.707 16.707 17.52 16.895 17.265 17 17 17H15C14.735 17 14.48 16.895 14.293 16.707 14.105 16.52 14 16.265 14 16 14 13.455 10.009 12.03 5.5 12 4.837 12 4.201 12.263 3.732 12.732 3.263 13.201 3 13.837 3 14.5 3 15.163 3.263 15.799 3.732 16.268 4.201 16.737 4.837 17 5.5 17 9.653 17 10.245 5.705 11.208 3.5 11.371 3.128 11.622 2.801 11.939 2.547 12.257 2.294 12.631 2.122 13.03 2.046 13.429 1.969 13.841 1.992 14.229 2.11 14.618 2.229 14.971 2.44 15.26 2.726 15.548 3.013 15.762 3.365 15.884 3.752 16.006 4.14 16.031 4.551 15.958 4.951 15.885 5.35 15.716 5.726 15.465 6.045 15.214 6.365 14.889 6.618 14.518 6.784M3 21H21"
+        stroke={color}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+});
+
+Signature.displayName = "Signature";
+
+Signature.metadata = {
+  name: "Signature",
+  category: "stroke/textFormatting",
+  tags: ["signature", "icon"],
+  description: "Signature icon from stroke/textFormatting category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default Signature;

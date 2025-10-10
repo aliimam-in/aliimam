@@ -1,0 +1,57 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const Unlink: IconComponent = React.forwardRef<SVGSVGElement, IconProps>(
+  function Unlink(
+    {
+      color = "currentColor",
+      fill,
+      size = 24,
+      strokeWidth,
+      strokeLinecap,
+      strokeLinejoin,
+      strokeDasharray,
+      opacity,
+      className,
+      ...props
+    },
+    forwardedRef,
+  ) {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M18.84 12.25 20.56 10.54H20.54C21.461 9.586 21.965 8.306 21.943 6.98 21.92 5.655 21.373 4.392 20.42 3.47 19.487 2.57 18.241 2.067 16.945 2.067 15.649 2.067 14.403 2.57 13.47 3.47L11.75 5.18M5.17 11.75 3.46 13.46C2.539 14.414 2.035 15.694 2.057 17.02 2.08 18.345 2.627 19.608 3.58 20.53 4.513 21.43 5.759 21.933 7.055 21.933 8.351 21.933 9.597 21.43 10.53 20.53L12.24 18.82M8 2V5M2 8H5M16 19V22M19 16H22"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    );
+  },
+);
+
+Unlink.displayName = "Unlink";
+
+Unlink.metadata = {
+  name: "Unlink",
+  category: "stroke/textFormatting",
+  tags: ["unlink", "icon"],
+  description: "Unlink icon from stroke/textFormatting category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default Unlink;

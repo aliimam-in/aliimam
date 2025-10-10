@@ -24,7 +24,6 @@ export { default as HandCoins } from "./HandCoins";
 export { default as Handshake } from "./Handshake";
 export { default as IndianRupee } from "./IndianRupee";
 export { default as JapaneseYen } from "./JapaneseYen";
-export { default as Landmark } from "./Landmark";
 export { default as Nfc } from "./Nfc";
 export { default as PhilippinePeso } from "./PhilippinePeso";
 export { default as PiggyBank } from "./PiggyBank";

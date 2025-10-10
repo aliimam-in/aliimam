@@ -1,0 +1,95 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+interface RewindProps extends IconProps {
+  type?: "stroke";
+}
+
+export const Rewind: IconComponent<RewindProps> = React.forwardRef<
+  SVGSVGElement,
+  RewindProps
+>(function Rewind(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    type = "stroke",
+    ...props
+  },
+  forwardedRef,
+) {
+  if (type === "stroke") {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M12 6C12 5.605 11.883 5.218 11.663 4.889 11.443 4.56 11.131 4.304 10.765 4.153 10.4 4.001 9.998 3.962 9.61 4.039 9.222 4.116 8.866 4.306 8.586 4.586L2.586 10.586C2.211 10.961 2 11.47 2 12 2 12.53 2.211 13.039 2.586 13.414L8.586 19.414C8.866 19.694 9.222 19.884 9.61 19.961 9.998 20.038 10.4 19.999 10.765 19.847 11.131 19.696 11.443 19.44 11.663 19.111 11.883 18.782 12 18.396 12 18V6ZM22 6C22 5.605 21.883 5.218 21.663 4.889 21.443 4.56 21.131 4.304 20.765 4.153 20.4 4.001 19.998 3.962 19.61 4.039 19.222 4.116 18.866 4.306 18.586 4.586L12.586 10.586C12.211 10.961 12.001 11.47 12.001 12 12.001 12.53 12.211 13.039 12.586 13.414L18.586 19.414C18.866 19.694 19.222 19.884 19.61 19.961 19.998 20.038 20.4 19.999 20.765 19.847 21.131 19.696 21.443 19.44 21.663 19.111 21.883 18.782 22 18.396 22 18V6Z"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    );
+  }
+
+  if (type === "stroke") {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M12 6C12 5.604 11.883 5.218 11.663 4.889 11.443 4.56 11.131 4.304 10.765 4.153 10.4 4.001 9.998 3.962 9.61 4.039 9.222 4.116 8.866 4.306 8.586 4.586L2.586 10.586C2.211 10.961 2 11.47 2 12 2 12.53 2.211 13.039 2.586 13.414L8.586 19.414C8.866 19.694 9.222 19.884 9.61 19.961 9.998 20.038 10.4 19.999 10.765 19.847 11.131 19.696 11.443 19.44 11.663 19.111 11.883 18.782 12 18.395 12 18V6ZM22 6C22 5.604 21.883 5.218 21.663 4.889 21.443 4.56 21.131 4.304 20.765 4.153 20.4 4.001 19.998 3.962 19.61 4.039 19.222 4.116 18.866 4.306 18.586 4.586L12.586 10.586C12.211 10.961 12 11.47 12 12 12 12.53 12.211 13.039 12.586 13.414L18.586 19.414C18.866 19.694 19.222 19.884 19.61 19.961 19.998 20.038 20.4 19.999 20.765 19.847 21.131 19.696 21.443 19.44 21.663 19.111 21.883 18.782 22 18.395 22 18V6Z"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    );
+  }
+
+  console.error(`Rewind doesn't support ${type}`);
+  return null;
+});
+
+Rewind.displayName = "Rewind";
+
+Rewind.metadata = {
+  name: "Rewind",
+  category: "stroke/multimedia",
+  tags: ["rewind", "icon"],
+  description: "Rewind icon from stroke/multimedia category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default Rewind;

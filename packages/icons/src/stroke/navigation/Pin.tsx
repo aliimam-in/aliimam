@@ -1,0 +1,95 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+interface PinProps extends IconProps {
+  type?: "stroke";
+}
+
+export const Pin: IconComponent<PinProps> = React.forwardRef<
+  SVGSVGElement,
+  PinProps
+>(function Pin(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    type = "stroke",
+    ...props
+  },
+  forwardedRef,
+) {
+  if (type === "stroke") {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M12 17V22M9 10.76C9 11.132 8.896 11.497 8.7 11.813 8.504 12.129 8.223 12.384 7.89 12.55L6.11 13.45C5.777 13.616 5.496 13.871 5.3 14.187 5.104 14.503 5 14.868 5 15.24V16C5 16.265 5.105 16.52 5.293 16.707 5.48 16.895 5.735 17 6 17H18C18.265 17 18.52 16.895 18.707 16.707 18.895 16.52 19 16.265 19 16V15.24C19 14.868 18.896 14.503 18.7 14.187 18.504 13.871 18.223 13.616 17.89 13.45L16.11 12.55C15.777 12.384 15.496 12.129 15.3 11.813 15.104 11.497 15 11.132 15 10.76V7C15 6.735 15.105 6.48 15.293 6.293 15.48 6.105 15.735 6 16 6 16.53 6 17.039 5.789 17.414 5.414 17.789 5.039 18 4.53 18 4 18 3.47 17.789 2.961 17.414 2.586 17.039 2.211 16.53 2 16 2H8C7.47 2 6.961 2.211 6.586 2.586 6.211 2.961 6 3.47 6 4 6 4.53 6.211 5.039 6.586 5.414 6.961 5.789 7.47 6 8 6 8.265 6 8.52 6.105 8.707 6.293 8.895 6.48 9 6.735 9 7V10.76Z"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    );
+  }
+
+  if (type === "stroke") {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M12 17V22M9 10.76C9 11.132 8.896 11.497 8.7 11.813 8.504 12.129 8.223 12.384 7.89 12.55L6.11 13.45C5.777 13.616 5.496 13.871 5.3 14.187 5.104 14.503 5 14.868 5 15.24V16C5 16.265 5.105 16.52 5.293 16.707 5.48 16.895 5.735 17 6 17H18C18.265 17 18.52 16.895 18.707 16.707 18.895 16.52 19 16.265 19 16V15.24C19 14.868 18.896 14.503 18.7 14.187 18.504 13.871 18.223 13.616 17.89 13.45L16.11 12.55C15.777 12.384 15.496 12.129 15.3 11.813 15.104 11.497 15 11.132 15 10.76V7C15 6.735 15.105 6.48 15.293 6.293 15.48 6.105 15.735 6 16 6 16.53 6 17.039 5.789 17.414 5.414 17.789 5.039 18 4.53 18 4 18 3.47 17.789 2.961 17.414 2.586 17.039 2.211 16.53 2 16 2H8C7.47 2 6.961 2.211 6.586 2.586 6.211 2.961 6 3.47 6 4 6 4.53 6.211 5.039 6.586 5.414 6.961 5.789 7.47 6 8 6 8.265 6 8.52 6.105 8.707 6.293 8.895 6.48 9 6.735 9 7V10.76Z"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    );
+  }
+
+  console.error(`Pin doesn't support ${type}`);
+  return null;
+});
+
+Pin.displayName = "Pin";
+
+Pin.metadata = {
+  name: "Pin",
+  category: "stroke/navigation",
+  tags: ["pin", "icon"],
+  description: "Pin icon from stroke/navigation category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default Pin;

@@ -74,6 +74,33 @@ export const PersonStanding: IconComponent<PersonStandingProps> =
       );
     }
 
+    if (type === "stroke") {
+      return (
+        <svg
+          width={size}
+          height={size}
+          viewBox="0 0 24 24"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          className={className}
+          strokeWidth={strokeWidth}
+          strokeLinecap={strokeLinecap}
+          strokeLinejoin={strokeLinejoin}
+          strokeDasharray={strokeDasharray}
+          opacity={opacity}
+          {...props}
+          ref={forwardedRef}
+        >
+          <path
+            d="M12 6C12.552 6 13 5.552 13 5 13 4.448 12.552 4 12 4 11.448 4 11 4.448 11 5 11 5.552 11.448 6 12 6ZM9 20 12 14 15 20M6 8 12 10 18 8M12 10V14"
+            stroke={color}
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      );
+    }
+
     console.error(`PersonStanding doesn't support ${type}`);
     return null;
   });

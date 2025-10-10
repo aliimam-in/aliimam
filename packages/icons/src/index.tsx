@@ -2,6 +2,12 @@
 
 export * from "./solid/accountsAccess";
 export * from "./solid/accessibility";
+export * from "./stroke/people";
+export * from "./stroke/notification";
+export * from "./stroke/navigation";
+export * from "./stroke/textFormatting";
+export * from "./stroke/nature";
+export * from "./stroke/multimedia";
 export * from "./stroke/medical";
 export * from "./stroke/mathematics";
 export * from "./stroke/mail";

@@ -1,0 +1,63 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const Earth: IconComponent = React.forwardRef<SVGSVGElement, IconProps>(
+  function Earth(
+    {
+      color = "currentColor",
+      fill,
+      size = 24,
+      strokeWidth,
+      strokeLinecap,
+      strokeLinejoin,
+      strokeDasharray,
+      opacity,
+      className,
+      ...props
+    },
+    forwardedRef,
+  ) {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M21.54 15H17C16.47 15 15.961 15.211 15.586 15.586 15.211 15.961 15 16.47 15 17V21.54M7 3.34V5C7 5.796 7.316 6.559 7.879 7.121 8.441 7.684 9.204 8 10 8 10.53 8 11.039 8.211 11.414 8.586 11.789 8.961 12 9.47 12 10 12 11.1 12.9 12 14 12 14.53 12 15.039 11.789 15.414 11.414 15.789 11.039 16 10.531 16 10 16 8.9 16.9 8 18 8H21.17M11 21.95V18C11 17.47 10.789 16.961 10.414 16.586 10.039 16.211 9.53 16 9 16 8.47 16 7.961 15.789 7.586 15.414 7.211 15.039 7 14.53 7 14V13C7 12.47 6.789 11.961 6.414 11.586 6.039 11.211 5.53 11 5 11H2.05"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    );
+  },
+);
+
+Earth.displayName = "Earth";
+
+Earth.metadata = {
+  name: "Earth",
+  category: "stroke/navigation",
+  tags: ["earth", "icon"],
+  description: "Earth icon from stroke/navigation category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default Earth;

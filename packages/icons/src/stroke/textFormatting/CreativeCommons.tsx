@@ -1,0 +1,64 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const CreativeCommons: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function CreativeCommons(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <path
+        d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+        stroke={color}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M10 9.3C9.393 9.022 8.707 8.97 8.065 9.154 7.424 9.337 6.868 9.744 6.5 10.3 6.169 10.805 5.992 11.396 5.992 12 5.992 12.604 6.169 13.195 6.5 13.7 6.853 14.273 7.409 14.693 8.056 14.879 8.704 15.064 9.397 15 10 14.7M17 9.3C16.393 9.022 15.707 8.97 15.065 9.154 14.424 9.337 13.868 9.744 13.5 10.3 13.169 10.805 12.992 11.396 12.992 12 12.992 12.604 13.169 13.195 13.5 13.7 13.854 14.273 14.409 14.693 15.056 14.879 15.704 15.064 16.397 15 17 14.7"
+        stroke={color}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+});
+
+CreativeCommons.displayName = "CreativeCommons";
+
+CreativeCommons.metadata = {
+  name: "CreativeCommons",
+  category: "stroke/textFormatting",
+  tags: ["creative", "commons", "icon"],
+  description: "CreativeCommons icon from stroke/textFormatting category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default CreativeCommons;

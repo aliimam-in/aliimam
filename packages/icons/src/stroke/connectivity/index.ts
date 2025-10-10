@@ -11,8 +11,3 @@ export { default as SignalMedium } from "./SignalMedium";
 export { default as SignalZero } from "./SignalZero";
 export { default as SquarePower } from "./SquarePower";
 export { default as Voicemail } from "./Voicemail";
-export { default as Volume } from "./Volume";
-export { default as Volume1 } from "./Volume1";
-export { default as Volume2 } from "./Volume2";
-export { default as VolumeOff } from "./VolumeOff";
-export { default as VolumeX } from "./VolumeX";

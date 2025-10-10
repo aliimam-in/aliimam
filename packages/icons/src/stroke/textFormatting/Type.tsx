@@ -1,0 +1,57 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const Type: IconComponent = React.forwardRef<SVGSVGElement, IconProps>(
+  function Type(
+    {
+      color = "currentColor",
+      fill,
+      size = 24,
+      strokeWidth,
+      strokeLinecap,
+      strokeLinejoin,
+      strokeDasharray,
+      opacity,
+      className,
+      ...props
+    },
+    forwardedRef,
+  ) {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M12 4V20M4 7V5C4 4.735 4.105 4.48 4.293 4.293 4.48 4.105 4.735 4 5 4H19C19.265 4 19.52 4.105 19.707 4.293 19.895 4.48 20 4.735 20 5V7M9 20H15"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    );
+  },
+);
+
+Type.displayName = "Type";
+
+Type.metadata = {
+  name: "Type",
+  category: "stroke/textFormatting",
+  tags: ["type", "icon"],
+  description: "Type icon from stroke/textFormatting category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default Type;

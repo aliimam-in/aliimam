@@ -23,7 +23,7 @@ export function LogoPreviewPanel({
     <div className="flex flex-1 flex-col bg-background overflow-auto">
       {selectedIcon ? (
         <>
-          <div className="flex flex-col px-3 pt-3 gap-2">
+          <div className="flex flex-col px-3 gap-2">
             <div className="text-center w-full items-center flex justify-between space-y-1">
               <p className="font-semibold text-sm">{selectedIcon.name}</p>
               <p className="text-xs pr-6 text-muted-foreground capitalize">
@@ -44,7 +44,7 @@ export function LogoPreviewPanel({
             </div>
             <button
               onClick={onClearSelection}
-              className="text-xs top-4 right-3 absolute text-muted-foreground hover:text-foreground transition-colors"
+              className="text-xs top-1 right-3 absolute text-muted-foreground hover:text-foreground transition-colors"
             >
               <X />
             </button>
@@ -97,7 +97,7 @@ export function IconPreviewPanel({
     <div className="flex flex-1 flex-col bg-background overflow-auto">
       {selectedIcon ? (
         <>
-          <div className="flex flex-col px-3 pt-3 gap-2">
+          <div className="flex flex-col px-3 gap-2">
             <div className="text-center w-full items-center flex justify-between space-y-1">
               <p className="font-semibold text-sm">{selectedIcon.name}</p>
               <p className="text-xs pr-6 text-muted-foreground capitalize">
@@ -119,7 +119,7 @@ export function IconPreviewPanel({
             </div>
             <button
               onClick={onClearSelection}
-              className="text-xs top-4 right-3 absolute text-muted-foreground hover:text-foreground transition-colors"
+              className="text-xs top-1 right-3 absolute text-muted-foreground hover:text-foreground transition-colors"
             >
               <X />
             </button>

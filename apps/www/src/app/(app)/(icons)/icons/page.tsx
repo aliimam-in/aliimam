@@ -8,6 +8,10 @@ import {
 import { TabsContent } from "@/registry/default/ui/tabs";
 import { useIcons } from "@/src/components/icons/icon-context";
 import { IconPreviewPanel } from "@/src/components/icons/icon-preview";
+import { Button } from "@/registry/default/ui/button";
+import Link from "next/link";
+import { Figma } from "@aliimam/logos";
+import { ContentCopyButton } from "@/src/components/ui/copy-button";
 
 export default function About() {
   const { searchQuery, activeCategory, iconComponents } = useIcons();
@@ -147,12 +151,31 @@ export default function About() {
               No {type} found {searchQuery && `matching "${searchQuery}"`}
             </p>
           )}
-        </div>
-        <div className="sticky w-60 -mr-2 top-45 z-30 ml-auto hidden h-[calc(100svh-var(--footer-height)+2rem)] flex-col gap-3 overflow-hidden overscroll-none pb-8 xl:flex">
+        </div> 
+        <div className="sticky w-60 -mr-2 top-38 z-30 ml-auto hidden h-[calc(100svh-var(--footer-height)-2rem)] flex-col gap-3 overflow-hidden overscroll-none pb-8 xl:flex">
           <IconPreviewPanel
             selectedIcon={selectedIcon}
             onClearSelection={() => setSelectedIcon(null)}
           />
+          <div className="px-3 grid gap-2">
+            <Link
+              target="_blank"
+              href={
+                "https://www.figma.com/community/file/1553397064284560809/ai-icons"
+              }
+            >
+              <Button variant={"outline"} className="w-full">
+                <Figma /> Open in Figma
+              </Button>
+            </Link>
+            <ContentCopyButton
+              className="w-full font-mono text-xs"
+              value={"npm i @aliimam/icons"}
+            />
+            <Link href={"/docs/icons/introduction"}>
+              <Button className="w-full">See Docs</Button>
+            </Link>
+          </div>
         </div>
       </div>
     );
@@ -176,7 +199,7 @@ export default function About() {
         {renderIcons("twotone")}
       </TabsContent>
 
-       <TabsContent value="bulk" className="mt-0 w-full flex justify-center">
+      <TabsContent value="bulk" className="mt-0 w-full flex justify-center">
         {renderIcons("bulk")}
       </TabsContent>
     </div>

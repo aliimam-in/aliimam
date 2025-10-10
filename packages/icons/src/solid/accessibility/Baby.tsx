@@ -90,6 +90,39 @@ export const Baby: IconComponent<BabyProps> = React.forwardRef<
     );
   }
 
+  if (type === "stroke") {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M10 16C10.5 16.3 11.2 16.5 12 16.5 12.8 16.5 13.5 16.3 14 16M15 12H15.01"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M19.38 6.813C20.081 7.832 20.565 8.985 20.8 10.2 21.138 10.364 21.423 10.62 21.623 10.938 21.822 11.256 21.928 11.624 21.928 12 21.928 12.376 21.822 12.744 21.623 13.062 21.423 13.381 21.138 13.636 20.8 13.8 20.368 15.814 19.259 17.618 17.658 18.913 16.056 20.207 14.059 20.913 12 20.913 9.941 20.913 7.944 20.207 6.342 18.913 4.741 17.618 3.632 15.814 3.2 13.8 2.862 13.636 2.577 13.381 2.377 13.062 2.178 12.744 2.072 12.376 2.072 12 2.072 11.624 2.178 11.256 2.377 10.938 2.577 10.62 2.862 10.364 3.2 10.2 3.614 8.171 4.716 6.346 6.319 5.034 7.922 3.723 9.929 3.004 12 3 14 3 15.5 4.1 15.5 5.5 15.5 6.9 14.6 8 13.5 8 12.7 8 12 7.6 12 7M9 12H9.01"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    );
+  }
+
   console.error(`Baby doesn't support ${type}`);
   return null;
 });

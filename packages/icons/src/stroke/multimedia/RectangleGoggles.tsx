@@ -1,0 +1,149 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+interface RectangleGogglesProps extends IconProps {
+  type?: "stroke";
+}
+
+export const RectangleGoggles: IconComponent<RectangleGogglesProps> =
+  React.forwardRef<SVGSVGElement, RectangleGogglesProps>(
+    function RectangleGoggles(
+      {
+        color = "currentColor",
+        fill,
+        size = 24,
+        strokeWidth,
+        strokeLinecap,
+        strokeLinejoin,
+        strokeDasharray,
+        opacity,
+        className,
+        type = "stroke",
+        ...props
+      },
+      forwardedRef,
+    ) {
+      if (type === "stroke") {
+        return (
+          <svg
+            width={size}
+            height={size}
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            className={className}
+            strokeWidth={strokeWidth}
+            strokeLinecap={strokeLinecap}
+            strokeLinejoin={strokeLinejoin}
+            strokeDasharray={strokeDasharray}
+            opacity={opacity}
+            {...props}
+            ref={forwardedRef}
+          >
+            <path
+              d="M20 6C20.5304 6 21.0391 6.21071 21.4142 6.58579C21.7893 6.96086 22 7.46957 22 8V16C22 16.5304 21.7893 17.0391 21.4142 17.4142C21.0391 17.7893 20.5304 18 20 18H16C15.6895 18 15.3833 17.9277 15.1056 17.7889C14.8279 17.65 14.5863 17.4484 14.4 17.2L12.8 15.07C12.7069 14.9458 12.5861 14.845 12.4472 14.7756C12.3084 14.7061 12.1552 14.67 12 14.67C11.8448 14.67 11.6916 14.7061 11.5528 14.7756C11.4139 14.845 11.2931 14.9458 11.2 15.07L9.6 17.2C9.41371 17.4484 9.17214 17.65 8.89443 17.7889C8.61672 17.9277 8.31049 18 8 18H4C3.46957 18 2.96086 17.7893 2.58579 17.4142C2.21071 17.0391 2 16.5304 2 16V8C2 7.46957 2.21071 6.96086 2.58579 6.58579C2.96086 6.21071 3.46957 6 4 6H20Z"
+              stroke={color}
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        );
+      }
+
+      if (type === "stroke") {
+        return (
+          <svg
+            width={size}
+            height={size}
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            className={className}
+            strokeWidth={strokeWidth}
+            strokeLinecap={strokeLinecap}
+            strokeLinejoin={strokeLinejoin}
+            strokeDasharray={strokeDasharray}
+            opacity={opacity}
+            {...props}
+            ref={forwardedRef}
+          >
+            <path
+              d="M20 6C20.5304 6 21.0391 6.21071 21.4142 6.58579C21.7893 6.96086 22 7.46957 22 8V16C22 16.5304 21.7893 17.0391 21.4142 17.4142C21.0391 17.7893 20.5304 18 20 18H16C15.6895 18 15.3833 17.9277 15.1056 17.7889C14.8279 17.65 14.5863 17.4484 14.4 17.2L12.8 15.07C12.7069 14.9458 12.5861 14.845 12.4472 14.7756C12.3084 14.7061 12.1552 14.67 12 14.67C11.8448 14.67 11.6916 14.7061 11.5528 14.7756C11.4139 14.845 11.2931 14.9458 11.2 15.07L9.6 17.2C9.41371 17.4484 9.17214 17.65 8.89443 17.7889C8.61672 17.9277 8.31049 18 8 18H4C3.46957 18 2.96086 17.7893 2.58579 17.4142C2.21071 17.0391 2 16.5304 2 16V8C2 7.46957 2.21071 6.96086 2.58579 6.58579C2.96086 6.21071 3.46957 6 4 6H20Z"
+              stroke={color}
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        );
+      }
+
+      if (type === "stroke") {
+        return (
+          <svg
+            width={size}
+            height={size}
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            className={className}
+            strokeWidth={strokeWidth}
+            strokeLinecap={strokeLinecap}
+            strokeLinejoin={strokeLinejoin}
+            strokeDasharray={strokeDasharray}
+            opacity={opacity}
+            {...props}
+            ref={forwardedRef}
+          >
+            <path
+              d="M20 6C20.5304 6 21.0391 6.21071 21.4142 6.58579C21.7893 6.96086 22 7.46957 22 8V16C22 16.5304 21.7893 17.0391 21.4142 17.4142C21.0391 17.7893 20.5304 18 20 18H16C15.6895 18 15.3833 17.9277 15.1056 17.7889C14.8279 17.65 14.5863 17.4484 14.4 17.2L12.8 15.07C12.7069 14.9458 12.5861 14.845 12.4472 14.7756C12.3084 14.7061 12.1552 14.67 12 14.67C11.8448 14.67 11.6916 14.7061 11.5528 14.7756C11.4139 14.845 11.2931 14.9458 11.2 15.07L9.6 17.2C9.41371 17.4484 9.17214 17.65 8.89443 17.7889C8.61672 17.9277 8.31049 18 8 18H4C3.46957 18 2.96086 17.7893 2.58579 17.4142C2.21071 17.0391 2 16.5304 2 16V8C2 7.46957 2.21071 6.96086 2.58579 6.58579C2.96086 6.21071 3.46957 6 4 6H20Z"
+              stroke={color}
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        );
+      }
+
+      if (type === "stroke") {
+        return (
+          <svg
+            width={size}
+            height={size}
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            className={className}
+            strokeWidth={strokeWidth}
+            strokeLinecap={strokeLinecap}
+            strokeLinejoin={strokeLinejoin}
+            strokeDasharray={strokeDasharray}
+            opacity={opacity}
+            {...props}
+            ref={forwardedRef}
+          >
+            <path
+              d="M20 6C20.5304 6 21.0391 6.21071 21.4142 6.58579C21.7893 6.96086 22 7.46957 22 8V16C22 16.5304 21.7893 17.0391 21.4142 17.4142C21.0391 17.7893 20.5304 18 20 18H16C15.6895 18 15.3833 17.9277 15.1056 17.7889C14.8279 17.65 14.5863 17.4484 14.4 17.2L12.8 15.07C12.7069 14.9458 12.5861 14.845 12.4472 14.7756C12.3084 14.7061 12.1552 14.67 12 14.67C11.8448 14.67 11.6916 14.7061 11.5528 14.7756C11.4139 14.845 11.2931 14.9458 11.2 15.07L9.6 17.2C9.41371 17.4484 9.17214 17.65 8.89443 17.7889C8.61672 17.9277 8.31049 18 8 18H4C3.46957 18 2.96086 17.7893 2.58579 17.4142C2.21071 17.0391 2 16.5304 2 16V8C2 7.46957 2.21071 6.96086 2.58579 6.58579C2.96086 6.21071 3.46957 6 4 6H20Z"
+              stroke={color}
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        );
+      }
+
+      console.error(`RectangleGoggles doesn't support ${type}`);
+      return null;
+    },
+  );
+
+RectangleGoggles.displayName = "RectangleGoggles";
+
+RectangleGoggles.metadata = {
+  name: "RectangleGoggles",
+  category: "stroke/multimedia",
+  tags: ["rectangle", "goggles", "icon"],
+  description: "RectangleGoggles icon from stroke/multimedia category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default RectangleGoggles;

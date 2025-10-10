@@ -1,9 +1,5 @@
-export { default as AudioLines } from "./AudioLines";
 export { default as AudioWaveForm } from "./AudioWaveForm";
 export { default as CircleFadingPlus } from "./CircleFadingPlus";
 export { default as HandShake } from "./HandShake";
-export { default as Lectern } from "./Lectern";
-export { default as Newspaper } from "./Newspaper";
 export { default as NotebookTabs } from "./NotebookTabs";
-export { default as Radar } from "./Radar";
 export { default as Spool } from "./Spool";

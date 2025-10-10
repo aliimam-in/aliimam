@@ -1,0 +1,122 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+interface SpotlightProps extends IconProps {
+  type?: "stroke";
+}
+
+export const Spotlight: IconComponent<SpotlightProps> = React.forwardRef<
+  SVGSVGElement,
+  SpotlightProps
+>(function Spotlight(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    type = "stroke",
+    ...props
+  },
+  forwardedRef,
+) {
+  if (type === "stroke") {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M15.295 19.562 16 22M17 16 20.758 18.098M19 12.5 22.026 11.902M7.61 6.3C6.914 5.973 6.12 5.926 5.391 6.168 4.661 6.41 4.053 6.923 3.69 7.6L2.31 10.39C1.986 11.085 1.941 11.877 2.183 12.604 2.424 13.331 2.935 13.938 3.61 14.3L10.5 17.897C10.617 17.956 10.745 17.991 10.876 18 11.007 18.01 11.139 17.993 11.264 17.952 11.388 17.91 11.503 17.844 11.603 17.758 11.702 17.672 11.783 17.568 11.842 17.45L14.948 11.239C15.066 11.002 15.086 10.727 15.002 10.476 14.918 10.225 14.738 10.017 14.501 9.898L7.61 6.3ZM8 9V2"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    );
+  }
+
+  if (type === "stroke") {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M15.295 19.562 16 22M17 16 20.758 18.098M19 12.5 22.026 11.902M7.61 6.3C6.914 5.973 6.12 5.926 5.391 6.168 4.661 6.41 4.053 6.923 3.69 7.6L2.31 10.39C1.986 11.085 1.941 11.877 2.183 12.604 2.424 13.331 2.935 13.938 3.61 14.3L10.5 17.897C10.617 17.956 10.745 17.991 10.876 18 11.007 18.01 11.139 17.993 11.264 17.952 11.388 17.91 11.503 17.844 11.603 17.758 11.702 17.672 11.783 17.568 11.842 17.45L14.948 11.239C15.066 11.002 15.086 10.728 15.002 10.476 14.918 10.225 14.738 10.017 14.501 9.898L7.61 6.3ZM8 9V2"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    );
+  }
+
+  if (type === "stroke") {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M15.295 19.562 16 22M17 16 20.758 18.098M19 12.5 22.026 11.902M7.61 6.3C6.914 5.973 6.12 5.926 5.391 6.168 4.661 6.41 4.053 6.923 3.69 7.6L2.31 10.39C1.986 11.085 1.941 11.877 2.183 12.604 2.424 13.331 2.935 13.938 3.61 14.3L10.5 17.897C10.617 17.956 10.745 17.991 10.876 18 11.007 18.01 11.139 17.993 11.264 17.952 11.388 17.91 11.503 17.844 11.603 17.758 11.702 17.672 11.783 17.568 11.842 17.45L14.948 11.239C15.066 11.002 15.086 10.728 15.002 10.476 14.918 10.225 14.738 10.017 14.501 9.898L7.61 6.3ZM8 9V2"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    );
+  }
+
+  console.error(`Spotlight doesn't support ${type}`);
+  return null;
+});
+
+Spotlight.displayName = "Spotlight";
+
+Spotlight.metadata = {
+  name: "Spotlight",
+  category: "stroke/multimedia",
+  tags: ["spotlight", "icon"],
+  description: "Spotlight icon from stroke/multimedia category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default Spotlight;

@@ -1,0 +1,95 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+interface SproutProps extends IconProps {
+  type?: "stroke";
+}
+
+export const Sprout: IconComponent<SproutProps> = React.forwardRef<
+  SVGSVGElement,
+  SproutProps
+>(function Sprout(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    type = "stroke",
+    ...props
+  },
+  forwardedRef,
+) {
+  if (type === "stroke") {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M14 9.536V7C14 5.939 14.421 4.922 15.172 4.172 15.922 3.421 16.939 3 18 3H19.5C19.633 3 19.76 3.053 19.854 3.146 19.947 3.24 20 3.367 20 3.5V5C20 6.061 19.579 7.078 18.828 7.828 18.078 8.579 17.061 9 16 9 14.939 9 13.922 9.421 13.172 10.172 12.421 10.922 12 11.939 12 13 12 15 13 16 13 18 13 19.082 12.649 20.135 12 21M4 9C4.743 8.443 5.626 8.104 6.551 8.02 7.476 7.937 8.406 8.113 9.236 8.528 10.067 8.943 10.765 9.581 11.253 10.371 11.741 11.161 12 12.071 12 13 11.257 13.557 10.374 13.896 9.449 13.98 8.524 14.063 7.594 13.887 6.764 13.472 5.933 13.057 5.235 12.419 4.747 11.629 4.259 10.839 4 9.929 4 9ZM5 21H19"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    );
+  }
+
+  if (type === "stroke") {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M14 9.536V7C14 5.939 14.421 4.922 15.172 4.172 15.922 3.421 16.939 3 18 3H19.5C19.633 3 19.76 3.053 19.854 3.146 19.947 3.24 20 3.367 20 3.5V5C20 6.061 19.579 7.078 18.828 7.828 18.078 8.579 17.061 9 16 9 14.939 9 13.922 9.421 13.172 10.172 12.421 10.922 12 11.939 12 13 12 15 13 16 13 18 13 19.082 12.649 20.135 12 21M4 9C4.743 8.443 5.626 8.104 6.551 8.02 7.476 7.937 8.406 8.113 9.236 8.528 10.067 8.943 10.765 9.581 11.253 10.371 11.741 11.161 12 12.071 12 13 11.257 13.557 10.374 13.896 9.449 13.98 8.524 14.063 7.594 13.887 6.764 13.472 5.933 13.057 5.235 12.419 4.747 11.629 4.259 10.839 4 9.929 4 9ZM5 21H19"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    );
+  }
+
+  console.error(`Sprout doesn't support ${type}`);
+  return null;
+});
+
+Sprout.displayName = "Sprout";
+
+Sprout.metadata = {
+  name: "Sprout",
+  category: "stroke/nature",
+  tags: ["sprout", "icon"],
+  description: "Sprout icon from stroke/nature category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default Sprout;

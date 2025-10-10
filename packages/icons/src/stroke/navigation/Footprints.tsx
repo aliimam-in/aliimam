@@ -1,0 +1,58 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const Footprints: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function Footprints(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <path
+        d="M4 16V13.62C4 11.5 2.97 10.5 3 8 3.03 5.28 4.49 2 7.5 2 9.37 2 10 3.8 10 5.5 10 8.61 8 11.16 8 14.18V16C8 16.53 7.789 17.039 7.414 17.414 7.039 17.789 6.53 18 6 18 5.469 18 4.961 17.789 4.586 17.414 4.211 17.039 4 16.53 4 16ZM20 20V17.62C20 15.5 21.03 14.5 21 12 20.97 9.28 19.51 6 16.5 6 14.63 6 14 7.8 14 9.5 14 12.61 16 15.16 16 18.18V20C16 20.53 16.211 21.039 16.586 21.414 16.961 21.789 17.47 22 18 22 18.53 22 19.039 21.789 19.414 21.414 19.789 21.039 20 20.53 20 20ZM16 17H20M4 13H8"
+        stroke={color}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+});
+
+Footprints.displayName = "Footprints";
+
+Footprints.metadata = {
+  name: "Footprints",
+  category: "stroke/navigation",
+  tags: ["footprints", "icon"],
+  description: "Footprints icon from stroke/navigation category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default Footprints;

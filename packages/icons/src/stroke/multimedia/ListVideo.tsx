@@ -1,0 +1,58 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const ListVideo: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function ListVideo(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <path
+        d="M21 5H3M10 12H3M10 19H3M15 12.003C15 11.826 15.046 11.651 15.135 11.498 15.225 11.344 15.353 11.217 15.507 11.13 15.662 11.042 15.837 10.998 16.014 11 16.192 11.003 16.365 11.052 16.517 11.144L21.514 14.141C21.663 14.23 21.786 14.356 21.872 14.506 21.957 14.657 22.002 14.827 22.002 15 22.002 15.173 21.957 15.343 21.872 15.494 21.786 15.645 21.663 15.77 21.514 15.859L16.517 18.856C16.365 18.948 16.191 18.998 16.014 19 15.836 19.002 15.661 18.958 15.507 18.87 15.352 18.782 15.224 18.655 15.135 18.502 15.046 18.348 14.999 18.174 15 17.996V12.003Z"
+        stroke={color}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+});
+
+ListVideo.displayName = "ListVideo";
+
+ListVideo.metadata = {
+  name: "ListVideo",
+  category: "stroke/multimedia",
+  tags: ["list", "video", "icon"],
+  description: "ListVideo icon from stroke/multimedia category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default ListVideo;

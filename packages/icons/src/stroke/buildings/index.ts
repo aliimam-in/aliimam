@@ -1,11 +1,5 @@
 export { default as Building2 } from "./Building2";
-export { default as Church } from "./Church";
 export { default as Dam } from "./Dam";
 export { default as Factory } from "./Factory";
 export { default as GraduationCap } from "./GraduationCap";
-export { default as Hotel } from "./Hotel";
-export { default as School } from "./School";
-export { default as Store } from "./Store";
 export { default as Theater } from "./Theater";
-export { default as University } from "./University";
-export { default as Warehouse } from "./Warehouse";

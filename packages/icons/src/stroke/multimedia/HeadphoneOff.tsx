@@ -1,0 +1,176 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+interface HeadphoneOffProps extends IconProps {
+  type?: "stroke";
+}
+
+export const HeadphoneOff: IconComponent<HeadphoneOffProps> = React.forwardRef<
+  SVGSVGElement,
+  HeadphoneOffProps
+>(function HeadphoneOff(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    type = "stroke",
+    ...props
+  },
+  forwardedRef,
+) {
+  if (type === "stroke") {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M21 14H19.657M9.128 3.47C10.482 3.014 11.925 2.887 13.337 3.099 14.75 3.312 16.091 3.857 17.251 4.69 18.412 5.524 19.357 6.622 20.008 7.893 20.66 9.164 21 10.572 21 12V15.343M2 2 22 22M20.414 20.414C20.039 20.789 19.53 21 19 21H18C17.47 21 16.961 20.789 16.586 20.414 16.211 20.039 16 19.53 16 19V16M3 14H6C6.53 14 7.039 14.211 7.414 14.586 7.789 14.961 8 15.47 8 16V19C8 19.53 7.789 20.039 7.414 20.414 7.039 20.789 6.53 21 6 21H5C4.47 21 3.961 20.789 3.586 20.414 3.211 20.039 3 19.53 3 19V12C3 10.818 3.233 9.648 3.685 8.556 4.137 7.464 4.8 6.472 5.636 5.636"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    );
+  }
+
+  if (type === "stroke") {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M21 14H19.657M9.128 3.47C10.482 3.014 11.925 2.887 13.337 3.099 14.75 3.312 16.092 3.857 17.252 4.69 18.412 5.524 19.357 6.622 20.008 7.893 20.66 9.164 21 10.572 21 12V15.343M2 2 22 22M20.414 20.414C20.039 20.789 19.53 21 19 21H18C17.47 21 16.961 20.789 16.586 20.414 16.211 20.039 16 19.53 16 19V16M3 14H6C6.53 14 7.039 14.211 7.414 14.586 7.789 14.961 8 15.47 8 16V19C8 19.53 7.789 20.039 7.414 20.414 7.039 20.789 6.53 21 6 21H5C4.47 21 3.961 20.789 3.586 20.414 3.211 20.039 3 19.53 3 19V12C3 10.818 3.233 9.648 3.685 8.556 4.137 7.464 4.8 6.472 5.636 5.636"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    );
+  }
+
+  if (type === "stroke") {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M21 14H19.657M9.128 3.47C10.482 3.014 11.925 2.887 13.337 3.099 14.75 3.312 16.091 3.857 17.251 4.691 18.412 5.524 19.357 6.622 20.008 7.893 20.66 9.164 21 10.572 21 12V15.343M2 2 22 22M20.414 20.414C20.039 20.789 19.53 21 19 21H18C17.47 21 16.961 20.789 16.586 20.414 16.211 20.039 16 19.53 16 19V16M3 14H6C6.53 14 7.039 14.211 7.414 14.586 7.789 14.961 8 15.47 8 16V19C8 19.53 7.789 20.039 7.414 20.414 7.039 20.789 6.53 21 6 21H5C4.47 21 3.961 20.789 3.586 20.414 3.211 20.039 3 19.53 3 19V12C3 10.818 3.233 9.648 3.685 8.556 4.137 7.464 4.8 6.472 5.636 5.636"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    );
+  }
+
+  if (type === "stroke") {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M21 14H19.657M9.128 3.47C10.482 3.014 11.925 2.887 13.337 3.099 14.75 3.312 16.092 3.857 17.252 4.691 18.412 5.524 19.357 6.622 20.008 7.893 20.66 9.164 21 10.572 21 12V15.343M2 2 22 22M20.414 20.414C20.039 20.789 19.53 21 19 21H18C17.47 21 16.961 20.789 16.586 20.414 16.211 20.039 16 19.53 16 19V16M3 14H6C6.53 14 7.039 14.211 7.414 14.586 7.789 14.961 8 15.47 8 16V19C8 19.53 7.789 20.039 7.414 20.414 7.039 20.789 6.53 21 6 21H5C4.47 21 3.961 20.789 3.586 20.414 3.211 20.039 3 19.53 3 19V12C3 10.818 3.233 9.648 3.685 8.556 4.137 7.464 4.8 6.472 5.636 5.636"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    );
+  }
+
+  if (type === "stroke") {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M21 14H19.657M9.128 3.47C10.482 3.014 11.925 2.887 13.337 3.099 14.75 3.312 16.092 3.857 17.252 4.691 18.412 5.524 19.357 6.622 20.008 7.893 20.66 9.164 21 10.572 21 12V15.343M2 2 22 22M20.414 20.414C20.039 20.789 19.53 21 19 21H18C17.47 21 16.961 20.789 16.586 20.414 16.211 20.039 16 19.53 16 19V16M3 14H6C6.53 14 7.039 14.211 7.414 14.586 7.789 14.961 8 15.47 8 16V19C8 19.53 7.789 20.039 7.414 20.414 7.039 20.789 6.53 21 6 21H5C4.47 21 3.961 20.789 3.586 20.414 3.211 20.039 3 19.53 3 19V12C3 10.818 3.233 9.648 3.685 8.556 4.137 7.464 4.8 6.472 5.636 5.636"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    );
+  }
+
+  console.error(`HeadphoneOff doesn't support ${type}`);
+  return null;
+});
+
+HeadphoneOff.displayName = "HeadphoneOff";
+
+HeadphoneOff.metadata = {
+  name: "HeadphoneOff",
+  category: "stroke/multimedia",
+  tags: ["headphone", "off", "icon"],
+  description: "HeadphoneOff icon from stroke/multimedia category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default HeadphoneOff;

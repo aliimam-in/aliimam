@@ -1,0 +1,122 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+interface LoaderProps extends IconProps {
+  type?: "stroke";
+}
+
+export const Loader: IconComponent<LoaderProps> = React.forwardRef<
+  SVGSVGElement,
+  LoaderProps
+>(function Loader(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    type = "stroke",
+    ...props
+  },
+  forwardedRef,
+) {
+  if (type === "stroke") {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M12 2V6M16.2 7.8 19.1 4.9M18 12H22M16.2 16.2 19.1 19.1M12 18V22M4.9 19.1 7.8 16.2M2 12H6M4.9 4.9 7.8 7.8"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    );
+  }
+
+  if (type === "stroke") {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M12 2V6M16.2 7.8 19.1 4.9M18 12H22M16.2 16.2 19.1 19.1M12 18V22M4.9 19.1 7.8 16.2M2 12H6M4.9 4.9 7.8 7.8"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    );
+  }
+
+  if (type === "stroke") {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M12 2V6M16.2 7.8 19.1 4.9M18 12H22M16.2 16.2 19.1 19.1M12 18V22M4.9 19.1 7.8 16.2M2 12H6M4.9 4.9 7.8 7.8"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    );
+  }
+
+  console.error(`Loader doesn't support ${type}`);
+  return null;
+});
+
+Loader.displayName = "Loader";
+
+Loader.metadata = {
+  name: "Loader",
+  category: "stroke/multimedia",
+  tags: ["loader", "icon"],
+  description: "Loader icon from stroke/multimedia category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default Loader;

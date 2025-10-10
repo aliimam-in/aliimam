@@ -1,0 +1,140 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+interface MonitorPlayProps extends IconProps {
+  type?: "stroke";
+}
+
+export const MonitorPlay: IconComponent<MonitorPlayProps> = React.forwardRef<
+  SVGSVGElement,
+  MonitorPlayProps
+>(function MonitorPlay(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    type = "stroke",
+    ...props
+  },
+  forwardedRef,
+) {
+  if (type === "stroke") {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M15.033 9.44C15.131 9.497 15.213 9.579 15.269 9.677 15.326 9.775 15.356 9.887 15.356 10 15.356 10.114 15.326 10.225 15.269 10.323 15.213 10.422 15.131 10.503 15.033 10.56L10.968 12.912C10.87 12.969 10.758 12.999 10.645 12.999 10.532 12.999 10.42 12.969 10.322 12.912 10.224 12.855 10.142 12.774 10.086 12.675 10.029 12.577 10 12.465 10 12.352V7.648C10 7.535 10.029 7.423 10.086 7.325 10.142 7.227 10.224 7.145 10.322 7.089 10.42 7.032 10.531 7.002 10.644 7.002 10.758 7.002 10.869 7.031 10.967 7.088L15.033 9.44ZM12 17V21M8 21H16"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M20 3H4C2.89543 3 2 3.89543 2 5V15C2 16.1046 2.89543 17 4 17H20C21.1046 17 22 16.1046 22 15V5C22 3.89543 21.1046 3 20 3Z"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    );
+  }
+
+  if (type === "stroke") {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M15.033 9.44C15.131 9.497 15.213 9.578 15.269 9.677 15.326 9.775 15.356 9.886 15.356 10 15.356 10.113 15.326 10.225 15.269 10.323 15.213 10.422 15.131 10.503 15.033 10.56L10.968 12.912C10.87 12.969 10.758 12.999 10.645 12.999 10.532 12.999 10.42 12.969 10.322 12.912 10.224 12.855 10.142 12.774 10.086 12.675 10.029 12.577 10 12.465 10 12.352V7.648C10 7.535 10.029 7.423 10.086 7.325 10.142 7.227 10.224 7.145 10.322 7.089 10.42 7.032 10.531 7.002 10.644 7.002 10.758 7.002 10.869 7.031 10.967 7.088L15.033 9.44ZM12 17V21M8 21H16"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M20 3H4C2.89543 3 2 3.89543 2 5V15C2 16.1046 2.89543 17 4 17H20C21.1046 17 22 16.1046 22 15V5C22 3.89543 21.1046 3 20 3Z"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    );
+  }
+
+  if (type === "stroke") {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M15.033 9.44C15.131 9.497 15.213 9.578 15.269 9.677 15.326 9.775 15.356 9.886 15.356 10 15.356 10.113 15.326 10.225 15.269 10.323 15.213 10.422 15.131 10.503 15.033 10.56L10.968 12.912C10.87 12.969 10.758 12.999 10.645 12.999 10.532 12.999 10.42 12.969 10.322 12.912 10.224 12.855 10.142 12.774 10.086 12.675 10.029 12.577 10 12.465 10 12.352V7.648C10 7.535 10.029 7.423 10.086 7.325 10.142 7.227 10.224 7.145 10.322 7.089 10.42 7.032 10.531 7.002 10.644 7.002 10.758 7.002 10.869 7.031 10.967 7.088L15.033 9.44ZM12 17V21M8 21H16"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M20 3H4C2.89543 3 2 3.89543 2 5V15C2 16.1046 2.89543 17 4 17H20C21.1046 17 22 16.1046 22 15V5C22 3.89543 21.1046 3 20 3Z"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    );
+  }
+
+  console.error(`MonitorPlay doesn't support ${type}`);
+  return null;
+});
+
+MonitorPlay.displayName = "MonitorPlay";
+
+MonitorPlay.metadata = {
+  name: "MonitorPlay",
+  category: "stroke/multimedia",
+  tags: ["monitor", "play", "icon"],
+  description: "MonitorPlay icon from stroke/multimedia category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default MonitorPlay;

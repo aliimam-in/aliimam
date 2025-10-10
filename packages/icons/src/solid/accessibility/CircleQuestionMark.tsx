@@ -72,6 +72,72 @@ export const CircleQuestionMark: IconComponent<CircleQuestionMarkProps> =
               strokeLinejoin="round"
             />
             <path
+              d="M9.09 9C9.325 8.332 9.789 7.768 10.4 7.409 11.011 7.05 11.729 6.919 12.427 7.039 13.126 7.158 13.759 7.521 14.215 8.063 14.671 8.605 14.921 9.291 14.92 10 14.92 12 11.92 13 11.92 13M12 17H12.01"
+              stroke={color}
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        );
+      }
+
+      if (type === "stroke") {
+        return (
+          <svg
+            width={size}
+            height={size}
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            className={className}
+            strokeWidth={strokeWidth}
+            strokeLinecap={strokeLinecap}
+            strokeLinejoin={strokeLinejoin}
+            strokeDasharray={strokeDasharray}
+            opacity={opacity}
+            {...props}
+            ref={forwardedRef}
+          >
+            <path
+              d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+              stroke={color}
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+            <path
+              d="M9.09 9C9.325 8.332 9.789 7.768 10.4 7.409 11.011 7.05 11.729 6.919 12.427 7.039 13.126 7.158 13.759 7.521 14.215 8.063 14.671 8.605 14.921 9.291 14.92 10 14.92 12 11.92 13 11.92 13M12 17H12.01"
+              stroke={color}
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        );
+      }
+
+      if (type === "stroke") {
+        return (
+          <svg
+            width={size}
+            height={size}
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            className={className}
+            strokeWidth={strokeWidth}
+            strokeLinecap={strokeLinecap}
+            strokeLinejoin={strokeLinejoin}
+            strokeDasharray={strokeDasharray}
+            opacity={opacity}
+            {...props}
+            ref={forwardedRef}
+          >
+            <path
+              d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"
+              stroke={color}
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+            <path
               d="M9.09 9C9.325 8.332 9.789 7.768 10.4 7.409 11.011 7.05 11.729 6.919 12.427 7.039 13.126 7.159 13.759 7.522 14.215 8.064 14.671 8.606 14.921 9.292 14.92 10 14.92 12 11.92 13 11.92 13M12 17H12.01"
               stroke={color}
               strokeLinecap="round"
