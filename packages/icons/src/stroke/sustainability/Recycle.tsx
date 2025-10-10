@@ -1,0 +1,70 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const Recycle: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function Recycle(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <path
+        d="M7 19H4.815C4.5 19.001 4.189 18.92 3.914 18.766 3.639 18.612 3.409 18.389 3.245 18.119 3.088 17.848 3.005 17.541 3.004 17.228 3.003 16.914 3.085 16.607 3.241 16.335L7.196 9.5M11 19H19.203C19.517 18.998 19.825 18.915 20.097 18.759 20.37 18.603 20.598 18.379 20.759 18.11 20.914 17.84 20.995 17.534 20.995 17.223 20.995 16.911 20.914 16.605 20.759 16.335L19.533 14.215"
+        stroke={color}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M14 16 11 19 14 22M8.293 13.596 7.196 9.5 3.1 10.598M9.344 5.811 10.437 3.919C10.594 3.645 10.819 3.417 11.09 3.256 11.361 3.095 11.67 3.007 11.985 3 12.298 2.999 12.606 3.081 12.877 3.237 13.148 3.393 13.374 3.617 13.531 3.888L17.474 10.731"
+        stroke={color}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+      <path
+        d="M13.3779 9.63301L17.4739 10.731L18.5709 6.63501"
+        stroke={color}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+});
+
+Recycle.displayName = "Recycle";
+
+Recycle.metadata = {
+  name: "Recycle",
+  category: "stroke/sustainability",
+  tags: ["recycle", "icon"],
+  description: "Recycle icon from stroke/sustainability category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default Recycle;

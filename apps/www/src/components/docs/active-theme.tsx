@@ -25,23 +25,27 @@ export function ActiveThemeProvider({
   children: ReactNode
   initialTheme?: string
 }) {
-  const [activeTheme, setActiveThemeState] = useState<string>(() => {
-    if (typeof window !== 'undefined') {
-      return localStorage.getItem('activeTheme') || initialTheme || DEFAULT_THEME
-    }
-    return initialTheme || DEFAULT_THEME
-  })
+  const [activeTheme, setActiveThemeState] = useState<string>(
+    initialTheme || DEFAULT_THEME
+  )
   
   const [config] = useConfig()
 
+  // ✅ Only read from localStorage after mount
+  useEffect(() => {
+    const storedTheme = localStorage.getItem("activeTheme")
+    if (storedTheme && storedTheme !== activeTheme) {
+      setActiveThemeState(storedTheme)
+    }
+  }, [])
+
   const setActiveTheme = (theme: string) => {
     setActiveThemeState(theme)
-    if (typeof window !== 'undefined') {
-      localStorage.setItem('activeTheme', theme)
-    }
+    localStorage.setItem("activeTheme", theme)
   }
 
   useEffect(() => {
+    // Update body classes
     Array.from(document.body.classList)
       .filter((className) => className.startsWith("theme-"))
       .forEach((className) => {
@@ -51,10 +55,11 @@ export function ActiveThemeProvider({
     if (activeTheme.endsWith("-scaled")) {
       document.body.classList.add("theme-scaled")
     }
-    
-    localStorage.setItem('activeTheme', activeTheme)
+
+    localStorage.setItem("activeTheme", activeTheme)
   }, [activeTheme])
 
+  // Update CSS vars dynamically
   useEffect(() => { 
     const themeContainers = document.querySelectorAll('.theme-container')
     themeContainers.forEach((container) => {
@@ -73,7 +78,7 @@ export function ActiveThemeProvider({
 
 export function useThemeConfig() {
   const context = useContext(ThemeContext)
-  if (context === undefined) {
+  if (!context) {
     throw new Error("useThemeConfig must be used within an ActiveThemeProvider")
   }
   return context

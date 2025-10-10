@@ -587,6 +587,22 @@ export const blocks: Registry["items"] = [
     },
   },
   {
+    name: "404-01",
+    description: "A simple chat section.",
+    type: "registry:block",
+    files: [
+      {
+        path: "blocks/404/404-01/page.tsx",
+        target: "components/404-01.tsx",
+        type: "registry:component",
+      },
+    ],
+    categories: ["not-found", "404"],
+    meta: {
+      iframeHeight: "800px",
+    },
+  },
+  {
     name: "chat-01",
     description: "A simple chat section.",
     type: "registry:block",

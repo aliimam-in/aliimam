@@ -1,0 +1,58 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const ShoppingCart: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function ShoppingCart(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <path
+        d="M8 22C8.552 22 9 21.552 9 21 9 20.448 8.552 20 8 20 7.448 20 7 20.448 7 21 7 21.552 7.448 22 8 22ZM19 22C19.552 22 20 21.552 20 21 20 20.448 19.552 20 19 20 18.448 20 18 20.448 18 21 18 21.552 18.448 22 19 22ZM2.05 2.05H4.05L6.71 14.47C6.807 14.925 7.06 15.332 7.426 15.62 7.791 15.908 8.245 16.06 8.71 16.05H18.49C18.945 16.049 19.386 15.893 19.741 15.608 20.095 15.322 20.342 14.925 20.44 14.48L22.09 7.05H5.12"
+        stroke={color}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+});
+
+ShoppingCart.displayName = "ShoppingCart";
+
+ShoppingCart.metadata = {
+  name: "ShoppingCart",
+  category: "stroke/shopping",
+  tags: ["shopping", "cart", "icon"],
+  description: "ShoppingCart icon from stroke/shopping category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default ShoppingCart;

@@ -1,0 +1,95 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+interface CircleFadingPlusProps extends IconProps {
+  type?: "stroke";
+}
+
+export const CircleFadingPlus: IconComponent<CircleFadingPlusProps> =
+  React.forwardRef<SVGSVGElement, CircleFadingPlusProps>(
+    function CircleFadingPlus(
+      {
+        color = "currentColor",
+        fill,
+        size = 24,
+        strokeWidth,
+        strokeLinecap,
+        strokeLinejoin,
+        strokeDasharray,
+        opacity,
+        className,
+        type = "stroke",
+        ...props
+      },
+      forwardedRef,
+    ) {
+      if (type === "stroke") {
+        return (
+          <svg
+            width={size}
+            height={size}
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            className={className}
+            strokeWidth={strokeWidth}
+            strokeLinecap={strokeLinecap}
+            strokeLinejoin={strokeLinejoin}
+            strokeDasharray={strokeDasharray}
+            opacity={opacity}
+            {...props}
+            ref={forwardedRef}
+          >
+            <path
+              d="M12 2C13.94 2 15.839 2.564 17.464 3.623 19.089 4.683 20.371 6.193 21.153 7.968 21.935 9.743 22.184 11.708 21.869 13.623 21.555 15.537 20.69 17.319 19.38 18.75M12 8V16M16 12H8M2.5 8.875C2.181 9.844 2.013 10.855 2 11.875M2.83 16C3.392 17.292 4.22 18.451 5.26 19.4M4.636 5.235C4.915 4.931 5.213 4.645 5.527 4.378M8.644 21.42C11.138 22.308 13.882 22.172 16.275 21.04"
+              stroke={color}
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        );
+      }
+
+      if (type === "stroke") {
+        return (
+          <svg
+            width={size}
+            height={size}
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            className={className}
+            strokeWidth={strokeWidth}
+            strokeLinecap={strokeLinecap}
+            strokeLinejoin={strokeLinejoin}
+            strokeDasharray={strokeDasharray}
+            opacity={opacity}
+            {...props}
+            ref={forwardedRef}
+          >
+            <path
+              d="M12 2C13.94 2 15.839 2.564 17.464 3.623 19.089 4.683 20.371 6.193 21.153 7.968 21.935 9.743 22.184 11.708 21.869 13.623 21.555 15.537 20.69 17.319 19.38 18.75M12 8V16M16 12H8M2.5 8.875C2.181 9.844 2.013 10.855 2 11.875M2.83 16C3.391 17.292 4.22 18.451 5.26 19.4M4.636 5.235C4.915 4.931 5.213 4.645 5.527 4.378M8.644 21.42C11.138 22.308 13.882 22.172 16.275 21.04"
+              stroke={color}
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        );
+      }
+
+      console.error(`CircleFadingPlus doesn't support ${type}`);
+      return null;
+    },
+  );
+
+CircleFadingPlus.displayName = "CircleFadingPlus";
+
+CircleFadingPlus.metadata = {
+  name: "CircleFadingPlus",
+  category: "stroke/social",
+  tags: ["circle", "fading", "plus", "icon"],
+  description: "CircleFadingPlus icon from stroke/social category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default CircleFadingPlus;

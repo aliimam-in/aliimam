@@ -1,7 +1,5 @@
 export { default as Archive } from "./Archive";
 export { default as ArchiveRestore } from "./ArchiveRestore";
-export { default as ArrowsUpFromLine } from "./ArrowsUpFromLine";
-export { default as Container } from "./Container";
 export { default as Forward } from "./Forward";
 export { default as Inbox } from "./Inbox";
 export { default as MailCheck } from "./MailCheck";

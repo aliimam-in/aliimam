@@ -1,0 +1,107 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+interface MessageSquareCodeProps extends IconProps {
+  type?: "stroke";
+}
+
+export const MessageSquareCode: IconComponent<MessageSquareCodeProps> =
+  React.forwardRef<SVGSVGElement, MessageSquareCodeProps>(
+    function MessageSquareCode(
+      {
+        color = "currentColor",
+        fill,
+        size = 24,
+        strokeWidth,
+        strokeLinecap,
+        strokeLinejoin,
+        strokeDasharray,
+        opacity,
+        className,
+        type = "stroke",
+        ...props
+      },
+      forwardedRef,
+    ) {
+      if (type === "stroke") {
+        return (
+          <svg
+            width={size}
+            height={size}
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            className={className}
+            strokeWidth={strokeWidth}
+            strokeLinecap={strokeLinecap}
+            strokeLinejoin={strokeLinejoin}
+            strokeDasharray={strokeDasharray}
+            opacity={opacity}
+            {...props}
+            ref={forwardedRef}
+          >
+            <path
+              d="M22 17C22 17.5304 21.7893 18.0391 21.4142 18.4142C21.0391 18.7893 20.5304 19 20 19H6.828C6.29761 19.0001 5.78899 19.2109 5.414 19.586L3.212 21.788C3.1127 21.8873 2.9862 21.9549 2.84849 21.9823C2.71077 22.0097 2.56803 21.9956 2.43831 21.9419C2.30858 21.8881 2.1977 21.7971 2.11969 21.6804C2.04167 21.5637 2.00002 21.4264 2 21.286V5C2 4.46957 2.21071 3.96086 2.58579 3.58579C2.96086 3.21071 3.46957 3 4 3H20C20.5304 3 21.0391 3.21071 21.4142 3.58579C21.7893 3.96086 22 4.46957 22 5V17Z"
+              stroke={color}
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+            <path
+              d="M10 8 7 11 10 14M14 14 17 11 14 8"
+              stroke={color}
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        );
+      }
+
+      if (type === "stroke") {
+        return (
+          <svg
+            width={size}
+            height={size}
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            className={className}
+            strokeWidth={strokeWidth}
+            strokeLinecap={strokeLinecap}
+            strokeLinejoin={strokeLinejoin}
+            strokeDasharray={strokeDasharray}
+            opacity={opacity}
+            {...props}
+            ref={forwardedRef}
+          >
+            <path
+              d="M22 17C22 17.5304 21.7893 18.0391 21.4142 18.4142C21.0391 18.7893 20.5304 19 20 19H6.828C6.29761 19.0001 5.78899 19.2109 5.414 19.586L3.212 21.788C3.1127 21.8873 2.9862 21.9549 2.84849 21.9823C2.71077 22.0097 2.56803 21.9956 2.43831 21.9419C2.30858 21.8881 2.1977 21.7971 2.11969 21.6804C2.04167 21.5637 2.00002 21.4264 2 21.286V5C2 4.46957 2.21071 3.96086 2.58579 3.58579C2.96086 3.21071 3.46957 3 4 3H20C20.5304 3 21.0391 3.21071 21.4142 3.58579C21.7893 3.96086 22 4.46957 22 5V17Z"
+              stroke={color}
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+            <path
+              d="M10 8 7 11 10 14M14 14 17 11 14 8"
+              stroke={color}
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        );
+      }
+
+      console.error(`MessageSquareCode doesn't support ${type}`);
+      return null;
+    },
+  );
+
+MessageSquareCode.displayName = "MessageSquareCode";
+
+MessageSquareCode.metadata = {
+  name: "MessageSquareCode",
+  category: "stroke/social",
+  tags: ["message", "square", "code", "icon"],
+  description: "MessageSquareCode icon from stroke/social category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default MessageSquareCode;

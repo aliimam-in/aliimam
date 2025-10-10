@@ -1739,6 +1739,36 @@
       ]
     },
     {
+      "name": "dino-game-01",
+      "type": "registry:example",
+      "title": "Dino Game",
+      "description": "Example showing a simple dino game.",
+      "registryDependencies": [
+        "dino-game"
+      ],
+      "files": [
+        {
+          "path": "registry/default/example/dino-game/dino-game-01.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "dino-game-02",
+      "type": "registry:example",
+      "title": "Dino Game",
+      "description": "Example showing a simple dino game.",
+      "registryDependencies": [
+        "dino-game"
+      ],
+      "files": [
+        {
+          "path": "registry/default/example/dino-game/dino-game-02.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
       "name": "header-01",
       "type": "registry:block",
       "description": "A simple header section.",
@@ -2508,6 +2538,25 @@
       ]
     },
     {
+      "name": "404-01",
+      "type": "registry:block",
+      "description": "A simple chat section.",
+      "files": [
+        {
+          "path": "registry/default/blocks/404/404-01/page.tsx",
+          "type": "registry:component",
+          "target": "components/404-01.tsx"
+        }
+      ],
+      "meta": {
+        "iframeHeight": "800px"
+      },
+      "categories": [
+        "not-found",
+        "404"
+      ]
+    },
+    {
       "name": "chat-01",
       "type": "registry:block",
       "description": "A simple chat section.",
@@ -2758,6 +2807,16 @@
       "files": [
         {
           "path": "registry/default/components/shader-void.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "dino-game",
+      "type": "registry:component",
+      "files": [
+        {
+          "path": "registry/default/components/dino-game.tsx",
           "type": "registry:component"
         }
       ]

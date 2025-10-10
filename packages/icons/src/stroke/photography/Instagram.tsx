@@ -1,0 +1,107 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+interface InstagramProps extends IconProps {
+  type?: "stroke";
+}
+
+export const Instagram: IconComponent<InstagramProps> = React.forwardRef<
+  SVGSVGElement,
+  InstagramProps
+>(function Instagram(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    type = "stroke",
+    ...props
+  },
+  forwardedRef,
+) {
+  if (type === "stroke") {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M17 2H7C4.23858 2 2 4.23858 2 7V17C2 19.7614 4.23858 22 7 22H17C19.7614 22 22 19.7614 22 17V7C22 4.23858 19.7614 2 17 2Z"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M16 11.37C16.123 12.202 15.981 13.052 15.594 13.799 15.206 14.546 14.593 15.152 13.842 15.53 13.09 15.908 12.238 16.04 11.408 15.906 10.577 15.772 9.81 15.38 9.215 14.785 8.62 14.19 8.228 13.423 8.094 12.592 7.96 11.762 8.092 10.91 8.47 10.158 8.849 9.407 9.454 8.794 10.201 8.406 10.948 8.019 11.798 7.877 12.63 8 13.479 8.126 14.265 8.522 14.872 9.128 15.479 9.735 15.874 10.521 16 11.37ZM17.5 6.5H17.51"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    );
+  }
+
+  if (type === "stroke") {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M17 2H7C4.23858 2 2 4.23858 2 7V17C2 19.7614 4.23858 22 7 22H17C19.7614 22 22 19.7614 22 17V7C22 4.23858 19.7614 2 17 2Z"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M16 11.37C16.123 12.202 15.981 13.052 15.594 13.799 15.206 14.546 14.593 15.151 13.842 15.53 13.09 15.908 12.238 16.04 11.408 15.906 10.577 15.772 9.81 15.38 9.215 14.785 8.62 14.19 8.228 13.423 8.094 12.592 7.96 11.762 8.092 10.91 8.47 10.158 8.849 9.407 9.454 8.794 10.201 8.406 10.948 8.019 11.798 7.877 12.63 8 13.479 8.126 14.265 8.521 14.872 9.128 15.479 9.735 15.874 10.521 16 11.37ZM17.5 6.5H17.51"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    );
+  }
+
+  console.error(`Instagram doesn't support ${type}`);
+  return null;
+});
+
+Instagram.displayName = "Instagram";
+
+Instagram.metadata = {
+  name: "Instagram",
+  category: "stroke/photography",
+  tags: ["instagram", "icon"],
+  description: "Instagram icon from stroke/photography category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default Instagram;

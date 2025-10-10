@@ -233,4 +233,14 @@ export const components: Registry["items"] = [
       },
     ],
   },
+  {
+    name: "dino-game",
+    type: "registry:component",  
+    files: [
+      {
+        path: "components/dino-game.tsx",
+        type: "registry:component",
+      },
+    ],
+  },
 ]

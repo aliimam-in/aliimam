@@ -1,0 +1,58 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const TriangleDashed: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function TriangleDashed(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <path
+        d="M10.17 4.193C10.327 3.837 10.584 3.534 10.911 3.322 11.237 3.11 11.618 2.998 12.007 3 12.396 3.001 12.777 3.116 13.101 3.33 13.426 3.544 13.682 3.849 13.836 4.206M14 21H16M15.874 7.743 16.874 9.475M18.849 12.952 19.849 14.684M21.824 18.18C21.962 18.486 22.021 18.821 21.996 19.156 21.97 19.49 21.861 19.813 21.679 20.094 21.496 20.375 21.245 20.606 20.95 20.765 20.655 20.924 20.324 21.006 19.989 21.004M4.024 21C3.686 21.004 3.353 20.922 3.056 20.763 2.758 20.603 2.505 20.371 2.322 20.088 2.138 19.804 2.029 19.479 2.006 19.142 1.982 18.805 2.043 18.468 2.185 18.161M5.136 12.952 4.136 14.684M8 21H10M8.102 7.743 7.102 9.475"
+        stroke={color}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+});
+
+TriangleDashed.displayName = "TriangleDashed";
+
+TriangleDashed.metadata = {
+  name: "TriangleDashed",
+  category: "stroke/shapes",
+  tags: ["triangle", "dashed", "icon"],
+  description: "TriangleDashed icon from stroke/shapes category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default TriangleDashed;

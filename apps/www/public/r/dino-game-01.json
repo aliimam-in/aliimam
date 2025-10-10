@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "dino-game-01",
+  "type": "registry:example",
+  "title": "Dino Game",
+  "description": "Example showing a simple dino game.",
+  "registryDependencies": [
+    "dino-game"
+  ],
+  "files": [
+    {
+      "path": "registry/default/example/dino-game/dino-game-01.tsx",
+      "content": "import { DinoGame } from \"@/registry/default/components/dino-game\";\n\nexport default function Component() {\n  return (\n    <div className=\"flex h-full w-full items-center justify-center\">\n      <DinoGame />\n    </div>\n  );\n}\n",
+      "type": "registry:example"
+    }
+  ]
+}

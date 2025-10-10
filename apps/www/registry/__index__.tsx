@@ -2086,6 +2086,42 @@ export const Index: Record<string, any> = {
     categories: undefined,
     meta: undefined,
   },
+  "dino-game-01": {
+    name: "dino-game-01",
+    description: "Example showing a simple dino game.",
+    type: "registry:example",
+    registryDependencies: ["dino-game"],
+    files: [{
+      path: "registry/default/example/dino-game/dino-game-01.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/dino-game/dino-game-01.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "dino-game-02": {
+    name: "dino-game-02",
+    description: "Example showing a simple dino game.",
+    type: "registry:example",
+    registryDependencies: ["dino-game"],
+    files: [{
+      path: "registry/default/example/dino-game/dino-game-02.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/dino-game/dino-game-02.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
   "header-01": {
     name: "header-01",
     description: "A simple header section.",
@@ -2688,6 +2724,24 @@ export const Index: Record<string, any> = {
     categories: ["connect","about"],
     meta: {"iframeHeight":"800px"},
   },
+  "404-01": {
+    name: "404-01",
+    description: "A simple chat section.",
+    type: "registry:block",
+    registryDependencies: undefined,
+    files: [{
+      path: "registry/default/blocks/404/404-01/page.tsx",
+      type: "registry:component",
+      target: "components/404-01.tsx"
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/blocks/404/404-01/page.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: ["not-found","404"],
+    meta: {"iframeHeight":"800px"},
+  },
   "chat-01": {
     name: "chat-01",
     description: "A simple chat section.",
@@ -3114,6 +3168,24 @@ export const Index: Record<string, any> = {
     }],
     component: React.lazy(async () => {
       const mod = await import("@/registry/default/components/shader-void.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "dino-game": {
+    name: "dino-game",
+    description: "",
+    type: "registry:component",
+    registryDependencies: undefined,
+    files: [{
+      path: "registry/default/components/dino-game.tsx",
+      type: "registry:component",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/components/dino-game.tsx")
       const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
       return { default: mod.default || mod[exportName] }
     }),

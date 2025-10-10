@@ -125,6 +125,8 @@ This file provides LLM-friendly entry points to documentation and examples.
 - [Shader Void](https://github.com/aliimam-in/blob/main/example/backgrounds/shader-void/shader-void-default.tsx): Example usage
 - [Shader RGB](https://github.com/aliimam-in/blob/main/example/backgrounds/shader-rgb/shader-rgb-default.tsx): Example usage
 - [Shine Border](https://github.com/aliimam-in/blob/main/example/backgrounds/shine-border/shine-border-default.tsx): Example usage
+- [Dino Game](https://github.com/aliimam-in/blob/main/example/dino-game/dino-game-01.tsx): Example usage
+- [Dino Game](https://github.com/aliimam-in/blob/main/example/dino-game/dino-game-02.tsx): Example usage
 
 ## Optional
 

@@ -1,0 +1,95 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+interface Share2Props extends IconProps {
+  type?: "stroke";
+}
+
+export const Share2: IconComponent<Share2Props> = React.forwardRef<
+  SVGSVGElement,
+  Share2Props
+>(function Share2(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    type = "stroke",
+    ...props
+  },
+  forwardedRef,
+) {
+  if (type === "stroke") {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M18 8C19.657 8 21 6.657 21 5 21 3.343 19.657 2 18 2 16.343 2 15 3.343 15 5 15 6.657 16.343 8 18 8ZM6 15C7.657 15 9 13.657 9 12 9 10.343 7.657 9 6 9 4.343 9 3 10.343 3 12 3 13.657 4.343 15 6 15ZM18 22C19.657 22 21 20.657 21 19 21 17.343 19.657 16 18 16 16.343 16 15 17.343 15 19 15 20.657 16.343 22 18 22ZM8.59 13.51 15.42 17.49M15.41 6.51 8.59 10.49"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    );
+  }
+
+  if (type === "stroke") {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M18 8C19.657 8 21 6.657 21 5 21 3.343 19.657 2 18 2 16.343 2 15 3.343 15 5 15 6.657 16.343 8 18 8ZM6 15C7.657 15 9 13.657 9 12 9 10.343 7.657 9 6 9 4.343 9 3 10.343 3 12 3 13.657 4.343 15 6 15ZM18 22C19.657 22 21 20.657 21 19 21 17.343 19.657 16 18 16 16.343 16 15 17.343 15 19 15 20.657 16.343 22 18 22ZM8.59 13.51 15.42 17.49M15.41 6.51 8.59 10.49"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    );
+  }
+
+  console.error(`Share2 doesn't support ${type}`);
+  return null;
+});
+
+Share2.displayName = "Share2";
+
+Share2.metadata = {
+  name: "Share2",
+  category: "stroke/social",
+  tags: ["share", "icon"],
+  description: "Share2 icon from stroke/social category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default Share2;

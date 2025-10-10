@@ -44,6 +44,11 @@ export const registryCategories = [
     slug: "dashboard",
     hidden: false,
   },
+  {
+    name: "404",
+    slug: "404",
+    hidden: false,
+  },
 ]
 
 

@@ -1,0 +1,58 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const CloudMoonRain: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function CloudMoonRain(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <path
+        d="M11 20V22M18.376 14.512C19.235 14.142 19.995 13.575 20.596 12.859 21.197 12.142 21.622 11.295 21.837 10.385 21.985 9.76 21.178 9.415 20.589 9.671 19.853 9.989 19.039 10.079 18.251 9.929 17.463 9.779 16.739 9.395 16.172 8.828 15.605 8.261 15.222 7.537 15.072 6.749 14.922 5.961 15.012 5.147 15.33 4.411 15.585 3.822 15.24 3.016 14.614 3.163 13.38 3.456 12.271 4.133 11.445 5.096 10.62 6.059 10.121 7.259 10.02 8.523M3 20C2.551 19.4 2.242 18.707 2.096 17.972 1.951 17.236 1.973 16.478 2.16 15.752 2.348 15.026 2.696 14.352 3.179 13.779 3.662 13.206 4.268 12.749 4.952 12.441 5.635 12.134 6.38 11.985 7.129 12.004 7.878 12.023 8.614 12.21 9.281 12.552 9.948 12.893 10.53 13.381 10.983 13.978 11.437 14.575 11.75 15.266 11.9 16H13C13.609 15.999 14.203 16.183 14.704 16.528 15.206 16.873 15.59 17.362 15.807 17.93 16.024 18.499 16.063 19.12 15.919 19.711 15.775 20.302 15.454 20.835 15 21.24M7 19V21"
+        stroke={color}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+});
+
+CloudMoonRain.displayName = "CloudMoonRain";
+
+CloudMoonRain.metadata = {
+  name: "CloudMoonRain",
+  category: "stroke/weather",
+  tags: ["cloud", "moon", "rain", "icon"],
+  description: "CloudMoonRain icon from stroke/weather category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default CloudMoonRain;

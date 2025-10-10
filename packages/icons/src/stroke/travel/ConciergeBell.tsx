@@ -1,0 +1,58 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const ConciergeBell: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function ConciergeBell(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <path
+        d="M3 20C2.735 20 2.48 19.895 2.293 19.707 2.105 19.52 2 19.265 2 19V18C2 17.47 2.211 16.961 2.586 16.586 2.961 16.211 3.47 16 4 16H20C20.53 16 21.039 16.211 21.414 16.586 21.789 16.961 22 17.47 22 18V19C22 19.265 21.895 19.52 21.707 19.707 21.52 19.895 21.265 20 21 20H3ZM20 16C20 13.878 19.157 11.843 17.657 10.343 16.157 8.843 14.122 8 12 8 9.878 8 7.843 8.843 6.343 10.343 4.843 11.843 4 13.878 4 16M12 4V8M10 4H14"
+        stroke={color}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+  );
+});
+
+ConciergeBell.displayName = "ConciergeBell";
+
+ConciergeBell.metadata = {
+  name: "ConciergeBell",
+  category: "stroke/travel",
+  tags: ["concierge", "bell", "icon"],
+  description: "ConciergeBell icon from stroke/travel category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default ConciergeBell;

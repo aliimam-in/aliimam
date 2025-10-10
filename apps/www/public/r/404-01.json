@@ -1,0 +1,21 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "404-01",
+  "type": "registry:block",
+  "description": "A simple chat section.",
+  "files": [
+    {
+      "path": "registry/default/blocks/404/404-01/page.tsx",
+      "content": "import { DinoGame } from \"@/registry/default/components/dino-game\";\n\nexport default function NotFoundDemo() {\n  return (\n    <div className=\"py-20 flex min-h-screen flex-col items-center justify-center\">\n      <h1 className=\"mb-10 px-20 text-muted-foreground text-center text-sm font-medium\">\n        Trusted by the world’s most creative companies.\n      </h1>\n      <DinoGame initialSpeed={2} dinoColor=\"blue\" />\n    </div>\n  );\n}\n",
+      "type": "registry:component",
+      "target": "components/404-01.tsx"
+    }
+  ],
+  "meta": {
+    "iframeHeight": "800px"
+  },
+  "categories": [
+    "not-found",
+    "404"
+  ]
+}

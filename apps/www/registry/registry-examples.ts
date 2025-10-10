@@ -977,4 +977,30 @@ export const examples: Registry["items"] = [
       },
     ],
   },
+  {
+    title: "Dino Game",
+    name: "dino-game-01",
+    type: "registry:example",
+    description: "Example showing a simple dino game.",
+    registryDependencies: ["dino-game"],
+    files: [
+      {
+        path: "example/dino-game/dino-game-01.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    title: "Dino Game",
+    name: "dino-game-02",
+    type: "registry:example",
+    description: "Example showing a simple dino game.",
+    registryDependencies: ["dino-game"],
+    files: [
+      {
+        path: "example/dino-game/dino-game-02.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
 ];

@@ -1,0 +1,63 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const Orbit: IconComponent = React.forwardRef<SVGSVGElement, IconProps>(
+  function Orbit(
+    {
+      color = "currentColor",
+      fill,
+      size = 24,
+      strokeWidth,
+      strokeLinecap,
+      strokeLinejoin,
+      strokeDasharray,
+      opacity,
+      className,
+      ...props
+    },
+    forwardedRef,
+  ) {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M20.341 6.484C21.42 8.115 21.997 10.026 22.001 11.981 22.005 13.936 21.436 15.85 20.364 17.485 19.292 19.12 17.764 20.405 15.969 21.181 14.175 21.957 12.192 22.189 10.266 21.85M3.659 17.516C2.58 15.885 2.003 13.973 2 12.018 1.996 10.062 2.566 8.148 3.639 6.513 4.711 4.878 6.24 3.594 8.035 2.819 9.831 2.043 11.814 1.812 13.74 2.152M12 15C13.657 15 15 13.657 15 12 15 10.343 13.657 9 12 9 10.343 9 9 10.343 9 12 9 13.657 10.343 15 12 15Z"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M19 7C20.105 7 21 6.105 21 5 21 3.895 20.105 3 19 3 17.895 3 17 3.895 17 5 17 6.105 17.895 7 19 7ZM5 21C6.105 21 7 20.105 7 19 7 17.895 6.105 17 5 17 3.895 17 3 17.895 3 19 3 20.105 3.895 21 5 21Z"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    );
+  },
+);
+
+Orbit.displayName = "Orbit";
+
+Orbit.metadata = {
+  name: "Orbit",
+  category: "stroke/science",
+  tags: ["orbit", "icon"],
+  description: "Orbit icon from stroke/science category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default Orbit;

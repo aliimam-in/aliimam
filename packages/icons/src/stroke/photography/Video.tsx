@@ -1,0 +1,149 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+interface VideoProps extends IconProps {
+  type?: "stroke";
+}
+
+export const Video: IconComponent<VideoProps> = React.forwardRef<
+  SVGSVGElement,
+  VideoProps
+>(function Video(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    type = "stroke",
+    ...props
+  },
+  forwardedRef,
+) {
+  if (type === "stroke") {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M16 13 21.223 16.482C21.298 16.532 21.386 16.561 21.476 16.565 21.566 16.57 21.656 16.549 21.736 16.507 21.816 16.464 21.882 16.4 21.929 16.323 21.975 16.245 22 16.157 22 16.066V7.87C22 7.782 21.977 7.696 21.933 7.619 21.889 7.543 21.825 7.48 21.749 7.436 21.673 7.393 21.586 7.37 21.498 7.37 21.41 7.37 21.324 7.394 21.248 7.438L16 10.5M14 6H4C2.895 6 2 6.895 2 8V16C2 17.105 2.895 18 4 18H14C15.105 18 16 17.105 16 16V8C16 6.895 15.105 6 14 6Z"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    );
+  }
+
+  if (type === "stroke") {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M16 13 21.223 16.482C21.298 16.532 21.386 16.561 21.476 16.565 21.566 16.57 21.656 16.549 21.736 16.507 21.816 16.464 21.882 16.4 21.929 16.323 21.975 16.245 22 16.157 22 16.066V7.87C22 7.782 21.977 7.696 21.933 7.619 21.889 7.543 21.825 7.48 21.749 7.436 21.673 7.393 21.586 7.37 21.498 7.37 21.41 7.37 21.324 7.394 21.248 7.438L16 10.5M14 6H4C2.895 6 2 6.895 2 8V16C2 17.105 2.895 18 4 18H14C15.105 18 16 17.105 16 16V8C16 6.895 15.105 6 14 6Z"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    );
+  }
+
+  if (type === "stroke") {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M16 13 21.223 16.482C21.298 16.532 21.386 16.561 21.476 16.565 21.566 16.57 21.656 16.549 21.736 16.507 21.816 16.464 21.882 16.4 21.929 16.323 21.975 16.245 22 16.157 22 16.066V7.87C22 7.782 21.977 7.696 21.933 7.619 21.889 7.543 21.825 7.48 21.749 7.436 21.673 7.393 21.586 7.37 21.498 7.37 21.41 7.37 21.324 7.394 21.248 7.438L16 10.5M14 6H4C2.895 6 2 6.895 2 8V16C2 17.105 2.895 18 4 18H14C15.105 18 16 17.105 16 16V8C16 6.895 15.105 6 14 6Z"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    );
+  }
+
+  if (type === "stroke") {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M16 13 21.223 16.482C21.298 16.532 21.386 16.561 21.476 16.565 21.566 16.57 21.656 16.549 21.736 16.507 21.816 16.464 21.882 16.4 21.929 16.323 21.975 16.245 22 16.157 22 16.066V7.87C22 7.782 21.977 7.696 21.933 7.619 21.889 7.543 21.825 7.48 21.749 7.436 21.673 7.393 21.586 7.37 21.498 7.37 21.41 7.37 21.324 7.394 21.248 7.438L16 10.5M14 6H4C2.895 6 2 6.895 2 8V16C2 17.105 2.895 18 4 18H14C15.105 18 16 17.105 16 16V8C16 6.895 15.105 6 14 6Z"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    );
+  }
+
+  console.error(`Video doesn't support ${type}`);
+  return null;
+});
+
+Video.displayName = "Video";
+
+Video.metadata = {
+  name: "Video",
+  category: "stroke/photography",
+  tags: ["video", "icon"],
+  description: "Video icon from stroke/photography category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default Video;

@@ -1,7 +1,6 @@
 export { default as Bird } from "./Bird";
 export { default as Squirrel } from "./Squirrel";
 export { default as Turtle } from "./Turtle";
-export { default as Worm } from "./Worm";
 export { default as Panda } from "./Panda";
 export { default as Cat } from "./Cat";
 export { default as PawPrint } from "./PawPrint";

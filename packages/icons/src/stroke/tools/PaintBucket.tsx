@@ -1,0 +1,95 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+interface PaintBucketProps extends IconProps {
+  type?: "stroke";
+}
+
+export const PaintBucket: IconComponent<PaintBucketProps> = React.forwardRef<
+  SVGSVGElement,
+  PaintBucketProps
+>(function PaintBucket(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    type = "stroke",
+    ...props
+  },
+  forwardedRef,
+) {
+  if (type === "stroke") {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M19 11 11 3 2.4 11.6C2.033 11.974 1.828 12.477 1.828 13 1.828 13.524 2.033 14.026 2.4 14.4L7.6 19.6C8.4 20.4 9.6 20.4 10.4 19.6L19 11ZM5 2 10 7M2 13H17M22 20C22 20.53 21.789 21.039 21.414 21.414 21.039 21.789 20.53 22 20 22 19.47 22 18.961 21.789 18.586 21.414 18.211 21.039 18 20.53 18 20 18 18.4 19.7 17.6 20 16 20.3 17.6 22 18.4 22 20Z"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    );
+  }
+
+  if (type === "stroke") {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M19 11 11 3 2.4 11.6C2.034 11.974 1.828 12.477 1.828 13 1.828 13.524 2.034 14.026 2.4 14.4L7.6 19.6C8.4 20.4 9.6 20.4 10.4 19.6L19 11ZM5 2 10 7M2 13H17M22 20C22 20.53 21.789 21.039 21.414 21.414 21.039 21.789 20.53 22 20 22 19.47 22 18.961 21.789 18.586 21.414 18.211 21.039 18 20.53 18 20 18 18.4 19.7 17.6 20 16 20.3 17.6 22 18.4 22 20Z"
+          stroke={color}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    );
+  }
+
+  console.error(`PaintBucket doesn't support ${type}`);
+  return null;
+});
+
+PaintBucket.displayName = "PaintBucket";
+
+PaintBucket.metadata = {
+  name: "PaintBucket",
+  category: "stroke/tools",
+  tags: ["paint", "bucket", "icon"],
+  description: "PaintBucket icon from stroke/tools category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default PaintBucket;
