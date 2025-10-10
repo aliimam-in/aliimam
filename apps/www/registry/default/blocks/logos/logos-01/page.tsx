@@ -15,16 +15,16 @@ export default function Logos01() {
       <h1 className="mb-10 px-20 text-muted-foreground text-center text-sm font-medium">
         Trusted by the world’s most creative companies.
       </h1>
-      <div className="mx-auto max-w-5xl">
-        <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-12">
-          <OpenAI type="wordmark" size={200} height={25} />
-          <ClaudeAI type="wordmark" size={200} height={24} />
-          <Replicate type="wordmark" size={200} height={25} />
-          <Cursor type="wordmark" size={200} height={16} />
-          <Gemini type="wordmark" size={200} height={30} />
-          <Github type="wordmark" size={200} height={20} />
-          <Grok type="wordmark" size={200} height={30} />
-          <Google type="wordmark" size={200} height={30} />
+      <div className="mx-auto max-w-md">
+        <div className="flex px-10 flex-wrap items-center justify-center gap-12">
+          <OpenAI size={40} />
+          <ClaudeAI size={40} />
+          <Replicate size={40} />
+          <Cursor size={40} />
+          <Gemini size={40} />
+          <Github size={40} />
+          <Grok size={40} />
+          <Google size={40} />
         </div>
       </div>
     </div>

@@ -449,6 +449,109 @@ export const blocks: Registry["items"] = [
     },
   },
   {
+    name: "logos-02",
+    description: "A simple logos section.",
+    type: "registry:block",
+    dependencies: ["@aliimam/logos"],
+    files: [
+      {
+        path: "blocks/logos/logos-02/page.tsx",
+        target: "components/logos-02.tsx",
+        type: "registry:component",
+      },
+    ],
+    categories: ["client", "logos"],
+    meta: {
+      iframeHeight: "600px",
+    },
+  },
+  {
+    name: "logos-03",
+    description: "A simple logos section.",
+    type: "registry:block",
+    dependencies: ["@aliimam/logos"],
+    files: [
+      {
+        path: "blocks/logos/logos-03/page.tsx",
+        target: "components/logos-03.tsx",
+        type: "registry:component",
+      },
+    ],
+    categories: ["client", "logos"],
+    meta: {
+      iframeHeight: "600px",
+    },
+  },
+  {
+    name: "logos-04",
+    description: "A simple logos section.",
+    type: "registry:block",
+    dependencies: ["@aliimam/logos"],
+    files: [
+      {
+        path: "blocks/logos/logos-04/page.tsx",
+        target: "components/logos-04.tsx",
+        type: "registry:component",
+      },
+    ],
+    categories: ["client", "logos"],
+    meta: {
+      iframeHeight: "600px",
+    },
+  },
+  {
+    name: "logos-05",
+    description: "A simple logos section.",
+    type: "registry:block",
+    dependencies: ["@aliimam/logos"],
+    files: [
+      {
+        path: "blocks/logos/logos-05/page.tsx",
+        target: "components/logos-05.tsx",
+        type: "registry:component",
+      },
+    ],
+    categories: ["client", "logos"],
+    meta: {
+      iframeHeight: "600px",
+    },
+  },
+  {
+    name: "pricing-01",
+    description: "A simple pricing section.",
+    type: "registry:block",
+    dependencies: ["@aliimam/icons"],
+     registryDependencies: ["button", "card"],
+    files: [
+      {
+        path: "blocks/pricing/pricing-01/page.tsx",
+        target: "components/pricing-01.tsx",
+        type: "registry:component",
+      },
+    ],
+    categories: ["pricing"],
+    meta: {
+      iframeHeight: "800px",
+    },
+  },
+  {
+    name: "pricing-02",
+    description: "A simple pricing section.",
+    type: "registry:block",
+    dependencies: ["@aliimam/icons"], 
+    files: [
+      {
+        path: "blocks/pricing/pricing-02/page.tsx",
+        target: "components/pricing-02.tsx",
+        type: "registry:component",
+      },
+    ],
+    categories: ["pricing"],
+    meta: {
+      iframeHeight: "900px",
+    },
+  },
+  {
     name: "connect-01",
     description: "A simple connect section.",
     type: "registry:block",
@@ -457,6 +560,24 @@ export const blocks: Registry["items"] = [
       {
         path: "blocks/connect/connect-01/page.tsx",
         target: "components/connect-01.tsx",
+        type: "registry:component",
+      },
+    ],
+    categories: ["connect", "about"],
+    meta: {
+      iframeHeight: "800px",
+    },
+  },
+  {
+    name: "connect-02",
+    description: "A simple connect section.",
+    type: "registry:block",
+    dependencies: ["@aliimam/icons", "framer-motion", "@aliimam/logos"],
+    registryDependencies: ["button", "particle-highlight"],
+    files: [
+      {
+        path: "blocks/connect/connect-02/page.tsx",
+        target: "components/connect-02.tsx",
         type: "registry:component",
       },
     ],
@@ -476,7 +597,7 @@ export const blocks: Registry["items"] = [
         type: "registry:component",
       },
     ],
-    categories: ["chat", "connect"],
+    categories: ["chat", "ai"],
     meta: {
       iframeHeight: "800px",
     },

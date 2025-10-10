@@ -1589,20 +1589,6 @@
       "subcategory": "textFormatting",
       "size": "16"
     },
-    "ArrowDown01": {
-      "name": "ArrowDown01",
-      "path": "src/stroke/arrows/ArrowDown01.tsx",
-      "category": "stroke",
-      "subcategory": "arrows",
-      "size": "16"
-    },
-    "ArrowDown10": {
-      "name": "ArrowDown10",
-      "path": "src/stroke/arrows/ArrowDown10.tsx",
-      "category": "stroke",
-      "subcategory": "arrows",
-      "size": "16"
-    },
     "ArrowDownAZ": {
       "name": "ArrowDownAZ",
       "path": "src/stroke/arrows/ArrowDownAZ.tsx",
@@ -1627,20 +1613,6 @@
     "ArrowDownZA": {
       "name": "ArrowDownZA",
       "path": "src/stroke/arrows/ArrowDownZA.tsx",
-      "category": "stroke",
-      "subcategory": "arrows",
-      "size": "16"
-    },
-    "ArrowUp01": {
-      "name": "ArrowUp01",
-      "path": "src/stroke/arrows/ArrowUp01.tsx",
-      "category": "stroke",
-      "subcategory": "arrows",
-      "size": "16"
-    },
-    "ArrowUp10": {
-      "name": "ArrowUp10",
-      "path": "src/stroke/arrows/ArrowUp10.tsx",
       "category": "stroke",
       "subcategory": "arrows",
       "size": "16"
@@ -9646,6 +9618,34 @@
       "subcategory": "arrows",
       "size": "16"
     },
+    "ArrowDown01": {
+      "name": "ArrowDown01",
+      "path": "src/stroke/arrows/ArrowDown01.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "ArrowDown10": {
+      "name": "ArrowDown10",
+      "path": "src/stroke/arrows/ArrowDown10.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "ArrowUp01": {
+      "name": "ArrowUp01",
+      "path": "src/stroke/arrows/ArrowUp01.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
+    "ArrowUp10": {
+      "name": "ArrowUp10",
+      "path": "src/stroke/arrows/ArrowUp10.tsx",
+      "category": "stroke",
+      "subcategory": "arrows",
+      "size": "16"
+    },
     "CalendarSync": {
       "name": "CalendarSync",
       "path": "src/stroke/arrows/CalendarSync.tsx",
@@ -10474,14 +10474,10 @@
         "Anchor",
         "ArrowBigUp",
         "ArrowBigUpDash",
-        "ArrowDown01",
-        "ArrowDown10",
         "ArrowDownAZ",
         "ArrowDownNarrowWide",
         "ArrowDownWideNarrow",
         "ArrowDownZA",
-        "ArrowUp01",
-        "ArrowUp10",
         "ArrowUpAZ",
         "ArrowUpNarrowWide",
         "ArrowUpWideNarrow",

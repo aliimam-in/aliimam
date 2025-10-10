@@ -2544,6 +2544,114 @@ export const Index: Record<string, any> = {
     categories: ["client","logos"],
     meta: {"iframeHeight":"600px"},
   },
+  "logos-02": {
+    name: "logos-02",
+    description: "A simple logos section.",
+    type: "registry:block",
+    registryDependencies: undefined,
+    files: [{
+      path: "registry/default/blocks/logos/logos-02/page.tsx",
+      type: "registry:component",
+      target: "components/logos-02.tsx"
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/blocks/logos/logos-02/page.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: ["client","logos"],
+    meta: {"iframeHeight":"600px"},
+  },
+  "logos-03": {
+    name: "logos-03",
+    description: "A simple logos section.",
+    type: "registry:block",
+    registryDependencies: undefined,
+    files: [{
+      path: "registry/default/blocks/logos/logos-03/page.tsx",
+      type: "registry:component",
+      target: "components/logos-03.tsx"
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/blocks/logos/logos-03/page.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: ["client","logos"],
+    meta: {"iframeHeight":"600px"},
+  },
+  "logos-04": {
+    name: "logos-04",
+    description: "A simple logos section.",
+    type: "registry:block",
+    registryDependencies: undefined,
+    files: [{
+      path: "registry/default/blocks/logos/logos-04/page.tsx",
+      type: "registry:component",
+      target: "components/logos-04.tsx"
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/blocks/logos/logos-04/page.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: ["client","logos"],
+    meta: {"iframeHeight":"600px"},
+  },
+  "logos-05": {
+    name: "logos-05",
+    description: "A simple logos section.",
+    type: "registry:block",
+    registryDependencies: undefined,
+    files: [{
+      path: "registry/default/blocks/logos/logos-05/page.tsx",
+      type: "registry:component",
+      target: "components/logos-05.tsx"
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/blocks/logos/logos-05/page.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: ["client","logos"],
+    meta: {"iframeHeight":"600px"},
+  },
+  "pricing-01": {
+    name: "pricing-01",
+    description: "A simple pricing section.",
+    type: "registry:block",
+    registryDependencies: ["button","card"],
+    files: [{
+      path: "registry/default/blocks/pricing/pricing-01/page.tsx",
+      type: "registry:component",
+      target: "components/pricing-01.tsx"
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/blocks/pricing/pricing-01/page.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: ["pricing"],
+    meta: {"iframeHeight":"800px"},
+  },
+  "pricing-02": {
+    name: "pricing-02",
+    description: "A simple pricing section.",
+    type: "registry:block",
+    registryDependencies: undefined,
+    files: [{
+      path: "registry/default/blocks/pricing/pricing-02/page.tsx",
+      type: "registry:component",
+      target: "components/pricing-02.tsx"
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/blocks/pricing/pricing-02/page.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: ["pricing"],
+    meta: {"iframeHeight":"900px"},
+  },
   "connect-01": {
     name: "connect-01",
     description: "A simple connect section.",
@@ -2556,6 +2664,24 @@ export const Index: Record<string, any> = {
     }],
     component: React.lazy(async () => {
       const mod = await import("@/registry/default/blocks/connect/connect-01/page.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: ["connect","about"],
+    meta: {"iframeHeight":"800px"},
+  },
+  "connect-02": {
+    name: "connect-02",
+    description: "A simple connect section.",
+    type: "registry:block",
+    registryDependencies: ["button","particle-highlight"],
+    files: [{
+      path: "registry/default/blocks/connect/connect-02/page.tsx",
+      type: "registry:component",
+      target: "components/connect-02.tsx"
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/blocks/connect/connect-02/page.tsx")
       const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
       return { default: mod.default || mod[exportName] }
     }),
@@ -2577,7 +2703,7 @@ export const Index: Record<string, any> = {
       const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
       return { default: mod.default || mod[exportName] }
     }),
-    categories: ["chat","connect"],
+    categories: ["chat","ai"],
     meta: {"iframeHeight":"800px"},
   },
   "gradient-mesh": {

@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 import { cn } from "@/src/lib/utils"
 import { Icons } from "@/src/components/icons"
 import { Button } from "@/registry/default/ui/button"

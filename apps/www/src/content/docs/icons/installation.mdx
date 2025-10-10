@@ -3,6 +3,41 @@ title: Installation
 description: Beautiful, open-source icon library built for modern React and Tailwind apps.
 ---
 
+<div className="flex flex-wrap gap-2">
+  <Link
+    target="_blank"
+    href={"https://www.figma.com/community/file/1553397064284560809/ai-icons"}
+  >
+    <Button variant={"outline"} className="w-full">
+      <Figma /> <p> Open Icons in Figma</p>
+    </Button>
+  </Link>
+  <Link
+    target="_blank"
+    href={"https://www.figma.com/community/file/1553761057642972203/ai-logos"}
+  >
+    <Button variant={"outline"} className="w-full">
+      <Figma /> <p> Open Logos in Figma</p>
+    </Button>
+  </Link>
+  <Link
+    target="_blank"
+    href={"https://www.npmjs.com/package/@aliimam/icons"}
+  >
+    <Button variant={"outline"} className="w-full">
+       <p> Open Icons in NPM</p>
+    </Button>
+  </Link>
+  <Link
+    target="_blank"
+    href={"https://www.npmjs.com/package/@aliimam/logos"}
+  >
+    <Button variant={"outline"} className="w-full">
+       <p> Open Logos in NPM</p>
+    </Button>
+  </Link>
+</div>
+
 ## Installation Icons
 
 ```sh [npm]
@@ -39,17 +74,16 @@ export default App;
 import { MoonStar, Award, Cog } from "@aliimam/icons";
 
 <div className="flex gap-3 flex-wrap">
-<div className="w-60 h-60 flex justify-center items-center mt-6 rounded-2xl p-3 bg-code">
-  <MoonStar size={64} />
+  <div className="w-60 h-60 flex justify-center items-center mt-6 rounded-2xl p-3 bg-code">
+    <MoonStar size={64} />
+  </div>
+  <div className="w-60 h-60 flex justify-center items-center mt-6 rounded-2xl p-3 bg-code">
+    <Award className="text-blue-500" strokeWidth={0.5} size={96} />
+  </div>
+  <div className="w-60 h-60 flex justify-center items-center mt-6 rounded-2xl p-3 bg-code">
+    <Cog strokeWidth={2} size={64} />
+  </div>
 </div>
-<div className="w-60 h-60 flex justify-center items-center mt-6 rounded-2xl p-3 bg-code">
-  <Award className="text-blue-500" strokeWidth={0.5} size={96} />
-</div>
-<div className="w-60 h-60 flex justify-center items-center mt-6 rounded-2xl p-3 bg-code">
-  <Cog strokeWidth={2}  size={64} />
-</div>
-</div>
-
 
 ### Example Logos
 
@@ -66,34 +100,31 @@ const App = () => {
 export default App;
 ```
 
-import { Apple, Nike, Vercel } from "@aliimam/logos";
+import { Apple, Nike, Vercel, Figma } from "@aliimam/logos";
 
 <div className="flex gap-3 flex-wrap">
-<div className="w-60 h-60 flex justify-center items-center mt-6 rounded-2xl p-3 bg-code">
-  <Apple size={64} />
-</div>
-<div className="w-60 h-60 flex justify-center items-center mt-6 rounded-2xl p-3 bg-code">
-  <Nike className="text-red-500" size={96} />
-</div>
-<div className="w-60 h-60 flex justify-center items-center mt-6 rounded-2xl p-3 bg-code">
-  <Vercel strokeWidth={2}  size={64} />
-</div>
+  <div className="w-60 h-60 flex justify-center items-center mt-6 rounded-2xl p-3 bg-code">
+    <Apple size={64} />
+  </div>
+  <div className="w-60 h-60 flex justify-center items-center mt-6 rounded-2xl p-3 bg-code">
+    <Nike className="text-red-500" size={96} />
+  </div>
+  <div className="w-60 h-60 flex justify-center items-center mt-6 rounded-2xl p-3 bg-code">
+    <Vercel strokeWidth={2} size={64} />
+  </div>
 </div>
 
 ## Props Icons
 
-| name                  | type      | default      |
-| --------------------- | --------- | ------------ |
-| `size`                | _number_  | 24           |
-| `color`               | _string_  | currentColor |
-| `strokeWidth`         | _number_  | 1            | 
+| name          | type     | default      |
+| ------------- | -------- | ------------ |
+| `size`        | _number_ | 24           |
+| `color`       | _string_ | currentColor |
+| `strokeWidth` | _number_ | 1            |
 
-    
 ## Props Logos
 
-| name                  | type      | default      |
-| --------------------- | --------- | ------------ |
-| `size`                | _number_  | 24           |
-| `color`               | _string_  | currentColor | 
-
-    
+| name    | type     | default      |
+| ------- | -------- | ------------ |
+| `size`  | _number_ | 24           |
+| `color` | _string_ | currentColor |

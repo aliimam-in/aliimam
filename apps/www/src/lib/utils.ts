@@ -35,8 +35,8 @@ export const normalizeTag = (tag: unknown): string[] => {
 };
  
 export function constructMetadata({
-  title = "Magic UI - Modern React + Tailwind CSS components & Templates",
-  description = "Magic UI is a curated collection of the best landing page components built using React + Tailwind CSS + Motion",
+  title = "Ali Imam - Modern React + Tailwind CSS components & Templates",
+  description = "Ali Imam is a curated collection of the best landing page components built using React + Tailwind CSS + Motion",
   image = absoluteUrl("/og"),
   ...props
 }: {
@@ -73,17 +73,17 @@ export function constructMetadata({
       title,
       description,
       images: [image],
-      creator: "@dillionverma",
+      creator: "@aliimam",
     },
     icons: "/favicon.ico",
-    metadataBase: new URL("https://magicui.design"),
+    metadataBase: new URL("https://aliimam.in"),
     authors: [
       {
-        name: "dillionverma",
-        url: "https://twitter.com/dillionverma",
+        name: "aliimam",
+        url: "https://x.com/aliimam-in",
       },
     ],
-    creator: "dillionverma",
+    creator: "aliimam",
     ...props,
   };
 }

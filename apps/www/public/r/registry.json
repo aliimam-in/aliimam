@@ -2324,6 +2324,140 @@
       ]
     },
     {
+      "name": "logos-02",
+      "type": "registry:block",
+      "description": "A simple logos section.",
+      "dependencies": [
+        "@aliimam/logos"
+      ],
+      "files": [
+        {
+          "path": "registry/default/blocks/logos/logos-02/page.tsx",
+          "type": "registry:component",
+          "target": "components/logos-02.tsx"
+        }
+      ],
+      "meta": {
+        "iframeHeight": "600px"
+      },
+      "categories": [
+        "client",
+        "logos"
+      ]
+    },
+    {
+      "name": "logos-03",
+      "type": "registry:block",
+      "description": "A simple logos section.",
+      "dependencies": [
+        "@aliimam/logos"
+      ],
+      "files": [
+        {
+          "path": "registry/default/blocks/logos/logos-03/page.tsx",
+          "type": "registry:component",
+          "target": "components/logos-03.tsx"
+        }
+      ],
+      "meta": {
+        "iframeHeight": "600px"
+      },
+      "categories": [
+        "client",
+        "logos"
+      ]
+    },
+    {
+      "name": "logos-04",
+      "type": "registry:block",
+      "description": "A simple logos section.",
+      "dependencies": [
+        "@aliimam/logos"
+      ],
+      "files": [
+        {
+          "path": "registry/default/blocks/logos/logos-04/page.tsx",
+          "type": "registry:component",
+          "target": "components/logos-04.tsx"
+        }
+      ],
+      "meta": {
+        "iframeHeight": "600px"
+      },
+      "categories": [
+        "client",
+        "logos"
+      ]
+    },
+    {
+      "name": "logos-05",
+      "type": "registry:block",
+      "description": "A simple logos section.",
+      "dependencies": [
+        "@aliimam/logos"
+      ],
+      "files": [
+        {
+          "path": "registry/default/blocks/logos/logos-05/page.tsx",
+          "type": "registry:component",
+          "target": "components/logos-05.tsx"
+        }
+      ],
+      "meta": {
+        "iframeHeight": "600px"
+      },
+      "categories": [
+        "client",
+        "logos"
+      ]
+    },
+    {
+      "name": "pricing-01",
+      "type": "registry:block",
+      "description": "A simple pricing section.",
+      "dependencies": [
+        "@aliimam/icons"
+      ],
+      "registryDependencies": [
+        "button",
+        "card"
+      ],
+      "files": [
+        {
+          "path": "registry/default/blocks/pricing/pricing-01/page.tsx",
+          "type": "registry:component",
+          "target": "components/pricing-01.tsx"
+        }
+      ],
+      "meta": {
+        "iframeHeight": "800px"
+      },
+      "categories": [
+        "pricing"
+      ]
+    },
+    {
+      "name": "pricing-02",
+      "type": "registry:block",
+      "description": "A simple pricing section.",
+      "dependencies": [
+        "@aliimam/icons"
+      ],
+      "files": [
+        {
+          "path": "registry/default/blocks/pricing/pricing-02/page.tsx",
+          "type": "registry:component",
+          "target": "components/pricing-02.tsx"
+        }
+      ],
+      "meta": {
+        "iframeHeight": "900px"
+      },
+      "categories": [
+        "pricing"
+      ]
+    },
+    {
       "name": "connect-01",
       "type": "registry:block",
       "description": "A simple connect section.",
@@ -2335,6 +2469,34 @@
           "path": "registry/default/blocks/connect/connect-01/page.tsx",
           "type": "registry:component",
           "target": "components/connect-01.tsx"
+        }
+      ],
+      "meta": {
+        "iframeHeight": "800px"
+      },
+      "categories": [
+        "connect",
+        "about"
+      ]
+    },
+    {
+      "name": "connect-02",
+      "type": "registry:block",
+      "description": "A simple connect section.",
+      "dependencies": [
+        "@aliimam/icons",
+        "framer-motion",
+        "@aliimam/logos"
+      ],
+      "registryDependencies": [
+        "button",
+        "particle-highlight"
+      ],
+      "files": [
+        {
+          "path": "registry/default/blocks/connect/connect-02/page.tsx",
+          "type": "registry:component",
+          "target": "components/connect-02.tsx"
         }
       ],
       "meta": {
@@ -2361,7 +2523,7 @@
       },
       "categories": [
         "chat",
-        "connect"
+        "ai"
       ]
     },
     {

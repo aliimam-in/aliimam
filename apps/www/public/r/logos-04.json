@@ -1,0 +1,24 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "logos-04",
+  "type": "registry:block",
+  "description": "A simple logos section.",
+  "dependencies": [
+    "@aliimam/logos"
+  ],
+  "files": [
+    {
+      "path": "registry/default/blocks/logos/logos-04/page.tsx",
+      "content": "import {\n  ClaudeAI,\n  Cursor,\n  Gemini,\n  Github,\n  Google,\n  Grok,\n  OpenAI,\n  Replicate,\n  Resend,\n  PerplexityAI,\n  YouTube,\n  Suno,\n} from \"@aliimam/logos\";\n\nexport default function Logos04() {\n  return (\n    <div className=\"py-20 flex min-h-screen flex-col items-center justify-center\">\n      <h1 className=\"mb-10 px-20 text-muted-foreground text-center text-sm font-medium\">\n        Trusted by the world’s most creative companies.\n      </h1>\n      <div className=\"mx-auto max-w-5xl px-6\">\n        <div className=\"mx-auto grid grid-cols-2 p-2 border sm:grid-cols-4 lg:grid-cols-6\">\n          {[\n            <OpenAI key=\"openai\" size={40} />,\n            <ClaudeAI key=\"claude\" size={40} />,\n            <Replicate key=\"replicate\" size={40} />,\n            <Cursor key=\"cursor\" size={40} />,\n            <Gemini key=\"gemini\" size={40} />,\n            <Github key=\"github\" size={40} />,\n            <Grok key=\"grok\" size={40} />,\n            <Google key=\"google\" size={40} />,\n            <Suno key=\"suno\" size={40} />,\n            <Resend key=\"resend\" size={40} />,\n            <YouTube key=\"youtube\" size={40} />,\n            <PerplexityAI key=\"perp\" size={40} />,\n          ].map((Logo, i) => (\n            <div\n              key={i}\n              className=\"flex h-30 w-30 items-center justify-center border md:h-40 md:w-40\"\n            >\n              {Logo}\n            </div>\n          ))}\n        </div>\n      </div>\n    </div>\n  );\n}\n",
+      "type": "registry:component",
+      "target": "components/logos-04.tsx"
+    }
+  ],
+  "meta": {
+    "iframeHeight": "600px"
+  },
+  "categories": [
+    "client",
+    "logos"
+  ]
+}

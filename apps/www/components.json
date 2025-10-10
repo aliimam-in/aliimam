@@ -18,5 +18,7 @@
     "lib": "@/lib",
     "hooks": "@/registry/default/hooks"
   },
-  "registries": {}
+  "registries": {
+    "@aliimam": "https://aliimam.in/r/{name}.json"
+  }
 }

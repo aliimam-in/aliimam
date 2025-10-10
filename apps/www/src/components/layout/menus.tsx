@@ -20,17 +20,18 @@ const components: { title: string; href: string; description: string }[] = [
     href: "/docs",
     description:
       "Explore our comprehensive UI design and components docs, empowering integration.",
-  },  
+  },
   {
     title: "Colors",
     href: "/colors",
     description:
       "Vibrant, accessible color palette for intuitive, seamless UI design and components.",
-  },  
+  },
   {
     title: "Easings",
     href: "/easings",
-    description: "A set of easing functions ready to copy and paste into your Tailwind CSS project.",
+    description:
+      "A set of easing functions ready to copy and paste into your Tailwind CSS project.",
   },
   {
     title: "UI",
@@ -59,7 +60,10 @@ export function Menus() {
         <NavigationMenuItem>
           <NavigationMenuLink
             asChild
-            className={cn(navigationMenuTriggerStyle(), "bg-transparent text-xs")}
+            className={cn(
+              navigationMenuTriggerStyle(),
+              "bg-transparent text-xs"
+            )}
           >
             <Link href="/about">About</Link>
           </NavigationMenuLink>
@@ -67,7 +71,10 @@ export function Menus() {
         <NavigationMenuItem>
           <NavigationMenuLink
             asChild
-            className={cn(navigationMenuTriggerStyle(), "bg-transparent text-xs")}
+            className={cn(
+              navigationMenuTriggerStyle(),
+              "bg-transparent text-xs"
+            )}
           >
             <Link href="/templates">Templates</Link>
           </NavigationMenuLink>
@@ -75,9 +82,19 @@ export function Menus() {
         <NavigationMenuItem>
           <NavigationMenuLink
             asChild
-            className={cn(navigationMenuTriggerStyle(), "bg-transparent text-xs")}
+            className={cn(
+              navigationMenuTriggerStyle(),
+              "bg-transparent flex text-xs"
+            )}
           >
-            <Link href="/blocks">Blocks</Link>
+            <Link href="/blocks">
+              <div className="flex w-fit">
+                Blocks
+                <span className="ml-2 rounded-full bg-[#fff000] px-1.5 py-0.5 text-xs font-normal leading-none text-[#000000] no-underline group-hover:no-underline">
+                  New
+                </span>
+              </div>
+            </Link>
           </NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem>
@@ -101,7 +118,10 @@ export function Menus() {
         <NavigationMenuItem>
           <NavigationMenuLink
             asChild
-            className={cn(navigationMenuTriggerStyle(), "bg-transparent text-xs")}
+            className={cn(
+              navigationMenuTriggerStyle(),
+              "bg-transparent text-xs"
+            )}
           >
             <Link href="/icons">Icons</Link>
           </NavigationMenuLink>
@@ -109,7 +129,10 @@ export function Menus() {
         <NavigationMenuItem>
           <NavigationMenuLink
             asChild
-            className={cn(navigationMenuTriggerStyle(), "bg-transparent text-xs")}
+            className={cn(
+              navigationMenuTriggerStyle(),
+              "bg-transparent text-xs"
+            )}
           >
             <Link href="/backgrounds">Graphics</Link>
           </NavigationMenuLink>
@@ -117,7 +140,10 @@ export function Menus() {
         <NavigationMenuItem>
           <NavigationMenuLink
             asChild
-            className={cn(navigationMenuTriggerStyle(), "bg-transparent text-xs")}
+            className={cn(
+              navigationMenuTriggerStyle(),
+              "bg-transparent text-xs"
+            )}
           >
             <Link href="/docs/backgrounds/gradient-mesh">Components</Link>
           </NavigationMenuLink>
@@ -137,12 +163,12 @@ function ListItem({
     <li {...props}>
       <NavigationMenuLink asChild>
         <div className="hover:bg-secondary rounded-md p-5">
-        <Link  href={href}>
-          <div className="text-sm leading-none font-medium">{title}</div>
-          <p className="text-muted-foreground line-clamp-2 text-sm leading-snug">
-            {children}
-          </p>
-        </Link>
+          <Link href={href}>
+            <div className="text-sm leading-none font-medium">{title}</div>
+            <p className="text-muted-foreground line-clamp-2 text-sm leading-snug">
+              {children}
+            </p>
+          </Link>
         </div>
       </NavigationMenuLink>
     </li>

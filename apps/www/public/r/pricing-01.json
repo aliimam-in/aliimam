@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "pricing-01",
+  "type": "registry:block",
+  "description": "A simple pricing section.",
+  "dependencies": [
+    "@aliimam/icons"
+  ],
+  "registryDependencies": [
+    "button",
+    "card"
+  ],
+  "files": [
+    {
+      "path": "registry/default/blocks/pricing/pricing-01/page.tsx",
+      "content": "import { PricingCard } from \"@/registry/default/blocks/pricing/pricing-01/components/price\"\n\nexport default function Page() {\n  return (\n    <div className=\"flex min-h-svh w-full items-center justify-center p-6 md:p-10\">\n      <PricingCard />\n    </div>\n  )\n}\n",
+      "type": "registry:component",
+      "target": "components/pricing-01.tsx"
+    }
+  ],
+  "meta": {
+    "iframeHeight": "800px"
+  },
+  "categories": [
+    "pricing"
+  ]
+}
