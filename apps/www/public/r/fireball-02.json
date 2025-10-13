@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "fireball-02",
+  "type": "registry:example",
+  "title": "FireBall",
+  "description": "Example showing a simple fireball.",
+  "registryDependencies": [
+    "fireball"
+  ],
+  "files": [
+    {
+      "path": "registry/default/example/backgrounds//fireball/fireball-02.tsx",
+      "content": "import { FireBall } from \"@/registry/default/components/fireball\";\n\nexport default function DemoOne() {\n  return (\n    <div className=\"h-full w-full overflow-hidden flex items-center justify-center relative\">\n      <FireBall blobRadius={4} ballColor=\"#ff0000\" colors={[\"#ff0000\"]}/> \n      <h1 className=\"tracking-tighter text-7xl font-bold text-center z-10\">\n         Fire Ball\n      </h1>\n    </div>\n  );\n}\n",
+      "type": "registry:example"
+    }
+  ]
+}

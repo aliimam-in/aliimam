@@ -10,7 +10,7 @@
   "files": [
     {
       "path": "registry/default/example/alert/alert-04.tsx",
-      "content": "import {\n  Alert,\n  AlertDescription,\n  AlertTitle,\n} from \"@/registry/default/ui/alert\";\nimport { CheckCircle2 } from \"lucide-react\";\n\nexport function Alert04() {\n  return (\n    <div className=\"w-full max-w-xl mx-auto\">\n      <Alert>\n        <CheckCircle2 />\n        <AlertTitle>Success! Your changes have been saved</AlertTitle>\n        <AlertDescription>\n          This is an alert with icon, title and description.\n        </AlertDescription>\n      </Alert>\n    </div>\n  );\n}\n",
+      "content": "import { Info } from \"@aliimam/icons\";\nimport { Alert, AlertDescription } from \"@/registry/default/ui/alert\";\n\nexport function AlertInline() {\n  return (\n    <Alert className=\"border-transparent bg-muted/40 text-muted-foreground flex items-center gap-2\">\n      <Info size={16}/>\n      <AlertDescription>\n        Changes you make here will only affect this session.\n      </AlertDescription>\n    </Alert>\n  );\n}\n",
       "type": "registry:example"
     }
   ]

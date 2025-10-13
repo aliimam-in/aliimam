@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "badge-04",
+  "type": "registry:example",
+  "title": "Badge Demo",
+  "description": "",
+  "registryDependencies": [
+    "badge"
+  ],
+  "files": [
+    {
+      "path": "registry/default/example/badge/badge-04.tsx",
+      "content": "import { Badge } from \"@/registry/default/ui/badge\";\n\nexport function BadgeDemo() {\n  return (\n    <div className=\"flex flex-wrap gap-2\">\n      <Badge variant=\"default\">Default</Badge>\n      <Badge variant=\"secondary\">Secondary</Badge>\n      <Badge variant=\"destructive\">Destructive</Badge>\n      <Badge variant=\"outline\">Outline</Badge>\n    </div>\n  );\n}",
+      "type": "registry:example"
+    }
+  ]
+}

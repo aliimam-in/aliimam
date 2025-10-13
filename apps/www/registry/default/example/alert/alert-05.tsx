@@ -1,20 +1,24 @@
+import { CircleX } from "@aliimam/icons";
+import { Button } from "@/registry/default/ui/button";
 import {
   Alert,
   AlertDescription,
   AlertTitle,
 } from "@/registry/default/ui/alert";
-import { CheckCircle2 } from "lucide-react";
 
-export function Alert05() {
+export function AlertErrorRetry() {
   return (
-    <div className="w-full max-w-xl mx-auto">
-      <Alert>
-        <CheckCircle2 />
-        <AlertTitle>Success! Your changes have been saved</AlertTitle>
+    <Alert variant="destructive">
+      <CircleX size={16} />
+      <div className="flex flex-col gap-2">
+        <AlertTitle>Something went wrong!</AlertTitle>
         <AlertDescription>
-          This is an alert with icon, title and description.
+          The server could not process your request. Please try again later.
         </AlertDescription>
-      </Alert>
-    </div>
+        <Button variant="destructive" size="sm" className="w-fit">
+          Retry
+        </Button>
+      </div>
+    </Alert>
   );
 }

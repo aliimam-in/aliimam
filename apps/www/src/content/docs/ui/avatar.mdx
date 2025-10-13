@@ -8,7 +8,37 @@ links:
 ---
 
 <ComponentPreview
-  name="avatar-demo"
+  name="avatar-01"
+  title="Avatar"
+  description="An avatar with a fallback."
+/>
+
+<ComponentPreview
+  name="avatar-02"
+  title="Avatar"
+  description="An avatar with a fallback."
+/>
+
+<ComponentPreview
+  name="avatar-03"
+  title="Avatar"
+  description="An avatar with a fallback."
+/>
+
+<ComponentPreview
+  name="avatar-04"
+  title="Avatar"
+  description="An avatar with a fallback."
+/>
+
+<ComponentPreview
+  name="avatar-05"
+  title="Avatar"
+  description="An avatar with a fallback."
+/>
+
+<ComponentPreview
+  name="avatar-06"
   title="Avatar"
   description="An avatar with a fallback."
 />
@@ -24,7 +54,7 @@ links:
 <TabsContent value="cli">
 
 ```bash
-npx shadcn@latest add avatar
+pnpm dlx shadcn@latest add https://aliimam.in/r/avatar.json
 ```
 
 </TabsContent>
@@ -59,7 +89,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 
 ```tsx showLineNumbers
 <Avatar>
-  <AvatarImage src="https://github.com/shadcn.png" />
+  <AvatarImage src="https://github.com/aliimam.jpg" />
   <AvatarFallback>CN</AvatarFallback>
 </Avatar>
 ```

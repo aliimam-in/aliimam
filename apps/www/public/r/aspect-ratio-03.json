@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "aspect-ratio-03",
+  "type": "registry:example",
+  "title": "Aspect Ratio Demo",
+  "description": "",
+  "registryDependencies": [
+    "aspect-ratio"
+  ],
+  "files": [
+    {
+      "path": "registry/default/example/aspect-ratio/aspect-ratio-03.tsx",
+      "content": "import { AspectRatio } from \"@/registry/default/ui/aspect-ratio\";\n\nexport function AspectRatioDemo() {\n  return (\n    <div className=\"w-[350px] rounded-lg  border shadow-sm overflow-hidden\">\n      <AspectRatio ratio={4 / 3}>\n        <img\n          src=\"/images/device/macbook.jpg\"\n          alt=\"Photo by Ali Imam\"\n          className=\"h-full w-full rounded-lg rounded-b-none object-cover\"\n        />\n      </AspectRatio>\n      <div className=\"p-4\">\n        <h3 className=\"font-semibold text-base\">Portfolio Project</h3>\n        <p className=\"text-sm text-muted-foreground\">\n          A creative design case study\n        </p>\n      </div>\n    </div>\n  );\n}\n",
+      "type": "registry:example"
+    }
+  ]
+}

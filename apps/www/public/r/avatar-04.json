@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "avatar-04",
+  "type": "registry:example",
+  "title": "Avatar Demo",
+  "description": "",
+  "registryDependencies": [
+    "avatar"
+  ],
+  "files": [
+    {
+      "path": "registry/default/example/avatar/avatar-04.tsx",
+      "content": "import { Avatar, AvatarImage, AvatarFallback } from \"@/registry/default/ui/avatar\";\n\nexport function AvatarSizesDemo() {\n  const sizes = [\"size-6\", \"size-8\", \"size-10\", \"size-12\"];\n\n  return (\n    <div className=\"flex items-center gap-4\">\n      {sizes.map((size, i) => (\n        <Avatar key={i} className={size}>\n          <AvatarImage src=\"/ali.jpg\" alt=\"Ali Imam\" />\n          <AvatarFallback>AI</AvatarFallback>\n        </Avatar>\n      ))}\n    </div>\n  );\n}\n",
+      "type": "registry:example"
+    }
+  ]
+}

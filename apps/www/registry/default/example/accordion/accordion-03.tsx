@@ -5,7 +5,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/registry/default/ui/accordion";
-import { Button } from "../../ui/button";
+import { Button } from "@/registry/default/ui/button";
 
 const items = [
   {

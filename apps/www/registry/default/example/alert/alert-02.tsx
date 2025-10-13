@@ -1,20 +1,14 @@
-import {
-  Alert,
-  AlertDescription,
-  AlertTitle,
-} from "@/registry/default/ui/alert";
-import { CheckCircle2 } from "lucide-react";
+import { TriangleAlert } from "@aliimam/icons";
+import { Alert, AlertDescription, AlertTitle } from "@/registry/default/ui/alert";
 
-export function Alert02() {
+export function AlertWarning() {
   return (
-    <div className="w-full max-w-xl mx-auto">
-      <Alert>
-        <CheckCircle2 />
-        <AlertTitle>Success! Your changes have been saved</AlertTitle>
-        <AlertDescription>
-          This is an alert with icon, title and description.
-        </AlertDescription>
-      </Alert>
-    </div>
+    <Alert className="border-yellow-500/40 bg-yellow-50 text-yellow-900 dark:bg-yellow-950 dark:text-yellow-200">
+      <TriangleAlert size={18}/>
+      <AlertTitle>Warning: Unsaved changes</AlertTitle>
+      <AlertDescription>
+        Make sure to save your progress before leaving this page.
+      </AlertDescription>
+    </Alert>
   );
 }

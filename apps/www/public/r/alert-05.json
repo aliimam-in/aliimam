@@ -10,7 +10,7 @@
   "files": [
     {
       "path": "registry/default/example/alert/alert-05.tsx",
-      "content": "import {\n  Alert,\n  AlertDescription,\n  AlertTitle,\n} from \"@/registry/default/ui/alert\";\nimport { CheckCircle2 } from \"lucide-react\";\n\nexport function Alert05() {\n  return (\n    <div className=\"w-full max-w-xl mx-auto\">\n      <Alert>\n        <CheckCircle2 />\n        <AlertTitle>Success! Your changes have been saved</AlertTitle>\n        <AlertDescription>\n          This is an alert with icon, title and description.\n        </AlertDescription>\n      </Alert>\n    </div>\n  );\n}\n",
+      "content": "import { CircleX } from \"@aliimam/icons\";\nimport { Button } from \"@/registry/default/ui/button\";\nimport {\n  Alert,\n  AlertDescription,\n  AlertTitle,\n} from \"@/registry/default/ui/alert\";\n\nexport function AlertErrorRetry() {\n  return (\n    <Alert variant=\"destructive\">\n      <CircleX size={16} />\n      <div className=\"flex flex-col gap-2\">\n        <AlertTitle>Something went wrong!</AlertTitle>\n        <AlertDescription>\n          The server could not process your request. Please try again later.\n        </AlertDescription>\n        <Button variant=\"destructive\" size=\"sm\" className=\"w-fit\">\n          Retry\n        </Button>\n      </div>\n    </Alert>\n  );\n}\n",
       "type": "registry:example"
     }
   ]

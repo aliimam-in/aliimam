@@ -1,0 +1,60 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const Israel: IconComponent = React.forwardRef<SVGSVGElement, IconProps>(
+  function Israel(
+    {
+      color = "currentColor",
+      fill,
+      size = 24,
+      strokeWidth,
+      strokeLinecap,
+      strokeLinejoin,
+      strokeDasharray,
+      opacity,
+      className,
+      ...props
+    },
+    forwardedRef,
+  ) {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 32 32"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M27 4H5C2.79086 4 1 5.79086 1 8V24C1 26.2091 2.79086 28 5 28H27C29.2091 28 31 26.2091 31 24V8C31 5.79086 29.2091 4 27 4Z"
+          fill="#fff"
+        />
+        <path d="M1 8H31V12H1V8ZM1 20H31V24H1V20Z" fill="#1433b3" />
+        <path
+          d="M16 19.4639L15 17.7319H13L14 15.9999L13 14.2679H15L16 12.5359L17 14.2679H19L18 15.9999L19 17.7319H17L16 19.4639ZM15.635 17.7319L16 18.3639L16.365 17.7319H15.635ZM17.317 17.1819H18.047L17.682 16.5499L17.317 17.1819ZM15.317 17.1819H16.682L17.364 15.9999L16.682 14.8179H15.317L14.635 15.9999L15.317 17.1819ZM13.952 17.1819H14.682L14.317 16.5499L13.952 17.1819ZM17.317 14.8179L17.682 15.4499L18.047 14.8179H17.317ZM13.952 14.8179L14.317 15.4499L14.682 14.8179H13.952ZM15.634 14.2679H16.364L15.999 13.6359L15.634 14.2679Z"
+          fill="#1437b0"
+        />
+      </svg>
+    );
+  },
+);
+
+Israel.displayName = "Israel";
+
+Israel.metadata = {
+  name: "Israel",
+  category: "flags/flags",
+  tags: ["israel", "icon"],
+  description: "Israel icon from flags/flags category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default Israel;

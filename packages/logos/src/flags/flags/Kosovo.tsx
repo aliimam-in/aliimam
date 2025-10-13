@@ -1,0 +1,63 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const Kosovo: IconComponent = React.forwardRef<SVGSVGElement, IconProps>(
+  function Kosovo(
+    {
+      color = "currentColor",
+      fill,
+      size = 24,
+      strokeWidth,
+      strokeLinecap,
+      strokeLinejoin,
+      strokeDasharray,
+      opacity,
+      className,
+      ...props
+    },
+    forwardedRef,
+  ) {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 32 32"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M27 4H5C2.79086 4 1 5.79086 1 8V24C1 26.2091 2.79086 28 5 28H27C29.2091 28 31 26.2091 31 24V8C31 5.79086 29.2091 4 27 4Z"
+          fill="#2b48a1"
+        />
+        <path
+          d="M16.156 12.199C16.099 13.563 17.519 12.589 17.988 13.688C18.475 14.13 18.632 15.21 19.717 15.147C19.555 15.93 19.387 16.125 20.281 16.303C20.725 16.042 20.752 16.531 21.045 16.686C21.294 16.623 21.777 16.388 21.91 16.877C21.539 17.791 21.176 18.831 20.603 19.322C19.464 19.295 21.928 20.471 20.181 20.236C19.941 19.654 19.504 20.516 19.135 20.598C19.039 21.622 18.446 21.852 17.989 20.769C14.09 21.289 16.668 23.208 14.589 23.385C13.975 18.133 12.888 21.038 12.094 18.778C11.97 18.262 11.513 18.038 11.159 17.672C11.414 16.996 11.238 16.807 10.576 16.536C10.513 15.917 11.288 15.666 11.783 16.063C12.218 15.927 12.389 15.437 13.011 15.409C14.035 15.446 13.752 15.149 13.895 14.433C14.407 14.019 14.757 14.196 14.881 13.498C15.376 13.326 14.017 12.788 14.771 12.482C15.231 12.403 15.834 11.688 16.159 12.201"
+          fill="#c8a75e"
+        />
+        <path
+          d="M17.713 9.471 17.435 8.616 17.16 9.471H16.26L16.988 10 16.71 10.855 17.434 10.326 18.162 10.855 17.884 10 18.612 9.471H17.713ZM20.542 9.969 20.264 9.118 19.989 9.969H19.089L19.817 10.498 19.539 11.353 20.263 10.824 20.991 11.353 20.713 10.498 21.441 9.969H20.542ZM23.241 10.951 22.966 10.1 22.688 10.951H21.788L22.516 11.48 22.238 12.335 22.966 11.806 23.69 12.335 23.412 11.48 24.14 10.951H23.241ZM14.84 9.471 14.565 8.616 14.287 9.471H13.387L14.115 10 13.837 10.855 14.565 10.326 15.289 10.855 15.011 10 15.739 9.471H14.839 14.84ZM12.011 9.969 11.736 9.118 11.458 9.969H10.558L11.286 10.498 11.008 11.353 11.736 10.824 12.46 11.353 12.182 10.498 12.91 9.969H12.011ZM9.312 10.951 9.034 10.1 8.759 10.951H7.859L8.587 11.48 8.309 12.335 9.033 11.806 9.761 12.335 9.483 11.48 10.211 10.951H9.311 9.312Z"
+          fill="#fff"
+        />
+      </svg>
+    );
+  },
+);
+
+Kosovo.displayName = "Kosovo";
+
+Kosovo.metadata = {
+  name: "Kosovo",
+  category: "flags/flags",
+  tags: ["kosovo", "icon"],
+  description: "Kosovo icon from flags/flags category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default Kosovo;

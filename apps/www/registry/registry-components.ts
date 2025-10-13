@@ -243,4 +243,14 @@ export const components: Registry["items"] = [
       },
     ],
   },
+  {
+    name: "fireball",
+    type: "registry:component",  
+    files: [
+      {
+        path: "components/fireball.tsx",
+        type: "registry:component",
+      },
+    ],
+  },
 ]

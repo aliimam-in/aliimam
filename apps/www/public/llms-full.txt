@@ -61,10 +61,40 @@ Title: Alert Demo
 
 
 
+===== EXAMPLE: alert-06 =====
+Title: Alert Demo
+
+
+
 
 ===== COMPONENT: alert-dialog =====
 Title: alert-dialog
 Description: The alert-dialog component.
+
+
+
+===== EXAMPLE: alert-dialog-01 =====
+Title: Alert Dialog Demo
+
+
+
+===== EXAMPLE: alert-dialog-02 =====
+Title: Alert Dialog Demo
+
+
+
+===== EXAMPLE: alert-dialog-03 =====
+Title: Alert Dialog Demo
+
+
+
+===== EXAMPLE: alert-dialog-04 =====
+Title: Alert Dialog Demo
+
+
+
+===== EXAMPLE: alert-dialog-05 =====
+Title: Alert Dialog Demo
 
 
 
@@ -75,6 +105,31 @@ Description: The aspect-ratio component.
 
 
 
+===== EXAMPLE: aspect-ratio-01 =====
+Title: Aspect Ratio Demo
+
+
+
+===== EXAMPLE: aspect-ratio-02 =====
+Title: Aspect Ratio Demo
+
+
+
+===== EXAMPLE: aspect-ratio-03 =====
+Title: Aspect Ratio Demo
+
+
+
+===== EXAMPLE: aspect-ratio-04 =====
+Title: Aspect Ratio Demo
+
+
+
+===== EXAMPLE: aspect-ratio-05 =====
+Title: Aspect Ratio Demo
+
+
+
 
 ===== COMPONENT: avatar =====
 Title: avatar
@@ -82,10 +137,65 @@ Description: The avatar component.
 
 
 
+===== EXAMPLE: avatar-01 =====
+Title: Avatar Demo
+
+
+
+===== EXAMPLE: avatar-02 =====
+Title: Avatar Demo
+
+
+
+===== EXAMPLE: avatar-03 =====
+Title: Avatar Demo
+
+
+
+===== EXAMPLE: avatar-04 =====
+Title: Avatar Demo
+
+
+
+===== EXAMPLE: avatar-05 =====
+Title: Avatar Demo
+
+
+
+===== EXAMPLE: avatar-06 =====
+Title: Avatar Demo
+
+
+
 
 ===== COMPONENT: badge =====
 Title: badge
 Description: The badge component.
+
+
+
+===== EXAMPLE: badge-01 =====
+Title: Badge Demo
+
+
+
+===== EXAMPLE: badge-02 =====
+Title: Badge Demo
+
+
+
+===== EXAMPLE: badge-03 =====
+Title: Badge Demo
+
+
+
+===== EXAMPLE: badge-04 =====
+Title: Badge Demo
+
+
+
+===== EXAMPLE: badge-05 =====
+Title: Badge Demo
 
 
 

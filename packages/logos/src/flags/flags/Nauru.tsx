@@ -1,0 +1,60 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const Nauru: IconComponent = React.forwardRef<SVGSVGElement, IconProps>(
+  function Nauru(
+    {
+      color = "currentColor",
+      fill,
+      size = 24,
+      strokeWidth,
+      strokeLinecap,
+      strokeLinejoin,
+      strokeDasharray,
+      opacity,
+      className,
+      ...props
+    },
+    forwardedRef,
+  ) {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 32 32"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M27 4H5C2.79086 4 1 5.79086 1 8V24C1 26.2091 2.79086 28 5 28H27C29.2091 28 31 26.2091 31 24V8C31 5.79086 29.2091 4 27 4Z"
+          fill="#071b65"
+        />
+        <path d="M1 15H31V17H1V15Z" fill="#f6ca4f" />
+        <path
+          d="M9.5 24L9.047 22.19L7.75 23.531L8.263 21.737L6.469 22.25L7.81 20.953L6 20.5L7.81 20.047L6.469 18.75L8.263 19.263L7.75 17.469L9.047 18.81L9.5 17L9.953 18.81L11.25 17.469L10.737 19.263L12.531 18.75L11.19 20.047L13 20.5L11.19 20.953L12.531 22.25L10.737 21.737L11.25 23.531L9.953 22.19L9.5 24Z"
+          fill="#fff"
+        />
+      </svg>
+    );
+  },
+);
+
+Nauru.displayName = "Nauru";
+
+Nauru.metadata = {
+  name: "Nauru",
+  category: "flags/flags",
+  tags: ["nauru", "icon"],
+  description: "Nauru icon from flags/flags category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default Nauru;

@@ -4,9 +4,7 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@/registry/default/ui/accordion";
-import { PlusIcon } from "lucide-react";
-import { cn } from "@/registry/default/lib/utils";
+} from "@/registry/default/ui/accordion"; 
 
 const myFont = Oswald({
   weight: ["400", "700"],

@@ -476,6 +476,1154 @@
       "subcategory": "flags",
       "size": "16"
     },
+    "ElSalvador": {
+      "name": "ElSalvador",
+      "path": "src/flags/flags/ElSalvador.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "England": {
+      "name": "England",
+      "path": "src/flags/flags/England.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "EquatorialGuinea": {
+      "name": "EquatorialGuinea",
+      "path": "src/flags/flags/EquatorialGuinea.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Eritrea": {
+      "name": "Eritrea",
+      "path": "src/flags/flags/Eritrea.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Estonia": {
+      "name": "Estonia",
+      "path": "src/flags/flags/Estonia.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Eswatini": {
+      "name": "Eswatini",
+      "path": "src/flags/flags/Eswatini.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Ethiopia": {
+      "name": "Ethiopia",
+      "path": "src/flags/flags/Ethiopia.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Europe": {
+      "name": "Europe",
+      "path": "src/flags/flags/Europe.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "FalklandIslands": {
+      "name": "FalklandIslands",
+      "path": "src/flags/flags/FalklandIslands.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "FaroeIslands": {
+      "name": "FaroeIslands",
+      "path": "src/flags/flags/FaroeIslands.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Fiji": {
+      "name": "Fiji",
+      "path": "src/flags/flags/Fiji.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Finland": {
+      "name": "Finland",
+      "path": "src/flags/flags/Finland.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "France": {
+      "name": "France",
+      "path": "src/flags/flags/France.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "FrenchGuiana": {
+      "name": "FrenchGuiana",
+      "path": "src/flags/flags/FrenchGuiana.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "FrenchPolynesia": {
+      "name": "FrenchPolynesia",
+      "path": "src/flags/flags/FrenchPolynesia.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Gabon": {
+      "name": "Gabon",
+      "path": "src/flags/flags/Gabon.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Gambia": {
+      "name": "Gambia",
+      "path": "src/flags/flags/Gambia.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Georgia": {
+      "name": "Georgia",
+      "path": "src/flags/flags/Georgia.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Germany": {
+      "name": "Germany",
+      "path": "src/flags/flags/Germany.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Ghana": {
+      "name": "Ghana",
+      "path": "src/flags/flags/Ghana.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Gibraltar": {
+      "name": "Gibraltar",
+      "path": "src/flags/flags/Gibraltar.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Greece": {
+      "name": "Greece",
+      "path": "src/flags/flags/Greece.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Greenland": {
+      "name": "Greenland",
+      "path": "src/flags/flags/Greenland.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Grenada": {
+      "name": "Grenada",
+      "path": "src/flags/flags/Grenada.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Guadeloupe": {
+      "name": "Guadeloupe",
+      "path": "src/flags/flags/Guadeloupe.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Guatemala": {
+      "name": "Guatemala",
+      "path": "src/flags/flags/Guatemala.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Guernsey": {
+      "name": "Guernsey",
+      "path": "src/flags/flags/Guernsey.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Guinea": {
+      "name": "Guinea",
+      "path": "src/flags/flags/Guinea.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "GuineaBissau": {
+      "name": "GuineaBissau",
+      "path": "src/flags/flags/GuineaBissau.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Guyana": {
+      "name": "Guyana",
+      "path": "src/flags/flags/Guyana.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Haiti": {
+      "name": "Haiti",
+      "path": "src/flags/flags/Haiti.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Hawaii": {
+      "name": "Hawaii",
+      "path": "src/flags/flags/Hawaii.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Honduras": {
+      "name": "Honduras",
+      "path": "src/flags/flags/Honduras.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "HongKong": {
+      "name": "HongKong",
+      "path": "src/flags/flags/HongKong.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Hungary": {
+      "name": "Hungary",
+      "path": "src/flags/flags/Hungary.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Iceland": {
+      "name": "Iceland",
+      "path": "src/flags/flags/Iceland.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Indonesia": {
+      "name": "Indonesia",
+      "path": "src/flags/flags/Indonesia.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Iran": {
+      "name": "Iran",
+      "path": "src/flags/flags/Iran.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Iraq": {
+      "name": "Iraq",
+      "path": "src/flags/flags/Iraq.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Ireland": {
+      "name": "Ireland",
+      "path": "src/flags/flags/Ireland.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "IsleOfMan": {
+      "name": "IsleOfMan",
+      "path": "src/flags/flags/IsleOfMan.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Israel": {
+      "name": "Israel",
+      "path": "src/flags/flags/Israel.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Italy": {
+      "name": "Italy",
+      "path": "src/flags/flags/Italy.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "IvoryCoast": {
+      "name": "IvoryCoast",
+      "path": "src/flags/flags/IvoryCoast.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Jamaica": {
+      "name": "Jamaica",
+      "path": "src/flags/flags/Jamaica.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Japan": {
+      "name": "Japan",
+      "path": "src/flags/flags/Japan.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Jersey": {
+      "name": "Jersey",
+      "path": "src/flags/flags/Jersey.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Jordan": {
+      "name": "Jordan",
+      "path": "src/flags/flags/Jordan.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Kazakhstan": {
+      "name": "Kazakhstan",
+      "path": "src/flags/flags/Kazakhstan.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Kenya": {
+      "name": "Kenya",
+      "path": "src/flags/flags/Kenya.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Kiribati": {
+      "name": "Kiribati",
+      "path": "src/flags/flags/Kiribati.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Kosovo": {
+      "name": "Kosovo",
+      "path": "src/flags/flags/Kosovo.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Kurdistan": {
+      "name": "Kurdistan",
+      "path": "src/flags/flags/Kurdistan.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Kuwait": {
+      "name": "Kuwait",
+      "path": "src/flags/flags/Kuwait.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Kyrgyzstan": {
+      "name": "Kyrgyzstan",
+      "path": "src/flags/flags/Kyrgyzstan.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Laos": {
+      "name": "Laos",
+      "path": "src/flags/flags/Laos.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Latvia": {
+      "name": "Latvia",
+      "path": "src/flags/flags/Latvia.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Lebanon": {
+      "name": "Lebanon",
+      "path": "src/flags/flags/Lebanon.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Lesotho": {
+      "name": "Lesotho",
+      "path": "src/flags/flags/Lesotho.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Liberia": {
+      "name": "Liberia",
+      "path": "src/flags/flags/Liberia.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Libya": {
+      "name": "Libya",
+      "path": "src/flags/flags/Libya.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Liechtenstein": {
+      "name": "Liechtenstein",
+      "path": "src/flags/flags/Liechtenstein.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Lithuania": {
+      "name": "Lithuania",
+      "path": "src/flags/flags/Lithuania.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Luxembourg": {
+      "name": "Luxembourg",
+      "path": "src/flags/flags/Luxembourg.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Macau": {
+      "name": "Macau",
+      "path": "src/flags/flags/Macau.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Madagascar": {
+      "name": "Madagascar",
+      "path": "src/flags/flags/Madagascar.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Malawi": {
+      "name": "Malawi",
+      "path": "src/flags/flags/Malawi.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Malaysia": {
+      "name": "Malaysia",
+      "path": "src/flags/flags/Malaysia.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Maldives": {
+      "name": "Maldives",
+      "path": "src/flags/flags/Maldives.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Mali": {
+      "name": "Mali",
+      "path": "src/flags/flags/Mali.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Malta": {
+      "name": "Malta",
+      "path": "src/flags/flags/Malta.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "MarshallIslands": {
+      "name": "MarshallIslands",
+      "path": "src/flags/flags/MarshallIslands.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Martinique": {
+      "name": "Martinique",
+      "path": "src/flags/flags/Martinique.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Mauritania": {
+      "name": "Mauritania",
+      "path": "src/flags/flags/Mauritania.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Mauritius": {
+      "name": "Mauritius",
+      "path": "src/flags/flags/Mauritius.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Mexico": {
+      "name": "Mexico",
+      "path": "src/flags/flags/Mexico.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Micronesia": {
+      "name": "Micronesia",
+      "path": "src/flags/flags/Micronesia.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Moldova": {
+      "name": "Moldova",
+      "path": "src/flags/flags/Moldova.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Monaco": {
+      "name": "Monaco",
+      "path": "src/flags/flags/Monaco.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Mongolia": {
+      "name": "Mongolia",
+      "path": "src/flags/flags/Mongolia.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Montenegro": {
+      "name": "Montenegro",
+      "path": "src/flags/flags/Montenegro.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Morocco": {
+      "name": "Morocco",
+      "path": "src/flags/flags/Morocco.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Mozanbique": {
+      "name": "Mozanbique",
+      "path": "src/flags/flags/Mozanbique.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Myanmar": {
+      "name": "Myanmar",
+      "path": "src/flags/flags/Myanmar.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Namibia": {
+      "name": "Namibia",
+      "path": "src/flags/flags/Namibia.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Nauru": {
+      "name": "Nauru",
+      "path": "src/flags/flags/Nauru.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Nepal": {
+      "name": "Nepal",
+      "path": "src/flags/flags/Nepal.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Netherlands": {
+      "name": "Netherlands",
+      "path": "src/flags/flags/Netherlands.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "NetherlandsAntilles": {
+      "name": "NetherlandsAntilles",
+      "path": "src/flags/flags/NetherlandsAntilles.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "NewCaledonia": {
+      "name": "NewCaledonia",
+      "path": "src/flags/flags/NewCaledonia.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "NewZealand": {
+      "name": "NewZealand",
+      "path": "src/flags/flags/NewZealand.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Nicaragua": {
+      "name": "Nicaragua",
+      "path": "src/flags/flags/Nicaragua.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Niger": {
+      "name": "Niger",
+      "path": "src/flags/flags/Niger.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Nigeria": {
+      "name": "Nigeria",
+      "path": "src/flags/flags/Nigeria.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Niue": {
+      "name": "Niue",
+      "path": "src/flags/flags/Niue.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "NorthenIreland": {
+      "name": "NorthenIreland",
+      "path": "src/flags/flags/NorthenIreland.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "NorthKorea": {
+      "name": "NorthKorea",
+      "path": "src/flags/flags/NorthKorea.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "NorthMacedonia": {
+      "name": "NorthMacedonia",
+      "path": "src/flags/flags/NorthMacedonia.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Norway": {
+      "name": "Norway",
+      "path": "src/flags/flags/Norway.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Oman": {
+      "name": "Oman",
+      "path": "src/flags/flags/Oman.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Pakistan": {
+      "name": "Pakistan",
+      "path": "src/flags/flags/Pakistan.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Palau": {
+      "name": "Palau",
+      "path": "src/flags/flags/Palau.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Palestine": {
+      "name": "Palestine",
+      "path": "src/flags/flags/Palestine.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Panama": {
+      "name": "Panama",
+      "path": "src/flags/flags/Panama.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "PapuaNewGuinea": {
+      "name": "PapuaNewGuinea",
+      "path": "src/flags/flags/PapuaNewGuinea.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Paraguay": {
+      "name": "Paraguay",
+      "path": "src/flags/flags/Paraguay.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Peru": {
+      "name": "Peru",
+      "path": "src/flags/flags/Peru.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Philippines": {
+      "name": "Philippines",
+      "path": "src/flags/flags/Philippines.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Poland": {
+      "name": "Poland",
+      "path": "src/flags/flags/Poland.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Portugal": {
+      "name": "Portugal",
+      "path": "src/flags/flags/Portugal.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "PuertoRico": {
+      "name": "PuertoRico",
+      "path": "src/flags/flags/PuertoRico.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Qatar": {
+      "name": "Qatar",
+      "path": "src/flags/flags/Qatar.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "RepublicCongo": {
+      "name": "RepublicCongo",
+      "path": "src/flags/flags/RepublicCongo.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Romania": {
+      "name": "Romania",
+      "path": "src/flags/flags/Romania.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Russia": {
+      "name": "Russia",
+      "path": "src/flags/flags/Russia.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Rwanda": {
+      "name": "Rwanda",
+      "path": "src/flags/flags/Rwanda.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "SaintKittsNevis": {
+      "name": "SaintKittsNevis",
+      "path": "src/flags/flags/SaintKittsNevis.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "SierraLeone": {
+      "name": "SierraLeone",
+      "path": "src/flags/flags/SierraLeone.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Singapore": {
+      "name": "Singapore",
+      "path": "src/flags/flags/Singapore.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "SintMaarten": {
+      "name": "SintMaarten",
+      "path": "src/flags/flags/SintMaarten.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Slovakia": {
+      "name": "Slovakia",
+      "path": "src/flags/flags/Slovakia.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Slovenia": {
+      "name": "Slovenia",
+      "path": "src/flags/flags/Slovenia.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "SolomonIslands": {
+      "name": "SolomonIslands",
+      "path": "src/flags/flags/SolomonIslands.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Somalia": {
+      "name": "Somalia",
+      "path": "src/flags/flags/Somalia.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "SouthAfrica": {
+      "name": "SouthAfrica",
+      "path": "src/flags/flags/SouthAfrica.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "SouthGeorgiaSandwichIslands": {
+      "name": "SouthGeorgiaSandwichIslands",
+      "path": "src/flags/flags/SouthGeorgiaSandwichIslands.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "SouthKorea": {
+      "name": "SouthKorea",
+      "path": "src/flags/flags/SouthKorea.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "SouthSudan": {
+      "name": "SouthSudan",
+      "path": "src/flags/flags/SouthSudan.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Spain": {
+      "name": "Spain",
+      "path": "src/flags/flags/Spain.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "SriLanka": {
+      "name": "SriLanka",
+      "path": "src/flags/flags/SriLanka.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Sudan": {
+      "name": "Sudan",
+      "path": "src/flags/flags/Sudan.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Suriname": {
+      "name": "Suriname",
+      "path": "src/flags/flags/Suriname.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Sweden": {
+      "name": "Sweden",
+      "path": "src/flags/flags/Sweden.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Switzerland": {
+      "name": "Switzerland",
+      "path": "src/flags/flags/Switzerland.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Syria": {
+      "name": "Syria",
+      "path": "src/flags/flags/Syria.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Taiwan": {
+      "name": "Taiwan",
+      "path": "src/flags/flags/Taiwan.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Tajikistan": {
+      "name": "Tajikistan",
+      "path": "src/flags/flags/Tajikistan.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Tanzania": {
+      "name": "Tanzania",
+      "path": "src/flags/flags/Tanzania.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Thailand": {
+      "name": "Thailand",
+      "path": "src/flags/flags/Thailand.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Togo": {
+      "name": "Togo",
+      "path": "src/flags/flags/Togo.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Tonga": {
+      "name": "Tonga",
+      "path": "src/flags/flags/Tonga.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "TrinidadTobago": {
+      "name": "TrinidadTobago",
+      "path": "src/flags/flags/TrinidadTobago.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Tunisia": {
+      "name": "Tunisia",
+      "path": "src/flags/flags/Tunisia.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Turkey": {
+      "name": "Turkey",
+      "path": "src/flags/flags/Turkey.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Turkmenistan": {
+      "name": "Turkmenistan",
+      "path": "src/flags/flags/Turkmenistan.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "TurksAndCaicosIslands": {
+      "name": "TurksAndCaicosIslands",
+      "path": "src/flags/flags/TurksAndCaicosIslands.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Tuvalu": {
+      "name": "Tuvalu",
+      "path": "src/flags/flags/Tuvalu.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Uganda": {
+      "name": "Uganda",
+      "path": "src/flags/flags/Uganda.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Ukraine": {
+      "name": "Ukraine",
+      "path": "src/flags/flags/Ukraine.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "UnitedArabEmira": {
+      "name": "UnitedArabEmira",
+      "path": "src/flags/flags/UnitedArabEmira.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "UnitedKingdom": {
+      "name": "UnitedKingdom",
+      "path": "src/flags/flags/UnitedKingdom.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "UnitedStates": {
+      "name": "UnitedStates",
+      "path": "src/flags/flags/UnitedStates.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "UsaVirginIslands": {
+      "name": "UsaVirginIslands",
+      "path": "src/flags/flags/UsaVirginIslands.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Uruguay": {
+      "name": "Uruguay",
+      "path": "src/flags/flags/Uruguay.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Uzbekistan": {
+      "name": "Uzbekistan",
+      "path": "src/flags/flags/Uzbekistan.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Vanuatu": {
+      "name": "Vanuatu",
+      "path": "src/flags/flags/Vanuatu.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "VaticanCity": {
+      "name": "VaticanCity",
+      "path": "src/flags/flags/VaticanCity.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Venezuela": {
+      "name": "Venezuela",
+      "path": "src/flags/flags/Venezuela.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Vietnam": {
+      "name": "Vietnam",
+      "path": "src/flags/flags/Vietnam.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Wales": {
+      "name": "Wales",
+      "path": "src/flags/flags/Wales.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "WesternSahara": {
+      "name": "WesternSahara",
+      "path": "src/flags/flags/WesternSahara.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Yemen": {
+      "name": "Yemen",
+      "path": "src/flags/flags/Yemen.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Zambia": {
+      "name": "Zambia",
+      "path": "src/flags/flags/Zambia.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
+    "Zimbabwe": {
+      "name": "Zimbabwe",
+      "path": "src/flags/flags/Zimbabwe.tsx",
+      "category": "flags",
+      "subcategory": "flags",
+      "size": "16"
+    },
     "YouTube": {
       "name": "YouTube",
       "path": "src/icon/social/YouTube.tsx",
@@ -1073,7 +2221,171 @@
         "DominicanRepublic",
         "EastTimor",
         "Ecuador",
-        "Egypt"
+        "Egypt",
+        "ElSalvador",
+        "England",
+        "EquatorialGuinea",
+        "Eritrea",
+        "Estonia",
+        "Eswatini",
+        "Ethiopia",
+        "Europe",
+        "FalklandIslands",
+        "FaroeIslands",
+        "Fiji",
+        "Finland",
+        "France",
+        "FrenchGuiana",
+        "FrenchPolynesia",
+        "Gabon",
+        "Gambia",
+        "Georgia",
+        "Germany",
+        "Ghana",
+        "Gibraltar",
+        "Greece",
+        "Greenland",
+        "Grenada",
+        "Guadeloupe",
+        "Guatemala",
+        "Guernsey",
+        "Guinea",
+        "GuineaBissau",
+        "Guyana",
+        "Haiti",
+        "Hawaii",
+        "Honduras",
+        "HongKong",
+        "Hungary",
+        "Iceland",
+        "Indonesia",
+        "Iran",
+        "Iraq",
+        "Ireland",
+        "IsleOfMan",
+        "Israel",
+        "Italy",
+        "IvoryCoast",
+        "Jamaica",
+        "Japan",
+        "Jersey",
+        "Jordan",
+        "Kazakhstan",
+        "Kenya",
+        "Kiribati",
+        "Kosovo",
+        "Kurdistan",
+        "Kuwait",
+        "Kyrgyzstan",
+        "Laos",
+        "Latvia",
+        "Lebanon",
+        "Lesotho",
+        "Liberia",
+        "Libya",
+        "Liechtenstein",
+        "Lithuania",
+        "Luxembourg",
+        "Macau",
+        "Madagascar",
+        "Malawi",
+        "Malaysia",
+        "Maldives",
+        "Mali",
+        "Malta",
+        "MarshallIslands",
+        "Martinique",
+        "Mauritania",
+        "Mauritius",
+        "Mexico",
+        "Micronesia",
+        "Moldova",
+        "Monaco",
+        "Mongolia",
+        "Montenegro",
+        "Morocco",
+        "Mozanbique",
+        "Myanmar",
+        "Namibia",
+        "Nauru",
+        "Nepal",
+        "Netherlands",
+        "NetherlandsAntilles",
+        "NewCaledonia",
+        "NewZealand",
+        "Nicaragua",
+        "Niger",
+        "Nigeria",
+        "Niue",
+        "NorthenIreland",
+        "NorthKorea",
+        "NorthMacedonia",
+        "Norway",
+        "Oman",
+        "Pakistan",
+        "Palau",
+        "Palestine",
+        "Panama",
+        "PapuaNewGuinea",
+        "Paraguay",
+        "Peru",
+        "Philippines",
+        "Poland",
+        "Portugal",
+        "PuertoRico",
+        "Qatar",
+        "RepublicCongo",
+        "Romania",
+        "Russia",
+        "Rwanda",
+        "SaintKittsNevis",
+        "SierraLeone",
+        "Singapore",
+        "SintMaarten",
+        "Slovakia",
+        "Slovenia",
+        "SolomonIslands",
+        "Somalia",
+        "SouthAfrica",
+        "SouthGeorgiaSandwichIslands",
+        "SouthKorea",
+        "SouthSudan",
+        "Spain",
+        "SriLanka",
+        "Sudan",
+        "Suriname",
+        "Sweden",
+        "Switzerland",
+        "Syria",
+        "Taiwan",
+        "Tajikistan",
+        "Tanzania",
+        "Thailand",
+        "Togo",
+        "Tonga",
+        "TrinidadTobago",
+        "Tunisia",
+        "Turkey",
+        "Turkmenistan",
+        "TurksAndCaicosIslands",
+        "Tuvalu",
+        "Uganda",
+        "Ukraine",
+        "UnitedArabEmira",
+        "UnitedKingdom",
+        "UnitedStates",
+        "UsaVirginIslands",
+        "Uruguay",
+        "Uzbekistan",
+        "Vanuatu",
+        "VaticanCity",
+        "Venezuela",
+        "Vietnam",
+        "Wales",
+        "WesternSahara",
+        "Yemen",
+        "Zambia",
+        "Zimbabwe"
       ]
     },
     "wordmark": {
@@ -1188,5 +2500,5 @@
       ]
     }
   },
-  "total": 143
+  "total": 307
 }

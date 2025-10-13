@@ -137,6 +137,292 @@ export const examples: Registry["items"] = [
     ],
   },
   {
+    name: "alert-06",
+    type: "registry:example",
+    title: "Alert Demo",
+    description: "",
+    registryDependencies: ["alert"],
+    files: [
+      {
+        path: "example/alert/alert-06.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    name: "alert-dialog-01",
+    type: "registry:example",
+    title: "Alert Dialog Demo",
+    description: "",
+    registryDependencies: ["alert-dialog"],
+    files: [
+      {
+        path: "example/alert-dialog/alert-dialog-01.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    name: "alert-dialog-02",
+    type: "registry:example",
+    title: "Alert Dialog Demo",
+    description: "",
+    registryDependencies: ["alert-dialog"],
+    files: [
+      {
+        path: "example/alert-dialog/alert-dialog-02.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    name: "alert-dialog-03",
+    type: "registry:example",
+    title: "Alert Dialog Demo",
+    description: "",
+    registryDependencies: ["alert-dialog"],
+    files: [
+      {
+        path: "example/alert-dialog/alert-dialog-03.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    name: "alert-dialog-04",
+    type: "registry:example",
+    title: "Alert Dialog Demo",
+    description: "",
+    registryDependencies: ["alert-dialog"],
+    files: [
+      {
+        path: "example/alert-dialog/alert-dialog-04.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    name: "alert-dialog-05",
+    type: "registry:example",
+    title: "Alert Dialog Demo",
+    description: "",
+    registryDependencies: ["alert-dialog"],
+    files: [
+      {
+        path: "example/alert-dialog/alert-dialog-05.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    name: "aspect-ratio-01",
+    type: "registry:example",
+    title: "Aspect Ratio Demo",
+    description: "",
+    registryDependencies: ["aspect-ratio"],
+    files: [
+      {
+        path: "example/aspect-ratio/aspect-ratio-01.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    name: "aspect-ratio-02",
+    type: "registry:example",
+    title: "Aspect Ratio Demo",
+    description: "",
+    registryDependencies: ["aspect-ratio"],
+    files: [
+      {
+        path: "example/aspect-ratio/aspect-ratio-02.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    name: "aspect-ratio-03",
+    type: "registry:example",
+    title: "Aspect Ratio Demo",
+    description: "",
+    registryDependencies: ["aspect-ratio"],
+    files: [
+      {
+        path: "example/aspect-ratio/aspect-ratio-03.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    name: "aspect-ratio-04",
+    type: "registry:example",
+    title: "Aspect Ratio Demo",
+    description: "",
+    registryDependencies: ["aspect-ratio"],
+    files: [
+      {
+        path: "example/aspect-ratio/aspect-ratio-04.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    name: "aspect-ratio-05",
+    type: "registry:example",
+    title: "Aspect Ratio Demo",
+    description: "",
+    registryDependencies: ["aspect-ratio"],
+    files: [
+      {
+        path: "example/aspect-ratio/aspect-ratio-05.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    name: "avatar-01",
+    type: "registry:example",
+    title: "Avatar Demo",
+    description: "",
+    registryDependencies: ["avatar"],
+    files: [
+      {
+        path: "example/avatar/avatar-01.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    name: "avatar-02",
+    type: "registry:example",
+    title: "Avatar Demo",
+    description: "",
+    registryDependencies: ["avatar"],
+    files: [
+      {
+        path: "example/avatar/avatar-02.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    name: "avatar-03",
+    type: "registry:example",
+    title: "Avatar Demo",
+    description: "",
+    registryDependencies: ["avatar"],
+    files: [
+      {
+        path: "example/avatar/avatar-03.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    name: "avatar-04",
+    type: "registry:example",
+    title: "Avatar Demo",
+    description: "",
+    registryDependencies: ["avatar"],
+    files: [
+      {
+        path: "example/avatar/avatar-04.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    name: "avatar-05",
+    type: "registry:example",
+    title: "Avatar Demo",
+    description: "",
+    registryDependencies: ["avatar"],
+    files: [
+      {
+        path: "example/avatar/avatar-05.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    name: "avatar-06",
+    type: "registry:example",
+    title: "Avatar Demo",
+    description: "",
+    registryDependencies: ["avatar"],
+    files: [
+      {
+        path: "example/avatar/avatar-06.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    name: "badge-01",
+    type: "registry:example",
+    title: "Badge Demo",
+    description: "",
+    registryDependencies: ["badge"],
+    files: [
+      {
+        path: "example/badge/badge-01.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    name: "badge-02",
+    type: "registry:example",
+    title: "Badge Demo",
+    description: "",
+    registryDependencies: ["badge"],
+    files: [
+      {
+        path: "example/badge/badge-02.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    name: "badge-03",
+    type: "registry:example",
+    title: "Badge Demo",
+    description: "",
+    registryDependencies: ["badge"],
+    files: [
+      {
+        path: "example/badge/badge-03.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    name: "badge-04",
+    type: "registry:example",
+    title: "Badge Demo",
+    description: "",
+    registryDependencies: ["badge"],
+    files: [
+      {
+        path: "example/badge/badge-04.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    name: "badge-05",
+    type: "registry:example",
+    title: "Badge Demo",
+    description: "",
+    registryDependencies: ["badge"],
+    files: [
+      {
+        path: "example/badge/badge-05.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
     name: "button-01",
     type: "registry:example",
     title: "Button Demo",
@@ -999,6 +1285,45 @@ export const examples: Registry["items"] = [
     files: [
       {
         path: "example/dino-game/dino-game-02.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    title: "FireBall",
+    name: "fireball-01",
+    type: "registry:example",
+    description: "Example showing a simple fireball.",
+    registryDependencies: ["fireball"],
+    files: [
+      {
+        path: "example/backgrounds//fireball/fireball-01.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    title: "FireBall",
+    name: "fireball-02",
+    type: "registry:example",
+    description: "Example showing a simple fireball.",
+    registryDependencies: ["fireball"],
+    files: [
+      {
+        path: "example/backgrounds//fireball/fireball-02.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    title: "FireBall",
+    name: "fireball-03",
+    type: "registry:example",
+    description: "Example showing a simple fireball.",
+    registryDependencies: ["fireball"],
+    files: [
+      {
+        path: "example/backgrounds//fireball/fireball-03.tsx",
         type: "registry:example",
       },
     ],

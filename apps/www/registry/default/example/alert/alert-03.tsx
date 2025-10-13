@@ -1,20 +1,20 @@
-import {
-  Alert,
-  AlertDescription,
-  AlertTitle,
-} from "@/registry/default/ui/alert";
-import { CheckCircle2 } from "lucide-react";
+import { CircleCheck } from "@aliimam/icons";
+import { Button } from "@/registry/default/ui/button"; // or your existing Button
+import { Alert, AlertDescription, AlertTitle } from "@/registry/default/ui/alert";
 
-export function Alert03() {
+export function AlertSuccessAction() {
   return (
-    <div className="w-full max-w-xl mx-auto">
-      <Alert>
-        <CheckCircle2 />
-        <AlertTitle>Success! Your changes have been saved</AlertTitle>
+    <Alert className="border-green-500/30 bg-green-50 text-green-900 dark:bg-green-950 dark:text-green-200">
+      <CircleCheck size={18} />
+      <div className="flex flex-col gap-2">
+        <AlertTitle>Operation completed!</AlertTitle>
         <AlertDescription>
-          This is an alert with icon, title and description.
+          Your account settings have been updated successfully.
         </AlertDescription>
-      </Alert>
-    </div>
+        <Button variant="outline" size="sm" className="mt-1 w-fit">
+          View details
+        </Button>
+      </div>
+    </Alert>
   );
 }

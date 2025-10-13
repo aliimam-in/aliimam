@@ -1,0 +1,76 @@
+---
+title: Fireball
+description: A dynamic animated canvas component that renders fire following the cursor with configurable physics and color cycling.
+component: true 
+---
+
+<ComponentPreview
+  name="fireball-01"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[300px]"
+  description="A customizable SVG dot pattern background."
+  align="start"
+/>
+ 
+ <ComponentPreview
+  name="fireball-02"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[300px]"
+  description="A customizable SVG dot pattern background."
+  align="start"
+/>
+ 
+ <ComponentPreview
+  name="fireball-03"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[300px]"
+  description="A customizable SVG dot pattern background."
+  align="start"
+/>
+ 
+
+## Installation
+
+<CodeTabs>
+
+<TabsList>
+  <TabsTrigger value="cli">CLI</TabsTrigger>
+  <TabsTrigger value="manual">Manual</TabsTrigger>
+</TabsList>
+
+<TabsContent value="cli">
+
+```bash
+npx shadcn@latest add https://ui.dalim.in/r/fireballjson
+```
+
+</TabsContent>
+
+<TabsContent value="manual">
+
+<Steps>
+
+<Step>Copy and paste the following code into your project.</Step>
+
+<ComponentSource name="fireball" title="components/ui/fireball.tsx" />
+
+<Step>Update the import paths to match your project setup.</Step>
+
+</Steps>
+
+</TabsContent>
+
+</CodeTabs>
+
+## Usage
+
+```tsx showLineNumbers
+import { FireBall } from "@/components/ui/fireball"
+```
+
+```tsx showLineNumbers
+<div className="relative h-64 w-full rounded-lg border">
+  <FireBall/>
+  <div className="relative z-10 flex h-full items-center justify-center">
+    <p className="text-lg font-medium">Content over dot background</p>
+  </div>
+</div>
+```
+ 

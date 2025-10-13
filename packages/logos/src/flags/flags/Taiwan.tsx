@@ -1,0 +1,60 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const Taiwan: IconComponent = React.forwardRef<SVGSVGElement, IconProps>(
+  function Taiwan(
+    {
+      color = "currentColor",
+      fill,
+      size = 24,
+      strokeWidth,
+      strokeLinecap,
+      strokeLinejoin,
+      strokeDasharray,
+      opacity,
+      className,
+      ...props
+    },
+    forwardedRef,
+  ) {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 32 32"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M27 4H5C2.79086 4 1 5.79086 1 8V24C1 26.2091 2.79086 28 5 28H27C29.2091 28 31 26.2091 31 24V8C31 5.79086 29.2091 4 27 4Z"
+          fill="#e93323"
+        />
+        <path d="M5 4H16V16H1V8C1 5.792 2.792 4 5 4Z" fill="#020090" />
+        <path
+          d="M6.664 8.859 4.711 8.336 6.14 9.765C6.249 9.426 6.43 9.118 6.664 8.859ZM8.5 8.044C8.679 8.044 8.854 8.064 9.023 8.1L8.5 6.148 7.977 8.1C8.146 8.064 8.321 8.044 8.5 8.044ZM7.741 8.163 6.312 6.734 6.835 8.687C7.093 8.453 7.401 8.272 7.741 8.163ZM10.164 8.687 10.687 6.734 9.258 8.163C9.597 8.272 9.905 8.453 10.164 8.687ZM10.86 9.764 12.289 8.335 10.336 8.858C10.57 9.116 10.751 9.424 10.86 9.764ZM8.5 12.711C9.708 12.711 10.688 11.731 10.688 10.523 10.688 9.315 9.708 8.335 8.5 8.335 7.292 8.335 6.312 9.315 6.312 10.523 6.312 11.731 7.292 12.711 8.5 12.711ZM12.875 10.523 10.923 10C10.959 10.169 10.979 10.344 10.979 10.523 10.979 10.702 10.959 10.877 10.923 11.046L12.875 10.523ZM9.259 12.883 10.688 14.312 10.165 12.359C9.907 12.593 9.599 12.774 9.259 12.883ZM10.336 12.187 12.289 12.71 10.86 11.281C10.751 11.62 10.57 11.928 10.336 12.187ZM8.5 13.002C8.321 13.002 8.146 12.982 7.977 12.946L8.5 14.898 9.023 12.946C8.854 12.982 8.679 13.002 8.5 13.002ZM6.836 12.359 6.313 14.312 7.742 12.883C7.403 12.774 7.095 12.593 6.836 12.359ZM6.14 11.282 4.711 12.711 6.664 12.188C6.43 11.93 6.249 11.622 6.14 11.282ZM6.021 10.523C6.021 10.344 6.041 10.169 6.077 10L4.125 10.523 6.077 11.046C6.041 10.877 6.021 10.702 6.021 10.523Z"
+          fill="#fff"
+        />
+      </svg>
+    );
+  },
+);
+
+Taiwan.displayName = "Taiwan";
+
+Taiwan.metadata = {
+  name: "Taiwan",
+  category: "flags/flags",
+  tags: ["taiwan", "icon"],
+  description: "Taiwan icon from flags/flags category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default Taiwan;
