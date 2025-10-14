@@ -423,6 +423,71 @@ export const examples: Registry["items"] = [
     ],
   },
   {
+    name: "breadcrumb-01",
+    type: "registry:example",
+    title: "Breadcrumb Demo",
+    description: "",
+    registryDependencies: ["breadcrumb"],
+    files: [
+      {
+        path: "example/breadcrumb/breadcrumb-01.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    name: "breadcrumb-02",
+    type: "registry:example",
+    title: "Breadcrumb Demo",
+    description: "",
+    registryDependencies: ["breadcrumb"],
+    files: [
+      {
+        path: "example/breadcrumb/breadcrumb-02.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    name: "breadcrumb-03",
+    type: "registry:example",
+    title: "Breadcrumb Demo",
+    description: "",
+    registryDependencies: ["breadcrumb"],
+    files: [
+      {
+        path: "example/breadcrumb/breadcrumb-03.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    name: "breadcrumb-04",
+    type: "registry:example",
+    title: "Breadcrumb Demo",
+    description: "",
+    registryDependencies: ["breadcrumb"],
+    files: [
+      {
+        path: "example/breadcrumb/breadcrumb-04.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    name: "breadcrumb-05",
+    type: "registry:example",
+    title: "Breadcrumb Demo",
+    description: "",
+    registryDependencies: ["breadcrumb"],
+    files: [
+      {
+        path: "example/breadcrumb/breadcrumb-05.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
     name: "button-01",
     type: "registry:example",
     title: "Button Demo",

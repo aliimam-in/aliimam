@@ -13,6 +13,12 @@ import {
   navigationMenuTriggerStyle,
 } from "@/registry/default/ui/navigation-menu";
 import { cn } from "@/src/lib/utils";
+import { useIcons } from "../icons/icon-context";
+
+type MenusProps = {
+  blocksCount?: number;
+  componentsCount?: number;
+};
 
 const components: { title: string; href: string; description: string }[] = [
   {
@@ -53,7 +59,10 @@ const components: { title: string; href: string; description: string }[] = [
   },
 ];
 
-export function Menus() {
+export function Menus({ blocksCount, componentsCount }: MenusProps) {
+  const { iconComponents } = useIcons();
+  const totalIcons = iconComponents?.length || 0;
+
   return (
     <NavigationMenu>
       <NavigationMenuList>
@@ -76,7 +85,14 @@ export function Menus() {
               "bg-transparent text-xs"
             )}
           >
-            <Link href="/templates">Templates</Link>
+            <Link href="/templates">
+              <div className="flex w-fit">
+                Templates
+                <span className="ml-1 text-muted-foreground text-[8px]">
+                  10
+                </span>
+              </div>
+            </Link>
           </NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem>
@@ -90,7 +106,10 @@ export function Menus() {
             <Link href="/blocks">
               <div className="flex w-fit">
                 Blocks
-                <span className="ml-2 rounded-full bg-[#fff000] px-1.5 py-0.5 text-xs font-normal leading-none text-[#000000] no-underline group-hover:no-underline">
+                <span className="ml-1 text-muted-foreground text-[8px]">
+                  {blocksCount}
+                </span>
+                <span className="ml-1 rounded-full bg-[#fff000] px-1.5 py-0.5 text-xs font-normal leading-none text-[#000000] no-underline group-hover:no-underline">
                   New
                 </span>
               </div>
@@ -123,7 +142,14 @@ export function Menus() {
               "bg-transparent text-xs"
             )}
           >
-            <Link href="/icons">Icons</Link>
+            <Link href="/icons">
+              <div className="flex w-fit">
+                Icons
+                <span className="ml-1 text-muted-foreground text-[8px]">
+                  {totalIcons}
+                </span>
+              </div>
+            </Link>
           </NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem>
@@ -134,7 +160,14 @@ export function Menus() {
               "bg-transparent text-xs"
             )}
           >
-            <Link href="/backgrounds">Graphics</Link>
+            <Link href="/backgrounds">
+              <div className="flex w-fit">
+                Graphics
+                <span className="ml-1 text-muted-foreground text-[8px]">
+                  4K
+                </span>
+              </div>
+            </Link>
           </NavigationMenuLink>
         </NavigationMenuItem>
         <NavigationMenuItem>
@@ -145,7 +178,14 @@ export function Menus() {
               "bg-transparent text-xs"
             )}
           >
-            <Link href="/docs/backgrounds/gradient-mesh">Components</Link>
+            <Link href="/docs/backgrounds/gradient-mesh">
+              <div className="flex w-fit">
+                Components
+                <span className="ml-1 text-muted-foreground text-[8px]">
+                  {componentsCount}
+                </span>
+              </div>
+            </Link>
           </NavigationMenuLink>
         </NavigationMenuItem>
       </NavigationMenuList>

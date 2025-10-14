@@ -5,7 +5,31 @@ component: true
 ---
 
 <ComponentPreview
-  name="badge-demo"
+  name="badge-01"
+  title="Badge"
+  description="A default badge"
+/>
+
+<ComponentPreview
+  name="badge-02"
+  title="Badge"
+  description="A default badge"
+/>
+
+<ComponentPreview
+  name="badge-03"
+  title="Badge"
+  description="A default badge"
+/>
+
+<ComponentPreview
+  name="badge-04"
+  title="Badge"
+  description="A default badge"
+/>
+
+<ComponentPreview
+  name="badge-05"
   title="Badge"
   description="A default badge"
 />
@@ -21,7 +45,7 @@ component: true
 <TabsContent value="cli">
 
 ```bash
-npx shadcn@latest add badge
+pnpm dlx shadcn@latest add https://aliimam.in/r/badge.json
 ```
 
 </TabsContent>
@@ -49,7 +73,7 @@ import { Badge } from "@/components/ui/badge"
 ```
 
 ```tsx
-<Badge variant="default |outline | secondary | destructive">Badge</Badge>
+<Badge variant="default | outline | secondary | destructive">Badge</Badge>
 ```
 
 ### Link

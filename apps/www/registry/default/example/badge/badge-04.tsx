@@ -1,12 +1,14 @@
 import { Badge } from "@/registry/default/ui/badge";
 
-export function BadgeDemo() {
+export function BadgeTagsDemo() {
+  const tags = ["Design", "Next.js", "Branding", "UI/UX"];
   return (
     <div className="flex flex-wrap gap-2">
-      <Badge variant="default">Default</Badge>
-      <Badge variant="secondary">Secondary</Badge>
-      <Badge variant="destructive">Destructive</Badge>
-      <Badge variant="outline">Outline</Badge>
+      {tags.map((tag) => (
+        <Badge key={tag} variant="secondary">
+          {tag}
+        </Badge>
+      ))}
     </div>
   );
 }

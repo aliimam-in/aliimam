@@ -82,6 +82,11 @@ This file provides LLM-friendly entry points to documentation and examples.
 - [Badge Demo](https://github.com/aliimam-in/blob/main/example/badge/badge-03.tsx): Example usage
 - [Badge Demo](https://github.com/aliimam-in/blob/main/example/badge/badge-04.tsx): Example usage
 - [Badge Demo](https://github.com/aliimam-in/blob/main/example/badge/badge-05.tsx): Example usage
+- [Breadcrumb Demo](https://github.com/aliimam-in/blob/main/example/breadcrumb/breadcrumb-01.tsx): Example usage
+- [Breadcrumb Demo](https://github.com/aliimam-in/blob/main/example/breadcrumb/breadcrumb-02.tsx): Example usage
+- [Breadcrumb Demo](https://github.com/aliimam-in/blob/main/example/breadcrumb/breadcrumb-03.tsx): Example usage
+- [Breadcrumb Demo](https://github.com/aliimam-in/blob/main/example/breadcrumb/breadcrumb-04.tsx): Example usage
+- [Breadcrumb Demo](https://github.com/aliimam-in/blob/main/example/breadcrumb/breadcrumb-05.tsx): Example usage
 - [Button Demo](https://github.com/aliimam-in/blob/main/example/button/button-01.tsx): Example usage
 - [Button Demo](https://github.com/aliimam-in/blob/main/example/button/button-02.tsx): Example usage
 - [Button Demo](https://github.com/aliimam-in/blob/main/example/button/button-03.tsx): Example usage

@@ -1,8 +1,7 @@
 import { SidebarProvider } from "@/registry/default/ui/sidebar";
 import { Tabs } from "@/registry/default/ui/tabs";
 import { ShapesCategoryTabs } from "@/src/components/icons/category";
-import { IconsNav } from "@/src/components/icons/icons-nav";
-import { LogosProvider } from "@/src/components/icons/logo-context";
+import { IconsNav } from "@/src/components/icons/icons-nav"; 
 import { LogoSearch } from "@/src/components/icons/search"; 
 
 export default function DocsLayout({
@@ -10,8 +9,7 @@ export default function DocsLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return (
-    <LogosProvider>
+  return ( 
       <div>
         <Tabs defaultValue="icon">
           <div className="flex sticky h-14 z-40 top-20 bg-background py-3 items-center border-y px-4">
@@ -29,7 +27,6 @@ export default function DocsLayout({
             <div className="h-full px-2 w-full">{children}</div>
           </SidebarProvider>
         </Tabs>
-      </div>
-    </LogosProvider>
+      </div> 
   );
 }

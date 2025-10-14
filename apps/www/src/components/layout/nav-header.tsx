@@ -14,7 +14,15 @@ const menuItems = [
   { name: "Contact", href: "/docs/legal/contact" },
 ];
 
-export const ClientHeader = ({ children }: { children: React.ReactNode }) => {
+export const ClientHeader = ({
+  children,
+  blocksCount,
+  componentsCount,
+}: {
+  blocksCount?: number;
+  componentsCount?: number;
+  children: React.ReactNode;
+}) => {
   const [menuState, setMenuState] = React.useState(false);
   const [isScrolled, setIsScrolled] = React.useState(false);
 
@@ -73,7 +81,10 @@ export const ClientHeader = ({ children }: { children: React.ReactNode }) => {
             </div>
 
             <div className="absolute inset-0 m-auto hidden lg:block size-fit">
-              <Menus />
+              <Menus
+                blocksCount={blocksCount}
+                componentsCount={componentsCount}
+              />
             </div>
 
             <div className="in-data-[state=active]:block border backdrop-blur-2xl w-full lg:in-data-[state=active]:flex hidden flex-wrap items-center justify-end space-y-8 rounded-sm p-3 shadow-3xl shadow-zinc-300/20 md:flex-nowrap lg:m-0 lg:flex lg:w-fit lg:gap-6 lg:space-y-0 lg:border-transparent lg:bg-transparent lg:p-0 lg:shadow-none dark:shadow-none dark:lg:bg-transparent">

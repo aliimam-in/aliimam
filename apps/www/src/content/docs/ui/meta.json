@@ -6,6 +6,8 @@
     "alert-dialog",
     "aspect-ratio",
     "avatar",
+    "badge",
+    "breadcrumb",
     "button"
   ]
 }

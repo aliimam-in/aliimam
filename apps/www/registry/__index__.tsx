@@ -1312,6 +1312,96 @@ export const Index: Record<string, any> = {
     categories: undefined,
     meta: undefined,
   },
+  "breadcrumb-01": {
+    name: "breadcrumb-01",
+    description: "",
+    type: "registry:example",
+    registryDependencies: ["breadcrumb"],
+    files: [{
+      path: "registry/default/example/breadcrumb/breadcrumb-01.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/breadcrumb/breadcrumb-01.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "breadcrumb-02": {
+    name: "breadcrumb-02",
+    description: "",
+    type: "registry:example",
+    registryDependencies: ["breadcrumb"],
+    files: [{
+      path: "registry/default/example/breadcrumb/breadcrumb-02.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/breadcrumb/breadcrumb-02.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "breadcrumb-03": {
+    name: "breadcrumb-03",
+    description: "",
+    type: "registry:example",
+    registryDependencies: ["breadcrumb"],
+    files: [{
+      path: "registry/default/example/breadcrumb/breadcrumb-03.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/breadcrumb/breadcrumb-03.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "breadcrumb-04": {
+    name: "breadcrumb-04",
+    description: "",
+    type: "registry:example",
+    registryDependencies: ["breadcrumb"],
+    files: [{
+      path: "registry/default/example/breadcrumb/breadcrumb-04.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/breadcrumb/breadcrumb-04.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "breadcrumb-05": {
+    name: "breadcrumb-05",
+    description: "",
+    type: "registry:example",
+    registryDependencies: ["breadcrumb"],
+    files: [{
+      path: "registry/default/example/breadcrumb/breadcrumb-05.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/breadcrumb/breadcrumb-05.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
   "button-01": {
     name: "button-01",
     description: "Example showing a simple button.",
