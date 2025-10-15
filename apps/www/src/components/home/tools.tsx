@@ -1,9 +1,6 @@
 import { GradientMesh } from "@/registry/default/components/gradient-mesh";
 import { GradientWave } from "@/registry/default/components/gradient-wave";
-import { Card, CardContent, CardHeader } from "@/registry/default/ui/card";
-import { Palette } from "@aliimam/icons";
-import { Globe } from "lucide-react";
-import Image from "next/image";
+import { Card, CardHeader } from "@/registry/default/ui/card"; 
 import Link from "next/link";
 
 export function Tools() {
