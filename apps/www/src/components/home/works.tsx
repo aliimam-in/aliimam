@@ -10,6 +10,19 @@ export function Works() {
       <Carousel
         slides={[
           <div
+            key={"4"}
+            className="border h-full w-full relative overflow-hidden rounded-md bg-card text-card-foreground"
+          >
+            <div className="w-full h-full overflow-hidden">
+              <ImageZoom>
+              <img
+                src="/templates/ai-icons.jpg" 
+                className="object-cover h-full w-full"
+              />
+              </ImageZoom>
+            </div>
+          </div>,
+          <div
             key={"1"}
             className="border h-full w-full relative overflow-hidden rounded-md bg-card text-card-foreground"
           >
@@ -48,6 +61,19 @@ export function Works() {
               </ImageZoom>
             </div>
           </div>, 
+          <div
+            key={"5"}
+            className="border h-full w-full relative overflow-hidden rounded-md bg-card text-card-foreground"
+          >
+            <div className="w-full h-full overflow-hidden">
+              <ImageZoom>
+              <img
+                src="/templates/ai-logos.jpg" 
+                className="object-cover h-full w-full"
+              />
+              </ImageZoom>
+            </div>
+          </div>,
         ]}
       />
       <Link className="flex justify-center mt-10" href="/works">
