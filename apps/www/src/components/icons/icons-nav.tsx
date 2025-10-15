@@ -13,12 +13,12 @@ export function IconsNav() {
     <div className="relative overflow-hidden">
       <ScrollArea className="max-w-none">
         <div className="flex gap-2 items-center">
-          <BlocksNavLink
+          <IconsNavLink
             category={{ name: "Icons", slug: "icons", hidden: false }}
             isActive={pathname === "/icons"}
           />
           {iconCategories.map((category) => (
-            <BlocksNavLink
+            <IconsNavLink
               key={category.slug}
               category={category}
               isActive={pathname === `/${category.slug}`}
@@ -31,7 +31,7 @@ export function IconsNav() {
   )
 }
 
-function BlocksNavLink({
+function IconsNavLink({
   category,
   isActive,
 }: {

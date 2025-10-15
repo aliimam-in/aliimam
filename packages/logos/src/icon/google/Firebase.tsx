@@ -1,0 +1,68 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const Firebase: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function Firebase(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <path
+        d="M8.5567 22.4199C9.48662 22.7942 10.4955 23.0163 11.5548 23.0533C12.9884 23.1034 14.3517 22.807 15.5704 22.2439C14.1089 21.6697 12.7853 20.83 11.6557 19.786C10.9234 20.9584 9.84038 21.8845 8.5567 22.4199Z"
+        fill="#ff9100"
+      />
+      <path
+        d="M11.6556 19.7863C9.07692 17.4015 7.5126 13.9497 7.6448 10.1636C7.64912 10.0407 7.6556 9.91782 7.6632 9.79498C7.19222 9.67286 6.7093 9.60256 6.22304 9.58534C5.53198 9.56092 4.84131 9.64395 4.17572 9.83146C3.48732 11.0373 3.07196 12.4208 3.0202 13.9027C2.88664 17.7271 5.20108 21.0689 8.55656 22.4203C9.84028 21.8848 10.9233 20.9599 11.6556 19.7863Z"
+        fill="#ffc400"
+      />
+      <path
+        d="M11.6556 19.7863C12.2551 18.8268 12.6186 17.702 12.6609 16.4902C12.7723 13.3024 10.6293 10.5601 7.66325 9.79492C7.65565 9.91776 7.64917 10.0406 7.64485 10.1636C7.51265 13.9496 9.07697 17.4014 11.6556 19.7863Z"
+        fill="#ff9100"
+      />
+      <path
+        d="M12.3293 0.834351C10.64 2.18767 9.30611 3.97211 8.49903 6.02775C8.03699 7.20519 7.74663 8.46995 7.66187 9.79575C10.6279 10.561 12.7709 13.3032 12.6596 16.491C12.6173 17.7028 12.2527 18.8266 11.6542 19.7871C12.7838 20.8322 14.1075 21.6708 15.5689 22.245C18.5024 20.889 20.5837 17.9712 20.7043 14.5199C20.7823 12.2839 19.9232 10.291 18.7093 8.60879C17.4272 6.82971 12.3293 0.834351 12.3293 0.834351Z"
+        fill="#dd2c00"
+      />
+    </svg>
+  );
+});
+
+Firebase.displayName = "Firebase";
+
+Firebase.metadata = {
+  name: "Firebase",
+  category: "icon/google",
+  tags: ["firebase", "icon"],
+  description: "Firebase icon from icon/google category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default Firebase;

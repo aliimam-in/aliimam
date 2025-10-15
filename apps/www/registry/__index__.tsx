@@ -3020,6 +3020,150 @@ export const Index: Record<string, any> = {
     categories: ["hero"],
     meta: undefined,
   },
+  "book-demo-01": {
+    name: "book-demo-01",
+    description: "A simple book demo section.",
+    type: "registry:block",
+    registryDependencies: ["button","input","label"],
+    files: [{
+      path: "registry/default/blocks/book-demo/book-demo-01/page.tsx",
+      type: "registry:component",
+      target: "components/book-demo-01.tsx"
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/blocks/book-demo/book-demo-01/page.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: ["book-demo"],
+    meta: undefined,
+  },
+  "book-demo-02": {
+    name: "book-demo-02",
+    description: "A simple book demo section.",
+    type: "registry:block",
+    registryDependencies: ["button","input","label","select","separator"],
+    files: [{
+      path: "registry/default/blocks/book-demo/book-demo-02/page.tsx",
+      type: "registry:component",
+      target: "components/book-demo-02.tsx"
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/blocks/book-demo/book-demo-02/page.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: ["book-demo"],
+    meta: undefined,
+  },
+  "book-demo-03": {
+    name: "book-demo-03",
+    description: "A simple book demo section.",
+    type: "registry:block",
+    registryDependencies: ["button","input","label","select","textarea"],
+    files: [{
+      path: "registry/default/blocks/book-demo/book-demo-03/page.tsx",
+      type: "registry:component",
+      target: "components/book-demo-03.tsx"
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/blocks/book-demo/book-demo-03/page.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: ["book-demo"],
+    meta: undefined,
+  },
+  "book-demo-04": {
+    name: "book-demo-04",
+    description: "A simple book demo section.",
+    type: "registry:block",
+    registryDependencies: ["button","input","label","select","textarea","checkbox","separator"],
+    files: [{
+      path: "registry/default/blocks/book-demo/book-demo-04/page.tsx",
+      type: "registry:component",
+      target: "components/book-demo-04.tsx"
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/blocks/book-demo/book-demo-04/page.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: ["book-demo"],
+    meta: undefined,
+  },
+  "download-01": {
+    name: "download-01",
+    description: "A simple download demo section.",
+    type: "registry:block",
+    registryDependencies: ["button"],
+    files: [{
+      path: "registry/default/blocks/download/download-01/page.tsx",
+      type: "registry:component",
+      target: "components/download-01.tsx"
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/blocks/download/download-01/page.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: ["download"],
+    meta: undefined,
+  },
+  "download-02": {
+    name: "download-02",
+    description: "A simple download demo section.",
+    type: "registry:block",
+    registryDependencies: ["button","separator"],
+    files: [{
+      path: "registry/default/blocks/download/download-02/page.tsx",
+      type: "registry:component",
+      target: "components/download-02.tsx"
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/blocks/download/download-02/page.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: ["download"],
+    meta: undefined,
+  },
+  "cta-01": {
+    name: "cta-01",
+    description: "A simple cta demo section.",
+    type: "registry:block",
+    registryDependencies: ["button","separator"],
+    files: [{
+      path: "registry/default/blocks/cta/cta-01/page.tsx",
+      type: "registry:component",
+      target: "components/cta-01.tsx"
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/blocks/cta/cta-01/page.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: ["cta"],
+    meta: undefined,
+  },
+  "feature-01": {
+    name: "feature-01",
+    description: "A simple feature demo section.",
+    type: "registry:block",
+    registryDependencies: ["button","separator"],
+    files: [{
+      path: "registry/default/blocks/feature/feature-01/page.tsx",
+      type: "registry:component",
+      target: "components/feature-01.tsx"
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/blocks/feature/feature-01/page.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: ["feature"],
+    meta: undefined,
+  },
   "dashboard-01": {
     name: "dashboard-01",
     description: "A dashboard with sidebar, charts and data table.",
@@ -3100,6 +3244,42 @@ export const Index: Record<string, any> = {
       return { default: mod.default || mod[exportName] }
     }),
     categories: ["authentication","login"],
+    meta: undefined,
+  },
+  "login-03": {
+    name: "login-03",
+    description: "A simple login form.",
+    type: "registry:block",
+    registryDependencies: ["button","input","label"],
+    files: [{
+      path: "registry/default/blocks/login/login-03/page.tsx",
+      type: "registry:page",
+      target: "app/login-03/page.tsx"
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/blocks/login/login-03/page.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: ["authentication","login"],
+    meta: undefined,
+  },
+  "stats-01": {
+    name: "stats-01",
+    description: "A simple stats.",
+    type: "registry:block",
+    registryDependencies: ["button"],
+    files: [{
+      path: "registry/default/blocks/stats/stats-01/page.tsx",
+      type: "registry:page",
+      target: "app/stats-01/page.tsx"
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/blocks/stats/stats-01/page.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: ["numbers","stats"],
     meta: undefined,
   },
   "logos-01": {

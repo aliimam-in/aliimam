@@ -1,0 +1,61 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const BankAccount: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function BankAccount(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <path
+        d="M20.25 5.25H3.75C2.50736 5.25 1.5 6.25736 1.5 7.5V16.5C1.5 17.7426 2.50736 18.75 3.75 18.75H20.25C21.4926 18.75 22.5 17.7426 22.5 16.5V7.5C22.5 6.25736 21.4926 5.25 20.25 5.25Z"
+        fill="#e6e6e6"
+      />
+      <path
+        opacity=".5"
+        d="M16.125 15.75H7.875C7.668 15.75 7.5 15.918 7.5 16.125 7.5 16.332 7.668 16.5 7.875 16.5H16.125C16.332 16.5 16.5 16.332 16.5 16.125 16.5 15.918 16.332 15.75 16.125 15.75ZM16.252 10.259 12.616 7.835C12.241 7.586 11.759 7.586 11.384 7.835L7.748 10.259C7.548 10.392 7.461 10.636 7.53 10.866 7.6 11.096 7.808 11.25 8.048 11.25H8.812V14.25H8.25C8.043 14.25 7.875 14.418 7.875 14.625 7.875 14.832 8.043 15 8.25 15H15.75C15.957 15 16.125 14.832 16.125 14.625 16.125 14.418 15.957 14.25 15.75 14.25H15.187V11.25H15.952C16.192 11.25 16.4 11.096 16.47 10.866 16.539 10.636 16.452 10.392 16.252 10.259ZM10.688 14.25H9.563V11.25H10.688V14.25ZM12.563 14.25H11.438V11.25H12.563V14.25ZM12 10.125C11.689 10.125 11.438 9.873 11.438 9.562 11.438 9.252 11.689 9 12 9 12.311 9 12.563 9.252 12.563 9.562 12.563 9.873 12.311 10.125 12 10.125ZM14.438 14.25H13.313V11.25H14.438V14.25Z"
+        fill="#1a1a1a"
+      />
+    </svg>
+  );
+});
+
+BankAccount.displayName = "BankAccount";
+
+BankAccount.metadata = {
+  name: "BankAccount",
+  category: "symbols/cards",
+  tags: ["bank", "account", "icon"],
+  description: "BankAccount icon from symbols/cards category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default BankAccount;

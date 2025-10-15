@@ -1,0 +1,68 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const Libya: IconComponent = React.forwardRef<SVGSVGElement, IconProps>(
+  function Libya(
+    {
+      color = "currentColor",
+      fill,
+      size = 24,
+      strokeWidth,
+      strokeLinecap,
+      strokeLinejoin,
+      strokeDasharray,
+      opacity,
+      className,
+      ...props
+    },
+    forwardedRef,
+  ) {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 32 32"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path d="M1 10H31V22H1V10Z" fill="currentColor" />
+        <path
+          d="M5 4H27C29.208 4 31 5.792 31 8V11H1V8C1 5.792 2.792 4 5 4Z"
+          fill="#d52e23"
+        />
+        <path
+          d="M27 28L5 28C2.792 28 1 26.208 1 24V21L31 21V24C31 26.208 29.208 28 27 28Z"
+          fill="#4c9d4f"
+        />
+        <path
+          d="M13.7 16C13.7 14.315 15.066 12.949 16.751 12.949C17.413 12.949 18.026 13.161 18.526 13.519C17.89 12.882 17.012 12.488 16.041 12.488C14.102 12.488 12.53 14.06 12.53 15.999C12.53 17.938 14.102 19.51 16.041 19.51C17.012 19.51 17.891 19.116 18.526 18.479C18.026 18.838 17.413 19.049 16.751 19.049C15.066 19.049 13.7 17.683 13.7 15.998V16Z"
+          fill="#fff"
+        />
+        <path
+          d="M21.356 16.0001L22.471 14.4651L20.667 15.0521L19.552 13.5171V15.4141L17.748 16.0001L19.552 16.5861V18.4831L20.667 16.9481L22.471 17.5351L21.356 16.0001Z"
+          fill="#fff"
+        />
+      </svg>
+    );
+  },
+);
+
+Libya.displayName = "Libya";
+
+Libya.metadata = {
+  name: "Libya",
+  category: "symbols/flags",
+  tags: ["libya", "icon"],
+  description: "Libya icon from symbols/flags category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default Libya;

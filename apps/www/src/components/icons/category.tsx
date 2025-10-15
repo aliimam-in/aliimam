@@ -2,9 +2,17 @@
 import { Sidebar, SidebarContent } from "@/registry/default/ui/sidebar";
 import { useLogos } from "@/src/components/icons/logo-context";
 import { useIcons } from "@/src/components/icons/icon-context";
+import { usePathname } from "next/navigation";
+import { useEffect } from "react";
 
 export function IconCategoryTabs() {
   const { activeCategory, setActiveCategory, allCategories } = useIcons();
+  const pathname = usePathname();
+
+  useEffect(() => {
+    // Reset category when switching nav pages
+    setActiveCategory("all");
+  }, [pathname]);
 
   const getDisplayName = (category: string): string => {
     if (category === "all") return "All Icons";
@@ -15,7 +23,7 @@ export function IconCategoryTabs() {
   };
 
   const handleCategoryClick = (category: string) => {
-    setActiveCategory(category); 
+    setActiveCategory(category);
     window.scrollTo({
       top: 0,
       behavior: "smooth",
@@ -49,13 +57,18 @@ export function IconCategoryTabs() {
   );
 }
 
-
 export function LogoCategoryTabs() {
   const { activeCategory, setActiveCategory, allCategories } = useLogos();
+  const pathname = usePathname();
+
+  useEffect(() => {
+    // Reset category when switching nav pages
+    setActiveCategory("all");
+  }, [pathname]);
 
   const getDisplayName = (category: string): string => {
     if (category === "all") return "All Logos";
-    
+
     const parts = category.split("/");
     //@ts-ignore
     return parts.length > 1 ? parts[1] : category;
@@ -65,15 +78,20 @@ export function LogoCategoryTabs() {
   const flagCategories = allCategories.filter((category) => {
     if (category === "all") return false; // Exclude "all" from the filtered list
     const lowerCategory = category.toLowerCase();
-    return lowerCategory.includes("icon") || 
-           lowerCategory.includes("wordmark")
+    return (
+      lowerCategory.includes("icon") ||
+      lowerCategory.includes("wordmark") ||
+      (!category.includes("card") &&
+        !category.includes("shape") &&
+        !category.includes("flag"))
+    );
   });
 
   // Add "all" at the beginning for "All Flags" option
   const categoriesToShow = ["all", ...flagCategories];
 
   const handleCategoryClick = (category: string) => {
-    setActiveCategory(category); 
+    setActiveCategory(category);
     window.scrollTo({
       top: 0,
       behavior: "smooth",
@@ -81,7 +99,7 @@ export function LogoCategoryTabs() {
   };
 
   return (
-     <Sidebar
+    <Sidebar
       className="sticky top-36 z-30 hidden h-[calc(100svh-var(--footer-height)+2rem)] bg-transparent lg:flex"
       collapsible="none"
     >
@@ -107,12 +125,19 @@ export function LogoCategoryTabs() {
   );
 }
 
-export function FlagCategoryTabs() {
+export function SymbolsCategoryTabs() {
   const { activeCategory, setActiveCategory, allCategories } = useLogos();
 
+  const pathname = usePathname();
+
+  useEffect(() => {
+    // Reset category when switching nav pages
+    setActiveCategory("all");
+  }, [pathname]);
+
   const getDisplayName = (category: string): string => {
-    if (category === "all") return "All Flags";
-    
+    if (category === "all") return "All Symbols";
+
     const parts = category.split("/");
     //@ts-ignore
     return parts.length > 1 ? parts[1] : category;
@@ -122,16 +147,18 @@ export function FlagCategoryTabs() {
   const flagCategories = allCategories.filter((category) => {
     if (category === "all") return false; // Exclude "all" from the filtered list
     const lowerCategory = category.toLowerCase();
-    return lowerCategory.includes("flag") || 
-           lowerCategory.includes("country") ||
-           lowerCategory.includes("nation");
+    return (
+      lowerCategory.includes("symbols") ||
+      lowerCategory.includes("country") ||
+      lowerCategory.includes("nation")
+    );
   });
 
   // Add "all" at the beginning for "All Flags" option
   const categoriesToShow = ["all", ...flagCategories];
 
   const handleCategoryClick = (category: string) => {
-    setActiveCategory(category); 
+    setActiveCategory(category);
     window.scrollTo({
       top: 0,
       behavior: "smooth",
@@ -139,7 +166,7 @@ export function FlagCategoryTabs() {
   };
 
   return (
-     <Sidebar
+    <Sidebar
       className="sticky top-36 z-30 hidden h-[calc(100svh-var(--footer-height)+2rem)] bg-transparent lg:flex"
       collapsible="none"
     >
@@ -165,13 +192,19 @@ export function FlagCategoryTabs() {
   );
 }
 
-
-export function StickersCategoryTabs() {
+export function VectorsCategoryTabs() {
   const { activeCategory, setActiveCategory, allCategories } = useLogos();
 
+  const pathname = usePathname();
+
+  useEffect(() => {
+    // Reset category when switching nav pages
+    setActiveCategory("all");
+  }, [pathname]);
+
   const getDisplayName = (category: string): string => {
-    if (category === "all") return "All Stickers";
-    
+    if (category === "all") return "All Vectors";
+
     const parts = category.split("/");
     //@ts-ignore
     return parts.length > 1 ? parts[1] : category;
@@ -181,14 +214,13 @@ export function StickersCategoryTabs() {
   const flagCategories = allCategories.filter((category) => {
     if (category === "all") return false; // Exclude "all" from the filtered list
     const lowerCategory = category.toLowerCase();
-    return lowerCategory.includes("stickers") 
+    return lowerCategory.includes("vectors");
   });
 
-  // Add "all" at the beginning for "All Flags" option
   const categoriesToShow = ["all", ...flagCategories];
 
   const handleCategoryClick = (category: string) => {
-    setActiveCategory(category); 
+    setActiveCategory(category);
     window.scrollTo({
       top: 0,
       behavior: "smooth",
@@ -196,7 +228,7 @@ export function StickersCategoryTabs() {
   };
 
   return (
-     <Sidebar
+    <Sidebar
       className="sticky top-36 z-30 hidden h-[calc(100svh-var(--footer-height)+2rem)] bg-transparent lg:flex"
       collapsible="none"
     >
@@ -221,14 +253,19 @@ export function StickersCategoryTabs() {
     </Sidebar>
   );
 }
-
 
 export function ShapesCategoryTabs() {
   const { activeCategory, setActiveCategory, allCategories } = useLogos();
+  const pathname = usePathname();
+
+  useEffect(() => {
+    // Reset category when switching nav pages
+    setActiveCategory("all");
+  }, [pathname]);
 
   const getDisplayName = (category: string): string => {
     if (category === "all") return "All Shapes";
-    
+
     const parts = category.split("/");
     //@ts-ignore
     return parts.length > 1 ? parts[1] : category;
@@ -238,14 +275,14 @@ export function ShapesCategoryTabs() {
   const flagCategories = allCategories.filter((category) => {
     if (category === "all") return false; // Exclude "all" from the filtered list
     const lowerCategory = category.toLowerCase();
-    return lowerCategory.includes("shapes") 
+    return lowerCategory.includes("shapes");
   });
 
   // Add "all" at the beginning for "All Flags" option
   const categoriesToShow = ["all", ...flagCategories];
 
   const handleCategoryClick = (category: string) => {
-    setActiveCategory(category); 
+    setActiveCategory(category);
     window.scrollTo({
       top: 0,
       behavior: "smooth",
@@ -253,7 +290,7 @@ export function ShapesCategoryTabs() {
   };
 
   return (
-     <Sidebar
+    <Sidebar
       className="sticky top-36 z-30 hidden h-[calc(100svh-var(--footer-height)+2rem)] bg-transparent lg:flex"
       collapsible="none"
     >

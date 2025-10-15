@@ -1,0 +1,61 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const Curacao: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function Curacao(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 32 32"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <path
+        d="M27 4H5C2.79086 4 1 5.79086 1 8V24C1 26.2091 2.79086 28 5 28H27C29.2091 28 31 26.2091 31 24V8C31 5.79086 29.2091 4 27 4Z"
+        fill="#012680"
+      />
+      <path d="M31 19H1V22H31V19Z" fill="#fae90b" />
+      <path
+        d="M11.374 14.024 13.037 12.844H10.981L10.312 10.836 9.642 12.844H7.586L9.249 14.024 8.59 16 10.312 14.779 12.033 16 11.374 14.024ZM6.81 9.654 8.088 8.756H6.51L6.008 7.25 5.525 8.756H4L5.24 9.646 4.789 11.051 4.717 11.123 6.022 10.207 7.299 11.123 6.81 9.654Z"
+        fill="#fff"
+      />
+    </svg>
+  );
+});
+
+Curacao.displayName = "Curacao";
+
+Curacao.metadata = {
+  name: "Curacao",
+  category: "symbols/flags",
+  tags: ["curacao", "icon"],
+  description: "Curacao icon from symbols/flags category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default Curacao;

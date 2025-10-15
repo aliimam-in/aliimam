@@ -1,0 +1,70 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const Tether: IconComponent = React.forwardRef<SVGSVGElement, IconProps>(
+  function Tether(
+    {
+      color = "currentColor",
+      fill,
+      size = 24,
+      strokeWidth,
+      strokeLinecap,
+      strokeLinejoin,
+      strokeDasharray,
+      opacity,
+      className,
+      ...props
+    },
+    forwardedRef,
+  ) {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <g
+          clipPath="url(#undefined-clip0_2062_2929)"
+          fillRule="evenodd"
+          clipRule="evenodd"
+        >
+          <path
+            d="M4.3944 1.10314L0.0183571 10.3489C0.001705 10.3833 -0.00357194 10.4222 0.00329797 10.4598C0.0101679 10.4974 0.0288242 10.5318 0.0565388 10.558L11.8752 21.9495C11.9087 21.9819 11.9535 22 12 22C12.0465 22 12.0912 21.9819 12.1248 21.9495L23.9434 10.5587C23.9711 10.5325 23.9898 10.4981 23.9966 10.4605C24.0035 10.4229 23.9982 10.384 23.9816 10.3496L19.6055 1.10385C19.5914 1.0728 19.5687 1.0465 19.5401 1.02808C19.5115 1.00967 19.4783 0.999924 19.4443 1.00001H4.55702C4.52292 0.999587 4.48941 1.0091 4.46056 1.02739C4.4317 1.04569 4.40872 1.072 4.3944 1.10314Z"
+            fill="#50af95"
+          />
+          <path
+            d="M13.5184 11.2984C13.4335 11.3048 12.9951 11.3311 12.0173 11.3311C11.2395 11.3311 10.6873 11.3076 10.4935 11.2984C7.4878 11.1654 5.24427 10.6391 5.24427 10.0089C5.24427 9.3788 7.4878 8.85321 10.4935 8.71808V10.7742C10.6901 10.7884 11.2529 10.8219 12.0307 10.8219C12.964 10.8219 13.4314 10.7827 13.5155 10.7749V8.71951C16.5149 8.85392 18.7535 9.38022 18.7535 10.0089C18.7535 10.6376 16.5156 11.1639 13.5155 11.2977L13.5184 11.2984ZM13.5184 8.50685V6.66694H17.7042V3.86121H6.3077V6.66694H10.4928V8.50614C7.09113 8.66332 4.53296 9.34111 4.53296 10.1533C4.53296 10.9655 7.09113 11.6426 10.4928 11.8005V17.6964H13.5177V11.7983C16.9116 11.6412 19.4655 10.9641 19.4655 10.1526C19.4655 9.34111 16.9137 8.66403 13.5177 8.50614L13.5184 8.50685Z"
+            fill="#fff"
+          />
+        </g>
+        <defs>
+          <clipPath id="undefined-clip0_2062_2929">
+            <path fill="#fff" transform="translate(0 1)" d="M0 0H24V21H0z" />
+          </clipPath>
+        </defs>
+      </svg>
+    );
+  },
+);
+
+Tether.displayName = "Tether";
+
+Tether.metadata = {
+  name: "Tether",
+  category: "icon/crypto",
+  tags: ["tether", "icon"],
+  description: "Tether icon from icon/crypto category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default Tether;

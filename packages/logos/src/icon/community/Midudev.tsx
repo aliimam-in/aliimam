@@ -1,0 +1,75 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const Midudev: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function Midudev(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <g clipPath="url(#undefined-clip0_2062_2366)">
+        <path
+          d="M7.70527 14.4061C6.12632 15.997 6.12632 18.5743 7.70527 20.1652L2.00001 14.4061C0.421059 12.8258 0.421059 10.2485 2.00001 8.65761L7.70527 2.90912C9.28422 1.31822 11.8316 1.31822 13.4105 2.90912C14.9895 4.50003 14.9895 7.0667 13.4105 8.65761L7.70527 14.4061Z"
+          fill="#199afc"
+        />
+        <path
+          d="M7.70527 14.4061L10.5579 11.5319L13.4105 14.4061C14.9895 15.997 14.9895 18.5743 13.4105 20.1652C11.8316 21.7455 9.28421 21.7455 7.70527 20.1652C6.12632 18.5743 6.12632 15.997 7.70527 14.4061Z"
+          fill="#1d5682"
+        />
+        <path
+          d="M19.5263 9.94099C20.4 9.07129 20.4 7.63947 19.5263 6.76978L22.6842 9.94099C23.5473 10.8213 23.5473 12.2425 22.6842 13.1228L19.5263 16.3046C18.6526 17.1849 17.2421 17.1849 16.3684 16.3046C15.4947 15.4243 15.4947 14.0031 16.3684 13.1228L19.5263 9.94099Z"
+          fill="#199afc"
+        />
+        <path
+          d="M19.5263 9.94094L17.9473 11.5318L16.3684 9.94094C15.4947 9.07124 15.4947 7.63942 16.3684 6.76972C17.2421 5.88942 18.6526 5.88942 19.5263 6.76972C20.4 7.63942 20.4 9.07124 19.5263 9.94094Z"
+          fill="#1d5682"
+        />
+      </g>
+      <defs>
+        <clipPath id="undefined-clip0_2062_2366">
+          <path fill="#fff" transform="translate(0 1)" d="M0 0H24V21H0z" />
+        </clipPath>
+      </defs>
+    </svg>
+  );
+});
+
+Midudev.displayName = "Midudev";
+
+Midudev.metadata = {
+  name: "Midudev",
+  category: "icon/community",
+  tags: ["midudev", "icon"],
+  description: "Midudev icon from icon/community category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default Midudev;

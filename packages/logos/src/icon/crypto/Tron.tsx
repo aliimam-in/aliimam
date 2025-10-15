@@ -1,0 +1,66 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const Tron: IconComponent = React.forwardRef<SVGSVGElement, IconProps>(
+  function Tron(
+    {
+      color = "currentColor",
+      fill,
+      size = 24,
+      strokeWidth,
+      strokeLinecap,
+      strokeLinejoin,
+      strokeDasharray,
+      opacity,
+      className,
+      ...props
+    },
+    forwardedRef,
+  ) {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <g clipPath="url(#undefined-clip0_2062_2933)">
+          <path
+            d="M12.0359 22.8985C18.6328 22.8985 23.9762 17.7846 23.9762 11.479C23.9762 5.17342 18.6328 0.0595703 12.0359 0.0595703C5.43898 0.0595703 0.0955811 5.17342 0.0955811 11.479C0.0955811 17.7846 5.44356 22.8985 12.0359 22.8985Z"
+            fill="#ff060a"
+          />
+          <path
+            d="M18.7516 9.42891C18.0929 8.84448 17.1779 7.95411 16.4368 7.32402L16.391 7.29662C16.3178 7.24183 16.2355 7.19617 16.1485 7.16421C14.3552 6.8446 6.01077 5.35153 5.85065 5.3698C5.80491 5.37436 5.75915 5.39263 5.72255 5.41545L5.68138 5.44741C5.63107 5.49764 5.58989 5.557 5.56702 5.62549L5.55786 5.65289V5.80355V5.82639C6.4957 8.32853 10.2059 16.5199 10.9379 18.4466C10.9836 18.579 11.066 18.8256 11.2215 18.8393H11.2581C11.3404 18.8393 11.6973 18.3873 11.6973 18.3873C11.6973 18.3873 18.07 10.9996 18.7151 10.2143C18.7974 10.1184 18.8706 10.0134 18.9347 9.90377C18.953 9.81702 18.9438 9.73026 18.9118 9.64808C18.8798 9.56589 18.8203 9.48827 18.7516 9.42891ZM13.326 10.2919L16.0433 8.13675L17.64 9.54307L13.326 10.2919ZM12.2691 10.1503L7.58909 6.47931L15.165 7.81714L12.2691 10.1503ZM12.69 11.1092L17.4799 10.3695L12.0038 16.6842L12.69 11.1092ZM6.95319 6.84916L11.8803 10.8444L11.1666 16.6887L6.95319 6.84916Z"
+            fill="#fff"
+          />
+        </g>
+        <defs>
+          <clipPath id="undefined-clip0_2062_2933">
+            <path fill="#fff" d="M0 0H24V23H0z" />
+          </clipPath>
+        </defs>
+      </svg>
+    );
+  },
+);
+
+Tron.displayName = "Tron";
+
+Tron.metadata = {
+  name: "Tron",
+  category: "icon/crypto",
+  tags: ["tron", "icon"],
+  description: "Tron icon from icon/crypto category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default Tron;

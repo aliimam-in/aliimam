@@ -30,1597 +30,1744 @@
     },
     "VerifiedBadge": {
       "name": "VerifiedBadge",
-      "path": "src/stickers/stickers/VerifiedBadge.tsx",
-      "category": "stickers",
+      "path": "src/symbols/stickers/VerifiedBadge.tsx",
+      "category": "symbols",
       "subcategory": "stickers",
+      "size": "16"
+    },
+    "Alipay": {
+      "name": "Alipay",
+      "path": "src/symbols/cards/Alipay.tsx",
+      "category": "symbols",
+      "subcategory": "cards",
+      "size": "16"
+    },
+    "Amazon": {
+      "name": "Amazon",
+      "path": "src/symbols/cards/Amazon.tsx",
+      "category": "symbols",
+      "subcategory": "cards",
+      "size": "16"
+    },
+    "AmericanExpress": {
+      "name": "AmericanExpress",
+      "path": "src/symbols/cards/AmericanExpress.tsx",
+      "category": "symbols",
+      "subcategory": "cards",
+      "size": "16"
+    },
+    "ApplePay": {
+      "name": "ApplePay",
+      "path": "src/symbols/cards/ApplePay.tsx",
+      "category": "symbols",
+      "subcategory": "cards",
+      "size": "16"
+    },
+    "BankAccount": {
+      "name": "BankAccount",
+      "path": "src/symbols/cards/BankAccount.tsx",
+      "category": "symbols",
+      "subcategory": "cards",
+      "size": "16"
+    },
+    "Bitcoin": {
+      "name": "Bitcoin",
+      "path": "src/symbols/cards/Bitcoin.tsx",
+      "category": "symbols",
+      "subcategory": "cards",
+      "size": "16"
+    },
+    "Front": {
+      "name": "Front",
+      "path": "src/symbols/cards/Front.tsx",
+      "category": "symbols",
+      "subcategory": "cards",
+      "size": "16"
+    },
+    "Cvc": {
+      "name": "Cvc",
+      "path": "src/symbols/cards/Cvc.tsx",
+      "category": "symbols",
+      "subcategory": "cards",
+      "size": "16"
+    },
+    "DinersClub": {
+      "name": "DinersClub",
+      "path": "src/symbols/cards/DinersClub.tsx",
+      "category": "symbols",
+      "subcategory": "cards",
+      "size": "16"
+    },
+    "Discover": {
+      "name": "Discover",
+      "path": "src/symbols/cards/Discover.tsx",
+      "category": "symbols",
+      "subcategory": "cards",
+      "size": "16"
+    },
+    "Eftpos": {
+      "name": "Eftpos",
+      "path": "src/symbols/cards/Eftpos.tsx",
+      "category": "symbols",
+      "subcategory": "cards",
+      "size": "16"
+    },
+    "GooglePay": {
+      "name": "GooglePay",
+      "path": "src/symbols/cards/GooglePay.tsx",
+      "category": "symbols",
+      "subcategory": "cards",
+      "size": "16"
+    },
+    "Jcb": {
+      "name": "Jcb",
+      "path": "src/symbols/cards/Jcb.tsx",
+      "category": "symbols",
+      "subcategory": "cards",
+      "size": "16"
+    },
+    "Maestro": {
+      "name": "Maestro",
+      "path": "src/symbols/cards/Maestro.tsx",
+      "category": "symbols",
+      "subcategory": "cards",
+      "size": "16"
+    },
+    "Mastercard": {
+      "name": "Mastercard",
+      "path": "src/symbols/cards/Mastercard.tsx",
+      "category": "symbols",
+      "subcategory": "cards",
+      "size": "16"
+    },
+    "Paypal": {
+      "name": "Paypal",
+      "path": "src/symbols/cards/Paypal.tsx",
+      "category": "symbols",
+      "subcategory": "cards",
+      "size": "16"
+    },
+    "RuPay": {
+      "name": "RuPay",
+      "path": "src/symbols/cards/RuPay.tsx",
+      "category": "symbols",
+      "subcategory": "cards",
+      "size": "16"
+    },
+    "ShopPay": {
+      "name": "ShopPay",
+      "path": "src/symbols/cards/ShopPay.tsx",
+      "category": "symbols",
+      "subcategory": "cards",
+      "size": "16"
+    },
+    "UnionPay": {
+      "name": "UnionPay",
+      "path": "src/symbols/cards/UnionPay.tsx",
+      "category": "symbols",
+      "subcategory": "cards",
+      "size": "16"
+    },
+    "Visa": {
+      "name": "Visa",
+      "path": "src/symbols/cards/Visa.tsx",
+      "category": "symbols",
+      "subcategory": "cards",
+      "size": "16"
+    },
+    "WeChatPay": {
+      "name": "WeChatPay",
+      "path": "src/symbols/cards/WeChatPay.tsx",
+      "category": "symbols",
+      "subcategory": "cards",
       "size": "16"
     },
     "India": {
       "name": "India",
-      "path": "src/flags/flags/India.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/India.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "AalandIslands": {
       "name": "AalandIslands",
-      "path": "src/flags/flags/AalandIslands.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/AalandIslands.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Afghanistan": {
       "name": "Afghanistan",
-      "path": "src/flags/flags/Afghanistan.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Afghanistan.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Albania": {
       "name": "Albania",
-      "path": "src/flags/flags/Albania.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Albania.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Algeria": {
       "name": "Algeria",
-      "path": "src/flags/flags/Algeria.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Algeria.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Andorra": {
       "name": "Andorra",
-      "path": "src/flags/flags/Andorra.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Andorra.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Angola": {
       "name": "Angola",
-      "path": "src/flags/flags/Angola.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Angola.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Anguilla": {
       "name": "Anguilla",
-      "path": "src/flags/flags/Anguilla.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Anguilla.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Antarctica": {
       "name": "Antarctica",
-      "path": "src/flags/flags/Antarctica.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Antarctica.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "AntiguaBarbuda": {
       "name": "AntiguaBarbuda",
-      "path": "src/flags/flags/AntiguaBarbuda.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/AntiguaBarbuda.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Argentina": {
       "name": "Argentina",
-      "path": "src/flags/flags/Argentina.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Argentina.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Armenia": {
       "name": "Armenia",
-      "path": "src/flags/flags/Armenia.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Armenia.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Aruba": {
       "name": "Aruba",
-      "path": "src/flags/flags/Aruba.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Aruba.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Australia": {
       "name": "Australia",
-      "path": "src/flags/flags/Australia.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Australia.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Austria": {
       "name": "Austria",
-      "path": "src/flags/flags/Austria.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Austria.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Azerbaijan": {
       "name": "Azerbaijan",
-      "path": "src/flags/flags/Azerbaijan.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Azerbaijan.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Bahamas": {
       "name": "Bahamas",
-      "path": "src/flags/flags/Bahamas.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Bahamas.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Bahrain": {
       "name": "Bahrain",
-      "path": "src/flags/flags/Bahrain.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Bahrain.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Bangladesh": {
       "name": "Bangladesh",
-      "path": "src/flags/flags/Bangladesh.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Bangladesh.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Barbados": {
       "name": "Barbados",
-      "path": "src/flags/flags/Barbados.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Barbados.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Basque": {
       "name": "Basque",
-      "path": "src/flags/flags/Basque.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Basque.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Belarus": {
       "name": "Belarus",
-      "path": "src/flags/flags/Belarus.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Belarus.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Belgium": {
       "name": "Belgium",
-      "path": "src/flags/flags/Belgium.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Belgium.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Belize": {
       "name": "Belize",
-      "path": "src/flags/flags/Belize.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Belize.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Benin": {
       "name": "Benin",
-      "path": "src/flags/flags/Benin.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Benin.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Bermuda": {
       "name": "Bermuda",
-      "path": "src/flags/flags/Bermuda.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Bermuda.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Bhutan": {
       "name": "Bhutan",
-      "path": "src/flags/flags/Bhutan.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Bhutan.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Bolivia": {
       "name": "Bolivia",
-      "path": "src/flags/flags/Bolivia.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Bolivia.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "BosniaHerzegovina": {
       "name": "BosniaHerzegovina",
-      "path": "src/flags/flags/BosniaHerzegovina.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/BosniaHerzegovina.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Botswana": {
       "name": "Botswana",
-      "path": "src/flags/flags/Botswana.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Botswana.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Brazil": {
       "name": "Brazil",
-      "path": "src/flags/flags/Brazil.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Brazil.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "BritishVirginIslands": {
       "name": "BritishVirginIslands",
-      "path": "src/flags/flags/BritishVirginIslands.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/BritishVirginIslands.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Brunei": {
       "name": "Brunei",
-      "path": "src/flags/flags/Brunei.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Brunei.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Bulgaria": {
       "name": "Bulgaria",
-      "path": "src/flags/flags/Bulgaria.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Bulgaria.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "BurkinaFaso": {
       "name": "BurkinaFaso",
-      "path": "src/flags/flags/BurkinaFaso.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/BurkinaFaso.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Burundi": {
       "name": "Burundi",
-      "path": "src/flags/flags/Burundi.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Burundi.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Cambodia": {
       "name": "Cambodia",
-      "path": "src/flags/flags/Cambodia.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Cambodia.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Cameroon": {
       "name": "Cameroon",
-      "path": "src/flags/flags/Cameroon.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Cameroon.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Canada": {
       "name": "Canada",
-      "path": "src/flags/flags/Canada.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Canada.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "CanaryIslands": {
       "name": "CanaryIslands",
-      "path": "src/flags/flags/CanaryIslands.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/CanaryIslands.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "CapeVerde": {
       "name": "CapeVerde",
-      "path": "src/flags/flags/CapeVerde.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/CapeVerde.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "CaymanIslands": {
       "name": "CaymanIslands",
-      "path": "src/flags/flags/CaymanIslands.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/CaymanIslands.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "CentralAfricanRepu": {
       "name": "CentralAfricanRepu",
-      "path": "src/flags/flags/CentralAfricanRepu.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/CentralAfricanRepu.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Chad": {
       "name": "Chad",
-      "path": "src/flags/flags/Chad.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Chad.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Chile": {
       "name": "Chile",
-      "path": "src/flags/flags/Chile.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Chile.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "China": {
       "name": "China",
-      "path": "src/flags/flags/China.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/China.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Colombia": {
       "name": "Colombia",
-      "path": "src/flags/flags/Colombia.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Colombia.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Comoros": {
       "name": "Comoros",
-      "path": "src/flags/flags/Comoros.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Comoros.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "CookIslands": {
       "name": "CookIslands",
-      "path": "src/flags/flags/CookIslands.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/CookIslands.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "CostaRica": {
       "name": "CostaRica",
-      "path": "src/flags/flags/CostaRica.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/CostaRica.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Croatia": {
       "name": "Croatia",
-      "path": "src/flags/flags/Croatia.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Croatia.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Cuba": {
       "name": "Cuba",
-      "path": "src/flags/flags/Cuba.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Cuba.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Curacao": {
       "name": "Curacao",
-      "path": "src/flags/flags/Curacao.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Curacao.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Cyprus": {
       "name": "Cyprus",
-      "path": "src/flags/flags/Cyprus.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Cyprus.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Czechia": {
       "name": "Czechia",
-      "path": "src/flags/flags/Czechia.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Czechia.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "DemocraticRepublicOfCongo": {
       "name": "DemocraticRepublicOfCongo",
-      "path": "src/flags/flags/DemocraticRepublicOfCongo.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/DemocraticRepublicOfCongo.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Denmark": {
       "name": "Denmark",
-      "path": "src/flags/flags/Denmark.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Denmark.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Djibouti": {
       "name": "Djibouti",
-      "path": "src/flags/flags/Djibouti.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Djibouti.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Dominica": {
       "name": "Dominica",
-      "path": "src/flags/flags/Dominica.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Dominica.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "DominicanRepublic": {
       "name": "DominicanRepublic",
-      "path": "src/flags/flags/DominicanRepublic.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/DominicanRepublic.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "EastTimor": {
       "name": "EastTimor",
-      "path": "src/flags/flags/EastTimor.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/EastTimor.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Ecuador": {
       "name": "Ecuador",
-      "path": "src/flags/flags/Ecuador.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Ecuador.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Egypt": {
       "name": "Egypt",
-      "path": "src/flags/flags/Egypt.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Egypt.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "ElSalvador": {
       "name": "ElSalvador",
-      "path": "src/flags/flags/ElSalvador.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/ElSalvador.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "England": {
       "name": "England",
-      "path": "src/flags/flags/England.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/England.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "EquatorialGuinea": {
       "name": "EquatorialGuinea",
-      "path": "src/flags/flags/EquatorialGuinea.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/EquatorialGuinea.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Eritrea": {
       "name": "Eritrea",
-      "path": "src/flags/flags/Eritrea.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Eritrea.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Estonia": {
       "name": "Estonia",
-      "path": "src/flags/flags/Estonia.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Estonia.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Eswatini": {
       "name": "Eswatini",
-      "path": "src/flags/flags/Eswatini.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Eswatini.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Ethiopia": {
       "name": "Ethiopia",
-      "path": "src/flags/flags/Ethiopia.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Ethiopia.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Europe": {
       "name": "Europe",
-      "path": "src/flags/flags/Europe.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Europe.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "FalklandIslands": {
       "name": "FalklandIslands",
-      "path": "src/flags/flags/FalklandIslands.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/FalklandIslands.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "FaroeIslands": {
       "name": "FaroeIslands",
-      "path": "src/flags/flags/FaroeIslands.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/FaroeIslands.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Fiji": {
       "name": "Fiji",
-      "path": "src/flags/flags/Fiji.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Fiji.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Finland": {
       "name": "Finland",
-      "path": "src/flags/flags/Finland.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Finland.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "France": {
       "name": "France",
-      "path": "src/flags/flags/France.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/France.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "FrenchGuiana": {
       "name": "FrenchGuiana",
-      "path": "src/flags/flags/FrenchGuiana.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/FrenchGuiana.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "FrenchPolynesia": {
       "name": "FrenchPolynesia",
-      "path": "src/flags/flags/FrenchPolynesia.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/FrenchPolynesia.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Gabon": {
       "name": "Gabon",
-      "path": "src/flags/flags/Gabon.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Gabon.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Gambia": {
       "name": "Gambia",
-      "path": "src/flags/flags/Gambia.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Gambia.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Georgia": {
       "name": "Georgia",
-      "path": "src/flags/flags/Georgia.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Georgia.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Germany": {
       "name": "Germany",
-      "path": "src/flags/flags/Germany.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Germany.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Ghana": {
       "name": "Ghana",
-      "path": "src/flags/flags/Ghana.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Ghana.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Gibraltar": {
       "name": "Gibraltar",
-      "path": "src/flags/flags/Gibraltar.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Gibraltar.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Greece": {
       "name": "Greece",
-      "path": "src/flags/flags/Greece.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Greece.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Greenland": {
       "name": "Greenland",
-      "path": "src/flags/flags/Greenland.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Greenland.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Grenada": {
       "name": "Grenada",
-      "path": "src/flags/flags/Grenada.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Grenada.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Guadeloupe": {
       "name": "Guadeloupe",
-      "path": "src/flags/flags/Guadeloupe.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Guadeloupe.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Guatemala": {
       "name": "Guatemala",
-      "path": "src/flags/flags/Guatemala.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Guatemala.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Guernsey": {
       "name": "Guernsey",
-      "path": "src/flags/flags/Guernsey.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Guernsey.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Guinea": {
       "name": "Guinea",
-      "path": "src/flags/flags/Guinea.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Guinea.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "GuineaBissau": {
       "name": "GuineaBissau",
-      "path": "src/flags/flags/GuineaBissau.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/GuineaBissau.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Guyana": {
       "name": "Guyana",
-      "path": "src/flags/flags/Guyana.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Guyana.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Haiti": {
       "name": "Haiti",
-      "path": "src/flags/flags/Haiti.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Haiti.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Hawaii": {
       "name": "Hawaii",
-      "path": "src/flags/flags/Hawaii.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Hawaii.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Honduras": {
       "name": "Honduras",
-      "path": "src/flags/flags/Honduras.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Honduras.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "HongKong": {
       "name": "HongKong",
-      "path": "src/flags/flags/HongKong.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/HongKong.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Hungary": {
       "name": "Hungary",
-      "path": "src/flags/flags/Hungary.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Hungary.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Iceland": {
       "name": "Iceland",
-      "path": "src/flags/flags/Iceland.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Iceland.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Indonesia": {
       "name": "Indonesia",
-      "path": "src/flags/flags/Indonesia.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Indonesia.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Iran": {
       "name": "Iran",
-      "path": "src/flags/flags/Iran.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Iran.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Iraq": {
       "name": "Iraq",
-      "path": "src/flags/flags/Iraq.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Iraq.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Ireland": {
       "name": "Ireland",
-      "path": "src/flags/flags/Ireland.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Ireland.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "IsleOfMan": {
       "name": "IsleOfMan",
-      "path": "src/flags/flags/IsleOfMan.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/IsleOfMan.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Israel": {
       "name": "Israel",
-      "path": "src/flags/flags/Israel.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Israel.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Italy": {
       "name": "Italy",
-      "path": "src/flags/flags/Italy.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Italy.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "IvoryCoast": {
       "name": "IvoryCoast",
-      "path": "src/flags/flags/IvoryCoast.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/IvoryCoast.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Jamaica": {
       "name": "Jamaica",
-      "path": "src/flags/flags/Jamaica.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Jamaica.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Japan": {
       "name": "Japan",
-      "path": "src/flags/flags/Japan.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Japan.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Jersey": {
       "name": "Jersey",
-      "path": "src/flags/flags/Jersey.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Jersey.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Jordan": {
       "name": "Jordan",
-      "path": "src/flags/flags/Jordan.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Jordan.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Kazakhstan": {
       "name": "Kazakhstan",
-      "path": "src/flags/flags/Kazakhstan.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Kazakhstan.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Kenya": {
       "name": "Kenya",
-      "path": "src/flags/flags/Kenya.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Kenya.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Kiribati": {
       "name": "Kiribati",
-      "path": "src/flags/flags/Kiribati.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Kiribati.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Kosovo": {
       "name": "Kosovo",
-      "path": "src/flags/flags/Kosovo.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Kosovo.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Kurdistan": {
       "name": "Kurdistan",
-      "path": "src/flags/flags/Kurdistan.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Kurdistan.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Kuwait": {
       "name": "Kuwait",
-      "path": "src/flags/flags/Kuwait.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Kuwait.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Kyrgyzstan": {
       "name": "Kyrgyzstan",
-      "path": "src/flags/flags/Kyrgyzstan.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Kyrgyzstan.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Laos": {
       "name": "Laos",
-      "path": "src/flags/flags/Laos.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Laos.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Latvia": {
       "name": "Latvia",
-      "path": "src/flags/flags/Latvia.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Latvia.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Lebanon": {
       "name": "Lebanon",
-      "path": "src/flags/flags/Lebanon.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Lebanon.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Lesotho": {
       "name": "Lesotho",
-      "path": "src/flags/flags/Lesotho.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Lesotho.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Liberia": {
       "name": "Liberia",
-      "path": "src/flags/flags/Liberia.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Liberia.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Libya": {
       "name": "Libya",
-      "path": "src/flags/flags/Libya.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Libya.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Liechtenstein": {
       "name": "Liechtenstein",
-      "path": "src/flags/flags/Liechtenstein.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Liechtenstein.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Lithuania": {
       "name": "Lithuania",
-      "path": "src/flags/flags/Lithuania.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Lithuania.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Luxembourg": {
       "name": "Luxembourg",
-      "path": "src/flags/flags/Luxembourg.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Luxembourg.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Macau": {
       "name": "Macau",
-      "path": "src/flags/flags/Macau.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Macau.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Madagascar": {
       "name": "Madagascar",
-      "path": "src/flags/flags/Madagascar.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Madagascar.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Malawi": {
       "name": "Malawi",
-      "path": "src/flags/flags/Malawi.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Malawi.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Malaysia": {
       "name": "Malaysia",
-      "path": "src/flags/flags/Malaysia.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Malaysia.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Maldives": {
       "name": "Maldives",
-      "path": "src/flags/flags/Maldives.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Maldives.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Mali": {
       "name": "Mali",
-      "path": "src/flags/flags/Mali.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Mali.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Malta": {
       "name": "Malta",
-      "path": "src/flags/flags/Malta.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Malta.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "MarshallIslands": {
       "name": "MarshallIslands",
-      "path": "src/flags/flags/MarshallIslands.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/MarshallIslands.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Martinique": {
       "name": "Martinique",
-      "path": "src/flags/flags/Martinique.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Martinique.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Mauritania": {
       "name": "Mauritania",
-      "path": "src/flags/flags/Mauritania.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Mauritania.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Mauritius": {
       "name": "Mauritius",
-      "path": "src/flags/flags/Mauritius.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Mauritius.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Mexico": {
       "name": "Mexico",
-      "path": "src/flags/flags/Mexico.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Mexico.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Micronesia": {
       "name": "Micronesia",
-      "path": "src/flags/flags/Micronesia.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Micronesia.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Moldova": {
       "name": "Moldova",
-      "path": "src/flags/flags/Moldova.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Moldova.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Monaco": {
       "name": "Monaco",
-      "path": "src/flags/flags/Monaco.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Monaco.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Mongolia": {
       "name": "Mongolia",
-      "path": "src/flags/flags/Mongolia.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Mongolia.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Montenegro": {
       "name": "Montenegro",
-      "path": "src/flags/flags/Montenegro.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Montenegro.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Morocco": {
       "name": "Morocco",
-      "path": "src/flags/flags/Morocco.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Morocco.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Mozanbique": {
       "name": "Mozanbique",
-      "path": "src/flags/flags/Mozanbique.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Mozanbique.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Myanmar": {
       "name": "Myanmar",
-      "path": "src/flags/flags/Myanmar.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Myanmar.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Namibia": {
       "name": "Namibia",
-      "path": "src/flags/flags/Namibia.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Namibia.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Nauru": {
       "name": "Nauru",
-      "path": "src/flags/flags/Nauru.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Nauru.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Nepal": {
       "name": "Nepal",
-      "path": "src/flags/flags/Nepal.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Nepal.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Netherlands": {
       "name": "Netherlands",
-      "path": "src/flags/flags/Netherlands.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Netherlands.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "NetherlandsAntilles": {
       "name": "NetherlandsAntilles",
-      "path": "src/flags/flags/NetherlandsAntilles.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/NetherlandsAntilles.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "NewCaledonia": {
       "name": "NewCaledonia",
-      "path": "src/flags/flags/NewCaledonia.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/NewCaledonia.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "NewZealand": {
       "name": "NewZealand",
-      "path": "src/flags/flags/NewZealand.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/NewZealand.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Nicaragua": {
       "name": "Nicaragua",
-      "path": "src/flags/flags/Nicaragua.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Nicaragua.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Niger": {
       "name": "Niger",
-      "path": "src/flags/flags/Niger.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Niger.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Nigeria": {
       "name": "Nigeria",
-      "path": "src/flags/flags/Nigeria.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Nigeria.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Niue": {
       "name": "Niue",
-      "path": "src/flags/flags/Niue.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Niue.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "NorthenIreland": {
       "name": "NorthenIreland",
-      "path": "src/flags/flags/NorthenIreland.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/NorthenIreland.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "NorthKorea": {
       "name": "NorthKorea",
-      "path": "src/flags/flags/NorthKorea.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/NorthKorea.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "NorthMacedonia": {
       "name": "NorthMacedonia",
-      "path": "src/flags/flags/NorthMacedonia.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/NorthMacedonia.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Norway": {
       "name": "Norway",
-      "path": "src/flags/flags/Norway.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Norway.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Oman": {
       "name": "Oman",
-      "path": "src/flags/flags/Oman.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Oman.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Pakistan": {
       "name": "Pakistan",
-      "path": "src/flags/flags/Pakistan.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Pakistan.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Palau": {
       "name": "Palau",
-      "path": "src/flags/flags/Palau.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Palau.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Palestine": {
       "name": "Palestine",
-      "path": "src/flags/flags/Palestine.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Palestine.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Panama": {
       "name": "Panama",
-      "path": "src/flags/flags/Panama.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Panama.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "PapuaNewGuinea": {
       "name": "PapuaNewGuinea",
-      "path": "src/flags/flags/PapuaNewGuinea.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/PapuaNewGuinea.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Paraguay": {
       "name": "Paraguay",
-      "path": "src/flags/flags/Paraguay.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Paraguay.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Peru": {
       "name": "Peru",
-      "path": "src/flags/flags/Peru.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Peru.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Philippines": {
       "name": "Philippines",
-      "path": "src/flags/flags/Philippines.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Philippines.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Poland": {
       "name": "Poland",
-      "path": "src/flags/flags/Poland.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Poland.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Portugal": {
       "name": "Portugal",
-      "path": "src/flags/flags/Portugal.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Portugal.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "PuertoRico": {
       "name": "PuertoRico",
-      "path": "src/flags/flags/PuertoRico.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/PuertoRico.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Qatar": {
       "name": "Qatar",
-      "path": "src/flags/flags/Qatar.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Qatar.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "RepublicCongo": {
       "name": "RepublicCongo",
-      "path": "src/flags/flags/RepublicCongo.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/RepublicCongo.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Romania": {
       "name": "Romania",
-      "path": "src/flags/flags/Romania.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Romania.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Russia": {
       "name": "Russia",
-      "path": "src/flags/flags/Russia.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Russia.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Rwanda": {
       "name": "Rwanda",
-      "path": "src/flags/flags/Rwanda.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Rwanda.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "SaintKittsNevis": {
       "name": "SaintKittsNevis",
-      "path": "src/flags/flags/SaintKittsNevis.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/SaintKittsNevis.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "SierraLeone": {
       "name": "SierraLeone",
-      "path": "src/flags/flags/SierraLeone.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/SierraLeone.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Singapore": {
       "name": "Singapore",
-      "path": "src/flags/flags/Singapore.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Singapore.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "SintMaarten": {
       "name": "SintMaarten",
-      "path": "src/flags/flags/SintMaarten.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/SintMaarten.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Slovakia": {
       "name": "Slovakia",
-      "path": "src/flags/flags/Slovakia.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Slovakia.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Slovenia": {
       "name": "Slovenia",
-      "path": "src/flags/flags/Slovenia.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Slovenia.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "SolomonIslands": {
       "name": "SolomonIslands",
-      "path": "src/flags/flags/SolomonIslands.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/SolomonIslands.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Somalia": {
       "name": "Somalia",
-      "path": "src/flags/flags/Somalia.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Somalia.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "SouthAfrica": {
       "name": "SouthAfrica",
-      "path": "src/flags/flags/SouthAfrica.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/SouthAfrica.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "SouthGeorgiaSandwichIslands": {
       "name": "SouthGeorgiaSandwichIslands",
-      "path": "src/flags/flags/SouthGeorgiaSandwichIslands.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/SouthGeorgiaSandwichIslands.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "SouthKorea": {
       "name": "SouthKorea",
-      "path": "src/flags/flags/SouthKorea.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/SouthKorea.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "SouthSudan": {
       "name": "SouthSudan",
-      "path": "src/flags/flags/SouthSudan.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/SouthSudan.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Spain": {
       "name": "Spain",
-      "path": "src/flags/flags/Spain.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Spain.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "SriLanka": {
       "name": "SriLanka",
-      "path": "src/flags/flags/SriLanka.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/SriLanka.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Sudan": {
       "name": "Sudan",
-      "path": "src/flags/flags/Sudan.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Sudan.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Suriname": {
       "name": "Suriname",
-      "path": "src/flags/flags/Suriname.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Suriname.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Sweden": {
       "name": "Sweden",
-      "path": "src/flags/flags/Sweden.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Sweden.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Switzerland": {
       "name": "Switzerland",
-      "path": "src/flags/flags/Switzerland.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Switzerland.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Syria": {
       "name": "Syria",
-      "path": "src/flags/flags/Syria.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Syria.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Taiwan": {
       "name": "Taiwan",
-      "path": "src/flags/flags/Taiwan.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Taiwan.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Tajikistan": {
       "name": "Tajikistan",
-      "path": "src/flags/flags/Tajikistan.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Tajikistan.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Tanzania": {
       "name": "Tanzania",
-      "path": "src/flags/flags/Tanzania.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Tanzania.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Thailand": {
       "name": "Thailand",
-      "path": "src/flags/flags/Thailand.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Thailand.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Togo": {
       "name": "Togo",
-      "path": "src/flags/flags/Togo.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Togo.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Tonga": {
       "name": "Tonga",
-      "path": "src/flags/flags/Tonga.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Tonga.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "TrinidadTobago": {
       "name": "TrinidadTobago",
-      "path": "src/flags/flags/TrinidadTobago.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/TrinidadTobago.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Tunisia": {
       "name": "Tunisia",
-      "path": "src/flags/flags/Tunisia.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Tunisia.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Turkey": {
       "name": "Turkey",
-      "path": "src/flags/flags/Turkey.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Turkey.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Turkmenistan": {
       "name": "Turkmenistan",
-      "path": "src/flags/flags/Turkmenistan.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Turkmenistan.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "TurksAndCaicosIslands": {
       "name": "TurksAndCaicosIslands",
-      "path": "src/flags/flags/TurksAndCaicosIslands.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/TurksAndCaicosIslands.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Tuvalu": {
       "name": "Tuvalu",
-      "path": "src/flags/flags/Tuvalu.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Tuvalu.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Uganda": {
       "name": "Uganda",
-      "path": "src/flags/flags/Uganda.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Uganda.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Ukraine": {
       "name": "Ukraine",
-      "path": "src/flags/flags/Ukraine.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Ukraine.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "UnitedArabEmira": {
       "name": "UnitedArabEmira",
-      "path": "src/flags/flags/UnitedArabEmira.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/UnitedArabEmira.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "UnitedKingdom": {
       "name": "UnitedKingdom",
-      "path": "src/flags/flags/UnitedKingdom.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/UnitedKingdom.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "UnitedStates": {
       "name": "UnitedStates",
-      "path": "src/flags/flags/UnitedStates.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/UnitedStates.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "UsaVirginIslands": {
       "name": "UsaVirginIslands",
-      "path": "src/flags/flags/UsaVirginIslands.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/UsaVirginIslands.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Uruguay": {
       "name": "Uruguay",
-      "path": "src/flags/flags/Uruguay.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Uruguay.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Uzbekistan": {
       "name": "Uzbekistan",
-      "path": "src/flags/flags/Uzbekistan.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Uzbekistan.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Vanuatu": {
       "name": "Vanuatu",
-      "path": "src/flags/flags/Vanuatu.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Vanuatu.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "VaticanCity": {
       "name": "VaticanCity",
-      "path": "src/flags/flags/VaticanCity.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/VaticanCity.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Venezuela": {
       "name": "Venezuela",
-      "path": "src/flags/flags/Venezuela.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Venezuela.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Vietnam": {
       "name": "Vietnam",
-      "path": "src/flags/flags/Vietnam.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Vietnam.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Wales": {
       "name": "Wales",
-      "path": "src/flags/flags/Wales.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Wales.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "WesternSahara": {
       "name": "WesternSahara",
-      "path": "src/flags/flags/WesternSahara.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/WesternSahara.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Yemen": {
       "name": "Yemen",
-      "path": "src/flags/flags/Yemen.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Yemen.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Zambia": {
       "name": "Zambia",
-      "path": "src/flags/flags/Zambia.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Zambia.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
     "Zimbabwe": {
       "name": "Zimbabwe",
-      "path": "src/flags/flags/Zimbabwe.tsx",
-      "category": "flags",
+      "path": "src/symbols/flags/Zimbabwe.tsx",
+      "category": "symbols",
       "subcategory": "flags",
       "size": "16"
     },
@@ -1647,9 +1794,9 @@
     },
     "Clerk": {
       "name": "Clerk",
-      "path": "src/icon/software/Clerk.tsx",
+      "path": "src/icon/authentication/Clerk.tsx",
       "category": "icon",
-      "subcategory": "software",
+      "subcategory": "authentication",
       "size": "16"
     },
     "Dropbox": {
@@ -1974,6 +2121,62 @@
       "subcategory": "google",
       "size": "16"
     },
+    "GoogleColaboratory": {
+      "name": "GoogleColaboratory",
+      "path": "src/icon/google/GoogleColaboratory.tsx",
+      "category": "icon",
+      "subcategory": "google",
+      "size": "16"
+    },
+    "Firebase": {
+      "name": "Firebase",
+      "path": "src/icon/google/Firebase.tsx",
+      "category": "icon",
+      "subcategory": "google",
+      "size": "16"
+    },
+    "YoutubeMusic": {
+      "name": "YoutubeMusic",
+      "path": "src/icon/google/YoutubeMusic.tsx",
+      "category": "icon",
+      "subcategory": "google",
+      "size": "16"
+    },
+    "GooglePaLm": {
+      "name": "GooglePaLm",
+      "path": "src/icon/google/GooglePaLm.tsx",
+      "category": "icon",
+      "subcategory": "google",
+      "size": "16"
+    },
+    "GoogleIdx": {
+      "name": "GoogleIdx",
+      "path": "src/icon/google/GoogleIdx.tsx",
+      "category": "icon",
+      "subcategory": "google",
+      "size": "16"
+    },
+    "Gmail": {
+      "name": "Gmail",
+      "path": "src/icon/google/Gmail.tsx",
+      "category": "icon",
+      "subcategory": "google",
+      "size": "16"
+    },
+    "GoogleDrive": {
+      "name": "GoogleDrive",
+      "path": "src/icon/google/GoogleDrive.tsx",
+      "category": "icon",
+      "subcategory": "google",
+      "size": "16"
+    },
+    "GoogleClassroom": {
+      "name": "GoogleClassroom",
+      "path": "src/icon/google/GoogleClassroom.tsx",
+      "category": "icon",
+      "subcategory": "google",
+      "size": "16"
+    },
     "Safari": {
       "name": "Safari",
       "path": "src/icon/browser/Safari.tsx",
@@ -2019,6 +2222,41 @@
     "Chrome": {
       "name": "Chrome",
       "path": "src/icon/browser/Chrome.tsx",
+      "category": "icon",
+      "subcategory": "browser",
+      "size": "16"
+    },
+    "ZenBrowser": {
+      "name": "ZenBrowser",
+      "path": "src/icon/browser/ZenBrowser.tsx",
+      "category": "icon",
+      "subcategory": "browser",
+      "size": "16"
+    },
+    "Vivaldi": {
+      "name": "Vivaldi",
+      "path": "src/icon/browser/Vivaldi.tsx",
+      "category": "icon",
+      "subcategory": "browser",
+      "size": "16"
+    },
+    "DuckDuckGo": {
+      "name": "DuckDuckGo",
+      "path": "src/icon/browser/DuckDuckGo.tsx",
+      "category": "icon",
+      "subcategory": "browser",
+      "size": "16"
+    },
+    "Arc": {
+      "name": "Arc",
+      "path": "src/icon/browser/Arc.tsx",
+      "category": "icon",
+      "subcategory": "browser",
+      "size": "16"
+    },
+    "BraveBrowser": {
+      "name": "BraveBrowser",
+      "path": "src/icon/browser/BraveBrowser.tsx",
       "category": "icon",
       "subcategory": "browser",
       "size": "16"
@@ -2107,6 +2345,454 @@
       "subcategory": "design",
       "size": "16"
     },
+    "LottieFiles": {
+      "name": "LottieFiles",
+      "path": "src/icon/design/LottieFiles.tsx",
+      "category": "icon",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Svg": {
+      "name": "Svg",
+      "path": "src/icon/design/Svg.tsx",
+      "category": "icon",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Pitch": {
+      "name": "Pitch",
+      "path": "src/icon/design/Pitch.tsx",
+      "category": "icon",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Gimp": {
+      "name": "Gimp",
+      "path": "src/icon/design/Gimp.tsx",
+      "category": "icon",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Penpot": {
+      "name": "Penpot",
+      "path": "src/icon/design/Penpot.tsx",
+      "category": "icon",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Axure": {
+      "name": "Axure",
+      "path": "src/icon/design/Axure.tsx",
+      "category": "icon",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Adobe": {
+      "name": "Adobe",
+      "path": "src/icon/design/Adobe.tsx",
+      "category": "icon",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Qdrant": {
+      "name": "Qdrant",
+      "path": "src/icon/database/Qdrant.tsx",
+      "category": "icon",
+      "subcategory": "database",
+      "size": "16"
+    },
+    "Frame24": {
+      "name": "Frame24",
+      "path": "src/icon/database/Frame24.tsx",
+      "category": "icon",
+      "subcategory": "database",
+      "size": "16"
+    },
+    "Drizzle": {
+      "name": "Drizzle",
+      "path": "src/icon/database/Drizzle.tsx",
+      "category": "icon",
+      "subcategory": "database",
+      "size": "16"
+    },
+    "Turso": {
+      "name": "Turso",
+      "path": "src/icon/database/Turso.tsx",
+      "category": "icon",
+      "subcategory": "database",
+      "size": "16"
+    },
+    "Manifest": {
+      "name": "Manifest",
+      "path": "src/icon/database/Manifest.tsx",
+      "category": "icon",
+      "subcategory": "database",
+      "size": "16"
+    },
+    "MicrosoftSqlServer": {
+      "name": "MicrosoftSqlServer",
+      "path": "src/icon/database/MicrosoftSqlServer.tsx",
+      "category": "icon",
+      "subcategory": "database",
+      "size": "16"
+    },
+    "Neon": {
+      "name": "Neon",
+      "path": "src/icon/database/Neon.tsx",
+      "category": "icon",
+      "subcategory": "database",
+      "size": "16"
+    },
+    "Upstash": {
+      "name": "Upstash",
+      "path": "src/icon/database/Upstash.tsx",
+      "category": "icon",
+      "subcategory": "database",
+      "size": "16"
+    },
+    "Pocketbase": {
+      "name": "Pocketbase",
+      "path": "src/icon/database/Pocketbase.tsx",
+      "category": "icon",
+      "subcategory": "database",
+      "size": "16"
+    },
+    "TypeOrm": {
+      "name": "TypeOrm",
+      "path": "src/icon/database/TypeOrm.tsx",
+      "category": "icon",
+      "subcategory": "database",
+      "size": "16"
+    },
+    "SqLite": {
+      "name": "SqLite",
+      "path": "src/icon/database/SqLite.tsx",
+      "category": "icon",
+      "subcategory": "database",
+      "size": "16"
+    },
+    "MySql": {
+      "name": "MySql",
+      "path": "src/icon/database/MySql.tsx",
+      "category": "icon",
+      "subcategory": "database",
+      "size": "16"
+    },
+    "MariaDb": {
+      "name": "MariaDb",
+      "path": "src/icon/database/MariaDb.tsx",
+      "category": "icon",
+      "subcategory": "database",
+      "size": "16"
+    },
+    "PlanetScale": {
+      "name": "PlanetScale",
+      "path": "src/icon/database/PlanetScale.tsx",
+      "category": "icon",
+      "subcategory": "database",
+      "size": "16"
+    },
+    "MongoDb": {
+      "name": "MongoDb",
+      "path": "src/icon/database/MongoDb.tsx",
+      "category": "icon",
+      "subcategory": "database",
+      "size": "16"
+    },
+    "DingoCoin": {
+      "name": "DingoCoin",
+      "path": "src/icon/crypto/DingoCoin.tsx",
+      "category": "icon",
+      "subcategory": "crypto",
+      "size": "16"
+    },
+    "LeapWallet": {
+      "name": "LeapWallet",
+      "path": "src/icon/crypto/LeapWallet.tsx",
+      "category": "icon",
+      "subcategory": "crypto",
+      "size": "16"
+    },
+    "Litecoin": {
+      "name": "Litecoin",
+      "path": "src/icon/crypto/Litecoin.tsx",
+      "category": "icon",
+      "subcategory": "crypto",
+      "size": "16"
+    },
+    "MetaMask": {
+      "name": "MetaMask",
+      "path": "src/icon/crypto/MetaMask.tsx",
+      "category": "icon",
+      "subcategory": "crypto",
+      "size": "16"
+    },
+    "Monero": {
+      "name": "Monero",
+      "path": "src/icon/crypto/Monero.tsx",
+      "category": "icon",
+      "subcategory": "crypto",
+      "size": "16"
+    },
+    "Tron": {
+      "name": "Tron",
+      "path": "src/icon/crypto/Tron.tsx",
+      "category": "icon",
+      "subcategory": "crypto",
+      "size": "16"
+    },
+    "Tether": {
+      "name": "Tether",
+      "path": "src/icon/crypto/Tether.tsx",
+      "category": "icon",
+      "subcategory": "crypto",
+      "size": "16"
+    },
+    "Algorand": {
+      "name": "Algorand",
+      "path": "src/icon/crypto/Algorand.tsx",
+      "category": "icon",
+      "subcategory": "crypto",
+      "size": "16"
+    },
+    "Polygon": {
+      "name": "Polygon",
+      "path": "src/icon/crypto/Polygon.tsx",
+      "category": "icon",
+      "subcategory": "crypto",
+      "size": "16"
+    },
+    "Link": {
+      "name": "Link",
+      "path": "src/icon/crypto/Link.tsx",
+      "category": "icon",
+      "subcategory": "crypto",
+      "size": "16"
+    },
+    "Solana": {
+      "name": "Solana",
+      "path": "src/icon/crypto/Solana.tsx",
+      "category": "icon",
+      "subcategory": "crypto",
+      "size": "16"
+    },
+    "TrustWallet": {
+      "name": "TrustWallet",
+      "path": "src/icon/crypto/TrustWallet.tsx",
+      "category": "icon",
+      "subcategory": "crypto",
+      "size": "16"
+    },
+    "Binance": {
+      "name": "Binance",
+      "path": "src/icon/crypto/Binance.tsx",
+      "category": "icon",
+      "subcategory": "crypto",
+      "size": "16"
+    },
+    "Coinbase": {
+      "name": "Coinbase",
+      "path": "src/icon/crypto/Coinbase.tsx",
+      "category": "icon",
+      "subcategory": "crypto",
+      "size": "16"
+    },
+    "OpenSea": {
+      "name": "OpenSea",
+      "path": "src/icon/crypto/OpenSea.tsx",
+      "category": "icon",
+      "subcategory": "crypto",
+      "size": "16"
+    },
+    "Ton": {
+      "name": "Ton",
+      "path": "src/icon/crypto/Ton.tsx",
+      "category": "icon",
+      "subcategory": "crypto",
+      "size": "16"
+    },
+    "Rsbuild": {
+      "name": "Rsbuild",
+      "path": "src/icon/compiler/Rsbuild.tsx",
+      "category": "icon",
+      "subcategory": "compiler",
+      "size": "16"
+    },
+    "Rspack": {
+      "name": "Rspack",
+      "path": "src/icon/compiler/Rspack.tsx",
+      "category": "icon",
+      "subcategory": "compiler",
+      "size": "16"
+    },
+    "PostCss": {
+      "name": "PostCss",
+      "path": "src/icon/compiler/PostCss.tsx",
+      "category": "icon",
+      "subcategory": "compiler",
+      "size": "16"
+    },
+    "Biomejs": {
+      "name": "Biomejs",
+      "path": "src/icon/compiler/Biomejs.tsx",
+      "category": "icon",
+      "subcategory": "compiler",
+      "size": "16"
+    },
+    "Babel": {
+      "name": "Babel",
+      "path": "src/icon/compiler/Babel.tsx",
+      "category": "icon",
+      "subcategory": "compiler",
+      "size": "16"
+    },
+    "Parcel": {
+      "name": "Parcel",
+      "path": "src/icon/compiler/Parcel.tsx",
+      "category": "icon",
+      "subcategory": "compiler",
+      "size": "16"
+    },
+    "Esbuild": {
+      "name": "Esbuild",
+      "path": "src/icon/compiler/Esbuild.tsx",
+      "category": "icon",
+      "subcategory": "compiler",
+      "size": "16"
+    },
+    "OpenHunts": {
+      "name": "OpenHunts",
+      "path": "src/icon/community/OpenHunts.tsx",
+      "category": "icon",
+      "subcategory": "community",
+      "size": "16"
+    },
+    "CurseForge": {
+      "name": "CurseForge",
+      "path": "src/icon/community/CurseForge.tsx",
+      "category": "icon",
+      "subcategory": "community",
+      "size": "16"
+    },
+    "UxCorpRangel": {
+      "name": "UxCorpRangel",
+      "path": "src/icon/community/UxCorpRangel.tsx",
+      "category": "icon",
+      "subcategory": "community",
+      "size": "16"
+    },
+    "UxAnaRangel": {
+      "name": "UxAnaRangel",
+      "path": "src/icon/community/UxAnaRangel.tsx",
+      "category": "icon",
+      "subcategory": "community",
+      "size": "16"
+    },
+    "DailyDev": {
+      "name": "DailyDev",
+      "path": "src/icon/community/DailyDev.tsx",
+      "category": "icon",
+      "subcategory": "community",
+      "size": "16"
+    },
+    "Afordin": {
+      "name": "Afordin",
+      "path": "src/icon/community/Afordin.tsx",
+      "category": "icon",
+      "subcategory": "community",
+      "size": "16"
+    },
+    "ManzDev": {
+      "name": "ManzDev",
+      "path": "src/icon/community/ManzDev.tsx",
+      "category": "icon",
+      "subcategory": "community",
+      "size": "16"
+    },
+    "Midudev": {
+      "name": "Midudev",
+      "path": "src/icon/community/Midudev.tsx",
+      "category": "icon",
+      "subcategory": "community",
+      "size": "16"
+    },
+    "Devto": {
+      "name": "Devto",
+      "path": "src/icon/community/Devto.tsx",
+      "category": "icon",
+      "subcategory": "community",
+      "size": "16"
+    },
+    "Sanity": {
+      "name": "Sanity",
+      "path": "src/icon/cms/Sanity.tsx",
+      "category": "icon",
+      "subcategory": "cms",
+      "size": "16"
+    },
+    "Tina": {
+      "name": "Tina",
+      "path": "src/icon/cms/Tina.tsx",
+      "category": "icon",
+      "subcategory": "cms",
+      "size": "16"
+    },
+    "Directus": {
+      "name": "Directus",
+      "path": "src/icon/cms/Directus.tsx",
+      "category": "icon",
+      "subcategory": "cms",
+      "size": "16"
+    },
+    "Webflow": {
+      "name": "Webflow",
+      "path": "src/icon/cms/Webflow.tsx",
+      "category": "icon",
+      "subcategory": "cms",
+      "size": "16"
+    },
+    "Shopify": {
+      "name": "Shopify",
+      "path": "src/icon/cms/Shopify.tsx",
+      "category": "icon",
+      "subcategory": "cms",
+      "size": "16"
+    },
+    "WordPress": {
+      "name": "WordPress",
+      "path": "src/icon/cms/WordPress.tsx",
+      "category": "icon",
+      "subcategory": "cms",
+      "size": "16"
+    },
+    "Storyblok": {
+      "name": "Storyblok",
+      "path": "src/icon/cms/Storyblok.tsx",
+      "category": "icon",
+      "subcategory": "cms",
+      "size": "16"
+    },
+    "Builder": {
+      "name": "Builder",
+      "path": "src/icon/cms/Builder.tsx",
+      "category": "icon",
+      "subcategory": "cms",
+      "size": "16"
+    },
+    "PayloadCms": {
+      "name": "PayloadCms",
+      "path": "src/icon/cms/PayloadCms.tsx",
+      "category": "icon",
+      "subcategory": "cms",
+      "size": "16"
+    },
+    "Strapi": {
+      "name": "Strapi",
+      "path": "src/icon/cms/Strapi.tsx",
+      "category": "icon",
+      "subcategory": "cms",
+      "size": "16"
+    },
     "Lovable": {
       "name": "Lovable",
       "path": "src/icon/ai/Lovable.tsx",
@@ -2148,16 +2834,97 @@
       "category": "icon",
       "subcategory": "ai",
       "size": "16"
+    },
+    "BetterAuth": {
+      "name": "BetterAuth",
+      "path": "src/icon/authentication/BetterAuth.tsx",
+      "category": "icon",
+      "subcategory": "authentication",
+      "size": "16"
+    },
+    "Keycloak": {
+      "name": "Keycloak",
+      "path": "src/icon/authentication/Keycloak.tsx",
+      "category": "icon",
+      "subcategory": "authentication",
+      "size": "16"
+    },
+    "Bitwarden": {
+      "name": "Bitwarden",
+      "path": "src/icon/authentication/Bitwarden.tsx",
+      "category": "icon",
+      "subcategory": "authentication",
+      "size": "16"
+    },
+    "Auth0": {
+      "name": "Auth0",
+      "path": "src/icon/authentication/Auth0.tsx",
+      "category": "icon",
+      "subcategory": "authentication",
+      "size": "16"
+    },
+    "Authy": {
+      "name": "Authy",
+      "path": "src/icon/authentication/Authy.tsx",
+      "category": "icon",
+      "subcategory": "authentication",
+      "size": "16"
+    },
+    "Twilio": {
+      "name": "Twilio",
+      "path": "src/icon/authentication/Twilio.tsx",
+      "category": "icon",
+      "subcategory": "authentication",
+      "size": "16"
+    },
+    "WorkOs": {
+      "name": "WorkOs",
+      "path": "src/icon/authentication/WorkOs.tsx",
+      "category": "icon",
+      "subcategory": "authentication",
+      "size": "16"
+    },
+    "Jwt": {
+      "name": "Jwt",
+      "path": "src/icon/authentication/Jwt.tsx",
+      "category": "icon",
+      "subcategory": "authentication",
+      "size": "16"
     }
   },
   "categories": {
     "shapes": {
       "shapes": ["Ellipse1", "Star1", "Star2", "Flower1"]
     },
-    "stickers": {
-      "stickers": ["VerifiedBadge"]
-    },
-    "flags": {
+    "symbols": {
+      "stickers": ["VerifiedBadge"],
+      "cards": [
+        "Alipay",
+        "Amazon",
+        "AmericanExpress",
+        "ApplePay",
+        "BankAccount",
+        "Bitcoin",
+        "Front",
+        "Front",
+        "Cvc",
+        "DinersClub",
+        "Discover",
+        "Eftpos",
+        "GooglePay",
+        "Jcb",
+        "Maestro",
+        "Mastercard",
+        "Mastercard",
+        "Paypal",
+        "Paypal",
+        "RuPay",
+        "ShopPay",
+        "UnionPay",
+        "Visa",
+        "Visa",
+        "WeChatPay"
+      ],
       "flags": [
         "India",
         "AalandIslands",
@@ -2457,7 +3224,19 @@
         "Nextjs",
         "Apple"
       ],
-      "google": ["Google", "GoogleCloud", "GoogleMaps"],
+      "google": [
+        "Google",
+        "GoogleCloud",
+        "GoogleMaps",
+        "GoogleColaboratory",
+        "Firebase",
+        "YoutubeMusic",
+        "GooglePaLm",
+        "GoogleIdx",
+        "Gmail",
+        "GoogleDrive",
+        "GoogleClassroom"
+      ],
       "browser": [
         "Safari",
         "Edge",
@@ -2465,7 +3244,12 @@
         "Opera",
         "Firefox",
         "Bing",
-        "Chrome"
+        "Chrome",
+        "ZenBrowser",
+        "Vivaldi",
+        "DuckDuckGo",
+        "Arc",
+        "BraveBrowser"
       ],
       "design": [
         "Figma",
@@ -2479,7 +3263,83 @@
         "Canva",
         "Blender",
         "Sketch",
-        "Layers"
+        "Layers",
+        "LottieFiles",
+        "Svg",
+        "Layers",
+        "Pitch",
+        "Gimp",
+        "Sketch",
+        "Penpot",
+        "Axure",
+        "Adobe"
+      ],
+      "database": [
+        "Qdrant",
+        "Frame24",
+        "Drizzle",
+        "Turso",
+        "Manifest",
+        "MicrosoftSqlServer",
+        "Neon",
+        "Upstash",
+        "Pocketbase",
+        "TypeOrm",
+        "SqLite",
+        "MySql",
+        "MariaDb",
+        "PlanetScale",
+        "MongoDb"
+      ],
+      "crypto": [
+        "DingoCoin",
+        "LeapWallet",
+        "Litecoin",
+        "MetaMask",
+        "Monero",
+        "Tron",
+        "Tether",
+        "Algorand",
+        "Polygon",
+        "Link",
+        "Solana",
+        "TrustWallet",
+        "Binance",
+        "Coinbase",
+        "OpenSea",
+        "Ton"
+      ],
+      "compiler": [
+        "Rsbuild",
+        "Rspack",
+        "PostCss",
+        "Biomejs",
+        "Babel",
+        "Parcel",
+        "Esbuild"
+      ],
+      "community": [
+        "OpenHunts",
+        "CurseForge",
+        "UxCorpRangel",
+        "UxAnaRangel",
+        "DailyDev",
+        "Afordin",
+        "ManzDev",
+        "Midudev",
+        "Devto"
+      ],
+      "cms": [
+        "Sanity",
+        "Tina",
+        "Directus",
+        "Webflow",
+        "Shopify",
+        "WordPress",
+        "Storyblok",
+        "Builder",
+        "PayloadCms",
+        "Strapi"
       ],
       "ai": [
         "OpenAI",
@@ -2497,8 +3357,19 @@
         "Runway",
         "Suno",
         "Windsurf"
+      ],
+      "authentication": [
+        "Clerk",
+        "BetterAuth",
+        "Keycloak",
+        "Bitwarden",
+        "Auth0",
+        "Authy",
+        "Twilio",
+        "WorkOs",
+        "Jwt"
       ]
     }
   },
-  "total": 307
+  "total": 413
 }

@@ -1,0 +1,69 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const Azerbaijan: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function Azerbaijan(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 32 32"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <path d="M1 11H31V21H1V11Z" fill="#dd4446" />
+      <path
+        d="M5 4H27C29.208 4 31 5.792 31 8V12H1V8C1 5.792 2.792 4 5 4Z"
+        fill="#52b4de"
+      />
+      <path
+        d="M27 28L5 28C2.792 28 1 26.208 1 24V20L31 20V24C31 26.208 29.208 28 27 28Z"
+        fill="#649e3f"
+      />
+      <path
+        d="M15.593 19.056C13.905 19.056 12.537 17.688 12.537 16C12.537 14.312 13.905 12.944 15.593 12.944C16.415 12.944 17.161 13.269 17.71 13.797C17.041 12.908 15.977 12.332 14.778 12.332C12.753 12.332 11.111 13.974 11.111 15.999C11.111 18.024 12.753 19.666 14.778 19.666C15.977 19.666 17.041 19.091 17.71 18.201C17.161 18.729 16.415 19.054 15.593 19.054V19.056Z"
+        fill="#fff"
+      />
+      <path
+        d="M18.852 13.9629L19.242 15.0589L20.293 14.5599L19.794 15.6109L20.89 16.0009L19.794 16.3909L20.293 17.4419L19.242 16.9429L18.852 18.0389L18.462 16.9429L17.411 17.4419L17.91 16.3909L16.814 16.0009L17.91 15.6109L17.411 14.5599L18.462 15.0589L18.852 13.9629Z"
+        fill="#fff"
+      />
+    </svg>
+  );
+});
+
+Azerbaijan.displayName = "Azerbaijan";
+
+Azerbaijan.metadata = {
+  name: "Azerbaijan",
+  category: "symbols/flags",
+  tags: ["azerbaijan", "icon"],
+  description: "Azerbaijan icon from symbols/flags category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default Azerbaijan;

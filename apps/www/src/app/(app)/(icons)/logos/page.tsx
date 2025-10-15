@@ -51,14 +51,10 @@ export default function LogosPage() {
 
   const isNotFlagOrSticker = (Component: React.ComponentType<any>, name: string): boolean => {
     const metadata = (Component as any).metadata;
-    const category = metadata?.category?.toLowerCase() || "";
-    const lowerName = name.toLowerCase();
-    
-    // Exclude if it's a flag or sticker
-    return !category.includes("flag") && 
-           !category.includes("sticker") && 
-           !lowerName.includes("flag") &&
-           !lowerName.includes("sticker");
+    const category = metadata?.category?.toLowerCase() || ""; 
+     
+    return !category.includes("symbol") &&
+           !category.includes("shape")
   };
 
   const getFilteredIconsByCategory = (

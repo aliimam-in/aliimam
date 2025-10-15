@@ -1,0 +1,59 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const Visa: IconComponent = React.forwardRef<SVGSVGElement, IconProps>(
+  function Visa(
+    {
+      color = "currentColor",
+      fill,
+      size = 24,
+      strokeWidth,
+      strokeLinecap,
+      strokeLinejoin,
+      strokeDasharray,
+      opacity,
+      className,
+      ...props
+    },
+    forwardedRef,
+  ) {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M20.25 5.25H3.75C2.50736 5.25 1.5 6.25736 1.5 7.5V16.5C1.5 17.7426 2.50736 18.75 3.75 18.75H20.25C21.4926 18.75 22.5 17.7426 22.5 16.5V7.5C22.5 6.25736 21.4926 5.25 20.25 5.25Z"
+          fill="#1434cb"
+        />
+        <path
+          d="M10.044 9.468 7.916 14.546H6.527L5.48 10.493C5.416 10.244 5.361 10.153 5.168 10.047 4.852 9.875 4.33 9.715 3.872 9.615L3.902 9.468H6.137C6.422 9.468 6.678 9.658 6.743 9.986L7.297 12.924 8.663 9.468H10.044ZM15.485 12.887C15.491 11.547 13.632 11.473 13.645 10.874 13.649 10.692 13.823 10.499 14.202 10.449 14.39 10.425 14.909 10.406 15.497 10.676L15.728 9.599C15.412 9.485 15.005 9.375 14.499 9.375 13.2 9.375 12.287 10.065 12.28 11.054 12.272 11.785 12.932 12.192 13.43 12.436 13.942 12.685 14.114 12.845 14.111 13.067 14.108 13.407 13.703 13.558 13.326 13.564 12.665 13.574 12.282 13.385 11.977 13.243L11.738 14.356C12.046 14.497 12.612 14.619 13.199 14.625 14.579 14.625 15.482 13.943 15.486 12.887M19.067 9.468H17.947C17.694 9.468 17.482 9.614 17.387 9.84L15.416 14.546H16.796L17.069 13.787H18.755L18.914 14.546H20.129L19.067 9.468ZM17.447 12.747 18.139 10.841 18.536 12.747H17.447ZM11.921 9.468 10.835 14.546H9.521L10.607 9.468H11.921Z"
+          fill="#fff"
+        />
+      </svg>
+    );
+  },
+);
+
+Visa.displayName = "Visa";
+
+Visa.metadata = {
+  name: "Visa",
+  category: "symbols/cards",
+  tags: ["visa", "icon"],
+  description: "Visa icon from symbols/cards category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default Visa;

@@ -1,0 +1,63 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const Bitwarden: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function Bitwarden(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <g clipPath="url(#undefined-clip0_2062_2087)">
+        <path
+          d="M21.7037 0.296108C21.5053 0.0976852 21.2701 0 21.0014 0H2.99847C2.72672 0 2.49465 0.0976852 2.29618 0.296108C2.09771 0.494531 2 0.729586 2 0.998219V12.9982C2 13.8927 2.17405 14.7809 2.52214 15.6632C2.87023 16.5424 3.30381 17.3238 3.81985 18.0076C4.33587 18.6884 4.9496 19.3539 5.66411 20.001C6.37862 20.6481 7.03815 21.1824 7.63968 21.6098C8.24425 22.0372 8.87326 22.4401 9.52975 22.8217C10.1862 23.2033 10.6534 23.4597 10.9282 23.594C11.203 23.7283 11.4259 23.8352 11.5908 23.9053C11.716 23.9664 11.8504 24 11.9969 24C12.1435 24 12.2778 23.9695 12.403 23.9053C12.571 23.8321 12.7908 23.7283 13.0687 23.594C13.3435 23.4597 13.8107 23.2002 14.4671 22.8217C15.1236 22.4401 15.7526 22.0372 16.3573 21.6098C16.9618 21.1824 17.6213 20.6452 18.3358 20.001C19.0503 19.3539 19.6641 18.6914 20.1801 18.0076C20.6962 17.3238 21.1267 16.5454 21.4778 15.6632C21.8259 14.784 21.9999 13.8957 21.9999 12.9982V1.00127C22.003 0.729586 21.9022 0.494531 21.7037 0.296108ZM19.3832 13.1112C19.3832 17.4552 12 21.1976 12 21.1976V2.57033H19.3832C19.3832 2.57033 19.3832 8.76723 19.3832 13.1112Z"
+          fill="#175ddc"
+        />
+      </g>
+      <defs>
+        <clipPath id="undefined-clip0_2062_2087">
+          <path fill="#fff" transform="translate(2)" d="M0 0H20V24H0z" />
+        </clipPath>
+      </defs>
+    </svg>
+  );
+});
+
+Bitwarden.displayName = "Bitwarden";
+
+Bitwarden.metadata = {
+  name: "Bitwarden",
+  category: "icon/authentication",
+  tags: ["bitwarden", "icon"],
+  description: "Bitwarden icon from icon/authentication category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default Bitwarden;

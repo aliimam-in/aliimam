@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@aliimam/icons": "0.1.7",
-    "@aliimam/logos": "0.1.9",
+    "@aliimam/logos": "0.2.0",
     "@hookform/resolvers": "^5.2.2",
     "@next/third-parties": "^15.5.3",
     "@radix-ui/react-accordion": "^1.2.12",

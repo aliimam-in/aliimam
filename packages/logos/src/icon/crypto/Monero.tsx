@@ -1,0 +1,66 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const Monero: IconComponent = React.forwardRef<SVGSVGElement, IconProps>(
+  function Monero(
+    {
+      color = "currentColor",
+      fill,
+      size = 24,
+      strokeWidth,
+      strokeLinecap,
+      strokeLinejoin,
+      strokeDasharray,
+      opacity,
+      className,
+      ...props
+    },
+    forwardedRef,
+  ) {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <g clipPath="url(#undefined-clip0_2062_2930)">
+          <path
+            d="M12 0C10.1072 0.00871018 8.24333 0.465036 6.56062 1.33171C4.8779 2.19837 3.42407 3.4508 2.31786 4.98669C1.21166 6.52258 0.484464 8.29836 0.195673 10.169C-0.0931172 12.0396 0.0646904 13.952 0.656206 15.75H4.21871V5.71875L12 13.5L19.7812 5.71875V15.75H23.3437C23.9352 13.952 24.093 12.0396 23.8042 10.169C23.5154 8.29836 22.7883 6.52258 21.682 4.98669C20.5758 3.4508 19.122 2.19837 17.4393 1.33171C15.7566 0.465036 13.8927 0.00871018 12 0Z"
+            fill="#f60"
+          />
+          <path
+            d="M10.2188 15.2812L6.84375 11.9062V18.2812H1.78125C2.85545 20.0261 4.35855 21.4668 6.14733 22.4662C7.93611 23.4655 9.95099 23.9902 12 23.9902C14.049 23.9902 16.0639 23.4655 17.8527 22.4662C19.6415 21.4668 21.1446 20.0261 22.2188 18.2812H17.1562V11.9062L13.7812 15.2812L12 17.0625L10.2188 15.2812Z"
+            fill="#4c4c4c"
+          />
+        </g>
+        <defs>
+          <clipPath id="undefined-clip0_2062_2930">
+            <path fill="#fff" d="M0 0H24V24H0z" />
+          </clipPath>
+        </defs>
+      </svg>
+    );
+  },
+);
+
+Monero.displayName = "Monero";
+
+Monero.metadata = {
+  name: "Monero",
+  category: "icon/crypto",
+  tags: ["monero", "icon"],
+  description: "Monero icon from icon/crypto category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default Monero;

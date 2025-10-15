@@ -1,0 +1,67 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const Vivaldi: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function Vivaldi(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <g clipPath="url(#undefined-clip0_2062_2186)">
+        <path
+          d="M12 23.9631C17.2474 23.9631 20.1632 23.9631 22.0737 22.0589C23.979 20.1548 23.979 17.2431 23.979 12C23.979 6.75696 23.979 3.84531 22.0737 1.94114C20.1632 0.0422363 17.2474 0.0422363 12 0.0422363C6.75264 0.0422363 3.83685 0.0422365 1.92632 1.94641C0.0210569 3.85059 0.0210571 6.76224 0.0210571 12.0053C0.0210571 17.2484 0.0210569 20.16 1.92632 22.0642C3.83685 23.9631 6.75264 23.9631 12 23.9631Z"
+          fill="#ef3939"
+        />
+        <path
+          d="M18.3052 5.67564C14.8052 2.17322 9.1263 2.17322 5.62103 5.67564C2.12103 9.17806 2.12103 14.8537 5.62103 18.3508C9.12103 21.8532 14.8 21.8532 18.3052 18.3508C21.8105 14.8484 21.8105 9.17278 18.3052 5.67564ZM17.7684 9.7952C16.2895 12.364 14.8105 14.9328 13.3316 17.5069C13.0579 17.9869 12.6579 18.2717 12.1105 18.3139C11.5 18.3561 11.0158 18.0976 10.7052 17.5701C9.7684 15.9614 8.84208 14.342 7.91577 12.7279C7.35261 11.7469 6.78419 10.7658 6.22103 9.77938C5.65261 8.78773 6.29472 7.57982 7.43156 7.5218C8.03156 7.49015 8.49472 7.76971 8.79998 8.29191C9.21577 9.00399 9.6263 9.72663 10.0421 10.444C10.3421 10.9609 10.6316 11.4831 10.9368 11.9895C11.3789 12.7332 12.0316 13.1499 12.9 13.2027C14.1263 13.2765 15.2684 12.3851 15.4158 11.0822C15.4263 10.9873 15.4316 10.8871 15.4368 10.8396C15.4316 10.4176 15.3526 10.0589 15.1842 9.72663C14.7263 8.80883 15.2158 7.78026 16.2105 7.55872C17.021 7.37938 17.8631 7.97542 17.9684 8.79828C18.021 9.15169 17.9473 9.48399 17.7684 9.7952Z"
+          fill="#fff"
+        />
+      </g>
+      <defs>
+        <clipPath id="undefined-clip0_2062_2186">
+          <path fill="#fff" d="M0 0H24V24H0z" />
+        </clipPath>
+      </defs>
+    </svg>
+  );
+});
+
+Vivaldi.displayName = "Vivaldi";
+
+Vivaldi.metadata = {
+  name: "Vivaldi",
+  category: "icon/browser",
+  tags: ["vivaldi", "icon"],
+  description: "Vivaldi icon from icon/browser category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default Vivaldi;

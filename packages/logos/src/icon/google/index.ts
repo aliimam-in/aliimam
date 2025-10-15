@@ -1,2 +1,10 @@
 export { default as GoogleCloud } from "./GoogleCloud";
 export { default as GoogleMaps } from "./GoogleMaps";
+export { default as GoogleColaboratory } from "./GoogleColaboratory";
+export { default as Firebase } from "./Firebase";
+export { default as YoutubeMusic } from "./YoutubeMusic";
+export { default as GooglePaLm } from "./GooglePaLm";
+export { default as GoogleIdx } from "./GoogleIdx";
+export { default as Gmail } from "./Gmail";
+export { default as GoogleDrive } from "./GoogleDrive";
+export { default as GoogleClassroom } from "./GoogleClassroom";

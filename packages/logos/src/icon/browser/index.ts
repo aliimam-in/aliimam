@@ -5,3 +5,8 @@ export { default as Opera } from "./Opera";
 export { default as Firefox } from "./Firefox";
 export { default as Bing } from "./Bing";
 export { default as Chrome } from "./Chrome";
+export { default as ZenBrowser } from "./ZenBrowser";
+export { default as Vivaldi } from "./Vivaldi";
+export { default as DuckDuckGo } from "./DuckDuckGo";
+export { default as Arc } from "./Arc";
+export { default as BraveBrowser } from "./BraveBrowser";

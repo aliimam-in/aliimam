@@ -1,0 +1,24 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "download-02",
+  "type": "registry:block",
+  "description": "A simple download demo section.",
+  "dependencies": [
+    "@aliimam/logos"
+  ],
+  "registryDependencies": [
+    "button",
+    "separator"
+  ],
+  "files": [
+    {
+      "path": "registry/default/blocks/download/download-02/page.tsx",
+      "content": "\"use client\";\n\nimport { Apple, Google, Vercel } from \"@aliimam/logos\";\n\nimport { Button } from \"@/registry/default/ui/button\";\nimport { Separator } from \"@/registry/default/ui/separator\";\n\nconst Download2 = () => {\n  return (\n    <section className=\"py-20\">\n      <div className=\"container\">\n        <h2 className=\"mb-10 w-full text-center text-5xl tracking-tighter\">\n          Design Anywhere, Anytime\n        </h2>\n        <div className=\"bg-secondary grid h-full w-full gap-6 border p-10 md:grid-cols-3\">\n          <div className=\"\">\n            <div className=\"space-y-10\">\n              <Apple size={50} />\n              <h2 className=\"w-full text-5xl tracking-tighter\">Apple</h2>\n              <div className=\"space-y-2\">\n                <Button className=\"mx-auto h-12 w-full max-w-sm\">\n                  Download for Apple Silicon\n                </Button>\n                <Button\n                  variant=\"outline\"\n                  className=\"mx-auto h-12 w-full max-w-sm\"\n                >\n                  Download for Intel\n                </Button>\n              </div>\n\n              <div className=\"\">\n                <p className=\"text-sm\">Minimum Requirements:</p>\n                <p className=\"text-sm\">\n                  macOS versions with Apple security update support. Typically\n                  the latest release and the two previous versions. macOS 10.15\n                  is not supported.\n                </p>\n              </div>\n            </div>\n          </div>\n\n          <div className=\"items-start md:flex\">\n            <Separator\n              className=\"mr-6 hidden md:block\"\n              orientation=\"vertical\"\n            />\n            <Separator className=\"mb-6 block md:hidden\" />\n            <div className=\"space-y-10\">\n              <Google size={50} />\n              <h2 className=\"w-full text-5xl tracking-tighter\">Google</h2>\n              <div className=\"space-y-2\">\n                <Button className=\"mx-auto h-12 w-full max-w-sm\">\n                  Download for x64\n                </Button>\n                <Button\n                  variant=\"outline\"\n                  className=\"mx-auto h-12 w-full max-w-sm\"\n                >\n                  Download for arm64\n                </Button>\n              </div>\n\n              <div className=\"\">\n                <p className=\"text-sm\">Minimum Requirements:</p>\n                <p className=\"text-sm\">Windows 10 (64-bit)</p>\n              </div>\n            </div>\n          </div>\n          <div className=\"items-start md:flex\">\n            <Separator\n              className=\"mr-6 hidden md:block\"\n              orientation=\"vertical\"\n            />\n            <Separator className=\"mb-6 block md:hidden\" />\n            <div className=\"space-y-10\">\n              <Vercel size={50} />\n              <h2 className=\"w-full text-5xl tracking-tighter\">Vercel</h2>\n              <div className=\"space-y-2\">\n                <Button className=\"mx-auto h-12 w-full max-w-sm\">\n                  Download\n                </Button>\n              </div>\n\n              <div className=\"mt-20\">\n                <p className=\"text-sm\">Minimum Requirements:</p>\n                <p className=\"text-sm\">\n                  {\n                    \"glibc >= 2.28, glibcxx >= 3.4.25 (e.g., Ubuntu 20, Debian 10, Fedora 36, RHEL 8)\"\n                  }\n                </p>\n              </div>\n            </div>\n          </div>\n        </div>\n        <p className=\"text-md my-6 w-full text-center\">\n          Need a previous version of our design tool?\n          <span className=\"cursor-pointer font-semibold hover:underline\">\n            {\" \"}\n            View all releases\n          </span>\n        </p>\n        <h2 className=\"mt-10 w-full text-3xl\">\n          Want to explore cutting-edge design features?\n        </h2>\n        <p className=\"text-md mt-3 w-full\">\n          Download Ali Imam Next for early access to innovative design tools.\n        </p>\n      </div>\n    </section>\n  );\n};\n\nexport default Download2\n",
+      "type": "registry:component",
+      "target": "components/download-02.tsx"
+    }
+  ],
+  "categories": [
+    "download"
+  ]
+}

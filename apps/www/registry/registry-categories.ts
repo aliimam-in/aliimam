@@ -15,6 +15,26 @@ export const registryCategories = [
     hidden: false,
   },
   {
+    name: "Book Demo",
+    slug: "book-demo",
+    hidden: false,
+  },
+  {
+    name: "Download",
+    slug: "download",
+    hidden: false,
+  },
+  {
+    name: "Feature",
+    slug: "feature",
+    hidden: false,
+  },
+  {
+    name: "CTA",
+    slug: "cta",
+    hidden: false,
+  },
+  {
     name: "Connect",
     slug: "connect",
     hidden: false,
@@ -23,16 +43,11 @@ export const registryCategories = [
     name: "Pricing",
     slug: "pricing",
     hidden: false,
-  },
-  {
-    name: "Call to Action",
-    slug: "call-to-action",
-    hidden: true,
-  },
+  }, 
   {
     name: "Stats",
     slug: "stats",
-    hidden: true,
+    hidden: false,
   },
   {
     name: "Login",
@@ -59,13 +74,13 @@ export const iconCategories = [
     hidden: false,
   }, 
   {
-    name: "Flags",
-    slug: "flags",
+    name: "Symbols",
+    slug: "symbols",
     hidden: false,
   }, 
   {
-    name: "Stickers",
-    slug: "stickers",
+    name: "Vectors",
+    slug: "vectors",
     hidden: false,
   }, 
   {

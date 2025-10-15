@@ -1,0 +1,99 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const GoogleClassroom: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function GoogleClassroom(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <g clipPath="url(#undefined-clip0_2062_2733)">
+        <path
+          d="M2.18066 3.20923H21.8193V19.7866H2.18066V3.20923Z"
+          fill="#0f9d58"
+        />
+        <path
+          d="M16.3635 12.0544C17.0434 12.0544 17.5906 11.4958 17.5906 10.8112C17.5906 10.1266 17.0392 9.56799 16.3635 9.56799C15.6877 9.56799 15.1363 10.1266 15.1363 10.8112C15.1363 11.4958 15.6877 12.0544 16.3635 12.0544ZM16.3635 12.8818C15.0492 12.8818 13.6355 13.5874 13.6355 14.461V15.3682H19.0914V14.461C19.0914 13.5874 17.6777 12.8818 16.3635 12.8818ZM7.63656 12.0544C8.31647 12.0544 8.86372 11.4958 8.86372 10.8112C8.86372 10.1266 8.31233 9.56799 7.63656 9.56799C6.9608 9.56799 6.40941 10.1266 6.40941 10.8112C6.40941 11.4958 6.9608 12.0544 7.63656 12.0544ZM7.63656 12.8818C6.32235 12.8818 4.90863 13.5874 4.90863 14.461V15.3682H10.3645V14.461C10.3645 13.5874 8.95078 12.8818 7.63656 12.8818Z"
+          fill="#57bb8a"
+        />
+        <path
+          d="M12.0021 10.9457C12.9058 10.9457 13.6396 10.2023 13.6355 9.28665C13.6355 8.37105 12.9017 7.62765 11.9979 7.63185C11.0941 7.63185 10.3645 8.37525 10.3645 9.29085C10.3645 10.2065 11.0983 10.9457 12.0021 10.9457ZM12.0021 12.0545C10.1613 12.0545 8.18378 13.0457 8.18378 14.2637V15.3683H15.8203V14.2637C15.8203 13.0415 13.8428 12.0545 12.0021 12.0545Z"
+          fill="#f7f7f7"
+        />
+        <path
+          d="M14.1827 18.6862H19.0914V19.7908H14.1827V18.6862Z"
+          fill="#f1f1f1"
+        />
+        <path
+          d="M22.3666 1H1.63759C0.733805 1 0 1.7434 0 2.659V20.3452C0 21.2566 0.733805 22 1.63759 22H22.3666C23.2703 22 24.0041 21.2566 24.0041 20.341V2.659C24 1.7434 23.2703 1 22.3666 1ZM21.8193 19.7908H2.18069V3.2092H21.8193V19.7908Z"
+          fill="#f4b400"
+        />
+        <path
+          opacity=".2"
+          d="M22.3666 1H1.63759C0.733805 1 0 1.7434 0 2.659V2.7976C0 1.882 0.733805 1.1386 1.63759 1.1386H22.3666C23.2703 1.1386 24.0041 1.882 24.0041 2.7976V2.659C24 1.7434 23.2703 1 22.3666 1Z"
+          fill="#fff"
+        />
+        <path
+          opacity=".2"
+          d="M22.3666 21.8614H1.63759C0.733805 21.8614 0 21.118 0 20.2024V20.341C0 21.2566 0.733805 22 1.63759 22H22.3666C23.2703 22 24.0041 21.2566 24.0041 20.341V20.2024C24 21.118 23.2703 21.8614 22.3666 21.8614Z"
+          fill="#bf360c"
+        />
+        <path
+          opacity=".2"
+          d="M2.18066 3.07056H21.8193V3.20916H2.18066V3.07056Z"
+          fill="#263238"
+        />
+        <path
+          opacity=".2"
+          d="M2.18066 19.7908H21.8193V19.9294H2.18066V19.7908Z"
+          fill="#fff"
+        />
+      </g>
+      <defs>
+        <clipPath id="undefined-clip0_2062_2733">
+          <path fill="#fff" transform="translate(0 1)" d="M0 0H24V21H0z" />
+        </clipPath>
+      </defs>
+    </svg>
+  );
+});
+
+GoogleClassroom.displayName = "GoogleClassroom";
+
+GoogleClassroom.metadata = {
+  name: "GoogleClassroom",
+  category: "icon/google",
+  tags: ["google", "classroom", "icon"],
+  description: "GoogleClassroom icon from icon/google category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default GoogleClassroom;

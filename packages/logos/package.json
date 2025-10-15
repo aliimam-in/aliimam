@@ -1,6 +1,6 @@
 {
   "name": "@aliimam/logos",
-  "version": "0.1.9",
+  "version": "0.2.0",
   "license": "MIT",
   "description": "Ali Imam React SVG Logo Set",
   "source": "./src/index.tsx",

@@ -331,6 +331,126 @@ export const blocks: Registry["items"] = [
     categories: ["hero"], 
   },
   {
+    name: "book-demo-01",
+    description: "A simple book demo section.",
+    dependencies: ["@aliimam/icons"],
+    registryDependencies: ["button", "input", "label"],
+    type: "registry:block",
+    files: [
+      {
+        path: "blocks/book-demo/book-demo-01/page.tsx",
+        target: "components/book-demo-01.tsx",
+        type: "registry:component",
+      }
+    ],
+    categories: ["book-demo"], 
+  },
+  {
+    name: "book-demo-02",
+    description: "A simple book demo section.",
+    dependencies: ["@aliimam/icons"],
+    registryDependencies: ["button", "input", "label", "select", "separator"],
+    type: "registry:block",
+    files: [
+      {
+        path: "blocks/book-demo/book-demo-02/page.tsx",
+        target: "components/book-demo-02.tsx",
+        type: "registry:component",
+      }
+    ],
+    categories: ["book-demo"], 
+  },
+  {
+    name: "book-demo-03",
+    description: "A simple book demo section.",
+    dependencies: ["@aliimam/icons", "@aliimam/logos"],
+    registryDependencies: ["button", "input", "label", "select", "textarea"],
+    type: "registry:block",
+    files: [
+      {
+        path: "blocks/book-demo/book-demo-03/page.tsx",
+        target: "components/book-demo-03.tsx",
+        type: "registry:component",
+      }
+    ],
+    categories: ["book-demo"], 
+  },
+  {
+    name: "book-demo-04",
+    description: "A simple book demo section.",
+    dependencies: ["@aliimam/icons", "@aliimam/logos"],
+    registryDependencies: ["button", "input", "label", "select", "textarea", "checkbox", "separator"],
+    type: "registry:block",
+    files: [
+      {
+        path: "blocks/book-demo/book-demo-04/page.tsx",
+        target: "components/book-demo-04.tsx",
+        type: "registry:component",
+      }
+    ],
+    categories: ["book-demo"], 
+  },
+  {
+    name: "download-01",
+    description: "A simple download demo section.",
+    dependencies: ["@aliimam/icons", "@aliimam/logos"],
+    registryDependencies: ["button"],
+    type: "registry:block",
+    files: [
+      {
+        path: "blocks/download/download-01/page.tsx",
+        target: "components/download-01.tsx",
+        type: "registry:component",
+      }
+    ],
+    categories: ["download"], 
+  },
+  {
+    name: "download-02",
+    description: "A simple download demo section.",
+    dependencies: ["@aliimam/logos"],
+    registryDependencies: ["button", "separator"],
+    type: "registry:block",
+    files: [
+      {
+        path: "blocks/download/download-02/page.tsx",
+        target: "components/download-02.tsx",
+        type: "registry:component",
+      }
+    ],
+    categories: ["download"], 
+  },
+  {
+    name: "cta-01",
+    description: "A simple cta demo section.",
+    dependencies: ["@aliimam/icons", "@aliimam/logos"],
+    registryDependencies: ["button", "separator"],
+    type: "registry:block",
+    files: [
+      {
+        path: "blocks/cta/cta-01/page.tsx",
+        target: "components/cta-01.tsx",
+        type: "registry:component",
+      }
+    ],
+    categories: ["cta"], 
+  },
+  {
+    name: "feature-01",
+    description: "A simple feature demo section.",
+    dependencies: ["@aliimam/icons"],
+    registryDependencies: ["button", "separator"],
+    type: "registry:block",
+    files: [
+      {
+        path: "blocks/feature/feature-01/page.tsx",
+        target: "components/feature-01.tsx",
+        type: "registry:component",
+      }
+    ],
+    categories: ["feature"], 
+  },
+  {
     name: "dashboard-01",
     type: "registry:block",
     description: "A dashboard with sidebar, charts and data table.",
@@ -430,6 +550,36 @@ export const blocks: Registry["items"] = [
       },
     ],
     categories: ["authentication", "login"],
+  },
+  {
+    name: "login-03",
+    description: "A simple login form.",
+     dependencies: ["@aliimam/icons"],
+    type: "registry:block",
+    registryDependencies: ["button", "input", "label"],
+    files: [
+      {
+        path: "blocks/login/login-03/page.tsx",
+        target: "app/login-03/page.tsx",
+        type: "registry:page",
+      }
+    ],
+    categories: ["authentication", "login"],
+  },
+  {
+    name: "stats-01",
+    description: "A simple stats.",
+     dependencies: ["@aliimam/icons"],
+    type: "registry:block",
+    registryDependencies: ["button"],
+    files: [
+      {
+        path: "blocks/stats/stats-01/page.tsx",
+        target: "app/stats-01/page.tsx",
+        type: "registry:page",
+      }
+    ],
+    categories: ["numbers", "stats"],
   },
   {
     name: "logos-01",

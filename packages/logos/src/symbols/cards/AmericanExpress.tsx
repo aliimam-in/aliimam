@@ -1,0 +1,72 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const AmericanExpress: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function AmericanExpress(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <path
+        d="M20.25 5.25H3.75C2.50736 5.25 1.5 6.25736 1.5 7.5V16.5C1.5 17.7426 2.50736 18.75 3.75 18.75H20.25C21.4926 18.75 22.5 17.7426 22.5 16.5V7.5C22.5 6.25736 21.4926 5.25 20.25 5.25Z"
+        fill="#0f70ce"
+      />
+      <path
+        d="M20.2695 6.75L19.7302 8.22375L19.1992 6.75H16.2855V8.6865L15.4335 6.75H13.0942L10.65 12.3068H12.6277V17.25H18.7005L19.6875 16.1565L20.679 17.25H22.362C22.446 17.0145 22.5 16.7647 22.5 16.5V15.7192L21.315 14.4457L22.5 13.2045V7.5C22.5 7.23525 22.446 6.9855 22.362 6.75H20.2695Z"
+        fill="#fff"
+      />
+      <path
+        d="M13.2592 10.8249H15.2167L15.5932 11.6859H16.9282L15.03 7.37036H13.5007L11.6025 11.6859H12.903L13.2607 10.8249H13.2592ZM14.2395 8.47361L14.8207 9.85661H13.6695L14.2395 8.47361Z"
+        fill="#0f70ce"
+      />
+      <path
+        d="M16.907 7.37H18.764L19.727 10.043 20.703 7.37H22.5V11.686H21.338V8.702L20.233 11.686H19.206L18.093 8.723V11.686H16.907V7.37ZM14.43 15.615V14.958H16.863V13.968H14.43V13.311H16.924V12.307H13.248V16.63H16.924V15.615H14.43Z"
+        fill="#0f70ce"
+      />
+      <path
+        d="M18.4785 12.3066L19.7033 13.6754L20.976 12.3066H22.5L20.4623 14.4404L22.5 16.6296H20.9543L19.6868 15.2316L18.4253 16.6296H16.9028L18.954 14.4561L16.9028 12.3066H18.4785Z"
+        fill="#0f70ce"
+      />
+    </svg>
+  );
+});
+
+AmericanExpress.displayName = "AmericanExpress";
+
+AmericanExpress.metadata = {
+  name: "AmericanExpress",
+  category: "symbols/cards",
+  tags: ["american", "express", "icon"],
+  description: "AmericanExpress icon from symbols/cards category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default AmericanExpress;

@@ -1,0 +1,66 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const Ton: IconComponent = React.forwardRef<SVGSVGElement, IconProps>(
+  function Ton(
+    {
+      color = "currentColor",
+      fill,
+      size = 24,
+      strokeWidth,
+      strokeLinecap,
+      strokeLinejoin,
+      strokeDasharray,
+      opacity,
+      className,
+      ...props
+    },
+    forwardedRef,
+  ) {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <g clipPath="url(#undefined-clip0_2062_2925)">
+          <path
+            d="M12 24C18.6274 24 24 18.6274 24 12C24 5.37257 18.6274 0 12 0C5.37257 0 0 5.37257 0 12C0 18.6274 5.37257 24 12 24Z"
+            fill="#0098ea"
+          />
+          <path
+            d="M16.0972 6.69763H7.9022C6.39543 6.69763 5.4404 8.32299 6.19846 9.63695L11.2561 18.4033C11.5862 18.9757 12.4133 18.9757 12.7433 18.4033L17.802 9.63695C18.559 8.32509 17.604 6.69763 16.0982 6.69763H16.0972ZM11.252 15.7744L10.1505 13.6426L7.49278 8.88922C7.31746 8.58497 7.53401 8.1951 7.90117 8.1951H11.251V15.7754L11.252 15.7744ZM16.5046 8.88819L13.8479 13.6437L12.7464 15.7744V8.19407H16.0962C16.4633 8.19407 16.6799 8.58395 16.5046 8.88819Z"
+            fill="#fff"
+          />
+        </g>
+        <defs>
+          <clipPath id="undefined-clip0_2062_2925">
+            <path fill="#fff" d="M0 0H24V24H0z" />
+          </clipPath>
+        </defs>
+      </svg>
+    );
+  },
+);
+
+Ton.displayName = "Ton";
+
+Ton.metadata = {
+  name: "Ton",
+  category: "icon/crypto",
+  tags: ["ton", "icon"],
+  description: "Ton icon from icon/crypto category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default Ton;
