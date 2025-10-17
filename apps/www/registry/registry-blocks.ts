@@ -156,6 +156,32 @@ export const blocks: Registry["items"] = [
     },
   },
   {
+    name: "header-06",
+    description: "A simple header section.",
+    dependencies: ["@aliimam/logos", "@aliimam/icons", "next-themes"],
+    registryDependencies: ["navigation-menu", "avatar", "dropdown-menu", "button"],
+    type: "registry:block",
+    files: [
+      {
+        path: "blocks/header/header-06/page.tsx",
+        target: "components/header-06.tsx",
+        type: "registry:component",
+      },
+      {
+        path: "blocks/header/header-06/components/header.tsx",
+        type: "registry:component",
+      },
+      {
+        path: "blocks/header/header-06/components/theme.tsx",
+        type: "registry:component",
+      } 
+    ],
+    categories: ["header", "navbar"],
+    meta: {
+      iframeHeight: "500px",
+    },
+  },
+  {
     name: "hero-01",
     description: "A simple hero section.",
     registryDependencies: ["button", "gradient-mesh"],
@@ -325,6 +351,25 @@ export const blocks: Registry["items"] = [
       },
       {
         path: "blocks/hero/hero-10/components/hero.tsx",
+        type: "registry:component",
+      }
+    ],
+    categories: ["hero"], 
+  },
+  {
+    name: "hero-11",
+    description: "A simple hero section.",
+    dependencies: ["@aliimam/logos", "@aliimam/icons"],
+    registryDependencies: ["button"],
+    type: "registry:block",
+    files: [
+      {
+        path: "blocks/hero/hero-11/page.tsx",
+        target: "components/hero-11.tsx",
+        type: "registry:component",
+      },
+      {
+        path: "blocks/hero/hero-11/components/hero.tsx",
         type: "registry:component",
       }
     ],
@@ -576,10 +621,33 @@ export const blocks: Registry["items"] = [
       {
         path: "blocks/stats/stats-01/page.tsx",
         target: "app/stats-01/page.tsx",
-        type: "registry:page",
+        type: "registry:component",
       }
     ],
     categories: ["numbers", "stats"],
+  },
+  {
+    name: "footer-01",
+    description: "A simple footer.",
+     dependencies: ["@aliimam/icons", "@aliimam/logos", "next-themes"],
+    type: "registry:block",
+    registryDependencies: ["button", "dropdown-menu"],
+    files: [
+      {
+        path: "blocks/footer/footer-01/page.tsx",
+        target: "app/footer-01/index.tsx",
+        type: "registry:component",
+      },
+      {
+        path: "blocks/footer/footer-01/components/footer.tsx", 
+        type: "registry:component",
+      },
+      {
+        path: "blocks/footer/footer-01/components/theme.tsx", 
+        type: "registry:component",
+      }
+    ],
+    categories: ["footer"],
   },
   {
     name: "logos-01",

@@ -31,7 +31,7 @@ const cards = [
     src: "/templates/dalim-www.jpg",
     subheading:
       "Beautifully designed open-source templates and UI components built with Ali Imam UI and shadcn/ui.",
-    demoUrl: "https://Ali Imam.in",
+    demoUrl: "https://dalim.in",
     repoUrl: "https://github.com/dalim-in/dalim/tree/main/apps/www",
     imgHeight: 900,
   },

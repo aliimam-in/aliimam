@@ -2427,6 +2427,44 @@
       ]
     },
     {
+      "name": "header-06",
+      "type": "registry:block",
+      "description": "A simple header section.",
+      "dependencies": [
+        "@aliimam/logos",
+        "@aliimam/icons",
+        "next-themes"
+      ],
+      "registryDependencies": [
+        "navigation-menu",
+        "avatar",
+        "dropdown-menu",
+        "button"
+      ],
+      "files": [
+        {
+          "path": "registry/default/blocks/header/header-06/page.tsx",
+          "type": "registry:component",
+          "target": "components/header-06.tsx"
+        },
+        {
+          "path": "registry/default/blocks/header/header-06/components/header.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/default/blocks/header/header-06/components/theme.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "iframeHeight": "500px"
+      },
+      "categories": [
+        "header",
+        "navbar"
+      ]
+    },
+    {
       "name": "hero-01",
       "type": "registry:block",
       "description": "A simple hero section.",
@@ -2655,6 +2693,32 @@
         },
         {
           "path": "registry/default/blocks/hero/hero-10/components/hero.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "categories": [
+        "hero"
+      ]
+    },
+    {
+      "name": "hero-11",
+      "type": "registry:block",
+      "description": "A simple hero section.",
+      "dependencies": [
+        "@aliimam/logos",
+        "@aliimam/icons"
+      ],
+      "registryDependencies": [
+        "button"
+      ],
+      "files": [
+        {
+          "path": "registry/default/blocks/hero/hero-11/page.tsx",
+          "type": "registry:component",
+          "target": "components/hero-11.tsx"
+        },
+        {
+          "path": "registry/default/blocks/hero/hero-11/components/hero.tsx",
           "type": "registry:component"
         }
       ],
@@ -3009,13 +3073,45 @@
       "files": [
         {
           "path": "registry/default/blocks/stats/stats-01/page.tsx",
-          "type": "registry:page",
+          "type": "registry:component",
           "target": "app/stats-01/page.tsx"
         }
       ],
       "categories": [
         "numbers",
         "stats"
+      ]
+    },
+    {
+      "name": "footer-01",
+      "type": "registry:block",
+      "description": "A simple footer.",
+      "dependencies": [
+        "@aliimam/icons",
+        "@aliimam/logos",
+        "next-themes"
+      ],
+      "registryDependencies": [
+        "button",
+        "dropdown-menu"
+      ],
+      "files": [
+        {
+          "path": "registry/default/blocks/footer/footer-01/page.tsx",
+          "type": "registry:component",
+          "target": "app/footer-01/index.tsx"
+        },
+        {
+          "path": "registry/default/blocks/footer/footer-01/components/footer.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/default/blocks/footer/footer-01/components/theme.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "categories": [
+        "footer"
       ]
     },
     {

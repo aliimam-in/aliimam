@@ -2816,6 +2816,32 @@ export const Index: Record<string, any> = {
     categories: ["header","navbar"],
     meta: {"iframeHeight":"500px"},
   },
+  "header-06": {
+    name: "header-06",
+    description: "A simple header section.",
+    type: "registry:block",
+    registryDependencies: ["navigation-menu","avatar","dropdown-menu","button"],
+    files: [{
+      path: "registry/default/blocks/header/header-06/page.tsx",
+      type: "registry:component",
+      target: "components/header-06.tsx"
+    },{
+      path: "registry/default/blocks/header/header-06/components/header.tsx",
+      type: "registry:component",
+      target: ""
+    },{
+      path: "registry/default/blocks/header/header-06/components/theme.tsx",
+      type: "registry:component",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/blocks/header/header-06/page.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: ["header","navbar"],
+    meta: {"iframeHeight":"500px"},
+  },
   "hero-01": {
     name: "hero-01",
     description: "A simple hero section.",
@@ -3014,6 +3040,28 @@ export const Index: Record<string, any> = {
     }],
     component: React.lazy(async () => {
       const mod = await import("@/registry/default/blocks/hero/hero-10/page.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: ["hero"],
+    meta: undefined,
+  },
+  "hero-11": {
+    name: "hero-11",
+    description: "A simple hero section.",
+    type: "registry:block",
+    registryDependencies: ["button"],
+    files: [{
+      path: "registry/default/blocks/hero/hero-11/page.tsx",
+      type: "registry:component",
+      target: "components/hero-11.tsx"
+    },{
+      path: "registry/default/blocks/hero/hero-11/components/hero.tsx",
+      type: "registry:component",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/blocks/hero/hero-11/page.tsx")
       const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
       return { default: mod.default || mod[exportName] }
     }),
@@ -3271,7 +3319,7 @@ export const Index: Record<string, any> = {
     registryDependencies: ["button"],
     files: [{
       path: "registry/default/blocks/stats/stats-01/page.tsx",
-      type: "registry:page",
+      type: "registry:component",
       target: "app/stats-01/page.tsx"
     }],
     component: React.lazy(async () => {
@@ -3280,6 +3328,32 @@ export const Index: Record<string, any> = {
       return { default: mod.default || mod[exportName] }
     }),
     categories: ["numbers","stats"],
+    meta: undefined,
+  },
+  "footer-01": {
+    name: "footer-01",
+    description: "A simple footer.",
+    type: "registry:block",
+    registryDependencies: ["button","dropdown-menu"],
+    files: [{
+      path: "registry/default/blocks/footer/footer-01/page.tsx",
+      type: "registry:component",
+      target: "app/footer-01/index.tsx"
+    },{
+      path: "registry/default/blocks/footer/footer-01/components/footer.tsx",
+      type: "registry:component",
+      target: ""
+    },{
+      path: "registry/default/blocks/footer/footer-01/components/theme.tsx",
+      type: "registry:component",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/blocks/footer/footer-01/page.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: ["footer"],
     meta: undefined,
   },
   "logos-01": {
