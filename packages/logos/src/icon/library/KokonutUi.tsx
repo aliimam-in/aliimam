@@ -1,0 +1,67 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const KokonutUi: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function KokonutUi(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <path
+        d="M9.27374 18.1049C10.9545 21.0449 15.6075 22.2727 18.5197 20.5754C20.913 19.1804 21.9817 15.9022 21.3517 13.1467C21.0817 11.9654 20.3302 10.9597 19.4062 10.1864C19.2645 10.0687 19.1212 9.9547 18.9772 9.84595C19.3305 10.2284 19.6485 10.6597 19.92 11.1359C21.7252 14.2919 20.8282 18.2272 17.9167 19.9244C15.0045 21.6217 11.1802 20.4389 9.37499 17.2822C8.9215 16.4926 8.62553 15.6225 8.50349 14.7202C8.45999 15.9179 8.70149 17.1052 9.27374 18.1057V18.1049Z"
+        fill="#0c0c0c"
+        fillRule="evenodd"
+        clipRule="evenodd"
+        fillOpacity=".82"
+      />
+      <path
+        d="M19.4377 14.4518C19.4377 16.9456 17.4352 18.9676 14.9647 18.9676C12.4942 18.9676 10.491 16.9456 10.491 14.4518C10.491 11.9573 12.4935 9.9353 14.9647 9.9353C17.4352 9.9353 19.4377 11.9573 19.4377 14.4518Z"
+        fill="#111"
+      />
+      <path
+        d="M7.88251 13.1399C7.81501 12.6314 4.27126 5.37287 7.88251 3.88037C11.493 2.38787 13.6185 2.11037 13.6185 2.11037C13.6185 2.11037 15.873 1.77137 17.4968 0.211368C19.1205 -1.34863 16.776 6.18662 15.873 7.74662C14.97 9.30662 13.098 9.10412 12.0278 10.1549C10.9575 11.2064 9.98176 13.1399 9.98176 13.1399C9.98176 13.1399 9.48301 11.6211 9.48301 10.1549C9.48301 8.68937 13.0643 4.62662 13.0643 4.62662C14.6355 3.54137 10.4895 5.78912 9.01876 8.73062C7.83901 11.0886 7.86376 12.8264 7.88476 13.1609C7.89001 13.2374 7.89451 13.2411 7.88476 13.1609C7.88383 13.1539 7.88283 13.1469 7.88176 13.1399H7.88251ZM8.24551 15.2204C7.92676 15.2631 3.37126 17.5334 2.43526 15.2204C1.49851 12.9074 1.32526 11.5454 1.32526 11.5454C1.32526 11.5454 1.11151 10.1016 0.132758 9.06137C-0.846742 8.02112 3.88276 9.52337 4.86151 10.1016C5.84026 10.6799 5.71276 11.8791 6.37276 12.5646C7.03276 13.2501 8.24551 13.8756 8.24551 13.8756C8.24551 13.8756 7.29301 14.1951 6.37276 14.1951C5.45326 14.1951 2.90326 11.9001 2.90326 11.9001C2.22226 10.8944 3.63301 13.5501 5.47876 14.4921C6.95851 15.2481 8.04901 15.2324 8.25901 15.2189C8.30701 15.2151 8.30926 15.2121 8.25901 15.2189L8.24551 15.2204Z"
+        fill="#2cd242"
+      />
+    </svg>
+  );
+});
+
+KokonutUi.displayName = "KokonutUi";
+
+KokonutUi.metadata = {
+  name: "KokonutUi",
+  category: "icon/library",
+  tags: ["kokonut", "ui", "icon"],
+  description: "KokonutUi icon from icon/library category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default KokonutUi;

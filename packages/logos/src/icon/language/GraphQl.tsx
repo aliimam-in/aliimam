@@ -1,0 +1,62 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const GraphQl: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function GraphQl(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <path
+        d="M12 1.65674L20.9575 6.82836V17.1716L12 22.3432L3.04248 17.1716V6.82836L12 1.65674ZM4.04753 7.40863V15.006L10.6271 3.60994L4.04753 7.40863ZM12 3.24206L4.4154 16.379H19.5846L12 3.24206ZM18.5796 17.384H5.42045L12 21.1827L18.5796 17.384ZM19.9525 15.006L13.3729 3.60994L19.9525 7.40863V15.006Z"
+        fill="#e10098"
+        fillRule="evenodd"
+        clipRule="evenodd"
+      />
+      <path
+        d="M12 4.354C13.169 4.354 14.117 3.406 14.117 2.237 14.117 1.068 13.169.12 12 .12 10.831.12 9.883 1.068 9.883 2.237 9.883 3.406 10.831 4.354 12 4.354ZM20.455 9.235C21.624 9.235 22.572 8.288 22.572 7.119 22.572 5.949 21.624 5.002 20.455 5.002 19.286 5.002 18.338 5.949 18.338 7.119 18.338 8.288 19.286 9.235 20.455 9.235ZM20.455 18.998C21.624 18.998 22.572 18.051 22.572 16.881 22.572 15.712 21.624 14.765 20.455 14.765 19.286 14.765 18.338 15.712 18.338 16.881 18.338 18.051 19.286 18.998 20.455 18.998ZM12 23.88C13.169 23.88 14.117 22.932 14.117 21.763 14.117 20.594 13.169 19.646 12 19.646 10.831 19.646 9.883 20.594 9.883 21.763 9.883 22.932 10.831 23.88 12 23.88ZM3.544 18.998C4.713 18.998 5.661 18.051 5.661 16.881 5.661 15.712 4.713 14.765 3.544 14.765 2.375 14.765 1.427 15.712 1.427 16.881 1.427 18.051 2.375 18.998 3.544 18.998ZM3.544 9.235C4.713 9.235 5.661 8.288 5.661 7.119 5.661 5.949 4.713 5.002 3.544 5.002 2.375 5.002 1.427 5.949 1.427 7.119 1.427 8.288 2.375 9.235 3.544 9.235Z"
+        fill="#e10098"
+      />
+    </svg>
+  );
+});
+
+GraphQl.displayName = "GraphQl";
+
+GraphQl.metadata = {
+  name: "GraphQl",
+  category: "icon/language",
+  tags: ["graph", "ql", "icon"],
+  description: "GraphQl icon from icon/language category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default GraphQl;

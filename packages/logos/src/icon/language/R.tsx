@@ -1,0 +1,55 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const R: IconComponent = React.forwardRef<SVGSVGElement, IconProps>(
+  function R(
+    {
+      color = "currentColor",
+      fill,
+      size = 24,
+      strokeWidth,
+      strokeLinecap,
+      strokeLinejoin,
+      strokeDasharray,
+      opacity,
+      className,
+      ...props
+    },
+    forwardedRef,
+  ) {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <path
+          d="M12 19.074C5.37075 19.074 0 15.477 0 11.0347C0 6.59775 5.37075 3 12 3C18.6292 3 24 6.59775 24 11.0347C24 15.477 18.6292 19.074 12 19.074ZM13.836 6.141C8.80125 6.141 4.71525 8.60175 4.71525 11.637C4.71525 14.6722 8.80125 17.133 13.836 17.133C18.8708 17.133 22.5938 15.4493 22.5938 11.637C22.5938 7.824 18.8745 6.141 13.836 6.141ZM18.273 15.4493C18.6672 15.5662 19.0524 15.7113 19.4257 15.8835C19.641 15.9885 19.836 16.1295 20.0077 16.2975C20.1127 16.4108 20.2028 16.5398 20.2725 16.6808L23.1368 21.5085H18.5077L16.344 17.4458C16.1458 17.0916 15.9059 16.7625 15.6293 16.4655C15.5599 16.3876 15.4751 16.3252 15.3801 16.2822C15.2852 16.2392 15.1822 16.2165 15.078 16.2157H13.98V21.5047L9.88725 21.5085V7.99275H18.1095C18.1095 7.99275 21.8527 8.0595 21.8527 11.622C21.8561 12.5959 21.4875 13.5344 20.8224 14.2458C20.1573 14.9572 19.2457 15.3879 18.2738 15.45L18.273 15.4493ZM16.4963 10.9222H14.016V13.2195H16.4963C16.6492 13.2213 16.801 13.1921 16.9424 13.1338C17.0839 13.0756 17.2121 12.9893 17.3194 12.8802C17.4267 12.7712 17.5108 12.6416 17.5668 12.4992C17.6228 12.3569 17.6495 12.2047 17.6453 12.0517C17.6539 11.8995 17.6299 11.7472 17.575 11.605C17.52 11.4627 17.4353 11.3339 17.3265 11.227C17.2177 11.1202 17.0874 11.0378 16.9442 10.9853C16.801 10.9329 16.6483 10.9116 16.4963 10.923V10.9222Z"
+          fill="currentColor"
+        />
+      </svg>
+    );
+  },
+);
+
+R.displayName = "R";
+
+R.metadata = {
+  name: "R",
+  category: "icon/language",
+  tags: ["icon"],
+  description: "R icon from icon/language category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default R;

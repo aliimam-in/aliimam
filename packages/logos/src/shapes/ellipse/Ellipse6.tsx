@@ -1,0 +1,60 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const Ellipse6: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function Ellipse6(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <g fill="currentColor" clipPath="url(#undefined-clip0_2068_767)">
+        <path d="M24 3C24 4.657 22.657 6 21 6 19.343 6 18 4.657 18 3 18 1.343 19.343 0 21 0 22.657 0 24 1.343 24 3ZM24 21C24 22.657 22.657 24 21 24 19.343 24 18 22.657 18 21 18 19.343 19.343 18 21 18 22.657 18 24 19.343 24 21ZM21 15C22.657 15 24 13.657 24 12 24 10.343 22.657 9 21 9 19.343 9 18 10.343 18 12 18 13.657 19.343 15 21 15ZM15 21C15 22.657 13.657 24 12 24 10.343 24 9 22.657 9 21 9 19.343 10.343 18 12 18 13.657 18 15 19.343 15 21ZM12 6C13.657 6 15 4.657 15 3 15 1.343 13.657 0 12 0 10.343 0 9 1.343 9 3 9 4.657 10.343 6 12 6ZM6 21C6 22.657 4.657 24 3 24 1.343 24 0 22.657 0 21 0 19.343 1.343 18 3 18 4.657 18 6 19.343 6 21ZM12 15C13.657 15 15 13.657 15 12 15 10.343 13.657 9 12 9 10.343 9 9 10.343 9 12 9 13.657 10.343 15 12 15ZM6 3C6 4.657 4.657 6 3 6 1.343 6 0 4.657 0 3 0 1.343 1.343 0 3 0 4.657 0 6 1.343 6 3ZM3 15C4.657 15 6 13.657 6 12 6 10.343 4.657 9 3 9 1.343 9 0 10.343 0 12 0 13.657 1.343 15 3 15Z" />
+      </g>
+      <defs>
+        <clipPath id="undefined-clip0_2068_767">
+          <path fill="#fff" d="M0 0H24V24H0z" />
+        </clipPath>
+      </defs>
+    </svg>
+  );
+});
+
+Ellipse6.displayName = "Ellipse6";
+
+Ellipse6.metadata = {
+  name: "Ellipse6",
+  category: "shapes/ellipse",
+  tags: ["ellipse", "icon"],
+  description: "Ellipse6 icon from shapes/ellipse category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default Ellipse6;

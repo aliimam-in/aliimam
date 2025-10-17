@@ -1,0 +1,67 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const Frame99: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function Frame99(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <g clipPath="url(#undefined-clip0_2066_918)">
+        <path
+          d="M18.4425 0V12.8358C18.4425 16.4232 15.5582 19.3311 11.9999 19.3311C8.44169 19.3311 5.55737 16.4232 5.55737 12.8358V0H10.1152V12.8358C10.1152 13.3397 10.3137 13.8231 10.6672 14.1794C11.0207 14.5358 11.5001 14.736 11.9999 14.736C12.4998 14.736 12.9792 14.5358 13.3327 14.1794C13.6861 13.8231 13.8847 13.3397 13.8847 12.8358V0H18.4425Z"
+          fill="#35495e"
+        />
+        <path
+          d="M23 0V12.8358C23 18.9609 18.0753 23.9277 12 23.9277C5.92473 23.9277 1 18.9609 1 12.8357V0H5.55744V12.8358C5.55744 16.4232 8.44202 19.3311 12 19.3311C15.558 19.3311 18.4426 16.4232 18.4426 12.8358V0H23Z"
+          fill="#41b883"
+        />
+      </g>
+      <defs>
+        <clipPath id="undefined-clip0_2066_918">
+          <path fill="#fff" transform="translate(1)" d="M0 0H22V24H0z" />
+        </clipPath>
+      </defs>
+    </svg>
+  );
+});
+
+Frame99.displayName = "Frame99";
+
+Frame99.metadata = {
+  name: "Frame99",
+  category: "icon/library",
+  tags: ["frame", "99", "icon"],
+  description: "Frame99 icon from icon/library category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default Frame99;

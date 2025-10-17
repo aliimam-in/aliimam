@@ -1,0 +1,63 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const Bootstrap: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function Bootstrap(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <g clipPath="url(#undefined-clip0_2066_421)">
+        <path
+          d="M4.98488 2C3.61547 2 2.60212 3.19076 2.6475 4.48211C2.69109 5.7227 2.63447 7.32959 2.22731 8.63994C1.81894 9.95411 1.12819 10.7866 0 10.8935V12.1002C1.12819 12.2071 1.81894 13.0396 2.22731 14.3538C2.63447 15.6642 2.69109 17.2709 2.6475 18.5116C2.60212 19.8027 3.61547 20.9937 4.98506 20.9937H19.0169C20.3864 20.9937 21.3995 19.8029 21.3541 18.5116C21.3106 17.271 21.3671 15.6642 21.7743 14.3538C22.1829 13.0397 22.8718 12.207 24 12.1002V10.8935C22.8718 10.7866 22.1829 9.95411 21.7744 8.63994C21.3671 7.32978 21.3106 5.72279 21.3541 4.48211C21.3995 3.19095 20.3864 2 19.0169 2H4.98469H4.98488ZM16.2712 13.6918C16.2712 15.47 14.9363 16.5483 12.7208 16.5483H8.94919C8.84132 16.5483 8.73788 16.5057 8.66161 16.4299C8.58534 16.3541 8.5425 16.2514 8.5425 16.1442V6.84947C8.54249 6.79639 8.553 6.74383 8.57344 6.69479C8.59387 6.64575 8.62384 6.60119 8.66161 6.56365C8.69938 6.52612 8.74423 6.49634 8.79359 6.47603C8.84295 6.45571 8.89585 6.44526 8.94928 6.44526H12.6992C14.5465 6.44526 15.7589 7.4395 15.7589 8.96583C15.7589 10.0372 14.9433 10.9963 13.9042 11.1642V11.2202C15.3188 11.3744 16.2712 12.3475 16.2712 13.6918ZM12.3094 7.72636H10.159V10.744H11.9703C13.3703 10.744 14.1425 10.1839 14.1425 9.18265C14.1425 8.24448 13.4784 7.72636 12.3094 7.72636ZM10.159 11.9414V15.2668H12.3886C13.8462 15.2668 14.6185 14.6858 14.6185 13.5936C14.6185 12.5013 13.8248 11.9412 12.2948 11.9412H10.159V11.9414Z"
+          fill="#7e13f8"
+        />
+      </g>
+      <defs>
+        <clipPath id="undefined-clip0_2066_421">
+          <path fill="#fff" transform="translate(0 2)" d="M0 0H24V19H0z" />
+        </clipPath>
+      </defs>
+    </svg>
+  );
+});
+
+Bootstrap.displayName = "Bootstrap";
+
+Bootstrap.metadata = {
+  name: "Bootstrap",
+  category: "icon/framework",
+  tags: ["bootstrap", "icon"],
+  description: "Bootstrap icon from icon/framework category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default Bootstrap;

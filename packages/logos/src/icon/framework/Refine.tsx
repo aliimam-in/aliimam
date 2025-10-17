@@ -1,0 +1,64 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const Refine: IconComponent = React.forwardRef<SVGSVGElement, IconProps>(
+  function Refine(
+    {
+      color = "currentColor",
+      fill,
+      size = 24,
+      strokeWidth,
+      strokeLinecap,
+      strokeLinejoin,
+      strokeDasharray,
+      opacity,
+      className,
+      ...props
+    },
+    forwardedRef,
+  ) {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <g fill="#14141f" clipPath="url(#undefined-clip0_2066_399)">
+          <path
+            d="M13.7889 0.422292C12.6627 -0.140764 11.3373 -0.140764 10.2111 0.422292L2.21114 4.4223C0.85601 5.09986 0 6.48492 0 8V16C0 17.5151 0.85601 18.9001 2.21114 19.5777L10.2111 23.5778C11.3373 24.1408 12.6627 24.1408 13.7889 23.5778L21.7888 19.5777C23.144 18.9001 24 17.5151 24 16V8C24 6.48492 23.144 5.09986 21.7888 4.4223L13.7889 0.422292ZM8 8C8 5.79086 9.79086 4 12 4C14.2091 4 16 5.79086 16 8V16C16 18.2091 14.2091 20 12 20C9.79086 20 8 18.2091 8 16V8Z"
+            fillRule="evenodd"
+            clipRule="evenodd"
+          />
+          <path d="M14 8C14 9.10456 13.1046 10 12 10C10.8954 10 10 9.10456 10 8C10 6.89542 10.8954 6 12 6C13.1046 6 14 6.89542 14 8Z" />
+        </g>
+        <defs>
+          <clipPath id="undefined-clip0_2066_399">
+            <path fill="#fff" d="M0 0H24V24H0z" />
+          </clipPath>
+        </defs>
+      </svg>
+    );
+  },
+);
+
+Refine.displayName = "Refine";
+
+Refine.metadata = {
+  name: "Refine",
+  category: "icon/framework",
+  tags: ["refine", "icon"],
+  description: "Refine icon from icon/framework category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default Refine;

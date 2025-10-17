@@ -10,3 +10,7 @@ export { default as Meta } from "./Meta";
 export { default as Reddit } from "./Reddit";
 export { default as Pinterest } from "./Pinterest";
 export { default as Telegram } from "./Telegram";
+export { default as Peerlist } from "./Peerlist";
+export { default as Hashnode } from "./Hashnode";
+export { default as Vk } from "./Vk";
+export { default as Twitter } from "./Twitter";

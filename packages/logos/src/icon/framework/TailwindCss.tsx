@@ -1,0 +1,65 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const TailwindCss: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function TailwindCss(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <g clipPath="url(#undefined-clip0_2066_417)">
+        <path
+          d="M12 4C8.8 4 6.8 5.63636 6 8.90909C7.2 7.27273 8.6 6.65909 10.2 7.06818C11.1129 7.30136 11.7653 7.97909 12.4876 8.72864C13.664 9.95 15.0258 11.3636 18 11.3636C21.2 11.3636 23.2 9.72727 24 6.45455C22.8 8.09091 21.4 8.70455 19.8 8.29545C18.8871 8.06227 18.2347 7.38455 17.5124 6.635C16.336 5.41364 14.9742 4 12 4ZM6 11.3636C2.8 11.3636 0.8 13 0 16.2727C1.2 14.6364 2.6 14.0227 4.2 14.4318C5.11289 14.6655 5.76533 15.3427 6.48756 16.0923C7.664 17.3136 9.02578 18.7273 12 18.7273C15.2 18.7273 17.2 17.0909 18 13.8182C16.8 15.4545 15.4 16.0682 13.8 15.6591C12.8871 15.4259 12.2347 14.7482 11.5124 13.9986C10.336 12.7773 8.97422 11.3636 6 11.3636Z"
+          fill="#38bdf8"
+          fillRule="evenodd"
+          clipRule="evenodd"
+        />
+      </g>
+      <defs>
+        <clipPath id="undefined-clip0_2066_417">
+          <path fill="#fff" transform="translate(0 4)" d="M0 0H24V15H0z" />
+        </clipPath>
+      </defs>
+    </svg>
+  );
+});
+
+TailwindCss.displayName = "TailwindCss";
+
+TailwindCss.metadata = {
+  name: "TailwindCss",
+  category: "icon/framework",
+  tags: ["tailwind", "css", "icon"],
+  description: "TailwindCss icon from icon/framework category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default TailwindCss;

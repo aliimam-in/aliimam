@@ -1,0 +1,60 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const Ellipse5: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function Ellipse5(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <g fill="currentColor" clipPath="url(#undefined-clip0_2068_774)">
+        <path d="M24 4C24 6.209 22.209 8 20 8 17.791 8 16 6.209 16 4 16 1.791 17.791 0 20 0 22.209 0 24 1.791 24 4ZM24 12C24 14.209 22.209 16 20 16 17.791 16 16 14.209 16 12 16 9.791 17.791 8 20 8 22.209 8 24 9.791 24 12ZM24 20C24 22.209 22.209 24 20 24 17.791 24 16 22.209 16 20 16 17.791 17.791 16 20 16 22.209 16 24 17.791 24 20ZM16 4C16 6.209 14.209 8 12 8 9.791 8 8 6.209 8 4 8 1.791 9.791 0 12 0 14.209 0 16 1.791 16 4ZM16 12C16 14.209 14.209 16 12 16 9.791 16 8 14.209 8 12 8 9.791 9.791 8 12 8 14.209 8 16 9.791 16 12ZM16 20C16 22.209 14.209 24 12 24 9.791 24 8 22.209 8 20 8 17.791 9.791 16 12 16 14.209 16 16 17.791 16 20ZM8 4C8 6.209 6.209 8 4 8 1.791 8 0 6.209 0 4 0 1.791 1.791 0 4 0 6.209 0 8 1.791 8 4ZM8 12C8 14.209 6.209 16 4 16 1.791 16 0 14.209 0 12 0 9.791 1.791 8 4 8 6.209 8 8 9.791 8 12ZM8 20C8 22.209 6.209 24 4 24 1.791 24 0 22.209 0 20 0 17.791 1.791 16 4 16 6.209 16 8 17.791 8 20Z" />
+      </g>
+      <defs>
+        <clipPath id="undefined-clip0_2068_774">
+          <path fill="#fff" d="M0 0H24V24H0z" />
+        </clipPath>
+      </defs>
+    </svg>
+  );
+});
+
+Ellipse5.displayName = "Ellipse5";
+
+Ellipse5.metadata = {
+  name: "Ellipse5",
+  category: "shapes/ellipse",
+  tags: ["ellipse", "icon"],
+  description: "Ellipse5 icon from shapes/ellipse category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default Ellipse5;

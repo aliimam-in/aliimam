@@ -1,0 +1,9 @@
+export { default as Rectangle1 } from "./Rectangle1";
+export { default as Rectangle2 } from "./Rectangle2";
+export { default as Rectangle3 } from "./Rectangle3";
+export { default as Rectangle4 } from "./Rectangle4";
+export { default as Rectangle5 } from "./Rectangle5";
+export { default as Rectangle6 } from "./Rectangle6";
+export { default as Rectangle7 } from "./Rectangle7";
+export { default as Rectangle8 } from "./Rectangle8";
+export { default as Rectangle9 } from "./Rectangle9";

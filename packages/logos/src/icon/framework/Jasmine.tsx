@@ -1,0 +1,62 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const Jasmine: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function Jasmine(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <g fill="#8a4182" clipPath="url(#undefined-clip0_2066_400)">
+        <path d="M11.0625 9.88241H12.9375L13.4062 9.3177V4.32947H10.5938V9.3177L11.0625 9.88241ZM9.9375 12.1412L10.5 10.353L10.0312 9.69417L5.25 8.18829L4.40625 10.8236L9.1875 12.3295L9.9375 12.1412ZM11.625 13.9295L10.125 12.8942L9.375 13.0824L6.46875 17.1295L8.71875 18.7295L11.625 14.7765V13.9295ZM13.875 12.8942L12.375 13.9295V14.7765L15.2812 18.7295L17.5312 17.1295L14.625 13.0824L13.875 12.8942ZM13.5938 10.353L14.1562 12.1412L14.9062 12.3295L19.5938 10.8236L18.75 8.18829L14.0625 9.69417L13.5938 10.353Z" />
+        <path d="M12 0C5.4375 0 0 5.36471 0 11.9529C0 15.148 1.26428 18.2122 3.51472 20.4715C5.76516 22.7308 8.8174 24 12 24C15.1826 24 18.2348 22.7308 20.4853 20.4715C22.7357 18.2122 24 15.148 24 11.9529C24 5.36471 18.6562 0 12 0ZM12 2.44706C17.25 2.44706 21.5625 6.68235 21.5625 11.9529C21.5625 17.2235 17.25 21.5529 12 21.5529C6.75 21.5529 2.4375 17.2235 2.4375 11.9529C2.4375 6.68235 6.75 2.44706 12 2.44706Z" />
+        <path d="M19.3125 14.5883L15.6562 13.4589L15.9375 12.7059L19.5 13.9295L19.3125 14.5883ZM14.7188 8.8471L14.0625 8.37651L16.3125 5.36475L16.875 5.83533L14.7188 8.8471ZM9.375 8.8471L7.125 5.74122L7.78125 5.36475L10.0312 8.37651L9.375 8.8471ZM4.78125 14.5883L4.5 13.8353L8.0625 12.7059L8.34375 13.4589L4.78125 14.5883ZM11.625 19.5765H12.375V15.8118H11.625V19.5765Z" />
+      </g>
+      <defs>
+        <clipPath id="undefined-clip0_2066_400">
+          <path fill="#fff" d="M0 0H24V24H0z" />
+        </clipPath>
+      </defs>
+    </svg>
+  );
+});
+
+Jasmine.displayName = "Jasmine";
+
+Jasmine.metadata = {
+  name: "Jasmine",
+  category: "icon/framework",
+  tags: ["jasmine", "icon"],
+  description: "Jasmine icon from icon/framework category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default Jasmine;

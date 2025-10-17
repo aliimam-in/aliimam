@@ -1,0 +1,56 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const Triangle9: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function Triangle9(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <path
+        d="M14.161 9.359C14.56 8.96 14.759 8.761 14.867 8.523 14.955 8.33 14.999 8.12 14.996 7.908 14.992 7.646 14.889 7.384 14.684 6.859L12 0 9.316 6.859C9.111 7.384 9.008 7.646 9.004 7.908 9.001 8.12 9.045 8.33 9.133 8.523 9.241 8.761 9.44 8.96 9.839 9.359L11.45 10.97C11.647 11.167 11.745 11.265 11.859 11.3 11.951 11.328 12.049 11.328 12.141 11.3 12.255 11.265 12.353 11.167 12.55 10.97L14.161 9.359ZM14.161 14.641C14.56 15.04 14.759 15.239 14.867 15.477 14.955 15.67 14.999 15.88 14.996 16.092 14.992 16.354 14.889 16.616 14.684 17.141L12 24 9.316 17.141C9.111 16.616 9.008 16.354 9.004 16.092 9.001 15.88 9.045 15.67 9.133 15.477 9.241 15.239 9.44 15.04 9.839 14.641L11.45 13.03C11.647 12.833 11.745 12.735 11.859 12.7 11.951 12.672 12.049 12.672 12.141 12.7 12.255 12.735 12.353 12.833 12.55 13.03L14.161 14.641ZM24 12 17.141 14.684C16.616 14.889 16.354 14.992 16.092 14.996 15.88 14.999 15.67 14.955 15.477 14.867 15.239 14.759 15.04 14.56 14.641 14.161L13.03 12.55C12.833 12.353 12.735 12.255 12.7 12.141 12.672 12.049 12.672 11.951 12.7 11.859 12.735 11.745 12.833 11.647 13.03 11.45L14.641 9.839C15.04 9.44 15.239 9.241 15.477 9.133 15.67 9.045 15.88 9.001 16.092 9.004 16.354 9.008 16.616 9.111 17.141 9.316L24 12ZM9.359 14.161C8.96 14.56 8.761 14.759 8.523 14.867 8.33 14.955 8.12 14.999 7.908 14.996 7.646 14.992 7.384 14.889 6.859 14.684L0 12 6.859 9.316C7.384 9.111 7.646 9.008 7.908 9.004 8.12 9.001 8.33 9.045 8.523 9.133 8.761 9.241 8.96 9.44 9.359 9.839L10.97 11.45C11.167 11.647 11.265 11.745 11.3 11.859 11.328 11.951 11.328 12.049 11.3 12.141 11.265 12.255 11.167 12.353 10.97 12.55L9.359 14.161Z"
+        fill="currentColor"
+      />
+    </svg>
+  );
+});
+
+Triangle9.displayName = "Triangle9";
+
+Triangle9.metadata = {
+  name: "Triangle9",
+  category: "shapes/triangle",
+  tags: ["triangle", "icon"],
+  description: "Triangle9 icon from shapes/triangle category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default Triangle9;

@@ -6,6 +6,16 @@ import { useEditorStore } from "@/src/lib/store"
 import type { Shape, Point } from "@/src/types/canvas"
 import { colorizeSvg } from "./export"
 
+// Helper function to get the current computed color
+function getCurrentColor(): string {
+  const temp = document.createElement('div')
+  temp.style.color = 'currentColor'
+  document.body.appendChild(temp)
+  const computed = window.getComputedStyle(temp).color
+  document.body.removeChild(temp)
+  return computed
+}
+
 export function Canvas() {
   const canvasRef = useRef<HTMLCanvasElement>(null)
   const containerRef = useRef<HTMLDivElement>(null)
@@ -72,6 +82,15 @@ export function Canvas() {
     [zoom, pan],
   )
 
+  const getCenterPosition = useCallback((): Point => {
+    const canvas = canvasRef.current
+    if (!canvas) return { x: 0, y: 0 }
+    const rect = canvas.getBoundingClientRect()
+    const centerScreenX = rect.left + rect.width / 2
+    const centerScreenY = rect.top + rect.height / 2
+    return screenToCanvas(centerScreenX, centerScreenY)
+  }, [screenToCanvas])
+
   const drawGrid = useCallback(
     (ctx: CanvasRenderingContext2D, width: number, height: number) => {
       if (!gridVisible) return
@@ -108,10 +127,12 @@ export function Canvas() {
     (ctx: CanvasRenderingContext2D, shape: Shape) => {
       if (!shape.visible) return
 
+      const currentColor = getCurrentColor()
+
       ctx.save()
       ctx.globalAlpha = shape.opacity
-      ctx.fillStyle = shape.fill
-      ctx.strokeStyle = shape.stroke
+      ctx.fillStyle = shape.fill === 'currentColor' ? currentColor : shape.fill
+      ctx.strokeStyle = shape.stroke === 'currentColor' ? currentColor : shape.stroke
       ctx.lineWidth = shape.strokeWidth
 
       ctx.translate(shape.x + shape.width / 2, shape.y + shape.height / 2)
@@ -144,7 +165,6 @@ export function Canvas() {
             ctx.beginPath()
             ctx.rect(shape.x, shape.y, shape.width, shape.height)
           }
-          // Only fill if not transparent/none
           if (shape.fill !== "transparent" && shape.fill !== "none") {
             ctx.fill()
           }
@@ -162,7 +182,6 @@ export function Canvas() {
             0,
             Math.PI * 2,
           )
-          // Only fill if not transparent/none
           if (shape.fill !== "transparent" && shape.fill !== "none") {
             ctx.fill()
           }
@@ -181,25 +200,27 @@ export function Canvas() {
           ctx.font = `${text.fontWeight} ${text.fontSize}px ${text.fontFamily}`
           ctx.textAlign = text.textAlign
           ctx.textBaseline = "top"
+          ctx.fillStyle = text.fill === 'currentColor' ? currentColor : text.fill
           ctx.fillText(text.content, shape.x, shape.y)
           break
         }
         case "svg": {
           const svgShape = shape as import("@/src/types/canvas").SvgShape
-          // Style the SVG according to current shape fill/stroke settings
+          const fillColor = shape.fill === 'currentColor' ? currentColor : (shape.fill || "currentColor")
+          const strokeColor = shape.stroke === 'currentColor' ? currentColor : (shape.stroke || undefined)
+          
           const styled = colorizeSvg(
             svgShape.svg,
-            shape.fill || "currentColor",
-            shape.stroke || undefined,
+            fillColor,
+            strokeColor,
             shape.strokeWidth || 0,
           )
-          // Cache key depends on SVG content + styling so we re-use images
           const key =
             svgShape.id +
             "|" +
-            (shape.fill || "") +
+            (fillColor || "") +
             "|" +
-            (shape.stroke || "") +
+            (strokeColor || "") +
             "|" +
             (shape.strokeWidth ?? 0) +
             "|" +
@@ -213,18 +234,15 @@ export function Canvas() {
             img.src = `data:image/svg+xml;charset=utf-8,${svgEncoded}`
 
             img.onload = () => {
-              // force a repaint once the image is ready
               setRerenderTick((t) => t + 1)
             }
             img.onerror = () => {
-              // On error, remove broken cache entry to avoid repeated broken draws
               imageCacheRef.current.delete(key)
             }
 
             imageCacheRef.current.set(key, img)
           }
 
-          // Only draw if the image is truly ready (avoid InvalidStateError)
           if (img.complete && img.naturalWidth > 0 && img.naturalHeight > 0) {
             ctx.drawImage(img, shape.x, shape.y, Math.max(1, shape.width || 100), Math.max(1, shape.height || 100))
           }
@@ -234,7 +252,7 @@ export function Canvas() {
 
       ctx.restore()
     },
-    [pan.x, pan.y, zoom],
+    [pan.x, pan.y, zoom, rerenderTick],
   )
 
   const drawSelection = useCallback(
@@ -249,13 +267,12 @@ export function Canvas() {
 
       ctx.strokeRect(shape.x, shape.y, shape.width, shape.height)
 
-      // Draw resize handles (only corners)
       const handleSize = 8 / zoom
       const handles = [
-        { x: shape.x, y: shape.y }, // top-left
-        { x: shape.x + shape.width, y: shape.y }, // top-right
-        { x: shape.x + shape.width, y: shape.y + shape.height }, // bottom-right
-        { x: shape.x, y: shape.y + shape.height }, // bottom-left
+        { x: shape.x, y: shape.y },
+        { x: shape.x + shape.width, y: shape.y },
+        { x: shape.x + shape.width, y: shape.y + shape.height },
+        { x: shape.x, y: shape.y + shape.height },
       ]
 
       ctx.fillStyle = "#ffffff"
@@ -281,15 +298,12 @@ export function Canvas() {
     const rect = container.getBoundingClientRect()
     const dpr = window.devicePixelRatio || 1
 
-    // Set actual size in memory (scaled to DPR)
     canvas.width = rect.width * dpr
     canvas.height = rect.height * dpr
 
-    // Set display size (css pixels)
     canvas.style.width = `${rect.width}px`
     canvas.style.height = `${rect.height}px`
 
-    // Scale all drawing operations by the DPR
     ctx.scale(dpr, dpr)
 
     ctx.clearRect(0, 0, canvas.width, canvas.height)
@@ -336,7 +350,6 @@ export function Canvas() {
           selectShapes([clickedShape.id])
         }
 
-        // Double-click to edit text
         if (clickedShape.type === "text" && e.detail === 2) {
           setIsEditingText(true)
           setEditingShapeId(clickedShape.id)
@@ -346,22 +359,22 @@ export function Canvas() {
 
         const handleSize = 8 / zoom
         const handles = [
-          { x: clickedShape.x, y: clickedShape.y, index: 0 }, // top-left
+          { x: clickedShape.x, y: clickedShape.y, index: 0 },
           {
             x: clickedShape.x + clickedShape.width,
             y: clickedShape.y,
             index: 2,
-          }, // top-right
+          },
           {
             x: clickedShape.x + clickedShape.width,
             y: clickedShape.y + clickedShape.height,
             index: 4,
-          }, // bottom-right
+          },
           {
             x: clickedShape.x,
             y: clickedShape.y + clickedShape.height,
             index: 6,
-          }, // bottom-left
+          },
         ]
 
         const clickedHandle = handles.find(
@@ -380,7 +393,6 @@ export function Canvas() {
           return
         }
 
-        // If not clicking a handle → normal dragging
         setIsDragging(true)
         setDraggedShapeId(clickedShape.id)
         setDragOffset({
@@ -393,7 +405,6 @@ export function Canvas() {
       return
     }
 
-    // Drawing tools
     setIsDrawing(true)
     setDragStart(point)
 
@@ -479,22 +490,22 @@ export function Canvas() {
       const dy = snap(point.y) - snap(dragStart.y)
 
       switch (resizeHandle) {
-        case 0: // top-left
+        case 0:
           newShape.x = shape.x + dx
           newShape.y = shape.y + dy
           newShape.width = Math.max(5, shape.width - dx)
           newShape.height = Math.max(5, shape.height - dy)
           break
-        case 2: // top-right
+        case 2:
           newShape.y = shape.y + dy
           newShape.width = Math.max(5, shape.width + dx)
           newShape.height = Math.max(5, shape.height - dy)
           break
-        case 4: // bottom-right
+        case 4:
           newShape.width = Math.max(5, shape.width + dx)
           newShape.height = Math.max(5, shape.height + dy)
           break
-        case 6: // bottom-left
+        case 6:
           newShape.x = shape.x + dx
           newShape.width = Math.max(5, shape.width - dx)
           newShape.height = Math.max(5, shape.height + dy)
@@ -610,7 +621,6 @@ export function Canvas() {
         e.preventDefault()
         redo()
       }
-      // Tool shortcuts
       if (e.key === "v") setTool("select")
       if (e.key === "h") setTool("hand")
       if (e.key === "r") setTool("rectangle")
@@ -636,20 +646,21 @@ export function Canvas() {
     const reader = new FileReader()
     reader.onload = (event) => {
       const raw = (event.target?.result as string) || ""
+      const normalized = raw
 
-      // Keep the original colors. Previously we replaced all fills/strokes with currentColor.
-      const normalized = raw // preserve as-is
+      const centerPos = getCenterPosition()
+      const svgWidth = 200
+      const svgHeight = 200
 
       const id = `shape-${Date.now()}`
       const svgShape: import("@/src/types/canvas").SvgShape = {
         id,
         type: "svg",
-        x: 100,
-        y: 100,
-        width: 200,
-        height: 200,
+        x: centerPos.x - svgWidth / 2,
+        y: centerPos.y - svgHeight / 2,
+        width: svgWidth,
+        height: svgHeight,
         rotation: 0,
-        // These are used if the inner SVG uses currentColor, but won't override explicit fills/strokes
         fill: "currentColor",
         stroke: "currentColor",
         strokeWidth: 0,

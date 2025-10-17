@@ -1,0 +1,66 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const ArkUi: IconComponent = React.forwardRef<SVGSVGElement, IconProps>(
+  function ArkUi(
+    {
+      color = "currentColor",
+      fill,
+      size = 24,
+      strokeWidth,
+      strokeLinecap,
+      strokeLinejoin,
+      strokeDasharray,
+      opacity,
+      className,
+      ...props
+    },
+    forwardedRef,
+  ) {
+    return (
+      <svg
+        width={size}
+        height={size}
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        className={className}
+        strokeWidth={strokeWidth}
+        strokeLinecap={strokeLinecap}
+        strokeLinejoin={strokeLinejoin}
+        strokeDasharray={strokeDasharray}
+        opacity={opacity}
+        {...props}
+        ref={forwardedRef}
+      >
+        <g clipPath="url(#undefined-clip0_2066_928)">
+          <path
+            d="M12.0938 0H11.9062C5.33061 0 0 5.33061 0 11.9062V12.0938C0 18.6694 5.33061 24 11.9062 24H12.0938C18.6694 24 24 18.6694 24 12.0938V11.9062C24 5.33061 18.6694 0 12.0938 0Z"
+            fill="#eb5e41"
+          />
+          <path
+            d="M10.8323 9.5865C9.99703 12.027 9.1642 14.4574 8.33705 16.8898C8.29153 17.0236 8.23209 17.0646 8.09077 17.0641C6.5295 17.0584 4.96819 17.0605 3.40689 17.0605C3.35612 17.0605 3.30536 17.0605 3.23438 17.0605C4.65345 12.8624 6.06586 8.68397 7.47914 4.50288C7.54087 4.50288 7.59305 4.50288 7.64517 4.50288C10.5185 4.50287 13.3918 4.50362 16.2651 4.5C16.3795 4.49986 16.4323 4.52997 16.4706 4.6397C17.8867 8.6992 19.306 12.7576 20.7248 16.8162C20.7375 16.8526 20.7479 16.8898 20.7656 16.9467C18.2968 16.9467 15.8393 16.9467 13.3658 16.9467C13.3658 18.1365 13.3658 19.3079 13.3658 20.4794C13.3556 20.481 13.3454 20.4827 13.3351 20.4844C12.3682 17.7536 11.4013 15.0227 10.4271 12.2717C10.4873 12.2665 10.5362 12.2586 10.5852 12.2586C11.626 12.2579 12.6669 12.258 13.7078 12.258C14.0136 12.258 14.0527 12.2052 13.9524 11.9221C13.3849 10.3197 12.8169 8.71739 12.2491 7.11511C12.1867 6.93891 12.1276 6.76134 12.0592 6.58749C12.0408 6.54089 12.0204 6.46509 11.9595 6.46509C11.8987 6.46509 11.8782 6.54422 11.8615 6.59213C11.6467 7.20774 11.4365 7.82494 11.2251 8.44172C11.0954 8.82009 10.9657 9.19847 10.8323 9.5865Z"
+            fill="#fff"
+          />
+        </g>
+        <defs>
+          <clipPath id="undefined-clip0_2066_928">
+            <path fill="#fff" d="M0 0H24V24H0z" />
+          </clipPath>
+        </defs>
+      </svg>
+    );
+  },
+);
+
+ArkUi.displayName = "ArkUi";
+
+ArkUi.metadata = {
+  name: "ArkUi",
+  category: "icon/library",
+  tags: ["ark", "ui", "icon"],
+  description: "ArkUi icon from icon/library category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default ArkUi;

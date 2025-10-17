@@ -1,0 +1,85 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const Vuetify: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function Vuetify(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <g clipPath="url(#undefined-clip0_2066_902)">
+        <path
+          d="M12.0015 23.2122C18.1947 23.2122 23.2152 18.1916 23.2152 11.9985C23.2152 5.80533 18.1947 0.78479 12.0015 0.78479C5.80839 0.78479 0.787842 5.80533 0.787842 11.9985C0.787842 18.1916 5.80839 23.2122 12.0015 23.2122Z"
+          fill="#fff"
+        />
+        <path
+          d="M12.0015 23.4242C18.3117 23.4242 23.4272 18.3088 23.4272 11.9985C23.4272 5.68828 18.3117 0.572819 12.0015 0.572819C5.69121 0.572819 0.575748 5.68828 0.575748 11.9985C0.575748 18.3088 5.69121 23.4242 12.0015 23.4242ZM12.0015 23.6518C18.4374 23.6518 23.6547 18.4344 23.6547 11.9985C23.6547 5.56258 18.4374 0.345215 12.0015 0.345215C5.56551 0.345215 0.348145 5.56258 0.348145 11.9985C0.348145 18.4344 5.56551 23.6518 12.0015 23.6518Z"
+          fill="#aeddff"
+          fillRule="evenodd"
+          clipRule="evenodd"
+        />
+        <path
+          d="M12.1852 10.3616L8.69775 16.4034L12 22.1264L16.3737 14.5508L20.7455 6.97522H14.139L12.1852 10.3616Z"
+          fill="#1697f6"
+        />
+        <path
+          d="M7.62812 14.5508L7.8572 14.9492L11.1196 9.2959L12.46 6.97522H11.9999H3.25439L7.62812 14.5508Z"
+          fill="#aeddff"
+        />
+        <path
+          d="M14.139 6.97522C15.7922 12.4154 12 22.1264 12 22.1264L8.69775 16.4034L14.139 6.97522Z"
+          fill="#1867c0"
+        />
+        <path
+          d="M12.4601 6.97522C5.49514 6.97522 7.85728 14.9492 7.85728 14.9492L12.4601 6.97522Z"
+          fill="#7bc6ff"
+        />
+      </g>
+      <defs>
+        <clipPath id="undefined-clip0_2066_902">
+          <path fill="#fff" d="M0 0H24V24H0z" />
+        </clipPath>
+      </defs>
+    </svg>
+  );
+});
+
+Vuetify.displayName = "Vuetify";
+
+Vuetify.metadata = {
+  name: "Vuetify",
+  category: "icon/library",
+  tags: ["vuetify", "icon"],
+  description: "Vuetify icon from icon/library category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default Vuetify;

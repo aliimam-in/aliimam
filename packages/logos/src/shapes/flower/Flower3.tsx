@@ -1,0 +1,63 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const Flower3: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function Flower3(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <g clipPath="url(#undefined-clip0_2068_584)">
+        <path
+          d="M24 6C24 2.68629 21.3137 -1.44847e-07 18 0C14.6863 1.44847e-07 12 2.68629 12 6C12 2.68629 9.31371 3.7969e-07 6 5.24537e-07C2.68629 7.86805e-07 -2.62268e-07 2.68629 0 6C1.44847e-07 9.31371 2.68629 12 6 12C2.68629 12 3.7969e-07 14.6863 5.24537e-07 18C6.69384e-07 21.3137 2.68629 24 6 24C9.31371 24 12 21.3137 12 18C12 21.3137 14.6863 24 18 24C21.3137 24 24 21.3137 24 18C24 14.6871 21.315 12.0013 18.0024 12C21.315 11.9987 24 9.31292 24 6Z"
+          fill="currentColor"
+        />
+      </g>
+      <defs>
+        <clipPath id="undefined-clip0_2068_584">
+          <path fill="#fff" d="M0 0H24V24H0z" />
+        </clipPath>
+      </defs>
+    </svg>
+  );
+});
+
+Flower3.displayName = "Flower3";
+
+Flower3.metadata = {
+  name: "Flower3",
+  category: "shapes/flower",
+  tags: ["flower", "icon"],
+  description: "Flower3 icon from shapes/flower category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default Flower3;

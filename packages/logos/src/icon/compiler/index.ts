@@ -1,4 +1,3 @@
-export { default as Rsbuild } from "./Rsbuild";
 export { default as Rspack } from "./Rspack";
 export { default as PostCss } from "./PostCss";
 export { default as Biomejs } from "./Biomejs";

@@ -30,8 +30,8 @@ importers:
         specifier: 0.1.7
         version: 0.1.7(react@19.1.0)
       '@aliimam/logos':
-        specifier: 0.2.0
-        version: 0.2.0(react@19.1.0)
+        specifier: 0.2.1
+        version: 0.2.1(react@19.1.0)
       '@hookform/resolvers':
         specifier: ^5.2.2
         version: 5.2.2(react-hook-form@7.63.0(react@19.1.0))
@@ -494,8 +494,8 @@ packages:
     peerDependencies:
       react: ^16.x || ^17.x || ^18.x || ^19.x
 
-  '@aliimam/logos@0.2.0':
-    resolution: {integrity: sha512-83UrzWpcrrfVIAAW/5uxUDF1Ph9OgIg/EmCMA+ZSMDWHcNZp/DAgJhQsO1BTeX1csGotSDGpqRlVShEP9XxYlg==}
+  '@aliimam/logos@0.2.1':
+    resolution: {integrity: sha512-Vb8yz/qKfA1bfeKyhJGbVxkqYVqPK1e4alboS4lVgYqgBVdSc0RxuJEVqe/mmzGJwFAbSlHlMOhBlfwzWn/jBw==}
     peerDependencies:
       react: ^16.x || ^17.x || ^18.x || ^19.x
 
@@ -8332,7 +8332,7 @@ snapshots:
     dependencies:
       react: 19.1.0
 
-  '@aliimam/logos@0.2.0(react@19.1.0)':
+  '@aliimam/logos@0.2.1(react@19.1.0)':
     dependencies:
       react: 19.1.0
 

@@ -11,7 +11,6 @@ export { default as Blender } from "./Blender";
 export { default as Sketch } from "./Sketch";
 export { default as Layers } from "./Layers";
 export { default as LottieFiles } from "./LottieFiles";
-export { default as Svg } from "./Svg";
 export { default as Pitch } from "./Pitch";
 export { default as Gimp } from "./Gimp";
 export { default as Penpot } from "./Penpot";

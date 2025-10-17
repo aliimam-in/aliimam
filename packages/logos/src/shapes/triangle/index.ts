@@ -1,0 +1,14 @@
+export { default as Triangle1 } from "./Triangle1";
+export { default as Triangle2 } from "./Triangle2";
+export { default as Triangle3 } from "./Triangle3";
+export { default as Triangle4 } from "./Triangle4";
+export { default as Triangle5 } from "./Triangle5";
+export { default as Triangle6 } from "./Triangle6";
+export { default as Triangle7 } from "./Triangle7";
+export { default as Triangle8 } from "./Triangle8";
+export { default as Triangle9 } from "./Triangle9";
+export { default as Triangle10 } from "./Triangle10";
+export { default as Triangle11 } from "./Triangle11";
+export { default as Triangle12 } from "./Triangle12";
+export { default as Triangle13 } from "./Triangle13";
+export { default as Triangle14 } from "./Triangle14";

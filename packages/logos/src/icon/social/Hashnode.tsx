@@ -1,0 +1,65 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const Hashnode: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function Hashnode(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <g clipPath="url(#undefined-clip0_2066_1345)">
+        <path
+          d="M1.64862 8.01985C-0.54954 10.218 -0.54954 13.7819 1.64862 15.98L8.01985 22.3513C10.218 24.5494 13.7819 24.5494 15.98 22.3512L22.3513 15.98C24.5494 13.7819 24.5494 10.218 22.3512 8.01985L15.98 1.64862C13.7819 -0.54954 10.218 -0.54954 8.01985 1.64862L1.64862 8.01985ZM11.9999 15.9413C14.1765 15.9413 15.9411 14.1768 15.9411 12.0001C15.9411 9.82345 14.1765 8.05892 11.9999 8.05892C9.82321 8.05892 8.05868 9.82345 8.05868 12.0001C8.05868 14.1768 9.82321 15.9413 11.9999 15.9413Z"
+          fill="#2563eb"
+          fillRule="evenodd"
+          clipRule="evenodd"
+        />
+      </g>
+      <defs>
+        <clipPath id="undefined-clip0_2066_1345">
+          <path fill="#fff" d="M0 0H24V24H0z" />
+        </clipPath>
+      </defs>
+    </svg>
+  );
+});
+
+Hashnode.displayName = "Hashnode";
+
+Hashnode.metadata = {
+  name: "Hashnode",
+  category: "icon/social",
+  tags: ["hashnode", "icon"],
+  description: "Hashnode icon from icon/social category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default Hashnode;

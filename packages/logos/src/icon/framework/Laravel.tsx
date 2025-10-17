@@ -1,0 +1,63 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const Laravel: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function Laravel(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <g clipPath="url(#undefined-clip0_2066_423)">
+        <path
+          d="M23.991 5.41818L24 5.51818V10.6636C24 10.7909 23.9281 10.9182 23.8203 10.9818L19.5437 13.4727V18.4C19.5437 18.5273 19.4808 18.6545 19.364 18.7182L10.4605 23.9L10.3976 23.9364L10.3707 23.9455C10.3078 23.9636 10.2449 23.9636 10.182 23.9455L10.146 23.9364L10.0921 23.9091L1.17964 18.7273C1.06284 18.6545 0.990967 18.5273 0.990967 18.4V2.97273L0.999951 2.87273L1.01792 2.83636L1.04487 2.78182L1.06284 2.74545L1.09878 2.7L1.13472 2.67273C1.15269 2.67273 1.16167 2.65455 1.17964 2.64545L5.63589 0.0545455C5.75269 -0.0181818 5.89644 -0.0181818 6.00425 0.0545455L10.4605 2.63636C10.4785 2.63636 10.4875 2.65455 10.4964 2.66364L10.5414 2.69091C10.5414 2.70909 10.5593 2.72727 10.5683 2.73636L10.5953 2.77273L10.6222 2.82727L10.6312 2.86364L10.6492 2.95455V12.5909L14.3507 10.4364V5.51818C14.3507 5.48182 14.3507 5.45455 14.3687 5.42727L14.3777 5.39091L14.4046 5.32727L14.4316 5.3L14.4585 5.25455L14.5035 5.22727L14.5394 5.19091L18.9957 2.6C19.1035 2.53636 19.2472 2.53636 19.355 2.6L23.8203 5.18182L23.8652 5.21818L23.9011 5.24545L23.9371 5.29091L23.955 5.31818C23.973 5.33636 23.973 5.36364 23.982 5.38182L24 5.40909L23.991 5.41818ZM23.2542 10.4455V6.17273L21.7 7.08182L19.5437 8.32727V12.6L23.2542 10.4455ZM18.807 18.1727V13.9L16.6867 15.1273L10.6492 18.6182V22.9364L18.807 18.1818V18.1727ZM1.73667 3.62727V18.1818L9.90347 22.9364V18.6182L5.63589 16.1727L5.59995 16.1364C5.58198 16.1364 5.573 16.1273 5.56401 16.1091L5.52808 16.0727L5.50112 16.0364L5.48315 15.9909L5.46519 15.9455V15.8909L5.44722 15.8455V5.78182L3.29995 4.52727L1.74565 3.61818L1.73667 3.62727ZM5.82456 0.809091L2.11401 2.98182L5.82456 5.13636L9.52612 2.98182L5.82456 0.809091ZM7.73823 14.3L9.89448 13.0455V3.61818L8.34019 4.52727L6.18394 5.78182V15.2L7.73823 14.2909V14.3ZM19.1753 3.35455L15.4648 5.51818L19.1753 7.68182L22.8859 5.51818L19.1753 3.35455ZM18.807 8.32727L16.6507 7.07273L15.0964 6.16364V10.4364L17.2527 11.7L18.807 12.6091V8.33636V8.32727ZM10.2718 17.9636L15.7164 14.8273L18.4296 13.2545L14.7281 11.0909L10.4605 13.5818L6.57026 15.8455L10.2718 17.9636Z"
+          fill="#ff2d20"
+        />
+      </g>
+      <defs>
+        <clipPath id="undefined-clip0_2066_423">
+          <path fill="#fff" transform="translate(1)" d="M0 0H23V24H0z" />
+        </clipPath>
+      </defs>
+    </svg>
+  );
+});
+
+Laravel.displayName = "Laravel";
+
+Laravel.metadata = {
+  name: "Laravel",
+  category: "icon/framework",
+  tags: ["laravel", "icon"],
+  description: "Laravel icon from icon/framework category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default Laravel;

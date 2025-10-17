@@ -1,31 +1,808 @@
 {
   "components": {
+    "Number0": {
+      "name": "Number0",
+      "path": "src/shapes/number/Number0.tsx",
+      "category": "shapes",
+      "subcategory": "number",
+      "size": "16"
+    },
+    "Number1": {
+      "name": "Number1",
+      "path": "src/shapes/number/Number1.tsx",
+      "category": "shapes",
+      "subcategory": "number",
+      "size": "16"
+    },
+    "Number2": {
+      "name": "Number2",
+      "path": "src/shapes/number/Number2.tsx",
+      "category": "shapes",
+      "subcategory": "number",
+      "size": "16"
+    },
+    "Number3": {
+      "name": "Number3",
+      "path": "src/shapes/number/Number3.tsx",
+      "category": "shapes",
+      "subcategory": "number",
+      "size": "16"
+    },
+    "Number4": {
+      "name": "Number4",
+      "path": "src/shapes/number/Number4.tsx",
+      "category": "shapes",
+      "subcategory": "number",
+      "size": "16"
+    },
+    "Number5": {
+      "name": "Number5",
+      "path": "src/shapes/number/Number5.tsx",
+      "category": "shapes",
+      "subcategory": "number",
+      "size": "16"
+    },
+    "Number6": {
+      "name": "Number6",
+      "path": "src/shapes/number/Number6.tsx",
+      "category": "shapes",
+      "subcategory": "number",
+      "size": "16"
+    },
+    "Number7": {
+      "name": "Number7",
+      "path": "src/shapes/number/Number7.tsx",
+      "category": "shapes",
+      "subcategory": "number",
+      "size": "16"
+    },
+    "Number8": {
+      "name": "Number8",
+      "path": "src/shapes/number/Number8.tsx",
+      "category": "shapes",
+      "subcategory": "number",
+      "size": "16"
+    },
+    "Number9": {
+      "name": "Number9",
+      "path": "src/shapes/number/Number9.tsx",
+      "category": "shapes",
+      "subcategory": "number",
+      "size": "16"
+    },
+    "Wheel1": {
+      "name": "Wheel1",
+      "path": "src/shapes/wheel/Wheel1.tsx",
+      "category": "shapes",
+      "subcategory": "wheel",
+      "size": "16"
+    },
+    "Wheel2": {
+      "name": "Wheel2",
+      "path": "src/shapes/wheel/Wheel2.tsx",
+      "category": "shapes",
+      "subcategory": "wheel",
+      "size": "16"
+    },
+    "Wheel3": {
+      "name": "Wheel3",
+      "path": "src/shapes/wheel/Wheel3.tsx",
+      "category": "shapes",
+      "subcategory": "wheel",
+      "size": "16"
+    },
+    "Wheel4": {
+      "name": "Wheel4",
+      "path": "src/shapes/wheel/Wheel4.tsx",
+      "category": "shapes",
+      "subcategory": "wheel",
+      "size": "16"
+    },
+    "Wheel5": {
+      "name": "Wheel5",
+      "path": "src/shapes/wheel/Wheel5.tsx",
+      "category": "shapes",
+      "subcategory": "wheel",
+      "size": "16"
+    },
+    "Wheel6": {
+      "name": "Wheel6",
+      "path": "src/shapes/wheel/Wheel6.tsx",
+      "category": "shapes",
+      "subcategory": "wheel",
+      "size": "16"
+    },
+    "Wheel7": {
+      "name": "Wheel7",
+      "path": "src/shapes/wheel/Wheel7.tsx",
+      "category": "shapes",
+      "subcategory": "wheel",
+      "size": "16"
+    },
     "Ellipse1": {
       "name": "Ellipse1",
-      "path": "src/shapes/shapes/Ellipse1.tsx",
+      "path": "src/shapes/ellipse/Ellipse1.tsx",
       "category": "shapes",
-      "subcategory": "shapes",
+      "subcategory": "ellipse",
       "size": "16"
     },
-    "Star1": {
-      "name": "Star1",
-      "path": "src/shapes/shapes/Star1.tsx",
+    "Ellipse2": {
+      "name": "Ellipse2",
+      "path": "src/shapes/ellipse/Ellipse2.tsx",
       "category": "shapes",
-      "subcategory": "shapes",
+      "subcategory": "ellipse",
       "size": "16"
     },
-    "Star2": {
-      "name": "Star2",
-      "path": "src/shapes/shapes/Star2.tsx",
+    "Ellipse3": {
+      "name": "Ellipse3",
+      "path": "src/shapes/ellipse/Ellipse3.tsx",
       "category": "shapes",
-      "subcategory": "shapes",
+      "subcategory": "ellipse",
+      "size": "16"
+    },
+    "Ellipse4": {
+      "name": "Ellipse4",
+      "path": "src/shapes/ellipse/Ellipse4.tsx",
+      "category": "shapes",
+      "subcategory": "ellipse",
+      "size": "16"
+    },
+    "Ellipse5": {
+      "name": "Ellipse5",
+      "path": "src/shapes/ellipse/Ellipse5.tsx",
+      "category": "shapes",
+      "subcategory": "ellipse",
+      "size": "16"
+    },
+    "Ellipse6": {
+      "name": "Ellipse6",
+      "path": "src/shapes/ellipse/Ellipse6.tsx",
+      "category": "shapes",
+      "subcategory": "ellipse",
+      "size": "16"
+    },
+    "Ellipse7": {
+      "name": "Ellipse7",
+      "path": "src/shapes/ellipse/Ellipse7.tsx",
+      "category": "shapes",
+      "subcategory": "ellipse",
+      "size": "16"
+    },
+    "Ellipse8": {
+      "name": "Ellipse8",
+      "path": "src/shapes/ellipse/Ellipse8.tsx",
+      "category": "shapes",
+      "subcategory": "ellipse",
+      "size": "16"
+    },
+    "Ellipse9": {
+      "name": "Ellipse9",
+      "path": "src/shapes/ellipse/Ellipse9.tsx",
+      "category": "shapes",
+      "subcategory": "ellipse",
+      "size": "16"
+    },
+    "Ellipse10": {
+      "name": "Ellipse10",
+      "path": "src/shapes/ellipse/Ellipse10.tsx",
+      "category": "shapes",
+      "subcategory": "ellipse",
+      "size": "16"
+    },
+    "Ellipse11": {
+      "name": "Ellipse11",
+      "path": "src/shapes/ellipse/Ellipse11.tsx",
+      "category": "shapes",
+      "subcategory": "ellipse",
+      "size": "16"
+    },
+    "Ellipse12": {
+      "name": "Ellipse12",
+      "path": "src/shapes/ellipse/Ellipse12.tsx",
+      "category": "shapes",
+      "subcategory": "ellipse",
+      "size": "16"
+    },
+    "Rectangle1": {
+      "name": "Rectangle1",
+      "path": "src/shapes/rectangle/Rectangle1.tsx",
+      "category": "shapes",
+      "subcategory": "rectangle",
+      "size": "16"
+    },
+    "Rectangle2": {
+      "name": "Rectangle2",
+      "path": "src/shapes/rectangle/Rectangle2.tsx",
+      "category": "shapes",
+      "subcategory": "rectangle",
+      "size": "16"
+    },
+    "Rectangle3": {
+      "name": "Rectangle3",
+      "path": "src/shapes/rectangle/Rectangle3.tsx",
+      "category": "shapes",
+      "subcategory": "rectangle",
+      "size": "16"
+    },
+    "Rectangle4": {
+      "name": "Rectangle4",
+      "path": "src/shapes/rectangle/Rectangle4.tsx",
+      "category": "shapes",
+      "subcategory": "rectangle",
+      "size": "16"
+    },
+    "Rectangle5": {
+      "name": "Rectangle5",
+      "path": "src/shapes/rectangle/Rectangle5.tsx",
+      "category": "shapes",
+      "subcategory": "rectangle",
+      "size": "16"
+    },
+    "Rectangle6": {
+      "name": "Rectangle6",
+      "path": "src/shapes/rectangle/Rectangle6.tsx",
+      "category": "shapes",
+      "subcategory": "rectangle",
+      "size": "16"
+    },
+    "Rectangle7": {
+      "name": "Rectangle7",
+      "path": "src/shapes/rectangle/Rectangle7.tsx",
+      "category": "shapes",
+      "subcategory": "rectangle",
+      "size": "16"
+    },
+    "Rectangle8": {
+      "name": "Rectangle8",
+      "path": "src/shapes/rectangle/Rectangle8.tsx",
+      "category": "shapes",
+      "subcategory": "rectangle",
+      "size": "16"
+    },
+    "Rectangle9": {
+      "name": "Rectangle9",
+      "path": "src/shapes/rectangle/Rectangle9.tsx",
+      "category": "shapes",
+      "subcategory": "rectangle",
+      "size": "16"
+    },
+    "Misc1": {
+      "name": "Misc1",
+      "path": "src/shapes/misc/Misc1.tsx",
+      "category": "shapes",
+      "subcategory": "misc",
+      "size": "16"
+    },
+    "Misc2": {
+      "name": "Misc2",
+      "path": "src/shapes/misc/Misc2.tsx",
+      "category": "shapes",
+      "subcategory": "misc",
+      "size": "16"
+    },
+    "Misc3": {
+      "name": "Misc3",
+      "path": "src/shapes/misc/Misc3.tsx",
+      "category": "shapes",
+      "subcategory": "misc",
+      "size": "16"
+    },
+    "Misc4": {
+      "name": "Misc4",
+      "path": "src/shapes/misc/Misc4.tsx",
+      "category": "shapes",
+      "subcategory": "misc",
+      "size": "16"
+    },
+    "Misc5": {
+      "name": "Misc5",
+      "path": "src/shapes/misc/Misc5.tsx",
+      "category": "shapes",
+      "subcategory": "misc",
+      "size": "16"
+    },
+    "Misc6": {
+      "name": "Misc6",
+      "path": "src/shapes/misc/Misc6.tsx",
+      "category": "shapes",
+      "subcategory": "misc",
+      "size": "16"
+    },
+    "Misc7": {
+      "name": "Misc7",
+      "path": "src/shapes/misc/Misc7.tsx",
+      "category": "shapes",
+      "subcategory": "misc",
+      "size": "16"
+    },
+    "Misc8": {
+      "name": "Misc8",
+      "path": "src/shapes/misc/Misc8.tsx",
+      "category": "shapes",
+      "subcategory": "misc",
+      "size": "16"
+    },
+    "Misc9": {
+      "name": "Misc9",
+      "path": "src/shapes/misc/Misc9.tsx",
+      "category": "shapes",
+      "subcategory": "misc",
+      "size": "16"
+    },
+    "Misc10": {
+      "name": "Misc10",
+      "path": "src/shapes/misc/Misc10.tsx",
+      "category": "shapes",
+      "subcategory": "misc",
+      "size": "16"
+    },
+    "Misc11": {
+      "name": "Misc11",
+      "path": "src/shapes/misc/Misc11.tsx",
+      "category": "shapes",
+      "subcategory": "misc",
       "size": "16"
     },
     "Flower1": {
       "name": "Flower1",
-      "path": "src/shapes/shapes/Flower1.tsx",
+      "path": "src/shapes/flower/Flower1.tsx",
       "category": "shapes",
-      "subcategory": "shapes",
+      "subcategory": "flower",
+      "size": "16"
+    },
+    "Flower2": {
+      "name": "Flower2",
+      "path": "src/shapes/flower/Flower2.tsx",
+      "category": "shapes",
+      "subcategory": "flower",
+      "size": "16"
+    },
+    "Flower3": {
+      "name": "Flower3",
+      "path": "src/shapes/flower/Flower3.tsx",
+      "category": "shapes",
+      "subcategory": "flower",
+      "size": "16"
+    },
+    "Flower4": {
+      "name": "Flower4",
+      "path": "src/shapes/flower/Flower4.tsx",
+      "category": "shapes",
+      "subcategory": "flower",
+      "size": "16"
+    },
+    "Flower5": {
+      "name": "Flower5",
+      "path": "src/shapes/flower/Flower5.tsx",
+      "category": "shapes",
+      "subcategory": "flower",
+      "size": "16"
+    },
+    "Flower6": {
+      "name": "Flower6",
+      "path": "src/shapes/flower/Flower6.tsx",
+      "category": "shapes",
+      "subcategory": "flower",
+      "size": "16"
+    },
+    "Flower7": {
+      "name": "Flower7",
+      "path": "src/shapes/flower/Flower7.tsx",
+      "category": "shapes",
+      "subcategory": "flower",
+      "size": "16"
+    },
+    "Flower8": {
+      "name": "Flower8",
+      "path": "src/shapes/flower/Flower8.tsx",
+      "category": "shapes",
+      "subcategory": "flower",
+      "size": "16"
+    },
+    "Flower9": {
+      "name": "Flower9",
+      "path": "src/shapes/flower/Flower9.tsx",
+      "category": "shapes",
+      "subcategory": "flower",
+      "size": "16"
+    },
+    "Flower10": {
+      "name": "Flower10",
+      "path": "src/shapes/flower/Flower10.tsx",
+      "category": "shapes",
+      "subcategory": "flower",
+      "size": "16"
+    },
+    "Flower11": {
+      "name": "Flower11",
+      "path": "src/shapes/flower/Flower11.tsx",
+      "category": "shapes",
+      "subcategory": "flower",
+      "size": "16"
+    },
+    "Flower12": {
+      "name": "Flower12",
+      "path": "src/shapes/flower/Flower12.tsx",
+      "category": "shapes",
+      "subcategory": "flower",
+      "size": "16"
+    },
+    "Flower13": {
+      "name": "Flower13",
+      "path": "src/shapes/flower/Flower13.tsx",
+      "category": "shapes",
+      "subcategory": "flower",
+      "size": "16"
+    },
+    "Flower14": {
+      "name": "Flower14",
+      "path": "src/shapes/flower/Flower14.tsx",
+      "category": "shapes",
+      "subcategory": "flower",
+      "size": "16"
+    },
+    "Flower15": {
+      "name": "Flower15",
+      "path": "src/shapes/flower/Flower15.tsx",
+      "category": "shapes",
+      "subcategory": "flower",
+      "size": "16"
+    },
+    "Flower16": {
+      "name": "Flower16",
+      "path": "src/shapes/flower/Flower16.tsx",
+      "category": "shapes",
+      "subcategory": "flower",
+      "size": "16"
+    },
+    "Polygon1": {
+      "name": "Polygon1",
+      "path": "src/shapes/polygon/Polygon1.tsx",
+      "category": "shapes",
+      "subcategory": "polygon",
+      "size": "16"
+    },
+    "Polygon2": {
+      "name": "Polygon2",
+      "path": "src/shapes/polygon/Polygon2.tsx",
+      "category": "shapes",
+      "subcategory": "polygon",
+      "size": "16"
+    },
+    "Polygon3": {
+      "name": "Polygon3",
+      "path": "src/shapes/polygon/Polygon3.tsx",
+      "category": "shapes",
+      "subcategory": "polygon",
+      "size": "16"
+    },
+    "Polygon4": {
+      "name": "Polygon4",
+      "path": "src/shapes/polygon/Polygon4.tsx",
+      "category": "shapes",
+      "subcategory": "polygon",
+      "size": "16"
+    },
+    "Polygon5": {
+      "name": "Polygon5",
+      "path": "src/shapes/polygon/Polygon5.tsx",
+      "category": "shapes",
+      "subcategory": "polygon",
+      "size": "16"
+    },
+    "Polygon6": {
+      "name": "Polygon6",
+      "path": "src/shapes/polygon/Polygon6.tsx",
+      "category": "shapes",
+      "subcategory": "polygon",
+      "size": "16"
+    },
+    "Polygon7": {
+      "name": "Polygon7",
+      "path": "src/shapes/polygon/Polygon7.tsx",
+      "category": "shapes",
+      "subcategory": "polygon",
+      "size": "16"
+    },
+    "Polygon8": {
+      "name": "Polygon8",
+      "path": "src/shapes/polygon/Polygon8.tsx",
+      "category": "shapes",
+      "subcategory": "polygon",
+      "size": "16"
+    },
+    "Moon1": {
+      "name": "Moon1",
+      "path": "src/shapes/moon/Moon1.tsx",
+      "category": "shapes",
+      "subcategory": "moon",
+      "size": "16"
+    },
+    "Moon2": {
+      "name": "Moon2",
+      "path": "src/shapes/moon/Moon2.tsx",
+      "category": "shapes",
+      "subcategory": "moon",
+      "size": "16"
+    },
+    "Moon3": {
+      "name": "Moon3",
+      "path": "src/shapes/moon/Moon3.tsx",
+      "category": "shapes",
+      "subcategory": "moon",
+      "size": "16"
+    },
+    "Moon4": {
+      "name": "Moon4",
+      "path": "src/shapes/moon/Moon4.tsx",
+      "category": "shapes",
+      "subcategory": "moon",
+      "size": "16"
+    },
+    "Moon5": {
+      "name": "Moon5",
+      "path": "src/shapes/moon/Moon5.tsx",
+      "category": "shapes",
+      "subcategory": "moon",
+      "size": "16"
+    },
+    "Moon6": {
+      "name": "Moon6",
+      "path": "src/shapes/moon/Moon6.tsx",
+      "category": "shapes",
+      "subcategory": "moon",
+      "size": "16"
+    },
+    "Moon7": {
+      "name": "Moon7",
+      "path": "src/shapes/moon/Moon7.tsx",
+      "category": "shapes",
+      "subcategory": "moon",
+      "size": "16"
+    },
+    "Moon8": {
+      "name": "Moon8",
+      "path": "src/shapes/moon/Moon8.tsx",
+      "category": "shapes",
+      "subcategory": "moon",
+      "size": "16"
+    },
+    "Moon9": {
+      "name": "Moon9",
+      "path": "src/shapes/moon/Moon9.tsx",
+      "category": "shapes",
+      "subcategory": "moon",
+      "size": "16"
+    },
+    "Moon10": {
+      "name": "Moon10",
+      "path": "src/shapes/moon/Moon10.tsx",
+      "category": "shapes",
+      "subcategory": "moon",
+      "size": "16"
+    },
+    "Moon11": {
+      "name": "Moon11",
+      "path": "src/shapes/moon/Moon11.tsx",
+      "category": "shapes",
+      "subcategory": "moon",
+      "size": "16"
+    },
+    "Moon12": {
+      "name": "Moon12",
+      "path": "src/shapes/moon/Moon12.tsx",
+      "category": "shapes",
+      "subcategory": "moon",
+      "size": "16"
+    },
+    "Moon13": {
+      "name": "Moon13",
+      "path": "src/shapes/moon/Moon13.tsx",
+      "category": "shapes",
+      "subcategory": "moon",
+      "size": "16"
+    },
+    "Moon14": {
+      "name": "Moon14",
+      "path": "src/shapes/moon/Moon14.tsx",
+      "category": "shapes",
+      "subcategory": "moon",
+      "size": "16"
+    },
+    "Moon15": {
+      "name": "Moon15",
+      "path": "src/shapes/moon/Moon15.tsx",
+      "category": "shapes",
+      "subcategory": "moon",
+      "size": "16"
+    },
+    "Triangle1": {
+      "name": "Triangle1",
+      "path": "src/shapes/triangle/Triangle1.tsx",
+      "category": "shapes",
+      "subcategory": "triangle",
+      "size": "16"
+    },
+    "Triangle2": {
+      "name": "Triangle2",
+      "path": "src/shapes/triangle/Triangle2.tsx",
+      "category": "shapes",
+      "subcategory": "triangle",
+      "size": "16"
+    },
+    "Triangle3": {
+      "name": "Triangle3",
+      "path": "src/shapes/triangle/Triangle3.tsx",
+      "category": "shapes",
+      "subcategory": "triangle",
+      "size": "16"
+    },
+    "Triangle4": {
+      "name": "Triangle4",
+      "path": "src/shapes/triangle/Triangle4.tsx",
+      "category": "shapes",
+      "subcategory": "triangle",
+      "size": "16"
+    },
+    "Triangle5": {
+      "name": "Triangle5",
+      "path": "src/shapes/triangle/Triangle5.tsx",
+      "category": "shapes",
+      "subcategory": "triangle",
+      "size": "16"
+    },
+    "Triangle6": {
+      "name": "Triangle6",
+      "path": "src/shapes/triangle/Triangle6.tsx",
+      "category": "shapes",
+      "subcategory": "triangle",
+      "size": "16"
+    },
+    "Triangle7": {
+      "name": "Triangle7",
+      "path": "src/shapes/triangle/Triangle7.tsx",
+      "category": "shapes",
+      "subcategory": "triangle",
+      "size": "16"
+    },
+    "Triangle8": {
+      "name": "Triangle8",
+      "path": "src/shapes/triangle/Triangle8.tsx",
+      "category": "shapes",
+      "subcategory": "triangle",
+      "size": "16"
+    },
+    "Triangle9": {
+      "name": "Triangle9",
+      "path": "src/shapes/triangle/Triangle9.tsx",
+      "category": "shapes",
+      "subcategory": "triangle",
+      "size": "16"
+    },
+    "Triangle10": {
+      "name": "Triangle10",
+      "path": "src/shapes/triangle/Triangle10.tsx",
+      "category": "shapes",
+      "subcategory": "triangle",
+      "size": "16"
+    },
+    "Triangle11": {
+      "name": "Triangle11",
+      "path": "src/shapes/triangle/Triangle11.tsx",
+      "category": "shapes",
+      "subcategory": "triangle",
+      "size": "16"
+    },
+    "Triangle12": {
+      "name": "Triangle12",
+      "path": "src/shapes/triangle/Triangle12.tsx",
+      "category": "shapes",
+      "subcategory": "triangle",
+      "size": "16"
+    },
+    "Triangle13": {
+      "name": "Triangle13",
+      "path": "src/shapes/triangle/Triangle13.tsx",
+      "category": "shapes",
+      "subcategory": "triangle",
+      "size": "16"
+    },
+    "Triangle14": {
+      "name": "Triangle14",
+      "path": "src/shapes/triangle/Triangle14.tsx",
+      "category": "shapes",
+      "subcategory": "triangle",
+      "size": "16"
+    },
+    "Star1": {
+      "name": "Star1",
+      "path": "src/shapes/star/Star1.tsx",
+      "category": "shapes",
+      "subcategory": "star",
+      "size": "16"
+    },
+    "Star2": {
+      "name": "Star2",
+      "path": "src/shapes/star/Star2.tsx",
+      "category": "shapes",
+      "subcategory": "star",
+      "size": "16"
+    },
+    "Star3": {
+      "name": "Star3",
+      "path": "src/shapes/star/Star3.tsx",
+      "category": "shapes",
+      "subcategory": "star",
+      "size": "16"
+    },
+    "Star4": {
+      "name": "Star4",
+      "path": "src/shapes/star/Star4.tsx",
+      "category": "shapes",
+      "subcategory": "star",
+      "size": "16"
+    },
+    "Star5": {
+      "name": "Star5",
+      "path": "src/shapes/star/Star5.tsx",
+      "category": "shapes",
+      "subcategory": "star",
+      "size": "16"
+    },
+    "Star6": {
+      "name": "Star6",
+      "path": "src/shapes/star/Star6.tsx",
+      "category": "shapes",
+      "subcategory": "star",
+      "size": "16"
+    },
+    "Star7": {
+      "name": "Star7",
+      "path": "src/shapes/star/Star7.tsx",
+      "category": "shapes",
+      "subcategory": "star",
+      "size": "16"
+    },
+    "Star8": {
+      "name": "Star8",
+      "path": "src/shapes/star/Star8.tsx",
+      "category": "shapes",
+      "subcategory": "star",
+      "size": "16"
+    },
+    "Star9": {
+      "name": "Star9",
+      "path": "src/shapes/star/Star9.tsx",
+      "category": "shapes",
+      "subcategory": "star",
+      "size": "16"
+    },
+    "Star10": {
+      "name": "Star10",
+      "path": "src/shapes/star/Star10.tsx",
+      "category": "shapes",
+      "subcategory": "star",
+      "size": "16"
+    },
+    "Star11": {
+      "name": "Star11",
+      "path": "src/shapes/star/Star11.tsx",
+      "category": "shapes",
+      "subcategory": "star",
+      "size": "16"
+    },
+    "Star12": {
+      "name": "Star12",
+      "path": "src/shapes/star/Star12.tsx",
+      "category": "shapes",
+      "subcategory": "star",
+      "size": "16"
+    },
+    "Star13": {
+      "name": "Star13",
+      "path": "src/shapes/star/Star13.tsx",
+      "category": "shapes",
+      "subcategory": "star",
       "size": "16"
     },
     "VerifiedBadge": {
@@ -2023,11 +2800,39 @@
       "subcategory": "social",
       "size": "16"
     },
+    "Peerlist": {
+      "name": "Peerlist",
+      "path": "src/icon/social/Peerlist.tsx",
+      "category": "icon",
+      "subcategory": "social",
+      "size": "16"
+    },
+    "Hashnode": {
+      "name": "Hashnode",
+      "path": "src/icon/social/Hashnode.tsx",
+      "category": "icon",
+      "subcategory": "social",
+      "size": "16"
+    },
+    "Vk": {
+      "name": "Vk",
+      "path": "src/icon/social/Vk.tsx",
+      "category": "icon",
+      "subcategory": "social",
+      "size": "16"
+    },
+    "Twitter": {
+      "name": "Twitter",
+      "path": "src/icon/social/Twitter.tsx",
+      "category": "icon",
+      "subcategory": "social",
+      "size": "16"
+    },
     "Polar": {
       "name": "Polar",
-      "path": "src/icon/software/Polar.tsx",
+      "path": "src/icon/payment/Polar.tsx",
       "category": "icon",
-      "subcategory": "software",
+      "subcategory": "payment",
       "size": "16"
     },
     "Bento": {
@@ -2107,6 +2912,552 @@
       "subcategory": "software",
       "size": "16"
     },
+    "LeapWallet": {
+      "name": "LeapWallet",
+      "path": "src/icon/crypto/LeapWallet.tsx",
+      "category": "icon",
+      "subcategory": "crypto",
+      "size": "16"
+    },
+    "Stripe": {
+      "name": "Stripe",
+      "path": "src/icon/payment/Stripe.tsx",
+      "category": "icon",
+      "subcategory": "payment",
+      "size": "16"
+    },
+    "MercadoPago": {
+      "name": "MercadoPago",
+      "path": "src/icon/payment/MercadoPago.tsx",
+      "category": "icon",
+      "subcategory": "payment",
+      "size": "16"
+    },
+    "PayPal": {
+      "name": "PayPal",
+      "path": "src/icon/payment/PayPal.tsx",
+      "category": "icon",
+      "subcategory": "payment",
+      "size": "16"
+    },
+    "SoundCloud": {
+      "name": "SoundCloud",
+      "path": "src/icon/music/SoundCloud.tsx",
+      "category": "icon",
+      "subcategory": "music",
+      "size": "16"
+    },
+    "Tidal": {
+      "name": "Tidal",
+      "path": "src/icon/music/Tidal.tsx",
+      "category": "icon",
+      "subcategory": "music",
+      "size": "16"
+    },
+    "Spotify": {
+      "name": "Spotify",
+      "path": "src/icon/music/Spotify.tsx",
+      "category": "icon",
+      "subcategory": "music",
+      "size": "16"
+    },
+    "Terraform": {
+      "name": "Terraform",
+      "path": "src/icon/language/Terraform.tsx",
+      "category": "icon",
+      "subcategory": "language",
+      "size": "16"
+    },
+    "Svg": {
+      "name": "Svg",
+      "path": "src/icon/design/Svg.tsx",
+      "category": "icon",
+      "subcategory": "design",
+      "size": "16"
+    },
+    "Gleam": {
+      "name": "Gleam",
+      "path": "src/icon/language/Gleam.tsx",
+      "category": "icon",
+      "subcategory": "language",
+      "size": "16"
+    },
+    "Markdown": {
+      "name": "Markdown",
+      "path": "src/icon/language/Markdown.tsx",
+      "category": "icon",
+      "subcategory": "language",
+      "size": "16"
+    },
+    "CHas": {
+      "name": "CHas",
+      "path": "src/icon/language/CHas.tsx",
+      "category": "icon",
+      "subcategory": "language",
+      "size": "16"
+    },
+    "Zig": {
+      "name": "Zig",
+      "path": "src/icon/language/Zig.tsx",
+      "category": "icon",
+      "subcategory": "language",
+      "size": "16"
+    },
+    "Rust": {
+      "name": "Rust",
+      "path": "src/icon/language/Rust.tsx",
+      "category": "icon",
+      "subcategory": "language",
+      "size": "16"
+    },
+    "R": {
+      "name": "R",
+      "path": "src/icon/language/R.tsx",
+      "category": "icon",
+      "subcategory": "language",
+      "size": "16"
+    },
+    "Haskell": {
+      "name": "Haskell",
+      "path": "src/icon/language/Haskell.tsx",
+      "category": "icon",
+      "subcategory": "language",
+      "size": "16"
+    },
+    "Fortran": {
+      "name": "Fortran",
+      "path": "src/icon/language/Fortran.tsx",
+      "category": "icon",
+      "subcategory": "language",
+      "size": "16"
+    },
+    "Cobol": {
+      "name": "Cobol",
+      "path": "src/icon/language/Cobol.tsx",
+      "category": "icon",
+      "subcategory": "language",
+      "size": "16"
+    },
+    "CPlusPlus": {
+      "name": "CPlusPlus",
+      "path": "src/icon/language/CPlusPlus.tsx",
+      "category": "icon",
+      "subcategory": "language",
+      "size": "16"
+    },
+    "C": {
+      "name": "C",
+      "path": "src/icon/language/C.tsx",
+      "category": "icon",
+      "subcategory": "language",
+      "size": "16"
+    },
+    "Bash": {
+      "name": "Bash",
+      "path": "src/icon/language/Bash.tsx",
+      "category": "icon",
+      "subcategory": "language",
+      "size": "16"
+    },
+    "Sass": {
+      "name": "Sass",
+      "path": "src/icon/language/Sass.tsx",
+      "category": "icon",
+      "subcategory": "language",
+      "size": "16"
+    },
+    "Php": {
+      "name": "Php",
+      "path": "src/icon/language/Php.tsx",
+      "category": "icon",
+      "subcategory": "language",
+      "size": "16"
+    },
+    "Solidity": {
+      "name": "Solidity",
+      "path": "src/icon/language/Solidity.tsx",
+      "category": "icon",
+      "subcategory": "language",
+      "size": "16"
+    },
+    "Css": {
+      "name": "Css",
+      "path": "src/icon/language/Css.tsx",
+      "category": "icon",
+      "subcategory": "language",
+      "size": "16"
+    },
+    "CssNew": {
+      "name": "CssNew",
+      "path": "src/icon/language/CssNew.tsx",
+      "category": "icon",
+      "subcategory": "language",
+      "size": "16"
+    },
+    "Html5": {
+      "name": "Html5",
+      "path": "src/icon/language/Html5.tsx",
+      "category": "icon",
+      "subcategory": "language",
+      "size": "16"
+    },
+    "Java": {
+      "name": "Java",
+      "path": "src/icon/language/Java.tsx",
+      "category": "icon",
+      "subcategory": "language",
+      "size": "16"
+    },
+    "Go": {
+      "name": "Go",
+      "path": "src/icon/language/Go.tsx",
+      "category": "icon",
+      "subcategory": "language",
+      "size": "16"
+    },
+    "GraphQl": {
+      "name": "GraphQl",
+      "path": "src/icon/language/GraphQl.tsx",
+      "category": "icon",
+      "subcategory": "language",
+      "size": "16"
+    },
+    "TypeScript": {
+      "name": "TypeScript",
+      "path": "src/icon/language/TypeScript.tsx",
+      "category": "icon",
+      "subcategory": "language",
+      "size": "16"
+    },
+    "JavaScript": {
+      "name": "JavaScript",
+      "path": "src/icon/language/JavaScript.tsx",
+      "category": "icon",
+      "subcategory": "language",
+      "size": "16"
+    },
+    "Lua": {
+      "name": "Lua",
+      "path": "src/icon/language/Lua.tsx",
+      "category": "icon",
+      "subcategory": "language",
+      "size": "16"
+    },
+    "WebGl": {
+      "name": "WebGl",
+      "path": "src/icon/library/WebGl.tsx",
+      "category": "icon",
+      "subcategory": "library",
+      "size": "16"
+    },
+    "KiboUi": {
+      "name": "KiboUi",
+      "path": "src/icon/library/KiboUi.tsx",
+      "category": "icon",
+      "subcategory": "library",
+      "size": "16"
+    },
+    "UnJs": {
+      "name": "UnJs",
+      "path": "src/icon/library/UnJs.tsx",
+      "category": "icon",
+      "subcategory": "library",
+      "size": "16"
+    },
+    "EsLint": {
+      "name": "EsLint",
+      "path": "src/icon/library/EsLint.tsx",
+      "category": "icon",
+      "subcategory": "library",
+      "size": "16"
+    },
+    "Mantine": {
+      "name": "Mantine",
+      "path": "src/icon/library/Mantine.tsx",
+      "category": "icon",
+      "subcategory": "library",
+      "size": "16"
+    },
+    "ArkUi": {
+      "name": "ArkUi",
+      "path": "src/icon/library/ArkUi.tsx",
+      "category": "icon",
+      "subcategory": "library",
+      "size": "16"
+    },
+    "EffectTs": {
+      "name": "EffectTs",
+      "path": "src/icon/library/EffectTs.tsx",
+      "category": "icon",
+      "subcategory": "library",
+      "size": "16"
+    },
+    "KokonutUi": {
+      "name": "KokonutUi",
+      "path": "src/icon/library/KokonutUi.tsx",
+      "category": "icon",
+      "subcategory": "library",
+      "size": "16"
+    },
+    "ReactWheelPicker": {
+      "name": "ReactWheelPicker",
+      "path": "src/icon/library/ReactWheelPicker.tsx",
+      "category": "icon",
+      "subcategory": "library",
+      "size": "16"
+    },
+    "HeroUi": {
+      "name": "HeroUi",
+      "path": "src/icon/library/HeroUi.tsx",
+      "category": "icon",
+      "subcategory": "library",
+      "size": "16"
+    },
+    "BetterAuth": {
+      "name": "BetterAuth",
+      "path": "src/icon/authentication/BetterAuth.tsx",
+      "category": "icon",
+      "subcategory": "authentication",
+      "size": "16"
+    },
+    "WebComponents": {
+      "name": "WebComponents",
+      "path": "src/icon/library/WebComponents.tsx",
+      "category": "icon",
+      "subcategory": "library",
+      "size": "16"
+    },
+    "SocketIo": {
+      "name": "SocketIo",
+      "path": "src/icon/library/SocketIo.tsx",
+      "category": "icon",
+      "subcategory": "library",
+      "size": "16"
+    },
+    "BaseUi": {
+      "name": "BaseUi",
+      "path": "src/icon/library/BaseUi.tsx",
+      "category": "icon",
+      "subcategory": "library",
+      "size": "16"
+    },
+    "Shiki": {
+      "name": "Shiki",
+      "path": "src/icon/library/Shiki.tsx",
+      "category": "icon",
+      "subcategory": "library",
+      "size": "16"
+    },
+    "Motion": {
+      "name": "Motion",
+      "path": "src/icon/library/Motion.tsx",
+      "category": "icon",
+      "subcategory": "library",
+      "size": "16"
+    },
+    "Mermaid": {
+      "name": "Mermaid",
+      "path": "src/icon/library/Mermaid.tsx",
+      "category": "icon",
+      "subcategory": "library",
+      "size": "16"
+    },
+    "Nuqs": {
+      "name": "Nuqs",
+      "path": "src/icon/library/Nuqs.tsx",
+      "category": "icon",
+      "subcategory": "library",
+      "size": "16"
+    },
+    "DrizzleOrm": {
+      "name": "DrizzleOrm",
+      "path": "src/icon/library/DrizzleOrm.tsx",
+      "category": "icon",
+      "subcategory": "library",
+      "size": "16"
+    },
+    "Prettier": {
+      "name": "Prettier",
+      "path": "src/icon/library/Prettier.tsx",
+      "category": "icon",
+      "subcategory": "library",
+      "size": "16"
+    },
+    "JsonSchema": {
+      "name": "JsonSchema",
+      "path": "src/icon/library/JsonSchema.tsx",
+      "category": "icon",
+      "subcategory": "library",
+      "size": "16"
+    },
+    "ChartJs": {
+      "name": "ChartJs",
+      "path": "src/icon/library/ChartJs.tsx",
+      "category": "icon",
+      "subcategory": "library",
+      "size": "16"
+    },
+    "Exome": {
+      "name": "Exome",
+      "path": "src/icon/library/Exome.tsx",
+      "category": "icon",
+      "subcategory": "library",
+      "size": "16"
+    },
+    "Swr": {
+      "name": "Swr",
+      "path": "src/icon/library/Swr.tsx",
+      "category": "icon",
+      "subcategory": "library",
+      "size": "16"
+    },
+    "RadixUi": {
+      "name": "RadixUi",
+      "path": "src/icon/library/RadixUi.tsx",
+      "category": "icon",
+      "subcategory": "library",
+      "size": "16"
+    },
+    "PandaCss": {
+      "name": "PandaCss",
+      "path": "src/icon/library/PandaCss.tsx",
+      "category": "icon",
+      "subcategory": "library",
+      "size": "16"
+    },
+    "Frame99": {
+      "name": "Frame99",
+      "path": "src/icon/library/Frame99.tsx",
+      "category": "icon",
+      "subcategory": "library",
+      "size": "16"
+    },
+    "Tauri": {
+      "name": "Tauri",
+      "path": "src/icon/library/Tauri.tsx",
+      "category": "icon",
+      "subcategory": "library",
+      "size": "16"
+    },
+    "Redux": {
+      "name": "Redux",
+      "path": "src/icon/library/Redux.tsx",
+      "category": "icon",
+      "subcategory": "library",
+      "size": "16"
+    },
+    "Electron": {
+      "name": "Electron",
+      "path": "src/icon/library/Electron.tsx",
+      "category": "icon",
+      "subcategory": "library",
+      "size": "16"
+    },
+    "ThreeJs": {
+      "name": "ThreeJs",
+      "path": "src/icon/library/ThreeJs.tsx",
+      "category": "icon",
+      "subcategory": "library",
+      "size": "16"
+    },
+    "Amp": {
+      "name": "Amp",
+      "path": "src/icon/library/Amp.tsx",
+      "category": "icon",
+      "subcategory": "library",
+      "size": "16"
+    },
+    "ReactRouter": {
+      "name": "ReactRouter",
+      "path": "src/icon/library/ReactRouter.tsx",
+      "category": "icon",
+      "subcategory": "library",
+      "size": "16"
+    },
+    "Auth0": {
+      "name": "Auth0",
+      "path": "src/icon/authentication/Auth0.tsx",
+      "category": "icon",
+      "subcategory": "authentication",
+      "size": "16"
+    },
+    "Bun": {
+      "name": "Bun",
+      "path": "src/icon/library/Bun.tsx",
+      "category": "icon",
+      "subcategory": "library",
+      "size": "16"
+    },
+    "Lit": {
+      "name": "Lit",
+      "path": "src/icon/library/Lit.tsx",
+      "category": "icon",
+      "subcategory": "library",
+      "size": "16"
+    },
+    "Deno": {
+      "name": "Deno",
+      "path": "src/icon/library/Deno.tsx",
+      "category": "icon",
+      "subcategory": "library",
+      "size": "16"
+    },
+    "DiscordJs": {
+      "name": "DiscordJs",
+      "path": "src/icon/library/DiscordJs.tsx",
+      "category": "icon",
+      "subcategory": "library",
+      "size": "16"
+    },
+    "Jwt": {
+      "name": "Jwt",
+      "path": "src/icon/authentication/Jwt.tsx",
+      "category": "icon",
+      "subcategory": "authentication",
+      "size": "16"
+    },
+    "NuxtHub": {
+      "name": "NuxtHub",
+      "path": "src/icon/library/NuxtHub.tsx",
+      "category": "icon",
+      "subcategory": "library",
+      "size": "16"
+    },
+    "Vuetify": {
+      "name": "Vuetify",
+      "path": "src/icon/library/Vuetify.tsx",
+      "category": "icon",
+      "subcategory": "library",
+      "size": "16"
+    },
+    "Svelte": {
+      "name": "Svelte",
+      "path": "src/icon/library/Svelte.tsx",
+      "category": "icon",
+      "subcategory": "library",
+      "size": "16"
+    },
+    "ReactLib": {
+      "name": "ReactLib",
+      "path": "src/icon/library/ReactLib.tsx",
+      "category": "icon",
+      "subcategory": "library",
+      "size": "16"
+    },
+    "Preact": {
+      "name": "Preact",
+      "path": "src/icon/library/Preact.tsx",
+      "category": "icon",
+      "subcategory": "library",
+      "size": "16"
+    },
+    "Ahooks": {
+      "name": "Ahooks",
+      "path": "src/icon/library/Ahooks.tsx",
+      "category": "icon",
+      "subcategory": "library",
+      "size": "16"
+    },
     "GoogleCloud": {
       "name": "GoogleCloud",
       "path": "src/icon/google/GoogleCloud.tsx",
@@ -2177,88 +3528,326 @@
       "subcategory": "google",
       "size": "16"
     },
-    "Safari": {
-      "name": "Safari",
-      "path": "src/icon/browser/Safari.tsx",
+    "ModelContextProtocol": {
+      "name": "ModelContextProtocol",
+      "path": "src/icon/framework/ModelContextProtocol.tsx",
       "category": "icon",
-      "subcategory": "browser",
+      "subcategory": "framework",
       "size": "16"
     },
-    "Edge": {
-      "name": "Edge",
-      "path": "src/icon/browser/Edge.tsx",
+    "Trpc": {
+      "name": "Trpc",
+      "path": "src/icon/framework/Trpc.tsx",
       "category": "icon",
-      "subcategory": "browser",
+      "subcategory": "framework",
       "size": "16"
     },
-    "Chromium": {
-      "name": "Chromium",
-      "path": "src/icon/browser/Chromium.tsx",
+    "Vitest": {
+      "name": "Vitest",
+      "path": "src/icon/framework/Vitest.tsx",
       "category": "icon",
-      "subcategory": "browser",
+      "subcategory": "framework",
       "size": "16"
     },
-    "Opera": {
-      "name": "Opera",
-      "path": "src/icon/browser/Opera.tsx",
+    "T3Stack": {
+      "name": "T3Stack",
+      "path": "src/icon/framework/T3Stack.tsx",
       "category": "icon",
-      "subcategory": "browser",
+      "subcategory": "framework",
       "size": "16"
     },
-    "Firefox": {
-      "name": "Firefox",
-      "path": "src/icon/browser/Firefox.tsx",
+    "Refine": {
+      "name": "Refine",
+      "path": "src/icon/framework/Refine.tsx",
       "category": "icon",
-      "subcategory": "browser",
+      "subcategory": "framework",
       "size": "16"
     },
-    "Bing": {
-      "name": "Bing",
-      "path": "src/icon/browser/Bing.tsx",
+    "ElysiaJs": {
+      "name": "ElysiaJs",
+      "path": "src/icon/framework/ElysiaJs.tsx",
       "category": "icon",
-      "subcategory": "browser",
+      "subcategory": "framework",
       "size": "16"
     },
-    "Chrome": {
-      "name": "Chrome",
-      "path": "src/icon/browser/Chrome.tsx",
+    "Flask": {
+      "name": "Flask",
+      "path": "src/icon/framework/Flask.tsx",
       "category": "icon",
-      "subcategory": "browser",
+      "subcategory": "framework",
       "size": "16"
     },
-    "ZenBrowser": {
-      "name": "ZenBrowser",
-      "path": "src/icon/browser/ZenBrowser.tsx",
+    "Remix": {
+      "name": "Remix",
+      "path": "src/icon/framework/Remix.tsx",
       "category": "icon",
-      "subcategory": "browser",
+      "subcategory": "framework",
       "size": "16"
     },
-    "Vivaldi": {
-      "name": "Vivaldi",
-      "path": "src/icon/browser/Vivaldi.tsx",
+    "Spring": {
+      "name": "Spring",
+      "path": "src/icon/framework/Spring.tsx",
       "category": "icon",
-      "subcategory": "browser",
+      "subcategory": "framework",
       "size": "16"
     },
-    "DuckDuckGo": {
-      "name": "DuckDuckGo",
-      "path": "src/icon/browser/DuckDuckGo.tsx",
+    "Django": {
+      "name": "Django",
+      "path": "src/icon/framework/Django.tsx",
       "category": "icon",
-      "subcategory": "browser",
+      "subcategory": "framework",
       "size": "16"
     },
-    "Arc": {
-      "name": "Arc",
-      "path": "src/icon/browser/Arc.tsx",
+    "Sst": {
+      "name": "Sst",
+      "path": "src/icon/framework/Sst.tsx",
       "category": "icon",
-      "subcategory": "browser",
+      "subcategory": "framework",
       "size": "16"
     },
-    "BraveBrowser": {
-      "name": "BraveBrowser",
-      "path": "src/icon/browser/BraveBrowser.tsx",
+    "Remotion": {
+      "name": "Remotion",
+      "path": "src/icon/framework/Remotion.tsx",
       "category": "icon",
-      "subcategory": "browser",
+      "subcategory": "framework",
+      "size": "16"
+    },
+    "FastApi": {
+      "name": "FastApi",
+      "path": "src/icon/framework/FastApi.tsx",
+      "category": "icon",
+      "subcategory": "framework",
+      "size": "16"
+    },
+    "Hono": {
+      "name": "Hono",
+      "path": "src/icon/framework/Hono.tsx",
+      "category": "icon",
+      "subcategory": "framework",
+      "size": "16"
+    },
+    "Stimulus": {
+      "name": "Stimulus",
+      "path": "src/icon/framework/Stimulus.tsx",
+      "category": "icon",
+      "subcategory": "framework",
+      "size": "16"
+    },
+    "Sequelize": {
+      "name": "Sequelize",
+      "path": "src/icon/framework/Sequelize.tsx",
+      "category": "icon",
+      "subcategory": "framework",
+      "size": "16"
+    },
+    "RedwoodJs": {
+      "name": "RedwoodJs",
+      "path": "src/icon/framework/RedwoodJs.tsx",
+      "category": "icon",
+      "subcategory": "framework",
+      "size": "16"
+    },
+    "ReactQuery": {
+      "name": "ReactQuery",
+      "path": "src/icon/framework/ReactQuery.tsx",
+      "category": "icon",
+      "subcategory": "framework",
+      "size": "16"
+    },
+    "MaterialUi": {
+      "name": "MaterialUi",
+      "path": "src/icon/framework/MaterialUi.tsx",
+      "category": "icon",
+      "subcategory": "framework",
+      "size": "16"
+    },
+    "Laravel": {
+      "name": "Laravel",
+      "path": "src/icon/framework/Laravel.tsx",
+      "category": "icon",
+      "subcategory": "framework",
+      "size": "16"
+    },
+    "KrakenJs": {
+      "name": "KrakenJs",
+      "path": "src/icon/framework/KrakenJs.tsx",
+      "category": "icon",
+      "subcategory": "framework",
+      "size": "16"
+    },
+    "Jest": {
+      "name": "Jest",
+      "path": "src/icon/framework/Jest.tsx",
+      "category": "icon",
+      "subcategory": "framework",
+      "size": "16"
+    },
+    "Jasmine": {
+      "name": "Jasmine",
+      "path": "src/icon/framework/Jasmine.tsx",
+      "category": "icon",
+      "subcategory": "framework",
+      "size": "16"
+    },
+    "Fresh": {
+      "name": "Fresh",
+      "path": "src/icon/framework/Fresh.tsx",
+      "category": "icon",
+      "subcategory": "framework",
+      "size": "16"
+    },
+    "Flutter": {
+      "name": "Flutter",
+      "path": "src/icon/framework/Flutter.tsx",
+      "category": "icon",
+      "subcategory": "framework",
+      "size": "16"
+    },
+    "Playwright": {
+      "name": "Playwright",
+      "path": "src/icon/framework/Playwright.tsx",
+      "category": "icon",
+      "subcategory": "framework",
+      "size": "16"
+    },
+    "NestJs": {
+      "name": "NestJs",
+      "path": "src/icon/framework/NestJs.tsx",
+      "category": "icon",
+      "subcategory": "framework",
+      "size": "16"
+    },
+    "Fastify": {
+      "name": "Fastify",
+      "path": "src/icon/framework/Fastify.tsx",
+      "category": "icon",
+      "subcategory": "framework",
+      "size": "16"
+    },
+    "ExpressJs": {
+      "name": "ExpressJs",
+      "path": "src/icon/framework/ExpressJs.tsx",
+      "category": "icon",
+      "subcategory": "framework",
+      "size": "16"
+    },
+    "Astro": {
+      "name": "Astro",
+      "path": "src/icon/framework/Astro.tsx",
+      "category": "icon",
+      "subcategory": "framework",
+      "size": "16"
+    },
+    "Blitz": {
+      "name": "Blitz",
+      "path": "src/icon/framework/Blitz.tsx",
+      "category": "icon",
+      "subcategory": "framework",
+      "size": "16"
+    },
+    "TailwindCss": {
+      "name": "TailwindCss",
+      "path": "src/icon/framework/TailwindCss.tsx",
+      "category": "icon",
+      "subcategory": "framework",
+      "size": "16"
+    },
+    "Gatsby": {
+      "name": "Gatsby",
+      "path": "src/icon/framework/Gatsby.tsx",
+      "category": "icon",
+      "subcategory": "framework",
+      "size": "16"
+    },
+    "Bootstrap": {
+      "name": "Bootstrap",
+      "path": "src/icon/framework/Bootstrap.tsx",
+      "category": "icon",
+      "subcategory": "framework",
+      "size": "16"
+    },
+    "Nuxt": {
+      "name": "Nuxt",
+      "path": "src/icon/framework/Nuxt.tsx",
+      "category": "icon",
+      "subcategory": "framework",
+      "size": "16"
+    },
+    "Vue": {
+      "name": "Vue",
+      "path": "src/icon/framework/Vue.tsx",
+      "category": "icon",
+      "subcategory": "framework",
+      "size": "16"
+    },
+    "KiloCode": {
+      "name": "KiloCode",
+      "path": "src/icon/devtool/KiloCode.tsx",
+      "category": "icon",
+      "subcategory": "devtool",
+      "size": "16"
+    },
+    "Rsbuild": {
+      "name": "Rsbuild",
+      "path": "src/icon/compiler/Rsbuild.tsx",
+      "category": "icon",
+      "subcategory": "compiler",
+      "size": "16"
+    },
+    "Dotenvx": {
+      "name": "Dotenvx",
+      "path": "src/icon/devtool/Dotenvx.tsx",
+      "category": "icon",
+      "subcategory": "devtool",
+      "size": "16"
+    },
+    "Dotenv": {
+      "name": "Dotenv",
+      "path": "src/icon/devtool/Dotenv.tsx",
+      "category": "icon",
+      "subcategory": "devtool",
+      "size": "16"
+    },
+    "MicrosoftNet": {
+      "name": "MicrosoftNet",
+      "path": "src/icon/devtool/MicrosoftNet.tsx",
+      "category": "icon",
+      "subcategory": "devtool",
+      "size": "16"
+    },
+    "PostHog": {
+      "name": "PostHog",
+      "path": "src/icon/devtool/PostHog.tsx",
+      "category": "icon",
+      "subcategory": "devtool",
+      "size": "16"
+    },
+    "Bolt": {
+      "name": "Bolt",
+      "path": "src/icon/devtool/Bolt.tsx",
+      "category": "icon",
+      "subcategory": "devtool",
+      "size": "16"
+    },
+    "UnoCss": {
+      "name": "UnoCss",
+      "path": "src/icon/devtool/UnoCss.tsx",
+      "category": "icon",
+      "subcategory": "devtool",
+      "size": "16"
+    },
+    "Oxc": {
+      "name": "Oxc",
+      "path": "src/icon/devtool/Oxc.tsx",
+      "category": "icon",
+      "subcategory": "devtool",
+      "size": "16"
+    },
+    "Nx": {
+      "name": "Nx",
+      "path": "src/icon/devtool/Nx.tsx",
+      "category": "icon",
+      "subcategory": "devtool",
       "size": "16"
     },
     "Figma": {
@@ -2348,13 +3937,6 @@
     "LottieFiles": {
       "name": "LottieFiles",
       "path": "src/icon/design/LottieFiles.tsx",
-      "category": "icon",
-      "subcategory": "design",
-      "size": "16"
-    },
-    "Svg": {
-      "name": "Svg",
-      "path": "src/icon/design/Svg.tsx",
       "category": "icon",
       "subcategory": "design",
       "size": "16"
@@ -2506,13 +4088,6 @@
       "subcategory": "crypto",
       "size": "16"
     },
-    "LeapWallet": {
-      "name": "LeapWallet",
-      "path": "src/icon/crypto/LeapWallet.tsx",
-      "category": "icon",
-      "subcategory": "crypto",
-      "size": "16"
-    },
     "Litecoin": {
       "name": "Litecoin",
       "path": "src/icon/crypto/Litecoin.tsx",
@@ -2609,13 +4184,6 @@
       "path": "src/icon/crypto/Ton.tsx",
       "category": "icon",
       "subcategory": "crypto",
-      "size": "16"
-    },
-    "Rsbuild": {
-      "name": "Rsbuild",
-      "path": "src/icon/compiler/Rsbuild.tsx",
-      "category": "icon",
-      "subcategory": "compiler",
       "size": "16"
     },
     "Rspack": {
@@ -2793,6 +4361,90 @@
       "subcategory": "cms",
       "size": "16"
     },
+    "Safari": {
+      "name": "Safari",
+      "path": "src/icon/browser/Safari.tsx",
+      "category": "icon",
+      "subcategory": "browser",
+      "size": "16"
+    },
+    "Edge": {
+      "name": "Edge",
+      "path": "src/icon/browser/Edge.tsx",
+      "category": "icon",
+      "subcategory": "browser",
+      "size": "16"
+    },
+    "Chromium": {
+      "name": "Chromium",
+      "path": "src/icon/browser/Chromium.tsx",
+      "category": "icon",
+      "subcategory": "browser",
+      "size": "16"
+    },
+    "Opera": {
+      "name": "Opera",
+      "path": "src/icon/browser/Opera.tsx",
+      "category": "icon",
+      "subcategory": "browser",
+      "size": "16"
+    },
+    "Firefox": {
+      "name": "Firefox",
+      "path": "src/icon/browser/Firefox.tsx",
+      "category": "icon",
+      "subcategory": "browser",
+      "size": "16"
+    },
+    "Bing": {
+      "name": "Bing",
+      "path": "src/icon/browser/Bing.tsx",
+      "category": "icon",
+      "subcategory": "browser",
+      "size": "16"
+    },
+    "Chrome": {
+      "name": "Chrome",
+      "path": "src/icon/browser/Chrome.tsx",
+      "category": "icon",
+      "subcategory": "browser",
+      "size": "16"
+    },
+    "ZenBrowser": {
+      "name": "ZenBrowser",
+      "path": "src/icon/browser/ZenBrowser.tsx",
+      "category": "icon",
+      "subcategory": "browser",
+      "size": "16"
+    },
+    "Vivaldi": {
+      "name": "Vivaldi",
+      "path": "src/icon/browser/Vivaldi.tsx",
+      "category": "icon",
+      "subcategory": "browser",
+      "size": "16"
+    },
+    "DuckDuckGo": {
+      "name": "DuckDuckGo",
+      "path": "src/icon/browser/DuckDuckGo.tsx",
+      "category": "icon",
+      "subcategory": "browser",
+      "size": "16"
+    },
+    "Arc": {
+      "name": "Arc",
+      "path": "src/icon/browser/Arc.tsx",
+      "category": "icon",
+      "subcategory": "browser",
+      "size": "16"
+    },
+    "BraveBrowser": {
+      "name": "BraveBrowser",
+      "path": "src/icon/browser/BraveBrowser.tsx",
+      "category": "icon",
+      "subcategory": "browser",
+      "size": "16"
+    },
     "Lovable": {
       "name": "Lovable",
       "path": "src/icon/ai/Lovable.tsx",
@@ -2835,13 +4487,6 @@
       "subcategory": "ai",
       "size": "16"
     },
-    "BetterAuth": {
-      "name": "BetterAuth",
-      "path": "src/icon/authentication/BetterAuth.tsx",
-      "category": "icon",
-      "subcategory": "authentication",
-      "size": "16"
-    },
     "Keycloak": {
       "name": "Keycloak",
       "path": "src/icon/authentication/Keycloak.tsx",
@@ -2852,13 +4497,6 @@
     "Bitwarden": {
       "name": "Bitwarden",
       "path": "src/icon/authentication/Bitwarden.tsx",
-      "category": "icon",
-      "subcategory": "authentication",
-      "size": "16"
-    },
-    "Auth0": {
-      "name": "Auth0",
-      "path": "src/icon/authentication/Auth0.tsx",
       "category": "icon",
       "subcategory": "authentication",
       "size": "16"
@@ -2883,18 +4521,145 @@
       "category": "icon",
       "subcategory": "authentication",
       "size": "16"
-    },
-    "Jwt": {
-      "name": "Jwt",
-      "path": "src/icon/authentication/Jwt.tsx",
-      "category": "icon",
-      "subcategory": "authentication",
-      "size": "16"
     }
   },
   "categories": {
     "shapes": {
-      "shapes": ["Ellipse1", "Star1", "Star2", "Flower1"]
+      "number": [
+        "Number0",
+        "Number1",
+        "Number2",
+        "Number3",
+        "Number4",
+        "Number5",
+        "Number6",
+        "Number7",
+        "Number8",
+        "Number9"
+      ],
+      "wheel": [
+        "Wheel1",
+        "Wheel2",
+        "Wheel3",
+        "Wheel4",
+        "Wheel5",
+        "Wheel6",
+        "Wheel7"
+      ],
+      "ellipse": [
+        "Ellipse1",
+        "Ellipse2",
+        "Ellipse3",
+        "Ellipse4",
+        "Ellipse5",
+        "Ellipse6",
+        "Ellipse7",
+        "Ellipse8",
+        "Ellipse9",
+        "Ellipse10",
+        "Ellipse11",
+        "Ellipse12"
+      ],
+      "rectangle": [
+        "Rectangle1",
+        "Rectangle2",
+        "Rectangle3",
+        "Rectangle4",
+        "Rectangle5",
+        "Rectangle6",
+        "Rectangle7",
+        "Rectangle8",
+        "Rectangle9"
+      ],
+      "misc": [
+        "Misc1",
+        "Misc2",
+        "Misc3",
+        "Misc4",
+        "Misc5",
+        "Misc6",
+        "Misc7",
+        "Misc8",
+        "Misc9",
+        "Misc10",
+        "Misc11"
+      ],
+      "flower": [
+        "Flower1",
+        "Flower2",
+        "Flower3",
+        "Flower4",
+        "Flower5",
+        "Flower6",
+        "Flower7",
+        "Flower8",
+        "Flower9",
+        "Flower10",
+        "Flower11",
+        "Flower12",
+        "Flower13",
+        "Flower14",
+        "Flower15",
+        "Flower16"
+      ],
+      "polygon": [
+        "Polygon1",
+        "Polygon2",
+        "Polygon3",
+        "Polygon4",
+        "Polygon5",
+        "Polygon6",
+        "Polygon7",
+        "Polygon8"
+      ],
+      "moon": [
+        "Moon1",
+        "Moon2",
+        "Moon3",
+        "Moon4",
+        "Moon5",
+        "Moon6",
+        "Moon7",
+        "Moon8",
+        "Moon9",
+        "Moon10",
+        "Moon11",
+        "Moon12",
+        "Moon13",
+        "Moon14",
+        "Moon15"
+      ],
+      "triangle": [
+        "Triangle1",
+        "Triangle2",
+        "Triangle3",
+        "Triangle4",
+        "Triangle5",
+        "Triangle6",
+        "Triangle7",
+        "Triangle8",
+        "Triangle9",
+        "Triangle10",
+        "Triangle11",
+        "Triangle12",
+        "Triangle13",
+        "Triangle14"
+      ],
+      "star": [
+        "Star1",
+        "Star2",
+        "Star3",
+        "Star4",
+        "Star5",
+        "Star6",
+        "Star7",
+        "Star8",
+        "Star9",
+        "Star10",
+        "Star11",
+        "Star12",
+        "Star13"
+      ]
     },
     "symbols": {
       "stickers": ["VerifiedBadge"],
@@ -3199,7 +4964,12 @@
         "Meta",
         "Reddit",
         "Pinterest",
-        "Telegram"
+        "Telegram",
+        "Pinterest",
+        "Peerlist",
+        "Hashnode",
+        "Vk",
+        "Twitter"
       ],
       "software": [
         "Cursor",
@@ -3224,6 +4994,83 @@
         "Nextjs",
         "Apple"
       ],
+      "payment": ["Polar", "LeapWallet", "Stripe", "MercadoPago", "PayPal"],
+      "music": ["SoundCloud", "Tidal", "Spotify"],
+      "language": [
+        "Terraform",
+        "Svg",
+        "Gleam",
+        "Markdown",
+        "CHas",
+        "Zig",
+        "Rust",
+        "R",
+        "Haskell",
+        "Fortran",
+        "Cobol",
+        "CPlusPlus",
+        "C",
+        "Bash",
+        "Sass",
+        "Php",
+        "Solidity",
+        "Css",
+        "CssNew",
+        "Html5",
+        "Java",
+        "Go",
+        "GraphQl",
+        "TypeScript",
+        "JavaScript",
+        "Lua"
+      ],
+      "library": [
+        "WebGl",
+        "KiboUi",
+        "UnJs",
+        "EsLint",
+        "Mantine",
+        "ArkUi",
+        "EffectTs",
+        "KokonutUi",
+        "ReactWheelPicker",
+        "HeroUi",
+        "BetterAuth",
+        "WebComponents",
+        "SocketIo",
+        "BaseUi",
+        "Shiki",
+        "Motion",
+        "Mermaid",
+        "Nuqs",
+        "DrizzleOrm",
+        "Prettier",
+        "JsonSchema",
+        "ChartJs",
+        "Exome",
+        "Swr",
+        "RadixUi",
+        "PandaCss",
+        "Frame99",
+        "Tauri",
+        "Redux",
+        "Electron",
+        "ThreeJs",
+        "Amp",
+        "ReactRouter",
+        "Auth0",
+        "Bun",
+        "Lit",
+        "Deno",
+        "DiscordJs",
+        "Jwt",
+        "NuxtHub",
+        "Vuetify",
+        "Svelte",
+        "ReactLib",
+        "Preact",
+        "Ahooks"
+      ],
       "google": [
         "Google",
         "GoogleCloud",
@@ -3237,19 +5084,55 @@
         "GoogleDrive",
         "GoogleClassroom"
       ],
-      "browser": [
-        "Safari",
-        "Edge",
-        "Chromium",
-        "Opera",
-        "Firefox",
-        "Bing",
-        "Chrome",
-        "ZenBrowser",
-        "Vivaldi",
-        "DuckDuckGo",
-        "Arc",
-        "BraveBrowser"
+      "framework": [
+        "ModelContextProtocol",
+        "Trpc",
+        "Vitest",
+        "T3Stack",
+        "Refine",
+        "ElysiaJs",
+        "Flask",
+        "Remix",
+        "Spring",
+        "Django",
+        "Sst",
+        "Remotion",
+        "FastApi",
+        "Hono",
+        "Stimulus",
+        "Sequelize",
+        "RedwoodJs",
+        "ReactQuery",
+        "MaterialUi",
+        "Laravel",
+        "KrakenJs",
+        "Jest",
+        "Jasmine",
+        "Fresh",
+        "Flutter",
+        "Playwright",
+        "NestJs",
+        "Fastify",
+        "ExpressJs",
+        "Astro",
+        "Blitz",
+        "TailwindCss",
+        "Gatsby",
+        "Bootstrap",
+        "Nuxt",
+        "Vue"
+      ],
+      "devtool": [
+        "KiloCode",
+        "Rsbuild",
+        "Dotenvx",
+        "Dotenv",
+        "MicrosoftNet",
+        "PostHog",
+        "Bolt",
+        "UnoCss",
+        "Oxc",
+        "Nx"
       ],
       "design": [
         "Figma",
@@ -3341,6 +5224,20 @@
         "PayloadCms",
         "Strapi"
       ],
+      "browser": [
+        "Safari",
+        "Edge",
+        "Chromium",
+        "Opera",
+        "Firefox",
+        "Bing",
+        "Chrome",
+        "ZenBrowser",
+        "Vivaldi",
+        "DuckDuckGo",
+        "Arc",
+        "BraveBrowser"
+      ],
       "ai": [
         "OpenAI",
         "Grok",
@@ -3371,5 +5268,5 @@
       ]
     }
   },
-  "total": 413
+  "total": 646
 }

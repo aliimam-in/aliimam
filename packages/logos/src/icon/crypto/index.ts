@@ -1,5 +1,4 @@
 export { default as DingoCoin } from "./DingoCoin";
-export { default as LeapWallet } from "./LeapWallet";
 export { default as Litecoin } from "./Litecoin";
 export { default as MetaMask } from "./MetaMask";
 export { default as Monero } from "./Monero";
