@@ -2219,51 +2219,6 @@
       ]
     },
     {
-      "name": "mouse-position-canvas-01",
-      "type": "registry:example",
-      "title": "Mouse Position Canvas",
-      "description": "Example showing a simple mouse position canvas.",
-      "registryDependencies": [
-        "mouse-position-canvas"
-      ],
-      "files": [
-        {
-          "path": "registry/default/example/backgrounds//mouse-position-canvas/mouse-position-canvas-01.tsx",
-          "type": "registry:example"
-        }
-      ]
-    },
-    {
-      "name": "mouse-position-canvas-02",
-      "type": "registry:example",
-      "title": "Mouse Position Canvas",
-      "description": "Example showing a simple mouse position canvas.",
-      "registryDependencies": [
-        "mouse-position-canvas"
-      ],
-      "files": [
-        {
-          "path": "registry/default/example/backgrounds//mouse-position-canvas/mouse-position-canvas-02.tsx",
-          "type": "registry:example"
-        }
-      ]
-    },
-    {
-      "name": "mouse-position-canvas-03",
-      "type": "registry:example",
-      "title": "Mouse Position Canvas",
-      "description": "Example showing a simple mouse position canvas.",
-      "registryDependencies": [
-        "mouse-position-canvas"
-      ],
-      "files": [
-        {
-          "path": "registry/default/example/backgrounds//mouse-position-canvas/mouse-position-canvas-03.tsx",
-          "type": "registry:example"
-        }
-      ]
-    },
-    {
       "name": "header-01",
       "type": "registry:block",
       "description": "A simple header section.",
@@ -3655,16 +3610,6 @@
       "files": [
         {
           "path": "registry/default/components/fireball.tsx",
-          "type": "registry:component"
-        }
-      ]
-    },
-    {
-      "name": "mouse-position-canvas",
-      "type": "registry:component",
-      "files": [
-        {
-          "path": "registry/default/components/mouse-position-canvas.tsx",
           "type": "registry:component"
         }
       ]
