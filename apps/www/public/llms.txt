@@ -157,6 +157,9 @@ This file provides LLM-friendly entry points to documentation and examples.
 - [FireBall](https://github.com/aliimam-in/blob/main/example/backgrounds//fireball/fireball-01.tsx): Example usage
 - [FireBall](https://github.com/aliimam-in/blob/main/example/backgrounds//fireball/fireball-02.tsx): Example usage
 - [FireBall](https://github.com/aliimam-in/blob/main/example/backgrounds//fireball/fireball-03.tsx): Example usage
+- [Mouse Position Canvas](https://github.com/aliimam-in/blob/main/example/backgrounds//mouse-position-canvas/mouse-position-canvas-01.tsx): Example usage
+- [Mouse Position Canvas](https://github.com/aliimam-in/blob/main/example/backgrounds//mouse-position-canvas/mouse-position-canvas-02.tsx): Example usage
+- [Mouse Position Canvas](https://github.com/aliimam-in/blob/main/example/backgrounds//mouse-position-canvas/mouse-position-canvas-03.tsx): Example usage
 
 ## Optional
 

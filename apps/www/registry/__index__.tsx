@@ -2662,6 +2662,60 @@ export const Index: Record<string, any> = {
     categories: undefined,
     meta: undefined,
   },
+  "mouse-position-canvas-01": {
+    name: "mouse-position-canvas-01",
+    description: "Example showing a simple mouse position canvas.",
+    type: "registry:example",
+    registryDependencies: ["mouse-position-canvas"],
+    files: [{
+      path: "registry/default/example/backgrounds//mouse-position-canvas/mouse-position-canvas-01.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/backgrounds//mouse-position-canvas/mouse-position-canvas-01.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "mouse-position-canvas-02": {
+    name: "mouse-position-canvas-02",
+    description: "Example showing a simple mouse position canvas.",
+    type: "registry:example",
+    registryDependencies: ["mouse-position-canvas"],
+    files: [{
+      path: "registry/default/example/backgrounds//mouse-position-canvas/mouse-position-canvas-02.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/backgrounds//mouse-position-canvas/mouse-position-canvas-02.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "mouse-position-canvas-03": {
+    name: "mouse-position-canvas-03",
+    description: "Example showing a simple mouse position canvas.",
+    type: "registry:example",
+    registryDependencies: ["mouse-position-canvas"],
+    files: [{
+      path: "registry/default/example/backgrounds//mouse-position-canvas/mouse-position-canvas-03.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/example/backgrounds//mouse-position-canvas/mouse-position-canvas-03.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
   "header-01": {
     name: "header-01",
     description: "A simple header section.",
@@ -3998,6 +4052,24 @@ export const Index: Record<string, any> = {
     }],
     component: React.lazy(async () => {
       const mod = await import("@/registry/default/components/fireball.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "mouse-position-canvas": {
+    name: "mouse-position-canvas",
+    description: "",
+    type: "registry:component",
+    registryDependencies: undefined,
+    files: [{
+      path: "registry/default/components/mouse-position-canvas.tsx",
+      type: "registry:component",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/default/components/mouse-position-canvas.tsx")
       const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
       return { default: mod.default || mod[exportName] }
     }),

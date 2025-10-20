@@ -252,5 +252,5 @@ export const components: Registry["items"] = [
         type: "registry:component",
       },
     ],
-  },
+  }, 
 ]
