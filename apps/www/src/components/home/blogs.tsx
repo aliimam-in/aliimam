@@ -32,8 +32,17 @@ export async function Blogs() {
   }));
 
   return (
-    <section className="container">
-      <div className="border-x border-t p-6 md:p-20">
+    <section className="container"> 
+      <div className="border-x border-t p-6 md:p-20 md:pt-10">
+      <Link
+        className="flex pb-10 justify-center"
+        target="_blank"
+        href="https://21st.dev/community/aliimam"
+      >
+        <Button className="h-14 cursor-pointer bg-violet-500 text-white rounded-full px-10">
+          See All Blocks & Components
+        </Button>
+      </Link>
         <BlogPosts posts={blogPosts} />
         <Link className="flex justify-center mt-6 md:mt-20" href="/blogs">
           <Button className="h-14 cursor-pointer rounded-full px-10">

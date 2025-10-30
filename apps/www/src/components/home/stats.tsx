@@ -30,10 +30,10 @@ export function Stats() {
         </div>
       </div>
       <div className="flex w-full p-3 justify-center">
-        <Link href={"https://21st.dev"} target="_blank" className=" hover:bg-muted cursor-pointer border w-fit rounded-full mt-20">
-        <div className="flex items-center  pl-6  justify-center">
+        <Link href={"https://21st.dev/community/aliimam"} target="_blank" className=" hover:bg-muted cursor-pointer border w-fit rounded-md mt-20">
+        <div className="flex items-center pl-3 justify-center">
           <h1 className="text-xl font-semibold md:text-2xl">I'm an Ambassador in</h1>
-          <TwentyFirst className="size-12 md:size-20" />
+          <TwentyFirst className="size-12 md:size-14 p-2" />
         </div>
         </Link>
       </div>

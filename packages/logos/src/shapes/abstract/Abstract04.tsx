@@ -1,0 +1,56 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const Abstract04: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function Abstract04(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 23 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <path
+        d="M18.3772 22.6726C20.539 23.6781 23 22.067 23 19.6426V24C16.5726 23.9257 11.3663 18.5742 11.3663 12.0038C11.3663 5.43342 16.5726 0.0818934 23 0.00761946V4.64307C23 2.2187 20.539 0.329473 18.3772 1.33503C14.4052 3.18235 11.6374 7.26932 11.6374 12.0019C11.6374 16.7345 14.4052 20.8215 18.3772 22.6688V22.6726ZM0 23.9924V19.6331C0 22.0575 2.46101 23.6705 4.62281 22.6631C8.59484 20.8157 11.3626 16.7288 11.3626 11.9962C11.3626 7.26361 8.59484 3.17664 4.62281 1.32741C2.45914 0.321854 0 2.21108 0 4.63545V0C6.42743 0.0742739 11.6337 5.42581 11.6337 11.9962C11.6337 18.5666 6.42743 23.9181 0 23.9924Z"
+        fill="#1d1d1b"
+      />
+    </svg>
+  );
+});
+
+Abstract04.displayName = "Abstract04";
+
+Abstract04.metadata = {
+  name: "Abstract04",
+  category: "shapes/abstract",
+  tags: ["abstract", "04", "icon"],
+  description: "Abstract04 icon from shapes/abstract category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default Abstract04;

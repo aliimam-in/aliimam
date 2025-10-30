@@ -1,6 +1,5 @@
 import { Button } from "@/registry/default/ui/button";
-import { WhatsApp } from "@aliimam/logos";
-import { Mail, SendHorizonal } from "lucide-react";
+import { WhatsApp } from "@aliimam/logos"; 
 import Image from "next/image";
 import Link from "next/link";
 import { WhatsAppJoin } from "../icons";
@@ -20,7 +19,7 @@ export function CallToAction() {
             team is ready to help.
           </p>
 
-          <div className="h-full border-x">
+          <div className="h-full">
             <div className="flex flex-col items-center justify-center gap-3 pt-6">
               <WhatsAppJoin className="h-40 w-full" />
             </div>

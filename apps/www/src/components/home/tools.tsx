@@ -68,7 +68,7 @@ export function Tools() {
             </div>
           </Card>
           <Card className="group p-6 shadow-none sm:col-span-2 rounded-none md:p-12">
-            <div className="h-full w-full flex items-center justify-center relative">
+            <div className="h-80 md:h-full w-full flex items-center justify-center relative">
               <GradientWave
                 colors={["#ffffff", "#fb7185", "#e879f9", "#a3e635", "#ffffff"]}
                 shadowPower={4}
@@ -105,7 +105,7 @@ export function Tools() {
           </Card>
 
           <Card className="group p-6 shadow-none sm:col-span-2 rounded-none md:p-12">
-            <div className="h-full w-full flex items-center justify-center relative">
+            <div className="h-80 md:h-full w-full flex items-center justify-center relative">
               <GradientMesh
                 colors={["#bcecf6", "#00aaff", "#ffd447"]}
                 distortion={8}

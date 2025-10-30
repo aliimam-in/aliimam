@@ -1,5 +1,6 @@
 // entry.tsx.ejs - Simple re-export structure
 
+export * from "./shapes/abstract";
 export * from "./shapes/number";
 export * from "./shapes/wheel";
 export * from "./shapes/ellipse";

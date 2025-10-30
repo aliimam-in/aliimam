@@ -1,7 +1,7 @@
 "use client";
 import * as React from "react";
 import { Gravity, MatterBody } from "@/src/components/ui/gravity";
-import { RenderCanvas } from "@/registry/default/components/render-canvas";
+import { RenderCanvas } from "@/registry/default/components/render-canvas"; 
 
 const designServices = {
   graphicDesign: [
@@ -18,8 +18,8 @@ const designServices = {
     "Newsletters",
     "Thumbnails",
     "Covers",
-    "Signage", 
-    "Mascots",  
+    "Signage",
+    "Mascots",
   ],
   webDigitalDesign: [
     "Websites",
@@ -27,10 +27,10 @@ const designServices = {
     "Landing Pages",
     "Ads",
     "Emails",
-    "Apps", 
+    "Apps",
     "No-Code",
   ],
-  productPackagingDesign: ["Mockups", "3D", "Prototypes", "Products"], 
+  productPackagingDesign: ["Mockups", "3D", "Prototypes", "Products"],
   otherTools: [
     "Photoshop",
     "Illustrator",
@@ -52,18 +52,42 @@ const designServices = {
 };
 
 const colors = [
-  'bg-red-500', 'bg-red-500', 'bg-red-500',
-  'bg-purple-500', 'bg-purple-500', 'bg-purple-500',
-  'bg-blue-500', 'bg-blue-500', 'bg-blue-500',
-  'bg-green-500', 'bg-green-500', 'bg-green-500',
-  'bg-orange-500', 'bg-orange-500', 'bg-orange-500',
-  'bg-pink-500', 'bg-pink-500', 'bg-pink-500',
-  'bg-teal-500', 'bg-teal-500', 'bg-teal-500',
-  'bg-indigo-500', 'bg-indigo-500', 'bg-indigo-500',
-  'bg-yellow-500', 'bg-yellow-500', 'bg-yellow-500',
-  'bg-cyan-500', 'bg-cyan-500', 'bg-cyan-500',
-  'bg-rose-500', 'bg-rose-500', 'bg-rose-500',
-  'bg-emerald-500', 'bg-emerald-500', 'bg-emerald-500',
+  "bg-red-500",
+  "bg-red-500",
+  "bg-red-500",
+  "bg-purple-500",
+  "bg-purple-500",
+  "bg-purple-500",
+  "bg-blue-500",
+  "bg-blue-500",
+  "bg-blue-500",
+  "bg-green-500",
+  "bg-green-500",
+  "bg-green-500",
+  "bg-orange-500",
+  "bg-orange-500",
+  "bg-orange-500",
+  "bg-pink-500",
+  "bg-pink-500",
+  "bg-pink-500",
+  "bg-teal-500",
+  "bg-teal-500",
+  "bg-teal-500",
+  "bg-indigo-500",
+  "bg-indigo-500",
+  "bg-indigo-500",
+  "bg-yellow-500",
+  "bg-yellow-500",
+  "bg-yellow-500",
+  "bg-cyan-500",
+  "bg-cyan-500",
+  "bg-cyan-500",
+  "bg-rose-500",
+  "bg-rose-500",
+  "bg-rose-500",
+  "bg-emerald-500",
+  "bg-emerald-500",
+  "bg-emerald-500",
 ];
 
 // Define the type for service items
@@ -78,9 +102,11 @@ type ServiceItem = {
 const Services = () => {
   // Flatten services first
   const allServices = Object.values(designServices).flat();
-  
+
   // State for services with random properties - properly typed
-  const [servicesWithProps, setServicesWithProps] = React.useState<ServiceItem[]>([]);
+  const [servicesWithProps, setServicesWithProps] = React.useState<
+    ServiceItem[]
+  >([]);
   const [isMobile, setIsMobile] = React.useState(false);
 
   // Generate random properties only on client side
@@ -89,10 +115,10 @@ const Services = () => {
       service,
       x: `${10 + (index % 10) * 8}%`, // Spread horizontally
       y: `${10 + Math.floor(index / 10) * 15}%`, // Spread vertically
-      color: colors[Math.floor(Math.random() * colors.length)] || 'bg-gray-500', // Randomly select a color with fallback
+      color: colors[Math.floor(Math.random() * colors.length)] || "bg-gray-500", // Randomly select a color with fallback
       angle: Math.random() * 30 - 15, // Random angle between -15 and 15 degrees
     }));
-    
+
     setServicesWithProps(servicesWithRandomProps);
   }, []); // Empty dependency array - runs once after mount
 

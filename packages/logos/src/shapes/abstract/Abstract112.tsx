@@ -1,0 +1,56 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const Abstract112: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function Abstract112(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 23 23"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <path
+        d="M18.515 12.0458H12.0458V18.515C12.0458 18.8162 11.803 19.0608 11.5 19.0608C11.197 19.0608 10.9542 18.8162 10.9542 18.515V12.0458H4.485C4.18381 12.0458 3.9392 11.8012 3.9392 11.5C3.9392 11.1988 4.18199 10.9542 4.485 10.9542H10.9542V4.48499C10.9542 4.1838 11.1988 3.9392 11.5 3.9392C11.8012 3.9392 12.0458 4.18197 12.0458 4.48499V10.9542H18.515C18.8162 10.9542 19.0608 11.1988 19.0608 11.5C19.0608 11.8012 18.8162 12.0458 18.515 12.0458ZM18.8618 4.13999C16.9762 2.25618 14.3768 1.09158 11.5018 1.09158C8.62683 1.09158 6.02564 2.25618 4.14183 4.13999C2.25802 6.02562 1.09341 8.625 1.09341 11.5C1.09341 14.375 2.25802 16.9744 4.14183 18.86C6.02746 20.7438 8.62683 21.9084 11.5018 21.9084C14.3768 21.9084 16.9762 20.7438 18.8618 18.86C20.7456 16.9744 21.9102 14.375 21.9102 11.5C21.9102 8.625 20.7456 6.02562 18.8618 4.13999ZM11.5 23C5.14762 23 0 17.8524 0 11.5C0 5.14762 5.14762 0 11.5 0C17.8524 0 23 5.14762 23 11.5C23 17.8524 17.8524 23 11.5 23Z"
+        fill="#1d1d1b"
+      />
+    </svg>
+  );
+});
+
+Abstract112.displayName = "Abstract112";
+
+Abstract112.metadata = {
+  name: "Abstract112",
+  category: "shapes/abstract",
+  tags: ["abstract", "112", "icon"],
+  description: "Abstract112 icon from shapes/abstract category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default Abstract112;

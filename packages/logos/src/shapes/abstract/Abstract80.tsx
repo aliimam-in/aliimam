@@ -1,0 +1,56 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const Abstract80: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function Abstract80(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 23 21"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <path
+        d="M8.9206 6.94777H14.0781L11.4985 11.3918L8.9206 6.94777ZM22.4384 2.14534C21.6978 0.86847 20.3693 0.0983505 18.8864 0.0850151L9.3942 0H9.35556C7.8659 0 6.53075 0.761791 5.77836 2.04533C5.01925 3.33887 5.0159 4.88578 5.76997 6.18432L10.1164 13.6738C9.78215 14.0222 9.3203 14.2189 8.82318 14.2189H8.81479C8.16149 14.2156 7.57872 13.8772 7.25627 13.3104L2.58407 5.08914C2.40437 4.77409 2.23811 4.45571 2.15413 4.02064C2.03153 3.34886 2.27337 2.7521 2.67476 2.06199C3.0392 1.43356 3.65891 0.926818 4.37435 0.671778L6.06555 0.0683499L4.11236 0.0866837C2.62942 0.100019 1.30265 0.870139 0.560342 2.14701C-0.18029 3.42388 -0.187006 4.95412 0.541871 6.23765L5.21407 14.459C5.9547 15.7625 7.29658 16.546 8.80303 16.5526C10.3061 16.561 11.6564 15.7892 12.4105 14.4923L16.7569 7.00278C17.2305 7.1178 17.6335 7.41951 17.8821 7.85291C18.2062 8.418 18.2029 9.08811 17.8703 9.64986L13.0503 17.7862C12.8656 18.0979 12.6725 18.4012 12.3366 18.6913C11.8143 19.1314 11.1727 19.223 10.3716 19.223C9.64276 19.223 8.89204 18.943 8.31096 18.4529L6.94221 17.2994L7.9314 18.9713C8.68379 20.2415 10.0189 21 11.5002 21C12.9815 21 14.3166 20.2415 15.069 18.9713L19.889 10.835C20.6532 9.54485 20.6632 7.99626 19.9176 6.69606C19.1702 5.39585 17.825 4.61907 16.3202 4.61907H7.62742C7.49139 4.154 7.55353 3.65559 7.80544 3.22552C8.13126 2.66876 8.71066 2.33871 9.35724 2.33871H9.37405L18.8662 2.42372C19.229 2.42706 19.5917 2.44206 20.0116 2.58708C20.6565 2.81712 21.0562 3.32386 21.4559 4.01397C21.8204 4.64241 21.9514 5.4292 21.817 6.17432L21.4962 7.93126L22.4569 6.24266C23.1874 4.95912 23.1807 3.42888 22.4384 2.15201V2.14534Z"
+        fill="#1d1d1b"
+      />
+    </svg>
+  );
+});
+
+Abstract80.displayName = "Abstract80";
+
+Abstract80.metadata = {
+  name: "Abstract80",
+  category: "shapes/abstract",
+  tags: ["abstract", "80", "icon"],
+  description: "Abstract80 icon from shapes/abstract category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default Abstract80;

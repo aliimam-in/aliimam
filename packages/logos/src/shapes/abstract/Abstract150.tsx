@@ -1,0 +1,56 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const Abstract150: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function Abstract150(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 23 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <path
+        d="M16.1078 23.9543L6.65669 0.146643L6.89033 0.045707L16.3433 23.8553L16.1097 23.9562L16.1078 23.9543ZM22.8595 17.0525L0.0401502 7.18933L0.136894 6.94556L22.9562 16.8088L22.8595 17.0525ZM0.138721 17.0525L0.0419772 16.8088L22.8613 6.94556L22.958 7.18933L0.138721 17.0525ZM6.89033 23.9543L6.65669 23.8534L16.1078 0.0438026L16.3415 0.144739L6.8885 23.9543H6.89033ZM0.0894356 12.1314V11.8667H22.9087V12.1314H0.0894356ZM11.3732 23.9048V0.095223H11.6268V23.9048H11.3732ZM22.8193 23.9981L0 0.188542L0.178871 0L22.9982 23.8096L22.8175 23.9962L22.8193 23.9981ZM0.178871 23.9981L0 23.8115L22.8193 0.00190446L23 0.190446L0.180698 24L0.178871 23.9981Z"
+        fill="#1d1d1b"
+      />
+    </svg>
+  );
+});
+
+Abstract150.displayName = "Abstract150";
+
+Abstract150.metadata = {
+  name: "Abstract150",
+  category: "shapes/abstract",
+  tags: ["abstract", "150", "icon"],
+  description: "Abstract150 icon from shapes/abstract category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default Abstract150;

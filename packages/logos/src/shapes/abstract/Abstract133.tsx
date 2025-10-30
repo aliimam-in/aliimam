@@ -1,0 +1,56 @@
+import * as React from "react";
+import type { IconProps, IconMetadata, IconComponent } from "../../types";
+
+export const Abstract133: IconComponent = React.forwardRef<
+  SVGSVGElement,
+  IconProps
+>(function Abstract133(
+  {
+    color = "currentColor",
+    fill,
+    size = 24,
+    strokeWidth,
+    strokeLinecap,
+    strokeLinejoin,
+    strokeDasharray,
+    opacity,
+    className,
+    ...props
+  },
+  forwardedRef,
+) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 23 24"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      strokeWidth={strokeWidth}
+      strokeLinecap={strokeLinecap}
+      strokeLinejoin={strokeLinejoin}
+      strokeDasharray={strokeDasharray}
+      opacity={opacity}
+      {...props}
+      ref={forwardedRef}
+    >
+      <path
+        d="M11.7326 9.73945V0H11.2656V9.73945C11.2656 11.717 9.49967 11.7563 9.49967 11.7563H0V12.2437H9.49967C9.49967 12.2437 11.2656 12.283 11.2656 14.2606V24H11.7326V14.2606C11.7326 12.283 13.4986 12.2437 13.4986 12.2437H23V11.7563H13.4986C13.4986 11.7563 11.7326 11.7188 11.7326 9.73945Z"
+        fill="#1d1d1b"
+      />
+    </svg>
+  );
+});
+
+Abstract133.displayName = "Abstract133";
+
+Abstract133.metadata = {
+  name: "Abstract133",
+  category: "shapes/abstract",
+  tags: ["abstract", "133", "icon"],
+  description: "Abstract133 icon from shapes/abstract category",
+  type: ["stroke", "icon"],
+} as IconMetadata;
+
+export default Abstract133;
