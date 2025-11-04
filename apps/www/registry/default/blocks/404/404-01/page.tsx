@@ -1,4 +1,4 @@
-import { DinoGame } from "@/registry/default/components/dino-game";
+import { DinoGame } from "@/registry/default/components/pixelated-grid";
 import { Button } from "@/registry/default/ui/button";
 import Link from "next/link";
 

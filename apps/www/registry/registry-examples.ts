@@ -1329,27 +1329,27 @@ export const examples: Registry["items"] = [
     ],
   },
   {
-    title: "Dino Game",
-    name: "dino-game-01",
+    title: "Pixelated Grid",
+    name: "pixelated-grid-01",
     type: "registry:example",
-    description: "Example showing a simple dino game.",
-    registryDependencies: ["dino-game"],
+    description: "Example showing a simple pixelated grid.",
+    registryDependencies: ["pixelated-grid"],
     files: [
       {
-        path: "example/dino-game/dino-game-01.tsx",
+        path: "example/pixelated-grid/pixelated-grid-01.tsx",
         type: "registry:example",
       },
     ],
   },
   {
-    title: "Dino Game",
-    name: "dino-game-02",
+    title: "Pixelated Grid",
+    name: "pixelated-grid-02",
     type: "registry:example",
-    description: "Example showing a simple dino game.",
-    registryDependencies: ["dino-game"],
+    description: "Example showing a simple pixelated grid.",
+    registryDependencies: ["pixelated-grid"],
     files: [
       {
-        path: "example/dino-game/dino-game-02.tsx",
+        path: "example/pixelated-grid/pixelated-grid-02.tsx",
         type: "registry:example",
       },
     ],

@@ -1,18 +1,18 @@
 ---
-title: Dino Game
+title: Pixelated Grid
 description: A vertically stacked set of interactive headings that each reveal a section of content.
 component: true
 ---
 
 <ComponentPreview
-  name="dino-game-01"
+  name="pixelated-grid-01"
   className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[80%] **:[.preview]:min-h-[400px]"
   description="An accordion with three items"
   align="start"
 />
 
 <ComponentPreview
-  name="dino-game-02"
+  name="pixelated-grid-02"
   className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[80%] **:[.preview]:min-h-[400px]"
   description="An accordion with three items"
   align="start"
@@ -31,7 +31,7 @@ component: true
 <TabsContent value="cli">
 
 ```bash
-npx shadcn@latest add https://aliimam.in/r/award.json
+npx shadcn@latest add https://aliimam.in/r/pixelated-grid.json
 ```
 
 </TabsContent>
@@ -42,7 +42,7 @@ npx shadcn@latest add https://aliimam.in/r/award.json
 
 <Step>Copy and paste the following code into your project.</Step>
 
-<ComponentSource name="award" title="components/ui/award.tsx" />
+<ComponentSource name="pixelated-grid" title="components/ui/pixelated-grid.tsx" />
 
 <Step>Update the import paths to match your project setup.</Step>
 
@@ -55,17 +55,10 @@ npx shadcn@latest add https://aliimam.in/r/award.json
 ## Usage
 
 ```tsx showLineNumbers
-import { Awards } from "@/components/ui/award"
+import { PixelGrid } from "@/components/ui/pixelated-grid"
 ```
 
 ```tsx showLineNumbers
-<Awards
-  variant="award"
-  title="WINNER"
-  subtitle="A Design Award & Competetion"
-  recipient="Ali Imam"
-  date="June 2025"
-  level="gold"
-/>
+<PixelGrid pixelSize={10} />
 ```
  

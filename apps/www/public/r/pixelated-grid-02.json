@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "pixelated-grid-02",
+  "type": "registry:example",
+  "title": "Pixelated Grid",
+  "description": "Example showing a simple pixelated grid.",
+  "registryDependencies": [
+    "pixelated-grid"
+  ],
+  "files": [
+    {
+      "path": "registry/default/example/pixelated-grid/pixelated-grid-02.tsx",
+      "content": "import { PixelGrid } from \"@/registry/default/components/pixelated-grid\";\n\nexport default function Component() {\n  return (\n    <div className=\"flex h-full w-full items-center justify-center\">\n      <PixelGrid />\n    </div>\n  );\n}\n",
+      "type": "registry:example"
+    }
+  ]
+}

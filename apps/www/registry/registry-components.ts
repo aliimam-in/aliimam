@@ -234,11 +234,11 @@ export const components: Registry["items"] = [
     ],
   },
   {
-    name: "dino-game",
+    name: "pixelated-grid",
     type: "registry:component",  
     files: [
       {
-        path: "components/dino-game.tsx",
+        path: "components/pixelated-grid.tsx",
         type: "registry:component",
       },
     ],

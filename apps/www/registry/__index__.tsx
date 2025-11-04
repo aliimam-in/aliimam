@@ -2572,36 +2572,36 @@ export const Index: Record<string, any> = {
     categories: undefined,
     meta: undefined,
   },
-  "dino-game-01": {
-    name: "dino-game-01",
-    description: "Example showing a simple dino game.",
+  "pixelated-grid-01": {
+    name: "pixelated-grid-01",
+    description: "Example showing a simple pixelated grid.",
     type: "registry:example",
-    registryDependencies: ["dino-game"],
+    registryDependencies: ["pixelated-grid"],
     files: [{
-      path: "registry/default/example/dino-game/dino-game-01.tsx",
+      path: "registry/default/example/pixelated-grid/pixelated-grid-01.tsx",
       type: "registry:example",
       target: ""
     }],
     component: React.lazy(async () => {
-      const mod = await import("@/registry/default/example/dino-game/dino-game-01.tsx")
+      const mod = await import("@/registry/default/example/pixelated-grid/pixelated-grid-01.tsx")
       const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
       return { default: mod.default || mod[exportName] }
     }),
     categories: undefined,
     meta: undefined,
   },
-  "dino-game-02": {
-    name: "dino-game-02",
-    description: "Example showing a simple dino game.",
+  "pixelated-grid-02": {
+    name: "pixelated-grid-02",
+    description: "Example showing a simple pixelated grid.",
     type: "registry:example",
-    registryDependencies: ["dino-game"],
+    registryDependencies: ["pixelated-grid"],
     files: [{
-      path: "registry/default/example/dino-game/dino-game-02.tsx",
+      path: "registry/default/example/pixelated-grid/pixelated-grid-02.tsx",
       type: "registry:example",
       target: ""
     }],
     component: React.lazy(async () => {
-      const mod = await import("@/registry/default/example/dino-game/dino-game-02.tsx")
+      const mod = await import("@/registry/default/example/pixelated-grid/pixelated-grid-02.tsx")
       const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
       return { default: mod.default || mod[exportName] }
     }),
@@ -3968,18 +3968,18 @@ export const Index: Record<string, any> = {
     categories: undefined,
     meta: undefined,
   },
-  "dino-game": {
-    name: "dino-game",
+  "pixelated-grid": {
+    name: "pixelated-grid",
     description: "",
     type: "registry:component",
     registryDependencies: undefined,
     files: [{
-      path: "registry/default/components/dino-game.tsx",
+      path: "registry/default/components/pixelated-grid.tsx",
       type: "registry:component",
       target: ""
     }],
     component: React.lazy(async () => {
-      const mod = await import("@/registry/default/components/dino-game.tsx")
+      const mod = await import("@/registry/default/components/pixelated-grid.tsx")
       const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
       return { default: mod.default || mod[exportName] }
     }),

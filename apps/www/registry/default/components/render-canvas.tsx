@@ -309,7 +309,7 @@ export function RenderCanvas({
         "relative flex flex-col items-center justify-center overflow-hidden",
         className
       )}
-      style={{ height, width }} // ✅ dynamic sizing
+      style={{ height, width }} 
     >
       <canvas
         ref={canvasRef}

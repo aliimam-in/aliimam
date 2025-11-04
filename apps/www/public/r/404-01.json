@@ -6,7 +6,7 @@
   "files": [
     {
       "path": "registry/default/blocks/404/404-01/page.tsx",
-      "content": "import { DinoGame } from \"@/registry/default/components/dino-game\";\nimport { Button } from \"@/registry/default/ui/button\";\nimport Link from \"next/link\";\n\nexport default function NotFoundDemo() {\n  return (\n    <div className=\"flex min-h-screen flex-col items-center justify-center\">\n      <div className=\"pb-20 text-center\">\n        <h1 className=\"font-thin text-[12rem]\">404</h1>\n        <p className=\"text-xl pb-6\">Page not found</p>\n        <Link href={\"/\"}>\n          <Button>Go Home</Button>\n        </Link>\n      </div>\n      <DinoGame initialSpeed={2} dinoColor=\"blue\" />\n    </div>\n  );\n}\n",
+      "content": "import { DinoGame } from \"@/registry/default/components/pixelated-grid\";\nimport { Button } from \"@/registry/default/ui/button\";\nimport Link from \"next/link\";\n\nexport default function NotFoundDemo() {\n  return (\n    <div className=\"flex min-h-screen flex-col items-center justify-center\">\n      <div className=\"pb-20 text-center\">\n        <h1 className=\"font-thin text-[12rem]\">404</h1>\n        <p className=\"text-xl pb-6\">Page not found</p>\n        <Link href={\"/\"}>\n          <Button>Go Home</Button>\n        </Link>\n      </div>\n      <DinoGame initialSpeed={2} dinoColor=\"blue\" />\n    </div>\n  );\n}\n",
       "type": "registry:component",
       "target": "components/404-01.tsx"
     }
