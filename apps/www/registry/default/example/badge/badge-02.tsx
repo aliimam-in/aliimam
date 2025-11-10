@@ -1,7 +1,7 @@
 import { Badge } from "@/registry/default/ui/badge";
 import { CircleCheck, CircleAlert, Check } from "@aliimam/icons";
 
-export function BadgeWithIconDemo() {
+export default function Badge02() {
   return (
     <div className="flex flex-wrap gap-2">
       <Badge variant="default">

@@ -1,6 +1,6 @@
 import { AspectRatio } from "@/registry/default/ui/aspect-ratio";
 
-export function AspectRatioDemo() {
+export default function AspectRatio02() {
   return (
     <div className="w-[300px] overflow-hidden">
       <AspectRatio ratio={9 / 16}>

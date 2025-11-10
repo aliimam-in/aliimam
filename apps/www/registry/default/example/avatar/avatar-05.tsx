@@ -6,7 +6,7 @@ import {
 import { VerifiedBadge } from "@aliimam/logos";
 import { Badge } from "@/registry/default/ui/badge";
 
-export function AvatarStatusDemo() {
+export default function Avatar05() {
   return (
     <div className="flex gap-6">
       <div className="relative inline-block">

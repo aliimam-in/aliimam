@@ -15,7 +15,7 @@ import {
 import { Button } from "@/registry/default/ui/button";
 import { Info } from "@aliimam/icons";
 
-export function AlertDialogBasic() {
+export default function AlertDialog01() {
   return (
     <div className="flex gap-2">
       <AlertDialog>

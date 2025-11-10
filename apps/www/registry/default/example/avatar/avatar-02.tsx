@@ -1,6 +1,6 @@
 import { Avatar, AvatarImage, AvatarFallback } from "@/registry/default/ui/avatar";
 
-export function AvatarWithLabelDemo() {
+export default function Avatar02() {
   return (
     <div className="flex items-center space-x-3">
       <Avatar className="border">

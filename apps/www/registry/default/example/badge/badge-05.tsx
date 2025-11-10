@@ -5,7 +5,7 @@ import { Badge } from "@/registry/default/ui/badge";
 import { useState } from "react";
 import { X } from "@aliimam/icons";
 
-export function BadgeFilterDemo() {
+export default function Badge05() {
   const [active, setActive] = React.useState(false);
 
   const [isActive, setIsActive] = useState(true);

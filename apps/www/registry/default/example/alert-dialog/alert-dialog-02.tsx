@@ -14,7 +14,7 @@ import {
 import { Button } from "@/registry/default/ui/button";
 import { Trash2 } from "@aliimam/icons";
 
-export function AlertDialogDestructive() {
+export default function AlertDialog02() {
   return (
     <div className="flex gap-2">
       <AlertDialog>

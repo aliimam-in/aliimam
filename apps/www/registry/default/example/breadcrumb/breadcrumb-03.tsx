@@ -8,7 +8,7 @@ import {
   BreadcrumbPage,
 } from "@/registry/default/ui/breadcrumb";
 
-export function BreadcrumbIconsDemo() {
+export default function Breadcrumb03() {
   return (
     <Breadcrumb>
       <BreadcrumbList>

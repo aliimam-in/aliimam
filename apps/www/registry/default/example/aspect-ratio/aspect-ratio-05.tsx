@@ -1,6 +1,6 @@
 import { AspectRatio } from "@/registry/default/ui/aspect-ratio";
 
-export function AspectRatioDemo() {
+export default function AspectRatio05() {
   return (
     <AspectRatio ratio={16 / 9} className="rounded-lg overflow-hidden">
       <iframe

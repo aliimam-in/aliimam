@@ -7,7 +7,7 @@ import {
   BreadcrumbPage,
 } from "@/registry/default/ui/breadcrumb";
 
-export function BreadcrumbCardHeaderDemo() {
+export default function Breadcrumb05() {
   return (
     <div className="border rounded-lg p-4 space-y-3">
       <Breadcrumb>

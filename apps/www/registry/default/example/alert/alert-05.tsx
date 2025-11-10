@@ -6,7 +6,7 @@ import {
   AlertTitle,
 } from "@/registry/default/ui/alert";
 
-export function AlertErrorRetry() {
+export default function Alert05() {
   return (
     <Alert variant="destructive">
       <CircleX size={16} />

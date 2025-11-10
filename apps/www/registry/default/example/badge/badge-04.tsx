@@ -1,6 +1,6 @@
 import { Badge } from "@/registry/default/ui/badge";
 
-export function BadgeTagsDemo() {
+export default function Badge04() {
   const tags = ["Design", "Next.js", "Branding", "UI/UX"];
   return (
     <div className="flex flex-wrap gap-2">

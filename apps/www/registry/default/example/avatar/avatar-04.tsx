@@ -1,6 +1,6 @@
 import { Avatar, AvatarImage, AvatarFallback } from "@/registry/default/ui/avatar";
 
-export function AvatarSizesDemo() {
+export default function Avatar04() {
   const sizes = ["size-6", "size-8", "size-10", "size-12"];
 
   return (

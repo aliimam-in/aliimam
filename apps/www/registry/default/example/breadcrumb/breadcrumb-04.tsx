@@ -7,7 +7,7 @@ import {
   BreadcrumbPage,
 } from "@/registry/default/ui/breadcrumb";
 
-export function BreadcrumbDarkDemo() {
+export default function Breadcrumb04() {
   return (
     <Breadcrumb className="text-muted-foreground">
       <BreadcrumbList>

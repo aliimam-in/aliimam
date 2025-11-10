@@ -4,7 +4,7 @@ import {
   AvatarFallback,
 } from "@/registry/default/ui/avatar";
 
-export function AvatarGroupDemo() {
+export default function Avatar03() {
   const members = [
     { src: "/ali.jpg", fallback: "AI" },
     { src: "/ali.jpg", fallback: "AI" },

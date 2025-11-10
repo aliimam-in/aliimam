@@ -8,7 +8,7 @@ import {
   BreadcrumbEllipsis,
 } from "@/registry/default/ui/breadcrumb";
 
-export function BreadcrumbEllipsisDemo() {
+export default function Breadcrumb02() {
   return (
     <Breadcrumb>
       <BreadcrumbList>

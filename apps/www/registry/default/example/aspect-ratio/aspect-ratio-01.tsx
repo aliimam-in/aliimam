@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
  import { AspectRatio } from "@/registry/default/ui/aspect-ratio";
 
-export function AspectRatioDemo() {
+export default function AspectRatio01() {
   return (
     <AspectRatio ratio={16 / 9} className="rounded-lg">
       <img

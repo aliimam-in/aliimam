@@ -7,7 +7,6 @@ import {
 import { Plus } from "@aliimam/icons";
 import { cn } from "@/registry/default/lib/utils";
 
-
 const items = [
   {
     id: "01",
@@ -59,7 +58,7 @@ const items = [
   },
 ];
 
-export function Accordion01() {
+export default function Accordion01() {
   return (
     <div className="w-full max-w-xl mx-auto">
       <Accordion type="single" defaultValue="04" collapsible className="w-full">

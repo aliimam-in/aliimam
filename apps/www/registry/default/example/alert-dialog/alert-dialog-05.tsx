@@ -14,7 +14,7 @@ import {
 import { Button } from "@/registry/default/ui/button"
 import { Settings } from "@aliimam/icons"
 
-export function AlertDialogCustomLayout() {
+export default function AlertDialog05() {
   return (
     <AlertDialog>
       <AlertDialogTrigger asChild>

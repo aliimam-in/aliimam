@@ -46,7 +46,7 @@ const items = [
 ];
 
 
-export function Accordion03() {
+export default function Accordion03() {
   return (
     <div className="w-full border max-w-3xl">
       <Accordion type="single" defaultValue="02" collapsible className="w-full">

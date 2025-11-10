@@ -10,7 +10,7 @@
   "files": [
     {
       "path": "registry/default/example/aspect-ratio/aspect-ratio-04.tsx",
-      "content": "import { AspectRatio } from \"@/registry/default/ui/aspect-ratio\";\n\nexport function AspectRatioDemo() {\n  return (\n    <div className=\"w-[300px] overflow-hidden\">\n      <AspectRatio ratio={1 / 1}>\n        <img\n          src=\"/ali.jpg\"\n          alt=\"Photo by Ali Imam\"\n          className=\"h-full w-full rounded-lg object-cover\"\n        />\n      </AspectRatio>\n    </div>\n  );\n}\n",
+      "content": "import { AspectRatio } from \"@/registry/default/ui/aspect-ratio\";\n\nexport default function AspectRatio04() {\n  return (\n    <div className=\"w-[300px] overflow-hidden\">\n      <AspectRatio ratio={1 / 1}>\n        <img\n          src=\"/ali.jpg\"\n          alt=\"Photo by Ali Imam\"\n          className=\"h-full w-full rounded-lg object-cover\"\n        />\n      </AspectRatio>\n    </div>\n  );\n}\n",
       "type": "registry:example"
     }
   ]

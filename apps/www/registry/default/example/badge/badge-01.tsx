@@ -1,6 +1,6 @@
 import { Badge } from "@/registry/default/ui/badge";
 
-export function BadgeDemo() {
+export default function Badge01() {
   return (
     <div className="flex flex-wrap gap-2">
       <Badge variant="default">Default</Badge>

@@ -126,7 +126,7 @@ export function ComponentPreviewTabs({
           data-active={tab === "install"}
           className="absolute inset-0 hidden overflow-hidden data-[active=true]:block **:[figure]:!m-0 **:[pre]:h-auto"
         >
-          <figure className="[&>pre]:max-h-24">
+          <figure className="[&>pre]:max-h-24 ">
             <CodeBlockCommand
               __npm__={`npx shadcn@latest add "https://aliimam.in/r/${name}.json"`}
               __yarn__={`npx shadcn@latest add "https://aliimam.in/r/${name}.json"`}

@@ -13,7 +13,7 @@ import {
 import { Button } from "@/registry/default/ui/button"
 import { CircleCheck } from "@aliimam/icons"
 
-export function AlertDialogSuccess() {
+export default function AlertDialog04() {
   return (
     <AlertDialog>
       <AlertDialogTrigger asChild>

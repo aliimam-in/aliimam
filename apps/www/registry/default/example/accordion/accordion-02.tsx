@@ -204,7 +204,7 @@ const items = [
   },
 ];
 
-export function Accordion02() {
+export default function Accordion02() {
   return (
     <div className="w-full">
       <Accordion type="single" defaultValue="04" collapsible className="w-full border rounded-md">

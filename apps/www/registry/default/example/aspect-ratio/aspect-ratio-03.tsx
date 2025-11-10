@@ -1,6 +1,6 @@
 import { AspectRatio } from "@/registry/default/ui/aspect-ratio";
 
-export function AspectRatioDemo() {
+export default function AspectRatio03() {
   return (
     <div className="w-[350px] rounded-lg  border shadow-sm overflow-hidden">
       <AspectRatio ratio={4 / 3}>

@@ -23,7 +23,7 @@ type MenusProps = {
 const components: { title: string; href: string; description: string }[] = [
   {
     title: "Docs",
-    href: "/docs",
+    href: "/docs/backgrounds/gradient-mesh",
     description:
       "Explore our comprehensive UI design and components docs, empowering integration.",
   },
@@ -178,11 +178,14 @@ export function Menus({ blocksCount, componentsCount }: MenusProps) {
               "bg-transparent text-xs"
             )}
           >
-            <Link href="/docs/backgrounds/gradient-mesh">
+            <Link href="/components">
               <div className="flex w-fit">
                 Components
                 <span className="ml-1 text-muted-foreground text-[8px]">
                   {componentsCount}
+                </span>
+                 <span className="ml-1 rounded-full bg-[#fff000] px-1.5 py-0.5 text-xs font-normal leading-none text-[#000000] no-underline group-hover:no-underline">
+                  New
                 </span>
               </div>
             </Link>

@@ -5,7 +5,7 @@ import {
 } from "@/registry/default/ui/avatar";
 import { UserRound } from "@aliimam/icons";
 
-export function AvatarDemo() {
+export default function Avatar01() {
   return (
     <div className="flex gap-6">
       <Avatar>
