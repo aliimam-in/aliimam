@@ -10,7 +10,7 @@
   "files": [
     {
       "path": "registry/default/example/backgrounds/dot-pattern/dot-pattern-custom.tsx",
-      "content": "import { DotPattern } from \"@/registry/default/components/dot-pattern\"\n\nexport default function Component() {\n  return (\n    <div>\n      <DotPattern\n        dotSize={0.5}\n        width={5}\n        height={5}\n        className=\"text-red-500 dark:text-lime-500\"\n      />\n    </div>\n  )\n}\n",
+      "content": "import { DotPattern } from \"@/registry/default/components/dot-pattern\"\n\nexport default function Component() {\n  return (\n    <div className=\"h-[600px] w-5xl relative\">\n      <DotPattern\n        dotSize={0.5}\n        width={5}\n        height={5}\n        className=\"text-red-500 dark:text-lime-500\"\n      />\n    </div>\n  )\n}\n",
       "type": "registry:example"
     }
   ]

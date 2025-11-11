@@ -10,7 +10,7 @@
   "files": [
     {
       "path": "registry/default/example/backgrounds/shader-ripple/shader-ripple-01.tsx",
-      "content": "import { ShaderRipple } from \"@/registry/default/components/shader-ripple\";\n\nexport default function Component() {\n  return (\n    <main className=\"flex h-full w-full items-center justify-center overflow-hidden rounded-md border\">\n      <ShaderRipple  />\n    </main>\n  );\n}\n",
+      "content": "import { ShaderRipple } from \"@/registry/default/components/shader-ripple\";\n\nexport default function Component() {\n  return (\n    <main className=\"flex h-[600px] w-5xl items-center justify-center overflow-hidden rounded-md border\">\n      <ShaderRipple  />\n    </main>\n  );\n}\n",
       "type": "registry:example"
     }
   ]

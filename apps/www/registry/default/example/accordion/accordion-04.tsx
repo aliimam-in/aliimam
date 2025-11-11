@@ -44,7 +44,7 @@ const items = [
 
 export default function Accordion02() {
   return (
-    <div className="w-full max-w-xl">
+    <div className="w-full mx-auto max-w-xl">
       <Accordion type="single" defaultValue="02" collapsible className="w-full space-y-2">
         {items.map((item) => (
           <AccordionItem value={item.id} key={item.id} className="border last:border-b rounded-xl ">

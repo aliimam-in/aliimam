@@ -48,7 +48,7 @@ const items = [
 
 export default function Accordion03() {
   return (
-    <div className="w-full border max-w-3xl">
+    <div className="w-full border mx-auto max-w-3xl">
       <Accordion type="single" defaultValue="02" collapsible className="w-full">
         {items.map((item) => (
           <AccordionItem className="relative" value={item.id} key={item.id}>

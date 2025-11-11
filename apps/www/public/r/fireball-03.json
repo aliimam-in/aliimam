@@ -10,7 +10,7 @@
   "files": [
     {
       "path": "registry/default/example/backgrounds//fireball/fireball-03.tsx",
-      "content": "import { FireBall } from \"@/registry/default/components/fireball\";\n\nexport default function DemoOne() {\n  return (\n    <div className=\"h-full w-full overflow-hidden flex items-center justify-center relative\">\n      <FireBall blobRadius={2} ballColor=\"green\" particleCount={100}/> \n      <h1 className=\"tracking-tighter text-7xl font-bold text-center z-10\">\n         Fire Ball\n      </h1>\n    </div>\n  );\n}\n",
+      "content": "import { FireBall } from \"@/registry/default/components/fireball\";\n\nexport default function DemoOne() {\n  return (\n    <div className=\"h-[600px] w-5xl overflow-hidden flex items-center justify-center relative\">\n      <FireBall blobRadius={2} ballColor=\"green\" particleCount={100}/> \n      <h1 className=\"tracking-tighter text-7xl font-bold text-center z-10\">\n         Fire Ball\n      </h1>\n    </div>\n  );\n}\n",
       "type": "registry:example"
     }
   ]

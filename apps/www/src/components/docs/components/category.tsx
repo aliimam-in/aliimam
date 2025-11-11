@@ -15,15 +15,15 @@ export function CategoryNavigation({
 }: CategoryNavigationProps) {
   return (
     <div className="border-y p-6">
-      <div className="flex w-full flex-wrap items-center justify-center gap-2">
+      <div className="flex flex-wrap items-center justify-center gap-2">
         <Link href="/components">
           <Button
             size={"sm"}
-            variant="outline"
+            variant="ghost"
             className={cn(
-              "text-xs h-7",
+              "text-xs h-7 font-light",
               !currentCategory &&
-                "bg-accent dark:bg-input dark:hover:bg-input"
+                "bg-input"
             )}
           >
             All Components
@@ -37,11 +37,11 @@ export function CategoryNavigation({
               <Button
                 size={"sm"}
                 key={cat.slug}
-                variant="outline"
+                variant="ghost"
                 className={cn(
-                  "capitalize text-xs h-7",
+                  "capitalize text-xs h-7 font-light",
                   isActive &&
-                    "bg-accent !shadow-none before:!shadow-none dark:bg-input dark:hover:bg-input"
+                    "bg-input"
                 )}
               >
                 {cat.name}

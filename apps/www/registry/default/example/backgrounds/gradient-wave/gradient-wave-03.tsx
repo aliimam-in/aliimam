@@ -4,7 +4,7 @@ import { GradientWave } from "@/registry/default/components/gradient-wave";
 
 export default function HeroSection() {
   return (
-    <div className="h-full w-full flex items-center justify-center relative">
+    <div className="h-[600px] w-5xl flex items-center justify-center relative">
       <GradientWave
         colors={["#ffffff", "#000000", "#ffffff", "#000000", "#ffffff", "#000000"]}
         shadowPower={10}  

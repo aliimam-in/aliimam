@@ -10,7 +10,7 @@
   "files": [
     {
       "path": "registry/default/example/backgrounds/shine-border/shine-border-default.tsx",
-      "content": "\"use client\"\n\nimport { ShineBorder } from \"@/registry/default/components/shine-border\"\n\nexport default function DemoOne() {\n  return (\n    <div className=\"relative flex h-[500px] w-full flex-col items-center justify-center overflow-hidden rounded-xl border\">\n      <ShineBorder\n        borderRadius={30}\n        borderWidth={6}\n        duration={30}\n        className=\"h-[400px] w-full px-10\"\n      >\n        <h1 className=\"text-xl\">Shine Border</h1>\n      </ShineBorder>\n    </div>\n  )\n}\n",
+      "content": "\"use client\"\n\nimport { ShineBorder } from \"@/registry/default/components/shine-border\"\n\nexport default function DemoOne() {\n  return (\n    <div className=\"relative flex h-[600px] w-5xl flex-col items-center justify-center overflow-hidden rounded-xl border\">\n      <ShineBorder\n        borderRadius={30}\n        borderWidth={6}\n        duration={30}\n        className=\"h-[400px] w-full px-10\"\n      >\n        <h1 className=\"text-xl\">Shine Border</h1>\n      </ShineBorder>\n    </div>\n  )\n}\n",
       "type": "registry:example"
     }
   ]

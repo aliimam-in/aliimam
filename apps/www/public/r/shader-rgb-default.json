@@ -10,7 +10,7 @@
   "files": [
     {
       "path": "registry/default/example/backgrounds/shader-rgb/shader-rgb-default.tsx",
-      "content": "\"use client\"\n\nimport { ShaderRGB } from \"@/registry/default/components/shader-rgb\"\n\nexport default function DemoOne() {\n  return (\n    <div className=\"relative flex h-[550px] w-full flex-col items-center justify-center overflow-hidden rounded-xl border\">\n      <ShaderRGB />\n    </div>\n  )\n}\n",
+      "content": "\"use client\"\n\nimport { ShaderRGB } from \"@/registry/default/components/shader-rgb\"\n\nexport default function DemoOne() {\n  return (\n    <div className=\"relative flex h-[600px] w-5xl flex-col items-center justify-center overflow-hidden rounded-xl border\">\n      <ShaderRGB />\n    </div>\n  )\n}\n",
       "type": "registry:example"
     }
   ]

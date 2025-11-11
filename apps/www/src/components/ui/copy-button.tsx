@@ -2,6 +2,7 @@
 
 import * as React from "react";
 import { Check, Copy, ClipboardIcon } from "lucide-react";
+import { useState } from "react";
 
 import { Event, trackEvent } from "@/src/lib/events";
 
@@ -12,6 +13,7 @@ import {
   TooltipTrigger,
 } from "@/registry/default/ui/tooltip";
 import { cn } from "@/registry/default/lib/utils";
+import { RotateCcw } from "@aliimam/icons";
 
 export function copyToClipboardWithMeta(value: string, event?: Event) {
   navigator.clipboard.writeText(value);
@@ -205,5 +207,47 @@ export function CopyRegistry({
         {hasCopied ? "Copied" : "Copy to Clipboard"}
       </TooltipContent>
     </Tooltip>
+  );
+}
+
+export function RefreshButton({
+  onRefresh,
+}: {
+  onRefresh: (key: number) => void;
+}) {
+  const [key, setKey] = useState(0);
+
+  const handleClick = () => {
+    setKey((prev) => {
+      const next = prev + 1;
+      onRefresh(next); // send new key to parent
+      return next;
+    });
+  };
+
+  return (
+    <div className="absolute top-2 right-23 flex gap-2">
+      <Button
+        onClick={handleClick}
+        className="flex hover:rotate-45 hover:bg-transparent dark:hover:bg-black items-center rounded-lg px-3 py-1"
+        variant="ghost"
+        size="icon"
+      >
+        <RotateCcw size={16} />
+      </Button>
+    </div>
+  );
+}
+
+export function ParticlePreview({ children }: { children: React.ReactNode }) {
+  const [key, setKey] = useState(0);
+
+  return (
+    <div className="">
+      <RefreshButton onRefresh={setKey} />
+      <div key={key} data-slot="particle-wrapper">
+        {children}
+      </div>
+    </div>
   );
 }

@@ -10,7 +10,7 @@
   "files": [
     {
       "path": "registry/default/example/backgrounds/grid-pattern/grid-pattern-large.tsx",
-      "content": "import { GridPattern } from \"@/registry/default/components/grid-pattern\"\n\nexport default function Component() {\n  return (\n    <div className=\"flex w-full justify-center\">\n      <GridPattern variant=\"large\" />\n    </div>\n  )\n}\n",
+      "content": "import { GridPattern } from \"@/registry/default/components/grid-pattern\"\n\nexport default function Component() {\n  return (\n    <div className=\"flex h-[600px] w-5xl relative justify-center\">\n      <GridPattern variant=\"large\" />\n    </div>\n  )\n}\n",
       "type": "registry:example"
     }
   ]

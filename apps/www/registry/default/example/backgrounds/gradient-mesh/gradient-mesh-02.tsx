@@ -4,7 +4,7 @@ import { GradientMesh } from "@/registry/default/components/gradient-mesh";
 
 export default function GradientMesh02() {
   return (
-    <div className="h-full w-full flex items-center justify-center relative">
+    <div className="h-[600px] w-5xl flex items-center justify-center relative">
       <GradientMesh
         colors={["#bcecf6", "#00aaff", "#ffd447"]}
         distortion={8}

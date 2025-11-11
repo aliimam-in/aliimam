@@ -2,7 +2,7 @@ import { ShaderVoid } from "@/registry/default/components/shader-void";
 
 export default function DemoOne() {
   return (
-    <div className="relative flex h-full w-full flex-col items-center justify-center overflow-hidden rounded-xl border">
+    <div className="relative flex h-[600px] w-5xl flex-col items-center justify-center overflow-hidden rounded-xl border">
       <ShaderVoid
         voidBallsAmount={0}
         voidBallsColor="#fff200"

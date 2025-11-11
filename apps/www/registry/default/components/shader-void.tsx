@@ -37,7 +37,7 @@ interface PlasmaBall {
 }
 
 export function ShaderVoid({
-  width = 800,
+  width = 1400,
   height = 600,
   voidBallsAmount = 0,
   voidBallsColor = "#7700FF",

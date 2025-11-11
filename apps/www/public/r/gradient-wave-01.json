@@ -10,7 +10,7 @@
   "files": [
     {
       "path": "registry/default/example/backgrounds/gradient-wave/gradient-wave-01.tsx",
-      "content": "\"use client\";\n\nimport { GradientWave } from \"@/registry/default/components/gradient-wave\";\n\nexport default function GradientWave01() {\n  return (\n    <div className=\"relative h-full w-full flex items-center justify-center\">\n      <GradientWave />\n      <h1 className=\"text-black tracking-tighter text-7xl font-bold text-center z-10\">\n        Gradient Wave\n      </h1>\n    </div>\n  );\n}\n",
+      "content": "\"use client\";\n\nimport { GradientWave } from \"@/registry/default/components/gradient-wave\";\n\nexport default function GradientWave01() {\n  return (\n    <div className=\"relative h-[600px] w-5xl overflow-hidden flex items-center justify-center\">\n      <GradientWave />\n      <h1 className=\"text-black tracking-tighter text-7xl font-bold text-center z-10\">\n        Gradient Wave\n      </h1>\n    </div>\n  );\n}\n",
       "type": "registry:example"
     }
   ]

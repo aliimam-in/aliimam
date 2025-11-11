@@ -1,8 +1,7 @@
 import * as React from "react";
 import { Metadata } from "next";
 
-import { getUniqueComponentCategories } from "@/src/lib/components";
-import { cn } from "@/registry/default/lib/utils";
+import { getUniqueComponentCategories } from "@/src/lib/components"; 
 import { components } from "@/registry/default/components";
 
 import { CategoryNavigation } from "@/src/components/docs/components/category";

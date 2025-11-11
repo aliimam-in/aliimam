@@ -6,7 +6,10 @@ import { z } from "zod";
 import { getRegistryItem } from "@/src/lib/registry";
 import { cn } from "@/registry/default/lib/utils";
 import { Button } from "@/registry/default/ui/button";
-import { CopyRegistry } from "../../ui/copy-button";
+import {
+  CopyRegistry,
+  ParticlePreview, 
+} from "../../ui/copy-button"; 
 import {
   Tabs,
   TabsContent,
@@ -16,6 +19,7 @@ import {
 import { ComponentSource } from "./component-source";
 import { CodeBlockCommand } from "./code-block-command";
 import { OpenInV0Button } from "../../ui/open-in-v0-button";
+import Link from "next/link";
 
 export type Particle = z.infer<typeof registryItemSchema> & {
   highlightedCode: string;
@@ -43,7 +47,7 @@ export async function ParticleDisplay({
         className
       )}
     >
-      <Tabs defaultValue="preview" className="w-full">
+      <Tabs defaultValue="preview" className="w-full p-0">
         <div className="flex mt-2 ml-2 justify-between items-center">
           <TabsList>
             <TabsTrigger value="preview">Preview</TabsTrigger>
@@ -61,7 +65,7 @@ export async function ParticleDisplay({
         </div>
         <TabsContent value="preview">
           <div className="-m-px flex min-w-0 flex-1 flex-col flex-wrap items-center justify-center overflow-x-auto border bg-background p-6 before:pointer-events-none before:absolute before:inset-0   lg:px-8 lg:py-12 dark:before:shadow-[0_-1px_--theme(--color-white/8%)]">
-            <div data-slot="particle-wrapper">{children}</div>
+            <ParticlePreview>{children}</ParticlePreview>
           </div>
         </TabsContent>
         <TabsContent value="code" className="max-h-[600px]">
@@ -83,26 +87,34 @@ export async function ParticleDisplay({
               __bun__={`bunx --bun shadcn@latest add "https://aliimam.in/r/${name}.json"`}
             />
           </figure>
-        </TabsContent>
-        <div className="flex items-center gap-3 rounded-b-xl p-2">
-          <p className="flex flex-1 gap-1 truncate text-xs text-muted-foreground">
-            <span className="truncate">{particle.description}</span>
-          </p>
-          <div className="flex items-center gap-1.5">
-            {process.env.NODE_ENV === "development" && (
+          <div className="flex pt-4 pl-4 items-center gap-1.5">
+            <Link href="/docs/ui">
               <Button
-                size="sm"
-                variant="outline"
-                className="text-xs"
-                disabled
-                title="Particle name"
+                size="sm"   
+                className="capitalize"
               >
-                {particle.name}
+               See {particle.registryDependencies} Component Doc
               </Button>
-            )}
+            </Link>
           </div>
-        </div>
+        </TabsContent>
       </Tabs>
+      <div className="flex items-center gap-3 p-2">
+        <p className="flex flex-1 gap-1 truncate text-xs text-muted-foreground">
+          <span className="truncate">{particle.description}</span>
+        </p>
+        <div className="flex items-center gap-1.5">
+          <Button
+            size="sm"
+            variant="outline"
+            className="text-xs"
+            disabled
+            title="Component name"
+          >
+            {particle.name}
+          </Button>
+        </div>
+      </div>
     </div>
   );
 }

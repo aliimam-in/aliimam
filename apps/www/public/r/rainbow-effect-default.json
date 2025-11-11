@@ -10,7 +10,7 @@
   "files": [
     {
       "path": "registry/default/example/rainbow-effect/rainbow-effect-default.tsx",
-      "content": "import { RainbowEffect } from \"@/registry/default/components/rainbow-effect\"\n\nexport default function Component() {\n  return (\n    <div className=\"flex h-full w-full items-center justify-center\">\n      <div className=\"-mt-16 -ml-8 md:-space-y-3 xl:-space-y-8\">\n        <RainbowEffect\n          className=\"font-bold tracking-tighter\"\n          fontSize={6}\n          text=\"Cool\"\n        />\n        <RainbowEffect\n          className=\"-pl-6 font-bold tracking-tighter\"\n          fontSize={7}\n          text=\"Designs\"\n        />\n      </div>\n    </div>\n  )\n}\n",
+      "content": "import { RainbowEffect } from \"@/registry/default/components/rainbow-effect\"\n\nexport default function Component() {\n  return (\n    <div className=\"flex h-[600px] w-5xl items-center justify-center\">\n      <div className=\"-mt-16 -ml-8 md:-space-y-3 xl:-space-y-8\">\n        <RainbowEffect\n          className=\"font-bold tracking-tighter\"\n          fontSize={6}\n          text=\"Cool\"\n        />\n        <RainbowEffect\n          className=\"-pl-6 font-bold tracking-tighter\"\n          fontSize={7}\n          text=\"Designs\"\n        />\n      </div>\n    </div>\n  )\n}\n",
       "type": "registry:example"
     }
   ]

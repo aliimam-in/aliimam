@@ -10,7 +10,7 @@
   "files": [
     {
       "path": "registry/default/example/pixelated-grid/pixelated-grid-01.tsx",
-      "content": "import { PixelGrid } from \"@/registry/default/components/pixelated-grid\";\n\nexport default function Component() {\n  return (\n    <div className=\"flex h-100 w-full overflow-hidden items-center justify-center\">\n      <PixelGrid />\n    </div>\n  );\n}\n",
+      "content": "import { PixelGrid } from \"@/registry/default/components/pixelated-grid\";\n\nexport default function Component() {\n  return (\n    <div className=\"flex h-[600px] w-5xl overflow-hidden items-center justify-center\">\n      <PixelGrid />\n    </div>\n  );\n}\n",
       "type": "registry:example"
     }
   ]

@@ -123,8 +123,7 @@ export const components: ComponentsItem[] = [
     id: "accordion-01",
     component: Accordion01,
     category: ["accordion"],
-    className: "**:data-[slot=particle-wrapper]:w-full **:data-[slot=particle-wrapper]:max-w-64",
-  },
+   },
   {
     id: "accordion-02",
     component: Accordion02,
