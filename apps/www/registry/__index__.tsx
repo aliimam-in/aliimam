@@ -740,7 +740,7 @@ export const Index: Record<string, any> = {
     name: "accordion-01",
     description: "Personal FAQ accordion introducing Ali Imam, his design approach, inspirations, and ways to connect for collaborations.",
     type: "registry:example",
-    registryDependencies: ["accordion"],
+    registryDependencies: ["@aliimam/accordion"],
     files: [{
       path: "registry/default/example/accordion/accordion-01.tsx",
       type: "registry:example",
@@ -2180,7 +2180,7 @@ export const Index: Record<string, any> = {
     name: "gradient-mesh-02",
     description: "Example showing a simple gradient mesh.",
     type: "registry:example",
-    registryDependencies: ["gradient-mesh"],
+    registryDependencies: ["@aliimam/gradient-mesh"],
     files: [{
       path: "registry/default/example/backgrounds/gradient-mesh/gradient-mesh-02.tsx",
       type: "registry:example",
@@ -3516,24 +3516,6 @@ export const Index: Record<string, any> = {
       return { default: mod.default || mod[exportName] }
     }),
     categories: ["connect","about"],
-    meta: {"iframeHeight":"800px"},
-  },
-  "404-01": {
-    name: "404-01",
-    description: "A simple chat section.",
-    type: "registry:block",
-    registryDependencies: undefined,
-    files: [{
-      path: "registry/default/blocks/404/404-01/page.tsx",
-      type: "registry:component",
-      target: "components/404-01.tsx"
-    }],
-    component: React.lazy(async () => {
-      const mod = await import("@/registry/default/blocks/404/404-01/page.tsx")
-      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
-      return { default: mod.default || mod[exportName] }
-    }),
-    categories: ["not-found","404"],
     meta: {"iframeHeight":"800px"},
   },
   "chat-01": {

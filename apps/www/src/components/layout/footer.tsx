@@ -6,7 +6,7 @@ import Link from "next/link";
 import { ThemeSwitch } from "./mode-toggle";
 import { Heart } from "lucide-react";
 import { Separator } from "@/registry/default/ui/separator";
-import { LinkedIn, X, Instagram } from "../logos";
+import { LinkedIn, X, Instagram, Github } from "../logos";
 
 const navigation = {
   categories: [
@@ -128,6 +128,16 @@ export function Footer() {
           >
             <div className="hover:scale-105">
               <LinkedIn />
+            </div>
+          </Link>
+          <Link
+            aria-label="Github"
+            href="https://github.com/aliimam-in"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <div className="hover:scale-105">
+              <Github />
             </div>
           </Link>
         </div>

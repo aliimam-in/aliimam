@@ -47,6 +47,7 @@ This file provides LLM-friendly entry points to documentation and examples.
 - [toggle](https://aliimam.in/docs/components/toggle): The toggle component.
 - [toggle-group](https://aliimam.in/docs/components/toggle-group): The toggle-group component.
 - [tooltip](https://aliimam.in/docs/components/tooltip): The tooltip component.
+- [ui](https://aliimam.in/docs/components/ui): The ui component.
 
 ## Examples
 

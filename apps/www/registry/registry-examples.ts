@@ -7,7 +7,8 @@ export const examples: Registry["items"] = [
     title: "Accordion Demo",
     description:
       "Personal FAQ accordion introducing Ali Imam, his design approach, inspirations, and ways to connect for collaborations.",
-    registryDependencies: ["accordion"],
+    registryDependencies: ["@aliimam/accordion"],
+    dependencies: ["@aliimam/icons"],
     files: [
       {
         path: "example/accordion/accordion-01.tsx",
@@ -1047,7 +1048,7 @@ export const examples: Registry["items"] = [
     name: "gradient-mesh-02",
     type: "registry:example",
     description: "Example showing a simple gradient mesh.",
-    registryDependencies: ["gradient-mesh"],
+    registryDependencies: ["@aliimam/gradient-mesh"],
     files: [
       {
         path: "example/backgrounds/gradient-mesh/gradient-mesh-02.tsx",

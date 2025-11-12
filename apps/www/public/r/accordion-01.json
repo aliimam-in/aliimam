@@ -4,8 +4,11 @@
   "type": "registry:example",
   "title": "Accordion Demo",
   "description": "Personal FAQ accordion introducing Ali Imam, his design approach, inspirations, and ways to connect for collaborations.",
+  "dependencies": [
+    "@aliimam/icons"
+  ],
   "registryDependencies": [
-    "accordion"
+    "@aliimam/accordion"
   ],
   "files": [
     {

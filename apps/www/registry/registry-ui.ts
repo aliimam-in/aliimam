@@ -2,6 +2,13 @@ import { type Registry } from "shadcn/registry"
 
 export const ui: Registry["items"] = [
   {
+    name: "ui",
+    type: "registry:ui",
+    registryDependencies: [
+      "@aliimam/accordion"
+    ],
+  },
+  {
     name: "accordion",
     type: "registry:ui",
     dependencies: ["@radix-ui/react-accordion"],

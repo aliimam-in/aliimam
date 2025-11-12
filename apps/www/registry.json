@@ -19,6 +19,13 @@
       "cssVars": {}
     },
     {
+      "name": "ui",
+      "type": "registry:ui",
+      "registryDependencies": [
+        "@aliimam/accordion"
+      ]
+    },
+    {
       "name": "accordion",
       "type": "registry:ui",
       "dependencies": [
@@ -630,8 +637,11 @@
       "type": "registry:example",
       "title": "Accordion Demo",
       "description": "Personal FAQ accordion introducing Ali Imam, his design approach, inspirations, and ways to connect for collaborations.",
+      "dependencies": [
+        "@aliimam/icons"
+      ],
       "registryDependencies": [
-        "accordion"
+        "@aliimam/accordion"
       ],
       "files": [
         {
@@ -1819,7 +1829,7 @@
       "title": "Gradient Mesh",
       "description": "Example showing a simple gradient mesh.",
       "registryDependencies": [
-        "gradient-mesh"
+        "@aliimam/gradient-mesh"
       ],
       "files": [
         {
@@ -3321,25 +3331,6 @@
       ]
     },
     {
-      "name": "404-01",
-      "type": "registry:block",
-      "description": "A simple chat section.",
-      "files": [
-        {
-          "path": "registry/default/blocks/404/404-01/page.tsx",
-          "type": "registry:component",
-          "target": "components/404-01.tsx"
-        }
-      ],
-      "meta": {
-        "iframeHeight": "800px"
-      },
-      "categories": [
-        "not-found",
-        "404"
-      ]
-    },
-    {
       "name": "chat-01",
       "type": "registry:block",
       "description": "A simple chat section.",
@@ -3356,6 +3347,13 @@
       "categories": [
         "chat",
         "ai"
+      ]
+    },
+    {
+      "name": "component",
+      "type": "registry:component",
+      "registryDependencies": [
+        "@aliimam/gradient-mesh"
       ]
     },
     {

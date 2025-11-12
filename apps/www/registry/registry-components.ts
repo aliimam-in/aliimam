@@ -2,6 +2,13 @@ import { type Registry } from "shadcn/registry"
 
 export const components: Registry["items"] = [ 
   {
+    name: "component",
+    type: "registry:component",
+    registryDependencies: [
+      "@aliimam/gradient-mesh"
+    ],
+  },
+  {
     name: "gradient-mesh",
     type: "registry:component",
     dependencies: ["ogl"],

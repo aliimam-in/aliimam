@@ -5,7 +5,7 @@
   "title": "Gradient Mesh",
   "description": "Example showing a simple gradient mesh.",
   "registryDependencies": [
-    "gradient-mesh"
+    "@aliimam/gradient-mesh"
   ],
   "files": [
     {
