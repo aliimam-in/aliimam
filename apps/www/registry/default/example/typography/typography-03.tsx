@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const myFont = Roboto({
   weight: ["400", "700"],
-  subsets: ["latin"],
+  subsets: ["latin-ext"],
 });
 
 const Example = () => (

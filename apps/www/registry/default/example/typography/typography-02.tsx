@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const myFont = Cairo({
   weight: ["400", "700"],
-  subsets: ["arabic"],
+  subsets: ["latin-ext"],
 });
 
 const Example = () => (

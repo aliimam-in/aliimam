@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const myFont = Poppins({
   weight: ["400", "700"],
-  subsets: ["devanagari"],
+  subsets: ["latin-ext"],
 });
 
 const Example = () => (
