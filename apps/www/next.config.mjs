@@ -6,6 +6,9 @@ const nextConfig = {
   output: 'standalone',
   devIndicators: false,
   reactStrictMode: true, 
+   experimental: {
+    turbopackFileSystemCacheForDev: true,
+  },
   eslint: {
     ignoreDuringBuilds: true,
   },

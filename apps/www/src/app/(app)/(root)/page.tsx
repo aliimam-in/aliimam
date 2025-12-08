@@ -22,7 +22,7 @@ export default function Home() {
       <Blogs />
       <FAQs />
       <CallToAction />
-      <div className="relative">
+      <div className="relative -z-10">
         <div className="flex absolute top-12 md:top-30 lg:top-36 left-1/2 -translate-x-1/2 items-center justify-center gap-1">
           <span className="relative flex h-3 w-3 items-center justify-center">
             <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-500 opacity-75"></span>
