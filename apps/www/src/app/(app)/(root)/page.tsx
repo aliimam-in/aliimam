@@ -7,9 +7,11 @@ import { Pricing } from "@/src/components/home/pricing";
 import { Services } from "@/src/components/home/services";
 import { Stats } from "@/src/components/home/stats";
 import { Tools } from "@/src/components/home/tools";
+import { Typewriter } from "@/src/components/home/type";
 import { Works } from "@/src/components/home/works";
 
 export default function Home() {
+  const words = ["AI", "Me"];
   return (
     <div className="">
       <Hero />
@@ -32,7 +34,13 @@ export default function Home() {
         </div>
 
         <h1 className="text-center font-bold tracking-[-0.8rem] text-[clamp(4rem,30vw,20rem)] -mt-10 md:-mt-20 -mb-20 md:-mb-40">
-          Hire AI
+          Hire{" "}
+          <Typewriter
+            words={words}
+            speed={200}
+            delayBetweenWords={5000}
+            cursor={false} 
+          />
         </h1>
       </div>
     </div>
