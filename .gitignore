@@ -43,3 +43,5 @@ tsconfig.tsbuildinfo
 .idea
 .fleet
 .vscode
+.env
+packages/generate-icon-lib/.env

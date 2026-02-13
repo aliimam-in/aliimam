@@ -1,79 +1,135 @@
-![aliimam](https://github.com/user-attachments/assets/a5b73bfc-b0a3-4b4e-8915-f90a086c5723)
+# Turborepo starter
 
-# II aliimam UI
+This Turborepo starter is maintained by the Turborepo core team.
 
-[aliimam UI](https://ui.aliimam.io) is a component library built on top of [shadcn/ui](https://ui.shadcn.com/) to help you build audio & agentic applications faster.
+## Using this example
 
-## Overview
+Run the following command:
 
-aliimam UI provides pre-built, customizable React components specifically designed for agent & audio applications, including orbs, waveforms, voice agents, audio players, and more. 
-The CLI makes it easy to add these components to your Next.js project.
-
-## Installation
-You can use the aliimam Agents CLI directly with npx, or install it globally:
-```bash
-# Use directly (recommended)
-npx @aliimam/cli@latest components add <component-name>
-
-# Or using shadcn cli
-npx shadcn@latest add https://ui.aliimam.io/r/all.json
+```sh
+npx create-turbo@latest
 ```
 
-## Prerequisites
-Before using aliimam UI, ensure your Next.js project meets these requirements:
-- **Node.js 18** or later
-- **shadcn/ui** initialized in your project (npx shadcn@latest init)
-- **Tailwind CSS** configured
+## What's inside?
 
-## Usage
+This Turborepo includes the following packages/apps:
 
-### Install All Components
-Install all available aliimam UI components at once:
-```bash
-npx @aliimam/cli@latest components add all
+### Apps and Packages
+
+- `docs`: a [Next.js](https://nextjs.org/) app
+- `web`: another [Next.js](https://nextjs.org/) app
+- `@repo/ui`: a stub React component library shared by both `web` and `docs` applications
+- `@repo/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
+- `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
+
+Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
+
+### Utilities
+
+This Turborepo has some additional tools already setup for you:
+
+- [TypeScript](https://www.typescriptlang.org/) for static type checking
+- [ESLint](https://eslint.org/) for code linting
+- [Prettier](https://prettier.io) for code formatting
+
+### Build
+
+To build all apps and packages, run the following command:
+
 ```
-This command will:
-- Set up shadcn/ui if not already configured
-- Install all aliimam UI components to your configured components directory
-- Add necessary dependencies to your project
+cd my-turborepo
 
-### Install Specific Components
-Install individual components using the `components add` command:
-```bash
-npx @aliimam/cli@latest components add <component-name>
-```
-Examples:
-```bash
-# Install the orb component
-npx @aliimam/cli@latest components add orb
-```
+# With [global `turbo`](https://turborepo.com/docs/getting-started/installation#global-installation) installed (recommended)
+turbo build
 
-### Alternative: Use with shadcn/ui CLI
-
-You can also install components using the standard shadcn/ui CLI:
-```bash
-# Install all components
-npx shadcn@latest add https://ui.aliimam.io/r/all.json
-
-# Install a specific component
-npx shadcn@latest add https://ui.aliimam.io/r/orb.json
+# Without [global `turbo`](https://turborepo.com/docs/getting-started/installation#global-installation), use your package manager
+npx turbo build
+yarn dlx turbo build
+pnpm exec turbo build
 ```
 
-All available components can be found [here](https://ui.aliimam.io/docs/components) or explore a list of example components [here](https://ui.aliimam.io/blocks).
+You can build a specific package by using a [filter](https://turborepo.com/docs/crafting-your-repository/running-tasks#using-filters):
 
-## Contributing
+```
+# With [global `turbo`](https://turborepo.com/docs/getting-started/installation#global-installation) installed (recommended)
+turbo build --filter=docs
 
-If you'd like to contribute to aliimam UI, please follow these steps:
+# Without [global `turbo`](https://turborepo.com/docs/getting-started/installation#global-installation), use your package manager
+npx turbo build --filter=docs
+yarn exec turbo build --filter=docs
+pnpm exec turbo build --filter=docs
+```
 
-1. Fork the repository
-2. Create a new branch
-3. Make your changes to the components in the registry.
-4. Open a PR to the main branch.
+### Develop
 
-Please read the [contributing guide](/CONTRIBUTING.md).
+To develop all apps and packages, run the following command:
 
-## License
+```
+cd my-turborepo
 
-Licensed under the [MIT license](https://github.com/aliimam/ui/blob/main/LICENSE.md).
+# With [global `turbo`](https://turborepo.com/docs/getting-started/installation#global-installation) installed (recommended)
+turbo dev
 
-Engineered by [aliimam](https://aliimam.io).
+# Without [global `turbo`](https://turborepo.com/docs/getting-started/installation#global-installation), use your package manager
+npx turbo dev
+yarn exec turbo dev
+pnpm exec turbo dev
+```
+
+You can develop a specific package by using a [filter](https://turborepo.com/docs/crafting-your-repository/running-tasks#using-filters):
+
+```
+# With [global `turbo`](https://turborepo.com/docs/getting-started/installation#global-installation) installed (recommended)
+turbo dev --filter=web
+
+# Without [global `turbo`](https://turborepo.com/docs/getting-started/installation#global-installation), use your package manager
+npx turbo dev --filter=web
+yarn exec turbo dev --filter=web
+pnpm exec turbo dev --filter=web
+```
+
+### Remote Caching
+
+> [!TIP]
+> Vercel Remote Cache is free for all plans. Get started today at [vercel.com](https://vercel.com/signup?/signup?utm_source=remote-cache-sdk&utm_campaign=free_remote_cache).
+
+Turborepo can use a technique known as [Remote Caching](https://turborepo.com/docs/core-concepts/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
+
+By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup?utm_source=turborepo-examples), then enter the following commands:
+
+```
+cd my-turborepo
+
+# With [global `turbo`](https://turborepo.com/docs/getting-started/installation#global-installation) installed (recommended)
+turbo login
+
+# Without [global `turbo`](https://turborepo.com/docs/getting-started/installation#global-installation), use your package manager
+npx turbo login
+yarn exec turbo login
+pnpm exec turbo login
+```
+
+This will authenticate the Turborepo CLI with your [Vercel account](https://vercel.com/docs/concepts/personal-accounts/overview).
+
+Next, you can link your Turborepo to your Remote Cache by running the following command from the root of your Turborepo:
+
+```
+# With [global `turbo`](https://turborepo.com/docs/getting-started/installation#global-installation) installed (recommended)
+turbo link
+
+# Without [global `turbo`](https://turborepo.com/docs/getting-started/installation#global-installation), use your package manager
+npx turbo link
+yarn exec turbo link
+pnpm exec turbo link
+```
+
+## Useful Links
+
+Learn more about the power of Turborepo:
+
+- [Tasks](https://turborepo.com/docs/crafting-your-repository/running-tasks)
+- [Caching](https://turborepo.com/docs/crafting-your-repository/caching)
+- [Remote Caching](https://turborepo.com/docs/core-concepts/remote-caching)
+- [Filtering](https://turborepo.com/docs/crafting-your-repository/running-tasks#using-filters)
+- [Configuration Options](https://turborepo.com/docs/reference/configuration)
+- [CLI Usage](https://turborepo.com/docs/reference/command-line-reference)
