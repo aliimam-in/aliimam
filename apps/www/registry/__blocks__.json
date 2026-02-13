@@ -225,26 +225,6 @@
     "categories": ["faq"]
   },
   {
-    "name": "faq-02",
-    "description": "A simple faq section.",
-    "categories": ["faq"]
-  },
-  {
-    "name": "faq-03",
-    "description": "A simple faq section.",
-    "categories": ["faq"]
-  },
-  {
-    "name": "faq-04",
-    "description": "A simple faq section.",
-    "categories": ["faq"]
-  },
-  {
-    "name": "faq-05",
-    "description": "A simple faq section.",
-    "categories": ["faq"]
-  },
-  {
     "name": "home-01",
     "description": "A simple home page.",
     "categories": ["home"]

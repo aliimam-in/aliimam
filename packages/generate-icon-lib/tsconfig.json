@@ -5,7 +5,6 @@
 		"target": "esnext",
 		"moduleResolution": "nodenext",
 		"sourceMap": true,
-		"ignoreDeprecations": "6.0",
 		"baseUrl": ".",
 		"jsx": "react-jsx",
 		"strict": true,

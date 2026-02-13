@@ -72,7 +72,7 @@ export default function FAQs() {
   ]
 
   return (
-    <section className="relative container flex flex-col h-screen w-full items-center justify-center">
+    <section className="relative container flex h-screen w-full flex-col items-center justify-center">
       <div className="border">
         <div className="mx-auto w-full max-w-5xl">
           <Accordion
