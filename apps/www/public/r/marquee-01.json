@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "marquee-01",
-  "type": "registry:example",
   "title": "Marquee",
   "description": "",
   "registryDependencies": [
@@ -9,9 +8,10 @@
   ],
   "files": [
     {
-      "path": "registry/default/example/marquee/marquee-01.tsx",
-      "content": "import { Badge } from \"@/registry/default/ui/badge\"\nimport { Marquee } from \"@/registry/default/components/marquee\"\n\nconst technologies = [\n  { name: \"React\", color: \"bg-blue-500\" },\n  { name: \"Next.js\", color: \"bg-black\" },\n  { name: \"TypeScript\", color: \"bg-blue-600\" },\n  { name: \"Tailwind CSS\", color: \"bg-cyan-500\" },\n  { name: \"Framer Motion\", color: \"bg-pink-500\" },\n  { name: \"Radix UI\", color: \"bg-green-500\" },\n  { name: \"Lucide Icons\", color: \"bg-orange-500\" },\n  { name: \"shadcn/ui\", color: \"bg-purple-500\" },\n]\n\nexport default function DemoOne() {\n  return (\n    <div className=\"relative flex h-full items-center justify-center overflow-hidden rounded-xl border\">\n      <main className=\"\">\n        <Marquee>\n          {technologies.map((tech, index) => (\n            <Badge\n              key={index}\n              className={`${tech.color} rounded-md px-4 py-2 text-sm font-medium text-white`}\n            >\n              {tech.name}\n            </Badge>\n          ))}\n        </Marquee>\n        <Marquee reverse>\n          {technologies.map((tech, index) => (\n            <Badge\n              key={index}\n              className={`${tech.color} rounded-md px-4 py-2 text-white`}\n            >\n              {tech.name}\n            </Badge>\n          ))}\n        </Marquee>\n        <Marquee speed=\"slow\">\n          {technologies.map((tech, index) => (\n            <Badge\n              key={index}\n              className={`${tech.color} rounded-md px-4 py-2 text-white`}\n            >\n              {tech.name}\n            </Badge>\n          ))}\n        </Marquee>\n        <Marquee reverse speed=\"fast\">\n          {technologies.map((tech, index) => (\n            <Badge\n              key={index}\n              className={`${tech.color} rounded-md px-4 py-2 text-white`}\n            >\n              {tech.name}\n            </Badge>\n          ))}\n        </Marquee>\n      </main>\n    </div>\n  )\n}\n",
+      "path": "examples/marquee/marquee-01.tsx",
+      "content": "import { Marquee } from \"@/registry/aliimam/components/marquee\"\nimport { Badge } from \"@/components/ui/badge\"\n\nconst technologies = [\n  { name: \"React\", color: \"bg-blue-500\" },\n  { name: \"Next.js\", color: \"bg-black\" },\n  { name: \"TypeScript\", color: \"bg-blue-600\" },\n  { name: \"Tailwind CSS\", color: \"bg-cyan-500\" },\n  { name: \"Framer Motion\", color: \"bg-pink-500\" },\n  { name: \"Radix UI\", color: \"bg-green-500\" },\n  { name: \"Lucide Icons\", color: \"bg-orange-500\" },\n  { name: \"shadcn/ui\", color: \"bg-purple-500\" },\n]\n\nexport default function DemoOne() {\n  return (\n    <div className=\"flex h-full w-full items-center justify-center overflow-hidden border\">\n      <main className=\"flex flex-col gap-2\">\n        <Marquee speed={\"slow\"}>\n          {technologies.map((tech, index) => (\n            <Badge key={index} className={`${tech.color} px-4 py-1 text-white`}>\n              {tech.name}\n            </Badge>\n          ))}\n        </Marquee>\n        <Marquee speed={\"normal\"}>\n          {technologies.map((tech, index) => (\n            <Badge key={index} className={`${tech.color} px-4 py-1 text-white`}>\n              {tech.name}\n            </Badge>\n          ))}\n        </Marquee>\n        <Marquee speed={\"fast\"}>\n          {technologies.map((tech, index) => (\n            <Badge key={index} className={`${tech.color} px-4 py-1 text-white`}>\n              {tech.name}\n            </Badge>\n          ))}\n        </Marquee>\n        <Marquee speed={6}>\n          {technologies.map((tech, index) => (\n            <Badge key={index} className={`${tech.color} px-4 py-1 text-white`}>\n              {tech.name}\n            </Badge>\n          ))}\n        </Marquee>\n      </main>\n    </div>\n  )\n}\n",
       "type": "registry:example"
     }
-  ]
+  ],
+  "type": "registry:example"
 }

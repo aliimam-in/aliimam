@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { BlogPosting, WithContext } from "schema-dts";
-import { BlogTableOfContents } from "@/src/components/docs/blogs/table-of-contents";
+import { BlogTableOfContents } from "@/src/components/docs/table-of-contents";
  
 
 export const revalidate = false;
@@ -88,7 +88,7 @@ export default async function BlogPage({ params }: PageProps) {
     dateModified: doc.publishedOn,
     author: {
       "@type": "Person",
-      name: doc.author || "Magic UI Team",
+      name: doc.author || "Ali Imam",
       url: siteConfig.links?.twitter,
     },
     image: doc.image ? [doc.image] : undefined,
@@ -125,17 +125,16 @@ export default async function BlogPage({ params }: PageProps) {
       />
       <div
         data-slot="blocks"
-        className="flex items-stretch text-[1.05rem] sm:text-[15px] xl:w-full"
+        className="flex items-stretch xl:w-full"
       >
-        <div className="sticky top-24 z-30 ml-auto hidden h-[calc(100svh-var(--footer-height)+2rem)] w-64 flex-col gap-4 overflow-hidden overscroll-none pb-8 xl:flex">
+        <div className="sticky top-16 z-30 ml-auto hidden h-[calc(100svh-var(--footer-height)+2rem)] w-64 flex-col gap-4 overflow-hidden overscroll-none pb-8 xl:flex">
           <div className="h-(--top-spacing) shrink-0" />
           <div className="px-6">
              All Blog List
           </div>
         </div>
-        <div className="flex min-w-0 flex-1 border rounded-md flex-col">
-          <div className="p-3 flex gap-3 items-center px-6 border-b">
-             
+        <div className="flex min-w-0 flex-1 border-x rounded-md flex-col">
+          <div className="p-3 flex gap-3 items-center px-6 border-b"> 
             <Link className="text-muted-foreground hover:text-primary" href={"/blogs"}>Back to All Blogs</Link>
           </div>
           <div className="flex px-6 lg:px-10 min-w-0 gap-10 pb-10 md:gap-20 flex-1 flex-col">
@@ -146,7 +145,7 @@ export default async function BlogPage({ params }: PageProps) {
                     <img
                       src={doc.image}
                       alt={doc.title}
-                      className="w-full h-full invert-0 dark:invert rounded-md border"
+                      className="w-full h-[300px] object-cover invert-0 dark:invert rounded-md border"
                     />
                   </div>
                   <div className="mx-auto flex flex-col items-center justify-center gap-y-2 py-6">
@@ -207,7 +206,7 @@ export default async function BlogPage({ params }: PageProps) {
             </article>
           </div>
         </div>
-        <div className="sticky top-24 z-30 ml-auto hidden h-[calc(100svh-var(--footer-height)+2rem)] w-64 flex-col gap-4 overflow-hidden overscroll-none pb-8 xl:flex">
+        <div className="sticky top-16 z-30 ml-auto hidden h-[calc(100svh-var(--footer-height)+2rem)] w-64 flex-col gap-4 overflow-hidden overscroll-none pb-8 xl:flex">
           <div className="h-(--top-spacing) shrink-0" />
           <div className="px-6">
             <BlogTableOfContents />

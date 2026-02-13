@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "stats-05",
+  "description": "A simple stats section.",
+  "registryDependencies": [
+    "gauge"
+  ],
+  "files": [
+    {
+      "path": "blocks/stats/stats-05/stats.tsx",
+      "content": "import { Gauge } from \"@/registry/aliimam/components/gauge\"\n\nexport default function StatsSection() {\n  return (\n    <div className=\"container flex h-screen flex-col items-center justify-center text-center\">\n      <h2 className=\"text-xl font-semibold tracking-tight md:text-3xl\">\n        Performance That Speaks in Numbers\n      </h2>\n      <p className=\"text-muted-foreground mt-6 text-sm\">\n        Our infrastructure is optimized for{\" \"}\n        <span className=\"text-primary font-medium\">\n          speed, reliability, and scalability\n        </span>{\" \"}\n        — delivering measurable impact across every platform.\n      </p>\n      <div className=\"mt-10 flex flex-wrap items-center justify-center gap-10\">\n        <Gauge width={80} height={80} value={9} showPercentage />\n        <Gauge width={80} height={80} value={20} showPercentage />\n        <Gauge width={80} height={80} value={45} showPercentage />\n        <Gauge width={80} height={80} value={66} showPercentage />\n        <Gauge width={80} height={80} value={78} showPercentage />\n        <Gauge width={80} height={80} value={99} showPercentage />\n      </div>\n    </div>\n  )\n}\n",
+      "type": "registry:component",
+      "target": "components/stats.tsx"
+    }
+  ],
+  "meta": {
+    "iframeHeight": "500px"
+  },
+  "categories": [
+    "stats"
+  ],
+  "type": "registry:block"
+}

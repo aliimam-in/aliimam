@@ -4,7 +4,7 @@ import * as React from "react";
 import { Moon, Sun, ArrowUp } from "lucide-react";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
-import { Toggle } from "@/registry/default/ui/toggle";
+import { Toggle } from "@/registry/aliimam/ui/toggle";
 
 export function ModeToggle() {
   const { theme, setTheme } = useTheme();
@@ -52,25 +52,25 @@ const ThemeSwitch = () => {
 
   return (
     <div className="flex items-center justify-center">
-      <div className="flex items-center rounded-full border">
+      <div className="flex items-center rounded-none border">
         <button
           onClick={() => setTheme("light")}
-          className="bg-black mr-2 cursor-pointer rounded-full p-2 text-white dark:bg-background dark:text-white"
+          className="bg-black cursor-pointer rounded-none p-2 text-white dark:bg-background dark:text-white"
         >
           <Sun className="h-5 w-5" />
         </button>
 
         <button
-          className="cursor-pointer"
+          className="cursor-pointer border-x p-2"
           type="button"
           onClick={handleScrollTop}
         >
-          <ArrowUp className="h-3 w-3" />
+          <ArrowUp className="h-5 w-5" />
         </button>
 
         <button
           onClick={() => setTheme("dark")}
-          className="dark:bg-white ml-2 cursor-pointer rounded-full p-2 text-black dark:text-black"
+          className="dark:bg-white cursor-pointer rounded-none p-2 text-black dark:text-black"
         >
           <Moon className="h-5 w-5" />
         </button>

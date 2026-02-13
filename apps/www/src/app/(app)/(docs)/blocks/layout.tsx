@@ -1,35 +1,51 @@
-import { Button } from "@/registry/default/ui/button";
-import { BlocksNav } from "@/src/components/docs/blocks/blocks-nav";
-import { BlockThemeSelector } from "@/src/components/docs/theme-selector";
-import Link from "next/link";
+import { Metadata } from "next"
 
-export default function DocsLayout({
+import { BlocksNav } from "@/src/components/docs/blocks-nav"
+import { Sheet } from "@/registry/aliimam/ui/sheet" 
+import { ThemeSelectorWithSync } from "@/src/components/themes/synced-theme-selector"
+
+const title = "Blocks"
+const description =
+  "A collection of building blocks for agents and audio that you can customize and extend."
+
+export const metadata: Metadata = {
+  title,
+  description,
+  openGraph: {
+    images: [
+      {
+        url: `/og?title=${encodeURIComponent(
+          title
+        )}&description=${encodeURIComponent(description)}`,
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: [
+      {
+        url: `/og?title=${encodeURIComponent(
+          title
+        )}&description=${encodeURIComponent(description)}`,
+      },
+    ],
+  },
+}
+
+export default function BlocksLayout({
   children,
 }: {
-  children: React.ReactNode;
+  children: React.ReactNode
 }) {
   return (
-    <div className="">
-      <div className="h-20 fixed w-screen z-30 bg-background/20 backdrop-blur-lg" />
-      <div
-        className="sticky top-20 z-30 flex bg-background py-3 items-center justify-between border-y"
-        id="blocks"
-      >
-        <BlocksNav />
-        <BlockThemeSelector />
+    <>
+      <ThemeSelectorWithSync />
+      <div className="">
+        <Sheet>
+          <BlocksNav />
+          <div className="h-full container 2xl:border-x py-14 w-full">{children}</div>
+        </Sheet>
       </div>
-      <div className="h-full pt-20 mx-auto max-w-[1400px] w-full">
-        {children}
-      </div>
-      <Link
-        className="flex justify-center"
-        target="_blank"
-        href="https://21st.dev/community/aliimam"
-      >
-        <Button className="h-14 cursor-pointer rounded-full px-10">
-          See All Blocks
-        </Button>
-      </Link>
-    </div>
-  );
+    </>
+  )
 }

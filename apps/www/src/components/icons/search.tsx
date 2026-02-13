@@ -1,5 +1,5 @@
 "use client";
-import { Input } from "@/registry/default/ui/input";
+import { Input } from "@/registry/aliimam/ui/input";
 import { Search, X } from "lucide-react";
 import { useLogos } from "./logo-context";
 import { useIcons } from "./icon-context";

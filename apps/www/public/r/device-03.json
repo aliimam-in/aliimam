@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "device-03",
-  "type": "registry:example",
   "title": "Device",
   "description": "",
   "registryDependencies": [
@@ -9,9 +8,10 @@
   ],
   "files": [
     {
-      "path": "registry/default/example/device/device-03.tsx",
-      "content": "import { Device } from \"@/registry/default/components/device\"\n\nexport default function Component() {\n  return (\n    <div className=\"relative\">\n      <Device variant=\"iphone\" width={400} src=\"/images/device/iphone.png\" />\n    </div>\n  )\n}\n",
+      "path": "examples/device/device-03.tsx",
+      "content": "import { Device } from \"@/registry/aliimam/components/device\"\n\nexport default function Component() {\n  return (\n    <div className=\"flex h-full w-full items-center justify-center\">\n      <Device variant=\"iphone\" width={400} src=\"/images/device/iphone.png\" />\n    </div>\n  )\n}\n",
       "type": "registry:example"
     }
-  ]
+  ],
+  "type": "registry:example"
 }

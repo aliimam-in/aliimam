@@ -12,5 +12,5 @@
   
   [data-rmiz-modal-img] {
     border: 1px solid hsl(var(--border));
-    border-radius: 20px;
+    border-radius: 0px;
   }

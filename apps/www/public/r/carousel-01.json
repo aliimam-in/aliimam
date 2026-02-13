@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "carousel-01",
+  "title": "Carousel",
+  "description": "Example showing a simple Carousel.",
+  "registryDependencies": [
+    "carousel"
+  ],
+  "files": [
+    {
+      "path": "examples/carousel/carousel-01.tsx",
+      "content": "import { Carousel } from \"@/registry/aliimam/components/carousel\"\n\nexport default function DemoOne() {\n  const slides = [\n    <div\n      key={\"4\"}\n      className=\"bg-card text-card-foreground relative h-full w-full overflow-hidden rounded-md border\"\n    >\n      <div className=\"h-full w-full overflow-hidden\">\n        <img\n          src=\"https://raw.githubusercontent.com/aliimam-in/aliimam/refs/heads/main/apps/www/public/templates/ai-icons.jpg\"\n          className=\"h-full w-full object-cover\"\n        />\n      </div>\n    </div>,\n    <div\n      key={\"1\"}\n      className=\"bg-card text-card-foreground relative h-full w-full overflow-hidden rounded-md border\"\n    >\n      <div className=\"h-full w-full overflow-hidden\">\n        <img\n          src=\"https://raw.githubusercontent.com/aliimam-in/aliimam/refs/heads/main/apps/www/public/works/social-media-posts.jpg\"\n          className=\"h-full w-full object-cover\"\n        />\n      </div>\n    </div>,\n    <div\n      key={\"2\"}\n      className=\"bg-card text-card-foreground relative h-full w-full overflow-hidden rounded-md border\"\n    >\n      <div className=\"h-full w-full overflow-hidden\">\n        <img\n          src=\"https://raw.githubusercontent.com/aliimam-in/aliimam/refs/heads/main/apps/www/public/works/dalim.jpg\"\n          className=\"h-full w-full object-cover\"\n        />\n      </div>\n    </div>,\n    <div\n      key={\"3\"}\n      className=\"bg-card text-card-foreground relative h-full w-full overflow-hidden rounded-md border\"\n    >\n      <div className=\"h-full w-full overflow-hidden\">\n        <img\n          src=\"https://raw.githubusercontent.com/aliimam-in/aliimam/refs/heads/main/apps/www/public/works/website-designs.jpg\"\n          className=\"h-full w-full object-cover\"\n        />\n      </div>\n    </div>,\n    <div\n      key={\"5\"}\n      className=\"bg-card text-card-foreground relative h-full w-full overflow-hidden rounded-md border\"\n    >\n      <div className=\"h-full w-full overflow-hidden\">\n        <img\n          src=\"https://raw.githubusercontent.com/aliimam-in/aliimam/refs/heads/main/apps/www/public/templates/ai-logos.jpg\"\n          className=\"h-full w-full object-cover\"\n        />\n      </div>\n    </div>,\n  ]\n\n  return (\n    <div className=\"mx-auto flex h-full w-full items-center justify-center\">\n      <Carousel slides={slides} />\n    </div>\n  )\n}\n",
+      "type": "registry:example"
+    }
+  ],
+  "type": "registry:example"
+}

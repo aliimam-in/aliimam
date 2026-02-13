@@ -1,13 +1,4 @@
 {
   "root": true,
-  "pages": [  
-    "(root)",
-    "ui",
-    "components",
-    "backgrounds",
-    "texts",
-    "styling",
-    "icons",
-    "legal"
-  ]
+  "pages": ["(root)", "components", "ui", "icons", "legal"]
 }

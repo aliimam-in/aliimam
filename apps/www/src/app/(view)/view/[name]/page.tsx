@@ -1,13 +1,13 @@
 import * as React from "react"
 import { Metadata } from "next"
 import { notFound } from "next/navigation"
-import { registryItemSchema } from "shadcn/registry"
-import { z } from "zod" 
-import "@/src/styles/globals.css"
+import { registryItemSchema } from "shadcn/schema"
+import { z } from "zod"
 
 import { siteConfig } from "@/src/lib/config"
 import { getRegistryComponent, getRegistryItem } from "@/src/lib/registry"
-import { absoluteUrl, cn } from "@/src/lib/utils"
+import { absoluteUrl, cn } from "@/src/lib/utils" 
+import { ThemeListener } from "@/src/components/themes/theme-listener"
 
 export const revalidate = false
 export const dynamic = "force-static"
@@ -56,7 +56,7 @@ export async function generateMetadata({
       title,
       description,
       images: [siteConfig.ogImage],
-      creator: "@aliiamm",
+      creator: "@aliimamio",
     },
   }
 }
@@ -95,7 +95,8 @@ export default async function BlockPage({
   }
 
   return (
-    <>
+    <> 
+    <ThemeListener />
       <div className={cn("bg-background theme-container", item.meta?.container)}>
         <Component />
       </div>

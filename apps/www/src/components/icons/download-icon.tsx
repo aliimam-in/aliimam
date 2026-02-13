@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import { Download, Copy, Check, ChevronDownIcon } from "lucide-react";
-import { Button } from "@/registry/default/ui/button";
+import { Button } from "@/registry/aliimam/ui/button";
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from "@/registry/default/ui/dropdown-menu";
+} from "@/registry/aliimam/ui/dropdown-menu";
 
 interface LogoDownloadButtonGroupProps {
   selectedIcon: {

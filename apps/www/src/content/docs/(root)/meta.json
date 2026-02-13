@@ -1,8 +1,4 @@
 {
   "title": "Get Started",
-  "pages": [
-    "index",
-    "registry",
-    "ui"
-  ]
+  "pages": ["index"]
 }

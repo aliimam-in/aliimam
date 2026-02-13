@@ -1,29 +1,34 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "login-02",
-  "type": "registry:block",
-  "description": "A simple login form.",
+  "description": "A simple login page.",
+  "dependencies": [
+    "@aliimam/icons"
+  ],
   "registryDependencies": [
     "button",
-    "card",
     "input",
-    "label"
+    "field"
   ],
   "files": [
     {
-      "path": "registry/default/blocks/login/login-02/page.tsx",
-      "content": "import { LoginForm } from \"@/registry/default/blocks/login/login-02/components/login-form\";\nimport { GradientMesh } from \"@/registry/default/components/gradient-mesh\";\n\nexport default function Page() {\n  return (\n    <div className=\"grid min-h-svh lg:grid-cols-2\">\n      <div className=\"flex flex-col gap-4 p-6 md:p-10\">\n        <div className=\"flex justify-center gap-2 md:justify-start\">\n          <a href=\"#\" aria-label=\"home\" className=\"flex gap-2 items-center\">\n            <img\n              src=\"/ai-logo-white.png\"\n              alt=\"Your Image\"\n              height={50}\n              width={50}\n              className=\"h-10 z-10 w-full hidden dark:block object-contain\"\n            />\n            <img\n              src=\"/ai-logo-black.png\"\n              alt=\"Your Image\"\n              height={50}\n              width={50}\n              className=\"h-10 z-10 w-full dark:hidden block object-contain\"\n            />\n          </a>\n        </div>\n        <div className=\"flex flex-1 items-center justify-center\">\n          <div className=\"w-full max-w-xs\">\n            <LoginForm />\n          </div>\n        </div>\n      </div>\n      <div className=\"bg-muted relative hidden lg:block\">\n        <GradientMesh\n          colors={[\"#bcecf6\", \"#00aaff\", \"#ffd447\"]}\n          distortion={8}\n          swirl={0.2}\n          speed={1}\n          rotation={90}\n          waveAmp={0.2}\n          waveFreq={20}\n          waveSpeed={0.2}\n          grain={0.06}\n        />\n      </div>\n    </div>\n  );\n}\n",
-      "type": "registry:page",
-      "target": "app/login-02/page.tsx"
+      "path": "blocks/login/login-02/page.tsx",
+      "content": "import { LoginForm } from \"@/components/login-form\"\n\nexport default function Page() {\n  return (\n    <div className=\"bg-background flex min-h-svh flex-col items-center justify-center gap-6 p-6 md:p-10\">\n      <div className=\"w-full max-w-lg\">\n        <LoginForm />\n      </div>\n    </div>\n  )\n}\n",
+      "type": "registry:component",
+      "target": "app/login/page.tsx"
     },
     {
-      "path": "registry/default/blocks/login/login-02/components/login-form.tsx",
-      "content": "import { cn } from \"@/registry/default/lib/utils\"\nimport { Button } from \"@/registry/default/ui/button\"\nimport {\n  Field,\n  FieldDescription,\n  FieldGroup,\n  FieldLabel,\n  FieldSeparator,\n} from \"@/registry/default/ui/field\"\nimport { Input } from \"@/registry/default/ui/input\"\n\nexport function LoginForm({\n  className,\n  ...props\n}: React.ComponentProps<\"form\">) {\n  return (\n    <form className={cn(\"flex flex-col gap-6\", className)} {...props}>\n      <FieldGroup>\n        <div className=\"flex flex-col items-center gap-1 text-center\">\n          <h1 className=\"text-2xl font-bold\">Login to your account</h1>\n          <p className=\"text-muted-foreground text-sm text-balance\">\n            Enter your email below to login to your account\n          </p>\n        </div>\n        <Field>\n          <FieldLabel htmlFor=\"email\">Email</FieldLabel>\n          <Input id=\"email\" type=\"email\" placeholder=\"m@example.com\" required />\n        </Field>\n        <Field>\n          <div className=\"flex items-center\">\n            <FieldLabel htmlFor=\"password\">Password</FieldLabel>\n            <a\n              href=\"#\"\n              className=\"ml-auto text-sm underline-offset-4 hover:underline\"\n            >\n              Forgot your password?\n            </a>\n          </div>\n          <Input id=\"password\" type=\"password\" required />\n        </Field>\n        <Field>\n          <Button type=\"submit\">Login</Button>\n        </Field>\n        <FieldSeparator>Or continue with</FieldSeparator>\n        <Field>\n          <Button variant=\"outline\" type=\"button\">\n            <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\">\n              <path\n                d=\"M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12\"\n                fill=\"currentColor\"\n              />\n            </svg>\n            Login with GitHub\n          </Button>\n          <FieldDescription className=\"text-center\">\n            Don&apos;t have an account?{\" \"}\n            <a href=\"#\" className=\"underline underline-offset-4\">\n              Sign up\n            </a>\n          </FieldDescription>\n        </Field>\n      </FieldGroup>\n    </form>\n  )\n}\n",
-      "type": "registry:component"
+      "path": "blocks/login/login-02/components/login-form.tsx",
+      "content": "import { GalleryVerticalEnd } from \"@aliimam/icons\"\nimport { Apple, Google } from \"@aliimam/logos\"\n\nimport { cn } from \"@/lib/utils\"\nimport { Button } from \"@/components/ui/button\"\nimport {\n  Field,\n  FieldDescription,\n  FieldGroup,\n  FieldLabel,\n  FieldSeparator,\n} from \"@/components/ui/field\"\nimport { Input } from \"@/components/ui/input\"\n\nexport function LoginForm({\n  className,\n  ...props\n}: React.ComponentProps<\"div\">) {\n  return (\n    <div className={cn(\"flex flex-col gap-6\", className)} {...props}>\n      <form>\n        <FieldGroup>\n          <div className=\"flex flex-col items-center gap-2 text-center\">\n            <a\n              href=\"#\"\n              className=\"flex flex-col items-center gap-2 font-medium\"\n            >\n              <div className=\"flex size-8 items-center justify-center rounded-md\">\n                <GalleryVerticalEnd className=\"size-6\" />\n              </div>\n              <span className=\"sr-only\">Ali Imam</span>\n            </a>\n            <h1 className=\"text-xl font-bold\">Welcome to AI</h1>\n            <FieldDescription>\n              Don&apos;t have an account? <a href=\"#\">Sign up</a>\n            </FieldDescription>\n          </div>\n          <Field>\n            <FieldLabel htmlFor=\"email\">Email</FieldLabel>\n            <Input\n              id=\"email\"\n              type=\"email\"\n              placeholder=\"m@example.com\"\n              required\n            />\n          </Field>\n          <Field>\n            <Button type=\"submit\">Login</Button>\n          </Field>\n          <FieldSeparator>Or</FieldSeparator>\n          <Field className=\"grid gap-4 sm:grid-cols-2\">\n            <Button variant=\"outline\" type=\"button\">\n              <Apple />\n              Continue with Apple\n            </Button>\n            <Button variant=\"outline\" type=\"button\">\n              <Google />\n              Continue with Google\n            </Button>\n          </Field>\n        </FieldGroup>\n      </form>\n      <FieldDescription className=\"px-6 text-center\">\n        By clicking continue, you agree to our <a href=\"#\">Terms of Service</a>{\" \"}\n        and <a href=\"#\">Privacy Policy</a>.\n      </FieldDescription>\n    </div>\n  )\n}\n",
+      "type": "registry:component",
+      "target": "components/login-form.tsx"
     }
   ],
+  "meta": {
+    "iframeHeight": "700px"
+  },
   "categories": [
-    "authentication",
     "login"
-  ]
+  ],
+  "type": "registry:block"
 }

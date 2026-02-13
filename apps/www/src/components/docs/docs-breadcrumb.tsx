@@ -13,7 +13,7 @@ import {
   BreadcrumbList,
   BreadcrumbPage,
   BreadcrumbSeparator,
-} from "@/registry/default/ui/breadcrumb"
+} from "@/registry/aliimam/ui/breadcrumb"
 
 export function DocsBreadcrumb({
   tree,

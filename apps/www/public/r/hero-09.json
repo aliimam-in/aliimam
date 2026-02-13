@@ -1,29 +1,32 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "hero-09",
-  "type": "registry:block",
   "description": "A simple hero section.",
   "dependencies": [
-    "framer-motion"
+    "framer-motion",
+    "@paper-design/shaders-react"
   ],
   "registryDependencies": [
-    "button",
-    "shader-rgb"
+    "button"
   ],
   "files": [
     {
-      "path": "registry/default/blocks/hero/hero-09/page.tsx",
-      "content": "import { Hero } from \"@/registry/default/blocks/hero/hero-09/components/hero\"\nimport { ShaderRGB } from \"@/registry/default/components/shader-rgb\"\n\nexport default function DemoOne() {\n  return (\n    <div className=\"relative flex min-h-svh w-full flex-col items-center justify-center overflow-y-auto\">\n      <ShaderRGB />\n      <Hero />\n    </div>\n  )\n}\n",
+      "path": "blocks/hero/hero-09/page.tsx",
+      "content": "import { Dithering } from \"@paper-design/shaders-react\"\n\nimport { Hero } from \"@/registry/aliimam/blocks/hero/hero-09/components/hero\"\n\nexport default function DemoOne() {\n  return (\n    <div className=\"relative flex h-screen w-full flex-col items-center justify-center overflow-auto\">\n      <Hero />\n      <div className=\"absolute h-full w-full overflow-hidden\">\n        <Dithering\n          width={1920}\n          height={1080}\n          colorBack=\"#ffffff\"\n          colorFront=\"#000000\"\n          shape=\"wave\"\n          type=\"4x4\"\n          size={1}\n          speed={1}\n          scale={0.5}\n          offsetY={-0.15}\n        />\n      </div>\n    </div>\n  )\n}\n",
       "type": "registry:component",
       "target": "components/hero-09.tsx"
     },
     {
-      "path": "registry/default/blocks/hero/hero-09/components/hero.tsx",
-      "content": "\"use client\"\n\nimport * as React from \"react\"\n\nimport { Button } from \"@/registry/default/ui/button\" \n\nexport function Hero() {\n  return (\n    <div className=\"px-6\">\n      <div className=\"w-full max-w-3xl border border-black/20 p-0 shadow-[0_0_6px_rgba(0,0,0,0.03),0_2px_6px_rgba(0,0,0,0.08),inset_3px_3px_0.5px_-3px_rgba(0,0,0,0.9),inset_-3px_-3px_0.5px_-3px_rgba(0,0,0,0.85),inset_1px_1px_1px_-0.5px_rgba(0,0,0,0.6),inset_-1px_-1px_1px_-0.5px_rgba(0,0,0,0.6),inset_0_0_6px_6px_rgba(0,0,0,0.12),inset_0_0_2px_2px_rgba(0,0,0,0.06),0_0_12px_rgba(255,255,255,0.15)] transition-all dark:shadow-[0_0_8px_rgba(0,0,0,0.03),0_2px_6px_rgba(0,0,0,0.08),inset_3px_3px_0.5px_-3.5px_rgba(255,255,255,0.09),inset_-3px_-3px_0.5px_-3.5px_rgba(255,255,255,0.85),inset_1px_1px_1px_-0.5px_rgba(255,255,255,0.6),inset_-1px_-1px_1px_-0.5px_rgba(255,255,255,0.6),inset_0_0_6px_6px_rgba(255,255,255,0.12),inset_0_0_2px_2px_rgba(255,255,255,0.06),0_0_12px_rgba(0,0,0,0.15)]\">\n        <div className=\"p-1\">\n          <main className=\"relative overflow-hidden rounded-md border border-white/20 bg-black/20 py-10 shadow-2xl backdrop-blur-md\">\n            <h1 className=\"mb-3 px-6 text-center text-5xl font-extrabold tracking-tighter text-white md:text-[clamp(2rem,8vw,7rem)]\">\n              Design is <span className=\"text-primary\">Everything</span>\n            </h1>\n            <p className=\"lg:text-md px-6 text-center text-xs text-white/60 md:text-sm\">\n              Unleashing creativity through bold visuals and limitless\n              possibilities.\n            </p>\n            <div className=\"my-8 flex items-center justify-center gap-1\">\n              <span className=\"relative flex h-3 w-3 items-center justify-center\">\n                <span className=\"absolute inline-flex h-full w-full animate-ping rounded-full bg-green-500 opacity-75\"></span>\n                <span className=\"relative inline-flex h-2 w-2 rounded-full bg-green-500\"></span>\n              </span>\n              <p className=\"text-xs text-green-500\">\n                Available for New Projects\n              </p>\n            </div>\n\n            <div className=\"flex justify-center\">\n              <Button\n                variant={\"outline\"}\n                className=\"cursor-pointer border border-white/20 bg-white/10 text-white hover:bg-white/10 hover:text-white\"\n                size={\"lg\"}\n              >\n                Let&apos;s Go\n              </Button>\n            </div>\n          </main>\n        </div>\n      </div>\n    </div>\n  )\n}\n",
+      "path": "blocks/hero/hero-09/components/hero.tsx",
+      "content": "\"use client\"\n\nimport { Button } from \"@/components/ui/button\"\n\nexport function Hero() {\n  return (\n    <div className=\"relative z-20 px-6\">\n      <div className=\"w-full max-w-3xl border border-black/20 p-0 shadow-[0_0_6px_rgba(0,0,0,0.03),0_2px_6px_rgba(0,0,0,0.08),inset_3px_3px_0.5px_-3px_rgba(0,0,0,0.9),inset_-3px_-3px_0.5px_-3px_rgba(0,0,0,0.85),inset_1px_1px_1px_-0.5px_rgba(0,0,0,0.6),inset_-1px_-1px_1px_-0.5px_rgba(0,0,0,0.6),inset_0_0_6px_6px_rgba(0,0,0,0.12),inset_0_0_2px_2px_rgba(0,0,0,0.06),0_0_12px_rgba(255,255,255,0.15)] transition-all dark:shadow-[0_0_8px_rgba(0,0,0,0.03),0_2px_6px_rgba(0,0,0,0.08),inset_3px_3px_0.5px_-3.5px_rgba(255,255,255,0.09),inset_-3px_-3px_0.5px_-3.5px_rgba(255,255,255,0.85),inset_1px_1px_1px_-0.5px_rgba(255,255,255,0.6),inset_-1px_-1px_1px_-0.5px_rgba(255,255,255,0.6),inset_0_0_6px_6px_rgba(255,255,255,0.12),inset_0_0_2px_2px_rgba(255,255,255,0.06),0_0_12px_rgba(0,0,0,0.15)]\">\n        <div className=\"p-1\">\n          <main className=\"relative overflow-hidden rounded-md border border-white/20 bg-black/20 py-10 shadow-2xl backdrop-blur-md\">\n            <h1 className=\"mb-3 px-6 text-center text-5xl font-extrabold tracking-tighter text-white md:text-[clamp(2rem,8vw,7rem)]\">\n              Design is Everything\n            </h1>\n            <p className=\"lg:text-md px-6 text-center text-xs text-white/60 md:text-sm\">\n              Unleashing creativity through bold visuals and limitless\n              possibilities.\n            </p>\n            <div className=\"my-8 flex items-center justify-center gap-1\">\n              <span className=\"relative flex h-3 w-3 items-center justify-center\">\n                <span className=\"absolute inline-flex h-full w-full animate-ping rounded-full bg-green-500 opacity-75\"></span>\n                <span className=\"relative inline-flex h-2 w-2 rounded-full bg-green-500\"></span>\n              </span>\n              <p className=\"text-xs text-green-500\">\n                Available for New Projects\n              </p>\n            </div>\n\n            <div className=\"flex justify-center\">\n              <Button\n                variant={\"outline\"}\n                className=\"cursor-pointer border border-white/20 bg-white/10 text-white hover:bg-white/10 hover:text-white\"\n                size={\"lg\"}\n              >\n                Let&apos;s Go\n              </Button>\n            </div>\n          </main>\n        </div>\n      </div>\n    </div>\n  )\n}\n",
       "type": "registry:component"
     }
   ],
+  "meta": {
+    "iframeHeight": "800px"
+  },
   "categories": [
     "hero"
-  ]
+  ],
+  "type": "registry:block"
 }

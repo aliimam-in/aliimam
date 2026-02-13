@@ -1,36 +1,36 @@
-import * as React from "react" 
-import NextImage from "next/image"
+import * as React from "react"
+import Image from "next/image"
 import Link from "next/link"
-import { CodeBlockCommand } from "@/src/components/docs/components/code-block-command"
-import { CodeCollapsibleWrapper } from "@/src/components/docs/components/code-collapsible-wrapper"
-import { CodeTabs } from "@/src/components/docs/components/code-tabs"
-import { ComponentPreview } from "@/src/components/docs/components/component-preview"
-import { ComponentSource } from "@/src/components/docs/components/component-source"
-import { ComponentsList } from "@/src/components/docs/components/components-list"
-import { Callout } from "@/src/components/docs/callout"
-import { getIconForLanguageExtension } from "@/src/components/icons"
-import { CopyButton } from "@/src/components/ui/copy-button"
-import { cn } from "@/registry/default/lib/utils"
 
+import { cn } from "@/src/lib/utils"
+import { Callout } from "@/src/components/docs/callout"
+import { CodeBlockCommand } from "@/src/components/docs/code-block-command"
+import { CodeCollapsibleWrapper } from "@/src/components/docs/code-collapsible-wrapper"
+import { CodeTabs } from "@/src/components/docs/code-tabs"
+import { ComponentPreview } from "@/src/components/docs/component-preview"
+import { ComponentSource } from "@/src/components/docs/component-source"
+import { ComponentsList } from "@/src/components/docs/components-list"
+import { CopyButton } from "@/src/components/copy-button"
+import { getIconForLanguageExtension } from "@/src/components/icons"
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@/registry/default/ui/accordion"
+} from "@/registry/aliimam/ui/accordion"
 import {
   Alert,
   AlertDescription,
   AlertTitle,
-} from "@/registry/default/ui/alert"
-import { AspectRatio } from "@/registry/default/ui/aspect-ratio"
-import { Button } from "@/registry/default/ui/button"
+} from "@/registry/aliimam/ui/alert"
+import { AspectRatio } from "@/registry/aliimam/ui/aspect-ratio"
+import { Button } from "@/registry/aliimam/ui/button"
 import {
   Tabs,
   TabsContent,
   TabsList,
   TabsTrigger,
-} from "@/registry/default/ui/tabs"
+} from "@/registry/aliimam/ui/tabs"
 
 export const mdxComponents = {
   h1: ({ className, ...props }: React.ComponentProps<"h1">) => (
@@ -52,7 +52,7 @@ export const mdxComponents = {
           .replace(/\?/g, "")
           .toLowerCase()}
         className={cn(
-          "font-heading mt-12 scroll-m-28 text-2xl font-medium tracking-tight first:mt-0 lg:mt-20 [&+p]:!mt-4 *:[code]:text-2xl",
+          "font-heading mt-8 scroll-m-28 text-xl font-medium tracking-tight first:mt-0 lg:mt-8 [&+p]:!mt-4 *:[code]:text-xl",
           className
         )}
         {...props}
@@ -62,7 +62,7 @@ export const mdxComponents = {
   h3: ({ className, ...props }: React.ComponentProps<"h3">) => (
     <h3
       className={cn(
-        "font-heading mt-8 scroll-m-28 text-xl font-semibold tracking-tight *:[code]:text-xl",
+        "font-heading mt-8 scroll-m-28 text-lg font-medium tracking-tight *:[code]:text-xl",
         className
       )}
       {...props}
@@ -71,7 +71,7 @@ export const mdxComponents = {
   h4: ({ className, ...props }: React.ComponentProps<"h4">) => (
     <h4
       className={cn(
-        "font-heading mt-8 scroll-m-28 text-lg font-medium tracking-tight",
+        "font-heading mt-8 scroll-m-28 text-base font-medium tracking-tight",
         className
       )}
       {...props}
@@ -80,7 +80,7 @@ export const mdxComponents = {
   h5: ({ className, ...props }: React.ComponentProps<"h5">) => (
     <h5
       className={cn(
-        "mt-8 scroll-m-28 text-lg font-medium tracking-tight",
+        "mt-8 scroll-m-28 text-base font-medium tracking-tight",
         className
       )}
       {...props}
@@ -228,7 +228,7 @@ export const mdxComponents = {
       return (
         <code
           className={cn(
-            "bg-muted relative rounded-md px-[0.3rem] py-[0.2rem] font-mono text-[0.8rem] outline-none",
+            "bg-muted relative rounded-md px-[0.3rem] py-[0.2rem] font-mono text-[0.8rem] break-words outline-none",
             className
           )}
           {...props}
@@ -279,10 +279,10 @@ export const mdxComponents = {
     height,
     alt,
     ...props
-  }: React.ComponentProps<typeof NextImage>) => (
-    <NextImage
+  }: React.ComponentProps<"img">) => (
+    <Image
       className={cn("mt-6 rounded-md border", className)}
-      src={src || "/placeholder.svg"}
+      src={src || ""}
       width={Number(width)}
       height={Number(height)}
       alt={alt || ""}
@@ -298,7 +298,7 @@ export const mdxComponents = {
   }: React.ComponentProps<typeof TabsList>) => (
     <TabsList
       className={cn(
-        "justify-start gap-4 rounded-none bg-transparent px-2 md:px-0",
+        "justify-start gap-4 rounded-none bg-transparent px-0",
         className
       )}
       {...props}
@@ -310,7 +310,7 @@ export const mdxComponents = {
   }: React.ComponentProps<typeof TabsTrigger>) => (
     <TabsTrigger
       className={cn(
-        "text-muted-foreground data-[state=active]:text-foreground px-0 text-base data-[state=active]:shadow-none dark:data-[state=active]:border-transparent dark:data-[state=active]:bg-transparent",
+        "text-muted-foreground data-[state=active]:text-foreground data-[state=active]:border-primary dark:data-[state=active]:border-primary hover:text-primary rounded-none border-0 border-b-2 border-transparent bg-transparent px-0 pb-3 text-base data-[state=active]:bg-transparent data-[state=active]:shadow-none dark:data-[state=active]:bg-transparent",
         className
       )}
       {...props}

@@ -1,24 +1,23 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "logos-05",
-  "type": "registry:block",
   "description": "A simple logos section.",
   "dependencies": [
     "@aliimam/logos"
   ],
   "files": [
     {
-      "path": "registry/default/blocks/logos/logos-05/page.tsx",
-      "content": "import { GradientMesh } from \"@/registry/default/components/gradient-mesh\";\nimport {\n  ClaudeAI,\n  Cursor,\n  Gemini,\n  Github,\n  Google,\n  Grok,\n  OpenAI,\n  Replicate,\n  Resend,\n  PerplexityAI,\n  YouTube,\n  Suno,\n} from \"@aliimam/logos\";\n\nexport default function Logos04() {\n  return (\n    <div className=\"py-20 flex min-h-screen flex-col relative items-center justify-center\">\n      <div className=\"mx-auto z-10 max-w-6xl flex justify-center flex-col px-6\">\n        <h1 className=\"mb-10 px-20 text-muted-foreground text-center text-sm font-medium\">\n          Trusted by the world’s most creative companies.\n        </h1>\n        <div className=\"mx-auto grid grid-cols-2 sm:grid-cols-4 gap-3 lg:grid-cols-6\">\n          {[\n            <OpenAI type=\"wordmark\" key=\"openai\" size={80} />,\n            <ClaudeAI type=\"wordmark\" key=\"claude\" size={80} />,\n            <Replicate type=\"wordmark\" key=\"replicate\" size={80} />,\n            <Cursor type=\"wordmark\" key=\"cursor\" size={80} />,\n            <Gemini type=\"wordmark\" key=\"gemini\" size={80} />,\n            <Github type=\"wordmark\" key=\"github\" size={80} />,\n            <Grok type=\"wordmark\" key=\"grok\" size={80} />,\n            <Google type=\"wordmark\" key=\"google\" size={80} />,\n            <Suno type=\"wordmark\" key=\"suno\" size={80} />,\n            <Resend type=\"wordmark\" key=\"resend\" size={80} />,\n            <YouTube type=\"wordmark\" key=\"youtube\" size={80} />,\n            <PerplexityAI type=\"wordmark\" key=\"perp\" size={80} />,\n          ].map((Logo, i) => (\n            <div\n              key={i}\n              className=\"bg-code flex h-20 w-30 items-center justify-center shadow-2xl rounded-sm md:h-24 md:w-40\"\n            >\n              {Logo}\n            </div>\n          ))}\n        </div>\n      </div>\n      <GradientMesh\n        colors={[\"#ffffff\", \"#000000\", \"#000000\"]}\n        distortion={3}\n        swirl={0.5}\n        speed={1}\n        rotation={90}\n        waveAmp={0.1}\n        waveFreq={7}\n        waveSpeed={0.2}\n        grain={0.06}\n      />\n    </div>\n  );\n}\n",
+      "path": "blocks/logos/logos-05/page.tsx",
+      "content": "import {\n  ClaudeAI,\n  Cursor,\n  Gemini,\n  Github,\n  Google,\n  Grok,\n  OpenAI,\n  PerplexityAI,\n  Replicate,\n  Resend,\n  Suno,\n  YouTube,\n} from \"@aliimam/logos\"\n\nexport default function Logos04() {\n  return (\n    <div className=\"relative flex min-h-screen flex-col items-center justify-center py-20\">\n      <div className=\"z-10 mx-auto flex max-w-6xl flex-col justify-center px-6\">\n        <h1 className=\"text-muted-foreground mb-10 px-20 text-center text-sm font-medium\">\n          Trusted by the world’s most creative companies.\n        </h1>\n        <div className=\"mx-auto grid grid-cols-2 gap-3 sm:grid-cols-4 lg:grid-cols-6\">\n          {[\n            <OpenAI type=\"wordmark\" key=\"openai\" size={80} />,\n            <ClaudeAI type=\"wordmark\" key=\"claude\" size={80} />,\n            <Replicate type=\"wordmark\" key=\"replicate\" size={80} />,\n            <Cursor type=\"wordmark\" key=\"cursor\" size={80} />,\n            <Gemini type=\"wordmark\" key=\"gemini\" size={80} />,\n            <Github type=\"wordmark\" key=\"github\" size={80} />,\n            <Grok type=\"wordmark\" key=\"grok\" size={80} />,\n            <Google type=\"wordmark\" key=\"google\" size={80} />,\n            <Suno type=\"wordmark\" key=\"suno\" size={80} />,\n            <Resend type=\"wordmark\" key=\"resend\" size={80} />,\n            <YouTube type=\"wordmark\" key=\"youtube\" size={80} />,\n            <PerplexityAI type=\"wordmark\" key=\"perp\" size={80} />,\n          ].map((Logo, i) => (\n            <div\n              key={i}\n              className=\"bg-code flex h-20 w-30 items-center justify-center md:h-24 md:w-40\"\n            >\n              {Logo}\n            </div>\n          ))}\n        </div>\n      </div>\n    </div>\n  )\n}\n",
       "type": "registry:component",
       "target": "components/logos-05.tsx"
     }
   ],
   "meta": {
-    "iframeHeight": "600px"
+    "iframeHeight": "500px"
   },
   "categories": [
-    "client",
     "logos"
-  ]
+  ],
+  "type": "registry:block"
 }

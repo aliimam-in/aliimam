@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "bento-02",
+  "title": "Bento Demo",
+  "description": "Example showing a simple bento.",
+  "registryDependencies": [
+    "bento"
+  ],
+  "files": [
+    {
+      "path": "examples/bento/bento-02.tsx",
+      "content": "import { BentoGrid, BentoGridItem } from \"@/registry/aliimam/components/bento\"\n\nexport default function DashboardExample() {\n  return (\n    <BentoGrid rowHeight={{ base: \"70px\", md: \"120px\", lg: \"120px\" }}>\n      <BentoGridItem colSpan={{ base: 1, md: 3, lg: 5 }}>\n        Full Width Banner\n      </BentoGridItem>\n      <BentoGridItem colSpan={{ base: 1, lg: 2 }}>Feature 1</BentoGridItem>\n      <BentoGridItem>Feature 3</BentoGridItem>\n\n      <BentoGridItem colSpan={{ base: 1, lg: 2 }}>Feature 1</BentoGridItem>\n\n      <BentoGridItem colSpan={{ base: 1, md: 3, lg: 5 }}>\n        Full Width Banner\n      </BentoGridItem>\n    </BentoGrid>\n  )\n}\n",
+      "type": "registry:example"
+    }
+  ],
+  "type": "registry:example"
+}

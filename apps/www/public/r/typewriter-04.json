@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "typewriter-04",
+  "title": "Typewriter",
+  "description": "Example showing a simple typewriter.",
+  "registryDependencies": [
+    "typewriter"
+  ],
+  "files": [
+    {
+      "path": "examples/typewriter/typewriter-04.tsx",
+      "content": "import { Typewriter } from \"@/registry/aliimam/components/typewriter\"\n\nexport default function DemoOne() {\n  return (\n    <main className=\"flex h-full items-center justify-center\">\n      <Typewriter\n        words={[\"Custom Cursor\", \"Looks cool!\"]}\n        cursorChar=\"_\"\n        className=\"text-4xl\"\n      />\n    </main>\n  )\n}\n",
+      "type": "registry:example"
+    }
+  ],
+  "type": "registry:example"
+}

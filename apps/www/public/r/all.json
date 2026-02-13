@@ -1,0 +1,9 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "all",
+  "type": "registry:ui",
+  "description": "All UI components from Ali Imam UI",
+  "dependencies": [],
+  "registryDependencies": [],
+  "files": []
+}

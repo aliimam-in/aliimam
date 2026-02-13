@@ -1,53 +1,57 @@
-import Image from "next/image";
-import { Button } from "@/registry/default/ui/button";
-import Link from "next/link";
-import { Backgrounds } from "@/src/components/ui/background";
+import { Metadata } from "next"
+import {
+  PageHeader,
+  PageHeaderDescription,
+  PageHeaderHeading,
+} from "@/src/components/layout/page-header"
 
-export default function About() {
+
+const title = "Pricing"
+const description =
+  "Coming Soon!"
+
+export const dynamic = "force-static"
+export const revalidate = false
+
+export const metadata: Metadata = {
+  title,
+  description,
+  openGraph: {
+    images: [
+      {
+        url: `/og?title=${encodeURIComponent(
+          title
+        )}&description=${encodeURIComponent(description)}`,
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: [
+      {
+        url: `/og?title=${encodeURIComponent(
+          title
+        )}&description=${encodeURIComponent(description)}`,
+      },
+    ],
+  },
+}
+
+export default function IndexPage() {
   return (
-    <div className="h-screen flex flex-col justify-center items-center">
-      <div className="relative pb-10 text-center">
-        <Image
-          src="/brand/ai-logo.png"
-          alt="Logo"
-          height={500}
-          width={500}
-          className="h-36 md:h-60 z-10 w-full object-contain"
-        />
-         
-      </div>
-      <div className="space-y-6 my-6 md:my-20 text-center px-6">
-        <h2 className="font-extrabold tracking-tighter text-5xl md:text-7xl lg:text-9xl">
-          Pricing
-        </h2>
-        <p className="text-muted-foreground font-light text-sm md:text-xl">
-          Coming Soon!
-        </p>
-        <div className="flex gap-3 flex-wrap justify-center">
-          <Link href="/">
-            <Button className="h-12 md:h-14 rounded-full cursor-pointer px-8 md:px-10">
-              Home
-            </Button>
-          </Link>
-           
-        </div>
-      </div>
+    <div className="flex flex-1 flex-col">
 
-      <Image
-        src="/brand/bg-dot.jpg"
-        alt="Logo"
-        height={1000}
-        width={1000}
-        className="h-[800px] w-full inset-0 absolute mask-b-from-0% object-cover -z-50 invert dark:invert-0"
-      />
-      <Backgrounds
-        className="absolute -z-20 mask-b-from-0% mask-l-from-10% mask-r-from-10%"
-        squareSize={1}
-        gridGap={4}
-        color="#6B7280"
-        maxOpacity={1}
-        flickerChance={0.5}
-      />
+      <div className="relative h-screen flex justify-center items-center overflow-hidden">
+        <PageHeader className="relative z-10">
+          <PageHeaderHeading>
+            {title}
+          </PageHeaderHeading>
+          <PageHeaderDescription>
+            {description}
+          </PageHeaderDescription>
+
+        </PageHeader>
+      </div>
     </div>
-  );
+  )
 }

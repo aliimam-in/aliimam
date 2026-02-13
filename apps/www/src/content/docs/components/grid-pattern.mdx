@@ -1,0 +1,95 @@
+---
+title: Grid Pattern
+description: A flexible SVG-based grid background utility with customizable spacing, dash patterns, and square highlights. Useful for charts, diagrams, or decorative UI sections.
+component: true 
+---
+
+<ComponentPreview
+  name="grid-pattern-default"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[300px]"
+  description="A customizable SVG grid pattern background."
+  align="start"
+/>
+
+<ComponentPreview
+  name="grid-pattern-large"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[300px]"
+  description="A customizable SVG grid pattern background."
+  align="start"
+/>
+
+<ComponentPreview
+  name="grid-pattern-small"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[300px]"
+  description="A customizable SVG grid pattern background."
+  align="start"
+/>
+
+<ComponentPreview
+  name="grid-pattern-custom"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[300px]"
+  description="A customizable SVG grid pattern background."
+  align="start"
+/>
+
+<ComponentPreview
+  name="grid-pattern-01"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[300px]"
+  description="A customizable SVG grid pattern background."
+  align="start"
+/>
+
+## Installation
+
+<CodeTabs>
+
+<TabsList>
+  <TabsTrigger value="cli">CLI</TabsTrigger>
+  <TabsTrigger value="manual">Manual</TabsTrigger>
+</TabsList>
+
+<TabsContent value="cli">
+
+```bash
+npx shadcn@latest add https://aliimam.in/r/grid-pattern.json
+```
+
+</TabsContent>
+
+<TabsContent value="manual">
+
+<Steps>
+
+<Step>Copy and paste the following code into your project.</Step>
+
+<ComponentSource name="grid-pattern" title="components/ui/grid-pattern.tsx" /> 
+
+</Steps>
+
+</TabsContent>
+
+</CodeTabs>
+
+## Usage
+
+```tsx showLineNumbers
+import { GridPattern } from "@/components/ui/grid-pattern"
+``` 
+
+```tsx showLineNumbers
+<GridPattern />
+```
+ 
+## Props
+
+| Prop              | Type                                      | Default        |
+|-------------------|-------------------------------------------|----------------|
+| width             | `number`                                  | variant-based  |
+| height            | `number`                                  | variant-based  |
+| x                 | `number`                                  | `-1`           |
+| y                 | `number`                                  | `-1`           |
+| squares           | `Array<[number, number]>`                 | —              |
+| strokeDasharray   | `string`                                  | `"0"`          |
+| variant           | `"default" \| "small" \| "large"`         | `"default"`    |
+| className         | `string`                                  | —              |
+| ...props          | `Record<string, unknown>`                 | —              |

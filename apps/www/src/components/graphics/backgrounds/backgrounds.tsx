@@ -1,5 +1,5 @@
-import { ScrollArea, ScrollBar } from '@/registry/default/ui/scroll-area'
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/registry/default/ui/tabs'
+import { ScrollArea, ScrollBar } from '@/registry/aliimam/ui/scroll-area'
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/registry/aliimam/ui/tabs'
 
 import { NeonBackgrounds, NoiseBackgrounds, OilPaintBackgrounds, SolarizeBackgrounds } from './bg'
 

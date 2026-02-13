@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "gradient-bars-default",
-  "type": "registry:example",
   "title": "Gradient Bars",
   "description": "Example showing a simple gradient bars.",
   "registryDependencies": [
@@ -9,9 +8,10 @@
   ],
   "files": [
     {
-      "path": "registry/default/example/backgrounds/gradient-bars/gradient-bars-default.tsx",
-      "content": "\"use client\"\n\nimport { GradientBars } from \"@/registry/default/components/gradient-bars\"\n\nexport default function DemoOne() {\n  return (\n    <div className=\"relative flex h-[600px] w-5xl flex-col items-center justify-center overflow-hidden rounded-xl border\">\n      <GradientBars />\n    </div>\n  )\n}\n",
+      "path": "examples/gradient-bars/gradient-bars-default.tsx",
+      "content": "\"use client\"\n\nimport { GradientBars } from \"@/registry/aliimam/components/gradient-bars\"\n\nexport default function DemoOne() {\n  return (\n    <div className=\"flex h-full w-full items-center justify-center\">\n      <GradientBars />\n    </div>\n  )\n}\n",
       "type": "registry:example"
     }
-  ]
+  ],
+  "type": "registry:example"
 }

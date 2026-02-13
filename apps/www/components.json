@@ -1,24 +1,23 @@
 {
   "$schema": "https://ui.shadcn.com/schema.json",
-  "style": "default",
+  "style": "new-york",
   "rsc": true,
   "tsx": true,
   "tailwind": {
     "config": "",
     "css": "src/styles/globals.css",
-    "baseColor": "zinc",
+    "baseColor": "neutral",
     "cssVariables": true,
     "prefix": ""
   },
   "iconLibrary": "lucide",
+  "rtl": false,
   "aliases": {
-    "components": "@/registry/default/components",
-    "utils": "@/registry/default/lib/utils",
-    "ui": "/registry/default/ui",
-    "lib": "@/lib",
-    "hooks": "@/registry/default/hooks"
+    "components": "@/components",
+    "utils": "@/lib/utils",
+    "ui": "@/registry/aliimam/ui",
+    "lib": "@/registry/aliimam/lib",
+    "hooks": "@/registry/aliimam/hooks"
   },
-  "registries": {
-    "@aliimam": "https://aliimam.in/r/{name}.json"
-  }
+  "registries": {}
 }

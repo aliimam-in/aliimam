@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "gradient-bars-02",
+  "title": "Gradient Bars",
+  "description": "Example showing a simple gradient bars.",
+  "registryDependencies": [
+    "gradient-bars"
+  ],
+  "files": [
+    {
+      "path": "examples/gradient-bars/gradient-bars-02.tsx",
+      "content": "\"use client\"\n\nimport { GradientBars } from \"@/registry/aliimam/components/gradient-bars\"\n\nexport default function DemoOne() {\n  return (\n    <div className=\"flex h-full w-full items-center justify-center\">\n      <GradientBars\n        orientation=\"horizontal\"\n        colors={[\"#ff0000\", \"transparent\"]}\n      />\n      <GradientBars\n        orientation=\"horizontal\"\n        colors={[\"#ff0000\", \"transparent\"]}\n        className=\"rotate-180\"\n      />\n    </div>\n  )\n}\n",
+      "type": "registry:example"
+    }
+  ],
+  "type": "registry:example"
+}

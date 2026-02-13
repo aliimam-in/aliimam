@@ -1,5 +1,5 @@
-import { SidebarProvider } from "@/registry/default/ui/sidebar";
-import { Tabs } from "@/registry/default/ui/tabs";
+import { SidebarProvider } from "@/registry/aliimam/ui/sidebar";
+import { Tabs } from "@/registry/aliimam/ui/tabs";
 import { SymbolsCategoryTabs } from "@/src/components/icons/category";
 import { IconsNav } from "@/src/components/icons/icons-nav";
 import { LogoSearch } from "@/src/components/icons/search";
@@ -12,7 +12,7 @@ export default function DocsLayout({
   return (
     <div>
       <Tabs defaultValue="icon">
-        <div className="flex sticky h-14 z-40 top-20 bg-background py-3 items-center border-y px-4">
+        <div className="flex sticky h-14 z-40 top-14 bg-background items-center border-b px-4">
           <div className="flex-none">
             <IconsNav />
           </div>
@@ -21,9 +21,9 @@ export default function DocsLayout({
           </div>
           <div className=""></div>
         </div>
-        <SidebarProvider className="border-b 3xl:fixed:container 3xl:fixed:px-3 min-h-min flex-1 items-start px-0 [--sidebar-width:220px] [--top-spacing:0] lg:grid lg:grid-cols-[var(--sidebar-width)_minmax(0,1fr)] lg:[--sidebar-width:240px] lg:[--top-spacing:calc(var(--spacing)*4)]">
+        <SidebarProvider className="3xl:fixed:container 3xl:fixed:px-3 min-h-min flex-1 items-start px-0 [--sidebar-width:220px] [--top-spacing:0] lg:grid lg:grid-cols-[var(--sidebar-width)_minmax(0,1fr)] lg:[--sidebar-width:240px] lg:[--top-spacing:calc(var(--spacing)*4)]">
           <SymbolsCategoryTabs />
-          <div className="h-full px-2 w-full">{children}</div>
+          <div className="h-full w-full">{children}</div>
         </SidebarProvider>
       </Tabs>
     </div>

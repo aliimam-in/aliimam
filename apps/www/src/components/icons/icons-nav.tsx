@@ -3,8 +3,8 @@
 import Link from "next/link"
 import { usePathname } from "next/navigation"
 
-import { ScrollArea, ScrollBar } from "@/registry/default/ui/scroll-area"
-import { iconCategories } from "@/registry/registry-categories"
+import { ScrollArea, ScrollBar } from "@/registry/aliimam/ui/scroll-area"
+import { iconCategories } from "@/src/lib/categories"
 
 export function IconsNav() {
   const pathname = usePathname()

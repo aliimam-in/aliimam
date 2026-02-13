@@ -1,9 +1,9 @@
-import { cn } from "@/registry/default/lib/utils"
+import { cn } from "@/src/lib/utils"
 import {
   Alert,
   AlertDescription,
   AlertTitle,
-} from "@/registry/default/ui/alert"
+} from "@/registry/aliimam/ui/alert"
 
 export function Callout({
   title,

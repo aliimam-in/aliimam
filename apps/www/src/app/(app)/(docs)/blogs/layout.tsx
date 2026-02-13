@@ -1,9 +1,6 @@
-import {
-  Sidebar,
-  SidebarInset,
+import { 
   SidebarProvider,
-} from "@/registry/default/ui/sidebar";
-import { ColorSidebar } from "@/src/components/docs/colors/color-sidebar";
+} from "@/registry/aliimam/ui/sidebar"; 
 
 export default function DocsLayout({
   children,
@@ -12,8 +9,8 @@ export default function DocsLayout({
 }) {
   return (
     <div className="">
-      <SidebarProvider className="py-20 border-b"> 
-          <div className="h-full p-2 w-full">{children}</div> 
+      <SidebarProvider className=""> 
+          <div className="h-full w-full">{children}</div> 
       </SidebarProvider>
     </div>
   );

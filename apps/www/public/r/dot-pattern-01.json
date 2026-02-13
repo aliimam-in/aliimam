@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "dot-pattern-01",
+  "title": "Dot Pattern",
+  "description": "Example showing a simple dot pattern.",
+  "registryDependencies": [
+    "dot-pattern"
+  ],
+  "files": [
+    {
+      "path": "examples/dot-pattern/dot-pattern-01.tsx",
+      "content": "import { DotPattern } from \"@/registry/aliimam/components/dot-pattern\"\n\nexport default function Component() {\n  return (\n    <div className=\"flex h-full w-full items-center justify-center\">\n      <DotPattern cy={10} cx={10} height={100} width={100} dotSize={5} />\n    </div>\n  )\n}\n",
+      "type": "registry:example"
+    }
+  ],
+  "type": "registry:example"
+}

@@ -1,8 +1,7 @@
-//@ts-nocheck
 import { promises as fs } from "fs"
 import { tmpdir } from "os"
 import path from "path"
-import { registryItemFileSchema, registryItemSchema } from "shadcn/registry"
+import { registryItemFileSchema, registryItemSchema } from "shadcn/schema"
 import { Project, ScriptKind } from "ts-morph"
 import { z } from "zod"
 
@@ -31,9 +30,12 @@ export async function getRegistryItem(name: string) {
     return null
   }
 
+  // Build path mappings from all files for import rewriting
+  const pathMappings = buildPathMappings(item.files)
+
   let files: typeof result.data.files = []
   for (const file of item.files) {
-    const content = await getFileContent(file)
+    const content = await getFileContent(file, pathMappings)
     const relativePath = path.relative(process.cwd(), file.path)
 
     files.push({
@@ -59,7 +61,29 @@ export async function getRegistryItem(name: string) {
   return parsed.data
 }
 
-async function getFileContent(file: z.infer<typeof registryItemFileSchema>) {
+function buildPathMappings(
+  files: Array<{ path?: string; target?: string }>
+): Map<string, string> {
+  const mappings = new Map<string, string>()
+
+  files.forEach((file) => {
+    if (file.path && file.target) {
+      // Extract the source path relative to registry/aliimam/
+      const match = file.path.match(/registry\/aliimam\/(.+)$/)
+      if (match) {
+        mappings.set(match[1], file.target)
+      }
+    }
+  })
+
+  return mappings
+}
+
+
+async function getFileContent(
+  file: z.infer<typeof registryItemFileSchema>,
+  pathMappings: Map<string, string>
+) {
   const raw = await fs.readFile(file.path, "utf-8")
 
   const project = new Project({
@@ -85,8 +109,8 @@ async function getFileContent(file: z.infer<typeof registryItemFileSchema>) {
     code = code.replaceAll("export default", "export")
   }
 
-  // Fix imports.
-  code = fixImport(code)
+  // Fix imports using path mappings.
+  code = fixImport(code, pathMappings)
 
   return code
 }
@@ -143,29 +167,54 @@ function fixFilePaths(files: z.infer<typeof registryItemSchema>["files"]) {
   })
 }
 
-export function fixImport(content: string) {
-  const regex = /@\/(.+?)\/((?:.*?\/)?(?:components|ui|hooks|lib))\/([\w-]+)/g
+export function fixImport(content: string, pathMappings: Map<string, string>) {
+  // Convert registry imports to their target paths using the provided mappings
+  // This ensures imports match the actual target locations
 
-  const replacement = (
-    match: string,
-    path: string,
-    type: string,
-    component: string
-  ) => {
-    if (type.endsWith("components")) {
-      return `@/components/${component}`
-    } else if (type.endsWith("ui")) {
-      return `@/components/ui/${component}`
-    } else if (type.endsWith("hooks")) {
-      return `@/hooks/${component}`
-    } else if (type.endsWith("lib")) {
-      return `@/lib/${component}`
+  // Sort mappings by path length (longest first) to handle more specific paths first
+  const sortedMappings = Array.from(pathMappings.entries()).sort(
+    ([a], [b]) => b.length - a.length
+  )
+
+  // Handle block-specific imports using the exact path mappings
+  sortedMappings.forEach(([sourcePath, targetPath]) => {
+    if (sourcePath.startsWith("blocks/")) {
+      // Remove the file extension from sourcePath to match import statements
+      const sourcePathNoExt = sourcePath.replace(/\.(tsx?|jsx?)$/, "")
+
+      // Remove the file extension from targetPath
+      const targetPathNoExt = targetPath.replace(/\.(tsx?|jsx?)$/, "")
+
+      // Create regex to match this specific import path
+      const escapedPath = sourcePathNoExt.replace(/\//g, "\\/")
+      const importRegex = new RegExp(
+        `@\\/registry\\/aliimam\\/${escapedPath}`,
+        "g"
+      )
+
+      content = content.replace(importRegex, `@/${targetPathNoExt}`)
     }
+  })
 
-    return match
-  }
+  // Fix UI component imports
+  content = content.replaceAll(
+    "@/registry/aliimam/ui/",
+    "@/components/ui/"
+  )
 
-  return content.replace(regex, replacement)
+  // Fix example imports
+  content = content.replaceAll(
+    "@/registry/aliimam/examples/",
+    "@/components/examples/"
+  )
+
+  // Fix hook imports
+  content = content.replaceAll("@/registry/aliimam/hooks/", "@/hooks/")
+
+  // Fix lib imports
+  content = content.replaceAll("@/registry/aliimam/lib/", "@/lib/")
+
+  return content
 }
 
 export type FileTree = {

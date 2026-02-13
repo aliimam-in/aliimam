@@ -1,12 +1,57 @@
-import { Works } from "@/src/components/works/works";
+import { Metadata } from "next"
+import {
+  PageHeader,
+  PageHeaderDescription,
+  PageHeaderHeading,
+} from "@/src/components/layout/page-header"
 
-export default function Home() {
+
+const title = "Works"
+const description =
+  "Coming Soon!"
+
+export const dynamic = "force-static"
+export const revalidate = false
+
+export const metadata: Metadata = {
+  title,
+  description,
+  openGraph: {
+    images: [
+      {
+        url: `/og?title=${encodeURIComponent(
+          title
+        )}&description=${encodeURIComponent(description)}`,
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: [
+      {
+        url: `/og?title=${encodeURIComponent(
+          title
+        )}&description=${encodeURIComponent(description)}`,
+      },
+    ],
+  },
+}
+
+export default function IndexPage() {
   return (
-    <div>
-      <div className="relative before:absolute before:-inset-x-6 before:top-0 before:h-px before:bg-[linear-gradient(to_right,--theme(--color-border),--theme(--color-border)_200px,--theme(--color-border)_calc(100%-200px),--theme(--color-border))]"></div>
-      <div className="mx-auto py-6 max-w-6xl border-x">
-        <Works />
+    <div className="flex flex-1 flex-col">
+
+      <div className="relative h-screen flex justify-center items-center overflow-hidden">
+        <PageHeader className="relative z-10">
+          <PageHeaderHeading>
+            {title}
+          </PageHeaderHeading>
+          <PageHeaderDescription>
+            {description}
+          </PageHeaderDescription>
+
+        </PageHeader>
       </div>
     </div>
-  );
+  )
 }

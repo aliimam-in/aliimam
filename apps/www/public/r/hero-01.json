@@ -1,21 +1,26 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "hero-01",
-  "type": "registry:block",
   "description": "A simple hero section.",
+  "dependencies": [
+    "@paper-design/shaders-react"
+  ],
   "registryDependencies": [
-    "button",
-    "gradient-mesh"
+    "button"
   ],
   "files": [
     {
-      "path": "registry/default/blocks/hero/hero-01/page.tsx",
-      "content": "\"use client\";\n\nimport { GradientMesh } from \"@/registry/default/components/gradient-mesh\";\nimport { Button } from \"@/registry/default/ui/button\";\nimport Link from \"next/link\";\n\nexport default function HeroSection01() {\n  return (\n    <div className=\"h-screen flex items-center justify-center relative\">\n      {/* GradientWave behind the text */}\n      <GradientMesh />\n      <div className=\"flex flex-col text-center\">\n        <img\n          src=\"/ai-logo.png\"\n          alt=\"Your Image\"\n          height={50}\n          width={50}\n          className=\"h-30 z-40 w-full object-contain\"\n        />\n        <h2 className=\"font-extrabold pt-10 text-black mix-blend-overlay tracking-tighter text-7xl md:text-7xl lg:text-9xl\">\n          Design <br /> without Limits\n        </h2>\n        <div className=\"space-y-6 z-10 pt-20 flex justify-center items-center flex-col text-center px-6\">\n          <p className=\"text-black w-full  max-w-lg font-light text-sm md:text-xl\">\n            I create digital experiences that connect and inspire. I build apps,\n            websites, brands, and products end-to-end.\n          </p>\n          <div className=\"flex gap-3 mt-6 flex-wrap justify-center\">\n            <Link target=\"_blank\" href=\"https://cal.com/aliimam-in/30min\">\n              <Button className=\"h-12 md:h-14 rounded-full cursor-pointer px-8 md:px-10\">\n                Book an Intro Call\n              </Button>\n            </Link>\n            <Button\n              variant={\"secondary\"}\n              className=\"h-12 md:h-14 cursor-pointer rounded-full px-8 md:px-10\"\n            >\n              Get Started Explore\n            </Button>\n          </div>\n        </div>\n      </div>\n    </div>\n  );\n}\n",
+      "path": "blocks/hero/hero-01/page.tsx",
+      "content": "\"use client\"\n\nimport Link from \"next/link\"\nimport { GrainGradient } from \"@paper-design/shaders-react\"\n\nimport { Button } from \"@/components/ui/button\"\n\nexport default function HeroSection01() {\n  return (\n    <div className=\"relative flex h-screen items-center justify-center\">\n      <div className=\"absolute h-full w-full overflow-hidden\">\n        <GrainGradient\n          width={1920}\n          height={1080}\n          colors={[\"#7300ff\", \"#eba8ff\"]}\n          colorBack=\"#000\"\n          shape=\"corners\"\n          className=\"hidden dark:block\"\n        />\n        <GrainGradient\n          width={1920}\n          height={1080}\n          colors={[\"#7300ff\", \"#eba8ff\"]}\n          colorBack=\"#fff\"\n          shape=\"corners\"\n          className=\"block dark:hidden\"\n        />\n      </div>\n      <div className=\"flex flex-col text-center\">\n        <img\n          src=\"/ai-logo.png\"\n          alt=\"Your Image\"\n          height={50}\n          width={50}\n          className=\"z-40 h-30 w-full object-contain\"\n        />\n        <h2 className=\"z-10 pt-10 text-7xl font-extrabold tracking-tighter md:text-7xl lg:text-9xl\">\n          Design <br /> without Limits\n        </h2>\n        <div className=\"z-10 flex flex-col items-center justify-center space-y-6 px-6 pt-20 text-center\">\n          <p className=\"w-full max-w-lg text-sm font-light md:text-xl\">\n            I create digital experiences that connect and inspire. I build apps,\n            websites, brands, and products end-to-end.\n          </p>\n          <div className=\"mt-6 flex flex-wrap justify-center gap-3\">\n            <Link target=\"_blank\" href=\"https://cal.com/aliimam-in/30min\">\n              <Button className=\"h-12 cursor-pointer px-8 md:h-14 md:px-10\">\n                Book an Intro Call\n              </Button>\n            </Link>\n            <Button\n              variant={\"secondary\"}\n              className=\"h-12 cursor-pointer px-8 md:h-14 md:px-10\"\n            >\n              Get Started Explore\n            </Button>\n          </div>\n        </div>\n      </div>\n    </div>\n  )\n}\n",
       "type": "registry:component",
       "target": "components/hero-01.tsx"
     }
   ],
+  "meta": {
+    "iframeHeight": "800px"
+  },
   "categories": [
     "hero"
-  ]
+  ],
+  "type": "registry:block"
 }

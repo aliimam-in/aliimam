@@ -1,23 +1,23 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "pricing-02",
-  "type": "registry:block",
   "description": "A simple pricing section.",
   "dependencies": [
     "@aliimam/icons"
   ],
   "files": [
     {
-      "path": "registry/default/blocks/pricing/pricing-02/page.tsx",
-      "content": "import { CompareTable } from \"@/registry/default/blocks/pricing/pricing-02/components/price\"\n\nexport default function Page() {\n  return (\n    <div className=\"flex min-h-svh w-full items-center justify-center p-6 md:p-10\">\n      <CompareTable />\n    </div>\n  )\n}\n",
+      "path": "blocks/pricing/pricing-02/page.tsx",
+      "content": "import { CompareTable } from \"@/registry/aliimam/blocks/pricing/pricing-02/components/price\"\n\nexport default function Page() {\n  return (\n    <div className=\"flex min-h-svh w-full items-center justify-center p-6 md:p-10\">\n      <CompareTable />\n    </div>\n  )\n}\n",
       "type": "registry:component",
       "target": "components/pricing-02.tsx"
     }
   ],
   "meta": {
-    "iframeHeight": "900px"
+    "iframeHeight": "700px"
   },
   "categories": [
     "pricing"
-  ]
+  ],
+  "type": "registry:block"
 }

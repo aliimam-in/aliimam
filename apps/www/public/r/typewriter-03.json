@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "typewriter-03",
+  "title": "Typewriter",
+  "description": "Example showing a simple typewriter.",
+  "registryDependencies": [
+    "typewriter"
+  ],
+  "files": [
+    {
+      "path": "examples/typewriter/typewriter-03.tsx",
+      "content": "import { Typewriter } from \"@/registry/aliimam/components/typewriter\"\n\nexport default function DemoOne() {\n  const words = [\n    \"Welcome to Typewriter\",\n    \"Create beautiful effects\",\n    \"With React & Tailwind\",\n    \"Type away!\",\n  ]\n\n  return (\n    <main className=\"flex h-full items-center justify-center\">\n      <Typewriter\n        words={words}\n        speed={80}\n        delayBetweenWords={2000}\n        cursor={true}\n        cursorChar=\"|\"\n      />\n    </main>\n  )\n}\n",
+      "type": "registry:example"
+    }
+  ],
+  "type": "registry:example"
+}

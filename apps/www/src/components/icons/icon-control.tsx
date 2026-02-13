@@ -1,9 +1,9 @@
-import React from "react";
-import { Label } from "@/registry/default/ui/label";
-import { Slider } from "@/registry/default/ui/slider";
-import { Input } from "@/registry/default/ui/input";
+ 
+import { Label } from "@/registry/aliimam/ui/label";
+import { Slider } from "@/registry/aliimam/ui/slider";
+import { Input } from "@/registry/aliimam/ui/input";
 import { RotateCw } from "lucide-react";
-import { Button } from "@/registry/default/ui/button";
+import { Button } from "@/registry/aliimam/ui/button";
 
 export interface IconControlsProps {
   size: number;

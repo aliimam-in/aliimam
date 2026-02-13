@@ -1,0 +1,25 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "bento-grid-03",
+  "description": "A simple bento section.",
+  "registryDependencies": [
+    "grid-pattern",
+    "button",
+    "bento"
+  ],
+  "files": [
+    {
+      "path": "blocks/bento/bento-03/bento.tsx",
+      "content": "import { BentoGrid, BentoGridItem } from \"@/registry/aliimam/components/bento\"\nimport { GridPattern } from \"@/registry/aliimam/components/grid-pattern\"\nimport { Button } from \"@/components/ui/button\"\n\nexport default function StudioBentoExample() {\n  return (\n    <div className=\"container py-6 md:py-12\">\n      <BentoGrid\n        cols={{ base: 2, md: 3, lg: 4 }}\n        rowHeight={{ base: \"180px\", md: \"220px\", lg: \"240px\" }}\n        gap={0}\n        className=\"rounded-none border\"\n      >\n        <BentoGridItem colSpan={2} rowSpan={2} className=\"rounded-none p-0\">\n          <div className=\"relative flex h-full flex-col justify-between p-8\">\n            <GridPattern\n              width={80}\n              height={80}\n              squares={[\n                [6, 2],\n                [2, 3],\n                [4, 4],\n              ]}\n            />\n            <div>\n              <h1 className=\"text-3xl font-semibold tracking-tight md:text-5xl lg:text-6xl\">\n                We Build <br /> Digital Experiences.\n              </h1>\n              <p className=\"text-muted-foreground mt-4 max-w-md text-sm md:text-base\">\n                Strategy, branding, and interface design crafted to move\n                businesses forward.\n              </p>\n            </div>\n\n            <div className=\"relative z-10 flex gap-3\">\n              <Button size=\"lg\">View Work</Button>\n              <Button variant=\"outline\" size=\"lg\">\n                Contact Us\n              </Button>\n            </div>\n          </div>\n        </BentoGridItem>\n\n        <BentoGridItem className=\"rounded-none\">\n          <div className=\"flex h-full flex-col justify-between\">\n            <span className=\"text-muted-foreground text-sm\">Services</span>\n            <div className=\"space-y-2 text-sm font-medium\">\n              <p>Brand Identity</p>\n              <p>UI/UX Design</p>\n              <p>Web Design</p>\n              <p>Design Systems</p>\n            </div>\n          </div>\n        </BentoGridItem>\n\n        <BentoGridItem className=\"rounded-none\">\n          <div className=\"flex h-full flex-col justify-between\">\n            <span className=\"text-muted-foreground text-sm\">Process</span>\n            <p className=\"text-sm font-medium\">\n              Discover → Define → Design → Deliver\n            </p>\n            <p className=\"text-muted-foreground text-xs\">\n              Clear strategy. Thoughtful execution.\n            </p>\n          </div>\n        </BentoGridItem>\n\n        <BentoGridItem colSpan={2} className=\"rounded-none\">\n          <div className=\"flex h-full flex-col justify-between\">\n            <span className=\"text-muted-foreground text-sm\">\n              Featured Project\n            </span>\n            <div>\n              <h2 className=\"text-2xl font-semibold tracking-tight\">\n                Fintech Dashboard Redesign\n              </h2>\n              <p className=\"text-muted-foreground mt-2 text-sm\">\n                Increased engagement by 42% with a simplified, data-first\n                interface.\n              </p>\n            </div>\n          </div>\n        </BentoGridItem>\n\n        <BentoGridItem className=\"rounded-none\">\n          <div className=\"flex h-full flex-col justify-between\">\n            <span className=\"text-muted-foreground text-sm\">Testimonial</span>\n            <p className=\"text-sm italic\">\n              “Ali transformed our product experience completely.”\n            </p>\n            <p className=\"text-muted-foreground text-xs\">\n              — Product Lead, SaaS Startup\n            </p>\n          </div>\n        </BentoGridItem>\n\n        <BentoGridItem className=\"flex items-center justify-center rounded-none\">\n          <div className=\"text-center\">\n            <h2 className=\"text-5xl font-bold tracking-tight\">120+</h2>\n            <p className=\"text-muted-foreground text-sm\">Projects Delivered</p>\n          </div>\n        </BentoGridItem>\n\n        <BentoGridItem colSpan={2} className=\"rounded-none\">\n          <div className=\"flex h-full flex-col justify-between\">\n            <span className=\"text-muted-foreground text-sm\">Tools We Use</span>\n            <p className=\"text-sm font-medium\">\n              Figma · Framer · Webflow · React · Tailwind\n            </p>\n            <p className=\"text-muted-foreground text-xs\">\n              Built with performance and scalability in mind.\n            </p>\n          </div>\n        </BentoGridItem>\n      </BentoGrid>\n    </div>\n  )\n}\n",
+      "type": "registry:component",
+      "target": "components/bento.tsx"
+    }
+  ],
+  "meta": {
+    "iframeHeight": "850px"
+  },
+  "categories": [
+    "bento"
+  ],
+  "type": "registry:block"
+}

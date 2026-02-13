@@ -30,7 +30,7 @@ export function LogoPreviewPanel({
                 {selectedIcon.type}
               </p>
             </div>
-            <div className="bg-muted/50 rounded-2xl flex items-center justify-center w-full aspect-square">
+            <div className="bg-muted/50 flex items-center justify-center w-full aspect-square">
               <selectedIcon.Component
                 id="preview-icon"
                 type={selectedIcon.type}
@@ -46,7 +46,7 @@ export function LogoPreviewPanel({
               onClick={onClearSelection}
               className="text-xs top-1 right-3 absolute text-muted-foreground hover:text-foreground transition-colors"
             >
-              <X />
+              <X className="h-4 w-4"/>
             </button>
           </div>
 
@@ -121,7 +121,7 @@ export function IconPreviewPanel({
               onClick={onClearSelection}
               className="text-xs top-1 right-3 absolute text-muted-foreground hover:text-foreground transition-colors"
             >
-              <X />
+              <X className="w-4 h-4"/>
             </button>
           </div>
 

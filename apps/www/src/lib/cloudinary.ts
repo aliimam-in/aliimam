@@ -1,4 +1,3 @@
-/* eslint-disable turbo/no-undeclared-env-vars */ 
 import { v2 as cloudinary } from 'cloudinary';
 
 cloudinary.config({

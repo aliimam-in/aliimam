@@ -1,31 +1,24 @@
-import type { Metadata } from "next";
-import "@/src/styles/globals.css";
-import "@/src/styles/themes.css";
-import { Geist } from "next/font/google";
+import type { Metadata } from "next"
 
-import { Provider } from "@/src/components/common/provider";
-import { META_THEME_COLORS, siteConfig } from "@/src/lib/config";
-import { cn } from "@/registry/default/lib/utils";
-import { ActiveThemeProvider } from "../components/docs/active-theme";
-import { LayoutProvider } from "../hooks/use-layout";
+import { META_THEME_COLORS, siteConfig } from "@/src/lib/config"
+import { cn } from "@/src/lib/utils"
+import { fontVariables } from "@/src/lib/fonts"
 
-const fontSans = Geist({
-  subsets: ["latin"],
-  variable: "--font-sans",
-});
+import "@/src/styles/globals.css"
+import { Provider } from "@/src/components/themes/provider" 
 
 export const metadata: Metadata = {
   title: {
     default: siteConfig.name,
-    template: `%s - ${siteConfig.name}`,
+    template: `%s | ${siteConfig.name}`,
   },
   metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL!),
   description: siteConfig.description,
-  keywords: ["Next.js", "React", "Tailwind CSS", "Components", "Ali Imam"],
+  keywords: ["aliimam", "UI", "shadcn", "Components", "audio", "agents"],
   authors: [
     {
-      name: "Ali Imam",
-      url: "https://aliimam.in",
+      name: "aliimam",
+      url: "https://aliimam_in",
     },
   ],
   creator: "aliimam",
@@ -38,7 +31,7 @@ export const metadata: Metadata = {
     siteName: siteConfig.name,
     images: [
       {
-        url: `${process.env.NEXT_PUBLIC_APP_URL}/opengraph-image.jpg`,
+        url: `${process.env.NEXT_PUBLIC_APP_URL}/opengraph-image.png`,
         width: 1200,
         height: 630,
         alt: siteConfig.name,
@@ -49,62 +42,52 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: siteConfig.name,
     description: siteConfig.description,
-    images: [`${process.env.NEXT_PUBLIC_APP_URL}/opengraph-image.jpg`],
+    images: [`${process.env.NEXT_PUBLIC_APP_URL}/opengraph-image.png`],
     creator: "@aliimam",
   },
   icons: {
-    icon: "/ai-logo.png",
-    shortcut: "/ai-logo.png",
-    apple: "/ai-logo.png",
+    icon: "/favicon.ico",
+    shortcut: "/favicon-16x16.png",
+    apple: "/apple-touch-icon.png",
   },
   manifest: `${siteConfig.url}/site.webmanifest`,
-};
+}
 
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode;
+  children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className="scroll-smooth" suppressHydrationWarning>
+    <html lang="en" suppressHydrationWarning
+    >
       <head>
         <script
           dangerouslySetInnerHTML={{
             __html: `
-        try {
-          if (localStorage.theme === 'dark' || ((!('theme' in localStorage) || localStorage.theme === 'system') && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-            document.querySelector('meta[name="theme-color"]').setAttribute('content', '${META_THEME_COLORS.dark}')
-          }
-          if (localStorage.layout) {
-            document.documentElement.classList.add('layout-' + localStorage.layout)
-          }
-          // Add theme initialization
-          const storedConfig = localStorage.getItem('config');
-          if (storedConfig) {
-            const config = JSON.parse(storedConfig);
-            if (config.radius !== undefined) {
-              document.documentElement.style.setProperty('--radius', config.radius + 'rem');
-            }
-          }
-        } catch (_) {}
-      `,
+              try {
+                if (localStorage.theme === 'dark' || ((!('theme' in localStorage) || localStorage.theme === 'system') && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                  document.querySelector('meta[name="theme-color"]').setAttribute('content', '${META_THEME_COLORS.dark}')
+                }
+                if (localStorage.layout) {
+                  document.documentElement.classList.add('layout-' + localStorage.layout)
+                }
+              } catch (_) {}
+            `,
           }}
         />
         <meta name="theme-color" content={META_THEME_COLORS.light} />
-      </head> 
+      </head>
       <body
-        suppressHydrationWarning
         className={cn(
-          "text-foreground bg-background group/body overscroll-none antialiased [--footer-height:calc(var(--spacing)*14)] [--header-height:calc(var(--spacing)*14)] xl:[--footer-height:calc(var(--spacing)*24)]",
-          fontSans
+          "group/body bg-background font-mono overscroll-none antialiased [--footer-height:calc(var(--spacing)*14)] [--header-height:calc(var(--spacing)*14)] xl:[--footer-height:calc(var(--spacing)*24)]",
+          fontVariables
         )}
       >
-        <Provider>
-          <LayoutProvider>
-            <ActiveThemeProvider>{children}</ActiveThemeProvider>
-          </LayoutProvider>
+        <Provider> 
+          {children}
         </Provider>
       </body>
     </html>
-  );
+  )
 }

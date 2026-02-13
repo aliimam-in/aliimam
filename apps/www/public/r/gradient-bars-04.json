@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "gradient-bars-04",
+  "title": "Gradient Bars",
+  "description": "Example showing a simple gradient bars.",
+  "registryDependencies": [
+    "gradient-bars"
+  ],
+  "files": [
+    {
+      "path": "examples/gradient-bars/gradient-bars-04.tsx",
+      "content": "\"use client\"\n\nimport { GradientBars } from \"@/registry/aliimam/components/gradient-bars\"\n\nexport default function DemoOne() {\n  return (\n    <div className=\"flex h-full w-full items-center justify-center\">\n      <GradientBars\n        numBars={40}\n        minScale={0.1}\n        maxScale={1}\n        colors={[\"#00ff00\", \"transparent\"]}\n      />\n    </div>\n  )\n}\n",
+      "type": "registry:example"
+    }
+  ],
+  "type": "registry:example"
+}

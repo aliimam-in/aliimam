@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "counter-number-currency",
-  "type": "registry:example",
   "title": "Counter Number",
   "description": "",
   "registryDependencies": [
@@ -9,9 +8,10 @@
   ],
   "files": [
     {
-      "path": "registry/default/example/counter-number/counter-number-currency.tsx",
-      "content": "import { CounterNumber } from \"@/registry/default/components/counter-number\"\n\nexport default function Component() {\n  return (\n    <div className=\"flex h-full w-full items-center justify-center\">\n      <CounterNumber value={99.99} currency=\"USD\" decimalPlaces={2} size=\"xl\" />\n    </div>\n  )\n}\n",
+      "path": "examples/counter-number/counter-number-currency.tsx",
+      "content": "import { CounterNumber } from \"@/registry/aliimam/components/counter-number\"\n\nexport default function Component() {\n  return (\n    <div className=\"flex h-full w-full items-center justify-center\">\n      <CounterNumber value={99.99} currency=\"USD\" decimalPlaces={2} size=\"xl\" />\n    </div>\n  )\n}\n",
       "type": "registry:example"
     }
-  ]
+  ],
+  "type": "registry:example"
 }

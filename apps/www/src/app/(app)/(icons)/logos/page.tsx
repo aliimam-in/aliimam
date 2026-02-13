@@ -1,17 +1,19 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+/* eslint-disable @typescript-eslint/no-unused-vars */
 "use client";
 import React, { useState } from "react";
 import {
   Tooltip,
   TooltipContent,
   TooltipTrigger,
-} from "@/registry/default/ui/tooltip";
-import { TabsContent } from "@/registry/default/ui/tabs";
+} from "@/registry/aliimam/ui/tooltip";
+import { TabsContent } from "@/registry/aliimam/ui/tabs";
 import { useLogos } from "@/src/components/icons/logo-context";
 import { LogoPreviewPanel } from "@/src/components/icons/icon-preview";
 import Link from "next/link";
-import { Button } from "@/registry/default/ui/button";
+import { Button } from "@/registry/aliimam/ui/button";
 import { Figma } from "@aliimam/logos";
-import { ContentCopyButton } from "@/src/components/ui/copy-button";
+import { ContentCopyButton } from "@/src/components/copy-button";
 
 export default function LogosPage() {
   const { searchQuery, activeCategory, iconComponents } = useLogos();
@@ -115,19 +117,19 @@ export default function LogosPage() {
     const sizeClasses = getSizeClasses(type);
 
     return (
-      <div className="flex relative items-stretch xl:w-full">
-        <div className="flex min-w-0 flex-1 border rounded-md p-6 flex-col">
+      <div className="flex relative items-stretch -mt-2 xl:w-full">
+        <div className="flex min-w-0 flex-1 border-x rounded-md p-2 flex-col">
           {Object.keys(iconsByCategory).length > 0 ? (
             Object.entries(iconsByCategory)
               .sort()
               .map(([category, icons]) => (
-                <div key={`${category}-${type}`} className="mb-2">
-                  <div className="flex flex-wrap gap-2">
+                <div key={`${category}-${type}`} className="mb-1">
+                  <div className="flex flex-wrap gap-1">
                     {icons.map(({ name, Component }) => (
                       <Tooltip key={`${name}-${type}`}>
                         <TooltipTrigger asChild>
                           <div
-                            className={`flex flex-col cursor-pointer hover:ring-2 ring-ring/20 bg-muted/50 dark:bg-muted/30 p-8 rounded-3xl items-center transition-all ${
+                            className={`flex flex-col cursor-pointer hover:ring-2 ring-ring/20 bg-muted/50 dark:bg-muted/30 p-8 items-center transition-all ${
                               selectedIcon?.name === name &&
                               selectedIcon?.type === type
                                 ? "ring-2 ring-primary"
@@ -154,7 +156,7 @@ export default function LogosPage() {
             </p>
           )}
         </div>
-        <div className="sticky w-60 -mr-2 top-38 z-30 ml-auto hidden h-[calc(100svh-var(--footer-height)-2rem)] flex-col gap-3 overflow-hidden overscroll-none pb-8 xl:flex">
+        <div className="sticky w-60 top-32 z-30 ml-auto hidden h-[calc(100svh-var(--footer-height))] flex-col gap-3 overflow-hidden pb-3 overscroll-none xl:flex">
           <LogoPreviewPanel
             selectedIcon={selectedIcon}
             onClearSelection={() => setSelectedIcon(null)}

@@ -1,0 +1,104 @@
+---
+title: Carousel
+description: A dynamic animated tile grid that reconstructs an image using animated opacity effects.
+component: true
+---
+
+<ComponentPreview
+  name="carousel-01"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[300px]"
+  description="A customizable SVG dot pattern background."
+  align="start"
+/>
+
+<ComponentPreview
+  name="carousel-02"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[300px]"
+  description="A customizable SVG dot pattern background."
+  align="start"
+/>
+
+<ComponentPreview
+  name="carousel-03"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[300px]"
+  description="A customizable SVG dot pattern background."
+  align="start"
+/>
+
+<ComponentPreview
+  name="carousel-04"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[300px]"
+  description="A customizable SVG dot pattern background."
+  align="start"
+/>
+
+<ComponentPreview
+  name="carousel-05"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[300px]"
+  description="A customizable SVG dot pattern background."
+  align="start"
+/>
+
+## Installation
+
+<CodeTabs>
+
+<TabsList>
+  <TabsTrigger value="cli">CLI</TabsTrigger>
+  <TabsTrigger value="manual">Manual</TabsTrigger>
+</TabsList>
+
+<TabsContent value="cli">
+
+```bash
+npx shadcn@latest add https://aliimam.in/r/carousel.json
+```
+
+</TabsContent>
+
+<TabsContent value="manual">
+
+<Steps>
+
+<Step>Copy and paste the following code into your project.</Step>
+
+<ComponentSource name="carousel" title="components/ui/carousel.tsx" />
+
+<Step>Update the import paths to match your project setup.</Step>
+
+</Steps>
+
+</TabsContent>
+
+</CodeTabs>
+
+## Usage
+
+```tsx showLineNumbers
+import { Carousel } from "@/components/ui/carousel"
+```
+
+```tsx showLineNumbers
+<Carousel
+  slides={[<img src="/1.jpg" />, <img src="/2.jpg" />]} 
+/>
+```
+
+## Props
+
+| Prop               | Type                            | Default    |
+| ------------------ | ------------------------------- | ---------- |
+| slides             | `React.ReactNode[]`             | —          |
+| options            | `EmblaOptionsType`              | —          |
+| thumbnails         | `React.ReactNode[]`             | —          |
+| thumbPosition      | `"bottom" \| "left" \| "right"` | `"bottom"` |
+| showArrows         | `boolean`                       | `false`    |
+| showProgress       | `boolean`                       | `true`     |
+| showDots           | `boolean`                       | `true`     |
+| showCounter        | `boolean`                       | `false`    |
+| showPlay           | `boolean`                       | `true`     |
+| keyboardNavigation | `boolean`                       | `false`    |
+| lightbox           | `boolean`                       | `false`    |
+| transition         | `"slide" \| "fade"`             | `"slide"`  |
+| autoplayDelay      | `number`                        | `3000`     |
+| captions           | `string[]`                      | —          |

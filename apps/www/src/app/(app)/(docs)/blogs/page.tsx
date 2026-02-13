@@ -1,4 +1,4 @@
-import { SidebarTrigger } from "@/registry/default/ui/sidebar";
+
 import { siteConfig } from "@/src/lib/config";
 import { blogSource } from "@/src/lib/source";
 import {
@@ -9,23 +9,30 @@ import {
   pluralize,
 } from "@/src/lib/utils";
 import type { Metadata } from "next";
+import {
+  PageActions,
+  PageHeader,
+  PageHeaderDescription,
+  PageHeaderHeading,
+} from "@/src/components/layout/page-header"
 import Link from "next/link";
 import type { Blog, WithContext } from "schema-dts";
 
 export const revalidate = false;
-export const dynamic = "force-static";
 export const dynamicParams = false;
 
 export function generateStaticParams() {
   return [];
 }
 
-const BLOG_DESCRIPTION =
-  "Latest articles about UI components, animations, and web development best practices.";
+const title = "Blogs"
+const description =
+  "Latest articles about UI components, animations, and web development best practices."
+
 
 export const metadata: Metadata = constructMetadata({
   title: `Blogs | ${siteConfig.name}`,
-  description: BLOG_DESCRIPTION,
+  description: description,
 });
 
 export default async function Page({
@@ -53,7 +60,7 @@ export default async function Page({
     "@context": "https://schema.org",
     "@type": "Blog",
     name: `${siteConfig.name} Blogs`,
-    description: BLOG_DESCRIPTION,
+    description: description,
     url: `${siteConfig.url}/blogs`,
     inLanguage: "en-US",
     publisher: {
@@ -100,24 +107,28 @@ export default async function Page({
       />
       <div
         data-slot="blogs"
-        className="flex relative items-stretch text-[1.05rem] sm:text-[15px] xl:w-full"
+        className=""
       >
-        <div className="flex min-w-0 flex-1 border rounded-md flex-col">
-          <main className="p-6 space-y-6">
-            <div className="space-y-6 my-6 md:my-10 text-center px-6">
-              <h2 className="font-extrabold tracking-tighter text-5xl md:text-7xl lg:text-9xl">
-                Blogs
-              </h2>
-              <p className="text-muted-foreground font-light text-sm md:text-xl">
-                Coming Soon!
-              </p>
-              {filteredPosts.length > 0 && (
-                <p className="text-sm text-muted-foreground">
-                  {selectedTag
-                    ? `${pluralize(filteredPosts.length, "article")} tagged with "${selectedTag}"`
-                    : `${pluralize(filteredPosts.length, "article")} total`}
-                </p>
-              )}
+        <div className="flex flex-col">
+          <main className="container space-y-3">
+            <div className="text-center">
+              <PageHeader className="relative z-10">
+                <PageHeaderHeading>
+                  {title}
+                </PageHeaderHeading>
+                <PageHeaderDescription>
+                  {description}
+                </PageHeaderDescription>
+                <PageActions>
+                  {filteredPosts.length > 0 && (
+                    <p className="text-sm text-muted-foreground">
+                      {selectedTag
+                        ? `${pluralize(filteredPosts.length, "article")} tagged with "${selectedTag}"`
+                        : `${pluralize(filteredPosts.length, "article")} total`}
+                    </p>
+                  )}
+                </PageActions>
+              </PageHeader> 
             </div>
 
             {tags.length > 0 && (
@@ -125,11 +136,10 @@ export default async function Page({
                 <div className="flex flex-wrap gap-2">
                   <Link
                     href="/blogs"
-                    className={`rounded-full border px-3 py-1.5 text-sm font-medium transition-colors ${
-                      !selectedTag
-                        ? "bg-primary text-primary-foreground"
-                        : "text-muted-foreground hover:bg-muted hover:text-foreground"
-                    }`}
+                    className={`border px-3 py-1.5 text-sm font-medium transition-colors ${!selectedTag
+                      ? "bg-primary text-primary-foreground"
+                      : "text-muted-foreground hover:bg-muted hover:text-foreground"
+                      }`}
                   >
                     All
                   </Link>
@@ -137,11 +147,10 @@ export default async function Page({
                     <Link
                       key={tag}
                       href={`/blogs?tag=${encodeURIComponent(tag)}`}
-                      className={`rounded-full border px-3 py-1.5 text-sm font-medium transition-colors ${
-                        selectedTag === tag
-                          ? "bg-primary text-primary-foreground"
-                          : "text-muted-foreground hover:bg-muted hover:text-foreground"
-                      }`}
+                      className={`border px-3 py-1.5 text-sm font-medium transition-colors ${selectedTag === tag
+                        ? "bg-primary text-primary-foreground"
+                        : "text-muted-foreground hover:bg-muted hover:text-foreground"
+                        }`}
                     >
                       {tag}
                     </Link>
@@ -171,7 +180,7 @@ export default async function Page({
                 {filteredPosts.map((post) => (
                   <article
                     key={post.url}
-                    className="group flex flex-col overflow-hidden rounded-xl border bg-card transition-all duration-200 hover:bg-accent/5"
+                    className="group flex flex-col overflow-hidden border bg-card transition-all duration-200 hover:bg-accent/5"
                   >
                     <div className="flex flex-col h-full">
                       {post.data?.image && (

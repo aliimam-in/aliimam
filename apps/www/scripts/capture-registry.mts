@@ -13,14 +13,8 @@ async function captureScreenshots() {
   const blockIds = await getAllBlockIds()
   const blocks = blockIds.filter((block) => {
     // Check if screenshots already exist
-    const lightPath = path.join(
-      REGISTRY_PATH,
-      `${block}-light.png`
-    )
-    const darkPath = path.join(
-      REGISTRY_PATH,
-      `${block}-dark.png`
-    )
+    const lightPath = path.join(REGISTRY_PATH, `${block}-light.png`)
+    const darkPath = path.join(REGISTRY_PATH, `${block}-dark.png`)
     return !existsSync(lightPath) || !existsSync(darkPath)
   })
 
@@ -38,7 +32,7 @@ async function captureScreenshots() {
   })
 
   for (const block of blocks) {
-    const pageUrl = `http://localhost:3000/view/${block}`
+    const pageUrl = `http://localhost:4000/view/${block}`
 
     const page = await browser.newPage()
     await page.goto(pageUrl, {

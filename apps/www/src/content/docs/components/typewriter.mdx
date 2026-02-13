@@ -1,0 +1,97 @@
+---
+title: Typewriter
+description: Use the Typewriter component inside headings to create animated subheadings for hero sections, landing pages, or portfolio intros.
+component: true
+---
+
+<ComponentPreview
+  name="typewriter-01"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[80%] **:[.preview]:min-h-[400px]"
+  description="An accordion with three items"
+  align="start"
+/>
+
+<ComponentPreview
+  name="typewriter-02"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[80%] **:[.preview]:min-h-[400px]"
+  description="An accordion with three items"
+  align="start"
+/>
+
+<ComponentPreview
+  name="typewriter-03"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[80%] **:[.preview]:min-h-[400px]"
+  description="An accordion with three items"
+  align="start"
+/>
+
+<ComponentPreview
+  name="typewriter-04"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[80%] **:[.preview]:min-h-[400px]"
+  description="An accordion with three items"
+  align="start"
+/>
+
+<ComponentPreview
+  name="typewriter-05"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[80%] **:[.preview]:min-h-[400px]"
+  description="An accordion with three items"
+  align="start"
+/>
+
+## Installation
+
+<CodeTabs>
+
+<TabsList>
+  <TabsTrigger value="cli">CLI</TabsTrigger>
+  <TabsTrigger value="manual">Manual</TabsTrigger>
+</TabsList>
+
+<TabsContent value="cli">
+
+```bash
+npx shadcn@latest add https://aliimam.in/r/typewriter.json
+```
+
+</TabsContent>
+
+<TabsContent value="manual">
+
+<Steps>
+
+<Step>Copy and paste the following code into your project.</Step>
+
+<ComponentSource name="typewriter" title="components/ui/typewriter.tsx" />
+
+<Step>Update the import paths to match your project setup.</Step>
+
+</Steps>
+
+</TabsContent>
+
+</CodeTabs>
+
+## Usage
+
+```tsx showLineNumbers
+import { Typewriter } from "@/components/typewriter"
+```
+
+```tsx showLineNumbers 
+<Typewriter
+  words={["Developer", "Designer", "Freelancer"]}
+/>
+```
+ 
+ 
+## Props
+
+| Prop                | Type       | Default      |  
+| ------------------- | ---------- | ------------ |  
+| `words`             | `string[]` | — (required) | 
+| `speed`             | `number`   | `100`        |  
+| `delayBetweenWords` | `number`   | `2000`       |  
+| `cursor`            | `boolean`  | `true`       |  
+| `cursorChar`        | `string`   | "_"          |  
+| `className`         | `string`   | —            |

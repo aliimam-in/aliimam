@@ -1,0 +1,26 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "faq-02",
+  "description": "A simple faq section.",
+  "dependencies": [
+    "@aliimam/icons"
+  ],
+  "registryDependencies": [
+    "accordion"
+  ],
+  "files": [
+    {
+      "path": "blocks/faq/faq-02/faq.tsx",
+      "content": "\"use client\"\n\nimport {\n  Accordion,\n  AccordionContent,\n  AccordionItem,\n  AccordionTrigger,\n} from \"@/components/ui/accordion\"\n\nexport default function FAQs() {\n  const faqItems = [\n    {\n      id: \"item-1\",\n      question: \"How fast will I receive my designs?\",\n      answer:\n        \"Most design requests are completed within 24–48 hours. Larger or more complex requests may take longer, but I provide daily progress updates so you always know what’s happening.\",\n    },\n    {\n      id: \"item-2\",\n      question: \"Who will be working on my designs?\",\n      answer:\n        \"You’ll work directly with me, Ali — the founder and sole designer. I don’t outsource or use a team, so every design is personally crafted with full attention.\",\n    },\n    {\n      id: \"item-3\",\n      question: \"What type of design work do you offer?\",\n      answer:\n        \"I work across all kinds of design, including branding, UI/UX, social media creatives, marketing designs, and website visuals.\",\n    },\n    {\n      id: \"item-4\",\n      question: \"Is there a limit to how many requests I can make?\",\n      answer:\n        \"There’s no limit on total requests. Depending on your plan, I work on a fixed number of active requests at a time. Once one is done, the next begins.\",\n    },\n    {\n      id: \"item-5\",\n      question: \"Do you offer unlimited revisions?\",\n      answer:\n        \"Yes. Unlimited revisions are included. I’ll keep refining the design until you’re fully satisfied.\",\n    },\n    {\n      id: \"item-6\",\n      question: \"How do you handle large or complex projects?\",\n      answer:\n        \"Large projects are broken into smaller tasks or phases to ensure quality, clarity, and timely delivery.\",\n    },\n    {\n      id: \"item-7\",\n      question: \"How will I receive updates on my work?\",\n      answer:\n        \"I share daily updates on what was completed that day, so you’re always aware of progress.\",\n    },\n    {\n      id: \"item-8\",\n      question: \"How do we communicate?\",\n      answer:\n        \"For smooth and fast communication, I’m available on WhatsApp. Other tools can also be used if preferred.\",\n    },\n    {\n      id: \"item-9\",\n      question: \"How do I submit design requests?\",\n      answer:\n        \"You can submit requests through WhatsApp, Figma, Google Docs, Notion, Trello, or Loom — whatever is easiest for you.\",\n    },\n    {\n      id: \"item-10\",\n      question: \"What if I don’t like the design?\",\n      answer:\n        \"That’s completely fine. We’ll revise it until it matches your vision. Feedback is a core part of the process.\",\n    },\n  ]\n\n  return (\n    <section className=\"relative container flex items-center justify-center\">\n      <div className=\"border\">\n        <div className=\"mx-auto max-w-5xl\">\n          <Accordion\n            type=\"single\"\n            collapsible\n            className=\"-mb-1\"\n            defaultValue=\"item-1\"\n          >\n            {faqItems.map((item) => (\n              <AccordionItem\n                key={item.id}\n                value={item.id}\n                className=\"space-y-1 border-none\"\n              >\n                <AccordionTrigger className=\"group flex w-full justify-end py-0 hover:no-underline [&_svg]:hidden\">\n                  <div className=\"bg-primary text-primary-foreground max-w-[80%] cursor-pointer px-4 py-3 text-left text-base transition\">\n                    {item.question}\n                  </div>\n                </AccordionTrigger>\n\n                <AccordionContent className=\"flex justify-start\">\n                  <div className=\"bg-muted text-muted-foreground max-w-[80%] px-4 py-3 text-base\">\n                    {item.answer}\n                  </div>\n                </AccordionContent>\n              </AccordionItem>\n            ))}\n          </Accordion>\n        </div>\n      </div>\n    </section>\n  )\n}\n",
+      "type": "registry:component",
+      "target": "components/faq.tsx"
+    }
+  ],
+  "meta": {
+    "iframeHeight": "700px"
+  },
+  "categories": [
+    "faq"
+  ],
+  "type": "registry:block"
+}

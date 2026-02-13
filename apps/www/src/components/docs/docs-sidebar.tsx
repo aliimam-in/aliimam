@@ -1,81 +1,128 @@
-"use client";
+"use client"
 
-import Link from "next/link";
-import { usePathname } from "next/navigation";
-import type { source } from "@/src/lib/source";
+import Link from "next/link"
+import { usePathname } from "next/navigation"
 
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/registry/default/ui/accordion";
+import type { source } from "@/src/lib/source"
 import {
   Sidebar,
   SidebarContent,
+  SidebarGroup,
+  SidebarGroupContent,
+  SidebarGroupLabel,
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
-} from "@/registry/default/ui/sidebar";
+} from "@/registry/aliimam/ui/sidebar"
+
+const TOP_LEVEL_SECTIONS = [
+  { name: "Introduction", href: "/docs" },
+  {
+    name: "Components",
+    href: "/docs/components",
+  }, 
+]
+
+const EXCLUDED_SECTIONS = ["installation", "dark-mode", "(root)"]
+const EXCLUDED_PAGES: string[] = []
+
+const NEW_COMPONENTS = [  
+  "components/bento.mdx",
+  "components/counter-number.mdx",
+  "components/typewriter.mdx",
+]
 
 export function DocsSidebar({
   tree,
   ...props
 }: React.ComponentProps<typeof Sidebar> & { tree: typeof source.pageTree }) {
-  const pathname = usePathname();
-
-  // Find the parent folder ID for the current pathname
-  const defaultOpenItem = tree.children.find(
-    (item) =>
-      item.type === "folder" &&
-      //@ts-ignore
-      item.children?.some((child) => child.url === pathname)
-  )?.$id;
+  const pathname = usePathname()
 
   return (
-     <Sidebar
-      className="sticky top-20 z-30 hidden h-[calc(100svh-var(--footer-height)+2rem)] bg-transparent lg:flex"
+    <Sidebar
+      className="sticky top-[calc(var(--header-height)+1px)] z-30 hidden h-[calc(100svh-var(--footer-height)+2rem)] bg-transparent lg:flex"
       collapsible="none"
       {...props}
     >
-      <SidebarContent className="no-scrollbar pt-3 px-2 pb-12">
-        <Accordion
-          type="single"
-          collapsible
-          className="w-full"
-          defaultValue={defaultOpenItem ? String(defaultOpenItem) : "backgrounds"}
-        >
-          {tree.children.map((item) => (
-            <AccordionItem key={item.$id} value={String(item.$id)}>
-              <AccordionTrigger className="text-muted-foreground py-2 font-medium">
-                {item.name}
-              </AccordionTrigger>
+      <SidebarContent className="no-scrollbar overflow-x-hidden px-2 pb-12">
+        <div className="h-(--top-spacing) shrink-0" />
+        <SidebarGroup>
+          <SidebarGroupLabel className="text-muted-foreground font-medium">
+            Getting Started
+          </SidebarGroupLabel>
+          <SidebarGroupContent>
+            <SidebarMenu>
+              {TOP_LEVEL_SECTIONS.map(({ name, href }) => {
+                return (
+                  <SidebarMenuItem key={name}>
+                    <SidebarMenuButton
+                      asChild
+                      isActive={
+                        href === "/docs" || href === "/docs/components"
+                          ? pathname === href
+                          : pathname.startsWith(href)
+                      }
+                      className="data-[active=true]:bg-accent data-[active=true]:border-accent 3xl:fixed:w-full 3xl:fixed:max-w-48 relative h-[30px] w-fit overflow-visible border border-transparent text-[0.8rem] font-medium after:absolute after:inset-x-0 after:-inset-y-1 after:z-0 after:rounded-md"
+                    >
+                      <Link href={href}>
+                        <span className="absolute inset-0 flex w-(--sidebar-width) bg-transparent" />
+                        {name}
+                      </Link>
+                    </SidebarMenuButton>
+                  </SidebarMenuItem>
+                )
+              })}
+            </SidebarMenu>
+          </SidebarGroupContent>
+        </SidebarGroup>
+        {tree.children.map((item) => {
+          if (EXCLUDED_SECTIONS.includes(item.$id ?? "")) {
+            return null
+          }
 
-              <AccordionContent>
-                {item.type === "folder" && item.children && (
-                  <SidebarMenu className="gap-0.5 pl-1">
-                    {item.children.map((child) => {
+          return (
+            <SidebarGroup key={item.$id}>
+              <SidebarGroupLabel className="text-muted-foreground font-medium">
+                {item.name}
+              </SidebarGroupLabel>
+              <SidebarGroupContent>
+                {item.type === "folder" && (
+                  <SidebarMenu className="gap-0.5">
+                    {item.children.map((item) => {
+                      const isNew = NEW_COMPONENTS.includes(item.$id ?? "")
                       return (
-                        child.type === "page" && (
-                          <SidebarMenuItem key={child.url}>
+                        item.type === "page" &&
+                        !EXCLUDED_PAGES.includes(item.url) && (
+                          <SidebarMenuItem key={item.url}>
                             <SidebarMenuButton
                               asChild
-                              isActive={child.url === pathname}
-                              className="data-[active=true]:bg-accent w-full data-[active=true]:border-accent relative h-[30px] overflow-visible border border-transparent text-[0.8rem] font-medium after:absolute after:inset-x-0 after:-inset-y-1 after:z-0 after:rounded-md"
+                              isActive={item.url === pathname}
+                              className="data-[active=true]:bg-accent data-[active=true]:border-accent 3xl:fixed:w-full 3xl:fixed:max-w-48 relative h-[30px] w-fit overflow-visible border border-transparent text-[0.8rem] font-medium after:absolute after:inset-x-0 after:-inset-y-1 after:z-0 after:rounded-md"
                             >
-                              <Link href={child.url}>{child.name}</Link>
+                              <Link href={item.url}>
+                                <span className="absolute inset-0 flex w-(--sidebar-width) bg-transparent" />
+                                <span className="flex items-center gap-2">
+                                  {item.name}
+                                  {isNew && (
+                                    <span
+                                      className="bg-blue-500 h-1.5 w-1.5 shrink-0 rounded-full"
+                                      aria-label="New component"
+                                    />
+                                  )}
+                                </span>
+                              </Link>
                             </SidebarMenuButton>
                           </SidebarMenuItem>
                         )
-                      );
+                      )
                     })}
                   </SidebarMenu>
                 )}
-              </AccordionContent>
-            </AccordionItem>
-          ))}
-        </Accordion>
+              </SidebarGroupContent>
+            </SidebarGroup>
+          )
+        })}
       </SidebarContent>
     </Sidebar>
-  );
+  )
 }

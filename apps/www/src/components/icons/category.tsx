@@ -1,5 +1,5 @@
 "use client";
-import { Sidebar, SidebarContent } from "@/registry/default/ui/sidebar";
+import { Sidebar, SidebarContent } from "@/registry/aliimam/ui/sidebar";
 import { useLogos } from "@/src/components/icons/logo-context";
 import { useIcons } from "@/src/components/icons/icon-context";
 import { usePathname } from "next/navigation";
@@ -31,12 +31,12 @@ export function IconCategoryTabs() {
   };
 
   return (
-    <Sidebar
-      className="sticky top-36 z-30 hidden h-[calc(100svh-var(--footer-height)+2rem)] bg-transparent lg:flex"
+    <Sidebar 
+      className="sticky top-30 z-30 hidden h-[calc(100svh-var(--footer-height)+2rem)] bg-transparent lg:flex"
       collapsible="none"
     >
-      <SidebarContent className="no-scrollbar pl-1 pb-40">
-        <div className="grid gap-1 pl-1">
+      <SidebarContent className="no-scrollbar pb-40">
+        <div className="grid gap-1">
           {allCategories.map((category) => (
             <button
               key={category}
@@ -100,11 +100,11 @@ export function LogoCategoryTabs() {
 
   return (
     <Sidebar
-      className="sticky top-36 z-30 hidden h-[calc(100svh-var(--footer-height)+2rem)] bg-transparent lg:flex"
+      className="sticky top-30 z-30 hidden h-[calc(100svh-var(--footer-height)+2rem)] bg-transparent lg:flex"
       collapsible="none"
     >
-      <SidebarContent className="no-scrollbar pl-1 pb-40">
-        <div className="grid gap-1 pl-1">
+      <SidebarContent className="no-scrollbar pb-40">
+        <div className="grid gap-1">
           {categoriesToShow.map((category) => (
             <button
               key={category}
@@ -167,11 +167,11 @@ export function SymbolsCategoryTabs() {
 
   return (
     <Sidebar
-      className="sticky top-36 z-30 hidden h-[calc(100svh-var(--footer-height)+2rem)] bg-transparent lg:flex"
+      className="sticky top-30 z-30 hidden h-[calc(100svh-var(--footer-height)+2rem)] bg-transparent lg:flex"
       collapsible="none"
     >
-      <SidebarContent className="no-scrollbar pl-1 pb-40">
-        <div className="grid gap-1 pl-1">
+      <SidebarContent className="no-scrollbar pb-40">
+        <div className="grid gap-1">
           {categoriesToShow.map((category) => (
             <button
               key={category}
@@ -229,11 +229,11 @@ export function VectorsCategoryTabs() {
 
   return (
     <Sidebar
-      className="sticky top-36 z-30 hidden h-[calc(100svh-var(--footer-height)+2rem)] bg-transparent lg:flex"
+      className="sticky top-30 z-30 hidden h-[calc(100svh-var(--footer-height)+2rem)] bg-transparent lg:flex"
       collapsible="none"
     >
-      <SidebarContent className="no-scrollbar pl-1 pb-40">
-        <div className="grid gap-1 pl-1">
+      <SidebarContent className="no-scrollbar pb-40">
+        <div className="grid gap-1">
           {categoriesToShow.map((category) => (
             <button
               key={category}
@@ -291,11 +291,11 @@ export function ShapesCategoryTabs() {
 
   return (
     <Sidebar
-      className="sticky top-36 z-30 hidden h-[calc(100svh-var(--footer-height)+2rem)] bg-transparent lg:flex"
+      className="sticky top-30 z-30 hidden h-[calc(100svh-var(--footer-height)+2rem)] bg-transparent lg:flex"
       collapsible="none"
     >
-      <SidebarContent className="no-scrollbar pl-1 pb-40">
-        <div className="grid gap-1 pl-1">
+      <SidebarContent className="no-scrollbar pb-40">
+        <div className="grid gap-1">
           {categoriesToShow.map((category) => (
             <button
               key={category}

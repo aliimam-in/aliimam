@@ -1,33 +1,68 @@
-import {
-  registryIndexSchema,
-  RegistryItem,
-  type Registry,
-} from "shadcn/registry";
+import { registryItemSchema, type Registry } from "shadcn/schema"
+import { z } from "zod"
 
-import { examples } from "@/registry/registry-examples";
-import { blocks } from "@/registry/registry-blocks";
-import { lib } from "@/registry/registry-lib";
-import { ui } from "@/registry/registry-ui";
-import { components } from "@/registry/registry-components";
+import { blocks } from "@/registry/registry-blocks"
+import { components } from "@/registry/registry-components"
+import { examples } from "@/registry/registry-examples"
+import { hooks } from "@/registry/registry-hooks"
+import { lib } from "@/registry/registry-lib"
+import { pages } from "@/registry/registry-pages"
+import { ui } from "@/registry/registry-ui"
 
-const DEPRECATED_ITEMS = [""];
+const DEPRECATED_ITEMS = [
+  "toast",
+  "toast-demo",
+  "toast-destructive",
+  "toast-simple",
+  "toast-with-action",
+  "toast-with-title",
+]
 
-const DEFAULT: RegistryItem = {
-  name: "index",
+// Shared between index and style for backward compatibility.
+const NEW_YORK_V4_STYLE = {
   type: "registry:style",
   dependencies: ["class-variance-authority", "lucide-react"],
   devDependencies: ["tw-animate-css"],
   registryDependencies: ["utils"],
   cssVars: {},
   files: [],
-};
+}
 
 export const registry = {
-  name: "aliimam",
-  homepage: "https://aliimam.in",
-  items: registryIndexSchema.parse(
-    [DEFAULT, ...ui, ...examples, ...blocks, ...components, ...lib].filter((item) => {
-      return !DEPRECATED_ITEMS.includes(item.name);
-    }),
+  name: "shadcn/ui",
+  homepage: "https://ui.shadcn.com",
+  items: z.array(registryItemSchema).parse(
+    [
+      {
+        name: "index",
+        ...NEW_YORK_V4_STYLE,
+      },
+      {
+        name: "style",
+        ...NEW_YORK_V4_STYLE,
+      },
+      ...ui,
+      ...blocks,
+      ...pages,
+      ...components,
+      ...lib,
+      ...hooks,
+      ...examples,
+    ]
+      .filter((item) => {
+        return !DEPRECATED_ITEMS.includes(item.name)
+      })
+      .map((item) => {
+        // Temporary fix for dashboard-01.
+        if (item.name === "dashboard-01") {
+          item.dependencies?.push("@tabler/icons-react")
+        }
+
+        if (item.name === "accordion" && "tailwind" in item) {
+          delete item.tailwind
+        }
+
+        return item
+      })
   ),
-} satisfies Registry;
+} satisfies Registry

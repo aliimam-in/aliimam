@@ -1,11 +1,11 @@
-import { Grid5 } from "@/src/components/common/gallery";
+import { Grid5 } from "./gallery";
 import {
   getBackgroundsNeonImages,
   getBackgroundsNoiseImages,
   getBackgroundsOilPaintImages,
   getBackgroundsSolarizeImages,
 } from "@/src/lib/cloudinary";
-import { Button } from "@/registry/default/ui/button";
+import { Button } from "@/registry/aliimam/ui/button";
 import Link from "next/link";
 
 export async function NeonBackgrounds() {

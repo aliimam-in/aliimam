@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "carousel-05",
+  "title": "Carousel",
+  "description": "Example showing a simple Carousel.",
+  "registryDependencies": [
+    "carousel"
+  ],
+  "files": [
+    {
+      "path": "examples/carousel/carousel-05.tsx",
+      "content": "import { Carousel } from \"@/registry/aliimam/components/carousel\"\n\nexport default function DemoOne() {\n  const images = [\n    {\n      src: \"https://raw.githubusercontent.com/aliimam-in/aliimam/refs/heads/main/apps/www/public/templates/ai-icons.jpg\",\n      alt: \"Icons\",\n      caption: \"AI Icons\",\n    },\n    {\n      src: \"https://raw.githubusercontent.com/aliimam-in/aliimam/refs/heads/main/apps/www/public/works/social-media-posts.jpg\",\n      alt: \"Icons\",\n      caption: \"Social Media Posts\",\n    },\n    {\n      src: \"https://raw.githubusercontent.com/aliimam-in/aliimam/refs/heads/main/apps/www/public/works/dalim.jpg\",\n      alt: \"Icons\",\n      caption: \"Dalim\",\n    },\n    {\n      src: \"https://raw.githubusercontent.com/aliimam-in/aliimam/refs/heads/main/apps/www/public/works/website-designs.jpg\",\n      alt: \"Icons\",\n      caption: \"Website Designs\",\n    },\n    {\n      src: \"https://raw.githubusercontent.com/aliimam-in/aliimam/refs/heads/main/apps/www/public/templates/ai-logos.jpg\",\n      alt: \"Icons\",\n      caption: \"AI Logos\",\n    },\n  ]\n\n  const slides = images.map((img) => (\n    <img\n      key={img.src}\n      src={img.src}\n      className=\"h-64 w-full rounded-xl object-cover\"\n      alt={img.alt}\n    />\n  ))\n  const thumbnails = images.map((img) => (\n    <img\n      key={img.src}\n      src={img.src}\n      className=\"h-full w-full object-cover\"\n      alt={img.alt}\n    />\n  ))\n  const captions = images.map((img) => img.caption)\n\n  return (\n    <div className=\"mx-auto w-full max-w-xl\">\n      <Carousel\n        slides={slides}\n        thumbnails={thumbnails}\n        thumbPosition=\"bottom\"\n        captions={captions}\n        showArrows\n        showDots\n        showCounter\n        showProgress\n        keyboardNavigation\n        lightbox\n        autoplayDelay={4000}\n      />\n    </div>\n  )\n}\n",
+      "type": "registry:example"
+    }
+  ],
+  "type": "registry:example"
+}

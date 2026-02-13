@@ -1,0 +1,257 @@
+[
+  {
+    "name": "header-01",
+    "description": "A simple header section.",
+    "categories": ["header"]
+  },
+  {
+    "name": "header-02",
+    "description": "A simple header section.",
+    "categories": ["header"]
+  },
+  {
+    "name": "header-03",
+    "description": "A simple header section.",
+    "categories": ["header"]
+  },
+  {
+    "name": "header-04",
+    "description": "A simple header section.",
+    "categories": ["header"]
+  },
+  {
+    "name": "header-05",
+    "description": "A simple header section.",
+    "categories": ["header"]
+  },
+  {
+    "name": "header-06",
+    "description": "A simple header section.",
+    "categories": ["header"]
+  },
+  {
+    "name": "hero-01",
+    "description": "A simple hero section.",
+    "categories": ["hero"]
+  },
+  {
+    "name": "hero-02",
+    "description": "A simple hero section.",
+    "categories": ["hero"]
+  },
+  {
+    "name": "hero-03",
+    "description": "A simple hero section.",
+    "categories": ["hero"]
+  },
+  {
+    "name": "hero-04",
+    "description": "A simple hero section.",
+    "categories": ["hero"]
+  },
+  {
+    "name": "hero-05",
+    "description": "A simple hero section.",
+    "categories": ["hero"]
+  },
+  {
+    "name": "hero-06",
+    "description": "A simple hero section.",
+    "categories": ["hero"]
+  },
+  {
+    "name": "hero-07",
+    "description": "A simple hero section.",
+    "categories": ["hero"]
+  },
+  {
+    "name": "hero-08",
+    "description": "A simple hero section.",
+    "categories": ["hero"]
+  },
+  {
+    "name": "hero-09",
+    "description": "A simple hero section.",
+    "categories": ["hero"]
+  },
+  {
+    "name": "hero-10",
+    "description": "A simple hero section.",
+    "categories": ["hero"]
+  },
+  {
+    "name": "hero-11",
+    "description": "A simple hero section.",
+    "categories": ["hero"]
+  },
+  {
+    "name": "feature-01",
+    "description": "A simple feature demo section.",
+    "categories": ["feature"]
+  },
+  {
+    "name": "feature-02",
+    "description": "A simple feature demo section.",
+    "categories": ["feature"]
+  },
+  {
+    "name": "footer-01",
+    "description": "A simple footer.",
+    "categories": ["footer"]
+  },
+  {
+    "name": "footer-02",
+    "description": "A simple footer.",
+    "categories": ["footer"]
+  },
+  {
+    "name": "footer-03",
+    "description": "A simple footer.",
+    "categories": ["footer"]
+  },
+  {
+    "name": "footer-04",
+    "description": "A simple footer.",
+    "categories": ["footer"]
+  },
+  {
+    "name": "footer-05",
+    "description": "A simple footer.",
+    "categories": ["footer"]
+  },
+  {
+    "name": "logos-01",
+    "description": "A simple logos section.",
+    "categories": ["logos"]
+  },
+  {
+    "name": "logos-02",
+    "description": "A simple logos section.",
+    "categories": ["logos"]
+  },
+  {
+    "name": "logos-03",
+    "description": "A simple logos section.",
+    "categories": ["logos"]
+  },
+  {
+    "name": "logos-04",
+    "description": "A simple logos section.",
+    "categories": ["logos"]
+  },
+  {
+    "name": "logos-05",
+    "description": "A simple logos section.",
+    "categories": ["logos"]
+  },
+  {
+    "name": "bento-grid-01",
+    "description": "A simple bento section.",
+    "categories": ["bento"]
+  },
+  {
+    "name": "bento-grid-02",
+    "description": "A simple bento section.",
+    "categories": ["bento"]
+  },
+  {
+    "name": "bento-grid-03",
+    "description": "A simple bento section.",
+    "categories": ["bento"]
+  },
+  {
+    "name": "bento-grid-04",
+    "description": "A simple bento section.",
+    "categories": ["bento"]
+  },
+  {
+    "name": "bento-grid-05",
+    "description": "A simple bento section.",
+    "categories": ["bento"]
+  },
+  {
+    "name": "stats-01",
+    "description": "A simple stats section.",
+    "categories": ["stats"]
+  },
+  {
+    "name": "stats-02",
+    "description": "A simple stats section.",
+    "categories": ["stats"]
+  },
+  {
+    "name": "stats-03",
+    "description": "A simple stats section.",
+    "categories": ["stats"]
+  },
+  {
+    "name": "stats-04",
+    "description": "A simple stats section.",
+    "categories": ["stats"]
+  },
+  {
+    "name": "stats-05",
+    "description": "A simple stats section.",
+    "categories": ["stats"]
+  },
+  {
+    "name": "pricing-01",
+    "description": "A simple pricing section.",
+    "categories": ["pricing"]
+  },
+  {
+    "name": "pricing-02",
+    "description": "A simple pricing section.",
+    "categories": ["pricing"]
+  },
+  {
+    "name": "login-01",
+    "description": "A simple login page.",
+    "categories": ["login"]
+  },
+  {
+    "name": "login-02",
+    "description": "A simple login page.",
+    "categories": ["login"]
+  },
+  {
+    "name": "testimonials-01",
+    "description": "A simple testimonials section.",
+    "categories": ["testimonials"]
+  },
+  {
+    "name": "faq-01",
+    "description": "A simple faq section.",
+    "categories": ["faq"]
+  },
+  {
+    "name": "faq-02",
+    "description": "A simple faq section.",
+    "categories": ["faq"]
+  },
+  {
+    "name": "faq-03",
+    "description": "A simple faq section.",
+    "categories": ["faq"]
+  },
+  {
+    "name": "faq-04",
+    "description": "A simple faq section.",
+    "categories": ["faq"]
+  },
+  {
+    "name": "faq-05",
+    "description": "A simple faq section.",
+    "categories": ["faq"]
+  },
+  {
+    "name": "home-01",
+    "description": "A simple home page.",
+    "categories": ["home"]
+  },
+  {
+    "name": "about-01",
+    "description": "A simple about page.",
+    "categories": ["about"]
+  }
+]

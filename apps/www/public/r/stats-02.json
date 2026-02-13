@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "stats-02",
+  "description": "A simple stats section.",
+  "registryDependencies": [
+    "gauge"
+  ],
+  "files": [
+    {
+      "path": "blocks/stats/stats-02/stats.tsx",
+      "content": "import { Gauge } from \"@/registry/aliimam/components/gauge\"\n\nexport default function Stats() {\n  return (\n    <div className=\"flex min-h-svh w-full flex-col items-center justify-center p-6 md:p-10\">\n      <h1 className=\"mb-10 max-w-sm text-center text-sm md:max-w-md\">\n        Ali Imam is more than just models - it powers APIs and platforms that\n        help developers and businesses innovate.\n      </h1>\n      <div className=\"grid flex-wrap justify-center gap-6 space-y-4 text-center md:flex\">\n        <div className=\"flex flex-wrap justify-center gap-6 space-y-4 text-center\">\n          <div className=\"space-y-3 px-6\">\n            <Gauge value={23} showPercentage />\n            <p>Mobile</p>\n          </div>\n          <div className=\"space-y-3 md:border-x md:px-12\">\n            <Gauge value={65} showPercentage />\n            <p>Tablet</p>\n          </div>\n          <div className=\"space-y-3 px-6\">\n            <Gauge value={91} showPercentage />\n            <p>Desktop</p>\n          </div>\n        </div>\n      </div>\n    </div>\n  )\n}\n",
+      "type": "registry:component",
+      "target": "components/stats.tsx"
+    }
+  ],
+  "meta": {
+    "iframeHeight": "500px"
+  },
+  "categories": [
+    "stats"
+  ],
+  "type": "registry:block"
+}

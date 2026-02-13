@@ -1,41 +1,42 @@
-import Link from "next/link";
-import { notFound } from "next/navigation";
-import { mdxComponents } from "@/mdx-components";
+import Link from "next/link"
+import { notFound } from "next/navigation"
+import { mdxComponents } from "@/mdx-components"
+import {
+  IconArrowLeft,
+  IconArrowRight,
+  IconArrowUpRight,
+} from "@tabler/icons-react"
+import { findNeighbour } from "fumadocs-core/server"
 
-import { findNeighbour } from "fumadocs-core/server";
+import { source } from "@/src/lib/source"
+import { absoluteUrl } from "@/src/lib/utils"
+import { DocsCopyPage } from "@/src/components/docs/docs-copy-page"
+import { DocsTableOfContents } from "@/src/components/docs/docs-toc"
+import { Badge } from "@/registry/aliimam/ui/badge"
+import { Button } from "@/registry/aliimam/ui/button"
 
-import { source } from "@/src/lib/source";
-import { absoluteUrl } from "@/src/lib/utils";
-import { DocsCopyPage } from "@/src/components/docs/docs-copy-page";
-import { DocsTableOfContents } from "@/src/components/docs/docs-toc";
-import { Badge } from "@/registry/default/ui/badge";
-import { Button } from "@/registry/default/ui/button";
-import { ArrowLeft, ArrowRight, ArrowUpRight } from "lucide-react";
-import { DocThemeSelector } from "@/src/components/docs/theme-selector";
-import { Separator } from "@/registry/default/ui/separator";
- 
-export const revalidate = false;
-export const dynamic = "force-static";
-export const dynamicParams = false;
+export const revalidate = false
+export const dynamic = "force-static"
+export const dynamicParams = false
 
 export function generateStaticParams() {
-  return source.generateParams();
+  return source.generateParams()
 }
 
 export async function generateMetadata(props: {
-  params: Promise<{ slug?: string[] }>;
+  params: Promise<{ slug?: string[] }>
 }) {
-  const params = await props.params;
-  const page = source.getPage(params.slug);
+  const params = await props.params
+  const page = source.getPage(params.slug)
 
   if (!page) {
-    notFound();
+    notFound()
   }
 
-  const doc = page.data;
+  const doc = page.data
 
   if (!doc.title || !doc.description) {
-    notFound();
+    notFound()
   }
 
   return {
@@ -65,42 +66,43 @@ export async function generateMetadata(props: {
           )}&description=${encodeURIComponent(doc.description)}`,
         },
       ],
-      creator: "@ali",
+      creator: "@aliimamio",
     },
-  };
+  }
 }
 
 export default async function Page(props: {
-  params: Promise<{ slug?: string[] }>;
+  params: Promise<{ slug?: string[] }>
 }) {
-  const params = await props.params;
-  const page = source.getPage(params.slug);
+  const params = await props.params
+  const page = source.getPage(params.slug)
   if (!page) {
-    notFound();
+    notFound()
   }
 
-  const doc = page.data;
+  const doc = page.data
   // @ts-expect-error - revisit fumadocs types.
-  const MDX = doc.body;
-  const neighbours = await findNeighbour(source.pageTree, page.url);
+  const MDX = doc.body
+  const neighbours = await findNeighbour(source.pageTree, page.url)
 
   // @ts-expect-error - revisit fumadocs types.
-  const links = doc.links;
+  const links = doc.links
 
   return (
     <div
-      data-slot="blocks"
-      className="flex relative items-stretch xl:w-full"
+      data-slot="docs"
+      className="flex items-stretch h-full xl:w-full"
     >
-      <div className="flex min-w-0 flex-1 border rounded-md flex-col"> 
-        <div className="px-6 pt-6 flex flex-1 gap-10 pb-10 min-w-0 flex-col">
+      <div className="flex min-w-0 flex-1 flex-col">
+        <div className="h-(--top-spacing) shrink-0" />
+        <div className="mx-auto flex w-full min-w-0 flex-1 flex-col gap-8 text-neutral-800 py-4 dark:text-neutral-300">
           <div className="flex flex-col gap-2">
             <div className="flex flex-col gap-2">
               <div className="flex items-start justify-between">
                 <h1 className="scroll-m-20 text-4xl font-semibold tracking-tight sm:text-3xl xl:text-4xl">
                   {doc.title}
                 </h1>
-                <div className="docs-nav border-border/50 fixed inset-x-0 bottom-0 isolate z-50 flex items-center gap-2 border-t px-6 py-4 backdrop-blur-sm sm:static sm:z-0 sm:border-t-0 sm:bg-transparent sm:px-0 sm:pt-1.5 sm:backdrop-blur-none">
+                <div className="docs-nav bg-background/80 border-border/50 fixed inset-x-0 bottom-0 isolate z-50 flex items-center gap-2 border-t px-6 py-4 backdrop-blur-sm sm:static sm:z-0 sm:border-t-0 sm:bg-transparent sm:px-0 sm:pt-1.5 sm:backdrop-blur-none">
                   <DocsCopyPage
                     // @ts-expect-error - revisit fumadocs types.
                     page={doc.content}
@@ -114,7 +116,7 @@ export default async function Page(props: {
                       asChild
                     >
                       <Link href={neighbours.previous.url}>
-                        <ArrowLeft />
+                        <IconArrowLeft />
                         <span className="sr-only">Previous</span>
                       </Link>
                     </Button>
@@ -128,7 +130,7 @@ export default async function Page(props: {
                     >
                       <Link href={neighbours.next.url}>
                         <span className="sr-only">Next</span>
-                        <ArrowRight />
+                        <IconArrowRight />
                       </Link>
                     </Button>
                   )}
@@ -143,23 +145,16 @@ export default async function Page(props: {
             {links ? (
               <div className="flex items-center space-x-2 pt-4">
                 {links?.doc && (
-                  <Badge variant="secondary">
-                    <Link className="flex" href={links.doc} target="_blank" rel="noreferrer">
-                      Docs <ArrowUpRight />
+                  <Badge asChild variant="secondary">
+                    <Link href={links.doc} target="_blank" rel="noreferrer">
+                      Docs <IconArrowUpRight />
                     </Link>
                   </Badge>
                 )}
                 {links?.api && (
-                  <Badge variant="secondary">
-                    <Link className="flex" href={links.api} target="_blank" rel="noreferrer">
-                      API Reference <ArrowUpRight />
-                    </Link>
-                  </Badge>
-                )}
-                {links?.shadcn && (
-                  <Badge variant="secondary">
-                    <Link className="flex" href={links.shadcn} target="_blank" rel="noreferrer">
-                      shadcn/ui <ArrowUpRight />
+                  <Badge asChild variant="secondary">
+                    <Link href={links.api} target="_blank" rel="noreferrer">
+                      API Reference <IconArrowUpRight />
                     </Link>
                   </Badge>
                 )}
@@ -169,47 +164,48 @@ export default async function Page(props: {
           <div className="w-full flex-1 *:data-[slot=alert]:first:mt-0">
             <MDX components={mdxComponents} />
           </div>
-          <div className="hidden mb-2 lg:mb-6 h-16 w-full items-center gap-2 px-4 sm:flex md:px-0">
-            {neighbours.previous && (
-              <Button
-                variant="secondary"
-                size="sm"
-                asChild
-                className="shadow-none"
-              >
-                <Link href={neighbours.previous.url}>
-                  <ArrowLeft /> {neighbours.previous.name}
-                </Link>
-              </Button>
-            )}
-            {neighbours.next && (
-              <Button
-                variant="secondary"
-                size="sm"
-                className="ml-auto shadow-none"
-                asChild
-              >
-                <Link href={neighbours.next.url}>
-                  {neighbours.next.name} <ArrowRight />
-                </Link>
-              </Button>
-            )}
-          </div>
+        </div>
+        <div className="mx-auto py-20 hidden h-16 w-full max-w-6xl items-center gap-2 px-4 sm:flex md:px-0">
+          {neighbours.previous && (
+            <Button
+              variant="secondary"
+              size="sm"
+              asChild
+              className="shadow-none"
+            >
+              <Link href={neighbours.previous.url}>
+                <IconArrowLeft /> {neighbours.previous.name}
+              </Link>
+            </Button>
+          )}
+          {neighbours.next && (
+            <Button
+              variant="secondary"
+              size="sm"
+              className="ml-auto shadow-none"
+              asChild
+            >
+              <Link href={neighbours.next.url}>
+                {neighbours.next.name} <IconArrowRight />
+              </Link>
+            </Button>
+          )}
         </div>
       </div>
-      <div className="sticky top-24 z-30 ml-auto hidden h-[calc(100svh-var(--footer-height)+2rem)] w-60 flex-col gap-4 overflow-hidden overscroll-none pb-8 xl:flex">
-        <DocThemeSelector className="hidden py-3 md:flex" /> 
+      <div className="sticky top-[calc(var(--header-height)+1px)] z-30 ml-auto hidden h-[calc(100svh-var(--footer-height)+2rem)] w-60 flex-col gap-4 overflow-hidden overscroll-none pb-8 xl:flex">
+        <div className="h-(--top-spacing) shrink-0" />
         {/* @ts-expect-error - revisit fumadocs types. */}
         {doc.toc?.length ? (
-          <div className="no-scrollbar overflow-y-auto px-6">
-             <Separator className="mb-6"/>
+          <div className="no-scrollbar overflow-y-auto px-8">
             {/* @ts-expect-error - revisit fumadocs types. */}
             <DocsTableOfContents toc={doc.toc} />
-            
+            <div className="h-12" />
           </div>
         ) : null}
-        <div className="flex flex-1 flex-col gap-12 px-6"></div>
+        <div className="flex flex-1 flex-col gap-12 px-6">
+          savd
+          </div>
       </div>
     </div>
-  );
+  )
 }

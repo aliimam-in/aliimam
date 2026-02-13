@@ -1,16 +1,16 @@
 "use client"
 
-import * as React from "react" 
+import * as React from "react"
+import { IconMenu3 } from "@tabler/icons-react"
 
 import { cn } from "@/src/lib/utils"
-import { Button } from "@/registry/default/ui/button"
+import { Button } from "@/registry/aliimam/ui/button"
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from "@/registry/default/ui/dropdown-menu"
-import { Menu } from "lucide-react"
+} from "@/registry/aliimam/ui/dropdown-menu"
 
 function useActiveItem(itemIds: string[]) {
   const [activeId, setActiveId] = React.useState<string | null>(null)
@@ -80,7 +80,7 @@ export function DocsTableOfContents({
             size="sm"
             className={cn("h-8 md:h-7", className)}
           >
-            <Menu /> On This Page
+            <IconMenu3 /> On This Page
           </Button>
         </DropdownMenuTrigger>
         <DropdownMenuContent
@@ -107,7 +107,7 @@ export function DocsTableOfContents({
 
   return (
     <div className={cn("flex flex-col gap-2 p-4 pt-0 text-sm", className)}>
-      <p className="text-muted-foreground sticky top-0 h-6 text-xs">
+      <p className="text-muted-foreground bg-background sticky top-0 h-6 text-xs">
         On This Page
       </p>
       {toc.map((item) => (

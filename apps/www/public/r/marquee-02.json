@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "marquee-02",
+  "title": "Marquee",
+  "description": "",
+  "registryDependencies": [
+    "marquee"
+  ],
+  "files": [
+    {
+      "path": "examples/marquee/marquee-02.tsx",
+      "content": "import {\n  ClaudeAI,\n  Cursor,\n  Github,\n  Google,\n  Grok,\n  OpenAI,\n  Replicate,\n} from \"@aliimam/logos\"\n\nimport { Marquee } from \"@/registry/aliimam/components/marquee\"\n\nexport default function DemoOne() {\n  return (\n    <div className=\"flex h-full w-full items-center justify-center overflow-hidden border\">\n      <main className=\"w-full\">\n        <Marquee gap={\"80px\"} speed={25} fade={true}>\n          <OpenAI type=\"wordmark\" size={100} />\n          <ClaudeAI type=\"wordmark\" size={100} />\n          <Replicate type=\"wordmark\" size={100} />\n          <Cursor type=\"wordmark\" size={100} />\n          <Github type=\"wordmark\" size={100} />\n          <Grok type=\"wordmark\" size={100} />\n          <Google className=\"mr-20\" type=\"wordmark\" size={100} />\n        </Marquee>\n      </main>\n    </div>\n  )\n}\n",
+      "type": "registry:example"
+    }
+  ],
+  "type": "registry:example"
+}

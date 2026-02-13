@@ -5,30 +5,37 @@ component: true
 ---
 
 <ComponentPreview
-  name="gauge-default"
-  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[80%] **:[.preview]:min-h-[400px]"
-  description="An accordion with three items"
+  name="gauge-01"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[300px]"
+  description="A customizable SVG dot pattern background."
   align="start"
 />
 
 <ComponentPreview
-  name="gauge-tickmark"
-  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[80%] **:[.preview]:min-h-[400px]"
-  description="An accordion with three items"
+  name="gauge-02"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[300px]"
+  description="A customizable SVG dot pattern background."
   align="start"
 />
 
 <ComponentPreview
-  name="gauge-rings"
-  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[80%] **:[.preview]:min-h-[400px]"
-  description="An accordion with three items"
+  name="gauge-03"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[300px]"
+  description="A customizable SVG dot pattern background."
   align="start"
 />
 
 <ComponentPreview
-  name="gauge-half"
-  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[80%] **:[.preview]:min-h-[400px]"
-  description="An accordion with three items"
+  name="gauge-04"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[300px]"
+  description="A customizable SVG dot pattern background."
+  align="start"
+/>
+
+<ComponentPreview
+  name="gauge-05"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[300px]"
+  description="A customizable SVG dot pattern background."
   align="start"
 />
 
@@ -68,18 +75,35 @@ npx shadcn@latest add https://aliimam.in/r/gauge.json
 ## Usage
 
 ```tsx showLineNumbers
-import { Gauge } from "@/components/ui/gauge"
+import { Gauge } from "@/components/gauge"
 ```
 
 ```tsx showLineNumbers
-<Awards
-  variant="award"
-  title="WINNER"
-  subtitle="A Design Award & Competetion"
-  recipient="Ali Imam"
-  date="June 2025"
-  level="gold"
-/>
+<Gauge value={63} />
 ```
 
- 
+## Props
+
+
+| Prop             | Type                                                                                     | Default     |  
+|------------------|------------------------------------------------------------------------------------------|-------------| 
+| `value`          | number                                                                                   | –           |  
+| `size`           | number \| string                                                                         | `150`       |  
+| `gapPercent`     | number                                                                                   | `5`         |  
+| `strokeWidth`    | number                                                                                   | `10`        |  
+| `equal`          | boolean                                                                                  | `false`     |  
+| `showValue`      | boolean                                                                                  | `true`      |  
+| `showPercentage` | boolean                                                                                  | `false`     |  
+| `primary`        | `"danger" \| "warning" \| "success" \| "info" \| string \| { [key: number]: string }`    | –           |  
+| `secondary`      | `"danger" \| "warning" \| "success" \| "info" \| string \| { [key: number]: string }`    | –           |   Applies a gradient fill to the primary stroke. |
+| `multiRing`      | `{ enabled: boolean; rings?: Array<{ value: number; color: string; strokeWidth?: number; opacity?: number }> }` | – |  
+| `thresholds`     | `Array<{ value: number; color: string; label?: string }>`                                | –           |  
+| `gaugeType`      | `"full" \| "half" \| "quarter"`                                                          | `"full"`    |  
+| `transition`     | `{ length?: number; step?: number; delay?: number }`                                     | `{ length: 1000, step: 200, delay: 0 }` |  
+| `className`      | string \|                                                                                | – |  
+| `label`          | string                                                                                   | –           |  
+| `unit`           | string                                                                                   | `"%"`       |  
+| `min`            | number                                                                                   | `0`         |  
+| `max`            | number                                                                                   | `100`       |  
+| `tickMarks`      | boolean                                                                                  | `false`     | 
+| `glowEffect`     | boolean                                                                                  | `false`     | 

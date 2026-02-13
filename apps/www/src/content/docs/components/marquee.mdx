@@ -10,6 +10,35 @@ component: true
   description="An accordion with three items"
   align="start"
 />
+
+<ComponentPreview
+  name="marquee-02"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[80%] **:[.preview]:min-h-[400px]"
+  description="An accordion with three items"
+  align="start"
+/>
+
+<ComponentPreview
+  name="marquee-03"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[80%] **:[.preview]:min-h-[400px]"
+  description="An accordion with three items"
+  align="start"
+/>
+
+<ComponentPreview
+  name="marquee-04"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[80%] **:[.preview]:min-h-[400px]"
+  description="An accordion with three items"
+  align="start"
+/>
+
+<ComponentPreview
+  name="marquee-05"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[80%] **:[.preview]:min-h-[400px]"
+  description="An accordion with three items"
+  align="start"
+/>
+
 ## Installation
 
 <CodeTabs>
@@ -50,10 +79,26 @@ import { Marquee } from "@/components/marquee"
 ```
 
 ```tsx showLineNumbers
-<Marquee speed="fast" pauseOnHover className="bg-gray-900 p-2 text-white">
-  <span className="px-4">🚀 Fast</span>
-  <span className="px-4">🔥 Scrolling</span>
-  <span className="px-4">🌈 Marquee</span>
+// Basic
+<Marquee>
+  <div>Item 1</div>
+  <div>Item 2</div>
+</Marquee>
+
+// With fade and custom speed
+<Marquee speed={25} fade={true} gap="20px">
+  <img src="logo1.png" />
+  <img src="logo2.png" />
+</Marquee>
+
+// Vertical with delay
+<Marquee vertical delay={2} pauseOnHover>
+  <Card>Content</Card>
+</Marquee>
+
+// Auto-fill responsive
+<Marquee autoFill speed="slow" reverse>
+  <Badge>Tag</Badge>
 </Marquee>
 ```
 
@@ -88,3 +133,14 @@ import { Marquee } from "@/components/marquee"
 }
 ```
  
+## Props
+
+| Prop           | Type                           | Default  |  
+| -------------- | ------------------------------ | -------- |  
+| `children`     | `React.ReactNode`              | —        |  
+| `className`    | `string`                       | —        |  
+| `reverse`      | `boolean`                      | `false`  |  
+| `pauseOnHover` | `boolean`                      | `false`  |  
+| `vertical`     | `boolean`                      | `false`  | 
+| `repeat`       | `number`                       | `5`      |  
+| `speed`        | `"slow" \| "normal" \| "fast"` | `normal` |  

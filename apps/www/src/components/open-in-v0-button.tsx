@@ -1,0 +1,27 @@
+import { cn } from "@/src/lib/utils"
+import { Icons } from "@/src/components/icons"
+import { Button } from "@/registry/aliimam/ui/button"
+
+export function OpenInV0Button({
+  name,
+  className,
+  ...props
+}: React.ComponentProps<typeof Button> & {
+  name: string
+}) {
+  return (
+    <Button
+      size="icon-sm"
+      asChild
+      className={cn("", className)}
+      {...props}
+    >
+      <a
+        href={`${process.env.NEXT_PUBLIC_V0_URL}/chat/api/open?url=${process.env.NEXT_PUBLIC_APP_URL}/r/${name}.json`}
+        target="_blank"
+      >
+        <Icons.v0 className="size-5" />
+      </a>
+    </Button>
+  )
+}

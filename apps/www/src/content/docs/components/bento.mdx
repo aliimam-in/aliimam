@@ -1,0 +1,97 @@
+---
+title: Bento
+description: A fully responsive, Tailwind JIT-safe Bento Grid layout system with responsive props support.
+component: true
+---
+
+<ComponentPreview
+  name="bento-01"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[300px]"
+  description="A customizable SVG dot pattern background."
+  align="start"
+/>
+
+<ComponentPreview
+  name="bento-02"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[300px]"
+  description="A customizable SVG dot pattern background."
+  align="start"
+/>
+
+<ComponentPreview
+  name="bento-03"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[300px]"
+  description="A customizable SVG dot pattern background."
+  align="start"
+/>
+
+<ComponentPreview
+  name="bento-04"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[300px]"
+  description="A customizable SVG dot pattern background."
+  align="start"
+/>
+
+<ComponentPreview
+  name="bento-05"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[300px]"
+  description="A customizable SVG dot pattern background."
+  align="start"
+/>
+
+## Installation
+
+<CodeTabs>
+
+<TabsList>
+  <TabsTrigger value="cli">CLI</TabsTrigger>
+  <TabsTrigger value="manual">Manual</TabsTrigger>
+</TabsList>
+
+<TabsContent value="cli">
+
+```bash
+npx shadcn@latest add https://aliimam.in/r/bento.json
+```
+
+</TabsContent>
+
+<TabsContent value="manual">
+
+<Steps>
+
+<Step>Copy and paste the following code into your project.</Step>
+
+<ComponentSource name="bento" title="components/ui/bento.tsx" />
+
+<Step>Update the import paths to match your project setup.</Step>
+
+</Steps>
+
+</TabsContent>
+
+</CodeTabs>
+
+## Usage
+
+```tsx showLineNumbers
+import { BentoGrid, BentoGridItem } from "@/components/ui/bento"
+```
+
+```tsx showLineNumbers
+<BentoGrid>
+  <BentoGridItem>Item 1</BentoGridItem>
+  <BentoGridItem>Item 2</BentoGridItem>
+  <BentoGridItem>Item 3</BentoGridItem>
+</BentoGrid>
+```
+
+## Props
+
+| Prop        | Type                      | Default                                     | 
+| ----------- | ------------------------- | ------------------------------------------- |  
+| `children`  | `ReactNode`               | —                                           |  
+| `className` | `string`                  | —                                           | 
+| `cols`      | `ResponsiveValue<1-8>`    | `{ base: 1, md: 3, lg: 5 }`                 |  
+| `gap`       | `ResponsiveValue<0-10>`   | `{ base: 1, md: 2, lg: 4 }`                 | 
+| `rowHeight` | `ResponsiveValue<string>` | `{ base: "60px", md: "80px", lg: "100px" }` |  

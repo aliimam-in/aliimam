@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "gauge-05",
+  "title": "Gauge",
+  "description": "",
+  "registryDependencies": [
+    "gauge"
+  ],
+  "files": [
+    {
+      "path": "examples/gauge/gauge-05.tsx",
+      "content": "\"use client\"\n\nimport { Gauge } from \"@/registry/aliimam/components/gauge\"\n\nexport default function Component() {\n  return (\n    <div className=\"flex h-full w-full items-center justify-center\">\n      <Gauge\n        value={30}\n        size={200}\n        gradient={true}\n        primary=\"warning\"\n        tickMarks={true}\n        label=\"Progress\"\n        transition={{ length: 1200, delay: 200 }}\n        showPercentage\n      />\n    </div>\n  )\n}\n",
+      "type": "registry:example"
+    }
+  ],
+  "type": "registry:example"
+}

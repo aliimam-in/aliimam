@@ -1,7 +1,6 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
   "name": "render-canvas-02",
-  "type": "registry:example",
   "title": "Render Canvas",
   "description": "Example showing a simple render canvas.",
   "registryDependencies": [
@@ -9,9 +8,10 @@
   ],
   "files": [
     {
-      "path": "registry/default/example/backgrounds/render-canvas/render-canvas-02.tsx",
-      "content": "import { RenderCanvas } from \"@/registry/default/components/render-canvas\"\n\nexport default function Component() {\n  return (\n    <main className=\"flex h-[600px] w-5xl items-center justify-center overflow-hidden rounded-md border\">\n      <RenderCanvas lineWidth={30} trails={200} />\n    </main>\n  )\n}\n",
+      "path": "examples/render-canvas/render-canvas-02.tsx",
+      "content": "import { RenderCanvas } from \"@/registry/aliimam/components/render-canvas\"\n\nexport default function Component() {\n  return (\n    <div className=\"flex h-full w-full items-center justify-center overflow-hidden border\">\n      <RenderCanvas lineWidth={30} trails={200} />\n    </div>\n  )\n}\n",
       "type": "registry:example"
     }
-  ]
+  ],
+  "type": "registry:example"
 }

@@ -2,20 +2,17 @@ import { useAtom } from "jotai"
 import { atomWithStorage } from "jotai/utils"
 
 type Config = {
-  style: "default"
+  style: "new-york-v4"
   packageManager: "npm" | "yarn" | "pnpm" | "bun"
   installationType: "cli" | "manual"
-  radius: number 
 }
 
 const configAtom = atomWithStorage<Config>("config", {
-  style: "default",
+  style: "new-york-v4",
   packageManager: "pnpm",
-  radius: 1,
   installationType: "cli",
 })
 
 export function useConfig() {
   return useAtom(configAtom)
 }
- 

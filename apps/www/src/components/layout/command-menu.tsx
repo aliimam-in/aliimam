@@ -2,18 +2,17 @@
 
 import * as React from "react"
 import { useRouter } from "next/navigation"
-import { type DialogProps } from "@radix-ui/react-dialog" 
-import { CornerDownLeftIcon,   SquareDashedIcon } from "lucide-react"
+import { type DialogProps } from "@radix-ui/react-dialog"
+import { IconArrowRight } from "@tabler/icons-react"
+import { CornerDownLeftIcon, SquareDashedIcon } from "lucide-react"
 
-import {   type ColorPalette } from "@/src/lib/colors"
-import { showMcpDocs } from "@/src/lib/flags"
 import { source } from "@/src/lib/source"
 import { cn } from "@/src/lib/utils"
 import { useConfig } from "@/src/hooks/use-config"
 import { useIsMac } from "@/src/hooks/use-is-mac"
 import { useMutationObserver } from "@/src/hooks/use-mutation-observer"
-import { copyToClipboardWithMeta } from "@/src/components/ui/copy-button"
-import { Button } from "@/registry/default/ui/button"
+import { copyToClipboardWithMeta } from "@/src/components/copy-button"
+import { Button } from "@/registry/aliimam/ui/button"
 import {
   Command,
   CommandEmpty,
@@ -21,7 +20,7 @@ import {
   CommandInput,
   CommandItem,
   CommandList,
-} from "@/registry/default/ui/command"
+} from "@/registry/aliimam/ui/command"
 import {
   Dialog,
   DialogContent,
@@ -29,20 +28,16 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@/registry/default/ui/dialog"
-import { Kbd, KbdGroup } from "@/registry/default/ui/kbd"
-import { Separator } from "@/registry/default/ui/separator"
-import { ArrowRight } from "@aliimam/icons"
+} from "@/registry/aliimam/ui/dialog"
+import { Separator } from "@/registry/aliimam/ui/separator"
 
 export function CommandMenu({
   tree,
-  colors,
   blocks,
   navItems,
   ...props
 }: DialogProps & {
   tree: typeof source.pageTree
-  colors: ColorPalette[]
   blocks?: { name: string; description: string; categories: string[] }[]
   navItems?: { href: string; label: string }[]
 }) {
@@ -51,7 +46,7 @@ export function CommandMenu({
   const [config] = useConfig()
   const [open, setOpen] = React.useState(false)
   const [selectedType, setSelectedType] = React.useState<
-    "color" | "page" | "component" | "block" | null
+    "page" | "component" | "block" | null
   >(null)
   const [copyPayload, setCopyPayload] = React.useState("")
   const packageManager = config.packageManager || "pnpm"
@@ -62,7 +57,7 @@ export function CommandMenu({
         const componentName = item.url.split("/").pop()
         setSelectedType("component")
         setCopyPayload(
-          `${packageManager} dlx shadcn@latest add ${componentName}`
+          `${packageManager} dlx @aliimam/cli@latest add ${componentName}`
         )
       } else {
         setSelectedType("page")
@@ -71,11 +66,13 @@ export function CommandMenu({
     },
     [packageManager, setSelectedType, setCopyPayload]
   )
- 
+
   const handleBlockHighlight = React.useCallback(
     (block: { name: string; description: string; categories: string[] }) => {
       setSelectedType("block")
-      setCopyPayload(`${packageManager} dlx shadcn@latest add ${block.name}`)
+      setCopyPayload(
+        `${packageManager} dlx @aliimam/cli@latest add ${block.name}`
+      )
     },
     [setSelectedType, setCopyPayload, packageManager]
   )
@@ -103,13 +100,6 @@ export function CommandMenu({
 
       if (e.key === "c" && (e.metaKey || e.ctrlKey)) {
         runCommand(() => {
-          if (selectedType === "color") {
-            copyToClipboardWithMeta(copyPayload, {
-              name: "copy_color",
-              properties: { color: copyPayload },
-            })
-          }
-
           if (selectedType === "block") {
             copyToClipboardWithMeta(copyPayload, {
               name: "copy_npm_command",
@@ -137,17 +127,16 @@ export function CommandMenu({
         <Button
           variant="secondary"
           className={cn(
-            "bg-surface text-foreground px-2 dark:bg-card relative w-fit justify-start font-medium shadow-none"
+            "bg-surface text-surface-foreground/60 dark:bg-card relative h-8 w-full justify-start pl-2.5 font-normal shadow-none sm:pr-12 md:w-40 lg:w-48 xl:w-56"
           )}
           onClick={() => setOpen(true)}
           {...props}
         >
-           
-          <div className="gap-1 flex justify-center">
-            <KbdGroup>
-              <Kbd className="border">{isMac ? "⌘" : "Ctrl"}</Kbd>
-              <Kbd className="border">K</Kbd>
-            </KbdGroup>
+          <span className="hidden lg:inline-flex">Search docs...</span>
+          <span className="inline-flex lg:hidden">Search...</span>
+          <div className="absolute top-1.5 right-1.5 hidden gap-1 sm:flex">
+            <CommandMenuKbd>{isMac ? "⌘" : "Ctrl"}</CommandMenuKbd>
+            <CommandMenuKbd className="aspect-square">K</CommandMenuKbd>
           </div>
         </Button>
       </DialogTrigger>
@@ -192,7 +181,7 @@ export function CommandMenu({
                       runCommand(() => router.push(item.href))
                     }}
                   >
-                    <ArrowRight />
+                    <IconArrowRight />
                     {item.label}
                   </CommandMenuItem>
                 ))}
@@ -208,10 +197,6 @@ export function CommandMenu({
                   group.children.map((item) => {
                     if (item.type === "page") {
                       const isComponent = item.url.includes("/components/")
-
-                      if (!showMcpDocs && item.url.includes("/mcp")) {
-                        return null
-                      }
 
                       return (
                         <CommandMenuItem
@@ -232,7 +217,7 @@ export function CommandMenu({
                           {isComponent ? (
                             <div className="border-muted-foreground aspect-square size-4 rounded-full border border-dashed" />
                           ) : (
-                            <ArrowRight />
+                            <IconArrowRight />
                           )}
                           {item.name}
                         </CommandMenuItem>
@@ -242,10 +227,10 @@ export function CommandMenu({
                   })}
               </CommandGroup>
             ))}
-             
+
             {blocks?.length ? (
               <CommandGroup
-                heading="Blocks"
+                heading="Examples"
                 className="!p-0 [&_[cmdk-group-heading]]:!p-3"
               >
                 {blocks.map((block) => (
@@ -288,7 +273,6 @@ export function CommandMenu({
             {selectedType === "page" || selectedType === "component"
               ? "Go to Page"
               : null}
-            {selectedType === "color" ? "Copy OKLCH" : null}
           </div>
           {copyPayload && (
             <>

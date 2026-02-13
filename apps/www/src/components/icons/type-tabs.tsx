@@ -1,4 +1,4 @@
-import { TabsList, TabsTrigger } from "@/registry/default/ui/tabs";
+import { TabsList, TabsTrigger } from "@/registry/aliimam/ui/tabs";
 
 export function IconsTypeTabs() {
   return (

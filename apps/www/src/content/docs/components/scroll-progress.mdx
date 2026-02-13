@@ -1,0 +1,142 @@
+---
+title: Scroll Progress
+description: A customizable scroll progress bar with gradient variants, sizes, and optional percentage display.
+component: true
+---
+
+<ComponentPreview
+  name="scroll-progress-default"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[580px]"
+  description="Animated colorful leaves with blur and circular motion."
+  align="start"
+/>
+
+## Installation
+
+<CodeTabs>
+
+<TabsList>
+  <TabsTrigger value="cli">CLI</TabsTrigger>
+  <TabsTrigger value="manual">Manual</TabsTrigger>
+</TabsList>
+
+<TabsContent value="cli">
+
+```bash
+npx shadcn@latest add https://aliimam.in/r/scroll-progress.json
+```
+
+</TabsContent>
+
+<TabsContent value="manual">
+
+<Steps>
+
+<Step>Copy and paste the following code into your project.</Step>
+
+<ComponentSource
+  name="scroll-progress"
+  title="components/ui/scroll-progress.tsx"
+/>
+
+<Step>Update the import paths to match your project setup.</Step>
+
+</Steps>
+
+</TabsContent>
+
+</CodeTabs>
+
+## Usage
+
+```tsx showLineNumbers
+import { ScrollProgress } from "@/components/ui/scroll-progress"
+```
+
+```tsx showLineNumbers  
+Basic
+<ScrollProgress />
+
+---
+
+Bottom Positioned Progress Bar
+<ScrollProgress position="bottom" />
+
+---
+
+Custom Size & Rounded Corners
+<ScrollProgress size="lg" rounded="full" />
+
+---
+
+Gradient Variants
+<ScrollProgress variant="rainbow" />
+<ScrollProgress variant="ocean" />
+<ScrollProgress variant="sunset" />
+
+---
+
+With Glow Effect
+<ScrollProgress variant="neon" glow="lg" />
+
+---
+
+Show Scroll Percentage
+<ScrollProgress showPercentage />
+
+---
+
+Centered Percentage Indicator
+<ScrollProgress
+  showPercentage
+  percentagePosition="center"
+/>
+
+---
+
+Custom Gradient
+<ScrollProgress
+  variant="custom"
+  customGradient="bg-gradient-to-r from-fuchsia-500 via-violet-500 to-cyan-500"
+/>
+
+---
+
+Custom Spring Animation
+<ScrollProgress
+  springConfig={{
+    stiffness: 120,
+    damping: 20,
+  }}
+/>
+
+---
+
+Scroll Tracking Inside a Container
+const ref = useRef<HTMLDivElement>(null)
+
+return (
+  <div ref={ref} className="h-[400px] overflow-y-auto">
+    <ScrollProgress container={ref} />
+    {/* scrollable content */}
+  </div>
+) 
+```
+
+## Props
+
+### ScrollProgress Props
+
+| Prop                 | Type                                                                                                                                      | Default                                             |  
+| -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- |  
+| `variant`            | `"default" \| "rainbow" \| "ocean" \| "sunset" \| "forest" \| "monochrome" \| "neon" \| "fire" \| "ice" \| "gold" \| "solid" \| "custom"` | `"default"`                                         |  
+| `size`               | `"xs" \| "sm" \| "default" \| "lg" \| "xl" \| "2xl"`                                                                                      | `"default"`                                         |  
+| `position`           | `"top" \| "bottom"`                                                                                                                       | `"top"`                                             |  
+| `rounded`            | `"none" \| "sm" \| "default" \| "lg" \| "xl" \| "full"`                                                                                   | `"none"`                                            |  
+| `glow`               | `"none" \| "sm" \| "default" \| "lg" \| "xl"`                                                                                             | `"none"`                                            | 
+| `className`          | `string`                                                                                                                                  | `undefined`                                         |  
+| `customGradient`     | `string`                                                                                                                                  | `undefined`                                         |  
+| `springConfig`       | `{ stiffness?: number; damping?: number; restDelta?: number }`                                                                            | `{ stiffness: 200, damping: 50, restDelta: 0.001 }` | 
+| `showPercentage`     | `boolean`                                                                                                                                 | `false`                                             |  
+| `percentagePosition` | `"left" \| "right" \| "center"`                                                                                                           | `"right"`                                           |  
+| `container`          | `React.RefObject<HTMLElement>`                                                                                                            | `undefined`                                         |  

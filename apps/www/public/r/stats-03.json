@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "stats-03",
+  "description": "A simple stats section.",
+  "registryDependencies": [
+    "counter-number"
+  ],
+  "files": [
+    {
+      "path": "blocks/stats/stats-03/stats.tsx",
+      "content": "import { CounterNumber } from \"@/registry/aliimam/components/counter-number\"\n\nexport default function Stats() {\n  return (\n    <div className=\"flex min-h-svh w-full flex-col items-center justify-center p-6 md:p-10\">\n      <h1 className=\"mb-10 max-w-sm text-center text-sm md:max-w-md\">\n        Ali Imam Studio crafts premium digital experiences.\n      </h1>\n\n      <div className=\"grid flex-wrap justify-center gap-3 space-y-4 text-center md:flex\">\n        <div className=\"bg-primary/10 h-40 space-y-3 rounded-md p-10\">\n          <CounterNumber\n            className=\"text-primary\"\n            prefix=\"+\"\n            value={350}\n            size=\"xl\"\n          />\n          <p>Design Systems Built</p>\n        </div>\n\n        <div className=\"bg-primary/10 h-40 space-y-3 rounded-md p-10\">\n          <CounterNumber\n            className=\"text-primary\"\n            value={1.8}\n            suffix=\"M$\"\n            size=\"xl\"\n          />\n          <p>Monthly Interactions</p>\n        </div>\n\n        <div className=\"bg-primary/10 h-40 space-y-3 rounded-md p-10\">\n          <CounterNumber\n            className=\"text-primary\"\n            prefix=\"+\"\n            value={120}\n            size=\"xl\"\n          />\n          <p>Daily Global Clients</p>\n        </div>\n      </div>\n    </div>\n  )\n}\n",
+      "type": "registry:component",
+      "target": "components/stats.tsx"
+    }
+  ],
+  "meta": {
+    "iframeHeight": "500px"
+  },
+  "categories": [
+    "stats"
+  ],
+  "type": "registry:block"
+}

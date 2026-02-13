@@ -1,26 +1,32 @@
-import { BlockDisplay } from "@/src/components/docs/blocks/block-display";
+import { SheetContent } from "@/registry/aliimam/ui/sheet"
+import { BlockDisplay } from "@/src/components/docs/block-display"
+import { BlockToc } from "@/src/components/docs/block-viewer"
 
-const FEATURED_BLOCKS = [ 
-  "hero-01", 
-  "header-05", 
-  "logos-01",
-  "connect-01",  
-  "hero-05",  
-];
+export const dynamic = "force-static"
+export const revalidate = false
 
-export default function BlocksPage() {
+const FEATURED_BLOCKS = [
+  "bento-grid-02",
+  "header-01",
+  "hero-09",
+  "logos-02",
+  "feature-01",
+  "pricing-01",
+  "faq-01",
+  "footer-02",
+]
+
+export default async function BlocksPage() {
   return (
-    <div
-      data-slot="blocks"
-      className="flex relative pt-3 items-stretch text-[1.05rem] sm:text-[15px] xl:w-full"
-    >
-      <div className="flex min-w-0 py-6 flex-1 flex-col"> 
-        <div className="px-6 flex flex-1 gap-10 pb-10 md:gap-20 min-w-0 flex-col"> 
-          {FEATURED_BLOCKS.map((name) => (
-            <BlockDisplay name={name} key={name} />
-          ))}
-        </div>
+    <div className="flex relative justify-center items-stretch xl:w-full">
+      <div className="flex min-w-0 w-full flex-col gap-12 md:gap-24">
+        {FEATURED_BLOCKS.map((name) => (
+          <BlockDisplay name={name} key={name} />
+        ))}
       </div>
+      <SheetContent className="w-60 pt-6">
+        <BlockToc blocks={FEATURED_BLOCKS} />
+      </SheetContent>
     </div>
-  );
+  )
 }

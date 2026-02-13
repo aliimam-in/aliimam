@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "carousel-03",
+  "title": "Carousel",
+  "description": "Example showing a simple Carousel.",
+  "registryDependencies": [
+    "carousel"
+  ],
+  "files": [
+    {
+      "path": "examples/carousel/carousel-03.tsx",
+      "content": "import { Carousel } from \"@/registry/aliimam/components/carousel\"\n\nexport default function DemoOne() {\n  const images = [\n    {\n      src: \"https://raw.githubusercontent.com/aliimam-in/aliimam/refs/heads/main/apps/www/public/templates/ai-icons.jpg\",\n      alt: \"Icons\",\n    },\n    {\n      src: \"https://raw.githubusercontent.com/aliimam-in/aliimam/refs/heads/main/apps/www/public/works/social-media-posts.jpg\",\n      alt: \"Icons\",\n    },\n    {\n      src: \"https://raw.githubusercontent.com/aliimam-in/aliimam/refs/heads/main/apps/www/public/works/dalim.jpg\",\n      alt: \"Icons\",\n    },\n    {\n      src: \"https://raw.githubusercontent.com/aliimam-in/aliimam/refs/heads/main/apps/www/public/works/website-designs.jpg\",\n      alt: \"Icons\",\n    },\n    {\n      src: \"https://raw.githubusercontent.com/aliimam-in/aliimam/refs/heads/main/apps/www/public/templates/ai-logos.jpg\",\n      alt: \"Icons\",\n    },\n  ]\n  const slides = images.map((img) => (\n    <img\n      key={img.src}\n      src={img.src}\n      className=\"h-full w-full rounded-xl\"\n      alt={img.alt}\n    />\n  ))\n  const thumbnails = images.map((img) => (\n    <img key={img.src} src={img.src} className=\"h-full w-full\" alt={img.alt} />\n  ))\n\n  return (\n    <div className=\"mx-auto flex h-full w-full max-w-2xl items-center justify-center\">\n      <Carousel\n        slides={slides}\n        thumbnails={thumbnails}\n        thumbPosition=\"left\"\n        showDots={false}\n        showPlay={false}\n        showProgress={false}\n      />\n    </div>\n  )\n}\n",
+      "type": "registry:example"
+    }
+  ],
+  "type": "registry:example"
+}

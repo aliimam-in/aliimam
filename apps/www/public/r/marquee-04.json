@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "marquee-04",
+  "title": "Marquee",
+  "description": "",
+  "registryDependencies": [
+    "marquee"
+  ],
+  "files": [
+    {
+      "path": "examples/marquee/marquee-04.tsx",
+      "content": "import { Marquee } from \"@/registry/aliimam/components/marquee\"\nimport { Badge } from \"@/components/ui/badge\"\n\nconst technologies = [\n  { name: \"React\", color: \"bg-blue-500\" },\n  { name: \"Next.js\", color: \"bg-black\" },\n  { name: \"TypeScript\", color: \"bg-blue-600\" },\n  { name: \"Tailwind CSS\", color: \"bg-cyan-500\" },\n  { name: \"Framer Motion\", color: \"bg-pink-500\" },\n  { name: \"Radix UI\", color: \"bg-green-500\" },\n  { name: \"Lucide Icons\", color: \"bg-orange-500\" },\n  { name: \"shadcn/ui\", color: \"bg-purple-500\" },\n]\n\nexport default function DemoOne() {\n  return (\n    <div className=\"flex h-full w-full items-center justify-center overflow-hidden border\">\n      <main className=\"\">\n        <Marquee autoFill speed=\"fast\" pauseOnHover reverse>\n          {technologies.map((tech, index) => (\n            <Badge\n              key={index}\n              className={`${tech.color} px-4 py-2 text-white last:mr-2`}\n            >\n              {tech.name}\n            </Badge>\n          ))}\n        </Marquee>\n      </main>\n    </div>\n  )\n}\n",
+      "type": "registry:example"
+    }
+  ],
+  "type": "registry:example"
+}

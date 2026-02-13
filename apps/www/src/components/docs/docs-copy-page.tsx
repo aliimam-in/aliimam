@@ -1,27 +1,29 @@
-"use client";
+"use client"
 
-import { useCopyToClipboard } from "@/src/hooks/use-copy-to-clipboard";
-import { Button } from "@/registry/default/ui/button";
+import { IconCheck, IconChevronDown, IconCopy } from "@tabler/icons-react"
+
+import { useCopyToClipboard } from "@/src/hooks/use-copy-to-clipboard"
+import { Button } from "@/registry/aliimam/ui/button"
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from "@/registry/default/ui/dropdown-menu";
+} from "@/registry/aliimam/ui/dropdown-menu"
 import {
   Popover,
+  PopoverAnchor,
   PopoverContent,
   PopoverTrigger,
-} from "@/registry/default/ui/popover";
-import { Separator } from "@/registry/default/ui/separator";
-import { Check, ChevronDown, Copy } from "lucide-react";
+} from "@/registry/aliimam/ui/popover"
+import { Separator } from "@/registry/aliimam/ui/separator"
 
 function getPromptUrl(baseURL: string, url: string) {
   return `${baseURL}?q=${encodeURIComponent(
-    `I’m looking at this dalim/ui documentation: ${url}.
-    Help me understand how to use it. Be ready to explain concepts, give examples, or help debug based on it.
+    `I’m looking at this shadcn/ui documentation: ${url}.
+Help me understand how to use it. Be ready to explain concepts, give examples, or help debug based on it.
   `
-  )}`;
+  )}`
 }
 
 const menuItems = {
@@ -85,10 +87,10 @@ const menuItems = {
       Open in Claude
     </a>
   ),
-};
+}
 
 export function DocsCopyPage({ page, url }: { page: string; url: string }) {
-  const { copyToClipboard, isCopied } = useCopyToClipboard();
+  const { copyToClipboard, isCopied } = useCopyToClipboard()
 
   const trigger = (
     <Button
@@ -96,20 +98,21 @@ export function DocsCopyPage({ page, url }: { page: string; url: string }) {
       size="sm"
       className="peer -ml-0.5 size-8 shadow-none md:size-7 md:text-[0.8rem]"
     >
-      <ChevronDown className="rotate-180 sm:rotate-0" />
+      <IconChevronDown className="rotate-180 sm:rotate-0" />
     </Button>
-  );
+  )
 
   return (
     <Popover>
       <div className="bg-secondary group/buttons relative flex rounded-lg *:[[data-slot=button]]:focus-visible:relative *:[[data-slot=button]]:focus-visible:z-10">
+        <PopoverAnchor />
         <Button
           variant="secondary"
           size="sm"
           className="h-8 shadow-none md:h-7 md:text-[0.8rem]"
           onClick={() => copyToClipboard(page)}
         >
-          {isCopied ? <Check /> : <Copy />}
+          {isCopied ? <IconCheck /> : <IconCopy />}
           Copy Page
         </Button>
         <DropdownMenu>
@@ -149,5 +152,5 @@ export function DocsCopyPage({ page, url }: { page: string; url: string }) {
         </PopoverContent>
       </div>
     </Popover>
-  );
+  )
 }

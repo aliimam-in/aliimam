@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "stats-04",
+  "description": "A simple stats section.",
+  "registryDependencies": [
+    "counter-number"
+  ],
+  "files": [
+    {
+      "path": "blocks/stats/stats-04/stats.tsx",
+      "content": "import { CounterNumber } from \"@/registry/aliimam/components/counter-number\"\n\nexport default function Stats() {\n  return (\n    <div className=\"flex min-h-svh w-full flex-col items-center justify-center\">\n      <h1 className=\"mb-10 max-w-sm text-center text-sm md:max-w-md\">\n        Trusted by fast-growing teams worldwide — our platform powers\n        high-performance applications at scale.\n      </h1>\n\n      <div className=\"grid w-full max-w-5xl flex-wrap justify-center gap-3 md:grid-cols-3\">\n        <div className=\"h-40 space-y-3 rounded-md border p-10\">\n          <CounterNumber\n            className=\"text-primary\"\n            prefix=\"+\"\n            value={120}\n            size=\"xl\"\n          />\n          <p>Enterprise Clients</p>\n        </div>\n\n        <div className=\"h-40 space-y-3 rounded-md border p-10\">\n          <CounterNumber\n            className=\"text-primary\"\n            value={1.5}\n            suffix=\"B\"\n            size=\"xl\"\n          />\n          <p>API Calls Processed</p>\n        </div>\n\n        <div className=\"h-40 space-y-3 rounded-md border p-10\">\n          <CounterNumber\n            className=\"text-primary\"\n            value={43}\n            suffix=\"%\"\n            size=\"xl\"\n          />\n          <p>Average Growth Increase</p>\n        </div>\n\n        <div className=\"h-40 space-y-3 rounded-md border p-10\">\n          <CounterNumber\n            className=\"text-primary\"\n            value={7}\n            suffix=\"yrs\"\n            size=\"xl\"\n          />\n          <p>Industry Experience</p>\n        </div>\n\n        <div className=\"h-40 space-y-3 rounded-md border p-10\">\n          <CounterNumber\n            className=\"text-primary\"\n            prefix=\"+\"\n            value={320}\n            size=\"xl\"\n          />\n          <p>Projects Delivered</p>\n        </div>\n\n        <div className=\"h-40 space-y-3 rounded-md border p-10\">\n          <CounterNumber\n            className=\"text-primary\"\n            value={99.8}\n            suffix=\"%\"\n            size=\"xl\"\n          />\n          <p>Platform Uptime</p>\n        </div>\n      </div>\n    </div>\n  )\n}\n",
+      "type": "registry:component",
+      "target": "components/stats.tsx"
+    }
+  ],
+  "meta": {
+    "iframeHeight": "500px"
+  },
+  "categories": [
+    "stats"
+  ],
+  "type": "registry:block"
+}
