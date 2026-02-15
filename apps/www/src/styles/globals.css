@@ -492,3 +492,70 @@
     transform: translate3d(100%, 0, 0);
   }
 }
+
+@property --glow-angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
+
+@keyframes glow-angle-rotate {
+  to {
+    --glow-angle: 1turn;
+  }
+}
+
+.glow-border {
+  border-image: var(--glow-gradient) var(--glow-spread, 1);
+  animation: glow-angle-rotate var(--glow-animation-duration, 4s)
+    linear infinite;
+  animation-direction: var(--glow-direction, normal);
+}
+
+.glow-border[data-gradient-type='conic'] {
+  --glow-gradient: conic-gradient(
+    from var(--glow-angle),
+    var(--glow-color-1),
+    var(--glow-color-2),
+    var(--glow-color-3),
+    var(--glow-color-4),
+    var(--glow-color-5),
+    var(--glow-color-6),
+    var(--glow-color-7),
+    var(--glow-color-8),
+    var(--glow-color-9),
+    var(--glow-color-10),
+    var(--glow-color-1)
+  );
+}
+
+.glow-border[data-gradient-type='radial'] {
+  --glow-gradient: radial-gradient(
+    circle,
+    var(--glow-color-1),
+    var(--glow-color-5),
+    var(--glow-color-9)
+  );
+}
+
+.glow-border[data-gradient-type='linear'] {
+  --glow-gradient: linear-gradient(
+    90deg,
+    var(--glow-color-1),
+    var(--glow-color-2),
+    var(--glow-color-3),
+    var(--glow-color-4),
+    var(--glow-color-5),
+    var(--glow-color-6),
+    var(--glow-color-7),
+    var(--glow-color-8),
+    var(--glow-color-9),
+    var(--glow-color-10)
+  );
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .glow-border {
+    animation: none;
+  }
+}

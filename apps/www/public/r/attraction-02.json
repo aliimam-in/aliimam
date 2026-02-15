@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "attraction-02",
+  "title": "Attraction Demo",
+  "description": "Example showing a physics attraction demo.",
+  "registryDependencies": [
+    "attraction"
+  ],
+  "files": [
+    {
+      "path": "examples/attraction/attraction-02.tsx",
+      "content": "\"use client\"\n\nimport { useRef } from \"react\"\n\nimport {\n  Attraction,\n  AttractionRef,\n} from \"@/registry/aliimam/components/attraction\"\nimport { Button } from \"@/components/ui/button\"\n\nexport default function AttractionDemo() {\n  const skills = [\n    { label: \"REACT\", color: \"from-cyan-400 to-blue-500\" },\n    { label: \"NEXT.JS\", color: \"from-neutral-700 to-black\" },\n    { label: \"NODE\", color: \"from-green-400 to-emerald-600\" },\n    { label: \"TYPESCRIPT\", color: \"from-blue-500 to-indigo-600\" },\n    { label: \"JAVASCRIPT\", color: \"from-yellow-400 to-amber-500\" },\n    { label: \"THREE.JS\", color: \"from-purple-500 to-violet-600\" },\n    { label: \"RUST\", color: \"from-orange-500 to-red-500\" },\n    { label: \"CSS\", color: \"from-sky-400 to-blue-600\" },\n    { label: \"TAILWIND\", color: \"from-teal-400 to-cyan-500\" },\n    { label: \"FRAMER\", color: \"from-pink-500 to-rose-500\" },\n    { label: \"MOTION\", color: \"from-fuchsia-500 to-purple-600\" },\n    { label: \"UX\", color: \"from-indigo-400 to-blue-500\" },\n    { label: \"UI\", color: \"from-violet-400 to-purple-500\" },\n    { label: \"API\", color: \"from-lime-400 to-green-500\" },\n    { label: \"GRAPHQL\", color: \"from-pink-400 to-red-500\" },\n    { label: \"DESIGN\", color: \"from-rose-400 to-pink-600\" },\n    { label: \"GIT\", color: \"from-orange-400 to-red-600\" },\n    { label: \"DOCKER\", color: \"from-blue-400 to-sky-600\" },\n  ]\n\n  const physicsRef = useRef<AttractionRef>(null)\n\n  return (\n    <div className=\"relative mx-auto flex h-full w-full max-w-4xl items-center justify-center overflow-hidden border\">\n      <Button\n        size=\"lg\"\n        className=\"absolute top-6 z-20\"\n        onClick={() => physicsRef.current?.shake(0.9)}\n      >\n        Shake Skills 🚀\n      </Button>\n\n      <Attraction\n        ref={physicsRef}\n        gravity={{ x: 0, y: 0.05 }}\n        restitution={0.1}\n        friction={0.8}\n      >\n        {skills.map(({ label, color }) => (\n          <div\n            key={label}\n            className={`bg-linear-to-r ${color} px-6 py-2 text-sm font-semibold tracking-wide text-white`}\n          >\n            {label}\n          </div>\n        ))}\n      </Attraction>\n    </div>\n  )\n}\n",
+      "type": "registry:example"
+    }
+  ],
+  "type": "registry:example"
+}

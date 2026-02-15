@@ -27,7 +27,9 @@ const EXCLUDED_SECTIONS = ["installation", "dark-mode", "(root)"]
 const EXCLUDED_PAGES: string[] = []
 
 const NEW_COMPONENTS = [  
+  "components/attraction.mdx",
   "components/bento.mdx",
+  "components/border-glow.mdx",
   "components/counter-number.mdx",
   "components/typewriter.mdx",
 ]

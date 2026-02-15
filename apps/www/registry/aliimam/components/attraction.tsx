@@ -1,523 +1,425 @@
 //@ts-nocheck
 "use client"
 
-import {
-  createContext,
+import React, {
   forwardRef,
-  ReactNode,
-  useCallback,
-  useContext,
   useEffect,
   useImperativeHandle,
   useRef,
-  useState,
 } from "react"
-import { cn } from "@/src/lib/utils"
 import { debounce } from "lodash"
-import Matter, {
+import {
   Bodies,
-  Common,
+  Body,
   Engine,
   Events,
   Mouse,
   MouseConstraint,
-  Query,
   Render,
   Runner,
   World,
 } from "matter-js"
-import SVGPathCommander from "svg-path-commander"
 
-// Function to convert SVG path "d" to vertices
-function parsePathToVertices(path: string, sampleLength = 15) {
-  const commander = new SVGPathCommander(path)
-  const points: { x: number; y: number }[] = []
-  let lastPoint: { x: number; y: number } | null = null
-  const totalLength = commander.getTotalLength()
-  let length = 0
+import { cn } from "@/registry/aliimam/lib/utils"
 
-  while (length < totalLength) {
-    const point = commander.getPointAtLength(length)
-    if (!lastPoint || point.x !== lastPoint.x || point.y !== lastPoint.y) {
-      points.push({ x: point.x, y: point.y })
-      lastPoint = point
-    }
-    length += sampleLength
-  }
+// ─── Types ────────────────────────────────────────────────────────────────────
 
-  const finalPoint = commander.getPointAtLength(totalLength)
-  if (
-    lastPoint &&
-    (finalPoint.x !== lastPoint.x || finalPoint.y !== lastPoint.y)
-  ) {
-    points.push({ x: finalPoint.x, y: finalPoint.y })
-  }
-
-  return points
+export type AttractionRef = {
+  /** Resume the runner. */
+  start: () => void
+  /** Pause the runner. */
+  stop: () => void
+  /** Tear down and re-initialise everything from scratch. */
+  reset: () => void
+  /** Apply an impulse (force) to every non-static body. */
+  shake: (force?: number) => void
 }
 
-function calculatePosition(
-  value: number | string | undefined,
-  containerSize: number,
-  elementSize: number
-) {
-  if (typeof value === "string" && value.endsWith("%")) {
-    const percentage = parseFloat(value) / 100
-    return containerSize * percentage
-  }
-  return typeof value === "number"
-    ? value
-    : elementSize - containerSize + elementSize / 2
+export type CollisionEvent = {
+  /** The two DOM elements whose physics bodies collided. */
+  elements: [HTMLElement, HTMLElement]
+  /** Raw Matter.js collision pair. */
+  pair: Matter.ICollisionPair
 }
 
 type AttractionProps = {
-  children: ReactNode
-  debug?: boolean
+  children: React.ReactNode
+
+  // ── Gravity ──────────────────────────────────────────────────────────────
+  /** Gravity vector applied to all bodies. Default: `{ x: 0, y: 1 }` */
   gravity?: { x: number; y: number }
-  resetOnResize?: boolean
-  grabCursor?: boolean
-  addTopWall?: boolean
+  /**
+   * Multiplier applied on top of `gravity`.
+   * Useful for a quick "moon mode" (`0.1`) or "heavy" feel (`2`).
+   * Default: `1`
+   */
+  gravityScale?: number
+
+  // ── Engine ────────────────────────────────────────────────────────────────
+  /**
+   * Speed multiplier for the physics simulation.
+   * `1` = real-time, `0.5` = half speed, `2` = double speed.
+   * Default: `1`
+   */
+  timeScale?: number
+  /**
+   * Allow bodies to enter a sleep state when they stop moving.
+   * Reduces CPU usage for complex scenes.
+   * Default: `false`
+   */
+  enableSleep?: boolean
+  /**
+   * Whether to start the simulation immediately on mount.
+   * Set to `false` if you want to call `ref.start()` manually.
+   * Default: `true`
+   */
   autoStart?: boolean
+
+  // ── Default body properties (overridable per-item via data-* attributes) ──
+  /**
+   * Sliding friction applied to all bodies (0 = ice, 1 = no slide).
+   * Can be overridden per item with `data-friction`.
+   * Default: `0.2`
+   */
+  friction?: number
+  /**
+   * Air resistance / drag applied to all bodies (0 = none, 1 = heavy).
+   * Can be overridden per item with `data-friction-air`.
+   * Default: `0.01`
+   */
+  frictionAir?: number
+  /**
+   * Bounciness of all bodies (0 = no bounce, 1 = perfectly elastic).
+   * Can be overridden per item with `data-restitution`.
+   * Default: `0.5`
+   */
+  restitution?: number
+
+  // ── Interaction ───────────────────────────────────────────────────────────
+  /**
+   * Allow the user to drag bodies with the mouse / touch.
+   * On mobile this is always disabled to avoid fighting with scroll.
+   * Default: `true`
+   */
+  draggable?: boolean
+  /**
+   * Stiffness of the mouse spring when dragging (0–1).
+   * Lower values feel floatier; higher values feel snappier.
+   * Default: `0.2`
+   */
+  dragStiffness?: number
+
+  // ── Callbacks ─────────────────────────────────────────────────────────────
+  /** Called once the engine and all bodies are ready. */
+  onReady?: () => void
+  /** Called on every collision between two tracked elements. */
+  onCollision?: (event: CollisionEvent) => void
+
   className?: string
 }
 
-type PhysicsBody = {
-  element: HTMLElement
-  body: Matter.Body
-  props: MatterBodyProps
-}
+// ─── Component ────────────────────────────────────────────────────────────────
 
-type MatterBodyProps = {
-  children: ReactNode
-  matterBodyOptions?: Matter.IBodyDefinition
-  isDraggable?: boolean
-  bodyType?: "rectangle" | "circle" | "svg"
-  sampleLength?: number
-  x?: number | string
-  y?: number | string
-  angle?: number
-  className?: string
-}
-
-export type AttractionRef = {
-  start: () => void
-  stop: () => void
-  reset: () => void
-}
-
-const AttractionContext = createContext<{
-  registerElement: (
-    id: string,
-    element: HTMLElement,
-    props: MatterBodyProps
-  ) => void
-  unregisterElement: (id: string) => void
-} | null>(null)
-
-const MatterBody = ({
-  children,
-  className,
-  matterBodyOptions = {
-    friction: 0.1,
-    restitution: 0.1,
-    density: 0.001,
-    isStatic: false,
-  },
-  bodyType = "rectangle",
-  isDraggable = true,
-  sampleLength = 15,
-  x = 0,
-  y = 0,
-  angle = 0,
-  ...props
-}: MatterBodyProps) => {
-  const elementRef = useRef<HTMLDivElement>(null)
-  const idRef = useRef(Math.random().toString(36).substring(7))
-  const context = useContext(AttractionContext)
-
-  useEffect(() => {
-    if (!elementRef.current || !context) return
-    context.registerElement(idRef.current, elementRef.current, {
-      children,
-      matterBodyOptions,
-      bodyType,
-      sampleLength,
-      isDraggable,
-      x,
-      y,
-      angle,
-      ...props,
-    })
-
-    return () => context.unregisterElement(idRef.current)
-  }, [props, children, matterBodyOptions, isDraggable])
-
-  return (
-    <div
-      ref={elementRef}
-      className={cn(
-        "absolute",
-        className,
-        isDraggable && "pointer-events-none"
-      )}
-    >
-      {children}
-    </div>
-  )
-}
-
-const Attraction = forwardRef<AttractionRef, AttractionProps>(
+const Attraction = forwardRef<PhysicsRef, PhysicsProps>(
   (
     {
       children,
-      debug = false,
       gravity = { x: 0, y: 1 },
-      grabCursor = true,
-      resetOnResize = true,
-      addTopWall = true,
+      gravityScale = 1,
+      timeScale = 1,
+      enableSleep = false,
       autoStart = true,
+      friction = 1,
+      frictionAir = 0.01,
+      restitution = 0.5,
+      draggable = true,
+      dragStiffness = 0.5,
+      onReady,
+      onCollision,
       className,
-      ...props
     },
     ref
   ) => {
-    const canvas = useRef<HTMLDivElement>(null)
+    const containerRef = useRef<HTMLDivElement>(null)
     const engine = useRef(Engine.create())
-    const render = useRef<Render | null>(null)
     const runner = useRef<Runner | null>(null)
-    const bodiesMap = useRef(new Map<string, PhysicsBody>())
-    const frameId = useRef<number | null>(null)
-    const mouseConstraint = useRef<Matter.MouseConstraint | null>(null)
-    const mouseDown = useRef(false)
-    const [canvasSize, setCanvasSize] = useState({ width: 0, height: 0 })
-    const isRunning = useRef(false)
+    const render = useRef<Render | null>(null)
+    const bodies = useRef<{ el: HTMLElement; body: Matter.Body }[]>([])
+    const animationFrame = useRef<number | null>(null)
 
-    const registerElement = useCallback(
-      (id: string, element: HTMLElement, props: MatterBodyProps) => {
-        if (!canvas.current) return
-        const width = element.offsetWidth
-        const height = element.offsetHeight
-        const canvasRect = canvas.current!.getBoundingClientRect()
-        const angle = (props.angle || 0) * (Math.PI / 180)
-        const x = calculatePosition(props.x, canvasRect.width, width)
-        const y = calculatePosition(props.y, canvasRect.height, height)
+    // Keep a ref to latest callbacks so the stable `init` closure can read them
+    const onReadyRef = useRef(onReady)
+    const onCollisionRef = useRef(onCollision)
+    useEffect(() => {
+      onReadyRef.current = onReady
+    }, [onReady])
+    useEffect(() => {
+      onCollisionRef.current = onCollision
+    }, [onCollision])
 
-        let body
-        if (props.bodyType === "circle") {
-          const radius = Math.max(width, height) / 2
-          body = Bodies.circle(x, y, radius, {
-            ...props.matterBodyOptions,
-            angle: angle,
-            render: {
-              fillStyle: debug ? "#888888" : "#00000000",
-              strokeStyle: debug ? "#333333" : "#00000000",
-              lineWidth: debug ? 3 : 0,
-            },
-          })
-        } else if (props.bodyType === "svg") {
-          const paths = element.querySelectorAll("path")
-          const vertexSets: Matter.Vector[][] = []
-          paths.forEach((path) => {
-            const d = path.getAttribute("d")
-            const p = parsePathToVertices(d!, props.sampleLength)
-            vertexSets.push(p)
-          })
-          body = Bodies.fromVertices(x, y, vertexSets, {
-            ...props.matterBodyOptions,
-            angle: angle,
-            render: {
-              fillStyle: debug ? "#888888" : "#00000000",
-              strokeStyle: debug ? "#333333" : "#00000000",
-              lineWidth: debug ? 3 : 0,
-            },
-          })
-        } else {
-          body = Bodies.rectangle(x, y, width, height, {
-            ...props.matterBodyOptions,
-            angle: angle,
-            render: {
-              fillStyle: debug ? "#888888" : "#00000000",
-              strokeStyle: debug ? "#333333" : "#00000000",
-              lineWidth: debug ? 3 : 0,
-            },
-          })
-        }
+    // ── Helpers ──────────────────────────────────────────────────────────────
 
-        if (body) {
-          World.add(engine.current.world, [body])
-          bodiesMap.current.set(id, { element, body, props })
-        }
-      },
-      [debug]
-    )
+    /** Read a data-* attribute and fall back to a default value. */
+    const dataNum = (
+      el: HTMLElement,
+      key: string,
+      fallback: number
+    ): number => {
+      const v = (el as HTMLElement).dataset[key]
+      return v !== undefined ? parseFloat(v) : fallback
+    }
 
-    const unregisterElement = useCallback((id: string) => {
-      const body = bodiesMap.current.get(id)
-      if (body) {
-        World.remove(engine.current.world, body.body)
-        bodiesMap.current.delete(id)
-      }
-    }, [])
+    /** Parse a position string like "50%" or "120" relative to a container size. */
+    const parsePos = (value: string | undefined, size: number): number => {
+      if (!value) return Math.random() * size
+      if (value.includes("%")) return (parseFloat(value) / 100) * size
+      return parseFloat(value)
+    }
 
-    const updateElements = useCallback(() => {
-      bodiesMap.current.forEach(({ element, body }) => {
-        const { x, y } = body.position
-        const rotation = body.angle * (180 / Math.PI)
-        element.style.transform = `translate(${
-          x - element.offsetWidth / 2
-        }px, ${y - element.offsetHeight / 2}px) rotate(${rotation}deg)`
-      })
-      frameId.current = requestAnimationFrame(updateElements)
-    }, [])
+    // ── Init / Clear ─────────────────────────────────────────────────────────
 
-    const initializeRenderer = useCallback(() => {
-      if (!canvas.current) return
-      const height = canvas.current.offsetHeight
-      const width = canvas.current.offsetWidth
-      Common.setDecomp(require("poly-decomp"))
-      engine.current.gravity.x = gravity.x
-      engine.current.gravity.y = gravity.y
+    const init = () => {
+      if (!containerRef.current) return
+
+      const width = containerRef.current.offsetWidth
+      const height = containerRef.current.offsetHeight
+
+      // ── Engine settings ───────────────────────────────────────────────────
+      engine.current.gravity.x = gravity.x * gravityScale
+      engine.current.gravity.y = gravity.y * gravityScale
+      engine.current.timing.timeScale = timeScale
+      engine.current.enableSleeping = enableSleep
+
+      // ── Renderer (invisible – only used for the mouse constraint hook) ─────
       render.current = Render.create({
-        element: canvas.current,
+        element: containerRef.current,
         engine: engine.current,
         options: {
           width,
           height,
           wireframes: false,
-          background: "#00000000",
+          background: "transparent",
         },
       })
+      // Canvas should never block scroll / pointer events on child elements
+      render.current.canvas.style.pointerEvents = "none"
+      render.current.canvas.style.display = "none"
 
-      const mouse = Mouse.create(render.current.canvas)
-      mouseConstraint.current = MouseConstraint.create(engine.current, {
-        mouse: mouse,
+      // ── Mouse constraint ──────────────────────────────────────────────────
+      const isMobile = window.innerWidth < 768
+      const mouse = Mouse.create(containerRef.current)
+      const mouseConstraint = MouseConstraint.create(engine.current, {
+        mouse,
         constraint: {
-          stiffness: 0.2,
-          render: {
-            visible: debug,
-          },
+          // Disable drag on mobile (or when `draggable` is false)
+          stiffness: !draggable || isMobile ? 0 : dragStiffness,
+          render: { visible: false },
         },
       })
+      World.add(engine.current.world, mouseConstraint)
 
-      const preventScroll = (e: WheelEvent) => {
-        if (mouseConstraint.current) {
-          mouseConstraint.current.mouse.element.removeEventListener(
-            "wheel",
-            mouseConstraint.current.mouse.mousewheel
-          )
-        }
-      }
-      canvas.current.addEventListener("wheel", preventScroll)
-
+      // ── Walls ─────────────────────────────────────────────────────────────
       const walls = [
-        Bodies.rectangle(width / 2, height + 10, width, 20, {
+        Bodies.rectangle(width / 2, height + 20, width, 40, { isStatic: true }),
+        Bodies.rectangle(width + 20, height / 2, 40, height, {
           isStatic: true,
-          friction: 1,
-          render: { visible: debug },
         }),
-        Bodies.rectangle(width + 10, height / 2, 20, height, {
-          isStatic: true,
-          friction: 1,
-          render: { visible: debug },
-        }),
-        Bodies.rectangle(-10, height / 2, 20, height, {
-          isStatic: true,
-          friction: 1,
-          render: { visible: debug },
-        }),
+        Bodies.rectangle(-20, height / 2, 40, height, { isStatic: true }),
+        Bodies.rectangle(width / 2, -20, width, 40, { isStatic: true }),
       ]
+      World.add(engine.current.world, walls)
 
-      const topWall = addTopWall
-        ? Bodies.rectangle(width / 2, -10, width, 20, {
-            isStatic: true,
-            friction: 1,
-            render: { visible: debug },
+      // ── Bodies ────────────────────────────────────────────────────────────
+      const items = containerRef.current.querySelectorAll<HTMLElement>(
+        "[data-physics-item]"
+      )
+      const containerRect = containerRef.current.getBoundingClientRect()
+
+      items.forEach((el) => {
+        const rect = el.getBoundingClientRect()
+
+        const x = parsePos(el.dataset.x, containerRect.width)
+        const y = parsePos(el.dataset.y, containerRect.height)
+        const angle = el.dataset.angle
+          ? (parseFloat(el.dataset.angle) * Math.PI) / 180
+          : 0
+
+        // Per-item property overrides via data-* attributes
+        const bodyFriction = dataNum(el, "friction", friction)
+        const bodyFrictionAir = dataNum(el, "frictionAir", frictionAir)
+        const bodyRestitution = dataNum(el, "restitution", restitution)
+        const bodyMass = el.dataset.mass
+          ? parseFloat(el.dataset.mass)
+          : undefined
+        const isStatic = el.dataset.static === "true"
+
+        // Shape: "circle" uses radius from the smaller dimension; default is rectangle
+        const shape = el.dataset.shape ?? "rectangle"
+
+        let body: Matter.Body
+
+        if (shape === "circle") {
+          const radius = Math.min(rect.width, rect.height) / 2
+          body = Bodies.circle(x, y, radius, {
+            friction: bodyFriction,
+            frictionAir: bodyFrictionAir,
+            restitution: bodyRestitution,
+            isStatic,
+            angle,
           })
-        : null
+        } else {
+          body = Bodies.rectangle(x, y, rect.width, rect.height, {
+            friction: bodyFriction,
+            frictionAir: bodyFrictionAir,
+            restitution: bodyRestitution,
+            isStatic,
+            angle,
+          })
+        }
 
-      if (topWall) {
-        walls.push(topWall)
-      }
+        if (bodyMass !== undefined) Body.setMass(body, bodyMass)
 
-      const touchingMouse = () =>
-        Query.point(
-          engine.current.world.bodies,
-          mouseConstraint.current?.mouse.position || { x: 0, y: 0 }
-        ).length > 0
+        World.add(engine.current.world, body)
+        bodies.current.push({ el, body })
+      })
 
-      if (grabCursor) {
-        Events.on(engine.current, "beforeUpdate", () => {
-          if (canvas.current) {
-            if (!mouseDown.current && !touchingMouse()) {
-              canvas.current.style.cursor = "default"
-            } else if (touchingMouse()) {
-              canvas.current.style.cursor = mouseDown.current
-                ? "grabbing"
-                : "grab"
+      // ── Collision events ──────────────────────────────────────────────────
+      if (onCollisionRef.current) {
+        Events.on(engine.current, "collisionStart", (event) => {
+          if (!onCollisionRef.current) return
+          event.pairs.forEach((pair) => {
+            const a = bodies.current.find((b) => b.body === pair.bodyA)
+            const b = bodies.current.find((b) => b.body === pair.bodyB)
+            if (a && b) {
+              onCollisionRef.current({
+                elements: [a.el, b.el],
+                pair,
+              })
             }
-          }
-        })
-
-        canvas.current.addEventListener("mousedown", () => {
-          mouseDown.current = true
-          if (canvas.current) {
-            if (touchingMouse()) {
-              canvas.current.style.cursor = "grabbing"
-            } else {
-              canvas.current.style.cursor = "default"
-            }
-          }
-        })
-
-        canvas.current.addEventListener("mouseup", () => {
-          mouseDown.current = false
-          if (canvas.current) {
-            if (touchingMouse()) {
-              canvas.current.style.cursor = "grab"
-            } else {
-              canvas.current.style.cursor = "default"
-            }
-          }
+          })
         })
       }
 
-      World.add(engine.current.world, [mouseConstraint.current, ...walls])
-      render.current.mouse = mouse
+      // ── Runner + render loop ──────────────────────────────────────────────
       runner.current = Runner.create()
-      Render.run(render.current)
-      updateElements()
-      runner.current.enabled = false
       if (autoStart) {
-        runner.current.enabled = true
-        startEngine()
+        Runner.run(runner.current, engine.current)
+        Render.run(render.current)
       }
 
-      return () => {
-        canvas.current?.removeEventListener("wheel", preventScroll)
+      const update = () => {
+        bodies.current.forEach(({ el, body }) => {
+          const { x, y } = body.position
+          const rotation = body.angle * (180 / Math.PI)
+          el.style.transform = `translate(${x - el.offsetWidth / 2}px, ${
+            y - el.offsetHeight / 2
+          }px) rotate(${rotation}deg)`
+        })
+        animationFrame.current = requestAnimationFrame(update)
       }
-    }, [updateElements, debug, autoStart])
+      update()
 
-    const clearRenderer = useCallback(() => {
-      if (frameId.current) {
-        cancelAnimationFrame(frameId.current)
-      }
-      if (mouseConstraint.current) {
-        World.remove(engine.current.world, mouseConstraint.current)
-      }
+      onReadyRef.current?.()
+    }
+
+    const clear = () => {
+      if (animationFrame.current) cancelAnimationFrame(animationFrame.current)
+      if (runner.current) Runner.stop(runner.current)
       if (render.current) {
-        Mouse.clearSourceEvents(render.current.mouse)
         Render.stop(render.current)
         render.current.canvas.remove()
       }
-      if (runner.current) {
-        Runner.stop(runner.current)
-      }
-      if (engine.current) {
-        World.clear(engine.current.world, false)
-        Engine.clear(engine.current)
-      }
-      bodiesMap.current.clear()
-    }, [])
+      Events.off(engine.current, "collisionStart")
+      World.clear(engine.current.world, false)
+      Engine.clear(engine.current)
+      bodies.current = []
+    }
 
-    const handleResize = useCallback(() => {
-      if (!canvas.current || !resetOnResize) return
-      const newWidth = canvas.current.offsetWidth
-      const newHeight = canvas.current.offsetHeight
-      setCanvasSize({ width: newWidth, height: newHeight })
-      clearRenderer()
-      initializeRenderer()
-    }, [clearRenderer, initializeRenderer, resetOnResize])
+    // ── Imperative handle ────────────────────────────────────────────────────
 
-    const startEngine = useCallback(() => {
-      if (runner.current) {
-        runner.current.enabled = true
-        Runner.run(runner.current, engine.current)
-      }
-      if (render.current) {
-        Render.run(render.current)
-      }
-      frameId.current = requestAnimationFrame(updateElements)
-      isRunning.current = true
-    }, [updateElements, canvasSize])
+    useImperativeHandle(ref, () => ({
+      start: () => {
+        if (runner.current) Runner.run(runner.current, engine.current)
+        if (render.current) Render.run(render.current)
+      },
+      stop: () => {
+        if (runner.current) Runner.stop(runner.current)
+      },
+      reset: () => {
+        clear()
+        init()
+      },
+      shake: (force = 0.05) => {
+        bodies.current.forEach(({ body }) => {
+          if (body.isStatic) return
+          Body.applyForce(body, body.position, {
+            x: (Math.random() - 0.5) * force,
+            y: (Math.random() - 0.5) * force,
+          })
+        })
+      },
+    }))
 
-    const stopEngine = useCallback(() => {
-      if (!isRunning.current) return
-      if (runner.current) {
-        Runner.stop(runner.current)
-      }
-      if (render.current) {
-        Render.stop(render.current)
-      }
-      if (frameId.current) {
-        cancelAnimationFrame(frameId.current)
-      }
-      isRunning.current = false
-    }, [])
-
-    const reset = useCallback(() => {
-      stopEngine()
-      bodiesMap.current.forEach(({ element, body, props }) => {
-        body.angle = props.angle || 0
-        const x = calculatePosition(
-          props.x,
-          canvasSize.width,
-          element.offsetWidth
-        )
-        const y = calculatePosition(
-          props.y,
-          canvasSize.height,
-          element.offsetHeight
-        )
-        body.position.x = x
-        body.position.y = y
-      })
-      updateElements()
-      handleResize()
-    }, [updateElements, handleResize, stopEngine, canvasSize])
-
-    useImperativeHandle(
-      ref,
-      () => ({
-        start: startEngine,
-        stop: stopEngine,
-        reset,
-      }),
-      [startEngine, stopEngine, reset]
-    )
+    // ── Lifecycle ────────────────────────────────────────────────────────────
 
     useEffect(() => {
-      if (!resetOnResize) return
-      const debouncedResize = debounce(handleResize, 500)
-      window.addEventListener("resize", debouncedResize)
+      init()
+
+      const handleResize = debounce(() => {
+        clear()
+        init()
+      }, 400)
+
+      window.addEventListener("resize", handleResize)
       return () => {
-        window.removeEventListener("resize", debouncedResize)
-        debouncedResize.cancel()
+        window.removeEventListener("resize", handleResize)
+        clear()
       }
-    }, [handleResize, resetOnResize])
+      // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [])
+
+    // ── Live prop sync (no full re-init needed) ───────────────────────────────
 
     useEffect(() => {
-      const cleanup = initializeRenderer()
-      return () => {
-        clearRenderer()
-        if (cleanup) cleanup()
-      }
-    }, [initializeRenderer, clearRenderer])
+      engine.current.gravity.x = gravity.x * gravityScale
+      engine.current.gravity.y = gravity.y * gravityScale
+    }, [gravity.x, gravity.y, gravityScale])
+
+    useEffect(() => {
+      engine.current.timing.timeScale = timeScale
+    }, [timeScale])
+
+    useEffect(() => {
+      engine.current.enableSleeping = enableSleep
+    }, [enableSleep])
+
+    // ── Render ───────────────────────────────────────────────────────────────
 
     return (
-      <AttractionContext.Provider
-        value={{ registerElement, unregisterElement }}
+      <div
+        ref={containerRef}
+        className={cn(
+          "pointer-events-none absolute inset-0 select-none",
+          className
+        )}
       >
-        <div
-          ref={canvas}
-          className={cn(className, "absolute top-0 h-full w-full")}
-          {...props}
-        >
-          {children}
-        </div>
-      </AttractionContext.Provider>
+        {React.Children.map(children, (child) =>
+          React.isValidElement(child) ? (
+            <div
+              data-physics-item
+              className="pointer-events-auto absolute cursor-grab"
+            >
+              {child}
+            </div>
+          ) : (
+            child
+          )
+        )}
+      </div>
     )
   }
 )
 
 Attraction.displayName = "Attraction"
-export { Attraction, MatterBody }
+export { Attraction }
+export type { AttractionProps }

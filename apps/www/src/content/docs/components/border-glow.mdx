@@ -1,0 +1,183 @@
+---
+title: Border Glow
+description: Animated gradient border wrapper with glow effects and multiple presets.
+component: true
+---
+
+<ComponentPreview
+  name="border-glow-01"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[300px]"
+  description="A customizable SVG dot pattern background."
+  align="start"
+/>
+
+<ComponentPreview
+  name="border-glow-02"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[300px]"
+  description="A customizable SVG dot pattern background."
+  align="start"
+/>
+
+<ComponentPreview
+  name="border-glow-03"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[300px]"
+  description="A customizable SVG dot pattern background."
+  align="start"
+/>
+
+<ComponentPreview
+  name="border-glow-04"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[300px]"
+  description="A customizable SVG dot pattern background."
+  align="start"
+/>
+
+<ComponentPreview
+  name="border-glow-05"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[300px]"
+  description="A customizable SVG dot pattern background."
+  align="start"
+/>
+
+## Installation
+
+<CodeTabs>
+
+<TabsList>
+  <TabsTrigger value="cli">CLI</TabsTrigger>
+  <TabsTrigger value="manual">Manual</TabsTrigger>
+</TabsList>
+
+<TabsContent value="cli">
+
+```bash
+npx shadcn@latest add https://aliimam.in/r/border-glow.json
+```
+
+</TabsContent>
+
+<TabsContent value="manual">
+
+<Steps>
+
+<Step>Copy and paste the following code into your project.</Step>
+
+<ComponentSource name="border-glow" title="components/ui/border-glow.tsx" />
+
+<Step>Update the import paths to match your project setup.</Step>
+
+</Steps>
+
+</TabsContent>
+
+</CodeTabs>
+
+## Usage
+
+```tsx showLineNumbers
+import { border-glowGrid, border-glowGridItem } from "@/components/ui/border-glow"
+```
+
+```tsx showLineNumbers
+<border-glowGrid>
+  <border-glowGridItem>Item 1</border-glowGridItem>
+  <border-glowGridItem>Item 2</border-glowGridItem>
+  <border-glowGridItem>Item 3</border-glowGridItem>
+</border-glowGrid>
+```
+
+## CSS
+
+```tsx showLineNumbers
+
+@property --glow-angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
+
+@keyframes glow-angle-rotate {
+  to {
+    --glow-angle: 1turn;
+  }
+}
+
+.glow-border {
+  border-image: var(--glow-gradient) var(--glow-spread, 1);
+  animation: glow-angle-rotate var(--glow-animation-duration, 4s)
+    linear infinite;
+  animation-direction: var(--glow-direction, normal);
+}
+
+.glow-border[data-gradient-type='conic'] {
+  --glow-gradient: conic-gradient(
+    from var(--glow-angle),
+    var(--glow-color-1),
+    var(--glow-color-2),
+    var(--glow-color-3),
+    var(--glow-color-4),
+    var(--glow-color-5),
+    var(--glow-color-6),
+    var(--glow-color-7),
+    var(--glow-color-8),
+    var(--glow-color-9),
+    var(--glow-color-10),
+    var(--glow-color-1)
+  );
+}
+
+.glow-border[data-gradient-type='radial'] {
+  --glow-gradient: radial-gradient(
+    circle,
+    var(--glow-color-1),
+    var(--glow-color-5),
+    var(--glow-color-9)
+  );
+}
+
+.glow-border[data-gradient-type='linear'] {
+  --glow-gradient: linear-gradient(
+    90deg,
+    var(--glow-color-1),
+    var(--glow-color-2),
+    var(--glow-color-3),
+    var(--glow-color-4),
+    var(--glow-color-5),
+    var(--glow-color-6),
+    var(--glow-color-7),
+    var(--glow-color-8),
+    var(--glow-color-9),
+    var(--glow-color-10)
+  );
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .glow-border {
+    animation: none;
+  }
+}
+
+```
+
+## Props
+
+| Prop                | Type                              | Default     | Description                               |
+| ------------------- | --------------------------------- | ----------- | ----------------------------------------- |
+| `children`          | `React.ReactNode`                 | —           | Content inside the glow wrapper           |
+| `width`             | `string`                          | `"100%"`    | CSS width value                           |
+| `height`            | `string`                          | `undefined` | CSS height value                          |
+| `aspectRatio`       | `string`                          | `undefined` | CSS aspect-ratio value                    |
+| `animationDuration` | `number`                          | `4`         | Duration of rotation animation in seconds |
+| `rotationDirection` | `"normal" \| "reverse"`           | `"normal"`  | Rotation direction                        |
+| `paused`            | `boolean`                         | `false`     | Pauses animation                          |
+| `hoverOnly`         | `boolean`                         | `false`     | Animates only on hover                    |
+| `gradientType`      | `"conic" \| "radial" \| "linear"` | `"conic"`   | Type of gradient used                     |
+| `gradientColors`    | `string[]`                        | `undefined` | Custom color array (overrides preset)     |
+| `colorPreset`       | Preset name                       | `"custom"`  | Built-in gradient preset                  |
+| `glowIntensity`     | `number`                          | `1`         | Controls glow opacity                     |
+| `borderWidth`       | `string`                          | `"1.25em"`  | Border thickness                          |
+| `blurAmount`        | `string`                          | `"0.75em"`  | Blur intensity                            |
+| `inset`             | `string`                          | `"-1em"`    | Position offset of glow                   |
+| `glowSpread`        | `string`                          | `"1"`       | Border-image slice value                  |
+| `innerGlow`         | `boolean`                         | `false`     | Makes glow render inside container        |
+| `backgroundColor`   | `string`                          | `undefined` | Custom background color                   |

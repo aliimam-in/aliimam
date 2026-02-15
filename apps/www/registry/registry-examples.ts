@@ -87,6 +87,71 @@ export const examples: Registry["items"] = [
     ],
   },
   {
+    name: "attraction-01",
+    type: "registry:example",
+    title: "Attraction Demo",
+    description: "Example showing a physics attraction demo.",
+    registryDependencies: ["attraction"],
+    files: [
+      {
+        path: "examples/attraction/attraction-01.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    name: "attraction-02",
+    type: "registry:example",
+    title: "Attraction Demo",
+    description: "Example showing a physics attraction demo.",
+    registryDependencies: ["attraction"],
+    files: [
+      {
+        path: "examples/attraction/attraction-02.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    name: "attraction-03",
+    type: "registry:example",
+    title: "Attraction Demo",
+    description: "Example showing a physics attraction demo.",
+    registryDependencies: ["attraction"],
+    files: [
+      {
+        path: "examples/attraction/attraction-03.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    name: "attraction-04",
+    type: "registry:example",
+    title: "Attraction Demo",
+    description: "Example showing a physics attraction demo.",
+    registryDependencies: ["attraction"],
+    files: [
+      {
+        path: "examples/attraction/attraction-04.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    name: "attraction-05",
+    type: "registry:example",
+    title: "Attraction Demo",
+    description: "Example showing a physics attraction demo.",
+    registryDependencies: ["attraction"],
+    files: [
+      {
+        path: "examples/attraction/attraction-05.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
     name: "bento-01",
     type: "registry:example",
     title: "Bento Demo",
@@ -251,6 +316,71 @@ export const examples: Registry["items"] = [
     files: [
       {
         path: "examples/button/button-08.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    name: "border-glow-01",
+    type: "registry:example",
+    title: "Border Glow Demo",
+    description: "Example showing a simple border glow.",
+    registryDependencies: ["border-glow"],
+    files: [
+      {
+        path: "examples/border-glow/border-glow-01.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    name: "border-glow-02",
+    type: "registry:example",
+    title: "Border Glow Demo",
+    description: "Example showing a simple border glow.",
+    registryDependencies: ["border-glow"],
+    files: [
+      {
+        path: "examples/border-glow/border-glow-02.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    name: "border-glow-03",
+    type: "registry:example",
+    title: "Border Glow Demo",
+    description: "Example showing a simple border glow.",
+    registryDependencies: ["border-glow"],
+    files: [
+      {
+        path: "examples/border-glow/border-glow-03.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    name: "border-glow-04",
+    type: "registry:example",
+    title: "Border Glow Demo",
+    description: "Example showing a simple border glow.",
+    registryDependencies: ["border-glow"],
+    files: [
+      {
+        path: "examples/border-glow/border-glow-04.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    name: "border-glow-05",
+    type: "registry:example",
+    title: "Border Glow Demo",
+    description: "Example showing a simple border glow.",
+    registryDependencies: ["border-glow"],
+    files: [
+      {
+        path: "examples/border-glow/border-glow-05.tsx",
         type: "registry:example",
       },
     ],

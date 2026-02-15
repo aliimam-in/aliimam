@@ -22,6 +22,16 @@ export const components: Registry["items"] = [
     ],
   },
   {
+    name: "border-glow",
+    type: "registry:component",
+    files: [
+      {
+        path: "components/border-glow.tsx",
+        type: "registry:component",
+      },
+    ],
+  },
+  {
     name: "counter-number",
     type: "registry:component",
     files: [

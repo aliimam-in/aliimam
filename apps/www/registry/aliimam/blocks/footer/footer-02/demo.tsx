@@ -89,10 +89,10 @@ export default function Footer() {
       <div className="relative mx-auto grid max-w-7xl items-center justify-center gap-6 p-10 pb-0 md:flex">
         <Link href="/">
           <p className="flex items-center justify-center rounded-full">
-            <Apple className="w-8" />
+            <Apple className="text-primary w-8" />
           </p>
         </Link>
-        <p className="text-center text-xs leading-4 md:text-left">
+        <p className="text-muted-foreground text-center text-xs leading-4 md:text-left">
           Welcome to Designali, where creativity meets strategy to bring your
           vision to life. I am passionate about transforming ideas into
           compelling visual experiences. I specialize in crafting unique brand

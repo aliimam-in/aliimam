@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "border-glow-04",
+  "title": "Border Glow Demo",
+  "description": "Example showing a simple border glow.",
+  "registryDependencies": [
+    "border-glow"
+  ],
+  "files": [
+    {
+      "path": "examples/border-glow/border-glow-04.tsx",
+      "content": "import { BorderGlow } from \"@/registry/aliimam/components/border-glow\"\n\nexport default function BorderGlowExample() {\n  return (\n    <div className=\"flex h-full w-full items-center justify-center gap-3\">\n      <BorderGlow height=\"300px\" gradientType=\"radial\" colorPreset=\"cyberpunk\">\n        <div className=\"flex h-full items-center justify-center\">\n          Radial Type\n        </div>\n      </BorderGlow>\n      <BorderGlow height=\"300px\" blurAmount=\"3rem\">\n        <div className=\"flex h-full items-center justify-center\">Full Glow</div>\n      </BorderGlow>\n      <BorderGlow height=\"300px\" rotationDirection=\"reverse\">\n        <div className=\"flex h-full items-center justify-center\">\n          Reverse Rotation\n        </div>\n      </BorderGlow>\n    </div>\n  )\n}\n",
+      "type": "registry:example"
+    }
+  ],
+  "type": "registry:example"
+}

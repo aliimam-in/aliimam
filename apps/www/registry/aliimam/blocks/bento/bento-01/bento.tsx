@@ -9,7 +9,7 @@ import {
   Replicate,
 } from "@aliimam/logos"
 
-import { ChartPie } from "@/registry/aliimam/blocks/bento/bento-01/chart-pie"
+import { EmptyAvatarGroup } from "@/registry/aliimam/blocks/bento/bento-01/empty-avatar"
 import { FieldHear } from "@/registry/aliimam/blocks/bento/bento-01/hear"
 import { BentoGrid, BentoGridItem } from "@/registry/aliimam/components/bento"
 import { DotPattern } from "@/registry/aliimam/components/dot-pattern"
@@ -95,8 +95,8 @@ export default function BentoExample() {
           <FieldHear />
         </BentoGridItem>
 
-        <BentoGridItem>
-          <ChartPie />
+        <BentoGridItem className="flex h-full flex-col items-center justify-center">
+          <EmptyAvatarGroup />
         </BentoGridItem>
 
         <BentoGridItem

@@ -120,6 +120,11 @@
     "categories": ["footer"]
   },
   {
+    "name": "footer-06",
+    "description": "A simple footer.",
+    "categories": ["footer"]
+  },
+  {
     "name": "logos-01",
     "description": "A simple logos section.",
     "categories": ["logos"]
@@ -205,6 +210,11 @@
     "categories": ["pricing"]
   },
   {
+    "name": "pricing-03",
+    "description": "A simple pricing section.",
+    "categories": ["pricing"]
+  },
+  {
     "name": "login-01",
     "description": "A simple login page.",
     "categories": ["login"]
@@ -225,6 +235,11 @@
     "categories": ["faq"]
   },
   {
+    "name": "faq-02",
+    "description": "A simple faq section.",
+    "categories": ["faq"]
+  },
+  {
     "name": "home-01",
     "description": "A simple home page.",
     "categories": ["home"]
@@ -233,5 +248,10 @@
     "name": "about-01",
     "description": "A simple about page.",
     "categories": ["about"]
+  },
+  {
+    "name": "landing-01",
+    "description": "A simple landing page.",
+    "categories": ["landing"]
   }
 ]

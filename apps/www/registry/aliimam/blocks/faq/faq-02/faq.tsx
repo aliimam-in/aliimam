@@ -7,102 +7,79 @@ import {
   AccordionTrigger,
 } from "@/registry/aliimam/ui/accordion"
 
-export default function FAQs() {
-  const faqItems = [
-    {
-      id: "item-1",
-      question: "How fast will I receive my designs?",
-      answer:
-        "Most design requests are completed within 24–48 hours. Larger or more complex requests may take longer, but I provide daily progress updates so you always know what’s happening.",
-    },
-    {
-      id: "item-2",
-      question: "Who will be working on my designs?",
-      answer:
-        "You’ll work directly with me, Ali — the founder and sole designer. I don’t outsource or use a team, so every design is personally crafted with full attention.",
-    },
-    {
-      id: "item-3",
-      question: "What type of design work do you offer?",
-      answer:
-        "I work across all kinds of design, including branding, UI/UX, social media creatives, marketing designs, and website visuals.",
-    },
-    {
-      id: "item-4",
-      question: "Is there a limit to how many requests I can make?",
-      answer:
-        "There’s no limit on total requests. Depending on your plan, I work on a fixed number of active requests at a time. Once one is done, the next begins.",
-    },
-    {
-      id: "item-5",
-      question: "Do you offer unlimited revisions?",
-      answer:
-        "Yes. Unlimited revisions are included. I’ll keep refining the design until you’re fully satisfied.",
-    },
-    {
-      id: "item-6",
-      question: "How do you handle large or complex projects?",
-      answer:
-        "Large projects are broken into smaller tasks or phases to ensure quality, clarity, and timely delivery.",
-    },
-    {
-      id: "item-7",
-      question: "How will I receive updates on my work?",
-      answer:
-        "I share daily updates on what was completed that day, so you’re always aware of progress.",
-    },
-    {
-      id: "item-8",
-      question: "How do we communicate?",
-      answer:
-        "For smooth and fast communication, I’m available on WhatsApp. Other tools can also be used if preferred.",
-    },
-    {
-      id: "item-9",
-      question: "How do I submit design requests?",
-      answer:
-        "You can submit requests through WhatsApp, Figma, Google Docs, Notion, Trello, or Loom — whatever is easiest for you.",
-    },
-    {
-      id: "item-10",
-      question: "What if I don’t like the design?",
-      answer:
-        "That’s completely fine. We’ll revise it until it matches your vision. Feedback is a core part of the process.",
-    },
-  ]
+interface FAQItem {
+  question: string
+  answer: string
+}
 
+const faqData: FAQItem[] = [
+  {
+    question: "What is Brillance and who is it for?",
+    answer:
+      "Brillance is a modern design-driven platform built for teams that care about clarity, consistency, and scalable systems. It’s ideal for startups, product teams, and agencies looking to create cohesive digital experiences.",
+  },
+  {
+    question: "How does Brillance improve my design workflow?",
+    answer:
+      "Brillance helps you build structured layouts, reusable components, and consistent visual patterns. From typography to spacing systems, everything is designed to reduce friction and increase creative velocity.",
+  },
+  {
+    question: "Can Brillance fit into my existing design system?",
+    answer:
+      "Yes. Brillance is built to be flexible and token-based, allowing you to integrate your brand colors, typography scales, and spacing rules seamlessly into your existing workflow.",
+  },
+  {
+    question: "Is it suitable for large teams?",
+    answer:
+      "Absolutely. Brillance supports scalable architecture and consistent component patterns, making collaboration between designers and developers smooth and predictable.",
+  },
+  {
+    question: "Does Brillance support responsive design?",
+    answer:
+      "Yes. Every component is built with responsiveness in mind, ensuring your layouts adapt beautifully across desktop, tablet, and mobile devices.",
+  },
+  {
+    question: "How do I get started?",
+    answer:
+      "Start by integrating the core components into your project, customize your design tokens, and build your first layout. Brillance is structured to help you move from idea to interface quickly and confidently.",
+  },
+]
+
+export default function FAQs() {
   return (
-    <section className="relative container flex items-center justify-center">
-      <div className="border">
-        <div className="mx-auto max-w-5xl">
-          <Accordion
-            type="single"
-            collapsible
-            className="-mb-1"
-            defaultValue="item-1"
-          >
-            {faqItems.map((item) => (
+    <div className="container h-screen overflow-auto py-20">
+      <div className="mx-auto flex max-w-5xl flex-1 flex-col gap-6 lg:flex-row">
+        <div className="flex w-full flex-col gap-4 lg:flex-1 lg:py-5">
+          <h2 className="text-4xl leading-tight font-semibold tracking-tight">
+            Frequently Asked Questions
+          </h2>
+          <p className="text-muted-foreground text-base leading-7">
+            Explore your data, build your dashboard,
+            <br className="hidden md:block" />
+            bring your team together.
+          </p>
+        </div>
+
+        <div className="w-full lg:flex-1">
+          <Accordion type="single" className="w-full">
+            {faqData.map((item, index) => (
               <AccordionItem
-                key={item.id}
-                value={item.id}
-                className="space-y-1 border-none"
+                key={index}
+                value={`item-${index}`}
+                className="border-b"
               >
-                <AccordionTrigger className="group flex w-full justify-end py-0 hover:no-underline [&_svg]:hidden">
-                  <div className="bg-primary text-primary-foreground max-w-[80%] cursor-pointer px-4 py-3 text-left text-base transition">
-                    {item.question}
-                  </div>
+                <AccordionTrigger className="p-5 text-left text-base font-medium hover:no-underline">
+                  {item.question}
                 </AccordionTrigger>
 
-                <AccordionContent className="flex justify-start">
-                  <div className="bg-muted text-muted-foreground max-w-[80%] px-4 py-3 text-base">
-                    {item.answer}
-                  </div>
+                <AccordionContent className="p-5 text-sm leading-6">
+                  {item.answer}
                 </AccordionContent>
               </AccordionItem>
             ))}
           </Accordion>
         </div>
       </div>
-    </section>
+    </div>
   )
 }

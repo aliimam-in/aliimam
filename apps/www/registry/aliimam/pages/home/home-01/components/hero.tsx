@@ -11,6 +11,18 @@ export function Hero() {
     <div className="mx-auto flex max-w-6xl flex-col items-center justify-center px-4 pt-10 text-center lg:px-0">
       <div className="relative grid w-full grid-cols-10 border-0 border-b md:border">
         <div
+          className="absolute inset-0"
+          style={{
+            background:
+              "radial-gradient(80% 100% at 0% 100%, #f97316 50%, #3b82f6 100%)",
+            WebkitMaskImage:
+              "linear-gradient(to top, black 0%, transparent 60%)",
+            maskImage: "linear-gradient(to top, black 0%, transparent 60%)",
+            WebkitMaskRepeat: "no-repeat",
+            maskRepeat: "no-repeat",
+          }}
+        />
+        <div
           className="absolute inset-0 -z-20"
           style={{
             background:

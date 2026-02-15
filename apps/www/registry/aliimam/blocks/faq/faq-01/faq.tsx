@@ -74,11 +74,11 @@ export default function FAQs() {
   return (
     <section className="relative container flex h-screen w-full flex-col items-center justify-center">
       <div className="border">
-        <div className="mx-auto w-full max-w-5xl">
+        <div className="w-full lg:flex-1">
           <Accordion
             type="single"
             collapsible
-            className="-mb-1 w-full"
+            className="-mb-1 w-full md:w-3xl"
             defaultValue="item-1"
           >
             {faqItems.map((item) => (

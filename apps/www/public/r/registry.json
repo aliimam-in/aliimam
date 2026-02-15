@@ -278,15 +278,12 @@
       "name": "hero-01",
       "type": "registry:block",
       "description": "A simple hero section.",
-      "dependencies": [
-        "@paper-design/shaders-react"
-      ],
       "registryDependencies": [
         "button"
       ],
       "files": [
         {
-          "path": "registry/aliimam/blocks/hero/hero-01/page.tsx",
+          "path": "registry/aliimam/blocks/hero/hero-01/hero.tsx",
           "type": "registry:component",
           "target": "components/hero-01.tsx"
         }
@@ -303,8 +300,7 @@
       "type": "registry:block",
       "description": "A simple hero section.",
       "dependencies": [
-        "@aliimam/logos",
-        "@paper-design/shaders-react"
+        "@aliimam/logos"
       ],
       "registryDependencies": [
         "button",
@@ -312,7 +308,7 @@
       ],
       "files": [
         {
-          "path": "registry/aliimam/blocks/hero/hero-02/page.tsx",
+          "path": "registry/aliimam/blocks/hero/hero-02/hero.tsx",
           "type": "registry:component",
           "target": "components/hero-02.tsx"
         }
@@ -328,15 +324,22 @@
       "name": "hero-03",
       "type": "registry:block",
       "description": "A simple hero section.",
+      "dependencies": [
+        "@aliimam/logos",
+        "@aliimam/icons"
+      ],
+      "registryDependencies": [
+        "separator"
+      ],
       "files": [
         {
-          "path": "registry/aliimam/blocks/hero/hero-03/page.tsx",
+          "path": "registry/aliimam/blocks/hero/hero-03/hero.tsx",
           "type": "registry:component",
           "target": "components/hero-03.tsx"
         }
       ],
       "meta": {
-        "iframeHeight": "920px"
+        "iframeHeight": "850px"
       },
       "categories": [
         "hero"
@@ -349,15 +352,18 @@
       "dependencies": [
         "@aliimam/icons"
       ],
+      "registryDependencies": [
+        "button"
+      ],
       "files": [
         {
-          "path": "registry/aliimam/blocks/hero/hero-04/page.tsx",
+          "path": "registry/aliimam/blocks/hero/hero-04/hero.tsx",
           "type": "registry:component",
           "target": "components/hero-04.tsx"
         }
       ],
       "meta": {
-        "iframeHeight": "970px"
+        "iframeHeight": "950px"
       },
       "categories": [
         "hero"
@@ -372,6 +378,7 @@
         "@aliimam/icons"
       ],
       "registryDependencies": [
+        "marquee",
         "button",
         "badge",
         "card",
@@ -379,7 +386,7 @@
       ],
       "files": [
         {
-          "path": "registry/aliimam/blocks/hero/hero-05/page.tsx",
+          "path": "registry/aliimam/blocks/hero/hero-05/hero.tsx",
           "type": "registry:component",
           "target": "components/hero-05.tsx"
         }
@@ -396,22 +403,17 @@
       "type": "registry:block",
       "description": "A simple hero section.",
       "dependencies": [
-        "lucide-react"
+        "@aliimam/icons"
       ],
       "registryDependencies": [
         "button",
-        "dot-pattern",
-        "render-canvas"
+        "dot-pattern"
       ],
       "files": [
         {
-          "path": "registry/aliimam/blocks/hero/hero-06/page.tsx",
+          "path": "registry/aliimam/blocks/hero/hero-06/hero.tsx",
           "type": "registry:component",
           "target": "components/hero-06.tsx"
-        },
-        {
-          "path": "registry/aliimam/blocks/hero/hero-06/components/hero.tsx",
-          "type": "registry:component"
         }
       ],
       "meta": {
@@ -434,12 +436,12 @@
       ],
       "files": [
         {
-          "path": "registry/aliimam/blocks/hero/hero-07/page.tsx",
+          "path": "registry/aliimam/blocks/hero/hero-07/hero.tsx",
           "type": "registry:component",
           "target": "components/hero-07.tsx"
         },
         {
-          "path": "registry/aliimam/blocks/hero/hero-07/components/gallery.tsx",
+          "path": "registry/aliimam/blocks/hero/hero-07/gallery.tsx",
           "type": "registry:component"
         }
       ],
@@ -463,16 +465,12 @@
       ],
       "files": [
         {
-          "path": "registry/aliimam/blocks/hero/hero-08/page.tsx",
+          "path": "registry/aliimam/blocks/hero/hero-08/hero.tsx",
           "type": "registry:component",
           "target": "components/hero-08.tsx"
         },
         {
-          "path": "registry/aliimam/blocks/hero/hero-08/components/hero.tsx",
-          "type": "registry:component"
-        },
-        {
-          "path": "registry/aliimam/blocks/hero/hero-08/components/button-rotate.tsx",
+          "path": "registry/aliimam/blocks/hero/hero-08/button-rotate.tsx",
           "type": "registry:component"
         }
       ],
@@ -488,25 +486,25 @@
       "type": "registry:block",
       "description": "A simple hero section.",
       "dependencies": [
-        "framer-motion",
-        "@paper-design/shaders-react"
+        "framer-motion"
       ],
       "registryDependencies": [
-        "button"
+        "button",
+        "attraction"
       ],
       "files": [
         {
-          "path": "registry/aliimam/blocks/hero/hero-09/page.tsx",
+          "path": "registry/aliimam/blocks/hero/hero-09/hero.tsx",
           "type": "registry:component",
           "target": "components/hero-09.tsx"
         },
         {
-          "path": "registry/aliimam/blocks/hero/hero-09/components/hero.tsx",
+          "path": "registry/aliimam/blocks/hero/hero-09/skills.tsx",
           "type": "registry:component"
         }
       ],
       "meta": {
-        "iframeHeight": "800px"
+        "iframeHeight": "600px"
       },
       "categories": [
         "hero"
@@ -517,21 +515,17 @@
       "type": "registry:block",
       "description": "A simple hero section.",
       "dependencies": [
-        "framer-motion",
-        "@paper-design/shaders-react"
+        "framer-motion"
       ],
       "registryDependencies": [
-        "button"
+        "button",
+        "border-glow"
       ],
       "files": [
         {
-          "path": "registry/aliimam/blocks/hero/hero-10/page.tsx",
+          "path": "registry/aliimam/blocks/hero/hero-10/hero.tsx",
           "type": "registry:component",
           "target": "components/hero-10.tsx"
-        },
-        {
-          "path": "registry/aliimam/blocks/hero/hero-10/components/hero.tsx",
-          "type": "registry:component"
         }
       ],
       "meta": {
@@ -554,13 +548,9 @@
       ],
       "files": [
         {
-          "path": "registry/aliimam/blocks/hero/hero-11/page.tsx",
+          "path": "registry/aliimam/blocks/hero/hero-11/hero.tsx",
           "type": "registry:component",
           "target": "components/hero-11.tsx"
-        },
-        {
-          "path": "registry/aliimam/blocks/hero/hero-11/components/hero.tsx",
-          "type": "registry:component"
         }
       ],
       "meta": {
@@ -755,6 +745,27 @@
       ]
     },
     {
+      "name": "footer-06",
+      "type": "registry:block",
+      "description": "A simple footer.",
+      "dependencies": [
+        "@aliimam/logos"
+      ],
+      "files": [
+        {
+          "path": "registry/aliimam/blocks/footer/footer-06/footer.tsx",
+          "type": "registry:component",
+          "target": "layout/footer/index.tsx"
+        }
+      ],
+      "meta": {
+        "iframeHeight": "600px"
+      },
+      "categories": [
+        "footer"
+      ]
+    },
+    {
       "name": "logos-01",
       "type": "registry:block",
       "description": "A simple logos section.",
@@ -884,9 +895,9 @@
           "target": "components/bento.tsx"
         },
         {
-          "path": "registry/aliimam/blocks/bento/bento-01/chart-pie.tsx",
+          "path": "registry/aliimam/blocks/bento/bento-01/empty-avatar.tsx",
           "type": "registry:component",
-          "target": "components/chart-pie.tsx"
+          "target": "components/empty-avatar.tsx"
         },
         {
           "path": "registry/aliimam/blocks/bento/bento-01/hear.tsx",
@@ -1207,6 +1218,32 @@
       ]
     },
     {
+      "name": "pricing-03",
+      "type": "registry:block",
+      "description": "A simple pricing section.",
+      "dependencies": [
+        "@aliimam/icons"
+      ],
+      "registryDependencies": [
+        "button",
+        "tabs",
+        "badge"
+      ],
+      "files": [
+        {
+          "path": "registry/aliimam/blocks/pricing/pricing-03/pricing.tsx",
+          "type": "registry:component",
+          "target": "components/pricing.tsx"
+        }
+      ],
+      "meta": {
+        "iframeHeight": "700px"
+      },
+      "categories": [
+        "pricing"
+      ]
+    },
+    {
       "name": "login-01",
       "type": "registry:block",
       "description": "A simple login page.",
@@ -1305,6 +1342,30 @@
       "files": [
         {
           "path": "registry/aliimam/blocks/faq/faq-01/faq.tsx",
+          "type": "registry:component",
+          "target": "components/faq.tsx"
+        }
+      ],
+      "meta": {
+        "iframeHeight": "600px"
+      },
+      "categories": [
+        "faq"
+      ]
+    },
+    {
+      "name": "faq-02",
+      "type": "registry:block",
+      "description": "A simple faq section.",
+      "dependencies": [
+        "@aliimam/icons"
+      ],
+      "registryDependencies": [
+        "accordion"
+      ],
+      "files": [
+        {
+          "path": "registry/aliimam/blocks/faq/faq-02/faq.tsx",
           "type": "registry:component",
           "target": "components/faq.tsx"
         }
@@ -1428,6 +1489,76 @@
       ]
     },
     {
+      "name": "landing-01",
+      "type": "registry:block",
+      "description": "A simple landing page.",
+      "dependencies": [
+        ""
+      ],
+      "registryDependencies": [
+        "button"
+      ],
+      "files": [
+        {
+          "path": "registry/aliimam/pages/landing/landing-01/page.tsx",
+          "type": "registry:page",
+          "target": "app/landing/page.tsx"
+        },
+        {
+          "path": "registry/aliimam/pages/landing/landing-01/components/bento-section.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/aliimam/pages/landing/landing-01/components/cta-section.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/aliimam/pages/landing/landing-01/components/documentation-section.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/aliimam/pages/landing/landing-01/components/faq-section.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/aliimam/pages/landing/landing-01/components/footer-section.tsx",
+          "type": "registry:component",
+          "target": "layout/footer.tsx"
+        },
+        {
+          "path": "registry/aliimam/pages/landing/landing-01/components/feature-cards.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/aliimam/pages/landing/landing-01/components/header.tsx",
+          "type": "registry:component",
+          "target": "layout/header.tsx"
+        },
+        {
+          "path": "registry/aliimam/pages/landing/landing-01/components/hero-section.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/aliimam/pages/landing/landing-01/components/logo-section.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/aliimam/pages/landing/landing-01/components/pricing-section.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/aliimam/pages/landing/landing-01/components/testimonials-section.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "iframeHeight": "3000px"
+      },
+      "categories": [
+        "landing"
+      ]
+    },
+    {
       "name": "attraction",
       "type": "registry:component",
       "files": [
@@ -1443,6 +1574,16 @@
       "files": [
         {
           "path": "registry/aliimam/components/bento.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "border-glow",
+      "type": "registry:component",
+      "files": [
+        {
+          "path": "registry/aliimam/components/border-glow.tsx",
           "type": "registry:component"
         }
       ]
@@ -1661,6 +1802,81 @@
       ]
     },
     {
+      "name": "attraction-01",
+      "type": "registry:example",
+      "title": "Attraction Demo",
+      "description": "Example showing a physics attraction demo.",
+      "registryDependencies": [
+        "attraction"
+      ],
+      "files": [
+        {
+          "path": "registry/aliimam/examples/attraction/attraction-01.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "attraction-02",
+      "type": "registry:example",
+      "title": "Attraction Demo",
+      "description": "Example showing a physics attraction demo.",
+      "registryDependencies": [
+        "attraction"
+      ],
+      "files": [
+        {
+          "path": "registry/aliimam/examples/attraction/attraction-02.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "attraction-03",
+      "type": "registry:example",
+      "title": "Attraction Demo",
+      "description": "Example showing a physics attraction demo.",
+      "registryDependencies": [
+        "attraction"
+      ],
+      "files": [
+        {
+          "path": "registry/aliimam/examples/attraction/attraction-03.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "attraction-04",
+      "type": "registry:example",
+      "title": "Attraction Demo",
+      "description": "Example showing a physics attraction demo.",
+      "registryDependencies": [
+        "attraction"
+      ],
+      "files": [
+        {
+          "path": "registry/aliimam/examples/attraction/attraction-04.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "attraction-05",
+      "type": "registry:example",
+      "title": "Attraction Demo",
+      "description": "Example showing a physics attraction demo.",
+      "registryDependencies": [
+        "attraction"
+      ],
+      "files": [
+        {
+          "path": "registry/aliimam/examples/attraction/attraction-05.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
       "name": "bento-01",
       "type": "registry:example",
       "title": "Bento Demo",
@@ -1851,6 +2067,81 @@
       "files": [
         {
           "path": "registry/aliimam/examples/button/button-08.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "border-glow-01",
+      "type": "registry:example",
+      "title": "Border Glow Demo",
+      "description": "Example showing a simple border glow.",
+      "registryDependencies": [
+        "border-glow"
+      ],
+      "files": [
+        {
+          "path": "registry/aliimam/examples/border-glow/border-glow-01.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "border-glow-02",
+      "type": "registry:example",
+      "title": "Border Glow Demo",
+      "description": "Example showing a simple border glow.",
+      "registryDependencies": [
+        "border-glow"
+      ],
+      "files": [
+        {
+          "path": "registry/aliimam/examples/border-glow/border-glow-02.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "border-glow-03",
+      "type": "registry:example",
+      "title": "Border Glow Demo",
+      "description": "Example showing a simple border glow.",
+      "registryDependencies": [
+        "border-glow"
+      ],
+      "files": [
+        {
+          "path": "registry/aliimam/examples/border-glow/border-glow-03.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "border-glow-04",
+      "type": "registry:example",
+      "title": "Border Glow Demo",
+      "description": "Example showing a simple border glow.",
+      "registryDependencies": [
+        "border-glow"
+      ],
+      "files": [
+        {
+          "path": "registry/aliimam/examples/border-glow/border-glow-04.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "border-glow-05",
+      "type": "registry:example",
+      "title": "Border Glow Demo",
+      "description": "Example showing a simple border glow.",
+      "registryDependencies": [
+        "border-glow"
+      ],
+      "files": [
+        {
+          "path": "registry/aliimam/examples/border-glow/border-glow-05.tsx",
           "type": "registry:example"
         }
       ]

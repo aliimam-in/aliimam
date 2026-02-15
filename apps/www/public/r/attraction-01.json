@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "attraction-01",
+  "title": "Attraction Demo",
+  "description": "Example showing a physics attraction demo.",
+  "registryDependencies": [
+    "attraction"
+  ],
+  "files": [
+    {
+      "path": "examples/attraction/attraction-01.tsx",
+      "content": "import { Attraction } from \"@/registry/aliimam/components/attraction\"\n\nexport default function AttractionDemo() {\n  const colors = [\n    \"bg-red-500\",\n    \"bg-blue-500\",\n    \"bg-green-500\",\n    \"bg-yellow-500\",\n    \"bg-purple-500\",\n    \"bg-pink-500\",\n    \"bg-indigo-500\",\n    \"bg-teal-500\",\n    \"bg-orange-500\",\n    \"bg-lime-500\",\n    \"bg-emerald-500\",\n    \"bg-cyan-500\",\n    \"bg-sky-500\",\n    \"bg-violet-500\",\n    \"bg-fuchsia-500\",\n    \"bg-rose-500\",\n    \"bg-amber-500\",\n    \"bg-slate-500\",\n    \"bg-gray-500\",\n    \"bg-zinc-500\",\n  ]\n  return (\n    <div className=\"mx-auto flex h-full w-full max-w-xl items-center justify-center\">\n      <Attraction>\n        {colors.map((color, index) => (\n          <div key={index} className={`h-16 w-16 ${color}`} />\n        ))}\n      </Attraction>\n    </div>\n  )\n}\n",
+      "type": "registry:example"
+    }
+  ],
+  "type": "registry:example"
+}

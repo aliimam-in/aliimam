@@ -100,4 +100,68 @@ export const pages: Registry["items"] = [
       iframeHeight: "2450px",
     },
   },
+  {
+    name: "landing-01",
+    description: "A simple landing page.",
+    dependencies: [""],
+    registryDependencies: ["button"],
+    type: "registry:block",
+    files: [
+      {
+        path: "pages/landing/landing-01/page.tsx",
+        target: "app/landing/page.tsx",
+        type: "registry:page",
+      },
+      {
+        path: "pages/landing/landing-01/components/bento-section.tsx",
+        type: "registry:component",
+      },
+      {
+        path: "pages/landing/landing-01/components/cta-section.tsx",
+        type: "registry:component",
+      },
+      {
+        path: "pages/landing/landing-01/components/documentation-section.tsx",
+        type: "registry:component",
+      },
+      {
+        path: "pages/landing/landing-01/components/faq-section.tsx",
+        type: "registry:component",
+      },
+      {
+        path: "pages/landing/landing-01/components/footer-section.tsx",
+        target: "layout/footer.tsx",
+        type: "registry:component",
+      },
+      {
+        path: "pages/landing/landing-01/components/feature-cards.tsx",
+        type: "registry:component",
+      },
+      {
+        path: "pages/landing/landing-01/components/header.tsx",
+        target: "layout/header.tsx",
+        type: "registry:component",
+      },
+      {
+        path: "pages/landing/landing-01/components/hero-section.tsx",
+        type: "registry:component",
+      },
+      {
+        path: "pages/landing/landing-01/components/logo-section.tsx",
+        type: "registry:component",
+      },
+      {
+        path: "pages/landing/landing-01/components/pricing-section.tsx",
+        type: "registry:component",
+      },
+      {
+        path: "pages/landing/landing-01/components/testimonials-section.tsx",
+        type: "registry:component",
+      },
+    ],
+    categories: ["landing"],
+    meta: {
+      iframeHeight: "3000px",
+    },
+  },
 ]

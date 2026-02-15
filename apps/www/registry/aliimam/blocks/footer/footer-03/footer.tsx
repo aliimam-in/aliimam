@@ -1,3 +1,4 @@
+"use client"
 import Link from "next/link"
 
 const links = [
@@ -30,7 +31,7 @@ const links = [
 export default function Footer() {
   return (
     <div className="flex min-h-svh w-full items-center justify-center">
-      <footer className="w-full border-b py-12">
+      <footer className="w-full border-y py-12">
         <div className="mx-auto max-w-5xl px-6">
           <div className="flex flex-wrap justify-between gap-6">
             <span className="text-muted-foreground order-last block text-center text-sm md:order-first">

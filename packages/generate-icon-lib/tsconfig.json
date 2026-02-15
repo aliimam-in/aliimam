@@ -4,7 +4,7 @@
 		"esModuleInterop": true,
 		"target": "esnext",
 		"moduleResolution": "nodenext",
-		"sourceMap": true,
+		"sourceMap": true, 
 		"baseUrl": ".",
 		"jsx": "react-jsx",
 		"strict": true,

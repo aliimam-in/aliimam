@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "attraction-05",
+  "title": "Attraction Demo",
+  "description": "Example showing a physics attraction demo.",
+  "registryDependencies": [
+    "attraction"
+  ],
+  "files": [
+    {
+      "path": "examples/attraction/attraction-05.tsx",
+      "content": "\"use client\"\n\nimport {\n  ClaudeAI,\n  Cursor,\n  Gemini,\n  Github,\n  Google,\n  Grok,\n  OpenAI,\n  PerplexityAI,\n  Replicate,\n  Resend,\n  Suno,\n  YouTube,\n} from \"@aliimam/logos\"\n\nimport { Attraction } from \"@/registry/aliimam/components/attraction\"\n\nexport function LogosAttraction() {\n  const logos = [\n    OpenAI,\n    ClaudeAI,\n    Replicate,\n    Cursor,\n    Gemini,\n    Github,\n    Grok,\n    Google,\n    Suno,\n    Resend,\n    YouTube,\n    PerplexityAI,\n  ]\n\n  return (\n    <div className=\"mx-auto flex h-full w-full max-w-xl items-center justify-center\">\n      <Attraction gravity={{ x: 0, y: 0 }} gravityScale={0.1}>\n        {logos.map((Logo, i) => (\n          <div\n            key={i}\n            data-x={`${10 + (i % 4) * 22}%`}\n            data-y={`${10 + Math.floor(i / 4) * 28}%`}\n            data-shape=\"circle\"\n            data-friction=\"0\"\n            data-restitution=\"0.9\"\n            data-friction-air=\"0.01\"\n            className=\"flex h-20 w-20 items-center justify-center border bg-white select-none\"\n          >\n            <Logo size={28} />\n          </div>\n        ))}\n      </Attraction>\n    </div>\n  )\n}\n",
+      "type": "registry:example"
+    }
+  ],
+  "type": "registry:example"
+}

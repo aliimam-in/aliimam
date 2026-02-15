@@ -56,12 +56,12 @@ const links = [
 
 export default function FooterSection() {
   return (
-    <footer className="border-b bg-white pt-20 dark:bg-transparent">
+    <footer className="flex h-screen flex-col items-center justify-center border-b dark:bg-transparent">
       <div className="mx-auto max-w-5xl px-6">
         <div className="grid gap-12 md:grid-cols-5">
           <div className="md:col-span-2">
-            <Link href="/" aria-label="go home" className="block size-fit">
-              <Apple />
+            <Link href="#" aria-label="go home" className="block size-fit">
+              <Apple className="text-primary" />
             </Link>
           </div>
 

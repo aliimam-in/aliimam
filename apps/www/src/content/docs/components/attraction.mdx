@@ -1,0 +1,102 @@
+---
+title: Attraction
+description: The component is a very flexible wrapper for applying Matter.js physics to React children.
+component: true
+---
+
+<ComponentPreview
+  name="attraction-01"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[300px]"
+  description="A customizable SVG dot pattern background."
+  align="start"
+/>
+
+<ComponentPreview
+  name="attraction-02"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[300px]"
+  description="A customizable SVG dot pattern background."
+  align="start"
+/>
+
+<ComponentPreview
+  name="attraction-03"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[300px]"
+  description="A customizable SVG dot pattern background."
+  align="start"
+/>
+
+<ComponentPreview
+  name="attraction-04"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[300px]"
+  description="A customizable SVG dot pattern background."
+  align="start"
+/>
+
+<ComponentPreview
+  name="attraction-05"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[300px]"
+  description="A customizable SVG dot pattern background."
+  align="start"
+/>
+
+## Installation
+
+<CodeTabs>
+
+<TabsList>
+  <TabsTrigger value="cli">CLI</TabsTrigger>
+  <TabsTrigger value="manual">Manual</TabsTrigger>
+</TabsList>
+
+<TabsContent value="cli">
+
+```bash
+npx shadcn@latest add https://aliimam.in/r/attraction.json
+```
+
+</TabsContent>
+
+<TabsContent value="manual">
+
+<Steps>
+
+<Step>Copy and paste the following code into your project.</Step>
+
+<ComponentSource name="attraction" title="components/ui/attraction.tsx" />
+
+<Step>Update the import paths to match your project setup.</Step>
+
+</Steps>
+
+</TabsContent>
+
+</CodeTabs>
+
+## Usage
+
+```tsx showLineNumbers
+import { Attraction } from "@/components/ui/attraction"
+```
+
+```tsx showLineNumbers
+<Attraction>
+  <div className="h-16 w-16 bg-red-500" />
+  <div className="h-16 w-16 bg-blue-500" />
+  <div className="h-16 w-16 bg-green-500" />
+</Attraction>
+```
+
+## Props
+
+| Prop          | Type                     | Default            | Description                    |
+| ------------- | ------------------------ | ------------------ | ------------------------------ |
+| `gravity`     | `{x: number, y: number}` | `{x:0,y:1}`        | Physics world gravity          |
+| `className`   | `string`                 | `""`               | Custom class for container     |
+| `paused`      | `boolean`                | `false`            | Pause physics without clearing |
+| `walls`       | `boolean`                | `true`             | Toggle world walls             |
+| `friction`    | `number`                 | `0.2`              | Default friction for bodies    |
+| `restitution` | `number`                 | `0.5`              | Default bounciness             |
+| `stiffness`   | `number`                 | `0.2`              | Mouse drag stiffness           |
+| `background`  | `string`                 | `"transparent"`    | Canvas background              |
+| `width`       | `number`                 | `container width`  | Force canvas width             |
+| `height`      | `number`                 | `container height` | Force canvas height            |
