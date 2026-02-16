@@ -61,18 +61,19 @@ export default function DocumentationSection() {
       </div>
     </div>,
   ]
+
   return (
     <div className="flex w-full flex-col items-center justify-center">
       <div className="flex items-center justify-center gap-6 self-stretch px-4 py-8 sm:px-6 md:px-24 md:py-16">
         <div className="flex w-full max-w-4xl flex-col items-center justify-start gap-3 overflow-hidden">
-          <Badge variant={"secondary"}>Work with Brands Like</Badge>
+          <Badge variant={"secondary"}>Selected Work</Badge>
           <div className="flex w-full max-w-xl flex-col justify-center text-center text-xl leading-tight font-semibold tracking-tight sm:text-2xl md:text-3xl lg:text-5xl">
-            Confidence backed by results
+            A closer look at our design craft
           </div>
           <div className="text-muted-foreground self-stretch text-center text-sm leading-6">
-            Our customers achieve more each day
+            Explore interfaces, branding systems, and product experiences
             <br className="hidden sm:block" />
-            because their tools are simple, powerful, and clear.
+            thoughtfully designed to balance beauty and performance.
           </div>
         </div>
       </div>

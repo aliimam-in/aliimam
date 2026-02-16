@@ -17,7 +17,7 @@ export default function AttractionDemo() {
   ]
 
   return (
-    <div className="mx-auto flex h-full w-full max-w-xl items-center justify-center">
+    <div className="mx-auto flex h-full w-full max-w-xl items-center justify-center overflow-hidden">
       <Attraction
         gravity={{ x: 0, y: 0.6 }}
         restitution={0.7}
@@ -27,9 +27,14 @@ export default function AttractionDemo() {
         {usernames.map((username) => (
           <div
             key={username}
-            className="h-18 w-18 rounded-none bg-transparent shadow-none"
+            className="h-18 w-18 rounded-none bg-transparent shadow-none select-none"
           >
-            <img src={`https://github.com/${username}.png`} alt={username} />
+            <img
+              src={`https://github.com/${username}.png`}
+              alt={username}
+              className="pointer-events-none select-none"
+              draggable={false}
+            />
           </div>
         ))}
       </Attraction>

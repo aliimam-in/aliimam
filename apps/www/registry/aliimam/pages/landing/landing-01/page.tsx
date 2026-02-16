@@ -20,6 +20,23 @@ export default function LandingPage() {
           <div className="bg-muted absolute top-0 right-4 z-0 h-full w-px sm:right-6 md:right-8 lg:right-0"></div>
 
           <div className="relative z-10 flex flex-col items-center justify-center gap-4 self-stretch overflow-hidden border-x sm:gap-6 md:gap-8">
+            <div className="relative h-8 self-stretch overflow-hidden">
+              <div className="absolute inset-0 h-full w-full overflow-hidden">
+                <div className="relative h-full w-full">
+                  {Array.from({ length: 300 }).map((_, i) => (
+                    <div
+                      key={i}
+                      className="outline-primary/40 absolute h-4 w-full origin-top-left -rotate-45 outline-[0.5px] outline-offset-[-0.25px]"
+                      style={{
+                        top: `${i * 16 - 120}px`,
+                        left: "-100%",
+                        width: "300%",
+                      }}
+                    ></div>
+                  ))}
+                </div>
+              </div>
+            </div>
             <Header />
             <HeroSection />
             <FeatureCards />

@@ -16,6 +16,8 @@
     "build": "turbo run build",
     "build:registry": "pnpm --filter=www build:registry && pnpm lint:fix && pnpm format:write -- --loglevel silent",
     "registry:build": "pnpm --filter=www registry:build && pnpm lint:fix && pnpm format:write -- --loglevel silent",
+    "build:icons": "turbo run build --filter=@aliimam/icons...",
+    "build:logos": "turbo run build --filter=@aliimam/logos...",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
     "lint:fix": "turbo run lint:fix",

@@ -13,24 +13,24 @@ export default function TestimonialsSection() {
   const testimonials = [
     {
       quote:
-        "In just a few minutes, we transformed our data into actionable insights. The process was seamless and incredibly efficient!",
-      name: "Jamie Marshall",
-      company: "Co-founder, Exponent",
-      image: "/ali.jpg",
+        "Working with this team elevated our entire product experience. Every interaction now feels intentional and beautifully crafted.",
+      name: "Aarav Mehta",
+      company: "Founder, Nova Labs",
+      image: "https://github.com/shadcn.png",
     },
     {
       quote:
-        "Brillance has revolutionized how we handle custom contracts. The automation saves us hours every week and eliminates errors completely.",
-      name: "Sarah Chen",
-      company: "VP Operations, TechFlow",
-      image: "/ali.jpg",
+        "Their design thinking completely reshaped our platform. The clarity, usability, and visual polish exceeded our expectations.",
+      name: "Emily Carter",
+      company: "Head of Product, Lumina",
+      image: "https://github.com/vercel.png",
     },
     {
       quote:
-        "The billing automation is a game-changer. What used to take our team days now happens automatically with perfect accuracy.",
-      name: "Marcus Rodriguez",
-      company: "Finance Director, InnovateCorp",
-      image: "/ali.jpg",
+        "From branding to interface design, the attention to detail was exceptional. Our launch received incredible feedback from users.",
+      name: "Daniel Kim",
+      company: "CEO, Horizon Tech",
+      image: "https://github.com/claude.png",
     },
   ]
 
@@ -43,7 +43,7 @@ export default function TestimonialsSection() {
           setIsTransitioning(false)
         }, 100)
       }, 300)
-    }, 12000) // increased from 6000ms to 12000ms for longer testimonial display
+    }, 12000)
 
     return () => clearInterval(interval)
   }, [testimonials.length])
@@ -62,17 +62,18 @@ export default function TestimonialsSection() {
     <div className="flex w-full flex-col items-center justify-center">
       <div className="flex items-center justify-center gap-6 self-stretch px-4 py-8 sm:px-6 md:px-24 md:py-16">
         <div className="flex w-full max-w-4xl flex-col items-center justify-start gap-3 overflow-hidden">
-          <Badge variant={"secondary"}>Work with Brands Like</Badge>
+          <Badge variant={"secondary"}>Client Stories</Badge>
           <div className="flex w-full max-w-xl flex-col justify-center text-center text-xl leading-tight font-semibold tracking-tight sm:text-2xl md:text-3xl lg:text-5xl">
-            Confidence backed by results
+            Trusted by forward-thinking brands
           </div>
           <div className="text-muted-foreground self-stretch text-center text-sm leading-6">
-            Our customers achieve more each day
+            We partner with ambitious teams
             <br className="hidden sm:block" />
-            because their tools are simple, powerful, and clear.
+            to design meaningful digital experiences that deliver impact.
           </div>
         </div>
       </div>
+
       <div className="bg-background flex items-center justify-start self-stretch overflow-hidden border border-t-0 border-r-0 border-b border-l-0 px-2">
         <div className="flex flex-1 flex-col items-end justify-center gap-6 py-16 md:flex-row md:py-17">
           <div className="flex flex-col items-start justify-center gap-4 self-stretch px-3 md:flex-row md:px-12">
@@ -87,7 +88,7 @@ export default function TestimonialsSection() {
               src={testimonials[activeTestimonial].image || "/placeholder.svg"}
               alt={testimonials[activeTestimonial].name}
             />
-            <div className="flex flex-1 flex-col items-start justify-start gap-6 overflow-hidden px-6">
+            <div className="flex flex-1 flex-col items-start justify-start gap-3 overflow-hidden px-6">
               <div
                 className="line-clamp-5 flex h-40 flex-col justify-start self-stretch overflow-hidden text-4xl font-medium tracking-tight transition-all duration-700 ease-in-out"
                 style={{
@@ -138,6 +139,25 @@ export default function TestimonialsSection() {
             >
               <ChevronRight />
             </Button>
+          </div>
+        </div>
+      </div>
+
+
+      <div className="relative h-12 self-stretch overflow-hidden border-b">
+        <div className="absolute inset-0 h-full w-full overflow-hidden">
+          <div className="relative h-full w-full">
+            {Array.from({ length: 300 }).map((_, i) => (
+              <div
+                key={i}
+                className="outline-primary/40 absolute h-4 w-full origin-top-left -rotate-45 outline-[0.5px] outline-offset-[-0.25px]"
+                style={{
+                  top: `${i * 16 - 120}px`,
+                  left: "-100%",
+                  width: "300%",
+                }}
+              ></div>
+            ))}
           </div>
         </div>
       </div>

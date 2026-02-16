@@ -15,7 +15,7 @@ export function Header() {
           <div className="flex flex-row items-start justify-start gap-2 pl-3 sm:flex sm:gap-3 sm:pl-4 md:gap-4 md:pl-5 lg:gap-4 lg:pl-5">
             <div className="flex items-center justify-start">
               <div className="text-muted-foreground flex flex-col justify-center text-xs font-medium md:text-[13px]">
-                Products
+                Designs
               </div>
             </div>
             <div className="flex items-center justify-start">

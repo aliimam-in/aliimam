@@ -103,6 +103,7 @@
     "react": "19.2.1",
     "react-day-picker": "^9.13.0",
     "react-dom": "19.2.1",
+    "react-element-to-jsx-string": "^17.0.1",
     "react-hook-form": "^7.62.0",
     "react-medium-image-zoom": "^5.4.0",
     "react-photo-view": "^1.2.7",

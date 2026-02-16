@@ -43,7 +43,7 @@ export default function BlocksLayout({
       <div className="">
         <Sheet>
           <PagesNav />
-          <div className="h-full container 2xl:border-x py-14 w-full">{children}</div>
+          <div className="h-full container 2xl:border-x pt-4 pb-14 w-full">{children}</div>
         </Sheet>
       </div>
     </>

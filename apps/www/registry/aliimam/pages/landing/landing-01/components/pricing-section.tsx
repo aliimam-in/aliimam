@@ -31,17 +31,18 @@ export default function PricingSection() {
     <div className="flex w-full flex-col items-center justify-center gap-2">
       <div className="flex items-center justify-center gap-6 self-stretch px-4 py-8">
         <div className="flex w-full max-w-4xl flex-col items-center justify-start gap-3 overflow-hidden">
-          <Badge variant={"secondary"}>Work with Brands Like</Badge>
+          <Badge variant={"secondary"}>Pricing</Badge>
           <div className="flex w-full max-w-xl flex-col justify-center text-center text-xl leading-tight font-semibold tracking-tight sm:text-2xl md:text-3xl lg:text-5xl">
-            Confidence backed by results
+            Simple, transparent pricing
           </div>
           <div className="text-muted-foreground self-stretch text-center text-sm leading-6">
-            Our customers achieve more each day
+            Choose a plan that fits your needs
             <br className="hidden sm:block" />
-            because their tools are simple, powerful, and clear.
+            with no hidden fees and flexible upgrades anytime.
           </div>
         </div>
       </div>
+
       <div className="flex items-center justify-center self-stretch px-6 py-9 md:px-16">
         <Tabs
           value={billingPeriod}

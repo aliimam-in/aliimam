@@ -42,11 +42,11 @@ export function FeatureCards() {
 
   return (
     <div>
-      <div className="pointer-events-none absolute top-80 left-1/2 -z-10 -translate-x-1/2 transform">
+      <div className="pointer-events-none absolute top-60 left-1/2 -z-10 -translate-x-1/2 transform">
         <img
           src="/ai-logo.png"
           alt="AI Logo"
-          className="h-auto w-140 opacity-30"
+          className="h-auto w-120 opacity-30"
         />
       </div>
       <div className="relative z-5 my-8 flex w-full flex-col items-center justify-center gap-2">
@@ -114,22 +114,22 @@ export function FeatureCards() {
 
         <div className="flex flex-1 flex-col items-stretch justify-center gap-0 px-0 md:flex-row">
           <FeatureCard
-            title="Plan your schedules"
-            description="Streamline customer subscriptions and billing with automated scheduling tools."
+            title="Build scalable design systems"
+            description="Create consistent, reusable components that keep your brand unified across every platform."
             isActive={activeCard === 0}
             progress={activeCard === 0 ? progress : 0}
             onClick={() => handleCardClick(0)}
           />
           <FeatureCard
-            title="Analytics & insights"
-            description="Transform your business data into actionable insights with real-time analytics."
+            title="Prototype with precision"
+            description="Turn ideas into interactive prototypes quickly and refine user flows with clarity."
             isActive={activeCard === 1}
             progress={activeCard === 1 ? progress : 0}
             onClick={() => handleCardClick(1)}
           />
           <FeatureCard
-            title="Collaborate seamlessly"
-            description="Keep your team aligned with shared dashboards and collaborative workflows."
+            title="Collaborate with creatives"
+            description="Work seamlessly with designers and developers using shared assets and real-time feedback."
             isActive={activeCard === 2}
             progress={activeCard === 2 ? progress : 0}
             onClick={() => handleCardClick(2)}

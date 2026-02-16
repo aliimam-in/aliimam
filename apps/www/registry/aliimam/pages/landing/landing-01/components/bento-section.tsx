@@ -8,14 +8,14 @@ export function BentoSection() {
     <div className="flex w-full flex-col items-center justify-center">
       <div className="flex items-center justify-center gap-6 self-stretch px-4 py-8 sm:px-6 md:px-24 md:py-16">
         <div className="flex w-full max-w-4xl flex-col items-center justify-start gap-3 overflow-hidden">
-          <Badge variant={"secondary"}>Work with Brands Like</Badge>
+          <Badge variant={"secondary"}>Creative Studio</Badge>
           <div className="flex w-full max-w-xl flex-col justify-center text-center text-xl leading-tight font-semibold tracking-tight sm:text-2xl md:text-3xl lg:text-5xl">
-            Confidence backed by results
+            Design that defines modern brands
           </div>
           <div className="text-muted-foreground self-stretch text-center text-sm leading-6">
-            Our customers achieve more each day
+            We craft thoughtful digital products
             <br className="hidden sm:block" />
-            because their tools are simple, powerful, and clear.
+            that blend strategy, clarity, and visual impact.
           </div>
         </div>
       </div>
@@ -39,92 +39,117 @@ export function BentoSection() {
               />
               <div>
                 <h1 className="text-3xl font-semibold tracking-tight md:text-5xl lg:text-6xl">
-                  We Build <br /> Digital Experiences.
+                  Crafted for <br /> Ambitious Ideas.
                 </h1>
                 <p className="text-muted-foreground mt-4 max-w-md text-sm md:text-base">
-                  Strategy, branding, and interface design crafted to move
-                  businesses forward.
+                  From concept to launch, we design experiences that feel
+                  intuitive, refined, and built to scale.
                 </p>
               </div>
               <div className="relative z-10 flex gap-3">
-                <Button size="lg">View Work</Button>
+                <Button size="lg">Explore Projects</Button>
                 <Button variant="outline" size="lg">
-                  Contact Us
+                  Start a Project
                 </Button>
               </div>
             </div>
           </BentoGridItem>
+
           <BentoGridItem className="rounded-none">
             <div className="flex h-full flex-col justify-between">
-              <span className="text-muted-foreground text-sm">Services</span>
+              <span className="text-muted-foreground text-sm">Capabilities</span>
               <div className="space-y-2 text-sm font-medium">
-                <p>Brand Identity</p>
-                <p>UI/UX Design</p>
-                <p>Web Design</p>
-                <p>Design Systems</p>
+                <p>Product Design</p>
+                <p>Visual Identity</p>
+                <p>Web Experiences</p>
+                <p>Motion & Interaction</p>
               </div>
             </div>
           </BentoGridItem>
+
           <BentoGridItem className="rounded-none">
             <div className="flex h-full flex-col justify-between">
-              <span className="text-muted-foreground text-sm">Process</span>
+              <span className="text-muted-foreground text-sm">Approach</span>
               <p className="text-sm font-medium">
-                Discover → Define → Design → Deliver
+                Research → Strategy → Design → Launch
               </p>
               <p className="text-muted-foreground text-xs">
-                Clear strategy. Thoughtful execution.
+                Intentional design, measurable impact.
               </p>
             </div>
           </BentoGridItem>
+
           <BentoGridItem colSpan={2} className="rounded-none">
             <div className="flex h-full flex-col justify-between">
               <span className="text-muted-foreground text-sm">
-                Featured Project
+                Highlighted Work
               </span>
               <div>
                 <h2 className="text-2xl font-semibold tracking-tight">
-                  Fintech Dashboard Redesign
+                  AI Productivity Platform
                 </h2>
                 <p className="text-muted-foreground mt-2 text-sm">
-                  Increased engagement by 42% with a simplified, data-first
-                  interface.
+                  Redesigned core workflows to improve usability and boost
+                  retention across enterprise teams.
                 </p>
               </div>
             </div>
           </BentoGridItem>
+
           <BentoGridItem className="rounded-none">
             <div className="flex h-full flex-col justify-between">
-              <span className="text-muted-foreground text-sm">Testimonial</span>
+              <span className="text-muted-foreground text-sm">Client Words</span>
               <p className="text-sm italic">
-                “Ali transformed our product experience completely.”
+                “A seamless blend of creativity and strategic thinking.”
               </p>
               <p className="text-muted-foreground text-xs">
-                — Product Lead, SaaS Startup
+                — Head of Product, Tech Company
               </p>
             </div>
           </BentoGridItem>
+
           <BentoGridItem className="flex items-center justify-center rounded-none">
             <div className="text-center">
-              <h2 className="text-5xl font-bold tracking-tight">120+</h2>
+              <h2 className="text-5xl font-bold tracking-tight">150+</h2>
               <p className="text-muted-foreground text-sm">
-                Projects Delivered
+                Successful Launches
               </p>
             </div>
           </BentoGridItem>
+
           <BentoGridItem colSpan={2} className="rounded-none">
             <div className="flex h-full flex-col justify-between">
               <span className="text-muted-foreground text-sm">
-                Tools We Use
+                Our Toolkit
               </span>
               <p className="text-sm font-medium">
-                Figma · Framer · Webflow · React · Tailwind
+                Figma · Framer · Next.js · React · Tailwind
               </p>
               <p className="text-muted-foreground text-xs">
-                Built with performance and scalability in mind.
+                Built for speed, clarity, and long-term growth.
               </p>
             </div>
           </BentoGridItem>
         </BentoGrid>
+      </div>
+
+
+      <div className="relative h-12 self-stretch overflow-hidden border-b">
+        <div className="absolute inset-0 h-full w-full overflow-hidden">
+          <div className="relative h-full w-full">
+            {Array.from({ length: 300 }).map((_, i) => (
+              <div
+                key={i}
+                className="outline-primary/40 absolute h-4 w-full origin-top-left -rotate-45 outline-[0.5px] outline-offset-[-0.25px]"
+                style={{
+                  top: `${i * 16 - 120}px`,
+                  left: "-100%",
+                  width: "300%",
+                }}
+              ></div>
+            ))}
+          </div>
+        </div>
       </div>
     </div>
   )

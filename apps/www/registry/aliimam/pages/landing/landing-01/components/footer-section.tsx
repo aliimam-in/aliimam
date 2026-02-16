@@ -1,4 +1,4 @@
-import { Github, LinkedIn, X } from "@aliimam/logos"
+import { Apple, Github, LinkedIn, X } from "@aliimam/logos"
 
 export default function FooterSection() {
   return (
@@ -7,10 +7,16 @@ export default function FooterSection() {
         <div className="flex h-auto flex-col items-start justify-start gap-8 p-4 md:p-8">
           <div className="flex items-center justify-start gap-3 self-stretch">
             <div className="text-center text-xl leading-4 font-semibold">
-              AI
+              <Apple className="text-primary" />
             </div>
           </div>
-          <div className="text-sm font-medium">Design without limits</div>
+          <div className="text-sm font-medium">
+            <h1 className="text-lg font-medium">Design without limits</h1>
+            <p className="text-muted-foreground max-w-md">
+              I create digital experiences that connect and inspire. I build
+              apps, websites, brands, and products end-to-end.
+            </p>
+          </div>
           <div className="flex items-start justify-start gap-6">
             <LinkedIn className="w-6" />
             <X className="w-6" />
@@ -31,13 +37,13 @@ export default function FooterSection() {
                 Pricing
               </div>
               <div className="text-muted-foreground hover:text-primary cursor-pointer text-sm leading-5 font-normal transition-colors">
-                Integrations
+                Live Previews
               </div>
               <div className="text-muted-foreground hover:text-primary cursor-pointer text-sm leading-5 font-normal transition-colors">
                 Real-time Previews
               </div>
               <div className="text-muted-foreground hover:text-primary cursor-pointer text-sm leading-5 font-normal transition-colors">
-                Multi-Agent Coding
+                AI Agents
               </div>
             </div>
           </div>
@@ -82,24 +88,6 @@ export default function FooterSection() {
                 Support
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-
-      <div className="relative h-12 self-stretch overflow-hidden border-t border-b">
-        <div className="absolute inset-0 h-full w-full overflow-hidden">
-          <div className="relative h-full w-full">
-            {Array.from({ length: 300 }).map((_, i) => (
-              <div
-                key={i}
-                className="outline-primary/40 absolute h-4 w-full origin-top-left -rotate-45 outline-[0.5px] outline-offset-[-0.25px]"
-                style={{
-                  top: `${i * 16 - 120}px`,
-                  left: "-100%",
-                  width: "300%",
-                }}
-              ></div>
-            ))}
           </div>
         </div>
       </div>

@@ -14,34 +14,34 @@ interface FAQItem {
 
 const faqData: FAQItem[] = [
   {
-    question: "What is Brillance and who is it for?",
+    question: "What’s included in each pricing plan?",
     answer:
-      "Brillance is a modern design-driven platform built for teams that care about clarity, consistency, and scalable systems. It’s ideal for startups, product teams, and agencies looking to create cohesive digital experiences.",
+      "Each plan includes access to core features, regular updates, and dedicated support. Higher tiers unlock advanced automation, analytics, and priority assistance.",
   },
   {
-    question: "How does Brillance improve my design workflow?",
+    question: "Can I upgrade or downgrade anytime?",
     answer:
-      "Brillance helps you build structured layouts, reusable components, and consistent visual patterns. From typography to spacing systems, everything is designed to reduce friction and increase creative velocity.",
+      "Yes. You can switch plans at any time. Upgrades take effect immediately, and downgrades apply at the start of your next billing cycle.",
   },
   {
-    question: "Can Brillance fit into my existing design system?",
+    question: "Is there a free trial available?",
     answer:
-      "Yes. Brillance is built to be flexible and token-based, allowing you to integrate your brand colors, typography scales, and spacing rules seamlessly into your existing workflow.",
+      "Absolutely. We offer a free trial so you can explore all essential features before committing to a paid plan.",
   },
   {
-    question: "Is it suitable for large teams?",
+    question: "Do you offer discounts for annual billing?",
     answer:
-      "Absolutely. Brillance supports scalable architecture and consistent component patterns, making collaboration between designers and developers smooth and predictable.",
+      "Yes. Annual plans come with a discounted rate compared to monthly billing, helping you save more as you scale.",
   },
   {
-    question: "Does Brillance support responsive design?",
+    question: "Is my data secure?",
     answer:
-      "Yes. Every component is built with responsiveness in mind, ensuring your layouts adapt beautifully across desktop, tablet, and mobile devices.",
+      "Security is a top priority. We use industry-standard encryption and best practices to ensure your data remains protected at all times.",
   },
   {
     question: "How do I get started?",
     answer:
-      "Start by integrating the core components into your project, customize your design tokens, and build your first layout. Brillance is structured to help you move from idea to interface quickly and confidently.",
+      "Simply choose a plan that fits your needs, create your account, and you’ll be up and running in minutes.",
   },
 ]
 
@@ -54,9 +54,9 @@ export default function FAQSection() {
             Frequently Asked Questions
           </h2>
           <p className="text-muted-foreground text-base leading-7">
-            Explore your data, build your dashboard,
+            Everything you need to know about our pricing,
             <br className="hidden md:block" />
-            bring your team together.
+            plans, and billing.
           </p>
         </div>
 
