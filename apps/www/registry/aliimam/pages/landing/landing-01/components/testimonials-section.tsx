@@ -143,7 +143,6 @@ export default function TestimonialsSection() {
         </div>
       </div>
 
-
       <div className="relative h-12 self-stretch overflow-hidden border-b">
         <div className="absolute inset-0 h-full w-full overflow-hidden">
           <div className="relative h-full w-full">

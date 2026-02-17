@@ -57,7 +57,9 @@ export function BentoSection() {
 
           <BentoGridItem className="rounded-none">
             <div className="flex h-full flex-col justify-between">
-              <span className="text-muted-foreground text-sm">Capabilities</span>
+              <span className="text-muted-foreground text-sm">
+                Capabilities
+              </span>
               <div className="space-y-2 text-sm font-medium">
                 <p>Product Design</p>
                 <p>Visual Identity</p>
@@ -98,7 +100,9 @@ export function BentoSection() {
 
           <BentoGridItem className="rounded-none">
             <div className="flex h-full flex-col justify-between">
-              <span className="text-muted-foreground text-sm">Client Words</span>
+              <span className="text-muted-foreground text-sm">
+                Client Words
+              </span>
               <p className="text-sm italic">
                 “A seamless blend of creativity and strategic thinking.”
               </p>
@@ -119,9 +123,7 @@ export function BentoSection() {
 
           <BentoGridItem colSpan={2} className="rounded-none">
             <div className="flex h-full flex-col justify-between">
-              <span className="text-muted-foreground text-sm">
-                Our Toolkit
-              </span>
+              <span className="text-muted-foreground text-sm">Our Toolkit</span>
               <p className="text-sm font-medium">
                 Figma · Framer · Next.js · React · Tailwind
               </p>
@@ -132,7 +134,6 @@ export function BentoSection() {
           </BentoGridItem>
         </BentoGrid>
       </div>
-
 
       <div className="relative h-12 self-stretch overflow-hidden border-b">
         <div className="absolute inset-0 h-full w-full overflow-hidden">

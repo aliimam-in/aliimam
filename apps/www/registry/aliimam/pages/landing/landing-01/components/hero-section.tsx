@@ -3,7 +3,6 @@ import { Button } from "@/registry/aliimam/ui/button"
 export function HeroSection() {
   return (
     <section className="relative pt-40 pb-16">
-      
       <div className="mx-auto max-w-4xl px-4">
         <div className="flex flex-col items-center gap-12">
           <div className="flex flex-col items-center gap-3">

@@ -33,7 +33,7 @@ export default function AttractionDemo() {
   const physicsRef = useRef<AttractionRef>(null)
 
   return (
-    <div className="relative mx-auto overflow-hidden flex h-full w-full max-w-4xl items-center justify-center overflow-hidden border">
+    <div className="relative mx-auto flex h-full w-full max-w-4xl items-center justify-center overflow-hidden border">
       <Button
         size="lg"
         className="absolute top-6 z-20"

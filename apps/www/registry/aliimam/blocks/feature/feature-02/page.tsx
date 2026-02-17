@@ -1,40 +1,66 @@
 "use client"
 
-import { DotPattern } from "@/registry/aliimam/components/dot-pattern"
+import Link from "next/link"
+import { ChevronRight } from "@aliimam/icons"
 
-export default function Quote() {
+import { Timeline } from "@/registry/aliimam/blocks/feature/feature-02/timeline"
+import { ShineBorder } from "@/registry/aliimam/components/shine-border"
+import { cn } from "@/registry/aliimam/lib/utils"
+import { buttonVariants } from "@/registry/aliimam/ui/button"
+
+export default function CTASection() {
   return (
-    <div className="container flex h-screen w-full flex-col items-center justify-center">
-      <div className="relative flex flex-col items-center rounded-md border border-primary">
-        <DotPattern dotSize={0.5} width={5} height={5} />
-
-        <div className="absolute -top-1.5 -left-1.5 h-3 w-3 rounded-md bg-primary text-white" />
-        <div className="absolute -bottom-1.5 -left-1.5 h-3 w-3 rounded-md bg-primary text-white" />
-        <div className="absolute -top-1.5 -right-1.5 h-3 w-3 rounded-md bg-primary text-white" />
-        <div className="absolute -right-1.5 -bottom-1.5 h-3 w-3 rounded-md bg-primary text-white" />
-
-        <div className="relative p-10 md:py-20">
-          <p className="md:text-md text-xs text-primary lg:text-lg xl:text-2xl">
-            I believe
-          </p>
-          <div className="text-2xl tracking-tighter md:text-5xl lg:text-7xl xl:text-8xl">
-            <div className="flex gap-1 md:gap-2 lg:gap-3 xl:gap-4">
-              <h1 className="font-semibold">&quot;Design should be</h1>
-              <p className="font-thin">easy to</p>
+    <section className="flex min-h-screen w-full items-center justify-center p-6 md:p-10">
+      <ShineBorder
+        borderRadius={30}
+        borderWidth={4}
+        className="mx-auto max-w-xl"
+      >
+        <div className="p-10">
+          <h1 className="mb-8 text-center text-2xl md:text-2xl">
+            How it Works?
+          </h1>
+          <Timeline />
+          <div className="text-primary z-10 mt-6 flex flex-col items-center text-center">
+            <h1 className="text-lg font-semibold md:text-4xl">
+              Design anything you need
+            </h1>
+            <p className="mt-2 text-slate-600 dark:text-slate-400">
+              No credit card required.
+            </p>
+            <div className="mt-4 grid gap-2 md:flex">
+              <Link
+                href="#"
+                className={cn(
+                  buttonVariants({
+                    size: "lg",
+                    variant: "default",
+                  }),
+                  "group"
+                )}
+              >
+                Get Started
+                <ChevronRight className="ml-1 size-4 transition-all duration-300 ease-out group-hover:translate-x-1" />
+              </Link>
+              <Link
+                target="_blank"
+                href="https://cal.com/dalim/15min"
+                className={cn(
+                  buttonVariants({
+                    size: "lg",
+                    variant: "outline",
+                  }),
+                  "group"
+                )}
+              >
+                Book a call
+                <ChevronRight className="ml-1 size-4 transition-all duration-300 ease-out group-hover:translate-x-1" />
+              </Link>
             </div>
-            <div className="flex gap-1 md:gap-2 lg:gap-3 xl:gap-4">
-              <p className="font-thin">understand</p>
-              <h1 className="font-semibold">because</h1>
-              <p className="font-thin">simple</p>
-            </div>
-            <div className="flex gap-1 md:gap-2 lg:gap-3 xl:gap-4">
-              <p className="font-thin">ideas</p>
-              <h1 className="font-semibold">are quicker to</h1>
-            </div>
-            <h1 className="font-semibold">grasp...&quot;</h1>
           </div>
+          <div className="bg-background absolute inset-0 -z-10 rounded-full opacity-40 blur-xl" />
         </div>
-      </div>
-    </div>
+      </ShineBorder>
+    </section>
   )
 }

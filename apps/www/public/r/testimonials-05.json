@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "testimonials-05",
+  "description": "A simple testimonials section.",
+  "registryDependencies": [
+    "avatar"
+  ],
+  "files": [
+    {
+      "path": "blocks/testimonials/testimonials-05/testimonial.tsx",
+      "content": "import {\n  Avatar,\n  AvatarFallback,\n  AvatarImage,\n} from \"@/components/ui/avatar\"\n\nexport default function TestimonialDemo() {\n  return (\n    <section className=\"relative flex min-h-svh w-full flex-col items-center justify-center overflow-hidden py-10\">\n      <div className=\"mx-auto max-w-5xl\">\n        <div className=\"mx-auto max-w-2xl text-center\">\n          <blockquote>\n            <p className=\"text-lg font-medium sm:text-xl md:text-3xl\">\n              Adopting this design system transformed the way we build products.\n              It brings clarity, consistency, and a premium feel to every\n              interface we ship.\n            </p>\n\n            <div className=\"mt-12 flex items-center justify-center gap-6\">\n              <Avatar className=\"size-12\">\n                <AvatarImage\n                  src=\"/ali.jpg\"\n                  alt=\"Ali Imam\"\n                  height=\"400\"\n                  width=\"400\"\n                  loading=\"lazy\"\n                />\n                <AvatarFallback>AI</AvatarFallback>\n              </Avatar>\n\n              <div className=\"space-y-1 border-l pl-6\">\n                <cite className=\"font-medium\">Ali Imam</cite>\n                <span className=\"text-muted-foreground block text-sm\">\n                  Creative Design Engineer\n                </span>\n              </div>\n            </div>\n          </blockquote>\n        </div>\n      </div>\n    </section>\n  )\n}\n",
+      "type": "registry:component",
+      "target": "components/testimonial.tsx"
+    }
+  ],
+  "meta": {
+    "iframeHeight": "500px"
+  },
+  "categories": [
+    "testimonials"
+  ],
+  "type": "registry:block"
+}

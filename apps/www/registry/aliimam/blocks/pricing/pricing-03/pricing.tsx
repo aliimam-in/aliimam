@@ -21,7 +21,7 @@ export default function PricingSection() {
       annually: 25, // 20% discount for annual
     },
     enterprise: {
-      monthly:500,
+      monthly: 500,
       annually: 250, // 20% discount for annual
     },
   }

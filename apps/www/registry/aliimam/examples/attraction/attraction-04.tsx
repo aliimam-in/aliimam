@@ -14,7 +14,7 @@ export default function AttractionDemo() {
   ]
 
   return (
-    <div className="mx-auto overflow-hidden flex h-full w-full max-w-xl items-center justify-center">
+    <div className="mx-auto flex h-full w-full max-w-xl items-center justify-center overflow-hidden">
       <Attraction
         gravity={{ x: 0, y: 1.2 }}
         restitution={0.25}

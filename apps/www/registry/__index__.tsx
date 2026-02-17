@@ -416,6 +416,150 @@ export const Index: Record<string, any> = {
     categories: ["hero"],
     meta: {"iframeHeight":"900px"},
   },
+  "hero-12": {
+    name: "hero-12",
+    description: "A simple hero section.",
+    type: "registry:block",
+    registryDependencies: ["button"],
+    files: [{
+      path: "registry/aliimam/blocks/hero/hero-12/hero.tsx",
+      type: "registry:component",
+      target: "components/hero-12.tsx"
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/aliimam/blocks/hero/hero-12/hero.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: ["hero"],
+    meta: {"iframeHeight":"900px"},
+  },
+  "book-demo-01": {
+    name: "book-demo-01",
+    description: "A simple book-demo section.",
+    type: "registry:block",
+    registryDependencies: ["button","input","label"],
+    files: [{
+      path: "registry/aliimam/blocks/book-demo/book-demo-01/book-demo.tsx",
+      type: "registry:component",
+      target: "components/book-demo.tsx"
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/aliimam/blocks/book-demo/book-demo-01/book-demo.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: ["book-demo"],
+    meta: {"iframeHeight":"800px"},
+  },
+  "book-demo-02": {
+    name: "book-demo-02",
+    description: "A simple book-demo section.",
+    type: "registry:block",
+    registryDependencies: ["button","input","label","select","separator"],
+    files: [{
+      path: "registry/aliimam/blocks/book-demo/book-demo-02/book-demo.tsx",
+      type: "registry:component",
+      target: "components/book-demo.tsx"
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/aliimam/blocks/book-demo/book-demo-02/book-demo.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: ["book-demo"],
+    meta: {"iframeHeight":"800px"},
+  },
+  "book-demo-03": {
+    name: "book-demo-03",
+    description: "A simple book-demo section.",
+    type: "registry:block",
+    registryDependencies: ["button","input","label","select","textarea"],
+    files: [{
+      path: "registry/aliimam/blocks/book-demo/book-demo-03/book-demo.tsx",
+      type: "registry:component",
+      target: "components/book-demo.tsx"
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/aliimam/blocks/book-demo/book-demo-03/book-demo.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: ["book-demo"],
+    meta: {"iframeHeight":"800px"},
+  },
+  "book-demo-04": {
+    name: "book-demo-04",
+    description: "A simple book-demo section.",
+    type: "registry:block",
+    registryDependencies: ["button","input","label","checkbox","textarea","separator"],
+    files: [{
+      path: "registry/aliimam/blocks/book-demo/book-demo-04/book-demo.tsx",
+      type: "registry:component",
+      target: "components/book-demo.tsx"
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/aliimam/blocks/book-demo/book-demo-04/book-demo.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: ["book-demo"],
+    meta: {"iframeHeight":"800px"},
+  },
+  "cta-01": {
+    name: "cta-01",
+    description: "A simple cta section.",
+    type: "registry:block",
+    registryDependencies: ["button"],
+    files: [{
+      path: "registry/aliimam/blocks/cta/cta-01/cta.tsx",
+      type: "registry:component",
+      target: "components/cta.tsx"
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/aliimam/blocks/cta/cta-01/cta.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: ["cta"],
+    meta: {"iframeHeight":"800px"},
+  },
+  "download-01": {
+    name: "download-01",
+    description: "A simple download section.",
+    type: "registry:block",
+    registryDependencies: ["button","separator"],
+    files: [{
+      path: "registry/aliimam/blocks/download/download-01/download.tsx",
+      type: "registry:component",
+      target: "components/download.tsx"
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/aliimam/blocks/download/download-01/download.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: ["download"],
+    meta: {"iframeHeight":"800px"},
+  },
+  "download-02": {
+    name: "download-02",
+    description: "A simple download section.",
+    type: "registry:block",
+    registryDependencies: ["button","input"],
+    files: [{
+      path: "registry/aliimam/blocks/download/download-02/download.tsx",
+      type: "registry:component",
+      target: "components/download.tsx"
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/aliimam/blocks/download/download-02/download.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: ["download"],
+    meta: {"iframeHeight":"800px"},
+  },
   "feature-01": {
     name: "feature-01",
     description: "A simple feature demo section.",
@@ -443,9 +587,31 @@ export const Index: Record<string, any> = {
       path: "registry/aliimam/blocks/feature/feature-02/page.tsx",
       type: "registry:component",
       target: "components/feature-02.tsx"
+    },{
+      path: "registry/aliimam/blocks/feature/feature-02/timeline.tsx",
+      type: "registry:component",
+      target: "components/timeline.tsx"
     }],
     component: React.lazy(async () => {
       const mod = await import("@/registry/aliimam/blocks/feature/feature-02/page.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: ["feature"],
+    meta: {"iframeHeight":"700px"},
+  },
+  "feature-03": {
+    name: "feature-03",
+    description: "A simple feature demo section.",
+    type: "registry:block",
+    registryDependencies: ["shine-border","button"],
+    files: [{
+      path: "registry/aliimam/blocks/feature/feature-03/page.tsx",
+      type: "registry:component",
+      target: "components/feature-03.tsx"
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/aliimam/blocks/feature/feature-03/page.tsx")
       const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
       return { default: mod.default || mod[exportName] }
     }),
@@ -940,15 +1106,11 @@ export const Index: Record<string, any> = {
     name: "login-01",
     description: "A simple login page.",
     type: "registry:block",
-    registryDependencies: ["button","card","input","field"],
+    registryDependencies: ["button","label","input"],
     files: [{
       path: "registry/aliimam/blocks/login/login-01/page.tsx",
       type: "registry:component",
       target: "app/login/page.tsx"
-    },{
-      path: "registry/aliimam/blocks/login/login-01/components/login-form.tsx",
-      type: "registry:component",
-      target: "components/login-form.tsx"
     }],
     component: React.lazy(async () => {
       const mod = await import("@/registry/aliimam/blocks/login/login-01/page.tsx")
@@ -984,14 +1146,86 @@ export const Index: Record<string, any> = {
     name: "testimonials-01",
     description: "A simple testimonials section.",
     type: "registry:block",
-    registryDependencies: ["button","input","field"],
+    registryDependencies: ["button"],
     files: [{
       path: "registry/aliimam/blocks/testimonials/testimonials-01/testimonial.tsx",
       type: "registry:component",
-      target: "app/testimonials/testimonial.tsx"
+      target: "components/testimonial.tsx"
     }],
     component: React.lazy(async () => {
       const mod = await import("@/registry/aliimam/blocks/testimonials/testimonials-01/testimonial.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: ["testimonials"],
+    meta: {"iframeHeight":"500px"},
+  },
+  "testimonials-02": {
+    name: "testimonials-02",
+    description: "A simple testimonials section.",
+    type: "registry:block",
+    registryDependencies: undefined,
+    files: [{
+      path: "registry/aliimam/blocks/testimonials/testimonials-02/testimonial.tsx",
+      type: "registry:component",
+      target: "components/testimonial.tsx"
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/aliimam/blocks/testimonials/testimonials-02/testimonial.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: ["testimonials"],
+    meta: {"iframeHeight":"600px"},
+  },
+  "testimonials-03": {
+    name: "testimonials-03",
+    description: "A simple testimonials section.",
+    type: "registry:block",
+    registryDependencies: undefined,
+    files: [{
+      path: "registry/aliimam/blocks/testimonials/testimonials-03/testimonial.tsx",
+      type: "registry:component",
+      target: "components/testimonial.tsx"
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/aliimam/blocks/testimonials/testimonials-03/testimonial.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: ["testimonials"],
+    meta: {"iframeHeight":"700px"},
+  },
+  "testimonials-04": {
+    name: "testimonials-04",
+    description: "A simple testimonials section.",
+    type: "registry:block",
+    registryDependencies: ["separator","marquee"],
+    files: [{
+      path: "registry/aliimam/blocks/testimonials/testimonials-04/testimonial.tsx",
+      type: "registry:component",
+      target: "components/testimonial.tsx"
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/aliimam/blocks/testimonials/testimonials-04/testimonial.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: ["testimonials"],
+    meta: {"iframeHeight":"600px"},
+  },
+  "testimonials-05": {
+    name: "testimonials-05",
+    description: "A simple testimonials section.",
+    type: "registry:block",
+    registryDependencies: ["avatar"],
+    files: [{
+      path: "registry/aliimam/blocks/testimonials/testimonials-05/testimonial.tsx",
+      type: "registry:component",
+      target: "components/testimonial.tsx"
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/aliimam/blocks/testimonials/testimonials-05/testimonial.tsx")
       const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
       return { default: mod.default || mod[exportName] }
     }),

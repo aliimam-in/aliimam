@@ -34,7 +34,7 @@ export function LogosAttraction() {
   ]
 
   return (
-    <div className="mx-auto overflow-hidden flex h-full w-full max-w-xl items-center justify-center">
+    <div className="mx-auto flex h-full w-full max-w-xl items-center justify-center overflow-hidden">
       <Attraction gravity={{ x: 0, y: 0 }} gravityScale={0.1}>
         {logos.map((Logo, i) => (
           <div

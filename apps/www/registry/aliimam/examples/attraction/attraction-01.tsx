@@ -24,7 +24,7 @@ export default function AttractionDemo() {
     "bg-zinc-500",
   ]
   return (
-    <div className="mx-auto overflow-hidden flex h-full w-full max-w-xl items-center justify-center">
+    <div className="mx-auto flex h-full w-full max-w-xl items-center justify-center overflow-hidden">
       <Attraction>
         {colors.map((color, index) => (
           <div key={index} className={`h-16 w-16 ${color}`} />

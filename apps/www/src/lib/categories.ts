@@ -30,6 +30,21 @@ export const registryCategories = [
     hidden: false,
   },
   {
+    name: "Book Demo",
+    slug: "book-demo",
+    hidden: false,
+  },
+  {
+    name: "Download",
+    slug: "download",
+    hidden: false,
+  },
+  {
+    name: "CTA",
+    slug: "cta",
+    hidden: false,
+  },
+  {
     name: "Pricing",
     slug: "pricing",
     hidden: false,
@@ -47,12 +62,12 @@ export const registryCategories = [
   {
     name: "Chat",
     slug: "chat",
-    hidden: false,
+    hidden: true,
   },
   {
     name: "Dashboard",
     slug: "dashboard",
-    hidden: false,
+    hidden: true,
   },
   {
     name: "Testimonials",
@@ -76,12 +91,7 @@ export const pagesCategories = [
     name: "Landing",
     slug: "landing",
     hidden: false,
-  },
-  {
-    name: "Blog",
-    slug: "blog",
-    hidden: false,
-  },
+  }, 
   {
     name: "About",
     slug: "about",
@@ -114,11 +124,6 @@ export const iconCategories = [
 
 export const navItems = [
   {
-    href: "/ai",
-    label: "AI",
-    new: false,
-  },
-  {
     href: "/docs/components",
     label: "Components",
     new: false,
@@ -150,59 +155,65 @@ export const MorenavItems = [
     label: "Resources",
     items: [
       {
+        title: "AI",
+        href: "/ai",
+        description:
+          "Hi, My name is Ali Imam, Know more about me.",
+      },
+      {
         title: "Pricing",
         href: "/pricing",
-        description: "Reusable components built with Tailwind CSS.",
+        description:
+          "Simple and transparent pricing plans for individuals and teams.",
       },
       {
         title: "Blogs",
         href: "/blogs",
-        description: "How to install and structure your app.",
+        description:
+          "Insights, tutorials, and deep dives into modern UI and design systems.",
       },
       {
         title: "Works",
         href: "/works",
-        description: "How to install and structure your app.",
+        description:
+          "Explore our latest projects and real-world design implementations.",
       },
       {
         title: "Logos",
         href: "/logos",
-        description: "How to install and structure your app.",
+        description:
+          "Carefully crafted brand logos ready for modern digital products.",
       },
       {
         title: "Backgrounds",
         href: "/backgrounds",
-        description: "How to install and structure your app.",
+        description:
+          "High-quality background patterns and gradients for stunning interfaces.",
       },
       {
         title: "Docs",
         href: "/docs",
-        description: "How to install and structure your app.",
+        description:
+          "Comprehensive documentation to help you get started quickly.",
       },
       {
         title: "Templates",
         href: "/templates",
-        description: "How to install and structure your app.",
-      },
-      {
-        title: "Contact",
-        href: "/contact",
-        description: "How to install and structure your app.",
+        description:
+          "Production-ready templates to launch your next project faster.",
       },
     ],
   },
 ]
 
-export const PATTERN_CATEGORIES = [ 
+export const PATTERN_CATEGORIES = [
   { id: "all", label: "All Patterns" },
   { id: "gradients", label: "Gradients" },
   { id: "mesh", label: "Mesh" },
   { id: "layered", label: "Layered" },
-  { id: "geometric", label: "Geometric" },
-  { id: "decorative", label: "Decorative" },
-  { id: "effects", label: "Effects" },
+  { id: "lines", label: "Lines" },
+  { id: "dots", label: "Dots" },
   { id: "abstract", label: "Abstract" },
-  { id: "colors", label: "Colors" },
   { id: "favourites", label: "Favourites" },
 ] as const
 

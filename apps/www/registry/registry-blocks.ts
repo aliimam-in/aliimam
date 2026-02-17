@@ -409,6 +409,157 @@ export const blocks: Registry["items"] = [
     },
   },
   {
+    name: "hero-12",
+    description: "A simple hero section.",
+    dependencies: ["@aliimam/icons"],
+    registryDependencies: ["button"],
+    type: "registry:block",
+    files: [
+      {
+        path: "blocks/hero/hero-12/hero.tsx",
+        target: "components/hero-12.tsx",
+        type: "registry:component",
+      },
+    ],
+    categories: ["hero"],
+    meta: {
+      iframeHeight: "900px",
+    },
+  },
+  {
+    name: "book-demo-01",
+    description: "A simple book-demo section.",
+    dependencies: ["@aliimam/icons"],
+    registryDependencies: ["button", "input", "label"],
+    type: "registry:block",
+    files: [
+      {
+        path: "blocks/book-demo/book-demo-01/book-demo.tsx",
+        target: "components/book-demo.tsx",
+        type: "registry:component",
+      },
+    ],
+    categories: ["book-demo"],
+    meta: {
+      iframeHeight: "800px",
+    },
+  },
+  {
+    name: "book-demo-02",
+    description: "A simple book-demo section.",
+    dependencies: ["@aliimam/icons"],
+    registryDependencies: ["button", "input", "label", "select", "separator"],
+    type: "registry:block",
+    files: [
+      {
+        path: "blocks/book-demo/book-demo-02/book-demo.tsx",
+        target: "components/book-demo.tsx",
+        type: "registry:component",
+      },
+    ],
+    categories: ["book-demo"],
+    meta: {
+      iframeHeight: "800px",
+    },
+  },
+  {
+    name: "book-demo-03",
+    description: "A simple book-demo section.",
+    dependencies: ["@aliimam/icons", "@aliimam/logos"],
+    registryDependencies: ["button", "input", "label", "select", "textarea"],
+    type: "registry:block",
+    files: [
+      {
+        path: "blocks/book-demo/book-demo-03/book-demo.tsx",
+        target: "components/book-demo.tsx",
+        type: "registry:component",
+      },
+    ],
+    categories: ["book-demo"],
+    meta: {
+      iframeHeight: "800px",
+    },
+  },
+  {
+    name: "book-demo-04",
+    description: "A simple book-demo section.",
+    dependencies: ["@aliimam/icons", "@aliimam/logos"],
+    registryDependencies: [
+      "button",
+      "input",
+      "label",
+      "checkbox",
+      "textarea",
+      "separator",
+    ],
+    type: "registry:block",
+    files: [
+      {
+        path: "blocks/book-demo/book-demo-04/book-demo.tsx",
+        target: "components/book-demo.tsx",
+        type: "registry:component",
+      },
+    ],
+    categories: ["book-demo"],
+    meta: {
+      iframeHeight: "800px",
+    },
+  },
+  {
+    name: "cta-01",
+    description: "A simple cta section.",
+    dependencies: ["@aliimam/icons", "@aliimam/logos"],
+    registryDependencies: ["button"],
+    type: "registry:block",
+    files: [
+      {
+        path: "blocks/cta/cta-01/cta.tsx",
+        target: "components/cta.tsx",
+        type: "registry:component",
+      },
+    ],
+    categories: ["cta"],
+    meta: {
+      iframeHeight: "800px",
+    },
+  },
+  {
+    name: "download-01",
+    description: "A simple download section.",
+    dependencies: ["@aliimam/icons", "@aliimam/logos"],
+    registryDependencies: ["button", "separator"],
+    type: "registry:block",
+    files: [
+      {
+        path: "blocks/download/download-01/download.tsx",
+        target: "components/download.tsx",
+        type: "registry:component",
+      },
+    ],
+    categories: ["download"],
+    meta: {
+      iframeHeight: "800px",
+    },
+  },
+  {
+    name: "download-02",
+    description: "A simple download section.",
+    dependencies: ["@aliimam/icons", "@aliimam/logos"],
+    registryDependencies: ["button", "input"],
+    type: "registry:block",
+    files: [
+      {
+        path: "blocks/download/download-02/download.tsx",
+        target: "components/download.tsx",
+        type: "registry:component",
+      },
+    ],
+    categories: ["download"],
+    meta: {
+      iframeHeight: "800px",
+    },
+  },
+  {
     name: "feature-01",
     description: "A simple feature demo section.",
     dependencies: ["@aliimam/icons"],
@@ -435,6 +586,29 @@ export const blocks: Registry["items"] = [
       {
         path: "blocks/feature/feature-02/page.tsx",
         target: "components/feature-02.tsx",
+        type: "registry:component",
+      },
+      {
+        path: "blocks/feature/feature-02/timeline.tsx",
+        target: "components/timeline.tsx",
+        type: "registry:component",
+      },
+    ],
+    categories: ["feature"],
+    meta: {
+      iframeHeight: "700px",
+    },
+  },
+  {
+    name: "feature-03",
+    description: "A simple feature demo section.",
+    dependencies: ["@aliimam/icons"],
+    registryDependencies: ["shine-border", "button"],
+    type: "registry:block",
+    files: [
+      {
+        path: "blocks/feature/feature-03/page.tsx",
+        target: "components/feature-03.tsx",
         type: "registry:component",
       },
     ],
@@ -958,16 +1132,12 @@ export const blocks: Registry["items"] = [
     name: "login-01",
     description: "A simple login page.",
     type: "registry:block",
-    registryDependencies: ["button", "card", "input", "field"],
+    dependencies: ["@aliimam/icons"],
+    registryDependencies: ["button", "label", "input"],
     files: [
       {
         path: "blocks/login/login-01/page.tsx",
         target: "app/login/page.tsx",
-        type: "registry:component",
-      },
-      {
-        path: "blocks/login/login-01/components/login-form.tsx",
-        target: "components/login-form.tsx",
         type: "registry:component",
       },
     ],
@@ -1004,11 +1174,79 @@ export const blocks: Registry["items"] = [
     description: "A simple testimonials section.",
     type: "registry:block",
     dependencies: ["@aliimam/icons"],
-    registryDependencies: ["button", "input", "field"],
+    registryDependencies: ["button"],
     files: [
       {
         path: "blocks/testimonials/testimonials-01/testimonial.tsx",
-        target: "app/testimonials/testimonial.tsx",
+        target: "components/testimonial.tsx",
+        type: "registry:component",
+      },
+    ],
+    categories: ["testimonials"],
+    meta: {
+      iframeHeight: "500px",
+    },
+  },
+  {
+    name: "testimonials-02",
+    description: "A simple testimonials section.",
+    type: "registry:block",
+    dependencies: ["@aliimam/icons"],
+    files: [
+      {
+        path: "blocks/testimonials/testimonials-02/testimonial.tsx",
+        target: "components/testimonial.tsx",
+        type: "registry:component",
+      },
+    ],
+    categories: ["testimonials"],
+    meta: {
+      iframeHeight: "600px",
+    },
+  },
+  {
+    name: "testimonials-03",
+    description: "A simple testimonials section.",
+    type: "registry:block",
+    files: [
+      {
+        path: "blocks/testimonials/testimonials-03/testimonial.tsx",
+        target: "components/testimonial.tsx",
+        type: "registry:component",
+      },
+    ],
+    categories: ["testimonials"],
+    meta: {
+      iframeHeight: "700px",
+    },
+  },
+  {
+    name: "testimonials-04",
+    description: "A simple testimonials section.",
+    type: "registry:block",
+    dependencies: ["@aliimam/logos"],
+    registryDependencies: ["separator", "marquee"],
+    files: [
+      {
+        path: "blocks/testimonials/testimonials-04/testimonial.tsx",
+        target: "components/testimonial.tsx",
+        type: "registry:component",
+      },
+    ],
+    categories: ["testimonials"],
+    meta: {
+      iframeHeight: "600px",
+    },
+  },
+  {
+    name: "testimonials-05",
+    description: "A simple testimonials section.",
+    type: "registry:block",
+    registryDependencies: ["avatar"],
+    files: [
+      {
+        path: "blocks/testimonials/testimonials-05/testimonial.tsx",
+        target: "components/testimonial.tsx",
         type: "registry:component",
       },
     ],

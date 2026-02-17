@@ -3,23 +3,23 @@ import { Carousel } from "@/registry/aliimam/components/carousel"
 export default function DemoOne() {
   const images = [
     {
-      src: "https://raw.githubusercontent.com/aliimam-in/aliimam/refs/heads/main/apps/www/public/templates/ai-icons.jpg",
+      src: "/r/hero-02-light.png",
       alt: "Icons",
     },
     {
-      src: "https://raw.githubusercontent.com/aliimam-in/aliimam/refs/heads/main/apps/www/public/works/social-media-posts.jpg",
+      src: "/r/hero-03-light.png",
       alt: "Icons",
     },
     {
-      src: "https://raw.githubusercontent.com/aliimam-in/aliimam/refs/heads/main/apps/www/public/works/dalim.jpg",
+      src: "/r/hero-04-light.png",
       alt: "Icons",
     },
     {
-      src: "https://raw.githubusercontent.com/aliimam-in/aliimam/refs/heads/main/apps/www/public/works/website-designs.jpg",
+      src: "/r/hero-05-light.png",
       alt: "Icons",
     },
     {
-      src: "https://raw.githubusercontent.com/aliimam-in/aliimam/refs/heads/main/apps/www/public/templates/ai-logos.jpg",
+      src: "/r/hero-06-light.png",
       alt: "Icons",
     },
   ]

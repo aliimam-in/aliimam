@@ -10,7 +10,8 @@ export default function CTASection() {
           <div
             className="relative h-full w-full overflow-hidden"
             style={{
-              background: "linear-gradient(to bottom, var(--background) 0%, var(--background) 40%, rgba(255,255,255,0) 100%), radial-gradient(ellipse at 50% 120%, var(--primary) 0%, var(--background) 70%)",
+              background:
+                "linear-gradient(to bottom, var(--background) 0%, var(--background) 40%, rgba(255,255,255,0) 100%), radial-gradient(ellipse at 50% 120%, var(--primary) 0%, var(--background) 70%)",
             }}
           >
             <div

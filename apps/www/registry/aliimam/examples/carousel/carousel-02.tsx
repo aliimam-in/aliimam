@@ -8,7 +8,7 @@ export default function DemoOne() {
     >
       <div className="h-full w-full overflow-hidden">
         <img
-          src="https://raw.githubusercontent.com/aliimam-in/aliimam/refs/heads/main/apps/www/public/templates/ai-icons.jpg"
+          src="/r/hero-07-light.png"
           className="h-full w-full object-cover"
         />
       </div>
@@ -19,7 +19,7 @@ export default function DemoOne() {
     >
       <div className="h-full w-full overflow-hidden">
         <img
-          src="https://raw.githubusercontent.com/aliimam-in/aliimam/refs/heads/main/apps/www/public/works/social-media-posts.jpg"
+          src="/r/hero-08-light.png"
           className="h-full w-full object-cover"
         />
       </div>
@@ -30,7 +30,7 @@ export default function DemoOne() {
     >
       <div className="h-full w-full overflow-hidden">
         <img
-          src="https://raw.githubusercontent.com/aliimam-in/aliimam/refs/heads/main/apps/www/public/works/dalim.jpg"
+          src="/r/hero-09-light.png"
           className="h-full w-full object-cover"
         />
       </div>
@@ -41,7 +41,7 @@ export default function DemoOne() {
     >
       <div className="h-full w-full overflow-hidden">
         <img
-          src="https://raw.githubusercontent.com/aliimam-in/aliimam/refs/heads/main/apps/www/public/works/website-designs.jpg"
+          src="/r/hero-10-light.png"
           className="h-full w-full object-cover"
         />
       </div>
@@ -52,7 +52,7 @@ export default function DemoOne() {
     >
       <div className="h-full w-full overflow-hidden">
         <img
-          src="https://raw.githubusercontent.com/aliimam-in/aliimam/refs/heads/main/apps/www/public/templates/ai-logos.jpg"
+          src="/r/hero-11-light.png"
           className="h-full w-full object-cover"
         />
       </div>

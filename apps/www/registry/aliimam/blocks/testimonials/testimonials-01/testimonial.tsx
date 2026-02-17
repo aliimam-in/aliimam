@@ -1,7 +1,8 @@
 "use client"
 
 import { useEffect, useState } from "react"
-import { ChevronLeft, ChevronRight } from "@aliimam/icons" 
+import { ChevronLeft, ChevronRight } from "@aliimam/icons"
+
 import { Button } from "@/registry/aliimam/ui/button"
 
 export default function TestimonialsSection() {
@@ -57,13 +58,12 @@ export default function TestimonialsSection() {
   }
 
   return (
-    <div className="flex w-full flex-col items-center justify-center">
-       
+    <div className="flex min-h-svh w-full flex-col items-center justify-center">
       <div className="bg-background flex items-center justify-start self-stretch overflow-hidden border border-t-0 border-r-0 border-b border-l-0 px-2">
         <div className="flex flex-1 flex-col items-end justify-center gap-6 py-16 md:flex-row md:py-17">
           <div className="flex flex-col items-start justify-center gap-4 self-stretch px-3 md:flex-row md:px-12">
             <img
-              className="h-50 w-48 rounded-lg object-cover transition-all duration-700 ease-in-out md:h-50 md:w-48"
+              className="h-24 w-24 rounded-md object-cover transition-all duration-700 ease-in-out md:h-50 md:w-50"
               style={{
                 opacity: isTransitioning ? 0.6 : 1,
                 transform: isTransitioning ? "scale(0.95)" : "scale(1)",
@@ -73,9 +73,9 @@ export default function TestimonialsSection() {
               src={testimonials[activeTestimonial].image || "/placeholder.svg"}
               alt={testimonials[activeTestimonial].name}
             />
-            <div className="flex flex-1 flex-col items-start justify-start gap-3 overflow-hidden px-6">
+            <div className="flex flex-1 flex-col items-start justify-start gap-3 overflow-hidden md:px-6">
               <div
-                className="line-clamp-5 flex h-40 flex-col justify-start self-stretch overflow-hidden text-4xl font-medium tracking-tight transition-all duration-700 ease-in-out"
+                className="line-clamp-5 flex h-40 flex-col justify-start self-stretch overflow-hidden text-2xl font-medium tracking-tight transition-all duration-700 ease-in-out md:text-4xl"
                 style={{
                   filter: isTransitioning ? "blur(4px)" : "blur(0px)",
                   transition: "filter 0.7s ease-in-out",
@@ -127,7 +127,6 @@ export default function TestimonialsSection() {
           </div>
         </div>
       </div>
-
 
       <div className="relative h-12 self-stretch overflow-hidden border-b">
         <div className="absolute inset-0 h-full w-full overflow-hidden">

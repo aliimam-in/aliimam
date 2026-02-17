@@ -63,7 +63,32 @@ export default function DocumentationSection() {
   ]
 
   return (
-    <div className="flex w-full flex-col items-center justify-center">
+    <div className="relative flex w-full flex-col items-center justify-center">
+      <div
+        className="absolute inset-0 -z-10"
+        style={{
+          background:
+            "linear-gradient(to bottom, var(--background) 0%, var(--background) 20%, rgba(255,255,255,0) 100%), radial-gradient(ellipse at 50% 120%, var(--primary) 0%, var(--background) 60%)",
+        }}
+      >
+        <div
+          style={{
+            WebkitMaskImage:
+              "linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.8) 100%)",
+            backgroundImage:
+              "repeating-linear-gradient(90deg, var(--primary) 0px, var(--primary) 1px, transparent 1px, transparent 12px)",
+            height: "100%",
+            left: "0",
+            maskImage:
+              "linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.8) 100%)",
+            opacity: "0.25",
+            pointerEvents: "none",
+            position: "absolute",
+            top: "0",
+            width: "100%",
+          }}
+        />
+      </div>
       <div className="flex items-center justify-center gap-6 self-stretch px-4 py-8 sm:px-6 md:px-24 md:py-16">
         <div className="flex w-full max-w-4xl flex-col items-center justify-start gap-3 overflow-hidden">
           <Badge variant={"secondary"}>Selected Work</Badge>

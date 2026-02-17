@@ -26,9 +26,7 @@ export default function DemoOne() {
               </div>
 
               <div className="flex justify-center">
-                <Button size={"lg"}>
-                  Let&apos;s Go
-                </Button>
+                <Button size={"lg"}>Let&apos;s Go</Button>
               </div>
             </main>
           </div>

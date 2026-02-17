@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "testimonials-04",
+  "description": "A simple testimonials section.",
+  "dependencies": [
+    "@aliimam/logos"
+  ],
+  "registryDependencies": [
+    "separator",
+    "marquee"
+  ],
+  "files": [
+    {
+      "path": "blocks/testimonials/testimonials-04/testimonial.tsx",
+      "content": "import { Vercel } from \"@aliimam/logos\"\n\nimport { Marquee } from \"@/registry/aliimam/components/marquee\"\nimport { Separator } from \"@/components/ui/separator\"\n\nconst testimonials = [\n  {\n    name: \"Alena Zhukova\",\n    profession: \"Software Engineer\",\n    description:\n      \"This design system helped us build modern, scalable, and consistent user interfaces with ease.\",\n  },\n  {\n    name: \"Aiko\",\n    profession: \"Design Engineer\",\n    description:\n      \"This design system helped us build modern, scalable, and consistent user interfaces with ease.\",\n  },\n  {\n    name: \"Alena Zhukova\",\n    profession: \"Software Engineer\",\n    description:\n      \"This design system helped us build modern, scalable, and consistent user interfaces with ease.\",\n  },\n  {\n    name: \"Lisa Kemp\",\n    profession: \"Frontend Developer\",\n    description:\n      \"This design system helped us build modern, scalable, and consistent user interfaces with ease.\",\n  },\n  {\n    name: \"Saud\",\n    profession: \"Game Developer\",\n    description:\n      \"This design system helped us build modern, scalable, and consistent user interfaces with ease.\",\n  },\n  {\n    name: \"Paula Smith\",\n    profession: \"UX Designer\",\n    description:\n      \"This design system helped us build modern, scalable, and consistent user interfaces with ease.\",\n  },\n]\n\nconst FUITestimonialWithSlide = () => {\n  return (\n    <div className=\"relative flex min-h-svh w-full flex-col items-center justify-center overflow-hidden py-10\">\n      <div className=\"mx-auto w-full\">\n        <div className=\"mb-10\">\n          <p className=\"mx-auto mt-8 max-w-2xl text-center text-5xl tracking-tight\">\n            What Our Clients Say\n          </p>\n          <p className=\"text-muted-foreground mx-auto mt-4 max-w-xl text-center text-lg tracking-tight\">\n            Trusted by designers and developers to build modern, scalable, and\n            beautifully crafted user experiences.\n          </p>\n        </div>\n\n        <div className=\"relative flex shrink-0 justify-around gap-5 overflow-hidden\">\n          <Marquee pauseOnHover fade={true} gap={6} className=\"w-full\">\n            {testimonials.map((testimonial, indx) => {\n              return (\n                <div\n                  key={indx}\n                  className=\"bg-background flex h-full w-120 flex-col space-x-4 rounded-md border last:mr-2\"\n                >\n                  <p className=\"text-text-primary dark:text-dark-text-primary px-5 py-5 text-xl font-extralight tracking-tighter text-pretty sm:text-xl md:text-2xl\">\n                    &quot;{testimonial.description}.&quot;\n                  </p>\n                  <div className=\"flex w-full gap-1 overflow-hidden border-t-[1.2px]\">\n                    <div className=\"flex w-3/4 items-center gap-3 px-4 py-3\">\n                      <img\n                        className=\"h-16 w-16 rounded-md\"\n                        src=\"/ali.jpg\"\n                        alt=\"ali\"\n                      />\n                      <div className=\"flex flex-1 flex-col items-start justify-start gap-0\">\n                        <h5 className=\"text-base font-medium md:text-lg\">\n                          {testimonial.name}\n                        </h5>\n                        <p className=\"text-text-tertiary dark:text-dark-text-tertiary -mt-1 text-sm\">\n                          {testimonial.profession}\n                        </p>\n                      </div>\n                    </div>\n                    <Separator orientation=\"vertical\" />\n                    <div className=\"self-center pl-10\">\n                      <Vercel />\n                    </div>\n                  </div>\n                </div>\n              )\n            })}\n          </Marquee>\n        </div>\n      </div>\n    </div>\n  )\n}\nexport default FUITestimonialWithSlide\n",
+      "type": "registry:component",
+      "target": "components/testimonial.tsx"
+    }
+  ],
+  "meta": {
+    "iframeHeight": "600px"
+  },
+  "categories": [
+    "testimonials"
+  ],
+  "type": "registry:block"
+}

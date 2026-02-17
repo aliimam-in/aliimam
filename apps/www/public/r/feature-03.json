@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "feature-03",
+  "description": "A simple feature demo section.",
+  "dependencies": [
+    "@aliimam/icons"
+  ],
+  "registryDependencies": [
+    "shine-border",
+    "button"
+  ],
+  "files": [
+    {
+      "path": "blocks/feature/feature-03/page.tsx",
+      "content": "\"use client\"\n\nimport { DotPattern } from \"@/registry/aliimam/components/dot-pattern\"\n\nexport default function Quote() {\n  return (\n    <div className=\"container flex h-screen w-full flex-col items-center justify-center\">\n      <div className=\"border-primary relative flex flex-col items-center rounded-md border\">\n        <DotPattern dotSize={0.5} width={5} height={5} />\n\n        <div className=\"bg-primary absolute -top-1.5 -left-1.5 h-3 w-3 rounded-md text-white\" />\n        <div className=\"bg-primary absolute -bottom-1.5 -left-1.5 h-3 w-3 rounded-md text-white\" />\n        <div className=\"bg-primary absolute -top-1.5 -right-1.5 h-3 w-3 rounded-md text-white\" />\n        <div className=\"bg-primary absolute -right-1.5 -bottom-1.5 h-3 w-3 rounded-md text-white\" />\n\n        <div className=\"relative p-10 md:py-20\">\n          <p className=\"md:text-md text-primary text-xs lg:text-lg xl:text-2xl\">\n            I believe\n          </p>\n          <div className=\"text-2xl tracking-tighter md:text-5xl lg:text-7xl xl:text-8xl\">\n            <div className=\"flex gap-1 md:gap-2 lg:gap-3 xl:gap-4\">\n              <h1 className=\"font-semibold\">&quot;Design should be</h1>\n              <p className=\"font-thin\">easy to</p>\n            </div>\n            <div className=\"flex gap-1 md:gap-2 lg:gap-3 xl:gap-4\">\n              <p className=\"font-thin\">understand</p>\n              <h1 className=\"font-semibold\">because</h1>\n              <p className=\"font-thin\">simple</p>\n            </div>\n            <div className=\"flex gap-1 md:gap-2 lg:gap-3 xl:gap-4\">\n              <p className=\"font-thin\">ideas</p>\n              <h1 className=\"font-semibold\">are quicker to</h1>\n            </div>\n            <h1 className=\"font-semibold\">grasp...&quot;</h1>\n          </div>\n        </div>\n      </div>\n    </div>\n  )\n}\n",
+      "type": "registry:component",
+      "target": "components/feature-03.tsx"
+    }
+  ],
+  "meta": {
+    "iframeHeight": "700px"
+  },
+  "categories": [
+    "feature"
+  ],
+  "type": "registry:block"
+}

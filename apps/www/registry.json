@@ -428,6 +428,169 @@
       "categories": ["hero"]
     },
     {
+      "name": "hero-12",
+      "type": "registry:block",
+      "description": "A simple hero section.",
+      "dependencies": ["@aliimam/icons"],
+      "registryDependencies": ["button"],
+      "files": [
+        {
+          "path": "registry/aliimam/blocks/hero/hero-12/hero.tsx",
+          "type": "registry:component",
+          "target": "components/hero-12.tsx"
+        }
+      ],
+      "meta": {
+        "iframeHeight": "900px"
+      },
+      "categories": ["hero"]
+    },
+    {
+      "name": "book-demo-01",
+      "type": "registry:block",
+      "description": "A simple book-demo section.",
+      "dependencies": ["@aliimam/icons"],
+      "registryDependencies": ["button", "input", "label"],
+      "files": [
+        {
+          "path": "registry/aliimam/blocks/book-demo/book-demo-01/book-demo.tsx",
+          "type": "registry:component",
+          "target": "components/book-demo.tsx"
+        }
+      ],
+      "meta": {
+        "iframeHeight": "800px"
+      },
+      "categories": ["book-demo"]
+    },
+    {
+      "name": "book-demo-02",
+      "type": "registry:block",
+      "description": "A simple book-demo section.",
+      "dependencies": ["@aliimam/icons"],
+      "registryDependencies": [
+        "button",
+        "input",
+        "label",
+        "select",
+        "separator"
+      ],
+      "files": [
+        {
+          "path": "registry/aliimam/blocks/book-demo/book-demo-02/book-demo.tsx",
+          "type": "registry:component",
+          "target": "components/book-demo.tsx"
+        }
+      ],
+      "meta": {
+        "iframeHeight": "800px"
+      },
+      "categories": ["book-demo"]
+    },
+    {
+      "name": "book-demo-03",
+      "type": "registry:block",
+      "description": "A simple book-demo section.",
+      "dependencies": ["@aliimam/icons", "@aliimam/logos"],
+      "registryDependencies": [
+        "button",
+        "input",
+        "label",
+        "select",
+        "textarea"
+      ],
+      "files": [
+        {
+          "path": "registry/aliimam/blocks/book-demo/book-demo-03/book-demo.tsx",
+          "type": "registry:component",
+          "target": "components/book-demo.tsx"
+        }
+      ],
+      "meta": {
+        "iframeHeight": "800px"
+      },
+      "categories": ["book-demo"]
+    },
+    {
+      "name": "book-demo-04",
+      "type": "registry:block",
+      "description": "A simple book-demo section.",
+      "dependencies": ["@aliimam/icons", "@aliimam/logos"],
+      "registryDependencies": [
+        "button",
+        "input",
+        "label",
+        "checkbox",
+        "textarea",
+        "separator"
+      ],
+      "files": [
+        {
+          "path": "registry/aliimam/blocks/book-demo/book-demo-04/book-demo.tsx",
+          "type": "registry:component",
+          "target": "components/book-demo.tsx"
+        }
+      ],
+      "meta": {
+        "iframeHeight": "800px"
+      },
+      "categories": ["book-demo"]
+    },
+    {
+      "name": "cta-01",
+      "type": "registry:block",
+      "description": "A simple cta section.",
+      "dependencies": ["@aliimam/icons", "@aliimam/logos"],
+      "registryDependencies": ["button"],
+      "files": [
+        {
+          "path": "registry/aliimam/blocks/cta/cta-01/cta.tsx",
+          "type": "registry:component",
+          "target": "components/cta.tsx"
+        }
+      ],
+      "meta": {
+        "iframeHeight": "800px"
+      },
+      "categories": ["cta"]
+    },
+    {
+      "name": "download-01",
+      "type": "registry:block",
+      "description": "A simple download section.",
+      "dependencies": ["@aliimam/icons", "@aliimam/logos"],
+      "registryDependencies": ["button", "separator"],
+      "files": [
+        {
+          "path": "registry/aliimam/blocks/download/download-01/download.tsx",
+          "type": "registry:component",
+          "target": "components/download.tsx"
+        }
+      ],
+      "meta": {
+        "iframeHeight": "800px"
+      },
+      "categories": ["download"]
+    },
+    {
+      "name": "download-02",
+      "type": "registry:block",
+      "description": "A simple download section.",
+      "dependencies": ["@aliimam/icons", "@aliimam/logos"],
+      "registryDependencies": ["button", "input"],
+      "files": [
+        {
+          "path": "registry/aliimam/blocks/download/download-02/download.tsx",
+          "type": "registry:component",
+          "target": "components/download.tsx"
+        }
+      ],
+      "meta": {
+        "iframeHeight": "800px"
+      },
+      "categories": ["download"]
+    },
+    {
       "name": "feature-01",
       "type": "registry:block",
       "description": "A simple feature demo section.",
@@ -455,6 +618,29 @@
           "path": "registry/aliimam/blocks/feature/feature-02/page.tsx",
           "type": "registry:component",
           "target": "components/feature-02.tsx"
+        },
+        {
+          "path": "registry/aliimam/blocks/feature/feature-02/timeline.tsx",
+          "type": "registry:component",
+          "target": "components/timeline.tsx"
+        }
+      ],
+      "meta": {
+        "iframeHeight": "700px"
+      },
+      "categories": ["feature"]
+    },
+    {
+      "name": "feature-03",
+      "type": "registry:block",
+      "description": "A simple feature demo section.",
+      "dependencies": ["@aliimam/icons"],
+      "registryDependencies": ["shine-border", "button"],
+      "files": [
+        {
+          "path": "registry/aliimam/blocks/feature/feature-03/page.tsx",
+          "type": "registry:component",
+          "target": "components/feature-03.tsx"
         }
       ],
       "meta": {
@@ -977,17 +1163,13 @@
       "name": "login-01",
       "type": "registry:block",
       "description": "A simple login page.",
-      "registryDependencies": ["button", "card", "input", "field"],
+      "dependencies": ["@aliimam/icons"],
+      "registryDependencies": ["button", "label", "input"],
       "files": [
         {
           "path": "registry/aliimam/blocks/login/login-01/page.tsx",
           "type": "registry:component",
           "target": "app/login/page.tsx"
-        },
-        {
-          "path": "registry/aliimam/blocks/login/login-01/components/login-form.tsx",
-          "type": "registry:component",
-          "target": "components/login-form.tsx"
         }
       ],
       "meta": {
@@ -1023,12 +1205,80 @@
       "type": "registry:block",
       "description": "A simple testimonials section.",
       "dependencies": ["@aliimam/icons"],
-      "registryDependencies": ["button", "input", "field"],
+      "registryDependencies": ["button"],
       "files": [
         {
           "path": "registry/aliimam/blocks/testimonials/testimonials-01/testimonial.tsx",
           "type": "registry:component",
-          "target": "app/testimonials/testimonial.tsx"
+          "target": "components/testimonial.tsx"
+        }
+      ],
+      "meta": {
+        "iframeHeight": "500px"
+      },
+      "categories": ["testimonials"]
+    },
+    {
+      "name": "testimonials-02",
+      "type": "registry:block",
+      "description": "A simple testimonials section.",
+      "dependencies": ["@aliimam/icons"],
+      "files": [
+        {
+          "path": "registry/aliimam/blocks/testimonials/testimonials-02/testimonial.tsx",
+          "type": "registry:component",
+          "target": "components/testimonial.tsx"
+        }
+      ],
+      "meta": {
+        "iframeHeight": "600px"
+      },
+      "categories": ["testimonials"]
+    },
+    {
+      "name": "testimonials-03",
+      "type": "registry:block",
+      "description": "A simple testimonials section.",
+      "files": [
+        {
+          "path": "registry/aliimam/blocks/testimonials/testimonials-03/testimonial.tsx",
+          "type": "registry:component",
+          "target": "components/testimonial.tsx"
+        }
+      ],
+      "meta": {
+        "iframeHeight": "700px"
+      },
+      "categories": ["testimonials"]
+    },
+    {
+      "name": "testimonials-04",
+      "type": "registry:block",
+      "description": "A simple testimonials section.",
+      "dependencies": ["@aliimam/logos"],
+      "registryDependencies": ["separator", "marquee"],
+      "files": [
+        {
+          "path": "registry/aliimam/blocks/testimonials/testimonials-04/testimonial.tsx",
+          "type": "registry:component",
+          "target": "components/testimonial.tsx"
+        }
+      ],
+      "meta": {
+        "iframeHeight": "600px"
+      },
+      "categories": ["testimonials"]
+    },
+    {
+      "name": "testimonials-05",
+      "type": "registry:block",
+      "description": "A simple testimonials section.",
+      "registryDependencies": ["avatar"],
+      "files": [
+        {
+          "path": "registry/aliimam/blocks/testimonials/testimonials-05/testimonial.tsx",
+          "type": "registry:component",
+          "target": "components/testimonial.tsx"
         }
       ],
       "meta": {

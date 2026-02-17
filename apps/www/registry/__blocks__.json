@@ -85,12 +85,57 @@
     "categories": ["hero"]
   },
   {
+    "name": "hero-12",
+    "description": "A simple hero section.",
+    "categories": ["hero"]
+  },
+  {
+    "name": "book-demo-01",
+    "description": "A simple book-demo section.",
+    "categories": ["book-demo"]
+  },
+  {
+    "name": "book-demo-02",
+    "description": "A simple book-demo section.",
+    "categories": ["book-demo"]
+  },
+  {
+    "name": "book-demo-03",
+    "description": "A simple book-demo section.",
+    "categories": ["book-demo"]
+  },
+  {
+    "name": "book-demo-04",
+    "description": "A simple book-demo section.",
+    "categories": ["book-demo"]
+  },
+  {
+    "name": "cta-01",
+    "description": "A simple cta section.",
+    "categories": ["cta"]
+  },
+  {
+    "name": "download-01",
+    "description": "A simple download section.",
+    "categories": ["download"]
+  },
+  {
+    "name": "download-02",
+    "description": "A simple download section.",
+    "categories": ["download"]
+  },
+  {
     "name": "feature-01",
     "description": "A simple feature demo section.",
     "categories": ["feature"]
   },
   {
     "name": "feature-02",
+    "description": "A simple feature demo section.",
+    "categories": ["feature"]
+  },
+  {
+    "name": "feature-03",
     "description": "A simple feature demo section.",
     "categories": ["feature"]
   },
@@ -226,6 +271,26 @@
   },
   {
     "name": "testimonials-01",
+    "description": "A simple testimonials section.",
+    "categories": ["testimonials"]
+  },
+  {
+    "name": "testimonials-02",
+    "description": "A simple testimonials section.",
+    "categories": ["testimonials"]
+  },
+  {
+    "name": "testimonials-03",
+    "description": "A simple testimonials section.",
+    "categories": ["testimonials"]
+  },
+  {
+    "name": "testimonials-04",
+    "description": "A simple testimonials section.",
+    "categories": ["testimonials"]
+  },
+  {
+    "name": "testimonials-05",
     "description": "A simple testimonials section.",
     "categories": ["testimonials"]
   },

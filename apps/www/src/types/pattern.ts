@@ -6,16 +6,10 @@ export interface Pattern {
     | "gradients"
     | "mesh"
     | "layered"
-    | "effects"
-    | "abstract"
-    | "geometric"
-    | "organic"
-    | "retro"
-    | "neon"
+    | "lines"
+    | "dots"
     | "textures"
-    | "nature"
-    | "dark"
-    | "minimal"
+    | "abstract"     
   badge?: "New" | "Popular" | string
   render?: () => React.ReactNode
 }
