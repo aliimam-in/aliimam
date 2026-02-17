@@ -280,12 +280,30 @@ export async function getFigmaDocument(
     headers: config.headers,
   });
   const data = (await resp.json()) as IFigmaFileResponse;
+
   if (data.status === 403 && data.err === "Invalid token") {
     throw new CodedError(
       ERRORS.FIGMA_API,
       "An invalid token was used. Follow the Auth Guide (https://git.io/Je87i), and try again."
     );
   }
+
+  // NEW: catch any other non-OK HTTP status
+  if (!resp.ok) {
+    throw new CodedError(
+      ERRORS.FIGMA_API,
+      `Figma API returned status ${resp.status}${data.err ? `: ${data.err}` : ""}. Check your file key and token.`
+    );
+  }
+
+  // NEW: guard against a missing document (wrong file key, no access, etc.)
+  if (!data.document) {
+    throw new CodedError(
+      ERRORS.FIGMA_API,
+      `Figma API response is missing 'document'. This usually means the file key is wrong or your token lacks access to it.\nRaw response:\n${JSON.stringify(data, null, 2)}`
+    );
+  }
+
   return data.document;
 }
 
@@ -402,6 +420,14 @@ export async function renderIdsToSvgs(
 
 
 export function getIconsPage(document: IFigmaDocument): IFigmaCanvas | null {
+  // NEW: guard in case document or children are somehow still undefined
+  if (!document?.children) {
+    throw new CodedError(
+      ERRORS.UNEXPECTED,
+      "Figma document has no children. The file may be empty or inaccessible."
+    );
+  }
+
   const canvas = document.children.find(
     (page) => page.name.toLowerCase() === "icons"
   );

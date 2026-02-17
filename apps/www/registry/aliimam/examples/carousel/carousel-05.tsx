@@ -5,27 +5,27 @@ export default function DemoOne() {
     {
       src: "/r/hero-02-light.png",
       alt: "Icons",
-      caption : "Icons"
+      caption: "Icons",
     },
     {
       src: "/r/hero-03-light.png",
       alt: "Icons",
-      caption : "Icons"
+      caption: "Icons",
     },
     {
       src: "/r/hero-04-light.png",
       alt: "Icons",
-      caption : "Icons"
+      caption: "Icons",
     },
     {
       src: "/r/hero-05-light.png",
       alt: "Icons",
-      caption : "Icons"
+      caption: "Icons",
     },
     {
       src: "/r/hero-06-light.png",
       alt: "Icons",
-      caption : "Icons"
+      caption: "Icons",
     },
   ]
 

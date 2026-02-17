@@ -19,7 +19,7 @@ export default function DemoOne() {
     >
       <div className="h-full w-full overflow-hidden">
         <img
-         src="/r/hero-02-light.png"
+          src="/r/hero-02-light.png"
           className="h-full w-full object-cover"
         />
       </div>
@@ -52,7 +52,7 @@ export default function DemoOne() {
     >
       <div className="h-full w-full overflow-hidden">
         <img
-         src="/r/hero-05-light.png"
+          src="/r/hero-05-light.png"
           className="h-full w-full object-cover"
         />
       </div>

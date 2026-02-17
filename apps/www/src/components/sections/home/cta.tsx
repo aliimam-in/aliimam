@@ -34,14 +34,14 @@ export function CallToAction() {
 
           <div className="flex pt-6 gap-3 flex-wrap justify-center">
             <Link target="_blank" href="https://cal.com/aliimam-in/30min">
-              <Button className="h-12 rounded-full cursor-pointer w-40">
+              <Button className="h-12 cursor-pointer w-40">
                 Book a Call
               </Button>
             </Link>
             <Link href="/blocks">
               <Button
                 variant={"outline"}
-                className="h-12 w-40 cursor-pointer rounded-full"
+                className="h-12 w-40 cursor-pointer"
               >
                 <WhatsApp /> Start Chat
               </Button>

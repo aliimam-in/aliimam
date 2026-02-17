@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "pricing-04",
+  "description": "A simple pricing section.",
+  "dependencies": [
+    "@aliimam/icons"
+  ],
+  "registryDependencies": [
+    "button",
+    "card"
+  ],
+  "files": [
+    {
+      "path": "blocks/pricing/pricing-04/pricing.tsx",
+      "content": "\"use client\"\n\nimport Link from \"next/link\"\nimport { Check } from \"@aliimam/icons\"\n\nimport { Button } from \"@/components/ui/button\"\nimport {\n  Card,\n  CardContent,\n  CardDescription,\n  CardFooter,\n  CardHeader,\n  CardTitle,\n} from \"@/components/ui/card\"\n\nexport default function Page() {\n  return (\n    <div className=\"flex min-h-svh w-full items-center justify-center p-6 md:p-10\">\n      <section className=\"border-x\">\n        <div className=\"grid md:grid-cols-2\">\n          <Card className=\"flex flex-col rounded-none border-x-0 shadow-none md:border-r\">\n            <CardHeader>\n              <CardTitle className=\"text-3xl font-bold\">Free</CardTitle>\n              <span className=\"text-primary my-3 block text-2xl font-semibold\">\n                $0 / mo\n              </span>\n              <CardDescription className=\"text-sm\">Individual</CardDescription>\n            </CardHeader>\n\n            <CardContent className=\"space-y-4\">\n              <hr className=\"border-dashed\" />\n\n              <ul className=\"list-outside space-y-3 text-sm\">\n                {[\n                  \"Access to free UI components\",\n                  \"Free graphics (unlimited collection)\",\n                  \"Free fonts (unlimited selection)\",\n                  \"Use of dashboard\",\n                  \"Unlimited uploads\",\n                  \"Use free icons\",\n                ].map((item, index) => (\n                  <li key={index} className=\"flex items-center gap-2\">\n                    <Check className=\"size-3\" />\n                    {item}\n                  </li>\n                ))}\n              </ul>\n            </CardContent>\n\n            <CardFooter className=\"mt-auto\">\n              <Link className=\"w-full\" href={\"/\"}>\n                <Button size={\"lg\"} variant=\"outline\" className=\"w-full\">\n                  Dashboard\n                </Button>\n              </Link>\n            </CardFooter>\n          </Card>\n\n          <Card className=\"flex flex-col rounded-none border-x-0 shadow-none\">\n            <CardHeader>\n              <CardTitle className=\"text-3xl font-bold\">Startup</CardTitle>\n              <span className=\"text-primary my-3 block text-2xl font-semibold\">\n                $999 / mo\n              </span>\n              <CardDescription className=\"text-sm\">Retainer</CardDescription>\n            </CardHeader>\n\n            <CardContent className=\"space-y-4\">\n              <hr className=\"border-dashed\" />\n\n              <ul className=\"list-outside space-y-3 text-sm\">\n                {[\n                  \"Everything in Free Plan\",\n                  \"Branding\",\n                  \"Website Design & Develop\",\n                  \"Next.js 15, Typesctipt, Tailwind 4 CSS\",\n                  \"Shadcn/ui\",\n                  \"Google & Vercel Analytics\",\n                  \"Responsive across desktop, tablet and mobile\",\n                  \"Fast-loading, SEO-friendly, and performance optimized.\",\n                  \"Theming – Adding light and dark mode.\",\n                  \"Unlimited design changes\",\n                ].map((item, index) => (\n                  <li key={index} className=\"flex items-center gap-2\">\n                    <Check className=\"size-3\" />\n                    {item}\n                  </li>\n                ))}\n              </ul>\n            </CardContent>\n\n            <CardFooter className=\"mt-auto\">\n              <Link\n                className=\"w-full\"\n                href={\"https://cal.com/dalim/15min\"}\n                target=\"_blank\"\n              >\n                <Button size={\"lg\"} variant=\"outline\" className=\"w-full\">\n                  Book a call\n                </Button>\n              </Link>\n            </CardFooter>\n          </Card>\n        </div>\n      </section>\n    </div>\n  )\n}\n",
+      "type": "registry:component",
+      "target": "components/pricing.tsx"
+    }
+  ],
+  "meta": {
+    "iframeHeight": "700px"
+  },
+  "categories": [
+    "pricing"
+  ],
+  "type": "registry:block"
+}

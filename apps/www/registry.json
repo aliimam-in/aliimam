@@ -550,7 +550,25 @@
         }
       ],
       "meta": {
-        "iframeHeight": "800px"
+        "iframeHeight": "600px"
+      },
+      "categories": ["cta"]
+    },
+    {
+      "name": "cta-02",
+      "type": "registry:block",
+      "description": "A simple cta section.",
+      "dependencies": ["@aliimam/logos"],
+      "registryDependencies": ["button"],
+      "files": [
+        {
+          "path": "registry/aliimam/blocks/cta/cta-02/cta.tsx",
+          "type": "registry:component",
+          "target": "components/cta.tsx"
+        }
+      ],
+      "meta": {
+        "iframeHeight": "820px"
       },
       "categories": ["cta"]
     },
@@ -1111,12 +1129,12 @@
       "type": "registry:block",
       "description": "A simple pricing section.",
       "dependencies": ["@aliimam/icons"],
-      "registryDependencies": ["button", "card"],
+      "registryDependencies": ["button", "separator"],
       "files": [
         {
-          "path": "registry/aliimam/blocks/pricing/pricing-01/page.tsx",
+          "path": "registry/aliimam/blocks/pricing/pricing-01/pricing.tsx",
           "type": "registry:component",
-          "target": "components/pricing-01.tsx"
+          "target": "components/pricing.tsx"
         }
       ],
       "meta": {
@@ -1150,6 +1168,24 @@
       "files": [
         {
           "path": "registry/aliimam/blocks/pricing/pricing-03/pricing.tsx",
+          "type": "registry:component",
+          "target": "components/pricing.tsx"
+        }
+      ],
+      "meta": {
+        "iframeHeight": "700px"
+      },
+      "categories": ["pricing"]
+    },
+    {
+      "name": "pricing-04",
+      "type": "registry:block",
+      "description": "A simple pricing section.",
+      "dependencies": ["@aliimam/icons"],
+      "registryDependencies": ["button", "card"],
+      "files": [
+        {
+          "path": "registry/aliimam/blocks/pricing/pricing-04/pricing.tsx",
           "type": "registry:component",
           "target": "components/pricing.tsx"
         }

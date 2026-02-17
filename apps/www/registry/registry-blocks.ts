@@ -520,7 +520,25 @@ export const blocks: Registry["items"] = [
     ],
     categories: ["cta"],
     meta: {
-      iframeHeight: "800px",
+      iframeHeight: "600px",
+    },
+  },
+  {
+    name: "cta-02",
+    description: "A simple cta section.",
+    dependencies: ["@aliimam/logos"],
+    registryDependencies: ["button"],
+    type: "registry:block",
+    files: [
+      {
+        path: "blocks/cta/cta-02/cta.tsx",
+        target: "components/cta.tsx",
+        type: "registry:component",
+      },
+    ],
+    categories: ["cta"],
+    meta: {
+      iframeHeight: "820px",
     },
   },
   {
@@ -1080,11 +1098,11 @@ export const blocks: Registry["items"] = [
     description: "A simple pricing section.",
     type: "registry:block",
     dependencies: ["@aliimam/icons"],
-    registryDependencies: ["button", "card"],
+    registryDependencies: ["button", "separator"],
     files: [
       {
-        path: "blocks/pricing/pricing-01/page.tsx",
-        target: "components/pricing-01.tsx",
+        path: "blocks/pricing/pricing-01/pricing.tsx",
+        target: "components/pricing.tsx",
         type: "registry:component",
       },
     ],
@@ -1129,11 +1147,29 @@ export const blocks: Registry["items"] = [
     },
   },
   {
+    name: "pricing-04",
+    description: "A simple pricing section.",
+    type: "registry:block",
+    dependencies: ["@aliimam/icons"],
+    registryDependencies: ["button", "card"],
+    files: [
+      {
+        path: "blocks/pricing/pricing-04/pricing.tsx",
+        target: "components/pricing.tsx",
+        type: "registry:component",
+      },
+    ],
+    categories: ["pricing"],
+    meta: {
+      iframeHeight: "700px",
+    },
+  },
+  {
     name: "login-01",
     description: "A simple login page.",
     type: "registry:block",
     dependencies: ["@aliimam/icons"],
-    registryDependencies: ["button", "label", "input"],
+    registryDependencies: ["button", "input"],
     files: [
       {
         path: "blocks/login/login-01/page.tsx",

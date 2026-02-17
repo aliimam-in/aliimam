@@ -3,8 +3,7 @@
 import { Github, Lock, Mail } from "@aliimam/icons"
 
 import { Button } from "@/registry/aliimam/ui/button"
-import { Input } from "@/registry/aliimam/ui/input"
-import { Label } from "@/registry/aliimam/ui/label"
+import { Input } from "@/registry/aliimam/ui/input" 
 
 const Login3 = () => {
   return (
@@ -38,10 +37,9 @@ const Login3 = () => {
             </svg>
           </div>
         </div>
-        <div className="mt-20 text-xl font-bold">Ali Imam</div>
-
+         
         <div
-          className="relative mt-40 flex w-full flex-col items-center justify-center px-4"
+          className="relative mt-20 flex w-full flex-col items-center justify-center px-4"
           style={{ opacity: 1 }}
         >
           <div className="w-full max-w-sm">
@@ -60,7 +58,7 @@ const Login3 = () => {
                       <div className="flex flex-col gap-3">
                         <form className="flex flex-col gap-y-6">
                           <div>
-                            <Label>Email</Label>
+                             
                             <Input
                               placeholder="email@designstudio.com"
                               className="mt-2"

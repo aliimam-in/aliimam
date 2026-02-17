@@ -115,6 +115,11 @@
     "categories": ["cta"]
   },
   {
+    "name": "cta-02",
+    "description": "A simple cta section.",
+    "categories": ["cta"]
+  },
+  {
     "name": "download-01",
     "description": "A simple download section.",
     "categories": ["download"]
@@ -256,6 +261,11 @@
   },
   {
     "name": "pricing-03",
+    "description": "A simple pricing section.",
+    "categories": ["pricing"]
+  },
+  {
+    "name": "pricing-04",
     "description": "A simple pricing section.",
     "categories": ["pricing"]
   },
