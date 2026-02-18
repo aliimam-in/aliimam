@@ -44,5 +44,4 @@ next-env.d.ts
 
 # generated content
 .contentlayer
-.content-collections
-.source
+.content-collections 
