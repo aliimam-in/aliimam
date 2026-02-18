@@ -1462,6 +1462,50 @@ export const Index: Record<string, any> = {
     categories: ["landing"],
     meta: {"iframeHeight":"3000px"},
   },
+  "blogs-01": {
+    name: "blogs-01",
+    description: "A simple blogs page.",
+    type: "registry:block",
+    registryDependencies: ["aspect-ratio","badge"],
+    files: [{
+      path: "registry/aliimam/pages/blogs/blogs-01/page.tsx",
+      type: "registry:page",
+      target: "app/blogs/page.tsx"
+    },{
+      path: "registry/aliimam/pages/blogs/blogs-01/components/blog-page.tsx",
+      type: "registry:component",
+      target: ""
+    },{
+      path: "registry/aliimam/pages/blogs/blogs-01/components/lazy-image.tsx",
+      type: "registry:component",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/aliimam/pages/blogs/blogs-01/page.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: ["blogs"],
+    meta: {"iframeHeight":"2800px"},
+  },
+  "contact-us-01": {
+    name: "contact-us-01",
+    description: "A simple contact-us page.",
+    type: "registry:block",
+    registryDependencies: ["button","input","textarea"],
+    files: [{
+      path: "registry/aliimam/pages/contact-us/contact-us-01/page.tsx",
+      type: "registry:page",
+      target: "app/contact-us/page.tsx"
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/aliimam/pages/contact-us/contact-us-01/page.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: ["contact-us"],
+    meta: {"iframeHeight":"2300px"},
+  },
   "attraction": {
     name: "attraction",
     description: "",

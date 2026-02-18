@@ -11,13 +11,51 @@ Add the registry once and then pull blocks by name — no rigid templates, just 
 
 ---
 
-## Add Registry
+# Documentation
 
-Add the AI registry namespace to your `components.json`.
- 
+All documentation for Ali Imam will be documented in this page.
 
-##Usage
+---
 
-Install blocks via the shadcn CLI using the   syntax:
+## Setup AI Registry
 
- 
+Add the AI registry namespace to your `components.json`. Learn more about registry config from [shadcn registry docs](https://ui.shadcn.com/docs/registry).
+
+```json title="components.json"
+{
+  "registries": {
+    "@aliimam": "https://aliimam.in/r/{name}.json"
+  }
+}
+``` 
+
+---
+
+## Usage
+
+Install blocks via the shadcn CLI using the `@aliimam/{name}` syntax.
+
+```bash
+pnpm dlx shadcn add @aliimam/hero-1
+```
+
+You can copy the CLI command from each block on its category page.
+
+---
+
+## Configure MCP
+
+Run the following command to configure the MCP server:
+
+```bash
+pnpm dlx shadcn mcp init
+```
+
+You can copy the CLI command from each block on its category page.
+
+---
+
+## Need help?
+
+If you have any questions, suggestions, or issues, please don't hesitate to reach out on 
+[X (Twitter)](https://x.com/aliimam_in) or [Email](mailto:contact@aliimam.in).

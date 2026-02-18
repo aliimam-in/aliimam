@@ -15,8 +15,7 @@ import {
   SidebarMenuItem,
 } from "@/registry/aliimam/ui/sidebar"
 
-const TOP_LEVEL_SECTIONS = [
-  { name: "Introduction", href: "/docs" },
+const TOP_LEVEL_SECTIONS = [ 
   {
     name: "Components",
     href: "/docs/components",

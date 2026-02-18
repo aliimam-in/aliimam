@@ -164,4 +164,48 @@ export const pages: Registry["items"] = [
       iframeHeight: "3000px",
     },
   },
+  {
+    name: "blogs-01",
+    description: "A simple blogs page.",
+    dependencies: ["motion/react"],
+    registryDependencies: ["aspect-ratio", "badge"],
+    type: "registry:block",
+    files: [
+      {
+        path: "pages/blogs/blogs-01/page.tsx",
+        target: "app/blogs/page.tsx",
+        type: "registry:page",
+      },
+      {
+        path: "pages/blogs/blogs-01/components/blog-page.tsx",
+        type: "registry:component",
+      },
+      {
+        path: "pages/blogs/blogs-01/components/lazy-image.tsx",
+        type: "registry:component",
+      },
+    ],
+    categories: ["blogs"],
+    meta: {
+      iframeHeight: "2800px",
+    },
+  },
+  {
+    name: "contact-us-01",
+    description: "A simple contact-us page.",
+    dependencies: ["@aliimam/icons"],
+    registryDependencies: ["button", "input", "textarea"],
+    type: "registry:block",
+    files: [
+      {
+        path: "pages/contact-us/contact-us-01/page.tsx",
+        target: "app/contact-us/page.tsx",
+        type: "registry:page",
+      },
+    ],
+    categories: ["contact-us"],
+    meta: {
+      iframeHeight: "2300px",
+    },
+  },
 ]

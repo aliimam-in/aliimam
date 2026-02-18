@@ -1522,6 +1522,50 @@
       "categories": ["landing"]
     },
     {
+      "name": "blogs-01",
+      "type": "registry:block",
+      "description": "A simple blogs page.",
+      "dependencies": ["motion/react"],
+      "registryDependencies": ["aspect-ratio", "badge"],
+      "files": [
+        {
+          "path": "registry/aliimam/pages/blogs/blogs-01/page.tsx",
+          "type": "registry:page",
+          "target": "app/blogs/page.tsx"
+        },
+        {
+          "path": "registry/aliimam/pages/blogs/blogs-01/components/blog-page.tsx",
+          "type": "registry:component"
+        },
+        {
+          "path": "registry/aliimam/pages/blogs/blogs-01/components/lazy-image.tsx",
+          "type": "registry:component"
+        }
+      ],
+      "meta": {
+        "iframeHeight": "2800px"
+      },
+      "categories": ["blogs"]
+    },
+    {
+      "name": "contact-us-01",
+      "type": "registry:block",
+      "description": "A simple contact-us page.",
+      "dependencies": ["@aliimam/icons"],
+      "registryDependencies": ["button", "input", "textarea"],
+      "files": [
+        {
+          "path": "registry/aliimam/pages/contact-us/contact-us-01/page.tsx",
+          "type": "registry:page",
+          "target": "app/contact-us/page.tsx"
+        }
+      ],
+      "meta": {
+        "iframeHeight": "2300px"
+      },
+      "categories": ["contact-us"]
+    },
+    {
       "name": "attraction",
       "type": "registry:component",
       "files": [

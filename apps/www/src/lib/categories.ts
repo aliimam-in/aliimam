@@ -93,8 +93,18 @@ export const pagesCategories = [
     hidden: false,
   },
   {
+    name: "Blogs",
+    slug: "blogs",
+    hidden: false,
+  },
+  {
     name: "About",
     slug: "about",
+    hidden: false,
+  },
+  {
+    name: "Contact Us",
+    slug: "contact-us",
     hidden: false,
   },
 ]

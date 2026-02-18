@@ -328,5 +328,15 @@
     "name": "landing-01",
     "description": "A simple landing page.",
     "categories": ["landing"]
+  },
+  {
+    "name": "blogs-01",
+    "description": "A simple blogs page.",
+    "categories": ["blogs"]
+  },
+  {
+    "name": "contact-us-01",
+    "description": "A simple contact-us page.",
+    "categories": ["contact-us"]
   }
 ]
