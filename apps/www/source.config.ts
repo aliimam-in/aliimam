@@ -39,7 +39,7 @@ export default defineConfig({
 })
 
 export const docs = defineDocs({
-  dir: "/src/content/docs",
+  dir: "./src/content/docs",
   docs: {
     schema: frontmatterSchema.extend({
       links: z
@@ -54,7 +54,7 @@ export const docs = defineDocs({
 })
 
 export const showcase = defineDocs({
-  dir: "/src/content/showcase",
+  dir: "./src/content/showcase",
   docs: {
     schema: frontmatterSchema.extend({
       affiliation: z.string().optional(),
@@ -65,7 +65,7 @@ export const showcase = defineDocs({
 })
 
 export const blogs = defineDocs({
-  dir: "/src/content/blogs",
+  dir: "./src/content/blogs",
   docs: {
     schema: frontmatterSchema.extend({
       tag: z.array(z.string()).optional(),
