@@ -4,9 +4,9 @@ import { ThemeSelectorWithSync } from "@/src/components/themes/synced-theme-sele
 
 import { Sheet } from "@/registry/aliimam/ui/sheet"
 
-const title = "Blocks"
+const title = "Pages"
 const description =
-  "A collection of building blocks for agents and audio that you can customize and extend."
+  "A collection of building pages for designers and developers that you can customize and extend."
 
 export const metadata: Metadata = {
   title,
