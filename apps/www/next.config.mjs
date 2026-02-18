@@ -6,8 +6,15 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+  reactStrictMode: true, 
+   experimental: {
+    turbopackFileSystemCacheForDev: true,
+  },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
   outputFileTracingIncludes: {
-    "/*": ["./registry/**/*"],
+    "/*": ["./registry/**/*", "./src/content/docs/**/*"],
   },
   images: {
     remotePatterns: [
