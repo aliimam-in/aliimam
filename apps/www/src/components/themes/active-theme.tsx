@@ -35,41 +35,45 @@ export function ActiveThemeProvider({
   initialFont?: string
 }) {
   const [activeTheme, setActiveTheme] = useState<string>(() => {
-    if (typeof window !== 'undefined') {
-      return localStorage.getItem('activeTheme') || initialTheme || DEFAULT_THEME
+    if (typeof window !== "undefined") {
+      return (
+        localStorage.getItem("activeTheme") || initialTheme || DEFAULT_THEME
+      )
     }
     return initialTheme || DEFAULT_THEME
   })
-  
+
   const [radius, setRadius] = useState<string>(() => {
-    if (typeof window !== 'undefined') {
-      return localStorage.getItem('radius') || initialRadius || DEFAULT_RADIUS
+    if (typeof window !== "undefined") {
+      return localStorage.getItem("radius") || initialRadius || DEFAULT_RADIUS
     }
     return initialRadius || DEFAULT_RADIUS
   })
 
   const [font, setFont] = useState<string>(() => {
-    if (typeof window !== 'undefined') {
-      return localStorage.getItem('font') || initialFont || DEFAULT_FONT
+    if (typeof window !== "undefined") {
+      return localStorage.getItem("font") || initialFont || DEFAULT_FONT
     }
     return initialFont || DEFAULT_FONT
   })
 
   // Persist to localStorage
   useEffect(() => {
-    localStorage.setItem('activeTheme', activeTheme)
+    localStorage.setItem("activeTheme", activeTheme)
   }, [activeTheme])
 
   useEffect(() => {
-    localStorage.setItem('radius', radius)
+    localStorage.setItem("radius", radius)
   }, [radius])
 
   useEffect(() => {
-    localStorage.setItem('font', font)
+    localStorage.setItem("font", font)
   }, [font])
 
   return (
-    <ThemeContext.Provider value={{ activeTheme, setActiveTheme, radius, setRadius, font, setFont }}>
+    <ThemeContext.Provider
+      value={{ activeTheme, setActiveTheme, radius, setRadius, font, setFont }}
+    >
       {children}
     </ThemeContext.Provider>
   )

@@ -5,10 +5,8 @@ import {
   PageHeaderHeading,
 } from "@/src/components/layout/page-header"
 
-
 const title = "Templates"
-const description =
-  "Coming Soon!"
+const description = "Coming Soon!"
 
 export const dynamic = "force-static"
 export const revalidate = false
@@ -40,16 +38,10 @@ export const metadata: Metadata = {
 export default function IndexPage() {
   return (
     <div className="flex flex-1 flex-col">
-
-      <div className="relative h-screen flex justify-center items-center overflow-hidden">
+      <div className="relative flex h-screen items-center justify-center overflow-hidden">
         <PageHeader className="relative z-10">
-          <PageHeaderHeading>
-            {title}
-          </PageHeaderHeading>
-          <PageHeaderDescription>
-            {description}
-          </PageHeaderDescription>
-
+          <PageHeaderHeading>{title}</PageHeaderHeading>
+          <PageHeaderDescription>{description}</PageHeaderDescription>
         </PageHeader>
       </div>
     </div>

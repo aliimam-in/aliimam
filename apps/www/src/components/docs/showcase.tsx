@@ -1,12 +1,12 @@
 /* eslint-disable @next/next/no-img-element */
-import { ChevronRight } from "lucide-react";
-import Link from "next/link";
+import Link from "next/link"
+import { ChevronRight } from "lucide-react"
 
 export interface ShowcaseCardProps {
-  title: string;
-  image: string;
-  href: string;
-  affiliation?: string;
+  title: string
+  image: string
+  href: string
+  affiliation?: string
 }
 export function ShowcaseCard({
   title,
@@ -35,5 +35,5 @@ export function ShowcaseCard({
         <p className="text-sm text-neutral-400">{affiliation}</p>
       </div>
     </Link>
-  );
+  )
 }

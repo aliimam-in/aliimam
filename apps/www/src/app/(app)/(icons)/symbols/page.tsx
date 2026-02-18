@@ -1,26 +1,28 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-"use client";
-import React, { useState } from "react";
+"use client"
+
+import React, { useState } from "react"
+import Link from "next/link"
+import { ContentCopyButton } from "@/src/components/copy-button"
+import { LogoPreviewPanel } from "@/src/components/icons/icon-preview"
+import { useLogos } from "@/src/components/icons/logo-context"
+import { Figma } from "@aliimam/logos"
+
+import { Button } from "@/registry/aliimam/ui/button"
+import { TabsContent } from "@/registry/aliimam/ui/tabs"
 import {
   Tooltip,
   TooltipContent,
   TooltipTrigger,
-} from "@/registry/aliimam/ui/tooltip";
-import { TabsContent } from "@/registry/aliimam/ui/tabs";
-import { useLogos } from "@/src/components/icons/logo-context";
-import { LogoPreviewPanel } from "@/src/components/icons/icon-preview";
-import { Button } from "@/registry/aliimam/ui/button";
-import Link from "next/link";
-import { Figma } from "@aliimam/logos";
-import { ContentCopyButton } from "@/src/components/copy-button";
+} from "@/registry/aliimam/ui/tooltip"
 
 export default function About() {
-  const { searchQuery, activeCategory, iconComponents } = useLogos();
+  const { searchQuery, activeCategory, iconComponents } = useLogos()
   const [selectedIcon, setSelectedIcon] = useState<{
-    name: string;
-    Component: React.ComponentType<React.SVGProps<SVGSVGElement>>;
-    type: string;
-  } | null>(null);
+    name: string
+    Component: React.ComponentType<React.SVGProps<SVGSVGElement>>
+    type: string
+  } | null>(null)
 
   const supportsType = (
     Component: React.ComponentType<any>,
@@ -28,13 +30,13 @@ export default function About() {
     type: string
   ): boolean => {
     try {
-      const TestComponent = Component as any;
-      const componentString = TestComponent.toString();
+      const TestComponent = Component as any
+      const componentString = TestComponent.toString()
       const hasTypeInCode =
         componentString.includes(type) ||
-        componentString.includes(`type === "${type}"`);
+        componentString.includes(`type === "${type}"`)
 
-      const metadata = TestComponent.metadata;
+      const metadata = TestComponent.metadata
       const hasTypeInMetadata =
         metadata &&
         (metadata.name?.toLowerCase().includes(type) ||
@@ -42,73 +44,73 @@ export default function About() {
           (metadata.type &&
             (Array.isArray(metadata.type)
               ? metadata.type.includes(type)
-              : metadata.type === type)));
+              : metadata.type === type)))
 
-      return hasTypeInCode || hasTypeInMetadata;
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+      return hasTypeInCode || hasTypeInMetadata
+      // eslint-disable-next-line @typescript-eslint/no-unused-vars
     } catch (error) {
-      return false;
+      return false
     }
-  };
+  }
 
   const getFilteredIconsByCategory = (
     type: "icon" | "wordmark" | "symbols" | "vectors"
   ) => {
-    let filteredComponents = iconComponents;
+    let filteredComponents = iconComponents
 
     if (type !== "icon") {
       filteredComponents = iconComponents.filter(({ name, Component }) =>
         supportsType(Component, name, type)
-      );
+      )
     }
 
     if (searchQuery) {
       filteredComponents = filteredComponents.filter(({ name }) =>
         name.toLowerCase().includes(searchQuery.toLowerCase())
-      );
+      )
     }
 
     return filteredComponents.reduce(
       (acc, { name, Component }) => {
         const category =
-          (Component as any).metadata?.category || "Uncategorized";
+          (Component as any).metadata?.category || "Uncategorized"
 
         if (activeCategory !== "all" && category !== activeCategory) {
-          return acc;
+          return acc
         }
 
         if (!acc[category]) {
-          acc[category] = [];
+          acc[category] = []
         }
-        acc[category].push({ name, Component });
-        return acc;
+        acc[category].push({ name, Component })
+        return acc
       },
       {} as Record<
         string,
         {
-          name: string;
-          Component: React.ComponentType<React.SVGProps<SVGSVGElement>>;
+          name: string
+          Component: React.ComponentType<React.SVGProps<SVGSVGElement>>
         }[]
       >
-    );
-  };
+    )
+  }
 
   const getSizeClasses = (type: "symbols") => {
-    switch (type) { 
+    switch (type) {
       case "symbols":
-        return "h-12 w-16"; 
+        return "h-12 w-16"
       default:
-        return "h-10 w-10";
+        return "h-10 w-10"
     }
-  };
+  }
 
   const renderIcons = (type: "symbols") => {
-    const iconsByCategory = getFilteredIconsByCategory(type);
-    const sizeClasses = getSizeClasses(type);
+    const iconsByCategory = getFilteredIconsByCategory(type)
+    const sizeClasses = getSizeClasses(type)
 
     return (
-      <div className="flex relative -mt-2 items-stretch xl:w-full">
-        <div className="flex min-w-0 flex-1 border-x p-2 flex-col">
+      <div className="relative -mt-2 flex items-stretch xl:w-full">
+        <div className="flex min-w-0 flex-1 flex-col border-x p-2">
           {Object.keys(iconsByCategory).length > 0 ? (
             Object.entries(iconsByCategory)
               .sort()
@@ -119,13 +121,13 @@ export default function About() {
                       <Tooltip key={`${name}-${type}`}>
                         <TooltipTrigger asChild>
                           <div
-                            className={`flex flex-col cursor-pointer hover:ring-2 ring-ring/20 bg-muted/50 dark:bg-muted/30 p-8 items-center transition-all ${
+                            className={`ring-ring/20 bg-muted/50 dark:bg-muted/30 flex cursor-pointer flex-col items-center p-8 transition-all hover:ring-2 ${
                               selectedIcon?.name === name &&
                               selectedIcon?.type === type
-                                ? "ring-2 ring-primary"
+                                ? "ring-primary ring-2"
                                 : ""
                             }`}
-                           onClick={() =>
+                            onClick={() =>
                               setSelectedIcon({ name, Component, type })
                             }
                           >
@@ -146,12 +148,12 @@ export default function About() {
             </p>
           )}
         </div>
-        <div className="sticky w-60 top-32 z-30 ml-auto hidden h-[calc(100svh-var(--footer-height))] flex-col gap-3 pb-3 overflow-hidden overscroll-none xl:flex">
+        <div className="sticky top-32 z-30 ml-auto hidden h-[calc(100svh-var(--footer-height))] w-60 flex-col gap-3 overflow-hidden overscroll-none pb-3 xl:flex">
           <LogoPreviewPanel
             selectedIcon={selectedIcon}
             onClearSelection={() => setSelectedIcon(null)}
           />
-          <div className="px-3 grid gap-2">
+          <div className="grid gap-2 px-3">
             <Link
               target="_blank"
               href={
@@ -169,18 +171,17 @@ export default function About() {
             <Link href={"/docs/icons/introduction"}>
               <Button className="w-full">See Docs</Button>
             </Link>
-           
-        </div>
+          </div>
         </div>
       </div>
-    );
-  };
+    )
+  }
 
   return (
-    <div className="h-full flex flex-col items-center">
-      <TabsContent value="icon" className="mt-0 w-full flex justify-center">
+    <div className="flex h-full flex-col items-center">
+      <TabsContent value="icon" className="mt-0 flex w-full justify-center">
         {renderIcons("symbols")}
-      </TabsContent> 
+      </TabsContent>
     </div>
-  );
+  )
 }

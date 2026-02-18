@@ -1545,7 +1545,6 @@
       ],
       "registryDependencies": [
         "button",
-        "label",
         "input"
       ],
       "files": [

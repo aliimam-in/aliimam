@@ -79,7 +79,6 @@ function buildPathMappings(
   return mappings
 }
 
-
 async function getFileContent(
   file: z.infer<typeof registryItemFileSchema>,
   pathMappings: Map<string, string>
@@ -197,10 +196,7 @@ export function fixImport(content: string, pathMappings: Map<string, string>) {
   })
 
   // Fix UI component imports
-  content = content.replaceAll(
-    "@/registry/aliimam/ui/",
-    "@/components/ui/"
-  )
+  content = content.replaceAll("@/registry/aliimam/ui/", "@/components/ui/")
 
   // Fix example imports
   content = content.replaceAll(

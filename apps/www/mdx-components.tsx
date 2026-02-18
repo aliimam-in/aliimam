@@ -1,8 +1,7 @@
 import * as React from "react"
 import Image from "next/image"
 import Link from "next/link"
-
-import { cn } from "@/src/lib/utils"
+import { CopyButton } from "@/src/components/copy-button"
 import { Callout } from "@/src/components/docs/callout"
 import { CodeBlockCommand } from "@/src/components/docs/code-block-command"
 import { CodeCollapsibleWrapper } from "@/src/components/docs/code-collapsible-wrapper"
@@ -10,8 +9,9 @@ import { CodeTabs } from "@/src/components/docs/code-tabs"
 import { ComponentPreview } from "@/src/components/docs/component-preview"
 import { ComponentSource } from "@/src/components/docs/component-source"
 import { ComponentsList } from "@/src/components/docs/components-list"
-import { CopyButton } from "@/src/components/copy-button"
 import { getIconForLanguageExtension } from "@/src/components/icons"
+import { cn } from "@/src/lib/utils"
+
 import {
   Accordion,
   AccordionContent,

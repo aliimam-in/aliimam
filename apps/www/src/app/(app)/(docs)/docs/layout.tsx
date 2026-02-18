@@ -1,5 +1,6 @@
-import { source } from "@/src/lib/source"
 import { DocsSidebar } from "@/src/components/docs/docs-sidebar"
+import { source } from "@/src/lib/source"
+
 import { SidebarProvider } from "@/registry/aliimam/ui/sidebar"
 
 export default function DocsLayout({

@@ -1,11 +1,11 @@
 /* eslint-disable @next/next/no-img-element */
-"use client";
+"use client"
 
-import Link from "next/link";
+import Link from "next/link"
+import { useRouter } from "next/navigation"
+import { Heart } from "lucide-react"
 
-import { ThemeSwitch } from "./mode-toggle";
-import { Heart } from "lucide-react";
-import { LinkedIn, X, Instagram, Github } from "../logos";
+import { Button } from "@/registry/aliimam/ui/button"
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -14,8 +14,9 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/registry/aliimam/ui/dropdown-menu"
-import { useRouter } from "next/navigation";
-import { Button } from "@/registry/aliimam/ui/button";
+
+import { Github, Instagram, LinkedIn, X } from "../logos"
+import { ThemeSwitch } from "./mode-toggle"
 
 const navigation = {
   categories: [
@@ -71,13 +72,13 @@ const navigation = {
       ],
     },
   ],
-};
+}
 
 export function SiteFooter() {
   const router = useRouter()
   return (
     <footer className="border-t">
-      <div className="flex py-4 gap-4 md:gap-10 justify-center flex-wrap md:justify-between items-center container">
+      <div className="container flex flex-wrap items-center justify-center gap-4 py-4 md:justify-between md:gap-10">
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
             <Button variant="outline" className="w-48 justify-between">
@@ -88,7 +89,7 @@ export function SiteFooter() {
           <DropdownMenuContent align="start" className="w-48">
             {navigation.categories.map((category, idx) => (
               <div key={category.name}>
-                <DropdownMenuLabel className="text-xs text-muted-foreground">
+                <DropdownMenuLabel className="text-muted-foreground text-xs">
                   {category.name}
                 </DropdownMenuLabel>
 
@@ -110,16 +111,19 @@ export function SiteFooter() {
             ))}
           </DropdownMenuContent>
         </DropdownMenu>
-        <div className="lg:absolute hidden left-1/2 -translate-x-1/2 lg:flex justify-center gap-1 text-center text-xs text-muted-foreground">
-        <span> © </span>
+        <div className="text-muted-foreground left-1/2 hidden -translate-x-1/2 justify-center gap-1 text-center text-xs lg:absolute lg:flex">
+          <span> © </span>
           <span>{new Date().getFullYear()}</span>
           <span>Made with</span>
-          <Heart fill="#f43f5e" className="text-rose-500 w-4 h-4 animate-pulse" />
+          <Heart
+            fill="#f43f5e"
+            className="h-4 w-4 animate-pulse text-rose-500"
+          />
           <span> by </span>
 
           <Link
             aria-label="AI"
-            className="font-bold hover:text-primary"
+            className="hover:text-primary font-bold"
             href="https://www.instagram.com/aliimam.in/"
             target="_blank"
           >
@@ -170,8 +174,8 @@ export function SiteFooter() {
             </Link>
           </div>
           <ThemeSwitch />
-        </div> 
+        </div>
       </div>
     </footer>
-  );
+  )
 }

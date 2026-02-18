@@ -1,18 +1,18 @@
-"use client";
+"use client"
 
 import {
   createContext,
-  useState,
-  useEffect,
-  useContext,
   ReactNode,
-} from "react";
+  useContext,
+  useEffect,
+  useState,
+} from "react"
 
 interface FavoritesContextType {
-  favourites: string[];
-  toggleFavourite: (id: string) => void;
-  isFavourite: (id: string) => boolean;
-  clearFavourites: () => void;
+  favourites: string[]
+  toggleFavourite: (id: string) => void
+  isFavourite: (id: string) => boolean
+  clearFavourites: () => void
 }
 
 const FavoritesContext = createContext<FavoritesContextType>({
@@ -20,40 +20,40 @@ const FavoritesContext = createContext<FavoritesContextType>({
   toggleFavourite: () => {},
   isFavourite: () => false,
   clearFavourites: () => {},
-});
+})
 
 export function FavoritesProvider({ children }: { children: ReactNode }) {
-  const [favourites, setFavourites] = useState<string[]>([]);
+  const [favourites, setFavourites] = useState<string[]>([])
 
   // Load favourites on mount
   useEffect(() => {
-    const stored = localStorage.getItem("favourite");
+    const stored = localStorage.getItem("favourite")
     if (stored) {
       try {
-        setFavourites(JSON.parse(stored));
+        setFavourites(JSON.parse(stored))
       } catch (error) {
-        console.error("Error parsing favourites from localStorage:", error);
-        setFavourites([]);
+        console.error("Error parsing favourites from localStorage:", error)
+        setFavourites([])
       }
     }
-  }, []);
+  }, [])
 
   // Save favourites to localStorage
   useEffect(() => {
-    localStorage.setItem("favourite", JSON.stringify(favourites));
-  }, [favourites]);
+    localStorage.setItem("favourite", JSON.stringify(favourites))
+  }, [favourites])
 
   const toggleFavourite = (id: string) => {
     setFavourites((prev) =>
       prev.includes(id) ? prev.filter((fav) => fav !== id) : [...prev, id]
-    );
-  };
+    )
+  }
 
-  const isFavourite = (id: string) => favourites.includes(id);
+  const isFavourite = (id: string) => favourites.includes(id)
 
   const clearFavourites = () => {
-    setFavourites([]);
-  };
+    setFavourites([])
+  }
 
   return (
     <FavoritesContext.Provider
@@ -61,7 +61,7 @@ export function FavoritesProvider({ children }: { children: ReactNode }) {
     >
       {children}
     </FavoritesContext.Provider>
-  );
+  )
 }
 
-export const useFavorites = () => useContext(FavoritesContext);
+export const useFavorites = () => useContext(FavoritesContext)

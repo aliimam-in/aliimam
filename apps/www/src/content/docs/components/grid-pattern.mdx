@@ -1,7 +1,7 @@
 ---
 title: Grid Pattern
 description: A flexible SVG-based grid background utility with customizable spacing, dash patterns, and square highlights. Useful for charts, diagrams, or decorative UI sections.
-component: true 
+component: true
 ---
 
 <ComponentPreview
@@ -62,7 +62,7 @@ npx shadcn@latest add https://aliimam.in/r/grid-pattern.json
 
 <Step>Copy and paste the following code into your project.</Step>
 
-<ComponentSource name="grid-pattern" title="components/ui/grid-pattern.tsx" /> 
+<ComponentSource name="grid-pattern" title="components/ui/grid-pattern.tsx" />
 
 </Steps>
 
@@ -74,22 +74,22 @@ npx shadcn@latest add https://aliimam.in/r/grid-pattern.json
 
 ```tsx showLineNumbers
 import { GridPattern } from "@/components/ui/grid-pattern"
-``` 
+```
 
 ```tsx showLineNumbers
 <GridPattern />
 ```
- 
+
 ## Props
 
-| Prop              | Type                                      | Default        |
-|-------------------|-------------------------------------------|----------------|
-| width             | `number`                                  | variant-based  |
-| height            | `number`                                  | variant-based  |
-| x                 | `number`                                  | `-1`           |
-| y                 | `number`                                  | `-1`           |
-| squares           | `Array<[number, number]>`                 | —              |
-| strokeDasharray   | `string`                                  | `"0"`          |
-| variant           | `"default" \| "small" \| "large"`         | `"default"`    |
-| className         | `string`                                  | —              |
-| ...props          | `Record<string, unknown>`                 | —              |
+| Prop            | Type                              | Default       |
+| --------------- | --------------------------------- | ------------- |
+| width           | `number`                          | variant-based |
+| height          | `number`                          | variant-based |
+| x               | `number`                          | `-1`          |
+| y               | `number`                          | `-1`          |
+| squares         | `Array<[number, number]>`         | —             |
+| strokeDasharray | `string`                          | `"0"`         |
+| variant         | `"default" \| "small" \| "large"` | `"default"`   |
+| className       | `string`                          | —             |
+| ...props        | `Record<string, unknown>`         | —             |

@@ -1,9 +1,11 @@
-
 // OKLCH color definitions for all themes
-export const THEME_COLORS: Record<string, {
-  light: Record<string, string>
-  dark: Record<string, string>
-}> = {
+export const THEME_COLORS: Record<
+  string,
+  {
+    light: Record<string, string>
+    dark: Record<string, string>
+  }
+> = {
   neutral: {
     light: {
       "--background": "oklch(1 0 0)",

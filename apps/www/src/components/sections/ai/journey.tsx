@@ -4,17 +4,14 @@ import {
   SectionHeaderHeading,
 } from "@/src/components/layout/page-header"
 
-
 export function Journey() {
   return (
-    <section className="container relative">
-      <div className="border-x pb-20 border-b">
+    <section className="relative container">
+      <div className="border-x border-b pb-20">
         <SectionHeader>
-          <SectionHeaderHeading>
-            My Creative Journey
-          </SectionHeaderHeading>
+          <SectionHeaderHeading>My Creative Journey</SectionHeaderHeading>
         </SectionHeader>
-        <div className="flex flex-col items-center space-y-6 justify-center">
+        <div className="flex flex-col items-center justify-center space-y-6">
           <SectionHeaderDescription className="text-center">
             My love for design began years ago, evolving through diverse roles
             across industries, from sales to animation, before finding my true
@@ -41,12 +38,12 @@ export function Journey() {
           <SectionHeaderDescription className="text-center">
             Currently, I work from my studio as an independent contractor,
             helping brands develop effective visuals and design systems. In my
-            design studio, I spend most of my time building design tools and resources,
-            with a focus on creativity and experience, while experimenting with new tools and
-            trends.
-          </SectionHeaderDescription> 
+            design studio, I spend most of my time building design tools and
+            resources, with a focus on creativity and experience, while
+            experimenting with new tools and trends.
+          </SectionHeaderDescription>
         </div>
       </div>
     </section>
-  );
+  )
 }

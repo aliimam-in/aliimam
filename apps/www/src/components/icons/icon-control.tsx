@@ -1,17 +1,17 @@
- 
-import { Label } from "@/registry/aliimam/ui/label";
-import { Slider } from "@/registry/aliimam/ui/slider";
-import { Input } from "@/registry/aliimam/ui/input";
-import { RotateCw } from "lucide-react";
-import { Button } from "@/registry/aliimam/ui/button";
+import { RotateCw } from "lucide-react"
+
+import { Button } from "@/registry/aliimam/ui/button"
+import { Input } from "@/registry/aliimam/ui/input"
+import { Label } from "@/registry/aliimam/ui/label"
+import { Slider } from "@/registry/aliimam/ui/slider"
 
 export interface IconControlsProps {
-  size: number;
-  color: string;
-  strokeWidth?: number; // ✅ optional now
-  onSizeChange: (value: number) => void;
-  onColorChange: (value: string) => void;
-  onStrokeWidthChange?: (strokeWidth: number) => void;
+  size: number
+  color: string
+  strokeWidth?: number // ✅ optional now
+  onSizeChange: (value: number) => void
+  onColorChange: (value: string) => void
+  onStrokeWidthChange?: (strokeWidth: number) => void
 }
 
 export function IconControlsPanel({
@@ -23,7 +23,7 @@ export function IconControlsPanel({
   onStrokeWidthChange,
 }: IconControlsProps) {
   return (
-    <div className="flex mt-3 flex-col gap-4 p-4">
+    <div className="mt-3 flex flex-col gap-4 p-4">
       <div className="space-y-2">
         <Label htmlFor="size" className="text-xs font-medium">
           Size: {size}px
@@ -36,7 +36,7 @@ export function IconControlsPanel({
           value={[size]}
           onValueChange={(value) => {
             if (value[0] !== undefined) {
-              onSizeChange(value[0]);
+              onSizeChange(value[0])
             }
           }}
           className="w-full"
@@ -55,7 +55,7 @@ export function IconControlsPanel({
             value={[strokeWidth]}
             onValueChange={(value) => {
               if (value[0] !== undefined) {
-                onStrokeWidthChange(value[0]);
+                onStrokeWidthChange(value[0])
               }
             }}
             className="w-full"
@@ -66,7 +66,7 @@ export function IconControlsPanel({
         <Label htmlFor="color" className="text-xs font-medium">
           Color
         </Label>
-        <div className="flex gap-2 items-center">
+        <div className="flex items-center gap-2">
           <input
             id="color"
             type="color"
@@ -89,10 +89,10 @@ export function IconControlsPanel({
             variant={"secondary"}
             size={"icon"}
             onClick={() => {
-              onSizeChange(64);
-              onColorChange("#000000");
+              onSizeChange(64)
+              onColorChange("#000000")
               if (onStrokeWidthChange) {
-                onStrokeWidthChange(2);
+                onStrokeWidthChange(2)
               }
             }}
           >
@@ -101,24 +101,24 @@ export function IconControlsPanel({
         </div>
       </div>
     </div>
-  );
+  )
 }
 
 export interface LogoControlsProps {
-  size: number;
-  color: string;
-  onSizeChange: (value: number) => void;
-  onColorChange: (value: string) => void;
+  size: number
+  color: string
+  onSizeChange: (value: number) => void
+  onColorChange: (value: string) => void
 }
 
 export function LogoControlsPanel({
   size,
-  color, 
+  color,
   onSizeChange,
   onColorChange,
 }: LogoControlsProps) {
   return (
-    <div className="flex mt-3 flex-col gap-4 p-4">
+    <div className="mt-3 flex flex-col gap-4 p-4">
       <div className="space-y-2">
         <Label htmlFor="size" className="text-xs font-medium">
           Size: {size}px
@@ -131,7 +131,7 @@ export function LogoControlsPanel({
           value={[size]}
           onValueChange={(value) => {
             if (value[0] !== undefined) {
-              onSizeChange(value[0]);
+              onSizeChange(value[0])
             }
           }}
           className="w-full"
@@ -142,7 +142,7 @@ export function LogoControlsPanel({
         <Label htmlFor="color" className="text-xs font-medium">
           Color
         </Label>
-        <div className="flex gap-2 items-center">
+        <div className="flex items-center gap-2">
           <input
             id="color"
             type="color"
@@ -165,8 +165,8 @@ export function LogoControlsPanel({
             variant={"secondary"}
             size={"icon"}
             onClick={() => {
-              onSizeChange(64);
-              onColorChange("#000000");
+              onSizeChange(64)
+              onColorChange("#000000")
             }}
           >
             <RotateCw />
@@ -174,5 +174,5 @@ export function LogoControlsPanel({
         </div>
       </div>
     </div>
-  );
+  )
 }

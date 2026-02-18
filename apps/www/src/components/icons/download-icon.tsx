@@ -1,21 +1,22 @@
-import React, { useState } from "react";
-import { Download, Copy, Check, ChevronDownIcon } from "lucide-react";
-import { Button } from "@/registry/aliimam/ui/button";
+import React, { useState } from "react"
+import { Check, ChevronDownIcon, Copy, Download } from "lucide-react"
+
+import { Button } from "@/registry/aliimam/ui/button"
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from "@/registry/aliimam/ui/dropdown-menu";
+} from "@/registry/aliimam/ui/dropdown-menu"
 
 interface LogoDownloadButtonGroupProps {
   selectedIcon: {
-    name: string;
-    Component: React.ComponentType<React.SVGProps<SVGSVGElement>>;
-    type: string;
-  };
-  size: number;
-  color: string;
+    name: string
+    Component: React.ComponentType<React.SVGProps<SVGSVGElement>>
+    type: string
+  }
+  size: number
+  color: string
 }
 
 export function LogoDownloadPanel({
@@ -23,141 +24,141 @@ export function LogoDownloadPanel({
   size,
   color,
 }: LogoDownloadButtonGroupProps) {
-  const [copiedFormat, setCopiedFormat] = useState<string | null>(null);
+  const [copiedFormat, setCopiedFormat] = useState<string | null>(null)
 
   const getSVGString = (exportSize: number) => {
-    const iconElement = document.getElementById("preview-icon");
-    if (!iconElement) return null;
+    const iconElement = document.getElementById("preview-icon")
+    if (!iconElement) return null
 
-    const clonedIcon = iconElement.cloneNode(true) as SVGElement;
-    clonedIcon.setAttribute("width", exportSize.toString());
-    clonedIcon.setAttribute("height", exportSize.toString());
-    clonedIcon.style.color = color; 
+    const clonedIcon = iconElement.cloneNode(true) as SVGElement
+    clonedIcon.setAttribute("width", exportSize.toString())
+    clonedIcon.setAttribute("height", exportSize.toString())
+    clonedIcon.style.color = color
 
-    const serializer = new XMLSerializer();
-    return serializer.serializeToString(clonedIcon);
-  };
+    const serializer = new XMLSerializer()
+    return serializer.serializeToString(clonedIcon)
+  }
 
   const download = (format: "svg" | "png" | "jpg") => {
-    const exportSize = size;
-    const svgString = getSVGString(exportSize);
-    if (!svgString) return;
+    const exportSize = size
+    const svgString = getSVGString(exportSize)
+    if (!svgString) return
 
     if (format === "svg") {
-      const blob = new Blob([svgString], { type: "image/svg+xml" });
-      const url = URL.createObjectURL(blob);
-      const link = document.createElement("a");
-      link.href = url;
-      link.download = `${selectedIcon.name}-${exportSize}px.svg`;
-      link.click();
-      URL.revokeObjectURL(url);
+      const blob = new Blob([svgString], { type: "image/svg+xml" })
+      const url = URL.createObjectURL(blob)
+      const link = document.createElement("a")
+      link.href = url
+      link.download = `${selectedIcon.name}-${exportSize}px.svg`
+      link.click()
+      URL.revokeObjectURL(url)
     } else {
-      const canvas = document.createElement("canvas");
-      const ctx = canvas.getContext("2d");
-      if (!ctx) return;
+      const canvas = document.createElement("canvas")
+      const ctx = canvas.getContext("2d")
+      if (!ctx) return
 
-      canvas.width = exportSize;
-      canvas.height = exportSize;
+      canvas.width = exportSize
+      canvas.height = exportSize
 
       if (format === "jpg") {
-        ctx.fillStyle = "#ffffff";
-        ctx.fillRect(0, 0, exportSize, exportSize);
+        ctx.fillStyle = "#ffffff"
+        ctx.fillRect(0, 0, exportSize, exportSize)
       }
 
-      const img = new Image();
+      const img = new Image()
       const svgBlob = new Blob([svgString], {
         type: "image/svg+xml;charset=utf-8",
-      });
-      const url = URL.createObjectURL(svgBlob);
+      })
+      const url = URL.createObjectURL(svgBlob)
 
       img.onload = () => {
-        ctx.drawImage(img, 0, 0, exportSize, exportSize);
+        ctx.drawImage(img, 0, 0, exportSize, exportSize)
         canvas.toBlob(
           (blob) => {
             if (blob) {
-              const downloadUrl = URL.createObjectURL(blob);
-              const link = document.createElement("a");
-              link.href = downloadUrl;
-              link.download = `${selectedIcon.name}-${exportSize}px.${format}`;
-              link.click();
-              URL.revokeObjectURL(downloadUrl);
+              const downloadUrl = URL.createObjectURL(blob)
+              const link = document.createElement("a")
+              link.href = downloadUrl
+              link.download = `${selectedIcon.name}-${exportSize}px.${format}`
+              link.click()
+              URL.revokeObjectURL(downloadUrl)
             }
           },
           format === "png" ? "image/png" : "image/jpeg",
           1.0
-        );
-        URL.revokeObjectURL(url);
-      };
+        )
+        URL.revokeObjectURL(url)
+      }
 
-      img.src = url;
+      img.src = url
     }
-  };
+  }
 
   const copy = async (format: "svg" | "png" | "jpg") => {
-    const exportSize = size;
-    const svgString = getSVGString(exportSize);
-    if (!svgString) return;
+    const exportSize = size
+    const svgString = getSVGString(exportSize)
+    if (!svgString) return
 
     if (format === "svg") {
       try {
-        await navigator.clipboard.writeText(svgString);
-        setCopiedFormat("svg");
-        setTimeout(() => setCopiedFormat(null), 2000);
+        await navigator.clipboard.writeText(svgString)
+        setCopiedFormat("svg")
+        setTimeout(() => setCopiedFormat(null), 2000)
       } catch (err) {
-        console.error("Failed to copy SVG:", err);
+        console.error("Failed to copy SVG:", err)
       }
     } else {
-      const canvas = document.createElement("canvas");
-      const ctx = canvas.getContext("2d");
-      if (!ctx) return;
+      const canvas = document.createElement("canvas")
+      const ctx = canvas.getContext("2d")
+      if (!ctx) return
 
-      canvas.width = exportSize;
-      canvas.height = exportSize;
+      canvas.width = exportSize
+      canvas.height = exportSize
 
       if (format === "jpg") {
-        ctx.fillStyle = "#ffffff";
-        ctx.fillRect(0, 0, exportSize, exportSize);
+        ctx.fillStyle = "#ffffff"
+        ctx.fillRect(0, 0, exportSize, exportSize)
       }
 
-      const img = new Image();
+      const img = new Image()
       const svgBlob = new Blob([svgString], {
         type: "image/svg+xml;charset=utf-8",
-      });
-      const url = URL.createObjectURL(svgBlob);
+      })
+      const url = URL.createObjectURL(svgBlob)
 
       img.onload = async () => {
-        ctx.drawImage(img, 0, 0, exportSize, exportSize);
+        ctx.drawImage(img, 0, 0, exportSize, exportSize)
         try {
           canvas.toBlob(
             async (blob) => {
               if (blob) {
                 await navigator.clipboard.write([
                   new ClipboardItem({ [blob.type]: blob }),
-                ]);
-                setCopiedFormat(format);
-                setTimeout(() => setCopiedFormat(null), 2000);
+                ])
+                setCopiedFormat(format)
+                setTimeout(() => setCopiedFormat(null), 2000)
               }
             },
             format === "png" ? "image/png" : "image/jpeg"
-          );
+          )
         } catch (err) {
-          console.error(`Failed to copy ${format.toUpperCase()}:`, err);
+          console.error(`Failed to copy ${format.toUpperCase()}:`, err)
         }
-        URL.revokeObjectURL(url);
-      };
+        URL.revokeObjectURL(url)
+      }
 
-      img.src = url;
+      img.src = url
     }
-  };
+  }
 
   return (
-    <div className="px-4 grid gap-2">
-      <div className="inline-flex divide-x divide-primary-foreground/30 rtl:space-x-reverse">
+    <div className="grid gap-2 px-4">
+      <div className="divide-primary-foreground/30 inline-flex divide-x rtl:space-x-reverse">
         <Button
           onClick={() => download("svg")}
-          className="rounded-none w-43 shadow-none first:rounded-s-md focus-visible:z-10 text-xs"
+          className="w-43 rounded-none text-xs shadow-none first:rounded-s-md focus-visible:z-10"
         >
-          <Download className="opacity-60 mr-1" size={16} aria-hidden="true" />
+          <Download className="mr-1 opacity-60" size={16} aria-hidden="true" />
           Download
         </Button>
         <DropdownMenu>
@@ -187,12 +188,12 @@ export function LogoDownloadPanel({
         <Button
           variant={"outline"}
           onClick={() => copy("svg")}
-          className="rounded-none w-43 shadow-none first:rounded-s-md focus-visible:z-10 text-xs"
+          className="w-43 rounded-none text-xs shadow-none first:rounded-s-md focus-visible:z-10"
         >
           {copiedFormat === "svg" ? (
-            <Check className="opacity-60 mr-1" size={16} aria-hidden="true" />
+            <Check className="mr-1 opacity-60" size={16} aria-hidden="true" />
           ) : (
-            <Copy className="opacity-60 mr-1" size={16} aria-hidden="true" />
+            <Copy className="mr-1 opacity-60" size={16} aria-hidden="true" />
           )}
           Copy Icon
         </Button>
@@ -209,30 +210,30 @@ export function LogoDownloadPanel({
           </DropdownMenuTrigger>
           <DropdownMenuContent align="end" side="bottom">
             <DropdownMenuItem onClick={() => copy("svg")}>
-              SVG {copiedFormat === "svg" && <Check className="w-4 h-4 ml-2" />}
+              SVG {copiedFormat === "svg" && <Check className="ml-2 h-4 w-4" />}
             </DropdownMenuItem>
             <DropdownMenuItem onClick={() => copy("png")}>
-              PNG {copiedFormat === "png" && <Check className="w-4 h-4 ml-2" />}
+              PNG {copiedFormat === "png" && <Check className="ml-2 h-4 w-4" />}
             </DropdownMenuItem>
             <DropdownMenuItem onClick={() => copy("jpg")}>
-              JPG {copiedFormat === "jpg" && <Check className="w-4 h-4 ml-2" />}
+              JPG {copiedFormat === "jpg" && <Check className="ml-2 h-4 w-4" />}
             </DropdownMenuItem>
           </DropdownMenuContent>
         </DropdownMenu>
       </div>
     </div>
-  );
+  )
 }
 
 interface IconDownloadButtonGroupProps {
   selectedIcon: {
-    name: string;
-    Component: React.ComponentType<React.SVGProps<SVGSVGElement>>;
-    type: string;
-  };
-  size: number;
-  color: string;
-  strokeWidth?: number;
+    name: string
+    Component: React.ComponentType<React.SVGProps<SVGSVGElement>>
+    type: string
+  }
+  size: number
+  color: string
+  strokeWidth?: number
 }
 
 export function IconDownloadPanel({
@@ -241,146 +242,146 @@ export function IconDownloadPanel({
   color,
   strokeWidth,
 }: IconDownloadButtonGroupProps) {
-  const [copiedFormat, setCopiedFormat] = useState<string | null>(null);
+  const [copiedFormat, setCopiedFormat] = useState<string | null>(null)
 
   const getSVGString = (exportSize: number) => {
-    const iconElement = document.getElementById("preview-icon");
-    if (!iconElement) return null;
+    const iconElement = document.getElementById("preview-icon")
+    if (!iconElement) return null
 
-    const clonedIcon = iconElement.cloneNode(true) as SVGElement;
-    clonedIcon.setAttribute("width", exportSize.toString());
-    clonedIcon.setAttribute("height", exportSize.toString());
-    clonedIcon.style.color = color;
-    clonedIcon.style.stroke = color;
+    const clonedIcon = iconElement.cloneNode(true) as SVGElement
+    clonedIcon.setAttribute("width", exportSize.toString())
+    clonedIcon.setAttribute("height", exportSize.toString())
+    clonedIcon.style.color = color
+    clonedIcon.style.stroke = color
 
     if (strokeWidth !== undefined) {
-      clonedIcon.style.strokeWidth = strokeWidth.toString();
+      clonedIcon.style.strokeWidth = strokeWidth.toString()
     }
 
-    const serializer = new XMLSerializer();
-    return serializer.serializeToString(clonedIcon);
-  };
+    const serializer = new XMLSerializer()
+    return serializer.serializeToString(clonedIcon)
+  }
 
   const download = (format: "svg" | "png" | "jpg") => {
-    const exportSize = size;
-    const svgString = getSVGString(exportSize);
-    if (!svgString) return;
+    const exportSize = size
+    const svgString = getSVGString(exportSize)
+    if (!svgString) return
 
     if (format === "svg") {
-      const blob = new Blob([svgString], { type: "image/svg+xml" });
-      const url = URL.createObjectURL(blob);
-      const link = document.createElement("a");
-      link.href = url;
-      link.download = `${selectedIcon.name}-${selectedIcon.type}-${exportSize}px.svg`;
-      link.click();
-      URL.revokeObjectURL(url);
+      const blob = new Blob([svgString], { type: "image/svg+xml" })
+      const url = URL.createObjectURL(blob)
+      const link = document.createElement("a")
+      link.href = url
+      link.download = `${selectedIcon.name}-${selectedIcon.type}-${exportSize}px.svg`
+      link.click()
+      URL.revokeObjectURL(url)
     } else {
-      const canvas = document.createElement("canvas");
-      const ctx = canvas.getContext("2d");
-      if (!ctx) return;
+      const canvas = document.createElement("canvas")
+      const ctx = canvas.getContext("2d")
+      if (!ctx) return
 
-      canvas.width = exportSize;
-      canvas.height = exportSize;
+      canvas.width = exportSize
+      canvas.height = exportSize
 
       if (format === "jpg") {
-        ctx.fillStyle = "#ffffff";
-        ctx.fillRect(0, 0, exportSize, exportSize);
+        ctx.fillStyle = "#ffffff"
+        ctx.fillRect(0, 0, exportSize, exportSize)
       }
 
-      const img = new Image();
+      const img = new Image()
       const svgBlob = new Blob([svgString], {
         type: "image/svg+xml;charset=utf-8",
-      });
-      const url = URL.createObjectURL(svgBlob);
+      })
+      const url = URL.createObjectURL(svgBlob)
 
       img.onload = () => {
-        ctx.drawImage(img, 0, 0, exportSize, exportSize);
+        ctx.drawImage(img, 0, 0, exportSize, exportSize)
         canvas.toBlob(
           (blob) => {
             if (blob) {
-              const downloadUrl = URL.createObjectURL(blob);
-              const link = document.createElement("a");
-              link.href = downloadUrl;
-              link.download = `${selectedIcon.name}-${selectedIcon.type}-${exportSize}px.${format}`;
-              link.click();
-              URL.revokeObjectURL(downloadUrl);
+              const downloadUrl = URL.createObjectURL(blob)
+              const link = document.createElement("a")
+              link.href = downloadUrl
+              link.download = `${selectedIcon.name}-${selectedIcon.type}-${exportSize}px.${format}`
+              link.click()
+              URL.revokeObjectURL(downloadUrl)
             }
           },
           format === "png" ? "image/png" : "image/jpeg",
           1.0
-        );
-        URL.revokeObjectURL(url);
-      };
+        )
+        URL.revokeObjectURL(url)
+      }
 
-      img.src = url;
+      img.src = url
     }
-  };
+  }
 
   const copy = async (format: "svg" | "png" | "jpg") => {
-    const exportSize = size;
-    const svgString = getSVGString(exportSize);
-    if (!svgString) return;
+    const exportSize = size
+    const svgString = getSVGString(exportSize)
+    if (!svgString) return
 
     if (format === "svg") {
       try {
-        await navigator.clipboard.writeText(svgString);
-        setCopiedFormat("svg");
-        setTimeout(() => setCopiedFormat(null), 2000);
+        await navigator.clipboard.writeText(svgString)
+        setCopiedFormat("svg")
+        setTimeout(() => setCopiedFormat(null), 2000)
       } catch (err) {
-        console.error("Failed to copy SVG:", err);
+        console.error("Failed to copy SVG:", err)
       }
     } else {
-      const canvas = document.createElement("canvas");
-      const ctx = canvas.getContext("2d");
-      if (!ctx) return;
+      const canvas = document.createElement("canvas")
+      const ctx = canvas.getContext("2d")
+      if (!ctx) return
 
-      canvas.width = exportSize;
-      canvas.height = exportSize;
+      canvas.width = exportSize
+      canvas.height = exportSize
 
       if (format === "jpg") {
-        ctx.fillStyle = "#ffffff";
-        ctx.fillRect(0, 0, exportSize, exportSize);
+        ctx.fillStyle = "#ffffff"
+        ctx.fillRect(0, 0, exportSize, exportSize)
       }
 
-      const img = new Image();
+      const img = new Image()
       const svgBlob = new Blob([svgString], {
         type: "image/svg+xml;charset=utf-8",
-      });
-      const url = URL.createObjectURL(svgBlob);
+      })
+      const url = URL.createObjectURL(svgBlob)
 
       img.onload = async () => {
-        ctx.drawImage(img, 0, 0, exportSize, exportSize);
+        ctx.drawImage(img, 0, 0, exportSize, exportSize)
         try {
           canvas.toBlob(
             async (blob) => {
               if (blob) {
                 await navigator.clipboard.write([
                   new ClipboardItem({ [blob.type]: blob }),
-                ]);
-                setCopiedFormat(format);
-                setTimeout(() => setCopiedFormat(null), 2000);
+                ])
+                setCopiedFormat(format)
+                setTimeout(() => setCopiedFormat(null), 2000)
               }
             },
             format === "png" ? "image/png" : "image/jpeg"
-          );
+          )
         } catch (err) {
-          console.error(`Failed to copy ${format.toUpperCase()}:`, err);
+          console.error(`Failed to copy ${format.toUpperCase()}:`, err)
         }
-        URL.revokeObjectURL(url);
-      };
+        URL.revokeObjectURL(url)
+      }
 
-      img.src = url;
+      img.src = url
     }
-  };
+  }
 
   return (
-    <div className="px-4 grid gap-2">
-      <div className="inline-flex divide-x divide-primary-foreground/30 rtl:space-x-reverse">
+    <div className="grid gap-2 px-4">
+      <div className="divide-primary-foreground/30 inline-flex divide-x rtl:space-x-reverse">
         <Button
           onClick={() => download("svg")}
-          className="rounded-none w-43 shadow-none first:rounded-s-md focus-visible:z-10 text-xs"
+          className="w-43 rounded-none text-xs shadow-none first:rounded-s-md focus-visible:z-10"
         >
-          <Download className="opacity-60 mr-1" size={16} aria-hidden="true" />
+          <Download className="mr-1 opacity-60" size={16} aria-hidden="true" />
           Download
         </Button>
         <DropdownMenu>
@@ -410,12 +411,12 @@ export function IconDownloadPanel({
         <Button
           variant={"outline"}
           onClick={() => copy("svg")}
-          className="rounded-none w-43 shadow-none first:rounded-s-md focus-visible:z-10 text-xs"
+          className="w-43 rounded-none text-xs shadow-none first:rounded-s-md focus-visible:z-10"
         >
           {copiedFormat === "svg" ? (
-            <Check className="opacity-60 mr-1" size={16} aria-hidden="true" />
+            <Check className="mr-1 opacity-60" size={16} aria-hidden="true" />
           ) : (
-            <Copy className="opacity-60 mr-1" size={16} aria-hidden="true" />
+            <Copy className="mr-1 opacity-60" size={16} aria-hidden="true" />
           )}
           Copy Icon
         </Button>
@@ -432,17 +433,17 @@ export function IconDownloadPanel({
           </DropdownMenuTrigger>
           <DropdownMenuContent align="end" side="bottom">
             <DropdownMenuItem onClick={() => copy("svg")}>
-              SVG {copiedFormat === "svg" && <Check className="w-4 h-4 ml-2" />}
+              SVG {copiedFormat === "svg" && <Check className="ml-2 h-4 w-4" />}
             </DropdownMenuItem>
             <DropdownMenuItem onClick={() => copy("png")}>
-              PNG {copiedFormat === "png" && <Check className="w-4 h-4 ml-2" />}
+              PNG {copiedFormat === "png" && <Check className="ml-2 h-4 w-4" />}
             </DropdownMenuItem>
             <DropdownMenuItem onClick={() => copy("jpg")}>
-              JPG {copiedFormat === "jpg" && <Check className="w-4 h-4 ml-2" />}
+              JPG {copiedFormat === "jpg" && <Check className="ml-2 h-4 w-4" />}
             </DropdownMenuItem>
           </DropdownMenuContent>
         </DropdownMenu>
       </div>
     </div>
-  );
+  )
 }

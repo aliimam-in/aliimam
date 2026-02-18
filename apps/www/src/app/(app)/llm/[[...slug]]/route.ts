@@ -1,6 +1,5 @@
 import { notFound } from "next/navigation"
 import { NextResponse, type NextRequest } from "next/server"
-
 import { source } from "@/src/lib/source"
 
 export const revalidate = false

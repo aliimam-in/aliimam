@@ -25,7 +25,7 @@ export function SearchBar({ searchInput, setSearchInput }: SearchBarProps) {
     setSearchInput("")
   }
   return (
-    <div className="flex w-full relative z-10 bg-background h-full py-0.5 items-center border px-2">
+    <div className="bg-background relative z-10 flex h-full w-full items-center border px-2 py-0.5">
       <Search className="text-muted-foreground w-4" />
       <input
         type="text"
@@ -37,9 +37,9 @@ export function SearchBar({ searchInput, setSearchInput }: SearchBarProps) {
       {searchInput && (
         <button
           onClick={clearSearch}
-          className="cursor-pointer p-1 transition-colors hover:bg-muted"
+          className="hover:bg-muted cursor-pointer p-1 transition-colors"
         >
-          <X className="h-4 w-4 text-muted-foreground" />
+          <X className="text-muted-foreground h-4 w-4" />
         </button>
       )}
     </div>

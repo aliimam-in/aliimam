@@ -1,4 +1,3 @@
- 
 export interface Pattern {
   id: string
   name: string
@@ -9,7 +8,7 @@ export interface Pattern {
     | "lines"
     | "dots"
     | "textures"
-    | "abstract"     
+    | "abstract"
   badge?: "New" | "Popular" | string
   render?: () => React.ReactNode
 }

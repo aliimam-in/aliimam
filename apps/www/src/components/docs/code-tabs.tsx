@@ -1,8 +1,8 @@
 "use client"
 
 import * as React from "react"
-
 import { useConfig } from "@/src/hooks/use-config"
+
 import { Tabs } from "@/registry/aliimam/ui/tabs"
 
 export function CodeTabs({ children }: React.ComponentProps<typeof Tabs>) {

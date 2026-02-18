@@ -1,6 +1,10 @@
 import Link from "next/link"
 import { notFound } from "next/navigation"
 import { mdxComponents } from "@/mdx-components"
+import { DocsCopyPage } from "@/src/components/docs/docs-copy-page"
+import { DocsTableOfContents } from "@/src/components/docs/docs-toc"
+import { source } from "@/src/lib/source"
+import { absoluteUrl } from "@/src/lib/utils"
 import {
   IconArrowLeft,
   IconArrowRight,
@@ -8,10 +12,6 @@ import {
 } from "@tabler/icons-react"
 import { findNeighbour } from "fumadocs-core/server"
 
-import { source } from "@/src/lib/source"
-import { absoluteUrl } from "@/src/lib/utils"
-import { DocsCopyPage } from "@/src/components/docs/docs-copy-page"
-import { DocsTableOfContents } from "@/src/components/docs/docs-toc"
 import { Badge } from "@/registry/aliimam/ui/badge"
 import { Button } from "@/registry/aliimam/ui/button"
 
@@ -89,13 +89,10 @@ export default async function Page(props: {
   const links = doc.links
 
   return (
-    <div
-      data-slot="docs"
-      className="flex items-stretch h-full xl:w-full"
-    >
+    <div data-slot="docs" className="flex h-full items-stretch xl:w-full">
       <div className="flex min-w-0 flex-1 flex-col">
         <div className="h-(--top-spacing) shrink-0" />
-        <div className="mx-auto flex w-full min-w-0 flex-1 flex-col gap-8 text-neutral-800 py-4 dark:text-neutral-300">
+        <div className="mx-auto flex w-full min-w-0 flex-1 flex-col gap-8 py-4 text-neutral-800 dark:text-neutral-300">
           <div className="flex flex-col gap-2">
             <div className="flex flex-col gap-2">
               <div className="flex items-start justify-between">
@@ -165,7 +162,7 @@ export default async function Page(props: {
             <MDX components={mdxComponents} />
           </div>
         </div>
-        <div className="mx-auto py-20 hidden h-16 w-full max-w-6xl items-center gap-2 px-4 sm:flex md:px-0">
+        <div className="mx-auto hidden h-16 w-full max-w-6xl items-center gap-2 px-4 py-20 sm:flex md:px-0">
           {neighbours.previous && (
             <Button
               variant="secondary"
@@ -202,9 +199,7 @@ export default async function Page(props: {
             <div className="h-12" />
           </div>
         ) : null}
-        <div className="flex flex-1 flex-col gap-12 px-6">
-          savd
-          </div>
+        <div className="flex flex-1 flex-col gap-12 px-6">savd</div>
       </div>
     </div>
   )

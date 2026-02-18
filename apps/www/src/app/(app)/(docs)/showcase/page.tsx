@@ -1,14 +1,14 @@
-import { showcaseSource } from "@/src/lib/source";
-import { ShowcaseCard } from "@/src/components/docs/showcase";
+import { ShowcaseCard } from "@/src/components/docs/showcase"
+import { showcaseSource } from "@/src/lib/source"
 
 type Showcase = {
-  url: string;
+  url: string
   data: {
-    title: string;
-    image: string;
-    affiliation: string;
-  };
-};
+    title: string
+    image: string
+    affiliation: string
+  }
+}
 
 export default function Page() {
   // Map or adapt the output of getPages() to satisfy the Showcase[] type
@@ -20,14 +20,14 @@ export default function Page() {
       image: page.data.image ?? "",
       affiliation: page.data.affiliation ?? "",
     },
-  }));
+  }))
 
   return (
     <article className="container">
       <h2 className="mb-2 text-center text-5xl font-bold tracking-tighter">
         Showcase
       </h2>
-      <h3 className="mx-auto mb-8 text-center text-lg text-muted-foreground">
+      <h3 className="text-muted-foreground mx-auto mb-8 text-center text-lg">
         Companies choose Ali Imam to build their landing pages.
       </h3>
       <div className="grid grid-cols-1 gap-3 lg:grid-cols-2">
@@ -43,5 +43,5 @@ export default function Page() {
         ))}
       </div>
     </article>
-  );
+  )
 }

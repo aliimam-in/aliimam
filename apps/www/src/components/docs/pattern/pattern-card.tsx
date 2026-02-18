@@ -31,7 +31,6 @@ export default function PatternCard({
 
   const previewPattern = (patternId: string) => {
     setActivePattern(patternId === activePattern ? null : patternId)
-     
   }
 
   const handleCardInteraction = (patternId: string) => {
@@ -79,7 +78,7 @@ export default function PatternCard({
           <div className="absolute top-2 right-2 z-10 h-1.5 w-1.5 rounded-full bg-blue-500" />
         )}
 
-        <div className=" absolute inset-0 hidden items-end justify-start p-2 opacity-0 transition-all duration-300 group-hover:opacity-100 lg:flex">
+        <div className="absolute inset-0 hidden items-end justify-start p-2 opacity-0 transition-all duration-300 group-hover:opacity-100 lg:flex">
           <Button
             size={"icon"}
             variant={"outline"}

@@ -113,7 +113,7 @@ export function ThemeListener() {
 
 export function ThemeListenerPattern() {
   const { setActiveTheme, activeTheme } = useThemeConfig()
- 
+
   useEffect(() => {
     const handleMessage = (event: MessageEvent) => {
       if (event.origin !== window.location.origin) return

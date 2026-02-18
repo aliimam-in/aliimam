@@ -24,9 +24,9 @@ export const siteConfig = {
   ],
   utm: {
     main: "https://aliimam.in?utm_source=ui_aliimam&utm_medium=web&utm_campaign=growth_experiments_ui_components",
-    agents: "https://aliimam.in?utm_source=ui_aliimam&utm_medium=web&utm_campaign=growth_experiments_ui_components",
-    lib: "https://aliimam.in?utm_source=ui_aliimam&utm_medium=web&utm_campaign=growth_experiments_ui_components"
-
+    agents:
+      "https://aliimam.in?utm_source=ui_aliimam&utm_medium=web&utm_campaign=growth_experiments_ui_components",
+    lib: "https://aliimam.in?utm_source=ui_aliimam&utm_medium=web&utm_campaign=growth_experiments_ui_components",
   },
 }
 

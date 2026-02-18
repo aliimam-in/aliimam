@@ -1,10 +1,13 @@
 "use client"
 
 import * as React from "react"
-import { IconCheck, IconCopy } from "@tabler/icons-react"
-import { cn } from "@/src/lib/utils"
-import { useThemeConfig } from "@/src/components/themes/active-theme"
 import { copyToClipboardWithMeta } from "@/src/components/copy-button"
+import { useThemeConfig } from "@/src/components/themes/active-theme"
+import { THEME_COLORS } from "@/src/lib/theme-colors"
+import { getFontVariable, GOOGLE_FONTS_MAP } from "@/src/lib/themes"
+import { cn } from "@/src/lib/utils"
+import { IconCheck, IconCopy } from "@tabler/icons-react"
+
 import { Button } from "@/registry/aliimam/ui/button"
 import {
   Dialog,
@@ -14,13 +17,11 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/registry/aliimam/ui/dialog"
-import { getFontVariable, GOOGLE_FONTS_MAP } from "@/src/lib/themes"
-import { THEME_COLORS } from "@/src/lib/theme-colors"
 import {
   Tabs,
+  TabsContent,
   TabsList,
   TabsTrigger,
-  TabsContent,
 } from "@/registry/aliimam/ui/tabs"
 
 export function CopyCodeButton({
@@ -41,10 +42,7 @@ export function CopyCodeButton({
     [activeTheme, radius, font]
   )
 
-  const fontCode = React.useMemo(
-    () => generateFontCode(font),
-    [font]
-  )
+  const fontCode = React.useMemo(() => generateFontCode(font), [font])
 
   const handleCopy = (code: string) => {
     copyToClipboardWithMeta(code, {
@@ -64,7 +62,7 @@ export function CopyCodeButton({
         <Button
           variant="outline"
           size="sm"
-          className={cn("gap-2 cursor-pointer", className)}
+          className={cn("cursor-pointer gap-2", className)}
           {...props}
         >
           <IconCopy className="h-4 w-4" />
@@ -72,13 +70,13 @@ export function CopyCodeButton({
         </Button>
       </DialogTrigger>
 
-      <DialogContent className="max-w-3xl h-full w-full max-h-[60vh] overflow-auto">
+      <DialogContent className="h-full max-h-[60vh] w-full max-w-3xl overflow-auto">
         <Tabs defaultValue="color" className="w-full">
           <TabsList>
             <TabsTrigger value="color">Color Theme</TabsTrigger>
             <TabsTrigger value="font">Font Setup</TabsTrigger>
           </TabsList>
- 
+
           <TabsContent value="color" className="max-w-[405px]">
             <DialogHeader className="py-3">
               <DialogTitle className="capitalize">
@@ -103,15 +101,14 @@ export function CopyCodeButton({
                 )}
               </Button>
 
-              <pre className="bg-code p-4 pt-12 overflow-auto text-sm">
+              <pre className="bg-code overflow-auto p-4 pt-12 text-sm">
                 <code>{themeCode}</code>
               </pre>
             </div>
           </TabsContent>
- 
+
           <TabsContent value="font" className="max-w-[405px]">
-          <DialogHeader className="py-3">
-               
+            <DialogHeader className="py-3">
               <DialogDescription>
                 Copy and paste this into your app/layout.tsx file
               </DialogDescription>
@@ -130,7 +127,7 @@ export function CopyCodeButton({
                 )}
               </Button>
 
-              <pre className="bg-code p-4 pt-12 overflow-auto text-sm">
+              <pre className="bg-code overflow-auto p-4 pt-12 text-sm">
                 <code>{fontCode}</code>
               </pre>
             </div>
@@ -140,7 +137,6 @@ export function CopyCodeButton({
     </Dialog>
   )
 }
-
 
 function generateThemeCode(
   themeName: string,
@@ -179,7 +175,6 @@ ${formatVars(themeColors.dark)}
   font-family: ${fontFamily};
 }`.trim()
 }
-
 
 function generateFontCode(font: string): string {
   const fontName = GOOGLE_FONTS_MAP[font] ?? "Inter"

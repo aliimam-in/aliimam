@@ -1,20 +1,21 @@
-"use client";
+"use client"
 
-import * as React from "react";
-import { Moon, Sun, ArrowUp } from "lucide-react";
-import { useTheme } from "next-themes";
-import { useEffect, useState } from "react";
-import { Toggle } from "@/registry/aliimam/ui/toggle";
+import * as React from "react"
+import { useEffect, useState } from "react"
+import { ArrowUp, Moon, Sun } from "lucide-react"
+import { useTheme } from "next-themes"
+
+import { Toggle } from "@/registry/aliimam/ui/toggle"
 
 export function ModeToggle() {
-  const { theme, setTheme } = useTheme();
-  const [mounted, setMounted] = useState(false);
+  const { theme, setTheme } = useTheme()
+  const [mounted, setMounted] = useState(false)
 
   useEffect(() => {
-    setMounted(true);
-  }, []);
+    setMounted(true)
+  }, [])
 
-  if (!mounted) return null;
+  if (!mounted) return null
 
   return (
     <div className="flex flex-col justify-center">
@@ -37,25 +38,25 @@ export function ModeToggle() {
         </Toggle>
       </div>
     </div>
-  );
+  )
 }
 
 function handleScrollTop() {
   window.scroll({
     top: 0,
     behavior: "smooth",
-  });
+  })
 }
 
 const ThemeSwitch = () => {
-  const { setTheme } = useTheme();
+  const { setTheme } = useTheme()
 
   return (
     <div className="flex items-center justify-center">
       <div className="flex items-center rounded-none border">
         <button
           onClick={() => setTheme("light")}
-          className="bg-black cursor-pointer rounded-none p-2 text-white dark:bg-background dark:text-white"
+          className="dark:bg-background cursor-pointer rounded-none bg-black p-2 text-white dark:text-white"
         >
           <Sun className="h-5 w-5" />
         </button>
@@ -70,13 +71,13 @@ const ThemeSwitch = () => {
 
         <button
           onClick={() => setTheme("dark")}
-          className="dark:bg-white cursor-pointer rounded-none p-2 text-black dark:text-black"
+          className="cursor-pointer rounded-none p-2 text-black dark:bg-white dark:text-black"
         >
           <Moon className="h-5 w-5" />
         </button>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export { ThemeSwitch };
+export { ThemeSwitch }

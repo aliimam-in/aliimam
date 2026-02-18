@@ -91,7 +91,7 @@ export const pagesCategories = [
     name: "Landing",
     slug: "landing",
     hidden: false,
-  }, 
+  },
   {
     name: "About",
     slug: "about",
@@ -157,8 +157,7 @@ export const MorenavItems = [
       {
         title: "AI",
         href: "/ai",
-        description:
-          "Hi, My name is Ali Imam, Know more about me.",
+        description: "Hi, My name is Ali Imam, Know more about me.",
       },
       {
         title: "Pricing",

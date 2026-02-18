@@ -1,4 +1,3 @@
- 
 import type { Pattern } from "@/src/types/pattern"
 
 export const gradientPatterns: Pattern[] = [

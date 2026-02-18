@@ -1142,7 +1142,7 @@ export const Index: Record<string, any> = {
     name: "login-01",
     description: "A simple login page.",
     type: "registry:block",
-    registryDependencies: ["button","label","input"],
+    registryDependencies: ["button","input"],
     files: [{
       path: "registry/aliimam/blocks/login/login-01/page.tsx",
       type: "registry:component",

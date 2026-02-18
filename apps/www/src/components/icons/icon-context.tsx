@@ -1,50 +1,56 @@
-"use client";
-import React, { createContext, useContext, useState, useMemo, ReactNode } from "react";
-import * as Icons from "@aliimam/icons";
+"use client"
+
+import React, {
+  createContext,
+  ReactNode,
+  useContext,
+  useMemo,
+  useState,
+} from "react"
+import * as Icons from "@aliimam/icons"
 
 interface IconsContextType {
-  searchQuery: string;
-  setSearchQuery: (query: string) => void;
-  activeCategory: string;
-  setActiveCategory: (category: string) => void;
-  allCategories: string[];
+  searchQuery: string
+  setSearchQuery: (query: string) => void
+  activeCategory: string
+  setActiveCategory: (category: string) => void
+  allCategories: string[]
   iconComponents: Array<{
-    name: string;
-    Component: React.ComponentType<React.SVGProps<SVGSVGElement>>;
-  }>;
+    name: string
+    Component: React.ComponentType<React.SVGProps<SVGSVGElement>>
+  }>
 }
 
-const IconsContext = createContext<IconsContextType | undefined>(undefined);
+const IconsContext = createContext<IconsContextType | undefined>(undefined)
 
 export function IconsProvider({ children }: { children: ReactNode }) {
-  const [searchQuery, setSearchQuery] = useState("");
-  const [activeCategory, setActiveCategory] = useState("all");
+  const [searchQuery, setSearchQuery] = useState("")
+  const [activeCategory, setActiveCategory] = useState("all")
 
   // Get all icon components
   const iconComponents = useMemo(() => {
     return Object.keys(Icons)
       .filter((key) => {
-        const value = Icons[key as keyof typeof Icons];
-        return typeof value === "function" || typeof value === "object";
+        const value = Icons[key as keyof typeof Icons]
+        return typeof value === "function" || typeof value === "object"
       })
       .map((key) => ({
         name: key,
         Component: Icons[key as keyof typeof Icons] as React.ComponentType<
           React.SVGProps<SVGSVGElement>
         >,
-      }));
-  }, []);
+      }))
+  }, [])
 
   // Get all unique categories
   const allCategories = useMemo(() => {
-    const categories = new Set<string>();
+    const categories = new Set<string>()
     iconComponents.forEach(({ Component }) => {
-      const category =
-        (Component as any).metadata?.category || "Uncategorized";
-      categories.add(category);
-    });
-    return ["all", ...Array.from(categories).sort()];
-  }, [iconComponents]);
+      const category = (Component as any).metadata?.category || "Uncategorized"
+      categories.add(category)
+    })
+    return ["all", ...Array.from(categories).sort()]
+  }, [iconComponents])
 
   return (
     <IconsContext.Provider
@@ -59,13 +65,13 @@ export function IconsProvider({ children }: { children: ReactNode }) {
     >
       {children}
     </IconsContext.Provider>
-  );
+  )
 }
 
 export function useIcons() {
-  const context = useContext(IconsContext);
+  const context = useContext(IconsContext)
   if (!context) {
-    throw new Error("useLogos must be used within LogosProvider");
+    throw new Error("useLogos must be used within LogosProvider")
   }
-  return context;
+  return context
 }

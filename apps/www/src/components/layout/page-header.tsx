@@ -23,7 +23,7 @@ function PageHeaderHeading({
   return (
     <h1
       className={cn(
-        "text-4xl font-bold uppercase lg:text-6xl xl:text-8xl tracking-tighter",
+        "text-4xl font-bold tracking-tighter uppercase lg:text-6xl xl:text-8xl",
         className
       )}
       {...props}
@@ -38,7 +38,7 @@ function PageHeaderDescription({
   return (
     <p
       className={cn(
-        "text-muted-foreground text-sm xl:text-lg max-w-4xl",
+        "text-muted-foreground max-w-4xl text-sm xl:text-lg",
         className
       )}
       {...props}
@@ -59,7 +59,6 @@ function PageActions({ className, ...props }: React.ComponentProps<"div">) {
 }
 
 export { PageActions, PageHeader, PageHeaderDescription, PageHeaderHeading }
-
 
 function SectionHeader({
   className,
@@ -84,7 +83,7 @@ function SectionHeaderHeading({
   return (
     <h1
       className={cn(
-        "text-3xl font-medium uppercase xl:text-5xl tracking-tighter",
+        "text-3xl font-medium tracking-tighter uppercase xl:text-5xl",
         className
       )}
       {...props}
@@ -99,7 +98,7 @@ function SectionHeaderDescription({
   return (
     <p
       className={cn(
-        "text-muted-foreground text-sm xl:text-md max-w-3xl",
+        "text-muted-foreground xl:text-md max-w-3xl text-sm",
         className
       )}
       {...props}
@@ -119,4 +118,9 @@ function SectionActions({ className, ...props }: React.ComponentProps<"div">) {
   )
 }
 
-export { SectionActions, SectionHeader, SectionHeaderDescription, SectionHeaderHeading }
+export {
+  SectionActions,
+  SectionHeader,
+  SectionHeaderDescription,
+  SectionHeaderHeading,
+}

@@ -1,26 +1,26 @@
-import type { Artist, NowPlayingSong } from "@/src/types/global";
-import Link from "next/link";
-import { getNowPlaying } from "@/src/lib/spotify";
+import Link from "next/link"
+import { getNowPlaying } from "@/src/lib/spotify"
+import type { Artist, NowPlayingSong } from "@/src/types/global"
 
-import AnimatedBars from "./animatedbars";
+import AnimatedBars from "./animatedbars"
 
 async function fetchNowPlaying(): Promise<NowPlayingSong | null> {
   try {
-    const response = await getNowPlaying();
+    const response = await getNowPlaying()
 
     if (response.status === 204 || response.status > 400) {
-      return null;
+      return null
     }
 
-    const song = await response.json();
-    const isPlaying = song.is_playing;
-    const title = song.item.name;
+    const song = await response.json()
+    const isPlaying = song.is_playing
+    const title = song.item.name
     const artist = song.item.artists
       .map((artist: Artist) => artist.name)
-      .join(", ");
-    const album = song.item.album.name;
-    const albumImageUrl = song.item.album.images[0].url;
-    const songUrl = song.item.external_urls.spotify;
+      .join(", ")
+    const album = song.item.album.name
+    const albumImageUrl = song.item.album.images[0].url
+    const songUrl = song.item.external_urls.spotify
 
     return {
       album,
@@ -29,25 +29,25 @@ async function fetchNowPlaying(): Promise<NowPlayingSong | null> {
       isPlaying,
       songUrl,
       title,
-    };
+    }
   } catch (e) {
     if (e instanceof Error) {
-      console.error(e.message);
+      console.error(e.message)
     }
   }
 
-  return null;
+  return null
 }
 
 export default async function NowPlaying() {
-  const nowPlaying = await fetchNowPlaying();
+  const nowPlaying = await fetchNowPlaying()
 
   if (!nowPlaying) {
     return (
-      <div className="relative border-t overflow-hidden">
+      <div className="relative overflow-hidden border-t">
         <div
           aria-hidden="true"
-          className="absolute left-[max(-7rem,calc(50%-52rem))] top-1/2 -z-10 -translate-y-1/2 transform-gpu blur-2xl"
+          className="absolute top-1/2 left-[max(-7rem,calc(50%-52rem))] -z-10 -translate-y-1/2 transform-gpu blur-2xl"
         >
           <div
             style={{
@@ -59,7 +59,7 @@ export default async function NowPlaying() {
         </div>
         <div
           aria-hidden="true"
-          className="absolute left-[max(45rem,calc(50%+8rem))] top-1/2 -z-10 -translate-y-1/2 transform-gpu blur-2xl"
+          className="absolute top-1/2 left-[max(45rem,calc(50%+8rem))] -z-10 -translate-y-1/2 transform-gpu blur-2xl"
         >
           <div
             style={{
@@ -93,14 +93,14 @@ export default async function NowPlaying() {
           </div>
         </div>
       </div>
-    );
+    )
   }
 
   return (
-    <div className="relative border-t overflow-hidden">
+    <div className="relative overflow-hidden border-t">
       <div
         aria-hidden="true"
-        className="absolute left-[max(-7rem,calc(50%-52rem))] top-1/2 -z-10 -translate-y-1/2 transform-gpu blur-2xl"
+        className="absolute top-1/2 left-[max(-7rem,calc(50%-52rem))] -z-10 -translate-y-1/2 transform-gpu blur-2xl"
       >
         <div
           style={{
@@ -112,7 +112,7 @@ export default async function NowPlaying() {
       </div>
       <div
         aria-hidden="true"
-        className="absolute left-[max(45rem,calc(50%+8rem))] top-1/2 -z-10 -translate-y-1/2 transform-gpu blur-2xl"
+        className="absolute top-1/2 left-[max(45rem,calc(50%+8rem))] -z-10 -translate-y-1/2 transform-gpu blur-2xl"
       >
         <div
           style={{
@@ -124,11 +124,9 @@ export default async function NowPlaying() {
       </div>
       <div className="mb-6 grid items-center justify-center space-x-2 px-6 py-3 md:mb-0 md:flex">
         <AnimatedBars />
-        <div className="grid items-center justify-center gap-y-2 space-x-2 text-center text-sm sm:text-base md:inline-flex">
+        <div className="grid items-center justify-center space-x-2 gap-y-2 text-center text-sm sm:text-base md:inline-flex">
           <Link href="https://www.instagram.com/aliimam.in/" target="_blank">
-            <p className="font-medium text-slate-800 dark:text-slate-200">
-              AI
-            </p>
+            <p className="font-medium text-slate-800 dark:text-slate-200">AI</p>
           </Link>
 
           <p className="text-xs text-slate-600 dark:text-slate-400">
@@ -142,7 +140,7 @@ export default async function NowPlaying() {
           >
             {nowPlaying.title}
           </a>
-          <span className="hidden text-slate-600 dark:text-slate-400 md:block">
+          <span className="hidden text-slate-600 md:block dark:text-slate-400">
             {" · "}
           </span>
           <p className="inline-block truncate text-slate-600 dark:text-slate-400">
@@ -151,5 +149,5 @@ export default async function NowPlaying() {
         </div>
       </div>
     </div>
-  );
+  )
 }

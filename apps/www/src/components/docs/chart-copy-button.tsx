@@ -1,10 +1,10 @@
 "use client"
 
 import * as React from "react"
-import { CheckIcon, ClipboardIcon } from "lucide-react"
-
 import { Event, trackEvent } from "@/src/lib/events"
 import { cn } from "@/src/lib/utils"
+import { CheckIcon, ClipboardIcon } from "lucide-react"
+
 import { Button } from "@/registry/aliimam/ui/button"
 import {
   Tooltip,

@@ -1,13 +1,12 @@
 import fs from "node:fs/promises"
 import path from "node:path"
 import * as React from "react"
-
+import { CopyButton } from "@/src/components/copy-button"
+import { CodeCollapsibleWrapper } from "@/src/components/docs/code-collapsible-wrapper"
+import { getIconForLanguageExtension } from "@/src/components/icons"
 import { highlightCode } from "@/src/lib/highlight-code"
 import { getRegistryItem } from "@/src/lib/registry"
 import { cn } from "@/src/lib/utils"
-import { CodeCollapsibleWrapper } from "@/src/components/docs/code-collapsible-wrapper"
-import { CopyButton } from "@/src/components/copy-button"
-import { getIconForLanguageExtension } from "@/src/components/icons"
 
 export async function ComponentSource({
   name,

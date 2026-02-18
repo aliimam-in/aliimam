@@ -1,36 +1,37 @@
-import { X } from "lucide-react";
-import React, { useState } from "react";
-import { IconControlsPanel, LogoControlsPanel } from "./icon-control";
-import { IconDownloadPanel, LogoDownloadPanel } from "./download-icon";
+import React, { useState } from "react"
+import { X } from "lucide-react"
+
+import { IconDownloadPanel, LogoDownloadPanel } from "./download-icon"
+import { IconControlsPanel, LogoControlsPanel } from "./icon-control"
 
 interface LogoPreviewPanelProps {
   selectedIcon: {
-    name: string;
-    Component: React.ComponentType<React.SVGProps<SVGSVGElement>>;
-    type: string;
-  } | null;
-  onClearSelection: () => void;
+    name: string
+    Component: React.ComponentType<React.SVGProps<SVGSVGElement>>
+    type: string
+  } | null
+  onClearSelection: () => void
 }
 
 export function LogoPreviewPanel({
   selectedIcon,
   onClearSelection,
 }: LogoPreviewPanelProps) {
-  const [size, setSize] = useState(96);
-  const [color, setColor] = useState("currentColor");
+  const [size, setSize] = useState(96)
+  const [color, setColor] = useState("currentColor")
 
   return (
-    <div className="flex flex-1 flex-col bg-background overflow-auto">
+    <div className="bg-background flex flex-1 flex-col overflow-auto">
       {selectedIcon ? (
         <>
-          <div className="flex flex-col px-3 gap-2">
-            <div className="text-center w-full items-center flex justify-between space-y-1">
-              <p className="font-semibold text-sm">{selectedIcon.name}</p>
-              <p className="text-xs pr-6 text-muted-foreground capitalize">
+          <div className="flex flex-col gap-2 px-3">
+            <div className="flex w-full items-center justify-between space-y-1 text-center">
+              <p className="text-sm font-semibold">{selectedIcon.name}</p>
+              <p className="text-muted-foreground pr-6 text-xs capitalize">
                 {selectedIcon.type}
               </p>
             </div>
-            <div className="bg-muted/50 flex items-center justify-center w-full aspect-square">
+            <div className="bg-muted/50 flex aspect-square w-full items-center justify-center">
               <selectedIcon.Component
                 id="preview-icon"
                 type={selectedIcon.type}
@@ -44,9 +45,9 @@ export function LogoPreviewPanel({
             </div>
             <button
               onClick={onClearSelection}
-              className="text-xs top-1 right-3 absolute text-muted-foreground hover:text-foreground transition-colors"
+              className="text-muted-foreground hover:text-foreground absolute top-1 right-3 text-xs transition-colors"
             >
-              <X className="h-4 w-4"/>
+              <X className="h-4 w-4" />
             </button>
           </div>
 
@@ -64,47 +65,47 @@ export function LogoPreviewPanel({
           />
         </>
       ) : (
-        <div className="flex items-center justify-center h-full">
-          <p className="text-sm text-muted-foreground text-center">
+        <div className="flex h-full items-center justify-center">
+          <p className="text-muted-foreground text-center text-sm">
             Select an icon to preview
           </p>
         </div>
       )}
     </div>
-  );
+  )
 }
 
 interface IconPreviewPanelProps {
   selectedIcon: {
-    name: string;
-    Component: React.ComponentType<React.SVGProps<SVGSVGElement>>;
-    type: string;
-  } | null;
-  onClearSelection: () => void;
+    name: string
+    Component: React.ComponentType<React.SVGProps<SVGSVGElement>>
+    type: string
+  } | null
+  onClearSelection: () => void
 }
 
 export function IconPreviewPanel({
   selectedIcon,
   onClearSelection,
 }: IconPreviewPanelProps) {
-  const [size, setSize] = useState(96);
-  const [color, setColor] = useState("currentColor");
-  const [strokeWidth, setStrokeWidth] = useState(2);
+  const [size, setSize] = useState(96)
+  const [color, setColor] = useState("currentColor")
+  const [strokeWidth, setStrokeWidth] = useState(2)
 
-  const isStrokeIcon = selectedIcon?.type === "stroke";
+  const isStrokeIcon = selectedIcon?.type === "stroke"
 
   return (
-    <div className="flex flex-1 flex-col bg-background overflow-auto">
+    <div className="bg-background flex flex-1 flex-col overflow-auto">
       {selectedIcon ? (
         <>
-          <div className="flex flex-col px-3 gap-2">
-            <div className="text-center w-full items-center flex justify-between space-y-1">
-              <p className="font-semibold text-sm">{selectedIcon.name}</p>
-              <p className="text-xs pr-6 text-muted-foreground capitalize">
+          <div className="flex flex-col gap-2 px-3">
+            <div className="flex w-full items-center justify-between space-y-1 text-center">
+              <p className="text-sm font-semibold">{selectedIcon.name}</p>
+              <p className="text-muted-foreground pr-6 text-xs capitalize">
                 {selectedIcon.type}
               </p>
             </div>
-            <div className="bg-muted/50 rounded-2xl flex items-center justify-center w-full aspect-square">
+            <div className="bg-muted/50 flex aspect-square w-full items-center justify-center rounded-2xl">
               <selectedIcon.Component
                 id="preview-icon"
                 type={selectedIcon.type}
@@ -112,16 +113,18 @@ export function IconPreviewPanel({
                   width: `${size}px`,
                   height: `${size}px`,
                   color: color,
-                  ...(isStrokeIcon ? { stroke: color, strokeWidth: strokeWidth } : {}),
+                  ...(isStrokeIcon
+                    ? { stroke: color, strokeWidth: strokeWidth }
+                    : {}),
                 }}
                 className="transition-all duration-200"
               />
             </div>
             <button
               onClick={onClearSelection}
-              className="text-xs top-1 right-3 absolute text-muted-foreground hover:text-foreground transition-colors"
+              className="text-muted-foreground hover:text-foreground absolute top-1 right-3 text-xs transition-colors"
             >
-              <X className="w-4 h-4"/>
+              <X className="h-4 w-4" />
             </button>
           </div>
 
@@ -144,12 +147,12 @@ export function IconPreviewPanel({
           />
         </>
       ) : (
-        <div className="flex items-center justify-center h-full">
-          <p className="text-sm text-muted-foreground text-center">
+        <div className="flex h-full items-center justify-center">
+          <p className="text-muted-foreground text-center text-sm">
             Select an icon to preview
           </p>
         </div>
       )}
     </div>
-  );
+  )
 }

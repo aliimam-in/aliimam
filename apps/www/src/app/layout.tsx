@@ -1,11 +1,11 @@
 import type { Metadata } from "next"
-
 import { META_THEME_COLORS, siteConfig } from "@/src/lib/config"
-import { cn } from "@/src/lib/utils"
 import { fontVariables } from "@/src/lib/fonts"
+import { cn } from "@/src/lib/utils"
 
 import "@/src/styles/globals.css"
-import { Provider } from "@/src/components/themes/provider" 
+
+import { Provider } from "@/src/components/themes/provider"
 
 export const metadata: Metadata = {
   title: {
@@ -59,8 +59,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning
-    >
+    <html lang="en" suppressHydrationWarning>
       <head>
         <script
           dangerouslySetInnerHTML={{
@@ -80,13 +79,11 @@ export default function RootLayout({
       </head>
       <body
         className={cn(
-          "group/body bg-background font-mono overscroll-none antialiased [--footer-height:calc(var(--spacing)*14)] [--header-height:calc(var(--spacing)*14)] xl:[--footer-height:calc(var(--spacing)*24)]",
+          "group/body bg-background overscroll-none font-mono antialiased [--footer-height:calc(var(--spacing)*14)] [--header-height:calc(var(--spacing)*14)] xl:[--footer-height:calc(var(--spacing)*24)]",
           fontVariables
         )}
       >
-        <Provider> 
-          {children}
-        </Provider>
+        <Provider>{children}</Provider>
       </body>
     </html>
   )

@@ -140,14 +140,14 @@ export default function PatternShowcase({
             <button
               onClick={handleRandomSelect}
               disabled={gridPatterns.length === 0}
-              className="bg-background cursor-pointer hover:bg-muted border px-4 py-2 text-xs uppercase transition disabled:cursor-not-allowed disabled:opacity-50"
+              className="bg-background hover:bg-muted cursor-pointer border px-4 py-2 text-xs uppercase transition disabled:cursor-not-allowed disabled:opacity-50"
             >
               Random
             </button>
             <button
               onClick={handleCopyActive}
               disabled={!activePattern}
-              className="bg-background cursor-pointer hover:bg-muted border px-6 py-2 text-xs uppercase transition disabled:cursor-not-allowed disabled:opacity-50"
+              className="bg-background hover:bg-muted cursor-pointer border px-6 py-2 text-xs uppercase transition disabled:cursor-not-allowed disabled:opacity-50"
             >
               {activePattern && isCopied(activePattern) ? "Copied" : "Copy"}
             </button>

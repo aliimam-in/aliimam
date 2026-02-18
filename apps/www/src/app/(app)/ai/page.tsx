@@ -1,13 +1,12 @@
+import { Metadata } from "next"
 import { Clients } from "@/src/components/sections/ai/clients"
 import { Connect } from "@/src/components/sections/ai/connect"
 import { Craete } from "@/src/components/sections/ai/create"
 import { Hero } from "@/src/components/sections/ai/hero"
 import { Journey } from "@/src/components/sections/ai/journey"
-import { Metadata } from "next"
 
 const title = "Ali Imam"
-const description =
-  "Coming Soon!"
+const description = "Coming Soon!"
 
 export const dynamic = "force-static"
 export const revalidate = false
@@ -38,12 +37,12 @@ export const metadata: Metadata = {
 
 export default function IndexPage() {
   return (
-    <div> 
+    <div>
       <Hero />
-      <Clients/>
-      <Journey/>
-      <Craete/>
-      <Connect/>
+      <Clients />
+      <Journey />
+      <Craete />
+      <Connect />
     </div>
   )
 }

@@ -1,5 +1,5 @@
-import { FileIcon } from "lucide-react"
 import { SVGProps } from "react"
+import { FileIcon } from "lucide-react"
 
 type IconProps = React.HTMLAttributes<SVGElement>
 
@@ -171,7 +171,7 @@ export const Icons = {
         fill="currentColor"
       ></path>
     </svg>
-  ), 
+  ),
   aliimam: (props: IconProps) => (
     <svg
       viewBox="0 0 694 90"
@@ -242,7 +242,6 @@ export function getIconForLanguageExtension(language: string) {
       return <FileIcon />
   }
 }
-
 
 export const WhatsAppJoin = (props: SVGProps<SVGSVGElement>) => (
   <svg
@@ -330,4 +329,4 @@ export const WhatsAppJoin = (props: SVGProps<SVGSVGElement>) => (
       <path d="M225.84,215.17c.61.38,5.21,11.88,5.22,13.33.03,4.32-4.39,5.76-3.94,8.77.8,5.34,16.3,18.78,21.85,16.24,2.66-1.22,3.56-6.12,6.51-6.08l12.9,5.47c2.88,7.39-4.05,13.36-10.85,14.13-13.41,1.52-29.91-11.34-37.51-21.54-5.34-7.17-10.22-15.1-6.2-24.17,1.83-4.13,7.64-8.89,12.03-6.15Z" />
     </g>
   </svg>
-);
+)

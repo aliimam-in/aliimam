@@ -3,9 +3,9 @@
 import * as React from "react"
 import Link, { LinkProps } from "next/link"
 import { useRouter } from "next/navigation"
-
 import { source } from "@/src/lib/source"
 import { cn } from "@/src/lib/utils"
+
 import { Button } from "@/registry/aliimam/ui/button"
 import {
   Popover,
@@ -50,7 +50,7 @@ export function MobileNav({
               />
             </div>
             <span className="sr-only">Toggle Menu</span>
-          </div> 
+          </div>
         </Button>
       </PopoverTrigger>
       <PopoverContent

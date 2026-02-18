@@ -2,15 +2,15 @@
 
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-
 import { cn } from "@/src/lib/utils"
+
 import { Button } from "@/registry/aliimam/ui/button"
 import {
   NavigationMenu,
-  NavigationMenuList,
+  NavigationMenuContent,
   NavigationMenuItem,
   NavigationMenuLink,
-  NavigationMenuContent,
+  NavigationMenuList,
   NavigationMenuTrigger,
   navigationMenuTriggerStyle,
 } from "@/registry/aliimam/ui/navigation-menu"
@@ -27,15 +27,21 @@ export function MainNav({
   return (
     <nav className={cn("items-center gap-0.5", className)} {...props}>
       {items.map((item) => (
-        <Button key={item.href} variant="ghost" className="relative" asChild size="sm">
+        <Button
+          key={item.href}
+          variant="ghost"
+          className="relative"
+          asChild
+          size="sm"
+        >
           <Link
             href={item.href}
             className={cn(pathname === item.href && "text-primary")}
           >
             {item.label}
             {item.new && (
-              <span className="absolute right-1 top-1 inline-block h-1.5 w-1.5 rounded-full bg-blue-500" />
-            )} 
+              <span className="absolute top-1 right-1 inline-block h-1.5 w-1.5 rounded-full bg-blue-500" />
+            )}
           </Link>
         </Button>
       ))}
@@ -45,18 +51,17 @@ export function MainNav({
 
 type MoreNavItem =
   | {
-    label: string
-    href: string
-  }
-  | {
-    label: string
-    items: {
-      title: string
+      label: string
       href: string
-      description?: string
-    }[]
-  }
-
+    }
+  | {
+      label: string
+      items: {
+        title: string
+        href: string
+        description?: string
+      }[]
+    }
 
 export function MoreMainNav({
   items,
@@ -93,7 +98,9 @@ export function MoreMainNav({
           // 🔹 Dropdown
           return (
             <NavigationMenuItem key={item.label}>
-              <NavigationMenuTrigger className="uppercase">{item.label}</NavigationMenuTrigger>
+              <NavigationMenuTrigger className="uppercase">
+                {item.label}
+              </NavigationMenuTrigger>
               <NavigationMenuContent className="shadow-xl">
                 <ul className="grid w-[400px] gap-2 p-2 md:w-[500px] md:grid-cols-2">
                   {item.items.map((subItem) => (
@@ -115,7 +122,6 @@ export function MoreMainNav({
   )
 }
 
-
 function ListItem({
   title,
   children,
@@ -130,11 +136,11 @@ function ListItem({
       <NavigationMenuLink asChild>
         <Link
           href={href}
-          className="flex flex-col gap-1 rounded-md p-3 text-sm transition-colors hover:bg-muted"
+          className="hover:bg-muted flex flex-col gap-1 rounded-md p-3 text-sm transition-colors"
         >
-          <span className="font-medium uppercase leading-none">{title}</span>
+          <span className="leading-none font-medium uppercase">{title}</span>
           {children && (
-            <span className="line-clamp-2 text-muted-foreground">
+            <span className="text-muted-foreground line-clamp-2">
               {children}
             </span>
           )}

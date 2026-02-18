@@ -14,11 +14,11 @@ export function PatternPreview({ activePattern }: ActivePatternPreviewProps) {
   if (!activePatternObj) return null
 
   return (
-    <div className="absolute theme-container inset-0 -z-10">
+    <div className="theme-container absolute inset-0 -z-10">
       {activePatternObj.render ? (
         activePatternObj.render()
-      ) : activePatternObj.style ? (
-        <div className="absolute inset-0" style={activePatternObj.style} />
+      ) : activePatternObj.render ? (
+        <div className="absolute inset-0" style={activePatternObj.render} />
       ) : null}
     </div>
   )

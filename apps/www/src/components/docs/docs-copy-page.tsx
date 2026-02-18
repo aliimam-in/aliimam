@@ -1,8 +1,8 @@
 "use client"
 
+import { useCopyToClipboard } from "@/src/hooks/use-copy-to-clipboard"
 import { IconCheck, IconChevronDown, IconCopy } from "@tabler/icons-react"
 
-import { useCopyToClipboard } from "@/src/hooks/use-copy-to-clipboard"
 import { Button } from "@/registry/aliimam/ui/button"
 import {
   DropdownMenu,

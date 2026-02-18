@@ -1,22 +1,23 @@
-import { SidebarProvider } from "@/registry/aliimam/ui/sidebar";
-import { Tabs } from "@/registry/aliimam/ui/tabs";
-import { SymbolsCategoryTabs } from "@/src/components/icons/category";
-import { IconsNav } from "@/src/components/icons/icons-nav";
-import { LogoSearch } from "@/src/components/icons/search";
+import { SymbolsCategoryTabs } from "@/src/components/icons/category"
+import { IconsNav } from "@/src/components/icons/icons-nav"
+import { LogoSearch } from "@/src/components/icons/search"
+
+import { SidebarProvider } from "@/registry/aliimam/ui/sidebar"
+import { Tabs } from "@/registry/aliimam/ui/tabs"
 
 export default function DocsLayout({
   children,
 }: {
-  children: React.ReactNode;
+  children: React.ReactNode
 }) {
   return (
     <div>
       <Tabs defaultValue="icon">
-        <div className="flex sticky h-14 z-40 top-14 bg-background items-center border-b px-4">
+        <div className="bg-background sticky top-14 z-40 flex h-14 items-center border-b px-4">
           <div className="flex-none">
             <IconsNav />
           </div>
-          <div className="absolute hidden md:block left-1/3 xl:left-1/2 transform -translate-x-1/2">
+          <div className="absolute left-1/3 hidden -translate-x-1/2 transform md:block xl:left-1/2">
             <LogoSearch />
           </div>
           <div className=""></div>
@@ -27,5 +28,5 @@ export default function DocsLayout({
         </SidebarProvider>
       </Tabs>
     </div>
-  );
+  )
 }

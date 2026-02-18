@@ -1,5 +1,9 @@
 "use client"
 
+import { ChartCodeViewer } from "@/src/components/docs/chart-code-viewer"
+import { ChartCopyButton } from "@/src/components/docs/chart-copy-button"
+import { Chart } from "@/src/components/docs/chart-display"
+import { cn } from "@/src/lib/utils"
 import {
   AreaChartIcon,
   BarChartBigIcon,
@@ -10,10 +14,6 @@ import {
   RadarIcon,
 } from "lucide-react"
 
-import { cn } from "@/src/lib/utils"
-import { ChartCodeViewer } from "@/src/components/docs/chart-code-viewer"
-import { ChartCopyButton } from "@/src/components/docs/chart-copy-button"
-import { Chart } from "@/src/components/docs/chart-display"
 import { Separator } from "@/registry/aliimam/ui/separator"
 
 export function ChartToolbar({

@@ -1,8 +1,8 @@
 import { Suspense } from "react"
 import Link from "next/link"
-
-import { siteConfig } from "@/src/lib/config"
 import { Icons } from "@/src/components/icons"
+import { siteConfig } from "@/src/lib/config"
+
 import { Button } from "@/registry/aliimam/ui/button"
 import { Skeleton } from "@/registry/aliimam/ui/skeleton"
 

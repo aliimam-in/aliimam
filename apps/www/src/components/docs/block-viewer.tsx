@@ -3,6 +3,15 @@
 import * as React from "react"
 import Image from "next/image"
 import Link from "next/link"
+import { getIconForLanguageExtension } from "@/src/components/icons"
+import { OpenInV0Button } from "@/src/components/open-in-v0-button"
+import { useCopyToClipboard } from "@/src/hooks/use-copy-to-clipboard"
+import { trackEvent } from "@/src/lib/events"
+import {
+  createFileTreeForRegistryItemFiles,
+  FileTree,
+} from "@/src/lib/registry"
+import { cn } from "@/src/lib/utils"
 import {
   Check,
   ChevronRight,
@@ -17,12 +26,6 @@ import { ImperativePanelHandle } from "react-resizable-panels"
 import { registryItemFileSchema, registryItemSchema } from "shadcn/schema"
 import { z } from "zod"
 
-import { trackEvent } from "@/src/lib/events"
-import { createFileTreeForRegistryItemFiles, FileTree } from "@/src/lib/registry"
-import { cn } from "@/src/lib/utils"
-import { useCopyToClipboard } from "@/src/hooks/use-copy-to-clipboard"
-import { getIconForLanguageExtension } from "@/src/components/icons"
-import { OpenInV0Button } from "@/src/components/open-in-v0-button"
 import { Button } from "@/registry/aliimam/ui/button"
 import {
   Collapsible,
@@ -47,9 +50,7 @@ import {
   SidebarProvider,
 } from "@/registry/aliimam/ui/sidebar"
 import { Tabs, TabsList, TabsTrigger } from "@/registry/aliimam/ui/tabs"
-import {
-  ToggleGroup,
-} from "@/registry/aliimam/ui/toggle-group"
+import { ToggleGroup } from "@/registry/aliimam/ui/toggle-group"
 
 type BlockViewerContext = {
   item: z.infer<typeof registryItemSchema>
@@ -60,10 +61,10 @@ type BlockViewerContext = {
   resizablePanelRef: React.RefObject<ImperativePanelHandle | null> | null
   tree: ReturnType<typeof createFileTreeForRegistryItemFiles> | null
   highlightedFiles:
-  | (z.infer<typeof registryItemFileSchema> & {
-    highlightedContent: string
-  })[]
-  | null
+    | (z.infer<typeof registryItemFileSchema> & {
+        highlightedContent: string
+      })[]
+    | null
   iframeKey?: number
   setIframeKey?: React.Dispatch<React.SetStateAction<number>>
 }
@@ -158,7 +159,7 @@ function BlockViewerToolbar() {
                 resizablePanelRef.current.resize(parseInt(value))
               }
             }}
-            className="gap-1 "
+            className="gap-1"
           >
             <Button
               size="icon"
@@ -189,7 +190,7 @@ function BlockViewerToolbar() {
               <span className="sr-only">Refresh Preview</span>
             </Button>
           </ToggleGroup>
-        </div> 
+        </div>
         <Button
           variant="outline"
           className="w-fit gap-1 px-2 shadow-none"
@@ -201,8 +202,7 @@ function BlockViewerToolbar() {
           }}
         >
           {isCopied ? <Check /> : <Terminal />}
-           
-        </Button> 
+        </Button>
         <OpenInV0Button name={item.name} />
       </div>
     </div>
@@ -218,10 +218,7 @@ function BlockViewerIframe({ className }: { className?: string }) {
       src={`/view/${item.name}`}
       height={item.meta?.iframeHeight ?? 650}
       loading="lazy"
-      className={cn(
-        "bg-background relative z-20 w-full",
-        className
-      )}
+      className={cn("bg-background relative z-20 w-full", className)}
     />
   )
 }
@@ -269,7 +266,7 @@ function BlockViewerMobile({ children }: { children: React.ReactNode }) {
       {item.meta?.mobile === "component" ? (
         children
       ) : (
-        <div className="overflow-hidden  border">
+        <div className="overflow-hidden border">
           <Image
             src={`/r/${item.name}-light.png`}
             alt={item.name}
@@ -306,13 +303,13 @@ function BlockViewerCode() {
   const language = file.path.split(".").pop() ?? "tsx"
 
   return (
-    <div className="bg-code text-code-foreground mr-[14px] flex overflow-hidden  border group-data-[view=preview]/block-view-wrapper:hidden md:h-(--height)">
+    <div className="bg-code text-code-foreground mr-[14px] flex overflow-hidden border group-data-[view=preview]/block-view-wrapper:hidden md:h-(--height)">
       <div className="w-72">
         <BlockViewerFileTree />
       </div>
       <figure
         data-rehype-pretty-code-figure=""
-        className="!mx-0 mt-0 flex min-w-0 flex-1 flex-col  border-none"
+        className="!mx-0 mt-0 flex min-w-0 flex-1 flex-col border-none"
       >
         <figcaption
           className="text-code-foreground [&_svg]:text-code-foreground flex h-12 shrink-0 items-center gap-2 border-b px-4 py-2 [&_svg]:size-4 [&_svg]:opacity-70"
@@ -477,7 +474,6 @@ function BlockViewer({
   )
 }
 
-
 export { BlockViewer }
 
 type BlockTocProps = {
@@ -486,13 +482,13 @@ type BlockTocProps = {
 
 export function BlockToc({ blocks }: BlockTocProps) {
   return (
-    <nav className="p-8"> 
-      <div className=" flex flex-col gap-2">
+    <nav className="p-8">
+      <div className="flex flex-col gap-2">
         {blocks.map((name) => (
           <a
             key={name}
             href={`#${name}`}
-            className="px-2 py-1 text-sm hover:bg-muted transition-colors"
+            className="hover:bg-muted px-2 py-1 text-sm transition-colors"
           >
             {name}
           </a>

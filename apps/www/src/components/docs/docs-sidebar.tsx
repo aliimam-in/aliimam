@@ -2,8 +2,8 @@
 
 import Link from "next/link"
 import { usePathname } from "next/navigation"
-
 import type { source } from "@/src/lib/source"
+
 import {
   Sidebar,
   SidebarContent,
@@ -20,13 +20,21 @@ const TOP_LEVEL_SECTIONS = [
   {
     name: "Components",
     href: "/docs/components",
-  }, 
+  },
+  {
+    name: "Registry",
+    href: "/docs/registry",
+  },
+  {
+    name: "LLMs",
+    href: "/llms.txt",
+  },
 ]
 
-const EXCLUDED_SECTIONS = ["installation", "dark-mode", "(root)"]
+const EXCLUDED_SECTIONS = ["(root)"]
 const EXCLUDED_PAGES: string[] = []
 
-const NEW_COMPONENTS = [  
+const NEW_COMPONENTS = [
   "components/attraction.mdx",
   "components/bento.mdx",
   "components/border-glow.mdx",
@@ -107,7 +115,7 @@ export function DocsSidebar({
                                   {item.name}
                                   {isNew && (
                                     <span
-                                      className="bg-blue-500 h-1.5 w-1.5 shrink-0 rounded-full"
+                                      className="h-1.5 w-1.5 shrink-0 rounded-full bg-blue-500"
                                       aria-label="New component"
                                     />
                                   )}

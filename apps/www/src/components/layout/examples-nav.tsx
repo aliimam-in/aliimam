@@ -1,6 +1,7 @@
 "use client"
 
 import { cn } from "@/src/lib/utils"
+
 import { ScrollArea, ScrollBar } from "@/registry/aliimam/ui/scroll-area"
 
 export function ExamplesNav({

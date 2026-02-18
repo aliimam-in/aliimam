@@ -1,16 +1,17 @@
-"use client";
+"use client"
+
+import {
+  SectionHeader,
+  SectionHeaderDescription,
+  SectionHeaderHeading,
+} from "@/src/components/layout/page-header"
 
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@/registry/aliimam/ui/accordion";
-import {
-  SectionHeader,
-  SectionHeaderDescription,
-  SectionHeaderHeading,
-} from "@/src/components/layout/page-header"
+} from "@/registry/aliimam/ui/accordion"
 
 export function FAQs() {
   const faqItems = [
@@ -93,15 +94,12 @@ export function FAQs() {
         "Yes. The subscription is flexible — you can subscribe monthly, pause, or cancel anytime.",
     },
   ]
-  
-
 
   return (
-    <section className="container relative">
-      <div className="border"> 
-
+    <section className="relative container">
+      <div className="border">
         <div className="mx-auto max-w-5xl lg:border-x">
-        <SectionHeader>
+          <SectionHeader>
             <SectionHeaderHeading>
               Frequently Asked Questions
             </SectionHeaderHeading>
@@ -110,21 +108,26 @@ export function FAQs() {
               our platform, services, and features.
             </SectionHeaderDescription>
           </SectionHeader>
-          <Accordion type="single" collapsible className="-mb-1" defaultValue="item-1">
+          <Accordion
+            type="single"
+            collapsible
+            className="-mb-1"
+            defaultValue="item-1"
+          >
             {faqItems.map((item) => (
               <AccordionItem
                 key={item.id}
                 value={item.id}
-                className="border-none space-y-1"
+                className="space-y-1 border-none"
               >
-                <AccordionTrigger className="group py-0  [&_svg]:hidden flex w-full justify-end hover:no-underline">
-                  <div className="max-w-[80%] cursor-pointer bg-primary px-4 py-3 text-left text-base text-primary-foreground transition">
+                <AccordionTrigger className="group flex w-full justify-end py-0 hover:no-underline [&_svg]:hidden">
+                  <div className="bg-primary text-primary-foreground max-w-[80%] cursor-pointer px-4 py-3 text-left text-base transition">
                     {item.question}
                   </div>
                 </AccordionTrigger>
 
                 <AccordionContent className="flex justify-start">
-                  <div className="max-w-[80%] bg-muted px-4 py-3 text-base text-muted-foreground">
+                  <div className="bg-muted text-muted-foreground max-w-[80%] px-4 py-3 text-base">
                     {item.answer}
                   </div>
                 </AccordionContent>
@@ -134,5 +137,5 @@ export function FAQs() {
         </div>
       </div>
     </section>
-  );
+  )
 }

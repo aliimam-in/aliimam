@@ -2,16 +2,16 @@
 
 import * as React from "react"
 import { useRouter } from "next/navigation"
+import { copyToClipboardWithMeta } from "@/src/components/copy-button"
+import { useConfig } from "@/src/hooks/use-config"
+import { useIsMac } from "@/src/hooks/use-is-mac"
+import { useMutationObserver } from "@/src/hooks/use-mutation-observer"
+import { source } from "@/src/lib/source"
+import { cn } from "@/src/lib/utils"
 import { type DialogProps } from "@radix-ui/react-dialog"
 import { IconArrowRight } from "@tabler/icons-react"
 import { CornerDownLeftIcon, SquareDashedIcon } from "lucide-react"
 
-import { source } from "@/src/lib/source"
-import { cn } from "@/src/lib/utils"
-import { useConfig } from "@/src/hooks/use-config"
-import { useIsMac } from "@/src/hooks/use-is-mac"
-import { useMutationObserver } from "@/src/hooks/use-mutation-observer"
-import { copyToClipboardWithMeta } from "@/src/components/copy-button"
 import { Button } from "@/registry/aliimam/ui/button"
 import {
   Command,

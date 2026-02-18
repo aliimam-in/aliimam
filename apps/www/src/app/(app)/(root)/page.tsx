@@ -1,12 +1,12 @@
 import { Metadata } from "next"
-import { Hero } from "@/src/components/sections/home/hero"
 import { BentoLanding } from "@/src/components/sections/home/bento"
-import { getBentoBlocks } from "@/src/lib/get-bento-images";
-import { Pricing } from "@/src/components/sections/home/pricing";
-import { Services } from "@/src/components/sections/home/services";
-import { Components } from "@/src/components/sections/home/components";
-import { FAQs } from "@/src/components/sections/home/faq";
-import { CallToAction } from "@/src/components/sections/home/cta";
+import { Components } from "@/src/components/sections/home/components"
+import { CallToAction } from "@/src/components/sections/home/cta"
+import { FAQs } from "@/src/components/sections/home/faq"
+import { Hero } from "@/src/components/sections/home/hero"
+import { Pricing } from "@/src/components/sections/home/pricing"
+import { Services } from "@/src/components/sections/home/services"
+import { getBentoBlocks } from "@/src/lib/get-bento-images"
 
 const title = "Design Without Limits"
 const description =
@@ -40,16 +40,16 @@ export const metadata: Metadata = {
 }
 
 export default function IndexPage() {
-  const blocks = getBentoBlocks();
+  const blocks = getBentoBlocks()
   return (
     <div>
       <Hero />
       <BentoLanding blocks={blocks} />
-      <Services/>
-      <Components/>
-      <Pricing/>
-      <FAQs/>
-      <CallToAction/>
+      <Services />
+      <Components />
+      <Pricing />
+      <FAQs />
+      <CallToAction />
     </div>
   )
 }

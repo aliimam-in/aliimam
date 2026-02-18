@@ -1,68 +1,66 @@
- 
+import { Metadata } from "next"
+import { notFound } from "next/navigation"
+import { ShowcaseCard } from "@/src/components/docs/showcase"
+import { showcaseSource } from "@/src/lib/source"
+import { absoluteUrl } from "@/src/lib/utils"
 
-import { ShowcaseCard } from "@/src/components/docs/showcase";
-import { showcaseSource } from "@/src/lib/source";
-import { absoluteUrl } from "@/src/lib/utils";
-import { Metadata } from "next";
-import { notFound } from "next/navigation";
-
-export const revalidate = false;
-export const dynamic = "force-static";
-export const dynamicParams = false;
+export const revalidate = false
+export const dynamic = "force-static"
+export const dynamicParams = false
 
 export function generateStaticParams() {
-  return showcaseSource.generateParams();
+  return showcaseSource.generateParams()
 }
 
 interface ShowcaseDoc {
-  title: string;
-  description: string;
-  image?: string;
-  affiliation?: string;
+  title: string
+  description: string
+  image?: string
+  affiliation?: string
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  [key: string]: any;
+  [key: string]: any
 }
 
 interface ShowcasePage {
-  url: string;
-  data: ShowcaseDoc;
+  url: string
+  data: ShowcaseDoc
 }
-
 
 interface PageProps {
   params: Promise<{
-    slug: string[];
-  }>;
+    slug: string[]
+  }>
 }
 
-async function getDocFromParams({ params }: PageProps): Promise<{ doc: ShowcaseDoc; page: ShowcasePage }> {
-  const { slug } = await params;
-  const page = showcaseSource.getPage(slug) as ShowcasePage | null;
-  if (!page) notFound();
+async function getDocFromParams({
+  params,
+}: PageProps): Promise<{ doc: ShowcaseDoc; page: ShowcasePage }> {
+  const { slug } = await params
+  const page = showcaseSource.getPage(slug) as ShowcasePage | null
+  if (!page) notFound()
 
-  const doc = page.data;
+  const doc = page.data
   if (!doc.title || !doc.description) {
-    notFound();
+    notFound()
   }
 
-  return { doc, page };
+  return { doc, page }
 }
-
 
 export async function generateMetadata({
   params,
 }: PageProps): Promise<Metadata> {
-  const { doc, page } = await getDocFromParams({ params });
+  const { doc, page } = await getDocFromParams({ params })
 
   if (!page) {
-    return {};
+    return {}
   }
 
-  const url = process.env.NEXT_PUBLIC_APP_URL;
+  const url = process.env.NEXT_PUBLIC_APP_URL
 
-  const ogUrl = new URL(`${url}/og`);
-  ogUrl.searchParams.set("title", doc.title ?? "");
-  ogUrl.searchParams.set("description", doc.description ?? "");
+  const ogUrl = new URL(`${url}/og`)
+  ogUrl.searchParams.set("title", doc.title ?? "")
+  ogUrl.searchParams.set("description", doc.description ?? "")
 
   return {
     title: doc.title,
@@ -86,18 +84,18 @@ export async function generateMetadata({
       description: doc.description,
       images: [ogUrl.toString()],
     },
-  };
+  }
 }
 
 export default async function PagePage({ params }: PageProps) {
-  const { doc, page } = await getDocFromParams({ params });
+  const { doc, page } = await getDocFromParams({ params })
 
   return (
     <article className="container py-40">
-      <h2 className="mb-4 text-center text-5xl font-bold leading-[1.2] tracking-tighter text-foreground">
+      <h2 className="text-foreground mb-4 text-center text-5xl leading-[1.2] font-bold tracking-tighter">
         {doc.title}
       </h2>
-      <h3 className="mx-auto mb-8 text-balance text-center text-lg font-medium tracking-tight text-foreground/80">
+      <h3 className="text-foreground/80 mx-auto mb-8 text-center text-lg font-medium tracking-tight text-balance">
         {doc.title} uses Magic UI to build their landing page.
       </h3>
       <ShowcaseCard
@@ -107,5 +105,5 @@ export default async function PagePage({ params }: PageProps) {
         affiliation={doc.affiliation ?? ""}
       />
     </article>
-  );
+  )
 }

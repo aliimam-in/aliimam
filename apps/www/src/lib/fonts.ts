@@ -1,8 +1,13 @@
-import { GeistSans } from 'geist/font/sans';
-import { GeistMono } from 'geist/font/mono';
-import { GeistPixelSquare, GeistPixelGrid, GeistPixelCircle, GeistPixelTriangle, GeistPixelLine } from 'geist/font/pixel';
-
 import { cn } from "@/src/lib/utils"
+import { GeistMono } from "geist/font/mono"
+import {
+  GeistPixelCircle,
+  GeistPixelGrid,
+  GeistPixelLine,
+  GeistPixelSquare,
+  GeistPixelTriangle,
+} from "geist/font/pixel"
+import { GeistSans } from "geist/font/sans"
 
 export const fontVariables = cn(
   GeistMono.variable,

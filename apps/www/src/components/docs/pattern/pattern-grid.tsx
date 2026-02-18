@@ -1,16 +1,17 @@
-"use client";
+"use client"
 
-import { Pattern } from "@/src/types/pattern";
-import PatternCard from "./pattern-card";
-import { useFavorites } from "@/src/context/favourites-context";
+import { useFavorites } from "@/src/context/favourites-context"
+import { Pattern } from "@/src/types/pattern"
+
+import PatternCard from "./pattern-card"
 
 interface PatternGridProps {
-  patterns: Pattern[];
-  activePattern: string | null;
-  setActivePattern: (pattern: string | null) => void;
-  theme: "light" | "dark";
-  activeMobileCard: string | null;
-  setActiveMobileCard: (id: string | null) => void;
+  patterns: Pattern[]
+  activePattern: string | null
+  setActivePattern: (pattern: string | null) => void
+  theme: "light" | "dark"
+  activeMobileCard: string | null
+  setActiveMobileCard: (id: string | null) => void
   columns: number
 }
 
@@ -23,16 +24,15 @@ export default function PatternGrid({
   setActiveMobileCard,
   columns,
 }: PatternGridProps) {
-  const { favourites } = useFavorites();
+  const { favourites } = useFavorites()
 
   return (
     <div
-  className="grid pb-2 gap-2 w-full"
-  style={{
-    gridTemplateColumns: `repeat(${columns}, minmax(0, 1fr))`,
-  }}
->
-
+      className="grid w-full gap-2 pb-2"
+      style={{
+        gridTemplateColumns: `repeat(${columns}, minmax(0, 1fr))`,
+      }}
+    >
       {patterns.map((pattern) => (
         <PatternCard
           key={`${pattern.id}-${favourites.includes(pattern.id)}`}
@@ -45,5 +45,5 @@ export default function PatternGrid({
         />
       ))}
     </div>
-  );
+  )
 }

@@ -1,10 +1,10 @@
 "use client"
 
 import * as React from "react"
-import { Check, CheckIcon, ClipboardIcon, Copy } from "lucide-react"
-
 import { Event, trackEvent } from "@/src/lib/events"
 import { cn } from "@/src/lib/utils"
+import { Check, CheckIcon, ClipboardIcon, Copy } from "lucide-react"
+
 import { Button } from "@/registry/aliimam/ui/button"
 import {
   Tooltip,
@@ -83,19 +83,19 @@ export function ContentCopyButton({
   event,
   ...props
 }: React.ComponentProps<typeof Button> & {
-  value: string;
-  src?: string;
-  event?: Event["name"];
+  value: string
+  src?: string
+  event?: Event["name"]
 }) {
-  const [hasCopied, setHasCopied] = React.useState(false);
+  const [hasCopied, setHasCopied] = React.useState(false)
 
   React.useEffect(() => {
-    if (!hasCopied) return;
+    if (!hasCopied) return
     const timer = setTimeout(() => {
-      setHasCopied(false);
-    }, 2000);
-    return () => clearTimeout(timer);
-  }, [hasCopied]);
+      setHasCopied(false)
+    }, 2000)
+    return () => clearTimeout(timer)
+  }, [hasCopied])
 
   return (
     <Tooltip>
@@ -115,8 +115,8 @@ export function ContentCopyButton({
                     },
                   }
                 : undefined
-            );
-            setHasCopied(true);
+            )
+            setHasCopied(true)
           }}
           {...props}
         >
@@ -129,5 +129,5 @@ export function ContentCopyButton({
         {hasCopied ? "Copied" : "Copy to Clipboard"}
       </TooltipContent>
     </Tooltip>
-  );
+  )
 }

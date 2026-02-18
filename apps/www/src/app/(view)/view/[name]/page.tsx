@@ -1,13 +1,12 @@
 import * as React from "react"
 import { Metadata } from "next"
 import { notFound } from "next/navigation"
-import { registryItemSchema } from "shadcn/schema"
-import { z } from "zod"
-
+import { ThemeListener } from "@/src/components/themes/theme-listener"
 import { siteConfig } from "@/src/lib/config"
 import { getRegistryComponent, getRegistryItem } from "@/src/lib/registry"
-import { absoluteUrl, cn } from "@/src/lib/utils" 
-import { ThemeListener } from "@/src/components/themes/theme-listener"
+import { absoluteUrl, cn } from "@/src/lib/utils"
+import { registryItemSchema } from "shadcn/schema"
+import { z } from "zod"
 
 export const revalidate = false
 export const dynamic = "force-static"
@@ -95,9 +94,11 @@ export default async function BlockPage({
   }
 
   return (
-    <> 
-    <ThemeListener />
-      <div className={cn("bg-background theme-container", item.meta?.container)}>
+    <>
+      <ThemeListener />
+      <div
+        className={cn("bg-background theme-container", item.meta?.container)}
+      >
         <Component />
       </div>
     </>

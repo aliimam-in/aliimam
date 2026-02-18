@@ -129,7 +129,6 @@ export const THEME_PRESETS: ThemePreset[] = [
   },
 ]
 
-
 export const COLOR_OPTIONS = [
   "blue",
   "green",
@@ -201,11 +200,8 @@ export const FONT_OPTIONS: FontOption[] = [
   { name: "Dancing Script", value: "dancing-script", category: "display" },
   { name: "Sora", value: "sora", category: "display" },
 ]
- 
-export const FONT_VARIABLE_MAP: Record<
-  FontOption["category"],
-  string
-> = {
+
+export const FONT_VARIABLE_MAP: Record<FontOption["category"], string> = {
   sans: "--font-sans",
   serif: "--font-serif",
   mono: "--font-mono",
@@ -213,30 +209,29 @@ export const FONT_VARIABLE_MAP: Record<
 }
 
 export function getFontVariable(fontValue: string): string {
-  const font = FONT_OPTIONS.find(f => f.value === fontValue)
+  const font = FONT_OPTIONS.find((f) => f.value === fontValue)
   return FONT_VARIABLE_MAP[font?.category ?? "sans"]
 }
 
-
 export const GOOGLE_FONTS_MAP: Record<string, string> = {
   "geist-sans": "Geist",
-  "inter": "Inter",
-  "roboto": "Roboto",
+  inter: "Inter",
+  roboto: "Roboto",
   "open-sans": "Open Sans",
-  "lato": "Lato",
-  "montserrat": "Montserrat",
-  "poppins": "Poppins",
-  "nunito": "Nunito",
-  "raleway": "Raleway",
-  "ubuntu": "Ubuntu",
+  lato: "Lato",
+  montserrat: "Montserrat",
+  poppins: "Poppins",
+  nunito: "Nunito",
+  raleway: "Raleway",
+  ubuntu: "Ubuntu",
   "work-sans": "Work Sans",
   "dm-sans": "DM Sans",
   "plus-jakarta-sans": "Plus Jakarta Sans",
-  "manrope": "Manrope",
+  manrope: "Manrope",
 
   "playfair-display": "Playfair Display",
-  "merriweather": "Merriweather",
-  "lora": "Lora",
+  merriweather: "Merriweather",
+  lora: "Lora",
   "pt-serif": "PT Serif",
   "crimson-text": "Crimson Text",
   "eb-garamond": "EB Garamond",
@@ -247,12 +242,12 @@ export const GOOGLE_FONTS_MAP: Record<string, string> = {
   "jetbrains-mono": "JetBrains Mono",
   "source-code-pro": "Source Code Pro",
   "ibm-plex-mono": "IBM Plex Mono",
-  "inconsolata": "Inconsolata",
+  inconsolata: "Inconsolata",
   "fira-code": "Fira Code",
 
   "bebas-neue": "Bebas Neue",
-  "righteous": "Righteous",
-  "pacifico": "Pacifico",
+  righteous: "Righteous",
+  pacifico: "Pacifico",
   "dancing-script": "Dancing Script",
-  "sora": "Sora",
+  sora: "Sora",
 }

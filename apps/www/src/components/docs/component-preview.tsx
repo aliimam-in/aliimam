@@ -1,7 +1,7 @@
 import Image from "next/image"
-
 import { ComponentPreviewTabs } from "@/src/components/docs/component-preview-tabs"
 import { ComponentSource } from "@/src/components/docs/component-source"
+
 import { Index } from "@/registry/__index__"
 
 export function ComponentPreview({

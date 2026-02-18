@@ -2,9 +2,9 @@
 
 import Link from "next/link"
 import { usePathname } from "next/navigation"
+import { iconCategories } from "@/src/lib/categories"
 
 import { ScrollArea, ScrollBar } from "@/registry/aliimam/ui/scroll-area"
-import { iconCategories } from "@/src/lib/categories"
 
 export function IconsNav() {
   const pathname = usePathname()
@@ -12,7 +12,7 @@ export function IconsNav() {
   return (
     <div className="relative overflow-hidden">
       <ScrollArea className="max-w-none">
-        <div className="flex gap-2 items-center">
+        <div className="flex items-center gap-2">
           <IconsNavLink
             category={{ name: "Icons", slug: "icons", hidden: false }}
             isActive={pathname === "/icons"}
@@ -46,7 +46,7 @@ function IconsNavLink({
     <Link
       href={`/${category.slug}`}
       key={category.slug}
-      className="text-sm data-[active=true]:text-primary data-[active=true]:bg-secondary hover:bg-secondary rounded-md px-3 flex h-8 items-center text-start transition-colors"
+      className="data-[active=true]:text-primary data-[active=true]:bg-secondary hover:bg-secondary flex h-8 items-center rounded-md px-3 text-start text-sm transition-colors"
       data-active={isActive}
     >
       {category.name}

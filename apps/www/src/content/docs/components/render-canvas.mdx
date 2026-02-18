@@ -52,7 +52,7 @@ npx shadcn@latest add https://aliimam.in/r/render-canvas.json
 
 ## Usage
 
-```tsx  
+```tsx
 import { RenderCanvas } from "@/components/ui/render-canvas"
 ```
 
@@ -60,9 +60,9 @@ import { RenderCanvas } from "@/components/ui/render-canvas"
 export default function Page() {
   return (
     <div>
-       <RenderCanvas />
+      <RenderCanvas />
     </div>
-  );
+  )
 }
 ```
 
@@ -70,21 +70,21 @@ export default function Page() {
 
 Renders a dynamic canvas with animated trails.
 
-| Prop                  | Type     | Default | Description |
-|----------------------|----------|---------|-------------|
-| `trails`             | number   | `80`    | Number of trail lines rendered. |
-| `size`               | number   | `50`    | Number of nodes per trail line. |
-| `friction`           | number   | `0.5`   | Friction applied to line movement. |
-| `dampening`          | number   | `0.025` | Dampening factor for velocity transfer. |
-| `tension`            | number   | `0.99`  | Spring tension applied along line nodes. |
-| `lineWidth`          | number   | `10`    | Width of the line strokes. |
-| `colorHue`           | number   | `285`   | Base hue for HSLA stroke color. |
-| `colorSaturation`    | number   | `100`   | Saturation of HSLA stroke color. |
-| `colorLightness`     | number   | `50`    | Lightness of HSLA stroke color. |
-| `opacity`            | number   | `0.025` | Opacity of strokes. |
-| `enableColorCycle`   | boolean  | `true`  | Enable dynamic color cycling for trails. |
-| `colorCycleSpeed`    | number   | `0.0015`| Speed of hue wave for color cycling. |
-| `colorCycleAmplitude`| number   | `85`    | Amplitude of hue wave for color cycling. |
-| `width`              | number   | `700`   | Canvas width in pixels. |
-| `height`             | number   | `650`   | Canvas height in pixels. |
-| `className`          | string   | `""`    | Additional Tailwind/CSS classes applied to wrapper div. |
+| Prop                  | Type    | Default  | Description                                             |
+| --------------------- | ------- | -------- | ------------------------------------------------------- |
+| `trails`              | number  | `80`     | Number of trail lines rendered.                         |
+| `size`                | number  | `50`     | Number of nodes per trail line.                         |
+| `friction`            | number  | `0.5`    | Friction applied to line movement.                      |
+| `dampening`           | number  | `0.025`  | Dampening factor for velocity transfer.                 |
+| `tension`             | number  | `0.99`   | Spring tension applied along line nodes.                |
+| `lineWidth`           | number  | `10`     | Width of the line strokes.                              |
+| `colorHue`            | number  | `285`    | Base hue for HSLA stroke color.                         |
+| `colorSaturation`     | number  | `100`    | Saturation of HSLA stroke color.                        |
+| `colorLightness`      | number  | `50`     | Lightness of HSLA stroke color.                         |
+| `opacity`             | number  | `0.025`  | Opacity of strokes.                                     |
+| `enableColorCycle`    | boolean | `true`   | Enable dynamic color cycling for trails.                |
+| `colorCycleSpeed`     | number  | `0.0015` | Speed of hue wave for color cycling.                    |
+| `colorCycleAmplitude` | number  | `85`     | Amplitude of hue wave for color cycling.                |
+| `width`               | number  | `700`    | Canvas width in pixels.                                 |
+| `height`              | number  | `650`    | Canvas height in pixels.                                |
+| `className`           | string  | `""`     | Additional Tailwind/CSS classes applied to wrapper div. |

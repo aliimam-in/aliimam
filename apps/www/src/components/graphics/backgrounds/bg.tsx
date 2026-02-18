@@ -1,15 +1,17 @@
-import { Grid5 } from "./gallery";
+import Link from "next/link"
 import {
   getBackgroundsNeonImages,
   getBackgroundsNoiseImages,
   getBackgroundsOilPaintImages,
   getBackgroundsSolarizeImages,
-} from "@/src/lib/cloudinary";
-import { Button } from "@/registry/aliimam/ui/button";
-import Link from "next/link";
+} from "@/src/lib/cloudinary"
+
+import { Button } from "@/registry/aliimam/ui/button"
+
+import { Grid5 } from "./gallery"
 
 export async function NeonBackgrounds() {
-  const data = await getBackgroundsNeonImages();
+  const data = await getBackgroundsNeonImages()
 
   return (
     <main className="pt-10">
@@ -25,14 +27,14 @@ export async function NeonBackgrounds() {
         <Grid5 images={data.resources} />
       </div>
     </main>
-  );
+  )
 }
 
 export async function SolarizeBackgrounds() {
-  const data = await getBackgroundsSolarizeImages();
+  const data = await getBackgroundsSolarizeImages()
 
   return (
-     <main className="pt-10">
+    <main className="pt-10">
       <Link
         href={
           "https://www.jioaicloud.com/l/?u=FOpZBgs8cx-a1pQaPwK8bJ3AMJL_Er2b0H1_YMBAoVs=jqE"
@@ -45,11 +47,11 @@ export async function SolarizeBackgrounds() {
         <Grid5 images={data.resources} />
       </div>
     </main>
-  );
+  )
 }
 
 export async function OilPaintBackgrounds() {
-  const data = await getBackgroundsOilPaintImages();
+  const data = await getBackgroundsOilPaintImages()
 
   return (
     <main className="pt-10">
@@ -65,14 +67,14 @@ export async function OilPaintBackgrounds() {
         <Grid5 images={data.resources} />
       </div>
     </main>
-  );
+  )
 }
 
 export async function NoiseBackgrounds() {
-  const data = await getBackgroundsNoiseImages();
+  const data = await getBackgroundsNoiseImages()
 
   return (
-     <main className="pt-10">
+    <main className="pt-10">
       <Link
         href={
           "https://www.jioaicloud.com/l/?u=Sb0f0xOVc4QPuEla8jjkPaQy5Nzu_2MRDd3PndOAdyA=VaU"
@@ -85,5 +87,5 @@ export async function NoiseBackgrounds() {
         <Grid5 images={data.resources} />
       </div>
     </main>
-  );
+  )
 }

@@ -2,9 +2,10 @@
 
 import * as React from "react"
 import Script from "next/script"
+import { useMetaColor } from "@/src/hooks/use-meta-color"
+import { Contrast } from "lucide-react"
 import { useTheme } from "next-themes"
 
-import { useMetaColor } from "@/src/hooks/use-meta-color"
 import { Button } from "@/registry/aliimam/ui/button"
 import { Kbd } from "@/registry/aliimam/ui/kbd"
 import {
@@ -12,7 +13,6 @@ import {
   TooltipContent,
   TooltipTrigger,
 } from "@/registry/aliimam/ui/tooltip"
-import { Contrast } from "lucide-react"
 
 export const DARK_MODE_FORWARD_TYPE = "dark-mode-forward"
 
@@ -58,7 +58,7 @@ export function ModeSwitcher() {
           className="group/toggle extend-touch-target"
           onClick={toggleTheme}
         >
-           <Contrast/>
+          <Contrast />
           <span className="sr-only">Toggle theme</span>
         </Button>
       </TooltipTrigger>

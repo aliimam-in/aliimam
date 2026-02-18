@@ -2,9 +2,8 @@ import { CounterNumber } from "@/registry/aliimam/components/counter-number"
 
 export default function Stats() {
   return (
-    <div className="container overflow-hidden relative flex h-svh flex-col items-center justify-center py-20">
-      
-      <div className="z-10 flex flex-col w-full h-full items-center justify-center text-center">
+    <div className="relative container flex h-svh flex-col items-center justify-center overflow-hidden py-20">
+      <div className="z-10 flex h-full w-full flex-col items-center justify-center text-center">
         <h1 className="text-muted-foreground mb-10 max-w-sm text-center text-sm md:max-w-md">
           Ali Imam is more than just models - it powers APIs and platforms that
           help developers and businesses innovate.

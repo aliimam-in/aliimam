@@ -1,10 +1,10 @@
 "use client"
 
 import * as React from "react"
+import { copyToClipboardWithMeta } from "@/src/components/copy-button"
+import { useConfig } from "@/src/hooks/use-config"
 import { CheckIcon, ClipboardIcon, TerminalIcon } from "lucide-react"
 
-import { useConfig } from "@/src/hooks/use-config"
-import { copyToClipboardWithMeta } from "@/src/components/copy-button"
 import { Button } from "@/registry/aliimam/ui/button"
 import {
   Tabs,

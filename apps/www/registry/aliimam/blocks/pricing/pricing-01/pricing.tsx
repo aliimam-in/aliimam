@@ -6,10 +6,10 @@ import { Separator } from "@/registry/aliimam/ui/separator"
 
 export function Pricing() {
   return (
-    <section className="flex min-h-screen flex-col items-center justify-center py-20 container">
-      <div className="flex z-10 justify-center">
+    <section className="container flex min-h-screen flex-col items-center justify-center py-20">
+      <div className="z-10 flex justify-center">
         <div className="grid max-w-5xl items-center gap-6 md:grid-cols-5 md:gap-0 md:px-12">
-          <div className="flex h-min flex-col md:rounded-l-md justify-between space-y-8 bg-background/50 backdrop-blur-lg border-y p-6 md:col-span-2 md:my-2 md:border md:border-r-0 lg:p-10">
+          <div className="bg-background/50 flex h-min flex-col justify-between space-y-8 border-y p-6 backdrop-blur-lg md:col-span-2 md:my-2 md:rounded-l-md md:border md:border-r-0 lg:p-10">
             <div className="space-y-4">
               <div>
                 <h2 className="text-md font-thin">Free Forever</h2>
@@ -116,7 +116,7 @@ export function Pricing() {
         </div>
       </div>
       <div
-        className="absolute hidden md:block inset-0"
+        className="absolute inset-0 hidden md:block"
         style={{
           background:
             "radial-gradient(ellipse 60% 80% at 0% 50%, var(--primary), transparent 80%)",

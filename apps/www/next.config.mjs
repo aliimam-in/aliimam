@@ -52,37 +52,7 @@ const nextConfig = {
         source: "/docs/primitives/:path*",
         destination: "/docs/components/:path*",
         permanent: true,
-      },
-      {
-        source: "/figma",
-        destination: "/docs/figma",
-        permanent: true,
-      },
-      {
-        source: "/docs/forms",
-        destination: "/docs/components/form",
-        permanent: false,
-      },
-      {
-        source: "/docs/forms/react-hook-form",
-        destination: "/docs/components/form",
-        permanent: false,
-      },
-      {
-        source: "/sidebar",
-        destination: "/docs/components/sidebar",
-        permanent: true,
-      },
-      {
-        source: "/react-19",
-        destination: "/docs/react-19",
-        permanent: true,
-      },
-      {
-        source: "/charts",
-        destination: "/charts/area",
-        permanent: true,
-      },
+      }, 
       {
         source: "/view/styles/:style/:name",
         destination: "/view/:name",
@@ -92,12 +62,7 @@ const nextConfig = {
         source: "/docs/:path*.mdx",
         destination: "/docs/:path*.md",
         permanent: true,
-      },
-      {
-        source: "/mcp",
-        destination: "/docs/mcp",
-        permanent: false,
-      },
+      }, 
     ]
   },
   rewrites() {

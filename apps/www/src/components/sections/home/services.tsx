@@ -1,6 +1,6 @@
 "use client"
 
-import * as React from "react" 
+import * as React from "react"
 
 import { Attraction } from "@/registry/aliimam/components/attraction"
 import { RenderCanvas } from "@/registry/aliimam/components/render-canvas"

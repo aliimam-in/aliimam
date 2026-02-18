@@ -38,7 +38,6 @@ component: true
   description="A customizable animated canvas background."
   align="start"
 />
- 
 ## Installation
 
 <CodeTabs>
@@ -66,23 +65,24 @@ npx shadcn@latest add https://aliimam.in/r/gradient-bars.json
 
 ## Usage
 
-```tsx  
+```tsx
 import { GradientBars } from "@/components/ui/gradient-bars"
 ```
 
 ```tsx showLineNumbers
 <GradientBars />
-``` 
-## Props 
+```
 
-| Prop          | Type                                     | Default        |
-|---------------|------------------------------------------|----------------|
-| className     | `string`                                 | —              |
-| numBars       | `number`                                 | `15`           |
-| colors        | `string[]`                               | `["#000fff", "transparent"]` |
-| orientation   | `"vertical" \| "horizontal"`             | `"vertical"`   |
-| animation     | `"wave" \| "pulse" \| "none"`            | `"wave"`       |
-| duration      | `number`                                 | `2`            |
-| delayStep     | `number`                                 | `0.1`          |
-| minScale      | `number`                                 | `0.2`          |
-| maxScale      | `number`                                 | `1`            |
+## Props
+
+| Prop        | Type                          | Default                      |
+| ----------- | ----------------------------- | ---------------------------- |
+| className   | `string`                      | —                            |
+| numBars     | `number`                      | `15`                         |
+| colors      | `string[]`                    | `["#000fff", "transparent"]` |
+| orientation | `"vertical" \| "horizontal"`  | `"vertical"`                 |
+| animation   | `"wave" \| "pulse" \| "none"` | `"wave"`                     |
+| duration    | `number`                      | `2`                          |
+| delayStep   | `number`                      | `0.1`                        |
+| minScale    | `number`                      | `0.2`                        |
+| maxScale    | `number`                      | `1`                          |

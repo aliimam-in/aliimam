@@ -11,7 +11,6 @@ component: true
   align="start"
 />
 
-
 <ComponentPreview
   name="counter-number-percentage"
   className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[500px]"
@@ -68,11 +67,15 @@ component: true
 ```bash
 npx shadcn@latest add https://aliimam.in/r/counter-number.json
 ```
+
 </TabsContent> <TabsContent value="manual"> <Steps>
 
 <Step>Copy and paste the following code into your project.</Step>
 
-<ComponentSource name="counter-number" title="components/ui/counter-number.tsx" />
+<ComponentSource
+  name="counter-number"
+  title="components/ui/counter-number.tsx"
+/>
 
 <Step>Update the import paths to match your project setup.</Step>
 
@@ -80,12 +83,12 @@ npx shadcn@latest add https://aliimam.in/r/counter-number.json
 
 ## Usage
 
-```tsx  
+```tsx
 import { CounterNumber } from "@/components/ui/counter-number"
 ```
 
 ```tsx showLineNumbers
-<div className="flex flex-wrap gap-8 items-end">
+<div className="flex flex-wrap items-end gap-8">
   {/* Default */}
   <CounterNumber value={12345} />
 
@@ -96,7 +99,13 @@ import { CounterNumber } from "@/components/ui/counter-number"
   <CounterNumber value={3.14159} decimalPlaces={3} size="lg" />
 
   {/* Currency */}
-  <CounterNumber value={1299.99} currency="USD" decimalPlaces={2} size="xl" color="primary" />
+  <CounterNumber
+    value={1299.99}
+    currency="USD"
+    decimalPlaces={2}
+    size="xl"
+    color="primary"
+  />
 
   {/* Locale + separator */}
   <CounterNumber value={1000000} locale="de-DE" separator="." size="lg" />
@@ -105,29 +114,29 @@ import { CounterNumber } from "@/components/ui/counter-number"
   <CounterNumber value={2025} preserveAspectRatio className="font-medium" />
 </div>
 ```
- 
+
 ## Props
 
-| Prop                  | Type                                                       | Default     |
-|-----------------------|------------------------------------------------------------|-------------|
-| value                 | `number`                                                   | —           |
-| startValue            | `number`                                                   | `0`         |
-| duration              | `number`                                                   | `1000`      |
-| decimalPlaces         | `number`                                                   | `0`         |
-| prefix                | `string`                                                   | `""`        |
-| suffix                | `string`                                                   | `""`        |
-| separator             | `string`                                                   | `","`       |
-| currency              | `string`                                                   | —           |
-| locale                | `string`                                                   | `"en-US"`   |
-| size                  | `"sm" \| "md" \| "lg" \| "xl" \| "2xl"`                    | `"md"`      |
-| color                 | `"default" \| "primary" \| "secondary" \| "success" \| "warning" \| "error"` | `"default"` |
-| preserveAspectRatio   | `boolean`                                                  | `false`     |
-| className             | `string`                                                   | —           |
-| children              | `React.ReactNode`                                          | —           |
-| onClick               | `(event: React.MouseEvent<HTMLSpanElement>) => void`      | —           |
-| onMouseEnter          | `(event: React.MouseEvent<HTMLSpanElement>) => void`      | —           |
-| onMouseLeave          | `(event: React.MouseEvent<HTMLSpanElement>) => void`      | —           |
-| id                    | `string`                                                   | —           |
-| title                 | `string`                                                   | —           |
-| style                 | `React.CSSProperties`                                      | —           |
-| ...props              | `React.ComponentPropsWithoutRef<"span">`                   | —           |
+| Prop                | Type                                                                         | Default     |
+| ------------------- | ---------------------------------------------------------------------------- | ----------- |
+| value               | `number`                                                                     | —           |
+| startValue          | `number`                                                                     | `0`         |
+| duration            | `number`                                                                     | `1000`      |
+| decimalPlaces       | `number`                                                                     | `0`         |
+| prefix              | `string`                                                                     | `""`        |
+| suffix              | `string`                                                                     | `""`        |
+| separator           | `string`                                                                     | `","`       |
+| currency            | `string`                                                                     | —           |
+| locale              | `string`                                                                     | `"en-US"`   |
+| size                | `"sm" \| "md" \| "lg" \| "xl" \| "2xl"`                                      | `"md"`      |
+| color               | `"default" \| "primary" \| "secondary" \| "success" \| "warning" \| "error"` | `"default"` |
+| preserveAspectRatio | `boolean`                                                                    | `false`     |
+| className           | `string`                                                                     | —           |
+| children            | `React.ReactNode`                                                            | —           |
+| onClick             | `(event: React.MouseEvent<HTMLSpanElement>) => void`                         | —           |
+| onMouseEnter        | `(event: React.MouseEvent<HTMLSpanElement>) => void`                         | —           |
+| onMouseLeave        | `(event: React.MouseEvent<HTMLSpanElement>) => void`                         | —           |
+| id                  | `string`                                                                     | —           |
+| title               | `string`                                                                     | —           |
+| style               | `React.CSSProperties`                                                        | —           |
+| ...props            | `React.ComponentPropsWithoutRef<"span">`                                     | —           |

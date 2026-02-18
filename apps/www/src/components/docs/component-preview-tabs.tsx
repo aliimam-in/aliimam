@@ -1,11 +1,11 @@
 "use client"
 
 import * as React from "react"
-
 import { cn } from "@/src/lib/utils"
-import { Tabs, TabsList, TabsTrigger } from "@/registry/aliimam/ui/tabs"
 import { Loader, RotateCcw } from "lucide-react"
+
 import { Button } from "@/registry/aliimam/ui/button"
+import { Tabs, TabsList, TabsTrigger } from "@/registry/aliimam/ui/tabs"
 
 export function ComponentPreviewTabs({
   className,
@@ -23,7 +23,7 @@ export function ComponentPreviewTabs({
   marginOff?: boolean
 }) {
   const [tab, setTab] = React.useState("preview")
-  const [key, setKey] = React.useState(0);
+  const [key, setKey] = React.useState(0)
 
   return (
     <div
@@ -71,10 +71,10 @@ export function ComponentPreviewTabs({
               marginOff ? "p-0" : "p-10"
             )}
           >
-            <div className="absolute z-20 top-2 right-2 flex gap-2">
+            <div className="absolute top-2 right-2 z-20 flex gap-2">
               <Button
                 onClick={() => setKey((prev) => prev + 1)}
-                className="flex hover:rotate-45 hover:bg-transparent dark:hover:bg-black/5 items-center rounded-lg px-3 py-1"
+                className="flex items-center rounded-lg px-3 py-1 hover:rotate-45 hover:bg-transparent dark:hover:bg-black/5"
                 variant="ghost"
                 size="icon"
               >

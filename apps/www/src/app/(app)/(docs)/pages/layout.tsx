@@ -1,8 +1,8 @@
 import { Metadata } from "next"
-
 import { PagesNav } from "@/src/components/docs/pages-nav"
-import { Sheet } from "@/registry/aliimam/ui/sheet"
 import { ThemeSelectorWithSync } from "@/src/components/themes/synced-theme-selector"
+
+import { Sheet } from "@/registry/aliimam/ui/sheet"
 
 const title = "Blocks"
 const description =
@@ -39,11 +39,13 @@ export default function BlocksLayout({
 }) {
   return (
     <>
-    <ThemeSelectorWithSync />
+      <ThemeSelectorWithSync />
       <div className="">
         <Sheet>
           <PagesNav />
-          <div className="h-full container 2xl:border-x pt-4 pb-14 w-full">{children}</div>
+          <div className="container h-full w-full pt-4 pb-14 2xl:border-x">
+            {children}
+          </div>
         </Sheet>
       </div>
     </>

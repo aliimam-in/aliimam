@@ -1,7 +1,7 @@
 ---
 title: Device
 description: A responsive device frame component for showcasing images or UI previews inside MacBook, iMac, iPhone, or iPad mockups.
-component: true 
+component: true
 ---
 
 <ComponentPreview
@@ -72,29 +72,37 @@ import { Device } from "@/components/ui/device"
 ```
 
 ```tsx showLineNumbers
-{/* Macbook */}
-<Device variant="macbook" src="/screenshot.png" />
-{/* iMac */}
-<Device variant="imac" src="/screenshot.png" />
-{/* iPhone */}
-<Device variant="iphone" src="/screenshot.png" />
-{/* iPad */}
-<Device variant="ipad" src="/screenshot.png" />
+{
+  /* Macbook */
+}
+;<Device variant="macbook" src="/screenshot.png" />
+{
+  /* iMac */
+}
+;<Device variant="imac" src="/screenshot.png" />
+{
+  /* iPhone */
+}
+;<Device variant="iphone" src="/screenshot.png" />
+{
+  /* iPad */
+}
+;<Device variant="ipad" src="/screenshot.png" />
 ```
- 
+
 ## Props
 
-| Prop        | Type                                                  | Default      |
-|-------------|-------------------------------------------------------|--------------|
-| variant     | `"macbook" \| "imac" \| "iphone" \| "ipad"`           | `"macbook"`  |
-| src         | `string`                                              | —            |
-| width       | `number \| string`                                    | SVG default  |
-| height      | `number \| string`                                    | SVG default  |
-| viewBox     | `string`                                              | per variant  |
-| className   | `string`                                              | —            |
-| style       | `React.CSSProperties`                                 | —            |
-| fill        | `string`                                              | —            |
-| stroke      | `string`                                              | —            |
-| strokeWidth | `number \| string`                                    | —            |
-| onClick     | `(event: React.MouseEvent<SVGSVGElement>) => void`    | —            |
-| ...props    | `React.SVGProps<SVGSVGElement>`                        | —            |
+| Prop        | Type                                               | Default     |
+| ----------- | -------------------------------------------------- | ----------- |
+| variant     | `"macbook" \| "imac" \| "iphone" \| "ipad"`        | `"macbook"` |
+| src         | `string`                                           | —           |
+| width       | `number \| string`                                 | SVG default |
+| height      | `number \| string`                                 | SVG default |
+| viewBox     | `string`                                           | per variant |
+| className   | `string`                                           | —           |
+| style       | `React.CSSProperties`                              | —           |
+| fill        | `string`                                           | —           |
+| stroke      | `string`                                           | —           |
+| strokeWidth | `number \| string`                                 | —           |
+| onClick     | `(event: React.MouseEvent<SVGSVGElement>) => void` | —           |
+| ...props    | `React.SVGProps<SVGSVGElement>`                    | —           |

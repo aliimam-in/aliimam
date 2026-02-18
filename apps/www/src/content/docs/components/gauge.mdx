@@ -84,26 +84,25 @@ import { Gauge } from "@/components/gauge"
 
 ## Props
 
-
-| Prop             | Type                                                                                     | Default     |  
-|------------------|------------------------------------------------------------------------------------------|-------------| 
-| `value`          | number                                                                                   | –           |  
-| `size`           | number \| string                                                                         | `150`       |  
-| `gapPercent`     | number                                                                                   | `5`         |  
-| `strokeWidth`    | number                                                                                   | `10`        |  
-| `equal`          | boolean                                                                                  | `false`     |  
-| `showValue`      | boolean                                                                                  | `true`      |  
-| `showPercentage` | boolean                                                                                  | `false`     |  
-| `primary`        | `"danger" \| "warning" \| "success" \| "info" \| string \| { [key: number]: string }`    | –           |  
-| `secondary`      | `"danger" \| "warning" \| "success" \| "info" \| string \| { [key: number]: string }`    | –           |   Applies a gradient fill to the primary stroke. |
-| `multiRing`      | `{ enabled: boolean; rings?: Array<{ value: number; color: string; strokeWidth?: number; opacity?: number }> }` | – |  
-| `thresholds`     | `Array<{ value: number; color: string; label?: string }>`                                | –           |  
-| `gaugeType`      | `"full" \| "half" \| "quarter"`                                                          | `"full"`    |  
-| `transition`     | `{ length?: number; step?: number; delay?: number }`                                     | `{ length: 1000, step: 200, delay: 0 }` |  
-| `className`      | string \|                                                                                | – |  
-| `label`          | string                                                                                   | –           |  
-| `unit`           | string                                                                                   | `"%"`       |  
-| `min`            | number                                                                                   | `0`         |  
-| `max`            | number                                                                                   | `100`       |  
-| `tickMarks`      | boolean                                                                                  | `false`     | 
-| `glowEffect`     | boolean                                                                                  | `false`     | 
+| Prop             | Type                                                                                                            | Default                                 |
+| ---------------- | --------------------------------------------------------------------------------------------------------------- | --------------------------------------- | ---------------------------------------------- |
+| `value`          | number                                                                                                          | –                                       |
+| `size`           | number \| string                                                                                                | `150`                                   |
+| `gapPercent`     | number                                                                                                          | `5`                                     |
+| `strokeWidth`    | number                                                                                                          | `10`                                    |
+| `equal`          | boolean                                                                                                         | `false`                                 |
+| `showValue`      | boolean                                                                                                         | `true`                                  |
+| `showPercentage` | boolean                                                                                                         | `false`                                 |
+| `primary`        | `"danger" \| "warning" \| "success" \| "info" \| string \| { [key: number]: string }`                           | –                                       |
+| `secondary`      | `"danger" \| "warning" \| "success" \| "info" \| string \| { [key: number]: string }`                           | –                                       | Applies a gradient fill to the primary stroke. |
+| `multiRing`      | `{ enabled: boolean; rings?: Array<{ value: number; color: string; strokeWidth?: number; opacity?: number }> }` | –                                       |
+| `thresholds`     | `Array<{ value: number; color: string; label?: string }>`                                                       | –                                       |
+| `gaugeType`      | `"full" \| "half" \| "quarter"`                                                                                 | `"full"`                                |
+| `transition`     | `{ length?: number; step?: number; delay?: number }`                                                            | `{ length: 1000, step: 200, delay: 0 }` |
+| `className`      | string \|                                                                                                       | –                                       |
+| `label`          | string                                                                                                          | –                                       |
+| `unit`           | string                                                                                                          | `"%"`                                   |
+| `min`            | number                                                                                                          | `0`                                     |
+| `max`            | number                                                                                                          | `100`                                   |
+| `tickMarks`      | boolean                                                                                                         | `false`                                 |
+| `glowEffect`     | boolean                                                                                                         | `false`                                 |

@@ -1,37 +1,39 @@
-"use client";
-import { Sidebar, SidebarContent } from "@/registry/aliimam/ui/sidebar";
-import { useLogos } from "@/src/components/icons/logo-context";
-import { useIcons } from "@/src/components/icons/icon-context";
-import { usePathname } from "next/navigation";
-import { useEffect } from "react";
+"use client"
+
+import { useEffect } from "react"
+import { usePathname } from "next/navigation"
+import { useIcons } from "@/src/components/icons/icon-context"
+import { useLogos } from "@/src/components/icons/logo-context"
+
+import { Sidebar, SidebarContent } from "@/registry/aliimam/ui/sidebar"
 
 export function IconCategoryTabs() {
-  const { activeCategory, setActiveCategory, allCategories } = useIcons();
-  const pathname = usePathname();
+  const { activeCategory, setActiveCategory, allCategories } = useIcons()
+  const pathname = usePathname()
 
   useEffect(() => {
     // Reset category when switching nav pages
-    setActiveCategory("all");
-  }, [pathname]);
+    setActiveCategory("all")
+  }, [pathname])
 
   const getDisplayName = (category: string): string => {
-    if (category === "all") return "All Icons";
+    if (category === "all") return "All Icons"
 
-    const parts = category.split("/");
+    const parts = category.split("/")
     //@ts-ignore
-    return parts.length > 1 ? parts[1] : category;
-  };
+    return parts.length > 1 ? parts[1] : category
+  }
 
   const handleCategoryClick = (category: string) => {
-    setActiveCategory(category);
+    setActiveCategory(category)
     window.scrollTo({
       top: 0,
       behavior: "smooth",
-    });
-  };
+    })
+  }
 
   return (
-    <Sidebar 
+    <Sidebar
       className="sticky top-30 z-30 hidden h-[calc(100svh-var(--footer-height)+2rem)] bg-transparent lg:flex"
       collapsible="none"
     >
@@ -41,7 +43,7 @@ export function IconCategoryTabs() {
             <button
               key={category}
               onClick={() => handleCategoryClick(category)}
-              className={`rounded-md text-sm cursor-pointer py-1.5 text-start px-4 ${
+              className={`cursor-pointer rounded-md px-4 py-1.5 text-start text-sm ${
                 activeCategory === category
                   ? "bg-primary text-primary-foreground"
                   : "hover:bg-secondary"
@@ -54,49 +56,49 @@ export function IconCategoryTabs() {
         </div>
       </SidebarContent>
     </Sidebar>
-  );
+  )
 }
 
 export function LogoCategoryTabs() {
-  const { activeCategory, setActiveCategory, allCategories } = useLogos();
-  const pathname = usePathname();
+  const { activeCategory, setActiveCategory, allCategories } = useLogos()
+  const pathname = usePathname()
 
   useEffect(() => {
     // Reset category when switching nav pages
-    setActiveCategory("all");
-  }, [pathname]);
+    setActiveCategory("all")
+  }, [pathname])
 
   const getDisplayName = (category: string): string => {
-    if (category === "all") return "All Logos";
+    if (category === "all") return "All Logos"
 
-    const parts = category.split("/");
+    const parts = category.split("/")
     //@ts-ignore
-    return parts.length > 1 ? parts[1] : category;
-  };
+    return parts.length > 1 ? parts[1] : category
+  }
 
   // Filter to show only flag-related categories
   const flagCategories = allCategories.filter((category) => {
-    if (category === "all") return false; // Exclude "all" from the filtered list
-    const lowerCategory = category.toLowerCase();
+    if (category === "all") return false // Exclude "all" from the filtered list
+    const lowerCategory = category.toLowerCase()
     return (
       lowerCategory.includes("icon") ||
       lowerCategory.includes("wordmark") ||
       (!category.includes("card") &&
         !category.includes("shape") &&
         !category.includes("flag"))
-    );
-  });
+    )
+  })
 
   // Add "all" at the beginning for "All Flags" option
-  const categoriesToShow = ["all", ...flagCategories];
+  const categoriesToShow = ["all", ...flagCategories]
 
   const handleCategoryClick = (category: string) => {
-    setActiveCategory(category);
+    setActiveCategory(category)
     window.scrollTo({
       top: 0,
       behavior: "smooth",
-    });
-  };
+    })
+  }
 
   return (
     <Sidebar
@@ -109,7 +111,7 @@ export function LogoCategoryTabs() {
             <button
               key={category}
               onClick={() => handleCategoryClick(category)}
-              className={`rounded-md text-sm cursor-pointer py-1.5 text-start px-4 ${
+              className={`cursor-pointer rounded-md px-4 py-1.5 text-start text-sm ${
                 activeCategory === category
                   ? "bg-primary text-primary-foreground"
                   : "hover:bg-secondary"
@@ -122,48 +124,48 @@ export function LogoCategoryTabs() {
         </div>
       </SidebarContent>
     </Sidebar>
-  );
+  )
 }
 
 export function SymbolsCategoryTabs() {
-  const { activeCategory, setActiveCategory, allCategories } = useLogos();
+  const { activeCategory, setActiveCategory, allCategories } = useLogos()
 
-  const pathname = usePathname();
+  const pathname = usePathname()
 
   useEffect(() => {
     // Reset category when switching nav pages
-    setActiveCategory("all");
-  }, [pathname]);
+    setActiveCategory("all")
+  }, [pathname])
 
   const getDisplayName = (category: string): string => {
-    if (category === "all") return "All Symbols";
+    if (category === "all") return "All Symbols"
 
-    const parts = category.split("/");
+    const parts = category.split("/")
     //@ts-ignore
-    return parts.length > 1 ? parts[1] : category;
-  };
+    return parts.length > 1 ? parts[1] : category
+  }
 
   // Filter to show only flag-related categories
   const flagCategories = allCategories.filter((category) => {
-    if (category === "all") return false; // Exclude "all" from the filtered list
-    const lowerCategory = category.toLowerCase();
+    if (category === "all") return false // Exclude "all" from the filtered list
+    const lowerCategory = category.toLowerCase()
     return (
       lowerCategory.includes("symbols") ||
       lowerCategory.includes("country") ||
       lowerCategory.includes("nation")
-    );
-  });
+    )
+  })
 
   // Add "all" at the beginning for "All Flags" option
-  const categoriesToShow = ["all", ...flagCategories];
+  const categoriesToShow = ["all", ...flagCategories]
 
   const handleCategoryClick = (category: string) => {
-    setActiveCategory(category);
+    setActiveCategory(category)
     window.scrollTo({
       top: 0,
       behavior: "smooth",
-    });
-  };
+    })
+  }
 
   return (
     <Sidebar
@@ -176,7 +178,7 @@ export function SymbolsCategoryTabs() {
             <button
               key={category}
               onClick={() => handleCategoryClick(category)}
-              className={`rounded-md text-sm cursor-pointer py-1.5 text-start px-4 ${
+              className={`cursor-pointer rounded-md px-4 py-1.5 text-start text-sm ${
                 activeCategory === category
                   ? "bg-primary text-primary-foreground"
                   : "hover:bg-secondary"
@@ -189,43 +191,43 @@ export function SymbolsCategoryTabs() {
         </div>
       </SidebarContent>
     </Sidebar>
-  );
+  )
 }
 
 export function VectorsCategoryTabs() {
-  const { activeCategory, setActiveCategory, allCategories } = useLogos();
+  const { activeCategory, setActiveCategory, allCategories } = useLogos()
 
-  const pathname = usePathname();
+  const pathname = usePathname()
 
   useEffect(() => {
     // Reset category when switching nav pages
-    setActiveCategory("all");
-  }, [pathname]);
+    setActiveCategory("all")
+  }, [pathname])
 
   const getDisplayName = (category: string): string => {
-    if (category === "all") return "All Vectors";
+    if (category === "all") return "All Vectors"
 
-    const parts = category.split("/");
+    const parts = category.split("/")
     //@ts-ignore
-    return parts.length > 1 ? parts[1] : category;
-  };
+    return parts.length > 1 ? parts[1] : category
+  }
 
   // Filter to show only flag-related categories
   const flagCategories = allCategories.filter((category) => {
-    if (category === "all") return false; // Exclude "all" from the filtered list
-    const lowerCategory = category.toLowerCase();
-    return lowerCategory.includes("vectors");
-  });
+    if (category === "all") return false // Exclude "all" from the filtered list
+    const lowerCategory = category.toLowerCase()
+    return lowerCategory.includes("vectors")
+  })
 
-  const categoriesToShow = ["all", ...flagCategories];
+  const categoriesToShow = ["all", ...flagCategories]
 
   const handleCategoryClick = (category: string) => {
-    setActiveCategory(category);
+    setActiveCategory(category)
     window.scrollTo({
       top: 0,
       behavior: "smooth",
-    });
-  };
+    })
+  }
 
   return (
     <Sidebar
@@ -238,7 +240,7 @@ export function VectorsCategoryTabs() {
             <button
               key={category}
               onClick={() => handleCategoryClick(category)}
-              className={`rounded-md text-sm cursor-pointer py-1.5 text-start px-4 ${
+              className={`cursor-pointer rounded-md px-4 py-1.5 text-start text-sm ${
                 activeCategory === category
                   ? "bg-primary text-primary-foreground"
                   : "hover:bg-secondary"
@@ -251,43 +253,43 @@ export function VectorsCategoryTabs() {
         </div>
       </SidebarContent>
     </Sidebar>
-  );
+  )
 }
 
 export function ShapesCategoryTabs() {
-  const { activeCategory, setActiveCategory, allCategories } = useLogos();
-  const pathname = usePathname();
+  const { activeCategory, setActiveCategory, allCategories } = useLogos()
+  const pathname = usePathname()
 
   useEffect(() => {
     // Reset category when switching nav pages
-    setActiveCategory("all");
-  }, [pathname]);
+    setActiveCategory("all")
+  }, [pathname])
 
   const getDisplayName = (category: string): string => {
-    if (category === "all") return "All Shapes";
+    if (category === "all") return "All Shapes"
 
-    const parts = category.split("/");
+    const parts = category.split("/")
     //@ts-ignore
-    return parts.length > 1 ? parts[1] : category;
-  };
+    return parts.length > 1 ? parts[1] : category
+  }
 
   // Filter to show only flag-related categories
   const flagCategories = allCategories.filter((category) => {
-    if (category === "all") return false; // Exclude "all" from the filtered list
-    const lowerCategory = category.toLowerCase();
-    return lowerCategory.includes("shapes");
-  });
+    if (category === "all") return false // Exclude "all" from the filtered list
+    const lowerCategory = category.toLowerCase()
+    return lowerCategory.includes("shapes")
+  })
 
   // Add "all" at the beginning for "All Flags" option
-  const categoriesToShow = ["all", ...flagCategories];
+  const categoriesToShow = ["all", ...flagCategories]
 
   const handleCategoryClick = (category: string) => {
-    setActiveCategory(category);
+    setActiveCategory(category)
     window.scrollTo({
       top: 0,
       behavior: "smooth",
-    });
-  };
+    })
+  }
 
   return (
     <Sidebar
@@ -300,7 +302,7 @@ export function ShapesCategoryTabs() {
             <button
               key={category}
               onClick={() => handleCategoryClick(category)}
-              className={`rounded-md text-sm cursor-pointer py-1.5 text-start px-4 ${
+              className={`cursor-pointer rounded-md px-4 py-1.5 text-start text-sm ${
                 activeCategory === category
                   ? "bg-primary text-primary-foreground"
                   : "hover:bg-secondary"
@@ -313,5 +315,5 @@ export function ShapesCategoryTabs() {
         </div>
       </SidebarContent>
     </Sidebar>
-  );
+  )
 }

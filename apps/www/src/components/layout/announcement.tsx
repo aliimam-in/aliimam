@@ -1,11 +1,10 @@
 import Link from "next/link"
-import { ArrowRightIcon } from "lucide-react"
-
 import {
   Announcement as AnnouncementBase,
   AnnouncementTag,
   AnnouncementTitle,
 } from "@/src/components/ui/announcement"
+import { ArrowRightIcon } from "lucide-react"
 
 export function Announcement() {
   return (

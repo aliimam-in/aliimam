@@ -1,11 +1,11 @@
 "use client"
 
 import * as React from "react"
-import { GalleryHorizontalIcon } from "lucide-react"
-
+import { useLayout } from "@/src/hooks/use-layout"
 import { trackEvent } from "@/src/lib/events"
 import { cn } from "@/src/lib/utils"
-import { useLayout } from "@/src/hooks/use-layout"
+import { GalleryHorizontalIcon } from "lucide-react"
+
 import { Button } from "@/registry/aliimam/ui/button"
 
 export function SiteConfig({ className }: React.ComponentProps<typeof Button>) {

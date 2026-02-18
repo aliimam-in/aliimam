@@ -225,7 +225,8 @@ export const abstractPatterns: Pattern[] = [
             backgroundImage:
               "linear-gradient(var(--primary) 3px, transparent 3px), linear-gradient(90deg, var(--primary) 3px, transparent 3px), linear-gradient(var(--primary) 1.5px, transparent 1.5px), linear-gradient(90deg, var(--primary) 1.5px, var(--background) 1.5px)",
             backgroundSize: "75px 75px, 75px 75px, 15px 15px, 15px 15px",
-            backgroundPosition: "-3px -3px, -3px -3px, -1.5px -1.5px, -1.5px -1.5px",
+            backgroundPosition:
+              "-3px -3px, -3px -3px, -1.5px -1.5px, -1.5px -1.5px",
           }}
         />
       )
@@ -245,7 +246,8 @@ export const abstractPatterns: Pattern[] = [
             backgroundImage:
               "linear-gradient(30deg, var(--primary) 12%, transparent 12.5%, transparent 87%, var(--primary) 87.5%, var(--primary)), linear-gradient(150deg, var(--primary) 12%, transparent 12.5%, transparent 87%, var(--primary) 87.5%, var(--primary)), linear-gradient(30deg, var(--primary) 12%, transparent 12.5%, transparent 87%, var(--primary) 87.5%, var(--primary)), linear-gradient(150deg, var(--primary) 12%, transparent 12.5%, transparent 87%, var(--primary) 87.5%, var(--primary)), linear-gradient(60deg, color-mix(in srgb, var(--primary) 77%, transparent) 25%, transparent 25.5%, transparent 75%, color-mix(in srgb, var(--primary) 77%, transparent) 75%, color-mix(in srgb, var(--primary) 77%, transparent)), linear-gradient(60deg, color-mix(in srgb, var(--primary) 77%, transparent) 25%, transparent 25.5%, transparent 75%, color-mix(in srgb, var(--primary) 77%, transparent) 75%, color-mix(in srgb, var(--primary) 77%, transparent))",
             backgroundSize: "30px 53px",
-            backgroundPosition: "0 0, 0 0, 15px 26px, 15px 26px, 0 0, 15px 26px",
+            backgroundPosition:
+              "0 0, 0 0, 15px 26px, 15px 26px, 0 0, 15px 26px",
           }}
         />
       )
@@ -265,7 +267,8 @@ export const abstractPatterns: Pattern[] = [
             backgroundImage:
               "linear-gradient(30deg, var(--primary) 12%, transparent 12.5%, transparent 87%, var(--primary) 87.5%, var(--primary)), linear-gradient(150deg, var(--primary) 12%, transparent 12.5%, transparent 87%, var(--primary) 87.5%, var(--primary)), linear-gradient(30deg, var(--primary) 12%, transparent 12.5%, transparent 87%, var(--primary) 87.5%, var(--primary)), linear-gradient(150deg, var(--primary) 12%, transparent 12.5%, transparent 87%, var(--primary) 87.5%, var(--primary)), linear-gradient(60deg, color-mix(in srgb, var(--primary) 77%, transparent) 25%, transparent 25.5%, transparent 75%, color-mix(in srgb, var(--primary) 77%, transparent) 75%, color-mix(in srgb, var(--primary) 77%, transparent)), linear-gradient(60deg, color-mix(in srgb, var(--primary) 77%, transparent) 25%, transparent 25.5%, transparent 75%, color-mix(in srgb, var(--primary) 77%, transparent) 75%, color-mix(in srgb, var(--primary) 77%, transparent))",
             backgroundSize: "60px 106px",
-            backgroundPosition: "0 0, 0 0, 30px 53px, 30px 53px, 0 0, 30px 53px",
+            backgroundPosition:
+              "0 0, 0 0, 30px 53px, 30px 53px, 0 0, 30px 53px",
           }}
         />
       )
@@ -400,7 +403,8 @@ export const abstractPatterns: Pattern[] = [
             opacity: 0.4,
             background:
               "radial-gradient(circle, transparent 20%, var(--background) 20%, var(--background) 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, var(--background) 20%, var(--background) 80%, transparent 80%, transparent) 37.5px 37.5px, linear-gradient(var(--primary) 3px, transparent 3px) 0 -1.5px, linear-gradient(90deg, var(--primary) 3px, var(--background) 3px) -1.5px 0",
-            backgroundSize: "75px 75px, 75px 75px, 37.5px 37.5px, 37.5px 37.5px",
+            backgroundSize:
+              "75px 75px, 75px 75px, 37.5px 37.5px, 37.5px 37.5px",
           }}
         />
       )
@@ -480,10 +484,6 @@ export const abstractPatterns: Pattern[] = [
     },
   },
 
-  
-
-  
-
   {
     id: "abstract-31",
     name: "Wavy Stripe Blend",
@@ -515,7 +515,8 @@ export const abstractPatterns: Pattern[] = [
             backgroundImage:
               "linear-gradient(var(--primary) 3px, transparent 3px), linear-gradient(90deg, var(--primary) 3px, transparent 3px), linear-gradient(var(--primary) 1.5px, transparent 1.5px), linear-gradient(90deg, var(--primary) 1.5px, var(--background) 1.5px)",
             backgroundSize: "50px 50px, 50px 50px, 10px 10px, 10px 10px",
-            backgroundPosition: "-3px -3px, -3px -3px, -1.5px -1.5px, -1.5px -1.5px",
+            backgroundPosition:
+              "-3px -3px, -3px -3px, -1.5px -1.5px, -1.5px -1.5px",
           }}
         />
       )
@@ -731,8 +732,6 @@ export const abstractPatterns: Pattern[] = [
     },
   },
 
-  
-
   {
     id: "abstract-46",
     name: "Candy Stripe Bold",
@@ -805,7 +804,6 @@ export const abstractPatterns: Pattern[] = [
     },
   },
 
-
   {
     id: "abstract-51",
     name: "Brick Wall",
@@ -825,8 +823,6 @@ export const abstractPatterns: Pattern[] = [
       )
     },
   },
-
-  
 
   {
     id: "abstract-53",
@@ -1336,7 +1332,7 @@ export const abstractPatterns: Pattern[] = [
         />
       )
     },
-  }, 
+  },
   {
     id: "abstract-81",
     name: "Offset Square Grid",
@@ -1350,7 +1346,8 @@ export const abstractPatterns: Pattern[] = [
             backgroundImage:
               "linear-gradient(var(--primary) 1px, transparent 1px), linear-gradient(90deg, var(--primary) 1px, transparent 1px), linear-gradient(color-mix(in srgb, var(--primary) 55%, transparent) 1px, transparent 1px), linear-gradient(90deg, color-mix(in srgb, var(--primary) 55%, transparent) 1px, transparent 1px)",
             backgroundSize: "40px 40px, 40px 40px, 20px 20px, 20px 20px",
-            backgroundPosition: "-1px -1px, -1px -1px, -0.5px -0.5px, -0.5px -0.5px",
+            backgroundPosition:
+              "-1px -1px, -1px -1px, -0.5px -0.5px, -0.5px -0.5px",
           }}
         />
       )
@@ -1682,7 +1679,6 @@ export const abstractPatterns: Pattern[] = [
     },
   },
 
-  
   {
     id: "abstract-100",
     name: "Overlapping Rings",
