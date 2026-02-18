@@ -9,12 +9,9 @@ const nextConfig = {
   reactStrictMode: true, 
    experimental: {
     turbopackFileSystemCacheForDev: true,
-  },
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
+  }, 
   outputFileTracingIncludes: {
-    "/*": ["./registry/**/*", "./src/content/docs/**/*"],
+    "/*": ["./registry/**/*", "./src/content/**/*"],
   },
   images: {
     remotePatterns: [

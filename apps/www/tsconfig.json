@@ -24,6 +24,7 @@
     ],
     "baseUrl": ".",
     "paths": {
+      "@/.source": ["./.source/index.ts"],
       "@/*": [
         "./*"
       ],

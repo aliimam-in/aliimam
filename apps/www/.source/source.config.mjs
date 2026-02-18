@@ -85,7 +85,7 @@ var source_config_default = defineConfig({
   }
 });
 var docs = defineDocs({
-  dir: "./src/content/docs",
+  dir: "/src/content/docs",
   docs: {
     schema: frontmatterSchema.extend({
       links: z.object({
@@ -97,7 +97,7 @@ var docs = defineDocs({
   }
 });
 var showcase = defineDocs({
-  dir: "./src/content/showcase",
+  dir: "/src/content/showcase",
   docs: {
     schema: frontmatterSchema.extend({
       affiliation: z.string().optional(),
@@ -107,7 +107,7 @@ var showcase = defineDocs({
   }
 });
 var blogs = defineDocs({
-  dir: "./src/content/blogs",
+  dir: "/src/content/blogs",
   docs: {
     schema: frontmatterSchema.extend({
       tag: z.array(z.string()).optional(),
