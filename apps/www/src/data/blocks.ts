@@ -3,6 +3,8 @@ import fs from 'fs'
 import path from 'path'
 
 export interface Block {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    updatedAt: any
     id:string
     slug: string
     title: string
@@ -41,8 +43,7 @@ function loadCode(filePath: string): string {
             const importPath = p1 || p2
             return `from "@/components/${importPath}"`
         })
-
-        code = code.replace(/@mist|@veil/g, '@')
+ 
         
         return code
     }
@@ -129,7 +130,7 @@ function generateBlocks(): Block[] {
                 ).join(' ');
                 
                 blocks.push({
-                    id : variant,
+                    id: variant,
                     slug: `${category}-${variant}`,
                     title: `${formattedCategory} block ${formattedVariant} (${kitName})`,
                     description: `Beautiful ${formattedCategory.toLowerCase()} block from ${kitName} for your marketing website (variant ${formattedVariant})`,
@@ -137,7 +138,8 @@ function generateBlocks(): Block[] {
                     previewLink: `/preview/${kitShortName}/${category}/${variant}`,
                     code: loadCode(blockFilePath),
                     codes: allComponents,
-                    kit: kitName 
+                    kit: kitName,
+                    updatedAt: undefined
                 })
             }
         }

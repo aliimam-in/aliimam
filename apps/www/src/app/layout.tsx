@@ -1,5 +1,5 @@
 import type { Metadata } from "next"
-import { META_THEME_COLORS, siteConfig } from "@/src/lib/config"
+import { category, keywords, META_THEME_COLORS, siteConfig } from "@/src/lib/config"
 import { fontVariables } from "@/src/lib/fonts"
 import { cn } from "@/src/lib/utils"
 
@@ -14,14 +14,16 @@ export const metadata: Metadata = {
   },
   metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL!),
   description: siteConfig.description,
-  keywords: ["aliimam", "UI", "shadcn", "Components", "audio", "agents"],
+  keywords: keywords,
+  classification: "Web Development, CSS Tools, Design Resources",
+  category: Array.isArray(category) ? category.join(", ") : category,
   authors: [
     {
-      name: "aliimam",
+      name: "Ali Imam",
       url: "https://aliimam_in",
     },
   ],
-  creator: "aliimam",
+  creator: "Ali Imam",
   openGraph: {
     type: "website",
     locale: "en_US",
@@ -51,6 +53,29 @@ export const metadata: Metadata = {
     apple: "/apple-touch-icon.png",
   },
   manifest: `${siteConfig.url}/site.webmanifest`,
+  applicationName: "Ali Imam",
+  other: {
+    "application-name": "Ali Imam",
+    "mobile-web-app-capable": "yes",
+    "apple-mobile-web-app-capable": "yes",
+    "apple-mobile-web-app-status-bar-style": "default",
+    "apple-mobile-web-app-title": "Ali Imam",
+    "msapplication-TileColor": "#000000",
+    "theme-color": "#000000", 
+ 
+    "article:author": "Ali Imam",
+    "article:publisher": "https://github.com/aliimam-in",
+    "article:section": "Web Development",
+    "article:tag": "CSS, Background Patterns, Gradients, Web Design",
+    "og:updated_time": new Date().toISOString(),
+    "og:locale": "en_US",
+    "og:type": "website",
+
+    "revisit-after": "7 days",
+    distribution: "global",
+    rating: "general",
+    copyright: "© 2026 Ali Imam. All rights reserved.",
+  },
 }
 
 export default function RootLayout({
