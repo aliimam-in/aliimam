@@ -52,16 +52,20 @@ export async function GET(request: Request) {
       <div tw="flex border absolute border-stone-700 inset-x-0 h-[1px] top-16" />
       <div tw="flex border absolute border-stone-700 inset-x-0 h-[1px] bottom-16" />
       <div tw="flex absolute flex-row bottom-24 right-24 text-white">
-        <svg
-          viewBox="0 0 876 876"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-          width={80}
-          height={80}
-        >
-          <path d="M468 292H528V584H468V292Z" fill="currentColor" />
-          <path d="M348 292H408V584H348V292Z" fill="currentColor" />
-        </svg>
+        <img
+          src="/ai-logo-white.png"
+          alt="Your Image"
+          height={50}
+          width={50}
+          className="z-10 hidden h-10 w-full object-contain dark:block"
+        />
+        <img
+          src="/ai-logo-black.png"
+          alt="Your Image"
+          height={50}
+          width={50}
+          className="z-10 block h-10 w-full object-contain dark:hidden"
+        />
       </div>
       <div tw="flex flex-col absolute w-[896px] justify-center inset-32">
         <div

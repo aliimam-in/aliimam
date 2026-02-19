@@ -42,7 +42,7 @@ export const metadata: Metadata = {
 export default function IndexPage() {
   const blocks = getBentoBlocks()
   return (
-    <div>
+    <div>  
       <Hero />
       <BentoLanding blocks={blocks} />
       <Services />

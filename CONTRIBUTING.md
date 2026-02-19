@@ -4,7 +4,7 @@ Thanks for your interest in contributing to ui.aliimam.io.
 
 Please take a moment to review this document before submitting your first pull request. We also strongly recommend that you check for open issues and pull requests to see if someone else is working on something similar.
 
-If you need any help, feel free to reach out to [@louisjoejordan](https://twitter.com/louisjoejordan).
+If you need any help, feel free to reach out to [@aliimam](https://twitter.com/aliimam_in).
 
 ## About this repository
 
@@ -45,7 +45,7 @@ You can fork this repo by clicking the fork button in the top right corner of th
 ### Clone on your local machine
 
 ```bash
-git clone https://github.com/aliimam/ui.git
+git clone https://github.com/aliimam-in/aliimam.git
 ```
 
 ### Navigate to project directory
@@ -72,7 +72,7 @@ You can use the `pnpm --filter=[WORKSPACE]` command to start the development pro
 
 #### Examples
 
-1. To run the `ui.aliimam.io` website:
+1. To run the `aliimam.in` website:
 
 ```bash
 pnpm dev

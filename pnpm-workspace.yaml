@@ -1,8 +1,4 @@
 packages:
   - "apps/*"
-  - "packages/*"
-  - "!**/test/**"
-  - "!**/fixtures/**"
-  - "!**/temp/**"
-  - "!packages/tests/temp/**"
+  - "packages/*" 
 minimumReleaseAge: 10080 # 1 week

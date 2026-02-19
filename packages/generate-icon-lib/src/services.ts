@@ -316,7 +316,7 @@ export async function renderIdsToSvgs(
   }
 
   // Tune this if you still get 413s. Start at 50, reduce to 10-20 if necessary.
-  const DEFAULT_CHUNK_SIZE = 50;
+  const DEFAULT_CHUNK_SIZE = 10;
   const chunkSize = Number(process.env.FIGMA_IDS_CHUNK_SIZE) || DEFAULT_CHUNK_SIZE;
 
   const chunks: string[][] = [];
