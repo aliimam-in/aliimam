@@ -7,6 +7,7 @@ import { Hero } from "@/src/components/sections/home/hero"
 import { Pricing } from "@/src/components/sections/home/pricing"
 import { Services } from "@/src/components/sections/home/services"
 import { getBentoBlocks } from "@/src/lib/get-bento-images"
+import { BlocksPageCategory } from "@/src/components/sections/home/categories-section"
 
 const title = "Design Without Limits"
 const description =
@@ -47,6 +48,7 @@ export default function IndexPage() {
       <BentoLanding blocks={blocks} />
       <Services />
       <Components />
+      <BlocksPageCategory/>
       <Pricing />
       <FAQs />
       <CallToAction />

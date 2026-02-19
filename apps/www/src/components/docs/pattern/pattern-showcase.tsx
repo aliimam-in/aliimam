@@ -29,6 +29,7 @@ export default function PatternShowcase({
 }: PatternShowcaseProps) {
   const [activeMobileCard, setActiveMobileCard] = useState<string | null>(null)
   const [activeTab, setActiveTab] = useState<string>("all")
+
   const { favourites } = useFavorites()
   const isPatternDark = theme === "dark"
 
@@ -52,6 +53,28 @@ export default function PatternShowcase({
 
     copyToClipboard(jsxString, pattern.id)
   }
+
+  useEffect(() => {
+    const handleHashChange = () => {
+      const hash = window.location.hash.replace("#", "")
+      setActiveTab(hash || "all")
+    }
+
+    window.addEventListener("hashchange", handleHashChange)
+
+    return () => {
+      window.removeEventListener("hashchange", handleHashChange)
+    }
+  }, [])
+
+  useEffect(() => {
+    const setFromHash = () => {
+      const hash = window.location.hash.replace("#", "")
+      setActiveTab(hash || "all")
+    }
+
+    setFromHash()
+  }, [])
 
   useEffect(() => {
     if (activePattern) {
@@ -86,7 +109,15 @@ export default function PatternShowcase({
       <Tabs
         defaultValue="view"
         value={activeTab}
-        onValueChange={setActiveTab}
+        onValueChange={(value) => {
+          setActiveTab(value)
+
+          if (value === "all") {
+            history.replaceState(null, "", "/patterns")
+          } else {
+            window.location.hash = value
+          }
+        }}
         className="items-center justify-center"
       >
         <div className="flex w-full flex-wrap items-center gap-2 xl:flex-nowrap">

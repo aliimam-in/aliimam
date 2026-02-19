@@ -134,7 +134,7 @@ const Services = () => {
 
   if (servicesWithProps.length === 0) {
     return (
-      <div className="md:container">
+      <div className="container">
         <div
           className="flex items-center justify-center lg:border-x"
           style={{ height: `${containerHeight}px` }}

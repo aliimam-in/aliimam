@@ -1,3 +1,6 @@
+import { getAllBlocks } from "./blocks" 
+import { gridPatterns } from "../config/patterns"
+
 export const registryCategories = [
   {
     name: "Header",
@@ -234,3 +237,60 @@ export const THEME_CONFIG = {
   light: "light",
   dark: "dark",
 } as const
+
+export type UnifiedCategory = {
+  name: string
+  slug: string
+  hidden: boolean
+  type: "block" | "page" | "icon" | "pattern"
+  count: number
+}
+
+export async function getRegistryCategoriesWithCount() {
+  const blocks = await getAllBlocks()
+
+  const counter: Record<string, number> = {}
+
+  // ✅ Count registry blocks
+  for (const block of blocks) {
+    if (!block.categories) continue
+
+    for (const category of block.categories) {
+      counter[category] = (counter[category] || 0) + 1
+    }
+  }
+
+  // ✅ Count patterns separately
+  for (const pattern of gridPatterns) {
+    counter[pattern.category] =
+      (counter[pattern.category] || 0) + 1
+  }
+
+  const allCategories = [
+    ...registryCategories.map((c) => ({
+      ...c,
+      type: "block" as const,
+    })),
+    ...pagesCategories.map((c) => ({
+      ...c,
+      type: "page" as const,
+    })),
+    ...iconCategories.map((c) => ({
+      ...c,
+      type: "icon" as const,
+    })),
+    ...PATTERN_CATEGORIES.map((c) => ({
+      name: c.label,
+      slug: c.id,
+      hidden: false,
+      type: "pattern" as const,
+    })),
+  ]
+
+  return allCategories
+    .filter((c) => !c.hidden)
+    .map((category) => ({
+      ...category,
+      count: counter[category.slug] || 0,
+    }))
+}
