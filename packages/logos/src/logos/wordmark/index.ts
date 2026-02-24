@@ -1,5 +1,0 @@
-export { Github } from "./ai/Github"
-export { Nextjs } from "./ai/Nextjs"
-export { Vercel } from "./ai/Vercel"
-export { AArrowUp } from "./arrows/AArrowUp"
-export { AArrop } from "./arrows/AArrop"

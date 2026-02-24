@@ -1,7 +1,7 @@
 import { defineConfig } from "tsup"
 
 export default defineConfig({
-  entry: ["src/icons/index.tsx"],  
+  entry: ["src/generated/index.tsx"],  
   format: ["esm", "cjs"],
   dts: true,
   splitting: false,

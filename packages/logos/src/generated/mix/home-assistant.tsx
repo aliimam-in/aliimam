@@ -1,0 +1,42 @@
+/**
+ * Auto-generated logo component: Home Assistant (default)
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface HomeAssistantLogoProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string;
+}
+
+export const HomeAssistantLogo = React.forwardRef<SVGSVGElement, HomeAssistantLogoProps>(
+  ({ size = 24, className = '', ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 240 240"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <path fill="#F2F4F9" d="M240 224.762c0 8.25-6.75 15-15 15H15c-8.25 0-15-6.75-15-15v-90c0-8.25 4.77-19.769 10.61-25.609l98.78-98.78c5.83-5.83 15.38-5.83 21.21 0l98.79 98.789c5.83 5.83 10.61 17.36 10.61 25.61v90-.01Z" /><path fill="#18BCF2" d="m229.39 109.153-98.78-98.78c-5.83-5.83-15.38-5.83-21.21 0l-98.79 98.78C4.78 114.983 0 126.512 0 134.762v90c0 8.25 6.75 15 15 15h92.27l-40.63-40.63c-2.09.72-4.32 1.13-6.64 1.13-11.3 0-20.5-9.2-20.5-20.5s9.2-20.5 20.5-20.5 20.5 9.2 20.5 20.5c0 2.33-.41 4.56-1.13 6.65l31.63 31.63v-115.88c-6.8-3.34-11.5-10.32-11.5-18.39 0-11.3 9.2-20.5 20.5-20.5s20.5 9.2 20.5 20.5c0 8.07-4.7 15.05-11.5 18.39v81.27l31.46-31.46c-.62-1.96-.96-4.04-.96-6.2 0-11.3 9.2-20.5 20.5-20.5s20.5 9.2 20.5 20.5-9.2 20.5-20.5 20.5c-2.5 0-4.88-.47-7.09-1.29L129 208.892v30.88h96c8.25 0 15-6.75 15-15v-90c0-8.25-4.77-19.77-10.61-25.61v-.009Z" />
+    </svg>
+  )
+);
+
+HomeAssistantLogo.displayName = "HomeAssistantLogo";
+
+export const HomeAssistantLogoMetadata = {
+  id: "home-assistant",
+  baseId: "home-assistant",
+  variant: "default",
+  name: "Home Assistant",
+  category: "mix",
+  tags: [],
+  viewBox: "0 0 240 240",
+} as const;
+
+export default HomeAssistantLogo;

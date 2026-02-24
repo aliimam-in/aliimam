@@ -1,0 +1,46 @@
+/**
+ * Auto-generated logo component: Instagram (default)
+ * Category: feather
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface InstagramLogoProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string;
+  strokeWidth?: number;
+}
+
+export const InstagramLogo = React.forwardRef<SVGSVGElement, InstagramLogoProps>(
+  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
+      <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+    </svg>
+  )
+);
+
+InstagramLogo.displayName = "InstagramLogo";
+
+export const InstagramLogoMetadata = {
+  id: "instagram",
+  baseId: "instagram",
+  variant: "default",
+  name: "Instagram",
+  category: "feather",
+  tags: [],
+  viewBox: "0 0 24 24",
+} as const;
+
+export default InstagramLogo;

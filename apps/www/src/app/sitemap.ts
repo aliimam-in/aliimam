@@ -1,7 +1,6 @@
  import { MetadataRoute } from "next"
 import { getAllBlockIds } from "@/src/lib/blocks"
-import { blogSource, source } from "@/src/lib/source"
-import { iconIcons, wordmarkIcons, solidIcons, strokeIcons, pixelIcons  } from "@/src/lib/icons"
+import { blogSource, source } from "@/src/lib/source" 
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl = "https://aliimam.in"
@@ -54,34 +53,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     changeFrequency: "monthly" as const,
     priority: 0.8,
   }))
-
-  const iconSets = { solidIcons, strokeIcons, pixelIcons }
-  const iconRoutes = Object.entries(iconSets).flatMap(([variant, set]) =>
-    Object.keys(set).map((name) => ({
-      url: `${baseUrl}/icons/${name}?variant=${variant.replace("Icons", "").toLowerCase()}`,
-      lastModified: now,
-      changeFrequency: "monthly" as const,
-      priority: 0.6,
-    }))
-  )
  
-  const logoSets = { iconIcons, wordmarkIcons }
-  const logoRoutes = Object.entries(logoSets).flatMap(([variant, set]) =>
-    Object.keys(set).map((name) => ({
-      url: `${baseUrl}/logos/${name}?variant=${variant.replace("Icons", "").toLowerCase()}`,
-      lastModified: now,
-      changeFrequency: "monthly" as const,
-      priority: 0.6,
-    }))
-  )
 
   // Combine and sort by priority (optional but clean)
   return [
     ...staticRoutes, 
     ...blockViewRoutes,
     ...blogRoutes,
-    ...docRoutes,
-    ...iconRoutes,
-    ...logoRoutes,
+    ...docRoutes, 
   ].sort((a, b) => b.priority - a.priority)
 }

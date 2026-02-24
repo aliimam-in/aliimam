@@ -1,60 +1,57 @@
-import {
-  glassIcons,
-  pixelIcons,
-  solidIcons,
-  strokeIcons,
-} from "@/src/lib/icons"
+/* eslint-disable @typescript-eslint/no-explicit-any */
+import { allLogos } from "../../../../../packages/icons/src/generated"
 
 interface IconProps extends React.SVGProps<SVGSVGElement> {
   name: string
   size?: number
-  variant?: "stroke" | "solid" | "pixel" | "glass"
-  strokeWidth?: number
   color?: string
+  strokeWidth?: number
 }
 
-function cleanSvgBody(body: string) {
-  return body
-    .replace(/stroke=".*?"/g, "")
-    .replace(/fill=".*?"/g, "")
-    .replace(/stroke-width=".*?"/g, "")
-}
-
-export function Icon({
+export function Icons({
   name,
   size = 24,
-  variant = "stroke",
-  strokeWidth = 2,
+  fill = "none",
+  stroke = "currentColor",
+  strokeWidth = 1,
   color = "currentColor",
   ...props
 }: IconProps) {
-  const iconSet =
-    variant === "solid"
-      ? solidIcons
-      : variant === "stroke"
-        ? strokeIcons
-        : variant === "pixel"
-          ? pixelIcons
-          : glassIcons
+  let match: any = null
 
-  const icon = iconSet[name]
-  if (!icon) return null
+  outer: for (const icons of Object.values(allLogos)) {
+    for (const entry of Object.values(icons)) {
+      const e = entry as any
+      if (e.metadata.id === name) {
+        match = e
+        break outer
+      }
+    }
+  }
 
-  const cleanedBody = cleanSvgBody(icon.body)
+  if (!match) {
+    outer: for (const icons of Object.values(allLogos)) {
+      for (const entry of Object.values(icons)) {
+        const e = entry as any
+        if (e.metadata.baseId === name && e.metadata.variant === "default") {
+          match = e
+          break outer
+        }
+      }
+    }
+  }
+
+  if (!match) return null
+  const { Component, metadata } = match
 
   return (
-    <svg
-      width={size}
-      height={size}
-      viewBox={icon.viewBox || "0 0 24 24"}
-      fill={variant === "solid" || variant === "glass" ? color : "none"}
-      stroke={variant === "stroke" || variant === "pixel" ? color : "none"}
-      strokeWidth={
-        variant === "stroke" || variant === "pixel" ? strokeWidth : 1
-      }
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      dangerouslySetInnerHTML={{ __html: cleanedBody }}
+    <Component
+      size={size}
+      fill={fill}
+      stroke={stroke}
+      viewBox={metadata.viewBox}
+      strokeWidth={strokeWidth} // stroke-based — always apply
+      style={{ color }} // currentColor se color control
       {...props}
     />
   )

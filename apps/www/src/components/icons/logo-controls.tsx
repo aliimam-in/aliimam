@@ -7,10 +7,9 @@ import { Input } from "@/registry/aliimam/ui/input"
 import { Label } from "@/registry/aliimam/ui/label"
 import { Slider } from "@/registry/aliimam/ui/slider"
 
-interface IconControlsPanelProps {
+interface LogoControlsPanelProps {
   size: number
   color: string
-  variant: "icon" | "wordmark"
   onSizeChange: (value: number) => void
   onColorChange: (value: string) => void
 }
@@ -20,7 +19,7 @@ export function LogoControlsPanel({
   color,
   onSizeChange,
   onColorChange,
-}: IconControlsPanelProps) {
+}: LogoControlsPanelProps) {
   return (
     <div className="space-y-6">
       <div className="space-y-2">
@@ -38,11 +37,11 @@ export function LogoControlsPanel({
         <input
           id="color"
           type="color"
-          value={color}
+          value={color === "currentColor" ? "#000000" : color}
           onChange={(e) => onColorChange(e.target.value)}
           className="absolute h-8 w-8 border p-3"
         />
-        <div className="h-8 w-8 border" style={{ backgroundColor: color }} />
+        <div className="h-8 w-8 border" style={{ backgroundColor: color === "currentColor" ? "#000000" : color }} />
         <Input
           type="text"
           value={color}
@@ -51,8 +50,8 @@ export function LogoControlsPanel({
           placeholder="currentColor"
         />
         <Button
-          variant={"secondary"}
-          size={"icon"}
+          variant="secondary"
+          size="icon"
           onClick={() => {
             onSizeChange(64)
             onColorChange("currentColor")
@@ -70,10 +69,9 @@ export function LogoViewControlsPanel({
   color,
   onSizeChange,
   onColorChange,
-}: IconControlsPanelProps) {
+}: LogoControlsPanelProps) {
   return (
     <div className="space-y-6">
-      {/* Size */}
       <div className="space-y-2">
         <Label>Size: {size}px</Label>
         <Slider
@@ -89,11 +87,11 @@ export function LogoViewControlsPanel({
         <input
           id="color"
           type="color"
-          value={color}
+          value={color === "currentColor" ? "#000000" : color}
           onChange={(e) => onColorChange(e.target.value)}
           className="absolute h-8 w-8 border p-3"
         />
-        <div className="h-8 w-8 border" style={{ backgroundColor: color }} />
+        <div className="h-8 w-8 border" style={{ backgroundColor: color === "currentColor" ? "#000000" : color }} />
         <Input
           type="text"
           value={color}
@@ -102,10 +100,10 @@ export function LogoViewControlsPanel({
           placeholder="currentColor"
         />
         <Button
-          variant={"secondary"}
-          size={"icon"}
+          variant="secondary"
+          size="icon"
           onClick={() => {
-            onSizeChange(64)
+            onSizeChange(200)
             onColorChange("currentColor")
           }}
         >

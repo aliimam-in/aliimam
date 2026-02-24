@@ -1,33 +1,32 @@
 "use client"
 
 import { useEffect, useMemo, useState } from "react"
-import { iconIcons, wordmarkIcons } from "@/src/lib/icons"
- 
+import { allLogos } from "../../../../../packages/logos/src/generated"
 import { useLogoFilter } from "./logo-filter-context"
 
 export function LogoCategoryTabs() {
-  const { variant, category, setCategory } = useLogoFilter()
+  const { category, setCategory } = useLogoFilter()
   const [currentHash, setCurrentHash] = useState<string | null>(null)
 
-  const iconSet = 
-    variant === "icon" ? iconIcons : wordmarkIcons
- 
   const categoriesWithCount = useMemo(() => {
     const map = new Map<string, number>()
 
-    Object.values(iconSet).forEach(
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
-      (icon: any) => {
-        if (icon.category) {
-          map.set(icon.category, (map.get(icon.category) ?? 0) + 1)
-        }
-      }
-    )
+    Object.entries(allLogos).forEach(([cat, logos]) => {
+      // baseId se unique logos count karo (variants ek baar count hon)
+      const uniqueBaseIds = new Set(
+        // eslint-disable-next-line @typescript-eslint/no-explicit-any
+        Object.values(logos).map((entry: any) => entry.metadata.baseId)
+      )
+      map.set(cat, uniqueBaseIds.size)
+    })
 
     return Array.from(map.entries()).sort((a, b) => a[0].localeCompare(b[0]))
-  }, [iconSet])
+  }, [])
 
-  // Update currentHash on mount and when hash changes
+  const totalCount = useMemo(() => {
+    return categoriesWithCount.reduce((acc, [, count]) => acc + count, 0)
+  }, [categoriesWithCount])
+
   useEffect(() => {
     const updateHash = () => setCurrentHash(window.location.hash.slice(1))
     updateHash()
@@ -35,16 +34,15 @@ export function LogoCategoryTabs() {
     return () => window.removeEventListener("hashchange", updateHash)
   }, [])
 
-  // When currentHash changes, update context category
   useEffect(() => {
     if (currentHash) {
-      setCategory(currentHash === "icons" ? null : currentHash)
+      setCategory(currentHash === "logos" ? null : currentHash)
     }
   }, [currentHash, setCategory])
 
   const handleClick = (cat: string | null) => {
-    const hash = cat ?? "icons"
-    window.location.hash = hash // update URL hash
+    const hash = cat ?? "logos"
+    window.location.hash = hash
     setCategory(cat)
     setCurrentHash(hash)
   }
@@ -59,7 +57,7 @@ export function LogoCategoryTabs() {
           }`}
         >
           <span className="text-sm">ALL</span>
-          <span>{Object.keys(iconSet).length}</span>
+          <span>{totalCount}</span>
         </button>
 
         {categoriesWithCount.map(([cat, count]) => (

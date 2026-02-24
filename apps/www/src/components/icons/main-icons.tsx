@@ -1,102 +1,87 @@
 "use client"
 
 import { useMemo } from "react"
-import { Icon } from "@/src/components/icons/icons"
-import {
-  glassIcons,
-  pixelIcons,
-  solidIcons,
-  strokeIcons,
-} from "@/src/lib/icons"
-
+import { allLogos } from "../../../../../packages/icons/src/generated"
 import {
   Tooltip,
   TooltipContent,
   TooltipTrigger,
 } from "@/registry/aliimam/ui/tooltip"
+import { useLogoFilter } from "./icon-filter-context"
+import { Icons } from "./icons"
 
-import { useIconFilter } from "./icon-filter-context"
-
-interface IconGridProps {
-  selectedIcon?: string | null
-  onSelectIcon?: (icon: {
-    name: string
-    variant: "solid" | "stroke" | "pixel" | "glass"
-  }) => void
+interface LogoGridProps {
+  selectedLogo?: string | null
+  onSelectLogo?: (name: string) => void
 }
 
-export function IconGrid({ selectedIcon, onSelectIcon }: IconGridProps) {
-  const { variant, query, category, tags } = useIconFilter()
+export function IconGrid({ selectedLogo, onSelectLogo }: LogoGridProps) {
+  const { query, category } = useLogoFilter()
 
-  const iconSet =
-    variant === "solid"
-      ? solidIcons
-      : variant === "stroke"
-        ? strokeIcons
-        : variant === "pixel"
-          ? pixelIcons
-          : glassIcons
+  // baseId ke hisaab se unique logos flatten karo
+  const allEntries = useMemo(() => {
+    const seen = new Set<string>()
+    const result: { baseId: string; category: string; tags: string[] }[] = []
+
+    Object.entries(allLogos).forEach(([cat, logos]) => {
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
+      Object.values(logos).forEach((entry: any) => {
+        const { baseId, tags } = entry.metadata
+        if (!seen.has(`${cat}/${baseId}`)) {
+          seen.add(`${cat}/${baseId}`)
+          result.push({ baseId, category: cat, tags: tags ?? [] })
+        }
+      })
+    })
+
+    return result
+  }, [])
 
   const filtered = useMemo(() => {
     const q = query.toLowerCase()
 
-    return (
-      Object.entries(iconSet)
-        // eslint-disable-next-line @typescript-eslint/no-explicit-any
-        .filter(([name, meta]: any) => {
-          // Check query against name or tags
-          const matchesQuery =
-            !q ||
-            name.toLowerCase().includes(q) ||
-            (meta.tags?.some((tag: string) => tag.toLowerCase().includes(q)) ??
-              false)
+    return allEntries
+      .filter(({ baseId, category: cat, tags }) => {
+        const matchesQuery =
+          !q ||
+          baseId.toLowerCase().includes(q) ||
+          tags.some((t) => t.toLowerCase().includes(q))
 
-          if (!matchesQuery) return false
+        const matchesCategory = !category || cat === category
 
-          if (category && meta.category !== category) return false
-
-          if (tags.length && !tags.every((t: string) => meta.tags?.includes(t)))
-            return false
-
-          return true
-        })
-        .map(([name]) => name)
-        .slice(0, 400)
-    )
-  }, [iconSet, query, category, tags])
+        return matchesQuery && matchesCategory
+      })
+      .slice(0, 400)
+  }, [allEntries, query, category])
 
   if (filtered.length === 0) {
     return (
       <div className="text-muted-foreground flex h-full items-center justify-center p-4 text-sm">
-        No icons found
+        No logos found
       </div>
     )
   }
 
   return (
-    <div className="grid grid-cols-6 gap-2 md:grid-cols-10 lg:grid-cols-10 2xl:grid-cols-16">
-      {filtered.map((name) => {
-        const isActive = selectedIcon === name
+    <div className="grid grid-cols-4 gap-2 md:grid-cols-6 lg:grid-cols-8 2xl:grid-cols-12">
+      {filtered.map(({ baseId }) => {
+        const isActive = selectedLogo === baseId
 
         return (
-          <Tooltip delayDuration={300} key={name}>
+          <Tooltip delayDuration={300} key={baseId}>
             <TooltipTrigger asChild>
               <button
                 type="button"
-                onClick={() =>
-                  onSelectIcon?.({
-                    name,
-                    variant,
-                  })
-                }
-                className={`hover:bg-muted flex aspect-square cursor-pointer items-center justify-center border p-4 transition ${isActive ? "border-primary transition duration-300" : ""} `}
+                onClick={() => onSelectLogo?.(baseId)}
+                className={`hover:bg-muted flex aspect-square cursor-pointer items-center justify-center border p-2 transition ${
+                  isActive ? "border-primary transition duration-300" : ""
+                }`}
               >
-                <Icon name={name} variant={variant} size={24} />
+                <Icons strokeWidth={1} name={baseId} size={30} />
               </button>
             </TooltipTrigger>
-
             <TooltipContent sideOffset={-10}>
-              <p className="text-xs">{name}</p>
+              <p className="text-xs">{baseId}</p>
             </TooltipContent>
           </Tooltip>
         )

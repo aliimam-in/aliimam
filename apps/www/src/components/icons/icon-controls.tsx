@@ -7,28 +7,25 @@ import { Input } from "@/registry/aliimam/ui/input"
 import { Label } from "@/registry/aliimam/ui/label"
 import { Slider } from "@/registry/aliimam/ui/slider"
 
-interface IconControlsPanelProps {
+interface LogoControlsPanelProps {
   size: number
-  strokeWidth?: number
   color: string
-  variant: "solid" | "stroke" | "pixel" | "glass"
+  strokeWidth: number
+  onstrokeWidthChange: (value: number) => void
   onSizeChange: (value: number) => void
-  onStrokeWidthChange?: (value: number) => void
   onColorChange: (value: string) => void
 }
 
 export function IconControlsPanel({
   size,
-  strokeWidth,
   color,
-  variant,
+  strokeWidth,
+  onstrokeWidthChange,
   onSizeChange,
-  onStrokeWidthChange,
   onColorChange,
-}: IconControlsPanelProps) {
+}: LogoControlsPanelProps) {
   return (
     <div className="space-y-6">
-       
       <div className="space-y-2">
         <Label>Size: {size}px</Label>
         <Slider
@@ -40,30 +37,26 @@ export function IconControlsPanel({
         />
       </div>
 
-      {(variant === "stroke" || variant === "pixel") &&
-        strokeWidth !== undefined &&
-        onStrokeWidthChange && (
-          <div className="space-y-2">
-            <Label>Stroke Width: {strokeWidth}</Label>
-            <Slider
-              min={0.5}
-              max={4}
-              step={0.1}
-              value={[strokeWidth]}
-              onValueChange={(v) => onStrokeWidthChange(v[0])}
-            />
-          </div>
-        )}
- 
+      <div className="space-y-2">
+        <Label>strokeWidth: {strokeWidth}</Label>
+        <Slider
+          min={0.1}
+          max={4}
+          step={0.1}
+          value={[strokeWidth]}
+          onValueChange={(v) => onstrokeWidthChange(v[0])}
+        />
+      </div>
+
       <div className="flex flex-wrap items-center gap-2">
         <input
           id="color"
           type="color"
-          value={color}
+          value={color === "currentColor" ? "#000000" : color}
           onChange={(e) => onColorChange(e.target.value)}
           className="absolute h-8 w-8 border p-3"
         />
-        <div className="h-8 w-8 border" style={{ backgroundColor: color }} />
+        <div className="h-8 w-8 border" style={{ backgroundColor: color === "currentColor" ? "#000000" : color }} />
         <Input
           type="text"
           value={color}
@@ -72,14 +65,12 @@ export function IconControlsPanel({
           placeholder="currentColor"
         />
         <Button
-          variant={"secondary"}
-          size={"icon"}
+          variant="secondary"
+          size="icon"
           onClick={() => {
             onSizeChange(64)
             onColorChange("currentColor")
-            if (onStrokeWidthChange) {
-              onStrokeWidthChange(2)
-            }
+            onstrokeWidthChange(1)
           }}
         >
           <RotateCw />
@@ -91,16 +82,14 @@ export function IconControlsPanel({
 
 export function IconViewControlsPanel({
   size,
-  strokeWidth,
   color,
-  variant,
+  strokeWidth,
+  onstrokeWidthChange,
   onSizeChange,
-  onStrokeWidthChange,
   onColorChange,
-}: IconControlsPanelProps) {
+}: LogoControlsPanelProps) {
   return (
     <div className="space-y-6">
-      {/* Size */}
       <div className="space-y-2">
         <Label>Size: {size}px</Label>
         <Slider
@@ -112,30 +101,26 @@ export function IconViewControlsPanel({
         />
       </div>
 
-      {(variant === "stroke" || variant === "pixel") &&
-        strokeWidth !== undefined &&
-        onStrokeWidthChange && (
-          <div className="space-y-2">
-            <Label>Stroke Width: {strokeWidth}</Label>
-            <Slider
-              min={0.5}
-              max={4}
-              step={0.1}
-              value={[strokeWidth]}
-              onValueChange={(v) => onStrokeWidthChange(v[0])}
-            />
-          </div>
-        )}
+      <div className="space-y-2">
+        <Label>strokeWidth: {strokeWidth}</Label>
+        <Slider
+          min={0.1}
+          max={4}
+          step={0.1}
+          value={[strokeWidth]}
+          onValueChange={(v) => onstrokeWidthChange(v[0])}
+        />
+      </div>
 
       <div className="flex flex-wrap items-center gap-2">
         <input
           id="color"
           type="color"
-          value={color}
+          value={color === "currentColor" ? "#000000" : color}
           onChange={(e) => onColorChange(e.target.value)}
           className="absolute h-8 w-8 border p-3"
         />
-        <div className="h-8 w-8 border" style={{ backgroundColor: color }} />
+        <div className="h-8 w-8 border" style={{ backgroundColor: color === "currentColor" ? "#000000" : color }} />
         <Input
           type="text"
           value={color}
@@ -144,14 +129,12 @@ export function IconViewControlsPanel({
           placeholder="currentColor"
         />
         <Button
-          variant={"secondary"}
-          size={"icon"}
+          variant="secondary"
+          size="icon"
           onClick={() => {
-            onSizeChange(64)
+            onSizeChange(200)
             onColorChange("currentColor")
-            if (onStrokeWidthChange) {
-              onStrokeWidthChange(2)
-            }
+            onstrokeWidthChange(1)
           }}
         >
           <RotateCw />

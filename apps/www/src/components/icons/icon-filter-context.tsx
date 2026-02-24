@@ -1,68 +1,32 @@
 "use client"
 
-import {
-  createContext,
-  useContext,
-  useState,
-} from "react"
+import { createContext, useContext, useState } from "react"
 
-type Variant = "stroke" | "solid" | "pixel"  | "glass"
-
-type IconFilterContextType = {
-  variant: Variant
-  setVariant: (v: Variant) => void
-
+type LogoFilterContext = {
   query: string
   setQuery: (q: string) => void
-
   category: string | null
   setCategory: (c: string | null) => void
-
-  tags: string[]
-  setTags: (t: string[]) => void
 }
 
-const IconFilterContext =
-  createContext<IconFilterContextType | null>(
-    null
-  )
+const LogoFilterContext = createContext<LogoFilterContext>({
+  query: "",
+  setQuery: () => {},
+  category: null,
+  setCategory: () => {},
+})
 
-export function IconFilterProvider({
-  children,
-}: {
-  children: React.ReactNode
-}) {
-  const [variant, setVariant] =
-    useState<Variant>("stroke")
-
+export function IconFilterProvider({ children }: { children: React.ReactNode }) {
   const [query, setQuery] = useState("")
-  const [category, setCategory] =
-    useState<string | null>(null)
-  const [tags, setTags] = useState<string[]>([])
+  const [category, setCategory] = useState<string | null>(null)
 
   return (
-    <IconFilterContext.Provider
-      value={{
-        variant,
-        setVariant,
-        query,
-        setQuery,
-        category,
-        setCategory,
-        tags,
-        setTags,
-      }}
-    >
+    <LogoFilterContext.Provider value={{ query, setQuery, category, setCategory }}>
       {children}
-    </IconFilterContext.Provider>
+    </LogoFilterContext.Provider>
   )
 }
 
-export function useIconFilter() {
-  const ctx = useContext(IconFilterContext)
-  if (!ctx)
-    throw new Error(
-      "useIconFilter must be used inside IconFilterProvider"
-    )
-  return ctx
+export function useLogoFilter() {
+  return useContext(LogoFilterContext)
 }

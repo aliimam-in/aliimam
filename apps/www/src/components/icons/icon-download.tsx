@@ -1,7 +1,8 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client"
 
 import { useState } from "react"
-import { glassIcons, pixelIcons, solidIcons, strokeIcons } from "@/src/lib/icons"
+import { allLogos } from "../../../../../packages/icons/src/generated"
 import { Check, ChevronDownIcon, Copy, Download } from "lucide-react"
 import { toast } from "sonner"
 
@@ -13,180 +14,145 @@ import {
   DropdownMenuTrigger,
 } from "@/registry/aliimam/ui/dropdown-menu"
 
-interface IconDownloadPanelProps {
-  iconName: string
-  variant: "solid" | "stroke"  | "pixel" | "glass"
+interface LogoDownloadPanelProps {
+  logoName: string
   size: number
   color: string
-  strokeWidth?: number
 }
 
-export function IconDownloadPanel({
-  iconName,
-  variant,
-  size,
-  color,
-  strokeWidth,
-}: IconDownloadPanelProps) {
-  const iconSet =
-        variant === "solid"
-          ? solidIcons
-          : variant === "stroke"
-            ? strokeIcons
-            : variant === "pixel"
-              ? pixelIcons
-              : glassIcons
-              
-  const icon = iconSet[iconName]
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+function getSvgString(logoName: string, size: number, color: string): string | null {
+  for (const logos of Object.values(allLogos)) {
+    const entry = Object.values(logos).find(
+      (e: any) => e.metadata.baseId === logoName && e.metadata.variant === "default"
+    ) as any
+    if (entry) {
+      // DOM se SVG string nikalo
+      const el = document.getElementById("preview-svg")
+      if (el) {
+        const clone = el.cloneNode(true) as SVGElement
+        clone.setAttribute("width", String(size))
+        clone.setAttribute("height", String(size))
+        return new XMLSerializer().serializeToString(clone)
+      }
+    }
+  }
+  return null
+}
+
+function toPascalCase(name: string) {
+  return name
+    .split("-")
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join("") + "Logo"
+}
+
+export function IconDownloadPanel({ logoName, size, color }: LogoDownloadPanelProps) {
   const [copiedFormat, setCopiedFormat] = useState<string | null>(null)
 
-  if (!icon) return null
-
-  const generateSVG = () => {
-    const cleanedBody = icon.body
-      .replace(/stroke=".*?"/g, "")
-      .replace(/fill=".*?"/g, "")
-      .replace(/stroke-width=".*?"/g, "")
-
-    return `<svg 
-      width="${size}" 
-      height="${size}" 
-      viewBox="0 0 24 24" 
-      fill="${variant === "solid" ? color : "none"}" 
-      stroke="${variant === "stroke" ? color : "none"}" 
-      stroke-width="${variant === "stroke" ? (strokeWidth ?? 2) : 0}" 
-      stroke-linecap="round" 
-      stroke-linejoin="round"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      ${cleanedBody}
-    </svg>`
-  }
-
   const download = (format: "svg" | "png" | "jpg") => {
-    const svgString = generateSVG()
+    const svgString = getSvgString(logoName, size, color)
+    if (!svgString) return
 
     if (format === "svg") {
       const blob = new Blob([svgString], { type: "image/svg+xml" })
       const url = URL.createObjectURL(blob)
       const a = document.createElement("a")
       a.href = url
-      a.download = `${iconName}.svg`
+      a.download = `${logoName}.svg`
       a.click()
       URL.revokeObjectURL(url)
-      toast(`${iconName}.svg downloaded!`)
-    } else {
-      // Convert SVG to Canvas for PNG/JPG
-      const canvas = document.createElement("canvas")
-      const ctx = canvas.getContext("2d")
-      if (!ctx) return
-
-      canvas.width = size
-      canvas.height = size
-
-      if (format === "jpg") {
-        ctx.fillStyle = "#ffffff"
-        ctx.fillRect(0, 0, size, size)
-      }
-
-      const img = new Image()
-      const blob = new Blob([svgString], {
-        type: "image/svg+xml;charset=utf-8",
-      })
-      const url = URL.createObjectURL(blob)
-      img.onload = () => {
-        ctx.drawImage(img, 0, 0, size, size)
-        canvas.toBlob(
-          (blob) => {
-            if (!blob) return
-            const downloadUrl = URL.createObjectURL(blob)
-            const a = document.createElement("a")
-            a.href = downloadUrl
-            a.download = `${iconName}.${format}`
-            a.click()
-            URL.revokeObjectURL(downloadUrl)
-            toast(`${iconName}.${format} downloaded!`)
-          },
-          format === "png" ? "image/png" : "image/jpeg",
-          1.0
-        )
-        URL.revokeObjectURL(url)
-      }
-      img.src = url
+      toast(`${logoName}.svg downloaded!`)
+      return
     }
+
+    const canvas = document.createElement("canvas")
+    const ctx = canvas.getContext("2d")
+    if (!ctx) return
+    canvas.width = size
+    canvas.height = size
+
+    if (format === "jpg") {
+      ctx.fillStyle = "#ffffff"
+      ctx.fillRect(0, 0, size, size)
+    }
+
+    const img = new Image()
+    const blob = new Blob([svgString], { type: "image/svg+xml;charset=utf-8" })
+    const url = URL.createObjectURL(blob)
+    img.onload = () => {
+      ctx.drawImage(img, 0, 0, size, size)
+      canvas.toBlob(
+        (blob) => {
+          if (!blob) return
+          const downloadUrl = URL.createObjectURL(blob)
+          const a = document.createElement("a")
+          a.href = downloadUrl
+          a.download = `${logoName}.${format}`
+          a.click()
+          URL.revokeObjectURL(downloadUrl)
+          toast(`${logoName}.${format} downloaded!`)
+        },
+        format === "png" ? "image/png" : "image/jpeg",
+        1.0
+      )
+      URL.revokeObjectURL(url)
+    }
+    img.src = url
   }
 
-  const copy = async (format: "svg" | "png" | "jpg" | "name") => {
+  const copy = async (format: "svg" | "png" | "name") => {
     if (format === "name") {
-      await navigator.clipboard.writeText(iconName)
+      const pascalName = toPascalCase(logoName)
+      await navigator.clipboard.writeText(pascalName)
       setCopiedFormat("name")
-      toast(`${iconName} copied!`)
+      toast(`${pascalName} copied!`)
       setTimeout(() => setCopiedFormat(null), 1500)
       return
     }
 
-    // Otherwise copy SVG/PNG as before
-    const svgString = generateSVG()
+    const svgString = getSvgString(logoName, size, color)
+    if (!svgString) return
 
     if (format === "svg") {
       await navigator.clipboard.writeText(svgString)
       setCopiedFormat("svg")
-      toast(`${iconName}.svg copied!`)
-    } else {
-      // PNG/JPG copy
-      const canvas = document.createElement("canvas")
-      const ctx = canvas.getContext("2d")
-      if (!ctx) return
-
-      canvas.width = size
-      canvas.height = size
-
-      if (format === "jpg") {
-        ctx.fillStyle = "#ffffff"
-        ctx.fillRect(0, 0, size, size)
-      }
-
-      const img = new Image()
-      const blob = new Blob([svgString], {
-        type: "image/svg+xml;charset=utf-8",
-      })
-      const url = URL.createObjectURL(blob)
-      img.onload = async () => {
-        ctx.drawImage(img, 0, 0, size, size)
-        canvas.toBlob(
-          async (blob) => {
-            if (!blob) return
-            try {
-              await navigator.clipboard.write([
-                new ClipboardItem({ [blob.type]: blob }),
-              ])
-              setCopiedFormat(format)
-              toast(`${iconName}.${format} copied!`)
-            } catch (err) {
-              console.error(`Failed to copy ${format}:`, err)
-            }
-            setTimeout(() => setCopiedFormat(null), 2000)
-          },
-          format === "png" ? "image/png" : "image/jpeg"
-        )
-        URL.revokeObjectURL(url)
-      }
-      img.src = url
+      toast(`${logoName}.svg copied!`)
+      setTimeout(() => setCopiedFormat(null), 1500)
+      return
     }
-  }
 
-  // Converts "a-arrow-up" → "AArrowUp"
-  function toPascalCase(name: string) {
-    return name
-      .split("-")
-      .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-      .join("")
+    // PNG copy
+    const canvas = document.createElement("canvas")
+    const ctx = canvas.getContext("2d")
+    if (!ctx) return
+    canvas.width = size
+    canvas.height = size
+
+    const img = new Image()
+    const blob = new Blob([svgString], { type: "image/svg+xml;charset=utf-8" })
+    const url = URL.createObjectURL(blob)
+    img.onload = async () => {
+      ctx.drawImage(img, 0, 0, size, size)
+      canvas.toBlob(async (blob) => {
+        if (!blob) return
+        try {
+          await navigator.clipboard.write([new ClipboardItem({ [blob.type]: blob })])
+          setCopiedFormat("png")
+          toast(`${logoName}.png copied!`)
+        } catch (err) {
+          console.error("Failed to copy PNG:", err)
+        }
+        setTimeout(() => setCopiedFormat(null), 2000)
+      }, "image/png")
+      URL.revokeObjectURL(url)
+    }
+    img.src = url
   }
 
   return (
     <div className="space-y-2 pt-4">
       <div className="flex w-full flex-wrap gap-2 md:gap-0">
-         
         <div className="divide-primary-background/30 flex flex-1 divide-x">
           <Button
             variant="outline"
@@ -208,23 +174,17 @@ export function IconDownloadPanel({
             </DropdownMenuTrigger>
             <DropdownMenuContent align="end" side="bottom">
               <DropdownMenuItem onClick={() => copy("svg")}>
-                SVG{" "}
-                {copiedFormat === "svg" && <Check className="ml-2 h-4 w-4" />}
+                SVG {copiedFormat === "svg" && <Check className="ml-2 h-4 w-4" />}
               </DropdownMenuItem>
               <DropdownMenuItem onClick={() => copy("png")}>
-                PNG{" "}
-                {copiedFormat === "png" && <Check className="ml-2 h-4 w-4" />}
+                PNG {copiedFormat === "png" && <Check className="ml-2 h-4 w-4" />}
               </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
         </div>
 
-         
-        <div className="divide-primary-foreground/30 pl-2 flex flex-1 divide-x">
-          <Button
-            onClick={() => download("svg")}
-            className="flex-1 justify-center"
-          >
+        <div className="divide-primary-foreground/30 flex flex-1 divide-x pl-2">
+          <Button onClick={() => download("svg")} className="flex-1 justify-center">
             <Download className="mr-1 opacity-60" size={16} />
             Download
           </Button>
@@ -235,15 +195,9 @@ export function IconDownloadPanel({
               </Button>
             </DropdownMenuTrigger>
             <DropdownMenuContent align="end" side="bottom">
-              <DropdownMenuItem onClick={() => download("svg")}>
-                SVG
-              </DropdownMenuItem>
-              <DropdownMenuItem onClick={() => download("png")}>
-                PNG
-              </DropdownMenuItem>
-              <DropdownMenuItem onClick={() => download("jpg")}>
-                JPG
-              </DropdownMenuItem>
+              <DropdownMenuItem onClick={() => download("svg")}>SVG</DropdownMenuItem>
+              <DropdownMenuItem onClick={() => download("png")}>PNG</DropdownMenuItem>
+              <DropdownMenuItem onClick={() => download("jpg")}>JPG</DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
         </div>
@@ -251,13 +205,7 @@ export function IconDownloadPanel({
 
       <Button
         variant="outline"
-        onClick={() => {
-          const pascalName = toPascalCase(iconName)
-          navigator.clipboard.writeText(pascalName)
-          setCopiedFormat("name")
-          toast(`${pascalName} copied!`)
-          setTimeout(() => setCopiedFormat(null), 1500)
-        }}
+        onClick={() => copy("name")}
         className="w-full"
       >
         {copiedFormat === "name" ? (

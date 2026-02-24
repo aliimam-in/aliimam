@@ -1,32 +1,49 @@
-"use client"
+import { Metadata } from "next"
+import {
+  PageHeader,
+  PageHeaderDescription,
+  PageHeaderHeading,
+} from "@/src/components/layout/page-header"
 
-import { allLogos } from "../../../../../../../packages/test/src/generated"
+const title = "Vector"
+const description = "Coming Soon!"
 
-export default function LogosPage() {
+export const dynamic = "force-static"
+export const revalidate = false
+
+export const metadata: Metadata = {
+  title,
+  description,
+  openGraph: {
+    images: [
+      {
+        url: `/og?title=${encodeURIComponent(
+          title
+        )}&description=${encodeURIComponent(description)}`,
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    images: [
+      {
+        url: `/og?title=${encodeURIComponent(
+          title
+        )}&description=${encodeURIComponent(description)}`,
+      },
+    ],
+  },
+}
+
+export default function IndexPage() {
   return (
-    <div>
-      {Object.entries(allLogos).map(([category, logos]) => (
-        <div key={category}>
-          <h2>{category}</h2>
-          <div
-            style={{
-              display: "grid",
-              gridTemplateColumns: "repeat(auto-fill, minmax(120px, 1fr))",
-              gap: 16,
-            }}
-          >
-            {Object.entries(logos).map(([, { Component, metadata }]) => (
-              <div
-                key={metadata.id}
-                style={{ textAlign: "center", padding: 16 }}
-              >
-                <Component size={48} />
-                <p>{metadata.name}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      ))}
+    <div className="flex flex-1 flex-col">
+      <div className="relative flex h-screen items-center justify-center overflow-hidden">
+        <PageHeader className="relative z-10">
+          <PageHeaderHeading>{title}</PageHeaderHeading>
+          <PageHeaderDescription>{description}</PageHeaderDescription>
+        </PageHeader>
+      </div>
     </div>
   )
 }

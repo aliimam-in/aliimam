@@ -1,0 +1,1888 @@
+/**
+ * Auto-generated main index for all logos
+ * Do not edit manually
+ */
+
+import { BeaconLogoLogo, BeaconLogoLogoMetadata } from './mix/Beacon-Logo';
+import { D3Logo, D3LogoMetadata } from './mix/D3';
+import { FlowLauncherLogo, FlowLauncherLogoMetadata } from './mix/FlowLauncher';
+import { GoogleColaboratory, GoogleColaboratoryMetadata } from './mix/Google_Colaboratory';
+import { AdobeXdLogo, AdobeXdLogoMetadata } from './mix/adobe-xd';
+import { AdobeLogo, AdobeLogoMetadata } from './mix/adobe';
+import { AffinityDesignerLogo, AffinityDesignerLogoMetadata } from './mix/affinity-designer';
+import { AffinityPhotoLogo, AffinityPhotoLogoMetadata } from './mix/affinity-photo';
+import { AffinityPublisherLogo, AffinityPublisherLogoMetadata } from './mix/affinity-publisher';
+import { AfordinLogo, AfordinLogoMetadata } from './mix/afordin';
+import { AfordinDark, AfordinDarkMetadata } from './mix/afordin_dark';
+import { AfterEffectsLogo, AfterEffectsLogoMetadata } from './mix/after-effects';
+import { AhooksWordmarkDarkLogo, AhooksWordmarkDarkLogoMetadata } from './mix/ahooks-wordmark-dark';
+import { AhooksWordmarkLightLogo, AhooksWordmarkLightLogoMetadata } from './mix/ahooks-wordmark-light';
+import { AhooksLogo, AhooksLogoMetadata } from './mix/ahooks';
+import { AhrefsWordmarkDarkLogo, AhrefsWordmarkDarkLogoMetadata } from './mix/ahrefs-wordmark-dark';
+import { AhrefsWordmarkLightLogo, AhrefsWordmarkLightLogoMetadata } from './mix/ahrefs-wordmark-light';
+import { AhrefsLogo, AhrefsLogoMetadata } from './mix/ahrefs';
+import { AirbnbWordmarkLogo, AirbnbWordmarkLogoMetadata } from './mix/airbnb-wordmark';
+import { AirbnbLogo, AirbnbLogoMetadata } from './mix/airbnb';
+import { AlgoliaLogo, AlgoliaLogoMetadata } from './mix/algolia';
+import { AliexpressIconLogo, AliexpressIconLogoMetadata } from './mix/aliexpress-icon';
+import { AliexpressLogoLogo, AliexpressLogoLogoMetadata } from './mix/aliexpress-logo';
+import { AmazonQLogo, AmazonQLogoMetadata } from './mix/amazon-q';
+import { AmpLogo, AmpLogoMetadata } from './mix/amp';
+import { AndroidIconLogo, AndroidIconLogoMetadata } from './mix/android-icon';
+import { AngularLogo, AngularLogoMetadata } from './mix/angular';
+import { AnimateLogo, AnimateLogoMetadata } from './mix/animate';
+import { AntDesignDarkThemeLogo, AntDesignDarkThemeLogoMetadata } from './mix/ant-design-dark-theme';
+import { AnthropicBlack, AnthropicBlackMetadata } from './mix/anthropic_black';
+import { AnthropicBlackWordmark, AnthropicBlackWordmarkMetadata } from './mix/anthropic_black_wordmark';
+import { AnthropicWhite, AnthropicWhiteMetadata } from './mix/anthropic_white';
+import { AnthropicWhiteWordmark, AnthropicWhiteWordmarkMetadata } from './mix/anthropic_white_wordmark';
+import { AntigravityWordmarkLogo, AntigravityWordmarkLogoMetadata } from './mix/antigravity-wordmark';
+import { AntigravityLogo, AntigravityLogoMetadata } from './mix/antigravity';
+import { ApacheKafkaDarkLogo, ApacheKafkaDarkLogoMetadata } from './mix/apache-kafka-dark';
+import { ApacheKafkaLightLogo, ApacheKafkaLightLogoMetadata } from './mix/apache-kafka-light';
+import { ApacheKafkaWordmarkDarkLogo, ApacheKafkaWordmarkDarkLogoMetadata } from './mix/apache-kafka-wordmark-dark';
+import { ApacheKafkaWordmarkLightLogo, ApacheKafkaWordmarkLightLogoMetadata } from './mix/apache-kafka-wordmark-light';
+import { ApidogLogo, ApidogLogoMetadata } from './mix/apidog';
+import { ApolloIoLogo, ApolloIoLogoMetadata } from './mix/apollo-io';
+import { AppleMusicIconLogo, AppleMusicIconLogoMetadata } from './mix/apple-music-icon';
+import { AppleMusicWordmarkDarkLogo, AppleMusicWordmarkDarkLogoMetadata } from './mix/apple-music-wordmark-dark';
+import { AppleMusicWordmarkLightLogo, AppleMusicWordmarkLightLogoMetadata } from './mix/apple-music-wordmark-light';
+import { AppleLogo, AppleLogoMetadata } from './mix/apple';
+import { AppleDark, AppleDarkMetadata } from './mix/apple_dark';
+import { AppstoreLogo, AppstoreLogoMetadata } from './mix/appstore';
+import { AppwriteLogo, AppwriteLogoMetadata } from './mix/appwrite';
+import { ArcLogo, ArcLogoMetadata } from './mix/arc';
+import { ArcBrowser, ArcBrowserMetadata } from './mix/arc_browser';
+import { ArcDark, ArcDarkMetadata } from './mix/arc_dark';
+import { ArcFintechDark, ArcFintechDarkMetadata } from './mix/arc_fintech_dark';
+import { ArcFintechLight, ArcFintechLightMetadata } from './mix/arc_fintech_light';
+import { ArkUiLogo, ArkUiLogoMetadata } from './mix/ark-ui';
+import { AsanaLogoLogo, AsanaLogoLogoMetadata } from './mix/asana-logo';
+import { AsanaWordmarkDarkLogo, AsanaWordmarkDarkLogoMetadata } from './mix/asana-wordmark-dark';
+import { AsanaWordmarkLightLogo, AsanaWordmarkLightLogoMetadata } from './mix/asana-wordmark-light';
+import { AstroIconDarkLogo, AstroIconDarkLogoMetadata } from './mix/astro-icon-dark';
+import { AstroIconLightLogo, AstroIconLightLogoMetadata } from './mix/astro-icon-light';
+import { AstroWordmarkDarkLogo, AstroWordmarkDarkLogoMetadata } from './mix/astro-wordmark-dark';
+import { AstroWordmarkLightLogo, AstroWordmarkLightLogoMetadata } from './mix/astro-wordmark-light';
+import { AtlassianLogo, AtlassianLogoMetadata } from './mix/atlassian';
+import { AtomLogo, AtomLogoMetadata } from './mix/atom';
+import { Auth0Logo, Auth0LogoMetadata } from './mix/auth0';
+import { AuthjsLogo, AuthjsLogoMetadata } from './mix/authjs';
+import { AuthyLogo, AuthyLogoMetadata } from './mix/authy';
+import { AwsDark, AwsDarkMetadata } from './mix/aws_dark';
+import { AwsLight, AwsLightMetadata } from './mix/aws_light';
+import { AxiomDarkLogo, AxiomDarkLogoMetadata } from './mix/axiom-dark';
+import { AxiomLightLogo, AxiomLightLogoMetadata } from './mix/axiom-light';
+import { AxiomWordmarkDarkLogo, AxiomWordmarkDarkLogoMetadata } from './mix/axiom-wordmark-dark';
+import { AxiomWordmarkLightLogo, AxiomWordmarkLightLogoMetadata } from './mix/axiom-wordmark-light';
+import { AxureLogo, AxureLogoMetadata } from './mix/axure';
+import { AzureLogo, AzureLogoMetadata } from './mix/azure';
+import { BabelLogo, BabelLogoMetadata } from './mix/babel';
+import { BaseUiDarkLogo, BaseUiDarkLogoMetadata } from './mix/base-ui-dark';
+import { BaseUiLogo, BaseUiLogoMetadata } from './mix/base-ui';
+import { BasewellLogo, BasewellLogoMetadata } from './mix/basewell';
+import { BashLogo, BashLogoMetadata } from './mix/bash';
+import { BashDark, BashDarkMetadata } from './mix/bash_dark';
+import { BentoLogo, BentoLogoMetadata } from './mix/bento';
+import { BetterAuthDark, BetterAuthDarkMetadata } from './mix/better-auth_dark';
+import { BetterAuthLight, BetterAuthLightMetadata } from './mix/better-auth_light';
+import { BetterAuthWordmarkDark, BetterAuthWordmarkDarkMetadata } from './mix/better-auth_wordmark_dark';
+import { BetterAuthWordmarkLight, BetterAuthWordmarkLightMetadata } from './mix/better-auth_wordmark_light';
+import { BinanceLogo, BinanceLogoMetadata } from './mix/binance';
+import { BingLogo, BingLogoMetadata } from './mix/bing';
+import { BiomejsLogo, BiomejsLogoMetadata } from './mix/biomejs';
+import { BitwardenLogo, BitwardenLogoMetadata } from './mix/bitwarden';
+import { BklitDarkLogo, BklitDarkLogoMetadata } from './mix/bklit-dark';
+import { BklitLightLogo, BklitLightLogoMetadata } from './mix/bklit-light';
+import { BlenderLogo, BlenderLogoMetadata } from './mix/blender';
+import { BlitzjsLogo, BlitzjsLogoMetadata } from './mix/blitzjs';
+import { BlueskyLogo, BlueskyLogoMetadata } from './mix/bluesky';
+import { BmcLogo, BmcLogoMetadata } from './mix/bmc';
+import { BnbLogo, BnbLogoMetadata } from './mix/bnb';
+import { BoltNewLogo, BoltNewLogoMetadata } from './mix/bolt-new';
+import { BoltNewDark, BoltNewDarkMetadata } from './mix/bolt-new_dark';
+import { BootstrapLogo, BootstrapLogoMetadata } from './mix/bootstrap';
+import { BraveLogo, BraveLogoMetadata } from './mix/brave';
+import { BtcLogo, BtcLogoMetadata } from './mix/btc';
+import { BuilderLogo, BuilderLogoMetadata } from './mix/builder';
+import { BuildshipLogo, BuildshipLogoMetadata } from './mix/buildship';
+import { BunLogo, BunLogoMetadata } from './mix/bun';
+import { CPlusplusLogo, CPlusplusLogoMetadata } from './mix/c-plusplus';
+import { CLogo, CLogoMetadata } from './mix/c';
+import { CPOrange, CPOrangeMetadata } from './mix/cP_orange';
+import { CPanelOrangeWordmark, CPanelOrangeWordmarkMetadata } from './mix/cPanel_orange_wordmark';
+import { CalLogo, CalLogoMetadata } from './mix/cal';
+import { CalDark, CalDarkMetadata } from './mix/cal_dark';
+import { CalendlyLogo, CalendlyLogoMetadata } from './mix/calendly';
+import { CanvaLogo, CanvaLogoMetadata } from './mix/canva';
+import { CarrdLogo, CarrdLogoMetadata } from './mix/carrd';
+import { ChakraUiLogo, ChakraUiLogoMetadata } from './mix/chakra-ui';
+import { ChartjsLogo, ChartjsLogoMetadata } from './mix/chartjs';
+import { ChromeLogo, ChromeLogoMetadata } from './mix/chrome';
+import { ChromiumLogo, ChromiumLogoMetadata } from './mix/chromium';
+import { CiscoDark, CiscoDarkMetadata } from './mix/cisco_dark';
+import { CiscoLight, CiscoLightMetadata } from './mix/cisco_light';
+import { ClaudeAiIconLogo, ClaudeAiIconLogoMetadata } from './mix/claude-ai-icon';
+import { ClaudeAiWordmarkIconDark, ClaudeAiWordmarkIconDarkMetadata } from './mix/claude-ai-wordmark-icon_dark';
+import { ClaudeAiWordmarkIconLight, ClaudeAiWordmarkIconLightMetadata } from './mix/claude-ai-wordmark-icon_light';
+import { ClerkIconDarkLogo, ClerkIconDarkLogoMetadata } from './mix/clerk-icon-dark';
+import { ClerkIconLightLogo, ClerkIconLightLogoMetadata } from './mix/clerk-icon-light';
+import { ClerkWordmarkDarkLogo, ClerkWordmarkDarkLogoMetadata } from './mix/clerk-wordmark-dark';
+import { ClerkWordmarkLightLogo, ClerkWordmarkLightLogoMetadata } from './mix/clerk-wordmark-light';
+import { CloudflareWorkersLogo, CloudflareWorkersLogoMetadata } from './mix/cloudflare-workers';
+import { CloudflareLogo, CloudflareLogoMetadata } from './mix/cloudflare';
+import { CloudinaryLogo, CloudinaryLogoMetadata } from './mix/cloudinary';
+import { CobolLogo, CobolLogoMetadata } from './mix/cobol';
+import { CodesandboxSquareLogo, CodesandboxSquareLogoMetadata } from './mix/codesandbox-square';
+import { CodiumLogo, CodiumLogoMetadata } from './mix/codium';
+import { CodyLogo, CodyLogoMetadata } from './mix/cody';
+import { CohereLogo, CohereLogoMetadata } from './mix/cohere';
+import { CohereWordmark, CohereWordmarkMetadata } from './mix/cohere_wordmark';
+import { CoinbaseWordmarkDarkLogo, CoinbaseWordmarkDarkLogoMetadata } from './mix/coinbase-wordmark-dark';
+import { CoinbaseWordmarkLightLogo, CoinbaseWordmarkLightLogoMetadata } from './mix/coinbase-wordmark-light';
+import { CoinbaseLogo, CoinbaseLogoMetadata } from './mix/coinbase';
+import { ConvexLogo, ConvexLogoMetadata } from './mix/convex';
+import { ConvexWordmarkDark, ConvexWordmarkDarkMetadata } from './mix/convex_wordmark_dark';
+import { ConvexWordmarkLight, ConvexWordmarkLightMetadata } from './mix/convex_wordmark_light';
+import { CopilotLogo, CopilotLogoMetadata } from './mix/copilot';
+import { CopilotDark, CopilotDarkMetadata } from './mix/copilot_dark';
+import { CourseraLogo, CourseraLogoMetadata } from './mix/coursera';
+import { CrossplaneLogo, CrossplaneLogoMetadata } from './mix/crossplane';
+import { CsharpLogo, CsharpLogoMetadata } from './mix/csharp';
+import { CssLogo, CssLogoMetadata } from './mix/css';
+import { CssOld, CssOldMetadata } from './mix/css_old';
+import { CurseforgeDarkLogo, CurseforgeDarkLogoMetadata } from './mix/curseforge-dark';
+import { CurseforgeWordmarkDarkLogo, CurseforgeWordmarkDarkLogoMetadata } from './mix/curseforge-wordmark-dark';
+import { CurseforgeWordmarkLogo, CurseforgeWordmarkLogoMetadata } from './mix/curseforge-wordmark';
+import { CurseforgeLogo, CurseforgeLogoMetadata } from './mix/curseforge';
+import { CursorDark, CursorDarkMetadata } from './mix/cursor_dark';
+import { CursorLight, CursorLightMetadata } from './mix/cursor_light';
+import { CursorWordmarkDark, CursorWordmarkDarkMetadata } from './mix/cursor_wordmark_dark';
+import { CursorWordmarkLight, CursorWordmarkLightMetadata } from './mix/cursor_wordmark_light';
+import { CypressLogo, CypressLogoMetadata } from './mix/cypress';
+import { DailyDevDarkLogo, DailyDevDarkLogoMetadata } from './mix/daily-dev-dark';
+import { DailyDevLigthLogo, DailyDevLigthLogoMetadata } from './mix/daily-dev-ligth';
+import { DaisyuiLogo, DaisyuiLogoMetadata } from './mix/daisyui';
+import { DartLogo, DartLogoMetadata } from './mix/dart';
+import { DatadogLogo, DatadogLogoMetadata } from './mix/datadog';
+import { DeepseekLogo, DeepseekLogoMetadata } from './mix/deepseek';
+import { DeepseekWordmark, DeepseekWordmarkMetadata } from './mix/deepseek_wordmark';
+import { DenoLogo, DenoLogoMetadata } from './mix/deno';
+import { DenoDark, DenoDarkMetadata } from './mix/deno_dark';
+import { DenoWordmark, DenoWordmarkMetadata } from './mix/deno_wordmark';
+import { DenoWordmarkDark, DenoWordmarkDarkMetadata } from './mix/deno_wordmark_dark';
+import { DesignaliLogo, DesignaliLogoMetadata } from './mix/designali';
+import { DevtoDarkLogo, DevtoDarkLogoMetadata } from './mix/devto-dark';
+import { DevtoLightLogo, DevtoLightLogoMetadata } from './mix/devto-light';
+import { DigitaloceanLogo, DigitaloceanLogoMetadata } from './mix/digitalocean';
+import { DingocoinLogo, DingocoinLogoMetadata } from './mix/dingocoin';
+import { DirectusLogo, DirectusLogoMetadata } from './mix/directus';
+import { DiscordLogo, DiscordLogoMetadata } from './mix/discord';
+import { DiscourseLogo, DiscourseLogoMetadata } from './mix/discourse';
+import { DisneyplusLogo, DisneyplusLogoMetadata } from './mix/disneyplus';
+import { DjangoLogo, DjangoLogoMetadata } from './mix/django';
+import { DjsLogo, DjsLogoMetadata } from './mix/djs';
+import { DockerLogo, DockerLogoMetadata } from './mix/docker';
+import { DocumensoLogo, DocumensoLogoMetadata } from './mix/documenso';
+import { DocumensoDark, DocumensoDarkMetadata } from './mix/documenso_dark';
+import { DocusDarkLogo, DocusDarkLogoMetadata } from './mix/docus-dark';
+import { DocusLightLogo, DocusLightLogoMetadata } from './mix/docus-light';
+import { DocusWordmarkDarkLogo, DocusWordmarkDarkLogoMetadata } from './mix/docus-wordmark-dark';
+import { DocusWordmarkLightLogo, DocusWordmarkLightLogoMetadata } from './mix/docus-wordmark-light';
+import { DocusaurusLogo, DocusaurusLogoMetadata } from './mix/docusaurus';
+import { DodoPaymentsWordmarkDarkLogo, DodoPaymentsWordmarkDarkLogoMetadata } from './mix/dodo-payments-wordmark-dark';
+import { DodoPaymentsWordmarkLightLogo, DodoPaymentsWordmarkLightLogoMetadata } from './mix/dodo-payments-wordmark-light';
+import { DodoPaymentsLogo, DodoPaymentsLogoMetadata } from './mix/dodo-payments';
+import { DogeLogo, DogeLogoMetadata } from './mix/doge';
+import { DotenvLogo, DotenvLogoMetadata } from './mix/dotenv';
+import { DotenvxLogo, DotenvxLogoMetadata } from './mix/dotenvx';
+import { DotnetLogo, DotnetLogoMetadata } from './mix/dotnet';
+import { DribbbleWordmarkDarkLogo, DribbbleWordmarkDarkLogoMetadata } from './mix/dribbble-wordmark-dark';
+import { DribbbleWordmarkLightLogo, DribbbleWordmarkLightLogoMetadata } from './mix/dribbble-wordmark-light';
+import { DribbbleLogo, DribbbleLogoMetadata } from './mix/dribbble';
+import { DriveLogo, DriveLogoMetadata } from './mix/drive';
+import { DrizzleOrmDark, DrizzleOrmDarkMetadata } from './mix/drizzle-orm_dark';
+import { DrizzleOrmLight, DrizzleOrmLightMetadata } from './mix/drizzle-orm_light';
+import { DropboxLogo, DropboxLogoMetadata } from './mix/dropbox';
+import { DropboxWordmark, DropboxWordmarkMetadata } from './mix/dropbox_wordmark';
+import { DropboxWordmarkDark, DropboxWordmarkDarkMetadata } from './mix/dropbox_wordmark_dark';
+import { DubLogo, DubLogoMetadata } from './mix/dub';
+import { DubDarkLogo, DubDarkLogoMetadata } from './mix/dub_dark_logo';
+import { DubDarkWordmark, DubDarkWordmarkMetadata } from './mix/dub_dark_wordmark';
+import { DubLightWordmark, DubLightWordmarkMetadata } from './mix/dub_light_wordmark';
+import { DuckduckgoWordmarkLogo, DuckduckgoWordmarkLogoMetadata } from './mix/duckduckgo-wordmark';
+import { DuckduckgoLogo, DuckduckgoLogoMetadata } from './mix/duckduckgo';
+import { DwLogo, DwLogoMetadata } from './mix/dw';
+import { EbayLogo, EbayLogoMetadata } from './mix/ebay';
+import { EclipseLogo, EclipseLogoMetadata } from './mix/eclipse';
+import { EdgeLogo, EdgeLogoMetadata } from './mix/edge';
+import { EffectDark, EffectDarkMetadata } from './mix/effect_dark';
+import { EffectLight, EffectLightMetadata } from './mix/effect_light';
+import { ElectronLogo, ElectronLogoMetadata } from './mix/electron';
+import { ElementorLogo, ElementorLogoMetadata } from './mix/elementor';
+import { ElysiajsLogo, ElysiajsLogoMetadata } from './mix/elysiajs';
+import { EmacsLogo, EmacsLogoMetadata } from './mix/emacs';
+import { EmberLogo, EmberLogoMetadata } from './mix/ember';
+import { EpicgamesIconDarkLogo, EpicgamesIconDarkLogoMetadata } from './mix/epicgames-icon-dark';
+import { EpicgamesIconLightLogo, EpicgamesIconLightLogoMetadata } from './mix/epicgames-icon-light';
+import { EsbuildLogo, EsbuildLogoMetadata } from './mix/esbuild';
+import { EslintIconDarkLogo, EslintIconDarkLogoMetadata } from './mix/eslint-icon-dark';
+import { EslintIconLightLogo, EslintIconLightLogoMetadata } from './mix/eslint-icon-light';
+import { EslintWordmarkDarkLogo, EslintWordmarkDarkLogoMetadata } from './mix/eslint-wordmark-dark';
+import { EslintWordmarkLightLogo, EslintWordmarkLightLogoMetadata } from './mix/eslint-wordmark-light';
+import { EthLogo, EthLogoMetadata } from './mix/eth';
+import { ExomeLogo, ExomeLogoMetadata } from './mix/exome';
+import { ExpoLogo, ExpoLogoMetadata } from './mix/expo';
+import { ExpressjsLogo, ExpressjsLogoMetadata } from './mix/expressjs';
+import { ExpressjsDark, ExpressjsDarkMetadata } from './mix/expressjs_dark';
+import { FacebookIconLogo, FacebookIconLogoMetadata } from './mix/facebook-icon';
+import { FacebookWordmarkLogo, FacebookWordmarkLogoMetadata } from './mix/facebook-wordmark';
+import { FastapiLogo, FastapiLogoMetadata } from './mix/fastapi';
+import { FastifyLogo, FastifyLogoMetadata } from './mix/fastify';
+import { FastifyDark, FastifyDarkMetadata } from './mix/fastify_dark';
+import { FigmaLogo, FigmaLogoMetadata } from './mix/figma';
+import { FirebaseStudioLogo, FirebaseStudioLogoMetadata } from './mix/firebase-studio';
+import { FirebaseWordmarkLogo, FirebaseWordmarkLogoMetadata } from './mix/firebase-wordmark';
+import { FirebaseLogo, FirebaseLogoMetadata } from './mix/firebase';
+import { FirecrawlDarkWordmarkLogo, FirecrawlDarkWordmarkLogoMetadata } from './mix/firecrawl-dark-wordmark';
+import { FirecrawlDarkLogo, FirecrawlDarkLogoMetadata } from './mix/firecrawl-dark';
+import { FirecrawlWordmarkLogo, FirecrawlWordmarkLogoMetadata } from './mix/firecrawl-wordmark';
+import { FirecrawlLogo, FirecrawlLogoMetadata } from './mix/firecrawl';
+import { FirefoxLogo, FirefoxLogoMetadata } from './mix/firefox';
+import { FlaskDarkLogo, FlaskDarkLogoMetadata } from './mix/flask-dark';
+import { FlaskLightLogo, FlaskLightLogoMetadata } from './mix/flask-light';
+import { FlaskWordmarkDarkLogo, FlaskWordmarkDarkLogoMetadata } from './mix/flask-wordmark-dark';
+import { FlaskWordmarkLightLogo, FlaskWordmarkLightLogoMetadata } from './mix/flask-wordmark-light';
+import { FleetLogo, FleetLogoMetadata } from './mix/fleet';
+import { FlowbiteLogo, FlowbiteLogoMetadata } from './mix/flowbite';
+import { FlutterLogo, FlutterLogoMetadata } from './mix/flutter';
+import { FlyLogo, FlyLogoMetadata } from './mix/fly';
+import { FormanceDarkLogo, FormanceDarkLogoMetadata } from './mix/formance-dark';
+import { FormanceLightLogo, FormanceLightLogoMetadata } from './mix/formance-light';
+import { FormanceWordmarkDarkLogo, FormanceWordmarkDarkLogoMetadata } from './mix/formance-wordmark-dark';
+import { FormanceWordmarkLightLogo, FormanceWordmarkLightLogoMetadata } from './mix/formance-wordmark-light';
+import { FortranLogo, FortranLogoMetadata } from './mix/fortran';
+import { FramerLogo, FramerLogoMetadata } from './mix/framer';
+import { FramerDark, FramerDarkMetadata } from './mix/framer_dark';
+import { FreshLogo, FreshLogoMetadata } from './mix/fresh';
+import { FrontLogo, FrontLogoMetadata } from './mix/front';
+import { GatsbyLogo, GatsbyLogoMetadata } from './mix/gatsby';
+import { GdscLogo, GdscLogoMetadata } from './mix/gdsc';
+import { GeminiLogo, GeminiLogoMetadata } from './mix/gemini';
+import { GeminiWordmark, GeminiWordmarkMetadata } from './mix/gemini_wordmark';
+import { GhosttyLogo, GhosttyLogoMetadata } from './mix/ghostty';
+import { GhosttyWordmarkDark, GhosttyWordmarkDarkMetadata } from './mix/ghostty_wordmark_dark';
+import { GhosttyWordmarkLight, GhosttyWordmarkLightMetadata } from './mix/ghostty_wordmark_light';
+import { GimpLogo, GimpLogoMetadata } from './mix/gimp';
+import { GitLogo, GitLogoMetadata } from './mix/git';
+import { GithubDark, GithubDarkMetadata } from './mix/github_dark';
+import { GithubLight, GithubLightMetadata } from './mix/github_light';
+import { GithubWordmarkDark, GithubWordmarkDarkMetadata } from './mix/github_wordmark_dark';
+import { GithubWordmarkLight, GithubWordmarkLightMetadata } from './mix/github_wordmark_light';
+import { GitlabLogo, GitlabLogoMetadata } from './mix/gitlab';
+import { GleamLogo, GleamLogoMetadata } from './mix/gleam';
+import { GmailLogo, GmailLogoMetadata } from './mix/gmail';
+import { GodaddyLogo, GodaddyLogoMetadata } from './mix/godaddy';
+import { GodaddyDark, GodaddyDarkMetadata } from './mix/godaddy_dark';
+import { GodotEngine, GodotEngineMetadata } from './mix/godot_engine';
+import { GoilDarkLogo, GoilDarkLogoMetadata } from './mix/goil-dark';
+import { GoilWordmarkDarkLogo, GoilWordmarkDarkLogoMetadata } from './mix/goil-wordmark-dark';
+import { GoilWordmarkLogo, GoilWordmarkLogoMetadata } from './mix/goil-wordmark';
+import { GoilLogo, GoilLogoMetadata } from './mix/goil';
+import { GolangLogo, GolangLogoMetadata } from './mix/golang';
+import { GolangDark, GolangDarkMetadata } from './mix/golang_dark';
+import { GoogleClassroomLogo, GoogleClassroomLogoMetadata } from './mix/google-classroom';
+import { GoogleCloudLogo, GoogleCloudLogoMetadata } from './mix/google-cloud';
+import { GoogleIdxLogo, GoogleIdxLogoMetadata } from './mix/google-idx';
+import { GooglePalmLogo, GooglePalmLogoMetadata } from './mix/google-palm';
+import { GoogleWordmarkLogo, GoogleWordmarkLogoMetadata } from './mix/google-wordmark';
+import { GoogleLogo, GoogleLogoMetadata } from './mix/google';
+import { GoogleMapsLogo, GoogleMapsLogoMetadata } from './mix/googleMaps';
+import { GoogleplayWordmarkDarkLogo, GoogleplayWordmarkDarkLogoMetadata } from './mix/googleplay-wordmark-dark';
+import { GoogleplayWordmarkLightLogo, GoogleplayWordmarkLightLogoMetadata } from './mix/googleplay-wordmark-light';
+import { GoogleplayLogo, GoogleplayLogoMetadata } from './mix/googleplay';
+import { GradioLogo, GradioLogoMetadata } from './mix/gradio';
+import { GrafanaLogo, GrafanaLogoMetadata } from './mix/grafana';
+import { GraphqlLogo, GraphqlLogoMetadata } from './mix/graphql';
+import { GrokDarkLogo, GrokDarkLogoMetadata } from './mix/grok-dark';
+import { GrokLightLogo, GrokLightLogoMetadata } from './mix/grok-light';
+import { GrokWordmarkDarkLogo, GrokWordmarkDarkLogoMetadata } from './mix/grok-wordmark-dark';
+import { GrokWordmarkLightLogo, GrokWordmarkLightLogoMetadata } from './mix/grok-wordmark-light';
+import { GroqLogo, GroqLogoMetadata } from './mix/groq';
+import { GroqWordmarkDark, GroqWordmarkDarkMetadata } from './mix/groq_wordmark_dark';
+import { GroqWordmarkLight, GroqWordmarkLightMetadata } from './mix/groq_wordmark_light';
+import { HackTheBoxWordmarkDarkLogo, HackTheBoxWordmarkDarkLogoMetadata } from './mix/hack-the-box-wordmark-dark';
+import { HackTheBoxWordmarkLightLogo, HackTheBoxWordmarkLightLogoMetadata } from './mix/hack-the-box-wordmark-light';
+import { HackTheBoxLogo, HackTheBoxLogoMetadata } from './mix/hack-the-box';
+import { HashnodeLogo, HashnodeLogoMetadata } from './mix/hashnode';
+import { HaskellLogo, HaskellLogoMetadata } from './mix/haskell';
+import { HcaptchaLogo, HcaptchaLogoMetadata } from './mix/hcaptcha';
+import { HeadlessuiLogo, HeadlessuiLogoMetadata } from './mix/headlessui';
+import { HeptabaseLogo, HeptabaseLogoMetadata } from './mix/heptabase';
+import { HerokuLogo, HerokuLogoMetadata } from './mix/heroku';
+import { HerouiBlack, HerouiBlackMetadata } from './mix/heroui_black';
+import { HerouiLight, HerouiLightMetadata } from './mix/heroui_light';
+import { HomeAssistantWordmarkDarkLogo, HomeAssistantWordmarkDarkLogoMetadata } from './mix/home-assistant-wordmark-dark';
+import { HomeAssistantWordmarkLogo, HomeAssistantWordmarkLogoMetadata } from './mix/home-assistant-wordmark';
+import { HomeAssistantLogo, HomeAssistantLogoMetadata } from './mix/home-assistant';
+import { HomebrewLogo, HomebrewLogoMetadata } from './mix/homebrew';
+import { HonoLogo, HonoLogoMetadata } from './mix/hono';
+import { HoppscotchLogo, HoppscotchLogoMetadata } from './mix/hoppscotch';
+import { HostgatorLogo, HostgatorLogoMetadata } from './mix/hostgator';
+import { Html5Logo, Html5LogoMetadata } from './mix/html5';
+import { HuggingFace, HuggingFaceMetadata } from './mix/hugging_face';
+import { HugoLogo, HugoLogoMetadata } from './mix/hugo';
+import { HuluDarkLogo, HuluDarkLogoMetadata } from './mix/hulu-dark';
+import { HuluLogo, HuluLogoMetadata } from './mix/hulu';
+import { HumeAiLogo, HumeAiLogoMetadata } from './mix/hume-ai';
+import { IbmLogo, IbmLogoMetadata } from './mix/ibm';
+import { IllustratorLogo, IllustratorLogoMetadata } from './mix/illustrator';
+import { IndesignLogo, IndesignLogoMetadata } from './mix/indesign';
+import { InflectionaiDark, InflectionaiDarkMetadata } from './mix/inflectionai_dark';
+import { InflectionaiLight, InflectionaiLightMetadata } from './mix/inflectionai_light';
+import { InflectionaiWordmarkDark, InflectionaiWordmarkDarkMetadata } from './mix/inflectionai_wordmark_dark';
+import { InflectionaiWordmarkLight, InflectionaiWordmarkLightMetadata } from './mix/inflectionai_wordmark_light';
+import { InfojobsLogoLogo, InfojobsLogoLogoMetadata } from './mix/infojobs-logo';
+import { InngestDarkLogo, InngestDarkLogoMetadata } from './mix/inngest-dark';
+import { InngestLightLogo, InngestLightLogoMetadata } from './mix/inngest-light';
+import { InstagramIconLogo, InstagramIconLogoMetadata } from './mix/instagram-icon';
+import { InstagramWordmarkLogo, InstagramWordmarkLogoMetadata } from './mix/instagram-wordmark';
+import { InstatusLogo, InstatusLogoMetadata } from './mix/instatus';
+import { InstatusDark, InstatusDarkMetadata } from './mix/instatus_dark';
+import { IntellijideaLogo, IntellijideaLogoMetadata } from './mix/intellijidea';
+import { IntelloDarkLogo, IntelloDarkLogoMetadata } from './mix/intello-dark';
+import { IntelloLightLogo, IntelloLightLogoMetadata } from './mix/intello-light';
+import { IntelloWordmarkDark, IntelloWordmarkDarkMetadata } from './mix/intello_wordmark_dark';
+import { IntelloWordmarkLight, IntelloWordmarkLightMetadata } from './mix/intello_wordmark_light';
+import { IntlayerDarkLogo, IntlayerDarkLogoMetadata } from './mix/intlayer-dark';
+import { IntlayerLightLogo, IntlayerLightLogoMetadata } from './mix/intlayer-light';
+import { JasmineLogo, JasmineLogoMetadata } from './mix/jasmine';
+import { JavaLogo, JavaLogoMetadata } from './mix/java';
+import { JavascriptLogo, JavascriptLogoMetadata } from './mix/javascript';
+import { JestLogo, JestLogoMetadata } from './mix/jest';
+import { JetbrainsSpaceLogo, JetbrainsSpaceLogoMetadata } from './mix/jetbrains-space';
+import { JetbrainsLogo, JetbrainsLogoMetadata } from './mix/jetbrains';
+import { JetbrainsSolidLogo, JetbrainsSolidLogoMetadata } from './mix/jetbrainsSolid';
+import { JqueryLogo, JqueryLogoMetadata } from './mix/jquery';
+import { JqueryDark, JqueryDarkMetadata } from './mix/jquery_dark';
+import { JsonSchemaLogo, JsonSchemaLogoMetadata } from './mix/json-schema';
+import { JsonLogo, JsonLogoMetadata } from './mix/json';
+import { JuliaLogo, JuliaLogoMetadata } from './mix/julia';
+import { JwtLogo, JwtLogoMetadata } from './mix/jwt';
+import { KeycloakLogo, KeycloakLogoMetadata } from './mix/keycloak';
+import { KiboUiDarkLogo, KiboUiDarkLogoMetadata } from './mix/kibo-ui-dark';
+import { KiboUiLightLogo, KiboUiLightLogoMetadata } from './mix/kibo-ui-light';
+import { KickDarkLogo, KickDarkLogoMetadata } from './mix/kick-dark';
+import { KickLightLogo, KickLightLogoMetadata } from './mix/kick-light';
+import { KilocodeDarkLogo, KilocodeDarkLogoMetadata } from './mix/kilocode-dark';
+import { KilocodeLightLogo, KilocodeLightLogoMetadata } from './mix/kilocode-light';
+import { KimiIconLogo, KimiIconLogoMetadata } from './mix/kimi-icon';
+import { KimiWordmarkDarkLogo, KimiWordmarkDarkLogoMetadata } from './mix/kimi-wordmark-dark';
+import { KimiWordmarkLightLogo, KimiWordmarkLightLogoMetadata } from './mix/kimi-wordmark-light';
+import { KokonutuiDarkLogo, KokonutuiDarkLogoMetadata } from './mix/kokonutui-dark';
+import { KokonutuiLightLogo, KokonutuiLightLogoMetadata } from './mix/kokonutui-light';
+import { KotlinLogo, KotlinLogoMetadata } from './mix/kotlin';
+import { KrakenjsLogo, KrakenjsLogoMetadata } from './mix/krakenjs';
+import { KubernetesLogo, KubernetesLogoMetadata } from './mix/kubernetes';
+import { LaravelLogo, LaravelLogoMetadata } from './mix/laravel';
+import { LayersDark, LayersDarkMetadata } from './mix/layers_dark';
+import { LayersLight, LayersLightMetadata } from './mix/layers_light';
+import { LeapWalletWordmarkDarkLogo, LeapWalletWordmarkDarkLogoMetadata } from './mix/leap-wallet-wordmark-dark';
+import { LeapWalletWordmarkLightLogo, LeapWalletWordmarkLightLogoMetadata } from './mix/leap-wallet-wordmark-light';
+import { LeapWalletLogo, LeapWalletLogoMetadata } from './mix/leap-wallet';
+import { LearnthisLogo, LearnthisLogoMetadata } from './mix/learnthis';
+import { LemonsqueezyLogo, LemonsqueezyLogoMetadata } from './mix/lemonsqueezy';
+import { LightroomLogo, LightroomLogoMetadata } from './mix/lightroom';
+import { LinearLogo, LinearLogoMetadata } from './mix/linear';
+import { LinkWordmarkDarkLogo, LinkWordmarkDarkLogoMetadata } from './mix/link-wordmark-dark';
+import { LinkWordmarkLightLogo, LinkWordmarkLightLogoMetadata } from './mix/link-wordmark-light';
+import { LinkLogo, LinkLogoMetadata } from './mix/link';
+import { LinkedinLogo, LinkedinLogoMetadata } from './mix/linkedin';
+import { LinuxLogo, LinuxLogoMetadata } from './mix/linux';
+import { LitLogo, LitLogoMetadata } from './mix/lit';
+import { LitecoinLogo, LitecoinLogoMetadata } from './mix/litecoin';
+import { LocofyLogo, LocofyLogoMetadata } from './mix/locofy';
+import { LoomLogo, LoomLogoMetadata } from './mix/loom';
+import { LottiefilesWordmarkDarkLogo, LottiefilesWordmarkDarkLogoMetadata } from './mix/lottiefiles-wordmark-dark';
+import { LottiefilesWordmarkLightLogo, LottiefilesWordmarkLightLogoMetadata } from './mix/lottiefiles-wordmark-light';
+import { LottiefilesLogo, LottiefilesLogoMetadata } from './mix/lottiefiles';
+import { LottielabLogo, LottielabLogoMetadata } from './mix/lottielab';
+import { LovableLogo, LovableLogoMetadata } from './mix/lovable';
+import { LuaLogo, LuaLogoMetadata } from './mix/lua';
+import { MagicuiLogo, MagicuiLogoMetadata } from './mix/magicui';
+import { ManifestLogo, ManifestLogoMetadata } from './mix/manifest';
+import { MantineLogo, MantineLogoMetadata } from './mix/mantine';
+import { ManzdevLogo, ManzdevLogoMetadata } from './mix/manzdev';
+import { MariadbLogo, MariadbLogoMetadata } from './mix/mariadb';
+import { MarkdownDarkLogo, MarkdownDarkLogoMetadata } from './mix/markdown-dark';
+import { MarkdownLightLogo, MarkdownLightLogoMetadata } from './mix/markdown-light';
+import { MastodonLogo, MastodonLogoMetadata } from './mix/mastodon';
+import { MaterialuiLogo, MaterialuiLogoMetadata } from './mix/materialui';
+import { MaticLogo, MaticLogoMetadata } from './mix/matic';
+import { MatlabLogo, MatlabLogoMetadata } from './mix/matlab';
+import { MatrixDarkLogo, MatrixDarkLogoMetadata } from './mix/matrix-dark';
+import { MatrixLightLogo, MatrixLightLogoMetadata } from './mix/matrix-light';
+import { MattermostDarkLogo, MattermostDarkLogoMetadata } from './mix/mattermost-dark';
+import { MattermostLightLogo, MattermostLightLogoMetadata } from './mix/mattermost-light';
+import { MediawikiWordmarkDarkLogo, MediawikiWordmarkDarkLogoMetadata } from './mix/mediawiki-wordmark-dark';
+import { MediawikiWordmarkLightLogo, MediawikiWordmarkLightLogoMetadata } from './mix/mediawiki-wordmark-light';
+import { MediawikiLogo, MediawikiLogoMetadata } from './mix/mediawiki';
+import { MedusaLogo, MedusaLogoMetadata } from './mix/medusa';
+import { MercadoLibreWordmarkLogo, MercadoLibreWordmarkLogoMetadata } from './mix/mercado-libre-wordmark';
+import { MercadoLibreLogo, MercadoLibreLogoMetadata } from './mix/mercado-libre';
+import { MercadoPagoWordmarkLogo, MercadoPagoWordmarkLogoMetadata } from './mix/mercado-pago-wordmark';
+import { MercadoPagoLogo, MercadoPagoLogoMetadata } from './mix/mercado-pago';
+import { MermaidLogoDarkLogo, MermaidLogoDarkLogoMetadata } from './mix/mermaid-logo-dark';
+import { MermaidLogoLightLogo, MermaidLogoLightLogoMetadata } from './mix/mermaid-logo-light';
+import { MessengerLogo, MessengerLogoMetadata } from './mix/messenger';
+import { MetaLogo, MetaLogoMetadata } from './mix/meta';
+import { MetamaskLogo, MetamaskLogoMetadata } from './mix/metamask';
+import { MicrosoftAccessLogo, MicrosoftAccessLogoMetadata } from './mix/microsoft-access';
+import { MicrosoftClipchampLogo, MicrosoftClipchampLogoMetadata } from './mix/microsoft-clipchamp';
+import { MicrosoftCopilotLogo, MicrosoftCopilotLogoMetadata } from './mix/microsoft-copilot';
+import { MicrosoftDefenderLogo, MicrosoftDefenderLogoMetadata } from './mix/microsoft-defender';
+import { MicrosoftDesignerLogo, MicrosoftDesignerLogoMetadata } from './mix/microsoft-designer';
+import { MicrosoftEditorLogo, MicrosoftEditorLogoMetadata } from './mix/microsoft-editor';
+import { MicrosoftExcelLogo, MicrosoftExcelLogoMetadata } from './mix/microsoft-excel';
+import { MicrosoftOnedriveLogo, MicrosoftOnedriveLogoMetadata } from './mix/microsoft-onedrive';
+import { MicrosoftOnenoteLogo, MicrosoftOnenoteLogoMetadata } from './mix/microsoft-onenote';
+import { MicrosoftOutlookLogo, MicrosoftOutlookLogoMetadata } from './mix/microsoft-outlook';
+import { MicrosoftPowerpointLogo, MicrosoftPowerpointLogoMetadata } from './mix/microsoft-powerpoint';
+import { MicrosoftSharepointLogo, MicrosoftSharepointLogoMetadata } from './mix/microsoft-sharepoint';
+import { MicrosoftTeamsLogo, MicrosoftTeamsLogoMetadata } from './mix/microsoft-teams';
+import { MicrosoftTodoLogo, MicrosoftTodoLogoMetadata } from './mix/microsoft-todo';
+import { MicrosoftWordLogo, MicrosoftWordLogoMetadata } from './mix/microsoft-word';
+import { MicrosoftLogo, MicrosoftLogoMetadata } from './mix/microsoft';
+import { MiddayLogo, MiddayLogoMetadata } from './mix/midday';
+import { MidudevLogo, MidudevLogoMetadata } from './mix/midudev';
+import { MilanoteDarkLogo, MilanoteDarkLogoMetadata } from './mix/milanote-dark';
+import { MilanoteLightLogo, MilanoteLightLogoMetadata } from './mix/milanote-light';
+import { MilanoteWordmarkDarkLogo, MilanoteWordmarkDarkLogoMetadata } from './mix/milanote-wordmark-dark';
+import { MilanoteWordmarkLightLogo, MilanoteWordmarkLightLogoMetadata } from './mix/milanote-wordmark-light';
+import { MillionLogo, MillionLogoMetadata } from './mix/million';
+import { MintlifyLogo, MintlifyLogoMetadata } from './mix/mintlify';
+import { MintlifyWordmarkDark, MintlifyWordmarkDarkMetadata } from './mix/mintlify_wordmark_dark';
+import { MintlifyWordmarkLight, MintlifyWordmarkLightMetadata } from './mix/mintlify_wordmark_light';
+import { MistralAiLogo, MistralAiLogoMetadata } from './mix/mistral-ai_logo';
+import { MistralAiWordmark, MistralAiWordmarkMetadata } from './mix/mistral-ai_wordmark';
+import { MochaDarkLogo, MochaDarkLogoMetadata } from './mix/mocha-dark';
+import { MochaDarkWordmark, MochaDarkWordmarkMetadata } from './mix/mocha-dark_wordmark';
+import { MochaLightLogo, MochaLightLogoMetadata } from './mix/mocha-light';
+import { MochaLightWordmark, MochaLightWordmarkMetadata } from './mix/mocha-light_wordmark';
+import { ModelContextProtocolDarkLogo, ModelContextProtocolDarkLogoMetadata } from './mix/model-context-protocol-dark';
+import { ModelContextProtocolLightLogo, ModelContextProtocolLightLogoMetadata } from './mix/model-context-protocol-light';
+import { ModelContextProtocolWordmarkDarkLogo, ModelContextProtocolWordmarkDarkLogoMetadata } from './mix/model-context-protocol-wordmark-dark';
+import { ModelContextProtocolWordmarkLightLogo, ModelContextProtocolWordmarkLightLogoMetadata } from './mix/model-context-protocol-wordmark-light';
+import { MoneroLogo, MoneroLogoMetadata } from './mix/monero';
+import { MongodbIconDarkLogo, MongodbIconDarkLogoMetadata } from './mix/mongodb-icon-dark';
+import { MongodbIconLightLogo, MongodbIconLightLogoMetadata } from './mix/mongodb-icon-light';
+import { MongodbWordmarkDarkLogo, MongodbWordmarkDarkLogoMetadata } from './mix/mongodb-wordmark-dark';
+import { MongodbWordmarkLightLogo, MongodbWordmarkLightLogoMetadata } from './mix/mongodb-wordmark-light';
+import { MonkeytypeWordmarkDarkLogo, MonkeytypeWordmarkDarkLogoMetadata } from './mix/monkeytype-wordmark-dark';
+import { MonkeytypeWordmarkLightLogo, MonkeytypeWordmarkLightLogoMetadata } from './mix/monkeytype-wordmark-light';
+import { MonkeytypeLogo, MonkeytypeLogoMetadata } from './mix/monkeytype';
+import { MoonLogo, MoonLogoMetadata } from './mix/moon';
+import { MotionLogo, MotionLogoMetadata } from './mix/motion';
+import { MotionDark, MotionDarkMetadata } from './mix/motion_dark';
+import { MulesoftLogo, MulesoftLogoMetadata } from './mix/mulesoft';
+import { MysqlIconDarkLogo, MysqlIconDarkLogoMetadata } from './mix/mysql-icon-dark';
+import { MysqlIconLightLogo, MysqlIconLightLogoMetadata } from './mix/mysql-icon-light';
+import { MysqlWordmarkDarkLogo, MysqlWordmarkDarkLogoMetadata } from './mix/mysql-wordmark-dark';
+import { MysqlWordmarkLightLogo, MysqlWordmarkLightLogoMetadata } from './mix/mysql-wordmark-light';
+import { N8nWordmarkDarkLogo, N8nWordmarkDarkLogoMetadata } from './mix/n8n-wordmark-dark';
+import { N8nWordmarkLightLogo, N8nWordmarkLightLogoMetadata } from './mix/n8n-wordmark-light';
+import { N8nLogo, N8nLogoMetadata } from './mix/n8n';
+import { NeonLogo, NeonLogoMetadata } from './mix/neon';
+import { NeovimLogo, NeovimLogoMetadata } from './mix/neovim';
+import { NestjsLogo, NestjsLogoMetadata } from './mix/nestjs';
+import { NetflixIconLogo, NetflixIconLogoMetadata } from './mix/netflix-icon';
+import { NetflixWordmarkLogo, NetflixWordmarkLogoMetadata } from './mix/netflix-wordmark';
+import { NetlifyLogo, NetlifyLogoMetadata } from './mix/netlify';
+import { NextjsIconDark, NextjsIconDarkMetadata } from './mix/nextjs_icon_dark';
+import { NextjsLogoDark, NextjsLogoDarkMetadata } from './mix/nextjs_logo_dark';
+import { NextjsLogoLight, NextjsLogoLightMetadata } from './mix/nextjs_logo_light';
+import { NginxLogo, NginxLogoMetadata } from './mix/nginx';
+import { NgrokDarkLogo, NgrokDarkLogoMetadata } from './mix/ngrok-dark';
+import { NgrokLightLogo, NgrokLightLogoMetadata } from './mix/ngrok-light';
+import { NhostLogo, NhostLogoMetadata } from './mix/nhost';
+import { NodejsLogo, NodejsLogoMetadata } from './mix/nodejs';
+import { NotionLogo, NotionLogoMetadata } from './mix/notion';
+import { NpmWordmarkLogo, NpmWordmarkLogoMetadata } from './mix/npm-wordmark';
+import { NpmLogo, NpmLogoMetadata } from './mix/npm';
+import { NugetLogo, NugetLogoMetadata } from './mix/nuget';
+import { NuqsWordmarkLogo, NuqsWordmarkLogoMetadata } from './mix/nuqs-wordmark';
+import { NuqsWordmarkDark, NuqsWordmarkDarkMetadata } from './mix/nuqs-wordmark_dark';
+import { NuqsLogo, NuqsLogoMetadata } from './mix/nuqs';
+import { NuqsDark, NuqsDarkMetadata } from './mix/nuqs_dark';
+import { NuxtContentWordmarkDarkLogo, NuxtContentWordmarkDarkLogoMetadata } from './mix/nuxt-content-wordmark-dark';
+import { NuxtContentWordmarkLightLogo, NuxtContentWordmarkLightLogoMetadata } from './mix/nuxt-content-wordmark-light';
+import { NuxtStudioWordmarkDarkLogo, NuxtStudioWordmarkDarkLogoMetadata } from './mix/nuxt-studio-wordmark-dark';
+import { NuxtStudioWordmarkLightLogo, NuxtStudioWordmarkLightLogoMetadata } from './mix/nuxt-studio-wordmark-light';
+import { NuxtUiWordmarkDarkLogo, NuxtUiWordmarkDarkLogoMetadata } from './mix/nuxt-ui-wordmark-dark';
+import { NuxtUiWordmarkLightLogo, NuxtUiWordmarkLightLogoMetadata } from './mix/nuxt-ui-wordmark-light';
+import { NuxtWordmarkDarkLogo, NuxtWordmarkDarkLogoMetadata } from './mix/nuxt-wordmark-dark';
+import { NuxtWordmarkLightLogo, NuxtWordmarkLightLogoMetadata } from './mix/nuxt-wordmark-light';
+import { NuxtLogo, NuxtLogoMetadata } from './mix/nuxt';
+import { NuxthubWordmarkDarkLogo, NuxthubWordmarkDarkLogoMetadata } from './mix/nuxthub-wordmark-dark';
+import { NuxthubWordmarkLightLogo, NuxthubWordmarkLightLogoMetadata } from './mix/nuxthub-wordmark-light';
+import { NuxthubLogo, NuxthubLogoMetadata } from './mix/nuxthub';
+import { NvidiaIconDarkLogo, NvidiaIconDarkLogoMetadata } from './mix/nvidia-icon-dark';
+import { NvidiaIconLightLogo, NvidiaIconLightLogoMetadata } from './mix/nvidia-icon-light';
+import { NvidiaWordmarkDarkLogo, NvidiaWordmarkDarkLogoMetadata } from './mix/nvidia-wordmark-dark';
+import { NvidiaWordmarkLightLogo, NvidiaWordmarkLightLogoMetadata } from './mix/nvidia-wordmark-light';
+import { NxDark, NxDarkMetadata } from './mix/nx_dark';
+import { NxLight, NxLightMetadata } from './mix/nx_light';
+import { ObsLogo, ObsLogoMetadata } from './mix/obs';
+import { ObsidianLogo, ObsidianLogoMetadata } from './mix/obsidian';
+import { OllamaDark, OllamaDarkMetadata } from './mix/ollama_dark';
+import { OllamaLight, OllamaLightMetadata } from './mix/ollama_light';
+import { OpenaiLogo, OpenaiLogoMetadata } from './mix/openai';
+import { OpenaiDark, OpenaiDarkMetadata } from './mix/openai_dark';
+import { OpenaiWordmarkDark, OpenaiWordmarkDarkMetadata } from './mix/openai_wordmark_dark';
+import { OpenaiWordmarkLight, OpenaiWordmarkLightMetadata } from './mix/openai_wordmark_light';
+import { OpenbootcampLogo, OpenbootcampLogoMetadata } from './mix/openbootcamp';
+import { OpenhuntsLogo, OpenhuntsLogoMetadata } from './mix/openhunts';
+import { OpenrouterDark, OpenrouterDarkMetadata } from './mix/openrouter_dark';
+import { OpenrouterLight, OpenrouterLightMetadata } from './mix/openrouter_light';
+import { OpenseaLogo, OpenseaLogoMetadata } from './mix/opensea';
+import { OpenwebuiLogo, OpenwebuiLogoMetadata } from './mix/openwebui';
+import { OperaLogo, OperaLogoMetadata } from './mix/opera';
+import { OxcLogo, OxcLogoMetadata } from './mix/oxc';
+import { PandacssLogo, PandacssLogoMetadata } from './mix/pandacss';
+import { PaperWordmarkDarkLogo, PaperWordmarkDarkLogoMetadata } from './mix/paper-wordmark-dark';
+import { PaperWordmarkLightLogo, PaperWordmarkLightLogoMetadata } from './mix/paper-wordmark-light';
+import { PaperLogo, PaperLogoMetadata } from './mix/paper';
+import { ParcelLogo, ParcelLogoMetadata } from './mix/parcel';
+import { PasswordDarkLogo, PasswordDarkLogoMetadata } from './mix/password-dark';
+import { PasswordLightLogo, PasswordLightLogoMetadata } from './mix/password-light';
+import { PatreonLogo, PatreonLogoMetadata } from './mix/patreon';
+import { PatreonDark, PatreonDarkMetadata } from './mix/patreon_dark';
+import { PayloadLogo, PayloadLogoMetadata } from './mix/payload';
+import { PayloadDark, PayloadDarkMetadata } from './mix/payload_dark';
+import { PaypalWordmarkLogo, PaypalWordmarkLogoMetadata } from './mix/paypal-wordmark';
+import { PaypalLogo, PaypalLogoMetadata } from './mix/paypal';
+import { PdfLogo, PdfLogoMetadata } from './mix/pdf';
+import { PeerlistLogo, PeerlistLogoMetadata } from './mix/peerlist';
+import { PenpotDark, PenpotDarkMetadata } from './mix/penpot_dark';
+import { PerplexityLogo, PerplexityLogoMetadata } from './mix/perplexity';
+import { PerplexityWordmarkDark, PerplexityWordmarkDarkMetadata } from './mix/perplexity_wordmark_dark';
+import { PerplexityWordmarkLight, PerplexityWordmarkLightMetadata } from './mix/perplexity_wordmark_light';
+import { PerspectiveDarkLogo, PerspectiveDarkLogoMetadata } from './mix/perspective-dark';
+import { PerspectiveLightLogo, PerspectiveLightLogoMetadata } from './mix/perspective-light';
+import { PerspectiveWordmarkDarkLogo, PerspectiveWordmarkDarkLogoMetadata } from './mix/perspective-wordmark-dark';
+import { PerspectiveWordmarkLightLogo, PerspectiveWordmarkLightLogoMetadata } from './mix/perspective-wordmark-light';
+import { PhotoshopLogo, PhotoshopLogoMetadata } from './mix/photoshop';
+import { PhpLogo, PhpLogoMetadata } from './mix/php';
+import { PhpDark, PhpDarkMetadata } from './mix/php_dark';
+import { PhpstormLogo, PhpstormLogoMetadata } from './mix/phpstorm';
+import { PiniaLogo, PiniaLogoMetadata } from './mix/pinia';
+import { PinterestLogo, PinterestLogoMetadata } from './mix/pinterest';
+import { PitchLogo, PitchLogoMetadata } from './mix/pitch';
+import { PlainsignalLogo, PlainsignalLogoMetadata } from './mix/plainsignal';
+import { PlanetscaleLogo, PlanetscaleLogoMetadata } from './mix/planetscale';
+import { PlanetscaleDark, PlanetscaleDarkMetadata } from './mix/planetscale_dark';
+import { PlatziLogo, PlatziLogoMetadata } from './mix/platzi';
+import { PlaystationLogo, PlaystationLogoMetadata } from './mix/playstation';
+import { PlaywrightLogo, PlaywrightLogoMetadata } from './mix/playwright';
+import { Pm2Logo, Pm2LogoMetadata } from './mix/pm2';
+import { PnpmLogo, PnpmLogoMetadata } from './mix/pnpm';
+import { PnpmDark, PnpmDarkMetadata } from './mix/pnpm_dark';
+import { PnpmWordmarkDark, PnpmWordmarkDarkMetadata } from './mix/pnpm_wordmark_dark';
+import { PnpmWordmarkLight, PnpmWordmarkLightMetadata } from './mix/pnpm_wordmark_light';
+import { PocketBaseLogo, PocketBaseLogoMetadata } from './mix/pocket-base';
+import { PolarShDark, PolarShDarkMetadata } from './mix/polar-sh_dark';
+import { PolarShLight, PolarShLightMetadata } from './mix/polar-sh_light';
+import { PolarsLogoLogo, PolarsLogoLogoMetadata } from './mix/polars-logo';
+import { PoperLogo, PoperLogoMetadata } from './mix/poper';
+import { PostcssLogo, PostcssLogoMetadata } from './mix/postcss';
+import { PostcssWordmark, PostcssWordmarkMetadata } from './mix/postcss_wordmark';
+import { PostgresqlWordmarkDarkLogo, PostgresqlWordmarkDarkLogoMetadata } from './mix/postgresql-wordmark-dark';
+import { PostgresqlWordmarkLightLogo, PostgresqlWordmarkLightLogoMetadata } from './mix/postgresql-wordmark-light';
+import { PostgresqlLogo, PostgresqlLogoMetadata } from './mix/postgresql';
+import { PosthogWordmarkLogo, PosthogWordmarkLogoMetadata } from './mix/posthog-wordmark';
+import { PosthogWordmarkDark, PosthogWordmarkDarkMetadata } from './mix/posthog-wordmark_dark';
+import { PosthogLogo, PosthogLogoMetadata } from './mix/posthog';
+import { PostmanLogo, PostmanLogoMetadata } from './mix/postman';
+import { PowershellLogo, PowershellLogoMetadata } from './mix/powershell';
+import { PowersyncWordmarkDarkLogo, PowersyncWordmarkDarkLogoMetadata } from './mix/powersync-wordmark-dark';
+import { PowersyncWordmarkLightLogo, PowersyncWordmarkLightLogoMetadata } from './mix/powersync-wordmark-light';
+import { PowersyncLogo, PowersyncLogoMetadata } from './mix/powersync';
+import { PowertoysLogo, PowertoysLogoMetadata } from './mix/powertoys';
+import { PreactLogo, PreactLogoMetadata } from './mix/preact';
+import { PremiereLogo, PremiereLogoMetadata } from './mix/premiere';
+import { PrettierIconDarkLogo, PrettierIconDarkLogoMetadata } from './mix/prettier-icon-dark';
+import { PrettierIconLightLogo, PrettierIconLightLogoMetadata } from './mix/prettier-icon-light';
+import { PrimeVideoLogo, PrimeVideoLogoMetadata } from './mix/prime-video';
+import { PrismaLogo, PrismaLogoMetadata } from './mix/prisma';
+import { PrismaDark, PrismaDarkMetadata } from './mix/prisma_dark';
+import { ProcureLogo, ProcureLogoMetadata } from './mix/procure';
+import { ProducthuntLogo, ProducthuntLogoMetadata } from './mix/producthunt';
+import { ProtonmailWordmarkLogo, ProtonmailWordmarkLogoMetadata } from './mix/protonmail-wordmark';
+import { ProtonmailLogo, ProtonmailLogoMetadata } from './mix/protonmail';
+import { PulumiLogo, PulumiLogoMetadata } from './mix/pulumi';
+import { PutioLogo, PutioLogoMetadata } from './mix/putio';
+import { PycharmLogo, PycharmLogoMetadata } from './mix/pycharm';
+import { PythonLogo, PythonLogoMetadata } from './mix/python';
+import { QdrantIconDarkLogo, QdrantIconDarkLogoMetadata } from './mix/qdrant-icon-dark';
+import { QdrantIconLightLogo, QdrantIconLightLogoMetadata } from './mix/qdrant-icon-light';
+import { QdrantWordmarkDarkLogo, QdrantWordmarkDarkLogoMetadata } from './mix/qdrant-wordmark-dark';
+import { QdrantWordmarkLightLogo, QdrantWordmarkLightLogoMetadata } from './mix/qdrant-wordmark-light';
+import { QwenDark, QwenDarkMetadata } from './mix/qwen_dark';
+import { QwenLight, QwenLightMetadata } from './mix/qwen_light';
+import { QwikLogo, QwikLogoMetadata } from './mix/qwik';
+import { RLogo, RLogoMetadata } from './mix/r';
+import { RDark, RDarkMetadata } from './mix/r_dark';
+import { RadixUiDark, RadixUiDarkMetadata } from './mix/radix-ui_dark';
+import { RadixUiLight, RadixUiLightMetadata } from './mix/radix-ui_light';
+import { RailwayLogo, RailwayLogoMetadata } from './mix/railway';
+import { RailwayDark, RailwayDarkMetadata } from './mix/railway_dark';
+import { RaindropLogo, RaindropLogoMetadata } from './mix/raindrop';
+import { RandevumLogo, RandevumLogoMetadata } from './mix/randevum';
+import { RapidapiLogo, RapidapiLogoMetadata } from './mix/rapidapi';
+import { RaspberryPi, RaspberryPiMetadata } from './mix/raspberry_pi';
+import { RaycastWordmarkDarkLogo, RaycastWordmarkDarkLogoMetadata } from './mix/raycast-wordmark-dark';
+import { RaycastWordmarkLightLogo, RaycastWordmarkLightLogoMetadata } from './mix/raycast-wordmark-light';
+import { RaycastLogo, RaycastLogoMetadata } from './mix/raycast';
+import { ReactWheelPickerDark, ReactWheelPickerDarkMetadata } from './mix/react-wheel-picker_dark';
+import { ReactWheelPickerLight, ReactWheelPickerLightMetadata } from './mix/react-wheel-picker_light';
+import { ReactDark, ReactDarkMetadata } from './mix/react_dark';
+import { ReactLight, ReactLightMetadata } from './mix/react_light';
+import { ReactWordmarkDark, ReactWordmarkDarkMetadata } from './mix/react_wordmark_dark';
+import { ReactWordmarkLight, ReactWordmarkLightMetadata } from './mix/react_wordmark_light';
+import { ReactqueryLogo, ReactqueryLogoMetadata } from './mix/reactquery';
+import { ReactrouterLogo, ReactrouterLogoMetadata } from './mix/reactrouter';
+import { RedditLogo, RedditLogoMetadata } from './mix/reddit';
+import { RedisLogo, RedisLogoMetadata } from './mix/redis';
+import { ReduxLogo, ReduxLogoMetadata } from './mix/redux';
+import { RedwoodjsLogo, RedwoodjsLogoMetadata } from './mix/redwoodjs';
+import { RefineDark, RefineDarkMetadata } from './mix/refine_dark';
+import { RefineLight, RefineLightMetadata } from './mix/refine_light';
+import { ReflexDarkLogo, ReflexDarkLogoMetadata } from './mix/reflex-dark';
+import { ReflexLightLogo, ReflexLightLogoMetadata } from './mix/reflex-light';
+import { RelagitIconDarkLogo, RelagitIconDarkLogoMetadata } from './mix/relagit-icon-dark';
+import { RelagitIconLightLogo, RelagitIconLightLogoMetadata } from './mix/relagit-icon-light';
+import { RelagitWordmarkDarkLogo, RelagitWordmarkDarkLogoMetadata } from './mix/relagit-wordmark-dark';
+import { RelagitWordmarkLightLogo, RelagitWordmarkLightLogoMetadata } from './mix/relagit-wordmark-light';
+import { RemixDark, RemixDarkMetadata } from './mix/remix_dark';
+import { RemixLight, RemixLightMetadata } from './mix/remix_light';
+import { RemixWordmarkDark, RemixWordmarkDarkMetadata } from './mix/remix_wordmark_dark';
+import { RemixWordmarkLight, RemixWordmarkLightMetadata } from './mix/remix_wordmark_light';
+import { RemotionLogo, RemotionLogoMetadata } from './mix/remotion';
+import { ReplicateWordmarkDark, ReplicateWordmarkDarkMetadata } from './mix/replicate-wordmark_dark';
+import { ReplicateWordmarkLight, ReplicateWordmarkLightMetadata } from './mix/replicate-wordmark_light';
+import { ReplicateDark, ReplicateDarkMetadata } from './mix/replicate_dark';
+import { ReplicateLight, ReplicateLightMetadata } from './mix/replicate_light';
+import { ReplitWordmarkDarkLogo, ReplitWordmarkDarkLogoMetadata } from './mix/replit-wordmark-dark';
+import { ReplitWordmarkLightLogo, ReplitWordmarkLightLogoMetadata } from './mix/replit-wordmark-light';
+import { ReplitLogo, ReplitLogoMetadata } from './mix/replit';
+import { ResendIconBlackLogo, ResendIconBlackLogoMetadata } from './mix/resend-icon-black';
+import { ResendIconWhiteLogo, ResendIconWhiteLogoMetadata } from './mix/resend-icon-white';
+import { ResendWordmarkBlackLogo, ResendWordmarkBlackLogoMetadata } from './mix/resend-wordmark-black';
+import { ResendWordmarkWhiteLogo, ResendWordmarkWhiteLogoMetadata } from './mix/resend-wordmark-white';
+import { RiderLogo, RiderLogoMetadata } from './mix/rider';
+import { RobloxLogo, RobloxLogoMetadata } from './mix/roblox';
+import { RobloxLight, RobloxLightMetadata } from './mix/roblox_light';
+import { RolldownLogo, RolldownLogoMetadata } from './mix/rolldown';
+import { RowyLogo, RowyLogoMetadata } from './mix/rowy';
+import { RsbuildLogo, RsbuildLogoMetadata } from './mix/rsbuild';
+import { RspackLogo, RspackLogoMetadata } from './mix/rspack';
+import { RubyLogo, RubyLogoMetadata } from './mix/ruby';
+import { RubymineLogo, RubymineLogoMetadata } from './mix/rubymine';
+import { RunwayLogo, RunwayLogoMetadata } from './mix/runway';
+import { RustLogo, RustLogoMetadata } from './mix/rust';
+import { RustDark, RustDarkMetadata } from './mix/rust_dark';
+import { RxjsLogo, RxjsLogoMetadata } from './mix/rxjs';
+import { SafariLogo, SafariLogoMetadata } from './mix/safari';
+import { SalesforceLogo, SalesforceLogoMetadata } from './mix/salesforce';
+import { SanityDarkLogo, SanityDarkLogoMetadata } from './mix/sanity-dark';
+import { SanityLightLogo, SanityLightLogoMetadata } from './mix/sanity-light';
+import { SanityWordmarkDarkLogo, SanityWordmarkDarkLogoMetadata } from './mix/sanity-wordmark-dark';
+import { SanityWordmarkLightLogo, SanityWordmarkLightLogoMetadata } from './mix/sanity-wordmark-light';
+import { SassLogo, SassLogoMetadata } from './mix/sass';
+import { ScalaLogo, ScalaLogoMetadata } from './mix/scala';
+import { SentryLogo, SentryLogoMetadata } from './mix/sentry';
+import { SequelizeLogo, SequelizeLogoMetadata } from './mix/sequelize';
+import { ShadcnUiLogo, ShadcnUiLogoMetadata } from './mix/shadcn-ui';
+import { ShadcnUiDark, ShadcnUiDarkMetadata } from './mix/shadcn-ui_dark';
+import { ShikiLogo, ShikiLogoMetadata } from './mix/shiki';
+import { ShopifyWordmarkDarkLogo, ShopifyWordmarkDarkLogoMetadata } from './mix/shopify-wordmark-dark';
+import { ShopifyWordmarkLightLogo, ShopifyWordmarkLightLogoMetadata } from './mix/shopify-wordmark-light';
+import { ShopifyLogo, ShopifyLogoMetadata } from './mix/shopify';
+import { SketchLogo, SketchLogoMetadata } from './mix/sketch';
+import { SketchLight, SketchLightMetadata } from './mix/sketch_light';
+import { SkyLogo, SkyLogoMetadata } from './mix/sky';
+import { SkypeLogo, SkypeLogoMetadata } from './mix/skype';
+import { SlackWordmarkLogo, SlackWordmarkLogoMetadata } from './mix/slack-wordmark';
+import { SlackLogo, SlackLogoMetadata } from './mix/slack';
+import { SnapchatLogo, SnapchatLogoMetadata } from './mix/snapchat';
+import { SocketioIconDarkLogo, SocketioIconDarkLogoMetadata } from './mix/socketio-icon-dark';
+import { SocketioIconLightLogo, SocketioIconLightLogoMetadata } from './mix/socketio-icon-light';
+import { SocketioWordmarkDarkLogo, SocketioWordmarkDarkLogoMetadata } from './mix/socketio-wordmark-dark';
+import { SocketioWordmarkLightLogo, SocketioWordmarkLightLogoMetadata } from './mix/socketio-wordmark-light';
+import { SolLogo, SolLogoMetadata } from './mix/sol';
+import { SolderaIconLightLogo, SolderaIconLightLogoMetadata } from './mix/soldera-icon-light';
+import { SolderaIconLogo, SolderaIconLogoMetadata } from './mix/soldera-icon';
+import { SolderaWordmarkDarkLogo, SolderaWordmarkDarkLogoMetadata } from './mix/soldera-wordmark-dark';
+import { SolderaWordmarkLightLogo, SolderaWordmarkLightLogoMetadata } from './mix/soldera-wordmark-light';
+import { SolidityLogo, SolidityLogoMetadata } from './mix/solidity';
+import { SolidjsLogo, SolidjsLogoMetadata } from './mix/solidjs';
+import { SoundcloudLogoLogo, SoundcloudLogoLogoMetadata } from './mix/soundcloud-logo';
+import { SoundcloudLogoDark, SoundcloudLogoDarkMetadata } from './mix/soundcloud-logo_dark';
+import { SoundcloudWordmarkLogo, SoundcloudWordmarkLogoMetadata } from './mix/soundcloud-wordmark';
+import { SoundcloudWordmarkDark, SoundcloudWordmarkDarkMetadata } from './mix/soundcloud-wordmark_dark';
+import { SourcegraphLogo, SourcegraphLogoMetadata } from './mix/sourcegraph';
+import { SpinnakerLogo, SpinnakerLogoMetadata } from './mix/spinnaker';
+import { SpotifyLogo, SpotifyLogoMetadata } from './mix/spotify';
+import { SpotifyWordmark, SpotifyWordmarkMetadata } from './mix/spotify_wordmark';
+import { SpringWordmarkLogo, SpringWordmarkLogoMetadata } from './mix/spring-wordmark';
+import { SpringLogo, SpringLogoMetadata } from './mix/spring';
+import { SqlServerLogo, SqlServerLogoMetadata } from './mix/sql-server';
+import { SqliteLogo, SqliteLogoMetadata } from './mix/sqlite';
+import { SstLogo, SstLogoMetadata } from './mix/sst';
+import { StabilityAiLogo, StabilityAiLogoMetadata } from './mix/stability-ai';
+import { StackblitzLogo, StackblitzLogoMetadata } from './mix/stackblitz';
+import { StackoverflowLogo, StackoverflowLogoMetadata } from './mix/stackoverflow';
+import { StackoverflowWordmark, StackoverflowWordmarkMetadata } from './mix/stackoverflow_wordmark';
+import { StatelyLogo, StatelyLogoMetadata } from './mix/stately';
+import { StatelyDark, StatelyDarkMetadata } from './mix/stately_dark';
+import { SteamLogo, SteamLogoMetadata } from './mix/steam';
+import { StimulusLogo, StimulusLogoMetadata } from './mix/stimulus';
+import { StoryblokLogo, StoryblokLogoMetadata } from './mix/storyblok';
+import { StorybookLogo, StorybookLogoMetadata } from './mix/storybook';
+import { StrapiLogo, StrapiLogoMetadata } from './mix/strapi';
+import { StripeLogo, StripeLogoMetadata } from './mix/stripe';
+import { StyledcomponentsLogo, StyledcomponentsLogoMetadata } from './mix/styledcomponents';
+import { SublimetextLogo, SublimetextLogoMetadata } from './mix/sublimetext';
+import { SunoLogo, SunoLogoMetadata } from './mix/suno';
+import { SunoWordmarkDark, SunoWordmarkDarkMetadata } from './mix/suno_wordmark_dark';
+import { SunoWordmarkLight, SunoWordmarkLightMetadata } from './mix/suno_wordmark_light';
+import { SupabaseLogo, SupabaseLogoMetadata } from './mix/supabase';
+import { SupabaseWordmarkDark, SupabaseWordmarkDarkMetadata } from './mix/supabase_wordmark_dark';
+import { SupabaseWordmarkLight, SupabaseWordmarkLightMetadata } from './mix/supabase_wordmark_light';
+import { SurrealdbLogo, SurrealdbLogoMetadata } from './mix/surrealdb';
+import { SvelteLogo, SvelteLogoMetadata } from './mix/svelte';
+import { SvgLogo, SvgLogoMetadata } from './mix/svg';
+import { SvgWordmark, SvgWordmarkMetadata } from './mix/svg_wordmark';
+import { SvglLogo, SvglLogoMetadata } from './mix/svgl';
+import { SwaggerLogo, SwaggerLogoMetadata } from './mix/swagger';
+import { SwcLogo, SwcLogoMetadata } from './mix/swc';
+import { SwiftLogo, SwiftLogoMetadata } from './mix/swift';
+import { SwrDarkLogo, SwrDarkLogoMetadata } from './mix/swr-dark';
+import { SwrLightLogo, SwrLightLogoMetadata } from './mix/swr-light';
+import { T3DarkLogo, T3DarkLogoMetadata } from './mix/t3-dark';
+import { T3LightLogo, T3LightLogoMetadata } from './mix/t3-light';
+import { TabbyLogo, TabbyLogoMetadata } from './mix/tabby';
+import { TailwindcssWordmarkDarkLogo, TailwindcssWordmarkDarkLogoMetadata } from './mix/tailwindcss-wordmark-dark';
+import { TailwindcssWordmarkLogo, TailwindcssWordmarkLogoMetadata } from './mix/tailwindcss-wordmark';
+import { TailwindcssLogo, TailwindcssLogoMetadata } from './mix/tailwindcss';
+import { TanstackLogo, TanstackLogoMetadata } from './mix/tanstack';
+import { TauriLogo, TauriLogoMetadata } from './mix/tauri';
+import { TelegramLogo, TelegramLogoMetadata } from './mix/telegram';
+import { TemboDarkLogo, TemboDarkLogoMetadata } from './mix/tembo-dark';
+import { TemboWordmarkDarkLogo, TemboWordmarkDarkLogoMetadata } from './mix/tembo-wordmark-dark';
+import { TemboWordmarkLogo, TemboWordmarkLogoMetadata } from './mix/tembo-wordmark';
+import { TemboLogo, TemboLogoMetadata } from './mix/tembo';
+import { TensorflowIconDarkLogo, TensorflowIconDarkLogoMetadata } from './mix/tensorflow-icon-dark';
+import { TensorflowIconLightLogo, TensorflowIconLightLogoMetadata } from './mix/tensorflow-icon-light';
+import { TensorflowWordmarkDarkLogo, TensorflowWordmarkDarkLogoMetadata } from './mix/tensorflow-wordmark-dark';
+import { TensorflowWordmarkLightLogo, TensorflowWordmarkLightLogoMetadata } from './mix/tensorflow-wordmark-light';
+import { TerraformLogo, TerraformLogoMetadata } from './mix/terraform';
+import { TetherLogo, TetherLogoMetadata } from './mix/tether';
+import { ThreadsLogo, ThreadsLogoMetadata } from './mix/threads';
+import { ThreadsDark, ThreadsDarkMetadata } from './mix/threads_dark';
+import { ThreejsDarkLogo, ThreejsDarkLogoMetadata } from './mix/threejs-dark';
+import { ThreejsLightLogo, ThreejsLightLogoMetadata } from './mix/threejs-light';
+import { TidalDark, TidalDarkMetadata } from './mix/tidal_dark';
+import { TidalLight, TidalLightMetadata } from './mix/tidal_light';
+import { TidalWordmarkDark, TidalWordmarkDarkMetadata } from './mix/tidal_wordmark_dark';
+import { TidalWordmarkLight, TidalWordmarkLightMetadata } from './mix/tidal_wordmark_light';
+import { TiktokIconDarkLogo, TiktokIconDarkLogoMetadata } from './mix/tiktok-icon-dark';
+import { TiktokIconLightLogo, TiktokIconLightLogoMetadata } from './mix/tiktok-icon-light';
+import { TiktokWordmarkDarkLogo, TiktokWordmarkDarkLogoMetadata } from './mix/tiktok-wordmark-dark';
+import { TiktokWordmarkLightLogo, TiktokWordmarkLightLogoMetadata } from './mix/tiktok-wordmark-light';
+import { TinaLogo, TinaLogoMetadata } from './mix/tina';
+import { TinaWordmark, TinaWordmarkMetadata } from './mix/tina_wordmark';
+import { TodoistWordmarkLogo, TodoistWordmarkLogoMetadata } from './mix/todoist-wordmark';
+import { TodoistLogo, TodoistLogoMetadata } from './mix/todoist';
+import { TogetheraiDark, TogetheraiDarkMetadata } from './mix/togetherai_dark';
+import { TogetheraiLight, TogetheraiLightMetadata } from './mix/togetherai_light';
+import { TonLogo, TonLogoMetadata } from './mix/ton';
+import { TorLogo, TorLogoMetadata } from './mix/tor';
+import { TravelperkDarkLogo, TravelperkDarkLogoMetadata } from './mix/travelperk-dark';
+import { TravelperkLightLogo, TravelperkLightLogoMetadata } from './mix/travelperk-light';
+import { TravelperkWordmarkDarkLogo, TravelperkWordmarkDarkLogoMetadata } from './mix/travelperk-wordmark-dark';
+import { TravelperkWordmarkLightLogo, TravelperkWordmarkLightLogoMetadata } from './mix/travelperk-wordmark-light';
+import { TronLogo, TronLogoMetadata } from './mix/tron';
+import { TrpcLogo, TrpcLogoMetadata } from './mix/trpc';
+import { TrpcWordmarkDark, TrpcWordmarkDarkMetadata } from './mix/trpc_wordmark_dark';
+import { TrpcWordmarkLight, TrpcWordmarkLightMetadata } from './mix/trpc_wordmark_light';
+import { TrustLogo, TrustLogoMetadata } from './mix/trust';
+import { TrustpilotLogo, TrustpilotLogoMetadata } from './mix/trustpilot';
+import { TurbopackIconDarkLogo, TurbopackIconDarkLogoMetadata } from './mix/turbopack-icon-dark';
+import { TurbopackIconLightLogo, TurbopackIconLightLogoMetadata } from './mix/turbopack-icon-light';
+import { TurbopackWordmarkDarkLogo, TurbopackWordmarkDarkLogoMetadata } from './mix/turbopack-wordmark-dark';
+import { TurbopackWordmarkLightLogo, TurbopackWordmarkLightLogoMetadata } from './mix/turbopack-wordmark-light';
+import { TurborepoIconDarkLogo, TurborepoIconDarkLogoMetadata } from './mix/turborepo-icon-dark';
+import { TurborepoIconLightLogo, TurborepoIconLightLogoMetadata } from './mix/turborepo-icon-light';
+import { TurborepoWordmarkDarkLogo, TurborepoWordmarkDarkLogoMetadata } from './mix/turborepo-wordmark-dark';
+import { TurborepoWordmarkLightLogo, TurborepoWordmarkLightLogoMetadata } from './mix/turborepo-wordmark-light';
+import { TursoDarkLogo, TursoDarkLogoMetadata } from './mix/turso-dark';
+import { TursoLightLogo, TursoLightLogoMetadata } from './mix/turso-light';
+import { TursoWordmarkDarkLogo, TursoWordmarkDarkLogoMetadata } from './mix/turso-wordmark-dark';
+import { TursoWordmarkLightLogo, TursoWordmarkLightLogoMetadata } from './mix/turso-wordmark-light';
+import { TwilioLogo, TwilioLogoMetadata } from './mix/twilio';
+import { TwitchLogo, TwitchLogoMetadata } from './mix/twitch';
+import { TwitterLogo, TwitterLogoMetadata } from './mix/twitter';
+import { TypegpuDarkLogo, TypegpuDarkLogoMetadata } from './mix/typegpu-dark';
+import { TypegpuLightLogo, TypegpuLightLogoMetadata } from './mix/typegpu-light';
+import { TypegpuWordmarkDarkLogo, TypegpuWordmarkDarkLogoMetadata } from './mix/typegpu-wordmark-dark';
+import { TypegpuWordmarkLightLogo, TypegpuWordmarkLightLogoMetadata } from './mix/typegpu-wordmark-light';
+import { TypeormLogo, TypeormLogoMetadata } from './mix/typeorm';
+import { TypescriptLogo, TypescriptLogoMetadata } from './mix/typescript';
+import { TypesenseLogo, TypesenseLogoMetadata } from './mix/typesense';
+import { UberDark, UberDarkMetadata } from './mix/uber_dark';
+import { UberLight, UberLightMetadata } from './mix/uber_light';
+import { UbuntuLogo, UbuntuLogoMetadata } from './mix/ubuntu';
+import { UdacityLogo, UdacityLogoMetadata } from './mix/udacity';
+import { UdemyLogo, UdemyLogoMetadata } from './mix/udemy';
+import { UdemyDark, UdemyDarkMetadata } from './mix/udemy_dark';
+import { UnityLogo, UnityLogoMetadata } from './mix/unity';
+import { UnityDark, UnityDarkMetadata } from './mix/unity_dark';
+import { UnjsLogo, UnjsLogoMetadata } from './mix/unjs';
+import { UnocssLogo, UnocssLogoMetadata } from './mix/unocss';
+import { UnrealEngine, UnrealEngineMetadata } from './mix/unreal_engine';
+import { UnrealEngineDark, UnrealEngineDarkMetadata } from './mix/unreal_engine_dark';
+import { UpleveledWordmarkLogo, UpleveledWordmarkLogoMetadata } from './mix/upleveled-wordmark';
+import { UpleveledLogo, UpleveledLogoMetadata } from './mix/upleveled';
+import { UpstashLogo, UpstashLogoMetadata } from './mix/upstash';
+import { UvLogo, UvLogoMetadata } from './mix/uv';
+import { UxanarangelDarkLogo, UxanarangelDarkLogoMetadata } from './mix/uxanarangel-dark';
+import { UxanarangelLightLogo, UxanarangelLightLogoMetadata } from './mix/uxanarangel-light';
+import { UxcorprangelDarkLogo, UxcorprangelDarkLogoMetadata } from './mix/uxcorprangel-dark';
+import { UxcorprangelLightLogo, UxcorprangelLightLogoMetadata } from './mix/uxcorprangel-light';
+import { V0Dark, V0DarkMetadata } from './mix/v0_dark';
+import { V0Light, V0LightMetadata } from './mix/v0_light';
+import { ValibotWordmarkDarkLogo, ValibotWordmarkDarkLogoMetadata } from './mix/valibot-wordmark-dark';
+import { ValibotWordmarkLightLogo, ValibotWordmarkLightLogoMetadata } from './mix/valibot-wordmark-light';
+import { ValibotLogo, ValibotLogoMetadata } from './mix/valibot';
+import { VercelLogo, VercelLogoMetadata } from './mix/vercel';
+import { VercelDark, VercelDarkMetadata } from './mix/vercel_dark';
+import { VercelWordmark, VercelWordmarkMetadata } from './mix/vercel_wordmark';
+import { VercelWordmarkDark, VercelWordmarkDarkMetadata } from './mix/vercel_wordmark_dark';
+import { VimLogo, VimLogoMetadata } from './mix/vim';
+import { VisualStudioLogo, VisualStudioLogoMetadata } from './mix/visual-studio';
+import { ViteLogo, ViteLogoMetadata } from './mix/vite';
+import { VitestLogo, VitestLogoMetadata } from './mix/vitest';
+import { VivaldiLogo, VivaldiLogoMetadata } from './mix/vivaldi';
+import { VkLogo, VkLogoMetadata } from './mix/vk';
+import { VoicemodDark, VoicemodDarkMetadata } from './mix/voicemod_dark';
+import { VoicemodLight, VoicemodLightMetadata } from './mix/voicemod_light';
+import { VoidzeroLogo, VoidzeroLogoMetadata } from './mix/voidzero';
+import { VoltaDarkLogo, VoltaDarkLogoMetadata } from './mix/volta-dark';
+import { VoltaLightLogo, VoltaLightLogoMetadata } from './mix/volta-light';
+import { VscodeLogo, VscodeLogoMetadata } from './mix/vscode';
+import { VscodiumLogo, VscodiumLogoMetadata } from './mix/vscodium';
+import { VueLogo, VueLogoMetadata } from './mix/vue';
+import { VuetifyLogo, VuetifyLogoMetadata } from './mix/vuetify';
+import { VueuseLogo, VueuseLogoMetadata } from './mix/vueuse';
+import { WakatimeDarkLogo, WakatimeDarkLogoMetadata } from './mix/wakatime-dark';
+import { WakatimeLightLogo, WakatimeLightLogoMetadata } from './mix/wakatime-light';
+import { WarpLogo, WarpLogoMetadata } from './mix/warp';
+import { WebcomponentsLogo, WebcomponentsLogoMetadata } from './mix/webcomponents';
+import { WebdevLogo, WebdevLogoMetadata } from './mix/webdev';
+import { WebflowWordmarkDarkLogo, WebflowWordmarkDarkLogoMetadata } from './mix/webflow-wordmark-dark';
+import { WebflowWordmarkLightLogo, WebflowWordmarkLightLogoMetadata } from './mix/webflow-wordmark-light';
+import { WebflowLogo, WebflowLogoMetadata } from './mix/webflow';
+import { WebglLogo, WebglLogoMetadata } from './mix/webgl';
+import { WebglDark, WebglDarkMetadata } from './mix/webgl_dark';
+import { WebkitLogo, WebkitLogoMetadata } from './mix/webkit';
+import { WebstormLogo, WebstormLogoMetadata } from './mix/webstorm';
+import { WhatsappIconLogo, WhatsappIconLogoMetadata } from './mix/whatsapp-icon';
+import { WhatsappWordmarkLogo, WhatsappWordmarkLogoMetadata } from './mix/whatsapp-wordmark';
+import { WhopLightLogo, WhopLightLogoMetadata } from './mix/whop-light';
+import { WhopLogo, WhopLogoMetadata } from './mix/whop';
+import { WindicssLogo, WindicssLogoMetadata } from './mix/windicss';
+import { WindowsLogo, WindowsLogoMetadata } from './mix/windows';
+import { WindsurfDarkLogo, WindsurfDarkLogoMetadata } from './mix/windsurf-dark';
+import { WindsurfLightLogo, WindsurfLightLogoMetadata } from './mix/windsurf-light';
+import { WindsurfWordmarkDarkLogo, WindsurfWordmarkDarkLogoMetadata } from './mix/windsurf-wordmark-dark';
+import { WindsurfWordmarkLightLogo, WindsurfWordmarkLightLogoMetadata } from './mix/windsurf-wordmark-light';
+import { WordpressLogo, WordpressLogoMetadata } from './mix/wordpress';
+import { WorkosLightLogo, WorkosLightLogoMetadata } from './mix/workos-light';
+import { WorkosLogo, WorkosLogoMetadata } from './mix/workos';
+import { XLogo, XLogoMetadata } from './mix/x';
+import { XDark, XDarkMetadata } from './mix/x_dark';
+import { XaiDark, XaiDarkMetadata } from './mix/xai_dark';
+import { XaiLight, XaiLightMetadata } from './mix/xai_light';
+import { XboxLogo, XboxLogoMetadata } from './mix/xbox';
+import { XstateLogo, XstateLogoMetadata } from './mix/xstate';
+import { XstateDark, XstateDarkMetadata } from './mix/xstate_dark';
+import { YarnLogo, YarnLogoMetadata } from './mix/yarn';
+import { YgeekerLogo, YgeekerLogoMetadata } from './mix/ygeeker';
+import { YoutubeWordmarkDarkLogo, YoutubeWordmarkDarkLogoMetadata } from './mix/youtube-wordmark-dark';
+import { YoutubeWordmarkLightLogo, YoutubeWordmarkLightLogoMetadata } from './mix/youtube-wordmark-light';
+import { YoutubeLogo, YoutubeLogoMetadata } from './mix/youtube';
+import { YoutubeMusic, YoutubeMusicMetadata } from './mix/youtube_music';
+import { YoutubeMusicWordmarkDark, YoutubeMusicWordmarkDarkMetadata } from './mix/youtube_music_wordmark_dark';
+import { YoutubeMusicWordmarkLight, YoutubeMusicWordmarkLightMetadata } from './mix/youtube_music_wordmark_light';
+import { ZeaburDarkLogo, ZeaburDarkLogoMetadata } from './mix/zeabur-dark';
+import { ZeaburLightLogo, ZeaburLightLogoMetadata } from './mix/zeabur-light';
+import { ZeaburWordmarkDark, ZeaburWordmarkDarkMetadata } from './mix/zeabur_wordmark_dark';
+import { ZeaburWordmarkLight, ZeaburWordmarkLightMetadata } from './mix/zeabur_wordmark_light';
+import { ZedLogoLogo, ZedLogoLogoMetadata } from './mix/zed-logo';
+import { ZedLogoDark, ZedLogoDarkMetadata } from './mix/zed-logo_dark';
+import { ZenBrowserDarkLogo, ZenBrowserDarkLogoMetadata } from './mix/zen-browser-dark';
+import { ZenBrowserLightLogo, ZenBrowserLightLogoMetadata } from './mix/zen-browser-light';
+import { ZenBrowserWordmarkDarkLogo, ZenBrowserWordmarkDarkLogoMetadata } from './mix/zen-browser-wordmark-dark';
+import { ZenBrowserWordmarkLightLogo, ZenBrowserWordmarkLightLogoMetadata } from './mix/zen-browser-wordmark-light';
+import { ZigLogo, ZigLogoMetadata } from './mix/zig';
+import { ZodLogo, ZodLogoMetadata } from './mix/zod';
+import { ZoomLogo, ZoomLogoMetadata } from './mix/zoom';
+import { ZulipWordmarkLogo, ZulipWordmarkLogoMetadata } from './mix/zulip-wordmark';
+import { ZulipLogo, ZulipLogoMetadata } from './mix/zulip';
+import { ZyftLogo, ZyftLogoMetadata } from './mix/zyft';
+
+
+export const allLogos = {
+  mix: {
+    BeaconLogoLogo: { Component: BeaconLogoLogo, metadata: BeaconLogoLogoMetadata },
+    D3Logo: { Component: D3Logo, metadata: D3LogoMetadata },
+    FlowLauncherLogo: { Component: FlowLauncherLogo, metadata: FlowLauncherLogoMetadata },
+    GoogleColaboratory: { Component: GoogleColaboratory, metadata: GoogleColaboratoryMetadata },
+    AdobeXdLogo: { Component: AdobeXdLogo, metadata: AdobeXdLogoMetadata },
+    AdobeLogo: { Component: AdobeLogo, metadata: AdobeLogoMetadata },
+    AffinityDesignerLogo: { Component: AffinityDesignerLogo, metadata: AffinityDesignerLogoMetadata },
+    AffinityPhotoLogo: { Component: AffinityPhotoLogo, metadata: AffinityPhotoLogoMetadata },
+    AffinityPublisherLogo: { Component: AffinityPublisherLogo, metadata: AffinityPublisherLogoMetadata },
+    AfordinLogo: { Component: AfordinLogo, metadata: AfordinLogoMetadata },
+    AfordinDark: { Component: AfordinDark, metadata: AfordinDarkMetadata },
+    AfterEffectsLogo: { Component: AfterEffectsLogo, metadata: AfterEffectsLogoMetadata },
+    AhooksWordmarkDarkLogo: { Component: AhooksWordmarkDarkLogo, metadata: AhooksWordmarkDarkLogoMetadata },
+    AhooksWordmarkLightLogo: { Component: AhooksWordmarkLightLogo, metadata: AhooksWordmarkLightLogoMetadata },
+    AhooksLogo: { Component: AhooksLogo, metadata: AhooksLogoMetadata },
+    AhrefsWordmarkDarkLogo: { Component: AhrefsWordmarkDarkLogo, metadata: AhrefsWordmarkDarkLogoMetadata },
+    AhrefsWordmarkLightLogo: { Component: AhrefsWordmarkLightLogo, metadata: AhrefsWordmarkLightLogoMetadata },
+    AhrefsLogo: { Component: AhrefsLogo, metadata: AhrefsLogoMetadata },
+    AirbnbWordmarkLogo: { Component: AirbnbWordmarkLogo, metadata: AirbnbWordmarkLogoMetadata },
+    AirbnbLogo: { Component: AirbnbLogo, metadata: AirbnbLogoMetadata },
+    AlgoliaLogo: { Component: AlgoliaLogo, metadata: AlgoliaLogoMetadata },
+    AliexpressIconLogo: { Component: AliexpressIconLogo, metadata: AliexpressIconLogoMetadata },
+    AliexpressLogoLogo: { Component: AliexpressLogoLogo, metadata: AliexpressLogoLogoMetadata },
+    AmazonQLogo: { Component: AmazonQLogo, metadata: AmazonQLogoMetadata },
+    AmpLogo: { Component: AmpLogo, metadata: AmpLogoMetadata },
+    AndroidIconLogo: { Component: AndroidIconLogo, metadata: AndroidIconLogoMetadata },
+    AngularLogo: { Component: AngularLogo, metadata: AngularLogoMetadata },
+    AnimateLogo: { Component: AnimateLogo, metadata: AnimateLogoMetadata },
+    AntDesignDarkThemeLogo: { Component: AntDesignDarkThemeLogo, metadata: AntDesignDarkThemeLogoMetadata },
+    AnthropicBlack: { Component: AnthropicBlack, metadata: AnthropicBlackMetadata },
+    AnthropicBlackWordmark: { Component: AnthropicBlackWordmark, metadata: AnthropicBlackWordmarkMetadata },
+    AnthropicWhite: { Component: AnthropicWhite, metadata: AnthropicWhiteMetadata },
+    AnthropicWhiteWordmark: { Component: AnthropicWhiteWordmark, metadata: AnthropicWhiteWordmarkMetadata },
+    AntigravityWordmarkLogo: { Component: AntigravityWordmarkLogo, metadata: AntigravityWordmarkLogoMetadata },
+    AntigravityLogo: { Component: AntigravityLogo, metadata: AntigravityLogoMetadata },
+    ApacheKafkaDarkLogo: { Component: ApacheKafkaDarkLogo, metadata: ApacheKafkaDarkLogoMetadata },
+    ApacheKafkaLightLogo: { Component: ApacheKafkaLightLogo, metadata: ApacheKafkaLightLogoMetadata },
+    ApacheKafkaWordmarkDarkLogo: { Component: ApacheKafkaWordmarkDarkLogo, metadata: ApacheKafkaWordmarkDarkLogoMetadata },
+    ApacheKafkaWordmarkLightLogo: { Component: ApacheKafkaWordmarkLightLogo, metadata: ApacheKafkaWordmarkLightLogoMetadata },
+    ApidogLogo: { Component: ApidogLogo, metadata: ApidogLogoMetadata },
+    ApolloIoLogo: { Component: ApolloIoLogo, metadata: ApolloIoLogoMetadata },
+    AppleMusicIconLogo: { Component: AppleMusicIconLogo, metadata: AppleMusicIconLogoMetadata },
+    AppleMusicWordmarkDarkLogo: { Component: AppleMusicWordmarkDarkLogo, metadata: AppleMusicWordmarkDarkLogoMetadata },
+    AppleMusicWordmarkLightLogo: { Component: AppleMusicWordmarkLightLogo, metadata: AppleMusicWordmarkLightLogoMetadata },
+    AppleLogo: { Component: AppleLogo, metadata: AppleLogoMetadata },
+    AppleDark: { Component: AppleDark, metadata: AppleDarkMetadata },
+    AppstoreLogo: { Component: AppstoreLogo, metadata: AppstoreLogoMetadata },
+    AppwriteLogo: { Component: AppwriteLogo, metadata: AppwriteLogoMetadata },
+    ArcLogo: { Component: ArcLogo, metadata: ArcLogoMetadata },
+    ArcBrowser: { Component: ArcBrowser, metadata: ArcBrowserMetadata },
+    ArcDark: { Component: ArcDark, metadata: ArcDarkMetadata },
+    ArcFintechDark: { Component: ArcFintechDark, metadata: ArcFintechDarkMetadata },
+    ArcFintechLight: { Component: ArcFintechLight, metadata: ArcFintechLightMetadata },
+    ArkUiLogo: { Component: ArkUiLogo, metadata: ArkUiLogoMetadata },
+    AsanaLogoLogo: { Component: AsanaLogoLogo, metadata: AsanaLogoLogoMetadata },
+    AsanaWordmarkDarkLogo: { Component: AsanaWordmarkDarkLogo, metadata: AsanaWordmarkDarkLogoMetadata },
+    AsanaWordmarkLightLogo: { Component: AsanaWordmarkLightLogo, metadata: AsanaWordmarkLightLogoMetadata },
+    AstroIconDarkLogo: { Component: AstroIconDarkLogo, metadata: AstroIconDarkLogoMetadata },
+    AstroIconLightLogo: { Component: AstroIconLightLogo, metadata: AstroIconLightLogoMetadata },
+    AstroWordmarkDarkLogo: { Component: AstroWordmarkDarkLogo, metadata: AstroWordmarkDarkLogoMetadata },
+    AstroWordmarkLightLogo: { Component: AstroWordmarkLightLogo, metadata: AstroWordmarkLightLogoMetadata },
+    AtlassianLogo: { Component: AtlassianLogo, metadata: AtlassianLogoMetadata },
+    AtomLogo: { Component: AtomLogo, metadata: AtomLogoMetadata },
+    Auth0Logo: { Component: Auth0Logo, metadata: Auth0LogoMetadata },
+    AuthjsLogo: { Component: AuthjsLogo, metadata: AuthjsLogoMetadata },
+    AuthyLogo: { Component: AuthyLogo, metadata: AuthyLogoMetadata },
+    AwsDark: { Component: AwsDark, metadata: AwsDarkMetadata },
+    AwsLight: { Component: AwsLight, metadata: AwsLightMetadata },
+    AxiomDarkLogo: { Component: AxiomDarkLogo, metadata: AxiomDarkLogoMetadata },
+    AxiomLightLogo: { Component: AxiomLightLogo, metadata: AxiomLightLogoMetadata },
+    AxiomWordmarkDarkLogo: { Component: AxiomWordmarkDarkLogo, metadata: AxiomWordmarkDarkLogoMetadata },
+    AxiomWordmarkLightLogo: { Component: AxiomWordmarkLightLogo, metadata: AxiomWordmarkLightLogoMetadata },
+    AxureLogo: { Component: AxureLogo, metadata: AxureLogoMetadata },
+    AzureLogo: { Component: AzureLogo, metadata: AzureLogoMetadata },
+    BabelLogo: { Component: BabelLogo, metadata: BabelLogoMetadata },
+    BaseUiDarkLogo: { Component: BaseUiDarkLogo, metadata: BaseUiDarkLogoMetadata },
+    BaseUiLogo: { Component: BaseUiLogo, metadata: BaseUiLogoMetadata },
+    BasewellLogo: { Component: BasewellLogo, metadata: BasewellLogoMetadata },
+    BashLogo: { Component: BashLogo, metadata: BashLogoMetadata },
+    BashDark: { Component: BashDark, metadata: BashDarkMetadata },
+    BentoLogo: { Component: BentoLogo, metadata: BentoLogoMetadata },
+    BetterAuthDark: { Component: BetterAuthDark, metadata: BetterAuthDarkMetadata },
+    BetterAuthLight: { Component: BetterAuthLight, metadata: BetterAuthLightMetadata },
+    BetterAuthWordmarkDark: { Component: BetterAuthWordmarkDark, metadata: BetterAuthWordmarkDarkMetadata },
+    BetterAuthWordmarkLight: { Component: BetterAuthWordmarkLight, metadata: BetterAuthWordmarkLightMetadata },
+    BinanceLogo: { Component: BinanceLogo, metadata: BinanceLogoMetadata },
+    BingLogo: { Component: BingLogo, metadata: BingLogoMetadata },
+    BiomejsLogo: { Component: BiomejsLogo, metadata: BiomejsLogoMetadata },
+    BitwardenLogo: { Component: BitwardenLogo, metadata: BitwardenLogoMetadata },
+    BklitDarkLogo: { Component: BklitDarkLogo, metadata: BklitDarkLogoMetadata },
+    BklitLightLogo: { Component: BklitLightLogo, metadata: BklitLightLogoMetadata },
+    BlenderLogo: { Component: BlenderLogo, metadata: BlenderLogoMetadata },
+    BlitzjsLogo: { Component: BlitzjsLogo, metadata: BlitzjsLogoMetadata },
+    BlueskyLogo: { Component: BlueskyLogo, metadata: BlueskyLogoMetadata },
+    BmcLogo: { Component: BmcLogo, metadata: BmcLogoMetadata },
+    BnbLogo: { Component: BnbLogo, metadata: BnbLogoMetadata },
+    BoltNewLogo: { Component: BoltNewLogo, metadata: BoltNewLogoMetadata },
+    BoltNewDark: { Component: BoltNewDark, metadata: BoltNewDarkMetadata },
+    BootstrapLogo: { Component: BootstrapLogo, metadata: BootstrapLogoMetadata },
+    BraveLogo: { Component: BraveLogo, metadata: BraveLogoMetadata },
+    BtcLogo: { Component: BtcLogo, metadata: BtcLogoMetadata },
+    BuilderLogo: { Component: BuilderLogo, metadata: BuilderLogoMetadata },
+    BuildshipLogo: { Component: BuildshipLogo, metadata: BuildshipLogoMetadata },
+    BunLogo: { Component: BunLogo, metadata: BunLogoMetadata },
+    CPlusplusLogo: { Component: CPlusplusLogo, metadata: CPlusplusLogoMetadata },
+    CLogo: { Component: CLogo, metadata: CLogoMetadata },
+    CPOrange: { Component: CPOrange, metadata: CPOrangeMetadata },
+    CPanelOrangeWordmark: { Component: CPanelOrangeWordmark, metadata: CPanelOrangeWordmarkMetadata },
+    CalLogo: { Component: CalLogo, metadata: CalLogoMetadata },
+    CalDark: { Component: CalDark, metadata: CalDarkMetadata },
+    CalendlyLogo: { Component: CalendlyLogo, metadata: CalendlyLogoMetadata },
+    CanvaLogo: { Component: CanvaLogo, metadata: CanvaLogoMetadata },
+    CarrdLogo: { Component: CarrdLogo, metadata: CarrdLogoMetadata },
+    ChakraUiLogo: { Component: ChakraUiLogo, metadata: ChakraUiLogoMetadata },
+    ChartjsLogo: { Component: ChartjsLogo, metadata: ChartjsLogoMetadata },
+    ChromeLogo: { Component: ChromeLogo, metadata: ChromeLogoMetadata },
+    ChromiumLogo: { Component: ChromiumLogo, metadata: ChromiumLogoMetadata },
+    CiscoDark: { Component: CiscoDark, metadata: CiscoDarkMetadata },
+    CiscoLight: { Component: CiscoLight, metadata: CiscoLightMetadata },
+    ClaudeAiIconLogo: { Component: ClaudeAiIconLogo, metadata: ClaudeAiIconLogoMetadata },
+    ClaudeAiWordmarkIconDark: { Component: ClaudeAiWordmarkIconDark, metadata: ClaudeAiWordmarkIconDarkMetadata },
+    ClaudeAiWordmarkIconLight: { Component: ClaudeAiWordmarkIconLight, metadata: ClaudeAiWordmarkIconLightMetadata },
+    ClerkIconDarkLogo: { Component: ClerkIconDarkLogo, metadata: ClerkIconDarkLogoMetadata },
+    ClerkIconLightLogo: { Component: ClerkIconLightLogo, metadata: ClerkIconLightLogoMetadata },
+    ClerkWordmarkDarkLogo: { Component: ClerkWordmarkDarkLogo, metadata: ClerkWordmarkDarkLogoMetadata },
+    ClerkWordmarkLightLogo: { Component: ClerkWordmarkLightLogo, metadata: ClerkWordmarkLightLogoMetadata },
+    CloudflareWorkersLogo: { Component: CloudflareWorkersLogo, metadata: CloudflareWorkersLogoMetadata },
+    CloudflareLogo: { Component: CloudflareLogo, metadata: CloudflareLogoMetadata },
+    CloudinaryLogo: { Component: CloudinaryLogo, metadata: CloudinaryLogoMetadata },
+    CobolLogo: { Component: CobolLogo, metadata: CobolLogoMetadata },
+    CodesandboxSquareLogo: { Component: CodesandboxSquareLogo, metadata: CodesandboxSquareLogoMetadata },
+    CodiumLogo: { Component: CodiumLogo, metadata: CodiumLogoMetadata },
+    CodyLogo: { Component: CodyLogo, metadata: CodyLogoMetadata },
+    CohereLogo: { Component: CohereLogo, metadata: CohereLogoMetadata },
+    CohereWordmark: { Component: CohereWordmark, metadata: CohereWordmarkMetadata },
+    CoinbaseWordmarkDarkLogo: { Component: CoinbaseWordmarkDarkLogo, metadata: CoinbaseWordmarkDarkLogoMetadata },
+    CoinbaseWordmarkLightLogo: { Component: CoinbaseWordmarkLightLogo, metadata: CoinbaseWordmarkLightLogoMetadata },
+    CoinbaseLogo: { Component: CoinbaseLogo, metadata: CoinbaseLogoMetadata },
+    ConvexLogo: { Component: ConvexLogo, metadata: ConvexLogoMetadata },
+    ConvexWordmarkDark: { Component: ConvexWordmarkDark, metadata: ConvexWordmarkDarkMetadata },
+    ConvexWordmarkLight: { Component: ConvexWordmarkLight, metadata: ConvexWordmarkLightMetadata },
+    CopilotLogo: { Component: CopilotLogo, metadata: CopilotLogoMetadata },
+    CopilotDark: { Component: CopilotDark, metadata: CopilotDarkMetadata },
+    CourseraLogo: { Component: CourseraLogo, metadata: CourseraLogoMetadata },
+    CrossplaneLogo: { Component: CrossplaneLogo, metadata: CrossplaneLogoMetadata },
+    CsharpLogo: { Component: CsharpLogo, metadata: CsharpLogoMetadata },
+    CssLogo: { Component: CssLogo, metadata: CssLogoMetadata },
+    CssOld: { Component: CssOld, metadata: CssOldMetadata },
+    CurseforgeDarkLogo: { Component: CurseforgeDarkLogo, metadata: CurseforgeDarkLogoMetadata },
+    CurseforgeWordmarkDarkLogo: { Component: CurseforgeWordmarkDarkLogo, metadata: CurseforgeWordmarkDarkLogoMetadata },
+    CurseforgeWordmarkLogo: { Component: CurseforgeWordmarkLogo, metadata: CurseforgeWordmarkLogoMetadata },
+    CurseforgeLogo: { Component: CurseforgeLogo, metadata: CurseforgeLogoMetadata },
+    CursorDark: { Component: CursorDark, metadata: CursorDarkMetadata },
+    CursorLight: { Component: CursorLight, metadata: CursorLightMetadata },
+    CursorWordmarkDark: { Component: CursorWordmarkDark, metadata: CursorWordmarkDarkMetadata },
+    CursorWordmarkLight: { Component: CursorWordmarkLight, metadata: CursorWordmarkLightMetadata },
+    CypressLogo: { Component: CypressLogo, metadata: CypressLogoMetadata },
+    DailyDevDarkLogo: { Component: DailyDevDarkLogo, metadata: DailyDevDarkLogoMetadata },
+    DailyDevLigthLogo: { Component: DailyDevLigthLogo, metadata: DailyDevLigthLogoMetadata },
+    DaisyuiLogo: { Component: DaisyuiLogo, metadata: DaisyuiLogoMetadata },
+    DartLogo: { Component: DartLogo, metadata: DartLogoMetadata },
+    DatadogLogo: { Component: DatadogLogo, metadata: DatadogLogoMetadata },
+    DeepseekLogo: { Component: DeepseekLogo, metadata: DeepseekLogoMetadata },
+    DeepseekWordmark: { Component: DeepseekWordmark, metadata: DeepseekWordmarkMetadata },
+    DenoLogo: { Component: DenoLogo, metadata: DenoLogoMetadata },
+    DenoDark: { Component: DenoDark, metadata: DenoDarkMetadata },
+    DenoWordmark: { Component: DenoWordmark, metadata: DenoWordmarkMetadata },
+    DenoWordmarkDark: { Component: DenoWordmarkDark, metadata: DenoWordmarkDarkMetadata },
+    DesignaliLogo: { Component: DesignaliLogo, metadata: DesignaliLogoMetadata },
+    DevtoDarkLogo: { Component: DevtoDarkLogo, metadata: DevtoDarkLogoMetadata },
+    DevtoLightLogo: { Component: DevtoLightLogo, metadata: DevtoLightLogoMetadata },
+    DigitaloceanLogo: { Component: DigitaloceanLogo, metadata: DigitaloceanLogoMetadata },
+    DingocoinLogo: { Component: DingocoinLogo, metadata: DingocoinLogoMetadata },
+    DirectusLogo: { Component: DirectusLogo, metadata: DirectusLogoMetadata },
+    DiscordLogo: { Component: DiscordLogo, metadata: DiscordLogoMetadata },
+    DiscourseLogo: { Component: DiscourseLogo, metadata: DiscourseLogoMetadata },
+    DisneyplusLogo: { Component: DisneyplusLogo, metadata: DisneyplusLogoMetadata },
+    DjangoLogo: { Component: DjangoLogo, metadata: DjangoLogoMetadata },
+    DjsLogo: { Component: DjsLogo, metadata: DjsLogoMetadata },
+    DockerLogo: { Component: DockerLogo, metadata: DockerLogoMetadata },
+    DocumensoLogo: { Component: DocumensoLogo, metadata: DocumensoLogoMetadata },
+    DocumensoDark: { Component: DocumensoDark, metadata: DocumensoDarkMetadata },
+    DocusDarkLogo: { Component: DocusDarkLogo, metadata: DocusDarkLogoMetadata },
+    DocusLightLogo: { Component: DocusLightLogo, metadata: DocusLightLogoMetadata },
+    DocusWordmarkDarkLogo: { Component: DocusWordmarkDarkLogo, metadata: DocusWordmarkDarkLogoMetadata },
+    DocusWordmarkLightLogo: { Component: DocusWordmarkLightLogo, metadata: DocusWordmarkLightLogoMetadata },
+    DocusaurusLogo: { Component: DocusaurusLogo, metadata: DocusaurusLogoMetadata },
+    DodoPaymentsWordmarkDarkLogo: { Component: DodoPaymentsWordmarkDarkLogo, metadata: DodoPaymentsWordmarkDarkLogoMetadata },
+    DodoPaymentsWordmarkLightLogo: { Component: DodoPaymentsWordmarkLightLogo, metadata: DodoPaymentsWordmarkLightLogoMetadata },
+    DodoPaymentsLogo: { Component: DodoPaymentsLogo, metadata: DodoPaymentsLogoMetadata },
+    DogeLogo: { Component: DogeLogo, metadata: DogeLogoMetadata },
+    DotenvLogo: { Component: DotenvLogo, metadata: DotenvLogoMetadata },
+    DotenvxLogo: { Component: DotenvxLogo, metadata: DotenvxLogoMetadata },
+    DotnetLogo: { Component: DotnetLogo, metadata: DotnetLogoMetadata },
+    DribbbleWordmarkDarkLogo: { Component: DribbbleWordmarkDarkLogo, metadata: DribbbleWordmarkDarkLogoMetadata },
+    DribbbleWordmarkLightLogo: { Component: DribbbleWordmarkLightLogo, metadata: DribbbleWordmarkLightLogoMetadata },
+    DribbbleLogo: { Component: DribbbleLogo, metadata: DribbbleLogoMetadata },
+    DriveLogo: { Component: DriveLogo, metadata: DriveLogoMetadata },
+    DrizzleOrmDark: { Component: DrizzleOrmDark, metadata: DrizzleOrmDarkMetadata },
+    DrizzleOrmLight: { Component: DrizzleOrmLight, metadata: DrizzleOrmLightMetadata },
+    DropboxLogo: { Component: DropboxLogo, metadata: DropboxLogoMetadata },
+    DropboxWordmark: { Component: DropboxWordmark, metadata: DropboxWordmarkMetadata },
+    DropboxWordmarkDark: { Component: DropboxWordmarkDark, metadata: DropboxWordmarkDarkMetadata },
+    DubLogo: { Component: DubLogo, metadata: DubLogoMetadata },
+    DubDarkLogo: { Component: DubDarkLogo, metadata: DubDarkLogoMetadata },
+    DubDarkWordmark: { Component: DubDarkWordmark, metadata: DubDarkWordmarkMetadata },
+    DubLightWordmark: { Component: DubLightWordmark, metadata: DubLightWordmarkMetadata },
+    DuckduckgoWordmarkLogo: { Component: DuckduckgoWordmarkLogo, metadata: DuckduckgoWordmarkLogoMetadata },
+    DuckduckgoLogo: { Component: DuckduckgoLogo, metadata: DuckduckgoLogoMetadata },
+    DwLogo: { Component: DwLogo, metadata: DwLogoMetadata },
+    EbayLogo: { Component: EbayLogo, metadata: EbayLogoMetadata },
+    EclipseLogo: { Component: EclipseLogo, metadata: EclipseLogoMetadata },
+    EdgeLogo: { Component: EdgeLogo, metadata: EdgeLogoMetadata },
+    EffectDark: { Component: EffectDark, metadata: EffectDarkMetadata },
+    EffectLight: { Component: EffectLight, metadata: EffectLightMetadata },
+    ElectronLogo: { Component: ElectronLogo, metadata: ElectronLogoMetadata },
+    ElementorLogo: { Component: ElementorLogo, metadata: ElementorLogoMetadata },
+    ElysiajsLogo: { Component: ElysiajsLogo, metadata: ElysiajsLogoMetadata },
+    EmacsLogo: { Component: EmacsLogo, metadata: EmacsLogoMetadata },
+    EmberLogo: { Component: EmberLogo, metadata: EmberLogoMetadata },
+    EpicgamesIconDarkLogo: { Component: EpicgamesIconDarkLogo, metadata: EpicgamesIconDarkLogoMetadata },
+    EpicgamesIconLightLogo: { Component: EpicgamesIconLightLogo, metadata: EpicgamesIconLightLogoMetadata },
+    EsbuildLogo: { Component: EsbuildLogo, metadata: EsbuildLogoMetadata },
+    EslintIconDarkLogo: { Component: EslintIconDarkLogo, metadata: EslintIconDarkLogoMetadata },
+    EslintIconLightLogo: { Component: EslintIconLightLogo, metadata: EslintIconLightLogoMetadata },
+    EslintWordmarkDarkLogo: { Component: EslintWordmarkDarkLogo, metadata: EslintWordmarkDarkLogoMetadata },
+    EslintWordmarkLightLogo: { Component: EslintWordmarkLightLogo, metadata: EslintWordmarkLightLogoMetadata },
+    EthLogo: { Component: EthLogo, metadata: EthLogoMetadata },
+    ExomeLogo: { Component: ExomeLogo, metadata: ExomeLogoMetadata },
+    ExpoLogo: { Component: ExpoLogo, metadata: ExpoLogoMetadata },
+    ExpressjsLogo: { Component: ExpressjsLogo, metadata: ExpressjsLogoMetadata },
+    ExpressjsDark: { Component: ExpressjsDark, metadata: ExpressjsDarkMetadata },
+    FacebookIconLogo: { Component: FacebookIconLogo, metadata: FacebookIconLogoMetadata },
+    FacebookWordmarkLogo: { Component: FacebookWordmarkLogo, metadata: FacebookWordmarkLogoMetadata },
+    FastapiLogo: { Component: FastapiLogo, metadata: FastapiLogoMetadata },
+    FastifyLogo: { Component: FastifyLogo, metadata: FastifyLogoMetadata },
+    FastifyDark: { Component: FastifyDark, metadata: FastifyDarkMetadata },
+    FigmaLogo: { Component: FigmaLogo, metadata: FigmaLogoMetadata },
+    FirebaseStudioLogo: { Component: FirebaseStudioLogo, metadata: FirebaseStudioLogoMetadata },
+    FirebaseWordmarkLogo: { Component: FirebaseWordmarkLogo, metadata: FirebaseWordmarkLogoMetadata },
+    FirebaseLogo: { Component: FirebaseLogo, metadata: FirebaseLogoMetadata },
+    FirecrawlDarkWordmarkLogo: { Component: FirecrawlDarkWordmarkLogo, metadata: FirecrawlDarkWordmarkLogoMetadata },
+    FirecrawlDarkLogo: { Component: FirecrawlDarkLogo, metadata: FirecrawlDarkLogoMetadata },
+    FirecrawlWordmarkLogo: { Component: FirecrawlWordmarkLogo, metadata: FirecrawlWordmarkLogoMetadata },
+    FirecrawlLogo: { Component: FirecrawlLogo, metadata: FirecrawlLogoMetadata },
+    FirefoxLogo: { Component: FirefoxLogo, metadata: FirefoxLogoMetadata },
+    FlaskDarkLogo: { Component: FlaskDarkLogo, metadata: FlaskDarkLogoMetadata },
+    FlaskLightLogo: { Component: FlaskLightLogo, metadata: FlaskLightLogoMetadata },
+    FlaskWordmarkDarkLogo: { Component: FlaskWordmarkDarkLogo, metadata: FlaskWordmarkDarkLogoMetadata },
+    FlaskWordmarkLightLogo: { Component: FlaskWordmarkLightLogo, metadata: FlaskWordmarkLightLogoMetadata },
+    FleetLogo: { Component: FleetLogo, metadata: FleetLogoMetadata },
+    FlowbiteLogo: { Component: FlowbiteLogo, metadata: FlowbiteLogoMetadata },
+    FlutterLogo: { Component: FlutterLogo, metadata: FlutterLogoMetadata },
+    FlyLogo: { Component: FlyLogo, metadata: FlyLogoMetadata },
+    FormanceDarkLogo: { Component: FormanceDarkLogo, metadata: FormanceDarkLogoMetadata },
+    FormanceLightLogo: { Component: FormanceLightLogo, metadata: FormanceLightLogoMetadata },
+    FormanceWordmarkDarkLogo: { Component: FormanceWordmarkDarkLogo, metadata: FormanceWordmarkDarkLogoMetadata },
+    FormanceWordmarkLightLogo: { Component: FormanceWordmarkLightLogo, metadata: FormanceWordmarkLightLogoMetadata },
+    FortranLogo: { Component: FortranLogo, metadata: FortranLogoMetadata },
+    FramerLogo: { Component: FramerLogo, metadata: FramerLogoMetadata },
+    FramerDark: { Component: FramerDark, metadata: FramerDarkMetadata },
+    FreshLogo: { Component: FreshLogo, metadata: FreshLogoMetadata },
+    FrontLogo: { Component: FrontLogo, metadata: FrontLogoMetadata },
+    GatsbyLogo: { Component: GatsbyLogo, metadata: GatsbyLogoMetadata },
+    GdscLogo: { Component: GdscLogo, metadata: GdscLogoMetadata },
+    GeminiLogo: { Component: GeminiLogo, metadata: GeminiLogoMetadata },
+    GeminiWordmark: { Component: GeminiWordmark, metadata: GeminiWordmarkMetadata },
+    GhosttyLogo: { Component: GhosttyLogo, metadata: GhosttyLogoMetadata },
+    GhosttyWordmarkDark: { Component: GhosttyWordmarkDark, metadata: GhosttyWordmarkDarkMetadata },
+    GhosttyWordmarkLight: { Component: GhosttyWordmarkLight, metadata: GhosttyWordmarkLightMetadata },
+    GimpLogo: { Component: GimpLogo, metadata: GimpLogoMetadata },
+    GitLogo: { Component: GitLogo, metadata: GitLogoMetadata },
+    GithubDark: { Component: GithubDark, metadata: GithubDarkMetadata },
+    GithubLight: { Component: GithubLight, metadata: GithubLightMetadata },
+    GithubWordmarkDark: { Component: GithubWordmarkDark, metadata: GithubWordmarkDarkMetadata },
+    GithubWordmarkLight: { Component: GithubWordmarkLight, metadata: GithubWordmarkLightMetadata },
+    GitlabLogo: { Component: GitlabLogo, metadata: GitlabLogoMetadata },
+    GleamLogo: { Component: GleamLogo, metadata: GleamLogoMetadata },
+    GmailLogo: { Component: GmailLogo, metadata: GmailLogoMetadata },
+    GodaddyLogo: { Component: GodaddyLogo, metadata: GodaddyLogoMetadata },
+    GodaddyDark: { Component: GodaddyDark, metadata: GodaddyDarkMetadata },
+    GodotEngine: { Component: GodotEngine, metadata: GodotEngineMetadata },
+    GoilDarkLogo: { Component: GoilDarkLogo, metadata: GoilDarkLogoMetadata },
+    GoilWordmarkDarkLogo: { Component: GoilWordmarkDarkLogo, metadata: GoilWordmarkDarkLogoMetadata },
+    GoilWordmarkLogo: { Component: GoilWordmarkLogo, metadata: GoilWordmarkLogoMetadata },
+    GoilLogo: { Component: GoilLogo, metadata: GoilLogoMetadata },
+    GolangLogo: { Component: GolangLogo, metadata: GolangLogoMetadata },
+    GolangDark: { Component: GolangDark, metadata: GolangDarkMetadata },
+    GoogleClassroomLogo: { Component: GoogleClassroomLogo, metadata: GoogleClassroomLogoMetadata },
+    GoogleCloudLogo: { Component: GoogleCloudLogo, metadata: GoogleCloudLogoMetadata },
+    GoogleIdxLogo: { Component: GoogleIdxLogo, metadata: GoogleIdxLogoMetadata },
+    GooglePalmLogo: { Component: GooglePalmLogo, metadata: GooglePalmLogoMetadata },
+    GoogleWordmarkLogo: { Component: GoogleWordmarkLogo, metadata: GoogleWordmarkLogoMetadata },
+    GoogleLogo: { Component: GoogleLogo, metadata: GoogleLogoMetadata },
+    GoogleMapsLogo: { Component: GoogleMapsLogo, metadata: GoogleMapsLogoMetadata },
+    GoogleplayWordmarkDarkLogo: { Component: GoogleplayWordmarkDarkLogo, metadata: GoogleplayWordmarkDarkLogoMetadata },
+    GoogleplayWordmarkLightLogo: { Component: GoogleplayWordmarkLightLogo, metadata: GoogleplayWordmarkLightLogoMetadata },
+    GoogleplayLogo: { Component: GoogleplayLogo, metadata: GoogleplayLogoMetadata },
+    GradioLogo: { Component: GradioLogo, metadata: GradioLogoMetadata },
+    GrafanaLogo: { Component: GrafanaLogo, metadata: GrafanaLogoMetadata },
+    GraphqlLogo: { Component: GraphqlLogo, metadata: GraphqlLogoMetadata },
+    GrokDarkLogo: { Component: GrokDarkLogo, metadata: GrokDarkLogoMetadata },
+    GrokLightLogo: { Component: GrokLightLogo, metadata: GrokLightLogoMetadata },
+    GrokWordmarkDarkLogo: { Component: GrokWordmarkDarkLogo, metadata: GrokWordmarkDarkLogoMetadata },
+    GrokWordmarkLightLogo: { Component: GrokWordmarkLightLogo, metadata: GrokWordmarkLightLogoMetadata },
+    GroqLogo: { Component: GroqLogo, metadata: GroqLogoMetadata },
+    GroqWordmarkDark: { Component: GroqWordmarkDark, metadata: GroqWordmarkDarkMetadata },
+    GroqWordmarkLight: { Component: GroqWordmarkLight, metadata: GroqWordmarkLightMetadata },
+    HackTheBoxWordmarkDarkLogo: { Component: HackTheBoxWordmarkDarkLogo, metadata: HackTheBoxWordmarkDarkLogoMetadata },
+    HackTheBoxWordmarkLightLogo: { Component: HackTheBoxWordmarkLightLogo, metadata: HackTheBoxWordmarkLightLogoMetadata },
+    HackTheBoxLogo: { Component: HackTheBoxLogo, metadata: HackTheBoxLogoMetadata },
+    HashnodeLogo: { Component: HashnodeLogo, metadata: HashnodeLogoMetadata },
+    HaskellLogo: { Component: HaskellLogo, metadata: HaskellLogoMetadata },
+    HcaptchaLogo: { Component: HcaptchaLogo, metadata: HcaptchaLogoMetadata },
+    HeadlessuiLogo: { Component: HeadlessuiLogo, metadata: HeadlessuiLogoMetadata },
+    HeptabaseLogo: { Component: HeptabaseLogo, metadata: HeptabaseLogoMetadata },
+    HerokuLogo: { Component: HerokuLogo, metadata: HerokuLogoMetadata },
+    HerouiBlack: { Component: HerouiBlack, metadata: HerouiBlackMetadata },
+    HerouiLight: { Component: HerouiLight, metadata: HerouiLightMetadata },
+    HomeAssistantWordmarkDarkLogo: { Component: HomeAssistantWordmarkDarkLogo, metadata: HomeAssistantWordmarkDarkLogoMetadata },
+    HomeAssistantWordmarkLogo: { Component: HomeAssistantWordmarkLogo, metadata: HomeAssistantWordmarkLogoMetadata },
+    HomeAssistantLogo: { Component: HomeAssistantLogo, metadata: HomeAssistantLogoMetadata },
+    HomebrewLogo: { Component: HomebrewLogo, metadata: HomebrewLogoMetadata },
+    HonoLogo: { Component: HonoLogo, metadata: HonoLogoMetadata },
+    HoppscotchLogo: { Component: HoppscotchLogo, metadata: HoppscotchLogoMetadata },
+    HostgatorLogo: { Component: HostgatorLogo, metadata: HostgatorLogoMetadata },
+    Html5Logo: { Component: Html5Logo, metadata: Html5LogoMetadata },
+    HuggingFace: { Component: HuggingFace, metadata: HuggingFaceMetadata },
+    HugoLogo: { Component: HugoLogo, metadata: HugoLogoMetadata },
+    HuluDarkLogo: { Component: HuluDarkLogo, metadata: HuluDarkLogoMetadata },
+    HuluLogo: { Component: HuluLogo, metadata: HuluLogoMetadata },
+    HumeAiLogo: { Component: HumeAiLogo, metadata: HumeAiLogoMetadata },
+    IbmLogo: { Component: IbmLogo, metadata: IbmLogoMetadata },
+    IllustratorLogo: { Component: IllustratorLogo, metadata: IllustratorLogoMetadata },
+    IndesignLogo: { Component: IndesignLogo, metadata: IndesignLogoMetadata },
+    InflectionaiDark: { Component: InflectionaiDark, metadata: InflectionaiDarkMetadata },
+    InflectionaiLight: { Component: InflectionaiLight, metadata: InflectionaiLightMetadata },
+    InflectionaiWordmarkDark: { Component: InflectionaiWordmarkDark, metadata: InflectionaiWordmarkDarkMetadata },
+    InflectionaiWordmarkLight: { Component: InflectionaiWordmarkLight, metadata: InflectionaiWordmarkLightMetadata },
+    InfojobsLogoLogo: { Component: InfojobsLogoLogo, metadata: InfojobsLogoLogoMetadata },
+    InngestDarkLogo: { Component: InngestDarkLogo, metadata: InngestDarkLogoMetadata },
+    InngestLightLogo: { Component: InngestLightLogo, metadata: InngestLightLogoMetadata },
+    InstagramIconLogo: { Component: InstagramIconLogo, metadata: InstagramIconLogoMetadata },
+    InstagramWordmarkLogo: { Component: InstagramWordmarkLogo, metadata: InstagramWordmarkLogoMetadata },
+    InstatusLogo: { Component: InstatusLogo, metadata: InstatusLogoMetadata },
+    InstatusDark: { Component: InstatusDark, metadata: InstatusDarkMetadata },
+    IntellijideaLogo: { Component: IntellijideaLogo, metadata: IntellijideaLogoMetadata },
+    IntelloDarkLogo: { Component: IntelloDarkLogo, metadata: IntelloDarkLogoMetadata },
+    IntelloLightLogo: { Component: IntelloLightLogo, metadata: IntelloLightLogoMetadata },
+    IntelloWordmarkDark: { Component: IntelloWordmarkDark, metadata: IntelloWordmarkDarkMetadata },
+    IntelloWordmarkLight: { Component: IntelloWordmarkLight, metadata: IntelloWordmarkLightMetadata },
+    IntlayerDarkLogo: { Component: IntlayerDarkLogo, metadata: IntlayerDarkLogoMetadata },
+    IntlayerLightLogo: { Component: IntlayerLightLogo, metadata: IntlayerLightLogoMetadata },
+    JasmineLogo: { Component: JasmineLogo, metadata: JasmineLogoMetadata },
+    JavaLogo: { Component: JavaLogo, metadata: JavaLogoMetadata },
+    JavascriptLogo: { Component: JavascriptLogo, metadata: JavascriptLogoMetadata },
+    JestLogo: { Component: JestLogo, metadata: JestLogoMetadata },
+    JetbrainsSpaceLogo: { Component: JetbrainsSpaceLogo, metadata: JetbrainsSpaceLogoMetadata },
+    JetbrainsLogo: { Component: JetbrainsLogo, metadata: JetbrainsLogoMetadata },
+    JetbrainsSolidLogo: { Component: JetbrainsSolidLogo, metadata: JetbrainsSolidLogoMetadata },
+    JqueryLogo: { Component: JqueryLogo, metadata: JqueryLogoMetadata },
+    JqueryDark: { Component: JqueryDark, metadata: JqueryDarkMetadata },
+    JsonSchemaLogo: { Component: JsonSchemaLogo, metadata: JsonSchemaLogoMetadata },
+    JsonLogo: { Component: JsonLogo, metadata: JsonLogoMetadata },
+    JuliaLogo: { Component: JuliaLogo, metadata: JuliaLogoMetadata },
+    JwtLogo: { Component: JwtLogo, metadata: JwtLogoMetadata },
+    KeycloakLogo: { Component: KeycloakLogo, metadata: KeycloakLogoMetadata },
+    KiboUiDarkLogo: { Component: KiboUiDarkLogo, metadata: KiboUiDarkLogoMetadata },
+    KiboUiLightLogo: { Component: KiboUiLightLogo, metadata: KiboUiLightLogoMetadata },
+    KickDarkLogo: { Component: KickDarkLogo, metadata: KickDarkLogoMetadata },
+    KickLightLogo: { Component: KickLightLogo, metadata: KickLightLogoMetadata },
+    KilocodeDarkLogo: { Component: KilocodeDarkLogo, metadata: KilocodeDarkLogoMetadata },
+    KilocodeLightLogo: { Component: KilocodeLightLogo, metadata: KilocodeLightLogoMetadata },
+    KimiIconLogo: { Component: KimiIconLogo, metadata: KimiIconLogoMetadata },
+    KimiWordmarkDarkLogo: { Component: KimiWordmarkDarkLogo, metadata: KimiWordmarkDarkLogoMetadata },
+    KimiWordmarkLightLogo: { Component: KimiWordmarkLightLogo, metadata: KimiWordmarkLightLogoMetadata },
+    KokonutuiDarkLogo: { Component: KokonutuiDarkLogo, metadata: KokonutuiDarkLogoMetadata },
+    KokonutuiLightLogo: { Component: KokonutuiLightLogo, metadata: KokonutuiLightLogoMetadata },
+    KotlinLogo: { Component: KotlinLogo, metadata: KotlinLogoMetadata },
+    KrakenjsLogo: { Component: KrakenjsLogo, metadata: KrakenjsLogoMetadata },
+    KubernetesLogo: { Component: KubernetesLogo, metadata: KubernetesLogoMetadata },
+    LaravelLogo: { Component: LaravelLogo, metadata: LaravelLogoMetadata },
+    LayersDark: { Component: LayersDark, metadata: LayersDarkMetadata },
+    LayersLight: { Component: LayersLight, metadata: LayersLightMetadata },
+    LeapWalletWordmarkDarkLogo: { Component: LeapWalletWordmarkDarkLogo, metadata: LeapWalletWordmarkDarkLogoMetadata },
+    LeapWalletWordmarkLightLogo: { Component: LeapWalletWordmarkLightLogo, metadata: LeapWalletWordmarkLightLogoMetadata },
+    LeapWalletLogo: { Component: LeapWalletLogo, metadata: LeapWalletLogoMetadata },
+    LearnthisLogo: { Component: LearnthisLogo, metadata: LearnthisLogoMetadata },
+    LemonsqueezyLogo: { Component: LemonsqueezyLogo, metadata: LemonsqueezyLogoMetadata },
+    LightroomLogo: { Component: LightroomLogo, metadata: LightroomLogoMetadata },
+    LinearLogo: { Component: LinearLogo, metadata: LinearLogoMetadata },
+    LinkWordmarkDarkLogo: { Component: LinkWordmarkDarkLogo, metadata: LinkWordmarkDarkLogoMetadata },
+    LinkWordmarkLightLogo: { Component: LinkWordmarkLightLogo, metadata: LinkWordmarkLightLogoMetadata },
+    LinkLogo: { Component: LinkLogo, metadata: LinkLogoMetadata },
+    LinkedinLogo: { Component: LinkedinLogo, metadata: LinkedinLogoMetadata },
+    LinuxLogo: { Component: LinuxLogo, metadata: LinuxLogoMetadata },
+    LitLogo: { Component: LitLogo, metadata: LitLogoMetadata },
+    LitecoinLogo: { Component: LitecoinLogo, metadata: LitecoinLogoMetadata },
+    LocofyLogo: { Component: LocofyLogo, metadata: LocofyLogoMetadata },
+    LoomLogo: { Component: LoomLogo, metadata: LoomLogoMetadata },
+    LottiefilesWordmarkDarkLogo: { Component: LottiefilesWordmarkDarkLogo, metadata: LottiefilesWordmarkDarkLogoMetadata },
+    LottiefilesWordmarkLightLogo: { Component: LottiefilesWordmarkLightLogo, metadata: LottiefilesWordmarkLightLogoMetadata },
+    LottiefilesLogo: { Component: LottiefilesLogo, metadata: LottiefilesLogoMetadata },
+    LottielabLogo: { Component: LottielabLogo, metadata: LottielabLogoMetadata },
+    LovableLogo: { Component: LovableLogo, metadata: LovableLogoMetadata },
+    LuaLogo: { Component: LuaLogo, metadata: LuaLogoMetadata },
+    MagicuiLogo: { Component: MagicuiLogo, metadata: MagicuiLogoMetadata },
+    ManifestLogo: { Component: ManifestLogo, metadata: ManifestLogoMetadata },
+    MantineLogo: { Component: MantineLogo, metadata: MantineLogoMetadata },
+    ManzdevLogo: { Component: ManzdevLogo, metadata: ManzdevLogoMetadata },
+    MariadbLogo: { Component: MariadbLogo, metadata: MariadbLogoMetadata },
+    MarkdownDarkLogo: { Component: MarkdownDarkLogo, metadata: MarkdownDarkLogoMetadata },
+    MarkdownLightLogo: { Component: MarkdownLightLogo, metadata: MarkdownLightLogoMetadata },
+    MastodonLogo: { Component: MastodonLogo, metadata: MastodonLogoMetadata },
+    MaterialuiLogo: { Component: MaterialuiLogo, metadata: MaterialuiLogoMetadata },
+    MaticLogo: { Component: MaticLogo, metadata: MaticLogoMetadata },
+    MatlabLogo: { Component: MatlabLogo, metadata: MatlabLogoMetadata },
+    MatrixDarkLogo: { Component: MatrixDarkLogo, metadata: MatrixDarkLogoMetadata },
+    MatrixLightLogo: { Component: MatrixLightLogo, metadata: MatrixLightLogoMetadata },
+    MattermostDarkLogo: { Component: MattermostDarkLogo, metadata: MattermostDarkLogoMetadata },
+    MattermostLightLogo: { Component: MattermostLightLogo, metadata: MattermostLightLogoMetadata },
+    MediawikiWordmarkDarkLogo: { Component: MediawikiWordmarkDarkLogo, metadata: MediawikiWordmarkDarkLogoMetadata },
+    MediawikiWordmarkLightLogo: { Component: MediawikiWordmarkLightLogo, metadata: MediawikiWordmarkLightLogoMetadata },
+    MediawikiLogo: { Component: MediawikiLogo, metadata: MediawikiLogoMetadata },
+    MedusaLogo: { Component: MedusaLogo, metadata: MedusaLogoMetadata },
+    MercadoLibreWordmarkLogo: { Component: MercadoLibreWordmarkLogo, metadata: MercadoLibreWordmarkLogoMetadata },
+    MercadoLibreLogo: { Component: MercadoLibreLogo, metadata: MercadoLibreLogoMetadata },
+    MercadoPagoWordmarkLogo: { Component: MercadoPagoWordmarkLogo, metadata: MercadoPagoWordmarkLogoMetadata },
+    MercadoPagoLogo: { Component: MercadoPagoLogo, metadata: MercadoPagoLogoMetadata },
+    MermaidLogoDarkLogo: { Component: MermaidLogoDarkLogo, metadata: MermaidLogoDarkLogoMetadata },
+    MermaidLogoLightLogo: { Component: MermaidLogoLightLogo, metadata: MermaidLogoLightLogoMetadata },
+    MessengerLogo: { Component: MessengerLogo, metadata: MessengerLogoMetadata },
+    MetaLogo: { Component: MetaLogo, metadata: MetaLogoMetadata },
+    MetamaskLogo: { Component: MetamaskLogo, metadata: MetamaskLogoMetadata },
+    MicrosoftAccessLogo: { Component: MicrosoftAccessLogo, metadata: MicrosoftAccessLogoMetadata },
+    MicrosoftClipchampLogo: { Component: MicrosoftClipchampLogo, metadata: MicrosoftClipchampLogoMetadata },
+    MicrosoftCopilotLogo: { Component: MicrosoftCopilotLogo, metadata: MicrosoftCopilotLogoMetadata },
+    MicrosoftDefenderLogo: { Component: MicrosoftDefenderLogo, metadata: MicrosoftDefenderLogoMetadata },
+    MicrosoftDesignerLogo: { Component: MicrosoftDesignerLogo, metadata: MicrosoftDesignerLogoMetadata },
+    MicrosoftEditorLogo: { Component: MicrosoftEditorLogo, metadata: MicrosoftEditorLogoMetadata },
+    MicrosoftExcelLogo: { Component: MicrosoftExcelLogo, metadata: MicrosoftExcelLogoMetadata },
+    MicrosoftOnedriveLogo: { Component: MicrosoftOnedriveLogo, metadata: MicrosoftOnedriveLogoMetadata },
+    MicrosoftOnenoteLogo: { Component: MicrosoftOnenoteLogo, metadata: MicrosoftOnenoteLogoMetadata },
+    MicrosoftOutlookLogo: { Component: MicrosoftOutlookLogo, metadata: MicrosoftOutlookLogoMetadata },
+    MicrosoftPowerpointLogo: { Component: MicrosoftPowerpointLogo, metadata: MicrosoftPowerpointLogoMetadata },
+    MicrosoftSharepointLogo: { Component: MicrosoftSharepointLogo, metadata: MicrosoftSharepointLogoMetadata },
+    MicrosoftTeamsLogo: { Component: MicrosoftTeamsLogo, metadata: MicrosoftTeamsLogoMetadata },
+    MicrosoftTodoLogo: { Component: MicrosoftTodoLogo, metadata: MicrosoftTodoLogoMetadata },
+    MicrosoftWordLogo: { Component: MicrosoftWordLogo, metadata: MicrosoftWordLogoMetadata },
+    MicrosoftLogo: { Component: MicrosoftLogo, metadata: MicrosoftLogoMetadata },
+    MiddayLogo: { Component: MiddayLogo, metadata: MiddayLogoMetadata },
+    MidudevLogo: { Component: MidudevLogo, metadata: MidudevLogoMetadata },
+    MilanoteDarkLogo: { Component: MilanoteDarkLogo, metadata: MilanoteDarkLogoMetadata },
+    MilanoteLightLogo: { Component: MilanoteLightLogo, metadata: MilanoteLightLogoMetadata },
+    MilanoteWordmarkDarkLogo: { Component: MilanoteWordmarkDarkLogo, metadata: MilanoteWordmarkDarkLogoMetadata },
+    MilanoteWordmarkLightLogo: { Component: MilanoteWordmarkLightLogo, metadata: MilanoteWordmarkLightLogoMetadata },
+    MillionLogo: { Component: MillionLogo, metadata: MillionLogoMetadata },
+    MintlifyLogo: { Component: MintlifyLogo, metadata: MintlifyLogoMetadata },
+    MintlifyWordmarkDark: { Component: MintlifyWordmarkDark, metadata: MintlifyWordmarkDarkMetadata },
+    MintlifyWordmarkLight: { Component: MintlifyWordmarkLight, metadata: MintlifyWordmarkLightMetadata },
+    MistralAiLogo: { Component: MistralAiLogo, metadata: MistralAiLogoMetadata },
+    MistralAiWordmark: { Component: MistralAiWordmark, metadata: MistralAiWordmarkMetadata },
+    MochaDarkLogo: { Component: MochaDarkLogo, metadata: MochaDarkLogoMetadata },
+    MochaDarkWordmark: { Component: MochaDarkWordmark, metadata: MochaDarkWordmarkMetadata },
+    MochaLightLogo: { Component: MochaLightLogo, metadata: MochaLightLogoMetadata },
+    MochaLightWordmark: { Component: MochaLightWordmark, metadata: MochaLightWordmarkMetadata },
+    ModelContextProtocolDarkLogo: { Component: ModelContextProtocolDarkLogo, metadata: ModelContextProtocolDarkLogoMetadata },
+    ModelContextProtocolLightLogo: { Component: ModelContextProtocolLightLogo, metadata: ModelContextProtocolLightLogoMetadata },
+    ModelContextProtocolWordmarkDarkLogo: { Component: ModelContextProtocolWordmarkDarkLogo, metadata: ModelContextProtocolWordmarkDarkLogoMetadata },
+    ModelContextProtocolWordmarkLightLogo: { Component: ModelContextProtocolWordmarkLightLogo, metadata: ModelContextProtocolWordmarkLightLogoMetadata },
+    MoneroLogo: { Component: MoneroLogo, metadata: MoneroLogoMetadata },
+    MongodbIconDarkLogo: { Component: MongodbIconDarkLogo, metadata: MongodbIconDarkLogoMetadata },
+    MongodbIconLightLogo: { Component: MongodbIconLightLogo, metadata: MongodbIconLightLogoMetadata },
+    MongodbWordmarkDarkLogo: { Component: MongodbWordmarkDarkLogo, metadata: MongodbWordmarkDarkLogoMetadata },
+    MongodbWordmarkLightLogo: { Component: MongodbWordmarkLightLogo, metadata: MongodbWordmarkLightLogoMetadata },
+    MonkeytypeWordmarkDarkLogo: { Component: MonkeytypeWordmarkDarkLogo, metadata: MonkeytypeWordmarkDarkLogoMetadata },
+    MonkeytypeWordmarkLightLogo: { Component: MonkeytypeWordmarkLightLogo, metadata: MonkeytypeWordmarkLightLogoMetadata },
+    MonkeytypeLogo: { Component: MonkeytypeLogo, metadata: MonkeytypeLogoMetadata },
+    MoonLogo: { Component: MoonLogo, metadata: MoonLogoMetadata },
+    MotionLogo: { Component: MotionLogo, metadata: MotionLogoMetadata },
+    MotionDark: { Component: MotionDark, metadata: MotionDarkMetadata },
+    MulesoftLogo: { Component: MulesoftLogo, metadata: MulesoftLogoMetadata },
+    MysqlIconDarkLogo: { Component: MysqlIconDarkLogo, metadata: MysqlIconDarkLogoMetadata },
+    MysqlIconLightLogo: { Component: MysqlIconLightLogo, metadata: MysqlIconLightLogoMetadata },
+    MysqlWordmarkDarkLogo: { Component: MysqlWordmarkDarkLogo, metadata: MysqlWordmarkDarkLogoMetadata },
+    MysqlWordmarkLightLogo: { Component: MysqlWordmarkLightLogo, metadata: MysqlWordmarkLightLogoMetadata },
+    N8nWordmarkDarkLogo: { Component: N8nWordmarkDarkLogo, metadata: N8nWordmarkDarkLogoMetadata },
+    N8nWordmarkLightLogo: { Component: N8nWordmarkLightLogo, metadata: N8nWordmarkLightLogoMetadata },
+    N8nLogo: { Component: N8nLogo, metadata: N8nLogoMetadata },
+    NeonLogo: { Component: NeonLogo, metadata: NeonLogoMetadata },
+    NeovimLogo: { Component: NeovimLogo, metadata: NeovimLogoMetadata },
+    NestjsLogo: { Component: NestjsLogo, metadata: NestjsLogoMetadata },
+    NetflixIconLogo: { Component: NetflixIconLogo, metadata: NetflixIconLogoMetadata },
+    NetflixWordmarkLogo: { Component: NetflixWordmarkLogo, metadata: NetflixWordmarkLogoMetadata },
+    NetlifyLogo: { Component: NetlifyLogo, metadata: NetlifyLogoMetadata },
+    NextjsIconDark: { Component: NextjsIconDark, metadata: NextjsIconDarkMetadata },
+    NextjsLogoDark: { Component: NextjsLogoDark, metadata: NextjsLogoDarkMetadata },
+    NextjsLogoLight: { Component: NextjsLogoLight, metadata: NextjsLogoLightMetadata },
+    NginxLogo: { Component: NginxLogo, metadata: NginxLogoMetadata },
+    NgrokDarkLogo: { Component: NgrokDarkLogo, metadata: NgrokDarkLogoMetadata },
+    NgrokLightLogo: { Component: NgrokLightLogo, metadata: NgrokLightLogoMetadata },
+    NhostLogo: { Component: NhostLogo, metadata: NhostLogoMetadata },
+    NodejsLogo: { Component: NodejsLogo, metadata: NodejsLogoMetadata },
+    NotionLogo: { Component: NotionLogo, metadata: NotionLogoMetadata },
+    NpmWordmarkLogo: { Component: NpmWordmarkLogo, metadata: NpmWordmarkLogoMetadata },
+    NpmLogo: { Component: NpmLogo, metadata: NpmLogoMetadata },
+    NugetLogo: { Component: NugetLogo, metadata: NugetLogoMetadata },
+    NuqsWordmarkLogo: { Component: NuqsWordmarkLogo, metadata: NuqsWordmarkLogoMetadata },
+    NuqsWordmarkDark: { Component: NuqsWordmarkDark, metadata: NuqsWordmarkDarkMetadata },
+    NuqsLogo: { Component: NuqsLogo, metadata: NuqsLogoMetadata },
+    NuqsDark: { Component: NuqsDark, metadata: NuqsDarkMetadata },
+    NuxtContentWordmarkDarkLogo: { Component: NuxtContentWordmarkDarkLogo, metadata: NuxtContentWordmarkDarkLogoMetadata },
+    NuxtContentWordmarkLightLogo: { Component: NuxtContentWordmarkLightLogo, metadata: NuxtContentWordmarkLightLogoMetadata },
+    NuxtStudioWordmarkDarkLogo: { Component: NuxtStudioWordmarkDarkLogo, metadata: NuxtStudioWordmarkDarkLogoMetadata },
+    NuxtStudioWordmarkLightLogo: { Component: NuxtStudioWordmarkLightLogo, metadata: NuxtStudioWordmarkLightLogoMetadata },
+    NuxtUiWordmarkDarkLogo: { Component: NuxtUiWordmarkDarkLogo, metadata: NuxtUiWordmarkDarkLogoMetadata },
+    NuxtUiWordmarkLightLogo: { Component: NuxtUiWordmarkLightLogo, metadata: NuxtUiWordmarkLightLogoMetadata },
+    NuxtWordmarkDarkLogo: { Component: NuxtWordmarkDarkLogo, metadata: NuxtWordmarkDarkLogoMetadata },
+    NuxtWordmarkLightLogo: { Component: NuxtWordmarkLightLogo, metadata: NuxtWordmarkLightLogoMetadata },
+    NuxtLogo: { Component: NuxtLogo, metadata: NuxtLogoMetadata },
+    NuxthubWordmarkDarkLogo: { Component: NuxthubWordmarkDarkLogo, metadata: NuxthubWordmarkDarkLogoMetadata },
+    NuxthubWordmarkLightLogo: { Component: NuxthubWordmarkLightLogo, metadata: NuxthubWordmarkLightLogoMetadata },
+    NuxthubLogo: { Component: NuxthubLogo, metadata: NuxthubLogoMetadata },
+    NvidiaIconDarkLogo: { Component: NvidiaIconDarkLogo, metadata: NvidiaIconDarkLogoMetadata },
+    NvidiaIconLightLogo: { Component: NvidiaIconLightLogo, metadata: NvidiaIconLightLogoMetadata },
+    NvidiaWordmarkDarkLogo: { Component: NvidiaWordmarkDarkLogo, metadata: NvidiaWordmarkDarkLogoMetadata },
+    NvidiaWordmarkLightLogo: { Component: NvidiaWordmarkLightLogo, metadata: NvidiaWordmarkLightLogoMetadata },
+    NxDark: { Component: NxDark, metadata: NxDarkMetadata },
+    NxLight: { Component: NxLight, metadata: NxLightMetadata },
+    ObsLogo: { Component: ObsLogo, metadata: ObsLogoMetadata },
+    ObsidianLogo: { Component: ObsidianLogo, metadata: ObsidianLogoMetadata },
+    OllamaDark: { Component: OllamaDark, metadata: OllamaDarkMetadata },
+    OllamaLight: { Component: OllamaLight, metadata: OllamaLightMetadata },
+    OpenaiLogo: { Component: OpenaiLogo, metadata: OpenaiLogoMetadata },
+    OpenaiDark: { Component: OpenaiDark, metadata: OpenaiDarkMetadata },
+    OpenaiWordmarkDark: { Component: OpenaiWordmarkDark, metadata: OpenaiWordmarkDarkMetadata },
+    OpenaiWordmarkLight: { Component: OpenaiWordmarkLight, metadata: OpenaiWordmarkLightMetadata },
+    OpenbootcampLogo: { Component: OpenbootcampLogo, metadata: OpenbootcampLogoMetadata },
+    OpenhuntsLogo: { Component: OpenhuntsLogo, metadata: OpenhuntsLogoMetadata },
+    OpenrouterDark: { Component: OpenrouterDark, metadata: OpenrouterDarkMetadata },
+    OpenrouterLight: { Component: OpenrouterLight, metadata: OpenrouterLightMetadata },
+    OpenseaLogo: { Component: OpenseaLogo, metadata: OpenseaLogoMetadata },
+    OpenwebuiLogo: { Component: OpenwebuiLogo, metadata: OpenwebuiLogoMetadata },
+    OperaLogo: { Component: OperaLogo, metadata: OperaLogoMetadata },
+    OxcLogo: { Component: OxcLogo, metadata: OxcLogoMetadata },
+    PandacssLogo: { Component: PandacssLogo, metadata: PandacssLogoMetadata },
+    PaperWordmarkDarkLogo: { Component: PaperWordmarkDarkLogo, metadata: PaperWordmarkDarkLogoMetadata },
+    PaperWordmarkLightLogo: { Component: PaperWordmarkLightLogo, metadata: PaperWordmarkLightLogoMetadata },
+    PaperLogo: { Component: PaperLogo, metadata: PaperLogoMetadata },
+    ParcelLogo: { Component: ParcelLogo, metadata: ParcelLogoMetadata },
+    PasswordDarkLogo: { Component: PasswordDarkLogo, metadata: PasswordDarkLogoMetadata },
+    PasswordLightLogo: { Component: PasswordLightLogo, metadata: PasswordLightLogoMetadata },
+    PatreonLogo: { Component: PatreonLogo, metadata: PatreonLogoMetadata },
+    PatreonDark: { Component: PatreonDark, metadata: PatreonDarkMetadata },
+    PayloadLogo: { Component: PayloadLogo, metadata: PayloadLogoMetadata },
+    PayloadDark: { Component: PayloadDark, metadata: PayloadDarkMetadata },
+    PaypalWordmarkLogo: { Component: PaypalWordmarkLogo, metadata: PaypalWordmarkLogoMetadata },
+    PaypalLogo: { Component: PaypalLogo, metadata: PaypalLogoMetadata },
+    PdfLogo: { Component: PdfLogo, metadata: PdfLogoMetadata },
+    PeerlistLogo: { Component: PeerlistLogo, metadata: PeerlistLogoMetadata },
+    PenpotDark: { Component: PenpotDark, metadata: PenpotDarkMetadata },
+    PerplexityLogo: { Component: PerplexityLogo, metadata: PerplexityLogoMetadata },
+    PerplexityWordmarkDark: { Component: PerplexityWordmarkDark, metadata: PerplexityWordmarkDarkMetadata },
+    PerplexityWordmarkLight: { Component: PerplexityWordmarkLight, metadata: PerplexityWordmarkLightMetadata },
+    PerspectiveDarkLogo: { Component: PerspectiveDarkLogo, metadata: PerspectiveDarkLogoMetadata },
+    PerspectiveLightLogo: { Component: PerspectiveLightLogo, metadata: PerspectiveLightLogoMetadata },
+    PerspectiveWordmarkDarkLogo: { Component: PerspectiveWordmarkDarkLogo, metadata: PerspectiveWordmarkDarkLogoMetadata },
+    PerspectiveWordmarkLightLogo: { Component: PerspectiveWordmarkLightLogo, metadata: PerspectiveWordmarkLightLogoMetadata },
+    PhotoshopLogo: { Component: PhotoshopLogo, metadata: PhotoshopLogoMetadata },
+    PhpLogo: { Component: PhpLogo, metadata: PhpLogoMetadata },
+    PhpDark: { Component: PhpDark, metadata: PhpDarkMetadata },
+    PhpstormLogo: { Component: PhpstormLogo, metadata: PhpstormLogoMetadata },
+    PiniaLogo: { Component: PiniaLogo, metadata: PiniaLogoMetadata },
+    PinterestLogo: { Component: PinterestLogo, metadata: PinterestLogoMetadata },
+    PitchLogo: { Component: PitchLogo, metadata: PitchLogoMetadata },
+    PlainsignalLogo: { Component: PlainsignalLogo, metadata: PlainsignalLogoMetadata },
+    PlanetscaleLogo: { Component: PlanetscaleLogo, metadata: PlanetscaleLogoMetadata },
+    PlanetscaleDark: { Component: PlanetscaleDark, metadata: PlanetscaleDarkMetadata },
+    PlatziLogo: { Component: PlatziLogo, metadata: PlatziLogoMetadata },
+    PlaystationLogo: { Component: PlaystationLogo, metadata: PlaystationLogoMetadata },
+    PlaywrightLogo: { Component: PlaywrightLogo, metadata: PlaywrightLogoMetadata },
+    Pm2Logo: { Component: Pm2Logo, metadata: Pm2LogoMetadata },
+    PnpmLogo: { Component: PnpmLogo, metadata: PnpmLogoMetadata },
+    PnpmDark: { Component: PnpmDark, metadata: PnpmDarkMetadata },
+    PnpmWordmarkDark: { Component: PnpmWordmarkDark, metadata: PnpmWordmarkDarkMetadata },
+    PnpmWordmarkLight: { Component: PnpmWordmarkLight, metadata: PnpmWordmarkLightMetadata },
+    PocketBaseLogo: { Component: PocketBaseLogo, metadata: PocketBaseLogoMetadata },
+    PolarShDark: { Component: PolarShDark, metadata: PolarShDarkMetadata },
+    PolarShLight: { Component: PolarShLight, metadata: PolarShLightMetadata },
+    PolarsLogoLogo: { Component: PolarsLogoLogo, metadata: PolarsLogoLogoMetadata },
+    PoperLogo: { Component: PoperLogo, metadata: PoperLogoMetadata },
+    PostcssLogo: { Component: PostcssLogo, metadata: PostcssLogoMetadata },
+    PostcssWordmark: { Component: PostcssWordmark, metadata: PostcssWordmarkMetadata },
+    PostgresqlWordmarkDarkLogo: { Component: PostgresqlWordmarkDarkLogo, metadata: PostgresqlWordmarkDarkLogoMetadata },
+    PostgresqlWordmarkLightLogo: { Component: PostgresqlWordmarkLightLogo, metadata: PostgresqlWordmarkLightLogoMetadata },
+    PostgresqlLogo: { Component: PostgresqlLogo, metadata: PostgresqlLogoMetadata },
+    PosthogWordmarkLogo: { Component: PosthogWordmarkLogo, metadata: PosthogWordmarkLogoMetadata },
+    PosthogWordmarkDark: { Component: PosthogWordmarkDark, metadata: PosthogWordmarkDarkMetadata },
+    PosthogLogo: { Component: PosthogLogo, metadata: PosthogLogoMetadata },
+    PostmanLogo: { Component: PostmanLogo, metadata: PostmanLogoMetadata },
+    PowershellLogo: { Component: PowershellLogo, metadata: PowershellLogoMetadata },
+    PowersyncWordmarkDarkLogo: { Component: PowersyncWordmarkDarkLogo, metadata: PowersyncWordmarkDarkLogoMetadata },
+    PowersyncWordmarkLightLogo: { Component: PowersyncWordmarkLightLogo, metadata: PowersyncWordmarkLightLogoMetadata },
+    PowersyncLogo: { Component: PowersyncLogo, metadata: PowersyncLogoMetadata },
+    PowertoysLogo: { Component: PowertoysLogo, metadata: PowertoysLogoMetadata },
+    PreactLogo: { Component: PreactLogo, metadata: PreactLogoMetadata },
+    PremiereLogo: { Component: PremiereLogo, metadata: PremiereLogoMetadata },
+    PrettierIconDarkLogo: { Component: PrettierIconDarkLogo, metadata: PrettierIconDarkLogoMetadata },
+    PrettierIconLightLogo: { Component: PrettierIconLightLogo, metadata: PrettierIconLightLogoMetadata },
+    PrimeVideoLogo: { Component: PrimeVideoLogo, metadata: PrimeVideoLogoMetadata },
+    PrismaLogo: { Component: PrismaLogo, metadata: PrismaLogoMetadata },
+    PrismaDark: { Component: PrismaDark, metadata: PrismaDarkMetadata },
+    ProcureLogo: { Component: ProcureLogo, metadata: ProcureLogoMetadata },
+    ProducthuntLogo: { Component: ProducthuntLogo, metadata: ProducthuntLogoMetadata },
+    ProtonmailWordmarkLogo: { Component: ProtonmailWordmarkLogo, metadata: ProtonmailWordmarkLogoMetadata },
+    ProtonmailLogo: { Component: ProtonmailLogo, metadata: ProtonmailLogoMetadata },
+    PulumiLogo: { Component: PulumiLogo, metadata: PulumiLogoMetadata },
+    PutioLogo: { Component: PutioLogo, metadata: PutioLogoMetadata },
+    PycharmLogo: { Component: PycharmLogo, metadata: PycharmLogoMetadata },
+    PythonLogo: { Component: PythonLogo, metadata: PythonLogoMetadata },
+    QdrantIconDarkLogo: { Component: QdrantIconDarkLogo, metadata: QdrantIconDarkLogoMetadata },
+    QdrantIconLightLogo: { Component: QdrantIconLightLogo, metadata: QdrantIconLightLogoMetadata },
+    QdrantWordmarkDarkLogo: { Component: QdrantWordmarkDarkLogo, metadata: QdrantWordmarkDarkLogoMetadata },
+    QdrantWordmarkLightLogo: { Component: QdrantWordmarkLightLogo, metadata: QdrantWordmarkLightLogoMetadata },
+    QwenDark: { Component: QwenDark, metadata: QwenDarkMetadata },
+    QwenLight: { Component: QwenLight, metadata: QwenLightMetadata },
+    QwikLogo: { Component: QwikLogo, metadata: QwikLogoMetadata },
+    RLogo: { Component: RLogo, metadata: RLogoMetadata },
+    RDark: { Component: RDark, metadata: RDarkMetadata },
+    RadixUiDark: { Component: RadixUiDark, metadata: RadixUiDarkMetadata },
+    RadixUiLight: { Component: RadixUiLight, metadata: RadixUiLightMetadata },
+    RailwayLogo: { Component: RailwayLogo, metadata: RailwayLogoMetadata },
+    RailwayDark: { Component: RailwayDark, metadata: RailwayDarkMetadata },
+    RaindropLogo: { Component: RaindropLogo, metadata: RaindropLogoMetadata },
+    RandevumLogo: { Component: RandevumLogo, metadata: RandevumLogoMetadata },
+    RapidapiLogo: { Component: RapidapiLogo, metadata: RapidapiLogoMetadata },
+    RaspberryPi: { Component: RaspberryPi, metadata: RaspberryPiMetadata },
+    RaycastWordmarkDarkLogo: { Component: RaycastWordmarkDarkLogo, metadata: RaycastWordmarkDarkLogoMetadata },
+    RaycastWordmarkLightLogo: { Component: RaycastWordmarkLightLogo, metadata: RaycastWordmarkLightLogoMetadata },
+    RaycastLogo: { Component: RaycastLogo, metadata: RaycastLogoMetadata },
+    ReactWheelPickerDark: { Component: ReactWheelPickerDark, metadata: ReactWheelPickerDarkMetadata },
+    ReactWheelPickerLight: { Component: ReactWheelPickerLight, metadata: ReactWheelPickerLightMetadata },
+    ReactDark: { Component: ReactDark, metadata: ReactDarkMetadata },
+    ReactLight: { Component: ReactLight, metadata: ReactLightMetadata },
+    ReactWordmarkDark: { Component: ReactWordmarkDark, metadata: ReactWordmarkDarkMetadata },
+    ReactWordmarkLight: { Component: ReactWordmarkLight, metadata: ReactWordmarkLightMetadata },
+    ReactqueryLogo: { Component: ReactqueryLogo, metadata: ReactqueryLogoMetadata },
+    ReactrouterLogo: { Component: ReactrouterLogo, metadata: ReactrouterLogoMetadata },
+    RedditLogo: { Component: RedditLogo, metadata: RedditLogoMetadata },
+    RedisLogo: { Component: RedisLogo, metadata: RedisLogoMetadata },
+    ReduxLogo: { Component: ReduxLogo, metadata: ReduxLogoMetadata },
+    RedwoodjsLogo: { Component: RedwoodjsLogo, metadata: RedwoodjsLogoMetadata },
+    RefineDark: { Component: RefineDark, metadata: RefineDarkMetadata },
+    RefineLight: { Component: RefineLight, metadata: RefineLightMetadata },
+    ReflexDarkLogo: { Component: ReflexDarkLogo, metadata: ReflexDarkLogoMetadata },
+    ReflexLightLogo: { Component: ReflexLightLogo, metadata: ReflexLightLogoMetadata },
+    RelagitIconDarkLogo: { Component: RelagitIconDarkLogo, metadata: RelagitIconDarkLogoMetadata },
+    RelagitIconLightLogo: { Component: RelagitIconLightLogo, metadata: RelagitIconLightLogoMetadata },
+    RelagitWordmarkDarkLogo: { Component: RelagitWordmarkDarkLogo, metadata: RelagitWordmarkDarkLogoMetadata },
+    RelagitWordmarkLightLogo: { Component: RelagitWordmarkLightLogo, metadata: RelagitWordmarkLightLogoMetadata },
+    RemixDark: { Component: RemixDark, metadata: RemixDarkMetadata },
+    RemixLight: { Component: RemixLight, metadata: RemixLightMetadata },
+    RemixWordmarkDark: { Component: RemixWordmarkDark, metadata: RemixWordmarkDarkMetadata },
+    RemixWordmarkLight: { Component: RemixWordmarkLight, metadata: RemixWordmarkLightMetadata },
+    RemotionLogo: { Component: RemotionLogo, metadata: RemotionLogoMetadata },
+    ReplicateWordmarkDark: { Component: ReplicateWordmarkDark, metadata: ReplicateWordmarkDarkMetadata },
+    ReplicateWordmarkLight: { Component: ReplicateWordmarkLight, metadata: ReplicateWordmarkLightMetadata },
+    ReplicateDark: { Component: ReplicateDark, metadata: ReplicateDarkMetadata },
+    ReplicateLight: { Component: ReplicateLight, metadata: ReplicateLightMetadata },
+    ReplitWordmarkDarkLogo: { Component: ReplitWordmarkDarkLogo, metadata: ReplitWordmarkDarkLogoMetadata },
+    ReplitWordmarkLightLogo: { Component: ReplitWordmarkLightLogo, metadata: ReplitWordmarkLightLogoMetadata },
+    ReplitLogo: { Component: ReplitLogo, metadata: ReplitLogoMetadata },
+    ResendIconBlackLogo: { Component: ResendIconBlackLogo, metadata: ResendIconBlackLogoMetadata },
+    ResendIconWhiteLogo: { Component: ResendIconWhiteLogo, metadata: ResendIconWhiteLogoMetadata },
+    ResendWordmarkBlackLogo: { Component: ResendWordmarkBlackLogo, metadata: ResendWordmarkBlackLogoMetadata },
+    ResendWordmarkWhiteLogo: { Component: ResendWordmarkWhiteLogo, metadata: ResendWordmarkWhiteLogoMetadata },
+    RiderLogo: { Component: RiderLogo, metadata: RiderLogoMetadata },
+    RobloxLogo: { Component: RobloxLogo, metadata: RobloxLogoMetadata },
+    RobloxLight: { Component: RobloxLight, metadata: RobloxLightMetadata },
+    RolldownLogo: { Component: RolldownLogo, metadata: RolldownLogoMetadata },
+    RowyLogo: { Component: RowyLogo, metadata: RowyLogoMetadata },
+    RsbuildLogo: { Component: RsbuildLogo, metadata: RsbuildLogoMetadata },
+    RspackLogo: { Component: RspackLogo, metadata: RspackLogoMetadata },
+    RubyLogo: { Component: RubyLogo, metadata: RubyLogoMetadata },
+    RubymineLogo: { Component: RubymineLogo, metadata: RubymineLogoMetadata },
+    RunwayLogo: { Component: RunwayLogo, metadata: RunwayLogoMetadata },
+    RustLogo: { Component: RustLogo, metadata: RustLogoMetadata },
+    RustDark: { Component: RustDark, metadata: RustDarkMetadata },
+    RxjsLogo: { Component: RxjsLogo, metadata: RxjsLogoMetadata },
+    SafariLogo: { Component: SafariLogo, metadata: SafariLogoMetadata },
+    SalesforceLogo: { Component: SalesforceLogo, metadata: SalesforceLogoMetadata },
+    SanityDarkLogo: { Component: SanityDarkLogo, metadata: SanityDarkLogoMetadata },
+    SanityLightLogo: { Component: SanityLightLogo, metadata: SanityLightLogoMetadata },
+    SanityWordmarkDarkLogo: { Component: SanityWordmarkDarkLogo, metadata: SanityWordmarkDarkLogoMetadata },
+    SanityWordmarkLightLogo: { Component: SanityWordmarkLightLogo, metadata: SanityWordmarkLightLogoMetadata },
+    SassLogo: { Component: SassLogo, metadata: SassLogoMetadata },
+    ScalaLogo: { Component: ScalaLogo, metadata: ScalaLogoMetadata },
+    SentryLogo: { Component: SentryLogo, metadata: SentryLogoMetadata },
+    SequelizeLogo: { Component: SequelizeLogo, metadata: SequelizeLogoMetadata },
+    ShadcnUiLogo: { Component: ShadcnUiLogo, metadata: ShadcnUiLogoMetadata },
+    ShadcnUiDark: { Component: ShadcnUiDark, metadata: ShadcnUiDarkMetadata },
+    ShikiLogo: { Component: ShikiLogo, metadata: ShikiLogoMetadata },
+    ShopifyWordmarkDarkLogo: { Component: ShopifyWordmarkDarkLogo, metadata: ShopifyWordmarkDarkLogoMetadata },
+    ShopifyWordmarkLightLogo: { Component: ShopifyWordmarkLightLogo, metadata: ShopifyWordmarkLightLogoMetadata },
+    ShopifyLogo: { Component: ShopifyLogo, metadata: ShopifyLogoMetadata },
+    SketchLogo: { Component: SketchLogo, metadata: SketchLogoMetadata },
+    SketchLight: { Component: SketchLight, metadata: SketchLightMetadata },
+    SkyLogo: { Component: SkyLogo, metadata: SkyLogoMetadata },
+    SkypeLogo: { Component: SkypeLogo, metadata: SkypeLogoMetadata },
+    SlackWordmarkLogo: { Component: SlackWordmarkLogo, metadata: SlackWordmarkLogoMetadata },
+    SlackLogo: { Component: SlackLogo, metadata: SlackLogoMetadata },
+    SnapchatLogo: { Component: SnapchatLogo, metadata: SnapchatLogoMetadata },
+    SocketioIconDarkLogo: { Component: SocketioIconDarkLogo, metadata: SocketioIconDarkLogoMetadata },
+    SocketioIconLightLogo: { Component: SocketioIconLightLogo, metadata: SocketioIconLightLogoMetadata },
+    SocketioWordmarkDarkLogo: { Component: SocketioWordmarkDarkLogo, metadata: SocketioWordmarkDarkLogoMetadata },
+    SocketioWordmarkLightLogo: { Component: SocketioWordmarkLightLogo, metadata: SocketioWordmarkLightLogoMetadata },
+    SolLogo: { Component: SolLogo, metadata: SolLogoMetadata },
+    SolderaIconLightLogo: { Component: SolderaIconLightLogo, metadata: SolderaIconLightLogoMetadata },
+    SolderaIconLogo: { Component: SolderaIconLogo, metadata: SolderaIconLogoMetadata },
+    SolderaWordmarkDarkLogo: { Component: SolderaWordmarkDarkLogo, metadata: SolderaWordmarkDarkLogoMetadata },
+    SolderaWordmarkLightLogo: { Component: SolderaWordmarkLightLogo, metadata: SolderaWordmarkLightLogoMetadata },
+    SolidityLogo: { Component: SolidityLogo, metadata: SolidityLogoMetadata },
+    SolidjsLogo: { Component: SolidjsLogo, metadata: SolidjsLogoMetadata },
+    SoundcloudLogoLogo: { Component: SoundcloudLogoLogo, metadata: SoundcloudLogoLogoMetadata },
+    SoundcloudLogoDark: { Component: SoundcloudLogoDark, metadata: SoundcloudLogoDarkMetadata },
+    SoundcloudWordmarkLogo: { Component: SoundcloudWordmarkLogo, metadata: SoundcloudWordmarkLogoMetadata },
+    SoundcloudWordmarkDark: { Component: SoundcloudWordmarkDark, metadata: SoundcloudWordmarkDarkMetadata },
+    SourcegraphLogo: { Component: SourcegraphLogo, metadata: SourcegraphLogoMetadata },
+    SpinnakerLogo: { Component: SpinnakerLogo, metadata: SpinnakerLogoMetadata },
+    SpotifyLogo: { Component: SpotifyLogo, metadata: SpotifyLogoMetadata },
+    SpotifyWordmark: { Component: SpotifyWordmark, metadata: SpotifyWordmarkMetadata },
+    SpringWordmarkLogo: { Component: SpringWordmarkLogo, metadata: SpringWordmarkLogoMetadata },
+    SpringLogo: { Component: SpringLogo, metadata: SpringLogoMetadata },
+    SqlServerLogo: { Component: SqlServerLogo, metadata: SqlServerLogoMetadata },
+    SqliteLogo: { Component: SqliteLogo, metadata: SqliteLogoMetadata },
+    SstLogo: { Component: SstLogo, metadata: SstLogoMetadata },
+    StabilityAiLogo: { Component: StabilityAiLogo, metadata: StabilityAiLogoMetadata },
+    StackblitzLogo: { Component: StackblitzLogo, metadata: StackblitzLogoMetadata },
+    StackoverflowLogo: { Component: StackoverflowLogo, metadata: StackoverflowLogoMetadata },
+    StackoverflowWordmark: { Component: StackoverflowWordmark, metadata: StackoverflowWordmarkMetadata },
+    StatelyLogo: { Component: StatelyLogo, metadata: StatelyLogoMetadata },
+    StatelyDark: { Component: StatelyDark, metadata: StatelyDarkMetadata },
+    SteamLogo: { Component: SteamLogo, metadata: SteamLogoMetadata },
+    StimulusLogo: { Component: StimulusLogo, metadata: StimulusLogoMetadata },
+    StoryblokLogo: { Component: StoryblokLogo, metadata: StoryblokLogoMetadata },
+    StorybookLogo: { Component: StorybookLogo, metadata: StorybookLogoMetadata },
+    StrapiLogo: { Component: StrapiLogo, metadata: StrapiLogoMetadata },
+    StripeLogo: { Component: StripeLogo, metadata: StripeLogoMetadata },
+    StyledcomponentsLogo: { Component: StyledcomponentsLogo, metadata: StyledcomponentsLogoMetadata },
+    SublimetextLogo: { Component: SublimetextLogo, metadata: SublimetextLogoMetadata },
+    SunoLogo: { Component: SunoLogo, metadata: SunoLogoMetadata },
+    SunoWordmarkDark: { Component: SunoWordmarkDark, metadata: SunoWordmarkDarkMetadata },
+    SunoWordmarkLight: { Component: SunoWordmarkLight, metadata: SunoWordmarkLightMetadata },
+    SupabaseLogo: { Component: SupabaseLogo, metadata: SupabaseLogoMetadata },
+    SupabaseWordmarkDark: { Component: SupabaseWordmarkDark, metadata: SupabaseWordmarkDarkMetadata },
+    SupabaseWordmarkLight: { Component: SupabaseWordmarkLight, metadata: SupabaseWordmarkLightMetadata },
+    SurrealdbLogo: { Component: SurrealdbLogo, metadata: SurrealdbLogoMetadata },
+    SvelteLogo: { Component: SvelteLogo, metadata: SvelteLogoMetadata },
+    SvgLogo: { Component: SvgLogo, metadata: SvgLogoMetadata },
+    SvgWordmark: { Component: SvgWordmark, metadata: SvgWordmarkMetadata },
+    SvglLogo: { Component: SvglLogo, metadata: SvglLogoMetadata },
+    SwaggerLogo: { Component: SwaggerLogo, metadata: SwaggerLogoMetadata },
+    SwcLogo: { Component: SwcLogo, metadata: SwcLogoMetadata },
+    SwiftLogo: { Component: SwiftLogo, metadata: SwiftLogoMetadata },
+    SwrDarkLogo: { Component: SwrDarkLogo, metadata: SwrDarkLogoMetadata },
+    SwrLightLogo: { Component: SwrLightLogo, metadata: SwrLightLogoMetadata },
+    T3DarkLogo: { Component: T3DarkLogo, metadata: T3DarkLogoMetadata },
+    T3LightLogo: { Component: T3LightLogo, metadata: T3LightLogoMetadata },
+    TabbyLogo: { Component: TabbyLogo, metadata: TabbyLogoMetadata },
+    TailwindcssWordmarkDarkLogo: { Component: TailwindcssWordmarkDarkLogo, metadata: TailwindcssWordmarkDarkLogoMetadata },
+    TailwindcssWordmarkLogo: { Component: TailwindcssWordmarkLogo, metadata: TailwindcssWordmarkLogoMetadata },
+    TailwindcssLogo: { Component: TailwindcssLogo, metadata: TailwindcssLogoMetadata },
+    TanstackLogo: { Component: TanstackLogo, metadata: TanstackLogoMetadata },
+    TauriLogo: { Component: TauriLogo, metadata: TauriLogoMetadata },
+    TelegramLogo: { Component: TelegramLogo, metadata: TelegramLogoMetadata },
+    TemboDarkLogo: { Component: TemboDarkLogo, metadata: TemboDarkLogoMetadata },
+    TemboWordmarkDarkLogo: { Component: TemboWordmarkDarkLogo, metadata: TemboWordmarkDarkLogoMetadata },
+    TemboWordmarkLogo: { Component: TemboWordmarkLogo, metadata: TemboWordmarkLogoMetadata },
+    TemboLogo: { Component: TemboLogo, metadata: TemboLogoMetadata },
+    TensorflowIconDarkLogo: { Component: TensorflowIconDarkLogo, metadata: TensorflowIconDarkLogoMetadata },
+    TensorflowIconLightLogo: { Component: TensorflowIconLightLogo, metadata: TensorflowIconLightLogoMetadata },
+    TensorflowWordmarkDarkLogo: { Component: TensorflowWordmarkDarkLogo, metadata: TensorflowWordmarkDarkLogoMetadata },
+    TensorflowWordmarkLightLogo: { Component: TensorflowWordmarkLightLogo, metadata: TensorflowWordmarkLightLogoMetadata },
+    TerraformLogo: { Component: TerraformLogo, metadata: TerraformLogoMetadata },
+    TetherLogo: { Component: TetherLogo, metadata: TetherLogoMetadata },
+    ThreadsLogo: { Component: ThreadsLogo, metadata: ThreadsLogoMetadata },
+    ThreadsDark: { Component: ThreadsDark, metadata: ThreadsDarkMetadata },
+    ThreejsDarkLogo: { Component: ThreejsDarkLogo, metadata: ThreejsDarkLogoMetadata },
+    ThreejsLightLogo: { Component: ThreejsLightLogo, metadata: ThreejsLightLogoMetadata },
+    TidalDark: { Component: TidalDark, metadata: TidalDarkMetadata },
+    TidalLight: { Component: TidalLight, metadata: TidalLightMetadata },
+    TidalWordmarkDark: { Component: TidalWordmarkDark, metadata: TidalWordmarkDarkMetadata },
+    TidalWordmarkLight: { Component: TidalWordmarkLight, metadata: TidalWordmarkLightMetadata },
+    TiktokIconDarkLogo: { Component: TiktokIconDarkLogo, metadata: TiktokIconDarkLogoMetadata },
+    TiktokIconLightLogo: { Component: TiktokIconLightLogo, metadata: TiktokIconLightLogoMetadata },
+    TiktokWordmarkDarkLogo: { Component: TiktokWordmarkDarkLogo, metadata: TiktokWordmarkDarkLogoMetadata },
+    TiktokWordmarkLightLogo: { Component: TiktokWordmarkLightLogo, metadata: TiktokWordmarkLightLogoMetadata },
+    TinaLogo: { Component: TinaLogo, metadata: TinaLogoMetadata },
+    TinaWordmark: { Component: TinaWordmark, metadata: TinaWordmarkMetadata },
+    TodoistWordmarkLogo: { Component: TodoistWordmarkLogo, metadata: TodoistWordmarkLogoMetadata },
+    TodoistLogo: { Component: TodoistLogo, metadata: TodoistLogoMetadata },
+    TogetheraiDark: { Component: TogetheraiDark, metadata: TogetheraiDarkMetadata },
+    TogetheraiLight: { Component: TogetheraiLight, metadata: TogetheraiLightMetadata },
+    TonLogo: { Component: TonLogo, metadata: TonLogoMetadata },
+    TorLogo: { Component: TorLogo, metadata: TorLogoMetadata },
+    TravelperkDarkLogo: { Component: TravelperkDarkLogo, metadata: TravelperkDarkLogoMetadata },
+    TravelperkLightLogo: { Component: TravelperkLightLogo, metadata: TravelperkLightLogoMetadata },
+    TravelperkWordmarkDarkLogo: { Component: TravelperkWordmarkDarkLogo, metadata: TravelperkWordmarkDarkLogoMetadata },
+    TravelperkWordmarkLightLogo: { Component: TravelperkWordmarkLightLogo, metadata: TravelperkWordmarkLightLogoMetadata },
+    TronLogo: { Component: TronLogo, metadata: TronLogoMetadata },
+    TrpcLogo: { Component: TrpcLogo, metadata: TrpcLogoMetadata },
+    TrpcWordmarkDark: { Component: TrpcWordmarkDark, metadata: TrpcWordmarkDarkMetadata },
+    TrpcWordmarkLight: { Component: TrpcWordmarkLight, metadata: TrpcWordmarkLightMetadata },
+    TrustLogo: { Component: TrustLogo, metadata: TrustLogoMetadata },
+    TrustpilotLogo: { Component: TrustpilotLogo, metadata: TrustpilotLogoMetadata },
+    TurbopackIconDarkLogo: { Component: TurbopackIconDarkLogo, metadata: TurbopackIconDarkLogoMetadata },
+    TurbopackIconLightLogo: { Component: TurbopackIconLightLogo, metadata: TurbopackIconLightLogoMetadata },
+    TurbopackWordmarkDarkLogo: { Component: TurbopackWordmarkDarkLogo, metadata: TurbopackWordmarkDarkLogoMetadata },
+    TurbopackWordmarkLightLogo: { Component: TurbopackWordmarkLightLogo, metadata: TurbopackWordmarkLightLogoMetadata },
+    TurborepoIconDarkLogo: { Component: TurborepoIconDarkLogo, metadata: TurborepoIconDarkLogoMetadata },
+    TurborepoIconLightLogo: { Component: TurborepoIconLightLogo, metadata: TurborepoIconLightLogoMetadata },
+    TurborepoWordmarkDarkLogo: { Component: TurborepoWordmarkDarkLogo, metadata: TurborepoWordmarkDarkLogoMetadata },
+    TurborepoWordmarkLightLogo: { Component: TurborepoWordmarkLightLogo, metadata: TurborepoWordmarkLightLogoMetadata },
+    TursoDarkLogo: { Component: TursoDarkLogo, metadata: TursoDarkLogoMetadata },
+    TursoLightLogo: { Component: TursoLightLogo, metadata: TursoLightLogoMetadata },
+    TursoWordmarkDarkLogo: { Component: TursoWordmarkDarkLogo, metadata: TursoWordmarkDarkLogoMetadata },
+    TursoWordmarkLightLogo: { Component: TursoWordmarkLightLogo, metadata: TursoWordmarkLightLogoMetadata },
+    TwilioLogo: { Component: TwilioLogo, metadata: TwilioLogoMetadata },
+    TwitchLogo: { Component: TwitchLogo, metadata: TwitchLogoMetadata },
+    TwitterLogo: { Component: TwitterLogo, metadata: TwitterLogoMetadata },
+    TypegpuDarkLogo: { Component: TypegpuDarkLogo, metadata: TypegpuDarkLogoMetadata },
+    TypegpuLightLogo: { Component: TypegpuLightLogo, metadata: TypegpuLightLogoMetadata },
+    TypegpuWordmarkDarkLogo: { Component: TypegpuWordmarkDarkLogo, metadata: TypegpuWordmarkDarkLogoMetadata },
+    TypegpuWordmarkLightLogo: { Component: TypegpuWordmarkLightLogo, metadata: TypegpuWordmarkLightLogoMetadata },
+    TypeormLogo: { Component: TypeormLogo, metadata: TypeormLogoMetadata },
+    TypescriptLogo: { Component: TypescriptLogo, metadata: TypescriptLogoMetadata },
+    TypesenseLogo: { Component: TypesenseLogo, metadata: TypesenseLogoMetadata },
+    UberDark: { Component: UberDark, metadata: UberDarkMetadata },
+    UberLight: { Component: UberLight, metadata: UberLightMetadata },
+    UbuntuLogo: { Component: UbuntuLogo, metadata: UbuntuLogoMetadata },
+    UdacityLogo: { Component: UdacityLogo, metadata: UdacityLogoMetadata },
+    UdemyLogo: { Component: UdemyLogo, metadata: UdemyLogoMetadata },
+    UdemyDark: { Component: UdemyDark, metadata: UdemyDarkMetadata },
+    UnityLogo: { Component: UnityLogo, metadata: UnityLogoMetadata },
+    UnityDark: { Component: UnityDark, metadata: UnityDarkMetadata },
+    UnjsLogo: { Component: UnjsLogo, metadata: UnjsLogoMetadata },
+    UnocssLogo: { Component: UnocssLogo, metadata: UnocssLogoMetadata },
+    UnrealEngine: { Component: UnrealEngine, metadata: UnrealEngineMetadata },
+    UnrealEngineDark: { Component: UnrealEngineDark, metadata: UnrealEngineDarkMetadata },
+    UpleveledWordmarkLogo: { Component: UpleveledWordmarkLogo, metadata: UpleveledWordmarkLogoMetadata },
+    UpleveledLogo: { Component: UpleveledLogo, metadata: UpleveledLogoMetadata },
+    UpstashLogo: { Component: UpstashLogo, metadata: UpstashLogoMetadata },
+    UvLogo: { Component: UvLogo, metadata: UvLogoMetadata },
+    UxanarangelDarkLogo: { Component: UxanarangelDarkLogo, metadata: UxanarangelDarkLogoMetadata },
+    UxanarangelLightLogo: { Component: UxanarangelLightLogo, metadata: UxanarangelLightLogoMetadata },
+    UxcorprangelDarkLogo: { Component: UxcorprangelDarkLogo, metadata: UxcorprangelDarkLogoMetadata },
+    UxcorprangelLightLogo: { Component: UxcorprangelLightLogo, metadata: UxcorprangelLightLogoMetadata },
+    V0Dark: { Component: V0Dark, metadata: V0DarkMetadata },
+    V0Light: { Component: V0Light, metadata: V0LightMetadata },
+    ValibotWordmarkDarkLogo: { Component: ValibotWordmarkDarkLogo, metadata: ValibotWordmarkDarkLogoMetadata },
+    ValibotWordmarkLightLogo: { Component: ValibotWordmarkLightLogo, metadata: ValibotWordmarkLightLogoMetadata },
+    ValibotLogo: { Component: ValibotLogo, metadata: ValibotLogoMetadata },
+    VercelLogo: { Component: VercelLogo, metadata: VercelLogoMetadata },
+    VercelDark: { Component: VercelDark, metadata: VercelDarkMetadata },
+    VercelWordmark: { Component: VercelWordmark, metadata: VercelWordmarkMetadata },
+    VercelWordmarkDark: { Component: VercelWordmarkDark, metadata: VercelWordmarkDarkMetadata },
+    VimLogo: { Component: VimLogo, metadata: VimLogoMetadata },
+    VisualStudioLogo: { Component: VisualStudioLogo, metadata: VisualStudioLogoMetadata },
+    ViteLogo: { Component: ViteLogo, metadata: ViteLogoMetadata },
+    VitestLogo: { Component: VitestLogo, metadata: VitestLogoMetadata },
+    VivaldiLogo: { Component: VivaldiLogo, metadata: VivaldiLogoMetadata },
+    VkLogo: { Component: VkLogo, metadata: VkLogoMetadata },
+    VoicemodDark: { Component: VoicemodDark, metadata: VoicemodDarkMetadata },
+    VoicemodLight: { Component: VoicemodLight, metadata: VoicemodLightMetadata },
+    VoidzeroLogo: { Component: VoidzeroLogo, metadata: VoidzeroLogoMetadata },
+    VoltaDarkLogo: { Component: VoltaDarkLogo, metadata: VoltaDarkLogoMetadata },
+    VoltaLightLogo: { Component: VoltaLightLogo, metadata: VoltaLightLogoMetadata },
+    VscodeLogo: { Component: VscodeLogo, metadata: VscodeLogoMetadata },
+    VscodiumLogo: { Component: VscodiumLogo, metadata: VscodiumLogoMetadata },
+    VueLogo: { Component: VueLogo, metadata: VueLogoMetadata },
+    VuetifyLogo: { Component: VuetifyLogo, metadata: VuetifyLogoMetadata },
+    VueuseLogo: { Component: VueuseLogo, metadata: VueuseLogoMetadata },
+    WakatimeDarkLogo: { Component: WakatimeDarkLogo, metadata: WakatimeDarkLogoMetadata },
+    WakatimeLightLogo: { Component: WakatimeLightLogo, metadata: WakatimeLightLogoMetadata },
+    WarpLogo: { Component: WarpLogo, metadata: WarpLogoMetadata },
+    WebcomponentsLogo: { Component: WebcomponentsLogo, metadata: WebcomponentsLogoMetadata },
+    WebdevLogo: { Component: WebdevLogo, metadata: WebdevLogoMetadata },
+    WebflowWordmarkDarkLogo: { Component: WebflowWordmarkDarkLogo, metadata: WebflowWordmarkDarkLogoMetadata },
+    WebflowWordmarkLightLogo: { Component: WebflowWordmarkLightLogo, metadata: WebflowWordmarkLightLogoMetadata },
+    WebflowLogo: { Component: WebflowLogo, metadata: WebflowLogoMetadata },
+    WebglLogo: { Component: WebglLogo, metadata: WebglLogoMetadata },
+    WebglDark: { Component: WebglDark, metadata: WebglDarkMetadata },
+    WebkitLogo: { Component: WebkitLogo, metadata: WebkitLogoMetadata },
+    WebstormLogo: { Component: WebstormLogo, metadata: WebstormLogoMetadata },
+    WhatsappIconLogo: { Component: WhatsappIconLogo, metadata: WhatsappIconLogoMetadata },
+    WhatsappWordmarkLogo: { Component: WhatsappWordmarkLogo, metadata: WhatsappWordmarkLogoMetadata },
+    WhopLightLogo: { Component: WhopLightLogo, metadata: WhopLightLogoMetadata },
+    WhopLogo: { Component: WhopLogo, metadata: WhopLogoMetadata },
+    WindicssLogo: { Component: WindicssLogo, metadata: WindicssLogoMetadata },
+    WindowsLogo: { Component: WindowsLogo, metadata: WindowsLogoMetadata },
+    WindsurfDarkLogo: { Component: WindsurfDarkLogo, metadata: WindsurfDarkLogoMetadata },
+    WindsurfLightLogo: { Component: WindsurfLightLogo, metadata: WindsurfLightLogoMetadata },
+    WindsurfWordmarkDarkLogo: { Component: WindsurfWordmarkDarkLogo, metadata: WindsurfWordmarkDarkLogoMetadata },
+    WindsurfWordmarkLightLogo: { Component: WindsurfWordmarkLightLogo, metadata: WindsurfWordmarkLightLogoMetadata },
+    WordpressLogo: { Component: WordpressLogo, metadata: WordpressLogoMetadata },
+    WorkosLightLogo: { Component: WorkosLightLogo, metadata: WorkosLightLogoMetadata },
+    WorkosLogo: { Component: WorkosLogo, metadata: WorkosLogoMetadata },
+    XLogo: { Component: XLogo, metadata: XLogoMetadata },
+    XDark: { Component: XDark, metadata: XDarkMetadata },
+    XaiDark: { Component: XaiDark, metadata: XaiDarkMetadata },
+    XaiLight: { Component: XaiLight, metadata: XaiLightMetadata },
+    XboxLogo: { Component: XboxLogo, metadata: XboxLogoMetadata },
+    XstateLogo: { Component: XstateLogo, metadata: XstateLogoMetadata },
+    XstateDark: { Component: XstateDark, metadata: XstateDarkMetadata },
+    YarnLogo: { Component: YarnLogo, metadata: YarnLogoMetadata },
+    YgeekerLogo: { Component: YgeekerLogo, metadata: YgeekerLogoMetadata },
+    YoutubeWordmarkDarkLogo: { Component: YoutubeWordmarkDarkLogo, metadata: YoutubeWordmarkDarkLogoMetadata },
+    YoutubeWordmarkLightLogo: { Component: YoutubeWordmarkLightLogo, metadata: YoutubeWordmarkLightLogoMetadata },
+    YoutubeLogo: { Component: YoutubeLogo, metadata: YoutubeLogoMetadata },
+    YoutubeMusic: { Component: YoutubeMusic, metadata: YoutubeMusicMetadata },
+    YoutubeMusicWordmarkDark: { Component: YoutubeMusicWordmarkDark, metadata: YoutubeMusicWordmarkDarkMetadata },
+    YoutubeMusicWordmarkLight: { Component: YoutubeMusicWordmarkLight, metadata: YoutubeMusicWordmarkLightMetadata },
+    ZeaburDarkLogo: { Component: ZeaburDarkLogo, metadata: ZeaburDarkLogoMetadata },
+    ZeaburLightLogo: { Component: ZeaburLightLogo, metadata: ZeaburLightLogoMetadata },
+    ZeaburWordmarkDark: { Component: ZeaburWordmarkDark, metadata: ZeaburWordmarkDarkMetadata },
+    ZeaburWordmarkLight: { Component: ZeaburWordmarkLight, metadata: ZeaburWordmarkLightMetadata },
+    ZedLogoLogo: { Component: ZedLogoLogo, metadata: ZedLogoLogoMetadata },
+    ZedLogoDark: { Component: ZedLogoDark, metadata: ZedLogoDarkMetadata },
+    ZenBrowserDarkLogo: { Component: ZenBrowserDarkLogo, metadata: ZenBrowserDarkLogoMetadata },
+    ZenBrowserLightLogo: { Component: ZenBrowserLightLogo, metadata: ZenBrowserLightLogoMetadata },
+    ZenBrowserWordmarkDarkLogo: { Component: ZenBrowserWordmarkDarkLogo, metadata: ZenBrowserWordmarkDarkLogoMetadata },
+    ZenBrowserWordmarkLightLogo: { Component: ZenBrowserWordmarkLightLogo, metadata: ZenBrowserWordmarkLightLogoMetadata },
+    ZigLogo: { Component: ZigLogo, metadata: ZigLogoMetadata },
+    ZodLogo: { Component: ZodLogo, metadata: ZodLogoMetadata },
+    ZoomLogo: { Component: ZoomLogo, metadata: ZoomLogoMetadata },
+    ZulipWordmarkLogo: { Component: ZulipWordmarkLogo, metadata: ZulipWordmarkLogoMetadata },
+    ZulipLogo: { Component: ZulipLogo, metadata: ZulipLogoMetadata },
+    ZyftLogo: { Component: ZyftLogo, metadata: ZyftLogoMetadata },
+  },
+} as const;
+

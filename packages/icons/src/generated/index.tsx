@@ -1,0 +1,3509 @@
+/**
+ * Auto-generated main index for all logos
+ * Do not edit manually
+ */
+
+import { ActivityLogo, ActivityLogoMetadata } from './feather/activity';
+import { AirplayLogo, AirplayLogoMetadata } from './feather/airplay';
+import { AlertCircleLogo, AlertCircleLogoMetadata } from './feather/alert-circle';
+import { AlertOctagonLogo, AlertOctagonLogoMetadata } from './feather/alert-octagon';
+import { AlertTriangleLogo, AlertTriangleLogoMetadata } from './feather/alert-triangle';
+import { AlignCenterLogo, AlignCenterLogoMetadata } from './feather/align-center';
+import { AlignJustifyLogo, AlignJustifyLogoMetadata } from './feather/align-justify';
+import { AlignLeftLogo, AlignLeftLogoMetadata } from './feather/align-left';
+import { AlignRightLogo, AlignRightLogoMetadata } from './feather/align-right';
+import { AnchorLogo, AnchorLogoMetadata } from './feather/anchor';
+import { ApertureLogo, ApertureLogoMetadata } from './feather/aperture';
+import { ArchiveLogo, ArchiveLogoMetadata } from './feather/archive';
+import { ArrowDownCircleLogo, ArrowDownCircleLogoMetadata } from './feather/arrow-down-circle';
+import { ArrowDownLeftLogo, ArrowDownLeftLogoMetadata } from './feather/arrow-down-left';
+import { ArrowDownRightLogo, ArrowDownRightLogoMetadata } from './feather/arrow-down-right';
+import { ArrowDownLogo, ArrowDownLogoMetadata } from './feather/arrow-down';
+import { ArrowLeftCircleLogo, ArrowLeftCircleLogoMetadata } from './feather/arrow-left-circle';
+import { ArrowLeftLogo, ArrowLeftLogoMetadata } from './feather/arrow-left';
+import { ArrowRightCircleLogo, ArrowRightCircleLogoMetadata } from './feather/arrow-right-circle';
+import { ArrowRightLogo, ArrowRightLogoMetadata } from './feather/arrow-right';
+import { ArrowUpCircleLogo, ArrowUpCircleLogoMetadata } from './feather/arrow-up-circle';
+import { ArrowUpLeftLogo, ArrowUpLeftLogoMetadata } from './feather/arrow-up-left';
+import { ArrowUpRightLogo, ArrowUpRightLogoMetadata } from './feather/arrow-up-right';
+import { ArrowUpLogo, ArrowUpLogoMetadata } from './feather/arrow-up';
+import { AtSignLogo, AtSignLogoMetadata } from './feather/at-sign';
+import { AwardLogo, AwardLogoMetadata } from './feather/award';
+import { BarChart2Logo, BarChart2LogoMetadata } from './feather/bar-chart-2';
+import { BarChartLogo, BarChartLogoMetadata } from './feather/bar-chart';
+import { BatteryChargingLogo, BatteryChargingLogoMetadata } from './feather/battery-charging';
+import { BatteryLogo, BatteryLogoMetadata } from './feather/battery';
+import { BellOffLogo, BellOffLogoMetadata } from './feather/bell-off';
+import { BellLogo, BellLogoMetadata } from './feather/bell';
+import { BluetoothLogo, BluetoothLogoMetadata } from './feather/bluetooth';
+import { BoldLogo, BoldLogoMetadata } from './feather/bold';
+import { BookOpenLogo, BookOpenLogoMetadata } from './feather/book-open';
+import { BookLogo, BookLogoMetadata } from './feather/book';
+import { BookmarkLogo, BookmarkLogoMetadata } from './feather/bookmark';
+import { BoxLogo, BoxLogoMetadata } from './feather/box';
+import { BriefcaseLogo, BriefcaseLogoMetadata } from './feather/briefcase';
+import { CalendarLogo, CalendarLogoMetadata } from './feather/calendar';
+import { CameraOffLogo, CameraOffLogoMetadata } from './feather/camera-off';
+import { CameraLogo, CameraLogoMetadata } from './feather/camera';
+import { CastLogo, CastLogoMetadata } from './feather/cast';
+import { CheckCircleLogo, CheckCircleLogoMetadata } from './feather/check-circle';
+import { CheckSquareLogo, CheckSquareLogoMetadata } from './feather/check-square';
+import { CheckLogo, CheckLogoMetadata } from './feather/check';
+import { ChevronDownLogo, ChevronDownLogoMetadata } from './feather/chevron-down';
+import { ChevronLeftLogo, ChevronLeftLogoMetadata } from './feather/chevron-left';
+import { ChevronRightLogo, ChevronRightLogoMetadata } from './feather/chevron-right';
+import { ChevronUpLogo, ChevronUpLogoMetadata } from './feather/chevron-up';
+import { ChevronsDownLogo, ChevronsDownLogoMetadata } from './feather/chevrons-down';
+import { ChevronsLeftLogo, ChevronsLeftLogoMetadata } from './feather/chevrons-left';
+import { ChevronsRightLogo, ChevronsRightLogoMetadata } from './feather/chevrons-right';
+import { ChevronsUpLogo, ChevronsUpLogoMetadata } from './feather/chevrons-up';
+import { ChromeLogo, ChromeLogoMetadata } from './feather/chrome';
+import { CircleLogo, CircleLogoMetadata } from './feather/circle';
+import { ClipboardLogo, ClipboardLogoMetadata } from './feather/clipboard';
+import { ClockLogo, ClockLogoMetadata } from './feather/clock';
+import { CloudDrizzleLogo, CloudDrizzleLogoMetadata } from './feather/cloud-drizzle';
+import { CloudLightningLogo, CloudLightningLogoMetadata } from './feather/cloud-lightning';
+import { CloudOffLogo, CloudOffLogoMetadata } from './feather/cloud-off';
+import { CloudRainLogo, CloudRainLogoMetadata } from './feather/cloud-rain';
+import { CloudSnowLogo, CloudSnowLogoMetadata } from './feather/cloud-snow';
+import { CloudLogo, CloudLogoMetadata } from './feather/cloud';
+import { CodeLogo, CodeLogoMetadata } from './feather/code';
+import { CodepenLogo, CodepenLogoMetadata } from './feather/codepen';
+import { CodesandboxLogo, CodesandboxLogoMetadata } from './feather/codesandbox';
+import { CoffeeLogo, CoffeeLogoMetadata } from './feather/coffee';
+import { ColumnsLogo, ColumnsLogoMetadata } from './feather/columns';
+import { CommandLogo, CommandLogoMetadata } from './feather/command';
+import { CompassLogo, CompassLogoMetadata } from './feather/compass';
+import { CopyLogo, CopyLogoMetadata } from './feather/copy';
+import { CornerDownLeftLogo, CornerDownLeftLogoMetadata } from './feather/corner-down-left';
+import { CornerDownRightLogo, CornerDownRightLogoMetadata } from './feather/corner-down-right';
+import { CornerLeftDownLogo, CornerLeftDownLogoMetadata } from './feather/corner-left-down';
+import { CornerLeftUpLogo, CornerLeftUpLogoMetadata } from './feather/corner-left-up';
+import { CornerRightDownLogo, CornerRightDownLogoMetadata } from './feather/corner-right-down';
+import { CornerRightUpLogo, CornerRightUpLogoMetadata } from './feather/corner-right-up';
+import { CornerUpLeftLogo, CornerUpLeftLogoMetadata } from './feather/corner-up-left';
+import { CornerUpRightLogo, CornerUpRightLogoMetadata } from './feather/corner-up-right';
+import { CpuLogo, CpuLogoMetadata } from './feather/cpu';
+import { CreditCardLogo, CreditCardLogoMetadata } from './feather/credit-card';
+import { CropLogo, CropLogoMetadata } from './feather/crop';
+import { CrosshairLogo, CrosshairLogoMetadata } from './feather/crosshair';
+import { DatabaseLogo, DatabaseLogoMetadata } from './feather/database';
+import { DeleteLogo, DeleteLogoMetadata } from './feather/delete';
+import { DiscLogo, DiscLogoMetadata } from './feather/disc';
+import { DivideCircleLogo, DivideCircleLogoMetadata } from './feather/divide-circle';
+import { DivideSquareLogo, DivideSquareLogoMetadata } from './feather/divide-square';
+import { DivideLogo, DivideLogoMetadata } from './feather/divide';
+import { DollarSignLogo, DollarSignLogoMetadata } from './feather/dollar-sign';
+import { DownloadCloudLogo, DownloadCloudLogoMetadata } from './feather/download-cloud';
+import { DownloadLogo, DownloadLogoMetadata } from './feather/download';
+import { DribbbleLogo, DribbbleLogoMetadata } from './feather/dribbble';
+import { DropletLogo, DropletLogoMetadata } from './feather/droplet';
+import { Edit2Logo, Edit2LogoMetadata } from './feather/edit-2';
+import { Edit3Logo, Edit3LogoMetadata } from './feather/edit-3';
+import { EditLogo, EditLogoMetadata } from './feather/edit';
+import { ExternalLinkLogo, ExternalLinkLogoMetadata } from './feather/external-link';
+import { EyeOffLogo, EyeOffLogoMetadata } from './feather/eye-off';
+import { EyeLogo, EyeLogoMetadata } from './feather/eye';
+import { FacebookLogo, FacebookLogoMetadata } from './feather/facebook';
+import { FastForwardLogo, FastForwardLogoMetadata } from './feather/fast-forward';
+import { FeatherLogo, FeatherLogoMetadata } from './feather/feather';
+import { FigmaLogo, FigmaLogoMetadata } from './feather/figma';
+import { FileMinusLogo, FileMinusLogoMetadata } from './feather/file-minus';
+import { FilePlusLogo, FilePlusLogoMetadata } from './feather/file-plus';
+import { FileTextLogo, FileTextLogoMetadata } from './feather/file-text';
+import { FileLogo, FileLogoMetadata } from './feather/file';
+import { FilmLogo, FilmLogoMetadata } from './feather/film';
+import { FilterLogo, FilterLogoMetadata } from './feather/filter';
+import { FlagLogo, FlagLogoMetadata } from './feather/flag';
+import { FolderMinusLogo, FolderMinusLogoMetadata } from './feather/folder-minus';
+import { FolderPlusLogo, FolderPlusLogoMetadata } from './feather/folder-plus';
+import { FolderLogo, FolderLogoMetadata } from './feather/folder';
+import { FramerLogo, FramerLogoMetadata } from './feather/framer';
+import { FrownLogo, FrownLogoMetadata } from './feather/frown';
+import { GiftLogo, GiftLogoMetadata } from './feather/gift';
+import { GitBranchLogo, GitBranchLogoMetadata } from './feather/git-branch';
+import { GitCommitLogo, GitCommitLogoMetadata } from './feather/git-commit';
+import { GitMergeLogo, GitMergeLogoMetadata } from './feather/git-merge';
+import { GitPullRequestLogo, GitPullRequestLogoMetadata } from './feather/git-pull-request';
+import { GithubLogo, GithubLogoMetadata } from './feather/github';
+import { GitlabLogo, GitlabLogoMetadata } from './feather/gitlab';
+import { GlobeLogo, GlobeLogoMetadata } from './feather/globe';
+import { GridLogo, GridLogoMetadata } from './feather/grid';
+import { HardDriveLogo, HardDriveLogoMetadata } from './feather/hard-drive';
+import { HashLogo, HashLogoMetadata } from './feather/hash';
+import { HeadphonesLogo, HeadphonesLogoMetadata } from './feather/headphones';
+import { HeartLogo, HeartLogoMetadata } from './feather/heart';
+import { HelpCircleLogo, HelpCircleLogoMetadata } from './feather/help-circle';
+import { HexagonLogo, HexagonLogoMetadata } from './feather/hexagon';
+import { HomeLogo, HomeLogoMetadata } from './feather/home';
+import { ImageLogo, ImageLogoMetadata } from './feather/image';
+import { InboxLogo, InboxLogoMetadata } from './feather/inbox';
+import { InfoLogo, InfoLogoMetadata } from './feather/info';
+import { InstagramLogo, InstagramLogoMetadata } from './feather/instagram';
+import { ItalicLogo, ItalicLogoMetadata } from './feather/italic';
+import { KeyLogo, KeyLogoMetadata } from './feather/key';
+import { LayersLogo, LayersLogoMetadata } from './feather/layers';
+import { LayoutLogo, LayoutLogoMetadata } from './feather/layout';
+import { LifeBuoyLogo, LifeBuoyLogoMetadata } from './feather/life-buoy';
+import { Link2Logo, Link2LogoMetadata } from './feather/link-2';
+import { LinkLogo, LinkLogoMetadata } from './feather/link';
+import { LinkedinLogo, LinkedinLogoMetadata } from './feather/linkedin';
+import { ListLogo, ListLogoMetadata } from './feather/list';
+import { LoaderLogo, LoaderLogoMetadata } from './feather/loader';
+import { LockLogo, LockLogoMetadata } from './feather/lock';
+import { LogInLogo, LogInLogoMetadata } from './feather/log-in';
+import { LogOutLogo, LogOutLogoMetadata } from './feather/log-out';
+import { MailLogo, MailLogoMetadata } from './feather/mail';
+import { MapPinLogo, MapPinLogoMetadata } from './feather/map-pin';
+import { MapLogo, MapLogoMetadata } from './feather/map';
+import { Maximize2Logo, Maximize2LogoMetadata } from './feather/maximize-2';
+import { MaximizeLogo, MaximizeLogoMetadata } from './feather/maximize';
+import { MehLogo, MehLogoMetadata } from './feather/meh';
+import { MenuLogo, MenuLogoMetadata } from './feather/menu';
+import { MessageCircleLogo, MessageCircleLogoMetadata } from './feather/message-circle';
+import { MessageSquareLogo, MessageSquareLogoMetadata } from './feather/message-square';
+import { MicOffLogo, MicOffLogoMetadata } from './feather/mic-off';
+import { MicLogo, MicLogoMetadata } from './feather/mic';
+import { Minimize2Logo, Minimize2LogoMetadata } from './feather/minimize-2';
+import { MinimizeLogo, MinimizeLogoMetadata } from './feather/minimize';
+import { MinusCircleLogo, MinusCircleLogoMetadata } from './feather/minus-circle';
+import { MinusSquareLogo, MinusSquareLogoMetadata } from './feather/minus-square';
+import { MinusLogo, MinusLogoMetadata } from './feather/minus';
+import { MonitorLogo, MonitorLogoMetadata } from './feather/monitor';
+import { MoonLogo, MoonLogoMetadata } from './feather/moon';
+import { MoreHorizontalLogo, MoreHorizontalLogoMetadata } from './feather/more-horizontal';
+import { MoreVerticalLogo, MoreVerticalLogoMetadata } from './feather/more-vertical';
+import { MousePointerLogo, MousePointerLogoMetadata } from './feather/mouse-pointer';
+import { MoveLogo, MoveLogoMetadata } from './feather/move';
+import { MusicLogo, MusicLogoMetadata } from './feather/music';
+import { Navigation2Logo, Navigation2LogoMetadata } from './feather/navigation-2';
+import { NavigationLogo, NavigationLogoMetadata } from './feather/navigation';
+import { OctagonLogo, OctagonLogoMetadata } from './feather/octagon';
+import { PackageLogo, PackageLogoMetadata } from './feather/package';
+import { PaperclipLogo, PaperclipLogoMetadata } from './feather/paperclip';
+import { PauseCircleLogo, PauseCircleLogoMetadata } from './feather/pause-circle';
+import { PauseLogo, PauseLogoMetadata } from './feather/pause';
+import { PenToolLogo, PenToolLogoMetadata } from './feather/pen-tool';
+import { PercentLogo, PercentLogoMetadata } from './feather/percent';
+import { PhoneCallLogo, PhoneCallLogoMetadata } from './feather/phone-call';
+import { PhoneForwardedLogo, PhoneForwardedLogoMetadata } from './feather/phone-forwarded';
+import { PhoneIncomingLogo, PhoneIncomingLogoMetadata } from './feather/phone-incoming';
+import { PhoneMissedLogo, PhoneMissedLogoMetadata } from './feather/phone-missed';
+import { PhoneOffLogo, PhoneOffLogoMetadata } from './feather/phone-off';
+import { PhoneOutgoingLogo, PhoneOutgoingLogoMetadata } from './feather/phone-outgoing';
+import { PhoneLogo, PhoneLogoMetadata } from './feather/phone';
+import { PieChartLogo, PieChartLogoMetadata } from './feather/pie-chart';
+import { PlayCircleLogo, PlayCircleLogoMetadata } from './feather/play-circle';
+import { PlayLogo, PlayLogoMetadata } from './feather/play';
+import { PlusCircleLogo, PlusCircleLogoMetadata } from './feather/plus-circle';
+import { PlusSquareLogo, PlusSquareLogoMetadata } from './feather/plus-square';
+import { PlusLogo, PlusLogoMetadata } from './feather/plus';
+import { PocketLogo, PocketLogoMetadata } from './feather/pocket';
+import { PowerLogo, PowerLogoMetadata } from './feather/power';
+import { PrinterLogo, PrinterLogoMetadata } from './feather/printer';
+import { RadioLogo, RadioLogoMetadata } from './feather/radio';
+import { RefreshCcwLogo, RefreshCcwLogoMetadata } from './feather/refresh-ccw';
+import { RefreshCwLogo, RefreshCwLogoMetadata } from './feather/refresh-cw';
+import { RepeatLogo, RepeatLogoMetadata } from './feather/repeat';
+import { RewindLogo, RewindLogoMetadata } from './feather/rewind';
+import { RotateCcwLogo, RotateCcwLogoMetadata } from './feather/rotate-ccw';
+import { RotateCwLogo, RotateCwLogoMetadata } from './feather/rotate-cw';
+import { RssLogo, RssLogoMetadata } from './feather/rss';
+import { SaveLogo, SaveLogoMetadata } from './feather/save';
+import { ScissorsLogo, ScissorsLogoMetadata } from './feather/scissors';
+import { SearchLogo, SearchLogoMetadata } from './feather/search';
+import { SendLogo, SendLogoMetadata } from './feather/send';
+import { ServerLogo, ServerLogoMetadata } from './feather/server';
+import { SettingsLogo, SettingsLogoMetadata } from './feather/settings';
+import { Share2Logo, Share2LogoMetadata } from './feather/share-2';
+import { ShareLogo, ShareLogoMetadata } from './feather/share';
+import { ShieldOffLogo, ShieldOffLogoMetadata } from './feather/shield-off';
+import { ShieldLogo, ShieldLogoMetadata } from './feather/shield';
+import { ShoppingBagLogo, ShoppingBagLogoMetadata } from './feather/shopping-bag';
+import { ShoppingCartLogo, ShoppingCartLogoMetadata } from './feather/shopping-cart';
+import { ShuffleLogo, ShuffleLogoMetadata } from './feather/shuffle';
+import { SidebarLogo, SidebarLogoMetadata } from './feather/sidebar';
+import { SkipBackLogo, SkipBackLogoMetadata } from './feather/skip-back';
+import { SkipForwardLogo, SkipForwardLogoMetadata } from './feather/skip-forward';
+import { SlackLogo, SlackLogoMetadata } from './feather/slack';
+import { SlashLogo, SlashLogoMetadata } from './feather/slash';
+import { SlidersLogo, SlidersLogoMetadata } from './feather/sliders';
+import { SmartphoneLogo, SmartphoneLogoMetadata } from './feather/smartphone';
+import { SmileLogo, SmileLogoMetadata } from './feather/smile';
+import { SpeakerLogo, SpeakerLogoMetadata } from './feather/speaker';
+import { SquareLogo, SquareLogoMetadata } from './feather/square';
+import { StarLogo, StarLogoMetadata } from './feather/star';
+import { StopCircleLogo, StopCircleLogoMetadata } from './feather/stop-circle';
+import { SunLogo, SunLogoMetadata } from './feather/sun';
+import { SunriseLogo, SunriseLogoMetadata } from './feather/sunrise';
+import { SunsetLogo, SunsetLogoMetadata } from './feather/sunset';
+import { TableLogo, TableLogoMetadata } from './feather/table';
+import { TabletLogo, TabletLogoMetadata } from './feather/tablet';
+import { TagLogo, TagLogoMetadata } from './feather/tag';
+import { TargetLogo, TargetLogoMetadata } from './feather/target';
+import { TerminalLogo, TerminalLogoMetadata } from './feather/terminal';
+import { ThermometerLogo, ThermometerLogoMetadata } from './feather/thermometer';
+import { ThumbsDownLogo, ThumbsDownLogoMetadata } from './feather/thumbs-down';
+import { ThumbsUpLogo, ThumbsUpLogoMetadata } from './feather/thumbs-up';
+import { ToggleLeftLogo, ToggleLeftLogoMetadata } from './feather/toggle-left';
+import { ToggleRightLogo, ToggleRightLogoMetadata } from './feather/toggle-right';
+import { ToolLogo, ToolLogoMetadata } from './feather/tool';
+import { Trash2Logo, Trash2LogoMetadata } from './feather/trash-2';
+import { TrashLogo, TrashLogoMetadata } from './feather/trash';
+import { TrelloLogo, TrelloLogoMetadata } from './feather/trello';
+import { TrendingDownLogo, TrendingDownLogoMetadata } from './feather/trending-down';
+import { TrendingUpLogo, TrendingUpLogoMetadata } from './feather/trending-up';
+import { TriangleLogo, TriangleLogoMetadata } from './feather/triangle';
+import { TruckLogo, TruckLogoMetadata } from './feather/truck';
+import { TvLogo, TvLogoMetadata } from './feather/tv';
+import { TwitchLogo, TwitchLogoMetadata } from './feather/twitch';
+import { TwitterLogo, TwitterLogoMetadata } from './feather/twitter';
+import { TypeLogo, TypeLogoMetadata } from './feather/type';
+import { UmbrellaLogo, UmbrellaLogoMetadata } from './feather/umbrella';
+import { UnderlineLogo, UnderlineLogoMetadata } from './feather/underline';
+import { UnlockLogo, UnlockLogoMetadata } from './feather/unlock';
+import { UploadCloudLogo, UploadCloudLogoMetadata } from './feather/upload-cloud';
+import { UploadLogo, UploadLogoMetadata } from './feather/upload';
+import { UserCheckLogo, UserCheckLogoMetadata } from './feather/user-check';
+import { UserMinusLogo, UserMinusLogoMetadata } from './feather/user-minus';
+import { UserPlusLogo, UserPlusLogoMetadata } from './feather/user-plus';
+import { UserXLogo, UserXLogoMetadata } from './feather/user-x';
+import { UserLogo, UserLogoMetadata } from './feather/user';
+import { UsersLogo, UsersLogoMetadata } from './feather/users';
+import { VideoOffLogo, VideoOffLogoMetadata } from './feather/video-off';
+import { VideoLogo, VideoLogoMetadata } from './feather/video';
+import { VoicemailLogo, VoicemailLogoMetadata } from './feather/voicemail';
+import { Volume1Logo, Volume1LogoMetadata } from './feather/volume-1';
+import { Volume2Logo, Volume2LogoMetadata } from './feather/volume-2';
+import { VolumeXLogo, VolumeXLogoMetadata } from './feather/volume-x';
+import { VolumeLogo, VolumeLogoMetadata } from './feather/volume';
+import { WatchLogo, WatchLogoMetadata } from './feather/watch';
+import { WifiOffLogo, WifiOffLogoMetadata } from './feather/wifi-off';
+import { WifiLogo, WifiLogoMetadata } from './feather/wifi';
+import { WindLogo, WindLogoMetadata } from './feather/wind';
+import { XCircleLogo, XCircleLogoMetadata } from './feather/x-circle';
+import { XOctagonLogo, XOctagonLogoMetadata } from './feather/x-octagon';
+import { XSquareLogo, XSquareLogoMetadata } from './feather/x-square';
+import { XLogo, XLogoMetadata } from './feather/x';
+import { YoutubeLogo, YoutubeLogoMetadata } from './feather/youtube';
+import { ZapOffLogo, ZapOffLogoMetadata } from './feather/zap-off';
+import { ZapLogo, ZapLogoMetadata } from './feather/zap';
+import { ZoomInLogo, ZoomInLogoMetadata } from './feather/zoom-in';
+import { ZoomOutLogo, ZoomOutLogoMetadata } from './feather/zoom-out';
+import { AArrowDownLogo, AArrowDownLogoMetadata } from './mix/a-arrow-down';
+import { AArrowUpLogo, AArrowUpLogoMetadata } from './mix/a-arrow-up';
+import { ALargeSmallLogo, ALargeSmallLogoMetadata } from './mix/a-large-small';
+import { AccessibilityLogo, AccessibilityLogoMetadata } from './mix/accessibility';
+import { AirVentLogo, AirVentLogoMetadata } from './mix/air-vent';
+import { AlarmClockCheckLogo, AlarmClockCheckLogoMetadata } from './mix/alarm-clock-check';
+import { AlarmClockMinusLogo, AlarmClockMinusLogoMetadata } from './mix/alarm-clock-minus';
+import { AlarmClockOffLogo, AlarmClockOffLogoMetadata } from './mix/alarm-clock-off';
+import { AlarmClockPlusLogo, AlarmClockPlusLogoMetadata } from './mix/alarm-clock-plus';
+import { AlarmClockLogo, AlarmClockLogoMetadata } from './mix/alarm-clock';
+import { AlarmSmokeLogo, AlarmSmokeLogoMetadata } from './mix/alarm-smoke';
+import { AlbumLogo, AlbumLogoMetadata } from './mix/album';
+import { AlignCenterHorizontalLogo, AlignCenterHorizontalLogoMetadata } from './mix/align-center-horizontal';
+import { AlignCenterVerticalLogo, AlignCenterVerticalLogoMetadata } from './mix/align-center-vertical';
+import { AlignEndHorizontalLogo, AlignEndHorizontalLogoMetadata } from './mix/align-end-horizontal';
+import { AlignEndVerticalLogo, AlignEndVerticalLogoMetadata } from './mix/align-end-vertical';
+import { AlignHorizontalDistributeCenterLogo, AlignHorizontalDistributeCenterLogoMetadata } from './mix/align-horizontal-distribute-center';
+import { AlignHorizontalDistributeEndLogo, AlignHorizontalDistributeEndLogoMetadata } from './mix/align-horizontal-distribute-end';
+import { AlignHorizontalDistributeStartLogo, AlignHorizontalDistributeStartLogoMetadata } from './mix/align-horizontal-distribute-start';
+import { AlignHorizontalJustifyCenterLogo, AlignHorizontalJustifyCenterLogoMetadata } from './mix/align-horizontal-justify-center';
+import { AlignHorizontalJustifyEndLogo, AlignHorizontalJustifyEndLogoMetadata } from './mix/align-horizontal-justify-end';
+import { AlignHorizontalJustifyStartLogo, AlignHorizontalJustifyStartLogoMetadata } from './mix/align-horizontal-justify-start';
+import { AlignHorizontalSpaceAroundLogo, AlignHorizontalSpaceAroundLogoMetadata } from './mix/align-horizontal-space-around';
+import { AlignHorizontalSpaceBetweenLogo, AlignHorizontalSpaceBetweenLogoMetadata } from './mix/align-horizontal-space-between';
+import { AlignStartHorizontalLogo, AlignStartHorizontalLogoMetadata } from './mix/align-start-horizontal';
+import { AlignStartVerticalLogo, AlignStartVerticalLogoMetadata } from './mix/align-start-vertical';
+import { AlignVerticalDistributeCenterLogo, AlignVerticalDistributeCenterLogoMetadata } from './mix/align-vertical-distribute-center';
+import { AlignVerticalDistributeEndLogo, AlignVerticalDistributeEndLogoMetadata } from './mix/align-vertical-distribute-end';
+import { AlignVerticalDistributeStartLogo, AlignVerticalDistributeStartLogoMetadata } from './mix/align-vertical-distribute-start';
+import { AlignVerticalJustifyCenterLogo, AlignVerticalJustifyCenterLogoMetadata } from './mix/align-vertical-justify-center';
+import { AlignVerticalJustifyEndLogo, AlignVerticalJustifyEndLogoMetadata } from './mix/align-vertical-justify-end';
+import { AlignVerticalJustifyStartLogo, AlignVerticalJustifyStartLogoMetadata } from './mix/align-vertical-justify-start';
+import { AlignVerticalSpaceAroundLogo, AlignVerticalSpaceAroundLogoMetadata } from './mix/align-vertical-space-around';
+import { AlignVerticalSpaceBetweenLogo, AlignVerticalSpaceBetweenLogoMetadata } from './mix/align-vertical-space-between';
+import { AmbulanceLogo, AmbulanceLogoMetadata } from './mix/ambulance';
+import { AmpersandLogo, AmpersandLogoMetadata } from './mix/ampersand';
+import { AmpersandsLogo, AmpersandsLogoMetadata } from './mix/ampersands';
+import { AmphoraLogo, AmphoraLogoMetadata } from './mix/amphora';
+import { AngryLogo, AngryLogoMetadata } from './mix/angry';
+import { AnnoyedLogo, AnnoyedLogoMetadata } from './mix/annoyed';
+import { AntennaLogo, AntennaLogoMetadata } from './mix/antenna';
+import { AnvilLogo, AnvilLogoMetadata } from './mix/anvil';
+import { AppWindowMacLogo, AppWindowMacLogoMetadata } from './mix/app-window-mac';
+import { AppWindowLogo, AppWindowLogoMetadata } from './mix/app-window';
+import { AppleLogo, AppleLogoMetadata } from './mix/apple';
+import { ArchiveRestoreLogo, ArchiveRestoreLogoMetadata } from './mix/archive-restore';
+import { ArchiveXLogo, ArchiveXLogoMetadata } from './mix/archive-x';
+import { ArmchairLogo, ArmchairLogoMetadata } from './mix/armchair';
+import { ArrowBigDownDashLogo, ArrowBigDownDashLogoMetadata } from './mix/arrow-big-down-dash';
+import { ArrowBigDownLogo, ArrowBigDownLogoMetadata } from './mix/arrow-big-down';
+import { ArrowBigLeftDashLogo, ArrowBigLeftDashLogoMetadata } from './mix/arrow-big-left-dash';
+import { ArrowBigLeftLogo, ArrowBigLeftLogoMetadata } from './mix/arrow-big-left';
+import { ArrowBigRightDashLogo, ArrowBigRightDashLogoMetadata } from './mix/arrow-big-right-dash';
+import { ArrowBigRightLogo, ArrowBigRightLogoMetadata } from './mix/arrow-big-right';
+import { ArrowBigUpDashLogo, ArrowBigUpDashLogoMetadata } from './mix/arrow-big-up-dash';
+import { ArrowBigUpLogo, ArrowBigUpLogoMetadata } from './mix/arrow-big-up';
+import { ArrowDown01Logo, ArrowDown01LogoMetadata } from './mix/arrow-down-0-1';
+import { ArrowDown10Logo, ArrowDown10LogoMetadata } from './mix/arrow-down-1-0';
+import { ArrowDownAZLogo, ArrowDownAZLogoMetadata } from './mix/arrow-down-a-z';
+import { ArrowDownFromLineLogo, ArrowDownFromLineLogoMetadata } from './mix/arrow-down-from-line';
+import { ArrowDownNarrowWideLogo, ArrowDownNarrowWideLogoMetadata } from './mix/arrow-down-narrow-wide';
+import { ArrowDownToDotLogo, ArrowDownToDotLogoMetadata } from './mix/arrow-down-to-dot';
+import { ArrowDownToLineLogo, ArrowDownToLineLogoMetadata } from './mix/arrow-down-to-line';
+import { ArrowDownUpLogo, ArrowDownUpLogoMetadata } from './mix/arrow-down-up';
+import { ArrowDownWideNarrowLogo, ArrowDownWideNarrowLogoMetadata } from './mix/arrow-down-wide-narrow';
+import { ArrowDownZALogo, ArrowDownZALogoMetadata } from './mix/arrow-down-z-a';
+import { ArrowLeftFromLineLogo, ArrowLeftFromLineLogoMetadata } from './mix/arrow-left-from-line';
+import { ArrowLeftRightLogo, ArrowLeftRightLogoMetadata } from './mix/arrow-left-right';
+import { ArrowLeftToLineLogo, ArrowLeftToLineLogoMetadata } from './mix/arrow-left-to-line';
+import { ArrowRightFromLineLogo, ArrowRightFromLineLogoMetadata } from './mix/arrow-right-from-line';
+import { ArrowRightLeftLogo, ArrowRightLeftLogoMetadata } from './mix/arrow-right-left';
+import { ArrowRightToLineLogo, ArrowRightToLineLogoMetadata } from './mix/arrow-right-to-line';
+import { ArrowUp01Logo, ArrowUp01LogoMetadata } from './mix/arrow-up-0-1';
+import { ArrowUp10Logo, ArrowUp10LogoMetadata } from './mix/arrow-up-1-0';
+import { ArrowUpAZLogo, ArrowUpAZLogoMetadata } from './mix/arrow-up-a-z';
+import { ArrowUpDownLogo, ArrowUpDownLogoMetadata } from './mix/arrow-up-down';
+import { ArrowUpFromDotLogo, ArrowUpFromDotLogoMetadata } from './mix/arrow-up-from-dot';
+import { ArrowUpFromLineLogo, ArrowUpFromLineLogoMetadata } from './mix/arrow-up-from-line';
+import { ArrowUpNarrowWideLogo, ArrowUpNarrowWideLogoMetadata } from './mix/arrow-up-narrow-wide';
+import { ArrowUpToLineLogo, ArrowUpToLineLogoMetadata } from './mix/arrow-up-to-line';
+import { ArrowUpWideNarrowLogo, ArrowUpWideNarrowLogoMetadata } from './mix/arrow-up-wide-narrow';
+import { ArrowUpZALogo, ArrowUpZALogoMetadata } from './mix/arrow-up-z-a';
+import { ArrowsUpFromLineLogo, ArrowsUpFromLineLogoMetadata } from './mix/arrows-up-from-line';
+import { AsteriskLogo, AsteriskLogoMetadata } from './mix/asterisk';
+import { AtomLogo, AtomLogoMetadata } from './mix/atom';
+import { AudioLinesLogo, AudioLinesLogoMetadata } from './mix/audio-lines';
+import { AudioWaveformLogo, AudioWaveformLogoMetadata } from './mix/audio-waveform';
+import { AxeLogo, AxeLogoMetadata } from './mix/axe';
+import { Axis3dLogo, Axis3dLogoMetadata } from './mix/axis-3d';
+import { BabyLogo, BabyLogoMetadata } from './mix/baby';
+import { BackpackLogo, BackpackLogoMetadata } from './mix/backpack';
+import { BadgeAlertLogo, BadgeAlertLogoMetadata } from './mix/badge-alert';
+import { BadgeCentLogo, BadgeCentLogoMetadata } from './mix/badge-cent';
+import { BadgeCheckLogo, BadgeCheckLogoMetadata } from './mix/badge-check';
+import { BadgeDollarSignLogo, BadgeDollarSignLogoMetadata } from './mix/badge-dollar-sign';
+import { BadgeEuroLogo, BadgeEuroLogoMetadata } from './mix/badge-euro';
+import { BadgeIndianRupeeLogo, BadgeIndianRupeeLogoMetadata } from './mix/badge-indian-rupee';
+import { BadgeInfoLogo, BadgeInfoLogoMetadata } from './mix/badge-info';
+import { BadgeJapaneseYenLogo, BadgeJapaneseYenLogoMetadata } from './mix/badge-japanese-yen';
+import { BadgeMinusLogo, BadgeMinusLogoMetadata } from './mix/badge-minus';
+import { BadgePercentLogo, BadgePercentLogoMetadata } from './mix/badge-percent';
+import { BadgePlusLogo, BadgePlusLogoMetadata } from './mix/badge-plus';
+import { BadgePoundSterlingLogo, BadgePoundSterlingLogoMetadata } from './mix/badge-pound-sterling';
+import { BadgeQuestionMarkLogo, BadgeQuestionMarkLogoMetadata } from './mix/badge-question-mark';
+import { BadgeRussianRubleLogo, BadgeRussianRubleLogoMetadata } from './mix/badge-russian-ruble';
+import { BadgeSwissFrancLogo, BadgeSwissFrancLogoMetadata } from './mix/badge-swiss-franc';
+import { BadgeTurkishLiraLogo, BadgeTurkishLiraLogoMetadata } from './mix/badge-turkish-lira';
+import { BadgeXLogo, BadgeXLogoMetadata } from './mix/badge-x';
+import { BadgeLogo, BadgeLogoMetadata } from './mix/badge';
+import { BaggageClaimLogo, BaggageClaimLogoMetadata } from './mix/baggage-claim';
+import { BalloonLogo, BalloonLogoMetadata } from './mix/balloon';
+import { BanLogo, BanLogoMetadata } from './mix/ban';
+import { BananaLogo, BananaLogoMetadata } from './mix/banana';
+import { BandageLogo, BandageLogoMetadata } from './mix/bandage';
+import { BanknoteArrowDownLogo, BanknoteArrowDownLogoMetadata } from './mix/banknote-arrow-down';
+import { BanknoteArrowUpLogo, BanknoteArrowUpLogoMetadata } from './mix/banknote-arrow-up';
+import { BanknoteXLogo, BanknoteXLogoMetadata } from './mix/banknote-x';
+import { BanknoteLogo, BanknoteLogoMetadata } from './mix/banknote';
+import { BarcodeLogo, BarcodeLogoMetadata } from './mix/barcode';
+import { BarrelLogo, BarrelLogoMetadata } from './mix/barrel';
+import { BaselineLogo, BaselineLogoMetadata } from './mix/baseline';
+import { BathLogo, BathLogoMetadata } from './mix/bath';
+import { BatteryFullLogo, BatteryFullLogoMetadata } from './mix/battery-full';
+import { BatteryLowLogo, BatteryLowLogoMetadata } from './mix/battery-low';
+import { BatteryMediumLogo, BatteryMediumLogoMetadata } from './mix/battery-medium';
+import { BatteryPlusLogo, BatteryPlusLogoMetadata } from './mix/battery-plus';
+import { BatteryWarningLogo, BatteryWarningLogoMetadata } from './mix/battery-warning';
+import { BeakerLogo, BeakerLogoMetadata } from './mix/beaker';
+import { BeanOffLogo, BeanOffLogoMetadata } from './mix/bean-off';
+import { BeanLogo, BeanLogoMetadata } from './mix/bean';
+import { BedDoubleLogo, BedDoubleLogoMetadata } from './mix/bed-double';
+import { BedSingleLogo, BedSingleLogoMetadata } from './mix/bed-single';
+import { BedLogo, BedLogoMetadata } from './mix/bed';
+import { BeefLogo, BeefLogoMetadata } from './mix/beef';
+import { BeerOffLogo, BeerOffLogoMetadata } from './mix/beer-off';
+import { BeerLogo, BeerLogoMetadata } from './mix/beer';
+import { BellDotLogo, BellDotLogoMetadata } from './mix/bell-dot';
+import { BellElectricLogo, BellElectricLogoMetadata } from './mix/bell-electric';
+import { BellMinusLogo, BellMinusLogoMetadata } from './mix/bell-minus';
+import { BellPlusLogo, BellPlusLogoMetadata } from './mix/bell-plus';
+import { BellRingLogo, BellRingLogoMetadata } from './mix/bell-ring';
+import { BetweenHorizontalEndLogo, BetweenHorizontalEndLogoMetadata } from './mix/between-horizontal-end';
+import { BetweenHorizontalStartLogo, BetweenHorizontalStartLogoMetadata } from './mix/between-horizontal-start';
+import { BetweenVerticalEndLogo, BetweenVerticalEndLogoMetadata } from './mix/between-vertical-end';
+import { BetweenVerticalStartLogo, BetweenVerticalStartLogoMetadata } from './mix/between-vertical-start';
+import { BicepsFlexedLogo, BicepsFlexedLogoMetadata } from './mix/biceps-flexed';
+import { BikeLogo, BikeLogoMetadata } from './mix/bike';
+import { BinaryLogo, BinaryLogoMetadata } from './mix/binary';
+import { BinocularsLogo, BinocularsLogoMetadata } from './mix/binoculars';
+import { BiohazardLogo, BiohazardLogoMetadata } from './mix/biohazard';
+import { BirdLogo, BirdLogoMetadata } from './mix/bird';
+import { BirdhouseLogo, BirdhouseLogoMetadata } from './mix/birdhouse';
+import { BitcoinLogo, BitcoinLogoMetadata } from './mix/bitcoin';
+import { BlendLogo, BlendLogoMetadata } from './mix/blend';
+import { BlindsLogo, BlindsLogoMetadata } from './mix/blinds';
+import { BlocksLogo, BlocksLogoMetadata } from './mix/blocks';
+import { BluetoothConnectedLogo, BluetoothConnectedLogoMetadata } from './mix/bluetooth-connected';
+import { BluetoothOffLogo, BluetoothOffLogoMetadata } from './mix/bluetooth-off';
+import { BluetoothSearchingLogo, BluetoothSearchingLogoMetadata } from './mix/bluetooth-searching';
+import { BoltLogo, BoltLogoMetadata } from './mix/bolt';
+import { BombLogo, BombLogoMetadata } from './mix/bomb';
+import { BoneLogo, BoneLogoMetadata } from './mix/bone';
+import { BookALogo, BookALogoMetadata } from './mix/book-a';
+import { BookAlertLogo, BookAlertLogoMetadata } from './mix/book-alert';
+import { BookAudioLogo, BookAudioLogoMetadata } from './mix/book-audio';
+import { BookCheckLogo, BookCheckLogoMetadata } from './mix/book-check';
+import { BookCopyLogo, BookCopyLogoMetadata } from './mix/book-copy';
+import { BookDashedLogo, BookDashedLogoMetadata } from './mix/book-dashed';
+import { BookDownLogo, BookDownLogoMetadata } from './mix/book-down';
+import { BookHeadphonesLogo, BookHeadphonesLogoMetadata } from './mix/book-headphones';
+import { BookHeartLogo, BookHeartLogoMetadata } from './mix/book-heart';
+import { BookImageLogo, BookImageLogoMetadata } from './mix/book-image';
+import { BookKeyLogo, BookKeyLogoMetadata } from './mix/book-key';
+import { BookLockLogo, BookLockLogoMetadata } from './mix/book-lock';
+import { BookMarkedLogo, BookMarkedLogoMetadata } from './mix/book-marked';
+import { BookMinusLogo, BookMinusLogoMetadata } from './mix/book-minus';
+import { BookOpenCheckLogo, BookOpenCheckLogoMetadata } from './mix/book-open-check';
+import { BookOpenTextLogo, BookOpenTextLogoMetadata } from './mix/book-open-text';
+import { BookPlusLogo, BookPlusLogoMetadata } from './mix/book-plus';
+import { BookSearchLogo, BookSearchLogoMetadata } from './mix/book-search';
+import { BookTextLogo, BookTextLogoMetadata } from './mix/book-text';
+import { BookTypeLogo, BookTypeLogoMetadata } from './mix/book-type';
+import { BookUp2Logo, BookUp2LogoMetadata } from './mix/book-up-2';
+import { BookUpLogo, BookUpLogoMetadata } from './mix/book-up';
+import { BookUserLogo, BookUserLogoMetadata } from './mix/book-user';
+import { BookXLogo, BookXLogoMetadata } from './mix/book-x';
+import { BookmarkCheckLogo, BookmarkCheckLogoMetadata } from './mix/bookmark-check';
+import { BookmarkMinusLogo, BookmarkMinusLogoMetadata } from './mix/bookmark-minus';
+import { BookmarkPlusLogo, BookmarkPlusLogoMetadata } from './mix/bookmark-plus';
+import { BookmarkXLogo, BookmarkXLogoMetadata } from './mix/bookmark-x';
+import { BoomBoxLogo, BoomBoxLogoMetadata } from './mix/boom-box';
+import { BotMessageSquareLogo, BotMessageSquareLogoMetadata } from './mix/bot-message-square';
+import { BotOffLogo, BotOffLogoMetadata } from './mix/bot-off';
+import { BotLogo, BotLogoMetadata } from './mix/bot';
+import { BottleWineLogo, BottleWineLogoMetadata } from './mix/bottle-wine';
+import { BowArrowLogo, BowArrowLogoMetadata } from './mix/bow-arrow';
+import { BoxesLogo, BoxesLogoMetadata } from './mix/boxes';
+import { BracesLogo, BracesLogoMetadata } from './mix/braces';
+import { BracketsLogo, BracketsLogoMetadata } from './mix/brackets';
+import { BrainCircuitLogo, BrainCircuitLogoMetadata } from './mix/brain-circuit';
+import { BrainCogLogo, BrainCogLogoMetadata } from './mix/brain-cog';
+import { BrainLogo, BrainLogoMetadata } from './mix/brain';
+import { BrickWallFireLogo, BrickWallFireLogoMetadata } from './mix/brick-wall-fire';
+import { BrickWallShieldLogo, BrickWallShieldLogoMetadata } from './mix/brick-wall-shield';
+import { BrickWallLogo, BrickWallLogoMetadata } from './mix/brick-wall';
+import { BriefcaseBusinessLogo, BriefcaseBusinessLogoMetadata } from './mix/briefcase-business';
+import { BriefcaseConveyorBeltLogo, BriefcaseConveyorBeltLogoMetadata } from './mix/briefcase-conveyor-belt';
+import { BriefcaseMedicalLogo, BriefcaseMedicalLogoMetadata } from './mix/briefcase-medical';
+import { BringToFrontLogo, BringToFrontLogoMetadata } from './mix/bring-to-front';
+import { BrushCleaningLogo, BrushCleaningLogoMetadata } from './mix/brush-cleaning';
+import { BrushLogo, BrushLogoMetadata } from './mix/brush';
+import { BubblesLogo, BubblesLogoMetadata } from './mix/bubbles';
+import { BugOffLogo, BugOffLogoMetadata } from './mix/bug-off';
+import { BugPlayLogo, BugPlayLogoMetadata } from './mix/bug-play';
+import { BugLogo, BugLogoMetadata } from './mix/bug';
+import { Building2Logo, Building2LogoMetadata } from './mix/building-2';
+import { BuildingLogo, BuildingLogoMetadata } from './mix/building';
+import { BusFrontLogo, BusFrontLogoMetadata } from './mix/bus-front';
+import { BusLogo, BusLogoMetadata } from './mix/bus';
+import { CableCarLogo, CableCarLogoMetadata } from './mix/cable-car';
+import { CableLogo, CableLogoMetadata } from './mix/cable';
+import { CakeSliceLogo, CakeSliceLogoMetadata } from './mix/cake-slice';
+import { CakeLogo, CakeLogoMetadata } from './mix/cake';
+import { CalculatorLogo, CalculatorLogoMetadata } from './mix/calculator';
+import { Calendar1Logo, Calendar1LogoMetadata } from './mix/calendar-1';
+import { CalendarArrowDownLogo, CalendarArrowDownLogoMetadata } from './mix/calendar-arrow-down';
+import { CalendarArrowUpLogo, CalendarArrowUpLogoMetadata } from './mix/calendar-arrow-up';
+import { CalendarCheck2Logo, CalendarCheck2LogoMetadata } from './mix/calendar-check-2';
+import { CalendarCheckLogo, CalendarCheckLogoMetadata } from './mix/calendar-check';
+import { CalendarClockLogo, CalendarClockLogoMetadata } from './mix/calendar-clock';
+import { CalendarCogLogo, CalendarCogLogoMetadata } from './mix/calendar-cog';
+import { CalendarDaysLogo, CalendarDaysLogoMetadata } from './mix/calendar-days';
+import { CalendarFoldLogo, CalendarFoldLogoMetadata } from './mix/calendar-fold';
+import { CalendarHeartLogo, CalendarHeartLogoMetadata } from './mix/calendar-heart';
+import { CalendarMinus2Logo, CalendarMinus2LogoMetadata } from './mix/calendar-minus-2';
+import { CalendarMinusLogo, CalendarMinusLogoMetadata } from './mix/calendar-minus';
+import { CalendarOffLogo, CalendarOffLogoMetadata } from './mix/calendar-off';
+import { CalendarPlus2Logo, CalendarPlus2LogoMetadata } from './mix/calendar-plus-2';
+import { CalendarPlusLogo, CalendarPlusLogoMetadata } from './mix/calendar-plus';
+import { CalendarRangeLogo, CalendarRangeLogoMetadata } from './mix/calendar-range';
+import { CalendarSearchLogo, CalendarSearchLogoMetadata } from './mix/calendar-search';
+import { CalendarSyncLogo, CalendarSyncLogoMetadata } from './mix/calendar-sync';
+import { CalendarX2Logo, CalendarX2LogoMetadata } from './mix/calendar-x-2';
+import { CalendarXLogo, CalendarXLogoMetadata } from './mix/calendar-x';
+import { CalendarsLogo, CalendarsLogoMetadata } from './mix/calendars';
+import { CandyCaneLogo, CandyCaneLogoMetadata } from './mix/candy-cane';
+import { CandyOffLogo, CandyOffLogoMetadata } from './mix/candy-off';
+import { CandyLogo, CandyLogoMetadata } from './mix/candy';
+import { CannabisOffLogo, CannabisOffLogoMetadata } from './mix/cannabis-off';
+import { CannabisLogo, CannabisLogoMetadata } from './mix/cannabis';
+import { CaptionsOffLogo, CaptionsOffLogoMetadata } from './mix/captions-off';
+import { CaptionsLogo, CaptionsLogoMetadata } from './mix/captions';
+import { CarFrontLogo, CarFrontLogoMetadata } from './mix/car-front';
+import { CarTaxiFrontLogo, CarTaxiFrontLogoMetadata } from './mix/car-taxi-front';
+import { CarLogo, CarLogoMetadata } from './mix/car';
+import { CaravanLogo, CaravanLogoMetadata } from './mix/caravan';
+import { CardSimLogo, CardSimLogoMetadata } from './mix/card-sim';
+import { CarrotLogo, CarrotLogoMetadata } from './mix/carrot';
+import { CaseLowerLogo, CaseLowerLogoMetadata } from './mix/case-lower';
+import { CaseSensitiveLogo, CaseSensitiveLogoMetadata } from './mix/case-sensitive';
+import { CaseUpperLogo, CaseUpperLogoMetadata } from './mix/case-upper';
+import { CassetteTapeLogo, CassetteTapeLogoMetadata } from './mix/cassette-tape';
+import { CastleLogo, CastleLogoMetadata } from './mix/castle';
+import { CatLogo, CatLogoMetadata } from './mix/cat';
+import { CctvLogo, CctvLogoMetadata } from './mix/cctv';
+import { ChartAreaLogo, ChartAreaLogoMetadata } from './mix/chart-area';
+import { ChartBarBigLogo, ChartBarBigLogoMetadata } from './mix/chart-bar-big';
+import { ChartBarDecreasingLogo, ChartBarDecreasingLogoMetadata } from './mix/chart-bar-decreasing';
+import { ChartBarIncreasingLogo, ChartBarIncreasingLogoMetadata } from './mix/chart-bar-increasing';
+import { ChartBarStackedLogo, ChartBarStackedLogoMetadata } from './mix/chart-bar-stacked';
+import { ChartBarLogo, ChartBarLogoMetadata } from './mix/chart-bar';
+import { ChartCandlestickLogo, ChartCandlestickLogoMetadata } from './mix/chart-candlestick';
+import { ChartColumnBigLogo, ChartColumnBigLogoMetadata } from './mix/chart-column-big';
+import { ChartColumnDecreasingLogo, ChartColumnDecreasingLogoMetadata } from './mix/chart-column-decreasing';
+import { ChartColumnIncreasingLogo, ChartColumnIncreasingLogoMetadata } from './mix/chart-column-increasing';
+import { ChartColumnStackedLogo, ChartColumnStackedLogoMetadata } from './mix/chart-column-stacked';
+import { ChartColumnLogo, ChartColumnLogoMetadata } from './mix/chart-column';
+import { ChartGanttLogo, ChartGanttLogoMetadata } from './mix/chart-gantt';
+import { ChartLineLogo, ChartLineLogoMetadata } from './mix/chart-line';
+import { ChartNetworkLogo, ChartNetworkLogoMetadata } from './mix/chart-network';
+import { ChartNoAxesColumnDecreasingLogo, ChartNoAxesColumnDecreasingLogoMetadata } from './mix/chart-no-axes-column-decreasing';
+import { ChartNoAxesColumnIncreasingLogo, ChartNoAxesColumnIncreasingLogoMetadata } from './mix/chart-no-axes-column-increasing';
+import { ChartNoAxesColumnLogo, ChartNoAxesColumnLogoMetadata } from './mix/chart-no-axes-column';
+import { ChartNoAxesCombinedLogo, ChartNoAxesCombinedLogoMetadata } from './mix/chart-no-axes-combined';
+import { ChartNoAxesGanttLogo, ChartNoAxesGanttLogoMetadata } from './mix/chart-no-axes-gantt';
+import { ChartPieLogo, ChartPieLogoMetadata } from './mix/chart-pie';
+import { ChartScatterLogo, ChartScatterLogoMetadata } from './mix/chart-scatter';
+import { ChartSplineLogo, ChartSplineLogoMetadata } from './mix/chart-spline';
+import { CheckCheckLogo, CheckCheckLogoMetadata } from './mix/check-check';
+import { CheckLineLogo, CheckLineLogoMetadata } from './mix/check-line';
+import { ChefHatLogo, ChefHatLogoMetadata } from './mix/chef-hat';
+import { CherryLogo, CherryLogoMetadata } from './mix/cherry';
+import { ChessBishopLogo, ChessBishopLogoMetadata } from './mix/chess-bishop';
+import { ChessKingLogo, ChessKingLogoMetadata } from './mix/chess-king';
+import { ChessKnightLogo, ChessKnightLogoMetadata } from './mix/chess-knight';
+import { ChessPawnLogo, ChessPawnLogoMetadata } from './mix/chess-pawn';
+import { ChessQueenLogo, ChessQueenLogoMetadata } from './mix/chess-queen';
+import { ChessRookLogo, ChessRookLogoMetadata } from './mix/chess-rook';
+import { ChevronFirstLogo, ChevronFirstLogoMetadata } from './mix/chevron-first';
+import { ChevronLastLogo, ChevronLastLogoMetadata } from './mix/chevron-last';
+import { ChevronsDownUpLogo, ChevronsDownUpLogoMetadata } from './mix/chevrons-down-up';
+import { ChevronsLeftRightEllipsisLogo, ChevronsLeftRightEllipsisLogoMetadata } from './mix/chevrons-left-right-ellipsis';
+import { ChevronsLeftRightLogo, ChevronsLeftRightLogoMetadata } from './mix/chevrons-left-right';
+import { ChevronsRightLeftLogo, ChevronsRightLeftLogoMetadata } from './mix/chevrons-right-left';
+import { ChevronsUpDownLogo, ChevronsUpDownLogoMetadata } from './mix/chevrons-up-down';
+import { ChromiumLogo, ChromiumLogoMetadata } from './mix/chromium';
+import { ChurchLogo, ChurchLogoMetadata } from './mix/church';
+import { CigaretteOffLogo, CigaretteOffLogoMetadata } from './mix/cigarette-off';
+import { CigaretteLogo, CigaretteLogoMetadata } from './mix/cigarette';
+import { CircleAlertLogo, CircleAlertLogoMetadata } from './mix/circle-alert';
+import { CircleArrowDownLogo, CircleArrowDownLogoMetadata } from './mix/circle-arrow-down';
+import { CircleArrowLeftLogo, CircleArrowLeftLogoMetadata } from './mix/circle-arrow-left';
+import { CircleArrowOutDownLeftLogo, CircleArrowOutDownLeftLogoMetadata } from './mix/circle-arrow-out-down-left';
+import { CircleArrowOutDownRightLogo, CircleArrowOutDownRightLogoMetadata } from './mix/circle-arrow-out-down-right';
+import { CircleArrowOutUpLeftLogo, CircleArrowOutUpLeftLogoMetadata } from './mix/circle-arrow-out-up-left';
+import { CircleArrowOutUpRightLogo, CircleArrowOutUpRightLogoMetadata } from './mix/circle-arrow-out-up-right';
+import { CircleArrowRightLogo, CircleArrowRightLogoMetadata } from './mix/circle-arrow-right';
+import { CircleArrowUpLogo, CircleArrowUpLogoMetadata } from './mix/circle-arrow-up';
+import { CircleCheckBigLogo, CircleCheckBigLogoMetadata } from './mix/circle-check-big';
+import { CircleCheckLogo, CircleCheckLogoMetadata } from './mix/circle-check';
+import { CircleChevronDownLogo, CircleChevronDownLogoMetadata } from './mix/circle-chevron-down';
+import { CircleChevronLeftLogo, CircleChevronLeftLogoMetadata } from './mix/circle-chevron-left';
+import { CircleChevronRightLogo, CircleChevronRightLogoMetadata } from './mix/circle-chevron-right';
+import { CircleChevronUpLogo, CircleChevronUpLogoMetadata } from './mix/circle-chevron-up';
+import { CircleDashedLogo, CircleDashedLogoMetadata } from './mix/circle-dashed';
+import { CircleDivideLogo, CircleDivideLogoMetadata } from './mix/circle-divide';
+import { CircleDollarSignLogo, CircleDollarSignLogoMetadata } from './mix/circle-dollar-sign';
+import { CircleDotDashedLogo, CircleDotDashedLogoMetadata } from './mix/circle-dot-dashed';
+import { CircleDotLogo, CircleDotLogoMetadata } from './mix/circle-dot';
+import { CircleEllipsisLogo, CircleEllipsisLogoMetadata } from './mix/circle-ellipsis';
+import { CircleEqualLogo, CircleEqualLogoMetadata } from './mix/circle-equal';
+import { CircleFadingArrowUpLogo, CircleFadingArrowUpLogoMetadata } from './mix/circle-fading-arrow-up';
+import { CircleFadingPlusLogo, CircleFadingPlusLogoMetadata } from './mix/circle-fading-plus';
+import { CircleGaugeLogo, CircleGaugeLogoMetadata } from './mix/circle-gauge';
+import { CircleMinusLogo, CircleMinusLogoMetadata } from './mix/circle-minus';
+import { CircleOffLogo, CircleOffLogoMetadata } from './mix/circle-off';
+import { CircleParkingOffLogo, CircleParkingOffLogoMetadata } from './mix/circle-parking-off';
+import { CircleParkingLogo, CircleParkingLogoMetadata } from './mix/circle-parking';
+import { CirclePauseLogo, CirclePauseLogoMetadata } from './mix/circle-pause';
+import { CirclePercentLogo, CirclePercentLogoMetadata } from './mix/circle-percent';
+import { CirclePileLogo, CirclePileLogoMetadata } from './mix/circle-pile';
+import { CirclePlayLogo, CirclePlayLogoMetadata } from './mix/circle-play';
+import { CirclePlusLogo, CirclePlusLogoMetadata } from './mix/circle-plus';
+import { CirclePoundSterlingLogo, CirclePoundSterlingLogoMetadata } from './mix/circle-pound-sterling';
+import { CirclePowerLogo, CirclePowerLogoMetadata } from './mix/circle-power';
+import { CircleQuestionMarkLogo, CircleQuestionMarkLogoMetadata } from './mix/circle-question-mark';
+import { CircleSlash2Logo, CircleSlash2LogoMetadata } from './mix/circle-slash-2';
+import { CircleSlashLogo, CircleSlashLogoMetadata } from './mix/circle-slash';
+import { CircleSmallLogo, CircleSmallLogoMetadata } from './mix/circle-small';
+import { CircleStarLogo, CircleStarLogoMetadata } from './mix/circle-star';
+import { CircleStopLogo, CircleStopLogoMetadata } from './mix/circle-stop';
+import { CircleUserRoundLogo, CircleUserRoundLogoMetadata } from './mix/circle-user-round';
+import { CircleUserLogo, CircleUserLogoMetadata } from './mix/circle-user';
+import { CircleXLogo, CircleXLogoMetadata } from './mix/circle-x';
+import { CircuitBoardLogo, CircuitBoardLogoMetadata } from './mix/circuit-board';
+import { CitrusLogo, CitrusLogoMetadata } from './mix/citrus';
+import { ClapperboardLogo, ClapperboardLogoMetadata } from './mix/clapperboard';
+import { ClipboardCheckLogo, ClipboardCheckLogoMetadata } from './mix/clipboard-check';
+import { ClipboardClockLogo, ClipboardClockLogoMetadata } from './mix/clipboard-clock';
+import { ClipboardCopyLogo, ClipboardCopyLogoMetadata } from './mix/clipboard-copy';
+import { ClipboardListLogo, ClipboardListLogoMetadata } from './mix/clipboard-list';
+import { ClipboardMinusLogo, ClipboardMinusLogoMetadata } from './mix/clipboard-minus';
+import { ClipboardPasteLogo, ClipboardPasteLogoMetadata } from './mix/clipboard-paste';
+import { ClipboardPenLineLogo, ClipboardPenLineLogoMetadata } from './mix/clipboard-pen-line';
+import { ClipboardPenLogo, ClipboardPenLogoMetadata } from './mix/clipboard-pen';
+import { ClipboardPlusLogo, ClipboardPlusLogoMetadata } from './mix/clipboard-plus';
+import { ClipboardTypeLogo, ClipboardTypeLogoMetadata } from './mix/clipboard-type';
+import { ClipboardXLogo, ClipboardXLogoMetadata } from './mix/clipboard-x';
+import { Clock1Logo, Clock1LogoMetadata } from './mix/clock-1';
+import { Clock10Logo, Clock10LogoMetadata } from './mix/clock-10';
+import { Clock11Logo, Clock11LogoMetadata } from './mix/clock-11';
+import { Clock12Logo, Clock12LogoMetadata } from './mix/clock-12';
+import { Clock2Logo, Clock2LogoMetadata } from './mix/clock-2';
+import { Clock3Logo, Clock3LogoMetadata } from './mix/clock-3';
+import { Clock4Logo, Clock4LogoMetadata } from './mix/clock-4';
+import { Clock5Logo, Clock5LogoMetadata } from './mix/clock-5';
+import { Clock6Logo, Clock6LogoMetadata } from './mix/clock-6';
+import { Clock7Logo, Clock7LogoMetadata } from './mix/clock-7';
+import { Clock8Logo, Clock8LogoMetadata } from './mix/clock-8';
+import { Clock9Logo, Clock9LogoMetadata } from './mix/clock-9';
+import { ClockAlertLogo, ClockAlertLogoMetadata } from './mix/clock-alert';
+import { ClockArrowDownLogo, ClockArrowDownLogoMetadata } from './mix/clock-arrow-down';
+import { ClockArrowUpLogo, ClockArrowUpLogoMetadata } from './mix/clock-arrow-up';
+import { ClockCheckLogo, ClockCheckLogoMetadata } from './mix/clock-check';
+import { ClockFadingLogo, ClockFadingLogoMetadata } from './mix/clock-fading';
+import { ClockPlusLogo, ClockPlusLogoMetadata } from './mix/clock-plus';
+import { ClosedCaptionLogo, ClosedCaptionLogoMetadata } from './mix/closed-caption';
+import { CloudAlertLogo, CloudAlertLogoMetadata } from './mix/cloud-alert';
+import { CloudBackupLogo, CloudBackupLogoMetadata } from './mix/cloud-backup';
+import { CloudCheckLogo, CloudCheckLogoMetadata } from './mix/cloud-check';
+import { CloudCogLogo, CloudCogLogoMetadata } from './mix/cloud-cog';
+import { CloudDownloadLogo, CloudDownloadLogoMetadata } from './mix/cloud-download';
+import { CloudFogLogo, CloudFogLogoMetadata } from './mix/cloud-fog';
+import { CloudHailLogo, CloudHailLogoMetadata } from './mix/cloud-hail';
+import { CloudMoonRainLogo, CloudMoonRainLogoMetadata } from './mix/cloud-moon-rain';
+import { CloudMoonLogo, CloudMoonLogoMetadata } from './mix/cloud-moon';
+import { CloudRainWindLogo, CloudRainWindLogoMetadata } from './mix/cloud-rain-wind';
+import { CloudSunRainLogo, CloudSunRainLogoMetadata } from './mix/cloud-sun-rain';
+import { CloudSunLogo, CloudSunLogoMetadata } from './mix/cloud-sun';
+import { CloudSyncLogo, CloudSyncLogoMetadata } from './mix/cloud-sync';
+import { CloudUploadLogo, CloudUploadLogoMetadata } from './mix/cloud-upload';
+import { CloudyLogo, CloudyLogoMetadata } from './mix/cloudy';
+import { CloverLogo, CloverLogoMetadata } from './mix/clover';
+import { ClubLogo, ClubLogoMetadata } from './mix/club';
+import { CodeXmlLogo, CodeXmlLogoMetadata } from './mix/code-xml';
+import { CogLogo, CogLogoMetadata } from './mix/cog';
+import { CoinsLogo, CoinsLogoMetadata } from './mix/coins';
+import { Columns2Logo, Columns2LogoMetadata } from './mix/columns-2';
+import { Columns3CogLogo, Columns3CogLogoMetadata } from './mix/columns-3-cog';
+import { Columns3Logo, Columns3LogoMetadata } from './mix/columns-3';
+import { Columns4Logo, Columns4LogoMetadata } from './mix/columns-4';
+import { CombineLogo, CombineLogoMetadata } from './mix/combine';
+import { ComponentLogo, ComponentLogoMetadata } from './mix/component';
+import { ComputerLogo, ComputerLogoMetadata } from './mix/computer';
+import { ConciergeBellLogo, ConciergeBellLogoMetadata } from './mix/concierge-bell';
+import { ConeLogo, ConeLogoMetadata } from './mix/cone';
+import { ConstructionLogo, ConstructionLogoMetadata } from './mix/construction';
+import { ContactRoundLogo, ContactRoundLogoMetadata } from './mix/contact-round';
+import { ContactLogo, ContactLogoMetadata } from './mix/contact';
+import { ContainerLogo, ContainerLogoMetadata } from './mix/container';
+import { ContrastLogo, ContrastLogoMetadata } from './mix/contrast';
+import { CookieLogo, CookieLogoMetadata } from './mix/cookie';
+import { CookingPotLogo, CookingPotLogoMetadata } from './mix/cooking-pot';
+import { CopyCheckLogo, CopyCheckLogoMetadata } from './mix/copy-check';
+import { CopyMinusLogo, CopyMinusLogoMetadata } from './mix/copy-minus';
+import { CopyPlusLogo, CopyPlusLogoMetadata } from './mix/copy-plus';
+import { CopySlashLogo, CopySlashLogoMetadata } from './mix/copy-slash';
+import { CopyXLogo, CopyXLogoMetadata } from './mix/copy-x';
+import { CopyleftLogo, CopyleftLogoMetadata } from './mix/copyleft';
+import { CopyrightLogo, CopyrightLogoMetadata } from './mix/copyright';
+import { CreativeCommonsLogo, CreativeCommonsLogoMetadata } from './mix/creative-commons';
+import { CroissantLogo, CroissantLogoMetadata } from './mix/croissant';
+import { CrossLogo, CrossLogoMetadata } from './mix/cross';
+import { CrownLogo, CrownLogoMetadata } from './mix/crown';
+import { CuboidLogo, CuboidLogoMetadata } from './mix/cuboid';
+import { CupSodaLogo, CupSodaLogoMetadata } from './mix/cup-soda';
+import { CurrencyLogo, CurrencyLogoMetadata } from './mix/currency';
+import { CylinderLogo, CylinderLogoMetadata } from './mix/cylinder';
+import { DamLogo, DamLogoMetadata } from './mix/dam';
+import { DatabaseBackupLogo, DatabaseBackupLogoMetadata } from './mix/database-backup';
+import { DatabaseSearchLogo, DatabaseSearchLogoMetadata } from './mix/database-search';
+import { DatabaseZapLogo, DatabaseZapLogoMetadata } from './mix/database-zap';
+import { DecimalsArrowLeftLogo, DecimalsArrowLeftLogoMetadata } from './mix/decimals-arrow-left';
+import { DecimalsArrowRightLogo, DecimalsArrowRightLogoMetadata } from './mix/decimals-arrow-right';
+import { DessertLogo, DessertLogoMetadata } from './mix/dessert';
+import { DiameterLogo, DiameterLogoMetadata } from './mix/diameter';
+import { DiamondMinusLogo, DiamondMinusLogoMetadata } from './mix/diamond-minus';
+import { DiamondPercentLogo, DiamondPercentLogoMetadata } from './mix/diamond-percent';
+import { DiamondPlusLogo, DiamondPlusLogoMetadata } from './mix/diamond-plus';
+import { DiamondLogo, DiamondLogoMetadata } from './mix/diamond';
+import { Dice1Logo, Dice1LogoMetadata } from './mix/dice-1';
+import { Dice2Logo, Dice2LogoMetadata } from './mix/dice-2';
+import { Dice3Logo, Dice3LogoMetadata } from './mix/dice-3';
+import { Dice4Logo, Dice4LogoMetadata } from './mix/dice-4';
+import { Dice5Logo, Dice5LogoMetadata } from './mix/dice-5';
+import { Dice6Logo, Dice6LogoMetadata } from './mix/dice-6';
+import { DicesLogo, DicesLogoMetadata } from './mix/dices';
+import { DiffLogo, DiffLogoMetadata } from './mix/diff';
+import { Disc2Logo, Disc2LogoMetadata } from './mix/disc-2';
+import { Disc3Logo, Disc3LogoMetadata } from './mix/disc-3';
+import { DiscAlbumLogo, DiscAlbumLogoMetadata } from './mix/disc-album';
+import { DnaOffLogo, DnaOffLogoMetadata } from './mix/dna-off';
+import { DnaLogo, DnaLogoMetadata } from './mix/dna';
+import { DockLogo, DockLogoMetadata } from './mix/dock';
+import { DogLogo, DogLogoMetadata } from './mix/dog';
+import { DonutLogo, DonutLogoMetadata } from './mix/donut';
+import { DoorClosedLockedLogo, DoorClosedLockedLogoMetadata } from './mix/door-closed-locked';
+import { DoorClosedLogo, DoorClosedLogoMetadata } from './mix/door-closed';
+import { DoorOpenLogo, DoorOpenLogoMetadata } from './mix/door-open';
+import { DotLogo, DotLogoMetadata } from './mix/dot';
+import { DraftingCompassLogo, DraftingCompassLogoMetadata } from './mix/drafting-compass';
+import { DramaLogo, DramaLogoMetadata } from './mix/drama';
+import { DrillLogo, DrillLogoMetadata } from './mix/drill';
+import { DroneLogo, DroneLogoMetadata } from './mix/drone';
+import { DropletOffLogo, DropletOffLogoMetadata } from './mix/droplet-off';
+import { DropletsLogo, DropletsLogoMetadata } from './mix/droplets';
+import { DrumLogo, DrumLogoMetadata } from './mix/drum';
+import { DrumstickLogo, DrumstickLogoMetadata } from './mix/drumstick';
+import { DumbbellLogo, DumbbellLogoMetadata } from './mix/dumbbell';
+import { EarOffLogo, EarOffLogoMetadata } from './mix/ear-off';
+import { EarLogo, EarLogoMetadata } from './mix/ear';
+import { EarthLockLogo, EarthLockLogoMetadata } from './mix/earth-lock';
+import { EarthLogo, EarthLogoMetadata } from './mix/earth';
+import { EclipseLogo, EclipseLogoMetadata } from './mix/eclipse';
+import { EggFriedLogo, EggFriedLogoMetadata } from './mix/egg-fried';
+import { EggOffLogo, EggOffLogoMetadata } from './mix/egg-off';
+import { EggLogo, EggLogoMetadata } from './mix/egg';
+import { EllipsisVerticalLogo, EllipsisVerticalLogoMetadata } from './mix/ellipsis-vertical';
+import { EllipsisLogo, EllipsisLogoMetadata } from './mix/ellipsis';
+import { EqualApproximatelyLogo, EqualApproximatelyLogoMetadata } from './mix/equal-approximately';
+import { EqualNotLogo, EqualNotLogoMetadata } from './mix/equal-not';
+import { EqualLogo, EqualLogoMetadata } from './mix/equal';
+import { EraserLogo, EraserLogoMetadata } from './mix/eraser';
+import { EthernetPortLogo, EthernetPortLogoMetadata } from './mix/ethernet-port';
+import { EuroLogo, EuroLogoMetadata } from './mix/euro';
+import { EvChargerLogo, EvChargerLogoMetadata } from './mix/ev-charger';
+import { ExpandLogo, ExpandLogoMetadata } from './mix/expand';
+import { EyeClosedLogo, EyeClosedLogoMetadata } from './mix/eye-closed';
+import { FactoryLogo, FactoryLogoMetadata } from './mix/factory';
+import { FanLogo, FanLogoMetadata } from './mix/fan';
+import { FenceLogo, FenceLogoMetadata } from './mix/fence';
+import { FerrisWheelLogo, FerrisWheelLogoMetadata } from './mix/ferris-wheel';
+import { FileArchiveLogo, FileArchiveLogoMetadata } from './mix/file-archive';
+import { FileAxis3dLogo, FileAxis3dLogoMetadata } from './mix/file-axis-3d';
+import { FileBadgeLogo, FileBadgeLogoMetadata } from './mix/file-badge';
+import { FileBoxLogo, FileBoxLogoMetadata } from './mix/file-box';
+import { FileBracesCornerLogo, FileBracesCornerLogoMetadata } from './mix/file-braces-corner';
+import { FileBracesLogo, FileBracesLogoMetadata } from './mix/file-braces';
+import { FileChartColumnIncreasingLogo, FileChartColumnIncreasingLogoMetadata } from './mix/file-chart-column-increasing';
+import { FileChartColumnLogo, FileChartColumnLogoMetadata } from './mix/file-chart-column';
+import { FileChartLineLogo, FileChartLineLogoMetadata } from './mix/file-chart-line';
+import { FileChartPieLogo, FileChartPieLogoMetadata } from './mix/file-chart-pie';
+import { FileCheckCornerLogo, FileCheckCornerLogoMetadata } from './mix/file-check-corner';
+import { FileCheckLogo, FileCheckLogoMetadata } from './mix/file-check';
+import { FileClockLogo, FileClockLogoMetadata } from './mix/file-clock';
+import { FileCodeCornerLogo, FileCodeCornerLogoMetadata } from './mix/file-code-corner';
+import { FileCodeLogo, FileCodeLogoMetadata } from './mix/file-code';
+import { FileCogLogo, FileCogLogoMetadata } from './mix/file-cog';
+import { FileDiffLogo, FileDiffLogoMetadata } from './mix/file-diff';
+import { FileDigitLogo, FileDigitLogoMetadata } from './mix/file-digit';
+import { FileDownLogo, FileDownLogoMetadata } from './mix/file-down';
+import { FileExclamationPointLogo, FileExclamationPointLogoMetadata } from './mix/file-exclamation-point';
+import { FileHeadphoneLogo, FileHeadphoneLogoMetadata } from './mix/file-headphone';
+import { FileHeartLogo, FileHeartLogoMetadata } from './mix/file-heart';
+import { FileImageLogo, FileImageLogoMetadata } from './mix/file-image';
+import { FileInputLogo, FileInputLogoMetadata } from './mix/file-input';
+import { FileKeyLogo, FileKeyLogoMetadata } from './mix/file-key';
+import { FileLockLogo, FileLockLogoMetadata } from './mix/file-lock';
+import { FileMinusCornerLogo, FileMinusCornerLogoMetadata } from './mix/file-minus-corner';
+import { FileMusicLogo, FileMusicLogoMetadata } from './mix/file-music';
+import { FileOutputLogo, FileOutputLogoMetadata } from './mix/file-output';
+import { FilePenLineLogo, FilePenLineLogoMetadata } from './mix/file-pen-line';
+import { FilePenLogo, FilePenLogoMetadata } from './mix/file-pen';
+import { FilePlayLogo, FilePlayLogoMetadata } from './mix/file-play';
+import { FilePlusCornerLogo, FilePlusCornerLogoMetadata } from './mix/file-plus-corner';
+import { FileQuestionMarkLogo, FileQuestionMarkLogoMetadata } from './mix/file-question-mark';
+import { FileScanLogo, FileScanLogoMetadata } from './mix/file-scan';
+import { FileSearchCornerLogo, FileSearchCornerLogoMetadata } from './mix/file-search-corner';
+import { FileSearchLogo, FileSearchLogoMetadata } from './mix/file-search';
+import { FileSignalLogo, FileSignalLogoMetadata } from './mix/file-signal';
+import { FileSlidersLogo, FileSlidersLogoMetadata } from './mix/file-sliders';
+import { FileSpreadsheetLogo, FileSpreadsheetLogoMetadata } from './mix/file-spreadsheet';
+import { FileStackLogo, FileStackLogoMetadata } from './mix/file-stack';
+import { FileSymlinkLogo, FileSymlinkLogoMetadata } from './mix/file-symlink';
+import { FileTerminalLogo, FileTerminalLogoMetadata } from './mix/file-terminal';
+import { FileTypeCornerLogo, FileTypeCornerLogoMetadata } from './mix/file-type-corner';
+import { FileTypeLogo, FileTypeLogoMetadata } from './mix/file-type';
+import { FileUpLogo, FileUpLogoMetadata } from './mix/file-up';
+import { FileUserLogo, FileUserLogoMetadata } from './mix/file-user';
+import { FileVideoCameraLogo, FileVideoCameraLogoMetadata } from './mix/file-video-camera';
+import { FileVolumeLogo, FileVolumeLogoMetadata } from './mix/file-volume';
+import { FileXCornerLogo, FileXCornerLogoMetadata } from './mix/file-x-corner';
+import { FileXLogo, FileXLogoMetadata } from './mix/file-x';
+import { FilesLogo, FilesLogoMetadata } from './mix/files';
+import { FingerprintPatternLogo, FingerprintPatternLogoMetadata } from './mix/fingerprint-pattern';
+import { FireExtinguisherLogo, FireExtinguisherLogoMetadata } from './mix/fire-extinguisher';
+import { FishOffLogo, FishOffLogoMetadata } from './mix/fish-off';
+import { FishSymbolLogo, FishSymbolLogoMetadata } from './mix/fish-symbol';
+import { FishLogo, FishLogoMetadata } from './mix/fish';
+import { FishingHookLogo, FishingHookLogoMetadata } from './mix/fishing-hook';
+import { FlagOffLogo, FlagOffLogoMetadata } from './mix/flag-off';
+import { FlagTriangleLeftLogo, FlagTriangleLeftLogoMetadata } from './mix/flag-triangle-left';
+import { FlagTriangleRightLogo, FlagTriangleRightLogoMetadata } from './mix/flag-triangle-right';
+import { FlameKindlingLogo, FlameKindlingLogoMetadata } from './mix/flame-kindling';
+import { FlameLogo, FlameLogoMetadata } from './mix/flame';
+import { FlashlightOffLogo, FlashlightOffLogoMetadata } from './mix/flashlight-off';
+import { FlashlightLogo, FlashlightLogoMetadata } from './mix/flashlight';
+import { FlaskConicalOffLogo, FlaskConicalOffLogoMetadata } from './mix/flask-conical-off';
+import { FlaskConicalLogo, FlaskConicalLogoMetadata } from './mix/flask-conical';
+import { FlaskRoundLogo, FlaskRoundLogoMetadata } from './mix/flask-round';
+import { FlipHorizontal2Logo, FlipHorizontal2LogoMetadata } from './mix/flip-horizontal-2';
+import { FlipVertical2Logo, FlipVertical2LogoMetadata } from './mix/flip-vertical-2';
+import { Flower2Logo, Flower2LogoMetadata } from './mix/flower-2';
+import { FlowerLogo, FlowerLogoMetadata } from './mix/flower';
+import { FocusLogo, FocusLogoMetadata } from './mix/focus';
+import { FoldHorizontalLogo, FoldHorizontalLogoMetadata } from './mix/fold-horizontal';
+import { FoldVerticalLogo, FoldVerticalLogoMetadata } from './mix/fold-vertical';
+import { FolderArchiveLogo, FolderArchiveLogoMetadata } from './mix/folder-archive';
+import { FolderCheckLogo, FolderCheckLogoMetadata } from './mix/folder-check';
+import { FolderClockLogo, FolderClockLogoMetadata } from './mix/folder-clock';
+import { FolderClosedLogo, FolderClosedLogoMetadata } from './mix/folder-closed';
+import { FolderCodeLogo, FolderCodeLogoMetadata } from './mix/folder-code';
+import { FolderCogLogo, FolderCogLogoMetadata } from './mix/folder-cog';
+import { FolderDotLogo, FolderDotLogoMetadata } from './mix/folder-dot';
+import { FolderDownLogo, FolderDownLogoMetadata } from './mix/folder-down';
+import { FolderGit2Logo, FolderGit2LogoMetadata } from './mix/folder-git-2';
+import { FolderGitLogo, FolderGitLogoMetadata } from './mix/folder-git';
+import { FolderHeartLogo, FolderHeartLogoMetadata } from './mix/folder-heart';
+import { FolderInputLogo, FolderInputLogoMetadata } from './mix/folder-input';
+import { FolderKanbanLogo, FolderKanbanLogoMetadata } from './mix/folder-kanban';
+import { FolderKeyLogo, FolderKeyLogoMetadata } from './mix/folder-key';
+import { FolderLockLogo, FolderLockLogoMetadata } from './mix/folder-lock';
+import { FolderOpenDotLogo, FolderOpenDotLogoMetadata } from './mix/folder-open-dot';
+import { FolderOpenLogo, FolderOpenLogoMetadata } from './mix/folder-open';
+import { FolderOutputLogo, FolderOutputLogoMetadata } from './mix/folder-output';
+import { FolderPenLogo, FolderPenLogoMetadata } from './mix/folder-pen';
+import { FolderRootLogo, FolderRootLogoMetadata } from './mix/folder-root';
+import { FolderSearch2Logo, FolderSearch2LogoMetadata } from './mix/folder-search-2';
+import { FolderSearchLogo, FolderSearchLogoMetadata } from './mix/folder-search';
+import { FolderSymlinkLogo, FolderSymlinkLogoMetadata } from './mix/folder-symlink';
+import { FolderSyncLogo, FolderSyncLogoMetadata } from './mix/folder-sync';
+import { FolderTreeLogo, FolderTreeLogoMetadata } from './mix/folder-tree';
+import { FolderUpLogo, FolderUpLogoMetadata } from './mix/folder-up';
+import { FolderXLogo, FolderXLogoMetadata } from './mix/folder-x';
+import { FoldersLogo, FoldersLogoMetadata } from './mix/folders';
+import { FootprintsLogo, FootprintsLogoMetadata } from './mix/footprints';
+import { ForkliftLogo, ForkliftLogoMetadata } from './mix/forklift';
+import { FormLogo, FormLogoMetadata } from './mix/form';
+import { ForwardLogo, ForwardLogoMetadata } from './mix/forward';
+import { FrameLogo, FrameLogoMetadata } from './mix/frame';
+import { FuelLogo, FuelLogoMetadata } from './mix/fuel';
+import { FullscreenLogo, FullscreenLogoMetadata } from './mix/fullscreen';
+import { FunnelPlusLogo, FunnelPlusLogoMetadata } from './mix/funnel-plus';
+import { FunnelXLogo, FunnelXLogoMetadata } from './mix/funnel-x';
+import { FunnelLogo, FunnelLogoMetadata } from './mix/funnel';
+import { GalleryHorizontalEndLogo, GalleryHorizontalEndLogoMetadata } from './mix/gallery-horizontal-end';
+import { GalleryHorizontalLogo, GalleryHorizontalLogoMetadata } from './mix/gallery-horizontal';
+import { GalleryThumbnailsLogo, GalleryThumbnailsLogoMetadata } from './mix/gallery-thumbnails';
+import { GalleryVerticalEndLogo, GalleryVerticalEndLogoMetadata } from './mix/gallery-vertical-end';
+import { GalleryVerticalLogo, GalleryVerticalLogoMetadata } from './mix/gallery-vertical';
+import { Gamepad2Logo, Gamepad2LogoMetadata } from './mix/gamepad-2';
+import { GamepadDirectionalLogo, GamepadDirectionalLogoMetadata } from './mix/gamepad-directional';
+import { GamepadLogo, GamepadLogoMetadata } from './mix/gamepad';
+import { GaugeLogo, GaugeLogoMetadata } from './mix/gauge';
+import { GavelLogo, GavelLogoMetadata } from './mix/gavel';
+import { GemLogo, GemLogoMetadata } from './mix/gem';
+import { GeorgianLariLogo, GeorgianLariLogoMetadata } from './mix/georgian-lari';
+import { GhostLogo, GhostLogoMetadata } from './mix/ghost';
+import { GitBranchMinusLogo, GitBranchMinusLogoMetadata } from './mix/git-branch-minus';
+import { GitBranchPlusLogo, GitBranchPlusLogoMetadata } from './mix/git-branch-plus';
+import { GitCommitHorizontalLogo, GitCommitHorizontalLogoMetadata } from './mix/git-commit-horizontal';
+import { GitCommitVerticalLogo, GitCommitVerticalLogoMetadata } from './mix/git-commit-vertical';
+import { GitCompareArrowsLogo, GitCompareArrowsLogoMetadata } from './mix/git-compare-arrows';
+import { GitCompareLogo, GitCompareLogoMetadata } from './mix/git-compare';
+import { GitForkLogo, GitForkLogoMetadata } from './mix/git-fork';
+import { GitGraphLogo, GitGraphLogoMetadata } from './mix/git-graph';
+import { GitMergeConflictLogo, GitMergeConflictLogoMetadata } from './mix/git-merge-conflict';
+import { GitPullRequestArrowLogo, GitPullRequestArrowLogoMetadata } from './mix/git-pull-request-arrow';
+import { GitPullRequestClosedLogo, GitPullRequestClosedLogoMetadata } from './mix/git-pull-request-closed';
+import { GitPullRequestCreateArrowLogo, GitPullRequestCreateArrowLogoMetadata } from './mix/git-pull-request-create-arrow';
+import { GitPullRequestCreateLogo, GitPullRequestCreateLogoMetadata } from './mix/git-pull-request-create';
+import { GitPullRequestDraftLogo, GitPullRequestDraftLogoMetadata } from './mix/git-pull-request-draft';
+import { GlassWaterLogo, GlassWaterLogoMetadata } from './mix/glass-water';
+import { GlassesLogo, GlassesLogoMetadata } from './mix/glasses';
+import { GlobeLockLogo, GlobeLockLogoMetadata } from './mix/globe-lock';
+import { GlobeOffLogo, GlobeOffLogoMetadata } from './mix/globe-off';
+import { GlobeXLogo, GlobeXLogoMetadata } from './mix/globe-x';
+import { GoalLogo, GoalLogoMetadata } from './mix/goal';
+import { GpuLogo, GpuLogoMetadata } from './mix/gpu';
+import { GraduationCapLogo, GraduationCapLogoMetadata } from './mix/graduation-cap';
+import { GrapeLogo, GrapeLogoMetadata } from './mix/grape';
+import { Grid2x2CheckLogo, Grid2x2CheckLogoMetadata } from './mix/grid-2x2-check';
+import { Grid2x2PlusLogo, Grid2x2PlusLogoMetadata } from './mix/grid-2x2-plus';
+import { Grid2x2XLogo, Grid2x2XLogoMetadata } from './mix/grid-2x2-x';
+import { Grid2x2Logo, Grid2x2LogoMetadata } from './mix/grid-2x2';
+import { Grid3x2Logo, Grid3x2LogoMetadata } from './mix/grid-3x2';
+import { Grid3x3Logo, Grid3x3LogoMetadata } from './mix/grid-3x3';
+import { GripHorizontalLogo, GripHorizontalLogoMetadata } from './mix/grip-horizontal';
+import { GripVerticalLogo, GripVerticalLogoMetadata } from './mix/grip-vertical';
+import { GripLogo, GripLogoMetadata } from './mix/grip';
+import { GroupLogo, GroupLogoMetadata } from './mix/group';
+import { GuitarLogo, GuitarLogoMetadata } from './mix/guitar';
+import { HamLogo, HamLogoMetadata } from './mix/ham';
+import { HamburgerLogo, HamburgerLogoMetadata } from './mix/hamburger';
+import { HammerLogo, HammerLogoMetadata } from './mix/hammer';
+import { HandCoinsLogo, HandCoinsLogoMetadata } from './mix/hand-coins';
+import { HandFistLogo, HandFistLogoMetadata } from './mix/hand-fist';
+import { HandGrabLogo, HandGrabLogoMetadata } from './mix/hand-grab';
+import { HandHeartLogo, HandHeartLogoMetadata } from './mix/hand-heart';
+import { HandHelpingLogo, HandHelpingLogoMetadata } from './mix/hand-helping';
+import { HandMetalLogo, HandMetalLogoMetadata } from './mix/hand-metal';
+import { HandPlatterLogo, HandPlatterLogoMetadata } from './mix/hand-platter';
+import { HandLogo, HandLogoMetadata } from './mix/hand';
+import { HandbagLogo, HandbagLogoMetadata } from './mix/handbag';
+import { HandshakeLogo, HandshakeLogoMetadata } from './mix/handshake';
+import { HardDriveDownloadLogo, HardDriveDownloadLogoMetadata } from './mix/hard-drive-download';
+import { HardDriveUploadLogo, HardDriveUploadLogoMetadata } from './mix/hard-drive-upload';
+import { HardHatLogo, HardHatLogoMetadata } from './mix/hard-hat';
+import { HatGlassesLogo, HatGlassesLogoMetadata } from './mix/hat-glasses';
+import { HazeLogo, HazeLogoMetadata } from './mix/haze';
+import { HdLogo, HdLogoMetadata } from './mix/hd';
+import { HdmiPortLogo, HdmiPortLogoMetadata } from './mix/hdmi-port';
+import { Heading1Logo, Heading1LogoMetadata } from './mix/heading-1';
+import { Heading2Logo, Heading2LogoMetadata } from './mix/heading-2';
+import { Heading3Logo, Heading3LogoMetadata } from './mix/heading-3';
+import { Heading4Logo, Heading4LogoMetadata } from './mix/heading-4';
+import { Heading5Logo, Heading5LogoMetadata } from './mix/heading-5';
+import { Heading6Logo, Heading6LogoMetadata } from './mix/heading-6';
+import { HeadingLogo, HeadingLogoMetadata } from './mix/heading';
+import { HeadphoneOffLogo, HeadphoneOffLogoMetadata } from './mix/headphone-off';
+import { HeadsetLogo, HeadsetLogoMetadata } from './mix/headset';
+import { HeartCrackLogo, HeartCrackLogoMetadata } from './mix/heart-crack';
+import { HeartHandshakeLogo, HeartHandshakeLogoMetadata } from './mix/heart-handshake';
+import { HeartMinusLogo, HeartMinusLogoMetadata } from './mix/heart-minus';
+import { HeartOffLogo, HeartOffLogoMetadata } from './mix/heart-off';
+import { HeartPlusLogo, HeartPlusLogoMetadata } from './mix/heart-plus';
+import { HeartPulseLogo, HeartPulseLogoMetadata } from './mix/heart-pulse';
+import { HeaterLogo, HeaterLogoMetadata } from './mix/heater';
+import { HelicopterLogo, HelicopterLogoMetadata } from './mix/helicopter';
+import { HighlighterLogo, HighlighterLogoMetadata } from './mix/highlighter';
+import { HistoryLogo, HistoryLogoMetadata } from './mix/history';
+import { HopOffLogo, HopOffLogoMetadata } from './mix/hop-off';
+import { HopLogo, HopLogoMetadata } from './mix/hop';
+import { HospitalLogo, HospitalLogoMetadata } from './mix/hospital';
+import { HotelLogo, HotelLogoMetadata } from './mix/hotel';
+import { HourglassLogo, HourglassLogoMetadata } from './mix/hourglass';
+import { HouseHeartLogo, HouseHeartLogoMetadata } from './mix/house-heart';
+import { HousePlugLogo, HousePlugLogoMetadata } from './mix/house-plug';
+import { HousePlusLogo, HousePlusLogoMetadata } from './mix/house-plus';
+import { HouseWifiLogo, HouseWifiLogoMetadata } from './mix/house-wifi';
+import { HouseLogo, HouseLogoMetadata } from './mix/house';
+import { IceCreamBowlLogo, IceCreamBowlLogoMetadata } from './mix/ice-cream-bowl';
+import { IceCreamConeLogo, IceCreamConeLogoMetadata } from './mix/ice-cream-cone';
+import { IdCardLanyardLogo, IdCardLanyardLogoMetadata } from './mix/id-card-lanyard';
+import { IdCardLogo, IdCardLogoMetadata } from './mix/id-card';
+import { ImageDownLogo, ImageDownLogoMetadata } from './mix/image-down';
+import { ImageMinusLogo, ImageMinusLogoMetadata } from './mix/image-minus';
+import { ImageOffLogo, ImageOffLogoMetadata } from './mix/image-off';
+import { ImagePlayLogo, ImagePlayLogoMetadata } from './mix/image-play';
+import { ImagePlusLogo, ImagePlusLogoMetadata } from './mix/image-plus';
+import { ImageUpLogo, ImageUpLogoMetadata } from './mix/image-up';
+import { ImageUpscaleLogo, ImageUpscaleLogoMetadata } from './mix/image-upscale';
+import { ImagesLogo, ImagesLogoMetadata } from './mix/images';
+import { ImportLogo, ImportLogoMetadata } from './mix/import';
+import { IndianRupeeLogo, IndianRupeeLogoMetadata } from './mix/indian-rupee';
+import { InfinityLogo, InfinityLogoMetadata } from './mix/infinity';
+import { InspectionPanelLogo, InspectionPanelLogoMetadata } from './mix/inspection-panel';
+import { IterationCcwLogo, IterationCcwLogoMetadata } from './mix/iteration-ccw';
+import { IterationCwLogo, IterationCwLogoMetadata } from './mix/iteration-cw';
+import { JapaneseYenLogo, JapaneseYenLogoMetadata } from './mix/japanese-yen';
+import { JoystickLogo, JoystickLogoMetadata } from './mix/joystick';
+import { KanbanLogo, KanbanLogoMetadata } from './mix/kanban';
+import { KayakLogo, KayakLogoMetadata } from './mix/kayak';
+import { KeyRoundLogo, KeyRoundLogoMetadata } from './mix/key-round';
+import { KeySquareLogo, KeySquareLogoMetadata } from './mix/key-square';
+import { KeyboardMusicLogo, KeyboardMusicLogoMetadata } from './mix/keyboard-music';
+import { KeyboardOffLogo, KeyboardOffLogoMetadata } from './mix/keyboard-off';
+import { KeyboardLogo, KeyboardLogoMetadata } from './mix/keyboard';
+import { LampCeilingLogo, LampCeilingLogoMetadata } from './mix/lamp-ceiling';
+import { LampDeskLogo, LampDeskLogoMetadata } from './mix/lamp-desk';
+import { LampFloorLogo, LampFloorLogoMetadata } from './mix/lamp-floor';
+import { LampWallDownLogo, LampWallDownLogoMetadata } from './mix/lamp-wall-down';
+import { LampWallUpLogo, LampWallUpLogoMetadata } from './mix/lamp-wall-up';
+import { LampLogo, LampLogoMetadata } from './mix/lamp';
+import { LandPlotLogo, LandPlotLogoMetadata } from './mix/land-plot';
+import { LandmarkLogo, LandmarkLogoMetadata } from './mix/landmark';
+import { LanguagesLogo, LanguagesLogoMetadata } from './mix/languages';
+import { LaptopMinimalCheckLogo, LaptopMinimalCheckLogoMetadata } from './mix/laptop-minimal-check';
+import { LaptopMinimalLogo, LaptopMinimalLogoMetadata } from './mix/laptop-minimal';
+import { LaptopLogo, LaptopLogoMetadata } from './mix/laptop';
+import { LassoSelectLogo, LassoSelectLogoMetadata } from './mix/lasso-select';
+import { LassoLogo, LassoLogoMetadata } from './mix/lasso';
+import { LaughLogo, LaughLogoMetadata } from './mix/laugh';
+import { Layers2Logo, Layers2LogoMetadata } from './mix/layers-2';
+import { LayersPlusLogo, LayersPlusLogoMetadata } from './mix/layers-plus';
+import { LayoutDashboardLogo, LayoutDashboardLogoMetadata } from './mix/layout-dashboard';
+import { LayoutGridLogo, LayoutGridLogoMetadata } from './mix/layout-grid';
+import { LayoutListLogo, LayoutListLogoMetadata } from './mix/layout-list';
+import { LayoutPanelLeftLogo, LayoutPanelLeftLogoMetadata } from './mix/layout-panel-left';
+import { LayoutPanelTopLogo, LayoutPanelTopLogoMetadata } from './mix/layout-panel-top';
+import { LayoutTemplateLogo, LayoutTemplateLogoMetadata } from './mix/layout-template';
+import { LeafLogo, LeafLogoMetadata } from './mix/leaf';
+import { LeafyGreenLogo, LeafyGreenLogoMetadata } from './mix/leafy-green';
+import { LecternLogo, LecternLogoMetadata } from './mix/lectern';
+import { LensConcaveLogo, LensConcaveLogoMetadata } from './mix/lens-concave';
+import { LensConvexLogo, LensConvexLogoMetadata } from './mix/lens-convex';
+import { LibraryBigLogo, LibraryBigLogoMetadata } from './mix/library-big';
+import { LibraryLogo, LibraryLogoMetadata } from './mix/library';
+import { LigatureLogo, LigatureLogoMetadata } from './mix/ligature';
+import { LightbulbOffLogo, LightbulbOffLogoMetadata } from './mix/lightbulb-off';
+import { LightbulbLogo, LightbulbLogoMetadata } from './mix/lightbulb';
+import { LineDotRightHorizontalLogo, LineDotRightHorizontalLogoMetadata } from './mix/line-dot-right-horizontal';
+import { LineSquiggleLogo, LineSquiggleLogoMetadata } from './mix/line-squiggle';
+import { Link2OffLogo, Link2OffLogoMetadata } from './mix/link-2-off';
+import { ListCheckLogo, ListCheckLogoMetadata } from './mix/list-check';
+import { ListChecksLogo, ListChecksLogoMetadata } from './mix/list-checks';
+import { ListChevronsDownUpLogo, ListChevronsDownUpLogoMetadata } from './mix/list-chevrons-down-up';
+import { ListChevronsUpDownLogo, ListChevronsUpDownLogoMetadata } from './mix/list-chevrons-up-down';
+import { ListCollapseLogo, ListCollapseLogoMetadata } from './mix/list-collapse';
+import { ListEndLogo, ListEndLogoMetadata } from './mix/list-end';
+import { ListFilterPlusLogo, ListFilterPlusLogoMetadata } from './mix/list-filter-plus';
+import { ListFilterLogo, ListFilterLogoMetadata } from './mix/list-filter';
+import { ListIndentDecreaseLogo, ListIndentDecreaseLogoMetadata } from './mix/list-indent-decrease';
+import { ListIndentIncreaseLogo, ListIndentIncreaseLogoMetadata } from './mix/list-indent-increase';
+import { ListMinusLogo, ListMinusLogoMetadata } from './mix/list-minus';
+import { ListMusicLogo, ListMusicLogoMetadata } from './mix/list-music';
+import { ListOrderedLogo, ListOrderedLogoMetadata } from './mix/list-ordered';
+import { ListPlusLogo, ListPlusLogoMetadata } from './mix/list-plus';
+import { ListRestartLogo, ListRestartLogoMetadata } from './mix/list-restart';
+import { ListStartLogo, ListStartLogoMetadata } from './mix/list-start';
+import { ListTodoLogo, ListTodoLogoMetadata } from './mix/list-todo';
+import { ListTreeLogo, ListTreeLogoMetadata } from './mix/list-tree';
+import { ListVideoLogo, ListVideoLogoMetadata } from './mix/list-video';
+import { ListXLogo, ListXLogoMetadata } from './mix/list-x';
+import { LoaderCircleLogo, LoaderCircleLogoMetadata } from './mix/loader-circle';
+import { LoaderPinwheelLogo, LoaderPinwheelLogoMetadata } from './mix/loader-pinwheel';
+import { LocateFixedLogo, LocateFixedLogoMetadata } from './mix/locate-fixed';
+import { LocateOffLogo, LocateOffLogoMetadata } from './mix/locate-off';
+import { LocateLogo, LocateLogoMetadata } from './mix/locate';
+import { LockKeyholeOpenLogo, LockKeyholeOpenLogoMetadata } from './mix/lock-keyhole-open';
+import { LockKeyholeLogo, LockKeyholeLogoMetadata } from './mix/lock-keyhole';
+import { LockOpenLogo, LockOpenLogoMetadata } from './mix/lock-open';
+import { LogsLogo, LogsLogoMetadata } from './mix/logs';
+import { LollipopLogo, LollipopLogoMetadata } from './mix/lollipop';
+import { LuggageLogo, LuggageLogoMetadata } from './mix/luggage';
+import { MagnetLogo, MagnetLogoMetadata } from './mix/magnet';
+import { MailCheckLogo, MailCheckLogoMetadata } from './mix/mail-check';
+import { MailMinusLogo, MailMinusLogoMetadata } from './mix/mail-minus';
+import { MailOpenLogo, MailOpenLogoMetadata } from './mix/mail-open';
+import { MailPlusLogo, MailPlusLogoMetadata } from './mix/mail-plus';
+import { MailQuestionMarkLogo, MailQuestionMarkLogoMetadata } from './mix/mail-question-mark';
+import { MailSearchLogo, MailSearchLogoMetadata } from './mix/mail-search';
+import { MailWarningLogo, MailWarningLogoMetadata } from './mix/mail-warning';
+import { MailXLogo, MailXLogoMetadata } from './mix/mail-x';
+import { MailboxLogo, MailboxLogoMetadata } from './mix/mailbox';
+import { MailsLogo, MailsLogoMetadata } from './mix/mails';
+import { MapMinusLogo, MapMinusLogoMetadata } from './mix/map-minus';
+import { MapPinCheckInsideLogo, MapPinCheckInsideLogoMetadata } from './mix/map-pin-check-inside';
+import { MapPinCheckLogo, MapPinCheckLogoMetadata } from './mix/map-pin-check';
+import { MapPinHouseLogo, MapPinHouseLogoMetadata } from './mix/map-pin-house';
+import { MapPinMinusInsideLogo, MapPinMinusInsideLogoMetadata } from './mix/map-pin-minus-inside';
+import { MapPinMinusLogo, MapPinMinusLogoMetadata } from './mix/map-pin-minus';
+import { MapPinOffLogo, MapPinOffLogoMetadata } from './mix/map-pin-off';
+import { MapPinPenLogo, MapPinPenLogoMetadata } from './mix/map-pin-pen';
+import { MapPinPlusInsideLogo, MapPinPlusInsideLogoMetadata } from './mix/map-pin-plus-inside';
+import { MapPinPlusLogo, MapPinPlusLogoMetadata } from './mix/map-pin-plus';
+import { MapPinXInsideLogo, MapPinXInsideLogoMetadata } from './mix/map-pin-x-inside';
+import { MapPinXLogo, MapPinXLogoMetadata } from './mix/map-pin-x';
+import { MapPinnedLogo, MapPinnedLogoMetadata } from './mix/map-pinned';
+import { MapPlusLogo, MapPlusLogoMetadata } from './mix/map-plus';
+import { MarsStrokeLogo, MarsStrokeLogoMetadata } from './mix/mars-stroke';
+import { MarsLogo, MarsLogoMetadata } from './mix/mars';
+import { MartiniLogo, MartiniLogoMetadata } from './mix/martini';
+import { MedalLogo, MedalLogoMetadata } from './mix/medal';
+import { MegaphoneOffLogo, MegaphoneOffLogoMetadata } from './mix/megaphone-off';
+import { MegaphoneLogo, MegaphoneLogoMetadata } from './mix/megaphone';
+import { MemoryStickLogo, MemoryStickLogoMetadata } from './mix/memory-stick';
+import { MergeLogo, MergeLogoMetadata } from './mix/merge';
+import { MessageCircleCheckLogo, MessageCircleCheckLogoMetadata } from './mix/message-circle-check';
+import { MessageCircleCodeLogo, MessageCircleCodeLogoMetadata } from './mix/message-circle-code';
+import { MessageCircleDashedLogo, MessageCircleDashedLogoMetadata } from './mix/message-circle-dashed';
+import { MessageCircleHeartLogo, MessageCircleHeartLogoMetadata } from './mix/message-circle-heart';
+import { MessageCircleMoreLogo, MessageCircleMoreLogoMetadata } from './mix/message-circle-more';
+import { MessageCircleOffLogo, MessageCircleOffLogoMetadata } from './mix/message-circle-off';
+import { MessageCirclePlusLogo, MessageCirclePlusLogoMetadata } from './mix/message-circle-plus';
+import { MessageCircleQuestionMarkLogo, MessageCircleQuestionMarkLogoMetadata } from './mix/message-circle-question-mark';
+import { MessageCircleReplyLogo, MessageCircleReplyLogoMetadata } from './mix/message-circle-reply';
+import { MessageCircleWarningLogo, MessageCircleWarningLogoMetadata } from './mix/message-circle-warning';
+import { MessageCircleXLogo, MessageCircleXLogoMetadata } from './mix/message-circle-x';
+import { MessageSquareCheckLogo, MessageSquareCheckLogoMetadata } from './mix/message-square-check';
+import { MessageSquareCodeLogo, MessageSquareCodeLogoMetadata } from './mix/message-square-code';
+import { MessageSquareDashedLogo, MessageSquareDashedLogoMetadata } from './mix/message-square-dashed';
+import { MessageSquareDiffLogo, MessageSquareDiffLogoMetadata } from './mix/message-square-diff';
+import { MessageSquareDotLogo, MessageSquareDotLogoMetadata } from './mix/message-square-dot';
+import { MessageSquareHeartLogo, MessageSquareHeartLogoMetadata } from './mix/message-square-heart';
+import { MessageSquareLockLogo, MessageSquareLockLogoMetadata } from './mix/message-square-lock';
+import { MessageSquareMoreLogo, MessageSquareMoreLogoMetadata } from './mix/message-square-more';
+import { MessageSquareOffLogo, MessageSquareOffLogoMetadata } from './mix/message-square-off';
+import { MessageSquarePlusLogo, MessageSquarePlusLogoMetadata } from './mix/message-square-plus';
+import { MessageSquareQuoteLogo, MessageSquareQuoteLogoMetadata } from './mix/message-square-quote';
+import { MessageSquareReplyLogo, MessageSquareReplyLogoMetadata } from './mix/message-square-reply';
+import { MessageSquareShareLogo, MessageSquareShareLogoMetadata } from './mix/message-square-share';
+import { MessageSquareTextLogo, MessageSquareTextLogoMetadata } from './mix/message-square-text';
+import { MessageSquareWarningLogo, MessageSquareWarningLogoMetadata } from './mix/message-square-warning';
+import { MessageSquareXLogo, MessageSquareXLogoMetadata } from './mix/message-square-x';
+import { MessagesSquareLogo, MessagesSquareLogoMetadata } from './mix/messages-square';
+import { MetronomeLogo, MetronomeLogoMetadata } from './mix/metronome';
+import { MicVocalLogo, MicVocalLogoMetadata } from './mix/mic-vocal';
+import { MicrochipLogo, MicrochipLogoMetadata } from './mix/microchip';
+import { MicroscopeLogo, MicroscopeLogoMetadata } from './mix/microscope';
+import { MicrowaveLogo, MicrowaveLogoMetadata } from './mix/microwave';
+import { MilestoneLogo, MilestoneLogoMetadata } from './mix/milestone';
+import { MilkOffLogo, MilkOffLogoMetadata } from './mix/milk-off';
+import { MilkLogo, MilkLogoMetadata } from './mix/milk';
+import { MirrorRectangularLogo, MirrorRectangularLogoMetadata } from './mix/mirror-rectangular';
+import { MirrorRoundLogo, MirrorRoundLogoMetadata } from './mix/mirror-round';
+import { MonitorCheckLogo, MonitorCheckLogoMetadata } from './mix/monitor-check';
+import { MonitorCloudLogo, MonitorCloudLogoMetadata } from './mix/monitor-cloud';
+import { MonitorCogLogo, MonitorCogLogoMetadata } from './mix/monitor-cog';
+import { MonitorDotLogo, MonitorDotLogoMetadata } from './mix/monitor-dot';
+import { MonitorDownLogo, MonitorDownLogoMetadata } from './mix/monitor-down';
+import { MonitorOffLogo, MonitorOffLogoMetadata } from './mix/monitor-off';
+import { MonitorPauseLogo, MonitorPauseLogoMetadata } from './mix/monitor-pause';
+import { MonitorPlayLogo, MonitorPlayLogoMetadata } from './mix/monitor-play';
+import { MonitorSmartphoneLogo, MonitorSmartphoneLogoMetadata } from './mix/monitor-smartphone';
+import { MonitorSpeakerLogo, MonitorSpeakerLogoMetadata } from './mix/monitor-speaker';
+import { MonitorStopLogo, MonitorStopLogoMetadata } from './mix/monitor-stop';
+import { MonitorUpLogo, MonitorUpLogoMetadata } from './mix/monitor-up';
+import { MonitorXLogo, MonitorXLogoMetadata } from './mix/monitor-x';
+import { MoonStarLogo, MoonStarLogoMetadata } from './mix/moon-star';
+import { MotorbikeLogo, MotorbikeLogoMetadata } from './mix/motorbike';
+import { MountainSnowLogo, MountainSnowLogoMetadata } from './mix/mountain-snow';
+import { MountainLogo, MountainLogoMetadata } from './mix/mountain';
+import { MouseLeftLogo, MouseLeftLogoMetadata } from './mix/mouse-left';
+import { MouseOffLogo, MouseOffLogoMetadata } from './mix/mouse-off';
+import { MousePointer2OffLogo, MousePointer2OffLogoMetadata } from './mix/mouse-pointer-2-off';
+import { MousePointer2Logo, MousePointer2LogoMetadata } from './mix/mouse-pointer-2';
+import { MousePointerBanLogo, MousePointerBanLogoMetadata } from './mix/mouse-pointer-ban';
+import { MousePointerClickLogo, MousePointerClickLogoMetadata } from './mix/mouse-pointer-click';
+import { MouseRightLogo, MouseRightLogoMetadata } from './mix/mouse-right';
+import { MouseLogo, MouseLogoMetadata } from './mix/mouse';
+import { Move3dLogo, Move3dLogoMetadata } from './mix/move-3d';
+import { MoveDiagonal2Logo, MoveDiagonal2LogoMetadata } from './mix/move-diagonal-2';
+import { MoveDiagonalLogo, MoveDiagonalLogoMetadata } from './mix/move-diagonal';
+import { MoveDownLeftLogo, MoveDownLeftLogoMetadata } from './mix/move-down-left';
+import { MoveDownRightLogo, MoveDownRightLogoMetadata } from './mix/move-down-right';
+import { MoveDownLogo, MoveDownLogoMetadata } from './mix/move-down';
+import { MoveHorizontalLogo, MoveHorizontalLogoMetadata } from './mix/move-horizontal';
+import { MoveLeftLogo, MoveLeftLogoMetadata } from './mix/move-left';
+import { MoveRightLogo, MoveRightLogoMetadata } from './mix/move-right';
+import { MoveUpLeftLogo, MoveUpLeftLogoMetadata } from './mix/move-up-left';
+import { MoveUpRightLogo, MoveUpRightLogoMetadata } from './mix/move-up-right';
+import { MoveUpLogo, MoveUpLogoMetadata } from './mix/move-up';
+import { MoveVerticalLogo, MoveVerticalLogoMetadata } from './mix/move-vertical';
+import { Music2Logo, Music2LogoMetadata } from './mix/music-2';
+import { Music3Logo, Music3LogoMetadata } from './mix/music-3';
+import { Music4Logo, Music4LogoMetadata } from './mix/music-4';
+import { Navigation2OffLogo, Navigation2OffLogoMetadata } from './mix/navigation-2-off';
+import { NavigationOffLogo, NavigationOffLogoMetadata } from './mix/navigation-off';
+import { NetworkLogo, NetworkLogoMetadata } from './mix/network';
+import { NewspaperLogo, NewspaperLogoMetadata } from './mix/newspaper';
+import { NfcLogo, NfcLogoMetadata } from './mix/nfc';
+import { NonBinaryLogo, NonBinaryLogoMetadata } from './mix/non-binary';
+import { NotebookPenLogo, NotebookPenLogoMetadata } from './mix/notebook-pen';
+import { NotebookTabsLogo, NotebookTabsLogoMetadata } from './mix/notebook-tabs';
+import { NotebookTextLogo, NotebookTextLogoMetadata } from './mix/notebook-text';
+import { NotebookLogo, NotebookLogoMetadata } from './mix/notebook';
+import { NotepadTextDashedLogo, NotepadTextDashedLogoMetadata } from './mix/notepad-text-dashed';
+import { NotepadTextLogo, NotepadTextLogoMetadata } from './mix/notepad-text';
+import { NutOffLogo, NutOffLogoMetadata } from './mix/nut-off';
+import { NutLogo, NutLogoMetadata } from './mix/nut';
+import { OctagonAlertLogo, OctagonAlertLogoMetadata } from './mix/octagon-alert';
+import { OctagonMinusLogo, OctagonMinusLogoMetadata } from './mix/octagon-minus';
+import { OctagonPauseLogo, OctagonPauseLogoMetadata } from './mix/octagon-pause';
+import { OctagonXLogo, OctagonXLogoMetadata } from './mix/octagon-x';
+import { OmegaLogo, OmegaLogoMetadata } from './mix/omega';
+import { OptionLogo, OptionLogoMetadata } from './mix/option';
+import { OrbitLogo, OrbitLogoMetadata } from './mix/orbit';
+import { OrigamiLogo, OrigamiLogoMetadata } from './mix/origami';
+import { Package2Logo, Package2LogoMetadata } from './mix/package-2';
+import { PackageCheckLogo, PackageCheckLogoMetadata } from './mix/package-check';
+import { PackageMinusLogo, PackageMinusLogoMetadata } from './mix/package-minus';
+import { PackageOpenLogo, PackageOpenLogoMetadata } from './mix/package-open';
+import { PackagePlusLogo, PackagePlusLogoMetadata } from './mix/package-plus';
+import { PackageSearchLogo, PackageSearchLogoMetadata } from './mix/package-search';
+import { PackageXLogo, PackageXLogoMetadata } from './mix/package-x';
+import { PaintBucketLogo, PaintBucketLogoMetadata } from './mix/paint-bucket';
+import { PaintRollerLogo, PaintRollerLogoMetadata } from './mix/paint-roller';
+import { PaintbrushVerticalLogo, PaintbrushVerticalLogoMetadata } from './mix/paintbrush-vertical';
+import { PaintbrushLogo, PaintbrushLogoMetadata } from './mix/paintbrush';
+import { PaletteLogo, PaletteLogoMetadata } from './mix/palette';
+import { PandaLogo, PandaLogoMetadata } from './mix/panda';
+import { PanelBottomCloseLogo, PanelBottomCloseLogoMetadata } from './mix/panel-bottom-close';
+import { PanelBottomDashedLogo, PanelBottomDashedLogoMetadata } from './mix/panel-bottom-dashed';
+import { PanelBottomOpenLogo, PanelBottomOpenLogoMetadata } from './mix/panel-bottom-open';
+import { PanelBottomLogo, PanelBottomLogoMetadata } from './mix/panel-bottom';
+import { PanelLeftCloseLogo, PanelLeftCloseLogoMetadata } from './mix/panel-left-close';
+import { PanelLeftDashedLogo, PanelLeftDashedLogoMetadata } from './mix/panel-left-dashed';
+import { PanelLeftOpenLogo, PanelLeftOpenLogoMetadata } from './mix/panel-left-open';
+import { PanelLeftRightDashedLogo, PanelLeftRightDashedLogoMetadata } from './mix/panel-left-right-dashed';
+import { PanelLeftLogo, PanelLeftLogoMetadata } from './mix/panel-left';
+import { PanelRightCloseLogo, PanelRightCloseLogoMetadata } from './mix/panel-right-close';
+import { PanelRightDashedLogo, PanelRightDashedLogoMetadata } from './mix/panel-right-dashed';
+import { PanelRightOpenLogo, PanelRightOpenLogoMetadata } from './mix/panel-right-open';
+import { PanelRightLogo, PanelRightLogoMetadata } from './mix/panel-right';
+import { PanelTopBottomDashedLogo, PanelTopBottomDashedLogoMetadata } from './mix/panel-top-bottom-dashed';
+import { PanelTopCloseLogo, PanelTopCloseLogoMetadata } from './mix/panel-top-close';
+import { PanelTopDashedLogo, PanelTopDashedLogoMetadata } from './mix/panel-top-dashed';
+import { PanelTopOpenLogo, PanelTopOpenLogoMetadata } from './mix/panel-top-open';
+import { PanelTopLogo, PanelTopLogoMetadata } from './mix/panel-top';
+import { PanelsLeftBottomLogo, PanelsLeftBottomLogoMetadata } from './mix/panels-left-bottom';
+import { PanelsRightBottomLogo, PanelsRightBottomLogoMetadata } from './mix/panels-right-bottom';
+import { PanelsTopLeftLogo, PanelsTopLeftLogoMetadata } from './mix/panels-top-left';
+import { ParenthesesLogo, ParenthesesLogoMetadata } from './mix/parentheses';
+import { ParkingMeterLogo, ParkingMeterLogoMetadata } from './mix/parking-meter';
+import { PartyPopperLogo, PartyPopperLogoMetadata } from './mix/party-popper';
+import { PawPrintLogo, PawPrintLogoMetadata } from './mix/paw-print';
+import { PcCaseLogo, PcCaseLogoMetadata } from './mix/pc-case';
+import { PenLineLogo, PenLineLogoMetadata } from './mix/pen-line';
+import { PenOffLogo, PenOffLogoMetadata } from './mix/pen-off';
+import { PenLogo, PenLogoMetadata } from './mix/pen';
+import { PencilLineLogo, PencilLineLogoMetadata } from './mix/pencil-line';
+import { PencilOffLogo, PencilOffLogoMetadata } from './mix/pencil-off';
+import { PencilRulerLogo, PencilRulerLogoMetadata } from './mix/pencil-ruler';
+import { PencilLogo, PencilLogoMetadata } from './mix/pencil';
+import { PentagonLogo, PentagonLogoMetadata } from './mix/pentagon';
+import { PersonStandingLogo, PersonStandingLogoMetadata } from './mix/person-standing';
+import { PhilippinePesoLogo, PhilippinePesoLogoMetadata } from './mix/philippine-peso';
+import { PiLogo, PiLogoMetadata } from './mix/pi';
+import { PianoLogo, PianoLogoMetadata } from './mix/piano';
+import { PickaxeLogo, PickaxeLogoMetadata } from './mix/pickaxe';
+import { PictureInPicture2Logo, PictureInPicture2LogoMetadata } from './mix/picture-in-picture-2';
+import { PictureInPictureLogo, PictureInPictureLogoMetadata } from './mix/picture-in-picture';
+import { PiggyBankLogo, PiggyBankLogoMetadata } from './mix/piggy-bank';
+import { PilcrowLeftLogo, PilcrowLeftLogoMetadata } from './mix/pilcrow-left';
+import { PilcrowRightLogo, PilcrowRightLogoMetadata } from './mix/pilcrow-right';
+import { PilcrowLogo, PilcrowLogoMetadata } from './mix/pilcrow';
+import { PillBottleLogo, PillBottleLogoMetadata } from './mix/pill-bottle';
+import { PillLogo, PillLogoMetadata } from './mix/pill';
+import { PinOffLogo, PinOffLogoMetadata } from './mix/pin-off';
+import { PinLogo, PinLogoMetadata } from './mix/pin';
+import { PipetteLogo, PipetteLogoMetadata } from './mix/pipette';
+import { PizzaLogo, PizzaLogoMetadata } from './mix/pizza';
+import { PlaneLandingLogo, PlaneLandingLogoMetadata } from './mix/plane-landing';
+import { PlaneTakeoffLogo, PlaneTakeoffLogoMetadata } from './mix/plane-takeoff';
+import { PlaneLogo, PlaneLogoMetadata } from './mix/plane';
+import { Plug2Logo, Plug2LogoMetadata } from './mix/plug-2';
+import { PlugZapLogo, PlugZapLogoMetadata } from './mix/plug-zap';
+import { PlugLogo, PlugLogoMetadata } from './mix/plug';
+import { PocketKnifeLogo, PocketKnifeLogoMetadata } from './mix/pocket-knife';
+import { PodcastLogo, PodcastLogoMetadata } from './mix/podcast';
+import { PointerOffLogo, PointerOffLogoMetadata } from './mix/pointer-off';
+import { PointerLogo, PointerLogoMetadata } from './mix/pointer';
+import { PopcornLogo, PopcornLogoMetadata } from './mix/popcorn';
+import { PopsicleLogo, PopsicleLogoMetadata } from './mix/popsicle';
+import { PoundSterlingLogo, PoundSterlingLogoMetadata } from './mix/pound-sterling';
+import { PowerOffLogo, PowerOffLogoMetadata } from './mix/power-off';
+import { PresentationLogo, PresentationLogoMetadata } from './mix/presentation';
+import { PrinterCheckLogo, PrinterCheckLogoMetadata } from './mix/printer-check';
+import { PrinterXLogo, PrinterXLogoMetadata } from './mix/printer-x';
+import { ProjectorLogo, ProjectorLogoMetadata } from './mix/projector';
+import { ProportionsLogo, ProportionsLogoMetadata } from './mix/proportions';
+import { PuzzleLogo, PuzzleLogoMetadata } from './mix/puzzle';
+import { PyramidLogo, PyramidLogoMetadata } from './mix/pyramid';
+import { QrCodeLogo, QrCodeLogoMetadata } from './mix/qr-code';
+import { QuoteLogo, QuoteLogoMetadata } from './mix/quote';
+import { RabbitLogo, RabbitLogoMetadata } from './mix/rabbit';
+import { RadarLogo, RadarLogoMetadata } from './mix/radar';
+import { RadiationLogo, RadiationLogoMetadata } from './mix/radiation';
+import { RadicalLogo, RadicalLogoMetadata } from './mix/radical';
+import { RadioReceiverLogo, RadioReceiverLogoMetadata } from './mix/radio-receiver';
+import { RadioTowerLogo, RadioTowerLogoMetadata } from './mix/radio-tower';
+import { RadiusLogo, RadiusLogoMetadata } from './mix/radius';
+import { RailSymbolLogo, RailSymbolLogoMetadata } from './mix/rail-symbol';
+import { RainbowLogo, RainbowLogoMetadata } from './mix/rainbow';
+import { RatLogo, RatLogoMetadata } from './mix/rat';
+import { RatioLogo, RatioLogoMetadata } from './mix/ratio';
+import { ReceiptCentLogo, ReceiptCentLogoMetadata } from './mix/receipt-cent';
+import { ReceiptEuroLogo, ReceiptEuroLogoMetadata } from './mix/receipt-euro';
+import { ReceiptIndianRupeeLogo, ReceiptIndianRupeeLogoMetadata } from './mix/receipt-indian-rupee';
+import { ReceiptJapaneseYenLogo, ReceiptJapaneseYenLogoMetadata } from './mix/receipt-japanese-yen';
+import { ReceiptPoundSterlingLogo, ReceiptPoundSterlingLogoMetadata } from './mix/receipt-pound-sterling';
+import { ReceiptRussianRubleLogo, ReceiptRussianRubleLogoMetadata } from './mix/receipt-russian-ruble';
+import { ReceiptSwissFrancLogo, ReceiptSwissFrancLogoMetadata } from './mix/receipt-swiss-franc';
+import { ReceiptTextLogo, ReceiptTextLogoMetadata } from './mix/receipt-text';
+import { ReceiptTurkishLiraLogo, ReceiptTurkishLiraLogoMetadata } from './mix/receipt-turkish-lira';
+import { ReceiptLogo, ReceiptLogoMetadata } from './mix/receipt';
+import { RectangleCircleLogo, RectangleCircleLogoMetadata } from './mix/rectangle-circle';
+import { RectangleEllipsisLogo, RectangleEllipsisLogoMetadata } from './mix/rectangle-ellipsis';
+import { RectangleGogglesLogo, RectangleGogglesLogoMetadata } from './mix/rectangle-goggles';
+import { RectangleHorizontalLogo, RectangleHorizontalLogoMetadata } from './mix/rectangle-horizontal';
+import { RectangleVerticalLogo, RectangleVerticalLogoMetadata } from './mix/rectangle-vertical';
+import { RecycleLogo, RecycleLogoMetadata } from './mix/recycle';
+import { Redo2Logo, Redo2LogoMetadata } from './mix/redo-2';
+import { RedoDotLogo, RedoDotLogoMetadata } from './mix/redo-dot';
+import { RedoLogo, RedoLogoMetadata } from './mix/redo';
+import { RefreshCcwDotLogo, RefreshCcwDotLogoMetadata } from './mix/refresh-ccw-dot';
+import { RefreshCwOffLogo, RefreshCwOffLogoMetadata } from './mix/refresh-cw-off';
+import { RefrigeratorLogo, RefrigeratorLogoMetadata } from './mix/refrigerator';
+import { RegexLogo, RegexLogoMetadata } from './mix/regex';
+import { RemoveFormattingLogo, RemoveFormattingLogoMetadata } from './mix/remove-formatting';
+import { Repeat1Logo, Repeat1LogoMetadata } from './mix/repeat-1';
+import { Repeat2Logo, Repeat2LogoMetadata } from './mix/repeat-2';
+import { ReplaceAllLogo, ReplaceAllLogoMetadata } from './mix/replace-all';
+import { ReplaceLogo, ReplaceLogoMetadata } from './mix/replace';
+import { ReplyAllLogo, ReplyAllLogoMetadata } from './mix/reply-all';
+import { ReplyLogo, ReplyLogoMetadata } from './mix/reply';
+import { RibbonLogo, RibbonLogoMetadata } from './mix/ribbon';
+import { RocketLogo, RocketLogoMetadata } from './mix/rocket';
+import { RockingChairLogo, RockingChairLogoMetadata } from './mix/rocking-chair';
+import { RollerCoasterLogo, RollerCoasterLogoMetadata } from './mix/roller-coaster';
+import { RoseLogo, RoseLogoMetadata } from './mix/rose';
+import { Rotate3dLogo, Rotate3dLogoMetadata } from './mix/rotate-3d';
+import { RotateCcwKeyLogo, RotateCcwKeyLogoMetadata } from './mix/rotate-ccw-key';
+import { RotateCcwSquareLogo, RotateCcwSquareLogoMetadata } from './mix/rotate-ccw-square';
+import { RotateCwSquareLogo, RotateCwSquareLogoMetadata } from './mix/rotate-cw-square';
+import { RouteOffLogo, RouteOffLogoMetadata } from './mix/route-off';
+import { RouteLogo, RouteLogoMetadata } from './mix/route';
+import { RouterLogo, RouterLogoMetadata } from './mix/router';
+import { Rows2Logo, Rows2LogoMetadata } from './mix/rows-2';
+import { Rows3Logo, Rows3LogoMetadata } from './mix/rows-3';
+import { Rows4Logo, Rows4LogoMetadata } from './mix/rows-4';
+import { RulerDimensionLineLogo, RulerDimensionLineLogoMetadata } from './mix/ruler-dimension-line';
+import { RulerLogo, RulerLogoMetadata } from './mix/ruler';
+import { RussianRubleLogo, RussianRubleLogoMetadata } from './mix/russian-ruble';
+import { SailboatLogo, SailboatLogoMetadata } from './mix/sailboat';
+import { SaladLogo, SaladLogoMetadata } from './mix/salad';
+import { SandwichLogo, SandwichLogoMetadata } from './mix/sandwich';
+import { SatelliteDishLogo, SatelliteDishLogoMetadata } from './mix/satellite-dish';
+import { SatelliteLogo, SatelliteLogoMetadata } from './mix/satellite';
+import { SaudiRiyalLogo, SaudiRiyalLogoMetadata } from './mix/saudi-riyal';
+import { SaveAllLogo, SaveAllLogoMetadata } from './mix/save-all';
+import { SaveOffLogo, SaveOffLogoMetadata } from './mix/save-off';
+import { Scale3dLogo, Scale3dLogoMetadata } from './mix/scale-3d';
+import { ScaleLogo, ScaleLogoMetadata } from './mix/scale';
+import { ScalingLogo, ScalingLogoMetadata } from './mix/scaling';
+import { ScanBarcodeLogo, ScanBarcodeLogoMetadata } from './mix/scan-barcode';
+import { ScanEyeLogo, ScanEyeLogoMetadata } from './mix/scan-eye';
+import { ScanFaceLogo, ScanFaceLogoMetadata } from './mix/scan-face';
+import { ScanHeartLogo, ScanHeartLogoMetadata } from './mix/scan-heart';
+import { ScanLineLogo, ScanLineLogoMetadata } from './mix/scan-line';
+import { ScanQrCodeLogo, ScanQrCodeLogoMetadata } from './mix/scan-qr-code';
+import { ScanSearchLogo, ScanSearchLogoMetadata } from './mix/scan-search';
+import { ScanTextLogo, ScanTextLogoMetadata } from './mix/scan-text';
+import { ScanLogo, ScanLogoMetadata } from './mix/scan';
+import { SchoolLogo, SchoolLogoMetadata } from './mix/school';
+import { ScissorsLineDashedLogo, ScissorsLineDashedLogoMetadata } from './mix/scissors-line-dashed';
+import { ScooterLogo, ScooterLogoMetadata } from './mix/scooter';
+import { ScreenShareOffLogo, ScreenShareOffLogoMetadata } from './mix/screen-share-off';
+import { ScreenShareLogo, ScreenShareLogoMetadata } from './mix/screen-share';
+import { ScrollTextLogo, ScrollTextLogoMetadata } from './mix/scroll-text';
+import { ScrollLogo, ScrollLogoMetadata } from './mix/scroll';
+import { SearchAlertLogo, SearchAlertLogoMetadata } from './mix/search-alert';
+import { SearchCheckLogo, SearchCheckLogoMetadata } from './mix/search-check';
+import { SearchCodeLogo, SearchCodeLogoMetadata } from './mix/search-code';
+import { SearchSlashLogo, SearchSlashLogoMetadata } from './mix/search-slash';
+import { SearchXLogo, SearchXLogoMetadata } from './mix/search-x';
+import { SectionLogo, SectionLogoMetadata } from './mix/section';
+import { SendHorizontalLogo, SendHorizontalLogoMetadata } from './mix/send-horizontal';
+import { SendToBackLogo, SendToBackLogoMetadata } from './mix/send-to-back';
+import { SeparatorHorizontalLogo, SeparatorHorizontalLogoMetadata } from './mix/separator-horizontal';
+import { SeparatorVerticalLogo, SeparatorVerticalLogoMetadata } from './mix/separator-vertical';
+import { ServerCogLogo, ServerCogLogoMetadata } from './mix/server-cog';
+import { ServerCrashLogo, ServerCrashLogoMetadata } from './mix/server-crash';
+import { ServerOffLogo, ServerOffLogoMetadata } from './mix/server-off';
+import { Settings2Logo, Settings2LogoMetadata } from './mix/settings-2';
+import { ShapesLogo, ShapesLogoMetadata } from './mix/shapes';
+import { SheetLogo, SheetLogoMetadata } from './mix/sheet';
+import { ShellLogo, ShellLogoMetadata } from './mix/shell';
+import { ShelvingUnitLogo, ShelvingUnitLogoMetadata } from './mix/shelving-unit';
+import { ShieldAlertLogo, ShieldAlertLogoMetadata } from './mix/shield-alert';
+import { ShieldBanLogo, ShieldBanLogoMetadata } from './mix/shield-ban';
+import { ShieldCheckLogo, ShieldCheckLogoMetadata } from './mix/shield-check';
+import { ShieldEllipsisLogo, ShieldEllipsisLogoMetadata } from './mix/shield-ellipsis';
+import { ShieldHalfLogo, ShieldHalfLogoMetadata } from './mix/shield-half';
+import { ShieldMinusLogo, ShieldMinusLogoMetadata } from './mix/shield-minus';
+import { ShieldPlusLogo, ShieldPlusLogoMetadata } from './mix/shield-plus';
+import { ShieldQuestionMarkLogo, ShieldQuestionMarkLogoMetadata } from './mix/shield-question-mark';
+import { ShieldUserLogo, ShieldUserLogoMetadata } from './mix/shield-user';
+import { ShieldXLogo, ShieldXLogoMetadata } from './mix/shield-x';
+import { ShipWheelLogo, ShipWheelLogoMetadata } from './mix/ship-wheel';
+import { ShipLogo, ShipLogoMetadata } from './mix/ship';
+import { ShirtLogo, ShirtLogoMetadata } from './mix/shirt';
+import { ShoppingBasketLogo, ShoppingBasketLogoMetadata } from './mix/shopping-basket';
+import { ShovelLogo, ShovelLogoMetadata } from './mix/shovel';
+import { ShowerHeadLogo, ShowerHeadLogoMetadata } from './mix/shower-head';
+import { ShredderLogo, ShredderLogoMetadata } from './mix/shredder';
+import { ShrimpLogo, ShrimpLogoMetadata } from './mix/shrimp';
+import { ShrinkLogo, ShrinkLogoMetadata } from './mix/shrink';
+import { ShrubLogo, ShrubLogoMetadata } from './mix/shrub';
+import { SigmaLogo, SigmaLogoMetadata } from './mix/sigma';
+import { SignalHighLogo, SignalHighLogoMetadata } from './mix/signal-high';
+import { SignalLowLogo, SignalLowLogoMetadata } from './mix/signal-low';
+import { SignalMediumLogo, SignalMediumLogoMetadata } from './mix/signal-medium';
+import { SignalZeroLogo, SignalZeroLogoMetadata } from './mix/signal-zero';
+import { SignalLogo, SignalLogoMetadata } from './mix/signal';
+import { SignatureLogo, SignatureLogoMetadata } from './mix/signature';
+import { SignpostBigLogo, SignpostBigLogoMetadata } from './mix/signpost-big';
+import { SignpostLogo, SignpostLogoMetadata } from './mix/signpost';
+import { SirenLogo, SirenLogoMetadata } from './mix/siren';
+import { SkullLogo, SkullLogoMetadata } from './mix/skull';
+import { SliceLogo, SliceLogoMetadata } from './mix/slice';
+import { SlidersHorizontalLogo, SlidersHorizontalLogoMetadata } from './mix/sliders-horizontal';
+import { SlidersVerticalLogo, SlidersVerticalLogoMetadata } from './mix/sliders-vertical';
+import { SmartphoneChargingLogo, SmartphoneChargingLogoMetadata } from './mix/smartphone-charging';
+import { SmartphoneNfcLogo, SmartphoneNfcLogoMetadata } from './mix/smartphone-nfc';
+import { SmilePlusLogo, SmilePlusLogoMetadata } from './mix/smile-plus';
+import { SnailLogo, SnailLogoMetadata } from './mix/snail';
+import { SnowflakeLogo, SnowflakeLogoMetadata } from './mix/snowflake';
+import { SoapDispenserDropletLogo, SoapDispenserDropletLogoMetadata } from './mix/soap-dispenser-droplet';
+import { SofaLogo, SofaLogoMetadata } from './mix/sofa';
+import { SolarPanelLogo, SolarPanelLogoMetadata } from './mix/solar-panel';
+import { SoupLogo, SoupLogoMetadata } from './mix/soup';
+import { SpaceLogo, SpaceLogoMetadata } from './mix/space';
+import { SpadeLogo, SpadeLogoMetadata } from './mix/spade';
+import { SparkleLogo, SparkleLogoMetadata } from './mix/sparkle';
+import { SparklesLogo, SparklesLogoMetadata } from './mix/sparkles';
+import { SpeechLogo, SpeechLogoMetadata } from './mix/speech';
+import { SpellCheck2Logo, SpellCheck2LogoMetadata } from './mix/spell-check-2';
+import { SpellCheckLogo, SpellCheckLogoMetadata } from './mix/spell-check';
+import { SplinePointerLogo, SplinePointerLogoMetadata } from './mix/spline-pointer';
+import { SplineLogo, SplineLogoMetadata } from './mix/spline';
+import { SplitLogo, SplitLogoMetadata } from './mix/split';
+import { SpoolLogo, SpoolLogoMetadata } from './mix/spool';
+import { SpotlightLogo, SpotlightLogoMetadata } from './mix/spotlight';
+import { SprayCanLogo, SprayCanLogoMetadata } from './mix/spray-can';
+import { SproutLogo, SproutLogoMetadata } from './mix/sprout';
+import { SquareActivityLogo, SquareActivityLogoMetadata } from './mix/square-activity';
+import { SquareArrowDownLeftLogo, SquareArrowDownLeftLogoMetadata } from './mix/square-arrow-down-left';
+import { SquareArrowDownRightLogo, SquareArrowDownRightLogoMetadata } from './mix/square-arrow-down-right';
+import { SquareArrowDownLogo, SquareArrowDownLogoMetadata } from './mix/square-arrow-down';
+import { SquareArrowLeftLogo, SquareArrowLeftLogoMetadata } from './mix/square-arrow-left';
+import { SquareArrowOutDownLeftLogo, SquareArrowOutDownLeftLogoMetadata } from './mix/square-arrow-out-down-left';
+import { SquareArrowOutDownRightLogo, SquareArrowOutDownRightLogoMetadata } from './mix/square-arrow-out-down-right';
+import { SquareArrowOutUpLeftLogo, SquareArrowOutUpLeftLogoMetadata } from './mix/square-arrow-out-up-left';
+import { SquareArrowOutUpRightLogo, SquareArrowOutUpRightLogoMetadata } from './mix/square-arrow-out-up-right';
+import { SquareArrowRightEnterLogo, SquareArrowRightEnterLogoMetadata } from './mix/square-arrow-right-enter';
+import { SquareArrowRightExitLogo, SquareArrowRightExitLogoMetadata } from './mix/square-arrow-right-exit';
+import { SquareArrowRightLogo, SquareArrowRightLogoMetadata } from './mix/square-arrow-right';
+import { SquareArrowUpLeftLogo, SquareArrowUpLeftLogoMetadata } from './mix/square-arrow-up-left';
+import { SquareArrowUpRightLogo, SquareArrowUpRightLogoMetadata } from './mix/square-arrow-up-right';
+import { SquareArrowUpLogo, SquareArrowUpLogoMetadata } from './mix/square-arrow-up';
+import { SquareAsteriskLogo, SquareAsteriskLogoMetadata } from './mix/square-asterisk';
+import { SquareBottomDashedScissorsLogo, SquareBottomDashedScissorsLogoMetadata } from './mix/square-bottom-dashed-scissors';
+import { SquareCenterlineDashedHorizontalLogo, SquareCenterlineDashedHorizontalLogoMetadata } from './mix/square-centerline-dashed-horizontal';
+import { SquareCenterlineDashedVerticalLogo, SquareCenterlineDashedVerticalLogoMetadata } from './mix/square-centerline-dashed-vertical';
+import { SquareChartGanttLogo, SquareChartGanttLogoMetadata } from './mix/square-chart-gantt';
+import { SquareCheckBigLogo, SquareCheckBigLogoMetadata } from './mix/square-check-big';
+import { SquareCheckLogo, SquareCheckLogoMetadata } from './mix/square-check';
+import { SquareChevronDownLogo, SquareChevronDownLogoMetadata } from './mix/square-chevron-down';
+import { SquareChevronLeftLogo, SquareChevronLeftLogoMetadata } from './mix/square-chevron-left';
+import { SquareChevronRightLogo, SquareChevronRightLogoMetadata } from './mix/square-chevron-right';
+import { SquareChevronUpLogo, SquareChevronUpLogoMetadata } from './mix/square-chevron-up';
+import { SquareCodeLogo, SquareCodeLogoMetadata } from './mix/square-code';
+import { SquareDashedBottomCodeLogo, SquareDashedBottomCodeLogoMetadata } from './mix/square-dashed-bottom-code';
+import { SquareDashedBottomLogo, SquareDashedBottomLogoMetadata } from './mix/square-dashed-bottom';
+import { SquareDashedKanbanLogo, SquareDashedKanbanLogoMetadata } from './mix/square-dashed-kanban';
+import { SquareDashedMousePointerLogo, SquareDashedMousePointerLogoMetadata } from './mix/square-dashed-mouse-pointer';
+import { SquareDashedTopSolidLogo, SquareDashedTopSolidLogoMetadata } from './mix/square-dashed-top-solid';
+import { SquareDashedLogo, SquareDashedLogoMetadata } from './mix/square-dashed';
+import { SquareDivideLogo, SquareDivideLogoMetadata } from './mix/square-divide';
+import { SquareDotLogo, SquareDotLogoMetadata } from './mix/square-dot';
+import { SquareEqualLogo, SquareEqualLogoMetadata } from './mix/square-equal';
+import { SquareFunctionLogo, SquareFunctionLogoMetadata } from './mix/square-function';
+import { SquareKanbanLogo, SquareKanbanLogoMetadata } from './mix/square-kanban';
+import { SquareLibraryLogo, SquareLibraryLogoMetadata } from './mix/square-library';
+import { SquareMLogo, SquareMLogoMetadata } from './mix/square-m';
+import { SquareMenuLogo, SquareMenuLogoMetadata } from './mix/square-menu';
+import { SquareMinusLogo, SquareMinusLogoMetadata } from './mix/square-minus';
+import { SquareMousePointerLogo, SquareMousePointerLogoMetadata } from './mix/square-mouse-pointer';
+import { SquareParkingOffLogo, SquareParkingOffLogoMetadata } from './mix/square-parking-off';
+import { SquareParkingLogo, SquareParkingLogoMetadata } from './mix/square-parking';
+import { SquarePauseLogo, SquarePauseLogoMetadata } from './mix/square-pause';
+import { SquarePenLogo, SquarePenLogoMetadata } from './mix/square-pen';
+import { SquarePercentLogo, SquarePercentLogoMetadata } from './mix/square-percent';
+import { SquarePiLogo, SquarePiLogoMetadata } from './mix/square-pi';
+import { SquarePilcrowLogo, SquarePilcrowLogoMetadata } from './mix/square-pilcrow';
+import { SquarePlayLogo, SquarePlayLogoMetadata } from './mix/square-play';
+import { SquarePlusLogo, SquarePlusLogoMetadata } from './mix/square-plus';
+import { SquarePowerLogo, SquarePowerLogoMetadata } from './mix/square-power';
+import { SquareRadicalLogo, SquareRadicalLogoMetadata } from './mix/square-radical';
+import { SquareRoundCornerLogo, SquareRoundCornerLogoMetadata } from './mix/square-round-corner';
+import { SquareScissorsLogo, SquareScissorsLogoMetadata } from './mix/square-scissors';
+import { SquareSigmaLogo, SquareSigmaLogoMetadata } from './mix/square-sigma';
+import { SquareSlashLogo, SquareSlashLogoMetadata } from './mix/square-slash';
+import { SquareSplitHorizontalLogo, SquareSplitHorizontalLogoMetadata } from './mix/square-split-horizontal';
+import { SquareSplitVerticalLogo, SquareSplitVerticalLogoMetadata } from './mix/square-split-vertical';
+import { SquareSquareLogo, SquareSquareLogoMetadata } from './mix/square-square';
+import { SquareStackLogo, SquareStackLogoMetadata } from './mix/square-stack';
+import { SquareStarLogo, SquareStarLogoMetadata } from './mix/square-star';
+import { SquareStopLogo, SquareStopLogoMetadata } from './mix/square-stop';
+import { SquareTerminalLogo, SquareTerminalLogoMetadata } from './mix/square-terminal';
+import { SquareUserRoundLogo, SquareUserRoundLogoMetadata } from './mix/square-user-round';
+import { SquareUserLogo, SquareUserLogoMetadata } from './mix/square-user';
+import { SquareXLogo, SquareXLogoMetadata } from './mix/square-x';
+import { SquaresExcludeLogo, SquaresExcludeLogoMetadata } from './mix/squares-exclude';
+import { SquaresIntersectLogo, SquaresIntersectLogoMetadata } from './mix/squares-intersect';
+import { SquaresSubtractLogo, SquaresSubtractLogoMetadata } from './mix/squares-subtract';
+import { SquaresUniteLogo, SquaresUniteLogoMetadata } from './mix/squares-unite';
+import { SquircleDashedLogo, SquircleDashedLogoMetadata } from './mix/squircle-dashed';
+import { SquircleLogo, SquircleLogoMetadata } from './mix/squircle';
+import { SquirrelLogo, SquirrelLogoMetadata } from './mix/squirrel';
+import { StampLogo, StampLogoMetadata } from './mix/stamp';
+import { StarHalfLogo, StarHalfLogoMetadata } from './mix/star-half';
+import { StarOffLogo, StarOffLogoMetadata } from './mix/star-off';
+import { StepBackLogo, StepBackLogoMetadata } from './mix/step-back';
+import { StepForwardLogo, StepForwardLogoMetadata } from './mix/step-forward';
+import { StethoscopeLogo, StethoscopeLogoMetadata } from './mix/stethoscope';
+import { StickerLogo, StickerLogoMetadata } from './mix/sticker';
+import { StickyNoteLogo, StickyNoteLogoMetadata } from './mix/sticky-note';
+import { StoneLogo, StoneLogoMetadata } from './mix/stone';
+import { StoreLogo, StoreLogoMetadata } from './mix/store';
+import { StretchHorizontalLogo, StretchHorizontalLogoMetadata } from './mix/stretch-horizontal';
+import { StretchVerticalLogo, StretchVerticalLogoMetadata } from './mix/stretch-vertical';
+import { StrikethroughLogo, StrikethroughLogoMetadata } from './mix/strikethrough';
+import { SubscriptLogo, SubscriptLogoMetadata } from './mix/subscript';
+import { SunDimLogo, SunDimLogoMetadata } from './mix/sun-dim';
+import { SunMediumLogo, SunMediumLogoMetadata } from './mix/sun-medium';
+import { SunMoonLogo, SunMoonLogoMetadata } from './mix/sun-moon';
+import { SunSnowLogo, SunSnowLogoMetadata } from './mix/sun-snow';
+import { SuperscriptLogo, SuperscriptLogoMetadata } from './mix/superscript';
+import { SwatchBookLogo, SwatchBookLogoMetadata } from './mix/swatch-book';
+import { SwissFrancLogo, SwissFrancLogoMetadata } from './mix/swiss-franc';
+import { SwitchCameraLogo, SwitchCameraLogoMetadata } from './mix/switch-camera';
+import { SwordLogo, SwordLogoMetadata } from './mix/sword';
+import { SwordsLogo, SwordsLogoMetadata } from './mix/swords';
+import { SyringeLogo, SyringeLogoMetadata } from './mix/syringe';
+import { Table2Logo, Table2LogoMetadata } from './mix/table-2';
+import { TableCellsMergeLogo, TableCellsMergeLogoMetadata } from './mix/table-cells-merge';
+import { TableCellsSplitLogo, TableCellsSplitLogoMetadata } from './mix/table-cells-split';
+import { TableColumnsSplitLogo, TableColumnsSplitLogoMetadata } from './mix/table-columns-split';
+import { TableOfContentsLogo, TableOfContentsLogoMetadata } from './mix/table-of-contents';
+import { TablePropertiesLogo, TablePropertiesLogoMetadata } from './mix/table-properties';
+import { TableRowsSplitLogo, TableRowsSplitLogoMetadata } from './mix/table-rows-split';
+import { TabletSmartphoneLogo, TabletSmartphoneLogoMetadata } from './mix/tablet-smartphone';
+import { TabletsLogo, TabletsLogoMetadata } from './mix/tablets';
+import { TagsLogo, TagsLogoMetadata } from './mix/tags';
+import { Tally1Logo, Tally1LogoMetadata } from './mix/tally-1';
+import { Tally2Logo, Tally2LogoMetadata } from './mix/tally-2';
+import { Tally3Logo, Tally3LogoMetadata } from './mix/tally-3';
+import { Tally4Logo, Tally4LogoMetadata } from './mix/tally-4';
+import { Tally5Logo, Tally5LogoMetadata } from './mix/tally-5';
+import { TangentLogo, TangentLogoMetadata } from './mix/tangent';
+import { TelescopeLogo, TelescopeLogoMetadata } from './mix/telescope';
+import { TentTreeLogo, TentTreeLogoMetadata } from './mix/tent-tree';
+import { TentLogo, TentLogoMetadata } from './mix/tent';
+import { TestTubeDiagonalLogo, TestTubeDiagonalLogoMetadata } from './mix/test-tube-diagonal';
+import { TestTubeLogo, TestTubeLogoMetadata } from './mix/test-tube';
+import { TestTubesLogo, TestTubesLogoMetadata } from './mix/test-tubes';
+import { TextAlignCenterLogo, TextAlignCenterLogoMetadata } from './mix/text-align-center';
+import { TextAlignEndLogo, TextAlignEndLogoMetadata } from './mix/text-align-end';
+import { TextAlignJustifyLogo, TextAlignJustifyLogoMetadata } from './mix/text-align-justify';
+import { TextAlignStartLogo, TextAlignStartLogoMetadata } from './mix/text-align-start';
+import { TextCursorInputLogo, TextCursorInputLogoMetadata } from './mix/text-cursor-input';
+import { TextCursorLogo, TextCursorLogoMetadata } from './mix/text-cursor';
+import { TextInitialLogo, TextInitialLogoMetadata } from './mix/text-initial';
+import { TextQuoteLogo, TextQuoteLogoMetadata } from './mix/text-quote';
+import { TextSearchLogo, TextSearchLogoMetadata } from './mix/text-search';
+import { TextSelectLogo, TextSelectLogoMetadata } from './mix/text-select';
+import { TextWrapLogo, TextWrapLogoMetadata } from './mix/text-wrap';
+import { TheaterLogo, TheaterLogoMetadata } from './mix/theater';
+import { ThermometerSnowflakeLogo, ThermometerSnowflakeLogoMetadata } from './mix/thermometer-snowflake';
+import { ThermometerSunLogo, ThermometerSunLogoMetadata } from './mix/thermometer-sun';
+import { TicketCheckLogo, TicketCheckLogoMetadata } from './mix/ticket-check';
+import { TicketMinusLogo, TicketMinusLogoMetadata } from './mix/ticket-minus';
+import { TicketPercentLogo, TicketPercentLogoMetadata } from './mix/ticket-percent';
+import { TicketPlusLogo, TicketPlusLogoMetadata } from './mix/ticket-plus';
+import { TicketSlashLogo, TicketSlashLogoMetadata } from './mix/ticket-slash';
+import { TicketXLogo, TicketXLogoMetadata } from './mix/ticket-x';
+import { TicketLogo, TicketLogoMetadata } from './mix/ticket';
+import { TicketsPlaneLogo, TicketsPlaneLogoMetadata } from './mix/tickets-plane';
+import { TicketsLogo, TicketsLogoMetadata } from './mix/tickets';
+import { TimerOffLogo, TimerOffLogoMetadata } from './mix/timer-off';
+import { TimerResetLogo, TimerResetLogoMetadata } from './mix/timer-reset';
+import { TimerLogo, TimerLogoMetadata } from './mix/timer';
+import { ToiletLogo, ToiletLogoMetadata } from './mix/toilet';
+import { ToolCaseLogo, ToolCaseLogoMetadata } from './mix/tool-case';
+import { ToolboxLogo, ToolboxLogoMetadata } from './mix/toolbox';
+import { TornadoLogo, TornadoLogoMetadata } from './mix/tornado';
+import { TorusLogo, TorusLogoMetadata } from './mix/torus';
+import { TouchpadOffLogo, TouchpadOffLogoMetadata } from './mix/touchpad-off';
+import { TouchpadLogo, TouchpadLogoMetadata } from './mix/touchpad';
+import { TowelRackLogo, TowelRackLogoMetadata } from './mix/towel-rack';
+import { TowerControlLogo, TowerControlLogoMetadata } from './mix/tower-control';
+import { ToyBrickLogo, ToyBrickLogoMetadata } from './mix/toy-brick';
+import { TractorLogo, TractorLogoMetadata } from './mix/tractor';
+import { TrafficConeLogo, TrafficConeLogoMetadata } from './mix/traffic-cone';
+import { TrainFrontTunnelLogo, TrainFrontTunnelLogoMetadata } from './mix/train-front-tunnel';
+import { TrainFrontLogo, TrainFrontLogoMetadata } from './mix/train-front';
+import { TrainTrackLogo, TrainTrackLogoMetadata } from './mix/train-track';
+import { TramFrontLogo, TramFrontLogoMetadata } from './mix/tram-front';
+import { TransgenderLogo, TransgenderLogoMetadata } from './mix/transgender';
+import { TreeDeciduousLogo, TreeDeciduousLogoMetadata } from './mix/tree-deciduous';
+import { TreePalmLogo, TreePalmLogoMetadata } from './mix/tree-palm';
+import { TreePineLogo, TreePineLogoMetadata } from './mix/tree-pine';
+import { TreesLogo, TreesLogoMetadata } from './mix/trees';
+import { TrendingUpDownLogo, TrendingUpDownLogoMetadata } from './mix/trending-up-down';
+import { TriangleAlertLogo, TriangleAlertLogoMetadata } from './mix/triangle-alert';
+import { TriangleDashedLogo, TriangleDashedLogoMetadata } from './mix/triangle-dashed';
+import { TriangleRightLogo, TriangleRightLogoMetadata } from './mix/triangle-right';
+import { TrophyLogo, TrophyLogoMetadata } from './mix/trophy';
+import { TruckElectricLogo, TruckElectricLogoMetadata } from './mix/truck-electric';
+import { TurkishLiraLogo, TurkishLiraLogoMetadata } from './mix/turkish-lira';
+import { TurntableLogo, TurntableLogoMetadata } from './mix/turntable';
+import { TurtleLogo, TurtleLogoMetadata } from './mix/turtle';
+import { TvMinimalPlayLogo, TvMinimalPlayLogoMetadata } from './mix/tv-minimal-play';
+import { TvMinimalLogo, TvMinimalLogoMetadata } from './mix/tv-minimal';
+import { TypeOutlineLogo, TypeOutlineLogoMetadata } from './mix/type-outline';
+import { UmbrellaOffLogo, UmbrellaOffLogoMetadata } from './mix/umbrella-off';
+import { Undo2Logo, Undo2LogoMetadata } from './mix/undo-2';
+import { UndoDotLogo, UndoDotLogoMetadata } from './mix/undo-dot';
+import { UndoLogo, UndoLogoMetadata } from './mix/undo';
+import { UnfoldHorizontalLogo, UnfoldHorizontalLogoMetadata } from './mix/unfold-horizontal';
+import { UnfoldVerticalLogo, UnfoldVerticalLogoMetadata } from './mix/unfold-vertical';
+import { UngroupLogo, UngroupLogoMetadata } from './mix/ungroup';
+import { UniversityLogo, UniversityLogoMetadata } from './mix/university';
+import { Unlink2Logo, Unlink2LogoMetadata } from './mix/unlink-2';
+import { UnlinkLogo, UnlinkLogoMetadata } from './mix/unlink';
+import { UnplugLogo, UnplugLogoMetadata } from './mix/unplug';
+import { UsbLogo, UsbLogoMetadata } from './mix/usb';
+import { UserCogLogo, UserCogLogoMetadata } from './mix/user-cog';
+import { UserKeyLogo, UserKeyLogoMetadata } from './mix/user-key';
+import { UserLockLogo, UserLockLogoMetadata } from './mix/user-lock';
+import { UserPenLogo, UserPenLogoMetadata } from './mix/user-pen';
+import { UserRoundCheckLogo, UserRoundCheckLogoMetadata } from './mix/user-round-check';
+import { UserRoundCogLogo, UserRoundCogLogoMetadata } from './mix/user-round-cog';
+import { UserRoundKeyLogo, UserRoundKeyLogoMetadata } from './mix/user-round-key';
+import { UserRoundMinusLogo, UserRoundMinusLogoMetadata } from './mix/user-round-minus';
+import { UserRoundPenLogo, UserRoundPenLogoMetadata } from './mix/user-round-pen';
+import { UserRoundPlusLogo, UserRoundPlusLogoMetadata } from './mix/user-round-plus';
+import { UserRoundSearchLogo, UserRoundSearchLogoMetadata } from './mix/user-round-search';
+import { UserRoundXLogo, UserRoundXLogoMetadata } from './mix/user-round-x';
+import { UserRoundLogo, UserRoundLogoMetadata } from './mix/user-round';
+import { UserSearchLogo, UserSearchLogoMetadata } from './mix/user-search';
+import { UserStarLogo, UserStarLogoMetadata } from './mix/user-star';
+import { UsersRoundLogo, UsersRoundLogoMetadata } from './mix/users-round';
+import { UtensilsCrossedLogo, UtensilsCrossedLogoMetadata } from './mix/utensils-crossed';
+import { UtensilsLogo, UtensilsLogoMetadata } from './mix/utensils';
+import { UtilityPoleLogo, UtilityPoleLogoMetadata } from './mix/utility-pole';
+import { VanLogo, VanLogoMetadata } from './mix/van';
+import { VariableLogo, VariableLogoMetadata } from './mix/variable';
+import { VaultLogo, VaultLogoMetadata } from './mix/vault';
+import { VectorSquareLogo, VectorSquareLogoMetadata } from './mix/vector-square';
+import { VeganLogo, VeganLogoMetadata } from './mix/vegan';
+import { VenetianMaskLogo, VenetianMaskLogoMetadata } from './mix/venetian-mask';
+import { VenusAndMarsLogo, VenusAndMarsLogoMetadata } from './mix/venus-and-mars';
+import { VenusLogo, VenusLogoMetadata } from './mix/venus';
+import { VibrateOffLogo, VibrateOffLogoMetadata } from './mix/vibrate-off';
+import { VibrateLogo, VibrateLogoMetadata } from './mix/vibrate';
+import { VideotapeLogo, VideotapeLogoMetadata } from './mix/videotape';
+import { ViewLogo, ViewLogoMetadata } from './mix/view';
+import { VolleyballLogo, VolleyballLogoMetadata } from './mix/volleyball';
+import { VolumeOffLogo, VolumeOffLogoMetadata } from './mix/volume-off';
+import { VoteLogo, VoteLogoMetadata } from './mix/vote';
+import { WalletCardsLogo, WalletCardsLogoMetadata } from './mix/wallet-cards';
+import { WalletMinimalLogo, WalletMinimalLogoMetadata } from './mix/wallet-minimal';
+import { WalletLogo, WalletLogoMetadata } from './mix/wallet';
+import { WallpaperLogo, WallpaperLogoMetadata } from './mix/wallpaper';
+import { WandSparklesLogo, WandSparklesLogoMetadata } from './mix/wand-sparkles';
+import { WandLogo, WandLogoMetadata } from './mix/wand';
+import { WarehouseLogo, WarehouseLogoMetadata } from './mix/warehouse';
+import { WashingMachineLogo, WashingMachineLogoMetadata } from './mix/washing-machine';
+import { WavesArrowDownLogo, WavesArrowDownLogoMetadata } from './mix/waves-arrow-down';
+import { WavesArrowUpLogo, WavesArrowUpLogoMetadata } from './mix/waves-arrow-up';
+import { WavesLadderLogo, WavesLadderLogoMetadata } from './mix/waves-ladder';
+import { WavesLogo, WavesLogoMetadata } from './mix/waves';
+import { WaypointsLogo, WaypointsLogoMetadata } from './mix/waypoints';
+import { WebcamLogo, WebcamLogoMetadata } from './mix/webcam';
+import { WebhookOffLogo, WebhookOffLogoMetadata } from './mix/webhook-off';
+import { WebhookLogo, WebhookLogoMetadata } from './mix/webhook';
+import { WeightTildeLogo, WeightTildeLogoMetadata } from './mix/weight-tilde';
+import { WeightLogo, WeightLogoMetadata } from './mix/weight';
+import { WheatOffLogo, WheatOffLogoMetadata } from './mix/wheat-off';
+import { WheatLogo, WheatLogoMetadata } from './mix/wheat';
+import { WholeWordLogo, WholeWordLogoMetadata } from './mix/whole-word';
+import { WifiCogLogo, WifiCogLogoMetadata } from './mix/wifi-cog';
+import { WifiHighLogo, WifiHighLogoMetadata } from './mix/wifi-high';
+import { WifiLowLogo, WifiLowLogoMetadata } from './mix/wifi-low';
+import { WifiPenLogo, WifiPenLogoMetadata } from './mix/wifi-pen';
+import { WifiSyncLogo, WifiSyncLogoMetadata } from './mix/wifi-sync';
+import { WifiZeroLogo, WifiZeroLogoMetadata } from './mix/wifi-zero';
+import { WindArrowDownLogo, WindArrowDownLogoMetadata } from './mix/wind-arrow-down';
+import { WineOffLogo, WineOffLogoMetadata } from './mix/wine-off';
+import { WineLogo, WineLogoMetadata } from './mix/wine';
+import { WorkflowLogo, WorkflowLogoMetadata } from './mix/workflow';
+import { WormLogo, WormLogoMetadata } from './mix/worm';
+import { WrenchLogo, WrenchLogoMetadata } from './mix/wrench';
+import { XLineTopLogo, XLineTopLogoMetadata } from './mix/x-line-top';
+import { ZodiacAquariusLogo, ZodiacAquariusLogoMetadata } from './mix/zodiac-aquarius';
+import { ZodiacAriesLogo, ZodiacAriesLogoMetadata } from './mix/zodiac-aries';
+import { ZodiacCancerLogo, ZodiacCancerLogoMetadata } from './mix/zodiac-cancer';
+import { ZodiacCapricornLogo, ZodiacCapricornLogoMetadata } from './mix/zodiac-capricorn';
+import { ZodiacGeminiLogo, ZodiacGeminiLogoMetadata } from './mix/zodiac-gemini';
+import { ZodiacLeoLogo, ZodiacLeoLogoMetadata } from './mix/zodiac-leo';
+import { ZodiacLibraLogo, ZodiacLibraLogoMetadata } from './mix/zodiac-libra';
+import { ZodiacOphiuchusLogo, ZodiacOphiuchusLogoMetadata } from './mix/zodiac-ophiuchus';
+import { ZodiacPiscesLogo, ZodiacPiscesLogoMetadata } from './mix/zodiac-pisces';
+import { ZodiacSagittariusLogo, ZodiacSagittariusLogoMetadata } from './mix/zodiac-sagittarius';
+import { ZodiacScorpioLogo, ZodiacScorpioLogoMetadata } from './mix/zodiac-scorpio';
+import { ZodiacTaurusLogo, ZodiacTaurusLogoMetadata } from './mix/zodiac-taurus';
+import { ZodiacVirgoLogo, ZodiacVirgoLogoMetadata } from './mix/zodiac-virgo';
+
+export const allLogos = {
+  feather: {
+    ActivityLogo: { Component: ActivityLogo, metadata: ActivityLogoMetadata },
+    AirplayLogo: { Component: AirplayLogo, metadata: AirplayLogoMetadata },
+    AlertCircleLogo: { Component: AlertCircleLogo, metadata: AlertCircleLogoMetadata },
+    AlertOctagonLogo: { Component: AlertOctagonLogo, metadata: AlertOctagonLogoMetadata },
+    AlertTriangleLogo: { Component: AlertTriangleLogo, metadata: AlertTriangleLogoMetadata },
+    AlignCenterLogo: { Component: AlignCenterLogo, metadata: AlignCenterLogoMetadata },
+    AlignJustifyLogo: { Component: AlignJustifyLogo, metadata: AlignJustifyLogoMetadata },
+    AlignLeftLogo: { Component: AlignLeftLogo, metadata: AlignLeftLogoMetadata },
+    AlignRightLogo: { Component: AlignRightLogo, metadata: AlignRightLogoMetadata },
+    AnchorLogo: { Component: AnchorLogo, metadata: AnchorLogoMetadata },
+    ApertureLogo: { Component: ApertureLogo, metadata: ApertureLogoMetadata },
+    ArchiveLogo: { Component: ArchiveLogo, metadata: ArchiveLogoMetadata },
+    ArrowDownCircleLogo: { Component: ArrowDownCircleLogo, metadata: ArrowDownCircleLogoMetadata },
+    ArrowDownLeftLogo: { Component: ArrowDownLeftLogo, metadata: ArrowDownLeftLogoMetadata },
+    ArrowDownRightLogo: { Component: ArrowDownRightLogo, metadata: ArrowDownRightLogoMetadata },
+    ArrowDownLogo: { Component: ArrowDownLogo, metadata: ArrowDownLogoMetadata },
+    ArrowLeftCircleLogo: { Component: ArrowLeftCircleLogo, metadata: ArrowLeftCircleLogoMetadata },
+    ArrowLeftLogo: { Component: ArrowLeftLogo, metadata: ArrowLeftLogoMetadata },
+    ArrowRightCircleLogo: { Component: ArrowRightCircleLogo, metadata: ArrowRightCircleLogoMetadata },
+    ArrowRightLogo: { Component: ArrowRightLogo, metadata: ArrowRightLogoMetadata },
+    ArrowUpCircleLogo: { Component: ArrowUpCircleLogo, metadata: ArrowUpCircleLogoMetadata },
+    ArrowUpLeftLogo: { Component: ArrowUpLeftLogo, metadata: ArrowUpLeftLogoMetadata },
+    ArrowUpRightLogo: { Component: ArrowUpRightLogo, metadata: ArrowUpRightLogoMetadata },
+    ArrowUpLogo: { Component: ArrowUpLogo, metadata: ArrowUpLogoMetadata },
+    AtSignLogo: { Component: AtSignLogo, metadata: AtSignLogoMetadata },
+    AwardLogo: { Component: AwardLogo, metadata: AwardLogoMetadata },
+    BarChart2Logo: { Component: BarChart2Logo, metadata: BarChart2LogoMetadata },
+    BarChartLogo: { Component: BarChartLogo, metadata: BarChartLogoMetadata },
+    BatteryChargingLogo: { Component: BatteryChargingLogo, metadata: BatteryChargingLogoMetadata },
+    BatteryLogo: { Component: BatteryLogo, metadata: BatteryLogoMetadata },
+    BellOffLogo: { Component: BellOffLogo, metadata: BellOffLogoMetadata },
+    BellLogo: { Component: BellLogo, metadata: BellLogoMetadata },
+    BluetoothLogo: { Component: BluetoothLogo, metadata: BluetoothLogoMetadata },
+    BoldLogo: { Component: BoldLogo, metadata: BoldLogoMetadata },
+    BookOpenLogo: { Component: BookOpenLogo, metadata: BookOpenLogoMetadata },
+    BookLogo: { Component: BookLogo, metadata: BookLogoMetadata },
+    BookmarkLogo: { Component: BookmarkLogo, metadata: BookmarkLogoMetadata },
+    BoxLogo: { Component: BoxLogo, metadata: BoxLogoMetadata },
+    BriefcaseLogo: { Component: BriefcaseLogo, metadata: BriefcaseLogoMetadata },
+    CalendarLogo: { Component: CalendarLogo, metadata: CalendarLogoMetadata },
+    CameraOffLogo: { Component: CameraOffLogo, metadata: CameraOffLogoMetadata },
+    CameraLogo: { Component: CameraLogo, metadata: CameraLogoMetadata },
+    CastLogo: { Component: CastLogo, metadata: CastLogoMetadata },
+    CheckCircleLogo: { Component: CheckCircleLogo, metadata: CheckCircleLogoMetadata },
+    CheckSquareLogo: { Component: CheckSquareLogo, metadata: CheckSquareLogoMetadata },
+    CheckLogo: { Component: CheckLogo, metadata: CheckLogoMetadata },
+    ChevronDownLogo: { Component: ChevronDownLogo, metadata: ChevronDownLogoMetadata },
+    ChevronLeftLogo: { Component: ChevronLeftLogo, metadata: ChevronLeftLogoMetadata },
+    ChevronRightLogo: { Component: ChevronRightLogo, metadata: ChevronRightLogoMetadata },
+    ChevronUpLogo: { Component: ChevronUpLogo, metadata: ChevronUpLogoMetadata },
+    ChevronsDownLogo: { Component: ChevronsDownLogo, metadata: ChevronsDownLogoMetadata },
+    ChevronsLeftLogo: { Component: ChevronsLeftLogo, metadata: ChevronsLeftLogoMetadata },
+    ChevronsRightLogo: { Component: ChevronsRightLogo, metadata: ChevronsRightLogoMetadata },
+    ChevronsUpLogo: { Component: ChevronsUpLogo, metadata: ChevronsUpLogoMetadata },
+    ChromeLogo: { Component: ChromeLogo, metadata: ChromeLogoMetadata },
+    CircleLogo: { Component: CircleLogo, metadata: CircleLogoMetadata },
+    ClipboardLogo: { Component: ClipboardLogo, metadata: ClipboardLogoMetadata },
+    ClockLogo: { Component: ClockLogo, metadata: ClockLogoMetadata },
+    CloudDrizzleLogo: { Component: CloudDrizzleLogo, metadata: CloudDrizzleLogoMetadata },
+    CloudLightningLogo: { Component: CloudLightningLogo, metadata: CloudLightningLogoMetadata },
+    CloudOffLogo: { Component: CloudOffLogo, metadata: CloudOffLogoMetadata },
+    CloudRainLogo: { Component: CloudRainLogo, metadata: CloudRainLogoMetadata },
+    CloudSnowLogo: { Component: CloudSnowLogo, metadata: CloudSnowLogoMetadata },
+    CloudLogo: { Component: CloudLogo, metadata: CloudLogoMetadata },
+    CodeLogo: { Component: CodeLogo, metadata: CodeLogoMetadata },
+    CodepenLogo: { Component: CodepenLogo, metadata: CodepenLogoMetadata },
+    CodesandboxLogo: { Component: CodesandboxLogo, metadata: CodesandboxLogoMetadata },
+    CoffeeLogo: { Component: CoffeeLogo, metadata: CoffeeLogoMetadata },
+    ColumnsLogo: { Component: ColumnsLogo, metadata: ColumnsLogoMetadata },
+    CommandLogo: { Component: CommandLogo, metadata: CommandLogoMetadata },
+    CompassLogo: { Component: CompassLogo, metadata: CompassLogoMetadata },
+    CopyLogo: { Component: CopyLogo, metadata: CopyLogoMetadata },
+    CornerDownLeftLogo: { Component: CornerDownLeftLogo, metadata: CornerDownLeftLogoMetadata },
+    CornerDownRightLogo: { Component: CornerDownRightLogo, metadata: CornerDownRightLogoMetadata },
+    CornerLeftDownLogo: { Component: CornerLeftDownLogo, metadata: CornerLeftDownLogoMetadata },
+    CornerLeftUpLogo: { Component: CornerLeftUpLogo, metadata: CornerLeftUpLogoMetadata },
+    CornerRightDownLogo: { Component: CornerRightDownLogo, metadata: CornerRightDownLogoMetadata },
+    CornerRightUpLogo: { Component: CornerRightUpLogo, metadata: CornerRightUpLogoMetadata },
+    CornerUpLeftLogo: { Component: CornerUpLeftLogo, metadata: CornerUpLeftLogoMetadata },
+    CornerUpRightLogo: { Component: CornerUpRightLogo, metadata: CornerUpRightLogoMetadata },
+    CpuLogo: { Component: CpuLogo, metadata: CpuLogoMetadata },
+    CreditCardLogo: { Component: CreditCardLogo, metadata: CreditCardLogoMetadata },
+    CropLogo: { Component: CropLogo, metadata: CropLogoMetadata },
+    CrosshairLogo: { Component: CrosshairLogo, metadata: CrosshairLogoMetadata },
+    DatabaseLogo: { Component: DatabaseLogo, metadata: DatabaseLogoMetadata },
+    DeleteLogo: { Component: DeleteLogo, metadata: DeleteLogoMetadata },
+    DiscLogo: { Component: DiscLogo, metadata: DiscLogoMetadata },
+    DivideCircleLogo: { Component: DivideCircleLogo, metadata: DivideCircleLogoMetadata },
+    DivideSquareLogo: { Component: DivideSquareLogo, metadata: DivideSquareLogoMetadata },
+    DivideLogo: { Component: DivideLogo, metadata: DivideLogoMetadata },
+    DollarSignLogo: { Component: DollarSignLogo, metadata: DollarSignLogoMetadata },
+    DownloadCloudLogo: { Component: DownloadCloudLogo, metadata: DownloadCloudLogoMetadata },
+    DownloadLogo: { Component: DownloadLogo, metadata: DownloadLogoMetadata },
+    DribbbleLogo: { Component: DribbbleLogo, metadata: DribbbleLogoMetadata },
+    DropletLogo: { Component: DropletLogo, metadata: DropletLogoMetadata },
+    Edit2Logo: { Component: Edit2Logo, metadata: Edit2LogoMetadata },
+    Edit3Logo: { Component: Edit3Logo, metadata: Edit3LogoMetadata },
+    EditLogo: { Component: EditLogo, metadata: EditLogoMetadata },
+    ExternalLinkLogo: { Component: ExternalLinkLogo, metadata: ExternalLinkLogoMetadata },
+    EyeOffLogo: { Component: EyeOffLogo, metadata: EyeOffLogoMetadata },
+    EyeLogo: { Component: EyeLogo, metadata: EyeLogoMetadata },
+    FacebookLogo: { Component: FacebookLogo, metadata: FacebookLogoMetadata },
+    FastForwardLogo: { Component: FastForwardLogo, metadata: FastForwardLogoMetadata },
+    FeatherLogo: { Component: FeatherLogo, metadata: FeatherLogoMetadata },
+    FigmaLogo: { Component: FigmaLogo, metadata: FigmaLogoMetadata },
+    FileMinusLogo: { Component: FileMinusLogo, metadata: FileMinusLogoMetadata },
+    FilePlusLogo: { Component: FilePlusLogo, metadata: FilePlusLogoMetadata },
+    FileTextLogo: { Component: FileTextLogo, metadata: FileTextLogoMetadata },
+    FileLogo: { Component: FileLogo, metadata: FileLogoMetadata },
+    FilmLogo: { Component: FilmLogo, metadata: FilmLogoMetadata },
+    FilterLogo: { Component: FilterLogo, metadata: FilterLogoMetadata },
+    FlagLogo: { Component: FlagLogo, metadata: FlagLogoMetadata },
+    FolderMinusLogo: { Component: FolderMinusLogo, metadata: FolderMinusLogoMetadata },
+    FolderPlusLogo: { Component: FolderPlusLogo, metadata: FolderPlusLogoMetadata },
+    FolderLogo: { Component: FolderLogo, metadata: FolderLogoMetadata },
+    FramerLogo: { Component: FramerLogo, metadata: FramerLogoMetadata },
+    FrownLogo: { Component: FrownLogo, metadata: FrownLogoMetadata },
+    GiftLogo: { Component: GiftLogo, metadata: GiftLogoMetadata },
+    GitBranchLogo: { Component: GitBranchLogo, metadata: GitBranchLogoMetadata },
+    GitCommitLogo: { Component: GitCommitLogo, metadata: GitCommitLogoMetadata },
+    GitMergeLogo: { Component: GitMergeLogo, metadata: GitMergeLogoMetadata },
+    GitPullRequestLogo: { Component: GitPullRequestLogo, metadata: GitPullRequestLogoMetadata },
+    GithubLogo: { Component: GithubLogo, metadata: GithubLogoMetadata },
+    GitlabLogo: { Component: GitlabLogo, metadata: GitlabLogoMetadata },
+    GlobeLogo: { Component: GlobeLogo, metadata: GlobeLogoMetadata },
+    GridLogo: { Component: GridLogo, metadata: GridLogoMetadata },
+    HardDriveLogo: { Component: HardDriveLogo, metadata: HardDriveLogoMetadata },
+    HashLogo: { Component: HashLogo, metadata: HashLogoMetadata },
+    HeadphonesLogo: { Component: HeadphonesLogo, metadata: HeadphonesLogoMetadata },
+    HeartLogo: { Component: HeartLogo, metadata: HeartLogoMetadata },
+    HelpCircleLogo: { Component: HelpCircleLogo, metadata: HelpCircleLogoMetadata },
+    HexagonLogo: { Component: HexagonLogo, metadata: HexagonLogoMetadata },
+    HomeLogo: { Component: HomeLogo, metadata: HomeLogoMetadata },
+    ImageLogo: { Component: ImageLogo, metadata: ImageLogoMetadata },
+    InboxLogo: { Component: InboxLogo, metadata: InboxLogoMetadata },
+    InfoLogo: { Component: InfoLogo, metadata: InfoLogoMetadata },
+    InstagramLogo: { Component: InstagramLogo, metadata: InstagramLogoMetadata },
+    ItalicLogo: { Component: ItalicLogo, metadata: ItalicLogoMetadata },
+    KeyLogo: { Component: KeyLogo, metadata: KeyLogoMetadata },
+    LayersLogo: { Component: LayersLogo, metadata: LayersLogoMetadata },
+    LayoutLogo: { Component: LayoutLogo, metadata: LayoutLogoMetadata },
+    LifeBuoyLogo: { Component: LifeBuoyLogo, metadata: LifeBuoyLogoMetadata },
+    Link2Logo: { Component: Link2Logo, metadata: Link2LogoMetadata },
+    LinkLogo: { Component: LinkLogo, metadata: LinkLogoMetadata },
+    LinkedinLogo: { Component: LinkedinLogo, metadata: LinkedinLogoMetadata },
+    ListLogo: { Component: ListLogo, metadata: ListLogoMetadata },
+    LoaderLogo: { Component: LoaderLogo, metadata: LoaderLogoMetadata },
+    LockLogo: { Component: LockLogo, metadata: LockLogoMetadata },
+    LogInLogo: { Component: LogInLogo, metadata: LogInLogoMetadata },
+    LogOutLogo: { Component: LogOutLogo, metadata: LogOutLogoMetadata },
+    MailLogo: { Component: MailLogo, metadata: MailLogoMetadata },
+    MapPinLogo: { Component: MapPinLogo, metadata: MapPinLogoMetadata },
+    MapLogo: { Component: MapLogo, metadata: MapLogoMetadata },
+    Maximize2Logo: { Component: Maximize2Logo, metadata: Maximize2LogoMetadata },
+    MaximizeLogo: { Component: MaximizeLogo, metadata: MaximizeLogoMetadata },
+    MehLogo: { Component: MehLogo, metadata: MehLogoMetadata },
+    MenuLogo: { Component: MenuLogo, metadata: MenuLogoMetadata },
+    MessageCircleLogo: { Component: MessageCircleLogo, metadata: MessageCircleLogoMetadata },
+    MessageSquareLogo: { Component: MessageSquareLogo, metadata: MessageSquareLogoMetadata },
+    MicOffLogo: { Component: MicOffLogo, metadata: MicOffLogoMetadata },
+    MicLogo: { Component: MicLogo, metadata: MicLogoMetadata },
+    Minimize2Logo: { Component: Minimize2Logo, metadata: Minimize2LogoMetadata },
+    MinimizeLogo: { Component: MinimizeLogo, metadata: MinimizeLogoMetadata },
+    MinusCircleLogo: { Component: MinusCircleLogo, metadata: MinusCircleLogoMetadata },
+    MinusSquareLogo: { Component: MinusSquareLogo, metadata: MinusSquareLogoMetadata },
+    MinusLogo: { Component: MinusLogo, metadata: MinusLogoMetadata },
+    MonitorLogo: { Component: MonitorLogo, metadata: MonitorLogoMetadata },
+    MoonLogo: { Component: MoonLogo, metadata: MoonLogoMetadata },
+    MoreHorizontalLogo: { Component: MoreHorizontalLogo, metadata: MoreHorizontalLogoMetadata },
+    MoreVerticalLogo: { Component: MoreVerticalLogo, metadata: MoreVerticalLogoMetadata },
+    MousePointerLogo: { Component: MousePointerLogo, metadata: MousePointerLogoMetadata },
+    MoveLogo: { Component: MoveLogo, metadata: MoveLogoMetadata },
+    MusicLogo: { Component: MusicLogo, metadata: MusicLogoMetadata },
+    Navigation2Logo: { Component: Navigation2Logo, metadata: Navigation2LogoMetadata },
+    NavigationLogo: { Component: NavigationLogo, metadata: NavigationLogoMetadata },
+    OctagonLogo: { Component: OctagonLogo, metadata: OctagonLogoMetadata },
+    PackageLogo: { Component: PackageLogo, metadata: PackageLogoMetadata },
+    PaperclipLogo: { Component: PaperclipLogo, metadata: PaperclipLogoMetadata },
+    PauseCircleLogo: { Component: PauseCircleLogo, metadata: PauseCircleLogoMetadata },
+    PauseLogo: { Component: PauseLogo, metadata: PauseLogoMetadata },
+    PenToolLogo: { Component: PenToolLogo, metadata: PenToolLogoMetadata },
+    PercentLogo: { Component: PercentLogo, metadata: PercentLogoMetadata },
+    PhoneCallLogo: { Component: PhoneCallLogo, metadata: PhoneCallLogoMetadata },
+    PhoneForwardedLogo: { Component: PhoneForwardedLogo, metadata: PhoneForwardedLogoMetadata },
+    PhoneIncomingLogo: { Component: PhoneIncomingLogo, metadata: PhoneIncomingLogoMetadata },
+    PhoneMissedLogo: { Component: PhoneMissedLogo, metadata: PhoneMissedLogoMetadata },
+    PhoneOffLogo: { Component: PhoneOffLogo, metadata: PhoneOffLogoMetadata },
+    PhoneOutgoingLogo: { Component: PhoneOutgoingLogo, metadata: PhoneOutgoingLogoMetadata },
+    PhoneLogo: { Component: PhoneLogo, metadata: PhoneLogoMetadata },
+    PieChartLogo: { Component: PieChartLogo, metadata: PieChartLogoMetadata },
+    PlayCircleLogo: { Component: PlayCircleLogo, metadata: PlayCircleLogoMetadata },
+    PlayLogo: { Component: PlayLogo, metadata: PlayLogoMetadata },
+    PlusCircleLogo: { Component: PlusCircleLogo, metadata: PlusCircleLogoMetadata },
+    PlusSquareLogo: { Component: PlusSquareLogo, metadata: PlusSquareLogoMetadata },
+    PlusLogo: { Component: PlusLogo, metadata: PlusLogoMetadata },
+    PocketLogo: { Component: PocketLogo, metadata: PocketLogoMetadata },
+    PowerLogo: { Component: PowerLogo, metadata: PowerLogoMetadata },
+    PrinterLogo: { Component: PrinterLogo, metadata: PrinterLogoMetadata },
+    RadioLogo: { Component: RadioLogo, metadata: RadioLogoMetadata },
+    RefreshCcwLogo: { Component: RefreshCcwLogo, metadata: RefreshCcwLogoMetadata },
+    RefreshCwLogo: { Component: RefreshCwLogo, metadata: RefreshCwLogoMetadata },
+    RepeatLogo: { Component: RepeatLogo, metadata: RepeatLogoMetadata },
+    RewindLogo: { Component: RewindLogo, metadata: RewindLogoMetadata },
+    RotateCcwLogo: { Component: RotateCcwLogo, metadata: RotateCcwLogoMetadata },
+    RotateCwLogo: { Component: RotateCwLogo, metadata: RotateCwLogoMetadata },
+    RssLogo: { Component: RssLogo, metadata: RssLogoMetadata },
+    SaveLogo: { Component: SaveLogo, metadata: SaveLogoMetadata },
+    ScissorsLogo: { Component: ScissorsLogo, metadata: ScissorsLogoMetadata },
+    SearchLogo: { Component: SearchLogo, metadata: SearchLogoMetadata },
+    SendLogo: { Component: SendLogo, metadata: SendLogoMetadata },
+    ServerLogo: { Component: ServerLogo, metadata: ServerLogoMetadata },
+    SettingsLogo: { Component: SettingsLogo, metadata: SettingsLogoMetadata },
+    Share2Logo: { Component: Share2Logo, metadata: Share2LogoMetadata },
+    ShareLogo: { Component: ShareLogo, metadata: ShareLogoMetadata },
+    ShieldOffLogo: { Component: ShieldOffLogo, metadata: ShieldOffLogoMetadata },
+    ShieldLogo: { Component: ShieldLogo, metadata: ShieldLogoMetadata },
+    ShoppingBagLogo: { Component: ShoppingBagLogo, metadata: ShoppingBagLogoMetadata },
+    ShoppingCartLogo: { Component: ShoppingCartLogo, metadata: ShoppingCartLogoMetadata },
+    ShuffleLogo: { Component: ShuffleLogo, metadata: ShuffleLogoMetadata },
+    SidebarLogo: { Component: SidebarLogo, metadata: SidebarLogoMetadata },
+    SkipBackLogo: { Component: SkipBackLogo, metadata: SkipBackLogoMetadata },
+    SkipForwardLogo: { Component: SkipForwardLogo, metadata: SkipForwardLogoMetadata },
+    SlackLogo: { Component: SlackLogo, metadata: SlackLogoMetadata },
+    SlashLogo: { Component: SlashLogo, metadata: SlashLogoMetadata },
+    SlidersLogo: { Component: SlidersLogo, metadata: SlidersLogoMetadata },
+    SmartphoneLogo: { Component: SmartphoneLogo, metadata: SmartphoneLogoMetadata },
+    SmileLogo: { Component: SmileLogo, metadata: SmileLogoMetadata },
+    SpeakerLogo: { Component: SpeakerLogo, metadata: SpeakerLogoMetadata },
+    SquareLogo: { Component: SquareLogo, metadata: SquareLogoMetadata },
+    StarLogo: { Component: StarLogo, metadata: StarLogoMetadata },
+    StopCircleLogo: { Component: StopCircleLogo, metadata: StopCircleLogoMetadata },
+    SunLogo: { Component: SunLogo, metadata: SunLogoMetadata },
+    SunriseLogo: { Component: SunriseLogo, metadata: SunriseLogoMetadata },
+    SunsetLogo: { Component: SunsetLogo, metadata: SunsetLogoMetadata },
+    TableLogo: { Component: TableLogo, metadata: TableLogoMetadata },
+    TabletLogo: { Component: TabletLogo, metadata: TabletLogoMetadata },
+    TagLogo: { Component: TagLogo, metadata: TagLogoMetadata },
+    TargetLogo: { Component: TargetLogo, metadata: TargetLogoMetadata },
+    TerminalLogo: { Component: TerminalLogo, metadata: TerminalLogoMetadata },
+    ThermometerLogo: { Component: ThermometerLogo, metadata: ThermometerLogoMetadata },
+    ThumbsDownLogo: { Component: ThumbsDownLogo, metadata: ThumbsDownLogoMetadata },
+    ThumbsUpLogo: { Component: ThumbsUpLogo, metadata: ThumbsUpLogoMetadata },
+    ToggleLeftLogo: { Component: ToggleLeftLogo, metadata: ToggleLeftLogoMetadata },
+    ToggleRightLogo: { Component: ToggleRightLogo, metadata: ToggleRightLogoMetadata },
+    ToolLogo: { Component: ToolLogo, metadata: ToolLogoMetadata },
+    Trash2Logo: { Component: Trash2Logo, metadata: Trash2LogoMetadata },
+    TrashLogo: { Component: TrashLogo, metadata: TrashLogoMetadata },
+    TrelloLogo: { Component: TrelloLogo, metadata: TrelloLogoMetadata },
+    TrendingDownLogo: { Component: TrendingDownLogo, metadata: TrendingDownLogoMetadata },
+    TrendingUpLogo: { Component: TrendingUpLogo, metadata: TrendingUpLogoMetadata },
+    TriangleLogo: { Component: TriangleLogo, metadata: TriangleLogoMetadata },
+    TruckLogo: { Component: TruckLogo, metadata: TruckLogoMetadata },
+    TvLogo: { Component: TvLogo, metadata: TvLogoMetadata },
+    TwitchLogo: { Component: TwitchLogo, metadata: TwitchLogoMetadata },
+    TwitterLogo: { Component: TwitterLogo, metadata: TwitterLogoMetadata },
+    TypeLogo: { Component: TypeLogo, metadata: TypeLogoMetadata },
+    UmbrellaLogo: { Component: UmbrellaLogo, metadata: UmbrellaLogoMetadata },
+    UnderlineLogo: { Component: UnderlineLogo, metadata: UnderlineLogoMetadata },
+    UnlockLogo: { Component: UnlockLogo, metadata: UnlockLogoMetadata },
+    UploadCloudLogo: { Component: UploadCloudLogo, metadata: UploadCloudLogoMetadata },
+    UploadLogo: { Component: UploadLogo, metadata: UploadLogoMetadata },
+    UserCheckLogo: { Component: UserCheckLogo, metadata: UserCheckLogoMetadata },
+    UserMinusLogo: { Component: UserMinusLogo, metadata: UserMinusLogoMetadata },
+    UserPlusLogo: { Component: UserPlusLogo, metadata: UserPlusLogoMetadata },
+    UserXLogo: { Component: UserXLogo, metadata: UserXLogoMetadata },
+    UserLogo: { Component: UserLogo, metadata: UserLogoMetadata },
+    UsersLogo: { Component: UsersLogo, metadata: UsersLogoMetadata },
+    VideoOffLogo: { Component: VideoOffLogo, metadata: VideoOffLogoMetadata },
+    VideoLogo: { Component: VideoLogo, metadata: VideoLogoMetadata },
+    VoicemailLogo: { Component: VoicemailLogo, metadata: VoicemailLogoMetadata },
+    Volume1Logo: { Component: Volume1Logo, metadata: Volume1LogoMetadata },
+    Volume2Logo: { Component: Volume2Logo, metadata: Volume2LogoMetadata },
+    VolumeXLogo: { Component: VolumeXLogo, metadata: VolumeXLogoMetadata },
+    VolumeLogo: { Component: VolumeLogo, metadata: VolumeLogoMetadata },
+    WatchLogo: { Component: WatchLogo, metadata: WatchLogoMetadata },
+    WifiOffLogo: { Component: WifiOffLogo, metadata: WifiOffLogoMetadata },
+    WifiLogo: { Component: WifiLogo, metadata: WifiLogoMetadata },
+    WindLogo: { Component: WindLogo, metadata: WindLogoMetadata },
+    XCircleLogo: { Component: XCircleLogo, metadata: XCircleLogoMetadata },
+    XOctagonLogo: { Component: XOctagonLogo, metadata: XOctagonLogoMetadata },
+    XSquareLogo: { Component: XSquareLogo, metadata: XSquareLogoMetadata },
+    XLogo: { Component: XLogo, metadata: XLogoMetadata },
+    YoutubeLogo: { Component: YoutubeLogo, metadata: YoutubeLogoMetadata },
+    ZapOffLogo: { Component: ZapOffLogo, metadata: ZapOffLogoMetadata },
+    ZapLogo: { Component: ZapLogo, metadata: ZapLogoMetadata },
+    ZoomInLogo: { Component: ZoomInLogo, metadata: ZoomInLogoMetadata },
+    ZoomOutLogo: { Component: ZoomOutLogo, metadata: ZoomOutLogoMetadata },
+  },
+  mix: {
+    AArrowDownLogo: { Component: AArrowDownLogo, metadata: AArrowDownLogoMetadata },
+    AArrowUpLogo: { Component: AArrowUpLogo, metadata: AArrowUpLogoMetadata },
+    ALargeSmallLogo: { Component: ALargeSmallLogo, metadata: ALargeSmallLogoMetadata },
+    AccessibilityLogo: { Component: AccessibilityLogo, metadata: AccessibilityLogoMetadata },
+    AirVentLogo: { Component: AirVentLogo, metadata: AirVentLogoMetadata },
+    AlarmClockCheckLogo: { Component: AlarmClockCheckLogo, metadata: AlarmClockCheckLogoMetadata },
+    AlarmClockMinusLogo: { Component: AlarmClockMinusLogo, metadata: AlarmClockMinusLogoMetadata },
+    AlarmClockOffLogo: { Component: AlarmClockOffLogo, metadata: AlarmClockOffLogoMetadata },
+    AlarmClockPlusLogo: { Component: AlarmClockPlusLogo, metadata: AlarmClockPlusLogoMetadata },
+    AlarmClockLogo: { Component: AlarmClockLogo, metadata: AlarmClockLogoMetadata },
+    AlarmSmokeLogo: { Component: AlarmSmokeLogo, metadata: AlarmSmokeLogoMetadata },
+    AlbumLogo: { Component: AlbumLogo, metadata: AlbumLogoMetadata },
+    AlignCenterHorizontalLogo: { Component: AlignCenterHorizontalLogo, metadata: AlignCenterHorizontalLogoMetadata },
+    AlignCenterVerticalLogo: { Component: AlignCenterVerticalLogo, metadata: AlignCenterVerticalLogoMetadata },
+    AlignEndHorizontalLogo: { Component: AlignEndHorizontalLogo, metadata: AlignEndHorizontalLogoMetadata },
+    AlignEndVerticalLogo: { Component: AlignEndVerticalLogo, metadata: AlignEndVerticalLogoMetadata },
+    AlignHorizontalDistributeCenterLogo: { Component: AlignHorizontalDistributeCenterLogo, metadata: AlignHorizontalDistributeCenterLogoMetadata },
+    AlignHorizontalDistributeEndLogo: { Component: AlignHorizontalDistributeEndLogo, metadata: AlignHorizontalDistributeEndLogoMetadata },
+    AlignHorizontalDistributeStartLogo: { Component: AlignHorizontalDistributeStartLogo, metadata: AlignHorizontalDistributeStartLogoMetadata },
+    AlignHorizontalJustifyCenterLogo: { Component: AlignHorizontalJustifyCenterLogo, metadata: AlignHorizontalJustifyCenterLogoMetadata },
+    AlignHorizontalJustifyEndLogo: { Component: AlignHorizontalJustifyEndLogo, metadata: AlignHorizontalJustifyEndLogoMetadata },
+    AlignHorizontalJustifyStartLogo: { Component: AlignHorizontalJustifyStartLogo, metadata: AlignHorizontalJustifyStartLogoMetadata },
+    AlignHorizontalSpaceAroundLogo: { Component: AlignHorizontalSpaceAroundLogo, metadata: AlignHorizontalSpaceAroundLogoMetadata },
+    AlignHorizontalSpaceBetweenLogo: { Component: AlignHorizontalSpaceBetweenLogo, metadata: AlignHorizontalSpaceBetweenLogoMetadata },
+    AlignStartHorizontalLogo: { Component: AlignStartHorizontalLogo, metadata: AlignStartHorizontalLogoMetadata },
+    AlignStartVerticalLogo: { Component: AlignStartVerticalLogo, metadata: AlignStartVerticalLogoMetadata },
+    AlignVerticalDistributeCenterLogo: { Component: AlignVerticalDistributeCenterLogo, metadata: AlignVerticalDistributeCenterLogoMetadata },
+    AlignVerticalDistributeEndLogo: { Component: AlignVerticalDistributeEndLogo, metadata: AlignVerticalDistributeEndLogoMetadata },
+    AlignVerticalDistributeStartLogo: { Component: AlignVerticalDistributeStartLogo, metadata: AlignVerticalDistributeStartLogoMetadata },
+    AlignVerticalJustifyCenterLogo: { Component: AlignVerticalJustifyCenterLogo, metadata: AlignVerticalJustifyCenterLogoMetadata },
+    AlignVerticalJustifyEndLogo: { Component: AlignVerticalJustifyEndLogo, metadata: AlignVerticalJustifyEndLogoMetadata },
+    AlignVerticalJustifyStartLogo: { Component: AlignVerticalJustifyStartLogo, metadata: AlignVerticalJustifyStartLogoMetadata },
+    AlignVerticalSpaceAroundLogo: { Component: AlignVerticalSpaceAroundLogo, metadata: AlignVerticalSpaceAroundLogoMetadata },
+    AlignVerticalSpaceBetweenLogo: { Component: AlignVerticalSpaceBetweenLogo, metadata: AlignVerticalSpaceBetweenLogoMetadata },
+    AmbulanceLogo: { Component: AmbulanceLogo, metadata: AmbulanceLogoMetadata },
+    AmpersandLogo: { Component: AmpersandLogo, metadata: AmpersandLogoMetadata },
+    AmpersandsLogo: { Component: AmpersandsLogo, metadata: AmpersandsLogoMetadata },
+    AmphoraLogo: { Component: AmphoraLogo, metadata: AmphoraLogoMetadata },
+    AngryLogo: { Component: AngryLogo, metadata: AngryLogoMetadata },
+    AnnoyedLogo: { Component: AnnoyedLogo, metadata: AnnoyedLogoMetadata },
+    AntennaLogo: { Component: AntennaLogo, metadata: AntennaLogoMetadata },
+    AnvilLogo: { Component: AnvilLogo, metadata: AnvilLogoMetadata },
+    AppWindowMacLogo: { Component: AppWindowMacLogo, metadata: AppWindowMacLogoMetadata },
+    AppWindowLogo: { Component: AppWindowLogo, metadata: AppWindowLogoMetadata },
+    AppleLogo: { Component: AppleLogo, metadata: AppleLogoMetadata },
+    ArchiveRestoreLogo: { Component: ArchiveRestoreLogo, metadata: ArchiveRestoreLogoMetadata },
+    ArchiveXLogo: { Component: ArchiveXLogo, metadata: ArchiveXLogoMetadata },
+    ArmchairLogo: { Component: ArmchairLogo, metadata: ArmchairLogoMetadata },
+    ArrowBigDownDashLogo: { Component: ArrowBigDownDashLogo, metadata: ArrowBigDownDashLogoMetadata },
+    ArrowBigDownLogo: { Component: ArrowBigDownLogo, metadata: ArrowBigDownLogoMetadata },
+    ArrowBigLeftDashLogo: { Component: ArrowBigLeftDashLogo, metadata: ArrowBigLeftDashLogoMetadata },
+    ArrowBigLeftLogo: { Component: ArrowBigLeftLogo, metadata: ArrowBigLeftLogoMetadata },
+    ArrowBigRightDashLogo: { Component: ArrowBigRightDashLogo, metadata: ArrowBigRightDashLogoMetadata },
+    ArrowBigRightLogo: { Component: ArrowBigRightLogo, metadata: ArrowBigRightLogoMetadata },
+    ArrowBigUpDashLogo: { Component: ArrowBigUpDashLogo, metadata: ArrowBigUpDashLogoMetadata },
+    ArrowBigUpLogo: { Component: ArrowBigUpLogo, metadata: ArrowBigUpLogoMetadata },
+    ArrowDown01Logo: { Component: ArrowDown01Logo, metadata: ArrowDown01LogoMetadata },
+    ArrowDown10Logo: { Component: ArrowDown10Logo, metadata: ArrowDown10LogoMetadata },
+    ArrowDownAZLogo: { Component: ArrowDownAZLogo, metadata: ArrowDownAZLogoMetadata },
+    ArrowDownFromLineLogo: { Component: ArrowDownFromLineLogo, metadata: ArrowDownFromLineLogoMetadata },
+    ArrowDownNarrowWideLogo: { Component: ArrowDownNarrowWideLogo, metadata: ArrowDownNarrowWideLogoMetadata },
+    ArrowDownToDotLogo: { Component: ArrowDownToDotLogo, metadata: ArrowDownToDotLogoMetadata },
+    ArrowDownToLineLogo: { Component: ArrowDownToLineLogo, metadata: ArrowDownToLineLogoMetadata },
+    ArrowDownUpLogo: { Component: ArrowDownUpLogo, metadata: ArrowDownUpLogoMetadata },
+    ArrowDownWideNarrowLogo: { Component: ArrowDownWideNarrowLogo, metadata: ArrowDownWideNarrowLogoMetadata },
+    ArrowDownZALogo: { Component: ArrowDownZALogo, metadata: ArrowDownZALogoMetadata },
+    ArrowLeftFromLineLogo: { Component: ArrowLeftFromLineLogo, metadata: ArrowLeftFromLineLogoMetadata },
+    ArrowLeftRightLogo: { Component: ArrowLeftRightLogo, metadata: ArrowLeftRightLogoMetadata },
+    ArrowLeftToLineLogo: { Component: ArrowLeftToLineLogo, metadata: ArrowLeftToLineLogoMetadata },
+    ArrowRightFromLineLogo: { Component: ArrowRightFromLineLogo, metadata: ArrowRightFromLineLogoMetadata },
+    ArrowRightLeftLogo: { Component: ArrowRightLeftLogo, metadata: ArrowRightLeftLogoMetadata },
+    ArrowRightToLineLogo: { Component: ArrowRightToLineLogo, metadata: ArrowRightToLineLogoMetadata },
+    ArrowUp01Logo: { Component: ArrowUp01Logo, metadata: ArrowUp01LogoMetadata },
+    ArrowUp10Logo: { Component: ArrowUp10Logo, metadata: ArrowUp10LogoMetadata },
+    ArrowUpAZLogo: { Component: ArrowUpAZLogo, metadata: ArrowUpAZLogoMetadata },
+    ArrowUpDownLogo: { Component: ArrowUpDownLogo, metadata: ArrowUpDownLogoMetadata },
+    ArrowUpFromDotLogo: { Component: ArrowUpFromDotLogo, metadata: ArrowUpFromDotLogoMetadata },
+    ArrowUpFromLineLogo: { Component: ArrowUpFromLineLogo, metadata: ArrowUpFromLineLogoMetadata },
+    ArrowUpNarrowWideLogo: { Component: ArrowUpNarrowWideLogo, metadata: ArrowUpNarrowWideLogoMetadata },
+    ArrowUpToLineLogo: { Component: ArrowUpToLineLogo, metadata: ArrowUpToLineLogoMetadata },
+    ArrowUpWideNarrowLogo: { Component: ArrowUpWideNarrowLogo, metadata: ArrowUpWideNarrowLogoMetadata },
+    ArrowUpZALogo: { Component: ArrowUpZALogo, metadata: ArrowUpZALogoMetadata },
+    ArrowsUpFromLineLogo: { Component: ArrowsUpFromLineLogo, metadata: ArrowsUpFromLineLogoMetadata },
+    AsteriskLogo: { Component: AsteriskLogo, metadata: AsteriskLogoMetadata },
+    AtomLogo: { Component: AtomLogo, metadata: AtomLogoMetadata },
+    AudioLinesLogo: { Component: AudioLinesLogo, metadata: AudioLinesLogoMetadata },
+    AudioWaveformLogo: { Component: AudioWaveformLogo, metadata: AudioWaveformLogoMetadata },
+    AxeLogo: { Component: AxeLogo, metadata: AxeLogoMetadata },
+    Axis3dLogo: { Component: Axis3dLogo, metadata: Axis3dLogoMetadata },
+    BabyLogo: { Component: BabyLogo, metadata: BabyLogoMetadata },
+    BackpackLogo: { Component: BackpackLogo, metadata: BackpackLogoMetadata },
+    BadgeAlertLogo: { Component: BadgeAlertLogo, metadata: BadgeAlertLogoMetadata },
+    BadgeCentLogo: { Component: BadgeCentLogo, metadata: BadgeCentLogoMetadata },
+    BadgeCheckLogo: { Component: BadgeCheckLogo, metadata: BadgeCheckLogoMetadata },
+    BadgeDollarSignLogo: { Component: BadgeDollarSignLogo, metadata: BadgeDollarSignLogoMetadata },
+    BadgeEuroLogo: { Component: BadgeEuroLogo, metadata: BadgeEuroLogoMetadata },
+    BadgeIndianRupeeLogo: { Component: BadgeIndianRupeeLogo, metadata: BadgeIndianRupeeLogoMetadata },
+    BadgeInfoLogo: { Component: BadgeInfoLogo, metadata: BadgeInfoLogoMetadata },
+    BadgeJapaneseYenLogo: { Component: BadgeJapaneseYenLogo, metadata: BadgeJapaneseYenLogoMetadata },
+    BadgeMinusLogo: { Component: BadgeMinusLogo, metadata: BadgeMinusLogoMetadata },
+    BadgePercentLogo: { Component: BadgePercentLogo, metadata: BadgePercentLogoMetadata },
+    BadgePlusLogo: { Component: BadgePlusLogo, metadata: BadgePlusLogoMetadata },
+    BadgePoundSterlingLogo: { Component: BadgePoundSterlingLogo, metadata: BadgePoundSterlingLogoMetadata },
+    BadgeQuestionMarkLogo: { Component: BadgeQuestionMarkLogo, metadata: BadgeQuestionMarkLogoMetadata },
+    BadgeRussianRubleLogo: { Component: BadgeRussianRubleLogo, metadata: BadgeRussianRubleLogoMetadata },
+    BadgeSwissFrancLogo: { Component: BadgeSwissFrancLogo, metadata: BadgeSwissFrancLogoMetadata },
+    BadgeTurkishLiraLogo: { Component: BadgeTurkishLiraLogo, metadata: BadgeTurkishLiraLogoMetadata },
+    BadgeXLogo: { Component: BadgeXLogo, metadata: BadgeXLogoMetadata },
+    BadgeLogo: { Component: BadgeLogo, metadata: BadgeLogoMetadata },
+    BaggageClaimLogo: { Component: BaggageClaimLogo, metadata: BaggageClaimLogoMetadata },
+    BalloonLogo: { Component: BalloonLogo, metadata: BalloonLogoMetadata },
+    BanLogo: { Component: BanLogo, metadata: BanLogoMetadata },
+    BananaLogo: { Component: BananaLogo, metadata: BananaLogoMetadata },
+    BandageLogo: { Component: BandageLogo, metadata: BandageLogoMetadata },
+    BanknoteArrowDownLogo: { Component: BanknoteArrowDownLogo, metadata: BanknoteArrowDownLogoMetadata },
+    BanknoteArrowUpLogo: { Component: BanknoteArrowUpLogo, metadata: BanknoteArrowUpLogoMetadata },
+    BanknoteXLogo: { Component: BanknoteXLogo, metadata: BanknoteXLogoMetadata },
+    BanknoteLogo: { Component: BanknoteLogo, metadata: BanknoteLogoMetadata },
+    BarcodeLogo: { Component: BarcodeLogo, metadata: BarcodeLogoMetadata },
+    BarrelLogo: { Component: BarrelLogo, metadata: BarrelLogoMetadata },
+    BaselineLogo: { Component: BaselineLogo, metadata: BaselineLogoMetadata },
+    BathLogo: { Component: BathLogo, metadata: BathLogoMetadata },
+    BatteryFullLogo: { Component: BatteryFullLogo, metadata: BatteryFullLogoMetadata },
+    BatteryLowLogo: { Component: BatteryLowLogo, metadata: BatteryLowLogoMetadata },
+    BatteryMediumLogo: { Component: BatteryMediumLogo, metadata: BatteryMediumLogoMetadata },
+    BatteryPlusLogo: { Component: BatteryPlusLogo, metadata: BatteryPlusLogoMetadata },
+    BatteryWarningLogo: { Component: BatteryWarningLogo, metadata: BatteryWarningLogoMetadata },
+    BeakerLogo: { Component: BeakerLogo, metadata: BeakerLogoMetadata },
+    BeanOffLogo: { Component: BeanOffLogo, metadata: BeanOffLogoMetadata },
+    BeanLogo: { Component: BeanLogo, metadata: BeanLogoMetadata },
+    BedDoubleLogo: { Component: BedDoubleLogo, metadata: BedDoubleLogoMetadata },
+    BedSingleLogo: { Component: BedSingleLogo, metadata: BedSingleLogoMetadata },
+    BedLogo: { Component: BedLogo, metadata: BedLogoMetadata },
+    BeefLogo: { Component: BeefLogo, metadata: BeefLogoMetadata },
+    BeerOffLogo: { Component: BeerOffLogo, metadata: BeerOffLogoMetadata },
+    BeerLogo: { Component: BeerLogo, metadata: BeerLogoMetadata },
+    BellDotLogo: { Component: BellDotLogo, metadata: BellDotLogoMetadata },
+    BellElectricLogo: { Component: BellElectricLogo, metadata: BellElectricLogoMetadata },
+    BellMinusLogo: { Component: BellMinusLogo, metadata: BellMinusLogoMetadata },
+    BellPlusLogo: { Component: BellPlusLogo, metadata: BellPlusLogoMetadata },
+    BellRingLogo: { Component: BellRingLogo, metadata: BellRingLogoMetadata },
+    BetweenHorizontalEndLogo: { Component: BetweenHorizontalEndLogo, metadata: BetweenHorizontalEndLogoMetadata },
+    BetweenHorizontalStartLogo: { Component: BetweenHorizontalStartLogo, metadata: BetweenHorizontalStartLogoMetadata },
+    BetweenVerticalEndLogo: { Component: BetweenVerticalEndLogo, metadata: BetweenVerticalEndLogoMetadata },
+    BetweenVerticalStartLogo: { Component: BetweenVerticalStartLogo, metadata: BetweenVerticalStartLogoMetadata },
+    BicepsFlexedLogo: { Component: BicepsFlexedLogo, metadata: BicepsFlexedLogoMetadata },
+    BikeLogo: { Component: BikeLogo, metadata: BikeLogoMetadata },
+    BinaryLogo: { Component: BinaryLogo, metadata: BinaryLogoMetadata },
+    BinocularsLogo: { Component: BinocularsLogo, metadata: BinocularsLogoMetadata },
+    BiohazardLogo: { Component: BiohazardLogo, metadata: BiohazardLogoMetadata },
+    BirdLogo: { Component: BirdLogo, metadata: BirdLogoMetadata },
+    BirdhouseLogo: { Component: BirdhouseLogo, metadata: BirdhouseLogoMetadata },
+    BitcoinLogo: { Component: BitcoinLogo, metadata: BitcoinLogoMetadata },
+    BlendLogo: { Component: BlendLogo, metadata: BlendLogoMetadata },
+    BlindsLogo: { Component: BlindsLogo, metadata: BlindsLogoMetadata },
+    BlocksLogo: { Component: BlocksLogo, metadata: BlocksLogoMetadata },
+    BluetoothConnectedLogo: { Component: BluetoothConnectedLogo, metadata: BluetoothConnectedLogoMetadata },
+    BluetoothOffLogo: { Component: BluetoothOffLogo, metadata: BluetoothOffLogoMetadata },
+    BluetoothSearchingLogo: { Component: BluetoothSearchingLogo, metadata: BluetoothSearchingLogoMetadata },
+    BoltLogo: { Component: BoltLogo, metadata: BoltLogoMetadata },
+    BombLogo: { Component: BombLogo, metadata: BombLogoMetadata },
+    BoneLogo: { Component: BoneLogo, metadata: BoneLogoMetadata },
+    BookALogo: { Component: BookALogo, metadata: BookALogoMetadata },
+    BookAlertLogo: { Component: BookAlertLogo, metadata: BookAlertLogoMetadata },
+    BookAudioLogo: { Component: BookAudioLogo, metadata: BookAudioLogoMetadata },
+    BookCheckLogo: { Component: BookCheckLogo, metadata: BookCheckLogoMetadata },
+    BookCopyLogo: { Component: BookCopyLogo, metadata: BookCopyLogoMetadata },
+    BookDashedLogo: { Component: BookDashedLogo, metadata: BookDashedLogoMetadata },
+    BookDownLogo: { Component: BookDownLogo, metadata: BookDownLogoMetadata },
+    BookHeadphonesLogo: { Component: BookHeadphonesLogo, metadata: BookHeadphonesLogoMetadata },
+    BookHeartLogo: { Component: BookHeartLogo, metadata: BookHeartLogoMetadata },
+    BookImageLogo: { Component: BookImageLogo, metadata: BookImageLogoMetadata },
+    BookKeyLogo: { Component: BookKeyLogo, metadata: BookKeyLogoMetadata },
+    BookLockLogo: { Component: BookLockLogo, metadata: BookLockLogoMetadata },
+    BookMarkedLogo: { Component: BookMarkedLogo, metadata: BookMarkedLogoMetadata },
+    BookMinusLogo: { Component: BookMinusLogo, metadata: BookMinusLogoMetadata },
+    BookOpenCheckLogo: { Component: BookOpenCheckLogo, metadata: BookOpenCheckLogoMetadata },
+    BookOpenTextLogo: { Component: BookOpenTextLogo, metadata: BookOpenTextLogoMetadata },
+    BookPlusLogo: { Component: BookPlusLogo, metadata: BookPlusLogoMetadata },
+    BookSearchLogo: { Component: BookSearchLogo, metadata: BookSearchLogoMetadata },
+    BookTextLogo: { Component: BookTextLogo, metadata: BookTextLogoMetadata },
+    BookTypeLogo: { Component: BookTypeLogo, metadata: BookTypeLogoMetadata },
+    BookUp2Logo: { Component: BookUp2Logo, metadata: BookUp2LogoMetadata },
+    BookUpLogo: { Component: BookUpLogo, metadata: BookUpLogoMetadata },
+    BookUserLogo: { Component: BookUserLogo, metadata: BookUserLogoMetadata },
+    BookXLogo: { Component: BookXLogo, metadata: BookXLogoMetadata },
+    BookmarkCheckLogo: { Component: BookmarkCheckLogo, metadata: BookmarkCheckLogoMetadata },
+    BookmarkMinusLogo: { Component: BookmarkMinusLogo, metadata: BookmarkMinusLogoMetadata },
+    BookmarkPlusLogo: { Component: BookmarkPlusLogo, metadata: BookmarkPlusLogoMetadata },
+    BookmarkXLogo: { Component: BookmarkXLogo, metadata: BookmarkXLogoMetadata },
+    BoomBoxLogo: { Component: BoomBoxLogo, metadata: BoomBoxLogoMetadata },
+    BotMessageSquareLogo: { Component: BotMessageSquareLogo, metadata: BotMessageSquareLogoMetadata },
+    BotOffLogo: { Component: BotOffLogo, metadata: BotOffLogoMetadata },
+    BotLogo: { Component: BotLogo, metadata: BotLogoMetadata },
+    BottleWineLogo: { Component: BottleWineLogo, metadata: BottleWineLogoMetadata },
+    BowArrowLogo: { Component: BowArrowLogo, metadata: BowArrowLogoMetadata },
+    BoxesLogo: { Component: BoxesLogo, metadata: BoxesLogoMetadata },
+    BracesLogo: { Component: BracesLogo, metadata: BracesLogoMetadata },
+    BracketsLogo: { Component: BracketsLogo, metadata: BracketsLogoMetadata },
+    BrainCircuitLogo: { Component: BrainCircuitLogo, metadata: BrainCircuitLogoMetadata },
+    BrainCogLogo: { Component: BrainCogLogo, metadata: BrainCogLogoMetadata },
+    BrainLogo: { Component: BrainLogo, metadata: BrainLogoMetadata },
+    BrickWallFireLogo: { Component: BrickWallFireLogo, metadata: BrickWallFireLogoMetadata },
+    BrickWallShieldLogo: { Component: BrickWallShieldLogo, metadata: BrickWallShieldLogoMetadata },
+    BrickWallLogo: { Component: BrickWallLogo, metadata: BrickWallLogoMetadata },
+    BriefcaseBusinessLogo: { Component: BriefcaseBusinessLogo, metadata: BriefcaseBusinessLogoMetadata },
+    BriefcaseConveyorBeltLogo: { Component: BriefcaseConveyorBeltLogo, metadata: BriefcaseConveyorBeltLogoMetadata },
+    BriefcaseMedicalLogo: { Component: BriefcaseMedicalLogo, metadata: BriefcaseMedicalLogoMetadata },
+    BringToFrontLogo: { Component: BringToFrontLogo, metadata: BringToFrontLogoMetadata },
+    BrushCleaningLogo: { Component: BrushCleaningLogo, metadata: BrushCleaningLogoMetadata },
+    BrushLogo: { Component: BrushLogo, metadata: BrushLogoMetadata },
+    BubblesLogo: { Component: BubblesLogo, metadata: BubblesLogoMetadata },
+    BugOffLogo: { Component: BugOffLogo, metadata: BugOffLogoMetadata },
+    BugPlayLogo: { Component: BugPlayLogo, metadata: BugPlayLogoMetadata },
+    BugLogo: { Component: BugLogo, metadata: BugLogoMetadata },
+    Building2Logo: { Component: Building2Logo, metadata: Building2LogoMetadata },
+    BuildingLogo: { Component: BuildingLogo, metadata: BuildingLogoMetadata },
+    BusFrontLogo: { Component: BusFrontLogo, metadata: BusFrontLogoMetadata },
+    BusLogo: { Component: BusLogo, metadata: BusLogoMetadata },
+    CableCarLogo: { Component: CableCarLogo, metadata: CableCarLogoMetadata },
+    CableLogo: { Component: CableLogo, metadata: CableLogoMetadata },
+    CakeSliceLogo: { Component: CakeSliceLogo, metadata: CakeSliceLogoMetadata },
+    CakeLogo: { Component: CakeLogo, metadata: CakeLogoMetadata },
+    CalculatorLogo: { Component: CalculatorLogo, metadata: CalculatorLogoMetadata },
+    Calendar1Logo: { Component: Calendar1Logo, metadata: Calendar1LogoMetadata },
+    CalendarArrowDownLogo: { Component: CalendarArrowDownLogo, metadata: CalendarArrowDownLogoMetadata },
+    CalendarArrowUpLogo: { Component: CalendarArrowUpLogo, metadata: CalendarArrowUpLogoMetadata },
+    CalendarCheck2Logo: { Component: CalendarCheck2Logo, metadata: CalendarCheck2LogoMetadata },
+    CalendarCheckLogo: { Component: CalendarCheckLogo, metadata: CalendarCheckLogoMetadata },
+    CalendarClockLogo: { Component: CalendarClockLogo, metadata: CalendarClockLogoMetadata },
+    CalendarCogLogo: { Component: CalendarCogLogo, metadata: CalendarCogLogoMetadata },
+    CalendarDaysLogo: { Component: CalendarDaysLogo, metadata: CalendarDaysLogoMetadata },
+    CalendarFoldLogo: { Component: CalendarFoldLogo, metadata: CalendarFoldLogoMetadata },
+    CalendarHeartLogo: { Component: CalendarHeartLogo, metadata: CalendarHeartLogoMetadata },
+    CalendarMinus2Logo: { Component: CalendarMinus2Logo, metadata: CalendarMinus2LogoMetadata },
+    CalendarMinusLogo: { Component: CalendarMinusLogo, metadata: CalendarMinusLogoMetadata },
+    CalendarOffLogo: { Component: CalendarOffLogo, metadata: CalendarOffLogoMetadata },
+    CalendarPlus2Logo: { Component: CalendarPlus2Logo, metadata: CalendarPlus2LogoMetadata },
+    CalendarPlusLogo: { Component: CalendarPlusLogo, metadata: CalendarPlusLogoMetadata },
+    CalendarRangeLogo: { Component: CalendarRangeLogo, metadata: CalendarRangeLogoMetadata },
+    CalendarSearchLogo: { Component: CalendarSearchLogo, metadata: CalendarSearchLogoMetadata },
+    CalendarSyncLogo: { Component: CalendarSyncLogo, metadata: CalendarSyncLogoMetadata },
+    CalendarX2Logo: { Component: CalendarX2Logo, metadata: CalendarX2LogoMetadata },
+    CalendarXLogo: { Component: CalendarXLogo, metadata: CalendarXLogoMetadata },
+    CalendarsLogo: { Component: CalendarsLogo, metadata: CalendarsLogoMetadata },
+    CandyCaneLogo: { Component: CandyCaneLogo, metadata: CandyCaneLogoMetadata },
+    CandyOffLogo: { Component: CandyOffLogo, metadata: CandyOffLogoMetadata },
+    CandyLogo: { Component: CandyLogo, metadata: CandyLogoMetadata },
+    CannabisOffLogo: { Component: CannabisOffLogo, metadata: CannabisOffLogoMetadata },
+    CannabisLogo: { Component: CannabisLogo, metadata: CannabisLogoMetadata },
+    CaptionsOffLogo: { Component: CaptionsOffLogo, metadata: CaptionsOffLogoMetadata },
+    CaptionsLogo: { Component: CaptionsLogo, metadata: CaptionsLogoMetadata },
+    CarFrontLogo: { Component: CarFrontLogo, metadata: CarFrontLogoMetadata },
+    CarTaxiFrontLogo: { Component: CarTaxiFrontLogo, metadata: CarTaxiFrontLogoMetadata },
+    CarLogo: { Component: CarLogo, metadata: CarLogoMetadata },
+    CaravanLogo: { Component: CaravanLogo, metadata: CaravanLogoMetadata },
+    CardSimLogo: { Component: CardSimLogo, metadata: CardSimLogoMetadata },
+    CarrotLogo: { Component: CarrotLogo, metadata: CarrotLogoMetadata },
+    CaseLowerLogo: { Component: CaseLowerLogo, metadata: CaseLowerLogoMetadata },
+    CaseSensitiveLogo: { Component: CaseSensitiveLogo, metadata: CaseSensitiveLogoMetadata },
+    CaseUpperLogo: { Component: CaseUpperLogo, metadata: CaseUpperLogoMetadata },
+    CassetteTapeLogo: { Component: CassetteTapeLogo, metadata: CassetteTapeLogoMetadata },
+    CastleLogo: { Component: CastleLogo, metadata: CastleLogoMetadata },
+    CatLogo: { Component: CatLogo, metadata: CatLogoMetadata },
+    CctvLogo: { Component: CctvLogo, metadata: CctvLogoMetadata },
+    ChartAreaLogo: { Component: ChartAreaLogo, metadata: ChartAreaLogoMetadata },
+    ChartBarBigLogo: { Component: ChartBarBigLogo, metadata: ChartBarBigLogoMetadata },
+    ChartBarDecreasingLogo: { Component: ChartBarDecreasingLogo, metadata: ChartBarDecreasingLogoMetadata },
+    ChartBarIncreasingLogo: { Component: ChartBarIncreasingLogo, metadata: ChartBarIncreasingLogoMetadata },
+    ChartBarStackedLogo: { Component: ChartBarStackedLogo, metadata: ChartBarStackedLogoMetadata },
+    ChartBarLogo: { Component: ChartBarLogo, metadata: ChartBarLogoMetadata },
+    ChartCandlestickLogo: { Component: ChartCandlestickLogo, metadata: ChartCandlestickLogoMetadata },
+    ChartColumnBigLogo: { Component: ChartColumnBigLogo, metadata: ChartColumnBigLogoMetadata },
+    ChartColumnDecreasingLogo: { Component: ChartColumnDecreasingLogo, metadata: ChartColumnDecreasingLogoMetadata },
+    ChartColumnIncreasingLogo: { Component: ChartColumnIncreasingLogo, metadata: ChartColumnIncreasingLogoMetadata },
+    ChartColumnStackedLogo: { Component: ChartColumnStackedLogo, metadata: ChartColumnStackedLogoMetadata },
+    ChartColumnLogo: { Component: ChartColumnLogo, metadata: ChartColumnLogoMetadata },
+    ChartGanttLogo: { Component: ChartGanttLogo, metadata: ChartGanttLogoMetadata },
+    ChartLineLogo: { Component: ChartLineLogo, metadata: ChartLineLogoMetadata },
+    ChartNetworkLogo: { Component: ChartNetworkLogo, metadata: ChartNetworkLogoMetadata },
+    ChartNoAxesColumnDecreasingLogo: { Component: ChartNoAxesColumnDecreasingLogo, metadata: ChartNoAxesColumnDecreasingLogoMetadata },
+    ChartNoAxesColumnIncreasingLogo: { Component: ChartNoAxesColumnIncreasingLogo, metadata: ChartNoAxesColumnIncreasingLogoMetadata },
+    ChartNoAxesColumnLogo: { Component: ChartNoAxesColumnLogo, metadata: ChartNoAxesColumnLogoMetadata },
+    ChartNoAxesCombinedLogo: { Component: ChartNoAxesCombinedLogo, metadata: ChartNoAxesCombinedLogoMetadata },
+    ChartNoAxesGanttLogo: { Component: ChartNoAxesGanttLogo, metadata: ChartNoAxesGanttLogoMetadata },
+    ChartPieLogo: { Component: ChartPieLogo, metadata: ChartPieLogoMetadata },
+    ChartScatterLogo: { Component: ChartScatterLogo, metadata: ChartScatterLogoMetadata },
+    ChartSplineLogo: { Component: ChartSplineLogo, metadata: ChartSplineLogoMetadata },
+    CheckCheckLogo: { Component: CheckCheckLogo, metadata: CheckCheckLogoMetadata },
+    CheckLineLogo: { Component: CheckLineLogo, metadata: CheckLineLogoMetadata },
+    ChefHatLogo: { Component: ChefHatLogo, metadata: ChefHatLogoMetadata },
+    CherryLogo: { Component: CherryLogo, metadata: CherryLogoMetadata },
+    ChessBishopLogo: { Component: ChessBishopLogo, metadata: ChessBishopLogoMetadata },
+    ChessKingLogo: { Component: ChessKingLogo, metadata: ChessKingLogoMetadata },
+    ChessKnightLogo: { Component: ChessKnightLogo, metadata: ChessKnightLogoMetadata },
+    ChessPawnLogo: { Component: ChessPawnLogo, metadata: ChessPawnLogoMetadata },
+    ChessQueenLogo: { Component: ChessQueenLogo, metadata: ChessQueenLogoMetadata },
+    ChessRookLogo: { Component: ChessRookLogo, metadata: ChessRookLogoMetadata },
+    ChevronFirstLogo: { Component: ChevronFirstLogo, metadata: ChevronFirstLogoMetadata },
+    ChevronLastLogo: { Component: ChevronLastLogo, metadata: ChevronLastLogoMetadata },
+    ChevronsDownUpLogo: { Component: ChevronsDownUpLogo, metadata: ChevronsDownUpLogoMetadata },
+    ChevronsLeftRightEllipsisLogo: { Component: ChevronsLeftRightEllipsisLogo, metadata: ChevronsLeftRightEllipsisLogoMetadata },
+    ChevronsLeftRightLogo: { Component: ChevronsLeftRightLogo, metadata: ChevronsLeftRightLogoMetadata },
+    ChevronsRightLeftLogo: { Component: ChevronsRightLeftLogo, metadata: ChevronsRightLeftLogoMetadata },
+    ChevronsUpDownLogo: { Component: ChevronsUpDownLogo, metadata: ChevronsUpDownLogoMetadata },
+    ChromiumLogo: { Component: ChromiumLogo, metadata: ChromiumLogoMetadata },
+    ChurchLogo: { Component: ChurchLogo, metadata: ChurchLogoMetadata },
+    CigaretteOffLogo: { Component: CigaretteOffLogo, metadata: CigaretteOffLogoMetadata },
+    CigaretteLogo: { Component: CigaretteLogo, metadata: CigaretteLogoMetadata },
+    CircleAlertLogo: { Component: CircleAlertLogo, metadata: CircleAlertLogoMetadata },
+    CircleArrowDownLogo: { Component: CircleArrowDownLogo, metadata: CircleArrowDownLogoMetadata },
+    CircleArrowLeftLogo: { Component: CircleArrowLeftLogo, metadata: CircleArrowLeftLogoMetadata },
+    CircleArrowOutDownLeftLogo: { Component: CircleArrowOutDownLeftLogo, metadata: CircleArrowOutDownLeftLogoMetadata },
+    CircleArrowOutDownRightLogo: { Component: CircleArrowOutDownRightLogo, metadata: CircleArrowOutDownRightLogoMetadata },
+    CircleArrowOutUpLeftLogo: { Component: CircleArrowOutUpLeftLogo, metadata: CircleArrowOutUpLeftLogoMetadata },
+    CircleArrowOutUpRightLogo: { Component: CircleArrowOutUpRightLogo, metadata: CircleArrowOutUpRightLogoMetadata },
+    CircleArrowRightLogo: { Component: CircleArrowRightLogo, metadata: CircleArrowRightLogoMetadata },
+    CircleArrowUpLogo: { Component: CircleArrowUpLogo, metadata: CircleArrowUpLogoMetadata },
+    CircleCheckBigLogo: { Component: CircleCheckBigLogo, metadata: CircleCheckBigLogoMetadata },
+    CircleCheckLogo: { Component: CircleCheckLogo, metadata: CircleCheckLogoMetadata },
+    CircleChevronDownLogo: { Component: CircleChevronDownLogo, metadata: CircleChevronDownLogoMetadata },
+    CircleChevronLeftLogo: { Component: CircleChevronLeftLogo, metadata: CircleChevronLeftLogoMetadata },
+    CircleChevronRightLogo: { Component: CircleChevronRightLogo, metadata: CircleChevronRightLogoMetadata },
+    CircleChevronUpLogo: { Component: CircleChevronUpLogo, metadata: CircleChevronUpLogoMetadata },
+    CircleDashedLogo: { Component: CircleDashedLogo, metadata: CircleDashedLogoMetadata },
+    CircleDivideLogo: { Component: CircleDivideLogo, metadata: CircleDivideLogoMetadata },
+    CircleDollarSignLogo: { Component: CircleDollarSignLogo, metadata: CircleDollarSignLogoMetadata },
+    CircleDotDashedLogo: { Component: CircleDotDashedLogo, metadata: CircleDotDashedLogoMetadata },
+    CircleDotLogo: { Component: CircleDotLogo, metadata: CircleDotLogoMetadata },
+    CircleEllipsisLogo: { Component: CircleEllipsisLogo, metadata: CircleEllipsisLogoMetadata },
+    CircleEqualLogo: { Component: CircleEqualLogo, metadata: CircleEqualLogoMetadata },
+    CircleFadingArrowUpLogo: { Component: CircleFadingArrowUpLogo, metadata: CircleFadingArrowUpLogoMetadata },
+    CircleFadingPlusLogo: { Component: CircleFadingPlusLogo, metadata: CircleFadingPlusLogoMetadata },
+    CircleGaugeLogo: { Component: CircleGaugeLogo, metadata: CircleGaugeLogoMetadata },
+    CircleMinusLogo: { Component: CircleMinusLogo, metadata: CircleMinusLogoMetadata },
+    CircleOffLogo: { Component: CircleOffLogo, metadata: CircleOffLogoMetadata },
+    CircleParkingOffLogo: { Component: CircleParkingOffLogo, metadata: CircleParkingOffLogoMetadata },
+    CircleParkingLogo: { Component: CircleParkingLogo, metadata: CircleParkingLogoMetadata },
+    CirclePauseLogo: { Component: CirclePauseLogo, metadata: CirclePauseLogoMetadata },
+    CirclePercentLogo: { Component: CirclePercentLogo, metadata: CirclePercentLogoMetadata },
+    CirclePileLogo: { Component: CirclePileLogo, metadata: CirclePileLogoMetadata },
+    CirclePlayLogo: { Component: CirclePlayLogo, metadata: CirclePlayLogoMetadata },
+    CirclePlusLogo: { Component: CirclePlusLogo, metadata: CirclePlusLogoMetadata },
+    CirclePoundSterlingLogo: { Component: CirclePoundSterlingLogo, metadata: CirclePoundSterlingLogoMetadata },
+    CirclePowerLogo: { Component: CirclePowerLogo, metadata: CirclePowerLogoMetadata },
+    CircleQuestionMarkLogo: { Component: CircleQuestionMarkLogo, metadata: CircleQuestionMarkLogoMetadata },
+    CircleSlash2Logo: { Component: CircleSlash2Logo, metadata: CircleSlash2LogoMetadata },
+    CircleSlashLogo: { Component: CircleSlashLogo, metadata: CircleSlashLogoMetadata },
+    CircleSmallLogo: { Component: CircleSmallLogo, metadata: CircleSmallLogoMetadata },
+    CircleStarLogo: { Component: CircleStarLogo, metadata: CircleStarLogoMetadata },
+    CircleStopLogo: { Component: CircleStopLogo, metadata: CircleStopLogoMetadata },
+    CircleUserRoundLogo: { Component: CircleUserRoundLogo, metadata: CircleUserRoundLogoMetadata },
+    CircleUserLogo: { Component: CircleUserLogo, metadata: CircleUserLogoMetadata },
+    CircleXLogo: { Component: CircleXLogo, metadata: CircleXLogoMetadata },
+    CircuitBoardLogo: { Component: CircuitBoardLogo, metadata: CircuitBoardLogoMetadata },
+    CitrusLogo: { Component: CitrusLogo, metadata: CitrusLogoMetadata },
+    ClapperboardLogo: { Component: ClapperboardLogo, metadata: ClapperboardLogoMetadata },
+    ClipboardCheckLogo: { Component: ClipboardCheckLogo, metadata: ClipboardCheckLogoMetadata },
+    ClipboardClockLogo: { Component: ClipboardClockLogo, metadata: ClipboardClockLogoMetadata },
+    ClipboardCopyLogo: { Component: ClipboardCopyLogo, metadata: ClipboardCopyLogoMetadata },
+    ClipboardListLogo: { Component: ClipboardListLogo, metadata: ClipboardListLogoMetadata },
+    ClipboardMinusLogo: { Component: ClipboardMinusLogo, metadata: ClipboardMinusLogoMetadata },
+    ClipboardPasteLogo: { Component: ClipboardPasteLogo, metadata: ClipboardPasteLogoMetadata },
+    ClipboardPenLineLogo: { Component: ClipboardPenLineLogo, metadata: ClipboardPenLineLogoMetadata },
+    ClipboardPenLogo: { Component: ClipboardPenLogo, metadata: ClipboardPenLogoMetadata },
+    ClipboardPlusLogo: { Component: ClipboardPlusLogo, metadata: ClipboardPlusLogoMetadata },
+    ClipboardTypeLogo: { Component: ClipboardTypeLogo, metadata: ClipboardTypeLogoMetadata },
+    ClipboardXLogo: { Component: ClipboardXLogo, metadata: ClipboardXLogoMetadata },
+    Clock1Logo: { Component: Clock1Logo, metadata: Clock1LogoMetadata },
+    Clock10Logo: { Component: Clock10Logo, metadata: Clock10LogoMetadata },
+    Clock11Logo: { Component: Clock11Logo, metadata: Clock11LogoMetadata },
+    Clock12Logo: { Component: Clock12Logo, metadata: Clock12LogoMetadata },
+    Clock2Logo: { Component: Clock2Logo, metadata: Clock2LogoMetadata },
+    Clock3Logo: { Component: Clock3Logo, metadata: Clock3LogoMetadata },
+    Clock4Logo: { Component: Clock4Logo, metadata: Clock4LogoMetadata },
+    Clock5Logo: { Component: Clock5Logo, metadata: Clock5LogoMetadata },
+    Clock6Logo: { Component: Clock6Logo, metadata: Clock6LogoMetadata },
+    Clock7Logo: { Component: Clock7Logo, metadata: Clock7LogoMetadata },
+    Clock8Logo: { Component: Clock8Logo, metadata: Clock8LogoMetadata },
+    Clock9Logo: { Component: Clock9Logo, metadata: Clock9LogoMetadata },
+    ClockAlertLogo: { Component: ClockAlertLogo, metadata: ClockAlertLogoMetadata },
+    ClockArrowDownLogo: { Component: ClockArrowDownLogo, metadata: ClockArrowDownLogoMetadata },
+    ClockArrowUpLogo: { Component: ClockArrowUpLogo, metadata: ClockArrowUpLogoMetadata },
+    ClockCheckLogo: { Component: ClockCheckLogo, metadata: ClockCheckLogoMetadata },
+    ClockFadingLogo: { Component: ClockFadingLogo, metadata: ClockFadingLogoMetadata },
+    ClockPlusLogo: { Component: ClockPlusLogo, metadata: ClockPlusLogoMetadata },
+    ClosedCaptionLogo: { Component: ClosedCaptionLogo, metadata: ClosedCaptionLogoMetadata },
+    CloudAlertLogo: { Component: CloudAlertLogo, metadata: CloudAlertLogoMetadata },
+    CloudBackupLogo: { Component: CloudBackupLogo, metadata: CloudBackupLogoMetadata },
+    CloudCheckLogo: { Component: CloudCheckLogo, metadata: CloudCheckLogoMetadata },
+    CloudCogLogo: { Component: CloudCogLogo, metadata: CloudCogLogoMetadata },
+    CloudDownloadLogo: { Component: CloudDownloadLogo, metadata: CloudDownloadLogoMetadata },
+    CloudFogLogo: { Component: CloudFogLogo, metadata: CloudFogLogoMetadata },
+    CloudHailLogo: { Component: CloudHailLogo, metadata: CloudHailLogoMetadata },
+    CloudMoonRainLogo: { Component: CloudMoonRainLogo, metadata: CloudMoonRainLogoMetadata },
+    CloudMoonLogo: { Component: CloudMoonLogo, metadata: CloudMoonLogoMetadata },
+    CloudRainWindLogo: { Component: CloudRainWindLogo, metadata: CloudRainWindLogoMetadata },
+    CloudSunRainLogo: { Component: CloudSunRainLogo, metadata: CloudSunRainLogoMetadata },
+    CloudSunLogo: { Component: CloudSunLogo, metadata: CloudSunLogoMetadata },
+    CloudSyncLogo: { Component: CloudSyncLogo, metadata: CloudSyncLogoMetadata },
+    CloudUploadLogo: { Component: CloudUploadLogo, metadata: CloudUploadLogoMetadata },
+    CloudyLogo: { Component: CloudyLogo, metadata: CloudyLogoMetadata },
+    CloverLogo: { Component: CloverLogo, metadata: CloverLogoMetadata },
+    ClubLogo: { Component: ClubLogo, metadata: ClubLogoMetadata },
+    CodeXmlLogo: { Component: CodeXmlLogo, metadata: CodeXmlLogoMetadata },
+    CogLogo: { Component: CogLogo, metadata: CogLogoMetadata },
+    CoinsLogo: { Component: CoinsLogo, metadata: CoinsLogoMetadata },
+    Columns2Logo: { Component: Columns2Logo, metadata: Columns2LogoMetadata },
+    Columns3CogLogo: { Component: Columns3CogLogo, metadata: Columns3CogLogoMetadata },
+    Columns3Logo: { Component: Columns3Logo, metadata: Columns3LogoMetadata },
+    Columns4Logo: { Component: Columns4Logo, metadata: Columns4LogoMetadata },
+    CombineLogo: { Component: CombineLogo, metadata: CombineLogoMetadata },
+    ComponentLogo: { Component: ComponentLogo, metadata: ComponentLogoMetadata },
+    ComputerLogo: { Component: ComputerLogo, metadata: ComputerLogoMetadata },
+    ConciergeBellLogo: { Component: ConciergeBellLogo, metadata: ConciergeBellLogoMetadata },
+    ConeLogo: { Component: ConeLogo, metadata: ConeLogoMetadata },
+    ConstructionLogo: { Component: ConstructionLogo, metadata: ConstructionLogoMetadata },
+    ContactRoundLogo: { Component: ContactRoundLogo, metadata: ContactRoundLogoMetadata },
+    ContactLogo: { Component: ContactLogo, metadata: ContactLogoMetadata },
+    ContainerLogo: { Component: ContainerLogo, metadata: ContainerLogoMetadata },
+    ContrastLogo: { Component: ContrastLogo, metadata: ContrastLogoMetadata },
+    CookieLogo: { Component: CookieLogo, metadata: CookieLogoMetadata },
+    CookingPotLogo: { Component: CookingPotLogo, metadata: CookingPotLogoMetadata },
+    CopyCheckLogo: { Component: CopyCheckLogo, metadata: CopyCheckLogoMetadata },
+    CopyMinusLogo: { Component: CopyMinusLogo, metadata: CopyMinusLogoMetadata },
+    CopyPlusLogo: { Component: CopyPlusLogo, metadata: CopyPlusLogoMetadata },
+    CopySlashLogo: { Component: CopySlashLogo, metadata: CopySlashLogoMetadata },
+    CopyXLogo: { Component: CopyXLogo, metadata: CopyXLogoMetadata },
+    CopyleftLogo: { Component: CopyleftLogo, metadata: CopyleftLogoMetadata },
+    CopyrightLogo: { Component: CopyrightLogo, metadata: CopyrightLogoMetadata },
+    CreativeCommonsLogo: { Component: CreativeCommonsLogo, metadata: CreativeCommonsLogoMetadata },
+    CroissantLogo: { Component: CroissantLogo, metadata: CroissantLogoMetadata },
+    CrossLogo: { Component: CrossLogo, metadata: CrossLogoMetadata },
+    CrownLogo: { Component: CrownLogo, metadata: CrownLogoMetadata },
+    CuboidLogo: { Component: CuboidLogo, metadata: CuboidLogoMetadata },
+    CupSodaLogo: { Component: CupSodaLogo, metadata: CupSodaLogoMetadata },
+    CurrencyLogo: { Component: CurrencyLogo, metadata: CurrencyLogoMetadata },
+    CylinderLogo: { Component: CylinderLogo, metadata: CylinderLogoMetadata },
+    DamLogo: { Component: DamLogo, metadata: DamLogoMetadata },
+    DatabaseBackupLogo: { Component: DatabaseBackupLogo, metadata: DatabaseBackupLogoMetadata },
+    DatabaseSearchLogo: { Component: DatabaseSearchLogo, metadata: DatabaseSearchLogoMetadata },
+    DatabaseZapLogo: { Component: DatabaseZapLogo, metadata: DatabaseZapLogoMetadata },
+    DecimalsArrowLeftLogo: { Component: DecimalsArrowLeftLogo, metadata: DecimalsArrowLeftLogoMetadata },
+    DecimalsArrowRightLogo: { Component: DecimalsArrowRightLogo, metadata: DecimalsArrowRightLogoMetadata },
+    DessertLogo: { Component: DessertLogo, metadata: DessertLogoMetadata },
+    DiameterLogo: { Component: DiameterLogo, metadata: DiameterLogoMetadata },
+    DiamondMinusLogo: { Component: DiamondMinusLogo, metadata: DiamondMinusLogoMetadata },
+    DiamondPercentLogo: { Component: DiamondPercentLogo, metadata: DiamondPercentLogoMetadata },
+    DiamondPlusLogo: { Component: DiamondPlusLogo, metadata: DiamondPlusLogoMetadata },
+    DiamondLogo: { Component: DiamondLogo, metadata: DiamondLogoMetadata },
+    Dice1Logo: { Component: Dice1Logo, metadata: Dice1LogoMetadata },
+    Dice2Logo: { Component: Dice2Logo, metadata: Dice2LogoMetadata },
+    Dice3Logo: { Component: Dice3Logo, metadata: Dice3LogoMetadata },
+    Dice4Logo: { Component: Dice4Logo, metadata: Dice4LogoMetadata },
+    Dice5Logo: { Component: Dice5Logo, metadata: Dice5LogoMetadata },
+    Dice6Logo: { Component: Dice6Logo, metadata: Dice6LogoMetadata },
+    DicesLogo: { Component: DicesLogo, metadata: DicesLogoMetadata },
+    DiffLogo: { Component: DiffLogo, metadata: DiffLogoMetadata },
+    Disc2Logo: { Component: Disc2Logo, metadata: Disc2LogoMetadata },
+    Disc3Logo: { Component: Disc3Logo, metadata: Disc3LogoMetadata },
+    DiscAlbumLogo: { Component: DiscAlbumLogo, metadata: DiscAlbumLogoMetadata },
+    DnaOffLogo: { Component: DnaOffLogo, metadata: DnaOffLogoMetadata },
+    DnaLogo: { Component: DnaLogo, metadata: DnaLogoMetadata },
+    DockLogo: { Component: DockLogo, metadata: DockLogoMetadata },
+    DogLogo: { Component: DogLogo, metadata: DogLogoMetadata },
+    DonutLogo: { Component: DonutLogo, metadata: DonutLogoMetadata },
+    DoorClosedLockedLogo: { Component: DoorClosedLockedLogo, metadata: DoorClosedLockedLogoMetadata },
+    DoorClosedLogo: { Component: DoorClosedLogo, metadata: DoorClosedLogoMetadata },
+    DoorOpenLogo: { Component: DoorOpenLogo, metadata: DoorOpenLogoMetadata },
+    DotLogo: { Component: DotLogo, metadata: DotLogoMetadata },
+    DraftingCompassLogo: { Component: DraftingCompassLogo, metadata: DraftingCompassLogoMetadata },
+    DramaLogo: { Component: DramaLogo, metadata: DramaLogoMetadata },
+    DrillLogo: { Component: DrillLogo, metadata: DrillLogoMetadata },
+    DroneLogo: { Component: DroneLogo, metadata: DroneLogoMetadata },
+    DropletOffLogo: { Component: DropletOffLogo, metadata: DropletOffLogoMetadata },
+    DropletsLogo: { Component: DropletsLogo, metadata: DropletsLogoMetadata },
+    DrumLogo: { Component: DrumLogo, metadata: DrumLogoMetadata },
+    DrumstickLogo: { Component: DrumstickLogo, metadata: DrumstickLogoMetadata },
+    DumbbellLogo: { Component: DumbbellLogo, metadata: DumbbellLogoMetadata },
+    EarOffLogo: { Component: EarOffLogo, metadata: EarOffLogoMetadata },
+    EarLogo: { Component: EarLogo, metadata: EarLogoMetadata },
+    EarthLockLogo: { Component: EarthLockLogo, metadata: EarthLockLogoMetadata },
+    EarthLogo: { Component: EarthLogo, metadata: EarthLogoMetadata },
+    EclipseLogo: { Component: EclipseLogo, metadata: EclipseLogoMetadata },
+    EggFriedLogo: { Component: EggFriedLogo, metadata: EggFriedLogoMetadata },
+    EggOffLogo: { Component: EggOffLogo, metadata: EggOffLogoMetadata },
+    EggLogo: { Component: EggLogo, metadata: EggLogoMetadata },
+    EllipsisVerticalLogo: { Component: EllipsisVerticalLogo, metadata: EllipsisVerticalLogoMetadata },
+    EllipsisLogo: { Component: EllipsisLogo, metadata: EllipsisLogoMetadata },
+    EqualApproximatelyLogo: { Component: EqualApproximatelyLogo, metadata: EqualApproximatelyLogoMetadata },
+    EqualNotLogo: { Component: EqualNotLogo, metadata: EqualNotLogoMetadata },
+    EqualLogo: { Component: EqualLogo, metadata: EqualLogoMetadata },
+    EraserLogo: { Component: EraserLogo, metadata: EraserLogoMetadata },
+    EthernetPortLogo: { Component: EthernetPortLogo, metadata: EthernetPortLogoMetadata },
+    EuroLogo: { Component: EuroLogo, metadata: EuroLogoMetadata },
+    EvChargerLogo: { Component: EvChargerLogo, metadata: EvChargerLogoMetadata },
+    ExpandLogo: { Component: ExpandLogo, metadata: ExpandLogoMetadata },
+    EyeClosedLogo: { Component: EyeClosedLogo, metadata: EyeClosedLogoMetadata },
+    FactoryLogo: { Component: FactoryLogo, metadata: FactoryLogoMetadata },
+    FanLogo: { Component: FanLogo, metadata: FanLogoMetadata },
+    FenceLogo: { Component: FenceLogo, metadata: FenceLogoMetadata },
+    FerrisWheelLogo: { Component: FerrisWheelLogo, metadata: FerrisWheelLogoMetadata },
+    FileArchiveLogo: { Component: FileArchiveLogo, metadata: FileArchiveLogoMetadata },
+    FileAxis3dLogo: { Component: FileAxis3dLogo, metadata: FileAxis3dLogoMetadata },
+    FileBadgeLogo: { Component: FileBadgeLogo, metadata: FileBadgeLogoMetadata },
+    FileBoxLogo: { Component: FileBoxLogo, metadata: FileBoxLogoMetadata },
+    FileBracesCornerLogo: { Component: FileBracesCornerLogo, metadata: FileBracesCornerLogoMetadata },
+    FileBracesLogo: { Component: FileBracesLogo, metadata: FileBracesLogoMetadata },
+    FileChartColumnIncreasingLogo: { Component: FileChartColumnIncreasingLogo, metadata: FileChartColumnIncreasingLogoMetadata },
+    FileChartColumnLogo: { Component: FileChartColumnLogo, metadata: FileChartColumnLogoMetadata },
+    FileChartLineLogo: { Component: FileChartLineLogo, metadata: FileChartLineLogoMetadata },
+    FileChartPieLogo: { Component: FileChartPieLogo, metadata: FileChartPieLogoMetadata },
+    FileCheckCornerLogo: { Component: FileCheckCornerLogo, metadata: FileCheckCornerLogoMetadata },
+    FileCheckLogo: { Component: FileCheckLogo, metadata: FileCheckLogoMetadata },
+    FileClockLogo: { Component: FileClockLogo, metadata: FileClockLogoMetadata },
+    FileCodeCornerLogo: { Component: FileCodeCornerLogo, metadata: FileCodeCornerLogoMetadata },
+    FileCodeLogo: { Component: FileCodeLogo, metadata: FileCodeLogoMetadata },
+    FileCogLogo: { Component: FileCogLogo, metadata: FileCogLogoMetadata },
+    FileDiffLogo: { Component: FileDiffLogo, metadata: FileDiffLogoMetadata },
+    FileDigitLogo: { Component: FileDigitLogo, metadata: FileDigitLogoMetadata },
+    FileDownLogo: { Component: FileDownLogo, metadata: FileDownLogoMetadata },
+    FileExclamationPointLogo: { Component: FileExclamationPointLogo, metadata: FileExclamationPointLogoMetadata },
+    FileHeadphoneLogo: { Component: FileHeadphoneLogo, metadata: FileHeadphoneLogoMetadata },
+    FileHeartLogo: { Component: FileHeartLogo, metadata: FileHeartLogoMetadata },
+    FileImageLogo: { Component: FileImageLogo, metadata: FileImageLogoMetadata },
+    FileInputLogo: { Component: FileInputLogo, metadata: FileInputLogoMetadata },
+    FileKeyLogo: { Component: FileKeyLogo, metadata: FileKeyLogoMetadata },
+    FileLockLogo: { Component: FileLockLogo, metadata: FileLockLogoMetadata },
+    FileMinusCornerLogo: { Component: FileMinusCornerLogo, metadata: FileMinusCornerLogoMetadata },
+    FileMusicLogo: { Component: FileMusicLogo, metadata: FileMusicLogoMetadata },
+    FileOutputLogo: { Component: FileOutputLogo, metadata: FileOutputLogoMetadata },
+    FilePenLineLogo: { Component: FilePenLineLogo, metadata: FilePenLineLogoMetadata },
+    FilePenLogo: { Component: FilePenLogo, metadata: FilePenLogoMetadata },
+    FilePlayLogo: { Component: FilePlayLogo, metadata: FilePlayLogoMetadata },
+    FilePlusCornerLogo: { Component: FilePlusCornerLogo, metadata: FilePlusCornerLogoMetadata },
+    FileQuestionMarkLogo: { Component: FileQuestionMarkLogo, metadata: FileQuestionMarkLogoMetadata },
+    FileScanLogo: { Component: FileScanLogo, metadata: FileScanLogoMetadata },
+    FileSearchCornerLogo: { Component: FileSearchCornerLogo, metadata: FileSearchCornerLogoMetadata },
+    FileSearchLogo: { Component: FileSearchLogo, metadata: FileSearchLogoMetadata },
+    FileSignalLogo: { Component: FileSignalLogo, metadata: FileSignalLogoMetadata },
+    FileSlidersLogo: { Component: FileSlidersLogo, metadata: FileSlidersLogoMetadata },
+    FileSpreadsheetLogo: { Component: FileSpreadsheetLogo, metadata: FileSpreadsheetLogoMetadata },
+    FileStackLogo: { Component: FileStackLogo, metadata: FileStackLogoMetadata },
+    FileSymlinkLogo: { Component: FileSymlinkLogo, metadata: FileSymlinkLogoMetadata },
+    FileTerminalLogo: { Component: FileTerminalLogo, metadata: FileTerminalLogoMetadata },
+    FileTypeCornerLogo: { Component: FileTypeCornerLogo, metadata: FileTypeCornerLogoMetadata },
+    FileTypeLogo: { Component: FileTypeLogo, metadata: FileTypeLogoMetadata },
+    FileUpLogo: { Component: FileUpLogo, metadata: FileUpLogoMetadata },
+    FileUserLogo: { Component: FileUserLogo, metadata: FileUserLogoMetadata },
+    FileVideoCameraLogo: { Component: FileVideoCameraLogo, metadata: FileVideoCameraLogoMetadata },
+    FileVolumeLogo: { Component: FileVolumeLogo, metadata: FileVolumeLogoMetadata },
+    FileXCornerLogo: { Component: FileXCornerLogo, metadata: FileXCornerLogoMetadata },
+    FileXLogo: { Component: FileXLogo, metadata: FileXLogoMetadata },
+    FilesLogo: { Component: FilesLogo, metadata: FilesLogoMetadata },
+    FingerprintPatternLogo: { Component: FingerprintPatternLogo, metadata: FingerprintPatternLogoMetadata },
+    FireExtinguisherLogo: { Component: FireExtinguisherLogo, metadata: FireExtinguisherLogoMetadata },
+    FishOffLogo: { Component: FishOffLogo, metadata: FishOffLogoMetadata },
+    FishSymbolLogo: { Component: FishSymbolLogo, metadata: FishSymbolLogoMetadata },
+    FishLogo: { Component: FishLogo, metadata: FishLogoMetadata },
+    FishingHookLogo: { Component: FishingHookLogo, metadata: FishingHookLogoMetadata },
+    FlagOffLogo: { Component: FlagOffLogo, metadata: FlagOffLogoMetadata },
+    FlagTriangleLeftLogo: { Component: FlagTriangleLeftLogo, metadata: FlagTriangleLeftLogoMetadata },
+    FlagTriangleRightLogo: { Component: FlagTriangleRightLogo, metadata: FlagTriangleRightLogoMetadata },
+    FlameKindlingLogo: { Component: FlameKindlingLogo, metadata: FlameKindlingLogoMetadata },
+    FlameLogo: { Component: FlameLogo, metadata: FlameLogoMetadata },
+    FlashlightOffLogo: { Component: FlashlightOffLogo, metadata: FlashlightOffLogoMetadata },
+    FlashlightLogo: { Component: FlashlightLogo, metadata: FlashlightLogoMetadata },
+    FlaskConicalOffLogo: { Component: FlaskConicalOffLogo, metadata: FlaskConicalOffLogoMetadata },
+    FlaskConicalLogo: { Component: FlaskConicalLogo, metadata: FlaskConicalLogoMetadata },
+    FlaskRoundLogo: { Component: FlaskRoundLogo, metadata: FlaskRoundLogoMetadata },
+    FlipHorizontal2Logo: { Component: FlipHorizontal2Logo, metadata: FlipHorizontal2LogoMetadata },
+    FlipVertical2Logo: { Component: FlipVertical2Logo, metadata: FlipVertical2LogoMetadata },
+    Flower2Logo: { Component: Flower2Logo, metadata: Flower2LogoMetadata },
+    FlowerLogo: { Component: FlowerLogo, metadata: FlowerLogoMetadata },
+    FocusLogo: { Component: FocusLogo, metadata: FocusLogoMetadata },
+    FoldHorizontalLogo: { Component: FoldHorizontalLogo, metadata: FoldHorizontalLogoMetadata },
+    FoldVerticalLogo: { Component: FoldVerticalLogo, metadata: FoldVerticalLogoMetadata },
+    FolderArchiveLogo: { Component: FolderArchiveLogo, metadata: FolderArchiveLogoMetadata },
+    FolderCheckLogo: { Component: FolderCheckLogo, metadata: FolderCheckLogoMetadata },
+    FolderClockLogo: { Component: FolderClockLogo, metadata: FolderClockLogoMetadata },
+    FolderClosedLogo: { Component: FolderClosedLogo, metadata: FolderClosedLogoMetadata },
+    FolderCodeLogo: { Component: FolderCodeLogo, metadata: FolderCodeLogoMetadata },
+    FolderCogLogo: { Component: FolderCogLogo, metadata: FolderCogLogoMetadata },
+    FolderDotLogo: { Component: FolderDotLogo, metadata: FolderDotLogoMetadata },
+    FolderDownLogo: { Component: FolderDownLogo, metadata: FolderDownLogoMetadata },
+    FolderGit2Logo: { Component: FolderGit2Logo, metadata: FolderGit2LogoMetadata },
+    FolderGitLogo: { Component: FolderGitLogo, metadata: FolderGitLogoMetadata },
+    FolderHeartLogo: { Component: FolderHeartLogo, metadata: FolderHeartLogoMetadata },
+    FolderInputLogo: { Component: FolderInputLogo, metadata: FolderInputLogoMetadata },
+    FolderKanbanLogo: { Component: FolderKanbanLogo, metadata: FolderKanbanLogoMetadata },
+    FolderKeyLogo: { Component: FolderKeyLogo, metadata: FolderKeyLogoMetadata },
+    FolderLockLogo: { Component: FolderLockLogo, metadata: FolderLockLogoMetadata },
+    FolderOpenDotLogo: { Component: FolderOpenDotLogo, metadata: FolderOpenDotLogoMetadata },
+    FolderOpenLogo: { Component: FolderOpenLogo, metadata: FolderOpenLogoMetadata },
+    FolderOutputLogo: { Component: FolderOutputLogo, metadata: FolderOutputLogoMetadata },
+    FolderPenLogo: { Component: FolderPenLogo, metadata: FolderPenLogoMetadata },
+    FolderRootLogo: { Component: FolderRootLogo, metadata: FolderRootLogoMetadata },
+    FolderSearch2Logo: { Component: FolderSearch2Logo, metadata: FolderSearch2LogoMetadata },
+    FolderSearchLogo: { Component: FolderSearchLogo, metadata: FolderSearchLogoMetadata },
+    FolderSymlinkLogo: { Component: FolderSymlinkLogo, metadata: FolderSymlinkLogoMetadata },
+    FolderSyncLogo: { Component: FolderSyncLogo, metadata: FolderSyncLogoMetadata },
+    FolderTreeLogo: { Component: FolderTreeLogo, metadata: FolderTreeLogoMetadata },
+    FolderUpLogo: { Component: FolderUpLogo, metadata: FolderUpLogoMetadata },
+    FolderXLogo: { Component: FolderXLogo, metadata: FolderXLogoMetadata },
+    FoldersLogo: { Component: FoldersLogo, metadata: FoldersLogoMetadata },
+    FootprintsLogo: { Component: FootprintsLogo, metadata: FootprintsLogoMetadata },
+    ForkliftLogo: { Component: ForkliftLogo, metadata: ForkliftLogoMetadata },
+    FormLogo: { Component: FormLogo, metadata: FormLogoMetadata },
+    ForwardLogo: { Component: ForwardLogo, metadata: ForwardLogoMetadata },
+    FrameLogo: { Component: FrameLogo, metadata: FrameLogoMetadata },
+    FuelLogo: { Component: FuelLogo, metadata: FuelLogoMetadata },
+    FullscreenLogo: { Component: FullscreenLogo, metadata: FullscreenLogoMetadata },
+    FunnelPlusLogo: { Component: FunnelPlusLogo, metadata: FunnelPlusLogoMetadata },
+    FunnelXLogo: { Component: FunnelXLogo, metadata: FunnelXLogoMetadata },
+    FunnelLogo: { Component: FunnelLogo, metadata: FunnelLogoMetadata },
+    GalleryHorizontalEndLogo: { Component: GalleryHorizontalEndLogo, metadata: GalleryHorizontalEndLogoMetadata },
+    GalleryHorizontalLogo: { Component: GalleryHorizontalLogo, metadata: GalleryHorizontalLogoMetadata },
+    GalleryThumbnailsLogo: { Component: GalleryThumbnailsLogo, metadata: GalleryThumbnailsLogoMetadata },
+    GalleryVerticalEndLogo: { Component: GalleryVerticalEndLogo, metadata: GalleryVerticalEndLogoMetadata },
+    GalleryVerticalLogo: { Component: GalleryVerticalLogo, metadata: GalleryVerticalLogoMetadata },
+    Gamepad2Logo: { Component: Gamepad2Logo, metadata: Gamepad2LogoMetadata },
+    GamepadDirectionalLogo: { Component: GamepadDirectionalLogo, metadata: GamepadDirectionalLogoMetadata },
+    GamepadLogo: { Component: GamepadLogo, metadata: GamepadLogoMetadata },
+    GaugeLogo: { Component: GaugeLogo, metadata: GaugeLogoMetadata },
+    GavelLogo: { Component: GavelLogo, metadata: GavelLogoMetadata },
+    GemLogo: { Component: GemLogo, metadata: GemLogoMetadata },
+    GeorgianLariLogo: { Component: GeorgianLariLogo, metadata: GeorgianLariLogoMetadata },
+    GhostLogo: { Component: GhostLogo, metadata: GhostLogoMetadata },
+    GitBranchMinusLogo: { Component: GitBranchMinusLogo, metadata: GitBranchMinusLogoMetadata },
+    GitBranchPlusLogo: { Component: GitBranchPlusLogo, metadata: GitBranchPlusLogoMetadata },
+    GitCommitHorizontalLogo: { Component: GitCommitHorizontalLogo, metadata: GitCommitHorizontalLogoMetadata },
+    GitCommitVerticalLogo: { Component: GitCommitVerticalLogo, metadata: GitCommitVerticalLogoMetadata },
+    GitCompareArrowsLogo: { Component: GitCompareArrowsLogo, metadata: GitCompareArrowsLogoMetadata },
+    GitCompareLogo: { Component: GitCompareLogo, metadata: GitCompareLogoMetadata },
+    GitForkLogo: { Component: GitForkLogo, metadata: GitForkLogoMetadata },
+    GitGraphLogo: { Component: GitGraphLogo, metadata: GitGraphLogoMetadata },
+    GitMergeConflictLogo: { Component: GitMergeConflictLogo, metadata: GitMergeConflictLogoMetadata },
+    GitPullRequestArrowLogo: { Component: GitPullRequestArrowLogo, metadata: GitPullRequestArrowLogoMetadata },
+    GitPullRequestClosedLogo: { Component: GitPullRequestClosedLogo, metadata: GitPullRequestClosedLogoMetadata },
+    GitPullRequestCreateArrowLogo: { Component: GitPullRequestCreateArrowLogo, metadata: GitPullRequestCreateArrowLogoMetadata },
+    GitPullRequestCreateLogo: { Component: GitPullRequestCreateLogo, metadata: GitPullRequestCreateLogoMetadata },
+    GitPullRequestDraftLogo: { Component: GitPullRequestDraftLogo, metadata: GitPullRequestDraftLogoMetadata },
+    GlassWaterLogo: { Component: GlassWaterLogo, metadata: GlassWaterLogoMetadata },
+    GlassesLogo: { Component: GlassesLogo, metadata: GlassesLogoMetadata },
+    GlobeLockLogo: { Component: GlobeLockLogo, metadata: GlobeLockLogoMetadata },
+    GlobeOffLogo: { Component: GlobeOffLogo, metadata: GlobeOffLogoMetadata },
+    GlobeXLogo: { Component: GlobeXLogo, metadata: GlobeXLogoMetadata },
+    GoalLogo: { Component: GoalLogo, metadata: GoalLogoMetadata },
+    GpuLogo: { Component: GpuLogo, metadata: GpuLogoMetadata },
+    GraduationCapLogo: { Component: GraduationCapLogo, metadata: GraduationCapLogoMetadata },
+    GrapeLogo: { Component: GrapeLogo, metadata: GrapeLogoMetadata },
+    Grid2x2CheckLogo: { Component: Grid2x2CheckLogo, metadata: Grid2x2CheckLogoMetadata },
+    Grid2x2PlusLogo: { Component: Grid2x2PlusLogo, metadata: Grid2x2PlusLogoMetadata },
+    Grid2x2XLogo: { Component: Grid2x2XLogo, metadata: Grid2x2XLogoMetadata },
+    Grid2x2Logo: { Component: Grid2x2Logo, metadata: Grid2x2LogoMetadata },
+    Grid3x2Logo: { Component: Grid3x2Logo, metadata: Grid3x2LogoMetadata },
+    Grid3x3Logo: { Component: Grid3x3Logo, metadata: Grid3x3LogoMetadata },
+    GripHorizontalLogo: { Component: GripHorizontalLogo, metadata: GripHorizontalLogoMetadata },
+    GripVerticalLogo: { Component: GripVerticalLogo, metadata: GripVerticalLogoMetadata },
+    GripLogo: { Component: GripLogo, metadata: GripLogoMetadata },
+    GroupLogo: { Component: GroupLogo, metadata: GroupLogoMetadata },
+    GuitarLogo: { Component: GuitarLogo, metadata: GuitarLogoMetadata },
+    HamLogo: { Component: HamLogo, metadata: HamLogoMetadata },
+    HamburgerLogo: { Component: HamburgerLogo, metadata: HamburgerLogoMetadata },
+    HammerLogo: { Component: HammerLogo, metadata: HammerLogoMetadata },
+    HandCoinsLogo: { Component: HandCoinsLogo, metadata: HandCoinsLogoMetadata },
+    HandFistLogo: { Component: HandFistLogo, metadata: HandFistLogoMetadata },
+    HandGrabLogo: { Component: HandGrabLogo, metadata: HandGrabLogoMetadata },
+    HandHeartLogo: { Component: HandHeartLogo, metadata: HandHeartLogoMetadata },
+    HandHelpingLogo: { Component: HandHelpingLogo, metadata: HandHelpingLogoMetadata },
+    HandMetalLogo: { Component: HandMetalLogo, metadata: HandMetalLogoMetadata },
+    HandPlatterLogo: { Component: HandPlatterLogo, metadata: HandPlatterLogoMetadata },
+    HandLogo: { Component: HandLogo, metadata: HandLogoMetadata },
+    HandbagLogo: { Component: HandbagLogo, metadata: HandbagLogoMetadata },
+    HandshakeLogo: { Component: HandshakeLogo, metadata: HandshakeLogoMetadata },
+    HardDriveDownloadLogo: { Component: HardDriveDownloadLogo, metadata: HardDriveDownloadLogoMetadata },
+    HardDriveUploadLogo: { Component: HardDriveUploadLogo, metadata: HardDriveUploadLogoMetadata },
+    HardHatLogo: { Component: HardHatLogo, metadata: HardHatLogoMetadata },
+    HatGlassesLogo: { Component: HatGlassesLogo, metadata: HatGlassesLogoMetadata },
+    HazeLogo: { Component: HazeLogo, metadata: HazeLogoMetadata },
+    HdLogo: { Component: HdLogo, metadata: HdLogoMetadata },
+    HdmiPortLogo: { Component: HdmiPortLogo, metadata: HdmiPortLogoMetadata },
+    Heading1Logo: { Component: Heading1Logo, metadata: Heading1LogoMetadata },
+    Heading2Logo: { Component: Heading2Logo, metadata: Heading2LogoMetadata },
+    Heading3Logo: { Component: Heading3Logo, metadata: Heading3LogoMetadata },
+    Heading4Logo: { Component: Heading4Logo, metadata: Heading4LogoMetadata },
+    Heading5Logo: { Component: Heading5Logo, metadata: Heading5LogoMetadata },
+    Heading6Logo: { Component: Heading6Logo, metadata: Heading6LogoMetadata },
+    HeadingLogo: { Component: HeadingLogo, metadata: HeadingLogoMetadata },
+    HeadphoneOffLogo: { Component: HeadphoneOffLogo, metadata: HeadphoneOffLogoMetadata },
+    HeadsetLogo: { Component: HeadsetLogo, metadata: HeadsetLogoMetadata },
+    HeartCrackLogo: { Component: HeartCrackLogo, metadata: HeartCrackLogoMetadata },
+    HeartHandshakeLogo: { Component: HeartHandshakeLogo, metadata: HeartHandshakeLogoMetadata },
+    HeartMinusLogo: { Component: HeartMinusLogo, metadata: HeartMinusLogoMetadata },
+    HeartOffLogo: { Component: HeartOffLogo, metadata: HeartOffLogoMetadata },
+    HeartPlusLogo: { Component: HeartPlusLogo, metadata: HeartPlusLogoMetadata },
+    HeartPulseLogo: { Component: HeartPulseLogo, metadata: HeartPulseLogoMetadata },
+    HeaterLogo: { Component: HeaterLogo, metadata: HeaterLogoMetadata },
+    HelicopterLogo: { Component: HelicopterLogo, metadata: HelicopterLogoMetadata },
+    HighlighterLogo: { Component: HighlighterLogo, metadata: HighlighterLogoMetadata },
+    HistoryLogo: { Component: HistoryLogo, metadata: HistoryLogoMetadata },
+    HopOffLogo: { Component: HopOffLogo, metadata: HopOffLogoMetadata },
+    HopLogo: { Component: HopLogo, metadata: HopLogoMetadata },
+    HospitalLogo: { Component: HospitalLogo, metadata: HospitalLogoMetadata },
+    HotelLogo: { Component: HotelLogo, metadata: HotelLogoMetadata },
+    HourglassLogo: { Component: HourglassLogo, metadata: HourglassLogoMetadata },
+    HouseHeartLogo: { Component: HouseHeartLogo, metadata: HouseHeartLogoMetadata },
+    HousePlugLogo: { Component: HousePlugLogo, metadata: HousePlugLogoMetadata },
+    HousePlusLogo: { Component: HousePlusLogo, metadata: HousePlusLogoMetadata },
+    HouseWifiLogo: { Component: HouseWifiLogo, metadata: HouseWifiLogoMetadata },
+    HouseLogo: { Component: HouseLogo, metadata: HouseLogoMetadata },
+    IceCreamBowlLogo: { Component: IceCreamBowlLogo, metadata: IceCreamBowlLogoMetadata },
+    IceCreamConeLogo: { Component: IceCreamConeLogo, metadata: IceCreamConeLogoMetadata },
+    IdCardLanyardLogo: { Component: IdCardLanyardLogo, metadata: IdCardLanyardLogoMetadata },
+    IdCardLogo: { Component: IdCardLogo, metadata: IdCardLogoMetadata },
+    ImageDownLogo: { Component: ImageDownLogo, metadata: ImageDownLogoMetadata },
+    ImageMinusLogo: { Component: ImageMinusLogo, metadata: ImageMinusLogoMetadata },
+    ImageOffLogo: { Component: ImageOffLogo, metadata: ImageOffLogoMetadata },
+    ImagePlayLogo: { Component: ImagePlayLogo, metadata: ImagePlayLogoMetadata },
+    ImagePlusLogo: { Component: ImagePlusLogo, metadata: ImagePlusLogoMetadata },
+    ImageUpLogo: { Component: ImageUpLogo, metadata: ImageUpLogoMetadata },
+    ImageUpscaleLogo: { Component: ImageUpscaleLogo, metadata: ImageUpscaleLogoMetadata },
+    ImagesLogo: { Component: ImagesLogo, metadata: ImagesLogoMetadata },
+    ImportLogo: { Component: ImportLogo, metadata: ImportLogoMetadata },
+    IndianRupeeLogo: { Component: IndianRupeeLogo, metadata: IndianRupeeLogoMetadata },
+    InfinityLogo: { Component: InfinityLogo, metadata: InfinityLogoMetadata },
+    InspectionPanelLogo: { Component: InspectionPanelLogo, metadata: InspectionPanelLogoMetadata },
+    IterationCcwLogo: { Component: IterationCcwLogo, metadata: IterationCcwLogoMetadata },
+    IterationCwLogo: { Component: IterationCwLogo, metadata: IterationCwLogoMetadata },
+    JapaneseYenLogo: { Component: JapaneseYenLogo, metadata: JapaneseYenLogoMetadata },
+    JoystickLogo: { Component: JoystickLogo, metadata: JoystickLogoMetadata },
+    KanbanLogo: { Component: KanbanLogo, metadata: KanbanLogoMetadata },
+    KayakLogo: { Component: KayakLogo, metadata: KayakLogoMetadata },
+    KeyRoundLogo: { Component: KeyRoundLogo, metadata: KeyRoundLogoMetadata },
+    KeySquareLogo: { Component: KeySquareLogo, metadata: KeySquareLogoMetadata },
+    KeyboardMusicLogo: { Component: KeyboardMusicLogo, metadata: KeyboardMusicLogoMetadata },
+    KeyboardOffLogo: { Component: KeyboardOffLogo, metadata: KeyboardOffLogoMetadata },
+    KeyboardLogo: { Component: KeyboardLogo, metadata: KeyboardLogoMetadata },
+    LampCeilingLogo: { Component: LampCeilingLogo, metadata: LampCeilingLogoMetadata },
+    LampDeskLogo: { Component: LampDeskLogo, metadata: LampDeskLogoMetadata },
+    LampFloorLogo: { Component: LampFloorLogo, metadata: LampFloorLogoMetadata },
+    LampWallDownLogo: { Component: LampWallDownLogo, metadata: LampWallDownLogoMetadata },
+    LampWallUpLogo: { Component: LampWallUpLogo, metadata: LampWallUpLogoMetadata },
+    LampLogo: { Component: LampLogo, metadata: LampLogoMetadata },
+    LandPlotLogo: { Component: LandPlotLogo, metadata: LandPlotLogoMetadata },
+    LandmarkLogo: { Component: LandmarkLogo, metadata: LandmarkLogoMetadata },
+    LanguagesLogo: { Component: LanguagesLogo, metadata: LanguagesLogoMetadata },
+    LaptopMinimalCheckLogo: { Component: LaptopMinimalCheckLogo, metadata: LaptopMinimalCheckLogoMetadata },
+    LaptopMinimalLogo: { Component: LaptopMinimalLogo, metadata: LaptopMinimalLogoMetadata },
+    LaptopLogo: { Component: LaptopLogo, metadata: LaptopLogoMetadata },
+    LassoSelectLogo: { Component: LassoSelectLogo, metadata: LassoSelectLogoMetadata },
+    LassoLogo: { Component: LassoLogo, metadata: LassoLogoMetadata },
+    LaughLogo: { Component: LaughLogo, metadata: LaughLogoMetadata },
+    Layers2Logo: { Component: Layers2Logo, metadata: Layers2LogoMetadata },
+    LayersPlusLogo: { Component: LayersPlusLogo, metadata: LayersPlusLogoMetadata },
+    LayoutDashboardLogo: { Component: LayoutDashboardLogo, metadata: LayoutDashboardLogoMetadata },
+    LayoutGridLogo: { Component: LayoutGridLogo, metadata: LayoutGridLogoMetadata },
+    LayoutListLogo: { Component: LayoutListLogo, metadata: LayoutListLogoMetadata },
+    LayoutPanelLeftLogo: { Component: LayoutPanelLeftLogo, metadata: LayoutPanelLeftLogoMetadata },
+    LayoutPanelTopLogo: { Component: LayoutPanelTopLogo, metadata: LayoutPanelTopLogoMetadata },
+    LayoutTemplateLogo: { Component: LayoutTemplateLogo, metadata: LayoutTemplateLogoMetadata },
+    LeafLogo: { Component: LeafLogo, metadata: LeafLogoMetadata },
+    LeafyGreenLogo: { Component: LeafyGreenLogo, metadata: LeafyGreenLogoMetadata },
+    LecternLogo: { Component: LecternLogo, metadata: LecternLogoMetadata },
+    LensConcaveLogo: { Component: LensConcaveLogo, metadata: LensConcaveLogoMetadata },
+    LensConvexLogo: { Component: LensConvexLogo, metadata: LensConvexLogoMetadata },
+    LibraryBigLogo: { Component: LibraryBigLogo, metadata: LibraryBigLogoMetadata },
+    LibraryLogo: { Component: LibraryLogo, metadata: LibraryLogoMetadata },
+    LigatureLogo: { Component: LigatureLogo, metadata: LigatureLogoMetadata },
+    LightbulbOffLogo: { Component: LightbulbOffLogo, metadata: LightbulbOffLogoMetadata },
+    LightbulbLogo: { Component: LightbulbLogo, metadata: LightbulbLogoMetadata },
+    LineDotRightHorizontalLogo: { Component: LineDotRightHorizontalLogo, metadata: LineDotRightHorizontalLogoMetadata },
+    LineSquiggleLogo: { Component: LineSquiggleLogo, metadata: LineSquiggleLogoMetadata },
+    Link2OffLogo: { Component: Link2OffLogo, metadata: Link2OffLogoMetadata },
+    ListCheckLogo: { Component: ListCheckLogo, metadata: ListCheckLogoMetadata },
+    ListChecksLogo: { Component: ListChecksLogo, metadata: ListChecksLogoMetadata },
+    ListChevronsDownUpLogo: { Component: ListChevronsDownUpLogo, metadata: ListChevronsDownUpLogoMetadata },
+    ListChevronsUpDownLogo: { Component: ListChevronsUpDownLogo, metadata: ListChevronsUpDownLogoMetadata },
+    ListCollapseLogo: { Component: ListCollapseLogo, metadata: ListCollapseLogoMetadata },
+    ListEndLogo: { Component: ListEndLogo, metadata: ListEndLogoMetadata },
+    ListFilterPlusLogo: { Component: ListFilterPlusLogo, metadata: ListFilterPlusLogoMetadata },
+    ListFilterLogo: { Component: ListFilterLogo, metadata: ListFilterLogoMetadata },
+    ListIndentDecreaseLogo: { Component: ListIndentDecreaseLogo, metadata: ListIndentDecreaseLogoMetadata },
+    ListIndentIncreaseLogo: { Component: ListIndentIncreaseLogo, metadata: ListIndentIncreaseLogoMetadata },
+    ListMinusLogo: { Component: ListMinusLogo, metadata: ListMinusLogoMetadata },
+    ListMusicLogo: { Component: ListMusicLogo, metadata: ListMusicLogoMetadata },
+    ListOrderedLogo: { Component: ListOrderedLogo, metadata: ListOrderedLogoMetadata },
+    ListPlusLogo: { Component: ListPlusLogo, metadata: ListPlusLogoMetadata },
+    ListRestartLogo: { Component: ListRestartLogo, metadata: ListRestartLogoMetadata },
+    ListStartLogo: { Component: ListStartLogo, metadata: ListStartLogoMetadata },
+    ListTodoLogo: { Component: ListTodoLogo, metadata: ListTodoLogoMetadata },
+    ListTreeLogo: { Component: ListTreeLogo, metadata: ListTreeLogoMetadata },
+    ListVideoLogo: { Component: ListVideoLogo, metadata: ListVideoLogoMetadata },
+    ListXLogo: { Component: ListXLogo, metadata: ListXLogoMetadata },
+    LoaderCircleLogo: { Component: LoaderCircleLogo, metadata: LoaderCircleLogoMetadata },
+    LoaderPinwheelLogo: { Component: LoaderPinwheelLogo, metadata: LoaderPinwheelLogoMetadata },
+    LocateFixedLogo: { Component: LocateFixedLogo, metadata: LocateFixedLogoMetadata },
+    LocateOffLogo: { Component: LocateOffLogo, metadata: LocateOffLogoMetadata },
+    LocateLogo: { Component: LocateLogo, metadata: LocateLogoMetadata },
+    LockKeyholeOpenLogo: { Component: LockKeyholeOpenLogo, metadata: LockKeyholeOpenLogoMetadata },
+    LockKeyholeLogo: { Component: LockKeyholeLogo, metadata: LockKeyholeLogoMetadata },
+    LockOpenLogo: { Component: LockOpenLogo, metadata: LockOpenLogoMetadata },
+    LogsLogo: { Component: LogsLogo, metadata: LogsLogoMetadata },
+    LollipopLogo: { Component: LollipopLogo, metadata: LollipopLogoMetadata },
+    LuggageLogo: { Component: LuggageLogo, metadata: LuggageLogoMetadata },
+    MagnetLogo: { Component: MagnetLogo, metadata: MagnetLogoMetadata },
+    MailCheckLogo: { Component: MailCheckLogo, metadata: MailCheckLogoMetadata },
+    MailMinusLogo: { Component: MailMinusLogo, metadata: MailMinusLogoMetadata },
+    MailOpenLogo: { Component: MailOpenLogo, metadata: MailOpenLogoMetadata },
+    MailPlusLogo: { Component: MailPlusLogo, metadata: MailPlusLogoMetadata },
+    MailQuestionMarkLogo: { Component: MailQuestionMarkLogo, metadata: MailQuestionMarkLogoMetadata },
+    MailSearchLogo: { Component: MailSearchLogo, metadata: MailSearchLogoMetadata },
+    MailWarningLogo: { Component: MailWarningLogo, metadata: MailWarningLogoMetadata },
+    MailXLogo: { Component: MailXLogo, metadata: MailXLogoMetadata },
+    MailboxLogo: { Component: MailboxLogo, metadata: MailboxLogoMetadata },
+    MailsLogo: { Component: MailsLogo, metadata: MailsLogoMetadata },
+    MapMinusLogo: { Component: MapMinusLogo, metadata: MapMinusLogoMetadata },
+    MapPinCheckInsideLogo: { Component: MapPinCheckInsideLogo, metadata: MapPinCheckInsideLogoMetadata },
+    MapPinCheckLogo: { Component: MapPinCheckLogo, metadata: MapPinCheckLogoMetadata },
+    MapPinHouseLogo: { Component: MapPinHouseLogo, metadata: MapPinHouseLogoMetadata },
+    MapPinMinusInsideLogo: { Component: MapPinMinusInsideLogo, metadata: MapPinMinusInsideLogoMetadata },
+    MapPinMinusLogo: { Component: MapPinMinusLogo, metadata: MapPinMinusLogoMetadata },
+    MapPinOffLogo: { Component: MapPinOffLogo, metadata: MapPinOffLogoMetadata },
+    MapPinPenLogo: { Component: MapPinPenLogo, metadata: MapPinPenLogoMetadata },
+    MapPinPlusInsideLogo: { Component: MapPinPlusInsideLogo, metadata: MapPinPlusInsideLogoMetadata },
+    MapPinPlusLogo: { Component: MapPinPlusLogo, metadata: MapPinPlusLogoMetadata },
+    MapPinXInsideLogo: { Component: MapPinXInsideLogo, metadata: MapPinXInsideLogoMetadata },
+    MapPinXLogo: { Component: MapPinXLogo, metadata: MapPinXLogoMetadata },
+    MapPinnedLogo: { Component: MapPinnedLogo, metadata: MapPinnedLogoMetadata },
+    MapPlusLogo: { Component: MapPlusLogo, metadata: MapPlusLogoMetadata },
+    MarsStrokeLogo: { Component: MarsStrokeLogo, metadata: MarsStrokeLogoMetadata },
+    MarsLogo: { Component: MarsLogo, metadata: MarsLogoMetadata },
+    MartiniLogo: { Component: MartiniLogo, metadata: MartiniLogoMetadata },
+    MedalLogo: { Component: MedalLogo, metadata: MedalLogoMetadata },
+    MegaphoneOffLogo: { Component: MegaphoneOffLogo, metadata: MegaphoneOffLogoMetadata },
+    MegaphoneLogo: { Component: MegaphoneLogo, metadata: MegaphoneLogoMetadata },
+    MemoryStickLogo: { Component: MemoryStickLogo, metadata: MemoryStickLogoMetadata },
+    MergeLogo: { Component: MergeLogo, metadata: MergeLogoMetadata },
+    MessageCircleCheckLogo: { Component: MessageCircleCheckLogo, metadata: MessageCircleCheckLogoMetadata },
+    MessageCircleCodeLogo: { Component: MessageCircleCodeLogo, metadata: MessageCircleCodeLogoMetadata },
+    MessageCircleDashedLogo: { Component: MessageCircleDashedLogo, metadata: MessageCircleDashedLogoMetadata },
+    MessageCircleHeartLogo: { Component: MessageCircleHeartLogo, metadata: MessageCircleHeartLogoMetadata },
+    MessageCircleMoreLogo: { Component: MessageCircleMoreLogo, metadata: MessageCircleMoreLogoMetadata },
+    MessageCircleOffLogo: { Component: MessageCircleOffLogo, metadata: MessageCircleOffLogoMetadata },
+    MessageCirclePlusLogo: { Component: MessageCirclePlusLogo, metadata: MessageCirclePlusLogoMetadata },
+    MessageCircleQuestionMarkLogo: { Component: MessageCircleQuestionMarkLogo, metadata: MessageCircleQuestionMarkLogoMetadata },
+    MessageCircleReplyLogo: { Component: MessageCircleReplyLogo, metadata: MessageCircleReplyLogoMetadata },
+    MessageCircleWarningLogo: { Component: MessageCircleWarningLogo, metadata: MessageCircleWarningLogoMetadata },
+    MessageCircleXLogo: { Component: MessageCircleXLogo, metadata: MessageCircleXLogoMetadata },
+    MessageSquareCheckLogo: { Component: MessageSquareCheckLogo, metadata: MessageSquareCheckLogoMetadata },
+    MessageSquareCodeLogo: { Component: MessageSquareCodeLogo, metadata: MessageSquareCodeLogoMetadata },
+    MessageSquareDashedLogo: { Component: MessageSquareDashedLogo, metadata: MessageSquareDashedLogoMetadata },
+    MessageSquareDiffLogo: { Component: MessageSquareDiffLogo, metadata: MessageSquareDiffLogoMetadata },
+    MessageSquareDotLogo: { Component: MessageSquareDotLogo, metadata: MessageSquareDotLogoMetadata },
+    MessageSquareHeartLogo: { Component: MessageSquareHeartLogo, metadata: MessageSquareHeartLogoMetadata },
+    MessageSquareLockLogo: { Component: MessageSquareLockLogo, metadata: MessageSquareLockLogoMetadata },
+    MessageSquareMoreLogo: { Component: MessageSquareMoreLogo, metadata: MessageSquareMoreLogoMetadata },
+    MessageSquareOffLogo: { Component: MessageSquareOffLogo, metadata: MessageSquareOffLogoMetadata },
+    MessageSquarePlusLogo: { Component: MessageSquarePlusLogo, metadata: MessageSquarePlusLogoMetadata },
+    MessageSquareQuoteLogo: { Component: MessageSquareQuoteLogo, metadata: MessageSquareQuoteLogoMetadata },
+    MessageSquareReplyLogo: { Component: MessageSquareReplyLogo, metadata: MessageSquareReplyLogoMetadata },
+    MessageSquareShareLogo: { Component: MessageSquareShareLogo, metadata: MessageSquareShareLogoMetadata },
+    MessageSquareTextLogo: { Component: MessageSquareTextLogo, metadata: MessageSquareTextLogoMetadata },
+    MessageSquareWarningLogo: { Component: MessageSquareWarningLogo, metadata: MessageSquareWarningLogoMetadata },
+    MessageSquareXLogo: { Component: MessageSquareXLogo, metadata: MessageSquareXLogoMetadata },
+    MessagesSquareLogo: { Component: MessagesSquareLogo, metadata: MessagesSquareLogoMetadata },
+    MetronomeLogo: { Component: MetronomeLogo, metadata: MetronomeLogoMetadata },
+    MicVocalLogo: { Component: MicVocalLogo, metadata: MicVocalLogoMetadata },
+    MicrochipLogo: { Component: MicrochipLogo, metadata: MicrochipLogoMetadata },
+    MicroscopeLogo: { Component: MicroscopeLogo, metadata: MicroscopeLogoMetadata },
+    MicrowaveLogo: { Component: MicrowaveLogo, metadata: MicrowaveLogoMetadata },
+    MilestoneLogo: { Component: MilestoneLogo, metadata: MilestoneLogoMetadata },
+    MilkOffLogo: { Component: MilkOffLogo, metadata: MilkOffLogoMetadata },
+    MilkLogo: { Component: MilkLogo, metadata: MilkLogoMetadata },
+    MirrorRectangularLogo: { Component: MirrorRectangularLogo, metadata: MirrorRectangularLogoMetadata },
+    MirrorRoundLogo: { Component: MirrorRoundLogo, metadata: MirrorRoundLogoMetadata },
+    MonitorCheckLogo: { Component: MonitorCheckLogo, metadata: MonitorCheckLogoMetadata },
+    MonitorCloudLogo: { Component: MonitorCloudLogo, metadata: MonitorCloudLogoMetadata },
+    MonitorCogLogo: { Component: MonitorCogLogo, metadata: MonitorCogLogoMetadata },
+    MonitorDotLogo: { Component: MonitorDotLogo, metadata: MonitorDotLogoMetadata },
+    MonitorDownLogo: { Component: MonitorDownLogo, metadata: MonitorDownLogoMetadata },
+    MonitorOffLogo: { Component: MonitorOffLogo, metadata: MonitorOffLogoMetadata },
+    MonitorPauseLogo: { Component: MonitorPauseLogo, metadata: MonitorPauseLogoMetadata },
+    MonitorPlayLogo: { Component: MonitorPlayLogo, metadata: MonitorPlayLogoMetadata },
+    MonitorSmartphoneLogo: { Component: MonitorSmartphoneLogo, metadata: MonitorSmartphoneLogoMetadata },
+    MonitorSpeakerLogo: { Component: MonitorSpeakerLogo, metadata: MonitorSpeakerLogoMetadata },
+    MonitorStopLogo: { Component: MonitorStopLogo, metadata: MonitorStopLogoMetadata },
+    MonitorUpLogo: { Component: MonitorUpLogo, metadata: MonitorUpLogoMetadata },
+    MonitorXLogo: { Component: MonitorXLogo, metadata: MonitorXLogoMetadata },
+    MoonStarLogo: { Component: MoonStarLogo, metadata: MoonStarLogoMetadata },
+    MotorbikeLogo: { Component: MotorbikeLogo, metadata: MotorbikeLogoMetadata },
+    MountainSnowLogo: { Component: MountainSnowLogo, metadata: MountainSnowLogoMetadata },
+    MountainLogo: { Component: MountainLogo, metadata: MountainLogoMetadata },
+    MouseLeftLogo: { Component: MouseLeftLogo, metadata: MouseLeftLogoMetadata },
+    MouseOffLogo: { Component: MouseOffLogo, metadata: MouseOffLogoMetadata },
+    MousePointer2OffLogo: { Component: MousePointer2OffLogo, metadata: MousePointer2OffLogoMetadata },
+    MousePointer2Logo: { Component: MousePointer2Logo, metadata: MousePointer2LogoMetadata },
+    MousePointerBanLogo: { Component: MousePointerBanLogo, metadata: MousePointerBanLogoMetadata },
+    MousePointerClickLogo: { Component: MousePointerClickLogo, metadata: MousePointerClickLogoMetadata },
+    MouseRightLogo: { Component: MouseRightLogo, metadata: MouseRightLogoMetadata },
+    MouseLogo: { Component: MouseLogo, metadata: MouseLogoMetadata },
+    Move3dLogo: { Component: Move3dLogo, metadata: Move3dLogoMetadata },
+    MoveDiagonal2Logo: { Component: MoveDiagonal2Logo, metadata: MoveDiagonal2LogoMetadata },
+    MoveDiagonalLogo: { Component: MoveDiagonalLogo, metadata: MoveDiagonalLogoMetadata },
+    MoveDownLeftLogo: { Component: MoveDownLeftLogo, metadata: MoveDownLeftLogoMetadata },
+    MoveDownRightLogo: { Component: MoveDownRightLogo, metadata: MoveDownRightLogoMetadata },
+    MoveDownLogo: { Component: MoveDownLogo, metadata: MoveDownLogoMetadata },
+    MoveHorizontalLogo: { Component: MoveHorizontalLogo, metadata: MoveHorizontalLogoMetadata },
+    MoveLeftLogo: { Component: MoveLeftLogo, metadata: MoveLeftLogoMetadata },
+    MoveRightLogo: { Component: MoveRightLogo, metadata: MoveRightLogoMetadata },
+    MoveUpLeftLogo: { Component: MoveUpLeftLogo, metadata: MoveUpLeftLogoMetadata },
+    MoveUpRightLogo: { Component: MoveUpRightLogo, metadata: MoveUpRightLogoMetadata },
+    MoveUpLogo: { Component: MoveUpLogo, metadata: MoveUpLogoMetadata },
+    MoveVerticalLogo: { Component: MoveVerticalLogo, metadata: MoveVerticalLogoMetadata },
+    Music2Logo: { Component: Music2Logo, metadata: Music2LogoMetadata },
+    Music3Logo: { Component: Music3Logo, metadata: Music3LogoMetadata },
+    Music4Logo: { Component: Music4Logo, metadata: Music4LogoMetadata },
+    Navigation2OffLogo: { Component: Navigation2OffLogo, metadata: Navigation2OffLogoMetadata },
+    NavigationOffLogo: { Component: NavigationOffLogo, metadata: NavigationOffLogoMetadata },
+    NetworkLogo: { Component: NetworkLogo, metadata: NetworkLogoMetadata },
+    NewspaperLogo: { Component: NewspaperLogo, metadata: NewspaperLogoMetadata },
+    NfcLogo: { Component: NfcLogo, metadata: NfcLogoMetadata },
+    NonBinaryLogo: { Component: NonBinaryLogo, metadata: NonBinaryLogoMetadata },
+    NotebookPenLogo: { Component: NotebookPenLogo, metadata: NotebookPenLogoMetadata },
+    NotebookTabsLogo: { Component: NotebookTabsLogo, metadata: NotebookTabsLogoMetadata },
+    NotebookTextLogo: { Component: NotebookTextLogo, metadata: NotebookTextLogoMetadata },
+    NotebookLogo: { Component: NotebookLogo, metadata: NotebookLogoMetadata },
+    NotepadTextDashedLogo: { Component: NotepadTextDashedLogo, metadata: NotepadTextDashedLogoMetadata },
+    NotepadTextLogo: { Component: NotepadTextLogo, metadata: NotepadTextLogoMetadata },
+    NutOffLogo: { Component: NutOffLogo, metadata: NutOffLogoMetadata },
+    NutLogo: { Component: NutLogo, metadata: NutLogoMetadata },
+    OctagonAlertLogo: { Component: OctagonAlertLogo, metadata: OctagonAlertLogoMetadata },
+    OctagonMinusLogo: { Component: OctagonMinusLogo, metadata: OctagonMinusLogoMetadata },
+    OctagonPauseLogo: { Component: OctagonPauseLogo, metadata: OctagonPauseLogoMetadata },
+    OctagonXLogo: { Component: OctagonXLogo, metadata: OctagonXLogoMetadata },
+    OmegaLogo: { Component: OmegaLogo, metadata: OmegaLogoMetadata },
+    OptionLogo: { Component: OptionLogo, metadata: OptionLogoMetadata },
+    OrbitLogo: { Component: OrbitLogo, metadata: OrbitLogoMetadata },
+    OrigamiLogo: { Component: OrigamiLogo, metadata: OrigamiLogoMetadata },
+    Package2Logo: { Component: Package2Logo, metadata: Package2LogoMetadata },
+    PackageCheckLogo: { Component: PackageCheckLogo, metadata: PackageCheckLogoMetadata },
+    PackageMinusLogo: { Component: PackageMinusLogo, metadata: PackageMinusLogoMetadata },
+    PackageOpenLogo: { Component: PackageOpenLogo, metadata: PackageOpenLogoMetadata },
+    PackagePlusLogo: { Component: PackagePlusLogo, metadata: PackagePlusLogoMetadata },
+    PackageSearchLogo: { Component: PackageSearchLogo, metadata: PackageSearchLogoMetadata },
+    PackageXLogo: { Component: PackageXLogo, metadata: PackageXLogoMetadata },
+    PaintBucketLogo: { Component: PaintBucketLogo, metadata: PaintBucketLogoMetadata },
+    PaintRollerLogo: { Component: PaintRollerLogo, metadata: PaintRollerLogoMetadata },
+    PaintbrushVerticalLogo: { Component: PaintbrushVerticalLogo, metadata: PaintbrushVerticalLogoMetadata },
+    PaintbrushLogo: { Component: PaintbrushLogo, metadata: PaintbrushLogoMetadata },
+    PaletteLogo: { Component: PaletteLogo, metadata: PaletteLogoMetadata },
+    PandaLogo: { Component: PandaLogo, metadata: PandaLogoMetadata },
+    PanelBottomCloseLogo: { Component: PanelBottomCloseLogo, metadata: PanelBottomCloseLogoMetadata },
+    PanelBottomDashedLogo: { Component: PanelBottomDashedLogo, metadata: PanelBottomDashedLogoMetadata },
+    PanelBottomOpenLogo: { Component: PanelBottomOpenLogo, metadata: PanelBottomOpenLogoMetadata },
+    PanelBottomLogo: { Component: PanelBottomLogo, metadata: PanelBottomLogoMetadata },
+    PanelLeftCloseLogo: { Component: PanelLeftCloseLogo, metadata: PanelLeftCloseLogoMetadata },
+    PanelLeftDashedLogo: { Component: PanelLeftDashedLogo, metadata: PanelLeftDashedLogoMetadata },
+    PanelLeftOpenLogo: { Component: PanelLeftOpenLogo, metadata: PanelLeftOpenLogoMetadata },
+    PanelLeftRightDashedLogo: { Component: PanelLeftRightDashedLogo, metadata: PanelLeftRightDashedLogoMetadata },
+    PanelLeftLogo: { Component: PanelLeftLogo, metadata: PanelLeftLogoMetadata },
+    PanelRightCloseLogo: { Component: PanelRightCloseLogo, metadata: PanelRightCloseLogoMetadata },
+    PanelRightDashedLogo: { Component: PanelRightDashedLogo, metadata: PanelRightDashedLogoMetadata },
+    PanelRightOpenLogo: { Component: PanelRightOpenLogo, metadata: PanelRightOpenLogoMetadata },
+    PanelRightLogo: { Component: PanelRightLogo, metadata: PanelRightLogoMetadata },
+    PanelTopBottomDashedLogo: { Component: PanelTopBottomDashedLogo, metadata: PanelTopBottomDashedLogoMetadata },
+    PanelTopCloseLogo: { Component: PanelTopCloseLogo, metadata: PanelTopCloseLogoMetadata },
+    PanelTopDashedLogo: { Component: PanelTopDashedLogo, metadata: PanelTopDashedLogoMetadata },
+    PanelTopOpenLogo: { Component: PanelTopOpenLogo, metadata: PanelTopOpenLogoMetadata },
+    PanelTopLogo: { Component: PanelTopLogo, metadata: PanelTopLogoMetadata },
+    PanelsLeftBottomLogo: { Component: PanelsLeftBottomLogo, metadata: PanelsLeftBottomLogoMetadata },
+    PanelsRightBottomLogo: { Component: PanelsRightBottomLogo, metadata: PanelsRightBottomLogoMetadata },
+    PanelsTopLeftLogo: { Component: PanelsTopLeftLogo, metadata: PanelsTopLeftLogoMetadata },
+    ParenthesesLogo: { Component: ParenthesesLogo, metadata: ParenthesesLogoMetadata },
+    ParkingMeterLogo: { Component: ParkingMeterLogo, metadata: ParkingMeterLogoMetadata },
+    PartyPopperLogo: { Component: PartyPopperLogo, metadata: PartyPopperLogoMetadata },
+    PawPrintLogo: { Component: PawPrintLogo, metadata: PawPrintLogoMetadata },
+    PcCaseLogo: { Component: PcCaseLogo, metadata: PcCaseLogoMetadata },
+    PenLineLogo: { Component: PenLineLogo, metadata: PenLineLogoMetadata },
+    PenOffLogo: { Component: PenOffLogo, metadata: PenOffLogoMetadata },
+    PenLogo: { Component: PenLogo, metadata: PenLogoMetadata },
+    PencilLineLogo: { Component: PencilLineLogo, metadata: PencilLineLogoMetadata },
+    PencilOffLogo: { Component: PencilOffLogo, metadata: PencilOffLogoMetadata },
+    PencilRulerLogo: { Component: PencilRulerLogo, metadata: PencilRulerLogoMetadata },
+    PencilLogo: { Component: PencilLogo, metadata: PencilLogoMetadata },
+    PentagonLogo: { Component: PentagonLogo, metadata: PentagonLogoMetadata },
+    PersonStandingLogo: { Component: PersonStandingLogo, metadata: PersonStandingLogoMetadata },
+    PhilippinePesoLogo: { Component: PhilippinePesoLogo, metadata: PhilippinePesoLogoMetadata },
+    PiLogo: { Component: PiLogo, metadata: PiLogoMetadata },
+    PianoLogo: { Component: PianoLogo, metadata: PianoLogoMetadata },
+    PickaxeLogo: { Component: PickaxeLogo, metadata: PickaxeLogoMetadata },
+    PictureInPicture2Logo: { Component: PictureInPicture2Logo, metadata: PictureInPicture2LogoMetadata },
+    PictureInPictureLogo: { Component: PictureInPictureLogo, metadata: PictureInPictureLogoMetadata },
+    PiggyBankLogo: { Component: PiggyBankLogo, metadata: PiggyBankLogoMetadata },
+    PilcrowLeftLogo: { Component: PilcrowLeftLogo, metadata: PilcrowLeftLogoMetadata },
+    PilcrowRightLogo: { Component: PilcrowRightLogo, metadata: PilcrowRightLogoMetadata },
+    PilcrowLogo: { Component: PilcrowLogo, metadata: PilcrowLogoMetadata },
+    PillBottleLogo: { Component: PillBottleLogo, metadata: PillBottleLogoMetadata },
+    PillLogo: { Component: PillLogo, metadata: PillLogoMetadata },
+    PinOffLogo: { Component: PinOffLogo, metadata: PinOffLogoMetadata },
+    PinLogo: { Component: PinLogo, metadata: PinLogoMetadata },
+    PipetteLogo: { Component: PipetteLogo, metadata: PipetteLogoMetadata },
+    PizzaLogo: { Component: PizzaLogo, metadata: PizzaLogoMetadata },
+    PlaneLandingLogo: { Component: PlaneLandingLogo, metadata: PlaneLandingLogoMetadata },
+    PlaneTakeoffLogo: { Component: PlaneTakeoffLogo, metadata: PlaneTakeoffLogoMetadata },
+    PlaneLogo: { Component: PlaneLogo, metadata: PlaneLogoMetadata },
+    Plug2Logo: { Component: Plug2Logo, metadata: Plug2LogoMetadata },
+    PlugZapLogo: { Component: PlugZapLogo, metadata: PlugZapLogoMetadata },
+    PlugLogo: { Component: PlugLogo, metadata: PlugLogoMetadata },
+    PocketKnifeLogo: { Component: PocketKnifeLogo, metadata: PocketKnifeLogoMetadata },
+    PodcastLogo: { Component: PodcastLogo, metadata: PodcastLogoMetadata },
+    PointerOffLogo: { Component: PointerOffLogo, metadata: PointerOffLogoMetadata },
+    PointerLogo: { Component: PointerLogo, metadata: PointerLogoMetadata },
+    PopcornLogo: { Component: PopcornLogo, metadata: PopcornLogoMetadata },
+    PopsicleLogo: { Component: PopsicleLogo, metadata: PopsicleLogoMetadata },
+    PoundSterlingLogo: { Component: PoundSterlingLogo, metadata: PoundSterlingLogoMetadata },
+    PowerOffLogo: { Component: PowerOffLogo, metadata: PowerOffLogoMetadata },
+    PresentationLogo: { Component: PresentationLogo, metadata: PresentationLogoMetadata },
+    PrinterCheckLogo: { Component: PrinterCheckLogo, metadata: PrinterCheckLogoMetadata },
+    PrinterXLogo: { Component: PrinterXLogo, metadata: PrinterXLogoMetadata },
+    ProjectorLogo: { Component: ProjectorLogo, metadata: ProjectorLogoMetadata },
+    ProportionsLogo: { Component: ProportionsLogo, metadata: ProportionsLogoMetadata },
+    PuzzleLogo: { Component: PuzzleLogo, metadata: PuzzleLogoMetadata },
+    PyramidLogo: { Component: PyramidLogo, metadata: PyramidLogoMetadata },
+    QrCodeLogo: { Component: QrCodeLogo, metadata: QrCodeLogoMetadata },
+    QuoteLogo: { Component: QuoteLogo, metadata: QuoteLogoMetadata },
+    RabbitLogo: { Component: RabbitLogo, metadata: RabbitLogoMetadata },
+    RadarLogo: { Component: RadarLogo, metadata: RadarLogoMetadata },
+    RadiationLogo: { Component: RadiationLogo, metadata: RadiationLogoMetadata },
+    RadicalLogo: { Component: RadicalLogo, metadata: RadicalLogoMetadata },
+    RadioReceiverLogo: { Component: RadioReceiverLogo, metadata: RadioReceiverLogoMetadata },
+    RadioTowerLogo: { Component: RadioTowerLogo, metadata: RadioTowerLogoMetadata },
+    RadiusLogo: { Component: RadiusLogo, metadata: RadiusLogoMetadata },
+    RailSymbolLogo: { Component: RailSymbolLogo, metadata: RailSymbolLogoMetadata },
+    RainbowLogo: { Component: RainbowLogo, metadata: RainbowLogoMetadata },
+    RatLogo: { Component: RatLogo, metadata: RatLogoMetadata },
+    RatioLogo: { Component: RatioLogo, metadata: RatioLogoMetadata },
+    ReceiptCentLogo: { Component: ReceiptCentLogo, metadata: ReceiptCentLogoMetadata },
+    ReceiptEuroLogo: { Component: ReceiptEuroLogo, metadata: ReceiptEuroLogoMetadata },
+    ReceiptIndianRupeeLogo: { Component: ReceiptIndianRupeeLogo, metadata: ReceiptIndianRupeeLogoMetadata },
+    ReceiptJapaneseYenLogo: { Component: ReceiptJapaneseYenLogo, metadata: ReceiptJapaneseYenLogoMetadata },
+    ReceiptPoundSterlingLogo: { Component: ReceiptPoundSterlingLogo, metadata: ReceiptPoundSterlingLogoMetadata },
+    ReceiptRussianRubleLogo: { Component: ReceiptRussianRubleLogo, metadata: ReceiptRussianRubleLogoMetadata },
+    ReceiptSwissFrancLogo: { Component: ReceiptSwissFrancLogo, metadata: ReceiptSwissFrancLogoMetadata },
+    ReceiptTextLogo: { Component: ReceiptTextLogo, metadata: ReceiptTextLogoMetadata },
+    ReceiptTurkishLiraLogo: { Component: ReceiptTurkishLiraLogo, metadata: ReceiptTurkishLiraLogoMetadata },
+    ReceiptLogo: { Component: ReceiptLogo, metadata: ReceiptLogoMetadata },
+    RectangleCircleLogo: { Component: RectangleCircleLogo, metadata: RectangleCircleLogoMetadata },
+    RectangleEllipsisLogo: { Component: RectangleEllipsisLogo, metadata: RectangleEllipsisLogoMetadata },
+    RectangleGogglesLogo: { Component: RectangleGogglesLogo, metadata: RectangleGogglesLogoMetadata },
+    RectangleHorizontalLogo: { Component: RectangleHorizontalLogo, metadata: RectangleHorizontalLogoMetadata },
+    RectangleVerticalLogo: { Component: RectangleVerticalLogo, metadata: RectangleVerticalLogoMetadata },
+    RecycleLogo: { Component: RecycleLogo, metadata: RecycleLogoMetadata },
+    Redo2Logo: { Component: Redo2Logo, metadata: Redo2LogoMetadata },
+    RedoDotLogo: { Component: RedoDotLogo, metadata: RedoDotLogoMetadata },
+    RedoLogo: { Component: RedoLogo, metadata: RedoLogoMetadata },
+    RefreshCcwDotLogo: { Component: RefreshCcwDotLogo, metadata: RefreshCcwDotLogoMetadata },
+    RefreshCwOffLogo: { Component: RefreshCwOffLogo, metadata: RefreshCwOffLogoMetadata },
+    RefrigeratorLogo: { Component: RefrigeratorLogo, metadata: RefrigeratorLogoMetadata },
+    RegexLogo: { Component: RegexLogo, metadata: RegexLogoMetadata },
+    RemoveFormattingLogo: { Component: RemoveFormattingLogo, metadata: RemoveFormattingLogoMetadata },
+    Repeat1Logo: { Component: Repeat1Logo, metadata: Repeat1LogoMetadata },
+    Repeat2Logo: { Component: Repeat2Logo, metadata: Repeat2LogoMetadata },
+    ReplaceAllLogo: { Component: ReplaceAllLogo, metadata: ReplaceAllLogoMetadata },
+    ReplaceLogo: { Component: ReplaceLogo, metadata: ReplaceLogoMetadata },
+    ReplyAllLogo: { Component: ReplyAllLogo, metadata: ReplyAllLogoMetadata },
+    ReplyLogo: { Component: ReplyLogo, metadata: ReplyLogoMetadata },
+    RibbonLogo: { Component: RibbonLogo, metadata: RibbonLogoMetadata },
+    RocketLogo: { Component: RocketLogo, metadata: RocketLogoMetadata },
+    RockingChairLogo: { Component: RockingChairLogo, metadata: RockingChairLogoMetadata },
+    RollerCoasterLogo: { Component: RollerCoasterLogo, metadata: RollerCoasterLogoMetadata },
+    RoseLogo: { Component: RoseLogo, metadata: RoseLogoMetadata },
+    Rotate3dLogo: { Component: Rotate3dLogo, metadata: Rotate3dLogoMetadata },
+    RotateCcwKeyLogo: { Component: RotateCcwKeyLogo, metadata: RotateCcwKeyLogoMetadata },
+    RotateCcwSquareLogo: { Component: RotateCcwSquareLogo, metadata: RotateCcwSquareLogoMetadata },
+    RotateCwSquareLogo: { Component: RotateCwSquareLogo, metadata: RotateCwSquareLogoMetadata },
+    RouteOffLogo: { Component: RouteOffLogo, metadata: RouteOffLogoMetadata },
+    RouteLogo: { Component: RouteLogo, metadata: RouteLogoMetadata },
+    RouterLogo: { Component: RouterLogo, metadata: RouterLogoMetadata },
+    Rows2Logo: { Component: Rows2Logo, metadata: Rows2LogoMetadata },
+    Rows3Logo: { Component: Rows3Logo, metadata: Rows3LogoMetadata },
+    Rows4Logo: { Component: Rows4Logo, metadata: Rows4LogoMetadata },
+    RulerDimensionLineLogo: { Component: RulerDimensionLineLogo, metadata: RulerDimensionLineLogoMetadata },
+    RulerLogo: { Component: RulerLogo, metadata: RulerLogoMetadata },
+    RussianRubleLogo: { Component: RussianRubleLogo, metadata: RussianRubleLogoMetadata },
+    SailboatLogo: { Component: SailboatLogo, metadata: SailboatLogoMetadata },
+    SaladLogo: { Component: SaladLogo, metadata: SaladLogoMetadata },
+    SandwichLogo: { Component: SandwichLogo, metadata: SandwichLogoMetadata },
+    SatelliteDishLogo: { Component: SatelliteDishLogo, metadata: SatelliteDishLogoMetadata },
+    SatelliteLogo: { Component: SatelliteLogo, metadata: SatelliteLogoMetadata },
+    SaudiRiyalLogo: { Component: SaudiRiyalLogo, metadata: SaudiRiyalLogoMetadata },
+    SaveAllLogo: { Component: SaveAllLogo, metadata: SaveAllLogoMetadata },
+    SaveOffLogo: { Component: SaveOffLogo, metadata: SaveOffLogoMetadata },
+    Scale3dLogo: { Component: Scale3dLogo, metadata: Scale3dLogoMetadata },
+    ScaleLogo: { Component: ScaleLogo, metadata: ScaleLogoMetadata },
+    ScalingLogo: { Component: ScalingLogo, metadata: ScalingLogoMetadata },
+    ScanBarcodeLogo: { Component: ScanBarcodeLogo, metadata: ScanBarcodeLogoMetadata },
+    ScanEyeLogo: { Component: ScanEyeLogo, metadata: ScanEyeLogoMetadata },
+    ScanFaceLogo: { Component: ScanFaceLogo, metadata: ScanFaceLogoMetadata },
+    ScanHeartLogo: { Component: ScanHeartLogo, metadata: ScanHeartLogoMetadata },
+    ScanLineLogo: { Component: ScanLineLogo, metadata: ScanLineLogoMetadata },
+    ScanQrCodeLogo: { Component: ScanQrCodeLogo, metadata: ScanQrCodeLogoMetadata },
+    ScanSearchLogo: { Component: ScanSearchLogo, metadata: ScanSearchLogoMetadata },
+    ScanTextLogo: { Component: ScanTextLogo, metadata: ScanTextLogoMetadata },
+    ScanLogo: { Component: ScanLogo, metadata: ScanLogoMetadata },
+    SchoolLogo: { Component: SchoolLogo, metadata: SchoolLogoMetadata },
+    ScissorsLineDashedLogo: { Component: ScissorsLineDashedLogo, metadata: ScissorsLineDashedLogoMetadata },
+    ScooterLogo: { Component: ScooterLogo, metadata: ScooterLogoMetadata },
+    ScreenShareOffLogo: { Component: ScreenShareOffLogo, metadata: ScreenShareOffLogoMetadata },
+    ScreenShareLogo: { Component: ScreenShareLogo, metadata: ScreenShareLogoMetadata },
+    ScrollTextLogo: { Component: ScrollTextLogo, metadata: ScrollTextLogoMetadata },
+    ScrollLogo: { Component: ScrollLogo, metadata: ScrollLogoMetadata },
+    SearchAlertLogo: { Component: SearchAlertLogo, metadata: SearchAlertLogoMetadata },
+    SearchCheckLogo: { Component: SearchCheckLogo, metadata: SearchCheckLogoMetadata },
+    SearchCodeLogo: { Component: SearchCodeLogo, metadata: SearchCodeLogoMetadata },
+    SearchSlashLogo: { Component: SearchSlashLogo, metadata: SearchSlashLogoMetadata },
+    SearchXLogo: { Component: SearchXLogo, metadata: SearchXLogoMetadata },
+    SectionLogo: { Component: SectionLogo, metadata: SectionLogoMetadata },
+    SendHorizontalLogo: { Component: SendHorizontalLogo, metadata: SendHorizontalLogoMetadata },
+    SendToBackLogo: { Component: SendToBackLogo, metadata: SendToBackLogoMetadata },
+    SeparatorHorizontalLogo: { Component: SeparatorHorizontalLogo, metadata: SeparatorHorizontalLogoMetadata },
+    SeparatorVerticalLogo: { Component: SeparatorVerticalLogo, metadata: SeparatorVerticalLogoMetadata },
+    ServerCogLogo: { Component: ServerCogLogo, metadata: ServerCogLogoMetadata },
+    ServerCrashLogo: { Component: ServerCrashLogo, metadata: ServerCrashLogoMetadata },
+    ServerOffLogo: { Component: ServerOffLogo, metadata: ServerOffLogoMetadata },
+    Settings2Logo: { Component: Settings2Logo, metadata: Settings2LogoMetadata },
+    ShapesLogo: { Component: ShapesLogo, metadata: ShapesLogoMetadata },
+    SheetLogo: { Component: SheetLogo, metadata: SheetLogoMetadata },
+    ShellLogo: { Component: ShellLogo, metadata: ShellLogoMetadata },
+    ShelvingUnitLogo: { Component: ShelvingUnitLogo, metadata: ShelvingUnitLogoMetadata },
+    ShieldAlertLogo: { Component: ShieldAlertLogo, metadata: ShieldAlertLogoMetadata },
+    ShieldBanLogo: { Component: ShieldBanLogo, metadata: ShieldBanLogoMetadata },
+    ShieldCheckLogo: { Component: ShieldCheckLogo, metadata: ShieldCheckLogoMetadata },
+    ShieldEllipsisLogo: { Component: ShieldEllipsisLogo, metadata: ShieldEllipsisLogoMetadata },
+    ShieldHalfLogo: { Component: ShieldHalfLogo, metadata: ShieldHalfLogoMetadata },
+    ShieldMinusLogo: { Component: ShieldMinusLogo, metadata: ShieldMinusLogoMetadata },
+    ShieldPlusLogo: { Component: ShieldPlusLogo, metadata: ShieldPlusLogoMetadata },
+    ShieldQuestionMarkLogo: { Component: ShieldQuestionMarkLogo, metadata: ShieldQuestionMarkLogoMetadata },
+    ShieldUserLogo: { Component: ShieldUserLogo, metadata: ShieldUserLogoMetadata },
+    ShieldXLogo: { Component: ShieldXLogo, metadata: ShieldXLogoMetadata },
+    ShipWheelLogo: { Component: ShipWheelLogo, metadata: ShipWheelLogoMetadata },
+    ShipLogo: { Component: ShipLogo, metadata: ShipLogoMetadata },
+    ShirtLogo: { Component: ShirtLogo, metadata: ShirtLogoMetadata },
+    ShoppingBasketLogo: { Component: ShoppingBasketLogo, metadata: ShoppingBasketLogoMetadata },
+    ShovelLogo: { Component: ShovelLogo, metadata: ShovelLogoMetadata },
+    ShowerHeadLogo: { Component: ShowerHeadLogo, metadata: ShowerHeadLogoMetadata },
+    ShredderLogo: { Component: ShredderLogo, metadata: ShredderLogoMetadata },
+    ShrimpLogo: { Component: ShrimpLogo, metadata: ShrimpLogoMetadata },
+    ShrinkLogo: { Component: ShrinkLogo, metadata: ShrinkLogoMetadata },
+    ShrubLogo: { Component: ShrubLogo, metadata: ShrubLogoMetadata },
+    SigmaLogo: { Component: SigmaLogo, metadata: SigmaLogoMetadata },
+    SignalHighLogo: { Component: SignalHighLogo, metadata: SignalHighLogoMetadata },
+    SignalLowLogo: { Component: SignalLowLogo, metadata: SignalLowLogoMetadata },
+    SignalMediumLogo: { Component: SignalMediumLogo, metadata: SignalMediumLogoMetadata },
+    SignalZeroLogo: { Component: SignalZeroLogo, metadata: SignalZeroLogoMetadata },
+    SignalLogo: { Component: SignalLogo, metadata: SignalLogoMetadata },
+    SignatureLogo: { Component: SignatureLogo, metadata: SignatureLogoMetadata },
+    SignpostBigLogo: { Component: SignpostBigLogo, metadata: SignpostBigLogoMetadata },
+    SignpostLogo: { Component: SignpostLogo, metadata: SignpostLogoMetadata },
+    SirenLogo: { Component: SirenLogo, metadata: SirenLogoMetadata },
+    SkullLogo: { Component: SkullLogo, metadata: SkullLogoMetadata },
+    SliceLogo: { Component: SliceLogo, metadata: SliceLogoMetadata },
+    SlidersHorizontalLogo: { Component: SlidersHorizontalLogo, metadata: SlidersHorizontalLogoMetadata },
+    SlidersVerticalLogo: { Component: SlidersVerticalLogo, metadata: SlidersVerticalLogoMetadata },
+    SmartphoneChargingLogo: { Component: SmartphoneChargingLogo, metadata: SmartphoneChargingLogoMetadata },
+    SmartphoneNfcLogo: { Component: SmartphoneNfcLogo, metadata: SmartphoneNfcLogoMetadata },
+    SmilePlusLogo: { Component: SmilePlusLogo, metadata: SmilePlusLogoMetadata },
+    SnailLogo: { Component: SnailLogo, metadata: SnailLogoMetadata },
+    SnowflakeLogo: { Component: SnowflakeLogo, metadata: SnowflakeLogoMetadata },
+    SoapDispenserDropletLogo: { Component: SoapDispenserDropletLogo, metadata: SoapDispenserDropletLogoMetadata },
+    SofaLogo: { Component: SofaLogo, metadata: SofaLogoMetadata },
+    SolarPanelLogo: { Component: SolarPanelLogo, metadata: SolarPanelLogoMetadata },
+    SoupLogo: { Component: SoupLogo, metadata: SoupLogoMetadata },
+    SpaceLogo: { Component: SpaceLogo, metadata: SpaceLogoMetadata },
+    SpadeLogo: { Component: SpadeLogo, metadata: SpadeLogoMetadata },
+    SparkleLogo: { Component: SparkleLogo, metadata: SparkleLogoMetadata },
+    SparklesLogo: { Component: SparklesLogo, metadata: SparklesLogoMetadata },
+    SpeechLogo: { Component: SpeechLogo, metadata: SpeechLogoMetadata },
+    SpellCheck2Logo: { Component: SpellCheck2Logo, metadata: SpellCheck2LogoMetadata },
+    SpellCheckLogo: { Component: SpellCheckLogo, metadata: SpellCheckLogoMetadata },
+    SplinePointerLogo: { Component: SplinePointerLogo, metadata: SplinePointerLogoMetadata },
+    SplineLogo: { Component: SplineLogo, metadata: SplineLogoMetadata },
+    SplitLogo: { Component: SplitLogo, metadata: SplitLogoMetadata },
+    SpoolLogo: { Component: SpoolLogo, metadata: SpoolLogoMetadata },
+    SpotlightLogo: { Component: SpotlightLogo, metadata: SpotlightLogoMetadata },
+    SprayCanLogo: { Component: SprayCanLogo, metadata: SprayCanLogoMetadata },
+    SproutLogo: { Component: SproutLogo, metadata: SproutLogoMetadata },
+    SquareActivityLogo: { Component: SquareActivityLogo, metadata: SquareActivityLogoMetadata },
+    SquareArrowDownLeftLogo: { Component: SquareArrowDownLeftLogo, metadata: SquareArrowDownLeftLogoMetadata },
+    SquareArrowDownRightLogo: { Component: SquareArrowDownRightLogo, metadata: SquareArrowDownRightLogoMetadata },
+    SquareArrowDownLogo: { Component: SquareArrowDownLogo, metadata: SquareArrowDownLogoMetadata },
+    SquareArrowLeftLogo: { Component: SquareArrowLeftLogo, metadata: SquareArrowLeftLogoMetadata },
+    SquareArrowOutDownLeftLogo: { Component: SquareArrowOutDownLeftLogo, metadata: SquareArrowOutDownLeftLogoMetadata },
+    SquareArrowOutDownRightLogo: { Component: SquareArrowOutDownRightLogo, metadata: SquareArrowOutDownRightLogoMetadata },
+    SquareArrowOutUpLeftLogo: { Component: SquareArrowOutUpLeftLogo, metadata: SquareArrowOutUpLeftLogoMetadata },
+    SquareArrowOutUpRightLogo: { Component: SquareArrowOutUpRightLogo, metadata: SquareArrowOutUpRightLogoMetadata },
+    SquareArrowRightEnterLogo: { Component: SquareArrowRightEnterLogo, metadata: SquareArrowRightEnterLogoMetadata },
+    SquareArrowRightExitLogo: { Component: SquareArrowRightExitLogo, metadata: SquareArrowRightExitLogoMetadata },
+    SquareArrowRightLogo: { Component: SquareArrowRightLogo, metadata: SquareArrowRightLogoMetadata },
+    SquareArrowUpLeftLogo: { Component: SquareArrowUpLeftLogo, metadata: SquareArrowUpLeftLogoMetadata },
+    SquareArrowUpRightLogo: { Component: SquareArrowUpRightLogo, metadata: SquareArrowUpRightLogoMetadata },
+    SquareArrowUpLogo: { Component: SquareArrowUpLogo, metadata: SquareArrowUpLogoMetadata },
+    SquareAsteriskLogo: { Component: SquareAsteriskLogo, metadata: SquareAsteriskLogoMetadata },
+    SquareBottomDashedScissorsLogo: { Component: SquareBottomDashedScissorsLogo, metadata: SquareBottomDashedScissorsLogoMetadata },
+    SquareCenterlineDashedHorizontalLogo: { Component: SquareCenterlineDashedHorizontalLogo, metadata: SquareCenterlineDashedHorizontalLogoMetadata },
+    SquareCenterlineDashedVerticalLogo: { Component: SquareCenterlineDashedVerticalLogo, metadata: SquareCenterlineDashedVerticalLogoMetadata },
+    SquareChartGanttLogo: { Component: SquareChartGanttLogo, metadata: SquareChartGanttLogoMetadata },
+    SquareCheckBigLogo: { Component: SquareCheckBigLogo, metadata: SquareCheckBigLogoMetadata },
+    SquareCheckLogo: { Component: SquareCheckLogo, metadata: SquareCheckLogoMetadata },
+    SquareChevronDownLogo: { Component: SquareChevronDownLogo, metadata: SquareChevronDownLogoMetadata },
+    SquareChevronLeftLogo: { Component: SquareChevronLeftLogo, metadata: SquareChevronLeftLogoMetadata },
+    SquareChevronRightLogo: { Component: SquareChevronRightLogo, metadata: SquareChevronRightLogoMetadata },
+    SquareChevronUpLogo: { Component: SquareChevronUpLogo, metadata: SquareChevronUpLogoMetadata },
+    SquareCodeLogo: { Component: SquareCodeLogo, metadata: SquareCodeLogoMetadata },
+    SquareDashedBottomCodeLogo: { Component: SquareDashedBottomCodeLogo, metadata: SquareDashedBottomCodeLogoMetadata },
+    SquareDashedBottomLogo: { Component: SquareDashedBottomLogo, metadata: SquareDashedBottomLogoMetadata },
+    SquareDashedKanbanLogo: { Component: SquareDashedKanbanLogo, metadata: SquareDashedKanbanLogoMetadata },
+    SquareDashedMousePointerLogo: { Component: SquareDashedMousePointerLogo, metadata: SquareDashedMousePointerLogoMetadata },
+    SquareDashedTopSolidLogo: { Component: SquareDashedTopSolidLogo, metadata: SquareDashedTopSolidLogoMetadata },
+    SquareDashedLogo: { Component: SquareDashedLogo, metadata: SquareDashedLogoMetadata },
+    SquareDivideLogo: { Component: SquareDivideLogo, metadata: SquareDivideLogoMetadata },
+    SquareDotLogo: { Component: SquareDotLogo, metadata: SquareDotLogoMetadata },
+    SquareEqualLogo: { Component: SquareEqualLogo, metadata: SquareEqualLogoMetadata },
+    SquareFunctionLogo: { Component: SquareFunctionLogo, metadata: SquareFunctionLogoMetadata },
+    SquareKanbanLogo: { Component: SquareKanbanLogo, metadata: SquareKanbanLogoMetadata },
+    SquareLibraryLogo: { Component: SquareLibraryLogo, metadata: SquareLibraryLogoMetadata },
+    SquareMLogo: { Component: SquareMLogo, metadata: SquareMLogoMetadata },
+    SquareMenuLogo: { Component: SquareMenuLogo, metadata: SquareMenuLogoMetadata },
+    SquareMinusLogo: { Component: SquareMinusLogo, metadata: SquareMinusLogoMetadata },
+    SquareMousePointerLogo: { Component: SquareMousePointerLogo, metadata: SquareMousePointerLogoMetadata },
+    SquareParkingOffLogo: { Component: SquareParkingOffLogo, metadata: SquareParkingOffLogoMetadata },
+    SquareParkingLogo: { Component: SquareParkingLogo, metadata: SquareParkingLogoMetadata },
+    SquarePauseLogo: { Component: SquarePauseLogo, metadata: SquarePauseLogoMetadata },
+    SquarePenLogo: { Component: SquarePenLogo, metadata: SquarePenLogoMetadata },
+    SquarePercentLogo: { Component: SquarePercentLogo, metadata: SquarePercentLogoMetadata },
+    SquarePiLogo: { Component: SquarePiLogo, metadata: SquarePiLogoMetadata },
+    SquarePilcrowLogo: { Component: SquarePilcrowLogo, metadata: SquarePilcrowLogoMetadata },
+    SquarePlayLogo: { Component: SquarePlayLogo, metadata: SquarePlayLogoMetadata },
+    SquarePlusLogo: { Component: SquarePlusLogo, metadata: SquarePlusLogoMetadata },
+    SquarePowerLogo: { Component: SquarePowerLogo, metadata: SquarePowerLogoMetadata },
+    SquareRadicalLogo: { Component: SquareRadicalLogo, metadata: SquareRadicalLogoMetadata },
+    SquareRoundCornerLogo: { Component: SquareRoundCornerLogo, metadata: SquareRoundCornerLogoMetadata },
+    SquareScissorsLogo: { Component: SquareScissorsLogo, metadata: SquareScissorsLogoMetadata },
+    SquareSigmaLogo: { Component: SquareSigmaLogo, metadata: SquareSigmaLogoMetadata },
+    SquareSlashLogo: { Component: SquareSlashLogo, metadata: SquareSlashLogoMetadata },
+    SquareSplitHorizontalLogo: { Component: SquareSplitHorizontalLogo, metadata: SquareSplitHorizontalLogoMetadata },
+    SquareSplitVerticalLogo: { Component: SquareSplitVerticalLogo, metadata: SquareSplitVerticalLogoMetadata },
+    SquareSquareLogo: { Component: SquareSquareLogo, metadata: SquareSquareLogoMetadata },
+    SquareStackLogo: { Component: SquareStackLogo, metadata: SquareStackLogoMetadata },
+    SquareStarLogo: { Component: SquareStarLogo, metadata: SquareStarLogoMetadata },
+    SquareStopLogo: { Component: SquareStopLogo, metadata: SquareStopLogoMetadata },
+    SquareTerminalLogo: { Component: SquareTerminalLogo, metadata: SquareTerminalLogoMetadata },
+    SquareUserRoundLogo: { Component: SquareUserRoundLogo, metadata: SquareUserRoundLogoMetadata },
+    SquareUserLogo: { Component: SquareUserLogo, metadata: SquareUserLogoMetadata },
+    SquareXLogo: { Component: SquareXLogo, metadata: SquareXLogoMetadata },
+    SquaresExcludeLogo: { Component: SquaresExcludeLogo, metadata: SquaresExcludeLogoMetadata },
+    SquaresIntersectLogo: { Component: SquaresIntersectLogo, metadata: SquaresIntersectLogoMetadata },
+    SquaresSubtractLogo: { Component: SquaresSubtractLogo, metadata: SquaresSubtractLogoMetadata },
+    SquaresUniteLogo: { Component: SquaresUniteLogo, metadata: SquaresUniteLogoMetadata },
+    SquircleDashedLogo: { Component: SquircleDashedLogo, metadata: SquircleDashedLogoMetadata },
+    SquircleLogo: { Component: SquircleLogo, metadata: SquircleLogoMetadata },
+    SquirrelLogo: { Component: SquirrelLogo, metadata: SquirrelLogoMetadata },
+    StampLogo: { Component: StampLogo, metadata: StampLogoMetadata },
+    StarHalfLogo: { Component: StarHalfLogo, metadata: StarHalfLogoMetadata },
+    StarOffLogo: { Component: StarOffLogo, metadata: StarOffLogoMetadata },
+    StepBackLogo: { Component: StepBackLogo, metadata: StepBackLogoMetadata },
+    StepForwardLogo: { Component: StepForwardLogo, metadata: StepForwardLogoMetadata },
+    StethoscopeLogo: { Component: StethoscopeLogo, metadata: StethoscopeLogoMetadata },
+    StickerLogo: { Component: StickerLogo, metadata: StickerLogoMetadata },
+    StickyNoteLogo: { Component: StickyNoteLogo, metadata: StickyNoteLogoMetadata },
+    StoneLogo: { Component: StoneLogo, metadata: StoneLogoMetadata },
+    StoreLogo: { Component: StoreLogo, metadata: StoreLogoMetadata },
+    StretchHorizontalLogo: { Component: StretchHorizontalLogo, metadata: StretchHorizontalLogoMetadata },
+    StretchVerticalLogo: { Component: StretchVerticalLogo, metadata: StretchVerticalLogoMetadata },
+    StrikethroughLogo: { Component: StrikethroughLogo, metadata: StrikethroughLogoMetadata },
+    SubscriptLogo: { Component: SubscriptLogo, metadata: SubscriptLogoMetadata },
+    SunDimLogo: { Component: SunDimLogo, metadata: SunDimLogoMetadata },
+    SunMediumLogo: { Component: SunMediumLogo, metadata: SunMediumLogoMetadata },
+    SunMoonLogo: { Component: SunMoonLogo, metadata: SunMoonLogoMetadata },
+    SunSnowLogo: { Component: SunSnowLogo, metadata: SunSnowLogoMetadata },
+    SuperscriptLogo: { Component: SuperscriptLogo, metadata: SuperscriptLogoMetadata },
+    SwatchBookLogo: { Component: SwatchBookLogo, metadata: SwatchBookLogoMetadata },
+    SwissFrancLogo: { Component: SwissFrancLogo, metadata: SwissFrancLogoMetadata },
+    SwitchCameraLogo: { Component: SwitchCameraLogo, metadata: SwitchCameraLogoMetadata },
+    SwordLogo: { Component: SwordLogo, metadata: SwordLogoMetadata },
+    SwordsLogo: { Component: SwordsLogo, metadata: SwordsLogoMetadata },
+    SyringeLogo: { Component: SyringeLogo, metadata: SyringeLogoMetadata },
+    Table2Logo: { Component: Table2Logo, metadata: Table2LogoMetadata },
+    TableCellsMergeLogo: { Component: TableCellsMergeLogo, metadata: TableCellsMergeLogoMetadata },
+    TableCellsSplitLogo: { Component: TableCellsSplitLogo, metadata: TableCellsSplitLogoMetadata },
+    TableColumnsSplitLogo: { Component: TableColumnsSplitLogo, metadata: TableColumnsSplitLogoMetadata },
+    TableOfContentsLogo: { Component: TableOfContentsLogo, metadata: TableOfContentsLogoMetadata },
+    TablePropertiesLogo: { Component: TablePropertiesLogo, metadata: TablePropertiesLogoMetadata },
+    TableRowsSplitLogo: { Component: TableRowsSplitLogo, metadata: TableRowsSplitLogoMetadata },
+    TabletSmartphoneLogo: { Component: TabletSmartphoneLogo, metadata: TabletSmartphoneLogoMetadata },
+    TabletsLogo: { Component: TabletsLogo, metadata: TabletsLogoMetadata },
+    TagsLogo: { Component: TagsLogo, metadata: TagsLogoMetadata },
+    Tally1Logo: { Component: Tally1Logo, metadata: Tally1LogoMetadata },
+    Tally2Logo: { Component: Tally2Logo, metadata: Tally2LogoMetadata },
+    Tally3Logo: { Component: Tally3Logo, metadata: Tally3LogoMetadata },
+    Tally4Logo: { Component: Tally4Logo, metadata: Tally4LogoMetadata },
+    Tally5Logo: { Component: Tally5Logo, metadata: Tally5LogoMetadata },
+    TangentLogo: { Component: TangentLogo, metadata: TangentLogoMetadata },
+    TelescopeLogo: { Component: TelescopeLogo, metadata: TelescopeLogoMetadata },
+    TentTreeLogo: { Component: TentTreeLogo, metadata: TentTreeLogoMetadata },
+    TentLogo: { Component: TentLogo, metadata: TentLogoMetadata },
+    TestTubeDiagonalLogo: { Component: TestTubeDiagonalLogo, metadata: TestTubeDiagonalLogoMetadata },
+    TestTubeLogo: { Component: TestTubeLogo, metadata: TestTubeLogoMetadata },
+    TestTubesLogo: { Component: TestTubesLogo, metadata: TestTubesLogoMetadata },
+    TextAlignCenterLogo: { Component: TextAlignCenterLogo, metadata: TextAlignCenterLogoMetadata },
+    TextAlignEndLogo: { Component: TextAlignEndLogo, metadata: TextAlignEndLogoMetadata },
+    TextAlignJustifyLogo: { Component: TextAlignJustifyLogo, metadata: TextAlignJustifyLogoMetadata },
+    TextAlignStartLogo: { Component: TextAlignStartLogo, metadata: TextAlignStartLogoMetadata },
+    TextCursorInputLogo: { Component: TextCursorInputLogo, metadata: TextCursorInputLogoMetadata },
+    TextCursorLogo: { Component: TextCursorLogo, metadata: TextCursorLogoMetadata },
+    TextInitialLogo: { Component: TextInitialLogo, metadata: TextInitialLogoMetadata },
+    TextQuoteLogo: { Component: TextQuoteLogo, metadata: TextQuoteLogoMetadata },
+    TextSearchLogo: { Component: TextSearchLogo, metadata: TextSearchLogoMetadata },
+    TextSelectLogo: { Component: TextSelectLogo, metadata: TextSelectLogoMetadata },
+    TextWrapLogo: { Component: TextWrapLogo, metadata: TextWrapLogoMetadata },
+    TheaterLogo: { Component: TheaterLogo, metadata: TheaterLogoMetadata },
+    ThermometerSnowflakeLogo: { Component: ThermometerSnowflakeLogo, metadata: ThermometerSnowflakeLogoMetadata },
+    ThermometerSunLogo: { Component: ThermometerSunLogo, metadata: ThermometerSunLogoMetadata },
+    TicketCheckLogo: { Component: TicketCheckLogo, metadata: TicketCheckLogoMetadata },
+    TicketMinusLogo: { Component: TicketMinusLogo, metadata: TicketMinusLogoMetadata },
+    TicketPercentLogo: { Component: TicketPercentLogo, metadata: TicketPercentLogoMetadata },
+    TicketPlusLogo: { Component: TicketPlusLogo, metadata: TicketPlusLogoMetadata },
+    TicketSlashLogo: { Component: TicketSlashLogo, metadata: TicketSlashLogoMetadata },
+    TicketXLogo: { Component: TicketXLogo, metadata: TicketXLogoMetadata },
+    TicketLogo: { Component: TicketLogo, metadata: TicketLogoMetadata },
+    TicketsPlaneLogo: { Component: TicketsPlaneLogo, metadata: TicketsPlaneLogoMetadata },
+    TicketsLogo: { Component: TicketsLogo, metadata: TicketsLogoMetadata },
+    TimerOffLogo: { Component: TimerOffLogo, metadata: TimerOffLogoMetadata },
+    TimerResetLogo: { Component: TimerResetLogo, metadata: TimerResetLogoMetadata },
+    TimerLogo: { Component: TimerLogo, metadata: TimerLogoMetadata },
+    ToiletLogo: { Component: ToiletLogo, metadata: ToiletLogoMetadata },
+    ToolCaseLogo: { Component: ToolCaseLogo, metadata: ToolCaseLogoMetadata },
+    ToolboxLogo: { Component: ToolboxLogo, metadata: ToolboxLogoMetadata },
+    TornadoLogo: { Component: TornadoLogo, metadata: TornadoLogoMetadata },
+    TorusLogo: { Component: TorusLogo, metadata: TorusLogoMetadata },
+    TouchpadOffLogo: { Component: TouchpadOffLogo, metadata: TouchpadOffLogoMetadata },
+    TouchpadLogo: { Component: TouchpadLogo, metadata: TouchpadLogoMetadata },
+    TowelRackLogo: { Component: TowelRackLogo, metadata: TowelRackLogoMetadata },
+    TowerControlLogo: { Component: TowerControlLogo, metadata: TowerControlLogoMetadata },
+    ToyBrickLogo: { Component: ToyBrickLogo, metadata: ToyBrickLogoMetadata },
+    TractorLogo: { Component: TractorLogo, metadata: TractorLogoMetadata },
+    TrafficConeLogo: { Component: TrafficConeLogo, metadata: TrafficConeLogoMetadata },
+    TrainFrontTunnelLogo: { Component: TrainFrontTunnelLogo, metadata: TrainFrontTunnelLogoMetadata },
+    TrainFrontLogo: { Component: TrainFrontLogo, metadata: TrainFrontLogoMetadata },
+    TrainTrackLogo: { Component: TrainTrackLogo, metadata: TrainTrackLogoMetadata },
+    TramFrontLogo: { Component: TramFrontLogo, metadata: TramFrontLogoMetadata },
+    TransgenderLogo: { Component: TransgenderLogo, metadata: TransgenderLogoMetadata },
+    TreeDeciduousLogo: { Component: TreeDeciduousLogo, metadata: TreeDeciduousLogoMetadata },
+    TreePalmLogo: { Component: TreePalmLogo, metadata: TreePalmLogoMetadata },
+    TreePineLogo: { Component: TreePineLogo, metadata: TreePineLogoMetadata },
+    TreesLogo: { Component: TreesLogo, metadata: TreesLogoMetadata },
+    TrendingUpDownLogo: { Component: TrendingUpDownLogo, metadata: TrendingUpDownLogoMetadata },
+    TriangleAlertLogo: { Component: TriangleAlertLogo, metadata: TriangleAlertLogoMetadata },
+    TriangleDashedLogo: { Component: TriangleDashedLogo, metadata: TriangleDashedLogoMetadata },
+    TriangleRightLogo: { Component: TriangleRightLogo, metadata: TriangleRightLogoMetadata },
+    TrophyLogo: { Component: TrophyLogo, metadata: TrophyLogoMetadata },
+    TruckElectricLogo: { Component: TruckElectricLogo, metadata: TruckElectricLogoMetadata },
+    TurkishLiraLogo: { Component: TurkishLiraLogo, metadata: TurkishLiraLogoMetadata },
+    TurntableLogo: { Component: TurntableLogo, metadata: TurntableLogoMetadata },
+    TurtleLogo: { Component: TurtleLogo, metadata: TurtleLogoMetadata },
+    TvMinimalPlayLogo: { Component: TvMinimalPlayLogo, metadata: TvMinimalPlayLogoMetadata },
+    TvMinimalLogo: { Component: TvMinimalLogo, metadata: TvMinimalLogoMetadata },
+    TypeOutlineLogo: { Component: TypeOutlineLogo, metadata: TypeOutlineLogoMetadata },
+    UmbrellaOffLogo: { Component: UmbrellaOffLogo, metadata: UmbrellaOffLogoMetadata },
+    Undo2Logo: { Component: Undo2Logo, metadata: Undo2LogoMetadata },
+    UndoDotLogo: { Component: UndoDotLogo, metadata: UndoDotLogoMetadata },
+    UndoLogo: { Component: UndoLogo, metadata: UndoLogoMetadata },
+    UnfoldHorizontalLogo: { Component: UnfoldHorizontalLogo, metadata: UnfoldHorizontalLogoMetadata },
+    UnfoldVerticalLogo: { Component: UnfoldVerticalLogo, metadata: UnfoldVerticalLogoMetadata },
+    UngroupLogo: { Component: UngroupLogo, metadata: UngroupLogoMetadata },
+    UniversityLogo: { Component: UniversityLogo, metadata: UniversityLogoMetadata },
+    Unlink2Logo: { Component: Unlink2Logo, metadata: Unlink2LogoMetadata },
+    UnlinkLogo: { Component: UnlinkLogo, metadata: UnlinkLogoMetadata },
+    UnplugLogo: { Component: UnplugLogo, metadata: UnplugLogoMetadata },
+    UsbLogo: { Component: UsbLogo, metadata: UsbLogoMetadata },
+    UserCogLogo: { Component: UserCogLogo, metadata: UserCogLogoMetadata },
+    UserKeyLogo: { Component: UserKeyLogo, metadata: UserKeyLogoMetadata },
+    UserLockLogo: { Component: UserLockLogo, metadata: UserLockLogoMetadata },
+    UserPenLogo: { Component: UserPenLogo, metadata: UserPenLogoMetadata },
+    UserRoundCheckLogo: { Component: UserRoundCheckLogo, metadata: UserRoundCheckLogoMetadata },
+    UserRoundCogLogo: { Component: UserRoundCogLogo, metadata: UserRoundCogLogoMetadata },
+    UserRoundKeyLogo: { Component: UserRoundKeyLogo, metadata: UserRoundKeyLogoMetadata },
+    UserRoundMinusLogo: { Component: UserRoundMinusLogo, metadata: UserRoundMinusLogoMetadata },
+    UserRoundPenLogo: { Component: UserRoundPenLogo, metadata: UserRoundPenLogoMetadata },
+    UserRoundPlusLogo: { Component: UserRoundPlusLogo, metadata: UserRoundPlusLogoMetadata },
+    UserRoundSearchLogo: { Component: UserRoundSearchLogo, metadata: UserRoundSearchLogoMetadata },
+    UserRoundXLogo: { Component: UserRoundXLogo, metadata: UserRoundXLogoMetadata },
+    UserRoundLogo: { Component: UserRoundLogo, metadata: UserRoundLogoMetadata },
+    UserSearchLogo: { Component: UserSearchLogo, metadata: UserSearchLogoMetadata },
+    UserStarLogo: { Component: UserStarLogo, metadata: UserStarLogoMetadata },
+    UsersRoundLogo: { Component: UsersRoundLogo, metadata: UsersRoundLogoMetadata },
+    UtensilsCrossedLogo: { Component: UtensilsCrossedLogo, metadata: UtensilsCrossedLogoMetadata },
+    UtensilsLogo: { Component: UtensilsLogo, metadata: UtensilsLogoMetadata },
+    UtilityPoleLogo: { Component: UtilityPoleLogo, metadata: UtilityPoleLogoMetadata },
+    VanLogo: { Component: VanLogo, metadata: VanLogoMetadata },
+    VariableLogo: { Component: VariableLogo, metadata: VariableLogoMetadata },
+    VaultLogo: { Component: VaultLogo, metadata: VaultLogoMetadata },
+    VectorSquareLogo: { Component: VectorSquareLogo, metadata: VectorSquareLogoMetadata },
+    VeganLogo: { Component: VeganLogo, metadata: VeganLogoMetadata },
+    VenetianMaskLogo: { Component: VenetianMaskLogo, metadata: VenetianMaskLogoMetadata },
+    VenusAndMarsLogo: { Component: VenusAndMarsLogo, metadata: VenusAndMarsLogoMetadata },
+    VenusLogo: { Component: VenusLogo, metadata: VenusLogoMetadata },
+    VibrateOffLogo: { Component: VibrateOffLogo, metadata: VibrateOffLogoMetadata },
+    VibrateLogo: { Component: VibrateLogo, metadata: VibrateLogoMetadata },
+    VideotapeLogo: { Component: VideotapeLogo, metadata: VideotapeLogoMetadata },
+    ViewLogo: { Component: ViewLogo, metadata: ViewLogoMetadata },
+    VolleyballLogo: { Component: VolleyballLogo, metadata: VolleyballLogoMetadata },
+    VolumeOffLogo: { Component: VolumeOffLogo, metadata: VolumeOffLogoMetadata },
+    VoteLogo: { Component: VoteLogo, metadata: VoteLogoMetadata },
+    WalletCardsLogo: { Component: WalletCardsLogo, metadata: WalletCardsLogoMetadata },
+    WalletMinimalLogo: { Component: WalletMinimalLogo, metadata: WalletMinimalLogoMetadata },
+    WalletLogo: { Component: WalletLogo, metadata: WalletLogoMetadata },
+    WallpaperLogo: { Component: WallpaperLogo, metadata: WallpaperLogoMetadata },
+    WandSparklesLogo: { Component: WandSparklesLogo, metadata: WandSparklesLogoMetadata },
+    WandLogo: { Component: WandLogo, metadata: WandLogoMetadata },
+    WarehouseLogo: { Component: WarehouseLogo, metadata: WarehouseLogoMetadata },
+    WashingMachineLogo: { Component: WashingMachineLogo, metadata: WashingMachineLogoMetadata },
+    WavesArrowDownLogo: { Component: WavesArrowDownLogo, metadata: WavesArrowDownLogoMetadata },
+    WavesArrowUpLogo: { Component: WavesArrowUpLogo, metadata: WavesArrowUpLogoMetadata },
+    WavesLadderLogo: { Component: WavesLadderLogo, metadata: WavesLadderLogoMetadata },
+    WavesLogo: { Component: WavesLogo, metadata: WavesLogoMetadata },
+    WaypointsLogo: { Component: WaypointsLogo, metadata: WaypointsLogoMetadata },
+    WebcamLogo: { Component: WebcamLogo, metadata: WebcamLogoMetadata },
+    WebhookOffLogo: { Component: WebhookOffLogo, metadata: WebhookOffLogoMetadata },
+    WebhookLogo: { Component: WebhookLogo, metadata: WebhookLogoMetadata },
+    WeightTildeLogo: { Component: WeightTildeLogo, metadata: WeightTildeLogoMetadata },
+    WeightLogo: { Component: WeightLogo, metadata: WeightLogoMetadata },
+    WheatOffLogo: { Component: WheatOffLogo, metadata: WheatOffLogoMetadata },
+    WheatLogo: { Component: WheatLogo, metadata: WheatLogoMetadata },
+    WholeWordLogo: { Component: WholeWordLogo, metadata: WholeWordLogoMetadata },
+    WifiCogLogo: { Component: WifiCogLogo, metadata: WifiCogLogoMetadata },
+    WifiHighLogo: { Component: WifiHighLogo, metadata: WifiHighLogoMetadata },
+    WifiLowLogo: { Component: WifiLowLogo, metadata: WifiLowLogoMetadata },
+    WifiPenLogo: { Component: WifiPenLogo, metadata: WifiPenLogoMetadata },
+    WifiSyncLogo: { Component: WifiSyncLogo, metadata: WifiSyncLogoMetadata },
+    WifiZeroLogo: { Component: WifiZeroLogo, metadata: WifiZeroLogoMetadata },
+    WindArrowDownLogo: { Component: WindArrowDownLogo, metadata: WindArrowDownLogoMetadata },
+    WineOffLogo: { Component: WineOffLogo, metadata: WineOffLogoMetadata },
+    WineLogo: { Component: WineLogo, metadata: WineLogoMetadata },
+    WorkflowLogo: { Component: WorkflowLogo, metadata: WorkflowLogoMetadata },
+    WormLogo: { Component: WormLogo, metadata: WormLogoMetadata },
+    WrenchLogo: { Component: WrenchLogo, metadata: WrenchLogoMetadata },
+    XLineTopLogo: { Component: XLineTopLogo, metadata: XLineTopLogoMetadata },
+    ZodiacAquariusLogo: { Component: ZodiacAquariusLogo, metadata: ZodiacAquariusLogoMetadata },
+    ZodiacAriesLogo: { Component: ZodiacAriesLogo, metadata: ZodiacAriesLogoMetadata },
+    ZodiacCancerLogo: { Component: ZodiacCancerLogo, metadata: ZodiacCancerLogoMetadata },
+    ZodiacCapricornLogo: { Component: ZodiacCapricornLogo, metadata: ZodiacCapricornLogoMetadata },
+    ZodiacGeminiLogo: { Component: ZodiacGeminiLogo, metadata: ZodiacGeminiLogoMetadata },
+    ZodiacLeoLogo: { Component: ZodiacLeoLogo, metadata: ZodiacLeoLogoMetadata },
+    ZodiacLibraLogo: { Component: ZodiacLibraLogo, metadata: ZodiacLibraLogoMetadata },
+    ZodiacOphiuchusLogo: { Component: ZodiacOphiuchusLogo, metadata: ZodiacOphiuchusLogoMetadata },
+    ZodiacPiscesLogo: { Component: ZodiacPiscesLogo, metadata: ZodiacPiscesLogoMetadata },
+    ZodiacSagittariusLogo: { Component: ZodiacSagittariusLogo, metadata: ZodiacSagittariusLogoMetadata },
+    ZodiacScorpioLogo: { Component: ZodiacScorpioLogo, metadata: ZodiacScorpioLogoMetadata },
+    ZodiacTaurusLogo: { Component: ZodiacTaurusLogo, metadata: ZodiacTaurusLogoMetadata },
+    ZodiacVirgoLogo: { Component: ZodiacVirgoLogo, metadata: ZodiacVirgoLogoMetadata },
+  },
+} as const;
+

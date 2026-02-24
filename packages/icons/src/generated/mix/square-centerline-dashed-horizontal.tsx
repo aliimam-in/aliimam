@@ -1,0 +1,51 @@
+/**
+ * Auto-generated logo component: Square Centerline Dashed Horizontal (default)
+ * Category: mix
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface SquareCenterlineDashedHorizontalLogoProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string;
+  strokeWidth?: number;
+}
+
+export const SquareCenterlineDashedHorizontalLogo = React.forwardRef<SVGSVGElement, SquareCenterlineDashedHorizontalLogoProps>(
+  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
+      <path d="M8 3H5a2 2 0 0 0-2 2v14c0 1.1.9 2 2 2h3" />
+  <path d="M16 3h3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-3" />
+  <path d="M12 20v2" />
+  <path d="M12 14v2" />
+  <path d="M12 8v2" />
+  <path d="M12 2v2" />
+    </svg>
+  )
+);
+
+SquareCenterlineDashedHorizontalLogo.displayName = "SquareCenterlineDashedHorizontalLogo";
+
+export const SquareCenterlineDashedHorizontalLogoMetadata = {
+  id: "square-centerline-dashed-horizontal",
+  baseId: "square-centerline-dashed-horizontal",
+  variant: "default",
+  name: "Square Centerline Dashed Horizontal",
+  category: "mix",
+  tags: [],
+  viewBox: "0 0 24 24",
+} as const;
+
+export default SquareCenterlineDashedHorizontalLogo;

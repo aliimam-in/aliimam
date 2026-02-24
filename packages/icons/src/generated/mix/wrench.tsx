@@ -1,0 +1,46 @@
+/**
+ * Auto-generated logo component: Wrench (default)
+ * Category: mix
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface WrenchLogoProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string;
+  strokeWidth?: number;
+}
+
+export const WrenchLogo = React.forwardRef<SVGSVGElement, WrenchLogoProps>(
+  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
+      <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.106-3.105c.32-.322.863-.22.983.218a6 6 0 0 1-8.259 7.057l-7.91 7.91a1 1 0 0 1-2.999-3l7.91-7.91a6 6 0 0 1 7.057-8.259c.438.12.54.662.219.984z" />
+    </svg>
+  )
+);
+
+WrenchLogo.displayName = "WrenchLogo";
+
+export const WrenchLogoMetadata = {
+  id: "wrench",
+  baseId: "wrench",
+  variant: "default",
+  name: "Wrench",
+  category: "mix",
+  tags: [],
+  viewBox: "0 0 24 24",
+} as const;
+
+export default WrenchLogo;
