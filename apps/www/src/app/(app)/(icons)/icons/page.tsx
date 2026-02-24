@@ -1,211 +1,88 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client"
 
-import React, { useState } from "react"
-import Link from "next/link"
-import { ContentCopyButton } from "@/src/components/copy-button"
-import { useIcons } from "@/src/components/icons/icon-context"
-import { IconPreviewPanel } from "@/src/components/icons/icon-preview"
-import { Figma } from "@aliimam/logos"
-
-import { Button } from "@/registry/aliimam/ui/button"
-import { TabsContent } from "@/registry/aliimam/ui/tabs"
+import { useEffect, useState } from "react"
+import { IconCategoryTabs } from "@/src/components/icons/icon-category"
+import { useIconFilter } from "@/src/components/icons/icon-filter-context"
 import {
-  Tooltip,
-  TooltipContent,
-  TooltipTrigger,
-} from "@/registry/aliimam/ui/tooltip"
+  IconPreview,
+  IconPreviewPhone,
+} from "@/src/components/icons/icon-preview"
+import { IconSearch } from "@/src/components/icons/icon-search"
+import { IconsNav } from "@/src/components/icons/icons-nav"
+import { IconGrid } from "@/src/components/icons/main-icons"
 
-export default function About() {
-  const { searchQuery, activeCategory, iconComponents } = useIcons()
-  const [selectedIcon, setSelectedIcon] = useState<{
-    name: string
-    Component: React.ComponentType<React.SVGProps<SVGSVGElement>>
-    type: string
-  } | null>(null)
+import { Tabs, TabsList, TabsTrigger } from "@/registry/aliimam/ui/tabs"
 
-  const supportsType = (
-    Component: React.ComponentType<any>,
-    name: string,
-    type: string
-  ): boolean => {
-    try {
-      const TestComponent = Component as any
-      const componentString = TestComponent.toString()
-      const hasTypeInCode =
-        componentString.includes(type) ||
-        componentString.includes(`type === "${type}"`)
+interface SelectedIcon {
+  name: string
+  variant: "solid" | "stroke" | "pixel" | "glass"
+}
 
-      const metadata = TestComponent.metadata
-      const hasTypeInMetadata =
-        metadata &&
-        (metadata.name?.toLowerCase().includes(type) ||
-          metadata.category?.toLowerCase().includes(type) ||
-          (metadata.type &&
-            (Array.isArray(metadata.type)
-              ? metadata.type.includes(type)
-              : metadata.type === type)))
+export default function Page() {
+  const [selectedIcon, setSelectedIcon] = useState<SelectedIcon | null>(null)
+  const { variant, setVariant } = useIconFilter()
 
-      return hasTypeInCode || hasTypeInMetadata
-      // eslint-disable-next-line @typescript-eslint/no-unused-vars
-    } catch (error) {
-      return false
-    }
-  }
-
-  const getFilteredIconsByCategory = (
-    type: "stroke" | "solid" | "duotone" | "twotone" | "bulk"
-  ) => {
-    let filteredComponents = iconComponents
-
-    if (type !== "stroke") {
-      filteredComponents = iconComponents.filter(({ name, Component }) =>
-        supportsType(Component, name, type)
-      )
-    }
-
-    if (searchQuery) {
-      filteredComponents = filteredComponents.filter(({ name }) =>
-        name.toLowerCase().includes(searchQuery.toLowerCase())
-      )
-    }
-
-    return filteredComponents.reduce(
-      (acc, { name, Component }) => {
-        const category =
-          (Component as any).metadata?.category || "Uncategorized"
-
-        if (activeCategory !== "all" && category !== activeCategory) {
-          return acc
-        }
-
-        if (!acc[category]) {
-          acc[category] = []
-        }
-        acc[category].push({ name, Component })
-        return acc
-      },
-      {} as Record<
-        string,
-        {
-          name: string
-          Component: React.ComponentType<React.SVGProps<SVGSVGElement>>
-        }[]
-      >
-    )
-  }
-
-  const getSizeClasses = (
-    type: "stroke" | "solid" | "duotone" | "twotone" | "bulk"
-  ) => {
-    switch (type) {
-      case "solid":
-        return "h-10 w-10"
-      case "duotone":
-        return "h-12 w-16"
-      case "twotone":
-        return "h-16 w-16"
-      default:
-        return "h-10 w-10"
-    }
-  }
-
-  const renderIcons = (
-    type: "stroke" | "solid" | "duotone" | "twotone" | "bulk"
-  ) => {
-    const iconsByCategory = getFilteredIconsByCategory(type)
-    const sizeClasses = getSizeClasses(type)
-
-    return (
-      <div className="relative flex items-stretch xl:w-full">
-        <div className="-mt-2 flex min-w-0 flex-1 flex-col border-x p-2">
-          {Object.keys(iconsByCategory).length > 0 ? (
-            Object.entries(iconsByCategory)
-              .sort()
-              .map(([category, icons]) => (
-                <div key={`${category}-${type}`} className="mb-1">
-                  <div className="flex flex-wrap gap-1">
-                    {icons.map(({ name, Component }) => (
-                      <Tooltip key={`${name}-${type}`}>
-                        <TooltipTrigger asChild>
-                          <div
-                            className={`ring-ring/20 bg-muted/50 dark:bg-muted/30 flex cursor-pointer flex-col items-center rounded-none p-8 transition-all hover:ring-2 ${
-                              selectedIcon?.name === name &&
-                              selectedIcon?.type === type
-                                ? "ring-primary ring-2"
-                                : ""
-                            }`}
-                            onClick={() =>
-                              setSelectedIcon({ name, Component, type })
-                            }
-                          >
-                            <Component type={type} className={sizeClasses} />
-                          </div>
-                        </TooltipTrigger>
-                        <TooltipContent side="bottom">
-                          <p className="text-xs">{name}</p>
-                        </TooltipContent>
-                      </Tooltip>
-                    ))}
-                  </div>
-                </div>
-              ))
-          ) : (
-            <p className="text-muted-foreground">
-              No {type} found {searchQuery && `matching "${searchQuery}"`}
-            </p>
-          )}
-        </div>
-        <div className="sticky top-32 z-30 ml-auto hidden h-[calc(100svh-var(--footer-height))] w-60 flex-col gap-3 overflow-hidden overscroll-none pb-3 xl:flex">
-          <IconPreviewPanel
-            selectedIcon={selectedIcon}
-            onClearSelection={() => setSelectedIcon(null)}
-          />
-          <div className="grid gap-2 px-3">
-            <Link
-              target="_blank"
-              href={
-                "https://www.figma.com/community/file/1553397064284560809/ai-icons"
-              }
-            >
-              <Button variant={"outline"} className="w-full">
-                <Figma /> Open in Figma
-              </Button>
-            </Link>
-            <ContentCopyButton
-              className="w-full font-mono text-xs"
-              value={"npm i @aliimam/icons"}
-            />
-            <Link href={"/docs/icons/introduction"}>
-              <Button className="w-full">See Docs</Button>
-            </Link>
-          </div>
-        </div>
-      </div>
-    )
-  }
+  useEffect(() => {
+      if (selectedIcon) {
+        setSelectedIcon({ ...selectedIcon, variant })
+      }
+    }, [variant])
 
   return (
-    <div className="flex h-full flex-col items-center">
-      <TabsContent value="stroke" className="mt-0 flex w-full justify-center">
-        {renderIcons("stroke")}
-      </TabsContent>
+    <div>
+      <div className="bg-background sticky top-14 z-40 flex h-14 w-full items-center gap-2 border-b px-4">
+        <IconsNav />
+        <div className="hidden ml-auto md:block">
+          <IconSearch />
+        </div>
+        <Tabs
+          className="ml-auto"
+          value={variant}
+          onValueChange={(v) => setVariant(v as "stroke" | "solid" | "pixel" | "glass")}
+        >
+          <TabsList>
+            <TabsTrigger value="stroke">Stroke</TabsTrigger>
+            <TabsTrigger value="solid">Solid</TabsTrigger>
+            <TabsTrigger value="pixel">Pixel</TabsTrigger>
+            <TabsTrigger value="glass">Glass</TabsTrigger>
+          </TabsList>
+        </Tabs>
+      </div>
+      <div className="flex h-full w-full">
+        <IconCategoryTabs />
+        <div className="flex p-2 h-full w-full flex-col md:flex-row">
+          <div className="h-[95vh] flex-1 overflow-auto">
+            <IconGrid
+              selectedIcon={selectedIcon?.name}
+              onSelectIcon={setSelectedIcon}
+            />
+          </div>
 
-      <TabsContent value="solid" className="mt-0 flex w-full justify-center">
-        {renderIcons("solid")}
-      </TabsContent>
+          <div
+            className={`relative transition-all duration-300 ${
+              selectedIcon
+                ? "w-fit translate-x-0 opacity-100"
+                : "w-0 translate-x-full opacity-0"
+            }`}
+          >
+            {selectedIcon && (
+              <IconPreview
+                selectedIcon={selectedIcon}
+                onClearSelection={() => setSelectedIcon(null)}
+              />
+            )}
+          </div>
 
-      <TabsContent value="duotone" className="mt-0 flex w-full justify-center">
-        {renderIcons("duotone")}
-      </TabsContent>
-
-      <TabsContent value="twotone" className="mt-0 flex w-full justify-center">
-        {renderIcons("twotone")}
-      </TabsContent>
-
-      <TabsContent value="bulk" className="mt-0 flex w-full justify-center">
-        {renderIcons("bulk")}
-      </TabsContent>
+          {selectedIcon && (
+            <div className="bg-background fixed bottom-0 left-1/2 z-20 w-full -translate-x-1/2 border-t md:hidden">
+              <IconPreviewPhone
+                selectedIcon={selectedIcon}
+                onClearSelection={() => setSelectedIcon(null)}
+              />
+            </div>
+          )}
+        </div>
+      </div>
     </div>
   )
 }

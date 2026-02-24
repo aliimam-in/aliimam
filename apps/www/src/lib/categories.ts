@@ -117,22 +117,12 @@ export const iconCategories = [
     name: "Logos",
     slug: "logos",
     hidden: false,
-  },
-  {
-    name: "Symbols",
-    slug: "symbols",
-    hidden: false,
-  },
+  }, 
   {
     name: "Vectors",
     slug: "vectors",
     hidden: false,
-  },
-  {
-    name: "Shapes",
-    slug: "shapes",
-    hidden: false,
-  },
+  }, 
 ]
 
 export const navItems = [

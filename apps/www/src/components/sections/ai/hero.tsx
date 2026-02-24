@@ -48,7 +48,7 @@ export function Hero() {
               </div>
             </ImageZoom>
           </div>
-          <h1 className="mt-6 text-center">Design That Gives.</h1>
+          <h1 className="mt-6 text-center">Design Without Limits.</h1>
         </div>
       </div>
       <div className="relative">

@@ -103,7 +103,7 @@ export function ContentCopyButton({
         <Button
           data-slot="copy-button"
           variant={variant}
-          className={cn("", className)}
+          className={cn("cursor-pointer", className)}
           onClick={() => {
             copyToClipboardWithMeta(
               value,

@@ -8,8 +8,6 @@ import { NuqsAdapter } from "nuqs/adapters/next/app"
 import { Toaster } from "@/registry/aliimam/ui/sonner"
 import { TooltipProvider } from "@/registry/aliimam/ui/tooltip"
 
-import { IconsProvider } from "../icons/icon-context"
-import { LogosProvider } from "../icons/logo-context"
 import { ActiveThemeProvider } from "./active-theme"
 import { TailwindIndicator } from "./tailwind-indicator"
 import { ThemeProvider } from "./theme-provider"
@@ -31,12 +29,8 @@ export function Provider({
           <ActiveThemeProvider>
             <NuqsAdapter>
               <TooltipProvider>
-                <IconsProvider>
-                  <LogosProvider>
-                    {children}
-                    <Toaster position="bottom-center" />
-                  </LogosProvider>
-                </IconsProvider>
+                {children}
+                <Toaster position="bottom-center" />
               </TooltipProvider>
             </NuqsAdapter>
           </ActiveThemeProvider>

@@ -1,0 +1,1 @@
+export { PaperLogo, PaperLogoMetadata, type PaperLogoProps } from './paper';

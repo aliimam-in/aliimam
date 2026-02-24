@@ -1,0 +1,27 @@
+
+import * as React from "react"
+
+export interface PlaneTakeoffProps extends React.SVGProps<SVGSVGElement> {
+  size?: number
+}
+
+export const PlaneTakeoff = React.forwardRef<SVGSVGElement, PlaneTakeoffProps>(
+  ({ size = 24, ...props }, ref) => (
+    <svg
+      ref={ref}
+      xmlns="http://www.w3.org/2000/svg"
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth={2}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      dangerouslySetInnerHTML={{ __html: `<path fill="none" stroke="currentColor" stroke-width="2" d="M2 22h20M6.36 17.4L4 17l-2-4l1.1-.55a2 2 0 0 1 1.8 0l.17.1a2 2 0 0 0 1.8 0L8 12L5 6l.9-.45a2 2 0 0 1 2.09.2l4.02 3a2 2 0 0 0 2.1.2l4.19-2.06a2.4 2.4 0 0 1 1.73-.17L21 7a1.4 1.4 0 0 1 .87 1.99l-.38.76c-.23.46-.6.84-1.07 1.08L7.58 17.2a2 2 0 0 1-1.22.18Z"/>` }}
+      {...props}
+    />
+  )
+)
+
+PlaneTakeoff.displayName = "PlaneTakeoff"

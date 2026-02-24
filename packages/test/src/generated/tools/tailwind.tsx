@@ -1,0 +1,40 @@
+/**
+ * Auto-generated logo component: Tailwind
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface TailwindLogoProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string;
+}
+
+export const TailwindLogo = React.forwardRef<SVGSVGElement, TailwindLogoProps>(
+  ({ size = 24, className = '', ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <path d="M12.001 4.8c-3.476 0-6.35 2.587-6.35 5.787 0 2.267.889 4.716 2.666 6.3 1.777 1.584 4.684 2.413 6.684 2.413 2 0 4.907-.83 6.684-2.412 1.777-1.584 2.666-4.033 2.666-6.301 0-3.2-2.874-5.787-6.35-5.787zm-2.75 4.75h5.5v2h-5.5z" fill="#06B6D4"/>
+    </svg>
+  )
+);
+
+TailwindLogo.displayName = "TailwindLogo";
+
+export const TailwindLogoMetadata = {
+  id: "tailwind",
+  name: "Tailwind",
+  category: "tools",
+  tags: ["kjsbdv"],
+  viewBox: "0 0 24 24",
+} as const;
+
+export default TailwindLogo;

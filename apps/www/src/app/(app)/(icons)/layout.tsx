@@ -1,3 +1,6 @@
+import { IconFilterProvider } from "@/src/components/icons/icon-filter-context"
+import { LogoFilterProvider } from "@/src/components/icons/logo-filter-context"
+
 export default function DocsLayout({
   children,
 }: {
@@ -5,7 +8,11 @@ export default function DocsLayout({
 }) {
   return (
     <div>
-      <div className="h-full w-full">{children}</div>
+      <LogoFilterProvider>
+        <IconFilterProvider>
+          <div>{children}</div>
+        </IconFilterProvider>
+      </LogoFilterProvider>
     </div>
   )
 }

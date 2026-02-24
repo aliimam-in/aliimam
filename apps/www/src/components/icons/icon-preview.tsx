@@ -1,158 +1,190 @@
-import React, { useState } from "react"
-import { X } from "lucide-react"
+"use client"
 
-import { IconDownloadPanel, LogoDownloadPanel } from "./download-icon"
-import { IconControlsPanel, LogoControlsPanel } from "./icon-control"
+import { useState } from "react"
+import Link from "next/link"
+import { Icon } from "@/src/components/icons/icons"
+import { Figma } from "@aliimam/logos"
 
-interface LogoPreviewPanelProps {
+import { Button } from "@/registry/aliimam/ui/button"
+
+import { ContentCopyButton } from "../copy-button"
+import { IconControlsPanel } from "./icon-controls"
+import { IconDownloadPanel } from "./icon-download"
+
+interface Props {
   selectedIcon: {
     name: string
-    Component: React.ComponentType<React.SVGProps<SVGSVGElement>>
-    type: string
-  } | null
+    variant: "solid" | "stroke" | "pixel" | "glass"
+  }
   onClearSelection: () => void
 }
 
-export function LogoPreviewPanel({
-  selectedIcon,
-  onClearSelection,
-}: LogoPreviewPanelProps) {
+export function IconPreview({ selectedIcon, onClearSelection }: Props) {
   const [size, setSize] = useState(96)
+  const [strokeWidth, setStrokeWidth] = useState(1.5)
   const [color, setColor] = useState("currentColor")
 
   return (
-    <div className="bg-background flex flex-1 flex-col overflow-auto">
-      {selectedIcon ? (
-        <>
-          <div className="flex flex-col gap-2 px-3">
-            <div className="flex w-full items-center justify-between space-y-1 text-center">
-              <p className="text-sm font-semibold">{selectedIcon.name}</p>
-              <p className="text-muted-foreground pr-6 text-xs capitalize">
-                {selectedIcon.type}
-              </p>
-            </div>
-            <div className="bg-muted/50 flex aspect-square w-full items-center justify-center">
-              <selectedIcon.Component
-                id="preview-icon"
-                type={selectedIcon.type}
-                style={{
-                  width: `${size}px`,
-                  height: `${size}px`,
-                  color: color,
-                }}
-                className="transition-all duration-200"
-              />
-            </div>
-            <button
-              onClick={onClearSelection}
-              className="text-muted-foreground hover:text-foreground absolute top-1 right-3 text-xs transition-colors"
-            >
-              <X className="h-4 w-4" />
-            </button>
-          </div>
-
-          <LogoControlsPanel
+    <div className="hidden h-full flex-col justify-between pl-2 md:flex">
+      <div className="flex flex-col gap-2 overflow-auto">
+        <div className="bg-code flex aspect-square h-full w-80 items-center justify-center border">
+          <Icon
+            id="preview-svg"
+            name={selectedIcon.name}
+            variant={selectedIcon.variant}
             size={size}
-            color={color}
-            onSizeChange={setSize}
-            onColorChange={setColor}
-          />
-
-          <LogoDownloadPanel
-            selectedIcon={selectedIcon}
-            size={size}
+            strokeWidth={
+              selectedIcon.variant === "stroke" ? strokeWidth : undefined
+            }
             color={color}
           />
-        </>
-      ) : (
-        <div className="flex h-full items-center justify-center">
-          <p className="text-muted-foreground text-center text-sm">
-            Select an icon to preview
-          </p>
         </div>
-      )}
+
+        <div className="flex flex-wrap items-center justify-between p-2">
+          <Link href={`/icons/${selectedIcon.name}`}>
+            <Button
+              className="text-muted-foreground cursor-pointer"
+              variant="ghost"
+              size="sm"
+            >
+              [Open]
+            </Button>
+          </Link>
+          <Button
+            className="text-muted-foreground cursor-pointer"
+            variant="ghost"
+            size="sm"
+            onClick={onClearSelection}
+          >
+            [Close]
+          </Button>
+        </div>
+
+        <h2 className="truncate pb-6 text-center text-sm font-medium">
+          {selectedIcon.name}
+        </h2>
+
+        <IconControlsPanel
+          size={size}
+          strokeWidth={strokeWidth}
+          color={color}
+          variant={selectedIcon.variant}
+          onSizeChange={setSize}
+          onStrokeWidthChange={
+            selectedIcon.variant === "stroke" ||
+            selectedIcon.variant === "pixel"
+              ? setStrokeWidth
+              : undefined
+          }
+          onColorChange={setColor}
+        />
+
+        <IconDownloadPanel
+          iconName={selectedIcon.name}
+          variant={selectedIcon.variant}
+          size={size}
+          color={color}
+          strokeWidth={
+            selectedIcon.variant === "stroke" ||
+            selectedIcon.variant === "pixel"
+             ? strokeWidth : undefined
+          }
+        />
+      </div>
+
+      <div className="mt-4 flex flex-col gap-2">
+        <Link
+          target="_blank"
+          href={
+            "https://www.figma.com/community/file/1553397064284560809/ai-icons"
+          }
+        >
+          <Button variant={"outline"} className="w-full">
+            <Figma /> Open in Figma
+          </Button>
+        </Link>
+
+        <ContentCopyButton
+          className="w-full font-mono text-xs"
+          value={"npm i @aliimam/icons"}
+        />
+
+        <Link href={"/docs/icons/introduction"}>
+          <Button className="w-full">See Docs</Button>
+        </Link>
+      </div>
     </div>
   )
 }
 
-interface IconPreviewPanelProps {
-  selectedIcon: {
-    name: string
-    Component: React.ComponentType<React.SVGProps<SVGSVGElement>>
-    type: string
-  } | null
-  onClearSelection: () => void
-}
-
-export function IconPreviewPanel({
-  selectedIcon,
-  onClearSelection,
-}: IconPreviewPanelProps) {
+export function IconPreviewPhone({ selectedIcon, onClearSelection }: Props) {
   const [size, setSize] = useState(96)
+  const [strokeWidth, setStrokeWidth] = useState(1.5)
   const [color, setColor] = useState("currentColor")
-  const [strokeWidth, setStrokeWidth] = useState(2)
-
-  const isStrokeIcon = selectedIcon?.type === "stroke"
 
   return (
-    <div className="bg-background flex flex-1 flex-col overflow-auto">
-      {selectedIcon ? (
-        <>
-          <div className="flex flex-col gap-2 px-3">
-            <div className="flex w-full items-center justify-between space-y-1 text-center">
-              <p className="text-sm font-semibold">{selectedIcon.name}</p>
-              <p className="text-muted-foreground pr-6 text-xs capitalize">
-                {selectedIcon.type}
-              </p>
-            </div>
-            <div className="bg-muted/50 flex aspect-square w-full items-center justify-center rounded-2xl">
-              <selectedIcon.Component
-                id="preview-icon"
-                type={selectedIcon.type}
-                style={{
-                  width: `${size}px`,
-                  height: `${size}px`,
-                  color: color,
-                  ...(isStrokeIcon
-                    ? { stroke: color, strokeWidth: strokeWidth }
-                    : {}),
-                }}
-                className="transition-all duration-200"
-              />
-            </div>
-            <button
-              onClick={onClearSelection}
-              className="text-muted-foreground hover:text-foreground absolute top-1 right-3 text-xs transition-colors"
+    <div className="flex flex-col justify-center p-2">
+      <div className="bg-code flex aspect-square h-full w-60 flex-1 items-center justify-center border">
+        <Icon
+          id="preview-svg"
+          name={selectedIcon.name}
+          variant={selectedIcon.variant}
+          size={size}
+          strokeWidth={
+            selectedIcon.variant === "stroke" ? strokeWidth : undefined
+          }
+          color={color}
+        />
+      </div>
+      <div className="flex items-center justify-between pt-2">
+        <h2 className="w-40 truncate text-sm font-medium">
+          {selectedIcon.name}
+        </h2>
+
+        <div className="flex flex-wrap items-center justify-between p-2">
+          <Button
+            className="text-muted-foreground cursor-pointer"
+            variant="ghost"
+            size="sm"
+            onClick={onClearSelection}
+          >
+            [Close]
+          </Button>
+          <Link href={`/icons/${selectedIcon.name}`}>
+            <Button
+              className="text-muted-foreground cursor-pointer"
+              variant="ghost"
+              size="sm"
             >
-              <X className="h-4 w-4" />
-            </button>
-          </div>
-
-          <IconControlsPanel
-            size={size}
-            color={color}
-            {...(isStrokeIcon && {
-              strokeWidth,
-              onStrokeWidthChange: setStrokeWidth,
-            })}
-            onSizeChange={setSize}
-            onColorChange={setColor}
-          />
-
-          <IconDownloadPanel
-            selectedIcon={selectedIcon}
-            size={size}
-            color={color}
-            {...(isStrokeIcon && { strokeWidth })}
-          />
-        </>
-      ) : (
-        <div className="flex h-full items-center justify-center">
-          <p className="text-muted-foreground text-center text-sm">
-            Select an icon to preview
-          </p>
+              [Open]
+            </Button>
+          </Link>
         </div>
-      )}
+      </div>
+
+      <IconControlsPanel
+        size={size}
+        strokeWidth={strokeWidth}
+        color={color}
+        variant={selectedIcon.variant}
+        onSizeChange={setSize}
+        onStrokeWidthChange={
+          selectedIcon.variant === "stroke" ? setStrokeWidth : undefined
+        }
+        onColorChange={setColor}
+      />
+
+      <IconDownloadPanel
+          iconName={selectedIcon.name}
+          variant={selectedIcon.variant}
+          size={size}
+          color={color}
+          strokeWidth={
+            selectedIcon.variant === "stroke" ||
+            selectedIcon.variant === "pixel"
+             ? strokeWidth : undefined
+          }
+        />
     </div>
   )
 }

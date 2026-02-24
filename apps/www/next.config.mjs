@@ -6,6 +6,7 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+  experimental: { turbopack: false },
   reactStrictMode: true, 
    experimental: {
     turbopackFileSystemCacheForDev: true,

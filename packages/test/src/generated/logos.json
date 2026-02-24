@@ -1,0 +1,97 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-02-24T18:06:38.192Z",
+  "logos": [
+    {
+      "id": "paper",
+      "name": "Paper",
+      "path": "./generated/design/paper.tsx",
+      "category": "design",
+      "tags": [
+        "bubu"
+      ],
+      "viewBox": "0 0 39 39"
+    },
+    {
+      "id": "nextjs",
+      "name": "Nextjs",
+      "path": "./generated/frontend/nextjs.tsx",
+      "category": "frontend",
+      "tags": [
+        "ali",
+        "ai"
+      ],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "react",
+      "name": "React",
+      "path": "./generated/frontend/react.tsx",
+      "category": "frontend",
+      "tags": [
+        "sdvds"
+      ],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "typescript",
+      "name": "Typescript",
+      "path": "./generated/frontend/typescript.tsx",
+      "category": "frontend",
+      "tags": [
+        "sjhbdvk"
+      ],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "github",
+      "name": "Github",
+      "path": "./generated/platforms/github.tsx",
+      "category": "platforms",
+      "tags": [
+        "oioiui"
+      ],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "vercel",
+      "name": "Vercel",
+      "path": "./generated/platforms/vercel.tsx",
+      "category": "platforms",
+      "tags": [
+        "9979"
+      ],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "nodejs",
+      "name": "Nodejs",
+      "path": "./generated/tools/nodejs.tsx",
+      "category": "tools",
+      "tags": [
+        "bjb"
+      ],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "npm",
+      "name": "Npm",
+      "path": "./generated/tools/npm.tsx",
+      "category": "tools",
+      "tags": [
+        "bsdv"
+      ],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "tailwind",
+      "name": "Tailwind",
+      "path": "./generated/tools/tailwind.tsx",
+      "category": "tools",
+      "tags": [
+        "kjsbdv"
+      ],
+      "viewBox": "0 0 24 24"
+    }
+  ]
+}
