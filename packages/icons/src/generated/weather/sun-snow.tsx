@@ -9,7 +9,18 @@ export interface SunSnowProps extends React.SVGProps<SVGSVGElement> {
 
 export const SunSnow = React.forwardRef<SVGSVGElement, SunSnowProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M10 21v-1" />
   <path d="M10 4V3" />
   <path d="M10 9a3 3 0 0 0 0 6" />
@@ -25,5 +36,14 @@ export const SunSnow = React.forwardRef<SVGSVGElement, SunSnowProps>(
   )
 );
 SunSnow.displayName = "SunSnow";
-export const SunSnowMetadata = { id: "sun-snow", baseId: "sun-snow", variant: "default", name: "Sun Snow", category: "weather", tags: [], viewBox: "0 0 24 24" } as const;
+export const SunSnowMetadata = { 
+  id: "sun-snow", 
+  baseId: "sun-snow", 
+  variant: "default", 
+  name: "Sun Snow", 
+  category: "weather", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default SunSnow;

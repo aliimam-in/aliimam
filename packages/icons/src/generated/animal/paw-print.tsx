@@ -9,7 +9,18 @@ export interface PawPrintProps extends React.SVGProps<SVGSVGElement> {
 
 export const PawPrint = React.forwardRef<SVGSVGElement, PawPrintProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <circle cx="11" cy="4" r="2" />
   <circle cx="18" cy="8" r="2" />
   <circle cx="20" cy="16" r="2" />
@@ -18,5 +29,14 @@ export const PawPrint = React.forwardRef<SVGSVGElement, PawPrintProps>(
   )
 );
 PawPrint.displayName = "PawPrint";
-export const PawPrintMetadata = { id: "paw-print", baseId: "paw-print", variant: "default", name: "Paw Print", category: "animal", tags: [], viewBox: "0 0 24 24" } as const;
+export const PawPrintMetadata = { 
+  id: "paw-print", 
+  baseId: "paw-print", 
+  variant: "default", 
+  name: "Paw Print", 
+  category: "animal", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default PawPrint;

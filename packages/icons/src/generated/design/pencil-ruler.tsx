@@ -9,7 +9,18 @@ export interface PencilRulerProps extends React.SVGProps<SVGSVGElement> {
 
 export const PencilRuler = React.forwardRef<SVGSVGElement, PencilRulerProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M13 7 8.7 2.7a2.41 2.41 0 0 0-3.4 0L2.7 5.3a2.41 2.41 0 0 0 0 3.4L7 13" />
   <path d="m8 6 2-2" />
   <path d="m18 16 2-2" />
@@ -20,5 +31,14 @@ export const PencilRuler = React.forwardRef<SVGSVGElement, PencilRulerProps>(
   )
 );
 PencilRuler.displayName = "PencilRuler";
-export const PencilRulerMetadata = { id: "pencil-ruler", baseId: "pencil-ruler", variant: "default", name: "Pencil Ruler", category: "design", tags: [], viewBox: "0 0 24 24" } as const;
+export const PencilRulerMetadata = { 
+  id: "pencil-ruler", 
+  baseId: "pencil-ruler", 
+  variant: "default", 
+  name: "Pencil Ruler", 
+  category: "design", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default PencilRuler;

@@ -9,7 +9,18 @@ export interface MailOpenedFilledProps extends React.SVGProps<SVGSVGElement> {
 
 export const MailOpenedFilled = React.forwardRef<SVGSVGElement, MailOpenedFilledProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      stroke="none"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M14.872 14.287l6.522 6.52a2.996 2.996 0 0 1 -2.218 1.188l-.176 .005h-14a2.995 2.995 0 0 1 -2.394 -1.191l6.521 -6.522l2.318 1.545l.116 .066a1 1 0 0 0 .878 0l.116 -.066l2.317 -1.545z" />
   <path d="M2 9.535l5.429 3.62l-5.429 5.43z" />
   <path d="M22 9.535v9.05l-5.43 -5.43z" />
@@ -18,5 +29,14 @@ export const MailOpenedFilled = React.forwardRef<SVGSVGElement, MailOpenedFilled
   )
 );
 MailOpenedFilled.displayName = "MailOpenedFilled";
-export const MailOpenedFilledMetadata = { id: "mail-opened_filled", baseId: "mail-opened", variant: "filled", name: "Mail Opened", category: "filled", tags: [], viewBox: "0 0 24 24" } as const;
+export const MailOpenedFilledMetadata = { 
+  id: "mail-opened_filled", 
+  baseId: "mail-opened", 
+  variant: "filled", 
+  name: "Mail Opened", 
+  category: "filled", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default MailOpenedFilled;

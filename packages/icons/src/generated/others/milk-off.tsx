@@ -9,7 +9,18 @@ export interface MilkOffProps extends React.SVGProps<SVGSVGElement> {
 
 export const MilkOff = React.forwardRef<SVGSVGElement, MilkOffProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M8 2h8" />
   <path d="M9 2v1.343M15 2v2.789a4 4 0 0 0 .672 2.219l.656.984a4 4 0 0 1 .672 2.22v1.131M7.8 7.8l-.128.192A4 4 0 0 0 7 10.212V20a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2v-3" />
   <path d="M7 15a6.47 6.47 0 0 1 5 0 6.472 6.472 0 0 0 3.435.435" />
@@ -18,5 +29,14 @@ export const MilkOff = React.forwardRef<SVGSVGElement, MilkOffProps>(
   )
 );
 MilkOff.displayName = "MilkOff";
-export const MilkOffMetadata = { id: "milk-off", baseId: "milk-off", variant: "default", name: "Milk Off", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export const MilkOffMetadata = { 
+  id: "milk-off", 
+  baseId: "milk-off", 
+  variant: "default", 
+  name: "Milk Off", 
+  category: "others", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default MilkOff;

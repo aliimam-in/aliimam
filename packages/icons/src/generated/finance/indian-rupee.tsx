@@ -9,7 +9,18 @@ export interface IndianRupeeProps extends React.SVGProps<SVGSVGElement> {
 
 export const IndianRupee = React.forwardRef<SVGSVGElement, IndianRupeeProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M6 3h12" />
   <path d="M6 8h12" />
   <path d="m6 13 8.5 8" />
@@ -19,5 +30,14 @@ export const IndianRupee = React.forwardRef<SVGSVGElement, IndianRupeeProps>(
   )
 );
 IndianRupee.displayName = "IndianRupee";
-export const IndianRupeeMetadata = { id: "indian-rupee", baseId: "indian-rupee", variant: "default", name: "Indian Rupee", category: "finance", tags: [], viewBox: "0 0 24 24" } as const;
+export const IndianRupeeMetadata = { 
+  id: "indian-rupee", 
+  baseId: "indian-rupee", 
+  variant: "default", 
+  name: "Indian Rupee", 
+  category: "finance", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default IndianRupee;

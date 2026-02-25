@@ -9,7 +9,7 @@ import {
   TooltipTrigger,
 } from "@/registry/aliimam/ui/tooltip"
 
-import { allLogos } from "../../../../../packages/icons/src/generated"
+import { allLogos } from "@aliimam/icons"
 import { useIconFilter } from "./icon-filter-context"
 import { Icons } from "./icons"
 

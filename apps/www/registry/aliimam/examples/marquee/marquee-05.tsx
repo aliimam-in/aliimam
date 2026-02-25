@@ -2,7 +2,7 @@ import {
   ClaudeAI,
   Cursor,
   Github,
-  Google,
+  GoogleWordmark,
   Grok,
   OpenAI,
   Replicate,
@@ -21,7 +21,7 @@ export default function DemoOne() {
           <Cursor size={40} />
           <Github size={40} />
           <Grok size={40} />
-          <Google className="mr-20" size={40} />
+          <GoogleWordmark className="mr-20" size={40} />
         </Marquee>
         <Marquee reverse gap={"80px"} fade={true}>
           <OpenAI size={40} />
@@ -30,7 +30,7 @@ export default function DemoOne() {
           <Cursor size={40} />
           <Github size={40} />
           <Grok size={40} />
-          <Google className="mr-20" size={40} />
+          <GoogleWordmark className="mr-20" size={40} />
         </Marquee>
       </main>
     </div>

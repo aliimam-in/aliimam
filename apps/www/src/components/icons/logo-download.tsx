@@ -2,7 +2,7 @@
 "use client"
 
 import { useState } from "react"
-import { allLogos } from "../../../../../packages/logos/src/generated"
+import { allLogos } from "@aliimam/logos"
 import { Check, ChevronDownIcon, Copy, Download } from "lucide-react"
 import { toast } from "sonner"
 

@@ -9,7 +9,18 @@ export interface SquirrelProps extends React.SVGProps<SVGSVGElement> {
 
 export const Squirrel = React.forwardRef<SVGSVGElement, SquirrelProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M15.236 22a3 3 0 0 0-2.2-5" />
   <path d="M16 20a3 3 0 0 1 3-3h1a2 2 0 0 0 2-2v-2a4 4 0 0 0-4-4V4" />
   <path d="M18 13h.01" />
@@ -18,5 +29,14 @@ export const Squirrel = React.forwardRef<SVGSVGElement, SquirrelProps>(
   )
 );
 Squirrel.displayName = "Squirrel";
-export const SquirrelMetadata = { id: "squirrel", baseId: "squirrel", variant: "default", name: "Squirrel", category: "animal", tags: [], viewBox: "0 0 24 24" } as const;
+export const SquirrelMetadata = { 
+  id: "squirrel", 
+  baseId: "squirrel", 
+  variant: "default", 
+  name: "Squirrel", 
+  category: "animal", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default Squirrel;

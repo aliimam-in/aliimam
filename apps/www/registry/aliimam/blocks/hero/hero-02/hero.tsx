@@ -1,6 +1,6 @@
 "use client"
 
-import { ClaudeAI, Cursor, Github, Google, Grok, OpenAI } from "@aliimam/logos"
+import { ClaudeAI, Cursor, Github, Grok, Nike, OpenAI, Vercel } from "@aliimam/logos"
 
 import { Marquee } from "@/registry/aliimam/components/marquee"
 import { Button } from "@/registry/aliimam/ui/button"
@@ -32,7 +32,7 @@ const technologies = [
     designation: "Graphic Design Platform",
     description: "Easily create social media posts.",
     logo: "/r/hero-04-light.png",
-    icon: <Google className="h-6 w-6 text-black" />,
+    icon: <Vercel className="h-6 w-6 text-black" />,
   },
 ]
 
@@ -55,36 +55,12 @@ export default function HeroSection02() {
           {/* Logos Row */}
           <div className="flex flex-col items-center gap-10 lg:flex-row">
             <div className="flex flex-wrap justify-center -space-y-4 -space-x-6">
-              <OpenAI
-                className="h-20 w-20 rounded-full border bg-white p-5 text-black shadow-2xl"
-                size={20}
-                height={25}
-              />
-              <ClaudeAI
-                className="h-20 w-20 rounded-full border bg-white p-5 shadow-2xl"
-                size={20}
-                height={24}
-              />
-              <Cursor
-                className="hidden h-20 w-20 rounded-full border bg-white p-5 text-black shadow-2xl md:block"
-                size={20}
-                height={16}
-              />
-              <Github
-                className="h-20 w-20 rounded-full border bg-white p-5 text-black shadow-2xl"
-                size={20}
-                height={20}
-              />
-              <Grok
-                className="hidden h-20 w-20 rounded-full border bg-white p-5 text-black shadow-2xl md:block"
-                size={20}
-                height={30}
-              />
-              <Google
-                className="h-20 w-20 rounded-full border bg-white p-5 shadow-2xl"
-                size={20}
-                height={30}
-              />
+              <OpenAI className="h-20 w-20 rounded-full border bg-white p-5 text-black shadow-2xl" />
+              <ClaudeAI className="h-20 w-20 rounded-full border bg-white p-5 shadow-2xl" />
+              <Cursor className="hidden h-20 w-20 rounded-full border bg-white p-5 text-black shadow-2xl md:block" />
+              <Github className="h-20 w-20 rounded-full border bg-white p-5 text-black shadow-2xl" />
+              <Grok className="hidden h-20 w-20 rounded-full border bg-white p-5 text-black shadow-2xl md:block" />
+              <Nike className="text-background h-20 w-20 rounded-full border bg-white p-5 shadow-2xl" />
             </div>
             <h1 className="text-center text-3xl font-medium mix-blend-overlay md:text-5xl lg:text-7xl">
               Creative Tools

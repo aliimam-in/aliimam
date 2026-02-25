@@ -9,7 +9,18 @@ export interface CloudCogProps extends React.SVGProps<SVGSVGElement> {
 
 export const CloudCog = React.forwardRef<SVGSVGElement, CloudCogProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="m10.852 19.772-.383.924" />
   <path d="m13.148 14.228.383-.923" />
   <path d="M13.148 19.772a3 3 0 1 0-2.296-5.544l-.383-.923" />
@@ -23,5 +34,14 @@ export const CloudCog = React.forwardRef<SVGSVGElement, CloudCogProps>(
   )
 );
 CloudCog.displayName = "CloudCog";
-export const CloudCogMetadata = { id: "cloud-cog", baseId: "cloud-cog", variant: "default", name: "Cloud Cog", category: "cloud", tags: [], viewBox: "0 0 24 24" } as const;
+export const CloudCogMetadata = { 
+  id: "cloud-cog", 
+  baseId: "cloud-cog", 
+  variant: "default", 
+  name: "Cloud Cog", 
+  category: "cloud", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default CloudCog;

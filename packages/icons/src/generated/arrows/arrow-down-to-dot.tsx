@@ -9,7 +9,18 @@ export interface ArrowDownToDotProps extends React.SVGProps<SVGSVGElement> {
 
 export const ArrowDownToDot = React.forwardRef<SVGSVGElement, ArrowDownToDotProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M12 2v14" />
   <path d="m19 9-7 7-7-7" />
   <circle cx="12" cy="21" r="1" />
@@ -17,5 +28,14 @@ export const ArrowDownToDot = React.forwardRef<SVGSVGElement, ArrowDownToDotProp
   )
 );
 ArrowDownToDot.displayName = "ArrowDownToDot";
-export const ArrowDownToDotMetadata = { id: "arrow-down-to-dot", baseId: "arrow-down-to-dot", variant: "default", name: "Arrow Down To Dot", category: "arrows", tags: [], viewBox: "0 0 24 24" } as const;
+export const ArrowDownToDotMetadata = { 
+  id: "arrow-down-to-dot", 
+  baseId: "arrow-down-to-dot", 
+  variant: "default", 
+  name: "Arrow Down To Dot", 
+  category: "arrows", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default ArrowDownToDot;

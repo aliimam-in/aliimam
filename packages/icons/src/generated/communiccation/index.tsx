@@ -1,7 +1,12 @@
 export { PhoneCall, PhoneCallMetadata, type PhoneCallProps } from './phone-call';
+export { PhoneCallFilled, PhoneCallFilledMetadata, type PhoneCallFilledProps } from './phone-call_filled';
+export { PhoneCallingFilled, PhoneCallingFilledMetadata, type PhoneCallingFilledProps } from './phone-calling_filled';
+export { PhoneCheckFilled, PhoneCheckFilledMetadata, type PhoneCheckFilledProps } from './phone-check_filled';
 export { PhoneForwarded, PhoneForwardedMetadata, type PhoneForwardedProps } from './phone-forwarded';
 export { PhoneIncoming, PhoneIncomingMetadata, type PhoneIncomingProps } from './phone-incoming';
 export { PhoneMissed, PhoneMissedMetadata, type PhoneMissedProps } from './phone-missed';
 export { PhoneOff, PhoneOffMetadata, type PhoneOffProps } from './phone-off';
 export { PhoneOutgoing, PhoneOutgoingMetadata, type PhoneOutgoingProps } from './phone-outgoing';
+export { PhoneXFilled, PhoneXFilledMetadata, type PhoneXFilledProps } from './phone-x_filled';
 export { Phone, PhoneMetadata, type PhoneProps } from './phone';
+export { PhoneFilled, PhoneFilledMetadata, type PhoneFilledProps } from './phone_filled';

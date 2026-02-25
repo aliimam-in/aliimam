@@ -25,11 +25,11 @@ export const KiboUI = React.forwardRef<SVGSVGElement, KiboUIProps>(
       {...props}
     >
       <g clipPath="url(#clip0_2066_932)">
-<path fillRule="evenodd" clipRule="evenodd" d="M6.1206 0H23.9668V6V18L18.018 24V6H0.171875L6.1206 0ZM0.171875 19.808V12H7.91317L0.171875 19.808ZM12.0693 24H4.4285L12.0693 16.2934V24Z" fill="black"/>
+<path fillRule="evenodd" clipRule="evenodd" d="M6.1206 0H23.9668V6V18L18.018 24V6H0.171875L6.1206 0ZM0.171875 19.808V12H7.91317L0.171875 19.808ZM12.0693 24H4.4285L12.0693 16.2934V24Z" fill="currentColor"/>
 </g>
 <defs>
 <clipPath id="clip0_2066_932">
-<rect width="24" height="24" fill="white"/>
+<rect width="24" height="24" fill="currentColor"/>
 </clipPath>
 </defs>
     </svg>

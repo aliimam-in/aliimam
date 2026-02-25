@@ -9,7 +9,18 @@ export interface CastleProps extends React.SVGProps<SVGSVGElement> {
 
 export const Castle = React.forwardRef<SVGSVGElement, CastleProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M10 5V3" />
   <path d="M14 5V3" />
   <path d="M15 21v-3a3 3 0 0 0-6 0v3" />
@@ -22,5 +33,14 @@ export const Castle = React.forwardRef<SVGSVGElement, CastleProps>(
   )
 );
 Castle.displayName = "Castle";
-export const CastleMetadata = { id: "castle", baseId: "castle", variant: "default", name: "Castle", category: "building", tags: [], viewBox: "0 0 24 24" } as const;
+export const CastleMetadata = { 
+  id: "castle", 
+  baseId: "castle", 
+  variant: "default", 
+  name: "Castle", 
+  category: "building", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default Castle;

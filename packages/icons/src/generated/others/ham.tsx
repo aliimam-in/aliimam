@@ -9,7 +9,18 @@ export interface HamProps extends React.SVGProps<SVGSVGElement> {
 
 export const Ham = React.forwardRef<SVGSVGElement, HamProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M13.144 21.144A7.274 10.445 45 1 0 2.856 10.856" />
   <path d="M13.144 21.144A7.274 4.365 45 0 0 2.856 10.856a7.274 4.365 45 0 0 10.288 10.288" />
   <path d="M16.565 10.435 18.6 8.4a2.501 2.501 0 1 0 1.65-4.65 2.5 2.5 0 1 0-4.66 1.66l-2.024 2.025" />
@@ -18,5 +29,14 @@ export const Ham = React.forwardRef<SVGSVGElement, HamProps>(
   )
 );
 Ham.displayName = "Ham";
-export const HamMetadata = { id: "ham", baseId: "ham", variant: "default", name: "Ham", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export const HamMetadata = { 
+  id: "ham", 
+  baseId: "ham", 
+  variant: "default", 
+  name: "Ham", 
+  category: "others", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default Ham;

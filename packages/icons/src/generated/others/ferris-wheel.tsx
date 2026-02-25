@@ -9,7 +9,18 @@ export interface FerrisWheelProps extends React.SVGProps<SVGSVGElement> {
 
 export const FerrisWheel = React.forwardRef<SVGSVGElement, FerrisWheelProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <circle cx="12" cy="12" r="2" />
   <path d="M12 2v4" />
   <path d="m6.8 15-3.5 2" />
@@ -23,5 +34,14 @@ export const FerrisWheel = React.forwardRef<SVGSVGElement, FerrisWheelProps>(
   )
 );
 FerrisWheel.displayName = "FerrisWheel";
-export const FerrisWheelMetadata = { id: "ferris-wheel", baseId: "ferris-wheel", variant: "default", name: "Ferris Wheel", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export const FerrisWheelMetadata = { 
+  id: "ferris-wheel", 
+  baseId: "ferris-wheel", 
+  variant: "default", 
+  name: "Ferris Wheel", 
+  category: "others", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default FerrisWheel;

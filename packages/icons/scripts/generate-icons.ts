@@ -1,77 +1,82 @@
-import * as fs from "fs";
-import * as path from "path";
+import * as fs from "fs"
+import * as path from "path"
 
-const PROJECT_ROOT = path.resolve(__dirname, "..");
-const LOGOS_DIR = path.join(PROJECT_ROOT, "src", "logos");
-const GENERATED_DIR = path.join(PROJECT_ROOT, "src", "generated");
-const LOGOS_JSON_PATH = path.join(GENERATED_DIR, "logos.json");
+const PROJECT_ROOT = path.resolve(__dirname, "..")
+const LOGOS_DIR = path.join(PROJECT_ROOT, "src", "logos")
+const GENERATED_DIR = path.join(PROJECT_ROOT, "src", "generated")
+const LOGOS_JSON_PATH = path.join(GENERATED_DIR, "logos.json")
 
 // ------------------------
 // 🗑️ Delete old generated folder completely before regenerating
 // ------------------------
 if (fs.existsSync(GENERATED_DIR)) {
-  fs.rmSync(GENERATED_DIR, { recursive: true, force: true });
-  console.log("[AI] Deleted old generated/ folder");
+  fs.rmSync(GENERATED_DIR, { recursive: true, force: true })
+  console.log("[AI] Deleted old generated/ folder")
 }
-fs.mkdirSync(GENERATED_DIR, { recursive: true });
+fs.mkdirSync(GENERATED_DIR, { recursive: true })
 
 // ------------------------
 // Helpers
 // ------------------------
 function extractViewBox(svg: string) {
-  const match = svg.match(/viewBox="([^"]+)"/);
-  return match ? match[1] : "0 0 24 24";
+  const match = svg.match(/viewBox="([^"]+)"/)
+  return match ? match[1] : "0 0 24 24"
 }
 
 function convertStyleString(svg: string): string {
   return svg.replace(/style="([^"]*)"/g, (_, styleStr) => {
-    const entries: string[] = [];
+    const entries: string[] = []
 
     styleStr.split(";").forEach((prop: string) => {
-      if (!prop.trim()) return;
+      if (!prop.trim()) return
 
-      const colonIdx = prop.indexOf(":");
-      if (colonIdx === -1) return;
+      const colonIdx = prop.indexOf(":")
+      if (colonIdx === -1) return
 
-      const key = prop.slice(0, colonIdx).trim();
-      const val = prop.slice(colonIdx + 1).trim();
+      const key = prop.slice(0, colonIdx).trim()
+      const val = prop.slice(colonIdx + 1).trim()
 
-      if (!key || !val) return;
-      if (val.includes("&quot") || val.includes("'") || val.includes('"')) return;
-      if (key.startsWith("-inkscape") || key.startsWith("inkscape")) return;
+      if (!key || !val) return
+      if (val.includes("&quot") || val.includes("'") || val.includes('"'))
+        return
+      if (key.startsWith("-inkscape") || key.startsWith("inkscape")) return
 
-      const camelKey = key.replace(/-([a-z])/g, (_: string, c: string) => c.toUpperCase());
-      const cleanVal = val.replace(/'/g, "\\'");
-      entries.push(`${camelKey}:'${cleanVal}'`);
-    });
+      const camelKey = key.replace(/-([a-z])/g, (_: string, c: string) =>
+        c.toUpperCase()
+      )
+      const cleanVal = val.replace(/'/g, "\\'")
+      entries.push(`${camelKey}:'${cleanVal}'`)
+    })
 
-    if (entries.length === 0) return "";
-    return `style={{${entries.join(",")}}}`;
-  });
+    if (entries.length === 0) return ""
+    return `style={{${entries.join(",")}}}`
+  })
 }
 
 function extractInnerSVG(svg: string): string {
-  const styleMap: Record<string, Record<string, string>> = {};
-  const styleTagMatches = svg.match(/<style[^>]*>([\s\S]*?)<\/style>/g) || [];
+  const styleMap: Record<string, Record<string, string>> = {}
+  const styleTagMatches = svg.match(/<style[^>]*>([\s\S]*?)<\/style>/g) || []
   styleTagMatches.forEach((styleTag) => {
-    const content = styleTag.replace(/<style[^>]*>/, "").replace(/<\/style>/, "");
-    const rules = content.match(/\.([a-zA-Z0-9_-]+)\s*\{([^}]+)\}/g) || [];
+    const content = styleTag
+      .replace(/<style[^>]*>/, "")
+      .replace(/<\/style>/, "")
+    const rules = content.match(/\.([a-zA-Z0-9_-]+)\s*\{([^}]+)\}/g) || []
     rules.forEach((rule) => {
-      const classMatch = rule.match(/\.([a-zA-Z0-9_-]+)\s*\{([^}]+)\}/);
+      const classMatch = rule.match(/\.([a-zA-Z0-9_-]+)\s*\{([^}]+)\}/)
       if (classMatch) {
-        const className = classMatch[1];
-        styleMap[className] = {};
+        const className = classMatch[1]
+        styleMap[className] = {}
         classMatch[2].split(";").forEach((prop) => {
-          const [k, v] = prop.split(":").map((s) => s.trim());
-          if (k && v) styleMap[className][k] = v;
-        });
+          const [k, v] = prop.split(":").map((s) => s.trim())
+          if (k && v) styleMap[className][k] = v
+        })
       }
-    });
-  });
+    })
+  })
 
   let result = svg
     .replace(/<\?xml[\s\S]*?\?>/g, "")
-    .replace(/<!DOCTYPE[\s\S]*?>/g, "") 
+    .replace(/<!DOCTYPE[\s\S]*?>/g, "")
     .replace(/<style[\s\S]*?<\/style>/g, "")
     .replace(/<metadata[\s\S]*?<\/metadata>/g, "")
     .replace(/<sodipodi:namedview[\s\S]*?<\/sodipodi:namedview>/g, "")
@@ -82,30 +87,32 @@ function extractInnerSVG(svg: string): string {
     .replace(/\s*inkscape:[a-zA-Z-]+=["'][^"']*["']/g, "")
     .replace(/\s*sketch:[a-zA-Z-]+=["'][^"']*["']/g, "")
     .replace(/\s*osb:[a-zA-Z-]+=["'][^"']*["']/g, "")
-    .replace(/\s*xmlns:[a-zA-Z]+="[^"]*"/g, "");
+    .replace(/\s*xmlns:[a-zA-Z]+="[^"]*"/g, "")
 
-  const svgOpenEnd = result.search(/<svg[\s\S]*?>/);
+  const svgOpenEnd = result.search(/<svg[\s\S]*?>/)
   if (svgOpenEnd !== -1) {
-    const match = result.match(/<svg[\s\S]*?>/);
-    if (match) result = result.slice(svgOpenEnd + match[0].length);
+    const match = result.match(/<svg[\s\S]*?>/)
+    if (match) result = result.slice(svgOpenEnd + match[0].length)
   }
 
-  const lastClose = result.lastIndexOf("</svg>");
-  if (lastClose !== -1) result = result.slice(0, lastClose);
+  const lastClose = result.lastIndexOf("</svg>")
+  if (lastClose !== -1) result = result.slice(0, lastClose)
 
   if (Object.keys(styleMap).length > 0) {
     result = result.replace(/class="([^"]+)"/g, (_, classNames) => {
-      const attrs: Record<string, string> = {};
+      const attrs: Record<string, string> = {}
       classNames.split(/\s+/).forEach((cls: string) => {
-        if (styleMap[cls]) Object.assign(attrs, styleMap[cls]);
-      });
-      const entries = Object.entries(attrs);
-      return entries.length ? entries.map(([k, v]) => `${k}="${v}"`).join(" ") : `class="${classNames}"`;
-    });
+        if (styleMap[cls]) Object.assign(attrs, styleMap[cls])
+      })
+      const entries = Object.entries(attrs)
+      return entries.length
+        ? entries.map(([k, v]) => `${k}="${v}"`).join(" ")
+        : `class="${classNames}"`
+    })
   }
 
-  result = convertStyleString(result);
-  return result.trim();
+  result = convertStyleString(result)
+  return result.trim()
 }
 
 function convertSvgAttributes(svg: string) {
@@ -125,6 +132,8 @@ function convertSvgAttributes(svg: string) {
     .replace(/stop-opacity=/g, "stopOpacity=")
     .replace(/fill-opacity=/g, "fillOpacity=")
     .replace(/stroke-opacity=/g, "strokeOpacity=")
+    .replace(/stroke-width=/g, "strokeWidth=")
+    .replace(/stroke-miterlimit=/g, "strokeMiterlimit=")
     .replace(/stroke-dasharray=/g, "strokeDasharray=")
     .replace(/stroke-dashoffset=/g, "strokeDashoffset=")
     .replace(/letter-spacing=/g, "letterSpacing=")
@@ -144,69 +153,75 @@ function convertSvgAttributes(svg: string) {
     .replace(/\s*dc:[a-zA-Z-]+=["'][^"']*["']/g, "")
     .replace(/\s*rdf:[a-zA-Z-]+=["'][^"']*["']/g, "")
     .replace(/\s*cc:[a-zA-Z-]+=["'][^"']*["']/g, "")
-    .replace(/\s*serif:[a-zA-Z-]+=["'][^"']*["']/g, "");
+    .replace(/\s*serif:[a-zA-Z-]+=["'][^"']*["']/g, "")
 }
 
-const KNOWN_VARIANTS = new Set(["filled", "circle", "outline"]);
+const KNOWN_VARIANTS = new Set(["filled", "circle", "outline"])
 
 function parseLogoId(basename: string): { baseId: string; variant: string } {
-  const underscoreIndex = basename.lastIndexOf("_");
+  const underscoreIndex = basename.lastIndexOf("_")
   if (underscoreIndex === -1) {
-    return { baseId: basename, variant: "default" };
+    return { baseId: basename, variant: "default" }
   }
 
-  const possibleVariant = basename.slice(underscoreIndex + 1).toLowerCase();
+  const possibleVariant = basename.slice(underscoreIndex + 1).toLowerCase()
   if (KNOWN_VARIANTS.has(possibleVariant)) {
     return {
       baseId: basename.slice(0, underscoreIndex),
       variant: possibleVariant,
-    };
+    }
   }
-  return { baseId: basename, variant: "default" };
+  return { baseId: basename, variant: "default" }
 }
 
 function toComponentName(id: string): string {
-  return id.split(/[-_]/).map((p) => p.charAt(0).toUpperCase() + p.slice(1)).join("");
+  return id
+    .split(/[-_]/)
+    .map((p) => p.charAt(0).toUpperCase() + p.slice(1))
+    .join("")
 }
 
 function loadExistingJSON() {
-  return { logos: [] as any[] };
+  return { logos: [] as any[] }
 }
 
 interface LogoJSON {
-  id: string;
-  baseId: string;
-  variant: string;
-  name: string;
-  path: string;
-  url?: string;
-  category: string;
-  tags?: string[];
-  viewBox?: string;
-  svgContent?: string;
+  id: string
+  baseId: string
+  variant: string
+  name: string
+  path: string
+  url?: string
+  category: string
+  tags?: string[]
+  viewBox?: string
+  svgContent?: string
 }
 
-const existingData = loadExistingJSON();
+const existingData = loadExistingJSON()
 const existingMap = new Map<string, LogoJSON>(
   //@ts-ignore
-  existingData.logos.map((l: { category: any; id: any }) => [`${l.category}/${l.id}`, l])
-);
+  existingData.logos.map((l: { category: any; id: any }) => [
+    `${l.category}/${l.id}`,
+    l,
+  ])
+)
 
-const allLogosRaw: LogoJSON[] = [];
+const allLogosRaw: LogoJSON[] = []
 const categories = fs
   .readdirSync(LOGOS_DIR)
-  .filter((d) => fs.statSync(path.join(LOGOS_DIR, d)).isDirectory());
+  .filter((d) => fs.statSync(path.join(LOGOS_DIR, d)).isDirectory())
 
 for (const category of categories) {
-  const categoryPath = path.join(LOGOS_DIR, category);
-  const files = fs.readdirSync(categoryPath).filter((f) => f.endsWith(".svg"));
+  const categoryPath = path.join(LOGOS_DIR, category)
+  const files = fs.readdirSync(categoryPath).filter((f) => f.endsWith(".svg"))
 
   for (const file of files) {
-    const basename = path.basename(file, ".svg");
-    const rawSvg = fs.readFileSync(path.join(categoryPath, file), "utf-8");
-    const svgContent = convertSvgAttributes(extractInnerSVG(rawSvg));
-    const existing = existingMap.get(`${category}/${basename}`);
-    const { baseId, variant } = parseLogoId(basename);
+    const basename = path.basename(file, ".svg")
+    const rawSvg = fs.readFileSync(path.join(categoryPath, file), "utf-8")
+    const svgContent = convertSvgAttributes(extractInnerSVG(rawSvg))
+    const existing = existingMap.get(`${category}/${basename}`)
+    const { baseId, variant } = parseLogoId(basename)
 
     allLogosRaw.push({
       id: basename,
@@ -222,23 +237,25 @@ for (const category of categories) {
       tags: existing?.tags || [],
       viewBox: extractViewBox(rawSvg),
       svgContent,
-    });
+    })
   }
 }
 
-const seenIds = new Set<string>();
-const logos: LogoJSON[] = [];
+const seenIds = new Set<string>()
+const logos: LogoJSON[] = []
 
 for (const logo of allLogosRaw) {
   if (seenIds.has(logo.id)) {
-    console.warn(`[SKIP] "${logo.id}" already exists — skipping.`);
-    continue;
+    console.warn(`[SKIP] "${logo.id}" already exists — skipping.`)
+    continue
   }
-  seenIds.add(logo.id);
-  logos.push(logo);
+  seenIds.add(logo.id)
+  logos.push(logo)
 }
 
-console.log(`[AI] SVGs found: ${allLogosRaw.length} | After dedup: ${logos.length}`);
+console.log(
+  `[AI] SVGs found: ${allLogosRaw.length} | After dedup: ${logos.length}`
+)
 
 fs.writeFileSync(
   LOGOS_JSON_PATH,
@@ -261,16 +278,42 @@ fs.writeFileSync(
     null,
     2
   )
-);
+)
+
 
 for (const category of categories) {
-  const categoryDir = path.join(GENERATED_DIR, category);
-  if (!fs.existsSync(categoryDir)) fs.mkdirSync(categoryDir, { recursive: true });
+  const categoryDir = path.join(GENERATED_DIR, category)
+  if (!fs.existsSync(categoryDir))
+    fs.mkdirSync(categoryDir, { recursive: true })
 
-  const categoryLogos = logos.filter((l) => l.category === category);
+  const categoryLogos = logos.filter((l) => l.category === category)
 
   for (const logo of categoryLogos) {
-    const componentName = toComponentName(logo.id);
+    let defaultFill = 'none'
+let defaultStroke = 'currentColor'
+
+switch (logo.variant) {
+  case 'filled':
+    defaultFill = 'currentColor'
+    defaultStroke = 'none'
+    break
+
+  case 'outline':
+    defaultFill = 'none'
+    defaultStroke = 'currentColor'
+    break
+
+  case 'circle':
+    defaultFill = 'none'
+    defaultStroke = 'currentColor'
+    break
+
+  default:
+    defaultFill = 'none'
+    defaultStroke = 'currentColor'
+}
+
+    const componentName = toComponentName(logo.id)
     const componentCode = `/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
@@ -282,31 +325,51 @@ export interface ${componentName}Props extends React.SVGProps<SVGSVGElement> {
 
 export const ${componentName} = React.forwardRef<SVGSVGElement, ${componentName}Props>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="${logo.viewBox}" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="${logo.viewBox}"
+      fill="${defaultFill}"
+      stroke="${defaultStroke}"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       ${logo.svgContent}
     </svg>
   )
 );
 ${componentName}.displayName = "${componentName}";
-export const ${componentName}Metadata = { id: "${logo.id}", baseId: "${logo.baseId}", variant: "${logo.variant}", name: "${logo.name}", category: "${logo.category}", tags: ${JSON.stringify(logo.tags)}, viewBox: "${logo.viewBox}" } as const;
+export const ${componentName}Metadata = { 
+  id: "${logo.id}", 
+  baseId: "${logo.baseId}", 
+  variant: "${logo.variant}", 
+  name: "${logo.name}", 
+  category: "${logo.category}", 
+  tags: ${JSON.stringify(logo.tags)}, 
+  viewBox: "${logo.viewBox}" 
+} as const;
+
 export default ${componentName};
-`;
-    fs.writeFileSync(path.join(categoryDir, `${logo.id}.tsx`), componentCode);
+`
+    fs.writeFileSync(path.join(categoryDir, `${logo.id}.tsx`), componentCode)
   }
 
   const indexCode = categoryLogos
     .map((l) => {
-      const componentName = toComponentName(l.id);
-      return `export { ${componentName}, ${componentName}Metadata, type ${componentName}Props } from './${l.id}';`;
+      const componentName = toComponentName(l.id)
+      return `export { ${componentName}, ${componentName}Metadata, type ${componentName}Props } from './${l.id}';`
     })
-    .join("\n");
-  fs.writeFileSync(path.join(categoryDir, "index.tsx"), indexCode);
+    .join("\n")
+  fs.writeFileSync(path.join(categoryDir, "index.tsx"), indexCode)
 }
 
 // ------------------------
 // Generate main index.tsx (Final Fix)
 // ------------------------
-const mainIndexPath = path.join(GENERATED_DIR, "index.tsx");
+const mainIndexPath = path.join(GENERATED_DIR, "index.tsx")
 
 // Sabse pehle types define karein
 let mainIndexContent = `/** Auto-generated main index - Do not edit manually */
@@ -324,40 +387,48 @@ export interface LogoEntry {
     readonly viewBox: string;
   };
 }
-\n`;
+\n`
 
-let namedExports = `// Individual Named Exports for direct access and tree-shaking\n`;
-let internalImports = `// Internal imports for allLogos object\n`;
-let allLogosObject = "export const allLogos: Record<string, Record<string, LogoEntry>> = {\n";
+let namedExports = `// Individual Named Exports for direct access and tree-shaking\n`
+let internalImports = `// Internal imports for allLogos object\n`
+let allLogosObject =
+  "export const allLogos: Record<string, Record<string, LogoEntry>> = {\n"
 
 for (const category of categories) {
-  const categoryLogos = logos.filter((l) => l.category === category);
-  if (categoryLogos.length === 0) continue;
+  const categoryLogos = logos.filter((l) => l.category === category)
+  if (categoryLogos.length === 0) continue
 
-  allLogosObject += `  ${category}: {\n`;
-  
+  allLogosObject += `  ${category}: {\n`
+
   categoryLogos.forEach((l) => {
-    const componentName = toComponentName(l.id);
-    
+    const componentName = toComponentName(l.id)
+
     // 1. Named Exports (ISKE BINA BUILD FAIL HOTI HAI)
-    namedExports += `export { ${componentName}, ${componentName}Metadata, type ${componentName}Props } from './${category}/${l.id}';\n`;
-    
+    namedExports += `export { ${componentName}, ${componentName}Metadata, type ${componentName}Props } from './${category}/${l.id}';\n`
+
     // 2. Internal Imports (allLogos object construct karne ke liye)
-    internalImports += `import { ${componentName}, ${componentName}Metadata } from './${category}/${l.id}';\n`;
-    
+    internalImports += `import { ${componentName}, ${componentName}Metadata } from './${category}/${l.id}';\n`
+
     // 3. Object Entry
-    allLogosObject += `    ${componentName}: { Component: ${componentName}, metadata: ${componentName}Metadata },\n`;
-  });
-  
-  allLogosObject += "  },\n";
+    allLogosObject += `    ${componentName}: { Component: ${componentName}, metadata: ${componentName}Metadata },\n`
+  })
+
+  allLogosObject += "  },\n"
 }
 
-allLogosObject += "};\n";
+allLogosObject += "};\n"
 
 // Sabko combine karke file write karein
 fs.writeFileSync(
-  mainIndexPath, 
-  mainIndexContent + namedExports + "\n" + internalImports + "\n" + allLogosObject
-);
+  mainIndexPath,
+  mainIndexContent +
+    namedExports +
+    "\n" +
+    internalImports +
+    "\n" +
+    allLogosObject
+)
 
-console.log("[AI] Fixed index.tsx generated: Added Named Exports and Internal Imports.");
+console.log(
+  "[AI] Fixed index.tsx generated: Added Named Exports and Internal Imports."
+)

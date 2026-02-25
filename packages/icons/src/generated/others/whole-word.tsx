@@ -9,7 +9,18 @@ export interface WholeWordProps extends React.SVGProps<SVGSVGElement> {
 
 export const WholeWord = React.forwardRef<SVGSVGElement, WholeWordProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <circle cx="7" cy="12" r="3" />
   <path d="M10 9v6" />
   <circle cx="17" cy="12" r="3" />
@@ -19,5 +30,14 @@ export const WholeWord = React.forwardRef<SVGSVGElement, WholeWordProps>(
   )
 );
 WholeWord.displayName = "WholeWord";
-export const WholeWordMetadata = { id: "whole-word", baseId: "whole-word", variant: "default", name: "Whole Word", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export const WholeWordMetadata = { 
+  id: "whole-word", 
+  baseId: "whole-word", 
+  variant: "default", 
+  name: "Whole Word", 
+  category: "others", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default WholeWord;

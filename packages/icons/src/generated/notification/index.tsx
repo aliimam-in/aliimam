@@ -1,8 +1,15 @@
 export { BellDot, BellDotMetadata, type BellDotProps } from './bell-dot';
 export { BellElectric, BellElectricMetadata, type BellElectricProps } from './bell-electric';
 export { BellMinus, BellMinusMetadata, type BellMinusProps } from './bell-minus';
+export { BellMinusFilled, BellMinusFilledMetadata, type BellMinusFilledProps } from './bell-minus_filled';
 export { BellOff, BellOffMetadata, type BellOffProps } from './bell-off';
 export { BellPlus, BellPlusMetadata, type BellPlusProps } from './bell-plus';
+export { BellPlusFilled, BellPlusFilledMetadata, type BellPlusFilledProps } from './bell-plus_filled';
 export { BellRing, BellRingMetadata, type BellRingProps } from './bell-ring';
+export { BellRinging2Filled, BellRinging2FilledMetadata, type BellRinging2FilledProps } from './bell-ringing-2_filled';
+export { BellRingingFilled, BellRingingFilledMetadata, type BellRingingFilledProps } from './bell-ringing_filled';
+export { BellXFilled, BellXFilledMetadata, type BellXFilledProps } from './bell-x_filled';
+export { BellZFilled, BellZFilledMetadata, type BellZFilledProps } from './bell-z_filled';
 export { Bell, BellMetadata, type BellProps } from './bell';
+export { BellFilled, BellFilledMetadata, type BellFilledProps } from './bell_filled';
 export { EthernetPort, EthernetPortMetadata, type EthernetPortProps } from './ethernet-port';

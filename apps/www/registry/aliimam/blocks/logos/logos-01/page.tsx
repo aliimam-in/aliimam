@@ -1,12 +1,12 @@
 import {
   ClaudeAI,
   Cursor,
-  Gemini,
-  Github,
-  Google,
+  GoogleGemini,
+  Github, 
   Grok,
   OpenAI,
   Replicate,
+  Vercel,
 } from "@aliimam/logos"
 
 export default function Logos01() {
@@ -22,10 +22,10 @@ export default function Logos01() {
             <ClaudeAI size={40} />
             <Replicate size={40} />
             <Cursor size={40} />
-            <Gemini size={40} />
+            <GoogleGemini size={40} />
             <Github size={40} />
             <Grok size={40} />
-            <Google size={40} />
+            <Vercel size={40} />
           </div>
         </div>
       </div>

@@ -9,7 +9,18 @@ export interface BusFrontProps extends React.SVGProps<SVGSVGElement> {
 
 export const BusFront = React.forwardRef<SVGSVGElement, BusFrontProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M4 6 2 7" />
   <path d="M10 6h4" />
   <path d="m22 7-2-1" />
@@ -23,5 +34,14 @@ export const BusFront = React.forwardRef<SVGSVGElement, BusFrontProps>(
   )
 );
 BusFront.displayName = "BusFront";
-export const BusFrontMetadata = { id: "bus-front", baseId: "bus-front", variant: "default", name: "Bus Front", category: "transportation", tags: [], viewBox: "0 0 24 24" } as const;
+export const BusFrontMetadata = { 
+  id: "bus-front", 
+  baseId: "bus-front", 
+  variant: "default", 
+  name: "Bus Front", 
+  category: "transportation", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default BusFront;

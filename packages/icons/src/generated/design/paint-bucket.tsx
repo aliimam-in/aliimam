@@ -9,7 +9,18 @@ export interface PaintBucketProps extends React.SVGProps<SVGSVGElement> {
 
 export const PaintBucket = React.forwardRef<SVGSVGElement, PaintBucketProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M11 7 6 2" />
   <path d="M18.992 12H2.041" />
   <path d="M21.145 18.38A3.34 3.34 0 0 1 20 16.5a3.3 3.3 0 0 1-1.145 1.88c-.575.46-.855 1.02-.855 1.595A2 2 0 0 0 20 22a2 2 0 0 0 2-2.025c0-.58-.285-1.13-.855-1.595" />
@@ -18,5 +29,14 @@ export const PaintBucket = React.forwardRef<SVGSVGElement, PaintBucketProps>(
   )
 );
 PaintBucket.displayName = "PaintBucket";
-export const PaintBucketMetadata = { id: "paint-bucket", baseId: "paint-bucket", variant: "default", name: "Paint Bucket", category: "design", tags: [], viewBox: "0 0 24 24" } as const;
+export const PaintBucketMetadata = { 
+  id: "paint-bucket", 
+  baseId: "paint-bucket", 
+  variant: "default", 
+  name: "Paint Bucket", 
+  category: "design", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default PaintBucket;

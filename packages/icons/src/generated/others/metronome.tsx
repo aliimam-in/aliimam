@@ -9,7 +9,18 @@ export interface MetronomeProps extends React.SVGProps<SVGSVGElement> {
 
 export const Metronome = React.forwardRef<SVGSVGElement, MetronomeProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M12 11.4V9.1" />
   <path d="m12 17 6.59-6.59" />
   <path d="m15.05 5.7-.218-.691a3 3 0 0 0-5.663 0L4.418 19.695A1 1 0 0 0 5.37 21h13.253a1 1 0 0 0 .951-1.31L18.45 16.2" />
@@ -18,5 +29,14 @@ export const Metronome = React.forwardRef<SVGSVGElement, MetronomeProps>(
   )
 );
 Metronome.displayName = "Metronome";
-export const MetronomeMetadata = { id: "metronome", baseId: "metronome", variant: "default", name: "Metronome", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export const MetronomeMetadata = { 
+  id: "metronome", 
+  baseId: "metronome", 
+  variant: "default", 
+  name: "Metronome", 
+  category: "others", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default Metronome;

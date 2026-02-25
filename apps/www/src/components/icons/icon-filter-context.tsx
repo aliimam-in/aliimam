@@ -2,7 +2,7 @@
 "use client"
 
 import { createContext, useContext, useMemo, useState } from "react"
-import { allLogos } from "../../../../../packages/icons/src/generated"
+import { allLogos } from "@aliimam/icons"
 
 type LogoFilterContext = {
   query: string

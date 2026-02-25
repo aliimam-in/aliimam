@@ -9,11 +9,31 @@ export interface BathFilledProps extends React.SVGProps<SVGSVGElement> {
 
 export const BathFilled = React.forwardRef<SVGSVGElement, BathFilledProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      stroke="none"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M11 2a1 1 0 0 1 .993 .883l.007 .117v2.25a1 1 0 0 1 -1.993 .117l-.007 -.117v-1.25h-2a1 1 0 0 0 -.993 .883l-.007 .117v6h13a2 2 0 0 1 1.995 1.85l.005 .15v3c0 1.475 -.638 2.8 -1.654 3.715l.486 .73a1 1 0 0 1 -1.594 1.203l-.07 -.093l-.55 -.823a4.98 4.98 0 0 1 -1.337 .26l-.281 .008h-10a4.994 4.994 0 0 1 -1.619 -.268l-.549 .823a1 1 0 0 1 -1.723 -1.009l.059 -.1l.486 -.73a4.987 4.987 0 0 1 -1.647 -3.457l-.007 -.259v-3a2 2 0 0 1 1.85 -1.995l.15 -.005h1v-6a3 3 0 0 1 2.824 -2.995l.176 -.005h3z" />
     </svg>
   )
 );
 BathFilled.displayName = "BathFilled";
-export const BathFilledMetadata = { id: "bath_filled", baseId: "bath", variant: "filled", name: "Bath", category: "filled", tags: [], viewBox: "0 0 24 24" } as const;
+export const BathFilledMetadata = { 
+  id: "bath_filled", 
+  baseId: "bath", 
+  variant: "filled", 
+  name: "Bath", 
+  category: "filled", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default BathFilled;

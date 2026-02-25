@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import Link from "next/link"
-import { allLogos } from "../../../../../packages/logos/src/generated"
+import { allLogos } from "@aliimam/logos"
 import { Link2 } from "@aliimam/icons"
 import { Figma } from "@aliimam/logos"
 
@@ -11,6 +11,7 @@ import { ContentCopyButton } from "../copy-button"
 import { LogoControlsPanel } from "./logo-controls"
 import { LogoDownloadPanel } from "./logo-download"
 import { Logos } from "./logos"
+import { IconGridLines } from "../logos"
 
 interface Props {
   selectedLogo: string
@@ -41,13 +42,14 @@ export function LogoPreview({ selectedLogo, onClearSelection }: Props) {
   return (
     <div className="hidden h-full flex-col justify-between pl-2 md:flex">
       <div className="flex flex-col gap-2 overflow-auto">
-        <div className="bg-code flex aspect-square h-full w-80 items-center justify-center border">
+        <div className="flex aspect-square h-80 w-80 items-center justify-center border">
           <Logos
             id="preview-svg"
             name={activeId}
             size={size}
             color={color}
           />
+          <IconGridLines className="bg-code absolute -z-10 h-80 w-80 opacity-15" />
         </div>
 
          
@@ -133,8 +135,9 @@ export function LogoPreviewPhone({ selectedLogo, onClearSelection }: Props) {
 
   return (
     <div className="flex flex-col justify-center p-2">
-      <div className="bg-code flex aspect-square h-full w-60 flex-1 items-center justify-center border">
+      <div className="flex aspect-square h-60 w-60 flex-1 items-center justify-center border">
         <Logos id="preview-svg" name={activeId} size={size} color={color} />
+      <IconGridLines className="bg-code absolute -z-10 h-60 w-60 opacity-15" />
       </div>
 
       {/* Variant tabs */}

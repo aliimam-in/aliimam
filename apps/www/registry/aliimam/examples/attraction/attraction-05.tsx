@@ -1,11 +1,15 @@
 "use client"
 
 import {
+  AdobeAfterEffects,
+  AdobeIllustrator,
+  AdobePhotoshop,
+  AdobePremiere,
   ClaudeAI,
   Cursor,
-  Gemini,
   Github,
-  Google,
+  GoogleGemini,
+  GoogleWordmark,
   Grok,
   OpenAI,
   PerplexityAI,
@@ -23,10 +27,14 @@ export function LogosAttraction() {
     ClaudeAI,
     Replicate,
     Cursor,
-    Gemini,
+    GoogleGemini,
     Github,
     Grok,
-    Google,
+    AdobePhotoshop,
+    AdobeAfterEffects,
+    AdobeIllustrator,
+    AdobePremiere,
+    GoogleWordmark,
     Suno,
     Resend,
     YouTube,
@@ -45,7 +53,7 @@ export function LogosAttraction() {
             data-friction="0"
             data-restitution="0.9"
             data-friction-air="0.01"
-            className="flex h-20 w-20 items-center justify-center border bg-white select-none"
+            className="flex h-20 w-20 items-center justify-center select-none"
           >
             <Logo size={28} />
           </div>

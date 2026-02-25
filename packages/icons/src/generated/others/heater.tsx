@@ -9,7 +9,18 @@ export interface HeaterProps extends React.SVGProps<SVGSVGElement> {
 
 export const Heater = React.forwardRef<SVGSVGElement, HeaterProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M11 8c2-3-2-3 0-6" />
   <path d="M15.5 8c2-3-2-3 0-6" />
   <path d="M6 10h.01" />
@@ -24,5 +35,14 @@ export const Heater = React.forwardRef<SVGSVGElement, HeaterProps>(
   )
 );
 Heater.displayName = "Heater";
-export const HeaterMetadata = { id: "heater", baseId: "heater", variant: "default", name: "Heater", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export const HeaterMetadata = { 
+  id: "heater", 
+  baseId: "heater", 
+  variant: "default", 
+  name: "Heater", 
+  category: "others", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default Heater;

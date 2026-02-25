@@ -3,6 +3,15 @@ export { BanknoteArrowUp, BanknoteArrowUpMetadata, type BanknoteArrowUpProps } f
 export { BanknoteX, BanknoteXMetadata, type BanknoteXProps } from './banknote-x';
 export { Banknote, BanknoteMetadata, type BanknoteProps } from './banknote';
 export { Bitcoin, BitcoinMetadata, type BitcoinProps } from './bitcoin';
+export { CoinBitcoinFilled, CoinBitcoinFilledMetadata, type CoinBitcoinFilledProps } from './coin-bitcoin_filled';
+export { CoinEuroFilled, CoinEuroFilledMetadata, type CoinEuroFilledProps } from './coin-euro_filled';
+export { CoinMoneroFilled, CoinMoneroFilledMetadata, type CoinMoneroFilledProps } from './coin-monero_filled';
+export { CoinPoundFilled, CoinPoundFilledMetadata, type CoinPoundFilledProps } from './coin-pound_filled';
+export { CoinRupeeFilled, CoinRupeeFilledMetadata, type CoinRupeeFilledProps } from './coin-rupee_filled';
+export { CoinTakaFilled, CoinTakaFilledMetadata, type CoinTakaFilledProps } from './coin-taka_filled';
+export { CoinYenFilled, CoinYenFilledMetadata, type CoinYenFilledProps } from './coin-yen_filled';
+export { CoinYuanFilled, CoinYuanFilledMetadata, type CoinYuanFilledProps } from './coin-yuan_filled';
+export { CoinFilled, CoinFilledMetadata, type CoinFilledProps } from './coin_filled';
 export { Coins, CoinsMetadata, type CoinsProps } from './coins';
 export { CreditCard, CreditCardMetadata, type CreditCardProps } from './credit-card';
 export { DollarSign, DollarSignMetadata, type DollarSignProps } from './dollar-sign';

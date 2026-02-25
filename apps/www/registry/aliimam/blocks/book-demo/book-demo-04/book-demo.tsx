@@ -5,7 +5,7 @@ import {
   Apple,
   ClaudeAI,
   Cursor,
-  Gemini,
+  GoogleGemini,
   Github,
   OpenAI,
   Replicate,
@@ -171,7 +171,7 @@ const Bookademo4 = () => {
                     <ClaudeAI key="claude" size={40} />,
                     <Replicate key="replicate" size={40} />,
                     <Cursor key="cursor" size={40} />,
-                    <Gemini key="gemini" size={40} />,
+                    <GoogleGemini key="gemini" size={40} />,
                     <Github key="github" size={40} />,
                   ].map((Logo, i) => (
                     <div

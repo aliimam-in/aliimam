@@ -9,7 +9,18 @@ export interface TableColumnsSplitProps extends React.SVGProps<SVGSVGElement> {
 
 export const TableColumnsSplit = React.forwardRef<SVGSVGElement, TableColumnsSplitProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M14 14v2" />
   <path d="M14 20v2" />
   <path d="M14 2v2" />
@@ -25,5 +36,14 @@ export const TableColumnsSplit = React.forwardRef<SVGSVGElement, TableColumnsSpl
   )
 );
 TableColumnsSplit.displayName = "TableColumnsSplit";
-export const TableColumnsSplitMetadata = { id: "table-columns-split", baseId: "table-columns-split", variant: "default", name: "Table Columns Split", category: "table", tags: [], viewBox: "0 0 24 24" } as const;
+export const TableColumnsSplitMetadata = { 
+  id: "table-columns-split", 
+  baseId: "table-columns-split", 
+  variant: "default", 
+  name: "Table Columns Split", 
+  category: "table", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default TableColumnsSplit;

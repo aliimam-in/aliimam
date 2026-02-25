@@ -9,7 +9,18 @@ export interface GamepadDirectionalProps extends React.SVGProps<SVGSVGElement> {
 
 export const GamepadDirectional = React.forwardRef<SVGSVGElement, GamepadDirectionalProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path
     d="M11.146 15.854a1.207 1.207 0 0 1 1.708 0l1.56 1.56A2 2 0 0 1 15 18.828V21a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1v-2.172a2 2 0 0 1 .586-1.414z" />
   <path
@@ -22,5 +33,14 @@ export const GamepadDirectional = React.forwardRef<SVGSVGElement, GamepadDirecti
   )
 );
 GamepadDirectional.displayName = "GamepadDirectional";
-export const GamepadDirectionalMetadata = { id: "gamepad-directional", baseId: "gamepad-directional", variant: "default", name: "Gamepad Directional", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export const GamepadDirectionalMetadata = { 
+  id: "gamepad-directional", 
+  baseId: "gamepad-directional", 
+  variant: "default", 
+  name: "Gamepad Directional", 
+  category: "others", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default GamepadDirectional;

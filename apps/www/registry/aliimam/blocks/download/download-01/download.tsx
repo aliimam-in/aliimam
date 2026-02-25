@@ -1,6 +1,6 @@
 "use client"
 
-import { Apple, Google, Vercel } from "@aliimam/logos"
+import { Apple, OpenAI, Vercel } from "@aliimam/logos"
 
 import { Button } from "@/registry/aliimam/ui/button"
 import { Separator } from "@/registry/aliimam/ui/separator"
@@ -47,7 +47,7 @@ const Download2 = () => {
             />
             <Separator className="mb-6 block md:hidden" />
             <div className="space-y-10">
-              <Google size={50} />
+              <OpenAI size={50} />
               <h2 className="w-full text-5xl tracking-tighter">Google</h2>
               <div className="space-y-2">
                 <Button className="mx-auto h-12 w-full max-w-sm">

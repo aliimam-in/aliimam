@@ -3,7 +3,7 @@
 
 import { useEffect, useMemo, useRef, useState } from "react"
 import { useSearchParams } from "next/navigation"
-import { allLogos } from "../../../../../packages/icons/src/generated"
+import { allLogos } from "@aliimam/icons"
 import { useIconFilter } from "./icon-filter-context"
 
 function matchesVariantTab(variant: string, tab: "outline" | "filled" | "circle"): boolean {
@@ -73,7 +73,7 @@ export function IconCategoryTabs() {
 
   return (
     <div className="sticky top-30 z-30 hidden h-[calc(100svh-var(--footer-height)+2rem)] w-72 scroll-mt-40 bg-transparent lg:flex">
-      <aside className="h-full w-full overflow-y-auto space-y-3 p-3">
+      <aside className="h-full w-full overflow-y-auto space-y-3 pb-40 p-3">
         <button
           ref={activeHash === null ? activeRef : null}
           onClick={() => handleClick(null)}

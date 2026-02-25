@@ -9,7 +9,18 @@ export interface MedalProps extends React.SVGProps<SVGSVGElement> {
 
 export const Medal = React.forwardRef<SVGSVGElement, MedalProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M7.21 15 2.66 7.14a2 2 0 0 1 .13-2.2L4.4 2.8A2 2 0 0 1 6 2h12a2 2 0 0 1 1.6.8l1.6 2.14a2 2 0 0 1 .14 2.2L16.79 15" />
   <path d="M11 12 5.12 2.2" />
   <path d="m13 12 5.88-9.8" />
@@ -20,5 +31,14 @@ export const Medal = React.forwardRef<SVGSVGElement, MedalProps>(
   )
 );
 Medal.displayName = "Medal";
-export const MedalMetadata = { id: "medal", baseId: "medal", variant: "default", name: "Medal", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export const MedalMetadata = { 
+  id: "medal", 
+  baseId: "medal", 
+  variant: "default", 
+  name: "Medal", 
+  category: "others", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default Medal;

@@ -9,7 +9,18 @@ export interface KeyboardOffProps extends React.SVGProps<SVGSVGElement> {
 
 export const KeyboardOff = React.forwardRef<SVGSVGElement, KeyboardOffProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M 20 4 A2 2 0 0 1 22 6" />
   <path d="M 22 6 L 22 16.41" />
   <path d="M 7 16 L 16 16" />
@@ -24,5 +35,14 @@ export const KeyboardOff = React.forwardRef<SVGSVGElement, KeyboardOffProps>(
   )
 );
 KeyboardOff.displayName = "KeyboardOff";
-export const KeyboardOffMetadata = { id: "keyboard-off", baseId: "keyboard-off", variant: "default", name: "Keyboard Off", category: "device", tags: [], viewBox: "0 0 24 24" } as const;
+export const KeyboardOffMetadata = { 
+  id: "keyboard-off", 
+  baseId: "keyboard-off", 
+  variant: "default", 
+  name: "Keyboard Off", 
+  category: "device", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default KeyboardOff;

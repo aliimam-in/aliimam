@@ -1,3 +1,4 @@
+export { CalculatorFilled, CalculatorFilledMetadata, type CalculatorFilledProps } from './calculator_filled';
 export { Calendar1, Calendar1Metadata, type Calendar1Props } from './calendar-1';
 export { CalendarArrowDown, CalendarArrowDownMetadata, type CalendarArrowDownProps } from './calendar-arrow-down';
 export { CalendarArrowUp, CalendarArrowUpMetadata, type CalendarArrowUpProps } from './calendar-arrow-up';
@@ -6,17 +7,21 @@ export { CalendarCheck, CalendarCheckMetadata, type CalendarCheckProps } from '.
 export { CalendarClock, CalendarClockMetadata, type CalendarClockProps } from './calendar-clock';
 export { CalendarCog, CalendarCogMetadata, type CalendarCogProps } from './calendar-cog';
 export { CalendarDays, CalendarDaysMetadata, type CalendarDaysProps } from './calendar-days';
+export { CalendarEventFilled, CalendarEventFilledMetadata, type CalendarEventFilledProps } from './calendar-event_filled';
 export { CalendarFold, CalendarFoldMetadata, type CalendarFoldProps } from './calendar-fold';
 export { CalendarHeart, CalendarHeartMetadata, type CalendarHeartProps } from './calendar-heart';
 export { CalendarMinus2, CalendarMinus2Metadata, type CalendarMinus2Props } from './calendar-minus-2';
 export { CalendarMinus, CalendarMinusMetadata, type CalendarMinusProps } from './calendar-minus';
+export { CalendarMonthFilled, CalendarMonthFilledMetadata, type CalendarMonthFilledProps } from './calendar-month_filled';
 export { CalendarOff, CalendarOffMetadata, type CalendarOffProps } from './calendar-off';
 export { CalendarPlus2, CalendarPlus2Metadata, type CalendarPlus2Props } from './calendar-plus-2';
 export { CalendarPlus, CalendarPlusMetadata, type CalendarPlusProps } from './calendar-plus';
 export { CalendarRange, CalendarRangeMetadata, type CalendarRangeProps } from './calendar-range';
 export { CalendarSearch, CalendarSearchMetadata, type CalendarSearchProps } from './calendar-search';
 export { CalendarSync, CalendarSyncMetadata, type CalendarSyncProps } from './calendar-sync';
+export { CalendarWeekFilled, CalendarWeekFilledMetadata, type CalendarWeekFilledProps } from './calendar-week_filled';
 export { CalendarX2, CalendarX2Metadata, type CalendarX2Props } from './calendar-x-2';
 export { CalendarX, CalendarXMetadata, type CalendarXProps } from './calendar-x';
 export { Calendar, CalendarMetadata, type CalendarProps } from './calendar';
+export { CalendarFilled, CalendarFilledMetadata, type CalendarFilledProps } from './calendar_filled';
 export { Calendars, CalendarsMetadata, type CalendarsProps } from './calendars';

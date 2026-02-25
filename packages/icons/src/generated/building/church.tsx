@@ -9,7 +9,18 @@ export interface ChurchProps extends React.SVGProps<SVGSVGElement> {
 
 export const Church = React.forwardRef<SVGSVGElement, ChurchProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M10 9h4" />
   <path d="M12 7v5" />
   <path d="M14 21v-3a2 2 0 0 0-4 0v3" />
@@ -19,5 +30,14 @@ export const Church = React.forwardRef<SVGSVGElement, ChurchProps>(
   )
 );
 Church.displayName = "Church";
-export const ChurchMetadata = { id: "church", baseId: "church", variant: "default", name: "Church", category: "building", tags: [], viewBox: "0 0 24 24" } as const;
+export const ChurchMetadata = { 
+  id: "church", 
+  baseId: "church", 
+  variant: "default", 
+  name: "Church", 
+  category: "building", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default Church;

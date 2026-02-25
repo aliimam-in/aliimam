@@ -9,7 +9,18 @@ export interface SwordsProps extends React.SVGProps<SVGSVGElement> {
 
 export const Swords = React.forwardRef<SVGSVGElement, SwordsProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <polyline points="14.5 17.5 3 6 3 3 6 3 17.5 14.5" />
   <line x1="13" x2="19" y1="19" y2="13" />
   <line x1="16" x2="20" y1="16" y2="20" />
@@ -22,5 +33,14 @@ export const Swords = React.forwardRef<SVGSVGElement, SwordsProps>(
   )
 );
 Swords.displayName = "Swords";
-export const SwordsMetadata = { id: "swords", baseId: "swords", variant: "default", name: "Swords", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export const SwordsMetadata = { 
+  id: "swords", 
+  baseId: "swords", 
+  variant: "default", 
+  name: "Swords", 
+  category: "others", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default Swords;

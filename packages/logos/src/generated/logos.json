@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-02-25T18:23:19.262Z",
+  "lastUpdated": "2026-02-25T20:02:22.465Z",
   "logos": [
     {
       "id": "adobe-after-effects",
@@ -157,22 +157,11 @@
       "viewBox": "0 0 182 24"
     },
     {
-      "id": "Anthropic_dark",
-      "baseId": "Anthropic_dark",
+      "id": "Anthropic",
+      "baseId": "Anthropic",
       "variant": "default",
-      "name": "Anthropic_dark",
-      "path": "./generated/ai/Anthropic_dark.tsx",
-      "category": "ai",
-      "url": "",
-      "tags": [],
-      "viewBox": "0 0 24 24"
-    },
-    {
-      "id": "Anthropic_light",
-      "baseId": "Anthropic_light",
-      "variant": "default",
-      "name": "Anthropic_light",
-      "path": "./generated/ai/Anthropic_light.tsx",
+      "name": "Anthropic",
+      "path": "./generated/ai/Anthropic.tsx",
       "category": "ai",
       "url": "",
       "tags": [],
@@ -421,22 +410,11 @@
       "viewBox": "0 0 121 122"
     },
     {
-      "id": "xAI-Grok_dark",
-      "baseId": "xAI-Grok_dark",
+      "id": "xAI-Grok",
+      "baseId": "xAI-Grok",
       "variant": "default",
-      "name": "XAI Grok_dark",
-      "path": "./generated/ai/xAI-Grok_dark.tsx",
-      "category": "ai",
-      "url": "",
-      "tags": [],
-      "viewBox": "0 0 841.89 595.28"
-    },
-    {
-      "id": "xAI-Grok_light",
-      "baseId": "xAI-Grok_light",
-      "variant": "default",
-      "name": "XAI Grok_light",
-      "path": "./generated/ai/xAI-Grok_light.tsx",
+      "name": "XAI Grok",
+      "path": "./generated/ai/xAI-Grok.tsx",
       "category": "ai",
       "url": "",
       "tags": [],
@@ -4733,22 +4711,22 @@
       "viewBox": "0 0 256 256"
     },
     {
-      "id": "google-play-console-icon",
-      "baseId": "google-play-console-icon",
+      "id": "google-play-console",
+      "baseId": "google-play-console",
       "variant": "default",
-      "name": "Google Play Console Icon",
-      "path": "./generated/google/google-play-console-icon.tsx",
+      "name": "Google Play Console",
+      "path": "./generated/google/google-play-console.tsx",
       "category": "google",
       "url": "",
       "tags": [],
       "viewBox": "0 0 256 283"
     },
     {
-      "id": "google-play-console",
+      "id": "google-play-console_wordmark",
       "baseId": "google-play-console",
-      "variant": "default",
+      "variant": "wordmark",
       "name": "Google Play Console",
-      "path": "./generated/google/google-play-console.tsx",
+      "path": "./generated/google/google-play-console_wordmark.tsx",
       "category": "google",
       "url": "",
       "tags": [],
@@ -4799,22 +4777,22 @@
       "viewBox": "0 0 256 256"
     },
     {
-      "id": "google-workspace",
+      "id": "google-workspace_wordmark",
       "baseId": "google-workspace",
-      "variant": "default",
+      "variant": "wordmark",
       "name": "Google Workspace",
-      "path": "./generated/google/google-workspace.tsx",
+      "path": "./generated/google/google-workspace_wordmark.tsx",
       "category": "google",
       "url": "",
       "tags": [],
       "viewBox": "0 0 512 66"
     },
     {
-      "id": "google",
+      "id": "google_wordmark",
       "baseId": "google",
-      "variant": "default",
+      "variant": "wordmark",
       "name": "Google",
-      "path": "./generated/google/google.tsx",
+      "path": "./generated/google/google_wordmark.tsx",
       "category": "google",
       "url": "",
       "tags": [],
@@ -5750,17 +5728,6 @@
       "variant": "default",
       "name": "Peerlist",
       "path": "./generated/social/Peerlist.tsx",
-      "category": "social",
-      "url": "",
-      "tags": [],
-      "viewBox": "0 0 24 24"
-    },
-    {
-      "id": "Pinterest-1",
-      "baseId": "Pinterest-1",
-      "variant": "default",
-      "name": "Pinterest 1",
-      "path": "./generated/social/Pinterest-1.tsx",
       "category": "social",
       "url": "",
       "tags": [],

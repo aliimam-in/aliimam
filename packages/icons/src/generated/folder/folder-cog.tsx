@@ -9,7 +9,18 @@ export interface FolderCogProps extends React.SVGProps<SVGSVGElement> {
 
 export const FolderCog = React.forwardRef<SVGSVGElement, FolderCogProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M10.3 20H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h3.98a2 2 0 0 1 1.69.9l.66 1.2A2 2 0 0 0 12 6h8a2 2 0 0 1 2 2v3.3" />
   <path d="m14.305 19.53.923-.382" />
   <path d="m15.228 16.852-.923-.383" />
@@ -24,5 +35,14 @@ export const FolderCog = React.forwardRef<SVGSVGElement, FolderCogProps>(
   )
 );
 FolderCog.displayName = "FolderCog";
-export const FolderCogMetadata = { id: "folder-cog", baseId: "folder-cog", variant: "default", name: "Folder Cog", category: "folder", tags: [], viewBox: "0 0 24 24" } as const;
+export const FolderCogMetadata = { 
+  id: "folder-cog", 
+  baseId: "folder-cog", 
+  variant: "default", 
+  name: "Folder Cog", 
+  category: "folder", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default FolderCog;

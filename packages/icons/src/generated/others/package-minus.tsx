@@ -9,7 +9,18 @@ export interface PackageMinusProps extends React.SVGProps<SVGSVGElement> {
 
 export const PackageMinus = React.forwardRef<SVGSVGElement, PackageMinusProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M12 22V12" />
   <path d="M16 17h6" />
   <path d="M21 13V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.729l7 4a2 2 0 0 0 2 .001l1.675-.955" />
@@ -19,5 +30,14 @@ export const PackageMinus = React.forwardRef<SVGSVGElement, PackageMinusProps>(
   )
 );
 PackageMinus.displayName = "PackageMinus";
-export const PackageMinusMetadata = { id: "package-minus", baseId: "package-minus", variant: "default", name: "Package Minus", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export const PackageMinusMetadata = { 
+  id: "package-minus", 
+  baseId: "package-minus", 
+  variant: "default", 
+  name: "Package Minus", 
+  category: "others", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default PackageMinus;

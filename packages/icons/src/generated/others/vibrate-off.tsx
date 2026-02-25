@@ -9,7 +9,18 @@ export interface VibrateOffProps extends React.SVGProps<SVGSVGElement> {
 
 export const VibrateOff = React.forwardRef<SVGSVGElement, VibrateOffProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="m2 8 2 2-2 2 2 2-2 2" />
   <path d="m22 8-2 2 2 2-2 2 2 2" />
   <path d="M8 8v10c0 .55.45 1 1 1h6c.55 0 1-.45 1-1v-2" />
@@ -19,5 +30,14 @@ export const VibrateOff = React.forwardRef<SVGSVGElement, VibrateOffProps>(
   )
 );
 VibrateOff.displayName = "VibrateOff";
-export const VibrateOffMetadata = { id: "vibrate-off", baseId: "vibrate-off", variant: "default", name: "Vibrate Off", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export const VibrateOffMetadata = { 
+  id: "vibrate-off", 
+  baseId: "vibrate-off", 
+  variant: "default", 
+  name: "Vibrate Off", 
+  category: "others", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default VibrateOff;

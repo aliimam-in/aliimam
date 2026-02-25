@@ -9,7 +9,18 @@ export interface SnowflakeProps extends React.SVGProps<SVGSVGElement> {
 
 export const Snowflake = React.forwardRef<SVGSVGElement, SnowflakeProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="m10 20-1.25-2.5L6 18" />
   <path d="M10 4 8.75 6.5 6 6" />
   <path d="m14 20 1.25-2.5L18 18" />
@@ -26,5 +37,14 @@ export const Snowflake = React.forwardRef<SVGSVGElement, SnowflakeProps>(
   )
 );
 Snowflake.displayName = "Snowflake";
-export const SnowflakeMetadata = { id: "snowflake", baseId: "snowflake", variant: "default", name: "Snowflake", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export const SnowflakeMetadata = { 
+  id: "snowflake", 
+  baseId: "snowflake", 
+  variant: "default", 
+  name: "Snowflake", 
+  category: "others", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default Snowflake;

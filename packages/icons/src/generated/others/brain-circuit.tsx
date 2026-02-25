@@ -9,7 +9,18 @@ export interface BrainCircuitProps extends React.SVGProps<SVGSVGElement> {
 
 export const BrainCircuit = React.forwardRef<SVGSVGElement, BrainCircuitProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z" />
   <path d="M9 13a4.5 4.5 0 0 0 3-4" />
   <path d="M6.003 5.125A3 3 0 0 0 6.401 6.5" />
@@ -27,5 +38,14 @@ export const BrainCircuit = React.forwardRef<SVGSVGElement, BrainCircuitProps>(
   )
 );
 BrainCircuit.displayName = "BrainCircuit";
-export const BrainCircuitMetadata = { id: "brain-circuit", baseId: "brain-circuit", variant: "default", name: "Brain Circuit", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export const BrainCircuitMetadata = { 
+  id: "brain-circuit", 
+  baseId: "brain-circuit", 
+  variant: "default", 
+  name: "Brain Circuit", 
+  category: "others", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default BrainCircuit;

@@ -9,7 +9,18 @@ export interface MessageSquareDashedProps extends React.SVGProps<SVGSVGElement> 
 
 export const MessageSquareDashed = React.forwardRef<SVGSVGElement, MessageSquareDashedProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M14 3h2" />
   <path d="M16 19h-2" />
   <path d="M2 12v-2" />
@@ -24,5 +35,14 @@ export const MessageSquareDashed = React.forwardRef<SVGSVGElement, MessageSquare
   )
 );
 MessageSquareDashed.displayName = "MessageSquareDashed";
-export const MessageSquareDashedMetadata = { id: "message-square-dashed", baseId: "message-square-dashed", variant: "default", name: "Message Square Dashed", category: "message", tags: [], viewBox: "0 0 24 24" } as const;
+export const MessageSquareDashedMetadata = { 
+  id: "message-square-dashed", 
+  baseId: "message-square-dashed", 
+  variant: "default", 
+  name: "Message Square Dashed", 
+  category: "message", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default MessageSquareDashed;

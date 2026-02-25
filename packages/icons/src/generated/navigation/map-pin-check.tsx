@@ -9,7 +9,18 @@ export interface MapPinCheckProps extends React.SVGProps<SVGSVGElement> {
 
 export const MapPinCheck = React.forwardRef<SVGSVGElement, MapPinCheckProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M19.43 12.935c.357-.967.57-1.955.57-2.935a8 8 0 0 0-16 0c0 4.993 5.539 10.193 7.399 11.799a1 1 0 0 0 1.202 0 32.197 32.197 0 0 0 .813-.728" />
   <circle cx="12" cy="10" r="3" />
   <path d="m16 18 2 2 4-4" />
@@ -17,5 +28,14 @@ export const MapPinCheck = React.forwardRef<SVGSVGElement, MapPinCheckProps>(
   )
 );
 MapPinCheck.displayName = "MapPinCheck";
-export const MapPinCheckMetadata = { id: "map-pin-check", baseId: "map-pin-check", variant: "default", name: "Map Pin Check", category: "navigation", tags: [], viewBox: "0 0 24 24" } as const;
+export const MapPinCheckMetadata = { 
+  id: "map-pin-check", 
+  baseId: "map-pin-check", 
+  variant: "default", 
+  name: "Map Pin Check", 
+  category: "navigation", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default MapPinCheck;

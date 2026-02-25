@@ -9,7 +9,18 @@ export interface PizzaProps extends React.SVGProps<SVGSVGElement> {
 
 export const Pizza = React.forwardRef<SVGSVGElement, PizzaProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="m12 14-1 1" />
   <path d="m13.75 18.25-1.25 1.42" />
   <path d="M17.775 5.654a15.68 15.68 0 0 0-12.121 12.12" />
@@ -19,5 +30,14 @@ export const Pizza = React.forwardRef<SVGSVGElement, PizzaProps>(
   )
 );
 Pizza.displayName = "Pizza";
-export const PizzaMetadata = { id: "pizza", baseId: "pizza", variant: "default", name: "Pizza", category: "food", tags: [], viewBox: "0 0 24 24" } as const;
+export const PizzaMetadata = { 
+  id: "pizza", 
+  baseId: "pizza", 
+  variant: "default", 
+  name: "Pizza", 
+  category: "food", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default Pizza;

@@ -9,7 +9,18 @@ export interface DnaProps extends React.SVGProps<SVGSVGElement> {
 
 export const Dna = React.forwardRef<SVGSVGElement, DnaProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="m10 16 1.5 1.5" />
   <path d="m14 8-1.5-1.5" />
   <path d="M15 2c-1.798 1.998-2.518 3.995-2.807 5.993" />
@@ -25,5 +36,14 @@ export const Dna = React.forwardRef<SVGSVGElement, DnaProps>(
   )
 );
 Dna.displayName = "Dna";
-export const DnaMetadata = { id: "dna", baseId: "dna", variant: "default", name: "Dna", category: "medical", tags: [], viewBox: "0 0 24 24" } as const;
+export const DnaMetadata = { 
+  id: "dna", 
+  baseId: "dna", 
+  variant: "default", 
+  name: "Dna", 
+  category: "medical", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default Dna;

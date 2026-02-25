@@ -9,7 +9,18 @@ export interface BugProps extends React.SVGProps<SVGSVGElement> {
 
 export const Bug = React.forwardRef<SVGSVGElement, BugProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M12 20v-9" />
   <path d="M14 7a4 4 0 0 1 4 4v3a6 6 0 0 1-12 0v-3a4 4 0 0 1 4-4z" />
   <path d="M14.12 3.88 16 2" />
@@ -25,5 +36,14 @@ export const Bug = React.forwardRef<SVGSVGElement, BugProps>(
   )
 );
 Bug.displayName = "Bug";
-export const BugMetadata = { id: "bug", baseId: "bug", variant: "default", name: "Bug", category: "app", tags: [], viewBox: "0 0 24 24" } as const;
+export const BugMetadata = { 
+  id: "bug", 
+  baseId: "bug", 
+  variant: "default", 
+  name: "Bug", 
+  category: "app", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default Bug;

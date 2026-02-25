@@ -9,7 +9,18 @@ export interface PiProps extends React.SVGProps<SVGSVGElement> {
 
 export const Pi = React.forwardRef<SVGSVGElement, PiProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <line x1="9" x2="9" y1="4" y2="20" />
   <path d="M4 7c0-1.7 1.3-3 3-3h13" />
   <path d="M18 20c-1.7 0-3-1.3-3-3V4" />
@@ -17,5 +28,14 @@ export const Pi = React.forwardRef<SVGSVGElement, PiProps>(
   )
 );
 Pi.displayName = "Pi";
-export const PiMetadata = { id: "pi", baseId: "pi", variant: "default", name: "Pi", category: "math", tags: [], viewBox: "0 0 24 24" } as const;
+export const PiMetadata = { 
+  id: "pi", 
+  baseId: "pi", 
+  variant: "default", 
+  name: "Pi", 
+  category: "math", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default Pi;

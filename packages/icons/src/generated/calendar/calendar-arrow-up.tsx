@@ -9,7 +9,18 @@ export interface CalendarArrowUpProps extends React.SVGProps<SVGSVGElement> {
 
 export const CalendarArrowUp = React.forwardRef<SVGSVGElement, CalendarArrowUpProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="m14 18 4-4 4 4" />
   <path d="M16 2v4" />
   <path d="M18 22v-8" />
@@ -20,5 +31,14 @@ export const CalendarArrowUp = React.forwardRef<SVGSVGElement, CalendarArrowUpPr
   )
 );
 CalendarArrowUp.displayName = "CalendarArrowUp";
-export const CalendarArrowUpMetadata = { id: "calendar-arrow-up", baseId: "calendar-arrow-up", variant: "default", name: "Calendar Arrow Up", category: "calendar", tags: [], viewBox: "0 0 24 24" } as const;
+export const CalendarArrowUpMetadata = { 
+  id: "calendar-arrow-up", 
+  baseId: "calendar-arrow-up", 
+  variant: "default", 
+  name: "Calendar Arrow Up", 
+  category: "calendar", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default CalendarArrowUp;

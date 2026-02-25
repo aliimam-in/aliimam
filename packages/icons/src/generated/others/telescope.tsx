@@ -9,7 +9,18 @@ export interface TelescopeProps extends React.SVGProps<SVGSVGElement> {
 
 export const Telescope = React.forwardRef<SVGSVGElement, TelescopeProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="m10.065 12.493-6.18 1.318a.934.934 0 0 1-1.108-.702l-.537-2.15a1.07 1.07 0 0 1 .691-1.265l13.504-4.44" />
   <path d="m13.56 11.747 4.332-.924" />
   <path d="m16 21-3.105-6.21" />
@@ -21,5 +32,14 @@ export const Telescope = React.forwardRef<SVGSVGElement, TelescopeProps>(
   )
 );
 Telescope.displayName = "Telescope";
-export const TelescopeMetadata = { id: "telescope", baseId: "telescope", variant: "default", name: "Telescope", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export const TelescopeMetadata = { 
+  id: "telescope", 
+  baseId: "telescope", 
+  variant: "default", 
+  name: "Telescope", 
+  category: "others", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default Telescope;

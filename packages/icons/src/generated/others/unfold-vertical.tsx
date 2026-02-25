@@ -9,7 +9,18 @@ export interface UnfoldVerticalProps extends React.SVGProps<SVGSVGElement> {
 
 export const UnfoldVertical = React.forwardRef<SVGSVGElement, UnfoldVerticalProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M12 22v-6" />
   <path d="M12 8V2" />
   <path d="M4 12H2" />
@@ -22,5 +33,14 @@ export const UnfoldVertical = React.forwardRef<SVGSVGElement, UnfoldVerticalProp
   )
 );
 UnfoldVertical.displayName = "UnfoldVertical";
-export const UnfoldVerticalMetadata = { id: "unfold-vertical", baseId: "unfold-vertical", variant: "default", name: "Unfold Vertical", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export const UnfoldVerticalMetadata = { 
+  id: "unfold-vertical", 
+  baseId: "unfold-vertical", 
+  variant: "default", 
+  name: "Unfold Vertical", 
+  category: "others", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default UnfoldVertical;

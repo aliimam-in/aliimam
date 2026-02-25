@@ -9,7 +9,18 @@ export interface MousePointerClickProps extends React.SVGProps<SVGSVGElement> {
 
 export const MousePointerClick = React.forwardRef<SVGSVGElement, MousePointerClickProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M14 4.1 12 6" />
   <path d="m5.1 8-2.9-.8" />
   <path d="m6 12-1.9 2" />
@@ -19,5 +30,14 @@ export const MousePointerClick = React.forwardRef<SVGSVGElement, MousePointerCli
   )
 );
 MousePointerClick.displayName = "MousePointerClick";
-export const MousePointerClickMetadata = { id: "mouse-pointer-click", baseId: "mouse-pointer-click", variant: "default", name: "Mouse Pointer Click", category: "cursor", tags: [], viewBox: "0 0 24 24" } as const;
+export const MousePointerClickMetadata = { 
+  id: "mouse-pointer-click", 
+  baseId: "mouse-pointer-click", 
+  variant: "default", 
+  name: "Mouse Pointer Click", 
+  category: "cursor", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default MousePointerClick;

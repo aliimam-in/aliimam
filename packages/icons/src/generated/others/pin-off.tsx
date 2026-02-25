@@ -9,7 +9,18 @@ export interface PinOffProps extends React.SVGProps<SVGSVGElement> {
 
 export const PinOff = React.forwardRef<SVGSVGElement, PinOffProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M12 17v5" />
   <path d="M15 9.34V7a1 1 0 0 1 1-1 2 2 0 0 0 0-4H7.89" />
   <path d="m2 2 20 20" />
@@ -18,5 +29,14 @@ export const PinOff = React.forwardRef<SVGSVGElement, PinOffProps>(
   )
 );
 PinOff.displayName = "PinOff";
-export const PinOffMetadata = { id: "pin-off", baseId: "pin-off", variant: "default", name: "Pin Off", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export const PinOffMetadata = { 
+  id: "pin-off", 
+  baseId: "pin-off", 
+  variant: "default", 
+  name: "Pin Off", 
+  category: "others", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default PinOff;

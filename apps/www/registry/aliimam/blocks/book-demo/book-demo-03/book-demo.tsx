@@ -2,12 +2,12 @@
 
 import { Check } from "@aliimam/icons"
 import {
-  ClaudeAI,
-  Cursor,
-  Gemini,
-  Github,
-  OpenAI,
-  Replicate,
+  ClaudeAIWordmark,
+  CursorWordmark,
+  GoogleGeminiWordmark,
+  GithubWordmark,
+  OpenAIWordmark,
+  ReplicateWordmark,
 } from "@aliimam/logos"
 
 import { Button } from "@/registry/aliimam/ui/button"
@@ -57,12 +57,12 @@ const Bookademo3 = () => {
                   Trusted by +10,000 designers and creatives
                 </p>
                 <div className="grid h-full max-w-sm grid-cols-2 -space-y-6 gap-x-12 pr-20 md:max-w-lg md:grid-cols-3">
-                  <OpenAI type="wordmark" size={100} />
-                  <ClaudeAI type="wordmark" size={100} />
-                  <Replicate type="wordmark" size={100} />
-                  <Cursor type="wordmark" size={100} />
-                  <Gemini type="wordmark" size={90} />
-                  <Github type="wordmark" size={90} />
+                  <OpenAIWordmark size={100} />
+                  <ClaudeAIWordmark size={100} />
+                  <ReplicateWordmark size={100} />
+                  <CursorWordmark size={100} />
+                  <GoogleGeminiWordmark size={90} />
+                  <GithubWordmark size={90} />
                 </div>
               </div>
             </div>

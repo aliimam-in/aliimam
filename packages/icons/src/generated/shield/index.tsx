@@ -1,8 +1,12 @@
 export { ShieldAlert, ShieldAlertMetadata, type ShieldAlertProps } from './shield-alert';
 export { ShieldBan, ShieldBanMetadata, type ShieldBanProps } from './shield-ban';
 export { ShieldCheck, ShieldCheckMetadata, type ShieldCheckProps } from './shield-check';
+export { ShieldCheckFilled, ShieldCheckFilledMetadata, type ShieldCheckFilledProps } from './shield-check_filled';
+export { ShieldCheckeredFilled, ShieldCheckeredFilledMetadata, type ShieldCheckeredFilledProps } from './shield-checkered_filled';
 export { ShieldEllipsis, ShieldEllipsisMetadata, type ShieldEllipsisProps } from './shield-ellipsis';
 export { ShieldHalf, ShieldHalfMetadata, type ShieldHalfProps } from './shield-half';
+export { ShieldHalfFilled, ShieldHalfFilledMetadata, type ShieldHalfFilledProps } from './shield-half_filled';
+export { ShieldLockFilled, ShieldLockFilledMetadata, type ShieldLockFilledProps } from './shield-lock_filled';
 export { ShieldMinus, ShieldMinusMetadata, type ShieldMinusProps } from './shield-minus';
 export { ShieldOff, ShieldOffMetadata, type ShieldOffProps } from './shield-off';
 export { ShieldPlus, ShieldPlusMetadata, type ShieldPlusProps } from './shield-plus';
@@ -10,3 +14,4 @@ export { ShieldQuestionMark, ShieldQuestionMarkMetadata, type ShieldQuestionMark
 export { ShieldUser, ShieldUserMetadata, type ShieldUserProps } from './shield-user';
 export { ShieldX, ShieldXMetadata, type ShieldXProps } from './shield-x';
 export { Shield, ShieldMetadata, type ShieldProps } from './shield';
+export { ShieldFilled, ShieldFilledMetadata, type ShieldFilledProps } from './shield_filled';

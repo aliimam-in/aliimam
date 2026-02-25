@@ -9,7 +9,18 @@ export interface TangentProps extends React.SVGProps<SVGSVGElement> {
 
 export const Tangent = React.forwardRef<SVGSVGElement, TangentProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <circle cx="17" cy="4" r="2" />
   <path d="M15.59 5.41 5.41 15.59" />
   <circle cx="4" cy="17" r="2" />
@@ -18,5 +29,14 @@ export const Tangent = React.forwardRef<SVGSVGElement, TangentProps>(
   )
 );
 Tangent.displayName = "Tangent";
-export const TangentMetadata = { id: "tangent", baseId: "tangent", variant: "default", name: "Tangent", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export const TangentMetadata = { 
+  id: "tangent", 
+  baseId: "tangent", 
+  variant: "default", 
+  name: "Tangent", 
+  category: "others", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default Tangent;

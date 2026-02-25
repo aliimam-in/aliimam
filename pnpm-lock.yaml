@@ -34,7 +34,7 @@ importers:
         version: 5.62.0(eslint@8.57.1)(typescript@5.9.3)
       autoprefixer:
         specifier: ^10.4.14
-        version: 10.4.25(postcss@8.5.6)
+        version: 10.4.27(postcss@8.5.6)
       concurrently:
         specifier: ^8.0.1
         version: 8.2.2
@@ -118,11 +118,11 @@ importers:
   apps/www:
     dependencies:
       '@aliimam/icons':
-        specifier: 1.1.2
-        version: 1.1.2(react@19.2.1)
+        specifier: workspace:*
+        version: link:../../packages/icons
       '@aliimam/logos':
-        specifier: 1.0.2
-        version: 1.0.2(react@19.2.1)
+        specifier: workspace:*
+        version: link:../../packages/logos
       '@base-ui/react':
         specifier: ^1.1.0
         version: 1.2.0(@types/react@19.2.7)(react-dom@19.2.1(react@19.2.1))(react@19.2.1)
@@ -558,16 +558,6 @@ packages:
   '@ai-sdk/provider@2.0.1':
     resolution: {integrity: sha512-KCUwswvsC5VsW2PWFqF8eJgSCu5Ysj7m1TxiHTVA6g7k360bk0RNQENT8KTMAYEs+8fWPD3Uu4dEmzGHc+jGng==}
     engines: {node: '>=18'}
-
-  '@aliimam/icons@1.1.2':
-    resolution: {integrity: sha512-GBLLcUWhcrqSdYn4Cx4qt+EGCmlTY6franq4QIneH4xNpxFrEI7GRT3ltYfJp742+RzfMkyKBi47uyxB/XL6dw==}
-    peerDependencies:
-      react: '>=17'
-
-  '@aliimam/logos@1.0.2':
-    resolution: {integrity: sha512-CRgTc8mchu9XZdmxecETOiwCt8mXfhFVfWz/jkjSMv0J8h1pZjB1luy5dab8yD8m5uSw7vT2cRnMR5PHTDNpcg==}
-    peerDependencies:
-      react: '>=17'
 
   '@alloc/quick-lru@5.2.0':
     resolution: {integrity: sha512-UrcABB+4bUrFABwbluTIBErXwvbsU/V7TZWfmbgJfbkwiBuziS9gxdODUyuiecfdGQ85jglMW6juS3+z5TsKLw==}
@@ -3844,8 +3834,8 @@ packages:
   asynckit@0.4.0:
     resolution: {integrity: sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==}
 
-  autoprefixer@10.4.25:
-    resolution: {integrity: sha512-haPdJifHzYbmnDxx0be44kvj89RWIe+1DZBUyM5BIsT/1bpI5pwK+v30cqz+EfxsxanHq8q2YUvy7LfdRXd/rQ==}
+  autoprefixer@10.4.27:
+    resolution: {integrity: sha512-NP9APE+tO+LuJGn7/9+cohklunJsXWiaWEfV3si4Gi/XHDwVNgkwr1J3RQYFIvPy76GmJ9/bW8vyoU1LcxwKHA==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
     peerDependencies:
@@ -8789,14 +8779,6 @@ snapshots:
     dependencies:
       json-schema: 0.4.0
 
-  '@aliimam/icons@1.1.2(react@19.2.1)':
-    dependencies:
-      react: 19.2.1
-
-  '@aliimam/logos@1.0.2(react@19.2.1)':
-    dependencies:
-      react: 19.2.1
-
   '@alloc/quick-lru@5.2.0': {}
 
   '@antfu/install-pkg@1.1.0':
@@ -12047,7 +12029,7 @@ snapshots:
 
   asynckit@0.4.0: {}
 
-  autoprefixer@10.4.25(postcss@8.5.6):
+  autoprefixer@10.4.27(postcss@8.5.6):
     dependencies:
       browserslist: 4.28.1
       caniuse-lite: 1.0.30001774

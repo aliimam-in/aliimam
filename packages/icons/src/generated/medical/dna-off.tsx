@@ -9,7 +9,18 @@ export interface DnaOffProps extends React.SVGProps<SVGSVGElement> {
 
 export const DnaOff = React.forwardRef<SVGSVGElement, DnaOffProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M15 2c-1.35 1.5-2.092 3-2.5 4.5L14 8" />
   <path d="m17 6-2.891-2.891" />
   <path d="M2 15c3.333-3 6.667-3 10-3" />
@@ -24,5 +35,14 @@ export const DnaOff = React.forwardRef<SVGSVGElement, DnaOffProps>(
   )
 );
 DnaOff.displayName = "DnaOff";
-export const DnaOffMetadata = { id: "dna-off", baseId: "dna-off", variant: "default", name: "Dna Off", category: "medical", tags: [], viewBox: "0 0 24 24" } as const;
+export const DnaOffMetadata = { 
+  id: "dna-off", 
+  baseId: "dna-off", 
+  variant: "default", 
+  name: "Dna Off", 
+  category: "medical", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default DnaOff;

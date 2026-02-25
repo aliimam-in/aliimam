@@ -9,7 +9,7 @@ import {
   TooltipTrigger,
 } from "@/registry/aliimam/ui/tooltip"
 
-import { allLogos } from "../../../../../packages/logos/src/generated"
+import { allLogos } from "@aliimam/logos"
 import { useLogoFilter } from "./logo-filter-context"
 import { Logos } from "./logos"
 
@@ -97,7 +97,7 @@ export function LogoGrid({ selectedLogo, onSelectLogo }: LogoGridProps) {
   ) {
     switch (tab) {
       case "icon":
-        return 50
+        return 60
       case "wordmark":
         return 140
       case "flags":

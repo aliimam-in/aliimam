@@ -29,11 +29,11 @@ export { GoogleOptimize, GoogleOptimizeMetadata, type GoogleOptimizeProps } from
 export { GooglePalm, GooglePalmMetadata, type GooglePalmProps } from './google-palm';
 export { GooglePay, GooglePayMetadata, type GooglePayProps } from './google-pay';
 export { GooglePhotos, GooglePhotosMetadata, type GooglePhotosProps } from './google-photos';
-export { GooglePlayConsoleIcon, GooglePlayConsoleIconMetadata, type GooglePlayConsoleIconProps } from './google-play-console-icon';
 export { GooglePlayConsole, GooglePlayConsoleMetadata, type GooglePlayConsoleProps } from './google-play-console';
+export { GooglePlayConsoleWordmark, GooglePlayConsoleWordmarkMetadata, type GooglePlayConsoleWordmarkProps } from './google-play-console_wordmark';
 export { GooglePlay, GooglePlayMetadata, type GooglePlayProps } from './google-play';
 export { GooglePlayWordmark, GooglePlayWordmarkMetadata, type GooglePlayWordmarkProps } from './google-play_wordmark';
 export { GoogleSearchConsole, GoogleSearchConsoleMetadata, type GoogleSearchConsoleProps } from './google-search-console';
 export { GoogleTagManager, GoogleTagManagerMetadata, type GoogleTagManagerProps } from './google-tag-manager';
-export { GoogleWorkspace, GoogleWorkspaceMetadata, type GoogleWorkspaceProps } from './google-workspace';
-export { Google, GoogleMetadata, type GoogleProps } from './google';
+export { GoogleWorkspaceWordmark, GoogleWorkspaceWordmarkMetadata, type GoogleWorkspaceWordmarkProps } from './google-workspace_wordmark';
+export { GoogleWordmark, GoogleWordmarkMetadata, type GoogleWordmarkProps } from './google_wordmark';

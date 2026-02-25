@@ -9,7 +9,18 @@ export interface BugPlayProps extends React.SVGProps<SVGSVGElement> {
 
 export const BugPlay = React.forwardRef<SVGSVGElement, BugPlayProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M10 19.655A6 6 0 0 1 6 14v-3a4 4 0 0 1 4-4h4a4 4 0 0 1 4 3.97" />
   <path d="M14 15.003a1 1 0 0 1 1.517-.859l4.997 2.997a1 1 0 0 1 0 1.718l-4.997 2.997a1 1 0 0 1-1.517-.86z" />
   <path d="M14.12 3.88 16 2" />
@@ -23,5 +34,14 @@ export const BugPlay = React.forwardRef<SVGSVGElement, BugPlayProps>(
   )
 );
 BugPlay.displayName = "BugPlay";
-export const BugPlayMetadata = { id: "bug-play", baseId: "bug-play", variant: "default", name: "Bug Play", category: "app", tags: [], viewBox: "0 0 24 24" } as const;
+export const BugPlayMetadata = { 
+  id: "bug-play", 
+  baseId: "bug-play", 
+  variant: "default", 
+  name: "Bug Play", 
+  category: "app", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default BugPlay;

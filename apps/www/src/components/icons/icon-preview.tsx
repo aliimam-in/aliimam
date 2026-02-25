@@ -1,18 +1,19 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 "use client"
 
-import { useState, useEffect } from "react"
+import { useEffect, useState } from "react"
 import Link from "next/link"
+import { allLogos } from "@aliimam/icons"
 import { Figma } from "@aliimam/logos"
 
 import { Button } from "@/registry/aliimam/ui/button"
 
-import { allLogos } from "../../../../../packages/icons/src/generated"
 import { ContentCopyButton } from "../copy-button"
+import { IconGridLines } from "../logos"
 import { IconControlsPanel } from "./icon-controls"
 import { IconDownloadPanel } from "./icon-download"
-import { Icons } from "./icons"
 import { useIconFilter } from "./icon-filter-context"
+import { Icons } from "./icons"
 
 interface Props {
   selectedLogo: string
@@ -21,7 +22,7 @@ interface Props {
 
 function getVariants(baseId: string) {
   const result: { id: string; variant: string }[] = []
-  for (const logos of (Object.values(allLogos) as Record<string, any>[])) {
+  for (const logos of Object.values(allLogos) as Record<string, any>[]) {
     Object.values(logos).forEach((e: any) => {
       if (e.metadata.baseId === baseId) {
         result.push({ id: e.metadata.id, variant: e.metadata.variant })
@@ -38,8 +39,12 @@ function getInitialVariant(
 ): string {
   if (variantTab === "outline") {
     return (
-      variants.find((v) => v.variant === "default" || v.variant === "outline" || v.variant === "")
-        ?.variant ?? variants[0]?.variant ?? "default"
+      variants.find(
+        (v) =>
+          v.variant === "default" || v.variant === "outline" || v.variant === ""
+      )?.variant ??
+      variants[0]?.variant ??
+      "default"
     )
   }
   return (
@@ -71,7 +76,7 @@ export function IconPreview({ selectedLogo, onClearSelection }: Props) {
   return (
     <div className="hidden h-full flex-col justify-between pl-2 md:flex">
       <div className="flex flex-col gap-2 overflow-auto">
-        <div className="bg-code flex aspect-square h-full w-80 items-center justify-center border">
+        <div className="flex aspect-square h-80 w-80 items-center justify-center border">
           <Icons
             id="preview-svg"
             name={activeId}
@@ -79,6 +84,7 @@ export function IconPreview({ selectedLogo, onClearSelection }: Props) {
             color={color}
             strokeWidth={strokeWidth}
           />
+          <IconGridLines className="bg-code absolute -z-10 h-80 w-80 opacity-15" />
         </div>
 
         {variants.length > 1 && (
@@ -177,8 +183,9 @@ export function IconPreviewPhone({ selectedLogo, onClearSelection }: Props) {
 
   return (
     <div className="flex flex-col justify-center p-2">
-      <div className="bg-code flex aspect-square h-full w-60 flex-1 items-center justify-center border">
+      <div className="flex aspect-square h-60 w-60 flex-1 items-center justify-center border">
         <Icons id="preview-svg" name={activeId} size={size} color={color} />
+        <IconGridLines className="bg-code absolute -z-10 h-60 w-60 opacity-15" />
       </div>
 
       {variants.length > 1 && (

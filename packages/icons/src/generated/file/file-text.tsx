@@ -9,7 +9,18 @@ export interface FileTextProps extends React.SVGProps<SVGSVGElement> {
 
 export const FileText = React.forwardRef<SVGSVGElement, FileTextProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z" />
   <path d="M14 2v5a1 1 0 0 0 1 1h5" />
   <path d="M10 9H8" />
@@ -19,5 +30,14 @@ export const FileText = React.forwardRef<SVGSVGElement, FileTextProps>(
   )
 );
 FileText.displayName = "FileText";
-export const FileTextMetadata = { id: "file-text", baseId: "file-text", variant: "default", name: "File Text", category: "file", tags: [], viewBox: "0 0 24 24" } as const;
+export const FileTextMetadata = { 
+  id: "file-text", 
+  baseId: "file-text", 
+  variant: "default", 
+  name: "File Text", 
+  category: "file", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default FileText;

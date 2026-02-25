@@ -13,12 +13,12 @@ import { IconGrid } from "@/src/components/icons/main-icons"
 import { useIconFilter } from "@/src/components/icons/icon-filter-context"
 import { Tabs, TabsList, TabsTrigger } from "@/registry/aliimam/ui/tabs" 
 
-type VariantTab = "outline" | "filled" | "circle"
+type VariantTab = "outline" | "filled"  
 
 const VARIANT_TABS: { value: VariantTab; label: string }[] = [
   { value: "outline", label: "Outline" },
   { value: "filled", label: "Filled" },
-  { value: "circle", label: "Circle" },
+   
 ]
 
 export default function Page() {

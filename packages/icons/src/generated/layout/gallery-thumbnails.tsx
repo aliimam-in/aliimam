@@ -9,7 +9,18 @@ export interface GalleryThumbnailsProps extends React.SVGProps<SVGSVGElement> {
 
 export const GalleryThumbnails = React.forwardRef<SVGSVGElement, GalleryThumbnailsProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <rect width="18" height="14" x="3" y="3" rx="2" />
   <path d="M4 21h1" />
   <path d="M9 21h1" />
@@ -19,5 +30,14 @@ export const GalleryThumbnails = React.forwardRef<SVGSVGElement, GalleryThumbnai
   )
 );
 GalleryThumbnails.displayName = "GalleryThumbnails";
-export const GalleryThumbnailsMetadata = { id: "gallery-thumbnails", baseId: "gallery-thumbnails", variant: "default", name: "Gallery Thumbnails", category: "layout", tags: [], viewBox: "0 0 24 24" } as const;
+export const GalleryThumbnailsMetadata = { 
+  id: "gallery-thumbnails", 
+  baseId: "gallery-thumbnails", 
+  variant: "default", 
+  name: "Gallery Thumbnails", 
+  category: "layout", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default GalleryThumbnails;

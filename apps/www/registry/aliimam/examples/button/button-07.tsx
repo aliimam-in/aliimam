@@ -1,4 +1,4 @@
-import { Moon } from "@aliimam/icons"
+import { Moon, SunFilled } from "@aliimam/icons"
 
 import { cn } from "@/registry/aliimam/lib/utils"
 import { Button } from "@/registry/aliimam/ui/button"
@@ -18,7 +18,7 @@ export default function ButtonDemo() {
             "text-primary-foreground inline-flex size-full items-center justify-center rounded-sm backdrop-blur-3xl"
           )}
         >
-          <Moon />
+          <SunFilled />
         </span>
       </Button>
 

@@ -1,16 +1,16 @@
 import {
-  ClaudeAI,
-  Cursor,
-  Gemini,
-  Github,
-  Google,
-  Grok,
-  OpenAI,
-  PerplexityAI,
-  Replicate,
-  Resend,
-  Suno,
-  YouTube,
+  ClaudeAIWordmark,
+  CursorWordmark,
+  GoogleGeminiWordmark,
+  GithubWordmark,
+  GoogleWordmark,
+  GrokWordmark,
+  OpenAIWordmark,
+  PerplexityAIWordmark,
+  ReplicateWordmark,
+  ResendWordmark,
+  SunoWordmark,
+  YouTubeWordmark,
 } from "@aliimam/logos"
 
 import { Badge } from "@/registry/aliimam/ui/badge"
@@ -47,18 +47,18 @@ export function LogoSection() {
         <div className="w-full">
           <div className="mx-auto grid w-full grid-cols-2 sm:grid-cols-4 lg:grid-cols-6">
             {[
-              <OpenAI type="wordmark" key="openai" size={80} />,
-              <ClaudeAI type="wordmark" key="claude" size={80} />,
-              <Replicate type="wordmark" key="replicate" size={80} />,
-              <Cursor type="wordmark" key="cursor" size={80} />,
-              <Gemini type="wordmark" key="gemini" size={80} />,
-              <Github type="wordmark" key="github" size={80} />,
-              <Grok type="wordmark" key="grok" size={80} />,
-              <Google type="wordmark" key="google" size={80} />,
-              <Suno type="wordmark" key="suno" size={80} />,
-              <Resend type="wordmark" key="resend" size={80} />,
-              <YouTube type="wordmark" key="youtube" size={80} />,
-              <PerplexityAI type="wordmark" key="perp" size={80} />,
+              <OpenAIWordmark key="openai" size={80} />,
+              <ClaudeAIWordmark key="claude" size={80} />,
+              <ReplicateWordmark key="replicate" size={80} />,
+              <CursorWordmark key="cursor" size={80} />,
+              <GoogleGeminiWordmark key="gemini" size={80} />,
+              <GithubWordmark key="github" size={80} />,
+              <GrokWordmark key="grok" size={80} />,
+              <GoogleWordmark key="google" size={80} />,
+              <SunoWordmark key="suno" size={80} />,
+              <ResendWordmark key="resend" size={80} />,
+              <YouTubeWordmark key="youtube" size={80} />,
+              <PerplexityAIWordmark key="perp" size={80} />,
             ].map((Logo, i) => (
               <div
                 key={i}

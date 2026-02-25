@@ -3,11 +3,11 @@
 import { ArrowUpRight, Search } from "@aliimam/icons"
 import {
   Github,
-  Google,
+  GoogleWordmark,
   Grok,
-  OpenAI,
-  Photoshop,
+  OpenAI, 
   Vercel,
+  Adobe,
   X,
 } from "@aliimam/logos"
 
@@ -129,7 +129,7 @@ const Download1 = () => {
                   <ArrowUpRight className="mr-4 w-7" />
                 </div>
                 <div className="hover:bg-secondary flex cursor-pointer items-center gap-3 rounded-xl p-3">
-                  <Google />
+                  <GoogleWordmark />
                   <h2 className="text-md w-full tracking-tighter">Google</h2>
                   <ArrowUpRight className="mr-4 w-7" />
                 </div>
@@ -149,7 +149,7 @@ const Download1 = () => {
                   <ArrowUpRight className="mr-4 w-7" />
                 </div>
                 <div className="hover:bg-secondary flex cursor-pointer items-center gap-3 rounded-xl p-3">
-                  <Photoshop />
+                  <Adobe />
                   <h2 className="text-md w-full tracking-tighter">Photoshop</h2>
                   <ArrowUpRight className="mr-4 w-7" />
                 </div>

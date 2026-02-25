@@ -9,7 +9,18 @@ export interface CalendarCheck2Props extends React.SVGProps<SVGSVGElement> {
 
 export const CalendarCheck2 = React.forwardRef<SVGSVGElement, CalendarCheck2Props>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M8 2v4" />
   <path d="M16 2v4" />
   <path d="M21 14V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h8" />
@@ -19,5 +30,14 @@ export const CalendarCheck2 = React.forwardRef<SVGSVGElement, CalendarCheck2Prop
   )
 );
 CalendarCheck2.displayName = "CalendarCheck2";
-export const CalendarCheck2Metadata = { id: "calendar-check-2", baseId: "calendar-check-2", variant: "default", name: "Calendar Check 2", category: "calendar", tags: [], viewBox: "0 0 24 24" } as const;
+export const CalendarCheck2Metadata = { 
+  id: "calendar-check-2", 
+  baseId: "calendar-check-2", 
+  variant: "default", 
+  name: "Calendar Check 2", 
+  category: "calendar", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default CalendarCheck2;

@@ -3,7 +3,7 @@ import { BlocksNav } from "@/src/components/docs/blocks-nav"
 import { ThemeSelectorWithSync } from "@/src/components/themes/synced-theme-selector"
 
 import { Sheet } from "@/registry/aliimam/ui/sheet"
-
+ 
 const title = "Blocks"
 const description =
   "A collection of building blocks for agents and audio that you can customize and extend."
@@ -42,7 +42,7 @@ export default function BlocksLayout({
       <ThemeSelectorWithSync />
       <div className="">
         <Sheet>
-          <BlocksNav />
+          <BlocksNav /> 
           <div className="container h-full w-full pt-4 pb-14 2xl:border-x">
             {children}
           </div>

@@ -9,7 +9,18 @@ export interface Share2Props extends React.SVGProps<SVGSVGElement> {
 
 export const Share2 = React.forwardRef<SVGSVGElement, Share2Props>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <circle cx="18" cy="5" r="3" />
   <circle cx="6" cy="12" r="3" />
   <circle cx="18" cy="19" r="3" />
@@ -19,5 +30,14 @@ export const Share2 = React.forwardRef<SVGSVGElement, Share2Props>(
   )
 );
 Share2.displayName = "Share2";
-export const Share2Metadata = { id: "share-2", baseId: "share-2", variant: "default", name: "Share 2", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export const Share2Metadata = { 
+  id: "share-2", 
+  baseId: "share-2", 
+  variant: "default", 
+  name: "Share 2", 
+  category: "others", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default Share2;

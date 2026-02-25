@@ -39,7 +39,7 @@ function toPascalCase(name: string): string {
     name
       .split(/[-_]/)
       .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-      .join("") + "Logo"
+      .join("")
   )
 }
 

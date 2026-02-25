@@ -9,7 +9,18 @@ export interface WifiCogProps extends React.SVGProps<SVGSVGElement> {
 
 export const WifiCog = React.forwardRef<SVGSVGElement, WifiCogProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="m14.305 19.53.923-.382" />
   <path d="m15.228 16.852-.923-.383" />
   <path d="m16.852 15.228-.383-.923" />
@@ -26,5 +37,14 @@ export const WifiCog = React.forwardRef<SVGSVGElement, WifiCogProps>(
   )
 );
 WifiCog.displayName = "WifiCog";
-export const WifiCogMetadata = { id: "wifi-cog", baseId: "wifi-cog", variant: "default", name: "Wifi Cog", category: "network", tags: [], viewBox: "0 0 24 24" } as const;
+export const WifiCogMetadata = { 
+  id: "wifi-cog", 
+  baseId: "wifi-cog", 
+  variant: "default", 
+  name: "Wifi Cog", 
+  category: "network", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default WifiCog;

@@ -9,7 +9,18 @@ export interface SprayCanProps extends React.SVGProps<SVGSVGElement> {
 
 export const SprayCan = React.forwardRef<SVGSVGElement, SprayCanProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M3 3h.01" />
   <path d="M7 5h.01" />
   <path d="M11 7h.01" />
@@ -24,5 +35,14 @@ export const SprayCan = React.forwardRef<SVGSVGElement, SprayCanProps>(
   )
 );
 SprayCan.displayName = "SprayCan";
-export const SprayCanMetadata = { id: "spray-can", baseId: "spray-can", variant: "default", name: "Spray Can", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export const SprayCanMetadata = { 
+  id: "spray-can", 
+  baseId: "spray-can", 
+  variant: "default", 
+  name: "Spray Can", 
+  category: "others", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default SprayCan;

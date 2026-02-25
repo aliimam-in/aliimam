@@ -1,0 +1,39 @@
+/** Auto-generated - Do not edit */
+'use client';
+import React from 'react';
+
+export interface HexagonLetterVFilledProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  strokeWidth?: number;
+}
+
+export const HexagonLetterVFilled = React.forwardRef<SVGSVGElement, HexagonLetterVFilledProps>(
+  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      stroke="none"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
+      <path d="M13.666 1.429l6.75 3.98l.096 .063l.093 .078l.106 .074a3.22 3.22 0 0 1 1.284 2.39l.005 .204v7.284c0 1.175 -.643 2.256 -1.623 2.793l-6.804 4.302c-.98 .538 -2.166 .538 -3.2 -.032l-6.695 -4.237a3.23 3.23 0 0 1 -1.678 -2.826v-7.285c0 -1.106 .57 -2.128 1.476 -2.705l6.95 -4.098c1 -.552 2.214 -.552 3.24 .015m.577 5.6a1 1 0 0 0 -1.213 .728l-1.03 4.118l-1.03 -4.118a1 1 0 1 0 -1.94 .486l2 8c.252 1.01 1.688 1.01 1.94 0l2 -8a1 1 0 0 0 -.727 -1.213" />
+    </svg>
+  )
+);
+HexagonLetterVFilled.displayName = "HexagonLetterVFilled";
+export const HexagonLetterVFilledMetadata = { 
+  id: "hexagon-letter-v_filled", 
+  baseId: "hexagon-letter-v", 
+  variant: "filled", 
+  name: "Hexagon Letter V", 
+  category: "hexagon", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
+export default HexagonLetterVFilled;

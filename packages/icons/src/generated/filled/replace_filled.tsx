@@ -9,7 +9,18 @@ export interface ReplaceFilledProps extends React.SVGProps<SVGSVGElement> {
 
 export const ReplaceFilled = React.forwardRef<SVGSVGElement, ReplaceFilledProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      stroke="none"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M8 2h-4a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h4a2 2 0 0 0 2 -2v-4a2 2 0 0 0 -2 -2z" />
   <path d="M20 14h-4a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h4a2 2 0 0 0 2 -2v-4a2 2 0 0 0 -2 -2z" />
   <path d="M16.707 2.293a1 1 0 0 1 .083 1.32l-.083 .094l-1.293 1.293h3.586a3 3 0 0 1 2.995 2.824l.005 .176v3a1 1 0 0 1 -1.993 .117l-.007 -.117v-3a1 1 0 0 0 -.883 -.993l-.117 -.007h-3.585l1.292 1.293a1 1 0 0 1 -1.32 1.497l-.094 -.083l-3 -3a.98 .98 0 0 1 -.28 -.872l.036 -.146l.04 -.104c.058 -.126 .14 -.24 .245 -.334l2.959 -2.958a1 1 0 0 1 1.414 0z" />
@@ -18,5 +29,14 @@ export const ReplaceFilled = React.forwardRef<SVGSVGElement, ReplaceFilledProps>
   )
 );
 ReplaceFilled.displayName = "ReplaceFilled";
-export const ReplaceFilledMetadata = { id: "replace_filled", baseId: "replace", variant: "filled", name: "Replace", category: "filled", tags: [], viewBox: "0 0 24 24" } as const;
+export const ReplaceFilledMetadata = { 
+  id: "replace_filled", 
+  baseId: "replace", 
+  variant: "filled", 
+  name: "Replace", 
+  category: "filled", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default ReplaceFilled;

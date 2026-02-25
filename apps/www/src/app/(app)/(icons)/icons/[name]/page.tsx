@@ -3,7 +3,7 @@
 
 import { useMemo, useState } from "react"
 import { useParams, useRouter } from "next/navigation"
-import { allLogos } from "../../../../../../../../packages/icons/src/generated"
+import { allLogos } from "@aliimam/icons"
 import { IconCode } from "@/src/components/icons/icon-code"
 import { IconViewControlsPanel } from "@/src/components/icons/icon-controls"
 import { IconDownloadPanel } from "@/src/components/icons/icon-download"
@@ -28,15 +28,17 @@ function getAllEntries() {
 }
 
 function getMetadata(name: string) {
+  let fallback = null
   for (const logos of Object.values(allLogos)) {
     for (const entry of Object.values(logos)) {
       const e = entry as any
-      if (e.metadata.baseId === name && e.metadata.variant === "default") {
-        return e.metadata
+      if (e.metadata.baseId === name) {
+        if (e.metadata.variant === "default") return e.metadata
+        if (!fallback) fallback = e.metadata
       }
     }
   }
-  return null
+  return fallback
 }
 
 function toPascalCase(name: string) {

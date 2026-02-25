@@ -9,7 +9,18 @@ export interface BugOffProps extends React.SVGProps<SVGSVGElement> {
 
 export const BugOff = React.forwardRef<SVGSVGElement, BugOffProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M12 20v-8" />
   <path d="M12.656 7H14a4 4 0 0 1 4 4v1.344" />
   <path d="M14.12 3.88 16 2" />
@@ -26,5 +37,14 @@ export const BugOff = React.forwardRef<SVGSVGElement, BugOffProps>(
   )
 );
 BugOff.displayName = "BugOff";
-export const BugOffMetadata = { id: "bug-off", baseId: "bug-off", variant: "default", name: "Bug Off", category: "app", tags: [], viewBox: "0 0 24 24" } as const;
+export const BugOffMetadata = { 
+  id: "bug-off", 
+  baseId: "bug-off", 
+  variant: "default", 
+  name: "Bug Off", 
+  category: "app", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default BugOff;

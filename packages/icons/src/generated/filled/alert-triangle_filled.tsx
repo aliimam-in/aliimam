@@ -9,11 +9,31 @@ export interface AlertTriangleFilledProps extends React.SVGProps<SVGSVGElement> 
 
 export const AlertTriangleFilled = React.forwardRef<SVGSVGElement, AlertTriangleFilledProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      stroke="none"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M12 1.67c.955 0 1.845 .467 2.39 1.247l.105 .16l8.114 13.548a2.914 2.914 0 0 1 -2.307 4.363l-.195 .008h-16.225a2.914 2.914 0 0 1 -2.582 -4.2l.099 -.185l8.11 -13.538a2.914 2.914 0 0 1 2.491 -1.403zm.01 13.33l-.127 .007a1 1 0 0 0 0 1.986l.117 .007l.127 -.007a1 1 0 0 0 0 -1.986l-.117 -.007zm-.01 -7a1 1 0 0 0 -.993 .883l-.007 .117v4l.007 .117a1 1 0 0 0 1.986 0l.007 -.117v-4l-.007 -.117a1 1 0 0 0 -.993 -.883z" />
     </svg>
   )
 );
 AlertTriangleFilled.displayName = "AlertTriangleFilled";
-export const AlertTriangleFilledMetadata = { id: "alert-triangle_filled", baseId: "alert-triangle", variant: "filled", name: "Alert Triangle", category: "filled", tags: [], viewBox: "0 0 24 24" } as const;
+export const AlertTriangleFilledMetadata = { 
+  id: "alert-triangle_filled", 
+  baseId: "alert-triangle", 
+  variant: "filled", 
+  name: "Alert Triangle", 
+  category: "filled", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default AlertTriangleFilled;

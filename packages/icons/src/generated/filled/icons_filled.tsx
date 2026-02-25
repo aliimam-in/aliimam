@@ -9,7 +9,18 @@ export interface IconsFilledProps extends React.SVGProps<SVGSVGElement> {
 
 export const IconsFilled = React.forwardRef<SVGSVGElement, IconsFilledProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      stroke="none"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M4.25 2.603a4.5 4.5 0 1 1 -2.25 3.897l.006 -.229a4.5 4.5 0 0 1 2.244 -3.668" />
   <path d="M5.632 13.504a1 1 0 0 1 1.736 0l4 7a1 1 0 0 1 -.868 1.496h-8a1 1 0 0 1 -.868 -1.496z" />
   <path d="M13.293 2.293a1 1 0 0 1 1.414 0l7 7a1 1 0 1 1 -1.414 1.414l-7 -7a1 1 0 0 1 0 -1.414" />
@@ -19,5 +30,14 @@ export const IconsFilled = React.forwardRef<SVGSVGElement, IconsFilledProps>(
   )
 );
 IconsFilled.displayName = "IconsFilled";
-export const IconsFilledMetadata = { id: "icons_filled", baseId: "icons", variant: "filled", name: "Icons", category: "filled", tags: [], viewBox: "0 0 24 24" } as const;
+export const IconsFilledMetadata = { 
+  id: "icons_filled", 
+  baseId: "icons", 
+  variant: "filled", 
+  name: "Icons", 
+  category: "filled", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default IconsFilled;

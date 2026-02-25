@@ -1,12 +1,12 @@
 import {
-  ClaudeAI,
-  Cursor,
-  GoogleGemini,
-  Github,
-  Google,
-  Grok,
-  OpenAI,
-  Replicate, 
+  ClaudeAIWordmark,
+  CursorWordmark,
+  GoogleGeminiWordmark,
+  GithubWordmark,
+  GoogleWordmark,
+  GrokWordmark,
+  OpenAIWordmark,
+  ReplicateWordmark, 
 } from "@aliimam/logos"
 
 import { EmptyAvatarGroup } from "@/registry/aliimam/blocks/bento/bento-01/empty-avatar"
@@ -110,14 +110,14 @@ export default function BentoExample() {
             <div className="mx-auto flex h-full w-full max-w-3xl items-center justify-center overflow-hidden px-6">
               <div>
                 <Marquee gap={"70px"}>
-                  <OpenAI type="wordmark" size={100} />
-                  <ClaudeAI type="wordmark" size={100} />
-                  <Replicate type="wordmark" size={100} />
-                  <Cursor type="wordmark" size={100} />
-                  <GoogleGemini type="wordmark" size={90} />
-                  <Github type="wordmark" size={90} />
-                  <Grok type="wordmark" size={100} />
-                  <Google className="mr-16" type="wordmark" size={100} />
+                  <OpenAIWordmark size={100} />
+                  <ClaudeAIWordmark size={100} />
+                  <ReplicateWordmark size={100} />
+                  <CursorWordmark size={100} />
+                  <GoogleGeminiWordmark size={90} />
+                  <GithubWordmark size={90} />
+                  <GrokWordmark size={100} />
+                  <GoogleWordmark className="mr-16"  size={100} />
                 </Marquee>
               </div>
             </div>

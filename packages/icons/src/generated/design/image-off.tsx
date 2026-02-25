@@ -9,7 +9,18 @@ export interface ImageOffProps extends React.SVGProps<SVGSVGElement> {
 
 export const ImageOff = React.forwardRef<SVGSVGElement, ImageOffProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <line x1="2" x2="22" y1="2" y2="22" />
   <path d="M10.41 10.41a2 2 0 1 1-2.83-2.83" />
   <line x1="13.5" x2="6" y1="13.5" y2="21" />
@@ -20,5 +31,14 @@ export const ImageOff = React.forwardRef<SVGSVGElement, ImageOffProps>(
   )
 );
 ImageOff.displayName = "ImageOff";
-export const ImageOffMetadata = { id: "image-off", baseId: "image-off", variant: "default", name: "Image Off", category: "design", tags: [], viewBox: "0 0 24 24" } as const;
+export const ImageOffMetadata = { 
+  id: "image-off", 
+  baseId: "image-off", 
+  variant: "default", 
+  name: "Image Off", 
+  category: "design", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default ImageOff;

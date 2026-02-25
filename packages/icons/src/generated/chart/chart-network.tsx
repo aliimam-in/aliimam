@@ -9,7 +9,18 @@ export interface ChartNetworkProps extends React.SVGProps<SVGSVGElement> {
 
 export const ChartNetwork = React.forwardRef<SVGSVGElement, ChartNetworkProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="m13.11 7.664 1.78 2.672" />
   <path d="m14.162 12.788-3.324 1.424" />
   <path d="m20 4-6.06 1.515" />
@@ -21,5 +32,14 @@ export const ChartNetwork = React.forwardRef<SVGSVGElement, ChartNetworkProps>(
   )
 );
 ChartNetwork.displayName = "ChartNetwork";
-export const ChartNetworkMetadata = { id: "chart-network", baseId: "chart-network", variant: "default", name: "Chart Network", category: "chart", tags: [], viewBox: "0 0 24 24" } as const;
+export const ChartNetworkMetadata = { 
+  id: "chart-network", 
+  baseId: "chart-network", 
+  variant: "default", 
+  name: "Chart Network", 
+  category: "chart", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default ChartNetwork;

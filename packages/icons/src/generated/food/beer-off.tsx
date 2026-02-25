@@ -9,7 +9,18 @@ export interface BeerOffProps extends React.SVGProps<SVGSVGElement> {
 
 export const BeerOff = React.forwardRef<SVGSVGElement, BeerOffProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M13 13v5" />
   <path d="M17 11.47V8" />
   <path d="M17 11h1a3 3 0 0 1 2.745 4.211" />
@@ -22,5 +33,14 @@ export const BeerOff = React.forwardRef<SVGSVGElement, BeerOffProps>(
   )
 );
 BeerOff.displayName = "BeerOff";
-export const BeerOffMetadata = { id: "beer-off", baseId: "beer-off", variant: "default", name: "Beer Off", category: "food", tags: [], viewBox: "0 0 24 24" } as const;
+export const BeerOffMetadata = { 
+  id: "beer-off", 
+  baseId: "beer-off", 
+  variant: "default", 
+  name: "Beer Off", 
+  category: "food", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default BeerOff;

@@ -9,7 +9,18 @@ export interface WifiSyncProps extends React.SVGProps<SVGSVGElement> {
 
 export const WifiSync = React.forwardRef<SVGSVGElement, WifiSyncProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M11.965 10.105v4L13.5 12.5a5 5 0 0 1 8 1.5" />
   <path d="M11.965 14.105h4" />
   <path d="M17.965 18.105h4L20.43 19.71a5 5 0 0 1-8-1.5" />
@@ -21,5 +32,14 @@ export const WifiSync = React.forwardRef<SVGSVGElement, WifiSyncProps>(
   )
 );
 WifiSync.displayName = "WifiSync";
-export const WifiSyncMetadata = { id: "wifi-sync", baseId: "wifi-sync", variant: "default", name: "Wifi Sync", category: "network", tags: [], viewBox: "0 0 24 24" } as const;
+export const WifiSyncMetadata = { 
+  id: "wifi-sync", 
+  baseId: "wifi-sync", 
+  variant: "default", 
+  name: "Wifi Sync", 
+  category: "network", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default WifiSync;

@@ -9,7 +9,18 @@ export interface SlackProps extends React.SVGProps<SVGSVGElement> {
 
 export const Slack = React.forwardRef<SVGSVGElement, SlackProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <rect width="3" height="8" x="13" y="2" rx="1.5" />
   <path d="M19 8.5V10h1.5A1.5 1.5 0 1 0 19 8.5" />
   <rect width="3" height="8" x="8" y="14" rx="1.5" />
@@ -22,5 +33,14 @@ export const Slack = React.forwardRef<SVGSVGElement, SlackProps>(
   )
 );
 Slack.displayName = "Slack";
-export const SlackMetadata = { id: "slack", baseId: "slack", variant: "default", name: "Slack", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export const SlackMetadata = { 
+  id: "slack", 
+  baseId: "slack", 
+  variant: "default", 
+  name: "Slack", 
+  category: "others", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default Slack;

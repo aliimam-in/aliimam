@@ -1,7 +1,6 @@
 export { AnthropicDarkWordmark, AnthropicDarkWordmarkMetadata, type AnthropicDarkWordmarkProps } from './Anthropic-dark_wordmark';
 export { AnthropicLightWordmark, AnthropicLightWordmarkMetadata, type AnthropicLightWordmarkProps } from './Anthropic-light_wordmark';
-export { AnthropicDark, AnthropicDarkMetadata, type AnthropicDarkProps } from './Anthropic_dark';
-export { AnthropicLight, AnthropicLightMetadata, type AnthropicLightProps } from './Anthropic_light';
+export { Anthropic, AnthropicMetadata, type AnthropicProps } from './Anthropic';
 export { ClaudeAI, ClaudeAIMetadata, type ClaudeAIProps } from './Claude-AI';
 export { ClaudeAIWordmark, ClaudeAIWordmarkMetadata, type ClaudeAIWordmarkProps } from './ClaudeAI_wordmark';
 export { DeepSeekWordmark, DeepSeekWordmarkMetadata, type DeepSeekWordmarkProps } from './DeepSeek_wordmark';
@@ -24,5 +23,4 @@ export { Windsurf, WindsurfMetadata, type WindsurfProps } from './Windsurf';
 export { WindsurfWordmark, WindsurfWordmarkMetadata, type WindsurfWordmarkProps } from './Windsurf_wordmark';
 export { Deepseek, DeepseekMetadata, type DeepseekProps } from './deepseek';
 export { Lovable, LovableMetadata, type LovableProps } from './lovable';
-export { XAIGrokDark, XAIGrokDarkMetadata, type XAIGrokDarkProps } from './xAI-Grok_dark';
-export { XAIGrokLight, XAIGrokLightMetadata, type XAIGrokLightProps } from './xAI-Grok_light';
+export { XAIGrok, XAIGrokMetadata, type XAIGrokProps } from './xAI-Grok';

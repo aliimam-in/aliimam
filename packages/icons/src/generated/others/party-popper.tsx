@@ -9,7 +9,18 @@ export interface PartyPopperProps extends React.SVGProps<SVGSVGElement> {
 
 export const PartyPopper = React.forwardRef<SVGSVGElement, PartyPopperProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M5.8 11.3 2 22l10.7-3.79" />
   <path d="M4 3h.01" />
   <path d="M22 8h.01" />
@@ -23,5 +34,14 @@ export const PartyPopper = React.forwardRef<SVGSVGElement, PartyPopperProps>(
   )
 );
 PartyPopper.displayName = "PartyPopper";
-export const PartyPopperMetadata = { id: "party-popper", baseId: "party-popper", variant: "default", name: "Party Popper", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export const PartyPopperMetadata = { 
+  id: "party-popper", 
+  baseId: "party-popper", 
+  variant: "default", 
+  name: "Party Popper", 
+  category: "others", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default PartyPopper;

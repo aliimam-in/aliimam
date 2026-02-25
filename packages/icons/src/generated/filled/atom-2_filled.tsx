@@ -9,7 +9,18 @@ export interface Atom2FilledProps extends React.SVGProps<SVGSVGElement> {
 
 export const Atom2Filled = React.forwardRef<SVGSVGElement, Atom2FilledProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      stroke="none"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M12 8a4 4 0 1 1 -3.995 4.2l-.005 -.2l.005 -.2a4 4 0 0 1 3.995 -3.8z" />
   <path d="M12 20a1 1 0 0 1 .993 .883l.007 .127a1 1 0 0 1 -1.993 .117l-.007 -.127a1 1 0 0 1 1 -1z" />
   <path d="M3 8a1 1 0 0 1 .993 .883l.007 .127a1 1 0 0 1 -1.993 .117l-.007 -.127a1 1 0 0 1 1 -1z" />
@@ -21,5 +32,14 @@ export const Atom2Filled = React.forwardRef<SVGSVGElement, Atom2FilledProps>(
   )
 );
 Atom2Filled.displayName = "Atom2Filled";
-export const Atom2FilledMetadata = { id: "atom-2_filled", baseId: "atom-2", variant: "filled", name: "Atom 2", category: "filled", tags: [], viewBox: "0 0 24 24" } as const;
+export const Atom2FilledMetadata = { 
+  id: "atom-2_filled", 
+  baseId: "atom-2", 
+  variant: "filled", 
+  name: "Atom 2", 
+  category: "filled", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default Atom2Filled;

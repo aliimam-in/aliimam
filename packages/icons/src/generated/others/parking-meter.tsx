@@ -9,7 +9,18 @@ export interface ParkingMeterProps extends React.SVGProps<SVGSVGElement> {
 
 export const ParkingMeter = React.forwardRef<SVGSVGElement, ParkingMeterProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M11 15h2" />
   <path d="M12 12v3" />
   <path d="M12 19v3" />
@@ -19,5 +30,14 @@ export const ParkingMeter = React.forwardRef<SVGSVGElement, ParkingMeterProps>(
   )
 );
 ParkingMeter.displayName = "ParkingMeter";
-export const ParkingMeterMetadata = { id: "parking-meter", baseId: "parking-meter", variant: "default", name: "Parking Meter", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export const ParkingMeterMetadata = { 
+  id: "parking-meter", 
+  baseId: "parking-meter", 
+  variant: "default", 
+  name: "Parking Meter", 
+  category: "others", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default ParkingMeter;

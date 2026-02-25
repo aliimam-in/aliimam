@@ -9,7 +9,18 @@ export interface NetworkProps extends React.SVGProps<SVGSVGElement> {
 
 export const Network = React.forwardRef<SVGSVGElement, NetworkProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <rect x="16" y="16" width="6" height="6" rx="1" />
   <rect x="2" y="16" width="6" height="6" rx="1" />
   <rect x="9" y="2" width="6" height="6" rx="1" />
@@ -19,5 +30,14 @@ export const Network = React.forwardRef<SVGSVGElement, NetworkProps>(
   )
 );
 Network.displayName = "Network";
-export const NetworkMetadata = { id: "network", baseId: "network", variant: "default", name: "Network", category: "network", tags: [], viewBox: "0 0 24 24" } as const;
+export const NetworkMetadata = { 
+  id: "network", 
+  baseId: "network", 
+  variant: "default", 
+  name: "Network", 
+  category: "network", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default Network;

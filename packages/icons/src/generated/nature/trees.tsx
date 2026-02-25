@@ -9,7 +9,18 @@ export interface TreesProps extends React.SVGProps<SVGSVGElement> {
 
 export const Trees = React.forwardRef<SVGSVGElement, TreesProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M10 10v.2A3 3 0 0 1 8.9 16H5a3 3 0 0 1-1-5.8V10a3 3 0 0 1 6 0Z" />
   <path d="M7 16v6" />
   <path d="M13 19v3" />
@@ -18,5 +29,14 @@ export const Trees = React.forwardRef<SVGSVGElement, TreesProps>(
   )
 );
 Trees.displayName = "Trees";
-export const TreesMetadata = { id: "trees", baseId: "trees", variant: "default", name: "Trees", category: "nature", tags: [], viewBox: "0 0 24 24" } as const;
+export const TreesMetadata = { 
+  id: "trees", 
+  baseId: "trees", 
+  variant: "default", 
+  name: "Trees", 
+  category: "nature", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default Trees;

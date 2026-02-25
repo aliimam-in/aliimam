@@ -14,8 +14,7 @@ export { Adobe, AdobeMetadata } from './adobe/adobe';
 export { AdobeWordmark, AdobeWordmarkMetadata } from './adobe/adobe_wordmark';
 export { AnthropicDarkWordmark, AnthropicDarkWordmarkMetadata } from './ai/Anthropic-dark_wordmark';
 export { AnthropicLightWordmark, AnthropicLightWordmarkMetadata } from './ai/Anthropic-light_wordmark';
-export { AnthropicDark, AnthropicDarkMetadata } from './ai/Anthropic_dark';
-export { AnthropicLight, AnthropicLightMetadata } from './ai/Anthropic_light';
+export { Anthropic, AnthropicMetadata } from './ai/Anthropic';
 export { ClaudeAI, ClaudeAIMetadata } from './ai/Claude-AI';
 export { ClaudeAIWordmark, ClaudeAIWordmarkMetadata } from './ai/ClaudeAI_wordmark';
 export { DeepSeekWordmark, DeepSeekWordmarkMetadata } from './ai/DeepSeek_wordmark';
@@ -38,8 +37,7 @@ export { Windsurf, WindsurfMetadata } from './ai/Windsurf';
 export { WindsurfWordmark, WindsurfWordmarkMetadata } from './ai/Windsurf_wordmark';
 export { Deepseek, DeepseekMetadata } from './ai/deepseek';
 export { Lovable, LovableMetadata } from './ai/lovable';
-export { XAIGrokDark, XAIGrokDarkMetadata } from './ai/xAI-Grok_dark';
-export { XAIGrokLight, XAIGrokLightMetadata } from './ai/xAI-Grok_light';
+export { XAIGrok, XAIGrokMetadata } from './ai/xAI-Grok';
 export { Arc, ArcMetadata } from './browser/Arc';
 export { Bing, BingMetadata } from './browser/Bing';
 export { BraveBrowser, BraveBrowserMetadata } from './browser/BraveBrowser';
@@ -430,14 +428,14 @@ export { GoogleOptimize, GoogleOptimizeMetadata } from './google/google-optimize
 export { GooglePalm, GooglePalmMetadata } from './google/google-palm';
 export { GooglePay, GooglePayMetadata } from './google/google-pay';
 export { GooglePhotos, GooglePhotosMetadata } from './google/google-photos';
-export { GooglePlayConsoleIcon, GooglePlayConsoleIconMetadata } from './google/google-play-console-icon';
 export { GooglePlayConsole, GooglePlayConsoleMetadata } from './google/google-play-console';
+export { GooglePlayConsoleWordmark, GooglePlayConsoleWordmarkMetadata } from './google/google-play-console_wordmark';
 export { GooglePlay, GooglePlayMetadata } from './google/google-play';
 export { GooglePlayWordmark, GooglePlayWordmarkMetadata } from './google/google-play_wordmark';
 export { GoogleSearchConsole, GoogleSearchConsoleMetadata } from './google/google-search-console';
 export { GoogleTagManager, GoogleTagManagerMetadata } from './google/google-tag-manager';
-export { GoogleWorkspace, GoogleWorkspaceMetadata } from './google/google-workspace';
-export { Google, GoogleMetadata } from './google/google';
+export { GoogleWorkspaceWordmark, GoogleWorkspaceWordmarkMetadata } from './google/google-workspace_wordmark';
+export { GoogleWordmark, GoogleWordmarkMetadata } from './google/google_wordmark';
 export { Bash, BashMetadata } from './language/Bash';
 export { CPlusPlus, CPlusPlusMetadata } from './language/C-Plus-Plus';
 export { C, CMetadata } from './language/C';
@@ -523,7 +521,6 @@ export { Instagram, InstagramMetadata } from './social/Instagram';
 export { LinkedIn, LinkedInMetadata } from './social/LinkedIn';
 export { Meta, MetaMetadata } from './social/Meta';
 export { Peerlist, PeerlistMetadata } from './social/Peerlist';
-export { Pinterest1, Pinterest1Metadata } from './social/Pinterest-1';
 export { Pinterest, PinterestMetadata } from './social/Pinterest';
 export { Reddit, RedditMetadata } from './social/Reddit';
 export { Telegram, TelegramMetadata } from './social/Telegram';
@@ -583,8 +580,7 @@ import { Adobe, AdobeMetadata } from './adobe/adobe';
 import { AdobeWordmark, AdobeWordmarkMetadata } from './adobe/adobe_wordmark';
 import { AnthropicDarkWordmark, AnthropicDarkWordmarkMetadata } from './ai/Anthropic-dark_wordmark';
 import { AnthropicLightWordmark, AnthropicLightWordmarkMetadata } from './ai/Anthropic-light_wordmark';
-import { AnthropicDark, AnthropicDarkMetadata } from './ai/Anthropic_dark';
-import { AnthropicLight, AnthropicLightMetadata } from './ai/Anthropic_light';
+import { Anthropic, AnthropicMetadata } from './ai/Anthropic';
 import { ClaudeAI, ClaudeAIMetadata } from './ai/Claude-AI';
 import { ClaudeAIWordmark, ClaudeAIWordmarkMetadata } from './ai/ClaudeAI_wordmark';
 import { DeepSeekWordmark, DeepSeekWordmarkMetadata } from './ai/DeepSeek_wordmark';
@@ -607,8 +603,7 @@ import { Windsurf, WindsurfMetadata } from './ai/Windsurf';
 import { WindsurfWordmark, WindsurfWordmarkMetadata } from './ai/Windsurf_wordmark';
 import { Deepseek, DeepseekMetadata } from './ai/deepseek';
 import { Lovable, LovableMetadata } from './ai/lovable';
-import { XAIGrokDark, XAIGrokDarkMetadata } from './ai/xAI-Grok_dark';
-import { XAIGrokLight, XAIGrokLightMetadata } from './ai/xAI-Grok_light';
+import { XAIGrok, XAIGrokMetadata } from './ai/xAI-Grok';
 import { Arc, ArcMetadata } from './browser/Arc';
 import { Bing, BingMetadata } from './browser/Bing';
 import { BraveBrowser, BraveBrowserMetadata } from './browser/BraveBrowser';
@@ -999,14 +994,14 @@ import { GoogleOptimize, GoogleOptimizeMetadata } from './google/google-optimize
 import { GooglePalm, GooglePalmMetadata } from './google/google-palm';
 import { GooglePay, GooglePayMetadata } from './google/google-pay';
 import { GooglePhotos, GooglePhotosMetadata } from './google/google-photos';
-import { GooglePlayConsoleIcon, GooglePlayConsoleIconMetadata } from './google/google-play-console-icon';
 import { GooglePlayConsole, GooglePlayConsoleMetadata } from './google/google-play-console';
+import { GooglePlayConsoleWordmark, GooglePlayConsoleWordmarkMetadata } from './google/google-play-console_wordmark';
 import { GooglePlay, GooglePlayMetadata } from './google/google-play';
 import { GooglePlayWordmark, GooglePlayWordmarkMetadata } from './google/google-play_wordmark';
 import { GoogleSearchConsole, GoogleSearchConsoleMetadata } from './google/google-search-console';
 import { GoogleTagManager, GoogleTagManagerMetadata } from './google/google-tag-manager';
-import { GoogleWorkspace, GoogleWorkspaceMetadata } from './google/google-workspace';
-import { Google, GoogleMetadata } from './google/google';
+import { GoogleWorkspaceWordmark, GoogleWorkspaceWordmarkMetadata } from './google/google-workspace_wordmark';
+import { GoogleWordmark, GoogleWordmarkMetadata } from './google/google_wordmark';
 import { Bash, BashMetadata } from './language/Bash';
 import { CPlusPlus, CPlusPlusMetadata } from './language/C-Plus-Plus';
 import { C, CMetadata } from './language/C';
@@ -1092,7 +1087,6 @@ import { Instagram, InstagramMetadata } from './social/Instagram';
 import { LinkedIn, LinkedInMetadata } from './social/LinkedIn';
 import { Meta, MetaMetadata } from './social/Meta';
 import { Peerlist, PeerlistMetadata } from './social/Peerlist';
-import { Pinterest1, Pinterest1Metadata } from './social/Pinterest-1';
 import { Pinterest, PinterestMetadata } from './social/Pinterest';
 import { Reddit, RedditMetadata } from './social/Reddit';
 import { Telegram, TelegramMetadata } from './social/Telegram';
@@ -1157,8 +1151,7 @@ export const allLogos = {
   ai: {
     AnthropicDarkWordmark: { Component: AnthropicDarkWordmark, metadata: AnthropicDarkWordmarkMetadata },
     AnthropicLightWordmark: { Component: AnthropicLightWordmark, metadata: AnthropicLightWordmarkMetadata },
-    AnthropicDark: { Component: AnthropicDark, metadata: AnthropicDarkMetadata },
-    AnthropicLight: { Component: AnthropicLight, metadata: AnthropicLightMetadata },
+    Anthropic: { Component: Anthropic, metadata: AnthropicMetadata },
     ClaudeAI: { Component: ClaudeAI, metadata: ClaudeAIMetadata },
     ClaudeAIWordmark: { Component: ClaudeAIWordmark, metadata: ClaudeAIWordmarkMetadata },
     DeepSeekWordmark: { Component: DeepSeekWordmark, metadata: DeepSeekWordmarkMetadata },
@@ -1181,8 +1174,7 @@ export const allLogos = {
     WindsurfWordmark: { Component: WindsurfWordmark, metadata: WindsurfWordmarkMetadata },
     Deepseek: { Component: Deepseek, metadata: DeepseekMetadata },
     Lovable: { Component: Lovable, metadata: LovableMetadata },
-    XAIGrokDark: { Component: XAIGrokDark, metadata: XAIGrokDarkMetadata },
-    XAIGrokLight: { Component: XAIGrokLight, metadata: XAIGrokLightMetadata },
+    XAIGrok: { Component: XAIGrok, metadata: XAIGrokMetadata },
   },
   browser: {
     Arc: { Component: Arc, metadata: ArcMetadata },
@@ -1593,14 +1585,14 @@ export const allLogos = {
     GooglePalm: { Component: GooglePalm, metadata: GooglePalmMetadata },
     GooglePay: { Component: GooglePay, metadata: GooglePayMetadata },
     GooglePhotos: { Component: GooglePhotos, metadata: GooglePhotosMetadata },
-    GooglePlayConsoleIcon: { Component: GooglePlayConsoleIcon, metadata: GooglePlayConsoleIconMetadata },
     GooglePlayConsole: { Component: GooglePlayConsole, metadata: GooglePlayConsoleMetadata },
+    GooglePlayConsoleWordmark: { Component: GooglePlayConsoleWordmark, metadata: GooglePlayConsoleWordmarkMetadata },
     GooglePlay: { Component: GooglePlay, metadata: GooglePlayMetadata },
     GooglePlayWordmark: { Component: GooglePlayWordmark, metadata: GooglePlayWordmarkMetadata },
     GoogleSearchConsole: { Component: GoogleSearchConsole, metadata: GoogleSearchConsoleMetadata },
     GoogleTagManager: { Component: GoogleTagManager, metadata: GoogleTagManagerMetadata },
-    GoogleWorkspace: { Component: GoogleWorkspace, metadata: GoogleWorkspaceMetadata },
-    Google: { Component: Google, metadata: GoogleMetadata },
+    GoogleWorkspaceWordmark: { Component: GoogleWorkspaceWordmark, metadata: GoogleWorkspaceWordmarkMetadata },
+    GoogleWordmark: { Component: GoogleWordmark, metadata: GoogleWordmarkMetadata },
   },
   language: {
     Bash: { Component: Bash, metadata: BashMetadata },
@@ -1696,7 +1688,6 @@ export const allLogos = {
     LinkedIn: { Component: LinkedIn, metadata: LinkedInMetadata },
     Meta: { Component: Meta, metadata: MetaMetadata },
     Peerlist: { Component: Peerlist, metadata: PeerlistMetadata },
-    Pinterest1: { Component: Pinterest1, metadata: Pinterest1Metadata },
     Pinterest: { Component: Pinterest, metadata: PinterestMetadata },
     Reddit: { Component: Reddit, metadata: RedditMetadata },
     Telegram: { Component: Telegram, metadata: TelegramMetadata },

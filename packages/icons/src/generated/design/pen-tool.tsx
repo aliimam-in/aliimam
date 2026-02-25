@@ -9,7 +9,18 @@ export interface PenToolProps extends React.SVGProps<SVGSVGElement> {
 
 export const PenTool = React.forwardRef<SVGSVGElement, PenToolProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M15.707 21.293a1 1 0 0 1-1.414 0l-1.586-1.586a1 1 0 0 1 0-1.414l5.586-5.586a1 1 0 0 1 1.414 0l1.586 1.586a1 1 0 0 1 0 1.414z" />
   <path d="m18 13-1.375-6.874a1 1 0 0 0-.746-.776L3.235 2.028a1 1 0 0 0-1.207 1.207L5.35 15.879a1 1 0 0 0 .776.746L13 18" />
   <path d="m2.3 2.3 7.286 7.286" />
@@ -18,5 +29,14 @@ export const PenTool = React.forwardRef<SVGSVGElement, PenToolProps>(
   )
 );
 PenTool.displayName = "PenTool";
-export const PenToolMetadata = { id: "pen-tool", baseId: "pen-tool", variant: "default", name: "Pen Tool", category: "design", tags: [], viewBox: "0 0 24 24" } as const;
+export const PenToolMetadata = { 
+  id: "pen-tool", 
+  baseId: "pen-tool", 
+  variant: "default", 
+  name: "Pen Tool", 
+  category: "design", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default PenTool;

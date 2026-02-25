@@ -9,7 +9,18 @@ export interface ArrowUpAZProps extends React.SVGProps<SVGSVGElement> {
 
 export const ArrowUpAZ = React.forwardRef<SVGSVGElement, ArrowUpAZProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="m3 8 4-4 4 4" />
   <path d="M7 4v16" />
   <path d="M20 8h-5" />
@@ -19,5 +30,14 @@ export const ArrowUpAZ = React.forwardRef<SVGSVGElement, ArrowUpAZProps>(
   )
 );
 ArrowUpAZ.displayName = "ArrowUpAZ";
-export const ArrowUpAZMetadata = { id: "arrow-up-a-z", baseId: "arrow-up-a-z", variant: "default", name: "Arrow Up A Z", category: "arrows", tags: [], viewBox: "0 0 24 24" } as const;
+export const ArrowUpAZMetadata = { 
+  id: "arrow-up-a-z", 
+  baseId: "arrow-up-a-z", 
+  variant: "default", 
+  name: "Arrow Up A Z", 
+  category: "arrows", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default ArrowUpAZ;

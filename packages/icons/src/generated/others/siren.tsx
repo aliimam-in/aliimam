@@ -9,7 +9,18 @@ export interface SirenProps extends React.SVGProps<SVGSVGElement> {
 
 export const Siren = React.forwardRef<SVGSVGElement, SirenProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M7 18v-6a5 5 0 1 1 10 0v6" />
   <path d="M5 21a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-1a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2z" />
   <path d="M21 12h1" />
@@ -22,5 +33,14 @@ export const Siren = React.forwardRef<SVGSVGElement, SirenProps>(
   )
 );
 Siren.displayName = "Siren";
-export const SirenMetadata = { id: "siren", baseId: "siren", variant: "default", name: "Siren", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export const SirenMetadata = { 
+  id: "siren", 
+  baseId: "siren", 
+  variant: "default", 
+  name: "Siren", 
+  category: "others", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default Siren;

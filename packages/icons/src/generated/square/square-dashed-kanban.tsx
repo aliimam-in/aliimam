@@ -9,7 +9,18 @@ export interface SquareDashedKanbanProps extends React.SVGProps<SVGSVGElement> {
 
 export const SquareDashedKanban = React.forwardRef<SVGSVGElement, SquareDashedKanbanProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M8 7v7" />
   <path d="M12 7v4" />
   <path d="M16 7v9" />
@@ -29,5 +40,14 @@ export const SquareDashedKanban = React.forwardRef<SVGSVGElement, SquareDashedKa
   )
 );
 SquareDashedKanban.displayName = "SquareDashedKanban";
-export const SquareDashedKanbanMetadata = { id: "square-dashed-kanban", baseId: "square-dashed-kanban", variant: "default", name: "Square Dashed Kanban", category: "square", tags: [], viewBox: "0 0 24 24" } as const;
+export const SquareDashedKanbanMetadata = { 
+  id: "square-dashed-kanban", 
+  baseId: "square-dashed-kanban", 
+  variant: "default", 
+  name: "Square Dashed Kanban", 
+  category: "square", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default SquareDashedKanban;

@@ -9,7 +9,18 @@ export interface ZoomInProps extends React.SVGProps<SVGSVGElement> {
 
 export const ZoomIn = React.forwardRef<SVGSVGElement, ZoomInProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <circle cx="11" cy="11" r="8" />
   <line x1="21" x2="16.65" y1="21" y2="16.65" />
   <line x1="11" x2="11" y1="8" y2="14" />
@@ -18,5 +29,14 @@ export const ZoomIn = React.forwardRef<SVGSVGElement, ZoomInProps>(
   )
 );
 ZoomIn.displayName = "ZoomIn";
-export const ZoomInMetadata = { id: "zoom-in", baseId: "zoom-in", variant: "default", name: "Zoom In", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export const ZoomInMetadata = { 
+  id: "zoom-in", 
+  baseId: "zoom-in", 
+  variant: "default", 
+  name: "Zoom In", 
+  category: "others", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default ZoomIn;

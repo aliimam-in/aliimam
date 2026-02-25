@@ -9,7 +9,18 @@ export interface ThermometerSnowflakeProps extends React.SVGProps<SVGSVGElement>
 
 export const ThermometerSnowflake = React.forwardRef<SVGSVGElement, ThermometerSnowflakeProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="m10 20-1.25-2.5L6 18" />
   <path d="M10 4 8.75 6.5 6 6" />
   <path d="M10.585 15H10" />
@@ -22,5 +33,14 @@ export const ThermometerSnowflake = React.forwardRef<SVGSVGElement, ThermometerS
   )
 );
 ThermometerSnowflake.displayName = "ThermometerSnowflake";
-export const ThermometerSnowflakeMetadata = { id: "thermometer-snowflake", baseId: "thermometer-snowflake", variant: "default", name: "Thermometer Snowflake", category: "medical", tags: [], viewBox: "0 0 24 24" } as const;
+export const ThermometerSnowflakeMetadata = { 
+  id: "thermometer-snowflake", 
+  baseId: "thermometer-snowflake", 
+  variant: "default", 
+  name: "Thermometer Snowflake", 
+  category: "medical", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default ThermometerSnowflake;

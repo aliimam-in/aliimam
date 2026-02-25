@@ -2,12 +2,12 @@
 
 import { Award, Cat, ShieldCheck, Star, StarHalf } from "@aliimam/icons"
 import {
-  ClaudeAI,
-  Cursor,
-  Google,
-  Grok,
-  OpenAI,
-  Replicate,
+  ClaudeAIWordmark,
+  CursorWordmark,
+  GoogleWordmark,
+  GrokWordmark,
+  OpenAIWordmark,
+  ReplicateWordmark,
 } from "@aliimam/logos"
 
 import { Button } from "@/registry/aliimam/ui/button"
@@ -109,12 +109,12 @@ const Cta1 = () => {
             <Button variant="secondary">Book a Demo</Button>
           </div>
           <div className="mt-10 grid grid-cols-3 items-center justify-center gap-x-16">
-            <OpenAI type="wordmark" size={100} />
-            <ClaudeAI type="wordmark" size={100} />
-            <Replicate type="wordmark" size={100} />
-            <Cursor type="wordmark" size={100} />
-            <Grok type="wordmark" size={90} />
-            <Google type="wordmark" size={90} />
+            <OpenAIWordmark size={100} />
+            <ClaudeAIWordmark size={100} />
+            <ReplicateWordmark size={100} />
+            <CursorWordmark size={100} />
+            <GrokWordmark size={90} />
+            <GoogleWordmark size={90} />
           </div>
         </div>
       </div>

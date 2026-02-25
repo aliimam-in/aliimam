@@ -9,7 +9,18 @@ export interface BrightnessUpFilledProps extends React.SVGProps<SVGSVGElement> {
 
 export const BrightnessUpFilled = React.forwardRef<SVGSVGElement, BrightnessUpFilledProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      stroke="none"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M12 8a4 4 0 1 1 -3.995 4.2l-.005 -.2l.005 -.2a4 4 0 0 1 3.995 -3.8z" />
   <path d="M12 2a1 1 0 0 1 .993 .883l.007 .117v2a1 1 0 0 1 -1.993 .117l-.007 -.117v-2a1 1 0 0 1 1 -1z" />
   <path d="M17.693 4.893a1 1 0 0 1 1.497 1.32l-.083 .094l-1.4 1.4a1 1 0 0 1 -1.497 -1.32l.083 -.094l1.4 -1.4z" />
@@ -23,5 +34,14 @@ export const BrightnessUpFilled = React.forwardRef<SVGSVGElement, BrightnessUpFi
   )
 );
 BrightnessUpFilled.displayName = "BrightnessUpFilled";
-export const BrightnessUpFilledMetadata = { id: "brightness-up_filled", baseId: "brightness-up", variant: "filled", name: "Brightness Up", category: "filled", tags: [], viewBox: "0 0 24 24" } as const;
+export const BrightnessUpFilledMetadata = { 
+  id: "brightness-up_filled", 
+  baseId: "brightness-up", 
+  variant: "filled", 
+  name: "Brightness Up", 
+  category: "filled", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default BrightnessUpFilled;

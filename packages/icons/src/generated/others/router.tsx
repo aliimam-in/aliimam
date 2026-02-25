@@ -9,7 +9,18 @@ export interface RouterProps extends React.SVGProps<SVGSVGElement> {
 
 export const Router = React.forwardRef<SVGSVGElement, RouterProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <rect width="20" height="8" x="2" y="14" rx="2" />
   <path d="M6.01 18H6" />
   <path d="M10.01 18H10" />
@@ -20,5 +31,14 @@ export const Router = React.forwardRef<SVGSVGElement, RouterProps>(
   )
 );
 Router.displayName = "Router";
-export const RouterMetadata = { id: "router", baseId: "router", variant: "default", name: "Router", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export const RouterMetadata = { 
+  id: "router", 
+  baseId: "router", 
+  variant: "default", 
+  name: "Router", 
+  category: "others", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default Router;

@@ -9,7 +9,18 @@ export interface BoomBoxProps extends React.SVGProps<SVGSVGElement> {
 
 export const BoomBox = React.forwardRef<SVGSVGElement, BoomBoxProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M4 9V5a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v4" />
   <path d="M8 8v1" />
   <path d="M12 8v1" />
@@ -21,5 +32,14 @@ export const BoomBox = React.forwardRef<SVGSVGElement, BoomBoxProps>(
   )
 );
 BoomBox.displayName = "BoomBox";
-export const BoomBoxMetadata = { id: "boom-box", baseId: "boom-box", variant: "default", name: "Boom Box", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export const BoomBoxMetadata = { 
+  id: "boom-box", 
+  baseId: "boom-box", 
+  variant: "default", 
+  name: "Boom Box", 
+  category: "others", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default BoomBox;

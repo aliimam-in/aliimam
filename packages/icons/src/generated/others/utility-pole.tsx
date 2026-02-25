@@ -9,7 +9,18 @@ export interface UtilityPoleProps extends React.SVGProps<SVGSVGElement> {
 
 export const UtilityPole = React.forwardRef<SVGSVGElement, UtilityPoleProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M12 2v20" />
   <path d="M2 5h20" />
   <path d="M3 3v2" />
@@ -21,5 +32,14 @@ export const UtilityPole = React.forwardRef<SVGSVGElement, UtilityPoleProps>(
   )
 );
 UtilityPole.displayName = "UtilityPole";
-export const UtilityPoleMetadata = { id: "utility-pole", baseId: "utility-pole", variant: "default", name: "Utility Pole", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export const UtilityPoleMetadata = { 
+  id: "utility-pole", 
+  baseId: "utility-pole", 
+  variant: "default", 
+  name: "Utility Pole", 
+  category: "others", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default UtilityPole;

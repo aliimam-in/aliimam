@@ -9,7 +9,18 @@ export interface LocateOffProps extends React.SVGProps<SVGSVGElement> {
 
 export const LocateOff = React.forwardRef<SVGSVGElement, LocateOffProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M12 19v3" />
   <path d="M12 2v3" />
   <path d="M18.89 13.24a7 7 0 0 0-8.13-8.13" />
@@ -21,5 +32,14 @@ export const LocateOff = React.forwardRef<SVGSVGElement, LocateOffProps>(
   )
 );
 LocateOff.displayName = "LocateOff";
-export const LocateOffMetadata = { id: "locate-off", baseId: "locate-off", variant: "default", name: "Locate Off", category: "navigation", tags: [], viewBox: "0 0 24 24" } as const;
+export const LocateOffMetadata = { 
+  id: "locate-off", 
+  baseId: "locate-off", 
+  variant: "default", 
+  name: "Locate Off", 
+  category: "navigation", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default LocateOff;

@@ -1,12 +1,12 @@
 import {
-  ClaudeAI,
-  Cursor,
-  Gemini,
-  Github,
-  Google,
-  Grok,
-  OpenAI,
-  Replicate,
+  ClaudeAIWordmark,
+  CursorWordmark,
+  GoogleGeminiWordmark,
+  GithubWordmark,
+  GoogleWordmark,
+  GrokWordmark,
+  OpenAIWordmark,
+  ReplicateWordmark,
 } from "@aliimam/logos"
 
 export default function Logos02() {
@@ -17,14 +17,14 @@ export default function Logos02() {
       </h1>
       <div className="mx-auto max-w-2xl px-6">
         <div className="flex flex-wrap items-center justify-center gap-x-12">
-          <OpenAI type="wordmark" size={100} />
-          <ClaudeAI type="wordmark" size={100} />
-          <Replicate type="wordmark" size={100} />
-          <Cursor type="wordmark" size={100} />
-          <Gemini type="wordmark" size={90} />
-          <Github type="wordmark" size={90} />
-          <Grok type="wordmark" size={100} />
-          <Google type="wordmark" size={100} />
+          <OpenAIWordmark size={100} />
+          <ClaudeAIWordmark size={100} />
+          <ReplicateWordmark size={100} />
+          <CursorWordmark size={100} />
+          <GoogleGeminiWordmark size={90} />
+          <GithubWordmark size={90} />
+          <GrokWordmark size={100} />
+          <GoogleWordmark size={100} />
         </div>
       </div>
     </div>

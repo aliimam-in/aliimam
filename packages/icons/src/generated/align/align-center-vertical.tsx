@@ -9,7 +9,18 @@ export interface AlignCenterVerticalProps extends React.SVGProps<SVGSVGElement> 
 
 export const AlignCenterVertical = React.forwardRef<SVGSVGElement, AlignCenterVerticalProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M12 2v20" />
   <path d="M8 10H4a2 2 0 0 1-2-2V6c0-1.1.9-2 2-2h4" />
   <path d="M16 10h4a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-4" />
@@ -19,5 +30,14 @@ export const AlignCenterVertical = React.forwardRef<SVGSVGElement, AlignCenterVe
   )
 );
 AlignCenterVertical.displayName = "AlignCenterVertical";
-export const AlignCenterVerticalMetadata = { id: "align-center-vertical", baseId: "align-center-vertical", variant: "default", name: "Align Center Vertical", category: "align", tags: [], viewBox: "0 0 24 24" } as const;
+export const AlignCenterVerticalMetadata = { 
+  id: "align-center-vertical", 
+  baseId: "align-center-vertical", 
+  variant: "default", 
+  name: "Align Center Vertical", 
+  category: "align", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default AlignCenterVertical;

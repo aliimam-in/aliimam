@@ -9,7 +9,18 @@ export interface BiohazardProps extends React.SVGProps<SVGSVGElement> {
 
 export const Biohazard = React.forwardRef<SVGSVGElement, BiohazardProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <circle cx="12" cy="11.9" r="2" />
   <path d="M6.7 3.4c-.9 2.5 0 5.2 2.2 6.7C6.5 9 3.7 9.6 2 11.6" />
   <path d="m8.9 10.1 1.4.8" />
@@ -24,5 +35,14 @@ export const Biohazard = React.forwardRef<SVGSVGElement, BiohazardProps>(
   )
 );
 Biohazard.displayName = "Biohazard";
-export const BiohazardMetadata = { id: "biohazard", baseId: "biohazard", variant: "default", name: "Biohazard", category: "medical", tags: [], viewBox: "0 0 24 24" } as const;
+export const BiohazardMetadata = { 
+  id: "biohazard", 
+  baseId: "biohazard", 
+  variant: "default", 
+  name: "Biohazard", 
+  category: "medical", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default Biohazard;

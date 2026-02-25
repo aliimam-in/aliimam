@@ -9,7 +9,18 @@ export interface WineOffProps extends React.SVGProps<SVGSVGElement> {
 
 export const WineOff = React.forwardRef<SVGSVGElement, WineOffProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M8 22h8" />
   <path d="M7 10h3m7 0h-1.343" />
   <path d="M12 15v7" />
@@ -19,5 +30,14 @@ export const WineOff = React.forwardRef<SVGSVGElement, WineOffProps>(
   )
 );
 WineOff.displayName = "WineOff";
-export const WineOffMetadata = { id: "wine-off", baseId: "wine-off", variant: "default", name: "Wine Off", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export const WineOffMetadata = { 
+  id: "wine-off", 
+  baseId: "wine-off", 
+  variant: "default", 
+  name: "Wine Off", 
+  category: "others", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default WineOff;

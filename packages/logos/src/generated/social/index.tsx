@@ -5,7 +5,6 @@ export { Instagram, InstagramMetadata, type InstagramProps } from './Instagram';
 export { LinkedIn, LinkedInMetadata, type LinkedInProps } from './LinkedIn';
 export { Meta, MetaMetadata, type MetaProps } from './Meta';
 export { Peerlist, PeerlistMetadata, type PeerlistProps } from './Peerlist';
-export { Pinterest1, Pinterest1Metadata, type Pinterest1Props } from './Pinterest-1';
 export { Pinterest, PinterestMetadata, type PinterestProps } from './Pinterest';
 export { Reddit, RedditMetadata, type RedditProps } from './Reddit';
 export { Telegram, TelegramMetadata, type TelegramProps } from './Telegram';

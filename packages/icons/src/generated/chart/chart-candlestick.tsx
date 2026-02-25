@@ -9,7 +9,18 @@ export interface ChartCandlestickProps extends React.SVGProps<SVGSVGElement> {
 
 export const ChartCandlestick = React.forwardRef<SVGSVGElement, ChartCandlestickProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M9 5v4" />
   <rect width="4" height="6" x="7" y="9" rx="1" />
   <path d="M9 15v2" />
@@ -21,5 +32,14 @@ export const ChartCandlestick = React.forwardRef<SVGSVGElement, ChartCandlestick
   )
 );
 ChartCandlestick.displayName = "ChartCandlestick";
-export const ChartCandlestickMetadata = { id: "chart-candlestick", baseId: "chart-candlestick", variant: "default", name: "Chart Candlestick", category: "chart", tags: [], viewBox: "0 0 24 24" } as const;
+export const ChartCandlestickMetadata = { 
+  id: "chart-candlestick", 
+  baseId: "chart-candlestick", 
+  variant: "default", 
+  name: "Chart Candlestick", 
+  category: "chart", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default ChartCandlestick;

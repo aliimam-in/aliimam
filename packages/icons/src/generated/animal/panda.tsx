@@ -9,7 +9,18 @@ export interface PandaProps extends React.SVGProps<SVGSVGElement> {
 
 export const Panda = React.forwardRef<SVGSVGElement, PandaProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M11.25 17.25h1.5L12 18z" />
   <path d="m15 12 2 2" />
   <path d="M18 6.5a.5.5 0 0 0-.5-.5" />
@@ -20,5 +31,14 @@ export const Panda = React.forwardRef<SVGSVGElement, PandaProps>(
   )
 );
 Panda.displayName = "Panda";
-export const PandaMetadata = { id: "panda", baseId: "panda", variant: "default", name: "Panda", category: "animal", tags: [], viewBox: "0 0 24 24" } as const;
+export const PandaMetadata = { 
+  id: "panda", 
+  baseId: "panda", 
+  variant: "default", 
+  name: "Panda", 
+  category: "animal", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default Panda;

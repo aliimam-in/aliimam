@@ -9,7 +9,18 @@ export interface SquareBottomDashedScissorsProps extends React.SVGProps<SVGSVGEl
 
 export const SquareBottomDashedScissors = React.forwardRef<SVGSVGElement, SquareBottomDashedScissorsProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <line x1="5" y1="3" x2="19" y2="3" />
   <line x1="3" y1="5" x2="3" y2="19" />
   <line x1="21" y1="5" x2="21" y2="19" />
@@ -28,5 +39,14 @@ export const SquareBottomDashedScissors = React.forwardRef<SVGSVGElement, Square
   )
 );
 SquareBottomDashedScissors.displayName = "SquareBottomDashedScissors";
-export const SquareBottomDashedScissorsMetadata = { id: "square-bottom-dashed-scissors", baseId: "square-bottom-dashed-scissors", variant: "default", name: "Square Bottom Dashed Scissors", category: "square", tags: [], viewBox: "0 0 24 24" } as const;
+export const SquareBottomDashedScissorsMetadata = { 
+  id: "square-bottom-dashed-scissors", 
+  baseId: "square-bottom-dashed-scissors", 
+  variant: "default", 
+  name: "Square Bottom Dashed Scissors", 
+  category: "square", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default SquareBottomDashedScissors;

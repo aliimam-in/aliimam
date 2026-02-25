@@ -134,7 +134,7 @@ export const navItems = [
   {
     href: "/blocks",
     label: "Blocks",
-    new: true,
+    new: false,
   },
   {
     href: "/pages",
@@ -149,7 +149,7 @@ export const navItems = [
   {
     href: "/icons",
     label: "Icons",
-    new: false,
+    new: true,
   },
 ]
 

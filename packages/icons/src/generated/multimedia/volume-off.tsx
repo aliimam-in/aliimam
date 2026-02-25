@@ -9,7 +9,18 @@ export interface VolumeOffProps extends React.SVGProps<SVGSVGElement> {
 
 export const VolumeOff = React.forwardRef<SVGSVGElement, VolumeOffProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M16 9a5 5 0 0 1 .95 2.293" />
   <path d="M19.364 5.636a9 9 0 0 1 1.889 9.96" />
   <path d="m2 2 20 20" />
@@ -19,5 +30,14 @@ export const VolumeOff = React.forwardRef<SVGSVGElement, VolumeOffProps>(
   )
 );
 VolumeOff.displayName = "VolumeOff";
-export const VolumeOffMetadata = { id: "volume-off", baseId: "volume-off", variant: "default", name: "Volume Off", category: "multimedia", tags: [], viewBox: "0 0 24 24" } as const;
+export const VolumeOffMetadata = { 
+  id: "volume-off", 
+  baseId: "volume-off", 
+  variant: "default", 
+  name: "Volume Off", 
+  category: "multimedia", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default VolumeOff;

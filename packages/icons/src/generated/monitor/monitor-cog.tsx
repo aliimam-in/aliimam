@@ -9,7 +9,18 @@ export interface MonitorCogProps extends React.SVGProps<SVGSVGElement> {
 
 export const MonitorCog = React.forwardRef<SVGSVGElement, MonitorCogProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M12 17v4" />
   <path d="m14.305 7.53.923-.382" />
   <path d="m15.228 4.852-.923-.383" />
@@ -26,5 +37,14 @@ export const MonitorCog = React.forwardRef<SVGSVGElement, MonitorCogProps>(
   )
 );
 MonitorCog.displayName = "MonitorCog";
-export const MonitorCogMetadata = { id: "monitor-cog", baseId: "monitor-cog", variant: "default", name: "Monitor Cog", category: "monitor", tags: [], viewBox: "0 0 24 24" } as const;
+export const MonitorCogMetadata = { 
+  id: "monitor-cog", 
+  baseId: "monitor-cog", 
+  variant: "default", 
+  name: "Monitor Cog", 
+  category: "monitor", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default MonitorCog;

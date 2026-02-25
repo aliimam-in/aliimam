@@ -9,7 +9,18 @@ export interface LocateFixedProps extends React.SVGProps<SVGSVGElement> {
 
 export const LocateFixed = React.forwardRef<SVGSVGElement, LocateFixedProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <line x1="2" x2="5" y1="12" y2="12" />
   <line x1="19" x2="22" y1="12" y2="12" />
   <line x1="12" x2="12" y1="2" y2="5" />
@@ -20,5 +31,14 @@ export const LocateFixed = React.forwardRef<SVGSVGElement, LocateFixedProps>(
   )
 );
 LocateFixed.displayName = "LocateFixed";
-export const LocateFixedMetadata = { id: "locate-fixed", baseId: "locate-fixed", variant: "default", name: "Locate Fixed", category: "navigation", tags: [], viewBox: "0 0 24 24" } as const;
+export const LocateFixedMetadata = { 
+  id: "locate-fixed", 
+  baseId: "locate-fixed", 
+  variant: "default", 
+  name: "Locate Fixed", 
+  category: "navigation", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default LocateFixed;

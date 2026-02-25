@@ -9,7 +9,18 @@ export interface NutOffProps extends React.SVGProps<SVGSVGElement> {
 
 export const NutOff = React.forwardRef<SVGSVGElement, NutOffProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M12 4V2" />
   <path d="M5 10v4a7.004 7.004 0 0 0 5.277 6.787c.412.104.802.292 1.102.592L12 22l.621-.621c.3-.3.69-.488 1.102-.592a7.01 7.01 0 0 0 4.125-2.939" />
   <path d="M19 10v3.343" />
@@ -19,5 +30,14 @@ export const NutOff = React.forwardRef<SVGSVGElement, NutOffProps>(
   )
 );
 NutOff.displayName = "NutOff";
-export const NutOffMetadata = { id: "nut-off", baseId: "nut-off", variant: "default", name: "Nut Off", category: "food", tags: [], viewBox: "0 0 24 24" } as const;
+export const NutOffMetadata = { 
+  id: "nut-off", 
+  baseId: "nut-off", 
+  variant: "default", 
+  name: "Nut Off", 
+  category: "food", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default NutOff;

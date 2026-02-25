@@ -9,7 +9,18 @@ export interface CandyOffProps extends React.SVGProps<SVGSVGElement> {
 
 export const CandyOff = React.forwardRef<SVGSVGElement, CandyOffProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M10 10v7.9" />
   <path d="M11.802 6.145a5 5 0 0 1 6.053 6.053" />
   <path d="M14 6.1v2.243" />
@@ -21,5 +32,14 @@ export const CandyOff = React.forwardRef<SVGSVGElement, CandyOffProps>(
   )
 );
 CandyOff.displayName = "CandyOff";
-export const CandyOffMetadata = { id: "candy-off", baseId: "candy-off", variant: "default", name: "Candy Off", category: "food", tags: [], viewBox: "0 0 24 24" } as const;
+export const CandyOffMetadata = { 
+  id: "candy-off", 
+  baseId: "candy-off", 
+  variant: "default", 
+  name: "Candy Off", 
+  category: "food", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default CandyOff;

@@ -9,7 +9,18 @@ export interface Columns3CogProps extends React.SVGProps<SVGSVGElement> {
 
 export const Columns3Cog = React.forwardRef<SVGSVGElement, Columns3CogProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M10.5 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v5.5" />
   <path d="m14.3 19.6 1-.4" />
   <path d="M15 3v7.5" />
@@ -26,5 +37,14 @@ export const Columns3Cog = React.forwardRef<SVGSVGElement, Columns3CogProps>(
   )
 );
 Columns3Cog.displayName = "Columns3Cog";
-export const Columns3CogMetadata = { id: "columns-3-cog", baseId: "columns-3-cog", variant: "default", name: "Columns 3 Cog", category: "layout", tags: [], viewBox: "0 0 24 24" } as const;
+export const Columns3CogMetadata = { 
+  id: "columns-3-cog", 
+  baseId: "columns-3-cog", 
+  variant: "default", 
+  name: "Columns 3 Cog", 
+  category: "layout", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default Columns3Cog;

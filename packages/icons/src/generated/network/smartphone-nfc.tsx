@@ -9,7 +9,18 @@ export interface SmartphoneNfcProps extends React.SVGProps<SVGSVGElement> {
 
 export const SmartphoneNfc = React.forwardRef<SVGSVGElement, SmartphoneNfcProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <rect width="7" height="12" x="2" y="6" rx="1" />
   <path d="M13 8.32a7.43 7.43 0 0 1 0 7.36" />
   <path d="M16.46 6.21a11.76 11.76 0 0 1 0 11.58" />
@@ -18,5 +29,14 @@ export const SmartphoneNfc = React.forwardRef<SVGSVGElement, SmartphoneNfcProps>
   )
 );
 SmartphoneNfc.displayName = "SmartphoneNfc";
-export const SmartphoneNfcMetadata = { id: "smartphone-nfc", baseId: "smartphone-nfc", variant: "default", name: "Smartphone Nfc", category: "network", tags: [], viewBox: "0 0 24 24" } as const;
+export const SmartphoneNfcMetadata = { 
+  id: "smartphone-nfc", 
+  baseId: "smartphone-nfc", 
+  variant: "default", 
+  name: "Smartphone Nfc", 
+  category: "network", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default SmartphoneNfc;

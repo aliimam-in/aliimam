@@ -9,7 +9,18 @@ export interface CookingPotProps extends React.SVGProps<SVGSVGElement> {
 
 export const CookingPot = React.forwardRef<SVGSVGElement, CookingPotProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M2 12h20" />
   <path d="M20 12v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-8" />
   <path d="m4 8 16-4" />
@@ -18,5 +29,14 @@ export const CookingPot = React.forwardRef<SVGSVGElement, CookingPotProps>(
   )
 );
 CookingPot.displayName = "CookingPot";
-export const CookingPotMetadata = { id: "cooking-pot", baseId: "cooking-pot", variant: "default", name: "Cooking Pot", category: "food", tags: [], viewBox: "0 0 24 24" } as const;
+export const CookingPotMetadata = { 
+  id: "cooking-pot", 
+  baseId: "cooking-pot", 
+  variant: "default", 
+  name: "Cooking Pot", 
+  category: "food", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default CookingPot;

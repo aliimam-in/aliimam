@@ -9,7 +9,18 @@ export interface CableCarProps extends React.SVGProps<SVGSVGElement> {
 
 export const CableCar = React.forwardRef<SVGSVGElement, CableCarProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M10 3h.01" />
   <path d="M14 2h.01" />
   <path d="m2 9 20-5" />
@@ -22,5 +33,14 @@ export const CableCar = React.forwardRef<SVGSVGElement, CableCarProps>(
   )
 );
 CableCar.displayName = "CableCar";
-export const CableCarMetadata = { id: "cable-car", baseId: "cable-car", variant: "default", name: "Cable Car", category: "transportation", tags: [], viewBox: "0 0 24 24" } as const;
+export const CableCarMetadata = { 
+  id: "cable-car", 
+  baseId: "cable-car", 
+  variant: "default", 
+  name: "Cable Car", 
+  category: "transportation", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default CableCar;

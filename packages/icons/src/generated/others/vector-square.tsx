@@ -9,7 +9,18 @@ export interface VectorSquareProps extends React.SVGProps<SVGSVGElement> {
 
 export const VectorSquare = React.forwardRef<SVGSVGElement, VectorSquareProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M19.5 7a24 24 0 0 1 0 10" />
   <path d="M4.5 7a24 24 0 0 0 0 10" />
   <path d="M7 19.5a24 24 0 0 0 10 0" />
@@ -22,5 +33,14 @@ export const VectorSquare = React.forwardRef<SVGSVGElement, VectorSquareProps>(
   )
 );
 VectorSquare.displayName = "VectorSquare";
-export const VectorSquareMetadata = { id: "vector-square", baseId: "vector-square", variant: "default", name: "Vector Square", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export const VectorSquareMetadata = { 
+  id: "vector-square", 
+  baseId: "vector-square", 
+  variant: "default", 
+  name: "Vector Square", 
+  category: "others", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default VectorSquare;

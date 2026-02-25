@@ -9,7 +9,18 @@ export interface TransgenderProps extends React.SVGProps<SVGSVGElement> {
 
 export const Transgender = React.forwardRef<SVGSVGElement, TransgenderProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M12 16v6" />
   <path d="M14 20h-4" />
   <path d="M18 2h4v4" />
@@ -22,5 +33,14 @@ export const Transgender = React.forwardRef<SVGSVGElement, TransgenderProps>(
   )
 );
 Transgender.displayName = "Transgender";
-export const TransgenderMetadata = { id: "transgender", baseId: "transgender", variant: "default", name: "Transgender", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export const TransgenderMetadata = { 
+  id: "transgender", 
+  baseId: "transgender", 
+  variant: "default", 
+  name: "Transgender", 
+  category: "others", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default Transgender;

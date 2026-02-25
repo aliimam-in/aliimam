@@ -9,7 +9,18 @@ export interface FishProps extends React.SVGProps<SVGSVGElement> {
 
 export const Fish = React.forwardRef<SVGSVGElement, FishProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M6.5 12c.94-3.46 4.94-6 8.5-6 3.56 0 6.06 2.54 7 6-.94 3.47-3.44 6-7 6s-7.56-2.53-8.5-6Z" />
   <path d="M18 12v.5" />
   <path d="M16 17.93a9.77 9.77 0 0 1 0-11.86" />
@@ -20,5 +31,14 @@ export const Fish = React.forwardRef<SVGSVGElement, FishProps>(
   )
 );
 Fish.displayName = "Fish";
-export const FishMetadata = { id: "fish", baseId: "fish", variant: "default", name: "Fish", category: "animal", tags: [], viewBox: "0 0 24 24" } as const;
+export const FishMetadata = { 
+  id: "fish", 
+  baseId: "fish", 
+  variant: "default", 
+  name: "Fish", 
+  category: "animal", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default Fish;

@@ -1,6 +1,6 @@
 "use client"
 
-import { Moon } from "@aliimam/icons"
+import { CopyPlusFilled } from "@aliimam/icons"
 import { motion } from "motion/react"
 
 import { cn } from "@/registry/aliimam/lib/utils"
@@ -34,7 +34,7 @@ export default function ButtonDemo() {
             }}
           />
         </div>
-        <Moon />
+        <CopyPlusFilled />
       </Button>
 
       <Button size={"lg"} variant={"outline"} className="relative">

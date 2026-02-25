@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-import { allLogos } from "../../../../../packages/logos/src/generated"
+import { allLogos } from "@aliimam/logos"
 
 interface IconProps extends React.SVGProps<SVGSVGElement> {
   name: string

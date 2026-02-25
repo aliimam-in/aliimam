@@ -25,13 +25,13 @@ export const Replicate = React.forwardRef<SVGSVGElement, ReplicateProps>(
       {...props}
     >
       <g clipPath="url(#clip0_2011_424)">
-<path d="M24 10.2625V12.9745H14.4816V24H11.448V10.2625H24Z" fill="black"/>
-<path d="M24 5.13123V7.84802H8.75521V24H5.72159V5.13123H24Z" fill="black"/>
-<path d="M24 0V2.7168H3.0336V24H0V0H24Z" fill="black"/>
+<path d="M24 10.2625V12.9745H14.4816V24H11.448V10.2625H24Z" fill="currentColor"/>
+<path d="M24 5.13123V7.84802H8.75521V24H5.72159V5.13123H24Z" fill="currentColor"/>
+<path d="M24 0V2.7168H3.0336V24H0V0H24Z" fill="currentColor"/>
 </g>
 <defs>
 <clipPath id="clip0_2011_424">
-<rect width="24" height="24" fill="white"/>
+<rect width="24" height="24" fill="currentColor"/>
 </clipPath>
 </defs>
     </svg>

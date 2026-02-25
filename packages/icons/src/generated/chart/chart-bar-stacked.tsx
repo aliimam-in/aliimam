@@ -9,7 +9,18 @@ export interface ChartBarStackedProps extends React.SVGProps<SVGSVGElement> {
 
 export const ChartBarStacked = React.forwardRef<SVGSVGElement, ChartBarStackedProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M11 13v4" />
   <path d="M15 5v4" />
   <path d="M3 3v16a2 2 0 0 0 2 2h16" />
@@ -19,5 +30,14 @@ export const ChartBarStacked = React.forwardRef<SVGSVGElement, ChartBarStackedPr
   )
 );
 ChartBarStacked.displayName = "ChartBarStacked";
-export const ChartBarStackedMetadata = { id: "chart-bar-stacked", baseId: "chart-bar-stacked", variant: "default", name: "Chart Bar Stacked", category: "chart", tags: [], viewBox: "0 0 24 24" } as const;
+export const ChartBarStackedMetadata = { 
+  id: "chart-bar-stacked", 
+  baseId: "chart-bar-stacked", 
+  variant: "default", 
+  name: "Chart Bar Stacked", 
+  category: "chart", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default ChartBarStacked;

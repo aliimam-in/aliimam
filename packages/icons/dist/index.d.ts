@@ -1,5 +1,200 @@
 import React from 'react';
 
+interface AlignBoxBottomCenterFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const AlignBoxBottomCenterFilled: React.ForwardRefExoticComponent<Omit<AlignBoxBottomCenterFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const AlignBoxBottomCenterFilledMetadata: {
+    readonly id: "align-box-bottom-center_filled";
+    readonly baseId: "align-box-bottom-center";
+    readonly variant: "filled";
+    readonly name: "Align Box Bottom Center";
+    readonly category: "align";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface AlignBoxBottomLeftFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const AlignBoxBottomLeftFilled: React.ForwardRefExoticComponent<Omit<AlignBoxBottomLeftFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const AlignBoxBottomLeftFilledMetadata: {
+    readonly id: "align-box-bottom-left_filled";
+    readonly baseId: "align-box-bottom-left";
+    readonly variant: "filled";
+    readonly name: "Align Box Bottom Left";
+    readonly category: "align";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface AlignBoxBottomRightFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const AlignBoxBottomRightFilled: React.ForwardRefExoticComponent<Omit<AlignBoxBottomRightFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const AlignBoxBottomRightFilledMetadata: {
+    readonly id: "align-box-bottom-right_filled";
+    readonly baseId: "align-box-bottom-right";
+    readonly variant: "filled";
+    readonly name: "Align Box Bottom Right";
+    readonly category: "align";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface AlignBoxCenterMiddleFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const AlignBoxCenterMiddleFilled: React.ForwardRefExoticComponent<Omit<AlignBoxCenterMiddleFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const AlignBoxCenterMiddleFilledMetadata: {
+    readonly id: "align-box-center-middle_filled";
+    readonly baseId: "align-box-center-middle";
+    readonly variant: "filled";
+    readonly name: "Align Box Center Middle";
+    readonly category: "align";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface AlignBoxLeftBottomFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const AlignBoxLeftBottomFilled: React.ForwardRefExoticComponent<Omit<AlignBoxLeftBottomFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const AlignBoxLeftBottomFilledMetadata: {
+    readonly id: "align-box-left-bottom_filled";
+    readonly baseId: "align-box-left-bottom";
+    readonly variant: "filled";
+    readonly name: "Align Box Left Bottom";
+    readonly category: "align";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface AlignBoxLeftMiddleFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const AlignBoxLeftMiddleFilled: React.ForwardRefExoticComponent<Omit<AlignBoxLeftMiddleFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const AlignBoxLeftMiddleFilledMetadata: {
+    readonly id: "align-box-left-middle_filled";
+    readonly baseId: "align-box-left-middle";
+    readonly variant: "filled";
+    readonly name: "Align Box Left Middle";
+    readonly category: "align";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface AlignBoxLeftTopFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const AlignBoxLeftTopFilled: React.ForwardRefExoticComponent<Omit<AlignBoxLeftTopFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const AlignBoxLeftTopFilledMetadata: {
+    readonly id: "align-box-left-top_filled";
+    readonly baseId: "align-box-left-top";
+    readonly variant: "filled";
+    readonly name: "Align Box Left Top";
+    readonly category: "align";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface AlignBoxRightBottomFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const AlignBoxRightBottomFilled: React.ForwardRefExoticComponent<Omit<AlignBoxRightBottomFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const AlignBoxRightBottomFilledMetadata: {
+    readonly id: "align-box-right-bottom_filled";
+    readonly baseId: "align-box-right-bottom";
+    readonly variant: "filled";
+    readonly name: "Align Box Right Bottom";
+    readonly category: "align";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface AlignBoxRightMiddleFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const AlignBoxRightMiddleFilled: React.ForwardRefExoticComponent<Omit<AlignBoxRightMiddleFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const AlignBoxRightMiddleFilledMetadata: {
+    readonly id: "align-box-right-middle_filled";
+    readonly baseId: "align-box-right-middle";
+    readonly variant: "filled";
+    readonly name: "Align Box Right Middle";
+    readonly category: "align";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface AlignBoxRightTopFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const AlignBoxRightTopFilled: React.ForwardRefExoticComponent<Omit<AlignBoxRightTopFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const AlignBoxRightTopFilledMetadata: {
+    readonly id: "align-box-right-top_filled";
+    readonly baseId: "align-box-right-top";
+    readonly variant: "filled";
+    readonly name: "Align Box Right Top";
+    readonly category: "align";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface AlignBoxTopCenterFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const AlignBoxTopCenterFilled: React.ForwardRefExoticComponent<Omit<AlignBoxTopCenterFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const AlignBoxTopCenterFilledMetadata: {
+    readonly id: "align-box-top-center_filled";
+    readonly baseId: "align-box-top-center";
+    readonly variant: "filled";
+    readonly name: "Align Box Top Center";
+    readonly category: "align";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface AlignBoxTopLeftFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const AlignBoxTopLeftFilled: React.ForwardRefExoticComponent<Omit<AlignBoxTopLeftFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const AlignBoxTopLeftFilledMetadata: {
+    readonly id: "align-box-top-left_filled";
+    readonly baseId: "align-box-top-left";
+    readonly variant: "filled";
+    readonly name: "Align Box Top Left";
+    readonly category: "align";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface AlignBoxTopRightFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const AlignBoxTopRightFilled: React.ForwardRefExoticComponent<Omit<AlignBoxTopRightFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const AlignBoxTopRightFilledMetadata: {
+    readonly id: "align-box-top-right_filled";
+    readonly baseId: "align-box-top-right";
+    readonly variant: "filled";
+    readonly name: "Align Box Top Right";
+    readonly category: "align";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface AlignCenterHorizontalProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -615,6 +810,81 @@ declare const AppWindowMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface Battery1FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const Battery1Filled: React.ForwardRefExoticComponent<Omit<Battery1FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const Battery1FilledMetadata: {
+    readonly id: "battery-1_filled";
+    readonly baseId: "battery-1";
+    readonly variant: "filled";
+    readonly name: "Battery 1";
+    readonly category: "app";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface Battery2FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const Battery2Filled: React.ForwardRefExoticComponent<Omit<Battery2FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const Battery2FilledMetadata: {
+    readonly id: "battery-2_filled";
+    readonly baseId: "battery-2";
+    readonly variant: "filled";
+    readonly name: "Battery 2";
+    readonly category: "app";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface Battery3FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const Battery3Filled: React.ForwardRefExoticComponent<Omit<Battery3FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const Battery3FilledMetadata: {
+    readonly id: "battery-3_filled";
+    readonly baseId: "battery-3";
+    readonly variant: "filled";
+    readonly name: "Battery 3";
+    readonly category: "app";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface Battery4FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const Battery4Filled: React.ForwardRefExoticComponent<Omit<Battery4FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const Battery4FilledMetadata: {
+    readonly id: "battery-4_filled";
+    readonly baseId: "battery-4";
+    readonly variant: "filled";
+    readonly name: "Battery 4";
+    readonly category: "app";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface BatteryAutomotiveFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const BatteryAutomotiveFilled: React.ForwardRefExoticComponent<Omit<BatteryAutomotiveFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const BatteryAutomotiveFilledMetadata: {
+    readonly id: "battery-automotive_filled";
+    readonly baseId: "battery-automotive";
+    readonly variant: "filled";
+    readonly name: "Battery Automotive";
+    readonly category: "app";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface BatteryChargingProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -690,6 +960,81 @@ declare const BatteryPlusMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface BatteryVertical1FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const BatteryVertical1Filled: React.ForwardRefExoticComponent<Omit<BatteryVertical1FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const BatteryVertical1FilledMetadata: {
+    readonly id: "battery-vertical-1_filled";
+    readonly baseId: "battery-vertical-1";
+    readonly variant: "filled";
+    readonly name: "Battery Vertical 1";
+    readonly category: "app";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface BatteryVertical2FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const BatteryVertical2Filled: React.ForwardRefExoticComponent<Omit<BatteryVertical2FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const BatteryVertical2FilledMetadata: {
+    readonly id: "battery-vertical-2_filled";
+    readonly baseId: "battery-vertical-2";
+    readonly variant: "filled";
+    readonly name: "Battery Vertical 2";
+    readonly category: "app";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface BatteryVertical3FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const BatteryVertical3Filled: React.ForwardRefExoticComponent<Omit<BatteryVertical3FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const BatteryVertical3FilledMetadata: {
+    readonly id: "battery-vertical-3_filled";
+    readonly baseId: "battery-vertical-3";
+    readonly variant: "filled";
+    readonly name: "Battery Vertical 3";
+    readonly category: "app";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface BatteryVertical4FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const BatteryVertical4Filled: React.ForwardRefExoticComponent<Omit<BatteryVertical4FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const BatteryVertical4FilledMetadata: {
+    readonly id: "battery-vertical-4_filled";
+    readonly baseId: "battery-vertical-4";
+    readonly variant: "filled";
+    readonly name: "Battery Vertical 4";
+    readonly category: "app";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface BatteryVerticalFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const BatteryVerticalFilled: React.ForwardRefExoticComponent<Omit<BatteryVerticalFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const BatteryVerticalFilledMetadata: {
+    readonly id: "battery-vertical_filled";
+    readonly baseId: "battery-vertical";
+    readonly variant: "filled";
+    readonly name: "Battery Vertical";
+    readonly category: "app";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface BatteryWarningProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -714,6 +1059,21 @@ declare const BatteryMetadata: {
     readonly id: "battery";
     readonly baseId: "battery";
     readonly variant: "default";
+    readonly name: "Battery";
+    readonly category: "app";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface BatteryFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const BatteryFilled: React.ForwardRefExoticComponent<Omit<BatteryFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const BatteryFilledMetadata: {
+    readonly id: "battery_filled";
+    readonly baseId: "battery";
+    readonly variant: "filled";
     readonly name: "Battery";
     readonly category: "app";
     readonly tags: readonly [];
@@ -2970,6 +3330,66 @@ declare const UndoMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface Badge3dFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const Badge3dFilled: React.ForwardRefExoticComponent<Omit<Badge3dFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const Badge3dFilledMetadata: {
+    readonly id: "badge-3d_filled";
+    readonly baseId: "badge-3d";
+    readonly variant: "filled";
+    readonly name: "Badge 3d";
+    readonly category: "badge";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface Badge4kFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const Badge4kFilled: React.ForwardRefExoticComponent<Omit<Badge4kFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const Badge4kFilledMetadata: {
+    readonly id: "badge-4k_filled";
+    readonly baseId: "badge-4k";
+    readonly variant: "filled";
+    readonly name: "Badge 4k";
+    readonly category: "badge";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface Badge8kFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const Badge8kFilled: React.ForwardRefExoticComponent<Omit<Badge8kFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const Badge8kFilledMetadata: {
+    readonly id: "badge-8k_filled";
+    readonly baseId: "badge-8k";
+    readonly variant: "filled";
+    readonly name: "Badge 8k";
+    readonly category: "badge";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface BadgeAdFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const BadgeAdFilled: React.ForwardRefExoticComponent<Omit<BadgeAdFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const BadgeAdFilledMetadata: {
+    readonly id: "badge-ad_filled";
+    readonly baseId: "badge-ad";
+    readonly variant: "filled";
+    readonly name: "Badge Ad";
+    readonly category: "badge";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface BadgeAlertProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -2980,6 +3400,36 @@ declare const BadgeAlertMetadata: {
     readonly baseId: "badge-alert";
     readonly variant: "default";
     readonly name: "Badge Alert";
+    readonly category: "badge";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface BadgeArFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const BadgeArFilled: React.ForwardRefExoticComponent<Omit<BadgeArFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const BadgeArFilledMetadata: {
+    readonly id: "badge-ar_filled";
+    readonly baseId: "badge-ar";
+    readonly variant: "filled";
+    readonly name: "Badge Ar";
+    readonly category: "badge";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface BadgeCcFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const BadgeCcFilled: React.ForwardRefExoticComponent<Omit<BadgeCcFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const BadgeCcFilledMetadata: {
+    readonly id: "badge-cc_filled";
+    readonly baseId: "badge-cc";
+    readonly variant: "filled";
+    readonly name: "Badge Cc";
     readonly category: "badge";
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
@@ -3040,6 +3490,21 @@ declare const BadgeEuroMetadata: {
     readonly baseId: "badge-euro";
     readonly variant: "default";
     readonly name: "Badge Euro";
+    readonly category: "badge";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface BadgeHdFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const BadgeHdFilled: React.ForwardRefExoticComponent<Omit<BadgeHdFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const BadgeHdFilledMetadata: {
+    readonly id: "badge-hd_filled";
+    readonly baseId: "badge-hd";
+    readonly variant: "filled";
+    readonly name: "Badge Hd";
     readonly category: "badge";
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
@@ -3180,6 +3645,21 @@ declare const BadgeRussianRubleMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface BadgeSdFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const BadgeSdFilled: React.ForwardRefExoticComponent<Omit<BadgeSdFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const BadgeSdFilledMetadata: {
+    readonly id: "badge-sd_filled";
+    readonly baseId: "badge-sd";
+    readonly variant: "filled";
+    readonly name: "Badge Sd";
+    readonly category: "badge";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface BadgeSwissFrancProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -3195,6 +3675,21 @@ declare const BadgeSwissFrancMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface BadgeTmFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const BadgeTmFilled: React.ForwardRefExoticComponent<Omit<BadgeTmFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const BadgeTmFilledMetadata: {
+    readonly id: "badge-tm_filled";
+    readonly baseId: "badge-tm";
+    readonly variant: "filled";
+    readonly name: "Badge Tm";
+    readonly category: "badge";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface BadgeTurkishLiraProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -3205,6 +3700,51 @@ declare const BadgeTurkishLiraMetadata: {
     readonly baseId: "badge-turkish-lira";
     readonly variant: "default";
     readonly name: "Badge Turkish Lira";
+    readonly category: "badge";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface BadgeVoFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const BadgeVoFilled: React.ForwardRefExoticComponent<Omit<BadgeVoFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const BadgeVoFilledMetadata: {
+    readonly id: "badge-vo_filled";
+    readonly baseId: "badge-vo";
+    readonly variant: "filled";
+    readonly name: "Badge Vo";
+    readonly category: "badge";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface BadgeVrFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const BadgeVrFilled: React.ForwardRefExoticComponent<Omit<BadgeVrFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const BadgeVrFilledMetadata: {
+    readonly id: "badge-vr_filled";
+    readonly baseId: "badge-vr";
+    readonly variant: "filled";
+    readonly name: "Badge Vr";
+    readonly category: "badge";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface BadgeWcFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const BadgeWcFilled: React.ForwardRefExoticComponent<Omit<BadgeWcFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const BadgeWcFilledMetadata: {
+    readonly id: "badge-wc_filled";
+    readonly baseId: "badge-wc";
+    readonly variant: "filled";
+    readonly name: "Badge Wc";
     readonly category: "badge";
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
@@ -3235,6 +3775,36 @@ declare const BadgeMetadata: {
     readonly baseId: "badge";
     readonly variant: "default";
     readonly name: "Badge";
+    readonly category: "badge";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface BadgeFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const BadgeFilled: React.ForwardRefExoticComponent<Omit<BadgeFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const BadgeFilledMetadata: {
+    readonly id: "badge_filled";
+    readonly baseId: "badge";
+    readonly variant: "filled";
+    readonly name: "Badge";
+    readonly category: "badge";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface BadgesFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const BadgesFilled: React.ForwardRefExoticComponent<Omit<BadgesFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const BadgesFilledMetadata: {
+    readonly id: "badges_filled";
+    readonly baseId: "badges";
+    readonly variant: "filled";
+    readonly name: "Badges";
     readonly category: "badge";
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
@@ -3825,6 +4395,516 @@ declare const NotepadTextMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface BrandAngularFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const BrandAngularFilled: React.ForwardRefExoticComponent<Omit<BrandAngularFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const BrandAngularFilledMetadata: {
+    readonly id: "brand-angular_filled";
+    readonly baseId: "brand-angular";
+    readonly variant: "filled";
+    readonly name: "Brand Angular";
+    readonly category: "brand";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface BrandAppleFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const BrandAppleFilled: React.ForwardRefExoticComponent<Omit<BrandAppleFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const BrandAppleFilledMetadata: {
+    readonly id: "brand-apple_filled";
+    readonly baseId: "brand-apple";
+    readonly variant: "filled";
+    readonly name: "Brand Apple";
+    readonly category: "brand";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface BrandBitbucketFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const BrandBitbucketFilled: React.ForwardRefExoticComponent<Omit<BrandBitbucketFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const BrandBitbucketFilledMetadata: {
+    readonly id: "brand-bitbucket_filled";
+    readonly baseId: "brand-bitbucket";
+    readonly variant: "filled";
+    readonly name: "Brand Bitbucket";
+    readonly category: "brand";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface BrandDiscordFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const BrandDiscordFilled: React.ForwardRefExoticComponent<Omit<BrandDiscordFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const BrandDiscordFilledMetadata: {
+    readonly id: "brand-discord_filled";
+    readonly baseId: "brand-discord";
+    readonly variant: "filled";
+    readonly name: "Brand Discord";
+    readonly category: "brand";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface BrandDribbbleFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const BrandDribbbleFilled: React.ForwardRefExoticComponent<Omit<BrandDribbbleFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const BrandDribbbleFilledMetadata: {
+    readonly id: "brand-dribbble_filled";
+    readonly baseId: "brand-dribbble";
+    readonly variant: "filled";
+    readonly name: "Brand Dribbble";
+    readonly category: "brand";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface BrandFacebookFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const BrandFacebookFilled: React.ForwardRefExoticComponent<Omit<BrandFacebookFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const BrandFacebookFilledMetadata: {
+    readonly id: "brand-facebook_filled";
+    readonly baseId: "brand-facebook";
+    readonly variant: "filled";
+    readonly name: "Brand Facebook";
+    readonly category: "brand";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface BrandGithubFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const BrandGithubFilled: React.ForwardRefExoticComponent<Omit<BrandGithubFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const BrandGithubFilledMetadata: {
+    readonly id: "brand-github_filled";
+    readonly baseId: "brand-github";
+    readonly variant: "filled";
+    readonly name: "Brand Github";
+    readonly category: "brand";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface BrandGoogleFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const BrandGoogleFilled: React.ForwardRefExoticComponent<Omit<BrandGoogleFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const BrandGoogleFilledMetadata: {
+    readonly id: "brand-google_filled";
+    readonly baseId: "brand-google";
+    readonly variant: "filled";
+    readonly name: "Brand Google";
+    readonly category: "brand";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface BrandInstagramFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const BrandInstagramFilled: React.ForwardRefExoticComponent<Omit<BrandInstagramFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const BrandInstagramFilledMetadata: {
+    readonly id: "brand-instagram_filled";
+    readonly baseId: "brand-instagram";
+    readonly variant: "filled";
+    readonly name: "Brand Instagram";
+    readonly category: "brand";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface BrandKickFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const BrandKickFilled: React.ForwardRefExoticComponent<Omit<BrandKickFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const BrandKickFilledMetadata: {
+    readonly id: "brand-kick_filled";
+    readonly baseId: "brand-kick";
+    readonly variant: "filled";
+    readonly name: "Brand Kick";
+    readonly category: "brand";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface BrandLinkedinFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const BrandLinkedinFilled: React.ForwardRefExoticComponent<Omit<BrandLinkedinFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const BrandLinkedinFilledMetadata: {
+    readonly id: "brand-linkedin_filled";
+    readonly baseId: "brand-linkedin";
+    readonly variant: "filled";
+    readonly name: "Brand Linkedin";
+    readonly category: "brand";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface BrandMessengerFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const BrandMessengerFilled: React.ForwardRefExoticComponent<Omit<BrandMessengerFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const BrandMessengerFilledMetadata: {
+    readonly id: "brand-messenger_filled";
+    readonly baseId: "brand-messenger";
+    readonly variant: "filled";
+    readonly name: "Brand Messenger";
+    readonly category: "brand";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface BrandOpenSourceFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const BrandOpenSourceFilled: React.ForwardRefExoticComponent<Omit<BrandOpenSourceFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const BrandOpenSourceFilledMetadata: {
+    readonly id: "brand-open-source_filled";
+    readonly baseId: "brand-open-source";
+    readonly variant: "filled";
+    readonly name: "Brand Open Source";
+    readonly category: "brand";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface BrandOperaFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const BrandOperaFilled: React.ForwardRefExoticComponent<Omit<BrandOperaFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const BrandOperaFilledMetadata: {
+    readonly id: "brand-opera_filled";
+    readonly baseId: "brand-opera";
+    readonly variant: "filled";
+    readonly name: "Brand Opera";
+    readonly category: "brand";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface BrandPatreonFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const BrandPatreonFilled: React.ForwardRefExoticComponent<Omit<BrandPatreonFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const BrandPatreonFilledMetadata: {
+    readonly id: "brand-patreon_filled";
+    readonly baseId: "brand-patreon";
+    readonly variant: "filled";
+    readonly name: "Brand Patreon";
+    readonly category: "brand";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface BrandPaypalFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const BrandPaypalFilled: React.ForwardRefExoticComponent<Omit<BrandPaypalFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const BrandPaypalFilledMetadata: {
+    readonly id: "brand-paypal_filled";
+    readonly baseId: "brand-paypal";
+    readonly variant: "filled";
+    readonly name: "Brand Paypal";
+    readonly category: "brand";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface BrandPinterestFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const BrandPinterestFilled: React.ForwardRefExoticComponent<Omit<BrandPinterestFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const BrandPinterestFilledMetadata: {
+    readonly id: "brand-pinterest_filled";
+    readonly baseId: "brand-pinterest";
+    readonly variant: "filled";
+    readonly name: "Brand Pinterest";
+    readonly category: "brand";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface BrandSketchFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const BrandSketchFilled: React.ForwardRefExoticComponent<Omit<BrandSketchFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const BrandSketchFilledMetadata: {
+    readonly id: "brand-sketch_filled";
+    readonly baseId: "brand-sketch";
+    readonly variant: "filled";
+    readonly name: "Brand Sketch";
+    readonly category: "brand";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface BrandSnapchatFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const BrandSnapchatFilled: React.ForwardRefExoticComponent<Omit<BrandSnapchatFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const BrandSnapchatFilledMetadata: {
+    readonly id: "brand-snapchat_filled";
+    readonly baseId: "brand-snapchat";
+    readonly variant: "filled";
+    readonly name: "Brand Snapchat";
+    readonly category: "brand";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface BrandSpotifyFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const BrandSpotifyFilled: React.ForwardRefExoticComponent<Omit<BrandSpotifyFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const BrandSpotifyFilledMetadata: {
+    readonly id: "brand-spotify_filled";
+    readonly baseId: "brand-spotify";
+    readonly variant: "filled";
+    readonly name: "Brand Spotify";
+    readonly category: "brand";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface BrandSteamFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const BrandSteamFilled: React.ForwardRefExoticComponent<Omit<BrandSteamFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const BrandSteamFilledMetadata: {
+    readonly id: "brand-steam_filled";
+    readonly baseId: "brand-steam";
+    readonly variant: "filled";
+    readonly name: "Brand Steam";
+    readonly category: "brand";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface BrandStripeFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const BrandStripeFilled: React.ForwardRefExoticComponent<Omit<BrandStripeFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const BrandStripeFilledMetadata: {
+    readonly id: "brand-stripe_filled";
+    readonly baseId: "brand-stripe";
+    readonly variant: "filled";
+    readonly name: "Brand Stripe";
+    readonly category: "brand";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface BrandTablerFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const BrandTablerFilled: React.ForwardRefExoticComponent<Omit<BrandTablerFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const BrandTablerFilledMetadata: {
+    readonly id: "brand-tabler_filled";
+    readonly baseId: "brand-tabler";
+    readonly variant: "filled";
+    readonly name: "Brand Tabler";
+    readonly category: "brand";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface BrandTiktokFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const BrandTiktokFilled: React.ForwardRefExoticComponent<Omit<BrandTiktokFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const BrandTiktokFilledMetadata: {
+    readonly id: "brand-tiktok_filled";
+    readonly baseId: "brand-tiktok";
+    readonly variant: "filled";
+    readonly name: "Brand Tiktok";
+    readonly category: "brand";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface BrandTinderFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const BrandTinderFilled: React.ForwardRefExoticComponent<Omit<BrandTinderFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const BrandTinderFilledMetadata: {
+    readonly id: "brand-tinder_filled";
+    readonly baseId: "brand-tinder";
+    readonly variant: "filled";
+    readonly name: "Brand Tinder";
+    readonly category: "brand";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface BrandTumblrFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const BrandTumblrFilled: React.ForwardRefExoticComponent<Omit<BrandTumblrFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const BrandTumblrFilledMetadata: {
+    readonly id: "brand-tumblr_filled";
+    readonly baseId: "brand-tumblr";
+    readonly variant: "filled";
+    readonly name: "Brand Tumblr";
+    readonly category: "brand";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface BrandTwitterFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const BrandTwitterFilled: React.ForwardRefExoticComponent<Omit<BrandTwitterFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const BrandTwitterFilledMetadata: {
+    readonly id: "brand-twitter_filled";
+    readonly baseId: "brand-twitter";
+    readonly variant: "filled";
+    readonly name: "Brand Twitter";
+    readonly category: "brand";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface BrandVercelFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const BrandVercelFilled: React.ForwardRefExoticComponent<Omit<BrandVercelFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const BrandVercelFilledMetadata: {
+    readonly id: "brand-vercel_filled";
+    readonly baseId: "brand-vercel";
+    readonly variant: "filled";
+    readonly name: "Brand Vercel";
+    readonly category: "brand";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface BrandVimeoFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const BrandVimeoFilled: React.ForwardRefExoticComponent<Omit<BrandVimeoFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const BrandVimeoFilledMetadata: {
+    readonly id: "brand-vimeo_filled";
+    readonly baseId: "brand-vimeo";
+    readonly variant: "filled";
+    readonly name: "Brand Vimeo";
+    readonly category: "brand";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface BrandWeiboFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const BrandWeiboFilled: React.ForwardRefExoticComponent<Omit<BrandWeiboFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const BrandWeiboFilledMetadata: {
+    readonly id: "brand-weibo_filled";
+    readonly baseId: "brand-weibo";
+    readonly variant: "filled";
+    readonly name: "Brand Weibo";
+    readonly category: "brand";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface BrandWhatsappFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const BrandWhatsappFilled: React.ForwardRefExoticComponent<Omit<BrandWhatsappFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const BrandWhatsappFilledMetadata: {
+    readonly id: "brand-whatsapp_filled";
+    readonly baseId: "brand-whatsapp";
+    readonly variant: "filled";
+    readonly name: "Brand Whatsapp";
+    readonly category: "brand";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface BrandWindowsFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const BrandWindowsFilled: React.ForwardRefExoticComponent<Omit<BrandWindowsFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const BrandWindowsFilledMetadata: {
+    readonly id: "brand-windows_filled";
+    readonly baseId: "brand-windows";
+    readonly variant: "filled";
+    readonly name: "Brand Windows";
+    readonly category: "brand";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface BrandXFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const BrandXFilled: React.ForwardRefExoticComponent<Omit<BrandXFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const BrandXFilledMetadata: {
+    readonly id: "brand-x_filled";
+    readonly baseId: "brand-x";
+    readonly variant: "filled";
+    readonly name: "Brand X";
+    readonly category: "brand";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface BrandYoutubeFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const BrandYoutubeFilled: React.ForwardRefExoticComponent<Omit<BrandYoutubeFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const BrandYoutubeFilledMetadata: {
+    readonly id: "brand-youtube_filled";
+    readonly baseId: "brand-youtube";
+    readonly variant: "filled";
+    readonly name: "Brand Youtube";
+    readonly category: "brand";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface Building2Props extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -4095,6 +5175,21 @@ declare const UniversityMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface CalculatorFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CalculatorFilled: React.ForwardRefExoticComponent<Omit<CalculatorFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CalculatorFilledMetadata: {
+    readonly id: "calculator_filled";
+    readonly baseId: "calculator";
+    readonly variant: "filled";
+    readonly name: "Calculator";
+    readonly category: "calendar";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface Calendar1Props extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -4215,6 +5310,21 @@ declare const CalendarDaysMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface CalendarEventFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CalendarEventFilled: React.ForwardRefExoticComponent<Omit<CalendarEventFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CalendarEventFilledMetadata: {
+    readonly id: "calendar-event_filled";
+    readonly baseId: "calendar-event";
+    readonly variant: "filled";
+    readonly name: "Calendar Event";
+    readonly category: "calendar";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface CalendarFoldProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -4270,6 +5380,21 @@ declare const CalendarMinusMetadata: {
     readonly baseId: "calendar-minus";
     readonly variant: "default";
     readonly name: "Calendar Minus";
+    readonly category: "calendar";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CalendarMonthFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CalendarMonthFilled: React.ForwardRefExoticComponent<Omit<CalendarMonthFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CalendarMonthFilledMetadata: {
+    readonly id: "calendar-month_filled";
+    readonly baseId: "calendar-month";
+    readonly variant: "filled";
+    readonly name: "Calendar Month";
     readonly category: "calendar";
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
@@ -4365,6 +5490,21 @@ declare const CalendarSyncMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface CalendarWeekFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CalendarWeekFilled: React.ForwardRefExoticComponent<Omit<CalendarWeekFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CalendarWeekFilledMetadata: {
+    readonly id: "calendar-week_filled";
+    readonly baseId: "calendar-week";
+    readonly variant: "filled";
+    readonly name: "Calendar Week";
+    readonly category: "calendar";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface CalendarX2Props extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -4410,6 +5550,21 @@ declare const CalendarMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface CalendarFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CalendarFilled: React.ForwardRefExoticComponent<Omit<CalendarFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CalendarFilledMetadata: {
+    readonly id: "calendar_filled";
+    readonly baseId: "calendar";
+    readonly variant: "filled";
+    readonly name: "Calendar";
+    readonly category: "calendar";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface CalendarsProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -4425,6 +5580,21 @@ declare const CalendarsMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface ChartAreaLineFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const ChartAreaLineFilled: React.ForwardRefExoticComponent<Omit<ChartAreaLineFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const ChartAreaLineFilledMetadata: {
+    readonly id: "chart-area-line_filled";
+    readonly baseId: "chart-area-line";
+    readonly variant: "filled";
+    readonly name: "Chart Area Line";
+    readonly category: "chart";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface ChartAreaProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -4434,6 +5604,21 @@ declare const ChartAreaMetadata: {
     readonly id: "chart-area";
     readonly baseId: "chart-area";
     readonly variant: "default";
+    readonly name: "Chart Area";
+    readonly category: "chart";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface ChartAreaFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const ChartAreaFilled: React.ForwardRefExoticComponent<Omit<ChartAreaFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const ChartAreaFilledMetadata: {
+    readonly id: "chart-area_filled";
+    readonly baseId: "chart-area";
+    readonly variant: "filled";
     readonly name: "Chart Area";
     readonly category: "chart";
     readonly tags: readonly [];
@@ -4510,6 +5695,36 @@ declare const ChartBarMetadata: {
     readonly baseId: "chart-bar";
     readonly variant: "default";
     readonly name: "Chart Bar";
+    readonly category: "chart";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface ChartBubbleFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const ChartBubbleFilled: React.ForwardRefExoticComponent<Omit<ChartBubbleFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const ChartBubbleFilledMetadata: {
+    readonly id: "chart-bubble_filled";
+    readonly baseId: "chart-bubble";
+    readonly variant: "filled";
+    readonly name: "Chart Bubble";
+    readonly category: "chart";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface ChartCandleFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const ChartCandleFilled: React.ForwardRefExoticComponent<Omit<ChartCandleFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const ChartCandleFilledMetadata: {
+    readonly id: "chart-candle_filled";
+    readonly baseId: "chart-candle";
+    readonly variant: "filled";
+    readonly name: "Chart Candle";
     readonly category: "chart";
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
@@ -4605,6 +5820,81 @@ declare const ChartColumnMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface ChartDonutFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const ChartDonutFilled: React.ForwardRefExoticComponent<Omit<ChartDonutFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const ChartDonutFilledMetadata: {
+    readonly id: "chart-donut_filled";
+    readonly baseId: "chart-donut";
+    readonly variant: "filled";
+    readonly name: "Chart Donut";
+    readonly category: "chart";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface ChartDots2FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const ChartDots2Filled: React.ForwardRefExoticComponent<Omit<ChartDots2FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const ChartDots2FilledMetadata: {
+    readonly id: "chart-dots-2_filled";
+    readonly baseId: "chart-dots-2";
+    readonly variant: "filled";
+    readonly name: "Chart Dots 2";
+    readonly category: "chart";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface ChartDots3FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const ChartDots3Filled: React.ForwardRefExoticComponent<Omit<ChartDots3FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const ChartDots3FilledMetadata: {
+    readonly id: "chart-dots-3_filled";
+    readonly baseId: "chart-dots-3";
+    readonly variant: "filled";
+    readonly name: "Chart Dots 3";
+    readonly category: "chart";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface ChartDotsFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const ChartDotsFilled: React.ForwardRefExoticComponent<Omit<ChartDotsFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const ChartDotsFilledMetadata: {
+    readonly id: "chart-dots_filled";
+    readonly baseId: "chart-dots";
+    readonly variant: "filled";
+    readonly name: "Chart Dots";
+    readonly category: "chart";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface ChartFunnelFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const ChartFunnelFilled: React.ForwardRefExoticComponent<Omit<ChartFunnelFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const ChartFunnelFilledMetadata: {
+    readonly id: "chart-funnel_filled";
+    readonly baseId: "chart-funnel";
+    readonly variant: "filled";
+    readonly name: "Chart Funnel";
+    readonly category: "chart";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface ChartGanttProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -4615,6 +5905,21 @@ declare const ChartGanttMetadata: {
     readonly baseId: "chart-gantt";
     readonly variant: "default";
     readonly name: "Chart Gantt";
+    readonly category: "chart";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface ChartGridDotsFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const ChartGridDotsFilled: React.ForwardRefExoticComponent<Omit<ChartGridDotsFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const ChartGridDotsFilledMetadata: {
+    readonly id: "chart-grid-dots_filled";
+    readonly baseId: "chart-grid-dots";
+    readonly variant: "filled";
+    readonly name: "Chart Grid Dots";
     readonly category: "chart";
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
@@ -4725,6 +6030,51 @@ declare const ChartNoAxesGanttMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface ChartPie2FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const ChartPie2Filled: React.ForwardRefExoticComponent<Omit<ChartPie2FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const ChartPie2FilledMetadata: {
+    readonly id: "chart-pie-2_filled";
+    readonly baseId: "chart-pie-2";
+    readonly variant: "filled";
+    readonly name: "Chart Pie 2";
+    readonly category: "chart";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface ChartPie3FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const ChartPie3Filled: React.ForwardRefExoticComponent<Omit<ChartPie3FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const ChartPie3FilledMetadata: {
+    readonly id: "chart-pie-3_filled";
+    readonly baseId: "chart-pie-3";
+    readonly variant: "filled";
+    readonly name: "Chart Pie 3";
+    readonly category: "chart";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface ChartPie4FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const ChartPie4Filled: React.ForwardRefExoticComponent<Omit<ChartPie4FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const ChartPie4FilledMetadata: {
+    readonly id: "chart-pie-4_filled";
+    readonly baseId: "chart-pie-4";
+    readonly variant: "filled";
+    readonly name: "Chart Pie 4";
+    readonly category: "chart";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface ChartPieProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -4734,6 +6084,21 @@ declare const ChartPieMetadata: {
     readonly id: "chart-pie";
     readonly baseId: "chart-pie";
     readonly variant: "default";
+    readonly name: "Chart Pie";
+    readonly category: "chart";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface ChartPieFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const ChartPieFilled: React.ForwardRefExoticComponent<Omit<ChartPieFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const ChartPieFilledMetadata: {
+    readonly id: "chart-pie_filled";
+    readonly baseId: "chart-pie";
+    readonly variant: "filled";
     readonly name: "Chart Pie";
     readonly category: "chart";
     readonly tags: readonly [];
@@ -4785,6 +6150,36 @@ declare const CircleAlertMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface CircleArrowDownLeftFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CircleArrowDownLeftFilled: React.ForwardRefExoticComponent<Omit<CircleArrowDownLeftFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CircleArrowDownLeftFilledMetadata: {
+    readonly id: "circle-arrow-down-left_filled";
+    readonly baseId: "circle-arrow-down-left";
+    readonly variant: "filled";
+    readonly name: "Circle Arrow Down Left";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CircleArrowDownRightFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CircleArrowDownRightFilled: React.ForwardRefExoticComponent<Omit<CircleArrowDownRightFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CircleArrowDownRightFilledMetadata: {
+    readonly id: "circle-arrow-down-right_filled";
+    readonly baseId: "circle-arrow-down-right";
+    readonly variant: "filled";
+    readonly name: "Circle Arrow Down Right";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface CircleArrowDownProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -4800,6 +6195,21 @@ declare const CircleArrowDownMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface CircleArrowDownFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CircleArrowDownFilled: React.ForwardRefExoticComponent<Omit<CircleArrowDownFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CircleArrowDownFilledMetadata: {
+    readonly id: "circle-arrow-down_filled";
+    readonly baseId: "circle-arrow-down";
+    readonly variant: "filled";
+    readonly name: "Circle Arrow Down";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface CircleArrowLeftProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -4809,6 +6219,21 @@ declare const CircleArrowLeftMetadata: {
     readonly id: "circle-arrow-left";
     readonly baseId: "circle-arrow-left";
     readonly variant: "default";
+    readonly name: "Circle Arrow Left";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CircleArrowLeftFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CircleArrowLeftFilled: React.ForwardRefExoticComponent<Omit<CircleArrowLeftFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CircleArrowLeftFilledMetadata: {
+    readonly id: "circle-arrow-left_filled";
+    readonly baseId: "circle-arrow-left";
+    readonly variant: "filled";
     readonly name: "Circle Arrow Left";
     readonly category: "circle";
     readonly tags: readonly [];
@@ -4890,6 +6315,51 @@ declare const CircleArrowRightMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface CircleArrowRightFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CircleArrowRightFilled: React.ForwardRefExoticComponent<Omit<CircleArrowRightFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CircleArrowRightFilledMetadata: {
+    readonly id: "circle-arrow-right_filled";
+    readonly baseId: "circle-arrow-right";
+    readonly variant: "filled";
+    readonly name: "Circle Arrow Right";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CircleArrowUpLeftFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CircleArrowUpLeftFilled: React.ForwardRefExoticComponent<Omit<CircleArrowUpLeftFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CircleArrowUpLeftFilledMetadata: {
+    readonly id: "circle-arrow-up-left_filled";
+    readonly baseId: "circle-arrow-up-left";
+    readonly variant: "filled";
+    readonly name: "Circle Arrow Up Left";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CircleArrowUpRightFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CircleArrowUpRightFilled: React.ForwardRefExoticComponent<Omit<CircleArrowUpRightFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CircleArrowUpRightFilledMetadata: {
+    readonly id: "circle-arrow-up-right_filled";
+    readonly baseId: "circle-arrow-up-right";
+    readonly variant: "filled";
+    readonly name: "Circle Arrow Up Right";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface CircleArrowUpProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -4900,6 +6370,81 @@ declare const CircleArrowUpMetadata: {
     readonly baseId: "circle-arrow-up";
     readonly variant: "default";
     readonly name: "Circle Arrow Up";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CircleArrowUpFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CircleArrowUpFilled: React.ForwardRefExoticComponent<Omit<CircleArrowUpFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CircleArrowUpFilledMetadata: {
+    readonly id: "circle-arrow-up_filled";
+    readonly baseId: "circle-arrow-up";
+    readonly variant: "filled";
+    readonly name: "Circle Arrow Up";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CircleCaretDownFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CircleCaretDownFilled: React.ForwardRefExoticComponent<Omit<CircleCaretDownFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CircleCaretDownFilledMetadata: {
+    readonly id: "circle-caret-down_filled";
+    readonly baseId: "circle-caret-down";
+    readonly variant: "filled";
+    readonly name: "Circle Caret Down";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CircleCaretLeftFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CircleCaretLeftFilled: React.ForwardRefExoticComponent<Omit<CircleCaretLeftFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CircleCaretLeftFilledMetadata: {
+    readonly id: "circle-caret-left_filled";
+    readonly baseId: "circle-caret-left";
+    readonly variant: "filled";
+    readonly name: "Circle Caret Left";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CircleCaretRightFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CircleCaretRightFilled: React.ForwardRefExoticComponent<Omit<CircleCaretRightFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CircleCaretRightFilledMetadata: {
+    readonly id: "circle-caret-right_filled";
+    readonly baseId: "circle-caret-right";
+    readonly variant: "filled";
+    readonly name: "Circle Caret Right";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CircleCaretUpFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CircleCaretUpFilled: React.ForwardRefExoticComponent<Omit<CircleCaretUpFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CircleCaretUpFilledMetadata: {
+    readonly id: "circle-caret-up_filled";
+    readonly baseId: "circle-caret-up";
+    readonly variant: "filled";
+    readonly name: "Circle Caret Up";
     readonly category: "circle";
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
@@ -4935,6 +6480,21 @@ declare const CircleCheckMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface CircleCheckFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CircleCheckFilled: React.ForwardRefExoticComponent<Omit<CircleCheckFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CircleCheckFilledMetadata: {
+    readonly id: "circle-check_filled";
+    readonly baseId: "circle-check";
+    readonly variant: "filled";
+    readonly name: "Circle Check";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface CircleChevronDownProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -4944,6 +6504,21 @@ declare const CircleChevronDownMetadata: {
     readonly id: "circle-chevron-down";
     readonly baseId: "circle-chevron-down";
     readonly variant: "default";
+    readonly name: "Circle Chevron Down";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CircleChevronDownFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CircleChevronDownFilled: React.ForwardRefExoticComponent<Omit<CircleChevronDownFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CircleChevronDownFilledMetadata: {
+    readonly id: "circle-chevron-down_filled";
+    readonly baseId: "circle-chevron-down";
+    readonly variant: "filled";
     readonly name: "Circle Chevron Down";
     readonly category: "circle";
     readonly tags: readonly [];
@@ -4965,6 +6540,21 @@ declare const CircleChevronLeftMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface CircleChevronLeftFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CircleChevronLeftFilled: React.ForwardRefExoticComponent<Omit<CircleChevronLeftFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CircleChevronLeftFilledMetadata: {
+    readonly id: "circle-chevron-left_filled";
+    readonly baseId: "circle-chevron-left";
+    readonly variant: "filled";
+    readonly name: "Circle Chevron Left";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface CircleChevronRightProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -4974,6 +6564,21 @@ declare const CircleChevronRightMetadata: {
     readonly id: "circle-chevron-right";
     readonly baseId: "circle-chevron-right";
     readonly variant: "default";
+    readonly name: "Circle Chevron Right";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CircleChevronRightFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CircleChevronRightFilled: React.ForwardRefExoticComponent<Omit<CircleChevronRightFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CircleChevronRightFilledMetadata: {
+    readonly id: "circle-chevron-right_filled";
+    readonly baseId: "circle-chevron-right";
+    readonly variant: "filled";
     readonly name: "Circle Chevron Right";
     readonly category: "circle";
     readonly tags: readonly [];
@@ -4990,6 +6595,81 @@ declare const CircleChevronUpMetadata: {
     readonly baseId: "circle-chevron-up";
     readonly variant: "default";
     readonly name: "Circle Chevron Up";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CircleChevronUpFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CircleChevronUpFilled: React.ForwardRefExoticComponent<Omit<CircleChevronUpFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CircleChevronUpFilledMetadata: {
+    readonly id: "circle-chevron-up_filled";
+    readonly baseId: "circle-chevron-up";
+    readonly variant: "filled";
+    readonly name: "Circle Chevron Up";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CircleChevronsDownFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CircleChevronsDownFilled: React.ForwardRefExoticComponent<Omit<CircleChevronsDownFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CircleChevronsDownFilledMetadata: {
+    readonly id: "circle-chevrons-down_filled";
+    readonly baseId: "circle-chevrons-down";
+    readonly variant: "filled";
+    readonly name: "Circle Chevrons Down";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CircleChevronsLeftFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CircleChevronsLeftFilled: React.ForwardRefExoticComponent<Omit<CircleChevronsLeftFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CircleChevronsLeftFilledMetadata: {
+    readonly id: "circle-chevrons-left_filled";
+    readonly baseId: "circle-chevrons-left";
+    readonly variant: "filled";
+    readonly name: "Circle Chevrons Left";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CircleChevronsRightFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CircleChevronsRightFilled: React.ForwardRefExoticComponent<Omit<CircleChevronsRightFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CircleChevronsRightFilledMetadata: {
+    readonly id: "circle-chevrons-right_filled";
+    readonly baseId: "circle-chevrons-right";
+    readonly variant: "filled";
+    readonly name: "Circle Chevrons Right";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CircleChevronsUpFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CircleChevronsUpFilled: React.ForwardRefExoticComponent<Omit<CircleChevronsUpFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CircleChevronsUpFilledMetadata: {
+    readonly id: "circle-chevrons-up_filled";
+    readonly baseId: "circle-chevrons-up";
+    readonly variant: "filled";
+    readonly name: "Circle Chevrons Up";
     readonly category: "circle";
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
@@ -5064,6 +6744,21 @@ declare const CircleDotMetadata: {
     readonly id: "circle-dot";
     readonly baseId: "circle-dot";
     readonly variant: "default";
+    readonly name: "Circle Dot";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CircleDotFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CircleDotFilled: React.ForwardRefExoticComponent<Omit<CircleDotFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CircleDotFilledMetadata: {
+    readonly id: "circle-dot_filled";
+    readonly baseId: "circle-dot";
+    readonly variant: "filled";
     readonly name: "Circle Dot";
     readonly category: "circle";
     readonly tags: readonly [];
@@ -5145,6 +6840,411 @@ declare const CircleGaugeMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface CircleKeyFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CircleKeyFilled: React.ForwardRefExoticComponent<Omit<CircleKeyFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CircleKeyFilledMetadata: {
+    readonly id: "circle-key_filled";
+    readonly baseId: "circle-key";
+    readonly variant: "filled";
+    readonly name: "Circle Key";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CircleLetterAFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CircleLetterAFilled: React.ForwardRefExoticComponent<Omit<CircleLetterAFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CircleLetterAFilledMetadata: {
+    readonly id: "circle-letter-a_filled";
+    readonly baseId: "circle-letter-a";
+    readonly variant: "filled";
+    readonly name: "Circle Letter A";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CircleLetterBFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CircleLetterBFilled: React.ForwardRefExoticComponent<Omit<CircleLetterBFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CircleLetterBFilledMetadata: {
+    readonly id: "circle-letter-b_filled";
+    readonly baseId: "circle-letter-b";
+    readonly variant: "filled";
+    readonly name: "Circle Letter B";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CircleLetterCFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CircleLetterCFilled: React.ForwardRefExoticComponent<Omit<CircleLetterCFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CircleLetterCFilledMetadata: {
+    readonly id: "circle-letter-c_filled";
+    readonly baseId: "circle-letter-c";
+    readonly variant: "filled";
+    readonly name: "Circle Letter C";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CircleLetterDFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CircleLetterDFilled: React.ForwardRefExoticComponent<Omit<CircleLetterDFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CircleLetterDFilledMetadata: {
+    readonly id: "circle-letter-d_filled";
+    readonly baseId: "circle-letter-d";
+    readonly variant: "filled";
+    readonly name: "Circle Letter D";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CircleLetterEFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CircleLetterEFilled: React.ForwardRefExoticComponent<Omit<CircleLetterEFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CircleLetterEFilledMetadata: {
+    readonly id: "circle-letter-e_filled";
+    readonly baseId: "circle-letter-e";
+    readonly variant: "filled";
+    readonly name: "Circle Letter E";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CircleLetterFFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CircleLetterFFilled: React.ForwardRefExoticComponent<Omit<CircleLetterFFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CircleLetterFFilledMetadata: {
+    readonly id: "circle-letter-f_filled";
+    readonly baseId: "circle-letter-f";
+    readonly variant: "filled";
+    readonly name: "Circle Letter F";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CircleLetterGFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CircleLetterGFilled: React.ForwardRefExoticComponent<Omit<CircleLetterGFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CircleLetterGFilledMetadata: {
+    readonly id: "circle-letter-g_filled";
+    readonly baseId: "circle-letter-g";
+    readonly variant: "filled";
+    readonly name: "Circle Letter G";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CircleLetterHFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CircleLetterHFilled: React.ForwardRefExoticComponent<Omit<CircleLetterHFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CircleLetterHFilledMetadata: {
+    readonly id: "circle-letter-h_filled";
+    readonly baseId: "circle-letter-h";
+    readonly variant: "filled";
+    readonly name: "Circle Letter H";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CircleLetterIFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CircleLetterIFilled: React.ForwardRefExoticComponent<Omit<CircleLetterIFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CircleLetterIFilledMetadata: {
+    readonly id: "circle-letter-i_filled";
+    readonly baseId: "circle-letter-i";
+    readonly variant: "filled";
+    readonly name: "Circle Letter I";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CircleLetterJFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CircleLetterJFilled: React.ForwardRefExoticComponent<Omit<CircleLetterJFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CircleLetterJFilledMetadata: {
+    readonly id: "circle-letter-j_filled";
+    readonly baseId: "circle-letter-j";
+    readonly variant: "filled";
+    readonly name: "Circle Letter J";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CircleLetterKFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CircleLetterKFilled: React.ForwardRefExoticComponent<Omit<CircleLetterKFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CircleLetterKFilledMetadata: {
+    readonly id: "circle-letter-k_filled";
+    readonly baseId: "circle-letter-k";
+    readonly variant: "filled";
+    readonly name: "Circle Letter K";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CircleLetterLFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CircleLetterLFilled: React.ForwardRefExoticComponent<Omit<CircleLetterLFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CircleLetterLFilledMetadata: {
+    readonly id: "circle-letter-l_filled";
+    readonly baseId: "circle-letter-l";
+    readonly variant: "filled";
+    readonly name: "Circle Letter L";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CircleLetterMFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CircleLetterMFilled: React.ForwardRefExoticComponent<Omit<CircleLetterMFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CircleLetterMFilledMetadata: {
+    readonly id: "circle-letter-m_filled";
+    readonly baseId: "circle-letter-m";
+    readonly variant: "filled";
+    readonly name: "Circle Letter M";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CircleLetterNFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CircleLetterNFilled: React.ForwardRefExoticComponent<Omit<CircleLetterNFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CircleLetterNFilledMetadata: {
+    readonly id: "circle-letter-n_filled";
+    readonly baseId: "circle-letter-n";
+    readonly variant: "filled";
+    readonly name: "Circle Letter N";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CircleLetterOFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CircleLetterOFilled: React.ForwardRefExoticComponent<Omit<CircleLetterOFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CircleLetterOFilledMetadata: {
+    readonly id: "circle-letter-o_filled";
+    readonly baseId: "circle-letter-o";
+    readonly variant: "filled";
+    readonly name: "Circle Letter O";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CircleLetterPFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CircleLetterPFilled: React.ForwardRefExoticComponent<Omit<CircleLetterPFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CircleLetterPFilledMetadata: {
+    readonly id: "circle-letter-p_filled";
+    readonly baseId: "circle-letter-p";
+    readonly variant: "filled";
+    readonly name: "Circle Letter P";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CircleLetterQFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CircleLetterQFilled: React.ForwardRefExoticComponent<Omit<CircleLetterQFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CircleLetterQFilledMetadata: {
+    readonly id: "circle-letter-q_filled";
+    readonly baseId: "circle-letter-q";
+    readonly variant: "filled";
+    readonly name: "Circle Letter Q";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CircleLetterRFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CircleLetterRFilled: React.ForwardRefExoticComponent<Omit<CircleLetterRFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CircleLetterRFilledMetadata: {
+    readonly id: "circle-letter-r_filled";
+    readonly baseId: "circle-letter-r";
+    readonly variant: "filled";
+    readonly name: "Circle Letter R";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CircleLetterSFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CircleLetterSFilled: React.ForwardRefExoticComponent<Omit<CircleLetterSFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CircleLetterSFilledMetadata: {
+    readonly id: "circle-letter-s_filled";
+    readonly baseId: "circle-letter-s";
+    readonly variant: "filled";
+    readonly name: "Circle Letter S";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CircleLetterTFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CircleLetterTFilled: React.ForwardRefExoticComponent<Omit<CircleLetterTFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CircleLetterTFilledMetadata: {
+    readonly id: "circle-letter-t_filled";
+    readonly baseId: "circle-letter-t";
+    readonly variant: "filled";
+    readonly name: "Circle Letter T";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CircleLetterUFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CircleLetterUFilled: React.ForwardRefExoticComponent<Omit<CircleLetterUFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CircleLetterUFilledMetadata: {
+    readonly id: "circle-letter-u_filled";
+    readonly baseId: "circle-letter-u";
+    readonly variant: "filled";
+    readonly name: "Circle Letter U";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CircleLetterVFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CircleLetterVFilled: React.ForwardRefExoticComponent<Omit<CircleLetterVFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CircleLetterVFilledMetadata: {
+    readonly id: "circle-letter-v_filled";
+    readonly baseId: "circle-letter-v";
+    readonly variant: "filled";
+    readonly name: "Circle Letter V";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CircleLetterWFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CircleLetterWFilled: React.ForwardRefExoticComponent<Omit<CircleLetterWFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CircleLetterWFilledMetadata: {
+    readonly id: "circle-letter-w_filled";
+    readonly baseId: "circle-letter-w";
+    readonly variant: "filled";
+    readonly name: "Circle Letter W";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CircleLetterXFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CircleLetterXFilled: React.ForwardRefExoticComponent<Omit<CircleLetterXFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CircleLetterXFilledMetadata: {
+    readonly id: "circle-letter-x_filled";
+    readonly baseId: "circle-letter-x";
+    readonly variant: "filled";
+    readonly name: "Circle Letter X";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CircleLetterYFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CircleLetterYFilled: React.ForwardRefExoticComponent<Omit<CircleLetterYFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CircleLetterYFilledMetadata: {
+    readonly id: "circle-letter-y_filled";
+    readonly baseId: "circle-letter-y";
+    readonly variant: "filled";
+    readonly name: "Circle Letter Y";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CircleLetterZFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CircleLetterZFilled: React.ForwardRefExoticComponent<Omit<CircleLetterZFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CircleLetterZFilledMetadata: {
+    readonly id: "circle-letter-z_filled";
+    readonly baseId: "circle-letter-z";
+    readonly variant: "filled";
+    readonly name: "Circle Letter Z";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface CircleMinusProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -5155,6 +7255,156 @@ declare const CircleMinusMetadata: {
     readonly baseId: "circle-minus";
     readonly variant: "default";
     readonly name: "Circle Minus";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CircleNumber0FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CircleNumber0Filled: React.ForwardRefExoticComponent<Omit<CircleNumber0FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CircleNumber0FilledMetadata: {
+    readonly id: "circle-number-0_filled";
+    readonly baseId: "circle-number-0";
+    readonly variant: "filled";
+    readonly name: "Circle Number 0";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CircleNumber1FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CircleNumber1Filled: React.ForwardRefExoticComponent<Omit<CircleNumber1FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CircleNumber1FilledMetadata: {
+    readonly id: "circle-number-1_filled";
+    readonly baseId: "circle-number-1";
+    readonly variant: "filled";
+    readonly name: "Circle Number 1";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CircleNumber2FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CircleNumber2Filled: React.ForwardRefExoticComponent<Omit<CircleNumber2FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CircleNumber2FilledMetadata: {
+    readonly id: "circle-number-2_filled";
+    readonly baseId: "circle-number-2";
+    readonly variant: "filled";
+    readonly name: "Circle Number 2";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CircleNumber3FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CircleNumber3Filled: React.ForwardRefExoticComponent<Omit<CircleNumber3FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CircleNumber3FilledMetadata: {
+    readonly id: "circle-number-3_filled";
+    readonly baseId: "circle-number-3";
+    readonly variant: "filled";
+    readonly name: "Circle Number 3";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CircleNumber4FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CircleNumber4Filled: React.ForwardRefExoticComponent<Omit<CircleNumber4FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CircleNumber4FilledMetadata: {
+    readonly id: "circle-number-4_filled";
+    readonly baseId: "circle-number-4";
+    readonly variant: "filled";
+    readonly name: "Circle Number 4";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CircleNumber5FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CircleNumber5Filled: React.ForwardRefExoticComponent<Omit<CircleNumber5FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CircleNumber5FilledMetadata: {
+    readonly id: "circle-number-5_filled";
+    readonly baseId: "circle-number-5";
+    readonly variant: "filled";
+    readonly name: "Circle Number 5";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CircleNumber6FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CircleNumber6Filled: React.ForwardRefExoticComponent<Omit<CircleNumber6FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CircleNumber6FilledMetadata: {
+    readonly id: "circle-number-6_filled";
+    readonly baseId: "circle-number-6";
+    readonly variant: "filled";
+    readonly name: "Circle Number 6";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CircleNumber7FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CircleNumber7Filled: React.ForwardRefExoticComponent<Omit<CircleNumber7FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CircleNumber7FilledMetadata: {
+    readonly id: "circle-number-7_filled";
+    readonly baseId: "circle-number-7";
+    readonly variant: "filled";
+    readonly name: "Circle Number 7";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CircleNumber8FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CircleNumber8Filled: React.ForwardRefExoticComponent<Omit<CircleNumber8FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CircleNumber8FilledMetadata: {
+    readonly id: "circle-number-8_filled";
+    readonly baseId: "circle-number-8";
+    readonly variant: "filled";
+    readonly name: "Circle Number 8";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CircleNumber9FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CircleNumber9Filled: React.ForwardRefExoticComponent<Omit<CircleNumber9FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CircleNumber9FilledMetadata: {
+    readonly id: "circle-number-9_filled";
+    readonly baseId: "circle-number-9";
+    readonly variant: "filled";
+    readonly name: "Circle Number 9";
     readonly category: "circle";
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
@@ -5235,6 +7485,21 @@ declare const CirclePercentMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface CirclePercentageFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CirclePercentageFilled: React.ForwardRefExoticComponent<Omit<CirclePercentageFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CirclePercentageFilledMetadata: {
+    readonly id: "circle-percentage_filled";
+    readonly baseId: "circle-percentage";
+    readonly variant: "filled";
+    readonly name: "Circle Percentage";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface CirclePileProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -5274,6 +7539,21 @@ declare const CirclePlusMetadata: {
     readonly id: "circle-plus";
     readonly baseId: "circle-plus";
     readonly variant: "default";
+    readonly name: "Circle Plus";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CirclePlusFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CirclePlusFilled: React.ForwardRefExoticComponent<Omit<CirclePlusFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CirclePlusFilledMetadata: {
+    readonly id: "circle-plus_filled";
+    readonly baseId: "circle-plus";
+    readonly variant: "filled";
     readonly name: "Circle Plus";
     readonly category: "circle";
     readonly tags: readonly [];
@@ -5320,6 +7600,21 @@ declare const CircleQuestionMarkMetadata: {
     readonly baseId: "circle-question-mark";
     readonly variant: "default";
     readonly name: "Circle Question Mark";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CircleRectangleFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CircleRectangleFilled: React.ForwardRefExoticComponent<Omit<CircleRectangleFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CircleRectangleFilledMetadata: {
+    readonly id: "circle-rectangle_filled";
+    readonly baseId: "circle-rectangle";
+    readonly variant: "filled";
+    readonly name: "Circle Rectangle";
     readonly category: "circle";
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
@@ -5445,6 +7740,21 @@ declare const CircleXMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface CircleXFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CircleXFilled: React.ForwardRefExoticComponent<Omit<CircleXFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CircleXFilledMetadata: {
+    readonly id: "circle-x_filled";
+    readonly baseId: "circle-x";
+    readonly variant: "filled";
+    readonly name: "Circle X";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface CircleProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -5460,6 +7770,36 @@ declare const CircleMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface CircleFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CircleFilled: React.ForwardRefExoticComponent<Omit<CircleFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CircleFilledMetadata: {
+    readonly id: "circle_filled";
+    readonly baseId: "circle";
+    readonly variant: "filled";
+    readonly name: "Circle";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CirclesFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CirclesFilled: React.ForwardRefExoticComponent<Omit<CirclesFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CirclesFilledMetadata: {
+    readonly id: "circles_filled";
+    readonly baseId: "circles";
+    readonly variant: "filled";
+    readonly name: "Circles";
+    readonly category: "circle";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface ClipboardCheckProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -5469,6 +7809,21 @@ declare const ClipboardCheckMetadata: {
     readonly id: "clipboard-check";
     readonly baseId: "clipboard-check";
     readonly variant: "default";
+    readonly name: "Clipboard Check";
+    readonly category: "clipboard";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface ClipboardCheckFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const ClipboardCheckFilled: React.ForwardRefExoticComponent<Omit<ClipboardCheckFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const ClipboardCheckFilledMetadata: {
+    readonly id: "clipboard-check_filled";
+    readonly baseId: "clipboard-check";
+    readonly variant: "filled";
     readonly name: "Clipboard Check";
     readonly category: "clipboard";
     readonly tags: readonly [];
@@ -5505,6 +7860,21 @@ declare const ClipboardCopyMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface ClipboardDataFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const ClipboardDataFilled: React.ForwardRefExoticComponent<Omit<ClipboardDataFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const ClipboardDataFilledMetadata: {
+    readonly id: "clipboard-data_filled";
+    readonly baseId: "clipboard-data";
+    readonly variant: "filled";
+    readonly name: "Clipboard Data";
+    readonly category: "clipboard";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface ClipboardListProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -5514,6 +7884,21 @@ declare const ClipboardListMetadata: {
     readonly id: "clipboard-list";
     readonly baseId: "clipboard-list";
     readonly variant: "default";
+    readonly name: "Clipboard List";
+    readonly category: "clipboard";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface ClipboardListFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const ClipboardListFilled: React.ForwardRefExoticComponent<Omit<ClipboardListFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const ClipboardListFilledMetadata: {
+    readonly id: "clipboard-list_filled";
+    readonly baseId: "clipboard-list";
+    readonly variant: "filled";
     readonly name: "Clipboard List";
     readonly category: "clipboard";
     readonly tags: readonly [];
@@ -5595,6 +7980,51 @@ declare const ClipboardPlusMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface ClipboardPlusFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const ClipboardPlusFilled: React.ForwardRefExoticComponent<Omit<ClipboardPlusFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const ClipboardPlusFilledMetadata: {
+    readonly id: "clipboard-plus_filled";
+    readonly baseId: "clipboard-plus";
+    readonly variant: "filled";
+    readonly name: "Clipboard Plus";
+    readonly category: "clipboard";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface ClipboardSmileFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const ClipboardSmileFilled: React.ForwardRefExoticComponent<Omit<ClipboardSmileFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const ClipboardSmileFilledMetadata: {
+    readonly id: "clipboard-smile_filled";
+    readonly baseId: "clipboard-smile";
+    readonly variant: "filled";
+    readonly name: "Clipboard Smile";
+    readonly category: "clipboard";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface ClipboardTextFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const ClipboardTextFilled: React.ForwardRefExoticComponent<Omit<ClipboardTextFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const ClipboardTextFilledMetadata: {
+    readonly id: "clipboard-text_filled";
+    readonly baseId: "clipboard-text";
+    readonly variant: "filled";
+    readonly name: "Clipboard Text";
+    readonly category: "clipboard";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface ClipboardTypeProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -5605,6 +8035,21 @@ declare const ClipboardTypeMetadata: {
     readonly baseId: "clipboard-type";
     readonly variant: "default";
     readonly name: "Clipboard Type";
+    readonly category: "clipboard";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface ClipboardTypographyFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const ClipboardTypographyFilled: React.ForwardRefExoticComponent<Omit<ClipboardTypographyFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const ClipboardTypographyFilledMetadata: {
+    readonly id: "clipboard-typography_filled";
+    readonly baseId: "clipboard-typography";
+    readonly variant: "filled";
+    readonly name: "Clipboard Typography";
     readonly category: "clipboard";
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
@@ -5625,6 +8070,21 @@ declare const ClipboardXMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface ClipboardXFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const ClipboardXFilled: React.ForwardRefExoticComponent<Omit<ClipboardXFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const ClipboardXFilledMetadata: {
+    readonly id: "clipboard-x_filled";
+    readonly baseId: "clipboard-x";
+    readonly variant: "filled";
+    readonly name: "Clipboard X";
+    readonly category: "clipboard";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface ClipboardProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -5634,6 +8094,21 @@ declare const ClipboardMetadata: {
     readonly id: "clipboard";
     readonly baseId: "clipboard";
     readonly variant: "default";
+    readonly name: "Clipboard";
+    readonly category: "clipboard";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface ClipboardFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const ClipboardFilled: React.ForwardRefExoticComponent<Omit<ClipboardFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const ClipboardFilledMetadata: {
+    readonly id: "clipboard_filled";
+    readonly baseId: "clipboard";
+    readonly variant: "filled";
     readonly name: "Clipboard";
     readonly category: "clipboard";
     readonly tags: readonly [];
@@ -6420,6 +8895,51 @@ declare const PhoneCallMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface PhoneCallFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const PhoneCallFilled: React.ForwardRefExoticComponent<Omit<PhoneCallFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const PhoneCallFilledMetadata: {
+    readonly id: "phone-call_filled";
+    readonly baseId: "phone-call";
+    readonly variant: "filled";
+    readonly name: "Phone Call";
+    readonly category: "communiccation";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface PhoneCallingFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const PhoneCallingFilled: React.ForwardRefExoticComponent<Omit<PhoneCallingFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const PhoneCallingFilledMetadata: {
+    readonly id: "phone-calling_filled";
+    readonly baseId: "phone-calling";
+    readonly variant: "filled";
+    readonly name: "Phone Calling";
+    readonly category: "communiccation";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface PhoneCheckFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const PhoneCheckFilled: React.ForwardRefExoticComponent<Omit<PhoneCheckFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const PhoneCheckFilledMetadata: {
+    readonly id: "phone-check_filled";
+    readonly baseId: "phone-check";
+    readonly variant: "filled";
+    readonly name: "Phone Check";
+    readonly category: "communiccation";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface PhoneForwardedProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -6495,6 +9015,21 @@ declare const PhoneOutgoingMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface PhoneXFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const PhoneXFilled: React.ForwardRefExoticComponent<Omit<PhoneXFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const PhoneXFilledMetadata: {
+    readonly id: "phone-x_filled";
+    readonly baseId: "phone-x";
+    readonly variant: "filled";
+    readonly name: "Phone X";
+    readonly category: "communiccation";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface PhoneProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -6504,6 +9039,21 @@ declare const PhoneMetadata: {
     readonly id: "phone";
     readonly baseId: "phone";
     readonly variant: "default";
+    readonly name: "Phone";
+    readonly category: "communiccation";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface PhoneFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const PhoneFilled: React.ForwardRefExoticComponent<Omit<PhoneFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const PhoneFilledMetadata: {
+    readonly id: "phone_filled";
+    readonly baseId: "phone";
+    readonly variant: "filled";
     readonly name: "Phone";
     readonly category: "communiccation";
     readonly tags: readonly [];
@@ -6805,6 +9355,111 @@ declare const ContrastMetadata: {
     readonly baseId: "contrast";
     readonly variant: "default";
     readonly name: "Contrast";
+    readonly category: "design";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface Crop11FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const Crop11Filled: React.ForwardRefExoticComponent<Omit<Crop11FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const Crop11FilledMetadata: {
+    readonly id: "crop-1-1_filled";
+    readonly baseId: "crop-1-1";
+    readonly variant: "filled";
+    readonly name: "Crop 1 1";
+    readonly category: "design";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface Crop169FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const Crop169Filled: React.ForwardRefExoticComponent<Omit<Crop169FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const Crop169FilledMetadata: {
+    readonly id: "crop-16-9_filled";
+    readonly baseId: "crop-16-9";
+    readonly variant: "filled";
+    readonly name: "Crop 16 9";
+    readonly category: "design";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface Crop32FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const Crop32Filled: React.ForwardRefExoticComponent<Omit<Crop32FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const Crop32FilledMetadata: {
+    readonly id: "crop-3-2_filled";
+    readonly baseId: "crop-3-2";
+    readonly variant: "filled";
+    readonly name: "Crop 3 2";
+    readonly category: "design";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface Crop54FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const Crop54Filled: React.ForwardRefExoticComponent<Omit<Crop54FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const Crop54FilledMetadata: {
+    readonly id: "crop-5-4_filled";
+    readonly baseId: "crop-5-4";
+    readonly variant: "filled";
+    readonly name: "Crop 5 4";
+    readonly category: "design";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface Crop75FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const Crop75Filled: React.ForwardRefExoticComponent<Omit<Crop75FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const Crop75FilledMetadata: {
+    readonly id: "crop-7-5_filled";
+    readonly baseId: "crop-7-5";
+    readonly variant: "filled";
+    readonly name: "Crop 7 5";
+    readonly category: "design";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CropLandscapeFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CropLandscapeFilled: React.ForwardRefExoticComponent<Omit<CropLandscapeFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CropLandscapeFilledMetadata: {
+    readonly id: "crop-landscape_filled";
+    readonly baseId: "crop-landscape";
+    readonly variant: "filled";
+    readonly name: "Crop Landscape";
+    readonly category: "design";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CropPortraitFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CropPortraitFilled: React.ForwardRefExoticComponent<Omit<CropPortraitFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CropPortraitFilledMetadata: {
+    readonly id: "crop-portrait_filled";
+    readonly baseId: "crop-portrait";
+    readonly variant: "filled";
+    readonly name: "Crop Portrait";
     readonly category: "design";
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
@@ -7245,6 +9900,201 @@ declare const PipetteMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface ZoomCancelFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const ZoomCancelFilled: React.ForwardRefExoticComponent<Omit<ZoomCancelFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const ZoomCancelFilledMetadata: {
+    readonly id: "zoom-cancel_filled";
+    readonly baseId: "zoom-cancel";
+    readonly variant: "filled";
+    readonly name: "Zoom Cancel";
+    readonly category: "design";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface ZoomCheckFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const ZoomCheckFilled: React.ForwardRefExoticComponent<Omit<ZoomCheckFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const ZoomCheckFilledMetadata: {
+    readonly id: "zoom-check_filled";
+    readonly baseId: "zoom-check";
+    readonly variant: "filled";
+    readonly name: "Zoom Check";
+    readonly category: "design";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface ZoomCodeFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const ZoomCodeFilled: React.ForwardRefExoticComponent<Omit<ZoomCodeFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const ZoomCodeFilledMetadata: {
+    readonly id: "zoom-code_filled";
+    readonly baseId: "zoom-code";
+    readonly variant: "filled";
+    readonly name: "Zoom Code";
+    readonly category: "design";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface ZoomExclamationFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const ZoomExclamationFilled: React.ForwardRefExoticComponent<Omit<ZoomExclamationFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const ZoomExclamationFilledMetadata: {
+    readonly id: "zoom-exclamation_filled";
+    readonly baseId: "zoom-exclamation";
+    readonly variant: "filled";
+    readonly name: "Zoom Exclamation";
+    readonly category: "design";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface ZoomInAreaFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const ZoomInAreaFilled: React.ForwardRefExoticComponent<Omit<ZoomInAreaFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const ZoomInAreaFilledMetadata: {
+    readonly id: "zoom-in-area_filled";
+    readonly baseId: "zoom-in-area";
+    readonly variant: "filled";
+    readonly name: "Zoom In Area";
+    readonly category: "design";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface ZoomInFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const ZoomInFilled: React.ForwardRefExoticComponent<Omit<ZoomInFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const ZoomInFilledMetadata: {
+    readonly id: "zoom-in_filled";
+    readonly baseId: "zoom-in";
+    readonly variant: "filled";
+    readonly name: "Zoom In";
+    readonly category: "design";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface ZoomMoneyFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const ZoomMoneyFilled: React.ForwardRefExoticComponent<Omit<ZoomMoneyFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const ZoomMoneyFilledMetadata: {
+    readonly id: "zoom-money_filled";
+    readonly baseId: "zoom-money";
+    readonly variant: "filled";
+    readonly name: "Zoom Money";
+    readonly category: "design";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface ZoomOutAreaFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const ZoomOutAreaFilled: React.ForwardRefExoticComponent<Omit<ZoomOutAreaFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const ZoomOutAreaFilledMetadata: {
+    readonly id: "zoom-out-area_filled";
+    readonly baseId: "zoom-out-area";
+    readonly variant: "filled";
+    readonly name: "Zoom Out Area";
+    readonly category: "design";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface ZoomOutFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const ZoomOutFilled: React.ForwardRefExoticComponent<Omit<ZoomOutFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const ZoomOutFilledMetadata: {
+    readonly id: "zoom-out_filled";
+    readonly baseId: "zoom-out";
+    readonly variant: "filled";
+    readonly name: "Zoom Out";
+    readonly category: "design";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface ZoomPanFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const ZoomPanFilled: React.ForwardRefExoticComponent<Omit<ZoomPanFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const ZoomPanFilledMetadata: {
+    readonly id: "zoom-pan_filled";
+    readonly baseId: "zoom-pan";
+    readonly variant: "filled";
+    readonly name: "Zoom Pan";
+    readonly category: "design";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface ZoomQuestionFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const ZoomQuestionFilled: React.ForwardRefExoticComponent<Omit<ZoomQuestionFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const ZoomQuestionFilledMetadata: {
+    readonly id: "zoom-question_filled";
+    readonly baseId: "zoom-question";
+    readonly variant: "filled";
+    readonly name: "Zoom Question";
+    readonly category: "design";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface ZoomScanFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const ZoomScanFilled: React.ForwardRefExoticComponent<Omit<ZoomScanFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const ZoomScanFilledMetadata: {
+    readonly id: "zoom-scan_filled";
+    readonly baseId: "zoom-scan";
+    readonly variant: "filled";
+    readonly name: "Zoom Scan";
+    readonly category: "design";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface ZoomFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const ZoomFilled: React.ForwardRefExoticComponent<Omit<ZoomFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const ZoomFilledMetadata: {
+    readonly id: "zoom_filled";
+    readonly baseId: "zoom";
+    readonly variant: "filled";
+    readonly name: "Zoom";
+    readonly category: "design";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface AirVentProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -7300,6 +10150,261 @@ declare const ComputerMetadata: {
     readonly baseId: "computer";
     readonly variant: "default";
     readonly name: "Computer";
+    readonly category: "device";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface DeviceCctvFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const DeviceCctvFilled: React.ForwardRefExoticComponent<Omit<DeviceCctvFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const DeviceCctvFilledMetadata: {
+    readonly id: "device-cctv_filled";
+    readonly baseId: "device-cctv";
+    readonly variant: "filled";
+    readonly name: "Device Cctv";
+    readonly category: "device";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface DeviceDesktopFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const DeviceDesktopFilled: React.ForwardRefExoticComponent<Omit<DeviceDesktopFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const DeviceDesktopFilledMetadata: {
+    readonly id: "device-desktop_filled";
+    readonly baseId: "device-desktop";
+    readonly variant: "filled";
+    readonly name: "Device Desktop";
+    readonly category: "device";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface DeviceGamepad3FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const DeviceGamepad3Filled: React.ForwardRefExoticComponent<Omit<DeviceGamepad3FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const DeviceGamepad3FilledMetadata: {
+    readonly id: "device-gamepad-3_filled";
+    readonly baseId: "device-gamepad-3";
+    readonly variant: "filled";
+    readonly name: "Device Gamepad 3";
+    readonly category: "device";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface DeviceGamepadFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const DeviceGamepadFilled: React.ForwardRefExoticComponent<Omit<DeviceGamepadFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const DeviceGamepadFilledMetadata: {
+    readonly id: "device-gamepad_filled";
+    readonly baseId: "device-gamepad";
+    readonly variant: "filled";
+    readonly name: "Device Gamepad";
+    readonly category: "device";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface DeviceHeartMonitorFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const DeviceHeartMonitorFilled: React.ForwardRefExoticComponent<Omit<DeviceHeartMonitorFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const DeviceHeartMonitorFilledMetadata: {
+    readonly id: "device-heart-monitor_filled";
+    readonly baseId: "device-heart-monitor";
+    readonly variant: "filled";
+    readonly name: "Device Heart Monitor";
+    readonly category: "device";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface DeviceImacFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const DeviceImacFilled: React.ForwardRefExoticComponent<Omit<DeviceImacFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const DeviceImacFilledMetadata: {
+    readonly id: "device-imac_filled";
+    readonly baseId: "device-imac";
+    readonly variant: "filled";
+    readonly name: "Device Imac";
+    readonly category: "device";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface DeviceIpadFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const DeviceIpadFilled: React.ForwardRefExoticComponent<Omit<DeviceIpadFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const DeviceIpadFilledMetadata: {
+    readonly id: "device-ipad_filled";
+    readonly baseId: "device-ipad";
+    readonly variant: "filled";
+    readonly name: "Device Ipad";
+    readonly category: "device";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface DeviceMobileFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const DeviceMobileFilled: React.ForwardRefExoticComponent<Omit<DeviceMobileFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const DeviceMobileFilledMetadata: {
+    readonly id: "device-mobile_filled";
+    readonly baseId: "device-mobile";
+    readonly variant: "filled";
+    readonly name: "Device Mobile";
+    readonly category: "device";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface DeviceRemoteFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const DeviceRemoteFilled: React.ForwardRefExoticComponent<Omit<DeviceRemoteFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const DeviceRemoteFilledMetadata: {
+    readonly id: "device-remote_filled";
+    readonly baseId: "device-remote";
+    readonly variant: "filled";
+    readonly name: "Device Remote";
+    readonly category: "device";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface DeviceSpeakerFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const DeviceSpeakerFilled: React.ForwardRefExoticComponent<Omit<DeviceSpeakerFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const DeviceSpeakerFilledMetadata: {
+    readonly id: "device-speaker_filled";
+    readonly baseId: "device-speaker";
+    readonly variant: "filled";
+    readonly name: "Device Speaker";
+    readonly category: "device";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface DeviceTabletFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const DeviceTabletFilled: React.ForwardRefExoticComponent<Omit<DeviceTabletFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const DeviceTabletFilledMetadata: {
+    readonly id: "device-tablet_filled";
+    readonly baseId: "device-tablet";
+    readonly variant: "filled";
+    readonly name: "Device Tablet";
+    readonly category: "device";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface DeviceTvOldFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const DeviceTvOldFilled: React.ForwardRefExoticComponent<Omit<DeviceTvOldFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const DeviceTvOldFilledMetadata: {
+    readonly id: "device-tv-old_filled";
+    readonly baseId: "device-tv-old";
+    readonly variant: "filled";
+    readonly name: "Device Tv Old";
+    readonly category: "device";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface DeviceTvFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const DeviceTvFilled: React.ForwardRefExoticComponent<Omit<DeviceTvFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const DeviceTvFilledMetadata: {
+    readonly id: "device-tv_filled";
+    readonly baseId: "device-tv";
+    readonly variant: "filled";
+    readonly name: "Device Tv";
+    readonly category: "device";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface DeviceUnknownFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const DeviceUnknownFilled: React.ForwardRefExoticComponent<Omit<DeviceUnknownFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const DeviceUnknownFilledMetadata: {
+    readonly id: "device-unknown_filled";
+    readonly baseId: "device-unknown";
+    readonly variant: "filled";
+    readonly name: "Device Unknown";
+    readonly category: "device";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface DeviceUsbFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const DeviceUsbFilled: React.ForwardRefExoticComponent<Omit<DeviceUsbFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const DeviceUsbFilledMetadata: {
+    readonly id: "device-usb_filled";
+    readonly baseId: "device-usb";
+    readonly variant: "filled";
+    readonly name: "Device Usb";
+    readonly category: "device";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface DeviceVisionProFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const DeviceVisionProFilled: React.ForwardRefExoticComponent<Omit<DeviceVisionProFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const DeviceVisionProFilledMetadata: {
+    readonly id: "device-vision-pro_filled";
+    readonly baseId: "device-vision-pro";
+    readonly variant: "filled";
+    readonly name: "Device Vision Pro";
+    readonly category: "device";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface DeviceWatchFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const DeviceWatchFilled: React.ForwardRefExoticComponent<Omit<DeviceWatchFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const DeviceWatchFilledMetadata: {
+    readonly id: "device-watch_filled";
+    readonly baseId: "device-watch";
+    readonly variant: "filled";
+    readonly name: "Device Watch";
     readonly category: "device";
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
@@ -7665,6 +10770,156 @@ declare const LaughMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface MoodAngryFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const MoodAngryFilled: React.ForwardRefExoticComponent<Omit<MoodAngryFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const MoodAngryFilledMetadata: {
+    readonly id: "mood-angry_filled";
+    readonly baseId: "mood-angry";
+    readonly variant: "filled";
+    readonly name: "Mood Angry";
+    readonly category: "emoji";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface MoodConfuzedFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const MoodConfuzedFilled: React.ForwardRefExoticComponent<Omit<MoodConfuzedFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const MoodConfuzedFilledMetadata: {
+    readonly id: "mood-confuzed_filled";
+    readonly baseId: "mood-confuzed";
+    readonly variant: "filled";
+    readonly name: "Mood Confuzed";
+    readonly category: "emoji";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface MoodCrazyHappyFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const MoodCrazyHappyFilled: React.ForwardRefExoticComponent<Omit<MoodCrazyHappyFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const MoodCrazyHappyFilledMetadata: {
+    readonly id: "mood-crazy-happy_filled";
+    readonly baseId: "mood-crazy-happy";
+    readonly variant: "filled";
+    readonly name: "Mood Crazy Happy";
+    readonly category: "emoji";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface MoodEmptyFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const MoodEmptyFilled: React.ForwardRefExoticComponent<Omit<MoodEmptyFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const MoodEmptyFilledMetadata: {
+    readonly id: "mood-empty_filled";
+    readonly baseId: "mood-empty";
+    readonly variant: "filled";
+    readonly name: "Mood Empty";
+    readonly category: "emoji";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface MoodHappyFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const MoodHappyFilled: React.ForwardRefExoticComponent<Omit<MoodHappyFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const MoodHappyFilledMetadata: {
+    readonly id: "mood-happy_filled";
+    readonly baseId: "mood-happy";
+    readonly variant: "filled";
+    readonly name: "Mood Happy";
+    readonly category: "emoji";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface MoodKidFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const MoodKidFilled: React.ForwardRefExoticComponent<Omit<MoodKidFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const MoodKidFilledMetadata: {
+    readonly id: "mood-kid_filled";
+    readonly baseId: "mood-kid";
+    readonly variant: "filled";
+    readonly name: "Mood Kid";
+    readonly category: "emoji";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface MoodNeutralFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const MoodNeutralFilled: React.ForwardRefExoticComponent<Omit<MoodNeutralFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const MoodNeutralFilledMetadata: {
+    readonly id: "mood-neutral_filled";
+    readonly baseId: "mood-neutral";
+    readonly variant: "filled";
+    readonly name: "Mood Neutral";
+    readonly category: "emoji";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface MoodSadFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const MoodSadFilled: React.ForwardRefExoticComponent<Omit<MoodSadFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const MoodSadFilledMetadata: {
+    readonly id: "mood-sad_filled";
+    readonly baseId: "mood-sad";
+    readonly variant: "filled";
+    readonly name: "Mood Sad";
+    readonly category: "emoji";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface MoodSmileFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const MoodSmileFilled: React.ForwardRefExoticComponent<Omit<MoodSmileFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const MoodSmileFilledMetadata: {
+    readonly id: "mood-smile_filled";
+    readonly baseId: "mood-smile";
+    readonly variant: "filled";
+    readonly name: "Mood Smile";
+    readonly category: "emoji";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface MoodWrrrFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const MoodWrrrFilled: React.ForwardRefExoticComponent<Omit<MoodWrrrFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const MoodWrrrFilledMetadata: {
+    readonly id: "mood-wrrr_filled";
+    readonly baseId: "mood-wrrr";
+    readonly variant: "filled";
+    readonly name: "Mood Wrrr";
+    readonly category: "emoji";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface SmilePlusProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -7691,6 +10946,21 @@ declare const SmileMetadata: {
     readonly variant: "default";
     readonly name: "Smile";
     readonly category: "emoji";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface FileAnalyticsFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const FileAnalyticsFilled: React.ForwardRefExoticComponent<Omit<FileAnalyticsFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const FileAnalyticsFilledMetadata: {
+    readonly id: "file-analytics_filled";
+    readonly baseId: "file-analytics";
+    readonly variant: "filled";
+    readonly name: "File Analytics";
+    readonly category: "file";
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
@@ -7875,6 +11145,21 @@ declare const FileCheckMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface FileCheckFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const FileCheckFilled: React.ForwardRefExoticComponent<Omit<FileCheckFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const FileCheckFilledMetadata: {
+    readonly id: "file-check_filled";
+    readonly baseId: "file-check";
+    readonly variant: "filled";
+    readonly name: "File Check";
+    readonly category: "file";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface FileClockProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -7885,6 +11170,21 @@ declare const FileClockMetadata: {
     readonly baseId: "file-clock";
     readonly variant: "default";
     readonly name: "File Clock";
+    readonly category: "file";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface FileCode2FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const FileCode2Filled: React.ForwardRefExoticComponent<Omit<FileCode2FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const FileCode2FilledMetadata: {
+    readonly id: "file-code-2_filled";
+    readonly baseId: "file-code-2";
+    readonly variant: "filled";
+    readonly name: "File Code 2";
     readonly category: "file";
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
@@ -7920,6 +11220,21 @@ declare const FileCodeMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface FileCodeFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const FileCodeFilled: React.ForwardRefExoticComponent<Omit<FileCodeFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const FileCodeFilledMetadata: {
+    readonly id: "file-code_filled";
+    readonly baseId: "file-code";
+    readonly variant: "filled";
+    readonly name: "File Code";
+    readonly category: "file";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface FileCogProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -7935,6 +11250,51 @@ declare const FileCogMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface FileCvFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const FileCvFilled: React.ForwardRefExoticComponent<Omit<FileCvFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const FileCvFilledMetadata: {
+    readonly id: "file-cv_filled";
+    readonly baseId: "file-cv";
+    readonly variant: "filled";
+    readonly name: "File Cv";
+    readonly category: "file";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface FileDeltaFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const FileDeltaFilled: React.ForwardRefExoticComponent<Omit<FileDeltaFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const FileDeltaFilledMetadata: {
+    readonly id: "file-delta_filled";
+    readonly baseId: "file-delta";
+    readonly variant: "filled";
+    readonly name: "File Delta";
+    readonly category: "file";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface FileDescriptionFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const FileDescriptionFilled: React.ForwardRefExoticComponent<Omit<FileDescriptionFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const FileDescriptionFilledMetadata: {
+    readonly id: "file-description_filled";
+    readonly baseId: "file-description";
+    readonly variant: "filled";
+    readonly name: "File Description";
+    readonly category: "file";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface FileDiffProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -7944,6 +11304,21 @@ declare const FileDiffMetadata: {
     readonly id: "file-diff";
     readonly baseId: "file-diff";
     readonly variant: "default";
+    readonly name: "File Diff";
+    readonly category: "file";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface FileDiffFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const FileDiffFilled: React.ForwardRefExoticComponent<Omit<FileDiffFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const FileDiffFilledMetadata: {
+    readonly id: "file-diff_filled";
+    readonly baseId: "file-diff";
+    readonly variant: "filled";
     readonly name: "File Diff";
     readonly category: "file";
     readonly tags: readonly [];
@@ -7965,6 +11340,51 @@ declare const FileDigitMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface FileDigitFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const FileDigitFilled: React.ForwardRefExoticComponent<Omit<FileDigitFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const FileDigitFilledMetadata: {
+    readonly id: "file-digit_filled";
+    readonly baseId: "file-digit";
+    readonly variant: "filled";
+    readonly name: "File Digit";
+    readonly category: "file";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface FileDollarFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const FileDollarFilled: React.ForwardRefExoticComponent<Omit<FileDollarFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const FileDollarFilledMetadata: {
+    readonly id: "file-dollar_filled";
+    readonly baseId: "file-dollar";
+    readonly variant: "filled";
+    readonly name: "File Dollar";
+    readonly category: "file";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface FileDotsFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const FileDotsFilled: React.ForwardRefExoticComponent<Omit<FileDotsFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const FileDotsFilledMetadata: {
+    readonly id: "file-dots_filled";
+    readonly baseId: "file-dots";
+    readonly variant: "filled";
+    readonly name: "File Dots";
+    readonly category: "file";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface FileDownProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -7980,6 +11400,36 @@ declare const FileDownMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface FileDownloadFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const FileDownloadFilled: React.ForwardRefExoticComponent<Omit<FileDownloadFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const FileDownloadFilledMetadata: {
+    readonly id: "file-download_filled";
+    readonly baseId: "file-download";
+    readonly variant: "filled";
+    readonly name: "File Download";
+    readonly category: "file";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface FileEuroFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const FileEuroFilled: React.ForwardRefExoticComponent<Omit<FileEuroFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const FileEuroFilledMetadata: {
+    readonly id: "file-euro_filled";
+    readonly baseId: "file-euro";
+    readonly variant: "filled";
+    readonly name: "File Euro";
+    readonly category: "file";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface FileExclamationPointProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -7990,6 +11440,21 @@ declare const FileExclamationPointMetadata: {
     readonly baseId: "file-exclamation-point";
     readonly variant: "default";
     readonly name: "File Exclamation Point";
+    readonly category: "file";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface FileFunctionFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const FileFunctionFilled: React.ForwardRefExoticComponent<Omit<FileFunctionFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const FileFunctionFilledMetadata: {
+    readonly id: "file-function_filled";
+    readonly baseId: "file-function";
+    readonly variant: "filled";
+    readonly name: "File Function";
     readonly category: "file";
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
@@ -8025,6 +11490,21 @@ declare const FileHeartMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface FileHorizontalFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const FileHorizontalFilled: React.ForwardRefExoticComponent<Omit<FileHorizontalFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const FileHorizontalFilledMetadata: {
+    readonly id: "file-horizontal_filled";
+    readonly baseId: "file-horizontal";
+    readonly variant: "filled";
+    readonly name: "File Horizontal";
+    readonly category: "file";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface FileImageProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -8035,6 +11515,21 @@ declare const FileImageMetadata: {
     readonly baseId: "file-image";
     readonly variant: "default";
     readonly name: "File Image";
+    readonly category: "file";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface FileInfoFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const FileInfoFilled: React.ForwardRefExoticComponent<Omit<FileInfoFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const FileInfoFilledMetadata: {
+    readonly id: "file-info_filled";
+    readonly baseId: "file-info";
+    readonly variant: "filled";
+    readonly name: "File Info";
     readonly category: "file";
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
@@ -8055,6 +11550,21 @@ declare const FileInputMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface FileInvoiceFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const FileInvoiceFilled: React.ForwardRefExoticComponent<Omit<FileInvoiceFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const FileInvoiceFilledMetadata: {
+    readonly id: "file-invoice_filled";
+    readonly baseId: "file-invoice";
+    readonly variant: "filled";
+    readonly name: "File Invoice";
+    readonly category: "file";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface FileKeyProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -8065,6 +11575,21 @@ declare const FileKeyMetadata: {
     readonly baseId: "file-key";
     readonly variant: "default";
     readonly name: "File Key";
+    readonly category: "file";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface FileLambdaFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const FileLambdaFilled: React.ForwardRefExoticComponent<Omit<FileLambdaFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const FileLambdaFilledMetadata: {
+    readonly id: "file-lambda_filled";
+    readonly baseId: "file-lambda";
+    readonly variant: "filled";
+    readonly name: "File Lambda";
     readonly category: "file";
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
@@ -8115,6 +11640,21 @@ declare const FileMinusMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface FileMinusFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const FileMinusFilled: React.ForwardRefExoticComponent<Omit<FileMinusFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const FileMinusFilledMetadata: {
+    readonly id: "file-minus_filled";
+    readonly baseId: "file-minus";
+    readonly variant: "filled";
+    readonly name: "File Minus";
+    readonly category: "file";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface FileMusicProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -8125,6 +11665,36 @@ declare const FileMusicMetadata: {
     readonly baseId: "file-music";
     readonly variant: "default";
     readonly name: "File Music";
+    readonly category: "file";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface FileMusicFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const FileMusicFilled: React.ForwardRefExoticComponent<Omit<FileMusicFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const FileMusicFilledMetadata: {
+    readonly id: "file-music_filled";
+    readonly baseId: "file-music";
+    readonly variant: "filled";
+    readonly name: "File Music";
+    readonly category: "file";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface FileNeutralFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const FileNeutralFilled: React.ForwardRefExoticComponent<Omit<FileNeutralFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const FileNeutralFilledMetadata: {
+    readonly id: "file-neutral_filled";
+    readonly baseId: "file-neutral";
+    readonly variant: "filled";
+    readonly name: "File Neutral";
     readonly category: "file";
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
@@ -8175,6 +11745,51 @@ declare const FilePenMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface FilePencilFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const FilePencilFilled: React.ForwardRefExoticComponent<Omit<FilePencilFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const FilePencilFilledMetadata: {
+    readonly id: "file-pencil_filled";
+    readonly baseId: "file-pencil";
+    readonly variant: "filled";
+    readonly name: "File Pencil";
+    readonly category: "file";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface FilePercentFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const FilePercentFilled: React.ForwardRefExoticComponent<Omit<FilePercentFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const FilePercentFilledMetadata: {
+    readonly id: "file-percent_filled";
+    readonly baseId: "file-percent";
+    readonly variant: "filled";
+    readonly name: "File Percent";
+    readonly category: "file";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface FilePhoneFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const FilePhoneFilled: React.ForwardRefExoticComponent<Omit<FilePhoneFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const FilePhoneFilledMetadata: {
+    readonly id: "file-phone_filled";
+    readonly baseId: "file-phone";
+    readonly variant: "filled";
+    readonly name: "File Phone";
+    readonly category: "file";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface FilePlayProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -8220,6 +11835,21 @@ declare const FilePlusMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface FilePowerFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const FilePowerFilled: React.ForwardRefExoticComponent<Omit<FilePowerFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const FilePowerFilledMetadata: {
+    readonly id: "file-power_filled";
+    readonly baseId: "file-power";
+    readonly variant: "filled";
+    readonly name: "File Power";
+    readonly category: "file";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface FileQuestionMarkProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -8235,6 +11865,36 @@ declare const FileQuestionMarkMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface FileRssFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const FileRssFilled: React.ForwardRefExoticComponent<Omit<FileRssFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const FileRssFilledMetadata: {
+    readonly id: "file-rss_filled";
+    readonly baseId: "file-rss";
+    readonly variant: "filled";
+    readonly name: "File Rss";
+    readonly category: "file";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface FileSadFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const FileSadFilled: React.ForwardRefExoticComponent<Omit<FileSadFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const FileSadFilledMetadata: {
+    readonly id: "file-sad_filled";
+    readonly baseId: "file-sad";
+    readonly variant: "filled";
+    readonly name: "File Sad";
+    readonly category: "file";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface FileScanProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -8245,6 +11905,21 @@ declare const FileScanMetadata: {
     readonly baseId: "file-scan";
     readonly variant: "default";
     readonly name: "File Scan";
+    readonly category: "file";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface FileScissorsFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const FileScissorsFilled: React.ForwardRefExoticComponent<Omit<FileScissorsFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const FileScissorsFilledMetadata: {
+    readonly id: "file-scissors_filled";
+    readonly baseId: "file-scissors";
+    readonly variant: "filled";
+    readonly name: "File Scissors";
     readonly category: "file";
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
@@ -8280,6 +11955,21 @@ declare const FileSearchMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface FileSettingsFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const FileSettingsFilled: React.ForwardRefExoticComponent<Omit<FileSettingsFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const FileSettingsFilledMetadata: {
+    readonly id: "file-settings_filled";
+    readonly baseId: "file-settings";
+    readonly variant: "filled";
+    readonly name: "File Settings";
+    readonly category: "file";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface FileSignalProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -8289,6 +11979,21 @@ declare const FileSignalMetadata: {
     readonly id: "file-signal";
     readonly baseId: "file-signal";
     readonly variant: "default";
+    readonly name: "File Signal";
+    readonly category: "file";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface FileSignalFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const FileSignalFilled: React.ForwardRefExoticComponent<Omit<FileSignalFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const FileSignalFilledMetadata: {
+    readonly id: "file-signal_filled";
+    readonly baseId: "file-signal";
+    readonly variant: "filled";
     readonly name: "File Signal";
     readonly category: "file";
     readonly tags: readonly [];
@@ -8305,6 +12010,21 @@ declare const FileSlidersMetadata: {
     readonly baseId: "file-sliders";
     readonly variant: "default";
     readonly name: "File Sliders";
+    readonly category: "file";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface FileSmileFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const FileSmileFilled: React.ForwardRefExoticComponent<Omit<FileSmileFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const FileSmileFilledMetadata: {
+    readonly id: "file-smile_filled";
+    readonly baseId: "file-smile";
+    readonly variant: "filled";
+    readonly name: "File Smile";
     readonly category: "file";
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
@@ -8335,6 +12055,21 @@ declare const FileStackMetadata: {
     readonly baseId: "file-stack";
     readonly variant: "default";
     readonly name: "File Stack";
+    readonly category: "file";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface FileStarFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const FileStarFilled: React.ForwardRefExoticComponent<Omit<FileStarFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const FileStarFilledMetadata: {
+    readonly id: "file-star_filled";
+    readonly baseId: "file-star";
+    readonly variant: "filled";
+    readonly name: "File Star";
     readonly category: "file";
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
@@ -8385,6 +12120,36 @@ declare const FileTextMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface FileTextFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const FileTextFilled: React.ForwardRefExoticComponent<Omit<FileTextFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const FileTextFilledMetadata: {
+    readonly id: "file-text_filled";
+    readonly baseId: "file-text";
+    readonly variant: "filled";
+    readonly name: "File Text";
+    readonly category: "file";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface FileTimeFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const FileTimeFilled: React.ForwardRefExoticComponent<Omit<FileTimeFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const FileTimeFilledMetadata: {
+    readonly id: "file-time_filled";
+    readonly baseId: "file-time";
+    readonly variant: "filled";
+    readonly name: "File Time";
+    readonly category: "file";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface FileTypeCornerProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -8415,6 +12180,36 @@ declare const FileTypeMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface FileTypographyFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const FileTypographyFilled: React.ForwardRefExoticComponent<Omit<FileTypographyFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const FileTypographyFilledMetadata: {
+    readonly id: "file-typography_filled";
+    readonly baseId: "file-typography";
+    readonly variant: "filled";
+    readonly name: "File Typography";
+    readonly category: "file";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface FileUnknownFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const FileUnknownFilled: React.ForwardRefExoticComponent<Omit<FileUnknownFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const FileUnknownFilledMetadata: {
+    readonly id: "file-unknown_filled";
+    readonly baseId: "file-unknown";
+    readonly variant: "filled";
+    readonly name: "File Unknown";
+    readonly category: "file";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface FileUpProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -8430,6 +12225,21 @@ declare const FileUpMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface FileUploadFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const FileUploadFilled: React.ForwardRefExoticComponent<Omit<FileUploadFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const FileUploadFilledMetadata: {
+    readonly id: "file-upload_filled";
+    readonly baseId: "file-upload";
+    readonly variant: "filled";
+    readonly name: "File Upload";
+    readonly category: "file";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface FileUserProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -8440,6 +12250,21 @@ declare const FileUserMetadata: {
     readonly baseId: "file-user";
     readonly variant: "default";
     readonly name: "File User";
+    readonly category: "file";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface FileVectorFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const FileVectorFilled: React.ForwardRefExoticComponent<Omit<FileVectorFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const FileVectorFilledMetadata: {
+    readonly id: "file-vector_filled";
+    readonly baseId: "file-vector";
+    readonly variant: "filled";
+    readonly name: "File Vector";
     readonly category: "file";
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
@@ -8505,6 +12330,21 @@ declare const FileXMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface FileXFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const FileXFilled: React.ForwardRefExoticComponent<Omit<FileXFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const FileXFilledMetadata: {
+    readonly id: "file-x_filled";
+    readonly baseId: "file-x";
+    readonly variant: "filled";
+    readonly name: "File X";
+    readonly category: "file";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface FileProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -8520,6 +12360,21 @@ declare const FileMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface FileFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const FileFilled: React.ForwardRefExoticComponent<Omit<FileFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const FileFilledMetadata: {
+    readonly id: "file_filled";
+    readonly baseId: "file";
+    readonly variant: "filled";
+    readonly name: "File";
+    readonly category: "file";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface FilesProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -8529,6 +12384,21 @@ declare const FilesMetadata: {
     readonly id: "files";
     readonly baseId: "files";
     readonly variant: "default";
+    readonly name: "Files";
+    readonly category: "file";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface FilesFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const FilesFilled: React.ForwardRefExoticComponent<Omit<FilesFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const FilesFilledMetadata: {
+    readonly id: "files_filled";
+    readonly baseId: "files";
+    readonly variant: "filled";
     readonly name: "Files";
     readonly category: "file";
     readonly tags: readonly [];
@@ -8640,66 +12510,6 @@ declare const AirBalloonFilledMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
-interface AlarmMinusFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const AlarmMinusFilled: React.ForwardRefExoticComponent<Omit<AlarmMinusFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const AlarmMinusFilledMetadata: {
-    readonly id: "alarm-minus_filled";
-    readonly baseId: "alarm-minus";
-    readonly variant: "filled";
-    readonly name: "Alarm Minus";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface AlarmPlusFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const AlarmPlusFilled: React.ForwardRefExoticComponent<Omit<AlarmPlusFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const AlarmPlusFilledMetadata: {
-    readonly id: "alarm-plus_filled";
-    readonly baseId: "alarm-plus";
-    readonly variant: "filled";
-    readonly name: "Alarm Plus";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface AlarmSnoozeFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const AlarmSnoozeFilled: React.ForwardRefExoticComponent<Omit<AlarmSnoozeFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const AlarmSnoozeFilledMetadata: {
-    readonly id: "alarm-snooze_filled";
-    readonly baseId: "alarm-snooze";
-    readonly variant: "filled";
-    readonly name: "Alarm Snooze";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface AlarmFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const AlarmFilled: React.ForwardRefExoticComponent<Omit<AlarmFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const AlarmFilledMetadata: {
-    readonly id: "alarm_filled";
-    readonly baseId: "alarm";
-    readonly variant: "filled";
-    readonly name: "Alarm";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
 interface AlertCircleFilledProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -8800,201 +12610,6 @@ declare const AlienFilledMetadata: {
     readonly baseId: "alien";
     readonly variant: "filled";
     readonly name: "Alien";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface AlignBoxBottomCenterFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const AlignBoxBottomCenterFilled: React.ForwardRefExoticComponent<Omit<AlignBoxBottomCenterFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const AlignBoxBottomCenterFilledMetadata: {
-    readonly id: "align-box-bottom-center_filled";
-    readonly baseId: "align-box-bottom-center";
-    readonly variant: "filled";
-    readonly name: "Align Box Bottom Center";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface AlignBoxBottomLeftFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const AlignBoxBottomLeftFilled: React.ForwardRefExoticComponent<Omit<AlignBoxBottomLeftFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const AlignBoxBottomLeftFilledMetadata: {
-    readonly id: "align-box-bottom-left_filled";
-    readonly baseId: "align-box-bottom-left";
-    readonly variant: "filled";
-    readonly name: "Align Box Bottom Left";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface AlignBoxBottomRightFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const AlignBoxBottomRightFilled: React.ForwardRefExoticComponent<Omit<AlignBoxBottomRightFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const AlignBoxBottomRightFilledMetadata: {
-    readonly id: "align-box-bottom-right_filled";
-    readonly baseId: "align-box-bottom-right";
-    readonly variant: "filled";
-    readonly name: "Align Box Bottom Right";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface AlignBoxCenterMiddleFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const AlignBoxCenterMiddleFilled: React.ForwardRefExoticComponent<Omit<AlignBoxCenterMiddleFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const AlignBoxCenterMiddleFilledMetadata: {
-    readonly id: "align-box-center-middle_filled";
-    readonly baseId: "align-box-center-middle";
-    readonly variant: "filled";
-    readonly name: "Align Box Center Middle";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface AlignBoxLeftBottomFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const AlignBoxLeftBottomFilled: React.ForwardRefExoticComponent<Omit<AlignBoxLeftBottomFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const AlignBoxLeftBottomFilledMetadata: {
-    readonly id: "align-box-left-bottom_filled";
-    readonly baseId: "align-box-left-bottom";
-    readonly variant: "filled";
-    readonly name: "Align Box Left Bottom";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface AlignBoxLeftMiddleFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const AlignBoxLeftMiddleFilled: React.ForwardRefExoticComponent<Omit<AlignBoxLeftMiddleFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const AlignBoxLeftMiddleFilledMetadata: {
-    readonly id: "align-box-left-middle_filled";
-    readonly baseId: "align-box-left-middle";
-    readonly variant: "filled";
-    readonly name: "Align Box Left Middle";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface AlignBoxLeftTopFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const AlignBoxLeftTopFilled: React.ForwardRefExoticComponent<Omit<AlignBoxLeftTopFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const AlignBoxLeftTopFilledMetadata: {
-    readonly id: "align-box-left-top_filled";
-    readonly baseId: "align-box-left-top";
-    readonly variant: "filled";
-    readonly name: "Align Box Left Top";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface AlignBoxRightBottomFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const AlignBoxRightBottomFilled: React.ForwardRefExoticComponent<Omit<AlignBoxRightBottomFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const AlignBoxRightBottomFilledMetadata: {
-    readonly id: "align-box-right-bottom_filled";
-    readonly baseId: "align-box-right-bottom";
-    readonly variant: "filled";
-    readonly name: "Align Box Right Bottom";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface AlignBoxRightMiddleFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const AlignBoxRightMiddleFilled: React.ForwardRefExoticComponent<Omit<AlignBoxRightMiddleFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const AlignBoxRightMiddleFilledMetadata: {
-    readonly id: "align-box-right-middle_filled";
-    readonly baseId: "align-box-right-middle";
-    readonly variant: "filled";
-    readonly name: "Align Box Right Middle";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface AlignBoxRightTopFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const AlignBoxRightTopFilled: React.ForwardRefExoticComponent<Omit<AlignBoxRightTopFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const AlignBoxRightTopFilledMetadata: {
-    readonly id: "align-box-right-top_filled";
-    readonly baseId: "align-box-right-top";
-    readonly variant: "filled";
-    readonly name: "Align Box Right Top";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface AlignBoxTopCenterFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const AlignBoxTopCenterFilled: React.ForwardRefExoticComponent<Omit<AlignBoxTopCenterFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const AlignBoxTopCenterFilledMetadata: {
-    readonly id: "align-box-top-center_filled";
-    readonly baseId: "align-box-top-center";
-    readonly variant: "filled";
-    readonly name: "Align Box Top Center";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface AlignBoxTopLeftFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const AlignBoxTopLeftFilled: React.ForwardRefExoticComponent<Omit<AlignBoxTopLeftFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const AlignBoxTopLeftFilledMetadata: {
-    readonly id: "align-box-top-left_filled";
-    readonly baseId: "align-box-top-left";
-    readonly variant: "filled";
-    readonly name: "Align Box Top Left";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface AlignBoxTopRightFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const AlignBoxTopRightFilled: React.ForwardRefExoticComponent<Omit<AlignBoxTopRightFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const AlignBoxTopRightFilledMetadata: {
-    readonly id: "align-box-top-right_filled";
-    readonly baseId: "align-box-top-right";
-    readonly variant: "filled";
-    readonly name: "Align Box Top Right";
     readonly category: "filled";
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
@@ -9225,216 +12840,6 @@ declare const BackspaceFilledMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
-interface Badge3dFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const Badge3dFilled: React.ForwardRefExoticComponent<Omit<Badge3dFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const Badge3dFilledMetadata: {
-    readonly id: "badge-3d_filled";
-    readonly baseId: "badge-3d";
-    readonly variant: "filled";
-    readonly name: "Badge 3d";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface Badge4kFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const Badge4kFilled: React.ForwardRefExoticComponent<Omit<Badge4kFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const Badge4kFilledMetadata: {
-    readonly id: "badge-4k_filled";
-    readonly baseId: "badge-4k";
-    readonly variant: "filled";
-    readonly name: "Badge 4k";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface Badge8kFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const Badge8kFilled: React.ForwardRefExoticComponent<Omit<Badge8kFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const Badge8kFilledMetadata: {
-    readonly id: "badge-8k_filled";
-    readonly baseId: "badge-8k";
-    readonly variant: "filled";
-    readonly name: "Badge 8k";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface BadgeAdFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const BadgeAdFilled: React.ForwardRefExoticComponent<Omit<BadgeAdFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const BadgeAdFilledMetadata: {
-    readonly id: "badge-ad_filled";
-    readonly baseId: "badge-ad";
-    readonly variant: "filled";
-    readonly name: "Badge Ad";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface BadgeArFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const BadgeArFilled: React.ForwardRefExoticComponent<Omit<BadgeArFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const BadgeArFilledMetadata: {
-    readonly id: "badge-ar_filled";
-    readonly baseId: "badge-ar";
-    readonly variant: "filled";
-    readonly name: "Badge Ar";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface BadgeCcFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const BadgeCcFilled: React.ForwardRefExoticComponent<Omit<BadgeCcFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const BadgeCcFilledMetadata: {
-    readonly id: "badge-cc_filled";
-    readonly baseId: "badge-cc";
-    readonly variant: "filled";
-    readonly name: "Badge Cc";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface BadgeHdFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const BadgeHdFilled: React.ForwardRefExoticComponent<Omit<BadgeHdFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const BadgeHdFilledMetadata: {
-    readonly id: "badge-hd_filled";
-    readonly baseId: "badge-hd";
-    readonly variant: "filled";
-    readonly name: "Badge Hd";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface BadgeSdFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const BadgeSdFilled: React.ForwardRefExoticComponent<Omit<BadgeSdFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const BadgeSdFilledMetadata: {
-    readonly id: "badge-sd_filled";
-    readonly baseId: "badge-sd";
-    readonly variant: "filled";
-    readonly name: "Badge Sd";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface BadgeTmFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const BadgeTmFilled: React.ForwardRefExoticComponent<Omit<BadgeTmFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const BadgeTmFilledMetadata: {
-    readonly id: "badge-tm_filled";
-    readonly baseId: "badge-tm";
-    readonly variant: "filled";
-    readonly name: "Badge Tm";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface BadgeVoFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const BadgeVoFilled: React.ForwardRefExoticComponent<Omit<BadgeVoFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const BadgeVoFilledMetadata: {
-    readonly id: "badge-vo_filled";
-    readonly baseId: "badge-vo";
-    readonly variant: "filled";
-    readonly name: "Badge Vo";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface BadgeVrFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const BadgeVrFilled: React.ForwardRefExoticComponent<Omit<BadgeVrFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const BadgeVrFilledMetadata: {
-    readonly id: "badge-vr_filled";
-    readonly baseId: "badge-vr";
-    readonly variant: "filled";
-    readonly name: "Badge Vr";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface BadgeWcFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const BadgeWcFilled: React.ForwardRefExoticComponent<Omit<BadgeWcFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const BadgeWcFilledMetadata: {
-    readonly id: "badge-wc_filled";
-    readonly baseId: "badge-wc";
-    readonly variant: "filled";
-    readonly name: "Badge Wc";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface BadgeFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const BadgeFilled: React.ForwardRefExoticComponent<Omit<BadgeFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const BadgeFilledMetadata: {
-    readonly id: "badge_filled";
-    readonly baseId: "badge";
-    readonly variant: "filled";
-    readonly name: "Badge";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface BadgesFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const BadgesFilled: React.ForwardRefExoticComponent<Omit<BadgesFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const BadgesFilledMetadata: {
-    readonly id: "badges_filled";
-    readonly baseId: "badges";
-    readonly variant: "filled";
-    readonly name: "Badges";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
 interface BallBowlingFilledProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -9555,171 +12960,6 @@ declare const BathFilledMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
-interface Battery1FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const Battery1Filled: React.ForwardRefExoticComponent<Omit<Battery1FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const Battery1FilledMetadata: {
-    readonly id: "battery-1_filled";
-    readonly baseId: "battery-1";
-    readonly variant: "filled";
-    readonly name: "Battery 1";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface Battery2FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const Battery2Filled: React.ForwardRefExoticComponent<Omit<Battery2FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const Battery2FilledMetadata: {
-    readonly id: "battery-2_filled";
-    readonly baseId: "battery-2";
-    readonly variant: "filled";
-    readonly name: "Battery 2";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface Battery3FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const Battery3Filled: React.ForwardRefExoticComponent<Omit<Battery3FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const Battery3FilledMetadata: {
-    readonly id: "battery-3_filled";
-    readonly baseId: "battery-3";
-    readonly variant: "filled";
-    readonly name: "Battery 3";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface Battery4FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const Battery4Filled: React.ForwardRefExoticComponent<Omit<Battery4FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const Battery4FilledMetadata: {
-    readonly id: "battery-4_filled";
-    readonly baseId: "battery-4";
-    readonly variant: "filled";
-    readonly name: "Battery 4";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface BatteryAutomotiveFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const BatteryAutomotiveFilled: React.ForwardRefExoticComponent<Omit<BatteryAutomotiveFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const BatteryAutomotiveFilledMetadata: {
-    readonly id: "battery-automotive_filled";
-    readonly baseId: "battery-automotive";
-    readonly variant: "filled";
-    readonly name: "Battery Automotive";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface BatteryVertical1FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const BatteryVertical1Filled: React.ForwardRefExoticComponent<Omit<BatteryVertical1FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const BatteryVertical1FilledMetadata: {
-    readonly id: "battery-vertical-1_filled";
-    readonly baseId: "battery-vertical-1";
-    readonly variant: "filled";
-    readonly name: "Battery Vertical 1";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface BatteryVertical2FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const BatteryVertical2Filled: React.ForwardRefExoticComponent<Omit<BatteryVertical2FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const BatteryVertical2FilledMetadata: {
-    readonly id: "battery-vertical-2_filled";
-    readonly baseId: "battery-vertical-2";
-    readonly variant: "filled";
-    readonly name: "Battery Vertical 2";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface BatteryVertical3FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const BatteryVertical3Filled: React.ForwardRefExoticComponent<Omit<BatteryVertical3FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const BatteryVertical3FilledMetadata: {
-    readonly id: "battery-vertical-3_filled";
-    readonly baseId: "battery-vertical-3";
-    readonly variant: "filled";
-    readonly name: "Battery Vertical 3";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface BatteryVertical4FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const BatteryVertical4Filled: React.ForwardRefExoticComponent<Omit<BatteryVertical4FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const BatteryVertical4FilledMetadata: {
-    readonly id: "battery-vertical-4_filled";
-    readonly baseId: "battery-vertical-4";
-    readonly variant: "filled";
-    readonly name: "Battery Vertical 4";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface BatteryVerticalFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const BatteryVerticalFilled: React.ForwardRefExoticComponent<Omit<BatteryVerticalFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const BatteryVerticalFilledMetadata: {
-    readonly id: "battery-vertical_filled";
-    readonly baseId: "battery-vertical";
-    readonly variant: "filled";
-    readonly name: "Battery Vertical";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface BatteryFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const BatteryFilled: React.ForwardRefExoticComponent<Omit<BatteryFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const BatteryFilledMetadata: {
-    readonly id: "battery_filled";
-    readonly baseId: "battery";
-    readonly variant: "filled";
-    readonly name: "Battery";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
 interface BedFlatFilledProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -9760,111 +13000,6 @@ declare const BeerFilledMetadata: {
     readonly baseId: "beer";
     readonly variant: "filled";
     readonly name: "Beer";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface BellMinusFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const BellMinusFilled: React.ForwardRefExoticComponent<Omit<BellMinusFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const BellMinusFilledMetadata: {
-    readonly id: "bell-minus_filled";
-    readonly baseId: "bell-minus";
-    readonly variant: "filled";
-    readonly name: "Bell Minus";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface BellPlusFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const BellPlusFilled: React.ForwardRefExoticComponent<Omit<BellPlusFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const BellPlusFilledMetadata: {
-    readonly id: "bell-plus_filled";
-    readonly baseId: "bell-plus";
-    readonly variant: "filled";
-    readonly name: "Bell Plus";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface BellRinging2FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const BellRinging2Filled: React.ForwardRefExoticComponent<Omit<BellRinging2FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const BellRinging2FilledMetadata: {
-    readonly id: "bell-ringing-2_filled";
-    readonly baseId: "bell-ringing-2";
-    readonly variant: "filled";
-    readonly name: "Bell Ringing 2";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface BellRingingFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const BellRingingFilled: React.ForwardRefExoticComponent<Omit<BellRingingFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const BellRingingFilledMetadata: {
-    readonly id: "bell-ringing_filled";
-    readonly baseId: "bell-ringing";
-    readonly variant: "filled";
-    readonly name: "Bell Ringing";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface BellXFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const BellXFilled: React.ForwardRefExoticComponent<Omit<BellXFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const BellXFilledMetadata: {
-    readonly id: "bell-x_filled";
-    readonly baseId: "bell-x";
-    readonly variant: "filled";
-    readonly name: "Bell X";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface BellZFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const BellZFilled: React.ForwardRefExoticComponent<Omit<BellZFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const BellZFilledMetadata: {
-    readonly id: "bell-z_filled";
-    readonly baseId: "bell-z";
-    readonly variant: "filled";
-    readonly name: "Bell Z";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface BellFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const BellFilled: React.ForwardRefExoticComponent<Omit<BellFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const BellFilledMetadata: {
-    readonly id: "bell_filled";
-    readonly baseId: "bell";
-    readonly variant: "filled";
-    readonly name: "Bell";
     readonly category: "filled";
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
@@ -10350,516 +13485,6 @@ declare const BoxMultipleFilledMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
-interface BrandAngularFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const BrandAngularFilled: React.ForwardRefExoticComponent<Omit<BrandAngularFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const BrandAngularFilledMetadata: {
-    readonly id: "brand-angular_filled";
-    readonly baseId: "brand-angular";
-    readonly variant: "filled";
-    readonly name: "Brand Angular";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface BrandAppleFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const BrandAppleFilled: React.ForwardRefExoticComponent<Omit<BrandAppleFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const BrandAppleFilledMetadata: {
-    readonly id: "brand-apple_filled";
-    readonly baseId: "brand-apple";
-    readonly variant: "filled";
-    readonly name: "Brand Apple";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface BrandBitbucketFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const BrandBitbucketFilled: React.ForwardRefExoticComponent<Omit<BrandBitbucketFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const BrandBitbucketFilledMetadata: {
-    readonly id: "brand-bitbucket_filled";
-    readonly baseId: "brand-bitbucket";
-    readonly variant: "filled";
-    readonly name: "Brand Bitbucket";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface BrandDiscordFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const BrandDiscordFilled: React.ForwardRefExoticComponent<Omit<BrandDiscordFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const BrandDiscordFilledMetadata: {
-    readonly id: "brand-discord_filled";
-    readonly baseId: "brand-discord";
-    readonly variant: "filled";
-    readonly name: "Brand Discord";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface BrandDribbbleFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const BrandDribbbleFilled: React.ForwardRefExoticComponent<Omit<BrandDribbbleFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const BrandDribbbleFilledMetadata: {
-    readonly id: "brand-dribbble_filled";
-    readonly baseId: "brand-dribbble";
-    readonly variant: "filled";
-    readonly name: "Brand Dribbble";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface BrandFacebookFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const BrandFacebookFilled: React.ForwardRefExoticComponent<Omit<BrandFacebookFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const BrandFacebookFilledMetadata: {
-    readonly id: "brand-facebook_filled";
-    readonly baseId: "brand-facebook";
-    readonly variant: "filled";
-    readonly name: "Brand Facebook";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface BrandGithubFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const BrandGithubFilled: React.ForwardRefExoticComponent<Omit<BrandGithubFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const BrandGithubFilledMetadata: {
-    readonly id: "brand-github_filled";
-    readonly baseId: "brand-github";
-    readonly variant: "filled";
-    readonly name: "Brand Github";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface BrandGoogleFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const BrandGoogleFilled: React.ForwardRefExoticComponent<Omit<BrandGoogleFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const BrandGoogleFilledMetadata: {
-    readonly id: "brand-google_filled";
-    readonly baseId: "brand-google";
-    readonly variant: "filled";
-    readonly name: "Brand Google";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface BrandInstagramFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const BrandInstagramFilled: React.ForwardRefExoticComponent<Omit<BrandInstagramFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const BrandInstagramFilledMetadata: {
-    readonly id: "brand-instagram_filled";
-    readonly baseId: "brand-instagram";
-    readonly variant: "filled";
-    readonly name: "Brand Instagram";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface BrandKickFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const BrandKickFilled: React.ForwardRefExoticComponent<Omit<BrandKickFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const BrandKickFilledMetadata: {
-    readonly id: "brand-kick_filled";
-    readonly baseId: "brand-kick";
-    readonly variant: "filled";
-    readonly name: "Brand Kick";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface BrandLinkedinFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const BrandLinkedinFilled: React.ForwardRefExoticComponent<Omit<BrandLinkedinFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const BrandLinkedinFilledMetadata: {
-    readonly id: "brand-linkedin_filled";
-    readonly baseId: "brand-linkedin";
-    readonly variant: "filled";
-    readonly name: "Brand Linkedin";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface BrandMessengerFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const BrandMessengerFilled: React.ForwardRefExoticComponent<Omit<BrandMessengerFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const BrandMessengerFilledMetadata: {
-    readonly id: "brand-messenger_filled";
-    readonly baseId: "brand-messenger";
-    readonly variant: "filled";
-    readonly name: "Brand Messenger";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface BrandOpenSourceFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const BrandOpenSourceFilled: React.ForwardRefExoticComponent<Omit<BrandOpenSourceFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const BrandOpenSourceFilledMetadata: {
-    readonly id: "brand-open-source_filled";
-    readonly baseId: "brand-open-source";
-    readonly variant: "filled";
-    readonly name: "Brand Open Source";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface BrandOperaFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const BrandOperaFilled: React.ForwardRefExoticComponent<Omit<BrandOperaFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const BrandOperaFilledMetadata: {
-    readonly id: "brand-opera_filled";
-    readonly baseId: "brand-opera";
-    readonly variant: "filled";
-    readonly name: "Brand Opera";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface BrandPatreonFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const BrandPatreonFilled: React.ForwardRefExoticComponent<Omit<BrandPatreonFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const BrandPatreonFilledMetadata: {
-    readonly id: "brand-patreon_filled";
-    readonly baseId: "brand-patreon";
-    readonly variant: "filled";
-    readonly name: "Brand Patreon";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface BrandPaypalFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const BrandPaypalFilled: React.ForwardRefExoticComponent<Omit<BrandPaypalFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const BrandPaypalFilledMetadata: {
-    readonly id: "brand-paypal_filled";
-    readonly baseId: "brand-paypal";
-    readonly variant: "filled";
-    readonly name: "Brand Paypal";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface BrandPinterestFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const BrandPinterestFilled: React.ForwardRefExoticComponent<Omit<BrandPinterestFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const BrandPinterestFilledMetadata: {
-    readonly id: "brand-pinterest_filled";
-    readonly baseId: "brand-pinterest";
-    readonly variant: "filled";
-    readonly name: "Brand Pinterest";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface BrandSketchFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const BrandSketchFilled: React.ForwardRefExoticComponent<Omit<BrandSketchFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const BrandSketchFilledMetadata: {
-    readonly id: "brand-sketch_filled";
-    readonly baseId: "brand-sketch";
-    readonly variant: "filled";
-    readonly name: "Brand Sketch";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface BrandSnapchatFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const BrandSnapchatFilled: React.ForwardRefExoticComponent<Omit<BrandSnapchatFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const BrandSnapchatFilledMetadata: {
-    readonly id: "brand-snapchat_filled";
-    readonly baseId: "brand-snapchat";
-    readonly variant: "filled";
-    readonly name: "Brand Snapchat";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface BrandSpotifyFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const BrandSpotifyFilled: React.ForwardRefExoticComponent<Omit<BrandSpotifyFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const BrandSpotifyFilledMetadata: {
-    readonly id: "brand-spotify_filled";
-    readonly baseId: "brand-spotify";
-    readonly variant: "filled";
-    readonly name: "Brand Spotify";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface BrandSteamFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const BrandSteamFilled: React.ForwardRefExoticComponent<Omit<BrandSteamFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const BrandSteamFilledMetadata: {
-    readonly id: "brand-steam_filled";
-    readonly baseId: "brand-steam";
-    readonly variant: "filled";
-    readonly name: "Brand Steam";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface BrandStripeFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const BrandStripeFilled: React.ForwardRefExoticComponent<Omit<BrandStripeFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const BrandStripeFilledMetadata: {
-    readonly id: "brand-stripe_filled";
-    readonly baseId: "brand-stripe";
-    readonly variant: "filled";
-    readonly name: "Brand Stripe";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface BrandTablerFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const BrandTablerFilled: React.ForwardRefExoticComponent<Omit<BrandTablerFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const BrandTablerFilledMetadata: {
-    readonly id: "brand-tabler_filled";
-    readonly baseId: "brand-tabler";
-    readonly variant: "filled";
-    readonly name: "Brand Tabler";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface BrandTiktokFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const BrandTiktokFilled: React.ForwardRefExoticComponent<Omit<BrandTiktokFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const BrandTiktokFilledMetadata: {
-    readonly id: "brand-tiktok_filled";
-    readonly baseId: "brand-tiktok";
-    readonly variant: "filled";
-    readonly name: "Brand Tiktok";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface BrandTinderFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const BrandTinderFilled: React.ForwardRefExoticComponent<Omit<BrandTinderFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const BrandTinderFilledMetadata: {
-    readonly id: "brand-tinder_filled";
-    readonly baseId: "brand-tinder";
-    readonly variant: "filled";
-    readonly name: "Brand Tinder";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface BrandTumblrFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const BrandTumblrFilled: React.ForwardRefExoticComponent<Omit<BrandTumblrFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const BrandTumblrFilledMetadata: {
-    readonly id: "brand-tumblr_filled";
-    readonly baseId: "brand-tumblr";
-    readonly variant: "filled";
-    readonly name: "Brand Tumblr";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface BrandTwitterFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const BrandTwitterFilled: React.ForwardRefExoticComponent<Omit<BrandTwitterFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const BrandTwitterFilledMetadata: {
-    readonly id: "brand-twitter_filled";
-    readonly baseId: "brand-twitter";
-    readonly variant: "filled";
-    readonly name: "Brand Twitter";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface BrandVercelFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const BrandVercelFilled: React.ForwardRefExoticComponent<Omit<BrandVercelFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const BrandVercelFilledMetadata: {
-    readonly id: "brand-vercel_filled";
-    readonly baseId: "brand-vercel";
-    readonly variant: "filled";
-    readonly name: "Brand Vercel";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface BrandVimeoFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const BrandVimeoFilled: React.ForwardRefExoticComponent<Omit<BrandVimeoFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const BrandVimeoFilledMetadata: {
-    readonly id: "brand-vimeo_filled";
-    readonly baseId: "brand-vimeo";
-    readonly variant: "filled";
-    readonly name: "Brand Vimeo";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface BrandWeiboFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const BrandWeiboFilled: React.ForwardRefExoticComponent<Omit<BrandWeiboFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const BrandWeiboFilledMetadata: {
-    readonly id: "brand-weibo_filled";
-    readonly baseId: "brand-weibo";
-    readonly variant: "filled";
-    readonly name: "Brand Weibo";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface BrandWhatsappFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const BrandWhatsappFilled: React.ForwardRefExoticComponent<Omit<BrandWhatsappFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const BrandWhatsappFilledMetadata: {
-    readonly id: "brand-whatsapp_filled";
-    readonly baseId: "brand-whatsapp";
-    readonly variant: "filled";
-    readonly name: "Brand Whatsapp";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface BrandWindowsFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const BrandWindowsFilled: React.ForwardRefExoticComponent<Omit<BrandWindowsFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const BrandWindowsFilledMetadata: {
-    readonly id: "brand-windows_filled";
-    readonly baseId: "brand-windows";
-    readonly variant: "filled";
-    readonly name: "Brand Windows";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface BrandXFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const BrandXFilled: React.ForwardRefExoticComponent<Omit<BrandXFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const BrandXFilledMetadata: {
-    readonly id: "brand-x_filled";
-    readonly baseId: "brand-x";
-    readonly variant: "filled";
-    readonly name: "Brand X";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface BrandYoutubeFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const BrandYoutubeFilled: React.ForwardRefExoticComponent<Omit<BrandYoutubeFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const BrandYoutubeFilledMetadata: {
-    readonly id: "brand-youtube_filled";
-    readonly baseId: "brand-youtube";
-    readonly variant: "filled";
-    readonly name: "Brand Youtube";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
 interface BreadFilledProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -11095,81 +13720,6 @@ declare const CactusFilledMetadata: {
     readonly baseId: "cactus";
     readonly variant: "filled";
     readonly name: "Cactus";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CalculatorFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CalculatorFilled: React.ForwardRefExoticComponent<Omit<CalculatorFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CalculatorFilledMetadata: {
-    readonly id: "calculator_filled";
-    readonly baseId: "calculator";
-    readonly variant: "filled";
-    readonly name: "Calculator";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CalendarEventFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CalendarEventFilled: React.ForwardRefExoticComponent<Omit<CalendarEventFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CalendarEventFilledMetadata: {
-    readonly id: "calendar-event_filled";
-    readonly baseId: "calendar-event";
-    readonly variant: "filled";
-    readonly name: "Calendar Event";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CalendarMonthFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CalendarMonthFilled: React.ForwardRefExoticComponent<Omit<CalendarMonthFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CalendarMonthFilledMetadata: {
-    readonly id: "calendar-month_filled";
-    readonly baseId: "calendar-month";
-    readonly variant: "filled";
-    readonly name: "Calendar Month";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CalendarWeekFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CalendarWeekFilled: React.ForwardRefExoticComponent<Omit<CalendarWeekFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CalendarWeekFilledMetadata: {
-    readonly id: "calendar-week_filled";
-    readonly baseId: "calendar-week";
-    readonly variant: "filled";
-    readonly name: "Calendar Week";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CalendarFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CalendarFilled: React.ForwardRefExoticComponent<Omit<CalendarFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CalendarFilledMetadata: {
-    readonly id: "calendar_filled";
-    readonly baseId: "calendar";
-    readonly variant: "filled";
-    readonly name: "Calendar";
     readonly category: "filled";
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
@@ -11580,216 +14130,6 @@ declare const ChargingPileFilledMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
-interface ChartAreaLineFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const ChartAreaLineFilled: React.ForwardRefExoticComponent<Omit<ChartAreaLineFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const ChartAreaLineFilledMetadata: {
-    readonly id: "chart-area-line_filled";
-    readonly baseId: "chart-area-line";
-    readonly variant: "filled";
-    readonly name: "Chart Area Line";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface ChartAreaFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const ChartAreaFilled: React.ForwardRefExoticComponent<Omit<ChartAreaFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const ChartAreaFilledMetadata: {
-    readonly id: "chart-area_filled";
-    readonly baseId: "chart-area";
-    readonly variant: "filled";
-    readonly name: "Chart Area";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface ChartBubbleFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const ChartBubbleFilled: React.ForwardRefExoticComponent<Omit<ChartBubbleFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const ChartBubbleFilledMetadata: {
-    readonly id: "chart-bubble_filled";
-    readonly baseId: "chart-bubble";
-    readonly variant: "filled";
-    readonly name: "Chart Bubble";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface ChartCandleFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const ChartCandleFilled: React.ForwardRefExoticComponent<Omit<ChartCandleFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const ChartCandleFilledMetadata: {
-    readonly id: "chart-candle_filled";
-    readonly baseId: "chart-candle";
-    readonly variant: "filled";
-    readonly name: "Chart Candle";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface ChartDonutFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const ChartDonutFilled: React.ForwardRefExoticComponent<Omit<ChartDonutFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const ChartDonutFilledMetadata: {
-    readonly id: "chart-donut_filled";
-    readonly baseId: "chart-donut";
-    readonly variant: "filled";
-    readonly name: "Chart Donut";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface ChartDots2FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const ChartDots2Filled: React.ForwardRefExoticComponent<Omit<ChartDots2FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const ChartDots2FilledMetadata: {
-    readonly id: "chart-dots-2_filled";
-    readonly baseId: "chart-dots-2";
-    readonly variant: "filled";
-    readonly name: "Chart Dots 2";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface ChartDots3FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const ChartDots3Filled: React.ForwardRefExoticComponent<Omit<ChartDots3FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const ChartDots3FilledMetadata: {
-    readonly id: "chart-dots-3_filled";
-    readonly baseId: "chart-dots-3";
-    readonly variant: "filled";
-    readonly name: "Chart Dots 3";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface ChartDotsFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const ChartDotsFilled: React.ForwardRefExoticComponent<Omit<ChartDotsFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const ChartDotsFilledMetadata: {
-    readonly id: "chart-dots_filled";
-    readonly baseId: "chart-dots";
-    readonly variant: "filled";
-    readonly name: "Chart Dots";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface ChartFunnelFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const ChartFunnelFilled: React.ForwardRefExoticComponent<Omit<ChartFunnelFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const ChartFunnelFilledMetadata: {
-    readonly id: "chart-funnel_filled";
-    readonly baseId: "chart-funnel";
-    readonly variant: "filled";
-    readonly name: "Chart Funnel";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface ChartGridDotsFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const ChartGridDotsFilled: React.ForwardRefExoticComponent<Omit<ChartGridDotsFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const ChartGridDotsFilledMetadata: {
-    readonly id: "chart-grid-dots_filled";
-    readonly baseId: "chart-grid-dots";
-    readonly variant: "filled";
-    readonly name: "Chart Grid Dots";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface ChartPie2FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const ChartPie2Filled: React.ForwardRefExoticComponent<Omit<ChartPie2FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const ChartPie2FilledMetadata: {
-    readonly id: "chart-pie-2_filled";
-    readonly baseId: "chart-pie-2";
-    readonly variant: "filled";
-    readonly name: "Chart Pie 2";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface ChartPie3FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const ChartPie3Filled: React.ForwardRefExoticComponent<Omit<ChartPie3FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const ChartPie3FilledMetadata: {
-    readonly id: "chart-pie-3_filled";
-    readonly baseId: "chart-pie-3";
-    readonly variant: "filled";
-    readonly name: "Chart Pie 3";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface ChartPie4FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const ChartPie4Filled: React.ForwardRefExoticComponent<Omit<ChartPie4FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const ChartPie4FilledMetadata: {
-    readonly id: "chart-pie-4_filled";
-    readonly baseId: "chart-pie-4";
-    readonly variant: "filled";
-    readonly name: "Chart Pie 4";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface ChartPieFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const ChartPieFilled: React.ForwardRefExoticComponent<Omit<ChartPieFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const ChartPieFilledMetadata: {
-    readonly id: "chart-pie_filled";
-    readonly baseId: "chart-pie";
-    readonly variant: "filled";
-    readonly name: "Chart Pie";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
 interface ChefHatFilledProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -11925,1311 +14265,6 @@ declare const ChristmasTreeFilledMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
-interface CircleArrowDownLeftFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CircleArrowDownLeftFilled: React.ForwardRefExoticComponent<Omit<CircleArrowDownLeftFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CircleArrowDownLeftFilledMetadata: {
-    readonly id: "circle-arrow-down-left_filled";
-    readonly baseId: "circle-arrow-down-left";
-    readonly variant: "filled";
-    readonly name: "Circle Arrow Down Left";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CircleArrowDownRightFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CircleArrowDownRightFilled: React.ForwardRefExoticComponent<Omit<CircleArrowDownRightFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CircleArrowDownRightFilledMetadata: {
-    readonly id: "circle-arrow-down-right_filled";
-    readonly baseId: "circle-arrow-down-right";
-    readonly variant: "filled";
-    readonly name: "Circle Arrow Down Right";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CircleArrowDownFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CircleArrowDownFilled: React.ForwardRefExoticComponent<Omit<CircleArrowDownFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CircleArrowDownFilledMetadata: {
-    readonly id: "circle-arrow-down_filled";
-    readonly baseId: "circle-arrow-down";
-    readonly variant: "filled";
-    readonly name: "Circle Arrow Down";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CircleArrowLeftFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CircleArrowLeftFilled: React.ForwardRefExoticComponent<Omit<CircleArrowLeftFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CircleArrowLeftFilledMetadata: {
-    readonly id: "circle-arrow-left_filled";
-    readonly baseId: "circle-arrow-left";
-    readonly variant: "filled";
-    readonly name: "Circle Arrow Left";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CircleArrowRightFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CircleArrowRightFilled: React.ForwardRefExoticComponent<Omit<CircleArrowRightFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CircleArrowRightFilledMetadata: {
-    readonly id: "circle-arrow-right_filled";
-    readonly baseId: "circle-arrow-right";
-    readonly variant: "filled";
-    readonly name: "Circle Arrow Right";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CircleArrowUpLeftFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CircleArrowUpLeftFilled: React.ForwardRefExoticComponent<Omit<CircleArrowUpLeftFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CircleArrowUpLeftFilledMetadata: {
-    readonly id: "circle-arrow-up-left_filled";
-    readonly baseId: "circle-arrow-up-left";
-    readonly variant: "filled";
-    readonly name: "Circle Arrow Up Left";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CircleArrowUpRightFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CircleArrowUpRightFilled: React.ForwardRefExoticComponent<Omit<CircleArrowUpRightFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CircleArrowUpRightFilledMetadata: {
-    readonly id: "circle-arrow-up-right_filled";
-    readonly baseId: "circle-arrow-up-right";
-    readonly variant: "filled";
-    readonly name: "Circle Arrow Up Right";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CircleArrowUpFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CircleArrowUpFilled: React.ForwardRefExoticComponent<Omit<CircleArrowUpFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CircleArrowUpFilledMetadata: {
-    readonly id: "circle-arrow-up_filled";
-    readonly baseId: "circle-arrow-up";
-    readonly variant: "filled";
-    readonly name: "Circle Arrow Up";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CircleCaretDownFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CircleCaretDownFilled: React.ForwardRefExoticComponent<Omit<CircleCaretDownFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CircleCaretDownFilledMetadata: {
-    readonly id: "circle-caret-down_filled";
-    readonly baseId: "circle-caret-down";
-    readonly variant: "filled";
-    readonly name: "Circle Caret Down";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CircleCaretLeftFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CircleCaretLeftFilled: React.ForwardRefExoticComponent<Omit<CircleCaretLeftFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CircleCaretLeftFilledMetadata: {
-    readonly id: "circle-caret-left_filled";
-    readonly baseId: "circle-caret-left";
-    readonly variant: "filled";
-    readonly name: "Circle Caret Left";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CircleCaretRightFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CircleCaretRightFilled: React.ForwardRefExoticComponent<Omit<CircleCaretRightFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CircleCaretRightFilledMetadata: {
-    readonly id: "circle-caret-right_filled";
-    readonly baseId: "circle-caret-right";
-    readonly variant: "filled";
-    readonly name: "Circle Caret Right";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CircleCaretUpFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CircleCaretUpFilled: React.ForwardRefExoticComponent<Omit<CircleCaretUpFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CircleCaretUpFilledMetadata: {
-    readonly id: "circle-caret-up_filled";
-    readonly baseId: "circle-caret-up";
-    readonly variant: "filled";
-    readonly name: "Circle Caret Up";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CircleCheckFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CircleCheckFilled: React.ForwardRefExoticComponent<Omit<CircleCheckFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CircleCheckFilledMetadata: {
-    readonly id: "circle-check_filled";
-    readonly baseId: "circle-check";
-    readonly variant: "filled";
-    readonly name: "Circle Check";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CircleChevronDownFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CircleChevronDownFilled: React.ForwardRefExoticComponent<Omit<CircleChevronDownFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CircleChevronDownFilledMetadata: {
-    readonly id: "circle-chevron-down_filled";
-    readonly baseId: "circle-chevron-down";
-    readonly variant: "filled";
-    readonly name: "Circle Chevron Down";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CircleChevronLeftFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CircleChevronLeftFilled: React.ForwardRefExoticComponent<Omit<CircleChevronLeftFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CircleChevronLeftFilledMetadata: {
-    readonly id: "circle-chevron-left_filled";
-    readonly baseId: "circle-chevron-left";
-    readonly variant: "filled";
-    readonly name: "Circle Chevron Left";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CircleChevronRightFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CircleChevronRightFilled: React.ForwardRefExoticComponent<Omit<CircleChevronRightFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CircleChevronRightFilledMetadata: {
-    readonly id: "circle-chevron-right_filled";
-    readonly baseId: "circle-chevron-right";
-    readonly variant: "filled";
-    readonly name: "Circle Chevron Right";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CircleChevronUpFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CircleChevronUpFilled: React.ForwardRefExoticComponent<Omit<CircleChevronUpFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CircleChevronUpFilledMetadata: {
-    readonly id: "circle-chevron-up_filled";
-    readonly baseId: "circle-chevron-up";
-    readonly variant: "filled";
-    readonly name: "Circle Chevron Up";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CircleChevronsDownFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CircleChevronsDownFilled: React.ForwardRefExoticComponent<Omit<CircleChevronsDownFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CircleChevronsDownFilledMetadata: {
-    readonly id: "circle-chevrons-down_filled";
-    readonly baseId: "circle-chevrons-down";
-    readonly variant: "filled";
-    readonly name: "Circle Chevrons Down";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CircleChevronsLeftFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CircleChevronsLeftFilled: React.ForwardRefExoticComponent<Omit<CircleChevronsLeftFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CircleChevronsLeftFilledMetadata: {
-    readonly id: "circle-chevrons-left_filled";
-    readonly baseId: "circle-chevrons-left";
-    readonly variant: "filled";
-    readonly name: "Circle Chevrons Left";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CircleChevronsRightFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CircleChevronsRightFilled: React.ForwardRefExoticComponent<Omit<CircleChevronsRightFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CircleChevronsRightFilledMetadata: {
-    readonly id: "circle-chevrons-right_filled";
-    readonly baseId: "circle-chevrons-right";
-    readonly variant: "filled";
-    readonly name: "Circle Chevrons Right";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CircleChevronsUpFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CircleChevronsUpFilled: React.ForwardRefExoticComponent<Omit<CircleChevronsUpFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CircleChevronsUpFilledMetadata: {
-    readonly id: "circle-chevrons-up_filled";
-    readonly baseId: "circle-chevrons-up";
-    readonly variant: "filled";
-    readonly name: "Circle Chevrons Up";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CircleDotFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CircleDotFilled: React.ForwardRefExoticComponent<Omit<CircleDotFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CircleDotFilledMetadata: {
-    readonly id: "circle-dot_filled";
-    readonly baseId: "circle-dot";
-    readonly variant: "filled";
-    readonly name: "Circle Dot";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CircleKeyFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CircleKeyFilled: React.ForwardRefExoticComponent<Omit<CircleKeyFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CircleKeyFilledMetadata: {
-    readonly id: "circle-key_filled";
-    readonly baseId: "circle-key";
-    readonly variant: "filled";
-    readonly name: "Circle Key";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CircleLetterAFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CircleLetterAFilled: React.ForwardRefExoticComponent<Omit<CircleLetterAFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CircleLetterAFilledMetadata: {
-    readonly id: "circle-letter-a_filled";
-    readonly baseId: "circle-letter-a";
-    readonly variant: "filled";
-    readonly name: "Circle Letter A";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CircleLetterBFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CircleLetterBFilled: React.ForwardRefExoticComponent<Omit<CircleLetterBFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CircleLetterBFilledMetadata: {
-    readonly id: "circle-letter-b_filled";
-    readonly baseId: "circle-letter-b";
-    readonly variant: "filled";
-    readonly name: "Circle Letter B";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CircleLetterCFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CircleLetterCFilled: React.ForwardRefExoticComponent<Omit<CircleLetterCFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CircleLetterCFilledMetadata: {
-    readonly id: "circle-letter-c_filled";
-    readonly baseId: "circle-letter-c";
-    readonly variant: "filled";
-    readonly name: "Circle Letter C";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CircleLetterDFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CircleLetterDFilled: React.ForwardRefExoticComponent<Omit<CircleLetterDFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CircleLetterDFilledMetadata: {
-    readonly id: "circle-letter-d_filled";
-    readonly baseId: "circle-letter-d";
-    readonly variant: "filled";
-    readonly name: "Circle Letter D";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CircleLetterEFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CircleLetterEFilled: React.ForwardRefExoticComponent<Omit<CircleLetterEFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CircleLetterEFilledMetadata: {
-    readonly id: "circle-letter-e_filled";
-    readonly baseId: "circle-letter-e";
-    readonly variant: "filled";
-    readonly name: "Circle Letter E";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CircleLetterFFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CircleLetterFFilled: React.ForwardRefExoticComponent<Omit<CircleLetterFFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CircleLetterFFilledMetadata: {
-    readonly id: "circle-letter-f_filled";
-    readonly baseId: "circle-letter-f";
-    readonly variant: "filled";
-    readonly name: "Circle Letter F";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CircleLetterGFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CircleLetterGFilled: React.ForwardRefExoticComponent<Omit<CircleLetterGFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CircleLetterGFilledMetadata: {
-    readonly id: "circle-letter-g_filled";
-    readonly baseId: "circle-letter-g";
-    readonly variant: "filled";
-    readonly name: "Circle Letter G";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CircleLetterHFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CircleLetterHFilled: React.ForwardRefExoticComponent<Omit<CircleLetterHFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CircleLetterHFilledMetadata: {
-    readonly id: "circle-letter-h_filled";
-    readonly baseId: "circle-letter-h";
-    readonly variant: "filled";
-    readonly name: "Circle Letter H";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CircleLetterIFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CircleLetterIFilled: React.ForwardRefExoticComponent<Omit<CircleLetterIFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CircleLetterIFilledMetadata: {
-    readonly id: "circle-letter-i_filled";
-    readonly baseId: "circle-letter-i";
-    readonly variant: "filled";
-    readonly name: "Circle Letter I";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CircleLetterJFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CircleLetterJFilled: React.ForwardRefExoticComponent<Omit<CircleLetterJFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CircleLetterJFilledMetadata: {
-    readonly id: "circle-letter-j_filled";
-    readonly baseId: "circle-letter-j";
-    readonly variant: "filled";
-    readonly name: "Circle Letter J";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CircleLetterKFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CircleLetterKFilled: React.ForwardRefExoticComponent<Omit<CircleLetterKFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CircleLetterKFilledMetadata: {
-    readonly id: "circle-letter-k_filled";
-    readonly baseId: "circle-letter-k";
-    readonly variant: "filled";
-    readonly name: "Circle Letter K";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CircleLetterLFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CircleLetterLFilled: React.ForwardRefExoticComponent<Omit<CircleLetterLFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CircleLetterLFilledMetadata: {
-    readonly id: "circle-letter-l_filled";
-    readonly baseId: "circle-letter-l";
-    readonly variant: "filled";
-    readonly name: "Circle Letter L";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CircleLetterMFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CircleLetterMFilled: React.ForwardRefExoticComponent<Omit<CircleLetterMFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CircleLetterMFilledMetadata: {
-    readonly id: "circle-letter-m_filled";
-    readonly baseId: "circle-letter-m";
-    readonly variant: "filled";
-    readonly name: "Circle Letter M";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CircleLetterNFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CircleLetterNFilled: React.ForwardRefExoticComponent<Omit<CircleLetterNFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CircleLetterNFilledMetadata: {
-    readonly id: "circle-letter-n_filled";
-    readonly baseId: "circle-letter-n";
-    readonly variant: "filled";
-    readonly name: "Circle Letter N";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CircleLetterOFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CircleLetterOFilled: React.ForwardRefExoticComponent<Omit<CircleLetterOFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CircleLetterOFilledMetadata: {
-    readonly id: "circle-letter-o_filled";
-    readonly baseId: "circle-letter-o";
-    readonly variant: "filled";
-    readonly name: "Circle Letter O";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CircleLetterPFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CircleLetterPFilled: React.ForwardRefExoticComponent<Omit<CircleLetterPFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CircleLetterPFilledMetadata: {
-    readonly id: "circle-letter-p_filled";
-    readonly baseId: "circle-letter-p";
-    readonly variant: "filled";
-    readonly name: "Circle Letter P";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CircleLetterQFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CircleLetterQFilled: React.ForwardRefExoticComponent<Omit<CircleLetterQFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CircleLetterQFilledMetadata: {
-    readonly id: "circle-letter-q_filled";
-    readonly baseId: "circle-letter-q";
-    readonly variant: "filled";
-    readonly name: "Circle Letter Q";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CircleLetterRFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CircleLetterRFilled: React.ForwardRefExoticComponent<Omit<CircleLetterRFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CircleLetterRFilledMetadata: {
-    readonly id: "circle-letter-r_filled";
-    readonly baseId: "circle-letter-r";
-    readonly variant: "filled";
-    readonly name: "Circle Letter R";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CircleLetterSFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CircleLetterSFilled: React.ForwardRefExoticComponent<Omit<CircleLetterSFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CircleLetterSFilledMetadata: {
-    readonly id: "circle-letter-s_filled";
-    readonly baseId: "circle-letter-s";
-    readonly variant: "filled";
-    readonly name: "Circle Letter S";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CircleLetterTFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CircleLetterTFilled: React.ForwardRefExoticComponent<Omit<CircleLetterTFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CircleLetterTFilledMetadata: {
-    readonly id: "circle-letter-t_filled";
-    readonly baseId: "circle-letter-t";
-    readonly variant: "filled";
-    readonly name: "Circle Letter T";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CircleLetterUFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CircleLetterUFilled: React.ForwardRefExoticComponent<Omit<CircleLetterUFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CircleLetterUFilledMetadata: {
-    readonly id: "circle-letter-u_filled";
-    readonly baseId: "circle-letter-u";
-    readonly variant: "filled";
-    readonly name: "Circle Letter U";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CircleLetterVFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CircleLetterVFilled: React.ForwardRefExoticComponent<Omit<CircleLetterVFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CircleLetterVFilledMetadata: {
-    readonly id: "circle-letter-v_filled";
-    readonly baseId: "circle-letter-v";
-    readonly variant: "filled";
-    readonly name: "Circle Letter V";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CircleLetterWFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CircleLetterWFilled: React.ForwardRefExoticComponent<Omit<CircleLetterWFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CircleLetterWFilledMetadata: {
-    readonly id: "circle-letter-w_filled";
-    readonly baseId: "circle-letter-w";
-    readonly variant: "filled";
-    readonly name: "Circle Letter W";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CircleLetterXFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CircleLetterXFilled: React.ForwardRefExoticComponent<Omit<CircleLetterXFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CircleLetterXFilledMetadata: {
-    readonly id: "circle-letter-x_filled";
-    readonly baseId: "circle-letter-x";
-    readonly variant: "filled";
-    readonly name: "Circle Letter X";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CircleLetterYFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CircleLetterYFilled: React.ForwardRefExoticComponent<Omit<CircleLetterYFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CircleLetterYFilledMetadata: {
-    readonly id: "circle-letter-y_filled";
-    readonly baseId: "circle-letter-y";
-    readonly variant: "filled";
-    readonly name: "Circle Letter Y";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CircleLetterZFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CircleLetterZFilled: React.ForwardRefExoticComponent<Omit<CircleLetterZFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CircleLetterZFilledMetadata: {
-    readonly id: "circle-letter-z_filled";
-    readonly baseId: "circle-letter-z";
-    readonly variant: "filled";
-    readonly name: "Circle Letter Z";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CircleNumber0FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CircleNumber0Filled: React.ForwardRefExoticComponent<Omit<CircleNumber0FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CircleNumber0FilledMetadata: {
-    readonly id: "circle-number-0_filled";
-    readonly baseId: "circle-number-0";
-    readonly variant: "filled";
-    readonly name: "Circle Number 0";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CircleNumber1FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CircleNumber1Filled: React.ForwardRefExoticComponent<Omit<CircleNumber1FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CircleNumber1FilledMetadata: {
-    readonly id: "circle-number-1_filled";
-    readonly baseId: "circle-number-1";
-    readonly variant: "filled";
-    readonly name: "Circle Number 1";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CircleNumber2FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CircleNumber2Filled: React.ForwardRefExoticComponent<Omit<CircleNumber2FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CircleNumber2FilledMetadata: {
-    readonly id: "circle-number-2_filled";
-    readonly baseId: "circle-number-2";
-    readonly variant: "filled";
-    readonly name: "Circle Number 2";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CircleNumber3FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CircleNumber3Filled: React.ForwardRefExoticComponent<Omit<CircleNumber3FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CircleNumber3FilledMetadata: {
-    readonly id: "circle-number-3_filled";
-    readonly baseId: "circle-number-3";
-    readonly variant: "filled";
-    readonly name: "Circle Number 3";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CircleNumber4FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CircleNumber4Filled: React.ForwardRefExoticComponent<Omit<CircleNumber4FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CircleNumber4FilledMetadata: {
-    readonly id: "circle-number-4_filled";
-    readonly baseId: "circle-number-4";
-    readonly variant: "filled";
-    readonly name: "Circle Number 4";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CircleNumber5FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CircleNumber5Filled: React.ForwardRefExoticComponent<Omit<CircleNumber5FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CircleNumber5FilledMetadata: {
-    readonly id: "circle-number-5_filled";
-    readonly baseId: "circle-number-5";
-    readonly variant: "filled";
-    readonly name: "Circle Number 5";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CircleNumber6FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CircleNumber6Filled: React.ForwardRefExoticComponent<Omit<CircleNumber6FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CircleNumber6FilledMetadata: {
-    readonly id: "circle-number-6_filled";
-    readonly baseId: "circle-number-6";
-    readonly variant: "filled";
-    readonly name: "Circle Number 6";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CircleNumber7FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CircleNumber7Filled: React.ForwardRefExoticComponent<Omit<CircleNumber7FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CircleNumber7FilledMetadata: {
-    readonly id: "circle-number-7_filled";
-    readonly baseId: "circle-number-7";
-    readonly variant: "filled";
-    readonly name: "Circle Number 7";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CircleNumber8FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CircleNumber8Filled: React.ForwardRefExoticComponent<Omit<CircleNumber8FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CircleNumber8FilledMetadata: {
-    readonly id: "circle-number-8_filled";
-    readonly baseId: "circle-number-8";
-    readonly variant: "filled";
-    readonly name: "Circle Number 8";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CircleNumber9FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CircleNumber9Filled: React.ForwardRefExoticComponent<Omit<CircleNumber9FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CircleNumber9FilledMetadata: {
-    readonly id: "circle-number-9_filled";
-    readonly baseId: "circle-number-9";
-    readonly variant: "filled";
-    readonly name: "Circle Number 9";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CirclePercentageFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CirclePercentageFilled: React.ForwardRefExoticComponent<Omit<CirclePercentageFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CirclePercentageFilledMetadata: {
-    readonly id: "circle-percentage_filled";
-    readonly baseId: "circle-percentage";
-    readonly variant: "filled";
-    readonly name: "Circle Percentage";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CirclePlusFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CirclePlusFilled: React.ForwardRefExoticComponent<Omit<CirclePlusFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CirclePlusFilledMetadata: {
-    readonly id: "circle-plus_filled";
-    readonly baseId: "circle-plus";
-    readonly variant: "filled";
-    readonly name: "Circle Plus";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CircleRectangleFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CircleRectangleFilled: React.ForwardRefExoticComponent<Omit<CircleRectangleFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CircleRectangleFilledMetadata: {
-    readonly id: "circle-rectangle_filled";
-    readonly baseId: "circle-rectangle";
-    readonly variant: "filled";
-    readonly name: "Circle Rectangle";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CircleXFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CircleXFilled: React.ForwardRefExoticComponent<Omit<CircleXFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CircleXFilledMetadata: {
-    readonly id: "circle-x_filled";
-    readonly baseId: "circle-x";
-    readonly variant: "filled";
-    readonly name: "Circle X";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CircleFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CircleFilled: React.ForwardRefExoticComponent<Omit<CircleFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CircleFilledMetadata: {
-    readonly id: "circle_filled";
-    readonly baseId: "circle";
-    readonly variant: "filled";
-    readonly name: "Circle";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CirclesFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CirclesFilled: React.ForwardRefExoticComponent<Omit<CirclesFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CirclesFilledMetadata: {
-    readonly id: "circles_filled";
-    readonly baseId: "circles";
-    readonly variant: "filled";
-    readonly name: "Circles";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface ClipboardCheckFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const ClipboardCheckFilled: React.ForwardRefExoticComponent<Omit<ClipboardCheckFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const ClipboardCheckFilledMetadata: {
-    readonly id: "clipboard-check_filled";
-    readonly baseId: "clipboard-check";
-    readonly variant: "filled";
-    readonly name: "Clipboard Check";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface ClipboardDataFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const ClipboardDataFilled: React.ForwardRefExoticComponent<Omit<ClipboardDataFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const ClipboardDataFilledMetadata: {
-    readonly id: "clipboard-data_filled";
-    readonly baseId: "clipboard-data";
-    readonly variant: "filled";
-    readonly name: "Clipboard Data";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface ClipboardListFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const ClipboardListFilled: React.ForwardRefExoticComponent<Omit<ClipboardListFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const ClipboardListFilledMetadata: {
-    readonly id: "clipboard-list_filled";
-    readonly baseId: "clipboard-list";
-    readonly variant: "filled";
-    readonly name: "Clipboard List";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface ClipboardPlusFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const ClipboardPlusFilled: React.ForwardRefExoticComponent<Omit<ClipboardPlusFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const ClipboardPlusFilledMetadata: {
-    readonly id: "clipboard-plus_filled";
-    readonly baseId: "clipboard-plus";
-    readonly variant: "filled";
-    readonly name: "Clipboard Plus";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface ClipboardSmileFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const ClipboardSmileFilled: React.ForwardRefExoticComponent<Omit<ClipboardSmileFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const ClipboardSmileFilledMetadata: {
-    readonly id: "clipboard-smile_filled";
-    readonly baseId: "clipboard-smile";
-    readonly variant: "filled";
-    readonly name: "Clipboard Smile";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface ClipboardTextFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const ClipboardTextFilled: React.ForwardRefExoticComponent<Omit<ClipboardTextFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const ClipboardTextFilledMetadata: {
-    readonly id: "clipboard-text_filled";
-    readonly baseId: "clipboard-text";
-    readonly variant: "filled";
-    readonly name: "Clipboard Text";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface ClipboardTypographyFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const ClipboardTypographyFilled: React.ForwardRefExoticComponent<Omit<ClipboardTypographyFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const ClipboardTypographyFilledMetadata: {
-    readonly id: "clipboard-typography_filled";
-    readonly baseId: "clipboard-typography";
-    readonly variant: "filled";
-    readonly name: "Clipboard Typography";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface ClipboardXFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const ClipboardXFilled: React.ForwardRefExoticComponent<Omit<ClipboardXFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const ClipboardXFilledMetadata: {
-    readonly id: "clipboard-x_filled";
-    readonly baseId: "clipboard-x";
-    readonly variant: "filled";
-    readonly name: "Clipboard X";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface ClipboardFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const ClipboardFilled: React.ForwardRefExoticComponent<Omit<ClipboardFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const ClipboardFilledMetadata: {
-    readonly id: "clipboard_filled";
-    readonly baseId: "clipboard";
-    readonly variant: "filled";
-    readonly name: "Clipboard";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface ClockHour10FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const ClockHour10Filled: React.ForwardRefExoticComponent<Omit<ClockHour10FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const ClockHour10FilledMetadata: {
-    readonly id: "clock-hour-10_filled";
-    readonly baseId: "clock-hour-10";
-    readonly variant: "filled";
-    readonly name: "Clock Hour 10";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface ClockHour11FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const ClockHour11Filled: React.ForwardRefExoticComponent<Omit<ClockHour11FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const ClockHour11FilledMetadata: {
-    readonly id: "clock-hour-11_filled";
-    readonly baseId: "clock-hour-11";
-    readonly variant: "filled";
-    readonly name: "Clock Hour 11";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface ClockHour12FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const ClockHour12Filled: React.ForwardRefExoticComponent<Omit<ClockHour12FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const ClockHour12FilledMetadata: {
-    readonly id: "clock-hour-12_filled";
-    readonly baseId: "clock-hour-12";
-    readonly variant: "filled";
-    readonly name: "Clock Hour 12";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface ClockHour1FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const ClockHour1Filled: React.ForwardRefExoticComponent<Omit<ClockHour1FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const ClockHour1FilledMetadata: {
-    readonly id: "clock-hour-1_filled";
-    readonly baseId: "clock-hour-1";
-    readonly variant: "filled";
-    readonly name: "Clock Hour 1";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface ClockHour2FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const ClockHour2Filled: React.ForwardRefExoticComponent<Omit<ClockHour2FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const ClockHour2FilledMetadata: {
-    readonly id: "clock-hour-2_filled";
-    readonly baseId: "clock-hour-2";
-    readonly variant: "filled";
-    readonly name: "Clock Hour 2";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface ClockHour3FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const ClockHour3Filled: React.ForwardRefExoticComponent<Omit<ClockHour3FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const ClockHour3FilledMetadata: {
-    readonly id: "clock-hour-3_filled";
-    readonly baseId: "clock-hour-3";
-    readonly variant: "filled";
-    readonly name: "Clock Hour 3";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface ClockHour4FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const ClockHour4Filled: React.ForwardRefExoticComponent<Omit<ClockHour4FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const ClockHour4FilledMetadata: {
-    readonly id: "clock-hour-4_filled";
-    readonly baseId: "clock-hour-4";
-    readonly variant: "filled";
-    readonly name: "Clock Hour 4";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface ClockHour5FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const ClockHour5Filled: React.ForwardRefExoticComponent<Omit<ClockHour5FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const ClockHour5FilledMetadata: {
-    readonly id: "clock-hour-5_filled";
-    readonly baseId: "clock-hour-5";
-    readonly variant: "filled";
-    readonly name: "Clock Hour 5";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface ClockHour6FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const ClockHour6Filled: React.ForwardRefExoticComponent<Omit<ClockHour6FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const ClockHour6FilledMetadata: {
-    readonly id: "clock-hour-6_filled";
-    readonly baseId: "clock-hour-6";
-    readonly variant: "filled";
-    readonly name: "Clock Hour 6";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface ClockHour7FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const ClockHour7Filled: React.ForwardRefExoticComponent<Omit<ClockHour7FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const ClockHour7FilledMetadata: {
-    readonly id: "clock-hour-7_filled";
-    readonly baseId: "clock-hour-7";
-    readonly variant: "filled";
-    readonly name: "Clock Hour 7";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface ClockHour8FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const ClockHour8Filled: React.ForwardRefExoticComponent<Omit<ClockHour8FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const ClockHour8FilledMetadata: {
-    readonly id: "clock-hour-8_filled";
-    readonly baseId: "clock-hour-8";
-    readonly variant: "filled";
-    readonly name: "Clock Hour 8";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface ClockHour9FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const ClockHour9Filled: React.ForwardRefExoticComponent<Omit<ClockHour9FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const ClockHour9FilledMetadata: {
-    readonly id: "clock-hour-9_filled";
-    readonly baseId: "clock-hour-9";
-    readonly variant: "filled";
-    readonly name: "Clock Hour 9";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface ClockFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const ClockFilled: React.ForwardRefExoticComponent<Omit<ClockFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const ClockFilledMetadata: {
-    readonly id: "clock_filled";
-    readonly baseId: "clock";
-    readonly variant: "filled";
-    readonly name: "Clock";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
 interface CloudComputingFilledProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -13330,186 +14365,6 @@ declare const CodeCircleFilledMetadata: {
     readonly baseId: "code-circle";
     readonly variant: "filled";
     readonly name: "Code Circle";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CoinBitcoinFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CoinBitcoinFilled: React.ForwardRefExoticComponent<Omit<CoinBitcoinFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CoinBitcoinFilledMetadata: {
-    readonly id: "coin-bitcoin_filled";
-    readonly baseId: "coin-bitcoin";
-    readonly variant: "filled";
-    readonly name: "Coin Bitcoin";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CoinEuroFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CoinEuroFilled: React.ForwardRefExoticComponent<Omit<CoinEuroFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CoinEuroFilledMetadata: {
-    readonly id: "coin-euro_filled";
-    readonly baseId: "coin-euro";
-    readonly variant: "filled";
-    readonly name: "Coin Euro";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CoinMoneroFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CoinMoneroFilled: React.ForwardRefExoticComponent<Omit<CoinMoneroFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CoinMoneroFilledMetadata: {
-    readonly id: "coin-monero_filled";
-    readonly baseId: "coin-monero";
-    readonly variant: "filled";
-    readonly name: "Coin Monero";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CoinPoundFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CoinPoundFilled: React.ForwardRefExoticComponent<Omit<CoinPoundFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CoinPoundFilledMetadata: {
-    readonly id: "coin-pound_filled";
-    readonly baseId: "coin-pound";
-    readonly variant: "filled";
-    readonly name: "Coin Pound";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CoinRupeeFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CoinRupeeFilled: React.ForwardRefExoticComponent<Omit<CoinRupeeFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CoinRupeeFilledMetadata: {
-    readonly id: "coin-rupee_filled";
-    readonly baseId: "coin-rupee";
-    readonly variant: "filled";
-    readonly name: "Coin Rupee";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CoinTakaFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CoinTakaFilled: React.ForwardRefExoticComponent<Omit<CoinTakaFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CoinTakaFilledMetadata: {
-    readonly id: "coin-taka_filled";
-    readonly baseId: "coin-taka";
-    readonly variant: "filled";
-    readonly name: "Coin Taka";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CoinYenFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CoinYenFilled: React.ForwardRefExoticComponent<Omit<CoinYenFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CoinYenFilledMetadata: {
-    readonly id: "coin-yen_filled";
-    readonly baseId: "coin-yen";
-    readonly variant: "filled";
-    readonly name: "Coin Yen";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CoinYuanFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CoinYuanFilled: React.ForwardRefExoticComponent<Omit<CoinYuanFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CoinYuanFilledMetadata: {
-    readonly id: "coin-yuan_filled";
-    readonly baseId: "coin-yuan";
-    readonly variant: "filled";
-    readonly name: "Coin Yuan";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CoinFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CoinFilled: React.ForwardRefExoticComponent<Omit<CoinFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CoinFilledMetadata: {
-    readonly id: "coin_filled";
-    readonly baseId: "coin";
-    readonly variant: "filled";
-    readonly name: "Coin";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface Columns1FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const Columns1Filled: React.ForwardRefExoticComponent<Omit<Columns1FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const Columns1FilledMetadata: {
-    readonly id: "columns-1_filled";
-    readonly baseId: "columns-1";
-    readonly variant: "filled";
-    readonly name: "Columns 1";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface Columns2FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const Columns2Filled: React.ForwardRefExoticComponent<Omit<Columns2FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const Columns2FilledMetadata: {
-    readonly id: "columns-2_filled";
-    readonly baseId: "columns-2";
-    readonly variant: "filled";
-    readonly name: "Columns 2";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface Columns3FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const Columns3Filled: React.ForwardRefExoticComponent<Omit<Columns3FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const Columns3FilledMetadata: {
-    readonly id: "columns-3_filled";
-    readonly baseId: "columns-3";
-    readonly variant: "filled";
-    readonly name: "Columns 3";
     readonly category: "filled";
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
@@ -13755,111 +14610,6 @@ declare const CreditCardFilledMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
-interface Crop11FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const Crop11Filled: React.ForwardRefExoticComponent<Omit<Crop11FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const Crop11FilledMetadata: {
-    readonly id: "crop-1-1_filled";
-    readonly baseId: "crop-1-1";
-    readonly variant: "filled";
-    readonly name: "Crop 1 1";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface Crop169FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const Crop169Filled: React.ForwardRefExoticComponent<Omit<Crop169FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const Crop169FilledMetadata: {
-    readonly id: "crop-16-9_filled";
-    readonly baseId: "crop-16-9";
-    readonly variant: "filled";
-    readonly name: "Crop 16 9";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface Crop32FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const Crop32Filled: React.ForwardRefExoticComponent<Omit<Crop32FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const Crop32FilledMetadata: {
-    readonly id: "crop-3-2_filled";
-    readonly baseId: "crop-3-2";
-    readonly variant: "filled";
-    readonly name: "Crop 3 2";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface Crop54FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const Crop54Filled: React.ForwardRefExoticComponent<Omit<Crop54FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const Crop54FilledMetadata: {
-    readonly id: "crop-5-4_filled";
-    readonly baseId: "crop-5-4";
-    readonly variant: "filled";
-    readonly name: "Crop 5 4";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface Crop75FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const Crop75Filled: React.ForwardRefExoticComponent<Omit<Crop75FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const Crop75FilledMetadata: {
-    readonly id: "crop-7-5_filled";
-    readonly baseId: "crop-7-5";
-    readonly variant: "filled";
-    readonly name: "Crop 7 5";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CropLandscapeFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CropLandscapeFilled: React.ForwardRefExoticComponent<Omit<CropLandscapeFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CropLandscapeFilledMetadata: {
-    readonly id: "crop-landscape_filled";
-    readonly baseId: "crop-landscape";
-    readonly variant: "filled";
-    readonly name: "Crop Landscape";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface CropPortraitFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const CropPortraitFilled: React.ForwardRefExoticComponent<Omit<CropPortraitFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const CropPortraitFilledMetadata: {
-    readonly id: "crop-portrait_filled";
-    readonly baseId: "crop-portrait";
-    readonly variant: "filled";
-    readonly name: "Crop Portrait";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
 interface CrossFilledProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -13915,261 +14665,6 @@ declare const DashboardFilledMetadata: {
     readonly baseId: "dashboard";
     readonly variant: "filled";
     readonly name: "Dashboard";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface DeviceCctvFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const DeviceCctvFilled: React.ForwardRefExoticComponent<Omit<DeviceCctvFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const DeviceCctvFilledMetadata: {
-    readonly id: "device-cctv_filled";
-    readonly baseId: "device-cctv";
-    readonly variant: "filled";
-    readonly name: "Device Cctv";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface DeviceDesktopFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const DeviceDesktopFilled: React.ForwardRefExoticComponent<Omit<DeviceDesktopFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const DeviceDesktopFilledMetadata: {
-    readonly id: "device-desktop_filled";
-    readonly baseId: "device-desktop";
-    readonly variant: "filled";
-    readonly name: "Device Desktop";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface DeviceGamepad3FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const DeviceGamepad3Filled: React.ForwardRefExoticComponent<Omit<DeviceGamepad3FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const DeviceGamepad3FilledMetadata: {
-    readonly id: "device-gamepad-3_filled";
-    readonly baseId: "device-gamepad-3";
-    readonly variant: "filled";
-    readonly name: "Device Gamepad 3";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface DeviceGamepadFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const DeviceGamepadFilled: React.ForwardRefExoticComponent<Omit<DeviceGamepadFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const DeviceGamepadFilledMetadata: {
-    readonly id: "device-gamepad_filled";
-    readonly baseId: "device-gamepad";
-    readonly variant: "filled";
-    readonly name: "Device Gamepad";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface DeviceHeartMonitorFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const DeviceHeartMonitorFilled: React.ForwardRefExoticComponent<Omit<DeviceHeartMonitorFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const DeviceHeartMonitorFilledMetadata: {
-    readonly id: "device-heart-monitor_filled";
-    readonly baseId: "device-heart-monitor";
-    readonly variant: "filled";
-    readonly name: "Device Heart Monitor";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface DeviceImacFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const DeviceImacFilled: React.ForwardRefExoticComponent<Omit<DeviceImacFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const DeviceImacFilledMetadata: {
-    readonly id: "device-imac_filled";
-    readonly baseId: "device-imac";
-    readonly variant: "filled";
-    readonly name: "Device Imac";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface DeviceIpadFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const DeviceIpadFilled: React.ForwardRefExoticComponent<Omit<DeviceIpadFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const DeviceIpadFilledMetadata: {
-    readonly id: "device-ipad_filled";
-    readonly baseId: "device-ipad";
-    readonly variant: "filled";
-    readonly name: "Device Ipad";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface DeviceMobileFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const DeviceMobileFilled: React.ForwardRefExoticComponent<Omit<DeviceMobileFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const DeviceMobileFilledMetadata: {
-    readonly id: "device-mobile_filled";
-    readonly baseId: "device-mobile";
-    readonly variant: "filled";
-    readonly name: "Device Mobile";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface DeviceRemoteFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const DeviceRemoteFilled: React.ForwardRefExoticComponent<Omit<DeviceRemoteFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const DeviceRemoteFilledMetadata: {
-    readonly id: "device-remote_filled";
-    readonly baseId: "device-remote";
-    readonly variant: "filled";
-    readonly name: "Device Remote";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface DeviceSpeakerFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const DeviceSpeakerFilled: React.ForwardRefExoticComponent<Omit<DeviceSpeakerFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const DeviceSpeakerFilledMetadata: {
-    readonly id: "device-speaker_filled";
-    readonly baseId: "device-speaker";
-    readonly variant: "filled";
-    readonly name: "Device Speaker";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface DeviceTabletFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const DeviceTabletFilled: React.ForwardRefExoticComponent<Omit<DeviceTabletFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const DeviceTabletFilledMetadata: {
-    readonly id: "device-tablet_filled";
-    readonly baseId: "device-tablet";
-    readonly variant: "filled";
-    readonly name: "Device Tablet";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface DeviceTvOldFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const DeviceTvOldFilled: React.ForwardRefExoticComponent<Omit<DeviceTvOldFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const DeviceTvOldFilledMetadata: {
-    readonly id: "device-tv-old_filled";
-    readonly baseId: "device-tv-old";
-    readonly variant: "filled";
-    readonly name: "Device Tv Old";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface DeviceTvFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const DeviceTvFilled: React.ForwardRefExoticComponent<Omit<DeviceTvFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const DeviceTvFilledMetadata: {
-    readonly id: "device-tv_filled";
-    readonly baseId: "device-tv";
-    readonly variant: "filled";
-    readonly name: "Device Tv";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface DeviceUnknownFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const DeviceUnknownFilled: React.ForwardRefExoticComponent<Omit<DeviceUnknownFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const DeviceUnknownFilledMetadata: {
-    readonly id: "device-unknown_filled";
-    readonly baseId: "device-unknown";
-    readonly variant: "filled";
-    readonly name: "Device Unknown";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface DeviceUsbFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const DeviceUsbFilled: React.ForwardRefExoticComponent<Omit<DeviceUsbFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const DeviceUsbFilledMetadata: {
-    readonly id: "device-usb_filled";
-    readonly baseId: "device-usb";
-    readonly variant: "filled";
-    readonly name: "Device Usb";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface DeviceVisionProFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const DeviceVisionProFilled: React.ForwardRefExoticComponent<Omit<DeviceVisionProFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const DeviceVisionProFilledMetadata: {
-    readonly id: "device-vision-pro_filled";
-    readonly baseId: "device-vision-pro";
-    readonly variant: "filled";
-    readonly name: "Device Vision Pro";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface DeviceWatchFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const DeviceWatchFilled: React.ForwardRefExoticComponent<Omit<DeviceWatchFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const DeviceWatchFilledMetadata: {
-    readonly id: "device-watch_filled";
-    readonly baseId: "device-watch";
-    readonly variant: "filled";
-    readonly name: "Device Watch";
     readonly category: "filled";
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
@@ -14880,621 +15375,6 @@ declare const FidgetSpinnerFilledMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
-interface FileAnalyticsFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const FileAnalyticsFilled: React.ForwardRefExoticComponent<Omit<FileAnalyticsFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const FileAnalyticsFilledMetadata: {
-    readonly id: "file-analytics_filled";
-    readonly baseId: "file-analytics";
-    readonly variant: "filled";
-    readonly name: "File Analytics";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface FileCheckFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const FileCheckFilled: React.ForwardRefExoticComponent<Omit<FileCheckFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const FileCheckFilledMetadata: {
-    readonly id: "file-check_filled";
-    readonly baseId: "file-check";
-    readonly variant: "filled";
-    readonly name: "File Check";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface FileCode2FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const FileCode2Filled: React.ForwardRefExoticComponent<Omit<FileCode2FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const FileCode2FilledMetadata: {
-    readonly id: "file-code-2_filled";
-    readonly baseId: "file-code-2";
-    readonly variant: "filled";
-    readonly name: "File Code 2";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface FileCodeFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const FileCodeFilled: React.ForwardRefExoticComponent<Omit<FileCodeFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const FileCodeFilledMetadata: {
-    readonly id: "file-code_filled";
-    readonly baseId: "file-code";
-    readonly variant: "filled";
-    readonly name: "File Code";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface FileCvFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const FileCvFilled: React.ForwardRefExoticComponent<Omit<FileCvFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const FileCvFilledMetadata: {
-    readonly id: "file-cv_filled";
-    readonly baseId: "file-cv";
-    readonly variant: "filled";
-    readonly name: "File Cv";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface FileDeltaFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const FileDeltaFilled: React.ForwardRefExoticComponent<Omit<FileDeltaFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const FileDeltaFilledMetadata: {
-    readonly id: "file-delta_filled";
-    readonly baseId: "file-delta";
-    readonly variant: "filled";
-    readonly name: "File Delta";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface FileDescriptionFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const FileDescriptionFilled: React.ForwardRefExoticComponent<Omit<FileDescriptionFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const FileDescriptionFilledMetadata: {
-    readonly id: "file-description_filled";
-    readonly baseId: "file-description";
-    readonly variant: "filled";
-    readonly name: "File Description";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface FileDiffFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const FileDiffFilled: React.ForwardRefExoticComponent<Omit<FileDiffFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const FileDiffFilledMetadata: {
-    readonly id: "file-diff_filled";
-    readonly baseId: "file-diff";
-    readonly variant: "filled";
-    readonly name: "File Diff";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface FileDigitFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const FileDigitFilled: React.ForwardRefExoticComponent<Omit<FileDigitFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const FileDigitFilledMetadata: {
-    readonly id: "file-digit_filled";
-    readonly baseId: "file-digit";
-    readonly variant: "filled";
-    readonly name: "File Digit";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface FileDollarFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const FileDollarFilled: React.ForwardRefExoticComponent<Omit<FileDollarFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const FileDollarFilledMetadata: {
-    readonly id: "file-dollar_filled";
-    readonly baseId: "file-dollar";
-    readonly variant: "filled";
-    readonly name: "File Dollar";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface FileDotsFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const FileDotsFilled: React.ForwardRefExoticComponent<Omit<FileDotsFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const FileDotsFilledMetadata: {
-    readonly id: "file-dots_filled";
-    readonly baseId: "file-dots";
-    readonly variant: "filled";
-    readonly name: "File Dots";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface FileDownloadFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const FileDownloadFilled: React.ForwardRefExoticComponent<Omit<FileDownloadFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const FileDownloadFilledMetadata: {
-    readonly id: "file-download_filled";
-    readonly baseId: "file-download";
-    readonly variant: "filled";
-    readonly name: "File Download";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface FileEuroFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const FileEuroFilled: React.ForwardRefExoticComponent<Omit<FileEuroFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const FileEuroFilledMetadata: {
-    readonly id: "file-euro_filled";
-    readonly baseId: "file-euro";
-    readonly variant: "filled";
-    readonly name: "File Euro";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface FileFunctionFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const FileFunctionFilled: React.ForwardRefExoticComponent<Omit<FileFunctionFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const FileFunctionFilledMetadata: {
-    readonly id: "file-function_filled";
-    readonly baseId: "file-function";
-    readonly variant: "filled";
-    readonly name: "File Function";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface FileHorizontalFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const FileHorizontalFilled: React.ForwardRefExoticComponent<Omit<FileHorizontalFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const FileHorizontalFilledMetadata: {
-    readonly id: "file-horizontal_filled";
-    readonly baseId: "file-horizontal";
-    readonly variant: "filled";
-    readonly name: "File Horizontal";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface FileInfoFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const FileInfoFilled: React.ForwardRefExoticComponent<Omit<FileInfoFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const FileInfoFilledMetadata: {
-    readonly id: "file-info_filled";
-    readonly baseId: "file-info";
-    readonly variant: "filled";
-    readonly name: "File Info";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface FileInvoiceFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const FileInvoiceFilled: React.ForwardRefExoticComponent<Omit<FileInvoiceFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const FileInvoiceFilledMetadata: {
-    readonly id: "file-invoice_filled";
-    readonly baseId: "file-invoice";
-    readonly variant: "filled";
-    readonly name: "File Invoice";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface FileLambdaFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const FileLambdaFilled: React.ForwardRefExoticComponent<Omit<FileLambdaFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const FileLambdaFilledMetadata: {
-    readonly id: "file-lambda_filled";
-    readonly baseId: "file-lambda";
-    readonly variant: "filled";
-    readonly name: "File Lambda";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface FileMinusFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const FileMinusFilled: React.ForwardRefExoticComponent<Omit<FileMinusFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const FileMinusFilledMetadata: {
-    readonly id: "file-minus_filled";
-    readonly baseId: "file-minus";
-    readonly variant: "filled";
-    readonly name: "File Minus";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface FileMusicFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const FileMusicFilled: React.ForwardRefExoticComponent<Omit<FileMusicFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const FileMusicFilledMetadata: {
-    readonly id: "file-music_filled";
-    readonly baseId: "file-music";
-    readonly variant: "filled";
-    readonly name: "File Music";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface FileNeutralFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const FileNeutralFilled: React.ForwardRefExoticComponent<Omit<FileNeutralFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const FileNeutralFilledMetadata: {
-    readonly id: "file-neutral_filled";
-    readonly baseId: "file-neutral";
-    readonly variant: "filled";
-    readonly name: "File Neutral";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface FilePencilFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const FilePencilFilled: React.ForwardRefExoticComponent<Omit<FilePencilFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const FilePencilFilledMetadata: {
-    readonly id: "file-pencil_filled";
-    readonly baseId: "file-pencil";
-    readonly variant: "filled";
-    readonly name: "File Pencil";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface FilePercentFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const FilePercentFilled: React.ForwardRefExoticComponent<Omit<FilePercentFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const FilePercentFilledMetadata: {
-    readonly id: "file-percent_filled";
-    readonly baseId: "file-percent";
-    readonly variant: "filled";
-    readonly name: "File Percent";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface FilePhoneFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const FilePhoneFilled: React.ForwardRefExoticComponent<Omit<FilePhoneFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const FilePhoneFilledMetadata: {
-    readonly id: "file-phone_filled";
-    readonly baseId: "file-phone";
-    readonly variant: "filled";
-    readonly name: "File Phone";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface FilePowerFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const FilePowerFilled: React.ForwardRefExoticComponent<Omit<FilePowerFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const FilePowerFilledMetadata: {
-    readonly id: "file-power_filled";
-    readonly baseId: "file-power";
-    readonly variant: "filled";
-    readonly name: "File Power";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface FileRssFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const FileRssFilled: React.ForwardRefExoticComponent<Omit<FileRssFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const FileRssFilledMetadata: {
-    readonly id: "file-rss_filled";
-    readonly baseId: "file-rss";
-    readonly variant: "filled";
-    readonly name: "File Rss";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface FileSadFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const FileSadFilled: React.ForwardRefExoticComponent<Omit<FileSadFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const FileSadFilledMetadata: {
-    readonly id: "file-sad_filled";
-    readonly baseId: "file-sad";
-    readonly variant: "filled";
-    readonly name: "File Sad";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface FileScissorsFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const FileScissorsFilled: React.ForwardRefExoticComponent<Omit<FileScissorsFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const FileScissorsFilledMetadata: {
-    readonly id: "file-scissors_filled";
-    readonly baseId: "file-scissors";
-    readonly variant: "filled";
-    readonly name: "File Scissors";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface FileSettingsFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const FileSettingsFilled: React.ForwardRefExoticComponent<Omit<FileSettingsFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const FileSettingsFilledMetadata: {
-    readonly id: "file-settings_filled";
-    readonly baseId: "file-settings";
-    readonly variant: "filled";
-    readonly name: "File Settings";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface FileSignalFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const FileSignalFilled: React.ForwardRefExoticComponent<Omit<FileSignalFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const FileSignalFilledMetadata: {
-    readonly id: "file-signal_filled";
-    readonly baseId: "file-signal";
-    readonly variant: "filled";
-    readonly name: "File Signal";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface FileSmileFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const FileSmileFilled: React.ForwardRefExoticComponent<Omit<FileSmileFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const FileSmileFilledMetadata: {
-    readonly id: "file-smile_filled";
-    readonly baseId: "file-smile";
-    readonly variant: "filled";
-    readonly name: "File Smile";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface FileStarFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const FileStarFilled: React.ForwardRefExoticComponent<Omit<FileStarFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const FileStarFilledMetadata: {
-    readonly id: "file-star_filled";
-    readonly baseId: "file-star";
-    readonly variant: "filled";
-    readonly name: "File Star";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface FileTextFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const FileTextFilled: React.ForwardRefExoticComponent<Omit<FileTextFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const FileTextFilledMetadata: {
-    readonly id: "file-text_filled";
-    readonly baseId: "file-text";
-    readonly variant: "filled";
-    readonly name: "File Text";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface FileTimeFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const FileTimeFilled: React.ForwardRefExoticComponent<Omit<FileTimeFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const FileTimeFilledMetadata: {
-    readonly id: "file-time_filled";
-    readonly baseId: "file-time";
-    readonly variant: "filled";
-    readonly name: "File Time";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface FileTypographyFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const FileTypographyFilled: React.ForwardRefExoticComponent<Omit<FileTypographyFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const FileTypographyFilledMetadata: {
-    readonly id: "file-typography_filled";
-    readonly baseId: "file-typography";
-    readonly variant: "filled";
-    readonly name: "File Typography";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface FileUnknownFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const FileUnknownFilled: React.ForwardRefExoticComponent<Omit<FileUnknownFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const FileUnknownFilledMetadata: {
-    readonly id: "file-unknown_filled";
-    readonly baseId: "file-unknown";
-    readonly variant: "filled";
-    readonly name: "File Unknown";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface FileUploadFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const FileUploadFilled: React.ForwardRefExoticComponent<Omit<FileUploadFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const FileUploadFilledMetadata: {
-    readonly id: "file-upload_filled";
-    readonly baseId: "file-upload";
-    readonly variant: "filled";
-    readonly name: "File Upload";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface FileVectorFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const FileVectorFilled: React.ForwardRefExoticComponent<Omit<FileVectorFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const FileVectorFilledMetadata: {
-    readonly id: "file-vector_filled";
-    readonly baseId: "file-vector";
-    readonly variant: "filled";
-    readonly name: "File Vector";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface FileXFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const FileXFilled: React.ForwardRefExoticComponent<Omit<FileXFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const FileXFilledMetadata: {
-    readonly id: "file-x_filled";
-    readonly baseId: "file-x";
-    readonly variant: "filled";
-    readonly name: "File X";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface FileFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const FileFilled: React.ForwardRefExoticComponent<Omit<FileFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const FileFilledMetadata: {
-    readonly id: "file_filled";
-    readonly baseId: "file";
-    readonly variant: "filled";
-    readonly name: "File";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface FilesFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const FilesFilled: React.ForwardRefExoticComponent<Omit<FilesFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const FilesFilledMetadata: {
-    readonly id: "files_filled";
-    readonly baseId: "files";
-    readonly variant: "filled";
-    readonly name: "Files";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
 interface FilterFilledProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -16185,576 +16065,6 @@ declare const HelpTriangleFilledMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
-interface HexagonLetterAFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const HexagonLetterAFilled: React.ForwardRefExoticComponent<Omit<HexagonLetterAFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const HexagonLetterAFilledMetadata: {
-    readonly id: "hexagon-letter-a_filled";
-    readonly baseId: "hexagon-letter-a";
-    readonly variant: "filled";
-    readonly name: "Hexagon Letter A";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface HexagonLetterBFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const HexagonLetterBFilled: React.ForwardRefExoticComponent<Omit<HexagonLetterBFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const HexagonLetterBFilledMetadata: {
-    readonly id: "hexagon-letter-b_filled";
-    readonly baseId: "hexagon-letter-b";
-    readonly variant: "filled";
-    readonly name: "Hexagon Letter B";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface HexagonLetterCFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const HexagonLetterCFilled: React.ForwardRefExoticComponent<Omit<HexagonLetterCFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const HexagonLetterCFilledMetadata: {
-    readonly id: "hexagon-letter-c_filled";
-    readonly baseId: "hexagon-letter-c";
-    readonly variant: "filled";
-    readonly name: "Hexagon Letter C";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface HexagonLetterDFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const HexagonLetterDFilled: React.ForwardRefExoticComponent<Omit<HexagonLetterDFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const HexagonLetterDFilledMetadata: {
-    readonly id: "hexagon-letter-d_filled";
-    readonly baseId: "hexagon-letter-d";
-    readonly variant: "filled";
-    readonly name: "Hexagon Letter D";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface HexagonLetterEFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const HexagonLetterEFilled: React.ForwardRefExoticComponent<Omit<HexagonLetterEFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const HexagonLetterEFilledMetadata: {
-    readonly id: "hexagon-letter-e_filled";
-    readonly baseId: "hexagon-letter-e";
-    readonly variant: "filled";
-    readonly name: "Hexagon Letter E";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface HexagonLetterFFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const HexagonLetterFFilled: React.ForwardRefExoticComponent<Omit<HexagonLetterFFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const HexagonLetterFFilledMetadata: {
-    readonly id: "hexagon-letter-f_filled";
-    readonly baseId: "hexagon-letter-f";
-    readonly variant: "filled";
-    readonly name: "Hexagon Letter F";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface HexagonLetterGFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const HexagonLetterGFilled: React.ForwardRefExoticComponent<Omit<HexagonLetterGFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const HexagonLetterGFilledMetadata: {
-    readonly id: "hexagon-letter-g_filled";
-    readonly baseId: "hexagon-letter-g";
-    readonly variant: "filled";
-    readonly name: "Hexagon Letter G";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface HexagonLetterHFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const HexagonLetterHFilled: React.ForwardRefExoticComponent<Omit<HexagonLetterHFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const HexagonLetterHFilledMetadata: {
-    readonly id: "hexagon-letter-h_filled";
-    readonly baseId: "hexagon-letter-h";
-    readonly variant: "filled";
-    readonly name: "Hexagon Letter H";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface HexagonLetterIFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const HexagonLetterIFilled: React.ForwardRefExoticComponent<Omit<HexagonLetterIFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const HexagonLetterIFilledMetadata: {
-    readonly id: "hexagon-letter-i_filled";
-    readonly baseId: "hexagon-letter-i";
-    readonly variant: "filled";
-    readonly name: "Hexagon Letter I";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface HexagonLetterJFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const HexagonLetterJFilled: React.ForwardRefExoticComponent<Omit<HexagonLetterJFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const HexagonLetterJFilledMetadata: {
-    readonly id: "hexagon-letter-j_filled";
-    readonly baseId: "hexagon-letter-j";
-    readonly variant: "filled";
-    readonly name: "Hexagon Letter J";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface HexagonLetterKFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const HexagonLetterKFilled: React.ForwardRefExoticComponent<Omit<HexagonLetterKFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const HexagonLetterKFilledMetadata: {
-    readonly id: "hexagon-letter-k_filled";
-    readonly baseId: "hexagon-letter-k";
-    readonly variant: "filled";
-    readonly name: "Hexagon Letter K";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface HexagonLetterLFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const HexagonLetterLFilled: React.ForwardRefExoticComponent<Omit<HexagonLetterLFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const HexagonLetterLFilledMetadata: {
-    readonly id: "hexagon-letter-l_filled";
-    readonly baseId: "hexagon-letter-l";
-    readonly variant: "filled";
-    readonly name: "Hexagon Letter L";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface HexagonLetterMFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const HexagonLetterMFilled: React.ForwardRefExoticComponent<Omit<HexagonLetterMFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const HexagonLetterMFilledMetadata: {
-    readonly id: "hexagon-letter-m_filled";
-    readonly baseId: "hexagon-letter-m";
-    readonly variant: "filled";
-    readonly name: "Hexagon Letter M";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface HexagonLetterNFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const HexagonLetterNFilled: React.ForwardRefExoticComponent<Omit<HexagonLetterNFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const HexagonLetterNFilledMetadata: {
-    readonly id: "hexagon-letter-n_filled";
-    readonly baseId: "hexagon-letter-n";
-    readonly variant: "filled";
-    readonly name: "Hexagon Letter N";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface HexagonLetterOFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const HexagonLetterOFilled: React.ForwardRefExoticComponent<Omit<HexagonLetterOFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const HexagonLetterOFilledMetadata: {
-    readonly id: "hexagon-letter-o_filled";
-    readonly baseId: "hexagon-letter-o";
-    readonly variant: "filled";
-    readonly name: "Hexagon Letter O";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface HexagonLetterPFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const HexagonLetterPFilled: React.ForwardRefExoticComponent<Omit<HexagonLetterPFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const HexagonLetterPFilledMetadata: {
-    readonly id: "hexagon-letter-p_filled";
-    readonly baseId: "hexagon-letter-p";
-    readonly variant: "filled";
-    readonly name: "Hexagon Letter P";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface HexagonLetterQFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const HexagonLetterQFilled: React.ForwardRefExoticComponent<Omit<HexagonLetterQFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const HexagonLetterQFilledMetadata: {
-    readonly id: "hexagon-letter-q_filled";
-    readonly baseId: "hexagon-letter-q";
-    readonly variant: "filled";
-    readonly name: "Hexagon Letter Q";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface HexagonLetterRFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const HexagonLetterRFilled: React.ForwardRefExoticComponent<Omit<HexagonLetterRFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const HexagonLetterRFilledMetadata: {
-    readonly id: "hexagon-letter-r_filled";
-    readonly baseId: "hexagon-letter-r";
-    readonly variant: "filled";
-    readonly name: "Hexagon Letter R";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface HexagonLetterSFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const HexagonLetterSFilled: React.ForwardRefExoticComponent<Omit<HexagonLetterSFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const HexagonLetterSFilledMetadata: {
-    readonly id: "hexagon-letter-s_filled";
-    readonly baseId: "hexagon-letter-s";
-    readonly variant: "filled";
-    readonly name: "Hexagon Letter S";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface HexagonLetterTFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const HexagonLetterTFilled: React.ForwardRefExoticComponent<Omit<HexagonLetterTFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const HexagonLetterTFilledMetadata: {
-    readonly id: "hexagon-letter-t_filled";
-    readonly baseId: "hexagon-letter-t";
-    readonly variant: "filled";
-    readonly name: "Hexagon Letter T";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface HexagonLetterUFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const HexagonLetterUFilled: React.ForwardRefExoticComponent<Omit<HexagonLetterUFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const HexagonLetterUFilledMetadata: {
-    readonly id: "hexagon-letter-u_filled";
-    readonly baseId: "hexagon-letter-u";
-    readonly variant: "filled";
-    readonly name: "Hexagon Letter U";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface HexagonLetterVFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const HexagonLetterVFilled: React.ForwardRefExoticComponent<Omit<HexagonLetterVFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const HexagonLetterVFilledMetadata: {
-    readonly id: "hexagon-letter-v_filled";
-    readonly baseId: "hexagon-letter-v";
-    readonly variant: "filled";
-    readonly name: "Hexagon Letter V";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface HexagonLetterWFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const HexagonLetterWFilled: React.ForwardRefExoticComponent<Omit<HexagonLetterWFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const HexagonLetterWFilledMetadata: {
-    readonly id: "hexagon-letter-w_filled";
-    readonly baseId: "hexagon-letter-w";
-    readonly variant: "filled";
-    readonly name: "Hexagon Letter W";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface HexagonLetterXFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const HexagonLetterXFilled: React.ForwardRefExoticComponent<Omit<HexagonLetterXFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const HexagonLetterXFilledMetadata: {
-    readonly id: "hexagon-letter-x_filled";
-    readonly baseId: "hexagon-letter-x";
-    readonly variant: "filled";
-    readonly name: "Hexagon Letter X";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface HexagonLetterYFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const HexagonLetterYFilled: React.ForwardRefExoticComponent<Omit<HexagonLetterYFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const HexagonLetterYFilledMetadata: {
-    readonly id: "hexagon-letter-y_filled";
-    readonly baseId: "hexagon-letter-y";
-    readonly variant: "filled";
-    readonly name: "Hexagon Letter Y";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface HexagonLetterZFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const HexagonLetterZFilled: React.ForwardRefExoticComponent<Omit<HexagonLetterZFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const HexagonLetterZFilledMetadata: {
-    readonly id: "hexagon-letter-z_filled";
-    readonly baseId: "hexagon-letter-z";
-    readonly variant: "filled";
-    readonly name: "Hexagon Letter Z";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface HexagonMinusFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const HexagonMinusFilled: React.ForwardRefExoticComponent<Omit<HexagonMinusFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const HexagonMinusFilledMetadata: {
-    readonly id: "hexagon-minus_filled";
-    readonly baseId: "hexagon-minus";
-    readonly variant: "filled";
-    readonly name: "Hexagon Minus";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface HexagonNumber0FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const HexagonNumber0Filled: React.ForwardRefExoticComponent<Omit<HexagonNumber0FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const HexagonNumber0FilledMetadata: {
-    readonly id: "hexagon-number-0_filled";
-    readonly baseId: "hexagon-number-0";
-    readonly variant: "filled";
-    readonly name: "Hexagon Number 0";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface HexagonNumber1FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const HexagonNumber1Filled: React.ForwardRefExoticComponent<Omit<HexagonNumber1FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const HexagonNumber1FilledMetadata: {
-    readonly id: "hexagon-number-1_filled";
-    readonly baseId: "hexagon-number-1";
-    readonly variant: "filled";
-    readonly name: "Hexagon Number 1";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface HexagonNumber2FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const HexagonNumber2Filled: React.ForwardRefExoticComponent<Omit<HexagonNumber2FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const HexagonNumber2FilledMetadata: {
-    readonly id: "hexagon-number-2_filled";
-    readonly baseId: "hexagon-number-2";
-    readonly variant: "filled";
-    readonly name: "Hexagon Number 2";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface HexagonNumber3FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const HexagonNumber3Filled: React.ForwardRefExoticComponent<Omit<HexagonNumber3FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const HexagonNumber3FilledMetadata: {
-    readonly id: "hexagon-number-3_filled";
-    readonly baseId: "hexagon-number-3";
-    readonly variant: "filled";
-    readonly name: "Hexagon Number 3";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface HexagonNumber4FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const HexagonNumber4Filled: React.ForwardRefExoticComponent<Omit<HexagonNumber4FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const HexagonNumber4FilledMetadata: {
-    readonly id: "hexagon-number-4_filled";
-    readonly baseId: "hexagon-number-4";
-    readonly variant: "filled";
-    readonly name: "Hexagon Number 4";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface HexagonNumber5FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const HexagonNumber5Filled: React.ForwardRefExoticComponent<Omit<HexagonNumber5FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const HexagonNumber5FilledMetadata: {
-    readonly id: "hexagon-number-5_filled";
-    readonly baseId: "hexagon-number-5";
-    readonly variant: "filled";
-    readonly name: "Hexagon Number 5";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface HexagonNumber6FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const HexagonNumber6Filled: React.ForwardRefExoticComponent<Omit<HexagonNumber6FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const HexagonNumber6FilledMetadata: {
-    readonly id: "hexagon-number-6_filled";
-    readonly baseId: "hexagon-number-6";
-    readonly variant: "filled";
-    readonly name: "Hexagon Number 6";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface HexagonNumber7FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const HexagonNumber7Filled: React.ForwardRefExoticComponent<Omit<HexagonNumber7FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const HexagonNumber7FilledMetadata: {
-    readonly id: "hexagon-number-7_filled";
-    readonly baseId: "hexagon-number-7";
-    readonly variant: "filled";
-    readonly name: "Hexagon Number 7";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface HexagonNumber8FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const HexagonNumber8Filled: React.ForwardRefExoticComponent<Omit<HexagonNumber8FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const HexagonNumber8FilledMetadata: {
-    readonly id: "hexagon-number-8_filled";
-    readonly baseId: "hexagon-number-8";
-    readonly variant: "filled";
-    readonly name: "Hexagon Number 8";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface HexagonNumber9FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const HexagonNumber9Filled: React.ForwardRefExoticComponent<Omit<HexagonNumber9FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const HexagonNumber9FilledMetadata: {
-    readonly id: "hexagon-number-9_filled";
-    readonly baseId: "hexagon-number-9";
-    readonly variant: "filled";
-    readonly name: "Hexagon Number 9";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface HexagonPlusFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const HexagonPlusFilled: React.ForwardRefExoticComponent<Omit<HexagonPlusFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const HexagonPlusFilledMetadata: {
-    readonly id: "hexagon-plus_filled";
-    readonly baseId: "hexagon-plus";
-    readonly variant: "filled";
-    readonly name: "Hexagon Plus";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
 interface HexagonFilledProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -17355,441 +16665,6 @@ declare const LaurelWreathFilledMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
-interface Layout2FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const Layout2Filled: React.ForwardRefExoticComponent<Omit<Layout2FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const Layout2FilledMetadata: {
-    readonly id: "layout-2_filled";
-    readonly baseId: "layout-2";
-    readonly variant: "filled";
-    readonly name: "Layout 2";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface LayoutAlignBottomFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const LayoutAlignBottomFilled: React.ForwardRefExoticComponent<Omit<LayoutAlignBottomFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const LayoutAlignBottomFilledMetadata: {
-    readonly id: "layout-align-bottom_filled";
-    readonly baseId: "layout-align-bottom";
-    readonly variant: "filled";
-    readonly name: "Layout Align Bottom";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface LayoutAlignCenterFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const LayoutAlignCenterFilled: React.ForwardRefExoticComponent<Omit<LayoutAlignCenterFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const LayoutAlignCenterFilledMetadata: {
-    readonly id: "layout-align-center_filled";
-    readonly baseId: "layout-align-center";
-    readonly variant: "filled";
-    readonly name: "Layout Align Center";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface LayoutAlignLeftFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const LayoutAlignLeftFilled: React.ForwardRefExoticComponent<Omit<LayoutAlignLeftFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const LayoutAlignLeftFilledMetadata: {
-    readonly id: "layout-align-left_filled";
-    readonly baseId: "layout-align-left";
-    readonly variant: "filled";
-    readonly name: "Layout Align Left";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface LayoutAlignMiddleFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const LayoutAlignMiddleFilled: React.ForwardRefExoticComponent<Omit<LayoutAlignMiddleFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const LayoutAlignMiddleFilledMetadata: {
-    readonly id: "layout-align-middle_filled";
-    readonly baseId: "layout-align-middle";
-    readonly variant: "filled";
-    readonly name: "Layout Align Middle";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface LayoutAlignRightFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const LayoutAlignRightFilled: React.ForwardRefExoticComponent<Omit<LayoutAlignRightFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const LayoutAlignRightFilledMetadata: {
-    readonly id: "layout-align-right_filled";
-    readonly baseId: "layout-align-right";
-    readonly variant: "filled";
-    readonly name: "Layout Align Right";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface LayoutAlignTopFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const LayoutAlignTopFilled: React.ForwardRefExoticComponent<Omit<LayoutAlignTopFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const LayoutAlignTopFilledMetadata: {
-    readonly id: "layout-align-top_filled";
-    readonly baseId: "layout-align-top";
-    readonly variant: "filled";
-    readonly name: "Layout Align Top";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface LayoutBoardSplitFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const LayoutBoardSplitFilled: React.ForwardRefExoticComponent<Omit<LayoutBoardSplitFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const LayoutBoardSplitFilledMetadata: {
-    readonly id: "layout-board-split_filled";
-    readonly baseId: "layout-board-split";
-    readonly variant: "filled";
-    readonly name: "Layout Board Split";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface LayoutBoardFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const LayoutBoardFilled: React.ForwardRefExoticComponent<Omit<LayoutBoardFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const LayoutBoardFilledMetadata: {
-    readonly id: "layout-board_filled";
-    readonly baseId: "layout-board";
-    readonly variant: "filled";
-    readonly name: "Layout Board";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface LayoutBottombarCollapseFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const LayoutBottombarCollapseFilled: React.ForwardRefExoticComponent<Omit<LayoutBottombarCollapseFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const LayoutBottombarCollapseFilledMetadata: {
-    readonly id: "layout-bottombar-collapse_filled";
-    readonly baseId: "layout-bottombar-collapse";
-    readonly variant: "filled";
-    readonly name: "Layout Bottombar Collapse";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface LayoutBottombarExpandFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const LayoutBottombarExpandFilled: React.ForwardRefExoticComponent<Omit<LayoutBottombarExpandFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const LayoutBottombarExpandFilledMetadata: {
-    readonly id: "layout-bottombar-expand_filled";
-    readonly baseId: "layout-bottombar-expand";
-    readonly variant: "filled";
-    readonly name: "Layout Bottombar Expand";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface LayoutBottombarFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const LayoutBottombarFilled: React.ForwardRefExoticComponent<Omit<LayoutBottombarFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const LayoutBottombarFilledMetadata: {
-    readonly id: "layout-bottombar_filled";
-    readonly baseId: "layout-bottombar";
-    readonly variant: "filled";
-    readonly name: "Layout Bottombar";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface LayoutCardsFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const LayoutCardsFilled: React.ForwardRefExoticComponent<Omit<LayoutCardsFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const LayoutCardsFilledMetadata: {
-    readonly id: "layout-cards_filled";
-    readonly baseId: "layout-cards";
-    readonly variant: "filled";
-    readonly name: "Layout Cards";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface LayoutDashboardFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const LayoutDashboardFilled: React.ForwardRefExoticComponent<Omit<LayoutDashboardFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const LayoutDashboardFilledMetadata: {
-    readonly id: "layout-dashboard_filled";
-    readonly baseId: "layout-dashboard";
-    readonly variant: "filled";
-    readonly name: "Layout Dashboard";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface LayoutDistributeHorizontalFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const LayoutDistributeHorizontalFilled: React.ForwardRefExoticComponent<Omit<LayoutDistributeHorizontalFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const LayoutDistributeHorizontalFilledMetadata: {
-    readonly id: "layout-distribute-horizontal_filled";
-    readonly baseId: "layout-distribute-horizontal";
-    readonly variant: "filled";
-    readonly name: "Layout Distribute Horizontal";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface LayoutDistributeVerticalFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const LayoutDistributeVerticalFilled: React.ForwardRefExoticComponent<Omit<LayoutDistributeVerticalFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const LayoutDistributeVerticalFilledMetadata: {
-    readonly id: "layout-distribute-vertical_filled";
-    readonly baseId: "layout-distribute-vertical";
-    readonly variant: "filled";
-    readonly name: "Layout Distribute Vertical";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface LayoutGridFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const LayoutGridFilled: React.ForwardRefExoticComponent<Omit<LayoutGridFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const LayoutGridFilledMetadata: {
-    readonly id: "layout-grid_filled";
-    readonly baseId: "layout-grid";
-    readonly variant: "filled";
-    readonly name: "Layout Grid";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface LayoutKanbanFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const LayoutKanbanFilled: React.ForwardRefExoticComponent<Omit<LayoutKanbanFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const LayoutKanbanFilledMetadata: {
-    readonly id: "layout-kanban_filled";
-    readonly baseId: "layout-kanban";
-    readonly variant: "filled";
-    readonly name: "Layout Kanban";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface LayoutListFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const LayoutListFilled: React.ForwardRefExoticComponent<Omit<LayoutListFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const LayoutListFilledMetadata: {
-    readonly id: "layout-list_filled";
-    readonly baseId: "layout-list";
-    readonly variant: "filled";
-    readonly name: "Layout List";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface LayoutNavbarCollapseFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const LayoutNavbarCollapseFilled: React.ForwardRefExoticComponent<Omit<LayoutNavbarCollapseFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const LayoutNavbarCollapseFilledMetadata: {
-    readonly id: "layout-navbar-collapse_filled";
-    readonly baseId: "layout-navbar-collapse";
-    readonly variant: "filled";
-    readonly name: "Layout Navbar Collapse";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface LayoutNavbarExpandFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const LayoutNavbarExpandFilled: React.ForwardRefExoticComponent<Omit<LayoutNavbarExpandFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const LayoutNavbarExpandFilledMetadata: {
-    readonly id: "layout-navbar-expand_filled";
-    readonly baseId: "layout-navbar-expand";
-    readonly variant: "filled";
-    readonly name: "Layout Navbar Expand";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface LayoutNavbarFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const LayoutNavbarFilled: React.ForwardRefExoticComponent<Omit<LayoutNavbarFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const LayoutNavbarFilledMetadata: {
-    readonly id: "layout-navbar_filled";
-    readonly baseId: "layout-navbar";
-    readonly variant: "filled";
-    readonly name: "Layout Navbar";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface LayoutSidebarLeftCollapseFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const LayoutSidebarLeftCollapseFilled: React.ForwardRefExoticComponent<Omit<LayoutSidebarLeftCollapseFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const LayoutSidebarLeftCollapseFilledMetadata: {
-    readonly id: "layout-sidebar-left-collapse_filled";
-    readonly baseId: "layout-sidebar-left-collapse";
-    readonly variant: "filled";
-    readonly name: "Layout Sidebar Left Collapse";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface LayoutSidebarLeftExpandFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const LayoutSidebarLeftExpandFilled: React.ForwardRefExoticComponent<Omit<LayoutSidebarLeftExpandFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const LayoutSidebarLeftExpandFilledMetadata: {
-    readonly id: "layout-sidebar-left-expand_filled";
-    readonly baseId: "layout-sidebar-left-expand";
-    readonly variant: "filled";
-    readonly name: "Layout Sidebar Left Expand";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface LayoutSidebarRightCollapseFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const LayoutSidebarRightCollapseFilled: React.ForwardRefExoticComponent<Omit<LayoutSidebarRightCollapseFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const LayoutSidebarRightCollapseFilledMetadata: {
-    readonly id: "layout-sidebar-right-collapse_filled";
-    readonly baseId: "layout-sidebar-right-collapse";
-    readonly variant: "filled";
-    readonly name: "Layout Sidebar Right Collapse";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface LayoutSidebarRightExpandFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const LayoutSidebarRightExpandFilled: React.ForwardRefExoticComponent<Omit<LayoutSidebarRightExpandFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const LayoutSidebarRightExpandFilledMetadata: {
-    readonly id: "layout-sidebar-right-expand_filled";
-    readonly baseId: "layout-sidebar-right-expand";
-    readonly variant: "filled";
-    readonly name: "Layout Sidebar Right Expand";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface LayoutSidebarRightFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const LayoutSidebarRightFilled: React.ForwardRefExoticComponent<Omit<LayoutSidebarRightFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const LayoutSidebarRightFilledMetadata: {
-    readonly id: "layout-sidebar-right_filled";
-    readonly baseId: "layout-sidebar-right";
-    readonly variant: "filled";
-    readonly name: "Layout Sidebar Right";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface LayoutSidebarFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const LayoutSidebarFilled: React.ForwardRefExoticComponent<Omit<LayoutSidebarFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const LayoutSidebarFilledMetadata: {
-    readonly id: "layout-sidebar_filled";
-    readonly baseId: "layout-sidebar";
-    readonly variant: "filled";
-    readonly name: "Layout Sidebar";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface LayoutFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const LayoutFilled: React.ForwardRefExoticComponent<Omit<LayoutFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const LayoutFilledMetadata: {
-    readonly id: "layout_filled";
-    readonly baseId: "layout";
-    readonly variant: "filled";
-    readonly name: "Layout";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
 interface LeafFilledProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -18120,81 +16995,6 @@ declare const MelonFilledMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
-interface Message2FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const Message2Filled: React.ForwardRefExoticComponent<Omit<Message2FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const Message2FilledMetadata: {
-    readonly id: "message-2_filled";
-    readonly baseId: "message-2";
-    readonly variant: "filled";
-    readonly name: "Message 2";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface MessageChatbotFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const MessageChatbotFilled: React.ForwardRefExoticComponent<Omit<MessageChatbotFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const MessageChatbotFilledMetadata: {
-    readonly id: "message-chatbot_filled";
-    readonly baseId: "message-chatbot";
-    readonly variant: "filled";
-    readonly name: "Message Chatbot";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface MessageCircleFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const MessageCircleFilled: React.ForwardRefExoticComponent<Omit<MessageCircleFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const MessageCircleFilledMetadata: {
-    readonly id: "message-circle_filled";
-    readonly baseId: "message-circle";
-    readonly variant: "filled";
-    readonly name: "Message Circle";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface MessageReportFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const MessageReportFilled: React.ForwardRefExoticComponent<Omit<MessageReportFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const MessageReportFilledMetadata: {
-    readonly id: "message-report_filled";
-    readonly baseId: "message-report";
-    readonly variant: "filled";
-    readonly name: "Message Report";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface MessageFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const MessageFilled: React.ForwardRefExoticComponent<Omit<MessageFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const MessageFilledMetadata: {
-    readonly id: "message_filled";
-    readonly baseId: "message";
-    readonly variant: "filled";
-    readonly name: "Message";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
 interface MeteorFilledProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -18310,156 +17110,6 @@ declare const MilkFilledMetadata: {
     readonly baseId: "milk";
     readonly variant: "filled";
     readonly name: "Milk";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface MoodAngryFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const MoodAngryFilled: React.ForwardRefExoticComponent<Omit<MoodAngryFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const MoodAngryFilledMetadata: {
-    readonly id: "mood-angry_filled";
-    readonly baseId: "mood-angry";
-    readonly variant: "filled";
-    readonly name: "Mood Angry";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface MoodConfuzedFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const MoodConfuzedFilled: React.ForwardRefExoticComponent<Omit<MoodConfuzedFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const MoodConfuzedFilledMetadata: {
-    readonly id: "mood-confuzed_filled";
-    readonly baseId: "mood-confuzed";
-    readonly variant: "filled";
-    readonly name: "Mood Confuzed";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface MoodCrazyHappyFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const MoodCrazyHappyFilled: React.ForwardRefExoticComponent<Omit<MoodCrazyHappyFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const MoodCrazyHappyFilledMetadata: {
-    readonly id: "mood-crazy-happy_filled";
-    readonly baseId: "mood-crazy-happy";
-    readonly variant: "filled";
-    readonly name: "Mood Crazy Happy";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface MoodEmptyFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const MoodEmptyFilled: React.ForwardRefExoticComponent<Omit<MoodEmptyFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const MoodEmptyFilledMetadata: {
-    readonly id: "mood-empty_filled";
-    readonly baseId: "mood-empty";
-    readonly variant: "filled";
-    readonly name: "Mood Empty";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface MoodHappyFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const MoodHappyFilled: React.ForwardRefExoticComponent<Omit<MoodHappyFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const MoodHappyFilledMetadata: {
-    readonly id: "mood-happy_filled";
-    readonly baseId: "mood-happy";
-    readonly variant: "filled";
-    readonly name: "Mood Happy";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface MoodKidFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const MoodKidFilled: React.ForwardRefExoticComponent<Omit<MoodKidFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const MoodKidFilledMetadata: {
-    readonly id: "mood-kid_filled";
-    readonly baseId: "mood-kid";
-    readonly variant: "filled";
-    readonly name: "Mood Kid";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface MoodNeutralFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const MoodNeutralFilled: React.ForwardRefExoticComponent<Omit<MoodNeutralFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const MoodNeutralFilledMetadata: {
-    readonly id: "mood-neutral_filled";
-    readonly baseId: "mood-neutral";
-    readonly variant: "filled";
-    readonly name: "Mood Neutral";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface MoodSadFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const MoodSadFilled: React.ForwardRefExoticComponent<Omit<MoodSadFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const MoodSadFilledMetadata: {
-    readonly id: "mood-sad_filled";
-    readonly baseId: "mood-sad";
-    readonly variant: "filled";
-    readonly name: "Mood Sad";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface MoodSmileFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const MoodSmileFilled: React.ForwardRefExoticComponent<Omit<MoodSmileFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const MoodSmileFilledMetadata: {
-    readonly id: "mood-smile_filled";
-    readonly baseId: "mood-smile";
-    readonly variant: "filled";
-    readonly name: "Mood Smile";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface MoodWrrrFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const MoodWrrrFilled: React.ForwardRefExoticComponent<Omit<MoodWrrrFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const MoodWrrrFilledMetadata: {
-    readonly id: "mood-wrrr_filled";
-    readonly baseId: "mood-wrrr";
-    readonly variant: "filled";
-    readonly name: "Mood Wrrr";
     readonly category: "filled";
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
@@ -18805,81 +17455,6 @@ declare const PentagonFilledMetadata: {
     readonly baseId: "pentagon";
     readonly variant: "filled";
     readonly name: "Pentagon";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface PhoneCallFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const PhoneCallFilled: React.ForwardRefExoticComponent<Omit<PhoneCallFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const PhoneCallFilledMetadata: {
-    readonly id: "phone-call_filled";
-    readonly baseId: "phone-call";
-    readonly variant: "filled";
-    readonly name: "Phone Call";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface PhoneCallingFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const PhoneCallingFilled: React.ForwardRefExoticComponent<Omit<PhoneCallingFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const PhoneCallingFilledMetadata: {
-    readonly id: "phone-calling_filled";
-    readonly baseId: "phone-calling";
-    readonly variant: "filled";
-    readonly name: "Phone Calling";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface PhoneCheckFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const PhoneCheckFilled: React.ForwardRefExoticComponent<Omit<PhoneCheckFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const PhoneCheckFilledMetadata: {
-    readonly id: "phone-check_filled";
-    readonly baseId: "phone-check";
-    readonly variant: "filled";
-    readonly name: "Phone Check";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface PhoneXFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const PhoneXFilled: React.ForwardRefExoticComponent<Omit<PhoneXFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const PhoneXFilledMetadata: {
-    readonly id: "phone-x_filled";
-    readonly baseId: "phone-x";
-    readonly variant: "filled";
-    readonly name: "Phone X";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface PhoneFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const PhoneFilled: React.ForwardRefExoticComponent<Omit<PhoneFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const PhoneFilledMetadata: {
-    readonly id: "phone_filled";
-    readonly baseId: "phone";
-    readonly variant: "filled";
-    readonly name: "Phone";
     readonly category: "filled";
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
@@ -19300,156 +17875,6 @@ declare const PlayCardFilledMetadata: {
     readonly baseId: "play-card";
     readonly variant: "filled";
     readonly name: "Play Card";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface PlayerEjectFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const PlayerEjectFilled: React.ForwardRefExoticComponent<Omit<PlayerEjectFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const PlayerEjectFilledMetadata: {
-    readonly id: "player-eject_filled";
-    readonly baseId: "player-eject";
-    readonly variant: "filled";
-    readonly name: "Player Eject";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface PlayerPauseFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const PlayerPauseFilled: React.ForwardRefExoticComponent<Omit<PlayerPauseFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const PlayerPauseFilledMetadata: {
-    readonly id: "player-pause_filled";
-    readonly baseId: "player-pause";
-    readonly variant: "filled";
-    readonly name: "Player Pause";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface PlayerPlayFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const PlayerPlayFilled: React.ForwardRefExoticComponent<Omit<PlayerPlayFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const PlayerPlayFilledMetadata: {
-    readonly id: "player-play_filled";
-    readonly baseId: "player-play";
-    readonly variant: "filled";
-    readonly name: "Player Play";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface PlayerRecordFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const PlayerRecordFilled: React.ForwardRefExoticComponent<Omit<PlayerRecordFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const PlayerRecordFilledMetadata: {
-    readonly id: "player-record_filled";
-    readonly baseId: "player-record";
-    readonly variant: "filled";
-    readonly name: "Player Record";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface PlayerSkipBackFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const PlayerSkipBackFilled: React.ForwardRefExoticComponent<Omit<PlayerSkipBackFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const PlayerSkipBackFilledMetadata: {
-    readonly id: "player-skip-back_filled";
-    readonly baseId: "player-skip-back";
-    readonly variant: "filled";
-    readonly name: "Player Skip Back";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface PlayerSkipForwardFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const PlayerSkipForwardFilled: React.ForwardRefExoticComponent<Omit<PlayerSkipForwardFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const PlayerSkipForwardFilledMetadata: {
-    readonly id: "player-skip-forward_filled";
-    readonly baseId: "player-skip-forward";
-    readonly variant: "filled";
-    readonly name: "Player Skip Forward";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface PlayerStopFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const PlayerStopFilled: React.ForwardRefExoticComponent<Omit<PlayerStopFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const PlayerStopFilledMetadata: {
-    readonly id: "player-stop_filled";
-    readonly baseId: "player-stop";
-    readonly variant: "filled";
-    readonly name: "Player Stop";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface PlayerTrackNextFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const PlayerTrackNextFilled: React.ForwardRefExoticComponent<Omit<PlayerTrackNextFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const PlayerTrackNextFilledMetadata: {
-    readonly id: "player-track-next_filled";
-    readonly baseId: "player-track-next";
-    readonly variant: "filled";
-    readonly name: "Player Track Next";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface PlayerTrackPrevFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const PlayerTrackPrevFilled: React.ForwardRefExoticComponent<Omit<PlayerTrackPrevFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const PlayerTrackPrevFilledMetadata: {
-    readonly id: "player-track-prev_filled";
-    readonly baseId: "player-track-prev";
-    readonly variant: "filled";
-    readonly name: "Player Track Prev";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface PlaylistFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const PlaylistFilled: React.ForwardRefExoticComponent<Omit<PlaylistFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const PlaylistFilledMetadata: {
-    readonly id: "playlist_filled";
-    readonly baseId: "playlist";
-    readonly variant: "filled";
-    readonly name: "Playlist";
     readonly category: "filled";
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
@@ -19995,81 +18420,6 @@ declare const SettingsFilledMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
-interface ShieldCheckFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const ShieldCheckFilled: React.ForwardRefExoticComponent<Omit<ShieldCheckFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const ShieldCheckFilledMetadata: {
-    readonly id: "shield-check_filled";
-    readonly baseId: "shield-check";
-    readonly variant: "filled";
-    readonly name: "Shield Check";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface ShieldCheckeredFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const ShieldCheckeredFilled: React.ForwardRefExoticComponent<Omit<ShieldCheckeredFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const ShieldCheckeredFilledMetadata: {
-    readonly id: "shield-checkered_filled";
-    readonly baseId: "shield-checkered";
-    readonly variant: "filled";
-    readonly name: "Shield Checkered";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface ShieldHalfFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const ShieldHalfFilled: React.ForwardRefExoticComponent<Omit<ShieldHalfFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const ShieldHalfFilledMetadata: {
-    readonly id: "shield-half_filled";
-    readonly baseId: "shield-half";
-    readonly variant: "filled";
-    readonly name: "Shield Half";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface ShieldLockFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const ShieldLockFilled: React.ForwardRefExoticComponent<Omit<ShieldLockFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const ShieldLockFilledMetadata: {
-    readonly id: "shield-lock_filled";
-    readonly baseId: "shield-lock";
-    readonly variant: "filled";
-    readonly name: "Shield Lock";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface ShieldFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const ShieldFilled: React.ForwardRefExoticComponent<Omit<ShieldFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const ShieldFilledMetadata: {
-    readonly id: "shield_filled";
-    readonly baseId: "shield";
-    readonly variant: "filled";
-    readonly name: "Shield";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
 interface ShirtFilledProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -20290,1791 +18640,6 @@ declare const SpiderFilledMetadata: {
     readonly baseId: "spider";
     readonly variant: "filled";
     readonly name: "Spider";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareArrowDownFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareArrowDownFilled: React.ForwardRefExoticComponent<Omit<SquareArrowDownFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareArrowDownFilledMetadata: {
-    readonly id: "square-arrow-down_filled";
-    readonly baseId: "square-arrow-down";
-    readonly variant: "filled";
-    readonly name: "Square Arrow Down";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareArrowLeftFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareArrowLeftFilled: React.ForwardRefExoticComponent<Omit<SquareArrowLeftFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareArrowLeftFilledMetadata: {
-    readonly id: "square-arrow-left_filled";
-    readonly baseId: "square-arrow-left";
-    readonly variant: "filled";
-    readonly name: "Square Arrow Left";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareArrowRightFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareArrowRightFilled: React.ForwardRefExoticComponent<Omit<SquareArrowRightFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareArrowRightFilledMetadata: {
-    readonly id: "square-arrow-right_filled";
-    readonly baseId: "square-arrow-right";
-    readonly variant: "filled";
-    readonly name: "Square Arrow Right";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareArrowUpFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareArrowUpFilled: React.ForwardRefExoticComponent<Omit<SquareArrowUpFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareArrowUpFilledMetadata: {
-    readonly id: "square-arrow-up_filled";
-    readonly baseId: "square-arrow-up";
-    readonly variant: "filled";
-    readonly name: "Square Arrow Up";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareAsteriskFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareAsteriskFilled: React.ForwardRefExoticComponent<Omit<SquareAsteriskFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareAsteriskFilledMetadata: {
-    readonly id: "square-asterisk_filled";
-    readonly baseId: "square-asterisk";
-    readonly variant: "filled";
-    readonly name: "Square Asterisk";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareCheckFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareCheckFilled: React.ForwardRefExoticComponent<Omit<SquareCheckFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareCheckFilledMetadata: {
-    readonly id: "square-check_filled";
-    readonly baseId: "square-check";
-    readonly variant: "filled";
-    readonly name: "Square Check";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareChevronDownFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareChevronDownFilled: React.ForwardRefExoticComponent<Omit<SquareChevronDownFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareChevronDownFilledMetadata: {
-    readonly id: "square-chevron-down_filled";
-    readonly baseId: "square-chevron-down";
-    readonly variant: "filled";
-    readonly name: "Square Chevron Down";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareChevronLeftFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareChevronLeftFilled: React.ForwardRefExoticComponent<Omit<SquareChevronLeftFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareChevronLeftFilledMetadata: {
-    readonly id: "square-chevron-left_filled";
-    readonly baseId: "square-chevron-left";
-    readonly variant: "filled";
-    readonly name: "Square Chevron Left";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareChevronRightFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareChevronRightFilled: React.ForwardRefExoticComponent<Omit<SquareChevronRightFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareChevronRightFilledMetadata: {
-    readonly id: "square-chevron-right_filled";
-    readonly baseId: "square-chevron-right";
-    readonly variant: "filled";
-    readonly name: "Square Chevron Right";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareChevronUpFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareChevronUpFilled: React.ForwardRefExoticComponent<Omit<SquareChevronUpFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareChevronUpFilledMetadata: {
-    readonly id: "square-chevron-up_filled";
-    readonly baseId: "square-chevron-up";
-    readonly variant: "filled";
-    readonly name: "Square Chevron Up";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareChevronsDownFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareChevronsDownFilled: React.ForwardRefExoticComponent<Omit<SquareChevronsDownFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareChevronsDownFilledMetadata: {
-    readonly id: "square-chevrons-down_filled";
-    readonly baseId: "square-chevrons-down";
-    readonly variant: "filled";
-    readonly name: "Square Chevrons Down";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareChevronsLeftFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareChevronsLeftFilled: React.ForwardRefExoticComponent<Omit<SquareChevronsLeftFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareChevronsLeftFilledMetadata: {
-    readonly id: "square-chevrons-left_filled";
-    readonly baseId: "square-chevrons-left";
-    readonly variant: "filled";
-    readonly name: "Square Chevrons Left";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareChevronsRightFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareChevronsRightFilled: React.ForwardRefExoticComponent<Omit<SquareChevronsRightFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareChevronsRightFilledMetadata: {
-    readonly id: "square-chevrons-right_filled";
-    readonly baseId: "square-chevrons-right";
-    readonly variant: "filled";
-    readonly name: "Square Chevrons Right";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareChevronsUpFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareChevronsUpFilled: React.ForwardRefExoticComponent<Omit<SquareChevronsUpFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareChevronsUpFilledMetadata: {
-    readonly id: "square-chevrons-up_filled";
-    readonly baseId: "square-chevrons-up";
-    readonly variant: "filled";
-    readonly name: "Square Chevrons Up";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareDotFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareDotFilled: React.ForwardRefExoticComponent<Omit<SquareDotFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareDotFilledMetadata: {
-    readonly id: "square-dot_filled";
-    readonly baseId: "square-dot";
-    readonly variant: "filled";
-    readonly name: "Square Dot";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareF0FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareF0Filled: React.ForwardRefExoticComponent<Omit<SquareF0FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareF0FilledMetadata: {
-    readonly id: "square-f0_filled";
-    readonly baseId: "square-f0";
-    readonly variant: "filled";
-    readonly name: "Square F0";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareF1FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareF1Filled: React.ForwardRefExoticComponent<Omit<SquareF1FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareF1FilledMetadata: {
-    readonly id: "square-f1_filled";
-    readonly baseId: "square-f1";
-    readonly variant: "filled";
-    readonly name: "Square F1";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareF2FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareF2Filled: React.ForwardRefExoticComponent<Omit<SquareF2FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareF2FilledMetadata: {
-    readonly id: "square-f2_filled";
-    readonly baseId: "square-f2";
-    readonly variant: "filled";
-    readonly name: "Square F2";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareF3FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareF3Filled: React.ForwardRefExoticComponent<Omit<SquareF3FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareF3FilledMetadata: {
-    readonly id: "square-f3_filled";
-    readonly baseId: "square-f3";
-    readonly variant: "filled";
-    readonly name: "Square F3";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareF4FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareF4Filled: React.ForwardRefExoticComponent<Omit<SquareF4FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareF4FilledMetadata: {
-    readonly id: "square-f4_filled";
-    readonly baseId: "square-f4";
-    readonly variant: "filled";
-    readonly name: "Square F4";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareF5FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareF5Filled: React.ForwardRefExoticComponent<Omit<SquareF5FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareF5FilledMetadata: {
-    readonly id: "square-f5_filled";
-    readonly baseId: "square-f5";
-    readonly variant: "filled";
-    readonly name: "Square F5";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareF6FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareF6Filled: React.ForwardRefExoticComponent<Omit<SquareF6FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareF6FilledMetadata: {
-    readonly id: "square-f6_filled";
-    readonly baseId: "square-f6";
-    readonly variant: "filled";
-    readonly name: "Square F6";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareF7FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareF7Filled: React.ForwardRefExoticComponent<Omit<SquareF7FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareF7FilledMetadata: {
-    readonly id: "square-f7_filled";
-    readonly baseId: "square-f7";
-    readonly variant: "filled";
-    readonly name: "Square F7";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareF8FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareF8Filled: React.ForwardRefExoticComponent<Omit<SquareF8FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareF8FilledMetadata: {
-    readonly id: "square-f8_filled";
-    readonly baseId: "square-f8";
-    readonly variant: "filled";
-    readonly name: "Square F8";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareF9FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareF9Filled: React.ForwardRefExoticComponent<Omit<SquareF9FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareF9FilledMetadata: {
-    readonly id: "square-f9_filled";
-    readonly baseId: "square-f9";
-    readonly variant: "filled";
-    readonly name: "Square F9";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareLetterAFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareLetterAFilled: React.ForwardRefExoticComponent<Omit<SquareLetterAFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareLetterAFilledMetadata: {
-    readonly id: "square-letter-a_filled";
-    readonly baseId: "square-letter-a";
-    readonly variant: "filled";
-    readonly name: "Square Letter A";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareLetterBFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareLetterBFilled: React.ForwardRefExoticComponent<Omit<SquareLetterBFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareLetterBFilledMetadata: {
-    readonly id: "square-letter-b_filled";
-    readonly baseId: "square-letter-b";
-    readonly variant: "filled";
-    readonly name: "Square Letter B";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareLetterCFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareLetterCFilled: React.ForwardRefExoticComponent<Omit<SquareLetterCFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareLetterCFilledMetadata: {
-    readonly id: "square-letter-c_filled";
-    readonly baseId: "square-letter-c";
-    readonly variant: "filled";
-    readonly name: "Square Letter C";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareLetterDFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareLetterDFilled: React.ForwardRefExoticComponent<Omit<SquareLetterDFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareLetterDFilledMetadata: {
-    readonly id: "square-letter-d_filled";
-    readonly baseId: "square-letter-d";
-    readonly variant: "filled";
-    readonly name: "Square Letter D";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareLetterEFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareLetterEFilled: React.ForwardRefExoticComponent<Omit<SquareLetterEFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareLetterEFilledMetadata: {
-    readonly id: "square-letter-e_filled";
-    readonly baseId: "square-letter-e";
-    readonly variant: "filled";
-    readonly name: "Square Letter E";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareLetterFFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareLetterFFilled: React.ForwardRefExoticComponent<Omit<SquareLetterFFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareLetterFFilledMetadata: {
-    readonly id: "square-letter-f_filled";
-    readonly baseId: "square-letter-f";
-    readonly variant: "filled";
-    readonly name: "Square Letter F";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareLetterGFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareLetterGFilled: React.ForwardRefExoticComponent<Omit<SquareLetterGFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareLetterGFilledMetadata: {
-    readonly id: "square-letter-g_filled";
-    readonly baseId: "square-letter-g";
-    readonly variant: "filled";
-    readonly name: "Square Letter G";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareLetterHFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareLetterHFilled: React.ForwardRefExoticComponent<Omit<SquareLetterHFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareLetterHFilledMetadata: {
-    readonly id: "square-letter-h_filled";
-    readonly baseId: "square-letter-h";
-    readonly variant: "filled";
-    readonly name: "Square Letter H";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareLetterIFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareLetterIFilled: React.ForwardRefExoticComponent<Omit<SquareLetterIFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareLetterIFilledMetadata: {
-    readonly id: "square-letter-i_filled";
-    readonly baseId: "square-letter-i";
-    readonly variant: "filled";
-    readonly name: "Square Letter I";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareLetterJFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareLetterJFilled: React.ForwardRefExoticComponent<Omit<SquareLetterJFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareLetterJFilledMetadata: {
-    readonly id: "square-letter-j_filled";
-    readonly baseId: "square-letter-j";
-    readonly variant: "filled";
-    readonly name: "Square Letter J";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareLetterKFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareLetterKFilled: React.ForwardRefExoticComponent<Omit<SquareLetterKFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareLetterKFilledMetadata: {
-    readonly id: "square-letter-k_filled";
-    readonly baseId: "square-letter-k";
-    readonly variant: "filled";
-    readonly name: "Square Letter K";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareLetterLFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareLetterLFilled: React.ForwardRefExoticComponent<Omit<SquareLetterLFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareLetterLFilledMetadata: {
-    readonly id: "square-letter-l_filled";
-    readonly baseId: "square-letter-l";
-    readonly variant: "filled";
-    readonly name: "Square Letter L";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareLetterMFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareLetterMFilled: React.ForwardRefExoticComponent<Omit<SquareLetterMFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareLetterMFilledMetadata: {
-    readonly id: "square-letter-m_filled";
-    readonly baseId: "square-letter-m";
-    readonly variant: "filled";
-    readonly name: "Square Letter M";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareLetterNFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareLetterNFilled: React.ForwardRefExoticComponent<Omit<SquareLetterNFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareLetterNFilledMetadata: {
-    readonly id: "square-letter-n_filled";
-    readonly baseId: "square-letter-n";
-    readonly variant: "filled";
-    readonly name: "Square Letter N";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareLetterOFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareLetterOFilled: React.ForwardRefExoticComponent<Omit<SquareLetterOFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareLetterOFilledMetadata: {
-    readonly id: "square-letter-o_filled";
-    readonly baseId: "square-letter-o";
-    readonly variant: "filled";
-    readonly name: "Square Letter O";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareLetterPFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareLetterPFilled: React.ForwardRefExoticComponent<Omit<SquareLetterPFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareLetterPFilledMetadata: {
-    readonly id: "square-letter-p_filled";
-    readonly baseId: "square-letter-p";
-    readonly variant: "filled";
-    readonly name: "Square Letter P";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareLetterQFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareLetterQFilled: React.ForwardRefExoticComponent<Omit<SquareLetterQFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareLetterQFilledMetadata: {
-    readonly id: "square-letter-q_filled";
-    readonly baseId: "square-letter-q";
-    readonly variant: "filled";
-    readonly name: "Square Letter Q";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareLetterRFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareLetterRFilled: React.ForwardRefExoticComponent<Omit<SquareLetterRFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareLetterRFilledMetadata: {
-    readonly id: "square-letter-r_filled";
-    readonly baseId: "square-letter-r";
-    readonly variant: "filled";
-    readonly name: "Square Letter R";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareLetterSFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareLetterSFilled: React.ForwardRefExoticComponent<Omit<SquareLetterSFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareLetterSFilledMetadata: {
-    readonly id: "square-letter-s_filled";
-    readonly baseId: "square-letter-s";
-    readonly variant: "filled";
-    readonly name: "Square Letter S";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareLetterTFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareLetterTFilled: React.ForwardRefExoticComponent<Omit<SquareLetterTFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareLetterTFilledMetadata: {
-    readonly id: "square-letter-t_filled";
-    readonly baseId: "square-letter-t";
-    readonly variant: "filled";
-    readonly name: "Square Letter T";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareLetterUFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareLetterUFilled: React.ForwardRefExoticComponent<Omit<SquareLetterUFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareLetterUFilledMetadata: {
-    readonly id: "square-letter-u_filled";
-    readonly baseId: "square-letter-u";
-    readonly variant: "filled";
-    readonly name: "Square Letter U";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareLetterVFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareLetterVFilled: React.ForwardRefExoticComponent<Omit<SquareLetterVFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareLetterVFilledMetadata: {
-    readonly id: "square-letter-v_filled";
-    readonly baseId: "square-letter-v";
-    readonly variant: "filled";
-    readonly name: "Square Letter V";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareLetterWFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareLetterWFilled: React.ForwardRefExoticComponent<Omit<SquareLetterWFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareLetterWFilledMetadata: {
-    readonly id: "square-letter-w_filled";
-    readonly baseId: "square-letter-w";
-    readonly variant: "filled";
-    readonly name: "Square Letter W";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareLetterXFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareLetterXFilled: React.ForwardRefExoticComponent<Omit<SquareLetterXFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareLetterXFilledMetadata: {
-    readonly id: "square-letter-x_filled";
-    readonly baseId: "square-letter-x";
-    readonly variant: "filled";
-    readonly name: "Square Letter X";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareLetterYFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareLetterYFilled: React.ForwardRefExoticComponent<Omit<SquareLetterYFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareLetterYFilledMetadata: {
-    readonly id: "square-letter-y_filled";
-    readonly baseId: "square-letter-y";
-    readonly variant: "filled";
-    readonly name: "Square Letter Y";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareLetterZFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareLetterZFilled: React.ForwardRefExoticComponent<Omit<SquareLetterZFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareLetterZFilledMetadata: {
-    readonly id: "square-letter-z_filled";
-    readonly baseId: "square-letter-z";
-    readonly variant: "filled";
-    readonly name: "Square Letter Z";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareMinusFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareMinusFilled: React.ForwardRefExoticComponent<Omit<SquareMinusFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareMinusFilledMetadata: {
-    readonly id: "square-minus_filled";
-    readonly baseId: "square-minus";
-    readonly variant: "filled";
-    readonly name: "Square Minus";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareNumber0FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareNumber0Filled: React.ForwardRefExoticComponent<Omit<SquareNumber0FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareNumber0FilledMetadata: {
-    readonly id: "square-number-0_filled";
-    readonly baseId: "square-number-0";
-    readonly variant: "filled";
-    readonly name: "Square Number 0";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareNumber1FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareNumber1Filled: React.ForwardRefExoticComponent<Omit<SquareNumber1FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareNumber1FilledMetadata: {
-    readonly id: "square-number-1_filled";
-    readonly baseId: "square-number-1";
-    readonly variant: "filled";
-    readonly name: "Square Number 1";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareNumber2FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareNumber2Filled: React.ForwardRefExoticComponent<Omit<SquareNumber2FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareNumber2FilledMetadata: {
-    readonly id: "square-number-2_filled";
-    readonly baseId: "square-number-2";
-    readonly variant: "filled";
-    readonly name: "Square Number 2";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareNumber3FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareNumber3Filled: React.ForwardRefExoticComponent<Omit<SquareNumber3FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareNumber3FilledMetadata: {
-    readonly id: "square-number-3_filled";
-    readonly baseId: "square-number-3";
-    readonly variant: "filled";
-    readonly name: "Square Number 3";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareNumber4FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareNumber4Filled: React.ForwardRefExoticComponent<Omit<SquareNumber4FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareNumber4FilledMetadata: {
-    readonly id: "square-number-4_filled";
-    readonly baseId: "square-number-4";
-    readonly variant: "filled";
-    readonly name: "Square Number 4";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareNumber5FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareNumber5Filled: React.ForwardRefExoticComponent<Omit<SquareNumber5FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareNumber5FilledMetadata: {
-    readonly id: "square-number-5_filled";
-    readonly baseId: "square-number-5";
-    readonly variant: "filled";
-    readonly name: "Square Number 5";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareNumber6FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareNumber6Filled: React.ForwardRefExoticComponent<Omit<SquareNumber6FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareNumber6FilledMetadata: {
-    readonly id: "square-number-6_filled";
-    readonly baseId: "square-number-6";
-    readonly variant: "filled";
-    readonly name: "Square Number 6";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareNumber7FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareNumber7Filled: React.ForwardRefExoticComponent<Omit<SquareNumber7FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareNumber7FilledMetadata: {
-    readonly id: "square-number-7_filled";
-    readonly baseId: "square-number-7";
-    readonly variant: "filled";
-    readonly name: "Square Number 7";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareNumber8FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareNumber8Filled: React.ForwardRefExoticComponent<Omit<SquareNumber8FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareNumber8FilledMetadata: {
-    readonly id: "square-number-8_filled";
-    readonly baseId: "square-number-8";
-    readonly variant: "filled";
-    readonly name: "Square Number 8";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareNumber9FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareNumber9Filled: React.ForwardRefExoticComponent<Omit<SquareNumber9FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareNumber9FilledMetadata: {
-    readonly id: "square-number-9_filled";
-    readonly baseId: "square-number-9";
-    readonly variant: "filled";
-    readonly name: "Square Number 9";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareRotatedFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareRotatedFilled: React.ForwardRefExoticComponent<Omit<SquareRotatedFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareRotatedFilledMetadata: {
-    readonly id: "square-rotated_filled";
-    readonly baseId: "square-rotated";
-    readonly variant: "filled";
-    readonly name: "Square Rotated";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareRoundedArrowDownFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareRoundedArrowDownFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedArrowDownFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareRoundedArrowDownFilledMetadata: {
-    readonly id: "square-rounded-arrow-down_filled";
-    readonly baseId: "square-rounded-arrow-down";
-    readonly variant: "filled";
-    readonly name: "Square Rounded Arrow Down";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareRoundedArrowLeftFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareRoundedArrowLeftFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedArrowLeftFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareRoundedArrowLeftFilledMetadata: {
-    readonly id: "square-rounded-arrow-left_filled";
-    readonly baseId: "square-rounded-arrow-left";
-    readonly variant: "filled";
-    readonly name: "Square Rounded Arrow Left";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareRoundedArrowRightFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareRoundedArrowRightFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedArrowRightFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareRoundedArrowRightFilledMetadata: {
-    readonly id: "square-rounded-arrow-right_filled";
-    readonly baseId: "square-rounded-arrow-right";
-    readonly variant: "filled";
-    readonly name: "Square Rounded Arrow Right";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareRoundedArrowUpFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareRoundedArrowUpFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedArrowUpFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareRoundedArrowUpFilledMetadata: {
-    readonly id: "square-rounded-arrow-up_filled";
-    readonly baseId: "square-rounded-arrow-up";
-    readonly variant: "filled";
-    readonly name: "Square Rounded Arrow Up";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareRoundedCheckFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareRoundedCheckFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedCheckFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareRoundedCheckFilledMetadata: {
-    readonly id: "square-rounded-check_filled";
-    readonly baseId: "square-rounded-check";
-    readonly variant: "filled";
-    readonly name: "Square Rounded Check";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareRoundedChevronDownFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareRoundedChevronDownFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedChevronDownFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareRoundedChevronDownFilledMetadata: {
-    readonly id: "square-rounded-chevron-down_filled";
-    readonly baseId: "square-rounded-chevron-down";
-    readonly variant: "filled";
-    readonly name: "Square Rounded Chevron Down";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareRoundedChevronLeftFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareRoundedChevronLeftFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedChevronLeftFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareRoundedChevronLeftFilledMetadata: {
-    readonly id: "square-rounded-chevron-left_filled";
-    readonly baseId: "square-rounded-chevron-left";
-    readonly variant: "filled";
-    readonly name: "Square Rounded Chevron Left";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareRoundedChevronRightFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareRoundedChevronRightFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedChevronRightFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareRoundedChevronRightFilledMetadata: {
-    readonly id: "square-rounded-chevron-right_filled";
-    readonly baseId: "square-rounded-chevron-right";
-    readonly variant: "filled";
-    readonly name: "Square Rounded Chevron Right";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareRoundedChevronUpFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareRoundedChevronUpFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedChevronUpFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareRoundedChevronUpFilledMetadata: {
-    readonly id: "square-rounded-chevron-up_filled";
-    readonly baseId: "square-rounded-chevron-up";
-    readonly variant: "filled";
-    readonly name: "Square Rounded Chevron Up";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareRoundedChevronsDownFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareRoundedChevronsDownFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedChevronsDownFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareRoundedChevronsDownFilledMetadata: {
-    readonly id: "square-rounded-chevrons-down_filled";
-    readonly baseId: "square-rounded-chevrons-down";
-    readonly variant: "filled";
-    readonly name: "Square Rounded Chevrons Down";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareRoundedChevronsLeftFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareRoundedChevronsLeftFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedChevronsLeftFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareRoundedChevronsLeftFilledMetadata: {
-    readonly id: "square-rounded-chevrons-left_filled";
-    readonly baseId: "square-rounded-chevrons-left";
-    readonly variant: "filled";
-    readonly name: "Square Rounded Chevrons Left";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareRoundedChevronsRightFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareRoundedChevronsRightFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedChevronsRightFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareRoundedChevronsRightFilledMetadata: {
-    readonly id: "square-rounded-chevrons-right_filled";
-    readonly baseId: "square-rounded-chevrons-right";
-    readonly variant: "filled";
-    readonly name: "Square Rounded Chevrons Right";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareRoundedChevronsUpFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareRoundedChevronsUpFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedChevronsUpFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareRoundedChevronsUpFilledMetadata: {
-    readonly id: "square-rounded-chevrons-up_filled";
-    readonly baseId: "square-rounded-chevrons-up";
-    readonly variant: "filled";
-    readonly name: "Square Rounded Chevrons Up";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareRoundedLetterAFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareRoundedLetterAFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedLetterAFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareRoundedLetterAFilledMetadata: {
-    readonly id: "square-rounded-letter-a_filled";
-    readonly baseId: "square-rounded-letter-a";
-    readonly variant: "filled";
-    readonly name: "Square Rounded Letter A";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareRoundedLetterBFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareRoundedLetterBFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedLetterBFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareRoundedLetterBFilledMetadata: {
-    readonly id: "square-rounded-letter-b_filled";
-    readonly baseId: "square-rounded-letter-b";
-    readonly variant: "filled";
-    readonly name: "Square Rounded Letter B";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareRoundedLetterCFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareRoundedLetterCFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedLetterCFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareRoundedLetterCFilledMetadata: {
-    readonly id: "square-rounded-letter-c_filled";
-    readonly baseId: "square-rounded-letter-c";
-    readonly variant: "filled";
-    readonly name: "Square Rounded Letter C";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareRoundedLetterDFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareRoundedLetterDFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedLetterDFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareRoundedLetterDFilledMetadata: {
-    readonly id: "square-rounded-letter-d_filled";
-    readonly baseId: "square-rounded-letter-d";
-    readonly variant: "filled";
-    readonly name: "Square Rounded Letter D";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareRoundedLetterEFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareRoundedLetterEFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedLetterEFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareRoundedLetterEFilledMetadata: {
-    readonly id: "square-rounded-letter-e_filled";
-    readonly baseId: "square-rounded-letter-e";
-    readonly variant: "filled";
-    readonly name: "Square Rounded Letter E";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareRoundedLetterFFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareRoundedLetterFFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedLetterFFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareRoundedLetterFFilledMetadata: {
-    readonly id: "square-rounded-letter-f_filled";
-    readonly baseId: "square-rounded-letter-f";
-    readonly variant: "filled";
-    readonly name: "Square Rounded Letter F";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareRoundedLetterGFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareRoundedLetterGFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedLetterGFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareRoundedLetterGFilledMetadata: {
-    readonly id: "square-rounded-letter-g_filled";
-    readonly baseId: "square-rounded-letter-g";
-    readonly variant: "filled";
-    readonly name: "Square Rounded Letter G";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareRoundedLetterHFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareRoundedLetterHFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedLetterHFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareRoundedLetterHFilledMetadata: {
-    readonly id: "square-rounded-letter-h_filled";
-    readonly baseId: "square-rounded-letter-h";
-    readonly variant: "filled";
-    readonly name: "Square Rounded Letter H";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareRoundedLetterIFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareRoundedLetterIFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedLetterIFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareRoundedLetterIFilledMetadata: {
-    readonly id: "square-rounded-letter-i_filled";
-    readonly baseId: "square-rounded-letter-i";
-    readonly variant: "filled";
-    readonly name: "Square Rounded Letter I";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareRoundedLetterJFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareRoundedLetterJFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedLetterJFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareRoundedLetterJFilledMetadata: {
-    readonly id: "square-rounded-letter-j_filled";
-    readonly baseId: "square-rounded-letter-j";
-    readonly variant: "filled";
-    readonly name: "Square Rounded Letter J";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareRoundedLetterKFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareRoundedLetterKFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedLetterKFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareRoundedLetterKFilledMetadata: {
-    readonly id: "square-rounded-letter-k_filled";
-    readonly baseId: "square-rounded-letter-k";
-    readonly variant: "filled";
-    readonly name: "Square Rounded Letter K";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareRoundedLetterLFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareRoundedLetterLFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedLetterLFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareRoundedLetterLFilledMetadata: {
-    readonly id: "square-rounded-letter-l_filled";
-    readonly baseId: "square-rounded-letter-l";
-    readonly variant: "filled";
-    readonly name: "Square Rounded Letter L";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareRoundedLetterMFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareRoundedLetterMFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedLetterMFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareRoundedLetterMFilledMetadata: {
-    readonly id: "square-rounded-letter-m_filled";
-    readonly baseId: "square-rounded-letter-m";
-    readonly variant: "filled";
-    readonly name: "Square Rounded Letter M";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareRoundedLetterNFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareRoundedLetterNFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedLetterNFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareRoundedLetterNFilledMetadata: {
-    readonly id: "square-rounded-letter-n_filled";
-    readonly baseId: "square-rounded-letter-n";
-    readonly variant: "filled";
-    readonly name: "Square Rounded Letter N";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareRoundedLetterOFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareRoundedLetterOFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedLetterOFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareRoundedLetterOFilledMetadata: {
-    readonly id: "square-rounded-letter-o_filled";
-    readonly baseId: "square-rounded-letter-o";
-    readonly variant: "filled";
-    readonly name: "Square Rounded Letter O";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareRoundedLetterPFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareRoundedLetterPFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedLetterPFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareRoundedLetterPFilledMetadata: {
-    readonly id: "square-rounded-letter-p_filled";
-    readonly baseId: "square-rounded-letter-p";
-    readonly variant: "filled";
-    readonly name: "Square Rounded Letter P";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareRoundedLetterQFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareRoundedLetterQFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedLetterQFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareRoundedLetterQFilledMetadata: {
-    readonly id: "square-rounded-letter-q_filled";
-    readonly baseId: "square-rounded-letter-q";
-    readonly variant: "filled";
-    readonly name: "Square Rounded Letter Q";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareRoundedLetterRFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareRoundedLetterRFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedLetterRFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareRoundedLetterRFilledMetadata: {
-    readonly id: "square-rounded-letter-r_filled";
-    readonly baseId: "square-rounded-letter-r";
-    readonly variant: "filled";
-    readonly name: "Square Rounded Letter R";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareRoundedLetterSFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareRoundedLetterSFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedLetterSFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareRoundedLetterSFilledMetadata: {
-    readonly id: "square-rounded-letter-s_filled";
-    readonly baseId: "square-rounded-letter-s";
-    readonly variant: "filled";
-    readonly name: "Square Rounded Letter S";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareRoundedLetterTFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareRoundedLetterTFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedLetterTFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareRoundedLetterTFilledMetadata: {
-    readonly id: "square-rounded-letter-t_filled";
-    readonly baseId: "square-rounded-letter-t";
-    readonly variant: "filled";
-    readonly name: "Square Rounded Letter T";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareRoundedLetterUFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareRoundedLetterUFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedLetterUFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareRoundedLetterUFilledMetadata: {
-    readonly id: "square-rounded-letter-u_filled";
-    readonly baseId: "square-rounded-letter-u";
-    readonly variant: "filled";
-    readonly name: "Square Rounded Letter U";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareRoundedLetterVFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareRoundedLetterVFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedLetterVFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareRoundedLetterVFilledMetadata: {
-    readonly id: "square-rounded-letter-v_filled";
-    readonly baseId: "square-rounded-letter-v";
-    readonly variant: "filled";
-    readonly name: "Square Rounded Letter V";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareRoundedLetterWFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareRoundedLetterWFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedLetterWFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareRoundedLetterWFilledMetadata: {
-    readonly id: "square-rounded-letter-w_filled";
-    readonly baseId: "square-rounded-letter-w";
-    readonly variant: "filled";
-    readonly name: "Square Rounded Letter W";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareRoundedLetterXFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareRoundedLetterXFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedLetterXFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareRoundedLetterXFilledMetadata: {
-    readonly id: "square-rounded-letter-x_filled";
-    readonly baseId: "square-rounded-letter-x";
-    readonly variant: "filled";
-    readonly name: "Square Rounded Letter X";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareRoundedLetterYFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareRoundedLetterYFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedLetterYFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareRoundedLetterYFilledMetadata: {
-    readonly id: "square-rounded-letter-y_filled";
-    readonly baseId: "square-rounded-letter-y";
-    readonly variant: "filled";
-    readonly name: "Square Rounded Letter Y";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareRoundedLetterZFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareRoundedLetterZFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedLetterZFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareRoundedLetterZFilledMetadata: {
-    readonly id: "square-rounded-letter-z_filled";
-    readonly baseId: "square-rounded-letter-z";
-    readonly variant: "filled";
-    readonly name: "Square Rounded Letter Z";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareRoundedMinusFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareRoundedMinusFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedMinusFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareRoundedMinusFilledMetadata: {
-    readonly id: "square-rounded-minus_filled";
-    readonly baseId: "square-rounded-minus";
-    readonly variant: "filled";
-    readonly name: "Square Rounded Minus";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareRoundedNumber0FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareRoundedNumber0Filled: React.ForwardRefExoticComponent<Omit<SquareRoundedNumber0FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareRoundedNumber0FilledMetadata: {
-    readonly id: "square-rounded-number-0_filled";
-    readonly baseId: "square-rounded-number-0";
-    readonly variant: "filled";
-    readonly name: "Square Rounded Number 0";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareRoundedNumber1FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareRoundedNumber1Filled: React.ForwardRefExoticComponent<Omit<SquareRoundedNumber1FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareRoundedNumber1FilledMetadata: {
-    readonly id: "square-rounded-number-1_filled";
-    readonly baseId: "square-rounded-number-1";
-    readonly variant: "filled";
-    readonly name: "Square Rounded Number 1";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareRoundedNumber2FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareRoundedNumber2Filled: React.ForwardRefExoticComponent<Omit<SquareRoundedNumber2FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareRoundedNumber2FilledMetadata: {
-    readonly id: "square-rounded-number-2_filled";
-    readonly baseId: "square-rounded-number-2";
-    readonly variant: "filled";
-    readonly name: "Square Rounded Number 2";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareRoundedNumber3FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareRoundedNumber3Filled: React.ForwardRefExoticComponent<Omit<SquareRoundedNumber3FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareRoundedNumber3FilledMetadata: {
-    readonly id: "square-rounded-number-3_filled";
-    readonly baseId: "square-rounded-number-3";
-    readonly variant: "filled";
-    readonly name: "Square Rounded Number 3";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareRoundedNumber4FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareRoundedNumber4Filled: React.ForwardRefExoticComponent<Omit<SquareRoundedNumber4FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareRoundedNumber4FilledMetadata: {
-    readonly id: "square-rounded-number-4_filled";
-    readonly baseId: "square-rounded-number-4";
-    readonly variant: "filled";
-    readonly name: "Square Rounded Number 4";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareRoundedNumber5FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareRoundedNumber5Filled: React.ForwardRefExoticComponent<Omit<SquareRoundedNumber5FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareRoundedNumber5FilledMetadata: {
-    readonly id: "square-rounded-number-5_filled";
-    readonly baseId: "square-rounded-number-5";
-    readonly variant: "filled";
-    readonly name: "Square Rounded Number 5";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareRoundedNumber6FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareRoundedNumber6Filled: React.ForwardRefExoticComponent<Omit<SquareRoundedNumber6FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareRoundedNumber6FilledMetadata: {
-    readonly id: "square-rounded-number-6_filled";
-    readonly baseId: "square-rounded-number-6";
-    readonly variant: "filled";
-    readonly name: "Square Rounded Number 6";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareRoundedNumber7FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareRoundedNumber7Filled: React.ForwardRefExoticComponent<Omit<SquareRoundedNumber7FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareRoundedNumber7FilledMetadata: {
-    readonly id: "square-rounded-number-7_filled";
-    readonly baseId: "square-rounded-number-7";
-    readonly variant: "filled";
-    readonly name: "Square Rounded Number 7";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareRoundedNumber8FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareRoundedNumber8Filled: React.ForwardRefExoticComponent<Omit<SquareRoundedNumber8FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareRoundedNumber8FilledMetadata: {
-    readonly id: "square-rounded-number-8_filled";
-    readonly baseId: "square-rounded-number-8";
-    readonly variant: "filled";
-    readonly name: "Square Rounded Number 8";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareRoundedNumber9FilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareRoundedNumber9Filled: React.ForwardRefExoticComponent<Omit<SquareRoundedNumber9FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareRoundedNumber9FilledMetadata: {
-    readonly id: "square-rounded-number-9_filled";
-    readonly baseId: "square-rounded-number-9";
-    readonly variant: "filled";
-    readonly name: "Square Rounded Number 9";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareRoundedPlusFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareRoundedPlusFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedPlusFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareRoundedPlusFilledMetadata: {
-    readonly id: "square-rounded-plus_filled";
-    readonly baseId: "square-rounded-plus";
-    readonly variant: "filled";
-    readonly name: "Square Rounded Plus";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareRoundedXFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareRoundedXFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedXFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareRoundedXFilledMetadata: {
-    readonly id: "square-rounded-x_filled";
-    readonly baseId: "square-rounded-x";
-    readonly variant: "filled";
-    readonly name: "Square Rounded X";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareRoundedFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareRoundedFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareRoundedFilledMetadata: {
-    readonly id: "square-rounded_filled";
-    readonly baseId: "square-rounded";
-    readonly variant: "filled";
-    readonly name: "Square Rounded";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareXFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareXFilled: React.ForwardRefExoticComponent<Omit<SquareXFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareXFilledMetadata: {
-    readonly id: "square-x_filled";
-    readonly baseId: "square-x";
-    readonly variant: "filled";
-    readonly name: "Square X";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquareFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquareFilled: React.ForwardRefExoticComponent<Omit<SquareFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquareFilledMetadata: {
-    readonly id: "square_filled";
-    readonly baseId: "square";
-    readonly variant: "filled";
-    readonly name: "Square";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface SquaresFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const SquaresFilled: React.ForwardRefExoticComponent<Omit<SquaresFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const SquaresFilledMetadata: {
-    readonly id: "squares_filled";
-    readonly baseId: "squares";
-    readonly variant: "filled";
-    readonly name: "Squares";
     readonly category: "filled";
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
@@ -23025,201 +19590,6 @@ declare const ZeppelinFilledMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
-interface ZoomCancelFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const ZoomCancelFilled: React.ForwardRefExoticComponent<Omit<ZoomCancelFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const ZoomCancelFilledMetadata: {
-    readonly id: "zoom-cancel_filled";
-    readonly baseId: "zoom-cancel";
-    readonly variant: "filled";
-    readonly name: "Zoom Cancel";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface ZoomCheckFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const ZoomCheckFilled: React.ForwardRefExoticComponent<Omit<ZoomCheckFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const ZoomCheckFilledMetadata: {
-    readonly id: "zoom-check_filled";
-    readonly baseId: "zoom-check";
-    readonly variant: "filled";
-    readonly name: "Zoom Check";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface ZoomCodeFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const ZoomCodeFilled: React.ForwardRefExoticComponent<Omit<ZoomCodeFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const ZoomCodeFilledMetadata: {
-    readonly id: "zoom-code_filled";
-    readonly baseId: "zoom-code";
-    readonly variant: "filled";
-    readonly name: "Zoom Code";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface ZoomExclamationFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const ZoomExclamationFilled: React.ForwardRefExoticComponent<Omit<ZoomExclamationFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const ZoomExclamationFilledMetadata: {
-    readonly id: "zoom-exclamation_filled";
-    readonly baseId: "zoom-exclamation";
-    readonly variant: "filled";
-    readonly name: "Zoom Exclamation";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface ZoomInAreaFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const ZoomInAreaFilled: React.ForwardRefExoticComponent<Omit<ZoomInAreaFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const ZoomInAreaFilledMetadata: {
-    readonly id: "zoom-in-area_filled";
-    readonly baseId: "zoom-in-area";
-    readonly variant: "filled";
-    readonly name: "Zoom In Area";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface ZoomInFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const ZoomInFilled: React.ForwardRefExoticComponent<Omit<ZoomInFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const ZoomInFilledMetadata: {
-    readonly id: "zoom-in_filled";
-    readonly baseId: "zoom-in";
-    readonly variant: "filled";
-    readonly name: "Zoom In";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface ZoomMoneyFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const ZoomMoneyFilled: React.ForwardRefExoticComponent<Omit<ZoomMoneyFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const ZoomMoneyFilledMetadata: {
-    readonly id: "zoom-money_filled";
-    readonly baseId: "zoom-money";
-    readonly variant: "filled";
-    readonly name: "Zoom Money";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface ZoomOutAreaFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const ZoomOutAreaFilled: React.ForwardRefExoticComponent<Omit<ZoomOutAreaFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const ZoomOutAreaFilledMetadata: {
-    readonly id: "zoom-out-area_filled";
-    readonly baseId: "zoom-out-area";
-    readonly variant: "filled";
-    readonly name: "Zoom Out Area";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface ZoomOutFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const ZoomOutFilled: React.ForwardRefExoticComponent<Omit<ZoomOutFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const ZoomOutFilledMetadata: {
-    readonly id: "zoom-out_filled";
-    readonly baseId: "zoom-out";
-    readonly variant: "filled";
-    readonly name: "Zoom Out";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface ZoomPanFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const ZoomPanFilled: React.ForwardRefExoticComponent<Omit<ZoomPanFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const ZoomPanFilledMetadata: {
-    readonly id: "zoom-pan_filled";
-    readonly baseId: "zoom-pan";
-    readonly variant: "filled";
-    readonly name: "Zoom Pan";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface ZoomQuestionFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const ZoomQuestionFilled: React.ForwardRefExoticComponent<Omit<ZoomQuestionFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const ZoomQuestionFilledMetadata: {
-    readonly id: "zoom-question_filled";
-    readonly baseId: "zoom-question";
-    readonly variant: "filled";
-    readonly name: "Zoom Question";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface ZoomScanFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const ZoomScanFilled: React.ForwardRefExoticComponent<Omit<ZoomScanFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const ZoomScanFilledMetadata: {
-    readonly id: "zoom-scan_filled";
-    readonly baseId: "zoom-scan";
-    readonly variant: "filled";
-    readonly name: "Zoom Scan";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-interface ZoomFilledProps extends React.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    strokeWidth?: number;
-}
-declare const ZoomFilled: React.ForwardRefExoticComponent<Omit<ZoomFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-declare const ZoomFilledMetadata: {
-    readonly id: "zoom_filled";
-    readonly baseId: "zoom";
-    readonly variant: "filled";
-    readonly name: "Zoom";
-    readonly category: "filled";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
 interface BanknoteArrowDownProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -23290,6 +19660,141 @@ declare const BitcoinMetadata: {
     readonly baseId: "bitcoin";
     readonly variant: "default";
     readonly name: "Bitcoin";
+    readonly category: "finance";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CoinBitcoinFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CoinBitcoinFilled: React.ForwardRefExoticComponent<Omit<CoinBitcoinFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CoinBitcoinFilledMetadata: {
+    readonly id: "coin-bitcoin_filled";
+    readonly baseId: "coin-bitcoin";
+    readonly variant: "filled";
+    readonly name: "Coin Bitcoin";
+    readonly category: "finance";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CoinEuroFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CoinEuroFilled: React.ForwardRefExoticComponent<Omit<CoinEuroFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CoinEuroFilledMetadata: {
+    readonly id: "coin-euro_filled";
+    readonly baseId: "coin-euro";
+    readonly variant: "filled";
+    readonly name: "Coin Euro";
+    readonly category: "finance";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CoinMoneroFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CoinMoneroFilled: React.ForwardRefExoticComponent<Omit<CoinMoneroFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CoinMoneroFilledMetadata: {
+    readonly id: "coin-monero_filled";
+    readonly baseId: "coin-monero";
+    readonly variant: "filled";
+    readonly name: "Coin Monero";
+    readonly category: "finance";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CoinPoundFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CoinPoundFilled: React.ForwardRefExoticComponent<Omit<CoinPoundFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CoinPoundFilledMetadata: {
+    readonly id: "coin-pound_filled";
+    readonly baseId: "coin-pound";
+    readonly variant: "filled";
+    readonly name: "Coin Pound";
+    readonly category: "finance";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CoinRupeeFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CoinRupeeFilled: React.ForwardRefExoticComponent<Omit<CoinRupeeFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CoinRupeeFilledMetadata: {
+    readonly id: "coin-rupee_filled";
+    readonly baseId: "coin-rupee";
+    readonly variant: "filled";
+    readonly name: "Coin Rupee";
+    readonly category: "finance";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CoinTakaFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CoinTakaFilled: React.ForwardRefExoticComponent<Omit<CoinTakaFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CoinTakaFilledMetadata: {
+    readonly id: "coin-taka_filled";
+    readonly baseId: "coin-taka";
+    readonly variant: "filled";
+    readonly name: "Coin Taka";
+    readonly category: "finance";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CoinYenFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CoinYenFilled: React.ForwardRefExoticComponent<Omit<CoinYenFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CoinYenFilledMetadata: {
+    readonly id: "coin-yen_filled";
+    readonly baseId: "coin-yen";
+    readonly variant: "filled";
+    readonly name: "Coin Yen";
+    readonly category: "finance";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CoinYuanFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CoinYuanFilled: React.ForwardRefExoticComponent<Omit<CoinYuanFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CoinYuanFilledMetadata: {
+    readonly id: "coin-yuan_filled";
+    readonly baseId: "coin-yuan";
+    readonly variant: "filled";
+    readonly name: "Coin Yuan";
+    readonly category: "finance";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface CoinFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const CoinFilled: React.ForwardRefExoticComponent<Omit<CoinFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const CoinFilledMetadata: {
+    readonly id: "coin_filled";
+    readonly baseId: "coin";
+    readonly variant: "filled";
+    readonly name: "Coin";
     readonly category: "finance";
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
@@ -24570,6 +21075,576 @@ declare const GitPullRequestMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface HexagonLetterAFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const HexagonLetterAFilled: React.ForwardRefExoticComponent<Omit<HexagonLetterAFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const HexagonLetterAFilledMetadata: {
+    readonly id: "hexagon-letter-a_filled";
+    readonly baseId: "hexagon-letter-a";
+    readonly variant: "filled";
+    readonly name: "Hexagon Letter A";
+    readonly category: "hexagon";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface HexagonLetterBFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const HexagonLetterBFilled: React.ForwardRefExoticComponent<Omit<HexagonLetterBFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const HexagonLetterBFilledMetadata: {
+    readonly id: "hexagon-letter-b_filled";
+    readonly baseId: "hexagon-letter-b";
+    readonly variant: "filled";
+    readonly name: "Hexagon Letter B";
+    readonly category: "hexagon";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface HexagonLetterCFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const HexagonLetterCFilled: React.ForwardRefExoticComponent<Omit<HexagonLetterCFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const HexagonLetterCFilledMetadata: {
+    readonly id: "hexagon-letter-c_filled";
+    readonly baseId: "hexagon-letter-c";
+    readonly variant: "filled";
+    readonly name: "Hexagon Letter C";
+    readonly category: "hexagon";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface HexagonLetterDFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const HexagonLetterDFilled: React.ForwardRefExoticComponent<Omit<HexagonLetterDFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const HexagonLetterDFilledMetadata: {
+    readonly id: "hexagon-letter-d_filled";
+    readonly baseId: "hexagon-letter-d";
+    readonly variant: "filled";
+    readonly name: "Hexagon Letter D";
+    readonly category: "hexagon";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface HexagonLetterEFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const HexagonLetterEFilled: React.ForwardRefExoticComponent<Omit<HexagonLetterEFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const HexagonLetterEFilledMetadata: {
+    readonly id: "hexagon-letter-e_filled";
+    readonly baseId: "hexagon-letter-e";
+    readonly variant: "filled";
+    readonly name: "Hexagon Letter E";
+    readonly category: "hexagon";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface HexagonLetterFFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const HexagonLetterFFilled: React.ForwardRefExoticComponent<Omit<HexagonLetterFFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const HexagonLetterFFilledMetadata: {
+    readonly id: "hexagon-letter-f_filled";
+    readonly baseId: "hexagon-letter-f";
+    readonly variant: "filled";
+    readonly name: "Hexagon Letter F";
+    readonly category: "hexagon";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface HexagonLetterGFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const HexagonLetterGFilled: React.ForwardRefExoticComponent<Omit<HexagonLetterGFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const HexagonLetterGFilledMetadata: {
+    readonly id: "hexagon-letter-g_filled";
+    readonly baseId: "hexagon-letter-g";
+    readonly variant: "filled";
+    readonly name: "Hexagon Letter G";
+    readonly category: "hexagon";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface HexagonLetterHFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const HexagonLetterHFilled: React.ForwardRefExoticComponent<Omit<HexagonLetterHFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const HexagonLetterHFilledMetadata: {
+    readonly id: "hexagon-letter-h_filled";
+    readonly baseId: "hexagon-letter-h";
+    readonly variant: "filled";
+    readonly name: "Hexagon Letter H";
+    readonly category: "hexagon";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface HexagonLetterIFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const HexagonLetterIFilled: React.ForwardRefExoticComponent<Omit<HexagonLetterIFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const HexagonLetterIFilledMetadata: {
+    readonly id: "hexagon-letter-i_filled";
+    readonly baseId: "hexagon-letter-i";
+    readonly variant: "filled";
+    readonly name: "Hexagon Letter I";
+    readonly category: "hexagon";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface HexagonLetterJFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const HexagonLetterJFilled: React.ForwardRefExoticComponent<Omit<HexagonLetterJFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const HexagonLetterJFilledMetadata: {
+    readonly id: "hexagon-letter-j_filled";
+    readonly baseId: "hexagon-letter-j";
+    readonly variant: "filled";
+    readonly name: "Hexagon Letter J";
+    readonly category: "hexagon";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface HexagonLetterKFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const HexagonLetterKFilled: React.ForwardRefExoticComponent<Omit<HexagonLetterKFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const HexagonLetterKFilledMetadata: {
+    readonly id: "hexagon-letter-k_filled";
+    readonly baseId: "hexagon-letter-k";
+    readonly variant: "filled";
+    readonly name: "Hexagon Letter K";
+    readonly category: "hexagon";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface HexagonLetterLFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const HexagonLetterLFilled: React.ForwardRefExoticComponent<Omit<HexagonLetterLFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const HexagonLetterLFilledMetadata: {
+    readonly id: "hexagon-letter-l_filled";
+    readonly baseId: "hexagon-letter-l";
+    readonly variant: "filled";
+    readonly name: "Hexagon Letter L";
+    readonly category: "hexagon";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface HexagonLetterMFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const HexagonLetterMFilled: React.ForwardRefExoticComponent<Omit<HexagonLetterMFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const HexagonLetterMFilledMetadata: {
+    readonly id: "hexagon-letter-m_filled";
+    readonly baseId: "hexagon-letter-m";
+    readonly variant: "filled";
+    readonly name: "Hexagon Letter M";
+    readonly category: "hexagon";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface HexagonLetterNFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const HexagonLetterNFilled: React.ForwardRefExoticComponent<Omit<HexagonLetterNFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const HexagonLetterNFilledMetadata: {
+    readonly id: "hexagon-letter-n_filled";
+    readonly baseId: "hexagon-letter-n";
+    readonly variant: "filled";
+    readonly name: "Hexagon Letter N";
+    readonly category: "hexagon";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface HexagonLetterOFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const HexagonLetterOFilled: React.ForwardRefExoticComponent<Omit<HexagonLetterOFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const HexagonLetterOFilledMetadata: {
+    readonly id: "hexagon-letter-o_filled";
+    readonly baseId: "hexagon-letter-o";
+    readonly variant: "filled";
+    readonly name: "Hexagon Letter O";
+    readonly category: "hexagon";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface HexagonLetterPFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const HexagonLetterPFilled: React.ForwardRefExoticComponent<Omit<HexagonLetterPFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const HexagonLetterPFilledMetadata: {
+    readonly id: "hexagon-letter-p_filled";
+    readonly baseId: "hexagon-letter-p";
+    readonly variant: "filled";
+    readonly name: "Hexagon Letter P";
+    readonly category: "hexagon";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface HexagonLetterQFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const HexagonLetterQFilled: React.ForwardRefExoticComponent<Omit<HexagonLetterQFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const HexagonLetterQFilledMetadata: {
+    readonly id: "hexagon-letter-q_filled";
+    readonly baseId: "hexagon-letter-q";
+    readonly variant: "filled";
+    readonly name: "Hexagon Letter Q";
+    readonly category: "hexagon";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface HexagonLetterRFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const HexagonLetterRFilled: React.ForwardRefExoticComponent<Omit<HexagonLetterRFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const HexagonLetterRFilledMetadata: {
+    readonly id: "hexagon-letter-r_filled";
+    readonly baseId: "hexagon-letter-r";
+    readonly variant: "filled";
+    readonly name: "Hexagon Letter R";
+    readonly category: "hexagon";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface HexagonLetterSFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const HexagonLetterSFilled: React.ForwardRefExoticComponent<Omit<HexagonLetterSFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const HexagonLetterSFilledMetadata: {
+    readonly id: "hexagon-letter-s_filled";
+    readonly baseId: "hexagon-letter-s";
+    readonly variant: "filled";
+    readonly name: "Hexagon Letter S";
+    readonly category: "hexagon";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface HexagonLetterTFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const HexagonLetterTFilled: React.ForwardRefExoticComponent<Omit<HexagonLetterTFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const HexagonLetterTFilledMetadata: {
+    readonly id: "hexagon-letter-t_filled";
+    readonly baseId: "hexagon-letter-t";
+    readonly variant: "filled";
+    readonly name: "Hexagon Letter T";
+    readonly category: "hexagon";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface HexagonLetterUFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const HexagonLetterUFilled: React.ForwardRefExoticComponent<Omit<HexagonLetterUFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const HexagonLetterUFilledMetadata: {
+    readonly id: "hexagon-letter-u_filled";
+    readonly baseId: "hexagon-letter-u";
+    readonly variant: "filled";
+    readonly name: "Hexagon Letter U";
+    readonly category: "hexagon";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface HexagonLetterVFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const HexagonLetterVFilled: React.ForwardRefExoticComponent<Omit<HexagonLetterVFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const HexagonLetterVFilledMetadata: {
+    readonly id: "hexagon-letter-v_filled";
+    readonly baseId: "hexagon-letter-v";
+    readonly variant: "filled";
+    readonly name: "Hexagon Letter V";
+    readonly category: "hexagon";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface HexagonLetterWFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const HexagonLetterWFilled: React.ForwardRefExoticComponent<Omit<HexagonLetterWFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const HexagonLetterWFilledMetadata: {
+    readonly id: "hexagon-letter-w_filled";
+    readonly baseId: "hexagon-letter-w";
+    readonly variant: "filled";
+    readonly name: "Hexagon Letter W";
+    readonly category: "hexagon";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface HexagonLetterXFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const HexagonLetterXFilled: React.ForwardRefExoticComponent<Omit<HexagonLetterXFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const HexagonLetterXFilledMetadata: {
+    readonly id: "hexagon-letter-x_filled";
+    readonly baseId: "hexagon-letter-x";
+    readonly variant: "filled";
+    readonly name: "Hexagon Letter X";
+    readonly category: "hexagon";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface HexagonLetterYFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const HexagonLetterYFilled: React.ForwardRefExoticComponent<Omit<HexagonLetterYFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const HexagonLetterYFilledMetadata: {
+    readonly id: "hexagon-letter-y_filled";
+    readonly baseId: "hexagon-letter-y";
+    readonly variant: "filled";
+    readonly name: "Hexagon Letter Y";
+    readonly category: "hexagon";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface HexagonLetterZFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const HexagonLetterZFilled: React.ForwardRefExoticComponent<Omit<HexagonLetterZFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const HexagonLetterZFilledMetadata: {
+    readonly id: "hexagon-letter-z_filled";
+    readonly baseId: "hexagon-letter-z";
+    readonly variant: "filled";
+    readonly name: "Hexagon Letter Z";
+    readonly category: "hexagon";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface HexagonMinusFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const HexagonMinusFilled: React.ForwardRefExoticComponent<Omit<HexagonMinusFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const HexagonMinusFilledMetadata: {
+    readonly id: "hexagon-minus_filled";
+    readonly baseId: "hexagon-minus";
+    readonly variant: "filled";
+    readonly name: "Hexagon Minus";
+    readonly category: "hexagon";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface HexagonNumber0FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const HexagonNumber0Filled: React.ForwardRefExoticComponent<Omit<HexagonNumber0FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const HexagonNumber0FilledMetadata: {
+    readonly id: "hexagon-number-0_filled";
+    readonly baseId: "hexagon-number-0";
+    readonly variant: "filled";
+    readonly name: "Hexagon Number 0";
+    readonly category: "hexagon";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface HexagonNumber1FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const HexagonNumber1Filled: React.ForwardRefExoticComponent<Omit<HexagonNumber1FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const HexagonNumber1FilledMetadata: {
+    readonly id: "hexagon-number-1_filled";
+    readonly baseId: "hexagon-number-1";
+    readonly variant: "filled";
+    readonly name: "Hexagon Number 1";
+    readonly category: "hexagon";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface HexagonNumber2FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const HexagonNumber2Filled: React.ForwardRefExoticComponent<Omit<HexagonNumber2FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const HexagonNumber2FilledMetadata: {
+    readonly id: "hexagon-number-2_filled";
+    readonly baseId: "hexagon-number-2";
+    readonly variant: "filled";
+    readonly name: "Hexagon Number 2";
+    readonly category: "hexagon";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface HexagonNumber3FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const HexagonNumber3Filled: React.ForwardRefExoticComponent<Omit<HexagonNumber3FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const HexagonNumber3FilledMetadata: {
+    readonly id: "hexagon-number-3_filled";
+    readonly baseId: "hexagon-number-3";
+    readonly variant: "filled";
+    readonly name: "Hexagon Number 3";
+    readonly category: "hexagon";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface HexagonNumber4FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const HexagonNumber4Filled: React.ForwardRefExoticComponent<Omit<HexagonNumber4FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const HexagonNumber4FilledMetadata: {
+    readonly id: "hexagon-number-4_filled";
+    readonly baseId: "hexagon-number-4";
+    readonly variant: "filled";
+    readonly name: "Hexagon Number 4";
+    readonly category: "hexagon";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface HexagonNumber5FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const HexagonNumber5Filled: React.ForwardRefExoticComponent<Omit<HexagonNumber5FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const HexagonNumber5FilledMetadata: {
+    readonly id: "hexagon-number-5_filled";
+    readonly baseId: "hexagon-number-5";
+    readonly variant: "filled";
+    readonly name: "Hexagon Number 5";
+    readonly category: "hexagon";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface HexagonNumber6FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const HexagonNumber6Filled: React.ForwardRefExoticComponent<Omit<HexagonNumber6FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const HexagonNumber6FilledMetadata: {
+    readonly id: "hexagon-number-6_filled";
+    readonly baseId: "hexagon-number-6";
+    readonly variant: "filled";
+    readonly name: "Hexagon Number 6";
+    readonly category: "hexagon";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface HexagonNumber7FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const HexagonNumber7Filled: React.ForwardRefExoticComponent<Omit<HexagonNumber7FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const HexagonNumber7FilledMetadata: {
+    readonly id: "hexagon-number-7_filled";
+    readonly baseId: "hexagon-number-7";
+    readonly variant: "filled";
+    readonly name: "Hexagon Number 7";
+    readonly category: "hexagon";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface HexagonNumber8FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const HexagonNumber8Filled: React.ForwardRefExoticComponent<Omit<HexagonNumber8FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const HexagonNumber8FilledMetadata: {
+    readonly id: "hexagon-number-8_filled";
+    readonly baseId: "hexagon-number-8";
+    readonly variant: "filled";
+    readonly name: "Hexagon Number 8";
+    readonly category: "hexagon";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface HexagonNumber9FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const HexagonNumber9Filled: React.ForwardRefExoticComponent<Omit<HexagonNumber9FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const HexagonNumber9FilledMetadata: {
+    readonly id: "hexagon-number-9_filled";
+    readonly baseId: "hexagon-number-9";
+    readonly variant: "filled";
+    readonly name: "Hexagon Number 9";
+    readonly category: "hexagon";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface HexagonPlusFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const HexagonPlusFilled: React.ForwardRefExoticComponent<Omit<HexagonPlusFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const HexagonPlusFilledMetadata: {
+    readonly id: "hexagon-plus_filled";
+    readonly baseId: "hexagon-plus";
+    readonly variant: "filled";
+    readonly name: "Hexagon Plus";
+    readonly category: "hexagon";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface LampCeilingProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -24750,6 +21825,21 @@ declare const BetweenVerticalStartMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface Columns1FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const Columns1Filled: React.ForwardRefExoticComponent<Omit<Columns1FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const Columns1FilledMetadata: {
+    readonly id: "columns-1_filled";
+    readonly baseId: "columns-1";
+    readonly variant: "filled";
+    readonly name: "Columns 1";
+    readonly category: "layout";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface Columns2Props extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -24759,6 +21849,21 @@ declare const Columns2Metadata: {
     readonly id: "columns-2";
     readonly baseId: "columns-2";
     readonly variant: "default";
+    readonly name: "Columns 2";
+    readonly category: "layout";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface Columns2FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const Columns2Filled: React.ForwardRefExoticComponent<Omit<Columns2FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const Columns2FilledMetadata: {
+    readonly id: "columns-2_filled";
+    readonly baseId: "columns-2";
+    readonly variant: "filled";
     readonly name: "Columns 2";
     readonly category: "layout";
     readonly tags: readonly [];
@@ -24789,6 +21894,21 @@ declare const Columns3Metadata: {
     readonly id: "columns-3";
     readonly baseId: "columns-3";
     readonly variant: "default";
+    readonly name: "Columns 3";
+    readonly category: "layout";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface Columns3FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const Columns3Filled: React.ForwardRefExoticComponent<Omit<Columns3FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const Columns3FilledMetadata: {
+    readonly id: "columns-3_filled";
+    readonly baseId: "columns-3";
+    readonly variant: "filled";
     readonly name: "Columns 3";
     readonly category: "layout";
     readonly tags: readonly [];
@@ -25065,6 +22185,201 @@ declare const LayersMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface Layout2FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const Layout2Filled: React.ForwardRefExoticComponent<Omit<Layout2FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const Layout2FilledMetadata: {
+    readonly id: "layout-2_filled";
+    readonly baseId: "layout-2";
+    readonly variant: "filled";
+    readonly name: "Layout 2";
+    readonly category: "layout";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface LayoutAlignBottomFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const LayoutAlignBottomFilled: React.ForwardRefExoticComponent<Omit<LayoutAlignBottomFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const LayoutAlignBottomFilledMetadata: {
+    readonly id: "layout-align-bottom_filled";
+    readonly baseId: "layout-align-bottom";
+    readonly variant: "filled";
+    readonly name: "Layout Align Bottom";
+    readonly category: "layout";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface LayoutAlignCenterFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const LayoutAlignCenterFilled: React.ForwardRefExoticComponent<Omit<LayoutAlignCenterFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const LayoutAlignCenterFilledMetadata: {
+    readonly id: "layout-align-center_filled";
+    readonly baseId: "layout-align-center";
+    readonly variant: "filled";
+    readonly name: "Layout Align Center";
+    readonly category: "layout";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface LayoutAlignLeftFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const LayoutAlignLeftFilled: React.ForwardRefExoticComponent<Omit<LayoutAlignLeftFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const LayoutAlignLeftFilledMetadata: {
+    readonly id: "layout-align-left_filled";
+    readonly baseId: "layout-align-left";
+    readonly variant: "filled";
+    readonly name: "Layout Align Left";
+    readonly category: "layout";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface LayoutAlignMiddleFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const LayoutAlignMiddleFilled: React.ForwardRefExoticComponent<Omit<LayoutAlignMiddleFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const LayoutAlignMiddleFilledMetadata: {
+    readonly id: "layout-align-middle_filled";
+    readonly baseId: "layout-align-middle";
+    readonly variant: "filled";
+    readonly name: "Layout Align Middle";
+    readonly category: "layout";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface LayoutAlignRightFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const LayoutAlignRightFilled: React.ForwardRefExoticComponent<Omit<LayoutAlignRightFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const LayoutAlignRightFilledMetadata: {
+    readonly id: "layout-align-right_filled";
+    readonly baseId: "layout-align-right";
+    readonly variant: "filled";
+    readonly name: "Layout Align Right";
+    readonly category: "layout";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface LayoutAlignTopFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const LayoutAlignTopFilled: React.ForwardRefExoticComponent<Omit<LayoutAlignTopFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const LayoutAlignTopFilledMetadata: {
+    readonly id: "layout-align-top_filled";
+    readonly baseId: "layout-align-top";
+    readonly variant: "filled";
+    readonly name: "Layout Align Top";
+    readonly category: "layout";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface LayoutBoardSplitFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const LayoutBoardSplitFilled: React.ForwardRefExoticComponent<Omit<LayoutBoardSplitFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const LayoutBoardSplitFilledMetadata: {
+    readonly id: "layout-board-split_filled";
+    readonly baseId: "layout-board-split";
+    readonly variant: "filled";
+    readonly name: "Layout Board Split";
+    readonly category: "layout";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface LayoutBoardFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const LayoutBoardFilled: React.ForwardRefExoticComponent<Omit<LayoutBoardFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const LayoutBoardFilledMetadata: {
+    readonly id: "layout-board_filled";
+    readonly baseId: "layout-board";
+    readonly variant: "filled";
+    readonly name: "Layout Board";
+    readonly category: "layout";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface LayoutBottombarCollapseFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const LayoutBottombarCollapseFilled: React.ForwardRefExoticComponent<Omit<LayoutBottombarCollapseFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const LayoutBottombarCollapseFilledMetadata: {
+    readonly id: "layout-bottombar-collapse_filled";
+    readonly baseId: "layout-bottombar-collapse";
+    readonly variant: "filled";
+    readonly name: "Layout Bottombar Collapse";
+    readonly category: "layout";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface LayoutBottombarExpandFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const LayoutBottombarExpandFilled: React.ForwardRefExoticComponent<Omit<LayoutBottombarExpandFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const LayoutBottombarExpandFilledMetadata: {
+    readonly id: "layout-bottombar-expand_filled";
+    readonly baseId: "layout-bottombar-expand";
+    readonly variant: "filled";
+    readonly name: "Layout Bottombar Expand";
+    readonly category: "layout";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface LayoutBottombarFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const LayoutBottombarFilled: React.ForwardRefExoticComponent<Omit<LayoutBottombarFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const LayoutBottombarFilledMetadata: {
+    readonly id: "layout-bottombar_filled";
+    readonly baseId: "layout-bottombar";
+    readonly variant: "filled";
+    readonly name: "Layout Bottombar";
+    readonly category: "layout";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface LayoutCardsFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const LayoutCardsFilled: React.ForwardRefExoticComponent<Omit<LayoutCardsFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const LayoutCardsFilledMetadata: {
+    readonly id: "layout-cards_filled";
+    readonly baseId: "layout-cards";
+    readonly variant: "filled";
+    readonly name: "Layout Cards";
+    readonly category: "layout";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface LayoutDashboardProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -25075,6 +22390,51 @@ declare const LayoutDashboardMetadata: {
     readonly baseId: "layout-dashboard";
     readonly variant: "default";
     readonly name: "Layout Dashboard";
+    readonly category: "layout";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface LayoutDashboardFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const LayoutDashboardFilled: React.ForwardRefExoticComponent<Omit<LayoutDashboardFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const LayoutDashboardFilledMetadata: {
+    readonly id: "layout-dashboard_filled";
+    readonly baseId: "layout-dashboard";
+    readonly variant: "filled";
+    readonly name: "Layout Dashboard";
+    readonly category: "layout";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface LayoutDistributeHorizontalFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const LayoutDistributeHorizontalFilled: React.ForwardRefExoticComponent<Omit<LayoutDistributeHorizontalFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const LayoutDistributeHorizontalFilledMetadata: {
+    readonly id: "layout-distribute-horizontal_filled";
+    readonly baseId: "layout-distribute-horizontal";
+    readonly variant: "filled";
+    readonly name: "Layout Distribute Horizontal";
+    readonly category: "layout";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface LayoutDistributeVerticalFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const LayoutDistributeVerticalFilled: React.ForwardRefExoticComponent<Omit<LayoutDistributeVerticalFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const LayoutDistributeVerticalFilledMetadata: {
+    readonly id: "layout-distribute-vertical_filled";
+    readonly baseId: "layout-distribute-vertical";
+    readonly variant: "filled";
+    readonly name: "Layout Distribute Vertical";
     readonly category: "layout";
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
@@ -25095,6 +22455,36 @@ declare const LayoutGridMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface LayoutGridFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const LayoutGridFilled: React.ForwardRefExoticComponent<Omit<LayoutGridFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const LayoutGridFilledMetadata: {
+    readonly id: "layout-grid_filled";
+    readonly baseId: "layout-grid";
+    readonly variant: "filled";
+    readonly name: "Layout Grid";
+    readonly category: "layout";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface LayoutKanbanFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const LayoutKanbanFilled: React.ForwardRefExoticComponent<Omit<LayoutKanbanFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const LayoutKanbanFilledMetadata: {
+    readonly id: "layout-kanban_filled";
+    readonly baseId: "layout-kanban";
+    readonly variant: "filled";
+    readonly name: "Layout Kanban";
+    readonly category: "layout";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface LayoutListProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -25105,6 +22495,66 @@ declare const LayoutListMetadata: {
     readonly baseId: "layout-list";
     readonly variant: "default";
     readonly name: "Layout List";
+    readonly category: "layout";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface LayoutListFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const LayoutListFilled: React.ForwardRefExoticComponent<Omit<LayoutListFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const LayoutListFilledMetadata: {
+    readonly id: "layout-list_filled";
+    readonly baseId: "layout-list";
+    readonly variant: "filled";
+    readonly name: "Layout List";
+    readonly category: "layout";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface LayoutNavbarCollapseFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const LayoutNavbarCollapseFilled: React.ForwardRefExoticComponent<Omit<LayoutNavbarCollapseFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const LayoutNavbarCollapseFilledMetadata: {
+    readonly id: "layout-navbar-collapse_filled";
+    readonly baseId: "layout-navbar-collapse";
+    readonly variant: "filled";
+    readonly name: "Layout Navbar Collapse";
+    readonly category: "layout";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface LayoutNavbarExpandFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const LayoutNavbarExpandFilled: React.ForwardRefExoticComponent<Omit<LayoutNavbarExpandFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const LayoutNavbarExpandFilledMetadata: {
+    readonly id: "layout-navbar-expand_filled";
+    readonly baseId: "layout-navbar-expand";
+    readonly variant: "filled";
+    readonly name: "Layout Navbar Expand";
+    readonly category: "layout";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface LayoutNavbarFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const LayoutNavbarFilled: React.ForwardRefExoticComponent<Omit<LayoutNavbarFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const LayoutNavbarFilledMetadata: {
+    readonly id: "layout-navbar_filled";
+    readonly baseId: "layout-navbar";
+    readonly variant: "filled";
+    readonly name: "Layout Navbar";
     readonly category: "layout";
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
@@ -25140,6 +22590,96 @@ declare const LayoutPanelTopMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface LayoutSidebarLeftCollapseFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const LayoutSidebarLeftCollapseFilled: React.ForwardRefExoticComponent<Omit<LayoutSidebarLeftCollapseFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const LayoutSidebarLeftCollapseFilledMetadata: {
+    readonly id: "layout-sidebar-left-collapse_filled";
+    readonly baseId: "layout-sidebar-left-collapse";
+    readonly variant: "filled";
+    readonly name: "Layout Sidebar Left Collapse";
+    readonly category: "layout";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface LayoutSidebarLeftExpandFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const LayoutSidebarLeftExpandFilled: React.ForwardRefExoticComponent<Omit<LayoutSidebarLeftExpandFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const LayoutSidebarLeftExpandFilledMetadata: {
+    readonly id: "layout-sidebar-left-expand_filled";
+    readonly baseId: "layout-sidebar-left-expand";
+    readonly variant: "filled";
+    readonly name: "Layout Sidebar Left Expand";
+    readonly category: "layout";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface LayoutSidebarRightCollapseFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const LayoutSidebarRightCollapseFilled: React.ForwardRefExoticComponent<Omit<LayoutSidebarRightCollapseFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const LayoutSidebarRightCollapseFilledMetadata: {
+    readonly id: "layout-sidebar-right-collapse_filled";
+    readonly baseId: "layout-sidebar-right-collapse";
+    readonly variant: "filled";
+    readonly name: "Layout Sidebar Right Collapse";
+    readonly category: "layout";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface LayoutSidebarRightExpandFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const LayoutSidebarRightExpandFilled: React.ForwardRefExoticComponent<Omit<LayoutSidebarRightExpandFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const LayoutSidebarRightExpandFilledMetadata: {
+    readonly id: "layout-sidebar-right-expand_filled";
+    readonly baseId: "layout-sidebar-right-expand";
+    readonly variant: "filled";
+    readonly name: "Layout Sidebar Right Expand";
+    readonly category: "layout";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface LayoutSidebarRightFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const LayoutSidebarRightFilled: React.ForwardRefExoticComponent<Omit<LayoutSidebarRightFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const LayoutSidebarRightFilledMetadata: {
+    readonly id: "layout-sidebar-right_filled";
+    readonly baseId: "layout-sidebar-right";
+    readonly variant: "filled";
+    readonly name: "Layout Sidebar Right";
+    readonly category: "layout";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface LayoutSidebarFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const LayoutSidebarFilled: React.ForwardRefExoticComponent<Omit<LayoutSidebarFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const LayoutSidebarFilledMetadata: {
+    readonly id: "layout-sidebar_filled";
+    readonly baseId: "layout-sidebar";
+    readonly variant: "filled";
+    readonly name: "Layout Sidebar";
+    readonly category: "layout";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface LayoutTemplateProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -25150,6 +22690,21 @@ declare const LayoutTemplateMetadata: {
     readonly baseId: "layout-template";
     readonly variant: "default";
     readonly name: "Layout Template";
+    readonly category: "layout";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface LayoutFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const LayoutFilled: React.ForwardRefExoticComponent<Omit<LayoutFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const LayoutFilledMetadata: {
+    readonly id: "layout_filled";
+    readonly baseId: "layout";
+    readonly variant: "filled";
+    readonly name: "Layout";
     readonly category: "layout";
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
@@ -26670,6 +24225,36 @@ declare const ThermometerMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface Message2FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const Message2Filled: React.ForwardRefExoticComponent<Omit<Message2FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const Message2FilledMetadata: {
+    readonly id: "message-2_filled";
+    readonly baseId: "message-2";
+    readonly variant: "filled";
+    readonly name: "Message 2";
+    readonly category: "message";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface MessageChatbotFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const MessageChatbotFilled: React.ForwardRefExoticComponent<Omit<MessageChatbotFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const MessageChatbotFilledMetadata: {
+    readonly id: "message-chatbot_filled";
+    readonly baseId: "message-chatbot";
+    readonly variant: "filled";
+    readonly name: "Message Chatbot";
+    readonly category: "message";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface MessageCircleCheckProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -26845,6 +24430,36 @@ declare const MessageCircleMetadata: {
     readonly baseId: "message-circle";
     readonly variant: "default";
     readonly name: "Message Circle";
+    readonly category: "message";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface MessageCircleFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const MessageCircleFilled: React.ForwardRefExoticComponent<Omit<MessageCircleFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const MessageCircleFilledMetadata: {
+    readonly id: "message-circle_filled";
+    readonly baseId: "message-circle";
+    readonly variant: "filled";
+    readonly name: "Message Circle";
+    readonly category: "message";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface MessageReportFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const MessageReportFilled: React.ForwardRefExoticComponent<Omit<MessageReportFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const MessageReportFilledMetadata: {
+    readonly id: "message-report_filled";
+    readonly baseId: "message-report";
+    readonly variant: "filled";
+    readonly name: "Message Report";
     readonly category: "message";
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
@@ -27100,6 +24715,21 @@ declare const MessageSquareMetadata: {
     readonly baseId: "message-square";
     readonly variant: "default";
     readonly name: "Message Square";
+    readonly category: "message";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface MessageFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const MessageFilled: React.ForwardRefExoticComponent<Omit<MessageFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const MessageFilledMetadata: {
+    readonly id: "message_filled";
+    readonly baseId: "message";
+    readonly variant: "filled";
+    readonly name: "Message";
     readonly category: "message";
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
@@ -27715,6 +25345,156 @@ declare const PlayMetadata: {
     readonly baseId: "play";
     readonly variant: "default";
     readonly name: "Play";
+    readonly category: "multimedia";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface PlayerEjectFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const PlayerEjectFilled: React.ForwardRefExoticComponent<Omit<PlayerEjectFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const PlayerEjectFilledMetadata: {
+    readonly id: "player-eject_filled";
+    readonly baseId: "player-eject";
+    readonly variant: "filled";
+    readonly name: "Player Eject";
+    readonly category: "multimedia";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface PlayerPauseFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const PlayerPauseFilled: React.ForwardRefExoticComponent<Omit<PlayerPauseFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const PlayerPauseFilledMetadata: {
+    readonly id: "player-pause_filled";
+    readonly baseId: "player-pause";
+    readonly variant: "filled";
+    readonly name: "Player Pause";
+    readonly category: "multimedia";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface PlayerPlayFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const PlayerPlayFilled: React.ForwardRefExoticComponent<Omit<PlayerPlayFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const PlayerPlayFilledMetadata: {
+    readonly id: "player-play_filled";
+    readonly baseId: "player-play";
+    readonly variant: "filled";
+    readonly name: "Player Play";
+    readonly category: "multimedia";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface PlayerRecordFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const PlayerRecordFilled: React.ForwardRefExoticComponent<Omit<PlayerRecordFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const PlayerRecordFilledMetadata: {
+    readonly id: "player-record_filled";
+    readonly baseId: "player-record";
+    readonly variant: "filled";
+    readonly name: "Player Record";
+    readonly category: "multimedia";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface PlayerSkipBackFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const PlayerSkipBackFilled: React.ForwardRefExoticComponent<Omit<PlayerSkipBackFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const PlayerSkipBackFilledMetadata: {
+    readonly id: "player-skip-back_filled";
+    readonly baseId: "player-skip-back";
+    readonly variant: "filled";
+    readonly name: "Player Skip Back";
+    readonly category: "multimedia";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface PlayerSkipForwardFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const PlayerSkipForwardFilled: React.ForwardRefExoticComponent<Omit<PlayerSkipForwardFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const PlayerSkipForwardFilledMetadata: {
+    readonly id: "player-skip-forward_filled";
+    readonly baseId: "player-skip-forward";
+    readonly variant: "filled";
+    readonly name: "Player Skip Forward";
+    readonly category: "multimedia";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface PlayerStopFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const PlayerStopFilled: React.ForwardRefExoticComponent<Omit<PlayerStopFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const PlayerStopFilledMetadata: {
+    readonly id: "player-stop_filled";
+    readonly baseId: "player-stop";
+    readonly variant: "filled";
+    readonly name: "Player Stop";
+    readonly category: "multimedia";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface PlayerTrackNextFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const PlayerTrackNextFilled: React.ForwardRefExoticComponent<Omit<PlayerTrackNextFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const PlayerTrackNextFilledMetadata: {
+    readonly id: "player-track-next_filled";
+    readonly baseId: "player-track-next";
+    readonly variant: "filled";
+    readonly name: "Player Track Next";
+    readonly category: "multimedia";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface PlayerTrackPrevFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const PlayerTrackPrevFilled: React.ForwardRefExoticComponent<Omit<PlayerTrackPrevFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const PlayerTrackPrevFilledMetadata: {
+    readonly id: "player-track-prev_filled";
+    readonly baseId: "player-track-prev";
+    readonly variant: "filled";
+    readonly name: "Player Track Prev";
+    readonly category: "multimedia";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface PlaylistFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const PlaylistFilled: React.ForwardRefExoticComponent<Omit<PlaylistFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const PlaylistFilledMetadata: {
+    readonly id: "playlist_filled";
+    readonly baseId: "playlist";
+    readonly variant: "filled";
+    readonly name: "Playlist";
     readonly category: "multimedia";
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
@@ -28785,6 +26565,21 @@ declare const BellMinusMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface BellMinusFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const BellMinusFilled: React.ForwardRefExoticComponent<Omit<BellMinusFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const BellMinusFilledMetadata: {
+    readonly id: "bell-minus_filled";
+    readonly baseId: "bell-minus";
+    readonly variant: "filled";
+    readonly name: "Bell Minus";
+    readonly category: "notification";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface BellOffProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -28815,6 +26610,21 @@ declare const BellPlusMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface BellPlusFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const BellPlusFilled: React.ForwardRefExoticComponent<Omit<BellPlusFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const BellPlusFilledMetadata: {
+    readonly id: "bell-plus_filled";
+    readonly baseId: "bell-plus";
+    readonly variant: "filled";
+    readonly name: "Bell Plus";
+    readonly category: "notification";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface BellRingProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -28830,6 +26640,66 @@ declare const BellRingMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface BellRinging2FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const BellRinging2Filled: React.ForwardRefExoticComponent<Omit<BellRinging2FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const BellRinging2FilledMetadata: {
+    readonly id: "bell-ringing-2_filled";
+    readonly baseId: "bell-ringing-2";
+    readonly variant: "filled";
+    readonly name: "Bell Ringing 2";
+    readonly category: "notification";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface BellRingingFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const BellRingingFilled: React.ForwardRefExoticComponent<Omit<BellRingingFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const BellRingingFilledMetadata: {
+    readonly id: "bell-ringing_filled";
+    readonly baseId: "bell-ringing";
+    readonly variant: "filled";
+    readonly name: "Bell Ringing";
+    readonly category: "notification";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface BellXFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const BellXFilled: React.ForwardRefExoticComponent<Omit<BellXFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const BellXFilledMetadata: {
+    readonly id: "bell-x_filled";
+    readonly baseId: "bell-x";
+    readonly variant: "filled";
+    readonly name: "Bell X";
+    readonly category: "notification";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface BellZFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const BellZFilled: React.ForwardRefExoticComponent<Omit<BellZFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const BellZFilledMetadata: {
+    readonly id: "bell-z_filled";
+    readonly baseId: "bell-z";
+    readonly variant: "filled";
+    readonly name: "Bell Z";
+    readonly category: "notification";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface BellProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -28839,6 +26709,21 @@ declare const BellMetadata: {
     readonly id: "bell";
     readonly baseId: "bell";
     readonly variant: "default";
+    readonly name: "Bell";
+    readonly category: "notification";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface BellFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const BellFilled: React.ForwardRefExoticComponent<Omit<BellFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const BellFilledMetadata: {
+    readonly id: "bell_filled";
+    readonly baseId: "bell";
+    readonly variant: "filled";
     readonly name: "Bell";
     readonly category: "notification";
     readonly tags: readonly [];
@@ -38085,6 +35970,36 @@ declare const ShieldCheckMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface ShieldCheckFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const ShieldCheckFilled: React.ForwardRefExoticComponent<Omit<ShieldCheckFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const ShieldCheckFilledMetadata: {
+    readonly id: "shield-check_filled";
+    readonly baseId: "shield-check";
+    readonly variant: "filled";
+    readonly name: "Shield Check";
+    readonly category: "shield";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface ShieldCheckeredFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const ShieldCheckeredFilled: React.ForwardRefExoticComponent<Omit<ShieldCheckeredFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const ShieldCheckeredFilledMetadata: {
+    readonly id: "shield-checkered_filled";
+    readonly baseId: "shield-checkered";
+    readonly variant: "filled";
+    readonly name: "Shield Checkered";
+    readonly category: "shield";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface ShieldEllipsisProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -38110,6 +36025,36 @@ declare const ShieldHalfMetadata: {
     readonly baseId: "shield-half";
     readonly variant: "default";
     readonly name: "Shield Half";
+    readonly category: "shield";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface ShieldHalfFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const ShieldHalfFilled: React.ForwardRefExoticComponent<Omit<ShieldHalfFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const ShieldHalfFilledMetadata: {
+    readonly id: "shield-half_filled";
+    readonly baseId: "shield-half";
+    readonly variant: "filled";
+    readonly name: "Shield Half";
+    readonly category: "shield";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface ShieldLockFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const ShieldLockFilled: React.ForwardRefExoticComponent<Omit<ShieldLockFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const ShieldLockFilledMetadata: {
+    readonly id: "shield-lock_filled";
+    readonly baseId: "shield-lock";
+    readonly variant: "filled";
+    readonly name: "Shield Lock";
     readonly category: "shield";
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
@@ -38220,6 +36165,21 @@ declare const ShieldMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface ShieldFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const ShieldFilled: React.ForwardRefExoticComponent<Omit<ShieldFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const ShieldFilledMetadata: {
+    readonly id: "shield_filled";
+    readonly baseId: "shield";
+    readonly variant: "filled";
+    readonly name: "Shield";
+    readonly category: "shield";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface SquareActivityProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -38280,6 +36240,21 @@ declare const SquareArrowDownMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface SquareArrowDownFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareArrowDownFilled: React.ForwardRefExoticComponent<Omit<SquareArrowDownFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareArrowDownFilledMetadata: {
+    readonly id: "square-arrow-down_filled";
+    readonly baseId: "square-arrow-down";
+    readonly variant: "filled";
+    readonly name: "Square Arrow Down";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface SquareArrowLeftProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -38289,6 +36264,21 @@ declare const SquareArrowLeftMetadata: {
     readonly id: "square-arrow-left";
     readonly baseId: "square-arrow-left";
     readonly variant: "default";
+    readonly name: "Square Arrow Left";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareArrowLeftFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareArrowLeftFilled: React.ForwardRefExoticComponent<Omit<SquareArrowLeftFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareArrowLeftFilledMetadata: {
+    readonly id: "square-arrow-left_filled";
+    readonly baseId: "square-arrow-left";
+    readonly variant: "filled";
     readonly name: "Square Arrow Left";
     readonly category: "square";
     readonly tags: readonly [];
@@ -38400,6 +36390,21 @@ declare const SquareArrowRightMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface SquareArrowRightFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareArrowRightFilled: React.ForwardRefExoticComponent<Omit<SquareArrowRightFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareArrowRightFilledMetadata: {
+    readonly id: "square-arrow-right_filled";
+    readonly baseId: "square-arrow-right";
+    readonly variant: "filled";
+    readonly name: "Square Arrow Right";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface SquareArrowUpLeftProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -38445,6 +36450,21 @@ declare const SquareArrowUpMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface SquareArrowUpFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareArrowUpFilled: React.ForwardRefExoticComponent<Omit<SquareArrowUpFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareArrowUpFilledMetadata: {
+    readonly id: "square-arrow-up_filled";
+    readonly baseId: "square-arrow-up";
+    readonly variant: "filled";
+    readonly name: "Square Arrow Up";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface SquareAsteriskProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -38454,6 +36474,21 @@ declare const SquareAsteriskMetadata: {
     readonly id: "square-asterisk";
     readonly baseId: "square-asterisk";
     readonly variant: "default";
+    readonly name: "Square Asterisk";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareAsteriskFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareAsteriskFilled: React.ForwardRefExoticComponent<Omit<SquareAsteriskFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareAsteriskFilledMetadata: {
+    readonly id: "square-asterisk_filled";
+    readonly baseId: "square-asterisk";
+    readonly variant: "filled";
     readonly name: "Square Asterisk";
     readonly category: "square";
     readonly tags: readonly [];
@@ -38550,6 +36585,21 @@ declare const SquareCheckMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface SquareCheckFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareCheckFilled: React.ForwardRefExoticComponent<Omit<SquareCheckFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareCheckFilledMetadata: {
+    readonly id: "square-check_filled";
+    readonly baseId: "square-check";
+    readonly variant: "filled";
+    readonly name: "Square Check";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface SquareChevronDownProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -38559,6 +36609,21 @@ declare const SquareChevronDownMetadata: {
     readonly id: "square-chevron-down";
     readonly baseId: "square-chevron-down";
     readonly variant: "default";
+    readonly name: "Square Chevron Down";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareChevronDownFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareChevronDownFilled: React.ForwardRefExoticComponent<Omit<SquareChevronDownFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareChevronDownFilledMetadata: {
+    readonly id: "square-chevron-down_filled";
+    readonly baseId: "square-chevron-down";
+    readonly variant: "filled";
     readonly name: "Square Chevron Down";
     readonly category: "square";
     readonly tags: readonly [];
@@ -38580,6 +36645,21 @@ declare const SquareChevronLeftMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface SquareChevronLeftFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareChevronLeftFilled: React.ForwardRefExoticComponent<Omit<SquareChevronLeftFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareChevronLeftFilledMetadata: {
+    readonly id: "square-chevron-left_filled";
+    readonly baseId: "square-chevron-left";
+    readonly variant: "filled";
+    readonly name: "Square Chevron Left";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface SquareChevronRightProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -38589,6 +36669,21 @@ declare const SquareChevronRightMetadata: {
     readonly id: "square-chevron-right";
     readonly baseId: "square-chevron-right";
     readonly variant: "default";
+    readonly name: "Square Chevron Right";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareChevronRightFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareChevronRightFilled: React.ForwardRefExoticComponent<Omit<SquareChevronRightFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareChevronRightFilledMetadata: {
+    readonly id: "square-chevron-right_filled";
+    readonly baseId: "square-chevron-right";
+    readonly variant: "filled";
     readonly name: "Square Chevron Right";
     readonly category: "square";
     readonly tags: readonly [];
@@ -38605,6 +36700,81 @@ declare const SquareChevronUpMetadata: {
     readonly baseId: "square-chevron-up";
     readonly variant: "default";
     readonly name: "Square Chevron Up";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareChevronUpFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareChevronUpFilled: React.ForwardRefExoticComponent<Omit<SquareChevronUpFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareChevronUpFilledMetadata: {
+    readonly id: "square-chevron-up_filled";
+    readonly baseId: "square-chevron-up";
+    readonly variant: "filled";
+    readonly name: "Square Chevron Up";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareChevronsDownFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareChevronsDownFilled: React.ForwardRefExoticComponent<Omit<SquareChevronsDownFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareChevronsDownFilledMetadata: {
+    readonly id: "square-chevrons-down_filled";
+    readonly baseId: "square-chevrons-down";
+    readonly variant: "filled";
+    readonly name: "Square Chevrons Down";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareChevronsLeftFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareChevronsLeftFilled: React.ForwardRefExoticComponent<Omit<SquareChevronsLeftFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareChevronsLeftFilledMetadata: {
+    readonly id: "square-chevrons-left_filled";
+    readonly baseId: "square-chevrons-left";
+    readonly variant: "filled";
+    readonly name: "Square Chevrons Left";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareChevronsRightFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareChevronsRightFilled: React.ForwardRefExoticComponent<Omit<SquareChevronsRightFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareChevronsRightFilledMetadata: {
+    readonly id: "square-chevrons-right_filled";
+    readonly baseId: "square-chevrons-right";
+    readonly variant: "filled";
+    readonly name: "Square Chevrons Right";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareChevronsUpFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareChevronsUpFilled: React.ForwardRefExoticComponent<Omit<SquareChevronsUpFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareChevronsUpFilledMetadata: {
+    readonly id: "square-chevrons-up_filled";
+    readonly baseId: "square-chevrons-up";
+    readonly variant: "filled";
+    readonly name: "Square Chevrons Up";
     readonly category: "square";
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
@@ -38745,6 +36915,21 @@ declare const SquareDotMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface SquareDotFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareDotFilled: React.ForwardRefExoticComponent<Omit<SquareDotFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareDotFilledMetadata: {
+    readonly id: "square-dot_filled";
+    readonly baseId: "square-dot";
+    readonly variant: "filled";
+    readonly name: "Square Dot";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface SquareEqualProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -38755,6 +36940,156 @@ declare const SquareEqualMetadata: {
     readonly baseId: "square-equal";
     readonly variant: "default";
     readonly name: "Square Equal";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareF0FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareF0Filled: React.ForwardRefExoticComponent<Omit<SquareF0FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareF0FilledMetadata: {
+    readonly id: "square-f0_filled";
+    readonly baseId: "square-f0";
+    readonly variant: "filled";
+    readonly name: "Square F0";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareF1FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareF1Filled: React.ForwardRefExoticComponent<Omit<SquareF1FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareF1FilledMetadata: {
+    readonly id: "square-f1_filled";
+    readonly baseId: "square-f1";
+    readonly variant: "filled";
+    readonly name: "Square F1";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareF2FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareF2Filled: React.ForwardRefExoticComponent<Omit<SquareF2FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareF2FilledMetadata: {
+    readonly id: "square-f2_filled";
+    readonly baseId: "square-f2";
+    readonly variant: "filled";
+    readonly name: "Square F2";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareF3FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareF3Filled: React.ForwardRefExoticComponent<Omit<SquareF3FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareF3FilledMetadata: {
+    readonly id: "square-f3_filled";
+    readonly baseId: "square-f3";
+    readonly variant: "filled";
+    readonly name: "Square F3";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareF4FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareF4Filled: React.ForwardRefExoticComponent<Omit<SquareF4FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareF4FilledMetadata: {
+    readonly id: "square-f4_filled";
+    readonly baseId: "square-f4";
+    readonly variant: "filled";
+    readonly name: "Square F4";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareF5FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareF5Filled: React.ForwardRefExoticComponent<Omit<SquareF5FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareF5FilledMetadata: {
+    readonly id: "square-f5_filled";
+    readonly baseId: "square-f5";
+    readonly variant: "filled";
+    readonly name: "Square F5";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareF6FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareF6Filled: React.ForwardRefExoticComponent<Omit<SquareF6FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareF6FilledMetadata: {
+    readonly id: "square-f6_filled";
+    readonly baseId: "square-f6";
+    readonly variant: "filled";
+    readonly name: "Square F6";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareF7FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareF7Filled: React.ForwardRefExoticComponent<Omit<SquareF7FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareF7FilledMetadata: {
+    readonly id: "square-f7_filled";
+    readonly baseId: "square-f7";
+    readonly variant: "filled";
+    readonly name: "Square F7";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareF8FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareF8Filled: React.ForwardRefExoticComponent<Omit<SquareF8FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareF8FilledMetadata: {
+    readonly id: "square-f8_filled";
+    readonly baseId: "square-f8";
+    readonly variant: "filled";
+    readonly name: "Square F8";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareF9FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareF9Filled: React.ForwardRefExoticComponent<Omit<SquareF9FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareF9FilledMetadata: {
+    readonly id: "square-f9_filled";
+    readonly baseId: "square-f9";
+    readonly variant: "filled";
+    readonly name: "Square F9";
     readonly category: "square";
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
@@ -38785,6 +37120,396 @@ declare const SquareKanbanMetadata: {
     readonly baseId: "square-kanban";
     readonly variant: "default";
     readonly name: "Square Kanban";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareLetterAFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareLetterAFilled: React.ForwardRefExoticComponent<Omit<SquareLetterAFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareLetterAFilledMetadata: {
+    readonly id: "square-letter-a_filled";
+    readonly baseId: "square-letter-a";
+    readonly variant: "filled";
+    readonly name: "Square Letter A";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareLetterBFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareLetterBFilled: React.ForwardRefExoticComponent<Omit<SquareLetterBFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareLetterBFilledMetadata: {
+    readonly id: "square-letter-b_filled";
+    readonly baseId: "square-letter-b";
+    readonly variant: "filled";
+    readonly name: "Square Letter B";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareLetterCFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareLetterCFilled: React.ForwardRefExoticComponent<Omit<SquareLetterCFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareLetterCFilledMetadata: {
+    readonly id: "square-letter-c_filled";
+    readonly baseId: "square-letter-c";
+    readonly variant: "filled";
+    readonly name: "Square Letter C";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareLetterDFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareLetterDFilled: React.ForwardRefExoticComponent<Omit<SquareLetterDFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareLetterDFilledMetadata: {
+    readonly id: "square-letter-d_filled";
+    readonly baseId: "square-letter-d";
+    readonly variant: "filled";
+    readonly name: "Square Letter D";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareLetterEFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareLetterEFilled: React.ForwardRefExoticComponent<Omit<SquareLetterEFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareLetterEFilledMetadata: {
+    readonly id: "square-letter-e_filled";
+    readonly baseId: "square-letter-e";
+    readonly variant: "filled";
+    readonly name: "Square Letter E";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareLetterFFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareLetterFFilled: React.ForwardRefExoticComponent<Omit<SquareLetterFFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareLetterFFilledMetadata: {
+    readonly id: "square-letter-f_filled";
+    readonly baseId: "square-letter-f";
+    readonly variant: "filled";
+    readonly name: "Square Letter F";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareLetterGFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareLetterGFilled: React.ForwardRefExoticComponent<Omit<SquareLetterGFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareLetterGFilledMetadata: {
+    readonly id: "square-letter-g_filled";
+    readonly baseId: "square-letter-g";
+    readonly variant: "filled";
+    readonly name: "Square Letter G";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareLetterHFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareLetterHFilled: React.ForwardRefExoticComponent<Omit<SquareLetterHFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareLetterHFilledMetadata: {
+    readonly id: "square-letter-h_filled";
+    readonly baseId: "square-letter-h";
+    readonly variant: "filled";
+    readonly name: "Square Letter H";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareLetterIFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareLetterIFilled: React.ForwardRefExoticComponent<Omit<SquareLetterIFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareLetterIFilledMetadata: {
+    readonly id: "square-letter-i_filled";
+    readonly baseId: "square-letter-i";
+    readonly variant: "filled";
+    readonly name: "Square Letter I";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareLetterJFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareLetterJFilled: React.ForwardRefExoticComponent<Omit<SquareLetterJFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareLetterJFilledMetadata: {
+    readonly id: "square-letter-j_filled";
+    readonly baseId: "square-letter-j";
+    readonly variant: "filled";
+    readonly name: "Square Letter J";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareLetterKFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareLetterKFilled: React.ForwardRefExoticComponent<Omit<SquareLetterKFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareLetterKFilledMetadata: {
+    readonly id: "square-letter-k_filled";
+    readonly baseId: "square-letter-k";
+    readonly variant: "filled";
+    readonly name: "Square Letter K";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareLetterLFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareLetterLFilled: React.ForwardRefExoticComponent<Omit<SquareLetterLFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareLetterLFilledMetadata: {
+    readonly id: "square-letter-l_filled";
+    readonly baseId: "square-letter-l";
+    readonly variant: "filled";
+    readonly name: "Square Letter L";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareLetterMFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareLetterMFilled: React.ForwardRefExoticComponent<Omit<SquareLetterMFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareLetterMFilledMetadata: {
+    readonly id: "square-letter-m_filled";
+    readonly baseId: "square-letter-m";
+    readonly variant: "filled";
+    readonly name: "Square Letter M";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareLetterNFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareLetterNFilled: React.ForwardRefExoticComponent<Omit<SquareLetterNFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareLetterNFilledMetadata: {
+    readonly id: "square-letter-n_filled";
+    readonly baseId: "square-letter-n";
+    readonly variant: "filled";
+    readonly name: "Square Letter N";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareLetterOFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareLetterOFilled: React.ForwardRefExoticComponent<Omit<SquareLetterOFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareLetterOFilledMetadata: {
+    readonly id: "square-letter-o_filled";
+    readonly baseId: "square-letter-o";
+    readonly variant: "filled";
+    readonly name: "Square Letter O";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareLetterPFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareLetterPFilled: React.ForwardRefExoticComponent<Omit<SquareLetterPFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareLetterPFilledMetadata: {
+    readonly id: "square-letter-p_filled";
+    readonly baseId: "square-letter-p";
+    readonly variant: "filled";
+    readonly name: "Square Letter P";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareLetterQFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareLetterQFilled: React.ForwardRefExoticComponent<Omit<SquareLetterQFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareLetterQFilledMetadata: {
+    readonly id: "square-letter-q_filled";
+    readonly baseId: "square-letter-q";
+    readonly variant: "filled";
+    readonly name: "Square Letter Q";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareLetterRFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareLetterRFilled: React.ForwardRefExoticComponent<Omit<SquareLetterRFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareLetterRFilledMetadata: {
+    readonly id: "square-letter-r_filled";
+    readonly baseId: "square-letter-r";
+    readonly variant: "filled";
+    readonly name: "Square Letter R";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareLetterSFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareLetterSFilled: React.ForwardRefExoticComponent<Omit<SquareLetterSFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareLetterSFilledMetadata: {
+    readonly id: "square-letter-s_filled";
+    readonly baseId: "square-letter-s";
+    readonly variant: "filled";
+    readonly name: "Square Letter S";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareLetterTFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareLetterTFilled: React.ForwardRefExoticComponent<Omit<SquareLetterTFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareLetterTFilledMetadata: {
+    readonly id: "square-letter-t_filled";
+    readonly baseId: "square-letter-t";
+    readonly variant: "filled";
+    readonly name: "Square Letter T";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareLetterUFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareLetterUFilled: React.ForwardRefExoticComponent<Omit<SquareLetterUFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareLetterUFilledMetadata: {
+    readonly id: "square-letter-u_filled";
+    readonly baseId: "square-letter-u";
+    readonly variant: "filled";
+    readonly name: "Square Letter U";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareLetterVFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareLetterVFilled: React.ForwardRefExoticComponent<Omit<SquareLetterVFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareLetterVFilledMetadata: {
+    readonly id: "square-letter-v_filled";
+    readonly baseId: "square-letter-v";
+    readonly variant: "filled";
+    readonly name: "Square Letter V";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareLetterWFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareLetterWFilled: React.ForwardRefExoticComponent<Omit<SquareLetterWFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareLetterWFilledMetadata: {
+    readonly id: "square-letter-w_filled";
+    readonly baseId: "square-letter-w";
+    readonly variant: "filled";
+    readonly name: "Square Letter W";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareLetterXFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareLetterXFilled: React.ForwardRefExoticComponent<Omit<SquareLetterXFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareLetterXFilledMetadata: {
+    readonly id: "square-letter-x_filled";
+    readonly baseId: "square-letter-x";
+    readonly variant: "filled";
+    readonly name: "Square Letter X";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareLetterYFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareLetterYFilled: React.ForwardRefExoticComponent<Omit<SquareLetterYFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareLetterYFilledMetadata: {
+    readonly id: "square-letter-y_filled";
+    readonly baseId: "square-letter-y";
+    readonly variant: "filled";
+    readonly name: "Square Letter Y";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareLetterZFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareLetterZFilled: React.ForwardRefExoticComponent<Omit<SquareLetterZFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareLetterZFilledMetadata: {
+    readonly id: "square-letter-z_filled";
+    readonly baseId: "square-letter-z";
+    readonly variant: "filled";
+    readonly name: "Square Letter Z";
     readonly category: "square";
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
@@ -38850,6 +37575,21 @@ declare const SquareMinusMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface SquareMinusFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareMinusFilled: React.ForwardRefExoticComponent<Omit<SquareMinusFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareMinusFilledMetadata: {
+    readonly id: "square-minus_filled";
+    readonly baseId: "square-minus";
+    readonly variant: "filled";
+    readonly name: "Square Minus";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface SquareMousePointerProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -38860,6 +37600,156 @@ declare const SquareMousePointerMetadata: {
     readonly baseId: "square-mouse-pointer";
     readonly variant: "default";
     readonly name: "Square Mouse Pointer";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareNumber0FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareNumber0Filled: React.ForwardRefExoticComponent<Omit<SquareNumber0FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareNumber0FilledMetadata: {
+    readonly id: "square-number-0_filled";
+    readonly baseId: "square-number-0";
+    readonly variant: "filled";
+    readonly name: "Square Number 0";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareNumber1FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareNumber1Filled: React.ForwardRefExoticComponent<Omit<SquareNumber1FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareNumber1FilledMetadata: {
+    readonly id: "square-number-1_filled";
+    readonly baseId: "square-number-1";
+    readonly variant: "filled";
+    readonly name: "Square Number 1";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareNumber2FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareNumber2Filled: React.ForwardRefExoticComponent<Omit<SquareNumber2FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareNumber2FilledMetadata: {
+    readonly id: "square-number-2_filled";
+    readonly baseId: "square-number-2";
+    readonly variant: "filled";
+    readonly name: "Square Number 2";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareNumber3FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareNumber3Filled: React.ForwardRefExoticComponent<Omit<SquareNumber3FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareNumber3FilledMetadata: {
+    readonly id: "square-number-3_filled";
+    readonly baseId: "square-number-3";
+    readonly variant: "filled";
+    readonly name: "Square Number 3";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareNumber4FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareNumber4Filled: React.ForwardRefExoticComponent<Omit<SquareNumber4FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareNumber4FilledMetadata: {
+    readonly id: "square-number-4_filled";
+    readonly baseId: "square-number-4";
+    readonly variant: "filled";
+    readonly name: "Square Number 4";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareNumber5FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareNumber5Filled: React.ForwardRefExoticComponent<Omit<SquareNumber5FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareNumber5FilledMetadata: {
+    readonly id: "square-number-5_filled";
+    readonly baseId: "square-number-5";
+    readonly variant: "filled";
+    readonly name: "Square Number 5";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareNumber6FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareNumber6Filled: React.ForwardRefExoticComponent<Omit<SquareNumber6FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareNumber6FilledMetadata: {
+    readonly id: "square-number-6_filled";
+    readonly baseId: "square-number-6";
+    readonly variant: "filled";
+    readonly name: "Square Number 6";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareNumber7FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareNumber7Filled: React.ForwardRefExoticComponent<Omit<SquareNumber7FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareNumber7FilledMetadata: {
+    readonly id: "square-number-7_filled";
+    readonly baseId: "square-number-7";
+    readonly variant: "filled";
+    readonly name: "Square Number 7";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareNumber8FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareNumber8Filled: React.ForwardRefExoticComponent<Omit<SquareNumber8FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareNumber8FilledMetadata: {
+    readonly id: "square-number-8_filled";
+    readonly baseId: "square-number-8";
+    readonly variant: "filled";
+    readonly name: "Square Number 8";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareNumber9FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareNumber9Filled: React.ForwardRefExoticComponent<Omit<SquareNumber9FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareNumber9FilledMetadata: {
+    readonly id: "square-number-9_filled";
+    readonly baseId: "square-number-9";
+    readonly variant: "filled";
+    readonly name: "Square Number 9";
     readonly category: "square";
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
@@ -39030,6 +37920,21 @@ declare const SquareRadicalMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface SquareRotatedFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareRotatedFilled: React.ForwardRefExoticComponent<Omit<SquareRotatedFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareRotatedFilledMetadata: {
+    readonly id: "square-rotated_filled";
+    readonly baseId: "square-rotated";
+    readonly variant: "filled";
+    readonly name: "Square Rotated";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface SquareRoundCornerProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -39040,6 +37945,801 @@ declare const SquareRoundCornerMetadata: {
     readonly baseId: "square-round-corner";
     readonly variant: "default";
     readonly name: "Square Round Corner";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareRoundedArrowDownFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareRoundedArrowDownFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedArrowDownFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareRoundedArrowDownFilledMetadata: {
+    readonly id: "square-rounded-arrow-down_filled";
+    readonly baseId: "square-rounded-arrow-down";
+    readonly variant: "filled";
+    readonly name: "Square Rounded Arrow Down";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareRoundedArrowLeftFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareRoundedArrowLeftFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedArrowLeftFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareRoundedArrowLeftFilledMetadata: {
+    readonly id: "square-rounded-arrow-left_filled";
+    readonly baseId: "square-rounded-arrow-left";
+    readonly variant: "filled";
+    readonly name: "Square Rounded Arrow Left";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareRoundedArrowRightFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareRoundedArrowRightFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedArrowRightFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareRoundedArrowRightFilledMetadata: {
+    readonly id: "square-rounded-arrow-right_filled";
+    readonly baseId: "square-rounded-arrow-right";
+    readonly variant: "filled";
+    readonly name: "Square Rounded Arrow Right";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareRoundedArrowUpFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareRoundedArrowUpFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedArrowUpFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareRoundedArrowUpFilledMetadata: {
+    readonly id: "square-rounded-arrow-up_filled";
+    readonly baseId: "square-rounded-arrow-up";
+    readonly variant: "filled";
+    readonly name: "Square Rounded Arrow Up";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareRoundedCheckFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareRoundedCheckFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedCheckFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareRoundedCheckFilledMetadata: {
+    readonly id: "square-rounded-check_filled";
+    readonly baseId: "square-rounded-check";
+    readonly variant: "filled";
+    readonly name: "Square Rounded Check";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareRoundedChevronDownFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareRoundedChevronDownFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedChevronDownFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareRoundedChevronDownFilledMetadata: {
+    readonly id: "square-rounded-chevron-down_filled";
+    readonly baseId: "square-rounded-chevron-down";
+    readonly variant: "filled";
+    readonly name: "Square Rounded Chevron Down";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareRoundedChevronLeftFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareRoundedChevronLeftFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedChevronLeftFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareRoundedChevronLeftFilledMetadata: {
+    readonly id: "square-rounded-chevron-left_filled";
+    readonly baseId: "square-rounded-chevron-left";
+    readonly variant: "filled";
+    readonly name: "Square Rounded Chevron Left";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareRoundedChevronRightFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareRoundedChevronRightFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedChevronRightFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareRoundedChevronRightFilledMetadata: {
+    readonly id: "square-rounded-chevron-right_filled";
+    readonly baseId: "square-rounded-chevron-right";
+    readonly variant: "filled";
+    readonly name: "Square Rounded Chevron Right";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareRoundedChevronUpFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareRoundedChevronUpFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedChevronUpFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareRoundedChevronUpFilledMetadata: {
+    readonly id: "square-rounded-chevron-up_filled";
+    readonly baseId: "square-rounded-chevron-up";
+    readonly variant: "filled";
+    readonly name: "Square Rounded Chevron Up";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareRoundedChevronsDownFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareRoundedChevronsDownFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedChevronsDownFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareRoundedChevronsDownFilledMetadata: {
+    readonly id: "square-rounded-chevrons-down_filled";
+    readonly baseId: "square-rounded-chevrons-down";
+    readonly variant: "filled";
+    readonly name: "Square Rounded Chevrons Down";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareRoundedChevronsLeftFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareRoundedChevronsLeftFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedChevronsLeftFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareRoundedChevronsLeftFilledMetadata: {
+    readonly id: "square-rounded-chevrons-left_filled";
+    readonly baseId: "square-rounded-chevrons-left";
+    readonly variant: "filled";
+    readonly name: "Square Rounded Chevrons Left";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareRoundedChevronsRightFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareRoundedChevronsRightFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedChevronsRightFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareRoundedChevronsRightFilledMetadata: {
+    readonly id: "square-rounded-chevrons-right_filled";
+    readonly baseId: "square-rounded-chevrons-right";
+    readonly variant: "filled";
+    readonly name: "Square Rounded Chevrons Right";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareRoundedChevronsUpFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareRoundedChevronsUpFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedChevronsUpFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareRoundedChevronsUpFilledMetadata: {
+    readonly id: "square-rounded-chevrons-up_filled";
+    readonly baseId: "square-rounded-chevrons-up";
+    readonly variant: "filled";
+    readonly name: "Square Rounded Chevrons Up";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareRoundedLetterAFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareRoundedLetterAFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedLetterAFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareRoundedLetterAFilledMetadata: {
+    readonly id: "square-rounded-letter-a_filled";
+    readonly baseId: "square-rounded-letter-a";
+    readonly variant: "filled";
+    readonly name: "Square Rounded Letter A";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareRoundedLetterBFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareRoundedLetterBFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedLetterBFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareRoundedLetterBFilledMetadata: {
+    readonly id: "square-rounded-letter-b_filled";
+    readonly baseId: "square-rounded-letter-b";
+    readonly variant: "filled";
+    readonly name: "Square Rounded Letter B";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareRoundedLetterCFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareRoundedLetterCFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedLetterCFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareRoundedLetterCFilledMetadata: {
+    readonly id: "square-rounded-letter-c_filled";
+    readonly baseId: "square-rounded-letter-c";
+    readonly variant: "filled";
+    readonly name: "Square Rounded Letter C";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareRoundedLetterDFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareRoundedLetterDFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedLetterDFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareRoundedLetterDFilledMetadata: {
+    readonly id: "square-rounded-letter-d_filled";
+    readonly baseId: "square-rounded-letter-d";
+    readonly variant: "filled";
+    readonly name: "Square Rounded Letter D";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareRoundedLetterEFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareRoundedLetterEFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedLetterEFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareRoundedLetterEFilledMetadata: {
+    readonly id: "square-rounded-letter-e_filled";
+    readonly baseId: "square-rounded-letter-e";
+    readonly variant: "filled";
+    readonly name: "Square Rounded Letter E";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareRoundedLetterFFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareRoundedLetterFFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedLetterFFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareRoundedLetterFFilledMetadata: {
+    readonly id: "square-rounded-letter-f_filled";
+    readonly baseId: "square-rounded-letter-f";
+    readonly variant: "filled";
+    readonly name: "Square Rounded Letter F";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareRoundedLetterGFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareRoundedLetterGFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedLetterGFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareRoundedLetterGFilledMetadata: {
+    readonly id: "square-rounded-letter-g_filled";
+    readonly baseId: "square-rounded-letter-g";
+    readonly variant: "filled";
+    readonly name: "Square Rounded Letter G";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareRoundedLetterHFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareRoundedLetterHFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedLetterHFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareRoundedLetterHFilledMetadata: {
+    readonly id: "square-rounded-letter-h_filled";
+    readonly baseId: "square-rounded-letter-h";
+    readonly variant: "filled";
+    readonly name: "Square Rounded Letter H";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareRoundedLetterIFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareRoundedLetterIFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedLetterIFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareRoundedLetterIFilledMetadata: {
+    readonly id: "square-rounded-letter-i_filled";
+    readonly baseId: "square-rounded-letter-i";
+    readonly variant: "filled";
+    readonly name: "Square Rounded Letter I";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareRoundedLetterJFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareRoundedLetterJFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedLetterJFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareRoundedLetterJFilledMetadata: {
+    readonly id: "square-rounded-letter-j_filled";
+    readonly baseId: "square-rounded-letter-j";
+    readonly variant: "filled";
+    readonly name: "Square Rounded Letter J";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareRoundedLetterKFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareRoundedLetterKFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedLetterKFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareRoundedLetterKFilledMetadata: {
+    readonly id: "square-rounded-letter-k_filled";
+    readonly baseId: "square-rounded-letter-k";
+    readonly variant: "filled";
+    readonly name: "Square Rounded Letter K";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareRoundedLetterLFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareRoundedLetterLFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedLetterLFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareRoundedLetterLFilledMetadata: {
+    readonly id: "square-rounded-letter-l_filled";
+    readonly baseId: "square-rounded-letter-l";
+    readonly variant: "filled";
+    readonly name: "Square Rounded Letter L";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareRoundedLetterMFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareRoundedLetterMFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedLetterMFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareRoundedLetterMFilledMetadata: {
+    readonly id: "square-rounded-letter-m_filled";
+    readonly baseId: "square-rounded-letter-m";
+    readonly variant: "filled";
+    readonly name: "Square Rounded Letter M";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareRoundedLetterNFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareRoundedLetterNFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedLetterNFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareRoundedLetterNFilledMetadata: {
+    readonly id: "square-rounded-letter-n_filled";
+    readonly baseId: "square-rounded-letter-n";
+    readonly variant: "filled";
+    readonly name: "Square Rounded Letter N";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareRoundedLetterOFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareRoundedLetterOFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedLetterOFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareRoundedLetterOFilledMetadata: {
+    readonly id: "square-rounded-letter-o_filled";
+    readonly baseId: "square-rounded-letter-o";
+    readonly variant: "filled";
+    readonly name: "Square Rounded Letter O";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareRoundedLetterPFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareRoundedLetterPFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedLetterPFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareRoundedLetterPFilledMetadata: {
+    readonly id: "square-rounded-letter-p_filled";
+    readonly baseId: "square-rounded-letter-p";
+    readonly variant: "filled";
+    readonly name: "Square Rounded Letter P";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareRoundedLetterQFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareRoundedLetterQFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedLetterQFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareRoundedLetterQFilledMetadata: {
+    readonly id: "square-rounded-letter-q_filled";
+    readonly baseId: "square-rounded-letter-q";
+    readonly variant: "filled";
+    readonly name: "Square Rounded Letter Q";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareRoundedLetterRFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareRoundedLetterRFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedLetterRFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareRoundedLetterRFilledMetadata: {
+    readonly id: "square-rounded-letter-r_filled";
+    readonly baseId: "square-rounded-letter-r";
+    readonly variant: "filled";
+    readonly name: "Square Rounded Letter R";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareRoundedLetterSFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareRoundedLetterSFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedLetterSFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareRoundedLetterSFilledMetadata: {
+    readonly id: "square-rounded-letter-s_filled";
+    readonly baseId: "square-rounded-letter-s";
+    readonly variant: "filled";
+    readonly name: "Square Rounded Letter S";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareRoundedLetterTFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareRoundedLetterTFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedLetterTFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareRoundedLetterTFilledMetadata: {
+    readonly id: "square-rounded-letter-t_filled";
+    readonly baseId: "square-rounded-letter-t";
+    readonly variant: "filled";
+    readonly name: "Square Rounded Letter T";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareRoundedLetterUFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareRoundedLetterUFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedLetterUFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareRoundedLetterUFilledMetadata: {
+    readonly id: "square-rounded-letter-u_filled";
+    readonly baseId: "square-rounded-letter-u";
+    readonly variant: "filled";
+    readonly name: "Square Rounded Letter U";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareRoundedLetterVFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareRoundedLetterVFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedLetterVFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareRoundedLetterVFilledMetadata: {
+    readonly id: "square-rounded-letter-v_filled";
+    readonly baseId: "square-rounded-letter-v";
+    readonly variant: "filled";
+    readonly name: "Square Rounded Letter V";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareRoundedLetterWFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareRoundedLetterWFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedLetterWFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareRoundedLetterWFilledMetadata: {
+    readonly id: "square-rounded-letter-w_filled";
+    readonly baseId: "square-rounded-letter-w";
+    readonly variant: "filled";
+    readonly name: "Square Rounded Letter W";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareRoundedLetterXFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareRoundedLetterXFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedLetterXFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareRoundedLetterXFilledMetadata: {
+    readonly id: "square-rounded-letter-x_filled";
+    readonly baseId: "square-rounded-letter-x";
+    readonly variant: "filled";
+    readonly name: "Square Rounded Letter X";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareRoundedLetterYFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareRoundedLetterYFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedLetterYFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareRoundedLetterYFilledMetadata: {
+    readonly id: "square-rounded-letter-y_filled";
+    readonly baseId: "square-rounded-letter-y";
+    readonly variant: "filled";
+    readonly name: "Square Rounded Letter Y";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareRoundedLetterZFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareRoundedLetterZFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedLetterZFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareRoundedLetterZFilledMetadata: {
+    readonly id: "square-rounded-letter-z_filled";
+    readonly baseId: "square-rounded-letter-z";
+    readonly variant: "filled";
+    readonly name: "Square Rounded Letter Z";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareRoundedMinusFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareRoundedMinusFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedMinusFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareRoundedMinusFilledMetadata: {
+    readonly id: "square-rounded-minus_filled";
+    readonly baseId: "square-rounded-minus";
+    readonly variant: "filled";
+    readonly name: "Square Rounded Minus";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareRoundedNumber0FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareRoundedNumber0Filled: React.ForwardRefExoticComponent<Omit<SquareRoundedNumber0FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareRoundedNumber0FilledMetadata: {
+    readonly id: "square-rounded-number-0_filled";
+    readonly baseId: "square-rounded-number-0";
+    readonly variant: "filled";
+    readonly name: "Square Rounded Number 0";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareRoundedNumber1FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareRoundedNumber1Filled: React.ForwardRefExoticComponent<Omit<SquareRoundedNumber1FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareRoundedNumber1FilledMetadata: {
+    readonly id: "square-rounded-number-1_filled";
+    readonly baseId: "square-rounded-number-1";
+    readonly variant: "filled";
+    readonly name: "Square Rounded Number 1";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareRoundedNumber2FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareRoundedNumber2Filled: React.ForwardRefExoticComponent<Omit<SquareRoundedNumber2FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareRoundedNumber2FilledMetadata: {
+    readonly id: "square-rounded-number-2_filled";
+    readonly baseId: "square-rounded-number-2";
+    readonly variant: "filled";
+    readonly name: "Square Rounded Number 2";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareRoundedNumber3FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareRoundedNumber3Filled: React.ForwardRefExoticComponent<Omit<SquareRoundedNumber3FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareRoundedNumber3FilledMetadata: {
+    readonly id: "square-rounded-number-3_filled";
+    readonly baseId: "square-rounded-number-3";
+    readonly variant: "filled";
+    readonly name: "Square Rounded Number 3";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareRoundedNumber4FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareRoundedNumber4Filled: React.ForwardRefExoticComponent<Omit<SquareRoundedNumber4FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareRoundedNumber4FilledMetadata: {
+    readonly id: "square-rounded-number-4_filled";
+    readonly baseId: "square-rounded-number-4";
+    readonly variant: "filled";
+    readonly name: "Square Rounded Number 4";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareRoundedNumber5FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareRoundedNumber5Filled: React.ForwardRefExoticComponent<Omit<SquareRoundedNumber5FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareRoundedNumber5FilledMetadata: {
+    readonly id: "square-rounded-number-5_filled";
+    readonly baseId: "square-rounded-number-5";
+    readonly variant: "filled";
+    readonly name: "Square Rounded Number 5";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareRoundedNumber6FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareRoundedNumber6Filled: React.ForwardRefExoticComponent<Omit<SquareRoundedNumber6FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareRoundedNumber6FilledMetadata: {
+    readonly id: "square-rounded-number-6_filled";
+    readonly baseId: "square-rounded-number-6";
+    readonly variant: "filled";
+    readonly name: "Square Rounded Number 6";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareRoundedNumber7FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareRoundedNumber7Filled: React.ForwardRefExoticComponent<Omit<SquareRoundedNumber7FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareRoundedNumber7FilledMetadata: {
+    readonly id: "square-rounded-number-7_filled";
+    readonly baseId: "square-rounded-number-7";
+    readonly variant: "filled";
+    readonly name: "Square Rounded Number 7";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareRoundedNumber8FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareRoundedNumber8Filled: React.ForwardRefExoticComponent<Omit<SquareRoundedNumber8FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareRoundedNumber8FilledMetadata: {
+    readonly id: "square-rounded-number-8_filled";
+    readonly baseId: "square-rounded-number-8";
+    readonly variant: "filled";
+    readonly name: "Square Rounded Number 8";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareRoundedNumber9FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareRoundedNumber9Filled: React.ForwardRefExoticComponent<Omit<SquareRoundedNumber9FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareRoundedNumber9FilledMetadata: {
+    readonly id: "square-rounded-number-9_filled";
+    readonly baseId: "square-rounded-number-9";
+    readonly variant: "filled";
+    readonly name: "Square Rounded Number 9";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareRoundedPlusFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareRoundedPlusFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedPlusFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareRoundedPlusFilledMetadata: {
+    readonly id: "square-rounded-plus_filled";
+    readonly baseId: "square-rounded-plus";
+    readonly variant: "filled";
+    readonly name: "Square Rounded Plus";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareRoundedXFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareRoundedXFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedXFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareRoundedXFilledMetadata: {
+    readonly id: "square-rounded-x_filled";
+    readonly baseId: "square-rounded-x";
+    readonly variant: "filled";
+    readonly name: "Square Rounded X";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareRoundedFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareRoundedFilled: React.ForwardRefExoticComponent<Omit<SquareRoundedFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareRoundedFilledMetadata: {
+    readonly id: "square-rounded_filled";
+    readonly baseId: "square-rounded";
+    readonly variant: "filled";
+    readonly name: "Square Rounded";
     readonly category: "square";
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
@@ -39240,6 +38940,21 @@ declare const SquareXMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
+interface SquareXFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareXFilled: React.ForwardRefExoticComponent<Omit<SquareXFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareXFilledMetadata: {
+    readonly id: "square-x_filled";
+    readonly baseId: "square-x";
+    readonly variant: "filled";
+    readonly name: "Square X";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
 interface SquareProps extends React.SVGProps<SVGSVGElement> {
     size?: number | string;
     strokeWidth?: number;
@@ -39249,6 +38964,21 @@ declare const SquareMetadata: {
     readonly id: "square";
     readonly baseId: "square";
     readonly variant: "default";
+    readonly name: "Square";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquareFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquareFilled: React.ForwardRefExoticComponent<Omit<SquareFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquareFilledMetadata: {
+    readonly id: "square_filled";
+    readonly baseId: "square";
+    readonly variant: "filled";
     readonly name: "Square";
     readonly category: "square";
     readonly tags: readonly [];
@@ -39310,6 +39040,21 @@ declare const SquaresUniteMetadata: {
     readonly baseId: "squares-unite";
     readonly variant: "default";
     readonly name: "Squares Unite";
+    readonly category: "square";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface SquaresFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const SquaresFilled: React.ForwardRefExoticComponent<Omit<SquaresFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const SquaresFilledMetadata: {
+    readonly id: "squares_filled";
+    readonly baseId: "squares";
+    readonly variant: "filled";
+    readonly name: "Squares";
     readonly category: "square";
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
@@ -39745,6 +39490,261 @@ declare const AlarmClockMetadata: {
     readonly baseId: "alarm-clock";
     readonly variant: "default";
     readonly name: "Alarm Clock";
+    readonly category: "time";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface AlarmMinusFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const AlarmMinusFilled: React.ForwardRefExoticComponent<Omit<AlarmMinusFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const AlarmMinusFilledMetadata: {
+    readonly id: "alarm-minus_filled";
+    readonly baseId: "alarm-minus";
+    readonly variant: "filled";
+    readonly name: "Alarm Minus";
+    readonly category: "time";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface AlarmPlusFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const AlarmPlusFilled: React.ForwardRefExoticComponent<Omit<AlarmPlusFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const AlarmPlusFilledMetadata: {
+    readonly id: "alarm-plus_filled";
+    readonly baseId: "alarm-plus";
+    readonly variant: "filled";
+    readonly name: "Alarm Plus";
+    readonly category: "time";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface AlarmSnoozeFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const AlarmSnoozeFilled: React.ForwardRefExoticComponent<Omit<AlarmSnoozeFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const AlarmSnoozeFilledMetadata: {
+    readonly id: "alarm-snooze_filled";
+    readonly baseId: "alarm-snooze";
+    readonly variant: "filled";
+    readonly name: "Alarm Snooze";
+    readonly category: "time";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface AlarmFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const AlarmFilled: React.ForwardRefExoticComponent<Omit<AlarmFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const AlarmFilledMetadata: {
+    readonly id: "alarm_filled";
+    readonly baseId: "alarm";
+    readonly variant: "filled";
+    readonly name: "Alarm";
+    readonly category: "time";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface ClockHour10FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const ClockHour10Filled: React.ForwardRefExoticComponent<Omit<ClockHour10FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const ClockHour10FilledMetadata: {
+    readonly id: "clock-hour-10_filled";
+    readonly baseId: "clock-hour-10";
+    readonly variant: "filled";
+    readonly name: "Clock Hour 10";
+    readonly category: "time";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface ClockHour11FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const ClockHour11Filled: React.ForwardRefExoticComponent<Omit<ClockHour11FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const ClockHour11FilledMetadata: {
+    readonly id: "clock-hour-11_filled";
+    readonly baseId: "clock-hour-11";
+    readonly variant: "filled";
+    readonly name: "Clock Hour 11";
+    readonly category: "time";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface ClockHour12FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const ClockHour12Filled: React.ForwardRefExoticComponent<Omit<ClockHour12FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const ClockHour12FilledMetadata: {
+    readonly id: "clock-hour-12_filled";
+    readonly baseId: "clock-hour-12";
+    readonly variant: "filled";
+    readonly name: "Clock Hour 12";
+    readonly category: "time";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface ClockHour1FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const ClockHour1Filled: React.ForwardRefExoticComponent<Omit<ClockHour1FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const ClockHour1FilledMetadata: {
+    readonly id: "clock-hour-1_filled";
+    readonly baseId: "clock-hour-1";
+    readonly variant: "filled";
+    readonly name: "Clock Hour 1";
+    readonly category: "time";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface ClockHour2FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const ClockHour2Filled: React.ForwardRefExoticComponent<Omit<ClockHour2FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const ClockHour2FilledMetadata: {
+    readonly id: "clock-hour-2_filled";
+    readonly baseId: "clock-hour-2";
+    readonly variant: "filled";
+    readonly name: "Clock Hour 2";
+    readonly category: "time";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface ClockHour3FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const ClockHour3Filled: React.ForwardRefExoticComponent<Omit<ClockHour3FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const ClockHour3FilledMetadata: {
+    readonly id: "clock-hour-3_filled";
+    readonly baseId: "clock-hour-3";
+    readonly variant: "filled";
+    readonly name: "Clock Hour 3";
+    readonly category: "time";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface ClockHour4FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const ClockHour4Filled: React.ForwardRefExoticComponent<Omit<ClockHour4FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const ClockHour4FilledMetadata: {
+    readonly id: "clock-hour-4_filled";
+    readonly baseId: "clock-hour-4";
+    readonly variant: "filled";
+    readonly name: "Clock Hour 4";
+    readonly category: "time";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface ClockHour5FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const ClockHour5Filled: React.ForwardRefExoticComponent<Omit<ClockHour5FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const ClockHour5FilledMetadata: {
+    readonly id: "clock-hour-5_filled";
+    readonly baseId: "clock-hour-5";
+    readonly variant: "filled";
+    readonly name: "Clock Hour 5";
+    readonly category: "time";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface ClockHour6FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const ClockHour6Filled: React.ForwardRefExoticComponent<Omit<ClockHour6FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const ClockHour6FilledMetadata: {
+    readonly id: "clock-hour-6_filled";
+    readonly baseId: "clock-hour-6";
+    readonly variant: "filled";
+    readonly name: "Clock Hour 6";
+    readonly category: "time";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface ClockHour7FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const ClockHour7Filled: React.ForwardRefExoticComponent<Omit<ClockHour7FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const ClockHour7FilledMetadata: {
+    readonly id: "clock-hour-7_filled";
+    readonly baseId: "clock-hour-7";
+    readonly variant: "filled";
+    readonly name: "Clock Hour 7";
+    readonly category: "time";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface ClockHour8FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const ClockHour8Filled: React.ForwardRefExoticComponent<Omit<ClockHour8FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const ClockHour8FilledMetadata: {
+    readonly id: "clock-hour-8_filled";
+    readonly baseId: "clock-hour-8";
+    readonly variant: "filled";
+    readonly name: "Clock Hour 8";
+    readonly category: "time";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface ClockHour9FilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const ClockHour9Filled: React.ForwardRefExoticComponent<Omit<ClockHour9FilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const ClockHour9FilledMetadata: {
+    readonly id: "clock-hour-9_filled";
+    readonly baseId: "clock-hour-9";
+    readonly variant: "filled";
+    readonly name: "Clock Hour 9";
+    readonly category: "time";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+interface ClockFilledProps extends React.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    strokeWidth?: number;
+}
+declare const ClockFilled: React.ForwardRefExoticComponent<Omit<ClockFilledProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+declare const ClockFilledMetadata: {
+    readonly id: "clock_filled";
+    readonly baseId: "clock";
+    readonly variant: "filled";
+    readonly name: "Clock";
     readonly category: "time";
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";

@@ -1,3 +1,5 @@
+export { Message2Filled, Message2FilledMetadata, type Message2FilledProps } from './message-2_filled';
+export { MessageChatbotFilled, MessageChatbotFilledMetadata, type MessageChatbotFilledProps } from './message-chatbot_filled';
 export { MessageCircleCheck, MessageCircleCheckMetadata, type MessageCircleCheckProps } from './message-circle-check';
 export { MessageCircleCode, MessageCircleCodeMetadata, type MessageCircleCodeProps } from './message-circle-code';
 export { MessageCircleDashed, MessageCircleDashedMetadata, type MessageCircleDashedProps } from './message-circle-dashed';
@@ -10,6 +12,8 @@ export { MessageCircleReply, MessageCircleReplyMetadata, type MessageCircleReply
 export { MessageCircleWarning, MessageCircleWarningMetadata, type MessageCircleWarningProps } from './message-circle-warning';
 export { MessageCircleX, MessageCircleXMetadata, type MessageCircleXProps } from './message-circle-x';
 export { MessageCircle, MessageCircleMetadata, type MessageCircleProps } from './message-circle';
+export { MessageCircleFilled, MessageCircleFilledMetadata, type MessageCircleFilledProps } from './message-circle_filled';
+export { MessageReportFilled, MessageReportFilledMetadata, type MessageReportFilledProps } from './message-report_filled';
 export { MessageSquareCheck, MessageSquareCheckMetadata, type MessageSquareCheckProps } from './message-square-check';
 export { MessageSquareCode, MessageSquareCodeMetadata, type MessageSquareCodeProps } from './message-square-code';
 export { MessageSquareDashed, MessageSquareDashedMetadata, type MessageSquareDashedProps } from './message-square-dashed';
@@ -27,4 +31,5 @@ export { MessageSquareText, MessageSquareTextMetadata, type MessageSquareTextPro
 export { MessageSquareWarning, MessageSquareWarningMetadata, type MessageSquareWarningProps } from './message-square-warning';
 export { MessageSquareX, MessageSquareXMetadata, type MessageSquareXProps } from './message-square-x';
 export { MessageSquare, MessageSquareMetadata, type MessageSquareProps } from './message-square';
+export { MessageFilled, MessageFilledMetadata, type MessageFilledProps } from './message_filled';
 export { MessagesSquare, MessagesSquareMetadata, type MessagesSquareProps } from './messages-square';

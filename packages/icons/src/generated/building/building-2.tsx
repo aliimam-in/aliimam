@@ -9,7 +9,18 @@ export interface Building2Props extends React.SVGProps<SVGSVGElement> {
 
 export const Building2 = React.forwardRef<SVGSVGElement, Building2Props>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M10 12h4" />
   <path d="M10 8h4" />
   <path d="M14 21v-3a2 2 0 0 0-4 0v3" />
@@ -19,5 +30,14 @@ export const Building2 = React.forwardRef<SVGSVGElement, Building2Props>(
   )
 );
 Building2.displayName = "Building2";
-export const Building2Metadata = { id: "building-2", baseId: "building-2", variant: "default", name: "Building 2", category: "building", tags: [], viewBox: "0 0 24 24" } as const;
+export const Building2Metadata = { 
+  id: "building-2", 
+  baseId: "building-2", 
+  variant: "default", 
+  name: "Building 2", 
+  category: "building", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default Building2;

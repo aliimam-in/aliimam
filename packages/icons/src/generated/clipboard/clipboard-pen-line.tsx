@@ -9,7 +9,18 @@ export interface ClipboardPenLineProps extends React.SVGProps<SVGSVGElement> {
 
 export const ClipboardPenLine = React.forwardRef<SVGSVGElement, ClipboardPenLineProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <rect width="8" height="4" x="8" y="2" rx="1" />
   <path d="M8 4H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-.5" />
   <path d="M16 4h2a2 2 0 0 1 1.73 1" />
@@ -19,5 +30,14 @@ export const ClipboardPenLine = React.forwardRef<SVGSVGElement, ClipboardPenLine
   )
 );
 ClipboardPenLine.displayName = "ClipboardPenLine";
-export const ClipboardPenLineMetadata = { id: "clipboard-pen-line", baseId: "clipboard-pen-line", variant: "default", name: "Clipboard Pen Line", category: "clipboard", tags: [], viewBox: "0 0 24 24" } as const;
+export const ClipboardPenLineMetadata = { 
+  id: "clipboard-pen-line", 
+  baseId: "clipboard-pen-line", 
+  variant: "default", 
+  name: "Clipboard Pen Line", 
+  category: "clipboard", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default ClipboardPenLine;

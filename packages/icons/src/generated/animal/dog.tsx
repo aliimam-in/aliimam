@@ -9,7 +9,18 @@ export interface DogProps extends React.SVGProps<SVGSVGElement> {
 
 export const Dog = React.forwardRef<SVGSVGElement, DogProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M11.25 16.25h1.5L12 17z" />
   <path d="M16 14v.5" />
   <path d="M4.42 11.247A13.152 13.152 0 0 0 4 14.556C4 18.728 7.582 21 12 21s8-2.272 8-6.444a11.702 11.702 0 0 0-.493-3.309" />
@@ -19,5 +30,14 @@ export const Dog = React.forwardRef<SVGSVGElement, DogProps>(
   )
 );
 Dog.displayName = "Dog";
-export const DogMetadata = { id: "dog", baseId: "dog", variant: "default", name: "Dog", category: "animal", tags: [], viewBox: "0 0 24 24" } as const;
+export const DogMetadata = { 
+  id: "dog", 
+  baseId: "dog", 
+  variant: "default", 
+  name: "Dog", 
+  category: "animal", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default Dog;

@@ -38,7 +38,7 @@ export function IconControlsPanel({
         <Label>Size: {size}px</Label>
         <Slider
           min={16}
-          max={200}
+          max={300}
           step={4}
           value={[size]}
           onValueChange={(v) => onSizeChange(v[0])}

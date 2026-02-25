@@ -9,7 +9,18 @@ export interface FlaskConicalOffProps extends React.SVGProps<SVGSVGElement> {
 
 export const FlaskConicalOff = React.forwardRef<SVGSVGElement, FlaskConicalOffProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M10 2v2.343" />
   <path d="M14 2v6.343" />
   <path d="m2 2 20 20" />
@@ -20,5 +31,14 @@ export const FlaskConicalOff = React.forwardRef<SVGSVGElement, FlaskConicalOffPr
   )
 );
 FlaskConicalOff.displayName = "FlaskConicalOff";
-export const FlaskConicalOffMetadata = { id: "flask-conical-off", baseId: "flask-conical-off", variant: "default", name: "Flask Conical Off", category: "medical", tags: [], viewBox: "0 0 24 24" } as const;
+export const FlaskConicalOffMetadata = { 
+  id: "flask-conical-off", 
+  baseId: "flask-conical-off", 
+  variant: "default", 
+  name: "Flask Conical Off", 
+  category: "medical", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default FlaskConicalOff;

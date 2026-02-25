@@ -9,7 +9,18 @@ export interface NotepadTextDashedProps extends React.SVGProps<SVGSVGElement> {
 
 export const NotepadTextDashed = React.forwardRef<SVGSVGElement, NotepadTextDashedProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M8 2v4" />
   <path d="M12 2v4" />
   <path d="M16 2v4" />
@@ -27,5 +38,14 @@ export const NotepadTextDashed = React.forwardRef<SVGSVGElement, NotepadTextDash
   )
 );
 NotepadTextDashed.displayName = "NotepadTextDashed";
-export const NotepadTextDashedMetadata = { id: "notepad-text-dashed", baseId: "notepad-text-dashed", variant: "default", name: "Notepad Text Dashed", category: "book", tags: [], viewBox: "0 0 24 24" } as const;
+export const NotepadTextDashedMetadata = { 
+  id: "notepad-text-dashed", 
+  baseId: "notepad-text-dashed", 
+  variant: "default", 
+  name: "Notepad Text Dashed", 
+  category: "book", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default NotepadTextDashed;

@@ -9,7 +9,18 @@ export interface ScissorsLineDashedProps extends React.SVGProps<SVGSVGElement> {
 
 export const ScissorsLineDashed = React.forwardRef<SVGSVGElement, ScissorsLineDashedProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M5.42 9.42 8 12" />
   <circle cx="4" cy="8" r="2" />
   <path d="m14 6-8.58 8.58" />
@@ -21,5 +32,14 @@ export const ScissorsLineDashed = React.forwardRef<SVGSVGElement, ScissorsLineDa
   )
 );
 ScissorsLineDashed.displayName = "ScissorsLineDashed";
-export const ScissorsLineDashedMetadata = { id: "scissors-line-dashed", baseId: "scissors-line-dashed", variant: "default", name: "Scissors Line Dashed", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export const ScissorsLineDashedMetadata = { 
+  id: "scissors-line-dashed", 
+  baseId: "scissors-line-dashed", 
+  variant: "default", 
+  name: "Scissors Line Dashed", 
+  category: "others", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default ScissorsLineDashed;

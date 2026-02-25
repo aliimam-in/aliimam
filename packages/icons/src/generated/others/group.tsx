@@ -9,7 +9,18 @@ export interface GroupProps extends React.SVGProps<SVGSVGElement> {
 
 export const Group = React.forwardRef<SVGSVGElement, GroupProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M3 7V5c0-1.1.9-2 2-2h2" />
   <path d="M17 3h2c1.1 0 2 .9 2 2v2" />
   <path d="M21 17v2c0 1.1-.9 2-2 2h-2" />
@@ -20,5 +31,14 @@ export const Group = React.forwardRef<SVGSVGElement, GroupProps>(
   )
 );
 Group.displayName = "Group";
-export const GroupMetadata = { id: "group", baseId: "group", variant: "default", name: "Group", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export const GroupMetadata = { 
+  id: "group", 
+  baseId: "group", 
+  variant: "default", 
+  name: "Group", 
+  category: "others", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default Group;

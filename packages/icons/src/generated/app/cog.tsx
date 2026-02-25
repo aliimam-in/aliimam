@@ -9,7 +9,18 @@ export interface CogProps extends React.SVGProps<SVGSVGElement> {
 
 export const Cog = React.forwardRef<SVGSVGElement, CogProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <path d="M11 10.27 7 3.34" />
   <path d="m11 13.73-4 6.93" />
   <path d="M12 22v-2" />
@@ -28,5 +39,14 @@ export const Cog = React.forwardRef<SVGSVGElement, CogProps>(
   )
 );
 Cog.displayName = "Cog";
-export const CogMetadata = { id: "cog", baseId: "cog", variant: "default", name: "Cog", category: "app", tags: [], viewBox: "0 0 24 24" } as const;
+export const CogMetadata = { 
+  id: "cog", 
+  baseId: "cog", 
+  variant: "default", 
+  name: "Cog", 
+  category: "app", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default Cog;

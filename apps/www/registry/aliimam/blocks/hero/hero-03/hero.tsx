@@ -1,4 +1,4 @@
-import { BadgeQuestionMark } from "@aliimam/icons"
+import { Heart, SquareMousePointer } from "@aliimam/icons"
 import { Instagram, Threads, X } from "@aliimam/logos"
 
 import { Separator } from "@/registry/aliimam/ui/separator"
@@ -23,10 +23,7 @@ export default function HeroSection03() {
           <div className="items-center gap-6 md:flex">
             <h1 className="flex text-6xl leading-none font-light tracking-wider md:text-7xl xl:text-[10rem]">
               <span>PR</span>
-              <BadgeQuestionMark
-                type="solid"
-                className="text-primary size-14 md:size-18 lg:size-40"
-              />
+              <SquareMousePointer strokeWidth={1.5} className="text-primary size-14 md:size-18 lg:size-20 xl:size-40" />
               <span>DUCTS</span>
             </h1>
             <p className="text-muted-foreground max-w-[250px] pt-8 text-xs leading-5 md:max-w-[180px] md:text-sm">
@@ -38,28 +35,9 @@ export default function HeroSection03() {
           <div className="items-center gap-6 md:flex">
             <h1 className="text-6xl leading-none font-light tracking-wider md:flex md:text-7xl xl:text-[10rem]">
               <span>DESIGN</span>
-              <div className="hidden lg:block">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="140"
-                  height="140"
-                  viewBox="0 0 24 24"
-                  fill="#f43f5e"
-                >
-                  <path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5" />
-                </svg>
-              </div>
-              <div className="block lg:hidden">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="70"
-                  height="70"
-                  viewBox="0 0 24 24"
-                  fill="#f43f5e"
-                >
-                  <path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5" />
-                </svg>
-              </div>
+              <div className="">
+                <Heart fill="red" strokeWidth={0} size={140} className="size-14 md:size-18 lg:size-20 xl:size-40" />
+              </div> 
               <span>CODE</span>
             </h1>
           </div>

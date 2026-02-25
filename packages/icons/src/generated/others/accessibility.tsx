@@ -9,7 +9,18 @@ export interface AccessibilityProps extends React.SVGProps<SVGSVGElement> {
 
 export const Accessibility = React.forwardRef<SVGSVGElement, AccessibilityProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
+    <svg 
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
       <circle cx="16" cy="4" r="1" />
   <path d="m18 19 1-7-6 1" />
   <path d="m5 8 3-3 5.5 3-2.36 3.5" />
@@ -19,5 +30,14 @@ export const Accessibility = React.forwardRef<SVGSVGElement, AccessibilityProps>
   )
 );
 Accessibility.displayName = "Accessibility";
-export const AccessibilityMetadata = { id: "accessibility", baseId: "accessibility", variant: "default", name: "Accessibility", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export const AccessibilityMetadata = { 
+  id: "accessibility", 
+  baseId: "accessibility", 
+  variant: "default", 
+  name: "Accessibility", 
+  category: "others", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
 export default Accessibility;
