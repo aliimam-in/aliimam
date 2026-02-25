@@ -1,0 +1,51 @@
+/**
+ * Auto-generated logo component: Crucible (default)
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface CrucibleProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string;
+}
+
+export const Crucible = React.forwardRef<SVGSVGElement, CrucibleProps>(
+  ({ size = 24, className = '', ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 256 264"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <defs>
+        <linearGradient x1="50%" y1="99.3303571%" x2="50%" y2="1.78571429%" id="linearGradient-1">
+            <stop stopColor="#0052CC" offset="18%"></stop>
+            <stop stopColor="#2684FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g>
+				<path d="M128,0 C57.299639,0 0,24.1549065 0,53.8969478 C0.0268595606,55.4195179 0.181433131,56.9371494 0.462093863,58.4338694 L23.0206761,176.813915 C32.5372737,227.31583 76.6512606,263.893368 128.042009,263.893368 C179.432756,263.893368 223.546743,227.31583 233.063341,176.813915 L255.537906,58.4338694 C255.816241,56.9509604 255.970804,55.4474777 256,53.9389564 C256,24.1549065 198.700361,0 128,0 Z M128,196.053823 C91.032491,196.053823 94.0991139,110.146373 52.6787004,97.4597965 C49.2340007,96.4095832 45.9573351,95.2753528 42.7646866,94.0571053 C70.1608199,84.5580566 99.0071161,79.9233141 128,80.3623236 C156.992884,79.9233141 185.83918,84.5580566 213.235313,94.0571053 C210.042665,95.2333443 206.765999,96.4095832 203.3213,97.4597965 C161.900886,110.062356 165.009518,196.053823 128,196.053823 Z" fill="#2684FF"></path>
+				<path d="M42.7646866,94.0991139 C70.1606084,84.5992247 99.0070536,79.9644582 128,80.4043321 C156.992946,79.9644582 185.839392,84.5992247 213.235313,94.0991139 C239.448638,84.2271086 256,69.9021989 256,53.8969478 C256,24.1549065 198.700361,0 128,0 C57.299639,0 0,24.1549065 0,53.8969478 C0,69.8601904 16.5093535,84.2271086 42.7646866,94.0991139 Z" fill="url(#linearGradient-1)"></path>
+		</g>
+    </svg>
+  )
+);
+
+Crucible.displayName = "Crucible";
+
+export const CrucibleMetadata = {
+  id: "crucible",
+  baseId: "crucible",
+  variant: "default",
+  name: "Crucible",
+  category: "aliimam",
+  tags: [],
+  viewBox: "0 0 256 264",
+} as const;
+
+export default Crucible;

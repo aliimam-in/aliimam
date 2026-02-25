@@ -1,0 +1,46 @@
+/**
+ * Auto-generated logo component: Brand Facebook Filled (default)
+ * Category: filled
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface BrandFacebookFilledLogoProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string;
+  strokeWidth?: number;
+}
+
+export const BrandFacebookFilledLogo = React.forwardRef<SVGSVGElement, BrandFacebookFilledLogoProps>(
+  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
+      <path d="M18 2a1 1 0 0 1 .993 .883l.007 .117v4a1 1 0 0 1 -.883 .993l-.117 .007h-3v1h3a1 1 0 0 1 .991 1.131l-.02 .112l-1 4a1 1 0 0 1 -.858 .75l-.113 .007h-2v6a1 1 0 0 1 -.883 .993l-.117 .007h-4a1 1 0 0 1 -.993 -.883l-.007 -.117v-6h-2a1 1 0 0 1 -.993 -.883l-.007 -.117v-4a1 1 0 0 1 .883 -.993l.117 -.007h2v-1a6 6 0 0 1 5.775 -5.996l.225 -.004h3z" />
+    </svg>
+  )
+);
+
+BrandFacebookFilledLogo.displayName = "BrandFacebookFilledLogo";
+
+export const BrandFacebookFilledLogoMetadata = {
+  id: "brand-facebook-filled",
+  baseId: "brand-facebook-filled",
+  variant: "default",
+  name: "Brand Facebook Filled",
+  category: "filled",
+  tags: [],
+  viewBox: "0 0 24 24",
+} as const;
+
+export default BrandFacebookFilledLogo;

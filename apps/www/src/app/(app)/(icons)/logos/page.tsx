@@ -5,18 +5,34 @@ import { IconsNav } from "@/src/components/icons/icons-nav"
 import { LogoCategoryTabs } from "@/src/components/icons/logo-category"
 import { LogoSearch } from "@/src/components/icons/logo-search"
 import { LogoGrid } from "@/src/components/icons/main-logos"
-import { LogoPreview, LogoPreviewPhone } from "@/src/components/icons/logo-preview" 
-
+import { LogoPreview, LogoPreviewPhone } from "@/src/components/icons/logo-preview"
+import { useLogoFilter } from "@/src/components/icons/logo-filter-context"
+import { Tabs, TabsList, TabsTrigger } from "@/registry/aliimam/ui/tabs"
+ 
 export default function Page() {
   const [selectedLogo, setSelectedLogo] = useState<string | null>(null)
+  const { variantTab, setVariantTab } = useLogoFilter()
 
   return (
     <div>
       <div className="bg-background sticky top-14 z-40 flex h-14 w-full items-center gap-2 border-b px-4">
         <IconsNav />
-        <div className="mx-auto hidden md:block">
-          <LogoSearch totalCount={520} />
+        <div className="ml-auto hidden md:block">
+          <LogoSearch totalCount={20} />
         </div>
+        <Tabs
+          className="ml-auto"
+          value={variantTab}
+          onValueChange={(v) => {
+            setVariantTab(v as "icon" | "wordmark")
+            setSelectedLogo(null) // selection clear karo tab switch pe
+          }}
+        >
+          <TabsList>
+            <TabsTrigger value="icon">Icon</TabsTrigger>
+            <TabsTrigger value="wordmark">Wordmark</TabsTrigger>
+          </TabsList>
+        </Tabs>
       </div>
 
       <div className="flex h-full w-full">

@@ -1,0 +1,46 @@
+/**
+ * Auto-generated logo component: Eyeglass 2 Filled (default)
+ * Category: filled
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface Eyeglass2FilledLogoProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string;
+  strokeWidth?: number;
+}
+
+export const Eyeglass2FilledLogo = React.forwardRef<SVGSVGElement, Eyeglass2FilledLogoProps>(
+  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
+      <path d="M8 3a1 1 0 1 1 0 2h-1.257l-2.24 7.467a4.5 4.5 0 0 1 6.24 2.533h2.513a4.502 4.502 0 0 1 6.241 -2.534l-2.241 -7.466h-1.256a1 1 0 0 1 -.993 -.883l-.007 -.117a1 1 0 0 1 1 -1h2a1 1 0 0 1 .958 .713l3 10a1 1 0 0 1 .042 .287v2.5a4.5 4.5 0 0 1 -8.972 .5h-2.056a4.5 4.5 0 0 1 -8.972 -.5v-2.5a1 1 0 0 1 .042 -.287l3 -10a1 1 0 0 1 .958 -.713z" />
+    </svg>
+  )
+);
+
+Eyeglass2FilledLogo.displayName = "Eyeglass2FilledLogo";
+
+export const Eyeglass2FilledLogoMetadata = {
+  id: "eyeglass-2-filled",
+  baseId: "eyeglass-2-filled",
+  variant: "default",
+  name: "Eyeglass 2 Filled",
+  category: "filled",
+  tags: [],
+  viewBox: "0 0 24 24",
+} as const;
+
+export default Eyeglass2FilledLogo;

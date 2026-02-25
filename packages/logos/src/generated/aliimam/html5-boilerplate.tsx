@@ -1,0 +1,49 @@
+/**
+ * Auto-generated logo component: Html5 Boilerplate (default)
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface Html5BoilerplateProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string;
+}
+
+export const Html5Boilerplate = React.forwardRef<SVGSVGElement, Html5BoilerplateProps>(
+  ({ size = 24, className = '', ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 256 256"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <g>
+		<rect fill="#222222" x="0" y="0" width="256" height="256"></rect>
+		<path d="M114.4064,35.2768 L91.8272,99.81952 L23.332864,100.00896 L78.84288,141.0304 L58.89536,207.26272 L114.9696,167.56224 L172.55424,209.71008 L151.4752,140.84096 L206.42304,99.81952 L138.11712,100.00896 L114.4064,35.2768" fill="#E08524"></path>
+		<path d="M117.22752,34.335744 L139.99616,45.061632 L159.001088,96.998912 L140.184064,96.998912 L117.22752,34.340352" fill="#466770"></path>
+		<path d="M156.3392,142.23872 L178.825728,153.28256 L233.246208,113.764864 L210.75968,101.789696 L156.3392,142.23872" fill="#304A51"></path>
+		<path d="M156.30848,142.19776 L178.825728,153.233408 L200.114688,222.071808 L176.829952,210.22976 L156.30848,142.20032" fill="#466770"></path>
+		<path d="M62.09536,209.61792 L114.9696,171.795968 L133.504512,185.532416 L83.5456,220.532224 L62.094336,209.618432" fill="#304A51"></path>
+	</g>
+    </svg>
+  )
+);
+
+Html5Boilerplate.displayName = "Html5Boilerplate";
+
+export const Html5BoilerplateMetadata = {
+  id: "html5-boilerplate",
+  baseId: "html5-boilerplate",
+  variant: "default",
+  name: "Html5 Boilerplate",
+  category: "aliimam",
+  tags: [],
+  viewBox: "0 0 256 256",
+} as const;
+
+export default Html5Boilerplate;

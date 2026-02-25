@@ -2,10 +2,10 @@
 
 import { Search, X } from "lucide-react"
 import { Input } from "@/registry/aliimam/ui/input"
-import { useLogoFilter } from "./icon-filter-context"
+import { useIconFilter } from "./icon-filter-context"
 
 export function IconSearch({ totalCount }: { totalCount: number }) {
-  const { query, setQuery } = useLogoFilter()
+  const { query, setQuery } = useIconFilter()
 
   return (
     <div className="relative w-80">

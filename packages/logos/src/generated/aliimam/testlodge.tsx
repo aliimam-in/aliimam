@@ -1,0 +1,55 @@
+/**
+ * Auto-generated logo component: Testlodge (default)
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface TestlodgeProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string;
+}
+
+export const Testlodge = React.forwardRef<SVGSVGElement, TestlodgeProps>(
+  ({ size = 24, className = '', ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 256 219"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <g>
+		<path d="M256,7.569 L142.885,60.452 L145.958,61.695 L252.982,75.98 L256,75.467 L256,7.569" fill="#C5CF21"></path>
+		<path d="M256,75.467 L142.885,60.452 L144.776,63.232 L200.745,105.623 L203.357,105.92 L256,75.467" fill="#70B540"></path>
+		<path d="M203.357,105.92 L142.885,60.452 L143.325,64.476 L185.82,193.514 L188.77,195.826 L203.357,105.92" fill="#006D69"></path>
+		<path d="M188.77,195.826 L127.997,218.778 L142.885,60.452 L188.77,195.826" fill="#008CA9"></path>
+		<path d="M127.982,38.006 L128.293,37.41 L128.363,15.357 L127.982,14.868 L37.21,0 L38.792,1.402 L124.61,36.965 L127.982,38.006" fill="#70B540"></path>
+		<path d="M0,7.569 L113.115,60.452 L110.042,61.695 L3.018,75.98 L0,75.467 L0,7.569" fill="#008CA9"></path>
+		<path d="M127.982,38.006 L127.982,14.868 L218.79,0 L217.208,1.402 L131.39,36.965 L127.982,38.006" fill="#006D69"></path>
+		<path d="M127.854,38.006 L37.21,0 L0,7.569 L127.854,38.006" fill="#C5CF21"></path>
+		<path d="M0,75.467 L113.115,60.452 L111.224,63.232 L55.255,105.623 L52.643,105.92 L0,75.467" fill="#006D69"></path>
+		<path d="M52.643,105.92 L113.115,60.452 L112.675,64.476 L70.18,193.514 L67.229,195.826 L52.643,105.92" fill="#C5CF21"></path>
+		<path d="M67.229,195.826 L127.997,218.778 L113.115,60.452 L67.229,195.826" fill="#70B540"></path>
+		<path d="M128.146,38.006 L218.79,0 L256,7.569 L128.146,38.006" fill="#008CA9"></path>
+	</g>
+    </svg>
+  )
+);
+
+Testlodge.displayName = "Testlodge";
+
+export const TestlodgeMetadata = {
+  id: "testlodge",
+  baseId: "testlodge",
+  variant: "default",
+  name: "Testlodge",
+  category: "aliimam",
+  tags: [],
+  viewBox: "0 0 256 219",
+} as const;
+
+export default Testlodge;

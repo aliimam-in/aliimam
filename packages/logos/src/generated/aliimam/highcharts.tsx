@@ -1,0 +1,49 @@
+/**
+ * Auto-generated logo component: Highcharts (default)
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface HighchartsProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string;
+}
+
+export const Highcharts = React.forwardRef<SVGSVGElement, HighchartsProps>(
+  ({ size = 24, className = '', ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 256 243"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <g>
+		<path d="M178.6,119.7 L176.8,116.6 L116.5,96.9 L114.8,98.9 L112.2,99.5 L58.6,224.7 L59.3,228.5 L188.4,174 L189.5,171.8 L180.5,121.8 L178.6,119.7 Z" fill="#78758C"></path>
+		<path d="M59.3,228.5 L114.8,98.9 L0.8,61.7 L59.3,228.5 Z" fill="#A3EDBA"></path>
+		<path d="M157.1,0.3 L114.8,98.9 L178.6,119.7 L178.9,118.9 L157.5,1.2 L157.1,0.3 Z" fill="#8087E8"></path>
+		<path d="M178.6,119.7 L188.4,174 L192.9,173.9 L254,147.4 L256.7,145.1 L253.5,142.4 L181.6,118.2 L178.6,119.7 Z" fill="#30426B"></path>
+		<path d="M188.4,174 L200.9,243.4 L256.7,145.1 L188.4,174 Z" fill="#6699A1"></path>
+		<path d="M157.1,0.3 L178.6,119.7 L256.7,145.1 L157.1,0.3 Z" fill="#6699A1"></path>
+	</g>
+    </svg>
+  )
+);
+
+Highcharts.displayName = "Highcharts";
+
+export const HighchartsMetadata = {
+  id: "highcharts",
+  baseId: "highcharts",
+  variant: "default",
+  name: "Highcharts",
+  category: "aliimam",
+  tags: [],
+  viewBox: "0 0 256 243",
+} as const;
+
+export default Highcharts;

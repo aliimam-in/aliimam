@@ -1,0 +1,45 @@
+/**
+ * Auto-generated logo component: Dreamhost (default)
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface DreamhostProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string;
+}
+
+export const Dreamhost = React.forwardRef<SVGSVGElement, DreamhostProps>(
+  ({ size = 24, className = '', ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 256 253"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <g>
+		<path d="M252.689635,189.792267 C231.947257,201.365268 207.866513,207.789767 182.267431,207.26552 C106.805531,205.747182 46.8484845,144.588324 48.3272568,70.6991649 C48.8564496,45.604547 56.3591172,22.3151194 69.0449065,2.50253777 C28.643264,25.0599978 1.0312712,67.2421019 0.0272886518,116.071263 C-1.46632085,189.970313 58.5401827,251.124225 134.021865,252.647509 C183.859955,253.661383 228.040132,228.393665 252.689635,189.792267" fill="#1F3244"></path>
+		<path d="M180.943424,191.374899 C181.779252,191.389737 182.620025,191.404574 183.460799,191.404574 C203.154683,191.404574 222.581498,186.528087 239.851976,177.348818 C250.030282,159.900294 255.955263,139.647543 255.955263,117.96053 C255.955263,52.8253082 203.293164,0 138.316205,0 C117.831004,0 98.5772896,5.27214479 81.8112756,14.5058168 C70.9801339,31.9345581 65.0106416,51.9746432 64.5754177,72.5587582 C63.2895287,136.739455 115.48673,190.05439 180.943424,191.374899" fill="#3E95BE"></path>
+	</g>
+    </svg>
+  )
+);
+
+Dreamhost.displayName = "Dreamhost";
+
+export const DreamhostMetadata = {
+  id: "dreamhost",
+  baseId: "dreamhost",
+  variant: "default",
+  name: "Dreamhost",
+  category: "aliimam",
+  tags: [],
+  viewBox: "0 0 256 253",
+} as const;
+
+export default Dreamhost;

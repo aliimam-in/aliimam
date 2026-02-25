@@ -1,0 +1,46 @@
+/**
+ * Auto-generated logo component: Arrow Right Circle Filled (default)
+ * Category: filled
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface ArrowRightCircleFilledLogoProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string;
+  strokeWidth?: number;
+}
+
+export const ArrowRightCircleFilledLogo = React.forwardRef<SVGSVGElement, ArrowRightCircleFilledLogoProps>(
+  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
+      <path d="M5 15a3 3 0 0 1 -3 -3l.005 -.176a3 3 0 0 1 5.825 -.824h10.756l-1.292 -1.293a1 1 0 0 1 -.083 -1.32l.083 -.094a1 1 0 0 1 1.414 0l3 3l.097 .112l.071 .11l.031 .062l.034 .081l.024 .076l.03 .148l.005 .118l-.004 .085l-.016 .116l-.03 .111l-.044 .111l-.052 .098l-.074 .104l-.073 .082l-3 3a1 1 0 0 1 -1.414 -1.414l1.292 -1.293h-10.756a3 3 0 0 1 -2.829 2" />
+    </svg>
+  )
+);
+
+ArrowRightCircleFilledLogo.displayName = "ArrowRightCircleFilledLogo";
+
+export const ArrowRightCircleFilledLogoMetadata = {
+  id: "arrow-right-circle-filled",
+  baseId: "arrow-right-circle-filled",
+  variant: "default",
+  name: "Arrow Right Circle Filled",
+  category: "filled",
+  tags: [],
+  viewBox: "0 0 24 24",
+} as const;
+
+export default ArrowRightCircleFilledLogo;

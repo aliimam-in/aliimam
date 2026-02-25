@@ -13,8 +13,7 @@
         "CLOUDINARY_API_KEY",
         "CLOUDINARY_API_SECRET",
         "CLOUDINARY_CLOUD_NAME",
-        "NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME",
-        "FIGMA_ACCESS_TOKEN"
+        "NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME"
       ],
       "outputs": ["dist/**", ".next/**"]
     },

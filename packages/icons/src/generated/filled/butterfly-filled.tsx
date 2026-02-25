@@ -1,0 +1,48 @@
+/**
+ * Auto-generated logo component: Butterfly Filled (default)
+ * Category: filled
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface ButterflyFilledLogoProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string;
+  strokeWidth?: number;
+}
+
+export const ButterflyFilledLogo = React.forwardRef<SVGSVGElement, ButterflyFilledLogoProps>(
+  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
+      <path d="M17.117 6.244l.228 .076a5.5 5.5 0 0 1 1.24 9.738l-.063 .039l.02 .034a4 4 0 0 1 .101 3.533l-.093 .19a4 4 0 0 1 -5.55 1.608v-14.857a5.5 5.5 0 0 1 4.118 -.36" />
+  <path d="M8.505 6c.885 0 1.736 .21 2.495 .597v14.87a4 4 0 0 1 -1.012 .41l-.196 .045a4 4 0 0 1 -4.424 -5.587l.118 -.238l-.035 -.023a5.5 5.5 0 0 1 -2.397 -5.258l.034 -.233a5.5 5.5 0 0 1 5.417 -4.583" />
+  <path d="M14.445 2.168a1 1 0 0 1 1.11 1.664l-3 2a1 1 0 0 1 -1.11 0l-3 -2a1 1 0 0 1 1.11 -1.664l2.444 1.63z" />
+    </svg>
+  )
+);
+
+ButterflyFilledLogo.displayName = "ButterflyFilledLogo";
+
+export const ButterflyFilledLogoMetadata = {
+  id: "butterfly-filled",
+  baseId: "butterfly-filled",
+  variant: "default",
+  name: "Butterfly Filled",
+  category: "filled",
+  tags: [],
+  viewBox: "0 0 24 24",
+} as const;
+
+export default ButterflyFilledLogo;

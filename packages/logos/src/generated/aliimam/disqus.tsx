@@ -1,0 +1,44 @@
+/**
+ * Auto-generated logo component: Disqus (default)
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface DisqusProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string;
+}
+
+export const Disqus = React.forwardRef<SVGSVGElement, DisqusProps>(
+  ({ size = 24, className = '', ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 256 249"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <g>
+        <path d="M132.668777,248.633094 C102.247137,248.633094 74.4315396,237.516432 52.9256978,219.126791 L0,226.35741 L20.4468489,175.892259 C13.3230504,160.173122 9.3265036,142.722763 9.3265036,124.316547 C9.3265036,55.6625036 64.5488345,0 132.668777,0 C200.783194,0 256,55.6625036 256,124.316547 C256,192.983482 200.785036,248.633094 132.668777,248.633094 L132.668777,248.633094 Z M200.015194,123.961094 L200.015194,123.614849 C200.015194,87.7416978 174.717237,62.1619568 131.097784,62.1619568 L83.9864173,62.1619568 L83.9864173,186.478504 L130.39977,186.478504 C174.358101,186.480345 200.015194,159.832403 200.015194,123.961094 L200.015194,123.961094 L200.015194,123.961094 Z M131.617151,155.935309 L117.837353,155.935309 L117.837353,92.7143597 L131.617151,92.7143597 C151.855885,92.7143597 165.289439,104.252777 165.289439,124.152633 L165.289439,124.498878 C165.289439,144.566331 151.855885,155.935309 131.617151,155.935309 L131.617151,155.935309 Z" fill="#2E9FFF"></path>
+    </g>
+    </svg>
+  )
+);
+
+Disqus.displayName = "Disqus";
+
+export const DisqusMetadata = {
+  id: "disqus",
+  baseId: "disqus",
+  variant: "default",
+  name: "Disqus",
+  category: "aliimam",
+  tags: [],
+  viewBox: "0 0 256 249",
+} as const;
+
+export default Disqus;

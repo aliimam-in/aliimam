@@ -7,7 +7,7 @@ import {
   TooltipContent,
   TooltipTrigger,
 } from "@/registry/aliimam/ui/tooltip"
-import { useLogoFilter } from "./icon-filter-context"
+import { useIconFilter } from "./icon-filter-context"
 import { Icons } from "./icons"
 
 interface LogoGridProps {
@@ -16,26 +16,34 @@ interface LogoGridProps {
 }
 
 export function IconGrid({ selectedLogo, onSelectLogo }: LogoGridProps) {
-  const { query, category } = useLogoFilter()
+  const { query, category, variantTab } = useIconFilter()
 
   // baseId ke hisaab se unique logos flatten karo
   const allEntries = useMemo(() => {
     const seen = new Set<string>()
     const result: { baseId: string; category: string; tags: string[] }[] = []
-
+  
     Object.entries(allLogos).forEach(([cat, logos]) => {
       // eslint-disable-next-line @typescript-eslint/no-explicit-any
       Object.values(logos).forEach((entry: any) => {
-        const { baseId, tags } = entry.metadata
-        if (!seen.has(`${cat}/${baseId}`)) {
-          seen.add(`${cat}/${baseId}`)
+        const { baseId, tags, variant } = entry.metadata
+  
+        // variantTab ke hisaab se filter karo
+        // icon tab → sirf default variant wale baseIds
+        // wordmark tab → sirf _wordmark variant wale baseIds
+        const isWordmark = baseId.includes("filled") || variant.includes("filled")
+        if (variantTab === "filled" && !isWordmark) return
+        if (variantTab === "outline" && isWordmark) return
+  
+        if (!seen.has(baseId)) {
+          seen.add(baseId)
           result.push({ baseId, category: cat, tags: tags ?? [] })
         }
       })
     })
-
+  
     return result
-  }, [])
+  }, [variantTab])
 
   const filtered = useMemo(() => {
     const q = query.toLowerCase()

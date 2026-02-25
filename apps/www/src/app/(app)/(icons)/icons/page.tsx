@@ -9,17 +9,34 @@ import {
 import { IconSearch } from "@/src/components/icons/icon-search"
 import { IconsNav } from "@/src/components/icons/icons-nav"
 import { IconGrid } from "@/src/components/icons/main-icons"
+import { useIconFilter } from "@/src/components/icons/icon-filter-context"
+
+import { Tabs, TabsList, TabsTrigger } from "@/registry/aliimam/ui/tabs"
 
 export default function Page() {
   const [selectedLogo, setSelectedLogo] = useState<string | null>(null)
+  const { variantTab, setVariantTab } = useIconFilter()
 
   return (
     <div>
       <div className="bg-background sticky top-14 z-40 flex h-14 w-full items-center gap-2 border-b px-4">
         <IconsNav />
-        <div className="mx-auto hidden md:block">
+        <div className="ml-auto hidden md:block">
           <IconSearch totalCount={1701} />
         </div>
+        <Tabs
+          className="ml-auto"
+          value={variantTab}
+          onValueChange={(v) => {
+            setVariantTab(v as "outline" | "filled")
+            setSelectedLogo(null) // selection clear karo tab switch pe
+          }}
+        >
+          <TabsList>
+            <TabsTrigger value="outline">Outline</TabsTrigger>
+            <TabsTrigger value="filled">Filled</TabsTrigger>
+          </TabsList>
+        </Tabs>
       </div>
 
       <div className="flex h-full w-full">

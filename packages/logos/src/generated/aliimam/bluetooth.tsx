@@ -1,0 +1,44 @@
+/**
+ * Auto-generated logo component: Bluetooth (default)
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface BluetoothProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string;
+}
+
+export const Bluetooth = React.forwardRef<SVGSVGElement, BluetoothProps>(
+  ({ size = 24, className = '', ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 256 348"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <g>
+        <path d="M142.029889,85.6873567 L170.723389,114.380856 L142.047492,143.050885 L142.029889,85.6873567 L142.029889,85.6873567 L142.029889,85.6873567 Z M142.029889,261.333822 L170.723389,232.646191 L142.047492,203.970294 L142.029889,261.333822 L142.029889,261.333822 L142.029889,261.333822 Z M111.394151,173.51059 L49.3657284,111.323737 L67.3446411,93.3506922 L116.757312,142.786834 L116.757312,24.3161273 L206.622536,114.175484 L147.28743,173.51059 L206.634272,232.863299 L116.76318,322.722655 L116.76318,204.24608 L67.3387733,253.68809 L49.3598606,235.70331 L111.394151,173.51059 L111.394151,173.51059 L111.394151,173.51059 Z M128.011736,347.04465 C203.788393,347.04465 256,311.04575 256,173.516457 C256,35.993032 203.788393,-2.84217094e-14 128.011736,-2.84217094e-14 C52.2409462,-2.84217094e-14 2.84217094e-14,35.9988998 2.84217094e-14,173.516457 C7.57512692e-15,311.04575 52.2350784,347.04465 128.011736,347.04465 L128.011736,347.04465 L128.011736,347.04465 Z" fill="#0060A9"></path>
+    </g>
+    </svg>
+  )
+);
+
+Bluetooth.displayName = "Bluetooth";
+
+export const BluetoothMetadata = {
+  id: "bluetooth",
+  baseId: "bluetooth",
+  variant: "default",
+  name: "Bluetooth",
+  category: "aliimam",
+  tags: [],
+  viewBox: "0 0 256 348",
+} as const;
+
+export default Bluetooth;

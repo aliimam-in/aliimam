@@ -1,0 +1,45 @@
+/**
+ * Auto-generated logo component: Buck (default)
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface BuckProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string;
+}
+
+export const Buck = React.forwardRef<SVGSVGElement, BuckProps>(
+  ({ size = 24, className = '', ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 256 223"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <g fill="#4A69A5">
+		<path d="M72.4263785,0 L53.8655403,0 L53.8655403,52.5075627 L76.5003113,75.1423337 L49.3407589,75.1423337 L19.6906755,45.4922503 L19.6906755,0 L0,0 L0,53.8655403 L40.2857641,94.1540204 L94.604869,94.1540204 L114.07012,113.616556 L62.0134061,113.616556 L105.922254,158.883382 L41.6437417,222.70833 L66.994468,222.70833 L131.270265,157.978969 L106.826668,133.535371 L236.741671,133.535371 L236.741671,141.683237 L180.611024,175.179113 L133.535371,222.70833 L160.241359,222.70833 L192.379258,190.116867 L255.753357,152.093494 L255.753357,113.616556 L196.002342,113.616556 L175.632678,93.2468913 L198.718297,70.1612718 L198.718297,18.5581222 L179.47847,18.5581222 L179.47847,61.5625575 L160.694924,80.1206797 L143.945628,62.5810407 L143.945628,18.5581222 L125.838354,18.5581222 L125.838354,71.0684008 L168.174665,113.616556 L142.343214,113.616556 L72.4263785,44.359697 L72.4263785,0"></path>
+		<path d="M170.651616,145.303605 L145.303605,145.303605 L157.525404,158.429817 L170.651616,145.303605"></path>
+	</g>
+    </svg>
+  )
+);
+
+Buck.displayName = "Buck";
+
+export const BuckMetadata = {
+  id: "buck",
+  baseId: "buck",
+  variant: "default",
+  name: "Buck",
+  category: "aliimam",
+  tags: [],
+  viewBox: "0 0 256 223",
+} as const;
+
+export default Buck;

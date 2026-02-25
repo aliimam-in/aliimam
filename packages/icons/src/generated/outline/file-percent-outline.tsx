@@ -1,0 +1,50 @@
+/**
+ * Auto-generated logo component: File Percent Outline (default)
+ * Category: outline
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface FilePercentOutlineLogoProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string;
+  strokeWidth?: number;
+}
+
+export const FilePercentOutlineLogo = React.forwardRef<SVGSVGElement, FilePercentOutlineLogoProps>(
+  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
+      <path d="M10 17l4 -4" />
+  <path d="M14 3v4a1 1 0 0 0 1 1h4" />
+  <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2" />
+  <path d="M10 13h.01" />
+  <path d="M14 17h.01" />
+    </svg>
+  )
+);
+
+FilePercentOutlineLogo.displayName = "FilePercentOutlineLogo";
+
+export const FilePercentOutlineLogoMetadata = {
+  id: "file-percent-outline",
+  baseId: "file-percent-outline",
+  variant: "default",
+  name: "File Percent Outline",
+  category: "outline",
+  tags: [],
+  viewBox: "0 0 24 24",
+} as const;
+
+export default FilePercentOutlineLogo;

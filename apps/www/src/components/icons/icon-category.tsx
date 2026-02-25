@@ -2,10 +2,10 @@
 
 import { useEffect, useMemo, useState } from "react"
 import { allLogos } from "../../../../../packages/icons/src/generated"
-import { useLogoFilter } from "./icon-filter-context"
+import { useIconFilter } from "./icon-filter-context"
 
 export function IconCategoryTabs() {
-  const { category, setCategory } = useLogoFilter()
+  const { category, setCategory } = useIconFilter()
   const [currentHash, setCurrentHash] = useState<string | null>(null)
 
   const categoriesWithCount = useMemo(() => {

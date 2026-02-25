@@ -1,0 +1,44 @@
+/**
+ * Auto-generated logo component: Calibre Icon (default)
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface CalibreIconProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string;
+}
+
+export const CalibreIcon = React.forwardRef<SVGSVGElement, CalibreIconProps>(
+  ({ size = 24, className = '', ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 256 283"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <g>
+        <path d="M28.4229773,222.249943 C76.4470616,252.109477 113.00237,214.038571 113.00237,214.038571 C99.938824,260.716714 69.9096333,269.222157 69.9096333,269.222157 L76.6845806,282.760742 L179.315419,282.760742 L186.101677,269.222157 C186.101677,269.222157 156.061176,260.716714 143.00894,214.02726 C143.00894,214.02726 179.552938,252.109477 227.577023,222.238632 C275.601107,192.390409 275.092138,76.4585045 128,2.84217094e-14 C-19.0921378,76.4358837 -19.6011071,192.379098 28.4229773,222.249943 Z" fill="#3057F4"></path>
+    </g>
+    </svg>
+  )
+);
+
+CalibreIcon.displayName = "CalibreIcon";
+
+export const CalibreIconMetadata = {
+  id: "calibre-icon",
+  baseId: "calibre-icon",
+  variant: "default",
+  name: "Calibre Icon",
+  category: "aliimam",
+  tags: [],
+  viewBox: "0 0 256 283",
+} as const;
+
+export default CalibreIcon;

@@ -421,7 +421,7 @@ function toComponentName(id: string): string {
       id
         .split("-")
         .map((p: string) => p.charAt(0).toUpperCase() + p.slice(1))
-        .join("") + "Logo"
+        .join("")
     );
   }
   const underscoreIndex = id.indexOf("_");

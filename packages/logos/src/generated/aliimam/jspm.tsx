@@ -1,0 +1,49 @@
+/**
+ * Auto-generated logo component: Jspm (default)
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface JspmProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string;
+}
+
+export const Jspm = React.forwardRef<SVGSVGElement, JspmProps>(
+  ({ size = 24, className = '', ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 256 298"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <g>
+        <polygon fill="#FEEA5F" points="210.74066 74.864668 127.883281 122.741921 44.9589934 74.8797764 127.873568 26.9938898"></polygon>
+        <polygon fill="#E0CC41" points="104.249828 258.239798 22.0107834 210.774618 22.0107834 115.121688 104.249828 162.568535"></polygon>
+        <polygon fill="#EFDB50" points="150.050689 161.648756 234.903969 112.660661 234.903969 211.846821 150.050689 260.818142"></polygon>
+        <path d="M50.4350236,74.8789921 L127.881071,119.579213 L205.26463,74.8648819 L127.872,30.1565984 C110.779801,40.0277165 84.9674751,54.9351811 50.4350236,74.8789921 Z M127.658331,0 L255.987906,74.6985827 L194.749306,122.741921 L126.985071,148.646299 L63.420271,127.884353 L0,74.6885039 L127.658331,0 Z" fill="#C3C2C2"></path>
+        <path d="M154.239093,253.505008 L230.715565,209.368189 L230.715565,119.973795 L154.239093,164.125732 L154.239093,253.505008 Z M126.928731,148.646299 L255.987906,74.8679055 L255.987906,224.205102 L126.928731,297.911911 L120.381865,224.205102 L126.928731,148.646299 Z" fill="#B3B3B3"></path>
+        <path d="M101.558526,164.146696 L24.702085,119.805279 L24.702085,209.197657 L101.558526,253.556208 L101.558526,164.146696 Z M1.42108547e-14,74.8679055 L126.985172,148.646602 L126.928731,297.910728 L1.42108547e-14,224.770016 L1.42108547e-14,74.8679055 Z" fill="#A5A5A4"></path>
+    </g>
+    </svg>
+  )
+);
+
+Jspm.displayName = "Jspm";
+
+export const JspmMetadata = {
+  id: "jspm",
+  baseId: "jspm",
+  variant: "default",
+  name: "Jspm",
+  category: "aliimam",
+  tags: [],
+  viewBox: "0 0 256 298",
+} as const;
+
+export default Jspm;

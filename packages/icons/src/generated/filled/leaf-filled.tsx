@@ -1,0 +1,46 @@
+/**
+ * Auto-generated logo component: Leaf Filled (default)
+ * Category: filled
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface LeafFilledLogoProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string;
+  strokeWidth?: number;
+}
+
+export const LeafFilledLogo = React.forwardRef<SVGSVGElement, LeafFilledLogoProps>(
+  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
+      <path d="M3.055 14.328l-.018 -.168l-.004 -.043a11 11 0 0 1 -.047 -1.12c.018 -6.29 4.29 -9.997 13 -9.997h4.014a1 1 0 0 1 1 1l-.002 2.057c-.498 8.701 -4.74 12.943 -11.998 12.943h-2.631a16 16 0 0 0 -.375 2.11a1 1 0 1 1 -1.988 -.22q .174 -1.568 .58 -2.947l-.118 -.146l-.208 -.28l-.157 -.229l-.182 -.293l-.098 -.171l-.065 -.122a6 6 0 0 1 -.397 -.941l-.072 -.237l-.085 -.327l-.057 -.268l-.043 -.242zm8.539 -4.242c-2.845 1.265 -4.854 3.13 -6.108 5.583q .098 .2 .218 .4l.185 .281l.07 .097q .12 .164 .258 .329l.197 .224h.649c1.037 -2.271 2.777 -3.946 5.343 -5.086a1 1 0 0 0 -.812 -1.828" />
+    </svg>
+  )
+);
+
+LeafFilledLogo.displayName = "LeafFilledLogo";
+
+export const LeafFilledLogoMetadata = {
+  id: "leaf-filled",
+  baseId: "leaf-filled",
+  variant: "default",
+  name: "Leaf Filled",
+  category: "filled",
+  tags: [],
+  viewBox: "0 0 24 24",
+} as const;
+
+export default LeafFilledLogo;

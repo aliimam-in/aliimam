@@ -1,0 +1,57 @@
+/**
+ * Auto-generated logo component: Snowflake Outline (default)
+ * Category: outline
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface SnowflakeOutlineLogoProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string;
+  strokeWidth?: number;
+}
+
+export const SnowflakeOutlineLogo = React.forwardRef<SVGSVGElement, SnowflakeOutlineLogoProps>(
+  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
+      <path d="M10 4l2 1l2 -1" />
+  <path d="M12 2v6.5l3 1.72" />
+  <path d="M17.928 6.268l.134 2.232l1.866 1.232" />
+  <path d="M20.66 7l-5.629 3.25l.01 3.458" />
+  <path d="M19.928 14.268l-1.866 1.232l-.134 2.232" />
+  <path d="M20.66 17l-5.629 -3.25l-2.99 1.738" />
+  <path d="M14 20l-2 -1l-2 1" />
+  <path d="M12 22v-6.5l-3 -1.72" />
+  <path d="M6.072 17.732l-.134 -2.232l-1.866 -1.232" />
+  <path d="M3.34 17l5.629 -3.25l-.01 -3.458" />
+  <path d="M4.072 9.732l1.866 -1.232l.134 -2.232" />
+  <path d="M3.34 7l5.629 3.25l2.99 -1.738" />
+    </svg>
+  )
+);
+
+SnowflakeOutlineLogo.displayName = "SnowflakeOutlineLogo";
+
+export const SnowflakeOutlineLogoMetadata = {
+  id: "snowflake-outline",
+  baseId: "snowflake-outline",
+  variant: "default",
+  name: "Snowflake Outline",
+  category: "outline",
+  tags: [],
+  viewBox: "0 0 24 24",
+} as const;
+
+export default SnowflakeOutlineLogo;

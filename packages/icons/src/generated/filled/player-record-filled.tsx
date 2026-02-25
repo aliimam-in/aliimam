@@ -1,0 +1,46 @@
+/**
+ * Auto-generated logo component: Player Record Filled (default)
+ * Category: filled
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface PlayerRecordFilledLogoProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string;
+  strokeWidth?: number;
+}
+
+export const PlayerRecordFilledLogo = React.forwardRef<SVGSVGElement, PlayerRecordFilledLogoProps>(
+  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
+      <path d="M8 5.072a8 8 0 1 1 -3.995 7.213l-.005 -.285l.005 -.285a8 8 0 0 1 3.995 -6.643z" />
+    </svg>
+  )
+);
+
+PlayerRecordFilledLogo.displayName = "PlayerRecordFilledLogo";
+
+export const PlayerRecordFilledLogoMetadata = {
+  id: "player-record-filled",
+  baseId: "player-record-filled",
+  variant: "default",
+  name: "Player Record Filled",
+  category: "filled",
+  tags: [],
+  viewBox: "0 0 24 24",
+} as const;
+
+export default PlayerRecordFilledLogo;

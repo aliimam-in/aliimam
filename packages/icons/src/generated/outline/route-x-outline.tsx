@@ -1,0 +1,50 @@
+/**
+ * Auto-generated logo component: Route X Outline (default)
+ * Category: outline
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface RouteXOutlineLogoProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string;
+  strokeWidth?: number;
+}
+
+export const RouteXOutlineLogo = React.forwardRef<SVGSVGElement, RouteXOutlineLogoProps>(
+  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
+      <path d="M3 17l4 4" />
+  <path d="M7 17l-4 4" />
+  <path d="M17 3l4 4" />
+  <path d="M21 3l-4 4" />
+  <path d="M11 19h5.5a3.5 3.5 0 0 0 0 -7h-8a3.5 3.5 0 0 1 0 -7h4.5" />
+    </svg>
+  )
+);
+
+RouteXOutlineLogo.displayName = "RouteXOutlineLogo";
+
+export const RouteXOutlineLogoMetadata = {
+  id: "route-x-outline",
+  baseId: "route-x-outline",
+  variant: "default",
+  name: "Route X Outline",
+  category: "outline",
+  tags: [],
+  viewBox: "0 0 24 24",
+} as const;
+
+export default RouteXOutlineLogo;

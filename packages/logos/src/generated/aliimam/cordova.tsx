@@ -1,0 +1,44 @@
+/**
+ * Auto-generated logo component: Cordova (default)
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface CordovaProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string;
+}
+
+export const Cordova = React.forwardRef<SVGSVGElement, CordovaProps>(
+  ({ size = 24, className = '', ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 256 245"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <g>
+        <path d="M232.727273,244.363636 L191.272727,244.363636 L194.181818,209.454545 L173.818182,209.454545 L170.909091,244.363636 L85.0909091,244.363636 L82.1818182,209.454545 L61.8181818,209.454545 L64.7272727,244.363636 L23.2727273,244.363636 L0,93.0909091 L58.1818182,0 L197.818182,0 L256,93.0909091 L232.727273,244.363636 Z M186.181818,46.5454545 L148.778909,46.5454545 L151.272727,64 L104.727273,64 L107.221091,46.5454545 L69.8181818,46.5454545 L46.5454545,93.0909091 L58.1818182,186.181818 L197.818182,186.181818 L209.454545,93.0909091 L186.181818,46.5454545 Z M165.818182,155.287273 C162.605091,155.287273 160,145.597091 160,133.643636 C160,121.690182 162.605091,112 165.818182,112 C169.031273,112 171.636364,121.690182 171.636364,133.643636 C171.636364,145.597091 169.031273,155.287273 165.818182,155.287273 Z M92.3636364,157.090909 C89.1505455,157.090909 86.5454545,147.400727 86.5454545,135.447273 C86.5454545,123.493818 89.1505455,113.803636 92.3636364,113.803636 C95.5767273,113.803636 98.1818182,123.493818 98.1818182,135.447273 C98.1818182,147.400727 95.5767273,157.090909 92.3636364,157.090909 Z" fill="#444444"></path>
+    </g>
+    </svg>
+  )
+);
+
+Cordova.displayName = "Cordova";
+
+export const CordovaMetadata = {
+  id: "cordova",
+  baseId: "cordova",
+  variant: "default",
+  name: "Cordova",
+  category: "aliimam",
+  tags: [],
+  viewBox: "0 0 256 245",
+} as const;
+
+export default Cordova;

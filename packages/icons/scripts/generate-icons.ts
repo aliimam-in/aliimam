@@ -384,6 +384,7 @@ export default ${componentName};
   console.log(`[v0] Generated category index: ${category}/index.tsx (${categoryLogos.length} logos)`);
 }
 
+
 // ------------------------
 // Generate main index.tsx
 // ------------------------

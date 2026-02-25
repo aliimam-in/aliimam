@@ -1,0 +1,44 @@
+/**
+ * Auto-generated logo component: Perplexity Icon (default)
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface PerplexityIconProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string;
+}
+
+export const PerplexityIcon = React.forwardRef<SVGSVGElement, PerplexityIconProps>(
+  ({ size = 24, className = '', ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 256 298"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <g>
+        <path d="M34.8310588,-2.84217094e-14 L119.52,78.0282353 L119.52,78.0103529 L119.52,0.180047059 L136.005647,0.180047059 L136.005647,78.3774118 L221.073882,-2.84217094e-14 L221.073882,88.9637647 L256,88.9637647 L256,217.285647 L221.181176,217.285647 L221.181176,296.503529 L136.005647,221.670588 L136.005647,297.362824 L119.52,297.362824 L119.52,222.904471 L34.9270588,297.411765 L34.9270588,217.285647 L0,217.285647 L0,88.9637647 L34.8310588,88.9637647 L34.8310588,-2.84217094e-14 Z M107.091765,105.248 L16.4855529,105.248 L16.4855529,201.001412 L34.9063529,201.001412 L34.9063529,170.797176 L107.091765,105.248 Z M51.4117647,178.022588 L51.4117647,261.074824 L119.52,201.087059 L119.52,116.160941 L51.4117647,178.022588 Z M136.48,200.293647 L136.48,116.080941 L204.608,177.946353 L204.608,217.285647 L204.695529,217.285647 L204.695529,260.226824 L136.48,200.293647 Z M221.181176,201.001412 L239.514353,201.001412 L239.514353,105.248 L149.583059,105.248 L221.181176,170.118588 L221.181176,201.001412 Z M204.588235,88.9637647 L204.588235,37.4572235 L148.684235,88.9637647 L204.588235,88.9637647 Z M107.219765,88.9637647 L51.3167059,88.9637647 L51.3167059,37.4572235 L107.219765,88.9637647 Z" fill="#3F7E8B"></path>
+    </g>
+    </svg>
+  )
+);
+
+PerplexityIcon.displayName = "PerplexityIcon";
+
+export const PerplexityIconMetadata = {
+  id: "perplexity-icon",
+  baseId: "perplexity-icon",
+  variant: "default",
+  name: "Perplexity Icon",
+  category: "aliimam",
+  tags: [],
+  viewBox: "0 0 256 298",
+} as const;
+
+export default PerplexityIcon;
