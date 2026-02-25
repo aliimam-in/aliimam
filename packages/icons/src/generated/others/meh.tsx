@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: Meh (default)
- * Category: others
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface MehLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface MehProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const MehLogo = React.forwardRef<SVGSVGElement, MehLogoProps>(
+export const Meh = React.forwardRef<SVGSVGElement, MehProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <circle cx="12" cy="12" r="10" />
   <line x1="8" x2="16" y1="15" y2="15" />
   <line x1="9" x2="9.01" y1="9" y2="9" />
@@ -33,17 +17,6 @@ export const MehLogo = React.forwardRef<SVGSVGElement, MehLogoProps>(
     </svg>
   )
 );
-
-MehLogo.displayName = "MehLogo";
-
-export const MehLogoMetadata = {
-  id: "meh",
-  baseId: "meh",
-  variant: "default",
-  name: "Meh",
-  category: "others",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default MehLogo;
+Meh.displayName = "Meh";
+export const MehMetadata = { id: "meh", baseId: "meh", variant: "default", name: "Meh", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export default Meh;

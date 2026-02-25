@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: Croissant (default)
- * Category: others
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface CroissantLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface CroissantProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const CroissantLogo = React.forwardRef<SVGSVGElement, CroissantLogoProps>(
+export const Croissant = React.forwardRef<SVGSVGElement, CroissantProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="M10.2 18H4.774a1.5 1.5 0 0 1-1.352-.97 11 11 0 0 1 .132-6.487" />
   <path d="M18 10.2V4.774a1.5 1.5 0 0 0-.97-1.352 11 11 0 0 0-6.486.132" />
   <path d="M18 5a4 3 0 0 1 4 3 2 2 0 0 1-2 2 10 10 0 0 0-5.139 1.42" />
@@ -34,17 +18,6 @@ export const CroissantLogo = React.forwardRef<SVGSVGElement, CroissantLogoProps>
     </svg>
   )
 );
-
-CroissantLogo.displayName = "CroissantLogo";
-
-export const CroissantLogoMetadata = {
-  id: "croissant",
-  baseId: "croissant",
-  variant: "default",
-  name: "Croissant",
-  category: "others",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default CroissantLogo;
+Croissant.displayName = "Croissant";
+export const CroissantMetadata = { id: "croissant", baseId: "croissant", variant: "default", name: "Croissant", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export default Croissant;

@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: Ship Wheel (default)
- * Category: others
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface ShipWheelLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface ShipWheelProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const ShipWheelLogo = React.forwardRef<SVGSVGElement, ShipWheelLogoProps>(
+export const ShipWheel = React.forwardRef<SVGSVGElement, ShipWheelProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <circle cx="12" cy="12" r="8" />
   <path d="M12 2v7.5" />
   <path d="m19 5-5.23 5.23" />
@@ -39,17 +23,6 @@ export const ShipWheelLogo = React.forwardRef<SVGSVGElement, ShipWheelLogoProps>
     </svg>
   )
 );
-
-ShipWheelLogo.displayName = "ShipWheelLogo";
-
-export const ShipWheelLogoMetadata = {
-  id: "ship-wheel",
-  baseId: "ship-wheel",
-  variant: "default",
-  name: "Ship Wheel",
-  category: "others",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default ShipWheelLogo;
+ShipWheel.displayName = "ShipWheel";
+export const ShipWheelMetadata = { id: "ship-wheel", baseId: "ship-wheel", variant: "default", name: "Ship Wheel", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export default ShipWheel;

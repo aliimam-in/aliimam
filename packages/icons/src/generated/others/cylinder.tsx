@@ -1,47 +1,20 @@
-/**
- * Auto-generated logo component: Cylinder (default)
- * Category: others
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface CylinderLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface CylinderProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const CylinderLogo = React.forwardRef<SVGSVGElement, CylinderLogoProps>(
+export const Cylinder = React.forwardRef<SVGSVGElement, CylinderProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <ellipse cx="12" cy="5" rx="9" ry="3" />
   <path d="M3 5v14a9 3 0 0 0 18 0V5" />
     </svg>
   )
 );
-
-CylinderLogo.displayName = "CylinderLogo";
-
-export const CylinderLogoMetadata = {
-  id: "cylinder",
-  baseId: "cylinder",
-  variant: "default",
-  name: "Cylinder",
-  category: "others",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default CylinderLogo;
+Cylinder.displayName = "Cylinder";
+export const CylinderMetadata = { id: "cylinder", baseId: "cylinder", variant: "default", name: "Cylinder", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export default Cylinder;

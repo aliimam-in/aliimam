@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: User Round X (default)
- * Category: user
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface UserRoundXLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface UserRoundXProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const UserRoundXLogo = React.forwardRef<SVGSVGElement, UserRoundXLogoProps>(
+export const UserRoundX = React.forwardRef<SVGSVGElement, UserRoundXProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="M2 21a8 8 0 0 1 11.873-7" />
   <circle cx="10" cy="8" r="5" />
   <path d="m17 17 5 5" />
@@ -33,17 +17,6 @@ export const UserRoundXLogo = React.forwardRef<SVGSVGElement, UserRoundXLogoProp
     </svg>
   )
 );
-
-UserRoundXLogo.displayName = "UserRoundXLogo";
-
-export const UserRoundXLogoMetadata = {
-  id: "user-round-x",
-  baseId: "user-round-x",
-  variant: "default",
-  name: "User Round X",
-  category: "user",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default UserRoundXLogo;
+UserRoundX.displayName = "UserRoundX";
+export const UserRoundXMetadata = { id: "user-round-x", baseId: "user-round-x", variant: "default", name: "User Round X", category: "user", tags: [], viewBox: "0 0 24 24" } as const;
+export default UserRoundX;

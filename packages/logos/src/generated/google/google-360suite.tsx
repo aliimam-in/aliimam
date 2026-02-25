@@ -1,5 +1,6 @@
 /**
  * Auto-generated logo component: Google 360suite (default)
+ * Category: google
  * Do not edit manually
  */
 
@@ -8,7 +9,7 @@ import React from 'react';
 
 export interface Google360suiteProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
+  className?: string; 
 }
 
 export const Google360suite = React.forwardRef<SVGSVGElement, Google360suiteProps>(
@@ -18,8 +19,9 @@ export const Google360suite = React.forwardRef<SVGSVGElement, Google360suiteProp
       width={size}
       height={size}
       viewBox="0 0 256 269"
+      fill="none"
       className={className}
-      xmlns="http://www.w3.org/2000/svg"
+      xmlns="http://www.w3.org/2000/svg" 
       {...props}
     >
       <defs>

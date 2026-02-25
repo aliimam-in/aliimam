@@ -1,8 +1,7 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
+ 
 "use client"
 
 import { useState } from "react"
-import { allLogos } from "../../../../../packages/icons/src/generated"
 import { Check, ChevronDownIcon, Copy, Download } from "lucide-react"
 import { toast } from "sonner"
 
@@ -15,43 +14,41 @@ import {
 } from "@/registry/aliimam/ui/dropdown-menu"
 
 interface LogoDownloadPanelProps {
-  logoName: string
+  logoName: string // exact id e.g. "ad" or "ad_filled"
   size: number
   color: string
 }
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-function getSvgString(logoName: string, size: number, color: string): string | null {
-  for (const logos of Object.values(allLogos)) {
-    const entry = Object.values(logos).find(
-      (e: any) => e.metadata.baseId === logoName && e.metadata.variant === "default"
-    ) as any
-    if (entry) {
-      // DOM se SVG string nikalo
-      const el = document.getElementById("preview-svg")
-      if (el) {
-        const clone = el.cloneNode(true) as SVGElement
-        clone.setAttribute("width", String(size))
-        clone.setAttribute("height", String(size))
-        return new XMLSerializer().serializeToString(clone)
-      }
-    }
-  }
-  return null
+function getSvgString(size: number, color: string): string | null {
+  const el = document.getElementById("preview-svg")
+  if (!el) return null
+  const clone = el.cloneNode(true) as SVGElement
+  clone.setAttribute("width", String(size))
+  clone.setAttribute("height", String(size))
+  // color apply karo — currentColor ko actual color se replace karo
+  clone.style.color = color === "currentColor" ? "black" : color
+  // currentColor references ko actual color value se replace karo
+  const svgStr = new XMLSerializer().serializeToString(clone)
+  const resolvedColor = color === "currentColor" ? "black" : color
+  return svgStr.replace(/currentColor/g, resolvedColor)
 }
 
-function toPascalCase(name: string) {
-  return name
-    .split("-")
-    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-    .join("") + "Logo"
+// "ad_filled" → "AdFilledLogo" | "ad" → "AdLogo" | "some-icon_circle" → "SomeIconCircleLogo"
+function toPascalCase(name: string): string {
+  return (
+    name
+      .split(/[-_]/)
+      .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+      .join("") + "Logo"
+  )
 }
 
 export function IconDownloadPanel({ logoName, size, color }: LogoDownloadPanelProps) {
   const [copiedFormat, setCopiedFormat] = useState<string | null>(null)
 
   const download = (format: "svg" | "png" | "jpg") => {
-    const svgString = getSvgString(logoName, size, color)
+    const svgString = getSvgString(size, color)  // ← color pass karo
+    if (!svgString) return
     if (!svgString) return
 
     if (format === "svg") {
@@ -111,7 +108,7 @@ export function IconDownloadPanel({ logoName, size, color }: LogoDownloadPanelPr
       return
     }
 
-    const svgString = getSvgString(logoName, size, color)
+    const svgString = getSvgString(size, color) 
     if (!svgString) return
 
     if (format === "svg") {
@@ -203,11 +200,7 @@ export function IconDownloadPanel({ logoName, size, color }: LogoDownloadPanelPr
         </div>
       </div>
 
-      <Button
-        variant="outline"
-        onClick={() => copy("name")}
-        className="w-full"
-      >
+      <Button variant="outline" onClick={() => copy("name")} className="w-full">
         {copiedFormat === "name" ? (
           <Check className="mr-1 opacity-60" size={16} />
         ) : (

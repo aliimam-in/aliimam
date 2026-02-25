@@ -1,0 +1,45 @@
+/**
+ * Auto-generated logo component: Grok (default)
+ * Category: ai
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface GrokProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string; 
+}
+
+export const Grok = React.forwardRef<SVGSVGElement, GrokProps>(
+  ({ size = 24, className = '', ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg" 
+      {...props}
+    >
+      <path d="M10.0415 15.0257L17.6019 9.03456C17.9726 8.74084 18.5024 8.85541 18.679 9.31161C19.6085 11.7176 19.1932 14.609 17.3438 16.5943C15.4945 18.5795 12.9213 19.0149 10.5693 18.0233L8 19.3003C11.6852 22.0042 16.1601 21.3355 18.9565 18.3316C21.1745 15.9506 21.8615 12.705 21.2192 9.77825L21.225 9.78448C20.2935 5.48491 21.454 3.7663 23.8312 0.252059C23.8874 0.168734 23.9438 0.0854085 24 0L20.8718 3.35801V3.3476L10.0395 15.0278" fill="black"/>
+<path d="M8.24506 16.963C5.22571 14.2074 5.74629 9.94288 8.32261 7.48363C10.2277 5.66353 13.349 4.92068 16.0737 6.01273L19 4.72174C18.4728 4.35773 17.7971 3.96618 17.0218 3.69106C13.5173 2.31328 9.32168 2.99899 6.4729 5.71856C3.73265 8.33655 2.87094 12.3619 4.3507 15.7968C5.45611 18.364 3.64404 20.1799 1.8187 22.0127C1.17185 22.6624 0.522794 23.3122 0 24L8.24286 16.9651" fill="black"/>
+    </svg>
+  )
+);
+
+Grok.displayName = "Grok";
+
+export const GrokMetadata = {
+  id: "Grok",
+  baseId: "Grok",
+  variant: "default",
+  name: "Grok",
+  category: "ai",
+  tags: [],
+  viewBox: "0 0 24 24",
+} as const;
+
+export default Grok;

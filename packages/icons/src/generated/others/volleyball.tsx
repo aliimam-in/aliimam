@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: Volleyball (default)
- * Category: others
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface VolleyballLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface VolleyballProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const VolleyballLogo = React.forwardRef<SVGSVGElement, VolleyballLogoProps>(
+export const Volleyball = React.forwardRef<SVGSVGElement, VolleyballProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="M11.1 7.1a16.55 16.55 0 0 1 10.9 4" />
   <path d="M12 12a12.6 12.6 0 0 1-8.7 5" />
   <path d="M16.8 13.6a16.55 16.55 0 0 1-9 7.5" />
@@ -35,17 +19,6 @@ export const VolleyballLogo = React.forwardRef<SVGSVGElement, VolleyballLogoProp
     </svg>
   )
 );
-
-VolleyballLogo.displayName = "VolleyballLogo";
-
-export const VolleyballLogoMetadata = {
-  id: "volleyball",
-  baseId: "volleyball",
-  variant: "default",
-  name: "Volleyball",
-  category: "others",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default VolleyballLogo;
+Volleyball.displayName = "Volleyball";
+export const VolleyballMetadata = { id: "volleyball", baseId: "volleyball", variant: "default", name: "Volleyball", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export default Volleyball;

@@ -1,0 +1,64 @@
+/**
+ * Auto-generated logo component: Opera (default)
+ * Category: browser
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface OperaProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string; 
+}
+
+export const Opera = React.forwardRef<SVGSVGElement, OperaProps>(
+  ({ size = 24, className = '', ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg" 
+      {...props}
+    >
+      <g clipPath="url(#clip0_2039_382)">
+<path d="M8.0496 5.2368C6.7224 6.804 5.8632 9.1176 5.8056 11.7168V12.2832C5.8632 14.8824 6.7224 17.196 8.0496 18.7632C9.7728 20.9976 12.3312 22.416 15.1872 22.416C16.944 22.416 18.5904 21.8784 19.9968 20.9448C17.8848 22.836 15.1008 23.988 12.0456 24H12C5.3736 24 0 18.6264 0 12C0 5.5632 5.0664 0.311998 11.4288 0.0143986C11.6184 0.00479889 11.808 0 12 0C15.072 0 17.8752 1.1544 19.9968 3.0528C18.5904 2.1216 16.9464 1.584 15.1872 1.584C12.3312 1.584 9.7728 3.0024 8.0496 5.2368Z" fill="url(#paint0_linear_2039_382)"/>
+<path d="M8.04962 18.7632C9.15122 20.064 10.572 20.8464 12.1272 20.8464C15.6216 20.8464 18.4512 16.8864 18.4512 12C18.4512 7.11362 15.6192 3.15362 12.1272 3.15362C10.5744 3.15362 9.15122 3.93842 8.04962 5.23682C9.77282 3.00242 12.3312 1.58402 15.1872 1.58402C16.944 1.58402 18.5904 2.12162 19.9968 3.05282C22.4544 5.25122 24 8.44562 24 12C24 15.5544 22.4544 18.7488 19.9968 20.9448C18.5904 21.8784 16.9464 22.416 15.1872 22.416C12.3312 22.416 9.77282 20.9976 8.04962 18.7632Z" fill="url(#paint1_linear_2039_382)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_2039_382" x1="9.99895" y1="23.6087" x2="9.99895" y2="0.349297" gradientUnits="userSpaceOnUse">
+<stop offset="0.3" stopColor="#FF1B2D"/>
+<stop offset="0.4381" stopColor="#FA1A2C"/>
+<stop offset="0.5939" stopColor="#ED1528"/>
+<stop offset="0.7581" stopColor="#D60E21"/>
+<stop offset="0.9272" stopColor="#B70519"/>
+<stop offset="1" stopColor="#A70014"/>
+</linearGradient>
+<linearGradient id="paint1_linear_2039_382" x1="16.025" y1="22.2378" x2="16.025" y2="1.66599" gradientUnits="userSpaceOnUse">
+<stop stopColor="#9C0000"/>
+<stop offset="0.7" stopColor="#FF4B4B"/>
+</linearGradient>
+<clipPath id="clip0_2039_382">
+<rect width="24" height="24" fill="white" transform="matrix(1 0 0 -1 0 24)"/>
+</clipPath>
+</defs>
+    </svg>
+  )
+);
+
+Opera.displayName = "Opera";
+
+export const OperaMetadata = {
+  id: "Opera",
+  baseId: "Opera",
+  variant: "default",
+  name: "Opera",
+  category: "browser",
+  tags: [],
+  viewBox: "0 0 24 24",
+} as const;
+
+export default Opera;

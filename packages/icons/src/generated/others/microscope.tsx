@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: Microscope (default)
- * Category: others
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface MicroscopeLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface MicroscopeProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const MicroscopeLogo = React.forwardRef<SVGSVGElement, MicroscopeLogoProps>(
+export const Microscope = React.forwardRef<SVGSVGElement, MicroscopeProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="M6 18h8" />
   <path d="M3 22h18" />
   <path d="M14 22a7 7 0 1 0 0-14h-1" />
@@ -35,17 +19,6 @@ export const MicroscopeLogo = React.forwardRef<SVGSVGElement, MicroscopeLogoProp
     </svg>
   )
 );
-
-MicroscopeLogo.displayName = "MicroscopeLogo";
-
-export const MicroscopeLogoMetadata = {
-  id: "microscope",
-  baseId: "microscope",
-  variant: "default",
-  name: "Microscope",
-  category: "others",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default MicroscopeLogo;
+Microscope.displayName = "Microscope";
+export const MicroscopeMetadata = { id: "microscope", baseId: "microscope", variant: "default", name: "Microscope", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export default Microscope;

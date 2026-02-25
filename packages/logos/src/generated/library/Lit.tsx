@@ -1,0 +1,54 @@
+/**
+ * Auto-generated logo component: Lit (default)
+ * Category: library
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface LitProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string; 
+}
+
+export const Lit = React.forwardRef<SVGSVGElement, LitProps>(
+  ({ size = 24, className = '', ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg" 
+      {...props}
+    >
+      <g clipPath="url(#clip0_2066_903)">
+<path d="M6.75 14.4L8.6742 11.0455L11.5118 9.61194L16.2599 14.41L17.0639 19.0415L16.25 24L11.5 19.2L8.6742 17.2789L6.75 14.4Z" fill="#00E8FF"/>
+<path d="M11.5 19.2V9.60005L16.25 4.80005V14.4L11.5 19.2ZM2 19.2L6.75 24L7.43296 19.4549L6.75 14.4L3.96368 16.1783L2 19.2Z" fill="#283198"/>
+<path d="M6.75 14.4V4.8L11.5 0V9.6L6.75 14.4ZM16.25 24V14.4L21 9.6V19.2L16.25 24ZM2 19.2V9.6L6.75 14.4L2 19.2Z" fill="#324FFF"/>
+<path d="M6.75 24V14.4L11.5 19.2L6.75 24Z" fill="#00FFFF"/>
+</g>
+<defs>
+<clipPath id="clip0_2066_903">
+<rect width="19" height="24" fill="white" transform="translate(2)"/>
+</clipPath>
+</defs>
+    </svg>
+  )
+);
+
+Lit.displayName = "Lit";
+
+export const LitMetadata = {
+  id: "Lit",
+  baseId: "Lit",
+  variant: "default",
+  name: "Lit",
+  category: "library",
+  tags: [],
+  viewBox: "0 0 24 24",
+} as const;
+
+export default Lit;

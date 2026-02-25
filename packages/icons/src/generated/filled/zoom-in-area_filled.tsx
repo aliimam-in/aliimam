@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: Zoom In Area (filled)
- * Category: filled
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface ZoomInAreaFilledLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface ZoomInAreaFilledProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const ZoomInAreaFilledLogo = React.forwardRef<SVGSVGElement, ZoomInAreaFilledLogoProps>(
+export const ZoomInAreaFilled = React.forwardRef<SVGSVGElement, ZoomInAreaFilledProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="M15 9a6 6 0 0 1 4.891 9.476l2.816 2.817a1 1 0 0 1 -1.32 1.497l-.094 -.083l-2.817 -2.816a6 6 0 0 1 -9.472 -4.666l-.004 -.225l.004 -.225a6 6 0 0 1 5.996 -5.775zm0 3a1 1 0 0 0 -.993 .883l-.007 .117v1h-1l-.117 .007a1 1 0 0 0 0 1.986l.117 .007h1v1l.007 .117a1 1 0 0 0 1.986 0l.007 -.117v-1h1l.117 -.007a1 1 0 0 0 0 -1.986l-.117 -.007h-1v-1l-.007 -.117a1 1 0 0 0 -.993 -.883z" />
   <path d="M3 14a1 1 0 0 1 .993 .883l.007 .117v1a1 1 0 0 0 .883 .993l.117 .007h1a1 1 0 0 1 .117 1.993l-.117 .007h-1a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-1a1 1 0 0 1 1 -1z" />
   <path d="M3 9a1 1 0 0 1 .993 .883l.007 .117v1a1 1 0 0 1 -1.993 .117l-.007 -.117v-1a1 1 0 0 1 1 -1z" />
@@ -35,17 +19,6 @@ export const ZoomInAreaFilledLogo = React.forwardRef<SVGSVGElement, ZoomInAreaFi
     </svg>
   )
 );
-
-ZoomInAreaFilledLogo.displayName = "ZoomInAreaFilledLogo";
-
-export const ZoomInAreaFilledLogoMetadata = {
-  id: "zoom-in-area_filled",
-  baseId: "zoom-in-area",
-  variant: "filled",
-  name: "Zoom In Area",
-  category: "filled",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default ZoomInAreaFilledLogo;
+ZoomInAreaFilled.displayName = "ZoomInAreaFilled";
+export const ZoomInAreaFilledMetadata = { id: "zoom-in-area_filled", baseId: "zoom-in-area", variant: "filled", name: "Zoom In Area", category: "filled", tags: [], viewBox: "0 0 24 24" } as const;
+export default ZoomInAreaFilled;

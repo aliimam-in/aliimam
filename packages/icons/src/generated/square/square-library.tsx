@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: Square Library (default)
- * Category: square
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface SquareLibraryLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface SquareLibraryProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const SquareLibraryLogo = React.forwardRef<SVGSVGElement, SquareLibraryLogoProps>(
+export const SquareLibrary = React.forwardRef<SVGSVGElement, SquareLibraryProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <rect width="18" height="18" x="3" y="3" rx="2" />
   <path d="M7 7v10" />
   <path d="M11 7v10" />
@@ -33,17 +17,6 @@ export const SquareLibraryLogo = React.forwardRef<SVGSVGElement, SquareLibraryLo
     </svg>
   )
 );
-
-SquareLibraryLogo.displayName = "SquareLibraryLogo";
-
-export const SquareLibraryLogoMetadata = {
-  id: "square-library",
-  baseId: "square-library",
-  variant: "default",
-  name: "Square Library",
-  category: "square",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default SquareLibraryLogo;
+SquareLibrary.displayName = "SquareLibrary";
+export const SquareLibraryMetadata = { id: "square-library", baseId: "square-library", variant: "default", name: "Square Library", category: "square", tags: [], viewBox: "0 0 24 24" } as const;
+export default SquareLibrary;

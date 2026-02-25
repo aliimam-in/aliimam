@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: Whole Word (default)
- * Category: others
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface WholeWordLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface WholeWordProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const WholeWordLogo = React.forwardRef<SVGSVGElement, WholeWordLogoProps>(
+export const WholeWord = React.forwardRef<SVGSVGElement, WholeWordProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <circle cx="7" cy="12" r="3" />
   <path d="M10 9v6" />
   <circle cx="17" cy="12" r="3" />
@@ -34,17 +18,6 @@ export const WholeWordLogo = React.forwardRef<SVGSVGElement, WholeWordLogoProps>
     </svg>
   )
 );
-
-WholeWordLogo.displayName = "WholeWordLogo";
-
-export const WholeWordLogoMetadata = {
-  id: "whole-word",
-  baseId: "whole-word",
-  variant: "default",
-  name: "Whole Word",
-  category: "others",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default WholeWordLogo;
+WholeWord.displayName = "WholeWord";
+export const WholeWordMetadata = { id: "whole-word", baseId: "whole-word", variant: "default", name: "Whole Word", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export default WholeWord;

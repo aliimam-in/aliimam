@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: List Video (default)
- * Category: list
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface ListVideoLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface ListVideoProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const ListVideoLogo = React.forwardRef<SVGSVGElement, ListVideoLogoProps>(
+export const ListVideo = React.forwardRef<SVGSVGElement, ListVideoProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="M21 5H3" />
   <path d="M10 12H3" />
   <path d="M10 19H3" />
@@ -33,17 +17,6 @@ export const ListVideoLogo = React.forwardRef<SVGSVGElement, ListVideoLogoProps>
     </svg>
   )
 );
-
-ListVideoLogo.displayName = "ListVideoLogo";
-
-export const ListVideoLogoMetadata = {
-  id: "list-video",
-  baseId: "list-video",
-  variant: "default",
-  name: "List Video",
-  category: "list",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default ListVideoLogo;
+ListVideo.displayName = "ListVideo";
+export const ListVideoMetadata = { id: "list-video", baseId: "list-video", variant: "default", name: "List Video", category: "list", tags: [], viewBox: "0 0 24 24" } as const;
+export default ListVideo;

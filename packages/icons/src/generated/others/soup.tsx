@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: Soup (default)
- * Category: others
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface SoupLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface SoupProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const SoupLogo = React.forwardRef<SVGSVGElement, SoupLogoProps>(
+export const Soup = React.forwardRef<SVGSVGElement, SoupProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="M12 21a9 9 0 0 0 9-9H3a9 9 0 0 0 9 9Z" />
   <path d="M7 21h10" />
   <path d="M19.5 12 22 6" />
@@ -35,17 +19,6 @@ export const SoupLogo = React.forwardRef<SVGSVGElement, SoupLogoProps>(
     </svg>
   )
 );
-
-SoupLogo.displayName = "SoupLogo";
-
-export const SoupLogoMetadata = {
-  id: "soup",
-  baseId: "soup",
-  variant: "default",
-  name: "Soup",
-  category: "others",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default SoupLogo;
+Soup.displayName = "Soup";
+export const SoupMetadata = { id: "soup", baseId: "soup", variant: "default", name: "Soup", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export default Soup;

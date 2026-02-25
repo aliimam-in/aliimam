@@ -7,6 +7,6 @@ export { AdobeIndesign, AdobeIndesignMetadata, type AdobeIndesignProps } from '.
 export { AdobeLightroom, AdobeLightroomMetadata, type AdobeLightroomProps } from './adobe-lightroom';
 export { AdobePhotoshop, AdobePhotoshopMetadata, type AdobePhotoshopProps } from './adobe-photoshop';
 export { AdobePremiere, AdobePremiereMetadata, type AdobePremiereProps } from './adobe-premiere';
-export { AdobeWordmark, AdobeWordmarkMetadata, type AdobeWordmarkProps } from './adobe-wordmark';
 export { AdobeXd, AdobeXdMetadata, type AdobeXdProps } from './adobe-xd';
 export { Adobe, AdobeMetadata, type AdobeProps } from './adobe';
+export { AdobeWordmark, AdobeWordmarkMetadata, type AdobeWordmarkProps } from './adobe_wordmark';

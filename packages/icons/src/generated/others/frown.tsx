@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: Frown (default)
- * Category: others
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface FrownLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface FrownProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const FrownLogo = React.forwardRef<SVGSVGElement, FrownLogoProps>(
+export const Frown = React.forwardRef<SVGSVGElement, FrownProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <circle cx="12" cy="12" r="10" />
   <path d="M16 16s-1.5-2-4-2-4 2-4 2" />
   <line x1="9" x2="9.01" y1="9" y2="9" />
@@ -33,17 +17,6 @@ export const FrownLogo = React.forwardRef<SVGSVGElement, FrownLogoProps>(
     </svg>
   )
 );
-
-FrownLogo.displayName = "FrownLogo";
-
-export const FrownLogoMetadata = {
-  id: "frown",
-  baseId: "frown",
-  variant: "default",
-  name: "Frown",
-  category: "others",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default FrownLogo;
+Frown.displayName = "Frown";
+export const FrownMetadata = { id: "frown", baseId: "frown", variant: "default", name: "Frown", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export default Frown;

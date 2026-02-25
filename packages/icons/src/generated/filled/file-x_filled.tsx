@@ -1,47 +1,20 @@
-/**
- * Auto-generated logo component: File X (filled)
- * Category: filled
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface FileXFilledLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface FileXFilledProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const FileXFilledLogo = React.forwardRef<SVGSVGElement, FileXFilledLogoProps>(
+export const FileXFilled = React.forwardRef<SVGSVGElement, FileXFilledProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="M12 2l.117 .007a1 1 0 0 1 .876 .876l.007 .117v4l.005 .15a2 2 0 0 0 1.838 1.844l.157 .006h4l.117 .007a1 1 0 0 1 .876 .876l.007 .117v9a3 3 0 0 1 -2.824 2.995l-.176 .005h-10a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-14a3 3 0 0 1 2.824 -2.995l.176 -.005h5zm-1.489 9.14a1 1 0 0 0 -1.301 1.473l.083 .094l1.292 1.293l-1.292 1.293l-.083 .094a1 1 0 0 0 1.403 1.403l.094 -.083l1.293 -1.292l1.293 1.292l.094 .083a1 1 0 0 0 1.403 -1.403l-.083 -.094l-1.292 -1.293l1.292 -1.293l.083 -.094a1 1 0 0 0 -1.403 -1.403l-.094 .083l-1.293 1.292l-1.293 -1.292l-.094 -.083l-.102 -.07z" />
   <path d="M19 7h-4l-.001 -4.001z" />
     </svg>
   )
 );
-
-FileXFilledLogo.displayName = "FileXFilledLogo";
-
-export const FileXFilledLogoMetadata = {
-  id: "file-x_filled",
-  baseId: "file-x",
-  variant: "filled",
-  name: "File X",
-  category: "filled",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default FileXFilledLogo;
+FileXFilled.displayName = "FileXFilled";
+export const FileXFilledMetadata = { id: "file-x_filled", baseId: "file-x", variant: "filled", name: "File X", category: "filled", tags: [], viewBox: "0 0 24 24" } as const;
+export default FileXFilled;

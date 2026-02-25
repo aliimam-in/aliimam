@@ -6,7 +6,14 @@ const LOGOS_DIR = path.join(PROJECT_ROOT, "src", "logos");
 const GENERATED_DIR = path.join(PROJECT_ROOT, "src", "generated");
 const LOGOS_JSON_PATH = path.join(GENERATED_DIR, "logos.json");
 
-if (!fs.existsSync(GENERATED_DIR)) fs.mkdirSync(GENERATED_DIR, { recursive: true });
+// ------------------------
+// 🗑️ Delete old generated folder completely before regenerating
+// ------------------------
+if (fs.existsSync(GENERATED_DIR)) {
+  fs.rmSync(GENERATED_DIR, { recursive: true, force: true });
+  console.log("[AI] Deleted old generated/ folder");
+}
+fs.mkdirSync(GENERATED_DIR, { recursive: true });
 
 // ------------------------
 // Helpers
@@ -30,13 +37,11 @@ function convertStyleString(svg: string): string {
       const val = prop.slice(colonIdx + 1).trim();
 
       if (!key || !val) return;
-
       if (val.includes("&quot") || val.includes("'") || val.includes('"')) return;
       if (key.startsWith("-inkscape") || key.startsWith("inkscape")) return;
 
       const camelKey = key.replace(/-([a-z])/g, (_: string, c: string) => c.toUpperCase());
       const cleanVal = val.replace(/'/g, "\\'");
-
       entries.push(`${camelKey}:'${cleanVal}'`);
     });
 
@@ -66,8 +71,7 @@ function extractInnerSVG(svg: string): string {
 
   let result = svg
     .replace(/<\?xml[\s\S]*?\?>/g, "")
-    .replace(/<!DOCTYPE[\s\S]*?>/g, "")
-    .replace(/<!--[\s\S]*?-->/g, "")
+    .replace(/<!DOCTYPE[\s\S]*?>/g, "") 
     .replace(/<style[\s\S]*?<\/style>/g, "")
     .replace(/<metadata[\s\S]*?<\/metadata>/g, "")
     .replace(/<sodipodi:namedview[\s\S]*?<\/sodipodi:namedview>/g, "")
@@ -83,15 +87,11 @@ function extractInnerSVG(svg: string): string {
   const svgOpenEnd = result.search(/<svg[\s\S]*?>/);
   if (svgOpenEnd !== -1) {
     const match = result.match(/<svg[\s\S]*?>/);
-    if (match) {
-      result = result.slice(svgOpenEnd + match[0].length);
-    }
+    if (match) result = result.slice(svgOpenEnd + match[0].length);
   }
 
   const lastClose = result.lastIndexOf("</svg>");
-  if (lastClose !== -1) {
-    result = result.slice(0, lastClose);
-  }
+  if (lastClose !== -1) result = result.slice(0, lastClose);
 
   if (Object.keys(styleMap).length > 0) {
     result = result.replace(/class="([^"]+)"/g, (_, classNames) => {
@@ -105,7 +105,6 @@ function extractInnerSVG(svg: string): string {
   }
 
   result = convertStyleString(result);
-
   return result.trim();
 }
 
@@ -148,58 +147,32 @@ function convertSvgAttributes(svg: string) {
     .replace(/\s*serif:[a-zA-Z-]+=["'][^"']*["']/g, "");
 }
 
+const KNOWN_VARIANTS = new Set(["filled", "circle", "outline"]);
+
 function parseLogoId(basename: string): { baseId: string; variant: string } {
-  if (!basename.includes("_")) {
+  const underscoreIndex = basename.lastIndexOf("_");
+  if (underscoreIndex === -1) {
     return { baseId: basename, variant: "default" };
   }
-  const underscoreIndex = basename.indexOf("_");
-  return {
-    baseId: basename.slice(0, underscoreIndex),
-    variant: basename.slice(underscoreIndex + 1),
-  };
+
+  const possibleVariant = basename.slice(underscoreIndex + 1).toLowerCase();
+  if (KNOWN_VARIANTS.has(possibleVariant)) {
+    return {
+      baseId: basename.slice(0, underscoreIndex),
+      variant: possibleVariant,
+    };
+  }
+  return { baseId: basename, variant: "default" };
 }
 
 function toComponentName(id: string): string {
-  if (!id.includes("_")) {
-    return (
-      id
-        .split("-")
-        .map((p: string) => p.charAt(0).toUpperCase() + p.slice(1))
-        .join("") + "Logo"
-    );
-  }
-
-  const underscoreIndex = id.indexOf("_");
-  const baseId = id.slice(0, underscoreIndex);
-  const variant = id.slice(underscoreIndex + 1);
-
-  const basePart = baseId
-    .split("-")
-    .map((p: string) => p.charAt(0).toUpperCase() + p.slice(1))
-    .join("");
-
-  const variantPart = variant
-    .split("_")
-    .map((p: string) => p.charAt(0).toUpperCase() + p.slice(1))
-    .join("");
-
-  return basePart + variantPart + "Logo";
+  return id.split(/[-_]/).map((p) => p.charAt(0).toUpperCase() + p.slice(1)).join("");
 }
 
 function loadExistingJSON() {
-  if (fs.existsSync(LOGOS_JSON_PATH)) {
-    try {
-      return JSON.parse(fs.readFileSync(LOGOS_JSON_PATH, "utf-8"));
-    } catch {
-      return { logos: [] as any[] };
-    }
-  }
   return { logos: [] as any[] };
 }
 
-// ------------------------
-// Types
-// ------------------------
 interface LogoJSON {
   id: string;
   baseId: string;
@@ -215,6 +188,7 @@ interface LogoJSON {
 
 const existingData = loadExistingJSON();
 const existingMap = new Map<string, LogoJSON>(
+  //@ts-ignore
   existingData.logos.map((l: { category: any; id: any }) => [`${l.category}/${l.id}`, l])
 );
 
@@ -223,9 +197,6 @@ const categories = fs
   .readdirSync(LOGOS_DIR)
   .filter((d) => fs.statSync(path.join(LOGOS_DIR, d)).isDirectory());
 
-// ------------------------
-// Collect all logos from all category folders
-// ------------------------
 for (const category of categories) {
   const categoryPath = path.join(LOGOS_DIR, category);
   const files = fs.readdirSync(categoryPath).filter((f) => f.endsWith(".svg"));
@@ -255,39 +226,27 @@ for (const category of categories) {
   }
 }
 
-// ------------------------
-// Deduplicate by id:
-// Same filename in multiple folders → only the first occurrence is kept.
-// Category folder order in the filesystem determines priority.
-// ------------------------
 const seenIds = new Set<string>();
 const logos: LogoJSON[] = [];
 
 for (const logo of allLogosRaw) {
   if (seenIds.has(logo.id)) {
-    console.warn(
-      `[SKIP] "${logo.id}" already exists (found again in "${logo.category}") — skipping duplicate.`
-    );
+    console.warn(`[SKIP] "${logo.id}" already exists — skipping.`);
     continue;
   }
   seenIds.add(logo.id);
   logos.push(logo);
 }
 
-console.log(
-  `[v0] SVGs found: ${allLogosRaw.length} | After dedup: ${logos.length} | Skipped: ${allLogosRaw.length - logos.length}`
-);
+console.log(`[AI] SVGs found: ${allLogosRaw.length} | After dedup: ${logos.length}`);
 
-// ------------------------
-// Write logos.json
-// ------------------------
 fs.writeFileSync(
   LOGOS_JSON_PATH,
   JSON.stringify(
     {
       version: "1.0.0",
       lastUpdated: new Date().toISOString(),
-      logos: logos.map((l: LogoJSON) => ({
+      logos: logos.map((l) => ({
         id: l.id,
         baseId: l.baseId,
         variant: l.variant,
@@ -304,125 +263,101 @@ fs.writeFileSync(
   )
 );
 
-console.log(`[v0] logos.json updated with ${logos.length} logos`);
-
-// ------------------------
-// Generate TSX per category
-// Only logos that survived dedup are generated — so if a category lost all
-// its logos to dedup, it still gets an empty index (no broken imports).
-// ------------------------
 for (const category of categories) {
   const categoryDir = path.join(GENERATED_DIR, category);
   if (!fs.existsSync(categoryDir)) fs.mkdirSync(categoryDir, { recursive: true });
 
-  const categoryLogos = logos.filter((l: LogoJSON) => l.category === category);
+  const categoryLogos = logos.filter((l) => l.category === category);
 
   for (const logo of categoryLogos) {
     const componentName = toComponentName(logo.id);
-
-    const componentCode = `/**
- * Auto-generated logo component: ${logo.name} (${logo.variant})
- * Category: ${logo.category}
- * Do not edit manually
- */
-
+    const componentCode = `/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
 export interface ${componentName}Props extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
 export const ${componentName} = React.forwardRef<SVGSVGElement, ${componentName}Props>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="${logo.viewBox}"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="${logo.viewBox}" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       ${logo.svgContent}
     </svg>
   )
 );
-
 ${componentName}.displayName = "${componentName}";
-
-export const ${componentName}Metadata = {
-  id: "${logo.id}",
-  baseId: "${logo.baseId}",
-  variant: "${logo.variant}",
-  name: "${logo.name}",
-  category: "${logo.category}",
-  tags: ${JSON.stringify(logo.tags)},
-  viewBox: "${logo.viewBox}",
-} as const;
-
+export const ${componentName}Metadata = { id: "${logo.id}", baseId: "${logo.baseId}", variant: "${logo.variant}", name: "${logo.name}", category: "${logo.category}", tags: ${JSON.stringify(logo.tags)}, viewBox: "${logo.viewBox}" } as const;
 export default ${componentName};
 `;
-
     fs.writeFileSync(path.join(categoryDir, `${logo.id}.tsx`), componentCode);
-    console.log(`[v0] Generated TSX: ${category}/${logo.id}.tsx`);
   }
 
-  // Category index — empty string if no logos survived dedup for this category
   const indexCode = categoryLogos
-    .map((l: LogoJSON) => {
+    .map((l) => {
       const componentName = toComponentName(l.id);
       return `export { ${componentName}, ${componentName}Metadata, type ${componentName}Props } from './${l.id}';`;
     })
     .join("\n");
-
   fs.writeFileSync(path.join(categoryDir, "index.tsx"), indexCode);
-  console.log(`[v0] Generated category index: ${category}/index.tsx (${categoryLogos.length} logos)`);
 }
 
-
 // ------------------------
-// Generate main index.tsx
+// Generate main index.tsx (Final Fix)
 // ------------------------
 const mainIndexPath = path.join(GENERATED_DIR, "index.tsx");
-let mainImports = "";
-let allLogosObject = "export const allLogos = {\n";
+
+// Sabse pehle types define karein
+let mainIndexContent = `/** Auto-generated main index - Do not edit manually */
+import type React from 'react';
+
+export interface LogoEntry {
+  Component: React.ForwardRefExoticComponent<any>;
+  metadata: {
+    readonly id: string;
+    readonly baseId: string;
+    readonly variant: string;
+    readonly name: string;
+    readonly category: string;
+    readonly tags: readonly string[] | undefined;
+    readonly viewBox: string;
+  };
+}
+\n`;
+
+let namedExports = `// Individual Named Exports for direct access and tree-shaking\n`;
+let internalImports = `// Internal imports for allLogos object\n`;
+let allLogosObject = "export const allLogos: Record<string, Record<string, LogoEntry>> = {\n";
 
 for (const category of categories) {
-  const categoryLogos = logos.filter((l: LogoJSON) => l.category === category);
-
-  // Skip categories with no surviving logos
+  const categoryLogos = logos.filter((l) => l.category === category);
   if (categoryLogos.length === 0) continue;
 
-  categoryLogos.forEach((l: LogoJSON) => {
-    const componentName = toComponentName(l.id);
-    mainImports += `import { ${componentName}, ${componentName}Metadata } from './${category}/${l.id}';\n`;
-  });
-
   allLogosObject += `  ${category}: {\n`;
-  categoryLogos.forEach((l: LogoJSON) => {
+  
+  categoryLogos.forEach((l) => {
     const componentName = toComponentName(l.id);
+    
+    // 1. Named Exports (ISKE BINA BUILD FAIL HOTI HAI)
+    namedExports += `export { ${componentName}, ${componentName}Metadata, type ${componentName}Props } from './${category}/${l.id}';\n`;
+    
+    // 2. Internal Imports (allLogos object construct karne ke liye)
+    internalImports += `import { ${componentName}, ${componentName}Metadata } from './${category}/${l.id}';\n`;
+    
+    // 3. Object Entry
     allLogosObject += `    ${componentName}: { Component: ${componentName}, metadata: ${componentName}Metadata },\n`;
   });
+  
   allLogosObject += "  },\n";
 }
 
-allLogosObject += "} as const;\n";
+allLogosObject += "};\n";
 
+// Sabko combine karke file write karein
 fs.writeFileSync(
-  mainIndexPath,
-  `/**
- * Auto-generated main index for all logos
- * Do not edit manually
- */
-
-${mainImports}
-${allLogosObject}
-`
+  mainIndexPath, 
+  mainIndexContent + namedExports + "\n" + internalImports + "\n" + allLogosObject
 );
 
-console.log("[v0] Generated main index.tsx with all logos + metadata");
+console.log("[AI] Fixed index.tsx generated: Added Named Exports and Internal Imports.");

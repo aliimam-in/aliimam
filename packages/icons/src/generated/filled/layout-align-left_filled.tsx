@@ -1,47 +1,20 @@
-/**
- * Auto-generated logo component: Layout Align Left (filled)
- * Category: filled
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface LayoutAlignLeftFilledLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface LayoutAlignLeftFilledProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const LayoutAlignLeftFilledLogo = React.forwardRef<SVGSVGElement, LayoutAlignLeftFilledLogoProps>(
+export const LayoutAlignLeftFilled = React.forwardRef<SVGSVGElement, LayoutAlignLeftFilledProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="M4 3a1 1 0 0 1 1 1v16a1 1 0 0 1 -2 0v-16a1 1 0 0 1 1 -1" />
   <path d="M18 8a3 3 0 0 1 3 3v2a3 3 0 0 1 -3 3h-8a3 3 0 0 1 -3 -3v-2a3 3 0 0 1 3 -3z" />
     </svg>
   )
 );
-
-LayoutAlignLeftFilledLogo.displayName = "LayoutAlignLeftFilledLogo";
-
-export const LayoutAlignLeftFilledLogoMetadata = {
-  id: "layout-align-left_filled",
-  baseId: "layout-align-left",
-  variant: "filled",
-  name: "Layout Align Left",
-  category: "filled",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default LayoutAlignLeftFilledLogo;
+LayoutAlignLeftFilled.displayName = "LayoutAlignLeftFilled";
+export const LayoutAlignLeftFilledMetadata = { id: "layout-align-left_filled", baseId: "layout-align-left", variant: "filled", name: "Layout Align Left", category: "filled", tags: [], viewBox: "0 0 24 24" } as const;
+export default LayoutAlignLeftFilled;

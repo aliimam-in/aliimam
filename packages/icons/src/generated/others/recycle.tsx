@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: Recycle (default)
- * Category: others
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface RecycleLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface RecycleProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const RecycleLogo = React.forwardRef<SVGSVGElement, RecycleLogoProps>(
+export const Recycle = React.forwardRef<SVGSVGElement, RecycleProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="M7 19H4.815a1.83 1.83 0 0 1-1.57-.881 1.785 1.785 0 0 1-.004-1.784L7.196 9.5" />
   <path d="M11 19h8.203a1.83 1.83 0 0 0 1.556-.89 1.784 1.784 0 0 0 0-1.775l-1.226-2.12" />
   <path d="m14 16-3 3 3 3" />
@@ -35,17 +19,6 @@ export const RecycleLogo = React.forwardRef<SVGSVGElement, RecycleLogoProps>(
     </svg>
   )
 );
-
-RecycleLogo.displayName = "RecycleLogo";
-
-export const RecycleLogoMetadata = {
-  id: "recycle",
-  baseId: "recycle",
-  variant: "default",
-  name: "Recycle",
-  category: "others",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default RecycleLogo;
+Recycle.displayName = "Recycle";
+export const RecycleMetadata = { id: "recycle", baseId: "recycle", variant: "default", name: "Recycle", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export default Recycle;

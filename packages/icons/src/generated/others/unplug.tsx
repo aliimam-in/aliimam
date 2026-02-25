@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: Unplug (default)
- * Category: others
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface UnplugLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface UnplugProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const UnplugLogo = React.forwardRef<SVGSVGElement, UnplugLogoProps>(
+export const Unplug = React.forwardRef<SVGSVGElement, UnplugProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="m19 5 3-3" />
   <path d="m2 22 3-3" />
   <path d="M6.3 20.3a2.4 2.4 0 0 0 3.4 0L12 18l-6-6-2.3 2.3a2.4 2.4 0 0 0 0 3.4Z" />
@@ -35,17 +19,6 @@ export const UnplugLogo = React.forwardRef<SVGSVGElement, UnplugLogoProps>(
     </svg>
   )
 );
-
-UnplugLogo.displayName = "UnplugLogo";
-
-export const UnplugLogoMetadata = {
-  id: "unplug",
-  baseId: "unplug",
-  variant: "default",
-  name: "Unplug",
-  category: "others",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default UnplugLogo;
+Unplug.displayName = "Unplug";
+export const UnplugMetadata = { id: "unplug", baseId: "unplug", variant: "default", name: "Unplug", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export default Unplug;

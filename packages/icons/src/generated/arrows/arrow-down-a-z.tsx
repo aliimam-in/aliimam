@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: Arrow Down A Z (default)
- * Category: arrows
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface ArrowDownAZLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface ArrowDownAZProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const ArrowDownAZLogo = React.forwardRef<SVGSVGElement, ArrowDownAZLogoProps>(
+export const ArrowDownAZ = React.forwardRef<SVGSVGElement, ArrowDownAZProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="m3 16 4 4 4-4" />
   <path d="M7 20V4" />
   <path d="M20 8h-5" />
@@ -34,17 +18,6 @@ export const ArrowDownAZLogo = React.forwardRef<SVGSVGElement, ArrowDownAZLogoPr
     </svg>
   )
 );
-
-ArrowDownAZLogo.displayName = "ArrowDownAZLogo";
-
-export const ArrowDownAZLogoMetadata = {
-  id: "arrow-down-a-z",
-  baseId: "arrow-down-a-z",
-  variant: "default",
-  name: "Arrow Down A Z",
-  category: "arrows",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default ArrowDownAZLogo;
+ArrowDownAZ.displayName = "ArrowDownAZ";
+export const ArrowDownAZMetadata = { id: "arrow-down-a-z", baseId: "arrow-down-a-z", variant: "default", name: "Arrow Down A Z", category: "arrows", tags: [], viewBox: "0 0 24 24" } as const;
+export default ArrowDownAZ;

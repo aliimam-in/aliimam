@@ -4,15 +4,15 @@ import { Search, X } from "lucide-react"
 import { Input } from "@/registry/aliimam/ui/input"
 import { useIconFilter } from "./icon-filter-context"
 
-export function IconSearch({ totalCount }: { totalCount: number }) {
-  const { query, setQuery } = useIconFilter()
+export function IconSearch() {
+  const { query, setQuery, counts } = useIconFilter()
 
   return (
     <div className="relative w-80">
-      <Search className="text-muted-foreground absolute top-1/2 left-3 h-4 w-4 -translate-y-1/2 transform" />
+      <Search className="text-muted-foreground absolute top-1/2 left-3 h-4 w-4 -translate-y-1/2" />
       <Input
-        placeholder={`Search ${totalCount} logos...`}
-        className="pr-10 pl-10"
+        placeholder={`Search ${counts.filtered} icons...`} // <--- Dynamic Count
+        className="pl-10"
         value={query}
         onChange={(e) => setQuery(e.target.value)}
       />

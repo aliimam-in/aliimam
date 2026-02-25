@@ -1,5 +1,6 @@
 /**
  * Auto-generated logo component: Adobe (default)
+ * Category: adobe
  * Do not edit manually
  */
 
@@ -8,7 +9,7 @@ import React from 'react';
 
 export interface AdobeProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
+  className?: string; 
 }
 
 export const Adobe = React.forwardRef<SVGSVGElement, AdobeProps>(
@@ -18,11 +19,13 @@ export const Adobe = React.forwardRef<SVGSVGElement, AdobeProps>(
       width={size}
       height={size}
       viewBox="0 0 256 227"
+      fill="none"
       className={className}
-      xmlns="http://www.w3.org/2000/svg"
+      xmlns="http://www.w3.org/2000/svg" 
       {...props}
     >
-      <g>
+      <title>Adobe</title>
+    <g>
         <path d="M128.023598,83.5273036 L188.31164,226.568637 L148.799233,226.568637 L130.76096,181.015154 L86.642233,181.015154 L128.023598,83.5273036 Z M256,2.84217094e-14 L256,226.540319 L161.353342,2.84217094e-14 L256,2.84217094e-14 Z M94.6844143,2.84217094e-14 L0,226.540319 L0,2.84217094e-14 L94.6844143,2.84217094e-14 Z" fill="#FA0F00"></path>
     </g>
     </svg>

@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: Binoculars (default)
- * Category: others
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface BinocularsLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface BinocularsProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const BinocularsLogo = React.forwardRef<SVGSVGElement, BinocularsLogoProps>(
+export const Binoculars = React.forwardRef<SVGSVGElement, BinocularsProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="M10 10h4" />
   <path d="M19 7V4a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v3" />
   <path d="M20 21a2 2 0 0 0 2-2v-3.851c0-1.39-2-2.962-2-4.829V8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v11a2 2 0 0 0 2 2z" />
@@ -35,17 +19,6 @@ export const BinocularsLogo = React.forwardRef<SVGSVGElement, BinocularsLogoProp
     </svg>
   )
 );
-
-BinocularsLogo.displayName = "BinocularsLogo";
-
-export const BinocularsLogoMetadata = {
-  id: "binoculars",
-  baseId: "binoculars",
-  variant: "default",
-  name: "Binoculars",
-  category: "others",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default BinocularsLogo;
+Binoculars.displayName = "Binoculars";
+export const BinocularsMetadata = { id: "binoculars", baseId: "binoculars", variant: "default", name: "Binoculars", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export default Binoculars;

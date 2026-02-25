@@ -1,0 +1,47 @@
+/**
+ * Auto-generated logo component: East Timor (flags)
+ * Category: flags
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface EastTimorFlagsProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string; 
+}
+
+export const EastTimorFlags = React.forwardRef<SVGSVGElement, EastTimorFlagsProps>(
+  ({ size = 24, className = '', ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 32 32"
+      fill="none"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg" 
+      {...props}
+    >
+      <path d="M27 4H5C2.79086 4 1 5.79086 1 8V24C1 26.2091 2.79086 28 5 28H27C29.2091 28 31 26.2091 31 24V8C31 5.79086 29.2091 4 27 4Z" fill="#C93927"/>
+<path d="M2.433 27.0441L19 16.0001L2.433 4.95605C1.564 5.69005 1 6.77405 1 8.00005V24.0001C1 25.2271 1.564 26.3111 2.433 27.0441Z" fill="#F7CB4F"/>
+<path d="M2.271 26.9111L15 16.0001L2.271 5.08911C1.493 5.81911 1 6.84911 1 8.00011V24.0001C1 25.1511 1.493 26.1811 2.271 26.9111Z" fill="black"/>
+<path d="M7.56904 15.973L8.88304 13.74L6.50804 14.774L4.79104 12.835L5.04004 15.413L2.66504 16.447L5.19404 17.007L5.44404 19.585L6.75704 17.352L9.28704 17.912L7.56904 15.973Z" fill="white"/>
+    </svg>
+  )
+);
+
+EastTimorFlags.displayName = "EastTimorFlags";
+
+export const EastTimorFlagsMetadata = {
+  id: "East-Timor_flags",
+  baseId: "East-Timor",
+  variant: "flags",
+  name: "East Timor",
+  category: "flags",
+  tags: [],
+  viewBox: "0 0 32 32",
+} as const;
+
+export default EastTimorFlags;

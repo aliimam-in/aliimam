@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: Card Sim (default)
- * Category: others
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface CardSimLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface CardSimProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const CardSimLogo = React.forwardRef<SVGSVGElement, CardSimLogoProps>(
+export const CardSim = React.forwardRef<SVGSVGElement, CardSimProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="M12 14v4" />
   <path d="M14.172 2a2 2 0 0 1 1.414.586l3.828 3.828A2 2 0 0 1 20 7.828V20a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2z" />
   <path d="M8 14h8" />
@@ -33,17 +17,6 @@ export const CardSimLogo = React.forwardRef<SVGSVGElement, CardSimLogoProps>(
     </svg>
   )
 );
-
-CardSimLogo.displayName = "CardSimLogo";
-
-export const CardSimLogoMetadata = {
-  id: "card-sim",
-  baseId: "card-sim",
-  variant: "default",
-  name: "Card Sim",
-  category: "others",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default CardSimLogo;
+CardSim.displayName = "CardSim";
+export const CardSimMetadata = { id: "card-sim", baseId: "card-sim", variant: "default", name: "Card Sim", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export default CardSim;

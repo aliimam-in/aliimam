@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: Globe Off (default)
- * Category: others
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface GlobeOffLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface GlobeOffProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const GlobeOffLogo = React.forwardRef<SVGSVGElement, GlobeOffLogoProps>(
+export const GlobeOff = React.forwardRef<SVGSVGElement, GlobeOffProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="M10.114 4.462A14.5 14.5 0 0 1 12 2a10 10 0 0 1 9.313 13.643" />
   <path d="M15.557 15.556A14.5 14.5 0 0 1 12 22 10 10 0 0 1 4.929 4.929" />
   <path d="M15.892 10.234A14.5 14.5 0 0 0 12 2a10 10 0 0 0-3.643.687" />
@@ -36,17 +20,6 @@ export const GlobeOffLogo = React.forwardRef<SVGSVGElement, GlobeOffLogoProps>(
     </svg>
   )
 );
-
-GlobeOffLogo.displayName = "GlobeOffLogo";
-
-export const GlobeOffLogoMetadata = {
-  id: "globe-off",
-  baseId: "globe-off",
-  variant: "default",
-  name: "Globe Off",
-  category: "others",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default GlobeOffLogo;
+GlobeOff.displayName = "GlobeOff";
+export const GlobeOffMetadata = { id: "globe-off", baseId: "globe-off", variant: "default", name: "Globe Off", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export default GlobeOff;

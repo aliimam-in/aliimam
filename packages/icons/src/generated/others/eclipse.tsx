@@ -1,47 +1,20 @@
-/**
- * Auto-generated logo component: Eclipse (default)
- * Category: others
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface EclipseLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface EclipseProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const EclipseLogo = React.forwardRef<SVGSVGElement, EclipseLogoProps>(
+export const Eclipse = React.forwardRef<SVGSVGElement, EclipseProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <circle cx="12" cy="12" r="10" />
   <path d="M12 2a7 7 0 1 0 10 10" />
     </svg>
   )
 );
-
-EclipseLogo.displayName = "EclipseLogo";
-
-export const EclipseLogoMetadata = {
-  id: "eclipse",
-  baseId: "eclipse",
-  variant: "default",
-  name: "Eclipse",
-  category: "others",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default EclipseLogo;
+Eclipse.displayName = "Eclipse";
+export const EclipseMetadata = { id: "eclipse", baseId: "eclipse", variant: "default", name: "Eclipse", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export default Eclipse;

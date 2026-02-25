@@ -1,7 +1,8 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client"
 
-import { useState } from "react"
-import Link from "next/link" 
+import { useState, useEffect } from "react"
+import Link from "next/link"
 import { Figma } from "@aliimam/logos"
 
 import { Button } from "@/registry/aliimam/ui/button"
@@ -11,6 +12,7 @@ import { ContentCopyButton } from "../copy-button"
 import { IconControlsPanel } from "./icon-controls"
 import { IconDownloadPanel } from "./icon-download"
 import { Icons } from "./icons"
+import { useIconFilter } from "./icon-filter-context"
 
 interface Props {
   selectedLogo: string
@@ -19,8 +21,7 @@ interface Props {
 
 function getVariants(baseId: string) {
   const result: { id: string; variant: string }[] = []
-  for (const logos of Object.values(allLogos)) {
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  for (const logos of (Object.values(allLogos) as Record<string, any>[])) {
     Object.values(logos).forEach((e: any) => {
       if (e.metadata.baseId === baseId) {
         result.push({ id: e.metadata.id, variant: e.metadata.variant })
@@ -30,13 +31,40 @@ function getVariants(baseId: string) {
   return result
 }
 
+/** variantTab se best matching variant pick karo */
+function getInitialVariant(
+  variants: { id: string; variant: string }[],
+  variantTab: "outline" | "filled" | "circle"
+): string {
+  if (variantTab === "outline") {
+    return (
+      variants.find((v) => v.variant === "default" || v.variant === "outline" || v.variant === "")
+        ?.variant ?? variants[0]?.variant ?? "default"
+    )
+  }
+  return (
+    variants.find((v) => v.variant === variantTab)?.variant ??
+    variants[0]?.variant ??
+    "default"
+  )
+}
+
 export function IconPreview({ selectedLogo, onClearSelection }: Props) {
-  const [size, setSize] = useState(96)
-  const [strokeWidth, setstrokeWidth] = useState(2)
+  const [size, setSize] = useState(120)
+  const [strokeWidth, setstrokeWidth] = useState(0.5)
   const [color, setColor] = useState("currentColor")
-  const [activeVariant, setActiveVariant] = useState("default")
+  const { variantTab } = useIconFilter()
 
   const variants = getVariants(selectedLogo)
+  const [activeVariant, setActiveVariant] = useState(() =>
+    getInitialVariant(variants, variantTab)
+  )
+
+  // selectedLogo ya variantTab change hone par activeVariant reset karo
+  useEffect(() => {
+    setActiveVariant(getInitialVariant(getVariants(selectedLogo), variantTab))
+  }, [selectedLogo, variantTab])
+
   const activeId =
     variants.find((v) => v.variant === activeVariant)?.id ?? selectedLogo
 
@@ -53,7 +81,6 @@ export function IconPreview({ selectedLogo, onClearSelection }: Props) {
           />
         </div>
 
-        {/* Variant tabs */}
         {variants.length > 1 && (
           <div className="flex flex-wrap justify-center gap-1 px-2">
             {variants.map((v) => (
@@ -103,6 +130,7 @@ export function IconPreview({ selectedLogo, onClearSelection }: Props) {
           onColorChange={setColor}
           strokeWidth={strokeWidth}
           onstrokeWidthChange={setstrokeWidth}
+          activeVariant={activeVariant}
         />
 
         <IconDownloadPanel logoName={activeId} size={size} color={color} />
@@ -130,12 +158,20 @@ export function IconPreview({ selectedLogo, onClearSelection }: Props) {
 }
 
 export function IconPreviewPhone({ selectedLogo, onClearSelection }: Props) {
-  const [size, setSize] = useState(96)
-  const [strokeWidth, setstrokeWidth] = useState(2)
+  const [size, setSize] = useState(120)
+  const [strokeWidth, setstrokeWidth] = useState(0.5)
   const [color, setColor] = useState("currentColor")
-  const [activeVariant, setActiveVariant] = useState("default")
+  const { variantTab } = useIconFilter()
 
   const variants = getVariants(selectedLogo)
+  const [activeVariant, setActiveVariant] = useState(() =>
+    getInitialVariant(variants, variantTab)
+  )
+
+  useEffect(() => {
+    setActiveVariant(getInitialVariant(getVariants(selectedLogo), variantTab))
+  }, [selectedLogo, variantTab])
+
   const activeId =
     variants.find((v) => v.variant === activeVariant)?.id ?? selectedLogo
 
@@ -145,7 +181,6 @@ export function IconPreviewPhone({ selectedLogo, onClearSelection }: Props) {
         <Icons id="preview-svg" name={activeId} size={size} color={color} />
       </div>
 
-       
       {variants.length > 1 && (
         <div className="flex flex-wrap justify-center gap-1 py-2">
           {variants.map((v) => (
@@ -194,6 +229,7 @@ export function IconPreviewPhone({ selectedLogo, onClearSelection }: Props) {
         onColorChange={setColor}
         strokeWidth={strokeWidth}
         onstrokeWidthChange={setstrokeWidth}
+        activeVariant={activeVariant}
       />
       <IconDownloadPanel logoName={activeId} size={size} color={color} />
     </div>

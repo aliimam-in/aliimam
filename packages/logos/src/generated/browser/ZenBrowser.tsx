@@ -1,0 +1,53 @@
+/**
+ * Auto-generated logo component: ZenBrowser (default)
+ * Category: browser
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface ZenBrowserProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string; 
+}
+
+export const ZenBrowser = React.forwardRef<SVGSVGElement, ZenBrowserProps>(
+  ({ size = 24, className = '', ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg" 
+      {...props}
+    >
+      <g clipPath="url(#clip0_2062_2187)">
+<path fillRule="evenodd" clipRule="evenodd" d="M12 16.6155C14.5489 16.6155 16.6155 14.5493 16.6155 12C16.6155 9.45115 14.5493 7.38452 12 7.38452C9.45115 7.38452 7.38452 9.45077 7.38452 12C7.38452 14.5489 9.45077 16.6155 12 16.6155ZM15.6923 12C15.6923 14.0393 14.0393 15.6923 12 15.6923C9.96077 15.6923 8.30777 14.0393 8.30777 12C8.30777 9.96077 9.96077 8.30777 12 8.30777C14.0393 8.30777 15.6923 9.96077 15.6923 12Z" fill="#202020"/>
+<path fillRule="evenodd" clipRule="evenodd" d="M19.9999 12C19.9999 16.4182 16.4186 19.9999 12 19.9999C7.58175 19.9999 4.00012 16.4186 4.00012 12C4.00012 7.58175 7.58137 4.00012 12 4.00012C16.4182 4.00012 19.9999 7.58137 19.9999 12ZM12 18.4612C15.5685 18.4612 18.4612 15.5685 18.4612 12C18.4612 8.4315 15.5689 5.53875 12 5.53875C8.43112 5.53875 5.53875 8.43112 5.53875 12C5.53875 15.5689 8.43112 18.4612 12 18.4612Z" fill="#202020"/>
+<path fillRule="evenodd" clipRule="evenodd" d="M24 12C24 18.6274 18.6274 24 12 24C5.37262 24 0 18.6274 0 12C0 5.37262 5.37262 0 12 0C18.6274 0 24 5.37262 24 12ZM12 21.846C17.4379 21.846 21.846 17.4379 21.846 12C21.846 6.56212 17.4379 2.154 12 2.154C6.56212 2.154 2.154 6.56212 2.154 12C2.154 17.4379 6.56212 21.846 12 21.846Z" fill="#202020"/>
+</g>
+<defs>
+<clipPath id="clip0_2062_2187">
+<rect width="24" height="24" fill="white"/>
+</clipPath>
+</defs>
+    </svg>
+  )
+);
+
+ZenBrowser.displayName = "ZenBrowser";
+
+export const ZenBrowserMetadata = {
+  id: "ZenBrowser",
+  baseId: "ZenBrowser",
+  variant: "default",
+  name: "ZenBrowser",
+  category: "browser",
+  tags: [],
+  viewBox: "0 0 24 24",
+} as const;
+
+export default ZenBrowser;

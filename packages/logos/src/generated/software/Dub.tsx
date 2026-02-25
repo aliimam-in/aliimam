@@ -1,0 +1,51 @@
+/**
+ * Auto-generated logo component: Dub (default)
+ * Category: software
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface DubProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string; 
+}
+
+export const Dub = React.forwardRef<SVGSVGElement, DubProps>(
+  ({ size = 24, className = '', ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg" 
+      {...props}
+    >
+      <g clipPath="url(#clip0_2039_509)">
+<path fillRule="evenodd" clipRule="evenodd" d="M12 24C18.6274 24 24 18.6274 24 12C24 7.55851 21.5869 3.68026 18 1.60538V18H15V17.1975C14.0884 17.7253 13.0533 18.0022 12 18C8.68612 18 6 15.3139 6 12C6 8.68613 8.68612 6.00001 12 6.00001C13.0927 6.00001 14.1176 6.29251 15 6.80251V0.378006C14.0199 0.126018 13.0119 -0.000990499 12 5.81625e-06C5.37262 5.81625e-06 0 5.37263 0 12C0 18.6274 5.37262 24 12 24Z" fill="black"/>
+</g>
+<defs>
+<clipPath id="clip0_2039_509">
+<rect width="24" height="24" fill="white"/>
+</clipPath>
+</defs>
+    </svg>
+  )
+);
+
+Dub.displayName = "Dub";
+
+export const DubMetadata = {
+  id: "Dub",
+  baseId: "Dub",
+  variant: "default",
+  name: "Dub",
+  category: "software",
+  tags: [],
+  viewBox: "0 0 24 24",
+} as const;
+
+export default Dub;

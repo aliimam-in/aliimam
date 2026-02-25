@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: Circle Dot Dashed (default)
- * Category: circle
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface CircleDotDashedLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface CircleDotDashedProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const CircleDotDashedLogo = React.forwardRef<SVGSVGElement, CircleDotDashedLogoProps>(
+export const CircleDotDashed = React.forwardRef<SVGSVGElement, CircleDotDashedProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="M10.1 2.18a9.93 9.93 0 0 1 3.8 0" />
   <path d="M17.6 3.71a9.95 9.95 0 0 1 2.69 2.7" />
   <path d="M21.82 10.1a9.93 9.93 0 0 1 0 3.8" />
@@ -38,17 +22,6 @@ export const CircleDotDashedLogo = React.forwardRef<SVGSVGElement, CircleDotDash
     </svg>
   )
 );
-
-CircleDotDashedLogo.displayName = "CircleDotDashedLogo";
-
-export const CircleDotDashedLogoMetadata = {
-  id: "circle-dot-dashed",
-  baseId: "circle-dot-dashed",
-  variant: "default",
-  name: "Circle Dot Dashed",
-  category: "circle",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default CircleDotDashedLogo;
+CircleDotDashed.displayName = "CircleDotDashed";
+export const CircleDotDashedMetadata = { id: "circle-dot-dashed", baseId: "circle-dot-dashed", variant: "default", name: "Circle Dot Dashed", category: "circle", tags: [], viewBox: "0 0 24 24" } as const;
+export default CircleDotDashed;

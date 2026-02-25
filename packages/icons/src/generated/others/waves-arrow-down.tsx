@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: Waves Arrow Down (default)
- * Category: others
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface WavesArrowDownLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface WavesArrowDownProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const WavesArrowDownLogo = React.forwardRef<SVGSVGElement, WavesArrowDownLogoProps>(
+export const WavesArrowDown = React.forwardRef<SVGSVGElement, WavesArrowDownProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="M12 10L12 2" />
   <path d="M16 6L12 10L8 6" />
   <path d="M2 15C2.6 15.5 3.2 16 4.5 16C7 16 7 14 9.5 14C12.1 14 11.9 16 14.5 16C17 16 17 14 19.5 14C20.8 14 21.4 14.5 22 15" />
@@ -33,17 +17,6 @@ export const WavesArrowDownLogo = React.forwardRef<SVGSVGElement, WavesArrowDown
     </svg>
   )
 );
-
-WavesArrowDownLogo.displayName = "WavesArrowDownLogo";
-
-export const WavesArrowDownLogoMetadata = {
-  id: "waves-arrow-down",
-  baseId: "waves-arrow-down",
-  variant: "default",
-  name: "Waves Arrow Down",
-  category: "others",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default WavesArrowDownLogo;
+WavesArrowDown.displayName = "WavesArrowDown";
+export const WavesArrowDownMetadata = { id: "waves-arrow-down", baseId: "waves-arrow-down", variant: "default", name: "Waves Arrow Down", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export default WavesArrowDown;

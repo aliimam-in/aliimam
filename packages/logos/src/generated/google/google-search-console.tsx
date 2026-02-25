@@ -1,5 +1,6 @@
 /**
  * Auto-generated logo component: Google Search Console (default)
+ * Category: google
  * Do not edit manually
  */
 
@@ -8,7 +9,7 @@ import React from 'react';
 
 export interface GoogleSearchConsoleProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
+  className?: string; 
 }
 
 export const GoogleSearchConsole = React.forwardRef<SVGSVGElement, GoogleSearchConsoleProps>(
@@ -18,11 +19,13 @@ export const GoogleSearchConsole = React.forwardRef<SVGSVGElement, GoogleSearchC
       width={size}
       height={size}
       viewBox="0 0 256 228"
+      fill="none"
       className={className}
-      xmlns="http://www.w3.org/2000/svg"
+      xmlns="http://www.w3.org/2000/svg" 
       {...props}
     >
-      <defs>
+      <title>Google Search Console</title>
+    <defs>
         <radialGradient cx="21.6597926%" cy="28.7075835%" fx="21.6597926%" fy="28.7075835%" r="82.8696858%" gradientTransform="translate(0.216598,0.287076),scale(0.740246,1.000000),rotate(36.502479),translate(-0.216598,-0.287076)" id="gscRadialGradient-1">
             <stop stopColor="#F1F2F2" offset="0%"></stop>
             <stop stopColor="#E6E7E8" offset="100%"></stop>

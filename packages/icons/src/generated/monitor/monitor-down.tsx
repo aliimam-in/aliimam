@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: Monitor Down (default)
- * Category: monitor
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface MonitorDownLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface MonitorDownProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const MonitorDownLogo = React.forwardRef<SVGSVGElement, MonitorDownLogoProps>(
+export const MonitorDown = React.forwardRef<SVGSVGElement, MonitorDownProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="M12 13V7" />
   <path d="m15 10-3 3-3-3" />
   <rect width="20" height="14" x="2" y="3" rx="2" />
@@ -34,17 +18,6 @@ export const MonitorDownLogo = React.forwardRef<SVGSVGElement, MonitorDownLogoPr
     </svg>
   )
 );
-
-MonitorDownLogo.displayName = "MonitorDownLogo";
-
-export const MonitorDownLogoMetadata = {
-  id: "monitor-down",
-  baseId: "monitor-down",
-  variant: "default",
-  name: "Monitor Down",
-  category: "monitor",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default MonitorDownLogo;
+MonitorDown.displayName = "MonitorDown";
+export const MonitorDownMetadata = { id: "monitor-down", baseId: "monitor-down", variant: "default", name: "Monitor Down", category: "monitor", tags: [], viewBox: "0 0 24 24" } as const;
+export default MonitorDown;

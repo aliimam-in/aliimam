@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: Hop Off (default)
- * Category: others
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface HopOffLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface HopOffProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const HopOffLogo = React.forwardRef<SVGSVGElement, HopOffLogoProps>(
+export const HopOff = React.forwardRef<SVGSVGElement, HopOffProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="M10.82 16.12c1.69.6 3.91.79 5.18.85.28.01.53-.09.7-.27" />
   <path d="M11.14 20.57c.52.24 2.44 1.12 4.08 1.37.46.06.86-.25.9-.71.12-1.52-.3-3.43-.5-4.28" />
   <path d="M16.13 21.05c1.65.63 3.68.84 4.87.91a.9.9 0 0 0 .7-.26" />
@@ -38,17 +22,6 @@ export const HopOffLogo = React.forwardRef<SVGSVGElement, HopOffLogoProps>(
     </svg>
   )
 );
-
-HopOffLogo.displayName = "HopOffLogo";
-
-export const HopOffLogoMetadata = {
-  id: "hop-off",
-  baseId: "hop-off",
-  variant: "default",
-  name: "Hop Off",
-  category: "others",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default HopOffLogo;
+HopOff.displayName = "HopOff";
+export const HopOffMetadata = { id: "hop-off", baseId: "hop-off", variant: "default", name: "Hop Off", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export default HopOff;

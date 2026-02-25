@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: User Key (default)
- * Category: user
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface UserKeyLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface UserKeyProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const UserKeyLogo = React.forwardRef<SVGSVGElement, UserKeyLogoProps>(
+export const UserKey = React.forwardRef<SVGSVGElement, UserKeyProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="M20 11v6" />
   <path d="M20 13h2" />
   <path d="M3 21v-2a4 4 0 0 1 4-4h6a4 4 0 0 1 2.072.578" />
@@ -34,17 +18,6 @@ export const UserKeyLogo = React.forwardRef<SVGSVGElement, UserKeyLogoProps>(
     </svg>
   )
 );
-
-UserKeyLogo.displayName = "UserKeyLogo";
-
-export const UserKeyLogoMetadata = {
-  id: "user-key",
-  baseId: "user-key",
-  variant: "default",
-  name: "User Key",
-  category: "user",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default UserKeyLogo;
+UserKey.displayName = "UserKey";
+export const UserKeyMetadata = { id: "user-key", baseId: "user-key", variant: "default", name: "User Key", category: "user", tags: [], viewBox: "0 0 24 24" } as const;
+export default UserKey;

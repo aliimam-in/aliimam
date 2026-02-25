@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: Ribbon (default)
- * Category: others
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface RibbonLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface RibbonProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const RibbonLogo = React.forwardRef<SVGSVGElement, RibbonLogoProps>(
+export const Ribbon = React.forwardRef<SVGSVGElement, RibbonProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="M12 11.22C11 9.997 10 9 10 8a2 2 0 0 1 4 0c0 1-.998 2.002-2.01 3.22" />
   <path d="m12 18 2.57-3.5" />
   <path d="M6.243 9.016a7 7 0 0 1 11.507-.009" />
@@ -34,17 +18,6 @@ export const RibbonLogo = React.forwardRef<SVGSVGElement, RibbonLogoProps>(
     </svg>
   )
 );
-
-RibbonLogo.displayName = "RibbonLogo";
-
-export const RibbonLogoMetadata = {
-  id: "ribbon",
-  baseId: "ribbon",
-  variant: "default",
-  name: "Ribbon",
-  category: "others",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default RibbonLogo;
+Ribbon.displayName = "Ribbon";
+export const RibbonMetadata = { id: "ribbon", baseId: "ribbon", variant: "default", name: "Ribbon", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export default Ribbon;

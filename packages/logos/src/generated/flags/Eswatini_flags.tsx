@@ -1,0 +1,52 @@
+/**
+ * Auto-generated logo component: Eswatini (flags)
+ * Category: flags
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface EswatiniFlagsProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string; 
+}
+
+export const EswatiniFlags = React.forwardRef<SVGSVGElement, EswatiniFlagsProps>(
+  ({ size = 24, className = '', ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 32 32"
+      fill="none"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg" 
+      {...props}
+    >
+      <path d="M27 4H5C2.79086 4 1 5.79086 1 8V24C1 26.2091 2.79086 28 5 28H27C29.2091 28 31 26.2091 31 24V8C31 5.79086 29.2091 4 27 4Z" fill="#3C5EBB"/>
+<path d="M31 22V10L1 10V22H31Z" fill="#B30403"/>
+<path d="M31 8H1V10H31V8Z" fill="#FFDB01"/>
+<path d="M31 22H1V24H31V22Z" fill="#FFDB01"/>
+<path d="M6.849 14.2248H25.0117L25.8492 14.5204L27.1068 14.0765L25.8492 13.6326L25.0099 13.9288H6.849C6.7602 13.9288 6.6882 13.995 6.6882 14.0768C6.6882 14.1585 6.7602 14.2248 6.849 14.2248Z" fill="#FFDB01"/>
+<path d="M5.64389 15.1127H23.8066L24.6441 15.4083L25.9017 14.9644L24.6441 14.5205L23.8048 14.8167H5.64389C5.55509 14.8167 5.48309 14.8829 5.48309 14.9647C5.48309 15.0465 5.55509 15.1127 5.64389 15.1127Z" fill="#FFDB01"/>
+<path d="M28.3576 15.7786H3.64241C3.52161 15.7786 3.42371 15.878 3.42371 16.0005C3.42371 16.123 3.52161 16.2224 3.64241 16.2224H28.3577C28.4785 16.2224 28.5764 16.123 28.5764 16.0005C28.5764 15.878 28.4784 15.7786 28.3576 15.7786Z" fill="#FFDB01"/>
+<path d="M23.26 16.0001C21.7804 17.4796 19.8076 20.4389 15.8618 20.4389C12.4094 20.4389 9.94359 17.4797 8.46359 16.0001C9.94319 14.5203 12.4091 11.5613 15.8618 11.5613C19.8073 11.5613 21.78 14.5205 23.26 16.0001Z" fill="white"/>
+<path d="M15.3453 13.1052C15.7389 13.5479 15.4102 13.7264 15.8269 13.7555C16.2663 13.7878 16.0172 14.2233 16.3868 14.2385C16.6452 14.2498 16.361 15.282 16.6097 15.6227C16.8631 15.9778 17.0753 15.7268 17.0798 15.9833C17.0842 16.2487 16.3901 16.2219 16.378 17.0392C16.3576 17.5103 15.7923 17.5404 15.7653 17.8435C15.7317 18.1286 16.8791 18.2886 16.8638 18.5438C16.8481 18.7982 15.625 18.7584 15.5717 19.0486C15.5444 19.3093 17.252 19.5229 17.3893 20.2766C17.1345 20.3599 16.4095 20.4383 15.8616 20.4388C12.4097 20.4413 9.9434 17.4794 8.4639 15.9999C9.9435 14.5202 12.4094 11.561 15.8621 11.561C15.8621 11.561 14.8368 12.4976 15.3453 13.1052Z" fill="black"/>
+    </svg>
+  )
+);
+
+EswatiniFlags.displayName = "EswatiniFlags";
+
+export const EswatiniFlagsMetadata = {
+  id: "Eswatini_flags",
+  baseId: "Eswatini",
+  variant: "flags",
+  name: "Eswatini",
+  category: "flags",
+  tags: [],
+  viewBox: "0 0 32 32",
+} as const;
+
+export default EswatiniFlags;

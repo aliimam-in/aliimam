@@ -1,5 +1,6 @@
 /**
  * Auto-generated logo component: Google Adsense (default)
+ * Category: google
  * Do not edit manually
  */
 
@@ -8,7 +9,7 @@ import React from 'react';
 
 export interface GoogleAdsenseProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
+  className?: string; 
 }
 
 export const GoogleAdsense = React.forwardRef<SVGSVGElement, GoogleAdsenseProps>(
@@ -18,8 +19,9 @@ export const GoogleAdsense = React.forwardRef<SVGSVGElement, GoogleAdsenseProps>
       width={size}
       height={size}
       viewBox="0 0 256 227"
+      fill="none"
       className={className}
-      xmlns="http://www.w3.org/2000/svg"
+      xmlns="http://www.w3.org/2000/svg" 
       {...props}
     >
       <g>

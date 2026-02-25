@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: Panel Left Right Dashed (default)
- * Category: panel
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface PanelLeftRightDashedLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface PanelLeftRightDashedProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const PanelLeftRightDashedLogo = React.forwardRef<SVGSVGElement, PanelLeftRightDashedLogoProps>(
+export const PanelLeftRightDashed = React.forwardRef<SVGSVGElement, PanelLeftRightDashedProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="M15 10V9" />
   <path d="M15 15v-1" />
   <path d="M15 21v-2" />
@@ -38,17 +22,6 @@ export const PanelLeftRightDashedLogo = React.forwardRef<SVGSVGElement, PanelLef
     </svg>
   )
 );
-
-PanelLeftRightDashedLogo.displayName = "PanelLeftRightDashedLogo";
-
-export const PanelLeftRightDashedLogoMetadata = {
-  id: "panel-left-right-dashed",
-  baseId: "panel-left-right-dashed",
-  variant: "default",
-  name: "Panel Left Right Dashed",
-  category: "panel",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default PanelLeftRightDashedLogo;
+PanelLeftRightDashed.displayName = "PanelLeftRightDashed";
+export const PanelLeftRightDashedMetadata = { id: "panel-left-right-dashed", baseId: "panel-left-right-dashed", variant: "default", name: "Panel Left Right Dashed", category: "panel", tags: [], viewBox: "0 0 24 24" } as const;
+export default PanelLeftRightDashed;

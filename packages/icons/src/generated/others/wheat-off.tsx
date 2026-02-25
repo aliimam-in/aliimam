@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: Wheat Off (default)
- * Category: others
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface WheatOffLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface WheatOffProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const WheatOffLogo = React.forwardRef<SVGSVGElement, WheatOffLogoProps>(
+export const WheatOff = React.forwardRef<SVGSVGElement, WheatOffProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="m2 22 10-10" />
   <path d="m16 8-1.17 1.17" />
   <path d="M3.47 12.53 5 11l1.53 1.53a3.5 3.5 0 0 1 0 4.94L5 19l-1.53-1.53a3.5 3.5 0 0 1 0-4.94Z" />
@@ -39,17 +23,6 @@ export const WheatOffLogo = React.forwardRef<SVGSVGElement, WheatOffLogoProps>(
     </svg>
   )
 );
-
-WheatOffLogo.displayName = "WheatOffLogo";
-
-export const WheatOffLogoMetadata = {
-  id: "wheat-off",
-  baseId: "wheat-off",
-  variant: "default",
-  name: "Wheat Off",
-  category: "others",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default WheatOffLogo;
+WheatOff.displayName = "WheatOff";
+export const WheatOffMetadata = { id: "wheat-off", baseId: "wheat-off", variant: "default", name: "Wheat Off", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export default WheatOff;

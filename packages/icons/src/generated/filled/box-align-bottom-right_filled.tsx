@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: Box Align Bottom Right (filled)
- * Category: filled
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface BoxAlignBottomRightFilledLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface BoxAlignBottomRightFilledProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const BoxAlignBottomRightFilledLogo = React.forwardRef<SVGSVGElement, BoxAlignBottomRightFilledLogoProps>(
+export const BoxAlignBottomRightFilled = React.forwardRef<SVGSVGElement, BoxAlignBottomRightFilledProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="M19 12h-5a2 2 0 0 0 -2 2v5a2 2 0 0 0 2 2h5a2 2 0 0 0 2 -2v-5a2 2 0 0 0 -2 -2z" />
   <path d="M20 8a1 1 0 0 1 .993 .883l.007 .127a1 1 0 0 1 -1.993 .117l-.007 -.127a1 1 0 0 1 1 -1z" />
   <path d="M20 3a1 1 0 0 1 .993 .883l.007 .127a1 1 0 0 1 -1.993 .117l-.007 -.127a1 1 0 0 1 1 -1z" />
@@ -39,17 +23,6 @@ export const BoxAlignBottomRightFilledLogo = React.forwardRef<SVGSVGElement, Box
     </svg>
   )
 );
-
-BoxAlignBottomRightFilledLogo.displayName = "BoxAlignBottomRightFilledLogo";
-
-export const BoxAlignBottomRightFilledLogoMetadata = {
-  id: "box-align-bottom-right_filled",
-  baseId: "box-align-bottom-right",
-  variant: "filled",
-  name: "Box Align Bottom Right",
-  category: "filled",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default BoxAlignBottomRightFilledLogo;
+BoxAlignBottomRightFilled.displayName = "BoxAlignBottomRightFilled";
+export const BoxAlignBottomRightFilledMetadata = { id: "box-align-bottom-right_filled", baseId: "box-align-bottom-right", variant: "filled", name: "Box Align Bottom Right", category: "filled", tags: [], viewBox: "0 0 24 24" } as const;
+export default BoxAlignBottomRightFilled;

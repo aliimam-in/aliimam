@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: Atom 2 (filled)
- * Category: filled
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface Atom2FilledLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface Atom2FilledProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const Atom2FilledLogo = React.forwardRef<SVGSVGElement, Atom2FilledLogoProps>(
+export const Atom2Filled = React.forwardRef<SVGSVGElement, Atom2FilledProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="M12 8a4 4 0 1 1 -3.995 4.2l-.005 -.2l.005 -.2a4 4 0 0 1 3.995 -3.8z" />
   <path d="M12 20a1 1 0 0 1 .993 .883l.007 .127a1 1 0 0 1 -1.993 .117l-.007 -.127a1 1 0 0 1 1 -1z" />
   <path d="M3 8a1 1 0 0 1 .993 .883l.007 .127a1 1 0 0 1 -1.993 .117l-.007 -.127a1 1 0 0 1 1 -1z" />
@@ -36,17 +20,6 @@ export const Atom2FilledLogo = React.forwardRef<SVGSVGElement, Atom2FilledLogoPr
     </svg>
   )
 );
-
-Atom2FilledLogo.displayName = "Atom2FilledLogo";
-
-export const Atom2FilledLogoMetadata = {
-  id: "atom-2_filled",
-  baseId: "atom-2",
-  variant: "filled",
-  name: "Atom 2",
-  category: "filled",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default Atom2FilledLogo;
+Atom2Filled.displayName = "Atom2Filled";
+export const Atom2FilledMetadata = { id: "atom-2_filled", baseId: "atom-2", variant: "filled", name: "Atom 2", category: "filled", tags: [], viewBox: "0 0 24 24" } as const;
+export default Atom2Filled;

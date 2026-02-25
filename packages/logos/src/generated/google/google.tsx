@@ -1,5 +1,6 @@
 /**
  * Auto-generated logo component: Google (default)
+ * Category: google
  * Do not edit manually
  */
 
@@ -8,7 +9,7 @@ import React from 'react';
 
 export interface GoogleProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
+  className?: string; 
 }
 
 export const Google = React.forwardRef<SVGSVGElement, GoogleProps>(
@@ -18,8 +19,9 @@ export const Google = React.forwardRef<SVGSVGElement, GoogleProps>(
       width={size}
       height={size}
       viewBox="0 0 512 168"
+      fill="none"
       className={className}
-      xmlns="http://www.w3.org/2000/svg"
+      xmlns="http://www.w3.org/2000/svg" 
       {...props}
     >
       <g>

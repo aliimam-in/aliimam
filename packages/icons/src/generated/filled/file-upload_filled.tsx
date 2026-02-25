@@ -1,47 +1,20 @@
-/**
- * Auto-generated logo component: File Upload (filled)
- * Category: filled
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface FileUploadFilledLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface FileUploadFilledProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const FileUploadFilledLogo = React.forwardRef<SVGSVGElement, FileUploadFilledLogoProps>(
+export const FileUploadFilled = React.forwardRef<SVGSVGElement, FileUploadFilledProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="M12 2l.117 .007a1 1 0 0 1 .876 .876l.007 .117v4l.005 .15a2 2 0 0 0 1.838 1.844l.157 .006h4l.117 .007a1 1 0 0 1 .876 .876l.007 .117v9a3 3 0 0 1 -2.824 2.995l-.176 .005h-10a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-14a3 3 0 0 1 2.824 -2.995l.176 -.005zm0 9l-.09 .004l-.058 .007l-.118 .025l-.105 .035l-.113 .054l-.111 .071a1 1 0 0 0 -.112 .097l-2.5 2.5a1 1 0 0 0 0 1.414l.094 .083a1 1 0 0 0 1.32 -.083l.793 -.793v3.586a1 1 0 0 0 2 0v-3.585l.793 .792a1 1 0 0 0 1.414 -1.414l-2.5 -2.5l-.082 -.073l-.104 -.074l-.098 -.052l-.11 -.044l-.112 -.03l-.126 -.017z" />
   <path d="M19 7h-4l-.001 -4.001z" />
     </svg>
   )
 );
-
-FileUploadFilledLogo.displayName = "FileUploadFilledLogo";
-
-export const FileUploadFilledLogoMetadata = {
-  id: "file-upload_filled",
-  baseId: "file-upload",
-  variant: "filled",
-  name: "File Upload",
-  category: "filled",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default FileUploadFilledLogo;
+FileUploadFilled.displayName = "FileUploadFilled";
+export const FileUploadFilledMetadata = { id: "file-upload_filled", baseId: "file-upload", variant: "filled", name: "File Upload", category: "filled", tags: [], viewBox: "0 0 24 24" } as const;
+export default FileUploadFilled;

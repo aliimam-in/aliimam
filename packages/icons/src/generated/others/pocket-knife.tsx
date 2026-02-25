@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: Pocket Knife (default)
- * Category: others
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface PocketKnifeLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface PocketKnifeProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const PocketKnifeLogo = React.forwardRef<SVGSVGElement, PocketKnifeLogoProps>(
+export const PocketKnife = React.forwardRef<SVGSVGElement, PocketKnifeProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="M3 2v1c0 1 2 1 2 2S3 6 3 7s2 1 2 2-2 1-2 2 2 1 2 2" />
   <path d="M18 6h.01" />
   <path d="M6 18h.01" />
@@ -34,17 +18,6 @@ export const PocketKnifeLogo = React.forwardRef<SVGSVGElement, PocketKnifeLogoPr
     </svg>
   )
 );
-
-PocketKnifeLogo.displayName = "PocketKnifeLogo";
-
-export const PocketKnifeLogoMetadata = {
-  id: "pocket-knife",
-  baseId: "pocket-knife",
-  variant: "default",
-  name: "Pocket Knife",
-  category: "others",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default PocketKnifeLogo;
+PocketKnife.displayName = "PocketKnife";
+export const PocketKnifeMetadata = { id: "pocket-knife", baseId: "pocket-knife", variant: "default", name: "Pocket Knife", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export default PocketKnife;

@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: Venus And Mars (default)
- * Category: others
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface VenusAndMarsLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface VenusAndMarsProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const VenusAndMarsLogo = React.forwardRef<SVGSVGElement, VenusAndMarsLogoProps>(
+export const VenusAndMars = React.forwardRef<SVGSVGElement, VenusAndMarsProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="M10 20h4" />
   <path d="M12 16v6" />
   <path d="M17 2h4v4" />
@@ -34,17 +18,6 @@ export const VenusAndMarsLogo = React.forwardRef<SVGSVGElement, VenusAndMarsLogo
     </svg>
   )
 );
-
-VenusAndMarsLogo.displayName = "VenusAndMarsLogo";
-
-export const VenusAndMarsLogoMetadata = {
-  id: "venus-and-mars",
-  baseId: "venus-and-mars",
-  variant: "default",
-  name: "Venus And Mars",
-  category: "others",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default VenusAndMarsLogo;
+VenusAndMars.displayName = "VenusAndMars";
+export const VenusAndMarsMetadata = { id: "venus-and-mars", baseId: "venus-and-mars", variant: "default", name: "Venus And Mars", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export default VenusAndMars;

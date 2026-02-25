@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: Ruler Dimension Line (default)
- * Category: others
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface RulerDimensionLineLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface RulerDimensionLineProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const RulerDimensionLineLogo = React.forwardRef<SVGSVGElement, RulerDimensionLineLogoProps>(
+export const RulerDimensionLine = React.forwardRef<SVGSVGElement, RulerDimensionLineProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="M10 15v-3" />
   <path d="M14 15v-3" />
   <path d="M18 15v-3" />
@@ -37,17 +21,6 @@ export const RulerDimensionLineLogo = React.forwardRef<SVGSVGElement, RulerDimen
     </svg>
   )
 );
-
-RulerDimensionLineLogo.displayName = "RulerDimensionLineLogo";
-
-export const RulerDimensionLineLogoMetadata = {
-  id: "ruler-dimension-line",
-  baseId: "ruler-dimension-line",
-  variant: "default",
-  name: "Ruler Dimension Line",
-  category: "others",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default RulerDimensionLineLogo;
+RulerDimensionLine.displayName = "RulerDimensionLine";
+export const RulerDimensionLineMetadata = { id: "ruler-dimension-line", baseId: "ruler-dimension-line", variant: "default", name: "Ruler Dimension Line", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export default RulerDimensionLine;

@@ -1,5 +1,6 @@
 /**
  * Auto-generated logo component: Google Cloud (default)
+ * Category: google
  * Do not edit manually
  */
 
@@ -8,7 +9,7 @@ import React from 'react';
 
 export interface GoogleCloudProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
+  className?: string; 
 }
 
 export const GoogleCloud = React.forwardRef<SVGSVGElement, GoogleCloudProps>(
@@ -18,8 +19,9 @@ export const GoogleCloud = React.forwardRef<SVGSVGElement, GoogleCloudProps>(
       width={size}
       height={size}
       viewBox="0 0 256 206"
+      fill="none"
       className={className}
-      xmlns="http://www.w3.org/2000/svg"
+      xmlns="http://www.w3.org/2000/svg" 
       {...props}
     >
       <g>

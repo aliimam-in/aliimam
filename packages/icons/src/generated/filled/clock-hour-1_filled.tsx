@@ -1,46 +1,19 @@
-/**
- * Auto-generated logo component: Clock Hour 1 (filled)
- * Category: filled
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface ClockHour1FilledLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface ClockHour1FilledProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const ClockHour1FilledLogo = React.forwardRef<SVGSVGElement, ClockHour1FilledLogoProps>(
+export const ClockHour1Filled = React.forwardRef<SVGSVGElement, ClockHour1FilledProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="M17 3.34a10 10 0 1 1 -15 8.66l.005 -.324a10 10 0 0 1 14.995 -8.336m-5.401 9.576l.052 .021l.08 .026l.08 .019l.072 .011l.117 .007l.076 -.003l.135 -.02l.082 -.02l.103 -.039l.073 -.035l.078 -.046l.06 -.042l.08 -.069l.083 -.088l.062 -.083l2 -3a1 1 0 1 0 -1.664 -1.11l-.168 .251v-1.696a1 1 0 0 0 -.883 -.993l-.117 -.007a1 1 0 0 0 -1 1v5.026l.009 .105l.02 .107l.04 .129l.048 .102l.046 .078l.042 .06l.069 .08l.088 .083l.083 .062l.09 .053z" />
     </svg>
   )
 );
-
-ClockHour1FilledLogo.displayName = "ClockHour1FilledLogo";
-
-export const ClockHour1FilledLogoMetadata = {
-  id: "clock-hour-1_filled",
-  baseId: "clock-hour-1",
-  variant: "filled",
-  name: "Clock Hour 1",
-  category: "filled",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default ClockHour1FilledLogo;
+ClockHour1Filled.displayName = "ClockHour1Filled";
+export const ClockHour1FilledMetadata = { id: "clock-hour-1_filled", baseId: "clock-hour-1", variant: "filled", name: "Clock Hour 1", category: "filled", tags: [], viewBox: "0 0 24 24" } as const;
+export default ClockHour1Filled;

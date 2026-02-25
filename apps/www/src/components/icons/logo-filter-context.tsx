@@ -7,8 +7,8 @@ type LogoFilterContext = {
   setQuery: (q: string) => void
   category: string | null
   setCategory: (c: string | null) => void
-  variantTab: "icon" | "wordmark"
-  setVariantTab: (v: "icon" | "wordmark") => void
+  variantTab: "icon" | "wordmark" | "flags" | "cards" | "stickers"
+  setVariantTab: (v: "icon" | "wordmark" | "flags" | "cards" | "stickers") => void
 }
 
 const LogoFilterContext = createContext<LogoFilterContext>({
@@ -23,10 +23,12 @@ const LogoFilterContext = createContext<LogoFilterContext>({
 export function LogoFilterProvider({ children }: { children: React.ReactNode }) {
   const [query, setQuery] = useState("")
   const [category, setCategory] = useState<string | null>(null)
-  const [variantTab, setVariantTab] = useState<"icon" | "wordmark">("icon")
+  const [variantTab, setVariantTab] = useState<"icon" | "wordmark" | "flags" | "cards" | "stickers">("icon")
 
   return (
-    <LogoFilterContext.Provider value={{ query, setQuery, category, setCategory, variantTab, setVariantTab }}>
+    <LogoFilterContext.Provider
+      value={{ query, setQuery, category, setCategory, variantTab, setVariantTab }}
+    >
       {children}
     </LogoFilterContext.Provider>
   )

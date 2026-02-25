@@ -1,0 +1,44 @@
+/**
+ * Auto-generated logo component: Mermaid (default)
+ * Category: library
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface MermaidProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string; 
+}
+
+export const Mermaid = React.forwardRef<SVGSVGElement, MermaidProps>(
+  ({ size = 24, className = '', ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg" 
+      {...props}
+    >
+      <path d="M19.9175 5.4345C16.4033 5.2841 13.1766 7.4463 11.9794 10.7536C10.7822 7.4463 7.55541 5.2841 4.04129 5.4345C3.92423 8.22305 5.25826 10.8823 7.56358 12.4556C8.7449 13.267 9.45083 14.6127 9.44692 16.0458V18.5319H14.5123V16.0458C14.5082 14.6128 15.214 13.267 16.3952 12.4556C18.7011 10.8828 20.0354 8.22324 19.9175 5.4345Z" fill="#121212"/>
+    </svg>
+  )
+);
+
+Mermaid.displayName = "Mermaid";
+
+export const MermaidMetadata = {
+  id: "Mermaid",
+  baseId: "Mermaid",
+  variant: "default",
+  name: "Mermaid",
+  category: "library",
+  tags: [],
+  viewBox: "0 0 24 24",
+} as const;
+
+export default Mermaid;

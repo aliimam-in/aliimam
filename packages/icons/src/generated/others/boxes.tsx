@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: Boxes (default)
- * Category: others
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface BoxesLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface BoxesProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const BoxesLogo = React.forwardRef<SVGSVGElement, BoxesLogoProps>(
+export const Boxes = React.forwardRef<SVGSVGElement, BoxesProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="M2.97 12.92A2 2 0 0 0 2 14.63v3.24a2 2 0 0 0 .97 1.71l3 1.8a2 2 0 0 0 2.06 0L12 19v-5.5l-5-3-4.03 2.42Z" />
   <path d="m7 16.5-4.74-2.85" />
   <path d="m7 16.5 5-3" />
@@ -41,17 +25,6 @@ export const BoxesLogo = React.forwardRef<SVGSVGElement, BoxesLogoProps>(
     </svg>
   )
 );
-
-BoxesLogo.displayName = "BoxesLogo";
-
-export const BoxesLogoMetadata = {
-  id: "boxes",
-  baseId: "boxes",
-  variant: "default",
-  name: "Boxes",
-  category: "others",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default BoxesLogo;
+Boxes.displayName = "Boxes";
+export const BoxesMetadata = { id: "boxes", baseId: "boxes", variant: "default", name: "Boxes", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export default Boxes;

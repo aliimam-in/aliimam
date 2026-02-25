@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: Panel Top Bottom Dashed (default)
- * Category: panel
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface PanelTopBottomDashedLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface PanelTopBottomDashedProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const PanelTopBottomDashedLogo = React.forwardRef<SVGSVGElement, PanelTopBottomDashedLogoProps>(
+export const PanelTopBottomDashed = React.forwardRef<SVGSVGElement, PanelTopBottomDashedProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="M14 15h1" />
   <path d="M14 9h1" />
   <path d="M19 15h2" />
@@ -38,17 +22,6 @@ export const PanelTopBottomDashedLogo = React.forwardRef<SVGSVGElement, PanelTop
     </svg>
   )
 );
-
-PanelTopBottomDashedLogo.displayName = "PanelTopBottomDashedLogo";
-
-export const PanelTopBottomDashedLogoMetadata = {
-  id: "panel-top-bottom-dashed",
-  baseId: "panel-top-bottom-dashed",
-  variant: "default",
-  name: "Panel Top Bottom Dashed",
-  category: "panel",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default PanelTopBottomDashedLogo;
+PanelTopBottomDashed.displayName = "PanelTopBottomDashed";
+export const PanelTopBottomDashedMetadata = { id: "panel-top-bottom-dashed", baseId: "panel-top-bottom-dashed", variant: "default", name: "Panel Top Bottom Dashed", category: "panel", tags: [], viewBox: "0 0 24 24" } as const;
+export default PanelTopBottomDashed;

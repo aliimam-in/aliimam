@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: Pin Off (default)
- * Category: others
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface PinOffLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface PinOffProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const PinOffLogo = React.forwardRef<SVGSVGElement, PinOffLogoProps>(
+export const PinOff = React.forwardRef<SVGSVGElement, PinOffProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="M12 17v5" />
   <path d="M15 9.34V7a1 1 0 0 1 1-1 2 2 0 0 0 0-4H7.89" />
   <path d="m2 2 20 20" />
@@ -33,17 +17,6 @@ export const PinOffLogo = React.forwardRef<SVGSVGElement, PinOffLogoProps>(
     </svg>
   )
 );
-
-PinOffLogo.displayName = "PinOffLogo";
-
-export const PinOffLogoMetadata = {
-  id: "pin-off",
-  baseId: "pin-off",
-  variant: "default",
-  name: "Pin Off",
-  category: "others",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default PinOffLogo;
+PinOff.displayName = "PinOff";
+export const PinOffMetadata = { id: "pin-off", baseId: "pin-off", variant: "default", name: "Pin Off", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export default PinOff;

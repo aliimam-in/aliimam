@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: Memory Stick (default)
- * Category: others
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface MemoryStickLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface MemoryStickProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const MemoryStickLogo = React.forwardRef<SVGSVGElement, MemoryStickLogoProps>(
+export const MemoryStick = React.forwardRef<SVGSVGElement, MemoryStickProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="M12 12v-2" />
   <path d="M12 18v-2" />
   <path d="M16 12v-2" />
@@ -40,17 +24,6 @@ export const MemoryStickLogo = React.forwardRef<SVGSVGElement, MemoryStickLogoPr
     </svg>
   )
 );
-
-MemoryStickLogo.displayName = "MemoryStickLogo";
-
-export const MemoryStickLogoMetadata = {
-  id: "memory-stick",
-  baseId: "memory-stick",
-  variant: "default",
-  name: "Memory Stick",
-  category: "others",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default MemoryStickLogo;
+MemoryStick.displayName = "MemoryStick";
+export const MemoryStickMetadata = { id: "memory-stick", baseId: "memory-stick", variant: "default", name: "Memory Stick", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export default MemoryStick;

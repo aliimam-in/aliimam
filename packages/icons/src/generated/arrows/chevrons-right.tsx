@@ -1,47 +1,20 @@
-/**
- * Auto-generated logo component: Chevrons Right (default)
- * Category: arrows
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface ChevronsRightLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface ChevronsRightProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const ChevronsRightLogo = React.forwardRef<SVGSVGElement, ChevronsRightLogoProps>(
+export const ChevronsRight = React.forwardRef<SVGSVGElement, ChevronsRightProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="m6 17 5-5-5-5" />
   <path d="m13 17 5-5-5-5" />
     </svg>
   )
 );
-
-ChevronsRightLogo.displayName = "ChevronsRightLogo";
-
-export const ChevronsRightLogoMetadata = {
-  id: "chevrons-right",
-  baseId: "chevrons-right",
-  variant: "default",
-  name: "Chevrons Right",
-  category: "arrows",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default ChevronsRightLogo;
+ChevronsRight.displayName = "ChevronsRight";
+export const ChevronsRightMetadata = { id: "chevrons-right", baseId: "chevrons-right", variant: "default", name: "Chevrons Right", category: "arrows", tags: [], viewBox: "0 0 24 24" } as const;
+export default ChevronsRight;

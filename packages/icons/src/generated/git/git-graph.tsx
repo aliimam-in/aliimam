@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: Git Graph (default)
- * Category: git
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface GitGraphLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface GitGraphProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const GitGraphLogo = React.forwardRef<SVGSVGElement, GitGraphLogoProps>(
+export const GitGraph = React.forwardRef<SVGSVGElement, GitGraphProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <circle cx="5" cy="6" r="3" />
   <path d="M5 9v6" />
   <circle cx="5" cy="18" r="3" />
@@ -35,17 +19,6 @@ export const GitGraphLogo = React.forwardRef<SVGSVGElement, GitGraphLogoProps>(
     </svg>
   )
 );
-
-GitGraphLogo.displayName = "GitGraphLogo";
-
-export const GitGraphLogoMetadata = {
-  id: "git-graph",
-  baseId: "git-graph",
-  variant: "default",
-  name: "Git Graph",
-  category: "git",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default GitGraphLogo;
+GitGraph.displayName = "GitGraph";
+export const GitGraphMetadata = { id: "git-graph", baseId: "git-graph", variant: "default", name: "Git Graph", category: "git", tags: [], viewBox: "0 0 24 24" } as const;
+export default GitGraph;

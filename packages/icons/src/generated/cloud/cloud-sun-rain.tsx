@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: Cloud Sun Rain (default)
- * Category: cloud
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface CloudSunRainLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface CloudSunRainProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const CloudSunRainLogo = React.forwardRef<SVGSVGElement, CloudSunRainLogoProps>(
+export const CloudSunRain = React.forwardRef<SVGSVGElement, CloudSunRainProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="M12 2v2" />
   <path d="m4.93 4.93 1.41 1.41" />
   <path d="M20 12h2" />
@@ -37,17 +21,6 @@ export const CloudSunRainLogo = React.forwardRef<SVGSVGElement, CloudSunRainLogo
     </svg>
   )
 );
-
-CloudSunRainLogo.displayName = "CloudSunRainLogo";
-
-export const CloudSunRainLogoMetadata = {
-  id: "cloud-sun-rain",
-  baseId: "cloud-sun-rain",
-  variant: "default",
-  name: "Cloud Sun Rain",
-  category: "cloud",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default CloudSunRainLogo;
+CloudSunRain.displayName = "CloudSunRain";
+export const CloudSunRainMetadata = { id: "cloud-sun-rain", baseId: "cloud-sun-rain", variant: "default", name: "Cloud Sun Rain", category: "cloud", tags: [], viewBox: "0 0 24 24" } as const;
+export default CloudSunRain;

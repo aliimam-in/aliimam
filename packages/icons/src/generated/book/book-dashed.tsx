@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: Book Dashed (default)
- * Category: book
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface BookDashedLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface BookDashedProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const BookDashedLogo = React.forwardRef<SVGSVGElement, BookDashedLogoProps>(
+export const BookDashed = React.forwardRef<SVGSVGElement, BookDashedProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="M12 17h1.5" />
   <path d="M12 22h1.5" />
   <path d="M12 2h1.5" />
@@ -40,17 +24,6 @@ export const BookDashedLogo = React.forwardRef<SVGSVGElement, BookDashedLogoProp
     </svg>
   )
 );
-
-BookDashedLogo.displayName = "BookDashedLogo";
-
-export const BookDashedLogoMetadata = {
-  id: "book-dashed",
-  baseId: "book-dashed",
-  variant: "default",
-  name: "Book Dashed",
-  category: "book",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default BookDashedLogo;
+BookDashed.displayName = "BookDashed";
+export const BookDashedMetadata = { id: "book-dashed", baseId: "book-dashed", variant: "default", name: "Book Dashed", category: "book", tags: [], viewBox: "0 0 24 24" } as const;
+export default BookDashed;

@@ -1,46 +1,19 @@
-/**
- * Auto-generated logo component: Device Gamepad 3 (filled)
- * Category: filled
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface DeviceGamepad3FilledLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface DeviceGamepad3FilledProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const DeviceGamepad3FilledLogo = React.forwardRef<SVGSVGElement, DeviceGamepad3FilledLogoProps>(
+export const DeviceGamepad3Filled = React.forwardRef<SVGSVGElement, DeviceGamepad3FilledProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="M12.707 14.293l3 3a1 1 0 0 1 .293 .707v2a2 2 0 0 1 -2 2h-4a2 2 0 0 1 -2 -2v-2a1 1 0 0 1 .293 -.707l3 -3a1 1 0 0 1 1.414 0m-6.707 -6.293a1 1 0 0 1 .707 .293l3 3a1 1 0 0 1 0 1.414l-3 3a1 1 0 0 1 -.707 .293h-2a2 2 0 0 1 -2 -2v-4a2 2 0 0 1 2 -2zm14 0a2 2 0 0 1 2 2v4a2 2 0 0 1 -2 2h-2a1 1 0 0 1 -.707 -.293l-3 -3a1 1 0 0 1 0 -1.414l3 -3a1 1 0 0 1 .707 -.293zm-6 -6a2 2 0 0 1 2 2v2a1 1 0 0 1 -.293 .707l-3 3a1 1 0 0 1 -1.414 0l-3 -3a1 1 0 0 1 -.293 -.707v-2a2 2 0 0 1 2 -2z" />
     </svg>
   )
 );
-
-DeviceGamepad3FilledLogo.displayName = "DeviceGamepad3FilledLogo";
-
-export const DeviceGamepad3FilledLogoMetadata = {
-  id: "device-gamepad-3_filled",
-  baseId: "device-gamepad-3",
-  variant: "filled",
-  name: "Device Gamepad 3",
-  category: "filled",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default DeviceGamepad3FilledLogo;
+DeviceGamepad3Filled.displayName = "DeviceGamepad3Filled";
+export const DeviceGamepad3FilledMetadata = { id: "device-gamepad-3_filled", baseId: "device-gamepad-3", variant: "filled", name: "Device Gamepad 3", category: "filled", tags: [], viewBox: "0 0 24 24" } as const;
+export default DeviceGamepad3Filled;

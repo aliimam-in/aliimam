@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: Cloud Hail (default)
- * Category: cloud
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface CloudHailLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface CloudHailProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const CloudHailLogo = React.forwardRef<SVGSVGElement, CloudHailLogoProps>(
+export const CloudHail = React.forwardRef<SVGSVGElement, CloudHailProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242" />
   <path d="M16 14v2" />
   <path d="M8 14v2" />
@@ -36,17 +20,6 @@ export const CloudHailLogo = React.forwardRef<SVGSVGElement, CloudHailLogoProps>
     </svg>
   )
 );
-
-CloudHailLogo.displayName = "CloudHailLogo";
-
-export const CloudHailLogoMetadata = {
-  id: "cloud-hail",
-  baseId: "cloud-hail",
-  variant: "default",
-  name: "Cloud Hail",
-  category: "cloud",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default CloudHailLogo;
+CloudHail.displayName = "CloudHail";
+export const CloudHailMetadata = { id: "cloud-hail", baseId: "cloud-hail", variant: "default", name: "Cloud Hail", category: "cloud", tags: [], viewBox: "0 0 24 24" } as const;
+export default CloudHail;

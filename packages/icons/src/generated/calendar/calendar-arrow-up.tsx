@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: Calendar Arrow Up (default)
- * Category: calendar
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface CalendarArrowUpLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface CalendarArrowUpProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const CalendarArrowUpLogo = React.forwardRef<SVGSVGElement, CalendarArrowUpLogoProps>(
+export const CalendarArrowUp = React.forwardRef<SVGSVGElement, CalendarArrowUpProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="m14 18 4-4 4 4" />
   <path d="M16 2v4" />
   <path d="M18 22v-8" />
@@ -35,17 +19,6 @@ export const CalendarArrowUpLogo = React.forwardRef<SVGSVGElement, CalendarArrow
     </svg>
   )
 );
-
-CalendarArrowUpLogo.displayName = "CalendarArrowUpLogo";
-
-export const CalendarArrowUpLogoMetadata = {
-  id: "calendar-arrow-up",
-  baseId: "calendar-arrow-up",
-  variant: "default",
-  name: "Calendar Arrow Up",
-  category: "calendar",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default CalendarArrowUpLogo;
+CalendarArrowUp.displayName = "CalendarArrowUp";
+export const CalendarArrowUpMetadata = { id: "calendar-arrow-up", baseId: "calendar-arrow-up", variant: "default", name: "Calendar Arrow Up", category: "calendar", tags: [], viewBox: "0 0 24 24" } as const;
+export default CalendarArrowUp;

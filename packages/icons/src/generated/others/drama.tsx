@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: Drama (default)
- * Category: others
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface DramaLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface DramaProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const DramaLogo = React.forwardRef<SVGSVGElement, DramaLogoProps>(
+export const Drama = React.forwardRef<SVGSVGElement, DramaProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="M10 11h.01" />
   <path d="M14 6h.01" />
   <path d="M18 6h.01" />
@@ -37,17 +21,6 @@ export const DramaLogo = React.forwardRef<SVGSVGElement, DramaLogoProps>(
     </svg>
   )
 );
-
-DramaLogo.displayName = "DramaLogo";
-
-export const DramaLogoMetadata = {
-  id: "drama",
-  baseId: "drama",
-  variant: "default",
-  name: "Drama",
-  category: "others",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default DramaLogo;
+Drama.displayName = "Drama";
+export const DramaMetadata = { id: "drama", baseId: "drama", variant: "default", name: "Drama", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export default Drama;

@@ -1,62 +1,84 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client"
 
-import { useEffect, useMemo, useState } from "react"
+import { useEffect, useMemo, useRef, useState } from "react"
+import { useSearchParams } from "next/navigation"
 import { allLogos } from "../../../../../packages/icons/src/generated"
 import { useIconFilter } from "./icon-filter-context"
 
-const HIDDEN_CATEGORIES = new Set(["outline", "filled"])
+function matchesVariantTab(variant: string, tab: "outline" | "filled" | "circle"): boolean {
+  const v = (variant ?? "").toLowerCase()
+  if (tab === "outline") return v === "default" || v === "outline" || v === ""
+  if (tab === "filled") return v === "filled"
+  if (tab === "circle") return v === "circle"
+  return false
+}
 
 export function IconCategoryTabs() {
-  const { category, setCategory } = useIconFilter()
-  const [currentHash, setCurrentHash] = useState<string | null>(null)
+  const { setCategory, variantTab } = useIconFilter()
+  const searchParams = useSearchParams()
+  const [activeHash, setActiveHash] = useState<string | null>(null)
+  const activeRef = useRef<HTMLButtonElement | null>(null)
+
+  // Hash sync
+  useEffect(() => {
+    const sync = () => {
+      const hash = window.location.hash.replace("#", "") || null
+      setActiveHash(hash)
+    }
+    sync()
+    window.addEventListener("hashchange", sync)
+    return () => window.removeEventListener("hashchange", sync)
+  }, [])
+
+  // Scroll active item into view
+  useEffect(() => {
+    activeRef.current?.scrollIntoView({ behavior: "smooth", block: "nearest" })
+  }, [activeHash])
 
   const categoriesWithCount = useMemo(() => {
     const map = new Map<string, number>()
-
-    Object.entries(allLogos).forEach(([cat, logos]) => {
-      if (HIDDEN_CATEGORIES.has(cat.toLowerCase())) return
-
+    ;(Object.entries(allLogos) as [string, Record<string, any>][]).forEach(([cat, logos]) => {
       const uniqueBaseIds = new Set(
-        // eslint-disable-next-line @typescript-eslint/no-explicit-any
-        Object.values(logos).map((entry: any) => entry.metadata.baseId)
+        Object.values(logos)
+          .filter((entry: any) => matchesVariantTab(entry.metadata.variant, variantTab))
+          .map((entry: any) => entry.metadata.baseId as string)
       )
-      map.set(cat, uniqueBaseIds.size)
+      if (uniqueBaseIds.size > 0) map.set(cat, uniqueBaseIds.size)
     })
-
     return Array.from(map.entries()).sort((a, b) => a[0].localeCompare(b[0]))
-  }, [])
+  }, [variantTab])
 
-  const totalCount = useMemo(() => {
-    return categoriesWithCount.reduce((acc, [, count]) => acc + count, 0)
-  }, [categoriesWithCount])
-
-  useEffect(() => {
-    const updateHash = () => setCurrentHash(window.location.hash.slice(1))
-    updateHash()
-    window.addEventListener("hashchange", updateHash)
-    return () => window.removeEventListener("hashchange", updateHash)
-  }, [])
-
-  useEffect(() => {
-    if (currentHash) {
-      setCategory(currentHash === "logos" ? null : currentHash)
-    }
-  }, [currentHash, setCategory])
+  const totalCount = useMemo(
+    () => categoriesWithCount.reduce((acc, [, count]) => acc + count, 0),
+    [categoriesWithCount]
+  )
 
   const handleClick = (cat: string | null) => {
-    const hash = cat ?? "logos"
-    window.location.hash = hash
     setCategory(cat)
-    setCurrentHash(hash)
+
+    // Tab param preserve karo, hash update karo — no full page navigation
+    const tab = searchParams.get("tab")
+    const params = new URLSearchParams()
+    if (tab) params.set("tab", tab)
+
+    const search = params.size ? `?${params}` : ""
+    const hash = cat ? `#${cat}` : ""
+
+    // history.pushState — Next.js router trigger nahi hoga, sirf URL update hoga
+    window.history.pushState(null, "", `/icons${search}${hash}`)
+    // Manually fire hashchange so listeners update
+    window.dispatchEvent(new HashChangeEvent("hashchange"))
   }
 
   return (
-    <div className="sticky top-30 z-30 hidden h-[calc(100svh-var(--footer-height)+2rem)] w-72 scroll-mt-20 bg-transparent lg:flex">
-      <aside className="h-full w-full space-y-3 p-3">
+    <div className="sticky top-30 z-30 hidden h-[calc(100svh-var(--footer-height)+2rem)] w-72 scroll-mt-40 bg-transparent lg:flex">
+      <aside className="h-full w-full overflow-y-auto space-y-3 p-3">
         <button
+          ref={activeHash === null ? activeRef : null}
           onClick={() => handleClick(null)}
           className={`flex w-full cursor-pointer justify-between text-left ${
-            category === null ? "font-semibold" : "text-muted-foreground"
+            activeHash === null ? "font-semibold" : "text-muted-foreground"
           }`}
         >
           <span className="text-sm">ALL</span>
@@ -66,9 +88,10 @@ export function IconCategoryTabs() {
         {categoriesWithCount.map(([cat, count]) => (
           <button
             key={cat}
+            ref={activeHash === cat ? activeRef : null}
             onClick={() => handleClick(cat)}
-            className={`flex w-full text-sm cursor-pointer justify-between text-left uppercase ${
-              category === cat ? "font-semibold" : "text-muted-foreground"
+            className={`flex w-full cursor-pointer justify-between text-left text-sm uppercase ${
+              activeHash === cat ? "font-semibold" : "text-muted-foreground"
             }`}
           >
             <span>{cat}</span>

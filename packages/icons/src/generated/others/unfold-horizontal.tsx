@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: Unfold Horizontal (default)
- * Category: others
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface UnfoldHorizontalLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface UnfoldHorizontalProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const UnfoldHorizontalLogo = React.forwardRef<SVGSVGElement, UnfoldHorizontalLogoProps>(
+export const UnfoldHorizontal = React.forwardRef<SVGSVGElement, UnfoldHorizontalProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="M16 12h6" />
   <path d="M8 12H2" />
   <path d="M12 2v2" />
@@ -37,17 +21,6 @@ export const UnfoldHorizontalLogo = React.forwardRef<SVGSVGElement, UnfoldHorizo
     </svg>
   )
 );
-
-UnfoldHorizontalLogo.displayName = "UnfoldHorizontalLogo";
-
-export const UnfoldHorizontalLogoMetadata = {
-  id: "unfold-horizontal",
-  baseId: "unfold-horizontal",
-  variant: "default",
-  name: "Unfold Horizontal",
-  category: "others",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default UnfoldHorizontalLogo;
+UnfoldHorizontal.displayName = "UnfoldHorizontal";
+export const UnfoldHorizontalMetadata = { id: "unfold-horizontal", baseId: "unfold-horizontal", variant: "default", name: "Unfold Horizontal", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export default UnfoldHorizontal;

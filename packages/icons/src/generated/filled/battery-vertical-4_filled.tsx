@@ -1,46 +1,19 @@
-/**
- * Auto-generated logo component: Battery Vertical 4 (filled)
- * Category: filled
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface BatteryVertical4FilledLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface BatteryVertical4FilledProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const BatteryVertical4FilledLogo = React.forwardRef<SVGSVGElement, BatteryVertical4FilledLogoProps>(
+export const BatteryVertical4Filled = React.forwardRef<SVGSVGElement, BatteryVertical4FilledProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="M13.5 3a1.5 1.5 0 0 1 1.395 .948l.018 .052h.087a3 3 0 0 1 2.995 2.824l.005 .176v11a3 3 0 0 1 -3 3h-6a3 3 0 0 1 -3 -3v-11a3 3 0 0 1 3 -3h.086l.019 -.052a1.5 1.5 0 0 1 1.25 -.941l.145 -.007zm.5 13h-4a1 1 0 0 0 0 2h4a1 1 0 0 0 0 -2m0 -3h-4a1 1 0 0 0 0 2h4a1 1 0 0 0 0 -2m0 -3h-4a1 1 0 0 0 0 2h4a1 1 0 0 0 0 -2m0 -3h-4a1 1 0 1 0 0 2h4a1 1 0 0 0 0 -2" />
     </svg>
   )
 );
-
-BatteryVertical4FilledLogo.displayName = "BatteryVertical4FilledLogo";
-
-export const BatteryVertical4FilledLogoMetadata = {
-  id: "battery-vertical-4_filled",
-  baseId: "battery-vertical-4",
-  variant: "filled",
-  name: "Battery Vertical 4",
-  category: "filled",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default BatteryVertical4FilledLogo;
+BatteryVertical4Filled.displayName = "BatteryVertical4Filled";
+export const BatteryVertical4FilledMetadata = { id: "battery-vertical-4_filled", baseId: "battery-vertical-4", variant: "filled", name: "Battery Vertical 4", category: "filled", tags: [], viewBox: "0 0 24 24" } as const;
+export default BatteryVertical4Filled;

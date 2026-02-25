@@ -1,12 +1,12 @@
 import {
   ClaudeAI,
   Cursor,
-  Gemini,
+  GoogleGemini,
   Github,
   Google,
   Grok,
   OpenAI,
-  Replicate,
+  Replicate, 
 } from "@aliimam/logos"
 
 import { EmptyAvatarGroup } from "@/registry/aliimam/blocks/bento/bento-01/empty-avatar"
@@ -114,7 +114,7 @@ export default function BentoExample() {
                   <ClaudeAI type="wordmark" size={100} />
                   <Replicate type="wordmark" size={100} />
                   <Cursor type="wordmark" size={100} />
-                  <Gemini type="wordmark" size={90} />
+                  <GoogleGemini type="wordmark" size={90} />
                   <Github type="wordmark" size={90} />
                   <Grok type="wordmark" size={100} />
                   <Google className="mr-16" type="wordmark" size={100} />

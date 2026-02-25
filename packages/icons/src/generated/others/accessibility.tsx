@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: Accessibility (default)
- * Category: others
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface AccessibilityLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface AccessibilityProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const AccessibilityLogo = React.forwardRef<SVGSVGElement, AccessibilityLogoProps>(
+export const Accessibility = React.forwardRef<SVGSVGElement, AccessibilityProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <circle cx="16" cy="4" r="1" />
   <path d="m18 19 1-7-6 1" />
   <path d="m5 8 3-3 5.5 3-2.36 3.5" />
@@ -34,17 +18,6 @@ export const AccessibilityLogo = React.forwardRef<SVGSVGElement, AccessibilityLo
     </svg>
   )
 );
-
-AccessibilityLogo.displayName = "AccessibilityLogo";
-
-export const AccessibilityLogoMetadata = {
-  id: "accessibility",
-  baseId: "accessibility",
-  variant: "default",
-  name: "Accessibility",
-  category: "others",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default AccessibilityLogo;
+Accessibility.displayName = "Accessibility";
+export const AccessibilityMetadata = { id: "accessibility", baseId: "accessibility", variant: "default", name: "Accessibility", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export default Accessibility;

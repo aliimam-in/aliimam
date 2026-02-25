@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: Apps (filled)
- * Category: filled
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface AppsFilledLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface AppsFilledProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const AppsFilledLogo = React.forwardRef<SVGSVGElement, AppsFilledLogoProps>(
+export const AppsFilled = React.forwardRef<SVGSVGElement, AppsFilledProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="M9 3h-4a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h4a2 2 0 0 0 2 -2v-4a2 2 0 0 0 -2 -2z" />
   <path d="M9 13h-4a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h4a2 2 0 0 0 2 -2v-4a2 2 0 0 0 -2 -2z" />
   <path d="M19 13h-4a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h4a2 2 0 0 0 2 -2v-4a2 2 0 0 0 -2 -2z" />
@@ -33,17 +17,6 @@ export const AppsFilledLogo = React.forwardRef<SVGSVGElement, AppsFilledLogoProp
     </svg>
   )
 );
-
-AppsFilledLogo.displayName = "AppsFilledLogo";
-
-export const AppsFilledLogoMetadata = {
-  id: "apps_filled",
-  baseId: "apps",
-  variant: "filled",
-  name: "Apps",
-  category: "filled",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default AppsFilledLogo;
+AppsFilled.displayName = "AppsFilled";
+export const AppsFilledMetadata = { id: "apps_filled", baseId: "apps", variant: "filled", name: "Apps", category: "filled", tags: [], viewBox: "0 0 24 24" } as const;
+export default AppsFilled;

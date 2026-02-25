@@ -11,11 +11,12 @@ export { GoogleCloudRun, GoogleCloudRunMetadata, type GoogleCloudRunProps } from
 export { GoogleCloud, GoogleCloudMetadata, type GoogleCloudProps } from './google-cloud';
 export { GoogleDataStudio, GoogleDataStudioMetadata, type GoogleDataStudioProps } from './google-data-studio';
 export { GoogleDevelopers, GoogleDevelopersMetadata, type GoogleDevelopersProps } from './google-developers';
-export { GoogleDomainsWordmark, GoogleDomainsWordmarkMetadata, type GoogleDomainsWordmarkProps } from './google-domains-wordmark';
 export { GoogleDomains, GoogleDomainsMetadata, type GoogleDomainsProps } from './google-domains';
+export { GoogleDomainsWordmark, GoogleDomainsWordmarkMetadata, type GoogleDomainsWordmarkProps } from './google-domains_wordmark';
 export { GoogleDrive, GoogleDriveMetadata, type GoogleDriveProps } from './google-drive';
 export { GoogleFit, GoogleFitMetadata, type GoogleFitProps } from './google-fit';
-export { GoogleGeminiWordmark, GoogleGeminiWordmarkMetadata, type GoogleGeminiWordmarkProps } from './google-gemini-wordmark';
+export { GoogleGemini, GoogleGeminiMetadata, type GoogleGeminiProps } from './google-gemini';
+export { GoogleGeminiWordmark, GoogleGeminiWordmarkMetadata, type GoogleGeminiWordmarkProps } from './google-gemini_wordmark';
 export { GoogleGmail, GoogleGmailMetadata, type GoogleGmailProps } from './google-gmail';
 export { GoogleHome, GoogleHomeMetadata, type GoogleHomeProps } from './google-home';
 export { GoogleIcon, GoogleIconMetadata, type GoogleIconProps } from './google-icon';
@@ -30,8 +31,8 @@ export { GooglePay, GooglePayMetadata, type GooglePayProps } from './google-pay'
 export { GooglePhotos, GooglePhotosMetadata, type GooglePhotosProps } from './google-photos';
 export { GooglePlayConsoleIcon, GooglePlayConsoleIconMetadata, type GooglePlayConsoleIconProps } from './google-play-console-icon';
 export { GooglePlayConsole, GooglePlayConsoleMetadata, type GooglePlayConsoleProps } from './google-play-console';
-export { GooglePlayWordmark, GooglePlayWordmarkMetadata, type GooglePlayWordmarkProps } from './google-play-wordmark';
 export { GooglePlay, GooglePlayMetadata, type GooglePlayProps } from './google-play';
+export { GooglePlayWordmark, GooglePlayWordmarkMetadata, type GooglePlayWordmarkProps } from './google-play_wordmark';
 export { GoogleSearchConsole, GoogleSearchConsoleMetadata, type GoogleSearchConsoleProps } from './google-search-console';
 export { GoogleTagManager, GoogleTagManagerMetadata, type GoogleTagManagerProps } from './google-tag-manager';
 export { GoogleWorkspace, GoogleWorkspaceMetadata, type GoogleWorkspaceProps } from './google-workspace';

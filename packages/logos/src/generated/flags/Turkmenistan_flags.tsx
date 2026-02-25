@@ -1,0 +1,51 @@
+/**
+ * Auto-generated logo component: Turkmenistan (flags)
+ * Category: flags
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface TurkmenistanFlagsProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string; 
+}
+
+export const TurkmenistanFlags = React.forwardRef<SVGSVGElement, TurkmenistanFlagsProps>(
+  ({ size = 24, className = '', ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 32 32"
+      fill="none"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg" 
+      {...props}
+    >
+      <path d="M27 4H5C2.79086 4 1 5.79086 1 8V24C1 26.2091 2.79086 28 5 28H27C29.2091 28 31 26.2091 31 24V8C31 5.79086 29.2091 4 27 4Z" fill="#3A8343"/>
+<path d="M6 4H11V28H6V4Z" fill="#C23635"/>
+<path d="M19.138 7.45801C20.078 8.26001 20.653 9.47101 20.595 10.801C20.495 13.091 18.556 14.868 16.266 14.768C15.75 14.745 15.26 14.629 14.812 14.437C15.537 15.054 16.476 15.427 17.502 15.427C19.795 15.427 21.654 13.568 21.654 11.275C21.654 9.56301 20.618 8.09301 19.138 7.45801Z" fill="white"/>
+<path d="M15.178 10.51L15.358 9.95701H15.939L15.469 9.61501L15.649 9.06201L15.178 9.40401L14.708 9.06201L14.888 9.61501L14.417 9.95701H14.999L15.178 10.51Z" fill="white"/>
+<path d="M14.999 7.822L15.178 8.375L15.358 7.822H15.939L15.469 7.48L15.649 6.927L15.178 7.269L14.708 6.927L14.888 7.48L14.417 7.822H14.999Z" fill="white"/>
+<path d="M17.109 8.916L17.288 9.469L17.468 8.916H18.049L17.579 8.574L17.759 8.021L17.288 8.363L16.818 8.021L16.997 8.574L16.527 8.916H17.109Z" fill="white"/>
+<path d="M13.359 10.657L13.539 10.104L13.069 10.445L12.598 10.104L12.778 10.657L12.307 10.998H12.889L13.069 11.551L13.248 10.998H13.83L13.359 10.657Z" fill="white"/>
+<path d="M15.178 12.646L15.358 12.093H15.939L15.469 11.751L15.649 11.198L15.178 11.54L14.708 11.198L14.888 11.751L14.417 12.093H14.999L15.178 12.646Z" fill="white"/>
+    </svg>
+  )
+);
+
+TurkmenistanFlags.displayName = "TurkmenistanFlags";
+
+export const TurkmenistanFlagsMetadata = {
+  id: "Turkmenistan_flags",
+  baseId: "Turkmenistan",
+  variant: "flags",
+  name: "Turkmenistan",
+  category: "flags",
+  tags: [],
+  viewBox: "0 0 32 32",
+} as const;
+
+export default TurkmenistanFlags;

@@ -1,46 +1,19 @@
-/**
- * Auto-generated logo component: Engine (filled)
- * Category: filled
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface EngineFilledLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface EngineFilledProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const EngineFilledLogo = React.forwardRef<SVGSVGElement, EngineFilledLogoProps>(
+export const EngineFilled = React.forwardRef<SVGSVGElement, EngineFilledProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="M14 4a1 1 0 0 1 0 2h-1v1h.383a2 2 0 0 1 1.787 1.106l1.45 2.894h.38v-1a1 1 0 0 1 .883 -.993l.117 -.007h2a2 2 0 0 1 2 2v6a2 2 0 0 1 -2 2h-2a1 1 0 0 1 -1 -1v-1h-1v1a2 2 0 0 1 -1.85 1.995l-.15 .005h-3.465a2 2 0 0 1 -1.664 -.89l-1.407 -2.11h-1.464a1 1 0 0 1 -.993 -.883l-.007 -.117v-2h-1v2a1 1 0 0 1 -2 0v-6a1 1 0 1 1 2 0v2h1v-2a1 1 0 0 1 1 -1h1.584l1.709 -1.707a1 1 0 0 1 .576 -.284l.131 -.009h1v-1h-1a1 1 0 1 1 0 -2z" />
     </svg>
   )
 );
-
-EngineFilledLogo.displayName = "EngineFilledLogo";
-
-export const EngineFilledLogoMetadata = {
-  id: "engine_filled",
-  baseId: "engine",
-  variant: "filled",
-  name: "Engine",
-  category: "filled",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default EngineFilledLogo;
+EngineFilled.displayName = "EngineFilled";
+export const EngineFilledMetadata = { id: "engine_filled", baseId: "engine", variant: "filled", name: "Engine", category: "filled", tags: [], viewBox: "0 0 24 24" } as const;
+export default EngineFilled;

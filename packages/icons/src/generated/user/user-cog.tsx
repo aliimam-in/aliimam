@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: User Cog (default)
- * Category: user
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface UserCogLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface UserCogProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const UserCogLogo = React.forwardRef<SVGSVGElement, UserCogLogoProps>(
+export const UserCog = React.forwardRef<SVGSVGElement, UserCogProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="M10 15H6a4 4 0 0 0-4 4v2" />
   <path d="m14.305 16.53.923-.382" />
   <path d="m15.228 13.852-.923-.383" />
@@ -40,17 +24,6 @@ export const UserCogLogo = React.forwardRef<SVGSVGElement, UserCogLogoProps>(
     </svg>
   )
 );
-
-UserCogLogo.displayName = "UserCogLogo";
-
-export const UserCogLogoMetadata = {
-  id: "user-cog",
-  baseId: "user-cog",
-  variant: "default",
-  name: "User Cog",
-  category: "user",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default UserCogLogo;
+UserCog.displayName = "UserCog";
+export const UserCogMetadata = { id: "user-cog", baseId: "user-cog", variant: "default", name: "User Cog", category: "user", tags: [], viewBox: "0 0 24 24" } as const;
+export default UserCog;

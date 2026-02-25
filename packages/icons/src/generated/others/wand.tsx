@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: Wand (default)
- * Category: others
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface WandLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface WandProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const WandLogo = React.forwardRef<SVGSVGElement, WandLogoProps>(
+export const Wand = React.forwardRef<SVGSVGElement, WandProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="M15 4V2" />
   <path d="M15 16v-2" />
   <path d="M8 9h2" />
@@ -38,17 +22,6 @@ export const WandLogo = React.forwardRef<SVGSVGElement, WandLogoProps>(
     </svg>
   )
 );
-
-WandLogo.displayName = "WandLogo";
-
-export const WandLogoMetadata = {
-  id: "wand",
-  baseId: "wand",
-  variant: "default",
-  name: "Wand",
-  category: "others",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default WandLogo;
+Wand.displayName = "Wand";
+export const WandMetadata = { id: "wand", baseId: "wand", variant: "default", name: "Wand", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export default Wand;

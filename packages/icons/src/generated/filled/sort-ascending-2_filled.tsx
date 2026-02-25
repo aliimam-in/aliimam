@@ -1,48 +1,21 @@
-/**
- * Auto-generated logo component: Sort Ascending 2 (filled)
- * Category: filled
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface SortAscending2FilledLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface SortAscending2FilledProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const SortAscending2FilledLogo = React.forwardRef<SVGSVGElement, SortAscending2FilledLogoProps>(
+export const SortAscending2Filled = React.forwardRef<SVGSVGElement, SortAscending2FilledProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="M16.852 5.011l.058 -.007l.09 -.004l.075 .003l.126 .017l.111 .03l.111 .044l.098 .052l.104 .074l.082 .073l3 3a1 1 0 1 1 -1.414 1.414l-1.293 -1.292v9.585a1 1 0 0 1 -2 0v-9.585l-1.293 1.292a1 1 0 0 1 -1.32 .083l-.094 -.083a1 1 0 0 1 0 -1.414l3 -3q .053 -.054 .112 -.097l.11 -.071l.114 -.054l.105 -.035z" />
   <path d="M9.5 4a1.5 1.5 0 0 1 1.5 1.5v4a1.5 1.5 0 0 1 -1.5 1.5h-4a1.5 1.5 0 0 1 -1.5 -1.5v-4a1.5 1.5 0 0 1 1.5 -1.5z" />
   <path d="M9.5 13a1.5 1.5 0 0 1 1.5 1.5v4a1.5 1.5 0 0 1 -1.5 1.5h-4a1.5 1.5 0 0 1 -1.5 -1.5v-4a1.5 1.5 0 0 1 1.5 -1.5z" />
     </svg>
   )
 );
-
-SortAscending2FilledLogo.displayName = "SortAscending2FilledLogo";
-
-export const SortAscending2FilledLogoMetadata = {
-  id: "sort-ascending-2_filled",
-  baseId: "sort-ascending-2",
-  variant: "filled",
-  name: "Sort Ascending 2",
-  category: "filled",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default SortAscending2FilledLogo;
+SortAscending2Filled.displayName = "SortAscending2Filled";
+export const SortAscending2FilledMetadata = { id: "sort-ascending-2_filled", baseId: "sort-ascending-2", variant: "filled", name: "Sort Ascending 2", category: "filled", tags: [], viewBox: "0 0 24 24" } as const;
+export default SortAscending2Filled;

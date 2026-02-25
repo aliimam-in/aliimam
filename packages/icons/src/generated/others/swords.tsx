@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: Swords (default)
- * Category: others
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface SwordsLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface SwordsProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const SwordsLogo = React.forwardRef<SVGSVGElement, SwordsLogoProps>(
+export const Swords = React.forwardRef<SVGSVGElement, SwordsProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <polyline points="14.5 17.5 3 6 3 3 6 3 17.5 14.5" />
   <line x1="13" x2="19" y1="19" y2="13" />
   <line x1="16" x2="20" y1="16" y2="20" />
@@ -37,17 +21,6 @@ export const SwordsLogo = React.forwardRef<SVGSVGElement, SwordsLogoProps>(
     </svg>
   )
 );
-
-SwordsLogo.displayName = "SwordsLogo";
-
-export const SwordsLogoMetadata = {
-  id: "swords",
-  baseId: "swords",
-  variant: "default",
-  name: "Swords",
-  category: "others",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default SwordsLogo;
+Swords.displayName = "Swords";
+export const SwordsMetadata = { id: "swords", baseId: "swords", variant: "default", name: "Swords", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export default Swords;

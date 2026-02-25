@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: Gamepad 2 (default)
- * Category: others
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface Gamepad2LogoProps extends React.SVGProps<SVGSVGElement> {
+export interface Gamepad2Props extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const Gamepad2Logo = React.forwardRef<SVGSVGElement, Gamepad2LogoProps>(
+export const Gamepad2 = React.forwardRef<SVGSVGElement, Gamepad2Props>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <line x1="6" x2="10" y1="11" y2="11" />
   <line x1="8" x2="8" y1="9" y2="13" />
   <line x1="15" x2="15.01" y1="12" y2="12" />
@@ -34,17 +18,6 @@ export const Gamepad2Logo = React.forwardRef<SVGSVGElement, Gamepad2LogoProps>(
     </svg>
   )
 );
-
-Gamepad2Logo.displayName = "Gamepad2Logo";
-
-export const Gamepad2LogoMetadata = {
-  id: "gamepad-2",
-  baseId: "gamepad-2",
-  variant: "default",
-  name: "Gamepad 2",
-  category: "others",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default Gamepad2Logo;
+Gamepad2.displayName = "Gamepad2";
+export const Gamepad2Metadata = { id: "gamepad-2", baseId: "gamepad-2", variant: "default", name: "Gamepad 2", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export default Gamepad2;

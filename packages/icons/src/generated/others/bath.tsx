@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: Bath (default)
- * Category: others
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface BathLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface BathProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const BathLogo = React.forwardRef<SVGSVGElement, BathLogoProps>(
+export const Bath = React.forwardRef<SVGSVGElement, BathProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="M10 4 8 6" />
   <path d="M17 19v2" />
   <path d="M2 12h20" />
@@ -34,17 +18,6 @@ export const BathLogo = React.forwardRef<SVGSVGElement, BathLogoProps>(
     </svg>
   )
 );
-
-BathLogo.displayName = "BathLogo";
-
-export const BathLogoMetadata = {
-  id: "bath",
-  baseId: "bath",
-  variant: "default",
-  name: "Bath",
-  category: "others",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default BathLogo;
+Bath.displayName = "Bath";
+export const BathMetadata = { id: "bath", baseId: "bath", variant: "default", name: "Bath", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export default Bath;

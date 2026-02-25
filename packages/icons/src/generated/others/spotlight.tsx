@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: Spotlight (default)
- * Category: others
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface SpotlightLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface SpotlightProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const SpotlightLogo = React.forwardRef<SVGSVGElement, SpotlightLogoProps>(
+export const Spotlight = React.forwardRef<SVGSVGElement, SpotlightProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="M15.295 19.562 16 22" />
   <path d="m17 16 3.758 2.098" />
   <path d="m19 12.5 3.026-.598" />
@@ -34,17 +18,6 @@ export const SpotlightLogo = React.forwardRef<SVGSVGElement, SpotlightLogoProps>
     </svg>
   )
 );
-
-SpotlightLogo.displayName = "SpotlightLogo";
-
-export const SpotlightLogoMetadata = {
-  id: "spotlight",
-  baseId: "spotlight",
-  variant: "default",
-  name: "Spotlight",
-  category: "others",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default SpotlightLogo;
+Spotlight.displayName = "Spotlight";
+export const SpotlightMetadata = { id: "spotlight", baseId: "spotlight", variant: "default", name: "Spotlight", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export default Spotlight;

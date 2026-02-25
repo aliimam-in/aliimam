@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: Roller Coaster (default)
- * Category: others
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface RollerCoasterLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface RollerCoasterProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const RollerCoasterLogo = React.forwardRef<SVGSVGElement, RollerCoasterLogoProps>(
+export const RollerCoaster = React.forwardRef<SVGSVGElement, RollerCoasterProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="M6 19V5" />
   <path d="M10 19V6.8" />
   <path d="M14 19v-7.8" />
@@ -36,17 +20,6 @@ export const RollerCoasterLogo = React.forwardRef<SVGSVGElement, RollerCoasterLo
     </svg>
   )
 );
-
-RollerCoasterLogo.displayName = "RollerCoasterLogo";
-
-export const RollerCoasterLogoMetadata = {
-  id: "roller-coaster",
-  baseId: "roller-coaster",
-  variant: "default",
-  name: "Roller Coaster",
-  category: "others",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default RollerCoasterLogo;
+RollerCoaster.displayName = "RollerCoaster";
+export const RollerCoasterMetadata = { id: "roller-coaster", baseId: "roller-coaster", variant: "default", name: "Roller Coaster", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export default RollerCoaster;

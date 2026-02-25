@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: List Checks (default)
- * Category: list
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface ListChecksLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface ListChecksProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const ListChecksLogo = React.forwardRef<SVGSVGElement, ListChecksLogoProps>(
+export const ListChecks = React.forwardRef<SVGSVGElement, ListChecksProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="M13 5h8" />
   <path d="M13 12h8" />
   <path d="M13 19h8" />
@@ -34,17 +18,6 @@ export const ListChecksLogo = React.forwardRef<SVGSVGElement, ListChecksLogoProp
     </svg>
   )
 );
-
-ListChecksLogo.displayName = "ListChecksLogo";
-
-export const ListChecksLogoMetadata = {
-  id: "list-checks",
-  baseId: "list-checks",
-  variant: "default",
-  name: "List Checks",
-  category: "list",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default ListChecksLogo;
+ListChecks.displayName = "ListChecks";
+export const ListChecksMetadata = { id: "list-checks", baseId: "list-checks", variant: "default", name: "List Checks", category: "list", tags: [], viewBox: "0 0 24 24" } as const;
+export default ListChecks;

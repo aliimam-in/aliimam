@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: Fold Vertical (default)
- * Category: others
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface FoldVerticalLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface FoldVerticalProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const FoldVerticalLogo = React.forwardRef<SVGSVGElement, FoldVerticalLogoProps>(
+export const FoldVertical = React.forwardRef<SVGSVGElement, FoldVerticalProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="M12 22v-6" />
   <path d="M12 8V2" />
   <path d="M4 12H2" />
@@ -37,17 +21,6 @@ export const FoldVerticalLogo = React.forwardRef<SVGSVGElement, FoldVerticalLogo
     </svg>
   )
 );
-
-FoldVerticalLogo.displayName = "FoldVerticalLogo";
-
-export const FoldVerticalLogoMetadata = {
-  id: "fold-vertical",
-  baseId: "fold-vertical",
-  variant: "default",
-  name: "Fold Vertical",
-  category: "others",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default FoldVerticalLogo;
+FoldVertical.displayName = "FoldVertical";
+export const FoldVerticalMetadata = { id: "fold-vertical", baseId: "fold-vertical", variant: "default", name: "Fold Vertical", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export default FoldVertical;

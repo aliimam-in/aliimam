@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: Usb (default)
- * Category: others
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface UsbLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface UsbProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const UsbLogo = React.forwardRef<SVGSVGElement, UsbLogoProps>(
+export const Usb = React.forwardRef<SVGSVGElement, UsbProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <circle cx="10" cy="7" r="1" />
   <circle cx="4" cy="20" r="1" />
   <path d="M4.7 19.3 19 5" />
@@ -36,17 +20,6 @@ export const UsbLogo = React.forwardRef<SVGSVGElement, UsbLogoProps>(
     </svg>
   )
 );
-
-UsbLogo.displayName = "UsbLogo";
-
-export const UsbLogoMetadata = {
-  id: "usb",
-  baseId: "usb",
-  variant: "default",
-  name: "Usb",
-  category: "others",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default UsbLogo;
+Usb.displayName = "Usb";
+export const UsbMetadata = { id: "usb", baseId: "usb", variant: "default", name: "Usb", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export default Usb;

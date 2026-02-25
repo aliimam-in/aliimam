@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: Shower Head (default)
- * Category: others
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface ShowerHeadLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface ShowerHeadProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const ShowerHeadLogo = React.forwardRef<SVGSVGElement, ShowerHeadLogoProps>(
+export const ShowerHead = React.forwardRef<SVGSVGElement, ShowerHeadProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="m4 4 2.5 2.5" />
   <path d="M13.5 6.5a4.95 4.95 0 0 0-7 7" />
   <path d="M15 5 5 15" />
@@ -39,17 +23,6 @@ export const ShowerHeadLogo = React.forwardRef<SVGSVGElement, ShowerHeadLogoProp
     </svg>
   )
 );
-
-ShowerHeadLogo.displayName = "ShowerHeadLogo";
-
-export const ShowerHeadLogoMetadata = {
-  id: "shower-head",
-  baseId: "shower-head",
-  variant: "default",
-  name: "Shower Head",
-  category: "others",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default ShowerHeadLogo;
+ShowerHead.displayName = "ShowerHead";
+export const ShowerHeadMetadata = { id: "shower-head", baseId: "shower-head", variant: "default", name: "Shower Head", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export default ShowerHead;

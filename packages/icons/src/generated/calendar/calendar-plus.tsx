@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: Calendar Plus (default)
- * Category: calendar
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface CalendarPlusLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface CalendarPlusProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const CalendarPlusLogo = React.forwardRef<SVGSVGElement, CalendarPlusLogoProps>(
+export const CalendarPlus = React.forwardRef<SVGSVGElement, CalendarPlusProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="M16 19h6" />
   <path d="M16 2v4" />
   <path d="M19 16v6" />
@@ -35,17 +19,6 @@ export const CalendarPlusLogo = React.forwardRef<SVGSVGElement, CalendarPlusLogo
     </svg>
   )
 );
-
-CalendarPlusLogo.displayName = "CalendarPlusLogo";
-
-export const CalendarPlusLogoMetadata = {
-  id: "calendar-plus",
-  baseId: "calendar-plus",
-  variant: "default",
-  name: "Calendar Plus",
-  category: "calendar",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default CalendarPlusLogo;
+CalendarPlus.displayName = "CalendarPlus";
+export const CalendarPlusMetadata = { id: "calendar-plus", baseId: "calendar-plus", variant: "default", name: "Calendar Plus", category: "calendar", tags: [], viewBox: "0 0 24 24" } as const;
+export default CalendarPlus;

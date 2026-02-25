@@ -1,5 +1,6 @@
 /**
  * Auto-generated logo component: Google Drive (default)
+ * Category: google
  * Do not edit manually
  */
 
@@ -8,7 +9,7 @@ import React from 'react';
 
 export interface GoogleDriveProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
+  className?: string; 
 }
 
 export const GoogleDrive = React.forwardRef<SVGSVGElement, GoogleDriveProps>(
@@ -18,8 +19,9 @@ export const GoogleDrive = React.forwardRef<SVGSVGElement, GoogleDriveProps>(
       width={size}
       height={size}
       viewBox="0 0 256 229"
+      fill="none"
       className={className}
-      xmlns="http://www.w3.org/2000/svg"
+      xmlns="http://www.w3.org/2000/svg" 
       {...props}
     >
       <g>

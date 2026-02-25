@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: Scan Text (default)
- * Category: scan
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface ScanTextLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface ScanTextProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const ScanTextLogo = React.forwardRef<SVGSVGElement, ScanTextLogoProps>(
+export const ScanText = React.forwardRef<SVGSVGElement, ScanTextProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="M3 7V5a2 2 0 0 1 2-2h2" />
   <path d="M17 3h2a2 2 0 0 1 2 2v2" />
   <path d="M21 17v2a2 2 0 0 1-2 2h-2" />
@@ -36,17 +20,6 @@ export const ScanTextLogo = React.forwardRef<SVGSVGElement, ScanTextLogoProps>(
     </svg>
   )
 );
-
-ScanTextLogo.displayName = "ScanTextLogo";
-
-export const ScanTextLogoMetadata = {
-  id: "scan-text",
-  baseId: "scan-text",
-  variant: "default",
-  name: "Scan Text",
-  category: "scan",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default ScanTextLogo;
+ScanText.displayName = "ScanText";
+export const ScanTextMetadata = { id: "scan-text", baseId: "scan-text", variant: "default", name: "Scan Text", category: "scan", tags: [], viewBox: "0 0 24 24" } as const;
+export default ScanText;

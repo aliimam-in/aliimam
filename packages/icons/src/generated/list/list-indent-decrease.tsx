@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: List Indent Decrease (default)
- * Category: list
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface ListIndentDecreaseLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface ListIndentDecreaseProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const ListIndentDecreaseLogo = React.forwardRef<SVGSVGElement, ListIndentDecreaseLogoProps>(
+export const ListIndentDecrease = React.forwardRef<SVGSVGElement, ListIndentDecreaseProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="M21 5H11" />
   <path d="M21 12H11" />
   <path d="M21 19H11" />
@@ -33,17 +17,6 @@ export const ListIndentDecreaseLogo = React.forwardRef<SVGSVGElement, ListIndent
     </svg>
   )
 );
-
-ListIndentDecreaseLogo.displayName = "ListIndentDecreaseLogo";
-
-export const ListIndentDecreaseLogoMetadata = {
-  id: "list-indent-decrease",
-  baseId: "list-indent-decrease",
-  variant: "default",
-  name: "List Indent Decrease",
-  category: "list",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default ListIndentDecreaseLogo;
+ListIndentDecrease.displayName = "ListIndentDecrease";
+export const ListIndentDecreaseMetadata = { id: "list-indent-decrease", baseId: "list-indent-decrease", variant: "default", name: "List Indent Decrease", category: "list", tags: [], viewBox: "0 0 24 24" } as const;
+export default ListIndentDecrease;

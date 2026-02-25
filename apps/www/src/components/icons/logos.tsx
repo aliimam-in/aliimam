@@ -1,19 +1,25 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { allLogos } from "../../../../../packages/logos/src/generated"
 
-interface LogoProps extends React.SVGProps<SVGSVGElement> {
+interface IconProps extends React.SVGProps<SVGSVGElement> {
   name: string
   size?: number
-  color?: string
+  color?: string 
+  variant?: "default" | "icon" | "wordmark" | "flags" | "cards" | "stickers"
 }
 
-export function Logos({ name, size = 24, color = "currentColor", ...props }: LogoProps) {
+export function Logos({
+  name,
+  size = 24, 
+  color = "currentColor",
+  variant, 
+  ...props
+}: IconProps) {
   let match: any = null
 
-  // exact id match
-  outer:
-  for (const logos of Object.values(allLogos)) {
-    for (const entry of Object.values(logos)) {
+  // 1. Exact id match
+  outer: for (const icons of (Object.values(allLogos) as Record<string, any>[])) {
+    for (const entry of Object.values(icons)) {
       const e = entry as any
       if (e.metadata.id === name) {
         match = e
@@ -22,13 +28,18 @@ export function Logos({ name, size = 24, color = "currentColor", ...props }: Log
     }
   }
 
-  // baseId + default variant match
+  // 2. baseId + variant strict match
   if (!match) {
-    outer:
-    for (const logos of Object.values(allLogos)) {
-      for (const entry of Object.values(logos)) {
+    const targetVariant = variant ?? "default"
+    outer: for (const icons of (Object.values(allLogos) as Record<string, any>[])) {
+      for (const entry of Object.values(icons)) {
         const e = entry as any
-        if (e.metadata.baseId === name && e.metadata.variant === "default") {
+        const metaVariant = (e.metadata.variant ?? "").toLowerCase()
+        const matches =
+          e.metadata.baseId === name &&
+          (metaVariant === targetVariant ||
+            (targetVariant === "default" && (metaVariant === "icon" || metaVariant === "")))
+        if (matches) {
           match = e
           break outer
         }
@@ -36,11 +47,10 @@ export function Logos({ name, size = 24, color = "currentColor", ...props }: Log
     }
   }
 
-  // koi variant nahi mila toh pehla match lo
+  // 3. Fallback: any matching baseId
   if (!match) {
-    outer:
-    for (const logos of Object.values(allLogos)) {
-      for (const entry of Object.values(logos)) {
+    outer: for (const icons of (Object.values(allLogos) as Record<string, any>[])) {
+      for (const entry of Object.values(icons)) {
         const e = entry as any
         if (e.metadata.baseId === name) {
           match = e
@@ -51,15 +61,13 @@ export function Logos({ name, size = 24, color = "currentColor", ...props }: Log
   }
 
   if (!match) return null
-
   const { Component, metadata } = match
-  const hasCurrentColor = metadata.hasCurrentColor
-
+ 
   return (
     <Component
       size={size}
-      viewBox={metadata.viewBox}
-      {...(hasCurrentColor ? { style: { color } } : {})}
+      fill={color} 
+      viewBox={metadata.viewBox}  
       {...props}
     />
   )

@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: Message Circle Dashed (default)
- * Category: message
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface MessageCircleDashedLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface MessageCircleDashedProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const MessageCircleDashedLogo = React.forwardRef<SVGSVGElement, MessageCircleDashedLogoProps>(
+export const MessageCircleDashed = React.forwardRef<SVGSVGElement, MessageCircleDashedProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="M10.1 2.182a10 10 0 0 1 3.8 0" />
   <path d="M13.9 21.818a10 10 0 0 1-3.8 0" />
   <path d="M17.609 3.72a10 10 0 0 1 2.69 2.7" />
@@ -37,17 +21,6 @@ export const MessageCircleDashedLogo = React.forwardRef<SVGSVGElement, MessageCi
     </svg>
   )
 );
-
-MessageCircleDashedLogo.displayName = "MessageCircleDashedLogo";
-
-export const MessageCircleDashedLogoMetadata = {
-  id: "message-circle-dashed",
-  baseId: "message-circle-dashed",
-  variant: "default",
-  name: "Message Circle Dashed",
-  category: "message",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default MessageCircleDashedLogo;
+MessageCircleDashed.displayName = "MessageCircleDashed";
+export const MessageCircleDashedMetadata = { id: "message-circle-dashed", baseId: "message-circle-dashed", variant: "default", name: "Message Circle Dashed", category: "message", tags: [], viewBox: "0 0 24 24" } as const;
+export default MessageCircleDashed;

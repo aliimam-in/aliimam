@@ -1,5 +1,6 @@
 /**
  * Auto-generated logo component: Google Palm (default)
+ * Category: google
  * Do not edit manually
  */
 
@@ -8,7 +9,7 @@ import React from 'react';
 
 export interface GooglePalmProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
+  className?: string; 
 }
 
 export const GooglePalm = React.forwardRef<SVGSVGElement, GooglePalmProps>(
@@ -18,11 +19,13 @@ export const GooglePalm = React.forwardRef<SVGSVGElement, GooglePalmProps>(
       width={size}
       height={size}
       viewBox="0 0 256 229"
+      fill="none"
       className={className}
-      xmlns="http://www.w3.org/2000/svg"
+      xmlns="http://www.w3.org/2000/svg" 
       {...props}
     >
-      <g>
+      <title>Google PaLM</title>
+    <g>
         <path d="M128,228.5418 L128,228.5418 C137.895187,228.5418 145.909841,220.527146 145.909841,210.631959 L145.909841,55.4133387 L110.090159,55.4133387 L110.090159,210.631959 C110.090159,220.527146 118.104813,228.5418 128,228.5418 Z" fill="#F9AB00"></path>
         <path d="M199.355791,112.05321 C180.043012,92.7553568 151.193244,88.8450415 128,100.30734 L204.669044,176.976383 C207.833115,180.140455 213.280692,178.886766 214.62393,174.633179 C221.36997,153.275694 216.28059,128.992935 199.355791,112.05321 Z" fill="#5BB974"></path>
         <path d="M56.6442092,112.05321 C75.9569876,92.7553568 104.806756,88.8450415 128,100.30734 L51.3309565,176.976383 C48.1668846,180.140455 42.719308,178.886766 41.37607,174.633179 C34.6300299,153.275694 39.7194097,128.992935 56.6442092,112.05321 Z" fill="#129EAF"></path>

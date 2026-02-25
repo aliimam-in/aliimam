@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: Sunset 2 (filled)
- * Category: filled
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface Sunset2FilledLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface Sunset2FilledProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const Sunset2FilledLogo = React.forwardRef<SVGSVGElement, Sunset2FilledLogoProps>(
+export const Sunset2Filled = React.forwardRef<SVGSVGElement, Sunset2FilledProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="M4 12a1 1 0 0 1 0 2h-1a1 1 0 0 1 0 -2z" />
   <path d="M21 12a1 1 0 0 1 0 2h-1a1 1 0 0 1 0 -2z" />
   <path d="M6.307 5.893l.7 .7a1 1 0 0 1 -1.414 1.414l-.7 -.7a1 1 0 0 1 1.414 -1.414" />
@@ -38,17 +22,6 @@ export const Sunset2FilledLogo = React.forwardRef<SVGSVGElement, Sunset2FilledLo
     </svg>
   )
 );
-
-Sunset2FilledLogo.displayName = "Sunset2FilledLogo";
-
-export const Sunset2FilledLogoMetadata = {
-  id: "sunset-2_filled",
-  baseId: "sunset-2",
-  variant: "filled",
-  name: "Sunset 2",
-  category: "filled",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default Sunset2FilledLogo;
+Sunset2Filled.displayName = "Sunset2Filled";
+export const Sunset2FilledMetadata = { id: "sunset-2_filled", baseId: "sunset-2", variant: "filled", name: "Sunset 2", category: "filled", tags: [], viewBox: "0 0 24 24" } as const;
+export default Sunset2Filled;

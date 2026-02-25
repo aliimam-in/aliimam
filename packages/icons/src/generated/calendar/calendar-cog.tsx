@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: Calendar Cog (default)
- * Category: calendar
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface CalendarCogLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface CalendarCogProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const CalendarCogLogo = React.forwardRef<SVGSVGElement, CalendarCogLogoProps>(
+export const CalendarCog = React.forwardRef<SVGSVGElement, CalendarCogProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="m15.228 16.852-.923-.383" />
   <path d="m15.228 19.148-.923.383" />
   <path d="M16 2v4" />
@@ -42,17 +26,6 @@ export const CalendarCogLogo = React.forwardRef<SVGSVGElement, CalendarCogLogoPr
     </svg>
   )
 );
-
-CalendarCogLogo.displayName = "CalendarCogLogo";
-
-export const CalendarCogLogoMetadata = {
-  id: "calendar-cog",
-  baseId: "calendar-cog",
-  variant: "default",
-  name: "Calendar Cog",
-  category: "calendar",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default CalendarCogLogo;
+CalendarCog.displayName = "CalendarCog";
+export const CalendarCogMetadata = { id: "calendar-cog", baseId: "calendar-cog", variant: "default", name: "Calendar Cog", category: "calendar", tags: [], viewBox: "0 0 24 24" } as const;
+export default CalendarCog;

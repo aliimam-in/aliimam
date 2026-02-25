@@ -1,48 +1,21 @@
-/**
- * Auto-generated logo component: Instagram (default)
- * Category: others
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface InstagramLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface InstagramProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const InstagramLogo = React.forwardRef<SVGSVGElement, InstagramLogoProps>(
+export const Instagram = React.forwardRef<SVGSVGElement, InstagramProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
   <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
   <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
     </svg>
   )
 );
-
-InstagramLogo.displayName = "InstagramLogo";
-
-export const InstagramLogoMetadata = {
-  id: "instagram",
-  baseId: "instagram",
-  variant: "default",
-  name: "Instagram",
-  category: "others",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default InstagramLogo;
+Instagram.displayName = "Instagram";
+export const InstagramMetadata = { id: "instagram", baseId: "instagram", variant: "default", name: "Instagram", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export default Instagram;

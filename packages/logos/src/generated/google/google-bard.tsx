@@ -1,5 +1,6 @@
 /**
  * Auto-generated logo component: Google Bard (default)
+ * Category: google
  * Do not edit manually
  */
 
@@ -8,7 +9,7 @@ import React from 'react';
 
 export interface GoogleBardProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
+  className?: string; 
 }
 
 export const GoogleBard = React.forwardRef<SVGSVGElement, GoogleBardProps>(
@@ -18,11 +19,13 @@ export const GoogleBard = React.forwardRef<SVGSVGElement, GoogleBardProps>(
       width={size}
       height={size}
       viewBox="0 0 512 177"
+      fill="none"
       className={className}
-      xmlns="http://www.w3.org/2000/svg"
+      xmlns="http://www.w3.org/2000/svg" 
       {...props}
     >
-      <defs>
+      <title>Bard</title>
+    <defs>
         <radialGradient cx="78.3021802%" cy="55.5203129%" fx="78.3021802%" fy="55.5203129%" r="78.1147983%" gradientTransform="translate(0.783022,0.555203),scale(0.999475,1.000000),rotate(78.858000),translate(-0.783022,-0.555203)" id="radialGradient-1">
             <stop stopColor="#1BA1E3" offset="0%"></stop>
             <stop stopColor="#1BA1E3" offset="0.01%"></stop>

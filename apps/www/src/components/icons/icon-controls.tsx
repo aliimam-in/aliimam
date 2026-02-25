@@ -7,6 +7,8 @@ import { Input } from "@/registry/aliimam/ui/input"
 import { Label } from "@/registry/aliimam/ui/label"
 import { Slider } from "@/registry/aliimam/ui/slider"
 
+import { useIconFilter } from "./icon-filter-context"
+
 interface LogoControlsPanelProps {
   size: number
   color: string
@@ -14,6 +16,7 @@ interface LogoControlsPanelProps {
   onstrokeWidthChange: (value: number) => void
   onSizeChange: (value: number) => void
   onColorChange: (value: string) => void
+  activeVariant?: string
 }
 
 export function IconControlsPanel({
@@ -23,7 +26,12 @@ export function IconControlsPanel({
   onstrokeWidthChange,
   onSizeChange,
   onColorChange,
+  activeVariant,
 }: LogoControlsPanelProps) {
+  const variantName = activeVariant?.toLowerCase() || ""
+  const isFilled =
+    variantName.includes("filled") || variantName.includes("circle")
+
   return (
     <div className="space-y-6">
       <div className="space-y-2">
@@ -37,16 +45,18 @@ export function IconControlsPanel({
         />
       </div>
 
-      <div className="space-y-2">
-        <Label>strokeWidth: {strokeWidth}</Label>
-        <Slider
-          min={0.1}
-          max={4}
-          step={0.1}
-          value={[strokeWidth]}
-          onValueChange={(v) => onstrokeWidthChange(v[0])}
-        />
-      </div>
+      {!isFilled && (
+        <div className="space-y-2">
+          <Label>strokeWidth: {strokeWidth}</Label>
+          <Slider
+            min={0.1}
+            max={4}
+            step={0.1}
+            value={[strokeWidth]}
+            onValueChange={(v) => onstrokeWidthChange(v[0])}
+          />
+        </div>
+      )}
 
       <div className="flex flex-wrap items-center gap-2">
         <input
@@ -56,7 +66,12 @@ export function IconControlsPanel({
           onChange={(e) => onColorChange(e.target.value)}
           className="absolute h-8 w-8 border p-3"
         />
-        <div className="h-8 w-8 border" style={{ backgroundColor: color === "currentColor" ? "#000000" : color }} />
+        <div
+          className="h-8 w-8 border"
+          style={{
+            backgroundColor: color === "currentColor" ? "#000000" : color,
+          }}
+        />
         <Input
           type="text"
           value={color}
@@ -68,9 +83,9 @@ export function IconControlsPanel({
           variant="secondary"
           size="icon"
           onClick={() => {
-            onSizeChange(64)
+            onSizeChange(120)
             onColorChange("currentColor")
-            onstrokeWidthChange(1)
+            onstrokeWidthChange(0.5)
           }}
         >
           <RotateCw />
@@ -87,7 +102,15 @@ export function IconViewControlsPanel({
   onstrokeWidthChange,
   onSizeChange,
   onColorChange,
+  activeVariant,
 }: LogoControlsPanelProps) {
+  const { variantTab } = useIconFilter()
+  const isFilled =
+    activeVariant === "filled" ||
+    activeVariant === "circle" ||
+    variantTab === "filled" ||
+    variantTab === "circle"
+
   return (
     <div className="space-y-6">
       <div className="space-y-2">
@@ -101,16 +124,18 @@ export function IconViewControlsPanel({
         />
       </div>
 
-      <div className="space-y-2">
-        <Label>strokeWidth: {strokeWidth}</Label>
-        <Slider
-          min={0.1}
-          max={4}
-          step={0.1}
-          value={[strokeWidth]}
-          onValueChange={(v) => onstrokeWidthChange(v[0])}
-        />
-      </div>
+      {!isFilled && (
+        <div className="space-y-2">
+          <Label>strokeWidth: {strokeWidth}</Label>
+          <Slider
+            min={0.1}
+            max={4}
+            step={0.1}
+            value={[strokeWidth]}
+            onValueChange={(v) => onstrokeWidthChange(v[0])}
+          />
+        </div>
+      )}
 
       <div className="flex flex-wrap items-center gap-2">
         <input
@@ -120,7 +145,12 @@ export function IconViewControlsPanel({
           onChange={(e) => onColorChange(e.target.value)}
           className="absolute h-8 w-8 border p-3"
         />
-        <div className="h-8 w-8 border" style={{ backgroundColor: color === "currentColor" ? "#000000" : color }} />
+        <div
+          className="h-8 w-8 border"
+          style={{
+            backgroundColor: color === "currentColor" ? "#000000" : color,
+          }}
+        />
         <Input
           type="text"
           value={color}

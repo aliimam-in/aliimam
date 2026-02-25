@@ -1,46 +1,19 @@
-/**
- * Auto-generated logo component: Alert Hexagon (filled)
- * Category: filled
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface AlertHexagonFilledLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface AlertHexagonFilledProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const AlertHexagonFilledLogo = React.forwardRef<SVGSVGElement, AlertHexagonFilledLogoProps>(
+export const AlertHexagonFilled = React.forwardRef<SVGSVGElement, AlertHexagonFilledProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="M10.425 1.414a3.33 3.33 0 0 1 3.026 -.097l.19 .097l6.775 3.995l.096 .063l.092 .077l.107 .075a3.224 3.224 0 0 1 1.266 2.188l.018 .202l.005 .204v7.284c0 1.106 -.57 2.129 -1.454 2.693l-.17 .1l-6.803 4.302c-.918 .504 -2.019 .535 -3.004 .068l-.196 -.1l-6.695 -4.237a3.225 3.225 0 0 1 -1.671 -2.619l-.007 -.207v-7.285c0 -1.106 .57 -2.128 1.476 -2.705l6.95 -4.098zm1.585 13.586l-.127 .007a1 1 0 0 0 0 1.986l.117 .007l.127 -.007a1 1 0 0 0 0 -1.986l-.117 -.007zm-.01 -8a1 1 0 0 0 -.993 .883l-.007 .117v4l.007 .117a1 1 0 0 0 1.986 0l.007 -.117v-4l-.007 -.117a1 1 0 0 0 -.993 -.883z" />
     </svg>
   )
 );
-
-AlertHexagonFilledLogo.displayName = "AlertHexagonFilledLogo";
-
-export const AlertHexagonFilledLogoMetadata = {
-  id: "alert-hexagon_filled",
-  baseId: "alert-hexagon",
-  variant: "filled",
-  name: "Alert Hexagon",
-  category: "filled",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default AlertHexagonFilledLogo;
+AlertHexagonFilled.displayName = "AlertHexagonFilled";
+export const AlertHexagonFilledMetadata = { id: "alert-hexagon_filled", baseId: "alert-hexagon", variant: "filled", name: "Alert Hexagon", category: "filled", tags: [], viewBox: "0 0 24 24" } as const;
+export default AlertHexagonFilled;

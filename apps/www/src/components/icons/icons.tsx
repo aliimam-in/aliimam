@@ -6,20 +6,23 @@ interface IconProps extends React.SVGProps<SVGSVGElement> {
   size?: number
   color?: string
   strokeWidth?: number
+  variant?: "default" | "outline" | "filled" | "circle"
 }
 
 export function Icons({
   name,
   size = 24,
-  fill = "none",
-  stroke = "currentColor",
   strokeWidth = 1,
   color = "currentColor",
+  variant,
+  fill,
+  stroke,
   ...props
 }: IconProps) {
   let match: any = null
 
-  outer: for (const icons of Object.values(allLogos)) {
+  // 1. Exact id match
+  outer: for (const icons of (Object.values(allLogos) as Record<string, any>[])) {
     for (const entry of Object.values(icons)) {
       const e = entry as any
       if (e.metadata.id === name) {
@@ -29,11 +32,31 @@ export function Icons({
     }
   }
 
+  // 2. baseId + variant strict match
   if (!match) {
-    outer: for (const icons of Object.values(allLogos)) {
+    const targetVariant = variant ?? "default"
+    outer: for (const icons of (Object.values(allLogos) as Record<string, any>[])) {
       for (const entry of Object.values(icons)) {
         const e = entry as any
-        if (e.metadata.baseId === name && e.metadata.variant === "default") {
+        const metaVariant = (e.metadata.variant ?? "").toLowerCase()
+        const matches =
+          e.metadata.baseId === name &&
+          (metaVariant === targetVariant ||
+            (targetVariant === "default" && (metaVariant === "outline" || metaVariant === "")))
+        if (matches) {
+          match = e
+          break outer
+        }
+      }
+    }
+  }
+
+  // 3. Fallback: any matching baseId
+  if (!match) {
+    outer: for (const icons of (Object.values(allLogos) as Record<string, any>[])) {
+      for (const entry of Object.values(icons)) {
+        const e = entry as any
+        if (e.metadata.baseId === name) {
           match = e
           break outer
         }
@@ -44,14 +67,20 @@ export function Icons({
   if (!match) return null
   const { Component, metadata } = match
 
+  const resolvedVariant = (metadata.variant ?? "default").toLowerCase()
+  const isFilledVariant = resolvedVariant === "filled" || resolvedVariant === "circle"
+
+  const resolvedFill = fill ?? (isFilledVariant ? "currentColor" : "none")
+  const resolvedStroke = stroke ?? (isFilledVariant ? "none" : "currentColor")
+
   return (
     <Component
       size={size}
-      fill={fill}
-      stroke={stroke}
+      fill={resolvedFill}
+      stroke={resolvedStroke}
       viewBox={metadata.viewBox}
-      strokeWidth={strokeWidth} // stroke-based — always apply
-      style={{ color }} // currentColor se color control
+      strokeWidth={isFilledVariant ? 0 : strokeWidth}
+      style={{ color }}
       {...props}
     />
   )

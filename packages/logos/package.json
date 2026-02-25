@@ -1,6 +1,6 @@
 {
   "name": "@aliimam/logos",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Custom React icon library generated from JSON",
   "license": "MIT",
   "main": "dist/index.cjs",

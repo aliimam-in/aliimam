@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: Calendar Month (filled)
- * Category: filled
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface CalendarMonthFilledLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface CalendarMonthFilledProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const CalendarMonthFilledLogo = React.forwardRef<SVGSVGElement, CalendarMonthFilledLogoProps>(
+export const CalendarMonthFilled = React.forwardRef<SVGSVGElement, CalendarMonthFilledProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="M8 12a1 1 0 0 1 1 1v4a1 1 0 0 1 -2 0v-4a1 1 0 0 1 1 -1" />
   <path d="M12 12a1 1 0 0 1 1 1v4a1 1 0 0 1 -2 0v-4a1 1 0 0 1 1 -1" />
   <path d="M16 12a1 1 0 0 1 1 1v4a1 1 0 0 1 -2 0v-4a1 1 0 0 1 1 -1" />
@@ -33,17 +17,6 @@ export const CalendarMonthFilledLogo = React.forwardRef<SVGSVGElement, CalendarM
     </svg>
   )
 );
-
-CalendarMonthFilledLogo.displayName = "CalendarMonthFilledLogo";
-
-export const CalendarMonthFilledLogoMetadata = {
-  id: "calendar-month_filled",
-  baseId: "calendar-month",
-  variant: "filled",
-  name: "Calendar Month",
-  category: "filled",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default CalendarMonthFilledLogo;
+CalendarMonthFilled.displayName = "CalendarMonthFilled";
+export const CalendarMonthFilledMetadata = { id: "calendar-month_filled", baseId: "calendar-month", variant: "filled", name: "Calendar Month", category: "filled", tags: [], viewBox: "0 0 24 24" } as const;
+export default CalendarMonthFilled;

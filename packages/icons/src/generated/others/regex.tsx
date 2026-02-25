@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: Regex (default)
- * Category: others
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface RegexLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface RegexProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const RegexLogo = React.forwardRef<SVGSVGElement, RegexLogoProps>(
+export const Regex = React.forwardRef<SVGSVGElement, RegexProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="M17 3v10" />
   <path d="m12.67 5.5 8.66 5" />
   <path d="m12.67 10.5 8.66-5" />
@@ -33,17 +17,6 @@ export const RegexLogo = React.forwardRef<SVGSVGElement, RegexLogoProps>(
     </svg>
   )
 );
-
-RegexLogo.displayName = "RegexLogo";
-
-export const RegexLogoMetadata = {
-  id: "regex",
-  baseId: "regex",
-  variant: "default",
-  name: "Regex",
-  category: "others",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default RegexLogo;
+Regex.displayName = "Regex";
+export const RegexMetadata = { id: "regex", baseId: "regex", variant: "default", name: "Regex", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export default Regex;

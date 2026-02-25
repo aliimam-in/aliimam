@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: Cloud Snow (default)
- * Category: cloud
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface CloudSnowLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface CloudSnowProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const CloudSnowLogo = React.forwardRef<SVGSVGElement, CloudSnowLogoProps>(
+export const CloudSnow = React.forwardRef<SVGSVGElement, CloudSnowProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242" />
   <path d="M8 15h.01" />
   <path d="M8 19h.01" />
@@ -36,17 +20,6 @@ export const CloudSnowLogo = React.forwardRef<SVGSVGElement, CloudSnowLogoProps>
     </svg>
   )
 );
-
-CloudSnowLogo.displayName = "CloudSnowLogo";
-
-export const CloudSnowLogoMetadata = {
-  id: "cloud-snow",
-  baseId: "cloud-snow",
-  variant: "default",
-  name: "Cloud Snow",
-  category: "cloud",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default CloudSnowLogo;
+CloudSnow.displayName = "CloudSnow";
+export const CloudSnowMetadata = { id: "cloud-snow", baseId: "cloud-snow", variant: "default", name: "Cloud Snow", category: "cloud", tags: [], viewBox: "0 0 24 24" } as const;
+export default CloudSnow;

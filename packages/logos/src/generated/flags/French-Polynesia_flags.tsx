@@ -1,0 +1,52 @@
+/**
+ * Auto-generated logo component: French Polynesia (flags)
+ * Category: flags
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface FrenchPolynesiaFlagsProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string; 
+}
+
+export const FrenchPolynesiaFlags = React.forwardRef<SVGSVGElement, FrenchPolynesiaFlagsProps>(
+  ({ size = 24, className = '', ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 32 32"
+      fill="none"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg" 
+      {...props}
+    >
+      <path d="M31 10H1V22H31V10Z" fill="white"/>
+<path d="M5 4H27C29.2077 4 31 5.7923 31 8V11H1V8C1 5.7923 2.7923 4 5 4Z" fill="#CF0922"/>
+<path d="M27 28L5 28C2.7923 28 1 26.2077 1 24V21L31 21V24C31 26.2077 29.2077 28 27 28Z" fill="#CF0922"/>
+<path d="M16 20C18.2091 20 20 18.2091 20 16C20 13.7909 18.2091 12 16 12C13.7909 12 12 13.7909 12 16C12 18.2091 13.7909 20 16 20Z" fill="#F0A03C"/>
+<path d="M12.5548 18C13.2477 19.1906 14.5232 20 16 20C17.4768 20 18.7523 19.1906 19.4452 18H12.5548Z" fill="#1A3C95"/>
+<path d="M16.8631 15.9157V13.6066C16.8631 13.593 16.8575 13.58 16.8477 13.5707C16.8379 13.5614 16.8243 13.5567 16.811 13.5571C16.413 13.577 16.0648 13.146 16.0419 12.7761C16.0195 12.414 16.2838 12.1857 16.7672 12.1497C16.7924 12.1478 16.8122 12.1272 16.8131 12.1019C16.814 12.0766 16.7956 12.0547 16.7705 12.0512C15.4231 11.8591 15.1147 12.2477 15.1147 12.5923C15.1147 12.599 15.1147 12.6001 15.1147 12.6067L15.1273 15.5218L16.8631 15.9157Z" fill="#5A1314"/>
+<path d="M18.2706 16.1765H13.8471V18.0118H18.2706V16.1765Z" fill="white"/>
+<path d="M15.5593 17.5247C13.3902 18.9129 14.2999 16.4516 13.9213 14.936C14.0428 14.883 14.1415 14.6747 13.9574 14.6298C13.8815 14.5996 13.9001 14.5861 13.9643 14.5521C14.305 14.3957 13.6947 14.2647 13.9747 14.1516C14.2167 13.9659 13.5139 14.0071 13.4624 14.079C13.6447 14.3372 13.2727 14.3744 13.5776 14.6066C13.2863 14.6723 13.4729 17.2676 13.4325 17.6476C13.5109 19.2075 15.5179 19.0288 15.5593 17.5247Z" fill="#5A1314"/>
+<path d="M16.4407 17.5247C18.6098 18.9129 17.7001 16.4516 18.0787 14.936C17.9572 14.883 17.8585 14.6747 18.0426 14.6298C18.1185 14.5996 18.0999 14.5861 18.0357 14.5521C17.695 14.3957 18.3053 14.2647 18.0253 14.1516C17.7833 13.9659 18.4861 14.0071 18.5376 14.079C18.3553 14.3372 18.7273 14.3744 18.4224 14.6066C18.7137 14.6723 18.5271 17.2676 18.5675 17.6476C18.4891 19.2075 16.4821 19.0288 16.4407 17.5247Z" fill="#5A1314"/>
+    </svg>
+  )
+);
+
+FrenchPolynesiaFlags.displayName = "FrenchPolynesiaFlags";
+
+export const FrenchPolynesiaFlagsMetadata = {
+  id: "French-Polynesia_flags",
+  baseId: "French-Polynesia",
+  variant: "flags",
+  name: "French Polynesia",
+  category: "flags",
+  tags: [],
+  viewBox: "0 0 32 32",
+} as const;
+
+export default FrenchPolynesiaFlags;

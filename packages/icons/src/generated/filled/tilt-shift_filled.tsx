@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: Tilt Shift (filled)
- * Category: filled
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface TiltShiftFilledLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface TiltShiftFilledProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const TiltShiftFilledLogo = React.forwardRef<SVGSVGElement, TiltShiftFilledLogoProps>(
+export const TiltShiftFilled = React.forwardRef<SVGSVGElement, TiltShiftFilledProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="M8.178 2.766a1 1 0 1 1 .764 1.848a8 8 0 0 0 -2.595 1.733a1 1 0 1 1 -1.414 -1.414a10 10 0 0 1 3.245 -2.167" />
   <path d="M2.767 8.176a1 1 0 1 1 1.846 .768a8 8 0 0 0 -.613 3.058a1 1 0 0 1 -2 -.004a10 10 0 0 1 .767 -3.822" />
   <path d="M3.308 14.516a1 1 0 0 1 1.306 .542a8 8 0 0 0 1.733 2.595a1 1 0 1 1 -1.414 1.414a10 10 0 0 1 -2.167 -3.245a1 1 0 0 1 .542 -1.306" />
@@ -38,17 +22,6 @@ export const TiltShiftFilledLogo = React.forwardRef<SVGSVGElement, TiltShiftFill
     </svg>
   )
 );
-
-TiltShiftFilledLogo.displayName = "TiltShiftFilledLogo";
-
-export const TiltShiftFilledLogoMetadata = {
-  id: "tilt-shift_filled",
-  baseId: "tilt-shift",
-  variant: "filled",
-  name: "Tilt Shift",
-  category: "filled",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default TiltShiftFilledLogo;
+TiltShiftFilled.displayName = "TiltShiftFilled";
+export const TiltShiftFilledMetadata = { id: "tilt-shift_filled", baseId: "tilt-shift", variant: "filled", name: "Tilt Shift", category: "filled", tags: [], viewBox: "0 0 24 24" } as const;
+export default TiltShiftFilled;

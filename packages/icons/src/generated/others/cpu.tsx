@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: Cpu (default)
- * Category: others
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface CpuLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface CpuProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const CpuLogo = React.forwardRef<SVGSVGElement, CpuLogoProps>(
+export const Cpu = React.forwardRef<SVGSVGElement, CpuProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="M12 20v2" />
   <path d="M12 2v2" />
   <path d="M17 20v2" />
@@ -43,17 +27,6 @@ export const CpuLogo = React.forwardRef<SVGSVGElement, CpuLogoProps>(
     </svg>
   )
 );
-
-CpuLogo.displayName = "CpuLogo";
-
-export const CpuLogoMetadata = {
-  id: "cpu",
-  baseId: "cpu",
-  variant: "default",
-  name: "Cpu",
-  category: "others",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default CpuLogo;
+Cpu.displayName = "Cpu";
+export const CpuMetadata = { id: "cpu", baseId: "cpu", variant: "default", name: "Cpu", category: "others", tags: [], viewBox: "0 0 24 24" } as const;
+export default Cpu;

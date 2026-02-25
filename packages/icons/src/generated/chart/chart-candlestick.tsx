@@ -1,31 +1,15 @@
-/**
- * Auto-generated logo component: Chart Candlestick (default)
- * Category: chart
- * Do not edit manually
- */
-
+/** Auto-generated - Do not edit */
 'use client';
 import React from 'react';
 
-export interface ChartCandlestickLogoProps extends React.SVGProps<SVGSVGElement> {
+export interface ChartCandlestickProps extends React.SVGProps<SVGSVGElement> {
   size?: number | string;
-  className?: string;
   strokeWidth?: number;
 }
 
-export const ChartCandlestickLogo = React.forwardRef<SVGSVGElement, ChartCandlestickLogoProps>(
+export const ChartCandlestick = React.forwardRef<SVGSVGElement, ChartCandlestickProps>(
   ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
-    <svg
-      ref={ref}
-      width={size}
-      height={size}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      className={className}
-      xmlns="http://www.w3.org/2000/svg"
-      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
-      {...props}
-    >
+    <svg ref={ref} width={size} height={size} viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg" {...(strokeWidth !== undefined ? { strokeWidth } : {})} {...props}>
       <path d="M9 5v4" />
   <rect width="4" height="6" x="7" y="9" rx="1" />
   <path d="M9 15v2" />
@@ -36,17 +20,6 @@ export const ChartCandlestickLogo = React.forwardRef<SVGSVGElement, ChartCandles
     </svg>
   )
 );
-
-ChartCandlestickLogo.displayName = "ChartCandlestickLogo";
-
-export const ChartCandlestickLogoMetadata = {
-  id: "chart-candlestick",
-  baseId: "chart-candlestick",
-  variant: "default",
-  name: "Chart Candlestick",
-  category: "chart",
-  tags: [],
-  viewBox: "0 0 24 24",
-} as const;
-
-export default ChartCandlestickLogo;
+ChartCandlestick.displayName = "ChartCandlestick";
+export const ChartCandlestickMetadata = { id: "chart-candlestick", baseId: "chart-candlestick", variant: "default", name: "Chart Candlestick", category: "chart", tags: [], viewBox: "0 0 24 24" } as const;
+export default ChartCandlestick;

@@ -1,0 +1,71 @@
+/**
+ * Auto-generated logo component: Chromium (default)
+ * Category: browser
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface ChromiumProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string; 
+}
+
+export const Chromium = React.forwardRef<SVGSVGElement, ChromiumProps>(
+  ({ size = 24, className = '', ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg" 
+      {...props}
+    >
+      <g clipPath="url(#clip0_2039_374)">
+<path d="M12.0001 12L17.1963 15L12.0001 24C18.6275 24 24 18.6274 24 12C24 9.81365 23.4124 7.76563 22.3907 6H11.9999L12.0001 12Z" fill="url(#paint0_linear_2039_374)"/>
+<path d="M11.9999 0C7.55839 0 3.68342 2.41476 1.60846 6.00146L6.80367 15L11.9999 12.0001V6.00004H22.3907C20.3154 2.41423 16.4409 0 11.9999 0Z" fill="url(#paint1_linear_2039_374)"/>
+<path d="M7.08663e-05 12.0001C7.08663e-05 18.6275 5.37244 24 12 24L17.1963 15L12 12.0001L6.80377 15L1.60856 6.00146C0.587428 7.76659 0 9.81388 0 11.9999" fill="url(#paint2_linear_2039_374)"/>
+<path d="M18.0001 12C18.0001 15.3137 15.3137 18.0001 12 18.0001C8.6863 18.0001 5.99994 15.3137 5.99994 12C5.99994 8.68635 8.6863 6 12 6C15.3137 6 18.0001 8.68635 18.0001 12Z" fill="white"/>
+<path d="M16.8751 12C16.8751 14.6924 14.6924 16.8751 12 16.8751C9.30762 16.8751 7.12494 14.6924 7.12494 12C7.12494 9.30767 9.30762 7.125 12 7.125C14.6924 7.125 16.8751 9.30767 16.8751 12Z" fill="url(#paint3_linear_2039_374)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_2039_374" x1="18.0256" y1="5.97523" x2="18" y2="24" gradientUnits="userSpaceOnUse">
+<stop stopColor="#AFCCFB"/>
+<stop offset="1" stopColor="#8BB5F8"/>
+</linearGradient>
+<linearGradient id="paint1_linear_2039_374" x1="10.2596" y1="0.182828" x2="11.2515" y2="16.3088" gradientUnits="userSpaceOnUse">
+<stop stopColor="#1972E7"/>
+<stop offset="1" stopColor="#1969D5"/>
+</linearGradient>
+<linearGradient id="paint2_linear_2039_374" x1="8.59815" y1="6.00147" x2="8.59815" y2="24" gradientUnits="userSpaceOnUse">
+<stop stopColor="#659CF6"/>
+<stop offset="1" stopColor="#4285F4"/>
+</linearGradient>
+<linearGradient id="paint3_linear_2039_374" x1="11.9503" y1="7.14355" x2="12" y2="16.8751" gradientUnits="userSpaceOnUse">
+<stop stopColor="#3680F0"/>
+<stop offset="1" stopColor="#2678EC"/>
+</linearGradient>
+<clipPath id="clip0_2039_374">
+<rect width="24" height="24" fill="white"/>
+</clipPath>
+</defs>
+    </svg>
+  )
+);
+
+Chromium.displayName = "Chromium";
+
+export const ChromiumMetadata = {
+  id: "Chromium",
+  baseId: "Chromium",
+  variant: "default",
+  name: "Chromium",
+  category: "browser",
+  tags: [],
+  viewBox: "0 0 24 24",
+} as const;
+
+export default Chromium;
