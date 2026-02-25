@@ -1,0 +1,44 @@
+/**
+ * Auto-generated logo component: Czechia (default)
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface CzechiaProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string;
+}
+
+export const Czechia = React.forwardRef<SVGSVGElement, CzechiaProps>(
+  ({ size = 24, className = '', ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 32 32"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <path d="M1 24C1 26.209 2.791 28 5 28H27C29.209 28 31 26.209 31 24V15H1V24Z" fill="#C62D25" />
+<path d="M27 4H5C2.791 4 1 5.791 1 8V16H31V8C31 5.791 29.209 4 27 4Z" fill="white" />
+<path d="M2.316 26.947L16 16L2.316 5.05298C1.513 5.78498 1 6.82898 1 7.99998V24C1 25.172 1.513 26.216 2.316 26.947Z" fill="#1E427B" />
+    </svg>
+  )
+);
+
+Czechia.displayName = "Czechia";
+
+export const CzechiaMetadata = {
+  id: "Czechia",
+  baseId: "Czechia",
+  variant: "default",
+  name: "Czechia",
+  category: "flags",
+  tags: [],
+  viewBox: "0 0 32 32",
+} as const;
+
+export default Czechia;

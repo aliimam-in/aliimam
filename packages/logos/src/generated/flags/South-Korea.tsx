@@ -1,0 +1,63 @@
+/**
+ * Auto-generated logo component: South Korea (default)
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface SouthKoreaProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string;
+}
+
+export const SouthKorea = React.forwardRef<SVGSVGElement, SouthKoreaProps>(
+  ({ size = 24, className = '', ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 32 32"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <path d="M27 4H5C2.79086 4 1 5.79086 1 8V24C1 26.2091 2.79086 28 5 28H27C29.2091 28 31 26.2091 31 24V8C31 5.79086 29.2091 4 27 4Z" fill="white" />
+<path d="M6.57153 12.4377L9.08598 8.66606L9.71418 9.08486L7.19973 12.8565L6.57153 12.4377Z" fill="black" />
+<path d="M7.51477 13.0671L10.0292 9.29545L10.6574 9.71425L8.14297 13.4859L7.51477 13.0671Z" fill="black" />
+<path d="M8.45569 13.6953L10.9701 9.92363L11.5983 10.3424L9.08389 14.1141L8.45569 13.6953Z" fill="black" />
+<path d="M23.6479 20.8713L24.8001 19.1432L25.4283 19.562L24.2761 21.2901L23.6479 20.8713Z" fill="black" />
+<path d="M22.2852 22.9148L23.4378 21.1858L24.066 21.6046L22.9134 23.3336L22.2852 22.9148Z" fill="black" />
+<path d="M22.7041 20.2429L23.8562 18.5148L24.4844 18.9335L23.3323 20.6617L22.7041 20.2429Z" fill="black" />
+<path d="M21.3423 22.2864L22.4944 20.5582L23.1226 20.977L21.9705 22.7052L21.3423 22.2864Z" fill="black" />
+<path d="M21.7622 19.6147L22.9143 17.8866L23.5425 18.3054L22.3904 20.0335L21.7622 19.6147Z" fill="black" />
+<path d="M20.4005 21.6565L21.5526 19.9283L22.1808 20.3471L21.0287 22.0753L20.4005 21.6565Z" fill="black" />
+<path d="M12.229 13.486C13.618 11.403 16.432 10.84 18.515 12.229C20.598 13.618 21.161 16.432 19.772 18.515L12.229 13.486Z" fill="#BE3B3E" />
+<path d="M12.229 13.4861C10.84 15.5691 11.403 18.3831 13.486 19.7721C15.569 21.1611 18.383 20.5981 19.772 18.5151C20.466 17.4741 20.185 16.0661 19.143 15.3721C18.101 14.6781 16.694 14.9591 16 16.0011L12.229 13.4871V13.4861Z" fill="#1C449C" />
+<path d="M14.114 17.0091C15.3655 17.0091 16.38 15.9945 16.38 14.7431C16.38 13.4916 15.3655 12.4771 14.114 12.4771C12.8625 12.4771 11.848 13.4916 11.848 14.7431C11.848 15.9945 12.8625 17.0091 14.114 17.0091Z" fill="#BE3B3E" />
+<path d="M6.57153 19.5623L7.19973 19.1435L9.71418 22.9151L9.08598 23.3339L6.57153 19.5623Z" fill="black" />
+<path d="M8.45825 18.3057L9.08645 17.8869L11.6009 21.6586L10.9727 22.0774L8.45825 18.3057Z" fill="black" />
+<path d="M21.3435 9.71436L21.9717 9.29556L24.4862 13.0672L23.858 13.486L21.3435 9.71436Z" fill="black" />
+<path d="M7.51416 18.9331L8.14236 18.5143L9.29447 20.2425L8.66627 20.6613L7.51416 18.9331Z" fill="black" />
+<path d="M8.87561 20.9763L9.5038 20.5575L10.6559 22.2857L10.0278 22.7045L8.87561 20.9763Z" fill="black" />
+<path d="M20.4 10.3425L21.0282 9.92373L22.1803 11.6519L21.5521 12.0707L20.4 10.3425Z" fill="black" />
+<path d="M21.7626 12.3855L22.3908 11.9667L23.5429 13.6949L22.9147 14.1137L21.7626 12.3855Z" fill="black" />
+<path d="M22.2852 9.08618L22.9134 8.66738L24.0655 10.3956L23.4373 10.8144L22.2852 9.08618Z" fill="black" />
+<path d="M23.6478 11.1296L24.276 10.7108L25.4282 12.439L24.8 12.8578L23.6478 11.1296Z" fill="black" />
+    </svg>
+  )
+);
+
+SouthKorea.displayName = "SouthKorea";
+
+export const SouthKoreaMetadata = {
+  id: "South-Korea",
+  baseId: "South-Korea",
+  variant: "default",
+  name: "South Korea",
+  category: "flags",
+  tags: [],
+  viewBox: "0 0 32 32",
+} as const;
+
+export default SouthKorea;

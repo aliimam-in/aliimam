@@ -4,6 +4,8 @@ import { useEffect, useMemo, useState } from "react"
 import { allLogos } from "../../../../../packages/icons/src/generated"
 import { useIconFilter } from "./icon-filter-context"
 
+const HIDDEN_CATEGORIES = new Set(["outline", "filled"])
+
 export function IconCategoryTabs() {
   const { category, setCategory } = useIconFilter()
   const [currentHash, setCurrentHash] = useState<string | null>(null)
@@ -12,7 +14,8 @@ export function IconCategoryTabs() {
     const map = new Map<string, number>()
 
     Object.entries(allLogos).forEach(([cat, logos]) => {
-      // baseId se unique logos count karo (variants ek baar count hon)
+      if (HIDDEN_CATEGORIES.has(cat.toLowerCase())) return
+
       const uniqueBaseIds = new Set(
         // eslint-disable-next-line @typescript-eslint/no-explicit-any
         Object.values(logos).map((entry: any) => entry.metadata.baseId)

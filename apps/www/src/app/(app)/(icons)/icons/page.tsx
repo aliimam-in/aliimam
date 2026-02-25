@@ -13,6 +13,13 @@ import { useIconFilter } from "@/src/components/icons/icon-filter-context"
 
 import { Tabs, TabsList, TabsTrigger } from "@/registry/aliimam/ui/tabs"
 
+// These are hidden from the category sidebar but shown as variant tabs
+const VARIANT_TABS = [
+  { value: "outline", label: "Outline" },
+  { value: "filled", label: "Filled" },
+  { value: "circle", label: "Circle" },
+]
+
 export default function Page() {
   const [selectedLogo, setSelectedLogo] = useState<string | null>(null)
   const { variantTab, setVariantTab } = useIconFilter()
@@ -28,13 +35,16 @@ export default function Page() {
           className="ml-auto"
           value={variantTab}
           onValueChange={(v) => {
-            setVariantTab(v as "outline" | "filled")
-            setSelectedLogo(null) // selection clear karo tab switch pe
+            setVariantTab(v as "outline" | "filled" | "circle")
+            setSelectedLogo(null)
           }}
         >
           <TabsList>
-            <TabsTrigger value="outline">Outline</TabsTrigger>
-            <TabsTrigger value="filled">Filled</TabsTrigger>
+            {VARIANT_TABS.map(({ value, label }) => (
+              <TabsTrigger key={value} value={value}>
+                {label}
+              </TabsTrigger>
+            ))}
           </TabsList>
         </Tabs>
       </div>

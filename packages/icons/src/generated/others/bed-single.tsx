@@ -1,0 +1,48 @@
+/**
+ * Auto-generated logo component: Bed Single (default)
+ * Category: others
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface BedSingleLogoProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string;
+  strokeWidth?: number;
+}
+
+export const BedSingleLogo = React.forwardRef<SVGSVGElement, BedSingleLogoProps>(
+  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
+      <path d="M3 20v-8a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v8" />
+  <path d="M5 10V6a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v4" />
+  <path d="M3 18h18" />
+    </svg>
+  )
+);
+
+BedSingleLogo.displayName = "BedSingleLogo";
+
+export const BedSingleLogoMetadata = {
+  id: "bed-single",
+  baseId: "bed-single",
+  variant: "default",
+  name: "Bed Single",
+  category: "others",
+  tags: [],
+  viewBox: "0 0 24 24",
+} as const;
+
+export default BedSingleLogo;

@@ -1,0 +1,55 @@
+/**
+ * Auto-generated logo component: Ethiopia (default)
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface EthiopiaProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string;
+}
+
+export const Ethiopia = React.forwardRef<SVGSVGElement, EthiopiaProps>(
+  ({ size = 24, className = '', ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 32 32"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <path d="M1 11H31V21H1V11Z" fill="#F7DF4B" />
+<path d="M5 4H27C29.208 4 31 5.792 31 8V12H1V8C1 5.792 2.792 4 5 4Z" fill="#3C883A" />
+<path d="M27 28L5 28C2.792 28 1 26.208 1 24V20L31 20V24C31 26.208 29.208 28 27 28Z" fill="#C92D25" />
+<path d="M16 22C19.3137 22 22 19.3137 22 16C22 12.6863 19.3137 10 16 10C12.6863 10 10 12.6863 10 16C10 19.3137 12.6863 22 16 22Z" fill="#1E44AA" />
+<path d="M16 10.909L15.777 11.595L16.697 14.426H15.47L15.332 14.85H19.265L19.849 14.426H17.143L16 10.908V10.909Z" fill="#F6DD4C" />
+<path d="M17.2852 14.0498L18.9074 11.8193L19.0796 11.9446L17.4574 14.1751L17.2852 14.0498Z" fill="#F6DD4C" />
+<path d="M20.842 14.427H20.12L17.711 16.177L17.332 15.01H16.886L18.101 18.751L18.685 19.175L17.849 16.601L20.842 14.427Z" fill="#F6DD4C" />
+<path d="M20.809 17.6741L18.186 16.8221L18.252 16.6201L20.875 17.4721L20.809 17.6741Z" fill="#F6DD4C" />
+<path d="M18.992 20.1191L18.769 19.4331L16.36 17.6831L17.352 16.9621L17.214 16.5381L14.032 18.8501L13.809 19.5361L15.999 17.9451L18.991 20.1191H18.992Z" fill="#F6DD4C" />
+<path d="M15.894 18.333H16.107V21.091H15.894V18.333Z" fill="#F6DD4C" />
+<path d="M13.008 20.119L13.592 19.695L14.512 16.864L15.504 17.585L15.865 17.323L12.683 15.011H11.961L14.151 16.602L13.008 20.12V20.119Z" fill="#F6DD4C" />
+<path d="M11.191 17.6741L11.125 17.4721L13.748 16.6201L13.814 16.8221L11.191 17.6741Z" fill="#F6DD4C" />
+<path d="M11.158 14.427L11.742 14.851H14.719L14.34 16.018L14.701 16.28L15.916 12.539L15.693 11.853L14.857 14.427H11.158Z" fill="#F6DD4C" />
+<path d="M12.9224 11.9441L13.0947 11.8189L14.716 14.05L14.5437 14.1752L12.9224 11.9441Z" fill="#F6DD4C" />
+    </svg>
+  )
+);
+
+Ethiopia.displayName = "Ethiopia";
+
+export const EthiopiaMetadata = {
+  id: "Ethiopia",
+  baseId: "Ethiopia",
+  variant: "default",
+  name: "Ethiopia",
+  category: "flags",
+  tags: [],
+  viewBox: "0 0 32 32",
+} as const;
+
+export default Ethiopia;

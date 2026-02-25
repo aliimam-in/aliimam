@@ -1,0 +1,44 @@
+/**
+ * Auto-generated logo component: Martinique (default)
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface MartiniqueProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string;
+}
+
+export const Martinique = React.forwardRef<SVGSVGElement, MartiniqueProps>(
+  ({ size = 24, className = '', ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 32 32"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <path d="M1 24C1 26.2092 2.7908 28 5 28H27C29.2092 28 31 26.2092 31 24V15H1V24Z" fill="#1E1918" />
+<path d="M27 4H5C2.7908 4 1 5.7908 1 8V16H31V8C31 5.7908 29.2092 4 27 4Z" fill="#05A84F" />
+<path d="M2.3157 26.9473L16 15.9999L2.3157 5.05249C1.5128 5.78409 1 6.82809 1 7.99989V23.9999C1 25.1717 1.5128 26.2157 2.3157 26.9473Z" fill="#F0121E" />
+    </svg>
+  )
+);
+
+Martinique.displayName = "Martinique";
+
+export const MartiniqueMetadata = {
+  id: "Martinique",
+  baseId: "Martinique",
+  variant: "default",
+  name: "Martinique",
+  category: "flags",
+  tags: [],
+  viewBox: "0 0 32 32",
+} as const;
+
+export default Martinique;

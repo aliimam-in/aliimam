@@ -1,0 +1,46 @@
+/**
+ * Auto-generated logo component: Mauritania (default)
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface MauritaniaProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string;
+}
+
+export const Mauritania = React.forwardRef<SVGSVGElement, MauritaniaProps>(
+  ({ size = 24, className = '', ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 32 32"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <path d="M1 9H31V23H1V9Z" fill="#4CA863" />
+<path d="M5 4H27C29.208 4 31 5.792 31 8V10H1V8C1 5.792 2.792 4 5 4Z" fill="#C02F27" />
+<path d="M27 28L5 28C2.792 28 1 26.208 1 24V22L31 22V24C31 26.208 29.208 28 27 28Z" fill="#C02F27" />
+<path d="M13.953 13.393H15.511L16 11.927L16.489 13.393H18.047L16.764 14.33L17.283 15.817L16 14.9L14.717 15.817L15.236 14.33L13.953 13.393Z" fill="#F8D749" />
+<path d="M8.36301 12.6399C9.05701 16.1249 13.039 18.4849 17.257 17.9109C20.531 17.4659 23.098 15.3449 23.637 12.6399C23.637 16.7449 20.218 20.0729 16 20.0729C11.782 20.0729 8.36301 16.7449 8.36301 12.6399Z" fill="#F8D749" />
+    </svg>
+  )
+);
+
+Mauritania.displayName = "Mauritania";
+
+export const MauritaniaMetadata = {
+  id: "Mauritania",
+  baseId: "Mauritania",
+  variant: "default",
+  name: "Mauritania",
+  category: "flags",
+  tags: [],
+  viewBox: "0 0 32 32",
+} as const;
+
+export default Mauritania;

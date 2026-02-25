@@ -1,0 +1,48 @@
+/**
+ * Auto-generated logo component: Cloud Upload (default)
+ * Category: cloud
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface CloudUploadLogoProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string;
+  strokeWidth?: number;
+}
+
+export const CloudUploadLogo = React.forwardRef<SVGSVGElement, CloudUploadLogoProps>(
+  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
+      <path d="M12 13v8" />
+  <path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242" />
+  <path d="m8 17 4-4 4 4" />
+    </svg>
+  )
+);
+
+CloudUploadLogo.displayName = "CloudUploadLogo";
+
+export const CloudUploadLogoMetadata = {
+  id: "cloud-upload",
+  baseId: "cloud-upload",
+  variant: "default",
+  name: "Cloud Upload",
+  category: "cloud",
+  tags: [],
+  viewBox: "0 0 24 24",
+} as const;
+
+export default CloudUploadLogo;
