@@ -118,13 +118,7 @@ function extractInnerSVG(svg: string): string {
 
 function convertSvgAttributes(svg: string) {
   return svg
-    .replace(/fill=["']black["']/gi, "")
-    .replace(/fill=["']currentColor["']/gi, "")
-    .replace(/fill=["']#000["']/gi, "")
-
-    .replace(/stroke=["']black["']/gi, "")
-    .replace(/stroke=["']#000000["']/gi, "")
-    .replace(/stroke=["']#000["']/gi, "")
+    .replace(/fill=["']black["']/gi, 'fill="currentColor"')  
 
     .replace(/stroke-width=/g, "strokeWidth=")
     .replace(/stroke-linecap=/g, "strokeLinecap=")
@@ -240,16 +234,7 @@ const allLogosRaw: LogoJSON[] = []
 const categories = fs
   .readdirSync(LOGOS_DIR)
   .filter((d) => fs.statSync(path.join(LOGOS_DIR, d)).isDirectory())
-
-function toKebabCase(str: string) {
-  return str
-    .replace(/([a-z])([A-Z])/g, "$1-$2") // camelCase → camel-Case
-    .replace(/\s+/g, "-") // spaces → dash
-    .replace(/_/g, "-") // underscore → dash
-    .replace(/[^a-zA-Z0-9-]/g, "") // remove weird chars
-    .toLowerCase()
-}
-
+ 
 // ------------------------
 // Collect all logos from all category folders
 // ------------------------
@@ -257,9 +242,8 @@ for (const category of categories) {
   const categoryPath = path.join(LOGOS_DIR, category)
   const files = fs.readdirSync(categoryPath).filter((f) => f.endsWith(".svg"))
 
-  for (const file of files) {
-    const rawBasename = path.basename(file, ".svg")
-    const basename = toKebabCase(rawBasename)
+  for (const file of files) { 
+    const basename = path.basename(file, ".svg")
     const rawSvg = fs.readFileSync(path.join(categoryPath, file), "utf-8")
     const svgContent = convertSvgAttributes(extractInnerSVG(rawSvg))
     const existing = existingMap.get(`${category}/${basename}`)

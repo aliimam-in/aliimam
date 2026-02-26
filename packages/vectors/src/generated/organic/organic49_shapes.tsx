@@ -1,8 +1,3 @@
-/**
- * Auto-generated logo component: Organic49 (shapes)
- * Category: organic
- * Do not edit manually
- */
 
 'use client';
 import React from 'react';
@@ -19,7 +14,7 @@ export const Organic49Shapes = React.forwardRef<SVGSVGElement, Organic49ShapesPr
       width={size}
       height={size}
       viewBox="0 0 300 600"
-      fill="none"
+      
       className={className}
       xmlns="http://www.w3.org/2000/svg" 
       {...props}

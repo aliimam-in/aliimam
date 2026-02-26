@@ -1,8 +1,3 @@
-/**
- * Auto-generated logo component: Abstract38 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 'use client';
 import React from 'react';
@@ -19,7 +14,7 @@ export const Abstract38Sketch = React.forwardRef<SVGSVGElement, Abstract38Sketch
       width={size}
       height={size}
       viewBox="0 0 446 446"
-      fill="none"
+      
       className={className}
       xmlns="http://www.w3.org/2000/svg" 
       {...props}

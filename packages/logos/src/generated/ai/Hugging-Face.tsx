@@ -44,8 +44,8 @@ export const HuggingFace = React.forwardRef<SVGSVGElement, HuggingFaceProps>(
 HuggingFace.displayName = "HuggingFace";
 
 export const HuggingFaceMetadata = {
-  id: "Hugging-Face",
-  baseId: "Hugging-Face",
+  id: "hugging-face",
+  baseId: "hugging-face",
   variant: "default",
   name: "Hugging Face",
   category: "ai",

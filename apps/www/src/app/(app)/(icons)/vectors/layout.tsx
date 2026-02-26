@@ -1,6 +1,6 @@
 "use client"
 
-import { Suspense } from "react"
+import { Suspense } from "react" 
 
 export default function DocsLayout({
   children,
@@ -15,7 +15,7 @@ export default function DocsLayout({
             Loading vectors...
           </div>
         }
-      >
+      > 
         {children}
       </Suspense>
     </div>

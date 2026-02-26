@@ -11090,6 +11090,27 @@ declare const XAIGrokMetadata: {
 };
 
 /**
+ * Auto-generated logo component: Midday (default)
+ * Category: ai
+ * Do not edit manually
+ */
+
+interface MiddayProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Midday: React__default.ForwardRefExoticComponent<Omit<MiddayProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const MiddayMetadata: {
+    readonly id: "midday";
+    readonly baseId: "midday";
+    readonly variant: "default";
+    readonly name: "Midday";
+    readonly category: "ai";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
+};
+
+/**
  * Auto-generated logo component: Lovable (default)
  * Category: ai
  * Do not edit manually
@@ -11108,6 +11129,27 @@ declare const LovableMetadata: {
     readonly category: "ai";
     readonly tags: readonly [];
     readonly viewBox: "0 0 121 122";
+};
+
+/**
+ * Auto-generated logo component: Hugging Face (default)
+ * Category: ai
+ * Do not edit manually
+ */
+
+interface HuggingFaceProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const HuggingFace: React__default.ForwardRefExoticComponent<Omit<HuggingFaceProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const HuggingFaceMetadata: {
+    readonly id: "hugging-face";
+    readonly baseId: "hugging-face";
+    readonly variant: "default";
+    readonly name: "Hugging Face";
+    readonly category: "ai";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 24 24";
 };
 
 /**
@@ -11384,27 +11426,6 @@ declare const OpenAIMetadata: {
 };
 
 /**
- * Auto-generated logo component: Midday (default)
- * Category: ai
- * Do not edit manually
- */
-
-interface MiddayProps extends React__default.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    className?: string;
-}
-declare const Midday: React__default.ForwardRefExoticComponent<Omit<MiddayProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const MiddayMetadata: {
-    readonly id: "Midday";
-    readonly baseId: "Midday";
-    readonly variant: "default";
-    readonly name: "Midday";
-    readonly category: "ai";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-/**
  * Auto-generated logo component: Hume (default)
  * Category: ai
  * Do not edit manually
@@ -11420,27 +11441,6 @@ declare const HumeMetadata: {
     readonly baseId: "Hume";
     readonly variant: "default";
     readonly name: "Hume";
-    readonly category: "ai";
-    readonly tags: readonly [];
-    readonly viewBox: "0 0 24 24";
-};
-
-/**
- * Auto-generated logo component: Hugging Face (default)
- * Category: ai
- * Do not edit manually
- */
-
-interface HuggingFaceProps extends React__default.SVGProps<SVGSVGElement> {
-    size?: number | string;
-    className?: string;
-}
-declare const HuggingFace: React__default.ForwardRefExoticComponent<Omit<HuggingFaceProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const HuggingFaceMetadata: {
-    readonly id: "Hugging-Face";
-    readonly baseId: "Hugging-Face";
-    readonly variant: "default";
-    readonly name: "Hugging Face";
     readonly category: "ai";
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
@@ -12110,18 +12110,6 @@ declare const allLogos: {
                 readonly viewBox: "0 0 62 24";
             };
         };
-        readonly HuggingFace: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<HuggingFaceProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-            readonly metadata: {
-                readonly id: "Hugging-Face";
-                readonly baseId: "Hugging-Face";
-                readonly variant: "default";
-                readonly name: "Hugging Face";
-                readonly category: "ai";
-                readonly tags: readonly [];
-                readonly viewBox: "0 0 24 24";
-            };
-        };
         readonly Hume: {
             readonly Component: React.ForwardRefExoticComponent<Omit<HumeProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
@@ -12129,18 +12117,6 @@ declare const allLogos: {
                 readonly baseId: "Hume";
                 readonly variant: "default";
                 readonly name: "Hume";
-                readonly category: "ai";
-                readonly tags: readonly [];
-                readonly viewBox: "0 0 24 24";
-            };
-        };
-        readonly Midday: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<MiddayProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
-            readonly metadata: {
-                readonly id: "Midday";
-                readonly baseId: "Midday";
-                readonly variant: "default";
-                readonly name: "Midday";
                 readonly category: "ai";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 24 24";
@@ -12302,6 +12278,18 @@ declare const allLogos: {
                 readonly viewBox: "0 0 24 24";
             };
         };
+        readonly HuggingFace: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<HuggingFaceProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "hugging-face";
+                readonly baseId: "hugging-face";
+                readonly variant: "default";
+                readonly name: "Hugging Face";
+                readonly category: "ai";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 24 24";
+            };
+        };
         readonly Lovable: {
             readonly Component: React.ForwardRefExoticComponent<Omit<LovableProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
@@ -12312,6 +12300,18 @@ declare const allLogos: {
                 readonly category: "ai";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 121 122";
+            };
+        };
+        readonly Midday: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<MiddayProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "midday";
+                readonly baseId: "midday";
+                readonly variant: "default";
+                readonly name: "Midday";
+                readonly category: "ai";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 24 24";
             };
         };
         readonly XAIGrok: {

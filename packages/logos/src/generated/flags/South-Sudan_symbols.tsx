@@ -25,7 +25,7 @@ export const SouthSudanSymbols = React.forwardRef<SVGSVGElement, SouthSudanSymbo
       {...props}
     >
       <path d="M1 12H31V20H1V12Z" fill="#C92D25"/>
-<path d="M5 4H27C29.208 4 31 5.792 31 8V13H1V8C1 5.792 2.792 4 5 4Z" />
+<path d="M5 4H27C29.208 4 31 5.792 31 8V13H1V8C1 5.792 2.792 4 5 4Z" fill="currentColor"/>
 <path d="M27 28L5 28C2.792 28 1 26.208 1 24V19L31 19V24C31 26.208 29.208 28 27 28Z" fill="#3C883A"/>
 <path d="M1 11H31V13H1V11Z" fill="white"/>
 <path d="M1 19H31V21H1V19Z" fill="white"/>

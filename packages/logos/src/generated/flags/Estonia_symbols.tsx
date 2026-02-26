@@ -24,7 +24,7 @@ export const EstoniaSymbols = React.forwardRef<SVGSVGElement, EstoniaSymbolsProp
       xmlns="http://www.w3.org/2000/svg" 
       {...props}
     >
-      <path d="M1 11H31V21H1V11Z" />
+      <path d="M1 11H31V21H1V11Z" fill="currentColor"/>
 <path d="M5 4H27C29.208 4 31 5.792 31 8V12H1V8C1 5.792 2.792 4 5 4Z" fill="#3271C9"/>
 <path d="M27 28L5 28C2.792 28 1 26.208 1 24V20L31 20V24C31 26.208 29.208 28 27 28Z" fill="white"/>
     </svg>

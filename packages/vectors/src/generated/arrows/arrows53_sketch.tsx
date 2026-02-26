@@ -1,8 +1,3 @@
-/**
- * Auto-generated logo component: Arrows53 (sketch)
- * Category: arrows
- * Do not edit manually
- */
 
 'use client';
 import React from 'react';
@@ -19,7 +14,7 @@ export const Arrows53Sketch = React.forwardRef<SVGSVGElement, Arrows53SketchProp
       width={size}
       height={size}
       viewBox="0 0 500 500"
-      fill="none"
+      fill="currentColor"
       className={className}
       xmlns="http://www.w3.org/2000/svg" 
       {...props}

@@ -25,7 +25,7 @@ export const UnitedArabEmiraSymbols = React.forwardRef<SVGSVGElement, UnitedArab
       {...props}
     >
       <path d="M5 4H11V28H5C2.792 28 1 26.208 1 24V8C1 5.792 2.792 4 5 4Z" fill="#EA3323"/>
-<path d="M10 20V28H27C29.209 28 31 26.209 31 24V20H10Z" />
+<path d="M10 20V28H27C29.209 28 31 26.209 31 24V20H10Z" fill="currentColor"/>
 <path d="M10 11H31V21H10V11Z" fill="white"/>
 <path d="M27 4H10V12H31V8C31 5.791 29.209 4 27 4Z" fill="#317234"/>
     </svg>

@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-02-26T10:41:51.071Z",
+  "lastUpdated": "2026-02-26T12:47:53.769Z",
   "logos": [
     {
       "id": "abstract100_shapes",
@@ -4961,6 +4961,1506 @@
       "category": "organic",
       "tags": [],
       "viewBox": "0 0 300 600"
+    },
+    {
+      "id": "scribble100_sketch",
+      "baseId": "scribble100",
+      "variant": "sketch",
+      "name": "Scribble100",
+      "path": "./generated/scribble/scribble100_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble101_sketch",
+      "baseId": "scribble101",
+      "variant": "sketch",
+      "name": "Scribble101",
+      "path": "./generated/scribble/scribble101_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble102_sketch",
+      "baseId": "scribble102",
+      "variant": "sketch",
+      "name": "Scribble102",
+      "path": "./generated/scribble/scribble102_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble103_sketch",
+      "baseId": "scribble103",
+      "variant": "sketch",
+      "name": "Scribble103",
+      "path": "./generated/scribble/scribble103_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble104_sketch",
+      "baseId": "scribble104",
+      "variant": "sketch",
+      "name": "Scribble104",
+      "path": "./generated/scribble/scribble104_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble105_sketch",
+      "baseId": "scribble105",
+      "variant": "sketch",
+      "name": "Scribble105",
+      "path": "./generated/scribble/scribble105_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble106_sketch",
+      "baseId": "scribble106",
+      "variant": "sketch",
+      "name": "Scribble106",
+      "path": "./generated/scribble/scribble106_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble107_sketch",
+      "baseId": "scribble107",
+      "variant": "sketch",
+      "name": "Scribble107",
+      "path": "./generated/scribble/scribble107_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble108_sketch",
+      "baseId": "scribble108",
+      "variant": "sketch",
+      "name": "Scribble108",
+      "path": "./generated/scribble/scribble108_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble109_sketch",
+      "baseId": "scribble109",
+      "variant": "sketch",
+      "name": "Scribble109",
+      "path": "./generated/scribble/scribble109_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble10_sketch",
+      "baseId": "scribble10",
+      "variant": "sketch",
+      "name": "Scribble10",
+      "path": "./generated/scribble/scribble10_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble110_sketch",
+      "baseId": "scribble110",
+      "variant": "sketch",
+      "name": "Scribble110",
+      "path": "./generated/scribble/scribble110_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble111_sketch",
+      "baseId": "scribble111",
+      "variant": "sketch",
+      "name": "Scribble111",
+      "path": "./generated/scribble/scribble111_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble112_sketch",
+      "baseId": "scribble112",
+      "variant": "sketch",
+      "name": "Scribble112",
+      "path": "./generated/scribble/scribble112_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble113_sketch",
+      "baseId": "scribble113",
+      "variant": "sketch",
+      "name": "Scribble113",
+      "path": "./generated/scribble/scribble113_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble114_sketch",
+      "baseId": "scribble114",
+      "variant": "sketch",
+      "name": "Scribble114",
+      "path": "./generated/scribble/scribble114_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble115_sketch",
+      "baseId": "scribble115",
+      "variant": "sketch",
+      "name": "Scribble115",
+      "path": "./generated/scribble/scribble115_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble116_sketch",
+      "baseId": "scribble116",
+      "variant": "sketch",
+      "name": "Scribble116",
+      "path": "./generated/scribble/scribble116_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble117_sketch",
+      "baseId": "scribble117",
+      "variant": "sketch",
+      "name": "Scribble117",
+      "path": "./generated/scribble/scribble117_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble118_sketch",
+      "baseId": "scribble118",
+      "variant": "sketch",
+      "name": "Scribble118",
+      "path": "./generated/scribble/scribble118_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble119_sketch",
+      "baseId": "scribble119",
+      "variant": "sketch",
+      "name": "Scribble119",
+      "path": "./generated/scribble/scribble119_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble11_sketch",
+      "baseId": "scribble11",
+      "variant": "sketch",
+      "name": "Scribble11",
+      "path": "./generated/scribble/scribble11_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble120_sketch",
+      "baseId": "scribble120",
+      "variant": "sketch",
+      "name": "Scribble120",
+      "path": "./generated/scribble/scribble120_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble121_sketch",
+      "baseId": "scribble121",
+      "variant": "sketch",
+      "name": "Scribble121",
+      "path": "./generated/scribble/scribble121_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble122_sketch",
+      "baseId": "scribble122",
+      "variant": "sketch",
+      "name": "Scribble122",
+      "path": "./generated/scribble/scribble122_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble123_sketch",
+      "baseId": "scribble123",
+      "variant": "sketch",
+      "name": "Scribble123",
+      "path": "./generated/scribble/scribble123_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble124_sketch",
+      "baseId": "scribble124",
+      "variant": "sketch",
+      "name": "Scribble124",
+      "path": "./generated/scribble/scribble124_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble125_sketch",
+      "baseId": "scribble125",
+      "variant": "sketch",
+      "name": "Scribble125",
+      "path": "./generated/scribble/scribble125_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble126_sketch",
+      "baseId": "scribble126",
+      "variant": "sketch",
+      "name": "Scribble126",
+      "path": "./generated/scribble/scribble126_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble127_sketch",
+      "baseId": "scribble127",
+      "variant": "sketch",
+      "name": "Scribble127",
+      "path": "./generated/scribble/scribble127_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble128_sketch",
+      "baseId": "scribble128",
+      "variant": "sketch",
+      "name": "Scribble128",
+      "path": "./generated/scribble/scribble128_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble129_sketch",
+      "baseId": "scribble129",
+      "variant": "sketch",
+      "name": "Scribble129",
+      "path": "./generated/scribble/scribble129_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble12_sketch",
+      "baseId": "scribble12",
+      "variant": "sketch",
+      "name": "Scribble12",
+      "path": "./generated/scribble/scribble12_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble130_sketch",
+      "baseId": "scribble130",
+      "variant": "sketch",
+      "name": "Scribble130",
+      "path": "./generated/scribble/scribble130_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble131_sketch",
+      "baseId": "scribble131",
+      "variant": "sketch",
+      "name": "Scribble131",
+      "path": "./generated/scribble/scribble131_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble132_sketch",
+      "baseId": "scribble132",
+      "variant": "sketch",
+      "name": "Scribble132",
+      "path": "./generated/scribble/scribble132_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble133_sketch",
+      "baseId": "scribble133",
+      "variant": "sketch",
+      "name": "Scribble133",
+      "path": "./generated/scribble/scribble133_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble134_sketch",
+      "baseId": "scribble134",
+      "variant": "sketch",
+      "name": "Scribble134",
+      "path": "./generated/scribble/scribble134_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble135_sketch",
+      "baseId": "scribble135",
+      "variant": "sketch",
+      "name": "Scribble135",
+      "path": "./generated/scribble/scribble135_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble136_sketch",
+      "baseId": "scribble136",
+      "variant": "sketch",
+      "name": "Scribble136",
+      "path": "./generated/scribble/scribble136_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble137_sketch",
+      "baseId": "scribble137",
+      "variant": "sketch",
+      "name": "Scribble137",
+      "path": "./generated/scribble/scribble137_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble138_sketch",
+      "baseId": "scribble138",
+      "variant": "sketch",
+      "name": "Scribble138",
+      "path": "./generated/scribble/scribble138_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble139_sketch",
+      "baseId": "scribble139",
+      "variant": "sketch",
+      "name": "Scribble139",
+      "path": "./generated/scribble/scribble139_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble13_sketch",
+      "baseId": "scribble13",
+      "variant": "sketch",
+      "name": "Scribble13",
+      "path": "./generated/scribble/scribble13_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble140_sketch",
+      "baseId": "scribble140",
+      "variant": "sketch",
+      "name": "Scribble140",
+      "path": "./generated/scribble/scribble140_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble141_sketch",
+      "baseId": "scribble141",
+      "variant": "sketch",
+      "name": "Scribble141",
+      "path": "./generated/scribble/scribble141_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble142_sketch",
+      "baseId": "scribble142",
+      "variant": "sketch",
+      "name": "Scribble142",
+      "path": "./generated/scribble/scribble142_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble143_sketch",
+      "baseId": "scribble143",
+      "variant": "sketch",
+      "name": "Scribble143",
+      "path": "./generated/scribble/scribble143_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble144_sketch",
+      "baseId": "scribble144",
+      "variant": "sketch",
+      "name": "Scribble144",
+      "path": "./generated/scribble/scribble144_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble145_sketch",
+      "baseId": "scribble145",
+      "variant": "sketch",
+      "name": "Scribble145",
+      "path": "./generated/scribble/scribble145_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble146_sketch",
+      "baseId": "scribble146",
+      "variant": "sketch",
+      "name": "Scribble146",
+      "path": "./generated/scribble/scribble146_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble147_sketch",
+      "baseId": "scribble147",
+      "variant": "sketch",
+      "name": "Scribble147",
+      "path": "./generated/scribble/scribble147_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble148_sketch",
+      "baseId": "scribble148",
+      "variant": "sketch",
+      "name": "Scribble148",
+      "path": "./generated/scribble/scribble148_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble149_sketch",
+      "baseId": "scribble149",
+      "variant": "sketch",
+      "name": "Scribble149",
+      "path": "./generated/scribble/scribble149_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble14_sketch",
+      "baseId": "scribble14",
+      "variant": "sketch",
+      "name": "Scribble14",
+      "path": "./generated/scribble/scribble14_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble150_sketch",
+      "baseId": "scribble150",
+      "variant": "sketch",
+      "name": "Scribble150",
+      "path": "./generated/scribble/scribble150_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble15_sketch",
+      "baseId": "scribble15",
+      "variant": "sketch",
+      "name": "Scribble15",
+      "path": "./generated/scribble/scribble15_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble16_sketch",
+      "baseId": "scribble16",
+      "variant": "sketch",
+      "name": "Scribble16",
+      "path": "./generated/scribble/scribble16_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble17_sketch",
+      "baseId": "scribble17",
+      "variant": "sketch",
+      "name": "Scribble17",
+      "path": "./generated/scribble/scribble17_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble18_sketch",
+      "baseId": "scribble18",
+      "variant": "sketch",
+      "name": "Scribble18",
+      "path": "./generated/scribble/scribble18_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble19_sketch",
+      "baseId": "scribble19",
+      "variant": "sketch",
+      "name": "Scribble19",
+      "path": "./generated/scribble/scribble19_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble1_sketch",
+      "baseId": "scribble1",
+      "variant": "sketch",
+      "name": "Scribble1",
+      "path": "./generated/scribble/scribble1_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble20_sketch",
+      "baseId": "scribble20",
+      "variant": "sketch",
+      "name": "Scribble20",
+      "path": "./generated/scribble/scribble20_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble21_sketch",
+      "baseId": "scribble21",
+      "variant": "sketch",
+      "name": "Scribble21",
+      "path": "./generated/scribble/scribble21_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble22_sketch",
+      "baseId": "scribble22",
+      "variant": "sketch",
+      "name": "Scribble22",
+      "path": "./generated/scribble/scribble22_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble23_sketch",
+      "baseId": "scribble23",
+      "variant": "sketch",
+      "name": "Scribble23",
+      "path": "./generated/scribble/scribble23_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble24_sketch",
+      "baseId": "scribble24",
+      "variant": "sketch",
+      "name": "Scribble24",
+      "path": "./generated/scribble/scribble24_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble25_sketch",
+      "baseId": "scribble25",
+      "variant": "sketch",
+      "name": "Scribble25",
+      "path": "./generated/scribble/scribble25_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble26_sketch",
+      "baseId": "scribble26",
+      "variant": "sketch",
+      "name": "Scribble26",
+      "path": "./generated/scribble/scribble26_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble27_sketch",
+      "baseId": "scribble27",
+      "variant": "sketch",
+      "name": "Scribble27",
+      "path": "./generated/scribble/scribble27_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble28_sketch",
+      "baseId": "scribble28",
+      "variant": "sketch",
+      "name": "Scribble28",
+      "path": "./generated/scribble/scribble28_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble29_sketch",
+      "baseId": "scribble29",
+      "variant": "sketch",
+      "name": "Scribble29",
+      "path": "./generated/scribble/scribble29_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble2_sketch",
+      "baseId": "scribble2",
+      "variant": "sketch",
+      "name": "Scribble2",
+      "path": "./generated/scribble/scribble2_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble30_sketch",
+      "baseId": "scribble30",
+      "variant": "sketch",
+      "name": "Scribble30",
+      "path": "./generated/scribble/scribble30_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble31_sketch",
+      "baseId": "scribble31",
+      "variant": "sketch",
+      "name": "Scribble31",
+      "path": "./generated/scribble/scribble31_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble32_sketch",
+      "baseId": "scribble32",
+      "variant": "sketch",
+      "name": "Scribble32",
+      "path": "./generated/scribble/scribble32_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble33_sketch",
+      "baseId": "scribble33",
+      "variant": "sketch",
+      "name": "Scribble33",
+      "path": "./generated/scribble/scribble33_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble34_sketch",
+      "baseId": "scribble34",
+      "variant": "sketch",
+      "name": "Scribble34",
+      "path": "./generated/scribble/scribble34_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble35_sketch",
+      "baseId": "scribble35",
+      "variant": "sketch",
+      "name": "Scribble35",
+      "path": "./generated/scribble/scribble35_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble36_sketch",
+      "baseId": "scribble36",
+      "variant": "sketch",
+      "name": "Scribble36",
+      "path": "./generated/scribble/scribble36_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble37_sketch",
+      "baseId": "scribble37",
+      "variant": "sketch",
+      "name": "Scribble37",
+      "path": "./generated/scribble/scribble37_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble38_sketch",
+      "baseId": "scribble38",
+      "variant": "sketch",
+      "name": "Scribble38",
+      "path": "./generated/scribble/scribble38_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble39_sketch",
+      "baseId": "scribble39",
+      "variant": "sketch",
+      "name": "Scribble39",
+      "path": "./generated/scribble/scribble39_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble3_sketch",
+      "baseId": "scribble3",
+      "variant": "sketch",
+      "name": "Scribble3",
+      "path": "./generated/scribble/scribble3_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble40_sketch",
+      "baseId": "scribble40",
+      "variant": "sketch",
+      "name": "Scribble40",
+      "path": "./generated/scribble/scribble40_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble41_sketch",
+      "baseId": "scribble41",
+      "variant": "sketch",
+      "name": "Scribble41",
+      "path": "./generated/scribble/scribble41_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble42_sketch",
+      "baseId": "scribble42",
+      "variant": "sketch",
+      "name": "Scribble42",
+      "path": "./generated/scribble/scribble42_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble43_sketch",
+      "baseId": "scribble43",
+      "variant": "sketch",
+      "name": "Scribble43",
+      "path": "./generated/scribble/scribble43_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble44_sketch",
+      "baseId": "scribble44",
+      "variant": "sketch",
+      "name": "Scribble44",
+      "path": "./generated/scribble/scribble44_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble45_sketch",
+      "baseId": "scribble45",
+      "variant": "sketch",
+      "name": "Scribble45",
+      "path": "./generated/scribble/scribble45_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble46_sketch",
+      "baseId": "scribble46",
+      "variant": "sketch",
+      "name": "Scribble46",
+      "path": "./generated/scribble/scribble46_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble47_sketch",
+      "baseId": "scribble47",
+      "variant": "sketch",
+      "name": "Scribble47",
+      "path": "./generated/scribble/scribble47_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble48_sketch",
+      "baseId": "scribble48",
+      "variant": "sketch",
+      "name": "Scribble48",
+      "path": "./generated/scribble/scribble48_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble49_sketch",
+      "baseId": "scribble49",
+      "variant": "sketch",
+      "name": "Scribble49",
+      "path": "./generated/scribble/scribble49_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble4_sketch",
+      "baseId": "scribble4",
+      "variant": "sketch",
+      "name": "Scribble4",
+      "path": "./generated/scribble/scribble4_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble50_sketch",
+      "baseId": "scribble50",
+      "variant": "sketch",
+      "name": "Scribble50",
+      "path": "./generated/scribble/scribble50_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble51_sketch",
+      "baseId": "scribble51",
+      "variant": "sketch",
+      "name": "Scribble51",
+      "path": "./generated/scribble/scribble51_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble52_sketch",
+      "baseId": "scribble52",
+      "variant": "sketch",
+      "name": "Scribble52",
+      "path": "./generated/scribble/scribble52_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble53_sketch",
+      "baseId": "scribble53",
+      "variant": "sketch",
+      "name": "Scribble53",
+      "path": "./generated/scribble/scribble53_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble54_sketch",
+      "baseId": "scribble54",
+      "variant": "sketch",
+      "name": "Scribble54",
+      "path": "./generated/scribble/scribble54_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble55_sketch",
+      "baseId": "scribble55",
+      "variant": "sketch",
+      "name": "Scribble55",
+      "path": "./generated/scribble/scribble55_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble56_sketch",
+      "baseId": "scribble56",
+      "variant": "sketch",
+      "name": "Scribble56",
+      "path": "./generated/scribble/scribble56_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble57_sketch",
+      "baseId": "scribble57",
+      "variant": "sketch",
+      "name": "Scribble57",
+      "path": "./generated/scribble/scribble57_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble58_sketch",
+      "baseId": "scribble58",
+      "variant": "sketch",
+      "name": "Scribble58",
+      "path": "./generated/scribble/scribble58_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble59_sketch",
+      "baseId": "scribble59",
+      "variant": "sketch",
+      "name": "Scribble59",
+      "path": "./generated/scribble/scribble59_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble5_sketch",
+      "baseId": "scribble5",
+      "variant": "sketch",
+      "name": "Scribble5",
+      "path": "./generated/scribble/scribble5_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble60_sketch",
+      "baseId": "scribble60",
+      "variant": "sketch",
+      "name": "Scribble60",
+      "path": "./generated/scribble/scribble60_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble61_sketch",
+      "baseId": "scribble61",
+      "variant": "sketch",
+      "name": "Scribble61",
+      "path": "./generated/scribble/scribble61_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble62_sketch",
+      "baseId": "scribble62",
+      "variant": "sketch",
+      "name": "Scribble62",
+      "path": "./generated/scribble/scribble62_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble63_sketch",
+      "baseId": "scribble63",
+      "variant": "sketch",
+      "name": "Scribble63",
+      "path": "./generated/scribble/scribble63_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble64_sketch",
+      "baseId": "scribble64",
+      "variant": "sketch",
+      "name": "Scribble64",
+      "path": "./generated/scribble/scribble64_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble65_sketch",
+      "baseId": "scribble65",
+      "variant": "sketch",
+      "name": "Scribble65",
+      "path": "./generated/scribble/scribble65_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble66_sketch",
+      "baseId": "scribble66",
+      "variant": "sketch",
+      "name": "Scribble66",
+      "path": "./generated/scribble/scribble66_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble67_sketch",
+      "baseId": "scribble67",
+      "variant": "sketch",
+      "name": "Scribble67",
+      "path": "./generated/scribble/scribble67_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble68_sketch",
+      "baseId": "scribble68",
+      "variant": "sketch",
+      "name": "Scribble68",
+      "path": "./generated/scribble/scribble68_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble69_sketch",
+      "baseId": "scribble69",
+      "variant": "sketch",
+      "name": "Scribble69",
+      "path": "./generated/scribble/scribble69_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble6_sketch",
+      "baseId": "scribble6",
+      "variant": "sketch",
+      "name": "Scribble6",
+      "path": "./generated/scribble/scribble6_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble70_sketch",
+      "baseId": "scribble70",
+      "variant": "sketch",
+      "name": "Scribble70",
+      "path": "./generated/scribble/scribble70_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble71_sketch",
+      "baseId": "scribble71",
+      "variant": "sketch",
+      "name": "Scribble71",
+      "path": "./generated/scribble/scribble71_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble72_sketch",
+      "baseId": "scribble72",
+      "variant": "sketch",
+      "name": "Scribble72",
+      "path": "./generated/scribble/scribble72_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble73_sketch",
+      "baseId": "scribble73",
+      "variant": "sketch",
+      "name": "Scribble73",
+      "path": "./generated/scribble/scribble73_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble74_sketch",
+      "baseId": "scribble74",
+      "variant": "sketch",
+      "name": "Scribble74",
+      "path": "./generated/scribble/scribble74_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble75_sketch",
+      "baseId": "scribble75",
+      "variant": "sketch",
+      "name": "Scribble75",
+      "path": "./generated/scribble/scribble75_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble76_sketch",
+      "baseId": "scribble76",
+      "variant": "sketch",
+      "name": "Scribble76",
+      "path": "./generated/scribble/scribble76_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble77_sketch",
+      "baseId": "scribble77",
+      "variant": "sketch",
+      "name": "Scribble77",
+      "path": "./generated/scribble/scribble77_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble78_sketch",
+      "baseId": "scribble78",
+      "variant": "sketch",
+      "name": "Scribble78",
+      "path": "./generated/scribble/scribble78_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble79_sketch",
+      "baseId": "scribble79",
+      "variant": "sketch",
+      "name": "Scribble79",
+      "path": "./generated/scribble/scribble79_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble7_sketch",
+      "baseId": "scribble7",
+      "variant": "sketch",
+      "name": "Scribble7",
+      "path": "./generated/scribble/scribble7_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble80_sketch",
+      "baseId": "scribble80",
+      "variant": "sketch",
+      "name": "Scribble80",
+      "path": "./generated/scribble/scribble80_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble81_sketch",
+      "baseId": "scribble81",
+      "variant": "sketch",
+      "name": "Scribble81",
+      "path": "./generated/scribble/scribble81_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble82_sketch",
+      "baseId": "scribble82",
+      "variant": "sketch",
+      "name": "Scribble82",
+      "path": "./generated/scribble/scribble82_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble83_sketch",
+      "baseId": "scribble83",
+      "variant": "sketch",
+      "name": "Scribble83",
+      "path": "./generated/scribble/scribble83_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble84_sketch",
+      "baseId": "scribble84",
+      "variant": "sketch",
+      "name": "Scribble84",
+      "path": "./generated/scribble/scribble84_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble85_sketch",
+      "baseId": "scribble85",
+      "variant": "sketch",
+      "name": "Scribble85",
+      "path": "./generated/scribble/scribble85_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble86_sketch",
+      "baseId": "scribble86",
+      "variant": "sketch",
+      "name": "Scribble86",
+      "path": "./generated/scribble/scribble86_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble87_sketch",
+      "baseId": "scribble87",
+      "variant": "sketch",
+      "name": "Scribble87",
+      "path": "./generated/scribble/scribble87_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble88_sketch",
+      "baseId": "scribble88",
+      "variant": "sketch",
+      "name": "Scribble88",
+      "path": "./generated/scribble/scribble88_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble89_sketch",
+      "baseId": "scribble89",
+      "variant": "sketch",
+      "name": "Scribble89",
+      "path": "./generated/scribble/scribble89_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble8_sketch",
+      "baseId": "scribble8",
+      "variant": "sketch",
+      "name": "Scribble8",
+      "path": "./generated/scribble/scribble8_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble90_sketch",
+      "baseId": "scribble90",
+      "variant": "sketch",
+      "name": "Scribble90",
+      "path": "./generated/scribble/scribble90_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble91_sketch",
+      "baseId": "scribble91",
+      "variant": "sketch",
+      "name": "Scribble91",
+      "path": "./generated/scribble/scribble91_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble92_sketch",
+      "baseId": "scribble92",
+      "variant": "sketch",
+      "name": "Scribble92",
+      "path": "./generated/scribble/scribble92_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble93_sketch",
+      "baseId": "scribble93",
+      "variant": "sketch",
+      "name": "Scribble93",
+      "path": "./generated/scribble/scribble93_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble94_sketch",
+      "baseId": "scribble94",
+      "variant": "sketch",
+      "name": "Scribble94",
+      "path": "./generated/scribble/scribble94_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble95_sketch",
+      "baseId": "scribble95",
+      "variant": "sketch",
+      "name": "Scribble95",
+      "path": "./generated/scribble/scribble95_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble96_sketch",
+      "baseId": "scribble96",
+      "variant": "sketch",
+      "name": "Scribble96",
+      "path": "./generated/scribble/scribble96_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble97_sketch",
+      "baseId": "scribble97",
+      "variant": "sketch",
+      "name": "Scribble97",
+      "path": "./generated/scribble/scribble97_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble98_sketch",
+      "baseId": "scribble98",
+      "variant": "sketch",
+      "name": "Scribble98",
+      "path": "./generated/scribble/scribble98_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble99_sketch",
+      "baseId": "scribble99",
+      "variant": "sketch",
+      "name": "Scribble99",
+      "path": "./generated/scribble/scribble99_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
+    },
+    {
+      "id": "scribble9_sketch",
+      "baseId": "scribble9",
+      "variant": "sketch",
+      "name": "Scribble9",
+      "path": "./generated/scribble/scribble9_sketch.tsx",
+      "category": "scribble",
+      "tags": [],
+      "viewBox": "0 0 96 96"
     },
     {
       "id": "star10_shapes",

@@ -1,8 +1,3 @@
-/**
- * Auto-generated logo component: Abstract76 (shapes)
- * Category: abstract
- * Do not edit manually
- */
 
 'use client';
 import React from 'react';
@@ -19,7 +14,7 @@ export const Abstract76Shapes = React.forwardRef<SVGSVGElement, Abstract76Shapes
       width={size}
       height={size}
       viewBox="0 0 23 23"
-      fill="none"
+      fill="currentColor"
       className={className}
       xmlns="http://www.w3.org/2000/svg" 
       {...props}

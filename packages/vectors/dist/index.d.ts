@@ -1,12 +1,6 @@
 import * as React from 'react';
 import React__default from 'react';
 
-/**
- * Auto-generated logo component: Star9 (shapes)
- * Category: stars
- * Do not edit manually
- */
-
 interface Star9ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -21,12 +15,6 @@ declare const Star9ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Star8 (shapes)
- * Category: stars
- * Do not edit manually
- */
 
 interface Star8ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -43,12 +31,6 @@ declare const Star8ShapesMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
-/**
- * Auto-generated logo component: Star7 (shapes)
- * Category: stars
- * Do not edit manually
- */
-
 interface Star7ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -63,12 +45,6 @@ declare const Star7ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Star6 (shapes)
- * Category: stars
- * Do not edit manually
- */
 
 interface Star6ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -85,12 +61,6 @@ declare const Star6ShapesMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
-/**
- * Auto-generated logo component: Star5 (shapes)
- * Category: stars
- * Do not edit manually
- */
-
 interface Star5ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -105,12 +75,6 @@ declare const Star5ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Star4 (shapes)
- * Category: stars
- * Do not edit manually
- */
 
 interface Star4ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -127,12 +91,6 @@ declare const Star4ShapesMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
-/**
- * Auto-generated logo component: Star3 (shapes)
- * Category: stars
- * Do not edit manually
- */
-
 interface Star3ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -147,12 +105,6 @@ declare const Star3ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Star2 (shapes)
- * Category: stars
- * Do not edit manually
- */
 
 interface Star2ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -169,12 +121,6 @@ declare const Star2ShapesMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
-/**
- * Auto-generated logo component: Star1 (shapes)
- * Category: stars
- * Do not edit manually
- */
-
 interface Star1ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -189,12 +135,6 @@ declare const Star1ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Star13 (shapes)
- * Category: stars
- * Do not edit manually
- */
 
 interface Star13ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -211,12 +151,6 @@ declare const Star13ShapesMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
-/**
- * Auto-generated logo component: Star12 (shapes)
- * Category: stars
- * Do not edit manually
- */
-
 interface Star12ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -231,12 +165,6 @@ declare const Star12ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Star11 (shapes)
- * Category: stars
- * Do not edit manually
- */
 
 interface Star11ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -253,12 +181,6 @@ declare const Star11ShapesMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
-/**
- * Auto-generated logo component: Star10 (shapes)
- * Category: stars
- * Do not edit manually
- */
-
 interface Star10ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -274,11 +196,2255 @@ declare const Star10ShapesMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
-/**
- * Auto-generated logo component: Organic9 (shapes)
- * Category: organic
- * Do not edit manually
- */
+interface Scribble9SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble9Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble9SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble9SketchMetadata: {
+    readonly id: "scribble9_sketch";
+    readonly baseId: "scribble9";
+    readonly variant: "sketch";
+    readonly name: "Scribble9";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble99SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble99Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble99SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble99SketchMetadata: {
+    readonly id: "scribble99_sketch";
+    readonly baseId: "scribble99";
+    readonly variant: "sketch";
+    readonly name: "Scribble99";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble98SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble98Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble98SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble98SketchMetadata: {
+    readonly id: "scribble98_sketch";
+    readonly baseId: "scribble98";
+    readonly variant: "sketch";
+    readonly name: "Scribble98";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble97SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble97Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble97SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble97SketchMetadata: {
+    readonly id: "scribble97_sketch";
+    readonly baseId: "scribble97";
+    readonly variant: "sketch";
+    readonly name: "Scribble97";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble96SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble96Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble96SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble96SketchMetadata: {
+    readonly id: "scribble96_sketch";
+    readonly baseId: "scribble96";
+    readonly variant: "sketch";
+    readonly name: "Scribble96";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble95SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble95Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble95SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble95SketchMetadata: {
+    readonly id: "scribble95_sketch";
+    readonly baseId: "scribble95";
+    readonly variant: "sketch";
+    readonly name: "Scribble95";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble94SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble94Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble94SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble94SketchMetadata: {
+    readonly id: "scribble94_sketch";
+    readonly baseId: "scribble94";
+    readonly variant: "sketch";
+    readonly name: "Scribble94";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble93SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble93Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble93SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble93SketchMetadata: {
+    readonly id: "scribble93_sketch";
+    readonly baseId: "scribble93";
+    readonly variant: "sketch";
+    readonly name: "Scribble93";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble92SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble92Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble92SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble92SketchMetadata: {
+    readonly id: "scribble92_sketch";
+    readonly baseId: "scribble92";
+    readonly variant: "sketch";
+    readonly name: "Scribble92";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble91SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble91Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble91SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble91SketchMetadata: {
+    readonly id: "scribble91_sketch";
+    readonly baseId: "scribble91";
+    readonly variant: "sketch";
+    readonly name: "Scribble91";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble90SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble90Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble90SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble90SketchMetadata: {
+    readonly id: "scribble90_sketch";
+    readonly baseId: "scribble90";
+    readonly variant: "sketch";
+    readonly name: "Scribble90";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble8SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble8Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble8SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble8SketchMetadata: {
+    readonly id: "scribble8_sketch";
+    readonly baseId: "scribble8";
+    readonly variant: "sketch";
+    readonly name: "Scribble8";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble89SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble89Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble89SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble89SketchMetadata: {
+    readonly id: "scribble89_sketch";
+    readonly baseId: "scribble89";
+    readonly variant: "sketch";
+    readonly name: "Scribble89";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble88SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble88Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble88SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble88SketchMetadata: {
+    readonly id: "scribble88_sketch";
+    readonly baseId: "scribble88";
+    readonly variant: "sketch";
+    readonly name: "Scribble88";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble87SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble87Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble87SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble87SketchMetadata: {
+    readonly id: "scribble87_sketch";
+    readonly baseId: "scribble87";
+    readonly variant: "sketch";
+    readonly name: "Scribble87";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble86SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble86Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble86SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble86SketchMetadata: {
+    readonly id: "scribble86_sketch";
+    readonly baseId: "scribble86";
+    readonly variant: "sketch";
+    readonly name: "Scribble86";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble85SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble85Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble85SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble85SketchMetadata: {
+    readonly id: "scribble85_sketch";
+    readonly baseId: "scribble85";
+    readonly variant: "sketch";
+    readonly name: "Scribble85";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble84SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble84Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble84SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble84SketchMetadata: {
+    readonly id: "scribble84_sketch";
+    readonly baseId: "scribble84";
+    readonly variant: "sketch";
+    readonly name: "Scribble84";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble83SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble83Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble83SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble83SketchMetadata: {
+    readonly id: "scribble83_sketch";
+    readonly baseId: "scribble83";
+    readonly variant: "sketch";
+    readonly name: "Scribble83";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble82SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble82Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble82SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble82SketchMetadata: {
+    readonly id: "scribble82_sketch";
+    readonly baseId: "scribble82";
+    readonly variant: "sketch";
+    readonly name: "Scribble82";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble81SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble81Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble81SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble81SketchMetadata: {
+    readonly id: "scribble81_sketch";
+    readonly baseId: "scribble81";
+    readonly variant: "sketch";
+    readonly name: "Scribble81";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble80SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble80Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble80SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble80SketchMetadata: {
+    readonly id: "scribble80_sketch";
+    readonly baseId: "scribble80";
+    readonly variant: "sketch";
+    readonly name: "Scribble80";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble7SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble7Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble7SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble7SketchMetadata: {
+    readonly id: "scribble7_sketch";
+    readonly baseId: "scribble7";
+    readonly variant: "sketch";
+    readonly name: "Scribble7";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble79SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble79Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble79SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble79SketchMetadata: {
+    readonly id: "scribble79_sketch";
+    readonly baseId: "scribble79";
+    readonly variant: "sketch";
+    readonly name: "Scribble79";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble78SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble78Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble78SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble78SketchMetadata: {
+    readonly id: "scribble78_sketch";
+    readonly baseId: "scribble78";
+    readonly variant: "sketch";
+    readonly name: "Scribble78";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble77SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble77Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble77SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble77SketchMetadata: {
+    readonly id: "scribble77_sketch";
+    readonly baseId: "scribble77";
+    readonly variant: "sketch";
+    readonly name: "Scribble77";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble76SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble76Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble76SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble76SketchMetadata: {
+    readonly id: "scribble76_sketch";
+    readonly baseId: "scribble76";
+    readonly variant: "sketch";
+    readonly name: "Scribble76";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble75SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble75Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble75SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble75SketchMetadata: {
+    readonly id: "scribble75_sketch";
+    readonly baseId: "scribble75";
+    readonly variant: "sketch";
+    readonly name: "Scribble75";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble74SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble74Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble74SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble74SketchMetadata: {
+    readonly id: "scribble74_sketch";
+    readonly baseId: "scribble74";
+    readonly variant: "sketch";
+    readonly name: "Scribble74";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble73SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble73Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble73SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble73SketchMetadata: {
+    readonly id: "scribble73_sketch";
+    readonly baseId: "scribble73";
+    readonly variant: "sketch";
+    readonly name: "Scribble73";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble72SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble72Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble72SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble72SketchMetadata: {
+    readonly id: "scribble72_sketch";
+    readonly baseId: "scribble72";
+    readonly variant: "sketch";
+    readonly name: "Scribble72";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble71SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble71Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble71SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble71SketchMetadata: {
+    readonly id: "scribble71_sketch";
+    readonly baseId: "scribble71";
+    readonly variant: "sketch";
+    readonly name: "Scribble71";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble70SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble70Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble70SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble70SketchMetadata: {
+    readonly id: "scribble70_sketch";
+    readonly baseId: "scribble70";
+    readonly variant: "sketch";
+    readonly name: "Scribble70";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble6SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble6Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble6SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble6SketchMetadata: {
+    readonly id: "scribble6_sketch";
+    readonly baseId: "scribble6";
+    readonly variant: "sketch";
+    readonly name: "Scribble6";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble69SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble69Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble69SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble69SketchMetadata: {
+    readonly id: "scribble69_sketch";
+    readonly baseId: "scribble69";
+    readonly variant: "sketch";
+    readonly name: "Scribble69";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble68SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble68Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble68SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble68SketchMetadata: {
+    readonly id: "scribble68_sketch";
+    readonly baseId: "scribble68";
+    readonly variant: "sketch";
+    readonly name: "Scribble68";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble67SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble67Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble67SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble67SketchMetadata: {
+    readonly id: "scribble67_sketch";
+    readonly baseId: "scribble67";
+    readonly variant: "sketch";
+    readonly name: "Scribble67";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble66SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble66Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble66SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble66SketchMetadata: {
+    readonly id: "scribble66_sketch";
+    readonly baseId: "scribble66";
+    readonly variant: "sketch";
+    readonly name: "Scribble66";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble65SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble65Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble65SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble65SketchMetadata: {
+    readonly id: "scribble65_sketch";
+    readonly baseId: "scribble65";
+    readonly variant: "sketch";
+    readonly name: "Scribble65";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble64SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble64Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble64SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble64SketchMetadata: {
+    readonly id: "scribble64_sketch";
+    readonly baseId: "scribble64";
+    readonly variant: "sketch";
+    readonly name: "Scribble64";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble63SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble63Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble63SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble63SketchMetadata: {
+    readonly id: "scribble63_sketch";
+    readonly baseId: "scribble63";
+    readonly variant: "sketch";
+    readonly name: "Scribble63";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble62SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble62Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble62SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble62SketchMetadata: {
+    readonly id: "scribble62_sketch";
+    readonly baseId: "scribble62";
+    readonly variant: "sketch";
+    readonly name: "Scribble62";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble61SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble61Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble61SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble61SketchMetadata: {
+    readonly id: "scribble61_sketch";
+    readonly baseId: "scribble61";
+    readonly variant: "sketch";
+    readonly name: "Scribble61";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble60SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble60Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble60SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble60SketchMetadata: {
+    readonly id: "scribble60_sketch";
+    readonly baseId: "scribble60";
+    readonly variant: "sketch";
+    readonly name: "Scribble60";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble5SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble5Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble5SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble5SketchMetadata: {
+    readonly id: "scribble5_sketch";
+    readonly baseId: "scribble5";
+    readonly variant: "sketch";
+    readonly name: "Scribble5";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble59SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble59Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble59SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble59SketchMetadata: {
+    readonly id: "scribble59_sketch";
+    readonly baseId: "scribble59";
+    readonly variant: "sketch";
+    readonly name: "Scribble59";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble58SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble58Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble58SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble58SketchMetadata: {
+    readonly id: "scribble58_sketch";
+    readonly baseId: "scribble58";
+    readonly variant: "sketch";
+    readonly name: "Scribble58";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble57SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble57Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble57SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble57SketchMetadata: {
+    readonly id: "scribble57_sketch";
+    readonly baseId: "scribble57";
+    readonly variant: "sketch";
+    readonly name: "Scribble57";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble56SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble56Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble56SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble56SketchMetadata: {
+    readonly id: "scribble56_sketch";
+    readonly baseId: "scribble56";
+    readonly variant: "sketch";
+    readonly name: "Scribble56";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble55SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble55Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble55SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble55SketchMetadata: {
+    readonly id: "scribble55_sketch";
+    readonly baseId: "scribble55";
+    readonly variant: "sketch";
+    readonly name: "Scribble55";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble54SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble54Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble54SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble54SketchMetadata: {
+    readonly id: "scribble54_sketch";
+    readonly baseId: "scribble54";
+    readonly variant: "sketch";
+    readonly name: "Scribble54";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble53SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble53Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble53SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble53SketchMetadata: {
+    readonly id: "scribble53_sketch";
+    readonly baseId: "scribble53";
+    readonly variant: "sketch";
+    readonly name: "Scribble53";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble52SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble52Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble52SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble52SketchMetadata: {
+    readonly id: "scribble52_sketch";
+    readonly baseId: "scribble52";
+    readonly variant: "sketch";
+    readonly name: "Scribble52";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble51SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble51Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble51SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble51SketchMetadata: {
+    readonly id: "scribble51_sketch";
+    readonly baseId: "scribble51";
+    readonly variant: "sketch";
+    readonly name: "Scribble51";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble50SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble50Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble50SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble50SketchMetadata: {
+    readonly id: "scribble50_sketch";
+    readonly baseId: "scribble50";
+    readonly variant: "sketch";
+    readonly name: "Scribble50";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble4SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble4Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble4SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble4SketchMetadata: {
+    readonly id: "scribble4_sketch";
+    readonly baseId: "scribble4";
+    readonly variant: "sketch";
+    readonly name: "Scribble4";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble49SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble49Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble49SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble49SketchMetadata: {
+    readonly id: "scribble49_sketch";
+    readonly baseId: "scribble49";
+    readonly variant: "sketch";
+    readonly name: "Scribble49";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble48SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble48Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble48SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble48SketchMetadata: {
+    readonly id: "scribble48_sketch";
+    readonly baseId: "scribble48";
+    readonly variant: "sketch";
+    readonly name: "Scribble48";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble47SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble47Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble47SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble47SketchMetadata: {
+    readonly id: "scribble47_sketch";
+    readonly baseId: "scribble47";
+    readonly variant: "sketch";
+    readonly name: "Scribble47";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble46SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble46Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble46SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble46SketchMetadata: {
+    readonly id: "scribble46_sketch";
+    readonly baseId: "scribble46";
+    readonly variant: "sketch";
+    readonly name: "Scribble46";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble45SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble45Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble45SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble45SketchMetadata: {
+    readonly id: "scribble45_sketch";
+    readonly baseId: "scribble45";
+    readonly variant: "sketch";
+    readonly name: "Scribble45";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble44SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble44Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble44SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble44SketchMetadata: {
+    readonly id: "scribble44_sketch";
+    readonly baseId: "scribble44";
+    readonly variant: "sketch";
+    readonly name: "Scribble44";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble43SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble43Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble43SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble43SketchMetadata: {
+    readonly id: "scribble43_sketch";
+    readonly baseId: "scribble43";
+    readonly variant: "sketch";
+    readonly name: "Scribble43";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble42SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble42Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble42SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble42SketchMetadata: {
+    readonly id: "scribble42_sketch";
+    readonly baseId: "scribble42";
+    readonly variant: "sketch";
+    readonly name: "Scribble42";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble41SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble41Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble41SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble41SketchMetadata: {
+    readonly id: "scribble41_sketch";
+    readonly baseId: "scribble41";
+    readonly variant: "sketch";
+    readonly name: "Scribble41";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble40SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble40Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble40SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble40SketchMetadata: {
+    readonly id: "scribble40_sketch";
+    readonly baseId: "scribble40";
+    readonly variant: "sketch";
+    readonly name: "Scribble40";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble3SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble3Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble3SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble3SketchMetadata: {
+    readonly id: "scribble3_sketch";
+    readonly baseId: "scribble3";
+    readonly variant: "sketch";
+    readonly name: "Scribble3";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble39SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble39Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble39SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble39SketchMetadata: {
+    readonly id: "scribble39_sketch";
+    readonly baseId: "scribble39";
+    readonly variant: "sketch";
+    readonly name: "Scribble39";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble38SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble38Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble38SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble38SketchMetadata: {
+    readonly id: "scribble38_sketch";
+    readonly baseId: "scribble38";
+    readonly variant: "sketch";
+    readonly name: "Scribble38";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble37SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble37Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble37SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble37SketchMetadata: {
+    readonly id: "scribble37_sketch";
+    readonly baseId: "scribble37";
+    readonly variant: "sketch";
+    readonly name: "Scribble37";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble36SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble36Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble36SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble36SketchMetadata: {
+    readonly id: "scribble36_sketch";
+    readonly baseId: "scribble36";
+    readonly variant: "sketch";
+    readonly name: "Scribble36";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble35SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble35Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble35SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble35SketchMetadata: {
+    readonly id: "scribble35_sketch";
+    readonly baseId: "scribble35";
+    readonly variant: "sketch";
+    readonly name: "Scribble35";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble34SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble34Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble34SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble34SketchMetadata: {
+    readonly id: "scribble34_sketch";
+    readonly baseId: "scribble34";
+    readonly variant: "sketch";
+    readonly name: "Scribble34";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble33SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble33Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble33SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble33SketchMetadata: {
+    readonly id: "scribble33_sketch";
+    readonly baseId: "scribble33";
+    readonly variant: "sketch";
+    readonly name: "Scribble33";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble32SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble32Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble32SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble32SketchMetadata: {
+    readonly id: "scribble32_sketch";
+    readonly baseId: "scribble32";
+    readonly variant: "sketch";
+    readonly name: "Scribble32";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble31SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble31Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble31SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble31SketchMetadata: {
+    readonly id: "scribble31_sketch";
+    readonly baseId: "scribble31";
+    readonly variant: "sketch";
+    readonly name: "Scribble31";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble30SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble30Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble30SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble30SketchMetadata: {
+    readonly id: "scribble30_sketch";
+    readonly baseId: "scribble30";
+    readonly variant: "sketch";
+    readonly name: "Scribble30";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble2SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble2Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble2SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble2SketchMetadata: {
+    readonly id: "scribble2_sketch";
+    readonly baseId: "scribble2";
+    readonly variant: "sketch";
+    readonly name: "Scribble2";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble29SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble29Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble29SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble29SketchMetadata: {
+    readonly id: "scribble29_sketch";
+    readonly baseId: "scribble29";
+    readonly variant: "sketch";
+    readonly name: "Scribble29";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble28SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble28Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble28SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble28SketchMetadata: {
+    readonly id: "scribble28_sketch";
+    readonly baseId: "scribble28";
+    readonly variant: "sketch";
+    readonly name: "Scribble28";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble27SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble27Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble27SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble27SketchMetadata: {
+    readonly id: "scribble27_sketch";
+    readonly baseId: "scribble27";
+    readonly variant: "sketch";
+    readonly name: "Scribble27";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble26SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble26Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble26SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble26SketchMetadata: {
+    readonly id: "scribble26_sketch";
+    readonly baseId: "scribble26";
+    readonly variant: "sketch";
+    readonly name: "Scribble26";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble25SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble25Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble25SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble25SketchMetadata: {
+    readonly id: "scribble25_sketch";
+    readonly baseId: "scribble25";
+    readonly variant: "sketch";
+    readonly name: "Scribble25";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble24SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble24Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble24SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble24SketchMetadata: {
+    readonly id: "scribble24_sketch";
+    readonly baseId: "scribble24";
+    readonly variant: "sketch";
+    readonly name: "Scribble24";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble23SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble23Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble23SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble23SketchMetadata: {
+    readonly id: "scribble23_sketch";
+    readonly baseId: "scribble23";
+    readonly variant: "sketch";
+    readonly name: "Scribble23";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble22SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble22Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble22SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble22SketchMetadata: {
+    readonly id: "scribble22_sketch";
+    readonly baseId: "scribble22";
+    readonly variant: "sketch";
+    readonly name: "Scribble22";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble21SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble21Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble21SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble21SketchMetadata: {
+    readonly id: "scribble21_sketch";
+    readonly baseId: "scribble21";
+    readonly variant: "sketch";
+    readonly name: "Scribble21";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble20SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble20Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble20SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble20SketchMetadata: {
+    readonly id: "scribble20_sketch";
+    readonly baseId: "scribble20";
+    readonly variant: "sketch";
+    readonly name: "Scribble20";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble1SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble1Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble1SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble1SketchMetadata: {
+    readonly id: "scribble1_sketch";
+    readonly baseId: "scribble1";
+    readonly variant: "sketch";
+    readonly name: "Scribble1";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble19SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble19Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble19SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble19SketchMetadata: {
+    readonly id: "scribble19_sketch";
+    readonly baseId: "scribble19";
+    readonly variant: "sketch";
+    readonly name: "Scribble19";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble18SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble18Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble18SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble18SketchMetadata: {
+    readonly id: "scribble18_sketch";
+    readonly baseId: "scribble18";
+    readonly variant: "sketch";
+    readonly name: "Scribble18";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble17SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble17Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble17SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble17SketchMetadata: {
+    readonly id: "scribble17_sketch";
+    readonly baseId: "scribble17";
+    readonly variant: "sketch";
+    readonly name: "Scribble17";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble16SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble16Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble16SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble16SketchMetadata: {
+    readonly id: "scribble16_sketch";
+    readonly baseId: "scribble16";
+    readonly variant: "sketch";
+    readonly name: "Scribble16";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble15SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble15Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble15SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble15SketchMetadata: {
+    readonly id: "scribble15_sketch";
+    readonly baseId: "scribble15";
+    readonly variant: "sketch";
+    readonly name: "Scribble15";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble150SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble150Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble150SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble150SketchMetadata: {
+    readonly id: "scribble150_sketch";
+    readonly baseId: "scribble150";
+    readonly variant: "sketch";
+    readonly name: "Scribble150";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble14SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble14Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble14SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble14SketchMetadata: {
+    readonly id: "scribble14_sketch";
+    readonly baseId: "scribble14";
+    readonly variant: "sketch";
+    readonly name: "Scribble14";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble149SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble149Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble149SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble149SketchMetadata: {
+    readonly id: "scribble149_sketch";
+    readonly baseId: "scribble149";
+    readonly variant: "sketch";
+    readonly name: "Scribble149";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble148SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble148Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble148SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble148SketchMetadata: {
+    readonly id: "scribble148_sketch";
+    readonly baseId: "scribble148";
+    readonly variant: "sketch";
+    readonly name: "Scribble148";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble147SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble147Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble147SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble147SketchMetadata: {
+    readonly id: "scribble147_sketch";
+    readonly baseId: "scribble147";
+    readonly variant: "sketch";
+    readonly name: "Scribble147";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble146SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble146Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble146SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble146SketchMetadata: {
+    readonly id: "scribble146_sketch";
+    readonly baseId: "scribble146";
+    readonly variant: "sketch";
+    readonly name: "Scribble146";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble145SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble145Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble145SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble145SketchMetadata: {
+    readonly id: "scribble145_sketch";
+    readonly baseId: "scribble145";
+    readonly variant: "sketch";
+    readonly name: "Scribble145";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble144SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble144Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble144SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble144SketchMetadata: {
+    readonly id: "scribble144_sketch";
+    readonly baseId: "scribble144";
+    readonly variant: "sketch";
+    readonly name: "Scribble144";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble143SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble143Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble143SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble143SketchMetadata: {
+    readonly id: "scribble143_sketch";
+    readonly baseId: "scribble143";
+    readonly variant: "sketch";
+    readonly name: "Scribble143";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble142SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble142Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble142SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble142SketchMetadata: {
+    readonly id: "scribble142_sketch";
+    readonly baseId: "scribble142";
+    readonly variant: "sketch";
+    readonly name: "Scribble142";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble141SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble141Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble141SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble141SketchMetadata: {
+    readonly id: "scribble141_sketch";
+    readonly baseId: "scribble141";
+    readonly variant: "sketch";
+    readonly name: "Scribble141";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble140SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble140Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble140SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble140SketchMetadata: {
+    readonly id: "scribble140_sketch";
+    readonly baseId: "scribble140";
+    readonly variant: "sketch";
+    readonly name: "Scribble140";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble13SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble13Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble13SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble13SketchMetadata: {
+    readonly id: "scribble13_sketch";
+    readonly baseId: "scribble13";
+    readonly variant: "sketch";
+    readonly name: "Scribble13";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble139SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble139Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble139SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble139SketchMetadata: {
+    readonly id: "scribble139_sketch";
+    readonly baseId: "scribble139";
+    readonly variant: "sketch";
+    readonly name: "Scribble139";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble138SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble138Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble138SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble138SketchMetadata: {
+    readonly id: "scribble138_sketch";
+    readonly baseId: "scribble138";
+    readonly variant: "sketch";
+    readonly name: "Scribble138";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble137SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble137Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble137SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble137SketchMetadata: {
+    readonly id: "scribble137_sketch";
+    readonly baseId: "scribble137";
+    readonly variant: "sketch";
+    readonly name: "Scribble137";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble136SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble136Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble136SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble136SketchMetadata: {
+    readonly id: "scribble136_sketch";
+    readonly baseId: "scribble136";
+    readonly variant: "sketch";
+    readonly name: "Scribble136";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble135SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble135Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble135SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble135SketchMetadata: {
+    readonly id: "scribble135_sketch";
+    readonly baseId: "scribble135";
+    readonly variant: "sketch";
+    readonly name: "Scribble135";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble134SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble134Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble134SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble134SketchMetadata: {
+    readonly id: "scribble134_sketch";
+    readonly baseId: "scribble134";
+    readonly variant: "sketch";
+    readonly name: "Scribble134";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble133SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble133Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble133SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble133SketchMetadata: {
+    readonly id: "scribble133_sketch";
+    readonly baseId: "scribble133";
+    readonly variant: "sketch";
+    readonly name: "Scribble133";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble132SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble132Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble132SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble132SketchMetadata: {
+    readonly id: "scribble132_sketch";
+    readonly baseId: "scribble132";
+    readonly variant: "sketch";
+    readonly name: "Scribble132";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble131SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble131Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble131SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble131SketchMetadata: {
+    readonly id: "scribble131_sketch";
+    readonly baseId: "scribble131";
+    readonly variant: "sketch";
+    readonly name: "Scribble131";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble130SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble130Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble130SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble130SketchMetadata: {
+    readonly id: "scribble130_sketch";
+    readonly baseId: "scribble130";
+    readonly variant: "sketch";
+    readonly name: "Scribble130";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble12SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble12Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble12SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble12SketchMetadata: {
+    readonly id: "scribble12_sketch";
+    readonly baseId: "scribble12";
+    readonly variant: "sketch";
+    readonly name: "Scribble12";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble129SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble129Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble129SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble129SketchMetadata: {
+    readonly id: "scribble129_sketch";
+    readonly baseId: "scribble129";
+    readonly variant: "sketch";
+    readonly name: "Scribble129";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble128SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble128Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble128SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble128SketchMetadata: {
+    readonly id: "scribble128_sketch";
+    readonly baseId: "scribble128";
+    readonly variant: "sketch";
+    readonly name: "Scribble128";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble127SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble127Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble127SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble127SketchMetadata: {
+    readonly id: "scribble127_sketch";
+    readonly baseId: "scribble127";
+    readonly variant: "sketch";
+    readonly name: "Scribble127";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble126SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble126Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble126SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble126SketchMetadata: {
+    readonly id: "scribble126_sketch";
+    readonly baseId: "scribble126";
+    readonly variant: "sketch";
+    readonly name: "Scribble126";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble125SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble125Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble125SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble125SketchMetadata: {
+    readonly id: "scribble125_sketch";
+    readonly baseId: "scribble125";
+    readonly variant: "sketch";
+    readonly name: "Scribble125";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble124SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble124Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble124SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble124SketchMetadata: {
+    readonly id: "scribble124_sketch";
+    readonly baseId: "scribble124";
+    readonly variant: "sketch";
+    readonly name: "Scribble124";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble123SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble123Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble123SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble123SketchMetadata: {
+    readonly id: "scribble123_sketch";
+    readonly baseId: "scribble123";
+    readonly variant: "sketch";
+    readonly name: "Scribble123";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble122SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble122Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble122SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble122SketchMetadata: {
+    readonly id: "scribble122_sketch";
+    readonly baseId: "scribble122";
+    readonly variant: "sketch";
+    readonly name: "Scribble122";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble121SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble121Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble121SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble121SketchMetadata: {
+    readonly id: "scribble121_sketch";
+    readonly baseId: "scribble121";
+    readonly variant: "sketch";
+    readonly name: "Scribble121";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble120SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble120Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble120SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble120SketchMetadata: {
+    readonly id: "scribble120_sketch";
+    readonly baseId: "scribble120";
+    readonly variant: "sketch";
+    readonly name: "Scribble120";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble11SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble11Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble11SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble11SketchMetadata: {
+    readonly id: "scribble11_sketch";
+    readonly baseId: "scribble11";
+    readonly variant: "sketch";
+    readonly name: "Scribble11";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble119SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble119Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble119SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble119SketchMetadata: {
+    readonly id: "scribble119_sketch";
+    readonly baseId: "scribble119";
+    readonly variant: "sketch";
+    readonly name: "Scribble119";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble118SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble118Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble118SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble118SketchMetadata: {
+    readonly id: "scribble118_sketch";
+    readonly baseId: "scribble118";
+    readonly variant: "sketch";
+    readonly name: "Scribble118";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble117SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble117Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble117SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble117SketchMetadata: {
+    readonly id: "scribble117_sketch";
+    readonly baseId: "scribble117";
+    readonly variant: "sketch";
+    readonly name: "Scribble117";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble116SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble116Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble116SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble116SketchMetadata: {
+    readonly id: "scribble116_sketch";
+    readonly baseId: "scribble116";
+    readonly variant: "sketch";
+    readonly name: "Scribble116";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble115SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble115Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble115SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble115SketchMetadata: {
+    readonly id: "scribble115_sketch";
+    readonly baseId: "scribble115";
+    readonly variant: "sketch";
+    readonly name: "Scribble115";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble114SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble114Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble114SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble114SketchMetadata: {
+    readonly id: "scribble114_sketch";
+    readonly baseId: "scribble114";
+    readonly variant: "sketch";
+    readonly name: "Scribble114";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble113SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble113Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble113SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble113SketchMetadata: {
+    readonly id: "scribble113_sketch";
+    readonly baseId: "scribble113";
+    readonly variant: "sketch";
+    readonly name: "Scribble113";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble112SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble112Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble112SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble112SketchMetadata: {
+    readonly id: "scribble112_sketch";
+    readonly baseId: "scribble112";
+    readonly variant: "sketch";
+    readonly name: "Scribble112";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble111SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble111Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble111SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble111SketchMetadata: {
+    readonly id: "scribble111_sketch";
+    readonly baseId: "scribble111";
+    readonly variant: "sketch";
+    readonly name: "Scribble111";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble110SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble110Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble110SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble110SketchMetadata: {
+    readonly id: "scribble110_sketch";
+    readonly baseId: "scribble110";
+    readonly variant: "sketch";
+    readonly name: "Scribble110";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble10SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble10Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble10SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble10SketchMetadata: {
+    readonly id: "scribble10_sketch";
+    readonly baseId: "scribble10";
+    readonly variant: "sketch";
+    readonly name: "Scribble10";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble109SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble109Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble109SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble109SketchMetadata: {
+    readonly id: "scribble109_sketch";
+    readonly baseId: "scribble109";
+    readonly variant: "sketch";
+    readonly name: "Scribble109";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble108SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble108Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble108SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble108SketchMetadata: {
+    readonly id: "scribble108_sketch";
+    readonly baseId: "scribble108";
+    readonly variant: "sketch";
+    readonly name: "Scribble108";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble107SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble107Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble107SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble107SketchMetadata: {
+    readonly id: "scribble107_sketch";
+    readonly baseId: "scribble107";
+    readonly variant: "sketch";
+    readonly name: "Scribble107";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble106SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble106Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble106SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble106SketchMetadata: {
+    readonly id: "scribble106_sketch";
+    readonly baseId: "scribble106";
+    readonly variant: "sketch";
+    readonly name: "Scribble106";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble105SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble105Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble105SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble105SketchMetadata: {
+    readonly id: "scribble105_sketch";
+    readonly baseId: "scribble105";
+    readonly variant: "sketch";
+    readonly name: "Scribble105";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble104SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble104Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble104SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble104SketchMetadata: {
+    readonly id: "scribble104_sketch";
+    readonly baseId: "scribble104";
+    readonly variant: "sketch";
+    readonly name: "Scribble104";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble103SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble103Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble103SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble103SketchMetadata: {
+    readonly id: "scribble103_sketch";
+    readonly baseId: "scribble103";
+    readonly variant: "sketch";
+    readonly name: "Scribble103";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble102SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble102Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble102SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble102SketchMetadata: {
+    readonly id: "scribble102_sketch";
+    readonly baseId: "scribble102";
+    readonly variant: "sketch";
+    readonly name: "Scribble102";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble101SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble101Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble101SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble101SketchMetadata: {
+    readonly id: "scribble101_sketch";
+    readonly baseId: "scribble101";
+    readonly variant: "sketch";
+    readonly name: "Scribble101";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
+
+interface Scribble100SketchProps extends React__default.SVGProps<SVGSVGElement> {
+    size?: number | string;
+    className?: string;
+}
+declare const Scribble100Sketch: React__default.ForwardRefExoticComponent<Omit<Scribble100SketchProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Scribble100SketchMetadata: {
+    readonly id: "scribble100_sketch";
+    readonly baseId: "scribble100";
+    readonly variant: "sketch";
+    readonly name: "Scribble100";
+    readonly category: "scribble";
+    readonly tags: readonly [];
+    readonly viewBox: "0 0 96 96";
+};
 
 interface Organic9ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -295,12 +2461,6 @@ declare const Organic9ShapesMetadata: {
     readonly viewBox: "0 0 300 600";
 };
 
-/**
- * Auto-generated logo component: Organic9 (pattern)
- * Category: organic
- * Do not edit manually
- */
-
 interface Organic9PatternProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -315,12 +2475,6 @@ declare const Organic9PatternMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 500 500";
 };
-
-/**
- * Auto-generated logo component: Organic8 (shapes)
- * Category: organic
- * Do not edit manually
- */
 
 interface Organic8ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -337,12 +2491,6 @@ declare const Organic8ShapesMetadata: {
     readonly viewBox: "0 0 300 300";
 };
 
-/**
- * Auto-generated logo component: Organic8 (pattern)
- * Category: organic
- * Do not edit manually
- */
-
 interface Organic8PatternProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -357,12 +2505,6 @@ declare const Organic8PatternMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 500 500";
 };
-
-/**
- * Auto-generated logo component: Organic7 (shapes)
- * Category: organic
- * Do not edit manually
- */
 
 interface Organic7ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -379,12 +2521,6 @@ declare const Organic7ShapesMetadata: {
     readonly viewBox: "0 0 300 300";
 };
 
-/**
- * Auto-generated logo component: Organic7 (pattern)
- * Category: organic
- * Do not edit manually
- */
-
 interface Organic7PatternProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -399,12 +2535,6 @@ declare const Organic7PatternMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 500 500";
 };
-
-/**
- * Auto-generated logo component: Organic76 (shapes)
- * Category: organic
- * Do not edit manually
- */
 
 interface Organic76ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -421,12 +2551,6 @@ declare const Organic76ShapesMetadata: {
     readonly viewBox: "0 0 300 300";
 };
 
-/**
- * Auto-generated logo component: Organic75 (shapes)
- * Category: organic
- * Do not edit manually
- */
-
 interface Organic75ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -441,12 +2565,6 @@ declare const Organic75ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 300 300";
 };
-
-/**
- * Auto-generated logo component: Organic74 (shapes)
- * Category: organic
- * Do not edit manually
- */
 
 interface Organic74ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -463,12 +2581,6 @@ declare const Organic74ShapesMetadata: {
     readonly viewBox: "0 0 300 300";
 };
 
-/**
- * Auto-generated logo component: Organic73 (shapes)
- * Category: organic
- * Do not edit manually
- */
-
 interface Organic73ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -483,12 +2595,6 @@ declare const Organic73ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 300 300";
 };
-
-/**
- * Auto-generated logo component: Organic72 (shapes)
- * Category: organic
- * Do not edit manually
- */
 
 interface Organic72ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -505,12 +2611,6 @@ declare const Organic72ShapesMetadata: {
     readonly viewBox: "0 0 300 300";
 };
 
-/**
- * Auto-generated logo component: Organic71 (shapes)
- * Category: organic
- * Do not edit manually
- */
-
 interface Organic71ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -525,12 +2625,6 @@ declare const Organic71ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 300 300";
 };
-
-/**
- * Auto-generated logo component: Organic70 (shapes)
- * Category: organic
- * Do not edit manually
- */
 
 interface Organic70ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -547,12 +2641,6 @@ declare const Organic70ShapesMetadata: {
     readonly viewBox: "0 0 300 600";
 };
 
-/**
- * Auto-generated logo component: Organic6 (texture)
- * Category: organic
- * Do not edit manually
- */
-
 interface Organic6TextureProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -567,12 +2655,6 @@ declare const Organic6TextureMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 500 500";
 };
-
-/**
- * Auto-generated logo component: Organic6 (shapes)
- * Category: organic
- * Do not edit manually
- */
 
 interface Organic6ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -589,12 +2671,6 @@ declare const Organic6ShapesMetadata: {
     readonly viewBox: "0 0 300 300";
 };
 
-/**
- * Auto-generated logo component: Organic6 (pattern)
- * Category: organic
- * Do not edit manually
- */
-
 interface Organic6PatternProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -609,12 +2685,6 @@ declare const Organic6PatternMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 500 500";
 };
-
-/**
- * Auto-generated logo component: Organic69 (shapes)
- * Category: organic
- * Do not edit manually
- */
 
 interface Organic69ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -631,12 +2701,6 @@ declare const Organic69ShapesMetadata: {
     readonly viewBox: "0 0 300 600";
 };
 
-/**
- * Auto-generated logo component: Organic68 (shapes)
- * Category: organic
- * Do not edit manually
- */
-
 interface Organic68ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -651,12 +2715,6 @@ declare const Organic68ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 300 300";
 };
-
-/**
- * Auto-generated logo component: Organic67 (shapes)
- * Category: organic
- * Do not edit manually
- */
 
 interface Organic67ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -673,12 +2731,6 @@ declare const Organic67ShapesMetadata: {
     readonly viewBox: "0 0 300 300";
 };
 
-/**
- * Auto-generated logo component: Organic66 (shapes)
- * Category: organic
- * Do not edit manually
- */
-
 interface Organic66ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -693,12 +2745,6 @@ declare const Organic66ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 300 300";
 };
-
-/**
- * Auto-generated logo component: Organic65 (shapes)
- * Category: organic
- * Do not edit manually
- */
 
 interface Organic65ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -715,12 +2761,6 @@ declare const Organic65ShapesMetadata: {
     readonly viewBox: "0 0 300 300";
 };
 
-/**
- * Auto-generated logo component: Organic64 (shapes)
- * Category: organic
- * Do not edit manually
- */
-
 interface Organic64ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -735,12 +2775,6 @@ declare const Organic64ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 300 300";
 };
-
-/**
- * Auto-generated logo component: Organic63 (shapes)
- * Category: organic
- * Do not edit manually
- */
 
 interface Organic63ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -757,12 +2791,6 @@ declare const Organic63ShapesMetadata: {
     readonly viewBox: "0 0 300 300";
 };
 
-/**
- * Auto-generated logo component: Organic62 (shapes)
- * Category: organic
- * Do not edit manually
- */
-
 interface Organic62ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -777,12 +2805,6 @@ declare const Organic62ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 300 300";
 };
-
-/**
- * Auto-generated logo component: Organic61 (shapes)
- * Category: organic
- * Do not edit manually
- */
 
 interface Organic61ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -799,12 +2821,6 @@ declare const Organic61ShapesMetadata: {
     readonly viewBox: "0 0 300 300";
 };
 
-/**
- * Auto-generated logo component: Organic60 (shapes)
- * Category: organic
- * Do not edit manually
- */
-
 interface Organic60ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -819,12 +2835,6 @@ declare const Organic60ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 300 300";
 };
-
-/**
- * Auto-generated logo component: Organic5 (texture)
- * Category: organic
- * Do not edit manually
- */
 
 interface Organic5TextureProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -841,12 +2851,6 @@ declare const Organic5TextureMetadata: {
     readonly viewBox: "0 0 500 500";
 };
 
-/**
- * Auto-generated logo component: Organic5 (shapes)
- * Category: organic
- * Do not edit manually
- */
-
 interface Organic5ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -861,12 +2865,6 @@ declare const Organic5ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 300 300";
 };
-
-/**
- * Auto-generated logo component: Organic5 (pattern)
- * Category: organic
- * Do not edit manually
- */
 
 interface Organic5PatternProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -883,12 +2881,6 @@ declare const Organic5PatternMetadata: {
     readonly viewBox: "0 0 500 500";
 };
 
-/**
- * Auto-generated logo component: Organic59 (shapes)
- * Category: organic
- * Do not edit manually
- */
-
 interface Organic59ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -903,12 +2895,6 @@ declare const Organic59ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 300 300";
 };
-
-/**
- * Auto-generated logo component: Organic58 (shapes)
- * Category: organic
- * Do not edit manually
- */
 
 interface Organic58ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -925,12 +2911,6 @@ declare const Organic58ShapesMetadata: {
     readonly viewBox: "0 0 300 300";
 };
 
-/**
- * Auto-generated logo component: Organic57 (shapes)
- * Category: organic
- * Do not edit manually
- */
-
 interface Organic57ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -945,12 +2925,6 @@ declare const Organic57ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 300 300";
 };
-
-/**
- * Auto-generated logo component: Organic56 (shapes)
- * Category: organic
- * Do not edit manually
- */
 
 interface Organic56ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -967,12 +2941,6 @@ declare const Organic56ShapesMetadata: {
     readonly viewBox: "0 0 300 300";
 };
 
-/**
- * Auto-generated logo component: Organic55 (shapes)
- * Category: organic
- * Do not edit manually
- */
-
 interface Organic55ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -987,12 +2955,6 @@ declare const Organic55ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 300 300";
 };
-
-/**
- * Auto-generated logo component: Organic54 (shapes)
- * Category: organic
- * Do not edit manually
- */
 
 interface Organic54ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -1009,12 +2971,6 @@ declare const Organic54ShapesMetadata: {
     readonly viewBox: "0 0 300 300";
 };
 
-/**
- * Auto-generated logo component: Organic53 (shapes)
- * Category: organic
- * Do not edit manually
- */
-
 interface Organic53ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -1029,12 +2985,6 @@ declare const Organic53ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 300 600";
 };
-
-/**
- * Auto-generated logo component: Organic52 (shapes)
- * Category: organic
- * Do not edit manually
- */
 
 interface Organic52ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -1051,12 +3001,6 @@ declare const Organic52ShapesMetadata: {
     readonly viewBox: "0 0 600 300";
 };
 
-/**
- * Auto-generated logo component: Organic51 (shapes)
- * Category: organic
- * Do not edit manually
- */
-
 interface Organic51ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -1071,12 +3015,6 @@ declare const Organic51ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 300 600";
 };
-
-/**
- * Auto-generated logo component: Organic50 (shapes)
- * Category: organic
- * Do not edit manually
- */
 
 interface Organic50ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -1093,12 +3031,6 @@ declare const Organic50ShapesMetadata: {
     readonly viewBox: "0 0 300 600";
 };
 
-/**
- * Auto-generated logo component: Organic4 (texture)
- * Category: organic
- * Do not edit manually
- */
-
 interface Organic4TextureProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -1113,12 +3045,6 @@ declare const Organic4TextureMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 500 502";
 };
-
-/**
- * Auto-generated logo component: Organic4 (shapes)
- * Category: organic
- * Do not edit manually
- */
 
 interface Organic4ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -1135,12 +3061,6 @@ declare const Organic4ShapesMetadata: {
     readonly viewBox: "0 0 300 300";
 };
 
-/**
- * Auto-generated logo component: Organic4 (pattern)
- * Category: organic
- * Do not edit manually
- */
-
 interface Organic4PatternProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -1155,12 +3075,6 @@ declare const Organic4PatternMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 500 500";
 };
-
-/**
- * Auto-generated logo component: Organic49 (shapes)
- * Category: organic
- * Do not edit manually
- */
 
 interface Organic49ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -1177,12 +3091,6 @@ declare const Organic49ShapesMetadata: {
     readonly viewBox: "0 0 300 600";
 };
 
-/**
- * Auto-generated logo component: Organic48 (shapes)
- * Category: organic
- * Do not edit manually
- */
-
 interface Organic48ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -1197,12 +3105,6 @@ declare const Organic48ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 300 300";
 };
-
-/**
- * Auto-generated logo component: Organic47 (shapes)
- * Category: organic
- * Do not edit manually
- */
 
 interface Organic47ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -1219,12 +3121,6 @@ declare const Organic47ShapesMetadata: {
     readonly viewBox: "0 0 300 600";
 };
 
-/**
- * Auto-generated logo component: Organic46 (shapes)
- * Category: organic
- * Do not edit manually
- */
-
 interface Organic46ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -1239,12 +3135,6 @@ declare const Organic46ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 300 300";
 };
-
-/**
- * Auto-generated logo component: Organic45 (shapes)
- * Category: organic
- * Do not edit manually
- */
 
 interface Organic45ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -1261,12 +3151,6 @@ declare const Organic45ShapesMetadata: {
     readonly viewBox: "0 0 300 600";
 };
 
-/**
- * Auto-generated logo component: Organic44 (shapes)
- * Category: organic
- * Do not edit manually
- */
-
 interface Organic44ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -1281,12 +3165,6 @@ declare const Organic44ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 300 300";
 };
-
-/**
- * Auto-generated logo component: Organic43 (shapes)
- * Category: organic
- * Do not edit manually
- */
 
 interface Organic43ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -1303,12 +3181,6 @@ declare const Organic43ShapesMetadata: {
     readonly viewBox: "0 0 300 600";
 };
 
-/**
- * Auto-generated logo component: Organic42 (shapes)
- * Category: organic
- * Do not edit manually
- */
-
 interface Organic42ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -1323,12 +3195,6 @@ declare const Organic42ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 300 300";
 };
-
-/**
- * Auto-generated logo component: Organic41 (shapes)
- * Category: organic
- * Do not edit manually
- */
 
 interface Organic41ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -1345,12 +3211,6 @@ declare const Organic41ShapesMetadata: {
     readonly viewBox: "0 0 300 600";
 };
 
-/**
- * Auto-generated logo component: Organic40 (shapes)
- * Category: organic
- * Do not edit manually
- */
-
 interface Organic40ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -1365,12 +3225,6 @@ declare const Organic40ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 300 300";
 };
-
-/**
- * Auto-generated logo component: Organic3 (texture)
- * Category: organic
- * Do not edit manually
- */
 
 interface Organic3TextureProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -1387,12 +3241,6 @@ declare const Organic3TextureMetadata: {
     readonly viewBox: "0 0 500 500";
 };
 
-/**
- * Auto-generated logo component: Organic3 (shapes)
- * Category: organic
- * Do not edit manually
- */
-
 interface Organic3ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -1407,12 +3255,6 @@ declare const Organic3ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 300 300";
 };
-
-/**
- * Auto-generated logo component: Organic3 (pattern)
- * Category: organic
- * Do not edit manually
- */
 
 interface Organic3PatternProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -1429,12 +3271,6 @@ declare const Organic3PatternMetadata: {
     readonly viewBox: "0 0 500 500";
 };
 
-/**
- * Auto-generated logo component: Organic39 (shapes)
- * Category: organic
- * Do not edit manually
- */
-
 interface Organic39ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -1449,12 +3285,6 @@ declare const Organic39ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 300 300";
 };
-
-/**
- * Auto-generated logo component: Organic38 (shapes)
- * Category: organic
- * Do not edit manually
- */
 
 interface Organic38ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -1471,12 +3301,6 @@ declare const Organic38ShapesMetadata: {
     readonly viewBox: "0 0 300 300";
 };
 
-/**
- * Auto-generated logo component: Organic37 (shapes)
- * Category: organic
- * Do not edit manually
- */
-
 interface Organic37ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -1491,12 +3315,6 @@ declare const Organic37ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 300 600";
 };
-
-/**
- * Auto-generated logo component: Organic36 (shapes)
- * Category: organic
- * Do not edit manually
- */
 
 interface Organic36ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -1513,12 +3331,6 @@ declare const Organic36ShapesMetadata: {
     readonly viewBox: "0 0 300 300";
 };
 
-/**
- * Auto-generated logo component: Organic35 (shapes)
- * Category: organic
- * Do not edit manually
- */
-
 interface Organic35ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -1533,12 +3345,6 @@ declare const Organic35ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 300 300";
 };
-
-/**
- * Auto-generated logo component: Organic34 (shapes)
- * Category: organic
- * Do not edit manually
- */
 
 interface Organic34ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -1555,12 +3361,6 @@ declare const Organic34ShapesMetadata: {
     readonly viewBox: "0 0 300 300";
 };
 
-/**
- * Auto-generated logo component: Organic33 (shapes)
- * Category: organic
- * Do not edit manually
- */
-
 interface Organic33ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -1575,12 +3375,6 @@ declare const Organic33ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 300 300";
 };
-
-/**
- * Auto-generated logo component: Organic32 (shapes)
- * Category: organic
- * Do not edit manually
- */
 
 interface Organic32ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -1597,12 +3391,6 @@ declare const Organic32ShapesMetadata: {
     readonly viewBox: "0 0 300 300";
 };
 
-/**
- * Auto-generated logo component: Organic31 (shapes)
- * Category: organic
- * Do not edit manually
- */
-
 interface Organic31ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -1617,12 +3405,6 @@ declare const Organic31ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 300 600";
 };
-
-/**
- * Auto-generated logo component: Organic30 (shapes)
- * Category: organic
- * Do not edit manually
- */
 
 interface Organic30ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -1639,12 +3421,6 @@ declare const Organic30ShapesMetadata: {
     readonly viewBox: "0 0 300 300";
 };
 
-/**
- * Auto-generated logo component: Organic2 (texture)
- * Category: organic
- * Do not edit manually
- */
-
 interface Organic2TextureProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -1659,12 +3435,6 @@ declare const Organic2TextureMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 503 501";
 };
-
-/**
- * Auto-generated logo component: Organic2 (shapes)
- * Category: organic
- * Do not edit manually
- */
 
 interface Organic2ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -1681,12 +3451,6 @@ declare const Organic2ShapesMetadata: {
     readonly viewBox: "0 0 300 300";
 };
 
-/**
- * Auto-generated logo component: Organic2 (pattern)
- * Category: organic
- * Do not edit manually
- */
-
 interface Organic2PatternProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -1701,12 +3465,6 @@ declare const Organic2PatternMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 500 500";
 };
-
-/**
- * Auto-generated logo component: Organic29 (shapes)
- * Category: organic
- * Do not edit manually
- */
 
 interface Organic29ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -1723,12 +3481,6 @@ declare const Organic29ShapesMetadata: {
     readonly viewBox: "0 0 300 300";
 };
 
-/**
- * Auto-generated logo component: Organic28 (shapes)
- * Category: organic
- * Do not edit manually
- */
-
 interface Organic28ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -1743,12 +3495,6 @@ declare const Organic28ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 300 300";
 };
-
-/**
- * Auto-generated logo component: Organic27 (shapes)
- * Category: organic
- * Do not edit manually
- */
 
 interface Organic27ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -1765,12 +3511,6 @@ declare const Organic27ShapesMetadata: {
     readonly viewBox: "0 0 300 300";
 };
 
-/**
- * Auto-generated logo component: Organic26 (shapes)
- * Category: organic
- * Do not edit manually
- */
-
 interface Organic26ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -1785,12 +3525,6 @@ declare const Organic26ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 300 300";
 };
-
-/**
- * Auto-generated logo component: Organic25 (shapes)
- * Category: organic
- * Do not edit manually
- */
 
 interface Organic25ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -1807,12 +3541,6 @@ declare const Organic25ShapesMetadata: {
     readonly viewBox: "0 0 300 300";
 };
 
-/**
- * Auto-generated logo component: Organic24 (shapes)
- * Category: organic
- * Do not edit manually
- */
-
 interface Organic24ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -1827,12 +3555,6 @@ declare const Organic24ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 300 300";
 };
-
-/**
- * Auto-generated logo component: Organic23 (shapes)
- * Category: organic
- * Do not edit manually
- */
 
 interface Organic23ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -1849,12 +3571,6 @@ declare const Organic23ShapesMetadata: {
     readonly viewBox: "0 0 600 300";
 };
 
-/**
- * Auto-generated logo component: Organic22 (shapes)
- * Category: organic
- * Do not edit manually
- */
-
 interface Organic22ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -1869,12 +3585,6 @@ declare const Organic22ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 300 300";
 };
-
-/**
- * Auto-generated logo component: Organic21 (shapes)
- * Category: organic
- * Do not edit manually
- */
 
 interface Organic21ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -1891,12 +3601,6 @@ declare const Organic21ShapesMetadata: {
     readonly viewBox: "0 0 300 300";
 };
 
-/**
- * Auto-generated logo component: Organic20 (shapes)
- * Category: organic
- * Do not edit manually
- */
-
 interface Organic20ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -1911,12 +3615,6 @@ declare const Organic20ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 600 300";
 };
-
-/**
- * Auto-generated logo component: Organic1 (texture)
- * Category: organic
- * Do not edit manually
- */
 
 interface Organic1TextureProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -1933,12 +3631,6 @@ declare const Organic1TextureMetadata: {
     readonly viewBox: "0 0 500 500";
 };
 
-/**
- * Auto-generated logo component: Organic1 (shapes)
- * Category: organic
- * Do not edit manually
- */
-
 interface Organic1ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -1953,12 +3645,6 @@ declare const Organic1ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 300 300";
 };
-
-/**
- * Auto-generated logo component: Organic1 (pattern)
- * Category: organic
- * Do not edit manually
- */
 
 interface Organic1PatternProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -1975,12 +3661,6 @@ declare const Organic1PatternMetadata: {
     readonly viewBox: "0 0 500 500";
 };
 
-/**
- * Auto-generated logo component: Organic19 (shapes)
- * Category: organic
- * Do not edit manually
- */
-
 interface Organic19ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -1995,12 +3675,6 @@ declare const Organic19ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 300 300";
 };
-
-/**
- * Auto-generated logo component: Organic18 (shapes)
- * Category: organic
- * Do not edit manually
- */
 
 interface Organic18ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -2017,12 +3691,6 @@ declare const Organic18ShapesMetadata: {
     readonly viewBox: "0 0 300 300";
 };
 
-/**
- * Auto-generated logo component: Organic17 (shapes)
- * Category: organic
- * Do not edit manually
- */
-
 interface Organic17ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -2037,12 +3705,6 @@ declare const Organic17ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 300 300";
 };
-
-/**
- * Auto-generated logo component: Organic16 (shapes)
- * Category: organic
- * Do not edit manually
- */
 
 interface Organic16ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -2059,12 +3721,6 @@ declare const Organic16ShapesMetadata: {
     readonly viewBox: "0 0 300 300";
 };
 
-/**
- * Auto-generated logo component: Organic15 (shapes)
- * Category: organic
- * Do not edit manually
- */
-
 interface Organic15ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -2079,12 +3735,6 @@ declare const Organic15ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 600 300";
 };
-
-/**
- * Auto-generated logo component: Organic15 (pattern)
- * Category: organic
- * Do not edit manually
- */
 
 interface Organic15PatternProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -2101,12 +3751,6 @@ declare const Organic15PatternMetadata: {
     readonly viewBox: "0 0 500 500";
 };
 
-/**
- * Auto-generated logo component: Organic14 (shapes)
- * Category: organic
- * Do not edit manually
- */
-
 interface Organic14ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -2121,12 +3765,6 @@ declare const Organic14ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 300 300";
 };
-
-/**
- * Auto-generated logo component: Organic14 (pattern)
- * Category: organic
- * Do not edit manually
- */
 
 interface Organic14PatternProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -2143,12 +3781,6 @@ declare const Organic14PatternMetadata: {
     readonly viewBox: "0 0 500 500";
 };
 
-/**
- * Auto-generated logo component: Organic13 (shapes)
- * Category: organic
- * Do not edit manually
- */
-
 interface Organic13ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -2163,12 +3795,6 @@ declare const Organic13ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 300 300";
 };
-
-/**
- * Auto-generated logo component: Organic13 (pattern)
- * Category: organic
- * Do not edit manually
- */
 
 interface Organic13PatternProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -2185,12 +3811,6 @@ declare const Organic13PatternMetadata: {
     readonly viewBox: "0 0 500 500";
 };
 
-/**
- * Auto-generated logo component: Organic12 (shapes)
- * Category: organic
- * Do not edit manually
- */
-
 interface Organic12ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -2205,12 +3825,6 @@ declare const Organic12ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 300 300";
 };
-
-/**
- * Auto-generated logo component: Organic12 (pattern)
- * Category: organic
- * Do not edit manually
- */
 
 interface Organic12PatternProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -2227,12 +3841,6 @@ declare const Organic12PatternMetadata: {
     readonly viewBox: "0 0 500 500";
 };
 
-/**
- * Auto-generated logo component: Organic11 (shapes)
- * Category: organic
- * Do not edit manually
- */
-
 interface Organic11ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -2247,12 +3855,6 @@ declare const Organic11ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 300 300";
 };
-
-/**
- * Auto-generated logo component: Organic11 (pattern)
- * Category: organic
- * Do not edit manually
- */
 
 interface Organic11PatternProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -2269,12 +3871,6 @@ declare const Organic11PatternMetadata: {
     readonly viewBox: "0 0 500 500";
 };
 
-/**
- * Auto-generated logo component: Organic10 (shapes)
- * Category: organic
- * Do not edit manually
- */
-
 interface Organic10ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -2289,12 +3885,6 @@ declare const Organic10ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 300 300";
 };
-
-/**
- * Auto-generated logo component: Organic10 (pattern)
- * Category: organic
- * Do not edit manually
- */
 
 interface Organic10PatternProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -2311,12 +3901,6 @@ declare const Organic10PatternMetadata: {
     readonly viewBox: "0 0 500 500";
 };
 
-/**
- * Auto-generated logo component: Geometric9 (shapes)
- * Category: geometric
- * Do not edit manually
- */
-
 interface Geometric9ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -2331,12 +3915,6 @@ declare const Geometric9ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 357 713";
 };
-
-/**
- * Auto-generated logo component: Geometric9 (pattern)
- * Category: geometric
- * Do not edit manually
- */
 
 interface Geometric9PatternProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -2353,12 +3931,6 @@ declare const Geometric9PatternMetadata: {
     readonly viewBox: "0 0 500 500";
 };
 
-/**
- * Auto-generated logo component: Geometric8 (shapes)
- * Category: geometric
- * Do not edit manually
- */
-
 interface Geometric8ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -2373,12 +3945,6 @@ declare const Geometric8ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 713 357";
 };
-
-/**
- * Auto-generated logo component: Geometric8 (pattern)
- * Category: geometric
- * Do not edit manually
- */
 
 interface Geometric8PatternProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -2395,12 +3961,6 @@ declare const Geometric8PatternMetadata: {
     readonly viewBox: "0 0 500 500";
 };
 
-/**
- * Auto-generated logo component: Geometric7 (shapes)
- * Category: geometric
- * Do not edit manually
- */
-
 interface Geometric7ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -2415,12 +3975,6 @@ declare const Geometric7ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 357 713";
 };
-
-/**
- * Auto-generated logo component: Geometric7 (pattern)
- * Category: geometric
- * Do not edit manually
- */
 
 interface Geometric7PatternProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -2437,12 +3991,6 @@ declare const Geometric7PatternMetadata: {
     readonly viewBox: "0 0 500 500";
 };
 
-/**
- * Auto-generated logo component: Geometric78 (shapes)
- * Category: geometric
- * Do not edit manually
- */
-
 interface Geometric78ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -2457,12 +4005,6 @@ declare const Geometric78ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 357 713";
 };
-
-/**
- * Auto-generated logo component: Geometric77 (shapes)
- * Category: geometric
- * Do not edit manually
- */
 
 interface Geometric77ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -2479,12 +4021,6 @@ declare const Geometric77ShapesMetadata: {
     readonly viewBox: "0 0 357 713";
 };
 
-/**
- * Auto-generated logo component: Geometric76 (shapes)
- * Category: geometric
- * Do not edit manually
- */
-
 interface Geometric76ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -2499,12 +4035,6 @@ declare const Geometric76ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 357 357";
 };
-
-/**
- * Auto-generated logo component: Geometric75 (shapes)
- * Category: geometric
- * Do not edit manually
- */
 
 interface Geometric75ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -2521,12 +4051,6 @@ declare const Geometric75ShapesMetadata: {
     readonly viewBox: "0 0 357 713";
 };
 
-/**
- * Auto-generated logo component: Geometric74 (shapes)
- * Category: geometric
- * Do not edit manually
- */
-
 interface Geometric74ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -2541,12 +4065,6 @@ declare const Geometric74ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 357 357";
 };
-
-/**
- * Auto-generated logo component: Geometric73 (shapes)
- * Category: geometric
- * Do not edit manually
- */
 
 interface Geometric73ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -2563,12 +4081,6 @@ declare const Geometric73ShapesMetadata: {
     readonly viewBox: "0 0 357 357";
 };
 
-/**
- * Auto-generated logo component: Geometric72 (shapes)
- * Category: geometric
- * Do not edit manually
- */
-
 interface Geometric72ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -2583,12 +4095,6 @@ declare const Geometric72ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 357 713";
 };
-
-/**
- * Auto-generated logo component: Geometric71 (shapes)
- * Category: geometric
- * Do not edit manually
- */
 
 interface Geometric71ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -2605,12 +4111,6 @@ declare const Geometric71ShapesMetadata: {
     readonly viewBox: "0 0 357 357";
 };
 
-/**
- * Auto-generated logo component: Geometric70 (shapes)
- * Category: geometric
- * Do not edit manually
- */
-
 interface Geometric70ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -2625,12 +4125,6 @@ declare const Geometric70ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 357 357";
 };
-
-/**
- * Auto-generated logo component: Geometric6 (shapes)
- * Category: geometric
- * Do not edit manually
- */
 
 interface Geometric6ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -2647,12 +4141,6 @@ declare const Geometric6ShapesMetadata: {
     readonly viewBox: "0 0 357 357";
 };
 
-/**
- * Auto-generated logo component: Geometric6 (pattern)
- * Category: geometric
- * Do not edit manually
- */
-
 interface Geometric6PatternProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -2667,12 +4155,6 @@ declare const Geometric6PatternMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 500 500";
 };
-
-/**
- * Auto-generated logo component: Geometric69 (shapes)
- * Category: geometric
- * Do not edit manually
- */
 
 interface Geometric69ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -2689,12 +4171,6 @@ declare const Geometric69ShapesMetadata: {
     readonly viewBox: "0 0 357 357";
 };
 
-/**
- * Auto-generated logo component: Geometric68 (shapes)
- * Category: geometric
- * Do not edit manually
- */
-
 interface Geometric68ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -2709,12 +4185,6 @@ declare const Geometric68ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 357 357";
 };
-
-/**
- * Auto-generated logo component: Geometric67 (shapes)
- * Category: geometric
- * Do not edit manually
- */
 
 interface Geometric67ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -2731,12 +4201,6 @@ declare const Geometric67ShapesMetadata: {
     readonly viewBox: "0 0 357 357";
 };
 
-/**
- * Auto-generated logo component: Geometric66 (shapes)
- * Category: geometric
- * Do not edit manually
- */
-
 interface Geometric66ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -2751,12 +4215,6 @@ declare const Geometric66ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 357 357";
 };
-
-/**
- * Auto-generated logo component: Geometric65 (shapes)
- * Category: geometric
- * Do not edit manually
- */
 
 interface Geometric65ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -2773,12 +4231,6 @@ declare const Geometric65ShapesMetadata: {
     readonly viewBox: "0 0 357 357";
 };
 
-/**
- * Auto-generated logo component: Geometric64 (shapes)
- * Category: geometric
- * Do not edit manually
- */
-
 interface Geometric64ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -2793,12 +4245,6 @@ declare const Geometric64ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 357 357";
 };
-
-/**
- * Auto-generated logo component: Geometric63 (shapes)
- * Category: geometric
- * Do not edit manually
- */
 
 interface Geometric63ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -2815,12 +4261,6 @@ declare const Geometric63ShapesMetadata: {
     readonly viewBox: "0 0 357 357";
 };
 
-/**
- * Auto-generated logo component: Geometric62 (shapes)
- * Category: geometric
- * Do not edit manually
- */
-
 interface Geometric62ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -2835,12 +4275,6 @@ declare const Geometric62ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 357 357";
 };
-
-/**
- * Auto-generated logo component: Geometric61 (shapes)
- * Category: geometric
- * Do not edit manually
- */
 
 interface Geometric61ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -2857,12 +4291,6 @@ declare const Geometric61ShapesMetadata: {
     readonly viewBox: "0 0 357 357";
 };
 
-/**
- * Auto-generated logo component: Geometric60 (shapes)
- * Category: geometric
- * Do not edit manually
- */
-
 interface Geometric60ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -2877,12 +4305,6 @@ declare const Geometric60ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 357 357";
 };
-
-/**
- * Auto-generated logo component: Geometric5 (shapes)
- * Category: geometric
- * Do not edit manually
- */
 
 interface Geometric5ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -2899,12 +4321,6 @@ declare const Geometric5ShapesMetadata: {
     readonly viewBox: "0 0 357 357";
 };
 
-/**
- * Auto-generated logo component: Geometric5 (pattern)
- * Category: geometric
- * Do not edit manually
- */
-
 interface Geometric5PatternProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -2919,12 +4335,6 @@ declare const Geometric5PatternMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 500 500";
 };
-
-/**
- * Auto-generated logo component: Geometric59 (shapes)
- * Category: geometric
- * Do not edit manually
- */
 
 interface Geometric59ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -2941,12 +4351,6 @@ declare const Geometric59ShapesMetadata: {
     readonly viewBox: "0 0 713 357";
 };
 
-/**
- * Auto-generated logo component: Geometric58 (shapes)
- * Category: geometric
- * Do not edit manually
- */
-
 interface Geometric58ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -2961,12 +4365,6 @@ declare const Geometric58ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 357 713";
 };
-
-/**
- * Auto-generated logo component: Geometric57 (shapes)
- * Category: geometric
- * Do not edit manually
- */
 
 interface Geometric57ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -2983,12 +4381,6 @@ declare const Geometric57ShapesMetadata: {
     readonly viewBox: "0 0 357 357";
 };
 
-/**
- * Auto-generated logo component: Geometric56 (shapes)
- * Category: geometric
- * Do not edit manually
- */
-
 interface Geometric56ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -3003,12 +4395,6 @@ declare const Geometric56ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 357 713";
 };
-
-/**
- * Auto-generated logo component: Geometric55 (shapes)
- * Category: geometric
- * Do not edit manually
- */
 
 interface Geometric55ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -3025,12 +4411,6 @@ declare const Geometric55ShapesMetadata: {
     readonly viewBox: "0 0 357 357";
 };
 
-/**
- * Auto-generated logo component: Geometric54 (shapes)
- * Category: geometric
- * Do not edit manually
- */
-
 interface Geometric54ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -3045,12 +4425,6 @@ declare const Geometric54ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 357 357";
 };
-
-/**
- * Auto-generated logo component: Geometric53 (shapes)
- * Category: geometric
- * Do not edit manually
- */
 
 interface Geometric53ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -3067,12 +4441,6 @@ declare const Geometric53ShapesMetadata: {
     readonly viewBox: "0 0 357 357";
 };
 
-/**
- * Auto-generated logo component: Geometric52 (shapes)
- * Category: geometric
- * Do not edit manually
- */
-
 interface Geometric52ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -3087,12 +4455,6 @@ declare const Geometric52ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 357 357";
 };
-
-/**
- * Auto-generated logo component: Geometric51 (shapes)
- * Category: geometric
- * Do not edit manually
- */
 
 interface Geometric51ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -3109,12 +4471,6 @@ declare const Geometric51ShapesMetadata: {
     readonly viewBox: "0 0 357 357";
 };
 
-/**
- * Auto-generated logo component: Geometric50 (shapes)
- * Category: geometric
- * Do not edit manually
- */
-
 interface Geometric50ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -3129,12 +4485,6 @@ declare const Geometric50ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 357 357";
 };
-
-/**
- * Auto-generated logo component: Geometric4 (texture)
- * Category: geometric
- * Do not edit manually
- */
 
 interface Geometric4TextureProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -3151,12 +4501,6 @@ declare const Geometric4TextureMetadata: {
     readonly viewBox: "0 0 500 500";
 };
 
-/**
- * Auto-generated logo component: Geometric4 (shapes)
- * Category: geometric
- * Do not edit manually
- */
-
 interface Geometric4ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -3171,12 +4515,6 @@ declare const Geometric4ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 357 357";
 };
-
-/**
- * Auto-generated logo component: Geometric4 (pattern)
- * Category: geometric
- * Do not edit manually
- */
 
 interface Geometric4PatternProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -3193,12 +4531,6 @@ declare const Geometric4PatternMetadata: {
     readonly viewBox: "0 0 500 500";
 };
 
-/**
- * Auto-generated logo component: Geometric49 (shapes)
- * Category: geometric
- * Do not edit manually
- */
-
 interface Geometric49ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -3213,12 +4545,6 @@ declare const Geometric49ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 357 357";
 };
-
-/**
- * Auto-generated logo component: Geometric48 (shapes)
- * Category: geometric
- * Do not edit manually
- */
 
 interface Geometric48ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -3235,12 +4561,6 @@ declare const Geometric48ShapesMetadata: {
     readonly viewBox: "0 0 357 357";
 };
 
-/**
- * Auto-generated logo component: Geometric47 (shapes)
- * Category: geometric
- * Do not edit manually
- */
-
 interface Geometric47ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -3255,12 +4575,6 @@ declare const Geometric47ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 357 357";
 };
-
-/**
- * Auto-generated logo component: Geometric46 (shapes)
- * Category: geometric
- * Do not edit manually
- */
 
 interface Geometric46ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -3277,12 +4591,6 @@ declare const Geometric46ShapesMetadata: {
     readonly viewBox: "0 0 357 357";
 };
 
-/**
- * Auto-generated logo component: Geometric45 (shapes)
- * Category: geometric
- * Do not edit manually
- */
-
 interface Geometric45ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -3297,12 +4605,6 @@ declare const Geometric45ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 357 357";
 };
-
-/**
- * Auto-generated logo component: Geometric44 (shapes)
- * Category: geometric
- * Do not edit manually
- */
 
 interface Geometric44ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -3319,12 +4621,6 @@ declare const Geometric44ShapesMetadata: {
     readonly viewBox: "0 0 357 357";
 };
 
-/**
- * Auto-generated logo component: Geometric43 (shapes)
- * Category: geometric
- * Do not edit manually
- */
-
 interface Geometric43ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -3339,12 +4635,6 @@ declare const Geometric43ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 357 357";
 };
-
-/**
- * Auto-generated logo component: Geometric42 (shapes)
- * Category: geometric
- * Do not edit manually
- */
 
 interface Geometric42ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -3361,12 +4651,6 @@ declare const Geometric42ShapesMetadata: {
     readonly viewBox: "0 0 357 357";
 };
 
-/**
- * Auto-generated logo component: Geometric41 (shapes)
- * Category: geometric
- * Do not edit manually
- */
-
 interface Geometric41ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -3381,12 +4665,6 @@ declare const Geometric41ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 357 357";
 };
-
-/**
- * Auto-generated logo component: Geometric40 (shapes)
- * Category: geometric
- * Do not edit manually
- */
 
 interface Geometric40ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -3403,12 +4681,6 @@ declare const Geometric40ShapesMetadata: {
     readonly viewBox: "0 0 357 357";
 };
 
-/**
- * Auto-generated logo component: Geometric3 (texture)
- * Category: geometric
- * Do not edit manually
- */
-
 interface Geometric3TextureProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -3423,12 +4695,6 @@ declare const Geometric3TextureMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 500 500";
 };
-
-/**
- * Auto-generated logo component: Geometric3 (shapes)
- * Category: geometric
- * Do not edit manually
- */
 
 interface Geometric3ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -3445,12 +4711,6 @@ declare const Geometric3ShapesMetadata: {
     readonly viewBox: "0 0 357 357";
 };
 
-/**
- * Auto-generated logo component: Geometric3 (pattern)
- * Category: geometric
- * Do not edit manually
- */
-
 interface Geometric3PatternProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -3465,12 +4725,6 @@ declare const Geometric3PatternMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 500 500";
 };
-
-/**
- * Auto-generated logo component: Geometric39 (shapes)
- * Category: geometric
- * Do not edit manually
- */
 
 interface Geometric39ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -3487,12 +4741,6 @@ declare const Geometric39ShapesMetadata: {
     readonly viewBox: "0 0 357 713";
 };
 
-/**
- * Auto-generated logo component: Geometric38 (shapes)
- * Category: geometric
- * Do not edit manually
- */
-
 interface Geometric38ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -3507,12 +4755,6 @@ declare const Geometric38ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 713 357";
 };
-
-/**
- * Auto-generated logo component: Geometric37 (shapes)
- * Category: geometric
- * Do not edit manually
- */
 
 interface Geometric37ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -3529,12 +4771,6 @@ declare const Geometric37ShapesMetadata: {
     readonly viewBox: "0 0 357 357";
 };
 
-/**
- * Auto-generated logo component: Geometric36 (shapes)
- * Category: geometric
- * Do not edit manually
- */
-
 interface Geometric36ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -3549,12 +4785,6 @@ declare const Geometric36ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 357 357";
 };
-
-/**
- * Auto-generated logo component: Geometric35 (shapes)
- * Category: geometric
- * Do not edit manually
- */
 
 interface Geometric35ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -3571,12 +4801,6 @@ declare const Geometric35ShapesMetadata: {
     readonly viewBox: "0 0 357 357";
 };
 
-/**
- * Auto-generated logo component: Geometric34 (shapes)
- * Category: geometric
- * Do not edit manually
- */
-
 interface Geometric34ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -3591,12 +4815,6 @@ declare const Geometric34ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 357 357";
 };
-
-/**
- * Auto-generated logo component: Geometric33 (shapes)
- * Category: geometric
- * Do not edit manually
- */
 
 interface Geometric33ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -3613,12 +4831,6 @@ declare const Geometric33ShapesMetadata: {
     readonly viewBox: "0 0 357 357";
 };
 
-/**
- * Auto-generated logo component: Geometric32 (shapes)
- * Category: geometric
- * Do not edit manually
- */
-
 interface Geometric32ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -3633,12 +4845,6 @@ declare const Geometric32ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 357 357";
 };
-
-/**
- * Auto-generated logo component: Geometric31 (shapes)
- * Category: geometric
- * Do not edit manually
- */
 
 interface Geometric31ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -3655,12 +4861,6 @@ declare const Geometric31ShapesMetadata: {
     readonly viewBox: "0 0 357 713";
 };
 
-/**
- * Auto-generated logo component: Geometric30 (shapes)
- * Category: geometric
- * Do not edit manually
- */
-
 interface Geometric30ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -3675,12 +4875,6 @@ declare const Geometric30ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 357 357";
 };
-
-/**
- * Auto-generated logo component: Geometric2 (texture)
- * Category: geometric
- * Do not edit manually
- */
 
 interface Geometric2TextureProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -3697,12 +4891,6 @@ declare const Geometric2TextureMetadata: {
     readonly viewBox: "0 0 500 500";
 };
 
-/**
- * Auto-generated logo component: Geometric2 (shapes)
- * Category: geometric
- * Do not edit manually
- */
-
 interface Geometric2ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -3717,12 +4905,6 @@ declare const Geometric2ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 357 357";
 };
-
-/**
- * Auto-generated logo component: Geometric2 (pattern)
- * Category: geometric
- * Do not edit manually
- */
 
 interface Geometric2PatternProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -3739,12 +4921,6 @@ declare const Geometric2PatternMetadata: {
     readonly viewBox: "0 0 500 500";
 };
 
-/**
- * Auto-generated logo component: Geometric29 (shapes)
- * Category: geometric
- * Do not edit manually
- */
-
 interface Geometric29ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -3759,12 +4935,6 @@ declare const Geometric29ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 357 357";
 };
-
-/**
- * Auto-generated logo component: Geometric28 (shapes)
- * Category: geometric
- * Do not edit manually
- */
 
 interface Geometric28ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -3781,12 +4951,6 @@ declare const Geometric28ShapesMetadata: {
     readonly viewBox: "0 0 713 357";
 };
 
-/**
- * Auto-generated logo component: Geometric27 (shapes)
- * Category: geometric
- * Do not edit manually
- */
-
 interface Geometric27ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -3801,12 +4965,6 @@ declare const Geometric27ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 357 713";
 };
-
-/**
- * Auto-generated logo component: Geometric26 (shapes)
- * Category: geometric
- * Do not edit manually
- */
 
 interface Geometric26ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -3823,12 +4981,6 @@ declare const Geometric26ShapesMetadata: {
     readonly viewBox: "0 0 713 357";
 };
 
-/**
- * Auto-generated logo component: Geometric25 (shapes)
- * Category: geometric
- * Do not edit manually
- */
-
 interface Geometric25ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -3843,12 +4995,6 @@ declare const Geometric25ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 357 713";
 };
-
-/**
- * Auto-generated logo component: Geometric24 (shapes)
- * Category: geometric
- * Do not edit manually
- */
 
 interface Geometric24ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -3865,12 +5011,6 @@ declare const Geometric24ShapesMetadata: {
     readonly viewBox: "0 0 357 357";
 };
 
-/**
- * Auto-generated logo component: Geometric23 (shapes)
- * Category: geometric
- * Do not edit manually
- */
-
 interface Geometric23ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -3885,12 +5025,6 @@ declare const Geometric23ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 713 357";
 };
-
-/**
- * Auto-generated logo component: Geometric22 (shapes)
- * Category: geometric
- * Do not edit manually
- */
 
 interface Geometric22ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -3907,12 +5041,6 @@ declare const Geometric22ShapesMetadata: {
     readonly viewBox: "0 0 357 357";
 };
 
-/**
- * Auto-generated logo component: Geometric21 (shapes)
- * Category: geometric
- * Do not edit manually
- */
-
 interface Geometric21ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -3927,12 +5055,6 @@ declare const Geometric21ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 713 357";
 };
-
-/**
- * Auto-generated logo component: Geometric20 (shapes)
- * Category: geometric
- * Do not edit manually
- */
 
 interface Geometric20ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -3949,12 +5071,6 @@ declare const Geometric20ShapesMetadata: {
     readonly viewBox: "0 0 357 357";
 };
 
-/**
- * Auto-generated logo component: Geometric1 (texture)
- * Category: geometric
- * Do not edit manually
- */
-
 interface Geometric1TextureProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -3969,12 +5085,6 @@ declare const Geometric1TextureMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 500 500";
 };
-
-/**
- * Auto-generated logo component: Geometric1 (shapes)
- * Category: geometric
- * Do not edit manually
- */
 
 interface Geometric1ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -3991,12 +5101,6 @@ declare const Geometric1ShapesMetadata: {
     readonly viewBox: "0 0 357 357";
 };
 
-/**
- * Auto-generated logo component: Geometric1 (pattern)
- * Category: geometric
- * Do not edit manually
- */
-
 interface Geometric1PatternProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -4011,12 +5115,6 @@ declare const Geometric1PatternMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 500 500";
 };
-
-/**
- * Auto-generated logo component: Geometric19 (shapes)
- * Category: geometric
- * Do not edit manually
- */
 
 interface Geometric19ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -4033,12 +5131,6 @@ declare const Geometric19ShapesMetadata: {
     readonly viewBox: "0 0 357 357";
 };
 
-/**
- * Auto-generated logo component: Geometric18 (shapes)
- * Category: geometric
- * Do not edit manually
- */
-
 interface Geometric18ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -4053,12 +5145,6 @@ declare const Geometric18ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 357 357";
 };
-
-/**
- * Auto-generated logo component: Geometric17 (shapes)
- * Category: geometric
- * Do not edit manually
- */
 
 interface Geometric17ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -4075,12 +5161,6 @@ declare const Geometric17ShapesMetadata: {
     readonly viewBox: "0 0 357 357";
 };
 
-/**
- * Auto-generated logo component: Geometric16 (shapes)
- * Category: geometric
- * Do not edit manually
- */
-
 interface Geometric16ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -4095,12 +5175,6 @@ declare const Geometric16ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 357 357";
 };
-
-/**
- * Auto-generated logo component: Geometric15 (shapes)
- * Category: geometric
- * Do not edit manually
- */
 
 interface Geometric15ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -4117,12 +5191,6 @@ declare const Geometric15ShapesMetadata: {
     readonly viewBox: "0 0 357 357";
 };
 
-/**
- * Auto-generated logo component: Geometric14 (shapes)
- * Category: geometric
- * Do not edit manually
- */
-
 interface Geometric14ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -4137,12 +5205,6 @@ declare const Geometric14ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 357 713";
 };
-
-/**
- * Auto-generated logo component: Geometric14 (pattern)
- * Category: geometric
- * Do not edit manually
- */
 
 interface Geometric14PatternProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -4159,12 +5221,6 @@ declare const Geometric14PatternMetadata: {
     readonly viewBox: "0 0 500 500";
 };
 
-/**
- * Auto-generated logo component: Geometric13 (shapes)
- * Category: geometric
- * Do not edit manually
- */
-
 interface Geometric13ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -4179,12 +5235,6 @@ declare const Geometric13ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 357 713";
 };
-
-/**
- * Auto-generated logo component: Geometric13 (pattern)
- * Category: geometric
- * Do not edit manually
- */
 
 interface Geometric13PatternProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -4201,12 +5251,6 @@ declare const Geometric13PatternMetadata: {
     readonly viewBox: "0 0 500 500";
 };
 
-/**
- * Auto-generated logo component: Geometric12 (shapes)
- * Category: geometric
- * Do not edit manually
- */
-
 interface Geometric12ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -4221,12 +5265,6 @@ declare const Geometric12ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 357 357";
 };
-
-/**
- * Auto-generated logo component: Geometric12 (pattern)
- * Category: geometric
- * Do not edit manually
- */
 
 interface Geometric12PatternProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -4243,12 +5281,6 @@ declare const Geometric12PatternMetadata: {
     readonly viewBox: "0 0 500 500";
 };
 
-/**
- * Auto-generated logo component: Geometric11 (shapes)
- * Category: geometric
- * Do not edit manually
- */
-
 interface Geometric11ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -4263,12 +5295,6 @@ declare const Geometric11ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 357 357";
 };
-
-/**
- * Auto-generated logo component: Geometric11 (pattern)
- * Category: geometric
- * Do not edit manually
- */
 
 interface Geometric11PatternProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -4285,12 +5311,6 @@ declare const Geometric11PatternMetadata: {
     readonly viewBox: "0 0 500 500";
 };
 
-/**
- * Auto-generated logo component: Geometric10 (shapes)
- * Category: geometric
- * Do not edit manually
- */
-
 interface Geometric10ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -4305,12 +5325,6 @@ declare const Geometric10ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 713 357";
 };
-
-/**
- * Auto-generated logo component: Geometric10 (pattern)
- * Category: geometric
- * Do not edit manually
- */
 
 interface Geometric10PatternProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -4327,12 +5341,6 @@ declare const Geometric10PatternMetadata: {
     readonly viewBox: "0 0 500 500";
 };
 
-/**
- * Auto-generated logo component: Arrows9 (sketch)
- * Category: arrows
- * Do not edit manually
- */
-
 interface Arrows9SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -4347,12 +5355,6 @@ declare const Arrows9SketchMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 500 500";
 };
-
-/**
- * Auto-generated logo component: Arrows8 (sketch)
- * Category: arrows
- * Do not edit manually
- */
 
 interface Arrows8SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -4369,12 +5371,6 @@ declare const Arrows8SketchMetadata: {
     readonly viewBox: "0 0 500 500";
 };
 
-/**
- * Auto-generated logo component: Arrows7 (sketch)
- * Category: arrows
- * Do not edit manually
- */
-
 interface Arrows7SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -4389,12 +5385,6 @@ declare const Arrows7SketchMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 500 500";
 };
-
-/**
- * Auto-generated logo component: Arrows74 (sketch)
- * Category: arrows
- * Do not edit manually
- */
 
 interface Arrows74SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -4411,12 +5401,6 @@ declare const Arrows74SketchMetadata: {
     readonly viewBox: "0 0 500 500";
 };
 
-/**
- * Auto-generated logo component: Arrows73 (sketch)
- * Category: arrows
- * Do not edit manually
- */
-
 interface Arrows73SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -4431,12 +5415,6 @@ declare const Arrows73SketchMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 500 500";
 };
-
-/**
- * Auto-generated logo component: Arrows72 (sketch)
- * Category: arrows
- * Do not edit manually
- */
 
 interface Arrows72SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -4453,12 +5431,6 @@ declare const Arrows72SketchMetadata: {
     readonly viewBox: "0 0 500 500";
 };
 
-/**
- * Auto-generated logo component: Arrows71 (sketch)
- * Category: arrows
- * Do not edit manually
- */
-
 interface Arrows71SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -4473,12 +5445,6 @@ declare const Arrows71SketchMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 500 500";
 };
-
-/**
- * Auto-generated logo component: Arrows70 (sketch)
- * Category: arrows
- * Do not edit manually
- */
 
 interface Arrows70SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -4495,12 +5461,6 @@ declare const Arrows70SketchMetadata: {
     readonly viewBox: "0 0 500 500";
 };
 
-/**
- * Auto-generated logo component: Arrows6 (sketch)
- * Category: arrows
- * Do not edit manually
- */
-
 interface Arrows6SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -4515,12 +5475,6 @@ declare const Arrows6SketchMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 500 500";
 };
-
-/**
- * Auto-generated logo component: Arrows69 (sketch)
- * Category: arrows
- * Do not edit manually
- */
 
 interface Arrows69SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -4537,12 +5491,6 @@ declare const Arrows69SketchMetadata: {
     readonly viewBox: "0 0 490 490";
 };
 
-/**
- * Auto-generated logo component: Arrows68 (sketch)
- * Category: arrows
- * Do not edit manually
- */
-
 interface Arrows68SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -4557,12 +5505,6 @@ declare const Arrows68SketchMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 500 500";
 };
-
-/**
- * Auto-generated logo component: Arrows67 (sketch)
- * Category: arrows
- * Do not edit manually
- */
 
 interface Arrows67SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -4579,12 +5521,6 @@ declare const Arrows67SketchMetadata: {
     readonly viewBox: "0 0 500 500";
 };
 
-/**
- * Auto-generated logo component: Arrows66 (sketch)
- * Category: arrows
- * Do not edit manually
- */
-
 interface Arrows66SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -4599,12 +5535,6 @@ declare const Arrows66SketchMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 500 500";
 };
-
-/**
- * Auto-generated logo component: Arrows65 (sketch)
- * Category: arrows
- * Do not edit manually
- */
 
 interface Arrows65SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -4621,12 +5551,6 @@ declare const Arrows65SketchMetadata: {
     readonly viewBox: "0 0 500 500";
 };
 
-/**
- * Auto-generated logo component: Arrows64 (sketch)
- * Category: arrows
- * Do not edit manually
- */
-
 interface Arrows64SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -4641,12 +5565,6 @@ declare const Arrows64SketchMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 500 500";
 };
-
-/**
- * Auto-generated logo component: Arrows63 (sketch)
- * Category: arrows
- * Do not edit manually
- */
 
 interface Arrows63SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -4663,12 +5581,6 @@ declare const Arrows63SketchMetadata: {
     readonly viewBox: "0 0 500 500";
 };
 
-/**
- * Auto-generated logo component: Arrows62 (sketch)
- * Category: arrows
- * Do not edit manually
- */
-
 interface Arrows62SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -4683,12 +5595,6 @@ declare const Arrows62SketchMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 500 500";
 };
-
-/**
- * Auto-generated logo component: Arrows61 (sketch)
- * Category: arrows
- * Do not edit manually
- */
 
 interface Arrows61SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -4705,12 +5611,6 @@ declare const Arrows61SketchMetadata: {
     readonly viewBox: "0 0 500 500";
 };
 
-/**
- * Auto-generated logo component: Arrows60 (sketch)
- * Category: arrows
- * Do not edit manually
- */
-
 interface Arrows60SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -4725,12 +5625,6 @@ declare const Arrows60SketchMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 500 500";
 };
-
-/**
- * Auto-generated logo component: Arrows5 (sketch)
- * Category: arrows
- * Do not edit manually
- */
 
 interface Arrows5SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -4747,12 +5641,6 @@ declare const Arrows5SketchMetadata: {
     readonly viewBox: "0 0 500 500";
 };
 
-/**
- * Auto-generated logo component: Arrows59 (sketch)
- * Category: arrows
- * Do not edit manually
- */
-
 interface Arrows59SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -4767,12 +5655,6 @@ declare const Arrows59SketchMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 500 500";
 };
-
-/**
- * Auto-generated logo component: Arrows58 (sketch)
- * Category: arrows
- * Do not edit manually
- */
 
 interface Arrows58SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -4789,12 +5671,6 @@ declare const Arrows58SketchMetadata: {
     readonly viewBox: "0 0 500 500";
 };
 
-/**
- * Auto-generated logo component: Arrows57 (sketch)
- * Category: arrows
- * Do not edit manually
- */
-
 interface Arrows57SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -4809,12 +5685,6 @@ declare const Arrows57SketchMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 490 490";
 };
-
-/**
- * Auto-generated logo component: Arrows56 (sketch)
- * Category: arrows
- * Do not edit manually
- */
 
 interface Arrows56SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -4831,12 +5701,6 @@ declare const Arrows56SketchMetadata: {
     readonly viewBox: "0 0 500 500";
 };
 
-/**
- * Auto-generated logo component: Arrows55 (sketch)
- * Category: arrows
- * Do not edit manually
- */
-
 interface Arrows55SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -4851,12 +5715,6 @@ declare const Arrows55SketchMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 500 500";
 };
-
-/**
- * Auto-generated logo component: Arrows54 (sketch)
- * Category: arrows
- * Do not edit manually
- */
 
 interface Arrows54SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -4873,12 +5731,6 @@ declare const Arrows54SketchMetadata: {
     readonly viewBox: "0 0 500 500";
 };
 
-/**
- * Auto-generated logo component: Arrows53 (sketch)
- * Category: arrows
- * Do not edit manually
- */
-
 interface Arrows53SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -4893,12 +5745,6 @@ declare const Arrows53SketchMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 500 500";
 };
-
-/**
- * Auto-generated logo component: Arrows52 (sketch)
- * Category: arrows
- * Do not edit manually
- */
 
 interface Arrows52SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -4915,12 +5761,6 @@ declare const Arrows52SketchMetadata: {
     readonly viewBox: "0 0 500 500";
 };
 
-/**
- * Auto-generated logo component: Arrows51 (sketch)
- * Category: arrows
- * Do not edit manually
- */
-
 interface Arrows51SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -4935,12 +5775,6 @@ declare const Arrows51SketchMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 500 500";
 };
-
-/**
- * Auto-generated logo component: Arrows50 (sketch)
- * Category: arrows
- * Do not edit manually
- */
 
 interface Arrows50SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -4957,12 +5791,6 @@ declare const Arrows50SketchMetadata: {
     readonly viewBox: "0 0 500 500";
 };
 
-/**
- * Auto-generated logo component: Arrows4 (sketch)
- * Category: arrows
- * Do not edit manually
- */
-
 interface Arrows4SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -4977,12 +5805,6 @@ declare const Arrows4SketchMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 500 500";
 };
-
-/**
- * Auto-generated logo component: Arrows49 (sketch)
- * Category: arrows
- * Do not edit manually
- */
 
 interface Arrows49SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -4999,12 +5821,6 @@ declare const Arrows49SketchMetadata: {
     readonly viewBox: "0 0 500 500";
 };
 
-/**
- * Auto-generated logo component: Arrows48 (sketch)
- * Category: arrows
- * Do not edit manually
- */
-
 interface Arrows48SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -5019,12 +5835,6 @@ declare const Arrows48SketchMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 500 500";
 };
-
-/**
- * Auto-generated logo component: Arrows47 (sketch)
- * Category: arrows
- * Do not edit manually
- */
 
 interface Arrows47SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -5041,12 +5851,6 @@ declare const Arrows47SketchMetadata: {
     readonly viewBox: "0 0 500 500";
 };
 
-/**
- * Auto-generated logo component: Arrows46 (sketch)
- * Category: arrows
- * Do not edit manually
- */
-
 interface Arrows46SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -5061,12 +5865,6 @@ declare const Arrows46SketchMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 500 500";
 };
-
-/**
- * Auto-generated logo component: Arrows45 (sketch)
- * Category: arrows
- * Do not edit manually
- */
 
 interface Arrows45SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -5083,12 +5881,6 @@ declare const Arrows45SketchMetadata: {
     readonly viewBox: "0 0 500 500";
 };
 
-/**
- * Auto-generated logo component: Arrows44 (sketch)
- * Category: arrows
- * Do not edit manually
- */
-
 interface Arrows44SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -5103,12 +5895,6 @@ declare const Arrows44SketchMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 500 500";
 };
-
-/**
- * Auto-generated logo component: Arrows43 (sketch)
- * Category: arrows
- * Do not edit manually
- */
 
 interface Arrows43SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -5125,12 +5911,6 @@ declare const Arrows43SketchMetadata: {
     readonly viewBox: "0 0 500 500";
 };
 
-/**
- * Auto-generated logo component: Arrows42 (sketch)
- * Category: arrows
- * Do not edit manually
- */
-
 interface Arrows42SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -5145,12 +5925,6 @@ declare const Arrows42SketchMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 500 500";
 };
-
-/**
- * Auto-generated logo component: Arrows41 (sketch)
- * Category: arrows
- * Do not edit manually
- */
 
 interface Arrows41SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -5167,12 +5941,6 @@ declare const Arrows41SketchMetadata: {
     readonly viewBox: "0 0 500 500";
 };
 
-/**
- * Auto-generated logo component: Arrows40 (sketch)
- * Category: arrows
- * Do not edit manually
- */
-
 interface Arrows40SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -5187,12 +5955,6 @@ declare const Arrows40SketchMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 500 500";
 };
-
-/**
- * Auto-generated logo component: Arrows3 (sketch)
- * Category: arrows
- * Do not edit manually
- */
 
 interface Arrows3SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -5209,12 +5971,6 @@ declare const Arrows3SketchMetadata: {
     readonly viewBox: "0 0 500 500";
 };
 
-/**
- * Auto-generated logo component: Arrows39 (sketch)
- * Category: arrows
- * Do not edit manually
- */
-
 interface Arrows39SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -5229,12 +5985,6 @@ declare const Arrows39SketchMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 500 500";
 };
-
-/**
- * Auto-generated logo component: Arrows38 (sketch)
- * Category: arrows
- * Do not edit manually
- */
 
 interface Arrows38SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -5251,12 +6001,6 @@ declare const Arrows38SketchMetadata: {
     readonly viewBox: "0 0 500 500";
 };
 
-/**
- * Auto-generated logo component: Arrows37 (sketch)
- * Category: arrows
- * Do not edit manually
- */
-
 interface Arrows37SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -5271,12 +6015,6 @@ declare const Arrows37SketchMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 500 500";
 };
-
-/**
- * Auto-generated logo component: Arrows36 (sketch)
- * Category: arrows
- * Do not edit manually
- */
 
 interface Arrows36SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -5293,12 +6031,6 @@ declare const Arrows36SketchMetadata: {
     readonly viewBox: "0 0 500 500";
 };
 
-/**
- * Auto-generated logo component: Arrows35 (sketch)
- * Category: arrows
- * Do not edit manually
- */
-
 interface Arrows35SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -5313,12 +6045,6 @@ declare const Arrows35SketchMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 500 500";
 };
-
-/**
- * Auto-generated logo component: Arrows34 (sketch)
- * Category: arrows
- * Do not edit manually
- */
 
 interface Arrows34SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -5335,12 +6061,6 @@ declare const Arrows34SketchMetadata: {
     readonly viewBox: "0 0 500 500";
 };
 
-/**
- * Auto-generated logo component: Arrows33 (sketch)
- * Category: arrows
- * Do not edit manually
- */
-
 interface Arrows33SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -5355,12 +6075,6 @@ declare const Arrows33SketchMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 500 500";
 };
-
-/**
- * Auto-generated logo component: Arrows32 (sketch)
- * Category: arrows
- * Do not edit manually
- */
 
 interface Arrows32SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -5377,12 +6091,6 @@ declare const Arrows32SketchMetadata: {
     readonly viewBox: "0 0 500 500";
 };
 
-/**
- * Auto-generated logo component: Arrows31 (sketch)
- * Category: arrows
- * Do not edit manually
- */
-
 interface Arrows31SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -5397,12 +6105,6 @@ declare const Arrows31SketchMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 500 500";
 };
-
-/**
- * Auto-generated logo component: Arrows30 (sketch)
- * Category: arrows
- * Do not edit manually
- */
 
 interface Arrows30SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -5419,12 +6121,6 @@ declare const Arrows30SketchMetadata: {
     readonly viewBox: "0 0 500 500";
 };
 
-/**
- * Auto-generated logo component: Arrows2 (sketch)
- * Category: arrows
- * Do not edit manually
- */
-
 interface Arrows2SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -5439,12 +6135,6 @@ declare const Arrows2SketchMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 490 490";
 };
-
-/**
- * Auto-generated logo component: Arrows29 (sketch)
- * Category: arrows
- * Do not edit manually
- */
 
 interface Arrows29SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -5461,12 +6151,6 @@ declare const Arrows29SketchMetadata: {
     readonly viewBox: "0 0 500 500";
 };
 
-/**
- * Auto-generated logo component: Arrows28 (sketch)
- * Category: arrows
- * Do not edit manually
- */
-
 interface Arrows28SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -5481,12 +6165,6 @@ declare const Arrows28SketchMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 500 500";
 };
-
-/**
- * Auto-generated logo component: Arrows27 (sketch)
- * Category: arrows
- * Do not edit manually
- */
 
 interface Arrows27SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -5503,12 +6181,6 @@ declare const Arrows27SketchMetadata: {
     readonly viewBox: "0 0 500 500";
 };
 
-/**
- * Auto-generated logo component: Arrows26 (sketch)
- * Category: arrows
- * Do not edit manually
- */
-
 interface Arrows26SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -5523,12 +6195,6 @@ declare const Arrows26SketchMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 500 500";
 };
-
-/**
- * Auto-generated logo component: Arrows25 (sketch)
- * Category: arrows
- * Do not edit manually
- */
 
 interface Arrows25SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -5545,12 +6211,6 @@ declare const Arrows25SketchMetadata: {
     readonly viewBox: "0 0 500 500";
 };
 
-/**
- * Auto-generated logo component: Arrows24 (sketch)
- * Category: arrows
- * Do not edit manually
- */
-
 interface Arrows24SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -5565,12 +6225,6 @@ declare const Arrows24SketchMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 500 500";
 };
-
-/**
- * Auto-generated logo component: Arrows23 (sketch)
- * Category: arrows
- * Do not edit manually
- */
 
 interface Arrows23SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -5587,12 +6241,6 @@ declare const Arrows23SketchMetadata: {
     readonly viewBox: "0 0 500 500";
 };
 
-/**
- * Auto-generated logo component: Arrows22 (sketch)
- * Category: arrows
- * Do not edit manually
- */
-
 interface Arrows22SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -5607,12 +6255,6 @@ declare const Arrows22SketchMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 500 500";
 };
-
-/**
- * Auto-generated logo component: Arrows21 (sketch)
- * Category: arrows
- * Do not edit manually
- */
 
 interface Arrows21SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -5629,12 +6271,6 @@ declare const Arrows21SketchMetadata: {
     readonly viewBox: "0 0 490 490";
 };
 
-/**
- * Auto-generated logo component: Arrows20 (sketch)
- * Category: arrows
- * Do not edit manually
- */
-
 interface Arrows20SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -5649,12 +6285,6 @@ declare const Arrows20SketchMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 500 500";
 };
-
-/**
- * Auto-generated logo component: Arrows1 (sketch)
- * Category: arrows
- * Do not edit manually
- */
 
 interface Arrows1SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -5671,12 +6301,6 @@ declare const Arrows1SketchMetadata: {
     readonly viewBox: "0 0 490 490";
 };
 
-/**
- * Auto-generated logo component: Arrows19 (sketch)
- * Category: arrows
- * Do not edit manually
- */
-
 interface Arrows19SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -5691,12 +6315,6 @@ declare const Arrows19SketchMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 500 500";
 };
-
-/**
- * Auto-generated logo component: Arrows18 (sketch)
- * Category: arrows
- * Do not edit manually
- */
 
 interface Arrows18SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -5713,12 +6331,6 @@ declare const Arrows18SketchMetadata: {
     readonly viewBox: "0 0 500 500";
 };
 
-/**
- * Auto-generated logo component: Arrows17 (sketch)
- * Category: arrows
- * Do not edit manually
- */
-
 interface Arrows17SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -5733,12 +6345,6 @@ declare const Arrows17SketchMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 500 500";
 };
-
-/**
- * Auto-generated logo component: Arrows16 (sketch)
- * Category: arrows
- * Do not edit manually
- */
 
 interface Arrows16SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -5755,12 +6361,6 @@ declare const Arrows16SketchMetadata: {
     readonly viewBox: "0 0 500 500";
 };
 
-/**
- * Auto-generated logo component: Arrows15 (sketch)
- * Category: arrows
- * Do not edit manually
- */
-
 interface Arrows15SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -5775,12 +6375,6 @@ declare const Arrows15SketchMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 500 500";
 };
-
-/**
- * Auto-generated logo component: Arrows14 (sketch)
- * Category: arrows
- * Do not edit manually
- */
 
 interface Arrows14SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -5797,12 +6391,6 @@ declare const Arrows14SketchMetadata: {
     readonly viewBox: "0 0 500 500";
 };
 
-/**
- * Auto-generated logo component: Arrows13 (sketch)
- * Category: arrows
- * Do not edit manually
- */
-
 interface Arrows13SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -5817,12 +6405,6 @@ declare const Arrows13SketchMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 500 500";
 };
-
-/**
- * Auto-generated logo component: Arrows12 (sketch)
- * Category: arrows
- * Do not edit manually
- */
 
 interface Arrows12SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -5839,12 +6421,6 @@ declare const Arrows12SketchMetadata: {
     readonly viewBox: "0 0 500 500";
 };
 
-/**
- * Auto-generated logo component: Arrows11 (sketch)
- * Category: arrows
- * Do not edit manually
- */
-
 interface Arrows11SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -5859,12 +6435,6 @@ declare const Arrows11SketchMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 500 500";
 };
-
-/**
- * Auto-generated logo component: Arrows10 (sketch)
- * Category: arrows
- * Do not edit manually
- */
 
 interface Arrows10SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -5881,12 +6451,6 @@ declare const Arrows10SketchMetadata: {
     readonly viewBox: "0 0 500 500";
 };
 
-/**
- * Auto-generated logo component: Abstract9 (sketch)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract9SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -5901,12 +6465,6 @@ declare const Abstract9SketchMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 446 446";
 };
-
-/**
- * Auto-generated logo component: Abstract9 (shapes)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract9ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -5923,12 +6481,6 @@ declare const Abstract9ShapesMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
-/**
- * Auto-generated logo component: Abstract99 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract99ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -5943,12 +6495,6 @@ declare const Abstract99ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 22";
 };
-
-/**
- * Auto-generated logo component: Abstract98 (shapes)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract98ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -5965,12 +6511,6 @@ declare const Abstract98ShapesMetadata: {
     readonly viewBox: "0 0 21 23";
 };
 
-/**
- * Auto-generated logo component: Abstract97 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract97ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -5985,12 +6525,6 @@ declare const Abstract97ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 23";
 };
-
-/**
- * Auto-generated logo component: Abstract96 (shapes)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract96ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -6007,12 +6541,6 @@ declare const Abstract96ShapesMetadata: {
     readonly viewBox: "0 0 24 22";
 };
 
-/**
- * Auto-generated logo component: Abstract95 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract95ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -6027,12 +6555,6 @@ declare const Abstract95ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 23 23";
 };
-
-/**
- * Auto-generated logo component: Abstract94 (shapes)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract94ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -6049,12 +6571,6 @@ declare const Abstract94ShapesMetadata: {
     readonly viewBox: "0 0 20 23";
 };
 
-/**
- * Auto-generated logo component: Abstract93 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract93ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -6069,12 +6585,6 @@ declare const Abstract93ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 23";
 };
-
-/**
- * Auto-generated logo component: Abstract92 (shapes)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract92ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -6091,12 +6601,6 @@ declare const Abstract92ShapesMetadata: {
     readonly viewBox: "0 0 23 23";
 };
 
-/**
- * Auto-generated logo component: Abstract91 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract91ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -6111,12 +6615,6 @@ declare const Abstract91ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 23 23";
 };
-
-/**
- * Auto-generated logo component: Abstract90 (shapes)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract90ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -6133,12 +6631,6 @@ declare const Abstract90ShapesMetadata: {
     readonly viewBox: "0 0 23 23";
 };
 
-/**
- * Auto-generated logo component: Abstract8 (sketch)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract8SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -6153,12 +6645,6 @@ declare const Abstract8SketchMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 446 446";
 };
-
-/**
- * Auto-generated logo component: Abstract8 (shapes)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract8ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -6175,12 +6661,6 @@ declare const Abstract8ShapesMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
-/**
- * Auto-generated logo component: Abstract89 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract89ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -6195,12 +6675,6 @@ declare const Abstract89ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 20";
 };
-
-/**
- * Auto-generated logo component: Abstract88 (shapes)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract88ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -6217,12 +6691,6 @@ declare const Abstract88ShapesMetadata: {
     readonly viewBox: "0 0 23 23";
 };
 
-/**
- * Auto-generated logo component: Abstract87 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract87ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -6237,12 +6705,6 @@ declare const Abstract87ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 23 23";
 };
-
-/**
- * Auto-generated logo component: Abstract86 (shapes)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract86ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -6259,12 +6721,6 @@ declare const Abstract86ShapesMetadata: {
     readonly viewBox: "0 0 23 23";
 };
 
-/**
- * Auto-generated logo component: Abstract85 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract85ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -6279,12 +6735,6 @@ declare const Abstract85ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 23 23";
 };
-
-/**
- * Auto-generated logo component: Abstract84 (shapes)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract84ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -6301,12 +6751,6 @@ declare const Abstract84ShapesMetadata: {
     readonly viewBox: "0 0 23 23";
 };
 
-/**
- * Auto-generated logo component: Abstract83 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract83ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -6321,12 +6765,6 @@ declare const Abstract83ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 23 23";
 };
-
-/**
- * Auto-generated logo component: Abstract82 (shapes)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract82ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -6343,12 +6781,6 @@ declare const Abstract82ShapesMetadata: {
     readonly viewBox: "0 0 23 21";
 };
 
-/**
- * Auto-generated logo component: Abstract81 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract81ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -6363,12 +6795,6 @@ declare const Abstract81ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 23";
 };
-
-/**
- * Auto-generated logo component: Abstract80 (shapes)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract80ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -6385,12 +6811,6 @@ declare const Abstract80ShapesMetadata: {
     readonly viewBox: "0 0 23 21";
 };
 
-/**
- * Auto-generated logo component: Abstract7 (sketch)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract7SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -6405,12 +6825,6 @@ declare const Abstract7SketchMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 446 446";
 };
-
-/**
- * Auto-generated logo component: Abstract7 (shapes)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract7ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -6427,12 +6841,6 @@ declare const Abstract7ShapesMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
-/**
- * Auto-generated logo component: Abstract79 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract79ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -6447,12 +6855,6 @@ declare const Abstract79ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 20";
 };
-
-/**
- * Auto-generated logo component: Abstract78 (shapes)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract78ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -6469,12 +6871,6 @@ declare const Abstract78ShapesMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
-/**
- * Auto-generated logo component: Abstract77 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract77ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -6489,12 +6885,6 @@ declare const Abstract77ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 23 23";
 };
-
-/**
- * Auto-generated logo component: Abstract76 (shapes)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract76ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -6511,12 +6901,6 @@ declare const Abstract76ShapesMetadata: {
     readonly viewBox: "0 0 23 23";
 };
 
-/**
- * Auto-generated logo component: Abstract75 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract75ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -6531,12 +6915,6 @@ declare const Abstract75ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Abstract74 (shapes)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract74ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -6553,12 +6931,6 @@ declare const Abstract74ShapesMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
-/**
- * Auto-generated logo component: Abstract73 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract73ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -6573,12 +6945,6 @@ declare const Abstract73ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 10";
 };
-
-/**
- * Auto-generated logo component: Abstract72 (shapes)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract72ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -6595,12 +6961,6 @@ declare const Abstract72ShapesMetadata: {
     readonly viewBox: "0 0 24 21";
 };
 
-/**
- * Auto-generated logo component: Abstract71 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract71ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -6615,12 +6975,6 @@ declare const Abstract71ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 23";
 };
-
-/**
- * Auto-generated logo component: Abstract70 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract70SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -6637,12 +6991,6 @@ declare const Abstract70SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract70 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract70ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -6657,12 +7005,6 @@ declare const Abstract70ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Abstract6 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract6SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -6679,12 +7021,6 @@ declare const Abstract6SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract6 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract6ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -6699,12 +7035,6 @@ declare const Abstract6ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Abstract69 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract69SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -6721,12 +7051,6 @@ declare const Abstract69SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract69 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract69ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -6741,12 +7065,6 @@ declare const Abstract69ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Abstract68 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract68SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -6763,12 +7081,6 @@ declare const Abstract68SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract68 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract68ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -6783,12 +7095,6 @@ declare const Abstract68ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 20";
 };
-
-/**
- * Auto-generated logo component: Abstract67 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract67SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -6805,12 +7111,6 @@ declare const Abstract67SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract67 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract67ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -6825,12 +7125,6 @@ declare const Abstract67ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Abstract66 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract66SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -6847,12 +7141,6 @@ declare const Abstract66SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract66 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract66ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -6867,12 +7155,6 @@ declare const Abstract66ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 23";
 };
-
-/**
- * Auto-generated logo component: Abstract65 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract65SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -6889,12 +7171,6 @@ declare const Abstract65SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract65 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract65ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -6909,12 +7185,6 @@ declare const Abstract65ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Abstract64 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract64SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -6931,12 +7201,6 @@ declare const Abstract64SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract64 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract64ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -6951,12 +7215,6 @@ declare const Abstract64ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Abstract63 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract63SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -6973,12 +7231,6 @@ declare const Abstract63SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract63 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract63ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -6993,12 +7245,6 @@ declare const Abstract63ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Abstract62 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract62SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -7015,12 +7261,6 @@ declare const Abstract62SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract62 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract62ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -7035,12 +7275,6 @@ declare const Abstract62ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Abstract61 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract61SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -7057,12 +7291,6 @@ declare const Abstract61SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract61 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract61ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -7077,12 +7305,6 @@ declare const Abstract61ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Abstract60 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract60SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -7099,12 +7321,6 @@ declare const Abstract60SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract60 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract60ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -7119,12 +7335,6 @@ declare const Abstract60ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 21 24";
 };
-
-/**
- * Auto-generated logo component: Abstract5 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract5SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -7141,12 +7351,6 @@ declare const Abstract5SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract5 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract5ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -7161,12 +7365,6 @@ declare const Abstract5ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Abstract59 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract59SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -7183,12 +7381,6 @@ declare const Abstract59SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract59 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract59ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -7203,12 +7395,6 @@ declare const Abstract59ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Abstract58 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract58SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -7225,12 +7411,6 @@ declare const Abstract58SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract58 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract58ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -7245,12 +7425,6 @@ declare const Abstract58ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Abstract57 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract57SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -7267,12 +7441,6 @@ declare const Abstract57SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract57 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract57ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -7287,12 +7455,6 @@ declare const Abstract57ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 21 23";
 };
-
-/**
- * Auto-generated logo component: Abstract56 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract56SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -7309,12 +7471,6 @@ declare const Abstract56SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract56 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract56ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -7329,12 +7485,6 @@ declare const Abstract56ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Abstract55 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract55SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -7351,12 +7501,6 @@ declare const Abstract55SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract55 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract55ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -7371,12 +7515,6 @@ declare const Abstract55ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Abstract54 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract54SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -7393,12 +7531,6 @@ declare const Abstract54SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract54 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract54ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -7413,12 +7545,6 @@ declare const Abstract54ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Abstract53 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract53SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -7435,12 +7561,6 @@ declare const Abstract53SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract53 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract53ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -7455,12 +7575,6 @@ declare const Abstract53ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Abstract52 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract52SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -7477,12 +7591,6 @@ declare const Abstract52SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract52 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract52ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -7497,12 +7605,6 @@ declare const Abstract52ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Abstract51 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract51SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -7519,12 +7621,6 @@ declare const Abstract51SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract51 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract51ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -7539,12 +7635,6 @@ declare const Abstract51ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Abstract50 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract50SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -7561,12 +7651,6 @@ declare const Abstract50SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract50 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract50ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -7581,12 +7665,6 @@ declare const Abstract50ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Abstract4 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract4SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -7603,12 +7681,6 @@ declare const Abstract4SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract4 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract4ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -7623,12 +7695,6 @@ declare const Abstract4ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 23 24";
 };
-
-/**
- * Auto-generated logo component: Abstract49 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract49SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -7645,12 +7711,6 @@ declare const Abstract49SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract49 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract49ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -7665,12 +7725,6 @@ declare const Abstract49ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Abstract48 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract48SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -7687,12 +7741,6 @@ declare const Abstract48SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract48 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract48ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -7707,12 +7755,6 @@ declare const Abstract48ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Abstract47 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract47SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -7729,12 +7771,6 @@ declare const Abstract47SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract47 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract47ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -7749,12 +7785,6 @@ declare const Abstract47ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Abstract46 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract46SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -7771,12 +7801,6 @@ declare const Abstract46SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract46 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract46ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -7791,12 +7815,6 @@ declare const Abstract46ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Abstract45 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract45SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -7813,12 +7831,6 @@ declare const Abstract45SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract45 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract45ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -7833,12 +7845,6 @@ declare const Abstract45ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 23 24";
 };
-
-/**
- * Auto-generated logo component: Abstract44 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract44SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -7855,12 +7861,6 @@ declare const Abstract44SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract44 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract44ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -7875,12 +7875,6 @@ declare const Abstract44ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Abstract43 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract43SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -7897,12 +7891,6 @@ declare const Abstract43SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract43 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract43ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -7917,12 +7905,6 @@ declare const Abstract43ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 25 25";
 };
-
-/**
- * Auto-generated logo component: Abstract42 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract42SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -7939,12 +7921,6 @@ declare const Abstract42SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract42 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract42ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -7959,12 +7935,6 @@ declare const Abstract42ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Abstract41 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract41SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -7981,12 +7951,6 @@ declare const Abstract41SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract41 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract41ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -8001,12 +7965,6 @@ declare const Abstract41ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Abstract40 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract40SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -8023,12 +7981,6 @@ declare const Abstract40SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract40 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract40ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -8043,12 +7995,6 @@ declare const Abstract40ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 22 24";
 };
-
-/**
- * Auto-generated logo component: Abstract3 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract3SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -8065,12 +8011,6 @@ declare const Abstract3SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract3 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract3ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -8085,12 +8025,6 @@ declare const Abstract3ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Abstract39 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract39SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -8107,12 +8041,6 @@ declare const Abstract39SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract39 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract39ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -8127,12 +8055,6 @@ declare const Abstract39ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Abstract38 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract38SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -8149,12 +8071,6 @@ declare const Abstract38SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract38 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract38ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -8169,12 +8085,6 @@ declare const Abstract38ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Abstract37 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract37SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -8191,12 +8101,6 @@ declare const Abstract37SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract37 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract37ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -8211,12 +8115,6 @@ declare const Abstract37ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Abstract36 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract36SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -8233,12 +8131,6 @@ declare const Abstract36SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract36 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract36ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -8253,12 +8145,6 @@ declare const Abstract36ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Abstract35 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract35SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -8275,12 +8161,6 @@ declare const Abstract35SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract35 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract35ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -8295,12 +8175,6 @@ declare const Abstract35ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Abstract34 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract34SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -8317,12 +8191,6 @@ declare const Abstract34SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract34 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract34ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -8337,12 +8205,6 @@ declare const Abstract34ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Abstract33 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract33SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -8359,12 +8221,6 @@ declare const Abstract33SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract33 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract33ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -8379,12 +8235,6 @@ declare const Abstract33ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Abstract32 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract32SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -8401,12 +8251,6 @@ declare const Abstract32SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract32 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract32ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -8421,12 +8265,6 @@ declare const Abstract32ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Abstract31 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract31SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -8443,12 +8281,6 @@ declare const Abstract31SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract31 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract31ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -8463,12 +8295,6 @@ declare const Abstract31ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Abstract30 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract30SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -8485,12 +8311,6 @@ declare const Abstract30SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract30 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract30ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -8505,12 +8325,6 @@ declare const Abstract30ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Abstract2 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract2SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -8527,12 +8341,6 @@ declare const Abstract2SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract2 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract2ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -8547,12 +8355,6 @@ declare const Abstract2ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Abstract29 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract29SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -8569,12 +8371,6 @@ declare const Abstract29SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract29 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract29ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -8589,12 +8385,6 @@ declare const Abstract29ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Abstract28 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract28SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -8611,12 +8401,6 @@ declare const Abstract28SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract28 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract28ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -8631,12 +8415,6 @@ declare const Abstract28ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Abstract27 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract27SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -8653,12 +8431,6 @@ declare const Abstract27SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract27 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract27ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -8673,12 +8445,6 @@ declare const Abstract27ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Abstract26 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract26SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -8695,12 +8461,6 @@ declare const Abstract26SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract26 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract26ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -8715,12 +8475,6 @@ declare const Abstract26ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 21 24";
 };
-
-/**
- * Auto-generated logo component: Abstract25 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract25SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -8737,12 +8491,6 @@ declare const Abstract25SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract25 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract25ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -8757,12 +8505,6 @@ declare const Abstract25ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 23";
 };
-
-/**
- * Auto-generated logo component: Abstract24 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract24SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -8779,12 +8521,6 @@ declare const Abstract24SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract24 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract24ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -8799,12 +8535,6 @@ declare const Abstract24ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Abstract23 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract23SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -8821,12 +8551,6 @@ declare const Abstract23SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract23 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract23ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -8841,12 +8565,6 @@ declare const Abstract23ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Abstract22 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract22SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -8863,12 +8581,6 @@ declare const Abstract22SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract22 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract22ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -8883,12 +8595,6 @@ declare const Abstract22ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 23 24";
 };
-
-/**
- * Auto-generated logo component: Abstract21 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract21SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -8905,12 +8611,6 @@ declare const Abstract21SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract21 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract21ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -8925,12 +8625,6 @@ declare const Abstract21ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Abstract20 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract20SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -8947,12 +8641,6 @@ declare const Abstract20SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract20 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract20ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -8967,12 +8655,6 @@ declare const Abstract20ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 17";
 };
-
-/**
- * Auto-generated logo component: Abstract1 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract1SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -8989,12 +8671,6 @@ declare const Abstract1SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract1 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract1ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -9009,12 +8685,6 @@ declare const Abstract1ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Abstract19 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract19SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -9031,12 +8701,6 @@ declare const Abstract19SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract19 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract19ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -9051,12 +8715,6 @@ declare const Abstract19ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Abstract18 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract18SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -9073,12 +8731,6 @@ declare const Abstract18SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract18 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract18ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -9093,12 +8745,6 @@ declare const Abstract18ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Abstract17 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract17SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -9115,12 +8761,6 @@ declare const Abstract17SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract17 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract17ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -9135,12 +8775,6 @@ declare const Abstract17ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Abstract16 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract16SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -9157,12 +8791,6 @@ declare const Abstract16SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract16 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract16ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -9177,12 +8805,6 @@ declare const Abstract16ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Abstract15 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract15SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -9199,12 +8821,6 @@ declare const Abstract15SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract15 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract15ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -9219,12 +8835,6 @@ declare const Abstract15ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Abstract159 (shapes)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract159ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -9241,12 +8851,6 @@ declare const Abstract159ShapesMetadata: {
     readonly viewBox: "0 0 23 23";
 };
 
-/**
- * Auto-generated logo component: Abstract158 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract158ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -9261,12 +8865,6 @@ declare const Abstract158ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 23 24";
 };
-
-/**
- * Auto-generated logo component: Abstract157 (shapes)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract157ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -9283,12 +8881,6 @@ declare const Abstract157ShapesMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
-/**
- * Auto-generated logo component: Abstract156 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract156ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -9303,12 +8895,6 @@ declare const Abstract156ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Abstract155 (shapes)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract155ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -9325,12 +8911,6 @@ declare const Abstract155ShapesMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
-/**
- * Auto-generated logo component: Abstract154 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract154ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -9345,12 +8925,6 @@ declare const Abstract154ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Abstract153 (shapes)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract153ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -9367,12 +8941,6 @@ declare const Abstract153ShapesMetadata: {
     readonly viewBox: "0 0 23 24";
 };
 
-/**
- * Auto-generated logo component: Abstract152 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract152ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -9387,12 +8955,6 @@ declare const Abstract152ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 23 24";
 };
-
-/**
- * Auto-generated logo component: Abstract151 (shapes)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract151ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -9409,12 +8971,6 @@ declare const Abstract151ShapesMetadata: {
     readonly viewBox: "0 0 20 24";
 };
 
-/**
- * Auto-generated logo component: Abstract150 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract150ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -9429,12 +8985,6 @@ declare const Abstract150ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 23 24";
 };
-
-/**
- * Auto-generated logo component: Abstract14 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract14SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -9451,12 +9001,6 @@ declare const Abstract14SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract14 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract14ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -9471,12 +9015,6 @@ declare const Abstract14ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 21 24";
 };
-
-/**
- * Auto-generated logo component: Abstract149 (shapes)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract149ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -9493,12 +9031,6 @@ declare const Abstract149ShapesMetadata: {
     readonly viewBox: "0 0 24 20";
 };
 
-/**
- * Auto-generated logo component: Abstract148 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract148ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -9513,12 +9045,6 @@ declare const Abstract148ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 22";
 };
-
-/**
- * Auto-generated logo component: Abstract147 (shapes)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract147ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -9535,12 +9061,6 @@ declare const Abstract147ShapesMetadata: {
     readonly viewBox: "0 0 23 24";
 };
 
-/**
- * Auto-generated logo component: Abstract146 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract146ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -9555,12 +9075,6 @@ declare const Abstract146ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Abstract145 (shapes)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract145ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -9577,12 +9091,6 @@ declare const Abstract145ShapesMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
-/**
- * Auto-generated logo component: Abstract144 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract144ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -9597,12 +9105,6 @@ declare const Abstract144ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 23 23";
 };
-
-/**
- * Auto-generated logo component: Abstract143 (shapes)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract143ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -9619,12 +9121,6 @@ declare const Abstract143ShapesMetadata: {
     readonly viewBox: "0 0 21 24";
 };
 
-/**
- * Auto-generated logo component: Abstract142 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract142ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -9639,12 +9135,6 @@ declare const Abstract142ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 25 24";
 };
-
-/**
- * Auto-generated logo component: Abstract141 (shapes)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract141ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -9661,12 +9151,6 @@ declare const Abstract141ShapesMetadata: {
     readonly viewBox: "0 0 21 24";
 };
 
-/**
- * Auto-generated logo component: Abstract140 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract140ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -9681,12 +9165,6 @@ declare const Abstract140ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Abstract13 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract13SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -9703,12 +9181,6 @@ declare const Abstract13SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract13 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract13ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -9723,12 +9195,6 @@ declare const Abstract13ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Abstract139 (shapes)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract139ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -9745,12 +9211,6 @@ declare const Abstract139ShapesMetadata: {
     readonly viewBox: "0 0 20 24";
 };
 
-/**
- * Auto-generated logo component: Abstract138 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract138ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -9765,12 +9225,6 @@ declare const Abstract138ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 23 24";
 };
-
-/**
- * Auto-generated logo component: Abstract137 (shapes)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract137ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -9787,12 +9241,6 @@ declare const Abstract137ShapesMetadata: {
     readonly viewBox: "0 0 24 23";
 };
 
-/**
- * Auto-generated logo component: Abstract136 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract136ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -9807,12 +9255,6 @@ declare const Abstract136ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 23 17";
 };
-
-/**
- * Auto-generated logo component: Abstract135 (shapes)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract135ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -9829,12 +9271,6 @@ declare const Abstract135ShapesMetadata: {
     readonly viewBox: "0 0 19 23";
 };
 
-/**
- * Auto-generated logo component: Abstract134 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract134ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -9849,12 +9285,6 @@ declare const Abstract134ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 14";
 };
-
-/**
- * Auto-generated logo component: Abstract133 (shapes)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract133ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -9871,12 +9301,6 @@ declare const Abstract133ShapesMetadata: {
     readonly viewBox: "0 0 23 24";
 };
 
-/**
- * Auto-generated logo component: Abstract132 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract132ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -9891,12 +9315,6 @@ declare const Abstract132ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 23 23";
 };
-
-/**
- * Auto-generated logo component: Abstract131 (shapes)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract131ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -9913,12 +9331,6 @@ declare const Abstract131ShapesMetadata: {
     readonly viewBox: "0 0 23 23";
 };
 
-/**
- * Auto-generated logo component: Abstract130 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract130ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -9933,12 +9345,6 @@ declare const Abstract130ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 23 23";
 };
-
-/**
- * Auto-generated logo component: Abstract12 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract12SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -9955,12 +9361,6 @@ declare const Abstract12SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract12 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract12ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -9975,12 +9375,6 @@ declare const Abstract12ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Abstract129 (shapes)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract129ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -9997,12 +9391,6 @@ declare const Abstract129ShapesMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
-/**
- * Auto-generated logo component: Abstract128 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract128ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -10017,12 +9405,6 @@ declare const Abstract128ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 20";
 };
-
-/**
- * Auto-generated logo component: Abstract127 (shapes)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract127ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -10039,12 +9421,6 @@ declare const Abstract127ShapesMetadata: {
     readonly viewBox: "0 0 24 24";
 };
 
-/**
- * Auto-generated logo component: Abstract126 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract126ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -10059,12 +9435,6 @@ declare const Abstract126ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 23 23";
 };
-
-/**
- * Auto-generated logo component: Abstract125 (shapes)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract125ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -10081,12 +9451,6 @@ declare const Abstract125ShapesMetadata: {
     readonly viewBox: "0 0 23 23";
 };
 
-/**
- * Auto-generated logo component: Abstract124 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract124ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -10101,12 +9465,6 @@ declare const Abstract124ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 23 23";
 };
-
-/**
- * Auto-generated logo component: Abstract123 (shapes)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract123ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -10123,12 +9481,6 @@ declare const Abstract123ShapesMetadata: {
     readonly viewBox: "0 0 23 23";
 };
 
-/**
- * Auto-generated logo component: Abstract122 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract122ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -10143,12 +9495,6 @@ declare const Abstract122ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 19";
 };
-
-/**
- * Auto-generated logo component: Abstract121 (shapes)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract121ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -10165,12 +9511,6 @@ declare const Abstract121ShapesMetadata: {
     readonly viewBox: "0 0 24 22";
 };
 
-/**
- * Auto-generated logo component: Abstract120 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract120ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -10185,12 +9525,6 @@ declare const Abstract120ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 23 24";
 };
-
-/**
- * Auto-generated logo component: Abstract11 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract11SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -10207,12 +9541,6 @@ declare const Abstract11SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract11 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract11ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -10227,12 +9555,6 @@ declare const Abstract11ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Abstract119 (shapes)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract119ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -10249,12 +9571,6 @@ declare const Abstract119ShapesMetadata: {
     readonly viewBox: "0 0 23 23";
 };
 
-/**
- * Auto-generated logo component: Abstract118 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract118ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -10269,12 +9585,6 @@ declare const Abstract118ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 23 23";
 };
-
-/**
- * Auto-generated logo component: Abstract117 (shapes)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract117ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -10291,12 +9601,6 @@ declare const Abstract117ShapesMetadata: {
     readonly viewBox: "0 0 23 23";
 };
 
-/**
- * Auto-generated logo component: Abstract116 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract116ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -10311,12 +9615,6 @@ declare const Abstract116ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 23 23";
 };
-
-/**
- * Auto-generated logo component: Abstract115 (shapes)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract115ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -10333,12 +9631,6 @@ declare const Abstract115ShapesMetadata: {
     readonly viewBox: "0 0 23 23";
 };
 
-/**
- * Auto-generated logo component: Abstract114 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract114ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -10353,12 +9645,6 @@ declare const Abstract114ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 24";
 };
-
-/**
- * Auto-generated logo component: Abstract113 (shapes)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract113ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -10375,12 +9661,6 @@ declare const Abstract113ShapesMetadata: {
     readonly viewBox: "0 0 23 23";
 };
 
-/**
- * Auto-generated logo component: Abstract112 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract112ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -10395,12 +9675,6 @@ declare const Abstract112ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 23 23";
 };
-
-/**
- * Auto-generated logo component: Abstract111 (shapes)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract111ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -10417,12 +9691,6 @@ declare const Abstract111ShapesMetadata: {
     readonly viewBox: "0 0 23 23";
 };
 
-/**
- * Auto-generated logo component: Abstract110 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract110ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -10437,12 +9705,6 @@ declare const Abstract110ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 23 24";
 };
-
-/**
- * Auto-generated logo component: Abstract10 (sketch)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract10SketchProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -10459,12 +9721,6 @@ declare const Abstract10SketchMetadata: {
     readonly viewBox: "0 0 446 446";
 };
 
-/**
- * Auto-generated logo component: Abstract10 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract10ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -10479,12 +9735,6 @@ declare const Abstract10ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 24 23";
 };
-
-/**
- * Auto-generated logo component: Abstract109 (shapes)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract109ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -10501,12 +9751,6 @@ declare const Abstract109ShapesMetadata: {
     readonly viewBox: "0 0 24 23";
 };
 
-/**
- * Auto-generated logo component: Abstract108 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract108ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -10521,12 +9765,6 @@ declare const Abstract108ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 23 23";
 };
-
-/**
- * Auto-generated logo component: Abstract107 (shapes)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract107ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -10543,12 +9781,6 @@ declare const Abstract107ShapesMetadata: {
     readonly viewBox: "0 0 24 20";
 };
 
-/**
- * Auto-generated logo component: Abstract106 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract106ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -10563,12 +9795,6 @@ declare const Abstract106ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 23 23";
 };
-
-/**
- * Auto-generated logo component: Abstract105 (shapes)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract105ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -10585,12 +9811,6 @@ declare const Abstract105ShapesMetadata: {
     readonly viewBox: "0 0 23 23";
 };
 
-/**
- * Auto-generated logo component: Abstract104 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract104ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -10605,12 +9825,6 @@ declare const Abstract104ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 23 23";
 };
-
-/**
- * Auto-generated logo component: Abstract103 (shapes)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract103ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -10627,12 +9841,6 @@ declare const Abstract103ShapesMetadata: {
     readonly viewBox: "0 0 25 18";
 };
 
-/**
- * Auto-generated logo component: Abstract102 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract102ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -10648,12 +9856,6 @@ declare const Abstract102ShapesMetadata: {
     readonly viewBox: "0 0 24 23";
 };
 
-/**
- * Auto-generated logo component: Abstract101 (shapes)
- * Category: abstract
- * Do not edit manually
- */
-
 interface Abstract101ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
@@ -10668,12 +9870,6 @@ declare const Abstract101ShapesMetadata: {
     readonly tags: readonly [];
     readonly viewBox: "0 0 23 23";
 };
-
-/**
- * Auto-generated logo component: Abstract100 (shapes)
- * Category: abstract
- * Do not edit manually
- */
 
 interface Abstract100ShapesProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
@@ -16651,6 +15847,1808 @@ declare const allVectors: {
             };
         };
     };
+    readonly scribble: {
+        readonly Scribble100Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble100SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble100_sketch";
+                readonly baseId: "scribble100";
+                readonly variant: "sketch";
+                readonly name: "Scribble100";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble101Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble101SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble101_sketch";
+                readonly baseId: "scribble101";
+                readonly variant: "sketch";
+                readonly name: "Scribble101";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble102Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble102SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble102_sketch";
+                readonly baseId: "scribble102";
+                readonly variant: "sketch";
+                readonly name: "Scribble102";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble103Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble103SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble103_sketch";
+                readonly baseId: "scribble103";
+                readonly variant: "sketch";
+                readonly name: "Scribble103";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble104Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble104SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble104_sketch";
+                readonly baseId: "scribble104";
+                readonly variant: "sketch";
+                readonly name: "Scribble104";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble105Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble105SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble105_sketch";
+                readonly baseId: "scribble105";
+                readonly variant: "sketch";
+                readonly name: "Scribble105";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble106Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble106SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble106_sketch";
+                readonly baseId: "scribble106";
+                readonly variant: "sketch";
+                readonly name: "Scribble106";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble107Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble107SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble107_sketch";
+                readonly baseId: "scribble107";
+                readonly variant: "sketch";
+                readonly name: "Scribble107";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble108Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble108SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble108_sketch";
+                readonly baseId: "scribble108";
+                readonly variant: "sketch";
+                readonly name: "Scribble108";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble109Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble109SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble109_sketch";
+                readonly baseId: "scribble109";
+                readonly variant: "sketch";
+                readonly name: "Scribble109";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble10Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble10SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble10_sketch";
+                readonly baseId: "scribble10";
+                readonly variant: "sketch";
+                readonly name: "Scribble10";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble110Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble110SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble110_sketch";
+                readonly baseId: "scribble110";
+                readonly variant: "sketch";
+                readonly name: "Scribble110";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble111Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble111SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble111_sketch";
+                readonly baseId: "scribble111";
+                readonly variant: "sketch";
+                readonly name: "Scribble111";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble112Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble112SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble112_sketch";
+                readonly baseId: "scribble112";
+                readonly variant: "sketch";
+                readonly name: "Scribble112";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble113Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble113SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble113_sketch";
+                readonly baseId: "scribble113";
+                readonly variant: "sketch";
+                readonly name: "Scribble113";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble114Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble114SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble114_sketch";
+                readonly baseId: "scribble114";
+                readonly variant: "sketch";
+                readonly name: "Scribble114";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble115Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble115SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble115_sketch";
+                readonly baseId: "scribble115";
+                readonly variant: "sketch";
+                readonly name: "Scribble115";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble116Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble116SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble116_sketch";
+                readonly baseId: "scribble116";
+                readonly variant: "sketch";
+                readonly name: "Scribble116";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble117Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble117SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble117_sketch";
+                readonly baseId: "scribble117";
+                readonly variant: "sketch";
+                readonly name: "Scribble117";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble118Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble118SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble118_sketch";
+                readonly baseId: "scribble118";
+                readonly variant: "sketch";
+                readonly name: "Scribble118";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble119Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble119SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble119_sketch";
+                readonly baseId: "scribble119";
+                readonly variant: "sketch";
+                readonly name: "Scribble119";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble11Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble11SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble11_sketch";
+                readonly baseId: "scribble11";
+                readonly variant: "sketch";
+                readonly name: "Scribble11";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble120Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble120SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble120_sketch";
+                readonly baseId: "scribble120";
+                readonly variant: "sketch";
+                readonly name: "Scribble120";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble121Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble121SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble121_sketch";
+                readonly baseId: "scribble121";
+                readonly variant: "sketch";
+                readonly name: "Scribble121";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble122Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble122SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble122_sketch";
+                readonly baseId: "scribble122";
+                readonly variant: "sketch";
+                readonly name: "Scribble122";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble123Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble123SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble123_sketch";
+                readonly baseId: "scribble123";
+                readonly variant: "sketch";
+                readonly name: "Scribble123";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble124Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble124SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble124_sketch";
+                readonly baseId: "scribble124";
+                readonly variant: "sketch";
+                readonly name: "Scribble124";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble125Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble125SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble125_sketch";
+                readonly baseId: "scribble125";
+                readonly variant: "sketch";
+                readonly name: "Scribble125";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble126Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble126SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble126_sketch";
+                readonly baseId: "scribble126";
+                readonly variant: "sketch";
+                readonly name: "Scribble126";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble127Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble127SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble127_sketch";
+                readonly baseId: "scribble127";
+                readonly variant: "sketch";
+                readonly name: "Scribble127";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble128Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble128SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble128_sketch";
+                readonly baseId: "scribble128";
+                readonly variant: "sketch";
+                readonly name: "Scribble128";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble129Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble129SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble129_sketch";
+                readonly baseId: "scribble129";
+                readonly variant: "sketch";
+                readonly name: "Scribble129";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble12Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble12SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble12_sketch";
+                readonly baseId: "scribble12";
+                readonly variant: "sketch";
+                readonly name: "Scribble12";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble130Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble130SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble130_sketch";
+                readonly baseId: "scribble130";
+                readonly variant: "sketch";
+                readonly name: "Scribble130";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble131Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble131SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble131_sketch";
+                readonly baseId: "scribble131";
+                readonly variant: "sketch";
+                readonly name: "Scribble131";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble132Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble132SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble132_sketch";
+                readonly baseId: "scribble132";
+                readonly variant: "sketch";
+                readonly name: "Scribble132";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble133Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble133SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble133_sketch";
+                readonly baseId: "scribble133";
+                readonly variant: "sketch";
+                readonly name: "Scribble133";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble134Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble134SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble134_sketch";
+                readonly baseId: "scribble134";
+                readonly variant: "sketch";
+                readonly name: "Scribble134";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble135Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble135SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble135_sketch";
+                readonly baseId: "scribble135";
+                readonly variant: "sketch";
+                readonly name: "Scribble135";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble136Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble136SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble136_sketch";
+                readonly baseId: "scribble136";
+                readonly variant: "sketch";
+                readonly name: "Scribble136";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble137Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble137SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble137_sketch";
+                readonly baseId: "scribble137";
+                readonly variant: "sketch";
+                readonly name: "Scribble137";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble138Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble138SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble138_sketch";
+                readonly baseId: "scribble138";
+                readonly variant: "sketch";
+                readonly name: "Scribble138";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble139Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble139SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble139_sketch";
+                readonly baseId: "scribble139";
+                readonly variant: "sketch";
+                readonly name: "Scribble139";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble13Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble13SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble13_sketch";
+                readonly baseId: "scribble13";
+                readonly variant: "sketch";
+                readonly name: "Scribble13";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble140Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble140SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble140_sketch";
+                readonly baseId: "scribble140";
+                readonly variant: "sketch";
+                readonly name: "Scribble140";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble141Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble141SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble141_sketch";
+                readonly baseId: "scribble141";
+                readonly variant: "sketch";
+                readonly name: "Scribble141";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble142Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble142SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble142_sketch";
+                readonly baseId: "scribble142";
+                readonly variant: "sketch";
+                readonly name: "Scribble142";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble143Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble143SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble143_sketch";
+                readonly baseId: "scribble143";
+                readonly variant: "sketch";
+                readonly name: "Scribble143";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble144Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble144SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble144_sketch";
+                readonly baseId: "scribble144";
+                readonly variant: "sketch";
+                readonly name: "Scribble144";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble145Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble145SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble145_sketch";
+                readonly baseId: "scribble145";
+                readonly variant: "sketch";
+                readonly name: "Scribble145";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble146Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble146SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble146_sketch";
+                readonly baseId: "scribble146";
+                readonly variant: "sketch";
+                readonly name: "Scribble146";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble147Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble147SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble147_sketch";
+                readonly baseId: "scribble147";
+                readonly variant: "sketch";
+                readonly name: "Scribble147";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble148Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble148SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble148_sketch";
+                readonly baseId: "scribble148";
+                readonly variant: "sketch";
+                readonly name: "Scribble148";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble149Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble149SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble149_sketch";
+                readonly baseId: "scribble149";
+                readonly variant: "sketch";
+                readonly name: "Scribble149";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble14Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble14SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble14_sketch";
+                readonly baseId: "scribble14";
+                readonly variant: "sketch";
+                readonly name: "Scribble14";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble150Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble150SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble150_sketch";
+                readonly baseId: "scribble150";
+                readonly variant: "sketch";
+                readonly name: "Scribble150";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble15Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble15SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble15_sketch";
+                readonly baseId: "scribble15";
+                readonly variant: "sketch";
+                readonly name: "Scribble15";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble16Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble16SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble16_sketch";
+                readonly baseId: "scribble16";
+                readonly variant: "sketch";
+                readonly name: "Scribble16";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble17Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble17SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble17_sketch";
+                readonly baseId: "scribble17";
+                readonly variant: "sketch";
+                readonly name: "Scribble17";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble18Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble18SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble18_sketch";
+                readonly baseId: "scribble18";
+                readonly variant: "sketch";
+                readonly name: "Scribble18";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble19Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble19SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble19_sketch";
+                readonly baseId: "scribble19";
+                readonly variant: "sketch";
+                readonly name: "Scribble19";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble1Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble1SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble1_sketch";
+                readonly baseId: "scribble1";
+                readonly variant: "sketch";
+                readonly name: "Scribble1";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble20Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble20SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble20_sketch";
+                readonly baseId: "scribble20";
+                readonly variant: "sketch";
+                readonly name: "Scribble20";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble21Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble21SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble21_sketch";
+                readonly baseId: "scribble21";
+                readonly variant: "sketch";
+                readonly name: "Scribble21";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble22Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble22SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble22_sketch";
+                readonly baseId: "scribble22";
+                readonly variant: "sketch";
+                readonly name: "Scribble22";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble23Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble23SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble23_sketch";
+                readonly baseId: "scribble23";
+                readonly variant: "sketch";
+                readonly name: "Scribble23";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble24Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble24SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble24_sketch";
+                readonly baseId: "scribble24";
+                readonly variant: "sketch";
+                readonly name: "Scribble24";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble25Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble25SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble25_sketch";
+                readonly baseId: "scribble25";
+                readonly variant: "sketch";
+                readonly name: "Scribble25";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble26Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble26SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble26_sketch";
+                readonly baseId: "scribble26";
+                readonly variant: "sketch";
+                readonly name: "Scribble26";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble27Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble27SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble27_sketch";
+                readonly baseId: "scribble27";
+                readonly variant: "sketch";
+                readonly name: "Scribble27";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble28Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble28SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble28_sketch";
+                readonly baseId: "scribble28";
+                readonly variant: "sketch";
+                readonly name: "Scribble28";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble29Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble29SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble29_sketch";
+                readonly baseId: "scribble29";
+                readonly variant: "sketch";
+                readonly name: "Scribble29";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble2Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble2SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble2_sketch";
+                readonly baseId: "scribble2";
+                readonly variant: "sketch";
+                readonly name: "Scribble2";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble30Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble30SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble30_sketch";
+                readonly baseId: "scribble30";
+                readonly variant: "sketch";
+                readonly name: "Scribble30";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble31Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble31SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble31_sketch";
+                readonly baseId: "scribble31";
+                readonly variant: "sketch";
+                readonly name: "Scribble31";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble32Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble32SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble32_sketch";
+                readonly baseId: "scribble32";
+                readonly variant: "sketch";
+                readonly name: "Scribble32";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble33Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble33SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble33_sketch";
+                readonly baseId: "scribble33";
+                readonly variant: "sketch";
+                readonly name: "Scribble33";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble34Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble34SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble34_sketch";
+                readonly baseId: "scribble34";
+                readonly variant: "sketch";
+                readonly name: "Scribble34";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble35Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble35SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble35_sketch";
+                readonly baseId: "scribble35";
+                readonly variant: "sketch";
+                readonly name: "Scribble35";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble36Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble36SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble36_sketch";
+                readonly baseId: "scribble36";
+                readonly variant: "sketch";
+                readonly name: "Scribble36";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble37Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble37SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble37_sketch";
+                readonly baseId: "scribble37";
+                readonly variant: "sketch";
+                readonly name: "Scribble37";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble38Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble38SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble38_sketch";
+                readonly baseId: "scribble38";
+                readonly variant: "sketch";
+                readonly name: "Scribble38";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble39Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble39SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble39_sketch";
+                readonly baseId: "scribble39";
+                readonly variant: "sketch";
+                readonly name: "Scribble39";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble3Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble3SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble3_sketch";
+                readonly baseId: "scribble3";
+                readonly variant: "sketch";
+                readonly name: "Scribble3";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble40Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble40SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble40_sketch";
+                readonly baseId: "scribble40";
+                readonly variant: "sketch";
+                readonly name: "Scribble40";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble41Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble41SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble41_sketch";
+                readonly baseId: "scribble41";
+                readonly variant: "sketch";
+                readonly name: "Scribble41";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble42Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble42SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble42_sketch";
+                readonly baseId: "scribble42";
+                readonly variant: "sketch";
+                readonly name: "Scribble42";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble43Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble43SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble43_sketch";
+                readonly baseId: "scribble43";
+                readonly variant: "sketch";
+                readonly name: "Scribble43";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble44Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble44SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble44_sketch";
+                readonly baseId: "scribble44";
+                readonly variant: "sketch";
+                readonly name: "Scribble44";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble45Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble45SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble45_sketch";
+                readonly baseId: "scribble45";
+                readonly variant: "sketch";
+                readonly name: "Scribble45";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble46Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble46SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble46_sketch";
+                readonly baseId: "scribble46";
+                readonly variant: "sketch";
+                readonly name: "Scribble46";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble47Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble47SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble47_sketch";
+                readonly baseId: "scribble47";
+                readonly variant: "sketch";
+                readonly name: "Scribble47";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble48Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble48SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble48_sketch";
+                readonly baseId: "scribble48";
+                readonly variant: "sketch";
+                readonly name: "Scribble48";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble49Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble49SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble49_sketch";
+                readonly baseId: "scribble49";
+                readonly variant: "sketch";
+                readonly name: "Scribble49";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble4Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble4SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble4_sketch";
+                readonly baseId: "scribble4";
+                readonly variant: "sketch";
+                readonly name: "Scribble4";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble50Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble50SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble50_sketch";
+                readonly baseId: "scribble50";
+                readonly variant: "sketch";
+                readonly name: "Scribble50";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble51Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble51SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble51_sketch";
+                readonly baseId: "scribble51";
+                readonly variant: "sketch";
+                readonly name: "Scribble51";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble52Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble52SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble52_sketch";
+                readonly baseId: "scribble52";
+                readonly variant: "sketch";
+                readonly name: "Scribble52";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble53Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble53SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble53_sketch";
+                readonly baseId: "scribble53";
+                readonly variant: "sketch";
+                readonly name: "Scribble53";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble54Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble54SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble54_sketch";
+                readonly baseId: "scribble54";
+                readonly variant: "sketch";
+                readonly name: "Scribble54";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble55Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble55SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble55_sketch";
+                readonly baseId: "scribble55";
+                readonly variant: "sketch";
+                readonly name: "Scribble55";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble56Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble56SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble56_sketch";
+                readonly baseId: "scribble56";
+                readonly variant: "sketch";
+                readonly name: "Scribble56";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble57Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble57SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble57_sketch";
+                readonly baseId: "scribble57";
+                readonly variant: "sketch";
+                readonly name: "Scribble57";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble58Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble58SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble58_sketch";
+                readonly baseId: "scribble58";
+                readonly variant: "sketch";
+                readonly name: "Scribble58";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble59Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble59SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble59_sketch";
+                readonly baseId: "scribble59";
+                readonly variant: "sketch";
+                readonly name: "Scribble59";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble5Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble5SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble5_sketch";
+                readonly baseId: "scribble5";
+                readonly variant: "sketch";
+                readonly name: "Scribble5";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble60Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble60SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble60_sketch";
+                readonly baseId: "scribble60";
+                readonly variant: "sketch";
+                readonly name: "Scribble60";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble61Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble61SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble61_sketch";
+                readonly baseId: "scribble61";
+                readonly variant: "sketch";
+                readonly name: "Scribble61";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble62Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble62SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble62_sketch";
+                readonly baseId: "scribble62";
+                readonly variant: "sketch";
+                readonly name: "Scribble62";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble63Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble63SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble63_sketch";
+                readonly baseId: "scribble63";
+                readonly variant: "sketch";
+                readonly name: "Scribble63";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble64Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble64SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble64_sketch";
+                readonly baseId: "scribble64";
+                readonly variant: "sketch";
+                readonly name: "Scribble64";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble65Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble65SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble65_sketch";
+                readonly baseId: "scribble65";
+                readonly variant: "sketch";
+                readonly name: "Scribble65";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble66Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble66SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble66_sketch";
+                readonly baseId: "scribble66";
+                readonly variant: "sketch";
+                readonly name: "Scribble66";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble67Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble67SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble67_sketch";
+                readonly baseId: "scribble67";
+                readonly variant: "sketch";
+                readonly name: "Scribble67";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble68Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble68SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble68_sketch";
+                readonly baseId: "scribble68";
+                readonly variant: "sketch";
+                readonly name: "Scribble68";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble69Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble69SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble69_sketch";
+                readonly baseId: "scribble69";
+                readonly variant: "sketch";
+                readonly name: "Scribble69";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble6Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble6SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble6_sketch";
+                readonly baseId: "scribble6";
+                readonly variant: "sketch";
+                readonly name: "Scribble6";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble70Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble70SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble70_sketch";
+                readonly baseId: "scribble70";
+                readonly variant: "sketch";
+                readonly name: "Scribble70";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble71Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble71SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble71_sketch";
+                readonly baseId: "scribble71";
+                readonly variant: "sketch";
+                readonly name: "Scribble71";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble72Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble72SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble72_sketch";
+                readonly baseId: "scribble72";
+                readonly variant: "sketch";
+                readonly name: "Scribble72";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble73Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble73SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble73_sketch";
+                readonly baseId: "scribble73";
+                readonly variant: "sketch";
+                readonly name: "Scribble73";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble74Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble74SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble74_sketch";
+                readonly baseId: "scribble74";
+                readonly variant: "sketch";
+                readonly name: "Scribble74";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble75Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble75SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble75_sketch";
+                readonly baseId: "scribble75";
+                readonly variant: "sketch";
+                readonly name: "Scribble75";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble76Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble76SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble76_sketch";
+                readonly baseId: "scribble76";
+                readonly variant: "sketch";
+                readonly name: "Scribble76";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble77Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble77SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble77_sketch";
+                readonly baseId: "scribble77";
+                readonly variant: "sketch";
+                readonly name: "Scribble77";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble78Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble78SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble78_sketch";
+                readonly baseId: "scribble78";
+                readonly variant: "sketch";
+                readonly name: "Scribble78";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble79Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble79SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble79_sketch";
+                readonly baseId: "scribble79";
+                readonly variant: "sketch";
+                readonly name: "Scribble79";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble7Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble7SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble7_sketch";
+                readonly baseId: "scribble7";
+                readonly variant: "sketch";
+                readonly name: "Scribble7";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble80Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble80SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble80_sketch";
+                readonly baseId: "scribble80";
+                readonly variant: "sketch";
+                readonly name: "Scribble80";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble81Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble81SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble81_sketch";
+                readonly baseId: "scribble81";
+                readonly variant: "sketch";
+                readonly name: "Scribble81";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble82Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble82SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble82_sketch";
+                readonly baseId: "scribble82";
+                readonly variant: "sketch";
+                readonly name: "Scribble82";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble83Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble83SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble83_sketch";
+                readonly baseId: "scribble83";
+                readonly variant: "sketch";
+                readonly name: "Scribble83";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble84Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble84SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble84_sketch";
+                readonly baseId: "scribble84";
+                readonly variant: "sketch";
+                readonly name: "Scribble84";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble85Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble85SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble85_sketch";
+                readonly baseId: "scribble85";
+                readonly variant: "sketch";
+                readonly name: "Scribble85";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble86Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble86SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble86_sketch";
+                readonly baseId: "scribble86";
+                readonly variant: "sketch";
+                readonly name: "Scribble86";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble87Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble87SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble87_sketch";
+                readonly baseId: "scribble87";
+                readonly variant: "sketch";
+                readonly name: "Scribble87";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble88Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble88SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble88_sketch";
+                readonly baseId: "scribble88";
+                readonly variant: "sketch";
+                readonly name: "Scribble88";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble89Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble89SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble89_sketch";
+                readonly baseId: "scribble89";
+                readonly variant: "sketch";
+                readonly name: "Scribble89";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble8Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble8SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble8_sketch";
+                readonly baseId: "scribble8";
+                readonly variant: "sketch";
+                readonly name: "Scribble8";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble90Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble90SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble90_sketch";
+                readonly baseId: "scribble90";
+                readonly variant: "sketch";
+                readonly name: "Scribble90";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble91Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble91SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble91_sketch";
+                readonly baseId: "scribble91";
+                readonly variant: "sketch";
+                readonly name: "Scribble91";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble92Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble92SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble92_sketch";
+                readonly baseId: "scribble92";
+                readonly variant: "sketch";
+                readonly name: "Scribble92";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble93Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble93SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble93_sketch";
+                readonly baseId: "scribble93";
+                readonly variant: "sketch";
+                readonly name: "Scribble93";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble94Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble94SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble94_sketch";
+                readonly baseId: "scribble94";
+                readonly variant: "sketch";
+                readonly name: "Scribble94";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble95Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble95SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble95_sketch";
+                readonly baseId: "scribble95";
+                readonly variant: "sketch";
+                readonly name: "Scribble95";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble96Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble96SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble96_sketch";
+                readonly baseId: "scribble96";
+                readonly variant: "sketch";
+                readonly name: "Scribble96";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble97Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble97SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble97_sketch";
+                readonly baseId: "scribble97";
+                readonly variant: "sketch";
+                readonly name: "Scribble97";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble98Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble98SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble98_sketch";
+                readonly baseId: "scribble98";
+                readonly variant: "sketch";
+                readonly name: "Scribble98";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble99Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble99SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble99_sketch";
+                readonly baseId: "scribble99";
+                readonly variant: "sketch";
+                readonly name: "Scribble99";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+        readonly Scribble9Sketch: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Scribble9SketchProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+            readonly metadata: {
+                readonly id: "scribble9_sketch";
+                readonly baseId: "scribble9";
+                readonly variant: "sketch";
+                readonly name: "Scribble9";
+                readonly category: "scribble";
+                readonly tags: readonly [];
+                readonly viewBox: "0 0 96 96";
+            };
+        };
+    };
     readonly stars: {
         readonly Star10Shapes: {
             readonly Component: React.ForwardRefExoticComponent<Omit<Star10ShapesProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
@@ -16811,4 +17809,4 @@ declare const allVectors: {
     };
 };
 
-export { Abstract100Shapes, Abstract100ShapesMetadata, Abstract101Shapes, Abstract101ShapesMetadata, Abstract102Shapes, Abstract102ShapesMetadata, Abstract103Shapes, Abstract103ShapesMetadata, Abstract104Shapes, Abstract104ShapesMetadata, Abstract105Shapes, Abstract105ShapesMetadata, Abstract106Shapes, Abstract106ShapesMetadata, Abstract107Shapes, Abstract107ShapesMetadata, Abstract108Shapes, Abstract108ShapesMetadata, Abstract109Shapes, Abstract109ShapesMetadata, Abstract10Shapes, Abstract10ShapesMetadata, Abstract10Sketch, Abstract10SketchMetadata, Abstract110Shapes, Abstract110ShapesMetadata, Abstract111Shapes, Abstract111ShapesMetadata, Abstract112Shapes, Abstract112ShapesMetadata, Abstract113Shapes, Abstract113ShapesMetadata, Abstract114Shapes, Abstract114ShapesMetadata, Abstract115Shapes, Abstract115ShapesMetadata, Abstract116Shapes, Abstract116ShapesMetadata, Abstract117Shapes, Abstract117ShapesMetadata, Abstract118Shapes, Abstract118ShapesMetadata, Abstract119Shapes, Abstract119ShapesMetadata, Abstract11Shapes, Abstract11ShapesMetadata, Abstract11Sketch, Abstract11SketchMetadata, Abstract120Shapes, Abstract120ShapesMetadata, Abstract121Shapes, Abstract121ShapesMetadata, Abstract122Shapes, Abstract122ShapesMetadata, Abstract123Shapes, Abstract123ShapesMetadata, Abstract124Shapes, Abstract124ShapesMetadata, Abstract125Shapes, Abstract125ShapesMetadata, Abstract126Shapes, Abstract126ShapesMetadata, Abstract127Shapes, Abstract127ShapesMetadata, Abstract128Shapes, Abstract128ShapesMetadata, Abstract129Shapes, Abstract129ShapesMetadata, Abstract12Shapes, Abstract12ShapesMetadata, Abstract12Sketch, Abstract12SketchMetadata, Abstract130Shapes, Abstract130ShapesMetadata, Abstract131Shapes, Abstract131ShapesMetadata, Abstract132Shapes, Abstract132ShapesMetadata, Abstract133Shapes, Abstract133ShapesMetadata, Abstract134Shapes, Abstract134ShapesMetadata, Abstract135Shapes, Abstract135ShapesMetadata, Abstract136Shapes, Abstract136ShapesMetadata, Abstract137Shapes, Abstract137ShapesMetadata, Abstract138Shapes, Abstract138ShapesMetadata, Abstract139Shapes, Abstract139ShapesMetadata, Abstract13Shapes, Abstract13ShapesMetadata, Abstract13Sketch, Abstract13SketchMetadata, Abstract140Shapes, Abstract140ShapesMetadata, Abstract141Shapes, Abstract141ShapesMetadata, Abstract142Shapes, Abstract142ShapesMetadata, Abstract143Shapes, Abstract143ShapesMetadata, Abstract144Shapes, Abstract144ShapesMetadata, Abstract145Shapes, Abstract145ShapesMetadata, Abstract146Shapes, Abstract146ShapesMetadata, Abstract147Shapes, Abstract147ShapesMetadata, Abstract148Shapes, Abstract148ShapesMetadata, Abstract149Shapes, Abstract149ShapesMetadata, Abstract14Shapes, Abstract14ShapesMetadata, Abstract14Sketch, Abstract14SketchMetadata, Abstract150Shapes, Abstract150ShapesMetadata, Abstract151Shapes, Abstract151ShapesMetadata, Abstract152Shapes, Abstract152ShapesMetadata, Abstract153Shapes, Abstract153ShapesMetadata, Abstract154Shapes, Abstract154ShapesMetadata, Abstract155Shapes, Abstract155ShapesMetadata, Abstract156Shapes, Abstract156ShapesMetadata, Abstract157Shapes, Abstract157ShapesMetadata, Abstract158Shapes, Abstract158ShapesMetadata, Abstract159Shapes, Abstract159ShapesMetadata, Abstract15Shapes, Abstract15ShapesMetadata, Abstract15Sketch, Abstract15SketchMetadata, Abstract16Shapes, Abstract16ShapesMetadata, Abstract16Sketch, Abstract16SketchMetadata, Abstract17Shapes, Abstract17ShapesMetadata, Abstract17Sketch, Abstract17SketchMetadata, Abstract18Shapes, Abstract18ShapesMetadata, Abstract18Sketch, Abstract18SketchMetadata, Abstract19Shapes, Abstract19ShapesMetadata, Abstract19Sketch, Abstract19SketchMetadata, Abstract1Shapes, Abstract1ShapesMetadata, Abstract1Sketch, Abstract1SketchMetadata, Abstract20Shapes, Abstract20ShapesMetadata, Abstract20Sketch, Abstract20SketchMetadata, Abstract21Shapes, Abstract21ShapesMetadata, Abstract21Sketch, Abstract21SketchMetadata, Abstract22Shapes, Abstract22ShapesMetadata, Abstract22Sketch, Abstract22SketchMetadata, Abstract23Shapes, Abstract23ShapesMetadata, Abstract23Sketch, Abstract23SketchMetadata, Abstract24Shapes, Abstract24ShapesMetadata, Abstract24Sketch, Abstract24SketchMetadata, Abstract25Shapes, Abstract25ShapesMetadata, Abstract25Sketch, Abstract25SketchMetadata, Abstract26Shapes, Abstract26ShapesMetadata, Abstract26Sketch, Abstract26SketchMetadata, Abstract27Shapes, Abstract27ShapesMetadata, Abstract27Sketch, Abstract27SketchMetadata, Abstract28Shapes, Abstract28ShapesMetadata, Abstract28Sketch, Abstract28SketchMetadata, Abstract29Shapes, Abstract29ShapesMetadata, Abstract29Sketch, Abstract29SketchMetadata, Abstract2Shapes, Abstract2ShapesMetadata, Abstract2Sketch, Abstract2SketchMetadata, Abstract30Shapes, Abstract30ShapesMetadata, Abstract30Sketch, Abstract30SketchMetadata, Abstract31Shapes, Abstract31ShapesMetadata, Abstract31Sketch, Abstract31SketchMetadata, Abstract32Shapes, Abstract32ShapesMetadata, Abstract32Sketch, Abstract32SketchMetadata, Abstract33Shapes, Abstract33ShapesMetadata, Abstract33Sketch, Abstract33SketchMetadata, Abstract34Shapes, Abstract34ShapesMetadata, Abstract34Sketch, Abstract34SketchMetadata, Abstract35Shapes, Abstract35ShapesMetadata, Abstract35Sketch, Abstract35SketchMetadata, Abstract36Shapes, Abstract36ShapesMetadata, Abstract36Sketch, Abstract36SketchMetadata, Abstract37Shapes, Abstract37ShapesMetadata, Abstract37Sketch, Abstract37SketchMetadata, Abstract38Shapes, Abstract38ShapesMetadata, Abstract38Sketch, Abstract38SketchMetadata, Abstract39Shapes, Abstract39ShapesMetadata, Abstract39Sketch, Abstract39SketchMetadata, Abstract3Shapes, Abstract3ShapesMetadata, Abstract3Sketch, Abstract3SketchMetadata, Abstract40Shapes, Abstract40ShapesMetadata, Abstract40Sketch, Abstract40SketchMetadata, Abstract41Shapes, Abstract41ShapesMetadata, Abstract41Sketch, Abstract41SketchMetadata, Abstract42Shapes, Abstract42ShapesMetadata, Abstract42Sketch, Abstract42SketchMetadata, Abstract43Shapes, Abstract43ShapesMetadata, Abstract43Sketch, Abstract43SketchMetadata, Abstract44Shapes, Abstract44ShapesMetadata, Abstract44Sketch, Abstract44SketchMetadata, Abstract45Shapes, Abstract45ShapesMetadata, Abstract45Sketch, Abstract45SketchMetadata, Abstract46Shapes, Abstract46ShapesMetadata, Abstract46Sketch, Abstract46SketchMetadata, Abstract47Shapes, Abstract47ShapesMetadata, Abstract47Sketch, Abstract47SketchMetadata, Abstract48Shapes, Abstract48ShapesMetadata, Abstract48Sketch, Abstract48SketchMetadata, Abstract49Shapes, Abstract49ShapesMetadata, Abstract49Sketch, Abstract49SketchMetadata, Abstract4Shapes, Abstract4ShapesMetadata, Abstract4Sketch, Abstract4SketchMetadata, Abstract50Shapes, Abstract50ShapesMetadata, Abstract50Sketch, Abstract50SketchMetadata, Abstract51Shapes, Abstract51ShapesMetadata, Abstract51Sketch, Abstract51SketchMetadata, Abstract52Shapes, Abstract52ShapesMetadata, Abstract52Sketch, Abstract52SketchMetadata, Abstract53Shapes, Abstract53ShapesMetadata, Abstract53Sketch, Abstract53SketchMetadata, Abstract54Shapes, Abstract54ShapesMetadata, Abstract54Sketch, Abstract54SketchMetadata, Abstract55Shapes, Abstract55ShapesMetadata, Abstract55Sketch, Abstract55SketchMetadata, Abstract56Shapes, Abstract56ShapesMetadata, Abstract56Sketch, Abstract56SketchMetadata, Abstract57Shapes, Abstract57ShapesMetadata, Abstract57Sketch, Abstract57SketchMetadata, Abstract58Shapes, Abstract58ShapesMetadata, Abstract58Sketch, Abstract58SketchMetadata, Abstract59Shapes, Abstract59ShapesMetadata, Abstract59Sketch, Abstract59SketchMetadata, Abstract5Shapes, Abstract5ShapesMetadata, Abstract5Sketch, Abstract5SketchMetadata, Abstract60Shapes, Abstract60ShapesMetadata, Abstract60Sketch, Abstract60SketchMetadata, Abstract61Shapes, Abstract61ShapesMetadata, Abstract61Sketch, Abstract61SketchMetadata, Abstract62Shapes, Abstract62ShapesMetadata, Abstract62Sketch, Abstract62SketchMetadata, Abstract63Shapes, Abstract63ShapesMetadata, Abstract63Sketch, Abstract63SketchMetadata, Abstract64Shapes, Abstract64ShapesMetadata, Abstract64Sketch, Abstract64SketchMetadata, Abstract65Shapes, Abstract65ShapesMetadata, Abstract65Sketch, Abstract65SketchMetadata, Abstract66Shapes, Abstract66ShapesMetadata, Abstract66Sketch, Abstract66SketchMetadata, Abstract67Shapes, Abstract67ShapesMetadata, Abstract67Sketch, Abstract67SketchMetadata, Abstract68Shapes, Abstract68ShapesMetadata, Abstract68Sketch, Abstract68SketchMetadata, Abstract69Shapes, Abstract69ShapesMetadata, Abstract69Sketch, Abstract69SketchMetadata, Abstract6Shapes, Abstract6ShapesMetadata, Abstract6Sketch, Abstract6SketchMetadata, Abstract70Shapes, Abstract70ShapesMetadata, Abstract70Sketch, Abstract70SketchMetadata, Abstract71Shapes, Abstract71ShapesMetadata, Abstract72Shapes, Abstract72ShapesMetadata, Abstract73Shapes, Abstract73ShapesMetadata, Abstract74Shapes, Abstract74ShapesMetadata, Abstract75Shapes, Abstract75ShapesMetadata, Abstract76Shapes, Abstract76ShapesMetadata, Abstract77Shapes, Abstract77ShapesMetadata, Abstract78Shapes, Abstract78ShapesMetadata, Abstract79Shapes, Abstract79ShapesMetadata, Abstract7Shapes, Abstract7ShapesMetadata, Abstract7Sketch, Abstract7SketchMetadata, Abstract80Shapes, Abstract80ShapesMetadata, Abstract81Shapes, Abstract81ShapesMetadata, Abstract82Shapes, Abstract82ShapesMetadata, Abstract83Shapes, Abstract83ShapesMetadata, Abstract84Shapes, Abstract84ShapesMetadata, Abstract85Shapes, Abstract85ShapesMetadata, Abstract86Shapes, Abstract86ShapesMetadata, Abstract87Shapes, Abstract87ShapesMetadata, Abstract88Shapes, Abstract88ShapesMetadata, Abstract89Shapes, Abstract89ShapesMetadata, Abstract8Shapes, Abstract8ShapesMetadata, Abstract8Sketch, Abstract8SketchMetadata, Abstract90Shapes, Abstract90ShapesMetadata, Abstract91Shapes, Abstract91ShapesMetadata, Abstract92Shapes, Abstract92ShapesMetadata, Abstract93Shapes, Abstract93ShapesMetadata, Abstract94Shapes, Abstract94ShapesMetadata, Abstract95Shapes, Abstract95ShapesMetadata, Abstract96Shapes, Abstract96ShapesMetadata, Abstract97Shapes, Abstract97ShapesMetadata, Abstract98Shapes, Abstract98ShapesMetadata, Abstract99Shapes, Abstract99ShapesMetadata, Abstract9Shapes, Abstract9ShapesMetadata, Abstract9Sketch, Abstract9SketchMetadata, Arrows10Sketch, Arrows10SketchMetadata, Arrows11Sketch, Arrows11SketchMetadata, Arrows12Sketch, Arrows12SketchMetadata, Arrows13Sketch, Arrows13SketchMetadata, Arrows14Sketch, Arrows14SketchMetadata, Arrows15Sketch, Arrows15SketchMetadata, Arrows16Sketch, Arrows16SketchMetadata, Arrows17Sketch, Arrows17SketchMetadata, Arrows18Sketch, Arrows18SketchMetadata, Arrows19Sketch, Arrows19SketchMetadata, Arrows1Sketch, Arrows1SketchMetadata, Arrows20Sketch, Arrows20SketchMetadata, Arrows21Sketch, Arrows21SketchMetadata, Arrows22Sketch, Arrows22SketchMetadata, Arrows23Sketch, Arrows23SketchMetadata, Arrows24Sketch, Arrows24SketchMetadata, Arrows25Sketch, Arrows25SketchMetadata, Arrows26Sketch, Arrows26SketchMetadata, Arrows27Sketch, Arrows27SketchMetadata, Arrows28Sketch, Arrows28SketchMetadata, Arrows29Sketch, Arrows29SketchMetadata, Arrows2Sketch, Arrows2SketchMetadata, Arrows30Sketch, Arrows30SketchMetadata, Arrows31Sketch, Arrows31SketchMetadata, Arrows32Sketch, Arrows32SketchMetadata, Arrows33Sketch, Arrows33SketchMetadata, Arrows34Sketch, Arrows34SketchMetadata, Arrows35Sketch, Arrows35SketchMetadata, Arrows36Sketch, Arrows36SketchMetadata, Arrows37Sketch, Arrows37SketchMetadata, Arrows38Sketch, Arrows38SketchMetadata, Arrows39Sketch, Arrows39SketchMetadata, Arrows3Sketch, Arrows3SketchMetadata, Arrows40Sketch, Arrows40SketchMetadata, Arrows41Sketch, Arrows41SketchMetadata, Arrows42Sketch, Arrows42SketchMetadata, Arrows43Sketch, Arrows43SketchMetadata, Arrows44Sketch, Arrows44SketchMetadata, Arrows45Sketch, Arrows45SketchMetadata, Arrows46Sketch, Arrows46SketchMetadata, Arrows47Sketch, Arrows47SketchMetadata, Arrows48Sketch, Arrows48SketchMetadata, Arrows49Sketch, Arrows49SketchMetadata, Arrows4Sketch, Arrows4SketchMetadata, Arrows50Sketch, Arrows50SketchMetadata, Arrows51Sketch, Arrows51SketchMetadata, Arrows52Sketch, Arrows52SketchMetadata, Arrows53Sketch, Arrows53SketchMetadata, Arrows54Sketch, Arrows54SketchMetadata, Arrows55Sketch, Arrows55SketchMetadata, Arrows56Sketch, Arrows56SketchMetadata, Arrows57Sketch, Arrows57SketchMetadata, Arrows58Sketch, Arrows58SketchMetadata, Arrows59Sketch, Arrows59SketchMetadata, Arrows5Sketch, Arrows5SketchMetadata, Arrows60Sketch, Arrows60SketchMetadata, Arrows61Sketch, Arrows61SketchMetadata, Arrows62Sketch, Arrows62SketchMetadata, Arrows63Sketch, Arrows63SketchMetadata, Arrows64Sketch, Arrows64SketchMetadata, Arrows65Sketch, Arrows65SketchMetadata, Arrows66Sketch, Arrows66SketchMetadata, Arrows67Sketch, Arrows67SketchMetadata, Arrows68Sketch, Arrows68SketchMetadata, Arrows69Sketch, Arrows69SketchMetadata, Arrows6Sketch, Arrows6SketchMetadata, Arrows70Sketch, Arrows70SketchMetadata, Arrows71Sketch, Arrows71SketchMetadata, Arrows72Sketch, Arrows72SketchMetadata, Arrows73Sketch, Arrows73SketchMetadata, Arrows74Sketch, Arrows74SketchMetadata, Arrows7Sketch, Arrows7SketchMetadata, Arrows8Sketch, Arrows8SketchMetadata, Arrows9Sketch, Arrows9SketchMetadata, Geometric10Pattern, Geometric10PatternMetadata, Geometric10Shapes, Geometric10ShapesMetadata, Geometric11Pattern, Geometric11PatternMetadata, Geometric11Shapes, Geometric11ShapesMetadata, Geometric12Pattern, Geometric12PatternMetadata, Geometric12Shapes, Geometric12ShapesMetadata, Geometric13Pattern, Geometric13PatternMetadata, Geometric13Shapes, Geometric13ShapesMetadata, Geometric14Pattern, Geometric14PatternMetadata, Geometric14Shapes, Geometric14ShapesMetadata, Geometric15Shapes, Geometric15ShapesMetadata, Geometric16Shapes, Geometric16ShapesMetadata, Geometric17Shapes, Geometric17ShapesMetadata, Geometric18Shapes, Geometric18ShapesMetadata, Geometric19Shapes, Geometric19ShapesMetadata, Geometric1Pattern, Geometric1PatternMetadata, Geometric1Shapes, Geometric1ShapesMetadata, Geometric1Texture, Geometric1TextureMetadata, Geometric20Shapes, Geometric20ShapesMetadata, Geometric21Shapes, Geometric21ShapesMetadata, Geometric22Shapes, Geometric22ShapesMetadata, Geometric23Shapes, Geometric23ShapesMetadata, Geometric24Shapes, Geometric24ShapesMetadata, Geometric25Shapes, Geometric25ShapesMetadata, Geometric26Shapes, Geometric26ShapesMetadata, Geometric27Shapes, Geometric27ShapesMetadata, Geometric28Shapes, Geometric28ShapesMetadata, Geometric29Shapes, Geometric29ShapesMetadata, Geometric2Pattern, Geometric2PatternMetadata, Geometric2Shapes, Geometric2ShapesMetadata, Geometric2Texture, Geometric2TextureMetadata, Geometric30Shapes, Geometric30ShapesMetadata, Geometric31Shapes, Geometric31ShapesMetadata, Geometric32Shapes, Geometric32ShapesMetadata, Geometric33Shapes, Geometric33ShapesMetadata, Geometric34Shapes, Geometric34ShapesMetadata, Geometric35Shapes, Geometric35ShapesMetadata, Geometric36Shapes, Geometric36ShapesMetadata, Geometric37Shapes, Geometric37ShapesMetadata, Geometric38Shapes, Geometric38ShapesMetadata, Geometric39Shapes, Geometric39ShapesMetadata, Geometric3Pattern, Geometric3PatternMetadata, Geometric3Shapes, Geometric3ShapesMetadata, Geometric3Texture, Geometric3TextureMetadata, Geometric40Shapes, Geometric40ShapesMetadata, Geometric41Shapes, Geometric41ShapesMetadata, Geometric42Shapes, Geometric42ShapesMetadata, Geometric43Shapes, Geometric43ShapesMetadata, Geometric44Shapes, Geometric44ShapesMetadata, Geometric45Shapes, Geometric45ShapesMetadata, Geometric46Shapes, Geometric46ShapesMetadata, Geometric47Shapes, Geometric47ShapesMetadata, Geometric48Shapes, Geometric48ShapesMetadata, Geometric49Shapes, Geometric49ShapesMetadata, Geometric4Pattern, Geometric4PatternMetadata, Geometric4Shapes, Geometric4ShapesMetadata, Geometric4Texture, Geometric4TextureMetadata, Geometric50Shapes, Geometric50ShapesMetadata, Geometric51Shapes, Geometric51ShapesMetadata, Geometric52Shapes, Geometric52ShapesMetadata, Geometric53Shapes, Geometric53ShapesMetadata, Geometric54Shapes, Geometric54ShapesMetadata, Geometric55Shapes, Geometric55ShapesMetadata, Geometric56Shapes, Geometric56ShapesMetadata, Geometric57Shapes, Geometric57ShapesMetadata, Geometric58Shapes, Geometric58ShapesMetadata, Geometric59Shapes, Geometric59ShapesMetadata, Geometric5Pattern, Geometric5PatternMetadata, Geometric5Shapes, Geometric5ShapesMetadata, Geometric60Shapes, Geometric60ShapesMetadata, Geometric61Shapes, Geometric61ShapesMetadata, Geometric62Shapes, Geometric62ShapesMetadata, Geometric63Shapes, Geometric63ShapesMetadata, Geometric64Shapes, Geometric64ShapesMetadata, Geometric65Shapes, Geometric65ShapesMetadata, Geometric66Shapes, Geometric66ShapesMetadata, Geometric67Shapes, Geometric67ShapesMetadata, Geometric68Shapes, Geometric68ShapesMetadata, Geometric69Shapes, Geometric69ShapesMetadata, Geometric6Pattern, Geometric6PatternMetadata, Geometric6Shapes, Geometric6ShapesMetadata, Geometric70Shapes, Geometric70ShapesMetadata, Geometric71Shapes, Geometric71ShapesMetadata, Geometric72Shapes, Geometric72ShapesMetadata, Geometric73Shapes, Geometric73ShapesMetadata, Geometric74Shapes, Geometric74ShapesMetadata, Geometric75Shapes, Geometric75ShapesMetadata, Geometric76Shapes, Geometric76ShapesMetadata, Geometric77Shapes, Geometric77ShapesMetadata, Geometric78Shapes, Geometric78ShapesMetadata, Geometric7Pattern, Geometric7PatternMetadata, Geometric7Shapes, Geometric7ShapesMetadata, Geometric8Pattern, Geometric8PatternMetadata, Geometric8Shapes, Geometric8ShapesMetadata, Geometric9Pattern, Geometric9PatternMetadata, Geometric9Shapes, Geometric9ShapesMetadata, Organic10Pattern, Organic10PatternMetadata, Organic10Shapes, Organic10ShapesMetadata, Organic11Pattern, Organic11PatternMetadata, Organic11Shapes, Organic11ShapesMetadata, Organic12Pattern, Organic12PatternMetadata, Organic12Shapes, Organic12ShapesMetadata, Organic13Pattern, Organic13PatternMetadata, Organic13Shapes, Organic13ShapesMetadata, Organic14Pattern, Organic14PatternMetadata, Organic14Shapes, Organic14ShapesMetadata, Organic15Pattern, Organic15PatternMetadata, Organic15Shapes, Organic15ShapesMetadata, Organic16Shapes, Organic16ShapesMetadata, Organic17Shapes, Organic17ShapesMetadata, Organic18Shapes, Organic18ShapesMetadata, Organic19Shapes, Organic19ShapesMetadata, Organic1Pattern, Organic1PatternMetadata, Organic1Shapes, Organic1ShapesMetadata, Organic1Texture, Organic1TextureMetadata, Organic20Shapes, Organic20ShapesMetadata, Organic21Shapes, Organic21ShapesMetadata, Organic22Shapes, Organic22ShapesMetadata, Organic23Shapes, Organic23ShapesMetadata, Organic24Shapes, Organic24ShapesMetadata, Organic25Shapes, Organic25ShapesMetadata, Organic26Shapes, Organic26ShapesMetadata, Organic27Shapes, Organic27ShapesMetadata, Organic28Shapes, Organic28ShapesMetadata, Organic29Shapes, Organic29ShapesMetadata, Organic2Pattern, Organic2PatternMetadata, Organic2Shapes, Organic2ShapesMetadata, Organic2Texture, Organic2TextureMetadata, Organic30Shapes, Organic30ShapesMetadata, Organic31Shapes, Organic31ShapesMetadata, Organic32Shapes, Organic32ShapesMetadata, Organic33Shapes, Organic33ShapesMetadata, Organic34Shapes, Organic34ShapesMetadata, Organic35Shapes, Organic35ShapesMetadata, Organic36Shapes, Organic36ShapesMetadata, Organic37Shapes, Organic37ShapesMetadata, Organic38Shapes, Organic38ShapesMetadata, Organic39Shapes, Organic39ShapesMetadata, Organic3Pattern, Organic3PatternMetadata, Organic3Shapes, Organic3ShapesMetadata, Organic3Texture, Organic3TextureMetadata, Organic40Shapes, Organic40ShapesMetadata, Organic41Shapes, Organic41ShapesMetadata, Organic42Shapes, Organic42ShapesMetadata, Organic43Shapes, Organic43ShapesMetadata, Organic44Shapes, Organic44ShapesMetadata, Organic45Shapes, Organic45ShapesMetadata, Organic46Shapes, Organic46ShapesMetadata, Organic47Shapes, Organic47ShapesMetadata, Organic48Shapes, Organic48ShapesMetadata, Organic49Shapes, Organic49ShapesMetadata, Organic4Pattern, Organic4PatternMetadata, Organic4Shapes, Organic4ShapesMetadata, Organic4Texture, Organic4TextureMetadata, Organic50Shapes, Organic50ShapesMetadata, Organic51Shapes, Organic51ShapesMetadata, Organic52Shapes, Organic52ShapesMetadata, Organic53Shapes, Organic53ShapesMetadata, Organic54Shapes, Organic54ShapesMetadata, Organic55Shapes, Organic55ShapesMetadata, Organic56Shapes, Organic56ShapesMetadata, Organic57Shapes, Organic57ShapesMetadata, Organic58Shapes, Organic58ShapesMetadata, Organic59Shapes, Organic59ShapesMetadata, Organic5Pattern, Organic5PatternMetadata, Organic5Shapes, Organic5ShapesMetadata, Organic5Texture, Organic5TextureMetadata, Organic60Shapes, Organic60ShapesMetadata, Organic61Shapes, Organic61ShapesMetadata, Organic62Shapes, Organic62ShapesMetadata, Organic63Shapes, Organic63ShapesMetadata, Organic64Shapes, Organic64ShapesMetadata, Organic65Shapes, Organic65ShapesMetadata, Organic66Shapes, Organic66ShapesMetadata, Organic67Shapes, Organic67ShapesMetadata, Organic68Shapes, Organic68ShapesMetadata, Organic69Shapes, Organic69ShapesMetadata, Organic6Pattern, Organic6PatternMetadata, Organic6Shapes, Organic6ShapesMetadata, Organic6Texture, Organic6TextureMetadata, Organic70Shapes, Organic70ShapesMetadata, Organic71Shapes, Organic71ShapesMetadata, Organic72Shapes, Organic72ShapesMetadata, Organic73Shapes, Organic73ShapesMetadata, Organic74Shapes, Organic74ShapesMetadata, Organic75Shapes, Organic75ShapesMetadata, Organic76Shapes, Organic76ShapesMetadata, Organic7Pattern, Organic7PatternMetadata, Organic7Shapes, Organic7ShapesMetadata, Organic8Pattern, Organic8PatternMetadata, Organic8Shapes, Organic8ShapesMetadata, Organic9Pattern, Organic9PatternMetadata, Organic9Shapes, Organic9ShapesMetadata, Star10Shapes, Star10ShapesMetadata, Star11Shapes, Star11ShapesMetadata, Star12Shapes, Star12ShapesMetadata, Star13Shapes, Star13ShapesMetadata, Star1Shapes, Star1ShapesMetadata, Star2Shapes, Star2ShapesMetadata, Star3Shapes, Star3ShapesMetadata, Star4Shapes, Star4ShapesMetadata, Star5Shapes, Star5ShapesMetadata, Star6Shapes, Star6ShapesMetadata, Star7Shapes, Star7ShapesMetadata, Star8Shapes, Star8ShapesMetadata, Star9Shapes, Star9ShapesMetadata, allVectors };
+export { Abstract100Shapes, Abstract100ShapesMetadata, Abstract101Shapes, Abstract101ShapesMetadata, Abstract102Shapes, Abstract102ShapesMetadata, Abstract103Shapes, Abstract103ShapesMetadata, Abstract104Shapes, Abstract104ShapesMetadata, Abstract105Shapes, Abstract105ShapesMetadata, Abstract106Shapes, Abstract106ShapesMetadata, Abstract107Shapes, Abstract107ShapesMetadata, Abstract108Shapes, Abstract108ShapesMetadata, Abstract109Shapes, Abstract109ShapesMetadata, Abstract10Shapes, Abstract10ShapesMetadata, Abstract10Sketch, Abstract10SketchMetadata, Abstract110Shapes, Abstract110ShapesMetadata, Abstract111Shapes, Abstract111ShapesMetadata, Abstract112Shapes, Abstract112ShapesMetadata, Abstract113Shapes, Abstract113ShapesMetadata, Abstract114Shapes, Abstract114ShapesMetadata, Abstract115Shapes, Abstract115ShapesMetadata, Abstract116Shapes, Abstract116ShapesMetadata, Abstract117Shapes, Abstract117ShapesMetadata, Abstract118Shapes, Abstract118ShapesMetadata, Abstract119Shapes, Abstract119ShapesMetadata, Abstract11Shapes, Abstract11ShapesMetadata, Abstract11Sketch, Abstract11SketchMetadata, Abstract120Shapes, Abstract120ShapesMetadata, Abstract121Shapes, Abstract121ShapesMetadata, Abstract122Shapes, Abstract122ShapesMetadata, Abstract123Shapes, Abstract123ShapesMetadata, Abstract124Shapes, Abstract124ShapesMetadata, Abstract125Shapes, Abstract125ShapesMetadata, Abstract126Shapes, Abstract126ShapesMetadata, Abstract127Shapes, Abstract127ShapesMetadata, Abstract128Shapes, Abstract128ShapesMetadata, Abstract129Shapes, Abstract129ShapesMetadata, Abstract12Shapes, Abstract12ShapesMetadata, Abstract12Sketch, Abstract12SketchMetadata, Abstract130Shapes, Abstract130ShapesMetadata, Abstract131Shapes, Abstract131ShapesMetadata, Abstract132Shapes, Abstract132ShapesMetadata, Abstract133Shapes, Abstract133ShapesMetadata, Abstract134Shapes, Abstract134ShapesMetadata, Abstract135Shapes, Abstract135ShapesMetadata, Abstract136Shapes, Abstract136ShapesMetadata, Abstract137Shapes, Abstract137ShapesMetadata, Abstract138Shapes, Abstract138ShapesMetadata, Abstract139Shapes, Abstract139ShapesMetadata, Abstract13Shapes, Abstract13ShapesMetadata, Abstract13Sketch, Abstract13SketchMetadata, Abstract140Shapes, Abstract140ShapesMetadata, Abstract141Shapes, Abstract141ShapesMetadata, Abstract142Shapes, Abstract142ShapesMetadata, Abstract143Shapes, Abstract143ShapesMetadata, Abstract144Shapes, Abstract144ShapesMetadata, Abstract145Shapes, Abstract145ShapesMetadata, Abstract146Shapes, Abstract146ShapesMetadata, Abstract147Shapes, Abstract147ShapesMetadata, Abstract148Shapes, Abstract148ShapesMetadata, Abstract149Shapes, Abstract149ShapesMetadata, Abstract14Shapes, Abstract14ShapesMetadata, Abstract14Sketch, Abstract14SketchMetadata, Abstract150Shapes, Abstract150ShapesMetadata, Abstract151Shapes, Abstract151ShapesMetadata, Abstract152Shapes, Abstract152ShapesMetadata, Abstract153Shapes, Abstract153ShapesMetadata, Abstract154Shapes, Abstract154ShapesMetadata, Abstract155Shapes, Abstract155ShapesMetadata, Abstract156Shapes, Abstract156ShapesMetadata, Abstract157Shapes, Abstract157ShapesMetadata, Abstract158Shapes, Abstract158ShapesMetadata, Abstract159Shapes, Abstract159ShapesMetadata, Abstract15Shapes, Abstract15ShapesMetadata, Abstract15Sketch, Abstract15SketchMetadata, Abstract16Shapes, Abstract16ShapesMetadata, Abstract16Sketch, Abstract16SketchMetadata, Abstract17Shapes, Abstract17ShapesMetadata, Abstract17Sketch, Abstract17SketchMetadata, Abstract18Shapes, Abstract18ShapesMetadata, Abstract18Sketch, Abstract18SketchMetadata, Abstract19Shapes, Abstract19ShapesMetadata, Abstract19Sketch, Abstract19SketchMetadata, Abstract1Shapes, Abstract1ShapesMetadata, Abstract1Sketch, Abstract1SketchMetadata, Abstract20Shapes, Abstract20ShapesMetadata, Abstract20Sketch, Abstract20SketchMetadata, Abstract21Shapes, Abstract21ShapesMetadata, Abstract21Sketch, Abstract21SketchMetadata, Abstract22Shapes, Abstract22ShapesMetadata, Abstract22Sketch, Abstract22SketchMetadata, Abstract23Shapes, Abstract23ShapesMetadata, Abstract23Sketch, Abstract23SketchMetadata, Abstract24Shapes, Abstract24ShapesMetadata, Abstract24Sketch, Abstract24SketchMetadata, Abstract25Shapes, Abstract25ShapesMetadata, Abstract25Sketch, Abstract25SketchMetadata, Abstract26Shapes, Abstract26ShapesMetadata, Abstract26Sketch, Abstract26SketchMetadata, Abstract27Shapes, Abstract27ShapesMetadata, Abstract27Sketch, Abstract27SketchMetadata, Abstract28Shapes, Abstract28ShapesMetadata, Abstract28Sketch, Abstract28SketchMetadata, Abstract29Shapes, Abstract29ShapesMetadata, Abstract29Sketch, Abstract29SketchMetadata, Abstract2Shapes, Abstract2ShapesMetadata, Abstract2Sketch, Abstract2SketchMetadata, Abstract30Shapes, Abstract30ShapesMetadata, Abstract30Sketch, Abstract30SketchMetadata, Abstract31Shapes, Abstract31ShapesMetadata, Abstract31Sketch, Abstract31SketchMetadata, Abstract32Shapes, Abstract32ShapesMetadata, Abstract32Sketch, Abstract32SketchMetadata, Abstract33Shapes, Abstract33ShapesMetadata, Abstract33Sketch, Abstract33SketchMetadata, Abstract34Shapes, Abstract34ShapesMetadata, Abstract34Sketch, Abstract34SketchMetadata, Abstract35Shapes, Abstract35ShapesMetadata, Abstract35Sketch, Abstract35SketchMetadata, Abstract36Shapes, Abstract36ShapesMetadata, Abstract36Sketch, Abstract36SketchMetadata, Abstract37Shapes, Abstract37ShapesMetadata, Abstract37Sketch, Abstract37SketchMetadata, Abstract38Shapes, Abstract38ShapesMetadata, Abstract38Sketch, Abstract38SketchMetadata, Abstract39Shapes, Abstract39ShapesMetadata, Abstract39Sketch, Abstract39SketchMetadata, Abstract3Shapes, Abstract3ShapesMetadata, Abstract3Sketch, Abstract3SketchMetadata, Abstract40Shapes, Abstract40ShapesMetadata, Abstract40Sketch, Abstract40SketchMetadata, Abstract41Shapes, Abstract41ShapesMetadata, Abstract41Sketch, Abstract41SketchMetadata, Abstract42Shapes, Abstract42ShapesMetadata, Abstract42Sketch, Abstract42SketchMetadata, Abstract43Shapes, Abstract43ShapesMetadata, Abstract43Sketch, Abstract43SketchMetadata, Abstract44Shapes, Abstract44ShapesMetadata, Abstract44Sketch, Abstract44SketchMetadata, Abstract45Shapes, Abstract45ShapesMetadata, Abstract45Sketch, Abstract45SketchMetadata, Abstract46Shapes, Abstract46ShapesMetadata, Abstract46Sketch, Abstract46SketchMetadata, Abstract47Shapes, Abstract47ShapesMetadata, Abstract47Sketch, Abstract47SketchMetadata, Abstract48Shapes, Abstract48ShapesMetadata, Abstract48Sketch, Abstract48SketchMetadata, Abstract49Shapes, Abstract49ShapesMetadata, Abstract49Sketch, Abstract49SketchMetadata, Abstract4Shapes, Abstract4ShapesMetadata, Abstract4Sketch, Abstract4SketchMetadata, Abstract50Shapes, Abstract50ShapesMetadata, Abstract50Sketch, Abstract50SketchMetadata, Abstract51Shapes, Abstract51ShapesMetadata, Abstract51Sketch, Abstract51SketchMetadata, Abstract52Shapes, Abstract52ShapesMetadata, Abstract52Sketch, Abstract52SketchMetadata, Abstract53Shapes, Abstract53ShapesMetadata, Abstract53Sketch, Abstract53SketchMetadata, Abstract54Shapes, Abstract54ShapesMetadata, Abstract54Sketch, Abstract54SketchMetadata, Abstract55Shapes, Abstract55ShapesMetadata, Abstract55Sketch, Abstract55SketchMetadata, Abstract56Shapes, Abstract56ShapesMetadata, Abstract56Sketch, Abstract56SketchMetadata, Abstract57Shapes, Abstract57ShapesMetadata, Abstract57Sketch, Abstract57SketchMetadata, Abstract58Shapes, Abstract58ShapesMetadata, Abstract58Sketch, Abstract58SketchMetadata, Abstract59Shapes, Abstract59ShapesMetadata, Abstract59Sketch, Abstract59SketchMetadata, Abstract5Shapes, Abstract5ShapesMetadata, Abstract5Sketch, Abstract5SketchMetadata, Abstract60Shapes, Abstract60ShapesMetadata, Abstract60Sketch, Abstract60SketchMetadata, Abstract61Shapes, Abstract61ShapesMetadata, Abstract61Sketch, Abstract61SketchMetadata, Abstract62Shapes, Abstract62ShapesMetadata, Abstract62Sketch, Abstract62SketchMetadata, Abstract63Shapes, Abstract63ShapesMetadata, Abstract63Sketch, Abstract63SketchMetadata, Abstract64Shapes, Abstract64ShapesMetadata, Abstract64Sketch, Abstract64SketchMetadata, Abstract65Shapes, Abstract65ShapesMetadata, Abstract65Sketch, Abstract65SketchMetadata, Abstract66Shapes, Abstract66ShapesMetadata, Abstract66Sketch, Abstract66SketchMetadata, Abstract67Shapes, Abstract67ShapesMetadata, Abstract67Sketch, Abstract67SketchMetadata, Abstract68Shapes, Abstract68ShapesMetadata, Abstract68Sketch, Abstract68SketchMetadata, Abstract69Shapes, Abstract69ShapesMetadata, Abstract69Sketch, Abstract69SketchMetadata, Abstract6Shapes, Abstract6ShapesMetadata, Abstract6Sketch, Abstract6SketchMetadata, Abstract70Shapes, Abstract70ShapesMetadata, Abstract70Sketch, Abstract70SketchMetadata, Abstract71Shapes, Abstract71ShapesMetadata, Abstract72Shapes, Abstract72ShapesMetadata, Abstract73Shapes, Abstract73ShapesMetadata, Abstract74Shapes, Abstract74ShapesMetadata, Abstract75Shapes, Abstract75ShapesMetadata, Abstract76Shapes, Abstract76ShapesMetadata, Abstract77Shapes, Abstract77ShapesMetadata, Abstract78Shapes, Abstract78ShapesMetadata, Abstract79Shapes, Abstract79ShapesMetadata, Abstract7Shapes, Abstract7ShapesMetadata, Abstract7Sketch, Abstract7SketchMetadata, Abstract80Shapes, Abstract80ShapesMetadata, Abstract81Shapes, Abstract81ShapesMetadata, Abstract82Shapes, Abstract82ShapesMetadata, Abstract83Shapes, Abstract83ShapesMetadata, Abstract84Shapes, Abstract84ShapesMetadata, Abstract85Shapes, Abstract85ShapesMetadata, Abstract86Shapes, Abstract86ShapesMetadata, Abstract87Shapes, Abstract87ShapesMetadata, Abstract88Shapes, Abstract88ShapesMetadata, Abstract89Shapes, Abstract89ShapesMetadata, Abstract8Shapes, Abstract8ShapesMetadata, Abstract8Sketch, Abstract8SketchMetadata, Abstract90Shapes, Abstract90ShapesMetadata, Abstract91Shapes, Abstract91ShapesMetadata, Abstract92Shapes, Abstract92ShapesMetadata, Abstract93Shapes, Abstract93ShapesMetadata, Abstract94Shapes, Abstract94ShapesMetadata, Abstract95Shapes, Abstract95ShapesMetadata, Abstract96Shapes, Abstract96ShapesMetadata, Abstract97Shapes, Abstract97ShapesMetadata, Abstract98Shapes, Abstract98ShapesMetadata, Abstract99Shapes, Abstract99ShapesMetadata, Abstract9Shapes, Abstract9ShapesMetadata, Abstract9Sketch, Abstract9SketchMetadata, Arrows10Sketch, Arrows10SketchMetadata, Arrows11Sketch, Arrows11SketchMetadata, Arrows12Sketch, Arrows12SketchMetadata, Arrows13Sketch, Arrows13SketchMetadata, Arrows14Sketch, Arrows14SketchMetadata, Arrows15Sketch, Arrows15SketchMetadata, Arrows16Sketch, Arrows16SketchMetadata, Arrows17Sketch, Arrows17SketchMetadata, Arrows18Sketch, Arrows18SketchMetadata, Arrows19Sketch, Arrows19SketchMetadata, Arrows1Sketch, Arrows1SketchMetadata, Arrows20Sketch, Arrows20SketchMetadata, Arrows21Sketch, Arrows21SketchMetadata, Arrows22Sketch, Arrows22SketchMetadata, Arrows23Sketch, Arrows23SketchMetadata, Arrows24Sketch, Arrows24SketchMetadata, Arrows25Sketch, Arrows25SketchMetadata, Arrows26Sketch, Arrows26SketchMetadata, Arrows27Sketch, Arrows27SketchMetadata, Arrows28Sketch, Arrows28SketchMetadata, Arrows29Sketch, Arrows29SketchMetadata, Arrows2Sketch, Arrows2SketchMetadata, Arrows30Sketch, Arrows30SketchMetadata, Arrows31Sketch, Arrows31SketchMetadata, Arrows32Sketch, Arrows32SketchMetadata, Arrows33Sketch, Arrows33SketchMetadata, Arrows34Sketch, Arrows34SketchMetadata, Arrows35Sketch, Arrows35SketchMetadata, Arrows36Sketch, Arrows36SketchMetadata, Arrows37Sketch, Arrows37SketchMetadata, Arrows38Sketch, Arrows38SketchMetadata, Arrows39Sketch, Arrows39SketchMetadata, Arrows3Sketch, Arrows3SketchMetadata, Arrows40Sketch, Arrows40SketchMetadata, Arrows41Sketch, Arrows41SketchMetadata, Arrows42Sketch, Arrows42SketchMetadata, Arrows43Sketch, Arrows43SketchMetadata, Arrows44Sketch, Arrows44SketchMetadata, Arrows45Sketch, Arrows45SketchMetadata, Arrows46Sketch, Arrows46SketchMetadata, Arrows47Sketch, Arrows47SketchMetadata, Arrows48Sketch, Arrows48SketchMetadata, Arrows49Sketch, Arrows49SketchMetadata, Arrows4Sketch, Arrows4SketchMetadata, Arrows50Sketch, Arrows50SketchMetadata, Arrows51Sketch, Arrows51SketchMetadata, Arrows52Sketch, Arrows52SketchMetadata, Arrows53Sketch, Arrows53SketchMetadata, Arrows54Sketch, Arrows54SketchMetadata, Arrows55Sketch, Arrows55SketchMetadata, Arrows56Sketch, Arrows56SketchMetadata, Arrows57Sketch, Arrows57SketchMetadata, Arrows58Sketch, Arrows58SketchMetadata, Arrows59Sketch, Arrows59SketchMetadata, Arrows5Sketch, Arrows5SketchMetadata, Arrows60Sketch, Arrows60SketchMetadata, Arrows61Sketch, Arrows61SketchMetadata, Arrows62Sketch, Arrows62SketchMetadata, Arrows63Sketch, Arrows63SketchMetadata, Arrows64Sketch, Arrows64SketchMetadata, Arrows65Sketch, Arrows65SketchMetadata, Arrows66Sketch, Arrows66SketchMetadata, Arrows67Sketch, Arrows67SketchMetadata, Arrows68Sketch, Arrows68SketchMetadata, Arrows69Sketch, Arrows69SketchMetadata, Arrows6Sketch, Arrows6SketchMetadata, Arrows70Sketch, Arrows70SketchMetadata, Arrows71Sketch, Arrows71SketchMetadata, Arrows72Sketch, Arrows72SketchMetadata, Arrows73Sketch, Arrows73SketchMetadata, Arrows74Sketch, Arrows74SketchMetadata, Arrows7Sketch, Arrows7SketchMetadata, Arrows8Sketch, Arrows8SketchMetadata, Arrows9Sketch, Arrows9SketchMetadata, Geometric10Pattern, Geometric10PatternMetadata, Geometric10Shapes, Geometric10ShapesMetadata, Geometric11Pattern, Geometric11PatternMetadata, Geometric11Shapes, Geometric11ShapesMetadata, Geometric12Pattern, Geometric12PatternMetadata, Geometric12Shapes, Geometric12ShapesMetadata, Geometric13Pattern, Geometric13PatternMetadata, Geometric13Shapes, Geometric13ShapesMetadata, Geometric14Pattern, Geometric14PatternMetadata, Geometric14Shapes, Geometric14ShapesMetadata, Geometric15Shapes, Geometric15ShapesMetadata, Geometric16Shapes, Geometric16ShapesMetadata, Geometric17Shapes, Geometric17ShapesMetadata, Geometric18Shapes, Geometric18ShapesMetadata, Geometric19Shapes, Geometric19ShapesMetadata, Geometric1Pattern, Geometric1PatternMetadata, Geometric1Shapes, Geometric1ShapesMetadata, Geometric1Texture, Geometric1TextureMetadata, Geometric20Shapes, Geometric20ShapesMetadata, Geometric21Shapes, Geometric21ShapesMetadata, Geometric22Shapes, Geometric22ShapesMetadata, Geometric23Shapes, Geometric23ShapesMetadata, Geometric24Shapes, Geometric24ShapesMetadata, Geometric25Shapes, Geometric25ShapesMetadata, Geometric26Shapes, Geometric26ShapesMetadata, Geometric27Shapes, Geometric27ShapesMetadata, Geometric28Shapes, Geometric28ShapesMetadata, Geometric29Shapes, Geometric29ShapesMetadata, Geometric2Pattern, Geometric2PatternMetadata, Geometric2Shapes, Geometric2ShapesMetadata, Geometric2Texture, Geometric2TextureMetadata, Geometric30Shapes, Geometric30ShapesMetadata, Geometric31Shapes, Geometric31ShapesMetadata, Geometric32Shapes, Geometric32ShapesMetadata, Geometric33Shapes, Geometric33ShapesMetadata, Geometric34Shapes, Geometric34ShapesMetadata, Geometric35Shapes, Geometric35ShapesMetadata, Geometric36Shapes, Geometric36ShapesMetadata, Geometric37Shapes, Geometric37ShapesMetadata, Geometric38Shapes, Geometric38ShapesMetadata, Geometric39Shapes, Geometric39ShapesMetadata, Geometric3Pattern, Geometric3PatternMetadata, Geometric3Shapes, Geometric3ShapesMetadata, Geometric3Texture, Geometric3TextureMetadata, Geometric40Shapes, Geometric40ShapesMetadata, Geometric41Shapes, Geometric41ShapesMetadata, Geometric42Shapes, Geometric42ShapesMetadata, Geometric43Shapes, Geometric43ShapesMetadata, Geometric44Shapes, Geometric44ShapesMetadata, Geometric45Shapes, Geometric45ShapesMetadata, Geometric46Shapes, Geometric46ShapesMetadata, Geometric47Shapes, Geometric47ShapesMetadata, Geometric48Shapes, Geometric48ShapesMetadata, Geometric49Shapes, Geometric49ShapesMetadata, Geometric4Pattern, Geometric4PatternMetadata, Geometric4Shapes, Geometric4ShapesMetadata, Geometric4Texture, Geometric4TextureMetadata, Geometric50Shapes, Geometric50ShapesMetadata, Geometric51Shapes, Geometric51ShapesMetadata, Geometric52Shapes, Geometric52ShapesMetadata, Geometric53Shapes, Geometric53ShapesMetadata, Geometric54Shapes, Geometric54ShapesMetadata, Geometric55Shapes, Geometric55ShapesMetadata, Geometric56Shapes, Geometric56ShapesMetadata, Geometric57Shapes, Geometric57ShapesMetadata, Geometric58Shapes, Geometric58ShapesMetadata, Geometric59Shapes, Geometric59ShapesMetadata, Geometric5Pattern, Geometric5PatternMetadata, Geometric5Shapes, Geometric5ShapesMetadata, Geometric60Shapes, Geometric60ShapesMetadata, Geometric61Shapes, Geometric61ShapesMetadata, Geometric62Shapes, Geometric62ShapesMetadata, Geometric63Shapes, Geometric63ShapesMetadata, Geometric64Shapes, Geometric64ShapesMetadata, Geometric65Shapes, Geometric65ShapesMetadata, Geometric66Shapes, Geometric66ShapesMetadata, Geometric67Shapes, Geometric67ShapesMetadata, Geometric68Shapes, Geometric68ShapesMetadata, Geometric69Shapes, Geometric69ShapesMetadata, Geometric6Pattern, Geometric6PatternMetadata, Geometric6Shapes, Geometric6ShapesMetadata, Geometric70Shapes, Geometric70ShapesMetadata, Geometric71Shapes, Geometric71ShapesMetadata, Geometric72Shapes, Geometric72ShapesMetadata, Geometric73Shapes, Geometric73ShapesMetadata, Geometric74Shapes, Geometric74ShapesMetadata, Geometric75Shapes, Geometric75ShapesMetadata, Geometric76Shapes, Geometric76ShapesMetadata, Geometric77Shapes, Geometric77ShapesMetadata, Geometric78Shapes, Geometric78ShapesMetadata, Geometric7Pattern, Geometric7PatternMetadata, Geometric7Shapes, Geometric7ShapesMetadata, Geometric8Pattern, Geometric8PatternMetadata, Geometric8Shapes, Geometric8ShapesMetadata, Geometric9Pattern, Geometric9PatternMetadata, Geometric9Shapes, Geometric9ShapesMetadata, Organic10Pattern, Organic10PatternMetadata, Organic10Shapes, Organic10ShapesMetadata, Organic11Pattern, Organic11PatternMetadata, Organic11Shapes, Organic11ShapesMetadata, Organic12Pattern, Organic12PatternMetadata, Organic12Shapes, Organic12ShapesMetadata, Organic13Pattern, Organic13PatternMetadata, Organic13Shapes, Organic13ShapesMetadata, Organic14Pattern, Organic14PatternMetadata, Organic14Shapes, Organic14ShapesMetadata, Organic15Pattern, Organic15PatternMetadata, Organic15Shapes, Organic15ShapesMetadata, Organic16Shapes, Organic16ShapesMetadata, Organic17Shapes, Organic17ShapesMetadata, Organic18Shapes, Organic18ShapesMetadata, Organic19Shapes, Organic19ShapesMetadata, Organic1Pattern, Organic1PatternMetadata, Organic1Shapes, Organic1ShapesMetadata, Organic1Texture, Organic1TextureMetadata, Organic20Shapes, Organic20ShapesMetadata, Organic21Shapes, Organic21ShapesMetadata, Organic22Shapes, Organic22ShapesMetadata, Organic23Shapes, Organic23ShapesMetadata, Organic24Shapes, Organic24ShapesMetadata, Organic25Shapes, Organic25ShapesMetadata, Organic26Shapes, Organic26ShapesMetadata, Organic27Shapes, Organic27ShapesMetadata, Organic28Shapes, Organic28ShapesMetadata, Organic29Shapes, Organic29ShapesMetadata, Organic2Pattern, Organic2PatternMetadata, Organic2Shapes, Organic2ShapesMetadata, Organic2Texture, Organic2TextureMetadata, Organic30Shapes, Organic30ShapesMetadata, Organic31Shapes, Organic31ShapesMetadata, Organic32Shapes, Organic32ShapesMetadata, Organic33Shapes, Organic33ShapesMetadata, Organic34Shapes, Organic34ShapesMetadata, Organic35Shapes, Organic35ShapesMetadata, Organic36Shapes, Organic36ShapesMetadata, Organic37Shapes, Organic37ShapesMetadata, Organic38Shapes, Organic38ShapesMetadata, Organic39Shapes, Organic39ShapesMetadata, Organic3Pattern, Organic3PatternMetadata, Organic3Shapes, Organic3ShapesMetadata, Organic3Texture, Organic3TextureMetadata, Organic40Shapes, Organic40ShapesMetadata, Organic41Shapes, Organic41ShapesMetadata, Organic42Shapes, Organic42ShapesMetadata, Organic43Shapes, Organic43ShapesMetadata, Organic44Shapes, Organic44ShapesMetadata, Organic45Shapes, Organic45ShapesMetadata, Organic46Shapes, Organic46ShapesMetadata, Organic47Shapes, Organic47ShapesMetadata, Organic48Shapes, Organic48ShapesMetadata, Organic49Shapes, Organic49ShapesMetadata, Organic4Pattern, Organic4PatternMetadata, Organic4Shapes, Organic4ShapesMetadata, Organic4Texture, Organic4TextureMetadata, Organic50Shapes, Organic50ShapesMetadata, Organic51Shapes, Organic51ShapesMetadata, Organic52Shapes, Organic52ShapesMetadata, Organic53Shapes, Organic53ShapesMetadata, Organic54Shapes, Organic54ShapesMetadata, Organic55Shapes, Organic55ShapesMetadata, Organic56Shapes, Organic56ShapesMetadata, Organic57Shapes, Organic57ShapesMetadata, Organic58Shapes, Organic58ShapesMetadata, Organic59Shapes, Organic59ShapesMetadata, Organic5Pattern, Organic5PatternMetadata, Organic5Shapes, Organic5ShapesMetadata, Organic5Texture, Organic5TextureMetadata, Organic60Shapes, Organic60ShapesMetadata, Organic61Shapes, Organic61ShapesMetadata, Organic62Shapes, Organic62ShapesMetadata, Organic63Shapes, Organic63ShapesMetadata, Organic64Shapes, Organic64ShapesMetadata, Organic65Shapes, Organic65ShapesMetadata, Organic66Shapes, Organic66ShapesMetadata, Organic67Shapes, Organic67ShapesMetadata, Organic68Shapes, Organic68ShapesMetadata, Organic69Shapes, Organic69ShapesMetadata, Organic6Pattern, Organic6PatternMetadata, Organic6Shapes, Organic6ShapesMetadata, Organic6Texture, Organic6TextureMetadata, Organic70Shapes, Organic70ShapesMetadata, Organic71Shapes, Organic71ShapesMetadata, Organic72Shapes, Organic72ShapesMetadata, Organic73Shapes, Organic73ShapesMetadata, Organic74Shapes, Organic74ShapesMetadata, Organic75Shapes, Organic75ShapesMetadata, Organic76Shapes, Organic76ShapesMetadata, Organic7Pattern, Organic7PatternMetadata, Organic7Shapes, Organic7ShapesMetadata, Organic8Pattern, Organic8PatternMetadata, Organic8Shapes, Organic8ShapesMetadata, Organic9Pattern, Organic9PatternMetadata, Organic9Shapes, Organic9ShapesMetadata, Scribble100Sketch, Scribble100SketchMetadata, Scribble101Sketch, Scribble101SketchMetadata, Scribble102Sketch, Scribble102SketchMetadata, Scribble103Sketch, Scribble103SketchMetadata, Scribble104Sketch, Scribble104SketchMetadata, Scribble105Sketch, Scribble105SketchMetadata, Scribble106Sketch, Scribble106SketchMetadata, Scribble107Sketch, Scribble107SketchMetadata, Scribble108Sketch, Scribble108SketchMetadata, Scribble109Sketch, Scribble109SketchMetadata, Scribble10Sketch, Scribble10SketchMetadata, Scribble110Sketch, Scribble110SketchMetadata, Scribble111Sketch, Scribble111SketchMetadata, Scribble112Sketch, Scribble112SketchMetadata, Scribble113Sketch, Scribble113SketchMetadata, Scribble114Sketch, Scribble114SketchMetadata, Scribble115Sketch, Scribble115SketchMetadata, Scribble116Sketch, Scribble116SketchMetadata, Scribble117Sketch, Scribble117SketchMetadata, Scribble118Sketch, Scribble118SketchMetadata, Scribble119Sketch, Scribble119SketchMetadata, Scribble11Sketch, Scribble11SketchMetadata, Scribble120Sketch, Scribble120SketchMetadata, Scribble121Sketch, Scribble121SketchMetadata, Scribble122Sketch, Scribble122SketchMetadata, Scribble123Sketch, Scribble123SketchMetadata, Scribble124Sketch, Scribble124SketchMetadata, Scribble125Sketch, Scribble125SketchMetadata, Scribble126Sketch, Scribble126SketchMetadata, Scribble127Sketch, Scribble127SketchMetadata, Scribble128Sketch, Scribble128SketchMetadata, Scribble129Sketch, Scribble129SketchMetadata, Scribble12Sketch, Scribble12SketchMetadata, Scribble130Sketch, Scribble130SketchMetadata, Scribble131Sketch, Scribble131SketchMetadata, Scribble132Sketch, Scribble132SketchMetadata, Scribble133Sketch, Scribble133SketchMetadata, Scribble134Sketch, Scribble134SketchMetadata, Scribble135Sketch, Scribble135SketchMetadata, Scribble136Sketch, Scribble136SketchMetadata, Scribble137Sketch, Scribble137SketchMetadata, Scribble138Sketch, Scribble138SketchMetadata, Scribble139Sketch, Scribble139SketchMetadata, Scribble13Sketch, Scribble13SketchMetadata, Scribble140Sketch, Scribble140SketchMetadata, Scribble141Sketch, Scribble141SketchMetadata, Scribble142Sketch, Scribble142SketchMetadata, Scribble143Sketch, Scribble143SketchMetadata, Scribble144Sketch, Scribble144SketchMetadata, Scribble145Sketch, Scribble145SketchMetadata, Scribble146Sketch, Scribble146SketchMetadata, Scribble147Sketch, Scribble147SketchMetadata, Scribble148Sketch, Scribble148SketchMetadata, Scribble149Sketch, Scribble149SketchMetadata, Scribble14Sketch, Scribble14SketchMetadata, Scribble150Sketch, Scribble150SketchMetadata, Scribble15Sketch, Scribble15SketchMetadata, Scribble16Sketch, Scribble16SketchMetadata, Scribble17Sketch, Scribble17SketchMetadata, Scribble18Sketch, Scribble18SketchMetadata, Scribble19Sketch, Scribble19SketchMetadata, Scribble1Sketch, Scribble1SketchMetadata, Scribble20Sketch, Scribble20SketchMetadata, Scribble21Sketch, Scribble21SketchMetadata, Scribble22Sketch, Scribble22SketchMetadata, Scribble23Sketch, Scribble23SketchMetadata, Scribble24Sketch, Scribble24SketchMetadata, Scribble25Sketch, Scribble25SketchMetadata, Scribble26Sketch, Scribble26SketchMetadata, Scribble27Sketch, Scribble27SketchMetadata, Scribble28Sketch, Scribble28SketchMetadata, Scribble29Sketch, Scribble29SketchMetadata, Scribble2Sketch, Scribble2SketchMetadata, Scribble30Sketch, Scribble30SketchMetadata, Scribble31Sketch, Scribble31SketchMetadata, Scribble32Sketch, Scribble32SketchMetadata, Scribble33Sketch, Scribble33SketchMetadata, Scribble34Sketch, Scribble34SketchMetadata, Scribble35Sketch, Scribble35SketchMetadata, Scribble36Sketch, Scribble36SketchMetadata, Scribble37Sketch, Scribble37SketchMetadata, Scribble38Sketch, Scribble38SketchMetadata, Scribble39Sketch, Scribble39SketchMetadata, Scribble3Sketch, Scribble3SketchMetadata, Scribble40Sketch, Scribble40SketchMetadata, Scribble41Sketch, Scribble41SketchMetadata, Scribble42Sketch, Scribble42SketchMetadata, Scribble43Sketch, Scribble43SketchMetadata, Scribble44Sketch, Scribble44SketchMetadata, Scribble45Sketch, Scribble45SketchMetadata, Scribble46Sketch, Scribble46SketchMetadata, Scribble47Sketch, Scribble47SketchMetadata, Scribble48Sketch, Scribble48SketchMetadata, Scribble49Sketch, Scribble49SketchMetadata, Scribble4Sketch, Scribble4SketchMetadata, Scribble50Sketch, Scribble50SketchMetadata, Scribble51Sketch, Scribble51SketchMetadata, Scribble52Sketch, Scribble52SketchMetadata, Scribble53Sketch, Scribble53SketchMetadata, Scribble54Sketch, Scribble54SketchMetadata, Scribble55Sketch, Scribble55SketchMetadata, Scribble56Sketch, Scribble56SketchMetadata, Scribble57Sketch, Scribble57SketchMetadata, Scribble58Sketch, Scribble58SketchMetadata, Scribble59Sketch, Scribble59SketchMetadata, Scribble5Sketch, Scribble5SketchMetadata, Scribble60Sketch, Scribble60SketchMetadata, Scribble61Sketch, Scribble61SketchMetadata, Scribble62Sketch, Scribble62SketchMetadata, Scribble63Sketch, Scribble63SketchMetadata, Scribble64Sketch, Scribble64SketchMetadata, Scribble65Sketch, Scribble65SketchMetadata, Scribble66Sketch, Scribble66SketchMetadata, Scribble67Sketch, Scribble67SketchMetadata, Scribble68Sketch, Scribble68SketchMetadata, Scribble69Sketch, Scribble69SketchMetadata, Scribble6Sketch, Scribble6SketchMetadata, Scribble70Sketch, Scribble70SketchMetadata, Scribble71Sketch, Scribble71SketchMetadata, Scribble72Sketch, Scribble72SketchMetadata, Scribble73Sketch, Scribble73SketchMetadata, Scribble74Sketch, Scribble74SketchMetadata, Scribble75Sketch, Scribble75SketchMetadata, Scribble76Sketch, Scribble76SketchMetadata, Scribble77Sketch, Scribble77SketchMetadata, Scribble78Sketch, Scribble78SketchMetadata, Scribble79Sketch, Scribble79SketchMetadata, Scribble7Sketch, Scribble7SketchMetadata, Scribble80Sketch, Scribble80SketchMetadata, Scribble81Sketch, Scribble81SketchMetadata, Scribble82Sketch, Scribble82SketchMetadata, Scribble83Sketch, Scribble83SketchMetadata, Scribble84Sketch, Scribble84SketchMetadata, Scribble85Sketch, Scribble85SketchMetadata, Scribble86Sketch, Scribble86SketchMetadata, Scribble87Sketch, Scribble87SketchMetadata, Scribble88Sketch, Scribble88SketchMetadata, Scribble89Sketch, Scribble89SketchMetadata, Scribble8Sketch, Scribble8SketchMetadata, Scribble90Sketch, Scribble90SketchMetadata, Scribble91Sketch, Scribble91SketchMetadata, Scribble92Sketch, Scribble92SketchMetadata, Scribble93Sketch, Scribble93SketchMetadata, Scribble94Sketch, Scribble94SketchMetadata, Scribble95Sketch, Scribble95SketchMetadata, Scribble96Sketch, Scribble96SketchMetadata, Scribble97Sketch, Scribble97SketchMetadata, Scribble98Sketch, Scribble98SketchMetadata, Scribble99Sketch, Scribble99SketchMetadata, Scribble9Sketch, Scribble9SketchMetadata, Star10Shapes, Star10ShapesMetadata, Star11Shapes, Star11ShapesMetadata, Star12Shapes, Star12ShapesMetadata, Star13Shapes, Star13ShapesMetadata, Star1Shapes, Star1ShapesMetadata, Star2Shapes, Star2ShapesMetadata, Star3Shapes, Star3ShapesMetadata, Star4Shapes, Star4ShapesMetadata, Star5Shapes, Star5ShapesMetadata, Star6Shapes, Star6ShapesMetadata, Star7Shapes, Star7ShapesMetadata, Star8Shapes, Star8ShapesMetadata, Star9Shapes, Star9ShapesMetadata, allVectors };

@@ -20,9 +20,7 @@ export { ClaudeAIWordmark, ClaudeAIWordmarkMetadata } from './ai/ClaudeAI_wordma
 export { DeepSeekWordmark, DeepSeekWordmarkMetadata } from './ai/DeepSeek_wordmark';
 export { Grok, GrokMetadata } from './ai/Grok';
 export { GrokWordmark, GrokWordmarkMetadata } from './ai/Grok_wordmark';
-export { HuggingFace, HuggingFaceMetadata } from './ai/Hugging-Face';
 export { Hume, HumeMetadata } from './ai/Hume';
-export { Midday, MiddayMetadata } from './ai/Midday';
 export { OpenAI, OpenAIMetadata } from './ai/OpenAI';
 export { OpenAIWordmark, OpenAIWordmarkMetadata } from './ai/OpenAI_wordmark';
 export { PerplexityAI, PerplexityAIMetadata } from './ai/PerplexityAI';
@@ -36,7 +34,9 @@ export { TogetherAIWordmark, TogetherAIWordmarkMetadata } from './ai/TogetherAI_
 export { Windsurf, WindsurfMetadata } from './ai/Windsurf';
 export { WindsurfWordmark, WindsurfWordmarkMetadata } from './ai/Windsurf_wordmark';
 export { Deepseek, DeepseekMetadata } from './ai/deepseek';
+export { HuggingFace, HuggingFaceMetadata } from './ai/hugging-face';
 export { Lovable, LovableMetadata } from './ai/lovable';
+export { Midday, MiddayMetadata } from './ai/midday';
 export { XAIGrok, XAIGrokMetadata } from './ai/xAI-Grok';
 export { Arc, ArcMetadata } from './browser/Arc';
 export { Bing, BingMetadata } from './browser/Bing';
@@ -586,9 +586,7 @@ import { ClaudeAIWordmark, ClaudeAIWordmarkMetadata } from './ai/ClaudeAI_wordma
 import { DeepSeekWordmark, DeepSeekWordmarkMetadata } from './ai/DeepSeek_wordmark';
 import { Grok, GrokMetadata } from './ai/Grok';
 import { GrokWordmark, GrokWordmarkMetadata } from './ai/Grok_wordmark';
-import { HuggingFace, HuggingFaceMetadata } from './ai/Hugging-Face';
 import { Hume, HumeMetadata } from './ai/Hume';
-import { Midday, MiddayMetadata } from './ai/Midday';
 import { OpenAI, OpenAIMetadata } from './ai/OpenAI';
 import { OpenAIWordmark, OpenAIWordmarkMetadata } from './ai/OpenAI_wordmark';
 import { PerplexityAI, PerplexityAIMetadata } from './ai/PerplexityAI';
@@ -602,7 +600,9 @@ import { TogetherAIWordmark, TogetherAIWordmarkMetadata } from './ai/TogetherAI_
 import { Windsurf, WindsurfMetadata } from './ai/Windsurf';
 import { WindsurfWordmark, WindsurfWordmarkMetadata } from './ai/Windsurf_wordmark';
 import { Deepseek, DeepseekMetadata } from './ai/deepseek';
+import { HuggingFace, HuggingFaceMetadata } from './ai/hugging-face';
 import { Lovable, LovableMetadata } from './ai/lovable';
+import { Midday, MiddayMetadata } from './ai/midday';
 import { XAIGrok, XAIGrokMetadata } from './ai/xAI-Grok';
 import { Arc, ArcMetadata } from './browser/Arc';
 import { Bing, BingMetadata } from './browser/Bing';
@@ -1157,9 +1157,7 @@ export const allLogos = {
     DeepSeekWordmark: { Component: DeepSeekWordmark, metadata: DeepSeekWordmarkMetadata },
     Grok: { Component: Grok, metadata: GrokMetadata },
     GrokWordmark: { Component: GrokWordmark, metadata: GrokWordmarkMetadata },
-    HuggingFace: { Component: HuggingFace, metadata: HuggingFaceMetadata },
     Hume: { Component: Hume, metadata: HumeMetadata },
-    Midday: { Component: Midday, metadata: MiddayMetadata },
     OpenAI: { Component: OpenAI, metadata: OpenAIMetadata },
     OpenAIWordmark: { Component: OpenAIWordmark, metadata: OpenAIWordmarkMetadata },
     PerplexityAI: { Component: PerplexityAI, metadata: PerplexityAIMetadata },
@@ -1173,7 +1171,9 @@ export const allLogos = {
     Windsurf: { Component: Windsurf, metadata: WindsurfMetadata },
     WindsurfWordmark: { Component: WindsurfWordmark, metadata: WindsurfWordmarkMetadata },
     Deepseek: { Component: Deepseek, metadata: DeepseekMetadata },
+    HuggingFace: { Component: HuggingFace, metadata: HuggingFaceMetadata },
     Lovable: { Component: Lovable, metadata: LovableMetadata },
+    Midday: { Component: Midday, metadata: MiddayMetadata },
     XAIGrok: { Component: XAIGrok, metadata: XAIGrokMetadata },
   },
   browser: {

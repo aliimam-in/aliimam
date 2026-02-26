@@ -1,8 +1,3 @@
-/**
- * Auto-generated logo component: Star5 (shapes)
- * Category: stars
- * Do not edit manually
- */
 
 'use client';
 import React from 'react';
@@ -19,7 +14,7 @@ export const Star5Shapes = React.forwardRef<SVGSVGElement, Star5ShapesProps>(
       width={size}
       height={size}
       viewBox="0 0 24 24"
-      fill="none"
+      
       className={className}
       xmlns="http://www.w3.org/2000/svg" 
       {...props}

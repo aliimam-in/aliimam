@@ -24,7 +24,7 @@ export const Vercel = React.forwardRef<SVGSVGElement, VercelProps>(
       xmlns="http://www.w3.org/2000/svg" 
       {...props}
     >
-      <path d="M12 2L24 22.9721H0L12 2Z"/>
+      <path d="M12 2L24 22.9721H0L12 2Z"  fill="currentColor"/>
     </svg>
   )
 );

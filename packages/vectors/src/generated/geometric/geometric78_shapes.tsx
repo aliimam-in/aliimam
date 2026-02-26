@@ -1,8 +1,3 @@
-/**
- * Auto-generated logo component: Geometric78 (shapes)
- * Category: geometric
- * Do not edit manually
- */
 
 'use client';
 import React from 'react';
@@ -19,7 +14,7 @@ export const Geometric78Shapes = React.forwardRef<SVGSVGElement, Geometric78Shap
       width={size}
       height={size}
       viewBox="0 0 357 713"
-      fill="none"
+      
       className={className}
       xmlns="http://www.w3.org/2000/svg" 
       {...props}

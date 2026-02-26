@@ -1,8 +1,3 @@
-/**
- * Auto-generated logo component: Abstract104 (shapes)
- * Category: abstract
- * Do not edit manually
- */
 
 'use client';
 import React from 'react';
@@ -19,7 +14,7 @@ export const Abstract104Shapes = React.forwardRef<SVGSVGElement, Abstract104Shap
       width={size}
       height={size}
       viewBox="0 0 23 23"
-      fill="none"
+      fill="currentColor"
       className={className}
       xmlns="http://www.w3.org/2000/svg" 
       {...props}

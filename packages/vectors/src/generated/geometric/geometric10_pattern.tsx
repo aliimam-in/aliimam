@@ -1,8 +1,3 @@
-/**
- * Auto-generated logo component: Geometric10 (pattern)
- * Category: geometric
- * Do not edit manually
- */
 
 'use client';
 import React from 'react';
@@ -19,7 +14,7 @@ export const Geometric10Pattern = React.forwardRef<SVGSVGElement, Geometric10Pat
       width={size}
       height={size}
       viewBox="0 0 500 500"
-      fill="none"
+      
       className={className}
       xmlns="http://www.w3.org/2000/svg" 
       {...props}

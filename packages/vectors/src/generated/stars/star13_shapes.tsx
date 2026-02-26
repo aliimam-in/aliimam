@@ -1,8 +1,3 @@
-/**
- * Auto-generated logo component: Star13 (shapes)
- * Category: stars
- * Do not edit manually
- */
 
 'use client';
 import React from 'react';
@@ -19,7 +14,7 @@ export const Star13Shapes = React.forwardRef<SVGSVGElement, Star13ShapesProps>(
       width={size}
       height={size}
       viewBox="0 0 24 24"
-      fill="none"
+      fill="currentColor"
       className={className}
       xmlns="http://www.w3.org/2000/svg" 
       {...props}

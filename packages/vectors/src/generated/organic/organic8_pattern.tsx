@@ -1,8 +1,3 @@
-/**
- * Auto-generated logo component: Organic8 (pattern)
- * Category: organic
- * Do not edit manually
- */
 
 'use client';
 import React from 'react';
@@ -19,7 +14,7 @@ export const Organic8Pattern = React.forwardRef<SVGSVGElement, Organic8PatternPr
       width={size}
       height={size}
       viewBox="0 0 500 500"
-      fill="none"
+      
       className={className}
       xmlns="http://www.w3.org/2000/svg" 
       {...props}

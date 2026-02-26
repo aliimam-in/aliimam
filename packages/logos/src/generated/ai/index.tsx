@@ -6,9 +6,7 @@ export { ClaudeAIWordmark, ClaudeAIWordmarkMetadata, type ClaudeAIWordmarkProps 
 export { DeepSeekWordmark, DeepSeekWordmarkMetadata, type DeepSeekWordmarkProps } from './DeepSeek_wordmark';
 export { Grok, GrokMetadata, type GrokProps } from './Grok';
 export { GrokWordmark, GrokWordmarkMetadata, type GrokWordmarkProps } from './Grok_wordmark';
-export { HuggingFace, HuggingFaceMetadata, type HuggingFaceProps } from './Hugging-Face';
 export { Hume, HumeMetadata, type HumeProps } from './Hume';
-export { Midday, MiddayMetadata, type MiddayProps } from './Midday';
 export { OpenAI, OpenAIMetadata, type OpenAIProps } from './OpenAI';
 export { OpenAIWordmark, OpenAIWordmarkMetadata, type OpenAIWordmarkProps } from './OpenAI_wordmark';
 export { PerplexityAI, PerplexityAIMetadata, type PerplexityAIProps } from './PerplexityAI';
@@ -22,5 +20,7 @@ export { TogetherAIWordmark, TogetherAIWordmarkMetadata, type TogetherAIWordmark
 export { Windsurf, WindsurfMetadata, type WindsurfProps } from './Windsurf';
 export { WindsurfWordmark, WindsurfWordmarkMetadata, type WindsurfWordmarkProps } from './Windsurf_wordmark';
 export { Deepseek, DeepseekMetadata, type DeepseekProps } from './deepseek';
+export { HuggingFace, HuggingFaceMetadata, type HuggingFaceProps } from './hugging-face';
 export { Lovable, LovableMetadata, type LovableProps } from './lovable';
+export { Midday, MiddayMetadata, type MiddayProps } from './midday';
 export { XAIGrok, XAIGrokMetadata, type XAIGrokProps } from './xAI-Grok';

@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-02-26T10:13:13.083Z",
+  "lastUpdated": "2026-02-26T12:01:20.841Z",
   "logos": [
     {
       "id": "adobe-after-effects",
@@ -223,33 +223,11 @@
       "viewBox": "0 0 62 24"
     },
     {
-      "id": "Hugging-Face",
-      "baseId": "Hugging-Face",
-      "variant": "default",
-      "name": "Hugging Face",
-      "path": "./generated/ai/Hugging-Face.tsx",
-      "category": "ai",
-      "url": "",
-      "tags": [],
-      "viewBox": "0 0 24 24"
-    },
-    {
       "id": "Hume",
       "baseId": "Hume",
       "variant": "default",
       "name": "Hume",
       "path": "./generated/ai/Hume.tsx",
-      "category": "ai",
-      "url": "",
-      "tags": [],
-      "viewBox": "0 0 24 24"
-    },
-    {
-      "id": "Midday",
-      "baseId": "Midday",
-      "variant": "default",
-      "name": "Midday",
-      "path": "./generated/ai/Midday.tsx",
       "category": "ai",
       "url": "",
       "tags": [],
@@ -399,6 +377,17 @@
       "viewBox": "0 0 24 24"
     },
     {
+      "id": "hugging-face",
+      "baseId": "hugging-face",
+      "variant": "default",
+      "name": "Hugging Face",
+      "path": "./generated/ai/hugging-face.tsx",
+      "category": "ai",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
       "id": "lovable",
       "baseId": "lovable",
       "variant": "default",
@@ -408,6 +397,17 @@
       "url": "",
       "tags": [],
       "viewBox": "0 0 121 122"
+    },
+    {
+      "id": "midday",
+      "baseId": "midday",
+      "variant": "default",
+      "name": "Midday",
+      "path": "./generated/ai/midday.tsx",
+      "category": "ai",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 24 24"
     },
     {
       "id": "xAI-Grok",

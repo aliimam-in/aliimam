@@ -40,8 +40,8 @@ export const Midday = React.forwardRef<SVGSVGElement, MiddayProps>(
 Midday.displayName = "Midday";
 
 export const MiddayMetadata = {
-  id: "Midday",
-  baseId: "Midday",
+  id: "midday",
+  baseId: "midday",
   variant: "default",
   name: "Midday",
   category: "ai",

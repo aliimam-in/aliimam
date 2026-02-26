@@ -45,8 +45,9 @@ export function VectorControlsPanel({
 
       <div className="flex flex-wrap items-center justify-between gap-2">
         <ColorPicker
-          value={color === "currentColor" ? "#000000" : color}
+          value={color === "currentColor" ? "currentColor" : color}
           onValueChange={onColorChange}
+          defaultValue="currentColor"
           format="hex"
         >
           <div className="flex gap-2">

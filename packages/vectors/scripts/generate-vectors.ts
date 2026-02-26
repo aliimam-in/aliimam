@@ -79,6 +79,7 @@ function extractInnerSVG(svg: string): string {
     .replace(/<!DOCTYPE[\s\S]*?>/g, "")
     .replace(/<!--[\s\S]*?-->/g, "")
     .replace(/<style[\s\S]*?<\/style>/g, "")
+    .replace(/class="[^"]*"/g, "")
     .replace(/<metadata[\s\S]*?<\/metadata>/g, "")
     .replace(/<sodipodi:namedview[\s\S]*?<\/sodipodi:namedview>/g, "")
     .replace(/<rdf:RDF[\s\S]*?<\/rdf:RDF>/g, "")
@@ -218,7 +219,7 @@ interface LogoJSON {
   baseId: string
   variant: string
   name: string
-  path: string 
+  path: string
   category: string
   tags?: string[]
   viewBox?: string
@@ -243,22 +244,12 @@ const categories = fs
 // Collect all logos from all category folders
 // ------------------------
 
- function toKebabCase(str: string) {
-  return str
-    .replace(/([a-z])([A-Z])/g, "$1-$2") // camelCase → camel-Case
-    .replace(/\s+/g, "-") // spaces → dash
-    .replace(/_/g, "-") // underscore → dash
-    .replace(/[^a-zA-Z0-9-]/g, "") // remove weird chars
-    .toLowerCase()
-}
-
 for (const category of categories) {
   const categoryPath = path.join(LOGOS_DIR, category)
   const files = fs.readdirSync(categoryPath).filter((f) => f.endsWith(".svg"))
 
   for (const file of files) {
-    const rawBasename = path.basename(file, ".svg")
-        const basename = toKebabCase(rawBasename)
+    const basename = path.basename(file, ".svg")
     const rawSvg = fs.readFileSync(path.join(categoryPath, file), "utf-8")
     const svgContent = convertSvgAttributes(extractInnerSVG(rawSvg))
     const existing = existingMap.get(`${category}/${basename}`)
@@ -273,7 +264,7 @@ for (const category of categories) {
         .map((p: string) => p.charAt(0).toUpperCase() + p.slice(1))
         .join(" "),
       path: `./generated/${category}/${basename}.tsx`,
-      category, 
+      category,
       tags: existing?.tags || [],
       viewBox: extractViewBox(rawSvg),
       svgContent,
@@ -319,7 +310,7 @@ fs.writeFileSync(
         variant: l.variant,
         name: l.name,
         path: l.path,
-        category: l.category, 
+        category: l.category,
         tags: l.tags,
         viewBox: l.viewBox,
       })),
@@ -344,12 +335,19 @@ for (const category of categories) {
   for (const logo of categoryLogos) {
     const componentName = toComponentName(logo.id)
 
-    const componentCode = `/**
- * Auto-generated logo component: ${logo.name} (${logo.variant})
- * Category: ${logo.category}
- * Do not edit manually
- */
+    const content = logo.svgContent || ""
 
+    const hasCurrentColor = /fill\s*=\s*["']currentColor["']/i.test(content)
+    const hasAnyFill = /fill\s*=/.test(content)
+
+    let svgFillAttribute = ""
+
+    if (!hasCurrentColor && !hasAnyFill) {
+      // No fill at all → inject currentColor
+      svgFillAttribute = `fill="currentColor"`
+    }
+
+    const componentCode = `
 'use client';
 import React from 'react';
 
@@ -365,7 +363,7 @@ export const ${componentName} = React.forwardRef<SVGSVGElement, ${componentName}
       width={size}
       height={size}
       viewBox="${logo.viewBox}"
-      fill="none"
+      ${svgFillAttribute}
       className={className}
       xmlns="http://www.w3.org/2000/svg" 
       {...props}
