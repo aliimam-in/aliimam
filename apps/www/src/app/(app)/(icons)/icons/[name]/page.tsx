@@ -3,11 +3,11 @@
 
 import { useMemo, useState } from "react"
 import { useParams, useRouter } from "next/navigation"
-import { allLogos } from "@aliimam/icons"
-import { IconCode } from "@/src/components/icons/icon-code"
-import { IconViewControlsPanel } from "@/src/components/icons/icon-controls"
-import { IconDownloadPanel } from "@/src/components/icons/icon-download"
-import { Icons } from "@/src/components/icons/icons"
+import { allIcons } from "@aliimam/icons"
+import { IconCode } from "@/src/components/icons/icons/icon-code"
+import { IconViewControlsPanel } from "@/src/components/icons/icons/icon-controls"
+import { IconDownloadPanel } from "@/src/components/icons/icons/icon-download"
+import { Icons } from "@/src/components/icons/icons/icons"
 import { IconGridLines } from "@/src/components/logos"
 
 import { Button } from "@/registry/aliimam/ui/button"
@@ -15,7 +15,7 @@ import { Button } from "@/registry/aliimam/ui/button"
 function getAllEntries() {
   const entries: { baseId: string; category: string; tags: string[] }[] = []
   const seen = new Set<string>()
-  Object.entries(allLogos).forEach(([cat, logos]) => {
+  Object.entries(allIcons).forEach(([cat, logos]) => {
     Object.values(logos).forEach((entry: any) => {
       const { baseId, tags } = entry.metadata
       if (!seen.has(baseId)) {
@@ -29,7 +29,7 @@ function getAllEntries() {
 
 function getMetadata(name: string) {
   let fallback = null
-  for (const logos of Object.values(allLogos)) {
+  for (const logos of Object.values(allIcons)) {
     for (const entry of Object.values(logos)) {
       const e = entry as any
       if (e.metadata.baseId === name) {

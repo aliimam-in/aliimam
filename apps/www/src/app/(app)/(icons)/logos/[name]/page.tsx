@@ -4,10 +4,10 @@
 import { useMemo, useState } from "react"
 import { useParams, useRouter } from "next/navigation"
 import { allLogos } from "@aliimam/logos"
-import { IconCode } from "@/src/components/icons/icon-code"
-import { LogoViewControlsPanel } from "@/src/components/icons/logo-controls"
-import { LogoDownloadPanel } from "@/src/components/icons/logo-download"
-import { Logos } from "@/src/components/icons/logos"
+import { LogoCode } from "@/src/components/icons/logos/logo-code"
+import { LogoViewControlsPanel } from "@/src/components/icons/logos/logo-controls"
+import { LogoDownloadPanel } from "@/src/components/icons/logos/logo-download"
+import { Logos } from "@/src/components/icons/logos/logos"
 import { IconGridLines } from "@/src/components/logos"
 
 import { Button } from "@/registry/aliimam/ui/button"
@@ -167,7 +167,7 @@ export default function LogoDetailPage() {
         </div>
       </div>
 
-      <IconCode
+      <LogoCode
         iconName={activeId}
         size={size}
         color={color}

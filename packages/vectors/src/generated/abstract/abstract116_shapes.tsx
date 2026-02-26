@@ -1,0 +1,44 @@
+/**
+ * Auto-generated logo component: Abstract116 (shapes)
+ * Category: abstract
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface Abstract116ShapesProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string; 
+}
+
+export const Abstract116Shapes = React.forwardRef<SVGSVGElement, Abstract116ShapesProps>(
+  ({ size = 24, className = '', ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 23 23"
+      fill="none"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg" 
+      {...props}
+    >
+      <path d="M16.1248 16.1754C14.9403 17.36 13.3087 18.0901 11.5018 18.0901C9.69497 18.0901 8.06333 17.36 6.87884 16.1754C5.69617 14.9908 4.9643 13.359 4.9643 11.552C4.9643 9.74503 5.69617 8.11324 6.87884 6.92865C8.06333 5.74406 9.69497 5.01396 11.5018 5.01396C13.3087 5.01396 14.9403 5.74406 16.1248 6.92865C17.3093 8.11324 18.0394 9.74503 18.0394 11.552C18.0394 13.359 17.3093 14.9908 16.1248 16.1754ZM18.8606 11.0811C18.627 7.36488 15.643 4.39702 11.9198 4.18712V0H11.0802V4.18712C7.357 4.39702 4.37479 7.36488 4.13935 11.0811H0V11.9207H4.13204C4.31638 15.6844 7.32232 18.7052 11.0802 18.9169V23H11.9198V18.9169C15.6777 18.7052 18.6818 15.6844 18.868 11.9207H23V11.0811H18.8606Z" />
+    </svg>
+  )
+);
+
+Abstract116Shapes.displayName = "Abstract116Shapes";
+
+export const Abstract116ShapesMetadata = {
+  id: "abstract116_shapes",
+  baseId: "abstract116",
+  variant: "shapes",
+  name: "Abstract116",
+  category: "abstract",
+  tags: [],
+  viewBox: "0 0 23 23",
+} as const;
+
+export default Abstract116Shapes;

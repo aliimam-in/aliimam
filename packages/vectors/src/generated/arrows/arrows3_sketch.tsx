@@ -1,0 +1,44 @@
+/**
+ * Auto-generated logo component: Arrows3 (sketch)
+ * Category: arrows
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface Arrows3SketchProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string; 
+}
+
+export const Arrows3Sketch = React.forwardRef<SVGSVGElement, Arrows3SketchProps>(
+  ({ size = 24, className = '', ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 500 500"
+      fill="none"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg" 
+      {...props}
+    >
+      <path fillRule="evenodd" clipRule="evenodd" d="M238.843 154.816C233.01 159.483 137.344 204.483 124.177 208.65C104.677 214.983 125.01 226.317 153.51 224.983L172.01 224.15L165.343 229.817C154.01 239.65 142.844 245.317 135.01 245.317C126.51 245.317 34.01 252.483 31.51 254.483C16.5101 266.983 45.3432 280.317 88.8432 318.317C123.01 348.317 159.51 352.983 287.01 343.483C395.843 335.483 391.343 337.15 444.01 283.983C452.843 274.983 459.343 268.483 464.01 263.65C480.677 245.65 467.177 237.65 456.177 237.15C425.677 235.817 374.51 234.983 345.177 235.15C325.01 235.317 314.843 228.317 346.01 222.317C358.677 219.817 372.343 218.983 374.343 218.983C390.01 219.15 371.843 207.983 346.51 200.317C322.01 192.817 291.677 178.983 264.343 162.65C245.177 151.15 243.843 150.816 238.843 154.816ZM332.177 211.65C346.343 219.483 305.677 212.317 302.843 217.983C300.01 223.65 305.843 227.317 313.343 235.15L170.677 244.15C176.677 240.317 182.01 236.483 197.01 228.817C220.843 216.65 204.177 207.15 177.343 207.15C222.01 180.983 246.343 167.983 249.343 167.317C249.343 167.15 331.843 211.483 332.177 211.65ZM444.177 253.483C454.177 253.817 448.177 260.983 415.51 288.317C381.51 316.65 377.51 317.817 304.177 322.817C283.343 324.15 259.343 326.15 250.843 326.983C159.01 336.65 118.343 328.317 77.1765 291.65L52.1765 269.483C122.343 265.317 311.177 249.817 444.177 253.483Z" />
+    </svg>
+  )
+);
+
+Arrows3Sketch.displayName = "Arrows3Sketch";
+
+export const Arrows3SketchMetadata = {
+  id: "arrows3_sketch",
+  baseId: "arrows3",
+  variant: "sketch",
+  name: "Arrows3",
+  category: "arrows",
+  tags: [],
+  viewBox: "0 0 500 500",
+} as const;
+
+export default Arrows3Sketch;

@@ -1,0 +1,44 @@
+/**
+ * Auto-generated logo component: Organic3 (shapes)
+ * Category: organic
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface Organic3ShapesProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string; 
+}
+
+export const Organic3Shapes = React.forwardRef<SVGSVGElement, Organic3ShapesProps>(
+  ({ size = 24, className = '', ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 300 300"
+      fill="none"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg" 
+      {...props}
+    >
+      <path fillRule="evenodd" clipRule="evenodd" d="M220.01 5.58853C187.515 -2.72244 179.651 15.9813 175.182 22.2387C161.867 40.8785 167.636 73.6565 153.408 85.8516C124.088 110.983 55.6465 99.0464 49.2369 143.914C47.509 156.009 52.0102 170.2 61.1911 178.069C65.8484 182.061 69.5344 185.163 75.2796 189.169C107.928 211.939 150.408 187.661 173.474 216.493C188.822 235.677 171.423 276.305 203.786 292.487C208.755 294.971 214.294 297.146 220.01 296.329C245.095 292.745 245.741 268.448 250.749 245.951C257.194 217.001 242.623 197.229 234.952 171.665C228.483 150.1 224.787 125.087 226.84 102.502C228.859 80.2985 253.894 56.6995 241.784 30.7772C236.28 18.9967 232.338 8.74151 220.01 5.58853Z" fill="#944D21"/>
+    </svg>
+  )
+);
+
+Organic3Shapes.displayName = "Organic3Shapes";
+
+export const Organic3ShapesMetadata = {
+  id: "organic3_shapes",
+  baseId: "organic3",
+  variant: "shapes",
+  name: "Organic3",
+  category: "organic",
+  tags: [],
+  viewBox: "0 0 300 300",
+} as const;
+
+export default Organic3Shapes;

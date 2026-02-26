@@ -1,0 +1,44 @@
+/**
+ * Auto-generated logo component: Abstract5 (shapes)
+ * Category: abstract
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface Abstract5ShapesProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string; 
+}
+
+export const Abstract5Shapes = React.forwardRef<SVGSVGElement, Abstract5ShapesProps>(
+  ({ size = 24, className = '', ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg" 
+      {...props}
+    >
+      <path d="M12 0.346668C9.82476 0.346668 8.06094 5.56381 8.06094 12C8.06094 18.4362 9.82476 23.6533 12 23.6533C14.1752 23.6533 15.9391 18.4362 15.9391 12C15.9391 5.56381 14.1752 0.346668 12 0.346668ZM7.94475 24V0H16.0572V24H7.94475ZM12 8.17714C5.56381 8.17714 0.346656 9.94095 0.346656 12.1162C0.346656 14.2914 5.56381 16.0552 12 16.0552C18.4362 16.0552 23.6533 14.2914 23.6533 12.1162C23.6533 9.94095 18.4362 8.17714 12 8.17714ZM0 16.1733V8.06095H24V16.1733H0Z" />
+    </svg>
+  )
+);
+
+Abstract5Shapes.displayName = "Abstract5Shapes";
+
+export const Abstract5ShapesMetadata = {
+  id: "abstract5_shapes",
+  baseId: "abstract5",
+  variant: "shapes",
+  name: "Abstract5",
+  category: "abstract",
+  tags: [],
+  viewBox: "0 0 24 24",
+} as const;
+
+export default Abstract5Shapes;

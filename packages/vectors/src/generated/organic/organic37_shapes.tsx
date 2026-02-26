@@ -1,0 +1,44 @@
+/**
+ * Auto-generated logo component: Organic37 (shapes)
+ * Category: organic
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface Organic37ShapesProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string; 
+}
+
+export const Organic37Shapes = React.forwardRef<SVGSVGElement, Organic37ShapesProps>(
+  ({ size = 24, className = '', ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 300 600"
+      fill="none"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg" 
+      {...props}
+    >
+      <path fillRule="evenodd" clipRule="evenodd" d="M88.7859 564.679C88.1976 551.248 88.7859 445.941 88.7859 432.49C88.7859 395.266 89.6494 358.144 83.6549 321.572C79.7874 297.979 66.5502 273.442 55.1856 254.647C43.171 234.777 -6.13306 189.713 7.6149 157.568C23.736 119.875 62.1492 176.799 73.7535 191.858C74.3587 192.644 80.4399 200.465 82.0633 197.639C99.1456 167.91 18.8322 46.2258 63.6718 42.9339C96.722 40.5082 107.087 80.2864 120.085 113.165C124.113 123.351 127.379 133.709 130.167 144.559C131.168 148.456 132.284 152.27 132.821 156.333C133.013 157.788 132.674 161.643 133.526 160.666C134.195 159.899 133.526 151.37 133.526 150.34C133.526 135.235 132.536 119.579 134.765 104.696C135.876 97.2761 138.173 59.0884 148.5 40.9651C153.964 31.3752 166.57 32.0247 171.725 35.7059C184.67 44.9493 182.656 114.608 181.273 130.512C180.371 140.887 179.017 151.162 177.914 161.496C177.404 166.273 177.209 171.388 177.209 170.998C177.209 147.682 209.952 60.2461 232.207 72.2632C243.439 78.3282 232.613 146.378 230.082 156.535C228.15 164.291 225.305 171.79 223.717 179.669C223.108 182.69 221.539 191.603 222.831 188.968C231.351 171.584 262.336 104.397 290.388 117.705C303.493 123.922 295.129 143.975 293.924 154.678C286.578 219.919 228.665 243.86 214.344 319.091C207.77 353.631 206.241 389.533 204.086 424.847C203.359 436.762 205.02 552.353 204.512 564.265C204.412 566.585 88.7859 564.679 88.7859 564.679Z" fill="#666B64"/>
+    </svg>
+  )
+);
+
+Organic37Shapes.displayName = "Organic37Shapes";
+
+export const Organic37ShapesMetadata = {
+  id: "organic37_shapes",
+  baseId: "organic37",
+  variant: "shapes",
+  name: "Organic37",
+  category: "organic",
+  tags: [],
+  viewBox: "0 0 300 600",
+} as const;
+
+export default Organic37Shapes;

@@ -2737,7 +2737,7 @@ export { ZodiacScorpio, ZodiacScorpioMetadata, type ZodiacScorpioProps } from '.
 export { ZodiacTaurus, ZodiacTaurusMetadata, type ZodiacTaurusProps } from './zodiac/zodiac-taurus';
 export { ZodiacVirgo, ZodiacVirgoMetadata, type ZodiacVirgoProps } from './zodiac/zodiac-virgo';
 
-// Internal imports for allLogos object
+// Internal imports for allIcons object
 import { AlignBoxBottomCenterFilled, AlignBoxBottomCenterFilledMetadata } from './align/align-box-bottom-center_filled';
 import { AlignBoxBottomLeftFilled, AlignBoxBottomLeftFilledMetadata } from './align/align-box-bottom-left_filled';
 import { AlignBoxBottomRightFilled, AlignBoxBottomRightFilledMetadata } from './align/align-box-bottom-right_filled';
@@ -5460,7 +5460,7 @@ import { ZodiacScorpio, ZodiacScorpioMetadata } from './zodiac/zodiac-scorpio';
 import { ZodiacTaurus, ZodiacTaurusMetadata } from './zodiac/zodiac-taurus';
 import { ZodiacVirgo, ZodiacVirgoMetadata } from './zodiac/zodiac-virgo';
 
-export const allLogos: Record<string, Record<string, LogoEntry>> = {
+export const allIcons: Record<string, Record<string, LogoEntry>> = {
   align: {
     AlignBoxBottomCenterFilled: { Component: AlignBoxBottomCenterFilled, metadata: AlignBoxBottomCenterFilledMetadata },
     AlignBoxBottomLeftFilled: { Component: AlignBoxBottomLeftFilled, metadata: AlignBoxBottomLeftFilledMetadata },

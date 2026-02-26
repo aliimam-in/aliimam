@@ -1,0 +1,47 @@
+/**
+ * Auto-generated logo component: Canada (symbols)
+ * Category: flags
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface CanadaSymbolsProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string; 
+}
+
+export const CanadaSymbols = React.forwardRef<SVGSVGElement, CanadaSymbolsProps>(
+  ({ size = 24, className = '', ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 32 32"
+      fill="none"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg" 
+      {...props}
+    >
+      <path d="M8 4H24V28H8V4Z" fill="white"/>
+<path d="M5 4H9V28H5C2.792 28 1 26.208 1 24V8C1 5.792 2.792 4 5 4Z" fill="#C53A28"/>
+<path d="M27 28H23L23 4H27C29.208 4 31 5.792 31 8L31 24C31 26.208 29.208 28 27 28Z" fill="#C53A28"/>
+<path d="M16.275 22.167L16.137 19.526C16.13 19.366 16.254 19.23 16.414 19.222C16.435 19.222 16.456 19.222 16.477 19.226L19.106 19.688L18.751 18.709C18.721 18.629 18.746 18.539 18.812 18.486L21.692 16.154L21.043 15.851C20.952 15.808 20.908 15.705 20.939 15.609L21.508 13.858L19.849 14.21C19.756 14.229 19.663 14.181 19.626 14.094L19.305 13.338L18.01 14.727C17.934 14.807 17.809 14.81 17.729 14.734C17.68 14.687 17.658 14.619 17.671 14.552L18.295 11.332L17.294 11.91C17.199 11.966 17.077 11.934 17.022 11.839C17.02 11.835 17.018 11.831 17.016 11.827L16 9.83203L14.984 11.827C14.935 11.925 14.815 11.965 14.717 11.916C14.713 11.914 14.709 11.912 14.705 11.91L13.704 11.332L14.328 14.552C14.349 14.66 14.278 14.764 14.17 14.785C14.103 14.798 14.035 14.776 13.988 14.727L12.693 13.338L12.372 14.094C12.335 14.181 12.241 14.23 12.149 14.21L10.49 13.858L11.059 15.609C11.09 15.704 11.046 15.808 10.955 15.851L10.306 16.154L13.186 18.486C13.252 18.54 13.277 18.63 13.247 18.709L12.892 19.688L15.521 19.226C15.679 19.199 15.83 19.305 15.857 19.463C15.861 19.484 15.862 19.505 15.861 19.526L15.723 22.167H16.275Z" fill="#C53A28"/>
+    </svg>
+  )
+);
+
+CanadaSymbols.displayName = "CanadaSymbols";
+
+export const CanadaSymbolsMetadata = {
+  id: "Canada_symbols",
+  baseId: "Canada",
+  variant: "symbols",
+  name: "Canada",
+  category: "flags",
+  tags: [],
+  viewBox: "0 0 32 32",
+} as const;
+
+export default CanadaSymbols;

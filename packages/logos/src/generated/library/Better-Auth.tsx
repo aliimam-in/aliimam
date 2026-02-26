@@ -25,7 +25,7 @@ export const BetterAuth = React.forwardRef<SVGSVGElement, BetterAuthProps>(
       {...props}
     >
       <g clipPath="url(#clip0_2066_924)">
-<path d="M0 0H24V24H0V0Z" fill="black"/>
+<path d="M0 0H24V24H0V0Z" />
 <path d="M3.31201 5.80798H7.48744V18.24H3.31201V5.80798ZM16.2036 5.80798H20.64V18.24H16.2036V5.80798Z" fill="white"/>
 <path d="M20.5095 5.80798V9.81387H12.1326V5.80798H20.5095ZM20.64 14.2341V18.24H12.1326V14.2341H20.64Z" fill="white"/>
 <path d="M12.1325 9.81384V14.2341H7.4873V9.81384H12.1325Z" fill="white"/>

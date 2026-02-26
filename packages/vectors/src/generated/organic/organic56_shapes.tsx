@@ -1,0 +1,44 @@
+/**
+ * Auto-generated logo component: Organic56 (shapes)
+ * Category: organic
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface Organic56ShapesProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string; 
+}
+
+export const Organic56Shapes = React.forwardRef<SVGSVGElement, Organic56ShapesProps>(
+  ({ size = 24, className = '', ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 300 300"
+      fill="none"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg" 
+      {...props}
+    >
+      <path fillRule="evenodd" clipRule="evenodd" d="M161.577 156.511C107.078 193.906 107.548 184.894 52.6031 189.334C41.5253 190.229 1.99189 182.547 0.270761 188.046C-3.39623 199.753 31.1237 234.078 46.9284 247.249C101.832 293.002 154.7 311.68 224.92 285.348C283.485 263.385 305.809 188.95 298.735 132.359C296.364 113.395 289.154 88.2896 284.766 69.9678C276.454 35.2644 262.213 5.88353 254.684 3.18105C248.789 1.06663 245.989 18.0868 245.159 22.2314C240.541 45.327 235.102 69.7262 224.324 91.2842C221.084 97.7661 214.381 107.087 210.385 113.084C197.925 131.773 180.406 143.59 161.577 156.511Z" fill="#DBB375"/>
+    </svg>
+  )
+);
+
+Organic56Shapes.displayName = "Organic56Shapes";
+
+export const Organic56ShapesMetadata = {
+  id: "organic56_shapes",
+  baseId: "organic56",
+  variant: "shapes",
+  name: "Organic56",
+  category: "organic",
+  tags: [],
+  viewBox: "0 0 300 300",
+} as const;
+
+export default Organic56Shapes;

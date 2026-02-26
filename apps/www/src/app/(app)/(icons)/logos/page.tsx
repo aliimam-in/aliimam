@@ -2,25 +2,23 @@
 
 import { useEffect, useState } from "react"
 import { useRouter, useSearchParams } from "next/navigation"
-import { LogoCategoryTabs } from "@/src/components/icons/logo-category"
+import { LogoCategoryTabs } from "@/src/components/icons/logos/logo-category"
 import {
   LogoPreview,
   LogoPreviewPhone,
-} from "@/src/components/icons/logo-preview"
-import { LogoSearch } from "@/src/components/icons/logo-search"
+} from "@/src/components/icons/logos/logo-preview"
+import { LogoSearch } from "@/src/components/icons/logos/logo-search"
 import { IconsNav } from "@/src/components/icons/icons-nav"
-import { LogoGrid } from "@/src/components/icons/main-logos"
-import { useLogoFilter } from "@/src/components/icons/logo-filter-context"
+import { LogoGrid } from "@/src/components/icons/logos/main-logos"
+import { useLogoFilter } from "@/src/components/icons/logos/logo-filter-context"
 import { Tabs, TabsList, TabsTrigger } from "@/registry/aliimam/ui/tabs"
 
-type VariantTab = "icon" | "wordmark" | "flags" | "cards" | "stickers"
+type VariantTab = "icon" | "wordmark" | "symbols" 
 
 const VARIANT_TABS: { value: VariantTab; label: string }[] = [
   { value: "icon", label: "Icon" },
   { value: "wordmark", label: "Wordmark" },
-  { value: "flags", label: "Flags" },
-  { value: "cards", label: "Cards" },
-  { value: "stickers", label: "Stickers" },
+  { value: "symbols", label: "Symbols" }, 
 ]
 
 export default function Page() {

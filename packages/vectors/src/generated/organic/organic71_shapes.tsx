@@ -1,0 +1,44 @@
+/**
+ * Auto-generated logo component: Organic71 (shapes)
+ * Category: organic
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface Organic71ShapesProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string; 
+}
+
+export const Organic71Shapes = React.forwardRef<SVGSVGElement, Organic71ShapesProps>(
+  ({ size = 24, className = '', ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 300 300"
+      fill="none"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg" 
+      {...props}
+    >
+      <path fillRule="evenodd" clipRule="evenodd" d="M122.208 40.9399C117.588 45.3629 84.1883 91.3308 61.6705 127.002C45.0547 153.322 34.5667 182.713 22.2414 210.989C17.2973 222.33 8.6155 241.597 11.6155 261.266C14.1205 277.689 46.1009 285.176 61.6705 266.766C81.4364 243.393 93.4735 221.462 110.098 194.026C116.106 184.11 126.111 164.917 133.028 155.577C138.722 147.891 155.985 122.348 166.687 121.277C175.98 120.348 186.638 148.432 188.806 154.937C200.615 179.766 219.708 240.266 243.115 270.934C249.52 282.766 268.768 285.164 279.115 278.266C286.086 273.619 288.115 260.898 288.115 253.766C288.115 231.78 280.675 213.649 275.165 192.396C271.515 178.317 265.834 163.298 260.419 149.762C256.81 140.739 252.478 132.134 249.52 122.834C247.039 115.037 243.204 108.143 239.903 100.716C233.542 86.402 228.777 70.0756 219.708 57.1192C198.615 19.4863 179.947 12.2978 154.712 19.4862C147.396 21.5705 135.333 28.3738 122.208 40.9399Z" fill="#42535D"/>
+    </svg>
+  )
+);
+
+Organic71Shapes.displayName = "Organic71Shapes";
+
+export const Organic71ShapesMetadata = {
+  id: "organic71_shapes",
+  baseId: "organic71",
+  variant: "shapes",
+  name: "Organic71",
+  category: "organic",
+  tags: [],
+  viewBox: "0 0 300 300",
+} as const;
+
+export default Organic71Shapes;

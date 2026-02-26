@@ -1,0 +1,52 @@
+/**
+ * Auto-generated logo component: Netherlands Antilles (symbols)
+ * Category: flags
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface NetherlandsAntillesSymbolsProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string; 
+}
+
+export const NetherlandsAntillesSymbols = React.forwardRef<SVGSVGElement, NetherlandsAntillesSymbolsProps>(
+  ({ size = 24, className = '', ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 32 32"
+      fill="none"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg" 
+      {...props}
+    >
+      <path d="M27 4H5C2.79086 4 1 5.79086 1 8V24C1 26.2091 2.79086 28 5 28H27C29.2091 28 31 26.2091 31 24V8C31 5.79086 29.2091 4 27 4Z" fill="white"/>
+<path d="M20 4H12V28H20V4Z" fill="#DD1216"/>
+<path d="M31 20V12L1 12V20H31Z" fill="#022588"/>
+<path fillRule="evenodd" clipRule="evenodd" d="M14.6747 19.5135L14.0792 19.0344L13.4869 19.4943L13.722 18.7853L13.1267 18.3062H13.842L14.0927 17.5972L14.3204 18.3062H15.0431L14.4701 18.7853L14.6747 19.5135Z" fill="white"/>
+<path fillRule="evenodd" clipRule="evenodd" d="M18.5072 19.5135L17.9117 19.0344L17.3194 19.4943L17.5545 18.7853L16.9592 18.3062H17.6745L17.9252 17.5972L18.1529 18.3062H18.8756L18.3026 18.7853L18.5072 19.5135Z" fill="white"/>
+<path fillRule="evenodd" clipRule="evenodd" d="M14.6747 14.4029L14.0792 13.9238L13.4869 14.3837L13.722 13.6747L13.1267 13.1956H13.842L14.0927 12.4866L14.3204 13.1956H15.0431L14.4701 13.6747L14.6747 14.4029Z" fill="white"/>
+<path fillRule="evenodd" clipRule="evenodd" d="M18.3542 14.4029L17.7587 13.9238L17.1664 14.3837L17.4015 13.6747L16.8062 13.1956H17.5215L17.7722 12.4866L17.9999 13.1956H18.7226L18.1496 13.6747L18.3542 14.4029Z" fill="white"/>
+<path fillRule="evenodd" clipRule="evenodd" d="M11.4783 16.9583L10.8828 16.4792L10.2905 16.9391L10.5256 16.2301L9.9303 15.751H10.6456L10.8963 15.042L11.124 15.751H11.8467L11.2737 16.2301L11.4783 16.9583Z" fill="white"/>
+<path fillRule="evenodd" clipRule="evenodd" d="M21.7014 16.9583L21.1059 16.4792L20.5136 16.9391L20.7487 16.2301L20.1534 15.751H20.8687L21.1194 15.042L21.3471 15.751H22.0698L21.4968 16.2301L21.7014 16.9583Z" fill="white"/>
+    </svg>
+  )
+);
+
+NetherlandsAntillesSymbols.displayName = "NetherlandsAntillesSymbols";
+
+export const NetherlandsAntillesSymbolsMetadata = {
+  id: "Netherlands-Antilles_symbols",
+  baseId: "Netherlands-Antilles",
+  variant: "symbols",
+  name: "Netherlands Antilles",
+  category: "flags",
+  tags: [],
+  viewBox: "0 0 32 32",
+} as const;
+
+export default NetherlandsAntillesSymbols;

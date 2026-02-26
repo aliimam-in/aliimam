@@ -1,0 +1,49 @@
+/**
+ * Auto-generated logo component: China (symbols)
+ * Category: flags
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface ChinaSymbolsProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string; 
+}
+
+export const ChinaSymbols = React.forwardRef<SVGSVGElement, ChinaSymbolsProps>(
+  ({ size = 24, className = '', ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 32 32"
+      fill="none"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg" 
+      {...props}
+    >
+      <path d="M27 4H5C2.79086 4 1 5.79086 1 8V24C1 26.2091 2.79086 28 5 28H27C29.2091 28 31 26.2091 31 24V8C31 5.79086 29.2091 4 27 4Z" fill="#DB362F"/>
+<path d="M7.95802 10.1519L7.19002 7.78589L6.42102 10.1519H3.93402L5.94602 11.6139L5.17702 13.9789L7.19002 12.5169L9.20202 13.9789L8.43302 11.6139L10.446 10.1519H7.95802Z" fill="#FFFF00"/>
+<path d="M12.725 8.18708L13.152 8.89808L13.224 8.07208L14.032 7.88608L13.269 7.56208L13.342 6.73608L12.798 7.36108L12.035 7.03708L12.461 7.74808L11.917 8.37308L12.725 8.18708Z" fill="#FFFF00"/>
+<path d="M14.865 10.3719L14.982 11.1929L15.37 10.4599L16.187 10.6019L15.61 10.0069L15.997 9.27395L15.253 9.63895L14.675 9.04395L14.793 9.86495L14.048 10.2299L14.865 10.3719Z" fill="#FFFF00"/>
+<path d="M15.597 13.6121L16.25 13.1011L15.421 13.1301L15.137 12.3521L14.909 13.1491L14.081 13.1791L14.769 13.6421L14.541 14.4391L15.194 13.9281L15.881 14.3911L15.597 13.6121Z" fill="#FFFF00"/>
+<path d="M13.26 15.535L13.298 14.707L12.78 15.354L12.005 15.062L12.46 15.754L11.942 16.402L12.742 16.182L13.198 16.875L13.236 16.047L14.036 15.827L13.26 15.535Z" fill="#FFFF00"/>
+    </svg>
+  )
+);
+
+ChinaSymbols.displayName = "ChinaSymbols";
+
+export const ChinaSymbolsMetadata = {
+  id: "China_symbols",
+  baseId: "China",
+  variant: "symbols",
+  name: "China",
+  category: "flags",
+  tags: [],
+  viewBox: "0 0 32 32",
+} as const;
+
+export default ChinaSymbols;

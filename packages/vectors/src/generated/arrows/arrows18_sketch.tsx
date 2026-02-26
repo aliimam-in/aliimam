@@ -1,0 +1,44 @@
+/**
+ * Auto-generated logo component: Arrows18 (sketch)
+ * Category: arrows
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface Arrows18SketchProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string; 
+}
+
+export const Arrows18Sketch = React.forwardRef<SVGSVGElement, Arrows18SketchProps>(
+  ({ size = 24, className = '', ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 500 500"
+      fill="none"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg" 
+      {...props}
+    >
+      <path fillRule="evenodd" clipRule="evenodd" d="M319.822 178.947C314.691 184.079 336.401 202.105 358.77 211.315L369.296 215.658L347.717 217.237C300.217 220.789 258.77 230.263 236.664 242.5C230.086 246.184 229.954 246.184 220.875 244.473C195.612 239.605 167.849 245.921 139.559 263.026C132.191 267.5 131.796 267.5 132.717 264.605C136.664 250.131 134.691 237.105 127.586 232.5C123.244 229.605 116.533 231.052 115.875 235C111.401 259.605 104.033 282.105 94.2958 300.789C83.9011 320.658 97.98 326.973 118.638 318.158C135.48 310.921 147.717 308.158 166.27 307.237C182.059 306.447 183.77 305.658 181.007 300.394C177.717 294.342 170.217 292.237 153.243 292.631C144.559 292.894 137.586 292.763 137.586 292.631C159.164 256.184 214.428 256.447 214.559 256.447C214.559 256.579 172.059 298.289 217.454 316.184C256.401 331.579 287.059 291.842 258.901 262.237L253.901 256.973L262.586 253.026C302.717 235.131 355.217 233.289 355.349 233.289C351.401 236.184 347.849 238.552 335.086 250.394C317.059 267.237 336.664 280.789 358.638 260.131C369.296 250.131 384.691 238.684 399.033 230C412.849 221.71 412.191 215 396.928 210.921C382.586 206.973 357.059 201.447 340.349 188.289C329.822 180.263 322.059 176.71 319.822 178.947ZM254.296 288.289C250.743 300.394 237.322 310.263 223.243 307.631C209.691 305 205.612 281.579 228.77 269.605L244.559 262.5C249.954 268.421 257.98 275.263 254.296 288.289Z" />
+    </svg>
+  )
+);
+
+Arrows18Sketch.displayName = "Arrows18Sketch";
+
+export const Arrows18SketchMetadata = {
+  id: "arrows18_sketch",
+  baseId: "arrows18",
+  variant: "sketch",
+  name: "Arrows18",
+  category: "arrows",
+  tags: [],
+  viewBox: "0 0 500 500",
+} as const;
+
+export default Arrows18Sketch;

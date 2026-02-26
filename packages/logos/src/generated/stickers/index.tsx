@@ -1,1 +1,1 @@
-export { VerifiedBadgeStickers, VerifiedBadgeStickersMetadata, type VerifiedBadgeStickersProps } from './Verified-Badge_stickers';
+export { VerifiedBadgeSymbols, VerifiedBadgeSymbolsMetadata, type VerifiedBadgeSymbolsProps } from './Verified-Badge_symbols';

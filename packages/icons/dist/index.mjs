@@ -96277,7 +96277,7 @@ var ZodiacVirgoMetadata = {
 };
 
 // src/generated/index.tsx
-var allLogos = {
+var allIcons = {
   align: {
     AlignBoxBottomCenterFilled: { Component: AlignBoxBottomCenterFilled, metadata: AlignBoxBottomCenterFilledMetadata },
     AlignBoxBottomLeftFilled: { Component: AlignBoxBottomLeftFilled, metadata: AlignBoxBottomLeftFilledMetadata },
@@ -104553,6 +104553,6 @@ export {
   ZoomQuestionFilledMetadata,
   ZoomScanFilled,
   ZoomScanFilledMetadata,
-  allLogos
+  allIcons
 };
 //# sourceMappingURL=index.mjs.map

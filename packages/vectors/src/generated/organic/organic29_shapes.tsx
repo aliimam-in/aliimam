@@ -1,0 +1,44 @@
+/**
+ * Auto-generated logo component: Organic29 (shapes)
+ * Category: organic
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface Organic29ShapesProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string; 
+}
+
+export const Organic29Shapes = React.forwardRef<SVGSVGElement, Organic29ShapesProps>(
+  ({ size = 24, className = '', ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 300 300"
+      fill="none"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg" 
+      {...props}
+    >
+      <path d="M15.8532 183.159C17.2012 200.757 16.4099 226.05 22.7388 237.784C24.7548 241.52 56.1354 245.533 66.5185 246.521C90.2787 248.779 114.087 250.567 137.909 252.033C168.642 253.926 270.781 245.24 280.89 228.494C295.267 204.674 293.258 89.4746 282.625 68.5371C281.253 65.8377 279.643 63.14 277.401 61.1034C258.082 43.5556 238.256 78.7438 230.441 90.5485L227.102 95.7691C224.92 99.2893 222.824 102.864 220.732 106.438C220.35 107.093 213.369 124.199 208.527 122.131C203.577 120.018 197.143 110.851 194.66 107.206C182.187 88.9025 177.833 78.3447 161.945 62.7666C158.961 59.8411 148.138 54.8619 142.268 56.7443C113.558 65.9456 94.9667 122.155 88.2148 117.772C67.5188 104.338 53.8162 81.7001 34.1376 66.6667C31.1333 64.3715 23.6706 60.3292 19.3406 63.7189C14.0925 67.8279 12.1912 79.5282 11.8658 84.7489C9.73504 119.094 13.147 147.863 15.8532 183.159Z" fill="#DBC5B0"/>
+    </svg>
+  )
+);
+
+Organic29Shapes.displayName = "Organic29Shapes";
+
+export const Organic29ShapesMetadata = {
+  id: "organic29_shapes",
+  baseId: "organic29",
+  variant: "shapes",
+  name: "Organic29",
+  category: "organic",
+  tags: [],
+  viewBox: "0 0 300 300",
+} as const;
+
+export default Organic29Shapes;

@@ -111,6 +111,14 @@ function extractInnerSVG(svg: string): string {
 
 function convertSvgAttributes(svg: string) {
   return svg
+  .replace(/fill=["']black["']/gi, "")
+    .replace(/fill=["']currentColor["']/gi, "")
+    .replace(/fill=["']#000["']/gi, "")
+
+    .replace(/stroke=["']black["']/gi, "")
+    .replace(/stroke=["']#000000["']/gi, "")
+    .replace(/stroke=["']#000["']/gi, "")
+
     .replace(/stroke-width=/g, "strokeWidth=")
     .replace(/stroke-linecap=/g, "strokeLinecap=")
     .replace(/stroke-linejoin=/g, "strokeLinejoin=")
@@ -160,7 +168,7 @@ function convertSvgAttributes(svg: string) {
  * The variant suffix is detected only for known variants: filled, circle, outline.
  * Anything else (e.g. "ad_words") is treated as part of the baseId with variant "default".
  */
-const KNOWN_VARIANTS = new Set(["wordmark", "flags", "stickers", "cards"]);
+const KNOWN_VARIANTS = new Set(["wordmark", "symbols"]);
 
 function parseLogoId(basename: string): { baseId: string; variant: string } {
   const underscoreIndex = basename.lastIndexOf("_");

@@ -1,0 +1,47 @@
+/**
+ * Auto-generated logo component: Arrows74 (sketch)
+ * Category: arrows
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface Arrows74SketchProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string; 
+}
+
+export const Arrows74Sketch = React.forwardRef<SVGSVGElement, Arrows74SketchProps>(
+  ({ size = 24, className = '', ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 500 500"
+      fill="none"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg" 
+      {...props}
+    >
+      <path d="M114.125 240.125C106 240.5 98.3738 236.001 94.9988 228.626C91.7488 221.626 88.2494 214.25 88.2494 213.75C88.2494 209 76.7496 206.751 74.1246 211.001C59.2496 235.626 33.8744 260.126 18.2494 271.751C-5.12555 289.251 18.4993 293 47.3743 290C67.1243 288 90.9996 288.5 120.375 291.5C129.125 292.375 129.125 290.376 120.124 277.376C109.374 262.001 108.875 260.875 112.25 260.125C136.75 255.375 159.375 257.5 177.625 263.125C187.25 266.125 187.624 266 186.499 260C181.874 236.125 112.625 239.875 114.125 240.125Z" />
+<path d="M293.875 260.626C283.5 260.626 236.874 255.626 229.249 253.626C220.874 251.501 218.25 251.376 218.25 253.126C218.25 266.126 233.5 272.001 277.625 276.126C306.125 278.876 312 278.751 312 275.501C312 267.501 303.75 260.626 293.875 260.626Z" />
+<path d="M398.374 253.376C385.749 256.001 374 257.876 357.625 260.126C308.625 267.126 338 277.501 345.5 277.376C377.875 276.876 407.75 271.626 409.875 269.501C412.875 266.501 402.874 252.376 398.374 253.376Z" />
+<path d="M475.749 227.876C441.374 241.001 424.374 251.126 428.374 256.251C435.499 265.251 490.624 248.876 491.749 237.376C492.374 230.001 483.624 224.751 475.749 227.876Z" />
+    </svg>
+  )
+);
+
+Arrows74Sketch.displayName = "Arrows74Sketch";
+
+export const Arrows74SketchMetadata = {
+  id: "arrows74_sketch",
+  baseId: "arrows74",
+  variant: "sketch",
+  name: "Arrows74",
+  category: "arrows",
+  tags: [],
+  viewBox: "0 0 500 500",
+} as const;
+
+export default Arrows74Sketch;

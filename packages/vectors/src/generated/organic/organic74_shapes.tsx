@@ -1,0 +1,44 @@
+/**
+ * Auto-generated logo component: Organic74 (shapes)
+ * Category: organic
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface Organic74ShapesProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string; 
+}
+
+export const Organic74Shapes = React.forwardRef<SVGSVGElement, Organic74ShapesProps>(
+  ({ size = 24, className = '', ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 300 300"
+      fill="none"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg" 
+      {...props}
+    >
+      <path d="M100.557 73.2576C99.8382 79.9043 98.803 91.0344 98.103 97.6851C93.4288 99.2432 87.666 99.8756 82.685 100.614C71.7861 102.228 60.6583 102.835 49.7159 104.098C42.9342 104.88 36.2772 105.801 29.5215 106.807C24.8058 107.51 18.3711 107.027 14.2951 110.162C7.19197 115.626 7.9839 127.937 9.00451 135.518C11.9312 157.259 20.2307 176.262 33.9088 193.359C47.2611 210.05 63.1515 224.933 82.685 231.716C111.9 241.86 146.002 245.685 177.463 243.265C192.414 242.115 207.302 236.55 221.401 231.716C234.027 227.387 246.488 219.746 256.821 211.328C266.515 203.432 274.011 194.603 280.145 183.778C285.52 174.293 291.468 165.769 293.92 154.874C296.139 145.013 296.768 134.372 296.339 124.292C296.104 118.753 294.499 112.71 288.952 110.614C282.522 108.185 274.196 109.453 267.532 109.453H230.885C218.42 109.453 206 108.291 193.561 108.291C189.251 108.291 183.714 109.211 179.431 108.259C178.714 108.1 178.496 102.659 178.496 102.033C178.496 95.9758 178.136 90.5884 177.044 84.6452C176.243 80.2869 175.579 72.5351 172.108 69.0638C170.995 67.9511 167.638 67.9764 166.172 67.7735C162.858 67.3145 159.449 66.6575 156.108 66.5154C145.843 66.0786 135.475 66.4831 125.203 66.4831C117.708 66.4831 109.474 65.9876 102.202 68.2251C99.9152 68.9287 100.77 71.2809 100.557 73.2576Z" fill="#916F66"/>
+    </svg>
+  )
+);
+
+Organic74Shapes.displayName = "Organic74Shapes";
+
+export const Organic74ShapesMetadata = {
+  id: "organic74_shapes",
+  baseId: "organic74",
+  variant: "shapes",
+  name: "Organic74",
+  category: "organic",
+  tags: [],
+  viewBox: "0 0 300 300",
+} as const;
+
+export default Organic74Shapes;

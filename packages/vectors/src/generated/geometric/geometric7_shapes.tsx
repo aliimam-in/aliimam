@@ -1,0 +1,44 @@
+/**
+ * Auto-generated logo component: Geometric7 (shapes)
+ * Category: geometric
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface Geometric7ShapesProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string; 
+}
+
+export const Geometric7Shapes = React.forwardRef<SVGSVGElement, Geometric7ShapesProps>(
+  ({ size = 24, className = '', ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 357 713"
+      fill="none"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg" 
+      {...props}
+    >
+      <path d="M222.619 270.269C188.039 283.333 169.653 322.342 181.585 357.329C193.517 392.315 175.13 431.324 140.551 444.388C105.971 457.452 87.5848 496.462 99.5166 531.448C111.448 566.434 93.062 605.444 58.4826 618.508C23.9032 631.571 5.30158 669.95 17.2334 704.936L351.598 704.936L351.598 96.3851L314.908 96.3851C307.737 96.3851 300.481 97.4392 294.265 101.013C266.246 117.118 252.907 151.7 263.653 183.209C275.585 218.195 257.198 257.205 222.619 270.269Z" fill="#F4ADB3"/>
+    </svg>
+  )
+);
+
+Geometric7Shapes.displayName = "Geometric7Shapes";
+
+export const Geometric7ShapesMetadata = {
+  id: "geometric7_shapes",
+  baseId: "geometric7",
+  variant: "shapes",
+  name: "Geometric7",
+  category: "geometric",
+  tags: [],
+  viewBox: "0 0 357 713",
+} as const;
+
+export default Geometric7Shapes;

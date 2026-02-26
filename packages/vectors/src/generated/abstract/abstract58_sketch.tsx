@@ -1,0 +1,44 @@
+/**
+ * Auto-generated logo component: Abstract58 (sketch)
+ * Category: abstract
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface Abstract58SketchProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string; 
+}
+
+export const Abstract58Sketch = React.forwardRef<SVGSVGElement, Abstract58SketchProps>(
+  ({ size = 24, className = '', ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 446 446"
+      fill="none"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg" 
+      {...props}
+    >
+      <path fillRule="evenodd" clipRule="evenodd" d="M224.476 182.861C220.131 184.754 213.893 187.985 210.551 189.99C192.281 200.796 170.446 203.025 163.539 194.893C159.305 189.88 153.735 189.21 153.735 193.667C153.735 201.019 165.098 206.478 180.472 206.478H191.055L185.485 214.276C169.555 236.445 168.106 257.055 181.92 264.073C192.503 269.532 207.766 266.525 237.621 252.822C246.088 248.923 246.756 248.699 245.977 250.816C240.406 265.41 274.273 267.638 289.535 253.713C295.885 247.92 290.426 246.137 281.068 250.927C263.912 259.728 257.117 252.6 269.148 238.34C273.716 232.993 269.148 225.082 239.07 239.119C199.076 257.723 192.392 259.618 191.167 252.822C187.825 233.104 208.545 203.247 234.391 190.659C256.894 179.63 240.072 175.954 224.476 182.861Z" />
+    </svg>
+  )
+);
+
+Abstract58Sketch.displayName = "Abstract58Sketch";
+
+export const Abstract58SketchMetadata = {
+  id: "abstract58_sketch",
+  baseId: "abstract58",
+  variant: "sketch",
+  name: "Abstract58",
+  category: "abstract",
+  tags: [],
+  viewBox: "0 0 446 446",
+} as const;
+
+export default Abstract58Sketch;

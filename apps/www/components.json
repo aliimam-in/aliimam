@@ -19,5 +19,7 @@
     "lib": "@/registry/aliimam/lib",
     "hooks": "@/registry/aliimam/hooks"
   },
-  "registries": {}
+  "registries": {
+    "@diceui": "https://diceui.com/r/{name}.json"
+  }
 }

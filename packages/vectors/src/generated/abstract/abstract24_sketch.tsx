@@ -1,0 +1,45 @@
+/**
+ * Auto-generated logo component: Abstract24 (sketch)
+ * Category: abstract
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface Abstract24SketchProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string; 
+}
+
+export const Abstract24Sketch = React.forwardRef<SVGSVGElement, Abstract24SketchProps>(
+  ({ size = 24, className = '', ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 446 446"
+      fill="none"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg" 
+      {...props}
+    >
+      <path d="M280.755 221.002C300.199 222.623 306.681 214.926 293.515 205.811C262.525 184.341 205.406 141.806 178.669 128.235C144.843 111.221 140.184 123.576 145.855 153.149C155.983 205.203 156.996 251.992 162.667 279.742C170.364 317.416 196.493 312.15 196.493 287.641C196.493 266.981 185.758 164.491 183.124 160.238C179.073 153.959 260.905 219.382 280.755 221.002Z" />
+<path d="M258.474 231.94C249.967 224.243 243.485 218.776 238.219 215.333C203.38 192.242 210.873 232.55 211.683 241.664C213.708 266.781 225.456 320.659 229.305 322.887C244.699 331.394 248.547 305.67 239.837 252.805C239.027 247.336 241.053 248.956 257.662 266.578C278.322 288.251 285.411 292.099 297.159 288.251C309.92 283.795 300.604 270.222 258.474 231.94Z" />
+    </svg>
+  )
+);
+
+Abstract24Sketch.displayName = "Abstract24Sketch";
+
+export const Abstract24SketchMetadata = {
+  id: "abstract24_sketch",
+  baseId: "abstract24",
+  variant: "sketch",
+  name: "Abstract24",
+  category: "abstract",
+  tags: [],
+  viewBox: "0 0 446 446",
+} as const;
+
+export default Abstract24Sketch;

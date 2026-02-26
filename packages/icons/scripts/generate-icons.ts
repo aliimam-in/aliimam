@@ -207,7 +207,7 @@ const existingMap = new Map<string, LogoJSON>(
   ])
 )
 
-const allLogosRaw: LogoJSON[] = []
+const allIconsRaw: LogoJSON[] = []
 const categories = fs
   .readdirSync(LOGOS_DIR)
   .filter((d) => fs.statSync(path.join(LOGOS_DIR, d)).isDirectory())
@@ -223,7 +223,7 @@ for (const category of categories) {
     const existing = existingMap.get(`${category}/${basename}`)
     const { baseId, variant } = parseLogoId(basename)
 
-    allLogosRaw.push({
+    allIconsRaw.push({
       id: basename,
       baseId,
       variant,
@@ -244,7 +244,7 @@ for (const category of categories) {
 const seenIds = new Set<string>()
 const logos: LogoJSON[] = []
 
-for (const logo of allLogosRaw) {
+for (const logo of allIconsRaw) {
   if (seenIds.has(logo.id)) {
     console.warn(`[SKIP] "${logo.id}" already exists — skipping.`)
     continue
@@ -254,7 +254,7 @@ for (const logo of allLogosRaw) {
 }
 
 console.log(
-  `[AI] SVGs found: ${allLogosRaw.length} | After dedup: ${logos.length}`
+  `[AI] SVGs found: ${allIconsRaw.length} | After dedup: ${logos.length}`
 )
 
 fs.writeFileSync(
@@ -390,15 +390,15 @@ export interface LogoEntry {
 \n`
 
 let namedExports = `// Individual Named Exports for direct access and tree-shaking\n`
-let internalImports = `// Internal imports for allLogos object\n`
-let allLogosObject =
-  "export const allLogos: Record<string, Record<string, LogoEntry>> = {\n"
+let internalImports = `// Internal imports for allIcons object\n`
+let allIconsObject =
+  "export const allIcons: Record<string, Record<string, LogoEntry>> = {\n"
 
 for (const category of categories) {
   const categoryLogos = logos.filter((l) => l.category === category)
   if (categoryLogos.length === 0) continue
 
-  allLogosObject += `  ${category}: {\n`
+  allIconsObject += `  ${category}: {\n`
 
   categoryLogos.forEach((l) => {
     const componentName = toComponentName(l.id)
@@ -406,17 +406,17 @@ for (const category of categories) {
     // 1. Named Exports (ISKE BINA BUILD FAIL HOTI HAI)
     namedExports += `export { ${componentName}, ${componentName}Metadata, type ${componentName}Props } from './${category}/${l.id}';\n`
 
-    // 2. Internal Imports (allLogos object construct karne ke liye)
+    // 2. Internal Imports (allIcons object construct karne ke liye)
     internalImports += `import { ${componentName}, ${componentName}Metadata } from './${category}/${l.id}';\n`
 
     // 3. Object Entry
-    allLogosObject += `    ${componentName}: { Component: ${componentName}, metadata: ${componentName}Metadata },\n`
+    allIconsObject += `    ${componentName}: { Component: ${componentName}, metadata: ${componentName}Metadata },\n`
   })
 
-  allLogosObject += "  },\n"
+  allIconsObject += "  },\n"
 }
 
-allLogosObject += "};\n"
+allIconsObject += "};\n"
 
 // Sabko combine karke file write karein
 fs.writeFileSync(
@@ -426,7 +426,7 @@ fs.writeFileSync(
     "\n" +
     internalImports +
     "\n" +
-    allLogosObject
+    allIconsObject
 )
 
 console.log(

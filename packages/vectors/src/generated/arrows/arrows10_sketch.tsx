@@ -1,0 +1,48 @@
+/**
+ * Auto-generated logo component: Arrows10 (sketch)
+ * Category: arrows
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface Arrows10SketchProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string; 
+}
+
+export const Arrows10Sketch = React.forwardRef<SVGSVGElement, Arrows10SketchProps>(
+  ({ size = 24, className = '', ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 500 500"
+      fill="none"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg" 
+      {...props}
+    >
+      <path d="M413.136 63.3808C385.564 76.5237 362.706 84.5237 339.706 89.0951C322.563 92.5237 318.277 94.3804 319.706 97.9518C322.134 104.38 350.706 101.238 381.849 91.0949L400.85 84.8094C339.421 143.095 332.136 148.952 353.421 148.952C361.564 148.952 363.706 147.666 378.991 132.667C386.42 125.524 391.993 120.524 391.564 121.809C377.993 158.952 377.85 164.666 390.136 164.666C399.279 164.666 404.136 158.095 411.279 136.095C417.564 116.952 442.277 67.6664 448.991 61.0949C457.563 52.9521 447.993 46.6665 413.136 63.3808Z" />
+<path d="M232.421 246.952C195.993 267.809 175.993 304.095 209.993 287.666C215.707 284.952 249.421 250.666 249.421 247.666C249.279 242.666 240.421 242.38 232.421 246.952Z" />
+<path d="M307.707 172.237C292.85 183.952 262.136 215.952 262.136 219.523C262.136 238.237 308.136 206.237 325.707 175.38C331.707 164.809 319.707 162.666 307.707 172.237Z" />
+<path d="M82.1351 398.951C57.4208 424.237 44.2781 442.523 48.7067 445.808C59.5638 453.665 79.992 436.237 103.992 398.665C111.849 386.38 94.1351 386.665 82.1351 398.951Z" />
+<path d="M159.136 321.809C151.279 326.952 117.849 360.809 117.849 363.523C117.849 382.238 150.421 361.238 174.564 326.952C181.421 317.523 171.136 313.952 159.136 321.809Z" />
+    </svg>
+  )
+);
+
+Arrows10Sketch.displayName = "Arrows10Sketch";
+
+export const Arrows10SketchMetadata = {
+  id: "arrows10_sketch",
+  baseId: "arrows10",
+  variant: "sketch",
+  name: "Arrows10",
+  category: "arrows",
+  tags: [],
+  viewBox: "0 0 500 500",
+} as const;
+
+export default Arrows10Sketch;

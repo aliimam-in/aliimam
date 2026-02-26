@@ -1,0 +1,44 @@
+/**
+ * Auto-generated logo component: Organic55 (shapes)
+ * Category: organic
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface Organic55ShapesProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string; 
+}
+
+export const Organic55Shapes = React.forwardRef<SVGSVGElement, Organic55ShapesProps>(
+  ({ size = 24, className = '', ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 300 300"
+      fill="none"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg" 
+      {...props}
+    >
+      <path fillRule="evenodd" clipRule="evenodd" d="M194.384 163.688C176.509 178.26 152.092 191.63 132.194 203.461C112.065 215.331 54.5477 252.859 68.765 278.274C79.4255 297.33 103.552 304.147 122.609 293.487C131.702 286.754 139.507 280.759 146.008 274.704C154.232 267.044 160.403 260.6 165.299 255.694C178.836 242.276 193.3 229.589 206.732 215.721C213.092 209.154 219.33 202.764 224.896 195.687C232.46 186.068 257.397 168.801 259.971 155.877C262.8 141.673 264.238 121.689 247.132 117.877C203.182 108.083 155.904 117.179 110.971 117.877C95.9589 118.111 94.6208 104.907 105.239 98.2011C123.639 86.5807 147.237 72.0007 183.127 60.2748C200.478 52.6386 221.027 41.5401 216.981 23.8757C212.936 6.21129 195.899 -2.03339 178.235 2.01176C107.975 25.1199 73.5028 50.1746 56.4233 72.0007C28.8653 107.217 39.017 136.058 44.0456 144.23C51.9721 157.209 61.9321 164.123 73.4149 167.156C87.039 170.753 102.724 168.728 116.295 167.722C126.092 167.202 134.485 165.561 142.382 163.688C159.268 159.683 173.382 153.487 194.384 150.612C202.982 150.612 198.589 160.261 194.384 163.688Z" fill="#A85E2D"/>
+    </svg>
+  )
+);
+
+Organic55Shapes.displayName = "Organic55Shapes";
+
+export const Organic55ShapesMetadata = {
+  id: "organic55_shapes",
+  baseId: "organic55",
+  variant: "shapes",
+  name: "Organic55",
+  category: "organic",
+  tags: [],
+  viewBox: "0 0 300 300",
+} as const;
+
+export default Organic55Shapes;

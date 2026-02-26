@@ -2,23 +2,22 @@
 
 import { useEffect, useState } from "react"
 import { useRouter, useSearchParams } from "next/navigation"
-import { IconCategoryTabs } from "@/src/components/icons/icon-category"
+import { IconCategoryTabs } from "@/src/components/icons/icons/icon-category"
 import {
   IconPreview,
   IconPreviewPhone,
-} from "@/src/components/icons/icon-preview"
-import { IconSearch } from "@/src/components/icons/icon-search"
+} from "@/src/components/icons/icons/icon-preview"
+import { IconSearch } from "@/src/components/icons/icons/icon-search"
 import { IconsNav } from "@/src/components/icons/icons-nav"
-import { IconGrid } from "@/src/components/icons/main-icons"
-import { useIconFilter } from "@/src/components/icons/icon-filter-context"
+import { IconGrid } from "@/src/components/icons/icons/main-icons"
+import { useIconFilter } from "@/src/components/icons/icons/icon-filter-context"
 import { Tabs, TabsList, TabsTrigger } from "@/registry/aliimam/ui/tabs" 
 
-type VariantTab = "outline" | "filled"  
+type VariantTab = "outline" | "filled" 
 
 const VARIANT_TABS: { value: VariantTab; label: string }[] = [
   { value: "outline", label: "Outline" },
-  { value: "filled", label: "Filled" },
-   
+  { value: "filled", label: "Filled" }, 
 ]
 
 export default function Page() {
@@ -72,7 +71,7 @@ export default function Page() {
                 {label}
               </TabsTrigger>
             ))}
-          </TabsList>
+          </TabsList> 
         </Tabs>
       </div>
 

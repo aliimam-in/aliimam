@@ -1,0 +1,30 @@
+{
+  "name": "@aliimam/vectors",
+  "version": "1.0.0",
+  "description": "Custom React vectors library generated from JSON",
+  "license": "MIT",
+  "source": "./src/index.ts",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "generate:vectors": "tsx scripts/generate-vectors.ts",
+    "build": "tsup",
+    "prepublishOnly": "npm run generate:vectors && npm run build"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "react": ">=17"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.0.0"
+  }
+}

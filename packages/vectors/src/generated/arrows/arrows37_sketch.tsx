@@ -1,0 +1,44 @@
+/**
+ * Auto-generated logo component: Arrows37 (sketch)
+ * Category: arrows
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface Arrows37SketchProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string; 
+}
+
+export const Arrows37Sketch = React.forwardRef<SVGSVGElement, Arrows37SketchProps>(
+  ({ size = 24, className = '', ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 500 500"
+      fill="none"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg" 
+      {...props}
+    >
+      <path fillRule="evenodd" clipRule="evenodd" d="M86.2507 170.094C86.0007 297.343 155.751 349.343 303.75 332.343C327 329.593 327 329.343 308.5 342.343C287.5 357.093 242.5 400.843 244.75 404.593C251 414.593 270.5 405.345 299.25 379.095C326.5 354.095 359 332.093 381.5 323.593C420.25 308.843 424 295.593 391 290.593C364.75 286.593 347.5 278.595 306 250.345C272.25 227.344 264.75 225.343 248.751 233.593C227.001 244.843 239.25 259.843 299 295.093C318.25 306.343 316.25 307.593 275.25 307.593C162 307.593 108.75 231.593 131.75 103.593C135.5 83.3433 86.5007 77.5936 86.2507 170.094Z" />
+    </svg>
+  )
+);
+
+Arrows37Sketch.displayName = "Arrows37Sketch";
+
+export const Arrows37SketchMetadata = {
+  id: "arrows37_sketch",
+  baseId: "arrows37",
+  variant: "sketch",
+  name: "Arrows37",
+  category: "arrows",
+  tags: [],
+  viewBox: "0 0 500 500",
+} as const;
+
+export default Arrows37Sketch;

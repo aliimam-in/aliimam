@@ -2,20 +2,20 @@ import * as React from 'react';
 import React__default from 'react';
 
 /**
- * Auto-generated logo component: Verified Badge (stickers)
+ * Auto-generated logo component: Verified Badge (symbols)
  * Category: stickers
  * Do not edit manually
  */
 
-interface VerifiedBadgeStickersProps extends React__default.SVGProps<SVGSVGElement> {
+interface VerifiedBadgeSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const VerifiedBadgeStickers: React__default.ForwardRefExoticComponent<Omit<VerifiedBadgeStickersProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const VerifiedBadgeStickersMetadata: {
-    readonly id: "Verified-Badge_stickers";
+declare const VerifiedBadgeSymbols: React__default.ForwardRefExoticComponent<Omit<VerifiedBadgeSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const VerifiedBadgeSymbolsMetadata: {
+    readonly id: "Verified-Badge_symbols";
     readonly baseId: "Verified-Badge";
-    readonly variant: "stickers";
+    readonly variant: "symbols";
     readonly name: "Verified Badge";
     readonly category: "stickers";
     readonly tags: readonly [];
@@ -4286,20 +4286,20 @@ declare const AstroMetadata: {
 };
 
 /**
- * Auto-generated logo component: Zimbabwe (flags)
+ * Auto-generated logo component: Zimbabwe (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface ZimbabweFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface ZimbabweSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const ZimbabweFlags: React__default.ForwardRefExoticComponent<Omit<ZimbabweFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const ZimbabweFlagsMetadata: {
-    readonly id: "Zimbabwe_flags";
+declare const ZimbabweSymbols: React__default.ForwardRefExoticComponent<Omit<ZimbabweSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const ZimbabweSymbolsMetadata: {
+    readonly id: "Zimbabwe_symbols";
     readonly baseId: "Zimbabwe";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Zimbabwe";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -4307,20 +4307,20 @@ declare const ZimbabweFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Zambia (flags)
+ * Auto-generated logo component: Zambia (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface ZambiaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface ZambiaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const ZambiaFlags: React__default.ForwardRefExoticComponent<Omit<ZambiaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const ZambiaFlagsMetadata: {
-    readonly id: "Zambia_flags";
+declare const ZambiaSymbols: React__default.ForwardRefExoticComponent<Omit<ZambiaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const ZambiaSymbolsMetadata: {
+    readonly id: "Zambia_symbols";
     readonly baseId: "Zambia";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Zambia";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -4328,20 +4328,20 @@ declare const ZambiaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Yemen (flags)
+ * Auto-generated logo component: Yemen (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface YemenFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface YemenSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const YemenFlags: React__default.ForwardRefExoticComponent<Omit<YemenFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const YemenFlagsMetadata: {
-    readonly id: "Yemen_flags";
+declare const YemenSymbols: React__default.ForwardRefExoticComponent<Omit<YemenSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const YemenSymbolsMetadata: {
+    readonly id: "Yemen_symbols";
     readonly baseId: "Yemen";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Yemen";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -4349,20 +4349,20 @@ declare const YemenFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Western Sahara (flags)
+ * Auto-generated logo component: Western Sahara (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface WesternSaharaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface WesternSaharaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const WesternSaharaFlags: React__default.ForwardRefExoticComponent<Omit<WesternSaharaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const WesternSaharaFlagsMetadata: {
-    readonly id: "Western-Sahara_flags";
+declare const WesternSaharaSymbols: React__default.ForwardRefExoticComponent<Omit<WesternSaharaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const WesternSaharaSymbolsMetadata: {
+    readonly id: "Western-Sahara_symbols";
     readonly baseId: "Western-Sahara";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Western Sahara";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -4370,20 +4370,20 @@ declare const WesternSaharaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Wales (flags)
+ * Auto-generated logo component: Wales (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface WalesFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface WalesSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const WalesFlags: React__default.ForwardRefExoticComponent<Omit<WalesFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const WalesFlagsMetadata: {
-    readonly id: "Wales_flags";
+declare const WalesSymbols: React__default.ForwardRefExoticComponent<Omit<WalesSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const WalesSymbolsMetadata: {
+    readonly id: "Wales_symbols";
     readonly baseId: "Wales";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Wales";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -4391,20 +4391,20 @@ declare const WalesFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Vietnam (flags)
+ * Auto-generated logo component: Vietnam (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface VietnamFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface VietnamSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const VietnamFlags: React__default.ForwardRefExoticComponent<Omit<VietnamFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const VietnamFlagsMetadata: {
-    readonly id: "Vietnam_flags";
+declare const VietnamSymbols: React__default.ForwardRefExoticComponent<Omit<VietnamSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const VietnamSymbolsMetadata: {
+    readonly id: "Vietnam_symbols";
     readonly baseId: "Vietnam";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Vietnam";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -4412,20 +4412,20 @@ declare const VietnamFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Venezuela (flags)
+ * Auto-generated logo component: Venezuela (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface VenezuelaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface VenezuelaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const VenezuelaFlags: React__default.ForwardRefExoticComponent<Omit<VenezuelaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const VenezuelaFlagsMetadata: {
-    readonly id: "Venezuela_flags";
+declare const VenezuelaSymbols: React__default.ForwardRefExoticComponent<Omit<VenezuelaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const VenezuelaSymbolsMetadata: {
+    readonly id: "Venezuela_symbols";
     readonly baseId: "Venezuela";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Venezuela";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -4433,20 +4433,20 @@ declare const VenezuelaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Vatican City (flags)
+ * Auto-generated logo component: Vatican City (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface VaticanCityFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface VaticanCitySymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const VaticanCityFlags: React__default.ForwardRefExoticComponent<Omit<VaticanCityFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const VaticanCityFlagsMetadata: {
-    readonly id: "Vatican-City_flags";
+declare const VaticanCitySymbols: React__default.ForwardRefExoticComponent<Omit<VaticanCitySymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const VaticanCitySymbolsMetadata: {
+    readonly id: "Vatican-City_symbols";
     readonly baseId: "Vatican-City";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Vatican City";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -4454,20 +4454,20 @@ declare const VaticanCityFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Vanuatu (flags)
+ * Auto-generated logo component: Vanuatu (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface VanuatuFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface VanuatuSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const VanuatuFlags: React__default.ForwardRefExoticComponent<Omit<VanuatuFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const VanuatuFlagsMetadata: {
-    readonly id: "Vanuatu_flags";
+declare const VanuatuSymbols: React__default.ForwardRefExoticComponent<Omit<VanuatuSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const VanuatuSymbolsMetadata: {
+    readonly id: "Vanuatu_symbols";
     readonly baseId: "Vanuatu";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Vanuatu";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -4475,20 +4475,20 @@ declare const VanuatuFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Uzbekistan (flags)
+ * Auto-generated logo component: Uzbekistan (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface UzbekistanFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface UzbekistanSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const UzbekistanFlags: React__default.ForwardRefExoticComponent<Omit<UzbekistanFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const UzbekistanFlagsMetadata: {
-    readonly id: "Uzbekistan_flags";
+declare const UzbekistanSymbols: React__default.ForwardRefExoticComponent<Omit<UzbekistanSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const UzbekistanSymbolsMetadata: {
+    readonly id: "Uzbekistan_symbols";
     readonly baseId: "Uzbekistan";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Uzbekistan";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -4496,20 +4496,20 @@ declare const UzbekistanFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Uruguay (flags)
+ * Auto-generated logo component: Uruguay (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface UruguayFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface UruguaySymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const UruguayFlags: React__default.ForwardRefExoticComponent<Omit<UruguayFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const UruguayFlagsMetadata: {
-    readonly id: "Uruguay_flags";
+declare const UruguaySymbols: React__default.ForwardRefExoticComponent<Omit<UruguaySymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const UruguaySymbolsMetadata: {
+    readonly id: "Uruguay_symbols";
     readonly baseId: "Uruguay";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Uruguay";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -4517,20 +4517,20 @@ declare const UruguayFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: United States (flags)
+ * Auto-generated logo component: United States (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface UnitedStatesFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface UnitedStatesSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const UnitedStatesFlags: React__default.ForwardRefExoticComponent<Omit<UnitedStatesFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const UnitedStatesFlagsMetadata: {
-    readonly id: "United-States_flags";
+declare const UnitedStatesSymbols: React__default.ForwardRefExoticComponent<Omit<UnitedStatesSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const UnitedStatesSymbolsMetadata: {
+    readonly id: "United-States_symbols";
     readonly baseId: "United-States";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "United States";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -4538,20 +4538,20 @@ declare const UnitedStatesFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: United Kingdom (flags)
+ * Auto-generated logo component: United Kingdom (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface UnitedKingdomFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface UnitedKingdomSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const UnitedKingdomFlags: React__default.ForwardRefExoticComponent<Omit<UnitedKingdomFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const UnitedKingdomFlagsMetadata: {
-    readonly id: "United-Kingdom_flags";
+declare const UnitedKingdomSymbols: React__default.ForwardRefExoticComponent<Omit<UnitedKingdomSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const UnitedKingdomSymbolsMetadata: {
+    readonly id: "United-Kingdom_symbols";
     readonly baseId: "United-Kingdom";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "United Kingdom";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -4559,20 +4559,20 @@ declare const UnitedKingdomFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: United Arab Emira (flags)
+ * Auto-generated logo component: United Arab Emira (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface UnitedArabEmiraFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface UnitedArabEmiraSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const UnitedArabEmiraFlags: React__default.ForwardRefExoticComponent<Omit<UnitedArabEmiraFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const UnitedArabEmiraFlagsMetadata: {
-    readonly id: "United-Arab-Emira_flags";
+declare const UnitedArabEmiraSymbols: React__default.ForwardRefExoticComponent<Omit<UnitedArabEmiraSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const UnitedArabEmiraSymbolsMetadata: {
+    readonly id: "United-Arab-Emira_symbols";
     readonly baseId: "United-Arab-Emira";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "United Arab Emira";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -4580,20 +4580,20 @@ declare const UnitedArabEmiraFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Ukraine (flags)
+ * Auto-generated logo component: Ukraine (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface UkraineFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface UkraineSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const UkraineFlags: React__default.ForwardRefExoticComponent<Omit<UkraineFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const UkraineFlagsMetadata: {
-    readonly id: "Ukraine_flags";
+declare const UkraineSymbols: React__default.ForwardRefExoticComponent<Omit<UkraineSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const UkraineSymbolsMetadata: {
+    readonly id: "Ukraine_symbols";
     readonly baseId: "Ukraine";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Ukraine";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -4601,20 +4601,20 @@ declare const UkraineFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Uganda (flags)
+ * Auto-generated logo component: Uganda (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface UgandaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface UgandaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const UgandaFlags: React__default.ForwardRefExoticComponent<Omit<UgandaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const UgandaFlagsMetadata: {
-    readonly id: "Uganda_flags";
+declare const UgandaSymbols: React__default.ForwardRefExoticComponent<Omit<UgandaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const UgandaSymbolsMetadata: {
+    readonly id: "Uganda_symbols";
     readonly baseId: "Uganda";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Uganda";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -4622,20 +4622,20 @@ declare const UgandaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: USA Virgin Islands (flags)
+ * Auto-generated logo component: USA Virgin Islands (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface USAVirginIslandsFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface USAVirginIslandsSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const USAVirginIslandsFlags: React__default.ForwardRefExoticComponent<Omit<USAVirginIslandsFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const USAVirginIslandsFlagsMetadata: {
-    readonly id: "USA-Virgin-Islands_flags";
+declare const USAVirginIslandsSymbols: React__default.ForwardRefExoticComponent<Omit<USAVirginIslandsSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const USAVirginIslandsSymbolsMetadata: {
+    readonly id: "USA-Virgin-Islands_symbols";
     readonly baseId: "USA-Virgin-Islands";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "USA Virgin Islands";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -4643,20 +4643,20 @@ declare const USAVirginIslandsFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Tuvalu (flags)
+ * Auto-generated logo component: Tuvalu (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface TuvaluFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface TuvaluSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const TuvaluFlags: React__default.ForwardRefExoticComponent<Omit<TuvaluFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const TuvaluFlagsMetadata: {
-    readonly id: "Tuvalu_flags";
+declare const TuvaluSymbols: React__default.ForwardRefExoticComponent<Omit<TuvaluSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const TuvaluSymbolsMetadata: {
+    readonly id: "Tuvalu_symbols";
     readonly baseId: "Tuvalu";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Tuvalu";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -4664,20 +4664,20 @@ declare const TuvaluFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Turks And Caicos Islands (flags)
+ * Auto-generated logo component: Turks And Caicos Islands (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface TurksAndCaicosIslandsFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface TurksAndCaicosIslandsSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const TurksAndCaicosIslandsFlags: React__default.ForwardRefExoticComponent<Omit<TurksAndCaicosIslandsFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const TurksAndCaicosIslandsFlagsMetadata: {
-    readonly id: "Turks-And-Caicos-Islands_flags";
+declare const TurksAndCaicosIslandsSymbols: React__default.ForwardRefExoticComponent<Omit<TurksAndCaicosIslandsSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const TurksAndCaicosIslandsSymbolsMetadata: {
+    readonly id: "Turks-And-Caicos-Islands_symbols";
     readonly baseId: "Turks-And-Caicos-Islands";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Turks And Caicos Islands";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -4685,20 +4685,20 @@ declare const TurksAndCaicosIslandsFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Turkmenistan (flags)
+ * Auto-generated logo component: Turkmenistan (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface TurkmenistanFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface TurkmenistanSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const TurkmenistanFlags: React__default.ForwardRefExoticComponent<Omit<TurkmenistanFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const TurkmenistanFlagsMetadata: {
-    readonly id: "Turkmenistan_flags";
+declare const TurkmenistanSymbols: React__default.ForwardRefExoticComponent<Omit<TurkmenistanSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const TurkmenistanSymbolsMetadata: {
+    readonly id: "Turkmenistan_symbols";
     readonly baseId: "Turkmenistan";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Turkmenistan";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -4706,20 +4706,20 @@ declare const TurkmenistanFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Turkey (flags)
+ * Auto-generated logo component: Turkey (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface TurkeyFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface TurkeySymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const TurkeyFlags: React__default.ForwardRefExoticComponent<Omit<TurkeyFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const TurkeyFlagsMetadata: {
-    readonly id: "Turkey_flags";
+declare const TurkeySymbols: React__default.ForwardRefExoticComponent<Omit<TurkeySymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const TurkeySymbolsMetadata: {
+    readonly id: "Turkey_symbols";
     readonly baseId: "Turkey";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Turkey";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -4727,20 +4727,20 @@ declare const TurkeyFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Tunisia (flags)
+ * Auto-generated logo component: Tunisia (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface TunisiaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface TunisiaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const TunisiaFlags: React__default.ForwardRefExoticComponent<Omit<TunisiaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const TunisiaFlagsMetadata: {
-    readonly id: "Tunisia_flags";
+declare const TunisiaSymbols: React__default.ForwardRefExoticComponent<Omit<TunisiaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const TunisiaSymbolsMetadata: {
+    readonly id: "Tunisia_symbols";
     readonly baseId: "Tunisia";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Tunisia";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -4748,20 +4748,20 @@ declare const TunisiaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Trinidad Tobago (flags)
+ * Auto-generated logo component: Trinidad Tobago (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface TrinidadTobagoFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface TrinidadTobagoSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const TrinidadTobagoFlags: React__default.ForwardRefExoticComponent<Omit<TrinidadTobagoFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const TrinidadTobagoFlagsMetadata: {
-    readonly id: "Trinidad-Tobago_flags";
+declare const TrinidadTobagoSymbols: React__default.ForwardRefExoticComponent<Omit<TrinidadTobagoSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const TrinidadTobagoSymbolsMetadata: {
+    readonly id: "Trinidad-Tobago_symbols";
     readonly baseId: "Trinidad-Tobago";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Trinidad Tobago";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -4769,20 +4769,20 @@ declare const TrinidadTobagoFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Tonga (flags)
+ * Auto-generated logo component: Tonga (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface TongaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface TongaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const TongaFlags: React__default.ForwardRefExoticComponent<Omit<TongaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const TongaFlagsMetadata: {
-    readonly id: "Tonga_flags";
+declare const TongaSymbols: React__default.ForwardRefExoticComponent<Omit<TongaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const TongaSymbolsMetadata: {
+    readonly id: "Tonga_symbols";
     readonly baseId: "Tonga";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Tonga";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -4790,20 +4790,20 @@ declare const TongaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Togo (flags)
+ * Auto-generated logo component: Togo (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface TogoFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface TogoSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const TogoFlags: React__default.ForwardRefExoticComponent<Omit<TogoFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const TogoFlagsMetadata: {
-    readonly id: "Togo_flags";
+declare const TogoSymbols: React__default.ForwardRefExoticComponent<Omit<TogoSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const TogoSymbolsMetadata: {
+    readonly id: "Togo_symbols";
     readonly baseId: "Togo";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Togo";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -4811,20 +4811,20 @@ declare const TogoFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Thailand (flags)
+ * Auto-generated logo component: Thailand (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface ThailandFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface ThailandSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const ThailandFlags: React__default.ForwardRefExoticComponent<Omit<ThailandFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const ThailandFlagsMetadata: {
-    readonly id: "Thailand_flags";
+declare const ThailandSymbols: React__default.ForwardRefExoticComponent<Omit<ThailandSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const ThailandSymbolsMetadata: {
+    readonly id: "Thailand_symbols";
     readonly baseId: "Thailand";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Thailand";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -4832,20 +4832,20 @@ declare const ThailandFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Tanzania (flags)
+ * Auto-generated logo component: Tanzania (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface TanzaniaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface TanzaniaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const TanzaniaFlags: React__default.ForwardRefExoticComponent<Omit<TanzaniaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const TanzaniaFlagsMetadata: {
-    readonly id: "Tanzania_flags";
+declare const TanzaniaSymbols: React__default.ForwardRefExoticComponent<Omit<TanzaniaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const TanzaniaSymbolsMetadata: {
+    readonly id: "Tanzania_symbols";
     readonly baseId: "Tanzania";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Tanzania";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -4853,20 +4853,20 @@ declare const TanzaniaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Tajikistan (flags)
+ * Auto-generated logo component: Tajikistan (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface TajikistanFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface TajikistanSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const TajikistanFlags: React__default.ForwardRefExoticComponent<Omit<TajikistanFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const TajikistanFlagsMetadata: {
-    readonly id: "Tajikistan_flags";
+declare const TajikistanSymbols: React__default.ForwardRefExoticComponent<Omit<TajikistanSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const TajikistanSymbolsMetadata: {
+    readonly id: "Tajikistan_symbols";
     readonly baseId: "Tajikistan";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Tajikistan";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -4874,20 +4874,20 @@ declare const TajikistanFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Taiwan (flags)
+ * Auto-generated logo component: Taiwan (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface TaiwanFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface TaiwanSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const TaiwanFlags: React__default.ForwardRefExoticComponent<Omit<TaiwanFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const TaiwanFlagsMetadata: {
-    readonly id: "Taiwan_flags";
+declare const TaiwanSymbols: React__default.ForwardRefExoticComponent<Omit<TaiwanSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const TaiwanSymbolsMetadata: {
+    readonly id: "Taiwan_symbols";
     readonly baseId: "Taiwan";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Taiwan";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -4895,20 +4895,20 @@ declare const TaiwanFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Syria (flags)
+ * Auto-generated logo component: Syria (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface SyriaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface SyriaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const SyriaFlags: React__default.ForwardRefExoticComponent<Omit<SyriaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const SyriaFlagsMetadata: {
-    readonly id: "Syria_flags";
+declare const SyriaSymbols: React__default.ForwardRefExoticComponent<Omit<SyriaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const SyriaSymbolsMetadata: {
+    readonly id: "Syria_symbols";
     readonly baseId: "Syria";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Syria";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -4916,20 +4916,20 @@ declare const SyriaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Switzerland (flags)
+ * Auto-generated logo component: Switzerland (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface SwitzerlandFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface SwitzerlandSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const SwitzerlandFlags: React__default.ForwardRefExoticComponent<Omit<SwitzerlandFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const SwitzerlandFlagsMetadata: {
-    readonly id: "Switzerland_flags";
+declare const SwitzerlandSymbols: React__default.ForwardRefExoticComponent<Omit<SwitzerlandSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const SwitzerlandSymbolsMetadata: {
+    readonly id: "Switzerland_symbols";
     readonly baseId: "Switzerland";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Switzerland";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -4937,20 +4937,20 @@ declare const SwitzerlandFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Sweden (flags)
+ * Auto-generated logo component: Sweden (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface SwedenFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface SwedenSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const SwedenFlags: React__default.ForwardRefExoticComponent<Omit<SwedenFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const SwedenFlagsMetadata: {
-    readonly id: "Sweden_flags";
+declare const SwedenSymbols: React__default.ForwardRefExoticComponent<Omit<SwedenSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const SwedenSymbolsMetadata: {
+    readonly id: "Sweden_symbols";
     readonly baseId: "Sweden";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Sweden";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -4958,20 +4958,20 @@ declare const SwedenFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Suriname (flags)
+ * Auto-generated logo component: Suriname (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface SurinameFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface SurinameSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const SurinameFlags: React__default.ForwardRefExoticComponent<Omit<SurinameFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const SurinameFlagsMetadata: {
-    readonly id: "Suriname_flags";
+declare const SurinameSymbols: React__default.ForwardRefExoticComponent<Omit<SurinameSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const SurinameSymbolsMetadata: {
+    readonly id: "Suriname_symbols";
     readonly baseId: "Suriname";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Suriname";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -4979,20 +4979,20 @@ declare const SurinameFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Sudan (flags)
+ * Auto-generated logo component: Sudan (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface SudanFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface SudanSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const SudanFlags: React__default.ForwardRefExoticComponent<Omit<SudanFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const SudanFlagsMetadata: {
-    readonly id: "Sudan_flags";
+declare const SudanSymbols: React__default.ForwardRefExoticComponent<Omit<SudanSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const SudanSymbolsMetadata: {
+    readonly id: "Sudan_symbols";
     readonly baseId: "Sudan";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Sudan";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -5000,20 +5000,20 @@ declare const SudanFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Sri Lanka (flags)
+ * Auto-generated logo component: Sri Lanka (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface SriLankaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface SriLankaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const SriLankaFlags: React__default.ForwardRefExoticComponent<Omit<SriLankaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const SriLankaFlagsMetadata: {
-    readonly id: "Sri-Lanka_flags";
+declare const SriLankaSymbols: React__default.ForwardRefExoticComponent<Omit<SriLankaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const SriLankaSymbolsMetadata: {
+    readonly id: "Sri-Lanka_symbols";
     readonly baseId: "Sri-Lanka";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Sri Lanka";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -5021,20 +5021,20 @@ declare const SriLankaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Spain (flags)
+ * Auto-generated logo component: Spain (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface SpainFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface SpainSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const SpainFlags: React__default.ForwardRefExoticComponent<Omit<SpainFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const SpainFlagsMetadata: {
-    readonly id: "Spain_flags";
+declare const SpainSymbols: React__default.ForwardRefExoticComponent<Omit<SpainSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const SpainSymbolsMetadata: {
+    readonly id: "Spain_symbols";
     readonly baseId: "Spain";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Spain";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -5042,20 +5042,20 @@ declare const SpainFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: South Sudan (flags)
+ * Auto-generated logo component: South Sudan (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface SouthSudanFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface SouthSudanSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const SouthSudanFlags: React__default.ForwardRefExoticComponent<Omit<SouthSudanFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const SouthSudanFlagsMetadata: {
-    readonly id: "South-Sudan_flags";
+declare const SouthSudanSymbols: React__default.ForwardRefExoticComponent<Omit<SouthSudanSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const SouthSudanSymbolsMetadata: {
+    readonly id: "South-Sudan_symbols";
     readonly baseId: "South-Sudan";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "South Sudan";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -5063,20 +5063,20 @@ declare const SouthSudanFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: South Korea (flags)
+ * Auto-generated logo component: South Korea (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface SouthKoreaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface SouthKoreaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const SouthKoreaFlags: React__default.ForwardRefExoticComponent<Omit<SouthKoreaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const SouthKoreaFlagsMetadata: {
-    readonly id: "South-Korea_flags";
+declare const SouthKoreaSymbols: React__default.ForwardRefExoticComponent<Omit<SouthKoreaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const SouthKoreaSymbolsMetadata: {
+    readonly id: "South-Korea_symbols";
     readonly baseId: "South-Korea";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "South Korea";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -5084,20 +5084,20 @@ declare const SouthKoreaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: South Georgia Sandwich Islands (flags)
+ * Auto-generated logo component: South Georgia Sandwich Islands (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface SouthGeorgiaSandwichIslandsFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface SouthGeorgiaSandwichIslandsSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const SouthGeorgiaSandwichIslandsFlags: React__default.ForwardRefExoticComponent<Omit<SouthGeorgiaSandwichIslandsFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const SouthGeorgiaSandwichIslandsFlagsMetadata: {
-    readonly id: "South-Georgia-Sandwich-Islands_flags";
+declare const SouthGeorgiaSandwichIslandsSymbols: React__default.ForwardRefExoticComponent<Omit<SouthGeorgiaSandwichIslandsSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const SouthGeorgiaSandwichIslandsSymbolsMetadata: {
+    readonly id: "South-Georgia-Sandwich-Islands_symbols";
     readonly baseId: "South-Georgia-Sandwich-Islands";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "South Georgia Sandwich Islands";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -5105,20 +5105,20 @@ declare const SouthGeorgiaSandwichIslandsFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: South Africa (flags)
+ * Auto-generated logo component: South Africa (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface SouthAfricaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface SouthAfricaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const SouthAfricaFlags: React__default.ForwardRefExoticComponent<Omit<SouthAfricaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const SouthAfricaFlagsMetadata: {
-    readonly id: "South-Africa_flags";
+declare const SouthAfricaSymbols: React__default.ForwardRefExoticComponent<Omit<SouthAfricaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const SouthAfricaSymbolsMetadata: {
+    readonly id: "South-Africa_symbols";
     readonly baseId: "South-Africa";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "South Africa";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -5126,20 +5126,20 @@ declare const SouthAfricaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Somalia (flags)
+ * Auto-generated logo component: Somalia (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface SomaliaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface SomaliaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const SomaliaFlags: React__default.ForwardRefExoticComponent<Omit<SomaliaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const SomaliaFlagsMetadata: {
-    readonly id: "Somalia_flags";
+declare const SomaliaSymbols: React__default.ForwardRefExoticComponent<Omit<SomaliaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const SomaliaSymbolsMetadata: {
+    readonly id: "Somalia_symbols";
     readonly baseId: "Somalia";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Somalia";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -5147,20 +5147,20 @@ declare const SomaliaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Solomon Islands (flags)
+ * Auto-generated logo component: Solomon Islands (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface SolomonIslandsFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface SolomonIslandsSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const SolomonIslandsFlags: React__default.ForwardRefExoticComponent<Omit<SolomonIslandsFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const SolomonIslandsFlagsMetadata: {
-    readonly id: "Solomon-Islands_flags";
+declare const SolomonIslandsSymbols: React__default.ForwardRefExoticComponent<Omit<SolomonIslandsSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const SolomonIslandsSymbolsMetadata: {
+    readonly id: "Solomon-Islands_symbols";
     readonly baseId: "Solomon-Islands";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Solomon Islands";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -5168,20 +5168,20 @@ declare const SolomonIslandsFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Slovenia (flags)
+ * Auto-generated logo component: Slovenia (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface SloveniaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface SloveniaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const SloveniaFlags: React__default.ForwardRefExoticComponent<Omit<SloveniaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const SloveniaFlagsMetadata: {
-    readonly id: "Slovenia_flags";
+declare const SloveniaSymbols: React__default.ForwardRefExoticComponent<Omit<SloveniaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const SloveniaSymbolsMetadata: {
+    readonly id: "Slovenia_symbols";
     readonly baseId: "Slovenia";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Slovenia";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -5189,20 +5189,20 @@ declare const SloveniaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Slovakia (flags)
+ * Auto-generated logo component: Slovakia (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface SlovakiaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface SlovakiaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const SlovakiaFlags: React__default.ForwardRefExoticComponent<Omit<SlovakiaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const SlovakiaFlagsMetadata: {
-    readonly id: "Slovakia_flags";
+declare const SlovakiaSymbols: React__default.ForwardRefExoticComponent<Omit<SlovakiaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const SlovakiaSymbolsMetadata: {
+    readonly id: "Slovakia_symbols";
     readonly baseId: "Slovakia";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Slovakia";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -5210,20 +5210,20 @@ declare const SlovakiaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Sint Maarten (flags)
+ * Auto-generated logo component: Sint Maarten (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface SintMaartenFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface SintMaartenSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const SintMaartenFlags: React__default.ForwardRefExoticComponent<Omit<SintMaartenFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const SintMaartenFlagsMetadata: {
-    readonly id: "Sint-Maarten_flags";
+declare const SintMaartenSymbols: React__default.ForwardRefExoticComponent<Omit<SintMaartenSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const SintMaartenSymbolsMetadata: {
+    readonly id: "Sint-Maarten_symbols";
     readonly baseId: "Sint-Maarten";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Sint Maarten";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -5231,20 +5231,20 @@ declare const SintMaartenFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Singapore (flags)
+ * Auto-generated logo component: Singapore (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface SingaporeFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface SingaporeSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const SingaporeFlags: React__default.ForwardRefExoticComponent<Omit<SingaporeFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const SingaporeFlagsMetadata: {
-    readonly id: "Singapore_flags";
+declare const SingaporeSymbols: React__default.ForwardRefExoticComponent<Omit<SingaporeSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const SingaporeSymbolsMetadata: {
+    readonly id: "Singapore_symbols";
     readonly baseId: "Singapore";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Singapore";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -5252,20 +5252,20 @@ declare const SingaporeFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Sierra Leone (flags)
+ * Auto-generated logo component: Sierra Leone (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface SierraLeoneFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface SierraLeoneSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const SierraLeoneFlags: React__default.ForwardRefExoticComponent<Omit<SierraLeoneFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const SierraLeoneFlagsMetadata: {
-    readonly id: "Sierra-Leone_flags";
+declare const SierraLeoneSymbols: React__default.ForwardRefExoticComponent<Omit<SierraLeoneSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const SierraLeoneSymbolsMetadata: {
+    readonly id: "Sierra-Leone_symbols";
     readonly baseId: "Sierra-Leone";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Sierra Leone";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -5273,20 +5273,20 @@ declare const SierraLeoneFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Saint Kitts Nevis (flags)
+ * Auto-generated logo component: Saint Kitts Nevis (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface SaintKittsNevisFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface SaintKittsNevisSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const SaintKittsNevisFlags: React__default.ForwardRefExoticComponent<Omit<SaintKittsNevisFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const SaintKittsNevisFlagsMetadata: {
-    readonly id: "Saint-Kitts-Nevis_flags";
+declare const SaintKittsNevisSymbols: React__default.ForwardRefExoticComponent<Omit<SaintKittsNevisSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const SaintKittsNevisSymbolsMetadata: {
+    readonly id: "Saint-Kitts-Nevis_symbols";
     readonly baseId: "Saint-Kitts-Nevis";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Saint Kitts Nevis";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -5294,20 +5294,20 @@ declare const SaintKittsNevisFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Rwanda (flags)
+ * Auto-generated logo component: Rwanda (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface RwandaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface RwandaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const RwandaFlags: React__default.ForwardRefExoticComponent<Omit<RwandaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const RwandaFlagsMetadata: {
-    readonly id: "Rwanda_flags";
+declare const RwandaSymbols: React__default.ForwardRefExoticComponent<Omit<RwandaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const RwandaSymbolsMetadata: {
+    readonly id: "Rwanda_symbols";
     readonly baseId: "Rwanda";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Rwanda";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -5315,20 +5315,20 @@ declare const RwandaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Russia (flags)
+ * Auto-generated logo component: Russia (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface RussiaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface RussiaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const RussiaFlags: React__default.ForwardRefExoticComponent<Omit<RussiaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const RussiaFlagsMetadata: {
-    readonly id: "Russia_flags";
+declare const RussiaSymbols: React__default.ForwardRefExoticComponent<Omit<RussiaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const RussiaSymbolsMetadata: {
+    readonly id: "Russia_symbols";
     readonly baseId: "Russia";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Russia";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -5336,20 +5336,20 @@ declare const RussiaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Romania (flags)
+ * Auto-generated logo component: Romania (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface RomaniaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface RomaniaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const RomaniaFlags: React__default.ForwardRefExoticComponent<Omit<RomaniaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const RomaniaFlagsMetadata: {
-    readonly id: "Romania_flags";
+declare const RomaniaSymbols: React__default.ForwardRefExoticComponent<Omit<RomaniaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const RomaniaSymbolsMetadata: {
+    readonly id: "Romania_symbols";
     readonly baseId: "Romania";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Romania";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -5357,20 +5357,20 @@ declare const RomaniaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Republic Congo (flags)
+ * Auto-generated logo component: Republic Congo (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface RepublicCongoFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface RepublicCongoSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const RepublicCongoFlags: React__default.ForwardRefExoticComponent<Omit<RepublicCongoFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const RepublicCongoFlagsMetadata: {
-    readonly id: "Republic-Congo_flags";
+declare const RepublicCongoSymbols: React__default.ForwardRefExoticComponent<Omit<RepublicCongoSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const RepublicCongoSymbolsMetadata: {
+    readonly id: "Republic-Congo_symbols";
     readonly baseId: "Republic-Congo";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Republic Congo";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -5378,20 +5378,20 @@ declare const RepublicCongoFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Qatar (flags)
+ * Auto-generated logo component: Qatar (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface QatarFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface QatarSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const QatarFlags: React__default.ForwardRefExoticComponent<Omit<QatarFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const QatarFlagsMetadata: {
-    readonly id: "Qatar_flags";
+declare const QatarSymbols: React__default.ForwardRefExoticComponent<Omit<QatarSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const QatarSymbolsMetadata: {
+    readonly id: "Qatar_symbols";
     readonly baseId: "Qatar";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Qatar";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -5399,20 +5399,20 @@ declare const QatarFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Puerto Rico (flags)
+ * Auto-generated logo component: Puerto Rico (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface PuertoRicoFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface PuertoRicoSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const PuertoRicoFlags: React__default.ForwardRefExoticComponent<Omit<PuertoRicoFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const PuertoRicoFlagsMetadata: {
-    readonly id: "Puerto-Rico_flags";
+declare const PuertoRicoSymbols: React__default.ForwardRefExoticComponent<Omit<PuertoRicoSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const PuertoRicoSymbolsMetadata: {
+    readonly id: "Puerto-Rico_symbols";
     readonly baseId: "Puerto-Rico";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Puerto Rico";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -5420,20 +5420,20 @@ declare const PuertoRicoFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Portugal (flags)
+ * Auto-generated logo component: Portugal (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface PortugalFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface PortugalSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const PortugalFlags: React__default.ForwardRefExoticComponent<Omit<PortugalFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const PortugalFlagsMetadata: {
-    readonly id: "Portugal_flags";
+declare const PortugalSymbols: React__default.ForwardRefExoticComponent<Omit<PortugalSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const PortugalSymbolsMetadata: {
+    readonly id: "Portugal_symbols";
     readonly baseId: "Portugal";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Portugal";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -5441,20 +5441,20 @@ declare const PortugalFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Poland (flags)
+ * Auto-generated logo component: Poland (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface PolandFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface PolandSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const PolandFlags: React__default.ForwardRefExoticComponent<Omit<PolandFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const PolandFlagsMetadata: {
-    readonly id: "Poland_flags";
+declare const PolandSymbols: React__default.ForwardRefExoticComponent<Omit<PolandSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const PolandSymbolsMetadata: {
+    readonly id: "Poland_symbols";
     readonly baseId: "Poland";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Poland";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -5462,20 +5462,20 @@ declare const PolandFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Philippines (flags)
+ * Auto-generated logo component: Philippines (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface PhilippinesFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface PhilippinesSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const PhilippinesFlags: React__default.ForwardRefExoticComponent<Omit<PhilippinesFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const PhilippinesFlagsMetadata: {
-    readonly id: "Philippines_flags";
+declare const PhilippinesSymbols: React__default.ForwardRefExoticComponent<Omit<PhilippinesSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const PhilippinesSymbolsMetadata: {
+    readonly id: "Philippines_symbols";
     readonly baseId: "Philippines";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Philippines";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -5483,20 +5483,20 @@ declare const PhilippinesFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Peru (flags)
+ * Auto-generated logo component: Peru (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface PeruFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface PeruSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const PeruFlags: React__default.ForwardRefExoticComponent<Omit<PeruFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const PeruFlagsMetadata: {
-    readonly id: "Peru_flags";
+declare const PeruSymbols: React__default.ForwardRefExoticComponent<Omit<PeruSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const PeruSymbolsMetadata: {
+    readonly id: "Peru_symbols";
     readonly baseId: "Peru";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Peru";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -5504,20 +5504,20 @@ declare const PeruFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Paraguay (flags)
+ * Auto-generated logo component: Paraguay (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface ParaguayFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface ParaguaySymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const ParaguayFlags: React__default.ForwardRefExoticComponent<Omit<ParaguayFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const ParaguayFlagsMetadata: {
-    readonly id: "Paraguay_flags";
+declare const ParaguaySymbols: React__default.ForwardRefExoticComponent<Omit<ParaguaySymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const ParaguaySymbolsMetadata: {
+    readonly id: "Paraguay_symbols";
     readonly baseId: "Paraguay";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Paraguay";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -5525,20 +5525,20 @@ declare const ParaguayFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Papua New Guinea (flags)
+ * Auto-generated logo component: Papua New Guinea (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface PapuaNewGuineaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface PapuaNewGuineaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const PapuaNewGuineaFlags: React__default.ForwardRefExoticComponent<Omit<PapuaNewGuineaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const PapuaNewGuineaFlagsMetadata: {
-    readonly id: "Papua-New-Guinea_flags";
+declare const PapuaNewGuineaSymbols: React__default.ForwardRefExoticComponent<Omit<PapuaNewGuineaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const PapuaNewGuineaSymbolsMetadata: {
+    readonly id: "Papua-New-Guinea_symbols";
     readonly baseId: "Papua-New-Guinea";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Papua New Guinea";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -5546,20 +5546,20 @@ declare const PapuaNewGuineaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Panama (flags)
+ * Auto-generated logo component: Panama (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface PanamaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface PanamaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const PanamaFlags: React__default.ForwardRefExoticComponent<Omit<PanamaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const PanamaFlagsMetadata: {
-    readonly id: "Panama_flags";
+declare const PanamaSymbols: React__default.ForwardRefExoticComponent<Omit<PanamaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const PanamaSymbolsMetadata: {
+    readonly id: "Panama_symbols";
     readonly baseId: "Panama";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Panama";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -5567,20 +5567,20 @@ declare const PanamaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Palestine (flags)
+ * Auto-generated logo component: Palestine (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface PalestineFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface PalestineSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const PalestineFlags: React__default.ForwardRefExoticComponent<Omit<PalestineFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const PalestineFlagsMetadata: {
-    readonly id: "Palestine_flags";
+declare const PalestineSymbols: React__default.ForwardRefExoticComponent<Omit<PalestineSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const PalestineSymbolsMetadata: {
+    readonly id: "Palestine_symbols";
     readonly baseId: "Palestine";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Palestine";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -5588,20 +5588,20 @@ declare const PalestineFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Palau (flags)
+ * Auto-generated logo component: Palau (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface PalauFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface PalauSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const PalauFlags: React__default.ForwardRefExoticComponent<Omit<PalauFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const PalauFlagsMetadata: {
-    readonly id: "Palau_flags";
+declare const PalauSymbols: React__default.ForwardRefExoticComponent<Omit<PalauSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const PalauSymbolsMetadata: {
+    readonly id: "Palau_symbols";
     readonly baseId: "Palau";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Palau";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -5609,20 +5609,20 @@ declare const PalauFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Pakistan (flags)
+ * Auto-generated logo component: Pakistan (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface PakistanFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface PakistanSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const PakistanFlags: React__default.ForwardRefExoticComponent<Omit<PakistanFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const PakistanFlagsMetadata: {
-    readonly id: "Pakistan_flags";
+declare const PakistanSymbols: React__default.ForwardRefExoticComponent<Omit<PakistanSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const PakistanSymbolsMetadata: {
+    readonly id: "Pakistan_symbols";
     readonly baseId: "Pakistan";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Pakistan";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -5630,20 +5630,20 @@ declare const PakistanFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Oman (flags)
+ * Auto-generated logo component: Oman (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface OmanFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface OmanSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const OmanFlags: React__default.ForwardRefExoticComponent<Omit<OmanFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const OmanFlagsMetadata: {
-    readonly id: "Oman_flags";
+declare const OmanSymbols: React__default.ForwardRefExoticComponent<Omit<OmanSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const OmanSymbolsMetadata: {
+    readonly id: "Oman_symbols";
     readonly baseId: "Oman";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Oman";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -5651,20 +5651,20 @@ declare const OmanFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Norway (flags)
+ * Auto-generated logo component: Norway (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface NorwayFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface NorwaySymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const NorwayFlags: React__default.ForwardRefExoticComponent<Omit<NorwayFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const NorwayFlagsMetadata: {
-    readonly id: "Norway_flags";
+declare const NorwaySymbols: React__default.ForwardRefExoticComponent<Omit<NorwaySymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const NorwaySymbolsMetadata: {
+    readonly id: "Norway_symbols";
     readonly baseId: "Norway";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Norway";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -5672,20 +5672,20 @@ declare const NorwayFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Northen Ireland (flags)
+ * Auto-generated logo component: Northen Ireland (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface NorthenIrelandFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface NorthenIrelandSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const NorthenIrelandFlags: React__default.ForwardRefExoticComponent<Omit<NorthenIrelandFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const NorthenIrelandFlagsMetadata: {
-    readonly id: "Northen-Ireland_flags";
+declare const NorthenIrelandSymbols: React__default.ForwardRefExoticComponent<Omit<NorthenIrelandSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const NorthenIrelandSymbolsMetadata: {
+    readonly id: "Northen-Ireland_symbols";
     readonly baseId: "Northen-Ireland";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Northen Ireland";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -5693,20 +5693,20 @@ declare const NorthenIrelandFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: North Macedonia (flags)
+ * Auto-generated logo component: North Macedonia (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface NorthMacedoniaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface NorthMacedoniaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const NorthMacedoniaFlags: React__default.ForwardRefExoticComponent<Omit<NorthMacedoniaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const NorthMacedoniaFlagsMetadata: {
-    readonly id: "North-Macedonia_flags";
+declare const NorthMacedoniaSymbols: React__default.ForwardRefExoticComponent<Omit<NorthMacedoniaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const NorthMacedoniaSymbolsMetadata: {
+    readonly id: "North-Macedonia_symbols";
     readonly baseId: "North-Macedonia";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "North Macedonia";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -5714,20 +5714,20 @@ declare const NorthMacedoniaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: North Korea (flags)
+ * Auto-generated logo component: North Korea (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface NorthKoreaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface NorthKoreaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const NorthKoreaFlags: React__default.ForwardRefExoticComponent<Omit<NorthKoreaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const NorthKoreaFlagsMetadata: {
-    readonly id: "North-Korea_flags";
+declare const NorthKoreaSymbols: React__default.ForwardRefExoticComponent<Omit<NorthKoreaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const NorthKoreaSymbolsMetadata: {
+    readonly id: "North-Korea_symbols";
     readonly baseId: "North-Korea";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "North Korea";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -5735,20 +5735,20 @@ declare const NorthKoreaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Niue (flags)
+ * Auto-generated logo component: Niue (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface NiueFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface NiueSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const NiueFlags: React__default.ForwardRefExoticComponent<Omit<NiueFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const NiueFlagsMetadata: {
-    readonly id: "Niue_flags";
+declare const NiueSymbols: React__default.ForwardRefExoticComponent<Omit<NiueSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const NiueSymbolsMetadata: {
+    readonly id: "Niue_symbols";
     readonly baseId: "Niue";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Niue";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -5756,20 +5756,20 @@ declare const NiueFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Nigeria (flags)
+ * Auto-generated logo component: Nigeria (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface NigeriaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface NigeriaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const NigeriaFlags: React__default.ForwardRefExoticComponent<Omit<NigeriaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const NigeriaFlagsMetadata: {
-    readonly id: "Nigeria_flags";
+declare const NigeriaSymbols: React__default.ForwardRefExoticComponent<Omit<NigeriaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const NigeriaSymbolsMetadata: {
+    readonly id: "Nigeria_symbols";
     readonly baseId: "Nigeria";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Nigeria";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -5777,20 +5777,20 @@ declare const NigeriaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Niger (flags)
+ * Auto-generated logo component: Niger (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface NigerFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface NigerSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const NigerFlags: React__default.ForwardRefExoticComponent<Omit<NigerFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const NigerFlagsMetadata: {
-    readonly id: "Niger_flags";
+declare const NigerSymbols: React__default.ForwardRefExoticComponent<Omit<NigerSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const NigerSymbolsMetadata: {
+    readonly id: "Niger_symbols";
     readonly baseId: "Niger";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Niger";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -5798,20 +5798,20 @@ declare const NigerFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Nicaragua (flags)
+ * Auto-generated logo component: Nicaragua (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface NicaraguaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface NicaraguaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const NicaraguaFlags: React__default.ForwardRefExoticComponent<Omit<NicaraguaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const NicaraguaFlagsMetadata: {
-    readonly id: "Nicaragua_flags";
+declare const NicaraguaSymbols: React__default.ForwardRefExoticComponent<Omit<NicaraguaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const NicaraguaSymbolsMetadata: {
+    readonly id: "Nicaragua_symbols";
     readonly baseId: "Nicaragua";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Nicaragua";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -5819,20 +5819,20 @@ declare const NicaraguaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: New Zealand (flags)
+ * Auto-generated logo component: New Zealand (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface NewZealandFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface NewZealandSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const NewZealandFlags: React__default.ForwardRefExoticComponent<Omit<NewZealandFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const NewZealandFlagsMetadata: {
-    readonly id: "New-Zealand_flags";
+declare const NewZealandSymbols: React__default.ForwardRefExoticComponent<Omit<NewZealandSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const NewZealandSymbolsMetadata: {
+    readonly id: "New-Zealand_symbols";
     readonly baseId: "New-Zealand";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "New Zealand";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -5840,20 +5840,20 @@ declare const NewZealandFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: New Caledonia (flags)
+ * Auto-generated logo component: New Caledonia (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface NewCaledoniaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface NewCaledoniaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const NewCaledoniaFlags: React__default.ForwardRefExoticComponent<Omit<NewCaledoniaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const NewCaledoniaFlagsMetadata: {
-    readonly id: "New-Caledonia_flags";
+declare const NewCaledoniaSymbols: React__default.ForwardRefExoticComponent<Omit<NewCaledoniaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const NewCaledoniaSymbolsMetadata: {
+    readonly id: "New-Caledonia_symbols";
     readonly baseId: "New-Caledonia";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "New Caledonia";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -5861,20 +5861,20 @@ declare const NewCaledoniaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Netherlands (flags)
+ * Auto-generated logo component: Netherlands (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface NetherlandsFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface NetherlandsSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const NetherlandsFlags: React__default.ForwardRefExoticComponent<Omit<NetherlandsFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const NetherlandsFlagsMetadata: {
-    readonly id: "Netherlands_flags";
+declare const NetherlandsSymbols: React__default.ForwardRefExoticComponent<Omit<NetherlandsSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const NetherlandsSymbolsMetadata: {
+    readonly id: "Netherlands_symbols";
     readonly baseId: "Netherlands";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Netherlands";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -5882,20 +5882,20 @@ declare const NetherlandsFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Netherlands Antilles (flags)
+ * Auto-generated logo component: Netherlands Antilles (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface NetherlandsAntillesFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface NetherlandsAntillesSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const NetherlandsAntillesFlags: React__default.ForwardRefExoticComponent<Omit<NetherlandsAntillesFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const NetherlandsAntillesFlagsMetadata: {
-    readonly id: "Netherlands-Antilles_flags";
+declare const NetherlandsAntillesSymbols: React__default.ForwardRefExoticComponent<Omit<NetherlandsAntillesSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const NetherlandsAntillesSymbolsMetadata: {
+    readonly id: "Netherlands-Antilles_symbols";
     readonly baseId: "Netherlands-Antilles";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Netherlands Antilles";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -5903,20 +5903,20 @@ declare const NetherlandsAntillesFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Nepal (flags)
+ * Auto-generated logo component: Nepal (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface NepalFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface NepalSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const NepalFlags: React__default.ForwardRefExoticComponent<Omit<NepalFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const NepalFlagsMetadata: {
-    readonly id: "Nepal_flags";
+declare const NepalSymbols: React__default.ForwardRefExoticComponent<Omit<NepalSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const NepalSymbolsMetadata: {
+    readonly id: "Nepal_symbols";
     readonly baseId: "Nepal";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Nepal";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -5924,20 +5924,20 @@ declare const NepalFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Nauru (flags)
+ * Auto-generated logo component: Nauru (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface NauruFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface NauruSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const NauruFlags: React__default.ForwardRefExoticComponent<Omit<NauruFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const NauruFlagsMetadata: {
-    readonly id: "Nauru_flags";
+declare const NauruSymbols: React__default.ForwardRefExoticComponent<Omit<NauruSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const NauruSymbolsMetadata: {
+    readonly id: "Nauru_symbols";
     readonly baseId: "Nauru";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Nauru";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -5945,20 +5945,20 @@ declare const NauruFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Namibia (flags)
+ * Auto-generated logo component: Namibia (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface NamibiaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface NamibiaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const NamibiaFlags: React__default.ForwardRefExoticComponent<Omit<NamibiaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const NamibiaFlagsMetadata: {
-    readonly id: "Namibia_flags";
+declare const NamibiaSymbols: React__default.ForwardRefExoticComponent<Omit<NamibiaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const NamibiaSymbolsMetadata: {
+    readonly id: "Namibia_symbols";
     readonly baseId: "Namibia";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Namibia";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -5966,20 +5966,20 @@ declare const NamibiaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Myanmar (flags)
+ * Auto-generated logo component: Myanmar (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface MyanmarFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface MyanmarSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const MyanmarFlags: React__default.ForwardRefExoticComponent<Omit<MyanmarFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const MyanmarFlagsMetadata: {
-    readonly id: "Myanmar_flags";
+declare const MyanmarSymbols: React__default.ForwardRefExoticComponent<Omit<MyanmarSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const MyanmarSymbolsMetadata: {
+    readonly id: "Myanmar_symbols";
     readonly baseId: "Myanmar";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Myanmar";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -5987,20 +5987,20 @@ declare const MyanmarFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Mozanbique (flags)
+ * Auto-generated logo component: Mozanbique (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface MozanbiqueFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface MozanbiqueSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const MozanbiqueFlags: React__default.ForwardRefExoticComponent<Omit<MozanbiqueFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const MozanbiqueFlagsMetadata: {
-    readonly id: "Mozanbique_flags";
+declare const MozanbiqueSymbols: React__default.ForwardRefExoticComponent<Omit<MozanbiqueSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const MozanbiqueSymbolsMetadata: {
+    readonly id: "Mozanbique_symbols";
     readonly baseId: "Mozanbique";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Mozanbique";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -6008,20 +6008,20 @@ declare const MozanbiqueFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Morocco (flags)
+ * Auto-generated logo component: Morocco (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface MoroccoFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface MoroccoSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const MoroccoFlags: React__default.ForwardRefExoticComponent<Omit<MoroccoFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const MoroccoFlagsMetadata: {
-    readonly id: "Morocco_flags";
+declare const MoroccoSymbols: React__default.ForwardRefExoticComponent<Omit<MoroccoSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const MoroccoSymbolsMetadata: {
+    readonly id: "Morocco_symbols";
     readonly baseId: "Morocco";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Morocco";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -6029,20 +6029,20 @@ declare const MoroccoFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Montenegro (flags)
+ * Auto-generated logo component: Montenegro (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface MontenegroFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface MontenegroSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const MontenegroFlags: React__default.ForwardRefExoticComponent<Omit<MontenegroFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const MontenegroFlagsMetadata: {
-    readonly id: "Montenegro_flags";
+declare const MontenegroSymbols: React__default.ForwardRefExoticComponent<Omit<MontenegroSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const MontenegroSymbolsMetadata: {
+    readonly id: "Montenegro_symbols";
     readonly baseId: "Montenegro";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Montenegro";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -6050,20 +6050,20 @@ declare const MontenegroFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Mongolia (flags)
+ * Auto-generated logo component: Mongolia (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface MongoliaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface MongoliaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const MongoliaFlags: React__default.ForwardRefExoticComponent<Omit<MongoliaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const MongoliaFlagsMetadata: {
-    readonly id: "Mongolia_flags";
+declare const MongoliaSymbols: React__default.ForwardRefExoticComponent<Omit<MongoliaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const MongoliaSymbolsMetadata: {
+    readonly id: "Mongolia_symbols";
     readonly baseId: "Mongolia";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Mongolia";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -6071,20 +6071,20 @@ declare const MongoliaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Monaco (flags)
+ * Auto-generated logo component: Monaco (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface MonacoFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface MonacoSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const MonacoFlags: React__default.ForwardRefExoticComponent<Omit<MonacoFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const MonacoFlagsMetadata: {
-    readonly id: "Monaco_flags";
+declare const MonacoSymbols: React__default.ForwardRefExoticComponent<Omit<MonacoSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const MonacoSymbolsMetadata: {
+    readonly id: "Monaco_symbols";
     readonly baseId: "Monaco";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Monaco";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -6092,20 +6092,20 @@ declare const MonacoFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Moldova (flags)
+ * Auto-generated logo component: Moldova (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface MoldovaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface MoldovaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const MoldovaFlags: React__default.ForwardRefExoticComponent<Omit<MoldovaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const MoldovaFlagsMetadata: {
-    readonly id: "Moldova_flags";
+declare const MoldovaSymbols: React__default.ForwardRefExoticComponent<Omit<MoldovaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const MoldovaSymbolsMetadata: {
+    readonly id: "Moldova_symbols";
     readonly baseId: "Moldova";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Moldova";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -6113,20 +6113,20 @@ declare const MoldovaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Micronesia (flags)
+ * Auto-generated logo component: Micronesia (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface MicronesiaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface MicronesiaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const MicronesiaFlags: React__default.ForwardRefExoticComponent<Omit<MicronesiaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const MicronesiaFlagsMetadata: {
-    readonly id: "Micronesia_flags";
+declare const MicronesiaSymbols: React__default.ForwardRefExoticComponent<Omit<MicronesiaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const MicronesiaSymbolsMetadata: {
+    readonly id: "Micronesia_symbols";
     readonly baseId: "Micronesia";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Micronesia";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -6134,20 +6134,20 @@ declare const MicronesiaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Mexico (flags)
+ * Auto-generated logo component: Mexico (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface MexicoFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface MexicoSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const MexicoFlags: React__default.ForwardRefExoticComponent<Omit<MexicoFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const MexicoFlagsMetadata: {
-    readonly id: "Mexico_flags";
+declare const MexicoSymbols: React__default.ForwardRefExoticComponent<Omit<MexicoSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const MexicoSymbolsMetadata: {
+    readonly id: "Mexico_symbols";
     readonly baseId: "Mexico";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Mexico";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -6155,20 +6155,20 @@ declare const MexicoFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Mauritius (flags)
+ * Auto-generated logo component: Mauritius (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface MauritiusFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface MauritiusSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const MauritiusFlags: React__default.ForwardRefExoticComponent<Omit<MauritiusFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const MauritiusFlagsMetadata: {
-    readonly id: "Mauritius_flags";
+declare const MauritiusSymbols: React__default.ForwardRefExoticComponent<Omit<MauritiusSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const MauritiusSymbolsMetadata: {
+    readonly id: "Mauritius_symbols";
     readonly baseId: "Mauritius";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Mauritius";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -6176,20 +6176,20 @@ declare const MauritiusFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Mauritania (flags)
+ * Auto-generated logo component: Mauritania (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface MauritaniaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface MauritaniaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const MauritaniaFlags: React__default.ForwardRefExoticComponent<Omit<MauritaniaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const MauritaniaFlagsMetadata: {
-    readonly id: "Mauritania_flags";
+declare const MauritaniaSymbols: React__default.ForwardRefExoticComponent<Omit<MauritaniaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const MauritaniaSymbolsMetadata: {
+    readonly id: "Mauritania_symbols";
     readonly baseId: "Mauritania";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Mauritania";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -6197,20 +6197,20 @@ declare const MauritaniaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Martinique (flags)
+ * Auto-generated logo component: Martinique (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface MartiniqueFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface MartiniqueSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const MartiniqueFlags: React__default.ForwardRefExoticComponent<Omit<MartiniqueFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const MartiniqueFlagsMetadata: {
-    readonly id: "Martinique_flags";
+declare const MartiniqueSymbols: React__default.ForwardRefExoticComponent<Omit<MartiniqueSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const MartiniqueSymbolsMetadata: {
+    readonly id: "Martinique_symbols";
     readonly baseId: "Martinique";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Martinique";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -6218,20 +6218,20 @@ declare const MartiniqueFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Marshall Islands (flags)
+ * Auto-generated logo component: Marshall Islands (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface MarshallIslandsFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface MarshallIslandsSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const MarshallIslandsFlags: React__default.ForwardRefExoticComponent<Omit<MarshallIslandsFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const MarshallIslandsFlagsMetadata: {
-    readonly id: "Marshall-Islands_flags";
+declare const MarshallIslandsSymbols: React__default.ForwardRefExoticComponent<Omit<MarshallIslandsSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const MarshallIslandsSymbolsMetadata: {
+    readonly id: "Marshall-Islands_symbols";
     readonly baseId: "Marshall-Islands";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Marshall Islands";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -6239,20 +6239,20 @@ declare const MarshallIslandsFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Malta (flags)
+ * Auto-generated logo component: Malta (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface MaltaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface MaltaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const MaltaFlags: React__default.ForwardRefExoticComponent<Omit<MaltaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const MaltaFlagsMetadata: {
-    readonly id: "Malta_flags";
+declare const MaltaSymbols: React__default.ForwardRefExoticComponent<Omit<MaltaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const MaltaSymbolsMetadata: {
+    readonly id: "Malta_symbols";
     readonly baseId: "Malta";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Malta";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -6260,20 +6260,20 @@ declare const MaltaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Mali (flags)
+ * Auto-generated logo component: Mali (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface MaliFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface MaliSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const MaliFlags: React__default.ForwardRefExoticComponent<Omit<MaliFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const MaliFlagsMetadata: {
-    readonly id: "Mali_flags";
+declare const MaliSymbols: React__default.ForwardRefExoticComponent<Omit<MaliSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const MaliSymbolsMetadata: {
+    readonly id: "Mali_symbols";
     readonly baseId: "Mali";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Mali";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -6281,20 +6281,20 @@ declare const MaliFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Maldives (flags)
+ * Auto-generated logo component: Maldives (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface MaldivesFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface MaldivesSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const MaldivesFlags: React__default.ForwardRefExoticComponent<Omit<MaldivesFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const MaldivesFlagsMetadata: {
-    readonly id: "Maldives_flags";
+declare const MaldivesSymbols: React__default.ForwardRefExoticComponent<Omit<MaldivesSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const MaldivesSymbolsMetadata: {
+    readonly id: "Maldives_symbols";
     readonly baseId: "Maldives";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Maldives";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -6302,20 +6302,20 @@ declare const MaldivesFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Malaysia (flags)
+ * Auto-generated logo component: Malaysia (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface MalaysiaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface MalaysiaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const MalaysiaFlags: React__default.ForwardRefExoticComponent<Omit<MalaysiaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const MalaysiaFlagsMetadata: {
-    readonly id: "Malaysia_flags";
+declare const MalaysiaSymbols: React__default.ForwardRefExoticComponent<Omit<MalaysiaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const MalaysiaSymbolsMetadata: {
+    readonly id: "Malaysia_symbols";
     readonly baseId: "Malaysia";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Malaysia";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -6323,20 +6323,20 @@ declare const MalaysiaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Malawi (flags)
+ * Auto-generated logo component: Malawi (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface MalawiFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface MalawiSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const MalawiFlags: React__default.ForwardRefExoticComponent<Omit<MalawiFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const MalawiFlagsMetadata: {
-    readonly id: "Malawi_flags";
+declare const MalawiSymbols: React__default.ForwardRefExoticComponent<Omit<MalawiSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const MalawiSymbolsMetadata: {
+    readonly id: "Malawi_symbols";
     readonly baseId: "Malawi";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Malawi";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -6344,20 +6344,20 @@ declare const MalawiFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Madagascar (flags)
+ * Auto-generated logo component: Madagascar (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface MadagascarFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface MadagascarSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const MadagascarFlags: React__default.ForwardRefExoticComponent<Omit<MadagascarFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const MadagascarFlagsMetadata: {
-    readonly id: "Madagascar_flags";
+declare const MadagascarSymbols: React__default.ForwardRefExoticComponent<Omit<MadagascarSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const MadagascarSymbolsMetadata: {
+    readonly id: "Madagascar_symbols";
     readonly baseId: "Madagascar";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Madagascar";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -6365,20 +6365,20 @@ declare const MadagascarFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Macau (flags)
+ * Auto-generated logo component: Macau (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface MacauFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface MacauSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const MacauFlags: React__default.ForwardRefExoticComponent<Omit<MacauFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const MacauFlagsMetadata: {
-    readonly id: "Macau_flags";
+declare const MacauSymbols: React__default.ForwardRefExoticComponent<Omit<MacauSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const MacauSymbolsMetadata: {
+    readonly id: "Macau_symbols";
     readonly baseId: "Macau";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Macau";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -6386,20 +6386,20 @@ declare const MacauFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Luxembourg (flags)
+ * Auto-generated logo component: Luxembourg (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface LuxembourgFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface LuxembourgSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const LuxembourgFlags: React__default.ForwardRefExoticComponent<Omit<LuxembourgFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const LuxembourgFlagsMetadata: {
-    readonly id: "Luxembourg_flags";
+declare const LuxembourgSymbols: React__default.ForwardRefExoticComponent<Omit<LuxembourgSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const LuxembourgSymbolsMetadata: {
+    readonly id: "Luxembourg_symbols";
     readonly baseId: "Luxembourg";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Luxembourg";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -6407,20 +6407,20 @@ declare const LuxembourgFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Lithuania (flags)
+ * Auto-generated logo component: Lithuania (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface LithuaniaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface LithuaniaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const LithuaniaFlags: React__default.ForwardRefExoticComponent<Omit<LithuaniaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const LithuaniaFlagsMetadata: {
-    readonly id: "Lithuania_flags";
+declare const LithuaniaSymbols: React__default.ForwardRefExoticComponent<Omit<LithuaniaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const LithuaniaSymbolsMetadata: {
+    readonly id: "Lithuania_symbols";
     readonly baseId: "Lithuania";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Lithuania";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -6428,20 +6428,20 @@ declare const LithuaniaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Liechtenstein (flags)
+ * Auto-generated logo component: Liechtenstein (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface LiechtensteinFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface LiechtensteinSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const LiechtensteinFlags: React__default.ForwardRefExoticComponent<Omit<LiechtensteinFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const LiechtensteinFlagsMetadata: {
-    readonly id: "Liechtenstein_flags";
+declare const LiechtensteinSymbols: React__default.ForwardRefExoticComponent<Omit<LiechtensteinSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const LiechtensteinSymbolsMetadata: {
+    readonly id: "Liechtenstein_symbols";
     readonly baseId: "Liechtenstein";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Liechtenstein";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -6449,20 +6449,20 @@ declare const LiechtensteinFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Libya (flags)
+ * Auto-generated logo component: Libya (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface LibyaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface LibyaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const LibyaFlags: React__default.ForwardRefExoticComponent<Omit<LibyaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const LibyaFlagsMetadata: {
-    readonly id: "Libya_flags";
+declare const LibyaSymbols: React__default.ForwardRefExoticComponent<Omit<LibyaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const LibyaSymbolsMetadata: {
+    readonly id: "Libya_symbols";
     readonly baseId: "Libya";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Libya";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -6470,20 +6470,20 @@ declare const LibyaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Liberia (flags)
+ * Auto-generated logo component: Liberia (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface LiberiaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface LiberiaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const LiberiaFlags: React__default.ForwardRefExoticComponent<Omit<LiberiaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const LiberiaFlagsMetadata: {
-    readonly id: "Liberia_flags";
+declare const LiberiaSymbols: React__default.ForwardRefExoticComponent<Omit<LiberiaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const LiberiaSymbolsMetadata: {
+    readonly id: "Liberia_symbols";
     readonly baseId: "Liberia";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Liberia";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -6491,20 +6491,20 @@ declare const LiberiaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Lesotho (flags)
+ * Auto-generated logo component: Lesotho (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface LesothoFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface LesothoSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const LesothoFlags: React__default.ForwardRefExoticComponent<Omit<LesothoFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const LesothoFlagsMetadata: {
-    readonly id: "Lesotho_flags";
+declare const LesothoSymbols: React__default.ForwardRefExoticComponent<Omit<LesothoSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const LesothoSymbolsMetadata: {
+    readonly id: "Lesotho_symbols";
     readonly baseId: "Lesotho";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Lesotho";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -6512,20 +6512,20 @@ declare const LesothoFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Lebanon (flags)
+ * Auto-generated logo component: Lebanon (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface LebanonFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface LebanonSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const LebanonFlags: React__default.ForwardRefExoticComponent<Omit<LebanonFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const LebanonFlagsMetadata: {
-    readonly id: "Lebanon_flags";
+declare const LebanonSymbols: React__default.ForwardRefExoticComponent<Omit<LebanonSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const LebanonSymbolsMetadata: {
+    readonly id: "Lebanon_symbols";
     readonly baseId: "Lebanon";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Lebanon";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -6533,20 +6533,20 @@ declare const LebanonFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Latvia (flags)
+ * Auto-generated logo component: Latvia (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface LatviaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface LatviaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const LatviaFlags: React__default.ForwardRefExoticComponent<Omit<LatviaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const LatviaFlagsMetadata: {
-    readonly id: "Latvia_flags";
+declare const LatviaSymbols: React__default.ForwardRefExoticComponent<Omit<LatviaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const LatviaSymbolsMetadata: {
+    readonly id: "Latvia_symbols";
     readonly baseId: "Latvia";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Latvia";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -6554,20 +6554,20 @@ declare const LatviaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Laos (flags)
+ * Auto-generated logo component: Laos (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface LaosFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface LaosSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const LaosFlags: React__default.ForwardRefExoticComponent<Omit<LaosFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const LaosFlagsMetadata: {
-    readonly id: "Laos_flags";
+declare const LaosSymbols: React__default.ForwardRefExoticComponent<Omit<LaosSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const LaosSymbolsMetadata: {
+    readonly id: "Laos_symbols";
     readonly baseId: "Laos";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Laos";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -6575,20 +6575,20 @@ declare const LaosFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Kyrgyzstan (flags)
+ * Auto-generated logo component: Kyrgyzstan (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface KyrgyzstanFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface KyrgyzstanSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const KyrgyzstanFlags: React__default.ForwardRefExoticComponent<Omit<KyrgyzstanFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const KyrgyzstanFlagsMetadata: {
-    readonly id: "Kyrgyzstan_flags";
+declare const KyrgyzstanSymbols: React__default.ForwardRefExoticComponent<Omit<KyrgyzstanSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const KyrgyzstanSymbolsMetadata: {
+    readonly id: "Kyrgyzstan_symbols";
     readonly baseId: "Kyrgyzstan";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Kyrgyzstan";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -6596,20 +6596,20 @@ declare const KyrgyzstanFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Kuwait (flags)
+ * Auto-generated logo component: Kuwait (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface KuwaitFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface KuwaitSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const KuwaitFlags: React__default.ForwardRefExoticComponent<Omit<KuwaitFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const KuwaitFlagsMetadata: {
-    readonly id: "Kuwait_flags";
+declare const KuwaitSymbols: React__default.ForwardRefExoticComponent<Omit<KuwaitSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const KuwaitSymbolsMetadata: {
+    readonly id: "Kuwait_symbols";
     readonly baseId: "Kuwait";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Kuwait";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -6617,20 +6617,20 @@ declare const KuwaitFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Kurdistan (flags)
+ * Auto-generated logo component: Kurdistan (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface KurdistanFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface KurdistanSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const KurdistanFlags: React__default.ForwardRefExoticComponent<Omit<KurdistanFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const KurdistanFlagsMetadata: {
-    readonly id: "Kurdistan_flags";
+declare const KurdistanSymbols: React__default.ForwardRefExoticComponent<Omit<KurdistanSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const KurdistanSymbolsMetadata: {
+    readonly id: "Kurdistan_symbols";
     readonly baseId: "Kurdistan";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Kurdistan";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -6638,20 +6638,20 @@ declare const KurdistanFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Kosovo (flags)
+ * Auto-generated logo component: Kosovo (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface KosovoFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface KosovoSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const KosovoFlags: React__default.ForwardRefExoticComponent<Omit<KosovoFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const KosovoFlagsMetadata: {
-    readonly id: "Kosovo_flags";
+declare const KosovoSymbols: React__default.ForwardRefExoticComponent<Omit<KosovoSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const KosovoSymbolsMetadata: {
+    readonly id: "Kosovo_symbols";
     readonly baseId: "Kosovo";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Kosovo";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -6659,20 +6659,20 @@ declare const KosovoFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Kiribati (flags)
+ * Auto-generated logo component: Kiribati (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface KiribatiFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface KiribatiSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const KiribatiFlags: React__default.ForwardRefExoticComponent<Omit<KiribatiFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const KiribatiFlagsMetadata: {
-    readonly id: "Kiribati_flags";
+declare const KiribatiSymbols: React__default.ForwardRefExoticComponent<Omit<KiribatiSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const KiribatiSymbolsMetadata: {
+    readonly id: "Kiribati_symbols";
     readonly baseId: "Kiribati";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Kiribati";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -6680,20 +6680,20 @@ declare const KiribatiFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Kenya (flags)
+ * Auto-generated logo component: Kenya (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface KenyaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface KenyaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const KenyaFlags: React__default.ForwardRefExoticComponent<Omit<KenyaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const KenyaFlagsMetadata: {
-    readonly id: "Kenya_flags";
+declare const KenyaSymbols: React__default.ForwardRefExoticComponent<Omit<KenyaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const KenyaSymbolsMetadata: {
+    readonly id: "Kenya_symbols";
     readonly baseId: "Kenya";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Kenya";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -6701,20 +6701,20 @@ declare const KenyaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Kazakhstan (flags)
+ * Auto-generated logo component: Kazakhstan (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface KazakhstanFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface KazakhstanSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const KazakhstanFlags: React__default.ForwardRefExoticComponent<Omit<KazakhstanFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const KazakhstanFlagsMetadata: {
-    readonly id: "Kazakhstan_flags";
+declare const KazakhstanSymbols: React__default.ForwardRefExoticComponent<Omit<KazakhstanSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const KazakhstanSymbolsMetadata: {
+    readonly id: "Kazakhstan_symbols";
     readonly baseId: "Kazakhstan";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Kazakhstan";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -6722,20 +6722,20 @@ declare const KazakhstanFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Jordan (flags)
+ * Auto-generated logo component: Jordan (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface JordanFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface JordanSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const JordanFlags: React__default.ForwardRefExoticComponent<Omit<JordanFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const JordanFlagsMetadata: {
-    readonly id: "Jordan_flags";
+declare const JordanSymbols: React__default.ForwardRefExoticComponent<Omit<JordanSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const JordanSymbolsMetadata: {
+    readonly id: "Jordan_symbols";
     readonly baseId: "Jordan";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Jordan";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -6743,20 +6743,20 @@ declare const JordanFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Jersey (flags)
+ * Auto-generated logo component: Jersey (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface JerseyFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface JerseySymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const JerseyFlags: React__default.ForwardRefExoticComponent<Omit<JerseyFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const JerseyFlagsMetadata: {
-    readonly id: "Jersey_flags";
+declare const JerseySymbols: React__default.ForwardRefExoticComponent<Omit<JerseySymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const JerseySymbolsMetadata: {
+    readonly id: "Jersey_symbols";
     readonly baseId: "Jersey";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Jersey";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -6764,20 +6764,20 @@ declare const JerseyFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Japan (flags)
+ * Auto-generated logo component: Japan (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface JapanFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface JapanSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const JapanFlags: React__default.ForwardRefExoticComponent<Omit<JapanFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const JapanFlagsMetadata: {
-    readonly id: "Japan_flags";
+declare const JapanSymbols: React__default.ForwardRefExoticComponent<Omit<JapanSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const JapanSymbolsMetadata: {
+    readonly id: "Japan_symbols";
     readonly baseId: "Japan";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Japan";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -6785,20 +6785,20 @@ declare const JapanFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Jamaica (flags)
+ * Auto-generated logo component: Jamaica (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface JamaicaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface JamaicaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const JamaicaFlags: React__default.ForwardRefExoticComponent<Omit<JamaicaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const JamaicaFlagsMetadata: {
-    readonly id: "Jamaica_flags";
+declare const JamaicaSymbols: React__default.ForwardRefExoticComponent<Omit<JamaicaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const JamaicaSymbolsMetadata: {
+    readonly id: "Jamaica_symbols";
     readonly baseId: "Jamaica";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Jamaica";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -6806,20 +6806,20 @@ declare const JamaicaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Ivory Coast (flags)
+ * Auto-generated logo component: Ivory Coast (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface IvoryCoastFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface IvoryCoastSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const IvoryCoastFlags: React__default.ForwardRefExoticComponent<Omit<IvoryCoastFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const IvoryCoastFlagsMetadata: {
-    readonly id: "Ivory-Coast_flags";
+declare const IvoryCoastSymbols: React__default.ForwardRefExoticComponent<Omit<IvoryCoastSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const IvoryCoastSymbolsMetadata: {
+    readonly id: "Ivory-Coast_symbols";
     readonly baseId: "Ivory-Coast";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Ivory Coast";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -6827,20 +6827,20 @@ declare const IvoryCoastFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Italy (flags)
+ * Auto-generated logo component: Italy (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface ItalyFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface ItalySymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const ItalyFlags: React__default.ForwardRefExoticComponent<Omit<ItalyFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const ItalyFlagsMetadata: {
-    readonly id: "Italy_flags";
+declare const ItalySymbols: React__default.ForwardRefExoticComponent<Omit<ItalySymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const ItalySymbolsMetadata: {
+    readonly id: "Italy_symbols";
     readonly baseId: "Italy";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Italy";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -6848,20 +6848,20 @@ declare const ItalyFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Israel (flags)
+ * Auto-generated logo component: Israel (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface IsraelFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface IsraelSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const IsraelFlags: React__default.ForwardRefExoticComponent<Omit<IsraelFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const IsraelFlagsMetadata: {
-    readonly id: "Israel_flags";
+declare const IsraelSymbols: React__default.ForwardRefExoticComponent<Omit<IsraelSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const IsraelSymbolsMetadata: {
+    readonly id: "Israel_symbols";
     readonly baseId: "Israel";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Israel";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -6869,20 +6869,20 @@ declare const IsraelFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Isle Of Man (flags)
+ * Auto-generated logo component: Isle Of Man (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface IsleOfManFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface IsleOfManSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const IsleOfManFlags: React__default.ForwardRefExoticComponent<Omit<IsleOfManFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const IsleOfManFlagsMetadata: {
-    readonly id: "Isle-Of-Man_flags";
+declare const IsleOfManSymbols: React__default.ForwardRefExoticComponent<Omit<IsleOfManSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const IsleOfManSymbolsMetadata: {
+    readonly id: "Isle-Of-Man_symbols";
     readonly baseId: "Isle-Of-Man";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Isle Of Man";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -6890,20 +6890,20 @@ declare const IsleOfManFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Ireland (flags)
+ * Auto-generated logo component: Ireland (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface IrelandFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface IrelandSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const IrelandFlags: React__default.ForwardRefExoticComponent<Omit<IrelandFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const IrelandFlagsMetadata: {
-    readonly id: "Ireland_flags";
+declare const IrelandSymbols: React__default.ForwardRefExoticComponent<Omit<IrelandSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const IrelandSymbolsMetadata: {
+    readonly id: "Ireland_symbols";
     readonly baseId: "Ireland";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Ireland";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -6911,20 +6911,20 @@ declare const IrelandFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Iraq (flags)
+ * Auto-generated logo component: Iraq (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface IraqFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface IraqSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const IraqFlags: React__default.ForwardRefExoticComponent<Omit<IraqFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const IraqFlagsMetadata: {
-    readonly id: "Iraq_flags";
+declare const IraqSymbols: React__default.ForwardRefExoticComponent<Omit<IraqSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const IraqSymbolsMetadata: {
+    readonly id: "Iraq_symbols";
     readonly baseId: "Iraq";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Iraq";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -6932,20 +6932,20 @@ declare const IraqFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Iran (flags)
+ * Auto-generated logo component: Iran (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface IranFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface IranSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const IranFlags: React__default.ForwardRefExoticComponent<Omit<IranFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const IranFlagsMetadata: {
-    readonly id: "Iran_flags";
+declare const IranSymbols: React__default.ForwardRefExoticComponent<Omit<IranSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const IranSymbolsMetadata: {
+    readonly id: "Iran_symbols";
     readonly baseId: "Iran";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Iran";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -6953,20 +6953,20 @@ declare const IranFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Indonesia (flags)
+ * Auto-generated logo component: Indonesia (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface IndonesiaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface IndonesiaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const IndonesiaFlags: React__default.ForwardRefExoticComponent<Omit<IndonesiaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const IndonesiaFlagsMetadata: {
-    readonly id: "Indonesia_flags";
+declare const IndonesiaSymbols: React__default.ForwardRefExoticComponent<Omit<IndonesiaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const IndonesiaSymbolsMetadata: {
+    readonly id: "Indonesia_symbols";
     readonly baseId: "Indonesia";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Indonesia";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -6974,20 +6974,20 @@ declare const IndonesiaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: India (flags)
+ * Auto-generated logo component: India (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface IndiaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface IndiaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const IndiaFlags: React__default.ForwardRefExoticComponent<Omit<IndiaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const IndiaFlagsMetadata: {
-    readonly id: "India_flags";
+declare const IndiaSymbols: React__default.ForwardRefExoticComponent<Omit<IndiaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const IndiaSymbolsMetadata: {
+    readonly id: "India_symbols";
     readonly baseId: "India";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "India";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -6995,20 +6995,20 @@ declare const IndiaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Iceland (flags)
+ * Auto-generated logo component: Iceland (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface IcelandFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface IcelandSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const IcelandFlags: React__default.ForwardRefExoticComponent<Omit<IcelandFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const IcelandFlagsMetadata: {
-    readonly id: "Iceland_flags";
+declare const IcelandSymbols: React__default.ForwardRefExoticComponent<Omit<IcelandSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const IcelandSymbolsMetadata: {
+    readonly id: "Iceland_symbols";
     readonly baseId: "Iceland";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Iceland";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -7016,20 +7016,20 @@ declare const IcelandFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Hungary (flags)
+ * Auto-generated logo component: Hungary (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface HungaryFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface HungarySymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const HungaryFlags: React__default.ForwardRefExoticComponent<Omit<HungaryFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const HungaryFlagsMetadata: {
-    readonly id: "Hungary_flags";
+declare const HungarySymbols: React__default.ForwardRefExoticComponent<Omit<HungarySymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const HungarySymbolsMetadata: {
+    readonly id: "Hungary_symbols";
     readonly baseId: "Hungary";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Hungary";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -7037,20 +7037,20 @@ declare const HungaryFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Hong Kong (flags)
+ * Auto-generated logo component: Hong Kong (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface HongKongFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface HongKongSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const HongKongFlags: React__default.ForwardRefExoticComponent<Omit<HongKongFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const HongKongFlagsMetadata: {
-    readonly id: "Hong-Kong_flags";
+declare const HongKongSymbols: React__default.ForwardRefExoticComponent<Omit<HongKongSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const HongKongSymbolsMetadata: {
+    readonly id: "Hong-Kong_symbols";
     readonly baseId: "Hong-Kong";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Hong Kong";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -7058,20 +7058,20 @@ declare const HongKongFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Honduras (flags)
+ * Auto-generated logo component: Honduras (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface HondurasFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface HondurasSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const HondurasFlags: React__default.ForwardRefExoticComponent<Omit<HondurasFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const HondurasFlagsMetadata: {
-    readonly id: "Honduras_flags";
+declare const HondurasSymbols: React__default.ForwardRefExoticComponent<Omit<HondurasSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const HondurasSymbolsMetadata: {
+    readonly id: "Honduras_symbols";
     readonly baseId: "Honduras";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Honduras";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -7079,20 +7079,20 @@ declare const HondurasFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Hawaii (flags)
+ * Auto-generated logo component: Hawaii (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface HawaiiFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface HawaiiSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const HawaiiFlags: React__default.ForwardRefExoticComponent<Omit<HawaiiFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const HawaiiFlagsMetadata: {
-    readonly id: "Hawaii_flags";
+declare const HawaiiSymbols: React__default.ForwardRefExoticComponent<Omit<HawaiiSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const HawaiiSymbolsMetadata: {
+    readonly id: "Hawaii_symbols";
     readonly baseId: "Hawaii";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Hawaii";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -7100,20 +7100,20 @@ declare const HawaiiFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Haiti (flags)
+ * Auto-generated logo component: Haiti (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface HaitiFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface HaitiSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const HaitiFlags: React__default.ForwardRefExoticComponent<Omit<HaitiFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const HaitiFlagsMetadata: {
-    readonly id: "Haiti_flags";
+declare const HaitiSymbols: React__default.ForwardRefExoticComponent<Omit<HaitiSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const HaitiSymbolsMetadata: {
+    readonly id: "Haiti_symbols";
     readonly baseId: "Haiti";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Haiti";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -7121,20 +7121,20 @@ declare const HaitiFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Guyana (flags)
+ * Auto-generated logo component: Guyana (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface GuyanaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface GuyanaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const GuyanaFlags: React__default.ForwardRefExoticComponent<Omit<GuyanaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const GuyanaFlagsMetadata: {
-    readonly id: "Guyana_flags";
+declare const GuyanaSymbols: React__default.ForwardRefExoticComponent<Omit<GuyanaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const GuyanaSymbolsMetadata: {
+    readonly id: "Guyana_symbols";
     readonly baseId: "Guyana";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Guyana";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -7142,20 +7142,20 @@ declare const GuyanaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Guinea (flags)
+ * Auto-generated logo component: Guinea (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface GuineaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface GuineaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const GuineaFlags: React__default.ForwardRefExoticComponent<Omit<GuineaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const GuineaFlagsMetadata: {
-    readonly id: "Guinea_flags";
+declare const GuineaSymbols: React__default.ForwardRefExoticComponent<Omit<GuineaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const GuineaSymbolsMetadata: {
+    readonly id: "Guinea_symbols";
     readonly baseId: "Guinea";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Guinea";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -7163,20 +7163,20 @@ declare const GuineaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Guinea Bissau (flags)
+ * Auto-generated logo component: Guinea Bissau (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface GuineaBissauFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface GuineaBissauSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const GuineaBissauFlags: React__default.ForwardRefExoticComponent<Omit<GuineaBissauFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const GuineaBissauFlagsMetadata: {
-    readonly id: "Guinea-Bissau_flags";
+declare const GuineaBissauSymbols: React__default.ForwardRefExoticComponent<Omit<GuineaBissauSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const GuineaBissauSymbolsMetadata: {
+    readonly id: "Guinea-Bissau_symbols";
     readonly baseId: "Guinea-Bissau";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Guinea Bissau";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -7184,20 +7184,20 @@ declare const GuineaBissauFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Guernsey (flags)
+ * Auto-generated logo component: Guernsey (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface GuernseyFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface GuernseySymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const GuernseyFlags: React__default.ForwardRefExoticComponent<Omit<GuernseyFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const GuernseyFlagsMetadata: {
-    readonly id: "Guernsey_flags";
+declare const GuernseySymbols: React__default.ForwardRefExoticComponent<Omit<GuernseySymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const GuernseySymbolsMetadata: {
+    readonly id: "Guernsey_symbols";
     readonly baseId: "Guernsey";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Guernsey";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -7205,20 +7205,20 @@ declare const GuernseyFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Guatemala (flags)
+ * Auto-generated logo component: Guatemala (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface GuatemalaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface GuatemalaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const GuatemalaFlags: React__default.ForwardRefExoticComponent<Omit<GuatemalaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const GuatemalaFlagsMetadata: {
-    readonly id: "Guatemala_flags";
+declare const GuatemalaSymbols: React__default.ForwardRefExoticComponent<Omit<GuatemalaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const GuatemalaSymbolsMetadata: {
+    readonly id: "Guatemala_symbols";
     readonly baseId: "Guatemala";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Guatemala";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -7226,20 +7226,20 @@ declare const GuatemalaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Guadeloupe (flags)
+ * Auto-generated logo component: Guadeloupe (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface GuadeloupeFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface GuadeloupeSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const GuadeloupeFlags: React__default.ForwardRefExoticComponent<Omit<GuadeloupeFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const GuadeloupeFlagsMetadata: {
-    readonly id: "Guadeloupe_flags";
+declare const GuadeloupeSymbols: React__default.ForwardRefExoticComponent<Omit<GuadeloupeSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const GuadeloupeSymbolsMetadata: {
+    readonly id: "Guadeloupe_symbols";
     readonly baseId: "Guadeloupe";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Guadeloupe";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -7247,20 +7247,20 @@ declare const GuadeloupeFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Grenada (flags)
+ * Auto-generated logo component: Grenada (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface GrenadaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface GrenadaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const GrenadaFlags: React__default.ForwardRefExoticComponent<Omit<GrenadaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const GrenadaFlagsMetadata: {
-    readonly id: "Grenada_flags";
+declare const GrenadaSymbols: React__default.ForwardRefExoticComponent<Omit<GrenadaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const GrenadaSymbolsMetadata: {
+    readonly id: "Grenada_symbols";
     readonly baseId: "Grenada";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Grenada";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -7268,20 +7268,20 @@ declare const GrenadaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Greenland (flags)
+ * Auto-generated logo component: Greenland (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface GreenlandFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface GreenlandSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const GreenlandFlags: React__default.ForwardRefExoticComponent<Omit<GreenlandFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const GreenlandFlagsMetadata: {
-    readonly id: "Greenland_flags";
+declare const GreenlandSymbols: React__default.ForwardRefExoticComponent<Omit<GreenlandSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const GreenlandSymbolsMetadata: {
+    readonly id: "Greenland_symbols";
     readonly baseId: "Greenland";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Greenland";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -7289,20 +7289,20 @@ declare const GreenlandFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Greece (flags)
+ * Auto-generated logo component: Greece (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface GreeceFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface GreeceSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const GreeceFlags: React__default.ForwardRefExoticComponent<Omit<GreeceFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const GreeceFlagsMetadata: {
-    readonly id: "Greece_flags";
+declare const GreeceSymbols: React__default.ForwardRefExoticComponent<Omit<GreeceSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const GreeceSymbolsMetadata: {
+    readonly id: "Greece_symbols";
     readonly baseId: "Greece";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Greece";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -7310,20 +7310,20 @@ declare const GreeceFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Gibraltar (flags)
+ * Auto-generated logo component: Gibraltar (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface GibraltarFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface GibraltarSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const GibraltarFlags: React__default.ForwardRefExoticComponent<Omit<GibraltarFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const GibraltarFlagsMetadata: {
-    readonly id: "Gibraltar_flags";
+declare const GibraltarSymbols: React__default.ForwardRefExoticComponent<Omit<GibraltarSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const GibraltarSymbolsMetadata: {
+    readonly id: "Gibraltar_symbols";
     readonly baseId: "Gibraltar";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Gibraltar";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -7331,20 +7331,20 @@ declare const GibraltarFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Ghana (flags)
+ * Auto-generated logo component: Ghana (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface GhanaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface GhanaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const GhanaFlags: React__default.ForwardRefExoticComponent<Omit<GhanaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const GhanaFlagsMetadata: {
-    readonly id: "Ghana_flags";
+declare const GhanaSymbols: React__default.ForwardRefExoticComponent<Omit<GhanaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const GhanaSymbolsMetadata: {
+    readonly id: "Ghana_symbols";
     readonly baseId: "Ghana";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Ghana";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -7352,20 +7352,20 @@ declare const GhanaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Germany (flags)
+ * Auto-generated logo component: Germany (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface GermanyFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface GermanySymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const GermanyFlags: React__default.ForwardRefExoticComponent<Omit<GermanyFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const GermanyFlagsMetadata: {
-    readonly id: "Germany_flags";
+declare const GermanySymbols: React__default.ForwardRefExoticComponent<Omit<GermanySymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const GermanySymbolsMetadata: {
+    readonly id: "Germany_symbols";
     readonly baseId: "Germany";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Germany";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -7373,20 +7373,20 @@ declare const GermanyFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Georgia (flags)
+ * Auto-generated logo component: Georgia (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface GeorgiaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface GeorgiaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const GeorgiaFlags: React__default.ForwardRefExoticComponent<Omit<GeorgiaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const GeorgiaFlagsMetadata: {
-    readonly id: "Georgia_flags";
+declare const GeorgiaSymbols: React__default.ForwardRefExoticComponent<Omit<GeorgiaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const GeorgiaSymbolsMetadata: {
+    readonly id: "Georgia_symbols";
     readonly baseId: "Georgia";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Georgia";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -7394,20 +7394,20 @@ declare const GeorgiaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Gambia (flags)
+ * Auto-generated logo component: Gambia (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface GambiaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface GambiaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const GambiaFlags: React__default.ForwardRefExoticComponent<Omit<GambiaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const GambiaFlagsMetadata: {
-    readonly id: "Gambia_flags";
+declare const GambiaSymbols: React__default.ForwardRefExoticComponent<Omit<GambiaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const GambiaSymbolsMetadata: {
+    readonly id: "Gambia_symbols";
     readonly baseId: "Gambia";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Gambia";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -7415,20 +7415,20 @@ declare const GambiaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Gabon (flags)
+ * Auto-generated logo component: Gabon (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface GabonFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface GabonSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const GabonFlags: React__default.ForwardRefExoticComponent<Omit<GabonFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const GabonFlagsMetadata: {
-    readonly id: "Gabon_flags";
+declare const GabonSymbols: React__default.ForwardRefExoticComponent<Omit<GabonSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const GabonSymbolsMetadata: {
+    readonly id: "Gabon_symbols";
     readonly baseId: "Gabon";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Gabon";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -7436,20 +7436,20 @@ declare const GabonFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: French Polynesia (flags)
+ * Auto-generated logo component: French Polynesia (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface FrenchPolynesiaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface FrenchPolynesiaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const FrenchPolynesiaFlags: React__default.ForwardRefExoticComponent<Omit<FrenchPolynesiaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const FrenchPolynesiaFlagsMetadata: {
-    readonly id: "French-Polynesia_flags";
+declare const FrenchPolynesiaSymbols: React__default.ForwardRefExoticComponent<Omit<FrenchPolynesiaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const FrenchPolynesiaSymbolsMetadata: {
+    readonly id: "French-Polynesia_symbols";
     readonly baseId: "French-Polynesia";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "French Polynesia";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -7457,20 +7457,20 @@ declare const FrenchPolynesiaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: French Guiana (flags)
+ * Auto-generated logo component: French Guiana (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface FrenchGuianaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface FrenchGuianaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const FrenchGuianaFlags: React__default.ForwardRefExoticComponent<Omit<FrenchGuianaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const FrenchGuianaFlagsMetadata: {
-    readonly id: "French-Guiana_flags";
+declare const FrenchGuianaSymbols: React__default.ForwardRefExoticComponent<Omit<FrenchGuianaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const FrenchGuianaSymbolsMetadata: {
+    readonly id: "French-Guiana_symbols";
     readonly baseId: "French-Guiana";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "French Guiana";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -7478,20 +7478,20 @@ declare const FrenchGuianaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: France (flags)
+ * Auto-generated logo component: France (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface FranceFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface FranceSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const FranceFlags: React__default.ForwardRefExoticComponent<Omit<FranceFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const FranceFlagsMetadata: {
-    readonly id: "France_flags";
+declare const FranceSymbols: React__default.ForwardRefExoticComponent<Omit<FranceSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const FranceSymbolsMetadata: {
+    readonly id: "France_symbols";
     readonly baseId: "France";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "France";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -7499,20 +7499,20 @@ declare const FranceFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Finland (flags)
+ * Auto-generated logo component: Finland (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface FinlandFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface FinlandSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const FinlandFlags: React__default.ForwardRefExoticComponent<Omit<FinlandFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const FinlandFlagsMetadata: {
-    readonly id: "Finland_flags";
+declare const FinlandSymbols: React__default.ForwardRefExoticComponent<Omit<FinlandSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const FinlandSymbolsMetadata: {
+    readonly id: "Finland_symbols";
     readonly baseId: "Finland";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Finland";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -7520,20 +7520,20 @@ declare const FinlandFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Fiji (flags)
+ * Auto-generated logo component: Fiji (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface FijiFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface FijiSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const FijiFlags: React__default.ForwardRefExoticComponent<Omit<FijiFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const FijiFlagsMetadata: {
-    readonly id: "Fiji_flags";
+declare const FijiSymbols: React__default.ForwardRefExoticComponent<Omit<FijiSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const FijiSymbolsMetadata: {
+    readonly id: "Fiji_symbols";
     readonly baseId: "Fiji";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Fiji";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -7541,20 +7541,20 @@ declare const FijiFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Faroe Islands (flags)
+ * Auto-generated logo component: Faroe Islands (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface FaroeIslandsFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface FaroeIslandsSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const FaroeIslandsFlags: React__default.ForwardRefExoticComponent<Omit<FaroeIslandsFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const FaroeIslandsFlagsMetadata: {
-    readonly id: "Faroe-Islands_flags";
+declare const FaroeIslandsSymbols: React__default.ForwardRefExoticComponent<Omit<FaroeIslandsSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const FaroeIslandsSymbolsMetadata: {
+    readonly id: "Faroe-Islands_symbols";
     readonly baseId: "Faroe-Islands";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Faroe Islands";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -7562,20 +7562,20 @@ declare const FaroeIslandsFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Falkland Islands (flags)
+ * Auto-generated logo component: Falkland Islands (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface FalklandIslandsFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface FalklandIslandsSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const FalklandIslandsFlags: React__default.ForwardRefExoticComponent<Omit<FalklandIslandsFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const FalklandIslandsFlagsMetadata: {
-    readonly id: "Falkland-Islands_flags";
+declare const FalklandIslandsSymbols: React__default.ForwardRefExoticComponent<Omit<FalklandIslandsSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const FalklandIslandsSymbolsMetadata: {
+    readonly id: "Falkland-Islands_symbols";
     readonly baseId: "Falkland-Islands";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Falkland Islands";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -7583,20 +7583,20 @@ declare const FalklandIslandsFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Europe (flags)
+ * Auto-generated logo component: Europe (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface EuropeFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface EuropeSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const EuropeFlags: React__default.ForwardRefExoticComponent<Omit<EuropeFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const EuropeFlagsMetadata: {
-    readonly id: "Europe_flags";
+declare const EuropeSymbols: React__default.ForwardRefExoticComponent<Omit<EuropeSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const EuropeSymbolsMetadata: {
+    readonly id: "Europe_symbols";
     readonly baseId: "Europe";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Europe";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -7604,20 +7604,20 @@ declare const EuropeFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Ethiopia (flags)
+ * Auto-generated logo component: Ethiopia (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface EthiopiaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface EthiopiaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const EthiopiaFlags: React__default.ForwardRefExoticComponent<Omit<EthiopiaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const EthiopiaFlagsMetadata: {
-    readonly id: "Ethiopia_flags";
+declare const EthiopiaSymbols: React__default.ForwardRefExoticComponent<Omit<EthiopiaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const EthiopiaSymbolsMetadata: {
+    readonly id: "Ethiopia_symbols";
     readonly baseId: "Ethiopia";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Ethiopia";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -7625,20 +7625,20 @@ declare const EthiopiaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Eswatini (flags)
+ * Auto-generated logo component: Eswatini (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface EswatiniFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface EswatiniSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const EswatiniFlags: React__default.ForwardRefExoticComponent<Omit<EswatiniFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const EswatiniFlagsMetadata: {
-    readonly id: "Eswatini_flags";
+declare const EswatiniSymbols: React__default.ForwardRefExoticComponent<Omit<EswatiniSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const EswatiniSymbolsMetadata: {
+    readonly id: "Eswatini_symbols";
     readonly baseId: "Eswatini";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Eswatini";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -7646,20 +7646,20 @@ declare const EswatiniFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Estonia (flags)
+ * Auto-generated logo component: Estonia (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface EstoniaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface EstoniaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const EstoniaFlags: React__default.ForwardRefExoticComponent<Omit<EstoniaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const EstoniaFlagsMetadata: {
-    readonly id: "Estonia_flags";
+declare const EstoniaSymbols: React__default.ForwardRefExoticComponent<Omit<EstoniaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const EstoniaSymbolsMetadata: {
+    readonly id: "Estonia_symbols";
     readonly baseId: "Estonia";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Estonia";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -7667,20 +7667,20 @@ declare const EstoniaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Eritrea (flags)
+ * Auto-generated logo component: Eritrea (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface EritreaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface EritreaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const EritreaFlags: React__default.ForwardRefExoticComponent<Omit<EritreaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const EritreaFlagsMetadata: {
-    readonly id: "Eritrea_flags";
+declare const EritreaSymbols: React__default.ForwardRefExoticComponent<Omit<EritreaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const EritreaSymbolsMetadata: {
+    readonly id: "Eritrea_symbols";
     readonly baseId: "Eritrea";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Eritrea";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -7688,20 +7688,20 @@ declare const EritreaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Equatorial Guinea (flags)
+ * Auto-generated logo component: Equatorial Guinea (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface EquatorialGuineaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface EquatorialGuineaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const EquatorialGuineaFlags: React__default.ForwardRefExoticComponent<Omit<EquatorialGuineaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const EquatorialGuineaFlagsMetadata: {
-    readonly id: "Equatorial-Guinea_flags";
+declare const EquatorialGuineaSymbols: React__default.ForwardRefExoticComponent<Omit<EquatorialGuineaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const EquatorialGuineaSymbolsMetadata: {
+    readonly id: "Equatorial-Guinea_symbols";
     readonly baseId: "Equatorial-Guinea";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Equatorial Guinea";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -7709,20 +7709,20 @@ declare const EquatorialGuineaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: England (flags)
+ * Auto-generated logo component: England (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface EnglandFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface EnglandSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const EnglandFlags: React__default.ForwardRefExoticComponent<Omit<EnglandFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const EnglandFlagsMetadata: {
-    readonly id: "England_flags";
+declare const EnglandSymbols: React__default.ForwardRefExoticComponent<Omit<EnglandSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const EnglandSymbolsMetadata: {
+    readonly id: "England_symbols";
     readonly baseId: "England";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "England";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -7730,20 +7730,20 @@ declare const EnglandFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: El Salvador (flags)
+ * Auto-generated logo component: El Salvador (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface ElSalvadorFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface ElSalvadorSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const ElSalvadorFlags: React__default.ForwardRefExoticComponent<Omit<ElSalvadorFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const ElSalvadorFlagsMetadata: {
-    readonly id: "El-Salvador_flags";
+declare const ElSalvadorSymbols: React__default.ForwardRefExoticComponent<Omit<ElSalvadorSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const ElSalvadorSymbolsMetadata: {
+    readonly id: "El-Salvador_symbols";
     readonly baseId: "El-Salvador";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "El Salvador";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -7751,20 +7751,20 @@ declare const ElSalvadorFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Egypt (flags)
+ * Auto-generated logo component: Egypt (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface EgyptFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface EgyptSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const EgyptFlags: React__default.ForwardRefExoticComponent<Omit<EgyptFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const EgyptFlagsMetadata: {
-    readonly id: "Egypt_flags";
+declare const EgyptSymbols: React__default.ForwardRefExoticComponent<Omit<EgyptSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const EgyptSymbolsMetadata: {
+    readonly id: "Egypt_symbols";
     readonly baseId: "Egypt";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Egypt";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -7772,20 +7772,20 @@ declare const EgyptFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Ecuador (flags)
+ * Auto-generated logo component: Ecuador (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface EcuadorFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface EcuadorSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const EcuadorFlags: React__default.ForwardRefExoticComponent<Omit<EcuadorFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const EcuadorFlagsMetadata: {
-    readonly id: "Ecuador_flags";
+declare const EcuadorSymbols: React__default.ForwardRefExoticComponent<Omit<EcuadorSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const EcuadorSymbolsMetadata: {
+    readonly id: "Ecuador_symbols";
     readonly baseId: "Ecuador";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Ecuador";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -7793,20 +7793,20 @@ declare const EcuadorFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: East Timor (flags)
+ * Auto-generated logo component: East Timor (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface EastTimorFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface EastTimorSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const EastTimorFlags: React__default.ForwardRefExoticComponent<Omit<EastTimorFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const EastTimorFlagsMetadata: {
-    readonly id: "East-Timor_flags";
+declare const EastTimorSymbols: React__default.ForwardRefExoticComponent<Omit<EastTimorSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const EastTimorSymbolsMetadata: {
+    readonly id: "East-Timor_symbols";
     readonly baseId: "East-Timor";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "East Timor";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -7814,20 +7814,20 @@ declare const EastTimorFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Dominican Republic (flags)
+ * Auto-generated logo component: Dominican Republic (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface DominicanRepublicFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface DominicanRepublicSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const DominicanRepublicFlags: React__default.ForwardRefExoticComponent<Omit<DominicanRepublicFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const DominicanRepublicFlagsMetadata: {
-    readonly id: "Dominican-Republic_flags";
+declare const DominicanRepublicSymbols: React__default.ForwardRefExoticComponent<Omit<DominicanRepublicSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const DominicanRepublicSymbolsMetadata: {
+    readonly id: "Dominican-Republic_symbols";
     readonly baseId: "Dominican-Republic";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Dominican Republic";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -7835,20 +7835,20 @@ declare const DominicanRepublicFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Dominica (flags)
+ * Auto-generated logo component: Dominica (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface DominicaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface DominicaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const DominicaFlags: React__default.ForwardRefExoticComponent<Omit<DominicaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const DominicaFlagsMetadata: {
-    readonly id: "Dominica_flags";
+declare const DominicaSymbols: React__default.ForwardRefExoticComponent<Omit<DominicaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const DominicaSymbolsMetadata: {
+    readonly id: "Dominica_symbols";
     readonly baseId: "Dominica";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Dominica";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -7856,20 +7856,20 @@ declare const DominicaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Djibouti (flags)
+ * Auto-generated logo component: Djibouti (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface DjiboutiFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface DjiboutiSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const DjiboutiFlags: React__default.ForwardRefExoticComponent<Omit<DjiboutiFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const DjiboutiFlagsMetadata: {
-    readonly id: "Djibouti_flags";
+declare const DjiboutiSymbols: React__default.ForwardRefExoticComponent<Omit<DjiboutiSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const DjiboutiSymbolsMetadata: {
+    readonly id: "Djibouti_symbols";
     readonly baseId: "Djibouti";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Djibouti";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -7877,20 +7877,20 @@ declare const DjiboutiFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Denmark (flags)
+ * Auto-generated logo component: Denmark (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface DenmarkFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface DenmarkSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const DenmarkFlags: React__default.ForwardRefExoticComponent<Omit<DenmarkFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const DenmarkFlagsMetadata: {
-    readonly id: "Denmark_flags";
+declare const DenmarkSymbols: React__default.ForwardRefExoticComponent<Omit<DenmarkSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const DenmarkSymbolsMetadata: {
+    readonly id: "Denmark_symbols";
     readonly baseId: "Denmark";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Denmark";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -7898,20 +7898,20 @@ declare const DenmarkFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Democratic Republic Of Congo (flags)
+ * Auto-generated logo component: Democratic Republic Of Congo (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface DemocraticRepublicOfCongoFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface DemocraticRepublicOfCongoSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const DemocraticRepublicOfCongoFlags: React__default.ForwardRefExoticComponent<Omit<DemocraticRepublicOfCongoFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const DemocraticRepublicOfCongoFlagsMetadata: {
-    readonly id: "Democratic-Republic-of-Congo_flags";
+declare const DemocraticRepublicOfCongoSymbols: React__default.ForwardRefExoticComponent<Omit<DemocraticRepublicOfCongoSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const DemocraticRepublicOfCongoSymbolsMetadata: {
+    readonly id: "Democratic-Republic-of-Congo_symbols";
     readonly baseId: "Democratic-Republic-of-Congo";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Democratic Republic Of Congo";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -7919,20 +7919,20 @@ declare const DemocraticRepublicOfCongoFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Czechia (flags)
+ * Auto-generated logo component: Czechia (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface CzechiaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface CzechiaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const CzechiaFlags: React__default.ForwardRefExoticComponent<Omit<CzechiaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const CzechiaFlagsMetadata: {
-    readonly id: "Czechia_flags";
+declare const CzechiaSymbols: React__default.ForwardRefExoticComponent<Omit<CzechiaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const CzechiaSymbolsMetadata: {
+    readonly id: "Czechia_symbols";
     readonly baseId: "Czechia";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Czechia";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -7940,20 +7940,20 @@ declare const CzechiaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Cyprus (flags)
+ * Auto-generated logo component: Cyprus (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface CyprusFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface CyprusSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const CyprusFlags: React__default.ForwardRefExoticComponent<Omit<CyprusFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const CyprusFlagsMetadata: {
-    readonly id: "Cyprus_flags";
+declare const CyprusSymbols: React__default.ForwardRefExoticComponent<Omit<CyprusSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const CyprusSymbolsMetadata: {
+    readonly id: "Cyprus_symbols";
     readonly baseId: "Cyprus";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Cyprus";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -7961,20 +7961,20 @@ declare const CyprusFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Curacao (flags)
+ * Auto-generated logo component: Curacao (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface CuracaoFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface CuracaoSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const CuracaoFlags: React__default.ForwardRefExoticComponent<Omit<CuracaoFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const CuracaoFlagsMetadata: {
-    readonly id: "Curacao_flags";
+declare const CuracaoSymbols: React__default.ForwardRefExoticComponent<Omit<CuracaoSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const CuracaoSymbolsMetadata: {
+    readonly id: "Curacao_symbols";
     readonly baseId: "Curacao";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Curacao";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -7982,20 +7982,20 @@ declare const CuracaoFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Cuba (flags)
+ * Auto-generated logo component: Cuba (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface CubaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface CubaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const CubaFlags: React__default.ForwardRefExoticComponent<Omit<CubaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const CubaFlagsMetadata: {
-    readonly id: "Cuba_flags";
+declare const CubaSymbols: React__default.ForwardRefExoticComponent<Omit<CubaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const CubaSymbolsMetadata: {
+    readonly id: "Cuba_symbols";
     readonly baseId: "Cuba";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Cuba";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -8003,20 +8003,20 @@ declare const CubaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Croatia (flags)
+ * Auto-generated logo component: Croatia (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface CroatiaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface CroatiaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const CroatiaFlags: React__default.ForwardRefExoticComponent<Omit<CroatiaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const CroatiaFlagsMetadata: {
-    readonly id: "Croatia_flags";
+declare const CroatiaSymbols: React__default.ForwardRefExoticComponent<Omit<CroatiaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const CroatiaSymbolsMetadata: {
+    readonly id: "Croatia_symbols";
     readonly baseId: "Croatia";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Croatia";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -8024,20 +8024,20 @@ declare const CroatiaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Costa Rica (flags)
+ * Auto-generated logo component: Costa Rica (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface CostaRicaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface CostaRicaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const CostaRicaFlags: React__default.ForwardRefExoticComponent<Omit<CostaRicaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const CostaRicaFlagsMetadata: {
-    readonly id: "Costa-Rica_flags";
+declare const CostaRicaSymbols: React__default.ForwardRefExoticComponent<Omit<CostaRicaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const CostaRicaSymbolsMetadata: {
+    readonly id: "Costa-Rica_symbols";
     readonly baseId: "Costa-Rica";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Costa Rica";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -8045,20 +8045,20 @@ declare const CostaRicaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Cook Islands (flags)
+ * Auto-generated logo component: Cook Islands (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface CookIslandsFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface CookIslandsSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const CookIslandsFlags: React__default.ForwardRefExoticComponent<Omit<CookIslandsFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const CookIslandsFlagsMetadata: {
-    readonly id: "Cook-Islands_flags";
+declare const CookIslandsSymbols: React__default.ForwardRefExoticComponent<Omit<CookIslandsSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const CookIslandsSymbolsMetadata: {
+    readonly id: "Cook-Islands_symbols";
     readonly baseId: "Cook-Islands";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Cook Islands";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -8066,20 +8066,20 @@ declare const CookIslandsFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Comoros (flags)
+ * Auto-generated logo component: Comoros (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface ComorosFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface ComorosSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const ComorosFlags: React__default.ForwardRefExoticComponent<Omit<ComorosFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const ComorosFlagsMetadata: {
-    readonly id: "Comoros_flags";
+declare const ComorosSymbols: React__default.ForwardRefExoticComponent<Omit<ComorosSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const ComorosSymbolsMetadata: {
+    readonly id: "Comoros_symbols";
     readonly baseId: "Comoros";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Comoros";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -8087,20 +8087,20 @@ declare const ComorosFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Colombia (flags)
+ * Auto-generated logo component: Colombia (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface ColombiaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface ColombiaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const ColombiaFlags: React__default.ForwardRefExoticComponent<Omit<ColombiaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const ColombiaFlagsMetadata: {
-    readonly id: "Colombia_flags";
+declare const ColombiaSymbols: React__default.ForwardRefExoticComponent<Omit<ColombiaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const ColombiaSymbolsMetadata: {
+    readonly id: "Colombia_symbols";
     readonly baseId: "Colombia";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Colombia";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -8108,20 +8108,20 @@ declare const ColombiaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: China (flags)
+ * Auto-generated logo component: China (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface ChinaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface ChinaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const ChinaFlags: React__default.ForwardRefExoticComponent<Omit<ChinaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const ChinaFlagsMetadata: {
-    readonly id: "China_flags";
+declare const ChinaSymbols: React__default.ForwardRefExoticComponent<Omit<ChinaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const ChinaSymbolsMetadata: {
+    readonly id: "China_symbols";
     readonly baseId: "China";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "China";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -8129,20 +8129,20 @@ declare const ChinaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Chile (flags)
+ * Auto-generated logo component: Chile (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface ChileFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface ChileSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const ChileFlags: React__default.ForwardRefExoticComponent<Omit<ChileFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const ChileFlagsMetadata: {
-    readonly id: "Chile_flags";
+declare const ChileSymbols: React__default.ForwardRefExoticComponent<Omit<ChileSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const ChileSymbolsMetadata: {
+    readonly id: "Chile_symbols";
     readonly baseId: "Chile";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Chile";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -8150,20 +8150,20 @@ declare const ChileFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Chad (flags)
+ * Auto-generated logo component: Chad (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface ChadFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface ChadSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const ChadFlags: React__default.ForwardRefExoticComponent<Omit<ChadFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const ChadFlagsMetadata: {
-    readonly id: "Chad_flags";
+declare const ChadSymbols: React__default.ForwardRefExoticComponent<Omit<ChadSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const ChadSymbolsMetadata: {
+    readonly id: "Chad_symbols";
     readonly baseId: "Chad";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Chad";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -8171,20 +8171,20 @@ declare const ChadFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Central African Repu (flags)
+ * Auto-generated logo component: Central African Repu (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface CentralAfricanRepuFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface CentralAfricanRepuSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const CentralAfricanRepuFlags: React__default.ForwardRefExoticComponent<Omit<CentralAfricanRepuFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const CentralAfricanRepuFlagsMetadata: {
-    readonly id: "Central-African-Repu_flags";
+declare const CentralAfricanRepuSymbols: React__default.ForwardRefExoticComponent<Omit<CentralAfricanRepuSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const CentralAfricanRepuSymbolsMetadata: {
+    readonly id: "Central-African-Repu_symbols";
     readonly baseId: "Central-African-Repu";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Central African Repu";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -8192,20 +8192,20 @@ declare const CentralAfricanRepuFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Cayman Islands (flags)
+ * Auto-generated logo component: Cayman Islands (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface CaymanIslandsFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface CaymanIslandsSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const CaymanIslandsFlags: React__default.ForwardRefExoticComponent<Omit<CaymanIslandsFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const CaymanIslandsFlagsMetadata: {
-    readonly id: "Cayman-Islands_flags";
+declare const CaymanIslandsSymbols: React__default.ForwardRefExoticComponent<Omit<CaymanIslandsSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const CaymanIslandsSymbolsMetadata: {
+    readonly id: "Cayman-Islands_symbols";
     readonly baseId: "Cayman-Islands";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Cayman Islands";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -8213,20 +8213,20 @@ declare const CaymanIslandsFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Cape Verde (flags)
+ * Auto-generated logo component: Cape Verde (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface CapeVerdeFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface CapeVerdeSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const CapeVerdeFlags: React__default.ForwardRefExoticComponent<Omit<CapeVerdeFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const CapeVerdeFlagsMetadata: {
-    readonly id: "Cape-Verde_flags";
+declare const CapeVerdeSymbols: React__default.ForwardRefExoticComponent<Omit<CapeVerdeSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const CapeVerdeSymbolsMetadata: {
+    readonly id: "Cape-Verde_symbols";
     readonly baseId: "Cape-Verde";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Cape Verde";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -8234,20 +8234,20 @@ declare const CapeVerdeFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Canary Islands (flags)
+ * Auto-generated logo component: Canary Islands (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface CanaryIslandsFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface CanaryIslandsSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const CanaryIslandsFlags: React__default.ForwardRefExoticComponent<Omit<CanaryIslandsFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const CanaryIslandsFlagsMetadata: {
-    readonly id: "Canary-Islands_flags";
+declare const CanaryIslandsSymbols: React__default.ForwardRefExoticComponent<Omit<CanaryIslandsSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const CanaryIslandsSymbolsMetadata: {
+    readonly id: "Canary-Islands_symbols";
     readonly baseId: "Canary-Islands";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Canary Islands";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -8255,20 +8255,20 @@ declare const CanaryIslandsFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Canada (flags)
+ * Auto-generated logo component: Canada (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface CanadaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface CanadaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const CanadaFlags: React__default.ForwardRefExoticComponent<Omit<CanadaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const CanadaFlagsMetadata: {
-    readonly id: "Canada_flags";
+declare const CanadaSymbols: React__default.ForwardRefExoticComponent<Omit<CanadaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const CanadaSymbolsMetadata: {
+    readonly id: "Canada_symbols";
     readonly baseId: "Canada";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Canada";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -8276,20 +8276,20 @@ declare const CanadaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Cameroon (flags)
+ * Auto-generated logo component: Cameroon (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface CameroonFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface CameroonSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const CameroonFlags: React__default.ForwardRefExoticComponent<Omit<CameroonFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const CameroonFlagsMetadata: {
-    readonly id: "Cameroon_flags";
+declare const CameroonSymbols: React__default.ForwardRefExoticComponent<Omit<CameroonSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const CameroonSymbolsMetadata: {
+    readonly id: "Cameroon_symbols";
     readonly baseId: "Cameroon";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Cameroon";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -8297,20 +8297,20 @@ declare const CameroonFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Cambodia (flags)
+ * Auto-generated logo component: Cambodia (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface CambodiaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface CambodiaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const CambodiaFlags: React__default.ForwardRefExoticComponent<Omit<CambodiaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const CambodiaFlagsMetadata: {
-    readonly id: "Cambodia_flags";
+declare const CambodiaSymbols: React__default.ForwardRefExoticComponent<Omit<CambodiaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const CambodiaSymbolsMetadata: {
+    readonly id: "Cambodia_symbols";
     readonly baseId: "Cambodia";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Cambodia";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -8318,20 +8318,20 @@ declare const CambodiaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Burundi (flags)
+ * Auto-generated logo component: Burundi (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface BurundiFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface BurundiSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const BurundiFlags: React__default.ForwardRefExoticComponent<Omit<BurundiFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const BurundiFlagsMetadata: {
-    readonly id: "Burundi_flags";
+declare const BurundiSymbols: React__default.ForwardRefExoticComponent<Omit<BurundiSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const BurundiSymbolsMetadata: {
+    readonly id: "Burundi_symbols";
     readonly baseId: "Burundi";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Burundi";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -8339,20 +8339,20 @@ declare const BurundiFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Burkina Faso (flags)
+ * Auto-generated logo component: Burkina Faso (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface BurkinaFasoFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface BurkinaFasoSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const BurkinaFasoFlags: React__default.ForwardRefExoticComponent<Omit<BurkinaFasoFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const BurkinaFasoFlagsMetadata: {
-    readonly id: "Burkina-Faso_flags";
+declare const BurkinaFasoSymbols: React__default.ForwardRefExoticComponent<Omit<BurkinaFasoSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const BurkinaFasoSymbolsMetadata: {
+    readonly id: "Burkina-Faso_symbols";
     readonly baseId: "Burkina-Faso";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Burkina Faso";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -8360,20 +8360,20 @@ declare const BurkinaFasoFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Bulgaria (flags)
+ * Auto-generated logo component: Bulgaria (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface BulgariaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface BulgariaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const BulgariaFlags: React__default.ForwardRefExoticComponent<Omit<BulgariaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const BulgariaFlagsMetadata: {
-    readonly id: "Bulgaria_flags";
+declare const BulgariaSymbols: React__default.ForwardRefExoticComponent<Omit<BulgariaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const BulgariaSymbolsMetadata: {
+    readonly id: "Bulgaria_symbols";
     readonly baseId: "Bulgaria";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Bulgaria";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -8381,20 +8381,20 @@ declare const BulgariaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Brunei (flags)
+ * Auto-generated logo component: Brunei (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface BruneiFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface BruneiSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const BruneiFlags: React__default.ForwardRefExoticComponent<Omit<BruneiFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const BruneiFlagsMetadata: {
-    readonly id: "Brunei_flags";
+declare const BruneiSymbols: React__default.ForwardRefExoticComponent<Omit<BruneiSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const BruneiSymbolsMetadata: {
+    readonly id: "Brunei_symbols";
     readonly baseId: "Brunei";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Brunei";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -8402,20 +8402,20 @@ declare const BruneiFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: British Virgin Islands (flags)
+ * Auto-generated logo component: British Virgin Islands (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface BritishVirginIslandsFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface BritishVirginIslandsSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const BritishVirginIslandsFlags: React__default.ForwardRefExoticComponent<Omit<BritishVirginIslandsFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const BritishVirginIslandsFlagsMetadata: {
-    readonly id: "British-Virgin-Islands_flags";
+declare const BritishVirginIslandsSymbols: React__default.ForwardRefExoticComponent<Omit<BritishVirginIslandsSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const BritishVirginIslandsSymbolsMetadata: {
+    readonly id: "British-Virgin-Islands_symbols";
     readonly baseId: "British-Virgin-Islands";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "British Virgin Islands";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -8423,20 +8423,20 @@ declare const BritishVirginIslandsFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Brazil (flags)
+ * Auto-generated logo component: Brazil (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface BrazilFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface BrazilSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const BrazilFlags: React__default.ForwardRefExoticComponent<Omit<BrazilFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const BrazilFlagsMetadata: {
-    readonly id: "Brazil_flags";
+declare const BrazilSymbols: React__default.ForwardRefExoticComponent<Omit<BrazilSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const BrazilSymbolsMetadata: {
+    readonly id: "Brazil_symbols";
     readonly baseId: "Brazil";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Brazil";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -8444,20 +8444,20 @@ declare const BrazilFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Botswana (flags)
+ * Auto-generated logo component: Botswana (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface BotswanaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface BotswanaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const BotswanaFlags: React__default.ForwardRefExoticComponent<Omit<BotswanaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const BotswanaFlagsMetadata: {
-    readonly id: "Botswana_flags";
+declare const BotswanaSymbols: React__default.ForwardRefExoticComponent<Omit<BotswanaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const BotswanaSymbolsMetadata: {
+    readonly id: "Botswana_symbols";
     readonly baseId: "Botswana";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Botswana";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -8465,20 +8465,20 @@ declare const BotswanaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Bosnia Herzegovina (flags)
+ * Auto-generated logo component: Bosnia Herzegovina (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface BosniaHerzegovinaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface BosniaHerzegovinaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const BosniaHerzegovinaFlags: React__default.ForwardRefExoticComponent<Omit<BosniaHerzegovinaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const BosniaHerzegovinaFlagsMetadata: {
-    readonly id: "Bosnia-Herzegovina_flags";
+declare const BosniaHerzegovinaSymbols: React__default.ForwardRefExoticComponent<Omit<BosniaHerzegovinaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const BosniaHerzegovinaSymbolsMetadata: {
+    readonly id: "Bosnia-Herzegovina_symbols";
     readonly baseId: "Bosnia-Herzegovina";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Bosnia Herzegovina";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -8486,20 +8486,20 @@ declare const BosniaHerzegovinaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Bolivia (flags)
+ * Auto-generated logo component: Bolivia (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface BoliviaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface BoliviaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const BoliviaFlags: React__default.ForwardRefExoticComponent<Omit<BoliviaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const BoliviaFlagsMetadata: {
-    readonly id: "Bolivia_flags";
+declare const BoliviaSymbols: React__default.ForwardRefExoticComponent<Omit<BoliviaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const BoliviaSymbolsMetadata: {
+    readonly id: "Bolivia_symbols";
     readonly baseId: "Bolivia";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Bolivia";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -8507,20 +8507,20 @@ declare const BoliviaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Bhutan (flags)
+ * Auto-generated logo component: Bhutan (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface BhutanFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface BhutanSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const BhutanFlags: React__default.ForwardRefExoticComponent<Omit<BhutanFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const BhutanFlagsMetadata: {
-    readonly id: "Bhutan_flags";
+declare const BhutanSymbols: React__default.ForwardRefExoticComponent<Omit<BhutanSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const BhutanSymbolsMetadata: {
+    readonly id: "Bhutan_symbols";
     readonly baseId: "Bhutan";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Bhutan";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -8528,20 +8528,20 @@ declare const BhutanFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Bermuda (flags)
+ * Auto-generated logo component: Bermuda (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface BermudaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface BermudaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const BermudaFlags: React__default.ForwardRefExoticComponent<Omit<BermudaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const BermudaFlagsMetadata: {
-    readonly id: "Bermuda_flags";
+declare const BermudaSymbols: React__default.ForwardRefExoticComponent<Omit<BermudaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const BermudaSymbolsMetadata: {
+    readonly id: "Bermuda_symbols";
     readonly baseId: "Bermuda";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Bermuda";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -8549,20 +8549,20 @@ declare const BermudaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Benin (flags)
+ * Auto-generated logo component: Benin (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface BeninFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface BeninSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const BeninFlags: React__default.ForwardRefExoticComponent<Omit<BeninFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const BeninFlagsMetadata: {
-    readonly id: "Benin_flags";
+declare const BeninSymbols: React__default.ForwardRefExoticComponent<Omit<BeninSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const BeninSymbolsMetadata: {
+    readonly id: "Benin_symbols";
     readonly baseId: "Benin";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Benin";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -8570,20 +8570,20 @@ declare const BeninFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Belize (flags)
+ * Auto-generated logo component: Belize (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface BelizeFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface BelizeSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const BelizeFlags: React__default.ForwardRefExoticComponent<Omit<BelizeFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const BelizeFlagsMetadata: {
-    readonly id: "Belize_flags";
+declare const BelizeSymbols: React__default.ForwardRefExoticComponent<Omit<BelizeSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const BelizeSymbolsMetadata: {
+    readonly id: "Belize_symbols";
     readonly baseId: "Belize";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Belize";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -8591,20 +8591,20 @@ declare const BelizeFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Belgium (flags)
+ * Auto-generated logo component: Belgium (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface BelgiumFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface BelgiumSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const BelgiumFlags: React__default.ForwardRefExoticComponent<Omit<BelgiumFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const BelgiumFlagsMetadata: {
-    readonly id: "Belgium_flags";
+declare const BelgiumSymbols: React__default.ForwardRefExoticComponent<Omit<BelgiumSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const BelgiumSymbolsMetadata: {
+    readonly id: "Belgium_symbols";
     readonly baseId: "Belgium";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Belgium";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -8612,20 +8612,20 @@ declare const BelgiumFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Belarus (flags)
+ * Auto-generated logo component: Belarus (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface BelarusFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface BelarusSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const BelarusFlags: React__default.ForwardRefExoticComponent<Omit<BelarusFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const BelarusFlagsMetadata: {
-    readonly id: "Belarus_flags";
+declare const BelarusSymbols: React__default.ForwardRefExoticComponent<Omit<BelarusSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const BelarusSymbolsMetadata: {
+    readonly id: "Belarus_symbols";
     readonly baseId: "Belarus";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Belarus";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -8633,20 +8633,20 @@ declare const BelarusFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Basque (flags)
+ * Auto-generated logo component: Basque (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface BasqueFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface BasqueSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const BasqueFlags: React__default.ForwardRefExoticComponent<Omit<BasqueFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const BasqueFlagsMetadata: {
-    readonly id: "Basque_flags";
+declare const BasqueSymbols: React__default.ForwardRefExoticComponent<Omit<BasqueSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const BasqueSymbolsMetadata: {
+    readonly id: "Basque_symbols";
     readonly baseId: "Basque";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Basque";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -8654,20 +8654,20 @@ declare const BasqueFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Barbados (flags)
+ * Auto-generated logo component: Barbados (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface BarbadosFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface BarbadosSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const BarbadosFlags: React__default.ForwardRefExoticComponent<Omit<BarbadosFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const BarbadosFlagsMetadata: {
-    readonly id: "Barbados_flags";
+declare const BarbadosSymbols: React__default.ForwardRefExoticComponent<Omit<BarbadosSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const BarbadosSymbolsMetadata: {
+    readonly id: "Barbados_symbols";
     readonly baseId: "Barbados";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Barbados";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -8675,20 +8675,20 @@ declare const BarbadosFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Bangladesh (flags)
+ * Auto-generated logo component: Bangladesh (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface BangladeshFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface BangladeshSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const BangladeshFlags: React__default.ForwardRefExoticComponent<Omit<BangladeshFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const BangladeshFlagsMetadata: {
-    readonly id: "Bangladesh_flags";
+declare const BangladeshSymbols: React__default.ForwardRefExoticComponent<Omit<BangladeshSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const BangladeshSymbolsMetadata: {
+    readonly id: "Bangladesh_symbols";
     readonly baseId: "Bangladesh";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Bangladesh";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -8696,20 +8696,20 @@ declare const BangladeshFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Bahrain (flags)
+ * Auto-generated logo component: Bahrain (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface BahrainFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface BahrainSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const BahrainFlags: React__default.ForwardRefExoticComponent<Omit<BahrainFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const BahrainFlagsMetadata: {
-    readonly id: "Bahrain_flags";
+declare const BahrainSymbols: React__default.ForwardRefExoticComponent<Omit<BahrainSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const BahrainSymbolsMetadata: {
+    readonly id: "Bahrain_symbols";
     readonly baseId: "Bahrain";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Bahrain";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -8717,20 +8717,20 @@ declare const BahrainFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Bahamas (flags)
+ * Auto-generated logo component: Bahamas (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface BahamasFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface BahamasSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const BahamasFlags: React__default.ForwardRefExoticComponent<Omit<BahamasFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const BahamasFlagsMetadata: {
-    readonly id: "Bahamas_flags";
+declare const BahamasSymbols: React__default.ForwardRefExoticComponent<Omit<BahamasSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const BahamasSymbolsMetadata: {
+    readonly id: "Bahamas_symbols";
     readonly baseId: "Bahamas";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Bahamas";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -8738,20 +8738,20 @@ declare const BahamasFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Azerbaijan (flags)
+ * Auto-generated logo component: Azerbaijan (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface AzerbaijanFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface AzerbaijanSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const AzerbaijanFlags: React__default.ForwardRefExoticComponent<Omit<AzerbaijanFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const AzerbaijanFlagsMetadata: {
-    readonly id: "Azerbaijan_flags";
+declare const AzerbaijanSymbols: React__default.ForwardRefExoticComponent<Omit<AzerbaijanSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const AzerbaijanSymbolsMetadata: {
+    readonly id: "Azerbaijan_symbols";
     readonly baseId: "Azerbaijan";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Azerbaijan";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -8759,20 +8759,20 @@ declare const AzerbaijanFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Austria (flags)
+ * Auto-generated logo component: Austria (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface AustriaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface AustriaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const AustriaFlags: React__default.ForwardRefExoticComponent<Omit<AustriaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const AustriaFlagsMetadata: {
-    readonly id: "Austria_flags";
+declare const AustriaSymbols: React__default.ForwardRefExoticComponent<Omit<AustriaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const AustriaSymbolsMetadata: {
+    readonly id: "Austria_symbols";
     readonly baseId: "Austria";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Austria";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -8780,20 +8780,20 @@ declare const AustriaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Australia (flags)
+ * Auto-generated logo component: Australia (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface AustraliaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface AustraliaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const AustraliaFlags: React__default.ForwardRefExoticComponent<Omit<AustraliaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const AustraliaFlagsMetadata: {
-    readonly id: "Australia_flags";
+declare const AustraliaSymbols: React__default.ForwardRefExoticComponent<Omit<AustraliaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const AustraliaSymbolsMetadata: {
+    readonly id: "Australia_symbols";
     readonly baseId: "Australia";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Australia";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -8801,20 +8801,20 @@ declare const AustraliaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Aruba (flags)
+ * Auto-generated logo component: Aruba (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface ArubaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface ArubaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const ArubaFlags: React__default.ForwardRefExoticComponent<Omit<ArubaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const ArubaFlagsMetadata: {
-    readonly id: "Aruba_flags";
+declare const ArubaSymbols: React__default.ForwardRefExoticComponent<Omit<ArubaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const ArubaSymbolsMetadata: {
+    readonly id: "Aruba_symbols";
     readonly baseId: "Aruba";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Aruba";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -8822,20 +8822,20 @@ declare const ArubaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Armenia (flags)
+ * Auto-generated logo component: Armenia (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface ArmeniaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface ArmeniaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const ArmeniaFlags: React__default.ForwardRefExoticComponent<Omit<ArmeniaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const ArmeniaFlagsMetadata: {
-    readonly id: "Armenia_flags";
+declare const ArmeniaSymbols: React__default.ForwardRefExoticComponent<Omit<ArmeniaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const ArmeniaSymbolsMetadata: {
+    readonly id: "Armenia_symbols";
     readonly baseId: "Armenia";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Armenia";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -8843,20 +8843,20 @@ declare const ArmeniaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Argentina (flags)
+ * Auto-generated logo component: Argentina (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface ArgentinaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface ArgentinaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const ArgentinaFlags: React__default.ForwardRefExoticComponent<Omit<ArgentinaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const ArgentinaFlagsMetadata: {
-    readonly id: "Argentina_flags";
+declare const ArgentinaSymbols: React__default.ForwardRefExoticComponent<Omit<ArgentinaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const ArgentinaSymbolsMetadata: {
+    readonly id: "Argentina_symbols";
     readonly baseId: "Argentina";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Argentina";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -8864,20 +8864,20 @@ declare const ArgentinaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Antigua Barbuda (flags)
+ * Auto-generated logo component: Antigua Barbuda (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface AntiguaBarbudaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface AntiguaBarbudaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const AntiguaBarbudaFlags: React__default.ForwardRefExoticComponent<Omit<AntiguaBarbudaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const AntiguaBarbudaFlagsMetadata: {
-    readonly id: "Antigua-Barbuda_flags";
+declare const AntiguaBarbudaSymbols: React__default.ForwardRefExoticComponent<Omit<AntiguaBarbudaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const AntiguaBarbudaSymbolsMetadata: {
+    readonly id: "Antigua-Barbuda_symbols";
     readonly baseId: "Antigua-Barbuda";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Antigua Barbuda";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -8885,20 +8885,20 @@ declare const AntiguaBarbudaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Antarctica (flags)
+ * Auto-generated logo component: Antarctica (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface AntarcticaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface AntarcticaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const AntarcticaFlags: React__default.ForwardRefExoticComponent<Omit<AntarcticaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const AntarcticaFlagsMetadata: {
-    readonly id: "Antarctica_flags";
+declare const AntarcticaSymbols: React__default.ForwardRefExoticComponent<Omit<AntarcticaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const AntarcticaSymbolsMetadata: {
+    readonly id: "Antarctica_symbols";
     readonly baseId: "Antarctica";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Antarctica";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -8906,20 +8906,20 @@ declare const AntarcticaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Anguilla (flags)
+ * Auto-generated logo component: Anguilla (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface AnguillaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface AnguillaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const AnguillaFlags: React__default.ForwardRefExoticComponent<Omit<AnguillaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const AnguillaFlagsMetadata: {
-    readonly id: "Anguilla_flags";
+declare const AnguillaSymbols: React__default.ForwardRefExoticComponent<Omit<AnguillaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const AnguillaSymbolsMetadata: {
+    readonly id: "Anguilla_symbols";
     readonly baseId: "Anguilla";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Anguilla";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -8927,20 +8927,20 @@ declare const AnguillaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Angola (flags)
+ * Auto-generated logo component: Angola (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface AngolaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface AngolaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const AngolaFlags: React__default.ForwardRefExoticComponent<Omit<AngolaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const AngolaFlagsMetadata: {
-    readonly id: "Angola_flags";
+declare const AngolaSymbols: React__default.ForwardRefExoticComponent<Omit<AngolaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const AngolaSymbolsMetadata: {
+    readonly id: "Angola_symbols";
     readonly baseId: "Angola";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Angola";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -8948,20 +8948,20 @@ declare const AngolaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Andorra (flags)
+ * Auto-generated logo component: Andorra (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface AndorraFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface AndorraSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const AndorraFlags: React__default.ForwardRefExoticComponent<Omit<AndorraFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const AndorraFlagsMetadata: {
-    readonly id: "Andorra_flags";
+declare const AndorraSymbols: React__default.ForwardRefExoticComponent<Omit<AndorraSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const AndorraSymbolsMetadata: {
+    readonly id: "Andorra_symbols";
     readonly baseId: "Andorra";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Andorra";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -8969,20 +8969,20 @@ declare const AndorraFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Algeria (flags)
+ * Auto-generated logo component: Algeria (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface AlgeriaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface AlgeriaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const AlgeriaFlags: React__default.ForwardRefExoticComponent<Omit<AlgeriaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const AlgeriaFlagsMetadata: {
-    readonly id: "Algeria_flags";
+declare const AlgeriaSymbols: React__default.ForwardRefExoticComponent<Omit<AlgeriaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const AlgeriaSymbolsMetadata: {
+    readonly id: "Algeria_symbols";
     readonly baseId: "Algeria";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Algeria";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -8990,20 +8990,20 @@ declare const AlgeriaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Albania (flags)
+ * Auto-generated logo component: Albania (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface AlbaniaFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface AlbaniaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const AlbaniaFlags: React__default.ForwardRefExoticComponent<Omit<AlbaniaFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const AlbaniaFlagsMetadata: {
-    readonly id: "Albania_flags";
+declare const AlbaniaSymbols: React__default.ForwardRefExoticComponent<Omit<AlbaniaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const AlbaniaSymbolsMetadata: {
+    readonly id: "Albania_symbols";
     readonly baseId: "Albania";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Albania";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -9011,20 +9011,20 @@ declare const AlbaniaFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Afghanistan (flags)
+ * Auto-generated logo component: Afghanistan (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface AfghanistanFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface AfghanistanSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const AfghanistanFlags: React__default.ForwardRefExoticComponent<Omit<AfghanistanFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const AfghanistanFlagsMetadata: {
-    readonly id: "Afghanistan_flags";
+declare const AfghanistanSymbols: React__default.ForwardRefExoticComponent<Omit<AfghanistanSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const AfghanistanSymbolsMetadata: {
+    readonly id: "Afghanistan_symbols";
     readonly baseId: "Afghanistan";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Afghanistan";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -9032,20 +9032,20 @@ declare const AfghanistanFlagsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Aaland Islands (flags)
+ * Auto-generated logo component: Aaland Islands (symbols)
  * Category: flags
  * Do not edit manually
  */
 
-interface AalandIslandsFlagsProps extends React__default.SVGProps<SVGSVGElement> {
+interface AalandIslandsSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const AalandIslandsFlags: React__default.ForwardRefExoticComponent<Omit<AalandIslandsFlagsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const AalandIslandsFlagsMetadata: {
-    readonly id: "Aaland-Islands_flags";
+declare const AalandIslandsSymbols: React__default.ForwardRefExoticComponent<Omit<AalandIslandsSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const AalandIslandsSymbolsMetadata: {
+    readonly id: "Aaland-Islands_symbols";
     readonly baseId: "Aaland-Islands";
-    readonly variant: "flags";
+    readonly variant: "symbols";
     readonly name: "Aaland Islands";
     readonly category: "flags";
     readonly tags: readonly [];
@@ -10292,20 +10292,20 @@ declare const BuilderMetadata: {
 };
 
 /**
- * Auto-generated logo component: WeChat Pay (cards)
+ * Auto-generated logo component: WeChat Pay (symbols)
  * Category: cards
  * Do not edit manually
  */
 
-interface WeChatPayCardsProps extends React__default.SVGProps<SVGSVGElement> {
+interface WeChatPaySymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const WeChatPayCards: React__default.ForwardRefExoticComponent<Omit<WeChatPayCardsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const WeChatPayCardsMetadata: {
-    readonly id: "WeChat-Pay_cards";
+declare const WeChatPaySymbols: React__default.ForwardRefExoticComponent<Omit<WeChatPaySymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const WeChatPaySymbolsMetadata: {
+    readonly id: "WeChat-Pay_symbols";
     readonly baseId: "WeChat-Pay";
-    readonly variant: "cards";
+    readonly variant: "symbols";
     readonly name: "WeChat Pay";
     readonly category: "cards";
     readonly tags: readonly [];
@@ -10313,20 +10313,20 @@ declare const WeChatPayCardsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Visa (cards)
+ * Auto-generated logo component: Visa (symbols)
  * Category: cards
  * Do not edit manually
  */
 
-interface VisaCardsProps extends React__default.SVGProps<SVGSVGElement> {
+interface VisaSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const VisaCards: React__default.ForwardRefExoticComponent<Omit<VisaCardsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const VisaCardsMetadata: {
-    readonly id: "Visa_cards";
+declare const VisaSymbols: React__default.ForwardRefExoticComponent<Omit<VisaSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const VisaSymbolsMetadata: {
+    readonly id: "Visa_symbols";
     readonly baseId: "Visa";
-    readonly variant: "cards";
+    readonly variant: "symbols";
     readonly name: "Visa";
     readonly category: "cards";
     readonly tags: readonly [];
@@ -10334,20 +10334,20 @@ declare const VisaCardsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Visa 1 (cards)
+ * Auto-generated logo component: Visa 1 (symbols)
  * Category: cards
  * Do not edit manually
  */
 
-interface Visa1CardsProps extends React__default.SVGProps<SVGSVGElement> {
+interface Visa1SymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const Visa1Cards: React__default.ForwardRefExoticComponent<Omit<Visa1CardsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const Visa1CardsMetadata: {
-    readonly id: "Visa-1_cards";
+declare const Visa1Symbols: React__default.ForwardRefExoticComponent<Omit<Visa1SymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Visa1SymbolsMetadata: {
+    readonly id: "Visa-1_symbols";
     readonly baseId: "Visa-1";
-    readonly variant: "cards";
+    readonly variant: "symbols";
     readonly name: "Visa 1";
     readonly category: "cards";
     readonly tags: readonly [];
@@ -10355,20 +10355,20 @@ declare const Visa1CardsMetadata: {
 };
 
 /**
- * Auto-generated logo component: UnionPay (cards)
+ * Auto-generated logo component: UnionPay (symbols)
  * Category: cards
  * Do not edit manually
  */
 
-interface UnionPayCardsProps extends React__default.SVGProps<SVGSVGElement> {
+interface UnionPaySymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const UnionPayCards: React__default.ForwardRefExoticComponent<Omit<UnionPayCardsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const UnionPayCardsMetadata: {
-    readonly id: "UnionPay_cards";
+declare const UnionPaySymbols: React__default.ForwardRefExoticComponent<Omit<UnionPaySymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const UnionPaySymbolsMetadata: {
+    readonly id: "UnionPay_symbols";
     readonly baseId: "UnionPay";
-    readonly variant: "cards";
+    readonly variant: "symbols";
     readonly name: "UnionPay";
     readonly category: "cards";
     readonly tags: readonly [];
@@ -10376,20 +10376,20 @@ declare const UnionPayCardsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Shop Pay (cards)
+ * Auto-generated logo component: Shop Pay (symbols)
  * Category: cards
  * Do not edit manually
  */
 
-interface ShopPayCardsProps extends React__default.SVGProps<SVGSVGElement> {
+interface ShopPaySymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const ShopPayCards: React__default.ForwardRefExoticComponent<Omit<ShopPayCardsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const ShopPayCardsMetadata: {
-    readonly id: "Shop-Pay_cards";
+declare const ShopPaySymbols: React__default.ForwardRefExoticComponent<Omit<ShopPaySymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const ShopPaySymbolsMetadata: {
+    readonly id: "Shop-Pay_symbols";
     readonly baseId: "Shop-Pay";
-    readonly variant: "cards";
+    readonly variant: "symbols";
     readonly name: "Shop Pay";
     readonly category: "cards";
     readonly tags: readonly [];
@@ -10397,20 +10397,20 @@ declare const ShopPayCardsMetadata: {
 };
 
 /**
- * Auto-generated logo component: RuPay (cards)
+ * Auto-generated logo component: RuPay (symbols)
  * Category: cards
  * Do not edit manually
  */
 
-interface RuPayCardsProps extends React__default.SVGProps<SVGSVGElement> {
+interface RuPaySymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const RuPayCards: React__default.ForwardRefExoticComponent<Omit<RuPayCardsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const RuPayCardsMetadata: {
-    readonly id: "RuPay_cards";
+declare const RuPaySymbols: React__default.ForwardRefExoticComponent<Omit<RuPaySymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const RuPaySymbolsMetadata: {
+    readonly id: "RuPay_symbols";
     readonly baseId: "RuPay";
-    readonly variant: "cards";
+    readonly variant: "symbols";
     readonly name: "RuPay";
     readonly category: "cards";
     readonly tags: readonly [];
@@ -10418,20 +10418,20 @@ declare const RuPayCardsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Paypal (cards)
+ * Auto-generated logo component: Paypal (symbols)
  * Category: cards
  * Do not edit manually
  */
 
-interface PaypalCardsProps extends React__default.SVGProps<SVGSVGElement> {
+interface PaypalSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const PaypalCards: React__default.ForwardRefExoticComponent<Omit<PaypalCardsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const PaypalCardsMetadata: {
-    readonly id: "Paypal_cards";
+declare const PaypalSymbols: React__default.ForwardRefExoticComponent<Omit<PaypalSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const PaypalSymbolsMetadata: {
+    readonly id: "Paypal_symbols";
     readonly baseId: "Paypal";
-    readonly variant: "cards";
+    readonly variant: "symbols";
     readonly name: "Paypal";
     readonly category: "cards";
     readonly tags: readonly [];
@@ -10439,20 +10439,20 @@ declare const PaypalCardsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Paypal 1 (cards)
+ * Auto-generated logo component: Paypal 1 (symbols)
  * Category: cards
  * Do not edit manually
  */
 
-interface Paypal1CardsProps extends React__default.SVGProps<SVGSVGElement> {
+interface Paypal1SymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const Paypal1Cards: React__default.ForwardRefExoticComponent<Omit<Paypal1CardsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const Paypal1CardsMetadata: {
-    readonly id: "Paypal-1_cards";
+declare const Paypal1Symbols: React__default.ForwardRefExoticComponent<Omit<Paypal1SymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Paypal1SymbolsMetadata: {
+    readonly id: "Paypal-1_symbols";
     readonly baseId: "Paypal-1";
-    readonly variant: "cards";
+    readonly variant: "symbols";
     readonly name: "Paypal 1";
     readonly category: "cards";
     readonly tags: readonly [];
@@ -10460,20 +10460,20 @@ declare const Paypal1CardsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Mastercard (cards)
+ * Auto-generated logo component: Mastercard (symbols)
  * Category: cards
  * Do not edit manually
  */
 
-interface MastercardCardsProps extends React__default.SVGProps<SVGSVGElement> {
+interface MastercardSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const MastercardCards: React__default.ForwardRefExoticComponent<Omit<MastercardCardsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const MastercardCardsMetadata: {
-    readonly id: "Mastercard_cards";
+declare const MastercardSymbols: React__default.ForwardRefExoticComponent<Omit<MastercardSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const MastercardSymbolsMetadata: {
+    readonly id: "Mastercard_symbols";
     readonly baseId: "Mastercard";
-    readonly variant: "cards";
+    readonly variant: "symbols";
     readonly name: "Mastercard";
     readonly category: "cards";
     readonly tags: readonly [];
@@ -10481,20 +10481,20 @@ declare const MastercardCardsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Mastercard 1 (cards)
+ * Auto-generated logo component: Mastercard 1 (symbols)
  * Category: cards
  * Do not edit manually
  */
 
-interface Mastercard1CardsProps extends React__default.SVGProps<SVGSVGElement> {
+interface Mastercard1SymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const Mastercard1Cards: React__default.ForwardRefExoticComponent<Omit<Mastercard1CardsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const Mastercard1CardsMetadata: {
-    readonly id: "Mastercard-1_cards";
+declare const Mastercard1Symbols: React__default.ForwardRefExoticComponent<Omit<Mastercard1SymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Mastercard1SymbolsMetadata: {
+    readonly id: "Mastercard-1_symbols";
     readonly baseId: "Mastercard-1";
-    readonly variant: "cards";
+    readonly variant: "symbols";
     readonly name: "Mastercard 1";
     readonly category: "cards";
     readonly tags: readonly [];
@@ -10502,20 +10502,20 @@ declare const Mastercard1CardsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Maestro (cards)
+ * Auto-generated logo component: Maestro (symbols)
  * Category: cards
  * Do not edit manually
  */
 
-interface MaestroCardsProps extends React__default.SVGProps<SVGSVGElement> {
+interface MaestroSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const MaestroCards: React__default.ForwardRefExoticComponent<Omit<MaestroCardsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const MaestroCardsMetadata: {
-    readonly id: "Maestro_cards";
+declare const MaestroSymbols: React__default.ForwardRefExoticComponent<Omit<MaestroSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const MaestroSymbolsMetadata: {
+    readonly id: "Maestro_symbols";
     readonly baseId: "Maestro";
-    readonly variant: "cards";
+    readonly variant: "symbols";
     readonly name: "Maestro";
     readonly category: "cards";
     readonly tags: readonly [];
@@ -10523,20 +10523,20 @@ declare const MaestroCardsMetadata: {
 };
 
 /**
- * Auto-generated logo component: JCB (cards)
+ * Auto-generated logo component: JCB (symbols)
  * Category: cards
  * Do not edit manually
  */
 
-interface JCBCardsProps extends React__default.SVGProps<SVGSVGElement> {
+interface JCBSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const JCBCards: React__default.ForwardRefExoticComponent<Omit<JCBCardsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const JCBCardsMetadata: {
-    readonly id: "JCB_cards";
+declare const JCBSymbols: React__default.ForwardRefExoticComponent<Omit<JCBSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const JCBSymbolsMetadata: {
+    readonly id: "JCB_symbols";
     readonly baseId: "JCB";
-    readonly variant: "cards";
+    readonly variant: "symbols";
     readonly name: "JCB";
     readonly category: "cards";
     readonly tags: readonly [];
@@ -10544,20 +10544,20 @@ declare const JCBCardsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Google Pay (cards)
+ * Auto-generated logo component: Google Pay (symbols)
  * Category: cards
  * Do not edit manually
  */
 
-interface GooglePayCardsProps extends React__default.SVGProps<SVGSVGElement> {
+interface GooglePaySymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const GooglePayCards: React__default.ForwardRefExoticComponent<Omit<GooglePayCardsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const GooglePayCardsMetadata: {
-    readonly id: "Google-Pay_cards";
+declare const GooglePaySymbols: React__default.ForwardRefExoticComponent<Omit<GooglePaySymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const GooglePaySymbolsMetadata: {
+    readonly id: "Google-Pay_symbols";
     readonly baseId: "Google-Pay";
-    readonly variant: "cards";
+    readonly variant: "symbols";
     readonly name: "Google Pay";
     readonly category: "cards";
     readonly tags: readonly [];
@@ -10565,20 +10565,20 @@ declare const GooglePayCardsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Front (cards)
+ * Auto-generated logo component: Front (symbols)
  * Category: cards
  * Do not edit manually
  */
 
-interface FrontCardsProps extends React__default.SVGProps<SVGSVGElement> {
+interface FrontSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const FrontCards: React__default.ForwardRefExoticComponent<Omit<FrontCardsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const FrontCardsMetadata: {
-    readonly id: "Front_cards";
+declare const FrontSymbols: React__default.ForwardRefExoticComponent<Omit<FrontSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const FrontSymbolsMetadata: {
+    readonly id: "Front_symbols";
     readonly baseId: "Front";
-    readonly variant: "cards";
+    readonly variant: "symbols";
     readonly name: "Front";
     readonly category: "cards";
     readonly tags: readonly [];
@@ -10586,20 +10586,20 @@ declare const FrontCardsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Front 1 (cards)
+ * Auto-generated logo component: Front 1 (symbols)
  * Category: cards
  * Do not edit manually
  */
 
-interface Front1CardsProps extends React__default.SVGProps<SVGSVGElement> {
+interface Front1SymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const Front1Cards: React__default.ForwardRefExoticComponent<Omit<Front1CardsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const Front1CardsMetadata: {
-    readonly id: "Front-1_cards";
+declare const Front1Symbols: React__default.ForwardRefExoticComponent<Omit<Front1SymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const Front1SymbolsMetadata: {
+    readonly id: "Front-1_symbols";
     readonly baseId: "Front-1";
-    readonly variant: "cards";
+    readonly variant: "symbols";
     readonly name: "Front 1";
     readonly category: "cards";
     readonly tags: readonly [];
@@ -10607,20 +10607,20 @@ declare const Front1CardsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Eftpos (cards)
+ * Auto-generated logo component: Eftpos (symbols)
  * Category: cards
  * Do not edit manually
  */
 
-interface EftposCardsProps extends React__default.SVGProps<SVGSVGElement> {
+interface EftposSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const EftposCards: React__default.ForwardRefExoticComponent<Omit<EftposCardsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const EftposCardsMetadata: {
-    readonly id: "Eftpos_cards";
+declare const EftposSymbols: React__default.ForwardRefExoticComponent<Omit<EftposSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const EftposSymbolsMetadata: {
+    readonly id: "Eftpos_symbols";
     readonly baseId: "Eftpos";
-    readonly variant: "cards";
+    readonly variant: "symbols";
     readonly name: "Eftpos";
     readonly category: "cards";
     readonly tags: readonly [];
@@ -10628,20 +10628,20 @@ declare const EftposCardsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Discover (cards)
+ * Auto-generated logo component: Discover (symbols)
  * Category: cards
  * Do not edit manually
  */
 
-interface DiscoverCardsProps extends React__default.SVGProps<SVGSVGElement> {
+interface DiscoverSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const DiscoverCards: React__default.ForwardRefExoticComponent<Omit<DiscoverCardsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const DiscoverCardsMetadata: {
-    readonly id: "Discover_cards";
+declare const DiscoverSymbols: React__default.ForwardRefExoticComponent<Omit<DiscoverSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const DiscoverSymbolsMetadata: {
+    readonly id: "Discover_symbols";
     readonly baseId: "Discover";
-    readonly variant: "cards";
+    readonly variant: "symbols";
     readonly name: "Discover";
     readonly category: "cards";
     readonly tags: readonly [];
@@ -10649,20 +10649,20 @@ declare const DiscoverCardsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Diners Club (cards)
+ * Auto-generated logo component: Diners Club (symbols)
  * Category: cards
  * Do not edit manually
  */
 
-interface DinersClubCardsProps extends React__default.SVGProps<SVGSVGElement> {
+interface DinersClubSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const DinersClubCards: React__default.ForwardRefExoticComponent<Omit<DinersClubCardsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const DinersClubCardsMetadata: {
-    readonly id: "Diners-Club_cards";
+declare const DinersClubSymbols: React__default.ForwardRefExoticComponent<Omit<DinersClubSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const DinersClubSymbolsMetadata: {
+    readonly id: "Diners-Club_symbols";
     readonly baseId: "Diners-Club";
-    readonly variant: "cards";
+    readonly variant: "symbols";
     readonly name: "Diners Club";
     readonly category: "cards";
     readonly tags: readonly [];
@@ -10670,20 +10670,20 @@ declare const DinersClubCardsMetadata: {
 };
 
 /**
- * Auto-generated logo component: CVC (cards)
+ * Auto-generated logo component: CVC (symbols)
  * Category: cards
  * Do not edit manually
  */
 
-interface CVCCardsProps extends React__default.SVGProps<SVGSVGElement> {
+interface CVCSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const CVCCards: React__default.ForwardRefExoticComponent<Omit<CVCCardsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const CVCCardsMetadata: {
-    readonly id: "CVC_cards";
+declare const CVCSymbols: React__default.ForwardRefExoticComponent<Omit<CVCSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const CVCSymbolsMetadata: {
+    readonly id: "CVC_symbols";
     readonly baseId: "CVC";
-    readonly variant: "cards";
+    readonly variant: "symbols";
     readonly name: "CVC";
     readonly category: "cards";
     readonly tags: readonly [];
@@ -10691,20 +10691,20 @@ declare const CVCCardsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Bitcoin (cards)
+ * Auto-generated logo component: Bitcoin (symbols)
  * Category: cards
  * Do not edit manually
  */
 
-interface BitcoinCardsProps extends React__default.SVGProps<SVGSVGElement> {
+interface BitcoinSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const BitcoinCards: React__default.ForwardRefExoticComponent<Omit<BitcoinCardsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const BitcoinCardsMetadata: {
-    readonly id: "Bitcoin_cards";
+declare const BitcoinSymbols: React__default.ForwardRefExoticComponent<Omit<BitcoinSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const BitcoinSymbolsMetadata: {
+    readonly id: "Bitcoin_symbols";
     readonly baseId: "Bitcoin";
-    readonly variant: "cards";
+    readonly variant: "symbols";
     readonly name: "Bitcoin";
     readonly category: "cards";
     readonly tags: readonly [];
@@ -10712,20 +10712,20 @@ declare const BitcoinCardsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Bank Account (cards)
+ * Auto-generated logo component: Bank Account (symbols)
  * Category: cards
  * Do not edit manually
  */
 
-interface BankAccountCardsProps extends React__default.SVGProps<SVGSVGElement> {
+interface BankAccountSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const BankAccountCards: React__default.ForwardRefExoticComponent<Omit<BankAccountCardsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const BankAccountCardsMetadata: {
-    readonly id: "Bank-account_cards";
+declare const BankAccountSymbols: React__default.ForwardRefExoticComponent<Omit<BankAccountSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const BankAccountSymbolsMetadata: {
+    readonly id: "Bank-account_symbols";
     readonly baseId: "Bank-account";
-    readonly variant: "cards";
+    readonly variant: "symbols";
     readonly name: "Bank Account";
     readonly category: "cards";
     readonly tags: readonly [];
@@ -10733,20 +10733,20 @@ declare const BankAccountCardsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Apple Pay (cards)
+ * Auto-generated logo component: Apple Pay (symbols)
  * Category: cards
  * Do not edit manually
  */
 
-interface ApplePayCardsProps extends React__default.SVGProps<SVGSVGElement> {
+interface ApplePaySymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const ApplePayCards: React__default.ForwardRefExoticComponent<Omit<ApplePayCardsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const ApplePayCardsMetadata: {
-    readonly id: "Apple-Pay_cards";
+declare const ApplePaySymbols: React__default.ForwardRefExoticComponent<Omit<ApplePaySymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const ApplePaySymbolsMetadata: {
+    readonly id: "Apple-Pay_symbols";
     readonly baseId: "Apple-Pay";
-    readonly variant: "cards";
+    readonly variant: "symbols";
     readonly name: "Apple Pay";
     readonly category: "cards";
     readonly tags: readonly [];
@@ -10754,20 +10754,20 @@ declare const ApplePayCardsMetadata: {
 };
 
 /**
- * Auto-generated logo component: American Express (cards)
+ * Auto-generated logo component: American Express (symbols)
  * Category: cards
  * Do not edit manually
  */
 
-interface AmericanExpressCardsProps extends React__default.SVGProps<SVGSVGElement> {
+interface AmericanExpressSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const AmericanExpressCards: React__default.ForwardRefExoticComponent<Omit<AmericanExpressCardsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const AmericanExpressCardsMetadata: {
-    readonly id: "American-Express_cards";
+declare const AmericanExpressSymbols: React__default.ForwardRefExoticComponent<Omit<AmericanExpressSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const AmericanExpressSymbolsMetadata: {
+    readonly id: "American-Express_symbols";
     readonly baseId: "American-Express";
-    readonly variant: "cards";
+    readonly variant: "symbols";
     readonly name: "American Express";
     readonly category: "cards";
     readonly tags: readonly [];
@@ -10775,20 +10775,20 @@ declare const AmericanExpressCardsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Amazon (cards)
+ * Auto-generated logo component: Amazon (symbols)
  * Category: cards
  * Do not edit manually
  */
 
-interface AmazonCardsProps extends React__default.SVGProps<SVGSVGElement> {
+interface AmazonSymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const AmazonCards: React__default.ForwardRefExoticComponent<Omit<AmazonCardsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const AmazonCardsMetadata: {
-    readonly id: "Amazon_cards";
+declare const AmazonSymbols: React__default.ForwardRefExoticComponent<Omit<AmazonSymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const AmazonSymbolsMetadata: {
+    readonly id: "Amazon_symbols";
     readonly baseId: "Amazon";
-    readonly variant: "cards";
+    readonly variant: "symbols";
     readonly name: "Amazon";
     readonly category: "cards";
     readonly tags: readonly [];
@@ -10796,20 +10796,20 @@ declare const AmazonCardsMetadata: {
 };
 
 /**
- * Auto-generated logo component: Alipay (cards)
+ * Auto-generated logo component: Alipay (symbols)
  * Category: cards
  * Do not edit manually
  */
 
-interface AlipayCardsProps extends React__default.SVGProps<SVGSVGElement> {
+interface AlipaySymbolsProps extends React__default.SVGProps<SVGSVGElement> {
     size?: number | string;
     className?: string;
 }
-declare const AlipayCards: React__default.ForwardRefExoticComponent<Omit<AlipayCardsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
-declare const AlipayCardsMetadata: {
-    readonly id: "Alipay_cards";
+declare const AlipaySymbols: React__default.ForwardRefExoticComponent<Omit<AlipaySymbolsProps, "ref"> & React__default.RefAttributes<SVGSVGElement>>;
+declare const AlipaySymbolsMetadata: {
+    readonly id: "Alipay_symbols";
     readonly baseId: "Alipay";
-    readonly variant: "cards";
+    readonly variant: "symbols";
     readonly name: "Alipay";
     readonly category: "cards";
     readonly tags: readonly [];
@@ -12474,300 +12474,300 @@ declare const allLogos: {
         };
     };
     readonly cards: {
-        readonly AlipayCards: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<AlipayCardsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly AlipaySymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<AlipaySymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Alipay_cards";
+                readonly id: "Alipay_symbols";
                 readonly baseId: "Alipay";
-                readonly variant: "cards";
+                readonly variant: "symbols";
                 readonly name: "Alipay";
                 readonly category: "cards";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 24 24";
             };
         };
-        readonly AmazonCards: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<AmazonCardsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly AmazonSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<AmazonSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Amazon_cards";
+                readonly id: "Amazon_symbols";
                 readonly baseId: "Amazon";
-                readonly variant: "cards";
+                readonly variant: "symbols";
                 readonly name: "Amazon";
                 readonly category: "cards";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 24 24";
             };
         };
-        readonly AmericanExpressCards: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<AmericanExpressCardsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly AmericanExpressSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<AmericanExpressSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "American-Express_cards";
+                readonly id: "American-Express_symbols";
                 readonly baseId: "American-Express";
-                readonly variant: "cards";
+                readonly variant: "symbols";
                 readonly name: "American Express";
                 readonly category: "cards";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 24 24";
             };
         };
-        readonly ApplePayCards: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<ApplePayCardsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly ApplePaySymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<ApplePaySymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Apple-Pay_cards";
+                readonly id: "Apple-Pay_symbols";
                 readonly baseId: "Apple-Pay";
-                readonly variant: "cards";
+                readonly variant: "symbols";
                 readonly name: "Apple Pay";
                 readonly category: "cards";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 24 24";
             };
         };
-        readonly BankAccountCards: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<BankAccountCardsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly BankAccountSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<BankAccountSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Bank-account_cards";
+                readonly id: "Bank-account_symbols";
                 readonly baseId: "Bank-account";
-                readonly variant: "cards";
+                readonly variant: "symbols";
                 readonly name: "Bank Account";
                 readonly category: "cards";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 24 24";
             };
         };
-        readonly BitcoinCards: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<BitcoinCardsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly BitcoinSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<BitcoinSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Bitcoin_cards";
+                readonly id: "Bitcoin_symbols";
                 readonly baseId: "Bitcoin";
-                readonly variant: "cards";
+                readonly variant: "symbols";
                 readonly name: "Bitcoin";
                 readonly category: "cards";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 24 24";
             };
         };
-        readonly CVCCards: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<CVCCardsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly CVCSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<CVCSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "CVC_cards";
+                readonly id: "CVC_symbols";
                 readonly baseId: "CVC";
-                readonly variant: "cards";
+                readonly variant: "symbols";
                 readonly name: "CVC";
                 readonly category: "cards";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 24 24";
             };
         };
-        readonly DinersClubCards: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<DinersClubCardsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly DinersClubSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<DinersClubSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Diners-Club_cards";
+                readonly id: "Diners-Club_symbols";
                 readonly baseId: "Diners-Club";
-                readonly variant: "cards";
+                readonly variant: "symbols";
                 readonly name: "Diners Club";
                 readonly category: "cards";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 24 24";
             };
         };
-        readonly DiscoverCards: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<DiscoverCardsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly DiscoverSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<DiscoverSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Discover_cards";
+                readonly id: "Discover_symbols";
                 readonly baseId: "Discover";
-                readonly variant: "cards";
+                readonly variant: "symbols";
                 readonly name: "Discover";
                 readonly category: "cards";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 24 24";
             };
         };
-        readonly EftposCards: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<EftposCardsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly EftposSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<EftposSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Eftpos_cards";
+                readonly id: "Eftpos_symbols";
                 readonly baseId: "Eftpos";
-                readonly variant: "cards";
+                readonly variant: "symbols";
                 readonly name: "Eftpos";
                 readonly category: "cards";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 24 24";
             };
         };
-        readonly Front1Cards: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<Front1CardsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly Front1Symbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Front1SymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Front-1_cards";
+                readonly id: "Front-1_symbols";
                 readonly baseId: "Front-1";
-                readonly variant: "cards";
+                readonly variant: "symbols";
                 readonly name: "Front 1";
                 readonly category: "cards";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 24 24";
             };
         };
-        readonly FrontCards: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<FrontCardsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly FrontSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<FrontSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Front_cards";
+                readonly id: "Front_symbols";
                 readonly baseId: "Front";
-                readonly variant: "cards";
+                readonly variant: "symbols";
                 readonly name: "Front";
                 readonly category: "cards";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 24 24";
             };
         };
-        readonly GooglePayCards: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<GooglePayCardsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly GooglePaySymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<GooglePaySymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Google-Pay_cards";
+                readonly id: "Google-Pay_symbols";
                 readonly baseId: "Google-Pay";
-                readonly variant: "cards";
+                readonly variant: "symbols";
                 readonly name: "Google Pay";
                 readonly category: "cards";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 24 24";
             };
         };
-        readonly JCBCards: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<JCBCardsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly JCBSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<JCBSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "JCB_cards";
+                readonly id: "JCB_symbols";
                 readonly baseId: "JCB";
-                readonly variant: "cards";
+                readonly variant: "symbols";
                 readonly name: "JCB";
                 readonly category: "cards";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 24 24";
             };
         };
-        readonly MaestroCards: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<MaestroCardsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly MaestroSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<MaestroSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Maestro_cards";
+                readonly id: "Maestro_symbols";
                 readonly baseId: "Maestro";
-                readonly variant: "cards";
+                readonly variant: "symbols";
                 readonly name: "Maestro";
                 readonly category: "cards";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 24 24";
             };
         };
-        readonly Mastercard1Cards: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<Mastercard1CardsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly Mastercard1Symbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Mastercard1SymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Mastercard-1_cards";
+                readonly id: "Mastercard-1_symbols";
                 readonly baseId: "Mastercard-1";
-                readonly variant: "cards";
+                readonly variant: "symbols";
                 readonly name: "Mastercard 1";
                 readonly category: "cards";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 24 24";
             };
         };
-        readonly MastercardCards: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<MastercardCardsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly MastercardSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<MastercardSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Mastercard_cards";
+                readonly id: "Mastercard_symbols";
                 readonly baseId: "Mastercard";
-                readonly variant: "cards";
+                readonly variant: "symbols";
                 readonly name: "Mastercard";
                 readonly category: "cards";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 24 24";
             };
         };
-        readonly Paypal1Cards: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<Paypal1CardsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly Paypal1Symbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Paypal1SymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Paypal-1_cards";
+                readonly id: "Paypal-1_symbols";
                 readonly baseId: "Paypal-1";
-                readonly variant: "cards";
+                readonly variant: "symbols";
                 readonly name: "Paypal 1";
                 readonly category: "cards";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 24 24";
             };
         };
-        readonly PaypalCards: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<PaypalCardsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly PaypalSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<PaypalSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Paypal_cards";
+                readonly id: "Paypal_symbols";
                 readonly baseId: "Paypal";
-                readonly variant: "cards";
+                readonly variant: "symbols";
                 readonly name: "Paypal";
                 readonly category: "cards";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 24 24";
             };
         };
-        readonly RuPayCards: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<RuPayCardsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly RuPaySymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<RuPaySymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "RuPay_cards";
+                readonly id: "RuPay_symbols";
                 readonly baseId: "RuPay";
-                readonly variant: "cards";
+                readonly variant: "symbols";
                 readonly name: "RuPay";
                 readonly category: "cards";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 24 24";
             };
         };
-        readonly ShopPayCards: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<ShopPayCardsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly ShopPaySymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<ShopPaySymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Shop-Pay_cards";
+                readonly id: "Shop-Pay_symbols";
                 readonly baseId: "Shop-Pay";
-                readonly variant: "cards";
+                readonly variant: "symbols";
                 readonly name: "Shop Pay";
                 readonly category: "cards";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 24 24";
             };
         };
-        readonly UnionPayCards: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<UnionPayCardsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly UnionPaySymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<UnionPaySymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "UnionPay_cards";
+                readonly id: "UnionPay_symbols";
                 readonly baseId: "UnionPay";
-                readonly variant: "cards";
+                readonly variant: "symbols";
                 readonly name: "UnionPay";
                 readonly category: "cards";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 24 24";
             };
         };
-        readonly Visa1Cards: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<Visa1CardsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly Visa1Symbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<Visa1SymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Visa-1_cards";
+                readonly id: "Visa-1_symbols";
                 readonly baseId: "Visa-1";
-                readonly variant: "cards";
+                readonly variant: "symbols";
                 readonly name: "Visa 1";
                 readonly category: "cards";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 24 24";
             };
         };
-        readonly VisaCards: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<VisaCardsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly VisaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<VisaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Visa_cards";
+                readonly id: "Visa_symbols";
                 readonly baseId: "Visa";
-                readonly variant: "cards";
+                readonly variant: "symbols";
                 readonly name: "Visa";
                 readonly category: "cards";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 24 24";
             };
         };
-        readonly WeChatPayCards: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<WeChatPayCardsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly WeChatPaySymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<WeChatPaySymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "WeChat-Pay_cards";
+                readonly id: "WeChat-Pay_symbols";
                 readonly baseId: "WeChat-Pay";
-                readonly variant: "cards";
+                readonly variant: "symbols";
                 readonly name: "WeChat Pay";
                 readonly category: "cards";
                 readonly tags: readonly [];
@@ -13494,2724 +13494,2724 @@ declare const allLogos: {
         };
     };
     readonly flags: {
-        readonly AalandIslandsFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<AalandIslandsFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly AalandIslandsSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<AalandIslandsSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Aaland-Islands_flags";
+                readonly id: "Aaland-Islands_symbols";
                 readonly baseId: "Aaland-Islands";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Aaland Islands";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly AfghanistanFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<AfghanistanFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly AfghanistanSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<AfghanistanSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Afghanistan_flags";
+                readonly id: "Afghanistan_symbols";
                 readonly baseId: "Afghanistan";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Afghanistan";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly AlbaniaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<AlbaniaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly AlbaniaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<AlbaniaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Albania_flags";
+                readonly id: "Albania_symbols";
                 readonly baseId: "Albania";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Albania";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly AlgeriaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<AlgeriaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly AlgeriaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<AlgeriaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Algeria_flags";
+                readonly id: "Algeria_symbols";
                 readonly baseId: "Algeria";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Algeria";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly AndorraFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<AndorraFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly AndorraSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<AndorraSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Andorra_flags";
+                readonly id: "Andorra_symbols";
                 readonly baseId: "Andorra";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Andorra";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly AngolaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<AngolaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly AngolaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<AngolaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Angola_flags";
+                readonly id: "Angola_symbols";
                 readonly baseId: "Angola";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Angola";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly AnguillaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<AnguillaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly AnguillaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<AnguillaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Anguilla_flags";
+                readonly id: "Anguilla_symbols";
                 readonly baseId: "Anguilla";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Anguilla";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly AntarcticaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<AntarcticaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly AntarcticaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<AntarcticaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Antarctica_flags";
+                readonly id: "Antarctica_symbols";
                 readonly baseId: "Antarctica";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Antarctica";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly AntiguaBarbudaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<AntiguaBarbudaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly AntiguaBarbudaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<AntiguaBarbudaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Antigua-Barbuda_flags";
+                readonly id: "Antigua-Barbuda_symbols";
                 readonly baseId: "Antigua-Barbuda";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Antigua Barbuda";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly ArgentinaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<ArgentinaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly ArgentinaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<ArgentinaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Argentina_flags";
+                readonly id: "Argentina_symbols";
                 readonly baseId: "Argentina";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Argentina";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly ArmeniaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<ArmeniaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly ArmeniaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<ArmeniaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Armenia_flags";
+                readonly id: "Armenia_symbols";
                 readonly baseId: "Armenia";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Armenia";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly ArubaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<ArubaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly ArubaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<ArubaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Aruba_flags";
+                readonly id: "Aruba_symbols";
                 readonly baseId: "Aruba";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Aruba";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly AustraliaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<AustraliaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly AustraliaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<AustraliaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Australia_flags";
+                readonly id: "Australia_symbols";
                 readonly baseId: "Australia";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Australia";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly AustriaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<AustriaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly AustriaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<AustriaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Austria_flags";
+                readonly id: "Austria_symbols";
                 readonly baseId: "Austria";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Austria";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly AzerbaijanFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<AzerbaijanFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly AzerbaijanSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<AzerbaijanSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Azerbaijan_flags";
+                readonly id: "Azerbaijan_symbols";
                 readonly baseId: "Azerbaijan";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Azerbaijan";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly BahamasFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<BahamasFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly BahamasSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<BahamasSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Bahamas_flags";
+                readonly id: "Bahamas_symbols";
                 readonly baseId: "Bahamas";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Bahamas";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly BahrainFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<BahrainFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly BahrainSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<BahrainSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Bahrain_flags";
+                readonly id: "Bahrain_symbols";
                 readonly baseId: "Bahrain";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Bahrain";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly BangladeshFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<BangladeshFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly BangladeshSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<BangladeshSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Bangladesh_flags";
+                readonly id: "Bangladesh_symbols";
                 readonly baseId: "Bangladesh";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Bangladesh";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly BarbadosFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<BarbadosFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly BarbadosSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<BarbadosSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Barbados_flags";
+                readonly id: "Barbados_symbols";
                 readonly baseId: "Barbados";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Barbados";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly BasqueFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<BasqueFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly BasqueSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<BasqueSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Basque_flags";
+                readonly id: "Basque_symbols";
                 readonly baseId: "Basque";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Basque";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly BelarusFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<BelarusFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly BelarusSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<BelarusSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Belarus_flags";
+                readonly id: "Belarus_symbols";
                 readonly baseId: "Belarus";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Belarus";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly BelgiumFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<BelgiumFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly BelgiumSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<BelgiumSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Belgium_flags";
+                readonly id: "Belgium_symbols";
                 readonly baseId: "Belgium";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Belgium";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly BelizeFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<BelizeFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly BelizeSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<BelizeSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Belize_flags";
+                readonly id: "Belize_symbols";
                 readonly baseId: "Belize";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Belize";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly BeninFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<BeninFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly BeninSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<BeninSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Benin_flags";
+                readonly id: "Benin_symbols";
                 readonly baseId: "Benin";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Benin";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly BermudaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<BermudaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly BermudaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<BermudaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Bermuda_flags";
+                readonly id: "Bermuda_symbols";
                 readonly baseId: "Bermuda";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Bermuda";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly BhutanFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<BhutanFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly BhutanSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<BhutanSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Bhutan_flags";
+                readonly id: "Bhutan_symbols";
                 readonly baseId: "Bhutan";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Bhutan";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly BoliviaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<BoliviaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly BoliviaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<BoliviaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Bolivia_flags";
+                readonly id: "Bolivia_symbols";
                 readonly baseId: "Bolivia";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Bolivia";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly BosniaHerzegovinaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<BosniaHerzegovinaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly BosniaHerzegovinaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<BosniaHerzegovinaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Bosnia-Herzegovina_flags";
+                readonly id: "Bosnia-Herzegovina_symbols";
                 readonly baseId: "Bosnia-Herzegovina";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Bosnia Herzegovina";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly BotswanaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<BotswanaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly BotswanaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<BotswanaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Botswana_flags";
+                readonly id: "Botswana_symbols";
                 readonly baseId: "Botswana";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Botswana";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly BrazilFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<BrazilFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly BrazilSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<BrazilSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Brazil_flags";
+                readonly id: "Brazil_symbols";
                 readonly baseId: "Brazil";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Brazil";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly BritishVirginIslandsFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<BritishVirginIslandsFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly BritishVirginIslandsSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<BritishVirginIslandsSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "British-Virgin-Islands_flags";
+                readonly id: "British-Virgin-Islands_symbols";
                 readonly baseId: "British-Virgin-Islands";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "British Virgin Islands";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly BruneiFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<BruneiFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly BruneiSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<BruneiSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Brunei_flags";
+                readonly id: "Brunei_symbols";
                 readonly baseId: "Brunei";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Brunei";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly BulgariaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<BulgariaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly BulgariaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<BulgariaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Bulgaria_flags";
+                readonly id: "Bulgaria_symbols";
                 readonly baseId: "Bulgaria";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Bulgaria";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly BurkinaFasoFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<BurkinaFasoFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly BurkinaFasoSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<BurkinaFasoSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Burkina-Faso_flags";
+                readonly id: "Burkina-Faso_symbols";
                 readonly baseId: "Burkina-Faso";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Burkina Faso";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly BurundiFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<BurundiFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly BurundiSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<BurundiSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Burundi_flags";
+                readonly id: "Burundi_symbols";
                 readonly baseId: "Burundi";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Burundi";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly CambodiaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<CambodiaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly CambodiaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<CambodiaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Cambodia_flags";
+                readonly id: "Cambodia_symbols";
                 readonly baseId: "Cambodia";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Cambodia";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly CameroonFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<CameroonFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly CameroonSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<CameroonSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Cameroon_flags";
+                readonly id: "Cameroon_symbols";
                 readonly baseId: "Cameroon";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Cameroon";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly CanadaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<CanadaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly CanadaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<CanadaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Canada_flags";
+                readonly id: "Canada_symbols";
                 readonly baseId: "Canada";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Canada";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly CanaryIslandsFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<CanaryIslandsFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly CanaryIslandsSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<CanaryIslandsSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Canary-Islands_flags";
+                readonly id: "Canary-Islands_symbols";
                 readonly baseId: "Canary-Islands";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Canary Islands";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly CapeVerdeFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<CapeVerdeFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly CapeVerdeSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<CapeVerdeSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Cape-Verde_flags";
+                readonly id: "Cape-Verde_symbols";
                 readonly baseId: "Cape-Verde";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Cape Verde";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly CaymanIslandsFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<CaymanIslandsFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly CaymanIslandsSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<CaymanIslandsSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Cayman-Islands_flags";
+                readonly id: "Cayman-Islands_symbols";
                 readonly baseId: "Cayman-Islands";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Cayman Islands";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly CentralAfricanRepuFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<CentralAfricanRepuFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly CentralAfricanRepuSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<CentralAfricanRepuSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Central-African-Repu_flags";
+                readonly id: "Central-African-Repu_symbols";
                 readonly baseId: "Central-African-Repu";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Central African Repu";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly ChadFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<ChadFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly ChadSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<ChadSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Chad_flags";
+                readonly id: "Chad_symbols";
                 readonly baseId: "Chad";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Chad";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly ChileFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<ChileFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly ChileSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<ChileSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Chile_flags";
+                readonly id: "Chile_symbols";
                 readonly baseId: "Chile";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Chile";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly ChinaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<ChinaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly ChinaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<ChinaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "China_flags";
+                readonly id: "China_symbols";
                 readonly baseId: "China";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "China";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly ColombiaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<ColombiaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly ColombiaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<ColombiaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Colombia_flags";
+                readonly id: "Colombia_symbols";
                 readonly baseId: "Colombia";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Colombia";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly ComorosFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<ComorosFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly ComorosSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<ComorosSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Comoros_flags";
+                readonly id: "Comoros_symbols";
                 readonly baseId: "Comoros";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Comoros";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly CookIslandsFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<CookIslandsFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly CookIslandsSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<CookIslandsSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Cook-Islands_flags";
+                readonly id: "Cook-Islands_symbols";
                 readonly baseId: "Cook-Islands";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Cook Islands";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly CostaRicaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<CostaRicaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly CostaRicaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<CostaRicaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Costa-Rica_flags";
+                readonly id: "Costa-Rica_symbols";
                 readonly baseId: "Costa-Rica";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Costa Rica";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly CroatiaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<CroatiaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly CroatiaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<CroatiaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Croatia_flags";
+                readonly id: "Croatia_symbols";
                 readonly baseId: "Croatia";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Croatia";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly CubaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<CubaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly CubaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<CubaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Cuba_flags";
+                readonly id: "Cuba_symbols";
                 readonly baseId: "Cuba";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Cuba";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly CuracaoFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<CuracaoFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly CuracaoSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<CuracaoSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Curacao_flags";
+                readonly id: "Curacao_symbols";
                 readonly baseId: "Curacao";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Curacao";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly CyprusFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<CyprusFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly CyprusSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<CyprusSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Cyprus_flags";
+                readonly id: "Cyprus_symbols";
                 readonly baseId: "Cyprus";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Cyprus";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly CzechiaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<CzechiaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly CzechiaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<CzechiaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Czechia_flags";
+                readonly id: "Czechia_symbols";
                 readonly baseId: "Czechia";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Czechia";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly DemocraticRepublicOfCongoFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<DemocraticRepublicOfCongoFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly DemocraticRepublicOfCongoSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<DemocraticRepublicOfCongoSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Democratic-Republic-of-Congo_flags";
+                readonly id: "Democratic-Republic-of-Congo_symbols";
                 readonly baseId: "Democratic-Republic-of-Congo";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Democratic Republic Of Congo";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly DenmarkFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<DenmarkFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly DenmarkSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<DenmarkSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Denmark_flags";
+                readonly id: "Denmark_symbols";
                 readonly baseId: "Denmark";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Denmark";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly DjiboutiFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<DjiboutiFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly DjiboutiSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<DjiboutiSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Djibouti_flags";
+                readonly id: "Djibouti_symbols";
                 readonly baseId: "Djibouti";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Djibouti";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly DominicaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<DominicaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly DominicaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<DominicaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Dominica_flags";
+                readonly id: "Dominica_symbols";
                 readonly baseId: "Dominica";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Dominica";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly DominicanRepublicFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<DominicanRepublicFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly DominicanRepublicSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<DominicanRepublicSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Dominican-Republic_flags";
+                readonly id: "Dominican-Republic_symbols";
                 readonly baseId: "Dominican-Republic";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Dominican Republic";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly EastTimorFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<EastTimorFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly EastTimorSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<EastTimorSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "East-Timor_flags";
+                readonly id: "East-Timor_symbols";
                 readonly baseId: "East-Timor";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "East Timor";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly EcuadorFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<EcuadorFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly EcuadorSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<EcuadorSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Ecuador_flags";
+                readonly id: "Ecuador_symbols";
                 readonly baseId: "Ecuador";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Ecuador";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly EgyptFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<EgyptFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly EgyptSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<EgyptSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Egypt_flags";
+                readonly id: "Egypt_symbols";
                 readonly baseId: "Egypt";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Egypt";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly ElSalvadorFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<ElSalvadorFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly ElSalvadorSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<ElSalvadorSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "El-Salvador_flags";
+                readonly id: "El-Salvador_symbols";
                 readonly baseId: "El-Salvador";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "El Salvador";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly EnglandFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<EnglandFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly EnglandSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<EnglandSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "England_flags";
+                readonly id: "England_symbols";
                 readonly baseId: "England";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "England";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly EquatorialGuineaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<EquatorialGuineaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly EquatorialGuineaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<EquatorialGuineaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Equatorial-Guinea_flags";
+                readonly id: "Equatorial-Guinea_symbols";
                 readonly baseId: "Equatorial-Guinea";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Equatorial Guinea";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly EritreaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<EritreaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly EritreaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<EritreaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Eritrea_flags";
+                readonly id: "Eritrea_symbols";
                 readonly baseId: "Eritrea";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Eritrea";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly EstoniaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<EstoniaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly EstoniaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<EstoniaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Estonia_flags";
+                readonly id: "Estonia_symbols";
                 readonly baseId: "Estonia";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Estonia";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly EswatiniFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<EswatiniFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly EswatiniSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<EswatiniSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Eswatini_flags";
+                readonly id: "Eswatini_symbols";
                 readonly baseId: "Eswatini";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Eswatini";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly EthiopiaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<EthiopiaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly EthiopiaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<EthiopiaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Ethiopia_flags";
+                readonly id: "Ethiopia_symbols";
                 readonly baseId: "Ethiopia";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Ethiopia";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly EuropeFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<EuropeFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly EuropeSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<EuropeSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Europe_flags";
+                readonly id: "Europe_symbols";
                 readonly baseId: "Europe";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Europe";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly FalklandIslandsFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<FalklandIslandsFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly FalklandIslandsSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<FalklandIslandsSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Falkland-Islands_flags";
+                readonly id: "Falkland-Islands_symbols";
                 readonly baseId: "Falkland-Islands";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Falkland Islands";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly FaroeIslandsFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<FaroeIslandsFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly FaroeIslandsSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<FaroeIslandsSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Faroe-Islands_flags";
+                readonly id: "Faroe-Islands_symbols";
                 readonly baseId: "Faroe-Islands";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Faroe Islands";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly FijiFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<FijiFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly FijiSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<FijiSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Fiji_flags";
+                readonly id: "Fiji_symbols";
                 readonly baseId: "Fiji";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Fiji";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly FinlandFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<FinlandFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly FinlandSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<FinlandSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Finland_flags";
+                readonly id: "Finland_symbols";
                 readonly baseId: "Finland";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Finland";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly FranceFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<FranceFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly FranceSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<FranceSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "France_flags";
+                readonly id: "France_symbols";
                 readonly baseId: "France";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "France";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly FrenchGuianaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<FrenchGuianaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly FrenchGuianaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<FrenchGuianaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "French-Guiana_flags";
+                readonly id: "French-Guiana_symbols";
                 readonly baseId: "French-Guiana";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "French Guiana";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly FrenchPolynesiaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<FrenchPolynesiaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly FrenchPolynesiaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<FrenchPolynesiaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "French-Polynesia_flags";
+                readonly id: "French-Polynesia_symbols";
                 readonly baseId: "French-Polynesia";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "French Polynesia";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly GabonFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<GabonFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly GabonSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<GabonSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Gabon_flags";
+                readonly id: "Gabon_symbols";
                 readonly baseId: "Gabon";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Gabon";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly GambiaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<GambiaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly GambiaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<GambiaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Gambia_flags";
+                readonly id: "Gambia_symbols";
                 readonly baseId: "Gambia";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Gambia";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly GeorgiaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<GeorgiaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly GeorgiaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<GeorgiaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Georgia_flags";
+                readonly id: "Georgia_symbols";
                 readonly baseId: "Georgia";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Georgia";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly GermanyFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<GermanyFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly GermanySymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<GermanySymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Germany_flags";
+                readonly id: "Germany_symbols";
                 readonly baseId: "Germany";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Germany";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly GhanaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<GhanaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly GhanaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<GhanaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Ghana_flags";
+                readonly id: "Ghana_symbols";
                 readonly baseId: "Ghana";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Ghana";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly GibraltarFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<GibraltarFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly GibraltarSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<GibraltarSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Gibraltar_flags";
+                readonly id: "Gibraltar_symbols";
                 readonly baseId: "Gibraltar";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Gibraltar";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly GreeceFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<GreeceFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly GreeceSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<GreeceSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Greece_flags";
+                readonly id: "Greece_symbols";
                 readonly baseId: "Greece";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Greece";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly GreenlandFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<GreenlandFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly GreenlandSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<GreenlandSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Greenland_flags";
+                readonly id: "Greenland_symbols";
                 readonly baseId: "Greenland";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Greenland";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly GrenadaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<GrenadaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly GrenadaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<GrenadaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Grenada_flags";
+                readonly id: "Grenada_symbols";
                 readonly baseId: "Grenada";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Grenada";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly GuadeloupeFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<GuadeloupeFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly GuadeloupeSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<GuadeloupeSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Guadeloupe_flags";
+                readonly id: "Guadeloupe_symbols";
                 readonly baseId: "Guadeloupe";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Guadeloupe";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly GuatemalaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<GuatemalaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly GuatemalaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<GuatemalaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Guatemala_flags";
+                readonly id: "Guatemala_symbols";
                 readonly baseId: "Guatemala";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Guatemala";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly GuernseyFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<GuernseyFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly GuernseySymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<GuernseySymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Guernsey_flags";
+                readonly id: "Guernsey_symbols";
                 readonly baseId: "Guernsey";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Guernsey";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly GuineaBissauFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<GuineaBissauFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly GuineaBissauSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<GuineaBissauSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Guinea-Bissau_flags";
+                readonly id: "Guinea-Bissau_symbols";
                 readonly baseId: "Guinea-Bissau";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Guinea Bissau";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly GuineaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<GuineaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly GuineaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<GuineaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Guinea_flags";
+                readonly id: "Guinea_symbols";
                 readonly baseId: "Guinea";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Guinea";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly GuyanaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<GuyanaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly GuyanaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<GuyanaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Guyana_flags";
+                readonly id: "Guyana_symbols";
                 readonly baseId: "Guyana";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Guyana";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly HaitiFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<HaitiFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly HaitiSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<HaitiSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Haiti_flags";
+                readonly id: "Haiti_symbols";
                 readonly baseId: "Haiti";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Haiti";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly HawaiiFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<HawaiiFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly HawaiiSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<HawaiiSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Hawaii_flags";
+                readonly id: "Hawaii_symbols";
                 readonly baseId: "Hawaii";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Hawaii";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly HondurasFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<HondurasFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly HondurasSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<HondurasSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Honduras_flags";
+                readonly id: "Honduras_symbols";
                 readonly baseId: "Honduras";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Honduras";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly HongKongFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<HongKongFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly HongKongSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<HongKongSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Hong-Kong_flags";
+                readonly id: "Hong-Kong_symbols";
                 readonly baseId: "Hong-Kong";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Hong Kong";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly HungaryFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<HungaryFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly HungarySymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<HungarySymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Hungary_flags";
+                readonly id: "Hungary_symbols";
                 readonly baseId: "Hungary";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Hungary";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly IcelandFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<IcelandFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly IcelandSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<IcelandSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Iceland_flags";
+                readonly id: "Iceland_symbols";
                 readonly baseId: "Iceland";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Iceland";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly IndiaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<IndiaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly IndiaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<IndiaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "India_flags";
+                readonly id: "India_symbols";
                 readonly baseId: "India";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "India";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly IndonesiaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<IndonesiaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly IndonesiaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<IndonesiaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Indonesia_flags";
+                readonly id: "Indonesia_symbols";
                 readonly baseId: "Indonesia";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Indonesia";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly IranFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<IranFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly IranSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<IranSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Iran_flags";
+                readonly id: "Iran_symbols";
                 readonly baseId: "Iran";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Iran";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly IraqFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<IraqFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly IraqSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<IraqSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Iraq_flags";
+                readonly id: "Iraq_symbols";
                 readonly baseId: "Iraq";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Iraq";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly IrelandFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<IrelandFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly IrelandSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<IrelandSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Ireland_flags";
+                readonly id: "Ireland_symbols";
                 readonly baseId: "Ireland";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Ireland";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly IsleOfManFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<IsleOfManFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly IsleOfManSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<IsleOfManSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Isle-Of-Man_flags";
+                readonly id: "Isle-Of-Man_symbols";
                 readonly baseId: "Isle-Of-Man";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Isle Of Man";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly IsraelFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<IsraelFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly IsraelSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<IsraelSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Israel_flags";
+                readonly id: "Israel_symbols";
                 readonly baseId: "Israel";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Israel";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly ItalyFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<ItalyFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly ItalySymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<ItalySymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Italy_flags";
+                readonly id: "Italy_symbols";
                 readonly baseId: "Italy";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Italy";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly IvoryCoastFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<IvoryCoastFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly IvoryCoastSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<IvoryCoastSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Ivory-Coast_flags";
+                readonly id: "Ivory-Coast_symbols";
                 readonly baseId: "Ivory-Coast";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Ivory Coast";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly JamaicaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<JamaicaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly JamaicaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<JamaicaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Jamaica_flags";
+                readonly id: "Jamaica_symbols";
                 readonly baseId: "Jamaica";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Jamaica";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly JapanFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<JapanFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly JapanSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<JapanSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Japan_flags";
+                readonly id: "Japan_symbols";
                 readonly baseId: "Japan";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Japan";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly JerseyFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<JerseyFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly JerseySymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<JerseySymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Jersey_flags";
+                readonly id: "Jersey_symbols";
                 readonly baseId: "Jersey";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Jersey";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly JordanFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<JordanFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly JordanSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<JordanSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Jordan_flags";
+                readonly id: "Jordan_symbols";
                 readonly baseId: "Jordan";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Jordan";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly KazakhstanFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<KazakhstanFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly KazakhstanSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<KazakhstanSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Kazakhstan_flags";
+                readonly id: "Kazakhstan_symbols";
                 readonly baseId: "Kazakhstan";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Kazakhstan";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly KenyaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<KenyaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly KenyaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<KenyaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Kenya_flags";
+                readonly id: "Kenya_symbols";
                 readonly baseId: "Kenya";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Kenya";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly KiribatiFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<KiribatiFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly KiribatiSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<KiribatiSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Kiribati_flags";
+                readonly id: "Kiribati_symbols";
                 readonly baseId: "Kiribati";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Kiribati";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly KosovoFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<KosovoFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly KosovoSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<KosovoSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Kosovo_flags";
+                readonly id: "Kosovo_symbols";
                 readonly baseId: "Kosovo";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Kosovo";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly KurdistanFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<KurdistanFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly KurdistanSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<KurdistanSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Kurdistan_flags";
+                readonly id: "Kurdistan_symbols";
                 readonly baseId: "Kurdistan";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Kurdistan";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly KuwaitFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<KuwaitFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly KuwaitSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<KuwaitSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Kuwait_flags";
+                readonly id: "Kuwait_symbols";
                 readonly baseId: "Kuwait";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Kuwait";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly KyrgyzstanFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<KyrgyzstanFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly KyrgyzstanSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<KyrgyzstanSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Kyrgyzstan_flags";
+                readonly id: "Kyrgyzstan_symbols";
                 readonly baseId: "Kyrgyzstan";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Kyrgyzstan";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly LaosFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<LaosFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly LaosSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<LaosSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Laos_flags";
+                readonly id: "Laos_symbols";
                 readonly baseId: "Laos";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Laos";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly LatviaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<LatviaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly LatviaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<LatviaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Latvia_flags";
+                readonly id: "Latvia_symbols";
                 readonly baseId: "Latvia";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Latvia";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly LebanonFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<LebanonFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly LebanonSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<LebanonSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Lebanon_flags";
+                readonly id: "Lebanon_symbols";
                 readonly baseId: "Lebanon";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Lebanon";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly LesothoFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<LesothoFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly LesothoSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<LesothoSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Lesotho_flags";
+                readonly id: "Lesotho_symbols";
                 readonly baseId: "Lesotho";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Lesotho";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly LiberiaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<LiberiaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly LiberiaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<LiberiaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Liberia_flags";
+                readonly id: "Liberia_symbols";
                 readonly baseId: "Liberia";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Liberia";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly LibyaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<LibyaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly LibyaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<LibyaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Libya_flags";
+                readonly id: "Libya_symbols";
                 readonly baseId: "Libya";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Libya";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly LiechtensteinFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<LiechtensteinFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly LiechtensteinSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<LiechtensteinSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Liechtenstein_flags";
+                readonly id: "Liechtenstein_symbols";
                 readonly baseId: "Liechtenstein";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Liechtenstein";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly LithuaniaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<LithuaniaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly LithuaniaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<LithuaniaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Lithuania_flags";
+                readonly id: "Lithuania_symbols";
                 readonly baseId: "Lithuania";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Lithuania";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly LuxembourgFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<LuxembourgFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly LuxembourgSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<LuxembourgSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Luxembourg_flags";
+                readonly id: "Luxembourg_symbols";
                 readonly baseId: "Luxembourg";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Luxembourg";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly MacauFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<MacauFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly MacauSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<MacauSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Macau_flags";
+                readonly id: "Macau_symbols";
                 readonly baseId: "Macau";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Macau";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly MadagascarFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<MadagascarFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly MadagascarSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<MadagascarSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Madagascar_flags";
+                readonly id: "Madagascar_symbols";
                 readonly baseId: "Madagascar";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Madagascar";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly MalawiFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<MalawiFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly MalawiSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<MalawiSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Malawi_flags";
+                readonly id: "Malawi_symbols";
                 readonly baseId: "Malawi";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Malawi";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly MalaysiaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<MalaysiaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly MalaysiaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<MalaysiaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Malaysia_flags";
+                readonly id: "Malaysia_symbols";
                 readonly baseId: "Malaysia";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Malaysia";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly MaldivesFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<MaldivesFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly MaldivesSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<MaldivesSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Maldives_flags";
+                readonly id: "Maldives_symbols";
                 readonly baseId: "Maldives";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Maldives";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly MaliFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<MaliFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly MaliSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<MaliSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Mali_flags";
+                readonly id: "Mali_symbols";
                 readonly baseId: "Mali";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Mali";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly MaltaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<MaltaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly MaltaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<MaltaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Malta_flags";
+                readonly id: "Malta_symbols";
                 readonly baseId: "Malta";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Malta";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly MarshallIslandsFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<MarshallIslandsFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly MarshallIslandsSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<MarshallIslandsSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Marshall-Islands_flags";
+                readonly id: "Marshall-Islands_symbols";
                 readonly baseId: "Marshall-Islands";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Marshall Islands";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly MartiniqueFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<MartiniqueFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly MartiniqueSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<MartiniqueSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Martinique_flags";
+                readonly id: "Martinique_symbols";
                 readonly baseId: "Martinique";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Martinique";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly MauritaniaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<MauritaniaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly MauritaniaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<MauritaniaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Mauritania_flags";
+                readonly id: "Mauritania_symbols";
                 readonly baseId: "Mauritania";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Mauritania";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly MauritiusFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<MauritiusFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly MauritiusSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<MauritiusSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Mauritius_flags";
+                readonly id: "Mauritius_symbols";
                 readonly baseId: "Mauritius";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Mauritius";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly MexicoFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<MexicoFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly MexicoSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<MexicoSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Mexico_flags";
+                readonly id: "Mexico_symbols";
                 readonly baseId: "Mexico";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Mexico";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly MicronesiaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<MicronesiaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly MicronesiaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<MicronesiaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Micronesia_flags";
+                readonly id: "Micronesia_symbols";
                 readonly baseId: "Micronesia";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Micronesia";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly MoldovaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<MoldovaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly MoldovaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<MoldovaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Moldova_flags";
+                readonly id: "Moldova_symbols";
                 readonly baseId: "Moldova";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Moldova";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly MonacoFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<MonacoFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly MonacoSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<MonacoSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Monaco_flags";
+                readonly id: "Monaco_symbols";
                 readonly baseId: "Monaco";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Monaco";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly MongoliaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<MongoliaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly MongoliaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<MongoliaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Mongolia_flags";
+                readonly id: "Mongolia_symbols";
                 readonly baseId: "Mongolia";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Mongolia";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly MontenegroFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<MontenegroFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly MontenegroSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<MontenegroSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Montenegro_flags";
+                readonly id: "Montenegro_symbols";
                 readonly baseId: "Montenegro";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Montenegro";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly MoroccoFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<MoroccoFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly MoroccoSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<MoroccoSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Morocco_flags";
+                readonly id: "Morocco_symbols";
                 readonly baseId: "Morocco";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Morocco";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly MozanbiqueFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<MozanbiqueFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly MozanbiqueSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<MozanbiqueSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Mozanbique_flags";
+                readonly id: "Mozanbique_symbols";
                 readonly baseId: "Mozanbique";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Mozanbique";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly MyanmarFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<MyanmarFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly MyanmarSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<MyanmarSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Myanmar_flags";
+                readonly id: "Myanmar_symbols";
                 readonly baseId: "Myanmar";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Myanmar";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly NamibiaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<NamibiaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly NamibiaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<NamibiaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Namibia_flags";
+                readonly id: "Namibia_symbols";
                 readonly baseId: "Namibia";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Namibia";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly NauruFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<NauruFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly NauruSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<NauruSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Nauru_flags";
+                readonly id: "Nauru_symbols";
                 readonly baseId: "Nauru";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Nauru";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly NepalFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<NepalFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly NepalSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<NepalSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Nepal_flags";
+                readonly id: "Nepal_symbols";
                 readonly baseId: "Nepal";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Nepal";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly NetherlandsAntillesFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<NetherlandsAntillesFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly NetherlandsAntillesSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<NetherlandsAntillesSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Netherlands-Antilles_flags";
+                readonly id: "Netherlands-Antilles_symbols";
                 readonly baseId: "Netherlands-Antilles";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Netherlands Antilles";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly NetherlandsFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<NetherlandsFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly NetherlandsSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<NetherlandsSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Netherlands_flags";
+                readonly id: "Netherlands_symbols";
                 readonly baseId: "Netherlands";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Netherlands";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly NewCaledoniaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<NewCaledoniaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly NewCaledoniaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<NewCaledoniaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "New-Caledonia_flags";
+                readonly id: "New-Caledonia_symbols";
                 readonly baseId: "New-Caledonia";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "New Caledonia";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly NewZealandFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<NewZealandFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly NewZealandSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<NewZealandSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "New-Zealand_flags";
+                readonly id: "New-Zealand_symbols";
                 readonly baseId: "New-Zealand";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "New Zealand";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly NicaraguaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<NicaraguaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly NicaraguaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<NicaraguaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Nicaragua_flags";
+                readonly id: "Nicaragua_symbols";
                 readonly baseId: "Nicaragua";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Nicaragua";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly NigerFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<NigerFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly NigerSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<NigerSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Niger_flags";
+                readonly id: "Niger_symbols";
                 readonly baseId: "Niger";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Niger";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly NigeriaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<NigeriaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly NigeriaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<NigeriaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Nigeria_flags";
+                readonly id: "Nigeria_symbols";
                 readonly baseId: "Nigeria";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Nigeria";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly NiueFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<NiueFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly NiueSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<NiueSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Niue_flags";
+                readonly id: "Niue_symbols";
                 readonly baseId: "Niue";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Niue";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly NorthKoreaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<NorthKoreaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly NorthKoreaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<NorthKoreaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "North-Korea_flags";
+                readonly id: "North-Korea_symbols";
                 readonly baseId: "North-Korea";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "North Korea";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly NorthMacedoniaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<NorthMacedoniaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly NorthMacedoniaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<NorthMacedoniaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "North-Macedonia_flags";
+                readonly id: "North-Macedonia_symbols";
                 readonly baseId: "North-Macedonia";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "North Macedonia";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly NorthenIrelandFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<NorthenIrelandFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly NorthenIrelandSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<NorthenIrelandSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Northen-Ireland_flags";
+                readonly id: "Northen-Ireland_symbols";
                 readonly baseId: "Northen-Ireland";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Northen Ireland";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly NorwayFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<NorwayFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly NorwaySymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<NorwaySymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Norway_flags";
+                readonly id: "Norway_symbols";
                 readonly baseId: "Norway";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Norway";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly OmanFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<OmanFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly OmanSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<OmanSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Oman_flags";
+                readonly id: "Oman_symbols";
                 readonly baseId: "Oman";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Oman";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly PakistanFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<PakistanFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly PakistanSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<PakistanSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Pakistan_flags";
+                readonly id: "Pakistan_symbols";
                 readonly baseId: "Pakistan";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Pakistan";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly PalauFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<PalauFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly PalauSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<PalauSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Palau_flags";
+                readonly id: "Palau_symbols";
                 readonly baseId: "Palau";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Palau";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly PalestineFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<PalestineFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly PalestineSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<PalestineSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Palestine_flags";
+                readonly id: "Palestine_symbols";
                 readonly baseId: "Palestine";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Palestine";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly PanamaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<PanamaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly PanamaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<PanamaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Panama_flags";
+                readonly id: "Panama_symbols";
                 readonly baseId: "Panama";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Panama";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly PapuaNewGuineaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<PapuaNewGuineaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly PapuaNewGuineaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<PapuaNewGuineaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Papua-New-Guinea_flags";
+                readonly id: "Papua-New-Guinea_symbols";
                 readonly baseId: "Papua-New-Guinea";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Papua New Guinea";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly ParaguayFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<ParaguayFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly ParaguaySymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<ParaguaySymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Paraguay_flags";
+                readonly id: "Paraguay_symbols";
                 readonly baseId: "Paraguay";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Paraguay";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly PeruFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<PeruFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly PeruSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<PeruSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Peru_flags";
+                readonly id: "Peru_symbols";
                 readonly baseId: "Peru";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Peru";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly PhilippinesFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<PhilippinesFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly PhilippinesSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<PhilippinesSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Philippines_flags";
+                readonly id: "Philippines_symbols";
                 readonly baseId: "Philippines";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Philippines";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly PolandFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<PolandFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly PolandSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<PolandSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Poland_flags";
+                readonly id: "Poland_symbols";
                 readonly baseId: "Poland";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Poland";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly PortugalFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<PortugalFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly PortugalSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<PortugalSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Portugal_flags";
+                readonly id: "Portugal_symbols";
                 readonly baseId: "Portugal";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Portugal";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly PuertoRicoFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<PuertoRicoFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly PuertoRicoSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<PuertoRicoSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Puerto-Rico_flags";
+                readonly id: "Puerto-Rico_symbols";
                 readonly baseId: "Puerto-Rico";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Puerto Rico";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly QatarFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<QatarFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly QatarSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<QatarSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Qatar_flags";
+                readonly id: "Qatar_symbols";
                 readonly baseId: "Qatar";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Qatar";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly RepublicCongoFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<RepublicCongoFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly RepublicCongoSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<RepublicCongoSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Republic-Congo_flags";
+                readonly id: "Republic-Congo_symbols";
                 readonly baseId: "Republic-Congo";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Republic Congo";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly RomaniaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<RomaniaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly RomaniaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<RomaniaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Romania_flags";
+                readonly id: "Romania_symbols";
                 readonly baseId: "Romania";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Romania";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly RussiaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<RussiaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly RussiaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<RussiaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Russia_flags";
+                readonly id: "Russia_symbols";
                 readonly baseId: "Russia";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Russia";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly RwandaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<RwandaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly RwandaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<RwandaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Rwanda_flags";
+                readonly id: "Rwanda_symbols";
                 readonly baseId: "Rwanda";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Rwanda";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly SaintKittsNevisFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<SaintKittsNevisFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly SaintKittsNevisSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<SaintKittsNevisSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Saint-Kitts-Nevis_flags";
+                readonly id: "Saint-Kitts-Nevis_symbols";
                 readonly baseId: "Saint-Kitts-Nevis";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Saint Kitts Nevis";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly SierraLeoneFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<SierraLeoneFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly SierraLeoneSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<SierraLeoneSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Sierra-Leone_flags";
+                readonly id: "Sierra-Leone_symbols";
                 readonly baseId: "Sierra-Leone";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Sierra Leone";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly SingaporeFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<SingaporeFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly SingaporeSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<SingaporeSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Singapore_flags";
+                readonly id: "Singapore_symbols";
                 readonly baseId: "Singapore";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Singapore";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly SintMaartenFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<SintMaartenFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly SintMaartenSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<SintMaartenSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Sint-Maarten_flags";
+                readonly id: "Sint-Maarten_symbols";
                 readonly baseId: "Sint-Maarten";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Sint Maarten";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly SlovakiaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<SlovakiaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly SlovakiaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<SlovakiaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Slovakia_flags";
+                readonly id: "Slovakia_symbols";
                 readonly baseId: "Slovakia";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Slovakia";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly SloveniaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<SloveniaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly SloveniaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<SloveniaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Slovenia_flags";
+                readonly id: "Slovenia_symbols";
                 readonly baseId: "Slovenia";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Slovenia";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly SolomonIslandsFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<SolomonIslandsFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly SolomonIslandsSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<SolomonIslandsSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Solomon-Islands_flags";
+                readonly id: "Solomon-Islands_symbols";
                 readonly baseId: "Solomon-Islands";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Solomon Islands";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly SomaliaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<SomaliaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly SomaliaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<SomaliaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Somalia_flags";
+                readonly id: "Somalia_symbols";
                 readonly baseId: "Somalia";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Somalia";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly SouthAfricaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<SouthAfricaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly SouthAfricaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<SouthAfricaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "South-Africa_flags";
+                readonly id: "South-Africa_symbols";
                 readonly baseId: "South-Africa";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "South Africa";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly SouthGeorgiaSandwichIslandsFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<SouthGeorgiaSandwichIslandsFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly SouthGeorgiaSandwichIslandsSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<SouthGeorgiaSandwichIslandsSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "South-Georgia-Sandwich-Islands_flags";
+                readonly id: "South-Georgia-Sandwich-Islands_symbols";
                 readonly baseId: "South-Georgia-Sandwich-Islands";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "South Georgia Sandwich Islands";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly SouthKoreaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<SouthKoreaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly SouthKoreaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<SouthKoreaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "South-Korea_flags";
+                readonly id: "South-Korea_symbols";
                 readonly baseId: "South-Korea";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "South Korea";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly SouthSudanFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<SouthSudanFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly SouthSudanSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<SouthSudanSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "South-Sudan_flags";
+                readonly id: "South-Sudan_symbols";
                 readonly baseId: "South-Sudan";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "South Sudan";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly SpainFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<SpainFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly SpainSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<SpainSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Spain_flags";
+                readonly id: "Spain_symbols";
                 readonly baseId: "Spain";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Spain";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly SriLankaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<SriLankaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly SriLankaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<SriLankaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Sri-Lanka_flags";
+                readonly id: "Sri-Lanka_symbols";
                 readonly baseId: "Sri-Lanka";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Sri Lanka";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly SudanFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<SudanFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly SudanSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<SudanSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Sudan_flags";
+                readonly id: "Sudan_symbols";
                 readonly baseId: "Sudan";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Sudan";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly SurinameFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<SurinameFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly SurinameSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<SurinameSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Suriname_flags";
+                readonly id: "Suriname_symbols";
                 readonly baseId: "Suriname";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Suriname";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly SwedenFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<SwedenFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly SwedenSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<SwedenSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Sweden_flags";
+                readonly id: "Sweden_symbols";
                 readonly baseId: "Sweden";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Sweden";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly SwitzerlandFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<SwitzerlandFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly SwitzerlandSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<SwitzerlandSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Switzerland_flags";
+                readonly id: "Switzerland_symbols";
                 readonly baseId: "Switzerland";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Switzerland";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly SyriaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<SyriaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly SyriaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<SyriaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Syria_flags";
+                readonly id: "Syria_symbols";
                 readonly baseId: "Syria";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Syria";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly TaiwanFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<TaiwanFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly TaiwanSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<TaiwanSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Taiwan_flags";
+                readonly id: "Taiwan_symbols";
                 readonly baseId: "Taiwan";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Taiwan";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly TajikistanFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<TajikistanFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly TajikistanSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<TajikistanSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Tajikistan_flags";
+                readonly id: "Tajikistan_symbols";
                 readonly baseId: "Tajikistan";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Tajikistan";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly TanzaniaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<TanzaniaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly TanzaniaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<TanzaniaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Tanzania_flags";
+                readonly id: "Tanzania_symbols";
                 readonly baseId: "Tanzania";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Tanzania";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly ThailandFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<ThailandFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly ThailandSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<ThailandSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Thailand_flags";
+                readonly id: "Thailand_symbols";
                 readonly baseId: "Thailand";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Thailand";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly TogoFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<TogoFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly TogoSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<TogoSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Togo_flags";
+                readonly id: "Togo_symbols";
                 readonly baseId: "Togo";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Togo";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly TongaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<TongaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly TongaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<TongaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Tonga_flags";
+                readonly id: "Tonga_symbols";
                 readonly baseId: "Tonga";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Tonga";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly TrinidadTobagoFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<TrinidadTobagoFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly TrinidadTobagoSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<TrinidadTobagoSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Trinidad-Tobago_flags";
+                readonly id: "Trinidad-Tobago_symbols";
                 readonly baseId: "Trinidad-Tobago";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Trinidad Tobago";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly TunisiaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<TunisiaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly TunisiaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<TunisiaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Tunisia_flags";
+                readonly id: "Tunisia_symbols";
                 readonly baseId: "Tunisia";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Tunisia";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly TurkeyFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<TurkeyFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly TurkeySymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<TurkeySymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Turkey_flags";
+                readonly id: "Turkey_symbols";
                 readonly baseId: "Turkey";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Turkey";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly TurkmenistanFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<TurkmenistanFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly TurkmenistanSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<TurkmenistanSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Turkmenistan_flags";
+                readonly id: "Turkmenistan_symbols";
                 readonly baseId: "Turkmenistan";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Turkmenistan";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly TurksAndCaicosIslandsFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<TurksAndCaicosIslandsFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly TurksAndCaicosIslandsSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<TurksAndCaicosIslandsSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Turks-And-Caicos-Islands_flags";
+                readonly id: "Turks-And-Caicos-Islands_symbols";
                 readonly baseId: "Turks-And-Caicos-Islands";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Turks And Caicos Islands";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly TuvaluFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<TuvaluFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly TuvaluSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<TuvaluSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Tuvalu_flags";
+                readonly id: "Tuvalu_symbols";
                 readonly baseId: "Tuvalu";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Tuvalu";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly USAVirginIslandsFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<USAVirginIslandsFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly USAVirginIslandsSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<USAVirginIslandsSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "USA-Virgin-Islands_flags";
+                readonly id: "USA-Virgin-Islands_symbols";
                 readonly baseId: "USA-Virgin-Islands";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "USA Virgin Islands";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly UgandaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<UgandaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly UgandaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<UgandaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Uganda_flags";
+                readonly id: "Uganda_symbols";
                 readonly baseId: "Uganda";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Uganda";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly UkraineFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<UkraineFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly UkraineSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<UkraineSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Ukraine_flags";
+                readonly id: "Ukraine_symbols";
                 readonly baseId: "Ukraine";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Ukraine";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly UnitedArabEmiraFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<UnitedArabEmiraFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly UnitedArabEmiraSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<UnitedArabEmiraSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "United-Arab-Emira_flags";
+                readonly id: "United-Arab-Emira_symbols";
                 readonly baseId: "United-Arab-Emira";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "United Arab Emira";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly UnitedKingdomFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<UnitedKingdomFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly UnitedKingdomSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<UnitedKingdomSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "United-Kingdom_flags";
+                readonly id: "United-Kingdom_symbols";
                 readonly baseId: "United-Kingdom";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "United Kingdom";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly UnitedStatesFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<UnitedStatesFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly UnitedStatesSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<UnitedStatesSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "United-States_flags";
+                readonly id: "United-States_symbols";
                 readonly baseId: "United-States";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "United States";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly UruguayFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<UruguayFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly UruguaySymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<UruguaySymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Uruguay_flags";
+                readonly id: "Uruguay_symbols";
                 readonly baseId: "Uruguay";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Uruguay";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly UzbekistanFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<UzbekistanFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly UzbekistanSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<UzbekistanSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Uzbekistan_flags";
+                readonly id: "Uzbekistan_symbols";
                 readonly baseId: "Uzbekistan";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Uzbekistan";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly VanuatuFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<VanuatuFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly VanuatuSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<VanuatuSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Vanuatu_flags";
+                readonly id: "Vanuatu_symbols";
                 readonly baseId: "Vanuatu";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Vanuatu";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly VaticanCityFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<VaticanCityFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly VaticanCitySymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<VaticanCitySymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Vatican-City_flags";
+                readonly id: "Vatican-City_symbols";
                 readonly baseId: "Vatican-City";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Vatican City";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly VenezuelaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<VenezuelaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly VenezuelaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<VenezuelaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Venezuela_flags";
+                readonly id: "Venezuela_symbols";
                 readonly baseId: "Venezuela";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Venezuela";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly VietnamFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<VietnamFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly VietnamSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<VietnamSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Vietnam_flags";
+                readonly id: "Vietnam_symbols";
                 readonly baseId: "Vietnam";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Vietnam";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly WalesFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<WalesFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly WalesSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<WalesSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Wales_flags";
+                readonly id: "Wales_symbols";
                 readonly baseId: "Wales";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Wales";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly WesternSaharaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<WesternSaharaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly WesternSaharaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<WesternSaharaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Western-Sahara_flags";
+                readonly id: "Western-Sahara_symbols";
                 readonly baseId: "Western-Sahara";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Western Sahara";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly YemenFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<YemenFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly YemenSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<YemenSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Yemen_flags";
+                readonly id: "Yemen_symbols";
                 readonly baseId: "Yemen";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Yemen";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly ZambiaFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<ZambiaFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly ZambiaSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<ZambiaSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Zambia_flags";
+                readonly id: "Zambia_symbols";
                 readonly baseId: "Zambia";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Zambia";
                 readonly category: "flags";
                 readonly tags: readonly [];
                 readonly viewBox: "0 0 32 32";
             };
         };
-        readonly ZimbabweFlags: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<ZimbabweFlagsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly ZimbabweSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<ZimbabweSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Zimbabwe_flags";
+                readonly id: "Zimbabwe_symbols";
                 readonly baseId: "Zimbabwe";
-                readonly variant: "flags";
+                readonly variant: "symbols";
                 readonly name: "Zimbabwe";
                 readonly category: "flags";
                 readonly tags: readonly [];
@@ -18674,12 +18674,12 @@ declare const allLogos: {
         };
     };
     readonly stickers: {
-        readonly VerifiedBadgeStickers: {
-            readonly Component: React.ForwardRefExoticComponent<Omit<VerifiedBadgeStickersProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
+        readonly VerifiedBadgeSymbols: {
+            readonly Component: React.ForwardRefExoticComponent<Omit<VerifiedBadgeSymbolsProps, "ref"> & React.RefAttributes<SVGSVGElement>>;
             readonly metadata: {
-                readonly id: "Verified-Badge_stickers";
+                readonly id: "Verified-Badge_symbols";
                 readonly baseId: "Verified-Badge";
-                readonly variant: "stickers";
+                readonly variant: "symbols";
                 readonly name: "Verified Badge";
                 readonly category: "stickers";
                 readonly tags: readonly [];
@@ -18689,4 +18689,4 @@ declare const allLogos: {
     };
 };
 
-export { AMP, AMPMetadata, AalandIslandsFlags, AalandIslandsFlagsMetadata, Adobe, AdobeAfterEffects, AdobeAfterEffectsMetadata, AdobeAnimate, AdobeAnimateMetadata, AdobeDreamweaver, AdobeDreamweaverMetadata, AdobeIllustrator, AdobeIllustratorMetadata, AdobeIncopy, AdobeIncopyMetadata, AdobeIndesign, AdobeIndesignMetadata, AdobeLightroom, AdobeLightroomMetadata, AdobeMetadata, AdobePhotoshop, AdobePhotoshopMetadata, AdobePremiere, AdobePremiereMetadata, AdobeWordmark, AdobeWordmarkMetadata, AdobeXd, AdobeXdMetadata, AfghanistanFlags, AfghanistanFlagsMetadata, Ahooks, AhooksMetadata, AlbaniaFlags, AlbaniaFlagsMetadata, AlgeriaFlags, AlgeriaFlagsMetadata, Algorand, AlgorandMetadata, AlipayCards, AlipayCardsMetadata, AmazonCards, AmazonCardsMetadata, AmericanExpressCards, AmericanExpressCardsMetadata, AndorraFlags, AndorraFlagsMetadata, Android, AndroidMetadata, AngolaFlags, AngolaFlagsMetadata, AnguillaFlags, AnguillaFlagsMetadata, AntarcticaFlags, AntarcticaFlagsMetadata, Anthropic, AnthropicDarkWordmark, AnthropicDarkWordmarkMetadata, AnthropicLightWordmark, AnthropicLightWordmarkMetadata, AnthropicMetadata, AntiguaBarbudaFlags, AntiguaBarbudaFlagsMetadata, Apple, AppleMetadata, ApplePayCards, ApplePayCardsMetadata, Arc, ArcMetadata, ArgentinaFlags, ArgentinaFlagsMetadata, ArkUI, ArkUIMetadata, ArmeniaFlags, ArmeniaFlagsMetadata, ArubaFlags, ArubaFlagsMetadata, Astro, AstroMetadata, AustraliaFlags, AustraliaFlagsMetadata, AustriaFlags, AustriaFlagsMetadata, Auth0, Auth0Metadata, Axure, AxureMetadata, AzerbaijanFlags, AzerbaijanFlagsMetadata, BahamasFlags, BahamasFlagsMetadata, BahrainFlags, BahrainFlagsMetadata, BangladeshFlags, BangladeshFlagsMetadata, BankAccountCards, BankAccountCardsMetadata, BarbadosFlags, BarbadosFlagsMetadata, BaseUI, BaseUIMetadata, Bash, BashMetadata, BasqueFlags, BasqueFlagsMetadata, BelarusFlags, BelarusFlagsMetadata, BelgiumFlags, BelgiumFlagsMetadata, BelizeFlags, BelizeFlagsMetadata, BeninFlags, BeninFlagsMetadata, Bento, BentoMetadata, BermudaFlags, BermudaFlagsMetadata, BetterAuth, BetterAuthMetadata, BhutanFlags, BhutanFlagsMetadata, Binance, BinanceMetadata, Bing, BingMetadata, BitcoinCards, BitcoinCardsMetadata, Blender, BlenderMetadata, Blitz, BlitzMetadata, Bluesky, BlueskyMetadata, BoliviaFlags, BoliviaFlagsMetadata, Bolt, BoltMetadata, Bootstrap, BootstrapMetadata, BosniaHerzegovinaFlags, BosniaHerzegovinaFlagsMetadata, BotswanaFlags, BotswanaFlagsMetadata, BraveBrowser, BraveBrowserMetadata, BrazilFlags, BrazilFlagsMetadata, BritishVirginIslandsFlags, BritishVirginIslandsFlagsMetadata, BruneiFlags, BruneiFlagsMetadata, Builder, BuilderMetadata, BulgariaFlags, BulgariaFlagsMetadata, Bun, BunMetadata, BurkinaFasoFlags, BurkinaFasoFlagsMetadata, BurundiFlags, BurundiFlagsMetadata, C, CHas, CHasMetadata, CMetadata, CPlusPlus, CPlusPlusMetadata, CSS, CSSMetadata, CSSNew, CSSNewMetadata, CVCCards, CVCCardsMetadata, CambodiaFlags, CambodiaFlagsMetadata, CameroonFlags, CameroonFlagsMetadata, CanadaFlags, CanadaFlagsMetadata, CanaryIslandsFlags, CanaryIslandsFlagsMetadata, Canva, CanvaMetadata, CapeVerdeFlags, CapeVerdeFlagsMetadata, CaymanIslandsFlags, CaymanIslandsFlagsMetadata, CentralAfricanRepuFlags, CentralAfricanRepuFlagsMetadata, ChadFlags, ChadFlagsMetadata, ChartJs, ChartJsMetadata, ChileFlags, ChileFlagsMetadata, ChinaFlags, ChinaFlagsMetadata, Chrome, ChromeMetadata, Chromium, ChromiumMetadata, ClaudeAI, ClaudeAIMetadata, ClaudeAIWordmark, ClaudeAIWordmarkMetadata, Clerk, ClerkMetadata, ClerkWordmark, ClerkWordmarkMetadata, Cobol, CobolMetadata, Coinbase, CoinbaseMetadata, ColombiaFlags, ColombiaFlagsMetadata, ComorosFlags, ComorosFlagsMetadata, CookIslandsFlags, CookIslandsFlagsMetadata, CostaRicaFlags, CostaRicaFlagsMetadata, CroatiaFlags, CroatiaFlagsMetadata, CubaFlags, CubaFlagsMetadata, CuracaoFlags, CuracaoFlagsMetadata, Cursor, CursorMetadata, CursorWordmark, CursorWordmarkMetadata, CyprusFlags, CyprusFlagsMetadata, CzechiaFlags, CzechiaFlagsMetadata, DeepSeekWordmark, DeepSeekWordmarkMetadata, Deepseek, DeepseekMetadata, DemocraticRepublicOfCongoFlags, DemocraticRepublicOfCongoFlagsMetadata, DenmarkFlags, DenmarkFlagsMetadata, Deno, DenoMetadata, DinersClubCards, DinersClubCardsMetadata, DingoCoin, DingoCoinMetadata, Directus, DirectusMetadata, DiscordJs, DiscordJsMetadata, DiscoverCards, DiscoverCardsMetadata, Django, DjangoMetadata, DjiboutiFlags, DjiboutiFlagsMetadata, DominicaFlags, DominicaFlagsMetadata, DominicanRepublicFlags, DominicanRepublicFlagsMetadata, Dotenv, DotenvMetadata, Dotenvx, DotenvxMetadata, Drizzle, DrizzleMetadata, DrizzleORM, DrizzleORMMetadata, Dropbox, DropboxMetadata, DropboxWordmark, DropboxWordmarkMetadata, Dub, DubMetadata, DubWordmark, DubWordmarkMetadata, DuckDuckGo, DuckDuckGoMetadata, ESLint, ESLintMetadata, EastTimorFlags, EastTimorFlagsMetadata, EbayWordmark, EbayWordmarkMetadata, EcuadorFlags, EcuadorFlagsMetadata, Edge, EdgeMetadata, EffectTS, EffectTSMetadata, EftposCards, EftposCardsMetadata, EgyptFlags, EgyptFlagsMetadata, ElSalvadorFlags, ElSalvadorFlagsMetadata, Electron, ElectronMetadata, ElysiaJS, ElysiaJSMetadata, EnglandFlags, EnglandFlagsMetadata, EquatorialGuineaFlags, EquatorialGuineaFlagsMetadata, EritreaFlags, EritreaFlagsMetadata, EstoniaFlags, EstoniaFlagsMetadata, EswatiniFlags, EswatiniFlagsMetadata, EthiopiaFlags, EthiopiaFlagsMetadata, EuropeFlags, EuropeFlagsMetadata, Exome, ExomeMetadata, ExpressJs, ExpressJsMetadata, Facebook, FacebookMetadata, FalklandIslandsFlags, FalklandIslandsFlagsMetadata, FaroeIslandsFlags, FaroeIslandsFlagsMetadata, FastAPI, FastAPIMetadata, Fastify, FastifyMetadata, Figma, FigmaMetadata, FijiFlags, FijiFlagsMetadata, FinlandFlags, FinlandFlagsMetadata, Firefox, FirefoxMetadata, Flask, FlaskMetadata, Flutter, FlutterMetadata, Fortran, FortranMetadata, Frame99, Frame99Metadata, FranceFlags, FranceFlagsMetadata, FrenchGuianaFlags, FrenchGuianaFlagsMetadata, FrenchPolynesiaFlags, FrenchPolynesiaFlagsMetadata, Fresh, FreshMetadata, Front1Cards, Front1CardsMetadata, FrontCards, FrontCardsMetadata, GabonFlags, GabonFlagsMetadata, GambiaFlags, GambiaFlagsMetadata, Gatsby, GatsbyMetadata, GeorgiaFlags, GeorgiaFlagsMetadata, GermanyFlags, GermanyFlagsMetadata, GhanaFlags, GhanaFlagsMetadata, GibraltarFlags, GibraltarFlagsMetadata, Github, GithubMetadata, GithubWordmark, GithubWordmarkMetadata, Gleam, GleamMetadata, Go, GoMetadata, Google360suite, Google360suiteMetadata, GoogleAdmob, GoogleAdmobMetadata, GoogleAds, GoogleAdsMetadata, GoogleAdsense, GoogleAdsenseMetadata, GoogleAnalytics, GoogleAnalyticsMetadata, GoogleBard, GoogleBardIcon, GoogleBardIconMetadata, GoogleBardMetadata, GoogleCalendar, GoogleCalendarMetadata, GoogleCloud, GoogleCloudFunctions, GoogleCloudFunctionsMetadata, GoogleCloudMetadata, GoogleCloudRun, GoogleCloudRunMetadata, GoogleDataStudio, GoogleDataStudioMetadata, GoogleDevelopers, GoogleDevelopersMetadata, GoogleDomains, GoogleDomainsMetadata, GoogleDomainsWordmark, GoogleDomainsWordmarkMetadata, GoogleDrive, GoogleDriveMetadata, GoogleFit, GoogleFitMetadata, GoogleGemini, GoogleGeminiMetadata, GoogleGeminiWordmark, GoogleGeminiWordmarkMetadata, GoogleGmail, GoogleGmailMetadata, GoogleHome, GoogleHomeMetadata, GoogleIcon, GoogleIconMetadata, GoogleKeep, GoogleKeepMetadata, GoogleMaps, GoogleMapsMetadata, GoogleMarketingPlatform, GoogleMarketingPlatformMetadata, GoogleMeet, GoogleMeetMetadata, GoogleOne, GoogleOneMetadata, GoogleOptimize, GoogleOptimizeMetadata, GooglePalm, GooglePalmMetadata, GooglePay, GooglePayCards, GooglePayCardsMetadata, GooglePayMetadata, GooglePhotos, GooglePhotosMetadata, GooglePlay, GooglePlayConsole, GooglePlayConsoleMetadata, GooglePlayConsoleWordmark, GooglePlayConsoleWordmarkMetadata, GooglePlayMetadata, GooglePlayWordmark, GooglePlayWordmarkMetadata, GoogleSearchConsole, GoogleSearchConsoleMetadata, GoogleTagManager, GoogleTagManagerMetadata, GoogleWordmark, GoogleWordmarkMetadata, GoogleWorkspaceWordmark, GoogleWorkspaceWordmarkMetadata, GraphQL, GraphQLMetadata, GreeceFlags, GreeceFlagsMetadata, GreenlandFlags, GreenlandFlagsMetadata, GrenadaFlags, GrenadaFlagsMetadata, Grok, GrokMetadata, GrokWordmark, GrokWordmarkMetadata, GuadeloupeFlags, GuadeloupeFlagsMetadata, GuatemalaFlags, GuatemalaFlagsMetadata, GuernseyFlags, GuernseyFlagsMetadata, GuineaBissauFlags, GuineaBissauFlagsMetadata, GuineaFlags, GuineaFlagsMetadata, GuyanaFlags, GuyanaFlagsMetadata, HTML5, HTML5Metadata, HaitiFlags, HaitiFlagsMetadata, Hashnode, HashnodeMetadata, Haskell, HaskellMetadata, HawaiiFlags, HawaiiFlagsMetadata, HeroUI, HeroUIMetadata, HondurasFlags, HondurasFlagsMetadata, HongKongFlags, HongKongFlagsMetadata, Hono, HonoMetadata, HuggingFace, HuggingFaceMetadata, Hume, HumeMetadata, HungaryFlags, HungaryFlagsMetadata, IBMWordmark, IBMWordmarkMetadata, IcelandFlags, IcelandFlagsMetadata, IndiaFlags, IndiaFlagsMetadata, IndonesiaFlags, IndonesiaFlagsMetadata, Instagram, InstagramMetadata, IranFlags, IranFlagsMetadata, IraqFlags, IraqFlagsMetadata, IrelandFlags, IrelandFlagsMetadata, IsleOfManFlags, IsleOfManFlagsMetadata, IsraelFlags, IsraelFlagsMetadata, ItalyFlags, ItalyFlagsMetadata, IvoryCoastFlags, IvoryCoastFlagsMetadata, JCBCards, JCBCardsMetadata, JSONSchema, JSONSchemaMetadata, JWT, JWTMetadata, JamaicaFlags, JamaicaFlagsMetadata, JapanFlags, JapanFlagsMetadata, Jasmine, JasmineMetadata, Java, JavaMetadata, JavaScript, JavaScriptMetadata, JerseyFlags, JerseyFlagsMetadata, Jest, JestMetadata, JordanFlags, JordanFlagsMetadata, KazakhstanFlags, KazakhstanFlagsMetadata, KenyaFlags, KenyaFlagsMetadata, KiboUI, KiboUIMetadata, KiloCode, KiloCodeMetadata, KiribatiFlags, KiribatiFlagsMetadata, KokonutUI, KokonutUIMetadata, KosovoFlags, KosovoFlagsMetadata, KrakenJS, KrakenJSMetadata, KurdistanFlags, KurdistanFlagsMetadata, KuwaitFlags, KuwaitFlagsMetadata, KyrgyzstanFlags, KyrgyzstanFlagsMetadata, LaosFlags, LaosFlagsMetadata, Laravel, LaravelMetadata, LatviaFlags, LatviaFlagsMetadata, Layers, LayersMetadata, LeapWallet, LeapWalletMetadata, LebanonFlags, LebanonFlagsMetadata, LemonSqueezy, LemonSqueezyMetadata, LesothoFlags, LesothoFlagsMetadata, LiberiaFlags, LiberiaFlagsMetadata, LibyaFlags, LibyaFlagsMetadata, LiechtensteinFlags, LiechtensteinFlagsMetadata, Link, LinkMetadata, LinkedIn, LinkedInMetadata, Lit, LitMetadata, Litecoin, LitecoinMetadata, LithuaniaFlags, LithuaniaFlagsMetadata, LottieFiles, LottieFilesMetadata, Lovable, LovableMetadata, Lua, LuaMetadata, LuxembourgFlags, LuxembourgFlagsMetadata, MacauFlags, MacauFlagsMetadata, MadagascarFlags, MadagascarFlagsMetadata, MaestroCards, MaestroCardsMetadata, MalawiFlags, MalawiFlagsMetadata, MalaysiaFlags, MalaysiaFlagsMetadata, MaldivesFlags, MaldivesFlagsMetadata, MaliFlags, MaliFlagsMetadata, MaltaFlags, MaltaFlagsMetadata, Manifest, ManifestMetadata, Mantine, MantineMetadata, MariaDB, MariaDBMetadata, Markdown, MarkdownMetadata, MarshallIslandsFlags, MarshallIslandsFlagsMetadata, MartiniqueFlags, MartiniqueFlagsMetadata, Mastercard1Cards, Mastercard1CardsMetadata, MastercardCards, MastercardCardsMetadata, MaterialUI, MaterialUIMetadata, MauritaniaFlags, MauritaniaFlagsMetadata, MauritiusFlags, MauritiusFlagsMetadata, MercadoPago, MercadoPagoMetadata, Mermaid, MermaidMetadata, Meta, MetaMask, MetaMaskMetadata, MetaMetadata, MexicoFlags, MexicoFlagsMetadata, MicronesiaFlags, MicronesiaFlagsMetadata, MicrosoftNET, MicrosoftNETMetadata, MicrosoftSQLServer, MicrosoftSQLServerMetadata, Midday, MiddayMetadata, ModelContextProtocol, ModelContextProtocolMetadata, MoldovaFlags, MoldovaFlagsMetadata, MonacoFlags, MonacoFlagsMetadata, Monero, MoneroMetadata, MongoDB, MongoDBMetadata, MongoliaFlags, MongoliaFlagsMetadata, MontenegroFlags, MontenegroFlagsMetadata, MoroccoFlags, MoroccoFlagsMetadata, Motion, MotionMetadata, MozanbiqueFlags, MozanbiqueFlagsMetadata, MySQL, MySQLMetadata, MyanmarFlags, MyanmarFlagsMetadata, NamibiaFlags, NamibiaFlagsMetadata, NauruFlags, NauruFlagsMetadata, Neon, NeonMetadata, NepalFlags, NepalFlagsMetadata, NestJS, NestJSMetadata, NetherlandsAntillesFlags, NetherlandsAntillesFlagsMetadata, NetherlandsFlags, NetherlandsFlagsMetadata, NewCaledoniaFlags, NewCaledoniaFlagsMetadata, NewZealandFlags, NewZealandFlagsMetadata, Nextjs, NextjsMetadata, NextjsWordmark, NextjsWordmarkMetadata, NicaraguaFlags, NicaraguaFlagsMetadata, NigerFlags, NigerFlagsMetadata, NigeriaFlags, NigeriaFlagsMetadata, Nike, NikeMetadata, NiueFlags, NiueFlagsMetadata, NorthKoreaFlags, NorthKoreaFlagsMetadata, NorthMacedoniaFlags, NorthMacedoniaFlagsMetadata, NorthenIrelandFlags, NorthenIrelandFlagsMetadata, NorwayFlags, NorwayFlagsMetadata, Notion, NotionMetadata, Nuqs, NuqsMetadata, Nuxt, NuxtHub, NuxtHubMetadata, NuxtMetadata, Nx, NxMetadata, OmanFlags, OmanFlagsMetadata, OpenAI, OpenAIMetadata, OpenAIWordmark, OpenAIWordmarkMetadata, OpenSea, OpenSeaMetadata, Opera, OperaMetadata, Oxc, OxcMetadata, PNPM, PNPMMetadata, PakistanFlags, PakistanFlagsMetadata, PalauFlags, PalauFlagsMetadata, PalestineFlags, PalestineFlagsMetadata, PanamaFlags, PanamaFlagsMetadata, PandaCSS, PandaCSSMetadata, PapuaNewGuineaFlags, PapuaNewGuineaFlagsMetadata, ParaguayFlags, ParaguayFlagsMetadata, PayPal, PayPalMetadata, PayloadCMS, PayloadCMSMetadata, Paypal1Cards, Paypal1CardsMetadata, PaypalCards, PaypalCardsMetadata, Peerlist, PeerlistMetadata, Penpot, PenpotMetadata, PerplexityAI, PerplexityAIMetadata, PerplexityAIWordmark, PerplexityAIWordmarkMetadata, PeruFlags, PeruFlagsMetadata, PhilippinesFlags, PhilippinesFlagsMetadata, Php, PhpMetadata, Pinterest, PinterestMetadata, Pitch, PitchMetadata, PlanetScale, PlanetScaleMetadata, Playstation, PlaystationMetadata, Playwright, PlaywrightMetadata, Pocketbase, PocketbaseMetadata, PolandFlags, PolandFlagsMetadata, Polar, PolarMetadata, Polygon, PolygonMetadata, PortugalFlags, PortugalFlagsMetadata, PostHog, PostHogMetadata, Preact, PreactMetadata, Prettier, PrettierMetadata, PuertoRicoFlags, PuertoRicoFlagsMetadata, QatarFlags, QatarFlagsMetadata, Qdrant, QdrantMetadata, R, RMetadata, RadixUI, RadixUIMetadata, Raycast, RaycastMetadata, RaycastWordmark, RaycastWordmarkMetadata, ReactLib, ReactLibMetadata, ReactQuery, ReactQueryMetadata, ReactRouter, ReactRouterMetadata, ReactWheelPicker, ReactWheelPickerMetadata, Reddit, RedditMetadata, Redux, ReduxMetadata, RedwoodJS, RedwoodJSMetadata, Refine, RefineMetadata, Remix, RemixMetadata, Remotion, RemotionMetadata, Replicate, ReplicateMetadata, ReplicateWordmark, ReplicateWordmarkMetadata, RepublicCongoFlags, RepublicCongoFlagsMetadata, Resend, ResendMetadata, ResendWordmark, ResendWordmarkMetadata, RomaniaFlags, RomaniaFlagsMetadata, Rsbuild, RsbuildMetadata, RuPayCards, RuPayCardsMetadata, Runway, RunwayMetadata, RussiaFlags, RussiaFlagsMetadata, Rust, RustMetadata, RwandaFlags, RwandaFlagsMetadata, SQLite, SQLiteMetadata, SST, SSTMetadata, SVG, SVGMetadata, SWR, SWRMetadata, Safari, SafariMetadata, SaintKittsNevisFlags, SaintKittsNevisFlagsMetadata, Sanity, SanityMetadata, Sass, SassMetadata, Sequelize, SequelizeMetadata, Shiki, ShikiMetadata, ShopPayCards, ShopPayCardsMetadata, Shopify, ShopifyMetadata, SierraLeoneFlags, SierraLeoneFlagsMetadata, SingaporeFlags, SingaporeFlagsMetadata, SintMaartenFlags, SintMaartenFlagsMetadata, Sketch, SketchMetadata, SlovakiaFlags, SlovakiaFlagsMetadata, SloveniaFlags, SloveniaFlagsMetadata, SocketIO, SocketIOMetadata, Solana, SolanaMetadata, Solidity, SolidityMetadata, SolomonIslandsFlags, SolomonIslandsFlagsMetadata, SomaliaFlags, SomaliaFlagsMetadata, SoundCloud, SoundCloudMetadata, SouthAfricaFlags, SouthAfricaFlagsMetadata, SouthGeorgiaSandwichIslandsFlags, SouthGeorgiaSandwichIslandsFlagsMetadata, SouthKoreaFlags, SouthKoreaFlagsMetadata, SouthSudanFlags, SouthSudanFlagsMetadata, SpainFlags, SpainFlagsMetadata, Spotify, SpotifyMetadata, Spring, SpringMetadata, SriLankaFlags, SriLankaFlagsMetadata, Steam, SteamMetadata, Stimulus, StimulusMetadata, Storyblok, StoryblokMetadata, Strapi, StrapiMetadata, Stripe, StripeMetadata, SudanFlags, SudanFlagsMetadata, Suno, SunoMetadata, SunoWordmark, SunoWordmarkMetadata, SurinameFlags, SurinameFlagsMetadata, Svelte, SvelteMetadata, SwedenFlags, SwedenFlagsMetadata, SwitzerlandFlags, SwitzerlandFlagsMetadata, SyriaFlags, SyriaFlagsMetadata, T3Stack, T3StackMetadata, TIDAL, TIDALMetadata, TRPC, TRPCMetadata, TailwindCSS, TailwindCSSMetadata, TaiwanFlags, TaiwanFlagsMetadata, TajikistanFlags, TajikistanFlagsMetadata, TanzaniaFlags, TanzaniaFlagsMetadata, Tauri, TauriMetadata, Telegram, TelegramMetadata, Terraform, TerraformMetadata, Tether, TetherMetadata, ThailandFlags, ThailandFlagsMetadata, Threads, ThreadsMetadata, ThreeJs, ThreeJsMetadata, TikTok, TikTokMetadata, Tina, TinaMetadata, TogetherAIWordmark, TogetherAIWordmarkMetadata, TogoFlags, TogoFlagsMetadata, Ton, TonMetadata, TongaFlags, TongaFlagsMetadata, TrinidadTobagoFlags, TrinidadTobagoFlagsMetadata, Tron, TronMetadata, TrustWallet, TrustWalletMetadata, TunisiaFlags, TunisiaFlagsMetadata, TurkeyFlags, TurkeyFlagsMetadata, TurkmenistanFlags, TurkmenistanFlagsMetadata, TurksAndCaicosIslandsFlags, TurksAndCaicosIslandsFlagsMetadata, Turso, TursoMetadata, TuvaluFlags, TuvaluFlagsMetadata, Twitter, TwitterMetadata, TypeORM, TypeORMMetadata, TypeScript, TypeScriptMetadata, USAVirginIslandsFlags, USAVirginIslandsFlagsMetadata, UgandaFlags, UgandaFlagsMetadata, UkraineFlags, UkraineFlagsMetadata, UnJS, UnJSMetadata, UnionPayCards, UnionPayCardsMetadata, UnitedArabEmiraFlags, UnitedArabEmiraFlagsMetadata, UnitedKingdomFlags, UnitedKingdomFlagsMetadata, UnitedStatesFlags, UnitedStatesFlagsMetadata, UnoCSS, UnoCSSMetadata, Upstash, UpstashMetadata, UruguayFlags, UruguayFlagsMetadata, UzbekistanFlags, UzbekistanFlagsMetadata, V0, V0Metadata, VK, VKMetadata, VanuatuFlags, VanuatuFlagsMetadata, VaticanCityFlags, VaticanCityFlagsMetadata, VenezuelaFlags, VenezuelaFlagsMetadata, Vercel, VercelMetadata, VercelWordmark, VercelWordmarkMetadata, VerifiedBadgeStickers, VerifiedBadgeStickersMetadata, VietnamFlags, VietnamFlagsMetadata, Visa1Cards, Visa1CardsMetadata, VisaCards, VisaCardsMetadata, Vitest, VitestMetadata, Vivaldi, VivaldiMetadata, Vue, VueMetadata, Vuetify, VuetifyMetadata, WalesFlags, WalesFlagsMetadata, WeChatPayCards, WeChatPayCardsMetadata, WebComponents, WebComponentsMetadata, WebGL, WebGLMetadata, Webflow, WebflowMetadata, WesternSaharaFlags, WesternSaharaFlagsMetadata, WhatsApp, WhatsAppMetadata, Windsurf, WindsurfMetadata, WindsurfWordmark, WindsurfWordmarkMetadata, WordPress, WordPressMetadata, X, XAIGrok, XAIGrokMetadata, XMetadata, Xbox, XboxMetadata, YemenFlags, YemenFlagsMetadata, YouTube, YouTubeMetadata, YouTubeWordmark, YouTubeWordmarkMetadata, ZambiaFlags, ZambiaFlagsMetadata, ZenBrowser, ZenBrowserMetadata, Zig, ZigMetadata, ZimbabweFlags, ZimbabweFlagsMetadata, Zoom, ZoomMetadata, allLogos };
+export { AMP, AMPMetadata, AalandIslandsSymbols, AalandIslandsSymbolsMetadata, Adobe, AdobeAfterEffects, AdobeAfterEffectsMetadata, AdobeAnimate, AdobeAnimateMetadata, AdobeDreamweaver, AdobeDreamweaverMetadata, AdobeIllustrator, AdobeIllustratorMetadata, AdobeIncopy, AdobeIncopyMetadata, AdobeIndesign, AdobeIndesignMetadata, AdobeLightroom, AdobeLightroomMetadata, AdobeMetadata, AdobePhotoshop, AdobePhotoshopMetadata, AdobePremiere, AdobePremiereMetadata, AdobeWordmark, AdobeWordmarkMetadata, AdobeXd, AdobeXdMetadata, AfghanistanSymbols, AfghanistanSymbolsMetadata, Ahooks, AhooksMetadata, AlbaniaSymbols, AlbaniaSymbolsMetadata, AlgeriaSymbols, AlgeriaSymbolsMetadata, Algorand, AlgorandMetadata, AlipaySymbols, AlipaySymbolsMetadata, AmazonSymbols, AmazonSymbolsMetadata, AmericanExpressSymbols, AmericanExpressSymbolsMetadata, AndorraSymbols, AndorraSymbolsMetadata, Android, AndroidMetadata, AngolaSymbols, AngolaSymbolsMetadata, AnguillaSymbols, AnguillaSymbolsMetadata, AntarcticaSymbols, AntarcticaSymbolsMetadata, Anthropic, AnthropicDarkWordmark, AnthropicDarkWordmarkMetadata, AnthropicLightWordmark, AnthropicLightWordmarkMetadata, AnthropicMetadata, AntiguaBarbudaSymbols, AntiguaBarbudaSymbolsMetadata, Apple, AppleMetadata, ApplePaySymbols, ApplePaySymbolsMetadata, Arc, ArcMetadata, ArgentinaSymbols, ArgentinaSymbolsMetadata, ArkUI, ArkUIMetadata, ArmeniaSymbols, ArmeniaSymbolsMetadata, ArubaSymbols, ArubaSymbolsMetadata, Astro, AstroMetadata, AustraliaSymbols, AustraliaSymbolsMetadata, AustriaSymbols, AustriaSymbolsMetadata, Auth0, Auth0Metadata, Axure, AxureMetadata, AzerbaijanSymbols, AzerbaijanSymbolsMetadata, BahamasSymbols, BahamasSymbolsMetadata, BahrainSymbols, BahrainSymbolsMetadata, BangladeshSymbols, BangladeshSymbolsMetadata, BankAccountSymbols, BankAccountSymbolsMetadata, BarbadosSymbols, BarbadosSymbolsMetadata, BaseUI, BaseUIMetadata, Bash, BashMetadata, BasqueSymbols, BasqueSymbolsMetadata, BelarusSymbols, BelarusSymbolsMetadata, BelgiumSymbols, BelgiumSymbolsMetadata, BelizeSymbols, BelizeSymbolsMetadata, BeninSymbols, BeninSymbolsMetadata, Bento, BentoMetadata, BermudaSymbols, BermudaSymbolsMetadata, BetterAuth, BetterAuthMetadata, BhutanSymbols, BhutanSymbolsMetadata, Binance, BinanceMetadata, Bing, BingMetadata, BitcoinSymbols, BitcoinSymbolsMetadata, Blender, BlenderMetadata, Blitz, BlitzMetadata, Bluesky, BlueskyMetadata, BoliviaSymbols, BoliviaSymbolsMetadata, Bolt, BoltMetadata, Bootstrap, BootstrapMetadata, BosniaHerzegovinaSymbols, BosniaHerzegovinaSymbolsMetadata, BotswanaSymbols, BotswanaSymbolsMetadata, BraveBrowser, BraveBrowserMetadata, BrazilSymbols, BrazilSymbolsMetadata, BritishVirginIslandsSymbols, BritishVirginIslandsSymbolsMetadata, BruneiSymbols, BruneiSymbolsMetadata, Builder, BuilderMetadata, BulgariaSymbols, BulgariaSymbolsMetadata, Bun, BunMetadata, BurkinaFasoSymbols, BurkinaFasoSymbolsMetadata, BurundiSymbols, BurundiSymbolsMetadata, C, CHas, CHasMetadata, CMetadata, CPlusPlus, CPlusPlusMetadata, CSS, CSSMetadata, CSSNew, CSSNewMetadata, CVCSymbols, CVCSymbolsMetadata, CambodiaSymbols, CambodiaSymbolsMetadata, CameroonSymbols, CameroonSymbolsMetadata, CanadaSymbols, CanadaSymbolsMetadata, CanaryIslandsSymbols, CanaryIslandsSymbolsMetadata, Canva, CanvaMetadata, CapeVerdeSymbols, CapeVerdeSymbolsMetadata, CaymanIslandsSymbols, CaymanIslandsSymbolsMetadata, CentralAfricanRepuSymbols, CentralAfricanRepuSymbolsMetadata, ChadSymbols, ChadSymbolsMetadata, ChartJs, ChartJsMetadata, ChileSymbols, ChileSymbolsMetadata, ChinaSymbols, ChinaSymbolsMetadata, Chrome, ChromeMetadata, Chromium, ChromiumMetadata, ClaudeAI, ClaudeAIMetadata, ClaudeAIWordmark, ClaudeAIWordmarkMetadata, Clerk, ClerkMetadata, ClerkWordmark, ClerkWordmarkMetadata, Cobol, CobolMetadata, Coinbase, CoinbaseMetadata, ColombiaSymbols, ColombiaSymbolsMetadata, ComorosSymbols, ComorosSymbolsMetadata, CookIslandsSymbols, CookIslandsSymbolsMetadata, CostaRicaSymbols, CostaRicaSymbolsMetadata, CroatiaSymbols, CroatiaSymbolsMetadata, CubaSymbols, CubaSymbolsMetadata, CuracaoSymbols, CuracaoSymbolsMetadata, Cursor, CursorMetadata, CursorWordmark, CursorWordmarkMetadata, CyprusSymbols, CyprusSymbolsMetadata, CzechiaSymbols, CzechiaSymbolsMetadata, DeepSeekWordmark, DeepSeekWordmarkMetadata, Deepseek, DeepseekMetadata, DemocraticRepublicOfCongoSymbols, DemocraticRepublicOfCongoSymbolsMetadata, DenmarkSymbols, DenmarkSymbolsMetadata, Deno, DenoMetadata, DinersClubSymbols, DinersClubSymbolsMetadata, DingoCoin, DingoCoinMetadata, Directus, DirectusMetadata, DiscordJs, DiscordJsMetadata, DiscoverSymbols, DiscoverSymbolsMetadata, Django, DjangoMetadata, DjiboutiSymbols, DjiboutiSymbolsMetadata, DominicaSymbols, DominicaSymbolsMetadata, DominicanRepublicSymbols, DominicanRepublicSymbolsMetadata, Dotenv, DotenvMetadata, Dotenvx, DotenvxMetadata, Drizzle, DrizzleMetadata, DrizzleORM, DrizzleORMMetadata, Dropbox, DropboxMetadata, DropboxWordmark, DropboxWordmarkMetadata, Dub, DubMetadata, DubWordmark, DubWordmarkMetadata, DuckDuckGo, DuckDuckGoMetadata, ESLint, ESLintMetadata, EastTimorSymbols, EastTimorSymbolsMetadata, EbayWordmark, EbayWordmarkMetadata, EcuadorSymbols, EcuadorSymbolsMetadata, Edge, EdgeMetadata, EffectTS, EffectTSMetadata, EftposSymbols, EftposSymbolsMetadata, EgyptSymbols, EgyptSymbolsMetadata, ElSalvadorSymbols, ElSalvadorSymbolsMetadata, Electron, ElectronMetadata, ElysiaJS, ElysiaJSMetadata, EnglandSymbols, EnglandSymbolsMetadata, EquatorialGuineaSymbols, EquatorialGuineaSymbolsMetadata, EritreaSymbols, EritreaSymbolsMetadata, EstoniaSymbols, EstoniaSymbolsMetadata, EswatiniSymbols, EswatiniSymbolsMetadata, EthiopiaSymbols, EthiopiaSymbolsMetadata, EuropeSymbols, EuropeSymbolsMetadata, Exome, ExomeMetadata, ExpressJs, ExpressJsMetadata, Facebook, FacebookMetadata, FalklandIslandsSymbols, FalklandIslandsSymbolsMetadata, FaroeIslandsSymbols, FaroeIslandsSymbolsMetadata, FastAPI, FastAPIMetadata, Fastify, FastifyMetadata, Figma, FigmaMetadata, FijiSymbols, FijiSymbolsMetadata, FinlandSymbols, FinlandSymbolsMetadata, Firefox, FirefoxMetadata, Flask, FlaskMetadata, Flutter, FlutterMetadata, Fortran, FortranMetadata, Frame99, Frame99Metadata, FranceSymbols, FranceSymbolsMetadata, FrenchGuianaSymbols, FrenchGuianaSymbolsMetadata, FrenchPolynesiaSymbols, FrenchPolynesiaSymbolsMetadata, Fresh, FreshMetadata, Front1Symbols, Front1SymbolsMetadata, FrontSymbols, FrontSymbolsMetadata, GabonSymbols, GabonSymbolsMetadata, GambiaSymbols, GambiaSymbolsMetadata, Gatsby, GatsbyMetadata, GeorgiaSymbols, GeorgiaSymbolsMetadata, GermanySymbols, GermanySymbolsMetadata, GhanaSymbols, GhanaSymbolsMetadata, GibraltarSymbols, GibraltarSymbolsMetadata, Github, GithubMetadata, GithubWordmark, GithubWordmarkMetadata, Gleam, GleamMetadata, Go, GoMetadata, Google360suite, Google360suiteMetadata, GoogleAdmob, GoogleAdmobMetadata, GoogleAds, GoogleAdsMetadata, GoogleAdsense, GoogleAdsenseMetadata, GoogleAnalytics, GoogleAnalyticsMetadata, GoogleBard, GoogleBardIcon, GoogleBardIconMetadata, GoogleBardMetadata, GoogleCalendar, GoogleCalendarMetadata, GoogleCloud, GoogleCloudFunctions, GoogleCloudFunctionsMetadata, GoogleCloudMetadata, GoogleCloudRun, GoogleCloudRunMetadata, GoogleDataStudio, GoogleDataStudioMetadata, GoogleDevelopers, GoogleDevelopersMetadata, GoogleDomains, GoogleDomainsMetadata, GoogleDomainsWordmark, GoogleDomainsWordmarkMetadata, GoogleDrive, GoogleDriveMetadata, GoogleFit, GoogleFitMetadata, GoogleGemini, GoogleGeminiMetadata, GoogleGeminiWordmark, GoogleGeminiWordmarkMetadata, GoogleGmail, GoogleGmailMetadata, GoogleHome, GoogleHomeMetadata, GoogleIcon, GoogleIconMetadata, GoogleKeep, GoogleKeepMetadata, GoogleMaps, GoogleMapsMetadata, GoogleMarketingPlatform, GoogleMarketingPlatformMetadata, GoogleMeet, GoogleMeetMetadata, GoogleOne, GoogleOneMetadata, GoogleOptimize, GoogleOptimizeMetadata, GooglePalm, GooglePalmMetadata, GooglePay, GooglePayMetadata, GooglePaySymbols, GooglePaySymbolsMetadata, GooglePhotos, GooglePhotosMetadata, GooglePlay, GooglePlayConsole, GooglePlayConsoleMetadata, GooglePlayConsoleWordmark, GooglePlayConsoleWordmarkMetadata, GooglePlayMetadata, GooglePlayWordmark, GooglePlayWordmarkMetadata, GoogleSearchConsole, GoogleSearchConsoleMetadata, GoogleTagManager, GoogleTagManagerMetadata, GoogleWordmark, GoogleWordmarkMetadata, GoogleWorkspaceWordmark, GoogleWorkspaceWordmarkMetadata, GraphQL, GraphQLMetadata, GreeceSymbols, GreeceSymbolsMetadata, GreenlandSymbols, GreenlandSymbolsMetadata, GrenadaSymbols, GrenadaSymbolsMetadata, Grok, GrokMetadata, GrokWordmark, GrokWordmarkMetadata, GuadeloupeSymbols, GuadeloupeSymbolsMetadata, GuatemalaSymbols, GuatemalaSymbolsMetadata, GuernseySymbols, GuernseySymbolsMetadata, GuineaBissauSymbols, GuineaBissauSymbolsMetadata, GuineaSymbols, GuineaSymbolsMetadata, GuyanaSymbols, GuyanaSymbolsMetadata, HTML5, HTML5Metadata, HaitiSymbols, HaitiSymbolsMetadata, Hashnode, HashnodeMetadata, Haskell, HaskellMetadata, HawaiiSymbols, HawaiiSymbolsMetadata, HeroUI, HeroUIMetadata, HondurasSymbols, HondurasSymbolsMetadata, HongKongSymbols, HongKongSymbolsMetadata, Hono, HonoMetadata, HuggingFace, HuggingFaceMetadata, Hume, HumeMetadata, HungarySymbols, HungarySymbolsMetadata, IBMWordmark, IBMWordmarkMetadata, IcelandSymbols, IcelandSymbolsMetadata, IndiaSymbols, IndiaSymbolsMetadata, IndonesiaSymbols, IndonesiaSymbolsMetadata, Instagram, InstagramMetadata, IranSymbols, IranSymbolsMetadata, IraqSymbols, IraqSymbolsMetadata, IrelandSymbols, IrelandSymbolsMetadata, IsleOfManSymbols, IsleOfManSymbolsMetadata, IsraelSymbols, IsraelSymbolsMetadata, ItalySymbols, ItalySymbolsMetadata, IvoryCoastSymbols, IvoryCoastSymbolsMetadata, JCBSymbols, JCBSymbolsMetadata, JSONSchema, JSONSchemaMetadata, JWT, JWTMetadata, JamaicaSymbols, JamaicaSymbolsMetadata, JapanSymbols, JapanSymbolsMetadata, Jasmine, JasmineMetadata, Java, JavaMetadata, JavaScript, JavaScriptMetadata, JerseySymbols, JerseySymbolsMetadata, Jest, JestMetadata, JordanSymbols, JordanSymbolsMetadata, KazakhstanSymbols, KazakhstanSymbolsMetadata, KenyaSymbols, KenyaSymbolsMetadata, KiboUI, KiboUIMetadata, KiloCode, KiloCodeMetadata, KiribatiSymbols, KiribatiSymbolsMetadata, KokonutUI, KokonutUIMetadata, KosovoSymbols, KosovoSymbolsMetadata, KrakenJS, KrakenJSMetadata, KurdistanSymbols, KurdistanSymbolsMetadata, KuwaitSymbols, KuwaitSymbolsMetadata, KyrgyzstanSymbols, KyrgyzstanSymbolsMetadata, LaosSymbols, LaosSymbolsMetadata, Laravel, LaravelMetadata, LatviaSymbols, LatviaSymbolsMetadata, Layers, LayersMetadata, LeapWallet, LeapWalletMetadata, LebanonSymbols, LebanonSymbolsMetadata, LemonSqueezy, LemonSqueezyMetadata, LesothoSymbols, LesothoSymbolsMetadata, LiberiaSymbols, LiberiaSymbolsMetadata, LibyaSymbols, LibyaSymbolsMetadata, LiechtensteinSymbols, LiechtensteinSymbolsMetadata, Link, LinkMetadata, LinkedIn, LinkedInMetadata, Lit, LitMetadata, Litecoin, LitecoinMetadata, LithuaniaSymbols, LithuaniaSymbolsMetadata, LottieFiles, LottieFilesMetadata, Lovable, LovableMetadata, Lua, LuaMetadata, LuxembourgSymbols, LuxembourgSymbolsMetadata, MacauSymbols, MacauSymbolsMetadata, MadagascarSymbols, MadagascarSymbolsMetadata, MaestroSymbols, MaestroSymbolsMetadata, MalawiSymbols, MalawiSymbolsMetadata, MalaysiaSymbols, MalaysiaSymbolsMetadata, MaldivesSymbols, MaldivesSymbolsMetadata, MaliSymbols, MaliSymbolsMetadata, MaltaSymbols, MaltaSymbolsMetadata, Manifest, ManifestMetadata, Mantine, MantineMetadata, MariaDB, MariaDBMetadata, Markdown, MarkdownMetadata, MarshallIslandsSymbols, MarshallIslandsSymbolsMetadata, MartiniqueSymbols, MartiniqueSymbolsMetadata, Mastercard1Symbols, Mastercard1SymbolsMetadata, MastercardSymbols, MastercardSymbolsMetadata, MaterialUI, MaterialUIMetadata, MauritaniaSymbols, MauritaniaSymbolsMetadata, MauritiusSymbols, MauritiusSymbolsMetadata, MercadoPago, MercadoPagoMetadata, Mermaid, MermaidMetadata, Meta, MetaMask, MetaMaskMetadata, MetaMetadata, MexicoSymbols, MexicoSymbolsMetadata, MicronesiaSymbols, MicronesiaSymbolsMetadata, MicrosoftNET, MicrosoftNETMetadata, MicrosoftSQLServer, MicrosoftSQLServerMetadata, Midday, MiddayMetadata, ModelContextProtocol, ModelContextProtocolMetadata, MoldovaSymbols, MoldovaSymbolsMetadata, MonacoSymbols, MonacoSymbolsMetadata, Monero, MoneroMetadata, MongoDB, MongoDBMetadata, MongoliaSymbols, MongoliaSymbolsMetadata, MontenegroSymbols, MontenegroSymbolsMetadata, MoroccoSymbols, MoroccoSymbolsMetadata, Motion, MotionMetadata, MozanbiqueSymbols, MozanbiqueSymbolsMetadata, MySQL, MySQLMetadata, MyanmarSymbols, MyanmarSymbolsMetadata, NamibiaSymbols, NamibiaSymbolsMetadata, NauruSymbols, NauruSymbolsMetadata, Neon, NeonMetadata, NepalSymbols, NepalSymbolsMetadata, NestJS, NestJSMetadata, NetherlandsAntillesSymbols, NetherlandsAntillesSymbolsMetadata, NetherlandsSymbols, NetherlandsSymbolsMetadata, NewCaledoniaSymbols, NewCaledoniaSymbolsMetadata, NewZealandSymbols, NewZealandSymbolsMetadata, Nextjs, NextjsMetadata, NextjsWordmark, NextjsWordmarkMetadata, NicaraguaSymbols, NicaraguaSymbolsMetadata, NigerSymbols, NigerSymbolsMetadata, NigeriaSymbols, NigeriaSymbolsMetadata, Nike, NikeMetadata, NiueSymbols, NiueSymbolsMetadata, NorthKoreaSymbols, NorthKoreaSymbolsMetadata, NorthMacedoniaSymbols, NorthMacedoniaSymbolsMetadata, NorthenIrelandSymbols, NorthenIrelandSymbolsMetadata, NorwaySymbols, NorwaySymbolsMetadata, Notion, NotionMetadata, Nuqs, NuqsMetadata, Nuxt, NuxtHub, NuxtHubMetadata, NuxtMetadata, Nx, NxMetadata, OmanSymbols, OmanSymbolsMetadata, OpenAI, OpenAIMetadata, OpenAIWordmark, OpenAIWordmarkMetadata, OpenSea, OpenSeaMetadata, Opera, OperaMetadata, Oxc, OxcMetadata, PNPM, PNPMMetadata, PakistanSymbols, PakistanSymbolsMetadata, PalauSymbols, PalauSymbolsMetadata, PalestineSymbols, PalestineSymbolsMetadata, PanamaSymbols, PanamaSymbolsMetadata, PandaCSS, PandaCSSMetadata, PapuaNewGuineaSymbols, PapuaNewGuineaSymbolsMetadata, ParaguaySymbols, ParaguaySymbolsMetadata, PayPal, PayPalMetadata, PayloadCMS, PayloadCMSMetadata, Paypal1Symbols, Paypal1SymbolsMetadata, PaypalSymbols, PaypalSymbolsMetadata, Peerlist, PeerlistMetadata, Penpot, PenpotMetadata, PerplexityAI, PerplexityAIMetadata, PerplexityAIWordmark, PerplexityAIWordmarkMetadata, PeruSymbols, PeruSymbolsMetadata, PhilippinesSymbols, PhilippinesSymbolsMetadata, Php, PhpMetadata, Pinterest, PinterestMetadata, Pitch, PitchMetadata, PlanetScale, PlanetScaleMetadata, Playstation, PlaystationMetadata, Playwright, PlaywrightMetadata, Pocketbase, PocketbaseMetadata, PolandSymbols, PolandSymbolsMetadata, Polar, PolarMetadata, Polygon, PolygonMetadata, PortugalSymbols, PortugalSymbolsMetadata, PostHog, PostHogMetadata, Preact, PreactMetadata, Prettier, PrettierMetadata, PuertoRicoSymbols, PuertoRicoSymbolsMetadata, QatarSymbols, QatarSymbolsMetadata, Qdrant, QdrantMetadata, R, RMetadata, RadixUI, RadixUIMetadata, Raycast, RaycastMetadata, RaycastWordmark, RaycastWordmarkMetadata, ReactLib, ReactLibMetadata, ReactQuery, ReactQueryMetadata, ReactRouter, ReactRouterMetadata, ReactWheelPicker, ReactWheelPickerMetadata, Reddit, RedditMetadata, Redux, ReduxMetadata, RedwoodJS, RedwoodJSMetadata, Refine, RefineMetadata, Remix, RemixMetadata, Remotion, RemotionMetadata, Replicate, ReplicateMetadata, ReplicateWordmark, ReplicateWordmarkMetadata, RepublicCongoSymbols, RepublicCongoSymbolsMetadata, Resend, ResendMetadata, ResendWordmark, ResendWordmarkMetadata, RomaniaSymbols, RomaniaSymbolsMetadata, Rsbuild, RsbuildMetadata, RuPaySymbols, RuPaySymbolsMetadata, Runway, RunwayMetadata, RussiaSymbols, RussiaSymbolsMetadata, Rust, RustMetadata, RwandaSymbols, RwandaSymbolsMetadata, SQLite, SQLiteMetadata, SST, SSTMetadata, SVG, SVGMetadata, SWR, SWRMetadata, Safari, SafariMetadata, SaintKittsNevisSymbols, SaintKittsNevisSymbolsMetadata, Sanity, SanityMetadata, Sass, SassMetadata, Sequelize, SequelizeMetadata, Shiki, ShikiMetadata, ShopPaySymbols, ShopPaySymbolsMetadata, Shopify, ShopifyMetadata, SierraLeoneSymbols, SierraLeoneSymbolsMetadata, SingaporeSymbols, SingaporeSymbolsMetadata, SintMaartenSymbols, SintMaartenSymbolsMetadata, Sketch, SketchMetadata, SlovakiaSymbols, SlovakiaSymbolsMetadata, SloveniaSymbols, SloveniaSymbolsMetadata, SocketIO, SocketIOMetadata, Solana, SolanaMetadata, Solidity, SolidityMetadata, SolomonIslandsSymbols, SolomonIslandsSymbolsMetadata, SomaliaSymbols, SomaliaSymbolsMetadata, SoundCloud, SoundCloudMetadata, SouthAfricaSymbols, SouthAfricaSymbolsMetadata, SouthGeorgiaSandwichIslandsSymbols, SouthGeorgiaSandwichIslandsSymbolsMetadata, SouthKoreaSymbols, SouthKoreaSymbolsMetadata, SouthSudanSymbols, SouthSudanSymbolsMetadata, SpainSymbols, SpainSymbolsMetadata, Spotify, SpotifyMetadata, Spring, SpringMetadata, SriLankaSymbols, SriLankaSymbolsMetadata, Steam, SteamMetadata, Stimulus, StimulusMetadata, Storyblok, StoryblokMetadata, Strapi, StrapiMetadata, Stripe, StripeMetadata, SudanSymbols, SudanSymbolsMetadata, Suno, SunoMetadata, SunoWordmark, SunoWordmarkMetadata, SurinameSymbols, SurinameSymbolsMetadata, Svelte, SvelteMetadata, SwedenSymbols, SwedenSymbolsMetadata, SwitzerlandSymbols, SwitzerlandSymbolsMetadata, SyriaSymbols, SyriaSymbolsMetadata, T3Stack, T3StackMetadata, TIDAL, TIDALMetadata, TRPC, TRPCMetadata, TailwindCSS, TailwindCSSMetadata, TaiwanSymbols, TaiwanSymbolsMetadata, TajikistanSymbols, TajikistanSymbolsMetadata, TanzaniaSymbols, TanzaniaSymbolsMetadata, Tauri, TauriMetadata, Telegram, TelegramMetadata, Terraform, TerraformMetadata, Tether, TetherMetadata, ThailandSymbols, ThailandSymbolsMetadata, Threads, ThreadsMetadata, ThreeJs, ThreeJsMetadata, TikTok, TikTokMetadata, Tina, TinaMetadata, TogetherAIWordmark, TogetherAIWordmarkMetadata, TogoSymbols, TogoSymbolsMetadata, Ton, TonMetadata, TongaSymbols, TongaSymbolsMetadata, TrinidadTobagoSymbols, TrinidadTobagoSymbolsMetadata, Tron, TronMetadata, TrustWallet, TrustWalletMetadata, TunisiaSymbols, TunisiaSymbolsMetadata, TurkeySymbols, TurkeySymbolsMetadata, TurkmenistanSymbols, TurkmenistanSymbolsMetadata, TurksAndCaicosIslandsSymbols, TurksAndCaicosIslandsSymbolsMetadata, Turso, TursoMetadata, TuvaluSymbols, TuvaluSymbolsMetadata, Twitter, TwitterMetadata, TypeORM, TypeORMMetadata, TypeScript, TypeScriptMetadata, USAVirginIslandsSymbols, USAVirginIslandsSymbolsMetadata, UgandaSymbols, UgandaSymbolsMetadata, UkraineSymbols, UkraineSymbolsMetadata, UnJS, UnJSMetadata, UnionPaySymbols, UnionPaySymbolsMetadata, UnitedArabEmiraSymbols, UnitedArabEmiraSymbolsMetadata, UnitedKingdomSymbols, UnitedKingdomSymbolsMetadata, UnitedStatesSymbols, UnitedStatesSymbolsMetadata, UnoCSS, UnoCSSMetadata, Upstash, UpstashMetadata, UruguaySymbols, UruguaySymbolsMetadata, UzbekistanSymbols, UzbekistanSymbolsMetadata, V0, V0Metadata, VK, VKMetadata, VanuatuSymbols, VanuatuSymbolsMetadata, VaticanCitySymbols, VaticanCitySymbolsMetadata, VenezuelaSymbols, VenezuelaSymbolsMetadata, Vercel, VercelMetadata, VercelWordmark, VercelWordmarkMetadata, VerifiedBadgeSymbols, VerifiedBadgeSymbolsMetadata, VietnamSymbols, VietnamSymbolsMetadata, Visa1Symbols, Visa1SymbolsMetadata, VisaSymbols, VisaSymbolsMetadata, Vitest, VitestMetadata, Vivaldi, VivaldiMetadata, Vue, VueMetadata, Vuetify, VuetifyMetadata, WalesSymbols, WalesSymbolsMetadata, WeChatPaySymbols, WeChatPaySymbolsMetadata, WebComponents, WebComponentsMetadata, WebGL, WebGLMetadata, Webflow, WebflowMetadata, WesternSaharaSymbols, WesternSaharaSymbolsMetadata, WhatsApp, WhatsAppMetadata, Windsurf, WindsurfMetadata, WindsurfWordmark, WindsurfWordmarkMetadata, WordPress, WordPressMetadata, X, XAIGrok, XAIGrokMetadata, XMetadata, Xbox, XboxMetadata, YemenSymbols, YemenSymbolsMetadata, YouTube, YouTubeMetadata, YouTubeWordmark, YouTubeWordmarkMetadata, ZambiaSymbols, ZambiaSymbolsMetadata, ZenBrowser, ZenBrowserMetadata, Zig, ZigMetadata, ZimbabweSymbols, ZimbabweSymbolsMetadata, Zoom, ZoomMetadata, allLogos };

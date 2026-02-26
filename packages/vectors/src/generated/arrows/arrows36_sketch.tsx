@@ -1,0 +1,44 @@
+/**
+ * Auto-generated logo component: Arrows36 (sketch)
+ * Category: arrows
+ * Do not edit manually
+ */
+
+'use client';
+import React from 'react';
+
+export interface Arrows36SketchProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string; 
+}
+
+export const Arrows36Sketch = React.forwardRef<SVGSVGElement, Arrows36SketchProps>(
+  ({ size = 24, className = '', ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      viewBox="0 0 500 500"
+      fill="none"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg" 
+      {...props}
+    >
+      <path fillRule="evenodd" clipRule="evenodd" d="M63.318 59.7455C36.318 88.5455 29.5184 193.345 49.7184 270.144C78.3184 378.744 139.318 413.946 249.718 385.346C308.118 370.346 399.718 343.946 399.718 345.546C399.718 345.946 392.118 356.544 382.718 369.144C352.518 409.544 344.118 431.346 354.518 441.746C358.718 445.946 361.118 443.746 377.718 419.346C377.918 419.146 401.318 383.946 448.118 326.946C475.518 293.346 459.918 293.946 425.518 293.346C389.518 292.546 367.318 289.146 340.718 283.546C325.718 280.346 305.918 273.746 302.918 292.746C300.518 307.946 326.318 320.946 371.318 325.546C389.118 327.346 387.518 328.544 353.318 337.144C336.518 341.344 312.718 347.946 300.518 351.546C166.918 391.746 111.518 366.546 80.7184 251.546C69.7184 210.746 65.1182 131.745 71.5182 99.3451C78.3182 65.5451 74.718 47.7455 63.318 59.7455Z" />
+    </svg>
+  )
+);
+
+Arrows36Sketch.displayName = "Arrows36Sketch";
+
+export const Arrows36SketchMetadata = {
+  id: "arrows36_sketch",
+  baseId: "arrows36",
+  variant: "sketch",
+  name: "Arrows36",
+  category: "arrows",
+  tags: [],
+  viewBox: "0 0 500 500",
+} as const;
+
+export default Arrows36Sketch;

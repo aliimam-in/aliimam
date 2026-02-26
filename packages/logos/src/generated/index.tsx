@@ -50,31 +50,31 @@ export { Opera, OperaMetadata } from './browser/Opera';
 export { Safari, SafariMetadata } from './browser/Safari';
 export { Vivaldi, VivaldiMetadata } from './browser/Vivaldi';
 export { ZenBrowser, ZenBrowserMetadata } from './browser/ZenBrowser';
-export { AlipayCards, AlipayCardsMetadata } from './cards/Alipay_cards';
-export { AmazonCards, AmazonCardsMetadata } from './cards/Amazon_cards';
-export { AmericanExpressCards, AmericanExpressCardsMetadata } from './cards/American-Express_cards';
-export { ApplePayCards, ApplePayCardsMetadata } from './cards/Apple-Pay_cards';
-export { BankAccountCards, BankAccountCardsMetadata } from './cards/Bank-account_cards';
-export { BitcoinCards, BitcoinCardsMetadata } from './cards/Bitcoin_cards';
-export { CVCCards, CVCCardsMetadata } from './cards/CVC_cards';
-export { DinersClubCards, DinersClubCardsMetadata } from './cards/Diners-Club_cards';
-export { DiscoverCards, DiscoverCardsMetadata } from './cards/Discover_cards';
-export { EftposCards, EftposCardsMetadata } from './cards/Eftpos_cards';
-export { Front1Cards, Front1CardsMetadata } from './cards/Front-1_cards';
-export { FrontCards, FrontCardsMetadata } from './cards/Front_cards';
-export { GooglePayCards, GooglePayCardsMetadata } from './cards/Google-Pay_cards';
-export { JCBCards, JCBCardsMetadata } from './cards/JCB_cards';
-export { MaestroCards, MaestroCardsMetadata } from './cards/Maestro_cards';
-export { Mastercard1Cards, Mastercard1CardsMetadata } from './cards/Mastercard-1_cards';
-export { MastercardCards, MastercardCardsMetadata } from './cards/Mastercard_cards';
-export { Paypal1Cards, Paypal1CardsMetadata } from './cards/Paypal-1_cards';
-export { PaypalCards, PaypalCardsMetadata } from './cards/Paypal_cards';
-export { RuPayCards, RuPayCardsMetadata } from './cards/RuPay_cards';
-export { ShopPayCards, ShopPayCardsMetadata } from './cards/Shop-Pay_cards';
-export { UnionPayCards, UnionPayCardsMetadata } from './cards/UnionPay_cards';
-export { Visa1Cards, Visa1CardsMetadata } from './cards/Visa-1_cards';
-export { VisaCards, VisaCardsMetadata } from './cards/Visa_cards';
-export { WeChatPayCards, WeChatPayCardsMetadata } from './cards/WeChat-Pay_cards';
+export { AlipaySymbols, AlipaySymbolsMetadata } from './cards/Alipay_symbols';
+export { AmazonSymbols, AmazonSymbolsMetadata } from './cards/Amazon_symbols';
+export { AmericanExpressSymbols, AmericanExpressSymbolsMetadata } from './cards/American-Express_symbols';
+export { ApplePaySymbols, ApplePaySymbolsMetadata } from './cards/Apple-Pay_symbols';
+export { BankAccountSymbols, BankAccountSymbolsMetadata } from './cards/Bank-account_symbols';
+export { BitcoinSymbols, BitcoinSymbolsMetadata } from './cards/Bitcoin_symbols';
+export { CVCSymbols, CVCSymbolsMetadata } from './cards/CVC_symbols';
+export { DinersClubSymbols, DinersClubSymbolsMetadata } from './cards/Diners-Club_symbols';
+export { DiscoverSymbols, DiscoverSymbolsMetadata } from './cards/Discover_symbols';
+export { EftposSymbols, EftposSymbolsMetadata } from './cards/Eftpos_symbols';
+export { Front1Symbols, Front1SymbolsMetadata } from './cards/Front-1_symbols';
+export { FrontSymbols, FrontSymbolsMetadata } from './cards/Front_symbols';
+export { GooglePaySymbols, GooglePaySymbolsMetadata } from './cards/Google-Pay_symbols';
+export { JCBSymbols, JCBSymbolsMetadata } from './cards/JCB_symbols';
+export { MaestroSymbols, MaestroSymbolsMetadata } from './cards/Maestro_symbols';
+export { Mastercard1Symbols, Mastercard1SymbolsMetadata } from './cards/Mastercard-1_symbols';
+export { MastercardSymbols, MastercardSymbolsMetadata } from './cards/Mastercard_symbols';
+export { Paypal1Symbols, Paypal1SymbolsMetadata } from './cards/Paypal-1_symbols';
+export { PaypalSymbols, PaypalSymbolsMetadata } from './cards/Paypal_symbols';
+export { RuPaySymbols, RuPaySymbolsMetadata } from './cards/RuPay_symbols';
+export { ShopPaySymbols, ShopPaySymbolsMetadata } from './cards/Shop-Pay_symbols';
+export { UnionPaySymbols, UnionPaySymbolsMetadata } from './cards/UnionPay_symbols';
+export { Visa1Symbols, Visa1SymbolsMetadata } from './cards/Visa-1_symbols';
+export { VisaSymbols, VisaSymbolsMetadata } from './cards/Visa_symbols';
+export { WeChatPaySymbols, WeChatPaySymbolsMetadata } from './cards/WeChat-Pay_symbols';
 export { Builder, BuilderMetadata } from './cms/Builder';
 export { Directus, DirectusMetadata } from './cms/Directus';
 export { PayloadCMS, PayloadCMSMetadata } from './cms/PayloadCMS';
@@ -134,233 +134,233 @@ export { Oxc, OxcMetadata } from './devtool/Oxc';
 export { PostHog, PostHogMetadata } from './devtool/Post-Hog';
 export { Rsbuild, RsbuildMetadata } from './devtool/Rsbuild';
 export { UnoCSS, UnoCSSMetadata } from './devtool/Uno-CSS';
-export { AalandIslandsFlags, AalandIslandsFlagsMetadata } from './flags/Aaland-Islands_flags';
-export { AfghanistanFlags, AfghanistanFlagsMetadata } from './flags/Afghanistan_flags';
-export { AlbaniaFlags, AlbaniaFlagsMetadata } from './flags/Albania_flags';
-export { AlgeriaFlags, AlgeriaFlagsMetadata } from './flags/Algeria_flags';
-export { AndorraFlags, AndorraFlagsMetadata } from './flags/Andorra_flags';
-export { AngolaFlags, AngolaFlagsMetadata } from './flags/Angola_flags';
-export { AnguillaFlags, AnguillaFlagsMetadata } from './flags/Anguilla_flags';
-export { AntarcticaFlags, AntarcticaFlagsMetadata } from './flags/Antarctica_flags';
-export { AntiguaBarbudaFlags, AntiguaBarbudaFlagsMetadata } from './flags/Antigua-Barbuda_flags';
-export { ArgentinaFlags, ArgentinaFlagsMetadata } from './flags/Argentina_flags';
-export { ArmeniaFlags, ArmeniaFlagsMetadata } from './flags/Armenia_flags';
-export { ArubaFlags, ArubaFlagsMetadata } from './flags/Aruba_flags';
-export { AustraliaFlags, AustraliaFlagsMetadata } from './flags/Australia_flags';
-export { AustriaFlags, AustriaFlagsMetadata } from './flags/Austria_flags';
-export { AzerbaijanFlags, AzerbaijanFlagsMetadata } from './flags/Azerbaijan_flags';
-export { BahamasFlags, BahamasFlagsMetadata } from './flags/Bahamas_flags';
-export { BahrainFlags, BahrainFlagsMetadata } from './flags/Bahrain_flags';
-export { BangladeshFlags, BangladeshFlagsMetadata } from './flags/Bangladesh_flags';
-export { BarbadosFlags, BarbadosFlagsMetadata } from './flags/Barbados_flags';
-export { BasqueFlags, BasqueFlagsMetadata } from './flags/Basque_flags';
-export { BelarusFlags, BelarusFlagsMetadata } from './flags/Belarus_flags';
-export { BelgiumFlags, BelgiumFlagsMetadata } from './flags/Belgium_flags';
-export { BelizeFlags, BelizeFlagsMetadata } from './flags/Belize_flags';
-export { BeninFlags, BeninFlagsMetadata } from './flags/Benin_flags';
-export { BermudaFlags, BermudaFlagsMetadata } from './flags/Bermuda_flags';
-export { BhutanFlags, BhutanFlagsMetadata } from './flags/Bhutan_flags';
-export { BoliviaFlags, BoliviaFlagsMetadata } from './flags/Bolivia_flags';
-export { BosniaHerzegovinaFlags, BosniaHerzegovinaFlagsMetadata } from './flags/Bosnia-Herzegovina_flags';
-export { BotswanaFlags, BotswanaFlagsMetadata } from './flags/Botswana_flags';
-export { BrazilFlags, BrazilFlagsMetadata } from './flags/Brazil_flags';
-export { BritishVirginIslandsFlags, BritishVirginIslandsFlagsMetadata } from './flags/British-Virgin-Islands_flags';
-export { BruneiFlags, BruneiFlagsMetadata } from './flags/Brunei_flags';
-export { BulgariaFlags, BulgariaFlagsMetadata } from './flags/Bulgaria_flags';
-export { BurkinaFasoFlags, BurkinaFasoFlagsMetadata } from './flags/Burkina-Faso_flags';
-export { BurundiFlags, BurundiFlagsMetadata } from './flags/Burundi_flags';
-export { CambodiaFlags, CambodiaFlagsMetadata } from './flags/Cambodia_flags';
-export { CameroonFlags, CameroonFlagsMetadata } from './flags/Cameroon_flags';
-export { CanadaFlags, CanadaFlagsMetadata } from './flags/Canada_flags';
-export { CanaryIslandsFlags, CanaryIslandsFlagsMetadata } from './flags/Canary-Islands_flags';
-export { CapeVerdeFlags, CapeVerdeFlagsMetadata } from './flags/Cape-Verde_flags';
-export { CaymanIslandsFlags, CaymanIslandsFlagsMetadata } from './flags/Cayman-Islands_flags';
-export { CentralAfricanRepuFlags, CentralAfricanRepuFlagsMetadata } from './flags/Central-African-Repu_flags';
-export { ChadFlags, ChadFlagsMetadata } from './flags/Chad_flags';
-export { ChileFlags, ChileFlagsMetadata } from './flags/Chile_flags';
-export { ChinaFlags, ChinaFlagsMetadata } from './flags/China_flags';
-export { ColombiaFlags, ColombiaFlagsMetadata } from './flags/Colombia_flags';
-export { ComorosFlags, ComorosFlagsMetadata } from './flags/Comoros_flags';
-export { CookIslandsFlags, CookIslandsFlagsMetadata } from './flags/Cook-Islands_flags';
-export { CostaRicaFlags, CostaRicaFlagsMetadata } from './flags/Costa-Rica_flags';
-export { CroatiaFlags, CroatiaFlagsMetadata } from './flags/Croatia_flags';
-export { CubaFlags, CubaFlagsMetadata } from './flags/Cuba_flags';
-export { CuracaoFlags, CuracaoFlagsMetadata } from './flags/Curacao_flags';
-export { CyprusFlags, CyprusFlagsMetadata } from './flags/Cyprus_flags';
-export { CzechiaFlags, CzechiaFlagsMetadata } from './flags/Czechia_flags';
-export { DemocraticRepublicOfCongoFlags, DemocraticRepublicOfCongoFlagsMetadata } from './flags/Democratic-Republic-of-Congo_flags';
-export { DenmarkFlags, DenmarkFlagsMetadata } from './flags/Denmark_flags';
-export { DjiboutiFlags, DjiboutiFlagsMetadata } from './flags/Djibouti_flags';
-export { DominicaFlags, DominicaFlagsMetadata } from './flags/Dominica_flags';
-export { DominicanRepublicFlags, DominicanRepublicFlagsMetadata } from './flags/Dominican-Republic_flags';
-export { EastTimorFlags, EastTimorFlagsMetadata } from './flags/East-Timor_flags';
-export { EcuadorFlags, EcuadorFlagsMetadata } from './flags/Ecuador_flags';
-export { EgyptFlags, EgyptFlagsMetadata } from './flags/Egypt_flags';
-export { ElSalvadorFlags, ElSalvadorFlagsMetadata } from './flags/El-Salvador_flags';
-export { EnglandFlags, EnglandFlagsMetadata } from './flags/England_flags';
-export { EquatorialGuineaFlags, EquatorialGuineaFlagsMetadata } from './flags/Equatorial-Guinea_flags';
-export { EritreaFlags, EritreaFlagsMetadata } from './flags/Eritrea_flags';
-export { EstoniaFlags, EstoniaFlagsMetadata } from './flags/Estonia_flags';
-export { EswatiniFlags, EswatiniFlagsMetadata } from './flags/Eswatini_flags';
-export { EthiopiaFlags, EthiopiaFlagsMetadata } from './flags/Ethiopia_flags';
-export { EuropeFlags, EuropeFlagsMetadata } from './flags/Europe_flags';
-export { FalklandIslandsFlags, FalklandIslandsFlagsMetadata } from './flags/Falkland-Islands_flags';
-export { FaroeIslandsFlags, FaroeIslandsFlagsMetadata } from './flags/Faroe-Islands_flags';
-export { FijiFlags, FijiFlagsMetadata } from './flags/Fiji_flags';
-export { FinlandFlags, FinlandFlagsMetadata } from './flags/Finland_flags';
-export { FranceFlags, FranceFlagsMetadata } from './flags/France_flags';
-export { FrenchGuianaFlags, FrenchGuianaFlagsMetadata } from './flags/French-Guiana_flags';
-export { FrenchPolynesiaFlags, FrenchPolynesiaFlagsMetadata } from './flags/French-Polynesia_flags';
-export { GabonFlags, GabonFlagsMetadata } from './flags/Gabon_flags';
-export { GambiaFlags, GambiaFlagsMetadata } from './flags/Gambia_flags';
-export { GeorgiaFlags, GeorgiaFlagsMetadata } from './flags/Georgia_flags';
-export { GermanyFlags, GermanyFlagsMetadata } from './flags/Germany_flags';
-export { GhanaFlags, GhanaFlagsMetadata } from './flags/Ghana_flags';
-export { GibraltarFlags, GibraltarFlagsMetadata } from './flags/Gibraltar_flags';
-export { GreeceFlags, GreeceFlagsMetadata } from './flags/Greece_flags';
-export { GreenlandFlags, GreenlandFlagsMetadata } from './flags/Greenland_flags';
-export { GrenadaFlags, GrenadaFlagsMetadata } from './flags/Grenada_flags';
-export { GuadeloupeFlags, GuadeloupeFlagsMetadata } from './flags/Guadeloupe_flags';
-export { GuatemalaFlags, GuatemalaFlagsMetadata } from './flags/Guatemala_flags';
-export { GuernseyFlags, GuernseyFlagsMetadata } from './flags/Guernsey_flags';
-export { GuineaBissauFlags, GuineaBissauFlagsMetadata } from './flags/Guinea-Bissau_flags';
-export { GuineaFlags, GuineaFlagsMetadata } from './flags/Guinea_flags';
-export { GuyanaFlags, GuyanaFlagsMetadata } from './flags/Guyana_flags';
-export { HaitiFlags, HaitiFlagsMetadata } from './flags/Haiti_flags';
-export { HawaiiFlags, HawaiiFlagsMetadata } from './flags/Hawaii_flags';
-export { HondurasFlags, HondurasFlagsMetadata } from './flags/Honduras_flags';
-export { HongKongFlags, HongKongFlagsMetadata } from './flags/Hong-Kong_flags';
-export { HungaryFlags, HungaryFlagsMetadata } from './flags/Hungary_flags';
-export { IcelandFlags, IcelandFlagsMetadata } from './flags/Iceland_flags';
-export { IndiaFlags, IndiaFlagsMetadata } from './flags/India_flags';
-export { IndonesiaFlags, IndonesiaFlagsMetadata } from './flags/Indonesia_flags';
-export { IranFlags, IranFlagsMetadata } from './flags/Iran_flags';
-export { IraqFlags, IraqFlagsMetadata } from './flags/Iraq_flags';
-export { IrelandFlags, IrelandFlagsMetadata } from './flags/Ireland_flags';
-export { IsleOfManFlags, IsleOfManFlagsMetadata } from './flags/Isle-Of-Man_flags';
-export { IsraelFlags, IsraelFlagsMetadata } from './flags/Israel_flags';
-export { ItalyFlags, ItalyFlagsMetadata } from './flags/Italy_flags';
-export { IvoryCoastFlags, IvoryCoastFlagsMetadata } from './flags/Ivory-Coast_flags';
-export { JamaicaFlags, JamaicaFlagsMetadata } from './flags/Jamaica_flags';
-export { JapanFlags, JapanFlagsMetadata } from './flags/Japan_flags';
-export { JerseyFlags, JerseyFlagsMetadata } from './flags/Jersey_flags';
-export { JordanFlags, JordanFlagsMetadata } from './flags/Jordan_flags';
-export { KazakhstanFlags, KazakhstanFlagsMetadata } from './flags/Kazakhstan_flags';
-export { KenyaFlags, KenyaFlagsMetadata } from './flags/Kenya_flags';
-export { KiribatiFlags, KiribatiFlagsMetadata } from './flags/Kiribati_flags';
-export { KosovoFlags, KosovoFlagsMetadata } from './flags/Kosovo_flags';
-export { KurdistanFlags, KurdistanFlagsMetadata } from './flags/Kurdistan_flags';
-export { KuwaitFlags, KuwaitFlagsMetadata } from './flags/Kuwait_flags';
-export { KyrgyzstanFlags, KyrgyzstanFlagsMetadata } from './flags/Kyrgyzstan_flags';
-export { LaosFlags, LaosFlagsMetadata } from './flags/Laos_flags';
-export { LatviaFlags, LatviaFlagsMetadata } from './flags/Latvia_flags';
-export { LebanonFlags, LebanonFlagsMetadata } from './flags/Lebanon_flags';
-export { LesothoFlags, LesothoFlagsMetadata } from './flags/Lesotho_flags';
-export { LiberiaFlags, LiberiaFlagsMetadata } from './flags/Liberia_flags';
-export { LibyaFlags, LibyaFlagsMetadata } from './flags/Libya_flags';
-export { LiechtensteinFlags, LiechtensteinFlagsMetadata } from './flags/Liechtenstein_flags';
-export { LithuaniaFlags, LithuaniaFlagsMetadata } from './flags/Lithuania_flags';
-export { LuxembourgFlags, LuxembourgFlagsMetadata } from './flags/Luxembourg_flags';
-export { MacauFlags, MacauFlagsMetadata } from './flags/Macau_flags';
-export { MadagascarFlags, MadagascarFlagsMetadata } from './flags/Madagascar_flags';
-export { MalawiFlags, MalawiFlagsMetadata } from './flags/Malawi_flags';
-export { MalaysiaFlags, MalaysiaFlagsMetadata } from './flags/Malaysia_flags';
-export { MaldivesFlags, MaldivesFlagsMetadata } from './flags/Maldives_flags';
-export { MaliFlags, MaliFlagsMetadata } from './flags/Mali_flags';
-export { MaltaFlags, MaltaFlagsMetadata } from './flags/Malta_flags';
-export { MarshallIslandsFlags, MarshallIslandsFlagsMetadata } from './flags/Marshall-Islands_flags';
-export { MartiniqueFlags, MartiniqueFlagsMetadata } from './flags/Martinique_flags';
-export { MauritaniaFlags, MauritaniaFlagsMetadata } from './flags/Mauritania_flags';
-export { MauritiusFlags, MauritiusFlagsMetadata } from './flags/Mauritius_flags';
-export { MexicoFlags, MexicoFlagsMetadata } from './flags/Mexico_flags';
-export { MicronesiaFlags, MicronesiaFlagsMetadata } from './flags/Micronesia_flags';
-export { MoldovaFlags, MoldovaFlagsMetadata } from './flags/Moldova_flags';
-export { MonacoFlags, MonacoFlagsMetadata } from './flags/Monaco_flags';
-export { MongoliaFlags, MongoliaFlagsMetadata } from './flags/Mongolia_flags';
-export { MontenegroFlags, MontenegroFlagsMetadata } from './flags/Montenegro_flags';
-export { MoroccoFlags, MoroccoFlagsMetadata } from './flags/Morocco_flags';
-export { MozanbiqueFlags, MozanbiqueFlagsMetadata } from './flags/Mozanbique_flags';
-export { MyanmarFlags, MyanmarFlagsMetadata } from './flags/Myanmar_flags';
-export { NamibiaFlags, NamibiaFlagsMetadata } from './flags/Namibia_flags';
-export { NauruFlags, NauruFlagsMetadata } from './flags/Nauru_flags';
-export { NepalFlags, NepalFlagsMetadata } from './flags/Nepal_flags';
-export { NetherlandsAntillesFlags, NetherlandsAntillesFlagsMetadata } from './flags/Netherlands-Antilles_flags';
-export { NetherlandsFlags, NetherlandsFlagsMetadata } from './flags/Netherlands_flags';
-export { NewCaledoniaFlags, NewCaledoniaFlagsMetadata } from './flags/New-Caledonia_flags';
-export { NewZealandFlags, NewZealandFlagsMetadata } from './flags/New-Zealand_flags';
-export { NicaraguaFlags, NicaraguaFlagsMetadata } from './flags/Nicaragua_flags';
-export { NigerFlags, NigerFlagsMetadata } from './flags/Niger_flags';
-export { NigeriaFlags, NigeriaFlagsMetadata } from './flags/Nigeria_flags';
-export { NiueFlags, NiueFlagsMetadata } from './flags/Niue_flags';
-export { NorthKoreaFlags, NorthKoreaFlagsMetadata } from './flags/North-Korea_flags';
-export { NorthMacedoniaFlags, NorthMacedoniaFlagsMetadata } from './flags/North-Macedonia_flags';
-export { NorthenIrelandFlags, NorthenIrelandFlagsMetadata } from './flags/Northen-Ireland_flags';
-export { NorwayFlags, NorwayFlagsMetadata } from './flags/Norway_flags';
-export { OmanFlags, OmanFlagsMetadata } from './flags/Oman_flags';
-export { PakistanFlags, PakistanFlagsMetadata } from './flags/Pakistan_flags';
-export { PalauFlags, PalauFlagsMetadata } from './flags/Palau_flags';
-export { PalestineFlags, PalestineFlagsMetadata } from './flags/Palestine_flags';
-export { PanamaFlags, PanamaFlagsMetadata } from './flags/Panama_flags';
-export { PapuaNewGuineaFlags, PapuaNewGuineaFlagsMetadata } from './flags/Papua-New-Guinea_flags';
-export { ParaguayFlags, ParaguayFlagsMetadata } from './flags/Paraguay_flags';
-export { PeruFlags, PeruFlagsMetadata } from './flags/Peru_flags';
-export { PhilippinesFlags, PhilippinesFlagsMetadata } from './flags/Philippines_flags';
-export { PolandFlags, PolandFlagsMetadata } from './flags/Poland_flags';
-export { PortugalFlags, PortugalFlagsMetadata } from './flags/Portugal_flags';
-export { PuertoRicoFlags, PuertoRicoFlagsMetadata } from './flags/Puerto-Rico_flags';
-export { QatarFlags, QatarFlagsMetadata } from './flags/Qatar_flags';
-export { RepublicCongoFlags, RepublicCongoFlagsMetadata } from './flags/Republic-Congo_flags';
-export { RomaniaFlags, RomaniaFlagsMetadata } from './flags/Romania_flags';
-export { RussiaFlags, RussiaFlagsMetadata } from './flags/Russia_flags';
-export { RwandaFlags, RwandaFlagsMetadata } from './flags/Rwanda_flags';
-export { SaintKittsNevisFlags, SaintKittsNevisFlagsMetadata } from './flags/Saint-Kitts-Nevis_flags';
-export { SierraLeoneFlags, SierraLeoneFlagsMetadata } from './flags/Sierra-Leone_flags';
-export { SingaporeFlags, SingaporeFlagsMetadata } from './flags/Singapore_flags';
-export { SintMaartenFlags, SintMaartenFlagsMetadata } from './flags/Sint-Maarten_flags';
-export { SlovakiaFlags, SlovakiaFlagsMetadata } from './flags/Slovakia_flags';
-export { SloveniaFlags, SloveniaFlagsMetadata } from './flags/Slovenia_flags';
-export { SolomonIslandsFlags, SolomonIslandsFlagsMetadata } from './flags/Solomon-Islands_flags';
-export { SomaliaFlags, SomaliaFlagsMetadata } from './flags/Somalia_flags';
-export { SouthAfricaFlags, SouthAfricaFlagsMetadata } from './flags/South-Africa_flags';
-export { SouthGeorgiaSandwichIslandsFlags, SouthGeorgiaSandwichIslandsFlagsMetadata } from './flags/South-Georgia-Sandwich-Islands_flags';
-export { SouthKoreaFlags, SouthKoreaFlagsMetadata } from './flags/South-Korea_flags';
-export { SouthSudanFlags, SouthSudanFlagsMetadata } from './flags/South-Sudan_flags';
-export { SpainFlags, SpainFlagsMetadata } from './flags/Spain_flags';
-export { SriLankaFlags, SriLankaFlagsMetadata } from './flags/Sri-Lanka_flags';
-export { SudanFlags, SudanFlagsMetadata } from './flags/Sudan_flags';
-export { SurinameFlags, SurinameFlagsMetadata } from './flags/Suriname_flags';
-export { SwedenFlags, SwedenFlagsMetadata } from './flags/Sweden_flags';
-export { SwitzerlandFlags, SwitzerlandFlagsMetadata } from './flags/Switzerland_flags';
-export { SyriaFlags, SyriaFlagsMetadata } from './flags/Syria_flags';
-export { TaiwanFlags, TaiwanFlagsMetadata } from './flags/Taiwan_flags';
-export { TajikistanFlags, TajikistanFlagsMetadata } from './flags/Tajikistan_flags';
-export { TanzaniaFlags, TanzaniaFlagsMetadata } from './flags/Tanzania_flags';
-export { ThailandFlags, ThailandFlagsMetadata } from './flags/Thailand_flags';
-export { TogoFlags, TogoFlagsMetadata } from './flags/Togo_flags';
-export { TongaFlags, TongaFlagsMetadata } from './flags/Tonga_flags';
-export { TrinidadTobagoFlags, TrinidadTobagoFlagsMetadata } from './flags/Trinidad-Tobago_flags';
-export { TunisiaFlags, TunisiaFlagsMetadata } from './flags/Tunisia_flags';
-export { TurkeyFlags, TurkeyFlagsMetadata } from './flags/Turkey_flags';
-export { TurkmenistanFlags, TurkmenistanFlagsMetadata } from './flags/Turkmenistan_flags';
-export { TurksAndCaicosIslandsFlags, TurksAndCaicosIslandsFlagsMetadata } from './flags/Turks-And-Caicos-Islands_flags';
-export { TuvaluFlags, TuvaluFlagsMetadata } from './flags/Tuvalu_flags';
-export { USAVirginIslandsFlags, USAVirginIslandsFlagsMetadata } from './flags/USA-Virgin-Islands_flags';
-export { UgandaFlags, UgandaFlagsMetadata } from './flags/Uganda_flags';
-export { UkraineFlags, UkraineFlagsMetadata } from './flags/Ukraine_flags';
-export { UnitedArabEmiraFlags, UnitedArabEmiraFlagsMetadata } from './flags/United-Arab-Emira_flags';
-export { UnitedKingdomFlags, UnitedKingdomFlagsMetadata } from './flags/United-Kingdom_flags';
-export { UnitedStatesFlags, UnitedStatesFlagsMetadata } from './flags/United-States_flags';
-export { UruguayFlags, UruguayFlagsMetadata } from './flags/Uruguay_flags';
-export { UzbekistanFlags, UzbekistanFlagsMetadata } from './flags/Uzbekistan_flags';
-export { VanuatuFlags, VanuatuFlagsMetadata } from './flags/Vanuatu_flags';
-export { VaticanCityFlags, VaticanCityFlagsMetadata } from './flags/Vatican-City_flags';
-export { VenezuelaFlags, VenezuelaFlagsMetadata } from './flags/Venezuela_flags';
-export { VietnamFlags, VietnamFlagsMetadata } from './flags/Vietnam_flags';
-export { WalesFlags, WalesFlagsMetadata } from './flags/Wales_flags';
-export { WesternSaharaFlags, WesternSaharaFlagsMetadata } from './flags/Western-Sahara_flags';
-export { YemenFlags, YemenFlagsMetadata } from './flags/Yemen_flags';
-export { ZambiaFlags, ZambiaFlagsMetadata } from './flags/Zambia_flags';
-export { ZimbabweFlags, ZimbabweFlagsMetadata } from './flags/Zimbabwe_flags';
+export { AalandIslandsSymbols, AalandIslandsSymbolsMetadata } from './flags/Aaland-Islands_symbols';
+export { AfghanistanSymbols, AfghanistanSymbolsMetadata } from './flags/Afghanistan_symbols';
+export { AlbaniaSymbols, AlbaniaSymbolsMetadata } from './flags/Albania_symbols';
+export { AlgeriaSymbols, AlgeriaSymbolsMetadata } from './flags/Algeria_symbols';
+export { AndorraSymbols, AndorraSymbolsMetadata } from './flags/Andorra_symbols';
+export { AngolaSymbols, AngolaSymbolsMetadata } from './flags/Angola_symbols';
+export { AnguillaSymbols, AnguillaSymbolsMetadata } from './flags/Anguilla_symbols';
+export { AntarcticaSymbols, AntarcticaSymbolsMetadata } from './flags/Antarctica_symbols';
+export { AntiguaBarbudaSymbols, AntiguaBarbudaSymbolsMetadata } from './flags/Antigua-Barbuda_symbols';
+export { ArgentinaSymbols, ArgentinaSymbolsMetadata } from './flags/Argentina_symbols';
+export { ArmeniaSymbols, ArmeniaSymbolsMetadata } from './flags/Armenia_symbols';
+export { ArubaSymbols, ArubaSymbolsMetadata } from './flags/Aruba_symbols';
+export { AustraliaSymbols, AustraliaSymbolsMetadata } from './flags/Australia_symbols';
+export { AustriaSymbols, AustriaSymbolsMetadata } from './flags/Austria_symbols';
+export { AzerbaijanSymbols, AzerbaijanSymbolsMetadata } from './flags/Azerbaijan_symbols';
+export { BahamasSymbols, BahamasSymbolsMetadata } from './flags/Bahamas_symbols';
+export { BahrainSymbols, BahrainSymbolsMetadata } from './flags/Bahrain_symbols';
+export { BangladeshSymbols, BangladeshSymbolsMetadata } from './flags/Bangladesh_symbols';
+export { BarbadosSymbols, BarbadosSymbolsMetadata } from './flags/Barbados_symbols';
+export { BasqueSymbols, BasqueSymbolsMetadata } from './flags/Basque_symbols';
+export { BelarusSymbols, BelarusSymbolsMetadata } from './flags/Belarus_symbols';
+export { BelgiumSymbols, BelgiumSymbolsMetadata } from './flags/Belgium_symbols';
+export { BelizeSymbols, BelizeSymbolsMetadata } from './flags/Belize_symbols';
+export { BeninSymbols, BeninSymbolsMetadata } from './flags/Benin_symbols';
+export { BermudaSymbols, BermudaSymbolsMetadata } from './flags/Bermuda_symbols';
+export { BhutanSymbols, BhutanSymbolsMetadata } from './flags/Bhutan_symbols';
+export { BoliviaSymbols, BoliviaSymbolsMetadata } from './flags/Bolivia_symbols';
+export { BosniaHerzegovinaSymbols, BosniaHerzegovinaSymbolsMetadata } from './flags/Bosnia-Herzegovina_symbols';
+export { BotswanaSymbols, BotswanaSymbolsMetadata } from './flags/Botswana_symbols';
+export { BrazilSymbols, BrazilSymbolsMetadata } from './flags/Brazil_symbols';
+export { BritishVirginIslandsSymbols, BritishVirginIslandsSymbolsMetadata } from './flags/British-Virgin-Islands_symbols';
+export { BruneiSymbols, BruneiSymbolsMetadata } from './flags/Brunei_symbols';
+export { BulgariaSymbols, BulgariaSymbolsMetadata } from './flags/Bulgaria_symbols';
+export { BurkinaFasoSymbols, BurkinaFasoSymbolsMetadata } from './flags/Burkina-Faso_symbols';
+export { BurundiSymbols, BurundiSymbolsMetadata } from './flags/Burundi_symbols';
+export { CambodiaSymbols, CambodiaSymbolsMetadata } from './flags/Cambodia_symbols';
+export { CameroonSymbols, CameroonSymbolsMetadata } from './flags/Cameroon_symbols';
+export { CanadaSymbols, CanadaSymbolsMetadata } from './flags/Canada_symbols';
+export { CanaryIslandsSymbols, CanaryIslandsSymbolsMetadata } from './flags/Canary-Islands_symbols';
+export { CapeVerdeSymbols, CapeVerdeSymbolsMetadata } from './flags/Cape-Verde_symbols';
+export { CaymanIslandsSymbols, CaymanIslandsSymbolsMetadata } from './flags/Cayman-Islands_symbols';
+export { CentralAfricanRepuSymbols, CentralAfricanRepuSymbolsMetadata } from './flags/Central-African-Repu_symbols';
+export { ChadSymbols, ChadSymbolsMetadata } from './flags/Chad_symbols';
+export { ChileSymbols, ChileSymbolsMetadata } from './flags/Chile_symbols';
+export { ChinaSymbols, ChinaSymbolsMetadata } from './flags/China_symbols';
+export { ColombiaSymbols, ColombiaSymbolsMetadata } from './flags/Colombia_symbols';
+export { ComorosSymbols, ComorosSymbolsMetadata } from './flags/Comoros_symbols';
+export { CookIslandsSymbols, CookIslandsSymbolsMetadata } from './flags/Cook-Islands_symbols';
+export { CostaRicaSymbols, CostaRicaSymbolsMetadata } from './flags/Costa-Rica_symbols';
+export { CroatiaSymbols, CroatiaSymbolsMetadata } from './flags/Croatia_symbols';
+export { CubaSymbols, CubaSymbolsMetadata } from './flags/Cuba_symbols';
+export { CuracaoSymbols, CuracaoSymbolsMetadata } from './flags/Curacao_symbols';
+export { CyprusSymbols, CyprusSymbolsMetadata } from './flags/Cyprus_symbols';
+export { CzechiaSymbols, CzechiaSymbolsMetadata } from './flags/Czechia_symbols';
+export { DemocraticRepublicOfCongoSymbols, DemocraticRepublicOfCongoSymbolsMetadata } from './flags/Democratic-Republic-of-Congo_symbols';
+export { DenmarkSymbols, DenmarkSymbolsMetadata } from './flags/Denmark_symbols';
+export { DjiboutiSymbols, DjiboutiSymbolsMetadata } from './flags/Djibouti_symbols';
+export { DominicaSymbols, DominicaSymbolsMetadata } from './flags/Dominica_symbols';
+export { DominicanRepublicSymbols, DominicanRepublicSymbolsMetadata } from './flags/Dominican-Republic_symbols';
+export { EastTimorSymbols, EastTimorSymbolsMetadata } from './flags/East-Timor_symbols';
+export { EcuadorSymbols, EcuadorSymbolsMetadata } from './flags/Ecuador_symbols';
+export { EgyptSymbols, EgyptSymbolsMetadata } from './flags/Egypt_symbols';
+export { ElSalvadorSymbols, ElSalvadorSymbolsMetadata } from './flags/El-Salvador_symbols';
+export { EnglandSymbols, EnglandSymbolsMetadata } from './flags/England_symbols';
+export { EquatorialGuineaSymbols, EquatorialGuineaSymbolsMetadata } from './flags/Equatorial-Guinea_symbols';
+export { EritreaSymbols, EritreaSymbolsMetadata } from './flags/Eritrea_symbols';
+export { EstoniaSymbols, EstoniaSymbolsMetadata } from './flags/Estonia_symbols';
+export { EswatiniSymbols, EswatiniSymbolsMetadata } from './flags/Eswatini_symbols';
+export { EthiopiaSymbols, EthiopiaSymbolsMetadata } from './flags/Ethiopia_symbols';
+export { EuropeSymbols, EuropeSymbolsMetadata } from './flags/Europe_symbols';
+export { FalklandIslandsSymbols, FalklandIslandsSymbolsMetadata } from './flags/Falkland-Islands_symbols';
+export { FaroeIslandsSymbols, FaroeIslandsSymbolsMetadata } from './flags/Faroe-Islands_symbols';
+export { FijiSymbols, FijiSymbolsMetadata } from './flags/Fiji_symbols';
+export { FinlandSymbols, FinlandSymbolsMetadata } from './flags/Finland_symbols';
+export { FranceSymbols, FranceSymbolsMetadata } from './flags/France_symbols';
+export { FrenchGuianaSymbols, FrenchGuianaSymbolsMetadata } from './flags/French-Guiana_symbols';
+export { FrenchPolynesiaSymbols, FrenchPolynesiaSymbolsMetadata } from './flags/French-Polynesia_symbols';
+export { GabonSymbols, GabonSymbolsMetadata } from './flags/Gabon_symbols';
+export { GambiaSymbols, GambiaSymbolsMetadata } from './flags/Gambia_symbols';
+export { GeorgiaSymbols, GeorgiaSymbolsMetadata } from './flags/Georgia_symbols';
+export { GermanySymbols, GermanySymbolsMetadata } from './flags/Germany_symbols';
+export { GhanaSymbols, GhanaSymbolsMetadata } from './flags/Ghana_symbols';
+export { GibraltarSymbols, GibraltarSymbolsMetadata } from './flags/Gibraltar_symbols';
+export { GreeceSymbols, GreeceSymbolsMetadata } from './flags/Greece_symbols';
+export { GreenlandSymbols, GreenlandSymbolsMetadata } from './flags/Greenland_symbols';
+export { GrenadaSymbols, GrenadaSymbolsMetadata } from './flags/Grenada_symbols';
+export { GuadeloupeSymbols, GuadeloupeSymbolsMetadata } from './flags/Guadeloupe_symbols';
+export { GuatemalaSymbols, GuatemalaSymbolsMetadata } from './flags/Guatemala_symbols';
+export { GuernseySymbols, GuernseySymbolsMetadata } from './flags/Guernsey_symbols';
+export { GuineaBissauSymbols, GuineaBissauSymbolsMetadata } from './flags/Guinea-Bissau_symbols';
+export { GuineaSymbols, GuineaSymbolsMetadata } from './flags/Guinea_symbols';
+export { GuyanaSymbols, GuyanaSymbolsMetadata } from './flags/Guyana_symbols';
+export { HaitiSymbols, HaitiSymbolsMetadata } from './flags/Haiti_symbols';
+export { HawaiiSymbols, HawaiiSymbolsMetadata } from './flags/Hawaii_symbols';
+export { HondurasSymbols, HondurasSymbolsMetadata } from './flags/Honduras_symbols';
+export { HongKongSymbols, HongKongSymbolsMetadata } from './flags/Hong-Kong_symbols';
+export { HungarySymbols, HungarySymbolsMetadata } from './flags/Hungary_symbols';
+export { IcelandSymbols, IcelandSymbolsMetadata } from './flags/Iceland_symbols';
+export { IndiaSymbols, IndiaSymbolsMetadata } from './flags/India_symbols';
+export { IndonesiaSymbols, IndonesiaSymbolsMetadata } from './flags/Indonesia_symbols';
+export { IranSymbols, IranSymbolsMetadata } from './flags/Iran_symbols';
+export { IraqSymbols, IraqSymbolsMetadata } from './flags/Iraq_symbols';
+export { IrelandSymbols, IrelandSymbolsMetadata } from './flags/Ireland_symbols';
+export { IsleOfManSymbols, IsleOfManSymbolsMetadata } from './flags/Isle-Of-Man_symbols';
+export { IsraelSymbols, IsraelSymbolsMetadata } from './flags/Israel_symbols';
+export { ItalySymbols, ItalySymbolsMetadata } from './flags/Italy_symbols';
+export { IvoryCoastSymbols, IvoryCoastSymbolsMetadata } from './flags/Ivory-Coast_symbols';
+export { JamaicaSymbols, JamaicaSymbolsMetadata } from './flags/Jamaica_symbols';
+export { JapanSymbols, JapanSymbolsMetadata } from './flags/Japan_symbols';
+export { JerseySymbols, JerseySymbolsMetadata } from './flags/Jersey_symbols';
+export { JordanSymbols, JordanSymbolsMetadata } from './flags/Jordan_symbols';
+export { KazakhstanSymbols, KazakhstanSymbolsMetadata } from './flags/Kazakhstan_symbols';
+export { KenyaSymbols, KenyaSymbolsMetadata } from './flags/Kenya_symbols';
+export { KiribatiSymbols, KiribatiSymbolsMetadata } from './flags/Kiribati_symbols';
+export { KosovoSymbols, KosovoSymbolsMetadata } from './flags/Kosovo_symbols';
+export { KurdistanSymbols, KurdistanSymbolsMetadata } from './flags/Kurdistan_symbols';
+export { KuwaitSymbols, KuwaitSymbolsMetadata } from './flags/Kuwait_symbols';
+export { KyrgyzstanSymbols, KyrgyzstanSymbolsMetadata } from './flags/Kyrgyzstan_symbols';
+export { LaosSymbols, LaosSymbolsMetadata } from './flags/Laos_symbols';
+export { LatviaSymbols, LatviaSymbolsMetadata } from './flags/Latvia_symbols';
+export { LebanonSymbols, LebanonSymbolsMetadata } from './flags/Lebanon_symbols';
+export { LesothoSymbols, LesothoSymbolsMetadata } from './flags/Lesotho_symbols';
+export { LiberiaSymbols, LiberiaSymbolsMetadata } from './flags/Liberia_symbols';
+export { LibyaSymbols, LibyaSymbolsMetadata } from './flags/Libya_symbols';
+export { LiechtensteinSymbols, LiechtensteinSymbolsMetadata } from './flags/Liechtenstein_symbols';
+export { LithuaniaSymbols, LithuaniaSymbolsMetadata } from './flags/Lithuania_symbols';
+export { LuxembourgSymbols, LuxembourgSymbolsMetadata } from './flags/Luxembourg_symbols';
+export { MacauSymbols, MacauSymbolsMetadata } from './flags/Macau_symbols';
+export { MadagascarSymbols, MadagascarSymbolsMetadata } from './flags/Madagascar_symbols';
+export { MalawiSymbols, MalawiSymbolsMetadata } from './flags/Malawi_symbols';
+export { MalaysiaSymbols, MalaysiaSymbolsMetadata } from './flags/Malaysia_symbols';
+export { MaldivesSymbols, MaldivesSymbolsMetadata } from './flags/Maldives_symbols';
+export { MaliSymbols, MaliSymbolsMetadata } from './flags/Mali_symbols';
+export { MaltaSymbols, MaltaSymbolsMetadata } from './flags/Malta_symbols';
+export { MarshallIslandsSymbols, MarshallIslandsSymbolsMetadata } from './flags/Marshall-Islands_symbols';
+export { MartiniqueSymbols, MartiniqueSymbolsMetadata } from './flags/Martinique_symbols';
+export { MauritaniaSymbols, MauritaniaSymbolsMetadata } from './flags/Mauritania_symbols';
+export { MauritiusSymbols, MauritiusSymbolsMetadata } from './flags/Mauritius_symbols';
+export { MexicoSymbols, MexicoSymbolsMetadata } from './flags/Mexico_symbols';
+export { MicronesiaSymbols, MicronesiaSymbolsMetadata } from './flags/Micronesia_symbols';
+export { MoldovaSymbols, MoldovaSymbolsMetadata } from './flags/Moldova_symbols';
+export { MonacoSymbols, MonacoSymbolsMetadata } from './flags/Monaco_symbols';
+export { MongoliaSymbols, MongoliaSymbolsMetadata } from './flags/Mongolia_symbols';
+export { MontenegroSymbols, MontenegroSymbolsMetadata } from './flags/Montenegro_symbols';
+export { MoroccoSymbols, MoroccoSymbolsMetadata } from './flags/Morocco_symbols';
+export { MozanbiqueSymbols, MozanbiqueSymbolsMetadata } from './flags/Mozanbique_symbols';
+export { MyanmarSymbols, MyanmarSymbolsMetadata } from './flags/Myanmar_symbols';
+export { NamibiaSymbols, NamibiaSymbolsMetadata } from './flags/Namibia_symbols';
+export { NauruSymbols, NauruSymbolsMetadata } from './flags/Nauru_symbols';
+export { NepalSymbols, NepalSymbolsMetadata } from './flags/Nepal_symbols';
+export { NetherlandsAntillesSymbols, NetherlandsAntillesSymbolsMetadata } from './flags/Netherlands-Antilles_symbols';
+export { NetherlandsSymbols, NetherlandsSymbolsMetadata } from './flags/Netherlands_symbols';
+export { NewCaledoniaSymbols, NewCaledoniaSymbolsMetadata } from './flags/New-Caledonia_symbols';
+export { NewZealandSymbols, NewZealandSymbolsMetadata } from './flags/New-Zealand_symbols';
+export { NicaraguaSymbols, NicaraguaSymbolsMetadata } from './flags/Nicaragua_symbols';
+export { NigerSymbols, NigerSymbolsMetadata } from './flags/Niger_symbols';
+export { NigeriaSymbols, NigeriaSymbolsMetadata } from './flags/Nigeria_symbols';
+export { NiueSymbols, NiueSymbolsMetadata } from './flags/Niue_symbols';
+export { NorthKoreaSymbols, NorthKoreaSymbolsMetadata } from './flags/North-Korea_symbols';
+export { NorthMacedoniaSymbols, NorthMacedoniaSymbolsMetadata } from './flags/North-Macedonia_symbols';
+export { NorthenIrelandSymbols, NorthenIrelandSymbolsMetadata } from './flags/Northen-Ireland_symbols';
+export { NorwaySymbols, NorwaySymbolsMetadata } from './flags/Norway_symbols';
+export { OmanSymbols, OmanSymbolsMetadata } from './flags/Oman_symbols';
+export { PakistanSymbols, PakistanSymbolsMetadata } from './flags/Pakistan_symbols';
+export { PalauSymbols, PalauSymbolsMetadata } from './flags/Palau_symbols';
+export { PalestineSymbols, PalestineSymbolsMetadata } from './flags/Palestine_symbols';
+export { PanamaSymbols, PanamaSymbolsMetadata } from './flags/Panama_symbols';
+export { PapuaNewGuineaSymbols, PapuaNewGuineaSymbolsMetadata } from './flags/Papua-New-Guinea_symbols';
+export { ParaguaySymbols, ParaguaySymbolsMetadata } from './flags/Paraguay_symbols';
+export { PeruSymbols, PeruSymbolsMetadata } from './flags/Peru_symbols';
+export { PhilippinesSymbols, PhilippinesSymbolsMetadata } from './flags/Philippines_symbols';
+export { PolandSymbols, PolandSymbolsMetadata } from './flags/Poland_symbols';
+export { PortugalSymbols, PortugalSymbolsMetadata } from './flags/Portugal_symbols';
+export { PuertoRicoSymbols, PuertoRicoSymbolsMetadata } from './flags/Puerto-Rico_symbols';
+export { QatarSymbols, QatarSymbolsMetadata } from './flags/Qatar_symbols';
+export { RepublicCongoSymbols, RepublicCongoSymbolsMetadata } from './flags/Republic-Congo_symbols';
+export { RomaniaSymbols, RomaniaSymbolsMetadata } from './flags/Romania_symbols';
+export { RussiaSymbols, RussiaSymbolsMetadata } from './flags/Russia_symbols';
+export { RwandaSymbols, RwandaSymbolsMetadata } from './flags/Rwanda_symbols';
+export { SaintKittsNevisSymbols, SaintKittsNevisSymbolsMetadata } from './flags/Saint-Kitts-Nevis_symbols';
+export { SierraLeoneSymbols, SierraLeoneSymbolsMetadata } from './flags/Sierra-Leone_symbols';
+export { SingaporeSymbols, SingaporeSymbolsMetadata } from './flags/Singapore_symbols';
+export { SintMaartenSymbols, SintMaartenSymbolsMetadata } from './flags/Sint-Maarten_symbols';
+export { SlovakiaSymbols, SlovakiaSymbolsMetadata } from './flags/Slovakia_symbols';
+export { SloveniaSymbols, SloveniaSymbolsMetadata } from './flags/Slovenia_symbols';
+export { SolomonIslandsSymbols, SolomonIslandsSymbolsMetadata } from './flags/Solomon-Islands_symbols';
+export { SomaliaSymbols, SomaliaSymbolsMetadata } from './flags/Somalia_symbols';
+export { SouthAfricaSymbols, SouthAfricaSymbolsMetadata } from './flags/South-Africa_symbols';
+export { SouthGeorgiaSandwichIslandsSymbols, SouthGeorgiaSandwichIslandsSymbolsMetadata } from './flags/South-Georgia-Sandwich-Islands_symbols';
+export { SouthKoreaSymbols, SouthKoreaSymbolsMetadata } from './flags/South-Korea_symbols';
+export { SouthSudanSymbols, SouthSudanSymbolsMetadata } from './flags/South-Sudan_symbols';
+export { SpainSymbols, SpainSymbolsMetadata } from './flags/Spain_symbols';
+export { SriLankaSymbols, SriLankaSymbolsMetadata } from './flags/Sri-Lanka_symbols';
+export { SudanSymbols, SudanSymbolsMetadata } from './flags/Sudan_symbols';
+export { SurinameSymbols, SurinameSymbolsMetadata } from './flags/Suriname_symbols';
+export { SwedenSymbols, SwedenSymbolsMetadata } from './flags/Sweden_symbols';
+export { SwitzerlandSymbols, SwitzerlandSymbolsMetadata } from './flags/Switzerland_symbols';
+export { SyriaSymbols, SyriaSymbolsMetadata } from './flags/Syria_symbols';
+export { TaiwanSymbols, TaiwanSymbolsMetadata } from './flags/Taiwan_symbols';
+export { TajikistanSymbols, TajikistanSymbolsMetadata } from './flags/Tajikistan_symbols';
+export { TanzaniaSymbols, TanzaniaSymbolsMetadata } from './flags/Tanzania_symbols';
+export { ThailandSymbols, ThailandSymbolsMetadata } from './flags/Thailand_symbols';
+export { TogoSymbols, TogoSymbolsMetadata } from './flags/Togo_symbols';
+export { TongaSymbols, TongaSymbolsMetadata } from './flags/Tonga_symbols';
+export { TrinidadTobagoSymbols, TrinidadTobagoSymbolsMetadata } from './flags/Trinidad-Tobago_symbols';
+export { TunisiaSymbols, TunisiaSymbolsMetadata } from './flags/Tunisia_symbols';
+export { TurkeySymbols, TurkeySymbolsMetadata } from './flags/Turkey_symbols';
+export { TurkmenistanSymbols, TurkmenistanSymbolsMetadata } from './flags/Turkmenistan_symbols';
+export { TurksAndCaicosIslandsSymbols, TurksAndCaicosIslandsSymbolsMetadata } from './flags/Turks-And-Caicos-Islands_symbols';
+export { TuvaluSymbols, TuvaluSymbolsMetadata } from './flags/Tuvalu_symbols';
+export { USAVirginIslandsSymbols, USAVirginIslandsSymbolsMetadata } from './flags/USA-Virgin-Islands_symbols';
+export { UgandaSymbols, UgandaSymbolsMetadata } from './flags/Uganda_symbols';
+export { UkraineSymbols, UkraineSymbolsMetadata } from './flags/Ukraine_symbols';
+export { UnitedArabEmiraSymbols, UnitedArabEmiraSymbolsMetadata } from './flags/United-Arab-Emira_symbols';
+export { UnitedKingdomSymbols, UnitedKingdomSymbolsMetadata } from './flags/United-Kingdom_symbols';
+export { UnitedStatesSymbols, UnitedStatesSymbolsMetadata } from './flags/United-States_symbols';
+export { UruguaySymbols, UruguaySymbolsMetadata } from './flags/Uruguay_symbols';
+export { UzbekistanSymbols, UzbekistanSymbolsMetadata } from './flags/Uzbekistan_symbols';
+export { VanuatuSymbols, VanuatuSymbolsMetadata } from './flags/Vanuatu_symbols';
+export { VaticanCitySymbols, VaticanCitySymbolsMetadata } from './flags/Vatican-City_symbols';
+export { VenezuelaSymbols, VenezuelaSymbolsMetadata } from './flags/Venezuela_symbols';
+export { VietnamSymbols, VietnamSymbolsMetadata } from './flags/Vietnam_symbols';
+export { WalesSymbols, WalesSymbolsMetadata } from './flags/Wales_symbols';
+export { WesternSaharaSymbols, WesternSaharaSymbolsMetadata } from './flags/Western-Sahara_symbols';
+export { YemenSymbols, YemenSymbolsMetadata } from './flags/Yemen_symbols';
+export { ZambiaSymbols, ZambiaSymbolsMetadata } from './flags/Zambia_symbols';
+export { ZimbabweSymbols, ZimbabweSymbolsMetadata } from './flags/Zimbabwe_symbols';
 export { Astro, AstroMetadata } from './framework/Astro';
 export { Blitz, BlitzMetadata } from './framework/Blitz';
 export { Bootstrap, BootstrapMetadata } from './framework/Bootstrap';
@@ -564,7 +564,7 @@ export { VercelWordmark, VercelWordmarkMetadata } from './software/Vercel_wordma
 export { Xbox, XboxMetadata } from './software/Xbox';
 export { Zoom, ZoomMetadata } from './software/Zoom';
 export { Nike, NikeMetadata } from './sports/Nike';
-export { VerifiedBadgeStickers, VerifiedBadgeStickersMetadata } from './stickers/Verified-Badge_stickers';
+export { VerifiedBadgeSymbols, VerifiedBadgeSymbolsMetadata } from './stickers/Verified-Badge_symbols';
 
 import { AdobeAfterEffects, AdobeAfterEffectsMetadata } from './adobe/adobe-after-effects';
 import { AdobeAnimate, AdobeAnimateMetadata } from './adobe/adobe-animate';
@@ -616,31 +616,31 @@ import { Opera, OperaMetadata } from './browser/Opera';
 import { Safari, SafariMetadata } from './browser/Safari';
 import { Vivaldi, VivaldiMetadata } from './browser/Vivaldi';
 import { ZenBrowser, ZenBrowserMetadata } from './browser/ZenBrowser';
-import { AlipayCards, AlipayCardsMetadata } from './cards/Alipay_cards';
-import { AmazonCards, AmazonCardsMetadata } from './cards/Amazon_cards';
-import { AmericanExpressCards, AmericanExpressCardsMetadata } from './cards/American-Express_cards';
-import { ApplePayCards, ApplePayCardsMetadata } from './cards/Apple-Pay_cards';
-import { BankAccountCards, BankAccountCardsMetadata } from './cards/Bank-account_cards';
-import { BitcoinCards, BitcoinCardsMetadata } from './cards/Bitcoin_cards';
-import { CVCCards, CVCCardsMetadata } from './cards/CVC_cards';
-import { DinersClubCards, DinersClubCardsMetadata } from './cards/Diners-Club_cards';
-import { DiscoverCards, DiscoverCardsMetadata } from './cards/Discover_cards';
-import { EftposCards, EftposCardsMetadata } from './cards/Eftpos_cards';
-import { Front1Cards, Front1CardsMetadata } from './cards/Front-1_cards';
-import { FrontCards, FrontCardsMetadata } from './cards/Front_cards';
-import { GooglePayCards, GooglePayCardsMetadata } from './cards/Google-Pay_cards';
-import { JCBCards, JCBCardsMetadata } from './cards/JCB_cards';
-import { MaestroCards, MaestroCardsMetadata } from './cards/Maestro_cards';
-import { Mastercard1Cards, Mastercard1CardsMetadata } from './cards/Mastercard-1_cards';
-import { MastercardCards, MastercardCardsMetadata } from './cards/Mastercard_cards';
-import { Paypal1Cards, Paypal1CardsMetadata } from './cards/Paypal-1_cards';
-import { PaypalCards, PaypalCardsMetadata } from './cards/Paypal_cards';
-import { RuPayCards, RuPayCardsMetadata } from './cards/RuPay_cards';
-import { ShopPayCards, ShopPayCardsMetadata } from './cards/Shop-Pay_cards';
-import { UnionPayCards, UnionPayCardsMetadata } from './cards/UnionPay_cards';
-import { Visa1Cards, Visa1CardsMetadata } from './cards/Visa-1_cards';
-import { VisaCards, VisaCardsMetadata } from './cards/Visa_cards';
-import { WeChatPayCards, WeChatPayCardsMetadata } from './cards/WeChat-Pay_cards';
+import { AlipaySymbols, AlipaySymbolsMetadata } from './cards/Alipay_symbols';
+import { AmazonSymbols, AmazonSymbolsMetadata } from './cards/Amazon_symbols';
+import { AmericanExpressSymbols, AmericanExpressSymbolsMetadata } from './cards/American-Express_symbols';
+import { ApplePaySymbols, ApplePaySymbolsMetadata } from './cards/Apple-Pay_symbols';
+import { BankAccountSymbols, BankAccountSymbolsMetadata } from './cards/Bank-account_symbols';
+import { BitcoinSymbols, BitcoinSymbolsMetadata } from './cards/Bitcoin_symbols';
+import { CVCSymbols, CVCSymbolsMetadata } from './cards/CVC_symbols';
+import { DinersClubSymbols, DinersClubSymbolsMetadata } from './cards/Diners-Club_symbols';
+import { DiscoverSymbols, DiscoverSymbolsMetadata } from './cards/Discover_symbols';
+import { EftposSymbols, EftposSymbolsMetadata } from './cards/Eftpos_symbols';
+import { Front1Symbols, Front1SymbolsMetadata } from './cards/Front-1_symbols';
+import { FrontSymbols, FrontSymbolsMetadata } from './cards/Front_symbols';
+import { GooglePaySymbols, GooglePaySymbolsMetadata } from './cards/Google-Pay_symbols';
+import { JCBSymbols, JCBSymbolsMetadata } from './cards/JCB_symbols';
+import { MaestroSymbols, MaestroSymbolsMetadata } from './cards/Maestro_symbols';
+import { Mastercard1Symbols, Mastercard1SymbolsMetadata } from './cards/Mastercard-1_symbols';
+import { MastercardSymbols, MastercardSymbolsMetadata } from './cards/Mastercard_symbols';
+import { Paypal1Symbols, Paypal1SymbolsMetadata } from './cards/Paypal-1_symbols';
+import { PaypalSymbols, PaypalSymbolsMetadata } from './cards/Paypal_symbols';
+import { RuPaySymbols, RuPaySymbolsMetadata } from './cards/RuPay_symbols';
+import { ShopPaySymbols, ShopPaySymbolsMetadata } from './cards/Shop-Pay_symbols';
+import { UnionPaySymbols, UnionPaySymbolsMetadata } from './cards/UnionPay_symbols';
+import { Visa1Symbols, Visa1SymbolsMetadata } from './cards/Visa-1_symbols';
+import { VisaSymbols, VisaSymbolsMetadata } from './cards/Visa_symbols';
+import { WeChatPaySymbols, WeChatPaySymbolsMetadata } from './cards/WeChat-Pay_symbols';
 import { Builder, BuilderMetadata } from './cms/Builder';
 import { Directus, DirectusMetadata } from './cms/Directus';
 import { PayloadCMS, PayloadCMSMetadata } from './cms/PayloadCMS';
@@ -700,233 +700,233 @@ import { Oxc, OxcMetadata } from './devtool/Oxc';
 import { PostHog, PostHogMetadata } from './devtool/Post-Hog';
 import { Rsbuild, RsbuildMetadata } from './devtool/Rsbuild';
 import { UnoCSS, UnoCSSMetadata } from './devtool/Uno-CSS';
-import { AalandIslandsFlags, AalandIslandsFlagsMetadata } from './flags/Aaland-Islands_flags';
-import { AfghanistanFlags, AfghanistanFlagsMetadata } from './flags/Afghanistan_flags';
-import { AlbaniaFlags, AlbaniaFlagsMetadata } from './flags/Albania_flags';
-import { AlgeriaFlags, AlgeriaFlagsMetadata } from './flags/Algeria_flags';
-import { AndorraFlags, AndorraFlagsMetadata } from './flags/Andorra_flags';
-import { AngolaFlags, AngolaFlagsMetadata } from './flags/Angola_flags';
-import { AnguillaFlags, AnguillaFlagsMetadata } from './flags/Anguilla_flags';
-import { AntarcticaFlags, AntarcticaFlagsMetadata } from './flags/Antarctica_flags';
-import { AntiguaBarbudaFlags, AntiguaBarbudaFlagsMetadata } from './flags/Antigua-Barbuda_flags';
-import { ArgentinaFlags, ArgentinaFlagsMetadata } from './flags/Argentina_flags';
-import { ArmeniaFlags, ArmeniaFlagsMetadata } from './flags/Armenia_flags';
-import { ArubaFlags, ArubaFlagsMetadata } from './flags/Aruba_flags';
-import { AustraliaFlags, AustraliaFlagsMetadata } from './flags/Australia_flags';
-import { AustriaFlags, AustriaFlagsMetadata } from './flags/Austria_flags';
-import { AzerbaijanFlags, AzerbaijanFlagsMetadata } from './flags/Azerbaijan_flags';
-import { BahamasFlags, BahamasFlagsMetadata } from './flags/Bahamas_flags';
-import { BahrainFlags, BahrainFlagsMetadata } from './flags/Bahrain_flags';
-import { BangladeshFlags, BangladeshFlagsMetadata } from './flags/Bangladesh_flags';
-import { BarbadosFlags, BarbadosFlagsMetadata } from './flags/Barbados_flags';
-import { BasqueFlags, BasqueFlagsMetadata } from './flags/Basque_flags';
-import { BelarusFlags, BelarusFlagsMetadata } from './flags/Belarus_flags';
-import { BelgiumFlags, BelgiumFlagsMetadata } from './flags/Belgium_flags';
-import { BelizeFlags, BelizeFlagsMetadata } from './flags/Belize_flags';
-import { BeninFlags, BeninFlagsMetadata } from './flags/Benin_flags';
-import { BermudaFlags, BermudaFlagsMetadata } from './flags/Bermuda_flags';
-import { BhutanFlags, BhutanFlagsMetadata } from './flags/Bhutan_flags';
-import { BoliviaFlags, BoliviaFlagsMetadata } from './flags/Bolivia_flags';
-import { BosniaHerzegovinaFlags, BosniaHerzegovinaFlagsMetadata } from './flags/Bosnia-Herzegovina_flags';
-import { BotswanaFlags, BotswanaFlagsMetadata } from './flags/Botswana_flags';
-import { BrazilFlags, BrazilFlagsMetadata } from './flags/Brazil_flags';
-import { BritishVirginIslandsFlags, BritishVirginIslandsFlagsMetadata } from './flags/British-Virgin-Islands_flags';
-import { BruneiFlags, BruneiFlagsMetadata } from './flags/Brunei_flags';
-import { BulgariaFlags, BulgariaFlagsMetadata } from './flags/Bulgaria_flags';
-import { BurkinaFasoFlags, BurkinaFasoFlagsMetadata } from './flags/Burkina-Faso_flags';
-import { BurundiFlags, BurundiFlagsMetadata } from './flags/Burundi_flags';
-import { CambodiaFlags, CambodiaFlagsMetadata } from './flags/Cambodia_flags';
-import { CameroonFlags, CameroonFlagsMetadata } from './flags/Cameroon_flags';
-import { CanadaFlags, CanadaFlagsMetadata } from './flags/Canada_flags';
-import { CanaryIslandsFlags, CanaryIslandsFlagsMetadata } from './flags/Canary-Islands_flags';
-import { CapeVerdeFlags, CapeVerdeFlagsMetadata } from './flags/Cape-Verde_flags';
-import { CaymanIslandsFlags, CaymanIslandsFlagsMetadata } from './flags/Cayman-Islands_flags';
-import { CentralAfricanRepuFlags, CentralAfricanRepuFlagsMetadata } from './flags/Central-African-Repu_flags';
-import { ChadFlags, ChadFlagsMetadata } from './flags/Chad_flags';
-import { ChileFlags, ChileFlagsMetadata } from './flags/Chile_flags';
-import { ChinaFlags, ChinaFlagsMetadata } from './flags/China_flags';
-import { ColombiaFlags, ColombiaFlagsMetadata } from './flags/Colombia_flags';
-import { ComorosFlags, ComorosFlagsMetadata } from './flags/Comoros_flags';
-import { CookIslandsFlags, CookIslandsFlagsMetadata } from './flags/Cook-Islands_flags';
-import { CostaRicaFlags, CostaRicaFlagsMetadata } from './flags/Costa-Rica_flags';
-import { CroatiaFlags, CroatiaFlagsMetadata } from './flags/Croatia_flags';
-import { CubaFlags, CubaFlagsMetadata } from './flags/Cuba_flags';
-import { CuracaoFlags, CuracaoFlagsMetadata } from './flags/Curacao_flags';
-import { CyprusFlags, CyprusFlagsMetadata } from './flags/Cyprus_flags';
-import { CzechiaFlags, CzechiaFlagsMetadata } from './flags/Czechia_flags';
-import { DemocraticRepublicOfCongoFlags, DemocraticRepublicOfCongoFlagsMetadata } from './flags/Democratic-Republic-of-Congo_flags';
-import { DenmarkFlags, DenmarkFlagsMetadata } from './flags/Denmark_flags';
-import { DjiboutiFlags, DjiboutiFlagsMetadata } from './flags/Djibouti_flags';
-import { DominicaFlags, DominicaFlagsMetadata } from './flags/Dominica_flags';
-import { DominicanRepublicFlags, DominicanRepublicFlagsMetadata } from './flags/Dominican-Republic_flags';
-import { EastTimorFlags, EastTimorFlagsMetadata } from './flags/East-Timor_flags';
-import { EcuadorFlags, EcuadorFlagsMetadata } from './flags/Ecuador_flags';
-import { EgyptFlags, EgyptFlagsMetadata } from './flags/Egypt_flags';
-import { ElSalvadorFlags, ElSalvadorFlagsMetadata } from './flags/El-Salvador_flags';
-import { EnglandFlags, EnglandFlagsMetadata } from './flags/England_flags';
-import { EquatorialGuineaFlags, EquatorialGuineaFlagsMetadata } from './flags/Equatorial-Guinea_flags';
-import { EritreaFlags, EritreaFlagsMetadata } from './flags/Eritrea_flags';
-import { EstoniaFlags, EstoniaFlagsMetadata } from './flags/Estonia_flags';
-import { EswatiniFlags, EswatiniFlagsMetadata } from './flags/Eswatini_flags';
-import { EthiopiaFlags, EthiopiaFlagsMetadata } from './flags/Ethiopia_flags';
-import { EuropeFlags, EuropeFlagsMetadata } from './flags/Europe_flags';
-import { FalklandIslandsFlags, FalklandIslandsFlagsMetadata } from './flags/Falkland-Islands_flags';
-import { FaroeIslandsFlags, FaroeIslandsFlagsMetadata } from './flags/Faroe-Islands_flags';
-import { FijiFlags, FijiFlagsMetadata } from './flags/Fiji_flags';
-import { FinlandFlags, FinlandFlagsMetadata } from './flags/Finland_flags';
-import { FranceFlags, FranceFlagsMetadata } from './flags/France_flags';
-import { FrenchGuianaFlags, FrenchGuianaFlagsMetadata } from './flags/French-Guiana_flags';
-import { FrenchPolynesiaFlags, FrenchPolynesiaFlagsMetadata } from './flags/French-Polynesia_flags';
-import { GabonFlags, GabonFlagsMetadata } from './flags/Gabon_flags';
-import { GambiaFlags, GambiaFlagsMetadata } from './flags/Gambia_flags';
-import { GeorgiaFlags, GeorgiaFlagsMetadata } from './flags/Georgia_flags';
-import { GermanyFlags, GermanyFlagsMetadata } from './flags/Germany_flags';
-import { GhanaFlags, GhanaFlagsMetadata } from './flags/Ghana_flags';
-import { GibraltarFlags, GibraltarFlagsMetadata } from './flags/Gibraltar_flags';
-import { GreeceFlags, GreeceFlagsMetadata } from './flags/Greece_flags';
-import { GreenlandFlags, GreenlandFlagsMetadata } from './flags/Greenland_flags';
-import { GrenadaFlags, GrenadaFlagsMetadata } from './flags/Grenada_flags';
-import { GuadeloupeFlags, GuadeloupeFlagsMetadata } from './flags/Guadeloupe_flags';
-import { GuatemalaFlags, GuatemalaFlagsMetadata } from './flags/Guatemala_flags';
-import { GuernseyFlags, GuernseyFlagsMetadata } from './flags/Guernsey_flags';
-import { GuineaBissauFlags, GuineaBissauFlagsMetadata } from './flags/Guinea-Bissau_flags';
-import { GuineaFlags, GuineaFlagsMetadata } from './flags/Guinea_flags';
-import { GuyanaFlags, GuyanaFlagsMetadata } from './flags/Guyana_flags';
-import { HaitiFlags, HaitiFlagsMetadata } from './flags/Haiti_flags';
-import { HawaiiFlags, HawaiiFlagsMetadata } from './flags/Hawaii_flags';
-import { HondurasFlags, HondurasFlagsMetadata } from './flags/Honduras_flags';
-import { HongKongFlags, HongKongFlagsMetadata } from './flags/Hong-Kong_flags';
-import { HungaryFlags, HungaryFlagsMetadata } from './flags/Hungary_flags';
-import { IcelandFlags, IcelandFlagsMetadata } from './flags/Iceland_flags';
-import { IndiaFlags, IndiaFlagsMetadata } from './flags/India_flags';
-import { IndonesiaFlags, IndonesiaFlagsMetadata } from './flags/Indonesia_flags';
-import { IranFlags, IranFlagsMetadata } from './flags/Iran_flags';
-import { IraqFlags, IraqFlagsMetadata } from './flags/Iraq_flags';
-import { IrelandFlags, IrelandFlagsMetadata } from './flags/Ireland_flags';
-import { IsleOfManFlags, IsleOfManFlagsMetadata } from './flags/Isle-Of-Man_flags';
-import { IsraelFlags, IsraelFlagsMetadata } from './flags/Israel_flags';
-import { ItalyFlags, ItalyFlagsMetadata } from './flags/Italy_flags';
-import { IvoryCoastFlags, IvoryCoastFlagsMetadata } from './flags/Ivory-Coast_flags';
-import { JamaicaFlags, JamaicaFlagsMetadata } from './flags/Jamaica_flags';
-import { JapanFlags, JapanFlagsMetadata } from './flags/Japan_flags';
-import { JerseyFlags, JerseyFlagsMetadata } from './flags/Jersey_flags';
-import { JordanFlags, JordanFlagsMetadata } from './flags/Jordan_flags';
-import { KazakhstanFlags, KazakhstanFlagsMetadata } from './flags/Kazakhstan_flags';
-import { KenyaFlags, KenyaFlagsMetadata } from './flags/Kenya_flags';
-import { KiribatiFlags, KiribatiFlagsMetadata } from './flags/Kiribati_flags';
-import { KosovoFlags, KosovoFlagsMetadata } from './flags/Kosovo_flags';
-import { KurdistanFlags, KurdistanFlagsMetadata } from './flags/Kurdistan_flags';
-import { KuwaitFlags, KuwaitFlagsMetadata } from './flags/Kuwait_flags';
-import { KyrgyzstanFlags, KyrgyzstanFlagsMetadata } from './flags/Kyrgyzstan_flags';
-import { LaosFlags, LaosFlagsMetadata } from './flags/Laos_flags';
-import { LatviaFlags, LatviaFlagsMetadata } from './flags/Latvia_flags';
-import { LebanonFlags, LebanonFlagsMetadata } from './flags/Lebanon_flags';
-import { LesothoFlags, LesothoFlagsMetadata } from './flags/Lesotho_flags';
-import { LiberiaFlags, LiberiaFlagsMetadata } from './flags/Liberia_flags';
-import { LibyaFlags, LibyaFlagsMetadata } from './flags/Libya_flags';
-import { LiechtensteinFlags, LiechtensteinFlagsMetadata } from './flags/Liechtenstein_flags';
-import { LithuaniaFlags, LithuaniaFlagsMetadata } from './flags/Lithuania_flags';
-import { LuxembourgFlags, LuxembourgFlagsMetadata } from './flags/Luxembourg_flags';
-import { MacauFlags, MacauFlagsMetadata } from './flags/Macau_flags';
-import { MadagascarFlags, MadagascarFlagsMetadata } from './flags/Madagascar_flags';
-import { MalawiFlags, MalawiFlagsMetadata } from './flags/Malawi_flags';
-import { MalaysiaFlags, MalaysiaFlagsMetadata } from './flags/Malaysia_flags';
-import { MaldivesFlags, MaldivesFlagsMetadata } from './flags/Maldives_flags';
-import { MaliFlags, MaliFlagsMetadata } from './flags/Mali_flags';
-import { MaltaFlags, MaltaFlagsMetadata } from './flags/Malta_flags';
-import { MarshallIslandsFlags, MarshallIslandsFlagsMetadata } from './flags/Marshall-Islands_flags';
-import { MartiniqueFlags, MartiniqueFlagsMetadata } from './flags/Martinique_flags';
-import { MauritaniaFlags, MauritaniaFlagsMetadata } from './flags/Mauritania_flags';
-import { MauritiusFlags, MauritiusFlagsMetadata } from './flags/Mauritius_flags';
-import { MexicoFlags, MexicoFlagsMetadata } from './flags/Mexico_flags';
-import { MicronesiaFlags, MicronesiaFlagsMetadata } from './flags/Micronesia_flags';
-import { MoldovaFlags, MoldovaFlagsMetadata } from './flags/Moldova_flags';
-import { MonacoFlags, MonacoFlagsMetadata } from './flags/Monaco_flags';
-import { MongoliaFlags, MongoliaFlagsMetadata } from './flags/Mongolia_flags';
-import { MontenegroFlags, MontenegroFlagsMetadata } from './flags/Montenegro_flags';
-import { MoroccoFlags, MoroccoFlagsMetadata } from './flags/Morocco_flags';
-import { MozanbiqueFlags, MozanbiqueFlagsMetadata } from './flags/Mozanbique_flags';
-import { MyanmarFlags, MyanmarFlagsMetadata } from './flags/Myanmar_flags';
-import { NamibiaFlags, NamibiaFlagsMetadata } from './flags/Namibia_flags';
-import { NauruFlags, NauruFlagsMetadata } from './flags/Nauru_flags';
-import { NepalFlags, NepalFlagsMetadata } from './flags/Nepal_flags';
-import { NetherlandsAntillesFlags, NetherlandsAntillesFlagsMetadata } from './flags/Netherlands-Antilles_flags';
-import { NetherlandsFlags, NetherlandsFlagsMetadata } from './flags/Netherlands_flags';
-import { NewCaledoniaFlags, NewCaledoniaFlagsMetadata } from './flags/New-Caledonia_flags';
-import { NewZealandFlags, NewZealandFlagsMetadata } from './flags/New-Zealand_flags';
-import { NicaraguaFlags, NicaraguaFlagsMetadata } from './flags/Nicaragua_flags';
-import { NigerFlags, NigerFlagsMetadata } from './flags/Niger_flags';
-import { NigeriaFlags, NigeriaFlagsMetadata } from './flags/Nigeria_flags';
-import { NiueFlags, NiueFlagsMetadata } from './flags/Niue_flags';
-import { NorthKoreaFlags, NorthKoreaFlagsMetadata } from './flags/North-Korea_flags';
-import { NorthMacedoniaFlags, NorthMacedoniaFlagsMetadata } from './flags/North-Macedonia_flags';
-import { NorthenIrelandFlags, NorthenIrelandFlagsMetadata } from './flags/Northen-Ireland_flags';
-import { NorwayFlags, NorwayFlagsMetadata } from './flags/Norway_flags';
-import { OmanFlags, OmanFlagsMetadata } from './flags/Oman_flags';
-import { PakistanFlags, PakistanFlagsMetadata } from './flags/Pakistan_flags';
-import { PalauFlags, PalauFlagsMetadata } from './flags/Palau_flags';
-import { PalestineFlags, PalestineFlagsMetadata } from './flags/Palestine_flags';
-import { PanamaFlags, PanamaFlagsMetadata } from './flags/Panama_flags';
-import { PapuaNewGuineaFlags, PapuaNewGuineaFlagsMetadata } from './flags/Papua-New-Guinea_flags';
-import { ParaguayFlags, ParaguayFlagsMetadata } from './flags/Paraguay_flags';
-import { PeruFlags, PeruFlagsMetadata } from './flags/Peru_flags';
-import { PhilippinesFlags, PhilippinesFlagsMetadata } from './flags/Philippines_flags';
-import { PolandFlags, PolandFlagsMetadata } from './flags/Poland_flags';
-import { PortugalFlags, PortugalFlagsMetadata } from './flags/Portugal_flags';
-import { PuertoRicoFlags, PuertoRicoFlagsMetadata } from './flags/Puerto-Rico_flags';
-import { QatarFlags, QatarFlagsMetadata } from './flags/Qatar_flags';
-import { RepublicCongoFlags, RepublicCongoFlagsMetadata } from './flags/Republic-Congo_flags';
-import { RomaniaFlags, RomaniaFlagsMetadata } from './flags/Romania_flags';
-import { RussiaFlags, RussiaFlagsMetadata } from './flags/Russia_flags';
-import { RwandaFlags, RwandaFlagsMetadata } from './flags/Rwanda_flags';
-import { SaintKittsNevisFlags, SaintKittsNevisFlagsMetadata } from './flags/Saint-Kitts-Nevis_flags';
-import { SierraLeoneFlags, SierraLeoneFlagsMetadata } from './flags/Sierra-Leone_flags';
-import { SingaporeFlags, SingaporeFlagsMetadata } from './flags/Singapore_flags';
-import { SintMaartenFlags, SintMaartenFlagsMetadata } from './flags/Sint-Maarten_flags';
-import { SlovakiaFlags, SlovakiaFlagsMetadata } from './flags/Slovakia_flags';
-import { SloveniaFlags, SloveniaFlagsMetadata } from './flags/Slovenia_flags';
-import { SolomonIslandsFlags, SolomonIslandsFlagsMetadata } from './flags/Solomon-Islands_flags';
-import { SomaliaFlags, SomaliaFlagsMetadata } from './flags/Somalia_flags';
-import { SouthAfricaFlags, SouthAfricaFlagsMetadata } from './flags/South-Africa_flags';
-import { SouthGeorgiaSandwichIslandsFlags, SouthGeorgiaSandwichIslandsFlagsMetadata } from './flags/South-Georgia-Sandwich-Islands_flags';
-import { SouthKoreaFlags, SouthKoreaFlagsMetadata } from './flags/South-Korea_flags';
-import { SouthSudanFlags, SouthSudanFlagsMetadata } from './flags/South-Sudan_flags';
-import { SpainFlags, SpainFlagsMetadata } from './flags/Spain_flags';
-import { SriLankaFlags, SriLankaFlagsMetadata } from './flags/Sri-Lanka_flags';
-import { SudanFlags, SudanFlagsMetadata } from './flags/Sudan_flags';
-import { SurinameFlags, SurinameFlagsMetadata } from './flags/Suriname_flags';
-import { SwedenFlags, SwedenFlagsMetadata } from './flags/Sweden_flags';
-import { SwitzerlandFlags, SwitzerlandFlagsMetadata } from './flags/Switzerland_flags';
-import { SyriaFlags, SyriaFlagsMetadata } from './flags/Syria_flags';
-import { TaiwanFlags, TaiwanFlagsMetadata } from './flags/Taiwan_flags';
-import { TajikistanFlags, TajikistanFlagsMetadata } from './flags/Tajikistan_flags';
-import { TanzaniaFlags, TanzaniaFlagsMetadata } from './flags/Tanzania_flags';
-import { ThailandFlags, ThailandFlagsMetadata } from './flags/Thailand_flags';
-import { TogoFlags, TogoFlagsMetadata } from './flags/Togo_flags';
-import { TongaFlags, TongaFlagsMetadata } from './flags/Tonga_flags';
-import { TrinidadTobagoFlags, TrinidadTobagoFlagsMetadata } from './flags/Trinidad-Tobago_flags';
-import { TunisiaFlags, TunisiaFlagsMetadata } from './flags/Tunisia_flags';
-import { TurkeyFlags, TurkeyFlagsMetadata } from './flags/Turkey_flags';
-import { TurkmenistanFlags, TurkmenistanFlagsMetadata } from './flags/Turkmenistan_flags';
-import { TurksAndCaicosIslandsFlags, TurksAndCaicosIslandsFlagsMetadata } from './flags/Turks-And-Caicos-Islands_flags';
-import { TuvaluFlags, TuvaluFlagsMetadata } from './flags/Tuvalu_flags';
-import { USAVirginIslandsFlags, USAVirginIslandsFlagsMetadata } from './flags/USA-Virgin-Islands_flags';
-import { UgandaFlags, UgandaFlagsMetadata } from './flags/Uganda_flags';
-import { UkraineFlags, UkraineFlagsMetadata } from './flags/Ukraine_flags';
-import { UnitedArabEmiraFlags, UnitedArabEmiraFlagsMetadata } from './flags/United-Arab-Emira_flags';
-import { UnitedKingdomFlags, UnitedKingdomFlagsMetadata } from './flags/United-Kingdom_flags';
-import { UnitedStatesFlags, UnitedStatesFlagsMetadata } from './flags/United-States_flags';
-import { UruguayFlags, UruguayFlagsMetadata } from './flags/Uruguay_flags';
-import { UzbekistanFlags, UzbekistanFlagsMetadata } from './flags/Uzbekistan_flags';
-import { VanuatuFlags, VanuatuFlagsMetadata } from './flags/Vanuatu_flags';
-import { VaticanCityFlags, VaticanCityFlagsMetadata } from './flags/Vatican-City_flags';
-import { VenezuelaFlags, VenezuelaFlagsMetadata } from './flags/Venezuela_flags';
-import { VietnamFlags, VietnamFlagsMetadata } from './flags/Vietnam_flags';
-import { WalesFlags, WalesFlagsMetadata } from './flags/Wales_flags';
-import { WesternSaharaFlags, WesternSaharaFlagsMetadata } from './flags/Western-Sahara_flags';
-import { YemenFlags, YemenFlagsMetadata } from './flags/Yemen_flags';
-import { ZambiaFlags, ZambiaFlagsMetadata } from './flags/Zambia_flags';
-import { ZimbabweFlags, ZimbabweFlagsMetadata } from './flags/Zimbabwe_flags';
+import { AalandIslandsSymbols, AalandIslandsSymbolsMetadata } from './flags/Aaland-Islands_symbols';
+import { AfghanistanSymbols, AfghanistanSymbolsMetadata } from './flags/Afghanistan_symbols';
+import { AlbaniaSymbols, AlbaniaSymbolsMetadata } from './flags/Albania_symbols';
+import { AlgeriaSymbols, AlgeriaSymbolsMetadata } from './flags/Algeria_symbols';
+import { AndorraSymbols, AndorraSymbolsMetadata } from './flags/Andorra_symbols';
+import { AngolaSymbols, AngolaSymbolsMetadata } from './flags/Angola_symbols';
+import { AnguillaSymbols, AnguillaSymbolsMetadata } from './flags/Anguilla_symbols';
+import { AntarcticaSymbols, AntarcticaSymbolsMetadata } from './flags/Antarctica_symbols';
+import { AntiguaBarbudaSymbols, AntiguaBarbudaSymbolsMetadata } from './flags/Antigua-Barbuda_symbols';
+import { ArgentinaSymbols, ArgentinaSymbolsMetadata } from './flags/Argentina_symbols';
+import { ArmeniaSymbols, ArmeniaSymbolsMetadata } from './flags/Armenia_symbols';
+import { ArubaSymbols, ArubaSymbolsMetadata } from './flags/Aruba_symbols';
+import { AustraliaSymbols, AustraliaSymbolsMetadata } from './flags/Australia_symbols';
+import { AustriaSymbols, AustriaSymbolsMetadata } from './flags/Austria_symbols';
+import { AzerbaijanSymbols, AzerbaijanSymbolsMetadata } from './flags/Azerbaijan_symbols';
+import { BahamasSymbols, BahamasSymbolsMetadata } from './flags/Bahamas_symbols';
+import { BahrainSymbols, BahrainSymbolsMetadata } from './flags/Bahrain_symbols';
+import { BangladeshSymbols, BangladeshSymbolsMetadata } from './flags/Bangladesh_symbols';
+import { BarbadosSymbols, BarbadosSymbolsMetadata } from './flags/Barbados_symbols';
+import { BasqueSymbols, BasqueSymbolsMetadata } from './flags/Basque_symbols';
+import { BelarusSymbols, BelarusSymbolsMetadata } from './flags/Belarus_symbols';
+import { BelgiumSymbols, BelgiumSymbolsMetadata } from './flags/Belgium_symbols';
+import { BelizeSymbols, BelizeSymbolsMetadata } from './flags/Belize_symbols';
+import { BeninSymbols, BeninSymbolsMetadata } from './flags/Benin_symbols';
+import { BermudaSymbols, BermudaSymbolsMetadata } from './flags/Bermuda_symbols';
+import { BhutanSymbols, BhutanSymbolsMetadata } from './flags/Bhutan_symbols';
+import { BoliviaSymbols, BoliviaSymbolsMetadata } from './flags/Bolivia_symbols';
+import { BosniaHerzegovinaSymbols, BosniaHerzegovinaSymbolsMetadata } from './flags/Bosnia-Herzegovina_symbols';
+import { BotswanaSymbols, BotswanaSymbolsMetadata } from './flags/Botswana_symbols';
+import { BrazilSymbols, BrazilSymbolsMetadata } from './flags/Brazil_symbols';
+import { BritishVirginIslandsSymbols, BritishVirginIslandsSymbolsMetadata } from './flags/British-Virgin-Islands_symbols';
+import { BruneiSymbols, BruneiSymbolsMetadata } from './flags/Brunei_symbols';
+import { BulgariaSymbols, BulgariaSymbolsMetadata } from './flags/Bulgaria_symbols';
+import { BurkinaFasoSymbols, BurkinaFasoSymbolsMetadata } from './flags/Burkina-Faso_symbols';
+import { BurundiSymbols, BurundiSymbolsMetadata } from './flags/Burundi_symbols';
+import { CambodiaSymbols, CambodiaSymbolsMetadata } from './flags/Cambodia_symbols';
+import { CameroonSymbols, CameroonSymbolsMetadata } from './flags/Cameroon_symbols';
+import { CanadaSymbols, CanadaSymbolsMetadata } from './flags/Canada_symbols';
+import { CanaryIslandsSymbols, CanaryIslandsSymbolsMetadata } from './flags/Canary-Islands_symbols';
+import { CapeVerdeSymbols, CapeVerdeSymbolsMetadata } from './flags/Cape-Verde_symbols';
+import { CaymanIslandsSymbols, CaymanIslandsSymbolsMetadata } from './flags/Cayman-Islands_symbols';
+import { CentralAfricanRepuSymbols, CentralAfricanRepuSymbolsMetadata } from './flags/Central-African-Repu_symbols';
+import { ChadSymbols, ChadSymbolsMetadata } from './flags/Chad_symbols';
+import { ChileSymbols, ChileSymbolsMetadata } from './flags/Chile_symbols';
+import { ChinaSymbols, ChinaSymbolsMetadata } from './flags/China_symbols';
+import { ColombiaSymbols, ColombiaSymbolsMetadata } from './flags/Colombia_symbols';
+import { ComorosSymbols, ComorosSymbolsMetadata } from './flags/Comoros_symbols';
+import { CookIslandsSymbols, CookIslandsSymbolsMetadata } from './flags/Cook-Islands_symbols';
+import { CostaRicaSymbols, CostaRicaSymbolsMetadata } from './flags/Costa-Rica_symbols';
+import { CroatiaSymbols, CroatiaSymbolsMetadata } from './flags/Croatia_symbols';
+import { CubaSymbols, CubaSymbolsMetadata } from './flags/Cuba_symbols';
+import { CuracaoSymbols, CuracaoSymbolsMetadata } from './flags/Curacao_symbols';
+import { CyprusSymbols, CyprusSymbolsMetadata } from './flags/Cyprus_symbols';
+import { CzechiaSymbols, CzechiaSymbolsMetadata } from './flags/Czechia_symbols';
+import { DemocraticRepublicOfCongoSymbols, DemocraticRepublicOfCongoSymbolsMetadata } from './flags/Democratic-Republic-of-Congo_symbols';
+import { DenmarkSymbols, DenmarkSymbolsMetadata } from './flags/Denmark_symbols';
+import { DjiboutiSymbols, DjiboutiSymbolsMetadata } from './flags/Djibouti_symbols';
+import { DominicaSymbols, DominicaSymbolsMetadata } from './flags/Dominica_symbols';
+import { DominicanRepublicSymbols, DominicanRepublicSymbolsMetadata } from './flags/Dominican-Republic_symbols';
+import { EastTimorSymbols, EastTimorSymbolsMetadata } from './flags/East-Timor_symbols';
+import { EcuadorSymbols, EcuadorSymbolsMetadata } from './flags/Ecuador_symbols';
+import { EgyptSymbols, EgyptSymbolsMetadata } from './flags/Egypt_symbols';
+import { ElSalvadorSymbols, ElSalvadorSymbolsMetadata } from './flags/El-Salvador_symbols';
+import { EnglandSymbols, EnglandSymbolsMetadata } from './flags/England_symbols';
+import { EquatorialGuineaSymbols, EquatorialGuineaSymbolsMetadata } from './flags/Equatorial-Guinea_symbols';
+import { EritreaSymbols, EritreaSymbolsMetadata } from './flags/Eritrea_symbols';
+import { EstoniaSymbols, EstoniaSymbolsMetadata } from './flags/Estonia_symbols';
+import { EswatiniSymbols, EswatiniSymbolsMetadata } from './flags/Eswatini_symbols';
+import { EthiopiaSymbols, EthiopiaSymbolsMetadata } from './flags/Ethiopia_symbols';
+import { EuropeSymbols, EuropeSymbolsMetadata } from './flags/Europe_symbols';
+import { FalklandIslandsSymbols, FalklandIslandsSymbolsMetadata } from './flags/Falkland-Islands_symbols';
+import { FaroeIslandsSymbols, FaroeIslandsSymbolsMetadata } from './flags/Faroe-Islands_symbols';
+import { FijiSymbols, FijiSymbolsMetadata } from './flags/Fiji_symbols';
+import { FinlandSymbols, FinlandSymbolsMetadata } from './flags/Finland_symbols';
+import { FranceSymbols, FranceSymbolsMetadata } from './flags/France_symbols';
+import { FrenchGuianaSymbols, FrenchGuianaSymbolsMetadata } from './flags/French-Guiana_symbols';
+import { FrenchPolynesiaSymbols, FrenchPolynesiaSymbolsMetadata } from './flags/French-Polynesia_symbols';
+import { GabonSymbols, GabonSymbolsMetadata } from './flags/Gabon_symbols';
+import { GambiaSymbols, GambiaSymbolsMetadata } from './flags/Gambia_symbols';
+import { GeorgiaSymbols, GeorgiaSymbolsMetadata } from './flags/Georgia_symbols';
+import { GermanySymbols, GermanySymbolsMetadata } from './flags/Germany_symbols';
+import { GhanaSymbols, GhanaSymbolsMetadata } from './flags/Ghana_symbols';
+import { GibraltarSymbols, GibraltarSymbolsMetadata } from './flags/Gibraltar_symbols';
+import { GreeceSymbols, GreeceSymbolsMetadata } from './flags/Greece_symbols';
+import { GreenlandSymbols, GreenlandSymbolsMetadata } from './flags/Greenland_symbols';
+import { GrenadaSymbols, GrenadaSymbolsMetadata } from './flags/Grenada_symbols';
+import { GuadeloupeSymbols, GuadeloupeSymbolsMetadata } from './flags/Guadeloupe_symbols';
+import { GuatemalaSymbols, GuatemalaSymbolsMetadata } from './flags/Guatemala_symbols';
+import { GuernseySymbols, GuernseySymbolsMetadata } from './flags/Guernsey_symbols';
+import { GuineaBissauSymbols, GuineaBissauSymbolsMetadata } from './flags/Guinea-Bissau_symbols';
+import { GuineaSymbols, GuineaSymbolsMetadata } from './flags/Guinea_symbols';
+import { GuyanaSymbols, GuyanaSymbolsMetadata } from './flags/Guyana_symbols';
+import { HaitiSymbols, HaitiSymbolsMetadata } from './flags/Haiti_symbols';
+import { HawaiiSymbols, HawaiiSymbolsMetadata } from './flags/Hawaii_symbols';
+import { HondurasSymbols, HondurasSymbolsMetadata } from './flags/Honduras_symbols';
+import { HongKongSymbols, HongKongSymbolsMetadata } from './flags/Hong-Kong_symbols';
+import { HungarySymbols, HungarySymbolsMetadata } from './flags/Hungary_symbols';
+import { IcelandSymbols, IcelandSymbolsMetadata } from './flags/Iceland_symbols';
+import { IndiaSymbols, IndiaSymbolsMetadata } from './flags/India_symbols';
+import { IndonesiaSymbols, IndonesiaSymbolsMetadata } from './flags/Indonesia_symbols';
+import { IranSymbols, IranSymbolsMetadata } from './flags/Iran_symbols';
+import { IraqSymbols, IraqSymbolsMetadata } from './flags/Iraq_symbols';
+import { IrelandSymbols, IrelandSymbolsMetadata } from './flags/Ireland_symbols';
+import { IsleOfManSymbols, IsleOfManSymbolsMetadata } from './flags/Isle-Of-Man_symbols';
+import { IsraelSymbols, IsraelSymbolsMetadata } from './flags/Israel_symbols';
+import { ItalySymbols, ItalySymbolsMetadata } from './flags/Italy_symbols';
+import { IvoryCoastSymbols, IvoryCoastSymbolsMetadata } from './flags/Ivory-Coast_symbols';
+import { JamaicaSymbols, JamaicaSymbolsMetadata } from './flags/Jamaica_symbols';
+import { JapanSymbols, JapanSymbolsMetadata } from './flags/Japan_symbols';
+import { JerseySymbols, JerseySymbolsMetadata } from './flags/Jersey_symbols';
+import { JordanSymbols, JordanSymbolsMetadata } from './flags/Jordan_symbols';
+import { KazakhstanSymbols, KazakhstanSymbolsMetadata } from './flags/Kazakhstan_symbols';
+import { KenyaSymbols, KenyaSymbolsMetadata } from './flags/Kenya_symbols';
+import { KiribatiSymbols, KiribatiSymbolsMetadata } from './flags/Kiribati_symbols';
+import { KosovoSymbols, KosovoSymbolsMetadata } from './flags/Kosovo_symbols';
+import { KurdistanSymbols, KurdistanSymbolsMetadata } from './flags/Kurdistan_symbols';
+import { KuwaitSymbols, KuwaitSymbolsMetadata } from './flags/Kuwait_symbols';
+import { KyrgyzstanSymbols, KyrgyzstanSymbolsMetadata } from './flags/Kyrgyzstan_symbols';
+import { LaosSymbols, LaosSymbolsMetadata } from './flags/Laos_symbols';
+import { LatviaSymbols, LatviaSymbolsMetadata } from './flags/Latvia_symbols';
+import { LebanonSymbols, LebanonSymbolsMetadata } from './flags/Lebanon_symbols';
+import { LesothoSymbols, LesothoSymbolsMetadata } from './flags/Lesotho_symbols';
+import { LiberiaSymbols, LiberiaSymbolsMetadata } from './flags/Liberia_symbols';
+import { LibyaSymbols, LibyaSymbolsMetadata } from './flags/Libya_symbols';
+import { LiechtensteinSymbols, LiechtensteinSymbolsMetadata } from './flags/Liechtenstein_symbols';
+import { LithuaniaSymbols, LithuaniaSymbolsMetadata } from './flags/Lithuania_symbols';
+import { LuxembourgSymbols, LuxembourgSymbolsMetadata } from './flags/Luxembourg_symbols';
+import { MacauSymbols, MacauSymbolsMetadata } from './flags/Macau_symbols';
+import { MadagascarSymbols, MadagascarSymbolsMetadata } from './flags/Madagascar_symbols';
+import { MalawiSymbols, MalawiSymbolsMetadata } from './flags/Malawi_symbols';
+import { MalaysiaSymbols, MalaysiaSymbolsMetadata } from './flags/Malaysia_symbols';
+import { MaldivesSymbols, MaldivesSymbolsMetadata } from './flags/Maldives_symbols';
+import { MaliSymbols, MaliSymbolsMetadata } from './flags/Mali_symbols';
+import { MaltaSymbols, MaltaSymbolsMetadata } from './flags/Malta_symbols';
+import { MarshallIslandsSymbols, MarshallIslandsSymbolsMetadata } from './flags/Marshall-Islands_symbols';
+import { MartiniqueSymbols, MartiniqueSymbolsMetadata } from './flags/Martinique_symbols';
+import { MauritaniaSymbols, MauritaniaSymbolsMetadata } from './flags/Mauritania_symbols';
+import { MauritiusSymbols, MauritiusSymbolsMetadata } from './flags/Mauritius_symbols';
+import { MexicoSymbols, MexicoSymbolsMetadata } from './flags/Mexico_symbols';
+import { MicronesiaSymbols, MicronesiaSymbolsMetadata } from './flags/Micronesia_symbols';
+import { MoldovaSymbols, MoldovaSymbolsMetadata } from './flags/Moldova_symbols';
+import { MonacoSymbols, MonacoSymbolsMetadata } from './flags/Monaco_symbols';
+import { MongoliaSymbols, MongoliaSymbolsMetadata } from './flags/Mongolia_symbols';
+import { MontenegroSymbols, MontenegroSymbolsMetadata } from './flags/Montenegro_symbols';
+import { MoroccoSymbols, MoroccoSymbolsMetadata } from './flags/Morocco_symbols';
+import { MozanbiqueSymbols, MozanbiqueSymbolsMetadata } from './flags/Mozanbique_symbols';
+import { MyanmarSymbols, MyanmarSymbolsMetadata } from './flags/Myanmar_symbols';
+import { NamibiaSymbols, NamibiaSymbolsMetadata } from './flags/Namibia_symbols';
+import { NauruSymbols, NauruSymbolsMetadata } from './flags/Nauru_symbols';
+import { NepalSymbols, NepalSymbolsMetadata } from './flags/Nepal_symbols';
+import { NetherlandsAntillesSymbols, NetherlandsAntillesSymbolsMetadata } from './flags/Netherlands-Antilles_symbols';
+import { NetherlandsSymbols, NetherlandsSymbolsMetadata } from './flags/Netherlands_symbols';
+import { NewCaledoniaSymbols, NewCaledoniaSymbolsMetadata } from './flags/New-Caledonia_symbols';
+import { NewZealandSymbols, NewZealandSymbolsMetadata } from './flags/New-Zealand_symbols';
+import { NicaraguaSymbols, NicaraguaSymbolsMetadata } from './flags/Nicaragua_symbols';
+import { NigerSymbols, NigerSymbolsMetadata } from './flags/Niger_symbols';
+import { NigeriaSymbols, NigeriaSymbolsMetadata } from './flags/Nigeria_symbols';
+import { NiueSymbols, NiueSymbolsMetadata } from './flags/Niue_symbols';
+import { NorthKoreaSymbols, NorthKoreaSymbolsMetadata } from './flags/North-Korea_symbols';
+import { NorthMacedoniaSymbols, NorthMacedoniaSymbolsMetadata } from './flags/North-Macedonia_symbols';
+import { NorthenIrelandSymbols, NorthenIrelandSymbolsMetadata } from './flags/Northen-Ireland_symbols';
+import { NorwaySymbols, NorwaySymbolsMetadata } from './flags/Norway_symbols';
+import { OmanSymbols, OmanSymbolsMetadata } from './flags/Oman_symbols';
+import { PakistanSymbols, PakistanSymbolsMetadata } from './flags/Pakistan_symbols';
+import { PalauSymbols, PalauSymbolsMetadata } from './flags/Palau_symbols';
+import { PalestineSymbols, PalestineSymbolsMetadata } from './flags/Palestine_symbols';
+import { PanamaSymbols, PanamaSymbolsMetadata } from './flags/Panama_symbols';
+import { PapuaNewGuineaSymbols, PapuaNewGuineaSymbolsMetadata } from './flags/Papua-New-Guinea_symbols';
+import { ParaguaySymbols, ParaguaySymbolsMetadata } from './flags/Paraguay_symbols';
+import { PeruSymbols, PeruSymbolsMetadata } from './flags/Peru_symbols';
+import { PhilippinesSymbols, PhilippinesSymbolsMetadata } from './flags/Philippines_symbols';
+import { PolandSymbols, PolandSymbolsMetadata } from './flags/Poland_symbols';
+import { PortugalSymbols, PortugalSymbolsMetadata } from './flags/Portugal_symbols';
+import { PuertoRicoSymbols, PuertoRicoSymbolsMetadata } from './flags/Puerto-Rico_symbols';
+import { QatarSymbols, QatarSymbolsMetadata } from './flags/Qatar_symbols';
+import { RepublicCongoSymbols, RepublicCongoSymbolsMetadata } from './flags/Republic-Congo_symbols';
+import { RomaniaSymbols, RomaniaSymbolsMetadata } from './flags/Romania_symbols';
+import { RussiaSymbols, RussiaSymbolsMetadata } from './flags/Russia_symbols';
+import { RwandaSymbols, RwandaSymbolsMetadata } from './flags/Rwanda_symbols';
+import { SaintKittsNevisSymbols, SaintKittsNevisSymbolsMetadata } from './flags/Saint-Kitts-Nevis_symbols';
+import { SierraLeoneSymbols, SierraLeoneSymbolsMetadata } from './flags/Sierra-Leone_symbols';
+import { SingaporeSymbols, SingaporeSymbolsMetadata } from './flags/Singapore_symbols';
+import { SintMaartenSymbols, SintMaartenSymbolsMetadata } from './flags/Sint-Maarten_symbols';
+import { SlovakiaSymbols, SlovakiaSymbolsMetadata } from './flags/Slovakia_symbols';
+import { SloveniaSymbols, SloveniaSymbolsMetadata } from './flags/Slovenia_symbols';
+import { SolomonIslandsSymbols, SolomonIslandsSymbolsMetadata } from './flags/Solomon-Islands_symbols';
+import { SomaliaSymbols, SomaliaSymbolsMetadata } from './flags/Somalia_symbols';
+import { SouthAfricaSymbols, SouthAfricaSymbolsMetadata } from './flags/South-Africa_symbols';
+import { SouthGeorgiaSandwichIslandsSymbols, SouthGeorgiaSandwichIslandsSymbolsMetadata } from './flags/South-Georgia-Sandwich-Islands_symbols';
+import { SouthKoreaSymbols, SouthKoreaSymbolsMetadata } from './flags/South-Korea_symbols';
+import { SouthSudanSymbols, SouthSudanSymbolsMetadata } from './flags/South-Sudan_symbols';
+import { SpainSymbols, SpainSymbolsMetadata } from './flags/Spain_symbols';
+import { SriLankaSymbols, SriLankaSymbolsMetadata } from './flags/Sri-Lanka_symbols';
+import { SudanSymbols, SudanSymbolsMetadata } from './flags/Sudan_symbols';
+import { SurinameSymbols, SurinameSymbolsMetadata } from './flags/Suriname_symbols';
+import { SwedenSymbols, SwedenSymbolsMetadata } from './flags/Sweden_symbols';
+import { SwitzerlandSymbols, SwitzerlandSymbolsMetadata } from './flags/Switzerland_symbols';
+import { SyriaSymbols, SyriaSymbolsMetadata } from './flags/Syria_symbols';
+import { TaiwanSymbols, TaiwanSymbolsMetadata } from './flags/Taiwan_symbols';
+import { TajikistanSymbols, TajikistanSymbolsMetadata } from './flags/Tajikistan_symbols';
+import { TanzaniaSymbols, TanzaniaSymbolsMetadata } from './flags/Tanzania_symbols';
+import { ThailandSymbols, ThailandSymbolsMetadata } from './flags/Thailand_symbols';
+import { TogoSymbols, TogoSymbolsMetadata } from './flags/Togo_symbols';
+import { TongaSymbols, TongaSymbolsMetadata } from './flags/Tonga_symbols';
+import { TrinidadTobagoSymbols, TrinidadTobagoSymbolsMetadata } from './flags/Trinidad-Tobago_symbols';
+import { TunisiaSymbols, TunisiaSymbolsMetadata } from './flags/Tunisia_symbols';
+import { TurkeySymbols, TurkeySymbolsMetadata } from './flags/Turkey_symbols';
+import { TurkmenistanSymbols, TurkmenistanSymbolsMetadata } from './flags/Turkmenistan_symbols';
+import { TurksAndCaicosIslandsSymbols, TurksAndCaicosIslandsSymbolsMetadata } from './flags/Turks-And-Caicos-Islands_symbols';
+import { TuvaluSymbols, TuvaluSymbolsMetadata } from './flags/Tuvalu_symbols';
+import { USAVirginIslandsSymbols, USAVirginIslandsSymbolsMetadata } from './flags/USA-Virgin-Islands_symbols';
+import { UgandaSymbols, UgandaSymbolsMetadata } from './flags/Uganda_symbols';
+import { UkraineSymbols, UkraineSymbolsMetadata } from './flags/Ukraine_symbols';
+import { UnitedArabEmiraSymbols, UnitedArabEmiraSymbolsMetadata } from './flags/United-Arab-Emira_symbols';
+import { UnitedKingdomSymbols, UnitedKingdomSymbolsMetadata } from './flags/United-Kingdom_symbols';
+import { UnitedStatesSymbols, UnitedStatesSymbolsMetadata } from './flags/United-States_symbols';
+import { UruguaySymbols, UruguaySymbolsMetadata } from './flags/Uruguay_symbols';
+import { UzbekistanSymbols, UzbekistanSymbolsMetadata } from './flags/Uzbekistan_symbols';
+import { VanuatuSymbols, VanuatuSymbolsMetadata } from './flags/Vanuatu_symbols';
+import { VaticanCitySymbols, VaticanCitySymbolsMetadata } from './flags/Vatican-City_symbols';
+import { VenezuelaSymbols, VenezuelaSymbolsMetadata } from './flags/Venezuela_symbols';
+import { VietnamSymbols, VietnamSymbolsMetadata } from './flags/Vietnam_symbols';
+import { WalesSymbols, WalesSymbolsMetadata } from './flags/Wales_symbols';
+import { WesternSaharaSymbols, WesternSaharaSymbolsMetadata } from './flags/Western-Sahara_symbols';
+import { YemenSymbols, YemenSymbolsMetadata } from './flags/Yemen_symbols';
+import { ZambiaSymbols, ZambiaSymbolsMetadata } from './flags/Zambia_symbols';
+import { ZimbabweSymbols, ZimbabweSymbolsMetadata } from './flags/Zimbabwe_symbols';
 import { Astro, AstroMetadata } from './framework/Astro';
 import { Blitz, BlitzMetadata } from './framework/Blitz';
 import { Bootstrap, BootstrapMetadata } from './framework/Bootstrap';
@@ -1130,7 +1130,7 @@ import { VercelWordmark, VercelWordmarkMetadata } from './software/Vercel_wordma
 import { Xbox, XboxMetadata } from './software/Xbox';
 import { Zoom, ZoomMetadata } from './software/Zoom';
 import { Nike, NikeMetadata } from './sports/Nike';
-import { VerifiedBadgeStickers, VerifiedBadgeStickersMetadata } from './stickers/Verified-Badge_stickers';
+import { VerifiedBadgeSymbols, VerifiedBadgeSymbolsMetadata } from './stickers/Verified-Badge_symbols';
 
 
 export const allLogos = {
@@ -1191,31 +1191,31 @@ export const allLogos = {
     ZenBrowser: { Component: ZenBrowser, metadata: ZenBrowserMetadata },
   },
   cards: {
-    AlipayCards: { Component: AlipayCards, metadata: AlipayCardsMetadata },
-    AmazonCards: { Component: AmazonCards, metadata: AmazonCardsMetadata },
-    AmericanExpressCards: { Component: AmericanExpressCards, metadata: AmericanExpressCardsMetadata },
-    ApplePayCards: { Component: ApplePayCards, metadata: ApplePayCardsMetadata },
-    BankAccountCards: { Component: BankAccountCards, metadata: BankAccountCardsMetadata },
-    BitcoinCards: { Component: BitcoinCards, metadata: BitcoinCardsMetadata },
-    CVCCards: { Component: CVCCards, metadata: CVCCardsMetadata },
-    DinersClubCards: { Component: DinersClubCards, metadata: DinersClubCardsMetadata },
-    DiscoverCards: { Component: DiscoverCards, metadata: DiscoverCardsMetadata },
-    EftposCards: { Component: EftposCards, metadata: EftposCardsMetadata },
-    Front1Cards: { Component: Front1Cards, metadata: Front1CardsMetadata },
-    FrontCards: { Component: FrontCards, metadata: FrontCardsMetadata },
-    GooglePayCards: { Component: GooglePayCards, metadata: GooglePayCardsMetadata },
-    JCBCards: { Component: JCBCards, metadata: JCBCardsMetadata },
-    MaestroCards: { Component: MaestroCards, metadata: MaestroCardsMetadata },
-    Mastercard1Cards: { Component: Mastercard1Cards, metadata: Mastercard1CardsMetadata },
-    MastercardCards: { Component: MastercardCards, metadata: MastercardCardsMetadata },
-    Paypal1Cards: { Component: Paypal1Cards, metadata: Paypal1CardsMetadata },
-    PaypalCards: { Component: PaypalCards, metadata: PaypalCardsMetadata },
-    RuPayCards: { Component: RuPayCards, metadata: RuPayCardsMetadata },
-    ShopPayCards: { Component: ShopPayCards, metadata: ShopPayCardsMetadata },
-    UnionPayCards: { Component: UnionPayCards, metadata: UnionPayCardsMetadata },
-    Visa1Cards: { Component: Visa1Cards, metadata: Visa1CardsMetadata },
-    VisaCards: { Component: VisaCards, metadata: VisaCardsMetadata },
-    WeChatPayCards: { Component: WeChatPayCards, metadata: WeChatPayCardsMetadata },
+    AlipaySymbols: { Component: AlipaySymbols, metadata: AlipaySymbolsMetadata },
+    AmazonSymbols: { Component: AmazonSymbols, metadata: AmazonSymbolsMetadata },
+    AmericanExpressSymbols: { Component: AmericanExpressSymbols, metadata: AmericanExpressSymbolsMetadata },
+    ApplePaySymbols: { Component: ApplePaySymbols, metadata: ApplePaySymbolsMetadata },
+    BankAccountSymbols: { Component: BankAccountSymbols, metadata: BankAccountSymbolsMetadata },
+    BitcoinSymbols: { Component: BitcoinSymbols, metadata: BitcoinSymbolsMetadata },
+    CVCSymbols: { Component: CVCSymbols, metadata: CVCSymbolsMetadata },
+    DinersClubSymbols: { Component: DinersClubSymbols, metadata: DinersClubSymbolsMetadata },
+    DiscoverSymbols: { Component: DiscoverSymbols, metadata: DiscoverSymbolsMetadata },
+    EftposSymbols: { Component: EftposSymbols, metadata: EftposSymbolsMetadata },
+    Front1Symbols: { Component: Front1Symbols, metadata: Front1SymbolsMetadata },
+    FrontSymbols: { Component: FrontSymbols, metadata: FrontSymbolsMetadata },
+    GooglePaySymbols: { Component: GooglePaySymbols, metadata: GooglePaySymbolsMetadata },
+    JCBSymbols: { Component: JCBSymbols, metadata: JCBSymbolsMetadata },
+    MaestroSymbols: { Component: MaestroSymbols, metadata: MaestroSymbolsMetadata },
+    Mastercard1Symbols: { Component: Mastercard1Symbols, metadata: Mastercard1SymbolsMetadata },
+    MastercardSymbols: { Component: MastercardSymbols, metadata: MastercardSymbolsMetadata },
+    Paypal1Symbols: { Component: Paypal1Symbols, metadata: Paypal1SymbolsMetadata },
+    PaypalSymbols: { Component: PaypalSymbols, metadata: PaypalSymbolsMetadata },
+    RuPaySymbols: { Component: RuPaySymbols, metadata: RuPaySymbolsMetadata },
+    ShopPaySymbols: { Component: ShopPaySymbols, metadata: ShopPaySymbolsMetadata },
+    UnionPaySymbols: { Component: UnionPaySymbols, metadata: UnionPaySymbolsMetadata },
+    Visa1Symbols: { Component: Visa1Symbols, metadata: Visa1SymbolsMetadata },
+    VisaSymbols: { Component: VisaSymbols, metadata: VisaSymbolsMetadata },
+    WeChatPaySymbols: { Component: WeChatPaySymbols, metadata: WeChatPaySymbolsMetadata },
   },
   cms: {
     Builder: { Component: Builder, metadata: BuilderMetadata },
@@ -1287,233 +1287,233 @@ export const allLogos = {
     UnoCSS: { Component: UnoCSS, metadata: UnoCSSMetadata },
   },
   flags: {
-    AalandIslandsFlags: { Component: AalandIslandsFlags, metadata: AalandIslandsFlagsMetadata },
-    AfghanistanFlags: { Component: AfghanistanFlags, metadata: AfghanistanFlagsMetadata },
-    AlbaniaFlags: { Component: AlbaniaFlags, metadata: AlbaniaFlagsMetadata },
-    AlgeriaFlags: { Component: AlgeriaFlags, metadata: AlgeriaFlagsMetadata },
-    AndorraFlags: { Component: AndorraFlags, metadata: AndorraFlagsMetadata },
-    AngolaFlags: { Component: AngolaFlags, metadata: AngolaFlagsMetadata },
-    AnguillaFlags: { Component: AnguillaFlags, metadata: AnguillaFlagsMetadata },
-    AntarcticaFlags: { Component: AntarcticaFlags, metadata: AntarcticaFlagsMetadata },
-    AntiguaBarbudaFlags: { Component: AntiguaBarbudaFlags, metadata: AntiguaBarbudaFlagsMetadata },
-    ArgentinaFlags: { Component: ArgentinaFlags, metadata: ArgentinaFlagsMetadata },
-    ArmeniaFlags: { Component: ArmeniaFlags, metadata: ArmeniaFlagsMetadata },
-    ArubaFlags: { Component: ArubaFlags, metadata: ArubaFlagsMetadata },
-    AustraliaFlags: { Component: AustraliaFlags, metadata: AustraliaFlagsMetadata },
-    AustriaFlags: { Component: AustriaFlags, metadata: AustriaFlagsMetadata },
-    AzerbaijanFlags: { Component: AzerbaijanFlags, metadata: AzerbaijanFlagsMetadata },
-    BahamasFlags: { Component: BahamasFlags, metadata: BahamasFlagsMetadata },
-    BahrainFlags: { Component: BahrainFlags, metadata: BahrainFlagsMetadata },
-    BangladeshFlags: { Component: BangladeshFlags, metadata: BangladeshFlagsMetadata },
-    BarbadosFlags: { Component: BarbadosFlags, metadata: BarbadosFlagsMetadata },
-    BasqueFlags: { Component: BasqueFlags, metadata: BasqueFlagsMetadata },
-    BelarusFlags: { Component: BelarusFlags, metadata: BelarusFlagsMetadata },
-    BelgiumFlags: { Component: BelgiumFlags, metadata: BelgiumFlagsMetadata },
-    BelizeFlags: { Component: BelizeFlags, metadata: BelizeFlagsMetadata },
-    BeninFlags: { Component: BeninFlags, metadata: BeninFlagsMetadata },
-    BermudaFlags: { Component: BermudaFlags, metadata: BermudaFlagsMetadata },
-    BhutanFlags: { Component: BhutanFlags, metadata: BhutanFlagsMetadata },
-    BoliviaFlags: { Component: BoliviaFlags, metadata: BoliviaFlagsMetadata },
-    BosniaHerzegovinaFlags: { Component: BosniaHerzegovinaFlags, metadata: BosniaHerzegovinaFlagsMetadata },
-    BotswanaFlags: { Component: BotswanaFlags, metadata: BotswanaFlagsMetadata },
-    BrazilFlags: { Component: BrazilFlags, metadata: BrazilFlagsMetadata },
-    BritishVirginIslandsFlags: { Component: BritishVirginIslandsFlags, metadata: BritishVirginIslandsFlagsMetadata },
-    BruneiFlags: { Component: BruneiFlags, metadata: BruneiFlagsMetadata },
-    BulgariaFlags: { Component: BulgariaFlags, metadata: BulgariaFlagsMetadata },
-    BurkinaFasoFlags: { Component: BurkinaFasoFlags, metadata: BurkinaFasoFlagsMetadata },
-    BurundiFlags: { Component: BurundiFlags, metadata: BurundiFlagsMetadata },
-    CambodiaFlags: { Component: CambodiaFlags, metadata: CambodiaFlagsMetadata },
-    CameroonFlags: { Component: CameroonFlags, metadata: CameroonFlagsMetadata },
-    CanadaFlags: { Component: CanadaFlags, metadata: CanadaFlagsMetadata },
-    CanaryIslandsFlags: { Component: CanaryIslandsFlags, metadata: CanaryIslandsFlagsMetadata },
-    CapeVerdeFlags: { Component: CapeVerdeFlags, metadata: CapeVerdeFlagsMetadata },
-    CaymanIslandsFlags: { Component: CaymanIslandsFlags, metadata: CaymanIslandsFlagsMetadata },
-    CentralAfricanRepuFlags: { Component: CentralAfricanRepuFlags, metadata: CentralAfricanRepuFlagsMetadata },
-    ChadFlags: { Component: ChadFlags, metadata: ChadFlagsMetadata },
-    ChileFlags: { Component: ChileFlags, metadata: ChileFlagsMetadata },
-    ChinaFlags: { Component: ChinaFlags, metadata: ChinaFlagsMetadata },
-    ColombiaFlags: { Component: ColombiaFlags, metadata: ColombiaFlagsMetadata },
-    ComorosFlags: { Component: ComorosFlags, metadata: ComorosFlagsMetadata },
-    CookIslandsFlags: { Component: CookIslandsFlags, metadata: CookIslandsFlagsMetadata },
-    CostaRicaFlags: { Component: CostaRicaFlags, metadata: CostaRicaFlagsMetadata },
-    CroatiaFlags: { Component: CroatiaFlags, metadata: CroatiaFlagsMetadata },
-    CubaFlags: { Component: CubaFlags, metadata: CubaFlagsMetadata },
-    CuracaoFlags: { Component: CuracaoFlags, metadata: CuracaoFlagsMetadata },
-    CyprusFlags: { Component: CyprusFlags, metadata: CyprusFlagsMetadata },
-    CzechiaFlags: { Component: CzechiaFlags, metadata: CzechiaFlagsMetadata },
-    DemocraticRepublicOfCongoFlags: { Component: DemocraticRepublicOfCongoFlags, metadata: DemocraticRepublicOfCongoFlagsMetadata },
-    DenmarkFlags: { Component: DenmarkFlags, metadata: DenmarkFlagsMetadata },
-    DjiboutiFlags: { Component: DjiboutiFlags, metadata: DjiboutiFlagsMetadata },
-    DominicaFlags: { Component: DominicaFlags, metadata: DominicaFlagsMetadata },
-    DominicanRepublicFlags: { Component: DominicanRepublicFlags, metadata: DominicanRepublicFlagsMetadata },
-    EastTimorFlags: { Component: EastTimorFlags, metadata: EastTimorFlagsMetadata },
-    EcuadorFlags: { Component: EcuadorFlags, metadata: EcuadorFlagsMetadata },
-    EgyptFlags: { Component: EgyptFlags, metadata: EgyptFlagsMetadata },
-    ElSalvadorFlags: { Component: ElSalvadorFlags, metadata: ElSalvadorFlagsMetadata },
-    EnglandFlags: { Component: EnglandFlags, metadata: EnglandFlagsMetadata },
-    EquatorialGuineaFlags: { Component: EquatorialGuineaFlags, metadata: EquatorialGuineaFlagsMetadata },
-    EritreaFlags: { Component: EritreaFlags, metadata: EritreaFlagsMetadata },
-    EstoniaFlags: { Component: EstoniaFlags, metadata: EstoniaFlagsMetadata },
-    EswatiniFlags: { Component: EswatiniFlags, metadata: EswatiniFlagsMetadata },
-    EthiopiaFlags: { Component: EthiopiaFlags, metadata: EthiopiaFlagsMetadata },
-    EuropeFlags: { Component: EuropeFlags, metadata: EuropeFlagsMetadata },
-    FalklandIslandsFlags: { Component: FalklandIslandsFlags, metadata: FalklandIslandsFlagsMetadata },
-    FaroeIslandsFlags: { Component: FaroeIslandsFlags, metadata: FaroeIslandsFlagsMetadata },
-    FijiFlags: { Component: FijiFlags, metadata: FijiFlagsMetadata },
-    FinlandFlags: { Component: FinlandFlags, metadata: FinlandFlagsMetadata },
-    FranceFlags: { Component: FranceFlags, metadata: FranceFlagsMetadata },
-    FrenchGuianaFlags: { Component: FrenchGuianaFlags, metadata: FrenchGuianaFlagsMetadata },
-    FrenchPolynesiaFlags: { Component: FrenchPolynesiaFlags, metadata: FrenchPolynesiaFlagsMetadata },
-    GabonFlags: { Component: GabonFlags, metadata: GabonFlagsMetadata },
-    GambiaFlags: { Component: GambiaFlags, metadata: GambiaFlagsMetadata },
-    GeorgiaFlags: { Component: GeorgiaFlags, metadata: GeorgiaFlagsMetadata },
-    GermanyFlags: { Component: GermanyFlags, metadata: GermanyFlagsMetadata },
-    GhanaFlags: { Component: GhanaFlags, metadata: GhanaFlagsMetadata },
-    GibraltarFlags: { Component: GibraltarFlags, metadata: GibraltarFlagsMetadata },
-    GreeceFlags: { Component: GreeceFlags, metadata: GreeceFlagsMetadata },
-    GreenlandFlags: { Component: GreenlandFlags, metadata: GreenlandFlagsMetadata },
-    GrenadaFlags: { Component: GrenadaFlags, metadata: GrenadaFlagsMetadata },
-    GuadeloupeFlags: { Component: GuadeloupeFlags, metadata: GuadeloupeFlagsMetadata },
-    GuatemalaFlags: { Component: GuatemalaFlags, metadata: GuatemalaFlagsMetadata },
-    GuernseyFlags: { Component: GuernseyFlags, metadata: GuernseyFlagsMetadata },
-    GuineaBissauFlags: { Component: GuineaBissauFlags, metadata: GuineaBissauFlagsMetadata },
-    GuineaFlags: { Component: GuineaFlags, metadata: GuineaFlagsMetadata },
-    GuyanaFlags: { Component: GuyanaFlags, metadata: GuyanaFlagsMetadata },
-    HaitiFlags: { Component: HaitiFlags, metadata: HaitiFlagsMetadata },
-    HawaiiFlags: { Component: HawaiiFlags, metadata: HawaiiFlagsMetadata },
-    HondurasFlags: { Component: HondurasFlags, metadata: HondurasFlagsMetadata },
-    HongKongFlags: { Component: HongKongFlags, metadata: HongKongFlagsMetadata },
-    HungaryFlags: { Component: HungaryFlags, metadata: HungaryFlagsMetadata },
-    IcelandFlags: { Component: IcelandFlags, metadata: IcelandFlagsMetadata },
-    IndiaFlags: { Component: IndiaFlags, metadata: IndiaFlagsMetadata },
-    IndonesiaFlags: { Component: IndonesiaFlags, metadata: IndonesiaFlagsMetadata },
-    IranFlags: { Component: IranFlags, metadata: IranFlagsMetadata },
-    IraqFlags: { Component: IraqFlags, metadata: IraqFlagsMetadata },
-    IrelandFlags: { Component: IrelandFlags, metadata: IrelandFlagsMetadata },
-    IsleOfManFlags: { Component: IsleOfManFlags, metadata: IsleOfManFlagsMetadata },
-    IsraelFlags: { Component: IsraelFlags, metadata: IsraelFlagsMetadata },
-    ItalyFlags: { Component: ItalyFlags, metadata: ItalyFlagsMetadata },
-    IvoryCoastFlags: { Component: IvoryCoastFlags, metadata: IvoryCoastFlagsMetadata },
-    JamaicaFlags: { Component: JamaicaFlags, metadata: JamaicaFlagsMetadata },
-    JapanFlags: { Component: JapanFlags, metadata: JapanFlagsMetadata },
-    JerseyFlags: { Component: JerseyFlags, metadata: JerseyFlagsMetadata },
-    JordanFlags: { Component: JordanFlags, metadata: JordanFlagsMetadata },
-    KazakhstanFlags: { Component: KazakhstanFlags, metadata: KazakhstanFlagsMetadata },
-    KenyaFlags: { Component: KenyaFlags, metadata: KenyaFlagsMetadata },
-    KiribatiFlags: { Component: KiribatiFlags, metadata: KiribatiFlagsMetadata },
-    KosovoFlags: { Component: KosovoFlags, metadata: KosovoFlagsMetadata },
-    KurdistanFlags: { Component: KurdistanFlags, metadata: KurdistanFlagsMetadata },
-    KuwaitFlags: { Component: KuwaitFlags, metadata: KuwaitFlagsMetadata },
-    KyrgyzstanFlags: { Component: KyrgyzstanFlags, metadata: KyrgyzstanFlagsMetadata },
-    LaosFlags: { Component: LaosFlags, metadata: LaosFlagsMetadata },
-    LatviaFlags: { Component: LatviaFlags, metadata: LatviaFlagsMetadata },
-    LebanonFlags: { Component: LebanonFlags, metadata: LebanonFlagsMetadata },
-    LesothoFlags: { Component: LesothoFlags, metadata: LesothoFlagsMetadata },
-    LiberiaFlags: { Component: LiberiaFlags, metadata: LiberiaFlagsMetadata },
-    LibyaFlags: { Component: LibyaFlags, metadata: LibyaFlagsMetadata },
-    LiechtensteinFlags: { Component: LiechtensteinFlags, metadata: LiechtensteinFlagsMetadata },
-    LithuaniaFlags: { Component: LithuaniaFlags, metadata: LithuaniaFlagsMetadata },
-    LuxembourgFlags: { Component: LuxembourgFlags, metadata: LuxembourgFlagsMetadata },
-    MacauFlags: { Component: MacauFlags, metadata: MacauFlagsMetadata },
-    MadagascarFlags: { Component: MadagascarFlags, metadata: MadagascarFlagsMetadata },
-    MalawiFlags: { Component: MalawiFlags, metadata: MalawiFlagsMetadata },
-    MalaysiaFlags: { Component: MalaysiaFlags, metadata: MalaysiaFlagsMetadata },
-    MaldivesFlags: { Component: MaldivesFlags, metadata: MaldivesFlagsMetadata },
-    MaliFlags: { Component: MaliFlags, metadata: MaliFlagsMetadata },
-    MaltaFlags: { Component: MaltaFlags, metadata: MaltaFlagsMetadata },
-    MarshallIslandsFlags: { Component: MarshallIslandsFlags, metadata: MarshallIslandsFlagsMetadata },
-    MartiniqueFlags: { Component: MartiniqueFlags, metadata: MartiniqueFlagsMetadata },
-    MauritaniaFlags: { Component: MauritaniaFlags, metadata: MauritaniaFlagsMetadata },
-    MauritiusFlags: { Component: MauritiusFlags, metadata: MauritiusFlagsMetadata },
-    MexicoFlags: { Component: MexicoFlags, metadata: MexicoFlagsMetadata },
-    MicronesiaFlags: { Component: MicronesiaFlags, metadata: MicronesiaFlagsMetadata },
-    MoldovaFlags: { Component: MoldovaFlags, metadata: MoldovaFlagsMetadata },
-    MonacoFlags: { Component: MonacoFlags, metadata: MonacoFlagsMetadata },
-    MongoliaFlags: { Component: MongoliaFlags, metadata: MongoliaFlagsMetadata },
-    MontenegroFlags: { Component: MontenegroFlags, metadata: MontenegroFlagsMetadata },
-    MoroccoFlags: { Component: MoroccoFlags, metadata: MoroccoFlagsMetadata },
-    MozanbiqueFlags: { Component: MozanbiqueFlags, metadata: MozanbiqueFlagsMetadata },
-    MyanmarFlags: { Component: MyanmarFlags, metadata: MyanmarFlagsMetadata },
-    NamibiaFlags: { Component: NamibiaFlags, metadata: NamibiaFlagsMetadata },
-    NauruFlags: { Component: NauruFlags, metadata: NauruFlagsMetadata },
-    NepalFlags: { Component: NepalFlags, metadata: NepalFlagsMetadata },
-    NetherlandsAntillesFlags: { Component: NetherlandsAntillesFlags, metadata: NetherlandsAntillesFlagsMetadata },
-    NetherlandsFlags: { Component: NetherlandsFlags, metadata: NetherlandsFlagsMetadata },
-    NewCaledoniaFlags: { Component: NewCaledoniaFlags, metadata: NewCaledoniaFlagsMetadata },
-    NewZealandFlags: { Component: NewZealandFlags, metadata: NewZealandFlagsMetadata },
-    NicaraguaFlags: { Component: NicaraguaFlags, metadata: NicaraguaFlagsMetadata },
-    NigerFlags: { Component: NigerFlags, metadata: NigerFlagsMetadata },
-    NigeriaFlags: { Component: NigeriaFlags, metadata: NigeriaFlagsMetadata },
-    NiueFlags: { Component: NiueFlags, metadata: NiueFlagsMetadata },
-    NorthKoreaFlags: { Component: NorthKoreaFlags, metadata: NorthKoreaFlagsMetadata },
-    NorthMacedoniaFlags: { Component: NorthMacedoniaFlags, metadata: NorthMacedoniaFlagsMetadata },
-    NorthenIrelandFlags: { Component: NorthenIrelandFlags, metadata: NorthenIrelandFlagsMetadata },
-    NorwayFlags: { Component: NorwayFlags, metadata: NorwayFlagsMetadata },
-    OmanFlags: { Component: OmanFlags, metadata: OmanFlagsMetadata },
-    PakistanFlags: { Component: PakistanFlags, metadata: PakistanFlagsMetadata },
-    PalauFlags: { Component: PalauFlags, metadata: PalauFlagsMetadata },
-    PalestineFlags: { Component: PalestineFlags, metadata: PalestineFlagsMetadata },
-    PanamaFlags: { Component: PanamaFlags, metadata: PanamaFlagsMetadata },
-    PapuaNewGuineaFlags: { Component: PapuaNewGuineaFlags, metadata: PapuaNewGuineaFlagsMetadata },
-    ParaguayFlags: { Component: ParaguayFlags, metadata: ParaguayFlagsMetadata },
-    PeruFlags: { Component: PeruFlags, metadata: PeruFlagsMetadata },
-    PhilippinesFlags: { Component: PhilippinesFlags, metadata: PhilippinesFlagsMetadata },
-    PolandFlags: { Component: PolandFlags, metadata: PolandFlagsMetadata },
-    PortugalFlags: { Component: PortugalFlags, metadata: PortugalFlagsMetadata },
-    PuertoRicoFlags: { Component: PuertoRicoFlags, metadata: PuertoRicoFlagsMetadata },
-    QatarFlags: { Component: QatarFlags, metadata: QatarFlagsMetadata },
-    RepublicCongoFlags: { Component: RepublicCongoFlags, metadata: RepublicCongoFlagsMetadata },
-    RomaniaFlags: { Component: RomaniaFlags, metadata: RomaniaFlagsMetadata },
-    RussiaFlags: { Component: RussiaFlags, metadata: RussiaFlagsMetadata },
-    RwandaFlags: { Component: RwandaFlags, metadata: RwandaFlagsMetadata },
-    SaintKittsNevisFlags: { Component: SaintKittsNevisFlags, metadata: SaintKittsNevisFlagsMetadata },
-    SierraLeoneFlags: { Component: SierraLeoneFlags, metadata: SierraLeoneFlagsMetadata },
-    SingaporeFlags: { Component: SingaporeFlags, metadata: SingaporeFlagsMetadata },
-    SintMaartenFlags: { Component: SintMaartenFlags, metadata: SintMaartenFlagsMetadata },
-    SlovakiaFlags: { Component: SlovakiaFlags, metadata: SlovakiaFlagsMetadata },
-    SloveniaFlags: { Component: SloveniaFlags, metadata: SloveniaFlagsMetadata },
-    SolomonIslandsFlags: { Component: SolomonIslandsFlags, metadata: SolomonIslandsFlagsMetadata },
-    SomaliaFlags: { Component: SomaliaFlags, metadata: SomaliaFlagsMetadata },
-    SouthAfricaFlags: { Component: SouthAfricaFlags, metadata: SouthAfricaFlagsMetadata },
-    SouthGeorgiaSandwichIslandsFlags: { Component: SouthGeorgiaSandwichIslandsFlags, metadata: SouthGeorgiaSandwichIslandsFlagsMetadata },
-    SouthKoreaFlags: { Component: SouthKoreaFlags, metadata: SouthKoreaFlagsMetadata },
-    SouthSudanFlags: { Component: SouthSudanFlags, metadata: SouthSudanFlagsMetadata },
-    SpainFlags: { Component: SpainFlags, metadata: SpainFlagsMetadata },
-    SriLankaFlags: { Component: SriLankaFlags, metadata: SriLankaFlagsMetadata },
-    SudanFlags: { Component: SudanFlags, metadata: SudanFlagsMetadata },
-    SurinameFlags: { Component: SurinameFlags, metadata: SurinameFlagsMetadata },
-    SwedenFlags: { Component: SwedenFlags, metadata: SwedenFlagsMetadata },
-    SwitzerlandFlags: { Component: SwitzerlandFlags, metadata: SwitzerlandFlagsMetadata },
-    SyriaFlags: { Component: SyriaFlags, metadata: SyriaFlagsMetadata },
-    TaiwanFlags: { Component: TaiwanFlags, metadata: TaiwanFlagsMetadata },
-    TajikistanFlags: { Component: TajikistanFlags, metadata: TajikistanFlagsMetadata },
-    TanzaniaFlags: { Component: TanzaniaFlags, metadata: TanzaniaFlagsMetadata },
-    ThailandFlags: { Component: ThailandFlags, metadata: ThailandFlagsMetadata },
-    TogoFlags: { Component: TogoFlags, metadata: TogoFlagsMetadata },
-    TongaFlags: { Component: TongaFlags, metadata: TongaFlagsMetadata },
-    TrinidadTobagoFlags: { Component: TrinidadTobagoFlags, metadata: TrinidadTobagoFlagsMetadata },
-    TunisiaFlags: { Component: TunisiaFlags, metadata: TunisiaFlagsMetadata },
-    TurkeyFlags: { Component: TurkeyFlags, metadata: TurkeyFlagsMetadata },
-    TurkmenistanFlags: { Component: TurkmenistanFlags, metadata: TurkmenistanFlagsMetadata },
-    TurksAndCaicosIslandsFlags: { Component: TurksAndCaicosIslandsFlags, metadata: TurksAndCaicosIslandsFlagsMetadata },
-    TuvaluFlags: { Component: TuvaluFlags, metadata: TuvaluFlagsMetadata },
-    USAVirginIslandsFlags: { Component: USAVirginIslandsFlags, metadata: USAVirginIslandsFlagsMetadata },
-    UgandaFlags: { Component: UgandaFlags, metadata: UgandaFlagsMetadata },
-    UkraineFlags: { Component: UkraineFlags, metadata: UkraineFlagsMetadata },
-    UnitedArabEmiraFlags: { Component: UnitedArabEmiraFlags, metadata: UnitedArabEmiraFlagsMetadata },
-    UnitedKingdomFlags: { Component: UnitedKingdomFlags, metadata: UnitedKingdomFlagsMetadata },
-    UnitedStatesFlags: { Component: UnitedStatesFlags, metadata: UnitedStatesFlagsMetadata },
-    UruguayFlags: { Component: UruguayFlags, metadata: UruguayFlagsMetadata },
-    UzbekistanFlags: { Component: UzbekistanFlags, metadata: UzbekistanFlagsMetadata },
-    VanuatuFlags: { Component: VanuatuFlags, metadata: VanuatuFlagsMetadata },
-    VaticanCityFlags: { Component: VaticanCityFlags, metadata: VaticanCityFlagsMetadata },
-    VenezuelaFlags: { Component: VenezuelaFlags, metadata: VenezuelaFlagsMetadata },
-    VietnamFlags: { Component: VietnamFlags, metadata: VietnamFlagsMetadata },
-    WalesFlags: { Component: WalesFlags, metadata: WalesFlagsMetadata },
-    WesternSaharaFlags: { Component: WesternSaharaFlags, metadata: WesternSaharaFlagsMetadata },
-    YemenFlags: { Component: YemenFlags, metadata: YemenFlagsMetadata },
-    ZambiaFlags: { Component: ZambiaFlags, metadata: ZambiaFlagsMetadata },
-    ZimbabweFlags: { Component: ZimbabweFlags, metadata: ZimbabweFlagsMetadata },
+    AalandIslandsSymbols: { Component: AalandIslandsSymbols, metadata: AalandIslandsSymbolsMetadata },
+    AfghanistanSymbols: { Component: AfghanistanSymbols, metadata: AfghanistanSymbolsMetadata },
+    AlbaniaSymbols: { Component: AlbaniaSymbols, metadata: AlbaniaSymbolsMetadata },
+    AlgeriaSymbols: { Component: AlgeriaSymbols, metadata: AlgeriaSymbolsMetadata },
+    AndorraSymbols: { Component: AndorraSymbols, metadata: AndorraSymbolsMetadata },
+    AngolaSymbols: { Component: AngolaSymbols, metadata: AngolaSymbolsMetadata },
+    AnguillaSymbols: { Component: AnguillaSymbols, metadata: AnguillaSymbolsMetadata },
+    AntarcticaSymbols: { Component: AntarcticaSymbols, metadata: AntarcticaSymbolsMetadata },
+    AntiguaBarbudaSymbols: { Component: AntiguaBarbudaSymbols, metadata: AntiguaBarbudaSymbolsMetadata },
+    ArgentinaSymbols: { Component: ArgentinaSymbols, metadata: ArgentinaSymbolsMetadata },
+    ArmeniaSymbols: { Component: ArmeniaSymbols, metadata: ArmeniaSymbolsMetadata },
+    ArubaSymbols: { Component: ArubaSymbols, metadata: ArubaSymbolsMetadata },
+    AustraliaSymbols: { Component: AustraliaSymbols, metadata: AustraliaSymbolsMetadata },
+    AustriaSymbols: { Component: AustriaSymbols, metadata: AustriaSymbolsMetadata },
+    AzerbaijanSymbols: { Component: AzerbaijanSymbols, metadata: AzerbaijanSymbolsMetadata },
+    BahamasSymbols: { Component: BahamasSymbols, metadata: BahamasSymbolsMetadata },
+    BahrainSymbols: { Component: BahrainSymbols, metadata: BahrainSymbolsMetadata },
+    BangladeshSymbols: { Component: BangladeshSymbols, metadata: BangladeshSymbolsMetadata },
+    BarbadosSymbols: { Component: BarbadosSymbols, metadata: BarbadosSymbolsMetadata },
+    BasqueSymbols: { Component: BasqueSymbols, metadata: BasqueSymbolsMetadata },
+    BelarusSymbols: { Component: BelarusSymbols, metadata: BelarusSymbolsMetadata },
+    BelgiumSymbols: { Component: BelgiumSymbols, metadata: BelgiumSymbolsMetadata },
+    BelizeSymbols: { Component: BelizeSymbols, metadata: BelizeSymbolsMetadata },
+    BeninSymbols: { Component: BeninSymbols, metadata: BeninSymbolsMetadata },
+    BermudaSymbols: { Component: BermudaSymbols, metadata: BermudaSymbolsMetadata },
+    BhutanSymbols: { Component: BhutanSymbols, metadata: BhutanSymbolsMetadata },
+    BoliviaSymbols: { Component: BoliviaSymbols, metadata: BoliviaSymbolsMetadata },
+    BosniaHerzegovinaSymbols: { Component: BosniaHerzegovinaSymbols, metadata: BosniaHerzegovinaSymbolsMetadata },
+    BotswanaSymbols: { Component: BotswanaSymbols, metadata: BotswanaSymbolsMetadata },
+    BrazilSymbols: { Component: BrazilSymbols, metadata: BrazilSymbolsMetadata },
+    BritishVirginIslandsSymbols: { Component: BritishVirginIslandsSymbols, metadata: BritishVirginIslandsSymbolsMetadata },
+    BruneiSymbols: { Component: BruneiSymbols, metadata: BruneiSymbolsMetadata },
+    BulgariaSymbols: { Component: BulgariaSymbols, metadata: BulgariaSymbolsMetadata },
+    BurkinaFasoSymbols: { Component: BurkinaFasoSymbols, metadata: BurkinaFasoSymbolsMetadata },
+    BurundiSymbols: { Component: BurundiSymbols, metadata: BurundiSymbolsMetadata },
+    CambodiaSymbols: { Component: CambodiaSymbols, metadata: CambodiaSymbolsMetadata },
+    CameroonSymbols: { Component: CameroonSymbols, metadata: CameroonSymbolsMetadata },
+    CanadaSymbols: { Component: CanadaSymbols, metadata: CanadaSymbolsMetadata },
+    CanaryIslandsSymbols: { Component: CanaryIslandsSymbols, metadata: CanaryIslandsSymbolsMetadata },
+    CapeVerdeSymbols: { Component: CapeVerdeSymbols, metadata: CapeVerdeSymbolsMetadata },
+    CaymanIslandsSymbols: { Component: CaymanIslandsSymbols, metadata: CaymanIslandsSymbolsMetadata },
+    CentralAfricanRepuSymbols: { Component: CentralAfricanRepuSymbols, metadata: CentralAfricanRepuSymbolsMetadata },
+    ChadSymbols: { Component: ChadSymbols, metadata: ChadSymbolsMetadata },
+    ChileSymbols: { Component: ChileSymbols, metadata: ChileSymbolsMetadata },
+    ChinaSymbols: { Component: ChinaSymbols, metadata: ChinaSymbolsMetadata },
+    ColombiaSymbols: { Component: ColombiaSymbols, metadata: ColombiaSymbolsMetadata },
+    ComorosSymbols: { Component: ComorosSymbols, metadata: ComorosSymbolsMetadata },
+    CookIslandsSymbols: { Component: CookIslandsSymbols, metadata: CookIslandsSymbolsMetadata },
+    CostaRicaSymbols: { Component: CostaRicaSymbols, metadata: CostaRicaSymbolsMetadata },
+    CroatiaSymbols: { Component: CroatiaSymbols, metadata: CroatiaSymbolsMetadata },
+    CubaSymbols: { Component: CubaSymbols, metadata: CubaSymbolsMetadata },
+    CuracaoSymbols: { Component: CuracaoSymbols, metadata: CuracaoSymbolsMetadata },
+    CyprusSymbols: { Component: CyprusSymbols, metadata: CyprusSymbolsMetadata },
+    CzechiaSymbols: { Component: CzechiaSymbols, metadata: CzechiaSymbolsMetadata },
+    DemocraticRepublicOfCongoSymbols: { Component: DemocraticRepublicOfCongoSymbols, metadata: DemocraticRepublicOfCongoSymbolsMetadata },
+    DenmarkSymbols: { Component: DenmarkSymbols, metadata: DenmarkSymbolsMetadata },
+    DjiboutiSymbols: { Component: DjiboutiSymbols, metadata: DjiboutiSymbolsMetadata },
+    DominicaSymbols: { Component: DominicaSymbols, metadata: DominicaSymbolsMetadata },
+    DominicanRepublicSymbols: { Component: DominicanRepublicSymbols, metadata: DominicanRepublicSymbolsMetadata },
+    EastTimorSymbols: { Component: EastTimorSymbols, metadata: EastTimorSymbolsMetadata },
+    EcuadorSymbols: { Component: EcuadorSymbols, metadata: EcuadorSymbolsMetadata },
+    EgyptSymbols: { Component: EgyptSymbols, metadata: EgyptSymbolsMetadata },
+    ElSalvadorSymbols: { Component: ElSalvadorSymbols, metadata: ElSalvadorSymbolsMetadata },
+    EnglandSymbols: { Component: EnglandSymbols, metadata: EnglandSymbolsMetadata },
+    EquatorialGuineaSymbols: { Component: EquatorialGuineaSymbols, metadata: EquatorialGuineaSymbolsMetadata },
+    EritreaSymbols: { Component: EritreaSymbols, metadata: EritreaSymbolsMetadata },
+    EstoniaSymbols: { Component: EstoniaSymbols, metadata: EstoniaSymbolsMetadata },
+    EswatiniSymbols: { Component: EswatiniSymbols, metadata: EswatiniSymbolsMetadata },
+    EthiopiaSymbols: { Component: EthiopiaSymbols, metadata: EthiopiaSymbolsMetadata },
+    EuropeSymbols: { Component: EuropeSymbols, metadata: EuropeSymbolsMetadata },
+    FalklandIslandsSymbols: { Component: FalklandIslandsSymbols, metadata: FalklandIslandsSymbolsMetadata },
+    FaroeIslandsSymbols: { Component: FaroeIslandsSymbols, metadata: FaroeIslandsSymbolsMetadata },
+    FijiSymbols: { Component: FijiSymbols, metadata: FijiSymbolsMetadata },
+    FinlandSymbols: { Component: FinlandSymbols, metadata: FinlandSymbolsMetadata },
+    FranceSymbols: { Component: FranceSymbols, metadata: FranceSymbolsMetadata },
+    FrenchGuianaSymbols: { Component: FrenchGuianaSymbols, metadata: FrenchGuianaSymbolsMetadata },
+    FrenchPolynesiaSymbols: { Component: FrenchPolynesiaSymbols, metadata: FrenchPolynesiaSymbolsMetadata },
+    GabonSymbols: { Component: GabonSymbols, metadata: GabonSymbolsMetadata },
+    GambiaSymbols: { Component: GambiaSymbols, metadata: GambiaSymbolsMetadata },
+    GeorgiaSymbols: { Component: GeorgiaSymbols, metadata: GeorgiaSymbolsMetadata },
+    GermanySymbols: { Component: GermanySymbols, metadata: GermanySymbolsMetadata },
+    GhanaSymbols: { Component: GhanaSymbols, metadata: GhanaSymbolsMetadata },
+    GibraltarSymbols: { Component: GibraltarSymbols, metadata: GibraltarSymbolsMetadata },
+    GreeceSymbols: { Component: GreeceSymbols, metadata: GreeceSymbolsMetadata },
+    GreenlandSymbols: { Component: GreenlandSymbols, metadata: GreenlandSymbolsMetadata },
+    GrenadaSymbols: { Component: GrenadaSymbols, metadata: GrenadaSymbolsMetadata },
+    GuadeloupeSymbols: { Component: GuadeloupeSymbols, metadata: GuadeloupeSymbolsMetadata },
+    GuatemalaSymbols: { Component: GuatemalaSymbols, metadata: GuatemalaSymbolsMetadata },
+    GuernseySymbols: { Component: GuernseySymbols, metadata: GuernseySymbolsMetadata },
+    GuineaBissauSymbols: { Component: GuineaBissauSymbols, metadata: GuineaBissauSymbolsMetadata },
+    GuineaSymbols: { Component: GuineaSymbols, metadata: GuineaSymbolsMetadata },
+    GuyanaSymbols: { Component: GuyanaSymbols, metadata: GuyanaSymbolsMetadata },
+    HaitiSymbols: { Component: HaitiSymbols, metadata: HaitiSymbolsMetadata },
+    HawaiiSymbols: { Component: HawaiiSymbols, metadata: HawaiiSymbolsMetadata },
+    HondurasSymbols: { Component: HondurasSymbols, metadata: HondurasSymbolsMetadata },
+    HongKongSymbols: { Component: HongKongSymbols, metadata: HongKongSymbolsMetadata },
+    HungarySymbols: { Component: HungarySymbols, metadata: HungarySymbolsMetadata },
+    IcelandSymbols: { Component: IcelandSymbols, metadata: IcelandSymbolsMetadata },
+    IndiaSymbols: { Component: IndiaSymbols, metadata: IndiaSymbolsMetadata },
+    IndonesiaSymbols: { Component: IndonesiaSymbols, metadata: IndonesiaSymbolsMetadata },
+    IranSymbols: { Component: IranSymbols, metadata: IranSymbolsMetadata },
+    IraqSymbols: { Component: IraqSymbols, metadata: IraqSymbolsMetadata },
+    IrelandSymbols: { Component: IrelandSymbols, metadata: IrelandSymbolsMetadata },
+    IsleOfManSymbols: { Component: IsleOfManSymbols, metadata: IsleOfManSymbolsMetadata },
+    IsraelSymbols: { Component: IsraelSymbols, metadata: IsraelSymbolsMetadata },
+    ItalySymbols: { Component: ItalySymbols, metadata: ItalySymbolsMetadata },
+    IvoryCoastSymbols: { Component: IvoryCoastSymbols, metadata: IvoryCoastSymbolsMetadata },
+    JamaicaSymbols: { Component: JamaicaSymbols, metadata: JamaicaSymbolsMetadata },
+    JapanSymbols: { Component: JapanSymbols, metadata: JapanSymbolsMetadata },
+    JerseySymbols: { Component: JerseySymbols, metadata: JerseySymbolsMetadata },
+    JordanSymbols: { Component: JordanSymbols, metadata: JordanSymbolsMetadata },
+    KazakhstanSymbols: { Component: KazakhstanSymbols, metadata: KazakhstanSymbolsMetadata },
+    KenyaSymbols: { Component: KenyaSymbols, metadata: KenyaSymbolsMetadata },
+    KiribatiSymbols: { Component: KiribatiSymbols, metadata: KiribatiSymbolsMetadata },
+    KosovoSymbols: { Component: KosovoSymbols, metadata: KosovoSymbolsMetadata },
+    KurdistanSymbols: { Component: KurdistanSymbols, metadata: KurdistanSymbolsMetadata },
+    KuwaitSymbols: { Component: KuwaitSymbols, metadata: KuwaitSymbolsMetadata },
+    KyrgyzstanSymbols: { Component: KyrgyzstanSymbols, metadata: KyrgyzstanSymbolsMetadata },
+    LaosSymbols: { Component: LaosSymbols, metadata: LaosSymbolsMetadata },
+    LatviaSymbols: { Component: LatviaSymbols, metadata: LatviaSymbolsMetadata },
+    LebanonSymbols: { Component: LebanonSymbols, metadata: LebanonSymbolsMetadata },
+    LesothoSymbols: { Component: LesothoSymbols, metadata: LesothoSymbolsMetadata },
+    LiberiaSymbols: { Component: LiberiaSymbols, metadata: LiberiaSymbolsMetadata },
+    LibyaSymbols: { Component: LibyaSymbols, metadata: LibyaSymbolsMetadata },
+    LiechtensteinSymbols: { Component: LiechtensteinSymbols, metadata: LiechtensteinSymbolsMetadata },
+    LithuaniaSymbols: { Component: LithuaniaSymbols, metadata: LithuaniaSymbolsMetadata },
+    LuxembourgSymbols: { Component: LuxembourgSymbols, metadata: LuxembourgSymbolsMetadata },
+    MacauSymbols: { Component: MacauSymbols, metadata: MacauSymbolsMetadata },
+    MadagascarSymbols: { Component: MadagascarSymbols, metadata: MadagascarSymbolsMetadata },
+    MalawiSymbols: { Component: MalawiSymbols, metadata: MalawiSymbolsMetadata },
+    MalaysiaSymbols: { Component: MalaysiaSymbols, metadata: MalaysiaSymbolsMetadata },
+    MaldivesSymbols: { Component: MaldivesSymbols, metadata: MaldivesSymbolsMetadata },
+    MaliSymbols: { Component: MaliSymbols, metadata: MaliSymbolsMetadata },
+    MaltaSymbols: { Component: MaltaSymbols, metadata: MaltaSymbolsMetadata },
+    MarshallIslandsSymbols: { Component: MarshallIslandsSymbols, metadata: MarshallIslandsSymbolsMetadata },
+    MartiniqueSymbols: { Component: MartiniqueSymbols, metadata: MartiniqueSymbolsMetadata },
+    MauritaniaSymbols: { Component: MauritaniaSymbols, metadata: MauritaniaSymbolsMetadata },
+    MauritiusSymbols: { Component: MauritiusSymbols, metadata: MauritiusSymbolsMetadata },
+    MexicoSymbols: { Component: MexicoSymbols, metadata: MexicoSymbolsMetadata },
+    MicronesiaSymbols: { Component: MicronesiaSymbols, metadata: MicronesiaSymbolsMetadata },
+    MoldovaSymbols: { Component: MoldovaSymbols, metadata: MoldovaSymbolsMetadata },
+    MonacoSymbols: { Component: MonacoSymbols, metadata: MonacoSymbolsMetadata },
+    MongoliaSymbols: { Component: MongoliaSymbols, metadata: MongoliaSymbolsMetadata },
+    MontenegroSymbols: { Component: MontenegroSymbols, metadata: MontenegroSymbolsMetadata },
+    MoroccoSymbols: { Component: MoroccoSymbols, metadata: MoroccoSymbolsMetadata },
+    MozanbiqueSymbols: { Component: MozanbiqueSymbols, metadata: MozanbiqueSymbolsMetadata },
+    MyanmarSymbols: { Component: MyanmarSymbols, metadata: MyanmarSymbolsMetadata },
+    NamibiaSymbols: { Component: NamibiaSymbols, metadata: NamibiaSymbolsMetadata },
+    NauruSymbols: { Component: NauruSymbols, metadata: NauruSymbolsMetadata },
+    NepalSymbols: { Component: NepalSymbols, metadata: NepalSymbolsMetadata },
+    NetherlandsAntillesSymbols: { Component: NetherlandsAntillesSymbols, metadata: NetherlandsAntillesSymbolsMetadata },
+    NetherlandsSymbols: { Component: NetherlandsSymbols, metadata: NetherlandsSymbolsMetadata },
+    NewCaledoniaSymbols: { Component: NewCaledoniaSymbols, metadata: NewCaledoniaSymbolsMetadata },
+    NewZealandSymbols: { Component: NewZealandSymbols, metadata: NewZealandSymbolsMetadata },
+    NicaraguaSymbols: { Component: NicaraguaSymbols, metadata: NicaraguaSymbolsMetadata },
+    NigerSymbols: { Component: NigerSymbols, metadata: NigerSymbolsMetadata },
+    NigeriaSymbols: { Component: NigeriaSymbols, metadata: NigeriaSymbolsMetadata },
+    NiueSymbols: { Component: NiueSymbols, metadata: NiueSymbolsMetadata },
+    NorthKoreaSymbols: { Component: NorthKoreaSymbols, metadata: NorthKoreaSymbolsMetadata },
+    NorthMacedoniaSymbols: { Component: NorthMacedoniaSymbols, metadata: NorthMacedoniaSymbolsMetadata },
+    NorthenIrelandSymbols: { Component: NorthenIrelandSymbols, metadata: NorthenIrelandSymbolsMetadata },
+    NorwaySymbols: { Component: NorwaySymbols, metadata: NorwaySymbolsMetadata },
+    OmanSymbols: { Component: OmanSymbols, metadata: OmanSymbolsMetadata },
+    PakistanSymbols: { Component: PakistanSymbols, metadata: PakistanSymbolsMetadata },
+    PalauSymbols: { Component: PalauSymbols, metadata: PalauSymbolsMetadata },
+    PalestineSymbols: { Component: PalestineSymbols, metadata: PalestineSymbolsMetadata },
+    PanamaSymbols: { Component: PanamaSymbols, metadata: PanamaSymbolsMetadata },
+    PapuaNewGuineaSymbols: { Component: PapuaNewGuineaSymbols, metadata: PapuaNewGuineaSymbolsMetadata },
+    ParaguaySymbols: { Component: ParaguaySymbols, metadata: ParaguaySymbolsMetadata },
+    PeruSymbols: { Component: PeruSymbols, metadata: PeruSymbolsMetadata },
+    PhilippinesSymbols: { Component: PhilippinesSymbols, metadata: PhilippinesSymbolsMetadata },
+    PolandSymbols: { Component: PolandSymbols, metadata: PolandSymbolsMetadata },
+    PortugalSymbols: { Component: PortugalSymbols, metadata: PortugalSymbolsMetadata },
+    PuertoRicoSymbols: { Component: PuertoRicoSymbols, metadata: PuertoRicoSymbolsMetadata },
+    QatarSymbols: { Component: QatarSymbols, metadata: QatarSymbolsMetadata },
+    RepublicCongoSymbols: { Component: RepublicCongoSymbols, metadata: RepublicCongoSymbolsMetadata },
+    RomaniaSymbols: { Component: RomaniaSymbols, metadata: RomaniaSymbolsMetadata },
+    RussiaSymbols: { Component: RussiaSymbols, metadata: RussiaSymbolsMetadata },
+    RwandaSymbols: { Component: RwandaSymbols, metadata: RwandaSymbolsMetadata },
+    SaintKittsNevisSymbols: { Component: SaintKittsNevisSymbols, metadata: SaintKittsNevisSymbolsMetadata },
+    SierraLeoneSymbols: { Component: SierraLeoneSymbols, metadata: SierraLeoneSymbolsMetadata },
+    SingaporeSymbols: { Component: SingaporeSymbols, metadata: SingaporeSymbolsMetadata },
+    SintMaartenSymbols: { Component: SintMaartenSymbols, metadata: SintMaartenSymbolsMetadata },
+    SlovakiaSymbols: { Component: SlovakiaSymbols, metadata: SlovakiaSymbolsMetadata },
+    SloveniaSymbols: { Component: SloveniaSymbols, metadata: SloveniaSymbolsMetadata },
+    SolomonIslandsSymbols: { Component: SolomonIslandsSymbols, metadata: SolomonIslandsSymbolsMetadata },
+    SomaliaSymbols: { Component: SomaliaSymbols, metadata: SomaliaSymbolsMetadata },
+    SouthAfricaSymbols: { Component: SouthAfricaSymbols, metadata: SouthAfricaSymbolsMetadata },
+    SouthGeorgiaSandwichIslandsSymbols: { Component: SouthGeorgiaSandwichIslandsSymbols, metadata: SouthGeorgiaSandwichIslandsSymbolsMetadata },
+    SouthKoreaSymbols: { Component: SouthKoreaSymbols, metadata: SouthKoreaSymbolsMetadata },
+    SouthSudanSymbols: { Component: SouthSudanSymbols, metadata: SouthSudanSymbolsMetadata },
+    SpainSymbols: { Component: SpainSymbols, metadata: SpainSymbolsMetadata },
+    SriLankaSymbols: { Component: SriLankaSymbols, metadata: SriLankaSymbolsMetadata },
+    SudanSymbols: { Component: SudanSymbols, metadata: SudanSymbolsMetadata },
+    SurinameSymbols: { Component: SurinameSymbols, metadata: SurinameSymbolsMetadata },
+    SwedenSymbols: { Component: SwedenSymbols, metadata: SwedenSymbolsMetadata },
+    SwitzerlandSymbols: { Component: SwitzerlandSymbols, metadata: SwitzerlandSymbolsMetadata },
+    SyriaSymbols: { Component: SyriaSymbols, metadata: SyriaSymbolsMetadata },
+    TaiwanSymbols: { Component: TaiwanSymbols, metadata: TaiwanSymbolsMetadata },
+    TajikistanSymbols: { Component: TajikistanSymbols, metadata: TajikistanSymbolsMetadata },
+    TanzaniaSymbols: { Component: TanzaniaSymbols, metadata: TanzaniaSymbolsMetadata },
+    ThailandSymbols: { Component: ThailandSymbols, metadata: ThailandSymbolsMetadata },
+    TogoSymbols: { Component: TogoSymbols, metadata: TogoSymbolsMetadata },
+    TongaSymbols: { Component: TongaSymbols, metadata: TongaSymbolsMetadata },
+    TrinidadTobagoSymbols: { Component: TrinidadTobagoSymbols, metadata: TrinidadTobagoSymbolsMetadata },
+    TunisiaSymbols: { Component: TunisiaSymbols, metadata: TunisiaSymbolsMetadata },
+    TurkeySymbols: { Component: TurkeySymbols, metadata: TurkeySymbolsMetadata },
+    TurkmenistanSymbols: { Component: TurkmenistanSymbols, metadata: TurkmenistanSymbolsMetadata },
+    TurksAndCaicosIslandsSymbols: { Component: TurksAndCaicosIslandsSymbols, metadata: TurksAndCaicosIslandsSymbolsMetadata },
+    TuvaluSymbols: { Component: TuvaluSymbols, metadata: TuvaluSymbolsMetadata },
+    USAVirginIslandsSymbols: { Component: USAVirginIslandsSymbols, metadata: USAVirginIslandsSymbolsMetadata },
+    UgandaSymbols: { Component: UgandaSymbols, metadata: UgandaSymbolsMetadata },
+    UkraineSymbols: { Component: UkraineSymbols, metadata: UkraineSymbolsMetadata },
+    UnitedArabEmiraSymbols: { Component: UnitedArabEmiraSymbols, metadata: UnitedArabEmiraSymbolsMetadata },
+    UnitedKingdomSymbols: { Component: UnitedKingdomSymbols, metadata: UnitedKingdomSymbolsMetadata },
+    UnitedStatesSymbols: { Component: UnitedStatesSymbols, metadata: UnitedStatesSymbolsMetadata },
+    UruguaySymbols: { Component: UruguaySymbols, metadata: UruguaySymbolsMetadata },
+    UzbekistanSymbols: { Component: UzbekistanSymbols, metadata: UzbekistanSymbolsMetadata },
+    VanuatuSymbols: { Component: VanuatuSymbols, metadata: VanuatuSymbolsMetadata },
+    VaticanCitySymbols: { Component: VaticanCitySymbols, metadata: VaticanCitySymbolsMetadata },
+    VenezuelaSymbols: { Component: VenezuelaSymbols, metadata: VenezuelaSymbolsMetadata },
+    VietnamSymbols: { Component: VietnamSymbols, metadata: VietnamSymbolsMetadata },
+    WalesSymbols: { Component: WalesSymbols, metadata: WalesSymbolsMetadata },
+    WesternSaharaSymbols: { Component: WesternSaharaSymbols, metadata: WesternSaharaSymbolsMetadata },
+    YemenSymbols: { Component: YemenSymbols, metadata: YemenSymbolsMetadata },
+    ZambiaSymbols: { Component: ZambiaSymbols, metadata: ZambiaSymbolsMetadata },
+    ZimbabweSymbols: { Component: ZimbabweSymbols, metadata: ZimbabweSymbolsMetadata },
   },
   framework: {
     Astro: { Component: Astro, metadata: AstroMetadata },
@@ -1737,6 +1737,6 @@ export const allLogos = {
     Nike: { Component: Nike, metadata: NikeMetadata },
   },
   stickers: {
-    VerifiedBadgeStickers: { Component: VerifiedBadgeStickers, metadata: VerifiedBadgeStickersMetadata },
+    VerifiedBadgeSymbols: { Component: VerifiedBadgeSymbols, metadata: VerifiedBadgeSymbolsMetadata },
   },
 } as const;
