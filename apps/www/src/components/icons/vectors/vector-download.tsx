@@ -147,7 +147,7 @@ export function VectorDownloadPanel({ logoName, size, color }: LogoDownloadPanel
   }
 
   return (
-    <div className="space-y-2 pt-4">
+    <div className="space-y-2">
       <div className="flex w-full flex-wrap gap-2 md:gap-0">
         <div className="divide-primary-background/30 flex flex-1 divide-x">
           <Button

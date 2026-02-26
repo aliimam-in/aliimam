@@ -17,12 +17,14 @@ export function Icons({
   variant,
   fill,
   stroke,
+  strokeLinejoin = "round",
+  strokeLinecap = "round",
   ...props
 }: IconProps) {
   let match: any = null
 
   // 1. Exact id match
-  outer: for (const icons of (Object.values(allIcons) as Record<string, any>[])) {
+  outer: for (const icons of Object.values(allIcons) as Record<string, any>[]) {
     for (const entry of Object.values(icons)) {
       const e = entry as any
       if (e.metadata.id === name) {
@@ -35,14 +37,18 @@ export function Icons({
   // 2. baseId + variant strict match
   if (!match) {
     const targetVariant = variant ?? "default"
-    outer: for (const icons of (Object.values(allIcons) as Record<string, any>[])) {
+    outer: for (const icons of Object.values(allIcons) as Record<
+      string,
+      any
+    >[]) {
       for (const entry of Object.values(icons)) {
         const e = entry as any
         const metaVariant = (e.metadata.variant ?? "").toLowerCase()
         const matches =
           e.metadata.baseId === name &&
           (metaVariant === targetVariant ||
-            (targetVariant === "default" && (metaVariant === "outline" || metaVariant === "")))
+            (targetVariant === "default" &&
+              (metaVariant === "outline" || metaVariant === "")))
         if (matches) {
           match = e
           break outer
@@ -53,7 +59,10 @@ export function Icons({
 
   // 3. Fallback: any matching baseId
   if (!match) {
-    outer: for (const icons of (Object.values(allIcons) as Record<string, any>[])) {
+    outer: for (const icons of Object.values(allIcons) as Record<
+      string,
+      any
+    >[]) {
       for (const entry of Object.values(icons)) {
         const e = entry as any
         if (e.metadata.baseId === name) {
@@ -68,20 +77,23 @@ export function Icons({
   const { Component, metadata } = match
 
   const resolvedVariant = (metadata.variant ?? "default").toLowerCase()
-  const isFilledVariant = resolvedVariant === "filled" || resolvedVariant === "pixel"
+  const isFilledVariant =
+    resolvedVariant === "filled" || resolvedVariant === "pixel"
 
   const resolvedFill = fill ?? (isFilledVariant ? "currentColor" : "none")
   const resolvedStroke = stroke ?? (isFilledVariant ? "none" : "currentColor")
 
   return (
     <Component
+      {...props}
       size={size}
       fill={resolvedFill}
       stroke={resolvedStroke}
       viewBox={metadata.viewBox}
       strokeWidth={isFilledVariant ? 0 : strokeWidth}
+      strokeLinejoin={isFilledVariant ? undefined : strokeLinejoin}
+      strokeLinecap={isFilledVariant ? undefined : strokeLinecap}
       style={{ color }}
-      {...props}
     />
   )
 }

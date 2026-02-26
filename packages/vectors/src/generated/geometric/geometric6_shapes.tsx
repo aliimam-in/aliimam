@@ -13,13 +13,13 @@ export const Geometric6Shapes = React.forwardRef<SVGSVGElement, Geometric6Shapes
       ref={ref}
       width={size}
       height={size}
+      fill="none"
       viewBox="0 0 357 357"
-      
       className={className}
       xmlns="http://www.w3.org/2000/svg" 
       {...props}
     >
-      <path d="M356.35 0C159.543 0 0 159.543 0 356.35H356.35V0Z" fill="#F5BD33"/>
+      <path d="M356.35 0C159.543 0 0 159.543 0 356.35H356.35V0Z" fill="currentColor"/>
     </svg>
   )
 );

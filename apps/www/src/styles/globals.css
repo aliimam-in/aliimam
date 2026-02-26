@@ -165,7 +165,7 @@
     @apply scroll-smooth;
   }
   html {
-    font-size: clamp(14px, 0.75vw, 16px);
+    font-size: clamp(12px, 0.72vw, 14px);
   }
   body {
     font-synthesis-weight: none;

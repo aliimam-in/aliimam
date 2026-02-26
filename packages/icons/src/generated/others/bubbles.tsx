@@ -12,7 +12,7 @@ export const Bubbles = React.forwardRef<SVGSVGElement, BubblesProps>(
     <svg 
       ref={ref}
       width={size}
-      height={size}
+      height={size} 
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"

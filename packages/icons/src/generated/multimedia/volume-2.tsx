@@ -12,7 +12,7 @@ export const Volume2 = React.forwardRef<SVGSVGElement, Volume2Props>(
     <svg 
       ref={ref}
       width={size}
-      height={size}
+      height={size} 
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"

@@ -12,7 +12,7 @@ export const SkipBack = React.forwardRef<SVGSVGElement, SkipBackProps>(
     <svg 
       ref={ref}
       width={size}
-      height={size}
+      height={size} 
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"

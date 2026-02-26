@@ -12,7 +12,7 @@ export const Dessert = React.forwardRef<SVGSVGElement, DessertProps>(
     <svg 
       ref={ref}
       width={size}
-      height={size}
+      height={size} 
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"

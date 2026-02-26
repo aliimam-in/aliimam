@@ -13,18 +13,18 @@ export const Star6Shapes = React.forwardRef<SVGSVGElement, Star6ShapesProps>(
       ref={ref}
       width={size}
       height={size}
+      fill="none"
       viewBox="0 0 24 24"
-      
       className={className}
       xmlns="http://www.w3.org/2000/svg" 
       {...props}
     >
       <g clipPath="url(#clip0_2068_127)">
-<path d="M14.4 9.6L12 0L9.6 9.6L0 12L9.6 14.4L12 24L14.4 14.4L24 12L14.4 9.6Z" />
+<path d="M14.4 9.6L12 0L9.6 9.6L0 12L9.6 14.4L12 24L14.4 14.4L24 12L14.4 9.6Z" fill="currentColor"/>
 </g>
 <defs>
 <clipPath id="clip0_2068_127">
-<rect width="24" height="24" fill="white"/>
+<rect width="24" height="24" fill="currentColor"/>
 </clipPath>
 </defs>
     </svg>

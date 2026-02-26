@@ -12,7 +12,7 @@ export const Utensils = React.forwardRef<SVGSVGElement, UtensilsProps>(
     <svg 
       ref={ref}
       width={size}
-      height={size}
+      height={size} 
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"

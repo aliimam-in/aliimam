@@ -13,13 +13,13 @@ export const Geometric13Shapes = React.forwardRef<SVGSVGElement, Geometric13Shap
       ref={ref}
       width={size}
       height={size}
+      fill="none"
       viewBox="0 0 357 713"
-      
       className={className}
       xmlns="http://www.w3.org/2000/svg" 
       {...props}
     >
-      <path d="M263.716 99.4812H91.5161L5.41602 356.35L91.5161 613.218H263.716L349.816 356.35L263.716 99.4812Z" fill="#43A363"/>
+      <path d="M263.716 99.4812H91.5161L5.41602 356.35L91.5161 613.218H263.716L349.816 356.35L263.716 99.4812Z" fill="currentColor"/>
     </svg>
   )
 );

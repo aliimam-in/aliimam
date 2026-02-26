@@ -119,13 +119,14 @@ function extractInnerSVG(svg: string): string {
 
 function convertSvgAttributes(svg: string) {
   return svg
-    .replace(/fill=["']black["']/gi, "")
-    .replace(/fill=["']currentColor["']/gi, "")
-    .replace(/fill=["']#000["']/gi, "")
+    // 1️⃣ Replace any fill except "none" with currentColor
+    .replace(/fill=["'](?!none)[^"']*["']/gi, 'fill="currentColor"')
 
-    .replace(/stroke=["']black["']/gi, "")
-    .replace(/stroke=["']#000000["']/gi, "")
-    .replace(/stroke=["']#000["']/gi, "")
+    // 2️⃣ If element has no fill at all → inject fill="currentColor"
+    .replace(
+      /<(path|circle|rect|polygon|polyline|ellipse)(?![^>]*fill=)/gi,
+      '<$1 fill="currentColor"'
+    )
 
     .replace(/stroke-width=/g, "strokeWidth=")
     .replace(/stroke-linecap=/g, "strokeLinecap=")
@@ -333,21 +334,9 @@ for (const category of categories) {
   const categoryLogos = logos.filter((l: LogoJSON) => l.category === category)
 
   for (const logo of categoryLogos) {
-    const componentName = toComponentName(logo.id)
+  const componentName = toComponentName(logo.id)
 
-    const content = logo.svgContent || ""
-
-    const hasCurrentColor = /fill\s*=\s*["']currentColor["']/i.test(content)
-    const hasAnyFill = /fill\s*=/.test(content)
-
-    let svgFillAttribute = ""
-
-    if (!hasCurrentColor && !hasAnyFill) {
-      // No fill at all → inject currentColor
-      svgFillAttribute = `fill="currentColor"`
-    }
-
-    const componentCode = `
+  const componentCode = `
 'use client';
 import React from 'react';
 
@@ -362,8 +351,8 @@ export const ${componentName} = React.forwardRef<SVGSVGElement, ${componentName}
       ref={ref}
       width={size}
       height={size}
+      fill="none"
       viewBox="${logo.viewBox}"
-      ${svgFillAttribute}
       className={className}
       xmlns="http://www.w3.org/2000/svg" 
       {...props}
@@ -388,9 +377,9 @@ export const ${componentName}Metadata = {
 export default ${componentName};
 `
 
-    fs.writeFileSync(path.join(categoryDir, `${logo.id}.tsx`), componentCode)
-    console.log(`[AI] Generated TSX: ${category}/${logo.id}.tsx`)
-  }
+  fs.writeFileSync(path.join(categoryDir, `${logo.id}.tsx`), componentCode)
+  console.log(`[AI] Generated TSX: ${category}/${logo.id}.tsx`)
+}
 
   // Category index
   const indexCode = categoryLogos

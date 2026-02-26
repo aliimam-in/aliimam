@@ -12,7 +12,7 @@ export const SquareLetterUFilled = React.forwardRef<SVGSVGElement, SquareLetterU
     <svg 
       ref={ref}
       width={size}
-      height={size}
+      height={size} 
       viewBox="0 0 24 24"
       fill="currentColor"
       stroke="none"

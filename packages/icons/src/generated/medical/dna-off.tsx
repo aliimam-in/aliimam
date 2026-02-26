@@ -12,7 +12,7 @@ export const DnaOff = React.forwardRef<SVGSVGElement, DnaOffProps>(
     <svg 
       ref={ref}
       width={size}
-      height={size}
+      height={size} 
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"

@@ -12,7 +12,7 @@ export const ArrowRight = React.forwardRef<SVGSVGElement, ArrowRightProps>(
     <svg 
       ref={ref}
       width={size}
-      height={size}
+      height={size} 
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"

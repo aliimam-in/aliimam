@@ -59,8 +59,7 @@ export default function Page() {
   return (
     <div>
       <div className="bg-background sticky top-14 z-40 flex h-14 w-full items-center gap-2 border-b px-4">
-        <IconsNav />
-        
+        <IconsNav /> 
         <div className="ml-auto hidden md:block">
           <IconSearch />
         </div>

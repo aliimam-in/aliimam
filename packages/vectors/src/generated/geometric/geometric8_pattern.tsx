@@ -13,22 +13,22 @@ export const Geometric8Pattern = React.forwardRef<SVGSVGElement, Geometric8Patte
       ref={ref}
       width={size}
       height={size}
+      fill="none"
       viewBox="0 0 500 500"
-      
       className={className}
       xmlns="http://www.w3.org/2000/svg" 
       {...props}
     >
-      <path d="M47.5 0H2.5V500H47.5V0Z" fill="white"/>
-<path d="M97.5 0H52.5V500H97.5V0Z" fill="#E55733"/>
-<path d="M147.5 0H102.5V500H147.5V0Z" fill="white"/>
-<path d="M197.5 0H152.5V500H197.5V0Z" fill="#336BB7"/>
-<path d="M247.5 0H202.5V500H247.5V0Z" fill="white"/>
-<path d="M297.5 0H252.5V500H297.5V0Z" fill="#E55733"/>
-<path d="M347.5 0H302.5V500H347.5V0Z" fill="white"/>
-<path d="M397.5 0H352.5V500H397.5V0Z" fill="#336BB7"/>
-<path d="M447.5 0H402.5V500H447.5V0Z" fill="white"/>
-<path d="M497.5 0H452.5V500H497.5V0Z" fill="#E55733"/>
+      <path d="M47.5 0H2.5V500H47.5V0Z" fill="currentColor"/>
+<path d="M97.5 0H52.5V500H97.5V0Z" fill="currentColor"/>
+<path d="M147.5 0H102.5V500H147.5V0Z" fill="currentColor"/>
+<path d="M197.5 0H152.5V500H197.5V0Z" fill="currentColor"/>
+<path d="M247.5 0H202.5V500H247.5V0Z" fill="currentColor"/>
+<path d="M297.5 0H252.5V500H297.5V0Z" fill="currentColor"/>
+<path d="M347.5 0H302.5V500H347.5V0Z" fill="currentColor"/>
+<path d="M397.5 0H352.5V500H397.5V0Z" fill="currentColor"/>
+<path d="M447.5 0H402.5V500H447.5V0Z" fill="currentColor"/>
+<path d="M497.5 0H452.5V500H497.5V0Z" fill="currentColor"/>
     </svg>
   )
 );

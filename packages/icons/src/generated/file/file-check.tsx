@@ -12,7 +12,7 @@ export const FileCheck = React.forwardRef<SVGSVGElement, FileCheckProps>(
     <svg 
       ref={ref}
       width={size}
-      height={size}
+      height={size} 
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"

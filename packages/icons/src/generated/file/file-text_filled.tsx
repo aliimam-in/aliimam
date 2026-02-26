@@ -12,7 +12,7 @@ export const FileTextFilled = React.forwardRef<SVGSVGElement, FileTextFilledProp
     <svg 
       ref={ref}
       width={size}
-      height={size}
+      height={size} 
       viewBox="0 0 24 24"
       fill="currentColor"
       stroke="none"

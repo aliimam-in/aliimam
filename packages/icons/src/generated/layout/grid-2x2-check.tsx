@@ -12,7 +12,7 @@ export const Grid2x2Check = React.forwardRef<SVGSVGElement, Grid2x2CheckProps>(
     <svg 
       ref={ref}
       width={size}
-      height={size}
+      height={size} 
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"

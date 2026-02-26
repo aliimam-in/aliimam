@@ -12,7 +12,7 @@ export const HandHelping = React.forwardRef<SVGSVGElement, HandHelpingProps>(
     <svg 
       ref={ref}
       width={size}
-      height={size}
+      height={size} 
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"

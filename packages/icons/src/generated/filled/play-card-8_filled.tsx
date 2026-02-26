@@ -12,7 +12,7 @@ export const PlayCard8Filled = React.forwardRef<SVGSVGElement, PlayCard8FilledPr
     <svg 
       ref={ref}
       width={size}
-      height={size}
+      height={size} 
       viewBox="0 0 24 24"
       fill="currentColor"
       stroke="none"

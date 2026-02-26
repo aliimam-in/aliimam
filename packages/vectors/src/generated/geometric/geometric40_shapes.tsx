@@ -13,13 +13,13 @@ export const Geometric40Shapes = React.forwardRef<SVGSVGElement, Geometric40Shap
       ref={ref}
       width={size}
       height={size}
+      fill="none"
       viewBox="0 0 357 357"
-      
       className={className}
       xmlns="http://www.w3.org/2000/svg" 
       {...props}
     >
-      <path fillRule="evenodd" clipRule="evenodd" d="M161.287 0H279.807L203.041 101.593H346.847L91.9717 355.528L169.695 184.3H26.7263L161.287 0Z" fill="#2F2965"/>
+      <path fillRule="evenodd" clipRule="evenodd" d="M161.287 0H279.807L203.041 101.593H346.847L91.9717 355.528L169.695 184.3H26.7263L161.287 0Z" fill="currentColor"/>
     </svg>
   )
 );

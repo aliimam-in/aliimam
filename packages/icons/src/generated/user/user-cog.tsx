@@ -12,7 +12,7 @@ export const UserCog = React.forwardRef<SVGSVGElement, UserCogProps>(
     <svg 
       ref={ref}
       width={size}
-      height={size}
+      height={size} 
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"

@@ -12,7 +12,7 @@ export const ForbidFilled = React.forwardRef<SVGSVGElement, ForbidFilledProps>(
     <svg 
       ref={ref}
       width={size}
-      height={size}
+      height={size} 
       viewBox="0 0 24 24"
       fill="currentColor"
       stroke="none"

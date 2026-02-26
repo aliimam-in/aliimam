@@ -66,7 +66,7 @@ export function Vectors({
   return (
     <Component
       size={size}
-      fill={color} 
+      style={{ color }}
       viewBox={metadata.viewBox}  
       {...props}
     />

@@ -12,7 +12,7 @@ export const ClockHour3Filled = React.forwardRef<SVGSVGElement, ClockHour3Filled
     <svg 
       ref={ref}
       width={size}
-      height={size}
+      height={size} 
       viewBox="0 0 24 24"
       fill="currentColor"
       stroke="none"

@@ -12,7 +12,7 @@ export const HardDriveUpload = React.forwardRef<SVGSVGElement, HardDriveUploadPr
     <svg 
       ref={ref}
       width={size}
-      height={size}
+      height={size} 
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"

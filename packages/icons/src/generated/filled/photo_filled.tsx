@@ -12,7 +12,7 @@ export const PhotoFilled = React.forwardRef<SVGSVGElement, PhotoFilledProps>(
     <svg 
       ref={ref}
       width={size}
-      height={size}
+      height={size} 
       viewBox="0 0 24 24"
       fill="currentColor"
       stroke="none"

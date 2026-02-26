@@ -20,7 +20,6 @@ interface LogoGridProps {
 
 const BATCH_SIZE = 100
 
-// Flat list of all entries — computed once
 const allEntries_flat: any[] = []
 for (const icons of Object.values(allVectors) as Record<string, any>[]) {
   for (const entry of Object.values(icons)) {
@@ -36,7 +35,7 @@ function matchesVariantTab(
   if (tab === "shapes") return v === "default" || v === "shapes" || v === ""
   if (tab === "sketch") return v === "sketch"
   if (tab === "pattern") return v === "pattern"
-  if (tab === "texture") return v === "texture" 
+  if (tab === "texture") return v === "texture"
   return false
 }
 
@@ -59,7 +58,6 @@ export function VectorGrid({ selectedLogo, onSelectLogo }: LogoGridProps) {
         Object.values(logos).forEach((entry: any) => {
           const { baseId, tags, variant } = entry.metadata
 
-          // Sirf current variantTab wale icons
           if (!matchesVariantTab(variant, variantTab)) return
 
           const key = `${cat}:${baseId}`
@@ -67,7 +65,7 @@ export function VectorGrid({ selectedLogo, onSelectLogo }: LogoGridProps) {
             seen.add(key)
             result.push({
               baseId,
-              iconId: entry.metadata.id, // exact id store karo
+              iconId: entry.metadata.id,
               category: cat,
               tags: tags ?? [],
             })
@@ -92,7 +90,7 @@ export function VectorGrid({ selectedLogo, onSelectLogo }: LogoGridProps) {
   }, [allGridEntries, query, category])
 
   function getSizeByVariant(
-    tab: "shapes" | "sketch" | "pattern" | "texture"  
+    tab: "shapes" | "sketch" | "pattern" | "texture"
   ) {
     switch (tab) {
       case "shapes":
@@ -102,28 +100,24 @@ export function VectorGrid({ selectedLogo, onSelectLogo }: LogoGridProps) {
       case "pattern":
         return 140
       case "texture":
-        return 140 
+        return 140
       default:
         return 50
     }
   }
 
   function getGridClasses(
-    tab: "shapes" | "sketch" | "pattern" | "texture"  
+    tab: "shapes" | "sketch" | "pattern" | "texture"
   ) {
     switch (tab) {
       case "shapes":
         return "grid-cols-2 md:grid-cols-4 lg:grid-cols-6"
-
       case "sketch":
         return "grid-cols-2 md:grid-cols-4 lg:grid-cols-6"
-
       case "pattern":
         return "grid-cols-2 md:grid-cols-4 lg:grid-cols-6"
-
       case "texture":
-        return "grid-cols-2 md:grid-cols-4 lg:grid-cols-6" 
-
+        return "grid-cols-2 md:grid-cols-4 lg:grid-cols-6"
       default:
         return "grid-cols-2"
     }
@@ -177,7 +171,11 @@ export function VectorGrid({ selectedLogo, onSelectLogo }: LogoGridProps) {
                     isActive ? "border-primary transition duration-300" : ""
                   }`}
                 >
-                  <Vectors name={iconId} color={color} size={getSizeByVariant(variantTab)} />
+                  <Vectors
+                    name={iconId}
+                    size={getSizeByVariant(variantTab)}
+                    color={color}
+                  />
                 </button>
               </TooltipTrigger>
               <TooltipContent sideOffset={-10}>

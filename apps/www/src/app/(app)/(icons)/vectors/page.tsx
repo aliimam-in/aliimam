@@ -24,7 +24,7 @@ const VARIANT_TABS: { value: VariantTab; label: string }[] = [
 
 export default function Page() {
   const [selectedLogo, setSelectedLogo] = useState<string | null>(null)
-  const { variantTab, setVariantTab, setCategory } = useVectorFilter()
+  const { variantTab, setVariantTab, setCategory } = useVectorFilter() 
   const router = useRouter()
   const searchParams = useSearchParams()
 

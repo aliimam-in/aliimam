@@ -12,7 +12,7 @@ export const Battery2Filled = React.forwardRef<SVGSVGElement, Battery2FilledProp
     <svg 
       ref={ref}
       width={size}
-      height={size}
+      height={size} 
       viewBox="0 0 24 24"
       fill="currentColor"
       stroke="none"

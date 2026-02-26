@@ -12,7 +12,7 @@ export const ChessQueen = React.forwardRef<SVGSVGElement, ChessQueenProps>(
     <svg 
       ref={ref}
       width={size}
-      height={size}
+      height={size} 
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"

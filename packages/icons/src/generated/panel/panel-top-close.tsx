@@ -12,7 +12,7 @@ export const PanelTopClose = React.forwardRef<SVGSVGElement, PanelTopCloseProps>
     <svg 
       ref={ref}
       width={size}
-      height={size}
+      height={size} 
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"

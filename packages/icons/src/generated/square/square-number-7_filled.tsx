@@ -12,7 +12,7 @@ export const SquareNumber7Filled = React.forwardRef<SVGSVGElement, SquareNumber7
     <svg 
       ref={ref}
       width={size}
-      height={size}
+      height={size} 
       viewBox="0 0 24 24"
       fill="currentColor"
       stroke="none"

@@ -12,7 +12,7 @@ export const Rocket = React.forwardRef<SVGSVGElement, RocketProps>(
     <svg 
       ref={ref}
       width={size}
-      height={size}
+      height={size} 
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"

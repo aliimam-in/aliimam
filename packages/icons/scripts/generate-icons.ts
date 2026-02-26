@@ -329,7 +329,7 @@ export const ${componentName} = React.forwardRef<SVGSVGElement, ${componentName}
     <svg 
       ref={ref}
       width={size}
-      height={size}
+      height={size} 
       viewBox="${logo.viewBox}"
       fill="${defaultFill}"
       stroke="${defaultStroke}"

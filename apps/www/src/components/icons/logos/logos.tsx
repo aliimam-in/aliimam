@@ -67,6 +67,7 @@ export function Logos({
     <Component
       size={size}
       fill={color} 
+      style={{ color }}
       viewBox={metadata.viewBox}  
       {...props}
     />

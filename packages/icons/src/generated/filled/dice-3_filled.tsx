@@ -12,7 +12,7 @@ export const Dice3Filled = React.forwardRef<SVGSVGElement, Dice3FilledProps>(
     <svg 
       ref={ref}
       width={size}
-      height={size}
+      height={size} 
       viewBox="0 0 24 24"
       fill="currentColor"
       stroke="none"

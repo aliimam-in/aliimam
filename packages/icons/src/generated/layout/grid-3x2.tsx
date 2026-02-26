@@ -12,7 +12,7 @@ export const Grid3x2 = React.forwardRef<SVGSVGElement, Grid3x2Props>(
     <svg 
       ref={ref}
       width={size}
-      height={size}
+      height={size} 
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"

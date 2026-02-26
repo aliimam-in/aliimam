@@ -12,7 +12,7 @@ export const Columns3 = React.forwardRef<SVGSVGElement, Columns3Props>(
     <svg 
       ref={ref}
       width={size}
-      height={size}
+      height={size} 
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"

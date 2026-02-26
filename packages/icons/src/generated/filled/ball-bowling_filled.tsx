@@ -12,7 +12,7 @@ export const BallBowlingFilled = React.forwardRef<SVGSVGElement, BallBowlingFill
     <svg 
       ref={ref}
       width={size}
-      height={size}
+      height={size} 
       viewBox="0 0 24 24"
       fill="currentColor"
       stroke="none"

@@ -12,7 +12,7 @@ export const BrandVimeoFilled = React.forwardRef<SVGSVGElement, BrandVimeoFilled
     <svg 
       ref={ref}
       width={size}
-      height={size}
+      height={size} 
       viewBox="0 0 24 24"
       fill="currentColor"
       stroke="none"

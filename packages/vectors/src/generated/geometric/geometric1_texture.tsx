@@ -13,18 +13,18 @@ export const Geometric1Texture = React.forwardRef<SVGSVGElement, Geometric1Textu
       ref={ref}
       width={size}
       height={size}
+      fill="none"
       viewBox="0 0 500 500"
-      
       className={className}
       xmlns="http://www.w3.org/2000/svg" 
       {...props}
     >
-      <path d="M0 342H500V500H0V342Z" fill="#292524"/>
-<path d="M0 103H500V107H0V103Z" fill="#292524"/>
-<path d="M0 179.515H500V185.515H0V179.515Z" fill="#292524"/>
-<path d="M0 225.375H500V233.375H0V225.375Z" fill="#292524"/>
-<path d="M0 298H500V332.44H0V298Z" fill="#292524"/>
-<path d="M0 258.03H500V279.47H0V258.03Z" fill="#292524"/>
+      <path d="M0 342H500V500H0V342Z" fill="currentColor"/>
+<path d="M0 103H500V107H0V103Z" fill="currentColor"/>
+<path d="M0 179.515H500V185.515H0V179.515Z" fill="currentColor"/>
+<path d="M0 225.375H500V233.375H0V225.375Z" fill="currentColor"/>
+<path d="M0 298H500V332.44H0V298Z" fill="currentColor"/>
+<path d="M0 258.03H500V279.47H0V258.03Z" fill="currentColor"/>
     </svg>
   )
 );

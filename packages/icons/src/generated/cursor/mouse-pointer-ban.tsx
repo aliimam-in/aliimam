@@ -12,7 +12,7 @@ export const MousePointerBan = React.forwardRef<SVGSVGElement, MousePointerBanPr
     <svg 
       ref={ref}
       width={size}
-      height={size}
+      height={size} 
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"

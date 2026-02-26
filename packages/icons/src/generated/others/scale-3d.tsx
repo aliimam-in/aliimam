@@ -12,7 +12,7 @@ export const Scale3d = React.forwardRef<SVGSVGElement, Scale3dProps>(
     <svg 
       ref={ref}
       width={size}
-      height={size}
+      height={size} 
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"

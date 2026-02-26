@@ -29,8 +29,7 @@ interface IconCodeProps {
   size?: number
   color?: string
   strokeWidth?: number
-  variant?: "solid" | "stroke" 
-  isLogo?: boolean
+  variant?: "outline" | "filled" | "pixel"
 }
 
 export function LogoCode({
@@ -39,7 +38,6 @@ export function LogoCode({
   color = "currentColor",
   strokeWidth = 2,
   variant,
-  isLogo = false,
 }: IconCodeProps) {
   function toPascalCase(name: string) {
     return name
@@ -48,9 +46,37 @@ export function LogoCode({
       .join("")
   }
 
-  const componentName = toPascalCase(iconName) + (isLogo ? "Logo" : "")
-  const packageName = isLogo ? "@aliimam/logos" : "@aliimam/icons"
-  const docsPath = isLogo ? "/docs/logos/introduction" : "/docs/icons/introduction"
+  const componentName = toPascalCase(iconName)
+  const packageName = "@aliimam/logos"
+  const docsPath = "/docs/logos/introduction"
+
+  const reactContent =
+    variant === "outline"
+      ? `import { ${componentName} } from '${packageName}';
+
+const App = () => {
+  return (
+    <${componentName}
+      size={${size}}
+      color="${color}"
+      strokeWidth={${strokeWidth}}
+    />
+  );
+};
+
+export default App;`
+      : `import { ${componentName} } from '${packageName}';
+
+const App = () => {
+  return (
+    <${componentName}
+      size={${size}}
+      color="${color}"
+    />
+  );
+};
+
+export default App;`
 
   const tabs = [
     {
@@ -58,27 +84,7 @@ export function LogoCode({
       label: "React",
       language: "tsx",
       filename: `${iconName}.tsx`,
-      content: isLogo
-        ? `import { ${componentName} } from '${packageName}';
-
-const App = () => {
-  return (
-    <${componentName} size={${size}} color="${color}" />
-  );
-};
-
-export default App;`
-        : `import { ${componentName} } from '${packageName}';
-
-const App = () => {
-  return (
-    <${componentName} size={${size}} color="${color}"${
-      variant === "stroke" ? `\n      strokeWidth={${strokeWidth}}` : ""
-    } />
-  );
-};
-
-export default App;`,
+      content: reactContent,
     },
     {
       value: "vanilla",
@@ -168,17 +174,13 @@ import { AliImamAngularModule, ${componentName} } from '${packageName}';
 // app.component.html
 <aliimam name="${iconName}"></aliimam>`,
     },
-    ...(!isLogo
-      ? [
-          {
-            value: "icon-font",
-            label: "Icon Font",
-            language: "html",
-            filename: `${iconName}.html`,
-            content: `<div class="icon-${iconName}"></div>`,
-          },
-        ]
-      : []),
+    {
+      value: "icon-font",
+      label: "Icon Font",
+      language: "html",
+      filename: `${iconName}.html`,
+      content: `<div class="icon-${iconName}"></div>`,
+    },
   ]
 
   return (
@@ -212,9 +214,15 @@ import { AliImamAngularModule, ${componentName} } from '${packageName}';
 
       {tabs.map((tab) => (
         <TabsContent key={tab.value} value={tab.value}>
-          <div className="relative h-90 w-full">
+          <div className="relative h-100 w-full">
             <CodeBlock
-              data={[{ language: tab.language, filename: tab.filename, code: tab.content }]}
+              data={[
+                {
+                  language: tab.language,
+                  filename: tab.filename,
+                  code: tab.content,
+                },
+              ]}
               defaultValue={tab.language}
             >
               <CodeBlockHeader>

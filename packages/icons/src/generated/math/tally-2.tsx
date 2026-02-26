@@ -12,7 +12,7 @@ export const Tally2 = React.forwardRef<SVGSVGElement, Tally2Props>(
     <svg 
       ref={ref}
       width={size}
-      height={size}
+      height={size} 
       viewBox="0 0 24 24"
       fill="none"
       stroke="currentColor"

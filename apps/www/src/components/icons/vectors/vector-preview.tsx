@@ -2,11 +2,14 @@
 "use client"
 
 import { useEffect, useState } from "react"
-import Link from "next/link" 
-import { Figma } from "@aliimam/logos"
+import Link from "next/link"
 import { allVectors } from "@aliimam/vectors"
 
 import { Button } from "@/registry/aliimam/ui/button"
+import {
+  ToggleGroup,
+  ToggleGroupItem,
+} from "@/registry/aliimam/ui/toggle-group"
 
 import { ContentCopyButton } from "../../copy-button"
 import { IconGridLines } from "../../logos"
@@ -78,20 +81,25 @@ export function VectorPreview({ selectedLogo, onClearSelection }: Props) {
         </div>
 
         {variants.length > 1 && (
-          <div className="flex w-80 flex-wrap justify-center gap-1 px-2">
-            {variants.map((v) => (
-              <button
-                key={v.id}
-                onClick={() => setActiveVariant(v.variant)}
-                className={`cursor-pointer rounded border px-2 py-1 text-xs transition ${
-                  activeVariant === v.variant
-                    ? "border-primary bg-primary text-primary-foreground"
-                    : "border-border text-muted-foreground hover:border-foreground hover:text-foreground"
-                }`}
-              >
-                {v.variant}
-              </button>
-            ))}
+          <div className="space-y-2">
+            <ToggleGroup
+              type="single"
+              size="sm"
+              variant="outline"
+              value={activeVariant}
+              onValueChange={(val) => val && setActiveVariant(val)}
+              className="w-full flex-wrap"
+            >
+              {variants.map((v) => (
+                <ToggleGroupItem
+                  key={v.id}
+                  value={v.variant}
+                  className="flex-1 text-xs"
+                >
+                  {v.variant}
+                </ToggleGroupItem>
+              ))}
+            </ToggleGroup>
           </div>
         )}
 
@@ -104,7 +112,7 @@ export function VectorPreview({ selectedLogo, onClearSelection }: Props) {
             >
               [Open]
             </Button>
-          </Link> 
+          </Link>
           <Button
             className="text-muted-foreground cursor-pointer"
             variant="ghost"
@@ -130,21 +138,13 @@ export function VectorPreview({ selectedLogo, onClearSelection }: Props) {
       </div>
 
       <div className="mt-4 flex flex-col gap-2">
-        <Link
-          target="_blank"
-          href="https://www.figma.com/community/file/1553397064284560809/ai-logos"
-        >
-          <Button variant="outline" className="w-full">
-            <Figma /> Open in Figma
-          </Button>
-        </Link>
         <ContentCopyButton
           className="w-full font-mono text-xs"
-          value="npm i @aliimam/logos"
+          value="npm i @aliimam/vectors"
         />
-        <Link href="/docs/logos/introduction">
-          <Button className="w-full">See Docs</Button>
-        </Link>
+        <Button asChild className="w-full">
+          <Link href="/docs/icons/introduction">See Docs</Link>
+        </Button>
       </div>
     </div>
   )
@@ -166,22 +166,26 @@ export function VectorPreviewPhone({ selectedLogo, onClearSelection }: Props) {
         <IconGridLines className="bg-code absolute -z-10 h-60 w-60 opacity-15" />
       </div>
 
-      {/* Variant tabs */}
       {variants.length > 1 && (
-        <div className="flex flex-wrap justify-center gap-1 py-2">
-          {variants.map((v) => (
-            <button
-              key={v.id}
-              onClick={() => setActiveVariant(v.variant)}
-              className={`cursor-pointer rounded border px-2 py-1 text-xs transition ${
-                activeVariant === v.variant
-                  ? "border-primary bg-primary text-primary-foreground"
-                  : "border-border text-muted-foreground hover:border-foreground hover:text-foreground"
-              }`}
-            >
-              {v.variant}
-            </button>
-          ))}
+        <div className="space-y-2">
+          <ToggleGroup
+            type="single"
+            size="sm"
+            variant="outline"
+            value={activeVariant}
+            onValueChange={(val) => val && setActiveVariant(val)}
+            className="w-full flex-wrap"
+          >
+            {variants.map((v) => (
+              <ToggleGroupItem
+                key={v.id}
+                value={v.variant}
+                className="flex-1 text-xs"
+              >
+                {v.variant}
+              </ToggleGroupItem>
+            ))}
+          </ToggleGroup>
         </div>
       )}
 
