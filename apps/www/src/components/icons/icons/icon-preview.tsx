@@ -36,10 +36,9 @@ function getVariants(baseId: string) {
   return result
 }
 
-/** variantTab se best matching variant pick karo */
 function getInitialVariant(
   variants: { id: string; variant: string }[],
-  variantTab: "outline" | "filled" | "pixel"
+  variantTab: "outline" | "filled" | "doodle"
 ): string {
   if (variantTab === "outline") {
     return (
@@ -59,10 +58,11 @@ function getInitialVariant(
 }
 
 export function IconPreview({ selectedLogo, onClearSelection }: Props) {
-  const [size, setSize] = useState(120)
+  const { variantTab } = useIconFilter()
+
+  const [size, setSize] = useState(() => variantTab === "doodle" ? 80 : 120)
   const [strokeWidth, setstrokeWidth] = useState(0.5)
   const [color, setColor] = useState("currentColor")
-  const { variantTab } = useIconFilter()
 
   const variants = getVariants(selectedLogo)
   const [activeVariant, setActiveVariant] = useState(() =>
@@ -71,6 +71,7 @@ export function IconPreview({ selectedLogo, onClearSelection }: Props) {
 
   useEffect(() => {
     setActiveVariant(getInitialVariant(getVariants(selectedLogo), variantTab))
+    setSize(variantTab === "doodle" ? 80 : 120) // 👈 tab change hone par size reset
   }, [selectedLogo, variantTab])
 
   const activeId =
@@ -172,10 +173,11 @@ export function IconPreview({ selectedLogo, onClearSelection }: Props) {
 }
 
 export function IconPreviewPhone({ selectedLogo, onClearSelection }: Props) {
-  const [size, setSize] = useState(120)
+  const { variantTab } = useIconFilter()
+
+  const [size, setSize] = useState(() => variantTab === "doodle" ? 80 : 120)
   const [strokeWidth, setstrokeWidth] = useState(0.5)
   const [color, setColor] = useState("currentColor")
-  const { variantTab } = useIconFilter()
 
   const variants = getVariants(selectedLogo)
   const [activeVariant, setActiveVariant] = useState(() =>
@@ -184,6 +186,7 @@ export function IconPreviewPhone({ selectedLogo, onClearSelection }: Props) {
 
   useEffect(() => {
     setActiveVariant(getInitialVariant(getVariants(selectedLogo), variantTab))
+    setSize(variantTab === "doodle" ? 80 : 120) // 👈 tab change hone par size reset
   }, [selectedLogo, variantTab])
 
   const activeId =

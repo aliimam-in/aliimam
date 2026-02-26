@@ -137,6 +137,10 @@ export { ArrowBigUpLineFilled, ArrowBigUpLineFilledMetadata, type ArrowBigUpLine
 export { ArrowBigUpLinesFilled, ArrowBigUpLinesFilledMetadata, type ArrowBigUpLinesFilledProps } from './arrows/arrow-big-up-lines_filled';
 export { ArrowBigUp, ArrowBigUpMetadata, type ArrowBigUpProps } from './arrows/arrow-big-up';
 export { ArrowBigUpFilled, ArrowBigUpFilledMetadata, type ArrowBigUpFilledProps } from './arrows/arrow-big-up_filled';
+export { ArrowCircleDownDoodle, ArrowCircleDownDoodleMetadata, type ArrowCircleDownDoodleProps } from './arrows/arrow-circle-down_doodle';
+export { ArrowCircleLeftDoodle, ArrowCircleLeftDoodleMetadata, type ArrowCircleLeftDoodleProps } from './arrows/arrow-circle-left_doodle';
+export { ArrowCircleRightDoodle, ArrowCircleRightDoodleMetadata, type ArrowCircleRightDoodleProps } from './arrows/arrow-circle-right_doodle';
+export { ArrowCircleUpDoodle, ArrowCircleUpDoodleMetadata, type ArrowCircleUpDoodleProps } from './arrows/arrow-circle-up_doodle';
 export { ArrowDown01, ArrowDown01Metadata, type ArrowDown01Props } from './arrows/arrow-down-0-1';
 export { ArrowDown10, ArrowDown10Metadata, type ArrowDown10Props } from './arrows/arrow-down-1-0';
 export { ArrowDownAZ, ArrowDownAZMetadata, type ArrowDownAZProps } from './arrows/arrow-down-a-z';
@@ -153,6 +157,7 @@ export { ArrowDownUp, ArrowDownUpMetadata, type ArrowDownUpProps } from './arrow
 export { ArrowDownWideNarrow, ArrowDownWideNarrowMetadata, type ArrowDownWideNarrowProps } from './arrows/arrow-down-wide-narrow';
 export { ArrowDownZA, ArrowDownZAMetadata, type ArrowDownZAProps } from './arrows/arrow-down-z-a';
 export { ArrowDown, ArrowDownMetadata, type ArrowDownProps } from './arrows/arrow-down';
+export { ArrowDownDoodle, ArrowDownDoodleMetadata, type ArrowDownDoodleProps } from './arrows/arrow-down_doodle';
 export { ArrowGuideFilled, ArrowGuideFilledMetadata, type ArrowGuideFilledProps } from './arrows/arrow-guide_filled';
 export { ArrowLeftCircleFilled, ArrowLeftCircleFilledMetadata, type ArrowLeftCircleFilledProps } from './arrows/arrow-left-circle_filled';
 export { ArrowLeftFromLine, ArrowLeftFromLineMetadata, type ArrowLeftFromLineProps } from './arrows/arrow-left-from-line';
@@ -161,10 +166,13 @@ export { ArrowLeftRight, ArrowLeftRightMetadata, type ArrowLeftRightProps } from
 export { ArrowLeftSquareFilled, ArrowLeftSquareFilledMetadata, type ArrowLeftSquareFilledProps } from './arrows/arrow-left-square_filled';
 export { ArrowLeftToLine, ArrowLeftToLineMetadata, type ArrowLeftToLineProps } from './arrows/arrow-left-to-line';
 export { ArrowLeft, ArrowLeftMetadata, type ArrowLeftProps } from './arrows/arrow-left';
+export { ArrowLeftDoodle, ArrowLeftDoodleMetadata, type ArrowLeftDoodleProps } from './arrows/arrow-left_doodle';
 export { ArrowMoveDownFilled, ArrowMoveDownFilledMetadata, type ArrowMoveDownFilledProps } from './arrows/arrow-move-down_filled';
 export { ArrowMoveLeftFilled, ArrowMoveLeftFilledMetadata, type ArrowMoveLeftFilledProps } from './arrows/arrow-move-left_filled';
 export { ArrowMoveRightFilled, ArrowMoveRightFilledMetadata, type ArrowMoveRightFilledProps } from './arrows/arrow-move-right_filled';
 export { ArrowMoveUpFilled, ArrowMoveUpFilledMetadata, type ArrowMoveUpFilledProps } from './arrows/arrow-move-up_filled';
+export { ArrowNeDoodle, ArrowNeDoodleMetadata, type ArrowNeDoodleProps } from './arrows/arrow-ne_doodle';
+export { ArrowNwDoodle, ArrowNwDoodleMetadata, type ArrowNwDoodleProps } from './arrows/arrow-nw_doodle';
 export { ArrowRightCircleFilled, ArrowRightCircleFilledMetadata, type ArrowRightCircleFilledProps } from './arrows/arrow-right-circle_filled';
 export { ArrowRightFromLine, ArrowRightFromLineMetadata, type ArrowRightFromLineProps } from './arrows/arrow-right-from-line';
 export { ArrowRightLeft, ArrowRightLeftMetadata, type ArrowRightLeftProps } from './arrows/arrow-right-left';
@@ -172,6 +180,17 @@ export { ArrowRightRhombusFilled, ArrowRightRhombusFilledMetadata, type ArrowRig
 export { ArrowRightSquareFilled, ArrowRightSquareFilledMetadata, type ArrowRightSquareFilledProps } from './arrows/arrow-right-square_filled';
 export { ArrowRightToLine, ArrowRightToLineMetadata, type ArrowRightToLineProps } from './arrows/arrow-right-to-line';
 export { ArrowRight, ArrowRightMetadata, type ArrowRightProps } from './arrows/arrow-right';
+export { ArrowRightDoodle, ArrowRightDoodleMetadata, type ArrowRightDoodleProps } from './arrows/arrow-right_doodle';
+export { ArrowSeDoodle, ArrowSeDoodleMetadata, type ArrowSeDoodleProps } from './arrows/arrow-se_doodle';
+export { ArrowSingleDownDoodle, ArrowSingleDownDoodleMetadata, type ArrowSingleDownDoodleProps } from './arrows/arrow-single-down_doodle';
+export { ArrowSingleLeftDoodle, ArrowSingleLeftDoodleMetadata, type ArrowSingleLeftDoodleProps } from './arrows/arrow-single-left_doodle';
+export { ArrowSingleRightDoodle, ArrowSingleRightDoodleMetadata, type ArrowSingleRightDoodleProps } from './arrows/arrow-single-right_doodle';
+export { ArrowSingleUpDoodle, ArrowSingleUpDoodleMetadata, type ArrowSingleUpDoodleProps } from './arrows/arrow-single-up_doodle';
+export { ArrowSquareDownDoodle, ArrowSquareDownDoodleMetadata, type ArrowSquareDownDoodleProps } from './arrows/arrow-square-down_doodle';
+export { ArrowSquareLeftDoodle, ArrowSquareLeftDoodleMetadata, type ArrowSquareLeftDoodleProps } from './arrows/arrow-square-left_doodle';
+export { ArrowSquareRightDoodle, ArrowSquareRightDoodleMetadata, type ArrowSquareRightDoodleProps } from './arrows/arrow-square-right_doodle';
+export { ArrowSquareUpDoodle, ArrowSquareUpDoodleMetadata, type ArrowSquareUpDoodleProps } from './arrows/arrow-square-up_doodle';
+export { ArrowSwDoodle, ArrowSwDoodleMetadata, type ArrowSwDoodleProps } from './arrows/arrow-sw_doodle';
 export { ArrowUp01, ArrowUp01Metadata, type ArrowUp01Props } from './arrows/arrow-up-0-1';
 export { ArrowUp10, ArrowUp10Metadata, type ArrowUp10Props } from './arrows/arrow-up-1-0';
 export { ArrowUpAZ, ArrowUpAZMetadata, type ArrowUpAZProps } from './arrows/arrow-up-a-z';
@@ -188,6 +207,7 @@ export { ArrowUpToLine, ArrowUpToLineMetadata, type ArrowUpToLineProps } from '.
 export { ArrowUpWideNarrow, ArrowUpWideNarrowMetadata, type ArrowUpWideNarrowProps } from './arrows/arrow-up-wide-narrow';
 export { ArrowUpZA, ArrowUpZAMetadata, type ArrowUpZAProps } from './arrows/arrow-up-z-a';
 export { ArrowUp, ArrowUpMetadata, type ArrowUpProps } from './arrows/arrow-up';
+export { ArrowUpDoodle, ArrowUpDoodleMetadata, type ArrowUpDoodleProps } from './arrows/arrow-up_doodle';
 export { ArrowsUpFromLine, ArrowsUpFromLineMetadata, type ArrowsUpFromLineProps } from './arrows/arrows-up-from-line';
 export { ChevronDown, ChevronDownMetadata, type ChevronDownProps } from './arrows/chevron-down';
 export { ChevronFirst, ChevronFirstMetadata, type ChevronFirstProps } from './arrows/chevron-first';
@@ -197,13 +217,17 @@ export { ChevronRight, ChevronRightMetadata, type ChevronRightProps } from './ar
 export { ChevronUp, ChevronUpMetadata, type ChevronUpProps } from './arrows/chevron-up';
 export { ChevronsDownUp, ChevronsDownUpMetadata, type ChevronsDownUpProps } from './arrows/chevrons-down-up';
 export { ChevronsDown, ChevronsDownMetadata, type ChevronsDownProps } from './arrows/chevrons-down';
+export { ChevronsDownDoodle, ChevronsDownDoodleMetadata, type ChevronsDownDoodleProps } from './arrows/chevrons-down_doodle';
 export { ChevronsLeftRightEllipsis, ChevronsLeftRightEllipsisMetadata, type ChevronsLeftRightEllipsisProps } from './arrows/chevrons-left-right-ellipsis';
 export { ChevronsLeftRight, ChevronsLeftRightMetadata, type ChevronsLeftRightProps } from './arrows/chevrons-left-right';
 export { ChevronsLeft, ChevronsLeftMetadata, type ChevronsLeftProps } from './arrows/chevrons-left';
+export { ChevronsLeftDoodle, ChevronsLeftDoodleMetadata, type ChevronsLeftDoodleProps } from './arrows/chevrons-left_doodle';
 export { ChevronsRightLeft, ChevronsRightLeftMetadata, type ChevronsRightLeftProps } from './arrows/chevrons-right-left';
 export { ChevronsRight, ChevronsRightMetadata, type ChevronsRightProps } from './arrows/chevrons-right';
+export { ChevronsRightDoodle, ChevronsRightDoodleMetadata, type ChevronsRightDoodleProps } from './arrows/chevrons-right_doodle';
 export { ChevronsUpDown, ChevronsUpDownMetadata, type ChevronsUpDownProps } from './arrows/chevrons-up-down';
 export { ChevronsUp, ChevronsUpMetadata, type ChevronsUpProps } from './arrows/chevrons-up';
+export { ChevronsUpDoodle, ChevronsUpDoodleMetadata, type ChevronsUpDoodleProps } from './arrows/chevrons-up_doodle';
 export { CornerDownLeft, CornerDownLeftMetadata, type CornerDownLeftProps } from './arrows/corner-down-left';
 export { CornerDownRight, CornerDownRightMetadata, type CornerDownRightProps } from './arrows/corner-down-right';
 export { CornerLeftDown, CornerLeftDownMetadata, type CornerLeftDownProps } from './arrows/corner-left-down';
@@ -308,6 +332,8 @@ export { NotebookText, NotebookTextMetadata, type NotebookTextProps } from './bo
 export { Notebook, NotebookMetadata, type NotebookProps } from './book/notebook';
 export { NotepadTextDashed, NotepadTextDashedMetadata, type NotepadTextDashedProps } from './book/notepad-text-dashed';
 export { NotepadText, NotepadTextMetadata, type NotepadTextProps } from './book/notepad-text';
+export { AppleDoodle, AppleDoodleMetadata, type AppleDoodleProps } from './brand/apple_doodle';
+export { BehanceDoodle, BehanceDoodleMetadata, type BehanceDoodleProps } from './brand/behance_doodle';
 export { BrandAngularFilled, BrandAngularFilledMetadata, type BrandAngularFilledProps } from './brand/brand-angular_filled';
 export { BrandAppleFilled, BrandAppleFilledMetadata, type BrandAppleFilledProps } from './brand/brand-apple_filled';
 export { BrandBitbucketFilled, BrandBitbucketFilledMetadata, type BrandBitbucketFilledProps } from './brand/brand-bitbucket_filled';
@@ -342,6 +368,31 @@ export { BrandWhatsappFilled, BrandWhatsappFilledMetadata, type BrandWhatsappFil
 export { BrandWindowsFilled, BrandWindowsFilledMetadata, type BrandWindowsFilledProps } from './brand/brand-windows_filled';
 export { BrandXFilled, BrandXFilledMetadata, type BrandXFilledProps } from './brand/brand-x_filled';
 export { BrandYoutubeFilled, BrandYoutubeFilledMetadata, type BrandYoutubeFilledProps } from './brand/brand-youtube_filled';
+export { CodepenDoodle, CodepenDoodleMetadata, type CodepenDoodleProps } from './brand/codepen_doodle';
+export { DribbbleDoodle, DribbbleDoodleMetadata, type DribbbleDoodleProps } from './brand/dribbble_doodle';
+export { DropboxDoodle, DropboxDoodleMetadata, type DropboxDoodleProps } from './brand/dropbox_doodle';
+export { Facebook2Doodle, Facebook2DoodleMetadata, type Facebook2DoodleProps } from './brand/facebook-2_doodle';
+export { FacebookDoodle, FacebookDoodleMetadata, type FacebookDoodleProps } from './brand/facebook_doodle';
+export { FbMessengerDoodle, FbMessengerDoodleMetadata, type FbMessengerDoodleProps } from './brand/fb-messenger_doodle';
+export { GoogleDoodle, GoogleDoodleMetadata, type GoogleDoodleProps } from './brand/google_doodle';
+export { InstagramDoodle, InstagramDoodleMetadata, type InstagramDoodleProps } from './brand/instagram_doodle';
+export { LinkedinDoodle, LinkedinDoodleMetadata, type LinkedinDoodleProps } from './brand/linkedin_doodle';
+export { PaypalDoodle, PaypalDoodleMetadata, type PaypalDoodleProps } from './brand/paypal_doodle';
+export { PinterestDoodle, PinterestDoodleMetadata, type PinterestDoodleProps } from './brand/pinterest_doodle';
+export { ProductHuntDoodle, ProductHuntDoodleMetadata, type ProductHuntDoodleProps } from './brand/product-hunt_doodle';
+export { SkypeDoodle, SkypeDoodleMetadata, type SkypeDoodleProps } from './brand/skype_doodle';
+export { SnapchatDoodle, SnapchatDoodleMetadata, type SnapchatDoodleProps } from './brand/snapchat_doodle';
+export { SpotifyDoodle, SpotifyDoodleMetadata, type SpotifyDoodleProps } from './brand/spotify_doodle';
+export { TikTokDoodle, TikTokDoodleMetadata, type TikTokDoodleProps } from './brand/tik-tok_doodle';
+export { TumblrDoodle, TumblrDoodleMetadata, type TumblrDoodleProps } from './brand/tumblr_doodle';
+export { TwitchDoodle, TwitchDoodleMetadata, type TwitchDoodleProps } from './brand/twitch_doodle';
+export { TwitterDoodle, TwitterDoodleMetadata, type TwitterDoodleProps } from './brand/twitter_doodle';
+export { UberDoodle, UberDoodleMetadata, type UberDoodleProps } from './brand/uber_doodle';
+export { WebflowDoodle, WebflowDoodleMetadata, type WebflowDoodleProps } from './brand/webflow_doodle';
+export { WhatsappDoodle, WhatsappDoodleMetadata, type WhatsappDoodleProps } from './brand/whatsapp_doodle';
+export { WindowsDoodle, WindowsDoodleMetadata, type WindowsDoodleProps } from './brand/windows_doodle';
+export { YCombinatorDoodle, YCombinatorDoodleMetadata, type YCombinatorDoodleProps } from './brand/y-combinator_doodle';
+export { YoutubeDoodle, YoutubeDoodleMetadata, type YoutubeDoodleProps } from './brand/youtube_doodle';
 export { Building2, Building2Metadata, type Building2Props } from './building/building-2';
 export { Building, BuildingMetadata, type BuildingProps } from './building/building';
 export { Castle, CastleMetadata, type CastleProps } from './building/castle';
@@ -607,6 +658,33 @@ export { Code, CodeMetadata, type CodeProps } from './code/code';
 export { Codepen, CodepenMetadata, type CodepenProps } from './code/codepen';
 export { Codesandbox, CodesandboxMetadata, type CodesandboxProps } from './code/codesandbox';
 export { Component, ComponentMetadata, type ComponentProps } from './code/component';
+export { Bag2Doodle, Bag2DoodleMetadata, type Bag2DoodleProps } from './commerce/bag-2_doodle';
+export { BagDoodle, BagDoodleMetadata, type BagDoodleProps } from './commerce/bag_doodle';
+export { BasketDoodle, BasketDoodleMetadata, type BasketDoodleProps } from './commerce/basket_doodle';
+export { Box2Doodle, Box2DoodleMetadata, type Box2DoodleProps } from './commerce/box-2_doodle';
+export { BoxDoodle, BoxDoodleMetadata, type BoxDoodleProps } from './commerce/box_doodle';
+export { Card2Doodle, Card2DoodleMetadata, type Card2DoodleProps } from './commerce/card-2_doodle';
+export { Card3Doodle, Card3DoodleMetadata, type Card3DoodleProps } from './commerce/card-3_doodle';
+export { CardDoodle, CardDoodleMetadata, type CardDoodleProps } from './commerce/card_doodle';
+export { CartAddDoodle, CartAddDoodleMetadata, type CartAddDoodleProps } from './commerce/cart-add_doodle';
+export { CartDeleteDoodle, CartDeleteDoodleMetadata, type CartDeleteDoodleProps } from './commerce/cart-delete_doodle';
+export { CartRemoveDoodle, CartRemoveDoodleMetadata, type CartRemoveDoodleProps } from './commerce/cart-remove_doodle';
+export { ConveyorBeltDoodle, ConveyorBeltDoodleMetadata, type ConveyorBeltDoodleProps } from './commerce/conveyor-belt_doodle';
+export { FactoryDoodle, FactoryDoodleMetadata, type FactoryDoodleProps } from './commerce/factory_doodle';
+export { HandTruckDoodle, HandTruckDoodleMetadata, type HandTruckDoodleProps } from './commerce/hand-truck_doodle';
+export { LocationDoodle, LocationDoodleMetadata, type LocationDoodleProps } from './commerce/location_doodle';
+export { OfferDoodle, OfferDoodleMetadata, type OfferDoodleProps } from './commerce/offer_doodle';
+export { QrDoodle, QrDoodleMetadata, type QrDoodleProps } from './commerce/qr_doodle';
+export { SaleDoodle, SaleDoodleMetadata, type SaleDoodleProps } from './commerce/sale_doodle';
+export { ShopDoodle, ShopDoodleMetadata, type ShopDoodleProps } from './commerce/shop_doodle';
+export { ShoppingCart2Doodle, ShoppingCart2DoodleMetadata, type ShoppingCart2DoodleProps } from './commerce/shopping-cart-2_doodle';
+export { ShoppingCart3Doodle, ShoppingCart3DoodleMetadata, type ShoppingCart3DoodleProps } from './commerce/shopping-cart-3_doodle';
+export { ShoppingCartDoodle, ShoppingCartDoodleMetadata, type ShoppingCartDoodleProps } from './commerce/shopping-cart_doodle';
+export { Tag2Doodle, Tag2DoodleMetadata, type Tag2DoodleProps } from './commerce/tag-2_doodle';
+export { TagDoodle, TagDoodleMetadata, type TagDoodleProps } from './commerce/tag_doodle';
+export { TruckDoodle, TruckDoodleMetadata, type TruckDoodleProps } from './commerce/truck_doodle';
+export { UnboxDoodle, UnboxDoodleMetadata, type UnboxDoodleProps } from './commerce/unbox_doodle';
+export { WarehouseDoodle, WarehouseDoodleMetadata, type WarehouseDoodleProps } from './commerce/warehouse_doodle';
 export { PhoneCall, PhoneCallMetadata, type PhoneCallProps } from './communiccation/phone-call';
 export { PhoneCallFilled, PhoneCallFilledMetadata, type PhoneCallFilledProps } from './communiccation/phone-call_filled';
 export { PhoneCallingFilled, PhoneCallingFilledMetadata, type PhoneCallingFilledProps } from './communiccation/phone-calling_filled';
@@ -732,6 +810,13 @@ export { WashingMachine, WashingMachineMetadata, type WashingMachineProps } from
 export { Watch, WatchMetadata, type WatchProps } from './device/watch';
 export { Angry, AngryMetadata, type AngryProps } from './emoji/angry';
 export { Annoyed, AnnoyedMetadata, type AnnoyedProps } from './emoji/annoyed';
+export { ConfusedEmojiDoodle, ConfusedEmojiDoodleMetadata, type ConfusedEmojiDoodleProps } from './emoji/confused-emoji_doodle';
+export { CoolEmojiDoodle, CoolEmojiDoodleMetadata, type CoolEmojiDoodleProps } from './emoji/cool-emoji_doodle';
+export { CryingEmojiDoodle, CryingEmojiDoodleMetadata, type CryingEmojiDoodleProps } from './emoji/crying-emoji_doodle';
+export { GrinningSquintingEmojiDoodle, GrinningSquintingEmojiDoodleMetadata, type GrinningSquintingEmojiDoodleProps } from './emoji/grinning-squinting-emoji_doodle';
+export { HappyEmojiDoodle, HappyEmojiDoodleMetadata, type HappyEmojiDoodleProps } from './emoji/happy-emoji_doodle';
+export { HeartEyesEmojiDoodle, HeartEyesEmojiDoodleMetadata, type HeartEyesEmojiDoodleProps } from './emoji/heart-eyes-emoji_doodle';
+export { LaughEmojiDoodle, LaughEmojiDoodleMetadata, type LaughEmojiDoodleProps } from './emoji/laugh-emoji_doodle';
 export { Laugh, LaughMetadata, type LaughProps } from './emoji/laugh';
 export { MoodAngryFilled, MoodAngryFilledMetadata, type MoodAngryFilledProps } from './emoji/mood-angry_filled';
 export { MoodConfuzedFilled, MoodConfuzedFilledMetadata, type MoodConfuzedFilledProps } from './emoji/mood-confuzed_filled';
@@ -743,10 +828,19 @@ export { MoodNeutralFilled, MoodNeutralFilledMetadata, type MoodNeutralFilledPro
 export { MoodSadFilled, MoodSadFilledMetadata, type MoodSadFilledProps } from './emoji/mood-sad_filled';
 export { MoodSmileFilled, MoodSmileFilledMetadata, type MoodSmileFilledProps } from './emoji/mood-smile_filled';
 export { MoodWrrrFilled, MoodWrrrFilledMetadata, type MoodWrrrFilledProps } from './emoji/mood-wrrr_filled';
+export { SadEmojiDoodle, SadEmojiDoodleMetadata, type SadEmojiDoodleProps } from './emoji/sad-emoji_doodle';
+export { ShockedEmojiDoodle, ShockedEmojiDoodleMetadata, type ShockedEmojiDoodleProps } from './emoji/shocked-emoji_doodle';
 export { SmilePlus, SmilePlusMetadata, type SmilePlusProps } from './emoji/smile-plus';
 export { Smile, SmileMetadata, type SmileProps } from './emoji/smile';
+export { SmilingEmojiDoodle, SmilingEmojiDoodleMetadata, type SmilingEmojiDoodleProps } from './emoji/smiling-emoji_doodle';
+export { SmilingWithEyesEmojiDoodle, SmilingWithEyesEmojiDoodleMetadata, type SmilingWithEyesEmojiDoodleProps } from './emoji/smiling-with-eyes-emoji_doodle';
+export { SurprisedEmojiDoodle, SurprisedEmojiDoodleMetadata, type SurprisedEmojiDoodleProps } from './emoji/surprised-emoji_doodle';
+export { WinkEmojiDoodle, WinkEmojiDoodleMetadata, type WinkEmojiDoodleProps } from './emoji/wink-emoji_doodle';
+export { WorriedEmojiDoodle, WorriedEmojiDoodleMetadata, type WorriedEmojiDoodleProps } from './emoji/worried-emoji_doodle';
 export { FileAnalyticsFilled, FileAnalyticsFilledMetadata, type FileAnalyticsFilledProps } from './file/file-analytics_filled';
 export { FileArchive, FileArchiveMetadata, type FileArchiveProps } from './file/file-archive';
+export { FileAttachmentDoodle, FileAttachmentDoodleMetadata, type FileAttachmentDoodleProps } from './file/file-attachment_doodle';
+export { FileAudioDoodle, FileAudioDoodleMetadata, type FileAudioDoodleProps } from './file/file-audio_doodle';
 export { FileAxis3d, FileAxis3dMetadata, type FileAxis3dProps } from './file/file-axis-3d';
 export { FileBadge, FileBadgeMetadata, type FileBadgeProps } from './file/file-badge';
 export { FileBox, FileBoxMetadata, type FileBoxProps } from './file/file-box';
@@ -763,8 +857,11 @@ export { FileClock, FileClockMetadata, type FileClockProps } from './file/file-c
 export { FileCode2Filled, FileCode2FilledMetadata, type FileCode2FilledProps } from './file/file-code-2_filled';
 export { FileCodeCorner, FileCodeCornerMetadata, type FileCodeCornerProps } from './file/file-code-corner';
 export { FileCode, FileCodeMetadata, type FileCodeProps } from './file/file-code';
+export { FileCodeDoodle, FileCodeDoodleMetadata, type FileCodeDoodleProps } from './file/file-code_doodle';
 export { FileCodeFilled, FileCodeFilledMetadata, type FileCodeFilledProps } from './file/file-code_filled';
 export { FileCog, FileCogMetadata, type FileCogProps } from './file/file-cog';
+export { FileContractDoodle, FileContractDoodleMetadata, type FileContractDoodleProps } from './file/file-contract_doodle';
+export { FileCsvDoodle, FileCsvDoodleMetadata, type FileCsvDoodleProps } from './file/file-csv_doodle';
 export { FileCvFilled, FileCvFilledMetadata, type FileCvFilledProps } from './file/file-cv_filled';
 export { FileDeltaFilled, FileDeltaFilledMetadata, type FileDeltaFilledProps } from './file/file-delta_filled';
 export { FileDescriptionFilled, FileDescriptionFilledMetadata, type FileDescriptionFilledProps } from './file/file-description_filled';
@@ -778,24 +875,35 @@ export { FileDown, FileDownMetadata, type FileDownProps } from './file/file-down
 export { FileDownloadFilled, FileDownloadFilledMetadata, type FileDownloadFilledProps } from './file/file-download_filled';
 export { FileEuroFilled, FileEuroFilledMetadata, type FileEuroFilledProps } from './file/file-euro_filled';
 export { FileExclamationPoint, FileExclamationPointMetadata, type FileExclamationPointProps } from './file/file-exclamation-point';
+export { FileFigmaDoodle, FileFigmaDoodleMetadata, type FileFigmaDoodleProps } from './file/file-figma_doodle';
+export { FileFormDoodle, FileFormDoodleMetadata, type FileFormDoodleProps } from './file/file-form_doodle';
 export { FileFunctionFilled, FileFunctionFilledMetadata, type FileFunctionFilledProps } from './file/file-function_filled';
 export { FileHeadphone, FileHeadphoneMetadata, type FileHeadphoneProps } from './file/file-headphone';
 export { FileHeart, FileHeartMetadata, type FileHeartProps } from './file/file-heart';
 export { FileHorizontalFilled, FileHorizontalFilledMetadata, type FileHorizontalFilledProps } from './file/file-horizontal_filled';
+export { FileImage2Doodle, FileImage2DoodleMetadata, type FileImage2DoodleProps } from './file/file-image-2_doodle';
 export { FileImage, FileImageMetadata, type FileImageProps } from './file/file-image';
+export { FileImageDoodle, FileImageDoodleMetadata, type FileImageDoodleProps } from './file/file-image_doodle';
 export { FileInfoFilled, FileInfoFilledMetadata, type FileInfoFilledProps } from './file/file-info_filled';
 export { FileInput, FileInputMetadata, type FileInputProps } from './file/file-input';
+export { FileInvoiceDoodle, FileInvoiceDoodleMetadata, type FileInvoiceDoodleProps } from './file/file-invoice_doodle';
 export { FileInvoiceFilled, FileInvoiceFilledMetadata, type FileInvoiceFilledProps } from './file/file-invoice_filled';
+export { FileJpgDoodle, FileJpgDoodleMetadata, type FileJpgDoodleProps } from './file/file-jpg_doodle';
 export { FileKey, FileKeyMetadata, type FileKeyProps } from './file/file-key';
 export { FileLambdaFilled, FileLambdaFilledMetadata, type FileLambdaFilledProps } from './file/file-lambda_filled';
+export { FileListDoodle, FileListDoodleMetadata, type FileListDoodleProps } from './file/file-list_doodle';
 export { FileLock, FileLockMetadata, type FileLockProps } from './file/file-lock';
 export { FileMinusCorner, FileMinusCornerMetadata, type FileMinusCornerProps } from './file/file-minus-corner';
 export { FileMinus, FileMinusMetadata, type FileMinusProps } from './file/file-minus';
 export { FileMinusFilled, FileMinusFilledMetadata, type FileMinusFilledProps } from './file/file-minus_filled';
+export { FileMovDoodle, FileMovDoodleMetadata, type FileMovDoodleProps } from './file/file-mov_doodle';
+export { FileMp4Doodle, FileMp4DoodleMetadata, type FileMp4DoodleProps } from './file/file-mp4_doodle';
 export { FileMusic, FileMusicMetadata, type FileMusicProps } from './file/file-music';
 export { FileMusicFilled, FileMusicFilledMetadata, type FileMusicFilledProps } from './file/file-music_filled';
 export { FileNeutralFilled, FileNeutralFilledMetadata, type FileNeutralFilledProps } from './file/file-neutral_filled';
+export { FileNotesDoodle, FileNotesDoodleMetadata, type FileNotesDoodleProps } from './file/file-notes_doodle';
 export { FileOutput, FileOutputMetadata, type FileOutputProps } from './file/file-output';
+export { FilePdfDoodle, FilePdfDoodleMetadata, type FilePdfDoodleProps } from './file/file-pdf_doodle';
 export { FilePenLine, FilePenLineMetadata, type FilePenLineProps } from './file/file-pen-line';
 export { FilePen, FilePenMetadata, type FilePenProps } from './file/file-pen';
 export { FilePencilFilled, FilePencilFilledMetadata, type FilePencilFilledProps } from './file/file-pencil_filled';
@@ -804,6 +912,7 @@ export { FilePhoneFilled, FilePhoneFilledMetadata, type FilePhoneFilledProps } f
 export { FilePlay, FilePlayMetadata, type FilePlayProps } from './file/file-play';
 export { FilePlusCorner, FilePlusCornerMetadata, type FilePlusCornerProps } from './file/file-plus-corner';
 export { FilePlus, FilePlusMetadata, type FilePlusProps } from './file/file-plus';
+export { FilePngDoodle, FilePngDoodleMetadata, type FilePngDoodleProps } from './file/file-png_doodle';
 export { FilePowerFilled, FilePowerFilledMetadata, type FilePowerFilledProps } from './file/file-power_filled';
 export { FileQuestionMark, FileQuestionMarkMetadata, type FileQuestionMarkProps } from './file/file-question-mark';
 export { FileRssFilled, FileRssFilledMetadata, type FileRssFilledProps } from './file/file-rss_filled';
@@ -818,11 +927,14 @@ export { FileSignalFilled, FileSignalFilledMetadata, type FileSignalFilledProps 
 export { FileSliders, FileSlidersMetadata, type FileSlidersProps } from './file/file-sliders';
 export { FileSmileFilled, FileSmileFilledMetadata, type FileSmileFilledProps } from './file/file-smile_filled';
 export { FileSpreadsheet, FileSpreadsheetMetadata, type FileSpreadsheetProps } from './file/file-spreadsheet';
+export { FileSpreadsheetDoodle, FileSpreadsheetDoodleMetadata, type FileSpreadsheetDoodleProps } from './file/file-spreadsheet_doodle';
 export { FileStack, FileStackMetadata, type FileStackProps } from './file/file-stack';
 export { FileStarFilled, FileStarFilledMetadata, type FileStarFilledProps } from './file/file-star_filled';
+export { FileSvgDoodle, FileSvgDoodleMetadata, type FileSvgDoodleProps } from './file/file-svg_doodle';
 export { FileSymlink, FileSymlinkMetadata, type FileSymlinkProps } from './file/file-symlink';
 export { FileTerminal, FileTerminalMetadata, type FileTerminalProps } from './file/file-terminal';
 export { FileText, FileTextMetadata, type FileTextProps } from './file/file-text';
+export { FileTextDoodle, FileTextDoodleMetadata, type FileTextDoodleProps } from './file/file-text_doodle';
 export { FileTextFilled, FileTextFilledMetadata, type FileTextFilledProps } from './file/file-text_filled';
 export { FileTimeFilled, FileTimeFilledMetadata, type FileTimeFilledProps } from './file/file-time_filled';
 export { FileTypeCorner, FileTypeCornerMetadata, type FileTypeCornerProps } from './file/file-type-corner';
@@ -832,16 +944,20 @@ export { FileUnknownFilled, FileUnknownFilledMetadata, type FileUnknownFilledPro
 export { FileUp, FileUpMetadata, type FileUpProps } from './file/file-up';
 export { FileUploadFilled, FileUploadFilledMetadata, type FileUploadFilledProps } from './file/file-upload_filled';
 export { FileUser, FileUserMetadata, type FileUserProps } from './file/file-user';
+export { FileVectorDoodle, FileVectorDoodleMetadata, type FileVectorDoodleProps } from './file/file-vector_doodle';
 export { FileVectorFilled, FileVectorFilledMetadata, type FileVectorFilledProps } from './file/file-vector_filled';
 export { FileVideoCamera, FileVideoCameraMetadata, type FileVideoCameraProps } from './file/file-video-camera';
 export { FileVolume, FileVolumeMetadata, type FileVolumeProps } from './file/file-volume';
 export { FileXCorner, FileXCornerMetadata, type FileXCornerProps } from './file/file-x-corner';
 export { FileX, FileXMetadata, type FileXProps } from './file/file-x';
 export { FileXFilled, FileXFilledMetadata, type FileXFilledProps } from './file/file-x_filled';
+export { FileZipDoodle, FileZipDoodleMetadata, type FileZipDoodleProps } from './file/file-zip_doodle';
 export { File, FileMetadata, type FileProps } from './file/file';
+export { FileDoodle, FileDoodleMetadata, type FileDoodleProps } from './file/file_doodle';
 export { FileFilled, FileFilledMetadata, type FileFilledProps } from './file/file_filled';
 export { Files, FilesMetadata, type FilesProps } from './file/files';
 export { FilesFilled, FilesFilledMetadata, type FilesFilledProps } from './file/files_filled';
+export { PngDoodle, PngDoodleMetadata, type PngDoodleProps } from './file/png_doodle';
 export { AccessibleFilled, AccessibleFilledMetadata, type AccessibleFilledProps } from './filled/accessible_filled';
 export { AdCircleFilled, AdCircleFilledMetadata, type AdCircleFilledProps } from './filled/ad-circle_filled';
 export { AdFilled, AdFilledMetadata, type AdFilledProps } from './filled/ad_filled';
@@ -1321,11 +1437,15 @@ export { XboxXFilled, XboxXFilledMetadata, type XboxXFilledProps } from './fille
 export { XboxYFilled, XboxYFilledMetadata, type XboxYFilledProps } from './filled/xbox-y_filled';
 export { YinYangFilled, YinYangFilledMetadata, type YinYangFilledProps } from './filled/yin-yang_filled';
 export { ZeppelinFilled, ZeppelinFilledMetadata, type ZeppelinFilledProps } from './filled/zeppelin_filled';
+export { BankDoodle, BankDoodleMetadata, type BankDoodleProps } from './finance/bank_doodle';
 export { BanknoteArrowDown, BanknoteArrowDownMetadata, type BanknoteArrowDownProps } from './finance/banknote-arrow-down';
 export { BanknoteArrowUp, BanknoteArrowUpMetadata, type BanknoteArrowUpProps } from './finance/banknote-arrow-up';
 export { BanknoteX, BanknoteXMetadata, type BanknoteXProps } from './finance/banknote-x';
 export { Banknote, BanknoteMetadata, type BanknoteProps } from './finance/banknote';
+export { BillDoodle, BillDoodleMetadata, type BillDoodleProps } from './finance/bill_doodle';
 export { Bitcoin, BitcoinMetadata, type BitcoinProps } from './finance/bitcoin';
+export { CashDoodle, CashDoodleMetadata, type CashDoodleProps } from './finance/cash_doodle';
+export { Coin2Doodle, Coin2DoodleMetadata, type Coin2DoodleProps } from './finance/coin-2_doodle';
 export { CoinBitcoinFilled, CoinBitcoinFilledMetadata, type CoinBitcoinFilledProps } from './finance/coin-bitcoin_filled';
 export { CoinEuroFilled, CoinEuroFilledMetadata, type CoinEuroFilledProps } from './finance/coin-euro_filled';
 export { CoinMoneroFilled, CoinMoneroFilledMetadata, type CoinMoneroFilledProps } from './finance/coin-monero_filled';
@@ -1334,16 +1454,34 @@ export { CoinRupeeFilled, CoinRupeeFilledMetadata, type CoinRupeeFilledProps } f
 export { CoinTakaFilled, CoinTakaFilledMetadata, type CoinTakaFilledProps } from './finance/coin-taka_filled';
 export { CoinYenFilled, CoinYenFilledMetadata, type CoinYenFilledProps } from './finance/coin-yen_filled';
 export { CoinYuanFilled, CoinYuanFilledMetadata, type CoinYuanFilledProps } from './finance/coin-yuan_filled';
+export { CoinDoodle, CoinDoodleMetadata, type CoinDoodleProps } from './finance/coin_doodle';
 export { CoinFilled, CoinFilledMetadata, type CoinFilledProps } from './finance/coin_filled';
 export { Coins, CoinsMetadata, type CoinsProps } from './finance/coins';
 export { CreditCard, CreditCardMetadata, type CreditCardProps } from './finance/credit-card';
 export { DollarSign, DollarSignMetadata, type DollarSignProps } from './finance/dollar-sign';
+export { DollarDoodle, DollarDoodleMetadata, type DollarDoodleProps } from './finance/dollar_doodle';
 export { Euro, EuroMetadata, type EuroProps } from './finance/euro';
+export { EuroDoodle, EuroDoodleMetadata, type EuroDoodleProps } from './finance/euro_doodle';
+export { FrancDoodle, FrancDoodleMetadata, type FrancDoodleProps } from './finance/franc_doodle';
 export { IndianRupee, IndianRupeeMetadata, type IndianRupeeProps } from './finance/indian-rupee';
 export { JapaneseYen, JapaneseYenMetadata, type JapaneseYenProps } from './finance/japanese-yen';
+export { MoneyPlantDoodle, MoneyPlantDoodleMetadata, type MoneyPlantDoodleProps } from './finance/money-plant_doodle';
 export { PhilippinePeso, PhilippinePesoMetadata, type PhilippinePesoProps } from './finance/philippine-peso';
+export { PiggyBankDoodle, PiggyBankDoodleMetadata, type PiggyBankDoodleProps } from './finance/piggy-bank_doodle';
 export { PoundSterling, PoundSterlingMetadata, type PoundSterlingProps } from './finance/pound-sterling';
+export { PoundDoodle, PoundDoodleMetadata, type PoundDoodleProps } from './finance/pound_doodle';
+export { RubleDoodle, RubleDoodleMetadata, type RubleDoodleProps } from './finance/ruble_doodle';
+export { RupeeDoodle, RupeeDoodleMetadata, type RupeeDoodleProps } from './finance/rupee_doodle';
+export { SafeDoodle, SafeDoodleMetadata, type SafeDoodleProps } from './finance/safe_doodle';
+export { SavingDoodle, SavingDoodleMetadata, type SavingDoodleProps } from './finance/saving_doodle';
 export { SwissFranc, SwissFrancMetadata, type SwissFrancProps } from './finance/swiss-franc';
+export { TrendDownSquareDoodle, TrendDownSquareDoodleMetadata, type TrendDownSquareDoodleProps } from './finance/trend-down-square_doodle';
+export { TrendDownDoodle, TrendDownDoodleMetadata, type TrendDownDoodleProps } from './finance/trend-down_doodle';
+export { TrendUpSquareDoodle, TrendUpSquareDoodleMetadata, type TrendUpSquareDoodleProps } from './finance/trend-up-square_doodle';
+export { TrendUpDoodle, TrendUpDoodleMetadata, type TrendUpDoodleProps } from './finance/trend-up_doodle';
+export { WalletDoodle, WalletDoodleMetadata, type WalletDoodleProps } from './finance/wallet_doodle';
+export { WonDoodle, WonDoodleMetadata, type WonDoodleProps } from './finance/won_doodle';
+export { YenDoodle, YenDoodleMetadata, type YenDoodleProps } from './finance/yen_doodle';
 export { FolderArchive, FolderArchiveMetadata, type FolderArchiveProps } from './folder/folder-archive';
 export { FolderCheck, FolderCheckMetadata, type FolderCheckProps } from './folder/folder-check';
 export { FolderClock, FolderClockMetadata, type FolderClockProps } from './folder/folder-clock';
@@ -1383,26 +1521,52 @@ export { Beef, BeefMetadata, type BeefProps } from './food/beef';
 export { BeerOff, BeerOffMetadata, type BeerOffProps } from './food/beer-off';
 export { Beer, BeerMetadata, type BeerProps } from './food/beer';
 export { Bone, BoneMetadata, type BoneProps } from './food/bone';
+export { BurgerDoodle, BurgerDoodleMetadata, type BurgerDoodleProps } from './food/burger_doodle';
 export { CakeSlice, CakeSliceMetadata, type CakeSliceProps } from './food/cake-slice';
 export { Cake, CakeMetadata, type CakeProps } from './food/cake';
+export { CakeDoodle, CakeDoodleMetadata, type CakeDoodleProps } from './food/cake_doodle';
 export { CandyCane, CandyCaneMetadata, type CandyCaneProps } from './food/candy-cane';
 export { CandyOff, CandyOffMetadata, type CandyOffProps } from './food/candy-off';
 export { Candy, CandyMetadata, type CandyProps } from './food/candy';
+export { CandyDoodle, CandyDoodleMetadata, type CandyDoodleProps } from './food/candy_doodle';
 export { Carrot, CarrotMetadata, type CarrotProps } from './food/carrot';
 export { Coffee, CoffeeMetadata, type CoffeeProps } from './food/coffee';
 export { Cookie, CookieMetadata, type CookieProps } from './food/cookie';
 export { CookingPot, CookingPotMetadata, type CookingPotProps } from './food/cooking-pot';
+export { CutleryDoodle, CutleryDoodleMetadata, type CutleryDoodleProps } from './food/cutlery_doodle';
+export { DishDoodle, DishDoodleMetadata, type DishDoodleProps } from './food/dish_doodle';
 export { Donut, DonutMetadata, type DonutProps } from './food/donut';
+export { DrinkDoodle, DrinkDoodleMetadata, type DrinkDoodleProps } from './food/drink_doodle';
 export { EggFried, EggFriedMetadata, type EggFriedProps } from './food/egg-fried';
 export { EggOff, EggOffMetadata, type EggOffProps } from './food/egg-off';
 export { Egg, EggMetadata, type EggProps } from './food/egg';
+export { EggDoodle, EggDoodleMetadata, type EggDoodleProps } from './food/egg_doodle';
+export { ForkDoodle, ForkDoodleMetadata, type ForkDoodleProps } from './food/fork_doodle';
 export { IceCreamBowl, IceCreamBowlMetadata, type IceCreamBowlProps } from './food/ice-cream-bowl';
 export { IceCreamCone, IceCreamConeMetadata, type IceCreamConeProps } from './food/ice-cream-cone';
+export { IceCreamDoodle, IceCreamDoodleMetadata, type IceCreamDoodleProps } from './food/ice-cream_doodle';
 export { NutOff, NutOffMetadata, type NutOffProps } from './food/nut-off';
 export { Nut, NutMetadata, type NutProps } from './food/nut';
+export { Pizza2Doodle, Pizza2DoodleMetadata, type Pizza2DoodleProps } from './food/pizza-2_doodle';
 export { Pizza, PizzaMetadata, type PizzaProps } from './food/pizza';
+export { PizzaDoodle, PizzaDoodleMetadata, type PizzaDoodleProps } from './food/pizza_doodle';
+export { PopsicleDoodle, PopsicleDoodleMetadata, type PopsicleDoodleProps } from './food/popsicle_doodle';
 export { Salad, SaladMetadata, type SaladProps } from './food/salad';
 export { Sandwich, SandwichMetadata, type SandwichProps } from './food/sandwich';
+export { SpoonDoodle, SpoonDoodleMetadata, type SpoonDoodleProps } from './food/spoon_doodle';
+export { WaterDoodle, WaterDoodleMetadata, type WaterDoodleProps } from './food/water_doodle';
+export { BisexualDoodle, BisexualDoodleMetadata, type BisexualDoodleProps } from './gender/bisexual_doodle';
+export { FemaileDoodle, FemaileDoodleMetadata, type FemaileDoodleProps } from './gender/femaile_doodle';
+export { GayDoodle, GayDoodleMetadata, type GayDoodleProps } from './gender/gay_doodle';
+export { GenderlessDoodle, GenderlessDoodleMetadata, type GenderlessDoodleProps } from './gender/genderless_doodle';
+export { HetroDoodle, HetroDoodleMetadata, type HetroDoodleProps } from './gender/hetro_doodle';
+export { IntersexDoodle, IntersexDoodleMetadata, type IntersexDoodleProps } from './gender/intersex_doodle';
+export { LesbianDoodle, LesbianDoodleMetadata, type LesbianDoodleProps } from './gender/lesbian_doodle';
+export { MaleDoodle, MaleDoodleMetadata, type MaleDoodleProps } from './gender/male_doodle';
+export { NonBinaryTransgenderDoodle, NonBinaryTransgenderDoodleMetadata, type NonBinaryTransgenderDoodleProps } from './gender/non-binary-transgender_doodle';
+export { OtherGenderDoodle, OtherGenderDoodleMetadata, type OtherGenderDoodleProps } from './gender/other-gender_doodle';
+export { Transgender2Doodle, Transgender2DoodleMetadata, type Transgender2DoodleProps } from './gender/transgender-2_doodle';
+export { TransgenderDoodle, TransgenderDoodleMetadata, type TransgenderDoodleProps } from './gender/transgender_doodle';
 export { GitBranchMinus, GitBranchMinusMetadata, type GitBranchMinusProps } from './git/git-branch-minus';
 export { GitBranchPlus, GitBranchPlusMetadata, type GitBranchPlusProps } from './git/git-branch-plus';
 export { GitBranch, GitBranchMetadata, type GitBranchProps } from './git/git-branch';
@@ -1420,6 +1584,89 @@ export { GitPullRequestCreateArrow, GitPullRequestCreateArrowMetadata, type GitP
 export { GitPullRequestCreate, GitPullRequestCreateMetadata, type GitPullRequestCreateProps } from './git/git-pull-request-create';
 export { GitPullRequestDraft, GitPullRequestDraftMetadata, type GitPullRequestDraftProps } from './git/git-pull-request-draft';
 export { GitPullRequest, GitPullRequestMetadata, type GitPullRequestProps } from './git/git-pull-request';
+export { ClapDoodle, ClapDoodleMetadata, type ClapDoodleProps } from './hand/clap_doodle';
+export { Double2TapDoodle, Double2TapDoodleMetadata, type Double2TapDoodleProps } from './hand/double-2-tap_doodle';
+export { DoubleTapDoodle, DoubleTapDoodleMetadata, type DoubleTapDoodleProps } from './hand/double-tap_doodle';
+export { FoldedHandsDoodle, FoldedHandsDoodleMetadata, type FoldedHandsDoodleProps } from './hand/folded-hands_doodle';
+export { FreeDragDoodle, FreeDragDoodleMetadata, type FreeDragDoodleProps } from './hand/free-drag_doodle';
+export { HandDoodle, HandDoodleMetadata, type HandDoodleProps } from './hand/hand_doodle';
+export { HorizontalScrollDoodle, HorizontalScrollDoodleMetadata, type HorizontalScrollDoodleProps } from './hand/horizontal-scroll_doodle';
+export { MultiTouchDoodle, MultiTouchDoodleMetadata, type MultiTouchDoodleProps } from './hand/multi-touch_doodle';
+export { OkDoodle, OkDoodleMetadata, type OkDoodleProps } from './hand/ok_doodle';
+export { PageMoveDoodle, PageMoveDoodleMetadata, type PageMoveDoodleProps } from './hand/page-move_doodle';
+export { PointDownDoodle, PointDownDoodleMetadata, type PointDownDoodleProps } from './hand/point-down_doodle';
+export { PointLeftDoodle, PointLeftDoodleMetadata, type PointLeftDoodleProps } from './hand/point-left_doodle';
+export { PointRightDoodle, PointRightDoodleMetadata, type PointRightDoodleProps } from './hand/point-right_doodle';
+export { PointUpDoodle, PointUpDoodleMetadata, type PointUpDoodleProps } from './hand/point-up_doodle';
+export { RotateDoodle, RotateDoodleMetadata, type RotateDoodleProps } from './hand/rotate_doodle';
+export { ScanFingerprintDoodle, ScanFingerprintDoodleMetadata, type ScanFingerprintDoodleProps } from './hand/scan-fingerprint_doodle';
+export { ScanDoodle, ScanDoodleMetadata, type ScanDoodleProps } from './hand/scan_doodle';
+export { ScreenRotateDoodle, ScreenRotateDoodleMetadata, type ScreenRotateDoodleProps } from './hand/screen-rotate_doodle';
+export { ScrollDown3Doodle, ScrollDown3DoodleMetadata, type ScrollDown3DoodleProps } from './hand/scroll-down-3_doodle';
+export { ScrollDownDoodle, ScrollDownDoodleMetadata, type ScrollDownDoodleProps } from './hand/scroll-down_doodle';
+export { ScrollLeft1Doodle, ScrollLeft1DoodleMetadata, type ScrollLeft1DoodleProps } from './hand/scroll-left-1_doodle';
+export { ScrollLeft2Doodle, ScrollLeft2DoodleMetadata, type ScrollLeft2DoodleProps } from './hand/scroll-left-2_doodle';
+export { ScrollLeft3Doodle, ScrollLeft3DoodleMetadata, type ScrollLeft3DoodleProps } from './hand/scroll-left-3_doodle';
+export { ScrollLeftDoodle, ScrollLeftDoodleMetadata, type ScrollLeftDoodleProps } from './hand/scroll-left_doodle';
+export { ScrollRight2Doodle, ScrollRight2DoodleMetadata, type ScrollRight2DoodleProps } from './hand/scroll-right-2_doodle';
+export { ScrollUp12Doodle, ScrollUp12DoodleMetadata, type ScrollUp12DoodleProps } from './hand/scroll-up-12_doodle';
+export { ScrollUp2Doodle, ScrollUp2DoodleMetadata, type ScrollUp2DoodleProps } from './hand/scroll-up-2_doodle';
+export { ScrollUp3Doodle, ScrollUp3DoodleMetadata, type ScrollUp3DoodleProps } from './hand/scroll-up-3_doodle';
+export { ScrollUpDoodle, ScrollUpDoodleMetadata, type ScrollUpDoodleProps } from './hand/scroll-up_doodle';
+export { SwipeLeftDoodle, SwipeLeftDoodleMetadata, type SwipeLeftDoodleProps } from './hand/swipe-left_doodle';
+export { SwipeRightDoodle, SwipeRightDoodleMetadata, type SwipeRightDoodleProps } from './hand/swipe-right_doodle';
+export { Tap12Doodle, Tap12DoodleMetadata, type Tap12DoodleProps } from './hand/tap-12_doodle';
+export { Tap1Doodle, Tap1DoodleMetadata, type Tap1DoodleProps } from './hand/tap-1_doodle';
+export { Tap2Doodle, Tap2DoodleMetadata, type Tap2DoodleProps } from './hand/tap-2_doodle';
+export { Tap3Doodle, Tap3DoodleMetadata, type Tap3DoodleProps } from './hand/tap-3_doodle';
+export { TapScroll3Doodle, TapScroll3DoodleMetadata, type TapScroll3DoodleProps } from './hand/tap-scroll-3_doodle';
+export { TapDoodle, TapDoodleMetadata, type TapDoodleProps } from './hand/tap_doodle';
+export { ThumbsDownDoodle, ThumbsDownDoodleMetadata, type ThumbsDownDoodleProps } from './hand/thumbs-down_doodle';
+export { ThumbsUpDoodle, ThumbsUpDoodleMetadata, type ThumbsUpDoodleProps } from './hand/thumbs-up_doodle';
+export { TouchHold2Doodle, TouchHold2DoodleMetadata, type TouchHold2DoodleProps } from './hand/touch-hold-2_doodle';
+export { TouchHoldDoodle, TouchHoldDoodleMetadata, type TouchHoldDoodleProps } from './hand/touch-hold_doodle';
+export { VDoodle, VDoodleMetadata, type VDoodleProps } from './hand/v_doodle';
+export { VibrateDoodle, VibrateDoodleMetadata, type VibrateDoodleProps } from './hand/vibrate_doodle';
+export { WaveLeftDoodle, WaveLeftDoodleMetadata, type WaveLeftDoodleProps } from './hand/wave-left_doodle';
+export { WaveRightDoodle, WaveRightDoodleMetadata, type WaveRightDoodleProps } from './hand/wave-right_doodle';
+export { ZoomInDoodle, ZoomInDoodleMetadata, type ZoomInDoodleProps } from './hand/zoom-in_doodle';
+export { ZoomOutDoodle, ZoomOutDoodleMetadata, type ZoomOutDoodleProps } from './hand/zoom-out_doodle';
+export { Biohazard, BiohazardMetadata, type BiohazardProps } from './health/biohazard';
+export { BloodBagDoodle, BloodBagDoodleMetadata, type BloodBagDoodleProps } from './health/blood-bag_doodle';
+export { BloodDoodle, BloodDoodleMetadata, type BloodDoodleProps } from './health/blood_doodle';
+export { BottleDoodle, BottleDoodleMetadata, type BottleDoodleProps } from './health/bottle_doodle';
+export { DnaOff, DnaOffMetadata, type DnaOffProps } from './health/dna-off';
+export { Dna, DnaMetadata, type DnaProps } from './health/dna';
+export { DropperDoodle, DropperDoodleMetadata, type DropperDoodleProps } from './health/dropper_doodle';
+export { FirstAidDoodle, FirstAidDoodleMetadata, type FirstAidDoodleProps } from './health/first-aid_doodle';
+export { Firstaid2Doodle, Firstaid2DoodleMetadata, type Firstaid2DoodleProps } from './health/firstaid-2_doodle';
+export { FlaskConicalOff, FlaskConicalOffMetadata, type FlaskConicalOffProps } from './health/flask-conical-off';
+export { FlaskConical, FlaskConicalMetadata, type FlaskConicalProps } from './health/flask-conical';
+export { FlaskRound, FlaskRoundMetadata, type FlaskRoundProps } from './health/flask-round';
+export { FlaskRoundDoodle, FlaskRoundDoodleMetadata, type FlaskRoundDoodleProps } from './health/flask-round_doodle';
+export { FlaskDoodle, FlaskDoodleMetadata, type FlaskDoodleProps } from './health/flask_doodle';
+export { HeartBeatDoodle, HeartBeatDoodleMetadata, type HeartBeatDoodleProps } from './health/heart-beat_doodle';
+export { InjectionDoodle, InjectionDoodleMetadata, type InjectionDoodleProps } from './health/injection_doodle';
+export { LungsDoodle, LungsDoodleMetadata, type LungsDoodleProps } from './health/lungs_doodle';
+export { MedicalLogoDoodle, MedicalLogoDoodleMetadata, type MedicalLogoDoodleProps } from './health/medical-logo_doodle';
+export { MicroscopeDoodle, MicroscopeDoodleMetadata, type MicroscopeDoodleProps } from './health/microscope_doodle';
+export { PillBottle, PillBottleMetadata, type PillBottleProps } from './health/pill-bottle';
+export { Pill, PillMetadata, type PillProps } from './health/pill';
+export { PillsDoodle, PillsDoodleMetadata, type PillsDoodleProps } from './health/pills_doodle';
+export { Stethoscope, StethoscopeMetadata, type StethoscopeProps } from './health/stethoscope';
+export { StethoscopeDoodle, StethoscopeDoodleMetadata, type StethoscopeDoodleProps } from './health/stethoscope_doodle';
+export { Syringe, SyringeMetadata, type SyringeProps } from './health/syringe';
+export { TabletDoodle, TabletDoodleMetadata, type TabletDoodleProps } from './health/tablet_doodle';
+export { Tablets, TabletsMetadata, type TabletsProps } from './health/tablets';
+export { TestTubeDiagonal, TestTubeDiagonalMetadata, type TestTubeDiagonalProps } from './health/test-tube-diagonal';
+export { TestTube, TestTubeMetadata, type TestTubeProps } from './health/test-tube';
+export { TestTubeDoodle, TestTubeDoodleMetadata, type TestTubeDoodleProps } from './health/test-tube_doodle';
+export { TestTubes, TestTubesMetadata, type TestTubesProps } from './health/test-tubes';
+export { ThermometerSnowflake, ThermometerSnowflakeMetadata, type ThermometerSnowflakeProps } from './health/thermometer-snowflake';
+export { ThermometerSun, ThermometerSunMetadata, type ThermometerSunProps } from './health/thermometer-sun';
+export { Thermometer, ThermometerMetadata, type ThermometerProps } from './health/thermometer';
+export { ToothDoodle, ToothDoodleMetadata, type ToothDoodleProps } from './health/tooth_doodle';
+export { WheelchairDoodle, WheelchairDoodleMetadata, type WheelchairDoodleProps } from './health/wheelchair_doodle';
 export { HexagonLetterAFilled, HexagonLetterAFilledMetadata, type HexagonLetterAFilledProps } from './hexagon/hexagon-letter-a_filled';
 export { HexagonLetterBFilled, HexagonLetterBFilledMetadata, type HexagonLetterBFilledProps } from './hexagon/hexagon-letter-b_filled';
 export { HexagonLetterCFilled, HexagonLetterCFilledMetadata, type HexagonLetterCFilledProps } from './hexagon/hexagon-letter-c_filled';
@@ -1458,6 +1705,14 @@ export { HexagonNumber7Filled, HexagonNumber7FilledMetadata, type HexagonNumber7
 export { HexagonNumber8Filled, HexagonNumber8FilledMetadata, type HexagonNumber8FilledProps } from './hexagon/hexagon-number-8_filled';
 export { HexagonNumber9Filled, HexagonNumber9FilledMetadata, type HexagonNumber9FilledProps } from './hexagon/hexagon-number-9_filled';
 export { HexagonPlusFilled, HexagonPlusFilledMetadata, type HexagonPlusFilledProps } from './hexagon/hexagon-plus_filled';
+export { AnchorDoodle, AnchorDoodleMetadata, type AnchorDoodleProps } from './home/anchor_doodle';
+export { Balloon2Doodle, Balloon2DoodleMetadata, type Balloon2DoodleProps } from './home/balloon-2_doodle';
+export { BalloonDoodle, BalloonDoodleMetadata, type BalloonDoodleProps } from './home/balloon_doodle';
+export { CameraDoodle, CameraDoodleMetadata, type CameraDoodleProps } from './home/camera_doodle';
+export { CrownDoodle, CrownDoodleMetadata, type CrownDoodleProps } from './home/crown_doodle';
+export { FlashlightDoodle, FlashlightDoodleMetadata, type FlashlightDoodleProps } from './home/flashlight_doodle';
+export { FrameDoodle, FrameDoodleMetadata, type FrameDoodleProps } from './home/frame_doodle';
+export { GuitarDoodle, GuitarDoodleMetadata, type GuitarDoodleProps } from './home/guitar_doodle';
 export { LampCeiling, LampCeilingMetadata, type LampCeilingProps } from './home/lamp-ceiling';
 export { LampDesk, LampDeskMetadata, type LampDeskProps } from './home/lamp-desk';
 export { LampFloor, LampFloorMetadata, type LampFloorProps } from './home/lamp-floor';
@@ -1466,6 +1721,181 @@ export { LampWallUp, LampWallUpMetadata, type LampWallUpProps } from './home/lam
 export { Lamp, LampMetadata, type LampProps } from './home/lamp';
 export { LightbulbOff, LightbulbOffMetadata, type LightbulbOffProps } from './home/lightbulb-off';
 export { Lightbulb, LightbulbMetadata, type LightbulbProps } from './home/lightbulb';
+export { MovieClapperDoodle, MovieClapperDoodleMetadata, type MovieClapperDoodleProps } from './home/movie-clapper_doodle';
+export { PaintBrush2Doodle, PaintBrush2DoodleMetadata, type PaintBrush2DoodleProps } from './home/paint-brush-2_doodle';
+export { PaintBrushDoodle, PaintBrushDoodleMetadata, type PaintBrushDoodleProps } from './home/paint-brush_doodle';
+export { PaintBucketDoodle, PaintBucketDoodleMetadata, type PaintBucketDoodleProps } from './home/paint-bucket_doodle';
+export { PaintRollerDoodle, PaintRollerDoodleMetadata, type PaintRollerDoodleProps } from './home/paint-roller_doodle';
+export { SofaDoodle, SofaDoodleMetadata, type SofaDoodleProps } from './home/sofa_doodle';
+export { TvDoodle, TvDoodleMetadata, type TvDoodleProps } from './home/tv_doodle';
+export { InfoDoodle, InfoDoodleMetadata, type InfoDoodleProps } from './interface/Info_doodle';
+export { AnalyticsDoodle, AnalyticsDoodleMetadata, type AnalyticsDoodleProps } from './interface/analytics_doodle';
+export { ArrowDoodle, ArrowDoodleMetadata, type ArrowDoodleProps } from './interface/arrow_doodle';
+export { AtTheRateDoodle, AtTheRateDoodleMetadata, type AtTheRateDoodleProps } from './interface/at-the-rate_doodle';
+export { BackwardDoodle, BackwardDoodleMetadata, type BackwardDoodleProps } from './interface/backward_doodle';
+export { Bell2Doodle, Bell2DoodleMetadata, type Bell2DoodleProps } from './interface/bell-2_doodle';
+export { BellDoodle, BellDoodleMetadata, type BellDoodleProps } from './interface/bell_doodle';
+export { BluetoothDoodle, BluetoothDoodleMetadata, type BluetoothDoodleProps } from './interface/bluetooth_doodle';
+export { BookmarkDoodle, BookmarkDoodleMetadata, type BookmarkDoodleProps } from './interface/bookmark_doodle';
+export { BulbDoodle, BulbDoodleMetadata, type BulbDoodleProps } from './interface/bulb_doodle';
+export { CalculatorDoodle, CalculatorDoodleMetadata, type CalculatorDoodleProps } from './interface/calculator_doodle';
+export { CalendarDoodle, CalendarDoodleMetadata, type CalendarDoodleProps } from './interface/calendar_doodle';
+export { CallDoodle, CallDoodleMetadata, type CallDoodleProps } from './interface/call_doodle';
+export { CautionDoodle, CautionDoodleMetadata, type CautionDoodleProps } from './interface/caution_doodle';
+export { CenterAlign2Doodle, CenterAlign2DoodleMetadata, type CenterAlign2DoodleProps } from './interface/center-align-2_doodle';
+export { CenterAlignDoodle, CenterAlignDoodleMetadata, type CenterAlignDoodleProps } from './interface/center-align_doodle';
+export { ChecklistDoodle, ChecklistDoodleMetadata, type ChecklistDoodleProps } from './interface/checklist_doodle';
+export { ClockDoodle, ClockDoodleMetadata, type ClockDoodleProps } from './interface/clock_doodle';
+export { CloudDownDoodle, CloudDownDoodleMetadata, type CloudDownDoodleProps } from './interface/cloud-down_doodle';
+export { CloudUpDoodle, CloudUpDoodleMetadata, type CloudUpDoodleProps } from './interface/cloud-up_doodle';
+export { CloudDoodle, CloudDoodleMetadata, type CloudDoodleProps } from './interface/cloud_doodle';
+export { CookieDoodle, CookieDoodleMetadata, type CookieDoodleProps } from './interface/cookie_doodle';
+export { CopyDoodle, CopyDoodleMetadata, type CopyDoodleProps } from './interface/copy_doodle';
+export { CropDoodle, CropDoodleMetadata, type CropDoodleProps } from './interface/crop_doodle';
+export { CrossDoodle, CrossDoodleMetadata, type CrossDoodleProps } from './interface/cross_doodle';
+export { CutDoodle, CutDoodleMetadata, type CutDoodleProps } from './interface/cut_doodle';
+export { Dashboard2Doodle, Dashboard2DoodleMetadata, type Dashboard2DoodleProps } from './interface/dashboard-2_doodle';
+export { Dashboard3Doodle, Dashboard3DoodleMetadata, type Dashboard3DoodleProps } from './interface/dashboard-3_doodle';
+export { Dashboard4Doodle, Dashboard4DoodleMetadata, type Dashboard4DoodleProps } from './interface/dashboard-4_doodle';
+export { DashboardDoodle, DashboardDoodleMetadata, type DashboardDoodleProps } from './interface/dashboard_doodle';
+export { DeleteDoodle, DeleteDoodleMetadata, type DeleteDoodleProps } from './interface/delete_doodle';
+export { DiamondDoodle, DiamondDoodleMetadata, type DiamondDoodleProps } from './interface/diamond_doodle';
+export { DocAddDoodle, DocAddDoodleMetadata, type DocAddDoodleProps } from './interface/doc-add_doodle';
+export { DocRemoveDoodle, DocRemoveDoodleMetadata, type DocRemoveDoodleProps } from './interface/doc-remove_doodle';
+export { DocDoodle, DocDoodleMetadata, type DocDoodleProps } from './interface/doc_doodle';
+export { DownloadDoodle, DownloadDoodleMetadata, type DownloadDoodleProps } from './interface/download_doodle';
+export { DrawerDoodle, DrawerDoodleMetadata, type DrawerDoodleProps } from './interface/drawer_doodle';
+export { EjectDoodle, EjectDoodleMetadata, type EjectDoodleProps } from './interface/eject_doodle';
+export { EraserDoodle, EraserDoodleMetadata, type EraserDoodleProps } from './interface/eraser_doodle';
+export { FastForwardDoodle, FastForwardDoodleMetadata, type FastForwardDoodleProps } from './interface/fast-forward_doodle';
+export { FastRewindDoodle, FastRewindDoodleMetadata, type FastRewindDoodleProps } from './interface/fast-rewind_doodle';
+export { FilterDoodle, FilterDoodleMetadata, type FilterDoodleProps } from './interface/filter_doodle';
+export { Flag2Doodle, Flag2DoodleMetadata, type Flag2DoodleProps } from './interface/flag-2_doodle';
+export { FlagDoodle, FlagDoodleMetadata, type FlagDoodleProps } from './interface/flag_doodle';
+export { FlipDoodle, FlipDoodleMetadata, type FlipDoodleProps } from './interface/flip_doodle';
+export { FloppyDoodle, FloppyDoodleMetadata, type FloppyDoodleProps } from './interface/floppy_doodle';
+export { FolderAddDoodle, FolderAddDoodleMetadata, type FolderAddDoodleProps } from './interface/folder-add_doodle';
+export { FolderDeleteDoodle, FolderDeleteDoodleMetadata, type FolderDeleteDoodleProps } from './interface/folder-delete_doodle';
+export { FolderEmptyDoodle, FolderEmptyDoodleMetadata, type FolderEmptyDoodleProps } from './interface/folder-empty_doodle';
+export { FolderRemoveDoodle, FolderRemoveDoodleMetadata, type FolderRemoveDoodleProps } from './interface/folder-remove_doodle';
+export { FolderDoodle, FolderDoodleMetadata, type FolderDoodleProps } from './interface/folder_doodle';
+export { ForwardDoodle, ForwardDoodleMetadata, type ForwardDoodleProps } from './interface/forward_doodle';
+export { GiftDoodle, GiftDoodleMetadata, type GiftDoodleProps } from './interface/gift_doodle';
+export { GlobeDoodle, GlobeDoodleMetadata, type GlobeDoodleProps } from './interface/globe_doodle';
+export { Grid2Doodle, Grid2DoodleMetadata, type Grid2DoodleProps } from './interface/grid-2_doodle';
+export { GridDoodle, GridDoodleMetadata, type GridDoodleProps } from './interface/grid_doodle';
+export { HeadphoneDoodle, HeadphoneDoodleMetadata, type HeadphoneDoodleProps } from './interface/headphone_doodle';
+export { HeartDoodle, HeartDoodleMetadata, type HeartDoodleProps } from './interface/heart_doodle';
+export { HideDoodle, HideDoodleMetadata, type HideDoodleProps } from './interface/hide_doodle';
+export { Home1Doodle, Home1DoodleMetadata, type Home1DoodleProps } from './interface/home-1_doodle';
+export { HomeDoodle, HomeDoodleMetadata, type HomeDoodleProps } from './interface/home_doodle';
+export { KeyDoodle, KeyDoodleMetadata, type KeyDoodleProps } from './interface/key_doodle';
+export { LayerDoodle, LayerDoodleMetadata, type LayerDoodleProps } from './interface/layer_doodle';
+export { LeftAlign2Doodle, LeftAlign2DoodleMetadata, type LeftAlign2DoodleProps } from './interface/left-align-2_doodle';
+export { LeftAlignDoodle, LeftAlignDoodleMetadata, type LeftAlignDoodleProps } from './interface/left-align_doodle';
+export { LinkDoodle, LinkDoodleMetadata, type LinkDoodleProps } from './interface/link_doodle';
+export { ListDoodle, ListDoodleMetadata, type ListDoodleProps } from './interface/list_doodle';
+export { LocationPinDoodle, LocationPinDoodleMetadata, type LocationPinDoodleProps } from './interface/location-pin_doodle';
+export { LockDoodle, LockDoodleMetadata, type LockDoodleProps } from './interface/lock_doodle';
+export { LoginDoodle, LoginDoodleMetadata, type LoginDoodleProps } from './interface/login_doodle';
+export { LogoutDoodle, LogoutDoodleMetadata, type LogoutDoodleProps } from './interface/logout_doodle';
+export { MagicWandDoodle, MagicWandDoodleMetadata, type MagicWandDoodleProps } from './interface/magic-wand_doodle';
+export { MailGiftDoodle, MailGiftDoodleMetadata, type MailGiftDoodleProps } from './interface/mail-gift_doodle';
+export { MailOpenDoodle, MailOpenDoodleMetadata, type MailOpenDoodleProps } from './interface/mail-open_doodle';
+export { MailSurpriseDoodle, MailSurpriseDoodleMetadata, type MailSurpriseDoodleProps } from './interface/mail-surprise_doodle';
+export { MailDoodle, MailDoodleMetadata, type MailDoodleProps } from './interface/mail_doodle';
+export { MapDoodle, MapDoodleMetadata, type MapDoodleProps } from './interface/map_doodle';
+export { MaximizeDoodle, MaximizeDoodleMetadata, type MaximizeDoodleProps } from './interface/maximize_doodle';
+export { MegaphoneDoodle, MegaphoneDoodleMetadata, type MegaphoneDoodleProps } from './interface/megaphone_doodle';
+export { Menu2Doodle, Menu2DoodleMetadata, type Menu2DoodleProps } from './interface/menu-2_doodle';
+export { MenuDoodle, MenuDoodleMetadata, type MenuDoodleProps } from './interface/menu_doodle';
+export { Message2Doodle, Message2DoodleMetadata, type Message2DoodleProps } from './interface/message-2_doodle';
+export { MessageDoodle, MessageDoodleMetadata, type MessageDoodleProps } from './interface/message_doodle';
+export { Mic2Doodle, Mic2DoodleMetadata, type Mic2DoodleProps } from './interface/mic-2_doodle';
+export { MicDoodle, MicDoodleMetadata, type MicDoodleProps } from './interface/mic_doodle';
+export { MinimizeDoodle, MinimizeDoodleMetadata, type MinimizeDoodleProps } from './interface/minimize_doodle';
+export { MoveDoodle, MoveDoodleMetadata, type MoveDoodleProps } from './interface/move_doodle';
+export { Music2Doodle, Music2DoodleMetadata, type Music2DoodleProps } from './interface/music-2_doodle';
+export { Music3Doodle, Music3DoodleMetadata, type Music3DoodleProps } from './interface/music-3_doodle';
+export { MusicDoodle, MusicDoodleMetadata, type MusicDoodleProps } from './interface/music_doodle';
+export { MuteDoodle, MuteDoodleMetadata, type MuteDoodleProps } from './interface/mute_doodle';
+export { Navigation2Doodle, Navigation2DoodleMetadata, type Navigation2DoodleProps } from './interface/navigation-2_doodle';
+export { NavigationDoodle, NavigationDoodleMetadata, type NavigationDoodleProps } from './interface/navigation_doodle';
+export { NoteDoodle, NoteDoodleMetadata, type NoteDoodleProps } from './interface/note_doodle';
+export { PaperClip2Doodle, PaperClip2DoodleMetadata, type PaperClip2DoodleProps } from './interface/paper-clip-2_doodle';
+export { PaperClipDoodle, PaperClipDoodleMetadata, type PaperClipDoodleProps } from './interface/paper-clip_doodle';
+export { PasteDoodle, PasteDoodleMetadata, type PasteDoodleProps } from './interface/paste_doodle';
+export { PauseDoodle, PauseDoodleMetadata, type PauseDoodleProps } from './interface/pause_doodle';
+export { PenToolDoodle, PenToolDoodleMetadata, type PenToolDoodleProps } from './interface/pen-tool_doodle';
+export { PenDoodle, PenDoodleMetadata, type PenDoodleProps } from './interface/pen_doodle';
+export { Pencil2Doodle, Pencil2DoodleMetadata, type Pencil2DoodleProps } from './interface/pencil-2_doodle';
+export { Pencil3Doodle, Pencil3DoodleMetadata, type Pencil3DoodleProps } from './interface/pencil-3_doodle';
+export { PencilRulerDoodle, PencilRulerDoodleMetadata, type PencilRulerDoodleProps } from './interface/pencil-ruler_doodle';
+export { PencilDoodle, PencilDoodleMetadata, type PencilDoodleProps } from './interface/pencil_doodle';
+export { PhoneSettingDoodle, PhoneSettingDoodleMetadata, type PhoneSettingDoodleProps } from './interface/phone-setting_doodle';
+export { PhoneDoodle, PhoneDoodleMetadata, type PhoneDoodleProps } from './interface/phone_doodle';
+export { PhotoDoodle, PhotoDoodleMetadata, type PhotoDoodleProps } from './interface/photo_doodle';
+export { PieDoodle, PieDoodleMetadata, type PieDoodleProps } from './interface/pie_doodle';
+export { PinDoodle, PinDoodleMetadata, type PinDoodleProps } from './interface/pin_doodle';
+export { PlayDoodle, PlayDoodleMetadata, type PlayDoodleProps } from './interface/play_doodle';
+export { Puzzle2Doodle, Puzzle2DoodleMetadata, type Puzzle2DoodleProps } from './interface/puzzle-2_doodle';
+export { PuzzleDoodle, PuzzleDoodleMetadata, type PuzzleDoodleProps } from './interface/puzzle_doodle';
+export { Question2Doodle, Question2DoodleMetadata, type Question2DoodleProps } from './interface/question-2_doodle';
+export { QuestionDoodle, QuestionDoodleMetadata, type QuestionDoodleProps } from './interface/question_doodle';
+export { RecordDoodle, RecordDoodleMetadata, type RecordDoodleProps } from './interface/record_doodle';
+export { RectangleDoodle, RectangleDoodleMetadata, type RectangleDoodleProps } from './interface/rectangle_doodle';
+export { RightAlign2Doodle, RightAlign2DoodleMetadata, type RightAlign2DoodleProps } from './interface/right-align-2_doodle';
+export { RightAlignDoodle, RightAlignDoodleMetadata, type RightAlignDoodleProps } from './interface/right-align_doodle';
+export { RssDoodle, RssDoodleMetadata, type RssDoodleProps } from './interface/rss_doodle';
+export { RulerDoodle, RulerDoodleMetadata, type RulerDoodleProps } from './interface/ruler_doodle';
+export { SearchDoodle, SearchDoodleMetadata, type SearchDoodleProps } from './interface/search_doodle';
+export { Send2Doodle, Send2DoodleMetadata, type Send2DoodleProps } from './interface/send-2_doodle';
+export { Send3Doodle, Send3DoodleMetadata, type Send3DoodleProps } from './interface/send-3_doodle';
+export { SendDoodle, SendDoodleMetadata, type SendDoodleProps } from './interface/send_doodle';
+export { ServerDoodle, ServerDoodleMetadata, type ServerDoodleProps } from './interface/server_doodle';
+export { Setting2Doodle, Setting2DoodleMetadata, type Setting2DoodleProps } from './interface/setting-2_doodle';
+export { Setting3Doodle, Setting3DoodleMetadata, type Setting3DoodleProps } from './interface/setting-3_doodle';
+export { SettingDoodle, SettingDoodleMetadata, type SettingDoodleProps } from './interface/setting_doodle';
+export { ShapeDoodle, ShapeDoodleMetadata, type ShapeDoodleProps } from './interface/shape_doodle';
+export { Shield2Doodle, Shield2DoodleMetadata, type Shield2DoodleProps } from './interface/shield-2_doodle';
+export { ShieldDoodle, ShieldDoodleMetadata, type ShieldDoodleProps } from './interface/shield_doodle';
+export { ShuffleDoodle, ShuffleDoodleMetadata, type ShuffleDoodleProps } from './interface/shuffle_doodle';
+export { SignalDoodle, SignalDoodleMetadata, type SignalDoodleProps } from './interface/signal_doodle';
+export { SpeakerDoodle, SpeakerDoodleMetadata, type SpeakerDoodleProps } from './interface/speaker_doodle';
+export { SquareDoodle, SquareDoodleMetadata, type SquareDoodleProps } from './interface/square_doodle';
+export { StarDoodle, StarDoodleMetadata, type StarDoodleProps } from './interface/star_doodle';
+export { StopwatchDoodle, StopwatchDoodleMetadata, type StopwatchDoodleProps } from './interface/stopwatch_doodle';
+export { SuitcaseDoodle, SuitcaseDoodleMetadata, type SuitcaseDoodleProps } from './interface/suitcase_doodle';
+export { Sun2Doodle, Sun2DoodleMetadata, type Sun2DoodleProps } from './interface/sun-2_doodle';
+export { Sun3Doodle, Sun3DoodleMetadata, type Sun3DoodleProps } from './interface/sun-3_doodle';
+export { Sun4Doodle, Sun4DoodleMetadata, type Sun4DoodleProps } from './interface/sun-4_doodle';
+export { SunDoodle, SunDoodleMetadata, type SunDoodleProps } from './interface/sun_doodle';
+export { Switch1Doodle, Switch1DoodleMetadata, type Switch1DoodleProps } from './interface/switch-1_doodle';
+export { SwitchDoodle, SwitchDoodleMetadata, type SwitchDoodleProps } from './interface/switch_doodle';
+export { SyncDoodle, SyncDoodleMetadata, type SyncDoodleProps } from './interface/sync_doodle';
+export { Target2Doodle, Target2DoodleMetadata, type Target2DoodleProps } from './interface/target-2_doodle';
+export { TargetDoodle, TargetDoodleMetadata, type TargetDoodleProps } from './interface/target_doodle';
+export { Tick2Doodle, Tick2DoodleMetadata, type Tick2DoodleProps } from './interface/tick-2_doodle';
+export { TickDoodle, TickDoodleMetadata, type TickDoodleProps } from './interface/tick_doodle';
+export { TransformDoodle, TransformDoodleMetadata, type TransformDoodleProps } from './interface/transform_doodle';
+export { Tree2Doodle, Tree2DoodleMetadata, type Tree2DoodleProps } from './interface/tree-2_doodle';
+export { TreeDoodle, TreeDoodleMetadata, type TreeDoodleProps } from './interface/tree_doodle';
+export { TrophyDoodle, TrophyDoodleMetadata, type TrophyDoodleProps } from './interface/trophy_doodle';
+export { UnhideDoodle, UnhideDoodleMetadata, type UnhideDoodleProps } from './interface/unhide_doodle';
+export { UnlinkDoodle, UnlinkDoodleMetadata, type UnlinkDoodleProps } from './interface/unlink_doodle';
+export { UploadDoodle, UploadDoodleMetadata, type UploadDoodleProps } from './interface/upload_doodle';
+export { UserAddDoodle, UserAddDoodleMetadata, type UserAddDoodleProps } from './interface/user-add_doodle';
+export { UserCautionDoodle, UserCautionDoodleMetadata, type UserCautionDoodleProps } from './interface/user-caution_doodle';
+export { UserDeleteDoodle, UserDeleteDoodleMetadata, type UserDeleteDoodleProps } from './interface/user-delete_doodle';
+export { UserFemaleDoodle, UserFemaleDoodleMetadata, type UserFemaleDoodleProps } from './interface/user-female_doodle';
+export { UserMaleDoodle, UserMaleDoodleMetadata, type UserMaleDoodleProps } from './interface/user-male_doodle';
+export { UserRemoveDoodle, UserRemoveDoodleMetadata, type UserRemoveDoodleProps } from './interface/user-remove_doodle';
+export { UserDoodle, UserDoodleMetadata, type UserDoodleProps } from './interface/user_doodle';
+export { VideoCameraDoodle, VideoCameraDoodleMetadata, type VideoCameraDoodleProps } from './interface/video-camera_doodle';
+export { VolumeDownDoodle, VolumeDownDoodleMetadata, type VolumeDownDoodleProps } from './interface/volume-down_doodle';
+export { VolumeUpDoodle, VolumeUpDoodleMetadata, type VolumeUpDoodleProps } from './interface/volume-up_doodle';
+export { ZapDoodle, ZapDoodleMetadata, type ZapDoodleProps } from './interface/zap_doodle';
+export { ZoomOut1Doodle, ZoomOut1DoodleMetadata, type ZoomOut1DoodleProps } from './interface/zoom-out-1_doodle';
 export { BetweenHorizontalEnd, BetweenHorizontalEndMetadata, type BetweenHorizontalEndProps } from './layout/between-horizontal-end';
 export { BetweenHorizontalStart, BetweenHorizontalStartMetadata, type BetweenHorizontalStartProps } from './layout/between-horizontal-start';
 export { BetweenVerticalEnd, BetweenVerticalEndMetadata, type BetweenVerticalEndProps } from './layout/between-vertical-end';
@@ -1613,23 +2043,6 @@ export { Tally2, Tally2Metadata, type Tally2Props } from './math/tally-2';
 export { Tally3, Tally3Metadata, type Tally3Props } from './math/tally-3';
 export { Tally4, Tally4Metadata, type Tally4Props } from './math/tally-4';
 export { Tally5, Tally5Metadata, type Tally5Props } from './math/tally-5';
-export { Biohazard, BiohazardMetadata, type BiohazardProps } from './medical/biohazard';
-export { DnaOff, DnaOffMetadata, type DnaOffProps } from './medical/dna-off';
-export { Dna, DnaMetadata, type DnaProps } from './medical/dna';
-export { FlaskConicalOff, FlaskConicalOffMetadata, type FlaskConicalOffProps } from './medical/flask-conical-off';
-export { FlaskConical, FlaskConicalMetadata, type FlaskConicalProps } from './medical/flask-conical';
-export { FlaskRound, FlaskRoundMetadata, type FlaskRoundProps } from './medical/flask-round';
-export { PillBottle, PillBottleMetadata, type PillBottleProps } from './medical/pill-bottle';
-export { Pill, PillMetadata, type PillProps } from './medical/pill';
-export { Stethoscope, StethoscopeMetadata, type StethoscopeProps } from './medical/stethoscope';
-export { Syringe, SyringeMetadata, type SyringeProps } from './medical/syringe';
-export { Tablets, TabletsMetadata, type TabletsProps } from './medical/tablets';
-export { TestTubeDiagonal, TestTubeDiagonalMetadata, type TestTubeDiagonalProps } from './medical/test-tube-diagonal';
-export { TestTube, TestTubeMetadata, type TestTubeProps } from './medical/test-tube';
-export { TestTubes, TestTubesMetadata, type TestTubesProps } from './medical/test-tubes';
-export { ThermometerSnowflake, ThermometerSnowflakeMetadata, type ThermometerSnowflakeProps } from './medical/thermometer-snowflake';
-export { ThermometerSun, ThermometerSunMetadata, type ThermometerSunProps } from './medical/thermometer-sun';
-export { Thermometer, ThermometerMetadata, type ThermometerProps } from './medical/thermometer';
 export { Message2Filled, Message2FilledMetadata, type Message2FilledProps } from './message/message-2_filled';
 export { MessageChatbotFilled, MessageChatbotFilledMetadata, type MessageChatbotFilledProps } from './message/message-chatbot_filled';
 export { MessageCircleCheck, MessageCircleCheckMetadata, type MessageCircleCheckProps } from './message/message-circle-check';
@@ -1665,6 +2078,20 @@ export { MessageSquareX, MessageSquareXMetadata, type MessageSquareXProps } from
 export { MessageSquare, MessageSquareMetadata, type MessageSquareProps } from './message/message-square';
 export { MessageFilled, MessageFilledMetadata, type MessageFilledProps } from './message/message_filled';
 export { MessagesSquare, MessagesSquareMetadata, type MessagesSquareProps } from './message/messages-square';
+export { AutomationDoodle, AutomationDoodleMetadata, type AutomationDoodleProps } from './misc/automation_doodle';
+export { BotDoodle, BotDoodleMetadata, type BotDoodleProps } from './misc/bot_doodle';
+export { BugDoodle, BugDoodleMetadata, type BugDoodleProps } from './misc/bug_doodle';
+export { BusDoodle, BusDoodleMetadata, type BusDoodleProps } from './misc/bus_doodle';
+export { CarDoodle, CarDoodleMetadata, type CarDoodleProps } from './misc/car_doodle';
+export { ChipDoodle, ChipDoodleMetadata, type ChipDoodleProps } from './misc/chip_doodle';
+export { CoffeeCup1Doodle, CoffeeCup1DoodleMetadata, type CoffeeCup1DoodleProps } from './misc/coffee-cup-1_doodle';
+export { CoffeeCup2Doodle, CoffeeCup2DoodleMetadata, type CoffeeCup2DoodleProps } from './misc/coffee-cup-2_doodle';
+export { FireDoodle, FireDoodleMetadata, type FireDoodleProps } from './misc/fire_doodle';
+export { HotAirBalloonDoodle, HotAirBalloonDoodleMetadata, type HotAirBalloonDoodleProps } from './misc/hot-air-balloon_doodle';
+export { PlaneDoodle, PlaneDoodleMetadata, type PlaneDoodleProps } from './misc/plane_doodle';
+export { RocketDoodle, RocketDoodleMetadata, type RocketDoodleProps } from './misc/rocket_doodle';
+export { SatelliteDoodle, SatelliteDoodleMetadata, type SatelliteDoodleProps } from './misc/satellite_doodle';
+export { ShipDoodle, ShipDoodleMetadata, type ShipDoodleProps } from './misc/ship_doodle';
 export { MonitorCheck, MonitorCheckMetadata, type MonitorCheckProps } from './monitor/monitor-check';
 export { MonitorCloud, MonitorCloudMetadata, type MonitorCloudProps } from './monitor/monitor-cloud';
 export { MonitorCog, MonitorCogMetadata, type MonitorCogProps } from './monitor/monitor-cog';
@@ -2714,15 +3141,28 @@ export { UserX, UserXMetadata, type UserXProps } from './user/user-x';
 export { User, UserMetadata, type UserProps } from './user/user';
 export { UsersRound, UsersRoundMetadata, type UsersRoundProps } from './user/users-round';
 export { Users, UsersMetadata, type UsersProps } from './user/users';
+export { VectorDoodle, VectorDoodleMetadata, type VectorDoodleProps } from './weather/Vector_doodle';
+export { CloudyDayDoodle, CloudyDayDoodleMetadata, type CloudyDayDoodleProps } from './weather/cloudy-day_doodle';
+export { CloudyNightDoodle, CloudyNightDoodleMetadata, type CloudyNightDoodleProps } from './weather/cloudy-night_doodle';
 export { MoonStar, MoonStarMetadata, type MoonStarProps } from './weather/moon-star';
 export { Moon, MoonMetadata, type MoonProps } from './weather/moon';
+export { NightDoodle, NightDoodleMetadata, type NightDoodleProps } from './weather/night_doodle';
+export { RainHeavyDoodle, RainHeavyDoodleMetadata, type RainHeavyDoodleProps } from './weather/rain-heavy_doodle';
+export { RainLightDoodle, RainLightDoodleMetadata, type RainLightDoodleProps } from './weather/rain-light_doodle';
+export { SnowDoodle, SnowDoodleMetadata, type SnowDoodleProps } from './weather/snow_doodle';
+export { SnowflakeDoodle, SnowflakeDoodleMetadata, type SnowflakeDoodleProps } from './weather/snowflake_doodle';
+export { SnowmanDoodle, SnowmanDoodleMetadata, type SnowmanDoodleProps } from './weather/snowman_doodle';
 export { SunDim, SunDimMetadata, type SunDimProps } from './weather/sun-dim';
 export { SunMedium, SunMediumMetadata, type SunMediumProps } from './weather/sun-medium';
 export { SunMoon, SunMoonMetadata, type SunMoonProps } from './weather/sun-moon';
 export { SunSnow, SunSnowMetadata, type SunSnowProps } from './weather/sun-snow';
 export { Sun, SunMetadata, type SunProps } from './weather/sun';
+export { SunnyDoodle, SunnyDoodleMetadata, type SunnyDoodleProps } from './weather/sunny_doodle';
 export { Sunrise, SunriseMetadata, type SunriseProps } from './weather/sunrise';
 export { Sunset, SunsetMetadata, type SunsetProps } from './weather/sunset';
+export { ThunderstormDoodle, ThunderstormDoodleMetadata, type ThunderstormDoodleProps } from './weather/thunderstorm_doodle';
+export { TornadoDoodle, TornadoDoodleMetadata, type TornadoDoodleProps } from './weather/tornado_doodle';
+export { WindDoodle, WindDoodleMetadata, type WindDoodleProps } from './weather/wind_doodle';
 export { ZodiacAquarius, ZodiacAquariusMetadata, type ZodiacAquariusProps } from './zodiac/zodiac-aquarius';
 export { ZodiacAries, ZodiacAriesMetadata, type ZodiacAriesProps } from './zodiac/zodiac-aries';
 export { ZodiacCancer, ZodiacCancerMetadata, type ZodiacCancerProps } from './zodiac/zodiac-cancer';
@@ -2860,6 +3300,10 @@ import { ArrowBigUpLineFilled, ArrowBigUpLineFilledMetadata } from './arrows/arr
 import { ArrowBigUpLinesFilled, ArrowBigUpLinesFilledMetadata } from './arrows/arrow-big-up-lines_filled';
 import { ArrowBigUp, ArrowBigUpMetadata } from './arrows/arrow-big-up';
 import { ArrowBigUpFilled, ArrowBigUpFilledMetadata } from './arrows/arrow-big-up_filled';
+import { ArrowCircleDownDoodle, ArrowCircleDownDoodleMetadata } from './arrows/arrow-circle-down_doodle';
+import { ArrowCircleLeftDoodle, ArrowCircleLeftDoodleMetadata } from './arrows/arrow-circle-left_doodle';
+import { ArrowCircleRightDoodle, ArrowCircleRightDoodleMetadata } from './arrows/arrow-circle-right_doodle';
+import { ArrowCircleUpDoodle, ArrowCircleUpDoodleMetadata } from './arrows/arrow-circle-up_doodle';
 import { ArrowDown01, ArrowDown01Metadata } from './arrows/arrow-down-0-1';
 import { ArrowDown10, ArrowDown10Metadata } from './arrows/arrow-down-1-0';
 import { ArrowDownAZ, ArrowDownAZMetadata } from './arrows/arrow-down-a-z';
@@ -2876,6 +3320,7 @@ import { ArrowDownUp, ArrowDownUpMetadata } from './arrows/arrow-down-up';
 import { ArrowDownWideNarrow, ArrowDownWideNarrowMetadata } from './arrows/arrow-down-wide-narrow';
 import { ArrowDownZA, ArrowDownZAMetadata } from './arrows/arrow-down-z-a';
 import { ArrowDown, ArrowDownMetadata } from './arrows/arrow-down';
+import { ArrowDownDoodle, ArrowDownDoodleMetadata } from './arrows/arrow-down_doodle';
 import { ArrowGuideFilled, ArrowGuideFilledMetadata } from './arrows/arrow-guide_filled';
 import { ArrowLeftCircleFilled, ArrowLeftCircleFilledMetadata } from './arrows/arrow-left-circle_filled';
 import { ArrowLeftFromLine, ArrowLeftFromLineMetadata } from './arrows/arrow-left-from-line';
@@ -2884,10 +3329,13 @@ import { ArrowLeftRight, ArrowLeftRightMetadata } from './arrows/arrow-left-righ
 import { ArrowLeftSquareFilled, ArrowLeftSquareFilledMetadata } from './arrows/arrow-left-square_filled';
 import { ArrowLeftToLine, ArrowLeftToLineMetadata } from './arrows/arrow-left-to-line';
 import { ArrowLeft, ArrowLeftMetadata } from './arrows/arrow-left';
+import { ArrowLeftDoodle, ArrowLeftDoodleMetadata } from './arrows/arrow-left_doodle';
 import { ArrowMoveDownFilled, ArrowMoveDownFilledMetadata } from './arrows/arrow-move-down_filled';
 import { ArrowMoveLeftFilled, ArrowMoveLeftFilledMetadata } from './arrows/arrow-move-left_filled';
 import { ArrowMoveRightFilled, ArrowMoveRightFilledMetadata } from './arrows/arrow-move-right_filled';
 import { ArrowMoveUpFilled, ArrowMoveUpFilledMetadata } from './arrows/arrow-move-up_filled';
+import { ArrowNeDoodle, ArrowNeDoodleMetadata } from './arrows/arrow-ne_doodle';
+import { ArrowNwDoodle, ArrowNwDoodleMetadata } from './arrows/arrow-nw_doodle';
 import { ArrowRightCircleFilled, ArrowRightCircleFilledMetadata } from './arrows/arrow-right-circle_filled';
 import { ArrowRightFromLine, ArrowRightFromLineMetadata } from './arrows/arrow-right-from-line';
 import { ArrowRightLeft, ArrowRightLeftMetadata } from './arrows/arrow-right-left';
@@ -2895,6 +3343,17 @@ import { ArrowRightRhombusFilled, ArrowRightRhombusFilledMetadata } from './arro
 import { ArrowRightSquareFilled, ArrowRightSquareFilledMetadata } from './arrows/arrow-right-square_filled';
 import { ArrowRightToLine, ArrowRightToLineMetadata } from './arrows/arrow-right-to-line';
 import { ArrowRight, ArrowRightMetadata } from './arrows/arrow-right';
+import { ArrowRightDoodle, ArrowRightDoodleMetadata } from './arrows/arrow-right_doodle';
+import { ArrowSeDoodle, ArrowSeDoodleMetadata } from './arrows/arrow-se_doodle';
+import { ArrowSingleDownDoodle, ArrowSingleDownDoodleMetadata } from './arrows/arrow-single-down_doodle';
+import { ArrowSingleLeftDoodle, ArrowSingleLeftDoodleMetadata } from './arrows/arrow-single-left_doodle';
+import { ArrowSingleRightDoodle, ArrowSingleRightDoodleMetadata } from './arrows/arrow-single-right_doodle';
+import { ArrowSingleUpDoodle, ArrowSingleUpDoodleMetadata } from './arrows/arrow-single-up_doodle';
+import { ArrowSquareDownDoodle, ArrowSquareDownDoodleMetadata } from './arrows/arrow-square-down_doodle';
+import { ArrowSquareLeftDoodle, ArrowSquareLeftDoodleMetadata } from './arrows/arrow-square-left_doodle';
+import { ArrowSquareRightDoodle, ArrowSquareRightDoodleMetadata } from './arrows/arrow-square-right_doodle';
+import { ArrowSquareUpDoodle, ArrowSquareUpDoodleMetadata } from './arrows/arrow-square-up_doodle';
+import { ArrowSwDoodle, ArrowSwDoodleMetadata } from './arrows/arrow-sw_doodle';
 import { ArrowUp01, ArrowUp01Metadata } from './arrows/arrow-up-0-1';
 import { ArrowUp10, ArrowUp10Metadata } from './arrows/arrow-up-1-0';
 import { ArrowUpAZ, ArrowUpAZMetadata } from './arrows/arrow-up-a-z';
@@ -2911,6 +3370,7 @@ import { ArrowUpToLine, ArrowUpToLineMetadata } from './arrows/arrow-up-to-line'
 import { ArrowUpWideNarrow, ArrowUpWideNarrowMetadata } from './arrows/arrow-up-wide-narrow';
 import { ArrowUpZA, ArrowUpZAMetadata } from './arrows/arrow-up-z-a';
 import { ArrowUp, ArrowUpMetadata } from './arrows/arrow-up';
+import { ArrowUpDoodle, ArrowUpDoodleMetadata } from './arrows/arrow-up_doodle';
 import { ArrowsUpFromLine, ArrowsUpFromLineMetadata } from './arrows/arrows-up-from-line';
 import { ChevronDown, ChevronDownMetadata } from './arrows/chevron-down';
 import { ChevronFirst, ChevronFirstMetadata } from './arrows/chevron-first';
@@ -2920,13 +3380,17 @@ import { ChevronRight, ChevronRightMetadata } from './arrows/chevron-right';
 import { ChevronUp, ChevronUpMetadata } from './arrows/chevron-up';
 import { ChevronsDownUp, ChevronsDownUpMetadata } from './arrows/chevrons-down-up';
 import { ChevronsDown, ChevronsDownMetadata } from './arrows/chevrons-down';
+import { ChevronsDownDoodle, ChevronsDownDoodleMetadata } from './arrows/chevrons-down_doodle';
 import { ChevronsLeftRightEllipsis, ChevronsLeftRightEllipsisMetadata } from './arrows/chevrons-left-right-ellipsis';
 import { ChevronsLeftRight, ChevronsLeftRightMetadata } from './arrows/chevrons-left-right';
 import { ChevronsLeft, ChevronsLeftMetadata } from './arrows/chevrons-left';
+import { ChevronsLeftDoodle, ChevronsLeftDoodleMetadata } from './arrows/chevrons-left_doodle';
 import { ChevronsRightLeft, ChevronsRightLeftMetadata } from './arrows/chevrons-right-left';
 import { ChevronsRight, ChevronsRightMetadata } from './arrows/chevrons-right';
+import { ChevronsRightDoodle, ChevronsRightDoodleMetadata } from './arrows/chevrons-right_doodle';
 import { ChevronsUpDown, ChevronsUpDownMetadata } from './arrows/chevrons-up-down';
 import { ChevronsUp, ChevronsUpMetadata } from './arrows/chevrons-up';
+import { ChevronsUpDoodle, ChevronsUpDoodleMetadata } from './arrows/chevrons-up_doodle';
 import { CornerDownLeft, CornerDownLeftMetadata } from './arrows/corner-down-left';
 import { CornerDownRight, CornerDownRightMetadata } from './arrows/corner-down-right';
 import { CornerLeftDown, CornerLeftDownMetadata } from './arrows/corner-left-down';
@@ -3031,6 +3495,8 @@ import { NotebookText, NotebookTextMetadata } from './book/notebook-text';
 import { Notebook, NotebookMetadata } from './book/notebook';
 import { NotepadTextDashed, NotepadTextDashedMetadata } from './book/notepad-text-dashed';
 import { NotepadText, NotepadTextMetadata } from './book/notepad-text';
+import { AppleDoodle, AppleDoodleMetadata } from './brand/apple_doodle';
+import { BehanceDoodle, BehanceDoodleMetadata } from './brand/behance_doodle';
 import { BrandAngularFilled, BrandAngularFilledMetadata } from './brand/brand-angular_filled';
 import { BrandAppleFilled, BrandAppleFilledMetadata } from './brand/brand-apple_filled';
 import { BrandBitbucketFilled, BrandBitbucketFilledMetadata } from './brand/brand-bitbucket_filled';
@@ -3065,6 +3531,31 @@ import { BrandWhatsappFilled, BrandWhatsappFilledMetadata } from './brand/brand-
 import { BrandWindowsFilled, BrandWindowsFilledMetadata } from './brand/brand-windows_filled';
 import { BrandXFilled, BrandXFilledMetadata } from './brand/brand-x_filled';
 import { BrandYoutubeFilled, BrandYoutubeFilledMetadata } from './brand/brand-youtube_filled';
+import { CodepenDoodle, CodepenDoodleMetadata } from './brand/codepen_doodle';
+import { DribbbleDoodle, DribbbleDoodleMetadata } from './brand/dribbble_doodle';
+import { DropboxDoodle, DropboxDoodleMetadata } from './brand/dropbox_doodle';
+import { Facebook2Doodle, Facebook2DoodleMetadata } from './brand/facebook-2_doodle';
+import { FacebookDoodle, FacebookDoodleMetadata } from './brand/facebook_doodle';
+import { FbMessengerDoodle, FbMessengerDoodleMetadata } from './brand/fb-messenger_doodle';
+import { GoogleDoodle, GoogleDoodleMetadata } from './brand/google_doodle';
+import { InstagramDoodle, InstagramDoodleMetadata } from './brand/instagram_doodle';
+import { LinkedinDoodle, LinkedinDoodleMetadata } from './brand/linkedin_doodle';
+import { PaypalDoodle, PaypalDoodleMetadata } from './brand/paypal_doodle';
+import { PinterestDoodle, PinterestDoodleMetadata } from './brand/pinterest_doodle';
+import { ProductHuntDoodle, ProductHuntDoodleMetadata } from './brand/product-hunt_doodle';
+import { SkypeDoodle, SkypeDoodleMetadata } from './brand/skype_doodle';
+import { SnapchatDoodle, SnapchatDoodleMetadata } from './brand/snapchat_doodle';
+import { SpotifyDoodle, SpotifyDoodleMetadata } from './brand/spotify_doodle';
+import { TikTokDoodle, TikTokDoodleMetadata } from './brand/tik-tok_doodle';
+import { TumblrDoodle, TumblrDoodleMetadata } from './brand/tumblr_doodle';
+import { TwitchDoodle, TwitchDoodleMetadata } from './brand/twitch_doodle';
+import { TwitterDoodle, TwitterDoodleMetadata } from './brand/twitter_doodle';
+import { UberDoodle, UberDoodleMetadata } from './brand/uber_doodle';
+import { WebflowDoodle, WebflowDoodleMetadata } from './brand/webflow_doodle';
+import { WhatsappDoodle, WhatsappDoodleMetadata } from './brand/whatsapp_doodle';
+import { WindowsDoodle, WindowsDoodleMetadata } from './brand/windows_doodle';
+import { YCombinatorDoodle, YCombinatorDoodleMetadata } from './brand/y-combinator_doodle';
+import { YoutubeDoodle, YoutubeDoodleMetadata } from './brand/youtube_doodle';
 import { Building2, Building2Metadata } from './building/building-2';
 import { Building, BuildingMetadata } from './building/building';
 import { Castle, CastleMetadata } from './building/castle';
@@ -3330,6 +3821,33 @@ import { Code, CodeMetadata } from './code/code';
 import { Codepen, CodepenMetadata } from './code/codepen';
 import { Codesandbox, CodesandboxMetadata } from './code/codesandbox';
 import { Component, ComponentMetadata } from './code/component';
+import { Bag2Doodle, Bag2DoodleMetadata } from './commerce/bag-2_doodle';
+import { BagDoodle, BagDoodleMetadata } from './commerce/bag_doodle';
+import { BasketDoodle, BasketDoodleMetadata } from './commerce/basket_doodle';
+import { Box2Doodle, Box2DoodleMetadata } from './commerce/box-2_doodle';
+import { BoxDoodle, BoxDoodleMetadata } from './commerce/box_doodle';
+import { Card2Doodle, Card2DoodleMetadata } from './commerce/card-2_doodle';
+import { Card3Doodle, Card3DoodleMetadata } from './commerce/card-3_doodle';
+import { CardDoodle, CardDoodleMetadata } from './commerce/card_doodle';
+import { CartAddDoodle, CartAddDoodleMetadata } from './commerce/cart-add_doodle';
+import { CartDeleteDoodle, CartDeleteDoodleMetadata } from './commerce/cart-delete_doodle';
+import { CartRemoveDoodle, CartRemoveDoodleMetadata } from './commerce/cart-remove_doodle';
+import { ConveyorBeltDoodle, ConveyorBeltDoodleMetadata } from './commerce/conveyor-belt_doodle';
+import { FactoryDoodle, FactoryDoodleMetadata } from './commerce/factory_doodle';
+import { HandTruckDoodle, HandTruckDoodleMetadata } from './commerce/hand-truck_doodle';
+import { LocationDoodle, LocationDoodleMetadata } from './commerce/location_doodle';
+import { OfferDoodle, OfferDoodleMetadata } from './commerce/offer_doodle';
+import { QrDoodle, QrDoodleMetadata } from './commerce/qr_doodle';
+import { SaleDoodle, SaleDoodleMetadata } from './commerce/sale_doodle';
+import { ShopDoodle, ShopDoodleMetadata } from './commerce/shop_doodle';
+import { ShoppingCart2Doodle, ShoppingCart2DoodleMetadata } from './commerce/shopping-cart-2_doodle';
+import { ShoppingCart3Doodle, ShoppingCart3DoodleMetadata } from './commerce/shopping-cart-3_doodle';
+import { ShoppingCartDoodle, ShoppingCartDoodleMetadata } from './commerce/shopping-cart_doodle';
+import { Tag2Doodle, Tag2DoodleMetadata } from './commerce/tag-2_doodle';
+import { TagDoodle, TagDoodleMetadata } from './commerce/tag_doodle';
+import { TruckDoodle, TruckDoodleMetadata } from './commerce/truck_doodle';
+import { UnboxDoodle, UnboxDoodleMetadata } from './commerce/unbox_doodle';
+import { WarehouseDoodle, WarehouseDoodleMetadata } from './commerce/warehouse_doodle';
 import { PhoneCall, PhoneCallMetadata } from './communiccation/phone-call';
 import { PhoneCallFilled, PhoneCallFilledMetadata } from './communiccation/phone-call_filled';
 import { PhoneCallingFilled, PhoneCallingFilledMetadata } from './communiccation/phone-calling_filled';
@@ -3455,6 +3973,13 @@ import { WashingMachine, WashingMachineMetadata } from './device/washing-machine
 import { Watch, WatchMetadata } from './device/watch';
 import { Angry, AngryMetadata } from './emoji/angry';
 import { Annoyed, AnnoyedMetadata } from './emoji/annoyed';
+import { ConfusedEmojiDoodle, ConfusedEmojiDoodleMetadata } from './emoji/confused-emoji_doodle';
+import { CoolEmojiDoodle, CoolEmojiDoodleMetadata } from './emoji/cool-emoji_doodle';
+import { CryingEmojiDoodle, CryingEmojiDoodleMetadata } from './emoji/crying-emoji_doodle';
+import { GrinningSquintingEmojiDoodle, GrinningSquintingEmojiDoodleMetadata } from './emoji/grinning-squinting-emoji_doodle';
+import { HappyEmojiDoodle, HappyEmojiDoodleMetadata } from './emoji/happy-emoji_doodle';
+import { HeartEyesEmojiDoodle, HeartEyesEmojiDoodleMetadata } from './emoji/heart-eyes-emoji_doodle';
+import { LaughEmojiDoodle, LaughEmojiDoodleMetadata } from './emoji/laugh-emoji_doodle';
 import { Laugh, LaughMetadata } from './emoji/laugh';
 import { MoodAngryFilled, MoodAngryFilledMetadata } from './emoji/mood-angry_filled';
 import { MoodConfuzedFilled, MoodConfuzedFilledMetadata } from './emoji/mood-confuzed_filled';
@@ -3466,10 +3991,19 @@ import { MoodNeutralFilled, MoodNeutralFilledMetadata } from './emoji/mood-neutr
 import { MoodSadFilled, MoodSadFilledMetadata } from './emoji/mood-sad_filled';
 import { MoodSmileFilled, MoodSmileFilledMetadata } from './emoji/mood-smile_filled';
 import { MoodWrrrFilled, MoodWrrrFilledMetadata } from './emoji/mood-wrrr_filled';
+import { SadEmojiDoodle, SadEmojiDoodleMetadata } from './emoji/sad-emoji_doodle';
+import { ShockedEmojiDoodle, ShockedEmojiDoodleMetadata } from './emoji/shocked-emoji_doodle';
 import { SmilePlus, SmilePlusMetadata } from './emoji/smile-plus';
 import { Smile, SmileMetadata } from './emoji/smile';
+import { SmilingEmojiDoodle, SmilingEmojiDoodleMetadata } from './emoji/smiling-emoji_doodle';
+import { SmilingWithEyesEmojiDoodle, SmilingWithEyesEmojiDoodleMetadata } from './emoji/smiling-with-eyes-emoji_doodle';
+import { SurprisedEmojiDoodle, SurprisedEmojiDoodleMetadata } from './emoji/surprised-emoji_doodle';
+import { WinkEmojiDoodle, WinkEmojiDoodleMetadata } from './emoji/wink-emoji_doodle';
+import { WorriedEmojiDoodle, WorriedEmojiDoodleMetadata } from './emoji/worried-emoji_doodle';
 import { FileAnalyticsFilled, FileAnalyticsFilledMetadata } from './file/file-analytics_filled';
 import { FileArchive, FileArchiveMetadata } from './file/file-archive';
+import { FileAttachmentDoodle, FileAttachmentDoodleMetadata } from './file/file-attachment_doodle';
+import { FileAudioDoodle, FileAudioDoodleMetadata } from './file/file-audio_doodle';
 import { FileAxis3d, FileAxis3dMetadata } from './file/file-axis-3d';
 import { FileBadge, FileBadgeMetadata } from './file/file-badge';
 import { FileBox, FileBoxMetadata } from './file/file-box';
@@ -3486,8 +4020,11 @@ import { FileClock, FileClockMetadata } from './file/file-clock';
 import { FileCode2Filled, FileCode2FilledMetadata } from './file/file-code-2_filled';
 import { FileCodeCorner, FileCodeCornerMetadata } from './file/file-code-corner';
 import { FileCode, FileCodeMetadata } from './file/file-code';
+import { FileCodeDoodle, FileCodeDoodleMetadata } from './file/file-code_doodle';
 import { FileCodeFilled, FileCodeFilledMetadata } from './file/file-code_filled';
 import { FileCog, FileCogMetadata } from './file/file-cog';
+import { FileContractDoodle, FileContractDoodleMetadata } from './file/file-contract_doodle';
+import { FileCsvDoodle, FileCsvDoodleMetadata } from './file/file-csv_doodle';
 import { FileCvFilled, FileCvFilledMetadata } from './file/file-cv_filled';
 import { FileDeltaFilled, FileDeltaFilledMetadata } from './file/file-delta_filled';
 import { FileDescriptionFilled, FileDescriptionFilledMetadata } from './file/file-description_filled';
@@ -3501,24 +4038,35 @@ import { FileDown, FileDownMetadata } from './file/file-down';
 import { FileDownloadFilled, FileDownloadFilledMetadata } from './file/file-download_filled';
 import { FileEuroFilled, FileEuroFilledMetadata } from './file/file-euro_filled';
 import { FileExclamationPoint, FileExclamationPointMetadata } from './file/file-exclamation-point';
+import { FileFigmaDoodle, FileFigmaDoodleMetadata } from './file/file-figma_doodle';
+import { FileFormDoodle, FileFormDoodleMetadata } from './file/file-form_doodle';
 import { FileFunctionFilled, FileFunctionFilledMetadata } from './file/file-function_filled';
 import { FileHeadphone, FileHeadphoneMetadata } from './file/file-headphone';
 import { FileHeart, FileHeartMetadata } from './file/file-heart';
 import { FileHorizontalFilled, FileHorizontalFilledMetadata } from './file/file-horizontal_filled';
+import { FileImage2Doodle, FileImage2DoodleMetadata } from './file/file-image-2_doodle';
 import { FileImage, FileImageMetadata } from './file/file-image';
+import { FileImageDoodle, FileImageDoodleMetadata } from './file/file-image_doodle';
 import { FileInfoFilled, FileInfoFilledMetadata } from './file/file-info_filled';
 import { FileInput, FileInputMetadata } from './file/file-input';
+import { FileInvoiceDoodle, FileInvoiceDoodleMetadata } from './file/file-invoice_doodle';
 import { FileInvoiceFilled, FileInvoiceFilledMetadata } from './file/file-invoice_filled';
+import { FileJpgDoodle, FileJpgDoodleMetadata } from './file/file-jpg_doodle';
 import { FileKey, FileKeyMetadata } from './file/file-key';
 import { FileLambdaFilled, FileLambdaFilledMetadata } from './file/file-lambda_filled';
+import { FileListDoodle, FileListDoodleMetadata } from './file/file-list_doodle';
 import { FileLock, FileLockMetadata } from './file/file-lock';
 import { FileMinusCorner, FileMinusCornerMetadata } from './file/file-minus-corner';
 import { FileMinus, FileMinusMetadata } from './file/file-minus';
 import { FileMinusFilled, FileMinusFilledMetadata } from './file/file-minus_filled';
+import { FileMovDoodle, FileMovDoodleMetadata } from './file/file-mov_doodle';
+import { FileMp4Doodle, FileMp4DoodleMetadata } from './file/file-mp4_doodle';
 import { FileMusic, FileMusicMetadata } from './file/file-music';
 import { FileMusicFilled, FileMusicFilledMetadata } from './file/file-music_filled';
 import { FileNeutralFilled, FileNeutralFilledMetadata } from './file/file-neutral_filled';
+import { FileNotesDoodle, FileNotesDoodleMetadata } from './file/file-notes_doodle';
 import { FileOutput, FileOutputMetadata } from './file/file-output';
+import { FilePdfDoodle, FilePdfDoodleMetadata } from './file/file-pdf_doodle';
 import { FilePenLine, FilePenLineMetadata } from './file/file-pen-line';
 import { FilePen, FilePenMetadata } from './file/file-pen';
 import { FilePencilFilled, FilePencilFilledMetadata } from './file/file-pencil_filled';
@@ -3527,6 +4075,7 @@ import { FilePhoneFilled, FilePhoneFilledMetadata } from './file/file-phone_fill
 import { FilePlay, FilePlayMetadata } from './file/file-play';
 import { FilePlusCorner, FilePlusCornerMetadata } from './file/file-plus-corner';
 import { FilePlus, FilePlusMetadata } from './file/file-plus';
+import { FilePngDoodle, FilePngDoodleMetadata } from './file/file-png_doodle';
 import { FilePowerFilled, FilePowerFilledMetadata } from './file/file-power_filled';
 import { FileQuestionMark, FileQuestionMarkMetadata } from './file/file-question-mark';
 import { FileRssFilled, FileRssFilledMetadata } from './file/file-rss_filled';
@@ -3541,11 +4090,14 @@ import { FileSignalFilled, FileSignalFilledMetadata } from './file/file-signal_f
 import { FileSliders, FileSlidersMetadata } from './file/file-sliders';
 import { FileSmileFilled, FileSmileFilledMetadata } from './file/file-smile_filled';
 import { FileSpreadsheet, FileSpreadsheetMetadata } from './file/file-spreadsheet';
+import { FileSpreadsheetDoodle, FileSpreadsheetDoodleMetadata } from './file/file-spreadsheet_doodle';
 import { FileStack, FileStackMetadata } from './file/file-stack';
 import { FileStarFilled, FileStarFilledMetadata } from './file/file-star_filled';
+import { FileSvgDoodle, FileSvgDoodleMetadata } from './file/file-svg_doodle';
 import { FileSymlink, FileSymlinkMetadata } from './file/file-symlink';
 import { FileTerminal, FileTerminalMetadata } from './file/file-terminal';
 import { FileText, FileTextMetadata } from './file/file-text';
+import { FileTextDoodle, FileTextDoodleMetadata } from './file/file-text_doodle';
 import { FileTextFilled, FileTextFilledMetadata } from './file/file-text_filled';
 import { FileTimeFilled, FileTimeFilledMetadata } from './file/file-time_filled';
 import { FileTypeCorner, FileTypeCornerMetadata } from './file/file-type-corner';
@@ -3555,16 +4107,20 @@ import { FileUnknownFilled, FileUnknownFilledMetadata } from './file/file-unknow
 import { FileUp, FileUpMetadata } from './file/file-up';
 import { FileUploadFilled, FileUploadFilledMetadata } from './file/file-upload_filled';
 import { FileUser, FileUserMetadata } from './file/file-user';
+import { FileVectorDoodle, FileVectorDoodleMetadata } from './file/file-vector_doodle';
 import { FileVectorFilled, FileVectorFilledMetadata } from './file/file-vector_filled';
 import { FileVideoCamera, FileVideoCameraMetadata } from './file/file-video-camera';
 import { FileVolume, FileVolumeMetadata } from './file/file-volume';
 import { FileXCorner, FileXCornerMetadata } from './file/file-x-corner';
 import { FileX, FileXMetadata } from './file/file-x';
 import { FileXFilled, FileXFilledMetadata } from './file/file-x_filled';
+import { FileZipDoodle, FileZipDoodleMetadata } from './file/file-zip_doodle';
 import { File, FileMetadata } from './file/file';
+import { FileDoodle, FileDoodleMetadata } from './file/file_doodle';
 import { FileFilled, FileFilledMetadata } from './file/file_filled';
 import { Files, FilesMetadata } from './file/files';
 import { FilesFilled, FilesFilledMetadata } from './file/files_filled';
+import { PngDoodle, PngDoodleMetadata } from './file/png_doodle';
 import { AccessibleFilled, AccessibleFilledMetadata } from './filled/accessible_filled';
 import { AdCircleFilled, AdCircleFilledMetadata } from './filled/ad-circle_filled';
 import { AdFilled, AdFilledMetadata } from './filled/ad_filled';
@@ -4044,11 +4600,15 @@ import { XboxXFilled, XboxXFilledMetadata } from './filled/xbox-x_filled';
 import { XboxYFilled, XboxYFilledMetadata } from './filled/xbox-y_filled';
 import { YinYangFilled, YinYangFilledMetadata } from './filled/yin-yang_filled';
 import { ZeppelinFilled, ZeppelinFilledMetadata } from './filled/zeppelin_filled';
+import { BankDoodle, BankDoodleMetadata } from './finance/bank_doodle';
 import { BanknoteArrowDown, BanknoteArrowDownMetadata } from './finance/banknote-arrow-down';
 import { BanknoteArrowUp, BanknoteArrowUpMetadata } from './finance/banknote-arrow-up';
 import { BanknoteX, BanknoteXMetadata } from './finance/banknote-x';
 import { Banknote, BanknoteMetadata } from './finance/banknote';
+import { BillDoodle, BillDoodleMetadata } from './finance/bill_doodle';
 import { Bitcoin, BitcoinMetadata } from './finance/bitcoin';
+import { CashDoodle, CashDoodleMetadata } from './finance/cash_doodle';
+import { Coin2Doodle, Coin2DoodleMetadata } from './finance/coin-2_doodle';
 import { CoinBitcoinFilled, CoinBitcoinFilledMetadata } from './finance/coin-bitcoin_filled';
 import { CoinEuroFilled, CoinEuroFilledMetadata } from './finance/coin-euro_filled';
 import { CoinMoneroFilled, CoinMoneroFilledMetadata } from './finance/coin-monero_filled';
@@ -4057,16 +4617,34 @@ import { CoinRupeeFilled, CoinRupeeFilledMetadata } from './finance/coin-rupee_f
 import { CoinTakaFilled, CoinTakaFilledMetadata } from './finance/coin-taka_filled';
 import { CoinYenFilled, CoinYenFilledMetadata } from './finance/coin-yen_filled';
 import { CoinYuanFilled, CoinYuanFilledMetadata } from './finance/coin-yuan_filled';
+import { CoinDoodle, CoinDoodleMetadata } from './finance/coin_doodle';
 import { CoinFilled, CoinFilledMetadata } from './finance/coin_filled';
 import { Coins, CoinsMetadata } from './finance/coins';
 import { CreditCard, CreditCardMetadata } from './finance/credit-card';
 import { DollarSign, DollarSignMetadata } from './finance/dollar-sign';
+import { DollarDoodle, DollarDoodleMetadata } from './finance/dollar_doodle';
 import { Euro, EuroMetadata } from './finance/euro';
+import { EuroDoodle, EuroDoodleMetadata } from './finance/euro_doodle';
+import { FrancDoodle, FrancDoodleMetadata } from './finance/franc_doodle';
 import { IndianRupee, IndianRupeeMetadata } from './finance/indian-rupee';
 import { JapaneseYen, JapaneseYenMetadata } from './finance/japanese-yen';
+import { MoneyPlantDoodle, MoneyPlantDoodleMetadata } from './finance/money-plant_doodle';
 import { PhilippinePeso, PhilippinePesoMetadata } from './finance/philippine-peso';
+import { PiggyBankDoodle, PiggyBankDoodleMetadata } from './finance/piggy-bank_doodle';
 import { PoundSterling, PoundSterlingMetadata } from './finance/pound-sterling';
+import { PoundDoodle, PoundDoodleMetadata } from './finance/pound_doodle';
+import { RubleDoodle, RubleDoodleMetadata } from './finance/ruble_doodle';
+import { RupeeDoodle, RupeeDoodleMetadata } from './finance/rupee_doodle';
+import { SafeDoodle, SafeDoodleMetadata } from './finance/safe_doodle';
+import { SavingDoodle, SavingDoodleMetadata } from './finance/saving_doodle';
 import { SwissFranc, SwissFrancMetadata } from './finance/swiss-franc';
+import { TrendDownSquareDoodle, TrendDownSquareDoodleMetadata } from './finance/trend-down-square_doodle';
+import { TrendDownDoodle, TrendDownDoodleMetadata } from './finance/trend-down_doodle';
+import { TrendUpSquareDoodle, TrendUpSquareDoodleMetadata } from './finance/trend-up-square_doodle';
+import { TrendUpDoodle, TrendUpDoodleMetadata } from './finance/trend-up_doodle';
+import { WalletDoodle, WalletDoodleMetadata } from './finance/wallet_doodle';
+import { WonDoodle, WonDoodleMetadata } from './finance/won_doodle';
+import { YenDoodle, YenDoodleMetadata } from './finance/yen_doodle';
 import { FolderArchive, FolderArchiveMetadata } from './folder/folder-archive';
 import { FolderCheck, FolderCheckMetadata } from './folder/folder-check';
 import { FolderClock, FolderClockMetadata } from './folder/folder-clock';
@@ -4106,26 +4684,52 @@ import { Beef, BeefMetadata } from './food/beef';
 import { BeerOff, BeerOffMetadata } from './food/beer-off';
 import { Beer, BeerMetadata } from './food/beer';
 import { Bone, BoneMetadata } from './food/bone';
+import { BurgerDoodle, BurgerDoodleMetadata } from './food/burger_doodle';
 import { CakeSlice, CakeSliceMetadata } from './food/cake-slice';
 import { Cake, CakeMetadata } from './food/cake';
+import { CakeDoodle, CakeDoodleMetadata } from './food/cake_doodle';
 import { CandyCane, CandyCaneMetadata } from './food/candy-cane';
 import { CandyOff, CandyOffMetadata } from './food/candy-off';
 import { Candy, CandyMetadata } from './food/candy';
+import { CandyDoodle, CandyDoodleMetadata } from './food/candy_doodle';
 import { Carrot, CarrotMetadata } from './food/carrot';
 import { Coffee, CoffeeMetadata } from './food/coffee';
 import { Cookie, CookieMetadata } from './food/cookie';
 import { CookingPot, CookingPotMetadata } from './food/cooking-pot';
+import { CutleryDoodle, CutleryDoodleMetadata } from './food/cutlery_doodle';
+import { DishDoodle, DishDoodleMetadata } from './food/dish_doodle';
 import { Donut, DonutMetadata } from './food/donut';
+import { DrinkDoodle, DrinkDoodleMetadata } from './food/drink_doodle';
 import { EggFried, EggFriedMetadata } from './food/egg-fried';
 import { EggOff, EggOffMetadata } from './food/egg-off';
 import { Egg, EggMetadata } from './food/egg';
+import { EggDoodle, EggDoodleMetadata } from './food/egg_doodle';
+import { ForkDoodle, ForkDoodleMetadata } from './food/fork_doodle';
 import { IceCreamBowl, IceCreamBowlMetadata } from './food/ice-cream-bowl';
 import { IceCreamCone, IceCreamConeMetadata } from './food/ice-cream-cone';
+import { IceCreamDoodle, IceCreamDoodleMetadata } from './food/ice-cream_doodle';
 import { NutOff, NutOffMetadata } from './food/nut-off';
 import { Nut, NutMetadata } from './food/nut';
+import { Pizza2Doodle, Pizza2DoodleMetadata } from './food/pizza-2_doodle';
 import { Pizza, PizzaMetadata } from './food/pizza';
+import { PizzaDoodle, PizzaDoodleMetadata } from './food/pizza_doodle';
+import { PopsicleDoodle, PopsicleDoodleMetadata } from './food/popsicle_doodle';
 import { Salad, SaladMetadata } from './food/salad';
 import { Sandwich, SandwichMetadata } from './food/sandwich';
+import { SpoonDoodle, SpoonDoodleMetadata } from './food/spoon_doodle';
+import { WaterDoodle, WaterDoodleMetadata } from './food/water_doodle';
+import { BisexualDoodle, BisexualDoodleMetadata } from './gender/bisexual_doodle';
+import { FemaileDoodle, FemaileDoodleMetadata } from './gender/femaile_doodle';
+import { GayDoodle, GayDoodleMetadata } from './gender/gay_doodle';
+import { GenderlessDoodle, GenderlessDoodleMetadata } from './gender/genderless_doodle';
+import { HetroDoodle, HetroDoodleMetadata } from './gender/hetro_doodle';
+import { IntersexDoodle, IntersexDoodleMetadata } from './gender/intersex_doodle';
+import { LesbianDoodle, LesbianDoodleMetadata } from './gender/lesbian_doodle';
+import { MaleDoodle, MaleDoodleMetadata } from './gender/male_doodle';
+import { NonBinaryTransgenderDoodle, NonBinaryTransgenderDoodleMetadata } from './gender/non-binary-transgender_doodle';
+import { OtherGenderDoodle, OtherGenderDoodleMetadata } from './gender/other-gender_doodle';
+import { Transgender2Doodle, Transgender2DoodleMetadata } from './gender/transgender-2_doodle';
+import { TransgenderDoodle, TransgenderDoodleMetadata } from './gender/transgender_doodle';
 import { GitBranchMinus, GitBranchMinusMetadata } from './git/git-branch-minus';
 import { GitBranchPlus, GitBranchPlusMetadata } from './git/git-branch-plus';
 import { GitBranch, GitBranchMetadata } from './git/git-branch';
@@ -4143,6 +4747,89 @@ import { GitPullRequestCreateArrow, GitPullRequestCreateArrowMetadata } from './
 import { GitPullRequestCreate, GitPullRequestCreateMetadata } from './git/git-pull-request-create';
 import { GitPullRequestDraft, GitPullRequestDraftMetadata } from './git/git-pull-request-draft';
 import { GitPullRequest, GitPullRequestMetadata } from './git/git-pull-request';
+import { ClapDoodle, ClapDoodleMetadata } from './hand/clap_doodle';
+import { Double2TapDoodle, Double2TapDoodleMetadata } from './hand/double-2-tap_doodle';
+import { DoubleTapDoodle, DoubleTapDoodleMetadata } from './hand/double-tap_doodle';
+import { FoldedHandsDoodle, FoldedHandsDoodleMetadata } from './hand/folded-hands_doodle';
+import { FreeDragDoodle, FreeDragDoodleMetadata } from './hand/free-drag_doodle';
+import { HandDoodle, HandDoodleMetadata } from './hand/hand_doodle';
+import { HorizontalScrollDoodle, HorizontalScrollDoodleMetadata } from './hand/horizontal-scroll_doodle';
+import { MultiTouchDoodle, MultiTouchDoodleMetadata } from './hand/multi-touch_doodle';
+import { OkDoodle, OkDoodleMetadata } from './hand/ok_doodle';
+import { PageMoveDoodle, PageMoveDoodleMetadata } from './hand/page-move_doodle';
+import { PointDownDoodle, PointDownDoodleMetadata } from './hand/point-down_doodle';
+import { PointLeftDoodle, PointLeftDoodleMetadata } from './hand/point-left_doodle';
+import { PointRightDoodle, PointRightDoodleMetadata } from './hand/point-right_doodle';
+import { PointUpDoodle, PointUpDoodleMetadata } from './hand/point-up_doodle';
+import { RotateDoodle, RotateDoodleMetadata } from './hand/rotate_doodle';
+import { ScanFingerprintDoodle, ScanFingerprintDoodleMetadata } from './hand/scan-fingerprint_doodle';
+import { ScanDoodle, ScanDoodleMetadata } from './hand/scan_doodle';
+import { ScreenRotateDoodle, ScreenRotateDoodleMetadata } from './hand/screen-rotate_doodle';
+import { ScrollDown3Doodle, ScrollDown3DoodleMetadata } from './hand/scroll-down-3_doodle';
+import { ScrollDownDoodle, ScrollDownDoodleMetadata } from './hand/scroll-down_doodle';
+import { ScrollLeft1Doodle, ScrollLeft1DoodleMetadata } from './hand/scroll-left-1_doodle';
+import { ScrollLeft2Doodle, ScrollLeft2DoodleMetadata } from './hand/scroll-left-2_doodle';
+import { ScrollLeft3Doodle, ScrollLeft3DoodleMetadata } from './hand/scroll-left-3_doodle';
+import { ScrollLeftDoodle, ScrollLeftDoodleMetadata } from './hand/scroll-left_doodle';
+import { ScrollRight2Doodle, ScrollRight2DoodleMetadata } from './hand/scroll-right-2_doodle';
+import { ScrollUp12Doodle, ScrollUp12DoodleMetadata } from './hand/scroll-up-12_doodle';
+import { ScrollUp2Doodle, ScrollUp2DoodleMetadata } from './hand/scroll-up-2_doodle';
+import { ScrollUp3Doodle, ScrollUp3DoodleMetadata } from './hand/scroll-up-3_doodle';
+import { ScrollUpDoodle, ScrollUpDoodleMetadata } from './hand/scroll-up_doodle';
+import { SwipeLeftDoodle, SwipeLeftDoodleMetadata } from './hand/swipe-left_doodle';
+import { SwipeRightDoodle, SwipeRightDoodleMetadata } from './hand/swipe-right_doodle';
+import { Tap12Doodle, Tap12DoodleMetadata } from './hand/tap-12_doodle';
+import { Tap1Doodle, Tap1DoodleMetadata } from './hand/tap-1_doodle';
+import { Tap2Doodle, Tap2DoodleMetadata } from './hand/tap-2_doodle';
+import { Tap3Doodle, Tap3DoodleMetadata } from './hand/tap-3_doodle';
+import { TapScroll3Doodle, TapScroll3DoodleMetadata } from './hand/tap-scroll-3_doodle';
+import { TapDoodle, TapDoodleMetadata } from './hand/tap_doodle';
+import { ThumbsDownDoodle, ThumbsDownDoodleMetadata } from './hand/thumbs-down_doodle';
+import { ThumbsUpDoodle, ThumbsUpDoodleMetadata } from './hand/thumbs-up_doodle';
+import { TouchHold2Doodle, TouchHold2DoodleMetadata } from './hand/touch-hold-2_doodle';
+import { TouchHoldDoodle, TouchHoldDoodleMetadata } from './hand/touch-hold_doodle';
+import { VDoodle, VDoodleMetadata } from './hand/v_doodle';
+import { VibrateDoodle, VibrateDoodleMetadata } from './hand/vibrate_doodle';
+import { WaveLeftDoodle, WaveLeftDoodleMetadata } from './hand/wave-left_doodle';
+import { WaveRightDoodle, WaveRightDoodleMetadata } from './hand/wave-right_doodle';
+import { ZoomInDoodle, ZoomInDoodleMetadata } from './hand/zoom-in_doodle';
+import { ZoomOutDoodle, ZoomOutDoodleMetadata } from './hand/zoom-out_doodle';
+import { Biohazard, BiohazardMetadata } from './health/biohazard';
+import { BloodBagDoodle, BloodBagDoodleMetadata } from './health/blood-bag_doodle';
+import { BloodDoodle, BloodDoodleMetadata } from './health/blood_doodle';
+import { BottleDoodle, BottleDoodleMetadata } from './health/bottle_doodle';
+import { DnaOff, DnaOffMetadata } from './health/dna-off';
+import { Dna, DnaMetadata } from './health/dna';
+import { DropperDoodle, DropperDoodleMetadata } from './health/dropper_doodle';
+import { FirstAidDoodle, FirstAidDoodleMetadata } from './health/first-aid_doodle';
+import { Firstaid2Doodle, Firstaid2DoodleMetadata } from './health/firstaid-2_doodle';
+import { FlaskConicalOff, FlaskConicalOffMetadata } from './health/flask-conical-off';
+import { FlaskConical, FlaskConicalMetadata } from './health/flask-conical';
+import { FlaskRound, FlaskRoundMetadata } from './health/flask-round';
+import { FlaskRoundDoodle, FlaskRoundDoodleMetadata } from './health/flask-round_doodle';
+import { FlaskDoodle, FlaskDoodleMetadata } from './health/flask_doodle';
+import { HeartBeatDoodle, HeartBeatDoodleMetadata } from './health/heart-beat_doodle';
+import { InjectionDoodle, InjectionDoodleMetadata } from './health/injection_doodle';
+import { LungsDoodle, LungsDoodleMetadata } from './health/lungs_doodle';
+import { MedicalLogoDoodle, MedicalLogoDoodleMetadata } from './health/medical-logo_doodle';
+import { MicroscopeDoodle, MicroscopeDoodleMetadata } from './health/microscope_doodle';
+import { PillBottle, PillBottleMetadata } from './health/pill-bottle';
+import { Pill, PillMetadata } from './health/pill';
+import { PillsDoodle, PillsDoodleMetadata } from './health/pills_doodle';
+import { Stethoscope, StethoscopeMetadata } from './health/stethoscope';
+import { StethoscopeDoodle, StethoscopeDoodleMetadata } from './health/stethoscope_doodle';
+import { Syringe, SyringeMetadata } from './health/syringe';
+import { TabletDoodle, TabletDoodleMetadata } from './health/tablet_doodle';
+import { Tablets, TabletsMetadata } from './health/tablets';
+import { TestTubeDiagonal, TestTubeDiagonalMetadata } from './health/test-tube-diagonal';
+import { TestTube, TestTubeMetadata } from './health/test-tube';
+import { TestTubeDoodle, TestTubeDoodleMetadata } from './health/test-tube_doodle';
+import { TestTubes, TestTubesMetadata } from './health/test-tubes';
+import { ThermometerSnowflake, ThermometerSnowflakeMetadata } from './health/thermometer-snowflake';
+import { ThermometerSun, ThermometerSunMetadata } from './health/thermometer-sun';
+import { Thermometer, ThermometerMetadata } from './health/thermometer';
+import { ToothDoodle, ToothDoodleMetadata } from './health/tooth_doodle';
+import { WheelchairDoodle, WheelchairDoodleMetadata } from './health/wheelchair_doodle';
 import { HexagonLetterAFilled, HexagonLetterAFilledMetadata } from './hexagon/hexagon-letter-a_filled';
 import { HexagonLetterBFilled, HexagonLetterBFilledMetadata } from './hexagon/hexagon-letter-b_filled';
 import { HexagonLetterCFilled, HexagonLetterCFilledMetadata } from './hexagon/hexagon-letter-c_filled';
@@ -4181,6 +4868,14 @@ import { HexagonNumber7Filled, HexagonNumber7FilledMetadata } from './hexagon/he
 import { HexagonNumber8Filled, HexagonNumber8FilledMetadata } from './hexagon/hexagon-number-8_filled';
 import { HexagonNumber9Filled, HexagonNumber9FilledMetadata } from './hexagon/hexagon-number-9_filled';
 import { HexagonPlusFilled, HexagonPlusFilledMetadata } from './hexagon/hexagon-plus_filled';
+import { AnchorDoodle, AnchorDoodleMetadata } from './home/anchor_doodle';
+import { Balloon2Doodle, Balloon2DoodleMetadata } from './home/balloon-2_doodle';
+import { BalloonDoodle, BalloonDoodleMetadata } from './home/balloon_doodle';
+import { CameraDoodle, CameraDoodleMetadata } from './home/camera_doodle';
+import { CrownDoodle, CrownDoodleMetadata } from './home/crown_doodle';
+import { FlashlightDoodle, FlashlightDoodleMetadata } from './home/flashlight_doodle';
+import { FrameDoodle, FrameDoodleMetadata } from './home/frame_doodle';
+import { GuitarDoodle, GuitarDoodleMetadata } from './home/guitar_doodle';
 import { LampCeiling, LampCeilingMetadata } from './home/lamp-ceiling';
 import { LampDesk, LampDeskMetadata } from './home/lamp-desk';
 import { LampFloor, LampFloorMetadata } from './home/lamp-floor';
@@ -4189,6 +4884,181 @@ import { LampWallUp, LampWallUpMetadata } from './home/lamp-wall-up';
 import { Lamp, LampMetadata } from './home/lamp';
 import { LightbulbOff, LightbulbOffMetadata } from './home/lightbulb-off';
 import { Lightbulb, LightbulbMetadata } from './home/lightbulb';
+import { MovieClapperDoodle, MovieClapperDoodleMetadata } from './home/movie-clapper_doodle';
+import { PaintBrush2Doodle, PaintBrush2DoodleMetadata } from './home/paint-brush-2_doodle';
+import { PaintBrushDoodle, PaintBrushDoodleMetadata } from './home/paint-brush_doodle';
+import { PaintBucketDoodle, PaintBucketDoodleMetadata } from './home/paint-bucket_doodle';
+import { PaintRollerDoodle, PaintRollerDoodleMetadata } from './home/paint-roller_doodle';
+import { SofaDoodle, SofaDoodleMetadata } from './home/sofa_doodle';
+import { TvDoodle, TvDoodleMetadata } from './home/tv_doodle';
+import { InfoDoodle, InfoDoodleMetadata } from './interface/Info_doodle';
+import { AnalyticsDoodle, AnalyticsDoodleMetadata } from './interface/analytics_doodle';
+import { ArrowDoodle, ArrowDoodleMetadata } from './interface/arrow_doodle';
+import { AtTheRateDoodle, AtTheRateDoodleMetadata } from './interface/at-the-rate_doodle';
+import { BackwardDoodle, BackwardDoodleMetadata } from './interface/backward_doodle';
+import { Bell2Doodle, Bell2DoodleMetadata } from './interface/bell-2_doodle';
+import { BellDoodle, BellDoodleMetadata } from './interface/bell_doodle';
+import { BluetoothDoodle, BluetoothDoodleMetadata } from './interface/bluetooth_doodle';
+import { BookmarkDoodle, BookmarkDoodleMetadata } from './interface/bookmark_doodle';
+import { BulbDoodle, BulbDoodleMetadata } from './interface/bulb_doodle';
+import { CalculatorDoodle, CalculatorDoodleMetadata } from './interface/calculator_doodle';
+import { CalendarDoodle, CalendarDoodleMetadata } from './interface/calendar_doodle';
+import { CallDoodle, CallDoodleMetadata } from './interface/call_doodle';
+import { CautionDoodle, CautionDoodleMetadata } from './interface/caution_doodle';
+import { CenterAlign2Doodle, CenterAlign2DoodleMetadata } from './interface/center-align-2_doodle';
+import { CenterAlignDoodle, CenterAlignDoodleMetadata } from './interface/center-align_doodle';
+import { ChecklistDoodle, ChecklistDoodleMetadata } from './interface/checklist_doodle';
+import { ClockDoodle, ClockDoodleMetadata } from './interface/clock_doodle';
+import { CloudDownDoodle, CloudDownDoodleMetadata } from './interface/cloud-down_doodle';
+import { CloudUpDoodle, CloudUpDoodleMetadata } from './interface/cloud-up_doodle';
+import { CloudDoodle, CloudDoodleMetadata } from './interface/cloud_doodle';
+import { CookieDoodle, CookieDoodleMetadata } from './interface/cookie_doodle';
+import { CopyDoodle, CopyDoodleMetadata } from './interface/copy_doodle';
+import { CropDoodle, CropDoodleMetadata } from './interface/crop_doodle';
+import { CrossDoodle, CrossDoodleMetadata } from './interface/cross_doodle';
+import { CutDoodle, CutDoodleMetadata } from './interface/cut_doodle';
+import { Dashboard2Doodle, Dashboard2DoodleMetadata } from './interface/dashboard-2_doodle';
+import { Dashboard3Doodle, Dashboard3DoodleMetadata } from './interface/dashboard-3_doodle';
+import { Dashboard4Doodle, Dashboard4DoodleMetadata } from './interface/dashboard-4_doodle';
+import { DashboardDoodle, DashboardDoodleMetadata } from './interface/dashboard_doodle';
+import { DeleteDoodle, DeleteDoodleMetadata } from './interface/delete_doodle';
+import { DiamondDoodle, DiamondDoodleMetadata } from './interface/diamond_doodle';
+import { DocAddDoodle, DocAddDoodleMetadata } from './interface/doc-add_doodle';
+import { DocRemoveDoodle, DocRemoveDoodleMetadata } from './interface/doc-remove_doodle';
+import { DocDoodle, DocDoodleMetadata } from './interface/doc_doodle';
+import { DownloadDoodle, DownloadDoodleMetadata } from './interface/download_doodle';
+import { DrawerDoodle, DrawerDoodleMetadata } from './interface/drawer_doodle';
+import { EjectDoodle, EjectDoodleMetadata } from './interface/eject_doodle';
+import { EraserDoodle, EraserDoodleMetadata } from './interface/eraser_doodle';
+import { FastForwardDoodle, FastForwardDoodleMetadata } from './interface/fast-forward_doodle';
+import { FastRewindDoodle, FastRewindDoodleMetadata } from './interface/fast-rewind_doodle';
+import { FilterDoodle, FilterDoodleMetadata } from './interface/filter_doodle';
+import { Flag2Doodle, Flag2DoodleMetadata } from './interface/flag-2_doodle';
+import { FlagDoodle, FlagDoodleMetadata } from './interface/flag_doodle';
+import { FlipDoodle, FlipDoodleMetadata } from './interface/flip_doodle';
+import { FloppyDoodle, FloppyDoodleMetadata } from './interface/floppy_doodle';
+import { FolderAddDoodle, FolderAddDoodleMetadata } from './interface/folder-add_doodle';
+import { FolderDeleteDoodle, FolderDeleteDoodleMetadata } from './interface/folder-delete_doodle';
+import { FolderEmptyDoodle, FolderEmptyDoodleMetadata } from './interface/folder-empty_doodle';
+import { FolderRemoveDoodle, FolderRemoveDoodleMetadata } from './interface/folder-remove_doodle';
+import { FolderDoodle, FolderDoodleMetadata } from './interface/folder_doodle';
+import { ForwardDoodle, ForwardDoodleMetadata } from './interface/forward_doodle';
+import { GiftDoodle, GiftDoodleMetadata } from './interface/gift_doodle';
+import { GlobeDoodle, GlobeDoodleMetadata } from './interface/globe_doodle';
+import { Grid2Doodle, Grid2DoodleMetadata } from './interface/grid-2_doodle';
+import { GridDoodle, GridDoodleMetadata } from './interface/grid_doodle';
+import { HeadphoneDoodle, HeadphoneDoodleMetadata } from './interface/headphone_doodle';
+import { HeartDoodle, HeartDoodleMetadata } from './interface/heart_doodle';
+import { HideDoodle, HideDoodleMetadata } from './interface/hide_doodle';
+import { Home1Doodle, Home1DoodleMetadata } from './interface/home-1_doodle';
+import { HomeDoodle, HomeDoodleMetadata } from './interface/home_doodle';
+import { KeyDoodle, KeyDoodleMetadata } from './interface/key_doodle';
+import { LayerDoodle, LayerDoodleMetadata } from './interface/layer_doodle';
+import { LeftAlign2Doodle, LeftAlign2DoodleMetadata } from './interface/left-align-2_doodle';
+import { LeftAlignDoodle, LeftAlignDoodleMetadata } from './interface/left-align_doodle';
+import { LinkDoodle, LinkDoodleMetadata } from './interface/link_doodle';
+import { ListDoodle, ListDoodleMetadata } from './interface/list_doodle';
+import { LocationPinDoodle, LocationPinDoodleMetadata } from './interface/location-pin_doodle';
+import { LockDoodle, LockDoodleMetadata } from './interface/lock_doodle';
+import { LoginDoodle, LoginDoodleMetadata } from './interface/login_doodle';
+import { LogoutDoodle, LogoutDoodleMetadata } from './interface/logout_doodle';
+import { MagicWandDoodle, MagicWandDoodleMetadata } from './interface/magic-wand_doodle';
+import { MailGiftDoodle, MailGiftDoodleMetadata } from './interface/mail-gift_doodle';
+import { MailOpenDoodle, MailOpenDoodleMetadata } from './interface/mail-open_doodle';
+import { MailSurpriseDoodle, MailSurpriseDoodleMetadata } from './interface/mail-surprise_doodle';
+import { MailDoodle, MailDoodleMetadata } from './interface/mail_doodle';
+import { MapDoodle, MapDoodleMetadata } from './interface/map_doodle';
+import { MaximizeDoodle, MaximizeDoodleMetadata } from './interface/maximize_doodle';
+import { MegaphoneDoodle, MegaphoneDoodleMetadata } from './interface/megaphone_doodle';
+import { Menu2Doodle, Menu2DoodleMetadata } from './interface/menu-2_doodle';
+import { MenuDoodle, MenuDoodleMetadata } from './interface/menu_doodle';
+import { Message2Doodle, Message2DoodleMetadata } from './interface/message-2_doodle';
+import { MessageDoodle, MessageDoodleMetadata } from './interface/message_doodle';
+import { Mic2Doodle, Mic2DoodleMetadata } from './interface/mic-2_doodle';
+import { MicDoodle, MicDoodleMetadata } from './interface/mic_doodle';
+import { MinimizeDoodle, MinimizeDoodleMetadata } from './interface/minimize_doodle';
+import { MoveDoodle, MoveDoodleMetadata } from './interface/move_doodle';
+import { Music2Doodle, Music2DoodleMetadata } from './interface/music-2_doodle';
+import { Music3Doodle, Music3DoodleMetadata } from './interface/music-3_doodle';
+import { MusicDoodle, MusicDoodleMetadata } from './interface/music_doodle';
+import { MuteDoodle, MuteDoodleMetadata } from './interface/mute_doodle';
+import { Navigation2Doodle, Navigation2DoodleMetadata } from './interface/navigation-2_doodle';
+import { NavigationDoodle, NavigationDoodleMetadata } from './interface/navigation_doodle';
+import { NoteDoodle, NoteDoodleMetadata } from './interface/note_doodle';
+import { PaperClip2Doodle, PaperClip2DoodleMetadata } from './interface/paper-clip-2_doodle';
+import { PaperClipDoodle, PaperClipDoodleMetadata } from './interface/paper-clip_doodle';
+import { PasteDoodle, PasteDoodleMetadata } from './interface/paste_doodle';
+import { PauseDoodle, PauseDoodleMetadata } from './interface/pause_doodle';
+import { PenToolDoodle, PenToolDoodleMetadata } from './interface/pen-tool_doodle';
+import { PenDoodle, PenDoodleMetadata } from './interface/pen_doodle';
+import { Pencil2Doodle, Pencil2DoodleMetadata } from './interface/pencil-2_doodle';
+import { Pencil3Doodle, Pencil3DoodleMetadata } from './interface/pencil-3_doodle';
+import { PencilRulerDoodle, PencilRulerDoodleMetadata } from './interface/pencil-ruler_doodle';
+import { PencilDoodle, PencilDoodleMetadata } from './interface/pencil_doodle';
+import { PhoneSettingDoodle, PhoneSettingDoodleMetadata } from './interface/phone-setting_doodle';
+import { PhoneDoodle, PhoneDoodleMetadata } from './interface/phone_doodle';
+import { PhotoDoodle, PhotoDoodleMetadata } from './interface/photo_doodle';
+import { PieDoodle, PieDoodleMetadata } from './interface/pie_doodle';
+import { PinDoodle, PinDoodleMetadata } from './interface/pin_doodle';
+import { PlayDoodle, PlayDoodleMetadata } from './interface/play_doodle';
+import { Puzzle2Doodle, Puzzle2DoodleMetadata } from './interface/puzzle-2_doodle';
+import { PuzzleDoodle, PuzzleDoodleMetadata } from './interface/puzzle_doodle';
+import { Question2Doodle, Question2DoodleMetadata } from './interface/question-2_doodle';
+import { QuestionDoodle, QuestionDoodleMetadata } from './interface/question_doodle';
+import { RecordDoodle, RecordDoodleMetadata } from './interface/record_doodle';
+import { RectangleDoodle, RectangleDoodleMetadata } from './interface/rectangle_doodle';
+import { RightAlign2Doodle, RightAlign2DoodleMetadata } from './interface/right-align-2_doodle';
+import { RightAlignDoodle, RightAlignDoodleMetadata } from './interface/right-align_doodle';
+import { RssDoodle, RssDoodleMetadata } from './interface/rss_doodle';
+import { RulerDoodle, RulerDoodleMetadata } from './interface/ruler_doodle';
+import { SearchDoodle, SearchDoodleMetadata } from './interface/search_doodle';
+import { Send2Doodle, Send2DoodleMetadata } from './interface/send-2_doodle';
+import { Send3Doodle, Send3DoodleMetadata } from './interface/send-3_doodle';
+import { SendDoodle, SendDoodleMetadata } from './interface/send_doodle';
+import { ServerDoodle, ServerDoodleMetadata } from './interface/server_doodle';
+import { Setting2Doodle, Setting2DoodleMetadata } from './interface/setting-2_doodle';
+import { Setting3Doodle, Setting3DoodleMetadata } from './interface/setting-3_doodle';
+import { SettingDoodle, SettingDoodleMetadata } from './interface/setting_doodle';
+import { ShapeDoodle, ShapeDoodleMetadata } from './interface/shape_doodle';
+import { Shield2Doodle, Shield2DoodleMetadata } from './interface/shield-2_doodle';
+import { ShieldDoodle, ShieldDoodleMetadata } from './interface/shield_doodle';
+import { ShuffleDoodle, ShuffleDoodleMetadata } from './interface/shuffle_doodle';
+import { SignalDoodle, SignalDoodleMetadata } from './interface/signal_doodle';
+import { SpeakerDoodle, SpeakerDoodleMetadata } from './interface/speaker_doodle';
+import { SquareDoodle, SquareDoodleMetadata } from './interface/square_doodle';
+import { StarDoodle, StarDoodleMetadata } from './interface/star_doodle';
+import { StopwatchDoodle, StopwatchDoodleMetadata } from './interface/stopwatch_doodle';
+import { SuitcaseDoodle, SuitcaseDoodleMetadata } from './interface/suitcase_doodle';
+import { Sun2Doodle, Sun2DoodleMetadata } from './interface/sun-2_doodle';
+import { Sun3Doodle, Sun3DoodleMetadata } from './interface/sun-3_doodle';
+import { Sun4Doodle, Sun4DoodleMetadata } from './interface/sun-4_doodle';
+import { SunDoodle, SunDoodleMetadata } from './interface/sun_doodle';
+import { Switch1Doodle, Switch1DoodleMetadata } from './interface/switch-1_doodle';
+import { SwitchDoodle, SwitchDoodleMetadata } from './interface/switch_doodle';
+import { SyncDoodle, SyncDoodleMetadata } from './interface/sync_doodle';
+import { Target2Doodle, Target2DoodleMetadata } from './interface/target-2_doodle';
+import { TargetDoodle, TargetDoodleMetadata } from './interface/target_doodle';
+import { Tick2Doodle, Tick2DoodleMetadata } from './interface/tick-2_doodle';
+import { TickDoodle, TickDoodleMetadata } from './interface/tick_doodle';
+import { TransformDoodle, TransformDoodleMetadata } from './interface/transform_doodle';
+import { Tree2Doodle, Tree2DoodleMetadata } from './interface/tree-2_doodle';
+import { TreeDoodle, TreeDoodleMetadata } from './interface/tree_doodle';
+import { TrophyDoodle, TrophyDoodleMetadata } from './interface/trophy_doodle';
+import { UnhideDoodle, UnhideDoodleMetadata } from './interface/unhide_doodle';
+import { UnlinkDoodle, UnlinkDoodleMetadata } from './interface/unlink_doodle';
+import { UploadDoodle, UploadDoodleMetadata } from './interface/upload_doodle';
+import { UserAddDoodle, UserAddDoodleMetadata } from './interface/user-add_doodle';
+import { UserCautionDoodle, UserCautionDoodleMetadata } from './interface/user-caution_doodle';
+import { UserDeleteDoodle, UserDeleteDoodleMetadata } from './interface/user-delete_doodle';
+import { UserFemaleDoodle, UserFemaleDoodleMetadata } from './interface/user-female_doodle';
+import { UserMaleDoodle, UserMaleDoodleMetadata } from './interface/user-male_doodle';
+import { UserRemoveDoodle, UserRemoveDoodleMetadata } from './interface/user-remove_doodle';
+import { UserDoodle, UserDoodleMetadata } from './interface/user_doodle';
+import { VideoCameraDoodle, VideoCameraDoodleMetadata } from './interface/video-camera_doodle';
+import { VolumeDownDoodle, VolumeDownDoodleMetadata } from './interface/volume-down_doodle';
+import { VolumeUpDoodle, VolumeUpDoodleMetadata } from './interface/volume-up_doodle';
+import { ZapDoodle, ZapDoodleMetadata } from './interface/zap_doodle';
+import { ZoomOut1Doodle, ZoomOut1DoodleMetadata } from './interface/zoom-out-1_doodle';
 import { BetweenHorizontalEnd, BetweenHorizontalEndMetadata } from './layout/between-horizontal-end';
 import { BetweenHorizontalStart, BetweenHorizontalStartMetadata } from './layout/between-horizontal-start';
 import { BetweenVerticalEnd, BetweenVerticalEndMetadata } from './layout/between-vertical-end';
@@ -4336,23 +5206,6 @@ import { Tally2, Tally2Metadata } from './math/tally-2';
 import { Tally3, Tally3Metadata } from './math/tally-3';
 import { Tally4, Tally4Metadata } from './math/tally-4';
 import { Tally5, Tally5Metadata } from './math/tally-5';
-import { Biohazard, BiohazardMetadata } from './medical/biohazard';
-import { DnaOff, DnaOffMetadata } from './medical/dna-off';
-import { Dna, DnaMetadata } from './medical/dna';
-import { FlaskConicalOff, FlaskConicalOffMetadata } from './medical/flask-conical-off';
-import { FlaskConical, FlaskConicalMetadata } from './medical/flask-conical';
-import { FlaskRound, FlaskRoundMetadata } from './medical/flask-round';
-import { PillBottle, PillBottleMetadata } from './medical/pill-bottle';
-import { Pill, PillMetadata } from './medical/pill';
-import { Stethoscope, StethoscopeMetadata } from './medical/stethoscope';
-import { Syringe, SyringeMetadata } from './medical/syringe';
-import { Tablets, TabletsMetadata } from './medical/tablets';
-import { TestTubeDiagonal, TestTubeDiagonalMetadata } from './medical/test-tube-diagonal';
-import { TestTube, TestTubeMetadata } from './medical/test-tube';
-import { TestTubes, TestTubesMetadata } from './medical/test-tubes';
-import { ThermometerSnowflake, ThermometerSnowflakeMetadata } from './medical/thermometer-snowflake';
-import { ThermometerSun, ThermometerSunMetadata } from './medical/thermometer-sun';
-import { Thermometer, ThermometerMetadata } from './medical/thermometer';
 import { Message2Filled, Message2FilledMetadata } from './message/message-2_filled';
 import { MessageChatbotFilled, MessageChatbotFilledMetadata } from './message/message-chatbot_filled';
 import { MessageCircleCheck, MessageCircleCheckMetadata } from './message/message-circle-check';
@@ -4388,6 +5241,20 @@ import { MessageSquareX, MessageSquareXMetadata } from './message/message-square
 import { MessageSquare, MessageSquareMetadata } from './message/message-square';
 import { MessageFilled, MessageFilledMetadata } from './message/message_filled';
 import { MessagesSquare, MessagesSquareMetadata } from './message/messages-square';
+import { AutomationDoodle, AutomationDoodleMetadata } from './misc/automation_doodle';
+import { BotDoodle, BotDoodleMetadata } from './misc/bot_doodle';
+import { BugDoodle, BugDoodleMetadata } from './misc/bug_doodle';
+import { BusDoodle, BusDoodleMetadata } from './misc/bus_doodle';
+import { CarDoodle, CarDoodleMetadata } from './misc/car_doodle';
+import { ChipDoodle, ChipDoodleMetadata } from './misc/chip_doodle';
+import { CoffeeCup1Doodle, CoffeeCup1DoodleMetadata } from './misc/coffee-cup-1_doodle';
+import { CoffeeCup2Doodle, CoffeeCup2DoodleMetadata } from './misc/coffee-cup-2_doodle';
+import { FireDoodle, FireDoodleMetadata } from './misc/fire_doodle';
+import { HotAirBalloonDoodle, HotAirBalloonDoodleMetadata } from './misc/hot-air-balloon_doodle';
+import { PlaneDoodle, PlaneDoodleMetadata } from './misc/plane_doodle';
+import { RocketDoodle, RocketDoodleMetadata } from './misc/rocket_doodle';
+import { SatelliteDoodle, SatelliteDoodleMetadata } from './misc/satellite_doodle';
+import { ShipDoodle, ShipDoodleMetadata } from './misc/ship_doodle';
 import { MonitorCheck, MonitorCheckMetadata } from './monitor/monitor-check';
 import { MonitorCloud, MonitorCloudMetadata } from './monitor/monitor-cloud';
 import { MonitorCog, MonitorCogMetadata } from './monitor/monitor-cog';
@@ -5437,15 +6304,28 @@ import { UserX, UserXMetadata } from './user/user-x';
 import { User, UserMetadata } from './user/user';
 import { UsersRound, UsersRoundMetadata } from './user/users-round';
 import { Users, UsersMetadata } from './user/users';
+import { VectorDoodle, VectorDoodleMetadata } from './weather/Vector_doodle';
+import { CloudyDayDoodle, CloudyDayDoodleMetadata } from './weather/cloudy-day_doodle';
+import { CloudyNightDoodle, CloudyNightDoodleMetadata } from './weather/cloudy-night_doodle';
 import { MoonStar, MoonStarMetadata } from './weather/moon-star';
 import { Moon, MoonMetadata } from './weather/moon';
+import { NightDoodle, NightDoodleMetadata } from './weather/night_doodle';
+import { RainHeavyDoodle, RainHeavyDoodleMetadata } from './weather/rain-heavy_doodle';
+import { RainLightDoodle, RainLightDoodleMetadata } from './weather/rain-light_doodle';
+import { SnowDoodle, SnowDoodleMetadata } from './weather/snow_doodle';
+import { SnowflakeDoodle, SnowflakeDoodleMetadata } from './weather/snowflake_doodle';
+import { SnowmanDoodle, SnowmanDoodleMetadata } from './weather/snowman_doodle';
 import { SunDim, SunDimMetadata } from './weather/sun-dim';
 import { SunMedium, SunMediumMetadata } from './weather/sun-medium';
 import { SunMoon, SunMoonMetadata } from './weather/sun-moon';
 import { SunSnow, SunSnowMetadata } from './weather/sun-snow';
 import { Sun, SunMetadata } from './weather/sun';
+import { SunnyDoodle, SunnyDoodleMetadata } from './weather/sunny_doodle';
 import { Sunrise, SunriseMetadata } from './weather/sunrise';
 import { Sunset, SunsetMetadata } from './weather/sunset';
+import { ThunderstormDoodle, ThunderstormDoodleMetadata } from './weather/thunderstorm_doodle';
+import { TornadoDoodle, TornadoDoodleMetadata } from './weather/tornado_doodle';
+import { WindDoodle, WindDoodleMetadata } from './weather/wind_doodle';
 import { ZodiacAquarius, ZodiacAquariusMetadata } from './zodiac/zodiac-aquarius';
 import { ZodiacAries, ZodiacAriesMetadata } from './zodiac/zodiac-aries';
 import { ZodiacCancer, ZodiacCancerMetadata } from './zodiac/zodiac-cancer';
@@ -5590,6 +6470,10 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
     ArrowBigUpLinesFilled: { Component: ArrowBigUpLinesFilled, metadata: ArrowBigUpLinesFilledMetadata },
     ArrowBigUp: { Component: ArrowBigUp, metadata: ArrowBigUpMetadata },
     ArrowBigUpFilled: { Component: ArrowBigUpFilled, metadata: ArrowBigUpFilledMetadata },
+    ArrowCircleDownDoodle: { Component: ArrowCircleDownDoodle, metadata: ArrowCircleDownDoodleMetadata },
+    ArrowCircleLeftDoodle: { Component: ArrowCircleLeftDoodle, metadata: ArrowCircleLeftDoodleMetadata },
+    ArrowCircleRightDoodle: { Component: ArrowCircleRightDoodle, metadata: ArrowCircleRightDoodleMetadata },
+    ArrowCircleUpDoodle: { Component: ArrowCircleUpDoodle, metadata: ArrowCircleUpDoodleMetadata },
     ArrowDown01: { Component: ArrowDown01, metadata: ArrowDown01Metadata },
     ArrowDown10: { Component: ArrowDown10, metadata: ArrowDown10Metadata },
     ArrowDownAZ: { Component: ArrowDownAZ, metadata: ArrowDownAZMetadata },
@@ -5606,6 +6490,7 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
     ArrowDownWideNarrow: { Component: ArrowDownWideNarrow, metadata: ArrowDownWideNarrowMetadata },
     ArrowDownZA: { Component: ArrowDownZA, metadata: ArrowDownZAMetadata },
     ArrowDown: { Component: ArrowDown, metadata: ArrowDownMetadata },
+    ArrowDownDoodle: { Component: ArrowDownDoodle, metadata: ArrowDownDoodleMetadata },
     ArrowGuideFilled: { Component: ArrowGuideFilled, metadata: ArrowGuideFilledMetadata },
     ArrowLeftCircleFilled: { Component: ArrowLeftCircleFilled, metadata: ArrowLeftCircleFilledMetadata },
     ArrowLeftFromLine: { Component: ArrowLeftFromLine, metadata: ArrowLeftFromLineMetadata },
@@ -5614,10 +6499,13 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
     ArrowLeftSquareFilled: { Component: ArrowLeftSquareFilled, metadata: ArrowLeftSquareFilledMetadata },
     ArrowLeftToLine: { Component: ArrowLeftToLine, metadata: ArrowLeftToLineMetadata },
     ArrowLeft: { Component: ArrowLeft, metadata: ArrowLeftMetadata },
+    ArrowLeftDoodle: { Component: ArrowLeftDoodle, metadata: ArrowLeftDoodleMetadata },
     ArrowMoveDownFilled: { Component: ArrowMoveDownFilled, metadata: ArrowMoveDownFilledMetadata },
     ArrowMoveLeftFilled: { Component: ArrowMoveLeftFilled, metadata: ArrowMoveLeftFilledMetadata },
     ArrowMoveRightFilled: { Component: ArrowMoveRightFilled, metadata: ArrowMoveRightFilledMetadata },
     ArrowMoveUpFilled: { Component: ArrowMoveUpFilled, metadata: ArrowMoveUpFilledMetadata },
+    ArrowNeDoodle: { Component: ArrowNeDoodle, metadata: ArrowNeDoodleMetadata },
+    ArrowNwDoodle: { Component: ArrowNwDoodle, metadata: ArrowNwDoodleMetadata },
     ArrowRightCircleFilled: { Component: ArrowRightCircleFilled, metadata: ArrowRightCircleFilledMetadata },
     ArrowRightFromLine: { Component: ArrowRightFromLine, metadata: ArrowRightFromLineMetadata },
     ArrowRightLeft: { Component: ArrowRightLeft, metadata: ArrowRightLeftMetadata },
@@ -5625,6 +6513,17 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
     ArrowRightSquareFilled: { Component: ArrowRightSquareFilled, metadata: ArrowRightSquareFilledMetadata },
     ArrowRightToLine: { Component: ArrowRightToLine, metadata: ArrowRightToLineMetadata },
     ArrowRight: { Component: ArrowRight, metadata: ArrowRightMetadata },
+    ArrowRightDoodle: { Component: ArrowRightDoodle, metadata: ArrowRightDoodleMetadata },
+    ArrowSeDoodle: { Component: ArrowSeDoodle, metadata: ArrowSeDoodleMetadata },
+    ArrowSingleDownDoodle: { Component: ArrowSingleDownDoodle, metadata: ArrowSingleDownDoodleMetadata },
+    ArrowSingleLeftDoodle: { Component: ArrowSingleLeftDoodle, metadata: ArrowSingleLeftDoodleMetadata },
+    ArrowSingleRightDoodle: { Component: ArrowSingleRightDoodle, metadata: ArrowSingleRightDoodleMetadata },
+    ArrowSingleUpDoodle: { Component: ArrowSingleUpDoodle, metadata: ArrowSingleUpDoodleMetadata },
+    ArrowSquareDownDoodle: { Component: ArrowSquareDownDoodle, metadata: ArrowSquareDownDoodleMetadata },
+    ArrowSquareLeftDoodle: { Component: ArrowSquareLeftDoodle, metadata: ArrowSquareLeftDoodleMetadata },
+    ArrowSquareRightDoodle: { Component: ArrowSquareRightDoodle, metadata: ArrowSquareRightDoodleMetadata },
+    ArrowSquareUpDoodle: { Component: ArrowSquareUpDoodle, metadata: ArrowSquareUpDoodleMetadata },
+    ArrowSwDoodle: { Component: ArrowSwDoodle, metadata: ArrowSwDoodleMetadata },
     ArrowUp01: { Component: ArrowUp01, metadata: ArrowUp01Metadata },
     ArrowUp10: { Component: ArrowUp10, metadata: ArrowUp10Metadata },
     ArrowUpAZ: { Component: ArrowUpAZ, metadata: ArrowUpAZMetadata },
@@ -5641,6 +6540,7 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
     ArrowUpWideNarrow: { Component: ArrowUpWideNarrow, metadata: ArrowUpWideNarrowMetadata },
     ArrowUpZA: { Component: ArrowUpZA, metadata: ArrowUpZAMetadata },
     ArrowUp: { Component: ArrowUp, metadata: ArrowUpMetadata },
+    ArrowUpDoodle: { Component: ArrowUpDoodle, metadata: ArrowUpDoodleMetadata },
     ArrowsUpFromLine: { Component: ArrowsUpFromLine, metadata: ArrowsUpFromLineMetadata },
     ChevronDown: { Component: ChevronDown, metadata: ChevronDownMetadata },
     ChevronFirst: { Component: ChevronFirst, metadata: ChevronFirstMetadata },
@@ -5650,13 +6550,17 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
     ChevronUp: { Component: ChevronUp, metadata: ChevronUpMetadata },
     ChevronsDownUp: { Component: ChevronsDownUp, metadata: ChevronsDownUpMetadata },
     ChevronsDown: { Component: ChevronsDown, metadata: ChevronsDownMetadata },
+    ChevronsDownDoodle: { Component: ChevronsDownDoodle, metadata: ChevronsDownDoodleMetadata },
     ChevronsLeftRightEllipsis: { Component: ChevronsLeftRightEllipsis, metadata: ChevronsLeftRightEllipsisMetadata },
     ChevronsLeftRight: { Component: ChevronsLeftRight, metadata: ChevronsLeftRightMetadata },
     ChevronsLeft: { Component: ChevronsLeft, metadata: ChevronsLeftMetadata },
+    ChevronsLeftDoodle: { Component: ChevronsLeftDoodle, metadata: ChevronsLeftDoodleMetadata },
     ChevronsRightLeft: { Component: ChevronsRightLeft, metadata: ChevronsRightLeftMetadata },
     ChevronsRight: { Component: ChevronsRight, metadata: ChevronsRightMetadata },
+    ChevronsRightDoodle: { Component: ChevronsRightDoodle, metadata: ChevronsRightDoodleMetadata },
     ChevronsUpDown: { Component: ChevronsUpDown, metadata: ChevronsUpDownMetadata },
     ChevronsUp: { Component: ChevronsUp, metadata: ChevronsUpMetadata },
+    ChevronsUpDoodle: { Component: ChevronsUpDoodle, metadata: ChevronsUpDoodleMetadata },
     CornerDownLeft: { Component: CornerDownLeft, metadata: CornerDownLeftMetadata },
     CornerDownRight: { Component: CornerDownRight, metadata: CornerDownRightMetadata },
     CornerLeftDown: { Component: CornerLeftDown, metadata: CornerLeftDownMetadata },
@@ -5767,6 +6671,8 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
     NotepadText: { Component: NotepadText, metadata: NotepadTextMetadata },
   },
   brand: {
+    AppleDoodle: { Component: AppleDoodle, metadata: AppleDoodleMetadata },
+    BehanceDoodle: { Component: BehanceDoodle, metadata: BehanceDoodleMetadata },
     BrandAngularFilled: { Component: BrandAngularFilled, metadata: BrandAngularFilledMetadata },
     BrandAppleFilled: { Component: BrandAppleFilled, metadata: BrandAppleFilledMetadata },
     BrandBitbucketFilled: { Component: BrandBitbucketFilled, metadata: BrandBitbucketFilledMetadata },
@@ -5801,6 +6707,31 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
     BrandWindowsFilled: { Component: BrandWindowsFilled, metadata: BrandWindowsFilledMetadata },
     BrandXFilled: { Component: BrandXFilled, metadata: BrandXFilledMetadata },
     BrandYoutubeFilled: { Component: BrandYoutubeFilled, metadata: BrandYoutubeFilledMetadata },
+    CodepenDoodle: { Component: CodepenDoodle, metadata: CodepenDoodleMetadata },
+    DribbbleDoodle: { Component: DribbbleDoodle, metadata: DribbbleDoodleMetadata },
+    DropboxDoodle: { Component: DropboxDoodle, metadata: DropboxDoodleMetadata },
+    Facebook2Doodle: { Component: Facebook2Doodle, metadata: Facebook2DoodleMetadata },
+    FacebookDoodle: { Component: FacebookDoodle, metadata: FacebookDoodleMetadata },
+    FbMessengerDoodle: { Component: FbMessengerDoodle, metadata: FbMessengerDoodleMetadata },
+    GoogleDoodle: { Component: GoogleDoodle, metadata: GoogleDoodleMetadata },
+    InstagramDoodle: { Component: InstagramDoodle, metadata: InstagramDoodleMetadata },
+    LinkedinDoodle: { Component: LinkedinDoodle, metadata: LinkedinDoodleMetadata },
+    PaypalDoodle: { Component: PaypalDoodle, metadata: PaypalDoodleMetadata },
+    PinterestDoodle: { Component: PinterestDoodle, metadata: PinterestDoodleMetadata },
+    ProductHuntDoodle: { Component: ProductHuntDoodle, metadata: ProductHuntDoodleMetadata },
+    SkypeDoodle: { Component: SkypeDoodle, metadata: SkypeDoodleMetadata },
+    SnapchatDoodle: { Component: SnapchatDoodle, metadata: SnapchatDoodleMetadata },
+    SpotifyDoodle: { Component: SpotifyDoodle, metadata: SpotifyDoodleMetadata },
+    TikTokDoodle: { Component: TikTokDoodle, metadata: TikTokDoodleMetadata },
+    TumblrDoodle: { Component: TumblrDoodle, metadata: TumblrDoodleMetadata },
+    TwitchDoodle: { Component: TwitchDoodle, metadata: TwitchDoodleMetadata },
+    TwitterDoodle: { Component: TwitterDoodle, metadata: TwitterDoodleMetadata },
+    UberDoodle: { Component: UberDoodle, metadata: UberDoodleMetadata },
+    WebflowDoodle: { Component: WebflowDoodle, metadata: WebflowDoodleMetadata },
+    WhatsappDoodle: { Component: WhatsappDoodle, metadata: WhatsappDoodleMetadata },
+    WindowsDoodle: { Component: WindowsDoodle, metadata: WindowsDoodleMetadata },
+    YCombinatorDoodle: { Component: YCombinatorDoodle, metadata: YCombinatorDoodleMetadata },
+    YoutubeDoodle: { Component: YoutubeDoodle, metadata: YoutubeDoodleMetadata },
   },
   building: {
     Building2: { Component: Building2, metadata: Building2Metadata },
@@ -6083,6 +7014,35 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
     Codesandbox: { Component: Codesandbox, metadata: CodesandboxMetadata },
     Component: { Component: Component, metadata: ComponentMetadata },
   },
+  commerce: {
+    Bag2Doodle: { Component: Bag2Doodle, metadata: Bag2DoodleMetadata },
+    BagDoodle: { Component: BagDoodle, metadata: BagDoodleMetadata },
+    BasketDoodle: { Component: BasketDoodle, metadata: BasketDoodleMetadata },
+    Box2Doodle: { Component: Box2Doodle, metadata: Box2DoodleMetadata },
+    BoxDoodle: { Component: BoxDoodle, metadata: BoxDoodleMetadata },
+    Card2Doodle: { Component: Card2Doodle, metadata: Card2DoodleMetadata },
+    Card3Doodle: { Component: Card3Doodle, metadata: Card3DoodleMetadata },
+    CardDoodle: { Component: CardDoodle, metadata: CardDoodleMetadata },
+    CartAddDoodle: { Component: CartAddDoodle, metadata: CartAddDoodleMetadata },
+    CartDeleteDoodle: { Component: CartDeleteDoodle, metadata: CartDeleteDoodleMetadata },
+    CartRemoveDoodle: { Component: CartRemoveDoodle, metadata: CartRemoveDoodleMetadata },
+    ConveyorBeltDoodle: { Component: ConveyorBeltDoodle, metadata: ConveyorBeltDoodleMetadata },
+    FactoryDoodle: { Component: FactoryDoodle, metadata: FactoryDoodleMetadata },
+    HandTruckDoodle: { Component: HandTruckDoodle, metadata: HandTruckDoodleMetadata },
+    LocationDoodle: { Component: LocationDoodle, metadata: LocationDoodleMetadata },
+    OfferDoodle: { Component: OfferDoodle, metadata: OfferDoodleMetadata },
+    QrDoodle: { Component: QrDoodle, metadata: QrDoodleMetadata },
+    SaleDoodle: { Component: SaleDoodle, metadata: SaleDoodleMetadata },
+    ShopDoodle: { Component: ShopDoodle, metadata: ShopDoodleMetadata },
+    ShoppingCart2Doodle: { Component: ShoppingCart2Doodle, metadata: ShoppingCart2DoodleMetadata },
+    ShoppingCart3Doodle: { Component: ShoppingCart3Doodle, metadata: ShoppingCart3DoodleMetadata },
+    ShoppingCartDoodle: { Component: ShoppingCartDoodle, metadata: ShoppingCartDoodleMetadata },
+    Tag2Doodle: { Component: Tag2Doodle, metadata: Tag2DoodleMetadata },
+    TagDoodle: { Component: TagDoodle, metadata: TagDoodleMetadata },
+    TruckDoodle: { Component: TruckDoodle, metadata: TruckDoodleMetadata },
+    UnboxDoodle: { Component: UnboxDoodle, metadata: UnboxDoodleMetadata },
+    WarehouseDoodle: { Component: WarehouseDoodle, metadata: WarehouseDoodleMetadata },
+  },
   communiccation: {
     PhoneCall: { Component: PhoneCall, metadata: PhoneCallMetadata },
     PhoneCallFilled: { Component: PhoneCallFilled, metadata: PhoneCallFilledMetadata },
@@ -6217,6 +7177,13 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
   emoji: {
     Angry: { Component: Angry, metadata: AngryMetadata },
     Annoyed: { Component: Annoyed, metadata: AnnoyedMetadata },
+    ConfusedEmojiDoodle: { Component: ConfusedEmojiDoodle, metadata: ConfusedEmojiDoodleMetadata },
+    CoolEmojiDoodle: { Component: CoolEmojiDoodle, metadata: CoolEmojiDoodleMetadata },
+    CryingEmojiDoodle: { Component: CryingEmojiDoodle, metadata: CryingEmojiDoodleMetadata },
+    GrinningSquintingEmojiDoodle: { Component: GrinningSquintingEmojiDoodle, metadata: GrinningSquintingEmojiDoodleMetadata },
+    HappyEmojiDoodle: { Component: HappyEmojiDoodle, metadata: HappyEmojiDoodleMetadata },
+    HeartEyesEmojiDoodle: { Component: HeartEyesEmojiDoodle, metadata: HeartEyesEmojiDoodleMetadata },
+    LaughEmojiDoodle: { Component: LaughEmojiDoodle, metadata: LaughEmojiDoodleMetadata },
     Laugh: { Component: Laugh, metadata: LaughMetadata },
     MoodAngryFilled: { Component: MoodAngryFilled, metadata: MoodAngryFilledMetadata },
     MoodConfuzedFilled: { Component: MoodConfuzedFilled, metadata: MoodConfuzedFilledMetadata },
@@ -6228,12 +7195,21 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
     MoodSadFilled: { Component: MoodSadFilled, metadata: MoodSadFilledMetadata },
     MoodSmileFilled: { Component: MoodSmileFilled, metadata: MoodSmileFilledMetadata },
     MoodWrrrFilled: { Component: MoodWrrrFilled, metadata: MoodWrrrFilledMetadata },
+    SadEmojiDoodle: { Component: SadEmojiDoodle, metadata: SadEmojiDoodleMetadata },
+    ShockedEmojiDoodle: { Component: ShockedEmojiDoodle, metadata: ShockedEmojiDoodleMetadata },
     SmilePlus: { Component: SmilePlus, metadata: SmilePlusMetadata },
     Smile: { Component: Smile, metadata: SmileMetadata },
+    SmilingEmojiDoodle: { Component: SmilingEmojiDoodle, metadata: SmilingEmojiDoodleMetadata },
+    SmilingWithEyesEmojiDoodle: { Component: SmilingWithEyesEmojiDoodle, metadata: SmilingWithEyesEmojiDoodleMetadata },
+    SurprisedEmojiDoodle: { Component: SurprisedEmojiDoodle, metadata: SurprisedEmojiDoodleMetadata },
+    WinkEmojiDoodle: { Component: WinkEmojiDoodle, metadata: WinkEmojiDoodleMetadata },
+    WorriedEmojiDoodle: { Component: WorriedEmojiDoodle, metadata: WorriedEmojiDoodleMetadata },
   },
   file: {
     FileAnalyticsFilled: { Component: FileAnalyticsFilled, metadata: FileAnalyticsFilledMetadata },
     FileArchive: { Component: FileArchive, metadata: FileArchiveMetadata },
+    FileAttachmentDoodle: { Component: FileAttachmentDoodle, metadata: FileAttachmentDoodleMetadata },
+    FileAudioDoodle: { Component: FileAudioDoodle, metadata: FileAudioDoodleMetadata },
     FileAxis3d: { Component: FileAxis3d, metadata: FileAxis3dMetadata },
     FileBadge: { Component: FileBadge, metadata: FileBadgeMetadata },
     FileBox: { Component: FileBox, metadata: FileBoxMetadata },
@@ -6250,8 +7226,11 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
     FileCode2Filled: { Component: FileCode2Filled, metadata: FileCode2FilledMetadata },
     FileCodeCorner: { Component: FileCodeCorner, metadata: FileCodeCornerMetadata },
     FileCode: { Component: FileCode, metadata: FileCodeMetadata },
+    FileCodeDoodle: { Component: FileCodeDoodle, metadata: FileCodeDoodleMetadata },
     FileCodeFilled: { Component: FileCodeFilled, metadata: FileCodeFilledMetadata },
     FileCog: { Component: FileCog, metadata: FileCogMetadata },
+    FileContractDoodle: { Component: FileContractDoodle, metadata: FileContractDoodleMetadata },
+    FileCsvDoodle: { Component: FileCsvDoodle, metadata: FileCsvDoodleMetadata },
     FileCvFilled: { Component: FileCvFilled, metadata: FileCvFilledMetadata },
     FileDeltaFilled: { Component: FileDeltaFilled, metadata: FileDeltaFilledMetadata },
     FileDescriptionFilled: { Component: FileDescriptionFilled, metadata: FileDescriptionFilledMetadata },
@@ -6265,24 +7244,35 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
     FileDownloadFilled: { Component: FileDownloadFilled, metadata: FileDownloadFilledMetadata },
     FileEuroFilled: { Component: FileEuroFilled, metadata: FileEuroFilledMetadata },
     FileExclamationPoint: { Component: FileExclamationPoint, metadata: FileExclamationPointMetadata },
+    FileFigmaDoodle: { Component: FileFigmaDoodle, metadata: FileFigmaDoodleMetadata },
+    FileFormDoodle: { Component: FileFormDoodle, metadata: FileFormDoodleMetadata },
     FileFunctionFilled: { Component: FileFunctionFilled, metadata: FileFunctionFilledMetadata },
     FileHeadphone: { Component: FileHeadphone, metadata: FileHeadphoneMetadata },
     FileHeart: { Component: FileHeart, metadata: FileHeartMetadata },
     FileHorizontalFilled: { Component: FileHorizontalFilled, metadata: FileHorizontalFilledMetadata },
+    FileImage2Doodle: { Component: FileImage2Doodle, metadata: FileImage2DoodleMetadata },
     FileImage: { Component: FileImage, metadata: FileImageMetadata },
+    FileImageDoodle: { Component: FileImageDoodle, metadata: FileImageDoodleMetadata },
     FileInfoFilled: { Component: FileInfoFilled, metadata: FileInfoFilledMetadata },
     FileInput: { Component: FileInput, metadata: FileInputMetadata },
+    FileInvoiceDoodle: { Component: FileInvoiceDoodle, metadata: FileInvoiceDoodleMetadata },
     FileInvoiceFilled: { Component: FileInvoiceFilled, metadata: FileInvoiceFilledMetadata },
+    FileJpgDoodle: { Component: FileJpgDoodle, metadata: FileJpgDoodleMetadata },
     FileKey: { Component: FileKey, metadata: FileKeyMetadata },
     FileLambdaFilled: { Component: FileLambdaFilled, metadata: FileLambdaFilledMetadata },
+    FileListDoodle: { Component: FileListDoodle, metadata: FileListDoodleMetadata },
     FileLock: { Component: FileLock, metadata: FileLockMetadata },
     FileMinusCorner: { Component: FileMinusCorner, metadata: FileMinusCornerMetadata },
     FileMinus: { Component: FileMinus, metadata: FileMinusMetadata },
     FileMinusFilled: { Component: FileMinusFilled, metadata: FileMinusFilledMetadata },
+    FileMovDoodle: { Component: FileMovDoodle, metadata: FileMovDoodleMetadata },
+    FileMp4Doodle: { Component: FileMp4Doodle, metadata: FileMp4DoodleMetadata },
     FileMusic: { Component: FileMusic, metadata: FileMusicMetadata },
     FileMusicFilled: { Component: FileMusicFilled, metadata: FileMusicFilledMetadata },
     FileNeutralFilled: { Component: FileNeutralFilled, metadata: FileNeutralFilledMetadata },
+    FileNotesDoodle: { Component: FileNotesDoodle, metadata: FileNotesDoodleMetadata },
     FileOutput: { Component: FileOutput, metadata: FileOutputMetadata },
+    FilePdfDoodle: { Component: FilePdfDoodle, metadata: FilePdfDoodleMetadata },
     FilePenLine: { Component: FilePenLine, metadata: FilePenLineMetadata },
     FilePen: { Component: FilePen, metadata: FilePenMetadata },
     FilePencilFilled: { Component: FilePencilFilled, metadata: FilePencilFilledMetadata },
@@ -6291,6 +7281,7 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
     FilePlay: { Component: FilePlay, metadata: FilePlayMetadata },
     FilePlusCorner: { Component: FilePlusCorner, metadata: FilePlusCornerMetadata },
     FilePlus: { Component: FilePlus, metadata: FilePlusMetadata },
+    FilePngDoodle: { Component: FilePngDoodle, metadata: FilePngDoodleMetadata },
     FilePowerFilled: { Component: FilePowerFilled, metadata: FilePowerFilledMetadata },
     FileQuestionMark: { Component: FileQuestionMark, metadata: FileQuestionMarkMetadata },
     FileRssFilled: { Component: FileRssFilled, metadata: FileRssFilledMetadata },
@@ -6305,11 +7296,14 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
     FileSliders: { Component: FileSliders, metadata: FileSlidersMetadata },
     FileSmileFilled: { Component: FileSmileFilled, metadata: FileSmileFilledMetadata },
     FileSpreadsheet: { Component: FileSpreadsheet, metadata: FileSpreadsheetMetadata },
+    FileSpreadsheetDoodle: { Component: FileSpreadsheetDoodle, metadata: FileSpreadsheetDoodleMetadata },
     FileStack: { Component: FileStack, metadata: FileStackMetadata },
     FileStarFilled: { Component: FileStarFilled, metadata: FileStarFilledMetadata },
+    FileSvgDoodle: { Component: FileSvgDoodle, metadata: FileSvgDoodleMetadata },
     FileSymlink: { Component: FileSymlink, metadata: FileSymlinkMetadata },
     FileTerminal: { Component: FileTerminal, metadata: FileTerminalMetadata },
     FileText: { Component: FileText, metadata: FileTextMetadata },
+    FileTextDoodle: { Component: FileTextDoodle, metadata: FileTextDoodleMetadata },
     FileTextFilled: { Component: FileTextFilled, metadata: FileTextFilledMetadata },
     FileTimeFilled: { Component: FileTimeFilled, metadata: FileTimeFilledMetadata },
     FileTypeCorner: { Component: FileTypeCorner, metadata: FileTypeCornerMetadata },
@@ -6319,16 +7313,20 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
     FileUp: { Component: FileUp, metadata: FileUpMetadata },
     FileUploadFilled: { Component: FileUploadFilled, metadata: FileUploadFilledMetadata },
     FileUser: { Component: FileUser, metadata: FileUserMetadata },
+    FileVectorDoodle: { Component: FileVectorDoodle, metadata: FileVectorDoodleMetadata },
     FileVectorFilled: { Component: FileVectorFilled, metadata: FileVectorFilledMetadata },
     FileVideoCamera: { Component: FileVideoCamera, metadata: FileVideoCameraMetadata },
     FileVolume: { Component: FileVolume, metadata: FileVolumeMetadata },
     FileXCorner: { Component: FileXCorner, metadata: FileXCornerMetadata },
     FileX: { Component: FileX, metadata: FileXMetadata },
     FileXFilled: { Component: FileXFilled, metadata: FileXFilledMetadata },
+    FileZipDoodle: { Component: FileZipDoodle, metadata: FileZipDoodleMetadata },
     File: { Component: File, metadata: FileMetadata },
+    FileDoodle: { Component: FileDoodle, metadata: FileDoodleMetadata },
     FileFilled: { Component: FileFilled, metadata: FileFilledMetadata },
     Files: { Component: Files, metadata: FilesMetadata },
     FilesFilled: { Component: FilesFilled, metadata: FilesFilledMetadata },
+    PngDoodle: { Component: PngDoodle, metadata: PngDoodleMetadata },
   },
   filled: {
     AccessibleFilled: { Component: AccessibleFilled, metadata: AccessibleFilledMetadata },
@@ -6812,11 +7810,15 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
     ZeppelinFilled: { Component: ZeppelinFilled, metadata: ZeppelinFilledMetadata },
   },
   finance: {
+    BankDoodle: { Component: BankDoodle, metadata: BankDoodleMetadata },
     BanknoteArrowDown: { Component: BanknoteArrowDown, metadata: BanknoteArrowDownMetadata },
     BanknoteArrowUp: { Component: BanknoteArrowUp, metadata: BanknoteArrowUpMetadata },
     BanknoteX: { Component: BanknoteX, metadata: BanknoteXMetadata },
     Banknote: { Component: Banknote, metadata: BanknoteMetadata },
+    BillDoodle: { Component: BillDoodle, metadata: BillDoodleMetadata },
     Bitcoin: { Component: Bitcoin, metadata: BitcoinMetadata },
+    CashDoodle: { Component: CashDoodle, metadata: CashDoodleMetadata },
+    Coin2Doodle: { Component: Coin2Doodle, metadata: Coin2DoodleMetadata },
     CoinBitcoinFilled: { Component: CoinBitcoinFilled, metadata: CoinBitcoinFilledMetadata },
     CoinEuroFilled: { Component: CoinEuroFilled, metadata: CoinEuroFilledMetadata },
     CoinMoneroFilled: { Component: CoinMoneroFilled, metadata: CoinMoneroFilledMetadata },
@@ -6825,16 +7827,34 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
     CoinTakaFilled: { Component: CoinTakaFilled, metadata: CoinTakaFilledMetadata },
     CoinYenFilled: { Component: CoinYenFilled, metadata: CoinYenFilledMetadata },
     CoinYuanFilled: { Component: CoinYuanFilled, metadata: CoinYuanFilledMetadata },
+    CoinDoodle: { Component: CoinDoodle, metadata: CoinDoodleMetadata },
     CoinFilled: { Component: CoinFilled, metadata: CoinFilledMetadata },
     Coins: { Component: Coins, metadata: CoinsMetadata },
     CreditCard: { Component: CreditCard, metadata: CreditCardMetadata },
     DollarSign: { Component: DollarSign, metadata: DollarSignMetadata },
+    DollarDoodle: { Component: DollarDoodle, metadata: DollarDoodleMetadata },
     Euro: { Component: Euro, metadata: EuroMetadata },
+    EuroDoodle: { Component: EuroDoodle, metadata: EuroDoodleMetadata },
+    FrancDoodle: { Component: FrancDoodle, metadata: FrancDoodleMetadata },
     IndianRupee: { Component: IndianRupee, metadata: IndianRupeeMetadata },
     JapaneseYen: { Component: JapaneseYen, metadata: JapaneseYenMetadata },
+    MoneyPlantDoodle: { Component: MoneyPlantDoodle, metadata: MoneyPlantDoodleMetadata },
     PhilippinePeso: { Component: PhilippinePeso, metadata: PhilippinePesoMetadata },
+    PiggyBankDoodle: { Component: PiggyBankDoodle, metadata: PiggyBankDoodleMetadata },
     PoundSterling: { Component: PoundSterling, metadata: PoundSterlingMetadata },
+    PoundDoodle: { Component: PoundDoodle, metadata: PoundDoodleMetadata },
+    RubleDoodle: { Component: RubleDoodle, metadata: RubleDoodleMetadata },
+    RupeeDoodle: { Component: RupeeDoodle, metadata: RupeeDoodleMetadata },
+    SafeDoodle: { Component: SafeDoodle, metadata: SafeDoodleMetadata },
+    SavingDoodle: { Component: SavingDoodle, metadata: SavingDoodleMetadata },
     SwissFranc: { Component: SwissFranc, metadata: SwissFrancMetadata },
+    TrendDownSquareDoodle: { Component: TrendDownSquareDoodle, metadata: TrendDownSquareDoodleMetadata },
+    TrendDownDoodle: { Component: TrendDownDoodle, metadata: TrendDownDoodleMetadata },
+    TrendUpSquareDoodle: { Component: TrendUpSquareDoodle, metadata: TrendUpSquareDoodleMetadata },
+    TrendUpDoodle: { Component: TrendUpDoodle, metadata: TrendUpDoodleMetadata },
+    WalletDoodle: { Component: WalletDoodle, metadata: WalletDoodleMetadata },
+    WonDoodle: { Component: WonDoodle, metadata: WonDoodleMetadata },
+    YenDoodle: { Component: YenDoodle, metadata: YenDoodleMetadata },
   },
   folder: {
     FolderArchive: { Component: FolderArchive, metadata: FolderArchiveMetadata },
@@ -6878,26 +7898,54 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
     BeerOff: { Component: BeerOff, metadata: BeerOffMetadata },
     Beer: { Component: Beer, metadata: BeerMetadata },
     Bone: { Component: Bone, metadata: BoneMetadata },
+    BurgerDoodle: { Component: BurgerDoodle, metadata: BurgerDoodleMetadata },
     CakeSlice: { Component: CakeSlice, metadata: CakeSliceMetadata },
     Cake: { Component: Cake, metadata: CakeMetadata },
+    CakeDoodle: { Component: CakeDoodle, metadata: CakeDoodleMetadata },
     CandyCane: { Component: CandyCane, metadata: CandyCaneMetadata },
     CandyOff: { Component: CandyOff, metadata: CandyOffMetadata },
     Candy: { Component: Candy, metadata: CandyMetadata },
+    CandyDoodle: { Component: CandyDoodle, metadata: CandyDoodleMetadata },
     Carrot: { Component: Carrot, metadata: CarrotMetadata },
     Coffee: { Component: Coffee, metadata: CoffeeMetadata },
     Cookie: { Component: Cookie, metadata: CookieMetadata },
     CookingPot: { Component: CookingPot, metadata: CookingPotMetadata },
+    CutleryDoodle: { Component: CutleryDoodle, metadata: CutleryDoodleMetadata },
+    DishDoodle: { Component: DishDoodle, metadata: DishDoodleMetadata },
     Donut: { Component: Donut, metadata: DonutMetadata },
+    DrinkDoodle: { Component: DrinkDoodle, metadata: DrinkDoodleMetadata },
     EggFried: { Component: EggFried, metadata: EggFriedMetadata },
     EggOff: { Component: EggOff, metadata: EggOffMetadata },
     Egg: { Component: Egg, metadata: EggMetadata },
+    EggDoodle: { Component: EggDoodle, metadata: EggDoodleMetadata },
+    ForkDoodle: { Component: ForkDoodle, metadata: ForkDoodleMetadata },
     IceCreamBowl: { Component: IceCreamBowl, metadata: IceCreamBowlMetadata },
     IceCreamCone: { Component: IceCreamCone, metadata: IceCreamConeMetadata },
+    IceCreamDoodle: { Component: IceCreamDoodle, metadata: IceCreamDoodleMetadata },
     NutOff: { Component: NutOff, metadata: NutOffMetadata },
     Nut: { Component: Nut, metadata: NutMetadata },
+    Pizza2Doodle: { Component: Pizza2Doodle, metadata: Pizza2DoodleMetadata },
     Pizza: { Component: Pizza, metadata: PizzaMetadata },
+    PizzaDoodle: { Component: PizzaDoodle, metadata: PizzaDoodleMetadata },
+    PopsicleDoodle: { Component: PopsicleDoodle, metadata: PopsicleDoodleMetadata },
     Salad: { Component: Salad, metadata: SaladMetadata },
     Sandwich: { Component: Sandwich, metadata: SandwichMetadata },
+    SpoonDoodle: { Component: SpoonDoodle, metadata: SpoonDoodleMetadata },
+    WaterDoodle: { Component: WaterDoodle, metadata: WaterDoodleMetadata },
+  },
+  gender: {
+    BisexualDoodle: { Component: BisexualDoodle, metadata: BisexualDoodleMetadata },
+    FemaileDoodle: { Component: FemaileDoodle, metadata: FemaileDoodleMetadata },
+    GayDoodle: { Component: GayDoodle, metadata: GayDoodleMetadata },
+    GenderlessDoodle: { Component: GenderlessDoodle, metadata: GenderlessDoodleMetadata },
+    HetroDoodle: { Component: HetroDoodle, metadata: HetroDoodleMetadata },
+    IntersexDoodle: { Component: IntersexDoodle, metadata: IntersexDoodleMetadata },
+    LesbianDoodle: { Component: LesbianDoodle, metadata: LesbianDoodleMetadata },
+    MaleDoodle: { Component: MaleDoodle, metadata: MaleDoodleMetadata },
+    NonBinaryTransgenderDoodle: { Component: NonBinaryTransgenderDoodle, metadata: NonBinaryTransgenderDoodleMetadata },
+    OtherGenderDoodle: { Component: OtherGenderDoodle, metadata: OtherGenderDoodleMetadata },
+    Transgender2Doodle: { Component: Transgender2Doodle, metadata: Transgender2DoodleMetadata },
+    TransgenderDoodle: { Component: TransgenderDoodle, metadata: TransgenderDoodleMetadata },
   },
   git: {
     GitBranchMinus: { Component: GitBranchMinus, metadata: GitBranchMinusMetadata },
@@ -6917,6 +7965,93 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
     GitPullRequestCreate: { Component: GitPullRequestCreate, metadata: GitPullRequestCreateMetadata },
     GitPullRequestDraft: { Component: GitPullRequestDraft, metadata: GitPullRequestDraftMetadata },
     GitPullRequest: { Component: GitPullRequest, metadata: GitPullRequestMetadata },
+  },
+  hand: {
+    ClapDoodle: { Component: ClapDoodle, metadata: ClapDoodleMetadata },
+    Double2TapDoodle: { Component: Double2TapDoodle, metadata: Double2TapDoodleMetadata },
+    DoubleTapDoodle: { Component: DoubleTapDoodle, metadata: DoubleTapDoodleMetadata },
+    FoldedHandsDoodle: { Component: FoldedHandsDoodle, metadata: FoldedHandsDoodleMetadata },
+    FreeDragDoodle: { Component: FreeDragDoodle, metadata: FreeDragDoodleMetadata },
+    HandDoodle: { Component: HandDoodle, metadata: HandDoodleMetadata },
+    HorizontalScrollDoodle: { Component: HorizontalScrollDoodle, metadata: HorizontalScrollDoodleMetadata },
+    MultiTouchDoodle: { Component: MultiTouchDoodle, metadata: MultiTouchDoodleMetadata },
+    OkDoodle: { Component: OkDoodle, metadata: OkDoodleMetadata },
+    PageMoveDoodle: { Component: PageMoveDoodle, metadata: PageMoveDoodleMetadata },
+    PointDownDoodle: { Component: PointDownDoodle, metadata: PointDownDoodleMetadata },
+    PointLeftDoodle: { Component: PointLeftDoodle, metadata: PointLeftDoodleMetadata },
+    PointRightDoodle: { Component: PointRightDoodle, metadata: PointRightDoodleMetadata },
+    PointUpDoodle: { Component: PointUpDoodle, metadata: PointUpDoodleMetadata },
+    RotateDoodle: { Component: RotateDoodle, metadata: RotateDoodleMetadata },
+    ScanFingerprintDoodle: { Component: ScanFingerprintDoodle, metadata: ScanFingerprintDoodleMetadata },
+    ScanDoodle: { Component: ScanDoodle, metadata: ScanDoodleMetadata },
+    ScreenRotateDoodle: { Component: ScreenRotateDoodle, metadata: ScreenRotateDoodleMetadata },
+    ScrollDown3Doodle: { Component: ScrollDown3Doodle, metadata: ScrollDown3DoodleMetadata },
+    ScrollDownDoodle: { Component: ScrollDownDoodle, metadata: ScrollDownDoodleMetadata },
+    ScrollLeft1Doodle: { Component: ScrollLeft1Doodle, metadata: ScrollLeft1DoodleMetadata },
+    ScrollLeft2Doodle: { Component: ScrollLeft2Doodle, metadata: ScrollLeft2DoodleMetadata },
+    ScrollLeft3Doodle: { Component: ScrollLeft3Doodle, metadata: ScrollLeft3DoodleMetadata },
+    ScrollLeftDoodle: { Component: ScrollLeftDoodle, metadata: ScrollLeftDoodleMetadata },
+    ScrollRight2Doodle: { Component: ScrollRight2Doodle, metadata: ScrollRight2DoodleMetadata },
+    ScrollUp12Doodle: { Component: ScrollUp12Doodle, metadata: ScrollUp12DoodleMetadata },
+    ScrollUp2Doodle: { Component: ScrollUp2Doodle, metadata: ScrollUp2DoodleMetadata },
+    ScrollUp3Doodle: { Component: ScrollUp3Doodle, metadata: ScrollUp3DoodleMetadata },
+    ScrollUpDoodle: { Component: ScrollUpDoodle, metadata: ScrollUpDoodleMetadata },
+    SwipeLeftDoodle: { Component: SwipeLeftDoodle, metadata: SwipeLeftDoodleMetadata },
+    SwipeRightDoodle: { Component: SwipeRightDoodle, metadata: SwipeRightDoodleMetadata },
+    Tap12Doodle: { Component: Tap12Doodle, metadata: Tap12DoodleMetadata },
+    Tap1Doodle: { Component: Tap1Doodle, metadata: Tap1DoodleMetadata },
+    Tap2Doodle: { Component: Tap2Doodle, metadata: Tap2DoodleMetadata },
+    Tap3Doodle: { Component: Tap3Doodle, metadata: Tap3DoodleMetadata },
+    TapScroll3Doodle: { Component: TapScroll3Doodle, metadata: TapScroll3DoodleMetadata },
+    TapDoodle: { Component: TapDoodle, metadata: TapDoodleMetadata },
+    ThumbsDownDoodle: { Component: ThumbsDownDoodle, metadata: ThumbsDownDoodleMetadata },
+    ThumbsUpDoodle: { Component: ThumbsUpDoodle, metadata: ThumbsUpDoodleMetadata },
+    TouchHold2Doodle: { Component: TouchHold2Doodle, metadata: TouchHold2DoodleMetadata },
+    TouchHoldDoodle: { Component: TouchHoldDoodle, metadata: TouchHoldDoodleMetadata },
+    VDoodle: { Component: VDoodle, metadata: VDoodleMetadata },
+    VibrateDoodle: { Component: VibrateDoodle, metadata: VibrateDoodleMetadata },
+    WaveLeftDoodle: { Component: WaveLeftDoodle, metadata: WaveLeftDoodleMetadata },
+    WaveRightDoodle: { Component: WaveRightDoodle, metadata: WaveRightDoodleMetadata },
+    ZoomInDoodle: { Component: ZoomInDoodle, metadata: ZoomInDoodleMetadata },
+    ZoomOutDoodle: { Component: ZoomOutDoodle, metadata: ZoomOutDoodleMetadata },
+  },
+  health: {
+    Biohazard: { Component: Biohazard, metadata: BiohazardMetadata },
+    BloodBagDoodle: { Component: BloodBagDoodle, metadata: BloodBagDoodleMetadata },
+    BloodDoodle: { Component: BloodDoodle, metadata: BloodDoodleMetadata },
+    BottleDoodle: { Component: BottleDoodle, metadata: BottleDoodleMetadata },
+    DnaOff: { Component: DnaOff, metadata: DnaOffMetadata },
+    Dna: { Component: Dna, metadata: DnaMetadata },
+    DropperDoodle: { Component: DropperDoodle, metadata: DropperDoodleMetadata },
+    FirstAidDoodle: { Component: FirstAidDoodle, metadata: FirstAidDoodleMetadata },
+    Firstaid2Doodle: { Component: Firstaid2Doodle, metadata: Firstaid2DoodleMetadata },
+    FlaskConicalOff: { Component: FlaskConicalOff, metadata: FlaskConicalOffMetadata },
+    FlaskConical: { Component: FlaskConical, metadata: FlaskConicalMetadata },
+    FlaskRound: { Component: FlaskRound, metadata: FlaskRoundMetadata },
+    FlaskRoundDoodle: { Component: FlaskRoundDoodle, metadata: FlaskRoundDoodleMetadata },
+    FlaskDoodle: { Component: FlaskDoodle, metadata: FlaskDoodleMetadata },
+    HeartBeatDoodle: { Component: HeartBeatDoodle, metadata: HeartBeatDoodleMetadata },
+    InjectionDoodle: { Component: InjectionDoodle, metadata: InjectionDoodleMetadata },
+    LungsDoodle: { Component: LungsDoodle, metadata: LungsDoodleMetadata },
+    MedicalLogoDoodle: { Component: MedicalLogoDoodle, metadata: MedicalLogoDoodleMetadata },
+    MicroscopeDoodle: { Component: MicroscopeDoodle, metadata: MicroscopeDoodleMetadata },
+    PillBottle: { Component: PillBottle, metadata: PillBottleMetadata },
+    Pill: { Component: Pill, metadata: PillMetadata },
+    PillsDoodle: { Component: PillsDoodle, metadata: PillsDoodleMetadata },
+    Stethoscope: { Component: Stethoscope, metadata: StethoscopeMetadata },
+    StethoscopeDoodle: { Component: StethoscopeDoodle, metadata: StethoscopeDoodleMetadata },
+    Syringe: { Component: Syringe, metadata: SyringeMetadata },
+    TabletDoodle: { Component: TabletDoodle, metadata: TabletDoodleMetadata },
+    Tablets: { Component: Tablets, metadata: TabletsMetadata },
+    TestTubeDiagonal: { Component: TestTubeDiagonal, metadata: TestTubeDiagonalMetadata },
+    TestTube: { Component: TestTube, metadata: TestTubeMetadata },
+    TestTubeDoodle: { Component: TestTubeDoodle, metadata: TestTubeDoodleMetadata },
+    TestTubes: { Component: TestTubes, metadata: TestTubesMetadata },
+    ThermometerSnowflake: { Component: ThermometerSnowflake, metadata: ThermometerSnowflakeMetadata },
+    ThermometerSun: { Component: ThermometerSun, metadata: ThermometerSunMetadata },
+    Thermometer: { Component: Thermometer, metadata: ThermometerMetadata },
+    ToothDoodle: { Component: ToothDoodle, metadata: ToothDoodleMetadata },
+    WheelchairDoodle: { Component: WheelchairDoodle, metadata: WheelchairDoodleMetadata },
   },
   hexagon: {
     HexagonLetterAFilled: { Component: HexagonLetterAFilled, metadata: HexagonLetterAFilledMetadata },
@@ -6959,6 +8094,14 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
     HexagonPlusFilled: { Component: HexagonPlusFilled, metadata: HexagonPlusFilledMetadata },
   },
   home: {
+    AnchorDoodle: { Component: AnchorDoodle, metadata: AnchorDoodleMetadata },
+    Balloon2Doodle: { Component: Balloon2Doodle, metadata: Balloon2DoodleMetadata },
+    BalloonDoodle: { Component: BalloonDoodle, metadata: BalloonDoodleMetadata },
+    CameraDoodle: { Component: CameraDoodle, metadata: CameraDoodleMetadata },
+    CrownDoodle: { Component: CrownDoodle, metadata: CrownDoodleMetadata },
+    FlashlightDoodle: { Component: FlashlightDoodle, metadata: FlashlightDoodleMetadata },
+    FrameDoodle: { Component: FrameDoodle, metadata: FrameDoodleMetadata },
+    GuitarDoodle: { Component: GuitarDoodle, metadata: GuitarDoodleMetadata },
     LampCeiling: { Component: LampCeiling, metadata: LampCeilingMetadata },
     LampDesk: { Component: LampDesk, metadata: LampDeskMetadata },
     LampFloor: { Component: LampFloor, metadata: LampFloorMetadata },
@@ -6967,6 +8110,183 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
     Lamp: { Component: Lamp, metadata: LampMetadata },
     LightbulbOff: { Component: LightbulbOff, metadata: LightbulbOffMetadata },
     Lightbulb: { Component: Lightbulb, metadata: LightbulbMetadata },
+    MovieClapperDoodle: { Component: MovieClapperDoodle, metadata: MovieClapperDoodleMetadata },
+    PaintBrush2Doodle: { Component: PaintBrush2Doodle, metadata: PaintBrush2DoodleMetadata },
+    PaintBrushDoodle: { Component: PaintBrushDoodle, metadata: PaintBrushDoodleMetadata },
+    PaintBucketDoodle: { Component: PaintBucketDoodle, metadata: PaintBucketDoodleMetadata },
+    PaintRollerDoodle: { Component: PaintRollerDoodle, metadata: PaintRollerDoodleMetadata },
+    SofaDoodle: { Component: SofaDoodle, metadata: SofaDoodleMetadata },
+    TvDoodle: { Component: TvDoodle, metadata: TvDoodleMetadata },
+  },
+  interface: {
+    InfoDoodle: { Component: InfoDoodle, metadata: InfoDoodleMetadata },
+    AnalyticsDoodle: { Component: AnalyticsDoodle, metadata: AnalyticsDoodleMetadata },
+    ArrowDoodle: { Component: ArrowDoodle, metadata: ArrowDoodleMetadata },
+    AtTheRateDoodle: { Component: AtTheRateDoodle, metadata: AtTheRateDoodleMetadata },
+    BackwardDoodle: { Component: BackwardDoodle, metadata: BackwardDoodleMetadata },
+    Bell2Doodle: { Component: Bell2Doodle, metadata: Bell2DoodleMetadata },
+    BellDoodle: { Component: BellDoodle, metadata: BellDoodleMetadata },
+    BluetoothDoodle: { Component: BluetoothDoodle, metadata: BluetoothDoodleMetadata },
+    BookmarkDoodle: { Component: BookmarkDoodle, metadata: BookmarkDoodleMetadata },
+    BulbDoodle: { Component: BulbDoodle, metadata: BulbDoodleMetadata },
+    CalculatorDoodle: { Component: CalculatorDoodle, metadata: CalculatorDoodleMetadata },
+    CalendarDoodle: { Component: CalendarDoodle, metadata: CalendarDoodleMetadata },
+    CallDoodle: { Component: CallDoodle, metadata: CallDoodleMetadata },
+    CautionDoodle: { Component: CautionDoodle, metadata: CautionDoodleMetadata },
+    CenterAlign2Doodle: { Component: CenterAlign2Doodle, metadata: CenterAlign2DoodleMetadata },
+    CenterAlignDoodle: { Component: CenterAlignDoodle, metadata: CenterAlignDoodleMetadata },
+    ChecklistDoodle: { Component: ChecklistDoodle, metadata: ChecklistDoodleMetadata },
+    ClockDoodle: { Component: ClockDoodle, metadata: ClockDoodleMetadata },
+    CloudDownDoodle: { Component: CloudDownDoodle, metadata: CloudDownDoodleMetadata },
+    CloudUpDoodle: { Component: CloudUpDoodle, metadata: CloudUpDoodleMetadata },
+    CloudDoodle: { Component: CloudDoodle, metadata: CloudDoodleMetadata },
+    CookieDoodle: { Component: CookieDoodle, metadata: CookieDoodleMetadata },
+    CopyDoodle: { Component: CopyDoodle, metadata: CopyDoodleMetadata },
+    CropDoodle: { Component: CropDoodle, metadata: CropDoodleMetadata },
+    CrossDoodle: { Component: CrossDoodle, metadata: CrossDoodleMetadata },
+    CutDoodle: { Component: CutDoodle, metadata: CutDoodleMetadata },
+    Dashboard2Doodle: { Component: Dashboard2Doodle, metadata: Dashboard2DoodleMetadata },
+    Dashboard3Doodle: { Component: Dashboard3Doodle, metadata: Dashboard3DoodleMetadata },
+    Dashboard4Doodle: { Component: Dashboard4Doodle, metadata: Dashboard4DoodleMetadata },
+    DashboardDoodle: { Component: DashboardDoodle, metadata: DashboardDoodleMetadata },
+    DeleteDoodle: { Component: DeleteDoodle, metadata: DeleteDoodleMetadata },
+    DiamondDoodle: { Component: DiamondDoodle, metadata: DiamondDoodleMetadata },
+    DocAddDoodle: { Component: DocAddDoodle, metadata: DocAddDoodleMetadata },
+    DocRemoveDoodle: { Component: DocRemoveDoodle, metadata: DocRemoveDoodleMetadata },
+    DocDoodle: { Component: DocDoodle, metadata: DocDoodleMetadata },
+    DownloadDoodle: { Component: DownloadDoodle, metadata: DownloadDoodleMetadata },
+    DrawerDoodle: { Component: DrawerDoodle, metadata: DrawerDoodleMetadata },
+    EjectDoodle: { Component: EjectDoodle, metadata: EjectDoodleMetadata },
+    EraserDoodle: { Component: EraserDoodle, metadata: EraserDoodleMetadata },
+    FastForwardDoodle: { Component: FastForwardDoodle, metadata: FastForwardDoodleMetadata },
+    FastRewindDoodle: { Component: FastRewindDoodle, metadata: FastRewindDoodleMetadata },
+    FilterDoodle: { Component: FilterDoodle, metadata: FilterDoodleMetadata },
+    Flag2Doodle: { Component: Flag2Doodle, metadata: Flag2DoodleMetadata },
+    FlagDoodle: { Component: FlagDoodle, metadata: FlagDoodleMetadata },
+    FlipDoodle: { Component: FlipDoodle, metadata: FlipDoodleMetadata },
+    FloppyDoodle: { Component: FloppyDoodle, metadata: FloppyDoodleMetadata },
+    FolderAddDoodle: { Component: FolderAddDoodle, metadata: FolderAddDoodleMetadata },
+    FolderDeleteDoodle: { Component: FolderDeleteDoodle, metadata: FolderDeleteDoodleMetadata },
+    FolderEmptyDoodle: { Component: FolderEmptyDoodle, metadata: FolderEmptyDoodleMetadata },
+    FolderRemoveDoodle: { Component: FolderRemoveDoodle, metadata: FolderRemoveDoodleMetadata },
+    FolderDoodle: { Component: FolderDoodle, metadata: FolderDoodleMetadata },
+    ForwardDoodle: { Component: ForwardDoodle, metadata: ForwardDoodleMetadata },
+    GiftDoodle: { Component: GiftDoodle, metadata: GiftDoodleMetadata },
+    GlobeDoodle: { Component: GlobeDoodle, metadata: GlobeDoodleMetadata },
+    Grid2Doodle: { Component: Grid2Doodle, metadata: Grid2DoodleMetadata },
+    GridDoodle: { Component: GridDoodle, metadata: GridDoodleMetadata },
+    HeadphoneDoodle: { Component: HeadphoneDoodle, metadata: HeadphoneDoodleMetadata },
+    HeartDoodle: { Component: HeartDoodle, metadata: HeartDoodleMetadata },
+    HideDoodle: { Component: HideDoodle, metadata: HideDoodleMetadata },
+    Home1Doodle: { Component: Home1Doodle, metadata: Home1DoodleMetadata },
+    HomeDoodle: { Component: HomeDoodle, metadata: HomeDoodleMetadata },
+    KeyDoodle: { Component: KeyDoodle, metadata: KeyDoodleMetadata },
+    LayerDoodle: { Component: LayerDoodle, metadata: LayerDoodleMetadata },
+    LeftAlign2Doodle: { Component: LeftAlign2Doodle, metadata: LeftAlign2DoodleMetadata },
+    LeftAlignDoodle: { Component: LeftAlignDoodle, metadata: LeftAlignDoodleMetadata },
+    LinkDoodle: { Component: LinkDoodle, metadata: LinkDoodleMetadata },
+    ListDoodle: { Component: ListDoodle, metadata: ListDoodleMetadata },
+    LocationPinDoodle: { Component: LocationPinDoodle, metadata: LocationPinDoodleMetadata },
+    LockDoodle: { Component: LockDoodle, metadata: LockDoodleMetadata },
+    LoginDoodle: { Component: LoginDoodle, metadata: LoginDoodleMetadata },
+    LogoutDoodle: { Component: LogoutDoodle, metadata: LogoutDoodleMetadata },
+    MagicWandDoodle: { Component: MagicWandDoodle, metadata: MagicWandDoodleMetadata },
+    MailGiftDoodle: { Component: MailGiftDoodle, metadata: MailGiftDoodleMetadata },
+    MailOpenDoodle: { Component: MailOpenDoodle, metadata: MailOpenDoodleMetadata },
+    MailSurpriseDoodle: { Component: MailSurpriseDoodle, metadata: MailSurpriseDoodleMetadata },
+    MailDoodle: { Component: MailDoodle, metadata: MailDoodleMetadata },
+    MapDoodle: { Component: MapDoodle, metadata: MapDoodleMetadata },
+    MaximizeDoodle: { Component: MaximizeDoodle, metadata: MaximizeDoodleMetadata },
+    MegaphoneDoodle: { Component: MegaphoneDoodle, metadata: MegaphoneDoodleMetadata },
+    Menu2Doodle: { Component: Menu2Doodle, metadata: Menu2DoodleMetadata },
+    MenuDoodle: { Component: MenuDoodle, metadata: MenuDoodleMetadata },
+    Message2Doodle: { Component: Message2Doodle, metadata: Message2DoodleMetadata },
+    MessageDoodle: { Component: MessageDoodle, metadata: MessageDoodleMetadata },
+    Mic2Doodle: { Component: Mic2Doodle, metadata: Mic2DoodleMetadata },
+    MicDoodle: { Component: MicDoodle, metadata: MicDoodleMetadata },
+    MinimizeDoodle: { Component: MinimizeDoodle, metadata: MinimizeDoodleMetadata },
+    MoveDoodle: { Component: MoveDoodle, metadata: MoveDoodleMetadata },
+    Music2Doodle: { Component: Music2Doodle, metadata: Music2DoodleMetadata },
+    Music3Doodle: { Component: Music3Doodle, metadata: Music3DoodleMetadata },
+    MusicDoodle: { Component: MusicDoodle, metadata: MusicDoodleMetadata },
+    MuteDoodle: { Component: MuteDoodle, metadata: MuteDoodleMetadata },
+    Navigation2Doodle: { Component: Navigation2Doodle, metadata: Navigation2DoodleMetadata },
+    NavigationDoodle: { Component: NavigationDoodle, metadata: NavigationDoodleMetadata },
+    NoteDoodle: { Component: NoteDoodle, metadata: NoteDoodleMetadata },
+    PaperClip2Doodle: { Component: PaperClip2Doodle, metadata: PaperClip2DoodleMetadata },
+    PaperClipDoodle: { Component: PaperClipDoodle, metadata: PaperClipDoodleMetadata },
+    PasteDoodle: { Component: PasteDoodle, metadata: PasteDoodleMetadata },
+    PauseDoodle: { Component: PauseDoodle, metadata: PauseDoodleMetadata },
+    PenToolDoodle: { Component: PenToolDoodle, metadata: PenToolDoodleMetadata },
+    PenDoodle: { Component: PenDoodle, metadata: PenDoodleMetadata },
+    Pencil2Doodle: { Component: Pencil2Doodle, metadata: Pencil2DoodleMetadata },
+    Pencil3Doodle: { Component: Pencil3Doodle, metadata: Pencil3DoodleMetadata },
+    PencilRulerDoodle: { Component: PencilRulerDoodle, metadata: PencilRulerDoodleMetadata },
+    PencilDoodle: { Component: PencilDoodle, metadata: PencilDoodleMetadata },
+    PhoneSettingDoodle: { Component: PhoneSettingDoodle, metadata: PhoneSettingDoodleMetadata },
+    PhoneDoodle: { Component: PhoneDoodle, metadata: PhoneDoodleMetadata },
+    PhotoDoodle: { Component: PhotoDoodle, metadata: PhotoDoodleMetadata },
+    PieDoodle: { Component: PieDoodle, metadata: PieDoodleMetadata },
+    PinDoodle: { Component: PinDoodle, metadata: PinDoodleMetadata },
+    PlayDoodle: { Component: PlayDoodle, metadata: PlayDoodleMetadata },
+    Puzzle2Doodle: { Component: Puzzle2Doodle, metadata: Puzzle2DoodleMetadata },
+    PuzzleDoodle: { Component: PuzzleDoodle, metadata: PuzzleDoodleMetadata },
+    Question2Doodle: { Component: Question2Doodle, metadata: Question2DoodleMetadata },
+    QuestionDoodle: { Component: QuestionDoodle, metadata: QuestionDoodleMetadata },
+    RecordDoodle: { Component: RecordDoodle, metadata: RecordDoodleMetadata },
+    RectangleDoodle: { Component: RectangleDoodle, metadata: RectangleDoodleMetadata },
+    RightAlign2Doodle: { Component: RightAlign2Doodle, metadata: RightAlign2DoodleMetadata },
+    RightAlignDoodle: { Component: RightAlignDoodle, metadata: RightAlignDoodleMetadata },
+    RssDoodle: { Component: RssDoodle, metadata: RssDoodleMetadata },
+    RulerDoodle: { Component: RulerDoodle, metadata: RulerDoodleMetadata },
+    SearchDoodle: { Component: SearchDoodle, metadata: SearchDoodleMetadata },
+    Send2Doodle: { Component: Send2Doodle, metadata: Send2DoodleMetadata },
+    Send3Doodle: { Component: Send3Doodle, metadata: Send3DoodleMetadata },
+    SendDoodle: { Component: SendDoodle, metadata: SendDoodleMetadata },
+    ServerDoodle: { Component: ServerDoodle, metadata: ServerDoodleMetadata },
+    Setting2Doodle: { Component: Setting2Doodle, metadata: Setting2DoodleMetadata },
+    Setting3Doodle: { Component: Setting3Doodle, metadata: Setting3DoodleMetadata },
+    SettingDoodle: { Component: SettingDoodle, metadata: SettingDoodleMetadata },
+    ShapeDoodle: { Component: ShapeDoodle, metadata: ShapeDoodleMetadata },
+    Shield2Doodle: { Component: Shield2Doodle, metadata: Shield2DoodleMetadata },
+    ShieldDoodle: { Component: ShieldDoodle, metadata: ShieldDoodleMetadata },
+    ShuffleDoodle: { Component: ShuffleDoodle, metadata: ShuffleDoodleMetadata },
+    SignalDoodle: { Component: SignalDoodle, metadata: SignalDoodleMetadata },
+    SpeakerDoodle: { Component: SpeakerDoodle, metadata: SpeakerDoodleMetadata },
+    SquareDoodle: { Component: SquareDoodle, metadata: SquareDoodleMetadata },
+    StarDoodle: { Component: StarDoodle, metadata: StarDoodleMetadata },
+    StopwatchDoodle: { Component: StopwatchDoodle, metadata: StopwatchDoodleMetadata },
+    SuitcaseDoodle: { Component: SuitcaseDoodle, metadata: SuitcaseDoodleMetadata },
+    Sun2Doodle: { Component: Sun2Doodle, metadata: Sun2DoodleMetadata },
+    Sun3Doodle: { Component: Sun3Doodle, metadata: Sun3DoodleMetadata },
+    Sun4Doodle: { Component: Sun4Doodle, metadata: Sun4DoodleMetadata },
+    SunDoodle: { Component: SunDoodle, metadata: SunDoodleMetadata },
+    Switch1Doodle: { Component: Switch1Doodle, metadata: Switch1DoodleMetadata },
+    SwitchDoodle: { Component: SwitchDoodle, metadata: SwitchDoodleMetadata },
+    SyncDoodle: { Component: SyncDoodle, metadata: SyncDoodleMetadata },
+    Target2Doodle: { Component: Target2Doodle, metadata: Target2DoodleMetadata },
+    TargetDoodle: { Component: TargetDoodle, metadata: TargetDoodleMetadata },
+    Tick2Doodle: { Component: Tick2Doodle, metadata: Tick2DoodleMetadata },
+    TickDoodle: { Component: TickDoodle, metadata: TickDoodleMetadata },
+    TransformDoodle: { Component: TransformDoodle, metadata: TransformDoodleMetadata },
+    Tree2Doodle: { Component: Tree2Doodle, metadata: Tree2DoodleMetadata },
+    TreeDoodle: { Component: TreeDoodle, metadata: TreeDoodleMetadata },
+    TrophyDoodle: { Component: TrophyDoodle, metadata: TrophyDoodleMetadata },
+    UnhideDoodle: { Component: UnhideDoodle, metadata: UnhideDoodleMetadata },
+    UnlinkDoodle: { Component: UnlinkDoodle, metadata: UnlinkDoodleMetadata },
+    UploadDoodle: { Component: UploadDoodle, metadata: UploadDoodleMetadata },
+    UserAddDoodle: { Component: UserAddDoodle, metadata: UserAddDoodleMetadata },
+    UserCautionDoodle: { Component: UserCautionDoodle, metadata: UserCautionDoodleMetadata },
+    UserDeleteDoodle: { Component: UserDeleteDoodle, metadata: UserDeleteDoodleMetadata },
+    UserFemaleDoodle: { Component: UserFemaleDoodle, metadata: UserFemaleDoodleMetadata },
+    UserMaleDoodle: { Component: UserMaleDoodle, metadata: UserMaleDoodleMetadata },
+    UserRemoveDoodle: { Component: UserRemoveDoodle, metadata: UserRemoveDoodleMetadata },
+    UserDoodle: { Component: UserDoodle, metadata: UserDoodleMetadata },
+    VideoCameraDoodle: { Component: VideoCameraDoodle, metadata: VideoCameraDoodleMetadata },
+    VolumeDownDoodle: { Component: VolumeDownDoodle, metadata: VolumeDownDoodleMetadata },
+    VolumeUpDoodle: { Component: VolumeUpDoodle, metadata: VolumeUpDoodleMetadata },
+    ZapDoodle: { Component: ZapDoodle, metadata: ZapDoodleMetadata },
+    ZoomOut1Doodle: { Component: ZoomOut1Doodle, metadata: ZoomOut1DoodleMetadata },
   },
   layout: {
     BetweenHorizontalEnd: { Component: BetweenHorizontalEnd, metadata: BetweenHorizontalEndMetadata },
@@ -7125,25 +8445,6 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
     Tally4: { Component: Tally4, metadata: Tally4Metadata },
     Tally5: { Component: Tally5, metadata: Tally5Metadata },
   },
-  medical: {
-    Biohazard: { Component: Biohazard, metadata: BiohazardMetadata },
-    DnaOff: { Component: DnaOff, metadata: DnaOffMetadata },
-    Dna: { Component: Dna, metadata: DnaMetadata },
-    FlaskConicalOff: { Component: FlaskConicalOff, metadata: FlaskConicalOffMetadata },
-    FlaskConical: { Component: FlaskConical, metadata: FlaskConicalMetadata },
-    FlaskRound: { Component: FlaskRound, metadata: FlaskRoundMetadata },
-    PillBottle: { Component: PillBottle, metadata: PillBottleMetadata },
-    Pill: { Component: Pill, metadata: PillMetadata },
-    Stethoscope: { Component: Stethoscope, metadata: StethoscopeMetadata },
-    Syringe: { Component: Syringe, metadata: SyringeMetadata },
-    Tablets: { Component: Tablets, metadata: TabletsMetadata },
-    TestTubeDiagonal: { Component: TestTubeDiagonal, metadata: TestTubeDiagonalMetadata },
-    TestTube: { Component: TestTube, metadata: TestTubeMetadata },
-    TestTubes: { Component: TestTubes, metadata: TestTubesMetadata },
-    ThermometerSnowflake: { Component: ThermometerSnowflake, metadata: ThermometerSnowflakeMetadata },
-    ThermometerSun: { Component: ThermometerSun, metadata: ThermometerSunMetadata },
-    Thermometer: { Component: Thermometer, metadata: ThermometerMetadata },
-  },
   message: {
     Message2Filled: { Component: Message2Filled, metadata: Message2FilledMetadata },
     MessageChatbotFilled: { Component: MessageChatbotFilled, metadata: MessageChatbotFilledMetadata },
@@ -7180,6 +8481,22 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
     MessageSquare: { Component: MessageSquare, metadata: MessageSquareMetadata },
     MessageFilled: { Component: MessageFilled, metadata: MessageFilledMetadata },
     MessagesSquare: { Component: MessagesSquare, metadata: MessagesSquareMetadata },
+  },
+  misc: {
+    AutomationDoodle: { Component: AutomationDoodle, metadata: AutomationDoodleMetadata },
+    BotDoodle: { Component: BotDoodle, metadata: BotDoodleMetadata },
+    BugDoodle: { Component: BugDoodle, metadata: BugDoodleMetadata },
+    BusDoodle: { Component: BusDoodle, metadata: BusDoodleMetadata },
+    CarDoodle: { Component: CarDoodle, metadata: CarDoodleMetadata },
+    ChipDoodle: { Component: ChipDoodle, metadata: ChipDoodleMetadata },
+    CoffeeCup1Doodle: { Component: CoffeeCup1Doodle, metadata: CoffeeCup1DoodleMetadata },
+    CoffeeCup2Doodle: { Component: CoffeeCup2Doodle, metadata: CoffeeCup2DoodleMetadata },
+    FireDoodle: { Component: FireDoodle, metadata: FireDoodleMetadata },
+    HotAirBalloonDoodle: { Component: HotAirBalloonDoodle, metadata: HotAirBalloonDoodleMetadata },
+    PlaneDoodle: { Component: PlaneDoodle, metadata: PlaneDoodleMetadata },
+    RocketDoodle: { Component: RocketDoodle, metadata: RocketDoodleMetadata },
+    SatelliteDoodle: { Component: SatelliteDoodle, metadata: SatelliteDoodleMetadata },
+    ShipDoodle: { Component: ShipDoodle, metadata: ShipDoodleMetadata },
   },
   monitor: {
     MonitorCheck: { Component: MonitorCheck, metadata: MonitorCheckMetadata },
@@ -8267,15 +9584,28 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
     Users: { Component: Users, metadata: UsersMetadata },
   },
   weather: {
+    VectorDoodle: { Component: VectorDoodle, metadata: VectorDoodleMetadata },
+    CloudyDayDoodle: { Component: CloudyDayDoodle, metadata: CloudyDayDoodleMetadata },
+    CloudyNightDoodle: { Component: CloudyNightDoodle, metadata: CloudyNightDoodleMetadata },
     MoonStar: { Component: MoonStar, metadata: MoonStarMetadata },
     Moon: { Component: Moon, metadata: MoonMetadata },
+    NightDoodle: { Component: NightDoodle, metadata: NightDoodleMetadata },
+    RainHeavyDoodle: { Component: RainHeavyDoodle, metadata: RainHeavyDoodleMetadata },
+    RainLightDoodle: { Component: RainLightDoodle, metadata: RainLightDoodleMetadata },
+    SnowDoodle: { Component: SnowDoodle, metadata: SnowDoodleMetadata },
+    SnowflakeDoodle: { Component: SnowflakeDoodle, metadata: SnowflakeDoodleMetadata },
+    SnowmanDoodle: { Component: SnowmanDoodle, metadata: SnowmanDoodleMetadata },
     SunDim: { Component: SunDim, metadata: SunDimMetadata },
     SunMedium: { Component: SunMedium, metadata: SunMediumMetadata },
     SunMoon: { Component: SunMoon, metadata: SunMoonMetadata },
     SunSnow: { Component: SunSnow, metadata: SunSnowMetadata },
     Sun: { Component: Sun, metadata: SunMetadata },
+    SunnyDoodle: { Component: SunnyDoodle, metadata: SunnyDoodleMetadata },
     Sunrise: { Component: Sunrise, metadata: SunriseMetadata },
     Sunset: { Component: Sunset, metadata: SunsetMetadata },
+    ThunderstormDoodle: { Component: ThunderstormDoodle, metadata: ThunderstormDoodleMetadata },
+    TornadoDoodle: { Component: TornadoDoodle, metadata: TornadoDoodleMetadata },
+    WindDoodle: { Component: WindDoodle, metadata: WindDoodleMetadata },
   },
   zodiac: {
     ZodiacAquarius: { Component: ZodiacAquarius, metadata: ZodiacAquariusMetadata },

@@ -1,3 +1,11 @@
+export { AnchorDoodle, AnchorDoodleMetadata, type AnchorDoodleProps } from './anchor_doodle';
+export { Balloon2Doodle, Balloon2DoodleMetadata, type Balloon2DoodleProps } from './balloon-2_doodle';
+export { BalloonDoodle, BalloonDoodleMetadata, type BalloonDoodleProps } from './balloon_doodle';
+export { CameraDoodle, CameraDoodleMetadata, type CameraDoodleProps } from './camera_doodle';
+export { CrownDoodle, CrownDoodleMetadata, type CrownDoodleProps } from './crown_doodle';
+export { FlashlightDoodle, FlashlightDoodleMetadata, type FlashlightDoodleProps } from './flashlight_doodle';
+export { FrameDoodle, FrameDoodleMetadata, type FrameDoodleProps } from './frame_doodle';
+export { GuitarDoodle, GuitarDoodleMetadata, type GuitarDoodleProps } from './guitar_doodle';
 export { LampCeiling, LampCeilingMetadata, type LampCeilingProps } from './lamp-ceiling';
 export { LampDesk, LampDeskMetadata, type LampDeskProps } from './lamp-desk';
 export { LampFloor, LampFloorMetadata, type LampFloorProps } from './lamp-floor';
@@ -6,3 +14,10 @@ export { LampWallUp, LampWallUpMetadata, type LampWallUpProps } from './lamp-wal
 export { Lamp, LampMetadata, type LampProps } from './lamp';
 export { LightbulbOff, LightbulbOffMetadata, type LightbulbOffProps } from './lightbulb-off';
 export { Lightbulb, LightbulbMetadata, type LightbulbProps } from './lightbulb';
+export { MovieClapperDoodle, MovieClapperDoodleMetadata, type MovieClapperDoodleProps } from './movie-clapper_doodle';
+export { PaintBrush2Doodle, PaintBrush2DoodleMetadata, type PaintBrush2DoodleProps } from './paint-brush-2_doodle';
+export { PaintBrushDoodle, PaintBrushDoodleMetadata, type PaintBrushDoodleProps } from './paint-brush_doodle';
+export { PaintBucketDoodle, PaintBucketDoodleMetadata, type PaintBucketDoodleProps } from './paint-bucket_doodle';
+export { PaintRollerDoodle, PaintRollerDoodleMetadata, type PaintRollerDoodleProps } from './paint-roller_doodle';
+export { SofaDoodle, SofaDoodleMetadata, type SofaDoodleProps } from './sofa_doodle';
+export { TvDoodle, TvDoodleMetadata, type TvDoodleProps } from './tv_doodle';

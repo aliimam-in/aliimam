@@ -1,5 +1,12 @@
 export { Angry, AngryMetadata, type AngryProps } from './angry';
 export { Annoyed, AnnoyedMetadata, type AnnoyedProps } from './annoyed';
+export { ConfusedEmojiDoodle, ConfusedEmojiDoodleMetadata, type ConfusedEmojiDoodleProps } from './confused-emoji_doodle';
+export { CoolEmojiDoodle, CoolEmojiDoodleMetadata, type CoolEmojiDoodleProps } from './cool-emoji_doodle';
+export { CryingEmojiDoodle, CryingEmojiDoodleMetadata, type CryingEmojiDoodleProps } from './crying-emoji_doodle';
+export { GrinningSquintingEmojiDoodle, GrinningSquintingEmojiDoodleMetadata, type GrinningSquintingEmojiDoodleProps } from './grinning-squinting-emoji_doodle';
+export { HappyEmojiDoodle, HappyEmojiDoodleMetadata, type HappyEmojiDoodleProps } from './happy-emoji_doodle';
+export { HeartEyesEmojiDoodle, HeartEyesEmojiDoodleMetadata, type HeartEyesEmojiDoodleProps } from './heart-eyes-emoji_doodle';
+export { LaughEmojiDoodle, LaughEmojiDoodleMetadata, type LaughEmojiDoodleProps } from './laugh-emoji_doodle';
 export { Laugh, LaughMetadata, type LaughProps } from './laugh';
 export { MoodAngryFilled, MoodAngryFilledMetadata, type MoodAngryFilledProps } from './mood-angry_filled';
 export { MoodConfuzedFilled, MoodConfuzedFilledMetadata, type MoodConfuzedFilledProps } from './mood-confuzed_filled';
@@ -11,5 +18,12 @@ export { MoodNeutralFilled, MoodNeutralFilledMetadata, type MoodNeutralFilledPro
 export { MoodSadFilled, MoodSadFilledMetadata, type MoodSadFilledProps } from './mood-sad_filled';
 export { MoodSmileFilled, MoodSmileFilledMetadata, type MoodSmileFilledProps } from './mood-smile_filled';
 export { MoodWrrrFilled, MoodWrrrFilledMetadata, type MoodWrrrFilledProps } from './mood-wrrr_filled';
+export { SadEmojiDoodle, SadEmojiDoodleMetadata, type SadEmojiDoodleProps } from './sad-emoji_doodle';
+export { ShockedEmojiDoodle, ShockedEmojiDoodleMetadata, type ShockedEmojiDoodleProps } from './shocked-emoji_doodle';
 export { SmilePlus, SmilePlusMetadata, type SmilePlusProps } from './smile-plus';
 export { Smile, SmileMetadata, type SmileProps } from './smile';
+export { SmilingEmojiDoodle, SmilingEmojiDoodleMetadata, type SmilingEmojiDoodleProps } from './smiling-emoji_doodle';
+export { SmilingWithEyesEmojiDoodle, SmilingWithEyesEmojiDoodleMetadata, type SmilingWithEyesEmojiDoodleProps } from './smiling-with-eyes-emoji_doodle';
+export { SurprisedEmojiDoodle, SurprisedEmojiDoodleMetadata, type SurprisedEmojiDoodleProps } from './surprised-emoji_doodle';
+export { WinkEmojiDoodle, WinkEmojiDoodleMetadata, type WinkEmojiDoodleProps } from './wink-emoji_doodle';
+export { WorriedEmojiDoodle, WorriedEmojiDoodleMetadata, type WorriedEmojiDoodleProps } from './worried-emoji_doodle';

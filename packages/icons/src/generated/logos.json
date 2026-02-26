@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-02-26T18:44:42.428Z",
+  "lastUpdated": "2026-02-26T22:06:26.437Z",
   "logos": [
     {
       "id": "align-box-bottom-center_filled",
@@ -1345,6 +1345,50 @@
       "viewBox": "0 0 24 24"
     },
     {
+      "id": "arrow-circle-down_doodle",
+      "baseId": "arrow-circle-down",
+      "variant": "doodle",
+      "name": "Arrow Circle Down",
+      "path": "./generated/arrows/arrow-circle-down_doodle.tsx",
+      "category": "arrows",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 155 150"
+    },
+    {
+      "id": "arrow-circle-left_doodle",
+      "baseId": "arrow-circle-left",
+      "variant": "doodle",
+      "name": "Arrow Circle Left",
+      "path": "./generated/arrows/arrow-circle-left_doodle.tsx",
+      "category": "arrows",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 155 150"
+    },
+    {
+      "id": "arrow-circle-right_doodle",
+      "baseId": "arrow-circle-right",
+      "variant": "doodle",
+      "name": "Arrow Circle Right",
+      "path": "./generated/arrows/arrow-circle-right_doodle.tsx",
+      "category": "arrows",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 155 150"
+    },
+    {
+      "id": "arrow-circle-up_doodle",
+      "baseId": "arrow-circle-up",
+      "variant": "doodle",
+      "name": "Arrow Circle Up",
+      "path": "./generated/arrows/arrow-circle-up_doodle.tsx",
+      "category": "arrows",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 155 150"
+    },
+    {
       "id": "arrow-down-0-1",
       "baseId": "arrow-down-0-1",
       "variant": "default",
@@ -1521,6 +1565,17 @@
       "viewBox": "0 0 24 24"
     },
     {
+      "id": "arrow-down_doodle",
+      "baseId": "arrow-down",
+      "variant": "doodle",
+      "name": "Arrow Down",
+      "path": "./generated/arrows/arrow-down_doodle.tsx",
+      "category": "arrows",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 85 150"
+    },
+    {
       "id": "arrow-guide_filled",
       "baseId": "arrow-guide",
       "variant": "filled",
@@ -1609,6 +1664,17 @@
       "viewBox": "0 0 24 24"
     },
     {
+      "id": "arrow-left_doodle",
+      "baseId": "arrow-left",
+      "variant": "doodle",
+      "name": "Arrow Left",
+      "path": "./generated/arrows/arrow-left_doodle.tsx",
+      "category": "arrows",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 151 84"
+    },
+    {
       "id": "arrow-move-down_filled",
       "baseId": "arrow-move-down",
       "variant": "filled",
@@ -1651,6 +1717,28 @@
       "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "arrow-ne_doodle",
+      "baseId": "arrow-ne",
+      "variant": "doodle",
+      "name": "Arrow Ne",
+      "path": "./generated/arrows/arrow-ne_doodle.tsx",
+      "category": "arrows",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 110 107"
+    },
+    {
+      "id": "arrow-nw_doodle",
+      "baseId": "arrow-nw",
+      "variant": "doodle",
+      "name": "Arrow Nw",
+      "path": "./generated/arrows/arrow-nw_doodle.tsx",
+      "category": "arrows",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 108 109"
     },
     {
       "id": "arrow-right-circle_filled",
@@ -1728,6 +1816,127 @@
       "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "arrow-right_doodle",
+      "baseId": "arrow-right",
+      "variant": "doodle",
+      "name": "Arrow Right",
+      "path": "./generated/arrows/arrow-right_doodle.tsx",
+      "category": "arrows",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 151 84"
+    },
+    {
+      "id": "arrow-se_doodle",
+      "baseId": "arrow-se",
+      "variant": "doodle",
+      "name": "Arrow Se",
+      "path": "./generated/arrows/arrow-se_doodle.tsx",
+      "category": "arrows",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 110 107"
+    },
+    {
+      "id": "arrow-single-down_doodle",
+      "baseId": "arrow-single-down",
+      "variant": "doodle",
+      "name": "Arrow Single Down",
+      "path": "./generated/arrows/arrow-single-down_doodle.tsx",
+      "category": "arrows",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 91 60"
+    },
+    {
+      "id": "arrow-single-left_doodle",
+      "baseId": "arrow-single-left",
+      "variant": "doodle",
+      "name": "Arrow Single Left",
+      "path": "./generated/arrows/arrow-single-left_doodle.tsx",
+      "category": "arrows",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 60 93"
+    },
+    {
+      "id": "arrow-single-right_doodle",
+      "baseId": "arrow-single-right",
+      "variant": "doodle",
+      "name": "Arrow Single Right",
+      "path": "./generated/arrows/arrow-single-right_doodle.tsx",
+      "category": "arrows",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 61 91"
+    },
+    {
+      "id": "arrow-single-up_doodle",
+      "baseId": "arrow-single-up",
+      "variant": "doodle",
+      "name": "Arrow Single Up",
+      "path": "./generated/arrows/arrow-single-up_doodle.tsx",
+      "category": "arrows",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 93 59"
+    },
+    {
+      "id": "arrow-square-down_doodle",
+      "baseId": "arrow-square-down",
+      "variant": "doodle",
+      "name": "Arrow Square Down",
+      "path": "./generated/arrows/arrow-square-down_doodle.tsx",
+      "category": "arrows",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 153 149"
+    },
+    {
+      "id": "arrow-square-left_doodle",
+      "baseId": "arrow-square-left",
+      "variant": "doodle",
+      "name": "Arrow Square Left",
+      "path": "./generated/arrows/arrow-square-left_doodle.tsx",
+      "category": "arrows",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 153 149"
+    },
+    {
+      "id": "arrow-square-right_doodle",
+      "baseId": "arrow-square-right",
+      "variant": "doodle",
+      "name": "Arrow Square Right",
+      "path": "./generated/arrows/arrow-square-right_doodle.tsx",
+      "category": "arrows",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 153 149"
+    },
+    {
+      "id": "arrow-square-up_doodle",
+      "baseId": "arrow-square-up",
+      "variant": "doodle",
+      "name": "Arrow Square Up",
+      "path": "./generated/arrows/arrow-square-up_doodle.tsx",
+      "category": "arrows",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 153 149"
+    },
+    {
+      "id": "arrow-sw_doodle",
+      "baseId": "arrow-sw",
+      "variant": "doodle",
+      "name": "Arrow Sw",
+      "path": "./generated/arrows/arrow-sw_doodle.tsx",
+      "category": "arrows",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 108 109"
     },
     {
       "id": "arrow-up-0-1",
@@ -1906,6 +2115,17 @@
       "viewBox": "0 0 24 24"
     },
     {
+      "id": "arrow-up_doodle",
+      "baseId": "arrow-up",
+      "variant": "doodle",
+      "name": "Arrow Up",
+      "path": "./generated/arrows/arrow-up_doodle.tsx",
+      "category": "arrows",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 85 150"
+    },
+    {
       "id": "arrows-up-from-line",
       "baseId": "arrows-up-from-line",
       "variant": "default",
@@ -2005,6 +2225,17 @@
       "viewBox": "0 0 24 24"
     },
     {
+      "id": "chevrons-down_doodle",
+      "baseId": "chevrons-down",
+      "variant": "doodle",
+      "name": "Chevrons Down",
+      "path": "./generated/arrows/chevrons-down_doodle.tsx",
+      "category": "arrows",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 91 99"
+    },
+    {
       "id": "chevrons-left-right-ellipsis",
       "baseId": "chevrons-left-right-ellipsis",
       "variant": "default",
@@ -2038,6 +2269,17 @@
       "viewBox": "0 0 24 24"
     },
     {
+      "id": "chevrons-left_doodle",
+      "baseId": "chevrons-left",
+      "variant": "doodle",
+      "name": "Chevrons Left",
+      "path": "./generated/arrows/chevrons-left_doodle.tsx",
+      "category": "arrows",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 100 93"
+    },
+    {
       "id": "chevrons-right-left",
       "baseId": "chevrons-right-left",
       "variant": "default",
@@ -2060,6 +2302,17 @@
       "viewBox": "0 0 24 24"
     },
     {
+      "id": "chevrons-right_doodle",
+      "baseId": "chevrons-right",
+      "variant": "doodle",
+      "name": "Chevrons Right",
+      "path": "./generated/arrows/chevrons-right_doodle.tsx",
+      "category": "arrows",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 100 91"
+    },
+    {
       "id": "chevrons-up-down",
       "baseId": "chevrons-up-down",
       "variant": "default",
@@ -2080,6 +2333,17 @@
       "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "chevrons-up_doodle",
+      "baseId": "chevrons-up",
+      "variant": "doodle",
+      "name": "Chevrons Up",
+      "path": "./generated/arrows/chevrons-up_doodle.tsx",
+      "category": "arrows",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 93 99"
     },
     {
       "id": "corner-down-left",
@@ -3226,6 +3490,28 @@
       "viewBox": "0 0 24 24"
     },
     {
+      "id": "apple_doodle",
+      "baseId": "apple",
+      "variant": "doodle",
+      "name": "Apple",
+      "path": "./generated/brand/apple_doodle.tsx",
+      "category": "brand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 163 169"
+    },
+    {
+      "id": "behance_doodle",
+      "baseId": "behance",
+      "variant": "doodle",
+      "name": "Behance",
+      "path": "./generated/brand/behance_doodle.tsx",
+      "category": "brand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 183 165"
+    },
+    {
       "id": "brand-angular_filled",
       "baseId": "brand-angular",
       "variant": "filled",
@@ -3598,6 +3884,281 @@
       "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "codepen_doodle",
+      "baseId": "codepen",
+      "variant": "doodle",
+      "name": "Codepen",
+      "path": "./generated/brand/codepen_doodle.tsx",
+      "category": "brand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 160 157"
+    },
+    {
+      "id": "dribbble_doodle",
+      "baseId": "dribbble",
+      "variant": "doodle",
+      "name": "Dribbble",
+      "path": "./generated/brand/dribbble_doodle.tsx",
+      "category": "brand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 183 178"
+    },
+    {
+      "id": "dropbox_doodle",
+      "baseId": "dropbox",
+      "variant": "doodle",
+      "name": "Dropbox",
+      "path": "./generated/brand/dropbox_doodle.tsx",
+      "category": "brand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 155 127"
+    },
+    {
+      "id": "facebook-2_doodle",
+      "baseId": "facebook-2",
+      "variant": "doodle",
+      "name": "Facebook 2",
+      "path": "./generated/brand/facebook-2_doodle.tsx",
+      "category": "brand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 160 158"
+    },
+    {
+      "id": "facebook_doodle",
+      "baseId": "facebook",
+      "variant": "doodle",
+      "name": "Facebook",
+      "path": "./generated/brand/facebook_doodle.tsx",
+      "category": "brand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 102 146"
+    },
+    {
+      "id": "fb-messenger_doodle",
+      "baseId": "fb-messenger",
+      "variant": "doodle",
+      "name": "Fb Messenger",
+      "path": "./generated/brand/fb-messenger_doodle.tsx",
+      "category": "brand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 183 157"
+    },
+    {
+      "id": "google_doodle",
+      "baseId": "google",
+      "variant": "doodle",
+      "name": "Google",
+      "path": "./generated/brand/google_doodle.tsx",
+      "category": "brand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 173 169"
+    },
+    {
+      "id": "instagram_doodle",
+      "baseId": "instagram",
+      "variant": "doodle",
+      "name": "Instagram",
+      "path": "./generated/brand/instagram_doodle.tsx",
+      "category": "brand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 161 160"
+    },
+    {
+      "id": "linkedin_doodle",
+      "baseId": "linkedin",
+      "variant": "doodle",
+      "name": "Linkedin",
+      "path": "./generated/brand/linkedin_doodle.tsx",
+      "category": "brand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 161 160"
+    },
+    {
+      "id": "paypal_doodle",
+      "baseId": "paypal",
+      "variant": "doodle",
+      "name": "Paypal",
+      "path": "./generated/brand/paypal_doodle.tsx",
+      "category": "brand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 138 162"
+    },
+    {
+      "id": "pinterest_doodle",
+      "baseId": "pinterest",
+      "variant": "doodle",
+      "name": "Pinterest",
+      "path": "./generated/brand/pinterest_doodle.tsx",
+      "category": "brand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 108 140"
+    },
+    {
+      "id": "product-hunt_doodle",
+      "baseId": "product-hunt",
+      "variant": "doodle",
+      "name": "Product Hunt",
+      "path": "./generated/brand/product-hunt_doodle.tsx",
+      "category": "brand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 76 123"
+    },
+    {
+      "id": "skype_doodle",
+      "baseId": "skype",
+      "variant": "doodle",
+      "name": "Skype",
+      "path": "./generated/brand/skype_doodle.tsx",
+      "category": "brand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 175 176"
+    },
+    {
+      "id": "snapchat_doodle",
+      "baseId": "snapchat",
+      "variant": "doodle",
+      "name": "Snapchat",
+      "path": "./generated/brand/snapchat_doodle.tsx",
+      "category": "brand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 160 147"
+    },
+    {
+      "id": "spotify_doodle",
+      "baseId": "spotify",
+      "variant": "doodle",
+      "name": "Spotify",
+      "path": "./generated/brand/spotify_doodle.tsx",
+      "category": "brand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 178 176"
+    },
+    {
+      "id": "tik-tok_doodle",
+      "baseId": "tik-tok",
+      "variant": "doodle",
+      "name": "Tik Tok",
+      "path": "./generated/brand/tik-tok_doodle.tsx",
+      "category": "brand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 158 164"
+    },
+    {
+      "id": "tumblr_doodle",
+      "baseId": "tumblr",
+      "variant": "doodle",
+      "name": "Tumblr",
+      "path": "./generated/brand/tumblr_doodle.tsx",
+      "category": "brand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 161 160"
+    },
+    {
+      "id": "twitch_doodle",
+      "baseId": "twitch",
+      "variant": "doodle",
+      "name": "Twitch",
+      "path": "./generated/brand/twitch_doodle.tsx",
+      "category": "brand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 160 161"
+    },
+    {
+      "id": "twitter_doodle",
+      "baseId": "twitter",
+      "variant": "doodle",
+      "name": "Twitter",
+      "path": "./generated/brand/twitter_doodle.tsx",
+      "category": "brand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 169 145"
+    },
+    {
+      "id": "uber_doodle",
+      "baseId": "uber",
+      "variant": "doodle",
+      "name": "Uber",
+      "path": "./generated/brand/uber_doodle.tsx",
+      "category": "brand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 183 178"
+    },
+    {
+      "id": "webflow_doodle",
+      "baseId": "webflow",
+      "variant": "doodle",
+      "name": "Webflow",
+      "path": "./generated/brand/webflow_doodle.tsx",
+      "category": "brand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 124 104"
+    },
+    {
+      "id": "whatsapp_doodle",
+      "baseId": "whatsapp",
+      "variant": "doodle",
+      "name": "Whatsapp",
+      "path": "./generated/brand/whatsapp_doodle.tsx",
+      "category": "brand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 186 187"
+    },
+    {
+      "id": "windows_doodle",
+      "baseId": "windows",
+      "variant": "doodle",
+      "name": "Windows",
+      "path": "./generated/brand/windows_doodle.tsx",
+      "category": "brand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 167 162"
+    },
+    {
+      "id": "y-combinator_doodle",
+      "baseId": "y-combinator",
+      "variant": "doodle",
+      "name": "Y Combinator",
+      "path": "./generated/brand/y-combinator_doodle.tsx",
+      "category": "brand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 81 116"
+    },
+    {
+      "id": "youtube_doodle",
+      "baseId": "youtube",
+      "variant": "doodle",
+      "name": "Youtube",
+      "path": "./generated/brand/youtube_doodle.tsx",
+      "category": "brand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 180 146"
     },
     {
       "id": "building-2",
@@ -6515,6 +7076,303 @@
       "viewBox": "0 0 24 24"
     },
     {
+      "id": "bag-2_doodle",
+      "baseId": "bag-2",
+      "variant": "doodle",
+      "name": "Bag 2",
+      "path": "./generated/commerce/bag-2_doodle.tsx",
+      "category": "commerce",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 148 149"
+    },
+    {
+      "id": "bag_doodle",
+      "baseId": "bag",
+      "variant": "doodle",
+      "name": "Bag",
+      "path": "./generated/commerce/bag_doodle.tsx",
+      "category": "commerce",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 158 159"
+    },
+    {
+      "id": "basket_doodle",
+      "baseId": "basket",
+      "variant": "doodle",
+      "name": "Basket",
+      "path": "./generated/commerce/basket_doodle.tsx",
+      "category": "commerce",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 155 128"
+    },
+    {
+      "id": "box-2_doodle",
+      "baseId": "box-2",
+      "variant": "doodle",
+      "name": "Box 2",
+      "path": "./generated/commerce/box-2_doodle.tsx",
+      "category": "commerce",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 163 162"
+    },
+    {
+      "id": "box_doodle",
+      "baseId": "box",
+      "variant": "doodle",
+      "name": "Box",
+      "path": "./generated/commerce/box_doodle.tsx",
+      "category": "commerce",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 161 152"
+    },
+    {
+      "id": "card-2_doodle",
+      "baseId": "card-2",
+      "variant": "doodle",
+      "name": "Card 2",
+      "path": "./generated/commerce/card-2_doodle.tsx",
+      "category": "commerce",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 168 137"
+    },
+    {
+      "id": "card-3_doodle",
+      "baseId": "card-3",
+      "variant": "doodle",
+      "name": "Card 3",
+      "path": "./generated/commerce/card-3_doodle.tsx",
+      "category": "commerce",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 156 126"
+    },
+    {
+      "id": "card_doodle",
+      "baseId": "card",
+      "variant": "doodle",
+      "name": "Card",
+      "path": "./generated/commerce/card_doodle.tsx",
+      "category": "commerce",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 167 137"
+    },
+    {
+      "id": "cart-add_doodle",
+      "baseId": "cart-add",
+      "variant": "doodle",
+      "name": "Cart Add",
+      "path": "./generated/commerce/cart-add_doodle.tsx",
+      "category": "commerce",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 158 145"
+    },
+    {
+      "id": "cart-delete_doodle",
+      "baseId": "cart-delete",
+      "variant": "doodle",
+      "name": "Cart Delete",
+      "path": "./generated/commerce/cart-delete_doodle.tsx",
+      "category": "commerce",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 158 145"
+    },
+    {
+      "id": "cart-remove_doodle",
+      "baseId": "cart-remove",
+      "variant": "doodle",
+      "name": "Cart Remove",
+      "path": "./generated/commerce/cart-remove_doodle.tsx",
+      "category": "commerce",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 158 145"
+    },
+    {
+      "id": "conveyor-belt_doodle",
+      "baseId": "conveyor-belt",
+      "variant": "doodle",
+      "name": "Conveyor Belt",
+      "path": "./generated/commerce/conveyor-belt_doodle.tsx",
+      "category": "commerce",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 157 102"
+    },
+    {
+      "id": "factory_doodle",
+      "baseId": "factory",
+      "variant": "doodle",
+      "name": "Factory",
+      "path": "./generated/commerce/factory_doodle.tsx",
+      "category": "commerce",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 159 153"
+    },
+    {
+      "id": "hand-truck_doodle",
+      "baseId": "hand-truck",
+      "variant": "doodle",
+      "name": "Hand Truck",
+      "path": "./generated/commerce/hand-truck_doodle.tsx",
+      "category": "commerce",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 149 141"
+    },
+    {
+      "id": "location_doodle",
+      "baseId": "location",
+      "variant": "doodle",
+      "name": "Location",
+      "path": "./generated/commerce/location_doodle.tsx",
+      "category": "commerce",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 102 162"
+    },
+    {
+      "id": "offer_doodle",
+      "baseId": "offer",
+      "variant": "doodle",
+      "name": "Offer",
+      "path": "./generated/commerce/offer_doodle.tsx",
+      "category": "commerce",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 135 114"
+    },
+    {
+      "id": "qr_doodle",
+      "baseId": "qr",
+      "variant": "doodle",
+      "name": "Qr",
+      "path": "./generated/commerce/qr_doodle.tsx",
+      "category": "commerce",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 160 87"
+    },
+    {
+      "id": "sale_doodle",
+      "baseId": "sale",
+      "variant": "doodle",
+      "name": "Sale",
+      "path": "./generated/commerce/sale_doodle.tsx",
+      "category": "commerce",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 155 137"
+    },
+    {
+      "id": "shop_doodle",
+      "baseId": "shop",
+      "variant": "doodle",
+      "name": "Shop",
+      "path": "./generated/commerce/shop_doodle.tsx",
+      "category": "commerce",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 177 142"
+    },
+    {
+      "id": "shopping-cart-2_doodle",
+      "baseId": "shopping-cart-2",
+      "variant": "doodle",
+      "name": "Shopping Cart 2",
+      "path": "./generated/commerce/shopping-cart-2_doodle.tsx",
+      "category": "commerce",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 153 149"
+    },
+    {
+      "id": "shopping-cart-3_doodle",
+      "baseId": "shopping-cart-3",
+      "variant": "doodle",
+      "name": "Shopping Cart 3",
+      "path": "./generated/commerce/shopping-cart-3_doodle.tsx",
+      "category": "commerce",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 153 149"
+    },
+    {
+      "id": "shopping-cart_doodle",
+      "baseId": "shopping-cart",
+      "variant": "doodle",
+      "name": "Shopping Cart",
+      "path": "./generated/commerce/shopping-cart_doodle.tsx",
+      "category": "commerce",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 145 140"
+    },
+    {
+      "id": "tag-2_doodle",
+      "baseId": "tag-2",
+      "variant": "doodle",
+      "name": "Tag 2",
+      "path": "./generated/commerce/tag-2_doodle.tsx",
+      "category": "commerce",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 151 135"
+    },
+    {
+      "id": "tag_doodle",
+      "baseId": "tag",
+      "variant": "doodle",
+      "name": "Tag",
+      "path": "./generated/commerce/tag_doodle.tsx",
+      "category": "commerce",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 168 165"
+    },
+    {
+      "id": "truck_doodle",
+      "baseId": "truck",
+      "variant": "doodle",
+      "name": "Truck",
+      "path": "./generated/commerce/truck_doodle.tsx",
+      "category": "commerce",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 196 124"
+    },
+    {
+      "id": "unbox_doodle",
+      "baseId": "unbox",
+      "variant": "doodle",
+      "name": "Unbox",
+      "path": "./generated/commerce/unbox_doodle.tsx",
+      "category": "commerce",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 160 152"
+    },
+    {
+      "id": "warehouse_doodle",
+      "baseId": "warehouse",
+      "variant": "doodle",
+      "name": "Warehouse",
+      "path": "./generated/commerce/warehouse_doodle.tsx",
+      "category": "commerce",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 161 146"
+    },
+    {
       "id": "phone-call",
       "baseId": "phone-call",
       "variant": "default",
@@ -7890,6 +8748,83 @@
       "viewBox": "0 0 24 24"
     },
     {
+      "id": "confused-emoji_doodle",
+      "baseId": "confused-emoji",
+      "variant": "doodle",
+      "name": "Confused Emoji",
+      "path": "./generated/emoji/confused-emoji_doodle.tsx",
+      "category": "emoji",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 159 155"
+    },
+    {
+      "id": "cool-emoji_doodle",
+      "baseId": "cool-emoji",
+      "variant": "doodle",
+      "name": "Cool Emoji",
+      "path": "./generated/emoji/cool-emoji_doodle.tsx",
+      "category": "emoji",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 161 156"
+    },
+    {
+      "id": "crying-emoji_doodle",
+      "baseId": "crying-emoji",
+      "variant": "doodle",
+      "name": "Crying Emoji",
+      "path": "./generated/emoji/crying-emoji_doodle.tsx",
+      "category": "emoji",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 160 155"
+    },
+    {
+      "id": "grinning-squinting-emoji_doodle",
+      "baseId": "grinning-squinting-emoji",
+      "variant": "doodle",
+      "name": "Grinning Squinting Emoji",
+      "path": "./generated/emoji/grinning-squinting-emoji_doodle.tsx",
+      "category": "emoji",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 159 156"
+    },
+    {
+      "id": "happy-emoji_doodle",
+      "baseId": "happy-emoji",
+      "variant": "doodle",
+      "name": "Happy Emoji",
+      "path": "./generated/emoji/happy-emoji_doodle.tsx",
+      "category": "emoji",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 160 155"
+    },
+    {
+      "id": "heart-eyes-emoji_doodle",
+      "baseId": "heart-eyes-emoji",
+      "variant": "doodle",
+      "name": "Heart Eyes Emoji",
+      "path": "./generated/emoji/heart-eyes-emoji_doodle.tsx",
+      "category": "emoji",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 160 156"
+    },
+    {
+      "id": "laugh-emoji_doodle",
+      "baseId": "laugh-emoji",
+      "variant": "doodle",
+      "name": "Laugh Emoji",
+      "path": "./generated/emoji/laugh-emoji_doodle.tsx",
+      "category": "emoji",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 159 156"
+    },
+    {
       "id": "laugh",
       "baseId": "laugh",
       "variant": "default",
@@ -8011,6 +8946,28 @@
       "viewBox": "0 0 24 24"
     },
     {
+      "id": "sad-emoji_doodle",
+      "baseId": "sad-emoji",
+      "variant": "doodle",
+      "name": "Sad Emoji",
+      "path": "./generated/emoji/sad-emoji_doodle.tsx",
+      "category": "emoji",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 160 155"
+    },
+    {
+      "id": "shocked-emoji_doodle",
+      "baseId": "shocked-emoji",
+      "variant": "doodle",
+      "name": "Shocked Emoji",
+      "path": "./generated/emoji/shocked-emoji_doodle.tsx",
+      "category": "emoji",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 160 156"
+    },
+    {
       "id": "smile-plus",
       "baseId": "smile-plus",
       "variant": "default",
@@ -8033,6 +8990,61 @@
       "viewBox": "0 0 24 24"
     },
     {
+      "id": "smiling-emoji_doodle",
+      "baseId": "smiling-emoji",
+      "variant": "doodle",
+      "name": "Smiling Emoji",
+      "path": "./generated/emoji/smiling-emoji_doodle.tsx",
+      "category": "emoji",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 159 155"
+    },
+    {
+      "id": "smiling-with-eyes-emoji_doodle",
+      "baseId": "smiling-with-eyes-emoji",
+      "variant": "doodle",
+      "name": "Smiling With Eyes Emoji",
+      "path": "./generated/emoji/smiling-with-eyes-emoji_doodle.tsx",
+      "category": "emoji",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 160 155"
+    },
+    {
+      "id": "surprised-emoji_doodle",
+      "baseId": "surprised-emoji",
+      "variant": "doodle",
+      "name": "Surprised Emoji",
+      "path": "./generated/emoji/surprised-emoji_doodle.tsx",
+      "category": "emoji",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 159 156"
+    },
+    {
+      "id": "wink-emoji_doodle",
+      "baseId": "wink-emoji",
+      "variant": "doodle",
+      "name": "Wink Emoji",
+      "path": "./generated/emoji/wink-emoji_doodle.tsx",
+      "category": "emoji",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 160 156"
+    },
+    {
+      "id": "worried-emoji_doodle",
+      "baseId": "worried-emoji",
+      "variant": "doodle",
+      "name": "Worried Emoji",
+      "path": "./generated/emoji/worried-emoji_doodle.tsx",
+      "category": "emoji",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 160 155"
+    },
+    {
       "id": "file-analytics_filled",
       "baseId": "file-analytics",
       "variant": "filled",
@@ -8053,6 +9065,28 @@
       "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "file-attachment_doodle",
+      "baseId": "file-attachment",
+      "variant": "doodle",
+      "name": "File Attachment",
+      "path": "./generated/file/file-attachment_doodle.tsx",
+      "category": "file",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 142 190"
+    },
+    {
+      "id": "file-audio_doodle",
+      "baseId": "file-audio",
+      "variant": "doodle",
+      "name": "File Audio",
+      "path": "./generated/file/file-audio_doodle.tsx",
+      "category": "file",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 142 174"
     },
     {
       "id": "file-axis-3d",
@@ -8231,6 +9265,17 @@
       "viewBox": "0 0 24 24"
     },
     {
+      "id": "file-code_doodle",
+      "baseId": "file-code",
+      "variant": "doodle",
+      "name": "File Code",
+      "path": "./generated/file/file-code_doodle.tsx",
+      "category": "file",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 142 174"
+    },
+    {
       "id": "file-code_filled",
       "baseId": "file-code",
       "variant": "filled",
@@ -8251,6 +9296,28 @@
       "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "file-contract_doodle",
+      "baseId": "file-contract",
+      "variant": "doodle",
+      "name": "File Contract",
+      "path": "./generated/file/file-contract_doodle.tsx",
+      "category": "file",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 142 174"
+    },
+    {
+      "id": "file-csv_doodle",
+      "baseId": "file-csv",
+      "variant": "doodle",
+      "name": "File Csv",
+      "path": "./generated/file/file-csv_doodle.tsx",
+      "category": "file",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 142 174"
     },
     {
       "id": "file-cv_filled",
@@ -8396,6 +9463,28 @@
       "viewBox": "0 0 24 24"
     },
     {
+      "id": "file-figma_doodle",
+      "baseId": "file-figma",
+      "variant": "doodle",
+      "name": "File Figma",
+      "path": "./generated/file/file-figma_doodle.tsx",
+      "category": "file",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 143 174"
+    },
+    {
+      "id": "file-form_doodle",
+      "baseId": "file-form",
+      "variant": "doodle",
+      "name": "File Form",
+      "path": "./generated/file/file-form_doodle.tsx",
+      "category": "file",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 142 174"
+    },
+    {
       "id": "file-function_filled",
       "baseId": "file-function",
       "variant": "filled",
@@ -8440,6 +9529,17 @@
       "viewBox": "0 0 24 24"
     },
     {
+      "id": "file-image-2_doodle",
+      "baseId": "file-image-2",
+      "variant": "doodle",
+      "name": "File Image 2",
+      "path": "./generated/file/file-image-2_doodle.tsx",
+      "category": "file",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 142 174"
+    },
+    {
       "id": "file-image",
       "baseId": "file-image",
       "variant": "default",
@@ -8449,6 +9549,17 @@
       "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "file-image_doodle",
+      "baseId": "file-image",
+      "variant": "doodle",
+      "name": "File Image",
+      "path": "./generated/file/file-image_doodle.tsx",
+      "category": "file",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 142 174"
     },
     {
       "id": "file-info_filled",
@@ -8473,6 +9584,17 @@
       "viewBox": "0 0 24 24"
     },
     {
+      "id": "file-invoice_doodle",
+      "baseId": "file-invoice",
+      "variant": "doodle",
+      "name": "File Invoice",
+      "path": "./generated/file/file-invoice_doodle.tsx",
+      "category": "file",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 142 175"
+    },
+    {
       "id": "file-invoice_filled",
       "baseId": "file-invoice",
       "variant": "filled",
@@ -8482,6 +9604,17 @@
       "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "file-jpg_doodle",
+      "baseId": "file-jpg",
+      "variant": "doodle",
+      "name": "File Jpg",
+      "path": "./generated/file/file-jpg_doodle.tsx",
+      "category": "file",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 142 174"
     },
     {
       "id": "file-key",
@@ -8504,6 +9637,17 @@
       "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "file-list_doodle",
+      "baseId": "file-list",
+      "variant": "doodle",
+      "name": "File List",
+      "path": "./generated/file/file-list_doodle.tsx",
+      "category": "file",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 142 175"
     },
     {
       "id": "file-lock",
@@ -8550,6 +9694,28 @@
       "viewBox": "0 0 24 24"
     },
     {
+      "id": "file-mov_doodle",
+      "baseId": "file-mov",
+      "variant": "doodle",
+      "name": "File Mov",
+      "path": "./generated/file/file-mov_doodle.tsx",
+      "category": "file",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 143 175"
+    },
+    {
+      "id": "file-mp4_doodle",
+      "baseId": "file-mp4",
+      "variant": "doodle",
+      "name": "File Mp4",
+      "path": "./generated/file/file-mp4_doodle.tsx",
+      "category": "file",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 142 175"
+    },
+    {
       "id": "file-music",
       "baseId": "file-music",
       "variant": "default",
@@ -8583,6 +9749,17 @@
       "viewBox": "0 0 24 24"
     },
     {
+      "id": "file-notes_doodle",
+      "baseId": "file-notes",
+      "variant": "doodle",
+      "name": "File Notes",
+      "path": "./generated/file/file-notes_doodle.tsx",
+      "category": "file",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 142 175"
+    },
+    {
       "id": "file-output",
       "baseId": "file-output",
       "variant": "default",
@@ -8592,6 +9769,17 @@
       "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "file-pdf_doodle",
+      "baseId": "file-pdf",
+      "variant": "doodle",
+      "name": "File Pdf",
+      "path": "./generated/file/file-pdf_doodle.tsx",
+      "category": "file",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 142 175"
     },
     {
       "id": "file-pen-line",
@@ -8680,6 +9868,17 @@
       "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "file-png_doodle",
+      "baseId": "file-png",
+      "variant": "doodle",
+      "name": "File Png",
+      "path": "./generated/file/file-png_doodle.tsx",
+      "category": "file",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 143 174"
     },
     {
       "id": "file-power_filled",
@@ -8836,6 +10035,17 @@
       "viewBox": "0 0 24 24"
     },
     {
+      "id": "file-spreadsheet_doodle",
+      "baseId": "file-spreadsheet",
+      "variant": "doodle",
+      "name": "File Spreadsheet",
+      "path": "./generated/file/file-spreadsheet_doodle.tsx",
+      "category": "file",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 143 175"
+    },
+    {
       "id": "file-stack",
       "baseId": "file-stack",
       "variant": "default",
@@ -8856,6 +10066,17 @@
       "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "file-svg_doodle",
+      "baseId": "file-svg",
+      "variant": "doodle",
+      "name": "File Svg",
+      "path": "./generated/file/file-svg_doodle.tsx",
+      "category": "file",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 142 175"
     },
     {
       "id": "file-symlink",
@@ -8889,6 +10110,17 @@
       "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "file-text_doodle",
+      "baseId": "file-text",
+      "variant": "doodle",
+      "name": "File Text",
+      "path": "./generated/file/file-text_doodle.tsx",
+      "category": "file",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 142 175"
     },
     {
       "id": "file-text_filled",
@@ -8990,6 +10222,17 @@
       "viewBox": "0 0 24 24"
     },
     {
+      "id": "file-vector_doodle",
+      "baseId": "file-vector",
+      "variant": "doodle",
+      "name": "File Vector",
+      "path": "./generated/file/file-vector_doodle.tsx",
+      "category": "file",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 142 175"
+    },
+    {
       "id": "file-vector_filled",
       "baseId": "file-vector",
       "variant": "filled",
@@ -9056,6 +10299,17 @@
       "viewBox": "0 0 24 24"
     },
     {
+      "id": "file-zip_doodle",
+      "baseId": "file-zip",
+      "variant": "doodle",
+      "name": "File Zip",
+      "path": "./generated/file/file-zip_doodle.tsx",
+      "category": "file",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 143 175"
+    },
+    {
       "id": "file",
       "baseId": "file",
       "variant": "default",
@@ -9065,6 +10319,17 @@
       "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "file_doodle",
+      "baseId": "file",
+      "variant": "doodle",
+      "name": "File",
+      "path": "./generated/file/file_doodle.tsx",
+      "category": "file",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 142 174"
     },
     {
       "id": "file_filled",
@@ -9098,6 +10363,17 @@
       "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "png_doodle",
+      "baseId": "png",
+      "variant": "doodle",
+      "name": "Png",
+      "path": "./generated/file/png_doodle.tsx",
+      "category": "file",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 142 174"
     },
     {
       "id": "accessible_filled",
@@ -14369,6 +15645,17 @@
       "viewBox": "0 0 24 24"
     },
     {
+      "id": "bank_doodle",
+      "baseId": "bank",
+      "variant": "doodle",
+      "name": "Bank",
+      "path": "./generated/finance/bank_doodle.tsx",
+      "category": "finance",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 160 160"
+    },
+    {
       "id": "banknote-arrow-down",
       "baseId": "banknote-arrow-down",
       "variant": "default",
@@ -14413,6 +15700,17 @@
       "viewBox": "0 0 24 24"
     },
     {
+      "id": "bill_doodle",
+      "baseId": "bill",
+      "variant": "doodle",
+      "name": "Bill",
+      "path": "./generated/finance/bill_doodle.tsx",
+      "category": "finance",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 137 143"
+    },
+    {
       "id": "bitcoin",
       "baseId": "bitcoin",
       "variant": "default",
@@ -14422,6 +15720,28 @@
       "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "cash_doodle",
+      "baseId": "cash",
+      "variant": "doodle",
+      "name": "Cash",
+      "path": "./generated/finance/cash_doodle.tsx",
+      "category": "finance",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 178 99"
+    },
+    {
+      "id": "coin-2_doodle",
+      "baseId": "coin-2",
+      "variant": "doodle",
+      "name": "Coin 2",
+      "path": "./generated/finance/coin-2_doodle.tsx",
+      "category": "finance",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 149 153"
     },
     {
       "id": "coin-bitcoin_filled",
@@ -14512,6 +15832,17 @@
       "viewBox": "0 0 24 24"
     },
     {
+      "id": "coin_doodle",
+      "baseId": "coin",
+      "variant": "doodle",
+      "name": "Coin",
+      "path": "./generated/finance/coin_doodle.tsx",
+      "category": "finance",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 96 167"
+    },
+    {
       "id": "coin_filled",
       "baseId": "coin",
       "variant": "filled",
@@ -14556,6 +15887,17 @@
       "viewBox": "0 0 24 24"
     },
     {
+      "id": "dollar_doodle",
+      "baseId": "dollar",
+      "variant": "doodle",
+      "name": "Dollar",
+      "path": "./generated/finance/dollar_doodle.tsx",
+      "category": "finance",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 88 153"
+    },
+    {
       "id": "euro",
       "baseId": "euro",
       "variant": "default",
@@ -14565,6 +15907,28 @@
       "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "euro_doodle",
+      "baseId": "euro",
+      "variant": "doodle",
+      "name": "Euro",
+      "path": "./generated/finance/euro_doodle.tsx",
+      "category": "finance",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 163 160"
+    },
+    {
+      "id": "franc_doodle",
+      "baseId": "franc",
+      "variant": "doodle",
+      "name": "Franc",
+      "path": "./generated/finance/franc_doodle.tsx",
+      "category": "finance",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 163 160"
     },
     {
       "id": "indian-rupee",
@@ -14589,6 +15953,17 @@
       "viewBox": "0 0 24 24"
     },
     {
+      "id": "money-plant_doodle",
+      "baseId": "money-plant",
+      "variant": "doodle",
+      "name": "Money Plant",
+      "path": "./generated/finance/money-plant_doodle.tsx",
+      "category": "finance",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 110 157"
+    },
+    {
       "id": "philippine-peso",
       "baseId": "philippine-peso",
       "variant": "default",
@@ -14598,6 +15973,17 @@
       "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "piggy-bank_doodle",
+      "baseId": "piggy-bank",
+      "variant": "doodle",
+      "name": "Piggy Bank",
+      "path": "./generated/finance/piggy-bank_doodle.tsx",
+      "category": "finance",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 179 162"
     },
     {
       "id": "pound-sterling",
@@ -14611,6 +15997,61 @@
       "viewBox": "0 0 24 24"
     },
     {
+      "id": "pound_doodle",
+      "baseId": "pound",
+      "variant": "doodle",
+      "name": "Pound",
+      "path": "./generated/finance/pound_doodle.tsx",
+      "category": "finance",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 163 160"
+    },
+    {
+      "id": "ruble_doodle",
+      "baseId": "ruble",
+      "variant": "doodle",
+      "name": "Ruble",
+      "path": "./generated/finance/ruble_doodle.tsx",
+      "category": "finance",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 163 160"
+    },
+    {
+      "id": "rupee_doodle",
+      "baseId": "rupee",
+      "variant": "doodle",
+      "name": "Rupee",
+      "path": "./generated/finance/rupee_doodle.tsx",
+      "category": "finance",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 163 160"
+    },
+    {
+      "id": "safe_doodle",
+      "baseId": "safe",
+      "variant": "doodle",
+      "name": "Safe",
+      "path": "./generated/finance/safe_doodle.tsx",
+      "category": "finance",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 159 158"
+    },
+    {
+      "id": "saving_doodle",
+      "baseId": "saving",
+      "variant": "doodle",
+      "name": "Saving",
+      "path": "./generated/finance/saving_doodle.tsx",
+      "category": "finance",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 168 153"
+    },
+    {
       "id": "swiss-franc",
       "baseId": "swiss-franc",
       "variant": "default",
@@ -14620,6 +16061,83 @@
       "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "trend-down-square_doodle",
+      "baseId": "trend-down-square",
+      "variant": "doodle",
+      "name": "Trend Down Square",
+      "path": "./generated/finance/trend-down-square_doodle.tsx",
+      "category": "finance",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 167 150"
+    },
+    {
+      "id": "trend-down_doodle",
+      "baseId": "trend-down",
+      "variant": "doodle",
+      "name": "Trend Down",
+      "path": "./generated/finance/trend-down_doodle.tsx",
+      "category": "finance",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 154 76"
+    },
+    {
+      "id": "trend-up-square_doodle",
+      "baseId": "trend-up-square",
+      "variant": "doodle",
+      "name": "Trend Up Square",
+      "path": "./generated/finance/trend-up-square_doodle.tsx",
+      "category": "finance",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 166 150"
+    },
+    {
+      "id": "trend-up_doodle",
+      "baseId": "trend-up",
+      "variant": "doodle",
+      "name": "Trend Up",
+      "path": "./generated/finance/trend-up_doodle.tsx",
+      "category": "finance",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 155 76"
+    },
+    {
+      "id": "wallet_doodle",
+      "baseId": "wallet",
+      "variant": "doodle",
+      "name": "Wallet",
+      "path": "./generated/finance/wallet_doodle.tsx",
+      "category": "finance",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 161 118"
+    },
+    {
+      "id": "won_doodle",
+      "baseId": "won",
+      "variant": "doodle",
+      "name": "Won",
+      "path": "./generated/finance/won_doodle.tsx",
+      "category": "finance",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 163 160"
+    },
+    {
+      "id": "yen_doodle",
+      "baseId": "yen",
+      "variant": "doodle",
+      "name": "Yen",
+      "path": "./generated/finance/yen_doodle.tsx",
+      "category": "finance",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 163 160"
     },
     {
       "id": "folder-archive",
@@ -15051,6 +16569,17 @@
       "viewBox": "0 0 24 24"
     },
     {
+      "id": "burger_doodle",
+      "baseId": "burger",
+      "variant": "doodle",
+      "name": "Burger",
+      "path": "./generated/food/burger_doodle.tsx",
+      "category": "food",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 166 146"
+    },
+    {
       "id": "cake-slice",
       "baseId": "cake-slice",
       "variant": "default",
@@ -15071,6 +16600,17 @@
       "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "cake_doodle",
+      "baseId": "cake",
+      "variant": "doodle",
+      "name": "Cake",
+      "path": "./generated/food/cake_doodle.tsx",
+      "category": "food",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 155 156"
     },
     {
       "id": "candy-cane",
@@ -15104,6 +16644,17 @@
       "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "candy_doodle",
+      "baseId": "candy",
+      "variant": "doodle",
+      "name": "Candy",
+      "path": "./generated/food/candy_doodle.tsx",
+      "category": "food",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 77 161"
     },
     {
       "id": "carrot",
@@ -15150,6 +16701,28 @@
       "viewBox": "0 0 24 24"
     },
     {
+      "id": "cutlery_doodle",
+      "baseId": "cutlery",
+      "variant": "doodle",
+      "name": "Cutlery",
+      "path": "./generated/food/cutlery_doodle.tsx",
+      "category": "food",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 77 157"
+    },
+    {
+      "id": "dish_doodle",
+      "baseId": "dish",
+      "variant": "doodle",
+      "name": "Dish",
+      "path": "./generated/food/dish_doodle.tsx",
+      "category": "food",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 157 88"
+    },
+    {
       "id": "donut",
       "baseId": "donut",
       "variant": "default",
@@ -15159,6 +16732,17 @@
       "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "drink_doodle",
+      "baseId": "drink",
+      "variant": "doodle",
+      "name": "Drink",
+      "path": "./generated/food/drink_doodle.tsx",
+      "category": "food",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 156 160"
     },
     {
       "id": "egg-fried",
@@ -15194,6 +16778,28 @@
       "viewBox": "0 0 24 24"
     },
     {
+      "id": "egg_doodle",
+      "baseId": "egg",
+      "variant": "doodle",
+      "name": "Egg",
+      "path": "./generated/food/egg_doodle.tsx",
+      "category": "food",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 162 150"
+    },
+    {
+      "id": "fork_doodle",
+      "baseId": "fork",
+      "variant": "doodle",
+      "name": "Fork",
+      "path": "./generated/food/fork_doodle.tsx",
+      "category": "food",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 46 160"
+    },
+    {
       "id": "ice-cream-bowl",
       "baseId": "ice-cream-bowl",
       "variant": "default",
@@ -15214,6 +16820,17 @@
       "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "ice-cream_doodle",
+      "baseId": "ice-cream",
+      "variant": "doodle",
+      "name": "Ice Cream",
+      "path": "./generated/food/ice-cream_doodle.tsx",
+      "category": "food",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 91 157"
     },
     {
       "id": "nut-off",
@@ -15238,6 +16855,17 @@
       "viewBox": "0 0 24 24"
     },
     {
+      "id": "pizza-2_doodle",
+      "baseId": "pizza-2",
+      "variant": "doodle",
+      "name": "Pizza 2",
+      "path": "./generated/food/pizza-2_doodle.tsx",
+      "category": "food",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 124 133"
+    },
+    {
       "id": "pizza",
       "baseId": "pizza",
       "variant": "default",
@@ -15247,6 +16875,28 @@
       "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "pizza_doodle",
+      "baseId": "pizza",
+      "variant": "doodle",
+      "name": "Pizza",
+      "path": "./generated/food/pizza_doodle.tsx",
+      "category": "food",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 164 161"
+    },
+    {
+      "id": "popsicle_doodle",
+      "baseId": "popsicle",
+      "variant": "doodle",
+      "name": "Popsicle",
+      "path": "./generated/food/popsicle_doodle.tsx",
+      "category": "food",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 71 153"
     },
     {
       "id": "salad",
@@ -15269,6 +16919,160 @@
       "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "spoon_doodle",
+      "baseId": "spoon",
+      "variant": "doodle",
+      "name": "Spoon",
+      "path": "./generated/food/spoon_doodle.tsx",
+      "category": "food",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 60 158"
+    },
+    {
+      "id": "water_doodle",
+      "baseId": "water",
+      "variant": "doodle",
+      "name": "Water",
+      "path": "./generated/food/water_doodle.tsx",
+      "category": "food",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 112 158"
+    },
+    {
+      "id": "bisexual_doodle",
+      "baseId": "bisexual",
+      "variant": "doodle",
+      "name": "Bisexual",
+      "path": "./generated/gender/bisexual_doodle.tsx",
+      "category": "gender",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 188 175"
+    },
+    {
+      "id": "femaile_doodle",
+      "baseId": "femaile",
+      "variant": "doodle",
+      "name": "Femaile",
+      "path": "./generated/gender/femaile_doodle.tsx",
+      "category": "gender",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 78 125"
+    },
+    {
+      "id": "gay_doodle",
+      "baseId": "gay",
+      "variant": "doodle",
+      "name": "Gay",
+      "path": "./generated/gender/gay_doodle.tsx",
+      "category": "gender",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 135 136"
+    },
+    {
+      "id": "genderless_doodle",
+      "baseId": "genderless",
+      "variant": "doodle",
+      "name": "Genderless",
+      "path": "./generated/gender/genderless_doodle.tsx",
+      "category": "gender",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 78 78"
+    },
+    {
+      "id": "hetro_doodle",
+      "baseId": "hetro",
+      "variant": "doodle",
+      "name": "Hetro",
+      "path": "./generated/gender/hetro_doodle.tsx",
+      "category": "gender",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 131 169"
+    },
+    {
+      "id": "intersex_doodle",
+      "baseId": "intersex",
+      "variant": "doodle",
+      "name": "Intersex",
+      "path": "./generated/gender/intersex_doodle.tsx",
+      "category": "gender",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 102 147"
+    },
+    {
+      "id": "lesbian_doodle",
+      "baseId": "lesbian",
+      "variant": "doodle",
+      "name": "Lesbian",
+      "path": "./generated/gender/lesbian_doodle.tsx",
+      "category": "gender",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 120 125"
+    },
+    {
+      "id": "male_doodle",
+      "baseId": "male",
+      "variant": "doodle",
+      "name": "Male",
+      "path": "./generated/gender/male_doodle.tsx",
+      "category": "gender",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 104 101"
+    },
+    {
+      "id": "non-binary-transgender_doodle",
+      "baseId": "non-binary-transgender",
+      "variant": "doodle",
+      "name": "Non Binary Transgender",
+      "path": "./generated/gender/non-binary-transgender_doodle.tsx",
+      "category": "gender",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 78 141"
+    },
+    {
+      "id": "other-gender_doodle",
+      "baseId": "other-gender",
+      "variant": "doodle",
+      "name": "Other Gender",
+      "path": "./generated/gender/other-gender_doodle.tsx",
+      "category": "gender",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 126 80"
+    },
+    {
+      "id": "transgender-2_doodle",
+      "baseId": "transgender-2",
+      "variant": "doodle",
+      "name": "Transgender 2",
+      "path": "./generated/gender/transgender-2_doodle.tsx",
+      "category": "gender",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 129 149"
+    },
+    {
+      "id": "transgender_doodle",
+      "baseId": "transgender",
+      "variant": "doodle",
+      "name": "Transgender",
+      "path": "./generated/gender/transgender_doodle.tsx",
+      "category": "gender",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 105 101"
     },
     {
       "id": "git-branch-minus",
@@ -15456,6 +17260,919 @@
       "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "clap_doodle",
+      "baseId": "clap",
+      "variant": "doodle",
+      "name": "Clap",
+      "path": "./generated/hand/clap_doodle.tsx",
+      "category": "hand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 142 158"
+    },
+    {
+      "id": "double-2-tap_doodle",
+      "baseId": "double-2-tap",
+      "variant": "doodle",
+      "name": "Double 2 Tap",
+      "path": "./generated/hand/double-2-tap_doodle.tsx",
+      "category": "hand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 112 170"
+    },
+    {
+      "id": "double-tap_doodle",
+      "baseId": "double-tap",
+      "variant": "doodle",
+      "name": "Double Tap",
+      "path": "./generated/hand/double-tap_doodle.tsx",
+      "category": "hand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 113 167"
+    },
+    {
+      "id": "folded-hands_doodle",
+      "baseId": "folded-hands",
+      "variant": "doodle",
+      "name": "Folded Hands",
+      "path": "./generated/hand/folded-hands_doodle.tsx",
+      "category": "hand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 145 163"
+    },
+    {
+      "id": "free-drag_doodle",
+      "baseId": "free-drag",
+      "variant": "doodle",
+      "name": "Free Drag",
+      "path": "./generated/hand/free-drag_doodle.tsx",
+      "category": "hand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 143 144"
+    },
+    {
+      "id": "hand_doodle",
+      "baseId": "hand",
+      "variant": "doodle",
+      "name": "Hand",
+      "path": "./generated/hand/hand_doodle.tsx",
+      "category": "hand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 115 144"
+    },
+    {
+      "id": "horizontal-scroll_doodle",
+      "baseId": "horizontal-scroll",
+      "variant": "doodle",
+      "name": "Horizontal Scroll",
+      "path": "./generated/hand/horizontal-scroll_doodle.tsx",
+      "category": "hand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 127 143"
+    },
+    {
+      "id": "multi-touch_doodle",
+      "baseId": "multi-touch",
+      "variant": "doodle",
+      "name": "Multi Touch",
+      "path": "./generated/hand/multi-touch_doodle.tsx",
+      "category": "hand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 156 157"
+    },
+    {
+      "id": "ok_doodle",
+      "baseId": "ok",
+      "variant": "doodle",
+      "name": "Ok",
+      "path": "./generated/hand/ok_doodle.tsx",
+      "category": "hand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 135 156"
+    },
+    {
+      "id": "page-move_doodle",
+      "baseId": "page-move",
+      "variant": "doodle",
+      "name": "Page Move",
+      "path": "./generated/hand/page-move_doodle.tsx",
+      "category": "hand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 140 140"
+    },
+    {
+      "id": "point-down_doodle",
+      "baseId": "point-down",
+      "variant": "doodle",
+      "name": "Point Down",
+      "path": "./generated/hand/point-down_doodle.tsx",
+      "category": "hand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 113 136"
+    },
+    {
+      "id": "point-left_doodle",
+      "baseId": "point-left",
+      "variant": "doodle",
+      "name": "Point Left",
+      "path": "./generated/hand/point-left_doodle.tsx",
+      "category": "hand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 137 114"
+    },
+    {
+      "id": "point-right_doodle",
+      "baseId": "point-right",
+      "variant": "doodle",
+      "name": "Point Right",
+      "path": "./generated/hand/point-right_doodle.tsx",
+      "category": "hand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 138 114"
+    },
+    {
+      "id": "point-up_doodle",
+      "baseId": "point-up",
+      "variant": "doodle",
+      "name": "Point Up",
+      "path": "./generated/hand/point-up_doodle.tsx",
+      "category": "hand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 112 137"
+    },
+    {
+      "id": "rotate_doodle",
+      "baseId": "rotate",
+      "variant": "doodle",
+      "name": "Rotate",
+      "path": "./generated/hand/rotate_doodle.tsx",
+      "category": "hand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 142 142"
+    },
+    {
+      "id": "scan-fingerprint_doodle",
+      "baseId": "scan-fingerprint",
+      "variant": "doodle",
+      "name": "Scan Fingerprint",
+      "path": "./generated/hand/scan-fingerprint_doodle.tsx",
+      "category": "hand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 106 164"
+    },
+    {
+      "id": "scan_doodle",
+      "baseId": "scan",
+      "variant": "doodle",
+      "name": "Scan",
+      "path": "./generated/hand/scan_doodle.tsx",
+      "category": "hand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 106 164"
+    },
+    {
+      "id": "screen-rotate_doodle",
+      "baseId": "screen-rotate",
+      "variant": "doodle",
+      "name": "Screen Rotate",
+      "path": "./generated/hand/screen-rotate_doodle.tsx",
+      "category": "hand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 106 163"
+    },
+    {
+      "id": "scroll-down-3_doodle",
+      "baseId": "scroll-down-3",
+      "variant": "doodle",
+      "name": "Scroll Down 3",
+      "path": "./generated/hand/scroll-down-3_doodle.tsx",
+      "category": "hand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 114 154"
+    },
+    {
+      "id": "scroll-down_doodle",
+      "baseId": "scroll-down",
+      "variant": "doodle",
+      "name": "Scroll Down",
+      "path": "./generated/hand/scroll-down_doodle.tsx",
+      "category": "hand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 113 154"
+    },
+    {
+      "id": "scroll-left-1_doodle",
+      "baseId": "scroll-left-1",
+      "variant": "doodle",
+      "name": "Scroll Left 1",
+      "path": "./generated/hand/scroll-left-1_doodle.tsx",
+      "category": "hand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 131 147"
+    },
+    {
+      "id": "scroll-left-2_doodle",
+      "baseId": "scroll-left-2",
+      "variant": "doodle",
+      "name": "Scroll Left 2",
+      "path": "./generated/hand/scroll-left-2_doodle.tsx",
+      "category": "hand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 132 146"
+    },
+    {
+      "id": "scroll-left-3_doodle",
+      "baseId": "scroll-left-3",
+      "variant": "doodle",
+      "name": "Scroll Left 3",
+      "path": "./generated/hand/scroll-left-3_doodle.tsx",
+      "category": "hand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "scroll-left_doodle",
+      "baseId": "scroll-left",
+      "variant": "doodle",
+      "name": "Scroll Left",
+      "path": "./generated/hand/scroll-left_doodle.tsx",
+      "category": "hand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 113 151"
+    },
+    {
+      "id": "scroll-right-2_doodle",
+      "baseId": "scroll-right-2",
+      "variant": "doodle",
+      "name": "Scroll Right 2",
+      "path": "./generated/hand/scroll-right-2_doodle.tsx",
+      "category": "hand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 125 150"
+    },
+    {
+      "id": "scroll-up-12_doodle",
+      "baseId": "scroll-up-12",
+      "variant": "doodle",
+      "name": "Scroll Up 12",
+      "path": "./generated/hand/scroll-up-12_doodle.tsx",
+      "category": "hand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 113 153"
+    },
+    {
+      "id": "scroll-up-2_doodle",
+      "baseId": "scroll-up-2",
+      "variant": "doodle",
+      "name": "Scroll Up 2",
+      "path": "./generated/hand/scroll-up-2_doodle.tsx",
+      "category": "hand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 112 157"
+    },
+    {
+      "id": "scroll-up-3_doodle",
+      "baseId": "scroll-up-3",
+      "variant": "doodle",
+      "name": "Scroll Up 3",
+      "path": "./generated/hand/scroll-up-3_doodle.tsx",
+      "category": "hand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 113 159"
+    },
+    {
+      "id": "scroll-up_doodle",
+      "baseId": "scroll-up",
+      "variant": "doodle",
+      "name": "Scroll Up",
+      "path": "./generated/hand/scroll-up_doodle.tsx",
+      "category": "hand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 113 157"
+    },
+    {
+      "id": "swipe-left_doodle",
+      "baseId": "swipe-left",
+      "variant": "doodle",
+      "name": "Swipe Left",
+      "path": "./generated/hand/swipe-left_doodle.tsx",
+      "category": "hand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 115 136"
+    },
+    {
+      "id": "swipe-right_doodle",
+      "baseId": "swipe-right",
+      "variant": "doodle",
+      "name": "Swipe Right",
+      "path": "./generated/hand/swipe-right_doodle.tsx",
+      "category": "hand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 115 136"
+    },
+    {
+      "id": "tap-12_doodle",
+      "baseId": "tap-12",
+      "variant": "doodle",
+      "name": "Tap 12",
+      "path": "./generated/hand/tap-12_doodle.tsx",
+      "category": "hand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 113 159"
+    },
+    {
+      "id": "tap-1_doodle",
+      "baseId": "tap-1",
+      "variant": "doodle",
+      "name": "Tap 1",
+      "path": "./generated/hand/tap-1_doodle.tsx",
+      "category": "hand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 113 158"
+    },
+    {
+      "id": "tap-2_doodle",
+      "baseId": "tap-2",
+      "variant": "doodle",
+      "name": "Tap 2",
+      "path": "./generated/hand/tap-2_doodle.tsx",
+      "category": "hand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 112 157"
+    },
+    {
+      "id": "tap-3_doodle",
+      "baseId": "tap-3",
+      "variant": "doodle",
+      "name": "Tap 3",
+      "path": "./generated/hand/tap-3_doodle.tsx",
+      "category": "hand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 113 157"
+    },
+    {
+      "id": "tap-scroll-3_doodle",
+      "baseId": "tap-scroll-3",
+      "variant": "doodle",
+      "name": "Tap Scroll 3",
+      "path": "./generated/hand/tap-scroll-3_doodle.tsx",
+      "category": "hand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 153 157"
+    },
+    {
+      "id": "tap_doodle",
+      "baseId": "tap",
+      "variant": "doodle",
+      "name": "Tap",
+      "path": "./generated/hand/tap_doodle.tsx",
+      "category": "hand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 113 156"
+    },
+    {
+      "id": "thumbs-down_doodle",
+      "baseId": "thumbs-down",
+      "variant": "doodle",
+      "name": "Thumbs Down",
+      "path": "./generated/hand/thumbs-down_doodle.tsx",
+      "category": "hand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 160 144"
+    },
+    {
+      "id": "thumbs-up_doodle",
+      "baseId": "thumbs-up",
+      "variant": "doodle",
+      "name": "Thumbs Up",
+      "path": "./generated/hand/thumbs-up_doodle.tsx",
+      "category": "hand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 153 144"
+    },
+    {
+      "id": "touch-hold-2_doodle",
+      "baseId": "touch-hold-2",
+      "variant": "doodle",
+      "name": "Touch Hold 2",
+      "path": "./generated/hand/touch-hold-2_doodle.tsx",
+      "category": "hand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 147 157"
+    },
+    {
+      "id": "touch-hold_doodle",
+      "baseId": "touch-hold",
+      "variant": "doodle",
+      "name": "Touch Hold",
+      "path": "./generated/hand/touch-hold_doodle.tsx",
+      "category": "hand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 129 154"
+    },
+    {
+      "id": "v_doodle",
+      "baseId": "v",
+      "variant": "doodle",
+      "name": "V",
+      "path": "./generated/hand/v_doodle.tsx",
+      "category": "hand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 113 146"
+    },
+    {
+      "id": "vibrate_doodle",
+      "baseId": "vibrate",
+      "variant": "doodle",
+      "name": "Vibrate",
+      "path": "./generated/hand/vibrate_doodle.tsx",
+      "category": "hand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 160 145"
+    },
+    {
+      "id": "wave-left_doodle",
+      "baseId": "wave-left",
+      "variant": "doodle",
+      "name": "Wave Left",
+      "path": "./generated/hand/wave-left_doodle.tsx",
+      "category": "hand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 119 152"
+    },
+    {
+      "id": "wave-right_doodle",
+      "baseId": "wave-right",
+      "variant": "doodle",
+      "name": "Wave Right",
+      "path": "./generated/hand/wave-right_doodle.tsx",
+      "category": "hand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 119 152"
+    },
+    {
+      "id": "zoom-in_doodle",
+      "baseId": "zoom-in",
+      "variant": "doodle",
+      "name": "Zoom In",
+      "path": "./generated/hand/zoom-in_doodle.tsx",
+      "category": "hand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 134 147"
+    },
+    {
+      "id": "zoom-out_doodle",
+      "baseId": "zoom-out",
+      "variant": "doodle",
+      "name": "Zoom Out",
+      "path": "./generated/hand/zoom-out_doodle.tsx",
+      "category": "hand",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 126 138"
+    },
+    {
+      "id": "biohazard",
+      "baseId": "biohazard",
+      "variant": "default",
+      "name": "Biohazard",
+      "path": "./generated/health/biohazard.tsx",
+      "category": "health",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "blood-bag_doodle",
+      "baseId": "blood-bag",
+      "variant": "doodle",
+      "name": "Blood Bag",
+      "path": "./generated/health/blood-bag_doodle.tsx",
+      "category": "health",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 145 153"
+    },
+    {
+      "id": "blood_doodle",
+      "baseId": "blood",
+      "variant": "doodle",
+      "name": "Blood",
+      "path": "./generated/health/blood_doodle.tsx",
+      "category": "health",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 114 157"
+    },
+    {
+      "id": "bottle_doodle",
+      "baseId": "bottle",
+      "variant": "doodle",
+      "name": "Bottle",
+      "path": "./generated/health/bottle_doodle.tsx",
+      "category": "health",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 107 159"
+    },
+    {
+      "id": "dna-off",
+      "baseId": "dna-off",
+      "variant": "default",
+      "name": "Dna Off",
+      "path": "./generated/health/dna-off.tsx",
+      "category": "health",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "dna",
+      "baseId": "dna",
+      "variant": "default",
+      "name": "Dna",
+      "path": "./generated/health/dna.tsx",
+      "category": "health",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "dropper_doodle",
+      "baseId": "dropper",
+      "variant": "doodle",
+      "name": "Dropper",
+      "path": "./generated/health/dropper_doodle.tsx",
+      "category": "health",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 164 136"
+    },
+    {
+      "id": "first-aid_doodle",
+      "baseId": "first-aid",
+      "variant": "doodle",
+      "name": "First Aid",
+      "path": "./generated/health/first-aid_doodle.tsx",
+      "category": "health",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 177 143"
+    },
+    {
+      "id": "firstaid-2_doodle",
+      "baseId": "firstaid-2",
+      "variant": "doodle",
+      "name": "Firstaid 2",
+      "path": "./generated/health/firstaid-2_doodle.tsx",
+      "category": "health",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 163 132"
+    },
+    {
+      "id": "flask-conical-off",
+      "baseId": "flask-conical-off",
+      "variant": "default",
+      "name": "Flask Conical Off",
+      "path": "./generated/health/flask-conical-off.tsx",
+      "category": "health",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "flask-conical",
+      "baseId": "flask-conical",
+      "variant": "default",
+      "name": "Flask Conical",
+      "path": "./generated/health/flask-conical.tsx",
+      "category": "health",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "flask-round",
+      "baseId": "flask-round",
+      "variant": "default",
+      "name": "Flask Round",
+      "path": "./generated/health/flask-round.tsx",
+      "category": "health",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "flask-round_doodle",
+      "baseId": "flask-round",
+      "variant": "doodle",
+      "name": "Flask Round",
+      "path": "./generated/health/flask-round_doodle.tsx",
+      "category": "health",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 122 165"
+    },
+    {
+      "id": "flask_doodle",
+      "baseId": "flask",
+      "variant": "doodle",
+      "name": "Flask",
+      "path": "./generated/health/flask_doodle.tsx",
+      "category": "health",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 161 156"
+    },
+    {
+      "id": "heart-beat_doodle",
+      "baseId": "heart-beat",
+      "variant": "doodle",
+      "name": "Heart Beat",
+      "path": "./generated/health/heart-beat_doodle.tsx",
+      "category": "health",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 159 145"
+    },
+    {
+      "id": "injection_doodle",
+      "baseId": "injection",
+      "variant": "doodle",
+      "name": "Injection",
+      "path": "./generated/health/injection_doodle.tsx",
+      "category": "health",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 152 133"
+    },
+    {
+      "id": "lungs_doodle",
+      "baseId": "lungs",
+      "variant": "doodle",
+      "name": "Lungs",
+      "path": "./generated/health/lungs_doodle.tsx",
+      "category": "health",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 162 121"
+    },
+    {
+      "id": "medical-logo_doodle",
+      "baseId": "medical-logo",
+      "variant": "doodle",
+      "name": "Medical Logo",
+      "path": "./generated/health/medical-logo_doodle.tsx",
+      "category": "health",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 152 162"
+    },
+    {
+      "id": "microscope_doodle",
+      "baseId": "microscope",
+      "variant": "doodle",
+      "name": "Microscope",
+      "path": "./generated/health/microscope_doodle.tsx",
+      "category": "health",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 131 161"
+    },
+    {
+      "id": "pill-bottle",
+      "baseId": "pill-bottle",
+      "variant": "default",
+      "name": "Pill Bottle",
+      "path": "./generated/health/pill-bottle.tsx",
+      "category": "health",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "pill",
+      "baseId": "pill",
+      "variant": "default",
+      "name": "Pill",
+      "path": "./generated/health/pill.tsx",
+      "category": "health",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "pills_doodle",
+      "baseId": "pills",
+      "variant": "doodle",
+      "name": "Pills",
+      "path": "./generated/health/pills_doodle.tsx",
+      "category": "health",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 133 154"
+    },
+    {
+      "id": "stethoscope",
+      "baseId": "stethoscope",
+      "variant": "default",
+      "name": "Stethoscope",
+      "path": "./generated/health/stethoscope.tsx",
+      "category": "health",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "stethoscope_doodle",
+      "baseId": "stethoscope",
+      "variant": "doodle",
+      "name": "Stethoscope",
+      "path": "./generated/health/stethoscope_doodle.tsx",
+      "category": "health",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 130 153"
+    },
+    {
+      "id": "syringe",
+      "baseId": "syringe",
+      "variant": "default",
+      "name": "Syringe",
+      "path": "./generated/health/syringe.tsx",
+      "category": "health",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "tablet_doodle",
+      "baseId": "tablet",
+      "variant": "doodle",
+      "name": "Tablet",
+      "path": "./generated/health/tablet_doodle.tsx",
+      "category": "health",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 155 156"
+    },
+    {
+      "id": "tablets",
+      "baseId": "tablets",
+      "variant": "default",
+      "name": "Tablets",
+      "path": "./generated/health/tablets.tsx",
+      "category": "health",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "test-tube-diagonal",
+      "baseId": "test-tube-diagonal",
+      "variant": "default",
+      "name": "Test Tube Diagonal",
+      "path": "./generated/health/test-tube-diagonal.tsx",
+      "category": "health",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "test-tube",
+      "baseId": "test-tube",
+      "variant": "default",
+      "name": "Test Tube",
+      "path": "./generated/health/test-tube.tsx",
+      "category": "health",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "test-tube_doodle",
+      "baseId": "test-tube",
+      "variant": "doodle",
+      "name": "Test Tube",
+      "path": "./generated/health/test-tube_doodle.tsx",
+      "category": "health",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 154 131"
+    },
+    {
+      "id": "test-tubes",
+      "baseId": "test-tubes",
+      "variant": "default",
+      "name": "Test Tubes",
+      "path": "./generated/health/test-tubes.tsx",
+      "category": "health",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "thermometer-snowflake",
+      "baseId": "thermometer-snowflake",
+      "variant": "default",
+      "name": "Thermometer Snowflake",
+      "path": "./generated/health/thermometer-snowflake.tsx",
+      "category": "health",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "thermometer-sun",
+      "baseId": "thermometer-sun",
+      "variant": "default",
+      "name": "Thermometer Sun",
+      "path": "./generated/health/thermometer-sun.tsx",
+      "category": "health",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "thermometer",
+      "baseId": "thermometer",
+      "variant": "default",
+      "name": "Thermometer",
+      "path": "./generated/health/thermometer.tsx",
+      "category": "health",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "tooth_doodle",
+      "baseId": "tooth",
+      "variant": "doodle",
+      "name": "Tooth",
+      "path": "./generated/health/tooth_doodle.tsx",
+      "category": "health",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 156 160"
+    },
+    {
+      "id": "wheelchair_doodle",
+      "baseId": "wheelchair",
+      "variant": "doodle",
+      "name": "Wheelchair",
+      "path": "./generated/health/wheelchair_doodle.tsx",
+      "category": "health",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 157 157"
     },
     {
       "id": "hexagon-letter-a_filled",
@@ -15876,6 +18593,94 @@
       "viewBox": "0 0 24 24"
     },
     {
+      "id": "anchor_doodle",
+      "baseId": "anchor",
+      "variant": "doodle",
+      "name": "Anchor",
+      "path": "./generated/home/anchor_doodle.tsx",
+      "category": "home",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 160 156"
+    },
+    {
+      "id": "balloon-2_doodle",
+      "baseId": "balloon-2",
+      "variant": "doodle",
+      "name": "Balloon 2",
+      "path": "./generated/home/balloon-2_doodle.tsx",
+      "category": "home",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 164 136"
+    },
+    {
+      "id": "balloon_doodle",
+      "baseId": "balloon",
+      "variant": "doodle",
+      "name": "Balloon",
+      "path": "./generated/home/balloon_doodle.tsx",
+      "category": "home",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 96 159"
+    },
+    {
+      "id": "camera_doodle",
+      "baseId": "camera",
+      "variant": "doodle",
+      "name": "Camera",
+      "path": "./generated/home/camera_doodle.tsx",
+      "category": "home",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 106 159"
+    },
+    {
+      "id": "crown_doodle",
+      "baseId": "crown",
+      "variant": "doodle",
+      "name": "Crown",
+      "path": "./generated/home/crown_doodle.tsx",
+      "category": "home",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 154 136"
+    },
+    {
+      "id": "flashlight_doodle",
+      "baseId": "flashlight",
+      "variant": "doodle",
+      "name": "Flashlight",
+      "path": "./generated/home/flashlight_doodle.tsx",
+      "category": "home",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 155 75"
+    },
+    {
+      "id": "frame_doodle",
+      "baseId": "frame",
+      "variant": "doodle",
+      "name": "Frame",
+      "path": "./generated/home/frame_doodle.tsx",
+      "category": "home",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 167 164"
+    },
+    {
+      "id": "guitar_doodle",
+      "baseId": "guitar",
+      "variant": "doodle",
+      "name": "Guitar",
+      "path": "./generated/home/guitar_doodle.tsx",
+      "category": "home",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 162 152"
+    },
+    {
       "id": "lamp-ceiling",
       "baseId": "lamp-ceiling",
       "variant": "default",
@@ -15962,6 +18767,1931 @@
       "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "movie-clapper_doodle",
+      "baseId": "movie-clapper",
+      "variant": "doodle",
+      "name": "Movie Clapper",
+      "path": "./generated/home/movie-clapper_doodle.tsx",
+      "category": "home",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 147 160"
+    },
+    {
+      "id": "paint-brush-2_doodle",
+      "baseId": "paint-brush-2",
+      "variant": "doodle",
+      "name": "Paint Brush 2",
+      "path": "./generated/home/paint-brush-2_doodle.tsx",
+      "category": "home",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 156 152"
+    },
+    {
+      "id": "paint-brush_doodle",
+      "baseId": "paint-brush",
+      "variant": "doodle",
+      "name": "Paint Brush",
+      "path": "./generated/home/paint-brush_doodle.tsx",
+      "category": "home",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 95 155"
+    },
+    {
+      "id": "paint-bucket_doodle",
+      "baseId": "paint-bucket",
+      "variant": "doodle",
+      "name": "Paint Bucket",
+      "path": "./generated/home/paint-bucket_doodle.tsx",
+      "category": "home",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 133 159"
+    },
+    {
+      "id": "paint-roller_doodle",
+      "baseId": "paint-roller",
+      "variant": "doodle",
+      "name": "Paint Roller",
+      "path": "./generated/home/paint-roller_doodle.tsx",
+      "category": "home",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 154 160"
+    },
+    {
+      "id": "sofa_doodle",
+      "baseId": "sofa",
+      "variant": "doodle",
+      "name": "Sofa",
+      "path": "./generated/home/sofa_doodle.tsx",
+      "category": "home",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 158 144"
+    },
+    {
+      "id": "tv_doodle",
+      "baseId": "tv",
+      "variant": "doodle",
+      "name": "Tv",
+      "path": "./generated/home/tv_doodle.tsx",
+      "category": "home",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 165 155"
+    },
+    {
+      "id": "Info_doodle",
+      "baseId": "Info",
+      "variant": "doodle",
+      "name": "Info",
+      "path": "./generated/interface/Info_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 155 151"
+    },
+    {
+      "id": "analytics_doodle",
+      "baseId": "analytics",
+      "variant": "doodle",
+      "name": "Analytics",
+      "path": "./generated/interface/analytics_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 170 99"
+    },
+    {
+      "id": "arrow_doodle",
+      "baseId": "arrow",
+      "variant": "doodle",
+      "name": "Arrow",
+      "path": "./generated/interface/arrow_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 115 117"
+    },
+    {
+      "id": "at-the-rate_doodle",
+      "baseId": "at-the-rate",
+      "variant": "doodle",
+      "name": "At The Rate",
+      "path": "./generated/interface/at-the-rate_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 156 149"
+    },
+    {
+      "id": "backward_doodle",
+      "baseId": "backward",
+      "variant": "doodle",
+      "name": "Backward",
+      "path": "./generated/interface/backward_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 92 101"
+    },
+    {
+      "id": "bell-2_doodle",
+      "baseId": "bell-2",
+      "variant": "doodle",
+      "name": "Bell 2",
+      "path": "./generated/interface/bell-2_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 158 161"
+    },
+    {
+      "id": "bell_doodle",
+      "baseId": "bell",
+      "variant": "doodle",
+      "name": "Bell",
+      "path": "./generated/interface/bell_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 156 154"
+    },
+    {
+      "id": "bluetooth_doodle",
+      "baseId": "bluetooth",
+      "variant": "doodle",
+      "name": "Bluetooth",
+      "path": "./generated/interface/bluetooth_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 92 155"
+    },
+    {
+      "id": "bookmark_doodle",
+      "baseId": "bookmark",
+      "variant": "doodle",
+      "name": "Bookmark",
+      "path": "./generated/interface/bookmark_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 118 155"
+    },
+    {
+      "id": "bulb_doodle",
+      "baseId": "bulb",
+      "variant": "doodle",
+      "name": "Bulb",
+      "path": "./generated/interface/bulb_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 116 160"
+    },
+    {
+      "id": "calculator_doodle",
+      "baseId": "calculator",
+      "variant": "doodle",
+      "name": "Calculator",
+      "path": "./generated/interface/calculator_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 164 147"
+    },
+    {
+      "id": "calendar_doodle",
+      "baseId": "calendar",
+      "variant": "doodle",
+      "name": "Calendar",
+      "path": "./generated/interface/calendar_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 157 148"
+    },
+    {
+      "id": "call_doodle",
+      "baseId": "call",
+      "variant": "doodle",
+      "name": "Call",
+      "path": "./generated/interface/call_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 164 146"
+    },
+    {
+      "id": "caution_doodle",
+      "baseId": "caution",
+      "variant": "doodle",
+      "name": "Caution",
+      "path": "./generated/interface/caution_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 153 129"
+    },
+    {
+      "id": "center-align-2_doodle",
+      "baseId": "center-align-2",
+      "variant": "doodle",
+      "name": "Center Align 2",
+      "path": "./generated/interface/center-align-2_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 104 121"
+    },
+    {
+      "id": "center-align_doodle",
+      "baseId": "center-align",
+      "variant": "doodle",
+      "name": "Center Align",
+      "path": "./generated/interface/center-align_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 94 73"
+    },
+    {
+      "id": "checklist_doodle",
+      "baseId": "checklist",
+      "variant": "doodle",
+      "name": "Checklist",
+      "path": "./generated/interface/checklist_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 166 165"
+    },
+    {
+      "id": "clock_doodle",
+      "baseId": "clock",
+      "variant": "doodle",
+      "name": "Clock",
+      "path": "./generated/interface/clock_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 161 155"
+    },
+    {
+      "id": "cloud-down_doodle",
+      "baseId": "cloud-down",
+      "variant": "doodle",
+      "name": "Cloud Down",
+      "path": "./generated/interface/cloud-down_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 163 137"
+    },
+    {
+      "id": "cloud-up_doodle",
+      "baseId": "cloud-up",
+      "variant": "doodle",
+      "name": "Cloud Up",
+      "path": "./generated/interface/cloud-up_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 163 129"
+    },
+    {
+      "id": "cloud_doodle",
+      "baseId": "cloud",
+      "variant": "doodle",
+      "name": "Cloud",
+      "path": "./generated/interface/cloud_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 163 107"
+    },
+    {
+      "id": "cookie_doodle",
+      "baseId": "cookie",
+      "variant": "doodle",
+      "name": "Cookie",
+      "path": "./generated/interface/cookie_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 159 156"
+    },
+    {
+      "id": "copy_doodle",
+      "baseId": "copy",
+      "variant": "doodle",
+      "name": "Copy",
+      "path": "./generated/interface/copy_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 151 173"
+    },
+    {
+      "id": "crop_doodle",
+      "baseId": "crop",
+      "variant": "doodle",
+      "name": "Crop",
+      "path": "./generated/interface/crop_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 159 156"
+    },
+    {
+      "id": "cross_doodle",
+      "baseId": "cross",
+      "variant": "doodle",
+      "name": "Cross",
+      "path": "./generated/interface/cross_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 130 127"
+    },
+    {
+      "id": "cut_doodle",
+      "baseId": "cut",
+      "variant": "doodle",
+      "name": "Cut",
+      "path": "./generated/interface/cut_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 145 117"
+    },
+    {
+      "id": "dashboard-2_doodle",
+      "baseId": "dashboard-2",
+      "variant": "doodle",
+      "name": "Dashboard 2",
+      "path": "./generated/interface/dashboard-2_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 156 90"
+    },
+    {
+      "id": "dashboard-3_doodle",
+      "baseId": "dashboard-3",
+      "variant": "doodle",
+      "name": "Dashboard 3",
+      "path": "./generated/interface/dashboard-3_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 159 157"
+    },
+    {
+      "id": "dashboard-4_doodle",
+      "baseId": "dashboard-4",
+      "variant": "doodle",
+      "name": "Dashboard 4",
+      "path": "./generated/interface/dashboard-4_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 153 145"
+    },
+    {
+      "id": "dashboard_doodle",
+      "baseId": "dashboard",
+      "variant": "doodle",
+      "name": "Dashboard",
+      "path": "./generated/interface/dashboard_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 154 155"
+    },
+    {
+      "id": "delete_doodle",
+      "baseId": "delete",
+      "variant": "doodle",
+      "name": "Delete",
+      "path": "./generated/interface/delete_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 120 141"
+    },
+    {
+      "id": "diamond_doodle",
+      "baseId": "diamond",
+      "variant": "doodle",
+      "name": "Diamond",
+      "path": "./generated/interface/diamond_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 182 155"
+    },
+    {
+      "id": "doc-add_doodle",
+      "baseId": "doc-add",
+      "variant": "doodle",
+      "name": "Doc Add",
+      "path": "./generated/interface/doc-add_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 138 164"
+    },
+    {
+      "id": "doc-remove_doodle",
+      "baseId": "doc-remove",
+      "variant": "doodle",
+      "name": "Doc Remove",
+      "path": "./generated/interface/doc-remove_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 139 164"
+    },
+    {
+      "id": "doc_doodle",
+      "baseId": "doc",
+      "variant": "doodle",
+      "name": "Doc",
+      "path": "./generated/interface/doc_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 139 164"
+    },
+    {
+      "id": "download_doodle",
+      "baseId": "download",
+      "variant": "doodle",
+      "name": "Download",
+      "path": "./generated/interface/download_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 158 146"
+    },
+    {
+      "id": "drawer_doodle",
+      "baseId": "drawer",
+      "variant": "doodle",
+      "name": "Drawer",
+      "path": "./generated/interface/drawer_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 161 115"
+    },
+    {
+      "id": "eject_doodle",
+      "baseId": "eject",
+      "variant": "doodle",
+      "name": "Eject",
+      "path": "./generated/interface/eject_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 129 105"
+    },
+    {
+      "id": "eraser_doodle",
+      "baseId": "eraser",
+      "variant": "doodle",
+      "name": "Eraser",
+      "path": "./generated/interface/eraser_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 128 117"
+    },
+    {
+      "id": "fast-forward_doodle",
+      "baseId": "fast-forward",
+      "variant": "doodle",
+      "name": "Fast Forward",
+      "path": "./generated/interface/fast-forward_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 106 99"
+    },
+    {
+      "id": "fast-rewind_doodle",
+      "baseId": "fast-rewind",
+      "variant": "doodle",
+      "name": "Fast Rewind",
+      "path": "./generated/interface/fast-rewind_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 106 99"
+    },
+    {
+      "id": "filter_doodle",
+      "baseId": "filter",
+      "variant": "doodle",
+      "name": "Filter",
+      "path": "./generated/interface/filter_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 150 144"
+    },
+    {
+      "id": "flag-2_doodle",
+      "baseId": "flag-2",
+      "variant": "doodle",
+      "name": "Flag 2",
+      "path": "./generated/interface/flag-2_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 159 155"
+    },
+    {
+      "id": "flag_doodle",
+      "baseId": "flag",
+      "variant": "doodle",
+      "name": "Flag",
+      "path": "./generated/interface/flag_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 156 153"
+    },
+    {
+      "id": "flip_doodle",
+      "baseId": "flip",
+      "variant": "doodle",
+      "name": "Flip",
+      "path": "./generated/interface/flip_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 158 156"
+    },
+    {
+      "id": "floppy_doodle",
+      "baseId": "floppy",
+      "variant": "doodle",
+      "name": "Floppy",
+      "path": "./generated/interface/floppy_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 159 159"
+    },
+    {
+      "id": "folder-add_doodle",
+      "baseId": "folder-add",
+      "variant": "doodle",
+      "name": "Folder Add",
+      "path": "./generated/interface/folder-add_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 160 141"
+    },
+    {
+      "id": "folder-delete_doodle",
+      "baseId": "folder-delete",
+      "variant": "doodle",
+      "name": "Folder Delete",
+      "path": "./generated/interface/folder-delete_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 159 141"
+    },
+    {
+      "id": "folder-empty_doodle",
+      "baseId": "folder-empty",
+      "variant": "doodle",
+      "name": "Folder Empty",
+      "path": "./generated/interface/folder-empty_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 180 141"
+    },
+    {
+      "id": "folder-remove_doodle",
+      "baseId": "folder-remove",
+      "variant": "doodle",
+      "name": "Folder Remove",
+      "path": "./generated/interface/folder-remove_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 159 141"
+    },
+    {
+      "id": "folder_doodle",
+      "baseId": "folder",
+      "variant": "doodle",
+      "name": "Folder",
+      "path": "./generated/interface/folder_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 160 141"
+    },
+    {
+      "id": "forward_doodle",
+      "baseId": "forward",
+      "variant": "doodle",
+      "name": "Forward",
+      "path": "./generated/interface/forward_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 91 101"
+    },
+    {
+      "id": "gift_doodle",
+      "baseId": "gift",
+      "variant": "doodle",
+      "name": "Gift",
+      "path": "./generated/interface/gift_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 161 154"
+    },
+    {
+      "id": "globe_doodle",
+      "baseId": "globe",
+      "variant": "doodle",
+      "name": "Globe",
+      "path": "./generated/interface/globe_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 186 171"
+    },
+    {
+      "id": "grid-2_doodle",
+      "baseId": "grid-2",
+      "variant": "doodle",
+      "name": "Grid 2",
+      "path": "./generated/interface/grid-2_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 158 157"
+    },
+    {
+      "id": "grid_doodle",
+      "baseId": "grid",
+      "variant": "doodle",
+      "name": "Grid",
+      "path": "./generated/interface/grid_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 159 157"
+    },
+    {
+      "id": "headphone_doodle",
+      "baseId": "headphone",
+      "variant": "doodle",
+      "name": "Headphone",
+      "path": "./generated/interface/headphone_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 159 156"
+    },
+    {
+      "id": "heart_doodle",
+      "baseId": "heart",
+      "variant": "doodle",
+      "name": "Heart",
+      "path": "./generated/interface/heart_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 143 131"
+    },
+    {
+      "id": "hide_doodle",
+      "baseId": "hide",
+      "variant": "doodle",
+      "name": "Hide",
+      "path": "./generated/interface/hide_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 150 145"
+    },
+    {
+      "id": "home-1_doodle",
+      "baseId": "home-1",
+      "variant": "doodle",
+      "name": "Home 1",
+      "path": "./generated/interface/home-1_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 162 158"
+    },
+    {
+      "id": "home_doodle",
+      "baseId": "home",
+      "variant": "doodle",
+      "name": "Home",
+      "path": "./generated/interface/home_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 158 160"
+    },
+    {
+      "id": "key_doodle",
+      "baseId": "key",
+      "variant": "doodle",
+      "name": "Key",
+      "path": "./generated/interface/key_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 149 140"
+    },
+    {
+      "id": "layer_doodle",
+      "baseId": "layer",
+      "variant": "doodle",
+      "name": "Layer",
+      "path": "./generated/interface/layer_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 157 150"
+    },
+    {
+      "id": "left-align-2_doodle",
+      "baseId": "left-align-2",
+      "variant": "doodle",
+      "name": "Left Align 2",
+      "path": "./generated/interface/left-align-2_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 111 121"
+    },
+    {
+      "id": "left-align_doodle",
+      "baseId": "left-align",
+      "variant": "doodle",
+      "name": "Left Align",
+      "path": "./generated/interface/left-align_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 92 75"
+    },
+    {
+      "id": "link_doodle",
+      "baseId": "link",
+      "variant": "doodle",
+      "name": "Link",
+      "path": "./generated/interface/link_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 160 160"
+    },
+    {
+      "id": "list_doodle",
+      "baseId": "list",
+      "variant": "doodle",
+      "name": "List",
+      "path": "./generated/interface/list_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 143 107"
+    },
+    {
+      "id": "location-pin_doodle",
+      "baseId": "location-pin",
+      "variant": "doodle",
+      "name": "Location Pin",
+      "path": "./generated/interface/location-pin_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 38 141"
+    },
+    {
+      "id": "lock_doodle",
+      "baseId": "lock",
+      "variant": "doodle",
+      "name": "Lock",
+      "path": "./generated/interface/lock_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 110 156"
+    },
+    {
+      "id": "login_doodle",
+      "baseId": "login",
+      "variant": "doodle",
+      "name": "Login",
+      "path": "./generated/interface/login_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 147 156"
+    },
+    {
+      "id": "logout_doodle",
+      "baseId": "logout",
+      "variant": "doodle",
+      "name": "Logout",
+      "path": "./generated/interface/logout_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 141 156"
+    },
+    {
+      "id": "magic-wand_doodle",
+      "baseId": "magic-wand",
+      "variant": "doodle",
+      "name": "Magic Wand",
+      "path": "./generated/interface/magic-wand_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 136 145"
+    },
+    {
+      "id": "mail-gift_doodle",
+      "baseId": "mail-gift",
+      "variant": "doodle",
+      "name": "Mail Gift",
+      "path": "./generated/interface/mail-gift_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 160 168"
+    },
+    {
+      "id": "mail-open_doodle",
+      "baseId": "mail-open",
+      "variant": "doodle",
+      "name": "Mail Open",
+      "path": "./generated/interface/mail-open_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 159 156"
+    },
+    {
+      "id": "mail-surprise_doodle",
+      "baseId": "mail-surprise",
+      "variant": "doodle",
+      "name": "Mail Surprise",
+      "path": "./generated/interface/mail-surprise_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 160 156"
+    },
+    {
+      "id": "mail_doodle",
+      "baseId": "mail",
+      "variant": "doodle",
+      "name": "Mail",
+      "path": "./generated/interface/mail_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 178 144"
+    },
+    {
+      "id": "map_doodle",
+      "baseId": "map",
+      "variant": "doodle",
+      "name": "Map",
+      "path": "./generated/interface/map_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 159 156"
+    },
+    {
+      "id": "maximize_doodle",
+      "baseId": "maximize",
+      "variant": "doodle",
+      "name": "Maximize",
+      "path": "./generated/interface/maximize_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 158 156"
+    },
+    {
+      "id": "megaphone_doodle",
+      "baseId": "megaphone",
+      "variant": "doodle",
+      "name": "Megaphone",
+      "path": "./generated/interface/megaphone_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 158 139"
+    },
+    {
+      "id": "menu-2_doodle",
+      "baseId": "menu-2",
+      "variant": "doodle",
+      "name": "Menu 2",
+      "path": "./generated/interface/menu-2_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 105 19"
+    },
+    {
+      "id": "menu_doodle",
+      "baseId": "menu",
+      "variant": "doodle",
+      "name": "Menu",
+      "path": "./generated/interface/menu_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 117 83"
+    },
+    {
+      "id": "message-2_doodle",
+      "baseId": "message-2",
+      "variant": "doodle",
+      "name": "Message 2",
+      "path": "./generated/interface/message-2_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 158 133"
+    },
+    {
+      "id": "message_doodle",
+      "baseId": "message",
+      "variant": "doodle",
+      "name": "Message",
+      "path": "./generated/interface/message_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 158 141"
+    },
+    {
+      "id": "mic-2_doodle",
+      "baseId": "mic-2",
+      "variant": "doodle",
+      "name": "Mic 2",
+      "path": "./generated/interface/mic-2_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 114 174"
+    },
+    {
+      "id": "mic_doodle",
+      "baseId": "mic",
+      "variant": "doodle",
+      "name": "Mic",
+      "path": "./generated/interface/mic_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 164 151"
+    },
+    {
+      "id": "minimize_doodle",
+      "baseId": "minimize",
+      "variant": "doodle",
+      "name": "Minimize",
+      "path": "./generated/interface/minimize_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 163 158"
+    },
+    {
+      "id": "move_doodle",
+      "baseId": "move",
+      "variant": "doodle",
+      "name": "Move",
+      "path": "./generated/interface/move_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 160 157"
+    },
+    {
+      "id": "music-2_doodle",
+      "baseId": "music-2",
+      "variant": "doodle",
+      "name": "Music 2",
+      "path": "./generated/interface/music-2_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 141 156"
+    },
+    {
+      "id": "music-3_doodle",
+      "baseId": "music-3",
+      "variant": "doodle",
+      "name": "Music 3",
+      "path": "./generated/interface/music-3_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 155 154"
+    },
+    {
+      "id": "music_doodle",
+      "baseId": "music",
+      "variant": "doodle",
+      "name": "Music",
+      "path": "./generated/interface/music_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 130 149"
+    },
+    {
+      "id": "mute_doodle",
+      "baseId": "mute",
+      "variant": "doodle",
+      "name": "Mute",
+      "path": "./generated/interface/mute_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 158 127"
+    },
+    {
+      "id": "navigation-2_doodle",
+      "baseId": "navigation-2",
+      "variant": "doodle",
+      "name": "Navigation 2",
+      "path": "./generated/interface/navigation-2_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 103 150"
+    },
+    {
+      "id": "navigation_doodle",
+      "baseId": "navigation",
+      "variant": "doodle",
+      "name": "Navigation",
+      "path": "./generated/interface/navigation_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 150 152"
+    },
+    {
+      "id": "note_doodle",
+      "baseId": "note",
+      "variant": "doodle",
+      "name": "Note",
+      "path": "./generated/interface/note_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 155 155"
+    },
+    {
+      "id": "paper-clip-2_doodle",
+      "baseId": "paper-clip-2",
+      "variant": "doodle",
+      "name": "Paper Clip 2",
+      "path": "./generated/interface/paper-clip-2_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 139 151"
+    },
+    {
+      "id": "paper-clip_doodle",
+      "baseId": "paper-clip",
+      "variant": "doodle",
+      "name": "Paper Clip",
+      "path": "./generated/interface/paper-clip_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 64 153"
+    },
+    {
+      "id": "paste_doodle",
+      "baseId": "paste",
+      "variant": "doodle",
+      "name": "Paste",
+      "path": "./generated/interface/paste_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 135 160"
+    },
+    {
+      "id": "pause_doodle",
+      "baseId": "pause",
+      "variant": "doodle",
+      "name": "Pause",
+      "path": "./generated/interface/pause_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 72 104"
+    },
+    {
+      "id": "pen-tool_doodle",
+      "baseId": "pen-tool",
+      "variant": "doodle",
+      "name": "Pen Tool",
+      "path": "./generated/interface/pen-tool_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 155 153"
+    },
+    {
+      "id": "pen_doodle",
+      "baseId": "pen",
+      "variant": "doodle",
+      "name": "Pen",
+      "path": "./generated/interface/pen_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 151 142"
+    },
+    {
+      "id": "pencil-2_doodle",
+      "baseId": "pencil-2",
+      "variant": "doodle",
+      "name": "Pencil 2",
+      "path": "./generated/interface/pencil-2_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 151 149"
+    },
+    {
+      "id": "pencil-3_doodle",
+      "baseId": "pencil-3",
+      "variant": "doodle",
+      "name": "Pencil 3",
+      "path": "./generated/interface/pencil-3_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 150 137"
+    },
+    {
+      "id": "pencil-ruler_doodle",
+      "baseId": "pencil-ruler",
+      "variant": "doodle",
+      "name": "Pencil Ruler",
+      "path": "./generated/interface/pencil-ruler_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 86 158"
+    },
+    {
+      "id": "pencil_doodle",
+      "baseId": "pencil",
+      "variant": "doodle",
+      "name": "Pencil",
+      "path": "./generated/interface/pencil_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 151 143"
+    },
+    {
+      "id": "phone-setting_doodle",
+      "baseId": "phone-setting",
+      "variant": "doodle",
+      "name": "Phone Setting",
+      "path": "./generated/interface/phone-setting_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 148 170"
+    },
+    {
+      "id": "phone_doodle",
+      "baseId": "phone",
+      "variant": "doodle",
+      "name": "Phone",
+      "path": "./generated/interface/phone_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 102 167"
+    },
+    {
+      "id": "photo_doodle",
+      "baseId": "photo",
+      "variant": "doodle",
+      "name": "Photo",
+      "path": "./generated/interface/photo_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 157 156"
+    },
+    {
+      "id": "pie_doodle",
+      "baseId": "pie",
+      "variant": "doodle",
+      "name": "Pie",
+      "path": "./generated/interface/pie_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 156 150"
+    },
+    {
+      "id": "pin_doodle",
+      "baseId": "pin",
+      "variant": "doodle",
+      "name": "Pin",
+      "path": "./generated/interface/pin_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 157 155"
+    },
+    {
+      "id": "play_doodle",
+      "baseId": "play",
+      "variant": "doodle",
+      "name": "Play",
+      "path": "./generated/interface/play_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 105 122"
+    },
+    {
+      "id": "puzzle-2_doodle",
+      "baseId": "puzzle-2",
+      "variant": "doodle",
+      "name": "Puzzle 2",
+      "path": "./generated/interface/puzzle-2_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 149 160"
+    },
+    {
+      "id": "puzzle_doodle",
+      "baseId": "puzzle",
+      "variant": "doodle",
+      "name": "Puzzle",
+      "path": "./generated/interface/puzzle_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 153 136"
+    },
+    {
+      "id": "question-2_doodle",
+      "baseId": "question-2",
+      "variant": "doodle",
+      "name": "Question 2",
+      "path": "./generated/interface/question-2_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 71 134"
+    },
+    {
+      "id": "question_doodle",
+      "baseId": "question",
+      "variant": "doodle",
+      "name": "Question",
+      "path": "./generated/interface/question_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 86 124"
+    },
+    {
+      "id": "record_doodle",
+      "baseId": "record",
+      "variant": "doodle",
+      "name": "Record",
+      "path": "./generated/interface/record_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 121 107"
+    },
+    {
+      "id": "rectangle_doodle",
+      "baseId": "rectangle",
+      "variant": "doodle",
+      "name": "Rectangle",
+      "path": "./generated/interface/rectangle_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 127 86"
+    },
+    {
+      "id": "right-align-2_doodle",
+      "baseId": "right-align-2",
+      "variant": "doodle",
+      "name": "Right Align 2",
+      "path": "./generated/interface/right-align-2_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 112 121"
+    },
+    {
+      "id": "right-align_doodle",
+      "baseId": "right-align",
+      "variant": "doodle",
+      "name": "Right Align",
+      "path": "./generated/interface/right-align_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 91 74"
+    },
+    {
+      "id": "rss_doodle",
+      "baseId": "rss",
+      "variant": "doodle",
+      "name": "Rss",
+      "path": "./generated/interface/rss_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 118 110"
+    },
+    {
+      "id": "ruler_doodle",
+      "baseId": "ruler",
+      "variant": "doodle",
+      "name": "Ruler",
+      "path": "./generated/interface/ruler_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 150 147"
+    },
+    {
+      "id": "search_doodle",
+      "baseId": "search",
+      "variant": "doodle",
+      "name": "Search",
+      "path": "./generated/interface/search_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 160 154"
+    },
+    {
+      "id": "send-2_doodle",
+      "baseId": "send-2",
+      "variant": "doodle",
+      "name": "Send 2",
+      "path": "./generated/interface/send-2_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 116 110"
+    },
+    {
+      "id": "send-3_doodle",
+      "baseId": "send-3",
+      "variant": "doodle",
+      "name": "Send 3",
+      "path": "./generated/interface/send-3_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 164 160"
+    },
+    {
+      "id": "send_doodle",
+      "baseId": "send",
+      "variant": "doodle",
+      "name": "Send",
+      "path": "./generated/interface/send_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 158 134"
+    },
+    {
+      "id": "server_doodle",
+      "baseId": "server",
+      "variant": "doodle",
+      "name": "Server",
+      "path": "./generated/interface/server_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 142 164"
+    },
+    {
+      "id": "setting-2_doodle",
+      "baseId": "setting-2",
+      "variant": "doodle",
+      "name": "Setting 2",
+      "path": "./generated/interface/setting-2_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 161 159"
+    },
+    {
+      "id": "setting-3_doodle",
+      "baseId": "setting-3",
+      "variant": "doodle",
+      "name": "Setting 3",
+      "path": "./generated/interface/setting-3_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 168 166"
+    },
+    {
+      "id": "setting_doodle",
+      "baseId": "setting",
+      "variant": "doodle",
+      "name": "Setting",
+      "path": "./generated/interface/setting_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 157 133"
+    },
+    {
+      "id": "shape_doodle",
+      "baseId": "shape",
+      "variant": "doodle",
+      "name": "Shape",
+      "path": "./generated/interface/shape_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 158 124"
+    },
+    {
+      "id": "shield-2_doodle",
+      "baseId": "shield-2",
+      "variant": "doodle",
+      "name": "Shield 2",
+      "path": "./generated/interface/shield-2_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 146 155"
+    },
+    {
+      "id": "shield_doodle",
+      "baseId": "shield",
+      "variant": "doodle",
+      "name": "Shield",
+      "path": "./generated/interface/shield_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 157 156"
+    },
+    {
+      "id": "shuffle_doodle",
+      "baseId": "shuffle",
+      "variant": "doodle",
+      "name": "Shuffle",
+      "path": "./generated/interface/shuffle_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 153 96"
+    },
+    {
+      "id": "signal_doodle",
+      "baseId": "signal",
+      "variant": "doodle",
+      "name": "Signal",
+      "path": "./generated/interface/signal_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 162 125"
+    },
+    {
+      "id": "speaker_doodle",
+      "baseId": "speaker",
+      "variant": "doodle",
+      "name": "Speaker",
+      "path": "./generated/interface/speaker_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 144 175"
+    },
+    {
+      "id": "square_doodle",
+      "baseId": "square",
+      "variant": "doodle",
+      "name": "Square",
+      "path": "./generated/interface/square_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 112 104"
+    },
+    {
+      "id": "star_doodle",
+      "baseId": "star",
+      "variant": "doodle",
+      "name": "Star",
+      "path": "./generated/interface/star_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 146 148"
+    },
+    {
+      "id": "stopwatch_doodle",
+      "baseId": "stopwatch",
+      "variant": "doodle",
+      "name": "Stopwatch",
+      "path": "./generated/interface/stopwatch_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 120 126"
+    },
+    {
+      "id": "suitcase_doodle",
+      "baseId": "suitcase",
+      "variant": "doodle",
+      "name": "Suitcase",
+      "path": "./generated/interface/suitcase_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 175 140"
+    },
+    {
+      "id": "sun-2_doodle",
+      "baseId": "sun-2",
+      "variant": "doodle",
+      "name": "Sun 2",
+      "path": "./generated/interface/sun-2_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 117 110"
+    },
+    {
+      "id": "sun-3_doodle",
+      "baseId": "sun-3",
+      "variant": "doodle",
+      "name": "Sun 3",
+      "path": "./generated/interface/sun-3_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 107 96"
+    },
+    {
+      "id": "sun-4_doodle",
+      "baseId": "sun-4",
+      "variant": "doodle",
+      "name": "Sun 4",
+      "path": "./generated/interface/sun-4_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 78 77"
+    },
+    {
+      "id": "sun_doodle",
+      "baseId": "sun",
+      "variant": "doodle",
+      "name": "Sun",
+      "path": "./generated/interface/sun_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 145 134"
+    },
+    {
+      "id": "switch-1_doodle",
+      "baseId": "switch-1",
+      "variant": "doodle",
+      "name": "Switch 1",
+      "path": "./generated/interface/switch-1_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 162 145"
+    },
+    {
+      "id": "switch_doodle",
+      "baseId": "switch",
+      "variant": "doodle",
+      "name": "Switch",
+      "path": "./generated/interface/switch_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 175 143"
+    },
+    {
+      "id": "sync_doodle",
+      "baseId": "sync",
+      "variant": "doodle",
+      "name": "Sync",
+      "path": "./generated/interface/sync_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 179 151"
+    },
+    {
+      "id": "target-2_doodle",
+      "baseId": "target-2",
+      "variant": "doodle",
+      "name": "Target 2",
+      "path": "./generated/interface/target-2_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 141 135"
+    },
+    {
+      "id": "target_doodle",
+      "baseId": "target",
+      "variant": "doodle",
+      "name": "Target",
+      "path": "./generated/interface/target_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 175 178"
+    },
+    {
+      "id": "tick-2_doodle",
+      "baseId": "tick-2",
+      "variant": "doodle",
+      "name": "Tick 2",
+      "path": "./generated/interface/tick-2_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 170 163"
+    },
+    {
+      "id": "tick_doodle",
+      "baseId": "tick",
+      "variant": "doodle",
+      "name": "Tick",
+      "path": "./generated/interface/tick_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 130 90"
+    },
+    {
+      "id": "transform_doodle",
+      "baseId": "transform",
+      "variant": "doodle",
+      "name": "Transform",
+      "path": "./generated/interface/transform_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 159 159"
+    },
+    {
+      "id": "tree-2_doodle",
+      "baseId": "tree-2",
+      "variant": "doodle",
+      "name": "Tree 2",
+      "path": "./generated/interface/tree-2_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 160 142"
+    },
+    {
+      "id": "tree_doodle",
+      "baseId": "tree",
+      "variant": "doodle",
+      "name": "Tree",
+      "path": "./generated/interface/tree_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 150 134"
+    },
+    {
+      "id": "trophy_doodle",
+      "baseId": "trophy",
+      "variant": "doodle",
+      "name": "Trophy",
+      "path": "./generated/interface/trophy_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 146 157"
+    },
+    {
+      "id": "unhide_doodle",
+      "baseId": "unhide",
+      "variant": "doodle",
+      "name": "Unhide",
+      "path": "./generated/interface/unhide_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 150 87"
+    },
+    {
+      "id": "unlink_doodle",
+      "baseId": "unlink",
+      "variant": "doodle",
+      "name": "Unlink",
+      "path": "./generated/interface/unlink_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 159 74"
+    },
+    {
+      "id": "upload_doodle",
+      "baseId": "upload",
+      "variant": "doodle",
+      "name": "Upload",
+      "path": "./generated/interface/upload_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 157 142"
+    },
+    {
+      "id": "user-add_doodle",
+      "baseId": "user-add",
+      "variant": "doodle",
+      "name": "User Add",
+      "path": "./generated/interface/user-add_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 157 151"
+    },
+    {
+      "id": "user-caution_doodle",
+      "baseId": "user-caution",
+      "variant": "doodle",
+      "name": "User Caution",
+      "path": "./generated/interface/user-caution_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 158 151"
+    },
+    {
+      "id": "user-delete_doodle",
+      "baseId": "user-delete",
+      "variant": "doodle",
+      "name": "User Delete",
+      "path": "./generated/interface/user-delete_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 158 151"
+    },
+    {
+      "id": "user-female_doodle",
+      "baseId": "user-female",
+      "variant": "doodle",
+      "name": "User Female",
+      "path": "./generated/interface/user-female_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 154 143"
+    },
+    {
+      "id": "user-male_doodle",
+      "baseId": "user-male",
+      "variant": "doodle",
+      "name": "User Male",
+      "path": "./generated/interface/user-male_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 154 139"
+    },
+    {
+      "id": "user-remove_doodle",
+      "baseId": "user-remove",
+      "variant": "doodle",
+      "name": "User Remove",
+      "path": "./generated/interface/user-remove_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 157 151"
+    },
+    {
+      "id": "user_doodle",
+      "baseId": "user",
+      "variant": "doodle",
+      "name": "User",
+      "path": "./generated/interface/user_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 154 139"
+    },
+    {
+      "id": "video-camera_doodle",
+      "baseId": "video-camera",
+      "variant": "doodle",
+      "name": "Video Camera",
+      "path": "./generated/interface/video-camera_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 179 96"
+    },
+    {
+      "id": "volume-down_doodle",
+      "baseId": "volume-down",
+      "variant": "doodle",
+      "name": "Volume Down",
+      "path": "./generated/interface/volume-down_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 132 127"
+    },
+    {
+      "id": "volume-up_doodle",
+      "baseId": "volume-up",
+      "variant": "doodle",
+      "name": "Volume Up",
+      "path": "./generated/interface/volume-up_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 154 128"
+    },
+    {
+      "id": "zap_doodle",
+      "baseId": "zap",
+      "variant": "doodle",
+      "name": "Zap",
+      "path": "./generated/interface/zap_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 106 155"
+    },
+    {
+      "id": "zoom-out-1_doodle",
+      "baseId": "zoom-out-1",
+      "variant": "doodle",
+      "name": "Zoom Out 1",
+      "path": "./generated/interface/zoom-out-1_doodle.tsx",
+      "category": "interface",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 163 161"
     },
     {
       "id": "between-horizontal-end",
@@ -17581,193 +22311,6 @@
       "viewBox": "0 0 24 24"
     },
     {
-      "id": "biohazard",
-      "baseId": "biohazard",
-      "variant": "default",
-      "name": "Biohazard",
-      "path": "./generated/medical/biohazard.tsx",
-      "category": "medical",
-      "url": "",
-      "tags": [],
-      "viewBox": "0 0 24 24"
-    },
-    {
-      "id": "dna-off",
-      "baseId": "dna-off",
-      "variant": "default",
-      "name": "Dna Off",
-      "path": "./generated/medical/dna-off.tsx",
-      "category": "medical",
-      "url": "",
-      "tags": [],
-      "viewBox": "0 0 24 24"
-    },
-    {
-      "id": "dna",
-      "baseId": "dna",
-      "variant": "default",
-      "name": "Dna",
-      "path": "./generated/medical/dna.tsx",
-      "category": "medical",
-      "url": "",
-      "tags": [],
-      "viewBox": "0 0 24 24"
-    },
-    {
-      "id": "flask-conical-off",
-      "baseId": "flask-conical-off",
-      "variant": "default",
-      "name": "Flask Conical Off",
-      "path": "./generated/medical/flask-conical-off.tsx",
-      "category": "medical",
-      "url": "",
-      "tags": [],
-      "viewBox": "0 0 24 24"
-    },
-    {
-      "id": "flask-conical",
-      "baseId": "flask-conical",
-      "variant": "default",
-      "name": "Flask Conical",
-      "path": "./generated/medical/flask-conical.tsx",
-      "category": "medical",
-      "url": "",
-      "tags": [],
-      "viewBox": "0 0 24 24"
-    },
-    {
-      "id": "flask-round",
-      "baseId": "flask-round",
-      "variant": "default",
-      "name": "Flask Round",
-      "path": "./generated/medical/flask-round.tsx",
-      "category": "medical",
-      "url": "",
-      "tags": [],
-      "viewBox": "0 0 24 24"
-    },
-    {
-      "id": "pill-bottle",
-      "baseId": "pill-bottle",
-      "variant": "default",
-      "name": "Pill Bottle",
-      "path": "./generated/medical/pill-bottle.tsx",
-      "category": "medical",
-      "url": "",
-      "tags": [],
-      "viewBox": "0 0 24 24"
-    },
-    {
-      "id": "pill",
-      "baseId": "pill",
-      "variant": "default",
-      "name": "Pill",
-      "path": "./generated/medical/pill.tsx",
-      "category": "medical",
-      "url": "",
-      "tags": [],
-      "viewBox": "0 0 24 24"
-    },
-    {
-      "id": "stethoscope",
-      "baseId": "stethoscope",
-      "variant": "default",
-      "name": "Stethoscope",
-      "path": "./generated/medical/stethoscope.tsx",
-      "category": "medical",
-      "url": "",
-      "tags": [],
-      "viewBox": "0 0 24 24"
-    },
-    {
-      "id": "syringe",
-      "baseId": "syringe",
-      "variant": "default",
-      "name": "Syringe",
-      "path": "./generated/medical/syringe.tsx",
-      "category": "medical",
-      "url": "",
-      "tags": [],
-      "viewBox": "0 0 24 24"
-    },
-    {
-      "id": "tablets",
-      "baseId": "tablets",
-      "variant": "default",
-      "name": "Tablets",
-      "path": "./generated/medical/tablets.tsx",
-      "category": "medical",
-      "url": "",
-      "tags": [],
-      "viewBox": "0 0 24 24"
-    },
-    {
-      "id": "test-tube-diagonal",
-      "baseId": "test-tube-diagonal",
-      "variant": "default",
-      "name": "Test Tube Diagonal",
-      "path": "./generated/medical/test-tube-diagonal.tsx",
-      "category": "medical",
-      "url": "",
-      "tags": [],
-      "viewBox": "0 0 24 24"
-    },
-    {
-      "id": "test-tube",
-      "baseId": "test-tube",
-      "variant": "default",
-      "name": "Test Tube",
-      "path": "./generated/medical/test-tube.tsx",
-      "category": "medical",
-      "url": "",
-      "tags": [],
-      "viewBox": "0 0 24 24"
-    },
-    {
-      "id": "test-tubes",
-      "baseId": "test-tubes",
-      "variant": "default",
-      "name": "Test Tubes",
-      "path": "./generated/medical/test-tubes.tsx",
-      "category": "medical",
-      "url": "",
-      "tags": [],
-      "viewBox": "0 0 24 24"
-    },
-    {
-      "id": "thermometer-snowflake",
-      "baseId": "thermometer-snowflake",
-      "variant": "default",
-      "name": "Thermometer Snowflake",
-      "path": "./generated/medical/thermometer-snowflake.tsx",
-      "category": "medical",
-      "url": "",
-      "tags": [],
-      "viewBox": "0 0 24 24"
-    },
-    {
-      "id": "thermometer-sun",
-      "baseId": "thermometer-sun",
-      "variant": "default",
-      "name": "Thermometer Sun",
-      "path": "./generated/medical/thermometer-sun.tsx",
-      "category": "medical",
-      "url": "",
-      "tags": [],
-      "viewBox": "0 0 24 24"
-    },
-    {
-      "id": "thermometer",
-      "baseId": "thermometer",
-      "variant": "default",
-      "name": "Thermometer",
-      "path": "./generated/medical/thermometer.tsx",
-      "category": "medical",
-      "url": "",
-      "tags": [],
-      "viewBox": "0 0 24 24"
-    },
-    {
       "id": "message-2_filled",
       "baseId": "message-2",
       "variant": "filled",
@@ -18151,6 +22694,160 @@
       "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "automation_doodle",
+      "baseId": "automation",
+      "variant": "doodle",
+      "name": "Automation",
+      "path": "./generated/misc/automation_doodle.tsx",
+      "category": "misc",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 134 133"
+    },
+    {
+      "id": "bot_doodle",
+      "baseId": "bot",
+      "variant": "doodle",
+      "name": "Bot",
+      "path": "./generated/misc/bot_doodle.tsx",
+      "category": "misc",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 164 125"
+    },
+    {
+      "id": "bug_doodle",
+      "baseId": "bug",
+      "variant": "doodle",
+      "name": "Bug",
+      "path": "./generated/misc/bug_doodle.tsx",
+      "category": "misc",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 151 149"
+    },
+    {
+      "id": "bus_doodle",
+      "baseId": "bus",
+      "variant": "doodle",
+      "name": "Bus",
+      "path": "./generated/misc/bus_doodle.tsx",
+      "category": "misc",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 151 154"
+    },
+    {
+      "id": "car_doodle",
+      "baseId": "car",
+      "variant": "doodle",
+      "name": "Car",
+      "path": "./generated/misc/car_doodle.tsx",
+      "category": "misc",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 184 134"
+    },
+    {
+      "id": "chip_doodle",
+      "baseId": "chip",
+      "variant": "doodle",
+      "name": "Chip",
+      "path": "./generated/misc/chip_doodle.tsx",
+      "category": "misc",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 151 146"
+    },
+    {
+      "id": "coffee-cup-1_doodle",
+      "baseId": "coffee-cup-1",
+      "variant": "doodle",
+      "name": "Coffee Cup 1",
+      "path": "./generated/misc/coffee-cup-1_doodle.tsx",
+      "category": "misc",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 157 127"
+    },
+    {
+      "id": "coffee-cup-2_doodle",
+      "baseId": "coffee-cup-2",
+      "variant": "doodle",
+      "name": "Coffee Cup 2",
+      "path": "./generated/misc/coffee-cup-2_doodle.tsx",
+      "category": "misc",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 151 150"
+    },
+    {
+      "id": "fire_doodle",
+      "baseId": "fire",
+      "variant": "doodle",
+      "name": "Fire",
+      "path": "./generated/misc/fire_doodle.tsx",
+      "category": "misc",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 131 155"
+    },
+    {
+      "id": "hot-air-balloon_doodle",
+      "baseId": "hot-air-balloon",
+      "variant": "doodle",
+      "name": "Hot Air Balloon",
+      "path": "./generated/misc/hot-air-balloon_doodle.tsx",
+      "category": "misc",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 99 156"
+    },
+    {
+      "id": "plane_doodle",
+      "baseId": "plane",
+      "variant": "doodle",
+      "name": "Plane",
+      "path": "./generated/misc/plane_doodle.tsx",
+      "category": "misc",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 150 120"
+    },
+    {
+      "id": "rocket_doodle",
+      "baseId": "rocket",
+      "variant": "doodle",
+      "name": "Rocket",
+      "path": "./generated/misc/rocket_doodle.tsx",
+      "category": "misc",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 154 155"
+    },
+    {
+      "id": "satellite_doodle",
+      "baseId": "satellite",
+      "variant": "doodle",
+      "name": "Satellite",
+      "path": "./generated/misc/satellite_doodle.tsx",
+      "category": "misc",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 152 152"
+    },
+    {
+      "id": "ship_doodle",
+      "baseId": "ship",
+      "variant": "doodle",
+      "name": "Ship",
+      "path": "./generated/misc/ship_doodle.tsx",
+      "category": "misc",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 150 144"
     },
     {
       "id": "monitor-check",
@@ -29692,6 +34389,39 @@
       "viewBox": "0 0 24 24"
     },
     {
+      "id": "Vector_doodle",
+      "baseId": "Vector",
+      "variant": "doodle",
+      "name": "Vector",
+      "path": "./generated/weather/Vector_doodle.tsx",
+      "category": "weather",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 161 101"
+    },
+    {
+      "id": "cloudy-day_doodle",
+      "baseId": "cloudy-day",
+      "variant": "doodle",
+      "name": "Cloudy Day",
+      "path": "./generated/weather/cloudy-day_doodle.tsx",
+      "category": "weather",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 163 122"
+    },
+    {
+      "id": "cloudy-night_doodle",
+      "baseId": "cloudy-night",
+      "variant": "doodle",
+      "name": "Cloudy Night",
+      "path": "./generated/weather/cloudy-night_doodle.tsx",
+      "category": "weather",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 165 128"
+    },
+    {
       "id": "moon-star",
       "baseId": "moon-star",
       "variant": "default",
@@ -29712,6 +34442,72 @@
       "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "night_doodle",
+      "baseId": "night",
+      "variant": "doodle",
+      "name": "Night",
+      "path": "./generated/weather/night_doodle.tsx",
+      "category": "weather",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 155 146"
+    },
+    {
+      "id": "rain-heavy_doodle",
+      "baseId": "rain-heavy",
+      "variant": "doodle",
+      "name": "Rain Heavy",
+      "path": "./generated/weather/rain-heavy_doodle.tsx",
+      "category": "weather",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 154 150"
+    },
+    {
+      "id": "rain-light_doodle",
+      "baseId": "rain-light",
+      "variant": "doodle",
+      "name": "Rain Light",
+      "path": "./generated/weather/rain-light_doodle.tsx",
+      "category": "weather",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 160 136"
+    },
+    {
+      "id": "snow_doodle",
+      "baseId": "snow",
+      "variant": "doodle",
+      "name": "Snow",
+      "path": "./generated/weather/snow_doodle.tsx",
+      "category": "weather",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 161 149"
+    },
+    {
+      "id": "snowflake_doodle",
+      "baseId": "snowflake",
+      "variant": "doodle",
+      "name": "Snowflake",
+      "path": "./generated/weather/snowflake_doodle.tsx",
+      "category": "weather",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 155 154"
+    },
+    {
+      "id": "snowman_doodle",
+      "baseId": "snowman",
+      "variant": "doodle",
+      "name": "Snowman",
+      "path": "./generated/weather/snowman_doodle.tsx",
+      "category": "weather",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 156 154"
     },
     {
       "id": "sun-dim",
@@ -29769,6 +34565,17 @@
       "viewBox": "0 0 24 24"
     },
     {
+      "id": "sunny_doodle",
+      "baseId": "sunny",
+      "variant": "doodle",
+      "name": "Sunny",
+      "path": "./generated/weather/sunny_doodle.tsx",
+      "category": "weather",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 146 141"
+    },
+    {
       "id": "sunrise",
       "baseId": "sunrise",
       "variant": "default",
@@ -29789,6 +34596,39 @@
       "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "thunderstorm_doodle",
+      "baseId": "thunderstorm",
+      "variant": "doodle",
+      "name": "Thunderstorm",
+      "path": "./generated/weather/thunderstorm_doodle.tsx",
+      "category": "weather",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 161 157"
+    },
+    {
+      "id": "tornado_doodle",
+      "baseId": "tornado",
+      "variant": "doodle",
+      "name": "Tornado",
+      "path": "./generated/weather/tornado_doodle.tsx",
+      "category": "weather",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 102 150"
+    },
+    {
+      "id": "wind_doodle",
+      "baseId": "wind",
+      "variant": "doodle",
+      "name": "Wind",
+      "path": "./generated/weather/wind_doodle.tsx",
+      "category": "weather",
+      "url": "",
+      "tags": [],
+      "viewBox": "0 0 152 118"
     },
     {
       "id": "zodiac-aquarius",

@@ -116,7 +116,9 @@ function extractInnerSVG(svg: string): string {
 }
 
 function convertSvgAttributes(svg: string) {
-  return svg
+  return svg 
+  .replace(/fill=["'](?!none)[^"']*["']/gi, 'fill="currentColor"')
+  
     .replace(/stroke-width=/g, "strokeWidth=")
     .replace(/stroke-linecap=/g, "strokeLinecap=")
     .replace(/stroke-linejoin=/g, "strokeLinejoin=")
@@ -156,7 +158,7 @@ function convertSvgAttributes(svg: string) {
     .replace(/\s*serif:[a-zA-Z-]+=["'][^"']*["']/g, "")
 }
 
-const KNOWN_VARIANTS = new Set(["filled", "circle", "outline"])
+const KNOWN_VARIANTS = new Set(["filled", "doodle", "outline"])
 
 function parseLogoId(basename: string): { baseId: string; variant: string } {
   const underscoreIndex = basename.lastIndexOf("_")

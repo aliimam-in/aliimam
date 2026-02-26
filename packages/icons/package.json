@@ -13,7 +13,7 @@
   "sideEffects": false,
   "scripts": {
     "generate:icons": "tsx scripts/generate-icons.ts",
-    "build": "tsup",
+    "build": "NODE_OPTIONS='--max-old-space-size=4096' tsup",
     "prepublishOnly": "npm run generate:icons && npm run build"
   },
   "publishConfig": {
@@ -26,5 +26,8 @@
     "@types/react": "^18.2.0",
     "tsup": "^8.0.0",
     "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@resvg/resvg-js": "^2.6.2"
   }
 }

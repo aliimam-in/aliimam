@@ -6,7 +6,7 @@ interface IconProps extends React.SVGProps<SVGSVGElement> {
   size?: number
   color?: string
   strokeWidth?: number
-  variant?: "default" | "outline" | "filled" | "pixel"
+  variant?: "default" | "outline" | "filled" | "doodle"
 }
 
 export function Icons({
@@ -78,7 +78,7 @@ export function Icons({
 
   const resolvedVariant = (metadata.variant ?? "default").toLowerCase()
   const isFilledVariant =
-    resolvedVariant === "filled" || resolvedVariant === "pixel"
+    resolvedVariant === "filled" || resolvedVariant === "doodle"
 
   const resolvedFill = fill ?? (isFilledVariant ? "currentColor" : "none")
   const resolvedStroke = stroke ?? (isFilledVariant ? "none" : "currentColor")

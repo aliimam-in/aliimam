@@ -1,6 +1,6 @@
 "use client"
 
-import { Suspense } from "react"
+import { Suspense } from "react" 
 
 export default function DocsLayout({
   children,
@@ -8,7 +8,7 @@ export default function DocsLayout({
   children: React.ReactNode
 }) {
   return (
-    <div>
+    <div> 
       <Suspense
         fallback={
           <div className="text-muted-foreground flex h-[85vh] items-center justify-center p-4 text-sm">

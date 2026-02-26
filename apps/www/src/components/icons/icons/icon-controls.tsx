@@ -39,7 +39,7 @@ export function IconControlsPanel({
   const variantName = activeVariant?.toLowerCase() || ""
 
   const isFilled =
-    variantName.includes("filled") || variantName.includes("pixel")
+    variantName.includes("filled") || variantName.includes("doodle")
 
   return (
     <div className="space-y-6">
@@ -122,7 +122,7 @@ export function IconViewControlsPanel({
     activeVariant === "filled" ||
     activeVariant === "pixel" ||
     variantTab === "filled" ||
-    variantTab === "pixel"
+    variantTab === "doodle"
 
   return (
     <div className="space-y-6">

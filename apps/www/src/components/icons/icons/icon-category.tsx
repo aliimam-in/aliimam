@@ -6,11 +6,11 @@ import { useSearchParams } from "next/navigation"
 import { allIcons } from "@aliimam/icons"
 import { useIconFilter } from "./icon-filter-context"
 
-function matchesVariantTab(variant: string, tab: "outline" | "filled" | "pixel"): boolean {
+function matchesVariantTab(variant: string, tab: "outline" | "filled" | "doodle"): boolean {
   const v = (variant ?? "").toLowerCase()
   if (tab === "outline") return v === "default" || v === "outline" || v === ""
   if (tab === "filled") return v === "filled"
-  if (tab === "pixel") return v === "pixel"
+  if (tab === "doodle") return v === "doodle"
   return false
 }
 
