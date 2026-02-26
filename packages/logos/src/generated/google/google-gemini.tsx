@@ -52,37 +52,37 @@ export const GoogleGemini = React.forwardRef<SVGSVGElement, GoogleGeminiProps>(
 </g>
 <defs>
 <filter id="filter0_f_2011_419" x="-5.57221" y="-3.70475" width="37.3691" height="31.4094" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feFlood floodOpacity="0" result="BackgroundImageFix"/>
 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
 <feGaussianBlur stdDeviation="1.44966" result="effect1_foregroundBlur_2011_419"/>
 </filter>
 <filter id="filter1_f_2011_419" x="-7.98832" y="0.483211" width="21.3423" height="21.9866" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feFlood floodOpacity="0" result="BackgroundImageFix"/>
 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
 <feGaussianBlur stdDeviation="2.57718" result="effect1_foregroundBlur_2011_419"/>
 </filter>
 <filter id="filter2_f_2011_419" x="-9.11583" y="0.966365" width="21.3423" height="21.9866" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feFlood floodOpacity="0" result="BackgroundImageFix"/>
 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
 <feGaussianBlur stdDeviation="2.57718" result="effect1_foregroundBlur_2011_419"/>
 </filter>
 <filter id="filter3_f_2011_419" x="-3.35744" y="-10.4698" width="24.1208" height="26.4966" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feFlood floodOpacity="0" result="BackgroundImageFix"/>
 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
 <feGaussianBlur stdDeviation="2.57718" result="effect1_foregroundBlur_2011_419"/>
 </filter>
 <filter id="filter4_f_2011_419" x="-3.63932" y="-12.3222" width="24.1208" height="26.4966" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feFlood floodOpacity="0" result="BackgroundImageFix"/>
 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
 <feGaussianBlur stdDeviation="2.57718" result="effect1_foregroundBlur_2011_419"/>
 </filter>
 <filter id="filter5_f_2011_419" x="-3.31717" y="7.32879" width="24.1208" height="26.4966" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feFlood floodOpacity="0" result="BackgroundImageFix"/>
 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
 <feGaussianBlur stdDeviation="2.57718" result="effect1_foregroundBlur_2011_419"/>
 </filter>
 <filter id="filter6_f_2011_419" x="-3.1561" y="10.6308" width="24.1208" height="26.4966" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feFlood floodOpacity="0" result="BackgroundImageFix"/>
 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
 <feGaussianBlur stdDeviation="2.57718" result="effect1_foregroundBlur_2011_419"/>
 </filter>

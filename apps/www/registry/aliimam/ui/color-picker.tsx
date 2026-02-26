@@ -23,7 +23,7 @@ import {
   SelectValue,
 } from "@/registry/aliimam/ui/select";
 import { useComposedRefs } from "@/registry/aliimam/lib/compose-refs";
-import { cn } from "@/lib/utils";
+import { cn } from "@/registry/aliimam/lib/utils";
 import { VisuallyHiddenInput } from "@/components/visually-hidden-input";
 import { useAsRef } from "@/registry/aliimam/hooks/use-as-ref";
 import { useIsomorphicLayoutEffect } from "@/registry/aliimam/hooks/use-isomorphic-layout-effect";

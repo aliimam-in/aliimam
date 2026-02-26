@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-02-26T09:43:48.113Z",
+  "lastUpdated": "2026-02-26T10:41:51.071Z",
   "logos": [
     {
       "id": "abstract100_shapes",
@@ -9,7 +9,6 @@
       "name": "Abstract100",
       "path": "./generated/abstract/abstract100_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 22 24"
     },
@@ -20,7 +19,6 @@
       "name": "Abstract101",
       "path": "./generated/abstract/abstract101_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 23 23"
     },
@@ -31,7 +29,6 @@
       "name": "Abstract102",
       "path": "./generated/abstract/abstract102_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 23"
     },
@@ -42,7 +39,6 @@
       "name": "Abstract103",
       "path": "./generated/abstract/abstract103_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 25 18"
     },
@@ -53,7 +49,6 @@
       "name": "Abstract104",
       "path": "./generated/abstract/abstract104_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 23 23"
     },
@@ -64,7 +59,6 @@
       "name": "Abstract105",
       "path": "./generated/abstract/abstract105_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 23 23"
     },
@@ -75,7 +69,6 @@
       "name": "Abstract106",
       "path": "./generated/abstract/abstract106_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 23 23"
     },
@@ -86,7 +79,6 @@
       "name": "Abstract107",
       "path": "./generated/abstract/abstract107_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 20"
     },
@@ -97,7 +89,6 @@
       "name": "Abstract108",
       "path": "./generated/abstract/abstract108_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 23 23"
     },
@@ -108,7 +99,6 @@
       "name": "Abstract109",
       "path": "./generated/abstract/abstract109_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 23"
     },
@@ -119,7 +109,6 @@
       "name": "Abstract10",
       "path": "./generated/abstract/abstract10_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 23"
     },
@@ -130,7 +119,6 @@
       "name": "Abstract10",
       "path": "./generated/abstract/abstract10_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -141,7 +129,6 @@
       "name": "Abstract110",
       "path": "./generated/abstract/abstract110_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 23 24"
     },
@@ -152,7 +139,6 @@
       "name": "Abstract111",
       "path": "./generated/abstract/abstract111_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 23 23"
     },
@@ -163,7 +149,6 @@
       "name": "Abstract112",
       "path": "./generated/abstract/abstract112_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 23 23"
     },
@@ -174,7 +159,6 @@
       "name": "Abstract113",
       "path": "./generated/abstract/abstract113_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 23 23"
     },
@@ -185,7 +169,6 @@
       "name": "Abstract114",
       "path": "./generated/abstract/abstract114_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -196,7 +179,6 @@
       "name": "Abstract115",
       "path": "./generated/abstract/abstract115_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 23 23"
     },
@@ -207,7 +189,6 @@
       "name": "Abstract116",
       "path": "./generated/abstract/abstract116_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 23 23"
     },
@@ -218,7 +199,6 @@
       "name": "Abstract117",
       "path": "./generated/abstract/abstract117_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 23 23"
     },
@@ -229,7 +209,6 @@
       "name": "Abstract118",
       "path": "./generated/abstract/abstract118_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 23 23"
     },
@@ -240,7 +219,6 @@
       "name": "Abstract119",
       "path": "./generated/abstract/abstract119_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 23 23"
     },
@@ -251,7 +229,6 @@
       "name": "Abstract11",
       "path": "./generated/abstract/abstract11_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -262,7 +239,6 @@
       "name": "Abstract11",
       "path": "./generated/abstract/abstract11_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -273,7 +249,6 @@
       "name": "Abstract120",
       "path": "./generated/abstract/abstract120_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 23 24"
     },
@@ -284,7 +259,6 @@
       "name": "Abstract121",
       "path": "./generated/abstract/abstract121_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 22"
     },
@@ -295,7 +269,6 @@
       "name": "Abstract122",
       "path": "./generated/abstract/abstract122_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 19"
     },
@@ -306,7 +279,6 @@
       "name": "Abstract123",
       "path": "./generated/abstract/abstract123_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 23 23"
     },
@@ -317,7 +289,6 @@
       "name": "Abstract124",
       "path": "./generated/abstract/abstract124_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 23 23"
     },
@@ -328,7 +299,6 @@
       "name": "Abstract125",
       "path": "./generated/abstract/abstract125_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 23 23"
     },
@@ -339,7 +309,6 @@
       "name": "Abstract126",
       "path": "./generated/abstract/abstract126_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 23 23"
     },
@@ -350,7 +319,6 @@
       "name": "Abstract127",
       "path": "./generated/abstract/abstract127_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -361,7 +329,6 @@
       "name": "Abstract128",
       "path": "./generated/abstract/abstract128_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 20"
     },
@@ -372,7 +339,6 @@
       "name": "Abstract129",
       "path": "./generated/abstract/abstract129_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -383,7 +349,6 @@
       "name": "Abstract12",
       "path": "./generated/abstract/abstract12_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -394,7 +359,6 @@
       "name": "Abstract12",
       "path": "./generated/abstract/abstract12_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -405,7 +369,6 @@
       "name": "Abstract130",
       "path": "./generated/abstract/abstract130_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 23 23"
     },
@@ -416,7 +379,6 @@
       "name": "Abstract131",
       "path": "./generated/abstract/abstract131_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 23 23"
     },
@@ -427,7 +389,6 @@
       "name": "Abstract132",
       "path": "./generated/abstract/abstract132_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 23 23"
     },
@@ -438,7 +399,6 @@
       "name": "Abstract133",
       "path": "./generated/abstract/abstract133_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 23 24"
     },
@@ -449,7 +409,6 @@
       "name": "Abstract134",
       "path": "./generated/abstract/abstract134_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 14"
     },
@@ -460,7 +419,6 @@
       "name": "Abstract135",
       "path": "./generated/abstract/abstract135_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 19 23"
     },
@@ -471,7 +429,6 @@
       "name": "Abstract136",
       "path": "./generated/abstract/abstract136_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 23 17"
     },
@@ -482,7 +439,6 @@
       "name": "Abstract137",
       "path": "./generated/abstract/abstract137_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 23"
     },
@@ -493,7 +449,6 @@
       "name": "Abstract138",
       "path": "./generated/abstract/abstract138_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 23 24"
     },
@@ -504,7 +459,6 @@
       "name": "Abstract139",
       "path": "./generated/abstract/abstract139_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 20 24"
     },
@@ -515,7 +469,6 @@
       "name": "Abstract13",
       "path": "./generated/abstract/abstract13_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -526,7 +479,6 @@
       "name": "Abstract13",
       "path": "./generated/abstract/abstract13_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -537,7 +489,6 @@
       "name": "Abstract140",
       "path": "./generated/abstract/abstract140_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -548,7 +499,6 @@
       "name": "Abstract141",
       "path": "./generated/abstract/abstract141_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 21 24"
     },
@@ -559,7 +509,6 @@
       "name": "Abstract142",
       "path": "./generated/abstract/abstract142_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 25 24"
     },
@@ -570,7 +519,6 @@
       "name": "Abstract143",
       "path": "./generated/abstract/abstract143_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 21 24"
     },
@@ -581,7 +529,6 @@
       "name": "Abstract144",
       "path": "./generated/abstract/abstract144_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 23 23"
     },
@@ -592,7 +539,6 @@
       "name": "Abstract145",
       "path": "./generated/abstract/abstract145_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -603,7 +549,6 @@
       "name": "Abstract146",
       "path": "./generated/abstract/abstract146_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -614,7 +559,6 @@
       "name": "Abstract147",
       "path": "./generated/abstract/abstract147_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 23 24"
     },
@@ -625,7 +569,6 @@
       "name": "Abstract148",
       "path": "./generated/abstract/abstract148_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 22"
     },
@@ -636,7 +579,6 @@
       "name": "Abstract149",
       "path": "./generated/abstract/abstract149_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 20"
     },
@@ -647,7 +589,6 @@
       "name": "Abstract14",
       "path": "./generated/abstract/abstract14_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 21 24"
     },
@@ -658,7 +599,6 @@
       "name": "Abstract14",
       "path": "./generated/abstract/abstract14_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -669,7 +609,6 @@
       "name": "Abstract150",
       "path": "./generated/abstract/abstract150_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 23 24"
     },
@@ -680,7 +619,6 @@
       "name": "Abstract151",
       "path": "./generated/abstract/abstract151_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 20 24"
     },
@@ -691,7 +629,6 @@
       "name": "Abstract152",
       "path": "./generated/abstract/abstract152_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 23 24"
     },
@@ -702,7 +639,6 @@
       "name": "Abstract153",
       "path": "./generated/abstract/abstract153_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 23 24"
     },
@@ -713,7 +649,6 @@
       "name": "Abstract154",
       "path": "./generated/abstract/abstract154_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -724,7 +659,6 @@
       "name": "Abstract155",
       "path": "./generated/abstract/abstract155_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -735,7 +669,6 @@
       "name": "Abstract156",
       "path": "./generated/abstract/abstract156_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -746,7 +679,6 @@
       "name": "Abstract157",
       "path": "./generated/abstract/abstract157_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -757,7 +689,6 @@
       "name": "Abstract158",
       "path": "./generated/abstract/abstract158_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 23 24"
     },
@@ -768,7 +699,6 @@
       "name": "Abstract159",
       "path": "./generated/abstract/abstract159_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 23 23"
     },
@@ -779,7 +709,6 @@
       "name": "Abstract15",
       "path": "./generated/abstract/abstract15_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -790,7 +719,6 @@
       "name": "Abstract15",
       "path": "./generated/abstract/abstract15_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -801,7 +729,6 @@
       "name": "Abstract16",
       "path": "./generated/abstract/abstract16_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -812,7 +739,6 @@
       "name": "Abstract16",
       "path": "./generated/abstract/abstract16_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -823,7 +749,6 @@
       "name": "Abstract17",
       "path": "./generated/abstract/abstract17_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -834,7 +759,6 @@
       "name": "Abstract17",
       "path": "./generated/abstract/abstract17_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -845,7 +769,6 @@
       "name": "Abstract18",
       "path": "./generated/abstract/abstract18_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -856,7 +779,6 @@
       "name": "Abstract18",
       "path": "./generated/abstract/abstract18_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -867,7 +789,6 @@
       "name": "Abstract19",
       "path": "./generated/abstract/abstract19_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -878,7 +799,6 @@
       "name": "Abstract19",
       "path": "./generated/abstract/abstract19_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -889,7 +809,6 @@
       "name": "Abstract1",
       "path": "./generated/abstract/abstract1_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -900,7 +819,6 @@
       "name": "Abstract1",
       "path": "./generated/abstract/abstract1_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -911,7 +829,6 @@
       "name": "Abstract20",
       "path": "./generated/abstract/abstract20_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 17"
     },
@@ -922,7 +839,6 @@
       "name": "Abstract20",
       "path": "./generated/abstract/abstract20_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -933,7 +849,6 @@
       "name": "Abstract21",
       "path": "./generated/abstract/abstract21_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -944,7 +859,6 @@
       "name": "Abstract21",
       "path": "./generated/abstract/abstract21_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -955,7 +869,6 @@
       "name": "Abstract22",
       "path": "./generated/abstract/abstract22_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 23 24"
     },
@@ -966,7 +879,6 @@
       "name": "Abstract22",
       "path": "./generated/abstract/abstract22_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -977,7 +889,6 @@
       "name": "Abstract23",
       "path": "./generated/abstract/abstract23_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -988,7 +899,6 @@
       "name": "Abstract23",
       "path": "./generated/abstract/abstract23_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -999,7 +909,6 @@
       "name": "Abstract24",
       "path": "./generated/abstract/abstract24_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -1010,7 +919,6 @@
       "name": "Abstract24",
       "path": "./generated/abstract/abstract24_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -1021,7 +929,6 @@
       "name": "Abstract25",
       "path": "./generated/abstract/abstract25_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 23"
     },
@@ -1032,7 +939,6 @@
       "name": "Abstract25",
       "path": "./generated/abstract/abstract25_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -1043,7 +949,6 @@
       "name": "Abstract26",
       "path": "./generated/abstract/abstract26_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 21 24"
     },
@@ -1054,7 +959,6 @@
       "name": "Abstract26",
       "path": "./generated/abstract/abstract26_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -1065,7 +969,6 @@
       "name": "Abstract27",
       "path": "./generated/abstract/abstract27_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -1076,7 +979,6 @@
       "name": "Abstract27",
       "path": "./generated/abstract/abstract27_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -1087,7 +989,6 @@
       "name": "Abstract28",
       "path": "./generated/abstract/abstract28_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -1098,7 +999,6 @@
       "name": "Abstract28",
       "path": "./generated/abstract/abstract28_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -1109,7 +1009,6 @@
       "name": "Abstract29",
       "path": "./generated/abstract/abstract29_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -1120,7 +1019,6 @@
       "name": "Abstract29",
       "path": "./generated/abstract/abstract29_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -1131,7 +1029,6 @@
       "name": "Abstract2",
       "path": "./generated/abstract/abstract2_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -1142,7 +1039,6 @@
       "name": "Abstract2",
       "path": "./generated/abstract/abstract2_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -1153,7 +1049,6 @@
       "name": "Abstract30",
       "path": "./generated/abstract/abstract30_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -1164,7 +1059,6 @@
       "name": "Abstract30",
       "path": "./generated/abstract/abstract30_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -1175,7 +1069,6 @@
       "name": "Abstract31",
       "path": "./generated/abstract/abstract31_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -1186,7 +1079,6 @@
       "name": "Abstract31",
       "path": "./generated/abstract/abstract31_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -1197,7 +1089,6 @@
       "name": "Abstract32",
       "path": "./generated/abstract/abstract32_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -1208,7 +1099,6 @@
       "name": "Abstract32",
       "path": "./generated/abstract/abstract32_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -1219,7 +1109,6 @@
       "name": "Abstract33",
       "path": "./generated/abstract/abstract33_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -1230,7 +1119,6 @@
       "name": "Abstract33",
       "path": "./generated/abstract/abstract33_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -1241,7 +1129,6 @@
       "name": "Abstract34",
       "path": "./generated/abstract/abstract34_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -1252,7 +1139,6 @@
       "name": "Abstract34",
       "path": "./generated/abstract/abstract34_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -1263,7 +1149,6 @@
       "name": "Abstract35",
       "path": "./generated/abstract/abstract35_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -1274,7 +1159,6 @@
       "name": "Abstract35",
       "path": "./generated/abstract/abstract35_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -1285,7 +1169,6 @@
       "name": "Abstract36",
       "path": "./generated/abstract/abstract36_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -1296,7 +1179,6 @@
       "name": "Abstract36",
       "path": "./generated/abstract/abstract36_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -1307,7 +1189,6 @@
       "name": "Abstract37",
       "path": "./generated/abstract/abstract37_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -1318,7 +1199,6 @@
       "name": "Abstract37",
       "path": "./generated/abstract/abstract37_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -1329,7 +1209,6 @@
       "name": "Abstract38",
       "path": "./generated/abstract/abstract38_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -1340,7 +1219,6 @@
       "name": "Abstract38",
       "path": "./generated/abstract/abstract38_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -1351,7 +1229,6 @@
       "name": "Abstract39",
       "path": "./generated/abstract/abstract39_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -1362,7 +1239,6 @@
       "name": "Abstract39",
       "path": "./generated/abstract/abstract39_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -1373,7 +1249,6 @@
       "name": "Abstract3",
       "path": "./generated/abstract/abstract3_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -1384,7 +1259,6 @@
       "name": "Abstract3",
       "path": "./generated/abstract/abstract3_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -1395,7 +1269,6 @@
       "name": "Abstract40",
       "path": "./generated/abstract/abstract40_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 22 24"
     },
@@ -1406,7 +1279,6 @@
       "name": "Abstract40",
       "path": "./generated/abstract/abstract40_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -1417,7 +1289,6 @@
       "name": "Abstract41",
       "path": "./generated/abstract/abstract41_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -1428,7 +1299,6 @@
       "name": "Abstract41",
       "path": "./generated/abstract/abstract41_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -1439,7 +1309,6 @@
       "name": "Abstract42",
       "path": "./generated/abstract/abstract42_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -1450,7 +1319,6 @@
       "name": "Abstract42",
       "path": "./generated/abstract/abstract42_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -1461,7 +1329,6 @@
       "name": "Abstract43",
       "path": "./generated/abstract/abstract43_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 25 25"
     },
@@ -1472,7 +1339,6 @@
       "name": "Abstract43",
       "path": "./generated/abstract/abstract43_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -1483,7 +1349,6 @@
       "name": "Abstract44",
       "path": "./generated/abstract/abstract44_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -1494,7 +1359,6 @@
       "name": "Abstract44",
       "path": "./generated/abstract/abstract44_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -1505,7 +1369,6 @@
       "name": "Abstract45",
       "path": "./generated/abstract/abstract45_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 23 24"
     },
@@ -1516,7 +1379,6 @@
       "name": "Abstract45",
       "path": "./generated/abstract/abstract45_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -1527,7 +1389,6 @@
       "name": "Abstract46",
       "path": "./generated/abstract/abstract46_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -1538,7 +1399,6 @@
       "name": "Abstract46",
       "path": "./generated/abstract/abstract46_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -1549,7 +1409,6 @@
       "name": "Abstract47",
       "path": "./generated/abstract/abstract47_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -1560,7 +1419,6 @@
       "name": "Abstract47",
       "path": "./generated/abstract/abstract47_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -1571,7 +1429,6 @@
       "name": "Abstract48",
       "path": "./generated/abstract/abstract48_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -1582,7 +1439,6 @@
       "name": "Abstract48",
       "path": "./generated/abstract/abstract48_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -1593,7 +1449,6 @@
       "name": "Abstract49",
       "path": "./generated/abstract/abstract49_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -1604,7 +1459,6 @@
       "name": "Abstract49",
       "path": "./generated/abstract/abstract49_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -1615,7 +1469,6 @@
       "name": "Abstract4",
       "path": "./generated/abstract/abstract4_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 23 24"
     },
@@ -1626,7 +1479,6 @@
       "name": "Abstract4",
       "path": "./generated/abstract/abstract4_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -1637,7 +1489,6 @@
       "name": "Abstract50",
       "path": "./generated/abstract/abstract50_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -1648,7 +1499,6 @@
       "name": "Abstract50",
       "path": "./generated/abstract/abstract50_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -1659,7 +1509,6 @@
       "name": "Abstract51",
       "path": "./generated/abstract/abstract51_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -1670,7 +1519,6 @@
       "name": "Abstract51",
       "path": "./generated/abstract/abstract51_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -1681,7 +1529,6 @@
       "name": "Abstract52",
       "path": "./generated/abstract/abstract52_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -1692,7 +1539,6 @@
       "name": "Abstract52",
       "path": "./generated/abstract/abstract52_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -1703,7 +1549,6 @@
       "name": "Abstract53",
       "path": "./generated/abstract/abstract53_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -1714,7 +1559,6 @@
       "name": "Abstract53",
       "path": "./generated/abstract/abstract53_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -1725,7 +1569,6 @@
       "name": "Abstract54",
       "path": "./generated/abstract/abstract54_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -1736,7 +1579,6 @@
       "name": "Abstract54",
       "path": "./generated/abstract/abstract54_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -1747,7 +1589,6 @@
       "name": "Abstract55",
       "path": "./generated/abstract/abstract55_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -1758,7 +1599,6 @@
       "name": "Abstract55",
       "path": "./generated/abstract/abstract55_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -1769,7 +1609,6 @@
       "name": "Abstract56",
       "path": "./generated/abstract/abstract56_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -1780,7 +1619,6 @@
       "name": "Abstract56",
       "path": "./generated/abstract/abstract56_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -1791,7 +1629,6 @@
       "name": "Abstract57",
       "path": "./generated/abstract/abstract57_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 21 23"
     },
@@ -1802,7 +1639,6 @@
       "name": "Abstract57",
       "path": "./generated/abstract/abstract57_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -1813,7 +1649,6 @@
       "name": "Abstract58",
       "path": "./generated/abstract/abstract58_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -1824,7 +1659,6 @@
       "name": "Abstract58",
       "path": "./generated/abstract/abstract58_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -1835,7 +1669,6 @@
       "name": "Abstract59",
       "path": "./generated/abstract/abstract59_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -1846,7 +1679,6 @@
       "name": "Abstract59",
       "path": "./generated/abstract/abstract59_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -1857,7 +1689,6 @@
       "name": "Abstract5",
       "path": "./generated/abstract/abstract5_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -1868,7 +1699,6 @@
       "name": "Abstract5",
       "path": "./generated/abstract/abstract5_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -1879,7 +1709,6 @@
       "name": "Abstract60",
       "path": "./generated/abstract/abstract60_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 21 24"
     },
@@ -1890,7 +1719,6 @@
       "name": "Abstract60",
       "path": "./generated/abstract/abstract60_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -1901,7 +1729,6 @@
       "name": "Abstract61",
       "path": "./generated/abstract/abstract61_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -1912,7 +1739,6 @@
       "name": "Abstract61",
       "path": "./generated/abstract/abstract61_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -1923,7 +1749,6 @@
       "name": "Abstract62",
       "path": "./generated/abstract/abstract62_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -1934,7 +1759,6 @@
       "name": "Abstract62",
       "path": "./generated/abstract/abstract62_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -1945,7 +1769,6 @@
       "name": "Abstract63",
       "path": "./generated/abstract/abstract63_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -1956,7 +1779,6 @@
       "name": "Abstract63",
       "path": "./generated/abstract/abstract63_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -1967,7 +1789,6 @@
       "name": "Abstract64",
       "path": "./generated/abstract/abstract64_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -1978,7 +1799,6 @@
       "name": "Abstract64",
       "path": "./generated/abstract/abstract64_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -1989,7 +1809,6 @@
       "name": "Abstract65",
       "path": "./generated/abstract/abstract65_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -2000,7 +1819,6 @@
       "name": "Abstract65",
       "path": "./generated/abstract/abstract65_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -2011,7 +1829,6 @@
       "name": "Abstract66",
       "path": "./generated/abstract/abstract66_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 23"
     },
@@ -2022,7 +1839,6 @@
       "name": "Abstract66",
       "path": "./generated/abstract/abstract66_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -2033,7 +1849,6 @@
       "name": "Abstract67",
       "path": "./generated/abstract/abstract67_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -2044,7 +1859,6 @@
       "name": "Abstract67",
       "path": "./generated/abstract/abstract67_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -2055,7 +1869,6 @@
       "name": "Abstract68",
       "path": "./generated/abstract/abstract68_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 20"
     },
@@ -2066,7 +1879,6 @@
       "name": "Abstract68",
       "path": "./generated/abstract/abstract68_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -2077,7 +1889,6 @@
       "name": "Abstract69",
       "path": "./generated/abstract/abstract69_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -2088,7 +1899,6 @@
       "name": "Abstract69",
       "path": "./generated/abstract/abstract69_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -2099,7 +1909,6 @@
       "name": "Abstract6",
       "path": "./generated/abstract/abstract6_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -2110,7 +1919,6 @@
       "name": "Abstract6",
       "path": "./generated/abstract/abstract6_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -2121,7 +1929,6 @@
       "name": "Abstract70",
       "path": "./generated/abstract/abstract70_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -2132,7 +1939,6 @@
       "name": "Abstract70",
       "path": "./generated/abstract/abstract70_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -2143,7 +1949,6 @@
       "name": "Abstract71",
       "path": "./generated/abstract/abstract71_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 23"
     },
@@ -2154,7 +1959,6 @@
       "name": "Abstract72",
       "path": "./generated/abstract/abstract72_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 21"
     },
@@ -2165,7 +1969,6 @@
       "name": "Abstract73",
       "path": "./generated/abstract/abstract73_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 10"
     },
@@ -2176,7 +1979,6 @@
       "name": "Abstract74",
       "path": "./generated/abstract/abstract74_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -2187,7 +1989,6 @@
       "name": "Abstract75",
       "path": "./generated/abstract/abstract75_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -2198,7 +1999,6 @@
       "name": "Abstract76",
       "path": "./generated/abstract/abstract76_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 23 23"
     },
@@ -2209,7 +2009,6 @@
       "name": "Abstract77",
       "path": "./generated/abstract/abstract77_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 23 23"
     },
@@ -2220,7 +2019,6 @@
       "name": "Abstract78",
       "path": "./generated/abstract/abstract78_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -2231,7 +2029,6 @@
       "name": "Abstract79",
       "path": "./generated/abstract/abstract79_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 20"
     },
@@ -2242,7 +2039,6 @@
       "name": "Abstract7",
       "path": "./generated/abstract/abstract7_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -2253,7 +2049,6 @@
       "name": "Abstract7",
       "path": "./generated/abstract/abstract7_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -2264,7 +2059,6 @@
       "name": "Abstract80",
       "path": "./generated/abstract/abstract80_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 23 21"
     },
@@ -2275,7 +2069,6 @@
       "name": "Abstract81",
       "path": "./generated/abstract/abstract81_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 23"
     },
@@ -2286,7 +2079,6 @@
       "name": "Abstract82",
       "path": "./generated/abstract/abstract82_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 23 21"
     },
@@ -2297,7 +2089,6 @@
       "name": "Abstract83",
       "path": "./generated/abstract/abstract83_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 23 23"
     },
@@ -2308,7 +2099,6 @@
       "name": "Abstract84",
       "path": "./generated/abstract/abstract84_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 23 23"
     },
@@ -2319,7 +2109,6 @@
       "name": "Abstract85",
       "path": "./generated/abstract/abstract85_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 23 23"
     },
@@ -2330,7 +2119,6 @@
       "name": "Abstract86",
       "path": "./generated/abstract/abstract86_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 23 23"
     },
@@ -2341,7 +2129,6 @@
       "name": "Abstract87",
       "path": "./generated/abstract/abstract87_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 23 23"
     },
@@ -2352,7 +2139,6 @@
       "name": "Abstract88",
       "path": "./generated/abstract/abstract88_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 23 23"
     },
@@ -2363,7 +2149,6 @@
       "name": "Abstract89",
       "path": "./generated/abstract/abstract89_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 20"
     },
@@ -2374,7 +2159,6 @@
       "name": "Abstract8",
       "path": "./generated/abstract/abstract8_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -2385,7 +2169,6 @@
       "name": "Abstract8",
       "path": "./generated/abstract/abstract8_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -2396,7 +2179,6 @@
       "name": "Abstract90",
       "path": "./generated/abstract/abstract90_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 23 23"
     },
@@ -2407,7 +2189,6 @@
       "name": "Abstract91",
       "path": "./generated/abstract/abstract91_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 23 23"
     },
@@ -2418,7 +2199,6 @@
       "name": "Abstract92",
       "path": "./generated/abstract/abstract92_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 23 23"
     },
@@ -2429,7 +2209,6 @@
       "name": "Abstract93",
       "path": "./generated/abstract/abstract93_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 23"
     },
@@ -2440,7 +2219,6 @@
       "name": "Abstract94",
       "path": "./generated/abstract/abstract94_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 20 23"
     },
@@ -2451,7 +2229,6 @@
       "name": "Abstract95",
       "path": "./generated/abstract/abstract95_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 23 23"
     },
@@ -2462,7 +2239,6 @@
       "name": "Abstract96",
       "path": "./generated/abstract/abstract96_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 22"
     },
@@ -2473,7 +2249,6 @@
       "name": "Abstract97",
       "path": "./generated/abstract/abstract97_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 23"
     },
@@ -2484,7 +2259,6 @@
       "name": "Abstract98",
       "path": "./generated/abstract/abstract98_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 21 23"
     },
@@ -2495,7 +2269,6 @@
       "name": "Abstract99",
       "path": "./generated/abstract/abstract99_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 22"
     },
@@ -2506,7 +2279,6 @@
       "name": "Abstract9",
       "path": "./generated/abstract/abstract9_shapes.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -2517,7 +2289,6 @@
       "name": "Abstract9",
       "path": "./generated/abstract/abstract9_sketch.tsx",
       "category": "abstract",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 446 446"
     },
@@ -2528,7 +2299,6 @@
       "name": "Arrows10",
       "path": "./generated/arrows/arrows10_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -2539,7 +2309,6 @@
       "name": "Arrows11",
       "path": "./generated/arrows/arrows11_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -2550,7 +2319,6 @@
       "name": "Arrows12",
       "path": "./generated/arrows/arrows12_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -2561,7 +2329,6 @@
       "name": "Arrows13",
       "path": "./generated/arrows/arrows13_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -2572,7 +2339,6 @@
       "name": "Arrows14",
       "path": "./generated/arrows/arrows14_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -2583,7 +2349,6 @@
       "name": "Arrows15",
       "path": "./generated/arrows/arrows15_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -2594,7 +2359,6 @@
       "name": "Arrows16",
       "path": "./generated/arrows/arrows16_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -2605,7 +2369,6 @@
       "name": "Arrows17",
       "path": "./generated/arrows/arrows17_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -2616,7 +2379,6 @@
       "name": "Arrows18",
       "path": "./generated/arrows/arrows18_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -2627,7 +2389,6 @@
       "name": "Arrows19",
       "path": "./generated/arrows/arrows19_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -2638,7 +2399,6 @@
       "name": "Arrows1",
       "path": "./generated/arrows/arrows1_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 490 490"
     },
@@ -2649,7 +2409,6 @@
       "name": "Arrows20",
       "path": "./generated/arrows/arrows20_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -2660,7 +2419,6 @@
       "name": "Arrows21",
       "path": "./generated/arrows/arrows21_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 490 490"
     },
@@ -2671,7 +2429,6 @@
       "name": "Arrows22",
       "path": "./generated/arrows/arrows22_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -2682,7 +2439,6 @@
       "name": "Arrows23",
       "path": "./generated/arrows/arrows23_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -2693,7 +2449,6 @@
       "name": "Arrows24",
       "path": "./generated/arrows/arrows24_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -2704,7 +2459,6 @@
       "name": "Arrows25",
       "path": "./generated/arrows/arrows25_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -2715,7 +2469,6 @@
       "name": "Arrows26",
       "path": "./generated/arrows/arrows26_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -2726,7 +2479,6 @@
       "name": "Arrows27",
       "path": "./generated/arrows/arrows27_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -2737,7 +2489,6 @@
       "name": "Arrows28",
       "path": "./generated/arrows/arrows28_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -2748,7 +2499,6 @@
       "name": "Arrows29",
       "path": "./generated/arrows/arrows29_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -2759,7 +2509,6 @@
       "name": "Arrows2",
       "path": "./generated/arrows/arrows2_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 490 490"
     },
@@ -2770,7 +2519,6 @@
       "name": "Arrows30",
       "path": "./generated/arrows/arrows30_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -2781,7 +2529,6 @@
       "name": "Arrows31",
       "path": "./generated/arrows/arrows31_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -2792,7 +2539,6 @@
       "name": "Arrows32",
       "path": "./generated/arrows/arrows32_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -2803,7 +2549,6 @@
       "name": "Arrows33",
       "path": "./generated/arrows/arrows33_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -2814,7 +2559,6 @@
       "name": "Arrows34",
       "path": "./generated/arrows/arrows34_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -2825,7 +2569,6 @@
       "name": "Arrows35",
       "path": "./generated/arrows/arrows35_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -2836,7 +2579,6 @@
       "name": "Arrows36",
       "path": "./generated/arrows/arrows36_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -2847,7 +2589,6 @@
       "name": "Arrows37",
       "path": "./generated/arrows/arrows37_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -2858,7 +2599,6 @@
       "name": "Arrows38",
       "path": "./generated/arrows/arrows38_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -2869,7 +2609,6 @@
       "name": "Arrows39",
       "path": "./generated/arrows/arrows39_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -2880,7 +2619,6 @@
       "name": "Arrows3",
       "path": "./generated/arrows/arrows3_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -2891,7 +2629,6 @@
       "name": "Arrows40",
       "path": "./generated/arrows/arrows40_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -2902,7 +2639,6 @@
       "name": "Arrows41",
       "path": "./generated/arrows/arrows41_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -2913,7 +2649,6 @@
       "name": "Arrows42",
       "path": "./generated/arrows/arrows42_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -2924,7 +2659,6 @@
       "name": "Arrows43",
       "path": "./generated/arrows/arrows43_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -2935,7 +2669,6 @@
       "name": "Arrows44",
       "path": "./generated/arrows/arrows44_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -2946,7 +2679,6 @@
       "name": "Arrows45",
       "path": "./generated/arrows/arrows45_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -2957,7 +2689,6 @@
       "name": "Arrows46",
       "path": "./generated/arrows/arrows46_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -2968,7 +2699,6 @@
       "name": "Arrows47",
       "path": "./generated/arrows/arrows47_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -2979,7 +2709,6 @@
       "name": "Arrows48",
       "path": "./generated/arrows/arrows48_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -2990,7 +2719,6 @@
       "name": "Arrows49",
       "path": "./generated/arrows/arrows49_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -3001,7 +2729,6 @@
       "name": "Arrows4",
       "path": "./generated/arrows/arrows4_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -3012,7 +2739,6 @@
       "name": "Arrows50",
       "path": "./generated/arrows/arrows50_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -3023,7 +2749,6 @@
       "name": "Arrows51",
       "path": "./generated/arrows/arrows51_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -3034,7 +2759,6 @@
       "name": "Arrows52",
       "path": "./generated/arrows/arrows52_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -3045,7 +2769,6 @@
       "name": "Arrows53",
       "path": "./generated/arrows/arrows53_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -3056,7 +2779,6 @@
       "name": "Arrows54",
       "path": "./generated/arrows/arrows54_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -3067,7 +2789,6 @@
       "name": "Arrows55",
       "path": "./generated/arrows/arrows55_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -3078,7 +2799,6 @@
       "name": "Arrows56",
       "path": "./generated/arrows/arrows56_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -3089,7 +2809,6 @@
       "name": "Arrows57",
       "path": "./generated/arrows/arrows57_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 490 490"
     },
@@ -3100,7 +2819,6 @@
       "name": "Arrows58",
       "path": "./generated/arrows/arrows58_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -3111,7 +2829,6 @@
       "name": "Arrows59",
       "path": "./generated/arrows/arrows59_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -3122,7 +2839,6 @@
       "name": "Arrows5",
       "path": "./generated/arrows/arrows5_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -3133,7 +2849,6 @@
       "name": "Arrows60",
       "path": "./generated/arrows/arrows60_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -3144,7 +2859,6 @@
       "name": "Arrows61",
       "path": "./generated/arrows/arrows61_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -3155,7 +2869,6 @@
       "name": "Arrows62",
       "path": "./generated/arrows/arrows62_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -3166,7 +2879,6 @@
       "name": "Arrows63",
       "path": "./generated/arrows/arrows63_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -3177,7 +2889,6 @@
       "name": "Arrows64",
       "path": "./generated/arrows/arrows64_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -3188,7 +2899,6 @@
       "name": "Arrows65",
       "path": "./generated/arrows/arrows65_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -3199,7 +2909,6 @@
       "name": "Arrows66",
       "path": "./generated/arrows/arrows66_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -3210,7 +2919,6 @@
       "name": "Arrows67",
       "path": "./generated/arrows/arrows67_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -3221,7 +2929,6 @@
       "name": "Arrows68",
       "path": "./generated/arrows/arrows68_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -3232,7 +2939,6 @@
       "name": "Arrows69",
       "path": "./generated/arrows/arrows69_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 490 490"
     },
@@ -3243,7 +2949,6 @@
       "name": "Arrows6",
       "path": "./generated/arrows/arrows6_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -3254,7 +2959,6 @@
       "name": "Arrows70",
       "path": "./generated/arrows/arrows70_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -3265,7 +2969,6 @@
       "name": "Arrows71",
       "path": "./generated/arrows/arrows71_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -3276,7 +2979,6 @@
       "name": "Arrows72",
       "path": "./generated/arrows/arrows72_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -3287,7 +2989,6 @@
       "name": "Arrows73",
       "path": "./generated/arrows/arrows73_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -3298,7 +2999,6 @@
       "name": "Arrows74",
       "path": "./generated/arrows/arrows74_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -3309,7 +3009,6 @@
       "name": "Arrows7",
       "path": "./generated/arrows/arrows7_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -3320,7 +3019,6 @@
       "name": "Arrows8",
       "path": "./generated/arrows/arrows8_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -3331,7 +3029,6 @@
       "name": "Arrows9",
       "path": "./generated/arrows/arrows9_sketch.tsx",
       "category": "arrows",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -3342,7 +3039,6 @@
       "name": "Geometric10",
       "path": "./generated/geometric/geometric10_pattern.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -3353,7 +3049,6 @@
       "name": "Geometric10",
       "path": "./generated/geometric/geometric10_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 713 357"
     },
@@ -3364,7 +3059,6 @@
       "name": "Geometric11",
       "path": "./generated/geometric/geometric11_pattern.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -3375,7 +3069,6 @@
       "name": "Geometric11",
       "path": "./generated/geometric/geometric11_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 357"
     },
@@ -3386,7 +3079,6 @@
       "name": "Geometric12",
       "path": "./generated/geometric/geometric12_pattern.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -3397,7 +3089,6 @@
       "name": "Geometric12",
       "path": "./generated/geometric/geometric12_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 357"
     },
@@ -3408,7 +3099,6 @@
       "name": "Geometric13",
       "path": "./generated/geometric/geometric13_pattern.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -3419,7 +3109,6 @@
       "name": "Geometric13",
       "path": "./generated/geometric/geometric13_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 713"
     },
@@ -3430,7 +3119,6 @@
       "name": "Geometric14",
       "path": "./generated/geometric/geometric14_pattern.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -3441,7 +3129,6 @@
       "name": "Geometric14",
       "path": "./generated/geometric/geometric14_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 713"
     },
@@ -3452,7 +3139,6 @@
       "name": "Geometric15",
       "path": "./generated/geometric/geometric15_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 357"
     },
@@ -3463,7 +3149,6 @@
       "name": "Geometric16",
       "path": "./generated/geometric/geometric16_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 357"
     },
@@ -3474,7 +3159,6 @@
       "name": "Geometric17",
       "path": "./generated/geometric/geometric17_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 357"
     },
@@ -3485,7 +3169,6 @@
       "name": "Geometric18",
       "path": "./generated/geometric/geometric18_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 357"
     },
@@ -3496,7 +3179,6 @@
       "name": "Geometric19",
       "path": "./generated/geometric/geometric19_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 357"
     },
@@ -3507,7 +3189,6 @@
       "name": "Geometric1",
       "path": "./generated/geometric/geometric1_pattern.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -3518,7 +3199,6 @@
       "name": "Geometric1",
       "path": "./generated/geometric/geometric1_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 357"
     },
@@ -3529,7 +3209,6 @@
       "name": "Geometric1",
       "path": "./generated/geometric/geometric1_texture.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -3540,7 +3219,6 @@
       "name": "Geometric20",
       "path": "./generated/geometric/geometric20_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 357"
     },
@@ -3551,7 +3229,6 @@
       "name": "Geometric21",
       "path": "./generated/geometric/geometric21_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 713 357"
     },
@@ -3562,7 +3239,6 @@
       "name": "Geometric22",
       "path": "./generated/geometric/geometric22_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 357"
     },
@@ -3573,7 +3249,6 @@
       "name": "Geometric23",
       "path": "./generated/geometric/geometric23_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 713 357"
     },
@@ -3584,7 +3259,6 @@
       "name": "Geometric24",
       "path": "./generated/geometric/geometric24_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 357"
     },
@@ -3595,7 +3269,6 @@
       "name": "Geometric25",
       "path": "./generated/geometric/geometric25_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 713"
     },
@@ -3606,7 +3279,6 @@
       "name": "Geometric26",
       "path": "./generated/geometric/geometric26_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 713 357"
     },
@@ -3617,7 +3289,6 @@
       "name": "Geometric27",
       "path": "./generated/geometric/geometric27_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 713"
     },
@@ -3628,7 +3299,6 @@
       "name": "Geometric28",
       "path": "./generated/geometric/geometric28_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 713 357"
     },
@@ -3639,7 +3309,6 @@
       "name": "Geometric29",
       "path": "./generated/geometric/geometric29_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 357"
     },
@@ -3650,7 +3319,6 @@
       "name": "Geometric2",
       "path": "./generated/geometric/geometric2_pattern.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -3661,7 +3329,6 @@
       "name": "Geometric2",
       "path": "./generated/geometric/geometric2_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 357"
     },
@@ -3672,7 +3339,6 @@
       "name": "Geometric2",
       "path": "./generated/geometric/geometric2_texture.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -3683,7 +3349,6 @@
       "name": "Geometric30",
       "path": "./generated/geometric/geometric30_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 357"
     },
@@ -3694,7 +3359,6 @@
       "name": "Geometric31",
       "path": "./generated/geometric/geometric31_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 713"
     },
@@ -3705,7 +3369,6 @@
       "name": "Geometric32",
       "path": "./generated/geometric/geometric32_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 357"
     },
@@ -3716,7 +3379,6 @@
       "name": "Geometric33",
       "path": "./generated/geometric/geometric33_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 357"
     },
@@ -3727,7 +3389,6 @@
       "name": "Geometric34",
       "path": "./generated/geometric/geometric34_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 357"
     },
@@ -3738,7 +3399,6 @@
       "name": "Geometric35",
       "path": "./generated/geometric/geometric35_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 357"
     },
@@ -3749,7 +3409,6 @@
       "name": "Geometric36",
       "path": "./generated/geometric/geometric36_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 357"
     },
@@ -3760,7 +3419,6 @@
       "name": "Geometric37",
       "path": "./generated/geometric/geometric37_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 357"
     },
@@ -3771,7 +3429,6 @@
       "name": "Geometric38",
       "path": "./generated/geometric/geometric38_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 713 357"
     },
@@ -3782,7 +3439,6 @@
       "name": "Geometric39",
       "path": "./generated/geometric/geometric39_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 713"
     },
@@ -3793,7 +3449,6 @@
       "name": "Geometric3",
       "path": "./generated/geometric/geometric3_pattern.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -3804,7 +3459,6 @@
       "name": "Geometric3",
       "path": "./generated/geometric/geometric3_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 357"
     },
@@ -3815,7 +3469,6 @@
       "name": "Geometric3",
       "path": "./generated/geometric/geometric3_texture.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -3826,7 +3479,6 @@
       "name": "Geometric40",
       "path": "./generated/geometric/geometric40_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 357"
     },
@@ -3837,7 +3489,6 @@
       "name": "Geometric41",
       "path": "./generated/geometric/geometric41_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 357"
     },
@@ -3848,7 +3499,6 @@
       "name": "Geometric42",
       "path": "./generated/geometric/geometric42_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 357"
     },
@@ -3859,7 +3509,6 @@
       "name": "Geometric43",
       "path": "./generated/geometric/geometric43_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 357"
     },
@@ -3870,7 +3519,6 @@
       "name": "Geometric44",
       "path": "./generated/geometric/geometric44_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 357"
     },
@@ -3881,7 +3529,6 @@
       "name": "Geometric45",
       "path": "./generated/geometric/geometric45_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 357"
     },
@@ -3892,7 +3539,6 @@
       "name": "Geometric46",
       "path": "./generated/geometric/geometric46_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 357"
     },
@@ -3903,7 +3549,6 @@
       "name": "Geometric47",
       "path": "./generated/geometric/geometric47_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 357"
     },
@@ -3914,7 +3559,6 @@
       "name": "Geometric48",
       "path": "./generated/geometric/geometric48_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 357"
     },
@@ -3925,7 +3569,6 @@
       "name": "Geometric49",
       "path": "./generated/geometric/geometric49_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 357"
     },
@@ -3936,7 +3579,6 @@
       "name": "Geometric4",
       "path": "./generated/geometric/geometric4_pattern.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -3947,7 +3589,6 @@
       "name": "Geometric4",
       "path": "./generated/geometric/geometric4_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 357"
     },
@@ -3958,7 +3599,6 @@
       "name": "Geometric4",
       "path": "./generated/geometric/geometric4_texture.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -3969,7 +3609,6 @@
       "name": "Geometric50",
       "path": "./generated/geometric/geometric50_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 357"
     },
@@ -3980,7 +3619,6 @@
       "name": "Geometric51",
       "path": "./generated/geometric/geometric51_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 357"
     },
@@ -3991,7 +3629,6 @@
       "name": "Geometric52",
       "path": "./generated/geometric/geometric52_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 357"
     },
@@ -4002,7 +3639,6 @@
       "name": "Geometric53",
       "path": "./generated/geometric/geometric53_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 357"
     },
@@ -4013,7 +3649,6 @@
       "name": "Geometric54",
       "path": "./generated/geometric/geometric54_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 357"
     },
@@ -4024,7 +3659,6 @@
       "name": "Geometric55",
       "path": "./generated/geometric/geometric55_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 357"
     },
@@ -4035,7 +3669,6 @@
       "name": "Geometric56",
       "path": "./generated/geometric/geometric56_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 713"
     },
@@ -4046,7 +3679,6 @@
       "name": "Geometric57",
       "path": "./generated/geometric/geometric57_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 357"
     },
@@ -4057,7 +3689,6 @@
       "name": "Geometric58",
       "path": "./generated/geometric/geometric58_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 713"
     },
@@ -4068,7 +3699,6 @@
       "name": "Geometric59",
       "path": "./generated/geometric/geometric59_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 713 357"
     },
@@ -4079,7 +3709,6 @@
       "name": "Geometric5",
       "path": "./generated/geometric/geometric5_pattern.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -4090,7 +3719,6 @@
       "name": "Geometric5",
       "path": "./generated/geometric/geometric5_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 357"
     },
@@ -4101,7 +3729,6 @@
       "name": "Geometric60",
       "path": "./generated/geometric/geometric60_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 357"
     },
@@ -4112,7 +3739,6 @@
       "name": "Geometric61",
       "path": "./generated/geometric/geometric61_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 357"
     },
@@ -4123,7 +3749,6 @@
       "name": "Geometric62",
       "path": "./generated/geometric/geometric62_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 357"
     },
@@ -4134,7 +3759,6 @@
       "name": "Geometric63",
       "path": "./generated/geometric/geometric63_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 357"
     },
@@ -4145,7 +3769,6 @@
       "name": "Geometric64",
       "path": "./generated/geometric/geometric64_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 357"
     },
@@ -4156,7 +3779,6 @@
       "name": "Geometric65",
       "path": "./generated/geometric/geometric65_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 357"
     },
@@ -4167,7 +3789,6 @@
       "name": "Geometric66",
       "path": "./generated/geometric/geometric66_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 357"
     },
@@ -4178,7 +3799,6 @@
       "name": "Geometric67",
       "path": "./generated/geometric/geometric67_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 357"
     },
@@ -4189,7 +3809,6 @@
       "name": "Geometric68",
       "path": "./generated/geometric/geometric68_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 357"
     },
@@ -4200,7 +3819,6 @@
       "name": "Geometric69",
       "path": "./generated/geometric/geometric69_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 357"
     },
@@ -4211,7 +3829,6 @@
       "name": "Geometric6",
       "path": "./generated/geometric/geometric6_pattern.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -4222,7 +3839,6 @@
       "name": "Geometric6",
       "path": "./generated/geometric/geometric6_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 357"
     },
@@ -4233,7 +3849,6 @@
       "name": "Geometric70",
       "path": "./generated/geometric/geometric70_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 357"
     },
@@ -4244,7 +3859,6 @@
       "name": "Geometric71",
       "path": "./generated/geometric/geometric71_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 357"
     },
@@ -4255,7 +3869,6 @@
       "name": "Geometric72",
       "path": "./generated/geometric/geometric72_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 713"
     },
@@ -4266,7 +3879,6 @@
       "name": "Geometric73",
       "path": "./generated/geometric/geometric73_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 357"
     },
@@ -4277,7 +3889,6 @@
       "name": "Geometric74",
       "path": "./generated/geometric/geometric74_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 357"
     },
@@ -4288,7 +3899,6 @@
       "name": "Geometric75",
       "path": "./generated/geometric/geometric75_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 713"
     },
@@ -4299,7 +3909,6 @@
       "name": "Geometric76",
       "path": "./generated/geometric/geometric76_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 357"
     },
@@ -4310,7 +3919,6 @@
       "name": "Geometric77",
       "path": "./generated/geometric/geometric77_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 713"
     },
@@ -4321,7 +3929,6 @@
       "name": "Geometric78",
       "path": "./generated/geometric/geometric78_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 713"
     },
@@ -4332,7 +3939,6 @@
       "name": "Geometric7",
       "path": "./generated/geometric/geometric7_pattern.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -4343,7 +3949,6 @@
       "name": "Geometric7",
       "path": "./generated/geometric/geometric7_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 713"
     },
@@ -4354,7 +3959,6 @@
       "name": "Geometric8",
       "path": "./generated/geometric/geometric8_pattern.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -4365,7 +3969,6 @@
       "name": "Geometric8",
       "path": "./generated/geometric/geometric8_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 713 357"
     },
@@ -4376,7 +3979,6 @@
       "name": "Geometric9",
       "path": "./generated/geometric/geometric9_pattern.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -4387,7 +3989,6 @@
       "name": "Geometric9",
       "path": "./generated/geometric/geometric9_shapes.tsx",
       "category": "geometric",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 357 713"
     },
@@ -4398,7 +3999,6 @@
       "name": "Organic10",
       "path": "./generated/organic/organic10_pattern.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -4409,7 +4009,6 @@
       "name": "Organic10",
       "path": "./generated/organic/organic10_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 300"
     },
@@ -4420,7 +4019,6 @@
       "name": "Organic11",
       "path": "./generated/organic/organic11_pattern.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -4431,7 +4029,6 @@
       "name": "Organic11",
       "path": "./generated/organic/organic11_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 300"
     },
@@ -4442,7 +4039,6 @@
       "name": "Organic12",
       "path": "./generated/organic/organic12_pattern.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -4453,7 +4049,6 @@
       "name": "Organic12",
       "path": "./generated/organic/organic12_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 300"
     },
@@ -4464,7 +4059,6 @@
       "name": "Organic13",
       "path": "./generated/organic/organic13_pattern.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -4475,7 +4069,6 @@
       "name": "Organic13",
       "path": "./generated/organic/organic13_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 300"
     },
@@ -4486,7 +4079,6 @@
       "name": "Organic14",
       "path": "./generated/organic/organic14_pattern.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -4497,7 +4089,6 @@
       "name": "Organic14",
       "path": "./generated/organic/organic14_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 300"
     },
@@ -4508,7 +4099,6 @@
       "name": "Organic15",
       "path": "./generated/organic/organic15_pattern.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -4519,7 +4109,6 @@
       "name": "Organic15",
       "path": "./generated/organic/organic15_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 600 300"
     },
@@ -4530,7 +4119,6 @@
       "name": "Organic16",
       "path": "./generated/organic/organic16_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 300"
     },
@@ -4541,7 +4129,6 @@
       "name": "Organic17",
       "path": "./generated/organic/organic17_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 300"
     },
@@ -4552,7 +4139,6 @@
       "name": "Organic18",
       "path": "./generated/organic/organic18_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 300"
     },
@@ -4563,7 +4149,6 @@
       "name": "Organic19",
       "path": "./generated/organic/organic19_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 300"
     },
@@ -4574,7 +4159,6 @@
       "name": "Organic1",
       "path": "./generated/organic/organic1_pattern.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -4585,7 +4169,6 @@
       "name": "Organic1",
       "path": "./generated/organic/organic1_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 300"
     },
@@ -4596,7 +4179,6 @@
       "name": "Organic1",
       "path": "./generated/organic/organic1_texture.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -4607,7 +4189,6 @@
       "name": "Organic20",
       "path": "./generated/organic/organic20_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 600 300"
     },
@@ -4618,7 +4199,6 @@
       "name": "Organic21",
       "path": "./generated/organic/organic21_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 300"
     },
@@ -4629,7 +4209,6 @@
       "name": "Organic22",
       "path": "./generated/organic/organic22_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 300"
     },
@@ -4640,7 +4219,6 @@
       "name": "Organic23",
       "path": "./generated/organic/organic23_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 600 300"
     },
@@ -4651,7 +4229,6 @@
       "name": "Organic24",
       "path": "./generated/organic/organic24_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 300"
     },
@@ -4662,7 +4239,6 @@
       "name": "Organic25",
       "path": "./generated/organic/organic25_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 300"
     },
@@ -4673,7 +4249,6 @@
       "name": "Organic26",
       "path": "./generated/organic/organic26_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 300"
     },
@@ -4684,7 +4259,6 @@
       "name": "Organic27",
       "path": "./generated/organic/organic27_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 300"
     },
@@ -4695,7 +4269,6 @@
       "name": "Organic28",
       "path": "./generated/organic/organic28_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 300"
     },
@@ -4706,7 +4279,6 @@
       "name": "Organic29",
       "path": "./generated/organic/organic29_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 300"
     },
@@ -4717,7 +4289,6 @@
       "name": "Organic2",
       "path": "./generated/organic/organic2_pattern.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -4728,7 +4299,6 @@
       "name": "Organic2",
       "path": "./generated/organic/organic2_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 300"
     },
@@ -4739,7 +4309,6 @@
       "name": "Organic2",
       "path": "./generated/organic/organic2_texture.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 503 501"
     },
@@ -4750,7 +4319,6 @@
       "name": "Organic30",
       "path": "./generated/organic/organic30_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 300"
     },
@@ -4761,7 +4329,6 @@
       "name": "Organic31",
       "path": "./generated/organic/organic31_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 600"
     },
@@ -4772,7 +4339,6 @@
       "name": "Organic32",
       "path": "./generated/organic/organic32_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 300"
     },
@@ -4783,7 +4349,6 @@
       "name": "Organic33",
       "path": "./generated/organic/organic33_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 300"
     },
@@ -4794,7 +4359,6 @@
       "name": "Organic34",
       "path": "./generated/organic/organic34_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 300"
     },
@@ -4805,7 +4369,6 @@
       "name": "Organic35",
       "path": "./generated/organic/organic35_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 300"
     },
@@ -4816,7 +4379,6 @@
       "name": "Organic36",
       "path": "./generated/organic/organic36_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 300"
     },
@@ -4827,7 +4389,6 @@
       "name": "Organic37",
       "path": "./generated/organic/organic37_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 600"
     },
@@ -4838,7 +4399,6 @@
       "name": "Organic38",
       "path": "./generated/organic/organic38_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 300"
     },
@@ -4849,7 +4409,6 @@
       "name": "Organic39",
       "path": "./generated/organic/organic39_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 300"
     },
@@ -4860,7 +4419,6 @@
       "name": "Organic3",
       "path": "./generated/organic/organic3_pattern.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -4871,7 +4429,6 @@
       "name": "Organic3",
       "path": "./generated/organic/organic3_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 300"
     },
@@ -4882,7 +4439,6 @@
       "name": "Organic3",
       "path": "./generated/organic/organic3_texture.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -4893,7 +4449,6 @@
       "name": "Organic40",
       "path": "./generated/organic/organic40_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 300"
     },
@@ -4904,7 +4459,6 @@
       "name": "Organic41",
       "path": "./generated/organic/organic41_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 600"
     },
@@ -4915,7 +4469,6 @@
       "name": "Organic42",
       "path": "./generated/organic/organic42_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 300"
     },
@@ -4926,7 +4479,6 @@
       "name": "Organic43",
       "path": "./generated/organic/organic43_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 600"
     },
@@ -4937,7 +4489,6 @@
       "name": "Organic44",
       "path": "./generated/organic/organic44_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 300"
     },
@@ -4948,7 +4499,6 @@
       "name": "Organic45",
       "path": "./generated/organic/organic45_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 600"
     },
@@ -4959,7 +4509,6 @@
       "name": "Organic46",
       "path": "./generated/organic/organic46_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 300"
     },
@@ -4970,7 +4519,6 @@
       "name": "Organic47",
       "path": "./generated/organic/organic47_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 600"
     },
@@ -4981,7 +4529,6 @@
       "name": "Organic48",
       "path": "./generated/organic/organic48_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 300"
     },
@@ -4992,7 +4539,6 @@
       "name": "Organic49",
       "path": "./generated/organic/organic49_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 600"
     },
@@ -5003,7 +4549,6 @@
       "name": "Organic4",
       "path": "./generated/organic/organic4_pattern.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -5014,7 +4559,6 @@
       "name": "Organic4",
       "path": "./generated/organic/organic4_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 300"
     },
@@ -5025,7 +4569,6 @@
       "name": "Organic4",
       "path": "./generated/organic/organic4_texture.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 502"
     },
@@ -5036,7 +4579,6 @@
       "name": "Organic50",
       "path": "./generated/organic/organic50_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 600"
     },
@@ -5047,7 +4589,6 @@
       "name": "Organic51",
       "path": "./generated/organic/organic51_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 600"
     },
@@ -5058,7 +4599,6 @@
       "name": "Organic52",
       "path": "./generated/organic/organic52_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 600 300"
     },
@@ -5069,7 +4609,6 @@
       "name": "Organic53",
       "path": "./generated/organic/organic53_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 600"
     },
@@ -5080,7 +4619,6 @@
       "name": "Organic54",
       "path": "./generated/organic/organic54_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 300"
     },
@@ -5091,7 +4629,6 @@
       "name": "Organic55",
       "path": "./generated/organic/organic55_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 300"
     },
@@ -5102,7 +4639,6 @@
       "name": "Organic56",
       "path": "./generated/organic/organic56_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 300"
     },
@@ -5113,7 +4649,6 @@
       "name": "Organic57",
       "path": "./generated/organic/organic57_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 300"
     },
@@ -5124,7 +4659,6 @@
       "name": "Organic58",
       "path": "./generated/organic/organic58_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 300"
     },
@@ -5135,7 +4669,6 @@
       "name": "Organic59",
       "path": "./generated/organic/organic59_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 300"
     },
@@ -5146,7 +4679,6 @@
       "name": "Organic5",
       "path": "./generated/organic/organic5_pattern.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -5157,7 +4689,6 @@
       "name": "Organic5",
       "path": "./generated/organic/organic5_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 300"
     },
@@ -5168,7 +4699,6 @@
       "name": "Organic5",
       "path": "./generated/organic/organic5_texture.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -5179,7 +4709,6 @@
       "name": "Organic60",
       "path": "./generated/organic/organic60_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 300"
     },
@@ -5190,7 +4719,6 @@
       "name": "Organic61",
       "path": "./generated/organic/organic61_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 300"
     },
@@ -5201,7 +4729,6 @@
       "name": "Organic62",
       "path": "./generated/organic/organic62_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 300"
     },
@@ -5212,7 +4739,6 @@
       "name": "Organic63",
       "path": "./generated/organic/organic63_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 300"
     },
@@ -5223,7 +4749,6 @@
       "name": "Organic64",
       "path": "./generated/organic/organic64_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 300"
     },
@@ -5234,7 +4759,6 @@
       "name": "Organic65",
       "path": "./generated/organic/organic65_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 300"
     },
@@ -5245,7 +4769,6 @@
       "name": "Organic66",
       "path": "./generated/organic/organic66_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 300"
     },
@@ -5256,7 +4779,6 @@
       "name": "Organic67",
       "path": "./generated/organic/organic67_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 300"
     },
@@ -5267,7 +4789,6 @@
       "name": "Organic68",
       "path": "./generated/organic/organic68_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 300"
     },
@@ -5278,7 +4799,6 @@
       "name": "Organic69",
       "path": "./generated/organic/organic69_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 600"
     },
@@ -5289,7 +4809,6 @@
       "name": "Organic6",
       "path": "./generated/organic/organic6_pattern.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -5300,7 +4819,6 @@
       "name": "Organic6",
       "path": "./generated/organic/organic6_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 300"
     },
@@ -5311,7 +4829,6 @@
       "name": "Organic6",
       "path": "./generated/organic/organic6_texture.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -5322,7 +4839,6 @@
       "name": "Organic70",
       "path": "./generated/organic/organic70_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 600"
     },
@@ -5333,7 +4849,6 @@
       "name": "Organic71",
       "path": "./generated/organic/organic71_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 300"
     },
@@ -5344,7 +4859,6 @@
       "name": "Organic72",
       "path": "./generated/organic/organic72_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 300"
     },
@@ -5355,7 +4869,6 @@
       "name": "Organic73",
       "path": "./generated/organic/organic73_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 300"
     },
@@ -5366,7 +4879,6 @@
       "name": "Organic74",
       "path": "./generated/organic/organic74_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 300"
     },
@@ -5377,7 +4889,6 @@
       "name": "Organic75",
       "path": "./generated/organic/organic75_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 300"
     },
@@ -5388,7 +4899,6 @@
       "name": "Organic76",
       "path": "./generated/organic/organic76_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 300"
     },
@@ -5399,7 +4909,6 @@
       "name": "Organic7",
       "path": "./generated/organic/organic7_pattern.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -5410,7 +4919,6 @@
       "name": "Organic7",
       "path": "./generated/organic/organic7_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 300"
     },
@@ -5421,7 +4929,6 @@
       "name": "Organic8",
       "path": "./generated/organic/organic8_pattern.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -5432,7 +4939,6 @@
       "name": "Organic8",
       "path": "./generated/organic/organic8_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 300"
     },
@@ -5443,7 +4949,6 @@
       "name": "Organic9",
       "path": "./generated/organic/organic9_pattern.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 500 500"
     },
@@ -5454,7 +4959,6 @@
       "name": "Organic9",
       "path": "./generated/organic/organic9_shapes.tsx",
       "category": "organic",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 300 600"
     },
@@ -5465,7 +4969,6 @@
       "name": "Star10",
       "path": "./generated/stars/star10_shapes.tsx",
       "category": "stars",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -5476,7 +4979,6 @@
       "name": "Star11",
       "path": "./generated/stars/star11_shapes.tsx",
       "category": "stars",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -5487,7 +4989,6 @@
       "name": "Star12",
       "path": "./generated/stars/star12_shapes.tsx",
       "category": "stars",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -5498,7 +4999,6 @@
       "name": "Star13",
       "path": "./generated/stars/star13_shapes.tsx",
       "category": "stars",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -5509,7 +5009,6 @@
       "name": "Star1",
       "path": "./generated/stars/star1_shapes.tsx",
       "category": "stars",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -5520,7 +5019,6 @@
       "name": "Star2",
       "path": "./generated/stars/star2_shapes.tsx",
       "category": "stars",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -5531,7 +5029,6 @@
       "name": "Star3",
       "path": "./generated/stars/star3_shapes.tsx",
       "category": "stars",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -5542,7 +5039,6 @@
       "name": "Star4",
       "path": "./generated/stars/star4_shapes.tsx",
       "category": "stars",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -5553,7 +5049,6 @@
       "name": "Star5",
       "path": "./generated/stars/star5_shapes.tsx",
       "category": "stars",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -5564,7 +5059,6 @@
       "name": "Star6",
       "path": "./generated/stars/star6_shapes.tsx",
       "category": "stars",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -5575,7 +5069,6 @@
       "name": "Star7",
       "path": "./generated/stars/star7_shapes.tsx",
       "category": "stars",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -5586,7 +5079,6 @@
       "name": "Star8",
       "path": "./generated/stars/star8_shapes.tsx",
       "category": "stars",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     },
@@ -5597,7 +5089,6 @@
       "name": "Star9",
       "path": "./generated/stars/star9_shapes.tsx",
       "category": "stars",
-      "url": "",
       "tags": [],
       "viewBox": "0 0 24 24"
     }

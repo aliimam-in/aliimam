@@ -40,12 +40,12 @@ export const Safari = React.forwardRef<SVGSVGElement, SafariProps>(
 </g>
 <defs>
 <filter id="filter0_f_2039_328" x="-1.31414" y="-0.585628" width="26.6293" height="25.9341" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feFlood floodOpacity="0" result="BackgroundImageFix"/>
 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
 <feGaussianBlur stdDeviation="1.18448" result="effect1_foregroundBlur_2039_328"/>
 </filter>
 <filter id="filter1_f_2039_328" x="4.84761" y="4.63149" width="14.9815" height="14.587" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feFlood floodOpacity="0" result="BackgroundImageFix"/>
 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
 <feGaussianBlur stdDeviation="0.336661" result="effect1_foregroundBlur_2039_328"/>
 </filter>

@@ -218,8 +218,7 @@ interface LogoJSON {
   baseId: string
   variant: string
   name: string
-  path: string
-  url?: string
+  path: string 
   category: string
   tags?: string[]
   viewBox?: string
@@ -263,8 +262,7 @@ for (const category of categories) {
         .map((p: string) => p.charAt(0).toUpperCase() + p.slice(1))
         .join(" "),
       path: `./generated/${category}/${basename}.tsx`,
-      category,
-      url: existing?.url || "",
+      category, 
       tags: existing?.tags || [],
       viewBox: extractViewBox(rawSvg),
       svgContent,
@@ -310,8 +308,7 @@ fs.writeFileSync(
         variant: l.variant,
         name: l.name,
         path: l.path,
-        category: l.category,
-        url: l.url,
+        category: l.category, 
         tags: l.tags,
         viewBox: l.viewBox,
       })),

@@ -1280,22 +1280,22 @@ var Lovable = React37.forwardRef(
         ] }),
         /* @__PURE__ */ jsxs31("defs", { children: [
           /* @__PURE__ */ jsxs31("filter", { id: "lovable__c", width: "235.52", height: "235.159", x: "-65.022", y: "-52.478", colorInterpolationFilters: "sRGB", filterUnits: "userSpaceOnUse", children: [
-            /* @__PURE__ */ jsx37("feFlood", { "flood-opacity": "0", result: "BackgroundImageFix" }),
+            /* @__PURE__ */ jsx37("feFlood", { floodOpacity: "0", result: "BackgroundImageFix" }),
             /* @__PURE__ */ jsx37("feBlend", { in: "SourceGraphic", in2: "BackgroundImageFix", result: "shape" }),
             /* @__PURE__ */ jsx37("feGaussianBlur", { result: "effect1_foregroundBlur_572_319", stdDeviation: "18.194" })
           ] }),
           /* @__PURE__ */ jsxs31("filter", { id: "lovable__d", width: "281.208", height: "235.159", x: "-78.93", y: "-97.032", colorInterpolationFilters: "sRGB", filterUnits: "userSpaceOnUse", children: [
-            /* @__PURE__ */ jsx37("feFlood", { "flood-opacity": "0", result: "BackgroundImageFix" }),
+            /* @__PURE__ */ jsx37("feFlood", { floodOpacity: "0", result: "BackgroundImageFix" }),
             /* @__PURE__ */ jsx37("feBlend", { in: "SourceGraphic", in2: "BackgroundImageFix", result: "shape" }),
             /* @__PURE__ */ jsx37("feGaussianBlur", { result: "effect1_foregroundBlur_572_319", stdDeviation: "18.194" })
           ] }),
           /* @__PURE__ */ jsxs31("filter", { id: "lovable__e", width: "235.52", height: "215.383", x: "-39.094", y: "-102.423", colorInterpolationFilters: "sRGB", filterUnits: "userSpaceOnUse", children: [
-            /* @__PURE__ */ jsx37("feFlood", { "flood-opacity": "0", result: "BackgroundImageFix" }),
+            /* @__PURE__ */ jsx37("feFlood", { floodOpacity: "0", result: "BackgroundImageFix" }),
             /* @__PURE__ */ jsx37("feBlend", { in: "SourceGraphic", in2: "BackgroundImageFix", result: "shape" }),
             /* @__PURE__ */ jsx37("feGaussianBlur", { result: "effect1_foregroundBlur_572_319", stdDeviation: "18.194" })
           ] }),
           /* @__PURE__ */ jsxs31("filter", { id: "lovable__f", width: "170.649", height: "170.432", x: "-22.204", y: "-64.688", colorInterpolationFilters: "sRGB", filterUnits: "userSpaceOnUse", children: [
-            /* @__PURE__ */ jsx37("feFlood", { "flood-opacity": "0", result: "BackgroundImageFix" }),
+            /* @__PURE__ */ jsx37("feFlood", { floodOpacity: "0", result: "BackgroundImageFix" }),
             /* @__PURE__ */ jsx37("feBlend", { in: "SourceGraphic", in2: "BackgroundImageFix", result: "shape" }),
             /* @__PURE__ */ jsx37("feGaussianBlur", { result: "effect1_foregroundBlur_572_319", stdDeviation: "18.194" })
           ] }),
@@ -1905,12 +1905,12 @@ var Safari = React48.forwardRef(
         ] }),
         /* @__PURE__ */ jsxs41("defs", { children: [
           /* @__PURE__ */ jsxs41("filter", { id: "filter0_f_2039_328", x: "-1.31414", y: "-0.585628", width: "26.6293", height: "25.9341", filterUnits: "userSpaceOnUse", colorInterpolationFilters: "sRGB", children: [
-            /* @__PURE__ */ jsx48("feFlood", { "flood-opacity": "0", result: "BackgroundImageFix" }),
+            /* @__PURE__ */ jsx48("feFlood", { floodOpacity: "0", result: "BackgroundImageFix" }),
             /* @__PURE__ */ jsx48("feBlend", { mode: "normal", in: "SourceGraphic", in2: "BackgroundImageFix", result: "shape" }),
             /* @__PURE__ */ jsx48("feGaussianBlur", { stdDeviation: "1.18448", result: "effect1_foregroundBlur_2039_328" })
           ] }),
           /* @__PURE__ */ jsxs41("filter", { id: "filter1_f_2039_328", x: "4.84761", y: "4.63149", width: "14.9815", height: "14.587", filterUnits: "userSpaceOnUse", colorInterpolationFilters: "sRGB", children: [
-            /* @__PURE__ */ jsx48("feFlood", { "flood-opacity": "0", result: "BackgroundImageFix" }),
+            /* @__PURE__ */ jsx48("feFlood", { floodOpacity: "0", result: "BackgroundImageFix" }),
             /* @__PURE__ */ jsx48("feBlend", { mode: "normal", in: "SourceGraphic", in2: "BackgroundImageFix", result: "shape" }),
             /* @__PURE__ */ jsx48("feGaussianBlur", { stdDeviation: "0.336661", result: "effect1_foregroundBlur_2039_328" })
           ] }),
@@ -2247,7 +2247,7 @@ var CVCSymbols = React57.forwardRef(
         /* @__PURE__ */ jsx57("path", { d: "M18.375 10.125C19.5142 10.125 20.5515 10.5517 21.345 11.25H22.5V8.25H1.5V11.25H15.4058C16.1985 10.5517 17.2358 10.125 18.375 10.125Z", fill: "#1A1A1A" }),
         /* @__PURE__ */ jsx57("path", { d: "M18.375 19.125C20.8603 19.125 22.875 17.1103 22.875 14.625C22.875 12.1397 20.8603 10.125 18.375 10.125C15.8897 10.125 13.875 12.1397 13.875 14.625C13.875 17.1103 15.8897 19.125 18.375 19.125Z", fill: "#E6E6E6" }),
         /* @__PURE__ */ jsx57("path", { d: "M14.25 12.75H21.75V16.5H14.25V12.75Z", fill: "white" }),
-        /* @__PURE__ */ jsx57("path", { d: "M18.375 19.125C20.8603 19.125 22.875 17.1103 22.875 14.625C22.875 12.1397 20.8603 10.125 18.375 10.125C15.8897 10.125 13.875 12.1397 13.875 14.625C13.875 17.1103 15.8897 19.125 18.375 19.125Z", stroke: "#ED1C24", "stroke-miterlimit": "10" }),
+        /* @__PURE__ */ jsx57("path", { d: "M18.375 19.125C20.8603 19.125 22.875 17.1103 22.875 14.625C22.875 12.1397 20.8603 10.125 18.375 10.125C15.8897 10.125 13.875 12.1397 13.875 14.625C13.875 17.1103 15.8897 19.125 18.375 19.125Z", stroke: "#ED1C24", strokeMiterlimit: "10" }),
         /* @__PURE__ */ jsx57("path", { d: "M16.3125 15.1875C16.6232 15.1875 16.875 14.9357 16.875 14.625C16.875 14.3143 16.6232 14.0625 16.3125 14.0625C16.0018 14.0625 15.75 14.3143 15.75 14.625C15.75 14.9357 16.0018 15.1875 16.3125 15.1875Z", fill: "#1A1A1A" }),
         /* @__PURE__ */ jsx57("path", { d: "M18.1875 15.1875C18.4982 15.1875 18.75 14.9357 18.75 14.625C18.75 14.3143 18.4982 14.0625 18.1875 14.0625C17.8768 14.0625 17.625 14.3143 17.625 14.625C17.625 14.9357 17.8768 15.1875 18.1875 15.1875Z", fill: "#1A1A1A" }),
         /* @__PURE__ */ jsx57("path", { d: "M20.0625 15.1875C20.3732 15.1875 20.625 14.9357 20.625 14.625C20.625 14.3143 20.3732 14.0625 20.0625 14.0625C19.7518 14.0625 19.5 14.3143 19.5 14.625C19.5 14.9357 19.7518 15.1875 20.0625 15.1875Z", fill: "#1A1A1A" })
@@ -15781,37 +15781,37 @@ var GoogleGemini = React415.forwardRef(
         ] }),
         /* @__PURE__ */ jsxs402("defs", { children: [
           /* @__PURE__ */ jsxs402("filter", { id: "filter0_f_2011_419", x: "-5.57221", y: "-3.70475", width: "37.3691", height: "31.4094", filterUnits: "userSpaceOnUse", colorInterpolationFilters: "sRGB", children: [
-            /* @__PURE__ */ jsx415("feFlood", { "flood-opacity": "0", result: "BackgroundImageFix" }),
+            /* @__PURE__ */ jsx415("feFlood", { floodOpacity: "0", result: "BackgroundImageFix" }),
             /* @__PURE__ */ jsx415("feBlend", { mode: "normal", in: "SourceGraphic", in2: "BackgroundImageFix", result: "shape" }),
             /* @__PURE__ */ jsx415("feGaussianBlur", { stdDeviation: "1.44966", result: "effect1_foregroundBlur_2011_419" })
           ] }),
           /* @__PURE__ */ jsxs402("filter", { id: "filter1_f_2011_419", x: "-7.98832", y: "0.483211", width: "21.3423", height: "21.9866", filterUnits: "userSpaceOnUse", colorInterpolationFilters: "sRGB", children: [
-            /* @__PURE__ */ jsx415("feFlood", { "flood-opacity": "0", result: "BackgroundImageFix" }),
+            /* @__PURE__ */ jsx415("feFlood", { floodOpacity: "0", result: "BackgroundImageFix" }),
             /* @__PURE__ */ jsx415("feBlend", { mode: "normal", in: "SourceGraphic", in2: "BackgroundImageFix", result: "shape" }),
             /* @__PURE__ */ jsx415("feGaussianBlur", { stdDeviation: "2.57718", result: "effect1_foregroundBlur_2011_419" })
           ] }),
           /* @__PURE__ */ jsxs402("filter", { id: "filter2_f_2011_419", x: "-9.11583", y: "0.966365", width: "21.3423", height: "21.9866", filterUnits: "userSpaceOnUse", colorInterpolationFilters: "sRGB", children: [
-            /* @__PURE__ */ jsx415("feFlood", { "flood-opacity": "0", result: "BackgroundImageFix" }),
+            /* @__PURE__ */ jsx415("feFlood", { floodOpacity: "0", result: "BackgroundImageFix" }),
             /* @__PURE__ */ jsx415("feBlend", { mode: "normal", in: "SourceGraphic", in2: "BackgroundImageFix", result: "shape" }),
             /* @__PURE__ */ jsx415("feGaussianBlur", { stdDeviation: "2.57718", result: "effect1_foregroundBlur_2011_419" })
           ] }),
           /* @__PURE__ */ jsxs402("filter", { id: "filter3_f_2011_419", x: "-3.35744", y: "-10.4698", width: "24.1208", height: "26.4966", filterUnits: "userSpaceOnUse", colorInterpolationFilters: "sRGB", children: [
-            /* @__PURE__ */ jsx415("feFlood", { "flood-opacity": "0", result: "BackgroundImageFix" }),
+            /* @__PURE__ */ jsx415("feFlood", { floodOpacity: "0", result: "BackgroundImageFix" }),
             /* @__PURE__ */ jsx415("feBlend", { mode: "normal", in: "SourceGraphic", in2: "BackgroundImageFix", result: "shape" }),
             /* @__PURE__ */ jsx415("feGaussianBlur", { stdDeviation: "2.57718", result: "effect1_foregroundBlur_2011_419" })
           ] }),
           /* @__PURE__ */ jsxs402("filter", { id: "filter4_f_2011_419", x: "-3.63932", y: "-12.3222", width: "24.1208", height: "26.4966", filterUnits: "userSpaceOnUse", colorInterpolationFilters: "sRGB", children: [
-            /* @__PURE__ */ jsx415("feFlood", { "flood-opacity": "0", result: "BackgroundImageFix" }),
+            /* @__PURE__ */ jsx415("feFlood", { floodOpacity: "0", result: "BackgroundImageFix" }),
             /* @__PURE__ */ jsx415("feBlend", { mode: "normal", in: "SourceGraphic", in2: "BackgroundImageFix", result: "shape" }),
             /* @__PURE__ */ jsx415("feGaussianBlur", { stdDeviation: "2.57718", result: "effect1_foregroundBlur_2011_419" })
           ] }),
           /* @__PURE__ */ jsxs402("filter", { id: "filter5_f_2011_419", x: "-3.31717", y: "7.32879", width: "24.1208", height: "26.4966", filterUnits: "userSpaceOnUse", colorInterpolationFilters: "sRGB", children: [
-            /* @__PURE__ */ jsx415("feFlood", { "flood-opacity": "0", result: "BackgroundImageFix" }),
+            /* @__PURE__ */ jsx415("feFlood", { floodOpacity: "0", result: "BackgroundImageFix" }),
             /* @__PURE__ */ jsx415("feBlend", { mode: "normal", in: "SourceGraphic", in2: "BackgroundImageFix", result: "shape" }),
             /* @__PURE__ */ jsx415("feGaussianBlur", { stdDeviation: "2.57718", result: "effect1_foregroundBlur_2011_419" })
           ] }),
           /* @__PURE__ */ jsxs402("filter", { id: "filter6_f_2011_419", x: "-3.1561", y: "10.6308", width: "24.1208", height: "26.4966", filterUnits: "userSpaceOnUse", colorInterpolationFilters: "sRGB", children: [
-            /* @__PURE__ */ jsx415("feFlood", { "flood-opacity": "0", result: "BackgroundImageFix" }),
+            /* @__PURE__ */ jsx415("feFlood", { floodOpacity: "0", result: "BackgroundImageFix" }),
             /* @__PURE__ */ jsx415("feBlend", { mode: "normal", in: "SourceGraphic", in2: "BackgroundImageFix", result: "shape" }),
             /* @__PURE__ */ jsx415("feGaussianBlur", { stdDeviation: "2.57718", result: "effect1_foregroundBlur_2011_419" })
           ] })
@@ -17240,7 +17240,7 @@ var Lua = React452.forwardRef(
           /* @__PURE__ */ jsx452("path", { d: "M6.54108 15.9105H9.51383V16.5871H5.77318V10.5681H6.54108V15.9105Z", fill: "white" }),
           /* @__PURE__ */ jsx452("path", { d: "M13.0644 16.5871V15.9839C12.6589 16.5541 12.256 16.7771 11.6198 16.7771C10.7785 16.7771 10.2412 16.3159 10.2412 15.5962V12.261H10.9254V15.325C10.9254 15.8445 11.2726 16.1765 11.8175 16.1765C12.5347 16.1765 12.9985 15.5987 12.9985 14.7142V12.261H13.6828V16.5871H13.0644Z", fill: "white" }),
           /* @__PURE__ */ jsx452("path", { d: "M18.7134 16.7037C18.4904 16.762 18.3839 16.7772 18.242 16.7772C17.796 16.7772 17.5806 16.5795 17.5324 16.1411C17.0458 16.5871 16.6074 16.7772 16.0625 16.7772C15.1882 16.7772 14.6433 16.283 14.6433 15.4973C14.6433 14.9347 14.8993 14.547 15.4036 14.3417C15.6672 14.2353 15.8167 14.2023 16.7899 14.0781C17.3347 14.0122 17.5071 13.8881 17.5071 13.5991V13.4167C17.5071 13.0036 17.1599 12.773 16.5415 12.773C15.8978 12.773 15.5835 13.0112 15.5252 13.5409H14.8308C14.8486 13.1126 14.9297 12.8642 15.1274 12.6412C15.4163 12.3193 15.9358 12.1368 16.5643 12.1368C17.6287 12.1368 18.1913 12.5499 18.1913 13.3178V15.8623C18.1913 16.0777 18.3231 16.2019 18.5639 16.2019C18.6044 16.2019 18.6374 16.2019 18.7134 16.1841V16.7037ZM17.5071 14.4481C17.2765 14.5546 17.1269 14.5875 16.3996 14.6864C15.6646 14.7928 15.358 15.026 15.358 15.4796C15.358 15.918 15.6722 16.174 16.2095 16.174C16.615 16.174 16.9521 16.0422 17.2334 15.7863C17.4386 15.5962 17.5071 15.4568 17.5071 15.2236V14.4481Z", fill: "white" }),
-          /* @__PURE__ */ jsx452("path", { d: "M22.5706 6.61456C23.4196 8.28214 23.8631 10.1271 23.8631 12C23.8631 18.5487 18.5487 23.8631 12 23.8631C5.45132 23.8631 0.136856 18.5487 0.136856 12C0.136856 5.45131 5.45132 0.136841 12 0.136841C14.106 0.136841 16.1715 0.696925 17.9861 1.75627", stroke: "#808080", strokeWidth: "10.8612", "stroke-miterlimit": "10", strokeDasharray: "40.85 40.85" })
+          /* @__PURE__ */ jsx452("path", { d: "M22.5706 6.61456C23.4196 8.28214 23.8631 10.1271 23.8631 12C23.8631 18.5487 18.5487 23.8631 12 23.8631C5.45132 23.8631 0.136856 18.5487 0.136856 12C0.136856 5.45131 5.45132 0.136841 12 0.136841C14.106 0.136841 16.1715 0.696925 17.9861 1.75627", stroke: "#808080", strokeWidth: "10.8612", strokeMiterlimit: "10", strokeDasharray: "40.85 40.85" })
         ] }),
         /* @__PURE__ */ jsx452("defs", { children: /* @__PURE__ */ jsx452("clipPath", { id: "clip0_2066_1143", children: /* @__PURE__ */ jsx452("rect", { width: "24", height: "24", fill: "white" }) }) })
       ]
@@ -19228,7 +19228,7 @@ var SoundCloud = React507.forwardRef(
         /* @__PURE__ */ jsx507("g", { filter: "url(#filter0_d_2066_1183)", children: /* @__PURE__ */ jsx507("g", { clipPath: "url(#clip0_2066_1183)", children: /* @__PURE__ */ jsx507("path", { d: "M28 13.7469C27.9514 14.6345 27.5704 15.4685 26.9365 16.0747C26.3026 16.6809 25.4649 17.0124 24.5984 17H16.4224C16.2424 16.9983 16.0704 16.924 15.9434 16.7931C15.8165 16.6623 15.7448 16.4854 15.744 16.3008V7.27037C15.7381 7.11541 15.778 6.96223 15.8585 6.83099C15.9391 6.69975 16.0564 6.59658 16.1952 6.53507C16.1952 6.53507 16.9472 6 18.5312 6C19.4989 5.99881 20.4488 6.26652 21.28 6.7747C21.9288 7.16626 22.4913 7.6917 22.932 8.31775C23.3726 8.94381 23.6818 9.65687 23.84 10.4118C24.1221 10.33 24.414 10.2891 24.7072 10.2904C25.1469 10.2875 25.5827 10.3756 25.9885 10.5493C26.3943 10.723 26.7618 10.9788 27.0691 11.3014C27.3764 11.624 27.6173 12.0068 27.7772 12.427C27.9371 12.8472 28.0129 13.2961 28 13.7469ZM14.7232 7.84154C14.7273 7.80348 14.7235 7.76495 14.7121 7.72848C14.7007 7.69201 14.6819 7.65842 14.657 7.62989C14.6321 7.60136 14.6016 7.57855 14.5675 7.56292C14.5335 7.5473 14.4965 7.53923 14.4592 7.53923C14.4219 7.53923 14.385 7.5473 14.3509 7.56292C14.3168 7.57855 14.2863 7.60136 14.2614 7.62989C14.2365 7.65842 14.2177 7.69201 14.2063 7.72848C14.1949 7.76495 14.1911 7.80348 14.1952 7.84154C13.9712 10.878 13.7984 13.724 14.1952 16.7505C14.2024 16.8172 14.2333 16.8788 14.282 16.9236C14.3307 16.9684 14.3938 16.9931 14.4592 16.9931C14.5246 16.9931 14.5877 16.9684 14.6364 16.9236C14.6851 16.8788 14.716 16.8172 14.7232 16.7505C15.1488 13.6977 14.9696 10.9042 14.7232 7.84154ZM13.072 8.89198C13.0647 8.82193 13.0323 8.75715 12.9812 8.71008C12.9301 8.663 12.8639 8.63696 12.7952 8.63696C12.7265 8.63696 12.6603 8.663 12.6092 8.71008C12.5581 8.75715 12.5258 8.82193 12.5184 8.89198C12.2224 11.5038 12.2224 14.142 12.5184 16.7538C12.5285 16.8213 12.5618 16.8828 12.6122 16.9273C12.6627 16.9718 12.7271 16.9962 12.7936 16.9962C12.8601 16.9962 12.9245 16.9718 12.975 16.9273C13.0255 16.8828 13.0587 16.8213 13.0688 16.7538C13.3995 14.1442 13.4005 11.5018 13.072 8.89198ZM11.4112 8.62609C11.404 8.55856 11.3727 8.49614 11.3234 8.4508C11.2741 8.40546 11.2102 8.38039 11.144 8.38039C11.0778 8.38039 11.0139 8.40546 10.9646 8.4508C10.9153 8.49614 10.884 8.55856 10.8768 8.62609C10.624 11.3966 10.496 13.9833 10.8768 16.7472C10.8768 16.8195 10.9048 16.8888 10.9546 16.9399C11.0044 16.991 11.072 17.0197 11.1424 17.0197C11.2128 17.0197 11.2804 16.991 11.3302 16.9399C11.38 16.8888 11.408 16.8195 11.408 16.7472C11.8016 13.9472 11.68 11.4327 11.4112 8.62609ZM9.76 9.41719C9.76 9.34232 9.73101 9.27052 9.6794 9.21757C9.62779 9.16463 9.55779 9.13489 9.4848 9.13489C9.41182 9.13489 9.34182 9.16463 9.29021 9.21757C9.2386 9.27052 9.2096 9.34232 9.2096 9.41719C8.90399 11.8538 8.90399 14.3205 9.2096 16.7571C9.21687 16.8255 9.24848 16.8887 9.29838 16.9346C9.34829 16.9805 9.41297 17.0059 9.48 17.0059C9.54704 17.0059 9.61172 16.9805 9.66162 16.9346C9.71153 16.8887 9.74314 16.8255 9.7504 16.7571C10.0816 14.3225 10.0848 11.8527 9.76 9.41719ZM8.0928 11.2522C8.0928 11.1782 8.06415 11.1072 8.01314 11.0549C7.96213 11.0025 7.89294 10.9731 7.8208 10.9731C7.74867 10.9731 7.67948 11.0025 7.62847 11.0549C7.57746 11.1072 7.5488 11.1782 7.5488 11.2522C7.1552 13.1429 7.3408 14.863 7.5648 16.7768C7.57447 16.8393 7.60556 16.8962 7.65249 16.9373C7.69942 16.9784 7.7591 17.001 7.8208 17.001C7.88251 17.001 7.94219 16.9784 7.98912 16.9373C8.03605 16.8962 8.06714 16.8393 8.0768 16.7768C8.3232 14.8368 8.512 13.1561 8.0928 11.2522ZM6.4384 10.9633C6.43101 10.8924 6.39832 10.8268 6.34663 10.7792C6.29494 10.7315 6.2279 10.7052 6.1584 10.7052C6.08891 10.7052 6.02187 10.7315 5.97018 10.7792C5.91849 10.8268 5.8858 10.8924 5.8784 10.9633C5.5296 12.8935 5.6448 14.5939 5.888 16.5207C5.9136 16.8129 6.3968 16.8096 6.4288 16.5207C6.6976 14.5643 6.8224 12.9132 6.4384 10.9633ZM4.768 11.9087C4.76061 11.8378 4.72792 11.7722 4.67623 11.7246C4.62454 11.6769 4.5575 11.6506 4.488 11.6506C4.41851 11.6506 4.35147 11.6769 4.29978 11.7246C4.24809 11.7722 4.2154 11.8378 4.208 11.9087C3.888 13.2053 3.9872 14.2787 4.2304 15.5786C4.23753 15.6445 4.26807 15.7053 4.31619 15.7495C4.36431 15.7937 4.42662 15.8181 4.4912 15.8181C4.55579 15.8181 4.6181 15.7937 4.66622 15.7495C4.71434 15.7053 4.74488 15.6445 4.752 15.5786C5.0336 14.2525 5.1712 13.202 4.768 11.9087Z" }) }) }),
         /* @__PURE__ */ jsxs485("defs", { children: [
           /* @__PURE__ */ jsxs485("filter", { id: "filter0_d_2066_1183", x: "0", y: "0", width: "32", height: "32", filterUnits: "userSpaceOnUse", colorInterpolationFilters: "sRGB", children: [
-            /* @__PURE__ */ jsx507("feFlood", { "flood-opacity": "0", result: "BackgroundImageFix" }),
+            /* @__PURE__ */ jsx507("feFlood", { floodOpacity: "0", result: "BackgroundImageFix" }),
             /* @__PURE__ */ jsx507("feColorMatrix", { in: "SourceAlpha", type: "matrix", values: "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0", result: "hardAlpha" }),
             /* @__PURE__ */ jsx507("feOffset", { dy: "4" }),
             /* @__PURE__ */ jsx507("feGaussianBlur", { stdDeviation: "2" }),
@@ -19273,7 +19273,7 @@ var Spotify = React508.forwardRef(
         /* @__PURE__ */ jsx508("g", { clipPath: "url(#clip0_2066_1180)", filter: "url(#filter0_d_2066_1180)", children: /* @__PURE__ */ jsx508("path", { d: "M16 0C9.37262 0 4 5.37272 4 12C4 18.6278 9.37272 24 16 24C22.6278 24 28 18.6278 28 12C28 5.37319 22.6278 0.00065625 15.9998 0.00065625L15.9999 9.375e-05L16 0ZM21.503 17.3076C21.2881 17.6601 20.8266 17.7718 20.4741 17.5554C17.6567 15.8345 14.1099 15.4447 9.93288 16.399C9.73945 16.443 9.53646 16.4085 9.36854 16.3028C9.20061 16.1972 9.08149 16.0293 9.03737 15.8359C9.01539 15.7401 9.01251 15.641 9.02889 15.5441C9.04527 15.4473 9.0806 15.3546 9.13285 15.2714C9.1851 15.1882 9.25324 15.1161 9.33338 15.0593C9.41352 15.0025 9.50408 14.9621 9.59987 14.9403C14.1711 13.8959 18.092 14.3455 21.2552 16.2787C21.6077 16.495 21.7194 16.9551 21.503 17.3076ZM22.9718 14.0401C22.7009 14.4803 22.1249 14.6193 21.685 14.3484C18.4594 12.3658 13.5425 11.7916 9.72738 12.9497C9.23256 13.0991 8.71 12.8203 8.55981 12.3263C8.41075 11.8315 8.68975 11.3099 9.18372 11.1595C13.5417 9.83709 18.9595 10.4777 22.6637 12.7539C23.1036 13.0249 23.2427 13.6008 22.9718 14.0401ZM23.0979 10.6376C19.2303 8.34037 12.8494 8.12906 9.15691 9.24994C8.56394 9.42975 7.93684 9.09497 7.75722 8.502C7.5775 7.90875 7.91191 7.28212 8.50534 7.10184C12.7441 5.81503 19.7907 6.06375 24.2433 8.70712C24.7779 9.02363 24.9527 9.7125 24.636 10.2451C24.3208 10.7785 23.63 10.9543 23.0985 10.6376H23.0979Z", fill: "#1ED760" }) }),
         /* @__PURE__ */ jsxs486("defs", { children: [
           /* @__PURE__ */ jsxs486("filter", { id: "filter0_d_2066_1180", x: "0", y: "0", width: "32", height: "32", filterUnits: "userSpaceOnUse", colorInterpolationFilters: "sRGB", children: [
-            /* @__PURE__ */ jsx508("feFlood", { "flood-opacity": "0", result: "BackgroundImageFix" }),
+            /* @__PURE__ */ jsx508("feFlood", { floodOpacity: "0", result: "BackgroundImageFix" }),
             /* @__PURE__ */ jsx508("feColorMatrix", { in: "SourceAlpha", type: "matrix", values: "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0", result: "hardAlpha" }),
             /* @__PURE__ */ jsx508("feOffset", { dy: "4" }),
             /* @__PURE__ */ jsx508("feGaussianBlur", { stdDeviation: "2" }),
@@ -19318,7 +19318,7 @@ var TIDAL = React509.forwardRef(
         /* @__PURE__ */ jsx509("g", { filter: "url(#filter0_d_2066_1182)", children: /* @__PURE__ */ jsx509("g", { clipPath: "url(#clip0_2066_1182)", children: /* @__PURE__ */ jsx509("path", { d: "M6.01396 6.003L4.01196 8.006L6.00197 9.997C7.09528 11.0909 8.00157 11.988 8.01596 11.988C8.02795 11.988 8.93424 11.0909 10.0299 9.997L12.02 8.006L14.01 9.997L16 11.988L13.998 13.991L11.996 15.994L13.998 17.997L16 20L18.002 17.997L20.004 15.994L18.0068 13.9958L16.012 12L18.0092 10.0018L20.004 8.006L22.0012 10.0018L23.996 12L25.998 9.997L28 7.994L25.998 5.991L23.996 3.98801L21.994 5.991L19.992 7.994L17.9948 5.9958L16 4L14.0028 5.9958L12.008 7.994L10.0108 5.9958L8.01596 4L6.01396 6.003Z" }) }) }),
         /* @__PURE__ */ jsxs487("defs", { children: [
           /* @__PURE__ */ jsxs487("filter", { id: "filter0_d_2066_1182", x: "0", y: "0", width: "32", height: "32", filterUnits: "userSpaceOnUse", colorInterpolationFilters: "sRGB", children: [
-            /* @__PURE__ */ jsx509("feFlood", { "flood-opacity": "0", result: "BackgroundImageFix" }),
+            /* @__PURE__ */ jsx509("feFlood", { floodOpacity: "0", result: "BackgroundImageFix" }),
             /* @__PURE__ */ jsx509("feColorMatrix", { in: "SourceAlpha", type: "matrix", values: "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0", result: "hardAlpha" }),
             /* @__PURE__ */ jsx509("feOffset", { dy: "4" }),
             /* @__PURE__ */ jsx509("feGaussianBlur", { stdDeviation: "2" }),

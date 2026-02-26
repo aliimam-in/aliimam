@@ -11,21 +11,31 @@ type LogoFilterContext = {
   setCategory: (c: string | null) => void
   variantTab: "shapes" | "sketch" | "pattern" | "texture"
   setVariantTab: (v: "shapes" | "sketch" | "pattern" | "texture") => void
+  color: string
+  setColor: (c: string) => void
   counts: {
-    filtered: number       
-    outline: number       
-    filled: number        
-    circle: number        
+    filtered: number
+    outline: number
+    filled: number
+    circle: number
   }
 }
- 
 
-const VectorFilterContext = createContext<LogoFilterContext | undefined>(undefined)
+const VectorFilterContext = createContext<LogoFilterContext | undefined>(
+  undefined
+)
 
-export function VectorFilterProvider({ children }: { children: React.ReactNode }) {
+export function VectorFilterProvider({
+  children,
+}: {
+  children: React.ReactNode
+}) {
   const [query, setQuery] = useState("")
   const [category, setCategory] = useState<string | null>(null)
-  const [variantTab, setVariantTab] = useState<"shapes" | "sketch" | "pattern" | "texture">("shapes")
+  const [color, setColor] = useState("currentColor")
+  const [variantTab, setVariantTab] = useState<
+    "shapes" | "sketch" | "pattern" | "texture"
+  >("shapes")
 
   const counts = useMemo(() => {
     const q = query.toLowerCase()
@@ -36,24 +46,28 @@ export function VectorFilterProvider({ children }: { children: React.ReactNode }
       Object.values(logos as any).forEach((entry: any) => {
         const { baseId, tags, variant } = entry.metadata
         const v = (variant ?? "").toLowerCase()
-        
+
         // 1. Calculate Tab Counts (Ignoring Search/Category filters for tabs usually)
-        if (v === "default" || v === "outline" || v === "") variantCounts.outline++
+        if (v === "default" || v === "outline" || v === "")
+          variantCounts.outline++
         else if (v === "shapes") variantCounts.filled++
         else if (v === "sketch") variantCounts.circle++
 
         // 2. Calculate Search/Filtered Count (Specific to current Tab + Search)
-        const isCurrentTab = 
-          (variantTab === "shapes" && (v === "default" || v === "shapes" || v === "")) ||
+        const isCurrentTab =
+          (variantTab === "shapes" &&
+            (v === "default" || v === "shapes" || v === "")) ||
           (variantTab === "sketch" && v === "sketch") ||
           (variantTab === "pattern" && v === "pattern") ||
           (variantTab === "texture" && v === "texture")
 
         if (isCurrentTab) {
-          const matchesQuery = !q || baseId.toLowerCase().includes(q) || 
-                               tags?.some((t: string) => t.toLowerCase().includes(q))
+          const matchesQuery =
+            !q ||
+            baseId.toLowerCase().includes(q) ||
+            tags?.some((t: string) => t.toLowerCase().includes(q))
           const matchesCategory = !category || cat === category
-          
+
           if (matchesQuery && matchesCategory) {
             filteredCount++
           }
@@ -65,7 +79,19 @@ export function VectorFilterProvider({ children }: { children: React.ReactNode }
   }, [query, category, variantTab])
 
   return (
-    <VectorFilterContext.Provider value={{ query, setQuery, category, setCategory, variantTab, setVariantTab, counts }}>
+    <VectorFilterContext.Provider
+      value={{
+        query,
+        setQuery,
+        color,
+        setColor,
+        category,
+        setCategory,
+        variantTab,
+        setVariantTab,
+        counts,
+      }}
+    >
       {children}
     </VectorFilterContext.Provider>
   )

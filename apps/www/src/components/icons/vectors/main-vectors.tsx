@@ -41,7 +41,7 @@ function matchesVariantTab(
 }
 
 export function VectorGrid({ selectedLogo, onSelectLogo }: LogoGridProps) {
-  const { query, category, variantTab } = useVectorFilter()
+  const { query, category, variantTab, color } = useVectorFilter()
   const [visibleCount, setVisibleCount] = useState(BATCH_SIZE)
   const sentinelRef = useRef<HTMLDivElement>(null)
 
@@ -177,7 +177,7 @@ export function VectorGrid({ selectedLogo, onSelectLogo }: LogoGridProps) {
                     isActive ? "border-primary transition duration-300" : ""
                   }`}
                 >
-                  <Vectors name={iconId} size={getSizeByVariant(variantTab)} />
+                  <Vectors name={iconId} color={color} size={getSizeByVariant(variantTab)} />
                 </button>
               </TooltipTrigger>
               <TooltipContent sideOffset={-10}>
