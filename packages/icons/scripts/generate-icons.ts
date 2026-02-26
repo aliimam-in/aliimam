@@ -212,12 +212,22 @@ const categories = fs
   .readdirSync(LOGOS_DIR)
   .filter((d) => fs.statSync(path.join(LOGOS_DIR, d)).isDirectory())
 
+  function toKebabCase(str: string) {
+  return str
+    .replace(/([a-z])([A-Z])/g, "$1-$2") // camelCase → camel-Case
+    .replace(/\s+/g, "-") // spaces → dash
+    .replace(/_/g, "-") // underscore → dash
+    .replace(/[^a-zA-Z0-9-]/g, "") // remove weird chars
+    .toLowerCase()
+}
+
 for (const category of categories) {
   const categoryPath = path.join(LOGOS_DIR, category)
   const files = fs.readdirSync(categoryPath).filter((f) => f.endsWith(".svg"))
 
   for (const file of files) {
-    const basename = path.basename(file, ".svg")
+    const rawBasename = path.basename(file, ".svg")
+        const basename = toKebabCase(rawBasename)
     const rawSvg = fs.readFileSync(path.join(categoryPath, file), "utf-8")
     const svgContent = convertSvgAttributes(extractInnerSVG(rawSvg))
     const existing = existingMap.get(`${category}/${basename}`)
