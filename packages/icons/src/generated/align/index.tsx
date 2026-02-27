@@ -1,16 +1,3 @@
-export { AlignBoxBottomCenterFilled, AlignBoxBottomCenterFilledMetadata, type AlignBoxBottomCenterFilledProps } from './align-box-bottom-center_filled';
-export { AlignBoxBottomLeftFilled, AlignBoxBottomLeftFilledMetadata, type AlignBoxBottomLeftFilledProps } from './align-box-bottom-left_filled';
-export { AlignBoxBottomRightFilled, AlignBoxBottomRightFilledMetadata, type AlignBoxBottomRightFilledProps } from './align-box-bottom-right_filled';
-export { AlignBoxCenterMiddleFilled, AlignBoxCenterMiddleFilledMetadata, type AlignBoxCenterMiddleFilledProps } from './align-box-center-middle_filled';
-export { AlignBoxLeftBottomFilled, AlignBoxLeftBottomFilledMetadata, type AlignBoxLeftBottomFilledProps } from './align-box-left-bottom_filled';
-export { AlignBoxLeftMiddleFilled, AlignBoxLeftMiddleFilledMetadata, type AlignBoxLeftMiddleFilledProps } from './align-box-left-middle_filled';
-export { AlignBoxLeftTopFilled, AlignBoxLeftTopFilledMetadata, type AlignBoxLeftTopFilledProps } from './align-box-left-top_filled';
-export { AlignBoxRightBottomFilled, AlignBoxRightBottomFilledMetadata, type AlignBoxRightBottomFilledProps } from './align-box-right-bottom_filled';
-export { AlignBoxRightMiddleFilled, AlignBoxRightMiddleFilledMetadata, type AlignBoxRightMiddleFilledProps } from './align-box-right-middle_filled';
-export { AlignBoxRightTopFilled, AlignBoxRightTopFilledMetadata, type AlignBoxRightTopFilledProps } from './align-box-right-top_filled';
-export { AlignBoxTopCenterFilled, AlignBoxTopCenterFilledMetadata, type AlignBoxTopCenterFilledProps } from './align-box-top-center_filled';
-export { AlignBoxTopLeftFilled, AlignBoxTopLeftFilledMetadata, type AlignBoxTopLeftFilledProps } from './align-box-top-left_filled';
-export { AlignBoxTopRightFilled, AlignBoxTopRightFilledMetadata, type AlignBoxTopRightFilledProps } from './align-box-top-right_filled';
 export { AlignCenterHorizontal, AlignCenterHorizontalMetadata, type AlignCenterHorizontalProps } from './align-center-horizontal';
 export { AlignCenterVertical, AlignCenterVerticalMetadata, type AlignCenterVerticalProps } from './align-center-vertical';
 export { AlignEndHorizontal, AlignEndHorizontalMetadata, type AlignEndHorizontalProps } from './align-end-horizontal';

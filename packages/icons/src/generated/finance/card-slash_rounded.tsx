@@ -1,0 +1,44 @@
+/** Auto-generated - Do not edit */
+'use client';
+import React from 'react';
+
+export interface CardSlashRoundedProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  strokeWidth?: number;
+}
+
+export const CardSlashRounded = React.forwardRef<SVGSVGElement, CardSlashRoundedProps>(
+  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
+    <svg 
+      ref={ref}
+      width={size}
+      height={size} 
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
+      <path d="M2 8.5H15.24" stroke="#292D32" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M6 16.5H7.29" stroke="#292D32" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M11 16.5H14.5" stroke="#292D32" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M7.97998 20.5H17.56C21.12 20.5 22 19.62 22 16.11V6.89001" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M19.99 3.75C19.37 3.57 18.57 3.5 17.56 3.5H6.44C2.89 3.5 2 4.38 2 7.89V16.1C2 18.44 2.39 19.61 3.71 20.13" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M22 2L2 22" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+    </svg>
+  )
+);
+CardSlashRounded.displayName = "CardSlashRounded";
+export const CardSlashRoundedMetadata = { 
+  id: "card-slash_rounded", 
+  baseId: "card-slash", 
+  variant: "rounded", 
+  name: "Card Slash", 
+  category: "finance", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
+export default CardSlashRounded;

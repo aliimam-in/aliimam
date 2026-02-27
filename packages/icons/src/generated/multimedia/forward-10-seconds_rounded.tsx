@@ -1,0 +1,42 @@
+/** Auto-generated - Do not edit */
+'use client';
+import React from 'react';
+
+export interface Forward10SecondsRoundedProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  strokeWidth?: number;
+}
+
+export const Forward10SecondsRounded = React.forwardRef<SVGSVGElement, Forward10SecondsRoundedProps>(
+  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
+    <svg 
+      ref={ref}
+      width={size}
+      height={size} 
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
+      <path d="M13.98 4.46997L12 2" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M19.0899 7.79999C20.1999 9.27999 20.8899 11.11 20.8899 13.11C20.8899 18.02 16.9099 22 11.9999 22C7.08988 22 3.10986 18.02 3.10986 13.11C3.10986 8.19999 7.08988 4.21997 11.9999 4.21997C12.6799 4.21997 13.3399 4.31002 13.9799 4.46002" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M9.54004 15.92V10.58L8.04004 12.25" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M14 10.58C15.1 10.58 16 11.48 16 12.58V13.93C16 15.03 15.1 15.93 14 15.93C12.9 15.93 12 15.03 12 13.93V12.58C12 11.47 12.9 10.58 14 10.58Z" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+    </svg>
+  )
+);
+Forward10SecondsRounded.displayName = "Forward10SecondsRounded";
+export const Forward10SecondsRoundedMetadata = { 
+  id: "forward-10-seconds_rounded", 
+  baseId: "forward-10-seconds", 
+  variant: "rounded", 
+  name: "Forward 10 Seconds", 
+  category: "multimedia", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
+export default Forward10SecondsRounded;

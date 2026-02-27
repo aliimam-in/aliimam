@@ -28,7 +28,7 @@ export function Hero() {
             I&apos;m Ali, Creative Design Engineer.
           </h1>
 
-          <div className="border-primary/10 relative mx-auto my-6 flex h-[336px] max-w-[250px] flex-col items-start border p-4 md:h-[28rem] md:max-w-sm">
+          <div className="border-primary/10 relative mx-auto my-6 flex h-[336px] max-w-[250px] flex-col items-start border p-4 md:h-[32rem] md:max-w-sm">
             <Plus className="text-primary absolute -top-4 -left-4" />
             <Plus className="text-primary absolute -bottom-4 -left-4" />
             <Plus className="text-primary absolute -top-4 -right-4" />
@@ -39,10 +39,10 @@ export function Hero() {
                 alt="Your Image"
                 height={700}
                 width={700}
-                className="h-[304px] object-cover md:h-[354px]"
+                className="h-[304px] object-cover md:h-[348px]"
               />
               <div className="relative -mt-17 bg-gradient-to-b from-black/0 to-black text-white md:-mt-24">
-                <h1 className="z-20 items-center text-center text-[40px] font-black tracking-tighter uppercase md:text-[60px]">
+                <h1 className="z-20 items-center text-center text-[40px] font-black tracking-tighter uppercase md:text-[54px]">
                   Ali Imam
                 </h1>{" "}
               </div>

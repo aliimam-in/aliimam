@@ -1,0 +1,40 @@
+/** Auto-generated - Do not edit */
+'use client';
+import React from 'react';
+
+export interface RedoRoundedProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  strokeWidth?: number;
+}
+
+export const RedoRounded = React.forwardRef<SVGSVGElement, RedoRoundedProps>(
+  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
+    <svg 
+      ref={ref}
+      width={size}
+      height={size} 
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
+      <path d="M16.8701 18.31H8.87012C6.11012 18.31 3.87012 16.07 3.87012 13.31C3.87012 10.55 6.11012 8.31 8.87012 8.31H19.8701" stroke="#292D32" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M17.5701 10.81L20.1301 8.25L17.5701 5.69" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+    </svg>
+  )
+);
+RedoRounded.displayName = "RedoRounded";
+export const RedoRoundedMetadata = { 
+  id: "redo_rounded", 
+  baseId: "redo", 
+  variant: "rounded", 
+  name: "Redo", 
+  category: "arrows", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
+export default RedoRounded;

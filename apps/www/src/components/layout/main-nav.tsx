@@ -73,7 +73,7 @@ export function MoreMainNav({
   const pathname = usePathname()
 
   return (
-    <NavigationMenu className={className}>
+    <NavigationMenu suppressHydrationWarning className={className}>
       <NavigationMenuList>
         {items.map((item) => {
           // 🔹 Simple link

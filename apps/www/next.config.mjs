@@ -6,11 +6,12 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-  experimental: { turbopack: false },
-  reactStrictMode: true, 
-   experimental: {
+  experimental: {
+    turbopack: false,
     turbopackFileSystemCacheForDev: true,
-  }, 
+  },
+  reactStrictMode: true,
+
   outputFileTracingIncludes: {
     "/*": ["./registry/**/*", "./src/content/**/*"],
   },
@@ -57,7 +58,7 @@ const nextConfig = {
         source: "/docs/primitives/:path*",
         destination: "/docs/components/:path*",
         permanent: true,
-      }, 
+      },
       {
         source: "/view/styles/:style/:name",
         destination: "/view/:name",
@@ -67,7 +68,7 @@ const nextConfig = {
         source: "/docs/:path*.mdx",
         destination: "/docs/:path*.md",
         permanent: true,
-      }, 
+      },
     ]
   },
   rewrites() {

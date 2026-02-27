@@ -8,16 +8,6 @@ export { HappyEmojiDoodle, HappyEmojiDoodleMetadata, type HappyEmojiDoodleProps 
 export { HeartEyesEmojiDoodle, HeartEyesEmojiDoodleMetadata, type HeartEyesEmojiDoodleProps } from './heart-eyes-emoji_doodle';
 export { LaughEmojiDoodle, LaughEmojiDoodleMetadata, type LaughEmojiDoodleProps } from './laugh-emoji_doodle';
 export { Laugh, LaughMetadata, type LaughProps } from './laugh';
-export { MoodAngryFilled, MoodAngryFilledMetadata, type MoodAngryFilledProps } from './mood-angry_filled';
-export { MoodConfuzedFilled, MoodConfuzedFilledMetadata, type MoodConfuzedFilledProps } from './mood-confuzed_filled';
-export { MoodCrazyHappyFilled, MoodCrazyHappyFilledMetadata, type MoodCrazyHappyFilledProps } from './mood-crazy-happy_filled';
-export { MoodEmptyFilled, MoodEmptyFilledMetadata, type MoodEmptyFilledProps } from './mood-empty_filled';
-export { MoodHappyFilled, MoodHappyFilledMetadata, type MoodHappyFilledProps } from './mood-happy_filled';
-export { MoodKidFilled, MoodKidFilledMetadata, type MoodKidFilledProps } from './mood-kid_filled';
-export { MoodNeutralFilled, MoodNeutralFilledMetadata, type MoodNeutralFilledProps } from './mood-neutral_filled';
-export { MoodSadFilled, MoodSadFilledMetadata, type MoodSadFilledProps } from './mood-sad_filled';
-export { MoodSmileFilled, MoodSmileFilledMetadata, type MoodSmileFilledProps } from './mood-smile_filled';
-export { MoodWrrrFilled, MoodWrrrFilledMetadata, type MoodWrrrFilledProps } from './mood-wrrr_filled';
 export { SadEmojiDoodle, SadEmojiDoodleMetadata, type SadEmojiDoodleProps } from './sad-emoji_doodle';
 export { ShockedEmojiDoodle, ShockedEmojiDoodleMetadata, type ShockedEmojiDoodleProps } from './shocked-emoji_doodle';
 export { SmilePlus, SmilePlusMetadata, type SmilePlusProps } from './smile-plus';

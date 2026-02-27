@@ -158,7 +158,7 @@ function convertSvgAttributes(svg: string) {
     .replace(/\s*serif:[a-zA-Z-]+=["'][^"']*["']/g, "")
 }
 
-const KNOWN_VARIANTS = new Set(["filled", "doodle", "outline"])
+const KNOWN_VARIANTS = new Set(["filled", "rounded" ,"doodle", "outline"])
 
 function parseLogoId(basename: string): { baseId: string; variant: string } {
   const underscoreIndex = basename.lastIndexOf("_")

@@ -1,0 +1,43 @@
+/** Auto-generated - Do not edit */
+'use client';
+import React from 'react';
+
+export interface ArrowSquareRoundedProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  strokeWidth?: number;
+}
+
+export const ArrowSquareRounded = React.forwardRef<SVGSVGElement, ArrowSquareRoundedProps>(
+  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
+    <svg 
+      ref={ref}
+      width={size}
+      height={size} 
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
+      <path d="M12.1401 15.07V13.11C12.1401 10.59 14.1801 8.53998 16.7101 8.53998H18.6701" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M5.62012 8.54999H7.58014C10.1001 8.54999 12.1501 10.59 12.1501 13.12V13.77V17.25" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M7.14008 6.75L5.34009 8.55L7.14008 10.35" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M16.8601 6.75L18.6601 8.55L16.8601 10.35" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+    </svg>
+  )
+);
+ArrowSquareRounded.displayName = "ArrowSquareRounded";
+export const ArrowSquareRoundedMetadata = { 
+  id: "arrow-square_rounded", 
+  baseId: "arrow-square", 
+  variant: "rounded", 
+  name: "Arrow Square", 
+  category: "navigation", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
+export default ArrowSquareRounded;

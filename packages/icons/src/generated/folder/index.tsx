@@ -1,11 +1,16 @@
+export { Folder2Rounded, Folder2RoundedMetadata, type Folder2RoundedProps } from './folder-2_rounded';
+export { FolderAddRounded, FolderAddRoundedMetadata, type FolderAddRoundedProps } from './folder-add_rounded';
 export { FolderArchive, FolderArchiveMetadata, type FolderArchiveProps } from './folder-archive';
 export { FolderCheck, FolderCheckMetadata, type FolderCheckProps } from './folder-check';
 export { FolderClock, FolderClockMetadata, type FolderClockProps } from './folder-clock';
 export { FolderClosed, FolderClosedMetadata, type FolderClosedProps } from './folder-closed';
+export { FolderCloudRounded, FolderCloudRoundedMetadata, type FolderCloudRoundedProps } from './folder-cloud_rounded';
 export { FolderCode, FolderCodeMetadata, type FolderCodeProps } from './folder-code';
 export { FolderCog, FolderCogMetadata, type FolderCogProps } from './folder-cog';
+export { FolderCrossRounded, FolderCrossRoundedMetadata, type FolderCrossRoundedProps } from './folder-cross_rounded';
 export { FolderDot, FolderDotMetadata, type FolderDotProps } from './folder-dot';
 export { FolderDown, FolderDownMetadata, type FolderDownProps } from './folder-down';
+export { FolderFavoriteRounded, FolderFavoriteRoundedMetadata, type FolderFavoriteRoundedProps } from './folder-favorite_rounded';
 export { FolderGit2, FolderGit2Metadata, type FolderGit2Props } from './folder-git-2';
 export { FolderGit, FolderGitMetadata, type FolderGitProps } from './folder-git';
 export { FolderHeart, FolderHeartMetadata, type FolderHeartProps } from './folder-heart';
@@ -14,8 +19,10 @@ export { FolderKanban, FolderKanbanMetadata, type FolderKanbanProps } from './fo
 export { FolderKey, FolderKeyMetadata, type FolderKeyProps } from './folder-key';
 export { FolderLock, FolderLockMetadata, type FolderLockProps } from './folder-lock';
 export { FolderMinus, FolderMinusMetadata, type FolderMinusProps } from './folder-minus';
+export { FolderMinusRounded, FolderMinusRoundedMetadata, type FolderMinusRoundedProps } from './folder-minus_rounded';
 export { FolderOpenDot, FolderOpenDotMetadata, type FolderOpenDotProps } from './folder-open-dot';
 export { FolderOpen, FolderOpenMetadata, type FolderOpenProps } from './folder-open';
+export { FolderOpenRounded, FolderOpenRoundedMetadata, type FolderOpenRoundedProps } from './folder-open_rounded';
 export { FolderOutput, FolderOutputMetadata, type FolderOutputProps } from './folder-output';
 export { FolderPen, FolderPenMetadata, type FolderPenProps } from './folder-pen';
 export { FolderPlus, FolderPlusMetadata, type FolderPlusProps } from './folder-plus';
@@ -28,4 +35,5 @@ export { FolderTree, FolderTreeMetadata, type FolderTreeProps } from './folder-t
 export { FolderUp, FolderUpMetadata, type FolderUpProps } from './folder-up';
 export { FolderX, FolderXMetadata, type FolderXProps } from './folder-x';
 export { Folder, FolderMetadata, type FolderProps } from './folder';
+export { FolderRounded, FolderRoundedMetadata, type FolderRoundedProps } from './folder_rounded';
 export { Folders, FoldersMetadata, type FoldersProps } from './folders';

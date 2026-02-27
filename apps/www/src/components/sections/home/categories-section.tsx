@@ -33,7 +33,7 @@ export async function BlocksPageCategory() {
               }
 
               return (
-                <Link key={category.slug} href={href} className="block">
+                <Link key={`${category.type}-${category.slug}`} href={href} className="block">
                   <div className="hover:bg-muted flex w-full items-center justify-between border px-4 py-2 transition-colors">
                     <div>
                       <p className="font-medium">{category.name}</p>

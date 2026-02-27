@@ -15,19 +15,6 @@ export interface LogoEntry {
 }
 
 // Individual Named Exports for direct access and tree-shaking
-export { AlignBoxBottomCenterFilled, AlignBoxBottomCenterFilledMetadata, type AlignBoxBottomCenterFilledProps } from './align/align-box-bottom-center_filled';
-export { AlignBoxBottomLeftFilled, AlignBoxBottomLeftFilledMetadata, type AlignBoxBottomLeftFilledProps } from './align/align-box-bottom-left_filled';
-export { AlignBoxBottomRightFilled, AlignBoxBottomRightFilledMetadata, type AlignBoxBottomRightFilledProps } from './align/align-box-bottom-right_filled';
-export { AlignBoxCenterMiddleFilled, AlignBoxCenterMiddleFilledMetadata, type AlignBoxCenterMiddleFilledProps } from './align/align-box-center-middle_filled';
-export { AlignBoxLeftBottomFilled, AlignBoxLeftBottomFilledMetadata, type AlignBoxLeftBottomFilledProps } from './align/align-box-left-bottom_filled';
-export { AlignBoxLeftMiddleFilled, AlignBoxLeftMiddleFilledMetadata, type AlignBoxLeftMiddleFilledProps } from './align/align-box-left-middle_filled';
-export { AlignBoxLeftTopFilled, AlignBoxLeftTopFilledMetadata, type AlignBoxLeftTopFilledProps } from './align/align-box-left-top_filled';
-export { AlignBoxRightBottomFilled, AlignBoxRightBottomFilledMetadata, type AlignBoxRightBottomFilledProps } from './align/align-box-right-bottom_filled';
-export { AlignBoxRightMiddleFilled, AlignBoxRightMiddleFilledMetadata, type AlignBoxRightMiddleFilledProps } from './align/align-box-right-middle_filled';
-export { AlignBoxRightTopFilled, AlignBoxRightTopFilledMetadata, type AlignBoxRightTopFilledProps } from './align/align-box-right-top_filled';
-export { AlignBoxTopCenterFilled, AlignBoxTopCenterFilledMetadata, type AlignBoxTopCenterFilledProps } from './align/align-box-top-center_filled';
-export { AlignBoxTopLeftFilled, AlignBoxTopLeftFilledMetadata, type AlignBoxTopLeftFilledProps } from './align/align-box-top-left_filled';
-export { AlignBoxTopRightFilled, AlignBoxTopRightFilledMetadata, type AlignBoxTopRightFilledProps } from './align/align-box-top-right_filled';
 export { AlignCenterHorizontal, AlignCenterHorizontalMetadata, type AlignCenterHorizontalProps } from './align/align-center-horizontal';
 export { AlignCenterVertical, AlignCenterVerticalMetadata, type AlignCenterVerticalProps } from './align/align-center-vertical';
 export { AlignEndHorizontal, AlignEndHorizontalMetadata, type AlignEndHorizontalProps } from './align/align-end-horizontal';
@@ -69,88 +56,102 @@ export { Turtle, TurtleMetadata, type TurtleProps } from './animal/turtle';
 export { Worm, WormMetadata, type WormProps } from './animal/worm';
 export { AppWindowMac, AppWindowMacMetadata, type AppWindowMacProps } from './app/app-window-mac';
 export { AppWindow, AppWindowMetadata, type AppWindowProps } from './app/app-window';
-export { Battery1Filled, Battery1FilledMetadata, type Battery1FilledProps } from './app/battery-1_filled';
-export { Battery2Filled, Battery2FilledMetadata, type Battery2FilledProps } from './app/battery-2_filled';
-export { Battery3Filled, Battery3FilledMetadata, type Battery3FilledProps } from './app/battery-3_filled';
-export { Battery4Filled, Battery4FilledMetadata, type Battery4FilledProps } from './app/battery-4_filled';
-export { BatteryAutomotiveFilled, BatteryAutomotiveFilledMetadata, type BatteryAutomotiveFilledProps } from './app/battery-automotive_filled';
+export { ArchiveAddRounded, ArchiveAddRoundedMetadata, type ArchiveAddRoundedProps } from './app/archive-add_rounded';
+export { ArchiveMinusRounded, ArchiveMinusRoundedMetadata, type ArchiveMinusRoundedProps } from './app/archive-minus_rounded';
+export { ArchiveSlashRounded, ArchiveSlashRoundedMetadata, type ArchiveSlashRoundedProps } from './app/archive-slash_rounded';
+export { ArchiveTickRounded, ArchiveTickRoundedMetadata, type ArchiveTickRoundedProps } from './app/archive-tick_rounded';
 export { BatteryCharging, BatteryChargingMetadata, type BatteryChargingProps } from './app/battery-charging';
 export { BatteryFull, BatteryFullMetadata, type BatteryFullProps } from './app/battery-full';
 export { BatteryLow, BatteryLowMetadata, type BatteryLowProps } from './app/battery-low';
 export { BatteryMedium, BatteryMediumMetadata, type BatteryMediumProps } from './app/battery-medium';
 export { BatteryPlus, BatteryPlusMetadata, type BatteryPlusProps } from './app/battery-plus';
-export { BatteryVertical1Filled, BatteryVertical1FilledMetadata, type BatteryVertical1FilledProps } from './app/battery-vertical-1_filled';
-export { BatteryVertical2Filled, BatteryVertical2FilledMetadata, type BatteryVertical2FilledProps } from './app/battery-vertical-2_filled';
-export { BatteryVertical3Filled, BatteryVertical3FilledMetadata, type BatteryVertical3FilledProps } from './app/battery-vertical-3_filled';
-export { BatteryVertical4Filled, BatteryVertical4FilledMetadata, type BatteryVertical4FilledProps } from './app/battery-vertical-4_filled';
-export { BatteryVerticalFilled, BatteryVerticalFilledMetadata, type BatteryVerticalFilledProps } from './app/battery-vertical_filled';
 export { BatteryWarning, BatteryWarningMetadata, type BatteryWarningProps } from './app/battery-warning';
 export { Battery, BatteryMetadata, type BatteryProps } from './app/battery';
-export { BatteryFilled, BatteryFilledMetadata, type BatteryFilledProps } from './app/battery_filled';
 export { BluetoothConnected, BluetoothConnectedMetadata, type BluetoothConnectedProps } from './app/bluetooth-connected';
 export { BluetoothOff, BluetoothOffMetadata, type BluetoothOffProps } from './app/bluetooth-off';
 export { BluetoothSearching, BluetoothSearchingMetadata, type BluetoothSearchingProps } from './app/bluetooth-searching';
 export { Bluetooth, BluetoothMetadata, type BluetoothProps } from './app/bluetooth';
+export { BookSavedRounded, BookSavedRoundedMetadata, type BookSavedRoundedProps } from './app/book-saved_rounded';
+export { BookSquareRounded, BookSquareRoundedMetadata, type BookSquareRoundedProps } from './app/book-square_rounded';
 export { BotMessageSquare, BotMessageSquareMetadata, type BotMessageSquareProps } from './app/bot-message-square';
 export { BotOff, BotOffMetadata, type BotOffProps } from './app/bot-off';
 export { Bot, BotMetadata, type BotProps } from './app/bot';
 export { BugOff, BugOffMetadata, type BugOffProps } from './app/bug-off';
 export { BugPlay, BugPlayMetadata, type BugPlayProps } from './app/bug-play';
 export { Bug, BugMetadata, type BugProps } from './app/bug';
+export { Candle2Rounded, Candle2RoundedMetadata, type Candle2RoundedProps } from './app/candle-2_rounded';
+export { CandleRounded, CandleRoundedMetadata, type CandleRoundedProps } from './app/candle_rounded';
+export { Category2Rounded, Category2RoundedMetadata, type Category2RoundedProps } from './app/category-2_rounded';
+export { CategoryRounded, CategoryRoundedMetadata, type CategoryRoundedProps } from './app/category_rounded';
 export { Cog, CogMetadata, type CogProps } from './app/cog';
 export { DatabaseBackup, DatabaseBackupMetadata, type DatabaseBackupProps } from './app/database-backup';
 export { DatabaseSearch, DatabaseSearchMetadata, type DatabaseSearchProps } from './app/database-search';
 export { DatabaseZap, DatabaseZapMetadata, type DatabaseZapProps } from './app/database-zap';
 export { Database, DatabaseMetadata, type DatabaseProps } from './app/database';
+export { FrameRounded, FrameRoundedMetadata, type FrameRoundedProps } from './app/frame_rounded';
+export { MenuRounded, MenuRoundedMetadata, type MenuRoundedProps } from './app/menu_rounded';
+export { More2Rounded, More2RoundedMetadata, type More2RoundedProps } from './app/more-2_rounded';
+export { MoreRounded, MoreRoundedMetadata, type MoreRoundedProps } from './app/more_rounded';
+export { ReceiptSquareRounded, ReceiptSquareRoundedMetadata, type ReceiptSquareRoundedProps } from './app/receipt-square_rounded';
+export { Save2Rounded, Save2RoundedMetadata, type Save2RoundedProps } from './app/save-2_rounded';
+export { SaveAddRounded, SaveAddRoundedMetadata, type SaveAddRoundedProps } from './app/save-add_rounded';
+export { SaveMinusRounded, SaveMinusRoundedMetadata, type SaveMinusRoundedProps } from './app/save-minus_rounded';
+export { SaveRemoveRounded, SaveRemoveRoundedMetadata, type SaveRemoveRoundedProps } from './app/save-remove_rounded';
+export { SearchFavorite1Rounded, SearchFavorite1RoundedMetadata, type SearchFavorite1RoundedProps } from './app/search-favorite-1_rounded';
+export { SearchFavoriteRounded, SearchFavoriteRoundedMetadata, type SearchFavoriteRoundedProps } from './app/search-favorite_rounded';
+export { SearchNormal1Rounded, SearchNormal1RoundedMetadata, type SearchNormal1RoundedProps } from './app/search-normal-1_rounded';
+export { SearchNormalRounded, SearchNormalRoundedMetadata, type SearchNormalRoundedProps } from './app/search-normal_rounded';
+export { SearchStatus1Rounded, SearchStatus1RoundedMetadata, type SearchStatus1RoundedProps } from './app/search-status-1_rounded';
+export { SearchStatusRounded, SearchStatusRoundedMetadata, type SearchStatusRoundedProps } from './app/search-status_rounded';
+export { SearchZoomIn1Rounded, SearchZoomIn1RoundedMetadata, type SearchZoomIn1RoundedProps } from './app/search-zoom-in-1_rounded';
+export { SearchZoomInRounded, SearchZoomInRoundedMetadata, type SearchZoomInRoundedProps } from './app/search-zoom-in_rounded';
+export { SearchZoomOut1Rounded, SearchZoomOut1RoundedMetadata, type SearchZoomOut1RoundedProps } from './app/search-zoom-out-1_rounded';
+export { SearchZoomOutRounded, SearchZoomOutRoundedMetadata, type SearchZoomOutRoundedProps } from './app/search-zoom-out_rounded';
+export { Setting2Rounded, Setting2RoundedMetadata, type Setting2RoundedProps } from './app/setting-2_rounded';
+export { Setting3Rounded, Setting3RoundedMetadata, type Setting3RoundedProps } from './app/setting-3_rounded';
+export { Setting4Rounded, Setting4RoundedMetadata, type Setting4RoundedProps } from './app/setting-4_rounded';
+export { Setting5Rounded, Setting5RoundedMetadata, type Setting5RoundedProps } from './app/setting-5_rounded';
+export { SettingRounded, SettingRoundedMetadata, type SettingRoundedProps } from './app/setting_rounded';
+export { SettingsRounded, SettingsRoundedMetadata, type SettingsRoundedProps } from './app/settings_rounded';
+export { ToggleOffCircleRounded, ToggleOffCircleRoundedMetadata, type ToggleOffCircleRoundedProps } from './app/toggle-off-circle_rounded';
+export { ToggleOffRounded, ToggleOffRoundedMetadata, type ToggleOffRoundedProps } from './app/toggle-off_rounded';
+export { ToggleOnCircleRounded, ToggleOnCircleRoundedMetadata, type ToggleOnCircleRoundedProps } from './app/toggle-on-circle_rounded';
+export { ToggleOnRounded, ToggleOnRoundedMetadata, type ToggleOnRoundedProps } from './app/toggle-on_rounded';
 export { WalletCards, WalletCardsMetadata, type WalletCardsProps } from './app/wallet-cards';
 export { WalletMinimal, WalletMinimalMetadata, type WalletMinimalProps } from './app/wallet-minimal';
 export { Wallet, WalletMetadata, type WalletProps } from './app/wallet';
 export { Ad, AdMetadata, type AdProps } from './arrows/ad';
-export { ArrowAutofitContentFilled, ArrowAutofitContentFilledMetadata, type ArrowAutofitContentFilledProps } from './arrows/arrow-autofit-content_filled';
-export { ArrowAutofitDownFilled, ArrowAutofitDownFilledMetadata, type ArrowAutofitDownFilledProps } from './arrows/arrow-autofit-down_filled';
-export { ArrowAutofitHeightFilled, ArrowAutofitHeightFilledMetadata, type ArrowAutofitHeightFilledProps } from './arrows/arrow-autofit-height_filled';
-export { ArrowAutofitLeftFilled, ArrowAutofitLeftFilledMetadata, type ArrowAutofitLeftFilledProps } from './arrows/arrow-autofit-left_filled';
-export { ArrowAutofitRightFilled, ArrowAutofitRightFilledMetadata, type ArrowAutofitRightFilledProps } from './arrows/arrow-autofit-right_filled';
-export { ArrowAutofitUpFilled, ArrowAutofitUpFilledMetadata, type ArrowAutofitUpFilledProps } from './arrows/arrow-autofit-up_filled';
-export { ArrowAutofitWidthFilled, ArrowAutofitWidthFilledMetadata, type ArrowAutofitWidthFilledProps } from './arrows/arrow-autofit-width_filled';
-export { ArrowBadgeDownFilled, ArrowBadgeDownFilledMetadata, type ArrowBadgeDownFilledProps } from './arrows/arrow-badge-down_filled';
-export { ArrowBadgeLeftFilled, ArrowBadgeLeftFilledMetadata, type ArrowBadgeLeftFilledProps } from './arrows/arrow-badge-left_filled';
-export { ArrowBadgeRightFilled, ArrowBadgeRightFilledMetadata, type ArrowBadgeRightFilledProps } from './arrows/arrow-badge-right_filled';
-export { ArrowBadgeUpFilled, ArrowBadgeUpFilledMetadata, type ArrowBadgeUpFilledProps } from './arrows/arrow-badge-up_filled';
+export { ArrangeCircle2Rounded, ArrangeCircle2RoundedMetadata, type ArrangeCircle2RoundedProps } from './arrows/arrange-circle-2_rounded';
+export { ArrangeCircleRounded, ArrangeCircleRoundedMetadata, type ArrangeCircleRoundedProps } from './arrows/arrange-circle_rounded';
+export { ArrangeSquare2Rounded, ArrangeSquare2RoundedMetadata, type ArrangeSquare2RoundedProps } from './arrows/arrange-square-2_rounded';
+export { ArrangeSquareRounded, ArrangeSquareRoundedMetadata, type ArrangeSquareRoundedProps } from './arrows/arrange-square_rounded';
+export { Arrow2Rounded, Arrow2RoundedMetadata, type Arrow2RoundedProps } from './arrows/arrow-2_rounded';
+export { Arrow3Rounded, Arrow3RoundedMetadata, type Arrow3RoundedProps } from './arrows/arrow-3_rounded';
 export { ArrowBigDownDash, ArrowBigDownDashMetadata, type ArrowBigDownDashProps } from './arrows/arrow-big-down-dash';
-export { ArrowBigDownLineFilled, ArrowBigDownLineFilledMetadata, type ArrowBigDownLineFilledProps } from './arrows/arrow-big-down-line_filled';
-export { ArrowBigDownLinesFilled, ArrowBigDownLinesFilledMetadata, type ArrowBigDownLinesFilledProps } from './arrows/arrow-big-down-lines_filled';
 export { ArrowBigDown, ArrowBigDownMetadata, type ArrowBigDownProps } from './arrows/arrow-big-down';
-export { ArrowBigDownFilled, ArrowBigDownFilledMetadata, type ArrowBigDownFilledProps } from './arrows/arrow-big-down_filled';
 export { ArrowBigLeftDash, ArrowBigLeftDashMetadata, type ArrowBigLeftDashProps } from './arrows/arrow-big-left-dash';
-export { ArrowBigLeftLineFilled, ArrowBigLeftLineFilledMetadata, type ArrowBigLeftLineFilledProps } from './arrows/arrow-big-left-line_filled';
-export { ArrowBigLeftLinesFilled, ArrowBigLeftLinesFilledMetadata, type ArrowBigLeftLinesFilledProps } from './arrows/arrow-big-left-lines_filled';
 export { ArrowBigLeft, ArrowBigLeftMetadata, type ArrowBigLeftProps } from './arrows/arrow-big-left';
-export { ArrowBigLeftFilled, ArrowBigLeftFilledMetadata, type ArrowBigLeftFilledProps } from './arrows/arrow-big-left_filled';
 export { ArrowBigRightDash, ArrowBigRightDashMetadata, type ArrowBigRightDashProps } from './arrows/arrow-big-right-dash';
-export { ArrowBigRightLineFilled, ArrowBigRightLineFilledMetadata, type ArrowBigRightLineFilledProps } from './arrows/arrow-big-right-line_filled';
-export { ArrowBigRightLinesFilled, ArrowBigRightLinesFilledMetadata, type ArrowBigRightLinesFilledProps } from './arrows/arrow-big-right-lines_filled';
 export { ArrowBigRight, ArrowBigRightMetadata, type ArrowBigRightProps } from './arrows/arrow-big-right';
-export { ArrowBigRightFilled, ArrowBigRightFilledMetadata, type ArrowBigRightFilledProps } from './arrows/arrow-big-right_filled';
 export { ArrowBigUpDash, ArrowBigUpDashMetadata, type ArrowBigUpDashProps } from './arrows/arrow-big-up-dash';
-export { ArrowBigUpLineFilled, ArrowBigUpLineFilledMetadata, type ArrowBigUpLineFilledProps } from './arrows/arrow-big-up-line_filled';
-export { ArrowBigUpLinesFilled, ArrowBigUpLinesFilledMetadata, type ArrowBigUpLinesFilledProps } from './arrows/arrow-big-up-lines_filled';
 export { ArrowBigUp, ArrowBigUpMetadata, type ArrowBigUpProps } from './arrows/arrow-big-up';
-export { ArrowBigUpFilled, ArrowBigUpFilledMetadata, type ArrowBigUpFilledProps } from './arrows/arrow-big-up_filled';
+export { ArrowBottomRounded, ArrowBottomRoundedMetadata, type ArrowBottomRoundedProps } from './arrows/arrow-bottom_rounded';
 export { ArrowCircleDownDoodle, ArrowCircleDownDoodleMetadata, type ArrowCircleDownDoodleProps } from './arrows/arrow-circle-down_doodle';
+export { ArrowCircleDownRounded, ArrowCircleDownRoundedMetadata, type ArrowCircleDownRoundedProps } from './arrows/arrow-circle-down_rounded';
 export { ArrowCircleLeftDoodle, ArrowCircleLeftDoodleMetadata, type ArrowCircleLeftDoodleProps } from './arrows/arrow-circle-left_doodle';
+export { ArrowCircleLeftRounded, ArrowCircleLeftRoundedMetadata, type ArrowCircleLeftRoundedProps } from './arrows/arrow-circle-left_rounded';
 export { ArrowCircleRightDoodle, ArrowCircleRightDoodleMetadata, type ArrowCircleRightDoodleProps } from './arrows/arrow-circle-right_doodle';
+export { ArrowCircleRightRounded, ArrowCircleRightRoundedMetadata, type ArrowCircleRightRoundedProps } from './arrows/arrow-circle-right_rounded';
 export { ArrowCircleUpDoodle, ArrowCircleUpDoodleMetadata, type ArrowCircleUpDoodleProps } from './arrows/arrow-circle-up_doodle';
 export { ArrowDown01, ArrowDown01Metadata, type ArrowDown01Props } from './arrows/arrow-down-0-1';
 export { ArrowDown10, ArrowDown10Metadata, type ArrowDown10Props } from './arrows/arrow-down-1-0';
+export { ArrowDown1Rounded, ArrowDown1RoundedMetadata, type ArrowDown1RoundedProps } from './arrows/arrow-down-1_rounded';
+export { ArrowDown2Rounded, ArrowDown2RoundedMetadata, type ArrowDown2RoundedProps } from './arrows/arrow-down-2_rounded';
 export { ArrowDownAZ, ArrowDownAZMetadata, type ArrowDownAZProps } from './arrows/arrow-down-a-z';
-export { ArrowDownCircleFilled, ArrowDownCircleFilledMetadata, type ArrowDownCircleFilledProps } from './arrows/arrow-down-circle_filled';
 export { ArrowDownFromLine, ArrowDownFromLineMetadata, type ArrowDownFromLineProps } from './arrows/arrow-down-from-line';
 export { ArrowDownLeft, ArrowDownLeftMetadata, type ArrowDownLeftProps } from './arrows/arrow-down-left';
 export { ArrowDownNarrowWide, ArrowDownNarrowWideMetadata, type ArrowDownNarrowWideProps } from './arrows/arrow-down-narrow-wide';
-export { ArrowDownRhombusFilled, ArrowDownRhombusFilledMetadata, type ArrowDownRhombusFilledProps } from './arrows/arrow-down-rhombus_filled';
 export { ArrowDownRight, ArrowDownRightMetadata, type ArrowDownRightProps } from './arrows/arrow-down-right';
-export { ArrowDownSquareFilled, ArrowDownSquareFilledMetadata, type ArrowDownSquareFilledProps } from './arrows/arrow-down-square_filled';
 export { ArrowDownToDot, ArrowDownToDotMetadata, type ArrowDownToDotProps } from './arrows/arrow-down-to-dot';
 export { ArrowDownToLine, ArrowDownToLineMetadata, type ArrowDownToLineProps } from './arrows/arrow-down-to-line';
 export { ArrowDownUp, ArrowDownUpMetadata, type ArrowDownUpProps } from './arrows/arrow-down-up';
@@ -158,57 +159,62 @@ export { ArrowDownWideNarrow, ArrowDownWideNarrowMetadata, type ArrowDownWideNar
 export { ArrowDownZA, ArrowDownZAMetadata, type ArrowDownZAProps } from './arrows/arrow-down-z-a';
 export { ArrowDown, ArrowDownMetadata, type ArrowDownProps } from './arrows/arrow-down';
 export { ArrowDownDoodle, ArrowDownDoodleMetadata, type ArrowDownDoodleProps } from './arrows/arrow-down_doodle';
-export { ArrowGuideFilled, ArrowGuideFilledMetadata, type ArrowGuideFilledProps } from './arrows/arrow-guide_filled';
-export { ArrowLeftCircleFilled, ArrowLeftCircleFilledMetadata, type ArrowLeftCircleFilledProps } from './arrows/arrow-left-circle_filled';
+export { ArrowDownRounded, ArrowDownRoundedMetadata, type ArrowDownRoundedProps } from './arrows/arrow-down_rounded';
+export { ArrowLeft1Rounded, ArrowLeft1RoundedMetadata, type ArrowLeft1RoundedProps } from './arrows/arrow-left-1_rounded';
+export { ArrowLeft2Rounded, ArrowLeft2RoundedMetadata, type ArrowLeft2RoundedProps } from './arrows/arrow-left-2_rounded';
+export { ArrowLeft3Rounded, ArrowLeft3RoundedMetadata, type ArrowLeft3RoundedProps } from './arrows/arrow-left-3_rounded';
 export { ArrowLeftFromLine, ArrowLeftFromLineMetadata, type ArrowLeftFromLineProps } from './arrows/arrow-left-from-line';
-export { ArrowLeftRhombusFilled, ArrowLeftRhombusFilledMetadata, type ArrowLeftRhombusFilledProps } from './arrows/arrow-left-rhombus_filled';
 export { ArrowLeftRight, ArrowLeftRightMetadata, type ArrowLeftRightProps } from './arrows/arrow-left-right';
-export { ArrowLeftSquareFilled, ArrowLeftSquareFilledMetadata, type ArrowLeftSquareFilledProps } from './arrows/arrow-left-square_filled';
 export { ArrowLeftToLine, ArrowLeftToLineMetadata, type ArrowLeftToLineProps } from './arrows/arrow-left-to-line';
 export { ArrowLeft, ArrowLeftMetadata, type ArrowLeftProps } from './arrows/arrow-left';
 export { ArrowLeftDoodle, ArrowLeftDoodleMetadata, type ArrowLeftDoodleProps } from './arrows/arrow-left_doodle';
-export { ArrowMoveDownFilled, ArrowMoveDownFilledMetadata, type ArrowMoveDownFilledProps } from './arrows/arrow-move-down_filled';
-export { ArrowMoveLeftFilled, ArrowMoveLeftFilledMetadata, type ArrowMoveLeftFilledProps } from './arrows/arrow-move-left_filled';
-export { ArrowMoveRightFilled, ArrowMoveRightFilledMetadata, type ArrowMoveRightFilledProps } from './arrows/arrow-move-right_filled';
-export { ArrowMoveUpFilled, ArrowMoveUpFilledMetadata, type ArrowMoveUpFilledProps } from './arrows/arrow-move-up_filled';
+export { ArrowLeftRounded, ArrowLeftRoundedMetadata, type ArrowLeftRoundedProps } from './arrows/arrow-left_rounded';
 export { ArrowNeDoodle, ArrowNeDoodleMetadata, type ArrowNeDoodleProps } from './arrows/arrow-ne_doodle';
 export { ArrowNwDoodle, ArrowNwDoodleMetadata, type ArrowNwDoodleProps } from './arrows/arrow-nw_doodle';
-export { ArrowRightCircleFilled, ArrowRightCircleFilledMetadata, type ArrowRightCircleFilledProps } from './arrows/arrow-right-circle_filled';
+export { ArrowRight1Rounded, ArrowRight1RoundedMetadata, type ArrowRight1RoundedProps } from './arrows/arrow-right-1_rounded';
+export { ArrowRight2Rounded, ArrowRight2RoundedMetadata, type ArrowRight2RoundedProps } from './arrows/arrow-right-2_rounded';
+export { ArrowRight3Rounded, ArrowRight3RoundedMetadata, type ArrowRight3RoundedProps } from './arrows/arrow-right-3_rounded';
 export { ArrowRightFromLine, ArrowRightFromLineMetadata, type ArrowRightFromLineProps } from './arrows/arrow-right-from-line';
 export { ArrowRightLeft, ArrowRightLeftMetadata, type ArrowRightLeftProps } from './arrows/arrow-right-left';
-export { ArrowRightRhombusFilled, ArrowRightRhombusFilledMetadata, type ArrowRightRhombusFilledProps } from './arrows/arrow-right-rhombus_filled';
-export { ArrowRightSquareFilled, ArrowRightSquareFilledMetadata, type ArrowRightSquareFilledProps } from './arrows/arrow-right-square_filled';
 export { ArrowRightToLine, ArrowRightToLineMetadata, type ArrowRightToLineProps } from './arrows/arrow-right-to-line';
 export { ArrowRight, ArrowRightMetadata, type ArrowRightProps } from './arrows/arrow-right';
 export { ArrowRightDoodle, ArrowRightDoodleMetadata, type ArrowRightDoodleProps } from './arrows/arrow-right_doodle';
+export { ArrowRightRounded, ArrowRightRoundedMetadata, type ArrowRightRoundedProps } from './arrows/arrow-right_rounded';
 export { ArrowSeDoodle, ArrowSeDoodleMetadata, type ArrowSeDoodleProps } from './arrows/arrow-se_doodle';
 export { ArrowSingleDownDoodle, ArrowSingleDownDoodleMetadata, type ArrowSingleDownDoodleProps } from './arrows/arrow-single-down_doodle';
 export { ArrowSingleLeftDoodle, ArrowSingleLeftDoodleMetadata, type ArrowSingleLeftDoodleProps } from './arrows/arrow-single-left_doodle';
 export { ArrowSingleRightDoodle, ArrowSingleRightDoodleMetadata, type ArrowSingleRightDoodleProps } from './arrows/arrow-single-right_doodle';
 export { ArrowSingleUpDoodle, ArrowSingleUpDoodleMetadata, type ArrowSingleUpDoodleProps } from './arrows/arrow-single-up_doodle';
 export { ArrowSquareDownDoodle, ArrowSquareDownDoodleMetadata, type ArrowSquareDownDoodleProps } from './arrows/arrow-square-down_doodle';
+export { ArrowSquareDownRounded, ArrowSquareDownRoundedMetadata, type ArrowSquareDownRoundedProps } from './arrows/arrow-square-down_rounded';
 export { ArrowSquareLeftDoodle, ArrowSquareLeftDoodleMetadata, type ArrowSquareLeftDoodleProps } from './arrows/arrow-square-left_doodle';
+export { ArrowSquareLeftRounded, ArrowSquareLeftRoundedMetadata, type ArrowSquareLeftRoundedProps } from './arrows/arrow-square-left_rounded';
 export { ArrowSquareRightDoodle, ArrowSquareRightDoodleMetadata, type ArrowSquareRightDoodleProps } from './arrows/arrow-square-right_doodle';
+export { ArrowSquareRightRounded, ArrowSquareRightRoundedMetadata, type ArrowSquareRightRoundedProps } from './arrows/arrow-square-right_rounded';
 export { ArrowSquareUpDoodle, ArrowSquareUpDoodleMetadata, type ArrowSquareUpDoodleProps } from './arrows/arrow-square-up_doodle';
+export { ArrowSquareUpRounded, ArrowSquareUpRoundedMetadata, type ArrowSquareUpRoundedProps } from './arrows/arrow-square-up_rounded';
 export { ArrowSwDoodle, ArrowSwDoodleMetadata, type ArrowSwDoodleProps } from './arrows/arrow-sw_doodle';
+export { ArrowSwapHorizontalRounded, ArrowSwapHorizontalRoundedMetadata, type ArrowSwapHorizontalRoundedProps } from './arrows/arrow-swap-horizontal_rounded';
 export { ArrowUp01, ArrowUp01Metadata, type ArrowUp01Props } from './arrows/arrow-up-0-1';
 export { ArrowUp10, ArrowUp10Metadata, type ArrowUp10Props } from './arrows/arrow-up-1-0';
+export { ArrowUp1Rounded, ArrowUp1RoundedMetadata, type ArrowUp1RoundedProps } from './arrows/arrow-up-1_rounded';
+export { ArrowUp2Rounded, ArrowUp2RoundedMetadata, type ArrowUp2RoundedProps } from './arrows/arrow-up-2_rounded';
+export { ArrowUp3Rounded, ArrowUp3RoundedMetadata, type ArrowUp3RoundedProps } from './arrows/arrow-up-3_rounded';
 export { ArrowUpAZ, ArrowUpAZMetadata, type ArrowUpAZProps } from './arrows/arrow-up-a-z';
-export { ArrowUpCircleFilled, ArrowUpCircleFilledMetadata, type ArrowUpCircleFilledProps } from './arrows/arrow-up-circle_filled';
 export { ArrowUpDown, ArrowUpDownMetadata, type ArrowUpDownProps } from './arrows/arrow-up-down';
 export { ArrowUpFromDot, ArrowUpFromDotMetadata, type ArrowUpFromDotProps } from './arrows/arrow-up-from-dot';
 export { ArrowUpFromLine, ArrowUpFromLineMetadata, type ArrowUpFromLineProps } from './arrows/arrow-up-from-line';
 export { ArrowUpLeft, ArrowUpLeftMetadata, type ArrowUpLeftProps } from './arrows/arrow-up-left';
 export { ArrowUpNarrowWide, ArrowUpNarrowWideMetadata, type ArrowUpNarrowWideProps } from './arrows/arrow-up-narrow-wide';
-export { ArrowUpRhombusFilled, ArrowUpRhombusFilledMetadata, type ArrowUpRhombusFilledProps } from './arrows/arrow-up-rhombus_filled';
 export { ArrowUpRight, ArrowUpRightMetadata, type ArrowUpRightProps } from './arrows/arrow-up-right';
-export { ArrowUpSquareFilled, ArrowUpSquareFilledMetadata, type ArrowUpSquareFilledProps } from './arrows/arrow-up-square_filled';
 export { ArrowUpToLine, ArrowUpToLineMetadata, type ArrowUpToLineProps } from './arrows/arrow-up-to-line';
 export { ArrowUpWideNarrow, ArrowUpWideNarrowMetadata, type ArrowUpWideNarrowProps } from './arrows/arrow-up-wide-narrow';
 export { ArrowUpZA, ArrowUpZAMetadata, type ArrowUpZAProps } from './arrows/arrow-up-z-a';
 export { ArrowUp, ArrowUpMetadata, type ArrowUpProps } from './arrows/arrow-up';
 export { ArrowUpDoodle, ArrowUpDoodleMetadata, type ArrowUpDoodleProps } from './arrows/arrow-up_doodle';
+export { ArrowUpRounded, ArrowUpRoundedMetadata, type ArrowUpRoundedProps } from './arrows/arrow-up_rounded';
 export { ArrowsUpFromLine, ArrowsUpFromLineMetadata, type ArrowsUpFromLineProps } from './arrows/arrows-up-from-line';
+export { BackSquareRounded, BackSquareRoundedMetadata, type BackSquareRoundedProps } from './arrows/back-square_rounded';
 export { ChevronDown, ChevronDownMetadata, type ChevronDownProps } from './arrows/chevron-down';
 export { ChevronFirst, ChevronFirstMetadata, type ChevronFirstProps } from './arrows/chevron-first';
 export { ChevronLast, ChevronLastMetadata, type ChevronLastProps } from './arrows/chevron-last';
@@ -228,6 +234,7 @@ export { ChevronsRightDoodle, ChevronsRightDoodleMetadata, type ChevronsRightDoo
 export { ChevronsUpDown, ChevronsUpDownMetadata, type ChevronsUpDownProps } from './arrows/chevrons-up-down';
 export { ChevronsUp, ChevronsUpMetadata, type ChevronsUpProps } from './arrows/chevrons-up';
 export { ChevronsUpDoodle, ChevronsUpDoodleMetadata, type ChevronsUpDoodleProps } from './arrows/chevrons-up_doodle';
+export { ConvertRounded, ConvertRoundedMetadata, type ConvertRoundedProps } from './arrows/convert_rounded';
 export { CornerDownLeft, CornerDownLeftMetadata, type CornerDownLeftProps } from './arrows/corner-down-left';
 export { CornerDownRight, CornerDownRightMetadata, type CornerDownRightProps } from './arrows/corner-down-right';
 export { CornerLeftDown, CornerLeftDownMetadata, type CornerLeftDownProps } from './arrows/corner-left-down';
@@ -238,6 +245,20 @@ export { CornerUpLeft, CornerUpLeftMetadata, type CornerUpLeftProps } from './ar
 export { CornerUpRight, CornerUpRightMetadata, type CornerUpRightProps } from './arrows/corner-up-right';
 export { DecimalsArrowLeft, DecimalsArrowLeftMetadata, type DecimalsArrowLeftProps } from './arrows/decimals-arrow-left';
 export { DecimalsArrowRight, DecimalsArrowRightMetadata, type DecimalsArrowRightProps } from './arrows/decimals-arrow-right';
+export { Export1Rounded, Export1RoundedMetadata, type Export1RoundedProps } from './arrows/export-1_rounded';
+export { Export2Rounded, Export2RoundedMetadata, type Export2RoundedProps } from './arrows/export-2_rounded';
+export { Export3Rounded, Export3RoundedMetadata, type Export3RoundedProps } from './arrows/export-3_rounded';
+export { ExportRounded, ExportRoundedMetadata, type ExportRoundedProps } from './arrows/export_rounded';
+export { ForwardSquareRounded, ForwardSquareRoundedMetadata, type ForwardSquareRoundedProps } from './arrows/forward-square_rounded';
+export { Frame1Rounded, Frame1RoundedMetadata, type Frame1RoundedProps } from './arrows/frame-1_rounded';
+export { Frame2Rounded, Frame2RoundedMetadata, type Frame2RoundedProps } from './arrows/frame-2_rounded';
+export { Import1Rounded, Import1RoundedMetadata, type Import1RoundedProps } from './arrows/import-1_rounded';
+export { Import2Rounded, Import2RoundedMetadata, type Import2RoundedProps } from './arrows/import-2_rounded';
+export { ImportRounded, ImportRoundedMetadata, type ImportRoundedProps } from './arrows/import_rounded';
+export { Login1Rounded, Login1RoundedMetadata, type Login1RoundedProps } from './arrows/login-1_rounded';
+export { LoginRounded, LoginRoundedMetadata, type LoginRoundedProps } from './arrows/login_rounded';
+export { Logout1Rounded, Logout1RoundedMetadata, type Logout1RoundedProps } from './arrows/logout-1_rounded';
+export { LogoutRounded, LogoutRoundedMetadata, type LogoutRoundedProps } from './arrows/logout_rounded';
 export { Move3d, Move3dMetadata, type Move3dProps } from './arrows/move-3d';
 export { MoveDiagonal2, MoveDiagonal2Metadata, type MoveDiagonal2Props } from './arrows/move-diagonal-2';
 export { MoveDiagonal, MoveDiagonalMetadata, type MoveDiagonalProps } from './arrows/move-diagonal';
@@ -252,27 +273,38 @@ export { MoveUpRight, MoveUpRightMetadata, type MoveUpRightProps } from './arrow
 export { MoveUp, MoveUpMetadata, type MoveUpProps } from './arrows/move-up';
 export { MoveVertical, MoveVerticalMetadata, type MoveVerticalProps } from './arrows/move-vertical';
 export { Move, MoveMetadata, type MoveProps } from './arrows/move';
+export { ReceiveSquare2Rounded, ReceiveSquare2RoundedMetadata, type ReceiveSquare2RoundedProps } from './arrows/receive-square-2_rounded';
+export { ReceiveSquareRounded, ReceiveSquareRoundedMetadata, type ReceiveSquareRoundedProps } from './arrows/receive-square_rounded';
+export { ReceivedRounded, ReceivedRoundedMetadata, type ReceivedRoundedProps } from './arrows/received_rounded';
 export { Redo2, Redo2Metadata, type Redo2Props } from './arrows/redo-2';
 export { RedoDot, RedoDotMetadata, type RedoDotProps } from './arrows/redo-dot';
 export { Redo, RedoMetadata, type RedoProps } from './arrows/redo';
+export { RedoRounded, RedoRoundedMetadata, type RedoRoundedProps } from './arrows/redo_rounded';
+export { Refresh2Rounded, Refresh2RoundedMetadata, type Refresh2RoundedProps } from './arrows/refresh-2_rounded';
+export { RefreshCircleRounded, RefreshCircleRoundedMetadata, type RefreshCircleRoundedProps } from './arrows/refresh-circle_rounded';
+export { RefreshLeftSquareRounded, RefreshLeftSquareRoundedMetadata, type RefreshLeftSquareRoundedProps } from './arrows/refresh-left-square_rounded';
+export { RefreshRightSquareRounded, RefreshRightSquareRoundedMetadata, type RefreshRightSquareRoundedProps } from './arrows/refresh-right-square_rounded';
+export { RefreshSquare2Rounded, RefreshSquare2RoundedMetadata, type RefreshSquare2RoundedProps } from './arrows/refresh-square-2_rounded';
+export { RefreshRounded, RefreshRoundedMetadata, type RefreshRoundedProps } from './arrows/refresh_rounded';
+export { RepeatCircleRounded, RepeatCircleRoundedMetadata, type RepeatCircleRoundedProps } from './arrows/repeat-circle_rounded';
+export { RepeatRounded, RepeatRoundedMetadata, type RepeatRoundedProps } from './arrows/repeat_rounded';
+export { RotateLeftRounded, RotateLeftRoundedMetadata, type RotateLeftRoundedProps } from './arrows/rotate-left_rounded';
+export { RotateRightRounded, RotateRightRoundedMetadata, type RotateRightRoundedProps } from './arrows/rotate-right_rounded';
+export { SendSqaure2Rounded, SendSqaure2RoundedMetadata, type SendSqaure2RoundedProps } from './arrows/send-sqaure-2_rounded';
+export { SendSquareRounded, SendSquareRoundedMetadata, type SendSquareRoundedProps } from './arrows/send-square_rounded';
+export { SendRounded, SendRoundedMetadata, type SendRoundedProps } from './arrows/send_rounded';
 export { TrendingDown, TrendingDownMetadata, type TrendingDownProps } from './arrows/trending-down';
 export { TrendingUpDown, TrendingUpDownMetadata, type TrendingUpDownProps } from './arrows/trending-up-down';
 export { TrendingUp, TrendingUpMetadata, type TrendingUpProps } from './arrows/trending-up';
 export { Undo2, Undo2Metadata, type Undo2Props } from './arrows/undo-2';
 export { UndoDot, UndoDotMetadata, type UndoDotProps } from './arrows/undo-dot';
 export { Undo, UndoMetadata, type UndoProps } from './arrows/undo';
-export { Badge3dFilled, Badge3dFilledMetadata, type Badge3dFilledProps } from './badge/badge-3d_filled';
-export { Badge4kFilled, Badge4kFilledMetadata, type Badge4kFilledProps } from './badge/badge-4k_filled';
-export { Badge8kFilled, Badge8kFilledMetadata, type Badge8kFilledProps } from './badge/badge-8k_filled';
-export { BadgeAdFilled, BadgeAdFilledMetadata, type BadgeAdFilledProps } from './badge/badge-ad_filled';
+export { UndoRounded, UndoRoundedMetadata, type UndoRoundedProps } from './arrows/undo_rounded';
 export { BadgeAlert, BadgeAlertMetadata, type BadgeAlertProps } from './badge/badge-alert';
-export { BadgeArFilled, BadgeArFilledMetadata, type BadgeArFilledProps } from './badge/badge-ar_filled';
-export { BadgeCcFilled, BadgeCcFilledMetadata, type BadgeCcFilledProps } from './badge/badge-cc_filled';
 export { BadgeCent, BadgeCentMetadata, type BadgeCentProps } from './badge/badge-cent';
 export { BadgeCheck, BadgeCheckMetadata, type BadgeCheckProps } from './badge/badge-check';
 export { BadgeDollarSign, BadgeDollarSignMetadata, type BadgeDollarSignProps } from './badge/badge-dollar-sign';
 export { BadgeEuro, BadgeEuroMetadata, type BadgeEuroProps } from './badge/badge-euro';
-export { BadgeHdFilled, BadgeHdFilledMetadata, type BadgeHdFilledProps } from './badge/badge-hd_filled';
 export { BadgeIndianRupee, BadgeIndianRupeeMetadata, type BadgeIndianRupeeProps } from './badge/badge-indian-rupee';
 export { BadgeInfo, BadgeInfoMetadata, type BadgeInfoProps } from './badge/badge-info';
 export { BadgeJapaneseYen, BadgeJapaneseYenMetadata, type BadgeJapaneseYenProps } from './badge/badge-japanese-yen';
@@ -282,17 +314,10 @@ export { BadgePlus, BadgePlusMetadata, type BadgePlusProps } from './badge/badge
 export { BadgePoundSterling, BadgePoundSterlingMetadata, type BadgePoundSterlingProps } from './badge/badge-pound-sterling';
 export { BadgeQuestionMark, BadgeQuestionMarkMetadata, type BadgeQuestionMarkProps } from './badge/badge-question-mark';
 export { BadgeRussianRuble, BadgeRussianRubleMetadata, type BadgeRussianRubleProps } from './badge/badge-russian-ruble';
-export { BadgeSdFilled, BadgeSdFilledMetadata, type BadgeSdFilledProps } from './badge/badge-sd_filled';
 export { BadgeSwissFranc, BadgeSwissFrancMetadata, type BadgeSwissFrancProps } from './badge/badge-swiss-franc';
-export { BadgeTmFilled, BadgeTmFilledMetadata, type BadgeTmFilledProps } from './badge/badge-tm_filled';
 export { BadgeTurkishLira, BadgeTurkishLiraMetadata, type BadgeTurkishLiraProps } from './badge/badge-turkish-lira';
-export { BadgeVoFilled, BadgeVoFilledMetadata, type BadgeVoFilledProps } from './badge/badge-vo_filled';
-export { BadgeVrFilled, BadgeVrFilledMetadata, type BadgeVrFilledProps } from './badge/badge-vr_filled';
-export { BadgeWcFilled, BadgeWcFilledMetadata, type BadgeWcFilledProps } from './badge/badge-wc_filled';
 export { BadgeX, BadgeXMetadata, type BadgeXProps } from './badge/badge-x';
 export { Badge, BadgeMetadata, type BadgeProps } from './badge/badge';
-export { BadgeFilled, BadgeFilledMetadata, type BadgeFilledProps } from './badge/badge_filled';
-export { BadgesFilled, BadgesFilledMetadata, type BadgesFilledProps } from './badge/badges_filled';
 export { BookA, BookAMetadata, type BookAProps } from './book/book-a';
 export { BookAlert, BookAlertMetadata, type BookAlertProps } from './book/book-alert';
 export { BookAudio, BookAudioMetadata, type BookAudioProps } from './book/book-audio';
@@ -332,135 +357,230 @@ export { NotebookText, NotebookTextMetadata, type NotebookTextProps } from './bo
 export { Notebook, NotebookMetadata, type NotebookProps } from './book/notebook';
 export { NotepadTextDashed, NotepadTextDashedMetadata, type NotepadTextDashedProps } from './book/notepad-text-dashed';
 export { NotepadText, NotepadTextMetadata, type NotepadTextProps } from './book/notepad-text';
+export { AaveAaveRounded, AaveAaveRoundedMetadata, type AaveAaveRoundedProps } from './brand/aave-aave_rounded';
+export { AndroidRounded, AndroidRoundedMetadata, type AndroidRoundedProps } from './brand/android_rounded';
+export { AnkrAnkrRounded, AnkrAnkrRoundedMetadata, type AnkrAnkrRoundedProps } from './brand/ankr-ankr_rounded';
 export { AppleDoodle, AppleDoodleMetadata, type AppleDoodleProps } from './brand/apple_doodle';
+export { AppleRounded, AppleRoundedMetadata, type AppleRoundedProps } from './brand/apple_rounded';
+export { AugurRepRounded, AugurRepRoundedMetadata, type AugurRepRoundedProps } from './brand/augur-rep_rounded';
+export { AutonioNioxRounded, AutonioNioxRoundedMetadata, type AutonioNioxRoundedProps } from './brand/autonio-niox_rounded';
+export { AvalancheAvaxRounded, AvalancheAvaxRoundedMetadata, type AvalancheAvaxRoundedProps } from './brand/avalanche-avax_rounded';
+export { BeRounded, BeRoundedMetadata, type BeRoundedProps } from './brand/be_rounded';
 export { BehanceDoodle, BehanceDoodleMetadata, type BehanceDoodleProps } from './brand/behance_doodle';
-export { BrandAngularFilled, BrandAngularFilledMetadata, type BrandAngularFilledProps } from './brand/brand-angular_filled';
-export { BrandAppleFilled, BrandAppleFilledMetadata, type BrandAppleFilledProps } from './brand/brand-apple_filled';
-export { BrandBitbucketFilled, BrandBitbucketFilledMetadata, type BrandBitbucketFilledProps } from './brand/brand-bitbucket_filled';
-export { BrandDiscordFilled, BrandDiscordFilledMetadata, type BrandDiscordFilledProps } from './brand/brand-discord_filled';
-export { BrandDribbbleFilled, BrandDribbbleFilledMetadata, type BrandDribbbleFilledProps } from './brand/brand-dribbble_filled';
-export { BrandFacebookFilled, BrandFacebookFilledMetadata, type BrandFacebookFilledProps } from './brand/brand-facebook_filled';
-export { BrandGithubFilled, BrandGithubFilledMetadata, type BrandGithubFilledProps } from './brand/brand-github_filled';
-export { BrandGoogleFilled, BrandGoogleFilledMetadata, type BrandGoogleFilledProps } from './brand/brand-google_filled';
-export { BrandInstagramFilled, BrandInstagramFilledMetadata, type BrandInstagramFilledProps } from './brand/brand-instagram_filled';
-export { BrandKickFilled, BrandKickFilledMetadata, type BrandKickFilledProps } from './brand/brand-kick_filled';
-export { BrandLinkedinFilled, BrandLinkedinFilledMetadata, type BrandLinkedinFilledProps } from './brand/brand-linkedin_filled';
-export { BrandMessengerFilled, BrandMessengerFilledMetadata, type BrandMessengerFilledProps } from './brand/brand-messenger_filled';
-export { BrandOpenSourceFilled, BrandOpenSourceFilledMetadata, type BrandOpenSourceFilledProps } from './brand/brand-open-source_filled';
-export { BrandOperaFilled, BrandOperaFilledMetadata, type BrandOperaFilledProps } from './brand/brand-opera_filled';
-export { BrandPatreonFilled, BrandPatreonFilledMetadata, type BrandPatreonFilledProps } from './brand/brand-patreon_filled';
-export { BrandPaypalFilled, BrandPaypalFilledMetadata, type BrandPaypalFilledProps } from './brand/brand-paypal_filled';
-export { BrandPinterestFilled, BrandPinterestFilledMetadata, type BrandPinterestFilledProps } from './brand/brand-pinterest_filled';
-export { BrandSketchFilled, BrandSketchFilledMetadata, type BrandSketchFilledProps } from './brand/brand-sketch_filled';
-export { BrandSnapchatFilled, BrandSnapchatFilledMetadata, type BrandSnapchatFilledProps } from './brand/brand-snapchat_filled';
-export { BrandSpotifyFilled, BrandSpotifyFilledMetadata, type BrandSpotifyFilledProps } from './brand/brand-spotify_filled';
-export { BrandSteamFilled, BrandSteamFilledMetadata, type BrandSteamFilledProps } from './brand/brand-steam_filled';
-export { BrandStripeFilled, BrandStripeFilledMetadata, type BrandStripeFilledProps } from './brand/brand-stripe_filled';
-export { BrandTablerFilled, BrandTablerFilledMetadata, type BrandTablerFilledProps } from './brand/brand-tabler_filled';
-export { BrandTiktokFilled, BrandTiktokFilledMetadata, type BrandTiktokFilledProps } from './brand/brand-tiktok_filled';
-export { BrandTinderFilled, BrandTinderFilledMetadata, type BrandTinderFilledProps } from './brand/brand-tinder_filled';
-export { BrandTumblrFilled, BrandTumblrFilledMetadata, type BrandTumblrFilledProps } from './brand/brand-tumblr_filled';
-export { BrandTwitterFilled, BrandTwitterFilledMetadata, type BrandTwitterFilledProps } from './brand/brand-twitter_filled';
-export { BrandVercelFilled, BrandVercelFilledMetadata, type BrandVercelFilledProps } from './brand/brand-vercel_filled';
-export { BrandVimeoFilled, BrandVimeoFilledMetadata, type BrandVimeoFilledProps } from './brand/brand-vimeo_filled';
-export { BrandWeiboFilled, BrandWeiboFilledMetadata, type BrandWeiboFilledProps } from './brand/brand-weibo_filled';
-export { BrandWhatsappFilled, BrandWhatsappFilledMetadata, type BrandWhatsappFilledProps } from './brand/brand-whatsapp_filled';
-export { BrandWindowsFilled, BrandWindowsFilledMetadata, type BrandWindowsFilledProps } from './brand/brand-windows_filled';
-export { BrandXFilled, BrandXFilledMetadata, type BrandXFilledProps } from './brand/brand-x_filled';
-export { BrandYoutubeFilled, BrandYoutubeFilledMetadata, type BrandYoutubeFilledProps } from './brand/brand-youtube_filled';
+export { BinanceCoinBnbRounded, BinanceCoinBnbRoundedMetadata, type BinanceCoinBnbRoundedProps } from './brand/binance-coin-bnb_rounded';
+export { BinanceUsdBusdRounded, BinanceUsdBusdRoundedMetadata, type BinanceUsdBusdRoundedProps } from './brand/binance-usd-busd_rounded';
+export { BitcoinBtcRounded, BitcoinBtcRoundedMetadata, type BitcoinBtcRoundedProps } from './brand/bitcoin-btc_rounded';
+export { BloggerRounded, BloggerRoundedMetadata, type BloggerRoundedProps } from './brand/blogger_rounded';
+export { BootsrapRounded, BootsrapRoundedMetadata, type BootsrapRoundedProps } from './brand/bootsrap_rounded';
+export { CardanoAdaRounded, CardanoAdaRoundedMetadata, type CardanoAdaRoundedProps } from './brand/cardano-ada_rounded';
+export { CeloCeloRounded, CeloCeloRoundedMetadata, type CeloCeloRoundedProps } from './brand/celo-celo_rounded';
+export { CelsiusCelRounded, CelsiusCelRoundedMetadata, type CelsiusCelRoundedProps } from './brand/celsius-cel-_rounded';
+export { ChainlinkLinkRounded, ChainlinkLinkRoundedMetadata, type ChainlinkLinkRoundedProps } from './brand/chainlink-link_rounded';
+export { CivicCvcRounded, CivicCvcRoundedMetadata, type CivicCvcRoundedProps } from './brand/civic-cvc_rounded';
 export { CodepenDoodle, CodepenDoodleMetadata, type CodepenDoodleProps } from './brand/codepen_doodle';
+export { DaiDaiRounded, DaiDaiRoundedMetadata, type DaiDaiRoundedProps } from './brand/dai-dai_rounded';
+export { DashDashRounded, DashDashRoundedMetadata, type DashDashRoundedProps } from './brand/dash-dash_rounded';
+export { DecredDcrRounded, DecredDcrRoundedMetadata, type DecredDcrRoundedProps } from './brand/decred-dcr_rounded';
+export { DentDentRounded, DentDentRoundedMetadata, type DentDentRoundedProps } from './brand/dent-dent_rounded';
 export { DribbbleDoodle, DribbbleDoodleMetadata, type DribbbleDoodleProps } from './brand/dribbble_doodle';
+export { DribbbleRounded, DribbbleRoundedMetadata, type DribbbleRoundedProps } from './brand/dribbble_rounded';
 export { DropboxDoodle, DropboxDoodleMetadata, type DropboxDoodleProps } from './brand/dropbox_doodle';
+export { DropboxRounded, DropboxRoundedMetadata, type DropboxRoundedProps } from './brand/dropbox_rounded';
+export { EducareEktRounded, EducareEktRoundedMetadata, type EducareEktRoundedProps } from './brand/educare-ekt_rounded';
+export { EmercoinEmcRounded, EmercoinEmcRoundedMetadata, type EmercoinEmcRoundedProps } from './brand/emercoin-emc_rounded';
+export { EnjinCoinEnjRounded, EnjinCoinEnjRoundedMetadata, type EnjinCoinEnjRoundedProps } from './brand/enjin-coin-enj_rounded';
+export { EosEosRounded, EosEosRoundedMetadata, type EosEosRoundedProps } from './brand/eos-eos_rounded';
+export { EthereumClassicEtcRounded, EthereumClassicEtcRoundedMetadata, type EthereumClassicEtcRoundedProps } from './brand/ethereum-classic-etc_rounded';
+export { EthereumEthRounded, EthereumEthRoundedMetadata, type EthereumEthRoundedProps } from './brand/ethereum-eth_rounded';
 export { Facebook2Doodle, Facebook2DoodleMetadata, type Facebook2DoodleProps } from './brand/facebook-2_doodle';
 export { FacebookDoodle, FacebookDoodleMetadata, type FacebookDoodleProps } from './brand/facebook_doodle';
+export { FacebookRounded, FacebookRoundedMetadata, type FacebookRoundedProps } from './brand/facebook_rounded';
 export { FbMessengerDoodle, FbMessengerDoodleMetadata, type FbMessengerDoodleProps } from './brand/fb-messenger_doodle';
+export { Figma1Rounded, Figma1RoundedMetadata, type Figma1RoundedProps } from './brand/figma-1_rounded';
+export { FigmaRounded, FigmaRoundedMetadata, type FigmaRoundedProps } from './brand/figma_rounded';
+export { FramerRounded, FramerRoundedMetadata, type FramerRoundedProps } from './brand/framer_rounded';
+export { FtxTokenFttRounded, FtxTokenFttRoundedMetadata, type FtxTokenFttRoundedProps } from './brand/ftx-token-ftt_rounded';
+export { Google1Rounded, Google1RoundedMetadata, type Google1RoundedProps } from './brand/google-1_rounded';
+export { GooglePlayRounded, GooglePlayRoundedMetadata, type GooglePlayRoundedProps } from './brand/google-play_rounded';
 export { GoogleDoodle, GoogleDoodleMetadata, type GoogleDoodleProps } from './brand/google_doodle';
+export { GoogleRounded, GoogleRoundedMetadata, type GoogleRoundedProps } from './brand/google_rounded';
+export { HarmonyOneRounded, HarmonyOneRoundedMetadata, type HarmonyOneRoundedProps } from './brand/harmony-one_rounded';
+export { HederaHashgraphHbarRounded, HederaHashgraphHbarRoundedMetadata, type HederaHashgraphHbarRoundedProps } from './brand/hedera-hashgraph-hbar_rounded';
+export { HexHexRounded, HexHexRoundedMetadata, type HexHexRoundedProps } from './brand/hex-hex_rounded';
+export { Html3Rounded, Html3RoundedMetadata, type Html3RoundedProps } from './brand/html-3_rounded';
+export { Html5Rounded, Html5RoundedMetadata, type Html5RoundedProps } from './brand/html-5_rounded';
+export { HuobiTokenHtRounded, HuobiTokenHtRoundedMetadata, type HuobiTokenHtRoundedProps } from './brand/huobi-token-ht_rounded';
+export { IconIcxRounded, IconIcxRoundedMetadata, type IconIcxRoundedProps } from './brand/icon-icx_rounded';
+export { IllustratorRounded, IllustratorRoundedMetadata, type IllustratorRoundedProps } from './brand/illustrator_rounded';
 export { InstagramDoodle, InstagramDoodleMetadata, type InstagramDoodleProps } from './brand/instagram_doodle';
+export { IostIostRounded, IostIostRoundedMetadata, type IostIostRoundedProps } from './brand/iost-iost_rounded';
+export { JavaScriptRounded, JavaScriptRoundedMetadata, type JavaScriptRoundedProps } from './brand/java-script_rounded';
+export { JsRounded, JsRoundedMetadata, type JsRoundedProps } from './brand/js_rounded';
+export { KyberNetworkKncRounded, KyberNetworkKncRoundedMetadata, type KyberNetworkKncRoundedProps } from './brand/kyber-network-knc_rounded';
 export { LinkedinDoodle, LinkedinDoodleMetadata, type LinkedinDoodleProps } from './brand/linkedin_doodle';
+export { LitecoinltcRounded, LitecoinltcRoundedMetadata, type LitecoinltcRoundedProps } from './brand/litecoinltc_rounded';
+export { MakerMkrRounded, MakerMkrRoundedMetadata, type MakerMkrRoundedProps } from './brand/maker-mkr_rounded';
+export { MessengerRounded, MessengerRoundedMetadata, type MessengerRoundedProps } from './brand/messenger_rounded';
+export { MoneroXmrRounded, MoneroXmrRoundedMetadata, type MoneroXmrRoundedProps } from './brand/monero-xmr_rounded';
+export { NebulasNasRounded, NebulasNasRoundedMetadata, type NebulasNasRoundedProps } from './brand/nebulas-nas_rounded';
+export { NemXemRounded, NemXemRoundedMetadata, type NemXemRoundedProps } from './brand/nem-xem_rounded';
+export { NexoNexoRounded, NexoNexoRoundedMetadata, type NexoNexoRoundedProps } from './brand/nexo-nexo_rounded';
+export { OceanProtocolOceanRounded, OceanProtocolOceanRoundedMetadata, type OceanProtocolOceanRoundedProps } from './brand/ocean-protocol-ocean_rounded';
+export { OkbOkbRounded, OkbOkbRoundedMetadata, type OkbOkbRoundedProps } from './brand/okb-okb_rounded';
+export { OntologyOntRounded, OntologyOntRoundedMetadata, type OntologyOntRoundedProps } from './brand/ontology-ont_rounded';
 export { PaypalDoodle, PaypalDoodleMetadata, type PaypalDoodleProps } from './brand/paypal_doodle';
+export { PaypalRounded, PaypalRoundedMetadata, type PaypalRoundedProps } from './brand/paypal_rounded';
+export { PhotoshopRounded, PhotoshopRoundedMetadata, type PhotoshopRoundedProps } from './brand/photoshop_rounded';
 export { PinterestDoodle, PinterestDoodleMetadata, type PinterestDoodleProps } from './brand/pinterest_doodle';
+export { PolkadotDotRounded, PolkadotDotRoundedMetadata, type PolkadotDotRoundedProps } from './brand/polkadot-dot_rounded';
+export { PolygonMaticRounded, PolygonMaticRoundedMetadata, type PolygonMaticRoundedProps } from './brand/polygon-matic_rounded';
+export { PolyswarmNctRounded, PolyswarmNctRoundedMetadata, type PolyswarmNctRoundedProps } from './brand/polyswarm-nct_rounded';
 export { ProductHuntDoodle, ProductHuntDoodleMetadata, type ProductHuntDoodleProps } from './brand/product-hunt_doodle';
+export { PythonRounded, PythonRoundedMetadata, type PythonRoundedProps } from './brand/python_rounded';
+export { QuantQntRounded, QuantQntRoundedMetadata, type QuantQntRoundedProps } from './brand/quant-qnt_rounded';
+export { SiacoinScRounded, SiacoinScRoundedMetadata, type SiacoinScRoundedProps } from './brand/siacoin-sc_rounded';
 export { SkypeDoodle, SkypeDoodleMetadata, type SkypeDoodleProps } from './brand/skype_doodle';
+export { SlackRounded, SlackRoundedMetadata, type SlackRoundedProps } from './brand/slack_rounded';
 export { SnapchatDoodle, SnapchatDoodleMetadata, type SnapchatDoodleProps } from './brand/snapchat_doodle';
+export { SnapchatRounded, SnapchatRoundedMetadata, type SnapchatRoundedProps } from './brand/snapchat_rounded';
+export { SolanaSolRounded, SolanaSolRoundedMetadata, type SolanaSolRoundedProps } from './brand/solana-sol_rounded';
 export { SpotifyDoodle, SpotifyDoodleMetadata, type SpotifyDoodleProps } from './brand/spotify_doodle';
+export { SpotifyRounded, SpotifyRoundedMetadata, type SpotifyRoundedProps } from './brand/spotify_rounded';
+export { StacksStxRounded, StacksStxRoundedMetadata, type StacksStxRoundedProps } from './brand/stacks-stx_rounded';
+export { StellarXlmRounded, StellarXlmRoundedMetadata, type StellarXlmRoundedProps } from './brand/stellar-xlm_rounded';
+export { TenxPayRounded, TenxPayRoundedMetadata, type TenxPayRoundedProps } from './brand/tenx-pay_rounded';
+export { TetherUsdtRounded, TetherUsdtRoundedMetadata, type TetherUsdtRoundedProps } from './brand/tether-usdt_rounded';
+export { TheGraphGrtRounded, TheGraphGrtRoundedMetadata, type TheGraphGrtRoundedProps } from './brand/the-graph-grt_rounded';
+export { ThetaThetaRounded, ThetaThetaRoundedMetadata, type ThetaThetaRoundedProps } from './brand/theta-theta_rounded';
+export { ThorchainRuneRounded, ThorchainRuneRoundedMetadata, type ThorchainRuneRoundedProps } from './brand/thorchain-rune_rounded';
 export { TikTokDoodle, TikTokDoodleMetadata, type TikTokDoodleProps } from './brand/tik-tok_doodle';
+export { TrelloRounded, TrelloRoundedMetadata, type TrelloRoundedProps } from './brand/trello_rounded';
+export { TriangleRounded, TriangleRoundedMetadata, type TriangleRoundedProps } from './brand/triangle_rounded';
+export { TrontronTrxRounded, TrontronTrxRoundedMetadata, type TrontronTrxRoundedProps } from './brand/trontron-trx_rounded';
 export { TumblrDoodle, TumblrDoodleMetadata, type TumblrDoodleProps } from './brand/tumblr_doodle';
 export { TwitchDoodle, TwitchDoodleMetadata, type TwitchDoodleProps } from './brand/twitch_doodle';
+export { TwitchRounded, TwitchRoundedMetadata, type TwitchRoundedProps } from './brand/twitch_rounded';
 export { TwitterDoodle, TwitterDoodleMetadata, type TwitterDoodleProps } from './brand/twitter_doodle';
 export { UberDoodle, UberDoodleMetadata, type UberDoodleProps } from './brand/uber_doodle';
+export { Ui8Rounded, Ui8RoundedMetadata, type Ui8RoundedProps } from './brand/ui8_rounded';
+export { UsdCoinUsdcRounded, UsdCoinUsdcRoundedMetadata, type UsdCoinUsdcRoundedProps } from './brand/usd-coin-usdc_rounded';
+export { VelasVlxRounded, VelasVlxRoundedMetadata, type VelasVlxRoundedProps } from './brand/velas-vlx_rounded';
+export { VibeVibeRounded, VibeVibeRoundedMetadata, type VibeVibeRoundedProps } from './brand/vibe-vibe_rounded';
+export { VuesaxRounded, VuesaxRoundedMetadata, type VuesaxRoundedProps } from './brand/vuesax_rounded';
+export { WanchainWan1Rounded, WanchainWan1RoundedMetadata, type WanchainWan1RoundedProps } from './brand/wanchain-wan-1_rounded';
+export { WanchainWanRounded, WanchainWanRoundedMetadata, type WanchainWanRoundedProps } from './brand/wanchain-wan_rounded';
 export { WebflowDoodle, WebflowDoodleMetadata, type WebflowDoodleProps } from './brand/webflow_doodle';
 export { WhatsappDoodle, WhatsappDoodleMetadata, type WhatsappDoodleProps } from './brand/whatsapp_doodle';
+export { WhatsappRounded, WhatsappRoundedMetadata, type WhatsappRoundedProps } from './brand/whatsapp_rounded';
 export { WindowsDoodle, WindowsDoodleMetadata, type WindowsDoodleProps } from './brand/windows_doodle';
+export { WindowsRounded, WindowsRoundedMetadata, type WindowsRoundedProps } from './brand/windows_rounded';
+export { WingWingRounded, WingWingRoundedMetadata, type WingWingRoundedProps } from './brand/wing-wing_rounded';
+export { XdRounded, XdRoundedMetadata, type XdRoundedProps } from './brand/xd_rounded';
+export { XiaomiRounded, XiaomiRoundedMetadata, type XiaomiRoundedProps } from './brand/xiaomi_rounded';
+export { XrpXrpRounded, XrpXrpRoundedMetadata, type XrpXrpRoundedProps } from './brand/xrp-xrp_rounded';
 export { YCombinatorDoodle, YCombinatorDoodleMetadata, type YCombinatorDoodleProps } from './brand/y-combinator_doodle';
 export { YoutubeDoodle, YoutubeDoodleMetadata, type YoutubeDoodleProps } from './brand/youtube_doodle';
+export { YoutubeRounded, YoutubeRoundedMetadata, type YoutubeRoundedProps } from './brand/youtube_rounded';
+export { ZelZelRounded, ZelZelRoundedMetadata, type ZelZelRoundedProps } from './brand/zel-zel_rounded';
+export { ZoomRounded, ZoomRoundedMetadata, type ZoomRoundedProps } from './brand/zoom_rounded';
+export { BankRounded, BankRoundedMetadata, type BankRoundedProps } from './building/bank_rounded';
 export { Building2, Building2Metadata, type Building2Props } from './building/building-2';
+export { Building3Rounded, Building3RoundedMetadata, type Building3RoundedProps } from './building/building-3_rounded';
+export { Building4Rounded, Building4RoundedMetadata, type Building4RoundedProps } from './building/building-4_rounded';
 export { Building, BuildingMetadata, type BuildingProps } from './building/building';
+export { BuildingRounded, BuildingRoundedMetadata, type BuildingRoundedProps } from './building/building_rounded';
+export { Buildings2Rounded, Buildings2RoundedMetadata, type Buildings2RoundedProps } from './building/buildings-2_rounded';
+export { BuildingsRounded, BuildingsRoundedMetadata, type BuildingsRoundedProps } from './building/buildings_rounded';
+export { BulidingRounded, BulidingRoundedMetadata, type BulidingRoundedProps } from './building/buliding_rounded';
 export { Castle, CastleMetadata, type CastleProps } from './building/castle';
 export { Church, ChurchMetadata, type ChurchProps } from './building/church';
+export { CourthouseRounded, CourthouseRoundedMetadata, type CourthouseRoundedProps } from './building/courthouse_rounded';
 export { Factory, FactoryMetadata, type FactoryProps } from './building/factory';
 export { Hospital, HospitalMetadata, type HospitalProps } from './building/hospital';
+export { HospitalRounded, HospitalRoundedMetadata, type HospitalRoundedProps } from './building/hospital_rounded';
 export { Hotel, HotelMetadata, type HotelProps } from './building/hotel';
+export { House2Rounded, House2RoundedMetadata, type House2RoundedProps } from './building/house-2_rounded';
 export { HouseHeart, HouseHeartMetadata, type HouseHeartProps } from './building/house-heart';
 export { HousePlug, HousePlugMetadata, type HousePlugProps } from './building/house-plug';
 export { HousePlus, HousePlusMetadata, type HousePlusProps } from './building/house-plus';
 export { HouseWifi, HouseWifiMetadata, type HouseWifiProps } from './building/house-wifi';
 export { House, HouseMetadata, type HouseProps } from './building/house';
+export { HouseRounded, HouseRoundedMetadata, type HouseRoundedProps } from './building/house_rounded';
 export { Landmark, LandmarkMetadata, type LandmarkProps } from './building/landmark';
 export { School, SchoolMetadata, type SchoolProps } from './building/school';
 export { Store, StoreMetadata, type StoreProps } from './building/store';
 export { TentTree, TentTreeMetadata, type TentTreeProps } from './building/tent-tree';
 export { Tent, TentMetadata, type TentProps } from './building/tent';
 export { University, UniversityMetadata, type UniversityProps } from './building/university';
-export { CalculatorFilled, CalculatorFilledMetadata, type CalculatorFilledProps } from './calendar/calculator_filled';
+export { ActivityRounded, ActivityRoundedMetadata, type ActivityRoundedProps } from './business/activity_rounded';
+export { Chart1Rounded, Chart1RoundedMetadata, type Chart1RoundedProps } from './business/chart-1_rounded';
+export { Chart21Rounded, Chart21RoundedMetadata, type Chart21RoundedProps } from './business/chart-21_rounded';
+export { Chart2Rounded, Chart2RoundedMetadata, type Chart2RoundedProps } from './business/chart-2_rounded';
+export { ChartSuccessRounded, ChartSuccessRoundedMetadata, type ChartSuccessRoundedProps } from './business/chart-success_rounded';
+export { ChartRounded, ChartRoundedMetadata, type ChartRoundedProps } from './business/chart_rounded';
+export { DiagramRounded, DiagramRoundedMetadata, type DiagramRoundedProps } from './business/diagram_rounded';
+export { FavoriteChartRounded, FavoriteChartRoundedMetadata, type FavoriteChartRoundedProps } from './business/favorite-chart_rounded';
+export { GraphRounded, GraphRoundedMetadata, type GraphRoundedProps } from './business/graph_rounded';
+export { HashtagRounded, HashtagRoundedMetadata, type HashtagRoundedProps } from './business/hashtag_rounded';
+export { HealthRounded, HealthRoundedMetadata, type HealthRoundedProps } from './business/health_rounded';
+export { HomeHashtagRounded, HomeHashtagRoundedMetadata, type HomeHashtagRoundedProps } from './business/home-hashtag_rounded';
+export { HomeTrendDownRounded, HomeTrendDownRoundedMetadata, type HomeTrendDownRoundedProps } from './business/home-trend-down_rounded';
+export { HomeTrendUpRounded, HomeTrendUpRoundedMetadata, type HomeTrendUpRoundedProps } from './business/home-trend-up_rounded';
+export { PersonalcardRounded, PersonalcardRoundedMetadata, type PersonalcardRoundedProps } from './business/personalcard_rounded';
+export { PresentionChartRounded, PresentionChartRoundedMetadata, type PresentionChartRoundedProps } from './business/presention-chart_rounded';
+export { StatusUpRounded, StatusUpRoundedMetadata, type StatusUpRoundedProps } from './business/status-up_rounded';
+export { TrendDownRounded, TrendDownRoundedMetadata, type TrendDownRoundedProps } from './business/trend-down_rounded';
+export { TrendUpRounded, TrendUpRoundedMetadata, type TrendUpRoundedProps } from './business/trend-up_rounded';
 export { Calendar1, Calendar1Metadata, type Calendar1Props } from './calendar/calendar-1';
+export { Calendar1Rounded, Calendar1RoundedMetadata, type Calendar1RoundedProps } from './calendar/calendar-1_rounded';
+export { Calendar2Rounded, Calendar2RoundedMetadata, type Calendar2RoundedProps } from './calendar/calendar-2_rounded';
+export { CalendarAddRounded, CalendarAddRoundedMetadata, type CalendarAddRoundedProps } from './calendar/calendar-add_rounded';
 export { CalendarArrowDown, CalendarArrowDownMetadata, type CalendarArrowDownProps } from './calendar/calendar-arrow-down';
 export { CalendarArrowUp, CalendarArrowUpMetadata, type CalendarArrowUpProps } from './calendar/calendar-arrow-up';
 export { CalendarCheck2, CalendarCheck2Metadata, type CalendarCheck2Props } from './calendar/calendar-check-2';
 export { CalendarCheck, CalendarCheckMetadata, type CalendarCheckProps } from './calendar/calendar-check';
+export { CalendarCircleRounded, CalendarCircleRoundedMetadata, type CalendarCircleRoundedProps } from './calendar/calendar-circle_rounded';
 export { CalendarClock, CalendarClockMetadata, type CalendarClockProps } from './calendar/calendar-clock';
 export { CalendarCog, CalendarCogMetadata, type CalendarCogProps } from './calendar/calendar-cog';
 export { CalendarDays, CalendarDaysMetadata, type CalendarDaysProps } from './calendar/calendar-days';
-export { CalendarEventFilled, CalendarEventFilledMetadata, type CalendarEventFilledProps } from './calendar/calendar-event_filled';
+export { CalendarEditRounded, CalendarEditRoundedMetadata, type CalendarEditRoundedProps } from './calendar/calendar-edit_rounded';
 export { CalendarFold, CalendarFoldMetadata, type CalendarFoldProps } from './calendar/calendar-fold';
 export { CalendarHeart, CalendarHeartMetadata, type CalendarHeartProps } from './calendar/calendar-heart';
 export { CalendarMinus2, CalendarMinus2Metadata, type CalendarMinus2Props } from './calendar/calendar-minus-2';
 export { CalendarMinus, CalendarMinusMetadata, type CalendarMinusProps } from './calendar/calendar-minus';
-export { CalendarMonthFilled, CalendarMonthFilledMetadata, type CalendarMonthFilledProps } from './calendar/calendar-month_filled';
 export { CalendarOff, CalendarOffMetadata, type CalendarOffProps } from './calendar/calendar-off';
 export { CalendarPlus2, CalendarPlus2Metadata, type CalendarPlus2Props } from './calendar/calendar-plus-2';
 export { CalendarPlus, CalendarPlusMetadata, type CalendarPlusProps } from './calendar/calendar-plus';
 export { CalendarRange, CalendarRangeMetadata, type CalendarRangeProps } from './calendar/calendar-range';
+export { CalendarRemoveRounded, CalendarRemoveRoundedMetadata, type CalendarRemoveRoundedProps } from './calendar/calendar-remove_rounded';
 export { CalendarSearch, CalendarSearchMetadata, type CalendarSearchProps } from './calendar/calendar-search';
+export { CalendarSearchRounded, CalendarSearchRoundedMetadata, type CalendarSearchRoundedProps } from './calendar/calendar-search_rounded';
 export { CalendarSync, CalendarSyncMetadata, type CalendarSyncProps } from './calendar/calendar-sync';
-export { CalendarWeekFilled, CalendarWeekFilledMetadata, type CalendarWeekFilledProps } from './calendar/calendar-week_filled';
+export { CalendarTickRounded, CalendarTickRoundedMetadata, type CalendarTickRoundedProps } from './calendar/calendar-tick_rounded';
 export { CalendarX2, CalendarX2Metadata, type CalendarX2Props } from './calendar/calendar-x-2';
 export { CalendarX, CalendarXMetadata, type CalendarXProps } from './calendar/calendar-x';
 export { Calendar, CalendarMetadata, type CalendarProps } from './calendar/calendar';
-export { CalendarFilled, CalendarFilledMetadata, type CalendarFilledProps } from './calendar/calendar_filled';
+export { CalendarRounded, CalendarRoundedMetadata, type CalendarRoundedProps } from './calendar/calendar_rounded';
 export { Calendars, CalendarsMetadata, type CalendarsProps } from './calendar/calendars';
-export { ChartAreaLineFilled, ChartAreaLineFilledMetadata, type ChartAreaLineFilledProps } from './chart/chart-area-line_filled';
+export { ClockRounded, ClockRoundedMetadata, type ClockRoundedProps } from './calendar/clock_rounded';
+export { SecurityTimeRounded, SecurityTimeRoundedMetadata, type SecurityTimeRoundedProps } from './calendar/security-time_rounded';
+export { Timer1Rounded, Timer1RoundedMetadata, type Timer1RoundedProps } from './calendar/timer-1_rounded';
+export { TimerPauseRounded, TimerPauseRoundedMetadata, type TimerPauseRoundedProps } from './calendar/timer-pause_rounded';
+export { TimerStartRounded, TimerStartRoundedMetadata, type TimerStartRoundedProps } from './calendar/timer-start_rounded';
+export { TimerRounded, TimerRoundedMetadata, type TimerRoundedProps } from './calendar/timer_rounded';
 export { ChartArea, ChartAreaMetadata, type ChartAreaProps } from './chart/chart-area';
-export { ChartAreaFilled, ChartAreaFilledMetadata, type ChartAreaFilledProps } from './chart/chart-area_filled';
 export { ChartBarBig, ChartBarBigMetadata, type ChartBarBigProps } from './chart/chart-bar-big';
 export { ChartBarDecreasing, ChartBarDecreasingMetadata, type ChartBarDecreasingProps } from './chart/chart-bar-decreasing';
 export { ChartBarIncreasing, ChartBarIncreasingMetadata, type ChartBarIncreasingProps } from './chart/chart-bar-increasing';
 export { ChartBarStacked, ChartBarStackedMetadata, type ChartBarStackedProps } from './chart/chart-bar-stacked';
 export { ChartBar, ChartBarMetadata, type ChartBarProps } from './chart/chart-bar';
-export { ChartBubbleFilled, ChartBubbleFilledMetadata, type ChartBubbleFilledProps } from './chart/chart-bubble_filled';
-export { ChartCandleFilled, ChartCandleFilledMetadata, type ChartCandleFilledProps } from './chart/chart-candle_filled';
 export { ChartCandlestick, ChartCandlestickMetadata, type ChartCandlestickProps } from './chart/chart-candlestick';
 export { ChartColumnBig, ChartColumnBigMetadata, type ChartColumnBigProps } from './chart/chart-column-big';
 export { ChartColumnDecreasing, ChartColumnDecreasingMetadata, type ChartColumnDecreasingProps } from './chart/chart-column-decreasing';
 export { ChartColumnIncreasing, ChartColumnIncreasingMetadata, type ChartColumnIncreasingProps } from './chart/chart-column-increasing';
 export { ChartColumnStacked, ChartColumnStackedMetadata, type ChartColumnStackedProps } from './chart/chart-column-stacked';
 export { ChartColumn, ChartColumnMetadata, type ChartColumnProps } from './chart/chart-column';
-export { ChartDonutFilled, ChartDonutFilledMetadata, type ChartDonutFilledProps } from './chart/chart-donut_filled';
-export { ChartDots2Filled, ChartDots2FilledMetadata, type ChartDots2FilledProps } from './chart/chart-dots-2_filled';
-export { ChartDots3Filled, ChartDots3FilledMetadata, type ChartDots3FilledProps } from './chart/chart-dots-3_filled';
-export { ChartDotsFilled, ChartDotsFilledMetadata, type ChartDotsFilledProps } from './chart/chart-dots_filled';
-export { ChartFunnelFilled, ChartFunnelFilledMetadata, type ChartFunnelFilledProps } from './chart/chart-funnel_filled';
 export { ChartGantt, ChartGanttMetadata, type ChartGanttProps } from './chart/chart-gantt';
-export { ChartGridDotsFilled, ChartGridDotsFilledMetadata, type ChartGridDotsFilledProps } from './chart/chart-grid-dots_filled';
 export { ChartLine, ChartLineMetadata, type ChartLineProps } from './chart/chart-line';
 export { ChartNetwork, ChartNetworkMetadata, type ChartNetworkProps } from './chart/chart-network';
 export { ChartNoAxesColumnDecreasing, ChartNoAxesColumnDecreasingMetadata, type ChartNoAxesColumnDecreasingProps } from './chart/chart-no-axes-column-decreasing';
@@ -468,112 +588,46 @@ export { ChartNoAxesColumnIncreasing, ChartNoAxesColumnIncreasingMetadata, type 
 export { ChartNoAxesColumn, ChartNoAxesColumnMetadata, type ChartNoAxesColumnProps } from './chart/chart-no-axes-column';
 export { ChartNoAxesCombined, ChartNoAxesCombinedMetadata, type ChartNoAxesCombinedProps } from './chart/chart-no-axes-combined';
 export { ChartNoAxesGantt, ChartNoAxesGanttMetadata, type ChartNoAxesGanttProps } from './chart/chart-no-axes-gantt';
-export { ChartPie2Filled, ChartPie2FilledMetadata, type ChartPie2FilledProps } from './chart/chart-pie-2_filled';
-export { ChartPie3Filled, ChartPie3FilledMetadata, type ChartPie3FilledProps } from './chart/chart-pie-3_filled';
-export { ChartPie4Filled, ChartPie4FilledMetadata, type ChartPie4FilledProps } from './chart/chart-pie-4_filled';
 export { ChartPie, ChartPieMetadata, type ChartPieProps } from './chart/chart-pie';
-export { ChartPieFilled, ChartPieFilledMetadata, type ChartPieFilledProps } from './chart/chart-pie_filled';
 export { ChartScatter, ChartScatterMetadata, type ChartScatterProps } from './chart/chart-scatter';
 export { ChartSpline, ChartSplineMetadata, type ChartSplineProps } from './chart/chart-spline';
 export { CircleAlert, CircleAlertMetadata, type CircleAlertProps } from './circle/circle-alert';
-export { CircleArrowDownLeftFilled, CircleArrowDownLeftFilledMetadata, type CircleArrowDownLeftFilledProps } from './circle/circle-arrow-down-left_filled';
-export { CircleArrowDownRightFilled, CircleArrowDownRightFilledMetadata, type CircleArrowDownRightFilledProps } from './circle/circle-arrow-down-right_filled';
 export { CircleArrowDown, CircleArrowDownMetadata, type CircleArrowDownProps } from './circle/circle-arrow-down';
-export { CircleArrowDownFilled, CircleArrowDownFilledMetadata, type CircleArrowDownFilledProps } from './circle/circle-arrow-down_filled';
 export { CircleArrowLeft, CircleArrowLeftMetadata, type CircleArrowLeftProps } from './circle/circle-arrow-left';
-export { CircleArrowLeftFilled, CircleArrowLeftFilledMetadata, type CircleArrowLeftFilledProps } from './circle/circle-arrow-left_filled';
 export { CircleArrowOutDownLeft, CircleArrowOutDownLeftMetadata, type CircleArrowOutDownLeftProps } from './circle/circle-arrow-out-down-left';
 export { CircleArrowOutDownRight, CircleArrowOutDownRightMetadata, type CircleArrowOutDownRightProps } from './circle/circle-arrow-out-down-right';
 export { CircleArrowOutUpLeft, CircleArrowOutUpLeftMetadata, type CircleArrowOutUpLeftProps } from './circle/circle-arrow-out-up-left';
 export { CircleArrowOutUpRight, CircleArrowOutUpRightMetadata, type CircleArrowOutUpRightProps } from './circle/circle-arrow-out-up-right';
 export { CircleArrowRight, CircleArrowRightMetadata, type CircleArrowRightProps } from './circle/circle-arrow-right';
-export { CircleArrowRightFilled, CircleArrowRightFilledMetadata, type CircleArrowRightFilledProps } from './circle/circle-arrow-right_filled';
-export { CircleArrowUpLeftFilled, CircleArrowUpLeftFilledMetadata, type CircleArrowUpLeftFilledProps } from './circle/circle-arrow-up-left_filled';
-export { CircleArrowUpRightFilled, CircleArrowUpRightFilledMetadata, type CircleArrowUpRightFilledProps } from './circle/circle-arrow-up-right_filled';
 export { CircleArrowUp, CircleArrowUpMetadata, type CircleArrowUpProps } from './circle/circle-arrow-up';
-export { CircleArrowUpFilled, CircleArrowUpFilledMetadata, type CircleArrowUpFilledProps } from './circle/circle-arrow-up_filled';
-export { CircleCaretDownFilled, CircleCaretDownFilledMetadata, type CircleCaretDownFilledProps } from './circle/circle-caret-down_filled';
-export { CircleCaretLeftFilled, CircleCaretLeftFilledMetadata, type CircleCaretLeftFilledProps } from './circle/circle-caret-left_filled';
-export { CircleCaretRightFilled, CircleCaretRightFilledMetadata, type CircleCaretRightFilledProps } from './circle/circle-caret-right_filled';
-export { CircleCaretUpFilled, CircleCaretUpFilledMetadata, type CircleCaretUpFilledProps } from './circle/circle-caret-up_filled';
 export { CircleCheckBig, CircleCheckBigMetadata, type CircleCheckBigProps } from './circle/circle-check-big';
 export { CircleCheck, CircleCheckMetadata, type CircleCheckProps } from './circle/circle-check';
-export { CircleCheckFilled, CircleCheckFilledMetadata, type CircleCheckFilledProps } from './circle/circle-check_filled';
 export { CircleChevronDown, CircleChevronDownMetadata, type CircleChevronDownProps } from './circle/circle-chevron-down';
-export { CircleChevronDownFilled, CircleChevronDownFilledMetadata, type CircleChevronDownFilledProps } from './circle/circle-chevron-down_filled';
 export { CircleChevronLeft, CircleChevronLeftMetadata, type CircleChevronLeftProps } from './circle/circle-chevron-left';
-export { CircleChevronLeftFilled, CircleChevronLeftFilledMetadata, type CircleChevronLeftFilledProps } from './circle/circle-chevron-left_filled';
 export { CircleChevronRight, CircleChevronRightMetadata, type CircleChevronRightProps } from './circle/circle-chevron-right';
-export { CircleChevronRightFilled, CircleChevronRightFilledMetadata, type CircleChevronRightFilledProps } from './circle/circle-chevron-right_filled';
 export { CircleChevronUp, CircleChevronUpMetadata, type CircleChevronUpProps } from './circle/circle-chevron-up';
-export { CircleChevronUpFilled, CircleChevronUpFilledMetadata, type CircleChevronUpFilledProps } from './circle/circle-chevron-up_filled';
-export { CircleChevronsDownFilled, CircleChevronsDownFilledMetadata, type CircleChevronsDownFilledProps } from './circle/circle-chevrons-down_filled';
-export { CircleChevronsLeftFilled, CircleChevronsLeftFilledMetadata, type CircleChevronsLeftFilledProps } from './circle/circle-chevrons-left_filled';
-export { CircleChevronsRightFilled, CircleChevronsRightFilledMetadata, type CircleChevronsRightFilledProps } from './circle/circle-chevrons-right_filled';
-export { CircleChevronsUpFilled, CircleChevronsUpFilledMetadata, type CircleChevronsUpFilledProps } from './circle/circle-chevrons-up_filled';
 export { CircleDashed, CircleDashedMetadata, type CircleDashedProps } from './circle/circle-dashed';
 export { CircleDivide, CircleDivideMetadata, type CircleDivideProps } from './circle/circle-divide';
 export { CircleDollarSign, CircleDollarSignMetadata, type CircleDollarSignProps } from './circle/circle-dollar-sign';
 export { CircleDotDashed, CircleDotDashedMetadata, type CircleDotDashedProps } from './circle/circle-dot-dashed';
 export { CircleDot, CircleDotMetadata, type CircleDotProps } from './circle/circle-dot';
-export { CircleDotFilled, CircleDotFilledMetadata, type CircleDotFilledProps } from './circle/circle-dot_filled';
 export { CircleEllipsis, CircleEllipsisMetadata, type CircleEllipsisProps } from './circle/circle-ellipsis';
 export { CircleEqual, CircleEqualMetadata, type CircleEqualProps } from './circle/circle-equal';
 export { CircleFadingArrowUp, CircleFadingArrowUpMetadata, type CircleFadingArrowUpProps } from './circle/circle-fading-arrow-up';
 export { CircleFadingPlus, CircleFadingPlusMetadata, type CircleFadingPlusProps } from './circle/circle-fading-plus';
 export { CircleGauge, CircleGaugeMetadata, type CircleGaugeProps } from './circle/circle-gauge';
-export { CircleKeyFilled, CircleKeyFilledMetadata, type CircleKeyFilledProps } from './circle/circle-key_filled';
-export { CircleLetterAFilled, CircleLetterAFilledMetadata, type CircleLetterAFilledProps } from './circle/circle-letter-a_filled';
-export { CircleLetterBFilled, CircleLetterBFilledMetadata, type CircleLetterBFilledProps } from './circle/circle-letter-b_filled';
-export { CircleLetterCFilled, CircleLetterCFilledMetadata, type CircleLetterCFilledProps } from './circle/circle-letter-c_filled';
-export { CircleLetterDFilled, CircleLetterDFilledMetadata, type CircleLetterDFilledProps } from './circle/circle-letter-d_filled';
-export { CircleLetterEFilled, CircleLetterEFilledMetadata, type CircleLetterEFilledProps } from './circle/circle-letter-e_filled';
-export { CircleLetterFFilled, CircleLetterFFilledMetadata, type CircleLetterFFilledProps } from './circle/circle-letter-f_filled';
-export { CircleLetterGFilled, CircleLetterGFilledMetadata, type CircleLetterGFilledProps } from './circle/circle-letter-g_filled';
-export { CircleLetterHFilled, CircleLetterHFilledMetadata, type CircleLetterHFilledProps } from './circle/circle-letter-h_filled';
-export { CircleLetterIFilled, CircleLetterIFilledMetadata, type CircleLetterIFilledProps } from './circle/circle-letter-i_filled';
-export { CircleLetterJFilled, CircleLetterJFilledMetadata, type CircleLetterJFilledProps } from './circle/circle-letter-j_filled';
-export { CircleLetterKFilled, CircleLetterKFilledMetadata, type CircleLetterKFilledProps } from './circle/circle-letter-k_filled';
-export { CircleLetterLFilled, CircleLetterLFilledMetadata, type CircleLetterLFilledProps } from './circle/circle-letter-l_filled';
-export { CircleLetterMFilled, CircleLetterMFilledMetadata, type CircleLetterMFilledProps } from './circle/circle-letter-m_filled';
-export { CircleLetterNFilled, CircleLetterNFilledMetadata, type CircleLetterNFilledProps } from './circle/circle-letter-n_filled';
-export { CircleLetterOFilled, CircleLetterOFilledMetadata, type CircleLetterOFilledProps } from './circle/circle-letter-o_filled';
-export { CircleLetterPFilled, CircleLetterPFilledMetadata, type CircleLetterPFilledProps } from './circle/circle-letter-p_filled';
-export { CircleLetterQFilled, CircleLetterQFilledMetadata, type CircleLetterQFilledProps } from './circle/circle-letter-q_filled';
-export { CircleLetterRFilled, CircleLetterRFilledMetadata, type CircleLetterRFilledProps } from './circle/circle-letter-r_filled';
-export { CircleLetterSFilled, CircleLetterSFilledMetadata, type CircleLetterSFilledProps } from './circle/circle-letter-s_filled';
-export { CircleLetterTFilled, CircleLetterTFilledMetadata, type CircleLetterTFilledProps } from './circle/circle-letter-t_filled';
-export { CircleLetterUFilled, CircleLetterUFilledMetadata, type CircleLetterUFilledProps } from './circle/circle-letter-u_filled';
-export { CircleLetterVFilled, CircleLetterVFilledMetadata, type CircleLetterVFilledProps } from './circle/circle-letter-v_filled';
-export { CircleLetterWFilled, CircleLetterWFilledMetadata, type CircleLetterWFilledProps } from './circle/circle-letter-w_filled';
-export { CircleLetterXFilled, CircleLetterXFilledMetadata, type CircleLetterXFilledProps } from './circle/circle-letter-x_filled';
-export { CircleLetterYFilled, CircleLetterYFilledMetadata, type CircleLetterYFilledProps } from './circle/circle-letter-y_filled';
-export { CircleLetterZFilled, CircleLetterZFilledMetadata, type CircleLetterZFilledProps } from './circle/circle-letter-z_filled';
 export { CircleMinus, CircleMinusMetadata, type CircleMinusProps } from './circle/circle-minus';
-export { CircleNumber0Filled, CircleNumber0FilledMetadata, type CircleNumber0FilledProps } from './circle/circle-number-0_filled';
-export { CircleNumber1Filled, CircleNumber1FilledMetadata, type CircleNumber1FilledProps } from './circle/circle-number-1_filled';
-export { CircleNumber2Filled, CircleNumber2FilledMetadata, type CircleNumber2FilledProps } from './circle/circle-number-2_filled';
-export { CircleNumber3Filled, CircleNumber3FilledMetadata, type CircleNumber3FilledProps } from './circle/circle-number-3_filled';
-export { CircleNumber4Filled, CircleNumber4FilledMetadata, type CircleNumber4FilledProps } from './circle/circle-number-4_filled';
-export { CircleNumber5Filled, CircleNumber5FilledMetadata, type CircleNumber5FilledProps } from './circle/circle-number-5_filled';
-export { CircleNumber6Filled, CircleNumber6FilledMetadata, type CircleNumber6FilledProps } from './circle/circle-number-6_filled';
-export { CircleNumber7Filled, CircleNumber7FilledMetadata, type CircleNumber7FilledProps } from './circle/circle-number-7_filled';
-export { CircleNumber8Filled, CircleNumber8FilledMetadata, type CircleNumber8FilledProps } from './circle/circle-number-8_filled';
-export { CircleNumber9Filled, CircleNumber9FilledMetadata, type CircleNumber9FilledProps } from './circle/circle-number-9_filled';
 export { CircleOff, CircleOffMetadata, type CircleOffProps } from './circle/circle-off';
 export { CircleParkingOff, CircleParkingOffMetadata, type CircleParkingOffProps } from './circle/circle-parking-off';
 export { CircleParking, CircleParkingMetadata, type CircleParkingProps } from './circle/circle-parking';
 export { CirclePause, CirclePauseMetadata, type CirclePauseProps } from './circle/circle-pause';
 export { CirclePercent, CirclePercentMetadata, type CirclePercentProps } from './circle/circle-percent';
-export { CirclePercentageFilled, CirclePercentageFilledMetadata, type CirclePercentageFilledProps } from './circle/circle-percentage_filled';
 export { CirclePile, CirclePileMetadata, type CirclePileProps } from './circle/circle-pile';
 export { CirclePlay, CirclePlayMetadata, type CirclePlayProps } from './circle/circle-play';
 export { CirclePlus, CirclePlusMetadata, type CirclePlusProps } from './circle/circle-plus';
-export { CirclePlusFilled, CirclePlusFilledMetadata, type CirclePlusFilledProps } from './circle/circle-plus_filled';
 export { CirclePoundSterling, CirclePoundSterlingMetadata, type CirclePoundSterlingProps } from './circle/circle-pound-sterling';
 export { CirclePower, CirclePowerMetadata, type CirclePowerProps } from './circle/circle-power';
 export { CircleQuestionMark, CircleQuestionMarkMetadata, type CircleQuestionMarkProps } from './circle/circle-question-mark';
-export { CircleRectangleFilled, CircleRectangleFilledMetadata, type CircleRectangleFilledProps } from './circle/circle-rectangle_filled';
 export { CircleSlash2, CircleSlash2Metadata, type CircleSlash2Props } from './circle/circle-slash-2';
 export { CircleSlash, CircleSlashMetadata, type CircleSlashProps } from './circle/circle-slash';
 export { CircleSmall, CircleSmallMetadata, type CircleSmallProps } from './circle/circle-small';
@@ -582,31 +636,19 @@ export { CircleStop, CircleStopMetadata, type CircleStopProps } from './circle/c
 export { CircleUserRound, CircleUserRoundMetadata, type CircleUserRoundProps } from './circle/circle-user-round';
 export { CircleUser, CircleUserMetadata, type CircleUserProps } from './circle/circle-user';
 export { CircleX, CircleXMetadata, type CircleXProps } from './circle/circle-x';
-export { CircleXFilled, CircleXFilledMetadata, type CircleXFilledProps } from './circle/circle-x_filled';
 export { Circle, CircleMetadata, type CircleProps } from './circle/circle';
-export { CircleFilled, CircleFilledMetadata, type CircleFilledProps } from './circle/circle_filled';
-export { CirclesFilled, CirclesFilledMetadata, type CirclesFilledProps } from './circle/circles_filled';
 export { ClipboardCheck, ClipboardCheckMetadata, type ClipboardCheckProps } from './clipboard/clipboard-check';
-export { ClipboardCheckFilled, ClipboardCheckFilledMetadata, type ClipboardCheckFilledProps } from './clipboard/clipboard-check_filled';
 export { ClipboardClock, ClipboardClockMetadata, type ClipboardClockProps } from './clipboard/clipboard-clock';
 export { ClipboardCopy, ClipboardCopyMetadata, type ClipboardCopyProps } from './clipboard/clipboard-copy';
-export { ClipboardDataFilled, ClipboardDataFilledMetadata, type ClipboardDataFilledProps } from './clipboard/clipboard-data_filled';
 export { ClipboardList, ClipboardListMetadata, type ClipboardListProps } from './clipboard/clipboard-list';
-export { ClipboardListFilled, ClipboardListFilledMetadata, type ClipboardListFilledProps } from './clipboard/clipboard-list_filled';
 export { ClipboardMinus, ClipboardMinusMetadata, type ClipboardMinusProps } from './clipboard/clipboard-minus';
 export { ClipboardPaste, ClipboardPasteMetadata, type ClipboardPasteProps } from './clipboard/clipboard-paste';
 export { ClipboardPenLine, ClipboardPenLineMetadata, type ClipboardPenLineProps } from './clipboard/clipboard-pen-line';
 export { ClipboardPen, ClipboardPenMetadata, type ClipboardPenProps } from './clipboard/clipboard-pen';
 export { ClipboardPlus, ClipboardPlusMetadata, type ClipboardPlusProps } from './clipboard/clipboard-plus';
-export { ClipboardPlusFilled, ClipboardPlusFilledMetadata, type ClipboardPlusFilledProps } from './clipboard/clipboard-plus_filled';
-export { ClipboardSmileFilled, ClipboardSmileFilledMetadata, type ClipboardSmileFilledProps } from './clipboard/clipboard-smile_filled';
-export { ClipboardTextFilled, ClipboardTextFilledMetadata, type ClipboardTextFilledProps } from './clipboard/clipboard-text_filled';
 export { ClipboardType, ClipboardTypeMetadata, type ClipboardTypeProps } from './clipboard/clipboard-type';
-export { ClipboardTypographyFilled, ClipboardTypographyFilledMetadata, type ClipboardTypographyFilledProps } from './clipboard/clipboard-typography_filled';
 export { ClipboardX, ClipboardXMetadata, type ClipboardXProps } from './clipboard/clipboard-x';
-export { ClipboardXFilled, ClipboardXFilledMetadata, type ClipboardXFilledProps } from './clipboard/clipboard-x_filled';
 export { Clipboard, ClipboardMetadata, type ClipboardProps } from './clipboard/clipboard';
-export { ClipboardFilled, ClipboardFilledMetadata, type ClipboardFilledProps } from './clipboard/clipboard_filled';
 export { CopyCheck, CopyCheckMetadata, type CopyCheckProps } from './clipboard/copy-check';
 export { CopyMinus, CopyMinusMetadata, type CopyMinusProps } from './clipboard/copy-minus';
 export { CopyPlus, CopyPlusMetadata, type CopyPlusProps } from './clipboard/copy-plus';
@@ -653,50 +695,127 @@ export { CloudSync, CloudSyncMetadata, type CloudSyncProps } from './cloud/cloud
 export { CloudUpload, CloudUploadMetadata, type CloudUploadProps } from './cloud/cloud-upload';
 export { Cloud, CloudMetadata, type CloudProps } from './cloud/cloud';
 export { Cloudy, CloudyMetadata, type CloudyProps } from './cloud/cloudy';
+export { Code1Rounded, Code1RoundedMetadata, type Code1RoundedProps } from './code/code-1_rounded';
+export { CodeCircleRounded, CodeCircleRoundedMetadata, type CodeCircleRoundedProps } from './code/code-circle_rounded';
 export { CodeXml, CodeXmlMetadata, type CodeXmlProps } from './code/code-xml';
 export { Code, CodeMetadata, type CodeProps } from './code/code';
+export { CodeRounded, CodeRoundedMetadata, type CodeRoundedProps } from './code/code_rounded';
 export { Codepen, CodepenMetadata, type CodepenProps } from './code/codepen';
 export { Codesandbox, CodesandboxMetadata, type CodesandboxProps } from './code/codesandbox';
+export { CommandSquareRounded, CommandSquareRoundedMetadata, type CommandSquareRoundedProps } from './code/command-square_rounded';
+export { CommandRounded, CommandRoundedMetadata, type CommandRoundedProps } from './code/command_rounded';
 export { Component, ComponentMetadata, type ComponentProps } from './code/component';
+export { Data2Rounded, Data2RoundedMetadata, type Data2RoundedProps } from './code/data-2_rounded';
+export { DataRounded, DataRoundedMetadata, type DataRoundedProps } from './code/data_rounded';
+export { DocumentCode2Rounded, DocumentCode2RoundedMetadata, type DocumentCode2RoundedProps } from './code/document-code-2_rounded';
+export { DocumentCodeRounded, DocumentCodeRoundedMetadata, type DocumentCodeRoundedProps } from './code/document-code_rounded';
+export { GitBranchMinus, GitBranchMinusMetadata, type GitBranchMinusProps } from './code/git-branch-minus';
+export { GitBranchPlus, GitBranchPlusMetadata, type GitBranchPlusProps } from './code/git-branch-plus';
+export { GitBranch, GitBranchMetadata, type GitBranchProps } from './code/git-branch';
+export { GitCommitHorizontal, GitCommitHorizontalMetadata, type GitCommitHorizontalProps } from './code/git-commit-horizontal';
+export { GitCommitVertical, GitCommitVerticalMetadata, type GitCommitVerticalProps } from './code/git-commit-vertical';
+export { GitCompareArrows, GitCompareArrowsMetadata, type GitCompareArrowsProps } from './code/git-compare-arrows';
+export { GitCompare, GitCompareMetadata, type GitCompareProps } from './code/git-compare';
+export { GitFork, GitForkMetadata, type GitForkProps } from './code/git-fork';
+export { GitGraph, GitGraphMetadata, type GitGraphProps } from './code/git-graph';
+export { GitMergeConflict, GitMergeConflictMetadata, type GitMergeConflictProps } from './code/git-merge-conflict';
+export { GitMerge, GitMergeMetadata, type GitMergeProps } from './code/git-merge';
+export { GitPullRequestArrow, GitPullRequestArrowMetadata, type GitPullRequestArrowProps } from './code/git-pull-request-arrow';
+export { GitPullRequestClosed, GitPullRequestClosedMetadata, type GitPullRequestClosedProps } from './code/git-pull-request-closed';
+export { GitPullRequestCreateArrow, GitPullRequestCreateArrowMetadata, type GitPullRequestCreateArrowProps } from './code/git-pull-request-create-arrow';
+export { GitPullRequestCreate, GitPullRequestCreateMetadata, type GitPullRequestCreateProps } from './code/git-pull-request-create';
+export { GitPullRequestDraft, GitPullRequestDraftMetadata, type GitPullRequestDraftProps } from './code/git-pull-request-draft';
+export { GitPullRequest, GitPullRequestMetadata, type GitPullRequestProps } from './code/git-pull-request';
+export { HashtagDownRounded, HashtagDownRoundedMetadata, type HashtagDownRoundedProps } from './code/hashtag-down_rounded';
+export { HashtagUpRounded, HashtagUpRoundedMetadata, type HashtagUpRoundedProps } from './code/hashtag-up_rounded';
+export { Hierarchy2Rounded, Hierarchy2RoundedMetadata, type Hierarchy2RoundedProps } from './code/hierarchy-2_rounded';
+export { Hierarchy3Rounded, Hierarchy3RoundedMetadata, type Hierarchy3RoundedProps } from './code/hierarchy-3_rounded';
+export { HierarchySquare2Rounded, HierarchySquare2RoundedMetadata, type HierarchySquare2RoundedProps } from './code/hierarchy-square-2_rounded';
+export { HierarchySquare3Rounded, HierarchySquare3RoundedMetadata, type HierarchySquare3RoundedProps } from './code/hierarchy-square-3_rounded';
+export { HierarchySquareRounded, HierarchySquareRoundedMetadata, type HierarchySquareRoundedProps } from './code/hierarchy-square_rounded';
+export { HierarchyRounded, HierarchyRoundedMetadata, type HierarchyRoundedProps } from './code/hierarchy_rounded';
+export { MessageProgrammingRounded, MessageProgrammingRoundedMetadata, type MessageProgrammingRoundedProps } from './code/message-programming_rounded';
+export { MobileProgrammingRounded, MobileProgrammingRoundedMetadata, type MobileProgrammingRoundedProps } from './code/mobile-programming_rounded';
+export { ProgrammingArrowRounded, ProgrammingArrowRoundedMetadata, type ProgrammingArrowRoundedProps } from './code/programming-arrow_rounded';
+export { ProgrammingArrowsRounded, ProgrammingArrowsRoundedMetadata, type ProgrammingArrowsRoundedProps } from './code/programming-arrows_rounded';
+export { ScrollRounded, ScrollRoundedMetadata, type ScrollRoundedProps } from './code/scroll_rounded';
+export { SidebarBottomRounded, SidebarBottomRoundedMetadata, type SidebarBottomRoundedProps } from './code/sidebar-bottom_rounded';
+export { SidebarLeftRounded, SidebarLeftRoundedMetadata, type SidebarLeftRoundedProps } from './code/sidebar-left_rounded';
+export { SidebarRightRounded, SidebarRightRoundedMetadata, type SidebarRightRoundedProps } from './code/sidebar-right_rounded';
+export { SidebarTopRounded, SidebarTopRoundedMetadata, type SidebarTopRoundedProps } from './code/sidebar-top_rounded';
 export { Bag2Doodle, Bag2DoodleMetadata, type Bag2DoodleProps } from './commerce/bag-2_doodle';
+export { Bag2Rounded, Bag2RoundedMetadata, type Bag2RoundedProps } from './commerce/bag-2_rounded';
+export { BagCross1Rounded, BagCross1RoundedMetadata, type BagCross1RoundedProps } from './commerce/bag-cross-1_rounded';
+export { BagCrossRounded, BagCrossRoundedMetadata, type BagCrossRoundedProps } from './commerce/bag-cross_rounded';
+export { BagHappyRounded, BagHappyRoundedMetadata, type BagHappyRoundedProps } from './commerce/bag-happy_rounded';
+export { BagTick2Rounded, BagTick2RoundedMetadata, type BagTick2RoundedProps } from './commerce/bag-tick-2_rounded';
+export { BagTickRounded, BagTickRoundedMetadata, type BagTickRoundedProps } from './commerce/bag-tick_rounded';
+export { BagTimerRounded, BagTimerRoundedMetadata, type BagTimerRoundedProps } from './commerce/bag-timer_rounded';
 export { BagDoodle, BagDoodleMetadata, type BagDoodleProps } from './commerce/bag_doodle';
+export { BagRounded, BagRoundedMetadata, type BagRoundedProps } from './commerce/bag_rounded';
+export { BarcodeRounded, BarcodeRoundedMetadata, type BarcodeRoundedProps } from './commerce/barcode_rounded';
 export { BasketDoodle, BasketDoodleMetadata, type BasketDoodleProps } from './commerce/basket_doodle';
+export { Box1Rounded, Box1RoundedMetadata, type Box1RoundedProps } from './commerce/box-1_rounded';
 export { Box2Doodle, Box2DoodleMetadata, type Box2DoodleProps } from './commerce/box-2_doodle';
+export { BoxAddRounded, BoxAddRoundedMetadata, type BoxAddRoundedProps } from './commerce/box-add_rounded';
+export { BoxRemoveRounded, BoxRemoveRoundedMetadata, type BoxRemoveRoundedProps } from './commerce/box-remove_rounded';
+export { BoxSearchRounded, BoxSearchRoundedMetadata, type BoxSearchRoundedProps } from './commerce/box-search_rounded';
+export { BoxTickRounded, BoxTickRoundedMetadata, type BoxTickRoundedProps } from './commerce/box-tick_rounded';
+export { BoxTimeRounded, BoxTimeRoundedMetadata, type BoxTimeRoundedProps } from './commerce/box-time_rounded';
 export { BoxDoodle, BoxDoodleMetadata, type BoxDoodleProps } from './commerce/box_doodle';
+export { BoxRounded, BoxRoundedMetadata, type BoxRoundedProps } from './commerce/box_rounded';
 export { Card2Doodle, Card2DoodleMetadata, type Card2DoodleProps } from './commerce/card-2_doodle';
 export { Card3Doodle, Card3DoodleMetadata, type Card3DoodleProps } from './commerce/card-3_doodle';
 export { CardDoodle, CardDoodleMetadata, type CardDoodleProps } from './commerce/card_doodle';
 export { CartAddDoodle, CartAddDoodleMetadata, type CartAddDoodleProps } from './commerce/cart-add_doodle';
 export { CartDeleteDoodle, CartDeleteDoodleMetadata, type CartDeleteDoodleProps } from './commerce/cart-delete_doodle';
 export { CartRemoveDoodle, CartRemoveDoodleMetadata, type CartRemoveDoodleProps } from './commerce/cart-remove_doodle';
+export { Convert3dCubeRounded, Convert3dCubeRoundedMetadata, type Convert3dCubeRoundedProps } from './commerce/convert-3d-cube_rounded';
 export { ConveyorBeltDoodle, ConveyorBeltDoodleMetadata, type ConveyorBeltDoodleProps } from './commerce/conveyor-belt_doodle';
+export { CubeScanRounded, CubeScanRoundedMetadata, type CubeScanRoundedProps } from './commerce/cube-scan_rounded';
 export { FactoryDoodle, FactoryDoodleMetadata, type FactoryDoodleProps } from './commerce/factory_doodle';
+export { Group1Rounded, Group1RoundedMetadata, type Group1RoundedProps } from './commerce/group-1_rounded';
+export { GroupRounded, GroupRoundedMetadata, type GroupRoundedProps } from './commerce/group_rounded';
 export { HandTruckDoodle, HandTruckDoodleMetadata, type HandTruckDoodleProps } from './commerce/hand-truck_doodle';
 export { LocationDoodle, LocationDoodleMetadata, type LocationDoodleProps } from './commerce/location_doodle';
 export { OfferDoodle, OfferDoodleMetadata, type OfferDoodleProps } from './commerce/offer_doodle';
 export { QrDoodle, QrDoodleMetadata, type QrDoodleProps } from './commerce/qr_doodle';
+export { RotateRounded, RotateRoundedMetadata, type RotateRoundedProps } from './commerce/rotate_rounded';
 export { SaleDoodle, SaleDoodleMetadata, type SaleDoodleProps } from './commerce/sale_doodle';
+export { ShopAddRounded, ShopAddRoundedMetadata, type ShopAddRoundedProps } from './commerce/shop-add_rounded';
+export { ShopRemoveRounded, ShopRemoveRoundedMetadata, type ShopRemoveRoundedProps } from './commerce/shop-remove_rounded';
 export { ShopDoodle, ShopDoodleMetadata, type ShopDoodleProps } from './commerce/shop_doodle';
+export { ShopRounded, ShopRoundedMetadata, type ShopRoundedProps } from './commerce/shop_rounded';
+export { ShoppingBagRounded, ShoppingBagRoundedMetadata, type ShoppingBagRoundedProps } from './commerce/shopping-bag_rounded';
 export { ShoppingCart2Doodle, ShoppingCart2DoodleMetadata, type ShoppingCart2DoodleProps } from './commerce/shopping-cart-2_doodle';
 export { ShoppingCart3Doodle, ShoppingCart3DoodleMetadata, type ShoppingCart3DoodleProps } from './commerce/shopping-cart-3_doodle';
 export { ShoppingCartDoodle, ShoppingCartDoodleMetadata, type ShoppingCartDoodleProps } from './commerce/shopping-cart_doodle';
+export { ShoppingCartRounded, ShoppingCartRoundedMetadata, type ShoppingCartRoundedProps } from './commerce/shopping-cart_rounded';
+export { SquareRounded, SquareRoundedMetadata, type SquareRoundedProps } from './commerce/square_rounded';
 export { Tag2Doodle, Tag2DoodleMetadata, type Tag2DoodleProps } from './commerce/tag-2_doodle';
 export { TagDoodle, TagDoodleMetadata, type TagDoodleProps } from './commerce/tag_doodle';
+export { TruckRemoveRounded, TruckRemoveRoundedMetadata, type TruckRemoveRoundedProps } from './commerce/truck-remove_rounded';
+export { TruckTickRounded, TruckTickRoundedMetadata, type TruckTickRoundedProps } from './commerce/truck-tick_rounded';
+export { TruckTimeRounded, TruckTimeRoundedMetadata, type TruckTimeRoundedProps } from './commerce/truck-time_rounded';
 export { TruckDoodle, TruckDoodleMetadata, type TruckDoodleProps } from './commerce/truck_doodle';
 export { UnboxDoodle, UnboxDoodleMetadata, type UnboxDoodleProps } from './commerce/unbox_doodle';
 export { WarehouseDoodle, WarehouseDoodleMetadata, type WarehouseDoodleProps } from './commerce/warehouse_doodle';
+export { CallAddRounded, CallAddRoundedMetadata, type CallAddRoundedProps } from './communiccation/call-add_rounded';
+export { CallCallingRounded, CallCallingRoundedMetadata, type CallCallingRoundedProps } from './communiccation/call-calling_rounded';
+export { CallIncomingRounded, CallIncomingRoundedMetadata, type CallIncomingRoundedProps } from './communiccation/call-incoming_rounded';
+export { CallMinusRounded, CallMinusRoundedMetadata, type CallMinusRoundedProps } from './communiccation/call-minus_rounded';
+export { CallOutgoingRounded, CallOutgoingRoundedMetadata, type CallOutgoingRoundedProps } from './communiccation/call-outgoing_rounded';
+export { CallReceivedRounded, CallReceivedRoundedMetadata, type CallReceivedRoundedProps } from './communiccation/call-received_rounded';
+export { CallRemoveRounded, CallRemoveRoundedMetadata, type CallRemoveRoundedProps } from './communiccation/call-remove_rounded';
+export { CallSlashRounded, CallSlashRoundedMetadata, type CallSlashRoundedProps } from './communiccation/call-slash_rounded';
+export { CallRounded, CallRoundedMetadata, type CallRoundedProps } from './communiccation/call_rounded';
 export { PhoneCall, PhoneCallMetadata, type PhoneCallProps } from './communiccation/phone-call';
-export { PhoneCallFilled, PhoneCallFilledMetadata, type PhoneCallFilledProps } from './communiccation/phone-call_filled';
-export { PhoneCallingFilled, PhoneCallingFilledMetadata, type PhoneCallingFilledProps } from './communiccation/phone-calling_filled';
-export { PhoneCheckFilled, PhoneCheckFilledMetadata, type PhoneCheckFilledProps } from './communiccation/phone-check_filled';
 export { PhoneForwarded, PhoneForwardedMetadata, type PhoneForwardedProps } from './communiccation/phone-forwarded';
 export { PhoneIncoming, PhoneIncomingMetadata, type PhoneIncomingProps } from './communiccation/phone-incoming';
 export { PhoneMissed, PhoneMissedMetadata, type PhoneMissedProps } from './communiccation/phone-missed';
 export { PhoneOff, PhoneOffMetadata, type PhoneOffProps } from './communiccation/phone-off';
 export { PhoneOutgoing, PhoneOutgoingMetadata, type PhoneOutgoingProps } from './communiccation/phone-outgoing';
-export { PhoneXFilled, PhoneXFilledMetadata, type PhoneXFilledProps } from './communiccation/phone-x_filled';
 export { Phone, PhoneMetadata, type PhoneProps } from './communiccation/phone';
-export { PhoneFilled, PhoneFilledMetadata, type PhoneFilledProps } from './communiccation/phone_filled';
 export { MouseLeft, MouseLeftMetadata, type MouseLeftProps } from './cursor/mouse-left';
 export { MouseOff, MouseOffMetadata, type MouseOffProps } from './cursor/mouse-off';
 export { MousePointer2Off, MousePointer2OffMetadata, type MousePointer2OffProps } from './cursor/mouse-pointer-2-off';
@@ -708,27 +827,55 @@ export { MouseRight, MouseRightMetadata, type MouseRightProps } from './cursor/m
 export { Mouse, MouseMetadata, type MouseProps } from './cursor/mouse';
 export { PointerOff, PointerOffMetadata, type PointerOffProps } from './cursor/pointer-off';
 export { Pointer, PointerMetadata, type PointerProps } from './cursor/pointer';
+export { AdditemRounded, AdditemRoundedMetadata, type AdditemRoundedProps } from './design/additem_rounded';
 export { ArchiveRestore, ArchiveRestoreMetadata, type ArchiveRestoreProps } from './design/archive-restore';
 export { ArchiveX, ArchiveXMetadata, type ArchiveXProps } from './design/archive-x';
 export { Archive, ArchiveMetadata, type ArchiveProps } from './design/archive';
+export { BackwardItem1Rounded, BackwardItem1RoundedMetadata, type BackwardItem1RoundedProps } from './design/backward-item-1_rounded';
+export { BackwardItemRounded, BackwardItemRoundedMetadata, type BackwardItemRoundedProps } from './design/backward-item_rounded';
+export { Bezier1Rounded, Bezier1RoundedMetadata, type Bezier1RoundedProps } from './design/bezier-1_rounded';
+export { BezierRounded, BezierRoundedMetadata, type BezierRoundedProps } from './design/bezier_rounded';
+export { Blend2Rounded, Blend2RoundedMetadata, type Blend2RoundedProps } from './design/blend-2_rounded';
+export { BlendRounded, BlendRoundedMetadata, type BlendRoundedProps } from './design/blend_rounded';
+export { Blur1Rounded, Blur1RoundedMetadata, type Blur1RoundedProps } from './design/blur-1_rounded';
+export { BlurRounded, BlurRoundedMetadata, type BlurRoundedProps } from './design/blur_rounded';
+export { Brush1Rounded, Brush1RoundedMetadata, type Brush1RoundedProps } from './design/brush-1_rounded';
+export { Brush2Rounded, Brush2RoundedMetadata, type Brush2RoundedProps } from './design/brush-2_rounded';
+export { Brush3Rounded, Brush3RoundedMetadata, type Brush3RoundedProps } from './design/brush-3_rounded';
 export { BrushCleaning, BrushCleaningMetadata, type BrushCleaningProps } from './design/brush-cleaning';
 export { Brush, BrushMetadata, type BrushProps } from './design/brush';
+export { BrushRounded, BrushRoundedMetadata, type BrushRoundedProps } from './design/brush_rounded';
+export { BucketCircle1Rounded, BucketCircle1RoundedMetadata, type BucketCircle1RoundedProps } from './design/bucket-circle-1_rounded';
+export { BucketCircleRounded, BucketCircleRoundedMetadata, type BucketCircleRoundedProps } from './design/bucket-circle_rounded';
+export { BucketSquare1Rounded, BucketSquare1RoundedMetadata, type BucketSquare1RoundedProps } from './design/bucket-square-1_rounded';
+export { BucketSquareRounded, BucketSquareRoundedMetadata, type BucketSquareRoundedProps } from './design/bucket-square_rounded';
 export { CheckCheck, CheckCheckMetadata, type CheckCheckProps } from './design/check-check';
 export { CheckLine, CheckLineMetadata, type CheckLineProps } from './design/check-line';
 export { Check, CheckMetadata, type CheckProps } from './design/check';
+export { ColorSwatchRounded, ColorSwatchRoundedMetadata, type ColorSwatchRoundedProps } from './design/color-swatch_rounded';
+export { ColorfilterRounded, ColorfilterRoundedMetadata, type ColorfilterRoundedProps } from './design/colorfilter_rounded';
+export { ColorsSquare1Rounded, ColorsSquare1RoundedMetadata, type ColorsSquare1RoundedProps } from './design/colors-square-1_rounded';
+export { ColorsSquareRounded, ColorsSquareRoundedMetadata, type ColorsSquareRoundedProps } from './design/colors-square_rounded';
+export { Component1Rounded, Component1RoundedMetadata, type Component1RoundedProps } from './design/component-1_rounded';
+export { ComponentRounded, ComponentRoundedMetadata, type ComponentRoundedProps } from './design/component_rounded';
 export { Contrast, ContrastMetadata, type ContrastProps } from './design/contrast';
-export { Crop11Filled, Crop11FilledMetadata, type Crop11FilledProps } from './design/crop-1-1_filled';
-export { Crop169Filled, Crop169FilledMetadata, type Crop169FilledProps } from './design/crop-16-9_filled';
-export { Crop32Filled, Crop32FilledMetadata, type Crop32FilledProps } from './design/crop-3-2_filled';
-export { Crop54Filled, Crop54FilledMetadata, type Crop54FilledProps } from './design/crop-5-4_filled';
-export { Crop75Filled, Crop75FilledMetadata, type Crop75FilledProps } from './design/crop-7-5_filled';
-export { CropLandscapeFilled, CropLandscapeFilledMetadata, type CropLandscapeFilledProps } from './design/crop-landscape_filled';
-export { CropPortraitFilled, CropPortraitFilledMetadata, type CropPortraitFilledProps } from './design/crop-portrait_filled';
+export { CopySuccessRounded, CopySuccessRoundedMetadata, type CopySuccessRoundedProps } from './design/copy-success_rounded';
+export { CopyRounded, CopyRoundedMetadata, type CopyRoundedProps } from './design/copy_rounded';
 export { Crop, CropMetadata, type CropProps } from './design/crop';
+export { DesigntoolsRounded, DesigntoolsRoundedMetadata, type DesigntoolsRoundedProps } from './design/designtools_rounded';
 export { DraftingCompass, DraftingCompassMetadata, type DraftingCompassProps } from './design/drafting-compass';
+export { Eraser1Rounded, Eraser1RoundedMetadata, type Eraser1RoundedProps } from './design/eraser-1_rounded';
 export { Eraser, EraserMetadata, type EraserProps } from './design/eraser';
+export { EraserRounded, EraserRoundedMetadata, type EraserRoundedProps } from './design/eraser_rounded';
+export { FlashCircle1Rounded, FlashCircle1RoundedMetadata, type FlashCircle1RoundedProps } from './design/flash-circle-1_rounded';
+export { FlashCircleRounded, FlashCircleRoundedMetadata, type FlashCircleRoundedProps } from './design/flash-circle_rounded';
+export { ForwardItem1Rounded, ForwardItem1RoundedMetadata, type ForwardItem1RoundedProps } from './design/forward-item-1_rounded';
+export { ForwardItemRounded, ForwardItemRoundedMetadata, type ForwardItemRoundedProps } from './design/forward-item_rounded';
 export { Frame, FrameMetadata, type FrameProps } from './design/frame';
 export { Fullscreen, FullscreenMetadata, type FullscreenProps } from './design/fullscreen';
+export { GlassRounded, GlassRoundedMetadata, type GlassRoundedProps } from './design/glass_rounded';
+export { Group2Rounded, Group2RoundedMetadata, type Group2RoundedProps } from './design/group-2_rounded';
+export { Group3Rounded, Group3RoundedMetadata, type Group3RoundedProps } from './design/group-3_rounded';
 export { ImageDown, ImageDownMetadata, type ImageDownProps } from './design/image-down';
 export { ImageMinus, ImageMinusMetadata, type ImageMinusProps } from './design/image-minus';
 export { ImageOff, ImageOffMetadata, type ImageOffProps } from './design/image-off';
@@ -738,76 +885,178 @@ export { ImageUp, ImageUpMetadata, type ImageUpProps } from './design/image-up';
 export { ImageUpscale, ImageUpscaleMetadata, type ImageUpscaleProps } from './design/image-upscale';
 export { Image, ImageMetadata, type ImageProps } from './design/image';
 export { Images, ImagesMetadata, type ImagesProps } from './design/images';
+export { LayerRounded, LayerRoundedMetadata, type LayerRoundedProps } from './design/layer_rounded';
+export { LifebuoyRounded, LifebuoyRoundedMetadata, type LifebuoyRoundedProps } from './design/lifebuoy_rounded';
+export { MagicpenRounded, MagicpenRoundedMetadata, type MagicpenRoundedProps } from './design/magicpen_rounded';
+export { MainComponent1Rounded, MainComponent1RoundedMetadata, type MainComponent1RoundedProps } from './design/main-component-1_rounded';
+export { MainComponentRounded, MainComponentRoundedMetadata, type MainComponentRoundedProps } from './design/main-component_rounded';
+export { Mask1Rounded, Mask1RoundedMetadata, type Mask1RoundedProps } from './design/mask-1_rounded';
+export { Mask2Rounded, Mask2RoundedMetadata, type Mask2RoundedProps } from './design/mask-2_rounded';
+export { Mask3Rounded, Mask3RoundedMetadata, type Mask3RoundedProps } from './design/mask-3_rounded';
+export { MaskRounded, MaskRoundedMetadata, type MaskRoundedProps } from './design/mask_rounded';
+export { OmegaCircle1Rounded, OmegaCircle1RoundedMetadata, type OmegaCircle1RoundedProps } from './design/omega-circle-1_rounded';
+export { OmegaCircleRounded, OmegaCircleRoundedMetadata, type OmegaCircleRoundedProps } from './design/omega-circle_rounded';
+export { OmegaSquare1Rounded, OmegaSquare1RoundedMetadata, type OmegaSquare1RoundedProps } from './design/omega-square-1_rounded';
+export { OmegaSquareRounded, OmegaSquareRoundedMetadata, type OmegaSquareRoundedProps } from './design/omega-square_rounded';
 export { PaintBucket, PaintBucketMetadata, type PaintBucketProps } from './design/paint-bucket';
 export { PaintRoller, PaintRollerMetadata, type PaintRollerProps } from './design/paint-roller';
 export { PaintbrushVertical, PaintbrushVerticalMetadata, type PaintbrushVerticalProps } from './design/paintbrush-vertical';
 export { Paintbrush, PaintbrushMetadata, type PaintbrushProps } from './design/paintbrush';
+export { PaintbucketRounded, PaintbucketRoundedMetadata, type PaintbucketRoundedProps } from './design/paintbucket_rounded';
 export { Palette, PaletteMetadata, type PaletteProps } from './design/palette';
 export { Paperclip, PaperclipMetadata, type PaperclipProps } from './design/paperclip';
+export { Path2Rounded, Path2RoundedMetadata, type Path2RoundedProps } from './design/path-2_rounded';
+export { PathSquareRounded, PathSquareRoundedMetadata, type PathSquareRoundedProps } from './design/path-square_rounded';
+export { PathRounded, PathRoundedMetadata, type PathRoundedProps } from './design/path_rounded';
+export { PenAdd1Rounded, PenAdd1RoundedMetadata, type PenAdd1RoundedProps } from './design/pen-add-1_rounded';
+export { PenAddRounded, PenAddRoundedMetadata, type PenAddRoundedProps } from './design/pen-add_rounded';
+export { PenClose1Rounded, PenClose1RoundedMetadata, type PenClose1RoundedProps } from './design/pen-close-1_rounded';
+export { PenCloseRounded, PenCloseRoundedMetadata, type PenCloseRoundedProps } from './design/pen-close_rounded';
 export { PenLine, PenLineMetadata, type PenLineProps } from './design/pen-line';
 export { PenOff, PenOffMetadata, type PenOffProps } from './design/pen-off';
+export { PenRemove1Rounded, PenRemove1RoundedMetadata, type PenRemove1RoundedProps } from './design/pen-remove-1_rounded';
+export { PenRemoveRounded, PenRemoveRoundedMetadata, type PenRemoveRoundedProps } from './design/pen-remove_rounded';
+export { PenTool1Rounded, PenTool1RoundedMetadata, type PenTool1RoundedProps } from './design/pen-tool-1_rounded';
+export { PenTool21Rounded, PenTool21RoundedMetadata, type PenTool21RoundedProps } from './design/pen-tool-2-1_rounded';
+export { PenTool2Rounded, PenTool2RoundedMetadata, type PenTool2RoundedProps } from './design/pen-tool-2_rounded';
 export { PenTool, PenToolMetadata, type PenToolProps } from './design/pen-tool';
+export { PenToolRounded, PenToolRoundedMetadata, type PenToolRoundedProps } from './design/pen-tool_rounded';
 export { Pen, PenMetadata, type PenProps } from './design/pen';
 export { PencilLine, PencilLineMetadata, type PencilLineProps } from './design/pencil-line';
 export { PencilOff, PencilOffMetadata, type PencilOffProps } from './design/pencil-off';
 export { PencilRuler, PencilRulerMetadata, type PencilRulerProps } from './design/pencil-ruler';
 export { Pencil, PencilMetadata, type PencilProps } from './design/pencil';
 export { Pipette, PipetteMetadata, type PipetteProps } from './design/pipette';
-export { ZoomCancelFilled, ZoomCancelFilledMetadata, type ZoomCancelFilledProps } from './design/zoom-cancel_filled';
-export { ZoomCheckFilled, ZoomCheckFilledMetadata, type ZoomCheckFilledProps } from './design/zoom-check_filled';
-export { ZoomCodeFilled, ZoomCodeFilledMetadata, type ZoomCodeFilledProps } from './design/zoom-code_filled';
-export { ZoomExclamationFilled, ZoomExclamationFilledMetadata, type ZoomExclamationFilledProps } from './design/zoom-exclamation_filled';
-export { ZoomInAreaFilled, ZoomInAreaFilledMetadata, type ZoomInAreaFilledProps } from './design/zoom-in-area_filled';
-export { ZoomInFilled, ZoomInFilledMetadata, type ZoomInFilledProps } from './design/zoom-in_filled';
-export { ZoomMoneyFilled, ZoomMoneyFilledMetadata, type ZoomMoneyFilledProps } from './design/zoom-money_filled';
-export { ZoomOutAreaFilled, ZoomOutAreaFilledMetadata, type ZoomOutAreaFilledProps } from './design/zoom-out-area_filled';
-export { ZoomOutFilled, ZoomOutFilledMetadata, type ZoomOutFilledProps } from './design/zoom-out_filled';
-export { ZoomPanFilled, ZoomPanFilledMetadata, type ZoomPanFilledProps } from './design/zoom-pan_filled';
-export { ZoomQuestionFilled, ZoomQuestionFilledMetadata, type ZoomQuestionFilledProps } from './design/zoom-question_filled';
-export { ZoomScanFilled, ZoomScanFilledMetadata, type ZoomScanFilledProps } from './design/zoom-scan_filled';
-export { ZoomFilled, ZoomFilledMetadata, type ZoomFilledProps } from './design/zoom_filled';
+export { RecoveryConvertRounded, RecoveryConvertRoundedMetadata, type RecoveryConvertRoundedProps } from './design/recovery-convert_rounded';
+export { RulerPenRounded, RulerPenRoundedMetadata, type RulerPenRoundedProps } from './design/ruler-pen_rounded';
+export { RulerRounded, RulerRoundedMetadata, type RulerRoundedProps } from './design/ruler_rounded';
+export { Scissor1Rounded, Scissor1RoundedMetadata, type Scissor1RoundedProps } from './design/scissor-1_rounded';
+export { ScissorRounded, ScissorRoundedMetadata, type ScissorRoundedProps } from './design/scissor_rounded';
+export { Shapes1Rounded, Shapes1RoundedMetadata, type Shapes1RoundedProps } from './design/shapes-1_rounded';
+export { Shapes2Rounded, Shapes2RoundedMetadata, type Shapes2RoundedProps } from './design/shapes-2_rounded';
+export { ShapesRounded, ShapesRoundedMetadata, type ShapesRoundedProps } from './design/shapes_rounded';
+export { SizeRounded, SizeRoundedMetadata, type SizeRoundedProps } from './design/size_rounded';
 export { AirVent, AirVentMetadata, type AirVentProps } from './device/air-vent';
+export { AirdropRounded, AirdropRoundedMetadata, type AirdropRoundedProps } from './device/airdrop_rounded';
 export { Airplay, AirplayMetadata, type AirplayProps } from './device/airplay';
+export { AirpodRounded, AirpodRoundedMetadata, type AirpodRoundedProps } from './device/airpod_rounded';
+export { AirpodsRounded, AirpodsRoundedMetadata, type AirpodsRoundedProps } from './device/airpods_rounded';
 export { AlarmSmoke, AlarmSmokeMetadata, type AlarmSmokeProps } from './device/alarm-smoke';
+export { Bluetooth2Rounded, Bluetooth2RoundedMetadata, type Bluetooth2RoundedProps } from './device/bluetooth-2_rounded';
+export { BluetoothCircleRounded, BluetoothCircleRoundedMetadata, type BluetoothCircleRoundedProps } from './device/bluetooth-circle_rounded';
+export { BluetoothRectangleRounded, BluetoothRectangleRoundedMetadata, type BluetoothRectangleRoundedProps } from './device/bluetooth-rectangle_rounded';
+export { BluetoothRounded, BluetoothRoundedMetadata, type BluetoothRoundedProps } from './device/bluetooth_rounded';
+export { CloudAddRounded, CloudAddRoundedMetadata, type CloudAddRoundedProps } from './device/cloud-add_rounded';
+export { CloudChangeRounded, CloudChangeRoundedMetadata, type CloudChangeRoundedProps } from './device/cloud-change_rounded';
+export { CloudConnectionRounded, CloudConnectionRoundedMetadata, type CloudConnectionRoundedProps } from './device/cloud-connection_rounded';
+export { CloudRemoveRounded, CloudRemoveRoundedMetadata, type CloudRemoveRoundedProps } from './device/cloud-remove_rounded';
 export { Computer, ComputerMetadata, type ComputerProps } from './device/computer';
-export { DeviceCctvFilled, DeviceCctvFilledMetadata, type DeviceCctvFilledProps } from './device/device-cctv_filled';
-export { DeviceDesktopFilled, DeviceDesktopFilledMetadata, type DeviceDesktopFilledProps } from './device/device-desktop_filled';
-export { DeviceGamepad3Filled, DeviceGamepad3FilledMetadata, type DeviceGamepad3FilledProps } from './device/device-gamepad-3_filled';
-export { DeviceGamepadFilled, DeviceGamepadFilledMetadata, type DeviceGamepadFilledProps } from './device/device-gamepad_filled';
-export { DeviceHeartMonitorFilled, DeviceHeartMonitorFilledMetadata, type DeviceHeartMonitorFilledProps } from './device/device-heart-monitor_filled';
-export { DeviceImacFilled, DeviceImacFilledMetadata, type DeviceImacFilledProps } from './device/device-imac_filled';
-export { DeviceIpadFilled, DeviceIpadFilledMetadata, type DeviceIpadFilledProps } from './device/device-ipad_filled';
-export { DeviceMobileFilled, DeviceMobileFilledMetadata, type DeviceMobileFilledProps } from './device/device-mobile_filled';
-export { DeviceRemoteFilled, DeviceRemoteFilledMetadata, type DeviceRemoteFilledProps } from './device/device-remote_filled';
-export { DeviceSpeakerFilled, DeviceSpeakerFilledMetadata, type DeviceSpeakerFilledProps } from './device/device-speaker_filled';
-export { DeviceTabletFilled, DeviceTabletFilledMetadata, type DeviceTabletFilledProps } from './device/device-tablet_filled';
-export { DeviceTvOldFilled, DeviceTvOldFilledMetadata, type DeviceTvOldFilledProps } from './device/device-tv-old_filled';
-export { DeviceTvFilled, DeviceTvFilledMetadata, type DeviceTvFilledProps } from './device/device-tv_filled';
-export { DeviceUnknownFilled, DeviceUnknownFilledMetadata, type DeviceUnknownFilledProps } from './device/device-unknown_filled';
-export { DeviceUsbFilled, DeviceUsbFilledMetadata, type DeviceUsbFilledProps } from './device/device-usb_filled';
-export { DeviceVisionProFilled, DeviceVisionProFilledMetadata, type DeviceVisionProFilledProps } from './device/device-vision-pro_filled';
-export { DeviceWatchFilled, DeviceWatchFilledMetadata, type DeviceWatchFilledProps } from './device/device-watch_filled';
+export { CpuChargeRounded, CpuChargeRoundedMetadata, type CpuChargeRoundedProps } from './device/cpu-charge_rounded';
+export { CpuSettingRounded, CpuSettingRoundedMetadata, type CpuSettingRoundedProps } from './device/cpu-setting_rounded';
+export { CpuRounded, CpuRoundedMetadata, type CpuRoundedProps } from './device/cpu_rounded';
+export { DevicesRounded, DevicesRoundedMetadata, type DevicesRoundedProps } from './device/devices_rounded';
+export { Driver2Rounded, Driver2RoundedMetadata, type Driver2RoundedProps } from './device/driver-2_rounded';
+export { DriverRefreshRounded, DriverRefreshRoundedMetadata, type DriverRefreshRoundedProps } from './device/driver-refresh_rounded';
+export { DriverRounded, DriverRoundedMetadata, type DriverRoundedProps } from './device/driver_rounded';
+export { ElectricityRounded, ElectricityRoundedMetadata, type ElectricityRoundedProps } from './device/electricity_rounded';
+export { ExternalDriveRounded, ExternalDriveRoundedMetadata, type ExternalDriveRoundedProps } from './device/external-drive_rounded';
+export { FolderConnectionRounded, FolderConnectionRoundedMetadata, type FolderConnectionRoundedProps } from './device/folder-connection_rounded';
+export { GameRounded, GameRoundedMetadata, type GameRoundedProps } from './device/game_rounded';
+export { GameboyRounded, GameboyRoundedMetadata, type GameboyRoundedProps } from './device/gameboy_rounded';
 export { HdmiPort, HdmiPortMetadata, type HdmiPortProps } from './device/hdmi-port';
+export { HeadphoneRounded, HeadphoneRoundedMetadata, type HeadphoneRoundedProps } from './device/headphone_rounded';
+export { HeadphonesRounded, HeadphonesRoundedMetadata, type HeadphonesRoundedProps } from './device/headphones_rounded';
 export { KeyboardMusic, KeyboardMusicMetadata, type KeyboardMusicProps } from './device/keyboard-music';
 export { KeyboardOff, KeyboardOffMetadata, type KeyboardOffProps } from './device/keyboard-off';
+export { KeyboardOpenRounded, KeyboardOpenRoundedMetadata, type KeyboardOpenRoundedProps } from './device/keyboard-open_rounded';
 export { Keyboard, KeyboardMetadata, type KeyboardProps } from './device/keyboard';
+export { KeyboardRounded, KeyboardRoundedMetadata, type KeyboardRoundedProps } from './device/keyboard_rounded';
+export { LampRounded, LampRoundedMetadata, type LampRoundedProps } from './device/lamp_rounded';
 export { LaptopMinimalCheck, LaptopMinimalCheckMetadata, type LaptopMinimalCheckProps } from './device/laptop-minimal-check';
 export { LaptopMinimal, LaptopMinimalMetadata, type LaptopMinimalProps } from './device/laptop-minimal';
 export { Laptop, LaptopMetadata, type LaptopProps } from './device/laptop';
+export { MicroscopeRounded, MicroscopeRoundedMetadata, type MicroscopeRoundedProps } from './device/microscope_rounded';
+export { MirroringScreenRounded, MirroringScreenRoundedMetadata, type MirroringScreenRoundedProps } from './device/mirroring-screen_rounded';
+export { MobileRounded, MobileRoundedMetadata, type MobileRoundedProps } from './device/mobile_rounded';
+export { MonitorMobbileRounded, MonitorMobbileRoundedMetadata, type MonitorMobbileRoundedProps } from './device/monitor-mobbile_rounded';
+export { MonitorRecorderRounded, MonitorRecorderRoundedMetadata, type MonitorRecorderRoundedProps } from './device/monitor-recorder_rounded';
+export { MonitorRounded, MonitorRoundedMetadata, type MonitorRoundedProps } from './device/monitor_rounded';
+export { MouseRounded, MouseRoundedMetadata, type MouseRoundedProps } from './device/mouse_rounded';
+export { MusicPlayRounded, MusicPlayRoundedMetadata, type MusicPlayRoundedProps } from './device/music-play_rounded';
 export { PcCase, PcCaseMetadata, type PcCaseProps } from './device/pc-case';
 export { Presentation, PresentationMetadata, type PresentationProps } from './device/presentation';
 export { PrinterCheck, PrinterCheckMetadata, type PrinterCheckProps } from './device/printer-check';
+export { PrinterSlashRounded, PrinterSlashRoundedMetadata, type PrinterSlashRoundedProps } from './device/printer-slash_rounded';
 export { PrinterX, PrinterXMetadata, type PrinterXProps } from './device/printer-x';
 export { Printer, PrinterMetadata, type PrinterProps } from './device/printer';
+export { PrinterRounded, PrinterRoundedMetadata, type PrinterRoundedProps } from './device/printer_rounded';
 export { Projector, ProjectorMetadata, type ProjectorProps } from './device/projector';
+export { Ram2Rounded, Ram2RoundedMetadata, type Ram2RoundedProps } from './device/ram-2_rounded';
+export { RamRounded, RamRoundedMetadata, type RamRoundedProps } from './device/ram_rounded';
+export { Simcard1Rounded, Simcard1RoundedMetadata, type Simcard1RoundedProps } from './device/simcard-1_rounded';
+export { Simcard2Rounded, Simcard2RoundedMetadata, type Simcard2RoundedProps } from './device/simcard-2_rounded';
+export { SimcardRounded, SimcardRoundedMetadata, type SimcardRoundedProps } from './device/simcard_rounded';
 export { Smartphone, SmartphoneMetadata, type SmartphoneProps } from './device/smartphone';
 export { Speaker, SpeakerMetadata, type SpeakerProps } from './device/speaker';
+export { SpeakerRounded, SpeakerRoundedMetadata, type SpeakerRoundedProps } from './device/speaker_rounded';
 export { TabletSmartphone, TabletSmartphoneMetadata, type TabletSmartphoneProps } from './device/tablet-smartphone';
 export { Tablet, TabletMetadata, type TabletProps } from './device/tablet';
 export { TouchpadOff, TouchpadOffMetadata, type TouchpadOffProps } from './device/touchpad-off';
 export { Touchpad, TouchpadMetadata, type TouchpadProps } from './device/touchpad';
 export { WashingMachine, WashingMachineMetadata, type WashingMachineProps } from './device/washing-machine';
+export { WatchStatusRounded, WatchStatusRoundedMetadata, type WatchStatusRoundedProps } from './device/watch-status_rounded';
 export { Watch, WatchMetadata, type WatchProps } from './device/watch';
+export { WatchRounded, WatchRoundedMetadata, type WatchRoundedProps } from './device/watch_rounded';
+export { WeightRounded, WeightRoundedMetadata, type WeightRoundedProps } from './device/weight_rounded';
+export { ArchiveBookRounded, ArchiveBookRoundedMetadata, type ArchiveBookRoundedProps } from './document/archive-book_rounded';
+export { BillRounded, BillRoundedMetadata, type BillRoundedProps } from './document/bill_rounded';
+export { ClipboardCloseRounded, ClipboardCloseRoundedMetadata, type ClipboardCloseRoundedProps } from './document/clipboard-close_rounded';
+export { ClipboardExportRounded, ClipboardExportRoundedMetadata, type ClipboardExportRoundedProps } from './document/clipboard-export_rounded';
+export { ClipboardImportRounded, ClipboardImportRoundedMetadata, type ClipboardImportRoundedProps } from './document/clipboard-import_rounded';
+export { ClipboardTextRounded, ClipboardTextRoundedMetadata, type ClipboardTextRoundedProps } from './document/clipboard-text_rounded';
+export { ClipboardTickRounded, ClipboardTickRoundedMetadata, type ClipboardTickRoundedProps } from './document/clipboard-tick_rounded';
+export { CopyrightRounded, CopyrightRoundedMetadata, type CopyrightRoundedProps } from './document/copyright_rounded';
+export { CreativeCommonsRounded, CreativeCommonsRoundedMetadata, type CreativeCommonsRoundedProps } from './document/creative-commons_rounded';
+export { DocumentCloudRounded, DocumentCloudRoundedMetadata, type DocumentCloudRoundedProps } from './document/document-cloud_rounded';
+export { DocumentCopyRounded, DocumentCopyRoundedMetadata, type DocumentCopyRoundedProps } from './document/document-copy_rounded';
+export { DocumentDownloadRounded, DocumentDownloadRoundedMetadata, type DocumentDownloadRoundedProps } from './document/document-download_rounded';
+export { DocumentFavoriteRounded, DocumentFavoriteRoundedMetadata, type DocumentFavoriteRoundedProps } from './document/document-favorite_rounded';
+export { DocumentFilterRounded, DocumentFilterRoundedMetadata, type DocumentFilterRoundedProps } from './document/document-filter_rounded';
+export { DocumentForwardRounded, DocumentForwardRoundedMetadata, type DocumentForwardRoundedProps } from './document/document-forward_rounded';
+export { DocumentLikeRounded, DocumentLikeRoundedMetadata, type DocumentLikeRoundedProps } from './document/document-like_rounded';
+export { DocumentNormalRounded, DocumentNormalRoundedMetadata, type DocumentNormalRoundedProps } from './document/document-normal_rounded';
+export { DocumentPreviousRounded, DocumentPreviousRoundedMetadata, type DocumentPreviousRoundedProps } from './document/document-previous_rounded';
+export { DocumentSketchRounded, DocumentSketchRoundedMetadata, type DocumentSketchRoundedProps } from './document/document-sketch_rounded';
+export { DocumentText1Rounded, DocumentText1RoundedMetadata, type DocumentText1RoundedProps } from './document/document-text-1_rounded';
+export { DocumentTextRounded, DocumentTextRoundedMetadata, type DocumentTextRoundedProps } from './document/document-text_rounded';
+export { DocumentUploadRounded, DocumentUploadRoundedMetadata, type DocumentUploadRoundedProps } from './document/document-upload_rounded';
+export { DocumentRounded, DocumentRoundedMetadata, type DocumentRoundedProps } from './document/document_rounded';
+export { Edit2Rounded, Edit2RoundedMetadata, type Edit2RoundedProps } from './document/edit-2_rounded';
+export { EditRounded, EditRoundedMetadata, type EditRoundedProps } from './document/edit_rounded';
+export { MenuBoardRounded, MenuBoardRoundedMetadata, type MenuBoardRoundedProps } from './document/menu-board_rounded';
+export { Note1Rounded, Note1RoundedMetadata, type Note1RoundedProps } from './document/note-1_rounded';
+export { NoteAddRounded, NoteAddRoundedMetadata, type NoteAddRoundedProps } from './document/note-add_rounded';
+export { NoteFavoriteRounded, NoteFavoriteRoundedMetadata, type NoteFavoriteRoundedProps } from './document/note-favorite_rounded';
+export { NoteRemoveRounded, NoteRemoveRoundedMetadata, type NoteRemoveRoundedProps } from './document/note-remove_rounded';
+export { NoteTextRounded, NoteTextRoundedMetadata, type NoteTextRoundedProps } from './document/note-text_rounded';
+export { NoteRounded, NoteRoundedMetadata, type NoteRoundedProps } from './document/note_rounded';
+export { StickynoteRounded, StickynoteRoundedMetadata, type StickynoteRoundedProps } from './document/stickynote_rounded';
+export { TaskSquareRounded, TaskSquareRoundedMetadata, type TaskSquareRoundedProps } from './document/task-square_rounded';
+export { TaskRounded, TaskRoundedMetadata, type TaskRoundedProps } from './document/task_rounded';
+export { AwardRounded, AwardRoundedMetadata, type AwardRoundedProps } from './education/award_rounded';
+export { Book1Rounded, Book1RoundedMetadata, type Book1RoundedProps } from './education/book-1_rounded';
+export { BookRounded, BookRoundedMetadata, type BookRoundedProps } from './education/book_rounded';
+export { Bookmark2Rounded, Bookmark2RoundedMetadata, type Bookmark2RoundedProps } from './education/bookmark-2_rounded';
+export { BookmarkRounded, BookmarkRoundedMetadata, type BookmarkRoundedProps } from './education/bookmark_rounded';
+export { BriefcaseRounded, BriefcaseRoundedMetadata, type BriefcaseRoundedProps } from './education/briefcase_rounded';
+export { BrifecaseCrossRounded, BrifecaseCrossRoundedMetadata, type BrifecaseCrossRoundedProps } from './education/brifecase-cross_rounded';
+export { BrifecaseTickRounded, BrifecaseTickRoundedMetadata, type BrifecaseTickRoundedProps } from './education/brifecase-tick_rounded';
+export { BrifecaseTimerRounded, BrifecaseTimerRoundedMetadata, type BrifecaseTimerRoundedProps } from './education/brifecase-timer_rounded';
+export { CalculatorRounded, CalculatorRoundedMetadata, type CalculatorRoundedProps } from './education/calculator_rounded';
+export { ClipboardRounded, ClipboardRoundedMetadata, type ClipboardRoundedProps } from './education/clipboard_rounded';
+export { GiftRounded, GiftRoundedMetadata, type GiftRoundedProps } from './education/gift_rounded';
+export { Note2Rounded, Note2RoundedMetadata, type Note2RoundedProps } from './education/note-2_rounded';
+export { TeacherRounded, TeacherRoundedMetadata, type TeacherRoundedProps } from './education/teacher_rounded';
 export { Angry, AngryMetadata, type AngryProps } from './emoji/angry';
 export { Annoyed, AnnoyedMetadata, type AnnoyedProps } from './emoji/annoyed';
 export { ConfusedEmojiDoodle, ConfusedEmojiDoodleMetadata, type ConfusedEmojiDoodleProps } from './emoji/confused-emoji_doodle';
@@ -818,16 +1067,6 @@ export { HappyEmojiDoodle, HappyEmojiDoodleMetadata, type HappyEmojiDoodleProps 
 export { HeartEyesEmojiDoodle, HeartEyesEmojiDoodleMetadata, type HeartEyesEmojiDoodleProps } from './emoji/heart-eyes-emoji_doodle';
 export { LaughEmojiDoodle, LaughEmojiDoodleMetadata, type LaughEmojiDoodleProps } from './emoji/laugh-emoji_doodle';
 export { Laugh, LaughMetadata, type LaughProps } from './emoji/laugh';
-export { MoodAngryFilled, MoodAngryFilledMetadata, type MoodAngryFilledProps } from './emoji/mood-angry_filled';
-export { MoodConfuzedFilled, MoodConfuzedFilledMetadata, type MoodConfuzedFilledProps } from './emoji/mood-confuzed_filled';
-export { MoodCrazyHappyFilled, MoodCrazyHappyFilledMetadata, type MoodCrazyHappyFilledProps } from './emoji/mood-crazy-happy_filled';
-export { MoodEmptyFilled, MoodEmptyFilledMetadata, type MoodEmptyFilledProps } from './emoji/mood-empty_filled';
-export { MoodHappyFilled, MoodHappyFilledMetadata, type MoodHappyFilledProps } from './emoji/mood-happy_filled';
-export { MoodKidFilled, MoodKidFilledMetadata, type MoodKidFilledProps } from './emoji/mood-kid_filled';
-export { MoodNeutralFilled, MoodNeutralFilledMetadata, type MoodNeutralFilledProps } from './emoji/mood-neutral_filled';
-export { MoodSadFilled, MoodSadFilledMetadata, type MoodSadFilledProps } from './emoji/mood-sad_filled';
-export { MoodSmileFilled, MoodSmileFilledMetadata, type MoodSmileFilledProps } from './emoji/mood-smile_filled';
-export { MoodWrrrFilled, MoodWrrrFilledMetadata, type MoodWrrrFilledProps } from './emoji/mood-wrrr_filled';
 export { SadEmojiDoodle, SadEmojiDoodleMetadata, type SadEmojiDoodleProps } from './emoji/sad-emoji_doodle';
 export { ShockedEmojiDoodle, ShockedEmojiDoodleMetadata, type ShockedEmojiDoodleProps } from './emoji/shocked-emoji_doodle';
 export { SmilePlus, SmilePlusMetadata, type SmilePlusProps } from './emoji/smile-plus';
@@ -837,7 +1076,6 @@ export { SmilingWithEyesEmojiDoodle, SmilingWithEyesEmojiDoodleMetadata, type Sm
 export { SurprisedEmojiDoodle, SurprisedEmojiDoodleMetadata, type SurprisedEmojiDoodleProps } from './emoji/surprised-emoji_doodle';
 export { WinkEmojiDoodle, WinkEmojiDoodleMetadata, type WinkEmojiDoodleProps } from './emoji/wink-emoji_doodle';
 export { WorriedEmojiDoodle, WorriedEmojiDoodleMetadata, type WorriedEmojiDoodleProps } from './emoji/worried-emoji_doodle';
-export { FileAnalyticsFilled, FileAnalyticsFilledMetadata, type FileAnalyticsFilledProps } from './file/file-analytics_filled';
 export { FileArchive, FileArchiveMetadata, type FileArchiveProps } from './file/file-archive';
 export { FileAttachmentDoodle, FileAttachmentDoodleMetadata, type FileAttachmentDoodleProps } from './file/file-attachment_doodle';
 export { FileAudioDoodle, FileAudioDoodleMetadata, type FileAudioDoodleProps } from './file/file-audio_doodle';
@@ -852,591 +1090,73 @@ export { FileChartLine, FileChartLineMetadata, type FileChartLineProps } from '.
 export { FileChartPie, FileChartPieMetadata, type FileChartPieProps } from './file/file-chart-pie';
 export { FileCheckCorner, FileCheckCornerMetadata, type FileCheckCornerProps } from './file/file-check-corner';
 export { FileCheck, FileCheckMetadata, type FileCheckProps } from './file/file-check';
-export { FileCheckFilled, FileCheckFilledMetadata, type FileCheckFilledProps } from './file/file-check_filled';
 export { FileClock, FileClockMetadata, type FileClockProps } from './file/file-clock';
-export { FileCode2Filled, FileCode2FilledMetadata, type FileCode2FilledProps } from './file/file-code-2_filled';
 export { FileCodeCorner, FileCodeCornerMetadata, type FileCodeCornerProps } from './file/file-code-corner';
 export { FileCode, FileCodeMetadata, type FileCodeProps } from './file/file-code';
 export { FileCodeDoodle, FileCodeDoodleMetadata, type FileCodeDoodleProps } from './file/file-code_doodle';
-export { FileCodeFilled, FileCodeFilledMetadata, type FileCodeFilledProps } from './file/file-code_filled';
 export { FileCog, FileCogMetadata, type FileCogProps } from './file/file-cog';
 export { FileContractDoodle, FileContractDoodleMetadata, type FileContractDoodleProps } from './file/file-contract_doodle';
 export { FileCsvDoodle, FileCsvDoodleMetadata, type FileCsvDoodleProps } from './file/file-csv_doodle';
-export { FileCvFilled, FileCvFilledMetadata, type FileCvFilledProps } from './file/file-cv_filled';
-export { FileDeltaFilled, FileDeltaFilledMetadata, type FileDeltaFilledProps } from './file/file-delta_filled';
-export { FileDescriptionFilled, FileDescriptionFilledMetadata, type FileDescriptionFilledProps } from './file/file-description_filled';
 export { FileDiff, FileDiffMetadata, type FileDiffProps } from './file/file-diff';
-export { FileDiffFilled, FileDiffFilledMetadata, type FileDiffFilledProps } from './file/file-diff_filled';
 export { FileDigit, FileDigitMetadata, type FileDigitProps } from './file/file-digit';
-export { FileDigitFilled, FileDigitFilledMetadata, type FileDigitFilledProps } from './file/file-digit_filled';
-export { FileDollarFilled, FileDollarFilledMetadata, type FileDollarFilledProps } from './file/file-dollar_filled';
-export { FileDotsFilled, FileDotsFilledMetadata, type FileDotsFilledProps } from './file/file-dots_filled';
 export { FileDown, FileDownMetadata, type FileDownProps } from './file/file-down';
-export { FileDownloadFilled, FileDownloadFilledMetadata, type FileDownloadFilledProps } from './file/file-download_filled';
-export { FileEuroFilled, FileEuroFilledMetadata, type FileEuroFilledProps } from './file/file-euro_filled';
 export { FileExclamationPoint, FileExclamationPointMetadata, type FileExclamationPointProps } from './file/file-exclamation-point';
 export { FileFigmaDoodle, FileFigmaDoodleMetadata, type FileFigmaDoodleProps } from './file/file-figma_doodle';
 export { FileFormDoodle, FileFormDoodleMetadata, type FileFormDoodleProps } from './file/file-form_doodle';
-export { FileFunctionFilled, FileFunctionFilledMetadata, type FileFunctionFilledProps } from './file/file-function_filled';
 export { FileHeadphone, FileHeadphoneMetadata, type FileHeadphoneProps } from './file/file-headphone';
 export { FileHeart, FileHeartMetadata, type FileHeartProps } from './file/file-heart';
-export { FileHorizontalFilled, FileHorizontalFilledMetadata, type FileHorizontalFilledProps } from './file/file-horizontal_filled';
 export { FileImage2Doodle, FileImage2DoodleMetadata, type FileImage2DoodleProps } from './file/file-image-2_doodle';
 export { FileImage, FileImageMetadata, type FileImageProps } from './file/file-image';
 export { FileImageDoodle, FileImageDoodleMetadata, type FileImageDoodleProps } from './file/file-image_doodle';
-export { FileInfoFilled, FileInfoFilledMetadata, type FileInfoFilledProps } from './file/file-info_filled';
 export { FileInput, FileInputMetadata, type FileInputProps } from './file/file-input';
 export { FileInvoiceDoodle, FileInvoiceDoodleMetadata, type FileInvoiceDoodleProps } from './file/file-invoice_doodle';
-export { FileInvoiceFilled, FileInvoiceFilledMetadata, type FileInvoiceFilledProps } from './file/file-invoice_filled';
 export { FileJpgDoodle, FileJpgDoodleMetadata, type FileJpgDoodleProps } from './file/file-jpg_doodle';
 export { FileKey, FileKeyMetadata, type FileKeyProps } from './file/file-key';
-export { FileLambdaFilled, FileLambdaFilledMetadata, type FileLambdaFilledProps } from './file/file-lambda_filled';
 export { FileListDoodle, FileListDoodleMetadata, type FileListDoodleProps } from './file/file-list_doodle';
 export { FileLock, FileLockMetadata, type FileLockProps } from './file/file-lock';
 export { FileMinusCorner, FileMinusCornerMetadata, type FileMinusCornerProps } from './file/file-minus-corner';
 export { FileMinus, FileMinusMetadata, type FileMinusProps } from './file/file-minus';
-export { FileMinusFilled, FileMinusFilledMetadata, type FileMinusFilledProps } from './file/file-minus_filled';
 export { FileMovDoodle, FileMovDoodleMetadata, type FileMovDoodleProps } from './file/file-mov_doodle';
 export { FileMp4Doodle, FileMp4DoodleMetadata, type FileMp4DoodleProps } from './file/file-mp4_doodle';
 export { FileMusic, FileMusicMetadata, type FileMusicProps } from './file/file-music';
-export { FileMusicFilled, FileMusicFilledMetadata, type FileMusicFilledProps } from './file/file-music_filled';
-export { FileNeutralFilled, FileNeutralFilledMetadata, type FileNeutralFilledProps } from './file/file-neutral_filled';
 export { FileNotesDoodle, FileNotesDoodleMetadata, type FileNotesDoodleProps } from './file/file-notes_doodle';
 export { FileOutput, FileOutputMetadata, type FileOutputProps } from './file/file-output';
 export { FilePdfDoodle, FilePdfDoodleMetadata, type FilePdfDoodleProps } from './file/file-pdf_doodle';
 export { FilePenLine, FilePenLineMetadata, type FilePenLineProps } from './file/file-pen-line';
 export { FilePen, FilePenMetadata, type FilePenProps } from './file/file-pen';
-export { FilePencilFilled, FilePencilFilledMetadata, type FilePencilFilledProps } from './file/file-pencil_filled';
-export { FilePercentFilled, FilePercentFilledMetadata, type FilePercentFilledProps } from './file/file-percent_filled';
-export { FilePhoneFilled, FilePhoneFilledMetadata, type FilePhoneFilledProps } from './file/file-phone_filled';
 export { FilePlay, FilePlayMetadata, type FilePlayProps } from './file/file-play';
 export { FilePlusCorner, FilePlusCornerMetadata, type FilePlusCornerProps } from './file/file-plus-corner';
 export { FilePlus, FilePlusMetadata, type FilePlusProps } from './file/file-plus';
 export { FilePngDoodle, FilePngDoodleMetadata, type FilePngDoodleProps } from './file/file-png_doodle';
-export { FilePowerFilled, FilePowerFilledMetadata, type FilePowerFilledProps } from './file/file-power_filled';
 export { FileQuestionMark, FileQuestionMarkMetadata, type FileQuestionMarkProps } from './file/file-question-mark';
-export { FileRssFilled, FileRssFilledMetadata, type FileRssFilledProps } from './file/file-rss_filled';
-export { FileSadFilled, FileSadFilledMetadata, type FileSadFilledProps } from './file/file-sad_filled';
 export { FileScan, FileScanMetadata, type FileScanProps } from './file/file-scan';
-export { FileScissorsFilled, FileScissorsFilledMetadata, type FileScissorsFilledProps } from './file/file-scissors_filled';
 export { FileSearchCorner, FileSearchCornerMetadata, type FileSearchCornerProps } from './file/file-search-corner';
 export { FileSearch, FileSearchMetadata, type FileSearchProps } from './file/file-search';
-export { FileSettingsFilled, FileSettingsFilledMetadata, type FileSettingsFilledProps } from './file/file-settings_filled';
 export { FileSignal, FileSignalMetadata, type FileSignalProps } from './file/file-signal';
-export { FileSignalFilled, FileSignalFilledMetadata, type FileSignalFilledProps } from './file/file-signal_filled';
 export { FileSliders, FileSlidersMetadata, type FileSlidersProps } from './file/file-sliders';
-export { FileSmileFilled, FileSmileFilledMetadata, type FileSmileFilledProps } from './file/file-smile_filled';
 export { FileSpreadsheet, FileSpreadsheetMetadata, type FileSpreadsheetProps } from './file/file-spreadsheet';
 export { FileSpreadsheetDoodle, FileSpreadsheetDoodleMetadata, type FileSpreadsheetDoodleProps } from './file/file-spreadsheet_doodle';
 export { FileStack, FileStackMetadata, type FileStackProps } from './file/file-stack';
-export { FileStarFilled, FileStarFilledMetadata, type FileStarFilledProps } from './file/file-star_filled';
 export { FileSvgDoodle, FileSvgDoodleMetadata, type FileSvgDoodleProps } from './file/file-svg_doodle';
 export { FileSymlink, FileSymlinkMetadata, type FileSymlinkProps } from './file/file-symlink';
 export { FileTerminal, FileTerminalMetadata, type FileTerminalProps } from './file/file-terminal';
 export { FileText, FileTextMetadata, type FileTextProps } from './file/file-text';
 export { FileTextDoodle, FileTextDoodleMetadata, type FileTextDoodleProps } from './file/file-text_doodle';
-export { FileTextFilled, FileTextFilledMetadata, type FileTextFilledProps } from './file/file-text_filled';
-export { FileTimeFilled, FileTimeFilledMetadata, type FileTimeFilledProps } from './file/file-time_filled';
 export { FileTypeCorner, FileTypeCornerMetadata, type FileTypeCornerProps } from './file/file-type-corner';
 export { FileType, FileTypeMetadata, type FileTypeProps } from './file/file-type';
-export { FileTypographyFilled, FileTypographyFilledMetadata, type FileTypographyFilledProps } from './file/file-typography_filled';
-export { FileUnknownFilled, FileUnknownFilledMetadata, type FileUnknownFilledProps } from './file/file-unknown_filled';
 export { FileUp, FileUpMetadata, type FileUpProps } from './file/file-up';
-export { FileUploadFilled, FileUploadFilledMetadata, type FileUploadFilledProps } from './file/file-upload_filled';
 export { FileUser, FileUserMetadata, type FileUserProps } from './file/file-user';
 export { FileVectorDoodle, FileVectorDoodleMetadata, type FileVectorDoodleProps } from './file/file-vector_doodle';
-export { FileVectorFilled, FileVectorFilledMetadata, type FileVectorFilledProps } from './file/file-vector_filled';
 export { FileVideoCamera, FileVideoCameraMetadata, type FileVideoCameraProps } from './file/file-video-camera';
 export { FileVolume, FileVolumeMetadata, type FileVolumeProps } from './file/file-volume';
 export { FileXCorner, FileXCornerMetadata, type FileXCornerProps } from './file/file-x-corner';
 export { FileX, FileXMetadata, type FileXProps } from './file/file-x';
-export { FileXFilled, FileXFilledMetadata, type FileXFilledProps } from './file/file-x_filled';
 export { FileZipDoodle, FileZipDoodleMetadata, type FileZipDoodleProps } from './file/file-zip_doodle';
 export { File, FileMetadata, type FileProps } from './file/file';
 export { FileDoodle, FileDoodleMetadata, type FileDoodleProps } from './file/file_doodle';
-export { FileFilled, FileFilledMetadata, type FileFilledProps } from './file/file_filled';
 export { Files, FilesMetadata, type FilesProps } from './file/files';
-export { FilesFilled, FilesFilledMetadata, type FilesFilledProps } from './file/files_filled';
 export { PngDoodle, PngDoodleMetadata, type PngDoodleProps } from './file/png_doodle';
-export { AccessibleFilled, AccessibleFilledMetadata, type AccessibleFilledProps } from './filled/accessible_filled';
-export { AdCircleFilled, AdCircleFilledMetadata, type AdCircleFilledProps } from './filled/ad-circle_filled';
-export { AdFilled, AdFilledMetadata, type AdFilledProps } from './filled/ad_filled';
-export { AdjustmentsFilled, AdjustmentsFilledMetadata, type AdjustmentsFilledProps } from './filled/adjustments_filled';
-export { AerialLiftFilled, AerialLiftFilledMetadata, type AerialLiftFilledProps } from './filled/aerial-lift_filled';
-export { AffiliateFilled, AffiliateFilledMetadata, type AffiliateFilledProps } from './filled/affiliate_filled';
-export { AirBalloonFilled, AirBalloonFilledMetadata, type AirBalloonFilledProps } from './filled/air-balloon_filled';
-export { AlertCircleFilled, AlertCircleFilledMetadata, type AlertCircleFilledProps } from './filled/alert-circle_filled';
-export { AlertHexagonFilled, AlertHexagonFilledMetadata, type AlertHexagonFilledProps } from './filled/alert-hexagon_filled';
-export { AlertOctagonFilled, AlertOctagonFilledMetadata, type AlertOctagonFilledProps } from './filled/alert-octagon_filled';
-export { AlertSquareRoundedFilled, AlertSquareRoundedFilledMetadata, type AlertSquareRoundedFilledProps } from './filled/alert-square-rounded_filled';
-export { AlertSquareFilled, AlertSquareFilledMetadata, type AlertSquareFilledProps } from './filled/alert-square_filled';
-export { AlertTriangleFilled, AlertTriangleFilledMetadata, type AlertTriangleFilledProps } from './filled/alert-triangle_filled';
-export { AlienFilled, AlienFilledMetadata, type AlienFilledProps } from './filled/alien_filled';
-export { AnalyzeFilled, AnalyzeFilledMetadata, type AnalyzeFilledProps } from './filled/analyze_filled';
-export { AppWindowFilled, AppWindowFilledMetadata, type AppWindowFilledProps } from './filled/app-window_filled';
-export { AppleFilled, AppleFilledMetadata, type AppleFilledProps } from './filled/apple_filled';
-export { AppsFilled, AppsFilledMetadata, type AppsFilledProps } from './filled/apps_filled';
-export { ArchiveFilled, ArchiveFilledMetadata, type ArchiveFilledProps } from './filled/archive_filled';
-export { ArtboardFilled, ArtboardFilledMetadata, type ArtboardFilledProps } from './filled/artboard_filled';
-export { ArticleFilled, ArticleFilledMetadata, type ArticleFilledProps } from './filled/article_filled';
-export { AspectRatioFilled, AspectRatioFilledMetadata, type AspectRatioFilledProps } from './filled/aspect-ratio_filled';
-export { AssemblyFilled, AssemblyFilledMetadata, type AssemblyFilledProps } from './filled/assembly_filled';
-export { AssetFilled, AssetFilledMetadata, type AssetFilledProps } from './filled/asset_filled';
-export { Atom2Filled, Atom2FilledMetadata, type Atom2FilledProps } from './filled/atom-2_filled';
-export { AutomaticGearboxFilled, AutomaticGearboxFilledMetadata, type AutomaticGearboxFilledProps } from './filled/automatic-gearbox_filled';
-export { AwardFilled, AwardFilledMetadata, type AwardFilledProps } from './filled/award_filled';
-export { BabyCarriageFilled, BabyCarriageFilledMetadata, type BabyCarriageFilledProps } from './filled/baby-carriage_filled';
-export { BackspaceFilled, BackspaceFilledMetadata, type BackspaceFilledProps } from './filled/backspace_filled';
-export { BallBowlingFilled, BallBowlingFilledMetadata, type BallBowlingFilledProps } from './filled/ball-bowling_filled';
-export { BalloonFilled, BalloonFilledMetadata, type BalloonFilledProps } from './filled/balloon_filled';
-export { BallpenFilled, BallpenFilledMetadata, type BallpenFilledProps } from './filled/ballpen_filled';
-export { BandageFilled, BandageFilledMetadata, type BandageFilledProps } from './filled/bandage_filled';
-export { BarbellFilled, BarbellFilledMetadata, type BarbellFilledProps } from './filled/barbell_filled';
-export { BarrierBlockFilled, BarrierBlockFilledMetadata, type BarrierBlockFilledProps } from './filled/barrier-block_filled';
-export { BasketFilled, BasketFilledMetadata, type BasketFilledProps } from './filled/basket_filled';
-export { BathFilled, BathFilledMetadata, type BathFilledProps } from './filled/bath_filled';
-export { BedFlatFilled, BedFlatFilledMetadata, type BedFlatFilledProps } from './filled/bed-flat_filled';
-export { BedFilled, BedFilledMetadata, type BedFilledProps } from './filled/bed_filled';
-export { BeerFilled, BeerFilledMetadata, type BeerFilledProps } from './filled/beer_filled';
-export { BikeFilled, BikeFilledMetadata, type BikeFilledProps } from './filled/bike_filled';
-export { BinaryTree2Filled, BinaryTree2FilledMetadata, type BinaryTree2FilledProps } from './filled/binary-tree-2_filled';
-export { BinaryTreeFilled, BinaryTreeFilledMetadata, type BinaryTreeFilledProps } from './filled/binary-tree_filled';
-export { BinocularsFilled, BinocularsFilledMetadata, type BinocularsFilledProps } from './filled/binoculars_filled';
-export { BiohazardFilled, BiohazardFilledMetadata, type BiohazardFilledProps } from './filled/biohazard_filled';
-export { BladeFilled, BladeFilledMetadata, type BladeFilledProps } from './filled/blade_filled';
-export { BlenderFilled, BlenderFilledMetadata, type BlenderFilledProps } from './filled/blender_filled';
-export { BlobFilled, BlobFilledMetadata, type BlobFilledProps } from './filled/blob_filled';
-export { BoltFilled, BoltFilledMetadata, type BoltFilledProps } from './filled/bolt_filled';
-export { BombFilled, BombFilledMetadata, type BombFilledProps } from './filled/bomb_filled';
-export { BoneFilled, BoneFilledMetadata, type BoneFilledProps } from './filled/bone_filled';
-export { BongFilled, BongFilledMetadata, type BongFilledProps } from './filled/bong_filled';
-export { BookFilled, BookFilledMetadata, type BookFilledProps } from './filled/book_filled';
-export { BookmarkFilled, BookmarkFilledMetadata, type BookmarkFilledProps } from './filled/bookmark_filled';
-export { BookmarksFilled, BookmarksFilledMetadata, type BookmarksFilledProps } from './filled/bookmarks_filled';
-export { BoomFilled, BoomFilledMetadata, type BoomFilledProps } from './filled/boom_filled';
-export { BottleFilled, BottleFilledMetadata, type BottleFilledProps } from './filled/bottle_filled';
-export { BounceLeftFilled, BounceLeftFilledMetadata, type BounceLeftFilledProps } from './filled/bounce-left_filled';
-export { BounceRightFilled, BounceRightFilledMetadata, type BounceRightFilledProps } from './filled/bounce-right_filled';
-export { BowFilled, BowFilledMetadata, type BowFilledProps } from './filled/bow_filled';
-export { BowlChopsticksFilled, BowlChopsticksFilledMetadata, type BowlChopsticksFilledProps } from './filled/bowl-chopsticks_filled';
-export { BowlSpoonFilled, BowlSpoonFilledMetadata, type BowlSpoonFilledProps } from './filled/bowl-spoon_filled';
-export { BowlFilled, BowlFilledMetadata, type BowlFilledProps } from './filled/bowl_filled';
-export { BoxAlignBottomLeftFilled, BoxAlignBottomLeftFilledMetadata, type BoxAlignBottomLeftFilledProps } from './filled/box-align-bottom-left_filled';
-export { BoxAlignBottomRightFilled, BoxAlignBottomRightFilledMetadata, type BoxAlignBottomRightFilledProps } from './filled/box-align-bottom-right_filled';
-export { BoxAlignBottomFilled, BoxAlignBottomFilledMetadata, type BoxAlignBottomFilledProps } from './filled/box-align-bottom_filled';
-export { BoxAlignLeftFilled, BoxAlignLeftFilledMetadata, type BoxAlignLeftFilledProps } from './filled/box-align-left_filled';
-export { BoxAlignRightFilled, BoxAlignRightFilledMetadata, type BoxAlignRightFilledProps } from './filled/box-align-right_filled';
-export { BoxAlignTopLeftFilled, BoxAlignTopLeftFilledMetadata, type BoxAlignTopLeftFilledProps } from './filled/box-align-top-left_filled';
-export { BoxAlignTopRightFilled, BoxAlignTopRightFilledMetadata, type BoxAlignTopRightFilledProps } from './filled/box-align-top-right_filled';
-export { BoxAlignTopFilled, BoxAlignTopFilledMetadata, type BoxAlignTopFilledProps } from './filled/box-align-top_filled';
-export { BoxMultipleFilled, BoxMultipleFilledMetadata, type BoxMultipleFilledProps } from './filled/box-multiple_filled';
-export { BreadFilled, BreadFilledMetadata, type BreadFilledProps } from './filled/bread_filled';
-export { Briefcase2Filled, Briefcase2FilledMetadata, type Briefcase2FilledProps } from './filled/briefcase-2_filled';
-export { BriefcaseFilled, BriefcaseFilledMetadata, type BriefcaseFilledProps } from './filled/briefcase_filled';
-export { BrightnessAutoFilled, BrightnessAutoFilledMetadata, type BrightnessAutoFilledProps } from './filled/brightness-auto_filled';
-export { BrightnessDownFilled, BrightnessDownFilledMetadata, type BrightnessDownFilledProps } from './filled/brightness-down_filled';
-export { BrightnessUpFilled, BrightnessUpFilledMetadata, type BrightnessUpFilledProps } from './filled/brightness-up_filled';
-export { BrightnessFilled, BrightnessFilledMetadata, type BrightnessFilledProps } from './filled/brightness_filled';
-export { BubbleTextFilled, BubbleTextFilledMetadata, type BubbleTextFilledProps } from './filled/bubble-text_filled';
-export { BubbleFilled, BubbleFilledMetadata, type BubbleFilledProps } from './filled/bubble_filled';
-export { BugFilled, BugFilledMetadata, type BugFilledProps } from './filled/bug_filled';
-export { BuildingBridge2Filled, BuildingBridge2FilledMetadata, type BuildingBridge2FilledProps } from './filled/building-bridge-2_filled';
-export { BuildingBroadcastTowerFilled, BuildingBroadcastTowerFilledMetadata, type BuildingBroadcastTowerFilledProps } from './filled/building-broadcast-tower_filled';
-export { BulbFilled, BulbFilledMetadata, type BulbFilledProps } from './filled/bulb_filled';
-export { BusFilled, BusFilledMetadata, type BusFilledProps } from './filled/bus_filled';
-export { ButterflyFilled, ButterflyFilledMetadata, type ButterflyFilledProps } from './filled/butterfly_filled';
-export { CactusFilled, CactusFilledMetadata, type CactusFilledProps } from './filled/cactus_filled';
-export { CameraFilled, CameraFilledMetadata, type CameraFilledProps } from './filled/camera_filled';
-export { CampfireFilled, CampfireFilledMetadata, type CampfireFilledProps } from './filled/campfire_filled';
-export { CandleFilled, CandleFilledMetadata, type CandleFilledProps } from './filled/candle_filled';
-export { CannabisFilled, CannabisFilledMetadata, type CannabisFilledProps } from './filled/cannabis_filled';
-export { CapsuleHorizontalFilled, CapsuleHorizontalFilledMetadata, type CapsuleHorizontalFilledProps } from './filled/capsule-horizontal_filled';
-export { CapsuleFilled, CapsuleFilledMetadata, type CapsuleFilledProps } from './filled/capsule_filled';
-export { CaptureFilled, CaptureFilledMetadata, type CaptureFilledProps } from './filled/capture_filled';
-export { Car4wdFilled, Car4wdFilledMetadata, type Car4wdFilledProps } from './filled/car-4wd_filled';
-export { CarCraneFilled, CarCraneFilledMetadata, type CarCraneFilledProps } from './filled/car-crane_filled';
-export { CarFanFilled, CarFanFilledMetadata, type CarFanFilledProps } from './filled/car-fan_filled';
-export { CarSuvFilled, CarSuvFilledMetadata, type CarSuvFilledProps } from './filled/car-suv_filled';
-export { CarFilled, CarFilledMetadata, type CarFilledProps } from './filled/car_filled';
-export { CarambolaFilled, CarambolaFilledMetadata, type CarambolaFilledProps } from './filled/carambola_filled';
-export { CaravanFilled, CaravanFilledMetadata, type CaravanFilledProps } from './filled/caravan_filled';
-export { CardboardsFilled, CardboardsFilledMetadata, type CardboardsFilledProps } from './filled/cardboards_filled';
-export { CardsFilled, CardsFilledMetadata, type CardsFilledProps } from './filled/cards_filled';
-export { CaretDownFilled, CaretDownFilledMetadata, type CaretDownFilledProps } from './filled/caret-down_filled';
-export { CaretLeftRightFilled, CaretLeftRightFilledMetadata, type CaretLeftRightFilledProps } from './filled/caret-left-right_filled';
-export { CaretLeftFilled, CaretLeftFilledMetadata, type CaretLeftFilledProps } from './filled/caret-left_filled';
-export { CaretRightFilled, CaretRightFilledMetadata, type CaretRightFilledProps } from './filled/caret-right_filled';
-export { CaretUpDownFilled, CaretUpDownFilledMetadata, type CaretUpDownFilledProps } from './filled/caret-up-down_filled';
-export { CaretUpFilled, CaretUpFilledMetadata, type CaretUpFilledProps } from './filled/caret-up_filled';
-export { CarouselHorizontalFilled, CarouselHorizontalFilledMetadata, type CarouselHorizontalFilledProps } from './filled/carousel-horizontal_filled';
-export { CarouselVerticalFilled, CarouselVerticalFilledMetadata, type CarouselVerticalFilledProps } from './filled/carousel-vertical_filled';
-export { CashBanknoteFilled, CashBanknoteFilledMetadata, type CashBanknoteFilledProps } from './filled/cash-banknote_filled';
-export { CategoryFilled, CategoryFilledMetadata, type CategoryFilledProps } from './filled/category_filled';
-export { ChargingPileFilled, ChargingPileFilledMetadata, type ChargingPileFilledProps } from './filled/charging-pile_filled';
-export { ChefHatFilled, ChefHatFilledMetadata, type ChefHatFilledProps } from './filled/chef-hat_filled';
-export { CherryFilled, CherryFilledMetadata, type CherryFilledProps } from './filled/cherry_filled';
-export { ChessBishopFilled, ChessBishopFilledMetadata, type ChessBishopFilledProps } from './filled/chess-bishop_filled';
-export { ChessKingFilled, ChessKingFilledMetadata, type ChessKingFilledProps } from './filled/chess-king_filled';
-export { ChessKnightFilled, ChessKnightFilledMetadata, type ChessKnightFilledProps } from './filled/chess-knight_filled';
-export { ChessQueenFilled, ChessQueenFilledMetadata, type ChessQueenFilledProps } from './filled/chess-queen_filled';
-export { ChessRookFilled, ChessRookFilledMetadata, type ChessRookFilledProps } from './filled/chess-rook_filled';
-export { ChessFilled, ChessFilledMetadata, type ChessFilledProps } from './filled/chess_filled';
-export { ChristmasTreeFilled, ChristmasTreeFilledMetadata, type ChristmasTreeFilledProps } from './filled/christmas-tree_filled';
-export { CloudComputingFilled, CloudComputingFilledMetadata, type CloudComputingFilledProps } from './filled/cloud-computing_filled';
-export { CloudDataConnectionFilled, CloudDataConnectionFilledMetadata, type CloudDataConnectionFilledProps } from './filled/cloud-data-connection_filled';
-export { CloudFilled, CloudFilledMetadata, type CloudFilledProps } from './filled/cloud_filled';
-export { CloverFilled, CloverFilledMetadata, type CloverFilledProps } from './filled/clover_filled';
-export { ClubsFilled, ClubsFilledMetadata, type ClubsFilledProps } from './filled/clubs_filled';
-export { CodeCircle2Filled, CodeCircle2FilledMetadata, type CodeCircle2FilledProps } from './filled/code-circle-2_filled';
-export { CodeCircleFilled, CodeCircleFilledMetadata, type CodeCircleFilledProps } from './filled/code-circle_filled';
-export { CompassFilled, CompassFilledMetadata, type CompassFilledProps } from './filled/compass_filled';
-export { Cone2Filled, Cone2FilledMetadata, type Cone2FilledProps } from './filled/cone-2_filled';
-export { ConeFilled, ConeFilledMetadata, type ConeFilledProps } from './filled/cone_filled';
-export { ConfettiFilled, ConfettiFilledMetadata, type ConfettiFilledProps } from './filled/confetti_filled';
-export { ContainerFilled, ContainerFilledMetadata, type ContainerFilledProps } from './filled/container_filled';
-export { Contrast2Filled, Contrast2FilledMetadata, type Contrast2FilledProps } from './filled/contrast-2_filled';
-export { ContrastFilled, ContrastFilledMetadata, type ContrastFilledProps } from './filled/contrast_filled';
-export { CookieManFilled, CookieManFilledMetadata, type CookieManFilledProps } from './filled/cookie-man_filled';
-export { CookieFilled, CookieFilledMetadata, type CookieFilledProps } from './filled/cookie_filled';
-export { CopyCheckFilled, CopyCheckFilledMetadata, type CopyCheckFilledProps } from './filled/copy-check_filled';
-export { CopyMinusFilled, CopyMinusFilledMetadata, type CopyMinusFilledProps } from './filled/copy-minus_filled';
-export { CopyPlusFilled, CopyPlusFilledMetadata, type CopyPlusFilledProps } from './filled/copy-plus_filled';
-export { CopyXFilled, CopyXFilledMetadata, type CopyXFilledProps } from './filled/copy-x_filled';
-export { CopyleftFilled, CopyleftFilledMetadata, type CopyleftFilledProps } from './filled/copyleft_filled';
-export { CopyrightFilled, CopyrightFilledMetadata, type CopyrightFilledProps } from './filled/copyright_filled';
-export { CreditCardFilled, CreditCardFilledMetadata, type CreditCardFilledProps } from './filled/credit-card_filled';
-export { CrossFilled, CrossFilledMetadata, type CrossFilledProps } from './filled/cross_filled';
-export { CrownFilled, CrownFilledMetadata, type CrownFilledProps } from './filled/crown_filled';
-export { CurrentLocationFilled, CurrentLocationFilledMetadata, type CurrentLocationFilledProps } from './filled/current-location_filled';
-export { DashboardFilled, DashboardFilledMetadata, type DashboardFilledProps } from './filled/dashboard_filled';
-export { DialpadFilled, DialpadFilledMetadata, type DialpadFilledProps } from './filled/dialpad_filled';
-export { DiamondFilled, DiamondFilledMetadata, type DiamondFilledProps } from './filled/diamond_filled';
-export { DiamondsFilled, DiamondsFilledMetadata, type DiamondsFilledProps } from './filled/diamonds_filled';
-export { Dice1Filled, Dice1FilledMetadata, type Dice1FilledProps } from './filled/dice-1_filled';
-export { Dice2Filled, Dice2FilledMetadata, type Dice2FilledProps } from './filled/dice-2_filled';
-export { Dice3Filled, Dice3FilledMetadata, type Dice3FilledProps } from './filled/dice-3_filled';
-export { Dice4Filled, Dice4FilledMetadata, type Dice4FilledProps } from './filled/dice-4_filled';
-export { Dice5Filled, Dice5FilledMetadata, type Dice5FilledProps } from './filled/dice-5_filled';
-export { Dice6Filled, Dice6FilledMetadata, type Dice6FilledProps } from './filled/dice-6_filled';
-export { DiceFilled, DiceFilledMetadata, type DiceFilledProps } from './filled/dice_filled';
-export { DirectionArrowsFilled, DirectionArrowsFilledMetadata, type DirectionArrowsFilledProps } from './filled/direction-arrows_filled';
-export { DirectionSignFilled, DirectionSignFilledMetadata, type DirectionSignFilledProps } from './filled/direction-sign_filled';
-export { DirectionsFilled, DirectionsFilledMetadata, type DirectionsFilledProps } from './filled/directions_filled';
-export { DiscFilled, DiscFilledMetadata, type DiscFilledProps } from './filled/disc_filled';
-export { DiscountFilled, DiscountFilledMetadata, type DiscountFilledProps } from './filled/discount_filled';
-export { DropCircleFilled, DropCircleFilledMetadata, type DropCircleFilledProps } from './filled/drop-circle_filled';
-export { DropletHalf2Filled, DropletHalf2FilledMetadata, type DropletHalf2FilledProps } from './filled/droplet-half-2_filled';
-export { DropletHalfFilled, DropletHalfFilledMetadata, type DropletHalfFilledProps } from './filled/droplet-half_filled';
-export { DropletFilled, DropletFilledMetadata, type DropletFilledProps } from './filled/droplet_filled';
-export { DropletsFilled, DropletsFilledMetadata, type DropletsFilledProps } from './filled/droplets_filled';
-export { DualScreenFilled, DualScreenFilledMetadata, type DualScreenFilledProps } from './filled/dual-screen_filled';
-export { DumplingFilled, DumplingFilledMetadata, type DumplingFilledProps } from './filled/dumpling_filled';
-export { EaseInControlPointFilled, EaseInControlPointFilledMetadata, type EaseInControlPointFilledProps } from './filled/ease-in-control-point_filled';
-export { EaseInOutControlPointsFilled, EaseInOutControlPointsFilledMetadata, type EaseInOutControlPointsFilledProps } from './filled/ease-in-out-control-points_filled';
-export { EaseOutControlPointFilled, EaseOutControlPointFilledMetadata, type EaseOutControlPointFilledProps } from './filled/ease-out-control-point_filled';
-export { EggCrackedFilled, EggCrackedFilledMetadata, type EggCrackedFilledProps } from './filled/egg-cracked_filled';
-export { EggFriedFilled, EggFriedFilledMetadata, type EggFriedFilledProps } from './filled/egg-fried_filled';
-export { EggFilled, EggFilledMetadata, type EggFilledProps } from './filled/egg_filled';
-export { ElevatorFilled, ElevatorFilledMetadata, type ElevatorFilledProps } from './filled/elevator_filled';
-export { EngineFilled, EngineFilledMetadata, type EngineFilledProps } from './filled/engine_filled';
-export { EscalatorDownFilled, EscalatorDownFilledMetadata, type EscalatorDownFilledProps } from './filled/escalator-down_filled';
-export { EscalatorUpFilled, EscalatorUpFilledMetadata, type EscalatorUpFilledProps } from './filled/escalator-up_filled';
-export { EscalatorFilled, EscalatorFilledMetadata, type EscalatorFilledProps } from './filled/escalator_filled';
-export { ExchangeFilled, ExchangeFilledMetadata, type ExchangeFilledProps } from './filled/exchange_filled';
-export { ExclamationCircleFilled, ExclamationCircleFilledMetadata, type ExclamationCircleFilledProps } from './filled/exclamation-circle_filled';
-export { ExplicitFilled, ExplicitFilledMetadata, type ExplicitFilledProps } from './filled/explicit_filled';
-export { ExposureFilled, ExposureFilledMetadata, type ExposureFilledProps } from './filled/exposure_filled';
-export { EyeTableFilled, EyeTableFilledMetadata, type EyeTableFilledProps } from './filled/eye-table_filled';
-export { EyeFilled, EyeFilledMetadata, type EyeFilledProps } from './filled/eye_filled';
-export { Eyeglass2Filled, Eyeglass2FilledMetadata, type Eyeglass2FilledProps } from './filled/eyeglass-2_filled';
-export { EyeglassFilled, EyeglassFilledMetadata, type EyeglassFilledProps } from './filled/eyeglass_filled';
-export { FaceMaskFilled, FaceMaskFilledMetadata, type FaceMaskFilledProps } from './filled/face-mask_filled';
-export { FaviconFilled, FaviconFilledMetadata, type FaviconFilledProps } from './filled/favicon_filled';
-export { FeatherFilled, FeatherFilledMetadata, type FeatherFilledProps } from './filled/feather_filled';
-export { FenceFilled, FenceFilledMetadata, type FenceFilledProps } from './filled/fence_filled';
-export { FerryFilled, FerryFilledMetadata, type FerryFilledProps } from './filled/ferry_filled';
-export { FidgetSpinnerFilled, FidgetSpinnerFilledMetadata, type FidgetSpinnerFilledProps } from './filled/fidget-spinner_filled';
-export { FilterFilled, FilterFilledMetadata, type FilterFilledProps } from './filled/filter_filled';
-export { FiltersFilled, FiltersFilledMetadata, type FiltersFilledProps } from './filled/filters_filled';
-export { FishBoneFilled, FishBoneFilledMetadata, type FishBoneFilledProps } from './filled/fish-bone_filled';
-export { Flag2Filled, Flag2FilledMetadata, type Flag2FilledProps } from './filled/flag-2_filled';
-export { Flag3Filled, Flag3FilledMetadata, type Flag3FilledProps } from './filled/flag-3_filled';
-export { FlagFilled, FlagFilledMetadata, type FlagFilledProps } from './filled/flag_filled';
-export { FlameFilled, FlameFilledMetadata, type FlameFilledProps } from './filled/flame_filled';
-export { FlareFilled, FlareFilledMetadata, type FlareFilledProps } from './filled/flare_filled';
-export { Flask2Filled, Flask2FilledMetadata, type Flask2FilledProps } from './filled/flask-2_filled';
-export { FlaskFilled, FlaskFilledMetadata, type FlaskFilledProps } from './filled/flask_filled';
-export { FlowerFilled, FlowerFilledMetadata, type FlowerFilledProps } from './filled/flower_filled';
-export { FolderOpenFilled, FolderOpenFilledMetadata, type FolderOpenFilledProps } from './filled/folder-open_filled';
-export { FolderFilled, FolderFilledMetadata, type FolderFilledProps } from './filled/folder_filled';
-export { FoldersFilled, FoldersFilledMetadata, type FoldersFilledProps } from './filled/folders_filled';
-export { Forbid2Filled, Forbid2FilledMetadata, type Forbid2FilledProps } from './filled/forbid-2_filled';
-export { ForbidFilled, ForbidFilledMetadata, type ForbidFilledProps } from './filled/forbid_filled';
-export { FountainFilled, FountainFilledMetadata, type FountainFilledProps } from './filled/fountain_filled';
-export { FunctionFilled, FunctionFilledMetadata, type FunctionFilledProps } from './filled/function_filled';
-export { GardenCartFilled, GardenCartFilledMetadata, type GardenCartFilledProps } from './filled/garden-cart_filled';
-export { GasStationFilled, GasStationFilledMetadata, type GasStationFilledProps } from './filled/gas-station_filled';
-export { GaugeFilled, GaugeFilledMetadata, type GaugeFilledProps } from './filled/gauge_filled';
-export { Ghost2Filled, Ghost2FilledMetadata, type Ghost2FilledProps } from './filled/ghost-2_filled';
-export { Ghost3Filled, Ghost3FilledMetadata, type Ghost3FilledProps } from './filled/ghost-3_filled';
-export { GhostFilled, GhostFilledMetadata, type GhostFilledProps } from './filled/ghost_filled';
-export { GiftCardFilled, GiftCardFilledMetadata, type GiftCardFilledProps } from './filled/gift-card_filled';
-export { GiftFilled, GiftFilledMetadata, type GiftFilledProps } from './filled/gift_filled';
-export { GlassFullFilled, GlassFullFilledMetadata, type GlassFullFilledProps } from './filled/glass-full_filled';
-export { GlassFilled, GlassFilledMetadata, type GlassFilledProps } from './filled/glass_filled';
-export { GlobeFilled, GlobeFilledMetadata, type GlobeFilledProps } from './filled/globe_filled';
-export { GolfFilled, GolfFilledMetadata, type GolfFilledProps } from './filled/golf_filled';
-export { GpsFilled, GpsFilledMetadata, type GpsFilledProps } from './filled/gps_filled';
-export { GraphFilled, GraphFilledMetadata, type GraphFilledProps } from './filled/graph_filled';
-export { GridPatternFilled, GridPatternFilledMetadata, type GridPatternFilledProps } from './filled/grid-pattern_filled';
-export { GuitarPickFilled, GuitarPickFilledMetadata, type GuitarPickFilledProps } from './filled/guitar-pick_filled';
-export { Hanger2Filled, Hanger2FilledMetadata, type Hanger2FilledProps } from './filled/hanger-2_filled';
-export { HeadphonesFilled, HeadphonesFilledMetadata, type HeadphonesFilledProps } from './filled/headphones_filled';
-export { HeartBrokenFilled, HeartBrokenFilledMetadata, type HeartBrokenFilledProps } from './filled/heart-broken_filled';
-export { HeartFilled, HeartFilledMetadata, type HeartFilledProps } from './filled/heart_filled';
-export { HelicopterLandingFilled, HelicopterLandingFilledMetadata, type HelicopterLandingFilledProps } from './filled/helicopter-landing_filled';
-export { HelicopterFilled, HelicopterFilledMetadata, type HelicopterFilledProps } from './filled/helicopter_filled';
-export { HelpCircleFilled, HelpCircleFilledMetadata, type HelpCircleFilledProps } from './filled/help-circle_filled';
-export { HelpHexagonFilled, HelpHexagonFilledMetadata, type HelpHexagonFilledProps } from './filled/help-hexagon_filled';
-export { HelpOctagonFilled, HelpOctagonFilledMetadata, type HelpOctagonFilledProps } from './filled/help-octagon_filled';
-export { HelpSquareRoundedFilled, HelpSquareRoundedFilledMetadata, type HelpSquareRoundedFilledProps } from './filled/help-square-rounded_filled';
-export { HelpSquareFilled, HelpSquareFilledMetadata, type HelpSquareFilledProps } from './filled/help-square_filled';
-export { HelpTriangleFilled, HelpTriangleFilledMetadata, type HelpTriangleFilledProps } from './filled/help-triangle_filled';
-export { HexagonFilled, HexagonFilledMetadata, type HexagonFilledProps } from './filled/hexagon_filled';
-export { HomeFilled, HomeFilledMetadata, type HomeFilledProps } from './filled/home_filled';
-export { HospitalCircleFilled, HospitalCircleFilledMetadata, type HospitalCircleFilledProps } from './filled/hospital-circle_filled';
-export { HourglassFilled, HourglassFilledMetadata, type HourglassFilledProps } from './filled/hourglass_filled';
-export { IconsFilled, IconsFilledMetadata, type IconsFilledProps } from './filled/icons_filled';
-export { InfoCircleFilled, InfoCircleFilledMetadata, type InfoCircleFilledProps } from './filled/info-circle_filled';
-export { InfoHexagonFilled, InfoHexagonFilledMetadata, type InfoHexagonFilledProps } from './filled/info-hexagon_filled';
-export { InfoOctagonFilled, InfoOctagonFilledMetadata, type InfoOctagonFilledProps } from './filled/info-octagon_filled';
-export { InfoSquareRoundedFilled, InfoSquareRoundedFilledMetadata, type InfoSquareRoundedFilledProps } from './filled/info-square-rounded_filled';
-export { InfoSquareFilled, InfoSquareFilledMetadata, type InfoSquareFilledProps } from './filled/info-square_filled';
-export { InfoTriangleFilled, InfoTriangleFilledMetadata, type InfoTriangleFilledProps } from './filled/info-triangle_filled';
-export { InnerShadowBottomLeftFilled, InnerShadowBottomLeftFilledMetadata, type InnerShadowBottomLeftFilledProps } from './filled/inner-shadow-bottom-left_filled';
-export { InnerShadowBottomRightFilled, InnerShadowBottomRightFilledMetadata, type InnerShadowBottomRightFilledProps } from './filled/inner-shadow-bottom-right_filled';
-export { InnerShadowBottomFilled, InnerShadowBottomFilledMetadata, type InnerShadowBottomFilledProps } from './filled/inner-shadow-bottom_filled';
-export { InnerShadowLeftFilled, InnerShadowLeftFilledMetadata, type InnerShadowLeftFilledProps } from './filled/inner-shadow-left_filled';
-export { InnerShadowRightFilled, InnerShadowRightFilledMetadata, type InnerShadowRightFilledProps } from './filled/inner-shadow-right_filled';
-export { InnerShadowTopLeftFilled, InnerShadowTopLeftFilledMetadata, type InnerShadowTopLeftFilledProps } from './filled/inner-shadow-top-left_filled';
-export { InnerShadowTopRightFilled, InnerShadowTopRightFilledMetadata, type InnerShadowTopRightFilledProps } from './filled/inner-shadow-top-right_filled';
-export { InnerShadowTopFilled, InnerShadowTopFilledMetadata, type InnerShadowTopFilledProps } from './filled/inner-shadow-top_filled';
-export { Ironing1Filled, Ironing1FilledMetadata, type Ironing1FilledProps } from './filled/ironing-1_filled';
-export { Ironing2Filled, Ironing2FilledMetadata, type Ironing2FilledProps } from './filled/ironing-2_filled';
-export { Ironing3Filled, Ironing3FilledMetadata, type Ironing3FilledProps } from './filled/ironing-3_filled';
-export { IroningSteamFilled, IroningSteamFilledMetadata, type IroningSteamFilledProps } from './filled/ironing-steam_filled';
-export { IroningFilled, IroningFilledMetadata, type IroningFilledProps } from './filled/ironing_filled';
-export { JetpackFilled, JetpackFilledMetadata, type JetpackFilledProps } from './filled/jetpack_filled';
-export { JewishStarFilled, JewishStarFilledMetadata, type JewishStarFilledProps } from './filled/jewish-star_filled';
-export { KeyFilled, KeyFilledMetadata, type KeyFilledProps } from './filled/key_filled';
-export { KeyboardFilled, KeyboardFilledMetadata, type KeyboardFilledProps } from './filled/keyboard_filled';
-export { KeyframeAlignCenterFilled, KeyframeAlignCenterFilledMetadata, type KeyframeAlignCenterFilledProps } from './filled/keyframe-align-center_filled';
-export { KeyframeAlignHorizontalFilled, KeyframeAlignHorizontalFilledMetadata, type KeyframeAlignHorizontalFilledProps } from './filled/keyframe-align-horizontal_filled';
-export { KeyframeAlignVerticalFilled, KeyframeAlignVerticalFilledMetadata, type KeyframeAlignVerticalFilledProps } from './filled/keyframe-align-vertical_filled';
-export { KeyframeFilled, KeyframeFilledMetadata, type KeyframeFilledProps } from './filled/keyframe_filled';
-export { KeyframesFilled, KeyframesFilledMetadata, type KeyframesFilledProps } from './filled/keyframes_filled';
-export { LabelImportantFilled, LabelImportantFilledMetadata, type LabelImportantFilledProps } from './filled/label-important_filled';
-export { LabelFilled, LabelFilledMetadata, type LabelFilledProps } from './filled/label_filled';
-export { LassoPolygonFilled, LassoPolygonFilledMetadata, type LassoPolygonFilledProps } from './filled/lasso-polygon_filled';
-export { LaurelWreath1Filled, LaurelWreath1FilledMetadata, type LaurelWreath1FilledProps } from './filled/laurel-wreath-1_filled';
-export { LaurelWreath2Filled, LaurelWreath2FilledMetadata, type LaurelWreath2FilledProps } from './filled/laurel-wreath-2_filled';
-export { LaurelWreath3Filled, LaurelWreath3FilledMetadata, type LaurelWreath3FilledProps } from './filled/laurel-wreath-3_filled';
-export { LaurelWreathFilled, LaurelWreathFilledMetadata, type LaurelWreathFilledProps } from './filled/laurel-wreath_filled';
-export { LeafFilled, LeafFilledMetadata, type LeafFilledProps } from './filled/leaf_filled';
-export { LegoFilled, LegoFilledMetadata, type LegoFilledProps } from './filled/lego_filled';
-export { Lemon2Filled, Lemon2FilledMetadata, type Lemon2FilledProps } from './filled/lemon-2_filled';
-export { LibraryPlusFilled, LibraryPlusFilledMetadata, type LibraryPlusFilledProps } from './filled/library-plus_filled';
-export { LibraryFilled, LibraryFilledMetadata, type LibraryFilledProps } from './filled/library_filled';
-export { LifebuoyFilled, LifebuoyFilledMetadata, type LifebuoyFilledProps } from './filled/lifebuoy_filled';
-export { LivePhotoFilled, LivePhotoFilledMetadata, type LivePhotoFilledProps } from './filled/live-photo_filled';
-export { LiveViewFilled, LiveViewFilledMetadata, type LiveViewFilledProps } from './filled/live-view_filled';
-export { LocationFilled, LocationFilledMetadata, type LocationFilledProps } from './filled/location_filled';
-export { LockSquareRoundedFilled, LockSquareRoundedFilledMetadata, type LockSquareRoundedFilledProps } from './filled/lock-square-rounded_filled';
-export { LockFilled, LockFilledMetadata, type LockFilledProps } from './filled/lock_filled';
-export { LungsFilled, LungsFilledMetadata, type LungsFilledProps } from './filled/lungs_filled';
-export { MacroFilled, MacroFilledMetadata, type MacroFilledProps } from './filled/macro_filled';
-export { MagnetFilled, MagnetFilledMetadata, type MagnetFilledProps } from './filled/magnet_filled';
-export { MailOpenedFilled, MailOpenedFilledMetadata, type MailOpenedFilledProps } from './filled/mail-opened_filled';
-export { MailFilled, MailFilledMetadata, type MailFilledProps } from './filled/mail_filled';
-export { ManFilled, ManFilledMetadata, type ManFilledProps } from './filled/man_filled';
-export { ManualGearboxFilled, ManualGearboxFilledMetadata, type ManualGearboxFilledProps } from './filled/manual-gearbox_filled';
-export { MapPinFilled, MapPinFilledMetadata, type MapPinFilledProps } from './filled/map-pin_filled';
-export { MedicalCrossFilled, MedicalCrossFilledMetadata, type MedicalCrossFilledProps } from './filled/medical-cross_filled';
-export { MeepleFilled, MeepleFilledMetadata, type MeepleFilledProps } from './filled/meeple_filled';
-export { MelonFilled, MelonFilledMetadata, type MelonFilledProps } from './filled/melon_filled';
-export { MeteorFilled, MeteorFilledMetadata, type MeteorFilledProps } from './filled/meteor_filled';
-export { MichelinStarFilled, MichelinStarFilledMetadata, type MichelinStarFilledProps } from './filled/michelin-star_filled';
-export { MickeyFilled, MickeyFilledMetadata, type MickeyFilledProps } from './filled/mickey_filled';
-export { MicrophoneFilled, MicrophoneFilledMetadata, type MicrophoneFilledProps } from './filled/microphone_filled';
-export { MicroscopeFilled, MicroscopeFilledMetadata, type MicroscopeFilledProps } from './filled/microscope_filled';
-export { MicrowaveFilled, MicrowaveFilledMetadata, type MicrowaveFilledProps } from './filled/microwave_filled';
-export { MilitaryRankFilled, MilitaryRankFilledMetadata, type MilitaryRankFilledProps } from './filled/military-rank_filled';
-export { MilkFilled, MilkFilledMetadata, type MilkFilledProps } from './filled/milk_filled';
-export { MoonFilled, MoonFilledMetadata, type MoonFilledProps } from './filled/moon_filled';
-export { MotorbikeFilled, MotorbikeFilledMetadata, type MotorbikeFilledProps } from './filled/motorbike_filled';
-export { MountainFilled, MountainFilledMetadata, type MountainFilledProps } from './filled/mountain_filled';
-export { MouseFilled, MouseFilledMetadata, type MouseFilledProps } from './filled/mouse_filled';
-export { MugFilled, MugFilledMetadata, type MugFilledProps } from './filled/mug_filled';
-export { MushroomFilled, MushroomFilledMetadata, type MushroomFilledProps } from './filled/mushroom_filled';
-export { NavigationFilled, NavigationFilledMetadata, type NavigationFilledProps } from './filled/navigation_filled';
-export { NurseFilled, NurseFilledMetadata, type NurseFilledProps } from './filled/nurse_filled';
-export { OctagonMinusFilled, OctagonMinusFilledMetadata, type OctagonMinusFilledProps } from './filled/octagon-minus_filled';
-export { OctagonPlusFilled, OctagonPlusFilledMetadata, type OctagonPlusFilledProps } from './filled/octagon-plus_filled';
-export { OctagonFilled, OctagonFilledMetadata, type OctagonFilledProps } from './filled/octagon_filled';
-export { OvalVerticalFilled, OvalVerticalFilledMetadata, type OvalVerticalFilledProps } from './filled/oval-vertical_filled';
-export { OvalFilled, OvalFilledMetadata, type OvalFilledProps } from './filled/oval_filled';
-export { PacmanFilled, PacmanFilledMetadata, type PacmanFilledProps } from './filled/pacman_filled';
-export { PaintFilled, PaintFilledMetadata, type PaintFilledProps } from './filled/paint_filled';
-export { PaletteFilled, PaletteFilledMetadata, type PaletteFilledProps } from './filled/palette_filled';
-export { PanoramaHorizontalFilled, PanoramaHorizontalFilledMetadata, type PanoramaHorizontalFilledProps } from './filled/panorama-horizontal_filled';
-export { PanoramaVerticalFilled, PanoramaVerticalFilledMetadata, type PanoramaVerticalFilledProps } from './filled/panorama-vertical_filled';
-export { ParkingCircleFilled, ParkingCircleFilledMetadata, type ParkingCircleFilledProps } from './filled/parking-circle_filled';
-export { PawFilled, PawFilledMetadata, type PawFilledProps } from './filled/paw_filled';
-export { Pennant2Filled, Pennant2FilledMetadata, type Pennant2FilledProps } from './filled/pennant-2_filled';
-export { PennantFilled, PennantFilledMetadata, type PennantFilledProps } from './filled/pennant_filled';
-export { PentagonFilled, PentagonFilledMetadata, type PentagonFilledProps } from './filled/pentagon_filled';
-export { PhotoFilled, PhotoFilledMetadata, type PhotoFilledProps } from './filled/photo_filled';
-export { PictureInPictureTopFilled, PictureInPictureTopFilledMetadata, type PictureInPictureTopFilledProps } from './filled/picture-in-picture-top_filled';
-export { PictureInPictureFilled, PictureInPictureFilledMetadata, type PictureInPictureFilledProps } from './filled/picture-in-picture_filled';
-export { PigFilled, PigFilledMetadata, type PigFilledProps } from './filled/pig_filled';
-export { PillFilled, PillFilledMetadata, type PillFilledProps } from './filled/pill_filled';
-export { PinFilled, PinFilledMetadata, type PinFilledProps } from './filled/pin_filled';
-export { PinnedFilled, PinnedFilledMetadata, type PinnedFilledProps } from './filled/pinned_filled';
-export { PizzaFilled, PizzaFilledMetadata, type PizzaFilledProps } from './filled/pizza_filled';
-export { PlaneArrivalFilled, PlaneArrivalFilledMetadata, type PlaneArrivalFilledProps } from './filled/plane-arrival_filled';
-export { PlaneDepartureFilled, PlaneDepartureFilledMetadata, type PlaneDepartureFilledProps } from './filled/plane-departure_filled';
-export { PlaneTiltFilled, PlaneTiltFilledMetadata, type PlaneTiltFilledProps } from './filled/plane-tilt_filled';
-export { PlaneFilled, PlaneFilledMetadata, type PlaneFilledProps } from './filled/plane_filled';
-export { PlayCard10Filled, PlayCard10FilledMetadata, type PlayCard10FilledProps } from './filled/play-card-10_filled';
-export { PlayCard1Filled, PlayCard1FilledMetadata, type PlayCard1FilledProps } from './filled/play-card-1_filled';
-export { PlayCard2Filled, PlayCard2FilledMetadata, type PlayCard2FilledProps } from './filled/play-card-2_filled';
-export { PlayCard3Filled, PlayCard3FilledMetadata, type PlayCard3FilledProps } from './filled/play-card-3_filled';
-export { PlayCard4Filled, PlayCard4FilledMetadata, type PlayCard4FilledProps } from './filled/play-card-4_filled';
-export { PlayCard5Filled, PlayCard5FilledMetadata, type PlayCard5FilledProps } from './filled/play-card-5_filled';
-export { PlayCard6Filled, PlayCard6FilledMetadata, type PlayCard6FilledProps } from './filled/play-card-6_filled';
-export { PlayCard7Filled, PlayCard7FilledMetadata, type PlayCard7FilledProps } from './filled/play-card-7_filled';
-export { PlayCard8Filled, PlayCard8FilledMetadata, type PlayCard8FilledProps } from './filled/play-card-8_filled';
-export { PlayCard9Filled, PlayCard9FilledMetadata, type PlayCard9FilledProps } from './filled/play-card-9_filled';
-export { PlayCardAFilled, PlayCardAFilledMetadata, type PlayCardAFilledProps } from './filled/play-card-a_filled';
-export { PlayCardJFilled, PlayCardJFilledMetadata, type PlayCardJFilledProps } from './filled/play-card-j_filled';
-export { PlayCardKFilled, PlayCardKFilledMetadata, type PlayCardKFilledProps } from './filled/play-card-k_filled';
-export { PlayCardQFilled, PlayCardQFilledMetadata, type PlayCardQFilledProps } from './filled/play-card-q_filled';
-export { PlayCardStarFilled, PlayCardStarFilledMetadata, type PlayCardStarFilledProps } from './filled/play-card-star_filled';
-export { PlayCardFilled, PlayCardFilledMetadata, type PlayCardFilledProps } from './filled/play-card_filled';
-export { PointFilled, PointFilledMetadata, type PointFilledProps } from './filled/point_filled';
-export { PointerFilled, PointerFilledMetadata, type PointerFilledProps } from './filled/pointer_filled';
-export { PolaroidFilled, PolaroidFilledMetadata, type PolaroidFilledProps } from './filled/polaroid_filled';
-export { PooFilled, PooFilledMetadata, type PooFilledProps } from './filled/poo_filled';
-export { PresentationAnalyticsFilled, PresentationAnalyticsFilledMetadata, type PresentationAnalyticsFilledProps } from './filled/presentation-analytics_filled';
-export { PresentationFilled, PresentationFilledMetadata, type PresentationFilledProps } from './filled/presentation_filled';
-export { PuzzleFilled, PuzzleFilledMetadata, type PuzzleFilledProps } from './filled/puzzle_filled';
-export { QuoteFilled, QuoteFilledMetadata, type QuoteFilledProps } from './filled/quote_filled';
-export { RadarFilled, RadarFilledMetadata, type RadarFilledProps } from './filled/radar_filled';
-export { RadioactiveFilled, RadioactiveFilledMetadata, type RadioactiveFilledProps } from './filled/radioactive_filled';
-export { ReceiptDollarFilled, ReceiptDollarFilledMetadata, type ReceiptDollarFilledProps } from './filled/receipt-dollar_filled';
-export { ReceiptEuroFilled, ReceiptEuroFilledMetadata, type ReceiptEuroFilledProps } from './filled/receipt-euro_filled';
-export { ReceiptPoundFilled, ReceiptPoundFilledMetadata, type ReceiptPoundFilledProps } from './filled/receipt-pound_filled';
-export { ReceiptRupeeFilled, ReceiptRupeeFilledMetadata, type ReceiptRupeeFilledProps } from './filled/receipt-rupee_filled';
-export { ReceiptYenFilled, ReceiptYenFilledMetadata, type ReceiptYenFilledProps } from './filled/receipt-yen_filled';
-export { ReceiptYuanFilled, ReceiptYuanFilledMetadata, type ReceiptYuanFilledProps } from './filled/receipt-yuan_filled';
-export { ReceiptFilled, ReceiptFilledMetadata, type ReceiptFilledProps } from './filled/receipt_filled';
-export { RectangleVerticalFilled, RectangleVerticalFilledMetadata, type RectangleVerticalFilledProps } from './filled/rectangle-vertical_filled';
-export { RectangleFilled, RectangleFilledMetadata, type RectangleFilledProps } from './filled/rectangle_filled';
-export { RegisteredFilled, RegisteredFilledMetadata, type RegisteredFilledProps } from './filled/registered_filled';
-export { RelationManyToManyFilled, RelationManyToManyFilledMetadata, type RelationManyToManyFilledProps } from './filled/relation-many-to-many_filled';
-export { RelationOneToManyFilled, RelationOneToManyFilledMetadata, type RelationOneToManyFilledProps } from './filled/relation-one-to-many_filled';
-export { RelationOneToOneFilled, RelationOneToOneFilledMetadata, type RelationOneToOneFilledProps } from './filled/relation-one-to-one_filled';
-export { ReplaceFilled, ReplaceFilledMetadata, type ReplaceFilledProps } from './filled/replace_filled';
-export { ReportAnalyticsFilled, ReportAnalyticsFilledMetadata, type ReportAnalyticsFilledProps } from './filled/report-analytics_filled';
-export { ReportMoneyFilled, ReportMoneyFilledMetadata, type ReportMoneyFilledProps } from './filled/report-money_filled';
-export { RollercoasterFilled, RollercoasterFilledMetadata, type RollercoasterFilledProps } from './filled/rollercoaster_filled';
-export { RosetteDiscountCheckFilled, RosetteDiscountCheckFilledMetadata, type RosetteDiscountCheckFilledProps } from './filled/rosette-discount-check_filled';
-export { RosetteDiscountFilled, RosetteDiscountFilledMetadata, type RosetteDiscountFilledProps } from './filled/rosette-discount_filled';
-export { RosetteFilled, RosetteFilledMetadata, type RosetteFilledProps } from './filled/rosette_filled';
-export { SaladFilled, SaladFilledMetadata, type SaladFilledProps } from './filled/salad_filled';
-export { SatelliteFilled, SatelliteFilledMetadata, type SatelliteFilledProps } from './filled/satellite_filled';
-export { ScubaDivingTankFilled, ScubaDivingTankFilledMetadata, type ScubaDivingTankFilledProps } from './filled/scuba-diving-tank_filled';
-export { SectionFilled, SectionFilledMetadata, type SectionFilledProps } from './filled/section_filled';
-export { SeedlingFilled, SeedlingFilledMetadata, type SeedlingFilledProps } from './filled/seedling_filled';
-export { SettingsFilled, SettingsFilledMetadata, type SettingsFilledProps } from './filled/settings_filled';
-export { ShirtFilled, ShirtFilledMetadata, type ShirtFilledProps } from './filled/shirt_filled';
-export { ShoppingCartFilled, ShoppingCartFilledMetadata, type ShoppingCartFilledProps } from './filled/shopping-cart_filled';
-export { SignLeftFilled, SignLeftFilledMetadata, type SignLeftFilledProps } from './filled/sign-left_filled';
-export { SignRightFilled, SignRightFilledMetadata, type SignRightFilledProps } from './filled/sign-right_filled';
-export { SitemapFilled, SitemapFilledMetadata, type SitemapFilledProps } from './filled/sitemap_filled';
-export { SortAscending2Filled, SortAscending2FilledMetadata, type SortAscending2FilledProps } from './filled/sort-ascending-2_filled';
-export { SortAscendingShapesFilled, SortAscendingShapesFilledMetadata, type SortAscendingShapesFilledProps } from './filled/sort-ascending-shapes_filled';
-export { SortDescending2Filled, SortDescending2FilledMetadata, type SortDescending2FilledProps } from './filled/sort-descending-2_filled';
-export { SortDescendingShapesFilled, SortDescendingShapesFilledMetadata, type SortDescendingShapesFilledProps } from './filled/sort-descending-shapes_filled';
-export { SoupFilled, SoupFilledMetadata, type SoupFilledProps } from './filled/soup_filled';
-export { SpadeFilled, SpadeFilledMetadata, type SpadeFilledProps } from './filled/spade_filled';
-export { Sparkles2Filled, Sparkles2FilledMetadata, type Sparkles2FilledProps } from './filled/sparkles-2_filled';
-export { SparklesFilled, SparklesFilledMetadata, type SparklesFilledProps } from './filled/sparkles_filled';
-export { SpeedboatFilled, SpeedboatFilledMetadata, type SpeedboatFilledProps } from './filled/speedboat_filled';
-export { SpiderFilled, SpiderFilledMetadata, type SpiderFilledProps } from './filled/spider_filled';
-export { Stack2Filled, Stack2FilledMetadata, type Stack2FilledProps } from './filled/stack-2_filled';
-export { Stack3Filled, Stack3FilledMetadata, type Stack3FilledProps } from './filled/stack-3_filled';
-export { StackFilled, StackFilledMetadata, type StackFilledProps } from './filled/stack_filled';
-export { StarHalfFilled, StarHalfFilledMetadata, type StarHalfFilledProps } from './filled/star-half_filled';
-export { StarFilled, StarFilledMetadata, type StarFilledProps } from './filled/star_filled';
-export { StarsFilled, StarsFilledMetadata, type StarsFilledProps } from './filled/stars_filled';
-export { SteeringWheelFilled, SteeringWheelFilledMetadata, type SteeringWheelFilledProps } from './filled/steering-wheel_filled';
-export { SunHighFilled, SunHighFilledMetadata, type SunHighFilledProps } from './filled/sun-high_filled';
-export { SunLowFilled, SunLowFilledMetadata, type SunLowFilledProps } from './filled/sun-low_filled';
-export { SunFilled, SunFilledMetadata, type SunFilledProps } from './filled/sun_filled';
-export { SunglassesFilled, SunglassesFilledMetadata, type SunglassesFilledProps } from './filled/sunglasses_filled';
-export { SunriseFilled, SunriseFilledMetadata, type SunriseFilledProps } from './filled/sunrise_filled';
-export { Sunset2Filled, Sunset2FilledMetadata, type Sunset2FilledProps } from './filled/sunset-2_filled';
-export { SunsetFilled, SunsetFilledMetadata, type SunsetFilledProps } from './filled/sunset_filled';
-export { SwipeDownFilled, SwipeDownFilledMetadata, type SwipeDownFilledProps } from './filled/swipe-down_filled';
-export { SwipeLeftFilled, SwipeLeftFilledMetadata, type SwipeLeftFilledProps } from './filled/swipe-left_filled';
-export { SwipeRightFilled, SwipeRightFilledMetadata, type SwipeRightFilledProps } from './filled/swipe-right_filled';
-export { SwipeUpFilled, SwipeUpFilledMetadata, type SwipeUpFilledProps } from './filled/swipe-up_filled';
-export { TableFilled, TableFilledMetadata, type TableFilledProps } from './filled/table_filled';
-export { TagFilled, TagFilledMetadata, type TagFilledProps } from './filled/tag_filled';
-export { TagsFilled, TagsFilledMetadata, type TagsFilledProps } from './filled/tags_filled';
-export { TemperatureMinusFilled, TemperatureMinusFilledMetadata, type TemperatureMinusFilledProps } from './filled/temperature-minus_filled';
-export { TemperaturePlusFilled, TemperaturePlusFilledMetadata, type TemperaturePlusFilledProps } from './filled/temperature-plus_filled';
-export { TemplateFilled, TemplateFilledMetadata, type TemplateFilledProps } from './filled/template_filled';
-export { TestPipe2Filled, TestPipe2FilledMetadata, type TestPipe2FilledProps } from './filled/test-pipe-2_filled';
-export { ThumbDownFilled, ThumbDownFilledMetadata, type ThumbDownFilledProps } from './filled/thumb-down_filled';
-export { ThumbUpFilled, ThumbUpFilledMetadata, type ThumbUpFilledProps } from './filled/thumb-up_filled';
-export { TiltShiftFilled, TiltShiftFilledMetadata, type TiltShiftFilledProps } from './filled/tilt-shift_filled';
-export { TimelineEventFilled, TimelineEventFilledMetadata, type TimelineEventFilledProps } from './filled/timeline-event_filled';
-export { ToggleLeftFilled, ToggleLeftFilledMetadata, type ToggleLeftFilledProps } from './filled/toggle-left_filled';
-export { ToggleRightFilled, ToggleRightFilledMetadata, type ToggleRightFilledProps } from './filled/toggle-right_filled';
-export { TrainFilled, TrainFilledMetadata, type TrainFilledProps } from './filled/train_filled';
-export { TransformFilled, TransformFilledMetadata, type TransformFilledProps } from './filled/transform_filled';
-export { TransitionBottomFilled, TransitionBottomFilledMetadata, type TransitionBottomFilledProps } from './filled/transition-bottom_filled';
-export { TransitionLeftFilled, TransitionLeftFilledMetadata, type TransitionLeftFilledProps } from './filled/transition-left_filled';
-export { TransitionRightFilled, TransitionRightFilledMetadata, type TransitionRightFilledProps } from './filled/transition-right_filled';
-export { TransitionTopFilled, TransitionTopFilledMetadata, type TransitionTopFilledProps } from './filled/transition-top_filled';
-export { TrashXFilled, TrashXFilledMetadata, type TrashXFilledProps } from './filled/trash-x_filled';
-export { TrashFilled, TrashFilledMetadata, type TrashFilledProps } from './filled/trash_filled';
-export { TriangleInvertedFilled, TriangleInvertedFilledMetadata, type TriangleInvertedFilledProps } from './filled/triangle-inverted_filled';
-export { TriangleSquareCircleFilled, TriangleSquareCircleFilledMetadata, type TriangleSquareCircleFilledProps } from './filled/triangle-square-circle_filled';
-export { TriangleFilled, TriangleFilledMetadata, type TriangleFilledProps } from './filled/triangle_filled';
-export { TrolleyFilled, TrolleyFilledMetadata, type TrolleyFilledProps } from './filled/trolley_filled';
-export { TrophyFilled, TrophyFilledMetadata, type TrophyFilledProps } from './filled/trophy_filled';
-export { TruckFilled, TruckFilledMetadata, type TruckFilledProps } from './filled/truck_filled';
-export { UfoFilled, UfoFilledMetadata, type UfoFilledProps } from './filled/ufo_filled';
-export { UmbrellaFilled, UmbrellaFilledMetadata, type UmbrellaFilledProps } from './filled/umbrella_filled';
-export { UserFilled, UserFilledMetadata, type UserFilledProps } from './filled/user_filled';
-export { VersionsFilled, VersionsFilledMetadata, type VersionsFilledProps } from './filled/versions_filled';
-export { VideoMinusFilled, VideoMinusFilledMetadata, type VideoMinusFilledProps } from './filled/video-minus_filled';
-export { VideoPlusFilled, VideoPlusFilledMetadata, type VideoPlusFilledProps } from './filled/video-plus_filled';
-export { VideoFilled, VideoFilledMetadata, type VideoFilledProps } from './filled/video_filled';
-export { WindmillFilled, WindmillFilledMetadata, type WindmillFilledProps } from './filled/windmill_filled';
-export { WindsockFilled, WindsockFilledMetadata, type WindsockFilledProps } from './filled/windsock_filled';
-export { WomanFilled, WomanFilledMetadata, type WomanFilledProps } from './filled/woman_filled';
-export { WritingSignFilled, WritingSignFilledMetadata, type WritingSignFilledProps } from './filled/writing-sign_filled';
-export { WritingFilled, WritingFilledMetadata, type WritingFilledProps } from './filled/writing_filled';
-export { XboxAFilled, XboxAFilledMetadata, type XboxAFilledProps } from './filled/xbox-a_filled';
-export { XboxBFilled, XboxBFilledMetadata, type XboxBFilledProps } from './filled/xbox-b_filled';
-export { XboxXFilled, XboxXFilledMetadata, type XboxXFilledProps } from './filled/xbox-x_filled';
-export { XboxYFilled, XboxYFilledMetadata, type XboxYFilledProps } from './filled/xbox-y_filled';
-export { YinYangFilled, YinYangFilledMetadata, type YinYangFilledProps } from './filled/yin-yang_filled';
-export { ZeppelinFilled, ZeppelinFilledMetadata, type ZeppelinFilledProps } from './filled/zeppelin_filled';
+export { ArchiveRounded, ArchiveRoundedMetadata, type ArchiveRoundedProps } from './finance/archive_rounded';
 export { BankDoodle, BankDoodleMetadata, type BankDoodleProps } from './finance/bank_doodle';
 export { BanknoteArrowDown, BanknoteArrowDownMetadata, type BanknoteArrowDownProps } from './finance/banknote-arrow-down';
 export { BanknoteArrowUp, BanknoteArrowUpMetadata, type BanknoteArrowUpProps } from './finance/banknote-arrow-up';
@@ -1444,52 +1164,122 @@ export { BanknoteX, BanknoteXMetadata, type BanknoteXProps } from './finance/ban
 export { Banknote, BanknoteMetadata, type BanknoteProps } from './finance/banknote';
 export { BillDoodle, BillDoodleMetadata, type BillDoodleProps } from './finance/bill_doodle';
 export { Bitcoin, BitcoinMetadata, type BitcoinProps } from './finance/bitcoin';
+export { CardAddRounded, CardAddRoundedMetadata, type CardAddRoundedProps } from './finance/card-add_rounded';
+export { CardEditRounded, CardEditRoundedMetadata, type CardEditRoundedProps } from './finance/card-edit_rounded';
+export { CardPosRounded, CardPosRoundedMetadata, type CardPosRoundedProps } from './finance/card-pos_rounded';
+export { CardReceiveRounded, CardReceiveRoundedMetadata, type CardReceiveRoundedProps } from './finance/card-receive_rounded';
+export { CardRemove1Rounded, CardRemove1RoundedMetadata, type CardRemove1RoundedProps } from './finance/card-remove-1_rounded';
+export { CardRemoveRounded, CardRemoveRoundedMetadata, type CardRemoveRoundedProps } from './finance/card-remove_rounded';
+export { CardSendRounded, CardSendRoundedMetadata, type CardSendRoundedProps } from './finance/card-send_rounded';
+export { CardSlashRounded, CardSlashRoundedMetadata, type CardSlashRoundedProps } from './finance/card-slash_rounded';
+export { CardTick1Rounded, CardTick1RoundedMetadata, type CardTick1RoundedProps } from './finance/card-tick-1_rounded';
+export { CardTickRounded, CardTickRoundedMetadata, type CardTickRoundedProps } from './finance/card-tick_rounded';
+export { CardRounded, CardRoundedMetadata, type CardRoundedProps } from './finance/card_rounded';
+export { CardsRounded, CardsRoundedMetadata, type CardsRoundedProps } from './finance/cards_rounded';
 export { CashDoodle, CashDoodleMetadata, type CashDoodleProps } from './finance/cash_doodle';
+export { ChartSquareRounded, ChartSquareRoundedMetadata, type ChartSquareRoundedProps } from './finance/chart-square_rounded';
+export { Coin1Rounded, Coin1RoundedMetadata, type Coin1RoundedProps } from './finance/coin-1_rounded';
 export { Coin2Doodle, Coin2DoodleMetadata, type Coin2DoodleProps } from './finance/coin-2_doodle';
-export { CoinBitcoinFilled, CoinBitcoinFilledMetadata, type CoinBitcoinFilledProps } from './finance/coin-bitcoin_filled';
-export { CoinEuroFilled, CoinEuroFilledMetadata, type CoinEuroFilledProps } from './finance/coin-euro_filled';
-export { CoinMoneroFilled, CoinMoneroFilledMetadata, type CoinMoneroFilledProps } from './finance/coin-monero_filled';
-export { CoinPoundFilled, CoinPoundFilledMetadata, type CoinPoundFilledProps } from './finance/coin-pound_filled';
-export { CoinRupeeFilled, CoinRupeeFilledMetadata, type CoinRupeeFilledProps } from './finance/coin-rupee_filled';
-export { CoinTakaFilled, CoinTakaFilledMetadata, type CoinTakaFilledProps } from './finance/coin-taka_filled';
-export { CoinYenFilled, CoinYenFilledMetadata, type CoinYenFilledProps } from './finance/coin-yen_filled';
-export { CoinYuanFilled, CoinYuanFilledMetadata, type CoinYuanFilledProps } from './finance/coin-yuan_filled';
 export { CoinDoodle, CoinDoodleMetadata, type CoinDoodleProps } from './finance/coin_doodle';
-export { CoinFilled, CoinFilledMetadata, type CoinFilledProps } from './finance/coin_filled';
+export { CoinRounded, CoinRoundedMetadata, type CoinRoundedProps } from './finance/coin_rounded';
 export { Coins, CoinsMetadata, type CoinsProps } from './finance/coins';
 export { CreditCard, CreditCardMetadata, type CreditCardProps } from './finance/credit-card';
+export { DiscountCircleRounded, DiscountCircleRoundedMetadata, type DiscountCircleRoundedProps } from './finance/discount-circle_rounded';
+export { DiscountShapeRounded, DiscountShapeRoundedMetadata, type DiscountShapeRoundedProps } from './finance/discount-shape_rounded';
+export { DollarCircleRounded, DollarCircleRoundedMetadata, type DollarCircleRoundedProps } from './finance/dollar-circle_rounded';
 export { DollarSign, DollarSignMetadata, type DollarSignProps } from './finance/dollar-sign';
+export { DollarSquareRounded, DollarSquareRoundedMetadata, type DollarSquareRoundedProps } from './finance/dollar-square_rounded';
 export { DollarDoodle, DollarDoodleMetadata, type DollarDoodleProps } from './finance/dollar_doodle';
+export { EmptyWalletAddRounded, EmptyWalletAddRoundedMetadata, type EmptyWalletAddRoundedProps } from './finance/empty-wallet-add_rounded';
+export { EmptyWalletChangeRounded, EmptyWalletChangeRoundedMetadata, type EmptyWalletChangeRoundedProps } from './finance/empty-wallet-change_rounded';
+export { EmptyWalletRemoveRounded, EmptyWalletRemoveRoundedMetadata, type EmptyWalletRemoveRoundedProps } from './finance/empty-wallet-remove_rounded';
+export { EmptyWalletTickRounded, EmptyWalletTickRoundedMetadata, type EmptyWalletTickRoundedProps } from './finance/empty-wallet-tick_rounded';
+export { EmptyWalletTimeRounded, EmptyWalletTimeRoundedMetadata, type EmptyWalletTimeRoundedProps } from './finance/empty-wallet-time_rounded';
+export { EmptyWalletRounded, EmptyWalletRoundedMetadata, type EmptyWalletRoundedProps } from './finance/empty-wallet_rounded';
 export { Euro, EuroMetadata, type EuroProps } from './finance/euro';
 export { EuroDoodle, EuroDoodleMetadata, type EuroDoodleProps } from './finance/euro_doodle';
 export { FrancDoodle, FrancDoodleMetadata, type FrancDoodleProps } from './finance/franc_doodle';
 export { IndianRupee, IndianRupeeMetadata, type IndianRupeeProps } from './finance/indian-rupee';
 export { JapaneseYen, JapaneseYenMetadata, type JapaneseYenProps } from './finance/japanese-yen';
+export { MathRounded, MathRoundedMetadata, type MathRoundedProps } from './finance/math_rounded';
+export { Money2Rounded, Money2RoundedMetadata, type Money2RoundedProps } from './finance/money-2_rounded';
+export { Money3Rounded, Money3RoundedMetadata, type Money3RoundedProps } from './finance/money-3_rounded';
+export { Money4Rounded, Money4RoundedMetadata, type Money4RoundedProps } from './finance/money-4_rounded';
+export { MoneyAddRounded, MoneyAddRoundedMetadata, type MoneyAddRoundedProps } from './finance/money-add_rounded';
+export { MoneyChangeRounded, MoneyChangeRoundedMetadata, type MoneyChangeRoundedProps } from './finance/money-change_rounded';
+export { MoneyForbiddenRounded, MoneyForbiddenRoundedMetadata, type MoneyForbiddenRoundedProps } from './finance/money-forbidden_rounded';
 export { MoneyPlantDoodle, MoneyPlantDoodleMetadata, type MoneyPlantDoodleProps } from './finance/money-plant_doodle';
+export { MoneyReciveRounded, MoneyReciveRoundedMetadata, type MoneyReciveRoundedProps } from './finance/money-recive_rounded';
+export { MoneyRemoveRounded, MoneyRemoveRoundedMetadata, type MoneyRemoveRoundedProps } from './finance/money-remove_rounded';
+export { MoneySendRounded, MoneySendRoundedMetadata, type MoneySendRoundedProps } from './finance/money-send_rounded';
+export { MoneyTickRounded, MoneyTickRoundedMetadata, type MoneyTickRoundedProps } from './finance/money-tick_rounded';
+export { MoneyTimeRounded, MoneyTimeRoundedMetadata, type MoneyTimeRoundedProps } from './finance/money-time_rounded';
+export { MoneyRounded, MoneyRoundedMetadata, type MoneyRoundedProps } from './finance/money_rounded';
+export { MoneysRounded, MoneysRoundedMetadata, type MoneysRoundedProps } from './finance/moneys_rounded';
+export { PercentageSquareRounded, PercentageSquareRoundedMetadata, type PercentageSquareRoundedProps } from './finance/percentage-square_rounded';
 export { PhilippinePeso, PhilippinePesoMetadata, type PhilippinePesoProps } from './finance/philippine-peso';
 export { PiggyBankDoodle, PiggyBankDoodleMetadata, type PiggyBankDoodleProps } from './finance/piggy-bank_doodle';
 export { PoundSterling, PoundSterlingMetadata, type PoundSterlingProps } from './finance/pound-sterling';
 export { PoundDoodle, PoundDoodleMetadata, type PoundDoodleProps } from './finance/pound_doodle';
+export { Receipt1Rounded, Receipt1RoundedMetadata, type Receipt1RoundedProps } from './finance/receipt-1_rounded';
+export { Receipt21Rounded, Receipt21RoundedMetadata, type Receipt21RoundedProps } from './finance/receipt-2-1_rounded';
+export { Receipt2Rounded, Receipt2RoundedMetadata, type Receipt2RoundedProps } from './finance/receipt-2_rounded';
+export { ReceiptAddRounded, ReceiptAddRoundedMetadata, type ReceiptAddRoundedProps } from './finance/receipt-add_rounded';
+export { ReceiptDiscountRounded, ReceiptDiscountRoundedMetadata, type ReceiptDiscountRoundedProps } from './finance/receipt-discount_rounded';
+export { ReceiptDisscountRounded, ReceiptDisscountRoundedMetadata, type ReceiptDisscountRoundedProps } from './finance/receipt-disscount_rounded';
+export { ReceiptEditRounded, ReceiptEditRoundedMetadata, type ReceiptEditRoundedProps } from './finance/receipt-edit_rounded';
+export { ReceiptItemRounded, ReceiptItemRoundedMetadata, type ReceiptItemRoundedProps } from './finance/receipt-item_rounded';
+export { ReceiptMinusRounded, ReceiptMinusRoundedMetadata, type ReceiptMinusRoundedProps } from './finance/receipt-minus_rounded';
+export { ReceiptSearchRounded, ReceiptSearchRoundedMetadata, type ReceiptSearchRoundedProps } from './finance/receipt-search_rounded';
+export { ReceiptTextRounded, ReceiptTextRoundedMetadata, type ReceiptTextRoundedProps } from './finance/receipt-text_rounded';
+export { ReceiptRounded, ReceiptRoundedMetadata, type ReceiptRoundedProps } from './finance/receipt_rounded';
 export { RubleDoodle, RubleDoodleMetadata, type RubleDoodleProps } from './finance/ruble_doodle';
 export { RupeeDoodle, RupeeDoodleMetadata, type RupeeDoodleProps } from './finance/rupee_doodle';
 export { SafeDoodle, SafeDoodleMetadata, type SafeDoodleProps } from './finance/safe_doodle';
 export { SavingDoodle, SavingDoodleMetadata, type SavingDoodleProps } from './finance/saving_doodle';
+export { SecurityCardRounded, SecurityCardRoundedMetadata, type SecurityCardRoundedProps } from './finance/security-card_rounded';
+export { Strongbox2Rounded, Strongbox2RoundedMetadata, type Strongbox2RoundedProps } from './finance/strongbox-2_rounded';
+export { StrongboxRounded, StrongboxRoundedMetadata, type StrongboxRoundedProps } from './finance/strongbox_rounded';
 export { SwissFranc, SwissFrancMetadata, type SwissFrancProps } from './finance/swiss-franc';
+export { Tag2Rounded, Tag2RoundedMetadata, type Tag2RoundedProps } from './finance/tag-2_rounded';
+export { TagRounded, TagRoundedMetadata, type TagRoundedProps } from './finance/tag_rounded';
+export { Ticket2Rounded, Ticket2RoundedMetadata, type Ticket2RoundedProps } from './finance/ticket-2_rounded';
+export { TicketDiscountRounded, TicketDiscountRoundedMetadata, type TicketDiscountRoundedProps } from './finance/ticket-discount_rounded';
+export { TicketExpiredRounded, TicketExpiredRoundedMetadata, type TicketExpiredRoundedProps } from './finance/ticket-expired_rounded';
+export { TicketStarRounded, TicketStarRoundedMetadata, type TicketStarRoundedProps } from './finance/ticket-star_rounded';
+export { TicketRounded, TicketRoundedMetadata, type TicketRoundedProps } from './finance/ticket_rounded';
+export { TransactionMinusRounded, TransactionMinusRoundedMetadata, type TransactionMinusRoundedProps } from './finance/transaction-minus_rounded';
 export { TrendDownSquareDoodle, TrendDownSquareDoodleMetadata, type TrendDownSquareDoodleProps } from './finance/trend-down-square_doodle';
 export { TrendDownDoodle, TrendDownDoodleMetadata, type TrendDownDoodleProps } from './finance/trend-down_doodle';
 export { TrendUpSquareDoodle, TrendUpSquareDoodleMetadata, type TrendUpSquareDoodleProps } from './finance/trend-up-square_doodle';
 export { TrendUpDoodle, TrendUpDoodleMetadata, type TrendUpDoodleProps } from './finance/trend-up_doodle';
+export { Wallet1Rounded, Wallet1RoundedMetadata, type Wallet1RoundedProps } from './finance/wallet-1_rounded';
+export { Wallet2Rounded, Wallet2RoundedMetadata, type Wallet2RoundedProps } from './finance/wallet-2_rounded';
+export { Wallet3Rounded, Wallet3RoundedMetadata, type Wallet3RoundedProps } from './finance/wallet-3_rounded';
+export { WalletAdd1Rounded, WalletAdd1RoundedMetadata, type WalletAdd1RoundedProps } from './finance/wallet-add-1_rounded';
+export { WalletAddRounded, WalletAddRoundedMetadata, type WalletAddRoundedProps } from './finance/wallet-add_rounded';
+export { WalletCheckRounded, WalletCheckRoundedMetadata, type WalletCheckRoundedProps } from './finance/wallet-check_rounded';
+export { WalletMinusRounded, WalletMinusRoundedMetadata, type WalletMinusRoundedProps } from './finance/wallet-minus_rounded';
+export { WalletMoneyRounded, WalletMoneyRoundedMetadata, type WalletMoneyRoundedProps } from './finance/wallet-money_rounded';
+export { WalletRemoveRounded, WalletRemoveRoundedMetadata, type WalletRemoveRoundedProps } from './finance/wallet-remove_rounded';
+export { WalletSearchRounded, WalletSearchRoundedMetadata, type WalletSearchRoundedProps } from './finance/wallet-search_rounded';
 export { WalletDoodle, WalletDoodleMetadata, type WalletDoodleProps } from './finance/wallet_doodle';
+export { WalletRounded, WalletRoundedMetadata, type WalletRoundedProps } from './finance/wallet_rounded';
 export { WonDoodle, WonDoodleMetadata, type WonDoodleProps } from './finance/won_doodle';
 export { YenDoodle, YenDoodleMetadata, type YenDoodleProps } from './finance/yen_doodle';
+export { Folder2Rounded, Folder2RoundedMetadata, type Folder2RoundedProps } from './folder/folder-2_rounded';
+export { FolderAddRounded, FolderAddRoundedMetadata, type FolderAddRoundedProps } from './folder/folder-add_rounded';
 export { FolderArchive, FolderArchiveMetadata, type FolderArchiveProps } from './folder/folder-archive';
 export { FolderCheck, FolderCheckMetadata, type FolderCheckProps } from './folder/folder-check';
 export { FolderClock, FolderClockMetadata, type FolderClockProps } from './folder/folder-clock';
 export { FolderClosed, FolderClosedMetadata, type FolderClosedProps } from './folder/folder-closed';
+export { FolderCloudRounded, FolderCloudRoundedMetadata, type FolderCloudRoundedProps } from './folder/folder-cloud_rounded';
 export { FolderCode, FolderCodeMetadata, type FolderCodeProps } from './folder/folder-code';
 export { FolderCog, FolderCogMetadata, type FolderCogProps } from './folder/folder-cog';
+export { FolderCrossRounded, FolderCrossRoundedMetadata, type FolderCrossRoundedProps } from './folder/folder-cross_rounded';
 export { FolderDot, FolderDotMetadata, type FolderDotProps } from './folder/folder-dot';
 export { FolderDown, FolderDownMetadata, type FolderDownProps } from './folder/folder-down';
+export { FolderFavoriteRounded, FolderFavoriteRoundedMetadata, type FolderFavoriteRoundedProps } from './folder/folder-favorite_rounded';
 export { FolderGit2, FolderGit2Metadata, type FolderGit2Props } from './folder/folder-git-2';
 export { FolderGit, FolderGitMetadata, type FolderGitProps } from './folder/folder-git';
 export { FolderHeart, FolderHeartMetadata, type FolderHeartProps } from './folder/folder-heart';
@@ -1498,8 +1288,10 @@ export { FolderKanban, FolderKanbanMetadata, type FolderKanbanProps } from './fo
 export { FolderKey, FolderKeyMetadata, type FolderKeyProps } from './folder/folder-key';
 export { FolderLock, FolderLockMetadata, type FolderLockProps } from './folder/folder-lock';
 export { FolderMinus, FolderMinusMetadata, type FolderMinusProps } from './folder/folder-minus';
+export { FolderMinusRounded, FolderMinusRoundedMetadata, type FolderMinusRoundedProps } from './folder/folder-minus_rounded';
 export { FolderOpenDot, FolderOpenDotMetadata, type FolderOpenDotProps } from './folder/folder-open-dot';
 export { FolderOpen, FolderOpenMetadata, type FolderOpenProps } from './folder/folder-open';
+export { FolderOpenRounded, FolderOpenRoundedMetadata, type FolderOpenRoundedProps } from './folder/folder-open_rounded';
 export { FolderOutput, FolderOutputMetadata, type FolderOutputProps } from './folder/folder-output';
 export { FolderPen, FolderPenMetadata, type FolderPenProps } from './folder/folder-pen';
 export { FolderPlus, FolderPlusMetadata, type FolderPlusProps } from './folder/folder-plus';
@@ -1512,6 +1304,7 @@ export { FolderTree, FolderTreeMetadata, type FolderTreeProps } from './folder/f
 export { FolderUp, FolderUpMetadata, type FolderUpProps } from './folder/folder-up';
 export { FolderX, FolderXMetadata, type FolderXProps } from './folder/folder-x';
 export { Folder, FolderMetadata, type FolderProps } from './folder/folder';
+export { FolderRounded, FolderRoundedMetadata, type FolderRoundedProps } from './folder/folder_rounded';
 export { Folders, FoldersMetadata, type FoldersProps } from './folder/folders';
 export { Apple, AppleMetadata, type AppleProps } from './food/apple';
 export { Banana, BananaMetadata, type BananaProps } from './food/banana';
@@ -1555,35 +1348,24 @@ export { Salad, SaladMetadata, type SaladProps } from './food/salad';
 export { Sandwich, SandwichMetadata, type SandwichProps } from './food/sandwich';
 export { SpoonDoodle, SpoonDoodleMetadata, type SpoonDoodleProps } from './food/spoon_doodle';
 export { WaterDoodle, WaterDoodleMetadata, type WaterDoodleProps } from './food/water_doodle';
+export { AquariusRounded, AquariusRoundedMetadata, type AquariusRoundedProps } from './gender/aquarius_rounded';
 export { BisexualDoodle, BisexualDoodleMetadata, type BisexualDoodleProps } from './gender/bisexual_doodle';
 export { FemaileDoodle, FemaileDoodleMetadata, type FemaileDoodleProps } from './gender/femaile_doodle';
 export { GayDoodle, GayDoodleMetadata, type GayDoodleProps } from './gender/gay_doodle';
+export { Gemini2Rounded, Gemini2RoundedMetadata, type Gemini2RoundedProps } from './gender/gemini-2_rounded';
+export { GeminiRounded, GeminiRoundedMetadata, type GeminiRoundedProps } from './gender/gemini_rounded';
 export { GenderlessDoodle, GenderlessDoodleMetadata, type GenderlessDoodleProps } from './gender/genderless_doodle';
 export { HetroDoodle, HetroDoodleMetadata, type HetroDoodleProps } from './gender/hetro_doodle';
 export { IntersexDoodle, IntersexDoodleMetadata, type IntersexDoodleProps } from './gender/intersex_doodle';
 export { LesbianDoodle, LesbianDoodleMetadata, type LesbianDoodleProps } from './gender/lesbian_doodle';
 export { MaleDoodle, MaleDoodleMetadata, type MaleDoodleProps } from './gender/male_doodle';
+export { ManRounded, ManRoundedMetadata, type ManRoundedProps } from './gender/man_rounded';
 export { NonBinaryTransgenderDoodle, NonBinaryTransgenderDoodleMetadata, type NonBinaryTransgenderDoodleProps } from './gender/non-binary-transgender_doodle';
 export { OtherGenderDoodle, OtherGenderDoodleMetadata, type OtherGenderDoodleProps } from './gender/other-gender_doodle';
+export { SagittariusRounded, SagittariusRoundedMetadata, type SagittariusRoundedProps } from './gender/sagittarius_rounded';
 export { Transgender2Doodle, Transgender2DoodleMetadata, type Transgender2DoodleProps } from './gender/transgender-2_doodle';
 export { TransgenderDoodle, TransgenderDoodleMetadata, type TransgenderDoodleProps } from './gender/transgender_doodle';
-export { GitBranchMinus, GitBranchMinusMetadata, type GitBranchMinusProps } from './git/git-branch-minus';
-export { GitBranchPlus, GitBranchPlusMetadata, type GitBranchPlusProps } from './git/git-branch-plus';
-export { GitBranch, GitBranchMetadata, type GitBranchProps } from './git/git-branch';
-export { GitCommitHorizontal, GitCommitHorizontalMetadata, type GitCommitHorizontalProps } from './git/git-commit-horizontal';
-export { GitCommitVertical, GitCommitVerticalMetadata, type GitCommitVerticalProps } from './git/git-commit-vertical';
-export { GitCompareArrows, GitCompareArrowsMetadata, type GitCompareArrowsProps } from './git/git-compare-arrows';
-export { GitCompare, GitCompareMetadata, type GitCompareProps } from './git/git-compare';
-export { GitFork, GitForkMetadata, type GitForkProps } from './git/git-fork';
-export { GitGraph, GitGraphMetadata, type GitGraphProps } from './git/git-graph';
-export { GitMergeConflict, GitMergeConflictMetadata, type GitMergeConflictProps } from './git/git-merge-conflict';
-export { GitMerge, GitMergeMetadata, type GitMergeProps } from './git/git-merge';
-export { GitPullRequestArrow, GitPullRequestArrowMetadata, type GitPullRequestArrowProps } from './git/git-pull-request-arrow';
-export { GitPullRequestClosed, GitPullRequestClosedMetadata, type GitPullRequestClosedProps } from './git/git-pull-request-closed';
-export { GitPullRequestCreateArrow, GitPullRequestCreateArrowMetadata, type GitPullRequestCreateArrowProps } from './git/git-pull-request-create-arrow';
-export { GitPullRequestCreate, GitPullRequestCreateMetadata, type GitPullRequestCreateProps } from './git/git-pull-request-create';
-export { GitPullRequestDraft, GitPullRequestDraftMetadata, type GitPullRequestDraftProps } from './git/git-pull-request-draft';
-export { GitPullRequest, GitPullRequestMetadata, type GitPullRequestProps } from './git/git-pull-request';
+export { WomanRounded, WomanRoundedMetadata, type WomanRoundedProps } from './gender/woman_rounded';
 export { ClapDoodle, ClapDoodleMetadata, type ClapDoodleProps } from './hand/clap_doodle';
 export { Double2TapDoodle, Double2TapDoodleMetadata, type Double2TapDoodleProps } from './hand/double-2-tap_doodle';
 export { DoubleTapDoodle, DoubleTapDoodleMetadata, type DoubleTapDoodleProps } from './hand/double-tap_doodle';
@@ -1667,67 +1449,117 @@ export { ThermometerSun, ThermometerSunMetadata, type ThermometerSunProps } from
 export { Thermometer, ThermometerMetadata, type ThermometerProps } from './health/thermometer';
 export { ToothDoodle, ToothDoodleMetadata, type ToothDoodleProps } from './health/tooth_doodle';
 export { WheelchairDoodle, WheelchairDoodleMetadata, type WheelchairDoodleProps } from './health/wheelchair_doodle';
-export { HexagonLetterAFilled, HexagonLetterAFilledMetadata, type HexagonLetterAFilledProps } from './hexagon/hexagon-letter-a_filled';
-export { HexagonLetterBFilled, HexagonLetterBFilledMetadata, type HexagonLetterBFilledProps } from './hexagon/hexagon-letter-b_filled';
-export { HexagonLetterCFilled, HexagonLetterCFilledMetadata, type HexagonLetterCFilledProps } from './hexagon/hexagon-letter-c_filled';
-export { HexagonLetterDFilled, HexagonLetterDFilledMetadata, type HexagonLetterDFilledProps } from './hexagon/hexagon-letter-d_filled';
-export { HexagonLetterEFilled, HexagonLetterEFilledMetadata, type HexagonLetterEFilledProps } from './hexagon/hexagon-letter-e_filled';
-export { HexagonLetterFFilled, HexagonLetterFFilledMetadata, type HexagonLetterFFilledProps } from './hexagon/hexagon-letter-f_filled';
-export { HexagonLetterGFilled, HexagonLetterGFilledMetadata, type HexagonLetterGFilledProps } from './hexagon/hexagon-letter-g_filled';
-export { HexagonLetterHFilled, HexagonLetterHFilledMetadata, type HexagonLetterHFilledProps } from './hexagon/hexagon-letter-h_filled';
-export { HexagonLetterIFilled, HexagonLetterIFilledMetadata, type HexagonLetterIFilledProps } from './hexagon/hexagon-letter-i_filled';
-export { HexagonLetterJFilled, HexagonLetterJFilledMetadata, type HexagonLetterJFilledProps } from './hexagon/hexagon-letter-j_filled';
-export { HexagonLetterKFilled, HexagonLetterKFilledMetadata, type HexagonLetterKFilledProps } from './hexagon/hexagon-letter-k_filled';
-export { HexagonLetterLFilled, HexagonLetterLFilledMetadata, type HexagonLetterLFilledProps } from './hexagon/hexagon-letter-l_filled';
-export { HexagonLetterMFilled, HexagonLetterMFilledMetadata, type HexagonLetterMFilledProps } from './hexagon/hexagon-letter-m_filled';
-export { HexagonLetterNFilled, HexagonLetterNFilledMetadata, type HexagonLetterNFilledProps } from './hexagon/hexagon-letter-n_filled';
-export { HexagonLetterOFilled, HexagonLetterOFilledMetadata, type HexagonLetterOFilledProps } from './hexagon/hexagon-letter-o_filled';
-export { HexagonLetterPFilled, HexagonLetterPFilledMetadata, type HexagonLetterPFilledProps } from './hexagon/hexagon-letter-p_filled';
-export { HexagonLetterQFilled, HexagonLetterQFilledMetadata, type HexagonLetterQFilledProps } from './hexagon/hexagon-letter-q_filled';
-export { HexagonLetterRFilled, HexagonLetterRFilledMetadata, type HexagonLetterRFilledProps } from './hexagon/hexagon-letter-r_filled';
-export { HexagonLetterSFilled, HexagonLetterSFilledMetadata, type HexagonLetterSFilledProps } from './hexagon/hexagon-letter-s_filled';
-export { HexagonLetterTFilled, HexagonLetterTFilledMetadata, type HexagonLetterTFilledProps } from './hexagon/hexagon-letter-t_filled';
-export { HexagonLetterUFilled, HexagonLetterUFilledMetadata, type HexagonLetterUFilledProps } from './hexagon/hexagon-letter-u_filled';
-export { HexagonLetterVFilled, HexagonLetterVFilledMetadata, type HexagonLetterVFilledProps } from './hexagon/hexagon-letter-v_filled';
-export { HexagonLetterWFilled, HexagonLetterWFilledMetadata, type HexagonLetterWFilledProps } from './hexagon/hexagon-letter-w_filled';
-export { HexagonLetterXFilled, HexagonLetterXFilledMetadata, type HexagonLetterXFilledProps } from './hexagon/hexagon-letter-x_filled';
-export { HexagonLetterYFilled, HexagonLetterYFilledMetadata, type HexagonLetterYFilledProps } from './hexagon/hexagon-letter-y_filled';
-export { HexagonLetterZFilled, HexagonLetterZFilledMetadata, type HexagonLetterZFilledProps } from './hexagon/hexagon-letter-z_filled';
-export { HexagonMinusFilled, HexagonMinusFilledMetadata, type HexagonMinusFilledProps } from './hexagon/hexagon-minus_filled';
-export { HexagonNumber0Filled, HexagonNumber0FilledMetadata, type HexagonNumber0FilledProps } from './hexagon/hexagon-number-0_filled';
-export { HexagonNumber1Filled, HexagonNumber1FilledMetadata, type HexagonNumber1FilledProps } from './hexagon/hexagon-number-1_filled';
-export { HexagonNumber2Filled, HexagonNumber2FilledMetadata, type HexagonNumber2FilledProps } from './hexagon/hexagon-number-2_filled';
-export { HexagonNumber3Filled, HexagonNumber3FilledMetadata, type HexagonNumber3FilledProps } from './hexagon/hexagon-number-3_filled';
-export { HexagonNumber4Filled, HexagonNumber4FilledMetadata, type HexagonNumber4FilledProps } from './hexagon/hexagon-number-4_filled';
-export { HexagonNumber5Filled, HexagonNumber5FilledMetadata, type HexagonNumber5FilledProps } from './hexagon/hexagon-number-5_filled';
-export { HexagonNumber6Filled, HexagonNumber6FilledMetadata, type HexagonNumber6FilledProps } from './hexagon/hexagon-number-6_filled';
-export { HexagonNumber7Filled, HexagonNumber7FilledMetadata, type HexagonNumber7FilledProps } from './hexagon/hexagon-number-7_filled';
-export { HexagonNumber8Filled, HexagonNumber8FilledMetadata, type HexagonNumber8FilledProps } from './hexagon/hexagon-number-8_filled';
-export { HexagonNumber9Filled, HexagonNumber9FilledMetadata, type HexagonNumber9FilledProps } from './hexagon/hexagon-number-9_filled';
-export { HexagonPlusFilled, HexagonPlusFilledMetadata, type HexagonPlusFilledProps } from './hexagon/hexagon-plus_filled';
+export { AddCircleRounded, AddCircleRoundedMetadata, type AddCircleRoundedProps } from './home/add-circle_rounded';
+export { AddSquareRounded, AddSquareRoundedMetadata, type AddSquareRoundedProps } from './home/add-square_rounded';
+export { AddRounded, AddRoundedMetadata, type AddRoundedProps } from './home/add_rounded';
 export { AnchorDoodle, AnchorDoodleMetadata, type AnchorDoodleProps } from './home/anchor_doodle';
+export { AutobrightnessRounded, AutobrightnessRoundedMetadata, type AutobrightnessRoundedProps } from './home/autobrightness_rounded';
 export { Balloon2Doodle, Balloon2DoodleMetadata, type Balloon2DoodleProps } from './home/balloon-2_doodle';
 export { BalloonDoodle, BalloonDoodleMetadata, type BalloonDoodleProps } from './home/balloon_doodle';
+export { BatteryChargingRounded, BatteryChargingRoundedMetadata, type BatteryChargingRoundedProps } from './home/battery-charging_rounded';
+export { BatteryDisableRounded, BatteryDisableRoundedMetadata, type BatteryDisableRoundedProps } from './home/battery-disable_rounded';
+export { BatteryEmpty1Rounded, BatteryEmpty1RoundedMetadata, type BatteryEmpty1RoundedProps } from './home/battery-empty-1_rounded';
+export { BatteryEmptyRounded, BatteryEmptyRoundedMetadata, type BatteryEmptyRoundedProps } from './home/battery-empty_rounded';
+export { BatteryFullRounded, BatteryFullRoundedMetadata, type BatteryFullRoundedProps } from './home/battery-full_rounded';
+export { Box2Rounded, Box2RoundedMetadata, type Box2RoundedProps } from './home/box-2_rounded';
+export { BroomRounded, BroomRoundedMetadata, type BroomRoundedProps } from './home/broom_rounded';
+export { BubbleRounded, BubbleRoundedMetadata, type BubbleRoundedProps } from './home/bubble_rounded';
+export { CakeRounded, CakeRoundedMetadata, type CakeRoundedProps } from './home/cake_rounded';
 export { CameraDoodle, CameraDoodleMetadata, type CameraDoodleProps } from './home/camera_doodle';
+export { CdRounded, CdRoundedMetadata, type CdRoundedProps } from './home/cd_rounded';
+export { ChromeRounded, ChromeRoundedMetadata, type ChromeRoundedProps } from './home/chrome_rounded';
+export { CloseCircleRounded, CloseCircleRoundedMetadata, type CloseCircleRoundedProps } from './home/close-circle_rounded';
+export { CloseSquareRounded, CloseSquareRoundedMetadata, type CloseSquareRoundedProps } from './home/close-square_rounded';
+export { CoffeeRounded, CoffeeRoundedMetadata, type CoffeeRoundedProps } from './home/coffee_rounded';
+export { ComputingRounded, ComputingRoundedMetadata, type ComputingRoundedProps } from './home/computing_rounded';
+export { Crown1Rounded, Crown1RoundedMetadata, type Crown1RoundedProps } from './home/crown-1_rounded';
 export { CrownDoodle, CrownDoodleMetadata, type CrownDoodleProps } from './home/crown_doodle';
+export { CrownRounded, CrownRoundedMetadata, type CrownRoundedProps } from './home/crown_rounded';
+export { CubeRounded, CubeRoundedMetadata, type CubeRoundedProps } from './home/cube_rounded';
+export { CupRounded, CupRoundedMetadata, type CupRoundedProps } from './home/cup_rounded';
+export { DangerRounded, DangerRoundedMetadata, type DangerRoundedProps } from './home/danger_rounded';
+export { DiamondsRounded, DiamondsRoundedMetadata, type DiamondsRoundedProps } from './home/diamonds_rounded';
+export { DiscoverRounded, DiscoverRoundedMetadata, type DiscoverRoundedProps } from './home/discover_rounded';
+export { EmojiHappyRounded, EmojiHappyRoundedMetadata, type EmojiHappyRoundedProps } from './home/emoji-happy_rounded';
+export { EmojiNormalRounded, EmojiNormalRoundedMetadata, type EmojiNormalRoundedProps } from './home/emoji-normal_rounded';
+export { EmojiSadRounded, EmojiSadRoundedMetadata, type EmojiSadRoundedProps } from './home/emoji-sad_rounded';
+export { FilterAddRounded, FilterAddRoundedMetadata, type FilterAddRoundedProps } from './home/filter-add_rounded';
+export { FilterEditRounded, FilterEditRoundedMetadata, type FilterEditRoundedProps } from './home/filter-edit_rounded';
+export { FilterRemoveRounded, FilterRemoveRoundedMetadata, type FilterRemoveRoundedProps } from './home/filter-remove_rounded';
+export { FilterSearchRounded, FilterSearchRoundedMetadata, type FilterSearchRoundedProps } from './home/filter-search_rounded';
+export { FilterSquareRounded, FilterSquareRoundedMetadata, type FilterSquareRoundedProps } from './home/filter-square_rounded';
+export { FilterTickRounded, FilterTickRoundedMetadata, type FilterTickRoundedProps } from './home/filter-tick_rounded';
+export { FilterRounded, FilterRoundedMetadata, type FilterRoundedProps } from './home/filter_rounded';
+export { Flag2Rounded, Flag2RoundedMetadata, type Flag2RoundedProps } from './home/flag-2_rounded';
+export { FlagRounded, FlagRoundedMetadata, type FlagRoundedProps } from './home/flag_rounded';
+export { FlashSlashRounded, FlashSlashRoundedMetadata, type FlashSlashRoundedProps } from './home/flash-slash_rounded';
+export { FlashRounded, FlashRoundedMetadata, type FlashRoundedProps } from './home/flash_rounded';
 export { FlashlightDoodle, FlashlightDoodleMetadata, type FlashlightDoodleProps } from './home/flashlight_doodle';
 export { FrameDoodle, FrameDoodleMetadata, type FrameDoodleProps } from './home/frame_doodle';
+export { FullRounded, FullRoundedMetadata, type FullRoundedProps } from './home/full_rounded';
+export { GhostRounded, GhostRoundedMetadata, type GhostRoundedProps } from './home/ghost_rounded';
+export { GrammerlyRounded, GrammerlyRoundedMetadata, type GrammerlyRoundedProps } from './home/grammerly_rounded';
 export { GuitarDoodle, GuitarDoodleMetadata, type GuitarDoodleProps } from './home/guitar_doodle';
+export { HappyemojiRounded, HappyemojiRoundedMetadata, type HappyemojiRoundedProps } from './home/happyemoji_rounded';
+export { Home2Rounded, Home2RoundedMetadata, type Home2RoundedProps } from './home/home-2_rounded';
+export { HomeWifiRounded, HomeWifiRoundedMetadata, type HomeWifiRoundedProps } from './home/home-wifi_rounded';
+export { HomeRounded, HomeRoundedMetadata, type HomeRoundedProps } from './home/home_rounded';
+export { InfoCircleRounded, InfoCircleRoundedMetadata, type InfoCircleRoundedProps } from './home/info-circle_rounded';
+export { InformationRounded, InformationRoundedMetadata, type InformationRoundedProps } from './home/information_rounded';
+export { InstagramRounded, InstagramRoundedMetadata, type InstagramRoundedProps } from './home/instagram_rounded';
+export { JudgeRounded, JudgeRoundedMetadata, type JudgeRoundedProps } from './home/judge_rounded';
 export { LampCeiling, LampCeilingMetadata, type LampCeilingProps } from './home/lamp-ceiling';
 export { LampDesk, LampDeskMetadata, type LampDeskProps } from './home/lamp-desk';
 export { LampFloor, LampFloorMetadata, type LampFloorProps } from './home/lamp-floor';
 export { LampWallDown, LampWallDownMetadata, type LampWallDownProps } from './home/lamp-wall-down';
 export { LampWallUp, LampWallUpMetadata, type LampWallUpProps } from './home/lamp-wall-up';
 export { Lamp, LampMetadata, type LampProps } from './home/lamp';
+export { LevelRounded, LevelRoundedMetadata, type LevelRoundedProps } from './home/level_rounded';
 export { LightbulbOff, LightbulbOffMetadata, type LightbulbOffProps } from './home/lightbulb-off';
 export { Lightbulb, LightbulbMetadata, type LightbulbProps } from './home/lightbulb';
+export { MilkRounded, MilkRoundedMetadata, type MilkRoundedProps } from './home/milk_rounded';
+export { MinusCirlceRounded, MinusCirlceRoundedMetadata, type MinusCirlceRoundedProps } from './home/minus-cirlce_rounded';
+export { MinusSquareRounded, MinusSquareRoundedMetadata, type MinusSquareRoundedProps } from './home/minus-square_rounded';
+export { MinusRounded, MinusRoundedMetadata, type MinusRoundedProps } from './home/minus_rounded';
+export { MirrorRounded, MirrorRoundedMetadata, type MirrorRoundedProps } from './home/mirror_rounded';
+export { MoreCircle, MoreCircleMetadata, type MoreCircleProps } from './home/more-circle';
+export { MoreSquareRounded, MoreSquareRoundedMetadata, type MoreSquareRoundedProps } from './home/more-square_rounded';
+export { MouseCircleRounded, MouseCircleRoundedMetadata, type MouseCircleRoundedProps } from './home/mouse-circle_rounded';
+export { MouseSquareRounded, MouseSquareRoundedMetadata, type MouseSquareRoundedProps } from './home/mouse-square_rounded';
 export { MovieClapperDoodle, MovieClapperDoodleMetadata, type MovieClapperDoodleProps } from './home/movie-clapper_doodle';
 export { PaintBrush2Doodle, PaintBrush2DoodleMetadata, type PaintBrush2DoodleProps } from './home/paint-brush-2_doodle';
 export { PaintBrushDoodle, PaintBrushDoodleMetadata, type PaintBrushDoodleProps } from './home/paint-brush_doodle';
 export { PaintBucketDoodle, PaintBucketDoodleMetadata, type PaintBucketDoodleProps } from './home/paint-bucket_doodle';
 export { PaintRollerDoodle, PaintRollerDoodleMetadata, type PaintRollerDoodleProps } from './home/paint-roller_doodle';
+export { PetRounded, PetRoundedMetadata, type PetRoundedProps } from './home/pet_rounded';
+export { RankingRounded, RankingRoundedMetadata, type RankingRoundedProps } from './home/ranking_rounded';
+export { ReserveRounded, ReserveRoundedMetadata, type ReserveRoundedProps } from './home/reserve_rounded';
+export { SafeHomeRounded, SafeHomeRoundedMetadata, type SafeHomeRoundedProps } from './home/safe-home_rounded';
+export { Send2Rounded, Send2RoundedMetadata, type Send2RoundedProps } from './home/send-2_rounded';
+export { ShareRounded, ShareRoundedMetadata, type ShareRoundedProps } from './home/share_rounded';
+export { SignpostRounded, SignpostRoundedMetadata, type SignpostRoundedProps } from './home/signpost_rounded';
+export { SlashRounded, SlashRoundedMetadata, type SlashRoundedProps } from './home/slash_rounded';
+export { SliderRounded, SliderRoundedMetadata, type SliderRoundedProps } from './home/slider_rounded';
+export { SmartHomeRounded, SmartHomeRoundedMetadata, type SmartHomeRoundedProps } from './home/smart-home_rounded';
 export { SofaDoodle, SofaDoodleMetadata, type SofaDoodleProps } from './home/sofa_doodle';
+export { SortRounded, SortRoundedMetadata, type SortRoundedProps } from './home/sort_rounded';
+export { SoundRounded, SoundRoundedMetadata, type SoundRoundedProps } from './home/sound_rounded';
+export { SpeedometerRounded, SpeedometerRoundedMetadata, type SpeedometerRoundedProps } from './home/speedometer_rounded';
+export { StatusRounded, StatusRoundedMetadata, type StatusRoundedProps } from './home/status_rounded';
+export { StickerRounded, StickerRoundedMetadata, type StickerRoundedProps } from './home/sticker_rounded';
+export { StoryRounded, StoryRoundedMetadata, type StoryRoundedProps } from './home/story_rounded';
+export { TagCrossRounded, TagCrossRoundedMetadata, type TagCrossRoundedProps } from './home/tag-cross_rounded';
+export { TagRightRounded, TagRightRoundedMetadata, type TagRightRoundedProps } from './home/tag-right_rounded';
+export { TickCircleRounded, TickCircleRoundedMetadata, type TickCircleRoundedProps } from './home/tick-circle_rounded';
+export { TickSquareRounded, TickSquareRoundedMetadata, type TickSquareRoundedProps } from './home/tick-square_rounded';
+export { TrashRounded, TrashRoundedMetadata, type TrashRoundedProps } from './home/trash_rounded';
+export { TreeRounded, TreeRoundedMetadata, type TreeRoundedProps } from './home/tree_rounded';
+export { TrushSquareRounded, TrushSquareRoundedMetadata, type TrushSquareRoundedProps } from './home/trush-square_rounded';
 export { TvDoodle, TvDoodleMetadata, type TvDoodleProps } from './home/tv_doodle';
+export { VerifyRounded, VerifyRoundedMetadata, type VerifyRoundedProps } from './home/verify_rounded';
+export { Warning2Rounded, Warning2RoundedMetadata, type Warning2RoundedProps } from './home/warning-2_rounded';
+export { WifiSquareRounded, WifiSquareRoundedMetadata, type WifiSquareRoundedProps } from './home/wifi-square_rounded';
+export { WifiRounded, WifiRoundedMetadata, type WifiRoundedProps } from './home/wifi_rounded';
 export { InfoDoodle, InfoDoodleMetadata, type InfoDoodleProps } from './interface/Info_doodle';
 export { AnalyticsDoodle, AnalyticsDoodleMetadata, type AnalyticsDoodleProps } from './interface/analytics_doodle';
 export { ArrowDoodle, ArrowDoodleMetadata, type ArrowDoodleProps } from './interface/arrow_doodle';
@@ -1896,101 +1728,86 @@ export { VolumeDownDoodle, VolumeDownDoodleMetadata, type VolumeDownDoodleProps 
 export { VolumeUpDoodle, VolumeUpDoodleMetadata, type VolumeUpDoodleProps } from './interface/volume-up_doodle';
 export { ZapDoodle, ZapDoodleMetadata, type ZapDoodleProps } from './interface/zap_doodle';
 export { ZoomOut1Doodle, ZoomOut1DoodleMetadata, type ZoomOut1DoodleProps } from './interface/zoom-out-1_doodle';
+export { AlignBottomRounded, AlignBottomRoundedMetadata, type AlignBottomRoundedProps } from './layout/align-bottom_rounded';
+export { AlignHorizontallyRounded, AlignHorizontallyRoundedMetadata, type AlignHorizontallyRoundedProps } from './layout/align-horizontally_rounded';
+export { AlignLeftRounded, AlignLeftRoundedMetadata, type AlignLeftRoundedProps } from './layout/align-left_rounded';
+export { AlignRightRounded, AlignRightRoundedMetadata, type AlignRightRoundedProps } from './layout/align-right_rounded';
+export { AlignVerticallyRounded, AlignVerticallyRoundedMetadata, type AlignVerticallyRoundedProps } from './layout/align-vertically_rounded';
 export { BetweenHorizontalEnd, BetweenHorizontalEndMetadata, type BetweenHorizontalEndProps } from './layout/between-horizontal-end';
 export { BetweenHorizontalStart, BetweenHorizontalStartMetadata, type BetweenHorizontalStartProps } from './layout/between-horizontal-start';
 export { BetweenVerticalEnd, BetweenVerticalEndMetadata, type BetweenVerticalEndProps } from './layout/between-vertical-end';
 export { BetweenVerticalStart, BetweenVerticalStartMetadata, type BetweenVerticalStartProps } from './layout/between-vertical-start';
-export { Columns1Filled, Columns1FilledMetadata, type Columns1FilledProps } from './layout/columns-1_filled';
 export { Columns2, Columns2Metadata, type Columns2Props } from './layout/columns-2';
-export { Columns2Filled, Columns2FilledMetadata, type Columns2FilledProps } from './layout/columns-2_filled';
 export { Columns3Cog, Columns3CogMetadata, type Columns3CogProps } from './layout/columns-3-cog';
 export { Columns3, Columns3Metadata, type Columns3Props } from './layout/columns-3';
-export { Columns3Filled, Columns3FilledMetadata, type Columns3FilledProps } from './layout/columns-3_filled';
 export { Columns4, Columns4Metadata, type Columns4Props } from './layout/columns-4';
+export { Convertshape2Rounded, Convertshape2RoundedMetadata, type Convertshape2RoundedProps } from './layout/convertshape-2_rounded';
+export { ConvertshapeRounded, ConvertshapeRoundedMetadata, type ConvertshapeRoundedProps } from './layout/convertshape_rounded';
+export { CropRounded, CropRoundedMetadata, type CropRoundedProps } from './layout/crop_rounded';
+export { Element1Rounded, Element1RoundedMetadata, type Element1RoundedProps } from './layout/element-1_rounded';
+export { Element2Rounded, Element2RoundedMetadata, type Element2RoundedProps } from './layout/element-2_rounded';
+export { Element3Rounded, Element3RoundedMetadata, type Element3RoundedProps } from './layout/element-3_rounded';
+export { Element4Rounded, Element4RoundedMetadata, type Element4RoundedProps } from './layout/element-4_rounded';
+export { ElementEqualRounded, ElementEqualRoundedMetadata, type ElementEqualRoundedProps } from './layout/element-equal_rounded';
+export { ElementPlusRounded, ElementPlusRoundedMetadata, type ElementPlusRoundedProps } from './layout/element-plus_rounded';
+export { FatrowsRounded, FatrowsRoundedMetadata, type FatrowsRoundedProps } from './layout/fatrows_rounded';
+export { FormatCircleRounded, FormatCircleRoundedMetadata, type FormatCircleRoundedProps } from './layout/format-circle_rounded';
+export { FormatSquareRounded, FormatSquareRoundedMetadata, type FormatSquareRoundedProps } from './layout/format-square_rounded';
 export { GalleryHorizontalEnd, GalleryHorizontalEndMetadata, type GalleryHorizontalEndProps } from './layout/gallery-horizontal-end';
 export { GalleryHorizontal, GalleryHorizontalMetadata, type GalleryHorizontalProps } from './layout/gallery-horizontal';
 export { GalleryThumbnails, GalleryThumbnailsMetadata, type GalleryThumbnailsProps } from './layout/gallery-thumbnails';
 export { GalleryVerticalEnd, GalleryVerticalEndMetadata, type GalleryVerticalEndProps } from './layout/gallery-vertical-end';
 export { GalleryVertical, GalleryVerticalMetadata, type GalleryVerticalProps } from './layout/gallery-vertical';
+export { Grid1Rounded, Grid1RoundedMetadata, type Grid1RoundedProps } from './layout/grid-1_rounded';
+export { Grid2Rounded, Grid2RoundedMetadata, type Grid2RoundedProps } from './layout/grid-2_rounded';
 export { Grid2x2Check, Grid2x2CheckMetadata, type Grid2x2CheckProps } from './layout/grid-2x2-check';
 export { Grid2x2Plus, Grid2x2PlusMetadata, type Grid2x2PlusProps } from './layout/grid-2x2-plus';
 export { Grid2x2X, Grid2x2XMetadata, type Grid2x2XProps } from './layout/grid-2x2-x';
 export { Grid2x2, Grid2x2Metadata, type Grid2x2Props } from './layout/grid-2x2';
+export { Grid3Rounded, Grid3RoundedMetadata, type Grid3RoundedProps } from './layout/grid-3_rounded';
 export { Grid3x2, Grid3x2Metadata, type Grid3x2Props } from './layout/grid-3x2';
 export { Grid3x3, Grid3x3Metadata, type Grid3x3Props } from './layout/grid-3x3';
+export { Grid4Rounded, Grid4RoundedMetadata, type Grid4RoundedProps } from './layout/grid-4_rounded';
+export { Grid5Rounded, Grid5RoundedMetadata, type Grid5RoundedProps } from './layout/grid-5_rounded';
+export { Grid6Rounded, Grid6RoundedMetadata, type Grid6RoundedProps } from './layout/grid-6_rounded';
+export { Grid7Rounded, Grid7RoundedMetadata, type Grid7RoundedProps } from './layout/grid-7_rounded';
+export { Grid8Rounded, Grid8RoundedMetadata, type Grid8RoundedProps } from './layout/grid-8_rounded';
+export { Grid9Rounded, Grid9RoundedMetadata, type Grid9RoundedProps } from './layout/grid-9_rounded';
+export { GridEditRounded, GridEditRoundedMetadata, type GridEditRoundedProps } from './layout/grid-edit_rounded';
+export { GridEraserRounded, GridEraserRoundedMetadata, type GridEraserRoundedProps } from './layout/grid-eraser_rounded';
+export { GridLockRounded, GridLockRoundedMetadata, type GridLockRoundedProps } from './layout/grid-lock_rounded';
 export { GripHorizontal, GripHorizontalMetadata, type GripHorizontalProps } from './layout/grip-horizontal';
 export { GripVertical, GripVerticalMetadata, type GripVerticalProps } from './layout/grip-vertical';
 export { Grip, GripMetadata, type GripProps } from './layout/grip';
+export { KanbanRounded, KanbanRoundedMetadata, type KanbanRoundedProps } from './layout/kanban_rounded';
 export { Layers2, Layers2Metadata, type Layers2Props } from './layout/layers-2';
 export { LayersPlus, LayersPlusMetadata, type LayersPlusProps } from './layout/layers-plus';
 export { Layers, LayersMetadata, type LayersProps } from './layout/layers';
-export { Layout2Filled, Layout2FilledMetadata, type Layout2FilledProps } from './layout/layout-2_filled';
-export { LayoutAlignBottomFilled, LayoutAlignBottomFilledMetadata, type LayoutAlignBottomFilledProps } from './layout/layout-align-bottom_filled';
-export { LayoutAlignCenterFilled, LayoutAlignCenterFilledMetadata, type LayoutAlignCenterFilledProps } from './layout/layout-align-center_filled';
-export { LayoutAlignLeftFilled, LayoutAlignLeftFilledMetadata, type LayoutAlignLeftFilledProps } from './layout/layout-align-left_filled';
-export { LayoutAlignMiddleFilled, LayoutAlignMiddleFilledMetadata, type LayoutAlignMiddleFilledProps } from './layout/layout-align-middle_filled';
-export { LayoutAlignRightFilled, LayoutAlignRightFilledMetadata, type LayoutAlignRightFilledProps } from './layout/layout-align-right_filled';
-export { LayoutAlignTopFilled, LayoutAlignTopFilledMetadata, type LayoutAlignTopFilledProps } from './layout/layout-align-top_filled';
-export { LayoutBoardSplitFilled, LayoutBoardSplitFilledMetadata, type LayoutBoardSplitFilledProps } from './layout/layout-board-split_filled';
-export { LayoutBoardFilled, LayoutBoardFilledMetadata, type LayoutBoardFilledProps } from './layout/layout-board_filled';
-export { LayoutBottombarCollapseFilled, LayoutBottombarCollapseFilledMetadata, type LayoutBottombarCollapseFilledProps } from './layout/layout-bottombar-collapse_filled';
-export { LayoutBottombarExpandFilled, LayoutBottombarExpandFilledMetadata, type LayoutBottombarExpandFilledProps } from './layout/layout-bottombar-expand_filled';
-export { LayoutBottombarFilled, LayoutBottombarFilledMetadata, type LayoutBottombarFilledProps } from './layout/layout-bottombar_filled';
-export { LayoutCardsFilled, LayoutCardsFilledMetadata, type LayoutCardsFilledProps } from './layout/layout-cards_filled';
 export { LayoutDashboard, LayoutDashboardMetadata, type LayoutDashboardProps } from './layout/layout-dashboard';
-export { LayoutDashboardFilled, LayoutDashboardFilledMetadata, type LayoutDashboardFilledProps } from './layout/layout-dashboard_filled';
-export { LayoutDistributeHorizontalFilled, LayoutDistributeHorizontalFilledMetadata, type LayoutDistributeHorizontalFilledProps } from './layout/layout-distribute-horizontal_filled';
-export { LayoutDistributeVerticalFilled, LayoutDistributeVerticalFilledMetadata, type LayoutDistributeVerticalFilledProps } from './layout/layout-distribute-vertical_filled';
 export { LayoutGrid, LayoutGridMetadata, type LayoutGridProps } from './layout/layout-grid';
-export { LayoutGridFilled, LayoutGridFilledMetadata, type LayoutGridFilledProps } from './layout/layout-grid_filled';
-export { LayoutKanbanFilled, LayoutKanbanFilledMetadata, type LayoutKanbanFilledProps } from './layout/layout-kanban_filled';
 export { LayoutList, LayoutListMetadata, type LayoutListProps } from './layout/layout-list';
-export { LayoutListFilled, LayoutListFilledMetadata, type LayoutListFilledProps } from './layout/layout-list_filled';
-export { LayoutNavbarCollapseFilled, LayoutNavbarCollapseFilledMetadata, type LayoutNavbarCollapseFilledProps } from './layout/layout-navbar-collapse_filled';
-export { LayoutNavbarExpandFilled, LayoutNavbarExpandFilledMetadata, type LayoutNavbarExpandFilledProps } from './layout/layout-navbar-expand_filled';
-export { LayoutNavbarFilled, LayoutNavbarFilledMetadata, type LayoutNavbarFilledProps } from './layout/layout-navbar_filled';
 export { LayoutPanelLeft, LayoutPanelLeftMetadata, type LayoutPanelLeftProps } from './layout/layout-panel-left';
 export { LayoutPanelTop, LayoutPanelTopMetadata, type LayoutPanelTopProps } from './layout/layout-panel-top';
-export { LayoutSidebarLeftCollapseFilled, LayoutSidebarLeftCollapseFilledMetadata, type LayoutSidebarLeftCollapseFilledProps } from './layout/layout-sidebar-left-collapse_filled';
-export { LayoutSidebarLeftExpandFilled, LayoutSidebarLeftExpandFilledMetadata, type LayoutSidebarLeftExpandFilledProps } from './layout/layout-sidebar-left-expand_filled';
-export { LayoutSidebarRightCollapseFilled, LayoutSidebarRightCollapseFilledMetadata, type LayoutSidebarRightCollapseFilledProps } from './layout/layout-sidebar-right-collapse_filled';
-export { LayoutSidebarRightExpandFilled, LayoutSidebarRightExpandFilledMetadata, type LayoutSidebarRightExpandFilledProps } from './layout/layout-sidebar-right-expand_filled';
-export { LayoutSidebarRightFilled, LayoutSidebarRightFilledMetadata, type LayoutSidebarRightFilledProps } from './layout/layout-sidebar-right_filled';
-export { LayoutSidebarFilled, LayoutSidebarFilledMetadata, type LayoutSidebarFilledProps } from './layout/layout-sidebar_filled';
 export { LayoutTemplate, LayoutTemplateMetadata, type LayoutTemplateProps } from './layout/layout-template';
-export { LayoutFilled, LayoutFilledMetadata, type LayoutFilledProps } from './layout/layout_filled';
+export { Maximize1Rounded, Maximize1RoundedMetadata, type Maximize1RoundedProps } from './layout/maximize-1_rounded';
+export { Maximize2Rounded, Maximize2RoundedMetadata, type Maximize2RoundedProps } from './layout/maximize-2_rounded';
+export { Maximize3Rounded, Maximize3RoundedMetadata, type Maximize3RoundedProps } from './layout/maximize-3_rounded';
+export { Maximize4Rounded, Maximize4RoundedMetadata, type Maximize4RoundedProps } from './layout/maximize-4_rounded';
+export { MaximizeRounded, MaximizeRoundedMetadata, type MaximizeRoundedProps } from './layout/maximize_rounded';
 export { Proportions, ProportionsMetadata, type ProportionsProps } from './layout/proportions';
+export { RowHorizontalRounded, RowHorizontalRoundedMetadata, type RowHorizontalRoundedProps } from './layout/row-horizontal_rounded';
+export { RowVerticalRounded, RowVerticalRoundedMetadata, type RowVerticalRoundedProps } from './layout/row-vertical_rounded';
 export { Rows2, Rows2Metadata, type Rows2Props } from './layout/rows-2';
 export { Rows3, Rows3Metadata, type Rows3Props } from './layout/rows-3';
 export { Rows4, Rows4Metadata, type Rows4Props } from './layout/rows-4';
 export { SeparatorHorizontal, SeparatorHorizontalMetadata, type SeparatorHorizontalProps } from './layout/separator-horizontal';
 export { SeparatorVertical, SeparatorVerticalMetadata, type SeparatorVerticalProps } from './layout/separator-vertical';
+export { SliderHorizontal1Rounded, SliderHorizontal1RoundedMetadata, type SliderHorizontal1RoundedProps } from './layout/slider-horizontal-1_rounded';
+export { SliderHorizontalRounded, SliderHorizontalRoundedMetadata, type SliderHorizontalRoundedProps } from './layout/slider-horizontal_rounded';
+export { SliderVertical1Rounded, SliderVertical1RoundedMetadata, type SliderVertical1RoundedProps } from './layout/slider-vertical-1_rounded';
+export { SliderVerticalRounded, SliderVerticalRoundedMetadata, type SliderVerticalRoundedProps } from './layout/slider-vertical_rounded';
 export { StretchHorizontal, StretchHorizontalMetadata, type StretchHorizontalProps } from './layout/stretch-horizontal';
 export { StretchVertical, StretchVerticalMetadata, type StretchVerticalProps } from './layout/stretch-vertical';
-export { AArrowDown, AArrowDownMetadata, type AArrowDownProps } from './letter/a-arrow-down';
-export { AArrowUp, AArrowUpMetadata, type AArrowUpProps } from './letter/a-arrow-up';
-export { ALargeSmall, ALargeSmallMetadata, type ALargeSmallProps } from './letter/a-large-small';
-export { Ampersand, AmpersandMetadata, type AmpersandProps } from './letter/ampersand';
-export { Ampersands, AmpersandsMetadata, type AmpersandsProps } from './letter/ampersands';
-export { AtSign, AtSignMetadata, type AtSignProps } from './letter/at-sign';
-export { Braces, BracesMetadata, type BracesProps } from './letter/braces';
-export { Brackets, BracketsMetadata, type BracketsProps } from './letter/brackets';
-export { CaseLower, CaseLowerMetadata, type CaseLowerProps } from './letter/case-lower';
-export { CaseSensitive, CaseSensitiveMetadata, type CaseSensitiveProps } from './letter/case-sensitive';
-export { CaseUpper, CaseUpperMetadata, type CaseUpperProps } from './letter/case-upper';
-export { Dot, DotMetadata, type DotProps } from './letter/dot';
-export { Hash, HashMetadata, type HashProps } from './letter/hash';
-export { Heading1, Heading1Metadata, type Heading1Props } from './letter/heading-1';
-export { Heading2, Heading2Metadata, type Heading2Props } from './letter/heading-2';
-export { Heading3, Heading3Metadata, type Heading3Props } from './letter/heading-3';
-export { Heading4, Heading4Metadata, type Heading4Props } from './letter/heading-4';
-export { Heading5, Heading5Metadata, type Heading5Props } from './letter/heading-5';
-export { Heading6, Heading6Metadata, type Heading6Props } from './letter/heading-6';
-export { Heading, HeadingMetadata, type HeadingProps } from './letter/heading';
-export { Italic, ItalicMetadata, type ItalicProps } from './letter/italic';
-export { Languages, LanguagesMetadata, type LanguagesProps } from './letter/languages';
-export { TypeOutline, TypeOutlineMetadata, type TypeOutlineProps } from './letter/type-outline';
-export { Type, TypeMetadata, type TypeProps } from './letter/type';
 export { ListCheck, ListCheckMetadata, type ListCheckProps } from './list/list-check';
 export { ListChecks, ListChecksMetadata, type ListChecksProps } from './list/list-checks';
 export { ListChevronsDownUp, ListChevronsDownUpMetadata, type ListChevronsDownUpProps } from './list/list-chevrons-down-up';
@@ -2043,8 +1860,19 @@ export { Tally2, Tally2Metadata, type Tally2Props } from './math/tally-2';
 export { Tally3, Tally3Metadata, type Tally3Props } from './math/tally-3';
 export { Tally4, Tally4Metadata, type Tally4Props } from './math/tally-4';
 export { Tally5, Tally5Metadata, type Tally5Props } from './math/tally-5';
-export { Message2Filled, Message2FilledMetadata, type Message2FilledProps } from './message/message-2_filled';
-export { MessageChatbotFilled, MessageChatbotFilledMetadata, type MessageChatbotFilledProps } from './message/message-chatbot_filled';
+export { DeviceMessageRounded, DeviceMessageRoundedMetadata, type DeviceMessageRoundedProps } from './message/device-message_rounded';
+export { DirectInboxRounded, DirectInboxRoundedMetadata, type DirectInboxRoundedProps } from './message/direct-inbox_rounded';
+export { DirectNormalRounded, DirectNormalRoundedMetadata, type DirectNormalRoundedProps } from './message/direct-normal_rounded';
+export { DirectNotificationRounded, DirectNotificationRoundedMetadata, type DirectNotificationRoundedProps } from './message/direct-notification_rounded';
+export { DirectSendRounded, DirectSendRoundedMetadata, type DirectSendRoundedProps } from './message/direct-send_rounded';
+export { DirectRounded, DirectRoundedMetadata, type DirectRoundedProps } from './message/direct_rounded';
+export { DirectboxDefaultRounded, DirectboxDefaultRoundedMetadata, type DirectboxDefaultRoundedProps } from './message/directbox-default_rounded';
+export { DirectboxNotifRounded, DirectboxNotifRoundedMetadata, type DirectboxNotifRoundedProps } from './message/directbox-notif_rounded';
+export { DirectboxReceiveRounded, DirectboxReceiveRoundedMetadata, type DirectboxReceiveRoundedProps } from './message/directbox-receive_rounded';
+export { DirectboxSendRounded, DirectboxSendRoundedMetadata, type DirectboxSendRoundedProps } from './message/directbox-send_rounded';
+export { Message2Rounded, Message2RoundedMetadata, type Message2RoundedProps } from './message/message-2_rounded';
+export { MessageAdd1Rounded, MessageAdd1RoundedMetadata, type MessageAdd1RoundedProps } from './message/message-add-1_rounded';
+export { MessageAddRounded, MessageAddRoundedMetadata, type MessageAddRoundedProps } from './message/message-add_rounded';
 export { MessageCircleCheck, MessageCircleCheckMetadata, type MessageCircleCheckProps } from './message/message-circle-check';
 export { MessageCircleCode, MessageCircleCodeMetadata, type MessageCircleCodeProps } from './message/message-circle-code';
 export { MessageCircleDashed, MessageCircleDashedMetadata, type MessageCircleDashedProps } from './message/message-circle-dashed';
@@ -2057,8 +1885,13 @@ export { MessageCircleReply, MessageCircleReplyMetadata, type MessageCircleReply
 export { MessageCircleWarning, MessageCircleWarningMetadata, type MessageCircleWarningProps } from './message/message-circle-warning';
 export { MessageCircleX, MessageCircleXMetadata, type MessageCircleXProps } from './message/message-circle-x';
 export { MessageCircle, MessageCircleMetadata, type MessageCircleProps } from './message/message-circle';
-export { MessageCircleFilled, MessageCircleFilledMetadata, type MessageCircleFilledProps } from './message/message-circle_filled';
-export { MessageReportFilled, MessageReportFilledMetadata, type MessageReportFilledProps } from './message/message-report_filled';
+export { MessageCircleRounded, MessageCircleRoundedMetadata, type MessageCircleRoundedProps } from './message/message-circle_rounded';
+export { MessageEditRounded, MessageEditRoundedMetadata, type MessageEditRoundedProps } from './message/message-edit_rounded';
+export { MessageFavoriteRounded, MessageFavoriteRoundedMetadata, type MessageFavoriteRoundedProps } from './message/message-favorite_rounded';
+export { MessageMinusRounded, MessageMinusRoundedMetadata, type MessageMinusRoundedProps } from './message/message-minus_rounded';
+export { MessageNotifRounded, MessageNotifRoundedMetadata, type MessageNotifRoundedProps } from './message/message-notif_rounded';
+export { MessageRemoveRounded, MessageRemoveRoundedMetadata, type MessageRemoveRoundedProps } from './message/message-remove_rounded';
+export { MessageSearchRounded, MessageSearchRoundedMetadata, type MessageSearchRoundedProps } from './message/message-search_rounded';
 export { MessageSquareCheck, MessageSquareCheckMetadata, type MessageSquareCheckProps } from './message/message-square-check';
 export { MessageSquareCode, MessageSquareCodeMetadata, type MessageSquareCodeProps } from './message/message-square-code';
 export { MessageSquareDashed, MessageSquareDashedMetadata, type MessageSquareDashedProps } from './message/message-square-dashed';
@@ -2076,8 +1909,23 @@ export { MessageSquareText, MessageSquareTextMetadata, type MessageSquareTextPro
 export { MessageSquareWarning, MessageSquareWarningMetadata, type MessageSquareWarningProps } from './message/message-square-warning';
 export { MessageSquareX, MessageSquareXMetadata, type MessageSquareXProps } from './message/message-square-x';
 export { MessageSquare, MessageSquareMetadata, type MessageSquareProps } from './message/message-square';
-export { MessageFilled, MessageFilledMetadata, type MessageFilledProps } from './message/message_filled';
+export { MessageSquareRounded, MessageSquareRoundedMetadata, type MessageSquareRoundedProps } from './message/message-square_rounded';
+export { MessageText1Rounded, MessageText1RoundedMetadata, type MessageText1RoundedProps } from './message/message-text-1_rounded';
+export { MessageTextRounded, MessageTextRoundedMetadata, type MessageTextRoundedProps } from './message/message-text_rounded';
+export { MessageTickRounded, MessageTickRoundedMetadata, type MessageTickRoundedProps } from './message/message-tick_rounded';
+export { MessageTimeRounded, MessageTimeRoundedMetadata, type MessageTimeRoundedProps } from './message/message-time_rounded';
+export { MessageRounded, MessageRoundedMetadata, type MessageRoundedProps } from './message/message_rounded';
+export { Messages1Rounded, Messages1RoundedMetadata, type Messages1RoundedProps } from './message/messages-1_rounded';
+export { Messages2Rounded, Messages2RoundedMetadata, type Messages2RoundedProps } from './message/messages-2_rounded';
+export { Messages3Rounded, Messages3RoundedMetadata, type Messages3RoundedProps } from './message/messages-3_rounded';
 export { MessagesSquare, MessagesSquareMetadata, type MessagesSquareProps } from './message/messages-square';
+export { MessagesRounded, MessagesRoundedMetadata, type MessagesRoundedProps } from './message/messages_rounded';
+export { SmsEditRounded, SmsEditRoundedMetadata, type SmsEditRoundedProps } from './message/sms-edit_rounded';
+export { SmsNotificationRounded, SmsNotificationRoundedMetadata, type SmsNotificationRoundedProps } from './message/sms-notification_rounded';
+export { SmsSearchRounded, SmsSearchRoundedMetadata, type SmsSearchRoundedProps } from './message/sms-search_rounded';
+export { SmsStarRounded, SmsStarRoundedMetadata, type SmsStarRoundedProps } from './message/sms-star_rounded';
+export { SmsTrackingRounded, SmsTrackingRoundedMetadata, type SmsTrackingRoundedProps } from './message/sms-tracking_rounded';
+export { SmsRounded, SmsRoundedMetadata, type SmsRoundedProps } from './message/sms_rounded';
 export { AutomationDoodle, AutomationDoodleMetadata, type AutomationDoodleProps } from './misc/automation_doodle';
 export { BotDoodle, BotDoodleMetadata, type BotDoodleProps } from './misc/bot_doodle';
 export { BugDoodle, BugDoodleMetadata, type BugDoodleProps } from './misc/bug_doodle';
@@ -2109,53 +1957,119 @@ export { Monitor, MonitorMetadata, type MonitorProps } from './monitor/monitor';
 export { ScreenShareOff, ScreenShareOffMetadata, type ScreenShareOffProps } from './monitor/screen-share-off';
 export { ScreenShare, ScreenShareMetadata, type ScreenShareProps } from './monitor/screen-share';
 export { AudioLines, AudioLinesMetadata, type AudioLinesProps } from './multimedia/audio-lines';
+export { AudioSquareRounded, AudioSquareRoundedMetadata, type AudioSquareRoundedProps } from './multimedia/audio-square_rounded';
 export { AudioWaveform, AudioWaveformMetadata, type AudioWaveformProps } from './multimedia/audio-waveform';
+export { Backward10SecondsRounded, Backward10SecondsRoundedMetadata, type Backward10SecondsRoundedProps } from './multimedia/backward-10-seconds_rounded';
+export { Backward15SecondsRounded, Backward15SecondsRoundedMetadata, type Backward15SecondsRoundedProps } from './multimedia/backward-15-seconds_rounded';
+export { Backward5SecondsRounded, Backward5SecondsRoundedMetadata, type Backward5SecondsRoundedProps } from './multimedia/backward-5-seconds_rounded';
+export { BackwardRounded, BackwardRoundedMetadata, type BackwardRoundedProps } from './multimedia/backward_rounded';
 export { CameraOff, CameraOffMetadata, type CameraOffProps } from './multimedia/camera-off';
+export { CameraSlashRounded, CameraSlashRoundedMetadata, type CameraSlashRoundedProps } from './multimedia/camera-slash_rounded';
 export { Camera, CameraMetadata, type CameraProps } from './multimedia/camera';
+export { CameraRounded, CameraRoundedMetadata, type CameraRoundedProps } from './multimedia/camera_rounded';
 export { Cctv, CctvMetadata, type CctvProps } from './multimedia/cctv';
 export { Clapperboard, ClapperboardMetadata, type ClapperboardProps } from './multimedia/clapperboard';
 export { Disc2, Disc2Metadata, type Disc2Props } from './multimedia/disc-2';
 export { Disc3, Disc3Metadata, type Disc3Props } from './multimedia/disc-3';
 export { DiscAlbum, DiscAlbumMetadata, type DiscAlbumProps } from './multimedia/disc-album';
 export { Disc, DiscMetadata, type DiscProps } from './multimedia/disc';
+export { Forward10SecondsRounded, Forward10SecondsRoundedMetadata, type Forward10SecondsRoundedProps } from './multimedia/forward-10-seconds_rounded';
+export { Forward15SecondsRounded, Forward15SecondsRoundedMetadata, type Forward15SecondsRoundedProps } from './multimedia/forward-15-seconds_rounded';
+export { Forward5SecondsRounded, Forward5SecondsRoundedMetadata, type Forward5SecondsRoundedProps } from './multimedia/forward-5-seconds_rounded';
+export { GalleryAddRounded, GalleryAddRoundedMetadata, type GalleryAddRoundedProps } from './multimedia/gallery-add_rounded';
+export { GalleryEditRounded, GalleryEditRoundedMetadata, type GalleryEditRoundedProps } from './multimedia/gallery-edit_rounded';
+export { GalleryFavoriteRounded, GalleryFavoriteRoundedMetadata, type GalleryFavoriteRoundedProps } from './multimedia/gallery-favorite_rounded';
+export { GalleryImportRounded, GalleryImportRoundedMetadata, type GalleryImportRoundedProps } from './multimedia/gallery-import_rounded';
+export { GalleryRemoveRounded, GalleryRemoveRoundedMetadata, type GalleryRemoveRoundedProps } from './multimedia/gallery-remove_rounded';
+export { GallerySlashRounded, GallerySlashRoundedMetadata, type GallerySlashRoundedProps } from './multimedia/gallery-slash_rounded';
+export { GalleryTickRounded, GalleryTickRoundedMetadata, type GalleryTickRoundedProps } from './multimedia/gallery-tick_rounded';
+export { GalleryRounded, GalleryRoundedMetadata, type GalleryRoundedProps } from './multimedia/gallery_rounded';
 export { HeadphoneOff, HeadphoneOffMetadata, type HeadphoneOffProps } from './multimedia/headphone-off';
 export { Headphones, HeadphonesMetadata, type HeadphonesProps } from './multimedia/headphones';
 export { Headset, HeadsetMetadata, type HeadsetProps } from './multimedia/headset';
+export { ImageRounded, ImageRoundedMetadata, type ImageRoundedProps } from './multimedia/image_rounded';
+export { MaximizeCircleRounded, MaximizeCircleRoundedMetadata, type MaximizeCircleRoundedProps } from './multimedia/maximize-circle_rounded';
 export { MegaphoneOff, MegaphoneOffMetadata, type MegaphoneOffProps } from './multimedia/megaphone-off';
 export { Megaphone, MegaphoneMetadata, type MegaphoneProps } from './multimedia/megaphone';
 export { MicOff, MicOffMetadata, type MicOffProps } from './multimedia/mic-off';
 export { MicVocal, MicVocalMetadata, type MicVocalProps } from './multimedia/mic-vocal';
 export { Mic, MicMetadata, type MicProps } from './multimedia/mic';
+export { Microphone2Rounded, Microphone2RoundedMetadata, type Microphone2RoundedProps } from './multimedia/microphone-2_rounded';
+export { MicrophoneSlash1Rounded, MicrophoneSlash1RoundedMetadata, type MicrophoneSlash1RoundedProps } from './multimedia/microphone-slash-1_rounded';
+export { MicrophoneSlashRounded, MicrophoneSlashRoundedMetadata, type MicrophoneSlashRoundedProps } from './multimedia/microphone-slash_rounded';
+export { MicrophoneRounded, MicrophoneRoundedMetadata, type MicrophoneRoundedProps } from './multimedia/microphone_rounded';
+export { MiniMusicSqaureRounded, MiniMusicSqaureRoundedMetadata, type MiniMusicSqaureRoundedProps } from './multimedia/mini-music-sqaure_rounded';
 export { Music2, Music2Metadata, type Music2Props } from './multimedia/music-2';
 export { Music3, Music3Metadata, type Music3Props } from './multimedia/music-3';
 export { Music4, Music4Metadata, type Music4Props } from './multimedia/music-4';
+export { MusicCircleRounded, MusicCircleRoundedMetadata, type MusicCircleRoundedProps } from './multimedia/music-circle_rounded';
+export { MusicDashboardRounded, MusicDashboardRoundedMetadata, type MusicDashboardRoundedProps } from './multimedia/music-dashboard_rounded';
+export { MusicFilterRounded, MusicFilterRoundedMetadata, type MusicFilterRoundedProps } from './multimedia/music-filter_rounded';
+export { MusicLibrary2Rounded, MusicLibrary2RoundedMetadata, type MusicLibrary2RoundedProps } from './multimedia/music-library-2_rounded';
+export { MusicPlaylistRounded, MusicPlaylistRoundedMetadata, type MusicPlaylistRoundedProps } from './multimedia/music-playlist_rounded';
+export { MusicSquareAddRounded, MusicSquareAddRoundedMetadata, type MusicSquareAddRoundedProps } from './multimedia/music-square-add_rounded';
+export { MusicSquareRemoveRounded, MusicSquareRemoveRoundedMetadata, type MusicSquareRemoveRoundedProps } from './multimedia/music-square-remove_rounded';
+export { MusicSquareSearchRounded, MusicSquareSearchRoundedMetadata, type MusicSquareSearchRoundedProps } from './multimedia/music-square-search_rounded';
+export { MusicSquareRounded, MusicSquareRoundedMetadata, type MusicSquareRoundedProps } from './multimedia/music-square_rounded';
 export { Music, MusicMetadata, type MusicProps } from './multimedia/music';
+export { MusicRounded, MusicRoundedMetadata, type MusicRoundedProps } from './multimedia/music_rounded';
+export { MusicnoteRounded, MusicnoteRoundedMetadata, type MusicnoteRoundedProps } from './multimedia/musicnote_rounded';
+export { NextRounded, NextRoundedMetadata, type NextRoundedProps } from './multimedia/next_rounded';
+export { NoteSquareRounded, NoteSquareRoundedMetadata, type NoteSquareRoundedProps } from './multimedia/note-square_rounded';
+export { PauseCircleRounded, PauseCircleRoundedMetadata, type PauseCircleRoundedProps } from './multimedia/pause-circle_rounded';
 export { Pause, PauseMetadata, type PauseProps } from './multimedia/pause';
+export { PauseRounded, PauseRoundedMetadata, type PauseRoundedProps } from './multimedia/pause_rounded';
+export { PlayAddRounded, PlayAddRoundedMetadata, type PlayAddRoundedProps } from './multimedia/play-add_rounded';
+export { PlayCircleRounded, PlayCircleRoundedMetadata, type PlayCircleRoundedProps } from './multimedia/play-circle_rounded';
+export { PlayCricleRounded, PlayCricleRoundedMetadata, type PlayCricleRoundedProps } from './multimedia/play-cricle_rounded';
+export { PlayRemoveRounded, PlayRemoveRoundedMetadata, type PlayRemoveRoundedProps } from './multimedia/play-remove_rounded';
 export { Play, PlayMetadata, type PlayProps } from './multimedia/play';
-export { PlayerEjectFilled, PlayerEjectFilledMetadata, type PlayerEjectFilledProps } from './multimedia/player-eject_filled';
-export { PlayerPauseFilled, PlayerPauseFilledMetadata, type PlayerPauseFilledProps } from './multimedia/player-pause_filled';
-export { PlayerPlayFilled, PlayerPlayFilledMetadata, type PlayerPlayFilledProps } from './multimedia/player-play_filled';
-export { PlayerRecordFilled, PlayerRecordFilledMetadata, type PlayerRecordFilledProps } from './multimedia/player-record_filled';
-export { PlayerSkipBackFilled, PlayerSkipBackFilledMetadata, type PlayerSkipBackFilledProps } from './multimedia/player-skip-back_filled';
-export { PlayerSkipForwardFilled, PlayerSkipForwardFilledMetadata, type PlayerSkipForwardFilledProps } from './multimedia/player-skip-forward_filled';
-export { PlayerStopFilled, PlayerStopFilledMetadata, type PlayerStopFilledProps } from './multimedia/player-stop_filled';
-export { PlayerTrackNextFilled, PlayerTrackNextFilledMetadata, type PlayerTrackNextFilledProps } from './multimedia/player-track-next_filled';
-export { PlayerTrackPrevFilled, PlayerTrackPrevFilledMetadata, type PlayerTrackPrevFilledProps } from './multimedia/player-track-prev_filled';
-export { PlaylistFilled, PlaylistFilledMetadata, type PlaylistFilledProps } from './multimedia/playlist_filled';
+export { PlayRounded, PlayRoundedMetadata, type PlayRoundedProps } from './multimedia/play_rounded';
+export { PreviousRounded, PreviousRoundedMetadata, type PreviousRoundedProps } from './multimedia/previous_rounded';
+export { RadioRounded, RadioRoundedMetadata, type RadioRoundedProps } from './multimedia/radio_rounded';
+export { RecordCircleRounded, RecordCircleRoundedMetadata, type RecordCircleRoundedProps } from './multimedia/record-circle_rounded';
+export { RecordRounded, RecordRoundedMetadata, type RecordRoundedProps } from './multimedia/record_rounded';
+export { RepeateMusicRounded, RepeateMusicRoundedMetadata, type RepeateMusicRoundedProps } from './multimedia/repeate-music_rounded';
+export { RepeateOneRounded, RepeateOneRoundedMetadata, type RepeateOneRoundedProps } from './multimedia/repeate-one_rounded';
 export { Rewind, RewindMetadata, type RewindProps } from './multimedia/rewind';
+export { ScreenmirroringRounded, ScreenmirroringRoundedMetadata, type ScreenmirroringRoundedProps } from './multimedia/screenmirroring_rounded';
 export { SkipBack, SkipBackMetadata, type SkipBackProps } from './multimedia/skip-back';
 export { SkipForward, SkipForwardMetadata, type SkipForwardProps } from './multimedia/skip-forward';
 export { StepBack, StepBackMetadata, type StepBackProps } from './multimedia/step-back';
 export { StepForward, StepForwardMetadata, type StepForwardProps } from './multimedia/step-forward';
+export { StopCircleRounded, StopCircleRoundedMetadata, type StopCircleRoundedProps } from './multimedia/stop-circle_rounded';
+export { StopRounded, StopRoundedMetadata, type StopRoundedProps } from './multimedia/stop_rounded';
+export { SubtitleRounded, SubtitleRoundedMetadata, type SubtitleRoundedProps } from './multimedia/subtitle_rounded';
 export { TvMinimalPlay, TvMinimalPlayMetadata, type TvMinimalPlayProps } from './multimedia/tv-minimal-play';
 export { TvMinimal, TvMinimalMetadata, type TvMinimalProps } from './multimedia/tv-minimal';
 export { Tv, TvMetadata, type TvProps } from './multimedia/tv';
+export { VideoAddRounded, VideoAddRoundedMetadata, type VideoAddRoundedProps } from './multimedia/video-add_rounded';
+export { VideoCircleRounded, VideoCircleRoundedMetadata, type VideoCircleRoundedProps } from './multimedia/video-circle_rounded';
+export { VideoHorizontalRounded, VideoHorizontalRoundedMetadata, type VideoHorizontalRoundedProps } from './multimedia/video-horizontal_rounded';
+export { VideoOctagonRounded, VideoOctagonRoundedMetadata, type VideoOctagonRoundedProps } from './multimedia/video-octagon_rounded';
 export { VideoOff, VideoOffMetadata, type VideoOffProps } from './multimedia/video-off';
+export { VideoPlayRounded, VideoPlayRoundedMetadata, type VideoPlayRoundedProps } from './multimedia/video-play_rounded';
+export { VideoRemoveRounded, VideoRemoveRoundedMetadata, type VideoRemoveRoundedProps } from './multimedia/video-remove_rounded';
+export { VideoSlashRounded, VideoSlashRoundedMetadata, type VideoSlashRoundedProps } from './multimedia/video-slash_rounded';
+export { VideoSquareRounded, VideoSquareRoundedMetadata, type VideoSquareRoundedProps } from './multimedia/video-square_rounded';
+export { VideoTickRounded, VideoTickRoundedMetadata, type VideoTickRoundedProps } from './multimedia/video-tick_rounded';
+export { VideoTimeRounded, VideoTimeRoundedMetadata, type VideoTimeRoundedProps } from './multimedia/video-time_rounded';
+export { VideoVerticalRounded, VideoVerticalRoundedMetadata, type VideoVerticalRoundedProps } from './multimedia/video-vertical_rounded';
 export { Video, VideoMetadata, type VideoProps } from './multimedia/video';
+export { VideoRounded, VideoRoundedMetadata, type VideoRoundedProps } from './multimedia/video_rounded';
 export { Videotape, VideotapeMetadata, type VideotapeProps } from './multimedia/videotape';
+export { VoiceCricleRounded, VoiceCricleRoundedMetadata, type VoiceCricleRoundedProps } from './multimedia/voice-cricle_rounded';
+export { VoiceSquareRounded, VoiceSquareRoundedMetadata, type VoiceSquareRoundedProps } from './multimedia/voice-square_rounded';
 export { Volume1, Volume1Metadata, type Volume1Props } from './multimedia/volume-1';
 export { Volume2, Volume2Metadata, type Volume2Props } from './multimedia/volume-2';
+export { VolumeCrossRounded, VolumeCrossRoundedMetadata, type VolumeCrossRoundedProps } from './multimedia/volume-cross_rounded';
+export { VolumeHighRounded, VolumeHighRoundedMetadata, type VolumeHighRoundedProps } from './multimedia/volume-high_rounded';
+export { VolumeLow1Rounded, VolumeLow1RoundedMetadata, type VolumeLow1RoundedProps } from './multimedia/volume-low-1_rounded';
+export { VolumeLowRounded, VolumeLowRoundedMetadata, type VolumeLowRoundedProps } from './multimedia/volume-low_rounded';
+export { VolumeMuteRounded, VolumeMuteRoundedMetadata, type VolumeMuteRoundedProps } from './multimedia/volume-mute_rounded';
 export { VolumeOff, VolumeOffMetadata, type VolumeOffProps } from './multimedia/volume-off';
+export { VolumeSlashRounded, VolumeSlashRoundedMetadata, type VolumeSlashRoundedProps } from './multimedia/volume-slash_rounded';
+export { VolumeUpRounded, VolumeUpRoundedMetadata, type VolumeUpRoundedProps } from './multimedia/volume-up_rounded';
 export { VolumeX, VolumeXMetadata, type VolumeXProps } from './multimedia/volume-x';
 export { Volume, VolumeMetadata, type VolumeProps } from './multimedia/volume';
 export { Clover, CloverMetadata, type CloverProps } from './nature/clover';
@@ -2170,9 +2084,28 @@ export { TreeDeciduous, TreeDeciduousMetadata, type TreeDeciduousProps } from '.
 export { TreePalm, TreePalmMetadata, type TreePalmProps } from './nature/tree-palm';
 export { TreePine, TreePineMetadata, type TreePineProps } from './nature/tree-pine';
 export { Trees, TreesMetadata, type TreesProps } from './nature/trees';
+export { ArrowSquareRounded, ArrowSquareRoundedMetadata, type ArrowSquareRoundedProps } from './navigation/arrow-square_rounded';
+export { ArrowRounded, ArrowRoundedMetadata, type ArrowRoundedProps } from './navigation/arrow_rounded';
+export { DirectDownRounded, DirectDownRoundedMetadata, type DirectDownRoundedProps } from './navigation/direct-down_rounded';
+export { DirectLeftRounded, DirectLeftRoundedMetadata, type DirectLeftRoundedProps } from './navigation/direct-left_rounded';
+export { DirectRightRounded, DirectRightRoundedMetadata, type DirectRightRoundedProps } from './navigation/direct-right_rounded';
+export { DirectUpRounded, DirectUpRoundedMetadata, type DirectUpRoundedProps } from './navigation/direct-up_rounded';
+export { GlobalEditRounded, GlobalEditRoundedMetadata, type GlobalEditRoundedProps } from './navigation/global-edit_rounded';
+export { GlobalRefreshRounded, GlobalRefreshRoundedMetadata, type GlobalRefreshRoundedProps } from './navigation/global-refresh_rounded';
+export { GlobalSearchRounded, GlobalSearchRoundedMetadata, type GlobalSearchRoundedProps } from './navigation/global-search_rounded';
+export { GlobalRounded, GlobalRoundedMetadata, type GlobalRoundedProps } from './navigation/global_rounded';
+export { GpsSlashRounded, GpsSlashRoundedMetadata, type GpsSlashRoundedProps } from './navigation/gps-slash_rounded';
+export { GpsRounded, GpsRoundedMetadata, type GpsRoundedProps } from './navigation/gps_rounded';
 export { LocateFixed, LocateFixedMetadata, type LocateFixedProps } from './navigation/locate-fixed';
 export { LocateOff, LocateOffMetadata, type LocateOffProps } from './navigation/locate-off';
 export { Locate, LocateMetadata, type LocateProps } from './navigation/locate';
+export { LocationAddRounded, LocationAddRoundedMetadata, type LocationAddRoundedProps } from './navigation/location-add_rounded';
+export { LocationCrossRounded, LocationCrossRoundedMetadata, type LocationCrossRoundedProps } from './navigation/location-cross_rounded';
+export { LocationMinusRounded, LocationMinusRoundedMetadata, type LocationMinusRoundedProps } from './navigation/location-minus_rounded';
+export { LocationSlashRounded, LocationSlashRoundedMetadata, type LocationSlashRoundedProps } from './navigation/location-slash_rounded';
+export { LocationTickRounded, LocationTickRoundedMetadata, type LocationTickRoundedProps } from './navigation/location-tick_rounded';
+export { LocationRounded, LocationRoundedMetadata, type LocationRoundedProps } from './navigation/location_rounded';
+export { Map1Rounded, Map1RoundedMetadata, type Map1RoundedProps } from './navigation/map-1_rounded';
 export { MapMinus, MapMinusMetadata, type MapMinusProps } from './navigation/map-minus';
 export { MapPinCheckInside, MapPinCheckInsideMetadata, type MapPinCheckInsideProps } from './navigation/map-pin-check-inside';
 export { MapPinCheck, MapPinCheckMetadata, type MapPinCheckProps } from './navigation/map-pin-check';
@@ -2189,10 +2122,17 @@ export { MapPin, MapPinMetadata, type MapPinProps } from './navigation/map-pin';
 export { MapPinned, MapPinnedMetadata, type MapPinnedProps } from './navigation/map-pinned';
 export { MapPlus, MapPlusMetadata, type MapPlusProps } from './navigation/map-plus';
 export { Map, MapMetadata, type MapProps } from './navigation/map';
+export { MapRounded, MapRoundedMetadata, type MapRoundedProps } from './navigation/map_rounded';
 export { Navigation2Off, Navigation2OffMetadata, type Navigation2OffProps } from './navigation/navigation-2-off';
 export { Navigation2, Navigation2Metadata, type Navigation2Props } from './navigation/navigation-2';
 export { NavigationOff, NavigationOffMetadata, type NavigationOffProps } from './navigation/navigation-off';
 export { Navigation, NavigationMetadata, type NavigationProps } from './navigation/navigation';
+export { PictureFrameRounded, PictureFrameRoundedMetadata, type PictureFrameRoundedProps } from './navigation/picture-frame_rounded';
+export { Radar2Rounded, Radar2RoundedMetadata, type Radar2RoundedProps } from './navigation/radar-2_rounded';
+export { RadarRounded, RadarRoundedMetadata, type RadarRoundedProps } from './navigation/radar_rounded';
+export { RouteSquareRounded, RouteSquareRoundedMetadata, type RouteSquareRoundedProps } from './navigation/route-square_rounded';
+export { Routing2Rounded, Routing2RoundedMetadata, type Routing2RoundedProps } from './navigation/routing-2_rounded';
+export { RoutingRounded, RoutingRoundedMetadata, type RoutingRoundedProps } from './navigation/routing_rounded';
 export { Network, NetworkMetadata, type NetworkProps } from './network/network';
 export { Nfc, NfcMetadata, type NfcProps } from './network/nfc';
 export { Podcast, PodcastMetadata, type PodcastProps } from './network/podcast';
@@ -2213,18 +2153,20 @@ export { Wifi, WifiMetadata, type WifiProps } from './network/wifi';
 export { BellDot, BellDotMetadata, type BellDotProps } from './notification/bell-dot';
 export { BellElectric, BellElectricMetadata, type BellElectricProps } from './notification/bell-electric';
 export { BellMinus, BellMinusMetadata, type BellMinusProps } from './notification/bell-minus';
-export { BellMinusFilled, BellMinusFilledMetadata, type BellMinusFilledProps } from './notification/bell-minus_filled';
 export { BellOff, BellOffMetadata, type BellOffProps } from './notification/bell-off';
 export { BellPlus, BellPlusMetadata, type BellPlusProps } from './notification/bell-plus';
-export { BellPlusFilled, BellPlusFilledMetadata, type BellPlusFilledProps } from './notification/bell-plus_filled';
 export { BellRing, BellRingMetadata, type BellRingProps } from './notification/bell-ring';
-export { BellRinging2Filled, BellRinging2FilledMetadata, type BellRinging2FilledProps } from './notification/bell-ringing-2_filled';
-export { BellRingingFilled, BellRingingFilledMetadata, type BellRingingFilledProps } from './notification/bell-ringing_filled';
-export { BellXFilled, BellXFilledMetadata, type BellXFilledProps } from './notification/bell-x_filled';
-export { BellZFilled, BellZFilledMetadata, type BellZFilledProps } from './notification/bell-z_filled';
 export { Bell, BellMetadata, type BellProps } from './notification/bell';
-export { BellFilled, BellFilledMetadata, type BellFilledProps } from './notification/bell_filled';
 export { EthernetPort, EthernetPortMetadata, type EthernetPortProps } from './notification/ethernet-port';
+export { LampChargeRounded, LampChargeRoundedMetadata, type LampChargeRoundedProps } from './notification/lamp-charge_rounded';
+export { LampOnRounded, LampOnRoundedMetadata, type LampOnRoundedProps } from './notification/lamp-on_rounded';
+export { LampSlashRounded, LampSlashRoundedMetadata, type LampSlashRoundedProps } from './notification/lamp-slash_rounded';
+export { Notification1Rounded, Notification1RoundedMetadata, type Notification1RoundedProps } from './notification/notification-1_rounded';
+export { NotificationBingRounded, NotificationBingRoundedMetadata, type NotificationBingRoundedProps } from './notification/notification-bing_rounded';
+export { NotificationCircleRounded, NotificationCircleRoundedMetadata, type NotificationCircleRoundedProps } from './notification/notification-circle_rounded';
+export { NotificationFavoriteRounded, NotificationFavoriteRoundedMetadata, type NotificationFavoriteRoundedProps } from './notification/notification-favorite_rounded';
+export { NotificationStatusRounded, NotificationStatusRoundedMetadata, type NotificationStatusRoundedProps } from './notification/notification-status_rounded';
+export { NotificationRounded, NotificationRoundedMetadata, type NotificationRoundedProps } from './notification/notification_rounded';
 export { Accessibility, AccessibilityMetadata, type AccessibilityProps } from './others/accessibility';
 export { Activity, ActivityMetadata, type ActivityProps } from './others/activity';
 export { Album, AlbumMetadata, type AlbumProps } from './others/album';
@@ -2826,13 +2768,40 @@ export { ScanQrCode, ScanQrCodeMetadata, type ScanQrCodeProps } from './scan/sca
 export { ScanSearch, ScanSearchMetadata, type ScanSearchProps } from './scan/scan-search';
 export { ScanText, ScanTextMetadata, type ScanTextProps } from './scan/scan-text';
 export { Scan, ScanMetadata, type ScanProps } from './scan/scan';
+export { AlarmRounded, AlarmRoundedMetadata, type AlarmRoundedProps } from './security/alarm_rounded';
+export { CheckRounded, CheckRoundedMetadata, type CheckRoundedProps } from './security/check_rounded';
+export { EyeSlashRounded, EyeSlashRoundedMetadata, type EyeSlashRoundedProps } from './security/eye-slash_rounded';
+export { EyeRounded, EyeRoundedMetadata, type EyeRoundedProps } from './security/eye_rounded';
+export { FingerCricleRounded, FingerCricleRoundedMetadata, type FingerCricleRoundedProps } from './security/finger-cricle_rounded';
+export { FingerScanRounded, FingerScanRoundedMetadata, type FingerScanRoundedProps } from './security/finger-scan_rounded';
 export { KeyRound, KeyRoundMetadata, type KeyRoundProps } from './security/key-round';
 export { KeySquare, KeySquareMetadata, type KeySquareProps } from './security/key-square';
+export { KeySquareRounded, KeySquareRoundedMetadata, type KeySquareRoundedProps } from './security/key-square_rounded';
 export { Key, KeyMetadata, type KeyProps } from './security/key';
+export { KeyRounded, KeyRoundedMetadata, type KeyRoundedProps } from './security/key_rounded';
+export { Lock1Rounded, Lock1RoundedMetadata, type Lock1RoundedProps } from './security/lock-1_rounded';
+export { LockCircleRounded, LockCircleRoundedMetadata, type LockCircleRoundedProps } from './security/lock-circle_rounded';
 export { LockKeyholeOpen, LockKeyholeOpenMetadata, type LockKeyholeOpenProps } from './security/lock-keyhole-open';
 export { LockKeyhole, LockKeyholeMetadata, type LockKeyholeProps } from './security/lock-keyhole';
 export { LockOpen, LockOpenMetadata, type LockOpenProps } from './security/lock-open';
+export { LockSlashRounded, LockSlashRoundedMetadata, type LockSlashRoundedProps } from './security/lock-slash_rounded';
 export { Lock, LockMetadata, type LockProps } from './security/lock';
+export { LockRounded, LockRoundedMetadata, type LockRoundedProps } from './security/lock_rounded';
+export { PasswordCheckRounded, PasswordCheckRoundedMetadata, type PasswordCheckRoundedProps } from './security/password-check_rounded';
+export { ScanBarcodeRounded, ScanBarcodeRoundedMetadata, type ScanBarcodeRoundedProps } from './security/scan-barcode_rounded';
+export { ScanRounded, ScanRoundedMetadata, type ScanRoundedProps } from './security/scan_rounded';
+export { ScannerRounded, ScannerRoundedMetadata, type ScannerRoundedProps } from './security/scanner_rounded';
+export { ScanningRounded, ScanningRoundedMetadata, type ScanningRoundedProps } from './security/scanning_rounded';
+export { SecuritySafeRounded, SecuritySafeRoundedMetadata, type SecuritySafeRoundedProps } from './security/security-safe_rounded';
+export { SecurityUserRounded, SecurityUserRoundedMetadata, type SecurityUserRoundedProps } from './security/security-user_rounded';
+export { SecurityRounded, SecurityRoundedMetadata, type SecurityRoundedProps } from './security/security_rounded';
+export { ShieldCrossRounded, ShieldCrossRoundedMetadata, type ShieldCrossRoundedProps } from './security/shield-cross_rounded';
+export { ShieldSearchRounded, ShieldSearchRoundedMetadata, type ShieldSearchRoundedProps } from './security/shield-search_rounded';
+export { ShieldSecurityRounded, ShieldSecurityRoundedMetadata, type ShieldSecurityRoundedProps } from './security/shield-security_rounded';
+export { ShieldSlashRounded, ShieldSlashRoundedMetadata, type ShieldSlashRoundedProps } from './security/shield-slash_rounded';
+export { ShieldTickRounded, ShieldTickRoundedMetadata, type ShieldTickRoundedProps } from './security/shield-tick_rounded';
+export { ShieldRounded, ShieldRoundedMetadata, type ShieldRoundedProps } from './security/shield_rounded';
+export { UnlockRounded, UnlockRoundedMetadata, type UnlockRoundedProps } from './security/unlock_rounded';
 export { Cone, ConeMetadata, type ConeProps } from './shapes/cone';
 export { TriangleDashed, TriangleDashedMetadata, type TriangleDashedProps } from './shapes/triangle-dashed';
 export { TriangleRight, TriangleRightMetadata, type TriangleRightProps } from './shapes/triangle-right';
@@ -2840,12 +2809,8 @@ export { Triangle, TriangleMetadata, type TriangleProps } from './shapes/triangl
 export { ShieldAlert, ShieldAlertMetadata, type ShieldAlertProps } from './shield/shield-alert';
 export { ShieldBan, ShieldBanMetadata, type ShieldBanProps } from './shield/shield-ban';
 export { ShieldCheck, ShieldCheckMetadata, type ShieldCheckProps } from './shield/shield-check';
-export { ShieldCheckFilled, ShieldCheckFilledMetadata, type ShieldCheckFilledProps } from './shield/shield-check_filled';
-export { ShieldCheckeredFilled, ShieldCheckeredFilledMetadata, type ShieldCheckeredFilledProps } from './shield/shield-checkered_filled';
 export { ShieldEllipsis, ShieldEllipsisMetadata, type ShieldEllipsisProps } from './shield/shield-ellipsis';
 export { ShieldHalf, ShieldHalfMetadata, type ShieldHalfProps } from './shield/shield-half';
-export { ShieldHalfFilled, ShieldHalfFilledMetadata, type ShieldHalfFilledProps } from './shield/shield-half_filled';
-export { ShieldLockFilled, ShieldLockFilledMetadata, type ShieldLockFilledProps } from './shield/shield-lock_filled';
 export { ShieldMinus, ShieldMinusMetadata, type ShieldMinusProps } from './shield/shield-minus';
 export { ShieldOff, ShieldOffMetadata, type ShieldOffProps } from './shield/shield-off';
 export { ShieldPlus, ShieldPlusMetadata, type ShieldPlusProps } from './shield/shield-plus';
@@ -2853,14 +2818,11 @@ export { ShieldQuestionMark, ShieldQuestionMarkMetadata, type ShieldQuestionMark
 export { ShieldUser, ShieldUserMetadata, type ShieldUserProps } from './shield/shield-user';
 export { ShieldX, ShieldXMetadata, type ShieldXProps } from './shield/shield-x';
 export { Shield, ShieldMetadata, type ShieldProps } from './shield/shield';
-export { ShieldFilled, ShieldFilledMetadata, type ShieldFilledProps } from './shield/shield_filled';
 export { SquareActivity, SquareActivityMetadata, type SquareActivityProps } from './square/square-activity';
 export { SquareArrowDownLeft, SquareArrowDownLeftMetadata, type SquareArrowDownLeftProps } from './square/square-arrow-down-left';
 export { SquareArrowDownRight, SquareArrowDownRightMetadata, type SquareArrowDownRightProps } from './square/square-arrow-down-right';
 export { SquareArrowDown, SquareArrowDownMetadata, type SquareArrowDownProps } from './square/square-arrow-down';
-export { SquareArrowDownFilled, SquareArrowDownFilledMetadata, type SquareArrowDownFilledProps } from './square/square-arrow-down_filled';
 export { SquareArrowLeft, SquareArrowLeftMetadata, type SquareArrowLeftProps } from './square/square-arrow-left';
-export { SquareArrowLeftFilled, SquareArrowLeftFilledMetadata, type SquareArrowLeftFilledProps } from './square/square-arrow-left_filled';
 export { SquareArrowOutDownLeft, SquareArrowOutDownLeftMetadata, type SquareArrowOutDownLeftProps } from './square/square-arrow-out-down-left';
 export { SquareArrowOutDownRight, SquareArrowOutDownRightMetadata, type SquareArrowOutDownRightProps } from './square/square-arrow-out-down-right';
 export { SquareArrowOutUpLeft, SquareArrowOutUpLeftMetadata, type SquareArrowOutUpLeftProps } from './square/square-arrow-out-up-left';
@@ -2868,32 +2830,20 @@ export { SquareArrowOutUpRight, SquareArrowOutUpRightMetadata, type SquareArrowO
 export { SquareArrowRightEnter, SquareArrowRightEnterMetadata, type SquareArrowRightEnterProps } from './square/square-arrow-right-enter';
 export { SquareArrowRightExit, SquareArrowRightExitMetadata, type SquareArrowRightExitProps } from './square/square-arrow-right-exit';
 export { SquareArrowRight, SquareArrowRightMetadata, type SquareArrowRightProps } from './square/square-arrow-right';
-export { SquareArrowRightFilled, SquareArrowRightFilledMetadata, type SquareArrowRightFilledProps } from './square/square-arrow-right_filled';
 export { SquareArrowUpLeft, SquareArrowUpLeftMetadata, type SquareArrowUpLeftProps } from './square/square-arrow-up-left';
 export { SquareArrowUpRight, SquareArrowUpRightMetadata, type SquareArrowUpRightProps } from './square/square-arrow-up-right';
 export { SquareArrowUp, SquareArrowUpMetadata, type SquareArrowUpProps } from './square/square-arrow-up';
-export { SquareArrowUpFilled, SquareArrowUpFilledMetadata, type SquareArrowUpFilledProps } from './square/square-arrow-up_filled';
 export { SquareAsterisk, SquareAsteriskMetadata, type SquareAsteriskProps } from './square/square-asterisk';
-export { SquareAsteriskFilled, SquareAsteriskFilledMetadata, type SquareAsteriskFilledProps } from './square/square-asterisk_filled';
 export { SquareBottomDashedScissors, SquareBottomDashedScissorsMetadata, type SquareBottomDashedScissorsProps } from './square/square-bottom-dashed-scissors';
 export { SquareCenterlineDashedHorizontal, SquareCenterlineDashedHorizontalMetadata, type SquareCenterlineDashedHorizontalProps } from './square/square-centerline-dashed-horizontal';
 export { SquareCenterlineDashedVertical, SquareCenterlineDashedVerticalMetadata, type SquareCenterlineDashedVerticalProps } from './square/square-centerline-dashed-vertical';
 export { SquareChartGantt, SquareChartGanttMetadata, type SquareChartGanttProps } from './square/square-chart-gantt';
 export { SquareCheckBig, SquareCheckBigMetadata, type SquareCheckBigProps } from './square/square-check-big';
 export { SquareCheck, SquareCheckMetadata, type SquareCheckProps } from './square/square-check';
-export { SquareCheckFilled, SquareCheckFilledMetadata, type SquareCheckFilledProps } from './square/square-check_filled';
 export { SquareChevronDown, SquareChevronDownMetadata, type SquareChevronDownProps } from './square/square-chevron-down';
-export { SquareChevronDownFilled, SquareChevronDownFilledMetadata, type SquareChevronDownFilledProps } from './square/square-chevron-down_filled';
 export { SquareChevronLeft, SquareChevronLeftMetadata, type SquareChevronLeftProps } from './square/square-chevron-left';
-export { SquareChevronLeftFilled, SquareChevronLeftFilledMetadata, type SquareChevronLeftFilledProps } from './square/square-chevron-left_filled';
 export { SquareChevronRight, SquareChevronRightMetadata, type SquareChevronRightProps } from './square/square-chevron-right';
-export { SquareChevronRightFilled, SquareChevronRightFilledMetadata, type SquareChevronRightFilledProps } from './square/square-chevron-right_filled';
 export { SquareChevronUp, SquareChevronUpMetadata, type SquareChevronUpProps } from './square/square-chevron-up';
-export { SquareChevronUpFilled, SquareChevronUpFilledMetadata, type SquareChevronUpFilledProps } from './square/square-chevron-up_filled';
-export { SquareChevronsDownFilled, SquareChevronsDownFilledMetadata, type SquareChevronsDownFilledProps } from './square/square-chevrons-down_filled';
-export { SquareChevronsLeftFilled, SquareChevronsLeftFilledMetadata, type SquareChevronsLeftFilledProps } from './square/square-chevrons-left_filled';
-export { SquareChevronsRightFilled, SquareChevronsRightFilledMetadata, type SquareChevronsRightFilledProps } from './square/square-chevrons-right_filled';
-export { SquareChevronsUpFilled, SquareChevronsUpFilledMetadata, type SquareChevronsUpFilledProps } from './square/square-chevrons-up_filled';
 export { SquareCode, SquareCodeMetadata, type SquareCodeProps } from './square/square-code';
 export { SquareDashedBottomCode, SquareDashedBottomCodeMetadata, type SquareDashedBottomCodeProps } from './square/square-dashed-bottom-code';
 export { SquareDashedBottom, SquareDashedBottomMetadata, type SquareDashedBottomProps } from './square/square-dashed-bottom';
@@ -2903,62 +2853,14 @@ export { SquareDashedTopSolid, SquareDashedTopSolidMetadata, type SquareDashedTo
 export { SquareDashed, SquareDashedMetadata, type SquareDashedProps } from './square/square-dashed';
 export { SquareDivide, SquareDivideMetadata, type SquareDivideProps } from './square/square-divide';
 export { SquareDot, SquareDotMetadata, type SquareDotProps } from './square/square-dot';
-export { SquareDotFilled, SquareDotFilledMetadata, type SquareDotFilledProps } from './square/square-dot_filled';
 export { SquareEqual, SquareEqualMetadata, type SquareEqualProps } from './square/square-equal';
-export { SquareF0Filled, SquareF0FilledMetadata, type SquareF0FilledProps } from './square/square-f0_filled';
-export { SquareF1Filled, SquareF1FilledMetadata, type SquareF1FilledProps } from './square/square-f1_filled';
-export { SquareF2Filled, SquareF2FilledMetadata, type SquareF2FilledProps } from './square/square-f2_filled';
-export { SquareF3Filled, SquareF3FilledMetadata, type SquareF3FilledProps } from './square/square-f3_filled';
-export { SquareF4Filled, SquareF4FilledMetadata, type SquareF4FilledProps } from './square/square-f4_filled';
-export { SquareF5Filled, SquareF5FilledMetadata, type SquareF5FilledProps } from './square/square-f5_filled';
-export { SquareF6Filled, SquareF6FilledMetadata, type SquareF6FilledProps } from './square/square-f6_filled';
-export { SquareF7Filled, SquareF7FilledMetadata, type SquareF7FilledProps } from './square/square-f7_filled';
-export { SquareF8Filled, SquareF8FilledMetadata, type SquareF8FilledProps } from './square/square-f8_filled';
-export { SquareF9Filled, SquareF9FilledMetadata, type SquareF9FilledProps } from './square/square-f9_filled';
 export { SquareFunction, SquareFunctionMetadata, type SquareFunctionProps } from './square/square-function';
 export { SquareKanban, SquareKanbanMetadata, type SquareKanbanProps } from './square/square-kanban';
-export { SquareLetterAFilled, SquareLetterAFilledMetadata, type SquareLetterAFilledProps } from './square/square-letter-a_filled';
-export { SquareLetterBFilled, SquareLetterBFilledMetadata, type SquareLetterBFilledProps } from './square/square-letter-b_filled';
-export { SquareLetterCFilled, SquareLetterCFilledMetadata, type SquareLetterCFilledProps } from './square/square-letter-c_filled';
-export { SquareLetterDFilled, SquareLetterDFilledMetadata, type SquareLetterDFilledProps } from './square/square-letter-d_filled';
-export { SquareLetterEFilled, SquareLetterEFilledMetadata, type SquareLetterEFilledProps } from './square/square-letter-e_filled';
-export { SquareLetterFFilled, SquareLetterFFilledMetadata, type SquareLetterFFilledProps } from './square/square-letter-f_filled';
-export { SquareLetterGFilled, SquareLetterGFilledMetadata, type SquareLetterGFilledProps } from './square/square-letter-g_filled';
-export { SquareLetterHFilled, SquareLetterHFilledMetadata, type SquareLetterHFilledProps } from './square/square-letter-h_filled';
-export { SquareLetterIFilled, SquareLetterIFilledMetadata, type SquareLetterIFilledProps } from './square/square-letter-i_filled';
-export { SquareLetterJFilled, SquareLetterJFilledMetadata, type SquareLetterJFilledProps } from './square/square-letter-j_filled';
-export { SquareLetterKFilled, SquareLetterKFilledMetadata, type SquareLetterKFilledProps } from './square/square-letter-k_filled';
-export { SquareLetterLFilled, SquareLetterLFilledMetadata, type SquareLetterLFilledProps } from './square/square-letter-l_filled';
-export { SquareLetterMFilled, SquareLetterMFilledMetadata, type SquareLetterMFilledProps } from './square/square-letter-m_filled';
-export { SquareLetterNFilled, SquareLetterNFilledMetadata, type SquareLetterNFilledProps } from './square/square-letter-n_filled';
-export { SquareLetterOFilled, SquareLetterOFilledMetadata, type SquareLetterOFilledProps } from './square/square-letter-o_filled';
-export { SquareLetterPFilled, SquareLetterPFilledMetadata, type SquareLetterPFilledProps } from './square/square-letter-p_filled';
-export { SquareLetterQFilled, SquareLetterQFilledMetadata, type SquareLetterQFilledProps } from './square/square-letter-q_filled';
-export { SquareLetterRFilled, SquareLetterRFilledMetadata, type SquareLetterRFilledProps } from './square/square-letter-r_filled';
-export { SquareLetterSFilled, SquareLetterSFilledMetadata, type SquareLetterSFilledProps } from './square/square-letter-s_filled';
-export { SquareLetterTFilled, SquareLetterTFilledMetadata, type SquareLetterTFilledProps } from './square/square-letter-t_filled';
-export { SquareLetterUFilled, SquareLetterUFilledMetadata, type SquareLetterUFilledProps } from './square/square-letter-u_filled';
-export { SquareLetterVFilled, SquareLetterVFilledMetadata, type SquareLetterVFilledProps } from './square/square-letter-v_filled';
-export { SquareLetterWFilled, SquareLetterWFilledMetadata, type SquareLetterWFilledProps } from './square/square-letter-w_filled';
-export { SquareLetterXFilled, SquareLetterXFilledMetadata, type SquareLetterXFilledProps } from './square/square-letter-x_filled';
-export { SquareLetterYFilled, SquareLetterYFilledMetadata, type SquareLetterYFilledProps } from './square/square-letter-y_filled';
-export { SquareLetterZFilled, SquareLetterZFilledMetadata, type SquareLetterZFilledProps } from './square/square-letter-z_filled';
 export { SquareLibrary, SquareLibraryMetadata, type SquareLibraryProps } from './square/square-library';
 export { SquareM, SquareMMetadata, type SquareMProps } from './square/square-m';
 export { SquareMenu, SquareMenuMetadata, type SquareMenuProps } from './square/square-menu';
 export { SquareMinus, SquareMinusMetadata, type SquareMinusProps } from './square/square-minus';
-export { SquareMinusFilled, SquareMinusFilledMetadata, type SquareMinusFilledProps } from './square/square-minus_filled';
 export { SquareMousePointer, SquareMousePointerMetadata, type SquareMousePointerProps } from './square/square-mouse-pointer';
-export { SquareNumber0Filled, SquareNumber0FilledMetadata, type SquareNumber0FilledProps } from './square/square-number-0_filled';
-export { SquareNumber1Filled, SquareNumber1FilledMetadata, type SquareNumber1FilledProps } from './square/square-number-1_filled';
-export { SquareNumber2Filled, SquareNumber2FilledMetadata, type SquareNumber2FilledProps } from './square/square-number-2_filled';
-export { SquareNumber3Filled, SquareNumber3FilledMetadata, type SquareNumber3FilledProps } from './square/square-number-3_filled';
-export { SquareNumber4Filled, SquareNumber4FilledMetadata, type SquareNumber4FilledProps } from './square/square-number-4_filled';
-export { SquareNumber5Filled, SquareNumber5FilledMetadata, type SquareNumber5FilledProps } from './square/square-number-5_filled';
-export { SquareNumber6Filled, SquareNumber6FilledMetadata, type SquareNumber6FilledProps } from './square/square-number-6_filled';
-export { SquareNumber7Filled, SquareNumber7FilledMetadata, type SquareNumber7FilledProps } from './square/square-number-7_filled';
-export { SquareNumber8Filled, SquareNumber8FilledMetadata, type SquareNumber8FilledProps } from './square/square-number-8_filled';
-export { SquareNumber9Filled, SquareNumber9FilledMetadata, type SquareNumber9FilledProps } from './square/square-number-9_filled';
 export { SquareParkingOff, SquareParkingOffMetadata, type SquareParkingOffProps } from './square/square-parking-off';
 export { SquareParking, SquareParkingMetadata, type SquareParkingProps } from './square/square-parking';
 export { SquarePause, SquarePauseMetadata, type SquarePauseProps } from './square/square-pause';
@@ -2970,61 +2872,7 @@ export { SquarePlay, SquarePlayMetadata, type SquarePlayProps } from './square/s
 export { SquarePlus, SquarePlusMetadata, type SquarePlusProps } from './square/square-plus';
 export { SquarePower, SquarePowerMetadata, type SquarePowerProps } from './square/square-power';
 export { SquareRadical, SquareRadicalMetadata, type SquareRadicalProps } from './square/square-radical';
-export { SquareRotatedFilled, SquareRotatedFilledMetadata, type SquareRotatedFilledProps } from './square/square-rotated_filled';
 export { SquareRoundCorner, SquareRoundCornerMetadata, type SquareRoundCornerProps } from './square/square-round-corner';
-export { SquareRoundedArrowDownFilled, SquareRoundedArrowDownFilledMetadata, type SquareRoundedArrowDownFilledProps } from './square/square-rounded-arrow-down_filled';
-export { SquareRoundedArrowLeftFilled, SquareRoundedArrowLeftFilledMetadata, type SquareRoundedArrowLeftFilledProps } from './square/square-rounded-arrow-left_filled';
-export { SquareRoundedArrowRightFilled, SquareRoundedArrowRightFilledMetadata, type SquareRoundedArrowRightFilledProps } from './square/square-rounded-arrow-right_filled';
-export { SquareRoundedArrowUpFilled, SquareRoundedArrowUpFilledMetadata, type SquareRoundedArrowUpFilledProps } from './square/square-rounded-arrow-up_filled';
-export { SquareRoundedCheckFilled, SquareRoundedCheckFilledMetadata, type SquareRoundedCheckFilledProps } from './square/square-rounded-check_filled';
-export { SquareRoundedChevronDownFilled, SquareRoundedChevronDownFilledMetadata, type SquareRoundedChevronDownFilledProps } from './square/square-rounded-chevron-down_filled';
-export { SquareRoundedChevronLeftFilled, SquareRoundedChevronLeftFilledMetadata, type SquareRoundedChevronLeftFilledProps } from './square/square-rounded-chevron-left_filled';
-export { SquareRoundedChevronRightFilled, SquareRoundedChevronRightFilledMetadata, type SquareRoundedChevronRightFilledProps } from './square/square-rounded-chevron-right_filled';
-export { SquareRoundedChevronUpFilled, SquareRoundedChevronUpFilledMetadata, type SquareRoundedChevronUpFilledProps } from './square/square-rounded-chevron-up_filled';
-export { SquareRoundedChevronsDownFilled, SquareRoundedChevronsDownFilledMetadata, type SquareRoundedChevronsDownFilledProps } from './square/square-rounded-chevrons-down_filled';
-export { SquareRoundedChevronsLeftFilled, SquareRoundedChevronsLeftFilledMetadata, type SquareRoundedChevronsLeftFilledProps } from './square/square-rounded-chevrons-left_filled';
-export { SquareRoundedChevronsRightFilled, SquareRoundedChevronsRightFilledMetadata, type SquareRoundedChevronsRightFilledProps } from './square/square-rounded-chevrons-right_filled';
-export { SquareRoundedChevronsUpFilled, SquareRoundedChevronsUpFilledMetadata, type SquareRoundedChevronsUpFilledProps } from './square/square-rounded-chevrons-up_filled';
-export { SquareRoundedLetterAFilled, SquareRoundedLetterAFilledMetadata, type SquareRoundedLetterAFilledProps } from './square/square-rounded-letter-a_filled';
-export { SquareRoundedLetterBFilled, SquareRoundedLetterBFilledMetadata, type SquareRoundedLetterBFilledProps } from './square/square-rounded-letter-b_filled';
-export { SquareRoundedLetterCFilled, SquareRoundedLetterCFilledMetadata, type SquareRoundedLetterCFilledProps } from './square/square-rounded-letter-c_filled';
-export { SquareRoundedLetterDFilled, SquareRoundedLetterDFilledMetadata, type SquareRoundedLetterDFilledProps } from './square/square-rounded-letter-d_filled';
-export { SquareRoundedLetterEFilled, SquareRoundedLetterEFilledMetadata, type SquareRoundedLetterEFilledProps } from './square/square-rounded-letter-e_filled';
-export { SquareRoundedLetterFFilled, SquareRoundedLetterFFilledMetadata, type SquareRoundedLetterFFilledProps } from './square/square-rounded-letter-f_filled';
-export { SquareRoundedLetterGFilled, SquareRoundedLetterGFilledMetadata, type SquareRoundedLetterGFilledProps } from './square/square-rounded-letter-g_filled';
-export { SquareRoundedLetterHFilled, SquareRoundedLetterHFilledMetadata, type SquareRoundedLetterHFilledProps } from './square/square-rounded-letter-h_filled';
-export { SquareRoundedLetterIFilled, SquareRoundedLetterIFilledMetadata, type SquareRoundedLetterIFilledProps } from './square/square-rounded-letter-i_filled';
-export { SquareRoundedLetterJFilled, SquareRoundedLetterJFilledMetadata, type SquareRoundedLetterJFilledProps } from './square/square-rounded-letter-j_filled';
-export { SquareRoundedLetterKFilled, SquareRoundedLetterKFilledMetadata, type SquareRoundedLetterKFilledProps } from './square/square-rounded-letter-k_filled';
-export { SquareRoundedLetterLFilled, SquareRoundedLetterLFilledMetadata, type SquareRoundedLetterLFilledProps } from './square/square-rounded-letter-l_filled';
-export { SquareRoundedLetterMFilled, SquareRoundedLetterMFilledMetadata, type SquareRoundedLetterMFilledProps } from './square/square-rounded-letter-m_filled';
-export { SquareRoundedLetterNFilled, SquareRoundedLetterNFilledMetadata, type SquareRoundedLetterNFilledProps } from './square/square-rounded-letter-n_filled';
-export { SquareRoundedLetterOFilled, SquareRoundedLetterOFilledMetadata, type SquareRoundedLetterOFilledProps } from './square/square-rounded-letter-o_filled';
-export { SquareRoundedLetterPFilled, SquareRoundedLetterPFilledMetadata, type SquareRoundedLetterPFilledProps } from './square/square-rounded-letter-p_filled';
-export { SquareRoundedLetterQFilled, SquareRoundedLetterQFilledMetadata, type SquareRoundedLetterQFilledProps } from './square/square-rounded-letter-q_filled';
-export { SquareRoundedLetterRFilled, SquareRoundedLetterRFilledMetadata, type SquareRoundedLetterRFilledProps } from './square/square-rounded-letter-r_filled';
-export { SquareRoundedLetterSFilled, SquareRoundedLetterSFilledMetadata, type SquareRoundedLetterSFilledProps } from './square/square-rounded-letter-s_filled';
-export { SquareRoundedLetterTFilled, SquareRoundedLetterTFilledMetadata, type SquareRoundedLetterTFilledProps } from './square/square-rounded-letter-t_filled';
-export { SquareRoundedLetterUFilled, SquareRoundedLetterUFilledMetadata, type SquareRoundedLetterUFilledProps } from './square/square-rounded-letter-u_filled';
-export { SquareRoundedLetterVFilled, SquareRoundedLetterVFilledMetadata, type SquareRoundedLetterVFilledProps } from './square/square-rounded-letter-v_filled';
-export { SquareRoundedLetterWFilled, SquareRoundedLetterWFilledMetadata, type SquareRoundedLetterWFilledProps } from './square/square-rounded-letter-w_filled';
-export { SquareRoundedLetterXFilled, SquareRoundedLetterXFilledMetadata, type SquareRoundedLetterXFilledProps } from './square/square-rounded-letter-x_filled';
-export { SquareRoundedLetterYFilled, SquareRoundedLetterYFilledMetadata, type SquareRoundedLetterYFilledProps } from './square/square-rounded-letter-y_filled';
-export { SquareRoundedLetterZFilled, SquareRoundedLetterZFilledMetadata, type SquareRoundedLetterZFilledProps } from './square/square-rounded-letter-z_filled';
-export { SquareRoundedMinusFilled, SquareRoundedMinusFilledMetadata, type SquareRoundedMinusFilledProps } from './square/square-rounded-minus_filled';
-export { SquareRoundedNumber0Filled, SquareRoundedNumber0FilledMetadata, type SquareRoundedNumber0FilledProps } from './square/square-rounded-number-0_filled';
-export { SquareRoundedNumber1Filled, SquareRoundedNumber1FilledMetadata, type SquareRoundedNumber1FilledProps } from './square/square-rounded-number-1_filled';
-export { SquareRoundedNumber2Filled, SquareRoundedNumber2FilledMetadata, type SquareRoundedNumber2FilledProps } from './square/square-rounded-number-2_filled';
-export { SquareRoundedNumber3Filled, SquareRoundedNumber3FilledMetadata, type SquareRoundedNumber3FilledProps } from './square/square-rounded-number-3_filled';
-export { SquareRoundedNumber4Filled, SquareRoundedNumber4FilledMetadata, type SquareRoundedNumber4FilledProps } from './square/square-rounded-number-4_filled';
-export { SquareRoundedNumber5Filled, SquareRoundedNumber5FilledMetadata, type SquareRoundedNumber5FilledProps } from './square/square-rounded-number-5_filled';
-export { SquareRoundedNumber6Filled, SquareRoundedNumber6FilledMetadata, type SquareRoundedNumber6FilledProps } from './square/square-rounded-number-6_filled';
-export { SquareRoundedNumber7Filled, SquareRoundedNumber7FilledMetadata, type SquareRoundedNumber7FilledProps } from './square/square-rounded-number-7_filled';
-export { SquareRoundedNumber8Filled, SquareRoundedNumber8FilledMetadata, type SquareRoundedNumber8FilledProps } from './square/square-rounded-number-8_filled';
-export { SquareRoundedNumber9Filled, SquareRoundedNumber9FilledMetadata, type SquareRoundedNumber9FilledProps } from './square/square-rounded-number-9_filled';
-export { SquareRoundedPlusFilled, SquareRoundedPlusFilledMetadata, type SquareRoundedPlusFilledProps } from './square/square-rounded-plus_filled';
-export { SquareRoundedXFilled, SquareRoundedXFilledMetadata, type SquareRoundedXFilledProps } from './square/square-rounded-x_filled';
-export { SquareRoundedFilled, SquareRoundedFilledMetadata, type SquareRoundedFilledProps } from './square/square-rounded_filled';
 export { SquareScissors, SquareScissorsMetadata, type SquareScissorsProps } from './square/square-scissors';
 export { SquareSigma, SquareSigmaMetadata, type SquareSigmaProps } from './square/square-sigma';
 export { SquareSlash, SquareSlashMetadata, type SquareSlashProps } from './square/square-slash';
@@ -3038,16 +2886,38 @@ export { SquareTerminal, SquareTerminalMetadata, type SquareTerminalProps } from
 export { SquareUserRound, SquareUserRoundMetadata, type SquareUserRoundProps } from './square/square-user-round';
 export { SquareUser, SquareUserMetadata, type SquareUserProps } from './square/square-user';
 export { SquareX, SquareXMetadata, type SquareXProps } from './square/square-x';
-export { SquareXFilled, SquareXFilledMetadata, type SquareXFilledProps } from './square/square-x_filled';
 export { Square, SquareMetadata, type SquareProps } from './square/square';
-export { SquareFilled, SquareFilledMetadata, type SquareFilledProps } from './square/square_filled';
 export { SquaresExclude, SquaresExcludeMetadata, type SquaresExcludeProps } from './square/squares-exclude';
 export { SquaresIntersect, SquaresIntersectMetadata, type SquaresIntersectProps } from './square/squares-intersect';
 export { SquaresSubtract, SquaresSubtractMetadata, type SquaresSubtractProps } from './square/squares-subtract';
 export { SquaresUnite, SquaresUniteMetadata, type SquaresUniteProps } from './square/squares-unite';
-export { SquaresFilled, SquaresFilledMetadata, type SquaresFilledProps } from './square/squares_filled';
 export { SquircleDashed, SquircleDashedMetadata, type SquircleDashedProps } from './square/squircle-dashed';
 export { Squircle, SquircleMetadata, type SquircleProps } from './square/squircle';
+export { DislikeRounded, DislikeRoundedMetadata, type DislikeRoundedProps } from './support/dislike_rounded';
+export { HeartAddRounded, HeartAddRoundedMetadata, type HeartAddRoundedProps } from './support/heart-add_rounded';
+export { HeartCircleRounded, HeartCircleRoundedMetadata, type HeartCircleRoundedProps } from './support/heart-circle_rounded';
+export { HeartEditRounded, HeartEditRoundedMetadata, type HeartEditRoundedProps } from './support/heart-edit_rounded';
+export { HeartRemoveRounded, HeartRemoveRoundedMetadata, type HeartRemoveRoundedProps } from './support/heart-remove_rounded';
+export { HeartSearchRounded, HeartSearchRoundedMetadata, type HeartSearchRoundedProps } from './support/heart-search_rounded';
+export { HeartSlashRounded, HeartSlashRoundedMetadata, type HeartSlashRoundedProps } from './support/heart-slash_rounded';
+export { HeartTickRounded, HeartTickRoundedMetadata, type HeartTickRoundedProps } from './support/heart-tick_rounded';
+export { HeartRounded, HeartRoundedMetadata, type HeartRoundedProps } from './support/heart_rounded';
+export { Like1Rounded, Like1RoundedMetadata, type Like1RoundedProps } from './support/like-1_rounded';
+export { LikeDislikeRounded, LikeDislikeRoundedMetadata, type LikeDislikeRoundedProps } from './support/like-dislike_rounded';
+export { LikeShapesRounded, LikeShapesRoundedMetadata, type LikeShapesRoundedProps } from './support/like-shapes_rounded';
+export { LikeTagRounded, LikeTagRoundedMetadata, type LikeTagRoundedProps } from './support/like-tag_rounded';
+export { LikeRounded, LikeRoundedMetadata, type LikeRoundedProps } from './support/like_rounded';
+export { LovelyRounded, LovelyRoundedMetadata, type LovelyRoundedProps } from './support/lovely_rounded';
+export { MagicStarRounded, MagicStarRoundedMetadata, type MagicStarRoundedProps } from './support/magic-star_rounded';
+export { MedalStarRounded, MedalStarRoundedMetadata, type MedalStarRoundedProps } from './support/medal-star_rounded';
+export { MedalRounded, MedalRoundedMetadata, type MedalRoundedProps } from './support/medal_rounded';
+export { MessageQuestionRounded, MessageQuestionRoundedMetadata, type MessageQuestionRoundedProps } from './support/message-question_rounded';
+export { SmileysRounded, SmileysRoundedMetadata, type SmileysRoundedProps } from './support/smileys_rounded';
+export { Star1Rounded, Star1RoundedMetadata, type Star1RoundedProps } from './support/star-1_rounded';
+export { StarSlashRounded, StarSlashRoundedMetadata, type StarSlashRoundedProps } from './support/star-slash_rounded';
+export { StarRounded, StarRoundedMetadata, type StarRoundedProps } from './support/star_rounded';
+export { SupportRounded, SupportRoundedMetadata, type SupportRoundedProps } from './support/support_rounded';
+export { UnlimitedRounded, UnlimitedRoundedMetadata, type UnlimitedRoundedProps } from './support/unlimited_rounded';
 export { Table2, Table2Metadata, type Table2Props } from './table/table-2';
 export { TableCellsMerge, TableCellsMergeMetadata, type TableCellsMergeProps } from './table/table-cells-merge';
 export { TableCellsSplit, TableCellsSplitMetadata, type TableCellsSplitProps } from './table/table-cells-split';
@@ -3056,76 +2926,139 @@ export { TableOfContents, TableOfContentsMetadata, type TableOfContentsProps } f
 export { TableProperties, TablePropertiesMetadata, type TablePropertiesProps } from './table/table-properties';
 export { TableRowsSplit, TableRowsSplitMetadata, type TableRowsSplitProps } from './table/table-rows-split';
 export { Table, TableMetadata, type TableProps } from './table/table';
+export { AArrowDown, AArrowDownMetadata, type AArrowDownProps } from './text/a-arrow-down';
+export { AArrowUp, AArrowUpMetadata, type AArrowUpProps } from './text/a-arrow-up';
+export { ALargeSmall, ALargeSmallMetadata, type ALargeSmallProps } from './text/a-large-small';
+export { Ampersand, AmpersandMetadata, type AmpersandProps } from './text/ampersand';
+export { Ampersands, AmpersandsMetadata, type AmpersandsProps } from './text/ampersands';
+export { AtSign, AtSignMetadata, type AtSignProps } from './text/at-sign';
+export { AttachCircleRounded, AttachCircleRoundedMetadata, type AttachCircleRoundedProps } from './text/attach-circle_rounded';
+export { AttachSquareRounded, AttachSquareRoundedMetadata, type AttachSquareRoundedProps } from './text/attach-square_rounded';
+export { Braces, BracesMetadata, type BracesProps } from './text/braces';
+export { Brackets, BracketsMetadata, type BracketsProps } from './text/brackets';
+export { CaseLower, CaseLowerMetadata, type CaseLowerProps } from './text/case-lower';
+export { CaseSensitive, CaseSensitiveMetadata, type CaseSensitiveProps } from './text/case-sensitive';
+export { CaseUpper, CaseUpperMetadata, type CaseUpperProps } from './text/case-upper';
+export { Dot, DotMetadata, type DotProps } from './text/dot';
+export { FirstlineRounded, FirstlineRoundedMetadata, type FirstlineRoundedProps } from './text/firstline_rounded';
+export { Hash, HashMetadata, type HashProps } from './text/hash';
+export { Heading1, Heading1Metadata, type Heading1Props } from './text/heading-1';
+export { Heading2, Heading2Metadata, type Heading2Props } from './text/heading-2';
+export { Heading3, Heading3Metadata, type Heading3Props } from './text/heading-3';
+export { Heading4, Heading4Metadata, type Heading4Props } from './text/heading-4';
+export { Heading5, Heading5Metadata, type Heading5Props } from './text/heading-5';
+export { Heading6, Heading6Metadata, type Heading6Props } from './text/heading-6';
+export { Heading, HeadingMetadata, type HeadingProps } from './text/heading';
+export { Italic, ItalicMetadata, type ItalicProps } from './text/italic';
+export { LanguageCircleRounded, LanguageCircleRoundedMetadata, type LanguageCircleRoundedProps } from './text/language-circle_rounded';
+export { LanguageSquareRounded, LanguageSquareRoundedMetadata, type LanguageSquareRoundedProps } from './text/language-square_rounded';
+export { Languages, LanguagesMetadata, type LanguagesProps } from './text/languages';
+export { Link1Rounded, Link1RoundedMetadata, type Link1RoundedProps } from './text/link-1_rounded';
+export { Link21Rounded, Link21RoundedMetadata, type Link21RoundedProps } from './text/link-21_rounded';
+export { Link2Rounded, Link2RoundedMetadata, type Link2RoundedProps } from './text/link-2_rounded';
+export { LinkCircleRounded, LinkCircleRoundedMetadata, type LinkCircleRoundedProps } from './text/link-circle_rounded';
+export { LinkSquareRounded, LinkSquareRoundedMetadata, type LinkSquareRoundedProps } from './text/link-square_rounded';
+export { LinkRounded, LinkRoundedMetadata, type LinkRoundedProps } from './text/link_rounded';
+export { Paperclip2Rounded, Paperclip2RoundedMetadata, type Paperclip2RoundedProps } from './text/paperclip-2_rounded';
+export { PaperclipRounded, PaperclipRoundedMetadata, type PaperclipRoundedProps } from './text/paperclip_rounded';
+export { PharagraphspacingRounded, PharagraphspacingRoundedMetadata, type PharagraphspacingRoundedProps } from './text/pharagraphspacing_rounded';
+export { QuoteDownCircleRounded, QuoteDownCircleRoundedMetadata, type QuoteDownCircleRoundedProps } from './text/quote-down-circle_rounded';
+export { QuoteDownSquareRounded, QuoteDownSquareRoundedMetadata, type QuoteDownSquareRoundedProps } from './text/quote-down-square_rounded';
+export { QuoteDownRounded, QuoteDownRoundedMetadata, type QuoteDownRoundedProps } from './text/quote-down_rounded';
+export { QuoteUpCircleRounded, QuoteUpCircleRoundedMetadata, type QuoteUpCircleRoundedProps } from './text/quote-up-circle_rounded';
+export { QuoteUpSquareRounded, QuoteUpSquareRoundedMetadata, type QuoteUpSquareRoundedProps } from './text/quote-up-square_rounded';
+export { QuoteUpRounded, QuoteUpRoundedMetadata, type QuoteUpRoundedProps } from './text/quote-up_rounded';
 export { RemoveFormatting, RemoveFormattingMetadata, type RemoveFormattingProps } from './text/remove-formatting';
+export { SmallcapsRounded, SmallcapsRoundedMetadata, type SmallcapsRoundedProps } from './text/smallcaps_rounded';
 export { SpellCheck2, SpellCheck2Metadata, type SpellCheck2Props } from './text/spell-check-2';
 export { SpellCheck, SpellCheckMetadata, type SpellCheckProps } from './text/spell-check';
 export { TextAlignCenter, TextAlignCenterMetadata, type TextAlignCenterProps } from './text/text-align-center';
 export { TextAlignEnd, TextAlignEndMetadata, type TextAlignEndProps } from './text/text-align-end';
 export { TextAlignJustify, TextAlignJustifyMetadata, type TextAlignJustifyProps } from './text/text-align-justify';
 export { TextAlignStart, TextAlignStartMetadata, type TextAlignStartProps } from './text/text-align-start';
+export { TextBlockRounded, TextBlockRoundedMetadata, type TextBlockRoundedProps } from './text/text-block_rounded';
+export { TextBoldRounded, TextBoldRoundedMetadata, type TextBoldRoundedProps } from './text/text-bold_rounded';
 export { TextCursorInput, TextCursorInputMetadata, type TextCursorInputProps } from './text/text-cursor-input';
 export { TextCursor, TextCursorMetadata, type TextCursorProps } from './text/text-cursor';
 export { TextInitial, TextInitialMetadata, type TextInitialProps } from './text/text-initial';
+export { TextItalicRounded, TextItalicRoundedMetadata, type TextItalicRoundedProps } from './text/text-italic_rounded';
 export { TextQuote, TextQuoteMetadata, type TextQuoteProps } from './text/text-quote';
 export { TextSearch, TextSearchMetadata, type TextSearchProps } from './text/text-search';
 export { TextSelect, TextSelectMetadata, type TextSelectProps } from './text/text-select';
+export { TextUnderlineRounded, TextUnderlineRoundedMetadata, type TextUnderlineRoundedProps } from './text/text-underline_rounded';
 export { TextWrap, TextWrapMetadata, type TextWrapProps } from './text/text-wrap';
+export { TextRounded, TextRoundedMetadata, type TextRoundedProps } from './text/text_rounded';
+export { TextalignCenterRounded, TextalignCenterRoundedMetadata, type TextalignCenterRoundedProps } from './text/textalign-center_rounded';
+export { TextalignJustifycenterRounded, TextalignJustifycenterRoundedMetadata, type TextalignJustifycenterRoundedProps } from './text/textalign-justifycenter_rounded';
+export { TextalignJustifyleftRounded, TextalignJustifyleftRoundedMetadata, type TextalignJustifyleftRoundedProps } from './text/textalign-justifyleft_rounded';
+export { TextalignJustifyrightRounded, TextalignJustifyrightRoundedMetadata, type TextalignJustifyrightRoundedProps } from './text/textalign-justifyright_rounded';
+export { TextalignLeftRounded, TextalignLeftRoundedMetadata, type TextalignLeftRoundedProps } from './text/textalign-left_rounded';
+export { TextalignRightRounded, TextalignRightRoundedMetadata, type TextalignRightRoundedProps } from './text/textalign-right_rounded';
+export { TranslateRounded, TranslateRoundedMetadata, type TranslateRoundedProps } from './text/translate_rounded';
+export { TypeOutline, TypeOutlineMetadata, type TypeOutlineProps } from './text/type-outline';
+export { Type, TypeMetadata, type TypeProps } from './text/type';
 export { AlarmClockCheck, AlarmClockCheckMetadata, type AlarmClockCheckProps } from './time/alarm-clock-check';
 export { AlarmClockMinus, AlarmClockMinusMetadata, type AlarmClockMinusProps } from './time/alarm-clock-minus';
 export { AlarmClockOff, AlarmClockOffMetadata, type AlarmClockOffProps } from './time/alarm-clock-off';
 export { AlarmClockPlus, AlarmClockPlusMetadata, type AlarmClockPlusProps } from './time/alarm-clock-plus';
 export { AlarmClock, AlarmClockMetadata, type AlarmClockProps } from './time/alarm-clock';
-export { AlarmMinusFilled, AlarmMinusFilledMetadata, type AlarmMinusFilledProps } from './time/alarm-minus_filled';
-export { AlarmPlusFilled, AlarmPlusFilledMetadata, type AlarmPlusFilledProps } from './time/alarm-plus_filled';
-export { AlarmSnoozeFilled, AlarmSnoozeFilledMetadata, type AlarmSnoozeFilledProps } from './time/alarm-snooze_filled';
-export { AlarmFilled, AlarmFilledMetadata, type AlarmFilledProps } from './time/alarm_filled';
-export { ClockHour10Filled, ClockHour10FilledMetadata, type ClockHour10FilledProps } from './time/clock-hour-10_filled';
-export { ClockHour11Filled, ClockHour11FilledMetadata, type ClockHour11FilledProps } from './time/clock-hour-11_filled';
-export { ClockHour12Filled, ClockHour12FilledMetadata, type ClockHour12FilledProps } from './time/clock-hour-12_filled';
-export { ClockHour1Filled, ClockHour1FilledMetadata, type ClockHour1FilledProps } from './time/clock-hour-1_filled';
-export { ClockHour2Filled, ClockHour2FilledMetadata, type ClockHour2FilledProps } from './time/clock-hour-2_filled';
-export { ClockHour3Filled, ClockHour3FilledMetadata, type ClockHour3FilledProps } from './time/clock-hour-3_filled';
-export { ClockHour4Filled, ClockHour4FilledMetadata, type ClockHour4FilledProps } from './time/clock-hour-4_filled';
-export { ClockHour5Filled, ClockHour5FilledMetadata, type ClockHour5FilledProps } from './time/clock-hour-5_filled';
-export { ClockHour6Filled, ClockHour6FilledMetadata, type ClockHour6FilledProps } from './time/clock-hour-6_filled';
-export { ClockHour7Filled, ClockHour7FilledMetadata, type ClockHour7FilledProps } from './time/clock-hour-7_filled';
-export { ClockHour8Filled, ClockHour8FilledMetadata, type ClockHour8FilledProps } from './time/clock-hour-8_filled';
-export { ClockHour9Filled, ClockHour9FilledMetadata, type ClockHour9FilledProps } from './time/clock-hour-9_filled';
-export { ClockFilled, ClockFilledMetadata, type ClockFilledProps } from './time/clock_filled';
-export { Ambulance, AmbulanceMetadata, type AmbulanceProps } from './transportation/ambulance';
-export { Bike, BikeMetadata, type BikeProps } from './transportation/bike';
-export { BusFront, BusFrontMetadata, type BusFrontProps } from './transportation/bus-front';
-export { Bus, BusMetadata, type BusProps } from './transportation/bus';
-export { CableCar, CableCarMetadata, type CableCarProps } from './transportation/cable-car';
-export { CarFront, CarFrontMetadata, type CarFrontProps } from './transportation/car-front';
-export { CarTaxiFront, CarTaxiFrontMetadata, type CarTaxiFrontProps } from './transportation/car-taxi-front';
-export { Car, CarMetadata, type CarProps } from './transportation/car';
-export { Caravan, CaravanMetadata, type CaravanProps } from './transportation/caravan';
-export { EvCharger, EvChargerMetadata, type EvChargerProps } from './transportation/ev-charger';
-export { Forklift, ForkliftMetadata, type ForkliftProps } from './transportation/forklift';
-export { Motorbike, MotorbikeMetadata, type MotorbikeProps } from './transportation/motorbike';
-export { PlaneLanding, PlaneLandingMetadata, type PlaneLandingProps } from './transportation/plane-landing';
-export { PlaneTakeoff, PlaneTakeoffMetadata, type PlaneTakeoffProps } from './transportation/plane-takeoff';
-export { Plane, PlaneMetadata, type PlaneProps } from './transportation/plane';
-export { Tractor, TractorMetadata, type TractorProps } from './transportation/tractor';
-export { TrafficCone, TrafficConeMetadata, type TrafficConeProps } from './transportation/traffic-cone';
-export { TrainFrontTunnel, TrainFrontTunnelMetadata, type TrainFrontTunnelProps } from './transportation/train-front-tunnel';
-export { TrainFront, TrainFrontMetadata, type TrainFrontProps } from './transportation/train-front';
-export { TrainTrack, TrainTrackMetadata, type TrainTrackProps } from './transportation/train-track';
-export { TramFront, TramFrontMetadata, type TramFrontProps } from './transportation/tram-front';
-export { TruckElectric, TruckElectricMetadata, type TruckElectricProps } from './transportation/truck-electric';
-export { Truck, TruckMetadata, type TruckProps } from './transportation/truck';
+export { AirplaneSquareRounded, AirplaneSquareRoundedMetadata, type AirplaneSquareRoundedProps } from './transport/airplane-square_rounded';
+export { AirplaneRounded, AirplaneRoundedMetadata, type AirplaneRoundedProps } from './transport/airplane_rounded';
+export { Ambulance, AmbulanceMetadata, type AmbulanceProps } from './transport/ambulance';
+export { Bike, BikeMetadata, type BikeProps } from './transport/bike';
+export { BusFront, BusFrontMetadata, type BusFrontProps } from './transport/bus-front';
+export { Bus, BusMetadata, type BusProps } from './transport/bus';
+export { BusRounded, BusRoundedMetadata, type BusRoundedProps } from './transport/bus_rounded';
+export { CableCar, CableCarMetadata, type CableCarProps } from './transport/cable-car';
+export { CarFront, CarFrontMetadata, type CarFrontProps } from './transport/car-front';
+export { CarTaxiFront, CarTaxiFrontMetadata, type CarTaxiFrontProps } from './transport/car-taxi-front';
+export { Car, CarMetadata, type CarProps } from './transport/car';
+export { CarRounded, CarRoundedMetadata, type CarRoundedProps } from './transport/car_rounded';
+export { Caravan, CaravanMetadata, type CaravanProps } from './transport/caravan';
+export { DrivingRounded, DrivingRoundedMetadata, type DrivingRoundedProps } from './transport/driving_rounded';
+export { EvCharger, EvChargerMetadata, type EvChargerProps } from './transport/ev-charger';
+export { Forklift, ForkliftMetadata, type ForkliftProps } from './transport/forklift';
+export { GasStationRounded, GasStationRoundedMetadata, type GasStationRoundedProps } from './transport/gas-station_rounded';
+export { Motorbike, MotorbikeMetadata, type MotorbikeProps } from './transport/motorbike';
+export { PlaneLanding, PlaneLandingMetadata, type PlaneLandingProps } from './transport/plane-landing';
+export { PlaneTakeoff, PlaneTakeoffMetadata, type PlaneTakeoffProps } from './transport/plane-takeoff';
+export { Plane, PlaneMetadata, type PlaneProps } from './transport/plane';
+export { ShipRounded, ShipRoundedMetadata, type ShipRoundedProps } from './transport/ship_rounded';
+export { SmartCarRounded, SmartCarRoundedMetadata, type SmartCarRoundedProps } from './transport/smart-car_rounded';
+export { Tractor, TractorMetadata, type TractorProps } from './transport/tractor';
+export { TrafficCone, TrafficConeMetadata, type TrafficConeProps } from './transport/traffic-cone';
+export { TrainFrontTunnel, TrainFrontTunnelMetadata, type TrainFrontTunnelProps } from './transport/train-front-tunnel';
+export { TrainFront, TrainFrontMetadata, type TrainFrontProps } from './transport/train-front';
+export { TrainTrack, TrainTrackMetadata, type TrainTrackProps } from './transport/train-track';
+export { TramFront, TramFrontMetadata, type TramFrontProps } from './transport/tram-front';
+export { TruckElectric, TruckElectricMetadata, type TruckElectricProps } from './transport/truck-electric';
+export { Truck, TruckMetadata, type TruckProps } from './transport/truck';
 export { ContactRound, ContactRoundMetadata, type ContactRoundProps } from './user/contact-round';
 export { Contact, ContactMetadata, type ContactProps } from './user/contact';
 export { IdCardLanyard, IdCardLanyardMetadata, type IdCardLanyardProps } from './user/id-card-lanyard';
 export { IdCard, IdCardMetadata, type IdCardProps } from './user/id-card';
+export { PeopleRounded, PeopleRoundedMetadata, type PeopleRoundedProps } from './user/people_rounded';
+export { Profile2userRounded, Profile2userRoundedMetadata, type Profile2userRoundedProps } from './user/profile-2user_rounded';
+export { ProfileAddRounded, ProfileAddRoundedMetadata, type ProfileAddRoundedProps } from './user/profile-add_rounded';
+export { ProfileCircleRounded, ProfileCircleRoundedMetadata, type ProfileCircleRoundedProps } from './user/profile-circle_rounded';
+export { ProfileDeleteRounded, ProfileDeleteRoundedMetadata, type ProfileDeleteRoundedProps } from './user/profile-delete_rounded';
+export { ProfileRemoveRounded, ProfileRemoveRoundedMetadata, type ProfileRemoveRoundedProps } from './user/profile-remove_rounded';
+export { ProfileTickRounded, ProfileTickRoundedMetadata, type ProfileTickRoundedProps } from './user/profile-tick_rounded';
+export { ProfileRounded, ProfileRoundedMetadata, type ProfileRoundedProps } from './user/profile_rounded';
+export { TagUserRounded, TagUserRoundedMetadata, type TagUserRoundedProps } from './user/tag-user_rounded';
+export { UserAddRounded, UserAddRoundedMetadata, type UserAddRoundedProps } from './user/user-add_rounded';
 export { UserCheck, UserCheckMetadata, type UserCheckProps } from './user/user-check';
+export { UserCirlceAddRounded, UserCirlceAddRoundedMetadata, type UserCirlceAddRoundedProps } from './user/user-cirlce-add_rounded';
 export { UserCog, UserCogMetadata, type UserCogProps } from './user/user-cog';
+export { UserEditRounded, UserEditRoundedMetadata, type UserEditRoundedProps } from './user/user-edit_rounded';
 export { UserKey, UserKeyMetadata, type UserKeyProps } from './user/user-key';
 export { UserLock, UserLockMetadata, type UserLockProps } from './user/user-lock';
 export { UserMinus, UserMinusMetadata, type UserMinusProps } from './user/user-minus';
+export { UserMinusRounded, UserMinusRoundedMetadata, type UserMinusRoundedProps } from './user/user-minus_rounded';
+export { UserOctagonRounded, UserOctagonRoundedMetadata, type UserOctagonRoundedProps } from './user/user-octagon_rounded';
 export { UserPen, UserPenMetadata, type UserPenProps } from './user/user-pen';
 export { UserPlus, UserPlusMetadata, type UserPlusProps } from './user/user-plus';
+export { UserRemoveRounded, UserRemoveRoundedMetadata, type UserRemoveRoundedProps } from './user/user-remove_rounded';
 export { UserRoundCheck, UserRoundCheckMetadata, type UserRoundCheckProps } from './user/user-round-check';
 export { UserRoundCog, UserRoundCogMetadata, type UserRoundCogProps } from './user/user-round-cog';
 export { UserRoundKey, UserRoundKeyMetadata, type UserRoundKeyProps } from './user/user-round-key';
@@ -3136,33 +3069,55 @@ export { UserRoundSearch, UserRoundSearchMetadata, type UserRoundSearchProps } f
 export { UserRoundX, UserRoundXMetadata, type UserRoundXProps } from './user/user-round-x';
 export { UserRound, UserRoundMetadata, type UserRoundProps } from './user/user-round';
 export { UserSearch, UserSearchMetadata, type UserSearchProps } from './user/user-search';
+export { UserSearchRounded, UserSearchRoundedMetadata, type UserSearchRoundedProps } from './user/user-search_rounded';
+export { UserSquareRounded, UserSquareRoundedMetadata, type UserSquareRoundedProps } from './user/user-square_rounded';
 export { UserStar, UserStarMetadata, type UserStarProps } from './user/user-star';
+export { UserTagRounded, UserTagRoundedMetadata, type UserTagRoundedProps } from './user/user-tag_rounded';
+export { UserTickRounded, UserTickRoundedMetadata, type UserTickRoundedProps } from './user/user-tick_rounded';
 export { UserX, UserXMetadata, type UserXProps } from './user/user-x';
 export { User, UserMetadata, type UserProps } from './user/user';
+export { UserRounded, UserRoundedMetadata, type UserRoundedProps } from './user/user_rounded';
 export { UsersRound, UsersRoundMetadata, type UsersRoundProps } from './user/users-round';
 export { Users, UsersMetadata, type UsersProps } from './user/users';
 export { VectorDoodle, VectorDoodleMetadata, type VectorDoodleProps } from './weather/Vector_doodle';
+export { CloudCrossRounded, CloudCrossRoundedMetadata, type CloudCrossRoundedProps } from './weather/cloud-cross_rounded';
+export { CloudDrizzleRounded, CloudDrizzleRoundedMetadata, type CloudDrizzleRoundedProps } from './weather/cloud-drizzle_rounded';
+export { CloudFogRounded, CloudFogRoundedMetadata, type CloudFogRoundedProps } from './weather/cloud-fog_rounded';
+export { CloudLightningRounded, CloudLightningRoundedMetadata, type CloudLightningRoundedProps } from './weather/cloud-lightning_rounded';
+export { CloudMinusRounded, CloudMinusRoundedMetadata, type CloudMinusRoundedProps } from './weather/cloud-minus_rounded';
+export { CloudNotifRounded, CloudNotifRoundedMetadata, type CloudNotifRoundedProps } from './weather/cloud-notif_rounded';
+export { CloudPlusRounded, CloudPlusRoundedMetadata, type CloudPlusRoundedProps } from './weather/cloud-plus_rounded';
+export { CloudSnowRounded, CloudSnowRoundedMetadata, type CloudSnowRoundedProps } from './weather/cloud-snow_rounded';
+export { CloudSunnyRounded, CloudSunnyRoundedMetadata, type CloudSunnyRoundedProps } from './weather/cloud-sunny_rounded';
+export { CloudRounded, CloudRoundedMetadata, type CloudRoundedProps } from './weather/cloud_rounded';
 export { CloudyDayDoodle, CloudyDayDoodleMetadata, type CloudyDayDoodleProps } from './weather/cloudy-day_doodle';
 export { CloudyNightDoodle, CloudyNightDoodleMetadata, type CloudyNightDoodleProps } from './weather/cloudy-night_doodle';
+export { DropRounded, DropRoundedMetadata, type DropRoundedProps } from './weather/drop_rounded';
 export { MoonStar, MoonStarMetadata, type MoonStarProps } from './weather/moon-star';
 export { Moon, MoonMetadata, type MoonProps } from './weather/moon';
+export { MoonRounded, MoonRoundedMetadata, type MoonRoundedProps } from './weather/moon_rounded';
 export { NightDoodle, NightDoodleMetadata, type NightDoodleProps } from './weather/night_doodle';
 export { RainHeavyDoodle, RainHeavyDoodleMetadata, type RainHeavyDoodleProps } from './weather/rain-heavy_doodle';
 export { RainLightDoodle, RainLightDoodleMetadata, type RainLightDoodleProps } from './weather/rain-light_doodle';
 export { SnowDoodle, SnowDoodleMetadata, type SnowDoodleProps } from './weather/snow_doodle';
 export { SnowflakeDoodle, SnowflakeDoodleMetadata, type SnowflakeDoodleProps } from './weather/snowflake_doodle';
 export { SnowmanDoodle, SnowmanDoodleMetadata, type SnowmanDoodleProps } from './weather/snowman_doodle';
+export { Sun1Rounded, Sun1RoundedMetadata, type Sun1RoundedProps } from './weather/sun-1_rounded';
 export { SunDim, SunDimMetadata, type SunDimProps } from './weather/sun-dim';
+export { SunFogRounded, SunFogRoundedMetadata, type SunFogRoundedProps } from './weather/sun-fog_rounded';
 export { SunMedium, SunMediumMetadata, type SunMediumProps } from './weather/sun-medium';
 export { SunMoon, SunMoonMetadata, type SunMoonProps } from './weather/sun-moon';
 export { SunSnow, SunSnowMetadata, type SunSnowProps } from './weather/sun-snow';
 export { Sun, SunMetadata, type SunProps } from './weather/sun';
+export { SunRounded, SunRoundedMetadata, type SunRoundedProps } from './weather/sun_rounded';
 export { SunnyDoodle, SunnyDoodleMetadata, type SunnyDoodleProps } from './weather/sunny_doodle';
 export { Sunrise, SunriseMetadata, type SunriseProps } from './weather/sunrise';
 export { Sunset, SunsetMetadata, type SunsetProps } from './weather/sunset';
 export { ThunderstormDoodle, ThunderstormDoodleMetadata, type ThunderstormDoodleProps } from './weather/thunderstorm_doodle';
 export { TornadoDoodle, TornadoDoodleMetadata, type TornadoDoodleProps } from './weather/tornado_doodle';
+export { Wind2Rounded, Wind2RoundedMetadata, type Wind2RoundedProps } from './weather/wind-2_rounded';
 export { WindDoodle, WindDoodleMetadata, type WindDoodleProps } from './weather/wind_doodle';
+export { WindRounded, WindRoundedMetadata, type WindRoundedProps } from './weather/wind_rounded';
 export { ZodiacAquarius, ZodiacAquariusMetadata, type ZodiacAquariusProps } from './zodiac/zodiac-aquarius';
 export { ZodiacAries, ZodiacAriesMetadata, type ZodiacAriesProps } from './zodiac/zodiac-aries';
 export { ZodiacCancer, ZodiacCancerMetadata, type ZodiacCancerProps } from './zodiac/zodiac-cancer';
@@ -3178,19 +3133,6 @@ export { ZodiacTaurus, ZodiacTaurusMetadata, type ZodiacTaurusProps } from './zo
 export { ZodiacVirgo, ZodiacVirgoMetadata, type ZodiacVirgoProps } from './zodiac/zodiac-virgo';
 
 // Internal imports for allIcons object
-import { AlignBoxBottomCenterFilled, AlignBoxBottomCenterFilledMetadata } from './align/align-box-bottom-center_filled';
-import { AlignBoxBottomLeftFilled, AlignBoxBottomLeftFilledMetadata } from './align/align-box-bottom-left_filled';
-import { AlignBoxBottomRightFilled, AlignBoxBottomRightFilledMetadata } from './align/align-box-bottom-right_filled';
-import { AlignBoxCenterMiddleFilled, AlignBoxCenterMiddleFilledMetadata } from './align/align-box-center-middle_filled';
-import { AlignBoxLeftBottomFilled, AlignBoxLeftBottomFilledMetadata } from './align/align-box-left-bottom_filled';
-import { AlignBoxLeftMiddleFilled, AlignBoxLeftMiddleFilledMetadata } from './align/align-box-left-middle_filled';
-import { AlignBoxLeftTopFilled, AlignBoxLeftTopFilledMetadata } from './align/align-box-left-top_filled';
-import { AlignBoxRightBottomFilled, AlignBoxRightBottomFilledMetadata } from './align/align-box-right-bottom_filled';
-import { AlignBoxRightMiddleFilled, AlignBoxRightMiddleFilledMetadata } from './align/align-box-right-middle_filled';
-import { AlignBoxRightTopFilled, AlignBoxRightTopFilledMetadata } from './align/align-box-right-top_filled';
-import { AlignBoxTopCenterFilled, AlignBoxTopCenterFilledMetadata } from './align/align-box-top-center_filled';
-import { AlignBoxTopLeftFilled, AlignBoxTopLeftFilledMetadata } from './align/align-box-top-left_filled';
-import { AlignBoxTopRightFilled, AlignBoxTopRightFilledMetadata } from './align/align-box-top-right_filled';
 import { AlignCenterHorizontal, AlignCenterHorizontalMetadata } from './align/align-center-horizontal';
 import { AlignCenterVertical, AlignCenterVerticalMetadata } from './align/align-center-vertical';
 import { AlignEndHorizontal, AlignEndHorizontalMetadata } from './align/align-end-horizontal';
@@ -3232,88 +3174,102 @@ import { Turtle, TurtleMetadata } from './animal/turtle';
 import { Worm, WormMetadata } from './animal/worm';
 import { AppWindowMac, AppWindowMacMetadata } from './app/app-window-mac';
 import { AppWindow, AppWindowMetadata } from './app/app-window';
-import { Battery1Filled, Battery1FilledMetadata } from './app/battery-1_filled';
-import { Battery2Filled, Battery2FilledMetadata } from './app/battery-2_filled';
-import { Battery3Filled, Battery3FilledMetadata } from './app/battery-3_filled';
-import { Battery4Filled, Battery4FilledMetadata } from './app/battery-4_filled';
-import { BatteryAutomotiveFilled, BatteryAutomotiveFilledMetadata } from './app/battery-automotive_filled';
+import { ArchiveAddRounded, ArchiveAddRoundedMetadata } from './app/archive-add_rounded';
+import { ArchiveMinusRounded, ArchiveMinusRoundedMetadata } from './app/archive-minus_rounded';
+import { ArchiveSlashRounded, ArchiveSlashRoundedMetadata } from './app/archive-slash_rounded';
+import { ArchiveTickRounded, ArchiveTickRoundedMetadata } from './app/archive-tick_rounded';
 import { BatteryCharging, BatteryChargingMetadata } from './app/battery-charging';
 import { BatteryFull, BatteryFullMetadata } from './app/battery-full';
 import { BatteryLow, BatteryLowMetadata } from './app/battery-low';
 import { BatteryMedium, BatteryMediumMetadata } from './app/battery-medium';
 import { BatteryPlus, BatteryPlusMetadata } from './app/battery-plus';
-import { BatteryVertical1Filled, BatteryVertical1FilledMetadata } from './app/battery-vertical-1_filled';
-import { BatteryVertical2Filled, BatteryVertical2FilledMetadata } from './app/battery-vertical-2_filled';
-import { BatteryVertical3Filled, BatteryVertical3FilledMetadata } from './app/battery-vertical-3_filled';
-import { BatteryVertical4Filled, BatteryVertical4FilledMetadata } from './app/battery-vertical-4_filled';
-import { BatteryVerticalFilled, BatteryVerticalFilledMetadata } from './app/battery-vertical_filled';
 import { BatteryWarning, BatteryWarningMetadata } from './app/battery-warning';
 import { Battery, BatteryMetadata } from './app/battery';
-import { BatteryFilled, BatteryFilledMetadata } from './app/battery_filled';
 import { BluetoothConnected, BluetoothConnectedMetadata } from './app/bluetooth-connected';
 import { BluetoothOff, BluetoothOffMetadata } from './app/bluetooth-off';
 import { BluetoothSearching, BluetoothSearchingMetadata } from './app/bluetooth-searching';
 import { Bluetooth, BluetoothMetadata } from './app/bluetooth';
+import { BookSavedRounded, BookSavedRoundedMetadata } from './app/book-saved_rounded';
+import { BookSquareRounded, BookSquareRoundedMetadata } from './app/book-square_rounded';
 import { BotMessageSquare, BotMessageSquareMetadata } from './app/bot-message-square';
 import { BotOff, BotOffMetadata } from './app/bot-off';
 import { Bot, BotMetadata } from './app/bot';
 import { BugOff, BugOffMetadata } from './app/bug-off';
 import { BugPlay, BugPlayMetadata } from './app/bug-play';
 import { Bug, BugMetadata } from './app/bug';
+import { Candle2Rounded, Candle2RoundedMetadata } from './app/candle-2_rounded';
+import { CandleRounded, CandleRoundedMetadata } from './app/candle_rounded';
+import { Category2Rounded, Category2RoundedMetadata } from './app/category-2_rounded';
+import { CategoryRounded, CategoryRoundedMetadata } from './app/category_rounded';
 import { Cog, CogMetadata } from './app/cog';
 import { DatabaseBackup, DatabaseBackupMetadata } from './app/database-backup';
 import { DatabaseSearch, DatabaseSearchMetadata } from './app/database-search';
 import { DatabaseZap, DatabaseZapMetadata } from './app/database-zap';
 import { Database, DatabaseMetadata } from './app/database';
+import { FrameRounded, FrameRoundedMetadata } from './app/frame_rounded';
+import { MenuRounded, MenuRoundedMetadata } from './app/menu_rounded';
+import { More2Rounded, More2RoundedMetadata } from './app/more-2_rounded';
+import { MoreRounded, MoreRoundedMetadata } from './app/more_rounded';
+import { ReceiptSquareRounded, ReceiptSquareRoundedMetadata } from './app/receipt-square_rounded';
+import { Save2Rounded, Save2RoundedMetadata } from './app/save-2_rounded';
+import { SaveAddRounded, SaveAddRoundedMetadata } from './app/save-add_rounded';
+import { SaveMinusRounded, SaveMinusRoundedMetadata } from './app/save-minus_rounded';
+import { SaveRemoveRounded, SaveRemoveRoundedMetadata } from './app/save-remove_rounded';
+import { SearchFavorite1Rounded, SearchFavorite1RoundedMetadata } from './app/search-favorite-1_rounded';
+import { SearchFavoriteRounded, SearchFavoriteRoundedMetadata } from './app/search-favorite_rounded';
+import { SearchNormal1Rounded, SearchNormal1RoundedMetadata } from './app/search-normal-1_rounded';
+import { SearchNormalRounded, SearchNormalRoundedMetadata } from './app/search-normal_rounded';
+import { SearchStatus1Rounded, SearchStatus1RoundedMetadata } from './app/search-status-1_rounded';
+import { SearchStatusRounded, SearchStatusRoundedMetadata } from './app/search-status_rounded';
+import { SearchZoomIn1Rounded, SearchZoomIn1RoundedMetadata } from './app/search-zoom-in-1_rounded';
+import { SearchZoomInRounded, SearchZoomInRoundedMetadata } from './app/search-zoom-in_rounded';
+import { SearchZoomOut1Rounded, SearchZoomOut1RoundedMetadata } from './app/search-zoom-out-1_rounded';
+import { SearchZoomOutRounded, SearchZoomOutRoundedMetadata } from './app/search-zoom-out_rounded';
+import { Setting2Rounded, Setting2RoundedMetadata } from './app/setting-2_rounded';
+import { Setting3Rounded, Setting3RoundedMetadata } from './app/setting-3_rounded';
+import { Setting4Rounded, Setting4RoundedMetadata } from './app/setting-4_rounded';
+import { Setting5Rounded, Setting5RoundedMetadata } from './app/setting-5_rounded';
+import { SettingRounded, SettingRoundedMetadata } from './app/setting_rounded';
+import { SettingsRounded, SettingsRoundedMetadata } from './app/settings_rounded';
+import { ToggleOffCircleRounded, ToggleOffCircleRoundedMetadata } from './app/toggle-off-circle_rounded';
+import { ToggleOffRounded, ToggleOffRoundedMetadata } from './app/toggle-off_rounded';
+import { ToggleOnCircleRounded, ToggleOnCircleRoundedMetadata } from './app/toggle-on-circle_rounded';
+import { ToggleOnRounded, ToggleOnRoundedMetadata } from './app/toggle-on_rounded';
 import { WalletCards, WalletCardsMetadata } from './app/wallet-cards';
 import { WalletMinimal, WalletMinimalMetadata } from './app/wallet-minimal';
 import { Wallet, WalletMetadata } from './app/wallet';
 import { Ad, AdMetadata } from './arrows/ad';
-import { ArrowAutofitContentFilled, ArrowAutofitContentFilledMetadata } from './arrows/arrow-autofit-content_filled';
-import { ArrowAutofitDownFilled, ArrowAutofitDownFilledMetadata } from './arrows/arrow-autofit-down_filled';
-import { ArrowAutofitHeightFilled, ArrowAutofitHeightFilledMetadata } from './arrows/arrow-autofit-height_filled';
-import { ArrowAutofitLeftFilled, ArrowAutofitLeftFilledMetadata } from './arrows/arrow-autofit-left_filled';
-import { ArrowAutofitRightFilled, ArrowAutofitRightFilledMetadata } from './arrows/arrow-autofit-right_filled';
-import { ArrowAutofitUpFilled, ArrowAutofitUpFilledMetadata } from './arrows/arrow-autofit-up_filled';
-import { ArrowAutofitWidthFilled, ArrowAutofitWidthFilledMetadata } from './arrows/arrow-autofit-width_filled';
-import { ArrowBadgeDownFilled, ArrowBadgeDownFilledMetadata } from './arrows/arrow-badge-down_filled';
-import { ArrowBadgeLeftFilled, ArrowBadgeLeftFilledMetadata } from './arrows/arrow-badge-left_filled';
-import { ArrowBadgeRightFilled, ArrowBadgeRightFilledMetadata } from './arrows/arrow-badge-right_filled';
-import { ArrowBadgeUpFilled, ArrowBadgeUpFilledMetadata } from './arrows/arrow-badge-up_filled';
+import { ArrangeCircle2Rounded, ArrangeCircle2RoundedMetadata } from './arrows/arrange-circle-2_rounded';
+import { ArrangeCircleRounded, ArrangeCircleRoundedMetadata } from './arrows/arrange-circle_rounded';
+import { ArrangeSquare2Rounded, ArrangeSquare2RoundedMetadata } from './arrows/arrange-square-2_rounded';
+import { ArrangeSquareRounded, ArrangeSquareRoundedMetadata } from './arrows/arrange-square_rounded';
+import { Arrow2Rounded, Arrow2RoundedMetadata } from './arrows/arrow-2_rounded';
+import { Arrow3Rounded, Arrow3RoundedMetadata } from './arrows/arrow-3_rounded';
 import { ArrowBigDownDash, ArrowBigDownDashMetadata } from './arrows/arrow-big-down-dash';
-import { ArrowBigDownLineFilled, ArrowBigDownLineFilledMetadata } from './arrows/arrow-big-down-line_filled';
-import { ArrowBigDownLinesFilled, ArrowBigDownLinesFilledMetadata } from './arrows/arrow-big-down-lines_filled';
 import { ArrowBigDown, ArrowBigDownMetadata } from './arrows/arrow-big-down';
-import { ArrowBigDownFilled, ArrowBigDownFilledMetadata } from './arrows/arrow-big-down_filled';
 import { ArrowBigLeftDash, ArrowBigLeftDashMetadata } from './arrows/arrow-big-left-dash';
-import { ArrowBigLeftLineFilled, ArrowBigLeftLineFilledMetadata } from './arrows/arrow-big-left-line_filled';
-import { ArrowBigLeftLinesFilled, ArrowBigLeftLinesFilledMetadata } from './arrows/arrow-big-left-lines_filled';
 import { ArrowBigLeft, ArrowBigLeftMetadata } from './arrows/arrow-big-left';
-import { ArrowBigLeftFilled, ArrowBigLeftFilledMetadata } from './arrows/arrow-big-left_filled';
 import { ArrowBigRightDash, ArrowBigRightDashMetadata } from './arrows/arrow-big-right-dash';
-import { ArrowBigRightLineFilled, ArrowBigRightLineFilledMetadata } from './arrows/arrow-big-right-line_filled';
-import { ArrowBigRightLinesFilled, ArrowBigRightLinesFilledMetadata } from './arrows/arrow-big-right-lines_filled';
 import { ArrowBigRight, ArrowBigRightMetadata } from './arrows/arrow-big-right';
-import { ArrowBigRightFilled, ArrowBigRightFilledMetadata } from './arrows/arrow-big-right_filled';
 import { ArrowBigUpDash, ArrowBigUpDashMetadata } from './arrows/arrow-big-up-dash';
-import { ArrowBigUpLineFilled, ArrowBigUpLineFilledMetadata } from './arrows/arrow-big-up-line_filled';
-import { ArrowBigUpLinesFilled, ArrowBigUpLinesFilledMetadata } from './arrows/arrow-big-up-lines_filled';
 import { ArrowBigUp, ArrowBigUpMetadata } from './arrows/arrow-big-up';
-import { ArrowBigUpFilled, ArrowBigUpFilledMetadata } from './arrows/arrow-big-up_filled';
+import { ArrowBottomRounded, ArrowBottomRoundedMetadata } from './arrows/arrow-bottom_rounded';
 import { ArrowCircleDownDoodle, ArrowCircleDownDoodleMetadata } from './arrows/arrow-circle-down_doodle';
+import { ArrowCircleDownRounded, ArrowCircleDownRoundedMetadata } from './arrows/arrow-circle-down_rounded';
 import { ArrowCircleLeftDoodle, ArrowCircleLeftDoodleMetadata } from './arrows/arrow-circle-left_doodle';
+import { ArrowCircleLeftRounded, ArrowCircleLeftRoundedMetadata } from './arrows/arrow-circle-left_rounded';
 import { ArrowCircleRightDoodle, ArrowCircleRightDoodleMetadata } from './arrows/arrow-circle-right_doodle';
+import { ArrowCircleRightRounded, ArrowCircleRightRoundedMetadata } from './arrows/arrow-circle-right_rounded';
 import { ArrowCircleUpDoodle, ArrowCircleUpDoodleMetadata } from './arrows/arrow-circle-up_doodle';
 import { ArrowDown01, ArrowDown01Metadata } from './arrows/arrow-down-0-1';
 import { ArrowDown10, ArrowDown10Metadata } from './arrows/arrow-down-1-0';
+import { ArrowDown1Rounded, ArrowDown1RoundedMetadata } from './arrows/arrow-down-1_rounded';
+import { ArrowDown2Rounded, ArrowDown2RoundedMetadata } from './arrows/arrow-down-2_rounded';
 import { ArrowDownAZ, ArrowDownAZMetadata } from './arrows/arrow-down-a-z';
-import { ArrowDownCircleFilled, ArrowDownCircleFilledMetadata } from './arrows/arrow-down-circle_filled';
 import { ArrowDownFromLine, ArrowDownFromLineMetadata } from './arrows/arrow-down-from-line';
 import { ArrowDownLeft, ArrowDownLeftMetadata } from './arrows/arrow-down-left';
 import { ArrowDownNarrowWide, ArrowDownNarrowWideMetadata } from './arrows/arrow-down-narrow-wide';
-import { ArrowDownRhombusFilled, ArrowDownRhombusFilledMetadata } from './arrows/arrow-down-rhombus_filled';
 import { ArrowDownRight, ArrowDownRightMetadata } from './arrows/arrow-down-right';
-import { ArrowDownSquareFilled, ArrowDownSquareFilledMetadata } from './arrows/arrow-down-square_filled';
 import { ArrowDownToDot, ArrowDownToDotMetadata } from './arrows/arrow-down-to-dot';
 import { ArrowDownToLine, ArrowDownToLineMetadata } from './arrows/arrow-down-to-line';
 import { ArrowDownUp, ArrowDownUpMetadata } from './arrows/arrow-down-up';
@@ -3321,57 +3277,62 @@ import { ArrowDownWideNarrow, ArrowDownWideNarrowMetadata } from './arrows/arrow
 import { ArrowDownZA, ArrowDownZAMetadata } from './arrows/arrow-down-z-a';
 import { ArrowDown, ArrowDownMetadata } from './arrows/arrow-down';
 import { ArrowDownDoodle, ArrowDownDoodleMetadata } from './arrows/arrow-down_doodle';
-import { ArrowGuideFilled, ArrowGuideFilledMetadata } from './arrows/arrow-guide_filled';
-import { ArrowLeftCircleFilled, ArrowLeftCircleFilledMetadata } from './arrows/arrow-left-circle_filled';
+import { ArrowDownRounded, ArrowDownRoundedMetadata } from './arrows/arrow-down_rounded';
+import { ArrowLeft1Rounded, ArrowLeft1RoundedMetadata } from './arrows/arrow-left-1_rounded';
+import { ArrowLeft2Rounded, ArrowLeft2RoundedMetadata } from './arrows/arrow-left-2_rounded';
+import { ArrowLeft3Rounded, ArrowLeft3RoundedMetadata } from './arrows/arrow-left-3_rounded';
 import { ArrowLeftFromLine, ArrowLeftFromLineMetadata } from './arrows/arrow-left-from-line';
-import { ArrowLeftRhombusFilled, ArrowLeftRhombusFilledMetadata } from './arrows/arrow-left-rhombus_filled';
 import { ArrowLeftRight, ArrowLeftRightMetadata } from './arrows/arrow-left-right';
-import { ArrowLeftSquareFilled, ArrowLeftSquareFilledMetadata } from './arrows/arrow-left-square_filled';
 import { ArrowLeftToLine, ArrowLeftToLineMetadata } from './arrows/arrow-left-to-line';
 import { ArrowLeft, ArrowLeftMetadata } from './arrows/arrow-left';
 import { ArrowLeftDoodle, ArrowLeftDoodleMetadata } from './arrows/arrow-left_doodle';
-import { ArrowMoveDownFilled, ArrowMoveDownFilledMetadata } from './arrows/arrow-move-down_filled';
-import { ArrowMoveLeftFilled, ArrowMoveLeftFilledMetadata } from './arrows/arrow-move-left_filled';
-import { ArrowMoveRightFilled, ArrowMoveRightFilledMetadata } from './arrows/arrow-move-right_filled';
-import { ArrowMoveUpFilled, ArrowMoveUpFilledMetadata } from './arrows/arrow-move-up_filled';
+import { ArrowLeftRounded, ArrowLeftRoundedMetadata } from './arrows/arrow-left_rounded';
 import { ArrowNeDoodle, ArrowNeDoodleMetadata } from './arrows/arrow-ne_doodle';
 import { ArrowNwDoodle, ArrowNwDoodleMetadata } from './arrows/arrow-nw_doodle';
-import { ArrowRightCircleFilled, ArrowRightCircleFilledMetadata } from './arrows/arrow-right-circle_filled';
+import { ArrowRight1Rounded, ArrowRight1RoundedMetadata } from './arrows/arrow-right-1_rounded';
+import { ArrowRight2Rounded, ArrowRight2RoundedMetadata } from './arrows/arrow-right-2_rounded';
+import { ArrowRight3Rounded, ArrowRight3RoundedMetadata } from './arrows/arrow-right-3_rounded';
 import { ArrowRightFromLine, ArrowRightFromLineMetadata } from './arrows/arrow-right-from-line';
 import { ArrowRightLeft, ArrowRightLeftMetadata } from './arrows/arrow-right-left';
-import { ArrowRightRhombusFilled, ArrowRightRhombusFilledMetadata } from './arrows/arrow-right-rhombus_filled';
-import { ArrowRightSquareFilled, ArrowRightSquareFilledMetadata } from './arrows/arrow-right-square_filled';
 import { ArrowRightToLine, ArrowRightToLineMetadata } from './arrows/arrow-right-to-line';
 import { ArrowRight, ArrowRightMetadata } from './arrows/arrow-right';
 import { ArrowRightDoodle, ArrowRightDoodleMetadata } from './arrows/arrow-right_doodle';
+import { ArrowRightRounded, ArrowRightRoundedMetadata } from './arrows/arrow-right_rounded';
 import { ArrowSeDoodle, ArrowSeDoodleMetadata } from './arrows/arrow-se_doodle';
 import { ArrowSingleDownDoodle, ArrowSingleDownDoodleMetadata } from './arrows/arrow-single-down_doodle';
 import { ArrowSingleLeftDoodle, ArrowSingleLeftDoodleMetadata } from './arrows/arrow-single-left_doodle';
 import { ArrowSingleRightDoodle, ArrowSingleRightDoodleMetadata } from './arrows/arrow-single-right_doodle';
 import { ArrowSingleUpDoodle, ArrowSingleUpDoodleMetadata } from './arrows/arrow-single-up_doodle';
 import { ArrowSquareDownDoodle, ArrowSquareDownDoodleMetadata } from './arrows/arrow-square-down_doodle';
+import { ArrowSquareDownRounded, ArrowSquareDownRoundedMetadata } from './arrows/arrow-square-down_rounded';
 import { ArrowSquareLeftDoodle, ArrowSquareLeftDoodleMetadata } from './arrows/arrow-square-left_doodle';
+import { ArrowSquareLeftRounded, ArrowSquareLeftRoundedMetadata } from './arrows/arrow-square-left_rounded';
 import { ArrowSquareRightDoodle, ArrowSquareRightDoodleMetadata } from './arrows/arrow-square-right_doodle';
+import { ArrowSquareRightRounded, ArrowSquareRightRoundedMetadata } from './arrows/arrow-square-right_rounded';
 import { ArrowSquareUpDoodle, ArrowSquareUpDoodleMetadata } from './arrows/arrow-square-up_doodle';
+import { ArrowSquareUpRounded, ArrowSquareUpRoundedMetadata } from './arrows/arrow-square-up_rounded';
 import { ArrowSwDoodle, ArrowSwDoodleMetadata } from './arrows/arrow-sw_doodle';
+import { ArrowSwapHorizontalRounded, ArrowSwapHorizontalRoundedMetadata } from './arrows/arrow-swap-horizontal_rounded';
 import { ArrowUp01, ArrowUp01Metadata } from './arrows/arrow-up-0-1';
 import { ArrowUp10, ArrowUp10Metadata } from './arrows/arrow-up-1-0';
+import { ArrowUp1Rounded, ArrowUp1RoundedMetadata } from './arrows/arrow-up-1_rounded';
+import { ArrowUp2Rounded, ArrowUp2RoundedMetadata } from './arrows/arrow-up-2_rounded';
+import { ArrowUp3Rounded, ArrowUp3RoundedMetadata } from './arrows/arrow-up-3_rounded';
 import { ArrowUpAZ, ArrowUpAZMetadata } from './arrows/arrow-up-a-z';
-import { ArrowUpCircleFilled, ArrowUpCircleFilledMetadata } from './arrows/arrow-up-circle_filled';
 import { ArrowUpDown, ArrowUpDownMetadata } from './arrows/arrow-up-down';
 import { ArrowUpFromDot, ArrowUpFromDotMetadata } from './arrows/arrow-up-from-dot';
 import { ArrowUpFromLine, ArrowUpFromLineMetadata } from './arrows/arrow-up-from-line';
 import { ArrowUpLeft, ArrowUpLeftMetadata } from './arrows/arrow-up-left';
 import { ArrowUpNarrowWide, ArrowUpNarrowWideMetadata } from './arrows/arrow-up-narrow-wide';
-import { ArrowUpRhombusFilled, ArrowUpRhombusFilledMetadata } from './arrows/arrow-up-rhombus_filled';
 import { ArrowUpRight, ArrowUpRightMetadata } from './arrows/arrow-up-right';
-import { ArrowUpSquareFilled, ArrowUpSquareFilledMetadata } from './arrows/arrow-up-square_filled';
 import { ArrowUpToLine, ArrowUpToLineMetadata } from './arrows/arrow-up-to-line';
 import { ArrowUpWideNarrow, ArrowUpWideNarrowMetadata } from './arrows/arrow-up-wide-narrow';
 import { ArrowUpZA, ArrowUpZAMetadata } from './arrows/arrow-up-z-a';
 import { ArrowUp, ArrowUpMetadata } from './arrows/arrow-up';
 import { ArrowUpDoodle, ArrowUpDoodleMetadata } from './arrows/arrow-up_doodle';
+import { ArrowUpRounded, ArrowUpRoundedMetadata } from './arrows/arrow-up_rounded';
 import { ArrowsUpFromLine, ArrowsUpFromLineMetadata } from './arrows/arrows-up-from-line';
+import { BackSquareRounded, BackSquareRoundedMetadata } from './arrows/back-square_rounded';
 import { ChevronDown, ChevronDownMetadata } from './arrows/chevron-down';
 import { ChevronFirst, ChevronFirstMetadata } from './arrows/chevron-first';
 import { ChevronLast, ChevronLastMetadata } from './arrows/chevron-last';
@@ -3391,6 +3352,7 @@ import { ChevronsRightDoodle, ChevronsRightDoodleMetadata } from './arrows/chevr
 import { ChevronsUpDown, ChevronsUpDownMetadata } from './arrows/chevrons-up-down';
 import { ChevronsUp, ChevronsUpMetadata } from './arrows/chevrons-up';
 import { ChevronsUpDoodle, ChevronsUpDoodleMetadata } from './arrows/chevrons-up_doodle';
+import { ConvertRounded, ConvertRoundedMetadata } from './arrows/convert_rounded';
 import { CornerDownLeft, CornerDownLeftMetadata } from './arrows/corner-down-left';
 import { CornerDownRight, CornerDownRightMetadata } from './arrows/corner-down-right';
 import { CornerLeftDown, CornerLeftDownMetadata } from './arrows/corner-left-down';
@@ -3401,6 +3363,20 @@ import { CornerUpLeft, CornerUpLeftMetadata } from './arrows/corner-up-left';
 import { CornerUpRight, CornerUpRightMetadata } from './arrows/corner-up-right';
 import { DecimalsArrowLeft, DecimalsArrowLeftMetadata } from './arrows/decimals-arrow-left';
 import { DecimalsArrowRight, DecimalsArrowRightMetadata } from './arrows/decimals-arrow-right';
+import { Export1Rounded, Export1RoundedMetadata } from './arrows/export-1_rounded';
+import { Export2Rounded, Export2RoundedMetadata } from './arrows/export-2_rounded';
+import { Export3Rounded, Export3RoundedMetadata } from './arrows/export-3_rounded';
+import { ExportRounded, ExportRoundedMetadata } from './arrows/export_rounded';
+import { ForwardSquareRounded, ForwardSquareRoundedMetadata } from './arrows/forward-square_rounded';
+import { Frame1Rounded, Frame1RoundedMetadata } from './arrows/frame-1_rounded';
+import { Frame2Rounded, Frame2RoundedMetadata } from './arrows/frame-2_rounded';
+import { Import1Rounded, Import1RoundedMetadata } from './arrows/import-1_rounded';
+import { Import2Rounded, Import2RoundedMetadata } from './arrows/import-2_rounded';
+import { ImportRounded, ImportRoundedMetadata } from './arrows/import_rounded';
+import { Login1Rounded, Login1RoundedMetadata } from './arrows/login-1_rounded';
+import { LoginRounded, LoginRoundedMetadata } from './arrows/login_rounded';
+import { Logout1Rounded, Logout1RoundedMetadata } from './arrows/logout-1_rounded';
+import { LogoutRounded, LogoutRoundedMetadata } from './arrows/logout_rounded';
 import { Move3d, Move3dMetadata } from './arrows/move-3d';
 import { MoveDiagonal2, MoveDiagonal2Metadata } from './arrows/move-diagonal-2';
 import { MoveDiagonal, MoveDiagonalMetadata } from './arrows/move-diagonal';
@@ -3415,27 +3391,38 @@ import { MoveUpRight, MoveUpRightMetadata } from './arrows/move-up-right';
 import { MoveUp, MoveUpMetadata } from './arrows/move-up';
 import { MoveVertical, MoveVerticalMetadata } from './arrows/move-vertical';
 import { Move, MoveMetadata } from './arrows/move';
+import { ReceiveSquare2Rounded, ReceiveSquare2RoundedMetadata } from './arrows/receive-square-2_rounded';
+import { ReceiveSquareRounded, ReceiveSquareRoundedMetadata } from './arrows/receive-square_rounded';
+import { ReceivedRounded, ReceivedRoundedMetadata } from './arrows/received_rounded';
 import { Redo2, Redo2Metadata } from './arrows/redo-2';
 import { RedoDot, RedoDotMetadata } from './arrows/redo-dot';
 import { Redo, RedoMetadata } from './arrows/redo';
+import { RedoRounded, RedoRoundedMetadata } from './arrows/redo_rounded';
+import { Refresh2Rounded, Refresh2RoundedMetadata } from './arrows/refresh-2_rounded';
+import { RefreshCircleRounded, RefreshCircleRoundedMetadata } from './arrows/refresh-circle_rounded';
+import { RefreshLeftSquareRounded, RefreshLeftSquareRoundedMetadata } from './arrows/refresh-left-square_rounded';
+import { RefreshRightSquareRounded, RefreshRightSquareRoundedMetadata } from './arrows/refresh-right-square_rounded';
+import { RefreshSquare2Rounded, RefreshSquare2RoundedMetadata } from './arrows/refresh-square-2_rounded';
+import { RefreshRounded, RefreshRoundedMetadata } from './arrows/refresh_rounded';
+import { RepeatCircleRounded, RepeatCircleRoundedMetadata } from './arrows/repeat-circle_rounded';
+import { RepeatRounded, RepeatRoundedMetadata } from './arrows/repeat_rounded';
+import { RotateLeftRounded, RotateLeftRoundedMetadata } from './arrows/rotate-left_rounded';
+import { RotateRightRounded, RotateRightRoundedMetadata } from './arrows/rotate-right_rounded';
+import { SendSqaure2Rounded, SendSqaure2RoundedMetadata } from './arrows/send-sqaure-2_rounded';
+import { SendSquareRounded, SendSquareRoundedMetadata } from './arrows/send-square_rounded';
+import { SendRounded, SendRoundedMetadata } from './arrows/send_rounded';
 import { TrendingDown, TrendingDownMetadata } from './arrows/trending-down';
 import { TrendingUpDown, TrendingUpDownMetadata } from './arrows/trending-up-down';
 import { TrendingUp, TrendingUpMetadata } from './arrows/trending-up';
 import { Undo2, Undo2Metadata } from './arrows/undo-2';
 import { UndoDot, UndoDotMetadata } from './arrows/undo-dot';
 import { Undo, UndoMetadata } from './arrows/undo';
-import { Badge3dFilled, Badge3dFilledMetadata } from './badge/badge-3d_filled';
-import { Badge4kFilled, Badge4kFilledMetadata } from './badge/badge-4k_filled';
-import { Badge8kFilled, Badge8kFilledMetadata } from './badge/badge-8k_filled';
-import { BadgeAdFilled, BadgeAdFilledMetadata } from './badge/badge-ad_filled';
+import { UndoRounded, UndoRoundedMetadata } from './arrows/undo_rounded';
 import { BadgeAlert, BadgeAlertMetadata } from './badge/badge-alert';
-import { BadgeArFilled, BadgeArFilledMetadata } from './badge/badge-ar_filled';
-import { BadgeCcFilled, BadgeCcFilledMetadata } from './badge/badge-cc_filled';
 import { BadgeCent, BadgeCentMetadata } from './badge/badge-cent';
 import { BadgeCheck, BadgeCheckMetadata } from './badge/badge-check';
 import { BadgeDollarSign, BadgeDollarSignMetadata } from './badge/badge-dollar-sign';
 import { BadgeEuro, BadgeEuroMetadata } from './badge/badge-euro';
-import { BadgeHdFilled, BadgeHdFilledMetadata } from './badge/badge-hd_filled';
 import { BadgeIndianRupee, BadgeIndianRupeeMetadata } from './badge/badge-indian-rupee';
 import { BadgeInfo, BadgeInfoMetadata } from './badge/badge-info';
 import { BadgeJapaneseYen, BadgeJapaneseYenMetadata } from './badge/badge-japanese-yen';
@@ -3445,17 +3432,10 @@ import { BadgePlus, BadgePlusMetadata } from './badge/badge-plus';
 import { BadgePoundSterling, BadgePoundSterlingMetadata } from './badge/badge-pound-sterling';
 import { BadgeQuestionMark, BadgeQuestionMarkMetadata } from './badge/badge-question-mark';
 import { BadgeRussianRuble, BadgeRussianRubleMetadata } from './badge/badge-russian-ruble';
-import { BadgeSdFilled, BadgeSdFilledMetadata } from './badge/badge-sd_filled';
 import { BadgeSwissFranc, BadgeSwissFrancMetadata } from './badge/badge-swiss-franc';
-import { BadgeTmFilled, BadgeTmFilledMetadata } from './badge/badge-tm_filled';
 import { BadgeTurkishLira, BadgeTurkishLiraMetadata } from './badge/badge-turkish-lira';
-import { BadgeVoFilled, BadgeVoFilledMetadata } from './badge/badge-vo_filled';
-import { BadgeVrFilled, BadgeVrFilledMetadata } from './badge/badge-vr_filled';
-import { BadgeWcFilled, BadgeWcFilledMetadata } from './badge/badge-wc_filled';
 import { BadgeX, BadgeXMetadata } from './badge/badge-x';
 import { Badge, BadgeMetadata } from './badge/badge';
-import { BadgeFilled, BadgeFilledMetadata } from './badge/badge_filled';
-import { BadgesFilled, BadgesFilledMetadata } from './badge/badges_filled';
 import { BookA, BookAMetadata } from './book/book-a';
 import { BookAlert, BookAlertMetadata } from './book/book-alert';
 import { BookAudio, BookAudioMetadata } from './book/book-audio';
@@ -3495,135 +3475,230 @@ import { NotebookText, NotebookTextMetadata } from './book/notebook-text';
 import { Notebook, NotebookMetadata } from './book/notebook';
 import { NotepadTextDashed, NotepadTextDashedMetadata } from './book/notepad-text-dashed';
 import { NotepadText, NotepadTextMetadata } from './book/notepad-text';
+import { AaveAaveRounded, AaveAaveRoundedMetadata } from './brand/aave-aave_rounded';
+import { AndroidRounded, AndroidRoundedMetadata } from './brand/android_rounded';
+import { AnkrAnkrRounded, AnkrAnkrRoundedMetadata } from './brand/ankr-ankr_rounded';
 import { AppleDoodle, AppleDoodleMetadata } from './brand/apple_doodle';
+import { AppleRounded, AppleRoundedMetadata } from './brand/apple_rounded';
+import { AugurRepRounded, AugurRepRoundedMetadata } from './brand/augur-rep_rounded';
+import { AutonioNioxRounded, AutonioNioxRoundedMetadata } from './brand/autonio-niox_rounded';
+import { AvalancheAvaxRounded, AvalancheAvaxRoundedMetadata } from './brand/avalanche-avax_rounded';
+import { BeRounded, BeRoundedMetadata } from './brand/be_rounded';
 import { BehanceDoodle, BehanceDoodleMetadata } from './brand/behance_doodle';
-import { BrandAngularFilled, BrandAngularFilledMetadata } from './brand/brand-angular_filled';
-import { BrandAppleFilled, BrandAppleFilledMetadata } from './brand/brand-apple_filled';
-import { BrandBitbucketFilled, BrandBitbucketFilledMetadata } from './brand/brand-bitbucket_filled';
-import { BrandDiscordFilled, BrandDiscordFilledMetadata } from './brand/brand-discord_filled';
-import { BrandDribbbleFilled, BrandDribbbleFilledMetadata } from './brand/brand-dribbble_filled';
-import { BrandFacebookFilled, BrandFacebookFilledMetadata } from './brand/brand-facebook_filled';
-import { BrandGithubFilled, BrandGithubFilledMetadata } from './brand/brand-github_filled';
-import { BrandGoogleFilled, BrandGoogleFilledMetadata } from './brand/brand-google_filled';
-import { BrandInstagramFilled, BrandInstagramFilledMetadata } from './brand/brand-instagram_filled';
-import { BrandKickFilled, BrandKickFilledMetadata } from './brand/brand-kick_filled';
-import { BrandLinkedinFilled, BrandLinkedinFilledMetadata } from './brand/brand-linkedin_filled';
-import { BrandMessengerFilled, BrandMessengerFilledMetadata } from './brand/brand-messenger_filled';
-import { BrandOpenSourceFilled, BrandOpenSourceFilledMetadata } from './brand/brand-open-source_filled';
-import { BrandOperaFilled, BrandOperaFilledMetadata } from './brand/brand-opera_filled';
-import { BrandPatreonFilled, BrandPatreonFilledMetadata } from './brand/brand-patreon_filled';
-import { BrandPaypalFilled, BrandPaypalFilledMetadata } from './brand/brand-paypal_filled';
-import { BrandPinterestFilled, BrandPinterestFilledMetadata } from './brand/brand-pinterest_filled';
-import { BrandSketchFilled, BrandSketchFilledMetadata } from './brand/brand-sketch_filled';
-import { BrandSnapchatFilled, BrandSnapchatFilledMetadata } from './brand/brand-snapchat_filled';
-import { BrandSpotifyFilled, BrandSpotifyFilledMetadata } from './brand/brand-spotify_filled';
-import { BrandSteamFilled, BrandSteamFilledMetadata } from './brand/brand-steam_filled';
-import { BrandStripeFilled, BrandStripeFilledMetadata } from './brand/brand-stripe_filled';
-import { BrandTablerFilled, BrandTablerFilledMetadata } from './brand/brand-tabler_filled';
-import { BrandTiktokFilled, BrandTiktokFilledMetadata } from './brand/brand-tiktok_filled';
-import { BrandTinderFilled, BrandTinderFilledMetadata } from './brand/brand-tinder_filled';
-import { BrandTumblrFilled, BrandTumblrFilledMetadata } from './brand/brand-tumblr_filled';
-import { BrandTwitterFilled, BrandTwitterFilledMetadata } from './brand/brand-twitter_filled';
-import { BrandVercelFilled, BrandVercelFilledMetadata } from './brand/brand-vercel_filled';
-import { BrandVimeoFilled, BrandVimeoFilledMetadata } from './brand/brand-vimeo_filled';
-import { BrandWeiboFilled, BrandWeiboFilledMetadata } from './brand/brand-weibo_filled';
-import { BrandWhatsappFilled, BrandWhatsappFilledMetadata } from './brand/brand-whatsapp_filled';
-import { BrandWindowsFilled, BrandWindowsFilledMetadata } from './brand/brand-windows_filled';
-import { BrandXFilled, BrandXFilledMetadata } from './brand/brand-x_filled';
-import { BrandYoutubeFilled, BrandYoutubeFilledMetadata } from './brand/brand-youtube_filled';
+import { BinanceCoinBnbRounded, BinanceCoinBnbRoundedMetadata } from './brand/binance-coin-bnb_rounded';
+import { BinanceUsdBusdRounded, BinanceUsdBusdRoundedMetadata } from './brand/binance-usd-busd_rounded';
+import { BitcoinBtcRounded, BitcoinBtcRoundedMetadata } from './brand/bitcoin-btc_rounded';
+import { BloggerRounded, BloggerRoundedMetadata } from './brand/blogger_rounded';
+import { BootsrapRounded, BootsrapRoundedMetadata } from './brand/bootsrap_rounded';
+import { CardanoAdaRounded, CardanoAdaRoundedMetadata } from './brand/cardano-ada_rounded';
+import { CeloCeloRounded, CeloCeloRoundedMetadata } from './brand/celo-celo_rounded';
+import { CelsiusCelRounded, CelsiusCelRoundedMetadata } from './brand/celsius-cel-_rounded';
+import { ChainlinkLinkRounded, ChainlinkLinkRoundedMetadata } from './brand/chainlink-link_rounded';
+import { CivicCvcRounded, CivicCvcRoundedMetadata } from './brand/civic-cvc_rounded';
 import { CodepenDoodle, CodepenDoodleMetadata } from './brand/codepen_doodle';
+import { DaiDaiRounded, DaiDaiRoundedMetadata } from './brand/dai-dai_rounded';
+import { DashDashRounded, DashDashRoundedMetadata } from './brand/dash-dash_rounded';
+import { DecredDcrRounded, DecredDcrRoundedMetadata } from './brand/decred-dcr_rounded';
+import { DentDentRounded, DentDentRoundedMetadata } from './brand/dent-dent_rounded';
 import { DribbbleDoodle, DribbbleDoodleMetadata } from './brand/dribbble_doodle';
+import { DribbbleRounded, DribbbleRoundedMetadata } from './brand/dribbble_rounded';
 import { DropboxDoodle, DropboxDoodleMetadata } from './brand/dropbox_doodle';
+import { DropboxRounded, DropboxRoundedMetadata } from './brand/dropbox_rounded';
+import { EducareEktRounded, EducareEktRoundedMetadata } from './brand/educare-ekt_rounded';
+import { EmercoinEmcRounded, EmercoinEmcRoundedMetadata } from './brand/emercoin-emc_rounded';
+import { EnjinCoinEnjRounded, EnjinCoinEnjRoundedMetadata } from './brand/enjin-coin-enj_rounded';
+import { EosEosRounded, EosEosRoundedMetadata } from './brand/eos-eos_rounded';
+import { EthereumClassicEtcRounded, EthereumClassicEtcRoundedMetadata } from './brand/ethereum-classic-etc_rounded';
+import { EthereumEthRounded, EthereumEthRoundedMetadata } from './brand/ethereum-eth_rounded';
 import { Facebook2Doodle, Facebook2DoodleMetadata } from './brand/facebook-2_doodle';
 import { FacebookDoodle, FacebookDoodleMetadata } from './brand/facebook_doodle';
+import { FacebookRounded, FacebookRoundedMetadata } from './brand/facebook_rounded';
 import { FbMessengerDoodle, FbMessengerDoodleMetadata } from './brand/fb-messenger_doodle';
+import { Figma1Rounded, Figma1RoundedMetadata } from './brand/figma-1_rounded';
+import { FigmaRounded, FigmaRoundedMetadata } from './brand/figma_rounded';
+import { FramerRounded, FramerRoundedMetadata } from './brand/framer_rounded';
+import { FtxTokenFttRounded, FtxTokenFttRoundedMetadata } from './brand/ftx-token-ftt_rounded';
+import { Google1Rounded, Google1RoundedMetadata } from './brand/google-1_rounded';
+import { GooglePlayRounded, GooglePlayRoundedMetadata } from './brand/google-play_rounded';
 import { GoogleDoodle, GoogleDoodleMetadata } from './brand/google_doodle';
+import { GoogleRounded, GoogleRoundedMetadata } from './brand/google_rounded';
+import { HarmonyOneRounded, HarmonyOneRoundedMetadata } from './brand/harmony-one_rounded';
+import { HederaHashgraphHbarRounded, HederaHashgraphHbarRoundedMetadata } from './brand/hedera-hashgraph-hbar_rounded';
+import { HexHexRounded, HexHexRoundedMetadata } from './brand/hex-hex_rounded';
+import { Html3Rounded, Html3RoundedMetadata } from './brand/html-3_rounded';
+import { Html5Rounded, Html5RoundedMetadata } from './brand/html-5_rounded';
+import { HuobiTokenHtRounded, HuobiTokenHtRoundedMetadata } from './brand/huobi-token-ht_rounded';
+import { IconIcxRounded, IconIcxRoundedMetadata } from './brand/icon-icx_rounded';
+import { IllustratorRounded, IllustratorRoundedMetadata } from './brand/illustrator_rounded';
 import { InstagramDoodle, InstagramDoodleMetadata } from './brand/instagram_doodle';
+import { IostIostRounded, IostIostRoundedMetadata } from './brand/iost-iost_rounded';
+import { JavaScriptRounded, JavaScriptRoundedMetadata } from './brand/java-script_rounded';
+import { JsRounded, JsRoundedMetadata } from './brand/js_rounded';
+import { KyberNetworkKncRounded, KyberNetworkKncRoundedMetadata } from './brand/kyber-network-knc_rounded';
 import { LinkedinDoodle, LinkedinDoodleMetadata } from './brand/linkedin_doodle';
+import { LitecoinltcRounded, LitecoinltcRoundedMetadata } from './brand/litecoinltc_rounded';
+import { MakerMkrRounded, MakerMkrRoundedMetadata } from './brand/maker-mkr_rounded';
+import { MessengerRounded, MessengerRoundedMetadata } from './brand/messenger_rounded';
+import { MoneroXmrRounded, MoneroXmrRoundedMetadata } from './brand/monero-xmr_rounded';
+import { NebulasNasRounded, NebulasNasRoundedMetadata } from './brand/nebulas-nas_rounded';
+import { NemXemRounded, NemXemRoundedMetadata } from './brand/nem-xem_rounded';
+import { NexoNexoRounded, NexoNexoRoundedMetadata } from './brand/nexo-nexo_rounded';
+import { OceanProtocolOceanRounded, OceanProtocolOceanRoundedMetadata } from './brand/ocean-protocol-ocean_rounded';
+import { OkbOkbRounded, OkbOkbRoundedMetadata } from './brand/okb-okb_rounded';
+import { OntologyOntRounded, OntologyOntRoundedMetadata } from './brand/ontology-ont_rounded';
 import { PaypalDoodle, PaypalDoodleMetadata } from './brand/paypal_doodle';
+import { PaypalRounded, PaypalRoundedMetadata } from './brand/paypal_rounded';
+import { PhotoshopRounded, PhotoshopRoundedMetadata } from './brand/photoshop_rounded';
 import { PinterestDoodle, PinterestDoodleMetadata } from './brand/pinterest_doodle';
+import { PolkadotDotRounded, PolkadotDotRoundedMetadata } from './brand/polkadot-dot_rounded';
+import { PolygonMaticRounded, PolygonMaticRoundedMetadata } from './brand/polygon-matic_rounded';
+import { PolyswarmNctRounded, PolyswarmNctRoundedMetadata } from './brand/polyswarm-nct_rounded';
 import { ProductHuntDoodle, ProductHuntDoodleMetadata } from './brand/product-hunt_doodle';
+import { PythonRounded, PythonRoundedMetadata } from './brand/python_rounded';
+import { QuantQntRounded, QuantQntRoundedMetadata } from './brand/quant-qnt_rounded';
+import { SiacoinScRounded, SiacoinScRoundedMetadata } from './brand/siacoin-sc_rounded';
 import { SkypeDoodle, SkypeDoodleMetadata } from './brand/skype_doodle';
+import { SlackRounded, SlackRoundedMetadata } from './brand/slack_rounded';
 import { SnapchatDoodle, SnapchatDoodleMetadata } from './brand/snapchat_doodle';
+import { SnapchatRounded, SnapchatRoundedMetadata } from './brand/snapchat_rounded';
+import { SolanaSolRounded, SolanaSolRoundedMetadata } from './brand/solana-sol_rounded';
 import { SpotifyDoodle, SpotifyDoodleMetadata } from './brand/spotify_doodle';
+import { SpotifyRounded, SpotifyRoundedMetadata } from './brand/spotify_rounded';
+import { StacksStxRounded, StacksStxRoundedMetadata } from './brand/stacks-stx_rounded';
+import { StellarXlmRounded, StellarXlmRoundedMetadata } from './brand/stellar-xlm_rounded';
+import { TenxPayRounded, TenxPayRoundedMetadata } from './brand/tenx-pay_rounded';
+import { TetherUsdtRounded, TetherUsdtRoundedMetadata } from './brand/tether-usdt_rounded';
+import { TheGraphGrtRounded, TheGraphGrtRoundedMetadata } from './brand/the-graph-grt_rounded';
+import { ThetaThetaRounded, ThetaThetaRoundedMetadata } from './brand/theta-theta_rounded';
+import { ThorchainRuneRounded, ThorchainRuneRoundedMetadata } from './brand/thorchain-rune_rounded';
 import { TikTokDoodle, TikTokDoodleMetadata } from './brand/tik-tok_doodle';
+import { TrelloRounded, TrelloRoundedMetadata } from './brand/trello_rounded';
+import { TriangleRounded, TriangleRoundedMetadata } from './brand/triangle_rounded';
+import { TrontronTrxRounded, TrontronTrxRoundedMetadata } from './brand/trontron-trx_rounded';
 import { TumblrDoodle, TumblrDoodleMetadata } from './brand/tumblr_doodle';
 import { TwitchDoodle, TwitchDoodleMetadata } from './brand/twitch_doodle';
+import { TwitchRounded, TwitchRoundedMetadata } from './brand/twitch_rounded';
 import { TwitterDoodle, TwitterDoodleMetadata } from './brand/twitter_doodle';
 import { UberDoodle, UberDoodleMetadata } from './brand/uber_doodle';
+import { Ui8Rounded, Ui8RoundedMetadata } from './brand/ui8_rounded';
+import { UsdCoinUsdcRounded, UsdCoinUsdcRoundedMetadata } from './brand/usd-coin-usdc_rounded';
+import { VelasVlxRounded, VelasVlxRoundedMetadata } from './brand/velas-vlx_rounded';
+import { VibeVibeRounded, VibeVibeRoundedMetadata } from './brand/vibe-vibe_rounded';
+import { VuesaxRounded, VuesaxRoundedMetadata } from './brand/vuesax_rounded';
+import { WanchainWan1Rounded, WanchainWan1RoundedMetadata } from './brand/wanchain-wan-1_rounded';
+import { WanchainWanRounded, WanchainWanRoundedMetadata } from './brand/wanchain-wan_rounded';
 import { WebflowDoodle, WebflowDoodleMetadata } from './brand/webflow_doodle';
 import { WhatsappDoodle, WhatsappDoodleMetadata } from './brand/whatsapp_doodle';
+import { WhatsappRounded, WhatsappRoundedMetadata } from './brand/whatsapp_rounded';
 import { WindowsDoodle, WindowsDoodleMetadata } from './brand/windows_doodle';
+import { WindowsRounded, WindowsRoundedMetadata } from './brand/windows_rounded';
+import { WingWingRounded, WingWingRoundedMetadata } from './brand/wing-wing_rounded';
+import { XdRounded, XdRoundedMetadata } from './brand/xd_rounded';
+import { XiaomiRounded, XiaomiRoundedMetadata } from './brand/xiaomi_rounded';
+import { XrpXrpRounded, XrpXrpRoundedMetadata } from './brand/xrp-xrp_rounded';
 import { YCombinatorDoodle, YCombinatorDoodleMetadata } from './brand/y-combinator_doodle';
 import { YoutubeDoodle, YoutubeDoodleMetadata } from './brand/youtube_doodle';
+import { YoutubeRounded, YoutubeRoundedMetadata } from './brand/youtube_rounded';
+import { ZelZelRounded, ZelZelRoundedMetadata } from './brand/zel-zel_rounded';
+import { ZoomRounded, ZoomRoundedMetadata } from './brand/zoom_rounded';
+import { BankRounded, BankRoundedMetadata } from './building/bank_rounded';
 import { Building2, Building2Metadata } from './building/building-2';
+import { Building3Rounded, Building3RoundedMetadata } from './building/building-3_rounded';
+import { Building4Rounded, Building4RoundedMetadata } from './building/building-4_rounded';
 import { Building, BuildingMetadata } from './building/building';
+import { BuildingRounded, BuildingRoundedMetadata } from './building/building_rounded';
+import { Buildings2Rounded, Buildings2RoundedMetadata } from './building/buildings-2_rounded';
+import { BuildingsRounded, BuildingsRoundedMetadata } from './building/buildings_rounded';
+import { BulidingRounded, BulidingRoundedMetadata } from './building/buliding_rounded';
 import { Castle, CastleMetadata } from './building/castle';
 import { Church, ChurchMetadata } from './building/church';
+import { CourthouseRounded, CourthouseRoundedMetadata } from './building/courthouse_rounded';
 import { Factory, FactoryMetadata } from './building/factory';
 import { Hospital, HospitalMetadata } from './building/hospital';
+import { HospitalRounded, HospitalRoundedMetadata } from './building/hospital_rounded';
 import { Hotel, HotelMetadata } from './building/hotel';
+import { House2Rounded, House2RoundedMetadata } from './building/house-2_rounded';
 import { HouseHeart, HouseHeartMetadata } from './building/house-heart';
 import { HousePlug, HousePlugMetadata } from './building/house-plug';
 import { HousePlus, HousePlusMetadata } from './building/house-plus';
 import { HouseWifi, HouseWifiMetadata } from './building/house-wifi';
 import { House, HouseMetadata } from './building/house';
+import { HouseRounded, HouseRoundedMetadata } from './building/house_rounded';
 import { Landmark, LandmarkMetadata } from './building/landmark';
 import { School, SchoolMetadata } from './building/school';
 import { Store, StoreMetadata } from './building/store';
 import { TentTree, TentTreeMetadata } from './building/tent-tree';
 import { Tent, TentMetadata } from './building/tent';
 import { University, UniversityMetadata } from './building/university';
-import { CalculatorFilled, CalculatorFilledMetadata } from './calendar/calculator_filled';
+import { ActivityRounded, ActivityRoundedMetadata } from './business/activity_rounded';
+import { Chart1Rounded, Chart1RoundedMetadata } from './business/chart-1_rounded';
+import { Chart21Rounded, Chart21RoundedMetadata } from './business/chart-21_rounded';
+import { Chart2Rounded, Chart2RoundedMetadata } from './business/chart-2_rounded';
+import { ChartSuccessRounded, ChartSuccessRoundedMetadata } from './business/chart-success_rounded';
+import { ChartRounded, ChartRoundedMetadata } from './business/chart_rounded';
+import { DiagramRounded, DiagramRoundedMetadata } from './business/diagram_rounded';
+import { FavoriteChartRounded, FavoriteChartRoundedMetadata } from './business/favorite-chart_rounded';
+import { GraphRounded, GraphRoundedMetadata } from './business/graph_rounded';
+import { HashtagRounded, HashtagRoundedMetadata } from './business/hashtag_rounded';
+import { HealthRounded, HealthRoundedMetadata } from './business/health_rounded';
+import { HomeHashtagRounded, HomeHashtagRoundedMetadata } from './business/home-hashtag_rounded';
+import { HomeTrendDownRounded, HomeTrendDownRoundedMetadata } from './business/home-trend-down_rounded';
+import { HomeTrendUpRounded, HomeTrendUpRoundedMetadata } from './business/home-trend-up_rounded';
+import { PersonalcardRounded, PersonalcardRoundedMetadata } from './business/personalcard_rounded';
+import { PresentionChartRounded, PresentionChartRoundedMetadata } from './business/presention-chart_rounded';
+import { StatusUpRounded, StatusUpRoundedMetadata } from './business/status-up_rounded';
+import { TrendDownRounded, TrendDownRoundedMetadata } from './business/trend-down_rounded';
+import { TrendUpRounded, TrendUpRoundedMetadata } from './business/trend-up_rounded';
 import { Calendar1, Calendar1Metadata } from './calendar/calendar-1';
+import { Calendar1Rounded, Calendar1RoundedMetadata } from './calendar/calendar-1_rounded';
+import { Calendar2Rounded, Calendar2RoundedMetadata } from './calendar/calendar-2_rounded';
+import { CalendarAddRounded, CalendarAddRoundedMetadata } from './calendar/calendar-add_rounded';
 import { CalendarArrowDown, CalendarArrowDownMetadata } from './calendar/calendar-arrow-down';
 import { CalendarArrowUp, CalendarArrowUpMetadata } from './calendar/calendar-arrow-up';
 import { CalendarCheck2, CalendarCheck2Metadata } from './calendar/calendar-check-2';
 import { CalendarCheck, CalendarCheckMetadata } from './calendar/calendar-check';
+import { CalendarCircleRounded, CalendarCircleRoundedMetadata } from './calendar/calendar-circle_rounded';
 import { CalendarClock, CalendarClockMetadata } from './calendar/calendar-clock';
 import { CalendarCog, CalendarCogMetadata } from './calendar/calendar-cog';
 import { CalendarDays, CalendarDaysMetadata } from './calendar/calendar-days';
-import { CalendarEventFilled, CalendarEventFilledMetadata } from './calendar/calendar-event_filled';
+import { CalendarEditRounded, CalendarEditRoundedMetadata } from './calendar/calendar-edit_rounded';
 import { CalendarFold, CalendarFoldMetadata } from './calendar/calendar-fold';
 import { CalendarHeart, CalendarHeartMetadata } from './calendar/calendar-heart';
 import { CalendarMinus2, CalendarMinus2Metadata } from './calendar/calendar-minus-2';
 import { CalendarMinus, CalendarMinusMetadata } from './calendar/calendar-minus';
-import { CalendarMonthFilled, CalendarMonthFilledMetadata } from './calendar/calendar-month_filled';
 import { CalendarOff, CalendarOffMetadata } from './calendar/calendar-off';
 import { CalendarPlus2, CalendarPlus2Metadata } from './calendar/calendar-plus-2';
 import { CalendarPlus, CalendarPlusMetadata } from './calendar/calendar-plus';
 import { CalendarRange, CalendarRangeMetadata } from './calendar/calendar-range';
+import { CalendarRemoveRounded, CalendarRemoveRoundedMetadata } from './calendar/calendar-remove_rounded';
 import { CalendarSearch, CalendarSearchMetadata } from './calendar/calendar-search';
+import { CalendarSearchRounded, CalendarSearchRoundedMetadata } from './calendar/calendar-search_rounded';
 import { CalendarSync, CalendarSyncMetadata } from './calendar/calendar-sync';
-import { CalendarWeekFilled, CalendarWeekFilledMetadata } from './calendar/calendar-week_filled';
+import { CalendarTickRounded, CalendarTickRoundedMetadata } from './calendar/calendar-tick_rounded';
 import { CalendarX2, CalendarX2Metadata } from './calendar/calendar-x-2';
 import { CalendarX, CalendarXMetadata } from './calendar/calendar-x';
 import { Calendar, CalendarMetadata } from './calendar/calendar';
-import { CalendarFilled, CalendarFilledMetadata } from './calendar/calendar_filled';
+import { CalendarRounded, CalendarRoundedMetadata } from './calendar/calendar_rounded';
 import { Calendars, CalendarsMetadata } from './calendar/calendars';
-import { ChartAreaLineFilled, ChartAreaLineFilledMetadata } from './chart/chart-area-line_filled';
+import { ClockRounded, ClockRoundedMetadata } from './calendar/clock_rounded';
+import { SecurityTimeRounded, SecurityTimeRoundedMetadata } from './calendar/security-time_rounded';
+import { Timer1Rounded, Timer1RoundedMetadata } from './calendar/timer-1_rounded';
+import { TimerPauseRounded, TimerPauseRoundedMetadata } from './calendar/timer-pause_rounded';
+import { TimerStartRounded, TimerStartRoundedMetadata } from './calendar/timer-start_rounded';
+import { TimerRounded, TimerRoundedMetadata } from './calendar/timer_rounded';
 import { ChartArea, ChartAreaMetadata } from './chart/chart-area';
-import { ChartAreaFilled, ChartAreaFilledMetadata } from './chart/chart-area_filled';
 import { ChartBarBig, ChartBarBigMetadata } from './chart/chart-bar-big';
 import { ChartBarDecreasing, ChartBarDecreasingMetadata } from './chart/chart-bar-decreasing';
 import { ChartBarIncreasing, ChartBarIncreasingMetadata } from './chart/chart-bar-increasing';
 import { ChartBarStacked, ChartBarStackedMetadata } from './chart/chart-bar-stacked';
 import { ChartBar, ChartBarMetadata } from './chart/chart-bar';
-import { ChartBubbleFilled, ChartBubbleFilledMetadata } from './chart/chart-bubble_filled';
-import { ChartCandleFilled, ChartCandleFilledMetadata } from './chart/chart-candle_filled';
 import { ChartCandlestick, ChartCandlestickMetadata } from './chart/chart-candlestick';
 import { ChartColumnBig, ChartColumnBigMetadata } from './chart/chart-column-big';
 import { ChartColumnDecreasing, ChartColumnDecreasingMetadata } from './chart/chart-column-decreasing';
 import { ChartColumnIncreasing, ChartColumnIncreasingMetadata } from './chart/chart-column-increasing';
 import { ChartColumnStacked, ChartColumnStackedMetadata } from './chart/chart-column-stacked';
 import { ChartColumn, ChartColumnMetadata } from './chart/chart-column';
-import { ChartDonutFilled, ChartDonutFilledMetadata } from './chart/chart-donut_filled';
-import { ChartDots2Filled, ChartDots2FilledMetadata } from './chart/chart-dots-2_filled';
-import { ChartDots3Filled, ChartDots3FilledMetadata } from './chart/chart-dots-3_filled';
-import { ChartDotsFilled, ChartDotsFilledMetadata } from './chart/chart-dots_filled';
-import { ChartFunnelFilled, ChartFunnelFilledMetadata } from './chart/chart-funnel_filled';
 import { ChartGantt, ChartGanttMetadata } from './chart/chart-gantt';
-import { ChartGridDotsFilled, ChartGridDotsFilledMetadata } from './chart/chart-grid-dots_filled';
 import { ChartLine, ChartLineMetadata } from './chart/chart-line';
 import { ChartNetwork, ChartNetworkMetadata } from './chart/chart-network';
 import { ChartNoAxesColumnDecreasing, ChartNoAxesColumnDecreasingMetadata } from './chart/chart-no-axes-column-decreasing';
@@ -3631,112 +3706,46 @@ import { ChartNoAxesColumnIncreasing, ChartNoAxesColumnIncreasingMetadata } from
 import { ChartNoAxesColumn, ChartNoAxesColumnMetadata } from './chart/chart-no-axes-column';
 import { ChartNoAxesCombined, ChartNoAxesCombinedMetadata } from './chart/chart-no-axes-combined';
 import { ChartNoAxesGantt, ChartNoAxesGanttMetadata } from './chart/chart-no-axes-gantt';
-import { ChartPie2Filled, ChartPie2FilledMetadata } from './chart/chart-pie-2_filled';
-import { ChartPie3Filled, ChartPie3FilledMetadata } from './chart/chart-pie-3_filled';
-import { ChartPie4Filled, ChartPie4FilledMetadata } from './chart/chart-pie-4_filled';
 import { ChartPie, ChartPieMetadata } from './chart/chart-pie';
-import { ChartPieFilled, ChartPieFilledMetadata } from './chart/chart-pie_filled';
 import { ChartScatter, ChartScatterMetadata } from './chart/chart-scatter';
 import { ChartSpline, ChartSplineMetadata } from './chart/chart-spline';
 import { CircleAlert, CircleAlertMetadata } from './circle/circle-alert';
-import { CircleArrowDownLeftFilled, CircleArrowDownLeftFilledMetadata } from './circle/circle-arrow-down-left_filled';
-import { CircleArrowDownRightFilled, CircleArrowDownRightFilledMetadata } from './circle/circle-arrow-down-right_filled';
 import { CircleArrowDown, CircleArrowDownMetadata } from './circle/circle-arrow-down';
-import { CircleArrowDownFilled, CircleArrowDownFilledMetadata } from './circle/circle-arrow-down_filled';
 import { CircleArrowLeft, CircleArrowLeftMetadata } from './circle/circle-arrow-left';
-import { CircleArrowLeftFilled, CircleArrowLeftFilledMetadata } from './circle/circle-arrow-left_filled';
 import { CircleArrowOutDownLeft, CircleArrowOutDownLeftMetadata } from './circle/circle-arrow-out-down-left';
 import { CircleArrowOutDownRight, CircleArrowOutDownRightMetadata } from './circle/circle-arrow-out-down-right';
 import { CircleArrowOutUpLeft, CircleArrowOutUpLeftMetadata } from './circle/circle-arrow-out-up-left';
 import { CircleArrowOutUpRight, CircleArrowOutUpRightMetadata } from './circle/circle-arrow-out-up-right';
 import { CircleArrowRight, CircleArrowRightMetadata } from './circle/circle-arrow-right';
-import { CircleArrowRightFilled, CircleArrowRightFilledMetadata } from './circle/circle-arrow-right_filled';
-import { CircleArrowUpLeftFilled, CircleArrowUpLeftFilledMetadata } from './circle/circle-arrow-up-left_filled';
-import { CircleArrowUpRightFilled, CircleArrowUpRightFilledMetadata } from './circle/circle-arrow-up-right_filled';
 import { CircleArrowUp, CircleArrowUpMetadata } from './circle/circle-arrow-up';
-import { CircleArrowUpFilled, CircleArrowUpFilledMetadata } from './circle/circle-arrow-up_filled';
-import { CircleCaretDownFilled, CircleCaretDownFilledMetadata } from './circle/circle-caret-down_filled';
-import { CircleCaretLeftFilled, CircleCaretLeftFilledMetadata } from './circle/circle-caret-left_filled';
-import { CircleCaretRightFilled, CircleCaretRightFilledMetadata } from './circle/circle-caret-right_filled';
-import { CircleCaretUpFilled, CircleCaretUpFilledMetadata } from './circle/circle-caret-up_filled';
 import { CircleCheckBig, CircleCheckBigMetadata } from './circle/circle-check-big';
 import { CircleCheck, CircleCheckMetadata } from './circle/circle-check';
-import { CircleCheckFilled, CircleCheckFilledMetadata } from './circle/circle-check_filled';
 import { CircleChevronDown, CircleChevronDownMetadata } from './circle/circle-chevron-down';
-import { CircleChevronDownFilled, CircleChevronDownFilledMetadata } from './circle/circle-chevron-down_filled';
 import { CircleChevronLeft, CircleChevronLeftMetadata } from './circle/circle-chevron-left';
-import { CircleChevronLeftFilled, CircleChevronLeftFilledMetadata } from './circle/circle-chevron-left_filled';
 import { CircleChevronRight, CircleChevronRightMetadata } from './circle/circle-chevron-right';
-import { CircleChevronRightFilled, CircleChevronRightFilledMetadata } from './circle/circle-chevron-right_filled';
 import { CircleChevronUp, CircleChevronUpMetadata } from './circle/circle-chevron-up';
-import { CircleChevronUpFilled, CircleChevronUpFilledMetadata } from './circle/circle-chevron-up_filled';
-import { CircleChevronsDownFilled, CircleChevronsDownFilledMetadata } from './circle/circle-chevrons-down_filled';
-import { CircleChevronsLeftFilled, CircleChevronsLeftFilledMetadata } from './circle/circle-chevrons-left_filled';
-import { CircleChevronsRightFilled, CircleChevronsRightFilledMetadata } from './circle/circle-chevrons-right_filled';
-import { CircleChevronsUpFilled, CircleChevronsUpFilledMetadata } from './circle/circle-chevrons-up_filled';
 import { CircleDashed, CircleDashedMetadata } from './circle/circle-dashed';
 import { CircleDivide, CircleDivideMetadata } from './circle/circle-divide';
 import { CircleDollarSign, CircleDollarSignMetadata } from './circle/circle-dollar-sign';
 import { CircleDotDashed, CircleDotDashedMetadata } from './circle/circle-dot-dashed';
 import { CircleDot, CircleDotMetadata } from './circle/circle-dot';
-import { CircleDotFilled, CircleDotFilledMetadata } from './circle/circle-dot_filled';
 import { CircleEllipsis, CircleEllipsisMetadata } from './circle/circle-ellipsis';
 import { CircleEqual, CircleEqualMetadata } from './circle/circle-equal';
 import { CircleFadingArrowUp, CircleFadingArrowUpMetadata } from './circle/circle-fading-arrow-up';
 import { CircleFadingPlus, CircleFadingPlusMetadata } from './circle/circle-fading-plus';
 import { CircleGauge, CircleGaugeMetadata } from './circle/circle-gauge';
-import { CircleKeyFilled, CircleKeyFilledMetadata } from './circle/circle-key_filled';
-import { CircleLetterAFilled, CircleLetterAFilledMetadata } from './circle/circle-letter-a_filled';
-import { CircleLetterBFilled, CircleLetterBFilledMetadata } from './circle/circle-letter-b_filled';
-import { CircleLetterCFilled, CircleLetterCFilledMetadata } from './circle/circle-letter-c_filled';
-import { CircleLetterDFilled, CircleLetterDFilledMetadata } from './circle/circle-letter-d_filled';
-import { CircleLetterEFilled, CircleLetterEFilledMetadata } from './circle/circle-letter-e_filled';
-import { CircleLetterFFilled, CircleLetterFFilledMetadata } from './circle/circle-letter-f_filled';
-import { CircleLetterGFilled, CircleLetterGFilledMetadata } from './circle/circle-letter-g_filled';
-import { CircleLetterHFilled, CircleLetterHFilledMetadata } from './circle/circle-letter-h_filled';
-import { CircleLetterIFilled, CircleLetterIFilledMetadata } from './circle/circle-letter-i_filled';
-import { CircleLetterJFilled, CircleLetterJFilledMetadata } from './circle/circle-letter-j_filled';
-import { CircleLetterKFilled, CircleLetterKFilledMetadata } from './circle/circle-letter-k_filled';
-import { CircleLetterLFilled, CircleLetterLFilledMetadata } from './circle/circle-letter-l_filled';
-import { CircleLetterMFilled, CircleLetterMFilledMetadata } from './circle/circle-letter-m_filled';
-import { CircleLetterNFilled, CircleLetterNFilledMetadata } from './circle/circle-letter-n_filled';
-import { CircleLetterOFilled, CircleLetterOFilledMetadata } from './circle/circle-letter-o_filled';
-import { CircleLetterPFilled, CircleLetterPFilledMetadata } from './circle/circle-letter-p_filled';
-import { CircleLetterQFilled, CircleLetterQFilledMetadata } from './circle/circle-letter-q_filled';
-import { CircleLetterRFilled, CircleLetterRFilledMetadata } from './circle/circle-letter-r_filled';
-import { CircleLetterSFilled, CircleLetterSFilledMetadata } from './circle/circle-letter-s_filled';
-import { CircleLetterTFilled, CircleLetterTFilledMetadata } from './circle/circle-letter-t_filled';
-import { CircleLetterUFilled, CircleLetterUFilledMetadata } from './circle/circle-letter-u_filled';
-import { CircleLetterVFilled, CircleLetterVFilledMetadata } from './circle/circle-letter-v_filled';
-import { CircleLetterWFilled, CircleLetterWFilledMetadata } from './circle/circle-letter-w_filled';
-import { CircleLetterXFilled, CircleLetterXFilledMetadata } from './circle/circle-letter-x_filled';
-import { CircleLetterYFilled, CircleLetterYFilledMetadata } from './circle/circle-letter-y_filled';
-import { CircleLetterZFilled, CircleLetterZFilledMetadata } from './circle/circle-letter-z_filled';
 import { CircleMinus, CircleMinusMetadata } from './circle/circle-minus';
-import { CircleNumber0Filled, CircleNumber0FilledMetadata } from './circle/circle-number-0_filled';
-import { CircleNumber1Filled, CircleNumber1FilledMetadata } from './circle/circle-number-1_filled';
-import { CircleNumber2Filled, CircleNumber2FilledMetadata } from './circle/circle-number-2_filled';
-import { CircleNumber3Filled, CircleNumber3FilledMetadata } from './circle/circle-number-3_filled';
-import { CircleNumber4Filled, CircleNumber4FilledMetadata } from './circle/circle-number-4_filled';
-import { CircleNumber5Filled, CircleNumber5FilledMetadata } from './circle/circle-number-5_filled';
-import { CircleNumber6Filled, CircleNumber6FilledMetadata } from './circle/circle-number-6_filled';
-import { CircleNumber7Filled, CircleNumber7FilledMetadata } from './circle/circle-number-7_filled';
-import { CircleNumber8Filled, CircleNumber8FilledMetadata } from './circle/circle-number-8_filled';
-import { CircleNumber9Filled, CircleNumber9FilledMetadata } from './circle/circle-number-9_filled';
 import { CircleOff, CircleOffMetadata } from './circle/circle-off';
 import { CircleParkingOff, CircleParkingOffMetadata } from './circle/circle-parking-off';
 import { CircleParking, CircleParkingMetadata } from './circle/circle-parking';
 import { CirclePause, CirclePauseMetadata } from './circle/circle-pause';
 import { CirclePercent, CirclePercentMetadata } from './circle/circle-percent';
-import { CirclePercentageFilled, CirclePercentageFilledMetadata } from './circle/circle-percentage_filled';
 import { CirclePile, CirclePileMetadata } from './circle/circle-pile';
 import { CirclePlay, CirclePlayMetadata } from './circle/circle-play';
 import { CirclePlus, CirclePlusMetadata } from './circle/circle-plus';
-import { CirclePlusFilled, CirclePlusFilledMetadata } from './circle/circle-plus_filled';
 import { CirclePoundSterling, CirclePoundSterlingMetadata } from './circle/circle-pound-sterling';
 import { CirclePower, CirclePowerMetadata } from './circle/circle-power';
 import { CircleQuestionMark, CircleQuestionMarkMetadata } from './circle/circle-question-mark';
-import { CircleRectangleFilled, CircleRectangleFilledMetadata } from './circle/circle-rectangle_filled';
 import { CircleSlash2, CircleSlash2Metadata } from './circle/circle-slash-2';
 import { CircleSlash, CircleSlashMetadata } from './circle/circle-slash';
 import { CircleSmall, CircleSmallMetadata } from './circle/circle-small';
@@ -3745,31 +3754,19 @@ import { CircleStop, CircleStopMetadata } from './circle/circle-stop';
 import { CircleUserRound, CircleUserRoundMetadata } from './circle/circle-user-round';
 import { CircleUser, CircleUserMetadata } from './circle/circle-user';
 import { CircleX, CircleXMetadata } from './circle/circle-x';
-import { CircleXFilled, CircleXFilledMetadata } from './circle/circle-x_filled';
 import { Circle, CircleMetadata } from './circle/circle';
-import { CircleFilled, CircleFilledMetadata } from './circle/circle_filled';
-import { CirclesFilled, CirclesFilledMetadata } from './circle/circles_filled';
 import { ClipboardCheck, ClipboardCheckMetadata } from './clipboard/clipboard-check';
-import { ClipboardCheckFilled, ClipboardCheckFilledMetadata } from './clipboard/clipboard-check_filled';
 import { ClipboardClock, ClipboardClockMetadata } from './clipboard/clipboard-clock';
 import { ClipboardCopy, ClipboardCopyMetadata } from './clipboard/clipboard-copy';
-import { ClipboardDataFilled, ClipboardDataFilledMetadata } from './clipboard/clipboard-data_filled';
 import { ClipboardList, ClipboardListMetadata } from './clipboard/clipboard-list';
-import { ClipboardListFilled, ClipboardListFilledMetadata } from './clipboard/clipboard-list_filled';
 import { ClipboardMinus, ClipboardMinusMetadata } from './clipboard/clipboard-minus';
 import { ClipboardPaste, ClipboardPasteMetadata } from './clipboard/clipboard-paste';
 import { ClipboardPenLine, ClipboardPenLineMetadata } from './clipboard/clipboard-pen-line';
 import { ClipboardPen, ClipboardPenMetadata } from './clipboard/clipboard-pen';
 import { ClipboardPlus, ClipboardPlusMetadata } from './clipboard/clipboard-plus';
-import { ClipboardPlusFilled, ClipboardPlusFilledMetadata } from './clipboard/clipboard-plus_filled';
-import { ClipboardSmileFilled, ClipboardSmileFilledMetadata } from './clipboard/clipboard-smile_filled';
-import { ClipboardTextFilled, ClipboardTextFilledMetadata } from './clipboard/clipboard-text_filled';
 import { ClipboardType, ClipboardTypeMetadata } from './clipboard/clipboard-type';
-import { ClipboardTypographyFilled, ClipboardTypographyFilledMetadata } from './clipboard/clipboard-typography_filled';
 import { ClipboardX, ClipboardXMetadata } from './clipboard/clipboard-x';
-import { ClipboardXFilled, ClipboardXFilledMetadata } from './clipboard/clipboard-x_filled';
 import { Clipboard, ClipboardMetadata } from './clipboard/clipboard';
-import { ClipboardFilled, ClipboardFilledMetadata } from './clipboard/clipboard_filled';
 import { CopyCheck, CopyCheckMetadata } from './clipboard/copy-check';
 import { CopyMinus, CopyMinusMetadata } from './clipboard/copy-minus';
 import { CopyPlus, CopyPlusMetadata } from './clipboard/copy-plus';
@@ -3816,50 +3813,127 @@ import { CloudSync, CloudSyncMetadata } from './cloud/cloud-sync';
 import { CloudUpload, CloudUploadMetadata } from './cloud/cloud-upload';
 import { Cloud, CloudMetadata } from './cloud/cloud';
 import { Cloudy, CloudyMetadata } from './cloud/cloudy';
+import { Code1Rounded, Code1RoundedMetadata } from './code/code-1_rounded';
+import { CodeCircleRounded, CodeCircleRoundedMetadata } from './code/code-circle_rounded';
 import { CodeXml, CodeXmlMetadata } from './code/code-xml';
 import { Code, CodeMetadata } from './code/code';
+import { CodeRounded, CodeRoundedMetadata } from './code/code_rounded';
 import { Codepen, CodepenMetadata } from './code/codepen';
 import { Codesandbox, CodesandboxMetadata } from './code/codesandbox';
+import { CommandSquareRounded, CommandSquareRoundedMetadata } from './code/command-square_rounded';
+import { CommandRounded, CommandRoundedMetadata } from './code/command_rounded';
 import { Component, ComponentMetadata } from './code/component';
+import { Data2Rounded, Data2RoundedMetadata } from './code/data-2_rounded';
+import { DataRounded, DataRoundedMetadata } from './code/data_rounded';
+import { DocumentCode2Rounded, DocumentCode2RoundedMetadata } from './code/document-code-2_rounded';
+import { DocumentCodeRounded, DocumentCodeRoundedMetadata } from './code/document-code_rounded';
+import { GitBranchMinus, GitBranchMinusMetadata } from './code/git-branch-minus';
+import { GitBranchPlus, GitBranchPlusMetadata } from './code/git-branch-plus';
+import { GitBranch, GitBranchMetadata } from './code/git-branch';
+import { GitCommitHorizontal, GitCommitHorizontalMetadata } from './code/git-commit-horizontal';
+import { GitCommitVertical, GitCommitVerticalMetadata } from './code/git-commit-vertical';
+import { GitCompareArrows, GitCompareArrowsMetadata } from './code/git-compare-arrows';
+import { GitCompare, GitCompareMetadata } from './code/git-compare';
+import { GitFork, GitForkMetadata } from './code/git-fork';
+import { GitGraph, GitGraphMetadata } from './code/git-graph';
+import { GitMergeConflict, GitMergeConflictMetadata } from './code/git-merge-conflict';
+import { GitMerge, GitMergeMetadata } from './code/git-merge';
+import { GitPullRequestArrow, GitPullRequestArrowMetadata } from './code/git-pull-request-arrow';
+import { GitPullRequestClosed, GitPullRequestClosedMetadata } from './code/git-pull-request-closed';
+import { GitPullRequestCreateArrow, GitPullRequestCreateArrowMetadata } from './code/git-pull-request-create-arrow';
+import { GitPullRequestCreate, GitPullRequestCreateMetadata } from './code/git-pull-request-create';
+import { GitPullRequestDraft, GitPullRequestDraftMetadata } from './code/git-pull-request-draft';
+import { GitPullRequest, GitPullRequestMetadata } from './code/git-pull-request';
+import { HashtagDownRounded, HashtagDownRoundedMetadata } from './code/hashtag-down_rounded';
+import { HashtagUpRounded, HashtagUpRoundedMetadata } from './code/hashtag-up_rounded';
+import { Hierarchy2Rounded, Hierarchy2RoundedMetadata } from './code/hierarchy-2_rounded';
+import { Hierarchy3Rounded, Hierarchy3RoundedMetadata } from './code/hierarchy-3_rounded';
+import { HierarchySquare2Rounded, HierarchySquare2RoundedMetadata } from './code/hierarchy-square-2_rounded';
+import { HierarchySquare3Rounded, HierarchySquare3RoundedMetadata } from './code/hierarchy-square-3_rounded';
+import { HierarchySquareRounded, HierarchySquareRoundedMetadata } from './code/hierarchy-square_rounded';
+import { HierarchyRounded, HierarchyRoundedMetadata } from './code/hierarchy_rounded';
+import { MessageProgrammingRounded, MessageProgrammingRoundedMetadata } from './code/message-programming_rounded';
+import { MobileProgrammingRounded, MobileProgrammingRoundedMetadata } from './code/mobile-programming_rounded';
+import { ProgrammingArrowRounded, ProgrammingArrowRoundedMetadata } from './code/programming-arrow_rounded';
+import { ProgrammingArrowsRounded, ProgrammingArrowsRoundedMetadata } from './code/programming-arrows_rounded';
+import { ScrollRounded, ScrollRoundedMetadata } from './code/scroll_rounded';
+import { SidebarBottomRounded, SidebarBottomRoundedMetadata } from './code/sidebar-bottom_rounded';
+import { SidebarLeftRounded, SidebarLeftRoundedMetadata } from './code/sidebar-left_rounded';
+import { SidebarRightRounded, SidebarRightRoundedMetadata } from './code/sidebar-right_rounded';
+import { SidebarTopRounded, SidebarTopRoundedMetadata } from './code/sidebar-top_rounded';
 import { Bag2Doodle, Bag2DoodleMetadata } from './commerce/bag-2_doodle';
+import { Bag2Rounded, Bag2RoundedMetadata } from './commerce/bag-2_rounded';
+import { BagCross1Rounded, BagCross1RoundedMetadata } from './commerce/bag-cross-1_rounded';
+import { BagCrossRounded, BagCrossRoundedMetadata } from './commerce/bag-cross_rounded';
+import { BagHappyRounded, BagHappyRoundedMetadata } from './commerce/bag-happy_rounded';
+import { BagTick2Rounded, BagTick2RoundedMetadata } from './commerce/bag-tick-2_rounded';
+import { BagTickRounded, BagTickRoundedMetadata } from './commerce/bag-tick_rounded';
+import { BagTimerRounded, BagTimerRoundedMetadata } from './commerce/bag-timer_rounded';
 import { BagDoodle, BagDoodleMetadata } from './commerce/bag_doodle';
+import { BagRounded, BagRoundedMetadata } from './commerce/bag_rounded';
+import { BarcodeRounded, BarcodeRoundedMetadata } from './commerce/barcode_rounded';
 import { BasketDoodle, BasketDoodleMetadata } from './commerce/basket_doodle';
+import { Box1Rounded, Box1RoundedMetadata } from './commerce/box-1_rounded';
 import { Box2Doodle, Box2DoodleMetadata } from './commerce/box-2_doodle';
+import { BoxAddRounded, BoxAddRoundedMetadata } from './commerce/box-add_rounded';
+import { BoxRemoveRounded, BoxRemoveRoundedMetadata } from './commerce/box-remove_rounded';
+import { BoxSearchRounded, BoxSearchRoundedMetadata } from './commerce/box-search_rounded';
+import { BoxTickRounded, BoxTickRoundedMetadata } from './commerce/box-tick_rounded';
+import { BoxTimeRounded, BoxTimeRoundedMetadata } from './commerce/box-time_rounded';
 import { BoxDoodle, BoxDoodleMetadata } from './commerce/box_doodle';
+import { BoxRounded, BoxRoundedMetadata } from './commerce/box_rounded';
 import { Card2Doodle, Card2DoodleMetadata } from './commerce/card-2_doodle';
 import { Card3Doodle, Card3DoodleMetadata } from './commerce/card-3_doodle';
 import { CardDoodle, CardDoodleMetadata } from './commerce/card_doodle';
 import { CartAddDoodle, CartAddDoodleMetadata } from './commerce/cart-add_doodle';
 import { CartDeleteDoodle, CartDeleteDoodleMetadata } from './commerce/cart-delete_doodle';
 import { CartRemoveDoodle, CartRemoveDoodleMetadata } from './commerce/cart-remove_doodle';
+import { Convert3dCubeRounded, Convert3dCubeRoundedMetadata } from './commerce/convert-3d-cube_rounded';
 import { ConveyorBeltDoodle, ConveyorBeltDoodleMetadata } from './commerce/conveyor-belt_doodle';
+import { CubeScanRounded, CubeScanRoundedMetadata } from './commerce/cube-scan_rounded';
 import { FactoryDoodle, FactoryDoodleMetadata } from './commerce/factory_doodle';
+import { Group1Rounded, Group1RoundedMetadata } from './commerce/group-1_rounded';
+import { GroupRounded, GroupRoundedMetadata } from './commerce/group_rounded';
 import { HandTruckDoodle, HandTruckDoodleMetadata } from './commerce/hand-truck_doodle';
 import { LocationDoodle, LocationDoodleMetadata } from './commerce/location_doodle';
 import { OfferDoodle, OfferDoodleMetadata } from './commerce/offer_doodle';
 import { QrDoodle, QrDoodleMetadata } from './commerce/qr_doodle';
+import { RotateRounded, RotateRoundedMetadata } from './commerce/rotate_rounded';
 import { SaleDoodle, SaleDoodleMetadata } from './commerce/sale_doodle';
+import { ShopAddRounded, ShopAddRoundedMetadata } from './commerce/shop-add_rounded';
+import { ShopRemoveRounded, ShopRemoveRoundedMetadata } from './commerce/shop-remove_rounded';
 import { ShopDoodle, ShopDoodleMetadata } from './commerce/shop_doodle';
+import { ShopRounded, ShopRoundedMetadata } from './commerce/shop_rounded';
+import { ShoppingBagRounded, ShoppingBagRoundedMetadata } from './commerce/shopping-bag_rounded';
 import { ShoppingCart2Doodle, ShoppingCart2DoodleMetadata } from './commerce/shopping-cart-2_doodle';
 import { ShoppingCart3Doodle, ShoppingCart3DoodleMetadata } from './commerce/shopping-cart-3_doodle';
 import { ShoppingCartDoodle, ShoppingCartDoodleMetadata } from './commerce/shopping-cart_doodle';
+import { ShoppingCartRounded, ShoppingCartRoundedMetadata } from './commerce/shopping-cart_rounded';
+import { SquareRounded, SquareRoundedMetadata } from './commerce/square_rounded';
 import { Tag2Doodle, Tag2DoodleMetadata } from './commerce/tag-2_doodle';
 import { TagDoodle, TagDoodleMetadata } from './commerce/tag_doodle';
+import { TruckRemoveRounded, TruckRemoveRoundedMetadata } from './commerce/truck-remove_rounded';
+import { TruckTickRounded, TruckTickRoundedMetadata } from './commerce/truck-tick_rounded';
+import { TruckTimeRounded, TruckTimeRoundedMetadata } from './commerce/truck-time_rounded';
 import { TruckDoodle, TruckDoodleMetadata } from './commerce/truck_doodle';
 import { UnboxDoodle, UnboxDoodleMetadata } from './commerce/unbox_doodle';
 import { WarehouseDoodle, WarehouseDoodleMetadata } from './commerce/warehouse_doodle';
+import { CallAddRounded, CallAddRoundedMetadata } from './communiccation/call-add_rounded';
+import { CallCallingRounded, CallCallingRoundedMetadata } from './communiccation/call-calling_rounded';
+import { CallIncomingRounded, CallIncomingRoundedMetadata } from './communiccation/call-incoming_rounded';
+import { CallMinusRounded, CallMinusRoundedMetadata } from './communiccation/call-minus_rounded';
+import { CallOutgoingRounded, CallOutgoingRoundedMetadata } from './communiccation/call-outgoing_rounded';
+import { CallReceivedRounded, CallReceivedRoundedMetadata } from './communiccation/call-received_rounded';
+import { CallRemoveRounded, CallRemoveRoundedMetadata } from './communiccation/call-remove_rounded';
+import { CallSlashRounded, CallSlashRoundedMetadata } from './communiccation/call-slash_rounded';
+import { CallRounded, CallRoundedMetadata } from './communiccation/call_rounded';
 import { PhoneCall, PhoneCallMetadata } from './communiccation/phone-call';
-import { PhoneCallFilled, PhoneCallFilledMetadata } from './communiccation/phone-call_filled';
-import { PhoneCallingFilled, PhoneCallingFilledMetadata } from './communiccation/phone-calling_filled';
-import { PhoneCheckFilled, PhoneCheckFilledMetadata } from './communiccation/phone-check_filled';
 import { PhoneForwarded, PhoneForwardedMetadata } from './communiccation/phone-forwarded';
 import { PhoneIncoming, PhoneIncomingMetadata } from './communiccation/phone-incoming';
 import { PhoneMissed, PhoneMissedMetadata } from './communiccation/phone-missed';
 import { PhoneOff, PhoneOffMetadata } from './communiccation/phone-off';
 import { PhoneOutgoing, PhoneOutgoingMetadata } from './communiccation/phone-outgoing';
-import { PhoneXFilled, PhoneXFilledMetadata } from './communiccation/phone-x_filled';
 import { Phone, PhoneMetadata } from './communiccation/phone';
-import { PhoneFilled, PhoneFilledMetadata } from './communiccation/phone_filled';
 import { MouseLeft, MouseLeftMetadata } from './cursor/mouse-left';
 import { MouseOff, MouseOffMetadata } from './cursor/mouse-off';
 import { MousePointer2Off, MousePointer2OffMetadata } from './cursor/mouse-pointer-2-off';
@@ -3871,27 +3945,55 @@ import { MouseRight, MouseRightMetadata } from './cursor/mouse-right';
 import { Mouse, MouseMetadata } from './cursor/mouse';
 import { PointerOff, PointerOffMetadata } from './cursor/pointer-off';
 import { Pointer, PointerMetadata } from './cursor/pointer';
+import { AdditemRounded, AdditemRoundedMetadata } from './design/additem_rounded';
 import { ArchiveRestore, ArchiveRestoreMetadata } from './design/archive-restore';
 import { ArchiveX, ArchiveXMetadata } from './design/archive-x';
 import { Archive, ArchiveMetadata } from './design/archive';
+import { BackwardItem1Rounded, BackwardItem1RoundedMetadata } from './design/backward-item-1_rounded';
+import { BackwardItemRounded, BackwardItemRoundedMetadata } from './design/backward-item_rounded';
+import { Bezier1Rounded, Bezier1RoundedMetadata } from './design/bezier-1_rounded';
+import { BezierRounded, BezierRoundedMetadata } from './design/bezier_rounded';
+import { Blend2Rounded, Blend2RoundedMetadata } from './design/blend-2_rounded';
+import { BlendRounded, BlendRoundedMetadata } from './design/blend_rounded';
+import { Blur1Rounded, Blur1RoundedMetadata } from './design/blur-1_rounded';
+import { BlurRounded, BlurRoundedMetadata } from './design/blur_rounded';
+import { Brush1Rounded, Brush1RoundedMetadata } from './design/brush-1_rounded';
+import { Brush2Rounded, Brush2RoundedMetadata } from './design/brush-2_rounded';
+import { Brush3Rounded, Brush3RoundedMetadata } from './design/brush-3_rounded';
 import { BrushCleaning, BrushCleaningMetadata } from './design/brush-cleaning';
 import { Brush, BrushMetadata } from './design/brush';
+import { BrushRounded, BrushRoundedMetadata } from './design/brush_rounded';
+import { BucketCircle1Rounded, BucketCircle1RoundedMetadata } from './design/bucket-circle-1_rounded';
+import { BucketCircleRounded, BucketCircleRoundedMetadata } from './design/bucket-circle_rounded';
+import { BucketSquare1Rounded, BucketSquare1RoundedMetadata } from './design/bucket-square-1_rounded';
+import { BucketSquareRounded, BucketSquareRoundedMetadata } from './design/bucket-square_rounded';
 import { CheckCheck, CheckCheckMetadata } from './design/check-check';
 import { CheckLine, CheckLineMetadata } from './design/check-line';
 import { Check, CheckMetadata } from './design/check';
+import { ColorSwatchRounded, ColorSwatchRoundedMetadata } from './design/color-swatch_rounded';
+import { ColorfilterRounded, ColorfilterRoundedMetadata } from './design/colorfilter_rounded';
+import { ColorsSquare1Rounded, ColorsSquare1RoundedMetadata } from './design/colors-square-1_rounded';
+import { ColorsSquareRounded, ColorsSquareRoundedMetadata } from './design/colors-square_rounded';
+import { Component1Rounded, Component1RoundedMetadata } from './design/component-1_rounded';
+import { ComponentRounded, ComponentRoundedMetadata } from './design/component_rounded';
 import { Contrast, ContrastMetadata } from './design/contrast';
-import { Crop11Filled, Crop11FilledMetadata } from './design/crop-1-1_filled';
-import { Crop169Filled, Crop169FilledMetadata } from './design/crop-16-9_filled';
-import { Crop32Filled, Crop32FilledMetadata } from './design/crop-3-2_filled';
-import { Crop54Filled, Crop54FilledMetadata } from './design/crop-5-4_filled';
-import { Crop75Filled, Crop75FilledMetadata } from './design/crop-7-5_filled';
-import { CropLandscapeFilled, CropLandscapeFilledMetadata } from './design/crop-landscape_filled';
-import { CropPortraitFilled, CropPortraitFilledMetadata } from './design/crop-portrait_filled';
+import { CopySuccessRounded, CopySuccessRoundedMetadata } from './design/copy-success_rounded';
+import { CopyRounded, CopyRoundedMetadata } from './design/copy_rounded';
 import { Crop, CropMetadata } from './design/crop';
+import { DesigntoolsRounded, DesigntoolsRoundedMetadata } from './design/designtools_rounded';
 import { DraftingCompass, DraftingCompassMetadata } from './design/drafting-compass';
+import { Eraser1Rounded, Eraser1RoundedMetadata } from './design/eraser-1_rounded';
 import { Eraser, EraserMetadata } from './design/eraser';
+import { EraserRounded, EraserRoundedMetadata } from './design/eraser_rounded';
+import { FlashCircle1Rounded, FlashCircle1RoundedMetadata } from './design/flash-circle-1_rounded';
+import { FlashCircleRounded, FlashCircleRoundedMetadata } from './design/flash-circle_rounded';
+import { ForwardItem1Rounded, ForwardItem1RoundedMetadata } from './design/forward-item-1_rounded';
+import { ForwardItemRounded, ForwardItemRoundedMetadata } from './design/forward-item_rounded';
 import { Frame, FrameMetadata } from './design/frame';
 import { Fullscreen, FullscreenMetadata } from './design/fullscreen';
+import { GlassRounded, GlassRoundedMetadata } from './design/glass_rounded';
+import { Group2Rounded, Group2RoundedMetadata } from './design/group-2_rounded';
+import { Group3Rounded, Group3RoundedMetadata } from './design/group-3_rounded';
 import { ImageDown, ImageDownMetadata } from './design/image-down';
 import { ImageMinus, ImageMinusMetadata } from './design/image-minus';
 import { ImageOff, ImageOffMetadata } from './design/image-off';
@@ -3901,76 +4003,178 @@ import { ImageUp, ImageUpMetadata } from './design/image-up';
 import { ImageUpscale, ImageUpscaleMetadata } from './design/image-upscale';
 import { Image, ImageMetadata } from './design/image';
 import { Images, ImagesMetadata } from './design/images';
+import { LayerRounded, LayerRoundedMetadata } from './design/layer_rounded';
+import { LifebuoyRounded, LifebuoyRoundedMetadata } from './design/lifebuoy_rounded';
+import { MagicpenRounded, MagicpenRoundedMetadata } from './design/magicpen_rounded';
+import { MainComponent1Rounded, MainComponent1RoundedMetadata } from './design/main-component-1_rounded';
+import { MainComponentRounded, MainComponentRoundedMetadata } from './design/main-component_rounded';
+import { Mask1Rounded, Mask1RoundedMetadata } from './design/mask-1_rounded';
+import { Mask2Rounded, Mask2RoundedMetadata } from './design/mask-2_rounded';
+import { Mask3Rounded, Mask3RoundedMetadata } from './design/mask-3_rounded';
+import { MaskRounded, MaskRoundedMetadata } from './design/mask_rounded';
+import { OmegaCircle1Rounded, OmegaCircle1RoundedMetadata } from './design/omega-circle-1_rounded';
+import { OmegaCircleRounded, OmegaCircleRoundedMetadata } from './design/omega-circle_rounded';
+import { OmegaSquare1Rounded, OmegaSquare1RoundedMetadata } from './design/omega-square-1_rounded';
+import { OmegaSquareRounded, OmegaSquareRoundedMetadata } from './design/omega-square_rounded';
 import { PaintBucket, PaintBucketMetadata } from './design/paint-bucket';
 import { PaintRoller, PaintRollerMetadata } from './design/paint-roller';
 import { PaintbrushVertical, PaintbrushVerticalMetadata } from './design/paintbrush-vertical';
 import { Paintbrush, PaintbrushMetadata } from './design/paintbrush';
+import { PaintbucketRounded, PaintbucketRoundedMetadata } from './design/paintbucket_rounded';
 import { Palette, PaletteMetadata } from './design/palette';
 import { Paperclip, PaperclipMetadata } from './design/paperclip';
+import { Path2Rounded, Path2RoundedMetadata } from './design/path-2_rounded';
+import { PathSquareRounded, PathSquareRoundedMetadata } from './design/path-square_rounded';
+import { PathRounded, PathRoundedMetadata } from './design/path_rounded';
+import { PenAdd1Rounded, PenAdd1RoundedMetadata } from './design/pen-add-1_rounded';
+import { PenAddRounded, PenAddRoundedMetadata } from './design/pen-add_rounded';
+import { PenClose1Rounded, PenClose1RoundedMetadata } from './design/pen-close-1_rounded';
+import { PenCloseRounded, PenCloseRoundedMetadata } from './design/pen-close_rounded';
 import { PenLine, PenLineMetadata } from './design/pen-line';
 import { PenOff, PenOffMetadata } from './design/pen-off';
+import { PenRemove1Rounded, PenRemove1RoundedMetadata } from './design/pen-remove-1_rounded';
+import { PenRemoveRounded, PenRemoveRoundedMetadata } from './design/pen-remove_rounded';
+import { PenTool1Rounded, PenTool1RoundedMetadata } from './design/pen-tool-1_rounded';
+import { PenTool21Rounded, PenTool21RoundedMetadata } from './design/pen-tool-2-1_rounded';
+import { PenTool2Rounded, PenTool2RoundedMetadata } from './design/pen-tool-2_rounded';
 import { PenTool, PenToolMetadata } from './design/pen-tool';
+import { PenToolRounded, PenToolRoundedMetadata } from './design/pen-tool_rounded';
 import { Pen, PenMetadata } from './design/pen';
 import { PencilLine, PencilLineMetadata } from './design/pencil-line';
 import { PencilOff, PencilOffMetadata } from './design/pencil-off';
 import { PencilRuler, PencilRulerMetadata } from './design/pencil-ruler';
 import { Pencil, PencilMetadata } from './design/pencil';
 import { Pipette, PipetteMetadata } from './design/pipette';
-import { ZoomCancelFilled, ZoomCancelFilledMetadata } from './design/zoom-cancel_filled';
-import { ZoomCheckFilled, ZoomCheckFilledMetadata } from './design/zoom-check_filled';
-import { ZoomCodeFilled, ZoomCodeFilledMetadata } from './design/zoom-code_filled';
-import { ZoomExclamationFilled, ZoomExclamationFilledMetadata } from './design/zoom-exclamation_filled';
-import { ZoomInAreaFilled, ZoomInAreaFilledMetadata } from './design/zoom-in-area_filled';
-import { ZoomInFilled, ZoomInFilledMetadata } from './design/zoom-in_filled';
-import { ZoomMoneyFilled, ZoomMoneyFilledMetadata } from './design/zoom-money_filled';
-import { ZoomOutAreaFilled, ZoomOutAreaFilledMetadata } from './design/zoom-out-area_filled';
-import { ZoomOutFilled, ZoomOutFilledMetadata } from './design/zoom-out_filled';
-import { ZoomPanFilled, ZoomPanFilledMetadata } from './design/zoom-pan_filled';
-import { ZoomQuestionFilled, ZoomQuestionFilledMetadata } from './design/zoom-question_filled';
-import { ZoomScanFilled, ZoomScanFilledMetadata } from './design/zoom-scan_filled';
-import { ZoomFilled, ZoomFilledMetadata } from './design/zoom_filled';
+import { RecoveryConvertRounded, RecoveryConvertRoundedMetadata } from './design/recovery-convert_rounded';
+import { RulerPenRounded, RulerPenRoundedMetadata } from './design/ruler-pen_rounded';
+import { RulerRounded, RulerRoundedMetadata } from './design/ruler_rounded';
+import { Scissor1Rounded, Scissor1RoundedMetadata } from './design/scissor-1_rounded';
+import { ScissorRounded, ScissorRoundedMetadata } from './design/scissor_rounded';
+import { Shapes1Rounded, Shapes1RoundedMetadata } from './design/shapes-1_rounded';
+import { Shapes2Rounded, Shapes2RoundedMetadata } from './design/shapes-2_rounded';
+import { ShapesRounded, ShapesRoundedMetadata } from './design/shapes_rounded';
+import { SizeRounded, SizeRoundedMetadata } from './design/size_rounded';
 import { AirVent, AirVentMetadata } from './device/air-vent';
+import { AirdropRounded, AirdropRoundedMetadata } from './device/airdrop_rounded';
 import { Airplay, AirplayMetadata } from './device/airplay';
+import { AirpodRounded, AirpodRoundedMetadata } from './device/airpod_rounded';
+import { AirpodsRounded, AirpodsRoundedMetadata } from './device/airpods_rounded';
 import { AlarmSmoke, AlarmSmokeMetadata } from './device/alarm-smoke';
+import { Bluetooth2Rounded, Bluetooth2RoundedMetadata } from './device/bluetooth-2_rounded';
+import { BluetoothCircleRounded, BluetoothCircleRoundedMetadata } from './device/bluetooth-circle_rounded';
+import { BluetoothRectangleRounded, BluetoothRectangleRoundedMetadata } from './device/bluetooth-rectangle_rounded';
+import { BluetoothRounded, BluetoothRoundedMetadata } from './device/bluetooth_rounded';
+import { CloudAddRounded, CloudAddRoundedMetadata } from './device/cloud-add_rounded';
+import { CloudChangeRounded, CloudChangeRoundedMetadata } from './device/cloud-change_rounded';
+import { CloudConnectionRounded, CloudConnectionRoundedMetadata } from './device/cloud-connection_rounded';
+import { CloudRemoveRounded, CloudRemoveRoundedMetadata } from './device/cloud-remove_rounded';
 import { Computer, ComputerMetadata } from './device/computer';
-import { DeviceCctvFilled, DeviceCctvFilledMetadata } from './device/device-cctv_filled';
-import { DeviceDesktopFilled, DeviceDesktopFilledMetadata } from './device/device-desktop_filled';
-import { DeviceGamepad3Filled, DeviceGamepad3FilledMetadata } from './device/device-gamepad-3_filled';
-import { DeviceGamepadFilled, DeviceGamepadFilledMetadata } from './device/device-gamepad_filled';
-import { DeviceHeartMonitorFilled, DeviceHeartMonitorFilledMetadata } from './device/device-heart-monitor_filled';
-import { DeviceImacFilled, DeviceImacFilledMetadata } from './device/device-imac_filled';
-import { DeviceIpadFilled, DeviceIpadFilledMetadata } from './device/device-ipad_filled';
-import { DeviceMobileFilled, DeviceMobileFilledMetadata } from './device/device-mobile_filled';
-import { DeviceRemoteFilled, DeviceRemoteFilledMetadata } from './device/device-remote_filled';
-import { DeviceSpeakerFilled, DeviceSpeakerFilledMetadata } from './device/device-speaker_filled';
-import { DeviceTabletFilled, DeviceTabletFilledMetadata } from './device/device-tablet_filled';
-import { DeviceTvOldFilled, DeviceTvOldFilledMetadata } from './device/device-tv-old_filled';
-import { DeviceTvFilled, DeviceTvFilledMetadata } from './device/device-tv_filled';
-import { DeviceUnknownFilled, DeviceUnknownFilledMetadata } from './device/device-unknown_filled';
-import { DeviceUsbFilled, DeviceUsbFilledMetadata } from './device/device-usb_filled';
-import { DeviceVisionProFilled, DeviceVisionProFilledMetadata } from './device/device-vision-pro_filled';
-import { DeviceWatchFilled, DeviceWatchFilledMetadata } from './device/device-watch_filled';
+import { CpuChargeRounded, CpuChargeRoundedMetadata } from './device/cpu-charge_rounded';
+import { CpuSettingRounded, CpuSettingRoundedMetadata } from './device/cpu-setting_rounded';
+import { CpuRounded, CpuRoundedMetadata } from './device/cpu_rounded';
+import { DevicesRounded, DevicesRoundedMetadata } from './device/devices_rounded';
+import { Driver2Rounded, Driver2RoundedMetadata } from './device/driver-2_rounded';
+import { DriverRefreshRounded, DriverRefreshRoundedMetadata } from './device/driver-refresh_rounded';
+import { DriverRounded, DriverRoundedMetadata } from './device/driver_rounded';
+import { ElectricityRounded, ElectricityRoundedMetadata } from './device/electricity_rounded';
+import { ExternalDriveRounded, ExternalDriveRoundedMetadata } from './device/external-drive_rounded';
+import { FolderConnectionRounded, FolderConnectionRoundedMetadata } from './device/folder-connection_rounded';
+import { GameRounded, GameRoundedMetadata } from './device/game_rounded';
+import { GameboyRounded, GameboyRoundedMetadata } from './device/gameboy_rounded';
 import { HdmiPort, HdmiPortMetadata } from './device/hdmi-port';
+import { HeadphoneRounded, HeadphoneRoundedMetadata } from './device/headphone_rounded';
+import { HeadphonesRounded, HeadphonesRoundedMetadata } from './device/headphones_rounded';
 import { KeyboardMusic, KeyboardMusicMetadata } from './device/keyboard-music';
 import { KeyboardOff, KeyboardOffMetadata } from './device/keyboard-off';
+import { KeyboardOpenRounded, KeyboardOpenRoundedMetadata } from './device/keyboard-open_rounded';
 import { Keyboard, KeyboardMetadata } from './device/keyboard';
+import { KeyboardRounded, KeyboardRoundedMetadata } from './device/keyboard_rounded';
+import { LampRounded, LampRoundedMetadata } from './device/lamp_rounded';
 import { LaptopMinimalCheck, LaptopMinimalCheckMetadata } from './device/laptop-minimal-check';
 import { LaptopMinimal, LaptopMinimalMetadata } from './device/laptop-minimal';
 import { Laptop, LaptopMetadata } from './device/laptop';
+import { MicroscopeRounded, MicroscopeRoundedMetadata } from './device/microscope_rounded';
+import { MirroringScreenRounded, MirroringScreenRoundedMetadata } from './device/mirroring-screen_rounded';
+import { MobileRounded, MobileRoundedMetadata } from './device/mobile_rounded';
+import { MonitorMobbileRounded, MonitorMobbileRoundedMetadata } from './device/monitor-mobbile_rounded';
+import { MonitorRecorderRounded, MonitorRecorderRoundedMetadata } from './device/monitor-recorder_rounded';
+import { MonitorRounded, MonitorRoundedMetadata } from './device/monitor_rounded';
+import { MouseRounded, MouseRoundedMetadata } from './device/mouse_rounded';
+import { MusicPlayRounded, MusicPlayRoundedMetadata } from './device/music-play_rounded';
 import { PcCase, PcCaseMetadata } from './device/pc-case';
 import { Presentation, PresentationMetadata } from './device/presentation';
 import { PrinterCheck, PrinterCheckMetadata } from './device/printer-check';
+import { PrinterSlashRounded, PrinterSlashRoundedMetadata } from './device/printer-slash_rounded';
 import { PrinterX, PrinterXMetadata } from './device/printer-x';
 import { Printer, PrinterMetadata } from './device/printer';
+import { PrinterRounded, PrinterRoundedMetadata } from './device/printer_rounded';
 import { Projector, ProjectorMetadata } from './device/projector';
+import { Ram2Rounded, Ram2RoundedMetadata } from './device/ram-2_rounded';
+import { RamRounded, RamRoundedMetadata } from './device/ram_rounded';
+import { Simcard1Rounded, Simcard1RoundedMetadata } from './device/simcard-1_rounded';
+import { Simcard2Rounded, Simcard2RoundedMetadata } from './device/simcard-2_rounded';
+import { SimcardRounded, SimcardRoundedMetadata } from './device/simcard_rounded';
 import { Smartphone, SmartphoneMetadata } from './device/smartphone';
 import { Speaker, SpeakerMetadata } from './device/speaker';
+import { SpeakerRounded, SpeakerRoundedMetadata } from './device/speaker_rounded';
 import { TabletSmartphone, TabletSmartphoneMetadata } from './device/tablet-smartphone';
 import { Tablet, TabletMetadata } from './device/tablet';
 import { TouchpadOff, TouchpadOffMetadata } from './device/touchpad-off';
 import { Touchpad, TouchpadMetadata } from './device/touchpad';
 import { WashingMachine, WashingMachineMetadata } from './device/washing-machine';
+import { WatchStatusRounded, WatchStatusRoundedMetadata } from './device/watch-status_rounded';
 import { Watch, WatchMetadata } from './device/watch';
+import { WatchRounded, WatchRoundedMetadata } from './device/watch_rounded';
+import { WeightRounded, WeightRoundedMetadata } from './device/weight_rounded';
+import { ArchiveBookRounded, ArchiveBookRoundedMetadata } from './document/archive-book_rounded';
+import { BillRounded, BillRoundedMetadata } from './document/bill_rounded';
+import { ClipboardCloseRounded, ClipboardCloseRoundedMetadata } from './document/clipboard-close_rounded';
+import { ClipboardExportRounded, ClipboardExportRoundedMetadata } from './document/clipboard-export_rounded';
+import { ClipboardImportRounded, ClipboardImportRoundedMetadata } from './document/clipboard-import_rounded';
+import { ClipboardTextRounded, ClipboardTextRoundedMetadata } from './document/clipboard-text_rounded';
+import { ClipboardTickRounded, ClipboardTickRoundedMetadata } from './document/clipboard-tick_rounded';
+import { CopyrightRounded, CopyrightRoundedMetadata } from './document/copyright_rounded';
+import { CreativeCommonsRounded, CreativeCommonsRoundedMetadata } from './document/creative-commons_rounded';
+import { DocumentCloudRounded, DocumentCloudRoundedMetadata } from './document/document-cloud_rounded';
+import { DocumentCopyRounded, DocumentCopyRoundedMetadata } from './document/document-copy_rounded';
+import { DocumentDownloadRounded, DocumentDownloadRoundedMetadata } from './document/document-download_rounded';
+import { DocumentFavoriteRounded, DocumentFavoriteRoundedMetadata } from './document/document-favorite_rounded';
+import { DocumentFilterRounded, DocumentFilterRoundedMetadata } from './document/document-filter_rounded';
+import { DocumentForwardRounded, DocumentForwardRoundedMetadata } from './document/document-forward_rounded';
+import { DocumentLikeRounded, DocumentLikeRoundedMetadata } from './document/document-like_rounded';
+import { DocumentNormalRounded, DocumentNormalRoundedMetadata } from './document/document-normal_rounded';
+import { DocumentPreviousRounded, DocumentPreviousRoundedMetadata } from './document/document-previous_rounded';
+import { DocumentSketchRounded, DocumentSketchRoundedMetadata } from './document/document-sketch_rounded';
+import { DocumentText1Rounded, DocumentText1RoundedMetadata } from './document/document-text-1_rounded';
+import { DocumentTextRounded, DocumentTextRoundedMetadata } from './document/document-text_rounded';
+import { DocumentUploadRounded, DocumentUploadRoundedMetadata } from './document/document-upload_rounded';
+import { DocumentRounded, DocumentRoundedMetadata } from './document/document_rounded';
+import { Edit2Rounded, Edit2RoundedMetadata } from './document/edit-2_rounded';
+import { EditRounded, EditRoundedMetadata } from './document/edit_rounded';
+import { MenuBoardRounded, MenuBoardRoundedMetadata } from './document/menu-board_rounded';
+import { Note1Rounded, Note1RoundedMetadata } from './document/note-1_rounded';
+import { NoteAddRounded, NoteAddRoundedMetadata } from './document/note-add_rounded';
+import { NoteFavoriteRounded, NoteFavoriteRoundedMetadata } from './document/note-favorite_rounded';
+import { NoteRemoveRounded, NoteRemoveRoundedMetadata } from './document/note-remove_rounded';
+import { NoteTextRounded, NoteTextRoundedMetadata } from './document/note-text_rounded';
+import { NoteRounded, NoteRoundedMetadata } from './document/note_rounded';
+import { StickynoteRounded, StickynoteRoundedMetadata } from './document/stickynote_rounded';
+import { TaskSquareRounded, TaskSquareRoundedMetadata } from './document/task-square_rounded';
+import { TaskRounded, TaskRoundedMetadata } from './document/task_rounded';
+import { AwardRounded, AwardRoundedMetadata } from './education/award_rounded';
+import { Book1Rounded, Book1RoundedMetadata } from './education/book-1_rounded';
+import { BookRounded, BookRoundedMetadata } from './education/book_rounded';
+import { Bookmark2Rounded, Bookmark2RoundedMetadata } from './education/bookmark-2_rounded';
+import { BookmarkRounded, BookmarkRoundedMetadata } from './education/bookmark_rounded';
+import { BriefcaseRounded, BriefcaseRoundedMetadata } from './education/briefcase_rounded';
+import { BrifecaseCrossRounded, BrifecaseCrossRoundedMetadata } from './education/brifecase-cross_rounded';
+import { BrifecaseTickRounded, BrifecaseTickRoundedMetadata } from './education/brifecase-tick_rounded';
+import { BrifecaseTimerRounded, BrifecaseTimerRoundedMetadata } from './education/brifecase-timer_rounded';
+import { CalculatorRounded, CalculatorRoundedMetadata } from './education/calculator_rounded';
+import { ClipboardRounded, ClipboardRoundedMetadata } from './education/clipboard_rounded';
+import { GiftRounded, GiftRoundedMetadata } from './education/gift_rounded';
+import { Note2Rounded, Note2RoundedMetadata } from './education/note-2_rounded';
+import { TeacherRounded, TeacherRoundedMetadata } from './education/teacher_rounded';
 import { Angry, AngryMetadata } from './emoji/angry';
 import { Annoyed, AnnoyedMetadata } from './emoji/annoyed';
 import { ConfusedEmojiDoodle, ConfusedEmojiDoodleMetadata } from './emoji/confused-emoji_doodle';
@@ -3981,16 +4185,6 @@ import { HappyEmojiDoodle, HappyEmojiDoodleMetadata } from './emoji/happy-emoji_
 import { HeartEyesEmojiDoodle, HeartEyesEmojiDoodleMetadata } from './emoji/heart-eyes-emoji_doodle';
 import { LaughEmojiDoodle, LaughEmojiDoodleMetadata } from './emoji/laugh-emoji_doodle';
 import { Laugh, LaughMetadata } from './emoji/laugh';
-import { MoodAngryFilled, MoodAngryFilledMetadata } from './emoji/mood-angry_filled';
-import { MoodConfuzedFilled, MoodConfuzedFilledMetadata } from './emoji/mood-confuzed_filled';
-import { MoodCrazyHappyFilled, MoodCrazyHappyFilledMetadata } from './emoji/mood-crazy-happy_filled';
-import { MoodEmptyFilled, MoodEmptyFilledMetadata } from './emoji/mood-empty_filled';
-import { MoodHappyFilled, MoodHappyFilledMetadata } from './emoji/mood-happy_filled';
-import { MoodKidFilled, MoodKidFilledMetadata } from './emoji/mood-kid_filled';
-import { MoodNeutralFilled, MoodNeutralFilledMetadata } from './emoji/mood-neutral_filled';
-import { MoodSadFilled, MoodSadFilledMetadata } from './emoji/mood-sad_filled';
-import { MoodSmileFilled, MoodSmileFilledMetadata } from './emoji/mood-smile_filled';
-import { MoodWrrrFilled, MoodWrrrFilledMetadata } from './emoji/mood-wrrr_filled';
 import { SadEmojiDoodle, SadEmojiDoodleMetadata } from './emoji/sad-emoji_doodle';
 import { ShockedEmojiDoodle, ShockedEmojiDoodleMetadata } from './emoji/shocked-emoji_doodle';
 import { SmilePlus, SmilePlusMetadata } from './emoji/smile-plus';
@@ -4000,7 +4194,6 @@ import { SmilingWithEyesEmojiDoodle, SmilingWithEyesEmojiDoodleMetadata } from '
 import { SurprisedEmojiDoodle, SurprisedEmojiDoodleMetadata } from './emoji/surprised-emoji_doodle';
 import { WinkEmojiDoodle, WinkEmojiDoodleMetadata } from './emoji/wink-emoji_doodle';
 import { WorriedEmojiDoodle, WorriedEmojiDoodleMetadata } from './emoji/worried-emoji_doodle';
-import { FileAnalyticsFilled, FileAnalyticsFilledMetadata } from './file/file-analytics_filled';
 import { FileArchive, FileArchiveMetadata } from './file/file-archive';
 import { FileAttachmentDoodle, FileAttachmentDoodleMetadata } from './file/file-attachment_doodle';
 import { FileAudioDoodle, FileAudioDoodleMetadata } from './file/file-audio_doodle';
@@ -4015,591 +4208,73 @@ import { FileChartLine, FileChartLineMetadata } from './file/file-chart-line';
 import { FileChartPie, FileChartPieMetadata } from './file/file-chart-pie';
 import { FileCheckCorner, FileCheckCornerMetadata } from './file/file-check-corner';
 import { FileCheck, FileCheckMetadata } from './file/file-check';
-import { FileCheckFilled, FileCheckFilledMetadata } from './file/file-check_filled';
 import { FileClock, FileClockMetadata } from './file/file-clock';
-import { FileCode2Filled, FileCode2FilledMetadata } from './file/file-code-2_filled';
 import { FileCodeCorner, FileCodeCornerMetadata } from './file/file-code-corner';
 import { FileCode, FileCodeMetadata } from './file/file-code';
 import { FileCodeDoodle, FileCodeDoodleMetadata } from './file/file-code_doodle';
-import { FileCodeFilled, FileCodeFilledMetadata } from './file/file-code_filled';
 import { FileCog, FileCogMetadata } from './file/file-cog';
 import { FileContractDoodle, FileContractDoodleMetadata } from './file/file-contract_doodle';
 import { FileCsvDoodle, FileCsvDoodleMetadata } from './file/file-csv_doodle';
-import { FileCvFilled, FileCvFilledMetadata } from './file/file-cv_filled';
-import { FileDeltaFilled, FileDeltaFilledMetadata } from './file/file-delta_filled';
-import { FileDescriptionFilled, FileDescriptionFilledMetadata } from './file/file-description_filled';
 import { FileDiff, FileDiffMetadata } from './file/file-diff';
-import { FileDiffFilled, FileDiffFilledMetadata } from './file/file-diff_filled';
 import { FileDigit, FileDigitMetadata } from './file/file-digit';
-import { FileDigitFilled, FileDigitFilledMetadata } from './file/file-digit_filled';
-import { FileDollarFilled, FileDollarFilledMetadata } from './file/file-dollar_filled';
-import { FileDotsFilled, FileDotsFilledMetadata } from './file/file-dots_filled';
 import { FileDown, FileDownMetadata } from './file/file-down';
-import { FileDownloadFilled, FileDownloadFilledMetadata } from './file/file-download_filled';
-import { FileEuroFilled, FileEuroFilledMetadata } from './file/file-euro_filled';
 import { FileExclamationPoint, FileExclamationPointMetadata } from './file/file-exclamation-point';
 import { FileFigmaDoodle, FileFigmaDoodleMetadata } from './file/file-figma_doodle';
 import { FileFormDoodle, FileFormDoodleMetadata } from './file/file-form_doodle';
-import { FileFunctionFilled, FileFunctionFilledMetadata } from './file/file-function_filled';
 import { FileHeadphone, FileHeadphoneMetadata } from './file/file-headphone';
 import { FileHeart, FileHeartMetadata } from './file/file-heart';
-import { FileHorizontalFilled, FileHorizontalFilledMetadata } from './file/file-horizontal_filled';
 import { FileImage2Doodle, FileImage2DoodleMetadata } from './file/file-image-2_doodle';
 import { FileImage, FileImageMetadata } from './file/file-image';
 import { FileImageDoodle, FileImageDoodleMetadata } from './file/file-image_doodle';
-import { FileInfoFilled, FileInfoFilledMetadata } from './file/file-info_filled';
 import { FileInput, FileInputMetadata } from './file/file-input';
 import { FileInvoiceDoodle, FileInvoiceDoodleMetadata } from './file/file-invoice_doodle';
-import { FileInvoiceFilled, FileInvoiceFilledMetadata } from './file/file-invoice_filled';
 import { FileJpgDoodle, FileJpgDoodleMetadata } from './file/file-jpg_doodle';
 import { FileKey, FileKeyMetadata } from './file/file-key';
-import { FileLambdaFilled, FileLambdaFilledMetadata } from './file/file-lambda_filled';
 import { FileListDoodle, FileListDoodleMetadata } from './file/file-list_doodle';
 import { FileLock, FileLockMetadata } from './file/file-lock';
 import { FileMinusCorner, FileMinusCornerMetadata } from './file/file-minus-corner';
 import { FileMinus, FileMinusMetadata } from './file/file-minus';
-import { FileMinusFilled, FileMinusFilledMetadata } from './file/file-minus_filled';
 import { FileMovDoodle, FileMovDoodleMetadata } from './file/file-mov_doodle';
 import { FileMp4Doodle, FileMp4DoodleMetadata } from './file/file-mp4_doodle';
 import { FileMusic, FileMusicMetadata } from './file/file-music';
-import { FileMusicFilled, FileMusicFilledMetadata } from './file/file-music_filled';
-import { FileNeutralFilled, FileNeutralFilledMetadata } from './file/file-neutral_filled';
 import { FileNotesDoodle, FileNotesDoodleMetadata } from './file/file-notes_doodle';
 import { FileOutput, FileOutputMetadata } from './file/file-output';
 import { FilePdfDoodle, FilePdfDoodleMetadata } from './file/file-pdf_doodle';
 import { FilePenLine, FilePenLineMetadata } from './file/file-pen-line';
 import { FilePen, FilePenMetadata } from './file/file-pen';
-import { FilePencilFilled, FilePencilFilledMetadata } from './file/file-pencil_filled';
-import { FilePercentFilled, FilePercentFilledMetadata } from './file/file-percent_filled';
-import { FilePhoneFilled, FilePhoneFilledMetadata } from './file/file-phone_filled';
 import { FilePlay, FilePlayMetadata } from './file/file-play';
 import { FilePlusCorner, FilePlusCornerMetadata } from './file/file-plus-corner';
 import { FilePlus, FilePlusMetadata } from './file/file-plus';
 import { FilePngDoodle, FilePngDoodleMetadata } from './file/file-png_doodle';
-import { FilePowerFilled, FilePowerFilledMetadata } from './file/file-power_filled';
 import { FileQuestionMark, FileQuestionMarkMetadata } from './file/file-question-mark';
-import { FileRssFilled, FileRssFilledMetadata } from './file/file-rss_filled';
-import { FileSadFilled, FileSadFilledMetadata } from './file/file-sad_filled';
 import { FileScan, FileScanMetadata } from './file/file-scan';
-import { FileScissorsFilled, FileScissorsFilledMetadata } from './file/file-scissors_filled';
 import { FileSearchCorner, FileSearchCornerMetadata } from './file/file-search-corner';
 import { FileSearch, FileSearchMetadata } from './file/file-search';
-import { FileSettingsFilled, FileSettingsFilledMetadata } from './file/file-settings_filled';
 import { FileSignal, FileSignalMetadata } from './file/file-signal';
-import { FileSignalFilled, FileSignalFilledMetadata } from './file/file-signal_filled';
 import { FileSliders, FileSlidersMetadata } from './file/file-sliders';
-import { FileSmileFilled, FileSmileFilledMetadata } from './file/file-smile_filled';
 import { FileSpreadsheet, FileSpreadsheetMetadata } from './file/file-spreadsheet';
 import { FileSpreadsheetDoodle, FileSpreadsheetDoodleMetadata } from './file/file-spreadsheet_doodle';
 import { FileStack, FileStackMetadata } from './file/file-stack';
-import { FileStarFilled, FileStarFilledMetadata } from './file/file-star_filled';
 import { FileSvgDoodle, FileSvgDoodleMetadata } from './file/file-svg_doodle';
 import { FileSymlink, FileSymlinkMetadata } from './file/file-symlink';
 import { FileTerminal, FileTerminalMetadata } from './file/file-terminal';
 import { FileText, FileTextMetadata } from './file/file-text';
 import { FileTextDoodle, FileTextDoodleMetadata } from './file/file-text_doodle';
-import { FileTextFilled, FileTextFilledMetadata } from './file/file-text_filled';
-import { FileTimeFilled, FileTimeFilledMetadata } from './file/file-time_filled';
 import { FileTypeCorner, FileTypeCornerMetadata } from './file/file-type-corner';
 import { FileType, FileTypeMetadata } from './file/file-type';
-import { FileTypographyFilled, FileTypographyFilledMetadata } from './file/file-typography_filled';
-import { FileUnknownFilled, FileUnknownFilledMetadata } from './file/file-unknown_filled';
 import { FileUp, FileUpMetadata } from './file/file-up';
-import { FileUploadFilled, FileUploadFilledMetadata } from './file/file-upload_filled';
 import { FileUser, FileUserMetadata } from './file/file-user';
 import { FileVectorDoodle, FileVectorDoodleMetadata } from './file/file-vector_doodle';
-import { FileVectorFilled, FileVectorFilledMetadata } from './file/file-vector_filled';
 import { FileVideoCamera, FileVideoCameraMetadata } from './file/file-video-camera';
 import { FileVolume, FileVolumeMetadata } from './file/file-volume';
 import { FileXCorner, FileXCornerMetadata } from './file/file-x-corner';
 import { FileX, FileXMetadata } from './file/file-x';
-import { FileXFilled, FileXFilledMetadata } from './file/file-x_filled';
 import { FileZipDoodle, FileZipDoodleMetadata } from './file/file-zip_doodle';
 import { File, FileMetadata } from './file/file';
 import { FileDoodle, FileDoodleMetadata } from './file/file_doodle';
-import { FileFilled, FileFilledMetadata } from './file/file_filled';
 import { Files, FilesMetadata } from './file/files';
-import { FilesFilled, FilesFilledMetadata } from './file/files_filled';
 import { PngDoodle, PngDoodleMetadata } from './file/png_doodle';
-import { AccessibleFilled, AccessibleFilledMetadata } from './filled/accessible_filled';
-import { AdCircleFilled, AdCircleFilledMetadata } from './filled/ad-circle_filled';
-import { AdFilled, AdFilledMetadata } from './filled/ad_filled';
-import { AdjustmentsFilled, AdjustmentsFilledMetadata } from './filled/adjustments_filled';
-import { AerialLiftFilled, AerialLiftFilledMetadata } from './filled/aerial-lift_filled';
-import { AffiliateFilled, AffiliateFilledMetadata } from './filled/affiliate_filled';
-import { AirBalloonFilled, AirBalloonFilledMetadata } from './filled/air-balloon_filled';
-import { AlertCircleFilled, AlertCircleFilledMetadata } from './filled/alert-circle_filled';
-import { AlertHexagonFilled, AlertHexagonFilledMetadata } from './filled/alert-hexagon_filled';
-import { AlertOctagonFilled, AlertOctagonFilledMetadata } from './filled/alert-octagon_filled';
-import { AlertSquareRoundedFilled, AlertSquareRoundedFilledMetadata } from './filled/alert-square-rounded_filled';
-import { AlertSquareFilled, AlertSquareFilledMetadata } from './filled/alert-square_filled';
-import { AlertTriangleFilled, AlertTriangleFilledMetadata } from './filled/alert-triangle_filled';
-import { AlienFilled, AlienFilledMetadata } from './filled/alien_filled';
-import { AnalyzeFilled, AnalyzeFilledMetadata } from './filled/analyze_filled';
-import { AppWindowFilled, AppWindowFilledMetadata } from './filled/app-window_filled';
-import { AppleFilled, AppleFilledMetadata } from './filled/apple_filled';
-import { AppsFilled, AppsFilledMetadata } from './filled/apps_filled';
-import { ArchiveFilled, ArchiveFilledMetadata } from './filled/archive_filled';
-import { ArtboardFilled, ArtboardFilledMetadata } from './filled/artboard_filled';
-import { ArticleFilled, ArticleFilledMetadata } from './filled/article_filled';
-import { AspectRatioFilled, AspectRatioFilledMetadata } from './filled/aspect-ratio_filled';
-import { AssemblyFilled, AssemblyFilledMetadata } from './filled/assembly_filled';
-import { AssetFilled, AssetFilledMetadata } from './filled/asset_filled';
-import { Atom2Filled, Atom2FilledMetadata } from './filled/atom-2_filled';
-import { AutomaticGearboxFilled, AutomaticGearboxFilledMetadata } from './filled/automatic-gearbox_filled';
-import { AwardFilled, AwardFilledMetadata } from './filled/award_filled';
-import { BabyCarriageFilled, BabyCarriageFilledMetadata } from './filled/baby-carriage_filled';
-import { BackspaceFilled, BackspaceFilledMetadata } from './filled/backspace_filled';
-import { BallBowlingFilled, BallBowlingFilledMetadata } from './filled/ball-bowling_filled';
-import { BalloonFilled, BalloonFilledMetadata } from './filled/balloon_filled';
-import { BallpenFilled, BallpenFilledMetadata } from './filled/ballpen_filled';
-import { BandageFilled, BandageFilledMetadata } from './filled/bandage_filled';
-import { BarbellFilled, BarbellFilledMetadata } from './filled/barbell_filled';
-import { BarrierBlockFilled, BarrierBlockFilledMetadata } from './filled/barrier-block_filled';
-import { BasketFilled, BasketFilledMetadata } from './filled/basket_filled';
-import { BathFilled, BathFilledMetadata } from './filled/bath_filled';
-import { BedFlatFilled, BedFlatFilledMetadata } from './filled/bed-flat_filled';
-import { BedFilled, BedFilledMetadata } from './filled/bed_filled';
-import { BeerFilled, BeerFilledMetadata } from './filled/beer_filled';
-import { BikeFilled, BikeFilledMetadata } from './filled/bike_filled';
-import { BinaryTree2Filled, BinaryTree2FilledMetadata } from './filled/binary-tree-2_filled';
-import { BinaryTreeFilled, BinaryTreeFilledMetadata } from './filled/binary-tree_filled';
-import { BinocularsFilled, BinocularsFilledMetadata } from './filled/binoculars_filled';
-import { BiohazardFilled, BiohazardFilledMetadata } from './filled/biohazard_filled';
-import { BladeFilled, BladeFilledMetadata } from './filled/blade_filled';
-import { BlenderFilled, BlenderFilledMetadata } from './filled/blender_filled';
-import { BlobFilled, BlobFilledMetadata } from './filled/blob_filled';
-import { BoltFilled, BoltFilledMetadata } from './filled/bolt_filled';
-import { BombFilled, BombFilledMetadata } from './filled/bomb_filled';
-import { BoneFilled, BoneFilledMetadata } from './filled/bone_filled';
-import { BongFilled, BongFilledMetadata } from './filled/bong_filled';
-import { BookFilled, BookFilledMetadata } from './filled/book_filled';
-import { BookmarkFilled, BookmarkFilledMetadata } from './filled/bookmark_filled';
-import { BookmarksFilled, BookmarksFilledMetadata } from './filled/bookmarks_filled';
-import { BoomFilled, BoomFilledMetadata } from './filled/boom_filled';
-import { BottleFilled, BottleFilledMetadata } from './filled/bottle_filled';
-import { BounceLeftFilled, BounceLeftFilledMetadata } from './filled/bounce-left_filled';
-import { BounceRightFilled, BounceRightFilledMetadata } from './filled/bounce-right_filled';
-import { BowFilled, BowFilledMetadata } from './filled/bow_filled';
-import { BowlChopsticksFilled, BowlChopsticksFilledMetadata } from './filled/bowl-chopsticks_filled';
-import { BowlSpoonFilled, BowlSpoonFilledMetadata } from './filled/bowl-spoon_filled';
-import { BowlFilled, BowlFilledMetadata } from './filled/bowl_filled';
-import { BoxAlignBottomLeftFilled, BoxAlignBottomLeftFilledMetadata } from './filled/box-align-bottom-left_filled';
-import { BoxAlignBottomRightFilled, BoxAlignBottomRightFilledMetadata } from './filled/box-align-bottom-right_filled';
-import { BoxAlignBottomFilled, BoxAlignBottomFilledMetadata } from './filled/box-align-bottom_filled';
-import { BoxAlignLeftFilled, BoxAlignLeftFilledMetadata } from './filled/box-align-left_filled';
-import { BoxAlignRightFilled, BoxAlignRightFilledMetadata } from './filled/box-align-right_filled';
-import { BoxAlignTopLeftFilled, BoxAlignTopLeftFilledMetadata } from './filled/box-align-top-left_filled';
-import { BoxAlignTopRightFilled, BoxAlignTopRightFilledMetadata } from './filled/box-align-top-right_filled';
-import { BoxAlignTopFilled, BoxAlignTopFilledMetadata } from './filled/box-align-top_filled';
-import { BoxMultipleFilled, BoxMultipleFilledMetadata } from './filled/box-multiple_filled';
-import { BreadFilled, BreadFilledMetadata } from './filled/bread_filled';
-import { Briefcase2Filled, Briefcase2FilledMetadata } from './filled/briefcase-2_filled';
-import { BriefcaseFilled, BriefcaseFilledMetadata } from './filled/briefcase_filled';
-import { BrightnessAutoFilled, BrightnessAutoFilledMetadata } from './filled/brightness-auto_filled';
-import { BrightnessDownFilled, BrightnessDownFilledMetadata } from './filled/brightness-down_filled';
-import { BrightnessUpFilled, BrightnessUpFilledMetadata } from './filled/brightness-up_filled';
-import { BrightnessFilled, BrightnessFilledMetadata } from './filled/brightness_filled';
-import { BubbleTextFilled, BubbleTextFilledMetadata } from './filled/bubble-text_filled';
-import { BubbleFilled, BubbleFilledMetadata } from './filled/bubble_filled';
-import { BugFilled, BugFilledMetadata } from './filled/bug_filled';
-import { BuildingBridge2Filled, BuildingBridge2FilledMetadata } from './filled/building-bridge-2_filled';
-import { BuildingBroadcastTowerFilled, BuildingBroadcastTowerFilledMetadata } from './filled/building-broadcast-tower_filled';
-import { BulbFilled, BulbFilledMetadata } from './filled/bulb_filled';
-import { BusFilled, BusFilledMetadata } from './filled/bus_filled';
-import { ButterflyFilled, ButterflyFilledMetadata } from './filled/butterfly_filled';
-import { CactusFilled, CactusFilledMetadata } from './filled/cactus_filled';
-import { CameraFilled, CameraFilledMetadata } from './filled/camera_filled';
-import { CampfireFilled, CampfireFilledMetadata } from './filled/campfire_filled';
-import { CandleFilled, CandleFilledMetadata } from './filled/candle_filled';
-import { CannabisFilled, CannabisFilledMetadata } from './filled/cannabis_filled';
-import { CapsuleHorizontalFilled, CapsuleHorizontalFilledMetadata } from './filled/capsule-horizontal_filled';
-import { CapsuleFilled, CapsuleFilledMetadata } from './filled/capsule_filled';
-import { CaptureFilled, CaptureFilledMetadata } from './filled/capture_filled';
-import { Car4wdFilled, Car4wdFilledMetadata } from './filled/car-4wd_filled';
-import { CarCraneFilled, CarCraneFilledMetadata } from './filled/car-crane_filled';
-import { CarFanFilled, CarFanFilledMetadata } from './filled/car-fan_filled';
-import { CarSuvFilled, CarSuvFilledMetadata } from './filled/car-suv_filled';
-import { CarFilled, CarFilledMetadata } from './filled/car_filled';
-import { CarambolaFilled, CarambolaFilledMetadata } from './filled/carambola_filled';
-import { CaravanFilled, CaravanFilledMetadata } from './filled/caravan_filled';
-import { CardboardsFilled, CardboardsFilledMetadata } from './filled/cardboards_filled';
-import { CardsFilled, CardsFilledMetadata } from './filled/cards_filled';
-import { CaretDownFilled, CaretDownFilledMetadata } from './filled/caret-down_filled';
-import { CaretLeftRightFilled, CaretLeftRightFilledMetadata } from './filled/caret-left-right_filled';
-import { CaretLeftFilled, CaretLeftFilledMetadata } from './filled/caret-left_filled';
-import { CaretRightFilled, CaretRightFilledMetadata } from './filled/caret-right_filled';
-import { CaretUpDownFilled, CaretUpDownFilledMetadata } from './filled/caret-up-down_filled';
-import { CaretUpFilled, CaretUpFilledMetadata } from './filled/caret-up_filled';
-import { CarouselHorizontalFilled, CarouselHorizontalFilledMetadata } from './filled/carousel-horizontal_filled';
-import { CarouselVerticalFilled, CarouselVerticalFilledMetadata } from './filled/carousel-vertical_filled';
-import { CashBanknoteFilled, CashBanknoteFilledMetadata } from './filled/cash-banknote_filled';
-import { CategoryFilled, CategoryFilledMetadata } from './filled/category_filled';
-import { ChargingPileFilled, ChargingPileFilledMetadata } from './filled/charging-pile_filled';
-import { ChefHatFilled, ChefHatFilledMetadata } from './filled/chef-hat_filled';
-import { CherryFilled, CherryFilledMetadata } from './filled/cherry_filled';
-import { ChessBishopFilled, ChessBishopFilledMetadata } from './filled/chess-bishop_filled';
-import { ChessKingFilled, ChessKingFilledMetadata } from './filled/chess-king_filled';
-import { ChessKnightFilled, ChessKnightFilledMetadata } from './filled/chess-knight_filled';
-import { ChessQueenFilled, ChessQueenFilledMetadata } from './filled/chess-queen_filled';
-import { ChessRookFilled, ChessRookFilledMetadata } from './filled/chess-rook_filled';
-import { ChessFilled, ChessFilledMetadata } from './filled/chess_filled';
-import { ChristmasTreeFilled, ChristmasTreeFilledMetadata } from './filled/christmas-tree_filled';
-import { CloudComputingFilled, CloudComputingFilledMetadata } from './filled/cloud-computing_filled';
-import { CloudDataConnectionFilled, CloudDataConnectionFilledMetadata } from './filled/cloud-data-connection_filled';
-import { CloudFilled, CloudFilledMetadata } from './filled/cloud_filled';
-import { CloverFilled, CloverFilledMetadata } from './filled/clover_filled';
-import { ClubsFilled, ClubsFilledMetadata } from './filled/clubs_filled';
-import { CodeCircle2Filled, CodeCircle2FilledMetadata } from './filled/code-circle-2_filled';
-import { CodeCircleFilled, CodeCircleFilledMetadata } from './filled/code-circle_filled';
-import { CompassFilled, CompassFilledMetadata } from './filled/compass_filled';
-import { Cone2Filled, Cone2FilledMetadata } from './filled/cone-2_filled';
-import { ConeFilled, ConeFilledMetadata } from './filled/cone_filled';
-import { ConfettiFilled, ConfettiFilledMetadata } from './filled/confetti_filled';
-import { ContainerFilled, ContainerFilledMetadata } from './filled/container_filled';
-import { Contrast2Filled, Contrast2FilledMetadata } from './filled/contrast-2_filled';
-import { ContrastFilled, ContrastFilledMetadata } from './filled/contrast_filled';
-import { CookieManFilled, CookieManFilledMetadata } from './filled/cookie-man_filled';
-import { CookieFilled, CookieFilledMetadata } from './filled/cookie_filled';
-import { CopyCheckFilled, CopyCheckFilledMetadata } from './filled/copy-check_filled';
-import { CopyMinusFilled, CopyMinusFilledMetadata } from './filled/copy-minus_filled';
-import { CopyPlusFilled, CopyPlusFilledMetadata } from './filled/copy-plus_filled';
-import { CopyXFilled, CopyXFilledMetadata } from './filled/copy-x_filled';
-import { CopyleftFilled, CopyleftFilledMetadata } from './filled/copyleft_filled';
-import { CopyrightFilled, CopyrightFilledMetadata } from './filled/copyright_filled';
-import { CreditCardFilled, CreditCardFilledMetadata } from './filled/credit-card_filled';
-import { CrossFilled, CrossFilledMetadata } from './filled/cross_filled';
-import { CrownFilled, CrownFilledMetadata } from './filled/crown_filled';
-import { CurrentLocationFilled, CurrentLocationFilledMetadata } from './filled/current-location_filled';
-import { DashboardFilled, DashboardFilledMetadata } from './filled/dashboard_filled';
-import { DialpadFilled, DialpadFilledMetadata } from './filled/dialpad_filled';
-import { DiamondFilled, DiamondFilledMetadata } from './filled/diamond_filled';
-import { DiamondsFilled, DiamondsFilledMetadata } from './filled/diamonds_filled';
-import { Dice1Filled, Dice1FilledMetadata } from './filled/dice-1_filled';
-import { Dice2Filled, Dice2FilledMetadata } from './filled/dice-2_filled';
-import { Dice3Filled, Dice3FilledMetadata } from './filled/dice-3_filled';
-import { Dice4Filled, Dice4FilledMetadata } from './filled/dice-4_filled';
-import { Dice5Filled, Dice5FilledMetadata } from './filled/dice-5_filled';
-import { Dice6Filled, Dice6FilledMetadata } from './filled/dice-6_filled';
-import { DiceFilled, DiceFilledMetadata } from './filled/dice_filled';
-import { DirectionArrowsFilled, DirectionArrowsFilledMetadata } from './filled/direction-arrows_filled';
-import { DirectionSignFilled, DirectionSignFilledMetadata } from './filled/direction-sign_filled';
-import { DirectionsFilled, DirectionsFilledMetadata } from './filled/directions_filled';
-import { DiscFilled, DiscFilledMetadata } from './filled/disc_filled';
-import { DiscountFilled, DiscountFilledMetadata } from './filled/discount_filled';
-import { DropCircleFilled, DropCircleFilledMetadata } from './filled/drop-circle_filled';
-import { DropletHalf2Filled, DropletHalf2FilledMetadata } from './filled/droplet-half-2_filled';
-import { DropletHalfFilled, DropletHalfFilledMetadata } from './filled/droplet-half_filled';
-import { DropletFilled, DropletFilledMetadata } from './filled/droplet_filled';
-import { DropletsFilled, DropletsFilledMetadata } from './filled/droplets_filled';
-import { DualScreenFilled, DualScreenFilledMetadata } from './filled/dual-screen_filled';
-import { DumplingFilled, DumplingFilledMetadata } from './filled/dumpling_filled';
-import { EaseInControlPointFilled, EaseInControlPointFilledMetadata } from './filled/ease-in-control-point_filled';
-import { EaseInOutControlPointsFilled, EaseInOutControlPointsFilledMetadata } from './filled/ease-in-out-control-points_filled';
-import { EaseOutControlPointFilled, EaseOutControlPointFilledMetadata } from './filled/ease-out-control-point_filled';
-import { EggCrackedFilled, EggCrackedFilledMetadata } from './filled/egg-cracked_filled';
-import { EggFriedFilled, EggFriedFilledMetadata } from './filled/egg-fried_filled';
-import { EggFilled, EggFilledMetadata } from './filled/egg_filled';
-import { ElevatorFilled, ElevatorFilledMetadata } from './filled/elevator_filled';
-import { EngineFilled, EngineFilledMetadata } from './filled/engine_filled';
-import { EscalatorDownFilled, EscalatorDownFilledMetadata } from './filled/escalator-down_filled';
-import { EscalatorUpFilled, EscalatorUpFilledMetadata } from './filled/escalator-up_filled';
-import { EscalatorFilled, EscalatorFilledMetadata } from './filled/escalator_filled';
-import { ExchangeFilled, ExchangeFilledMetadata } from './filled/exchange_filled';
-import { ExclamationCircleFilled, ExclamationCircleFilledMetadata } from './filled/exclamation-circle_filled';
-import { ExplicitFilled, ExplicitFilledMetadata } from './filled/explicit_filled';
-import { ExposureFilled, ExposureFilledMetadata } from './filled/exposure_filled';
-import { EyeTableFilled, EyeTableFilledMetadata } from './filled/eye-table_filled';
-import { EyeFilled, EyeFilledMetadata } from './filled/eye_filled';
-import { Eyeglass2Filled, Eyeglass2FilledMetadata } from './filled/eyeglass-2_filled';
-import { EyeglassFilled, EyeglassFilledMetadata } from './filled/eyeglass_filled';
-import { FaceMaskFilled, FaceMaskFilledMetadata } from './filled/face-mask_filled';
-import { FaviconFilled, FaviconFilledMetadata } from './filled/favicon_filled';
-import { FeatherFilled, FeatherFilledMetadata } from './filled/feather_filled';
-import { FenceFilled, FenceFilledMetadata } from './filled/fence_filled';
-import { FerryFilled, FerryFilledMetadata } from './filled/ferry_filled';
-import { FidgetSpinnerFilled, FidgetSpinnerFilledMetadata } from './filled/fidget-spinner_filled';
-import { FilterFilled, FilterFilledMetadata } from './filled/filter_filled';
-import { FiltersFilled, FiltersFilledMetadata } from './filled/filters_filled';
-import { FishBoneFilled, FishBoneFilledMetadata } from './filled/fish-bone_filled';
-import { Flag2Filled, Flag2FilledMetadata } from './filled/flag-2_filled';
-import { Flag3Filled, Flag3FilledMetadata } from './filled/flag-3_filled';
-import { FlagFilled, FlagFilledMetadata } from './filled/flag_filled';
-import { FlameFilled, FlameFilledMetadata } from './filled/flame_filled';
-import { FlareFilled, FlareFilledMetadata } from './filled/flare_filled';
-import { Flask2Filled, Flask2FilledMetadata } from './filled/flask-2_filled';
-import { FlaskFilled, FlaskFilledMetadata } from './filled/flask_filled';
-import { FlowerFilled, FlowerFilledMetadata } from './filled/flower_filled';
-import { FolderOpenFilled, FolderOpenFilledMetadata } from './filled/folder-open_filled';
-import { FolderFilled, FolderFilledMetadata } from './filled/folder_filled';
-import { FoldersFilled, FoldersFilledMetadata } from './filled/folders_filled';
-import { Forbid2Filled, Forbid2FilledMetadata } from './filled/forbid-2_filled';
-import { ForbidFilled, ForbidFilledMetadata } from './filled/forbid_filled';
-import { FountainFilled, FountainFilledMetadata } from './filled/fountain_filled';
-import { FunctionFilled, FunctionFilledMetadata } from './filled/function_filled';
-import { GardenCartFilled, GardenCartFilledMetadata } from './filled/garden-cart_filled';
-import { GasStationFilled, GasStationFilledMetadata } from './filled/gas-station_filled';
-import { GaugeFilled, GaugeFilledMetadata } from './filled/gauge_filled';
-import { Ghost2Filled, Ghost2FilledMetadata } from './filled/ghost-2_filled';
-import { Ghost3Filled, Ghost3FilledMetadata } from './filled/ghost-3_filled';
-import { GhostFilled, GhostFilledMetadata } from './filled/ghost_filled';
-import { GiftCardFilled, GiftCardFilledMetadata } from './filled/gift-card_filled';
-import { GiftFilled, GiftFilledMetadata } from './filled/gift_filled';
-import { GlassFullFilled, GlassFullFilledMetadata } from './filled/glass-full_filled';
-import { GlassFilled, GlassFilledMetadata } from './filled/glass_filled';
-import { GlobeFilled, GlobeFilledMetadata } from './filled/globe_filled';
-import { GolfFilled, GolfFilledMetadata } from './filled/golf_filled';
-import { GpsFilled, GpsFilledMetadata } from './filled/gps_filled';
-import { GraphFilled, GraphFilledMetadata } from './filled/graph_filled';
-import { GridPatternFilled, GridPatternFilledMetadata } from './filled/grid-pattern_filled';
-import { GuitarPickFilled, GuitarPickFilledMetadata } from './filled/guitar-pick_filled';
-import { Hanger2Filled, Hanger2FilledMetadata } from './filled/hanger-2_filled';
-import { HeadphonesFilled, HeadphonesFilledMetadata } from './filled/headphones_filled';
-import { HeartBrokenFilled, HeartBrokenFilledMetadata } from './filled/heart-broken_filled';
-import { HeartFilled, HeartFilledMetadata } from './filled/heart_filled';
-import { HelicopterLandingFilled, HelicopterLandingFilledMetadata } from './filled/helicopter-landing_filled';
-import { HelicopterFilled, HelicopterFilledMetadata } from './filled/helicopter_filled';
-import { HelpCircleFilled, HelpCircleFilledMetadata } from './filled/help-circle_filled';
-import { HelpHexagonFilled, HelpHexagonFilledMetadata } from './filled/help-hexagon_filled';
-import { HelpOctagonFilled, HelpOctagonFilledMetadata } from './filled/help-octagon_filled';
-import { HelpSquareRoundedFilled, HelpSquareRoundedFilledMetadata } from './filled/help-square-rounded_filled';
-import { HelpSquareFilled, HelpSquareFilledMetadata } from './filled/help-square_filled';
-import { HelpTriangleFilled, HelpTriangleFilledMetadata } from './filled/help-triangle_filled';
-import { HexagonFilled, HexagonFilledMetadata } from './filled/hexagon_filled';
-import { HomeFilled, HomeFilledMetadata } from './filled/home_filled';
-import { HospitalCircleFilled, HospitalCircleFilledMetadata } from './filled/hospital-circle_filled';
-import { HourglassFilled, HourglassFilledMetadata } from './filled/hourglass_filled';
-import { IconsFilled, IconsFilledMetadata } from './filled/icons_filled';
-import { InfoCircleFilled, InfoCircleFilledMetadata } from './filled/info-circle_filled';
-import { InfoHexagonFilled, InfoHexagonFilledMetadata } from './filled/info-hexagon_filled';
-import { InfoOctagonFilled, InfoOctagonFilledMetadata } from './filled/info-octagon_filled';
-import { InfoSquareRoundedFilled, InfoSquareRoundedFilledMetadata } from './filled/info-square-rounded_filled';
-import { InfoSquareFilled, InfoSquareFilledMetadata } from './filled/info-square_filled';
-import { InfoTriangleFilled, InfoTriangleFilledMetadata } from './filled/info-triangle_filled';
-import { InnerShadowBottomLeftFilled, InnerShadowBottomLeftFilledMetadata } from './filled/inner-shadow-bottom-left_filled';
-import { InnerShadowBottomRightFilled, InnerShadowBottomRightFilledMetadata } from './filled/inner-shadow-bottom-right_filled';
-import { InnerShadowBottomFilled, InnerShadowBottomFilledMetadata } from './filled/inner-shadow-bottom_filled';
-import { InnerShadowLeftFilled, InnerShadowLeftFilledMetadata } from './filled/inner-shadow-left_filled';
-import { InnerShadowRightFilled, InnerShadowRightFilledMetadata } from './filled/inner-shadow-right_filled';
-import { InnerShadowTopLeftFilled, InnerShadowTopLeftFilledMetadata } from './filled/inner-shadow-top-left_filled';
-import { InnerShadowTopRightFilled, InnerShadowTopRightFilledMetadata } from './filled/inner-shadow-top-right_filled';
-import { InnerShadowTopFilled, InnerShadowTopFilledMetadata } from './filled/inner-shadow-top_filled';
-import { Ironing1Filled, Ironing1FilledMetadata } from './filled/ironing-1_filled';
-import { Ironing2Filled, Ironing2FilledMetadata } from './filled/ironing-2_filled';
-import { Ironing3Filled, Ironing3FilledMetadata } from './filled/ironing-3_filled';
-import { IroningSteamFilled, IroningSteamFilledMetadata } from './filled/ironing-steam_filled';
-import { IroningFilled, IroningFilledMetadata } from './filled/ironing_filled';
-import { JetpackFilled, JetpackFilledMetadata } from './filled/jetpack_filled';
-import { JewishStarFilled, JewishStarFilledMetadata } from './filled/jewish-star_filled';
-import { KeyFilled, KeyFilledMetadata } from './filled/key_filled';
-import { KeyboardFilled, KeyboardFilledMetadata } from './filled/keyboard_filled';
-import { KeyframeAlignCenterFilled, KeyframeAlignCenterFilledMetadata } from './filled/keyframe-align-center_filled';
-import { KeyframeAlignHorizontalFilled, KeyframeAlignHorizontalFilledMetadata } from './filled/keyframe-align-horizontal_filled';
-import { KeyframeAlignVerticalFilled, KeyframeAlignVerticalFilledMetadata } from './filled/keyframe-align-vertical_filled';
-import { KeyframeFilled, KeyframeFilledMetadata } from './filled/keyframe_filled';
-import { KeyframesFilled, KeyframesFilledMetadata } from './filled/keyframes_filled';
-import { LabelImportantFilled, LabelImportantFilledMetadata } from './filled/label-important_filled';
-import { LabelFilled, LabelFilledMetadata } from './filled/label_filled';
-import { LassoPolygonFilled, LassoPolygonFilledMetadata } from './filled/lasso-polygon_filled';
-import { LaurelWreath1Filled, LaurelWreath1FilledMetadata } from './filled/laurel-wreath-1_filled';
-import { LaurelWreath2Filled, LaurelWreath2FilledMetadata } from './filled/laurel-wreath-2_filled';
-import { LaurelWreath3Filled, LaurelWreath3FilledMetadata } from './filled/laurel-wreath-3_filled';
-import { LaurelWreathFilled, LaurelWreathFilledMetadata } from './filled/laurel-wreath_filled';
-import { LeafFilled, LeafFilledMetadata } from './filled/leaf_filled';
-import { LegoFilled, LegoFilledMetadata } from './filled/lego_filled';
-import { Lemon2Filled, Lemon2FilledMetadata } from './filled/lemon-2_filled';
-import { LibraryPlusFilled, LibraryPlusFilledMetadata } from './filled/library-plus_filled';
-import { LibraryFilled, LibraryFilledMetadata } from './filled/library_filled';
-import { LifebuoyFilled, LifebuoyFilledMetadata } from './filled/lifebuoy_filled';
-import { LivePhotoFilled, LivePhotoFilledMetadata } from './filled/live-photo_filled';
-import { LiveViewFilled, LiveViewFilledMetadata } from './filled/live-view_filled';
-import { LocationFilled, LocationFilledMetadata } from './filled/location_filled';
-import { LockSquareRoundedFilled, LockSquareRoundedFilledMetadata } from './filled/lock-square-rounded_filled';
-import { LockFilled, LockFilledMetadata } from './filled/lock_filled';
-import { LungsFilled, LungsFilledMetadata } from './filled/lungs_filled';
-import { MacroFilled, MacroFilledMetadata } from './filled/macro_filled';
-import { MagnetFilled, MagnetFilledMetadata } from './filled/magnet_filled';
-import { MailOpenedFilled, MailOpenedFilledMetadata } from './filled/mail-opened_filled';
-import { MailFilled, MailFilledMetadata } from './filled/mail_filled';
-import { ManFilled, ManFilledMetadata } from './filled/man_filled';
-import { ManualGearboxFilled, ManualGearboxFilledMetadata } from './filled/manual-gearbox_filled';
-import { MapPinFilled, MapPinFilledMetadata } from './filled/map-pin_filled';
-import { MedicalCrossFilled, MedicalCrossFilledMetadata } from './filled/medical-cross_filled';
-import { MeepleFilled, MeepleFilledMetadata } from './filled/meeple_filled';
-import { MelonFilled, MelonFilledMetadata } from './filled/melon_filled';
-import { MeteorFilled, MeteorFilledMetadata } from './filled/meteor_filled';
-import { MichelinStarFilled, MichelinStarFilledMetadata } from './filled/michelin-star_filled';
-import { MickeyFilled, MickeyFilledMetadata } from './filled/mickey_filled';
-import { MicrophoneFilled, MicrophoneFilledMetadata } from './filled/microphone_filled';
-import { MicroscopeFilled, MicroscopeFilledMetadata } from './filled/microscope_filled';
-import { MicrowaveFilled, MicrowaveFilledMetadata } from './filled/microwave_filled';
-import { MilitaryRankFilled, MilitaryRankFilledMetadata } from './filled/military-rank_filled';
-import { MilkFilled, MilkFilledMetadata } from './filled/milk_filled';
-import { MoonFilled, MoonFilledMetadata } from './filled/moon_filled';
-import { MotorbikeFilled, MotorbikeFilledMetadata } from './filled/motorbike_filled';
-import { MountainFilled, MountainFilledMetadata } from './filled/mountain_filled';
-import { MouseFilled, MouseFilledMetadata } from './filled/mouse_filled';
-import { MugFilled, MugFilledMetadata } from './filled/mug_filled';
-import { MushroomFilled, MushroomFilledMetadata } from './filled/mushroom_filled';
-import { NavigationFilled, NavigationFilledMetadata } from './filled/navigation_filled';
-import { NurseFilled, NurseFilledMetadata } from './filled/nurse_filled';
-import { OctagonMinusFilled, OctagonMinusFilledMetadata } from './filled/octagon-minus_filled';
-import { OctagonPlusFilled, OctagonPlusFilledMetadata } from './filled/octagon-plus_filled';
-import { OctagonFilled, OctagonFilledMetadata } from './filled/octagon_filled';
-import { OvalVerticalFilled, OvalVerticalFilledMetadata } from './filled/oval-vertical_filled';
-import { OvalFilled, OvalFilledMetadata } from './filled/oval_filled';
-import { PacmanFilled, PacmanFilledMetadata } from './filled/pacman_filled';
-import { PaintFilled, PaintFilledMetadata } from './filled/paint_filled';
-import { PaletteFilled, PaletteFilledMetadata } from './filled/palette_filled';
-import { PanoramaHorizontalFilled, PanoramaHorizontalFilledMetadata } from './filled/panorama-horizontal_filled';
-import { PanoramaVerticalFilled, PanoramaVerticalFilledMetadata } from './filled/panorama-vertical_filled';
-import { ParkingCircleFilled, ParkingCircleFilledMetadata } from './filled/parking-circle_filled';
-import { PawFilled, PawFilledMetadata } from './filled/paw_filled';
-import { Pennant2Filled, Pennant2FilledMetadata } from './filled/pennant-2_filled';
-import { PennantFilled, PennantFilledMetadata } from './filled/pennant_filled';
-import { PentagonFilled, PentagonFilledMetadata } from './filled/pentagon_filled';
-import { PhotoFilled, PhotoFilledMetadata } from './filled/photo_filled';
-import { PictureInPictureTopFilled, PictureInPictureTopFilledMetadata } from './filled/picture-in-picture-top_filled';
-import { PictureInPictureFilled, PictureInPictureFilledMetadata } from './filled/picture-in-picture_filled';
-import { PigFilled, PigFilledMetadata } from './filled/pig_filled';
-import { PillFilled, PillFilledMetadata } from './filled/pill_filled';
-import { PinFilled, PinFilledMetadata } from './filled/pin_filled';
-import { PinnedFilled, PinnedFilledMetadata } from './filled/pinned_filled';
-import { PizzaFilled, PizzaFilledMetadata } from './filled/pizza_filled';
-import { PlaneArrivalFilled, PlaneArrivalFilledMetadata } from './filled/plane-arrival_filled';
-import { PlaneDepartureFilled, PlaneDepartureFilledMetadata } from './filled/plane-departure_filled';
-import { PlaneTiltFilled, PlaneTiltFilledMetadata } from './filled/plane-tilt_filled';
-import { PlaneFilled, PlaneFilledMetadata } from './filled/plane_filled';
-import { PlayCard10Filled, PlayCard10FilledMetadata } from './filled/play-card-10_filled';
-import { PlayCard1Filled, PlayCard1FilledMetadata } from './filled/play-card-1_filled';
-import { PlayCard2Filled, PlayCard2FilledMetadata } from './filled/play-card-2_filled';
-import { PlayCard3Filled, PlayCard3FilledMetadata } from './filled/play-card-3_filled';
-import { PlayCard4Filled, PlayCard4FilledMetadata } from './filled/play-card-4_filled';
-import { PlayCard5Filled, PlayCard5FilledMetadata } from './filled/play-card-5_filled';
-import { PlayCard6Filled, PlayCard6FilledMetadata } from './filled/play-card-6_filled';
-import { PlayCard7Filled, PlayCard7FilledMetadata } from './filled/play-card-7_filled';
-import { PlayCard8Filled, PlayCard8FilledMetadata } from './filled/play-card-8_filled';
-import { PlayCard9Filled, PlayCard9FilledMetadata } from './filled/play-card-9_filled';
-import { PlayCardAFilled, PlayCardAFilledMetadata } from './filled/play-card-a_filled';
-import { PlayCardJFilled, PlayCardJFilledMetadata } from './filled/play-card-j_filled';
-import { PlayCardKFilled, PlayCardKFilledMetadata } from './filled/play-card-k_filled';
-import { PlayCardQFilled, PlayCardQFilledMetadata } from './filled/play-card-q_filled';
-import { PlayCardStarFilled, PlayCardStarFilledMetadata } from './filled/play-card-star_filled';
-import { PlayCardFilled, PlayCardFilledMetadata } from './filled/play-card_filled';
-import { PointFilled, PointFilledMetadata } from './filled/point_filled';
-import { PointerFilled, PointerFilledMetadata } from './filled/pointer_filled';
-import { PolaroidFilled, PolaroidFilledMetadata } from './filled/polaroid_filled';
-import { PooFilled, PooFilledMetadata } from './filled/poo_filled';
-import { PresentationAnalyticsFilled, PresentationAnalyticsFilledMetadata } from './filled/presentation-analytics_filled';
-import { PresentationFilled, PresentationFilledMetadata } from './filled/presentation_filled';
-import { PuzzleFilled, PuzzleFilledMetadata } from './filled/puzzle_filled';
-import { QuoteFilled, QuoteFilledMetadata } from './filled/quote_filled';
-import { RadarFilled, RadarFilledMetadata } from './filled/radar_filled';
-import { RadioactiveFilled, RadioactiveFilledMetadata } from './filled/radioactive_filled';
-import { ReceiptDollarFilled, ReceiptDollarFilledMetadata } from './filled/receipt-dollar_filled';
-import { ReceiptEuroFilled, ReceiptEuroFilledMetadata } from './filled/receipt-euro_filled';
-import { ReceiptPoundFilled, ReceiptPoundFilledMetadata } from './filled/receipt-pound_filled';
-import { ReceiptRupeeFilled, ReceiptRupeeFilledMetadata } from './filled/receipt-rupee_filled';
-import { ReceiptYenFilled, ReceiptYenFilledMetadata } from './filled/receipt-yen_filled';
-import { ReceiptYuanFilled, ReceiptYuanFilledMetadata } from './filled/receipt-yuan_filled';
-import { ReceiptFilled, ReceiptFilledMetadata } from './filled/receipt_filled';
-import { RectangleVerticalFilled, RectangleVerticalFilledMetadata } from './filled/rectangle-vertical_filled';
-import { RectangleFilled, RectangleFilledMetadata } from './filled/rectangle_filled';
-import { RegisteredFilled, RegisteredFilledMetadata } from './filled/registered_filled';
-import { RelationManyToManyFilled, RelationManyToManyFilledMetadata } from './filled/relation-many-to-many_filled';
-import { RelationOneToManyFilled, RelationOneToManyFilledMetadata } from './filled/relation-one-to-many_filled';
-import { RelationOneToOneFilled, RelationOneToOneFilledMetadata } from './filled/relation-one-to-one_filled';
-import { ReplaceFilled, ReplaceFilledMetadata } from './filled/replace_filled';
-import { ReportAnalyticsFilled, ReportAnalyticsFilledMetadata } from './filled/report-analytics_filled';
-import { ReportMoneyFilled, ReportMoneyFilledMetadata } from './filled/report-money_filled';
-import { RollercoasterFilled, RollercoasterFilledMetadata } from './filled/rollercoaster_filled';
-import { RosetteDiscountCheckFilled, RosetteDiscountCheckFilledMetadata } from './filled/rosette-discount-check_filled';
-import { RosetteDiscountFilled, RosetteDiscountFilledMetadata } from './filled/rosette-discount_filled';
-import { RosetteFilled, RosetteFilledMetadata } from './filled/rosette_filled';
-import { SaladFilled, SaladFilledMetadata } from './filled/salad_filled';
-import { SatelliteFilled, SatelliteFilledMetadata } from './filled/satellite_filled';
-import { ScubaDivingTankFilled, ScubaDivingTankFilledMetadata } from './filled/scuba-diving-tank_filled';
-import { SectionFilled, SectionFilledMetadata } from './filled/section_filled';
-import { SeedlingFilled, SeedlingFilledMetadata } from './filled/seedling_filled';
-import { SettingsFilled, SettingsFilledMetadata } from './filled/settings_filled';
-import { ShirtFilled, ShirtFilledMetadata } from './filled/shirt_filled';
-import { ShoppingCartFilled, ShoppingCartFilledMetadata } from './filled/shopping-cart_filled';
-import { SignLeftFilled, SignLeftFilledMetadata } from './filled/sign-left_filled';
-import { SignRightFilled, SignRightFilledMetadata } from './filled/sign-right_filled';
-import { SitemapFilled, SitemapFilledMetadata } from './filled/sitemap_filled';
-import { SortAscending2Filled, SortAscending2FilledMetadata } from './filled/sort-ascending-2_filled';
-import { SortAscendingShapesFilled, SortAscendingShapesFilledMetadata } from './filled/sort-ascending-shapes_filled';
-import { SortDescending2Filled, SortDescending2FilledMetadata } from './filled/sort-descending-2_filled';
-import { SortDescendingShapesFilled, SortDescendingShapesFilledMetadata } from './filled/sort-descending-shapes_filled';
-import { SoupFilled, SoupFilledMetadata } from './filled/soup_filled';
-import { SpadeFilled, SpadeFilledMetadata } from './filled/spade_filled';
-import { Sparkles2Filled, Sparkles2FilledMetadata } from './filled/sparkles-2_filled';
-import { SparklesFilled, SparklesFilledMetadata } from './filled/sparkles_filled';
-import { SpeedboatFilled, SpeedboatFilledMetadata } from './filled/speedboat_filled';
-import { SpiderFilled, SpiderFilledMetadata } from './filled/spider_filled';
-import { Stack2Filled, Stack2FilledMetadata } from './filled/stack-2_filled';
-import { Stack3Filled, Stack3FilledMetadata } from './filled/stack-3_filled';
-import { StackFilled, StackFilledMetadata } from './filled/stack_filled';
-import { StarHalfFilled, StarHalfFilledMetadata } from './filled/star-half_filled';
-import { StarFilled, StarFilledMetadata } from './filled/star_filled';
-import { StarsFilled, StarsFilledMetadata } from './filled/stars_filled';
-import { SteeringWheelFilled, SteeringWheelFilledMetadata } from './filled/steering-wheel_filled';
-import { SunHighFilled, SunHighFilledMetadata } from './filled/sun-high_filled';
-import { SunLowFilled, SunLowFilledMetadata } from './filled/sun-low_filled';
-import { SunFilled, SunFilledMetadata } from './filled/sun_filled';
-import { SunglassesFilled, SunglassesFilledMetadata } from './filled/sunglasses_filled';
-import { SunriseFilled, SunriseFilledMetadata } from './filled/sunrise_filled';
-import { Sunset2Filled, Sunset2FilledMetadata } from './filled/sunset-2_filled';
-import { SunsetFilled, SunsetFilledMetadata } from './filled/sunset_filled';
-import { SwipeDownFilled, SwipeDownFilledMetadata } from './filled/swipe-down_filled';
-import { SwipeLeftFilled, SwipeLeftFilledMetadata } from './filled/swipe-left_filled';
-import { SwipeRightFilled, SwipeRightFilledMetadata } from './filled/swipe-right_filled';
-import { SwipeUpFilled, SwipeUpFilledMetadata } from './filled/swipe-up_filled';
-import { TableFilled, TableFilledMetadata } from './filled/table_filled';
-import { TagFilled, TagFilledMetadata } from './filled/tag_filled';
-import { TagsFilled, TagsFilledMetadata } from './filled/tags_filled';
-import { TemperatureMinusFilled, TemperatureMinusFilledMetadata } from './filled/temperature-minus_filled';
-import { TemperaturePlusFilled, TemperaturePlusFilledMetadata } from './filled/temperature-plus_filled';
-import { TemplateFilled, TemplateFilledMetadata } from './filled/template_filled';
-import { TestPipe2Filled, TestPipe2FilledMetadata } from './filled/test-pipe-2_filled';
-import { ThumbDownFilled, ThumbDownFilledMetadata } from './filled/thumb-down_filled';
-import { ThumbUpFilled, ThumbUpFilledMetadata } from './filled/thumb-up_filled';
-import { TiltShiftFilled, TiltShiftFilledMetadata } from './filled/tilt-shift_filled';
-import { TimelineEventFilled, TimelineEventFilledMetadata } from './filled/timeline-event_filled';
-import { ToggleLeftFilled, ToggleLeftFilledMetadata } from './filled/toggle-left_filled';
-import { ToggleRightFilled, ToggleRightFilledMetadata } from './filled/toggle-right_filled';
-import { TrainFilled, TrainFilledMetadata } from './filled/train_filled';
-import { TransformFilled, TransformFilledMetadata } from './filled/transform_filled';
-import { TransitionBottomFilled, TransitionBottomFilledMetadata } from './filled/transition-bottom_filled';
-import { TransitionLeftFilled, TransitionLeftFilledMetadata } from './filled/transition-left_filled';
-import { TransitionRightFilled, TransitionRightFilledMetadata } from './filled/transition-right_filled';
-import { TransitionTopFilled, TransitionTopFilledMetadata } from './filled/transition-top_filled';
-import { TrashXFilled, TrashXFilledMetadata } from './filled/trash-x_filled';
-import { TrashFilled, TrashFilledMetadata } from './filled/trash_filled';
-import { TriangleInvertedFilled, TriangleInvertedFilledMetadata } from './filled/triangle-inverted_filled';
-import { TriangleSquareCircleFilled, TriangleSquareCircleFilledMetadata } from './filled/triangle-square-circle_filled';
-import { TriangleFilled, TriangleFilledMetadata } from './filled/triangle_filled';
-import { TrolleyFilled, TrolleyFilledMetadata } from './filled/trolley_filled';
-import { TrophyFilled, TrophyFilledMetadata } from './filled/trophy_filled';
-import { TruckFilled, TruckFilledMetadata } from './filled/truck_filled';
-import { UfoFilled, UfoFilledMetadata } from './filled/ufo_filled';
-import { UmbrellaFilled, UmbrellaFilledMetadata } from './filled/umbrella_filled';
-import { UserFilled, UserFilledMetadata } from './filled/user_filled';
-import { VersionsFilled, VersionsFilledMetadata } from './filled/versions_filled';
-import { VideoMinusFilled, VideoMinusFilledMetadata } from './filled/video-minus_filled';
-import { VideoPlusFilled, VideoPlusFilledMetadata } from './filled/video-plus_filled';
-import { VideoFilled, VideoFilledMetadata } from './filled/video_filled';
-import { WindmillFilled, WindmillFilledMetadata } from './filled/windmill_filled';
-import { WindsockFilled, WindsockFilledMetadata } from './filled/windsock_filled';
-import { WomanFilled, WomanFilledMetadata } from './filled/woman_filled';
-import { WritingSignFilled, WritingSignFilledMetadata } from './filled/writing-sign_filled';
-import { WritingFilled, WritingFilledMetadata } from './filled/writing_filled';
-import { XboxAFilled, XboxAFilledMetadata } from './filled/xbox-a_filled';
-import { XboxBFilled, XboxBFilledMetadata } from './filled/xbox-b_filled';
-import { XboxXFilled, XboxXFilledMetadata } from './filled/xbox-x_filled';
-import { XboxYFilled, XboxYFilledMetadata } from './filled/xbox-y_filled';
-import { YinYangFilled, YinYangFilledMetadata } from './filled/yin-yang_filled';
-import { ZeppelinFilled, ZeppelinFilledMetadata } from './filled/zeppelin_filled';
+import { ArchiveRounded, ArchiveRoundedMetadata } from './finance/archive_rounded';
 import { BankDoodle, BankDoodleMetadata } from './finance/bank_doodle';
 import { BanknoteArrowDown, BanknoteArrowDownMetadata } from './finance/banknote-arrow-down';
 import { BanknoteArrowUp, BanknoteArrowUpMetadata } from './finance/banknote-arrow-up';
@@ -4607,52 +4282,122 @@ import { BanknoteX, BanknoteXMetadata } from './finance/banknote-x';
 import { Banknote, BanknoteMetadata } from './finance/banknote';
 import { BillDoodle, BillDoodleMetadata } from './finance/bill_doodle';
 import { Bitcoin, BitcoinMetadata } from './finance/bitcoin';
+import { CardAddRounded, CardAddRoundedMetadata } from './finance/card-add_rounded';
+import { CardEditRounded, CardEditRoundedMetadata } from './finance/card-edit_rounded';
+import { CardPosRounded, CardPosRoundedMetadata } from './finance/card-pos_rounded';
+import { CardReceiveRounded, CardReceiveRoundedMetadata } from './finance/card-receive_rounded';
+import { CardRemove1Rounded, CardRemove1RoundedMetadata } from './finance/card-remove-1_rounded';
+import { CardRemoveRounded, CardRemoveRoundedMetadata } from './finance/card-remove_rounded';
+import { CardSendRounded, CardSendRoundedMetadata } from './finance/card-send_rounded';
+import { CardSlashRounded, CardSlashRoundedMetadata } from './finance/card-slash_rounded';
+import { CardTick1Rounded, CardTick1RoundedMetadata } from './finance/card-tick-1_rounded';
+import { CardTickRounded, CardTickRoundedMetadata } from './finance/card-tick_rounded';
+import { CardRounded, CardRoundedMetadata } from './finance/card_rounded';
+import { CardsRounded, CardsRoundedMetadata } from './finance/cards_rounded';
 import { CashDoodle, CashDoodleMetadata } from './finance/cash_doodle';
+import { ChartSquareRounded, ChartSquareRoundedMetadata } from './finance/chart-square_rounded';
+import { Coin1Rounded, Coin1RoundedMetadata } from './finance/coin-1_rounded';
 import { Coin2Doodle, Coin2DoodleMetadata } from './finance/coin-2_doodle';
-import { CoinBitcoinFilled, CoinBitcoinFilledMetadata } from './finance/coin-bitcoin_filled';
-import { CoinEuroFilled, CoinEuroFilledMetadata } from './finance/coin-euro_filled';
-import { CoinMoneroFilled, CoinMoneroFilledMetadata } from './finance/coin-monero_filled';
-import { CoinPoundFilled, CoinPoundFilledMetadata } from './finance/coin-pound_filled';
-import { CoinRupeeFilled, CoinRupeeFilledMetadata } from './finance/coin-rupee_filled';
-import { CoinTakaFilled, CoinTakaFilledMetadata } from './finance/coin-taka_filled';
-import { CoinYenFilled, CoinYenFilledMetadata } from './finance/coin-yen_filled';
-import { CoinYuanFilled, CoinYuanFilledMetadata } from './finance/coin-yuan_filled';
 import { CoinDoodle, CoinDoodleMetadata } from './finance/coin_doodle';
-import { CoinFilled, CoinFilledMetadata } from './finance/coin_filled';
+import { CoinRounded, CoinRoundedMetadata } from './finance/coin_rounded';
 import { Coins, CoinsMetadata } from './finance/coins';
 import { CreditCard, CreditCardMetadata } from './finance/credit-card';
+import { DiscountCircleRounded, DiscountCircleRoundedMetadata } from './finance/discount-circle_rounded';
+import { DiscountShapeRounded, DiscountShapeRoundedMetadata } from './finance/discount-shape_rounded';
+import { DollarCircleRounded, DollarCircleRoundedMetadata } from './finance/dollar-circle_rounded';
 import { DollarSign, DollarSignMetadata } from './finance/dollar-sign';
+import { DollarSquareRounded, DollarSquareRoundedMetadata } from './finance/dollar-square_rounded';
 import { DollarDoodle, DollarDoodleMetadata } from './finance/dollar_doodle';
+import { EmptyWalletAddRounded, EmptyWalletAddRoundedMetadata } from './finance/empty-wallet-add_rounded';
+import { EmptyWalletChangeRounded, EmptyWalletChangeRoundedMetadata } from './finance/empty-wallet-change_rounded';
+import { EmptyWalletRemoveRounded, EmptyWalletRemoveRoundedMetadata } from './finance/empty-wallet-remove_rounded';
+import { EmptyWalletTickRounded, EmptyWalletTickRoundedMetadata } from './finance/empty-wallet-tick_rounded';
+import { EmptyWalletTimeRounded, EmptyWalletTimeRoundedMetadata } from './finance/empty-wallet-time_rounded';
+import { EmptyWalletRounded, EmptyWalletRoundedMetadata } from './finance/empty-wallet_rounded';
 import { Euro, EuroMetadata } from './finance/euro';
 import { EuroDoodle, EuroDoodleMetadata } from './finance/euro_doodle';
 import { FrancDoodle, FrancDoodleMetadata } from './finance/franc_doodle';
 import { IndianRupee, IndianRupeeMetadata } from './finance/indian-rupee';
 import { JapaneseYen, JapaneseYenMetadata } from './finance/japanese-yen';
+import { MathRounded, MathRoundedMetadata } from './finance/math_rounded';
+import { Money2Rounded, Money2RoundedMetadata } from './finance/money-2_rounded';
+import { Money3Rounded, Money3RoundedMetadata } from './finance/money-3_rounded';
+import { Money4Rounded, Money4RoundedMetadata } from './finance/money-4_rounded';
+import { MoneyAddRounded, MoneyAddRoundedMetadata } from './finance/money-add_rounded';
+import { MoneyChangeRounded, MoneyChangeRoundedMetadata } from './finance/money-change_rounded';
+import { MoneyForbiddenRounded, MoneyForbiddenRoundedMetadata } from './finance/money-forbidden_rounded';
 import { MoneyPlantDoodle, MoneyPlantDoodleMetadata } from './finance/money-plant_doodle';
+import { MoneyReciveRounded, MoneyReciveRoundedMetadata } from './finance/money-recive_rounded';
+import { MoneyRemoveRounded, MoneyRemoveRoundedMetadata } from './finance/money-remove_rounded';
+import { MoneySendRounded, MoneySendRoundedMetadata } from './finance/money-send_rounded';
+import { MoneyTickRounded, MoneyTickRoundedMetadata } from './finance/money-tick_rounded';
+import { MoneyTimeRounded, MoneyTimeRoundedMetadata } from './finance/money-time_rounded';
+import { MoneyRounded, MoneyRoundedMetadata } from './finance/money_rounded';
+import { MoneysRounded, MoneysRoundedMetadata } from './finance/moneys_rounded';
+import { PercentageSquareRounded, PercentageSquareRoundedMetadata } from './finance/percentage-square_rounded';
 import { PhilippinePeso, PhilippinePesoMetadata } from './finance/philippine-peso';
 import { PiggyBankDoodle, PiggyBankDoodleMetadata } from './finance/piggy-bank_doodle';
 import { PoundSterling, PoundSterlingMetadata } from './finance/pound-sterling';
 import { PoundDoodle, PoundDoodleMetadata } from './finance/pound_doodle';
+import { Receipt1Rounded, Receipt1RoundedMetadata } from './finance/receipt-1_rounded';
+import { Receipt21Rounded, Receipt21RoundedMetadata } from './finance/receipt-2-1_rounded';
+import { Receipt2Rounded, Receipt2RoundedMetadata } from './finance/receipt-2_rounded';
+import { ReceiptAddRounded, ReceiptAddRoundedMetadata } from './finance/receipt-add_rounded';
+import { ReceiptDiscountRounded, ReceiptDiscountRoundedMetadata } from './finance/receipt-discount_rounded';
+import { ReceiptDisscountRounded, ReceiptDisscountRoundedMetadata } from './finance/receipt-disscount_rounded';
+import { ReceiptEditRounded, ReceiptEditRoundedMetadata } from './finance/receipt-edit_rounded';
+import { ReceiptItemRounded, ReceiptItemRoundedMetadata } from './finance/receipt-item_rounded';
+import { ReceiptMinusRounded, ReceiptMinusRoundedMetadata } from './finance/receipt-minus_rounded';
+import { ReceiptSearchRounded, ReceiptSearchRoundedMetadata } from './finance/receipt-search_rounded';
+import { ReceiptTextRounded, ReceiptTextRoundedMetadata } from './finance/receipt-text_rounded';
+import { ReceiptRounded, ReceiptRoundedMetadata } from './finance/receipt_rounded';
 import { RubleDoodle, RubleDoodleMetadata } from './finance/ruble_doodle';
 import { RupeeDoodle, RupeeDoodleMetadata } from './finance/rupee_doodle';
 import { SafeDoodle, SafeDoodleMetadata } from './finance/safe_doodle';
 import { SavingDoodle, SavingDoodleMetadata } from './finance/saving_doodle';
+import { SecurityCardRounded, SecurityCardRoundedMetadata } from './finance/security-card_rounded';
+import { Strongbox2Rounded, Strongbox2RoundedMetadata } from './finance/strongbox-2_rounded';
+import { StrongboxRounded, StrongboxRoundedMetadata } from './finance/strongbox_rounded';
 import { SwissFranc, SwissFrancMetadata } from './finance/swiss-franc';
+import { Tag2Rounded, Tag2RoundedMetadata } from './finance/tag-2_rounded';
+import { TagRounded, TagRoundedMetadata } from './finance/tag_rounded';
+import { Ticket2Rounded, Ticket2RoundedMetadata } from './finance/ticket-2_rounded';
+import { TicketDiscountRounded, TicketDiscountRoundedMetadata } from './finance/ticket-discount_rounded';
+import { TicketExpiredRounded, TicketExpiredRoundedMetadata } from './finance/ticket-expired_rounded';
+import { TicketStarRounded, TicketStarRoundedMetadata } from './finance/ticket-star_rounded';
+import { TicketRounded, TicketRoundedMetadata } from './finance/ticket_rounded';
+import { TransactionMinusRounded, TransactionMinusRoundedMetadata } from './finance/transaction-minus_rounded';
 import { TrendDownSquareDoodle, TrendDownSquareDoodleMetadata } from './finance/trend-down-square_doodle';
 import { TrendDownDoodle, TrendDownDoodleMetadata } from './finance/trend-down_doodle';
 import { TrendUpSquareDoodle, TrendUpSquareDoodleMetadata } from './finance/trend-up-square_doodle';
 import { TrendUpDoodle, TrendUpDoodleMetadata } from './finance/trend-up_doodle';
+import { Wallet1Rounded, Wallet1RoundedMetadata } from './finance/wallet-1_rounded';
+import { Wallet2Rounded, Wallet2RoundedMetadata } from './finance/wallet-2_rounded';
+import { Wallet3Rounded, Wallet3RoundedMetadata } from './finance/wallet-3_rounded';
+import { WalletAdd1Rounded, WalletAdd1RoundedMetadata } from './finance/wallet-add-1_rounded';
+import { WalletAddRounded, WalletAddRoundedMetadata } from './finance/wallet-add_rounded';
+import { WalletCheckRounded, WalletCheckRoundedMetadata } from './finance/wallet-check_rounded';
+import { WalletMinusRounded, WalletMinusRoundedMetadata } from './finance/wallet-minus_rounded';
+import { WalletMoneyRounded, WalletMoneyRoundedMetadata } from './finance/wallet-money_rounded';
+import { WalletRemoveRounded, WalletRemoveRoundedMetadata } from './finance/wallet-remove_rounded';
+import { WalletSearchRounded, WalletSearchRoundedMetadata } from './finance/wallet-search_rounded';
 import { WalletDoodle, WalletDoodleMetadata } from './finance/wallet_doodle';
+import { WalletRounded, WalletRoundedMetadata } from './finance/wallet_rounded';
 import { WonDoodle, WonDoodleMetadata } from './finance/won_doodle';
 import { YenDoodle, YenDoodleMetadata } from './finance/yen_doodle';
+import { Folder2Rounded, Folder2RoundedMetadata } from './folder/folder-2_rounded';
+import { FolderAddRounded, FolderAddRoundedMetadata } from './folder/folder-add_rounded';
 import { FolderArchive, FolderArchiveMetadata } from './folder/folder-archive';
 import { FolderCheck, FolderCheckMetadata } from './folder/folder-check';
 import { FolderClock, FolderClockMetadata } from './folder/folder-clock';
 import { FolderClosed, FolderClosedMetadata } from './folder/folder-closed';
+import { FolderCloudRounded, FolderCloudRoundedMetadata } from './folder/folder-cloud_rounded';
 import { FolderCode, FolderCodeMetadata } from './folder/folder-code';
 import { FolderCog, FolderCogMetadata } from './folder/folder-cog';
+import { FolderCrossRounded, FolderCrossRoundedMetadata } from './folder/folder-cross_rounded';
 import { FolderDot, FolderDotMetadata } from './folder/folder-dot';
 import { FolderDown, FolderDownMetadata } from './folder/folder-down';
+import { FolderFavoriteRounded, FolderFavoriteRoundedMetadata } from './folder/folder-favorite_rounded';
 import { FolderGit2, FolderGit2Metadata } from './folder/folder-git-2';
 import { FolderGit, FolderGitMetadata } from './folder/folder-git';
 import { FolderHeart, FolderHeartMetadata } from './folder/folder-heart';
@@ -4661,8 +4406,10 @@ import { FolderKanban, FolderKanbanMetadata } from './folder/folder-kanban';
 import { FolderKey, FolderKeyMetadata } from './folder/folder-key';
 import { FolderLock, FolderLockMetadata } from './folder/folder-lock';
 import { FolderMinus, FolderMinusMetadata } from './folder/folder-minus';
+import { FolderMinusRounded, FolderMinusRoundedMetadata } from './folder/folder-minus_rounded';
 import { FolderOpenDot, FolderOpenDotMetadata } from './folder/folder-open-dot';
 import { FolderOpen, FolderOpenMetadata } from './folder/folder-open';
+import { FolderOpenRounded, FolderOpenRoundedMetadata } from './folder/folder-open_rounded';
 import { FolderOutput, FolderOutputMetadata } from './folder/folder-output';
 import { FolderPen, FolderPenMetadata } from './folder/folder-pen';
 import { FolderPlus, FolderPlusMetadata } from './folder/folder-plus';
@@ -4675,6 +4422,7 @@ import { FolderTree, FolderTreeMetadata } from './folder/folder-tree';
 import { FolderUp, FolderUpMetadata } from './folder/folder-up';
 import { FolderX, FolderXMetadata } from './folder/folder-x';
 import { Folder, FolderMetadata } from './folder/folder';
+import { FolderRounded, FolderRoundedMetadata } from './folder/folder_rounded';
 import { Folders, FoldersMetadata } from './folder/folders';
 import { Apple, AppleMetadata } from './food/apple';
 import { Banana, BananaMetadata } from './food/banana';
@@ -4718,35 +4466,24 @@ import { Salad, SaladMetadata } from './food/salad';
 import { Sandwich, SandwichMetadata } from './food/sandwich';
 import { SpoonDoodle, SpoonDoodleMetadata } from './food/spoon_doodle';
 import { WaterDoodle, WaterDoodleMetadata } from './food/water_doodle';
+import { AquariusRounded, AquariusRoundedMetadata } from './gender/aquarius_rounded';
 import { BisexualDoodle, BisexualDoodleMetadata } from './gender/bisexual_doodle';
 import { FemaileDoodle, FemaileDoodleMetadata } from './gender/femaile_doodle';
 import { GayDoodle, GayDoodleMetadata } from './gender/gay_doodle';
+import { Gemini2Rounded, Gemini2RoundedMetadata } from './gender/gemini-2_rounded';
+import { GeminiRounded, GeminiRoundedMetadata } from './gender/gemini_rounded';
 import { GenderlessDoodle, GenderlessDoodleMetadata } from './gender/genderless_doodle';
 import { HetroDoodle, HetroDoodleMetadata } from './gender/hetro_doodle';
 import { IntersexDoodle, IntersexDoodleMetadata } from './gender/intersex_doodle';
 import { LesbianDoodle, LesbianDoodleMetadata } from './gender/lesbian_doodle';
 import { MaleDoodle, MaleDoodleMetadata } from './gender/male_doodle';
+import { ManRounded, ManRoundedMetadata } from './gender/man_rounded';
 import { NonBinaryTransgenderDoodle, NonBinaryTransgenderDoodleMetadata } from './gender/non-binary-transgender_doodle';
 import { OtherGenderDoodle, OtherGenderDoodleMetadata } from './gender/other-gender_doodle';
+import { SagittariusRounded, SagittariusRoundedMetadata } from './gender/sagittarius_rounded';
 import { Transgender2Doodle, Transgender2DoodleMetadata } from './gender/transgender-2_doodle';
 import { TransgenderDoodle, TransgenderDoodleMetadata } from './gender/transgender_doodle';
-import { GitBranchMinus, GitBranchMinusMetadata } from './git/git-branch-minus';
-import { GitBranchPlus, GitBranchPlusMetadata } from './git/git-branch-plus';
-import { GitBranch, GitBranchMetadata } from './git/git-branch';
-import { GitCommitHorizontal, GitCommitHorizontalMetadata } from './git/git-commit-horizontal';
-import { GitCommitVertical, GitCommitVerticalMetadata } from './git/git-commit-vertical';
-import { GitCompareArrows, GitCompareArrowsMetadata } from './git/git-compare-arrows';
-import { GitCompare, GitCompareMetadata } from './git/git-compare';
-import { GitFork, GitForkMetadata } from './git/git-fork';
-import { GitGraph, GitGraphMetadata } from './git/git-graph';
-import { GitMergeConflict, GitMergeConflictMetadata } from './git/git-merge-conflict';
-import { GitMerge, GitMergeMetadata } from './git/git-merge';
-import { GitPullRequestArrow, GitPullRequestArrowMetadata } from './git/git-pull-request-arrow';
-import { GitPullRequestClosed, GitPullRequestClosedMetadata } from './git/git-pull-request-closed';
-import { GitPullRequestCreateArrow, GitPullRequestCreateArrowMetadata } from './git/git-pull-request-create-arrow';
-import { GitPullRequestCreate, GitPullRequestCreateMetadata } from './git/git-pull-request-create';
-import { GitPullRequestDraft, GitPullRequestDraftMetadata } from './git/git-pull-request-draft';
-import { GitPullRequest, GitPullRequestMetadata } from './git/git-pull-request';
+import { WomanRounded, WomanRoundedMetadata } from './gender/woman_rounded';
 import { ClapDoodle, ClapDoodleMetadata } from './hand/clap_doodle';
 import { Double2TapDoodle, Double2TapDoodleMetadata } from './hand/double-2-tap_doodle';
 import { DoubleTapDoodle, DoubleTapDoodleMetadata } from './hand/double-tap_doodle';
@@ -4830,67 +4567,117 @@ import { ThermometerSun, ThermometerSunMetadata } from './health/thermometer-sun
 import { Thermometer, ThermometerMetadata } from './health/thermometer';
 import { ToothDoodle, ToothDoodleMetadata } from './health/tooth_doodle';
 import { WheelchairDoodle, WheelchairDoodleMetadata } from './health/wheelchair_doodle';
-import { HexagonLetterAFilled, HexagonLetterAFilledMetadata } from './hexagon/hexagon-letter-a_filled';
-import { HexagonLetterBFilled, HexagonLetterBFilledMetadata } from './hexagon/hexagon-letter-b_filled';
-import { HexagonLetterCFilled, HexagonLetterCFilledMetadata } from './hexagon/hexagon-letter-c_filled';
-import { HexagonLetterDFilled, HexagonLetterDFilledMetadata } from './hexagon/hexagon-letter-d_filled';
-import { HexagonLetterEFilled, HexagonLetterEFilledMetadata } from './hexagon/hexagon-letter-e_filled';
-import { HexagonLetterFFilled, HexagonLetterFFilledMetadata } from './hexagon/hexagon-letter-f_filled';
-import { HexagonLetterGFilled, HexagonLetterGFilledMetadata } from './hexagon/hexagon-letter-g_filled';
-import { HexagonLetterHFilled, HexagonLetterHFilledMetadata } from './hexagon/hexagon-letter-h_filled';
-import { HexagonLetterIFilled, HexagonLetterIFilledMetadata } from './hexagon/hexagon-letter-i_filled';
-import { HexagonLetterJFilled, HexagonLetterJFilledMetadata } from './hexagon/hexagon-letter-j_filled';
-import { HexagonLetterKFilled, HexagonLetterKFilledMetadata } from './hexagon/hexagon-letter-k_filled';
-import { HexagonLetterLFilled, HexagonLetterLFilledMetadata } from './hexagon/hexagon-letter-l_filled';
-import { HexagonLetterMFilled, HexagonLetterMFilledMetadata } from './hexagon/hexagon-letter-m_filled';
-import { HexagonLetterNFilled, HexagonLetterNFilledMetadata } from './hexagon/hexagon-letter-n_filled';
-import { HexagonLetterOFilled, HexagonLetterOFilledMetadata } from './hexagon/hexagon-letter-o_filled';
-import { HexagonLetterPFilled, HexagonLetterPFilledMetadata } from './hexagon/hexagon-letter-p_filled';
-import { HexagonLetterQFilled, HexagonLetterQFilledMetadata } from './hexagon/hexagon-letter-q_filled';
-import { HexagonLetterRFilled, HexagonLetterRFilledMetadata } from './hexagon/hexagon-letter-r_filled';
-import { HexagonLetterSFilled, HexagonLetterSFilledMetadata } from './hexagon/hexagon-letter-s_filled';
-import { HexagonLetterTFilled, HexagonLetterTFilledMetadata } from './hexagon/hexagon-letter-t_filled';
-import { HexagonLetterUFilled, HexagonLetterUFilledMetadata } from './hexagon/hexagon-letter-u_filled';
-import { HexagonLetterVFilled, HexagonLetterVFilledMetadata } from './hexagon/hexagon-letter-v_filled';
-import { HexagonLetterWFilled, HexagonLetterWFilledMetadata } from './hexagon/hexagon-letter-w_filled';
-import { HexagonLetterXFilled, HexagonLetterXFilledMetadata } from './hexagon/hexagon-letter-x_filled';
-import { HexagonLetterYFilled, HexagonLetterYFilledMetadata } from './hexagon/hexagon-letter-y_filled';
-import { HexagonLetterZFilled, HexagonLetterZFilledMetadata } from './hexagon/hexagon-letter-z_filled';
-import { HexagonMinusFilled, HexagonMinusFilledMetadata } from './hexagon/hexagon-minus_filled';
-import { HexagonNumber0Filled, HexagonNumber0FilledMetadata } from './hexagon/hexagon-number-0_filled';
-import { HexagonNumber1Filled, HexagonNumber1FilledMetadata } from './hexagon/hexagon-number-1_filled';
-import { HexagonNumber2Filled, HexagonNumber2FilledMetadata } from './hexagon/hexagon-number-2_filled';
-import { HexagonNumber3Filled, HexagonNumber3FilledMetadata } from './hexagon/hexagon-number-3_filled';
-import { HexagonNumber4Filled, HexagonNumber4FilledMetadata } from './hexagon/hexagon-number-4_filled';
-import { HexagonNumber5Filled, HexagonNumber5FilledMetadata } from './hexagon/hexagon-number-5_filled';
-import { HexagonNumber6Filled, HexagonNumber6FilledMetadata } from './hexagon/hexagon-number-6_filled';
-import { HexagonNumber7Filled, HexagonNumber7FilledMetadata } from './hexagon/hexagon-number-7_filled';
-import { HexagonNumber8Filled, HexagonNumber8FilledMetadata } from './hexagon/hexagon-number-8_filled';
-import { HexagonNumber9Filled, HexagonNumber9FilledMetadata } from './hexagon/hexagon-number-9_filled';
-import { HexagonPlusFilled, HexagonPlusFilledMetadata } from './hexagon/hexagon-plus_filled';
+import { AddCircleRounded, AddCircleRoundedMetadata } from './home/add-circle_rounded';
+import { AddSquareRounded, AddSquareRoundedMetadata } from './home/add-square_rounded';
+import { AddRounded, AddRoundedMetadata } from './home/add_rounded';
 import { AnchorDoodle, AnchorDoodleMetadata } from './home/anchor_doodle';
+import { AutobrightnessRounded, AutobrightnessRoundedMetadata } from './home/autobrightness_rounded';
 import { Balloon2Doodle, Balloon2DoodleMetadata } from './home/balloon-2_doodle';
 import { BalloonDoodle, BalloonDoodleMetadata } from './home/balloon_doodle';
+import { BatteryChargingRounded, BatteryChargingRoundedMetadata } from './home/battery-charging_rounded';
+import { BatteryDisableRounded, BatteryDisableRoundedMetadata } from './home/battery-disable_rounded';
+import { BatteryEmpty1Rounded, BatteryEmpty1RoundedMetadata } from './home/battery-empty-1_rounded';
+import { BatteryEmptyRounded, BatteryEmptyRoundedMetadata } from './home/battery-empty_rounded';
+import { BatteryFullRounded, BatteryFullRoundedMetadata } from './home/battery-full_rounded';
+import { Box2Rounded, Box2RoundedMetadata } from './home/box-2_rounded';
+import { BroomRounded, BroomRoundedMetadata } from './home/broom_rounded';
+import { BubbleRounded, BubbleRoundedMetadata } from './home/bubble_rounded';
+import { CakeRounded, CakeRoundedMetadata } from './home/cake_rounded';
 import { CameraDoodle, CameraDoodleMetadata } from './home/camera_doodle';
+import { CdRounded, CdRoundedMetadata } from './home/cd_rounded';
+import { ChromeRounded, ChromeRoundedMetadata } from './home/chrome_rounded';
+import { CloseCircleRounded, CloseCircleRoundedMetadata } from './home/close-circle_rounded';
+import { CloseSquareRounded, CloseSquareRoundedMetadata } from './home/close-square_rounded';
+import { CoffeeRounded, CoffeeRoundedMetadata } from './home/coffee_rounded';
+import { ComputingRounded, ComputingRoundedMetadata } from './home/computing_rounded';
+import { Crown1Rounded, Crown1RoundedMetadata } from './home/crown-1_rounded';
 import { CrownDoodle, CrownDoodleMetadata } from './home/crown_doodle';
+import { CrownRounded, CrownRoundedMetadata } from './home/crown_rounded';
+import { CubeRounded, CubeRoundedMetadata } from './home/cube_rounded';
+import { CupRounded, CupRoundedMetadata } from './home/cup_rounded';
+import { DangerRounded, DangerRoundedMetadata } from './home/danger_rounded';
+import { DiamondsRounded, DiamondsRoundedMetadata } from './home/diamonds_rounded';
+import { DiscoverRounded, DiscoverRoundedMetadata } from './home/discover_rounded';
+import { EmojiHappyRounded, EmojiHappyRoundedMetadata } from './home/emoji-happy_rounded';
+import { EmojiNormalRounded, EmojiNormalRoundedMetadata } from './home/emoji-normal_rounded';
+import { EmojiSadRounded, EmojiSadRoundedMetadata } from './home/emoji-sad_rounded';
+import { FilterAddRounded, FilterAddRoundedMetadata } from './home/filter-add_rounded';
+import { FilterEditRounded, FilterEditRoundedMetadata } from './home/filter-edit_rounded';
+import { FilterRemoveRounded, FilterRemoveRoundedMetadata } from './home/filter-remove_rounded';
+import { FilterSearchRounded, FilterSearchRoundedMetadata } from './home/filter-search_rounded';
+import { FilterSquareRounded, FilterSquareRoundedMetadata } from './home/filter-square_rounded';
+import { FilterTickRounded, FilterTickRoundedMetadata } from './home/filter-tick_rounded';
+import { FilterRounded, FilterRoundedMetadata } from './home/filter_rounded';
+import { Flag2Rounded, Flag2RoundedMetadata } from './home/flag-2_rounded';
+import { FlagRounded, FlagRoundedMetadata } from './home/flag_rounded';
+import { FlashSlashRounded, FlashSlashRoundedMetadata } from './home/flash-slash_rounded';
+import { FlashRounded, FlashRoundedMetadata } from './home/flash_rounded';
 import { FlashlightDoodle, FlashlightDoodleMetadata } from './home/flashlight_doodle';
 import { FrameDoodle, FrameDoodleMetadata } from './home/frame_doodle';
+import { FullRounded, FullRoundedMetadata } from './home/full_rounded';
+import { GhostRounded, GhostRoundedMetadata } from './home/ghost_rounded';
+import { GrammerlyRounded, GrammerlyRoundedMetadata } from './home/grammerly_rounded';
 import { GuitarDoodle, GuitarDoodleMetadata } from './home/guitar_doodle';
+import { HappyemojiRounded, HappyemojiRoundedMetadata } from './home/happyemoji_rounded';
+import { Home2Rounded, Home2RoundedMetadata } from './home/home-2_rounded';
+import { HomeWifiRounded, HomeWifiRoundedMetadata } from './home/home-wifi_rounded';
+import { HomeRounded, HomeRoundedMetadata } from './home/home_rounded';
+import { InfoCircleRounded, InfoCircleRoundedMetadata } from './home/info-circle_rounded';
+import { InformationRounded, InformationRoundedMetadata } from './home/information_rounded';
+import { InstagramRounded, InstagramRoundedMetadata } from './home/instagram_rounded';
+import { JudgeRounded, JudgeRoundedMetadata } from './home/judge_rounded';
 import { LampCeiling, LampCeilingMetadata } from './home/lamp-ceiling';
 import { LampDesk, LampDeskMetadata } from './home/lamp-desk';
 import { LampFloor, LampFloorMetadata } from './home/lamp-floor';
 import { LampWallDown, LampWallDownMetadata } from './home/lamp-wall-down';
 import { LampWallUp, LampWallUpMetadata } from './home/lamp-wall-up';
 import { Lamp, LampMetadata } from './home/lamp';
+import { LevelRounded, LevelRoundedMetadata } from './home/level_rounded';
 import { LightbulbOff, LightbulbOffMetadata } from './home/lightbulb-off';
 import { Lightbulb, LightbulbMetadata } from './home/lightbulb';
+import { MilkRounded, MilkRoundedMetadata } from './home/milk_rounded';
+import { MinusCirlceRounded, MinusCirlceRoundedMetadata } from './home/minus-cirlce_rounded';
+import { MinusSquareRounded, MinusSquareRoundedMetadata } from './home/minus-square_rounded';
+import { MinusRounded, MinusRoundedMetadata } from './home/minus_rounded';
+import { MirrorRounded, MirrorRoundedMetadata } from './home/mirror_rounded';
+import { MoreCircle, MoreCircleMetadata } from './home/more-circle';
+import { MoreSquareRounded, MoreSquareRoundedMetadata } from './home/more-square_rounded';
+import { MouseCircleRounded, MouseCircleRoundedMetadata } from './home/mouse-circle_rounded';
+import { MouseSquareRounded, MouseSquareRoundedMetadata } from './home/mouse-square_rounded';
 import { MovieClapperDoodle, MovieClapperDoodleMetadata } from './home/movie-clapper_doodle';
 import { PaintBrush2Doodle, PaintBrush2DoodleMetadata } from './home/paint-brush-2_doodle';
 import { PaintBrushDoodle, PaintBrushDoodleMetadata } from './home/paint-brush_doodle';
 import { PaintBucketDoodle, PaintBucketDoodleMetadata } from './home/paint-bucket_doodle';
 import { PaintRollerDoodle, PaintRollerDoodleMetadata } from './home/paint-roller_doodle';
+import { PetRounded, PetRoundedMetadata } from './home/pet_rounded';
+import { RankingRounded, RankingRoundedMetadata } from './home/ranking_rounded';
+import { ReserveRounded, ReserveRoundedMetadata } from './home/reserve_rounded';
+import { SafeHomeRounded, SafeHomeRoundedMetadata } from './home/safe-home_rounded';
+import { Send2Rounded, Send2RoundedMetadata } from './home/send-2_rounded';
+import { ShareRounded, ShareRoundedMetadata } from './home/share_rounded';
+import { SignpostRounded, SignpostRoundedMetadata } from './home/signpost_rounded';
+import { SlashRounded, SlashRoundedMetadata } from './home/slash_rounded';
+import { SliderRounded, SliderRoundedMetadata } from './home/slider_rounded';
+import { SmartHomeRounded, SmartHomeRoundedMetadata } from './home/smart-home_rounded';
 import { SofaDoodle, SofaDoodleMetadata } from './home/sofa_doodle';
+import { SortRounded, SortRoundedMetadata } from './home/sort_rounded';
+import { SoundRounded, SoundRoundedMetadata } from './home/sound_rounded';
+import { SpeedometerRounded, SpeedometerRoundedMetadata } from './home/speedometer_rounded';
+import { StatusRounded, StatusRoundedMetadata } from './home/status_rounded';
+import { StickerRounded, StickerRoundedMetadata } from './home/sticker_rounded';
+import { StoryRounded, StoryRoundedMetadata } from './home/story_rounded';
+import { TagCrossRounded, TagCrossRoundedMetadata } from './home/tag-cross_rounded';
+import { TagRightRounded, TagRightRoundedMetadata } from './home/tag-right_rounded';
+import { TickCircleRounded, TickCircleRoundedMetadata } from './home/tick-circle_rounded';
+import { TickSquareRounded, TickSquareRoundedMetadata } from './home/tick-square_rounded';
+import { TrashRounded, TrashRoundedMetadata } from './home/trash_rounded';
+import { TreeRounded, TreeRoundedMetadata } from './home/tree_rounded';
+import { TrushSquareRounded, TrushSquareRoundedMetadata } from './home/trush-square_rounded';
 import { TvDoodle, TvDoodleMetadata } from './home/tv_doodle';
+import { VerifyRounded, VerifyRoundedMetadata } from './home/verify_rounded';
+import { Warning2Rounded, Warning2RoundedMetadata } from './home/warning-2_rounded';
+import { WifiSquareRounded, WifiSquareRoundedMetadata } from './home/wifi-square_rounded';
+import { WifiRounded, WifiRoundedMetadata } from './home/wifi_rounded';
 import { InfoDoodle, InfoDoodleMetadata } from './interface/Info_doodle';
 import { AnalyticsDoodle, AnalyticsDoodleMetadata } from './interface/analytics_doodle';
 import { ArrowDoodle, ArrowDoodleMetadata } from './interface/arrow_doodle';
@@ -5059,101 +4846,86 @@ import { VolumeDownDoodle, VolumeDownDoodleMetadata } from './interface/volume-d
 import { VolumeUpDoodle, VolumeUpDoodleMetadata } from './interface/volume-up_doodle';
 import { ZapDoodle, ZapDoodleMetadata } from './interface/zap_doodle';
 import { ZoomOut1Doodle, ZoomOut1DoodleMetadata } from './interface/zoom-out-1_doodle';
+import { AlignBottomRounded, AlignBottomRoundedMetadata } from './layout/align-bottom_rounded';
+import { AlignHorizontallyRounded, AlignHorizontallyRoundedMetadata } from './layout/align-horizontally_rounded';
+import { AlignLeftRounded, AlignLeftRoundedMetadata } from './layout/align-left_rounded';
+import { AlignRightRounded, AlignRightRoundedMetadata } from './layout/align-right_rounded';
+import { AlignVerticallyRounded, AlignVerticallyRoundedMetadata } from './layout/align-vertically_rounded';
 import { BetweenHorizontalEnd, BetweenHorizontalEndMetadata } from './layout/between-horizontal-end';
 import { BetweenHorizontalStart, BetweenHorizontalStartMetadata } from './layout/between-horizontal-start';
 import { BetweenVerticalEnd, BetweenVerticalEndMetadata } from './layout/between-vertical-end';
 import { BetweenVerticalStart, BetweenVerticalStartMetadata } from './layout/between-vertical-start';
-import { Columns1Filled, Columns1FilledMetadata } from './layout/columns-1_filled';
 import { Columns2, Columns2Metadata } from './layout/columns-2';
-import { Columns2Filled, Columns2FilledMetadata } from './layout/columns-2_filled';
 import { Columns3Cog, Columns3CogMetadata } from './layout/columns-3-cog';
 import { Columns3, Columns3Metadata } from './layout/columns-3';
-import { Columns3Filled, Columns3FilledMetadata } from './layout/columns-3_filled';
 import { Columns4, Columns4Metadata } from './layout/columns-4';
+import { Convertshape2Rounded, Convertshape2RoundedMetadata } from './layout/convertshape-2_rounded';
+import { ConvertshapeRounded, ConvertshapeRoundedMetadata } from './layout/convertshape_rounded';
+import { CropRounded, CropRoundedMetadata } from './layout/crop_rounded';
+import { Element1Rounded, Element1RoundedMetadata } from './layout/element-1_rounded';
+import { Element2Rounded, Element2RoundedMetadata } from './layout/element-2_rounded';
+import { Element3Rounded, Element3RoundedMetadata } from './layout/element-3_rounded';
+import { Element4Rounded, Element4RoundedMetadata } from './layout/element-4_rounded';
+import { ElementEqualRounded, ElementEqualRoundedMetadata } from './layout/element-equal_rounded';
+import { ElementPlusRounded, ElementPlusRoundedMetadata } from './layout/element-plus_rounded';
+import { FatrowsRounded, FatrowsRoundedMetadata } from './layout/fatrows_rounded';
+import { FormatCircleRounded, FormatCircleRoundedMetadata } from './layout/format-circle_rounded';
+import { FormatSquareRounded, FormatSquareRoundedMetadata } from './layout/format-square_rounded';
 import { GalleryHorizontalEnd, GalleryHorizontalEndMetadata } from './layout/gallery-horizontal-end';
 import { GalleryHorizontal, GalleryHorizontalMetadata } from './layout/gallery-horizontal';
 import { GalleryThumbnails, GalleryThumbnailsMetadata } from './layout/gallery-thumbnails';
 import { GalleryVerticalEnd, GalleryVerticalEndMetadata } from './layout/gallery-vertical-end';
 import { GalleryVertical, GalleryVerticalMetadata } from './layout/gallery-vertical';
+import { Grid1Rounded, Grid1RoundedMetadata } from './layout/grid-1_rounded';
+import { Grid2Rounded, Grid2RoundedMetadata } from './layout/grid-2_rounded';
 import { Grid2x2Check, Grid2x2CheckMetadata } from './layout/grid-2x2-check';
 import { Grid2x2Plus, Grid2x2PlusMetadata } from './layout/grid-2x2-plus';
 import { Grid2x2X, Grid2x2XMetadata } from './layout/grid-2x2-x';
 import { Grid2x2, Grid2x2Metadata } from './layout/grid-2x2';
+import { Grid3Rounded, Grid3RoundedMetadata } from './layout/grid-3_rounded';
 import { Grid3x2, Grid3x2Metadata } from './layout/grid-3x2';
 import { Grid3x3, Grid3x3Metadata } from './layout/grid-3x3';
+import { Grid4Rounded, Grid4RoundedMetadata } from './layout/grid-4_rounded';
+import { Grid5Rounded, Grid5RoundedMetadata } from './layout/grid-5_rounded';
+import { Grid6Rounded, Grid6RoundedMetadata } from './layout/grid-6_rounded';
+import { Grid7Rounded, Grid7RoundedMetadata } from './layout/grid-7_rounded';
+import { Grid8Rounded, Grid8RoundedMetadata } from './layout/grid-8_rounded';
+import { Grid9Rounded, Grid9RoundedMetadata } from './layout/grid-9_rounded';
+import { GridEditRounded, GridEditRoundedMetadata } from './layout/grid-edit_rounded';
+import { GridEraserRounded, GridEraserRoundedMetadata } from './layout/grid-eraser_rounded';
+import { GridLockRounded, GridLockRoundedMetadata } from './layout/grid-lock_rounded';
 import { GripHorizontal, GripHorizontalMetadata } from './layout/grip-horizontal';
 import { GripVertical, GripVerticalMetadata } from './layout/grip-vertical';
 import { Grip, GripMetadata } from './layout/grip';
+import { KanbanRounded, KanbanRoundedMetadata } from './layout/kanban_rounded';
 import { Layers2, Layers2Metadata } from './layout/layers-2';
 import { LayersPlus, LayersPlusMetadata } from './layout/layers-plus';
 import { Layers, LayersMetadata } from './layout/layers';
-import { Layout2Filled, Layout2FilledMetadata } from './layout/layout-2_filled';
-import { LayoutAlignBottomFilled, LayoutAlignBottomFilledMetadata } from './layout/layout-align-bottom_filled';
-import { LayoutAlignCenterFilled, LayoutAlignCenterFilledMetadata } from './layout/layout-align-center_filled';
-import { LayoutAlignLeftFilled, LayoutAlignLeftFilledMetadata } from './layout/layout-align-left_filled';
-import { LayoutAlignMiddleFilled, LayoutAlignMiddleFilledMetadata } from './layout/layout-align-middle_filled';
-import { LayoutAlignRightFilled, LayoutAlignRightFilledMetadata } from './layout/layout-align-right_filled';
-import { LayoutAlignTopFilled, LayoutAlignTopFilledMetadata } from './layout/layout-align-top_filled';
-import { LayoutBoardSplitFilled, LayoutBoardSplitFilledMetadata } from './layout/layout-board-split_filled';
-import { LayoutBoardFilled, LayoutBoardFilledMetadata } from './layout/layout-board_filled';
-import { LayoutBottombarCollapseFilled, LayoutBottombarCollapseFilledMetadata } from './layout/layout-bottombar-collapse_filled';
-import { LayoutBottombarExpandFilled, LayoutBottombarExpandFilledMetadata } from './layout/layout-bottombar-expand_filled';
-import { LayoutBottombarFilled, LayoutBottombarFilledMetadata } from './layout/layout-bottombar_filled';
-import { LayoutCardsFilled, LayoutCardsFilledMetadata } from './layout/layout-cards_filled';
 import { LayoutDashboard, LayoutDashboardMetadata } from './layout/layout-dashboard';
-import { LayoutDashboardFilled, LayoutDashboardFilledMetadata } from './layout/layout-dashboard_filled';
-import { LayoutDistributeHorizontalFilled, LayoutDistributeHorizontalFilledMetadata } from './layout/layout-distribute-horizontal_filled';
-import { LayoutDistributeVerticalFilled, LayoutDistributeVerticalFilledMetadata } from './layout/layout-distribute-vertical_filled';
 import { LayoutGrid, LayoutGridMetadata } from './layout/layout-grid';
-import { LayoutGridFilled, LayoutGridFilledMetadata } from './layout/layout-grid_filled';
-import { LayoutKanbanFilled, LayoutKanbanFilledMetadata } from './layout/layout-kanban_filled';
 import { LayoutList, LayoutListMetadata } from './layout/layout-list';
-import { LayoutListFilled, LayoutListFilledMetadata } from './layout/layout-list_filled';
-import { LayoutNavbarCollapseFilled, LayoutNavbarCollapseFilledMetadata } from './layout/layout-navbar-collapse_filled';
-import { LayoutNavbarExpandFilled, LayoutNavbarExpandFilledMetadata } from './layout/layout-navbar-expand_filled';
-import { LayoutNavbarFilled, LayoutNavbarFilledMetadata } from './layout/layout-navbar_filled';
 import { LayoutPanelLeft, LayoutPanelLeftMetadata } from './layout/layout-panel-left';
 import { LayoutPanelTop, LayoutPanelTopMetadata } from './layout/layout-panel-top';
-import { LayoutSidebarLeftCollapseFilled, LayoutSidebarLeftCollapseFilledMetadata } from './layout/layout-sidebar-left-collapse_filled';
-import { LayoutSidebarLeftExpandFilled, LayoutSidebarLeftExpandFilledMetadata } from './layout/layout-sidebar-left-expand_filled';
-import { LayoutSidebarRightCollapseFilled, LayoutSidebarRightCollapseFilledMetadata } from './layout/layout-sidebar-right-collapse_filled';
-import { LayoutSidebarRightExpandFilled, LayoutSidebarRightExpandFilledMetadata } from './layout/layout-sidebar-right-expand_filled';
-import { LayoutSidebarRightFilled, LayoutSidebarRightFilledMetadata } from './layout/layout-sidebar-right_filled';
-import { LayoutSidebarFilled, LayoutSidebarFilledMetadata } from './layout/layout-sidebar_filled';
 import { LayoutTemplate, LayoutTemplateMetadata } from './layout/layout-template';
-import { LayoutFilled, LayoutFilledMetadata } from './layout/layout_filled';
+import { Maximize1Rounded, Maximize1RoundedMetadata } from './layout/maximize-1_rounded';
+import { Maximize2Rounded, Maximize2RoundedMetadata } from './layout/maximize-2_rounded';
+import { Maximize3Rounded, Maximize3RoundedMetadata } from './layout/maximize-3_rounded';
+import { Maximize4Rounded, Maximize4RoundedMetadata } from './layout/maximize-4_rounded';
+import { MaximizeRounded, MaximizeRoundedMetadata } from './layout/maximize_rounded';
 import { Proportions, ProportionsMetadata } from './layout/proportions';
+import { RowHorizontalRounded, RowHorizontalRoundedMetadata } from './layout/row-horizontal_rounded';
+import { RowVerticalRounded, RowVerticalRoundedMetadata } from './layout/row-vertical_rounded';
 import { Rows2, Rows2Metadata } from './layout/rows-2';
 import { Rows3, Rows3Metadata } from './layout/rows-3';
 import { Rows4, Rows4Metadata } from './layout/rows-4';
 import { SeparatorHorizontal, SeparatorHorizontalMetadata } from './layout/separator-horizontal';
 import { SeparatorVertical, SeparatorVerticalMetadata } from './layout/separator-vertical';
+import { SliderHorizontal1Rounded, SliderHorizontal1RoundedMetadata } from './layout/slider-horizontal-1_rounded';
+import { SliderHorizontalRounded, SliderHorizontalRoundedMetadata } from './layout/slider-horizontal_rounded';
+import { SliderVertical1Rounded, SliderVertical1RoundedMetadata } from './layout/slider-vertical-1_rounded';
+import { SliderVerticalRounded, SliderVerticalRoundedMetadata } from './layout/slider-vertical_rounded';
 import { StretchHorizontal, StretchHorizontalMetadata } from './layout/stretch-horizontal';
 import { StretchVertical, StretchVerticalMetadata } from './layout/stretch-vertical';
-import { AArrowDown, AArrowDownMetadata } from './letter/a-arrow-down';
-import { AArrowUp, AArrowUpMetadata } from './letter/a-arrow-up';
-import { ALargeSmall, ALargeSmallMetadata } from './letter/a-large-small';
-import { Ampersand, AmpersandMetadata } from './letter/ampersand';
-import { Ampersands, AmpersandsMetadata } from './letter/ampersands';
-import { AtSign, AtSignMetadata } from './letter/at-sign';
-import { Braces, BracesMetadata } from './letter/braces';
-import { Brackets, BracketsMetadata } from './letter/brackets';
-import { CaseLower, CaseLowerMetadata } from './letter/case-lower';
-import { CaseSensitive, CaseSensitiveMetadata } from './letter/case-sensitive';
-import { CaseUpper, CaseUpperMetadata } from './letter/case-upper';
-import { Dot, DotMetadata } from './letter/dot';
-import { Hash, HashMetadata } from './letter/hash';
-import { Heading1, Heading1Metadata } from './letter/heading-1';
-import { Heading2, Heading2Metadata } from './letter/heading-2';
-import { Heading3, Heading3Metadata } from './letter/heading-3';
-import { Heading4, Heading4Metadata } from './letter/heading-4';
-import { Heading5, Heading5Metadata } from './letter/heading-5';
-import { Heading6, Heading6Metadata } from './letter/heading-6';
-import { Heading, HeadingMetadata } from './letter/heading';
-import { Italic, ItalicMetadata } from './letter/italic';
-import { Languages, LanguagesMetadata } from './letter/languages';
-import { TypeOutline, TypeOutlineMetadata } from './letter/type-outline';
-import { Type, TypeMetadata } from './letter/type';
 import { ListCheck, ListCheckMetadata } from './list/list-check';
 import { ListChecks, ListChecksMetadata } from './list/list-checks';
 import { ListChevronsDownUp, ListChevronsDownUpMetadata } from './list/list-chevrons-down-up';
@@ -5206,8 +4978,19 @@ import { Tally2, Tally2Metadata } from './math/tally-2';
 import { Tally3, Tally3Metadata } from './math/tally-3';
 import { Tally4, Tally4Metadata } from './math/tally-4';
 import { Tally5, Tally5Metadata } from './math/tally-5';
-import { Message2Filled, Message2FilledMetadata } from './message/message-2_filled';
-import { MessageChatbotFilled, MessageChatbotFilledMetadata } from './message/message-chatbot_filled';
+import { DeviceMessageRounded, DeviceMessageRoundedMetadata } from './message/device-message_rounded';
+import { DirectInboxRounded, DirectInboxRoundedMetadata } from './message/direct-inbox_rounded';
+import { DirectNormalRounded, DirectNormalRoundedMetadata } from './message/direct-normal_rounded';
+import { DirectNotificationRounded, DirectNotificationRoundedMetadata } from './message/direct-notification_rounded';
+import { DirectSendRounded, DirectSendRoundedMetadata } from './message/direct-send_rounded';
+import { DirectRounded, DirectRoundedMetadata } from './message/direct_rounded';
+import { DirectboxDefaultRounded, DirectboxDefaultRoundedMetadata } from './message/directbox-default_rounded';
+import { DirectboxNotifRounded, DirectboxNotifRoundedMetadata } from './message/directbox-notif_rounded';
+import { DirectboxReceiveRounded, DirectboxReceiveRoundedMetadata } from './message/directbox-receive_rounded';
+import { DirectboxSendRounded, DirectboxSendRoundedMetadata } from './message/directbox-send_rounded';
+import { Message2Rounded, Message2RoundedMetadata } from './message/message-2_rounded';
+import { MessageAdd1Rounded, MessageAdd1RoundedMetadata } from './message/message-add-1_rounded';
+import { MessageAddRounded, MessageAddRoundedMetadata } from './message/message-add_rounded';
 import { MessageCircleCheck, MessageCircleCheckMetadata } from './message/message-circle-check';
 import { MessageCircleCode, MessageCircleCodeMetadata } from './message/message-circle-code';
 import { MessageCircleDashed, MessageCircleDashedMetadata } from './message/message-circle-dashed';
@@ -5220,8 +5003,13 @@ import { MessageCircleReply, MessageCircleReplyMetadata } from './message/messag
 import { MessageCircleWarning, MessageCircleWarningMetadata } from './message/message-circle-warning';
 import { MessageCircleX, MessageCircleXMetadata } from './message/message-circle-x';
 import { MessageCircle, MessageCircleMetadata } from './message/message-circle';
-import { MessageCircleFilled, MessageCircleFilledMetadata } from './message/message-circle_filled';
-import { MessageReportFilled, MessageReportFilledMetadata } from './message/message-report_filled';
+import { MessageCircleRounded, MessageCircleRoundedMetadata } from './message/message-circle_rounded';
+import { MessageEditRounded, MessageEditRoundedMetadata } from './message/message-edit_rounded';
+import { MessageFavoriteRounded, MessageFavoriteRoundedMetadata } from './message/message-favorite_rounded';
+import { MessageMinusRounded, MessageMinusRoundedMetadata } from './message/message-minus_rounded';
+import { MessageNotifRounded, MessageNotifRoundedMetadata } from './message/message-notif_rounded';
+import { MessageRemoveRounded, MessageRemoveRoundedMetadata } from './message/message-remove_rounded';
+import { MessageSearchRounded, MessageSearchRoundedMetadata } from './message/message-search_rounded';
 import { MessageSquareCheck, MessageSquareCheckMetadata } from './message/message-square-check';
 import { MessageSquareCode, MessageSquareCodeMetadata } from './message/message-square-code';
 import { MessageSquareDashed, MessageSquareDashedMetadata } from './message/message-square-dashed';
@@ -5239,8 +5027,23 @@ import { MessageSquareText, MessageSquareTextMetadata } from './message/message-
 import { MessageSquareWarning, MessageSquareWarningMetadata } from './message/message-square-warning';
 import { MessageSquareX, MessageSquareXMetadata } from './message/message-square-x';
 import { MessageSquare, MessageSquareMetadata } from './message/message-square';
-import { MessageFilled, MessageFilledMetadata } from './message/message_filled';
+import { MessageSquareRounded, MessageSquareRoundedMetadata } from './message/message-square_rounded';
+import { MessageText1Rounded, MessageText1RoundedMetadata } from './message/message-text-1_rounded';
+import { MessageTextRounded, MessageTextRoundedMetadata } from './message/message-text_rounded';
+import { MessageTickRounded, MessageTickRoundedMetadata } from './message/message-tick_rounded';
+import { MessageTimeRounded, MessageTimeRoundedMetadata } from './message/message-time_rounded';
+import { MessageRounded, MessageRoundedMetadata } from './message/message_rounded';
+import { Messages1Rounded, Messages1RoundedMetadata } from './message/messages-1_rounded';
+import { Messages2Rounded, Messages2RoundedMetadata } from './message/messages-2_rounded';
+import { Messages3Rounded, Messages3RoundedMetadata } from './message/messages-3_rounded';
 import { MessagesSquare, MessagesSquareMetadata } from './message/messages-square';
+import { MessagesRounded, MessagesRoundedMetadata } from './message/messages_rounded';
+import { SmsEditRounded, SmsEditRoundedMetadata } from './message/sms-edit_rounded';
+import { SmsNotificationRounded, SmsNotificationRoundedMetadata } from './message/sms-notification_rounded';
+import { SmsSearchRounded, SmsSearchRoundedMetadata } from './message/sms-search_rounded';
+import { SmsStarRounded, SmsStarRoundedMetadata } from './message/sms-star_rounded';
+import { SmsTrackingRounded, SmsTrackingRoundedMetadata } from './message/sms-tracking_rounded';
+import { SmsRounded, SmsRoundedMetadata } from './message/sms_rounded';
 import { AutomationDoodle, AutomationDoodleMetadata } from './misc/automation_doodle';
 import { BotDoodle, BotDoodleMetadata } from './misc/bot_doodle';
 import { BugDoodle, BugDoodleMetadata } from './misc/bug_doodle';
@@ -5272,53 +5075,119 @@ import { Monitor, MonitorMetadata } from './monitor/monitor';
 import { ScreenShareOff, ScreenShareOffMetadata } from './monitor/screen-share-off';
 import { ScreenShare, ScreenShareMetadata } from './monitor/screen-share';
 import { AudioLines, AudioLinesMetadata } from './multimedia/audio-lines';
+import { AudioSquareRounded, AudioSquareRoundedMetadata } from './multimedia/audio-square_rounded';
 import { AudioWaveform, AudioWaveformMetadata } from './multimedia/audio-waveform';
+import { Backward10SecondsRounded, Backward10SecondsRoundedMetadata } from './multimedia/backward-10-seconds_rounded';
+import { Backward15SecondsRounded, Backward15SecondsRoundedMetadata } from './multimedia/backward-15-seconds_rounded';
+import { Backward5SecondsRounded, Backward5SecondsRoundedMetadata } from './multimedia/backward-5-seconds_rounded';
+import { BackwardRounded, BackwardRoundedMetadata } from './multimedia/backward_rounded';
 import { CameraOff, CameraOffMetadata } from './multimedia/camera-off';
+import { CameraSlashRounded, CameraSlashRoundedMetadata } from './multimedia/camera-slash_rounded';
 import { Camera, CameraMetadata } from './multimedia/camera';
+import { CameraRounded, CameraRoundedMetadata } from './multimedia/camera_rounded';
 import { Cctv, CctvMetadata } from './multimedia/cctv';
 import { Clapperboard, ClapperboardMetadata } from './multimedia/clapperboard';
 import { Disc2, Disc2Metadata } from './multimedia/disc-2';
 import { Disc3, Disc3Metadata } from './multimedia/disc-3';
 import { DiscAlbum, DiscAlbumMetadata } from './multimedia/disc-album';
 import { Disc, DiscMetadata } from './multimedia/disc';
+import { Forward10SecondsRounded, Forward10SecondsRoundedMetadata } from './multimedia/forward-10-seconds_rounded';
+import { Forward15SecondsRounded, Forward15SecondsRoundedMetadata } from './multimedia/forward-15-seconds_rounded';
+import { Forward5SecondsRounded, Forward5SecondsRoundedMetadata } from './multimedia/forward-5-seconds_rounded';
+import { GalleryAddRounded, GalleryAddRoundedMetadata } from './multimedia/gallery-add_rounded';
+import { GalleryEditRounded, GalleryEditRoundedMetadata } from './multimedia/gallery-edit_rounded';
+import { GalleryFavoriteRounded, GalleryFavoriteRoundedMetadata } from './multimedia/gallery-favorite_rounded';
+import { GalleryImportRounded, GalleryImportRoundedMetadata } from './multimedia/gallery-import_rounded';
+import { GalleryRemoveRounded, GalleryRemoveRoundedMetadata } from './multimedia/gallery-remove_rounded';
+import { GallerySlashRounded, GallerySlashRoundedMetadata } from './multimedia/gallery-slash_rounded';
+import { GalleryTickRounded, GalleryTickRoundedMetadata } from './multimedia/gallery-tick_rounded';
+import { GalleryRounded, GalleryRoundedMetadata } from './multimedia/gallery_rounded';
 import { HeadphoneOff, HeadphoneOffMetadata } from './multimedia/headphone-off';
 import { Headphones, HeadphonesMetadata } from './multimedia/headphones';
 import { Headset, HeadsetMetadata } from './multimedia/headset';
+import { ImageRounded, ImageRoundedMetadata } from './multimedia/image_rounded';
+import { MaximizeCircleRounded, MaximizeCircleRoundedMetadata } from './multimedia/maximize-circle_rounded';
 import { MegaphoneOff, MegaphoneOffMetadata } from './multimedia/megaphone-off';
 import { Megaphone, MegaphoneMetadata } from './multimedia/megaphone';
 import { MicOff, MicOffMetadata } from './multimedia/mic-off';
 import { MicVocal, MicVocalMetadata } from './multimedia/mic-vocal';
 import { Mic, MicMetadata } from './multimedia/mic';
+import { Microphone2Rounded, Microphone2RoundedMetadata } from './multimedia/microphone-2_rounded';
+import { MicrophoneSlash1Rounded, MicrophoneSlash1RoundedMetadata } from './multimedia/microphone-slash-1_rounded';
+import { MicrophoneSlashRounded, MicrophoneSlashRoundedMetadata } from './multimedia/microphone-slash_rounded';
+import { MicrophoneRounded, MicrophoneRoundedMetadata } from './multimedia/microphone_rounded';
+import { MiniMusicSqaureRounded, MiniMusicSqaureRoundedMetadata } from './multimedia/mini-music-sqaure_rounded';
 import { Music2, Music2Metadata } from './multimedia/music-2';
 import { Music3, Music3Metadata } from './multimedia/music-3';
 import { Music4, Music4Metadata } from './multimedia/music-4';
+import { MusicCircleRounded, MusicCircleRoundedMetadata } from './multimedia/music-circle_rounded';
+import { MusicDashboardRounded, MusicDashboardRoundedMetadata } from './multimedia/music-dashboard_rounded';
+import { MusicFilterRounded, MusicFilterRoundedMetadata } from './multimedia/music-filter_rounded';
+import { MusicLibrary2Rounded, MusicLibrary2RoundedMetadata } from './multimedia/music-library-2_rounded';
+import { MusicPlaylistRounded, MusicPlaylistRoundedMetadata } from './multimedia/music-playlist_rounded';
+import { MusicSquareAddRounded, MusicSquareAddRoundedMetadata } from './multimedia/music-square-add_rounded';
+import { MusicSquareRemoveRounded, MusicSquareRemoveRoundedMetadata } from './multimedia/music-square-remove_rounded';
+import { MusicSquareSearchRounded, MusicSquareSearchRoundedMetadata } from './multimedia/music-square-search_rounded';
+import { MusicSquareRounded, MusicSquareRoundedMetadata } from './multimedia/music-square_rounded';
 import { Music, MusicMetadata } from './multimedia/music';
+import { MusicRounded, MusicRoundedMetadata } from './multimedia/music_rounded';
+import { MusicnoteRounded, MusicnoteRoundedMetadata } from './multimedia/musicnote_rounded';
+import { NextRounded, NextRoundedMetadata } from './multimedia/next_rounded';
+import { NoteSquareRounded, NoteSquareRoundedMetadata } from './multimedia/note-square_rounded';
+import { PauseCircleRounded, PauseCircleRoundedMetadata } from './multimedia/pause-circle_rounded';
 import { Pause, PauseMetadata } from './multimedia/pause';
+import { PauseRounded, PauseRoundedMetadata } from './multimedia/pause_rounded';
+import { PlayAddRounded, PlayAddRoundedMetadata } from './multimedia/play-add_rounded';
+import { PlayCircleRounded, PlayCircleRoundedMetadata } from './multimedia/play-circle_rounded';
+import { PlayCricleRounded, PlayCricleRoundedMetadata } from './multimedia/play-cricle_rounded';
+import { PlayRemoveRounded, PlayRemoveRoundedMetadata } from './multimedia/play-remove_rounded';
 import { Play, PlayMetadata } from './multimedia/play';
-import { PlayerEjectFilled, PlayerEjectFilledMetadata } from './multimedia/player-eject_filled';
-import { PlayerPauseFilled, PlayerPauseFilledMetadata } from './multimedia/player-pause_filled';
-import { PlayerPlayFilled, PlayerPlayFilledMetadata } from './multimedia/player-play_filled';
-import { PlayerRecordFilled, PlayerRecordFilledMetadata } from './multimedia/player-record_filled';
-import { PlayerSkipBackFilled, PlayerSkipBackFilledMetadata } from './multimedia/player-skip-back_filled';
-import { PlayerSkipForwardFilled, PlayerSkipForwardFilledMetadata } from './multimedia/player-skip-forward_filled';
-import { PlayerStopFilled, PlayerStopFilledMetadata } from './multimedia/player-stop_filled';
-import { PlayerTrackNextFilled, PlayerTrackNextFilledMetadata } from './multimedia/player-track-next_filled';
-import { PlayerTrackPrevFilled, PlayerTrackPrevFilledMetadata } from './multimedia/player-track-prev_filled';
-import { PlaylistFilled, PlaylistFilledMetadata } from './multimedia/playlist_filled';
+import { PlayRounded, PlayRoundedMetadata } from './multimedia/play_rounded';
+import { PreviousRounded, PreviousRoundedMetadata } from './multimedia/previous_rounded';
+import { RadioRounded, RadioRoundedMetadata } from './multimedia/radio_rounded';
+import { RecordCircleRounded, RecordCircleRoundedMetadata } from './multimedia/record-circle_rounded';
+import { RecordRounded, RecordRoundedMetadata } from './multimedia/record_rounded';
+import { RepeateMusicRounded, RepeateMusicRoundedMetadata } from './multimedia/repeate-music_rounded';
+import { RepeateOneRounded, RepeateOneRoundedMetadata } from './multimedia/repeate-one_rounded';
 import { Rewind, RewindMetadata } from './multimedia/rewind';
+import { ScreenmirroringRounded, ScreenmirroringRoundedMetadata } from './multimedia/screenmirroring_rounded';
 import { SkipBack, SkipBackMetadata } from './multimedia/skip-back';
 import { SkipForward, SkipForwardMetadata } from './multimedia/skip-forward';
 import { StepBack, StepBackMetadata } from './multimedia/step-back';
 import { StepForward, StepForwardMetadata } from './multimedia/step-forward';
+import { StopCircleRounded, StopCircleRoundedMetadata } from './multimedia/stop-circle_rounded';
+import { StopRounded, StopRoundedMetadata } from './multimedia/stop_rounded';
+import { SubtitleRounded, SubtitleRoundedMetadata } from './multimedia/subtitle_rounded';
 import { TvMinimalPlay, TvMinimalPlayMetadata } from './multimedia/tv-minimal-play';
 import { TvMinimal, TvMinimalMetadata } from './multimedia/tv-minimal';
 import { Tv, TvMetadata } from './multimedia/tv';
+import { VideoAddRounded, VideoAddRoundedMetadata } from './multimedia/video-add_rounded';
+import { VideoCircleRounded, VideoCircleRoundedMetadata } from './multimedia/video-circle_rounded';
+import { VideoHorizontalRounded, VideoHorizontalRoundedMetadata } from './multimedia/video-horizontal_rounded';
+import { VideoOctagonRounded, VideoOctagonRoundedMetadata } from './multimedia/video-octagon_rounded';
 import { VideoOff, VideoOffMetadata } from './multimedia/video-off';
+import { VideoPlayRounded, VideoPlayRoundedMetadata } from './multimedia/video-play_rounded';
+import { VideoRemoveRounded, VideoRemoveRoundedMetadata } from './multimedia/video-remove_rounded';
+import { VideoSlashRounded, VideoSlashRoundedMetadata } from './multimedia/video-slash_rounded';
+import { VideoSquareRounded, VideoSquareRoundedMetadata } from './multimedia/video-square_rounded';
+import { VideoTickRounded, VideoTickRoundedMetadata } from './multimedia/video-tick_rounded';
+import { VideoTimeRounded, VideoTimeRoundedMetadata } from './multimedia/video-time_rounded';
+import { VideoVerticalRounded, VideoVerticalRoundedMetadata } from './multimedia/video-vertical_rounded';
 import { Video, VideoMetadata } from './multimedia/video';
+import { VideoRounded, VideoRoundedMetadata } from './multimedia/video_rounded';
 import { Videotape, VideotapeMetadata } from './multimedia/videotape';
+import { VoiceCricleRounded, VoiceCricleRoundedMetadata } from './multimedia/voice-cricle_rounded';
+import { VoiceSquareRounded, VoiceSquareRoundedMetadata } from './multimedia/voice-square_rounded';
 import { Volume1, Volume1Metadata } from './multimedia/volume-1';
 import { Volume2, Volume2Metadata } from './multimedia/volume-2';
+import { VolumeCrossRounded, VolumeCrossRoundedMetadata } from './multimedia/volume-cross_rounded';
+import { VolumeHighRounded, VolumeHighRoundedMetadata } from './multimedia/volume-high_rounded';
+import { VolumeLow1Rounded, VolumeLow1RoundedMetadata } from './multimedia/volume-low-1_rounded';
+import { VolumeLowRounded, VolumeLowRoundedMetadata } from './multimedia/volume-low_rounded';
+import { VolumeMuteRounded, VolumeMuteRoundedMetadata } from './multimedia/volume-mute_rounded';
 import { VolumeOff, VolumeOffMetadata } from './multimedia/volume-off';
+import { VolumeSlashRounded, VolumeSlashRoundedMetadata } from './multimedia/volume-slash_rounded';
+import { VolumeUpRounded, VolumeUpRoundedMetadata } from './multimedia/volume-up_rounded';
 import { VolumeX, VolumeXMetadata } from './multimedia/volume-x';
 import { Volume, VolumeMetadata } from './multimedia/volume';
 import { Clover, CloverMetadata } from './nature/clover';
@@ -5333,9 +5202,28 @@ import { TreeDeciduous, TreeDeciduousMetadata } from './nature/tree-deciduous';
 import { TreePalm, TreePalmMetadata } from './nature/tree-palm';
 import { TreePine, TreePineMetadata } from './nature/tree-pine';
 import { Trees, TreesMetadata } from './nature/trees';
+import { ArrowSquareRounded, ArrowSquareRoundedMetadata } from './navigation/arrow-square_rounded';
+import { ArrowRounded, ArrowRoundedMetadata } from './navigation/arrow_rounded';
+import { DirectDownRounded, DirectDownRoundedMetadata } from './navigation/direct-down_rounded';
+import { DirectLeftRounded, DirectLeftRoundedMetadata } from './navigation/direct-left_rounded';
+import { DirectRightRounded, DirectRightRoundedMetadata } from './navigation/direct-right_rounded';
+import { DirectUpRounded, DirectUpRoundedMetadata } from './navigation/direct-up_rounded';
+import { GlobalEditRounded, GlobalEditRoundedMetadata } from './navigation/global-edit_rounded';
+import { GlobalRefreshRounded, GlobalRefreshRoundedMetadata } from './navigation/global-refresh_rounded';
+import { GlobalSearchRounded, GlobalSearchRoundedMetadata } from './navigation/global-search_rounded';
+import { GlobalRounded, GlobalRoundedMetadata } from './navigation/global_rounded';
+import { GpsSlashRounded, GpsSlashRoundedMetadata } from './navigation/gps-slash_rounded';
+import { GpsRounded, GpsRoundedMetadata } from './navigation/gps_rounded';
 import { LocateFixed, LocateFixedMetadata } from './navigation/locate-fixed';
 import { LocateOff, LocateOffMetadata } from './navigation/locate-off';
 import { Locate, LocateMetadata } from './navigation/locate';
+import { LocationAddRounded, LocationAddRoundedMetadata } from './navigation/location-add_rounded';
+import { LocationCrossRounded, LocationCrossRoundedMetadata } from './navigation/location-cross_rounded';
+import { LocationMinusRounded, LocationMinusRoundedMetadata } from './navigation/location-minus_rounded';
+import { LocationSlashRounded, LocationSlashRoundedMetadata } from './navigation/location-slash_rounded';
+import { LocationTickRounded, LocationTickRoundedMetadata } from './navigation/location-tick_rounded';
+import { LocationRounded, LocationRoundedMetadata } from './navigation/location_rounded';
+import { Map1Rounded, Map1RoundedMetadata } from './navigation/map-1_rounded';
 import { MapMinus, MapMinusMetadata } from './navigation/map-minus';
 import { MapPinCheckInside, MapPinCheckInsideMetadata } from './navigation/map-pin-check-inside';
 import { MapPinCheck, MapPinCheckMetadata } from './navigation/map-pin-check';
@@ -5352,10 +5240,17 @@ import { MapPin, MapPinMetadata } from './navigation/map-pin';
 import { MapPinned, MapPinnedMetadata } from './navigation/map-pinned';
 import { MapPlus, MapPlusMetadata } from './navigation/map-plus';
 import { Map, MapMetadata } from './navigation/map';
+import { MapRounded, MapRoundedMetadata } from './navigation/map_rounded';
 import { Navigation2Off, Navigation2OffMetadata } from './navigation/navigation-2-off';
 import { Navigation2, Navigation2Metadata } from './navigation/navigation-2';
 import { NavigationOff, NavigationOffMetadata } from './navigation/navigation-off';
 import { Navigation, NavigationMetadata } from './navigation/navigation';
+import { PictureFrameRounded, PictureFrameRoundedMetadata } from './navigation/picture-frame_rounded';
+import { Radar2Rounded, Radar2RoundedMetadata } from './navigation/radar-2_rounded';
+import { RadarRounded, RadarRoundedMetadata } from './navigation/radar_rounded';
+import { RouteSquareRounded, RouteSquareRoundedMetadata } from './navigation/route-square_rounded';
+import { Routing2Rounded, Routing2RoundedMetadata } from './navigation/routing-2_rounded';
+import { RoutingRounded, RoutingRoundedMetadata } from './navigation/routing_rounded';
 import { Network, NetworkMetadata } from './network/network';
 import { Nfc, NfcMetadata } from './network/nfc';
 import { Podcast, PodcastMetadata } from './network/podcast';
@@ -5376,18 +5271,20 @@ import { Wifi, WifiMetadata } from './network/wifi';
 import { BellDot, BellDotMetadata } from './notification/bell-dot';
 import { BellElectric, BellElectricMetadata } from './notification/bell-electric';
 import { BellMinus, BellMinusMetadata } from './notification/bell-minus';
-import { BellMinusFilled, BellMinusFilledMetadata } from './notification/bell-minus_filled';
 import { BellOff, BellOffMetadata } from './notification/bell-off';
 import { BellPlus, BellPlusMetadata } from './notification/bell-plus';
-import { BellPlusFilled, BellPlusFilledMetadata } from './notification/bell-plus_filled';
 import { BellRing, BellRingMetadata } from './notification/bell-ring';
-import { BellRinging2Filled, BellRinging2FilledMetadata } from './notification/bell-ringing-2_filled';
-import { BellRingingFilled, BellRingingFilledMetadata } from './notification/bell-ringing_filled';
-import { BellXFilled, BellXFilledMetadata } from './notification/bell-x_filled';
-import { BellZFilled, BellZFilledMetadata } from './notification/bell-z_filled';
 import { Bell, BellMetadata } from './notification/bell';
-import { BellFilled, BellFilledMetadata } from './notification/bell_filled';
 import { EthernetPort, EthernetPortMetadata } from './notification/ethernet-port';
+import { LampChargeRounded, LampChargeRoundedMetadata } from './notification/lamp-charge_rounded';
+import { LampOnRounded, LampOnRoundedMetadata } from './notification/lamp-on_rounded';
+import { LampSlashRounded, LampSlashRoundedMetadata } from './notification/lamp-slash_rounded';
+import { Notification1Rounded, Notification1RoundedMetadata } from './notification/notification-1_rounded';
+import { NotificationBingRounded, NotificationBingRoundedMetadata } from './notification/notification-bing_rounded';
+import { NotificationCircleRounded, NotificationCircleRoundedMetadata } from './notification/notification-circle_rounded';
+import { NotificationFavoriteRounded, NotificationFavoriteRoundedMetadata } from './notification/notification-favorite_rounded';
+import { NotificationStatusRounded, NotificationStatusRoundedMetadata } from './notification/notification-status_rounded';
+import { NotificationRounded, NotificationRoundedMetadata } from './notification/notification_rounded';
 import { Accessibility, AccessibilityMetadata } from './others/accessibility';
 import { Activity, ActivityMetadata } from './others/activity';
 import { Album, AlbumMetadata } from './others/album';
@@ -5989,13 +5886,40 @@ import { ScanQrCode, ScanQrCodeMetadata } from './scan/scan-qr-code';
 import { ScanSearch, ScanSearchMetadata } from './scan/scan-search';
 import { ScanText, ScanTextMetadata } from './scan/scan-text';
 import { Scan, ScanMetadata } from './scan/scan';
+import { AlarmRounded, AlarmRoundedMetadata } from './security/alarm_rounded';
+import { CheckRounded, CheckRoundedMetadata } from './security/check_rounded';
+import { EyeSlashRounded, EyeSlashRoundedMetadata } from './security/eye-slash_rounded';
+import { EyeRounded, EyeRoundedMetadata } from './security/eye_rounded';
+import { FingerCricleRounded, FingerCricleRoundedMetadata } from './security/finger-cricle_rounded';
+import { FingerScanRounded, FingerScanRoundedMetadata } from './security/finger-scan_rounded';
 import { KeyRound, KeyRoundMetadata } from './security/key-round';
 import { KeySquare, KeySquareMetadata } from './security/key-square';
+import { KeySquareRounded, KeySquareRoundedMetadata } from './security/key-square_rounded';
 import { Key, KeyMetadata } from './security/key';
+import { KeyRounded, KeyRoundedMetadata } from './security/key_rounded';
+import { Lock1Rounded, Lock1RoundedMetadata } from './security/lock-1_rounded';
+import { LockCircleRounded, LockCircleRoundedMetadata } from './security/lock-circle_rounded';
 import { LockKeyholeOpen, LockKeyholeOpenMetadata } from './security/lock-keyhole-open';
 import { LockKeyhole, LockKeyholeMetadata } from './security/lock-keyhole';
 import { LockOpen, LockOpenMetadata } from './security/lock-open';
+import { LockSlashRounded, LockSlashRoundedMetadata } from './security/lock-slash_rounded';
 import { Lock, LockMetadata } from './security/lock';
+import { LockRounded, LockRoundedMetadata } from './security/lock_rounded';
+import { PasswordCheckRounded, PasswordCheckRoundedMetadata } from './security/password-check_rounded';
+import { ScanBarcodeRounded, ScanBarcodeRoundedMetadata } from './security/scan-barcode_rounded';
+import { ScanRounded, ScanRoundedMetadata } from './security/scan_rounded';
+import { ScannerRounded, ScannerRoundedMetadata } from './security/scanner_rounded';
+import { ScanningRounded, ScanningRoundedMetadata } from './security/scanning_rounded';
+import { SecuritySafeRounded, SecuritySafeRoundedMetadata } from './security/security-safe_rounded';
+import { SecurityUserRounded, SecurityUserRoundedMetadata } from './security/security-user_rounded';
+import { SecurityRounded, SecurityRoundedMetadata } from './security/security_rounded';
+import { ShieldCrossRounded, ShieldCrossRoundedMetadata } from './security/shield-cross_rounded';
+import { ShieldSearchRounded, ShieldSearchRoundedMetadata } from './security/shield-search_rounded';
+import { ShieldSecurityRounded, ShieldSecurityRoundedMetadata } from './security/shield-security_rounded';
+import { ShieldSlashRounded, ShieldSlashRoundedMetadata } from './security/shield-slash_rounded';
+import { ShieldTickRounded, ShieldTickRoundedMetadata } from './security/shield-tick_rounded';
+import { ShieldRounded, ShieldRoundedMetadata } from './security/shield_rounded';
+import { UnlockRounded, UnlockRoundedMetadata } from './security/unlock_rounded';
 import { Cone, ConeMetadata } from './shapes/cone';
 import { TriangleDashed, TriangleDashedMetadata } from './shapes/triangle-dashed';
 import { TriangleRight, TriangleRightMetadata } from './shapes/triangle-right';
@@ -6003,12 +5927,8 @@ import { Triangle, TriangleMetadata } from './shapes/triangle';
 import { ShieldAlert, ShieldAlertMetadata } from './shield/shield-alert';
 import { ShieldBan, ShieldBanMetadata } from './shield/shield-ban';
 import { ShieldCheck, ShieldCheckMetadata } from './shield/shield-check';
-import { ShieldCheckFilled, ShieldCheckFilledMetadata } from './shield/shield-check_filled';
-import { ShieldCheckeredFilled, ShieldCheckeredFilledMetadata } from './shield/shield-checkered_filled';
 import { ShieldEllipsis, ShieldEllipsisMetadata } from './shield/shield-ellipsis';
 import { ShieldHalf, ShieldHalfMetadata } from './shield/shield-half';
-import { ShieldHalfFilled, ShieldHalfFilledMetadata } from './shield/shield-half_filled';
-import { ShieldLockFilled, ShieldLockFilledMetadata } from './shield/shield-lock_filled';
 import { ShieldMinus, ShieldMinusMetadata } from './shield/shield-minus';
 import { ShieldOff, ShieldOffMetadata } from './shield/shield-off';
 import { ShieldPlus, ShieldPlusMetadata } from './shield/shield-plus';
@@ -6016,14 +5936,11 @@ import { ShieldQuestionMark, ShieldQuestionMarkMetadata } from './shield/shield-
 import { ShieldUser, ShieldUserMetadata } from './shield/shield-user';
 import { ShieldX, ShieldXMetadata } from './shield/shield-x';
 import { Shield, ShieldMetadata } from './shield/shield';
-import { ShieldFilled, ShieldFilledMetadata } from './shield/shield_filled';
 import { SquareActivity, SquareActivityMetadata } from './square/square-activity';
 import { SquareArrowDownLeft, SquareArrowDownLeftMetadata } from './square/square-arrow-down-left';
 import { SquareArrowDownRight, SquareArrowDownRightMetadata } from './square/square-arrow-down-right';
 import { SquareArrowDown, SquareArrowDownMetadata } from './square/square-arrow-down';
-import { SquareArrowDownFilled, SquareArrowDownFilledMetadata } from './square/square-arrow-down_filled';
 import { SquareArrowLeft, SquareArrowLeftMetadata } from './square/square-arrow-left';
-import { SquareArrowLeftFilled, SquareArrowLeftFilledMetadata } from './square/square-arrow-left_filled';
 import { SquareArrowOutDownLeft, SquareArrowOutDownLeftMetadata } from './square/square-arrow-out-down-left';
 import { SquareArrowOutDownRight, SquareArrowOutDownRightMetadata } from './square/square-arrow-out-down-right';
 import { SquareArrowOutUpLeft, SquareArrowOutUpLeftMetadata } from './square/square-arrow-out-up-left';
@@ -6031,32 +5948,20 @@ import { SquareArrowOutUpRight, SquareArrowOutUpRightMetadata } from './square/s
 import { SquareArrowRightEnter, SquareArrowRightEnterMetadata } from './square/square-arrow-right-enter';
 import { SquareArrowRightExit, SquareArrowRightExitMetadata } from './square/square-arrow-right-exit';
 import { SquareArrowRight, SquareArrowRightMetadata } from './square/square-arrow-right';
-import { SquareArrowRightFilled, SquareArrowRightFilledMetadata } from './square/square-arrow-right_filled';
 import { SquareArrowUpLeft, SquareArrowUpLeftMetadata } from './square/square-arrow-up-left';
 import { SquareArrowUpRight, SquareArrowUpRightMetadata } from './square/square-arrow-up-right';
 import { SquareArrowUp, SquareArrowUpMetadata } from './square/square-arrow-up';
-import { SquareArrowUpFilled, SquareArrowUpFilledMetadata } from './square/square-arrow-up_filled';
 import { SquareAsterisk, SquareAsteriskMetadata } from './square/square-asterisk';
-import { SquareAsteriskFilled, SquareAsteriskFilledMetadata } from './square/square-asterisk_filled';
 import { SquareBottomDashedScissors, SquareBottomDashedScissorsMetadata } from './square/square-bottom-dashed-scissors';
 import { SquareCenterlineDashedHorizontal, SquareCenterlineDashedHorizontalMetadata } from './square/square-centerline-dashed-horizontal';
 import { SquareCenterlineDashedVertical, SquareCenterlineDashedVerticalMetadata } from './square/square-centerline-dashed-vertical';
 import { SquareChartGantt, SquareChartGanttMetadata } from './square/square-chart-gantt';
 import { SquareCheckBig, SquareCheckBigMetadata } from './square/square-check-big';
 import { SquareCheck, SquareCheckMetadata } from './square/square-check';
-import { SquareCheckFilled, SquareCheckFilledMetadata } from './square/square-check_filled';
 import { SquareChevronDown, SquareChevronDownMetadata } from './square/square-chevron-down';
-import { SquareChevronDownFilled, SquareChevronDownFilledMetadata } from './square/square-chevron-down_filled';
 import { SquareChevronLeft, SquareChevronLeftMetadata } from './square/square-chevron-left';
-import { SquareChevronLeftFilled, SquareChevronLeftFilledMetadata } from './square/square-chevron-left_filled';
 import { SquareChevronRight, SquareChevronRightMetadata } from './square/square-chevron-right';
-import { SquareChevronRightFilled, SquareChevronRightFilledMetadata } from './square/square-chevron-right_filled';
 import { SquareChevronUp, SquareChevronUpMetadata } from './square/square-chevron-up';
-import { SquareChevronUpFilled, SquareChevronUpFilledMetadata } from './square/square-chevron-up_filled';
-import { SquareChevronsDownFilled, SquareChevronsDownFilledMetadata } from './square/square-chevrons-down_filled';
-import { SquareChevronsLeftFilled, SquareChevronsLeftFilledMetadata } from './square/square-chevrons-left_filled';
-import { SquareChevronsRightFilled, SquareChevronsRightFilledMetadata } from './square/square-chevrons-right_filled';
-import { SquareChevronsUpFilled, SquareChevronsUpFilledMetadata } from './square/square-chevrons-up_filled';
 import { SquareCode, SquareCodeMetadata } from './square/square-code';
 import { SquareDashedBottomCode, SquareDashedBottomCodeMetadata } from './square/square-dashed-bottom-code';
 import { SquareDashedBottom, SquareDashedBottomMetadata } from './square/square-dashed-bottom';
@@ -6066,62 +5971,14 @@ import { SquareDashedTopSolid, SquareDashedTopSolidMetadata } from './square/squ
 import { SquareDashed, SquareDashedMetadata } from './square/square-dashed';
 import { SquareDivide, SquareDivideMetadata } from './square/square-divide';
 import { SquareDot, SquareDotMetadata } from './square/square-dot';
-import { SquareDotFilled, SquareDotFilledMetadata } from './square/square-dot_filled';
 import { SquareEqual, SquareEqualMetadata } from './square/square-equal';
-import { SquareF0Filled, SquareF0FilledMetadata } from './square/square-f0_filled';
-import { SquareF1Filled, SquareF1FilledMetadata } from './square/square-f1_filled';
-import { SquareF2Filled, SquareF2FilledMetadata } from './square/square-f2_filled';
-import { SquareF3Filled, SquareF3FilledMetadata } from './square/square-f3_filled';
-import { SquareF4Filled, SquareF4FilledMetadata } from './square/square-f4_filled';
-import { SquareF5Filled, SquareF5FilledMetadata } from './square/square-f5_filled';
-import { SquareF6Filled, SquareF6FilledMetadata } from './square/square-f6_filled';
-import { SquareF7Filled, SquareF7FilledMetadata } from './square/square-f7_filled';
-import { SquareF8Filled, SquareF8FilledMetadata } from './square/square-f8_filled';
-import { SquareF9Filled, SquareF9FilledMetadata } from './square/square-f9_filled';
 import { SquareFunction, SquareFunctionMetadata } from './square/square-function';
 import { SquareKanban, SquareKanbanMetadata } from './square/square-kanban';
-import { SquareLetterAFilled, SquareLetterAFilledMetadata } from './square/square-letter-a_filled';
-import { SquareLetterBFilled, SquareLetterBFilledMetadata } from './square/square-letter-b_filled';
-import { SquareLetterCFilled, SquareLetterCFilledMetadata } from './square/square-letter-c_filled';
-import { SquareLetterDFilled, SquareLetterDFilledMetadata } from './square/square-letter-d_filled';
-import { SquareLetterEFilled, SquareLetterEFilledMetadata } from './square/square-letter-e_filled';
-import { SquareLetterFFilled, SquareLetterFFilledMetadata } from './square/square-letter-f_filled';
-import { SquareLetterGFilled, SquareLetterGFilledMetadata } from './square/square-letter-g_filled';
-import { SquareLetterHFilled, SquareLetterHFilledMetadata } from './square/square-letter-h_filled';
-import { SquareLetterIFilled, SquareLetterIFilledMetadata } from './square/square-letter-i_filled';
-import { SquareLetterJFilled, SquareLetterJFilledMetadata } from './square/square-letter-j_filled';
-import { SquareLetterKFilled, SquareLetterKFilledMetadata } from './square/square-letter-k_filled';
-import { SquareLetterLFilled, SquareLetterLFilledMetadata } from './square/square-letter-l_filled';
-import { SquareLetterMFilled, SquareLetterMFilledMetadata } from './square/square-letter-m_filled';
-import { SquareLetterNFilled, SquareLetterNFilledMetadata } from './square/square-letter-n_filled';
-import { SquareLetterOFilled, SquareLetterOFilledMetadata } from './square/square-letter-o_filled';
-import { SquareLetterPFilled, SquareLetterPFilledMetadata } from './square/square-letter-p_filled';
-import { SquareLetterQFilled, SquareLetterQFilledMetadata } from './square/square-letter-q_filled';
-import { SquareLetterRFilled, SquareLetterRFilledMetadata } from './square/square-letter-r_filled';
-import { SquareLetterSFilled, SquareLetterSFilledMetadata } from './square/square-letter-s_filled';
-import { SquareLetterTFilled, SquareLetterTFilledMetadata } from './square/square-letter-t_filled';
-import { SquareLetterUFilled, SquareLetterUFilledMetadata } from './square/square-letter-u_filled';
-import { SquareLetterVFilled, SquareLetterVFilledMetadata } from './square/square-letter-v_filled';
-import { SquareLetterWFilled, SquareLetterWFilledMetadata } from './square/square-letter-w_filled';
-import { SquareLetterXFilled, SquareLetterXFilledMetadata } from './square/square-letter-x_filled';
-import { SquareLetterYFilled, SquareLetterYFilledMetadata } from './square/square-letter-y_filled';
-import { SquareLetterZFilled, SquareLetterZFilledMetadata } from './square/square-letter-z_filled';
 import { SquareLibrary, SquareLibraryMetadata } from './square/square-library';
 import { SquareM, SquareMMetadata } from './square/square-m';
 import { SquareMenu, SquareMenuMetadata } from './square/square-menu';
 import { SquareMinus, SquareMinusMetadata } from './square/square-minus';
-import { SquareMinusFilled, SquareMinusFilledMetadata } from './square/square-minus_filled';
 import { SquareMousePointer, SquareMousePointerMetadata } from './square/square-mouse-pointer';
-import { SquareNumber0Filled, SquareNumber0FilledMetadata } from './square/square-number-0_filled';
-import { SquareNumber1Filled, SquareNumber1FilledMetadata } from './square/square-number-1_filled';
-import { SquareNumber2Filled, SquareNumber2FilledMetadata } from './square/square-number-2_filled';
-import { SquareNumber3Filled, SquareNumber3FilledMetadata } from './square/square-number-3_filled';
-import { SquareNumber4Filled, SquareNumber4FilledMetadata } from './square/square-number-4_filled';
-import { SquareNumber5Filled, SquareNumber5FilledMetadata } from './square/square-number-5_filled';
-import { SquareNumber6Filled, SquareNumber6FilledMetadata } from './square/square-number-6_filled';
-import { SquareNumber7Filled, SquareNumber7FilledMetadata } from './square/square-number-7_filled';
-import { SquareNumber8Filled, SquareNumber8FilledMetadata } from './square/square-number-8_filled';
-import { SquareNumber9Filled, SquareNumber9FilledMetadata } from './square/square-number-9_filled';
 import { SquareParkingOff, SquareParkingOffMetadata } from './square/square-parking-off';
 import { SquareParking, SquareParkingMetadata } from './square/square-parking';
 import { SquarePause, SquarePauseMetadata } from './square/square-pause';
@@ -6133,61 +5990,7 @@ import { SquarePlay, SquarePlayMetadata } from './square/square-play';
 import { SquarePlus, SquarePlusMetadata } from './square/square-plus';
 import { SquarePower, SquarePowerMetadata } from './square/square-power';
 import { SquareRadical, SquareRadicalMetadata } from './square/square-radical';
-import { SquareRotatedFilled, SquareRotatedFilledMetadata } from './square/square-rotated_filled';
 import { SquareRoundCorner, SquareRoundCornerMetadata } from './square/square-round-corner';
-import { SquareRoundedArrowDownFilled, SquareRoundedArrowDownFilledMetadata } from './square/square-rounded-arrow-down_filled';
-import { SquareRoundedArrowLeftFilled, SquareRoundedArrowLeftFilledMetadata } from './square/square-rounded-arrow-left_filled';
-import { SquareRoundedArrowRightFilled, SquareRoundedArrowRightFilledMetadata } from './square/square-rounded-arrow-right_filled';
-import { SquareRoundedArrowUpFilled, SquareRoundedArrowUpFilledMetadata } from './square/square-rounded-arrow-up_filled';
-import { SquareRoundedCheckFilled, SquareRoundedCheckFilledMetadata } from './square/square-rounded-check_filled';
-import { SquareRoundedChevronDownFilled, SquareRoundedChevronDownFilledMetadata } from './square/square-rounded-chevron-down_filled';
-import { SquareRoundedChevronLeftFilled, SquareRoundedChevronLeftFilledMetadata } from './square/square-rounded-chevron-left_filled';
-import { SquareRoundedChevronRightFilled, SquareRoundedChevronRightFilledMetadata } from './square/square-rounded-chevron-right_filled';
-import { SquareRoundedChevronUpFilled, SquareRoundedChevronUpFilledMetadata } from './square/square-rounded-chevron-up_filled';
-import { SquareRoundedChevronsDownFilled, SquareRoundedChevronsDownFilledMetadata } from './square/square-rounded-chevrons-down_filled';
-import { SquareRoundedChevronsLeftFilled, SquareRoundedChevronsLeftFilledMetadata } from './square/square-rounded-chevrons-left_filled';
-import { SquareRoundedChevronsRightFilled, SquareRoundedChevronsRightFilledMetadata } from './square/square-rounded-chevrons-right_filled';
-import { SquareRoundedChevronsUpFilled, SquareRoundedChevronsUpFilledMetadata } from './square/square-rounded-chevrons-up_filled';
-import { SquareRoundedLetterAFilled, SquareRoundedLetterAFilledMetadata } from './square/square-rounded-letter-a_filled';
-import { SquareRoundedLetterBFilled, SquareRoundedLetterBFilledMetadata } from './square/square-rounded-letter-b_filled';
-import { SquareRoundedLetterCFilled, SquareRoundedLetterCFilledMetadata } from './square/square-rounded-letter-c_filled';
-import { SquareRoundedLetterDFilled, SquareRoundedLetterDFilledMetadata } from './square/square-rounded-letter-d_filled';
-import { SquareRoundedLetterEFilled, SquareRoundedLetterEFilledMetadata } from './square/square-rounded-letter-e_filled';
-import { SquareRoundedLetterFFilled, SquareRoundedLetterFFilledMetadata } from './square/square-rounded-letter-f_filled';
-import { SquareRoundedLetterGFilled, SquareRoundedLetterGFilledMetadata } from './square/square-rounded-letter-g_filled';
-import { SquareRoundedLetterHFilled, SquareRoundedLetterHFilledMetadata } from './square/square-rounded-letter-h_filled';
-import { SquareRoundedLetterIFilled, SquareRoundedLetterIFilledMetadata } from './square/square-rounded-letter-i_filled';
-import { SquareRoundedLetterJFilled, SquareRoundedLetterJFilledMetadata } from './square/square-rounded-letter-j_filled';
-import { SquareRoundedLetterKFilled, SquareRoundedLetterKFilledMetadata } from './square/square-rounded-letter-k_filled';
-import { SquareRoundedLetterLFilled, SquareRoundedLetterLFilledMetadata } from './square/square-rounded-letter-l_filled';
-import { SquareRoundedLetterMFilled, SquareRoundedLetterMFilledMetadata } from './square/square-rounded-letter-m_filled';
-import { SquareRoundedLetterNFilled, SquareRoundedLetterNFilledMetadata } from './square/square-rounded-letter-n_filled';
-import { SquareRoundedLetterOFilled, SquareRoundedLetterOFilledMetadata } from './square/square-rounded-letter-o_filled';
-import { SquareRoundedLetterPFilled, SquareRoundedLetterPFilledMetadata } from './square/square-rounded-letter-p_filled';
-import { SquareRoundedLetterQFilled, SquareRoundedLetterQFilledMetadata } from './square/square-rounded-letter-q_filled';
-import { SquareRoundedLetterRFilled, SquareRoundedLetterRFilledMetadata } from './square/square-rounded-letter-r_filled';
-import { SquareRoundedLetterSFilled, SquareRoundedLetterSFilledMetadata } from './square/square-rounded-letter-s_filled';
-import { SquareRoundedLetterTFilled, SquareRoundedLetterTFilledMetadata } from './square/square-rounded-letter-t_filled';
-import { SquareRoundedLetterUFilled, SquareRoundedLetterUFilledMetadata } from './square/square-rounded-letter-u_filled';
-import { SquareRoundedLetterVFilled, SquareRoundedLetterVFilledMetadata } from './square/square-rounded-letter-v_filled';
-import { SquareRoundedLetterWFilled, SquareRoundedLetterWFilledMetadata } from './square/square-rounded-letter-w_filled';
-import { SquareRoundedLetterXFilled, SquareRoundedLetterXFilledMetadata } from './square/square-rounded-letter-x_filled';
-import { SquareRoundedLetterYFilled, SquareRoundedLetterYFilledMetadata } from './square/square-rounded-letter-y_filled';
-import { SquareRoundedLetterZFilled, SquareRoundedLetterZFilledMetadata } from './square/square-rounded-letter-z_filled';
-import { SquareRoundedMinusFilled, SquareRoundedMinusFilledMetadata } from './square/square-rounded-minus_filled';
-import { SquareRoundedNumber0Filled, SquareRoundedNumber0FilledMetadata } from './square/square-rounded-number-0_filled';
-import { SquareRoundedNumber1Filled, SquareRoundedNumber1FilledMetadata } from './square/square-rounded-number-1_filled';
-import { SquareRoundedNumber2Filled, SquareRoundedNumber2FilledMetadata } from './square/square-rounded-number-2_filled';
-import { SquareRoundedNumber3Filled, SquareRoundedNumber3FilledMetadata } from './square/square-rounded-number-3_filled';
-import { SquareRoundedNumber4Filled, SquareRoundedNumber4FilledMetadata } from './square/square-rounded-number-4_filled';
-import { SquareRoundedNumber5Filled, SquareRoundedNumber5FilledMetadata } from './square/square-rounded-number-5_filled';
-import { SquareRoundedNumber6Filled, SquareRoundedNumber6FilledMetadata } from './square/square-rounded-number-6_filled';
-import { SquareRoundedNumber7Filled, SquareRoundedNumber7FilledMetadata } from './square/square-rounded-number-7_filled';
-import { SquareRoundedNumber8Filled, SquareRoundedNumber8FilledMetadata } from './square/square-rounded-number-8_filled';
-import { SquareRoundedNumber9Filled, SquareRoundedNumber9FilledMetadata } from './square/square-rounded-number-9_filled';
-import { SquareRoundedPlusFilled, SquareRoundedPlusFilledMetadata } from './square/square-rounded-plus_filled';
-import { SquareRoundedXFilled, SquareRoundedXFilledMetadata } from './square/square-rounded-x_filled';
-import { SquareRoundedFilled, SquareRoundedFilledMetadata } from './square/square-rounded_filled';
 import { SquareScissors, SquareScissorsMetadata } from './square/square-scissors';
 import { SquareSigma, SquareSigmaMetadata } from './square/square-sigma';
 import { SquareSlash, SquareSlashMetadata } from './square/square-slash';
@@ -6201,16 +6004,38 @@ import { SquareTerminal, SquareTerminalMetadata } from './square/square-terminal
 import { SquareUserRound, SquareUserRoundMetadata } from './square/square-user-round';
 import { SquareUser, SquareUserMetadata } from './square/square-user';
 import { SquareX, SquareXMetadata } from './square/square-x';
-import { SquareXFilled, SquareXFilledMetadata } from './square/square-x_filled';
 import { Square, SquareMetadata } from './square/square';
-import { SquareFilled, SquareFilledMetadata } from './square/square_filled';
 import { SquaresExclude, SquaresExcludeMetadata } from './square/squares-exclude';
 import { SquaresIntersect, SquaresIntersectMetadata } from './square/squares-intersect';
 import { SquaresSubtract, SquaresSubtractMetadata } from './square/squares-subtract';
 import { SquaresUnite, SquaresUniteMetadata } from './square/squares-unite';
-import { SquaresFilled, SquaresFilledMetadata } from './square/squares_filled';
 import { SquircleDashed, SquircleDashedMetadata } from './square/squircle-dashed';
 import { Squircle, SquircleMetadata } from './square/squircle';
+import { DislikeRounded, DislikeRoundedMetadata } from './support/dislike_rounded';
+import { HeartAddRounded, HeartAddRoundedMetadata } from './support/heart-add_rounded';
+import { HeartCircleRounded, HeartCircleRoundedMetadata } from './support/heart-circle_rounded';
+import { HeartEditRounded, HeartEditRoundedMetadata } from './support/heart-edit_rounded';
+import { HeartRemoveRounded, HeartRemoveRoundedMetadata } from './support/heart-remove_rounded';
+import { HeartSearchRounded, HeartSearchRoundedMetadata } from './support/heart-search_rounded';
+import { HeartSlashRounded, HeartSlashRoundedMetadata } from './support/heart-slash_rounded';
+import { HeartTickRounded, HeartTickRoundedMetadata } from './support/heart-tick_rounded';
+import { HeartRounded, HeartRoundedMetadata } from './support/heart_rounded';
+import { Like1Rounded, Like1RoundedMetadata } from './support/like-1_rounded';
+import { LikeDislikeRounded, LikeDislikeRoundedMetadata } from './support/like-dislike_rounded';
+import { LikeShapesRounded, LikeShapesRoundedMetadata } from './support/like-shapes_rounded';
+import { LikeTagRounded, LikeTagRoundedMetadata } from './support/like-tag_rounded';
+import { LikeRounded, LikeRoundedMetadata } from './support/like_rounded';
+import { LovelyRounded, LovelyRoundedMetadata } from './support/lovely_rounded';
+import { MagicStarRounded, MagicStarRoundedMetadata } from './support/magic-star_rounded';
+import { MedalStarRounded, MedalStarRoundedMetadata } from './support/medal-star_rounded';
+import { MedalRounded, MedalRoundedMetadata } from './support/medal_rounded';
+import { MessageQuestionRounded, MessageQuestionRoundedMetadata } from './support/message-question_rounded';
+import { SmileysRounded, SmileysRoundedMetadata } from './support/smileys_rounded';
+import { Star1Rounded, Star1RoundedMetadata } from './support/star-1_rounded';
+import { StarSlashRounded, StarSlashRoundedMetadata } from './support/star-slash_rounded';
+import { StarRounded, StarRoundedMetadata } from './support/star_rounded';
+import { SupportRounded, SupportRoundedMetadata } from './support/support_rounded';
+import { UnlimitedRounded, UnlimitedRoundedMetadata } from './support/unlimited_rounded';
 import { Table2, Table2Metadata } from './table/table-2';
 import { TableCellsMerge, TableCellsMergeMetadata } from './table/table-cells-merge';
 import { TableCellsSplit, TableCellsSplitMetadata } from './table/table-cells-split';
@@ -6219,76 +6044,139 @@ import { TableOfContents, TableOfContentsMetadata } from './table/table-of-conte
 import { TableProperties, TablePropertiesMetadata } from './table/table-properties';
 import { TableRowsSplit, TableRowsSplitMetadata } from './table/table-rows-split';
 import { Table, TableMetadata } from './table/table';
+import { AArrowDown, AArrowDownMetadata } from './text/a-arrow-down';
+import { AArrowUp, AArrowUpMetadata } from './text/a-arrow-up';
+import { ALargeSmall, ALargeSmallMetadata } from './text/a-large-small';
+import { Ampersand, AmpersandMetadata } from './text/ampersand';
+import { Ampersands, AmpersandsMetadata } from './text/ampersands';
+import { AtSign, AtSignMetadata } from './text/at-sign';
+import { AttachCircleRounded, AttachCircleRoundedMetadata } from './text/attach-circle_rounded';
+import { AttachSquareRounded, AttachSquareRoundedMetadata } from './text/attach-square_rounded';
+import { Braces, BracesMetadata } from './text/braces';
+import { Brackets, BracketsMetadata } from './text/brackets';
+import { CaseLower, CaseLowerMetadata } from './text/case-lower';
+import { CaseSensitive, CaseSensitiveMetadata } from './text/case-sensitive';
+import { CaseUpper, CaseUpperMetadata } from './text/case-upper';
+import { Dot, DotMetadata } from './text/dot';
+import { FirstlineRounded, FirstlineRoundedMetadata } from './text/firstline_rounded';
+import { Hash, HashMetadata } from './text/hash';
+import { Heading1, Heading1Metadata } from './text/heading-1';
+import { Heading2, Heading2Metadata } from './text/heading-2';
+import { Heading3, Heading3Metadata } from './text/heading-3';
+import { Heading4, Heading4Metadata } from './text/heading-4';
+import { Heading5, Heading5Metadata } from './text/heading-5';
+import { Heading6, Heading6Metadata } from './text/heading-6';
+import { Heading, HeadingMetadata } from './text/heading';
+import { Italic, ItalicMetadata } from './text/italic';
+import { LanguageCircleRounded, LanguageCircleRoundedMetadata } from './text/language-circle_rounded';
+import { LanguageSquareRounded, LanguageSquareRoundedMetadata } from './text/language-square_rounded';
+import { Languages, LanguagesMetadata } from './text/languages';
+import { Link1Rounded, Link1RoundedMetadata } from './text/link-1_rounded';
+import { Link21Rounded, Link21RoundedMetadata } from './text/link-21_rounded';
+import { Link2Rounded, Link2RoundedMetadata } from './text/link-2_rounded';
+import { LinkCircleRounded, LinkCircleRoundedMetadata } from './text/link-circle_rounded';
+import { LinkSquareRounded, LinkSquareRoundedMetadata } from './text/link-square_rounded';
+import { LinkRounded, LinkRoundedMetadata } from './text/link_rounded';
+import { Paperclip2Rounded, Paperclip2RoundedMetadata } from './text/paperclip-2_rounded';
+import { PaperclipRounded, PaperclipRoundedMetadata } from './text/paperclip_rounded';
+import { PharagraphspacingRounded, PharagraphspacingRoundedMetadata } from './text/pharagraphspacing_rounded';
+import { QuoteDownCircleRounded, QuoteDownCircleRoundedMetadata } from './text/quote-down-circle_rounded';
+import { QuoteDownSquareRounded, QuoteDownSquareRoundedMetadata } from './text/quote-down-square_rounded';
+import { QuoteDownRounded, QuoteDownRoundedMetadata } from './text/quote-down_rounded';
+import { QuoteUpCircleRounded, QuoteUpCircleRoundedMetadata } from './text/quote-up-circle_rounded';
+import { QuoteUpSquareRounded, QuoteUpSquareRoundedMetadata } from './text/quote-up-square_rounded';
+import { QuoteUpRounded, QuoteUpRoundedMetadata } from './text/quote-up_rounded';
 import { RemoveFormatting, RemoveFormattingMetadata } from './text/remove-formatting';
+import { SmallcapsRounded, SmallcapsRoundedMetadata } from './text/smallcaps_rounded';
 import { SpellCheck2, SpellCheck2Metadata } from './text/spell-check-2';
 import { SpellCheck, SpellCheckMetadata } from './text/spell-check';
 import { TextAlignCenter, TextAlignCenterMetadata } from './text/text-align-center';
 import { TextAlignEnd, TextAlignEndMetadata } from './text/text-align-end';
 import { TextAlignJustify, TextAlignJustifyMetadata } from './text/text-align-justify';
 import { TextAlignStart, TextAlignStartMetadata } from './text/text-align-start';
+import { TextBlockRounded, TextBlockRoundedMetadata } from './text/text-block_rounded';
+import { TextBoldRounded, TextBoldRoundedMetadata } from './text/text-bold_rounded';
 import { TextCursorInput, TextCursorInputMetadata } from './text/text-cursor-input';
 import { TextCursor, TextCursorMetadata } from './text/text-cursor';
 import { TextInitial, TextInitialMetadata } from './text/text-initial';
+import { TextItalicRounded, TextItalicRoundedMetadata } from './text/text-italic_rounded';
 import { TextQuote, TextQuoteMetadata } from './text/text-quote';
 import { TextSearch, TextSearchMetadata } from './text/text-search';
 import { TextSelect, TextSelectMetadata } from './text/text-select';
+import { TextUnderlineRounded, TextUnderlineRoundedMetadata } from './text/text-underline_rounded';
 import { TextWrap, TextWrapMetadata } from './text/text-wrap';
+import { TextRounded, TextRoundedMetadata } from './text/text_rounded';
+import { TextalignCenterRounded, TextalignCenterRoundedMetadata } from './text/textalign-center_rounded';
+import { TextalignJustifycenterRounded, TextalignJustifycenterRoundedMetadata } from './text/textalign-justifycenter_rounded';
+import { TextalignJustifyleftRounded, TextalignJustifyleftRoundedMetadata } from './text/textalign-justifyleft_rounded';
+import { TextalignJustifyrightRounded, TextalignJustifyrightRoundedMetadata } from './text/textalign-justifyright_rounded';
+import { TextalignLeftRounded, TextalignLeftRoundedMetadata } from './text/textalign-left_rounded';
+import { TextalignRightRounded, TextalignRightRoundedMetadata } from './text/textalign-right_rounded';
+import { TranslateRounded, TranslateRoundedMetadata } from './text/translate_rounded';
+import { TypeOutline, TypeOutlineMetadata } from './text/type-outline';
+import { Type, TypeMetadata } from './text/type';
 import { AlarmClockCheck, AlarmClockCheckMetadata } from './time/alarm-clock-check';
 import { AlarmClockMinus, AlarmClockMinusMetadata } from './time/alarm-clock-minus';
 import { AlarmClockOff, AlarmClockOffMetadata } from './time/alarm-clock-off';
 import { AlarmClockPlus, AlarmClockPlusMetadata } from './time/alarm-clock-plus';
 import { AlarmClock, AlarmClockMetadata } from './time/alarm-clock';
-import { AlarmMinusFilled, AlarmMinusFilledMetadata } from './time/alarm-minus_filled';
-import { AlarmPlusFilled, AlarmPlusFilledMetadata } from './time/alarm-plus_filled';
-import { AlarmSnoozeFilled, AlarmSnoozeFilledMetadata } from './time/alarm-snooze_filled';
-import { AlarmFilled, AlarmFilledMetadata } from './time/alarm_filled';
-import { ClockHour10Filled, ClockHour10FilledMetadata } from './time/clock-hour-10_filled';
-import { ClockHour11Filled, ClockHour11FilledMetadata } from './time/clock-hour-11_filled';
-import { ClockHour12Filled, ClockHour12FilledMetadata } from './time/clock-hour-12_filled';
-import { ClockHour1Filled, ClockHour1FilledMetadata } from './time/clock-hour-1_filled';
-import { ClockHour2Filled, ClockHour2FilledMetadata } from './time/clock-hour-2_filled';
-import { ClockHour3Filled, ClockHour3FilledMetadata } from './time/clock-hour-3_filled';
-import { ClockHour4Filled, ClockHour4FilledMetadata } from './time/clock-hour-4_filled';
-import { ClockHour5Filled, ClockHour5FilledMetadata } from './time/clock-hour-5_filled';
-import { ClockHour6Filled, ClockHour6FilledMetadata } from './time/clock-hour-6_filled';
-import { ClockHour7Filled, ClockHour7FilledMetadata } from './time/clock-hour-7_filled';
-import { ClockHour8Filled, ClockHour8FilledMetadata } from './time/clock-hour-8_filled';
-import { ClockHour9Filled, ClockHour9FilledMetadata } from './time/clock-hour-9_filled';
-import { ClockFilled, ClockFilledMetadata } from './time/clock_filled';
-import { Ambulance, AmbulanceMetadata } from './transportation/ambulance';
-import { Bike, BikeMetadata } from './transportation/bike';
-import { BusFront, BusFrontMetadata } from './transportation/bus-front';
-import { Bus, BusMetadata } from './transportation/bus';
-import { CableCar, CableCarMetadata } from './transportation/cable-car';
-import { CarFront, CarFrontMetadata } from './transportation/car-front';
-import { CarTaxiFront, CarTaxiFrontMetadata } from './transportation/car-taxi-front';
-import { Car, CarMetadata } from './transportation/car';
-import { Caravan, CaravanMetadata } from './transportation/caravan';
-import { EvCharger, EvChargerMetadata } from './transportation/ev-charger';
-import { Forklift, ForkliftMetadata } from './transportation/forklift';
-import { Motorbike, MotorbikeMetadata } from './transportation/motorbike';
-import { PlaneLanding, PlaneLandingMetadata } from './transportation/plane-landing';
-import { PlaneTakeoff, PlaneTakeoffMetadata } from './transportation/plane-takeoff';
-import { Plane, PlaneMetadata } from './transportation/plane';
-import { Tractor, TractorMetadata } from './transportation/tractor';
-import { TrafficCone, TrafficConeMetadata } from './transportation/traffic-cone';
-import { TrainFrontTunnel, TrainFrontTunnelMetadata } from './transportation/train-front-tunnel';
-import { TrainFront, TrainFrontMetadata } from './transportation/train-front';
-import { TrainTrack, TrainTrackMetadata } from './transportation/train-track';
-import { TramFront, TramFrontMetadata } from './transportation/tram-front';
-import { TruckElectric, TruckElectricMetadata } from './transportation/truck-electric';
-import { Truck, TruckMetadata } from './transportation/truck';
+import { AirplaneSquareRounded, AirplaneSquareRoundedMetadata } from './transport/airplane-square_rounded';
+import { AirplaneRounded, AirplaneRoundedMetadata } from './transport/airplane_rounded';
+import { Ambulance, AmbulanceMetadata } from './transport/ambulance';
+import { Bike, BikeMetadata } from './transport/bike';
+import { BusFront, BusFrontMetadata } from './transport/bus-front';
+import { Bus, BusMetadata } from './transport/bus';
+import { BusRounded, BusRoundedMetadata } from './transport/bus_rounded';
+import { CableCar, CableCarMetadata } from './transport/cable-car';
+import { CarFront, CarFrontMetadata } from './transport/car-front';
+import { CarTaxiFront, CarTaxiFrontMetadata } from './transport/car-taxi-front';
+import { Car, CarMetadata } from './transport/car';
+import { CarRounded, CarRoundedMetadata } from './transport/car_rounded';
+import { Caravan, CaravanMetadata } from './transport/caravan';
+import { DrivingRounded, DrivingRoundedMetadata } from './transport/driving_rounded';
+import { EvCharger, EvChargerMetadata } from './transport/ev-charger';
+import { Forklift, ForkliftMetadata } from './transport/forklift';
+import { GasStationRounded, GasStationRoundedMetadata } from './transport/gas-station_rounded';
+import { Motorbike, MotorbikeMetadata } from './transport/motorbike';
+import { PlaneLanding, PlaneLandingMetadata } from './transport/plane-landing';
+import { PlaneTakeoff, PlaneTakeoffMetadata } from './transport/plane-takeoff';
+import { Plane, PlaneMetadata } from './transport/plane';
+import { ShipRounded, ShipRoundedMetadata } from './transport/ship_rounded';
+import { SmartCarRounded, SmartCarRoundedMetadata } from './transport/smart-car_rounded';
+import { Tractor, TractorMetadata } from './transport/tractor';
+import { TrafficCone, TrafficConeMetadata } from './transport/traffic-cone';
+import { TrainFrontTunnel, TrainFrontTunnelMetadata } from './transport/train-front-tunnel';
+import { TrainFront, TrainFrontMetadata } from './transport/train-front';
+import { TrainTrack, TrainTrackMetadata } from './transport/train-track';
+import { TramFront, TramFrontMetadata } from './transport/tram-front';
+import { TruckElectric, TruckElectricMetadata } from './transport/truck-electric';
+import { Truck, TruckMetadata } from './transport/truck';
 import { ContactRound, ContactRoundMetadata } from './user/contact-round';
 import { Contact, ContactMetadata } from './user/contact';
 import { IdCardLanyard, IdCardLanyardMetadata } from './user/id-card-lanyard';
 import { IdCard, IdCardMetadata } from './user/id-card';
+import { PeopleRounded, PeopleRoundedMetadata } from './user/people_rounded';
+import { Profile2userRounded, Profile2userRoundedMetadata } from './user/profile-2user_rounded';
+import { ProfileAddRounded, ProfileAddRoundedMetadata } from './user/profile-add_rounded';
+import { ProfileCircleRounded, ProfileCircleRoundedMetadata } from './user/profile-circle_rounded';
+import { ProfileDeleteRounded, ProfileDeleteRoundedMetadata } from './user/profile-delete_rounded';
+import { ProfileRemoveRounded, ProfileRemoveRoundedMetadata } from './user/profile-remove_rounded';
+import { ProfileTickRounded, ProfileTickRoundedMetadata } from './user/profile-tick_rounded';
+import { ProfileRounded, ProfileRoundedMetadata } from './user/profile_rounded';
+import { TagUserRounded, TagUserRoundedMetadata } from './user/tag-user_rounded';
+import { UserAddRounded, UserAddRoundedMetadata } from './user/user-add_rounded';
 import { UserCheck, UserCheckMetadata } from './user/user-check';
+import { UserCirlceAddRounded, UserCirlceAddRoundedMetadata } from './user/user-cirlce-add_rounded';
 import { UserCog, UserCogMetadata } from './user/user-cog';
+import { UserEditRounded, UserEditRoundedMetadata } from './user/user-edit_rounded';
 import { UserKey, UserKeyMetadata } from './user/user-key';
 import { UserLock, UserLockMetadata } from './user/user-lock';
 import { UserMinus, UserMinusMetadata } from './user/user-minus';
+import { UserMinusRounded, UserMinusRoundedMetadata } from './user/user-minus_rounded';
+import { UserOctagonRounded, UserOctagonRoundedMetadata } from './user/user-octagon_rounded';
 import { UserPen, UserPenMetadata } from './user/user-pen';
 import { UserPlus, UserPlusMetadata } from './user/user-plus';
+import { UserRemoveRounded, UserRemoveRoundedMetadata } from './user/user-remove_rounded';
 import { UserRoundCheck, UserRoundCheckMetadata } from './user/user-round-check';
 import { UserRoundCog, UserRoundCogMetadata } from './user/user-round-cog';
 import { UserRoundKey, UserRoundKeyMetadata } from './user/user-round-key';
@@ -6299,33 +6187,55 @@ import { UserRoundSearch, UserRoundSearchMetadata } from './user/user-round-sear
 import { UserRoundX, UserRoundXMetadata } from './user/user-round-x';
 import { UserRound, UserRoundMetadata } from './user/user-round';
 import { UserSearch, UserSearchMetadata } from './user/user-search';
+import { UserSearchRounded, UserSearchRoundedMetadata } from './user/user-search_rounded';
+import { UserSquareRounded, UserSquareRoundedMetadata } from './user/user-square_rounded';
 import { UserStar, UserStarMetadata } from './user/user-star';
+import { UserTagRounded, UserTagRoundedMetadata } from './user/user-tag_rounded';
+import { UserTickRounded, UserTickRoundedMetadata } from './user/user-tick_rounded';
 import { UserX, UserXMetadata } from './user/user-x';
 import { User, UserMetadata } from './user/user';
+import { UserRounded, UserRoundedMetadata } from './user/user_rounded';
 import { UsersRound, UsersRoundMetadata } from './user/users-round';
 import { Users, UsersMetadata } from './user/users';
 import { VectorDoodle, VectorDoodleMetadata } from './weather/Vector_doodle';
+import { CloudCrossRounded, CloudCrossRoundedMetadata } from './weather/cloud-cross_rounded';
+import { CloudDrizzleRounded, CloudDrizzleRoundedMetadata } from './weather/cloud-drizzle_rounded';
+import { CloudFogRounded, CloudFogRoundedMetadata } from './weather/cloud-fog_rounded';
+import { CloudLightningRounded, CloudLightningRoundedMetadata } from './weather/cloud-lightning_rounded';
+import { CloudMinusRounded, CloudMinusRoundedMetadata } from './weather/cloud-minus_rounded';
+import { CloudNotifRounded, CloudNotifRoundedMetadata } from './weather/cloud-notif_rounded';
+import { CloudPlusRounded, CloudPlusRoundedMetadata } from './weather/cloud-plus_rounded';
+import { CloudSnowRounded, CloudSnowRoundedMetadata } from './weather/cloud-snow_rounded';
+import { CloudSunnyRounded, CloudSunnyRoundedMetadata } from './weather/cloud-sunny_rounded';
+import { CloudRounded, CloudRoundedMetadata } from './weather/cloud_rounded';
 import { CloudyDayDoodle, CloudyDayDoodleMetadata } from './weather/cloudy-day_doodle';
 import { CloudyNightDoodle, CloudyNightDoodleMetadata } from './weather/cloudy-night_doodle';
+import { DropRounded, DropRoundedMetadata } from './weather/drop_rounded';
 import { MoonStar, MoonStarMetadata } from './weather/moon-star';
 import { Moon, MoonMetadata } from './weather/moon';
+import { MoonRounded, MoonRoundedMetadata } from './weather/moon_rounded';
 import { NightDoodle, NightDoodleMetadata } from './weather/night_doodle';
 import { RainHeavyDoodle, RainHeavyDoodleMetadata } from './weather/rain-heavy_doodle';
 import { RainLightDoodle, RainLightDoodleMetadata } from './weather/rain-light_doodle';
 import { SnowDoodle, SnowDoodleMetadata } from './weather/snow_doodle';
 import { SnowflakeDoodle, SnowflakeDoodleMetadata } from './weather/snowflake_doodle';
 import { SnowmanDoodle, SnowmanDoodleMetadata } from './weather/snowman_doodle';
+import { Sun1Rounded, Sun1RoundedMetadata } from './weather/sun-1_rounded';
 import { SunDim, SunDimMetadata } from './weather/sun-dim';
+import { SunFogRounded, SunFogRoundedMetadata } from './weather/sun-fog_rounded';
 import { SunMedium, SunMediumMetadata } from './weather/sun-medium';
 import { SunMoon, SunMoonMetadata } from './weather/sun-moon';
 import { SunSnow, SunSnowMetadata } from './weather/sun-snow';
 import { Sun, SunMetadata } from './weather/sun';
+import { SunRounded, SunRoundedMetadata } from './weather/sun_rounded';
 import { SunnyDoodle, SunnyDoodleMetadata } from './weather/sunny_doodle';
 import { Sunrise, SunriseMetadata } from './weather/sunrise';
 import { Sunset, SunsetMetadata } from './weather/sunset';
 import { ThunderstormDoodle, ThunderstormDoodleMetadata } from './weather/thunderstorm_doodle';
 import { TornadoDoodle, TornadoDoodleMetadata } from './weather/tornado_doodle';
+import { Wind2Rounded, Wind2RoundedMetadata } from './weather/wind-2_rounded';
 import { WindDoodle, WindDoodleMetadata } from './weather/wind_doodle';
+import { WindRounded, WindRoundedMetadata } from './weather/wind_rounded';
 import { ZodiacAquarius, ZodiacAquariusMetadata } from './zodiac/zodiac-aquarius';
 import { ZodiacAries, ZodiacAriesMetadata } from './zodiac/zodiac-aries';
 import { ZodiacCancer, ZodiacCancerMetadata } from './zodiac/zodiac-cancer';
@@ -6342,19 +6252,6 @@ import { ZodiacVirgo, ZodiacVirgoMetadata } from './zodiac/zodiac-virgo';
 
 export const allIcons: Record<string, Record<string, LogoEntry>> = {
   align: {
-    AlignBoxBottomCenterFilled: { Component: AlignBoxBottomCenterFilled, metadata: AlignBoxBottomCenterFilledMetadata },
-    AlignBoxBottomLeftFilled: { Component: AlignBoxBottomLeftFilled, metadata: AlignBoxBottomLeftFilledMetadata },
-    AlignBoxBottomRightFilled: { Component: AlignBoxBottomRightFilled, metadata: AlignBoxBottomRightFilledMetadata },
-    AlignBoxCenterMiddleFilled: { Component: AlignBoxCenterMiddleFilled, metadata: AlignBoxCenterMiddleFilledMetadata },
-    AlignBoxLeftBottomFilled: { Component: AlignBoxLeftBottomFilled, metadata: AlignBoxLeftBottomFilledMetadata },
-    AlignBoxLeftMiddleFilled: { Component: AlignBoxLeftMiddleFilled, metadata: AlignBoxLeftMiddleFilledMetadata },
-    AlignBoxLeftTopFilled: { Component: AlignBoxLeftTopFilled, metadata: AlignBoxLeftTopFilledMetadata },
-    AlignBoxRightBottomFilled: { Component: AlignBoxRightBottomFilled, metadata: AlignBoxRightBottomFilledMetadata },
-    AlignBoxRightMiddleFilled: { Component: AlignBoxRightMiddleFilled, metadata: AlignBoxRightMiddleFilledMetadata },
-    AlignBoxRightTopFilled: { Component: AlignBoxRightTopFilled, metadata: AlignBoxRightTopFilledMetadata },
-    AlignBoxTopCenterFilled: { Component: AlignBoxTopCenterFilled, metadata: AlignBoxTopCenterFilledMetadata },
-    AlignBoxTopLeftFilled: { Component: AlignBoxTopLeftFilled, metadata: AlignBoxTopLeftFilledMetadata },
-    AlignBoxTopRightFilled: { Component: AlignBoxTopRightFilled, metadata: AlignBoxTopRightFilledMetadata },
     AlignCenterHorizontal: { Component: AlignCenterHorizontal, metadata: AlignCenterHorizontalMetadata },
     AlignCenterVertical: { Component: AlignCenterVertical, metadata: AlignCenterVerticalMetadata },
     AlignEndHorizontal: { Component: AlignEndHorizontal, metadata: AlignEndHorizontalMetadata },
@@ -6400,90 +6297,104 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
   app: {
     AppWindowMac: { Component: AppWindowMac, metadata: AppWindowMacMetadata },
     AppWindow: { Component: AppWindow, metadata: AppWindowMetadata },
-    Battery1Filled: { Component: Battery1Filled, metadata: Battery1FilledMetadata },
-    Battery2Filled: { Component: Battery2Filled, metadata: Battery2FilledMetadata },
-    Battery3Filled: { Component: Battery3Filled, metadata: Battery3FilledMetadata },
-    Battery4Filled: { Component: Battery4Filled, metadata: Battery4FilledMetadata },
-    BatteryAutomotiveFilled: { Component: BatteryAutomotiveFilled, metadata: BatteryAutomotiveFilledMetadata },
+    ArchiveAddRounded: { Component: ArchiveAddRounded, metadata: ArchiveAddRoundedMetadata },
+    ArchiveMinusRounded: { Component: ArchiveMinusRounded, metadata: ArchiveMinusRoundedMetadata },
+    ArchiveSlashRounded: { Component: ArchiveSlashRounded, metadata: ArchiveSlashRoundedMetadata },
+    ArchiveTickRounded: { Component: ArchiveTickRounded, metadata: ArchiveTickRoundedMetadata },
     BatteryCharging: { Component: BatteryCharging, metadata: BatteryChargingMetadata },
     BatteryFull: { Component: BatteryFull, metadata: BatteryFullMetadata },
     BatteryLow: { Component: BatteryLow, metadata: BatteryLowMetadata },
     BatteryMedium: { Component: BatteryMedium, metadata: BatteryMediumMetadata },
     BatteryPlus: { Component: BatteryPlus, metadata: BatteryPlusMetadata },
-    BatteryVertical1Filled: { Component: BatteryVertical1Filled, metadata: BatteryVertical1FilledMetadata },
-    BatteryVertical2Filled: { Component: BatteryVertical2Filled, metadata: BatteryVertical2FilledMetadata },
-    BatteryVertical3Filled: { Component: BatteryVertical3Filled, metadata: BatteryVertical3FilledMetadata },
-    BatteryVertical4Filled: { Component: BatteryVertical4Filled, metadata: BatteryVertical4FilledMetadata },
-    BatteryVerticalFilled: { Component: BatteryVerticalFilled, metadata: BatteryVerticalFilledMetadata },
     BatteryWarning: { Component: BatteryWarning, metadata: BatteryWarningMetadata },
     Battery: { Component: Battery, metadata: BatteryMetadata },
-    BatteryFilled: { Component: BatteryFilled, metadata: BatteryFilledMetadata },
     BluetoothConnected: { Component: BluetoothConnected, metadata: BluetoothConnectedMetadata },
     BluetoothOff: { Component: BluetoothOff, metadata: BluetoothOffMetadata },
     BluetoothSearching: { Component: BluetoothSearching, metadata: BluetoothSearchingMetadata },
     Bluetooth: { Component: Bluetooth, metadata: BluetoothMetadata },
+    BookSavedRounded: { Component: BookSavedRounded, metadata: BookSavedRoundedMetadata },
+    BookSquareRounded: { Component: BookSquareRounded, metadata: BookSquareRoundedMetadata },
     BotMessageSquare: { Component: BotMessageSquare, metadata: BotMessageSquareMetadata },
     BotOff: { Component: BotOff, metadata: BotOffMetadata },
     Bot: { Component: Bot, metadata: BotMetadata },
     BugOff: { Component: BugOff, metadata: BugOffMetadata },
     BugPlay: { Component: BugPlay, metadata: BugPlayMetadata },
     Bug: { Component: Bug, metadata: BugMetadata },
+    Candle2Rounded: { Component: Candle2Rounded, metadata: Candle2RoundedMetadata },
+    CandleRounded: { Component: CandleRounded, metadata: CandleRoundedMetadata },
+    Category2Rounded: { Component: Category2Rounded, metadata: Category2RoundedMetadata },
+    CategoryRounded: { Component: CategoryRounded, metadata: CategoryRoundedMetadata },
     Cog: { Component: Cog, metadata: CogMetadata },
     DatabaseBackup: { Component: DatabaseBackup, metadata: DatabaseBackupMetadata },
     DatabaseSearch: { Component: DatabaseSearch, metadata: DatabaseSearchMetadata },
     DatabaseZap: { Component: DatabaseZap, metadata: DatabaseZapMetadata },
     Database: { Component: Database, metadata: DatabaseMetadata },
+    FrameRounded: { Component: FrameRounded, metadata: FrameRoundedMetadata },
+    MenuRounded: { Component: MenuRounded, metadata: MenuRoundedMetadata },
+    More2Rounded: { Component: More2Rounded, metadata: More2RoundedMetadata },
+    MoreRounded: { Component: MoreRounded, metadata: MoreRoundedMetadata },
+    ReceiptSquareRounded: { Component: ReceiptSquareRounded, metadata: ReceiptSquareRoundedMetadata },
+    Save2Rounded: { Component: Save2Rounded, metadata: Save2RoundedMetadata },
+    SaveAddRounded: { Component: SaveAddRounded, metadata: SaveAddRoundedMetadata },
+    SaveMinusRounded: { Component: SaveMinusRounded, metadata: SaveMinusRoundedMetadata },
+    SaveRemoveRounded: { Component: SaveRemoveRounded, metadata: SaveRemoveRoundedMetadata },
+    SearchFavorite1Rounded: { Component: SearchFavorite1Rounded, metadata: SearchFavorite1RoundedMetadata },
+    SearchFavoriteRounded: { Component: SearchFavoriteRounded, metadata: SearchFavoriteRoundedMetadata },
+    SearchNormal1Rounded: { Component: SearchNormal1Rounded, metadata: SearchNormal1RoundedMetadata },
+    SearchNormalRounded: { Component: SearchNormalRounded, metadata: SearchNormalRoundedMetadata },
+    SearchStatus1Rounded: { Component: SearchStatus1Rounded, metadata: SearchStatus1RoundedMetadata },
+    SearchStatusRounded: { Component: SearchStatusRounded, metadata: SearchStatusRoundedMetadata },
+    SearchZoomIn1Rounded: { Component: SearchZoomIn1Rounded, metadata: SearchZoomIn1RoundedMetadata },
+    SearchZoomInRounded: { Component: SearchZoomInRounded, metadata: SearchZoomInRoundedMetadata },
+    SearchZoomOut1Rounded: { Component: SearchZoomOut1Rounded, metadata: SearchZoomOut1RoundedMetadata },
+    SearchZoomOutRounded: { Component: SearchZoomOutRounded, metadata: SearchZoomOutRoundedMetadata },
+    Setting2Rounded: { Component: Setting2Rounded, metadata: Setting2RoundedMetadata },
+    Setting3Rounded: { Component: Setting3Rounded, metadata: Setting3RoundedMetadata },
+    Setting4Rounded: { Component: Setting4Rounded, metadata: Setting4RoundedMetadata },
+    Setting5Rounded: { Component: Setting5Rounded, metadata: Setting5RoundedMetadata },
+    SettingRounded: { Component: SettingRounded, metadata: SettingRoundedMetadata },
+    SettingsRounded: { Component: SettingsRounded, metadata: SettingsRoundedMetadata },
+    ToggleOffCircleRounded: { Component: ToggleOffCircleRounded, metadata: ToggleOffCircleRoundedMetadata },
+    ToggleOffRounded: { Component: ToggleOffRounded, metadata: ToggleOffRoundedMetadata },
+    ToggleOnCircleRounded: { Component: ToggleOnCircleRounded, metadata: ToggleOnCircleRoundedMetadata },
+    ToggleOnRounded: { Component: ToggleOnRounded, metadata: ToggleOnRoundedMetadata },
     WalletCards: { Component: WalletCards, metadata: WalletCardsMetadata },
     WalletMinimal: { Component: WalletMinimal, metadata: WalletMinimalMetadata },
     Wallet: { Component: Wallet, metadata: WalletMetadata },
   },
   arrows: {
     Ad: { Component: Ad, metadata: AdMetadata },
-    ArrowAutofitContentFilled: { Component: ArrowAutofitContentFilled, metadata: ArrowAutofitContentFilledMetadata },
-    ArrowAutofitDownFilled: { Component: ArrowAutofitDownFilled, metadata: ArrowAutofitDownFilledMetadata },
-    ArrowAutofitHeightFilled: { Component: ArrowAutofitHeightFilled, metadata: ArrowAutofitHeightFilledMetadata },
-    ArrowAutofitLeftFilled: { Component: ArrowAutofitLeftFilled, metadata: ArrowAutofitLeftFilledMetadata },
-    ArrowAutofitRightFilled: { Component: ArrowAutofitRightFilled, metadata: ArrowAutofitRightFilledMetadata },
-    ArrowAutofitUpFilled: { Component: ArrowAutofitUpFilled, metadata: ArrowAutofitUpFilledMetadata },
-    ArrowAutofitWidthFilled: { Component: ArrowAutofitWidthFilled, metadata: ArrowAutofitWidthFilledMetadata },
-    ArrowBadgeDownFilled: { Component: ArrowBadgeDownFilled, metadata: ArrowBadgeDownFilledMetadata },
-    ArrowBadgeLeftFilled: { Component: ArrowBadgeLeftFilled, metadata: ArrowBadgeLeftFilledMetadata },
-    ArrowBadgeRightFilled: { Component: ArrowBadgeRightFilled, metadata: ArrowBadgeRightFilledMetadata },
-    ArrowBadgeUpFilled: { Component: ArrowBadgeUpFilled, metadata: ArrowBadgeUpFilledMetadata },
+    ArrangeCircle2Rounded: { Component: ArrangeCircle2Rounded, metadata: ArrangeCircle2RoundedMetadata },
+    ArrangeCircleRounded: { Component: ArrangeCircleRounded, metadata: ArrangeCircleRoundedMetadata },
+    ArrangeSquare2Rounded: { Component: ArrangeSquare2Rounded, metadata: ArrangeSquare2RoundedMetadata },
+    ArrangeSquareRounded: { Component: ArrangeSquareRounded, metadata: ArrangeSquareRoundedMetadata },
+    Arrow2Rounded: { Component: Arrow2Rounded, metadata: Arrow2RoundedMetadata },
+    Arrow3Rounded: { Component: Arrow3Rounded, metadata: Arrow3RoundedMetadata },
     ArrowBigDownDash: { Component: ArrowBigDownDash, metadata: ArrowBigDownDashMetadata },
-    ArrowBigDownLineFilled: { Component: ArrowBigDownLineFilled, metadata: ArrowBigDownLineFilledMetadata },
-    ArrowBigDownLinesFilled: { Component: ArrowBigDownLinesFilled, metadata: ArrowBigDownLinesFilledMetadata },
     ArrowBigDown: { Component: ArrowBigDown, metadata: ArrowBigDownMetadata },
-    ArrowBigDownFilled: { Component: ArrowBigDownFilled, metadata: ArrowBigDownFilledMetadata },
     ArrowBigLeftDash: { Component: ArrowBigLeftDash, metadata: ArrowBigLeftDashMetadata },
-    ArrowBigLeftLineFilled: { Component: ArrowBigLeftLineFilled, metadata: ArrowBigLeftLineFilledMetadata },
-    ArrowBigLeftLinesFilled: { Component: ArrowBigLeftLinesFilled, metadata: ArrowBigLeftLinesFilledMetadata },
     ArrowBigLeft: { Component: ArrowBigLeft, metadata: ArrowBigLeftMetadata },
-    ArrowBigLeftFilled: { Component: ArrowBigLeftFilled, metadata: ArrowBigLeftFilledMetadata },
     ArrowBigRightDash: { Component: ArrowBigRightDash, metadata: ArrowBigRightDashMetadata },
-    ArrowBigRightLineFilled: { Component: ArrowBigRightLineFilled, metadata: ArrowBigRightLineFilledMetadata },
-    ArrowBigRightLinesFilled: { Component: ArrowBigRightLinesFilled, metadata: ArrowBigRightLinesFilledMetadata },
     ArrowBigRight: { Component: ArrowBigRight, metadata: ArrowBigRightMetadata },
-    ArrowBigRightFilled: { Component: ArrowBigRightFilled, metadata: ArrowBigRightFilledMetadata },
     ArrowBigUpDash: { Component: ArrowBigUpDash, metadata: ArrowBigUpDashMetadata },
-    ArrowBigUpLineFilled: { Component: ArrowBigUpLineFilled, metadata: ArrowBigUpLineFilledMetadata },
-    ArrowBigUpLinesFilled: { Component: ArrowBigUpLinesFilled, metadata: ArrowBigUpLinesFilledMetadata },
     ArrowBigUp: { Component: ArrowBigUp, metadata: ArrowBigUpMetadata },
-    ArrowBigUpFilled: { Component: ArrowBigUpFilled, metadata: ArrowBigUpFilledMetadata },
+    ArrowBottomRounded: { Component: ArrowBottomRounded, metadata: ArrowBottomRoundedMetadata },
     ArrowCircleDownDoodle: { Component: ArrowCircleDownDoodle, metadata: ArrowCircleDownDoodleMetadata },
+    ArrowCircleDownRounded: { Component: ArrowCircleDownRounded, metadata: ArrowCircleDownRoundedMetadata },
     ArrowCircleLeftDoodle: { Component: ArrowCircleLeftDoodle, metadata: ArrowCircleLeftDoodleMetadata },
+    ArrowCircleLeftRounded: { Component: ArrowCircleLeftRounded, metadata: ArrowCircleLeftRoundedMetadata },
     ArrowCircleRightDoodle: { Component: ArrowCircleRightDoodle, metadata: ArrowCircleRightDoodleMetadata },
+    ArrowCircleRightRounded: { Component: ArrowCircleRightRounded, metadata: ArrowCircleRightRoundedMetadata },
     ArrowCircleUpDoodle: { Component: ArrowCircleUpDoodle, metadata: ArrowCircleUpDoodleMetadata },
     ArrowDown01: { Component: ArrowDown01, metadata: ArrowDown01Metadata },
     ArrowDown10: { Component: ArrowDown10, metadata: ArrowDown10Metadata },
+    ArrowDown1Rounded: { Component: ArrowDown1Rounded, metadata: ArrowDown1RoundedMetadata },
+    ArrowDown2Rounded: { Component: ArrowDown2Rounded, metadata: ArrowDown2RoundedMetadata },
     ArrowDownAZ: { Component: ArrowDownAZ, metadata: ArrowDownAZMetadata },
-    ArrowDownCircleFilled: { Component: ArrowDownCircleFilled, metadata: ArrowDownCircleFilledMetadata },
     ArrowDownFromLine: { Component: ArrowDownFromLine, metadata: ArrowDownFromLineMetadata },
     ArrowDownLeft: { Component: ArrowDownLeft, metadata: ArrowDownLeftMetadata },
     ArrowDownNarrowWide: { Component: ArrowDownNarrowWide, metadata: ArrowDownNarrowWideMetadata },
-    ArrowDownRhombusFilled: { Component: ArrowDownRhombusFilled, metadata: ArrowDownRhombusFilledMetadata },
     ArrowDownRight: { Component: ArrowDownRight, metadata: ArrowDownRightMetadata },
-    ArrowDownSquareFilled: { Component: ArrowDownSquareFilled, metadata: ArrowDownSquareFilledMetadata },
     ArrowDownToDot: { Component: ArrowDownToDot, metadata: ArrowDownToDotMetadata },
     ArrowDownToLine: { Component: ArrowDownToLine, metadata: ArrowDownToLineMetadata },
     ArrowDownUp: { Component: ArrowDownUp, metadata: ArrowDownUpMetadata },
@@ -6491,57 +6402,62 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
     ArrowDownZA: { Component: ArrowDownZA, metadata: ArrowDownZAMetadata },
     ArrowDown: { Component: ArrowDown, metadata: ArrowDownMetadata },
     ArrowDownDoodle: { Component: ArrowDownDoodle, metadata: ArrowDownDoodleMetadata },
-    ArrowGuideFilled: { Component: ArrowGuideFilled, metadata: ArrowGuideFilledMetadata },
-    ArrowLeftCircleFilled: { Component: ArrowLeftCircleFilled, metadata: ArrowLeftCircleFilledMetadata },
+    ArrowDownRounded: { Component: ArrowDownRounded, metadata: ArrowDownRoundedMetadata },
+    ArrowLeft1Rounded: { Component: ArrowLeft1Rounded, metadata: ArrowLeft1RoundedMetadata },
+    ArrowLeft2Rounded: { Component: ArrowLeft2Rounded, metadata: ArrowLeft2RoundedMetadata },
+    ArrowLeft3Rounded: { Component: ArrowLeft3Rounded, metadata: ArrowLeft3RoundedMetadata },
     ArrowLeftFromLine: { Component: ArrowLeftFromLine, metadata: ArrowLeftFromLineMetadata },
-    ArrowLeftRhombusFilled: { Component: ArrowLeftRhombusFilled, metadata: ArrowLeftRhombusFilledMetadata },
     ArrowLeftRight: { Component: ArrowLeftRight, metadata: ArrowLeftRightMetadata },
-    ArrowLeftSquareFilled: { Component: ArrowLeftSquareFilled, metadata: ArrowLeftSquareFilledMetadata },
     ArrowLeftToLine: { Component: ArrowLeftToLine, metadata: ArrowLeftToLineMetadata },
     ArrowLeft: { Component: ArrowLeft, metadata: ArrowLeftMetadata },
     ArrowLeftDoodle: { Component: ArrowLeftDoodle, metadata: ArrowLeftDoodleMetadata },
-    ArrowMoveDownFilled: { Component: ArrowMoveDownFilled, metadata: ArrowMoveDownFilledMetadata },
-    ArrowMoveLeftFilled: { Component: ArrowMoveLeftFilled, metadata: ArrowMoveLeftFilledMetadata },
-    ArrowMoveRightFilled: { Component: ArrowMoveRightFilled, metadata: ArrowMoveRightFilledMetadata },
-    ArrowMoveUpFilled: { Component: ArrowMoveUpFilled, metadata: ArrowMoveUpFilledMetadata },
+    ArrowLeftRounded: { Component: ArrowLeftRounded, metadata: ArrowLeftRoundedMetadata },
     ArrowNeDoodle: { Component: ArrowNeDoodle, metadata: ArrowNeDoodleMetadata },
     ArrowNwDoodle: { Component: ArrowNwDoodle, metadata: ArrowNwDoodleMetadata },
-    ArrowRightCircleFilled: { Component: ArrowRightCircleFilled, metadata: ArrowRightCircleFilledMetadata },
+    ArrowRight1Rounded: { Component: ArrowRight1Rounded, metadata: ArrowRight1RoundedMetadata },
+    ArrowRight2Rounded: { Component: ArrowRight2Rounded, metadata: ArrowRight2RoundedMetadata },
+    ArrowRight3Rounded: { Component: ArrowRight3Rounded, metadata: ArrowRight3RoundedMetadata },
     ArrowRightFromLine: { Component: ArrowRightFromLine, metadata: ArrowRightFromLineMetadata },
     ArrowRightLeft: { Component: ArrowRightLeft, metadata: ArrowRightLeftMetadata },
-    ArrowRightRhombusFilled: { Component: ArrowRightRhombusFilled, metadata: ArrowRightRhombusFilledMetadata },
-    ArrowRightSquareFilled: { Component: ArrowRightSquareFilled, metadata: ArrowRightSquareFilledMetadata },
     ArrowRightToLine: { Component: ArrowRightToLine, metadata: ArrowRightToLineMetadata },
     ArrowRight: { Component: ArrowRight, metadata: ArrowRightMetadata },
     ArrowRightDoodle: { Component: ArrowRightDoodle, metadata: ArrowRightDoodleMetadata },
+    ArrowRightRounded: { Component: ArrowRightRounded, metadata: ArrowRightRoundedMetadata },
     ArrowSeDoodle: { Component: ArrowSeDoodle, metadata: ArrowSeDoodleMetadata },
     ArrowSingleDownDoodle: { Component: ArrowSingleDownDoodle, metadata: ArrowSingleDownDoodleMetadata },
     ArrowSingleLeftDoodle: { Component: ArrowSingleLeftDoodle, metadata: ArrowSingleLeftDoodleMetadata },
     ArrowSingleRightDoodle: { Component: ArrowSingleRightDoodle, metadata: ArrowSingleRightDoodleMetadata },
     ArrowSingleUpDoodle: { Component: ArrowSingleUpDoodle, metadata: ArrowSingleUpDoodleMetadata },
     ArrowSquareDownDoodle: { Component: ArrowSquareDownDoodle, metadata: ArrowSquareDownDoodleMetadata },
+    ArrowSquareDownRounded: { Component: ArrowSquareDownRounded, metadata: ArrowSquareDownRoundedMetadata },
     ArrowSquareLeftDoodle: { Component: ArrowSquareLeftDoodle, metadata: ArrowSquareLeftDoodleMetadata },
+    ArrowSquareLeftRounded: { Component: ArrowSquareLeftRounded, metadata: ArrowSquareLeftRoundedMetadata },
     ArrowSquareRightDoodle: { Component: ArrowSquareRightDoodle, metadata: ArrowSquareRightDoodleMetadata },
+    ArrowSquareRightRounded: { Component: ArrowSquareRightRounded, metadata: ArrowSquareRightRoundedMetadata },
     ArrowSquareUpDoodle: { Component: ArrowSquareUpDoodle, metadata: ArrowSquareUpDoodleMetadata },
+    ArrowSquareUpRounded: { Component: ArrowSquareUpRounded, metadata: ArrowSquareUpRoundedMetadata },
     ArrowSwDoodle: { Component: ArrowSwDoodle, metadata: ArrowSwDoodleMetadata },
+    ArrowSwapHorizontalRounded: { Component: ArrowSwapHorizontalRounded, metadata: ArrowSwapHorizontalRoundedMetadata },
     ArrowUp01: { Component: ArrowUp01, metadata: ArrowUp01Metadata },
     ArrowUp10: { Component: ArrowUp10, metadata: ArrowUp10Metadata },
+    ArrowUp1Rounded: { Component: ArrowUp1Rounded, metadata: ArrowUp1RoundedMetadata },
+    ArrowUp2Rounded: { Component: ArrowUp2Rounded, metadata: ArrowUp2RoundedMetadata },
+    ArrowUp3Rounded: { Component: ArrowUp3Rounded, metadata: ArrowUp3RoundedMetadata },
     ArrowUpAZ: { Component: ArrowUpAZ, metadata: ArrowUpAZMetadata },
-    ArrowUpCircleFilled: { Component: ArrowUpCircleFilled, metadata: ArrowUpCircleFilledMetadata },
     ArrowUpDown: { Component: ArrowUpDown, metadata: ArrowUpDownMetadata },
     ArrowUpFromDot: { Component: ArrowUpFromDot, metadata: ArrowUpFromDotMetadata },
     ArrowUpFromLine: { Component: ArrowUpFromLine, metadata: ArrowUpFromLineMetadata },
     ArrowUpLeft: { Component: ArrowUpLeft, metadata: ArrowUpLeftMetadata },
     ArrowUpNarrowWide: { Component: ArrowUpNarrowWide, metadata: ArrowUpNarrowWideMetadata },
-    ArrowUpRhombusFilled: { Component: ArrowUpRhombusFilled, metadata: ArrowUpRhombusFilledMetadata },
     ArrowUpRight: { Component: ArrowUpRight, metadata: ArrowUpRightMetadata },
-    ArrowUpSquareFilled: { Component: ArrowUpSquareFilled, metadata: ArrowUpSquareFilledMetadata },
     ArrowUpToLine: { Component: ArrowUpToLine, metadata: ArrowUpToLineMetadata },
     ArrowUpWideNarrow: { Component: ArrowUpWideNarrow, metadata: ArrowUpWideNarrowMetadata },
     ArrowUpZA: { Component: ArrowUpZA, metadata: ArrowUpZAMetadata },
     ArrowUp: { Component: ArrowUp, metadata: ArrowUpMetadata },
     ArrowUpDoodle: { Component: ArrowUpDoodle, metadata: ArrowUpDoodleMetadata },
+    ArrowUpRounded: { Component: ArrowUpRounded, metadata: ArrowUpRoundedMetadata },
     ArrowsUpFromLine: { Component: ArrowsUpFromLine, metadata: ArrowsUpFromLineMetadata },
+    BackSquareRounded: { Component: BackSquareRounded, metadata: BackSquareRoundedMetadata },
     ChevronDown: { Component: ChevronDown, metadata: ChevronDownMetadata },
     ChevronFirst: { Component: ChevronFirst, metadata: ChevronFirstMetadata },
     ChevronLast: { Component: ChevronLast, metadata: ChevronLastMetadata },
@@ -6561,6 +6477,7 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
     ChevronsUpDown: { Component: ChevronsUpDown, metadata: ChevronsUpDownMetadata },
     ChevronsUp: { Component: ChevronsUp, metadata: ChevronsUpMetadata },
     ChevronsUpDoodle: { Component: ChevronsUpDoodle, metadata: ChevronsUpDoodleMetadata },
+    ConvertRounded: { Component: ConvertRounded, metadata: ConvertRoundedMetadata },
     CornerDownLeft: { Component: CornerDownLeft, metadata: CornerDownLeftMetadata },
     CornerDownRight: { Component: CornerDownRight, metadata: CornerDownRightMetadata },
     CornerLeftDown: { Component: CornerLeftDown, metadata: CornerLeftDownMetadata },
@@ -6571,6 +6488,20 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
     CornerUpRight: { Component: CornerUpRight, metadata: CornerUpRightMetadata },
     DecimalsArrowLeft: { Component: DecimalsArrowLeft, metadata: DecimalsArrowLeftMetadata },
     DecimalsArrowRight: { Component: DecimalsArrowRight, metadata: DecimalsArrowRightMetadata },
+    Export1Rounded: { Component: Export1Rounded, metadata: Export1RoundedMetadata },
+    Export2Rounded: { Component: Export2Rounded, metadata: Export2RoundedMetadata },
+    Export3Rounded: { Component: Export3Rounded, metadata: Export3RoundedMetadata },
+    ExportRounded: { Component: ExportRounded, metadata: ExportRoundedMetadata },
+    ForwardSquareRounded: { Component: ForwardSquareRounded, metadata: ForwardSquareRoundedMetadata },
+    Frame1Rounded: { Component: Frame1Rounded, metadata: Frame1RoundedMetadata },
+    Frame2Rounded: { Component: Frame2Rounded, metadata: Frame2RoundedMetadata },
+    Import1Rounded: { Component: Import1Rounded, metadata: Import1RoundedMetadata },
+    Import2Rounded: { Component: Import2Rounded, metadata: Import2RoundedMetadata },
+    ImportRounded: { Component: ImportRounded, metadata: ImportRoundedMetadata },
+    Login1Rounded: { Component: Login1Rounded, metadata: Login1RoundedMetadata },
+    LoginRounded: { Component: LoginRounded, metadata: LoginRoundedMetadata },
+    Logout1Rounded: { Component: Logout1Rounded, metadata: Logout1RoundedMetadata },
+    LogoutRounded: { Component: LogoutRounded, metadata: LogoutRoundedMetadata },
     Move3d: { Component: Move3d, metadata: Move3dMetadata },
     MoveDiagonal2: { Component: MoveDiagonal2, metadata: MoveDiagonal2Metadata },
     MoveDiagonal: { Component: MoveDiagonal, metadata: MoveDiagonalMetadata },
@@ -6585,29 +6516,40 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
     MoveUp: { Component: MoveUp, metadata: MoveUpMetadata },
     MoveVertical: { Component: MoveVertical, metadata: MoveVerticalMetadata },
     Move: { Component: Move, metadata: MoveMetadata },
+    ReceiveSquare2Rounded: { Component: ReceiveSquare2Rounded, metadata: ReceiveSquare2RoundedMetadata },
+    ReceiveSquareRounded: { Component: ReceiveSquareRounded, metadata: ReceiveSquareRoundedMetadata },
+    ReceivedRounded: { Component: ReceivedRounded, metadata: ReceivedRoundedMetadata },
     Redo2: { Component: Redo2, metadata: Redo2Metadata },
     RedoDot: { Component: RedoDot, metadata: RedoDotMetadata },
     Redo: { Component: Redo, metadata: RedoMetadata },
+    RedoRounded: { Component: RedoRounded, metadata: RedoRoundedMetadata },
+    Refresh2Rounded: { Component: Refresh2Rounded, metadata: Refresh2RoundedMetadata },
+    RefreshCircleRounded: { Component: RefreshCircleRounded, metadata: RefreshCircleRoundedMetadata },
+    RefreshLeftSquareRounded: { Component: RefreshLeftSquareRounded, metadata: RefreshLeftSquareRoundedMetadata },
+    RefreshRightSquareRounded: { Component: RefreshRightSquareRounded, metadata: RefreshRightSquareRoundedMetadata },
+    RefreshSquare2Rounded: { Component: RefreshSquare2Rounded, metadata: RefreshSquare2RoundedMetadata },
+    RefreshRounded: { Component: RefreshRounded, metadata: RefreshRoundedMetadata },
+    RepeatCircleRounded: { Component: RepeatCircleRounded, metadata: RepeatCircleRoundedMetadata },
+    RepeatRounded: { Component: RepeatRounded, metadata: RepeatRoundedMetadata },
+    RotateLeftRounded: { Component: RotateLeftRounded, metadata: RotateLeftRoundedMetadata },
+    RotateRightRounded: { Component: RotateRightRounded, metadata: RotateRightRoundedMetadata },
+    SendSqaure2Rounded: { Component: SendSqaure2Rounded, metadata: SendSqaure2RoundedMetadata },
+    SendSquareRounded: { Component: SendSquareRounded, metadata: SendSquareRoundedMetadata },
+    SendRounded: { Component: SendRounded, metadata: SendRoundedMetadata },
     TrendingDown: { Component: TrendingDown, metadata: TrendingDownMetadata },
     TrendingUpDown: { Component: TrendingUpDown, metadata: TrendingUpDownMetadata },
     TrendingUp: { Component: TrendingUp, metadata: TrendingUpMetadata },
     Undo2: { Component: Undo2, metadata: Undo2Metadata },
     UndoDot: { Component: UndoDot, metadata: UndoDotMetadata },
     Undo: { Component: Undo, metadata: UndoMetadata },
+    UndoRounded: { Component: UndoRounded, metadata: UndoRoundedMetadata },
   },
   badge: {
-    Badge3dFilled: { Component: Badge3dFilled, metadata: Badge3dFilledMetadata },
-    Badge4kFilled: { Component: Badge4kFilled, metadata: Badge4kFilledMetadata },
-    Badge8kFilled: { Component: Badge8kFilled, metadata: Badge8kFilledMetadata },
-    BadgeAdFilled: { Component: BadgeAdFilled, metadata: BadgeAdFilledMetadata },
     BadgeAlert: { Component: BadgeAlert, metadata: BadgeAlertMetadata },
-    BadgeArFilled: { Component: BadgeArFilled, metadata: BadgeArFilledMetadata },
-    BadgeCcFilled: { Component: BadgeCcFilled, metadata: BadgeCcFilledMetadata },
     BadgeCent: { Component: BadgeCent, metadata: BadgeCentMetadata },
     BadgeCheck: { Component: BadgeCheck, metadata: BadgeCheckMetadata },
     BadgeDollarSign: { Component: BadgeDollarSign, metadata: BadgeDollarSignMetadata },
     BadgeEuro: { Component: BadgeEuro, metadata: BadgeEuroMetadata },
-    BadgeHdFilled: { Component: BadgeHdFilled, metadata: BadgeHdFilledMetadata },
     BadgeIndianRupee: { Component: BadgeIndianRupee, metadata: BadgeIndianRupeeMetadata },
     BadgeInfo: { Component: BadgeInfo, metadata: BadgeInfoMetadata },
     BadgeJapaneseYen: { Component: BadgeJapaneseYen, metadata: BadgeJapaneseYenMetadata },
@@ -6617,17 +6559,10 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
     BadgePoundSterling: { Component: BadgePoundSterling, metadata: BadgePoundSterlingMetadata },
     BadgeQuestionMark: { Component: BadgeQuestionMark, metadata: BadgeQuestionMarkMetadata },
     BadgeRussianRuble: { Component: BadgeRussianRuble, metadata: BadgeRussianRubleMetadata },
-    BadgeSdFilled: { Component: BadgeSdFilled, metadata: BadgeSdFilledMetadata },
     BadgeSwissFranc: { Component: BadgeSwissFranc, metadata: BadgeSwissFrancMetadata },
-    BadgeTmFilled: { Component: BadgeTmFilled, metadata: BadgeTmFilledMetadata },
     BadgeTurkishLira: { Component: BadgeTurkishLira, metadata: BadgeTurkishLiraMetadata },
-    BadgeVoFilled: { Component: BadgeVoFilled, metadata: BadgeVoFilledMetadata },
-    BadgeVrFilled: { Component: BadgeVrFilled, metadata: BadgeVrFilledMetadata },
-    BadgeWcFilled: { Component: BadgeWcFilled, metadata: BadgeWcFilledMetadata },
     BadgeX: { Component: BadgeX, metadata: BadgeXMetadata },
     Badge: { Component: Badge, metadata: BadgeMetadata },
-    BadgeFilled: { Component: BadgeFilled, metadata: BadgeFilledMetadata },
-    BadgesFilled: { Component: BadgesFilled, metadata: BadgesFilledMetadata },
   },
   book: {
     BookA: { Component: BookA, metadata: BookAMetadata },
@@ -6671,81 +6606,157 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
     NotepadText: { Component: NotepadText, metadata: NotepadTextMetadata },
   },
   brand: {
+    AaveAaveRounded: { Component: AaveAaveRounded, metadata: AaveAaveRoundedMetadata },
+    AndroidRounded: { Component: AndroidRounded, metadata: AndroidRoundedMetadata },
+    AnkrAnkrRounded: { Component: AnkrAnkrRounded, metadata: AnkrAnkrRoundedMetadata },
     AppleDoodle: { Component: AppleDoodle, metadata: AppleDoodleMetadata },
+    AppleRounded: { Component: AppleRounded, metadata: AppleRoundedMetadata },
+    AugurRepRounded: { Component: AugurRepRounded, metadata: AugurRepRoundedMetadata },
+    AutonioNioxRounded: { Component: AutonioNioxRounded, metadata: AutonioNioxRoundedMetadata },
+    AvalancheAvaxRounded: { Component: AvalancheAvaxRounded, metadata: AvalancheAvaxRoundedMetadata },
+    BeRounded: { Component: BeRounded, metadata: BeRoundedMetadata },
     BehanceDoodle: { Component: BehanceDoodle, metadata: BehanceDoodleMetadata },
-    BrandAngularFilled: { Component: BrandAngularFilled, metadata: BrandAngularFilledMetadata },
-    BrandAppleFilled: { Component: BrandAppleFilled, metadata: BrandAppleFilledMetadata },
-    BrandBitbucketFilled: { Component: BrandBitbucketFilled, metadata: BrandBitbucketFilledMetadata },
-    BrandDiscordFilled: { Component: BrandDiscordFilled, metadata: BrandDiscordFilledMetadata },
-    BrandDribbbleFilled: { Component: BrandDribbbleFilled, metadata: BrandDribbbleFilledMetadata },
-    BrandFacebookFilled: { Component: BrandFacebookFilled, metadata: BrandFacebookFilledMetadata },
-    BrandGithubFilled: { Component: BrandGithubFilled, metadata: BrandGithubFilledMetadata },
-    BrandGoogleFilled: { Component: BrandGoogleFilled, metadata: BrandGoogleFilledMetadata },
-    BrandInstagramFilled: { Component: BrandInstagramFilled, metadata: BrandInstagramFilledMetadata },
-    BrandKickFilled: { Component: BrandKickFilled, metadata: BrandKickFilledMetadata },
-    BrandLinkedinFilled: { Component: BrandLinkedinFilled, metadata: BrandLinkedinFilledMetadata },
-    BrandMessengerFilled: { Component: BrandMessengerFilled, metadata: BrandMessengerFilledMetadata },
-    BrandOpenSourceFilled: { Component: BrandOpenSourceFilled, metadata: BrandOpenSourceFilledMetadata },
-    BrandOperaFilled: { Component: BrandOperaFilled, metadata: BrandOperaFilledMetadata },
-    BrandPatreonFilled: { Component: BrandPatreonFilled, metadata: BrandPatreonFilledMetadata },
-    BrandPaypalFilled: { Component: BrandPaypalFilled, metadata: BrandPaypalFilledMetadata },
-    BrandPinterestFilled: { Component: BrandPinterestFilled, metadata: BrandPinterestFilledMetadata },
-    BrandSketchFilled: { Component: BrandSketchFilled, metadata: BrandSketchFilledMetadata },
-    BrandSnapchatFilled: { Component: BrandSnapchatFilled, metadata: BrandSnapchatFilledMetadata },
-    BrandSpotifyFilled: { Component: BrandSpotifyFilled, metadata: BrandSpotifyFilledMetadata },
-    BrandSteamFilled: { Component: BrandSteamFilled, metadata: BrandSteamFilledMetadata },
-    BrandStripeFilled: { Component: BrandStripeFilled, metadata: BrandStripeFilledMetadata },
-    BrandTablerFilled: { Component: BrandTablerFilled, metadata: BrandTablerFilledMetadata },
-    BrandTiktokFilled: { Component: BrandTiktokFilled, metadata: BrandTiktokFilledMetadata },
-    BrandTinderFilled: { Component: BrandTinderFilled, metadata: BrandTinderFilledMetadata },
-    BrandTumblrFilled: { Component: BrandTumblrFilled, metadata: BrandTumblrFilledMetadata },
-    BrandTwitterFilled: { Component: BrandTwitterFilled, metadata: BrandTwitterFilledMetadata },
-    BrandVercelFilled: { Component: BrandVercelFilled, metadata: BrandVercelFilledMetadata },
-    BrandVimeoFilled: { Component: BrandVimeoFilled, metadata: BrandVimeoFilledMetadata },
-    BrandWeiboFilled: { Component: BrandWeiboFilled, metadata: BrandWeiboFilledMetadata },
-    BrandWhatsappFilled: { Component: BrandWhatsappFilled, metadata: BrandWhatsappFilledMetadata },
-    BrandWindowsFilled: { Component: BrandWindowsFilled, metadata: BrandWindowsFilledMetadata },
-    BrandXFilled: { Component: BrandXFilled, metadata: BrandXFilledMetadata },
-    BrandYoutubeFilled: { Component: BrandYoutubeFilled, metadata: BrandYoutubeFilledMetadata },
+    BinanceCoinBnbRounded: { Component: BinanceCoinBnbRounded, metadata: BinanceCoinBnbRoundedMetadata },
+    BinanceUsdBusdRounded: { Component: BinanceUsdBusdRounded, metadata: BinanceUsdBusdRoundedMetadata },
+    BitcoinBtcRounded: { Component: BitcoinBtcRounded, metadata: BitcoinBtcRoundedMetadata },
+    BloggerRounded: { Component: BloggerRounded, metadata: BloggerRoundedMetadata },
+    BootsrapRounded: { Component: BootsrapRounded, metadata: BootsrapRoundedMetadata },
+    CardanoAdaRounded: { Component: CardanoAdaRounded, metadata: CardanoAdaRoundedMetadata },
+    CeloCeloRounded: { Component: CeloCeloRounded, metadata: CeloCeloRoundedMetadata },
+    CelsiusCelRounded: { Component: CelsiusCelRounded, metadata: CelsiusCelRoundedMetadata },
+    ChainlinkLinkRounded: { Component: ChainlinkLinkRounded, metadata: ChainlinkLinkRoundedMetadata },
+    CivicCvcRounded: { Component: CivicCvcRounded, metadata: CivicCvcRoundedMetadata },
     CodepenDoodle: { Component: CodepenDoodle, metadata: CodepenDoodleMetadata },
+    DaiDaiRounded: { Component: DaiDaiRounded, metadata: DaiDaiRoundedMetadata },
+    DashDashRounded: { Component: DashDashRounded, metadata: DashDashRoundedMetadata },
+    DecredDcrRounded: { Component: DecredDcrRounded, metadata: DecredDcrRoundedMetadata },
+    DentDentRounded: { Component: DentDentRounded, metadata: DentDentRoundedMetadata },
     DribbbleDoodle: { Component: DribbbleDoodle, metadata: DribbbleDoodleMetadata },
+    DribbbleRounded: { Component: DribbbleRounded, metadata: DribbbleRoundedMetadata },
     DropboxDoodle: { Component: DropboxDoodle, metadata: DropboxDoodleMetadata },
+    DropboxRounded: { Component: DropboxRounded, metadata: DropboxRoundedMetadata },
+    EducareEktRounded: { Component: EducareEktRounded, metadata: EducareEktRoundedMetadata },
+    EmercoinEmcRounded: { Component: EmercoinEmcRounded, metadata: EmercoinEmcRoundedMetadata },
+    EnjinCoinEnjRounded: { Component: EnjinCoinEnjRounded, metadata: EnjinCoinEnjRoundedMetadata },
+    EosEosRounded: { Component: EosEosRounded, metadata: EosEosRoundedMetadata },
+    EthereumClassicEtcRounded: { Component: EthereumClassicEtcRounded, metadata: EthereumClassicEtcRoundedMetadata },
+    EthereumEthRounded: { Component: EthereumEthRounded, metadata: EthereumEthRoundedMetadata },
     Facebook2Doodle: { Component: Facebook2Doodle, metadata: Facebook2DoodleMetadata },
     FacebookDoodle: { Component: FacebookDoodle, metadata: FacebookDoodleMetadata },
+    FacebookRounded: { Component: FacebookRounded, metadata: FacebookRoundedMetadata },
     FbMessengerDoodle: { Component: FbMessengerDoodle, metadata: FbMessengerDoodleMetadata },
+    Figma1Rounded: { Component: Figma1Rounded, metadata: Figma1RoundedMetadata },
+    FigmaRounded: { Component: FigmaRounded, metadata: FigmaRoundedMetadata },
+    FramerRounded: { Component: FramerRounded, metadata: FramerRoundedMetadata },
+    FtxTokenFttRounded: { Component: FtxTokenFttRounded, metadata: FtxTokenFttRoundedMetadata },
+    Google1Rounded: { Component: Google1Rounded, metadata: Google1RoundedMetadata },
+    GooglePlayRounded: { Component: GooglePlayRounded, metadata: GooglePlayRoundedMetadata },
     GoogleDoodle: { Component: GoogleDoodle, metadata: GoogleDoodleMetadata },
+    GoogleRounded: { Component: GoogleRounded, metadata: GoogleRoundedMetadata },
+    HarmonyOneRounded: { Component: HarmonyOneRounded, metadata: HarmonyOneRoundedMetadata },
+    HederaHashgraphHbarRounded: { Component: HederaHashgraphHbarRounded, metadata: HederaHashgraphHbarRoundedMetadata },
+    HexHexRounded: { Component: HexHexRounded, metadata: HexHexRoundedMetadata },
+    Html3Rounded: { Component: Html3Rounded, metadata: Html3RoundedMetadata },
+    Html5Rounded: { Component: Html5Rounded, metadata: Html5RoundedMetadata },
+    HuobiTokenHtRounded: { Component: HuobiTokenHtRounded, metadata: HuobiTokenHtRoundedMetadata },
+    IconIcxRounded: { Component: IconIcxRounded, metadata: IconIcxRoundedMetadata },
+    IllustratorRounded: { Component: IllustratorRounded, metadata: IllustratorRoundedMetadata },
     InstagramDoodle: { Component: InstagramDoodle, metadata: InstagramDoodleMetadata },
+    IostIostRounded: { Component: IostIostRounded, metadata: IostIostRoundedMetadata },
+    JavaScriptRounded: { Component: JavaScriptRounded, metadata: JavaScriptRoundedMetadata },
+    JsRounded: { Component: JsRounded, metadata: JsRoundedMetadata },
+    KyberNetworkKncRounded: { Component: KyberNetworkKncRounded, metadata: KyberNetworkKncRoundedMetadata },
     LinkedinDoodle: { Component: LinkedinDoodle, metadata: LinkedinDoodleMetadata },
+    LitecoinltcRounded: { Component: LitecoinltcRounded, metadata: LitecoinltcRoundedMetadata },
+    MakerMkrRounded: { Component: MakerMkrRounded, metadata: MakerMkrRoundedMetadata },
+    MessengerRounded: { Component: MessengerRounded, metadata: MessengerRoundedMetadata },
+    MoneroXmrRounded: { Component: MoneroXmrRounded, metadata: MoneroXmrRoundedMetadata },
+    NebulasNasRounded: { Component: NebulasNasRounded, metadata: NebulasNasRoundedMetadata },
+    NemXemRounded: { Component: NemXemRounded, metadata: NemXemRoundedMetadata },
+    NexoNexoRounded: { Component: NexoNexoRounded, metadata: NexoNexoRoundedMetadata },
+    OceanProtocolOceanRounded: { Component: OceanProtocolOceanRounded, metadata: OceanProtocolOceanRoundedMetadata },
+    OkbOkbRounded: { Component: OkbOkbRounded, metadata: OkbOkbRoundedMetadata },
+    OntologyOntRounded: { Component: OntologyOntRounded, metadata: OntologyOntRoundedMetadata },
     PaypalDoodle: { Component: PaypalDoodle, metadata: PaypalDoodleMetadata },
+    PaypalRounded: { Component: PaypalRounded, metadata: PaypalRoundedMetadata },
+    PhotoshopRounded: { Component: PhotoshopRounded, metadata: PhotoshopRoundedMetadata },
     PinterestDoodle: { Component: PinterestDoodle, metadata: PinterestDoodleMetadata },
+    PolkadotDotRounded: { Component: PolkadotDotRounded, metadata: PolkadotDotRoundedMetadata },
+    PolygonMaticRounded: { Component: PolygonMaticRounded, metadata: PolygonMaticRoundedMetadata },
+    PolyswarmNctRounded: { Component: PolyswarmNctRounded, metadata: PolyswarmNctRoundedMetadata },
     ProductHuntDoodle: { Component: ProductHuntDoodle, metadata: ProductHuntDoodleMetadata },
+    PythonRounded: { Component: PythonRounded, metadata: PythonRoundedMetadata },
+    QuantQntRounded: { Component: QuantQntRounded, metadata: QuantQntRoundedMetadata },
+    SiacoinScRounded: { Component: SiacoinScRounded, metadata: SiacoinScRoundedMetadata },
     SkypeDoodle: { Component: SkypeDoodle, metadata: SkypeDoodleMetadata },
+    SlackRounded: { Component: SlackRounded, metadata: SlackRoundedMetadata },
     SnapchatDoodle: { Component: SnapchatDoodle, metadata: SnapchatDoodleMetadata },
+    SnapchatRounded: { Component: SnapchatRounded, metadata: SnapchatRoundedMetadata },
+    SolanaSolRounded: { Component: SolanaSolRounded, metadata: SolanaSolRoundedMetadata },
     SpotifyDoodle: { Component: SpotifyDoodle, metadata: SpotifyDoodleMetadata },
+    SpotifyRounded: { Component: SpotifyRounded, metadata: SpotifyRoundedMetadata },
+    StacksStxRounded: { Component: StacksStxRounded, metadata: StacksStxRoundedMetadata },
+    StellarXlmRounded: { Component: StellarXlmRounded, metadata: StellarXlmRoundedMetadata },
+    TenxPayRounded: { Component: TenxPayRounded, metadata: TenxPayRoundedMetadata },
+    TetherUsdtRounded: { Component: TetherUsdtRounded, metadata: TetherUsdtRoundedMetadata },
+    TheGraphGrtRounded: { Component: TheGraphGrtRounded, metadata: TheGraphGrtRoundedMetadata },
+    ThetaThetaRounded: { Component: ThetaThetaRounded, metadata: ThetaThetaRoundedMetadata },
+    ThorchainRuneRounded: { Component: ThorchainRuneRounded, metadata: ThorchainRuneRoundedMetadata },
     TikTokDoodle: { Component: TikTokDoodle, metadata: TikTokDoodleMetadata },
+    TrelloRounded: { Component: TrelloRounded, metadata: TrelloRoundedMetadata },
+    TriangleRounded: { Component: TriangleRounded, metadata: TriangleRoundedMetadata },
+    TrontronTrxRounded: { Component: TrontronTrxRounded, metadata: TrontronTrxRoundedMetadata },
     TumblrDoodle: { Component: TumblrDoodle, metadata: TumblrDoodleMetadata },
     TwitchDoodle: { Component: TwitchDoodle, metadata: TwitchDoodleMetadata },
+    TwitchRounded: { Component: TwitchRounded, metadata: TwitchRoundedMetadata },
     TwitterDoodle: { Component: TwitterDoodle, metadata: TwitterDoodleMetadata },
     UberDoodle: { Component: UberDoodle, metadata: UberDoodleMetadata },
+    Ui8Rounded: { Component: Ui8Rounded, metadata: Ui8RoundedMetadata },
+    UsdCoinUsdcRounded: { Component: UsdCoinUsdcRounded, metadata: UsdCoinUsdcRoundedMetadata },
+    VelasVlxRounded: { Component: VelasVlxRounded, metadata: VelasVlxRoundedMetadata },
+    VibeVibeRounded: { Component: VibeVibeRounded, metadata: VibeVibeRoundedMetadata },
+    VuesaxRounded: { Component: VuesaxRounded, metadata: VuesaxRoundedMetadata },
+    WanchainWan1Rounded: { Component: WanchainWan1Rounded, metadata: WanchainWan1RoundedMetadata },
+    WanchainWanRounded: { Component: WanchainWanRounded, metadata: WanchainWanRoundedMetadata },
     WebflowDoodle: { Component: WebflowDoodle, metadata: WebflowDoodleMetadata },
     WhatsappDoodle: { Component: WhatsappDoodle, metadata: WhatsappDoodleMetadata },
+    WhatsappRounded: { Component: WhatsappRounded, metadata: WhatsappRoundedMetadata },
     WindowsDoodle: { Component: WindowsDoodle, metadata: WindowsDoodleMetadata },
+    WindowsRounded: { Component: WindowsRounded, metadata: WindowsRoundedMetadata },
+    WingWingRounded: { Component: WingWingRounded, metadata: WingWingRoundedMetadata },
+    XdRounded: { Component: XdRounded, metadata: XdRoundedMetadata },
+    XiaomiRounded: { Component: XiaomiRounded, metadata: XiaomiRoundedMetadata },
+    XrpXrpRounded: { Component: XrpXrpRounded, metadata: XrpXrpRoundedMetadata },
     YCombinatorDoodle: { Component: YCombinatorDoodle, metadata: YCombinatorDoodleMetadata },
     YoutubeDoodle: { Component: YoutubeDoodle, metadata: YoutubeDoodleMetadata },
+    YoutubeRounded: { Component: YoutubeRounded, metadata: YoutubeRoundedMetadata },
+    ZelZelRounded: { Component: ZelZelRounded, metadata: ZelZelRoundedMetadata },
+    ZoomRounded: { Component: ZoomRounded, metadata: ZoomRoundedMetadata },
   },
   building: {
+    BankRounded: { Component: BankRounded, metadata: BankRoundedMetadata },
     Building2: { Component: Building2, metadata: Building2Metadata },
+    Building3Rounded: { Component: Building3Rounded, metadata: Building3RoundedMetadata },
+    Building4Rounded: { Component: Building4Rounded, metadata: Building4RoundedMetadata },
     Building: { Component: Building, metadata: BuildingMetadata },
+    BuildingRounded: { Component: BuildingRounded, metadata: BuildingRoundedMetadata },
+    Buildings2Rounded: { Component: Buildings2Rounded, metadata: Buildings2RoundedMetadata },
+    BuildingsRounded: { Component: BuildingsRounded, metadata: BuildingsRoundedMetadata },
+    BulidingRounded: { Component: BulidingRounded, metadata: BulidingRoundedMetadata },
     Castle: { Component: Castle, metadata: CastleMetadata },
     Church: { Component: Church, metadata: ChurchMetadata },
+    CourthouseRounded: { Component: CourthouseRounded, metadata: CourthouseRoundedMetadata },
     Factory: { Component: Factory, metadata: FactoryMetadata },
     Hospital: { Component: Hospital, metadata: HospitalMetadata },
+    HospitalRounded: { Component: HospitalRounded, metadata: HospitalRoundedMetadata },
     Hotel: { Component: Hotel, metadata: HotelMetadata },
+    House2Rounded: { Component: House2Rounded, metadata: House2RoundedMetadata },
     HouseHeart: { Component: HouseHeart, metadata: HouseHeartMetadata },
     HousePlug: { Component: HousePlug, metadata: HousePlugMetadata },
     HousePlus: { Component: HousePlus, metadata: HousePlusMetadata },
     HouseWifi: { Component: HouseWifi, metadata: HouseWifiMetadata },
     House: { Component: House, metadata: HouseMetadata },
+    HouseRounded: { Component: HouseRounded, metadata: HouseRoundedMetadata },
     Landmark: { Component: Landmark, metadata: LandmarkMetadata },
     School: { Component: School, metadata: SchoolMetadata },
     Store: { Component: Store, metadata: StoreMetadata },
@@ -6753,59 +6764,80 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
     Tent: { Component: Tent, metadata: TentMetadata },
     University: { Component: University, metadata: UniversityMetadata },
   },
+  business: {
+    ActivityRounded: { Component: ActivityRounded, metadata: ActivityRoundedMetadata },
+    Chart1Rounded: { Component: Chart1Rounded, metadata: Chart1RoundedMetadata },
+    Chart21Rounded: { Component: Chart21Rounded, metadata: Chart21RoundedMetadata },
+    Chart2Rounded: { Component: Chart2Rounded, metadata: Chart2RoundedMetadata },
+    ChartSuccessRounded: { Component: ChartSuccessRounded, metadata: ChartSuccessRoundedMetadata },
+    ChartRounded: { Component: ChartRounded, metadata: ChartRoundedMetadata },
+    DiagramRounded: { Component: DiagramRounded, metadata: DiagramRoundedMetadata },
+    FavoriteChartRounded: { Component: FavoriteChartRounded, metadata: FavoriteChartRoundedMetadata },
+    GraphRounded: { Component: GraphRounded, metadata: GraphRoundedMetadata },
+    HashtagRounded: { Component: HashtagRounded, metadata: HashtagRoundedMetadata },
+    HealthRounded: { Component: HealthRounded, metadata: HealthRoundedMetadata },
+    HomeHashtagRounded: { Component: HomeHashtagRounded, metadata: HomeHashtagRoundedMetadata },
+    HomeTrendDownRounded: { Component: HomeTrendDownRounded, metadata: HomeTrendDownRoundedMetadata },
+    HomeTrendUpRounded: { Component: HomeTrendUpRounded, metadata: HomeTrendUpRoundedMetadata },
+    PersonalcardRounded: { Component: PersonalcardRounded, metadata: PersonalcardRoundedMetadata },
+    PresentionChartRounded: { Component: PresentionChartRounded, metadata: PresentionChartRoundedMetadata },
+    StatusUpRounded: { Component: StatusUpRounded, metadata: StatusUpRoundedMetadata },
+    TrendDownRounded: { Component: TrendDownRounded, metadata: TrendDownRoundedMetadata },
+    TrendUpRounded: { Component: TrendUpRounded, metadata: TrendUpRoundedMetadata },
+  },
   calendar: {
-    CalculatorFilled: { Component: CalculatorFilled, metadata: CalculatorFilledMetadata },
     Calendar1: { Component: Calendar1, metadata: Calendar1Metadata },
+    Calendar1Rounded: { Component: Calendar1Rounded, metadata: Calendar1RoundedMetadata },
+    Calendar2Rounded: { Component: Calendar2Rounded, metadata: Calendar2RoundedMetadata },
+    CalendarAddRounded: { Component: CalendarAddRounded, metadata: CalendarAddRoundedMetadata },
     CalendarArrowDown: { Component: CalendarArrowDown, metadata: CalendarArrowDownMetadata },
     CalendarArrowUp: { Component: CalendarArrowUp, metadata: CalendarArrowUpMetadata },
     CalendarCheck2: { Component: CalendarCheck2, metadata: CalendarCheck2Metadata },
     CalendarCheck: { Component: CalendarCheck, metadata: CalendarCheckMetadata },
+    CalendarCircleRounded: { Component: CalendarCircleRounded, metadata: CalendarCircleRoundedMetadata },
     CalendarClock: { Component: CalendarClock, metadata: CalendarClockMetadata },
     CalendarCog: { Component: CalendarCog, metadata: CalendarCogMetadata },
     CalendarDays: { Component: CalendarDays, metadata: CalendarDaysMetadata },
-    CalendarEventFilled: { Component: CalendarEventFilled, metadata: CalendarEventFilledMetadata },
+    CalendarEditRounded: { Component: CalendarEditRounded, metadata: CalendarEditRoundedMetadata },
     CalendarFold: { Component: CalendarFold, metadata: CalendarFoldMetadata },
     CalendarHeart: { Component: CalendarHeart, metadata: CalendarHeartMetadata },
     CalendarMinus2: { Component: CalendarMinus2, metadata: CalendarMinus2Metadata },
     CalendarMinus: { Component: CalendarMinus, metadata: CalendarMinusMetadata },
-    CalendarMonthFilled: { Component: CalendarMonthFilled, metadata: CalendarMonthFilledMetadata },
     CalendarOff: { Component: CalendarOff, metadata: CalendarOffMetadata },
     CalendarPlus2: { Component: CalendarPlus2, metadata: CalendarPlus2Metadata },
     CalendarPlus: { Component: CalendarPlus, metadata: CalendarPlusMetadata },
     CalendarRange: { Component: CalendarRange, metadata: CalendarRangeMetadata },
+    CalendarRemoveRounded: { Component: CalendarRemoveRounded, metadata: CalendarRemoveRoundedMetadata },
     CalendarSearch: { Component: CalendarSearch, metadata: CalendarSearchMetadata },
+    CalendarSearchRounded: { Component: CalendarSearchRounded, metadata: CalendarSearchRoundedMetadata },
     CalendarSync: { Component: CalendarSync, metadata: CalendarSyncMetadata },
-    CalendarWeekFilled: { Component: CalendarWeekFilled, metadata: CalendarWeekFilledMetadata },
+    CalendarTickRounded: { Component: CalendarTickRounded, metadata: CalendarTickRoundedMetadata },
     CalendarX2: { Component: CalendarX2, metadata: CalendarX2Metadata },
     CalendarX: { Component: CalendarX, metadata: CalendarXMetadata },
     Calendar: { Component: Calendar, metadata: CalendarMetadata },
-    CalendarFilled: { Component: CalendarFilled, metadata: CalendarFilledMetadata },
+    CalendarRounded: { Component: CalendarRounded, metadata: CalendarRoundedMetadata },
     Calendars: { Component: Calendars, metadata: CalendarsMetadata },
+    ClockRounded: { Component: ClockRounded, metadata: ClockRoundedMetadata },
+    SecurityTimeRounded: { Component: SecurityTimeRounded, metadata: SecurityTimeRoundedMetadata },
+    Timer1Rounded: { Component: Timer1Rounded, metadata: Timer1RoundedMetadata },
+    TimerPauseRounded: { Component: TimerPauseRounded, metadata: TimerPauseRoundedMetadata },
+    TimerStartRounded: { Component: TimerStartRounded, metadata: TimerStartRoundedMetadata },
+    TimerRounded: { Component: TimerRounded, metadata: TimerRoundedMetadata },
   },
   chart: {
-    ChartAreaLineFilled: { Component: ChartAreaLineFilled, metadata: ChartAreaLineFilledMetadata },
     ChartArea: { Component: ChartArea, metadata: ChartAreaMetadata },
-    ChartAreaFilled: { Component: ChartAreaFilled, metadata: ChartAreaFilledMetadata },
     ChartBarBig: { Component: ChartBarBig, metadata: ChartBarBigMetadata },
     ChartBarDecreasing: { Component: ChartBarDecreasing, metadata: ChartBarDecreasingMetadata },
     ChartBarIncreasing: { Component: ChartBarIncreasing, metadata: ChartBarIncreasingMetadata },
     ChartBarStacked: { Component: ChartBarStacked, metadata: ChartBarStackedMetadata },
     ChartBar: { Component: ChartBar, metadata: ChartBarMetadata },
-    ChartBubbleFilled: { Component: ChartBubbleFilled, metadata: ChartBubbleFilledMetadata },
-    ChartCandleFilled: { Component: ChartCandleFilled, metadata: ChartCandleFilledMetadata },
     ChartCandlestick: { Component: ChartCandlestick, metadata: ChartCandlestickMetadata },
     ChartColumnBig: { Component: ChartColumnBig, metadata: ChartColumnBigMetadata },
     ChartColumnDecreasing: { Component: ChartColumnDecreasing, metadata: ChartColumnDecreasingMetadata },
     ChartColumnIncreasing: { Component: ChartColumnIncreasing, metadata: ChartColumnIncreasingMetadata },
     ChartColumnStacked: { Component: ChartColumnStacked, metadata: ChartColumnStackedMetadata },
     ChartColumn: { Component: ChartColumn, metadata: ChartColumnMetadata },
-    ChartDonutFilled: { Component: ChartDonutFilled, metadata: ChartDonutFilledMetadata },
-    ChartDots2Filled: { Component: ChartDots2Filled, metadata: ChartDots2FilledMetadata },
-    ChartDots3Filled: { Component: ChartDots3Filled, metadata: ChartDots3FilledMetadata },
-    ChartDotsFilled: { Component: ChartDotsFilled, metadata: ChartDotsFilledMetadata },
-    ChartFunnelFilled: { Component: ChartFunnelFilled, metadata: ChartFunnelFilledMetadata },
     ChartGantt: { Component: ChartGantt, metadata: ChartGanttMetadata },
-    ChartGridDotsFilled: { Component: ChartGridDotsFilled, metadata: ChartGridDotsFilledMetadata },
     ChartLine: { Component: ChartLine, metadata: ChartLineMetadata },
     ChartNetwork: { Component: ChartNetwork, metadata: ChartNetworkMetadata },
     ChartNoAxesColumnDecreasing: { Component: ChartNoAxesColumnDecreasing, metadata: ChartNoAxesColumnDecreasingMetadata },
@@ -6813,114 +6845,48 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
     ChartNoAxesColumn: { Component: ChartNoAxesColumn, metadata: ChartNoAxesColumnMetadata },
     ChartNoAxesCombined: { Component: ChartNoAxesCombined, metadata: ChartNoAxesCombinedMetadata },
     ChartNoAxesGantt: { Component: ChartNoAxesGantt, metadata: ChartNoAxesGanttMetadata },
-    ChartPie2Filled: { Component: ChartPie2Filled, metadata: ChartPie2FilledMetadata },
-    ChartPie3Filled: { Component: ChartPie3Filled, metadata: ChartPie3FilledMetadata },
-    ChartPie4Filled: { Component: ChartPie4Filled, metadata: ChartPie4FilledMetadata },
     ChartPie: { Component: ChartPie, metadata: ChartPieMetadata },
-    ChartPieFilled: { Component: ChartPieFilled, metadata: ChartPieFilledMetadata },
     ChartScatter: { Component: ChartScatter, metadata: ChartScatterMetadata },
     ChartSpline: { Component: ChartSpline, metadata: ChartSplineMetadata },
   },
   circle: {
     CircleAlert: { Component: CircleAlert, metadata: CircleAlertMetadata },
-    CircleArrowDownLeftFilled: { Component: CircleArrowDownLeftFilled, metadata: CircleArrowDownLeftFilledMetadata },
-    CircleArrowDownRightFilled: { Component: CircleArrowDownRightFilled, metadata: CircleArrowDownRightFilledMetadata },
     CircleArrowDown: { Component: CircleArrowDown, metadata: CircleArrowDownMetadata },
-    CircleArrowDownFilled: { Component: CircleArrowDownFilled, metadata: CircleArrowDownFilledMetadata },
     CircleArrowLeft: { Component: CircleArrowLeft, metadata: CircleArrowLeftMetadata },
-    CircleArrowLeftFilled: { Component: CircleArrowLeftFilled, metadata: CircleArrowLeftFilledMetadata },
     CircleArrowOutDownLeft: { Component: CircleArrowOutDownLeft, metadata: CircleArrowOutDownLeftMetadata },
     CircleArrowOutDownRight: { Component: CircleArrowOutDownRight, metadata: CircleArrowOutDownRightMetadata },
     CircleArrowOutUpLeft: { Component: CircleArrowOutUpLeft, metadata: CircleArrowOutUpLeftMetadata },
     CircleArrowOutUpRight: { Component: CircleArrowOutUpRight, metadata: CircleArrowOutUpRightMetadata },
     CircleArrowRight: { Component: CircleArrowRight, metadata: CircleArrowRightMetadata },
-    CircleArrowRightFilled: { Component: CircleArrowRightFilled, metadata: CircleArrowRightFilledMetadata },
-    CircleArrowUpLeftFilled: { Component: CircleArrowUpLeftFilled, metadata: CircleArrowUpLeftFilledMetadata },
-    CircleArrowUpRightFilled: { Component: CircleArrowUpRightFilled, metadata: CircleArrowUpRightFilledMetadata },
     CircleArrowUp: { Component: CircleArrowUp, metadata: CircleArrowUpMetadata },
-    CircleArrowUpFilled: { Component: CircleArrowUpFilled, metadata: CircleArrowUpFilledMetadata },
-    CircleCaretDownFilled: { Component: CircleCaretDownFilled, metadata: CircleCaretDownFilledMetadata },
-    CircleCaretLeftFilled: { Component: CircleCaretLeftFilled, metadata: CircleCaretLeftFilledMetadata },
-    CircleCaretRightFilled: { Component: CircleCaretRightFilled, metadata: CircleCaretRightFilledMetadata },
-    CircleCaretUpFilled: { Component: CircleCaretUpFilled, metadata: CircleCaretUpFilledMetadata },
     CircleCheckBig: { Component: CircleCheckBig, metadata: CircleCheckBigMetadata },
     CircleCheck: { Component: CircleCheck, metadata: CircleCheckMetadata },
-    CircleCheckFilled: { Component: CircleCheckFilled, metadata: CircleCheckFilledMetadata },
     CircleChevronDown: { Component: CircleChevronDown, metadata: CircleChevronDownMetadata },
-    CircleChevronDownFilled: { Component: CircleChevronDownFilled, metadata: CircleChevronDownFilledMetadata },
     CircleChevronLeft: { Component: CircleChevronLeft, metadata: CircleChevronLeftMetadata },
-    CircleChevronLeftFilled: { Component: CircleChevronLeftFilled, metadata: CircleChevronLeftFilledMetadata },
     CircleChevronRight: { Component: CircleChevronRight, metadata: CircleChevronRightMetadata },
-    CircleChevronRightFilled: { Component: CircleChevronRightFilled, metadata: CircleChevronRightFilledMetadata },
     CircleChevronUp: { Component: CircleChevronUp, metadata: CircleChevronUpMetadata },
-    CircleChevronUpFilled: { Component: CircleChevronUpFilled, metadata: CircleChevronUpFilledMetadata },
-    CircleChevronsDownFilled: { Component: CircleChevronsDownFilled, metadata: CircleChevronsDownFilledMetadata },
-    CircleChevronsLeftFilled: { Component: CircleChevronsLeftFilled, metadata: CircleChevronsLeftFilledMetadata },
-    CircleChevronsRightFilled: { Component: CircleChevronsRightFilled, metadata: CircleChevronsRightFilledMetadata },
-    CircleChevronsUpFilled: { Component: CircleChevronsUpFilled, metadata: CircleChevronsUpFilledMetadata },
     CircleDashed: { Component: CircleDashed, metadata: CircleDashedMetadata },
     CircleDivide: { Component: CircleDivide, metadata: CircleDivideMetadata },
     CircleDollarSign: { Component: CircleDollarSign, metadata: CircleDollarSignMetadata },
     CircleDotDashed: { Component: CircleDotDashed, metadata: CircleDotDashedMetadata },
     CircleDot: { Component: CircleDot, metadata: CircleDotMetadata },
-    CircleDotFilled: { Component: CircleDotFilled, metadata: CircleDotFilledMetadata },
     CircleEllipsis: { Component: CircleEllipsis, metadata: CircleEllipsisMetadata },
     CircleEqual: { Component: CircleEqual, metadata: CircleEqualMetadata },
     CircleFadingArrowUp: { Component: CircleFadingArrowUp, metadata: CircleFadingArrowUpMetadata },
     CircleFadingPlus: { Component: CircleFadingPlus, metadata: CircleFadingPlusMetadata },
     CircleGauge: { Component: CircleGauge, metadata: CircleGaugeMetadata },
-    CircleKeyFilled: { Component: CircleKeyFilled, metadata: CircleKeyFilledMetadata },
-    CircleLetterAFilled: { Component: CircleLetterAFilled, metadata: CircleLetterAFilledMetadata },
-    CircleLetterBFilled: { Component: CircleLetterBFilled, metadata: CircleLetterBFilledMetadata },
-    CircleLetterCFilled: { Component: CircleLetterCFilled, metadata: CircleLetterCFilledMetadata },
-    CircleLetterDFilled: { Component: CircleLetterDFilled, metadata: CircleLetterDFilledMetadata },
-    CircleLetterEFilled: { Component: CircleLetterEFilled, metadata: CircleLetterEFilledMetadata },
-    CircleLetterFFilled: { Component: CircleLetterFFilled, metadata: CircleLetterFFilledMetadata },
-    CircleLetterGFilled: { Component: CircleLetterGFilled, metadata: CircleLetterGFilledMetadata },
-    CircleLetterHFilled: { Component: CircleLetterHFilled, metadata: CircleLetterHFilledMetadata },
-    CircleLetterIFilled: { Component: CircleLetterIFilled, metadata: CircleLetterIFilledMetadata },
-    CircleLetterJFilled: { Component: CircleLetterJFilled, metadata: CircleLetterJFilledMetadata },
-    CircleLetterKFilled: { Component: CircleLetterKFilled, metadata: CircleLetterKFilledMetadata },
-    CircleLetterLFilled: { Component: CircleLetterLFilled, metadata: CircleLetterLFilledMetadata },
-    CircleLetterMFilled: { Component: CircleLetterMFilled, metadata: CircleLetterMFilledMetadata },
-    CircleLetterNFilled: { Component: CircleLetterNFilled, metadata: CircleLetterNFilledMetadata },
-    CircleLetterOFilled: { Component: CircleLetterOFilled, metadata: CircleLetterOFilledMetadata },
-    CircleLetterPFilled: { Component: CircleLetterPFilled, metadata: CircleLetterPFilledMetadata },
-    CircleLetterQFilled: { Component: CircleLetterQFilled, metadata: CircleLetterQFilledMetadata },
-    CircleLetterRFilled: { Component: CircleLetterRFilled, metadata: CircleLetterRFilledMetadata },
-    CircleLetterSFilled: { Component: CircleLetterSFilled, metadata: CircleLetterSFilledMetadata },
-    CircleLetterTFilled: { Component: CircleLetterTFilled, metadata: CircleLetterTFilledMetadata },
-    CircleLetterUFilled: { Component: CircleLetterUFilled, metadata: CircleLetterUFilledMetadata },
-    CircleLetterVFilled: { Component: CircleLetterVFilled, metadata: CircleLetterVFilledMetadata },
-    CircleLetterWFilled: { Component: CircleLetterWFilled, metadata: CircleLetterWFilledMetadata },
-    CircleLetterXFilled: { Component: CircleLetterXFilled, metadata: CircleLetterXFilledMetadata },
-    CircleLetterYFilled: { Component: CircleLetterYFilled, metadata: CircleLetterYFilledMetadata },
-    CircleLetterZFilled: { Component: CircleLetterZFilled, metadata: CircleLetterZFilledMetadata },
     CircleMinus: { Component: CircleMinus, metadata: CircleMinusMetadata },
-    CircleNumber0Filled: { Component: CircleNumber0Filled, metadata: CircleNumber0FilledMetadata },
-    CircleNumber1Filled: { Component: CircleNumber1Filled, metadata: CircleNumber1FilledMetadata },
-    CircleNumber2Filled: { Component: CircleNumber2Filled, metadata: CircleNumber2FilledMetadata },
-    CircleNumber3Filled: { Component: CircleNumber3Filled, metadata: CircleNumber3FilledMetadata },
-    CircleNumber4Filled: { Component: CircleNumber4Filled, metadata: CircleNumber4FilledMetadata },
-    CircleNumber5Filled: { Component: CircleNumber5Filled, metadata: CircleNumber5FilledMetadata },
-    CircleNumber6Filled: { Component: CircleNumber6Filled, metadata: CircleNumber6FilledMetadata },
-    CircleNumber7Filled: { Component: CircleNumber7Filled, metadata: CircleNumber7FilledMetadata },
-    CircleNumber8Filled: { Component: CircleNumber8Filled, metadata: CircleNumber8FilledMetadata },
-    CircleNumber9Filled: { Component: CircleNumber9Filled, metadata: CircleNumber9FilledMetadata },
     CircleOff: { Component: CircleOff, metadata: CircleOffMetadata },
     CircleParkingOff: { Component: CircleParkingOff, metadata: CircleParkingOffMetadata },
     CircleParking: { Component: CircleParking, metadata: CircleParkingMetadata },
     CirclePause: { Component: CirclePause, metadata: CirclePauseMetadata },
     CirclePercent: { Component: CirclePercent, metadata: CirclePercentMetadata },
-    CirclePercentageFilled: { Component: CirclePercentageFilled, metadata: CirclePercentageFilledMetadata },
     CirclePile: { Component: CirclePile, metadata: CirclePileMetadata },
     CirclePlay: { Component: CirclePlay, metadata: CirclePlayMetadata },
     CirclePlus: { Component: CirclePlus, metadata: CirclePlusMetadata },
-    CirclePlusFilled: { Component: CirclePlusFilled, metadata: CirclePlusFilledMetadata },
     CirclePoundSterling: { Component: CirclePoundSterling, metadata: CirclePoundSterlingMetadata },
     CirclePower: { Component: CirclePower, metadata: CirclePowerMetadata },
     CircleQuestionMark: { Component: CircleQuestionMark, metadata: CircleQuestionMarkMetadata },
-    CircleRectangleFilled: { Component: CircleRectangleFilled, metadata: CircleRectangleFilledMetadata },
     CircleSlash2: { Component: CircleSlash2, metadata: CircleSlash2Metadata },
     CircleSlash: { Component: CircleSlash, metadata: CircleSlashMetadata },
     CircleSmall: { Component: CircleSmall, metadata: CircleSmallMetadata },
@@ -6929,33 +6895,21 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
     CircleUserRound: { Component: CircleUserRound, metadata: CircleUserRoundMetadata },
     CircleUser: { Component: CircleUser, metadata: CircleUserMetadata },
     CircleX: { Component: CircleX, metadata: CircleXMetadata },
-    CircleXFilled: { Component: CircleXFilled, metadata: CircleXFilledMetadata },
     Circle: { Component: Circle, metadata: CircleMetadata },
-    CircleFilled: { Component: CircleFilled, metadata: CircleFilledMetadata },
-    CirclesFilled: { Component: CirclesFilled, metadata: CirclesFilledMetadata },
   },
   clipboard: {
     ClipboardCheck: { Component: ClipboardCheck, metadata: ClipboardCheckMetadata },
-    ClipboardCheckFilled: { Component: ClipboardCheckFilled, metadata: ClipboardCheckFilledMetadata },
     ClipboardClock: { Component: ClipboardClock, metadata: ClipboardClockMetadata },
     ClipboardCopy: { Component: ClipboardCopy, metadata: ClipboardCopyMetadata },
-    ClipboardDataFilled: { Component: ClipboardDataFilled, metadata: ClipboardDataFilledMetadata },
     ClipboardList: { Component: ClipboardList, metadata: ClipboardListMetadata },
-    ClipboardListFilled: { Component: ClipboardListFilled, metadata: ClipboardListFilledMetadata },
     ClipboardMinus: { Component: ClipboardMinus, metadata: ClipboardMinusMetadata },
     ClipboardPaste: { Component: ClipboardPaste, metadata: ClipboardPasteMetadata },
     ClipboardPenLine: { Component: ClipboardPenLine, metadata: ClipboardPenLineMetadata },
     ClipboardPen: { Component: ClipboardPen, metadata: ClipboardPenMetadata },
     ClipboardPlus: { Component: ClipboardPlus, metadata: ClipboardPlusMetadata },
-    ClipboardPlusFilled: { Component: ClipboardPlusFilled, metadata: ClipboardPlusFilledMetadata },
-    ClipboardSmileFilled: { Component: ClipboardSmileFilled, metadata: ClipboardSmileFilledMetadata },
-    ClipboardTextFilled: { Component: ClipboardTextFilled, metadata: ClipboardTextFilledMetadata },
     ClipboardType: { Component: ClipboardType, metadata: ClipboardTypeMetadata },
-    ClipboardTypographyFilled: { Component: ClipboardTypographyFilled, metadata: ClipboardTypographyFilledMetadata },
     ClipboardX: { Component: ClipboardX, metadata: ClipboardXMetadata },
-    ClipboardXFilled: { Component: ClipboardXFilled, metadata: ClipboardXFilledMetadata },
     Clipboard: { Component: Clipboard, metadata: ClipboardMetadata },
-    ClipboardFilled: { Component: ClipboardFilled, metadata: ClipboardFilledMetadata },
     CopyCheck: { Component: CopyCheck, metadata: CopyCheckMetadata },
     CopyMinus: { Component: CopyMinus, metadata: CopyMinusMetadata },
     CopyPlus: { Component: CopyPlus, metadata: CopyPlusMetadata },
@@ -7008,54 +6962,131 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
     Cloudy: { Component: Cloudy, metadata: CloudyMetadata },
   },
   code: {
+    Code1Rounded: { Component: Code1Rounded, metadata: Code1RoundedMetadata },
+    CodeCircleRounded: { Component: CodeCircleRounded, metadata: CodeCircleRoundedMetadata },
     CodeXml: { Component: CodeXml, metadata: CodeXmlMetadata },
     Code: { Component: Code, metadata: CodeMetadata },
+    CodeRounded: { Component: CodeRounded, metadata: CodeRoundedMetadata },
     Codepen: { Component: Codepen, metadata: CodepenMetadata },
     Codesandbox: { Component: Codesandbox, metadata: CodesandboxMetadata },
+    CommandSquareRounded: { Component: CommandSquareRounded, metadata: CommandSquareRoundedMetadata },
+    CommandRounded: { Component: CommandRounded, metadata: CommandRoundedMetadata },
     Component: { Component: Component, metadata: ComponentMetadata },
+    Data2Rounded: { Component: Data2Rounded, metadata: Data2RoundedMetadata },
+    DataRounded: { Component: DataRounded, metadata: DataRoundedMetadata },
+    DocumentCode2Rounded: { Component: DocumentCode2Rounded, metadata: DocumentCode2RoundedMetadata },
+    DocumentCodeRounded: { Component: DocumentCodeRounded, metadata: DocumentCodeRoundedMetadata },
+    GitBranchMinus: { Component: GitBranchMinus, metadata: GitBranchMinusMetadata },
+    GitBranchPlus: { Component: GitBranchPlus, metadata: GitBranchPlusMetadata },
+    GitBranch: { Component: GitBranch, metadata: GitBranchMetadata },
+    GitCommitHorizontal: { Component: GitCommitHorizontal, metadata: GitCommitHorizontalMetadata },
+    GitCommitVertical: { Component: GitCommitVertical, metadata: GitCommitVerticalMetadata },
+    GitCompareArrows: { Component: GitCompareArrows, metadata: GitCompareArrowsMetadata },
+    GitCompare: { Component: GitCompare, metadata: GitCompareMetadata },
+    GitFork: { Component: GitFork, metadata: GitForkMetadata },
+    GitGraph: { Component: GitGraph, metadata: GitGraphMetadata },
+    GitMergeConflict: { Component: GitMergeConflict, metadata: GitMergeConflictMetadata },
+    GitMerge: { Component: GitMerge, metadata: GitMergeMetadata },
+    GitPullRequestArrow: { Component: GitPullRequestArrow, metadata: GitPullRequestArrowMetadata },
+    GitPullRequestClosed: { Component: GitPullRequestClosed, metadata: GitPullRequestClosedMetadata },
+    GitPullRequestCreateArrow: { Component: GitPullRequestCreateArrow, metadata: GitPullRequestCreateArrowMetadata },
+    GitPullRequestCreate: { Component: GitPullRequestCreate, metadata: GitPullRequestCreateMetadata },
+    GitPullRequestDraft: { Component: GitPullRequestDraft, metadata: GitPullRequestDraftMetadata },
+    GitPullRequest: { Component: GitPullRequest, metadata: GitPullRequestMetadata },
+    HashtagDownRounded: { Component: HashtagDownRounded, metadata: HashtagDownRoundedMetadata },
+    HashtagUpRounded: { Component: HashtagUpRounded, metadata: HashtagUpRoundedMetadata },
+    Hierarchy2Rounded: { Component: Hierarchy2Rounded, metadata: Hierarchy2RoundedMetadata },
+    Hierarchy3Rounded: { Component: Hierarchy3Rounded, metadata: Hierarchy3RoundedMetadata },
+    HierarchySquare2Rounded: { Component: HierarchySquare2Rounded, metadata: HierarchySquare2RoundedMetadata },
+    HierarchySquare3Rounded: { Component: HierarchySquare3Rounded, metadata: HierarchySquare3RoundedMetadata },
+    HierarchySquareRounded: { Component: HierarchySquareRounded, metadata: HierarchySquareRoundedMetadata },
+    HierarchyRounded: { Component: HierarchyRounded, metadata: HierarchyRoundedMetadata },
+    MessageProgrammingRounded: { Component: MessageProgrammingRounded, metadata: MessageProgrammingRoundedMetadata },
+    MobileProgrammingRounded: { Component: MobileProgrammingRounded, metadata: MobileProgrammingRoundedMetadata },
+    ProgrammingArrowRounded: { Component: ProgrammingArrowRounded, metadata: ProgrammingArrowRoundedMetadata },
+    ProgrammingArrowsRounded: { Component: ProgrammingArrowsRounded, metadata: ProgrammingArrowsRoundedMetadata },
+    ScrollRounded: { Component: ScrollRounded, metadata: ScrollRoundedMetadata },
+    SidebarBottomRounded: { Component: SidebarBottomRounded, metadata: SidebarBottomRoundedMetadata },
+    SidebarLeftRounded: { Component: SidebarLeftRounded, metadata: SidebarLeftRoundedMetadata },
+    SidebarRightRounded: { Component: SidebarRightRounded, metadata: SidebarRightRoundedMetadata },
+    SidebarTopRounded: { Component: SidebarTopRounded, metadata: SidebarTopRoundedMetadata },
   },
   commerce: {
     Bag2Doodle: { Component: Bag2Doodle, metadata: Bag2DoodleMetadata },
+    Bag2Rounded: { Component: Bag2Rounded, metadata: Bag2RoundedMetadata },
+    BagCross1Rounded: { Component: BagCross1Rounded, metadata: BagCross1RoundedMetadata },
+    BagCrossRounded: { Component: BagCrossRounded, metadata: BagCrossRoundedMetadata },
+    BagHappyRounded: { Component: BagHappyRounded, metadata: BagHappyRoundedMetadata },
+    BagTick2Rounded: { Component: BagTick2Rounded, metadata: BagTick2RoundedMetadata },
+    BagTickRounded: { Component: BagTickRounded, metadata: BagTickRoundedMetadata },
+    BagTimerRounded: { Component: BagTimerRounded, metadata: BagTimerRoundedMetadata },
     BagDoodle: { Component: BagDoodle, metadata: BagDoodleMetadata },
+    BagRounded: { Component: BagRounded, metadata: BagRoundedMetadata },
+    BarcodeRounded: { Component: BarcodeRounded, metadata: BarcodeRoundedMetadata },
     BasketDoodle: { Component: BasketDoodle, metadata: BasketDoodleMetadata },
+    Box1Rounded: { Component: Box1Rounded, metadata: Box1RoundedMetadata },
     Box2Doodle: { Component: Box2Doodle, metadata: Box2DoodleMetadata },
+    BoxAddRounded: { Component: BoxAddRounded, metadata: BoxAddRoundedMetadata },
+    BoxRemoveRounded: { Component: BoxRemoveRounded, metadata: BoxRemoveRoundedMetadata },
+    BoxSearchRounded: { Component: BoxSearchRounded, metadata: BoxSearchRoundedMetadata },
+    BoxTickRounded: { Component: BoxTickRounded, metadata: BoxTickRoundedMetadata },
+    BoxTimeRounded: { Component: BoxTimeRounded, metadata: BoxTimeRoundedMetadata },
     BoxDoodle: { Component: BoxDoodle, metadata: BoxDoodleMetadata },
+    BoxRounded: { Component: BoxRounded, metadata: BoxRoundedMetadata },
     Card2Doodle: { Component: Card2Doodle, metadata: Card2DoodleMetadata },
     Card3Doodle: { Component: Card3Doodle, metadata: Card3DoodleMetadata },
     CardDoodle: { Component: CardDoodle, metadata: CardDoodleMetadata },
     CartAddDoodle: { Component: CartAddDoodle, metadata: CartAddDoodleMetadata },
     CartDeleteDoodle: { Component: CartDeleteDoodle, metadata: CartDeleteDoodleMetadata },
     CartRemoveDoodle: { Component: CartRemoveDoodle, metadata: CartRemoveDoodleMetadata },
+    Convert3dCubeRounded: { Component: Convert3dCubeRounded, metadata: Convert3dCubeRoundedMetadata },
     ConveyorBeltDoodle: { Component: ConveyorBeltDoodle, metadata: ConveyorBeltDoodleMetadata },
+    CubeScanRounded: { Component: CubeScanRounded, metadata: CubeScanRoundedMetadata },
     FactoryDoodle: { Component: FactoryDoodle, metadata: FactoryDoodleMetadata },
+    Group1Rounded: { Component: Group1Rounded, metadata: Group1RoundedMetadata },
+    GroupRounded: { Component: GroupRounded, metadata: GroupRoundedMetadata },
     HandTruckDoodle: { Component: HandTruckDoodle, metadata: HandTruckDoodleMetadata },
     LocationDoodle: { Component: LocationDoodle, metadata: LocationDoodleMetadata },
     OfferDoodle: { Component: OfferDoodle, metadata: OfferDoodleMetadata },
     QrDoodle: { Component: QrDoodle, metadata: QrDoodleMetadata },
+    RotateRounded: { Component: RotateRounded, metadata: RotateRoundedMetadata },
     SaleDoodle: { Component: SaleDoodle, metadata: SaleDoodleMetadata },
+    ShopAddRounded: { Component: ShopAddRounded, metadata: ShopAddRoundedMetadata },
+    ShopRemoveRounded: { Component: ShopRemoveRounded, metadata: ShopRemoveRoundedMetadata },
     ShopDoodle: { Component: ShopDoodle, metadata: ShopDoodleMetadata },
+    ShopRounded: { Component: ShopRounded, metadata: ShopRoundedMetadata },
+    ShoppingBagRounded: { Component: ShoppingBagRounded, metadata: ShoppingBagRoundedMetadata },
     ShoppingCart2Doodle: { Component: ShoppingCart2Doodle, metadata: ShoppingCart2DoodleMetadata },
     ShoppingCart3Doodle: { Component: ShoppingCart3Doodle, metadata: ShoppingCart3DoodleMetadata },
     ShoppingCartDoodle: { Component: ShoppingCartDoodle, metadata: ShoppingCartDoodleMetadata },
+    ShoppingCartRounded: { Component: ShoppingCartRounded, metadata: ShoppingCartRoundedMetadata },
+    SquareRounded: { Component: SquareRounded, metadata: SquareRoundedMetadata },
     Tag2Doodle: { Component: Tag2Doodle, metadata: Tag2DoodleMetadata },
     TagDoodle: { Component: TagDoodle, metadata: TagDoodleMetadata },
+    TruckRemoveRounded: { Component: TruckRemoveRounded, metadata: TruckRemoveRoundedMetadata },
+    TruckTickRounded: { Component: TruckTickRounded, metadata: TruckTickRoundedMetadata },
+    TruckTimeRounded: { Component: TruckTimeRounded, metadata: TruckTimeRoundedMetadata },
     TruckDoodle: { Component: TruckDoodle, metadata: TruckDoodleMetadata },
     UnboxDoodle: { Component: UnboxDoodle, metadata: UnboxDoodleMetadata },
     WarehouseDoodle: { Component: WarehouseDoodle, metadata: WarehouseDoodleMetadata },
   },
   communiccation: {
+    CallAddRounded: { Component: CallAddRounded, metadata: CallAddRoundedMetadata },
+    CallCallingRounded: { Component: CallCallingRounded, metadata: CallCallingRoundedMetadata },
+    CallIncomingRounded: { Component: CallIncomingRounded, metadata: CallIncomingRoundedMetadata },
+    CallMinusRounded: { Component: CallMinusRounded, metadata: CallMinusRoundedMetadata },
+    CallOutgoingRounded: { Component: CallOutgoingRounded, metadata: CallOutgoingRoundedMetadata },
+    CallReceivedRounded: { Component: CallReceivedRounded, metadata: CallReceivedRoundedMetadata },
+    CallRemoveRounded: { Component: CallRemoveRounded, metadata: CallRemoveRoundedMetadata },
+    CallSlashRounded: { Component: CallSlashRounded, metadata: CallSlashRoundedMetadata },
+    CallRounded: { Component: CallRounded, metadata: CallRoundedMetadata },
     PhoneCall: { Component: PhoneCall, metadata: PhoneCallMetadata },
-    PhoneCallFilled: { Component: PhoneCallFilled, metadata: PhoneCallFilledMetadata },
-    PhoneCallingFilled: { Component: PhoneCallingFilled, metadata: PhoneCallingFilledMetadata },
-    PhoneCheckFilled: { Component: PhoneCheckFilled, metadata: PhoneCheckFilledMetadata },
     PhoneForwarded: { Component: PhoneForwarded, metadata: PhoneForwardedMetadata },
     PhoneIncoming: { Component: PhoneIncoming, metadata: PhoneIncomingMetadata },
     PhoneMissed: { Component: PhoneMissed, metadata: PhoneMissedMetadata },
     PhoneOff: { Component: PhoneOff, metadata: PhoneOffMetadata },
     PhoneOutgoing: { Component: PhoneOutgoing, metadata: PhoneOutgoingMetadata },
-    PhoneXFilled: { Component: PhoneXFilled, metadata: PhoneXFilledMetadata },
     Phone: { Component: Phone, metadata: PhoneMetadata },
-    PhoneFilled: { Component: PhoneFilled, metadata: PhoneFilledMetadata },
   },
   cursor: {
     MouseLeft: { Component: MouseLeft, metadata: MouseLeftMetadata },
@@ -7071,27 +7102,55 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
     Pointer: { Component: Pointer, metadata: PointerMetadata },
   },
   design: {
+    AdditemRounded: { Component: AdditemRounded, metadata: AdditemRoundedMetadata },
     ArchiveRestore: { Component: ArchiveRestore, metadata: ArchiveRestoreMetadata },
     ArchiveX: { Component: ArchiveX, metadata: ArchiveXMetadata },
     Archive: { Component: Archive, metadata: ArchiveMetadata },
+    BackwardItem1Rounded: { Component: BackwardItem1Rounded, metadata: BackwardItem1RoundedMetadata },
+    BackwardItemRounded: { Component: BackwardItemRounded, metadata: BackwardItemRoundedMetadata },
+    Bezier1Rounded: { Component: Bezier1Rounded, metadata: Bezier1RoundedMetadata },
+    BezierRounded: { Component: BezierRounded, metadata: BezierRoundedMetadata },
+    Blend2Rounded: { Component: Blend2Rounded, metadata: Blend2RoundedMetadata },
+    BlendRounded: { Component: BlendRounded, metadata: BlendRoundedMetadata },
+    Blur1Rounded: { Component: Blur1Rounded, metadata: Blur1RoundedMetadata },
+    BlurRounded: { Component: BlurRounded, metadata: BlurRoundedMetadata },
+    Brush1Rounded: { Component: Brush1Rounded, metadata: Brush1RoundedMetadata },
+    Brush2Rounded: { Component: Brush2Rounded, metadata: Brush2RoundedMetadata },
+    Brush3Rounded: { Component: Brush3Rounded, metadata: Brush3RoundedMetadata },
     BrushCleaning: { Component: BrushCleaning, metadata: BrushCleaningMetadata },
     Brush: { Component: Brush, metadata: BrushMetadata },
+    BrushRounded: { Component: BrushRounded, metadata: BrushRoundedMetadata },
+    BucketCircle1Rounded: { Component: BucketCircle1Rounded, metadata: BucketCircle1RoundedMetadata },
+    BucketCircleRounded: { Component: BucketCircleRounded, metadata: BucketCircleRoundedMetadata },
+    BucketSquare1Rounded: { Component: BucketSquare1Rounded, metadata: BucketSquare1RoundedMetadata },
+    BucketSquareRounded: { Component: BucketSquareRounded, metadata: BucketSquareRoundedMetadata },
     CheckCheck: { Component: CheckCheck, metadata: CheckCheckMetadata },
     CheckLine: { Component: CheckLine, metadata: CheckLineMetadata },
     Check: { Component: Check, metadata: CheckMetadata },
+    ColorSwatchRounded: { Component: ColorSwatchRounded, metadata: ColorSwatchRoundedMetadata },
+    ColorfilterRounded: { Component: ColorfilterRounded, metadata: ColorfilterRoundedMetadata },
+    ColorsSquare1Rounded: { Component: ColorsSquare1Rounded, metadata: ColorsSquare1RoundedMetadata },
+    ColorsSquareRounded: { Component: ColorsSquareRounded, metadata: ColorsSquareRoundedMetadata },
+    Component1Rounded: { Component: Component1Rounded, metadata: Component1RoundedMetadata },
+    ComponentRounded: { Component: ComponentRounded, metadata: ComponentRoundedMetadata },
     Contrast: { Component: Contrast, metadata: ContrastMetadata },
-    Crop11Filled: { Component: Crop11Filled, metadata: Crop11FilledMetadata },
-    Crop169Filled: { Component: Crop169Filled, metadata: Crop169FilledMetadata },
-    Crop32Filled: { Component: Crop32Filled, metadata: Crop32FilledMetadata },
-    Crop54Filled: { Component: Crop54Filled, metadata: Crop54FilledMetadata },
-    Crop75Filled: { Component: Crop75Filled, metadata: Crop75FilledMetadata },
-    CropLandscapeFilled: { Component: CropLandscapeFilled, metadata: CropLandscapeFilledMetadata },
-    CropPortraitFilled: { Component: CropPortraitFilled, metadata: CropPortraitFilledMetadata },
+    CopySuccessRounded: { Component: CopySuccessRounded, metadata: CopySuccessRoundedMetadata },
+    CopyRounded: { Component: CopyRounded, metadata: CopyRoundedMetadata },
     Crop: { Component: Crop, metadata: CropMetadata },
+    DesigntoolsRounded: { Component: DesigntoolsRounded, metadata: DesigntoolsRoundedMetadata },
     DraftingCompass: { Component: DraftingCompass, metadata: DraftingCompassMetadata },
+    Eraser1Rounded: { Component: Eraser1Rounded, metadata: Eraser1RoundedMetadata },
     Eraser: { Component: Eraser, metadata: EraserMetadata },
+    EraserRounded: { Component: EraserRounded, metadata: EraserRoundedMetadata },
+    FlashCircle1Rounded: { Component: FlashCircle1Rounded, metadata: FlashCircle1RoundedMetadata },
+    FlashCircleRounded: { Component: FlashCircleRounded, metadata: FlashCircleRoundedMetadata },
+    ForwardItem1Rounded: { Component: ForwardItem1Rounded, metadata: ForwardItem1RoundedMetadata },
+    ForwardItemRounded: { Component: ForwardItemRounded, metadata: ForwardItemRoundedMetadata },
     Frame: { Component: Frame, metadata: FrameMetadata },
     Fullscreen: { Component: Fullscreen, metadata: FullscreenMetadata },
+    GlassRounded: { Component: GlassRounded, metadata: GlassRoundedMetadata },
+    Group2Rounded: { Component: Group2Rounded, metadata: Group2RoundedMetadata },
+    Group3Rounded: { Component: Group3Rounded, metadata: Group3RoundedMetadata },
     ImageDown: { Component: ImageDown, metadata: ImageDownMetadata },
     ImageMinus: { Component: ImageMinus, metadata: ImageMinusMetadata },
     ImageOff: { Component: ImageOff, metadata: ImageOffMetadata },
@@ -7101,78 +7160,184 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
     ImageUpscale: { Component: ImageUpscale, metadata: ImageUpscaleMetadata },
     Image: { Component: Image, metadata: ImageMetadata },
     Images: { Component: Images, metadata: ImagesMetadata },
+    LayerRounded: { Component: LayerRounded, metadata: LayerRoundedMetadata },
+    LifebuoyRounded: { Component: LifebuoyRounded, metadata: LifebuoyRoundedMetadata },
+    MagicpenRounded: { Component: MagicpenRounded, metadata: MagicpenRoundedMetadata },
+    MainComponent1Rounded: { Component: MainComponent1Rounded, metadata: MainComponent1RoundedMetadata },
+    MainComponentRounded: { Component: MainComponentRounded, metadata: MainComponentRoundedMetadata },
+    Mask1Rounded: { Component: Mask1Rounded, metadata: Mask1RoundedMetadata },
+    Mask2Rounded: { Component: Mask2Rounded, metadata: Mask2RoundedMetadata },
+    Mask3Rounded: { Component: Mask3Rounded, metadata: Mask3RoundedMetadata },
+    MaskRounded: { Component: MaskRounded, metadata: MaskRoundedMetadata },
+    OmegaCircle1Rounded: { Component: OmegaCircle1Rounded, metadata: OmegaCircle1RoundedMetadata },
+    OmegaCircleRounded: { Component: OmegaCircleRounded, metadata: OmegaCircleRoundedMetadata },
+    OmegaSquare1Rounded: { Component: OmegaSquare1Rounded, metadata: OmegaSquare1RoundedMetadata },
+    OmegaSquareRounded: { Component: OmegaSquareRounded, metadata: OmegaSquareRoundedMetadata },
     PaintBucket: { Component: PaintBucket, metadata: PaintBucketMetadata },
     PaintRoller: { Component: PaintRoller, metadata: PaintRollerMetadata },
     PaintbrushVertical: { Component: PaintbrushVertical, metadata: PaintbrushVerticalMetadata },
     Paintbrush: { Component: Paintbrush, metadata: PaintbrushMetadata },
+    PaintbucketRounded: { Component: PaintbucketRounded, metadata: PaintbucketRoundedMetadata },
     Palette: { Component: Palette, metadata: PaletteMetadata },
     Paperclip: { Component: Paperclip, metadata: PaperclipMetadata },
+    Path2Rounded: { Component: Path2Rounded, metadata: Path2RoundedMetadata },
+    PathSquareRounded: { Component: PathSquareRounded, metadata: PathSquareRoundedMetadata },
+    PathRounded: { Component: PathRounded, metadata: PathRoundedMetadata },
+    PenAdd1Rounded: { Component: PenAdd1Rounded, metadata: PenAdd1RoundedMetadata },
+    PenAddRounded: { Component: PenAddRounded, metadata: PenAddRoundedMetadata },
+    PenClose1Rounded: { Component: PenClose1Rounded, metadata: PenClose1RoundedMetadata },
+    PenCloseRounded: { Component: PenCloseRounded, metadata: PenCloseRoundedMetadata },
     PenLine: { Component: PenLine, metadata: PenLineMetadata },
     PenOff: { Component: PenOff, metadata: PenOffMetadata },
+    PenRemove1Rounded: { Component: PenRemove1Rounded, metadata: PenRemove1RoundedMetadata },
+    PenRemoveRounded: { Component: PenRemoveRounded, metadata: PenRemoveRoundedMetadata },
+    PenTool1Rounded: { Component: PenTool1Rounded, metadata: PenTool1RoundedMetadata },
+    PenTool21Rounded: { Component: PenTool21Rounded, metadata: PenTool21RoundedMetadata },
+    PenTool2Rounded: { Component: PenTool2Rounded, metadata: PenTool2RoundedMetadata },
     PenTool: { Component: PenTool, metadata: PenToolMetadata },
+    PenToolRounded: { Component: PenToolRounded, metadata: PenToolRoundedMetadata },
     Pen: { Component: Pen, metadata: PenMetadata },
     PencilLine: { Component: PencilLine, metadata: PencilLineMetadata },
     PencilOff: { Component: PencilOff, metadata: PencilOffMetadata },
     PencilRuler: { Component: PencilRuler, metadata: PencilRulerMetadata },
     Pencil: { Component: Pencil, metadata: PencilMetadata },
     Pipette: { Component: Pipette, metadata: PipetteMetadata },
-    ZoomCancelFilled: { Component: ZoomCancelFilled, metadata: ZoomCancelFilledMetadata },
-    ZoomCheckFilled: { Component: ZoomCheckFilled, metadata: ZoomCheckFilledMetadata },
-    ZoomCodeFilled: { Component: ZoomCodeFilled, metadata: ZoomCodeFilledMetadata },
-    ZoomExclamationFilled: { Component: ZoomExclamationFilled, metadata: ZoomExclamationFilledMetadata },
-    ZoomInAreaFilled: { Component: ZoomInAreaFilled, metadata: ZoomInAreaFilledMetadata },
-    ZoomInFilled: { Component: ZoomInFilled, metadata: ZoomInFilledMetadata },
-    ZoomMoneyFilled: { Component: ZoomMoneyFilled, metadata: ZoomMoneyFilledMetadata },
-    ZoomOutAreaFilled: { Component: ZoomOutAreaFilled, metadata: ZoomOutAreaFilledMetadata },
-    ZoomOutFilled: { Component: ZoomOutFilled, metadata: ZoomOutFilledMetadata },
-    ZoomPanFilled: { Component: ZoomPanFilled, metadata: ZoomPanFilledMetadata },
-    ZoomQuestionFilled: { Component: ZoomQuestionFilled, metadata: ZoomQuestionFilledMetadata },
-    ZoomScanFilled: { Component: ZoomScanFilled, metadata: ZoomScanFilledMetadata },
-    ZoomFilled: { Component: ZoomFilled, metadata: ZoomFilledMetadata },
+    RecoveryConvertRounded: { Component: RecoveryConvertRounded, metadata: RecoveryConvertRoundedMetadata },
+    RulerPenRounded: { Component: RulerPenRounded, metadata: RulerPenRoundedMetadata },
+    RulerRounded: { Component: RulerRounded, metadata: RulerRoundedMetadata },
+    Scissor1Rounded: { Component: Scissor1Rounded, metadata: Scissor1RoundedMetadata },
+    ScissorRounded: { Component: ScissorRounded, metadata: ScissorRoundedMetadata },
+    Shapes1Rounded: { Component: Shapes1Rounded, metadata: Shapes1RoundedMetadata },
+    Shapes2Rounded: { Component: Shapes2Rounded, metadata: Shapes2RoundedMetadata },
+    ShapesRounded: { Component: ShapesRounded, metadata: ShapesRoundedMetadata },
+    SizeRounded: { Component: SizeRounded, metadata: SizeRoundedMetadata },
   },
   device: {
     AirVent: { Component: AirVent, metadata: AirVentMetadata },
+    AirdropRounded: { Component: AirdropRounded, metadata: AirdropRoundedMetadata },
     Airplay: { Component: Airplay, metadata: AirplayMetadata },
+    AirpodRounded: { Component: AirpodRounded, metadata: AirpodRoundedMetadata },
+    AirpodsRounded: { Component: AirpodsRounded, metadata: AirpodsRoundedMetadata },
     AlarmSmoke: { Component: AlarmSmoke, metadata: AlarmSmokeMetadata },
+    Bluetooth2Rounded: { Component: Bluetooth2Rounded, metadata: Bluetooth2RoundedMetadata },
+    BluetoothCircleRounded: { Component: BluetoothCircleRounded, metadata: BluetoothCircleRoundedMetadata },
+    BluetoothRectangleRounded: { Component: BluetoothRectangleRounded, metadata: BluetoothRectangleRoundedMetadata },
+    BluetoothRounded: { Component: BluetoothRounded, metadata: BluetoothRoundedMetadata },
+    CloudAddRounded: { Component: CloudAddRounded, metadata: CloudAddRoundedMetadata },
+    CloudChangeRounded: { Component: CloudChangeRounded, metadata: CloudChangeRoundedMetadata },
+    CloudConnectionRounded: { Component: CloudConnectionRounded, metadata: CloudConnectionRoundedMetadata },
+    CloudRemoveRounded: { Component: CloudRemoveRounded, metadata: CloudRemoveRoundedMetadata },
     Computer: { Component: Computer, metadata: ComputerMetadata },
-    DeviceCctvFilled: { Component: DeviceCctvFilled, metadata: DeviceCctvFilledMetadata },
-    DeviceDesktopFilled: { Component: DeviceDesktopFilled, metadata: DeviceDesktopFilledMetadata },
-    DeviceGamepad3Filled: { Component: DeviceGamepad3Filled, metadata: DeviceGamepad3FilledMetadata },
-    DeviceGamepadFilled: { Component: DeviceGamepadFilled, metadata: DeviceGamepadFilledMetadata },
-    DeviceHeartMonitorFilled: { Component: DeviceHeartMonitorFilled, metadata: DeviceHeartMonitorFilledMetadata },
-    DeviceImacFilled: { Component: DeviceImacFilled, metadata: DeviceImacFilledMetadata },
-    DeviceIpadFilled: { Component: DeviceIpadFilled, metadata: DeviceIpadFilledMetadata },
-    DeviceMobileFilled: { Component: DeviceMobileFilled, metadata: DeviceMobileFilledMetadata },
-    DeviceRemoteFilled: { Component: DeviceRemoteFilled, metadata: DeviceRemoteFilledMetadata },
-    DeviceSpeakerFilled: { Component: DeviceSpeakerFilled, metadata: DeviceSpeakerFilledMetadata },
-    DeviceTabletFilled: { Component: DeviceTabletFilled, metadata: DeviceTabletFilledMetadata },
-    DeviceTvOldFilled: { Component: DeviceTvOldFilled, metadata: DeviceTvOldFilledMetadata },
-    DeviceTvFilled: { Component: DeviceTvFilled, metadata: DeviceTvFilledMetadata },
-    DeviceUnknownFilled: { Component: DeviceUnknownFilled, metadata: DeviceUnknownFilledMetadata },
-    DeviceUsbFilled: { Component: DeviceUsbFilled, metadata: DeviceUsbFilledMetadata },
-    DeviceVisionProFilled: { Component: DeviceVisionProFilled, metadata: DeviceVisionProFilledMetadata },
-    DeviceWatchFilled: { Component: DeviceWatchFilled, metadata: DeviceWatchFilledMetadata },
+    CpuChargeRounded: { Component: CpuChargeRounded, metadata: CpuChargeRoundedMetadata },
+    CpuSettingRounded: { Component: CpuSettingRounded, metadata: CpuSettingRoundedMetadata },
+    CpuRounded: { Component: CpuRounded, metadata: CpuRoundedMetadata },
+    DevicesRounded: { Component: DevicesRounded, metadata: DevicesRoundedMetadata },
+    Driver2Rounded: { Component: Driver2Rounded, metadata: Driver2RoundedMetadata },
+    DriverRefreshRounded: { Component: DriverRefreshRounded, metadata: DriverRefreshRoundedMetadata },
+    DriverRounded: { Component: DriverRounded, metadata: DriverRoundedMetadata },
+    ElectricityRounded: { Component: ElectricityRounded, metadata: ElectricityRoundedMetadata },
+    ExternalDriveRounded: { Component: ExternalDriveRounded, metadata: ExternalDriveRoundedMetadata },
+    FolderConnectionRounded: { Component: FolderConnectionRounded, metadata: FolderConnectionRoundedMetadata },
+    GameRounded: { Component: GameRounded, metadata: GameRoundedMetadata },
+    GameboyRounded: { Component: GameboyRounded, metadata: GameboyRoundedMetadata },
     HdmiPort: { Component: HdmiPort, metadata: HdmiPortMetadata },
+    HeadphoneRounded: { Component: HeadphoneRounded, metadata: HeadphoneRoundedMetadata },
+    HeadphonesRounded: { Component: HeadphonesRounded, metadata: HeadphonesRoundedMetadata },
     KeyboardMusic: { Component: KeyboardMusic, metadata: KeyboardMusicMetadata },
     KeyboardOff: { Component: KeyboardOff, metadata: KeyboardOffMetadata },
+    KeyboardOpenRounded: { Component: KeyboardOpenRounded, metadata: KeyboardOpenRoundedMetadata },
     Keyboard: { Component: Keyboard, metadata: KeyboardMetadata },
+    KeyboardRounded: { Component: KeyboardRounded, metadata: KeyboardRoundedMetadata },
+    LampRounded: { Component: LampRounded, metadata: LampRoundedMetadata },
     LaptopMinimalCheck: { Component: LaptopMinimalCheck, metadata: LaptopMinimalCheckMetadata },
     LaptopMinimal: { Component: LaptopMinimal, metadata: LaptopMinimalMetadata },
     Laptop: { Component: Laptop, metadata: LaptopMetadata },
+    MicroscopeRounded: { Component: MicroscopeRounded, metadata: MicroscopeRoundedMetadata },
+    MirroringScreenRounded: { Component: MirroringScreenRounded, metadata: MirroringScreenRoundedMetadata },
+    MobileRounded: { Component: MobileRounded, metadata: MobileRoundedMetadata },
+    MonitorMobbileRounded: { Component: MonitorMobbileRounded, metadata: MonitorMobbileRoundedMetadata },
+    MonitorRecorderRounded: { Component: MonitorRecorderRounded, metadata: MonitorRecorderRoundedMetadata },
+    MonitorRounded: { Component: MonitorRounded, metadata: MonitorRoundedMetadata },
+    MouseRounded: { Component: MouseRounded, metadata: MouseRoundedMetadata },
+    MusicPlayRounded: { Component: MusicPlayRounded, metadata: MusicPlayRoundedMetadata },
     PcCase: { Component: PcCase, metadata: PcCaseMetadata },
     Presentation: { Component: Presentation, metadata: PresentationMetadata },
     PrinterCheck: { Component: PrinterCheck, metadata: PrinterCheckMetadata },
+    PrinterSlashRounded: { Component: PrinterSlashRounded, metadata: PrinterSlashRoundedMetadata },
     PrinterX: { Component: PrinterX, metadata: PrinterXMetadata },
     Printer: { Component: Printer, metadata: PrinterMetadata },
+    PrinterRounded: { Component: PrinterRounded, metadata: PrinterRoundedMetadata },
     Projector: { Component: Projector, metadata: ProjectorMetadata },
+    Ram2Rounded: { Component: Ram2Rounded, metadata: Ram2RoundedMetadata },
+    RamRounded: { Component: RamRounded, metadata: RamRoundedMetadata },
+    Simcard1Rounded: { Component: Simcard1Rounded, metadata: Simcard1RoundedMetadata },
+    Simcard2Rounded: { Component: Simcard2Rounded, metadata: Simcard2RoundedMetadata },
+    SimcardRounded: { Component: SimcardRounded, metadata: SimcardRoundedMetadata },
     Smartphone: { Component: Smartphone, metadata: SmartphoneMetadata },
     Speaker: { Component: Speaker, metadata: SpeakerMetadata },
+    SpeakerRounded: { Component: SpeakerRounded, metadata: SpeakerRoundedMetadata },
     TabletSmartphone: { Component: TabletSmartphone, metadata: TabletSmartphoneMetadata },
     Tablet: { Component: Tablet, metadata: TabletMetadata },
     TouchpadOff: { Component: TouchpadOff, metadata: TouchpadOffMetadata },
     Touchpad: { Component: Touchpad, metadata: TouchpadMetadata },
     WashingMachine: { Component: WashingMachine, metadata: WashingMachineMetadata },
+    WatchStatusRounded: { Component: WatchStatusRounded, metadata: WatchStatusRoundedMetadata },
     Watch: { Component: Watch, metadata: WatchMetadata },
+    WatchRounded: { Component: WatchRounded, metadata: WatchRoundedMetadata },
+    WeightRounded: { Component: WeightRounded, metadata: WeightRoundedMetadata },
+  },
+  document: {
+    ArchiveBookRounded: { Component: ArchiveBookRounded, metadata: ArchiveBookRoundedMetadata },
+    BillRounded: { Component: BillRounded, metadata: BillRoundedMetadata },
+    ClipboardCloseRounded: { Component: ClipboardCloseRounded, metadata: ClipboardCloseRoundedMetadata },
+    ClipboardExportRounded: { Component: ClipboardExportRounded, metadata: ClipboardExportRoundedMetadata },
+    ClipboardImportRounded: { Component: ClipboardImportRounded, metadata: ClipboardImportRoundedMetadata },
+    ClipboardTextRounded: { Component: ClipboardTextRounded, metadata: ClipboardTextRoundedMetadata },
+    ClipboardTickRounded: { Component: ClipboardTickRounded, metadata: ClipboardTickRoundedMetadata },
+    CopyrightRounded: { Component: CopyrightRounded, metadata: CopyrightRoundedMetadata },
+    CreativeCommonsRounded: { Component: CreativeCommonsRounded, metadata: CreativeCommonsRoundedMetadata },
+    DocumentCloudRounded: { Component: DocumentCloudRounded, metadata: DocumentCloudRoundedMetadata },
+    DocumentCopyRounded: { Component: DocumentCopyRounded, metadata: DocumentCopyRoundedMetadata },
+    DocumentDownloadRounded: { Component: DocumentDownloadRounded, metadata: DocumentDownloadRoundedMetadata },
+    DocumentFavoriteRounded: { Component: DocumentFavoriteRounded, metadata: DocumentFavoriteRoundedMetadata },
+    DocumentFilterRounded: { Component: DocumentFilterRounded, metadata: DocumentFilterRoundedMetadata },
+    DocumentForwardRounded: { Component: DocumentForwardRounded, metadata: DocumentForwardRoundedMetadata },
+    DocumentLikeRounded: { Component: DocumentLikeRounded, metadata: DocumentLikeRoundedMetadata },
+    DocumentNormalRounded: { Component: DocumentNormalRounded, metadata: DocumentNormalRoundedMetadata },
+    DocumentPreviousRounded: { Component: DocumentPreviousRounded, metadata: DocumentPreviousRoundedMetadata },
+    DocumentSketchRounded: { Component: DocumentSketchRounded, metadata: DocumentSketchRoundedMetadata },
+    DocumentText1Rounded: { Component: DocumentText1Rounded, metadata: DocumentText1RoundedMetadata },
+    DocumentTextRounded: { Component: DocumentTextRounded, metadata: DocumentTextRoundedMetadata },
+    DocumentUploadRounded: { Component: DocumentUploadRounded, metadata: DocumentUploadRoundedMetadata },
+    DocumentRounded: { Component: DocumentRounded, metadata: DocumentRoundedMetadata },
+    Edit2Rounded: { Component: Edit2Rounded, metadata: Edit2RoundedMetadata },
+    EditRounded: { Component: EditRounded, metadata: EditRoundedMetadata },
+    MenuBoardRounded: { Component: MenuBoardRounded, metadata: MenuBoardRoundedMetadata },
+    Note1Rounded: { Component: Note1Rounded, metadata: Note1RoundedMetadata },
+    NoteAddRounded: { Component: NoteAddRounded, metadata: NoteAddRoundedMetadata },
+    NoteFavoriteRounded: { Component: NoteFavoriteRounded, metadata: NoteFavoriteRoundedMetadata },
+    NoteRemoveRounded: { Component: NoteRemoveRounded, metadata: NoteRemoveRoundedMetadata },
+    NoteTextRounded: { Component: NoteTextRounded, metadata: NoteTextRoundedMetadata },
+    NoteRounded: { Component: NoteRounded, metadata: NoteRoundedMetadata },
+    StickynoteRounded: { Component: StickynoteRounded, metadata: StickynoteRoundedMetadata },
+    TaskSquareRounded: { Component: TaskSquareRounded, metadata: TaskSquareRoundedMetadata },
+    TaskRounded: { Component: TaskRounded, metadata: TaskRoundedMetadata },
+  },
+  education: {
+    AwardRounded: { Component: AwardRounded, metadata: AwardRoundedMetadata },
+    Book1Rounded: { Component: Book1Rounded, metadata: Book1RoundedMetadata },
+    BookRounded: { Component: BookRounded, metadata: BookRoundedMetadata },
+    Bookmark2Rounded: { Component: Bookmark2Rounded, metadata: Bookmark2RoundedMetadata },
+    BookmarkRounded: { Component: BookmarkRounded, metadata: BookmarkRoundedMetadata },
+    BriefcaseRounded: { Component: BriefcaseRounded, metadata: BriefcaseRoundedMetadata },
+    BrifecaseCrossRounded: { Component: BrifecaseCrossRounded, metadata: BrifecaseCrossRoundedMetadata },
+    BrifecaseTickRounded: { Component: BrifecaseTickRounded, metadata: BrifecaseTickRoundedMetadata },
+    BrifecaseTimerRounded: { Component: BrifecaseTimerRounded, metadata: BrifecaseTimerRoundedMetadata },
+    CalculatorRounded: { Component: CalculatorRounded, metadata: CalculatorRoundedMetadata },
+    ClipboardRounded: { Component: ClipboardRounded, metadata: ClipboardRoundedMetadata },
+    GiftRounded: { Component: GiftRounded, metadata: GiftRoundedMetadata },
+    Note2Rounded: { Component: Note2Rounded, metadata: Note2RoundedMetadata },
+    TeacherRounded: { Component: TeacherRounded, metadata: TeacherRoundedMetadata },
   },
   emoji: {
     Angry: { Component: Angry, metadata: AngryMetadata },
@@ -7185,16 +7350,6 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
     HeartEyesEmojiDoodle: { Component: HeartEyesEmojiDoodle, metadata: HeartEyesEmojiDoodleMetadata },
     LaughEmojiDoodle: { Component: LaughEmojiDoodle, metadata: LaughEmojiDoodleMetadata },
     Laugh: { Component: Laugh, metadata: LaughMetadata },
-    MoodAngryFilled: { Component: MoodAngryFilled, metadata: MoodAngryFilledMetadata },
-    MoodConfuzedFilled: { Component: MoodConfuzedFilled, metadata: MoodConfuzedFilledMetadata },
-    MoodCrazyHappyFilled: { Component: MoodCrazyHappyFilled, metadata: MoodCrazyHappyFilledMetadata },
-    MoodEmptyFilled: { Component: MoodEmptyFilled, metadata: MoodEmptyFilledMetadata },
-    MoodHappyFilled: { Component: MoodHappyFilled, metadata: MoodHappyFilledMetadata },
-    MoodKidFilled: { Component: MoodKidFilled, metadata: MoodKidFilledMetadata },
-    MoodNeutralFilled: { Component: MoodNeutralFilled, metadata: MoodNeutralFilledMetadata },
-    MoodSadFilled: { Component: MoodSadFilled, metadata: MoodSadFilledMetadata },
-    MoodSmileFilled: { Component: MoodSmileFilled, metadata: MoodSmileFilledMetadata },
-    MoodWrrrFilled: { Component: MoodWrrrFilled, metadata: MoodWrrrFilledMetadata },
     SadEmojiDoodle: { Component: SadEmojiDoodle, metadata: SadEmojiDoodleMetadata },
     ShockedEmojiDoodle: { Component: ShockedEmojiDoodle, metadata: ShockedEmojiDoodleMetadata },
     SmilePlus: { Component: SmilePlus, metadata: SmilePlusMetadata },
@@ -7206,7 +7361,6 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
     WorriedEmojiDoodle: { Component: WorriedEmojiDoodle, metadata: WorriedEmojiDoodleMetadata },
   },
   file: {
-    FileAnalyticsFilled: { Component: FileAnalyticsFilled, metadata: FileAnalyticsFilledMetadata },
     FileArchive: { Component: FileArchive, metadata: FileArchiveMetadata },
     FileAttachmentDoodle: { Component: FileAttachmentDoodle, metadata: FileAttachmentDoodleMetadata },
     FileAudioDoodle: { Component: FileAudioDoodle, metadata: FileAudioDoodleMetadata },
@@ -7221,595 +7375,75 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
     FileChartPie: { Component: FileChartPie, metadata: FileChartPieMetadata },
     FileCheckCorner: { Component: FileCheckCorner, metadata: FileCheckCornerMetadata },
     FileCheck: { Component: FileCheck, metadata: FileCheckMetadata },
-    FileCheckFilled: { Component: FileCheckFilled, metadata: FileCheckFilledMetadata },
     FileClock: { Component: FileClock, metadata: FileClockMetadata },
-    FileCode2Filled: { Component: FileCode2Filled, metadata: FileCode2FilledMetadata },
     FileCodeCorner: { Component: FileCodeCorner, metadata: FileCodeCornerMetadata },
     FileCode: { Component: FileCode, metadata: FileCodeMetadata },
     FileCodeDoodle: { Component: FileCodeDoodle, metadata: FileCodeDoodleMetadata },
-    FileCodeFilled: { Component: FileCodeFilled, metadata: FileCodeFilledMetadata },
     FileCog: { Component: FileCog, metadata: FileCogMetadata },
     FileContractDoodle: { Component: FileContractDoodle, metadata: FileContractDoodleMetadata },
     FileCsvDoodle: { Component: FileCsvDoodle, metadata: FileCsvDoodleMetadata },
-    FileCvFilled: { Component: FileCvFilled, metadata: FileCvFilledMetadata },
-    FileDeltaFilled: { Component: FileDeltaFilled, metadata: FileDeltaFilledMetadata },
-    FileDescriptionFilled: { Component: FileDescriptionFilled, metadata: FileDescriptionFilledMetadata },
     FileDiff: { Component: FileDiff, metadata: FileDiffMetadata },
-    FileDiffFilled: { Component: FileDiffFilled, metadata: FileDiffFilledMetadata },
     FileDigit: { Component: FileDigit, metadata: FileDigitMetadata },
-    FileDigitFilled: { Component: FileDigitFilled, metadata: FileDigitFilledMetadata },
-    FileDollarFilled: { Component: FileDollarFilled, metadata: FileDollarFilledMetadata },
-    FileDotsFilled: { Component: FileDotsFilled, metadata: FileDotsFilledMetadata },
     FileDown: { Component: FileDown, metadata: FileDownMetadata },
-    FileDownloadFilled: { Component: FileDownloadFilled, metadata: FileDownloadFilledMetadata },
-    FileEuroFilled: { Component: FileEuroFilled, metadata: FileEuroFilledMetadata },
     FileExclamationPoint: { Component: FileExclamationPoint, metadata: FileExclamationPointMetadata },
     FileFigmaDoodle: { Component: FileFigmaDoodle, metadata: FileFigmaDoodleMetadata },
     FileFormDoodle: { Component: FileFormDoodle, metadata: FileFormDoodleMetadata },
-    FileFunctionFilled: { Component: FileFunctionFilled, metadata: FileFunctionFilledMetadata },
     FileHeadphone: { Component: FileHeadphone, metadata: FileHeadphoneMetadata },
     FileHeart: { Component: FileHeart, metadata: FileHeartMetadata },
-    FileHorizontalFilled: { Component: FileHorizontalFilled, metadata: FileHorizontalFilledMetadata },
     FileImage2Doodle: { Component: FileImage2Doodle, metadata: FileImage2DoodleMetadata },
     FileImage: { Component: FileImage, metadata: FileImageMetadata },
     FileImageDoodle: { Component: FileImageDoodle, metadata: FileImageDoodleMetadata },
-    FileInfoFilled: { Component: FileInfoFilled, metadata: FileInfoFilledMetadata },
     FileInput: { Component: FileInput, metadata: FileInputMetadata },
     FileInvoiceDoodle: { Component: FileInvoiceDoodle, metadata: FileInvoiceDoodleMetadata },
-    FileInvoiceFilled: { Component: FileInvoiceFilled, metadata: FileInvoiceFilledMetadata },
     FileJpgDoodle: { Component: FileJpgDoodle, metadata: FileJpgDoodleMetadata },
     FileKey: { Component: FileKey, metadata: FileKeyMetadata },
-    FileLambdaFilled: { Component: FileLambdaFilled, metadata: FileLambdaFilledMetadata },
     FileListDoodle: { Component: FileListDoodle, metadata: FileListDoodleMetadata },
     FileLock: { Component: FileLock, metadata: FileLockMetadata },
     FileMinusCorner: { Component: FileMinusCorner, metadata: FileMinusCornerMetadata },
     FileMinus: { Component: FileMinus, metadata: FileMinusMetadata },
-    FileMinusFilled: { Component: FileMinusFilled, metadata: FileMinusFilledMetadata },
     FileMovDoodle: { Component: FileMovDoodle, metadata: FileMovDoodleMetadata },
     FileMp4Doodle: { Component: FileMp4Doodle, metadata: FileMp4DoodleMetadata },
     FileMusic: { Component: FileMusic, metadata: FileMusicMetadata },
-    FileMusicFilled: { Component: FileMusicFilled, metadata: FileMusicFilledMetadata },
-    FileNeutralFilled: { Component: FileNeutralFilled, metadata: FileNeutralFilledMetadata },
     FileNotesDoodle: { Component: FileNotesDoodle, metadata: FileNotesDoodleMetadata },
     FileOutput: { Component: FileOutput, metadata: FileOutputMetadata },
     FilePdfDoodle: { Component: FilePdfDoodle, metadata: FilePdfDoodleMetadata },
     FilePenLine: { Component: FilePenLine, metadata: FilePenLineMetadata },
     FilePen: { Component: FilePen, metadata: FilePenMetadata },
-    FilePencilFilled: { Component: FilePencilFilled, metadata: FilePencilFilledMetadata },
-    FilePercentFilled: { Component: FilePercentFilled, metadata: FilePercentFilledMetadata },
-    FilePhoneFilled: { Component: FilePhoneFilled, metadata: FilePhoneFilledMetadata },
     FilePlay: { Component: FilePlay, metadata: FilePlayMetadata },
     FilePlusCorner: { Component: FilePlusCorner, metadata: FilePlusCornerMetadata },
     FilePlus: { Component: FilePlus, metadata: FilePlusMetadata },
     FilePngDoodle: { Component: FilePngDoodle, metadata: FilePngDoodleMetadata },
-    FilePowerFilled: { Component: FilePowerFilled, metadata: FilePowerFilledMetadata },
     FileQuestionMark: { Component: FileQuestionMark, metadata: FileQuestionMarkMetadata },
-    FileRssFilled: { Component: FileRssFilled, metadata: FileRssFilledMetadata },
-    FileSadFilled: { Component: FileSadFilled, metadata: FileSadFilledMetadata },
     FileScan: { Component: FileScan, metadata: FileScanMetadata },
-    FileScissorsFilled: { Component: FileScissorsFilled, metadata: FileScissorsFilledMetadata },
     FileSearchCorner: { Component: FileSearchCorner, metadata: FileSearchCornerMetadata },
     FileSearch: { Component: FileSearch, metadata: FileSearchMetadata },
-    FileSettingsFilled: { Component: FileSettingsFilled, metadata: FileSettingsFilledMetadata },
     FileSignal: { Component: FileSignal, metadata: FileSignalMetadata },
-    FileSignalFilled: { Component: FileSignalFilled, metadata: FileSignalFilledMetadata },
     FileSliders: { Component: FileSliders, metadata: FileSlidersMetadata },
-    FileSmileFilled: { Component: FileSmileFilled, metadata: FileSmileFilledMetadata },
     FileSpreadsheet: { Component: FileSpreadsheet, metadata: FileSpreadsheetMetadata },
     FileSpreadsheetDoodle: { Component: FileSpreadsheetDoodle, metadata: FileSpreadsheetDoodleMetadata },
     FileStack: { Component: FileStack, metadata: FileStackMetadata },
-    FileStarFilled: { Component: FileStarFilled, metadata: FileStarFilledMetadata },
     FileSvgDoodle: { Component: FileSvgDoodle, metadata: FileSvgDoodleMetadata },
     FileSymlink: { Component: FileSymlink, metadata: FileSymlinkMetadata },
     FileTerminal: { Component: FileTerminal, metadata: FileTerminalMetadata },
     FileText: { Component: FileText, metadata: FileTextMetadata },
     FileTextDoodle: { Component: FileTextDoodle, metadata: FileTextDoodleMetadata },
-    FileTextFilled: { Component: FileTextFilled, metadata: FileTextFilledMetadata },
-    FileTimeFilled: { Component: FileTimeFilled, metadata: FileTimeFilledMetadata },
     FileTypeCorner: { Component: FileTypeCorner, metadata: FileTypeCornerMetadata },
     FileType: { Component: FileType, metadata: FileTypeMetadata },
-    FileTypographyFilled: { Component: FileTypographyFilled, metadata: FileTypographyFilledMetadata },
-    FileUnknownFilled: { Component: FileUnknownFilled, metadata: FileUnknownFilledMetadata },
     FileUp: { Component: FileUp, metadata: FileUpMetadata },
-    FileUploadFilled: { Component: FileUploadFilled, metadata: FileUploadFilledMetadata },
     FileUser: { Component: FileUser, metadata: FileUserMetadata },
     FileVectorDoodle: { Component: FileVectorDoodle, metadata: FileVectorDoodleMetadata },
-    FileVectorFilled: { Component: FileVectorFilled, metadata: FileVectorFilledMetadata },
     FileVideoCamera: { Component: FileVideoCamera, metadata: FileVideoCameraMetadata },
     FileVolume: { Component: FileVolume, metadata: FileVolumeMetadata },
     FileXCorner: { Component: FileXCorner, metadata: FileXCornerMetadata },
     FileX: { Component: FileX, metadata: FileXMetadata },
-    FileXFilled: { Component: FileXFilled, metadata: FileXFilledMetadata },
     FileZipDoodle: { Component: FileZipDoodle, metadata: FileZipDoodleMetadata },
     File: { Component: File, metadata: FileMetadata },
     FileDoodle: { Component: FileDoodle, metadata: FileDoodleMetadata },
-    FileFilled: { Component: FileFilled, metadata: FileFilledMetadata },
     Files: { Component: Files, metadata: FilesMetadata },
-    FilesFilled: { Component: FilesFilled, metadata: FilesFilledMetadata },
     PngDoodle: { Component: PngDoodle, metadata: PngDoodleMetadata },
   },
-  filled: {
-    AccessibleFilled: { Component: AccessibleFilled, metadata: AccessibleFilledMetadata },
-    AdCircleFilled: { Component: AdCircleFilled, metadata: AdCircleFilledMetadata },
-    AdFilled: { Component: AdFilled, metadata: AdFilledMetadata },
-    AdjustmentsFilled: { Component: AdjustmentsFilled, metadata: AdjustmentsFilledMetadata },
-    AerialLiftFilled: { Component: AerialLiftFilled, metadata: AerialLiftFilledMetadata },
-    AffiliateFilled: { Component: AffiliateFilled, metadata: AffiliateFilledMetadata },
-    AirBalloonFilled: { Component: AirBalloonFilled, metadata: AirBalloonFilledMetadata },
-    AlertCircleFilled: { Component: AlertCircleFilled, metadata: AlertCircleFilledMetadata },
-    AlertHexagonFilled: { Component: AlertHexagonFilled, metadata: AlertHexagonFilledMetadata },
-    AlertOctagonFilled: { Component: AlertOctagonFilled, metadata: AlertOctagonFilledMetadata },
-    AlertSquareRoundedFilled: { Component: AlertSquareRoundedFilled, metadata: AlertSquareRoundedFilledMetadata },
-    AlertSquareFilled: { Component: AlertSquareFilled, metadata: AlertSquareFilledMetadata },
-    AlertTriangleFilled: { Component: AlertTriangleFilled, metadata: AlertTriangleFilledMetadata },
-    AlienFilled: { Component: AlienFilled, metadata: AlienFilledMetadata },
-    AnalyzeFilled: { Component: AnalyzeFilled, metadata: AnalyzeFilledMetadata },
-    AppWindowFilled: { Component: AppWindowFilled, metadata: AppWindowFilledMetadata },
-    AppleFilled: { Component: AppleFilled, metadata: AppleFilledMetadata },
-    AppsFilled: { Component: AppsFilled, metadata: AppsFilledMetadata },
-    ArchiveFilled: { Component: ArchiveFilled, metadata: ArchiveFilledMetadata },
-    ArtboardFilled: { Component: ArtboardFilled, metadata: ArtboardFilledMetadata },
-    ArticleFilled: { Component: ArticleFilled, metadata: ArticleFilledMetadata },
-    AspectRatioFilled: { Component: AspectRatioFilled, metadata: AspectRatioFilledMetadata },
-    AssemblyFilled: { Component: AssemblyFilled, metadata: AssemblyFilledMetadata },
-    AssetFilled: { Component: AssetFilled, metadata: AssetFilledMetadata },
-    Atom2Filled: { Component: Atom2Filled, metadata: Atom2FilledMetadata },
-    AutomaticGearboxFilled: { Component: AutomaticGearboxFilled, metadata: AutomaticGearboxFilledMetadata },
-    AwardFilled: { Component: AwardFilled, metadata: AwardFilledMetadata },
-    BabyCarriageFilled: { Component: BabyCarriageFilled, metadata: BabyCarriageFilledMetadata },
-    BackspaceFilled: { Component: BackspaceFilled, metadata: BackspaceFilledMetadata },
-    BallBowlingFilled: { Component: BallBowlingFilled, metadata: BallBowlingFilledMetadata },
-    BalloonFilled: { Component: BalloonFilled, metadata: BalloonFilledMetadata },
-    BallpenFilled: { Component: BallpenFilled, metadata: BallpenFilledMetadata },
-    BandageFilled: { Component: BandageFilled, metadata: BandageFilledMetadata },
-    BarbellFilled: { Component: BarbellFilled, metadata: BarbellFilledMetadata },
-    BarrierBlockFilled: { Component: BarrierBlockFilled, metadata: BarrierBlockFilledMetadata },
-    BasketFilled: { Component: BasketFilled, metadata: BasketFilledMetadata },
-    BathFilled: { Component: BathFilled, metadata: BathFilledMetadata },
-    BedFlatFilled: { Component: BedFlatFilled, metadata: BedFlatFilledMetadata },
-    BedFilled: { Component: BedFilled, metadata: BedFilledMetadata },
-    BeerFilled: { Component: BeerFilled, metadata: BeerFilledMetadata },
-    BikeFilled: { Component: BikeFilled, metadata: BikeFilledMetadata },
-    BinaryTree2Filled: { Component: BinaryTree2Filled, metadata: BinaryTree2FilledMetadata },
-    BinaryTreeFilled: { Component: BinaryTreeFilled, metadata: BinaryTreeFilledMetadata },
-    BinocularsFilled: { Component: BinocularsFilled, metadata: BinocularsFilledMetadata },
-    BiohazardFilled: { Component: BiohazardFilled, metadata: BiohazardFilledMetadata },
-    BladeFilled: { Component: BladeFilled, metadata: BladeFilledMetadata },
-    BlenderFilled: { Component: BlenderFilled, metadata: BlenderFilledMetadata },
-    BlobFilled: { Component: BlobFilled, metadata: BlobFilledMetadata },
-    BoltFilled: { Component: BoltFilled, metadata: BoltFilledMetadata },
-    BombFilled: { Component: BombFilled, metadata: BombFilledMetadata },
-    BoneFilled: { Component: BoneFilled, metadata: BoneFilledMetadata },
-    BongFilled: { Component: BongFilled, metadata: BongFilledMetadata },
-    BookFilled: { Component: BookFilled, metadata: BookFilledMetadata },
-    BookmarkFilled: { Component: BookmarkFilled, metadata: BookmarkFilledMetadata },
-    BookmarksFilled: { Component: BookmarksFilled, metadata: BookmarksFilledMetadata },
-    BoomFilled: { Component: BoomFilled, metadata: BoomFilledMetadata },
-    BottleFilled: { Component: BottleFilled, metadata: BottleFilledMetadata },
-    BounceLeftFilled: { Component: BounceLeftFilled, metadata: BounceLeftFilledMetadata },
-    BounceRightFilled: { Component: BounceRightFilled, metadata: BounceRightFilledMetadata },
-    BowFilled: { Component: BowFilled, metadata: BowFilledMetadata },
-    BowlChopsticksFilled: { Component: BowlChopsticksFilled, metadata: BowlChopsticksFilledMetadata },
-    BowlSpoonFilled: { Component: BowlSpoonFilled, metadata: BowlSpoonFilledMetadata },
-    BowlFilled: { Component: BowlFilled, metadata: BowlFilledMetadata },
-    BoxAlignBottomLeftFilled: { Component: BoxAlignBottomLeftFilled, metadata: BoxAlignBottomLeftFilledMetadata },
-    BoxAlignBottomRightFilled: { Component: BoxAlignBottomRightFilled, metadata: BoxAlignBottomRightFilledMetadata },
-    BoxAlignBottomFilled: { Component: BoxAlignBottomFilled, metadata: BoxAlignBottomFilledMetadata },
-    BoxAlignLeftFilled: { Component: BoxAlignLeftFilled, metadata: BoxAlignLeftFilledMetadata },
-    BoxAlignRightFilled: { Component: BoxAlignRightFilled, metadata: BoxAlignRightFilledMetadata },
-    BoxAlignTopLeftFilled: { Component: BoxAlignTopLeftFilled, metadata: BoxAlignTopLeftFilledMetadata },
-    BoxAlignTopRightFilled: { Component: BoxAlignTopRightFilled, metadata: BoxAlignTopRightFilledMetadata },
-    BoxAlignTopFilled: { Component: BoxAlignTopFilled, metadata: BoxAlignTopFilledMetadata },
-    BoxMultipleFilled: { Component: BoxMultipleFilled, metadata: BoxMultipleFilledMetadata },
-    BreadFilled: { Component: BreadFilled, metadata: BreadFilledMetadata },
-    Briefcase2Filled: { Component: Briefcase2Filled, metadata: Briefcase2FilledMetadata },
-    BriefcaseFilled: { Component: BriefcaseFilled, metadata: BriefcaseFilledMetadata },
-    BrightnessAutoFilled: { Component: BrightnessAutoFilled, metadata: BrightnessAutoFilledMetadata },
-    BrightnessDownFilled: { Component: BrightnessDownFilled, metadata: BrightnessDownFilledMetadata },
-    BrightnessUpFilled: { Component: BrightnessUpFilled, metadata: BrightnessUpFilledMetadata },
-    BrightnessFilled: { Component: BrightnessFilled, metadata: BrightnessFilledMetadata },
-    BubbleTextFilled: { Component: BubbleTextFilled, metadata: BubbleTextFilledMetadata },
-    BubbleFilled: { Component: BubbleFilled, metadata: BubbleFilledMetadata },
-    BugFilled: { Component: BugFilled, metadata: BugFilledMetadata },
-    BuildingBridge2Filled: { Component: BuildingBridge2Filled, metadata: BuildingBridge2FilledMetadata },
-    BuildingBroadcastTowerFilled: { Component: BuildingBroadcastTowerFilled, metadata: BuildingBroadcastTowerFilledMetadata },
-    BulbFilled: { Component: BulbFilled, metadata: BulbFilledMetadata },
-    BusFilled: { Component: BusFilled, metadata: BusFilledMetadata },
-    ButterflyFilled: { Component: ButterflyFilled, metadata: ButterflyFilledMetadata },
-    CactusFilled: { Component: CactusFilled, metadata: CactusFilledMetadata },
-    CameraFilled: { Component: CameraFilled, metadata: CameraFilledMetadata },
-    CampfireFilled: { Component: CampfireFilled, metadata: CampfireFilledMetadata },
-    CandleFilled: { Component: CandleFilled, metadata: CandleFilledMetadata },
-    CannabisFilled: { Component: CannabisFilled, metadata: CannabisFilledMetadata },
-    CapsuleHorizontalFilled: { Component: CapsuleHorizontalFilled, metadata: CapsuleHorizontalFilledMetadata },
-    CapsuleFilled: { Component: CapsuleFilled, metadata: CapsuleFilledMetadata },
-    CaptureFilled: { Component: CaptureFilled, metadata: CaptureFilledMetadata },
-    Car4wdFilled: { Component: Car4wdFilled, metadata: Car4wdFilledMetadata },
-    CarCraneFilled: { Component: CarCraneFilled, metadata: CarCraneFilledMetadata },
-    CarFanFilled: { Component: CarFanFilled, metadata: CarFanFilledMetadata },
-    CarSuvFilled: { Component: CarSuvFilled, metadata: CarSuvFilledMetadata },
-    CarFilled: { Component: CarFilled, metadata: CarFilledMetadata },
-    CarambolaFilled: { Component: CarambolaFilled, metadata: CarambolaFilledMetadata },
-    CaravanFilled: { Component: CaravanFilled, metadata: CaravanFilledMetadata },
-    CardboardsFilled: { Component: CardboardsFilled, metadata: CardboardsFilledMetadata },
-    CardsFilled: { Component: CardsFilled, metadata: CardsFilledMetadata },
-    CaretDownFilled: { Component: CaretDownFilled, metadata: CaretDownFilledMetadata },
-    CaretLeftRightFilled: { Component: CaretLeftRightFilled, metadata: CaretLeftRightFilledMetadata },
-    CaretLeftFilled: { Component: CaretLeftFilled, metadata: CaretLeftFilledMetadata },
-    CaretRightFilled: { Component: CaretRightFilled, metadata: CaretRightFilledMetadata },
-    CaretUpDownFilled: { Component: CaretUpDownFilled, metadata: CaretUpDownFilledMetadata },
-    CaretUpFilled: { Component: CaretUpFilled, metadata: CaretUpFilledMetadata },
-    CarouselHorizontalFilled: { Component: CarouselHorizontalFilled, metadata: CarouselHorizontalFilledMetadata },
-    CarouselVerticalFilled: { Component: CarouselVerticalFilled, metadata: CarouselVerticalFilledMetadata },
-    CashBanknoteFilled: { Component: CashBanknoteFilled, metadata: CashBanknoteFilledMetadata },
-    CategoryFilled: { Component: CategoryFilled, metadata: CategoryFilledMetadata },
-    ChargingPileFilled: { Component: ChargingPileFilled, metadata: ChargingPileFilledMetadata },
-    ChefHatFilled: { Component: ChefHatFilled, metadata: ChefHatFilledMetadata },
-    CherryFilled: { Component: CherryFilled, metadata: CherryFilledMetadata },
-    ChessBishopFilled: { Component: ChessBishopFilled, metadata: ChessBishopFilledMetadata },
-    ChessKingFilled: { Component: ChessKingFilled, metadata: ChessKingFilledMetadata },
-    ChessKnightFilled: { Component: ChessKnightFilled, metadata: ChessKnightFilledMetadata },
-    ChessQueenFilled: { Component: ChessQueenFilled, metadata: ChessQueenFilledMetadata },
-    ChessRookFilled: { Component: ChessRookFilled, metadata: ChessRookFilledMetadata },
-    ChessFilled: { Component: ChessFilled, metadata: ChessFilledMetadata },
-    ChristmasTreeFilled: { Component: ChristmasTreeFilled, metadata: ChristmasTreeFilledMetadata },
-    CloudComputingFilled: { Component: CloudComputingFilled, metadata: CloudComputingFilledMetadata },
-    CloudDataConnectionFilled: { Component: CloudDataConnectionFilled, metadata: CloudDataConnectionFilledMetadata },
-    CloudFilled: { Component: CloudFilled, metadata: CloudFilledMetadata },
-    CloverFilled: { Component: CloverFilled, metadata: CloverFilledMetadata },
-    ClubsFilled: { Component: ClubsFilled, metadata: ClubsFilledMetadata },
-    CodeCircle2Filled: { Component: CodeCircle2Filled, metadata: CodeCircle2FilledMetadata },
-    CodeCircleFilled: { Component: CodeCircleFilled, metadata: CodeCircleFilledMetadata },
-    CompassFilled: { Component: CompassFilled, metadata: CompassFilledMetadata },
-    Cone2Filled: { Component: Cone2Filled, metadata: Cone2FilledMetadata },
-    ConeFilled: { Component: ConeFilled, metadata: ConeFilledMetadata },
-    ConfettiFilled: { Component: ConfettiFilled, metadata: ConfettiFilledMetadata },
-    ContainerFilled: { Component: ContainerFilled, metadata: ContainerFilledMetadata },
-    Contrast2Filled: { Component: Contrast2Filled, metadata: Contrast2FilledMetadata },
-    ContrastFilled: { Component: ContrastFilled, metadata: ContrastFilledMetadata },
-    CookieManFilled: { Component: CookieManFilled, metadata: CookieManFilledMetadata },
-    CookieFilled: { Component: CookieFilled, metadata: CookieFilledMetadata },
-    CopyCheckFilled: { Component: CopyCheckFilled, metadata: CopyCheckFilledMetadata },
-    CopyMinusFilled: { Component: CopyMinusFilled, metadata: CopyMinusFilledMetadata },
-    CopyPlusFilled: { Component: CopyPlusFilled, metadata: CopyPlusFilledMetadata },
-    CopyXFilled: { Component: CopyXFilled, metadata: CopyXFilledMetadata },
-    CopyleftFilled: { Component: CopyleftFilled, metadata: CopyleftFilledMetadata },
-    CopyrightFilled: { Component: CopyrightFilled, metadata: CopyrightFilledMetadata },
-    CreditCardFilled: { Component: CreditCardFilled, metadata: CreditCardFilledMetadata },
-    CrossFilled: { Component: CrossFilled, metadata: CrossFilledMetadata },
-    CrownFilled: { Component: CrownFilled, metadata: CrownFilledMetadata },
-    CurrentLocationFilled: { Component: CurrentLocationFilled, metadata: CurrentLocationFilledMetadata },
-    DashboardFilled: { Component: DashboardFilled, metadata: DashboardFilledMetadata },
-    DialpadFilled: { Component: DialpadFilled, metadata: DialpadFilledMetadata },
-    DiamondFilled: { Component: DiamondFilled, metadata: DiamondFilledMetadata },
-    DiamondsFilled: { Component: DiamondsFilled, metadata: DiamondsFilledMetadata },
-    Dice1Filled: { Component: Dice1Filled, metadata: Dice1FilledMetadata },
-    Dice2Filled: { Component: Dice2Filled, metadata: Dice2FilledMetadata },
-    Dice3Filled: { Component: Dice3Filled, metadata: Dice3FilledMetadata },
-    Dice4Filled: { Component: Dice4Filled, metadata: Dice4FilledMetadata },
-    Dice5Filled: { Component: Dice5Filled, metadata: Dice5FilledMetadata },
-    Dice6Filled: { Component: Dice6Filled, metadata: Dice6FilledMetadata },
-    DiceFilled: { Component: DiceFilled, metadata: DiceFilledMetadata },
-    DirectionArrowsFilled: { Component: DirectionArrowsFilled, metadata: DirectionArrowsFilledMetadata },
-    DirectionSignFilled: { Component: DirectionSignFilled, metadata: DirectionSignFilledMetadata },
-    DirectionsFilled: { Component: DirectionsFilled, metadata: DirectionsFilledMetadata },
-    DiscFilled: { Component: DiscFilled, metadata: DiscFilledMetadata },
-    DiscountFilled: { Component: DiscountFilled, metadata: DiscountFilledMetadata },
-    DropCircleFilled: { Component: DropCircleFilled, metadata: DropCircleFilledMetadata },
-    DropletHalf2Filled: { Component: DropletHalf2Filled, metadata: DropletHalf2FilledMetadata },
-    DropletHalfFilled: { Component: DropletHalfFilled, metadata: DropletHalfFilledMetadata },
-    DropletFilled: { Component: DropletFilled, metadata: DropletFilledMetadata },
-    DropletsFilled: { Component: DropletsFilled, metadata: DropletsFilledMetadata },
-    DualScreenFilled: { Component: DualScreenFilled, metadata: DualScreenFilledMetadata },
-    DumplingFilled: { Component: DumplingFilled, metadata: DumplingFilledMetadata },
-    EaseInControlPointFilled: { Component: EaseInControlPointFilled, metadata: EaseInControlPointFilledMetadata },
-    EaseInOutControlPointsFilled: { Component: EaseInOutControlPointsFilled, metadata: EaseInOutControlPointsFilledMetadata },
-    EaseOutControlPointFilled: { Component: EaseOutControlPointFilled, metadata: EaseOutControlPointFilledMetadata },
-    EggCrackedFilled: { Component: EggCrackedFilled, metadata: EggCrackedFilledMetadata },
-    EggFriedFilled: { Component: EggFriedFilled, metadata: EggFriedFilledMetadata },
-    EggFilled: { Component: EggFilled, metadata: EggFilledMetadata },
-    ElevatorFilled: { Component: ElevatorFilled, metadata: ElevatorFilledMetadata },
-    EngineFilled: { Component: EngineFilled, metadata: EngineFilledMetadata },
-    EscalatorDownFilled: { Component: EscalatorDownFilled, metadata: EscalatorDownFilledMetadata },
-    EscalatorUpFilled: { Component: EscalatorUpFilled, metadata: EscalatorUpFilledMetadata },
-    EscalatorFilled: { Component: EscalatorFilled, metadata: EscalatorFilledMetadata },
-    ExchangeFilled: { Component: ExchangeFilled, metadata: ExchangeFilledMetadata },
-    ExclamationCircleFilled: { Component: ExclamationCircleFilled, metadata: ExclamationCircleFilledMetadata },
-    ExplicitFilled: { Component: ExplicitFilled, metadata: ExplicitFilledMetadata },
-    ExposureFilled: { Component: ExposureFilled, metadata: ExposureFilledMetadata },
-    EyeTableFilled: { Component: EyeTableFilled, metadata: EyeTableFilledMetadata },
-    EyeFilled: { Component: EyeFilled, metadata: EyeFilledMetadata },
-    Eyeglass2Filled: { Component: Eyeglass2Filled, metadata: Eyeglass2FilledMetadata },
-    EyeglassFilled: { Component: EyeglassFilled, metadata: EyeglassFilledMetadata },
-    FaceMaskFilled: { Component: FaceMaskFilled, metadata: FaceMaskFilledMetadata },
-    FaviconFilled: { Component: FaviconFilled, metadata: FaviconFilledMetadata },
-    FeatherFilled: { Component: FeatherFilled, metadata: FeatherFilledMetadata },
-    FenceFilled: { Component: FenceFilled, metadata: FenceFilledMetadata },
-    FerryFilled: { Component: FerryFilled, metadata: FerryFilledMetadata },
-    FidgetSpinnerFilled: { Component: FidgetSpinnerFilled, metadata: FidgetSpinnerFilledMetadata },
-    FilterFilled: { Component: FilterFilled, metadata: FilterFilledMetadata },
-    FiltersFilled: { Component: FiltersFilled, metadata: FiltersFilledMetadata },
-    FishBoneFilled: { Component: FishBoneFilled, metadata: FishBoneFilledMetadata },
-    Flag2Filled: { Component: Flag2Filled, metadata: Flag2FilledMetadata },
-    Flag3Filled: { Component: Flag3Filled, metadata: Flag3FilledMetadata },
-    FlagFilled: { Component: FlagFilled, metadata: FlagFilledMetadata },
-    FlameFilled: { Component: FlameFilled, metadata: FlameFilledMetadata },
-    FlareFilled: { Component: FlareFilled, metadata: FlareFilledMetadata },
-    Flask2Filled: { Component: Flask2Filled, metadata: Flask2FilledMetadata },
-    FlaskFilled: { Component: FlaskFilled, metadata: FlaskFilledMetadata },
-    FlowerFilled: { Component: FlowerFilled, metadata: FlowerFilledMetadata },
-    FolderOpenFilled: { Component: FolderOpenFilled, metadata: FolderOpenFilledMetadata },
-    FolderFilled: { Component: FolderFilled, metadata: FolderFilledMetadata },
-    FoldersFilled: { Component: FoldersFilled, metadata: FoldersFilledMetadata },
-    Forbid2Filled: { Component: Forbid2Filled, metadata: Forbid2FilledMetadata },
-    ForbidFilled: { Component: ForbidFilled, metadata: ForbidFilledMetadata },
-    FountainFilled: { Component: FountainFilled, metadata: FountainFilledMetadata },
-    FunctionFilled: { Component: FunctionFilled, metadata: FunctionFilledMetadata },
-    GardenCartFilled: { Component: GardenCartFilled, metadata: GardenCartFilledMetadata },
-    GasStationFilled: { Component: GasStationFilled, metadata: GasStationFilledMetadata },
-    GaugeFilled: { Component: GaugeFilled, metadata: GaugeFilledMetadata },
-    Ghost2Filled: { Component: Ghost2Filled, metadata: Ghost2FilledMetadata },
-    Ghost3Filled: { Component: Ghost3Filled, metadata: Ghost3FilledMetadata },
-    GhostFilled: { Component: GhostFilled, metadata: GhostFilledMetadata },
-    GiftCardFilled: { Component: GiftCardFilled, metadata: GiftCardFilledMetadata },
-    GiftFilled: { Component: GiftFilled, metadata: GiftFilledMetadata },
-    GlassFullFilled: { Component: GlassFullFilled, metadata: GlassFullFilledMetadata },
-    GlassFilled: { Component: GlassFilled, metadata: GlassFilledMetadata },
-    GlobeFilled: { Component: GlobeFilled, metadata: GlobeFilledMetadata },
-    GolfFilled: { Component: GolfFilled, metadata: GolfFilledMetadata },
-    GpsFilled: { Component: GpsFilled, metadata: GpsFilledMetadata },
-    GraphFilled: { Component: GraphFilled, metadata: GraphFilledMetadata },
-    GridPatternFilled: { Component: GridPatternFilled, metadata: GridPatternFilledMetadata },
-    GuitarPickFilled: { Component: GuitarPickFilled, metadata: GuitarPickFilledMetadata },
-    Hanger2Filled: { Component: Hanger2Filled, metadata: Hanger2FilledMetadata },
-    HeadphonesFilled: { Component: HeadphonesFilled, metadata: HeadphonesFilledMetadata },
-    HeartBrokenFilled: { Component: HeartBrokenFilled, metadata: HeartBrokenFilledMetadata },
-    HeartFilled: { Component: HeartFilled, metadata: HeartFilledMetadata },
-    HelicopterLandingFilled: { Component: HelicopterLandingFilled, metadata: HelicopterLandingFilledMetadata },
-    HelicopterFilled: { Component: HelicopterFilled, metadata: HelicopterFilledMetadata },
-    HelpCircleFilled: { Component: HelpCircleFilled, metadata: HelpCircleFilledMetadata },
-    HelpHexagonFilled: { Component: HelpHexagonFilled, metadata: HelpHexagonFilledMetadata },
-    HelpOctagonFilled: { Component: HelpOctagonFilled, metadata: HelpOctagonFilledMetadata },
-    HelpSquareRoundedFilled: { Component: HelpSquareRoundedFilled, metadata: HelpSquareRoundedFilledMetadata },
-    HelpSquareFilled: { Component: HelpSquareFilled, metadata: HelpSquareFilledMetadata },
-    HelpTriangleFilled: { Component: HelpTriangleFilled, metadata: HelpTriangleFilledMetadata },
-    HexagonFilled: { Component: HexagonFilled, metadata: HexagonFilledMetadata },
-    HomeFilled: { Component: HomeFilled, metadata: HomeFilledMetadata },
-    HospitalCircleFilled: { Component: HospitalCircleFilled, metadata: HospitalCircleFilledMetadata },
-    HourglassFilled: { Component: HourglassFilled, metadata: HourglassFilledMetadata },
-    IconsFilled: { Component: IconsFilled, metadata: IconsFilledMetadata },
-    InfoCircleFilled: { Component: InfoCircleFilled, metadata: InfoCircleFilledMetadata },
-    InfoHexagonFilled: { Component: InfoHexagonFilled, metadata: InfoHexagonFilledMetadata },
-    InfoOctagonFilled: { Component: InfoOctagonFilled, metadata: InfoOctagonFilledMetadata },
-    InfoSquareRoundedFilled: { Component: InfoSquareRoundedFilled, metadata: InfoSquareRoundedFilledMetadata },
-    InfoSquareFilled: { Component: InfoSquareFilled, metadata: InfoSquareFilledMetadata },
-    InfoTriangleFilled: { Component: InfoTriangleFilled, metadata: InfoTriangleFilledMetadata },
-    InnerShadowBottomLeftFilled: { Component: InnerShadowBottomLeftFilled, metadata: InnerShadowBottomLeftFilledMetadata },
-    InnerShadowBottomRightFilled: { Component: InnerShadowBottomRightFilled, metadata: InnerShadowBottomRightFilledMetadata },
-    InnerShadowBottomFilled: { Component: InnerShadowBottomFilled, metadata: InnerShadowBottomFilledMetadata },
-    InnerShadowLeftFilled: { Component: InnerShadowLeftFilled, metadata: InnerShadowLeftFilledMetadata },
-    InnerShadowRightFilled: { Component: InnerShadowRightFilled, metadata: InnerShadowRightFilledMetadata },
-    InnerShadowTopLeftFilled: { Component: InnerShadowTopLeftFilled, metadata: InnerShadowTopLeftFilledMetadata },
-    InnerShadowTopRightFilled: { Component: InnerShadowTopRightFilled, metadata: InnerShadowTopRightFilledMetadata },
-    InnerShadowTopFilled: { Component: InnerShadowTopFilled, metadata: InnerShadowTopFilledMetadata },
-    Ironing1Filled: { Component: Ironing1Filled, metadata: Ironing1FilledMetadata },
-    Ironing2Filled: { Component: Ironing2Filled, metadata: Ironing2FilledMetadata },
-    Ironing3Filled: { Component: Ironing3Filled, metadata: Ironing3FilledMetadata },
-    IroningSteamFilled: { Component: IroningSteamFilled, metadata: IroningSteamFilledMetadata },
-    IroningFilled: { Component: IroningFilled, metadata: IroningFilledMetadata },
-    JetpackFilled: { Component: JetpackFilled, metadata: JetpackFilledMetadata },
-    JewishStarFilled: { Component: JewishStarFilled, metadata: JewishStarFilledMetadata },
-    KeyFilled: { Component: KeyFilled, metadata: KeyFilledMetadata },
-    KeyboardFilled: { Component: KeyboardFilled, metadata: KeyboardFilledMetadata },
-    KeyframeAlignCenterFilled: { Component: KeyframeAlignCenterFilled, metadata: KeyframeAlignCenterFilledMetadata },
-    KeyframeAlignHorizontalFilled: { Component: KeyframeAlignHorizontalFilled, metadata: KeyframeAlignHorizontalFilledMetadata },
-    KeyframeAlignVerticalFilled: { Component: KeyframeAlignVerticalFilled, metadata: KeyframeAlignVerticalFilledMetadata },
-    KeyframeFilled: { Component: KeyframeFilled, metadata: KeyframeFilledMetadata },
-    KeyframesFilled: { Component: KeyframesFilled, metadata: KeyframesFilledMetadata },
-    LabelImportantFilled: { Component: LabelImportantFilled, metadata: LabelImportantFilledMetadata },
-    LabelFilled: { Component: LabelFilled, metadata: LabelFilledMetadata },
-    LassoPolygonFilled: { Component: LassoPolygonFilled, metadata: LassoPolygonFilledMetadata },
-    LaurelWreath1Filled: { Component: LaurelWreath1Filled, metadata: LaurelWreath1FilledMetadata },
-    LaurelWreath2Filled: { Component: LaurelWreath2Filled, metadata: LaurelWreath2FilledMetadata },
-    LaurelWreath3Filled: { Component: LaurelWreath3Filled, metadata: LaurelWreath3FilledMetadata },
-    LaurelWreathFilled: { Component: LaurelWreathFilled, metadata: LaurelWreathFilledMetadata },
-    LeafFilled: { Component: LeafFilled, metadata: LeafFilledMetadata },
-    LegoFilled: { Component: LegoFilled, metadata: LegoFilledMetadata },
-    Lemon2Filled: { Component: Lemon2Filled, metadata: Lemon2FilledMetadata },
-    LibraryPlusFilled: { Component: LibraryPlusFilled, metadata: LibraryPlusFilledMetadata },
-    LibraryFilled: { Component: LibraryFilled, metadata: LibraryFilledMetadata },
-    LifebuoyFilled: { Component: LifebuoyFilled, metadata: LifebuoyFilledMetadata },
-    LivePhotoFilled: { Component: LivePhotoFilled, metadata: LivePhotoFilledMetadata },
-    LiveViewFilled: { Component: LiveViewFilled, metadata: LiveViewFilledMetadata },
-    LocationFilled: { Component: LocationFilled, metadata: LocationFilledMetadata },
-    LockSquareRoundedFilled: { Component: LockSquareRoundedFilled, metadata: LockSquareRoundedFilledMetadata },
-    LockFilled: { Component: LockFilled, metadata: LockFilledMetadata },
-    LungsFilled: { Component: LungsFilled, metadata: LungsFilledMetadata },
-    MacroFilled: { Component: MacroFilled, metadata: MacroFilledMetadata },
-    MagnetFilled: { Component: MagnetFilled, metadata: MagnetFilledMetadata },
-    MailOpenedFilled: { Component: MailOpenedFilled, metadata: MailOpenedFilledMetadata },
-    MailFilled: { Component: MailFilled, metadata: MailFilledMetadata },
-    ManFilled: { Component: ManFilled, metadata: ManFilledMetadata },
-    ManualGearboxFilled: { Component: ManualGearboxFilled, metadata: ManualGearboxFilledMetadata },
-    MapPinFilled: { Component: MapPinFilled, metadata: MapPinFilledMetadata },
-    MedicalCrossFilled: { Component: MedicalCrossFilled, metadata: MedicalCrossFilledMetadata },
-    MeepleFilled: { Component: MeepleFilled, metadata: MeepleFilledMetadata },
-    MelonFilled: { Component: MelonFilled, metadata: MelonFilledMetadata },
-    MeteorFilled: { Component: MeteorFilled, metadata: MeteorFilledMetadata },
-    MichelinStarFilled: { Component: MichelinStarFilled, metadata: MichelinStarFilledMetadata },
-    MickeyFilled: { Component: MickeyFilled, metadata: MickeyFilledMetadata },
-    MicrophoneFilled: { Component: MicrophoneFilled, metadata: MicrophoneFilledMetadata },
-    MicroscopeFilled: { Component: MicroscopeFilled, metadata: MicroscopeFilledMetadata },
-    MicrowaveFilled: { Component: MicrowaveFilled, metadata: MicrowaveFilledMetadata },
-    MilitaryRankFilled: { Component: MilitaryRankFilled, metadata: MilitaryRankFilledMetadata },
-    MilkFilled: { Component: MilkFilled, metadata: MilkFilledMetadata },
-    MoonFilled: { Component: MoonFilled, metadata: MoonFilledMetadata },
-    MotorbikeFilled: { Component: MotorbikeFilled, metadata: MotorbikeFilledMetadata },
-    MountainFilled: { Component: MountainFilled, metadata: MountainFilledMetadata },
-    MouseFilled: { Component: MouseFilled, metadata: MouseFilledMetadata },
-    MugFilled: { Component: MugFilled, metadata: MugFilledMetadata },
-    MushroomFilled: { Component: MushroomFilled, metadata: MushroomFilledMetadata },
-    NavigationFilled: { Component: NavigationFilled, metadata: NavigationFilledMetadata },
-    NurseFilled: { Component: NurseFilled, metadata: NurseFilledMetadata },
-    OctagonMinusFilled: { Component: OctagonMinusFilled, metadata: OctagonMinusFilledMetadata },
-    OctagonPlusFilled: { Component: OctagonPlusFilled, metadata: OctagonPlusFilledMetadata },
-    OctagonFilled: { Component: OctagonFilled, metadata: OctagonFilledMetadata },
-    OvalVerticalFilled: { Component: OvalVerticalFilled, metadata: OvalVerticalFilledMetadata },
-    OvalFilled: { Component: OvalFilled, metadata: OvalFilledMetadata },
-    PacmanFilled: { Component: PacmanFilled, metadata: PacmanFilledMetadata },
-    PaintFilled: { Component: PaintFilled, metadata: PaintFilledMetadata },
-    PaletteFilled: { Component: PaletteFilled, metadata: PaletteFilledMetadata },
-    PanoramaHorizontalFilled: { Component: PanoramaHorizontalFilled, metadata: PanoramaHorizontalFilledMetadata },
-    PanoramaVerticalFilled: { Component: PanoramaVerticalFilled, metadata: PanoramaVerticalFilledMetadata },
-    ParkingCircleFilled: { Component: ParkingCircleFilled, metadata: ParkingCircleFilledMetadata },
-    PawFilled: { Component: PawFilled, metadata: PawFilledMetadata },
-    Pennant2Filled: { Component: Pennant2Filled, metadata: Pennant2FilledMetadata },
-    PennantFilled: { Component: PennantFilled, metadata: PennantFilledMetadata },
-    PentagonFilled: { Component: PentagonFilled, metadata: PentagonFilledMetadata },
-    PhotoFilled: { Component: PhotoFilled, metadata: PhotoFilledMetadata },
-    PictureInPictureTopFilled: { Component: PictureInPictureTopFilled, metadata: PictureInPictureTopFilledMetadata },
-    PictureInPictureFilled: { Component: PictureInPictureFilled, metadata: PictureInPictureFilledMetadata },
-    PigFilled: { Component: PigFilled, metadata: PigFilledMetadata },
-    PillFilled: { Component: PillFilled, metadata: PillFilledMetadata },
-    PinFilled: { Component: PinFilled, metadata: PinFilledMetadata },
-    PinnedFilled: { Component: PinnedFilled, metadata: PinnedFilledMetadata },
-    PizzaFilled: { Component: PizzaFilled, metadata: PizzaFilledMetadata },
-    PlaneArrivalFilled: { Component: PlaneArrivalFilled, metadata: PlaneArrivalFilledMetadata },
-    PlaneDepartureFilled: { Component: PlaneDepartureFilled, metadata: PlaneDepartureFilledMetadata },
-    PlaneTiltFilled: { Component: PlaneTiltFilled, metadata: PlaneTiltFilledMetadata },
-    PlaneFilled: { Component: PlaneFilled, metadata: PlaneFilledMetadata },
-    PlayCard10Filled: { Component: PlayCard10Filled, metadata: PlayCard10FilledMetadata },
-    PlayCard1Filled: { Component: PlayCard1Filled, metadata: PlayCard1FilledMetadata },
-    PlayCard2Filled: { Component: PlayCard2Filled, metadata: PlayCard2FilledMetadata },
-    PlayCard3Filled: { Component: PlayCard3Filled, metadata: PlayCard3FilledMetadata },
-    PlayCard4Filled: { Component: PlayCard4Filled, metadata: PlayCard4FilledMetadata },
-    PlayCard5Filled: { Component: PlayCard5Filled, metadata: PlayCard5FilledMetadata },
-    PlayCard6Filled: { Component: PlayCard6Filled, metadata: PlayCard6FilledMetadata },
-    PlayCard7Filled: { Component: PlayCard7Filled, metadata: PlayCard7FilledMetadata },
-    PlayCard8Filled: { Component: PlayCard8Filled, metadata: PlayCard8FilledMetadata },
-    PlayCard9Filled: { Component: PlayCard9Filled, metadata: PlayCard9FilledMetadata },
-    PlayCardAFilled: { Component: PlayCardAFilled, metadata: PlayCardAFilledMetadata },
-    PlayCardJFilled: { Component: PlayCardJFilled, metadata: PlayCardJFilledMetadata },
-    PlayCardKFilled: { Component: PlayCardKFilled, metadata: PlayCardKFilledMetadata },
-    PlayCardQFilled: { Component: PlayCardQFilled, metadata: PlayCardQFilledMetadata },
-    PlayCardStarFilled: { Component: PlayCardStarFilled, metadata: PlayCardStarFilledMetadata },
-    PlayCardFilled: { Component: PlayCardFilled, metadata: PlayCardFilledMetadata },
-    PointFilled: { Component: PointFilled, metadata: PointFilledMetadata },
-    PointerFilled: { Component: PointerFilled, metadata: PointerFilledMetadata },
-    PolaroidFilled: { Component: PolaroidFilled, metadata: PolaroidFilledMetadata },
-    PooFilled: { Component: PooFilled, metadata: PooFilledMetadata },
-    PresentationAnalyticsFilled: { Component: PresentationAnalyticsFilled, metadata: PresentationAnalyticsFilledMetadata },
-    PresentationFilled: { Component: PresentationFilled, metadata: PresentationFilledMetadata },
-    PuzzleFilled: { Component: PuzzleFilled, metadata: PuzzleFilledMetadata },
-    QuoteFilled: { Component: QuoteFilled, metadata: QuoteFilledMetadata },
-    RadarFilled: { Component: RadarFilled, metadata: RadarFilledMetadata },
-    RadioactiveFilled: { Component: RadioactiveFilled, metadata: RadioactiveFilledMetadata },
-    ReceiptDollarFilled: { Component: ReceiptDollarFilled, metadata: ReceiptDollarFilledMetadata },
-    ReceiptEuroFilled: { Component: ReceiptEuroFilled, metadata: ReceiptEuroFilledMetadata },
-    ReceiptPoundFilled: { Component: ReceiptPoundFilled, metadata: ReceiptPoundFilledMetadata },
-    ReceiptRupeeFilled: { Component: ReceiptRupeeFilled, metadata: ReceiptRupeeFilledMetadata },
-    ReceiptYenFilled: { Component: ReceiptYenFilled, metadata: ReceiptYenFilledMetadata },
-    ReceiptYuanFilled: { Component: ReceiptYuanFilled, metadata: ReceiptYuanFilledMetadata },
-    ReceiptFilled: { Component: ReceiptFilled, metadata: ReceiptFilledMetadata },
-    RectangleVerticalFilled: { Component: RectangleVerticalFilled, metadata: RectangleVerticalFilledMetadata },
-    RectangleFilled: { Component: RectangleFilled, metadata: RectangleFilledMetadata },
-    RegisteredFilled: { Component: RegisteredFilled, metadata: RegisteredFilledMetadata },
-    RelationManyToManyFilled: { Component: RelationManyToManyFilled, metadata: RelationManyToManyFilledMetadata },
-    RelationOneToManyFilled: { Component: RelationOneToManyFilled, metadata: RelationOneToManyFilledMetadata },
-    RelationOneToOneFilled: { Component: RelationOneToOneFilled, metadata: RelationOneToOneFilledMetadata },
-    ReplaceFilled: { Component: ReplaceFilled, metadata: ReplaceFilledMetadata },
-    ReportAnalyticsFilled: { Component: ReportAnalyticsFilled, metadata: ReportAnalyticsFilledMetadata },
-    ReportMoneyFilled: { Component: ReportMoneyFilled, metadata: ReportMoneyFilledMetadata },
-    RollercoasterFilled: { Component: RollercoasterFilled, metadata: RollercoasterFilledMetadata },
-    RosetteDiscountCheckFilled: { Component: RosetteDiscountCheckFilled, metadata: RosetteDiscountCheckFilledMetadata },
-    RosetteDiscountFilled: { Component: RosetteDiscountFilled, metadata: RosetteDiscountFilledMetadata },
-    RosetteFilled: { Component: RosetteFilled, metadata: RosetteFilledMetadata },
-    SaladFilled: { Component: SaladFilled, metadata: SaladFilledMetadata },
-    SatelliteFilled: { Component: SatelliteFilled, metadata: SatelliteFilledMetadata },
-    ScubaDivingTankFilled: { Component: ScubaDivingTankFilled, metadata: ScubaDivingTankFilledMetadata },
-    SectionFilled: { Component: SectionFilled, metadata: SectionFilledMetadata },
-    SeedlingFilled: { Component: SeedlingFilled, metadata: SeedlingFilledMetadata },
-    SettingsFilled: { Component: SettingsFilled, metadata: SettingsFilledMetadata },
-    ShirtFilled: { Component: ShirtFilled, metadata: ShirtFilledMetadata },
-    ShoppingCartFilled: { Component: ShoppingCartFilled, metadata: ShoppingCartFilledMetadata },
-    SignLeftFilled: { Component: SignLeftFilled, metadata: SignLeftFilledMetadata },
-    SignRightFilled: { Component: SignRightFilled, metadata: SignRightFilledMetadata },
-    SitemapFilled: { Component: SitemapFilled, metadata: SitemapFilledMetadata },
-    SortAscending2Filled: { Component: SortAscending2Filled, metadata: SortAscending2FilledMetadata },
-    SortAscendingShapesFilled: { Component: SortAscendingShapesFilled, metadata: SortAscendingShapesFilledMetadata },
-    SortDescending2Filled: { Component: SortDescending2Filled, metadata: SortDescending2FilledMetadata },
-    SortDescendingShapesFilled: { Component: SortDescendingShapesFilled, metadata: SortDescendingShapesFilledMetadata },
-    SoupFilled: { Component: SoupFilled, metadata: SoupFilledMetadata },
-    SpadeFilled: { Component: SpadeFilled, metadata: SpadeFilledMetadata },
-    Sparkles2Filled: { Component: Sparkles2Filled, metadata: Sparkles2FilledMetadata },
-    SparklesFilled: { Component: SparklesFilled, metadata: SparklesFilledMetadata },
-    SpeedboatFilled: { Component: SpeedboatFilled, metadata: SpeedboatFilledMetadata },
-    SpiderFilled: { Component: SpiderFilled, metadata: SpiderFilledMetadata },
-    Stack2Filled: { Component: Stack2Filled, metadata: Stack2FilledMetadata },
-    Stack3Filled: { Component: Stack3Filled, metadata: Stack3FilledMetadata },
-    StackFilled: { Component: StackFilled, metadata: StackFilledMetadata },
-    StarHalfFilled: { Component: StarHalfFilled, metadata: StarHalfFilledMetadata },
-    StarFilled: { Component: StarFilled, metadata: StarFilledMetadata },
-    StarsFilled: { Component: StarsFilled, metadata: StarsFilledMetadata },
-    SteeringWheelFilled: { Component: SteeringWheelFilled, metadata: SteeringWheelFilledMetadata },
-    SunHighFilled: { Component: SunHighFilled, metadata: SunHighFilledMetadata },
-    SunLowFilled: { Component: SunLowFilled, metadata: SunLowFilledMetadata },
-    SunFilled: { Component: SunFilled, metadata: SunFilledMetadata },
-    SunglassesFilled: { Component: SunglassesFilled, metadata: SunglassesFilledMetadata },
-    SunriseFilled: { Component: SunriseFilled, metadata: SunriseFilledMetadata },
-    Sunset2Filled: { Component: Sunset2Filled, metadata: Sunset2FilledMetadata },
-    SunsetFilled: { Component: SunsetFilled, metadata: SunsetFilledMetadata },
-    SwipeDownFilled: { Component: SwipeDownFilled, metadata: SwipeDownFilledMetadata },
-    SwipeLeftFilled: { Component: SwipeLeftFilled, metadata: SwipeLeftFilledMetadata },
-    SwipeRightFilled: { Component: SwipeRightFilled, metadata: SwipeRightFilledMetadata },
-    SwipeUpFilled: { Component: SwipeUpFilled, metadata: SwipeUpFilledMetadata },
-    TableFilled: { Component: TableFilled, metadata: TableFilledMetadata },
-    TagFilled: { Component: TagFilled, metadata: TagFilledMetadata },
-    TagsFilled: { Component: TagsFilled, metadata: TagsFilledMetadata },
-    TemperatureMinusFilled: { Component: TemperatureMinusFilled, metadata: TemperatureMinusFilledMetadata },
-    TemperaturePlusFilled: { Component: TemperaturePlusFilled, metadata: TemperaturePlusFilledMetadata },
-    TemplateFilled: { Component: TemplateFilled, metadata: TemplateFilledMetadata },
-    TestPipe2Filled: { Component: TestPipe2Filled, metadata: TestPipe2FilledMetadata },
-    ThumbDownFilled: { Component: ThumbDownFilled, metadata: ThumbDownFilledMetadata },
-    ThumbUpFilled: { Component: ThumbUpFilled, metadata: ThumbUpFilledMetadata },
-    TiltShiftFilled: { Component: TiltShiftFilled, metadata: TiltShiftFilledMetadata },
-    TimelineEventFilled: { Component: TimelineEventFilled, metadata: TimelineEventFilledMetadata },
-    ToggleLeftFilled: { Component: ToggleLeftFilled, metadata: ToggleLeftFilledMetadata },
-    ToggleRightFilled: { Component: ToggleRightFilled, metadata: ToggleRightFilledMetadata },
-    TrainFilled: { Component: TrainFilled, metadata: TrainFilledMetadata },
-    TransformFilled: { Component: TransformFilled, metadata: TransformFilledMetadata },
-    TransitionBottomFilled: { Component: TransitionBottomFilled, metadata: TransitionBottomFilledMetadata },
-    TransitionLeftFilled: { Component: TransitionLeftFilled, metadata: TransitionLeftFilledMetadata },
-    TransitionRightFilled: { Component: TransitionRightFilled, metadata: TransitionRightFilledMetadata },
-    TransitionTopFilled: { Component: TransitionTopFilled, metadata: TransitionTopFilledMetadata },
-    TrashXFilled: { Component: TrashXFilled, metadata: TrashXFilledMetadata },
-    TrashFilled: { Component: TrashFilled, metadata: TrashFilledMetadata },
-    TriangleInvertedFilled: { Component: TriangleInvertedFilled, metadata: TriangleInvertedFilledMetadata },
-    TriangleSquareCircleFilled: { Component: TriangleSquareCircleFilled, metadata: TriangleSquareCircleFilledMetadata },
-    TriangleFilled: { Component: TriangleFilled, metadata: TriangleFilledMetadata },
-    TrolleyFilled: { Component: TrolleyFilled, metadata: TrolleyFilledMetadata },
-    TrophyFilled: { Component: TrophyFilled, metadata: TrophyFilledMetadata },
-    TruckFilled: { Component: TruckFilled, metadata: TruckFilledMetadata },
-    UfoFilled: { Component: UfoFilled, metadata: UfoFilledMetadata },
-    UmbrellaFilled: { Component: UmbrellaFilled, metadata: UmbrellaFilledMetadata },
-    UserFilled: { Component: UserFilled, metadata: UserFilledMetadata },
-    VersionsFilled: { Component: VersionsFilled, metadata: VersionsFilledMetadata },
-    VideoMinusFilled: { Component: VideoMinusFilled, metadata: VideoMinusFilledMetadata },
-    VideoPlusFilled: { Component: VideoPlusFilled, metadata: VideoPlusFilledMetadata },
-    VideoFilled: { Component: VideoFilled, metadata: VideoFilledMetadata },
-    WindmillFilled: { Component: WindmillFilled, metadata: WindmillFilledMetadata },
-    WindsockFilled: { Component: WindsockFilled, metadata: WindsockFilledMetadata },
-    WomanFilled: { Component: WomanFilled, metadata: WomanFilledMetadata },
-    WritingSignFilled: { Component: WritingSignFilled, metadata: WritingSignFilledMetadata },
-    WritingFilled: { Component: WritingFilled, metadata: WritingFilledMetadata },
-    XboxAFilled: { Component: XboxAFilled, metadata: XboxAFilledMetadata },
-    XboxBFilled: { Component: XboxBFilled, metadata: XboxBFilledMetadata },
-    XboxXFilled: { Component: XboxXFilled, metadata: XboxXFilledMetadata },
-    XboxYFilled: { Component: XboxYFilled, metadata: XboxYFilledMetadata },
-    YinYangFilled: { Component: YinYangFilled, metadata: YinYangFilledMetadata },
-    ZeppelinFilled: { Component: ZeppelinFilled, metadata: ZeppelinFilledMetadata },
-  },
   finance: {
+    ArchiveRounded: { Component: ArchiveRounded, metadata: ArchiveRoundedMetadata },
     BankDoodle: { Component: BankDoodle, metadata: BankDoodleMetadata },
     BanknoteArrowDown: { Component: BanknoteArrowDown, metadata: BanknoteArrowDownMetadata },
     BanknoteArrowUp: { Component: BanknoteArrowUp, metadata: BanknoteArrowUpMetadata },
@@ -7817,54 +7451,124 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
     Banknote: { Component: Banknote, metadata: BanknoteMetadata },
     BillDoodle: { Component: BillDoodle, metadata: BillDoodleMetadata },
     Bitcoin: { Component: Bitcoin, metadata: BitcoinMetadata },
+    CardAddRounded: { Component: CardAddRounded, metadata: CardAddRoundedMetadata },
+    CardEditRounded: { Component: CardEditRounded, metadata: CardEditRoundedMetadata },
+    CardPosRounded: { Component: CardPosRounded, metadata: CardPosRoundedMetadata },
+    CardReceiveRounded: { Component: CardReceiveRounded, metadata: CardReceiveRoundedMetadata },
+    CardRemove1Rounded: { Component: CardRemove1Rounded, metadata: CardRemove1RoundedMetadata },
+    CardRemoveRounded: { Component: CardRemoveRounded, metadata: CardRemoveRoundedMetadata },
+    CardSendRounded: { Component: CardSendRounded, metadata: CardSendRoundedMetadata },
+    CardSlashRounded: { Component: CardSlashRounded, metadata: CardSlashRoundedMetadata },
+    CardTick1Rounded: { Component: CardTick1Rounded, metadata: CardTick1RoundedMetadata },
+    CardTickRounded: { Component: CardTickRounded, metadata: CardTickRoundedMetadata },
+    CardRounded: { Component: CardRounded, metadata: CardRoundedMetadata },
+    CardsRounded: { Component: CardsRounded, metadata: CardsRoundedMetadata },
     CashDoodle: { Component: CashDoodle, metadata: CashDoodleMetadata },
+    ChartSquareRounded: { Component: ChartSquareRounded, metadata: ChartSquareRoundedMetadata },
+    Coin1Rounded: { Component: Coin1Rounded, metadata: Coin1RoundedMetadata },
     Coin2Doodle: { Component: Coin2Doodle, metadata: Coin2DoodleMetadata },
-    CoinBitcoinFilled: { Component: CoinBitcoinFilled, metadata: CoinBitcoinFilledMetadata },
-    CoinEuroFilled: { Component: CoinEuroFilled, metadata: CoinEuroFilledMetadata },
-    CoinMoneroFilled: { Component: CoinMoneroFilled, metadata: CoinMoneroFilledMetadata },
-    CoinPoundFilled: { Component: CoinPoundFilled, metadata: CoinPoundFilledMetadata },
-    CoinRupeeFilled: { Component: CoinRupeeFilled, metadata: CoinRupeeFilledMetadata },
-    CoinTakaFilled: { Component: CoinTakaFilled, metadata: CoinTakaFilledMetadata },
-    CoinYenFilled: { Component: CoinYenFilled, metadata: CoinYenFilledMetadata },
-    CoinYuanFilled: { Component: CoinYuanFilled, metadata: CoinYuanFilledMetadata },
     CoinDoodle: { Component: CoinDoodle, metadata: CoinDoodleMetadata },
-    CoinFilled: { Component: CoinFilled, metadata: CoinFilledMetadata },
+    CoinRounded: { Component: CoinRounded, metadata: CoinRoundedMetadata },
     Coins: { Component: Coins, metadata: CoinsMetadata },
     CreditCard: { Component: CreditCard, metadata: CreditCardMetadata },
+    DiscountCircleRounded: { Component: DiscountCircleRounded, metadata: DiscountCircleRoundedMetadata },
+    DiscountShapeRounded: { Component: DiscountShapeRounded, metadata: DiscountShapeRoundedMetadata },
+    DollarCircleRounded: { Component: DollarCircleRounded, metadata: DollarCircleRoundedMetadata },
     DollarSign: { Component: DollarSign, metadata: DollarSignMetadata },
+    DollarSquareRounded: { Component: DollarSquareRounded, metadata: DollarSquareRoundedMetadata },
     DollarDoodle: { Component: DollarDoodle, metadata: DollarDoodleMetadata },
+    EmptyWalletAddRounded: { Component: EmptyWalletAddRounded, metadata: EmptyWalletAddRoundedMetadata },
+    EmptyWalletChangeRounded: { Component: EmptyWalletChangeRounded, metadata: EmptyWalletChangeRoundedMetadata },
+    EmptyWalletRemoveRounded: { Component: EmptyWalletRemoveRounded, metadata: EmptyWalletRemoveRoundedMetadata },
+    EmptyWalletTickRounded: { Component: EmptyWalletTickRounded, metadata: EmptyWalletTickRoundedMetadata },
+    EmptyWalletTimeRounded: { Component: EmptyWalletTimeRounded, metadata: EmptyWalletTimeRoundedMetadata },
+    EmptyWalletRounded: { Component: EmptyWalletRounded, metadata: EmptyWalletRoundedMetadata },
     Euro: { Component: Euro, metadata: EuroMetadata },
     EuroDoodle: { Component: EuroDoodle, metadata: EuroDoodleMetadata },
     FrancDoodle: { Component: FrancDoodle, metadata: FrancDoodleMetadata },
     IndianRupee: { Component: IndianRupee, metadata: IndianRupeeMetadata },
     JapaneseYen: { Component: JapaneseYen, metadata: JapaneseYenMetadata },
+    MathRounded: { Component: MathRounded, metadata: MathRoundedMetadata },
+    Money2Rounded: { Component: Money2Rounded, metadata: Money2RoundedMetadata },
+    Money3Rounded: { Component: Money3Rounded, metadata: Money3RoundedMetadata },
+    Money4Rounded: { Component: Money4Rounded, metadata: Money4RoundedMetadata },
+    MoneyAddRounded: { Component: MoneyAddRounded, metadata: MoneyAddRoundedMetadata },
+    MoneyChangeRounded: { Component: MoneyChangeRounded, metadata: MoneyChangeRoundedMetadata },
+    MoneyForbiddenRounded: { Component: MoneyForbiddenRounded, metadata: MoneyForbiddenRoundedMetadata },
     MoneyPlantDoodle: { Component: MoneyPlantDoodle, metadata: MoneyPlantDoodleMetadata },
+    MoneyReciveRounded: { Component: MoneyReciveRounded, metadata: MoneyReciveRoundedMetadata },
+    MoneyRemoveRounded: { Component: MoneyRemoveRounded, metadata: MoneyRemoveRoundedMetadata },
+    MoneySendRounded: { Component: MoneySendRounded, metadata: MoneySendRoundedMetadata },
+    MoneyTickRounded: { Component: MoneyTickRounded, metadata: MoneyTickRoundedMetadata },
+    MoneyTimeRounded: { Component: MoneyTimeRounded, metadata: MoneyTimeRoundedMetadata },
+    MoneyRounded: { Component: MoneyRounded, metadata: MoneyRoundedMetadata },
+    MoneysRounded: { Component: MoneysRounded, metadata: MoneysRoundedMetadata },
+    PercentageSquareRounded: { Component: PercentageSquareRounded, metadata: PercentageSquareRoundedMetadata },
     PhilippinePeso: { Component: PhilippinePeso, metadata: PhilippinePesoMetadata },
     PiggyBankDoodle: { Component: PiggyBankDoodle, metadata: PiggyBankDoodleMetadata },
     PoundSterling: { Component: PoundSterling, metadata: PoundSterlingMetadata },
     PoundDoodle: { Component: PoundDoodle, metadata: PoundDoodleMetadata },
+    Receipt1Rounded: { Component: Receipt1Rounded, metadata: Receipt1RoundedMetadata },
+    Receipt21Rounded: { Component: Receipt21Rounded, metadata: Receipt21RoundedMetadata },
+    Receipt2Rounded: { Component: Receipt2Rounded, metadata: Receipt2RoundedMetadata },
+    ReceiptAddRounded: { Component: ReceiptAddRounded, metadata: ReceiptAddRoundedMetadata },
+    ReceiptDiscountRounded: { Component: ReceiptDiscountRounded, metadata: ReceiptDiscountRoundedMetadata },
+    ReceiptDisscountRounded: { Component: ReceiptDisscountRounded, metadata: ReceiptDisscountRoundedMetadata },
+    ReceiptEditRounded: { Component: ReceiptEditRounded, metadata: ReceiptEditRoundedMetadata },
+    ReceiptItemRounded: { Component: ReceiptItemRounded, metadata: ReceiptItemRoundedMetadata },
+    ReceiptMinusRounded: { Component: ReceiptMinusRounded, metadata: ReceiptMinusRoundedMetadata },
+    ReceiptSearchRounded: { Component: ReceiptSearchRounded, metadata: ReceiptSearchRoundedMetadata },
+    ReceiptTextRounded: { Component: ReceiptTextRounded, metadata: ReceiptTextRoundedMetadata },
+    ReceiptRounded: { Component: ReceiptRounded, metadata: ReceiptRoundedMetadata },
     RubleDoodle: { Component: RubleDoodle, metadata: RubleDoodleMetadata },
     RupeeDoodle: { Component: RupeeDoodle, metadata: RupeeDoodleMetadata },
     SafeDoodle: { Component: SafeDoodle, metadata: SafeDoodleMetadata },
     SavingDoodle: { Component: SavingDoodle, metadata: SavingDoodleMetadata },
+    SecurityCardRounded: { Component: SecurityCardRounded, metadata: SecurityCardRoundedMetadata },
+    Strongbox2Rounded: { Component: Strongbox2Rounded, metadata: Strongbox2RoundedMetadata },
+    StrongboxRounded: { Component: StrongboxRounded, metadata: StrongboxRoundedMetadata },
     SwissFranc: { Component: SwissFranc, metadata: SwissFrancMetadata },
+    Tag2Rounded: { Component: Tag2Rounded, metadata: Tag2RoundedMetadata },
+    TagRounded: { Component: TagRounded, metadata: TagRoundedMetadata },
+    Ticket2Rounded: { Component: Ticket2Rounded, metadata: Ticket2RoundedMetadata },
+    TicketDiscountRounded: { Component: TicketDiscountRounded, metadata: TicketDiscountRoundedMetadata },
+    TicketExpiredRounded: { Component: TicketExpiredRounded, metadata: TicketExpiredRoundedMetadata },
+    TicketStarRounded: { Component: TicketStarRounded, metadata: TicketStarRoundedMetadata },
+    TicketRounded: { Component: TicketRounded, metadata: TicketRoundedMetadata },
+    TransactionMinusRounded: { Component: TransactionMinusRounded, metadata: TransactionMinusRoundedMetadata },
     TrendDownSquareDoodle: { Component: TrendDownSquareDoodle, metadata: TrendDownSquareDoodleMetadata },
     TrendDownDoodle: { Component: TrendDownDoodle, metadata: TrendDownDoodleMetadata },
     TrendUpSquareDoodle: { Component: TrendUpSquareDoodle, metadata: TrendUpSquareDoodleMetadata },
     TrendUpDoodle: { Component: TrendUpDoodle, metadata: TrendUpDoodleMetadata },
+    Wallet1Rounded: { Component: Wallet1Rounded, metadata: Wallet1RoundedMetadata },
+    Wallet2Rounded: { Component: Wallet2Rounded, metadata: Wallet2RoundedMetadata },
+    Wallet3Rounded: { Component: Wallet3Rounded, metadata: Wallet3RoundedMetadata },
+    WalletAdd1Rounded: { Component: WalletAdd1Rounded, metadata: WalletAdd1RoundedMetadata },
+    WalletAddRounded: { Component: WalletAddRounded, metadata: WalletAddRoundedMetadata },
+    WalletCheckRounded: { Component: WalletCheckRounded, metadata: WalletCheckRoundedMetadata },
+    WalletMinusRounded: { Component: WalletMinusRounded, metadata: WalletMinusRoundedMetadata },
+    WalletMoneyRounded: { Component: WalletMoneyRounded, metadata: WalletMoneyRoundedMetadata },
+    WalletRemoveRounded: { Component: WalletRemoveRounded, metadata: WalletRemoveRoundedMetadata },
+    WalletSearchRounded: { Component: WalletSearchRounded, metadata: WalletSearchRoundedMetadata },
     WalletDoodle: { Component: WalletDoodle, metadata: WalletDoodleMetadata },
+    WalletRounded: { Component: WalletRounded, metadata: WalletRoundedMetadata },
     WonDoodle: { Component: WonDoodle, metadata: WonDoodleMetadata },
     YenDoodle: { Component: YenDoodle, metadata: YenDoodleMetadata },
   },
   folder: {
+    Folder2Rounded: { Component: Folder2Rounded, metadata: Folder2RoundedMetadata },
+    FolderAddRounded: { Component: FolderAddRounded, metadata: FolderAddRoundedMetadata },
     FolderArchive: { Component: FolderArchive, metadata: FolderArchiveMetadata },
     FolderCheck: { Component: FolderCheck, metadata: FolderCheckMetadata },
     FolderClock: { Component: FolderClock, metadata: FolderClockMetadata },
     FolderClosed: { Component: FolderClosed, metadata: FolderClosedMetadata },
+    FolderCloudRounded: { Component: FolderCloudRounded, metadata: FolderCloudRoundedMetadata },
     FolderCode: { Component: FolderCode, metadata: FolderCodeMetadata },
     FolderCog: { Component: FolderCog, metadata: FolderCogMetadata },
+    FolderCrossRounded: { Component: FolderCrossRounded, metadata: FolderCrossRoundedMetadata },
     FolderDot: { Component: FolderDot, metadata: FolderDotMetadata },
     FolderDown: { Component: FolderDown, metadata: FolderDownMetadata },
+    FolderFavoriteRounded: { Component: FolderFavoriteRounded, metadata: FolderFavoriteRoundedMetadata },
     FolderGit2: { Component: FolderGit2, metadata: FolderGit2Metadata },
     FolderGit: { Component: FolderGit, metadata: FolderGitMetadata },
     FolderHeart: { Component: FolderHeart, metadata: FolderHeartMetadata },
@@ -7873,8 +7577,10 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
     FolderKey: { Component: FolderKey, metadata: FolderKeyMetadata },
     FolderLock: { Component: FolderLock, metadata: FolderLockMetadata },
     FolderMinus: { Component: FolderMinus, metadata: FolderMinusMetadata },
+    FolderMinusRounded: { Component: FolderMinusRounded, metadata: FolderMinusRoundedMetadata },
     FolderOpenDot: { Component: FolderOpenDot, metadata: FolderOpenDotMetadata },
     FolderOpen: { Component: FolderOpen, metadata: FolderOpenMetadata },
+    FolderOpenRounded: { Component: FolderOpenRounded, metadata: FolderOpenRoundedMetadata },
     FolderOutput: { Component: FolderOutput, metadata: FolderOutputMetadata },
     FolderPen: { Component: FolderPen, metadata: FolderPenMetadata },
     FolderPlus: { Component: FolderPlus, metadata: FolderPlusMetadata },
@@ -7887,6 +7593,7 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
     FolderUp: { Component: FolderUp, metadata: FolderUpMetadata },
     FolderX: { Component: FolderX, metadata: FolderXMetadata },
     Folder: { Component: Folder, metadata: FolderMetadata },
+    FolderRounded: { Component: FolderRounded, metadata: FolderRoundedMetadata },
     Folders: { Component: Folders, metadata: FoldersMetadata },
   },
   food: {
@@ -7934,37 +7641,24 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
     WaterDoodle: { Component: WaterDoodle, metadata: WaterDoodleMetadata },
   },
   gender: {
+    AquariusRounded: { Component: AquariusRounded, metadata: AquariusRoundedMetadata },
     BisexualDoodle: { Component: BisexualDoodle, metadata: BisexualDoodleMetadata },
     FemaileDoodle: { Component: FemaileDoodle, metadata: FemaileDoodleMetadata },
     GayDoodle: { Component: GayDoodle, metadata: GayDoodleMetadata },
+    Gemini2Rounded: { Component: Gemini2Rounded, metadata: Gemini2RoundedMetadata },
+    GeminiRounded: { Component: GeminiRounded, metadata: GeminiRoundedMetadata },
     GenderlessDoodle: { Component: GenderlessDoodle, metadata: GenderlessDoodleMetadata },
     HetroDoodle: { Component: HetroDoodle, metadata: HetroDoodleMetadata },
     IntersexDoodle: { Component: IntersexDoodle, metadata: IntersexDoodleMetadata },
     LesbianDoodle: { Component: LesbianDoodle, metadata: LesbianDoodleMetadata },
     MaleDoodle: { Component: MaleDoodle, metadata: MaleDoodleMetadata },
+    ManRounded: { Component: ManRounded, metadata: ManRoundedMetadata },
     NonBinaryTransgenderDoodle: { Component: NonBinaryTransgenderDoodle, metadata: NonBinaryTransgenderDoodleMetadata },
     OtherGenderDoodle: { Component: OtherGenderDoodle, metadata: OtherGenderDoodleMetadata },
+    SagittariusRounded: { Component: SagittariusRounded, metadata: SagittariusRoundedMetadata },
     Transgender2Doodle: { Component: Transgender2Doodle, metadata: Transgender2DoodleMetadata },
     TransgenderDoodle: { Component: TransgenderDoodle, metadata: TransgenderDoodleMetadata },
-  },
-  git: {
-    GitBranchMinus: { Component: GitBranchMinus, metadata: GitBranchMinusMetadata },
-    GitBranchPlus: { Component: GitBranchPlus, metadata: GitBranchPlusMetadata },
-    GitBranch: { Component: GitBranch, metadata: GitBranchMetadata },
-    GitCommitHorizontal: { Component: GitCommitHorizontal, metadata: GitCommitHorizontalMetadata },
-    GitCommitVertical: { Component: GitCommitVertical, metadata: GitCommitVerticalMetadata },
-    GitCompareArrows: { Component: GitCompareArrows, metadata: GitCompareArrowsMetadata },
-    GitCompare: { Component: GitCompare, metadata: GitCompareMetadata },
-    GitFork: { Component: GitFork, metadata: GitForkMetadata },
-    GitGraph: { Component: GitGraph, metadata: GitGraphMetadata },
-    GitMergeConflict: { Component: GitMergeConflict, metadata: GitMergeConflictMetadata },
-    GitMerge: { Component: GitMerge, metadata: GitMergeMetadata },
-    GitPullRequestArrow: { Component: GitPullRequestArrow, metadata: GitPullRequestArrowMetadata },
-    GitPullRequestClosed: { Component: GitPullRequestClosed, metadata: GitPullRequestClosedMetadata },
-    GitPullRequestCreateArrow: { Component: GitPullRequestCreateArrow, metadata: GitPullRequestCreateArrowMetadata },
-    GitPullRequestCreate: { Component: GitPullRequestCreate, metadata: GitPullRequestCreateMetadata },
-    GitPullRequestDraft: { Component: GitPullRequestDraft, metadata: GitPullRequestDraftMetadata },
-    GitPullRequest: { Component: GitPullRequest, metadata: GitPullRequestMetadata },
+    WomanRounded: { Component: WomanRounded, metadata: WomanRoundedMetadata },
   },
   hand: {
     ClapDoodle: { Component: ClapDoodle, metadata: ClapDoodleMetadata },
@@ -8053,70 +7747,118 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
     ToothDoodle: { Component: ToothDoodle, metadata: ToothDoodleMetadata },
     WheelchairDoodle: { Component: WheelchairDoodle, metadata: WheelchairDoodleMetadata },
   },
-  hexagon: {
-    HexagonLetterAFilled: { Component: HexagonLetterAFilled, metadata: HexagonLetterAFilledMetadata },
-    HexagonLetterBFilled: { Component: HexagonLetterBFilled, metadata: HexagonLetterBFilledMetadata },
-    HexagonLetterCFilled: { Component: HexagonLetterCFilled, metadata: HexagonLetterCFilledMetadata },
-    HexagonLetterDFilled: { Component: HexagonLetterDFilled, metadata: HexagonLetterDFilledMetadata },
-    HexagonLetterEFilled: { Component: HexagonLetterEFilled, metadata: HexagonLetterEFilledMetadata },
-    HexagonLetterFFilled: { Component: HexagonLetterFFilled, metadata: HexagonLetterFFilledMetadata },
-    HexagonLetterGFilled: { Component: HexagonLetterGFilled, metadata: HexagonLetterGFilledMetadata },
-    HexagonLetterHFilled: { Component: HexagonLetterHFilled, metadata: HexagonLetterHFilledMetadata },
-    HexagonLetterIFilled: { Component: HexagonLetterIFilled, metadata: HexagonLetterIFilledMetadata },
-    HexagonLetterJFilled: { Component: HexagonLetterJFilled, metadata: HexagonLetterJFilledMetadata },
-    HexagonLetterKFilled: { Component: HexagonLetterKFilled, metadata: HexagonLetterKFilledMetadata },
-    HexagonLetterLFilled: { Component: HexagonLetterLFilled, metadata: HexagonLetterLFilledMetadata },
-    HexagonLetterMFilled: { Component: HexagonLetterMFilled, metadata: HexagonLetterMFilledMetadata },
-    HexagonLetterNFilled: { Component: HexagonLetterNFilled, metadata: HexagonLetterNFilledMetadata },
-    HexagonLetterOFilled: { Component: HexagonLetterOFilled, metadata: HexagonLetterOFilledMetadata },
-    HexagonLetterPFilled: { Component: HexagonLetterPFilled, metadata: HexagonLetterPFilledMetadata },
-    HexagonLetterQFilled: { Component: HexagonLetterQFilled, metadata: HexagonLetterQFilledMetadata },
-    HexagonLetterRFilled: { Component: HexagonLetterRFilled, metadata: HexagonLetterRFilledMetadata },
-    HexagonLetterSFilled: { Component: HexagonLetterSFilled, metadata: HexagonLetterSFilledMetadata },
-    HexagonLetterTFilled: { Component: HexagonLetterTFilled, metadata: HexagonLetterTFilledMetadata },
-    HexagonLetterUFilled: { Component: HexagonLetterUFilled, metadata: HexagonLetterUFilledMetadata },
-    HexagonLetterVFilled: { Component: HexagonLetterVFilled, metadata: HexagonLetterVFilledMetadata },
-    HexagonLetterWFilled: { Component: HexagonLetterWFilled, metadata: HexagonLetterWFilledMetadata },
-    HexagonLetterXFilled: { Component: HexagonLetterXFilled, metadata: HexagonLetterXFilledMetadata },
-    HexagonLetterYFilled: { Component: HexagonLetterYFilled, metadata: HexagonLetterYFilledMetadata },
-    HexagonLetterZFilled: { Component: HexagonLetterZFilled, metadata: HexagonLetterZFilledMetadata },
-    HexagonMinusFilled: { Component: HexagonMinusFilled, metadata: HexagonMinusFilledMetadata },
-    HexagonNumber0Filled: { Component: HexagonNumber0Filled, metadata: HexagonNumber0FilledMetadata },
-    HexagonNumber1Filled: { Component: HexagonNumber1Filled, metadata: HexagonNumber1FilledMetadata },
-    HexagonNumber2Filled: { Component: HexagonNumber2Filled, metadata: HexagonNumber2FilledMetadata },
-    HexagonNumber3Filled: { Component: HexagonNumber3Filled, metadata: HexagonNumber3FilledMetadata },
-    HexagonNumber4Filled: { Component: HexagonNumber4Filled, metadata: HexagonNumber4FilledMetadata },
-    HexagonNumber5Filled: { Component: HexagonNumber5Filled, metadata: HexagonNumber5FilledMetadata },
-    HexagonNumber6Filled: { Component: HexagonNumber6Filled, metadata: HexagonNumber6FilledMetadata },
-    HexagonNumber7Filled: { Component: HexagonNumber7Filled, metadata: HexagonNumber7FilledMetadata },
-    HexagonNumber8Filled: { Component: HexagonNumber8Filled, metadata: HexagonNumber8FilledMetadata },
-    HexagonNumber9Filled: { Component: HexagonNumber9Filled, metadata: HexagonNumber9FilledMetadata },
-    HexagonPlusFilled: { Component: HexagonPlusFilled, metadata: HexagonPlusFilledMetadata },
-  },
   home: {
+    AddCircleRounded: { Component: AddCircleRounded, metadata: AddCircleRoundedMetadata },
+    AddSquareRounded: { Component: AddSquareRounded, metadata: AddSquareRoundedMetadata },
+    AddRounded: { Component: AddRounded, metadata: AddRoundedMetadata },
     AnchorDoodle: { Component: AnchorDoodle, metadata: AnchorDoodleMetadata },
+    AutobrightnessRounded: { Component: AutobrightnessRounded, metadata: AutobrightnessRoundedMetadata },
     Balloon2Doodle: { Component: Balloon2Doodle, metadata: Balloon2DoodleMetadata },
     BalloonDoodle: { Component: BalloonDoodle, metadata: BalloonDoodleMetadata },
+    BatteryChargingRounded: { Component: BatteryChargingRounded, metadata: BatteryChargingRoundedMetadata },
+    BatteryDisableRounded: { Component: BatteryDisableRounded, metadata: BatteryDisableRoundedMetadata },
+    BatteryEmpty1Rounded: { Component: BatteryEmpty1Rounded, metadata: BatteryEmpty1RoundedMetadata },
+    BatteryEmptyRounded: { Component: BatteryEmptyRounded, metadata: BatteryEmptyRoundedMetadata },
+    BatteryFullRounded: { Component: BatteryFullRounded, metadata: BatteryFullRoundedMetadata },
+    Box2Rounded: { Component: Box2Rounded, metadata: Box2RoundedMetadata },
+    BroomRounded: { Component: BroomRounded, metadata: BroomRoundedMetadata },
+    BubbleRounded: { Component: BubbleRounded, metadata: BubbleRoundedMetadata },
+    CakeRounded: { Component: CakeRounded, metadata: CakeRoundedMetadata },
     CameraDoodle: { Component: CameraDoodle, metadata: CameraDoodleMetadata },
+    CdRounded: { Component: CdRounded, metadata: CdRoundedMetadata },
+    ChromeRounded: { Component: ChromeRounded, metadata: ChromeRoundedMetadata },
+    CloseCircleRounded: { Component: CloseCircleRounded, metadata: CloseCircleRoundedMetadata },
+    CloseSquareRounded: { Component: CloseSquareRounded, metadata: CloseSquareRoundedMetadata },
+    CoffeeRounded: { Component: CoffeeRounded, metadata: CoffeeRoundedMetadata },
+    ComputingRounded: { Component: ComputingRounded, metadata: ComputingRoundedMetadata },
+    Crown1Rounded: { Component: Crown1Rounded, metadata: Crown1RoundedMetadata },
     CrownDoodle: { Component: CrownDoodle, metadata: CrownDoodleMetadata },
+    CrownRounded: { Component: CrownRounded, metadata: CrownRoundedMetadata },
+    CubeRounded: { Component: CubeRounded, metadata: CubeRoundedMetadata },
+    CupRounded: { Component: CupRounded, metadata: CupRoundedMetadata },
+    DangerRounded: { Component: DangerRounded, metadata: DangerRoundedMetadata },
+    DiamondsRounded: { Component: DiamondsRounded, metadata: DiamondsRoundedMetadata },
+    DiscoverRounded: { Component: DiscoverRounded, metadata: DiscoverRoundedMetadata },
+    EmojiHappyRounded: { Component: EmojiHappyRounded, metadata: EmojiHappyRoundedMetadata },
+    EmojiNormalRounded: { Component: EmojiNormalRounded, metadata: EmojiNormalRoundedMetadata },
+    EmojiSadRounded: { Component: EmojiSadRounded, metadata: EmojiSadRoundedMetadata },
+    FilterAddRounded: { Component: FilterAddRounded, metadata: FilterAddRoundedMetadata },
+    FilterEditRounded: { Component: FilterEditRounded, metadata: FilterEditRoundedMetadata },
+    FilterRemoveRounded: { Component: FilterRemoveRounded, metadata: FilterRemoveRoundedMetadata },
+    FilterSearchRounded: { Component: FilterSearchRounded, metadata: FilterSearchRoundedMetadata },
+    FilterSquareRounded: { Component: FilterSquareRounded, metadata: FilterSquareRoundedMetadata },
+    FilterTickRounded: { Component: FilterTickRounded, metadata: FilterTickRoundedMetadata },
+    FilterRounded: { Component: FilterRounded, metadata: FilterRoundedMetadata },
+    Flag2Rounded: { Component: Flag2Rounded, metadata: Flag2RoundedMetadata },
+    FlagRounded: { Component: FlagRounded, metadata: FlagRoundedMetadata },
+    FlashSlashRounded: { Component: FlashSlashRounded, metadata: FlashSlashRoundedMetadata },
+    FlashRounded: { Component: FlashRounded, metadata: FlashRoundedMetadata },
     FlashlightDoodle: { Component: FlashlightDoodle, metadata: FlashlightDoodleMetadata },
     FrameDoodle: { Component: FrameDoodle, metadata: FrameDoodleMetadata },
+    FullRounded: { Component: FullRounded, metadata: FullRoundedMetadata },
+    GhostRounded: { Component: GhostRounded, metadata: GhostRoundedMetadata },
+    GrammerlyRounded: { Component: GrammerlyRounded, metadata: GrammerlyRoundedMetadata },
     GuitarDoodle: { Component: GuitarDoodle, metadata: GuitarDoodleMetadata },
+    HappyemojiRounded: { Component: HappyemojiRounded, metadata: HappyemojiRoundedMetadata },
+    Home2Rounded: { Component: Home2Rounded, metadata: Home2RoundedMetadata },
+    HomeWifiRounded: { Component: HomeWifiRounded, metadata: HomeWifiRoundedMetadata },
+    HomeRounded: { Component: HomeRounded, metadata: HomeRoundedMetadata },
+    InfoCircleRounded: { Component: InfoCircleRounded, metadata: InfoCircleRoundedMetadata },
+    InformationRounded: { Component: InformationRounded, metadata: InformationRoundedMetadata },
+    InstagramRounded: { Component: InstagramRounded, metadata: InstagramRoundedMetadata },
+    JudgeRounded: { Component: JudgeRounded, metadata: JudgeRoundedMetadata },
     LampCeiling: { Component: LampCeiling, metadata: LampCeilingMetadata },
     LampDesk: { Component: LampDesk, metadata: LampDeskMetadata },
     LampFloor: { Component: LampFloor, metadata: LampFloorMetadata },
     LampWallDown: { Component: LampWallDown, metadata: LampWallDownMetadata },
     LampWallUp: { Component: LampWallUp, metadata: LampWallUpMetadata },
     Lamp: { Component: Lamp, metadata: LampMetadata },
+    LevelRounded: { Component: LevelRounded, metadata: LevelRoundedMetadata },
     LightbulbOff: { Component: LightbulbOff, metadata: LightbulbOffMetadata },
     Lightbulb: { Component: Lightbulb, metadata: LightbulbMetadata },
+    MilkRounded: { Component: MilkRounded, metadata: MilkRoundedMetadata },
+    MinusCirlceRounded: { Component: MinusCirlceRounded, metadata: MinusCirlceRoundedMetadata },
+    MinusSquareRounded: { Component: MinusSquareRounded, metadata: MinusSquareRoundedMetadata },
+    MinusRounded: { Component: MinusRounded, metadata: MinusRoundedMetadata },
+    MirrorRounded: { Component: MirrorRounded, metadata: MirrorRoundedMetadata },
+    MoreCircle: { Component: MoreCircle, metadata: MoreCircleMetadata },
+    MoreSquareRounded: { Component: MoreSquareRounded, metadata: MoreSquareRoundedMetadata },
+    MouseCircleRounded: { Component: MouseCircleRounded, metadata: MouseCircleRoundedMetadata },
+    MouseSquareRounded: { Component: MouseSquareRounded, metadata: MouseSquareRoundedMetadata },
     MovieClapperDoodle: { Component: MovieClapperDoodle, metadata: MovieClapperDoodleMetadata },
     PaintBrush2Doodle: { Component: PaintBrush2Doodle, metadata: PaintBrush2DoodleMetadata },
     PaintBrushDoodle: { Component: PaintBrushDoodle, metadata: PaintBrushDoodleMetadata },
     PaintBucketDoodle: { Component: PaintBucketDoodle, metadata: PaintBucketDoodleMetadata },
     PaintRollerDoodle: { Component: PaintRollerDoodle, metadata: PaintRollerDoodleMetadata },
+    PetRounded: { Component: PetRounded, metadata: PetRoundedMetadata },
+    RankingRounded: { Component: RankingRounded, metadata: RankingRoundedMetadata },
+    ReserveRounded: { Component: ReserveRounded, metadata: ReserveRoundedMetadata },
+    SafeHomeRounded: { Component: SafeHomeRounded, metadata: SafeHomeRoundedMetadata },
+    Send2Rounded: { Component: Send2Rounded, metadata: Send2RoundedMetadata },
+    ShareRounded: { Component: ShareRounded, metadata: ShareRoundedMetadata },
+    SignpostRounded: { Component: SignpostRounded, metadata: SignpostRoundedMetadata },
+    SlashRounded: { Component: SlashRounded, metadata: SlashRoundedMetadata },
+    SliderRounded: { Component: SliderRounded, metadata: SliderRoundedMetadata },
+    SmartHomeRounded: { Component: SmartHomeRounded, metadata: SmartHomeRoundedMetadata },
     SofaDoodle: { Component: SofaDoodle, metadata: SofaDoodleMetadata },
+    SortRounded: { Component: SortRounded, metadata: SortRoundedMetadata },
+    SoundRounded: { Component: SoundRounded, metadata: SoundRoundedMetadata },
+    SpeedometerRounded: { Component: SpeedometerRounded, metadata: SpeedometerRoundedMetadata },
+    StatusRounded: { Component: StatusRounded, metadata: StatusRoundedMetadata },
+    StickerRounded: { Component: StickerRounded, metadata: StickerRoundedMetadata },
+    StoryRounded: { Component: StoryRounded, metadata: StoryRoundedMetadata },
+    TagCrossRounded: { Component: TagCrossRounded, metadata: TagCrossRoundedMetadata },
+    TagRightRounded: { Component: TagRightRounded, metadata: TagRightRoundedMetadata },
+    TickCircleRounded: { Component: TickCircleRounded, metadata: TickCircleRoundedMetadata },
+    TickSquareRounded: { Component: TickSquareRounded, metadata: TickSquareRoundedMetadata },
+    TrashRounded: { Component: TrashRounded, metadata: TrashRoundedMetadata },
+    TreeRounded: { Component: TreeRounded, metadata: TreeRoundedMetadata },
+    TrushSquareRounded: { Component: TrushSquareRounded, metadata: TrushSquareRoundedMetadata },
     TvDoodle: { Component: TvDoodle, metadata: TvDoodleMetadata },
+    VerifyRounded: { Component: VerifyRounded, metadata: VerifyRoundedMetadata },
+    Warning2Rounded: { Component: Warning2Rounded, metadata: Warning2RoundedMetadata },
+    WifiSquareRounded: { Component: WifiSquareRounded, metadata: WifiSquareRoundedMetadata },
+    WifiRounded: { Component: WifiRounded, metadata: WifiRoundedMetadata },
   },
   interface: {
     InfoDoodle: { Component: InfoDoodle, metadata: InfoDoodleMetadata },
@@ -8289,103 +8031,86 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
     ZoomOut1Doodle: { Component: ZoomOut1Doodle, metadata: ZoomOut1DoodleMetadata },
   },
   layout: {
+    AlignBottomRounded: { Component: AlignBottomRounded, metadata: AlignBottomRoundedMetadata },
+    AlignHorizontallyRounded: { Component: AlignHorizontallyRounded, metadata: AlignHorizontallyRoundedMetadata },
+    AlignLeftRounded: { Component: AlignLeftRounded, metadata: AlignLeftRoundedMetadata },
+    AlignRightRounded: { Component: AlignRightRounded, metadata: AlignRightRoundedMetadata },
+    AlignVerticallyRounded: { Component: AlignVerticallyRounded, metadata: AlignVerticallyRoundedMetadata },
     BetweenHorizontalEnd: { Component: BetweenHorizontalEnd, metadata: BetweenHorizontalEndMetadata },
     BetweenHorizontalStart: { Component: BetweenHorizontalStart, metadata: BetweenHorizontalStartMetadata },
     BetweenVerticalEnd: { Component: BetweenVerticalEnd, metadata: BetweenVerticalEndMetadata },
     BetweenVerticalStart: { Component: BetweenVerticalStart, metadata: BetweenVerticalStartMetadata },
-    Columns1Filled: { Component: Columns1Filled, metadata: Columns1FilledMetadata },
     Columns2: { Component: Columns2, metadata: Columns2Metadata },
-    Columns2Filled: { Component: Columns2Filled, metadata: Columns2FilledMetadata },
     Columns3Cog: { Component: Columns3Cog, metadata: Columns3CogMetadata },
     Columns3: { Component: Columns3, metadata: Columns3Metadata },
-    Columns3Filled: { Component: Columns3Filled, metadata: Columns3FilledMetadata },
     Columns4: { Component: Columns4, metadata: Columns4Metadata },
+    Convertshape2Rounded: { Component: Convertshape2Rounded, metadata: Convertshape2RoundedMetadata },
+    ConvertshapeRounded: { Component: ConvertshapeRounded, metadata: ConvertshapeRoundedMetadata },
+    CropRounded: { Component: CropRounded, metadata: CropRoundedMetadata },
+    Element1Rounded: { Component: Element1Rounded, metadata: Element1RoundedMetadata },
+    Element2Rounded: { Component: Element2Rounded, metadata: Element2RoundedMetadata },
+    Element3Rounded: { Component: Element3Rounded, metadata: Element3RoundedMetadata },
+    Element4Rounded: { Component: Element4Rounded, metadata: Element4RoundedMetadata },
+    ElementEqualRounded: { Component: ElementEqualRounded, metadata: ElementEqualRoundedMetadata },
+    ElementPlusRounded: { Component: ElementPlusRounded, metadata: ElementPlusRoundedMetadata },
+    FatrowsRounded: { Component: FatrowsRounded, metadata: FatrowsRoundedMetadata },
+    FormatCircleRounded: { Component: FormatCircleRounded, metadata: FormatCircleRoundedMetadata },
+    FormatSquareRounded: { Component: FormatSquareRounded, metadata: FormatSquareRoundedMetadata },
     GalleryHorizontalEnd: { Component: GalleryHorizontalEnd, metadata: GalleryHorizontalEndMetadata },
     GalleryHorizontal: { Component: GalleryHorizontal, metadata: GalleryHorizontalMetadata },
     GalleryThumbnails: { Component: GalleryThumbnails, metadata: GalleryThumbnailsMetadata },
     GalleryVerticalEnd: { Component: GalleryVerticalEnd, metadata: GalleryVerticalEndMetadata },
     GalleryVertical: { Component: GalleryVertical, metadata: GalleryVerticalMetadata },
+    Grid1Rounded: { Component: Grid1Rounded, metadata: Grid1RoundedMetadata },
+    Grid2Rounded: { Component: Grid2Rounded, metadata: Grid2RoundedMetadata },
     Grid2x2Check: { Component: Grid2x2Check, metadata: Grid2x2CheckMetadata },
     Grid2x2Plus: { Component: Grid2x2Plus, metadata: Grid2x2PlusMetadata },
     Grid2x2X: { Component: Grid2x2X, metadata: Grid2x2XMetadata },
     Grid2x2: { Component: Grid2x2, metadata: Grid2x2Metadata },
+    Grid3Rounded: { Component: Grid3Rounded, metadata: Grid3RoundedMetadata },
     Grid3x2: { Component: Grid3x2, metadata: Grid3x2Metadata },
     Grid3x3: { Component: Grid3x3, metadata: Grid3x3Metadata },
+    Grid4Rounded: { Component: Grid4Rounded, metadata: Grid4RoundedMetadata },
+    Grid5Rounded: { Component: Grid5Rounded, metadata: Grid5RoundedMetadata },
+    Grid6Rounded: { Component: Grid6Rounded, metadata: Grid6RoundedMetadata },
+    Grid7Rounded: { Component: Grid7Rounded, metadata: Grid7RoundedMetadata },
+    Grid8Rounded: { Component: Grid8Rounded, metadata: Grid8RoundedMetadata },
+    Grid9Rounded: { Component: Grid9Rounded, metadata: Grid9RoundedMetadata },
+    GridEditRounded: { Component: GridEditRounded, metadata: GridEditRoundedMetadata },
+    GridEraserRounded: { Component: GridEraserRounded, metadata: GridEraserRoundedMetadata },
+    GridLockRounded: { Component: GridLockRounded, metadata: GridLockRoundedMetadata },
     GripHorizontal: { Component: GripHorizontal, metadata: GripHorizontalMetadata },
     GripVertical: { Component: GripVertical, metadata: GripVerticalMetadata },
     Grip: { Component: Grip, metadata: GripMetadata },
+    KanbanRounded: { Component: KanbanRounded, metadata: KanbanRoundedMetadata },
     Layers2: { Component: Layers2, metadata: Layers2Metadata },
     LayersPlus: { Component: LayersPlus, metadata: LayersPlusMetadata },
     Layers: { Component: Layers, metadata: LayersMetadata },
-    Layout2Filled: { Component: Layout2Filled, metadata: Layout2FilledMetadata },
-    LayoutAlignBottomFilled: { Component: LayoutAlignBottomFilled, metadata: LayoutAlignBottomFilledMetadata },
-    LayoutAlignCenterFilled: { Component: LayoutAlignCenterFilled, metadata: LayoutAlignCenterFilledMetadata },
-    LayoutAlignLeftFilled: { Component: LayoutAlignLeftFilled, metadata: LayoutAlignLeftFilledMetadata },
-    LayoutAlignMiddleFilled: { Component: LayoutAlignMiddleFilled, metadata: LayoutAlignMiddleFilledMetadata },
-    LayoutAlignRightFilled: { Component: LayoutAlignRightFilled, metadata: LayoutAlignRightFilledMetadata },
-    LayoutAlignTopFilled: { Component: LayoutAlignTopFilled, metadata: LayoutAlignTopFilledMetadata },
-    LayoutBoardSplitFilled: { Component: LayoutBoardSplitFilled, metadata: LayoutBoardSplitFilledMetadata },
-    LayoutBoardFilled: { Component: LayoutBoardFilled, metadata: LayoutBoardFilledMetadata },
-    LayoutBottombarCollapseFilled: { Component: LayoutBottombarCollapseFilled, metadata: LayoutBottombarCollapseFilledMetadata },
-    LayoutBottombarExpandFilled: { Component: LayoutBottombarExpandFilled, metadata: LayoutBottombarExpandFilledMetadata },
-    LayoutBottombarFilled: { Component: LayoutBottombarFilled, metadata: LayoutBottombarFilledMetadata },
-    LayoutCardsFilled: { Component: LayoutCardsFilled, metadata: LayoutCardsFilledMetadata },
     LayoutDashboard: { Component: LayoutDashboard, metadata: LayoutDashboardMetadata },
-    LayoutDashboardFilled: { Component: LayoutDashboardFilled, metadata: LayoutDashboardFilledMetadata },
-    LayoutDistributeHorizontalFilled: { Component: LayoutDistributeHorizontalFilled, metadata: LayoutDistributeHorizontalFilledMetadata },
-    LayoutDistributeVerticalFilled: { Component: LayoutDistributeVerticalFilled, metadata: LayoutDistributeVerticalFilledMetadata },
     LayoutGrid: { Component: LayoutGrid, metadata: LayoutGridMetadata },
-    LayoutGridFilled: { Component: LayoutGridFilled, metadata: LayoutGridFilledMetadata },
-    LayoutKanbanFilled: { Component: LayoutKanbanFilled, metadata: LayoutKanbanFilledMetadata },
     LayoutList: { Component: LayoutList, metadata: LayoutListMetadata },
-    LayoutListFilled: { Component: LayoutListFilled, metadata: LayoutListFilledMetadata },
-    LayoutNavbarCollapseFilled: { Component: LayoutNavbarCollapseFilled, metadata: LayoutNavbarCollapseFilledMetadata },
-    LayoutNavbarExpandFilled: { Component: LayoutNavbarExpandFilled, metadata: LayoutNavbarExpandFilledMetadata },
-    LayoutNavbarFilled: { Component: LayoutNavbarFilled, metadata: LayoutNavbarFilledMetadata },
     LayoutPanelLeft: { Component: LayoutPanelLeft, metadata: LayoutPanelLeftMetadata },
     LayoutPanelTop: { Component: LayoutPanelTop, metadata: LayoutPanelTopMetadata },
-    LayoutSidebarLeftCollapseFilled: { Component: LayoutSidebarLeftCollapseFilled, metadata: LayoutSidebarLeftCollapseFilledMetadata },
-    LayoutSidebarLeftExpandFilled: { Component: LayoutSidebarLeftExpandFilled, metadata: LayoutSidebarLeftExpandFilledMetadata },
-    LayoutSidebarRightCollapseFilled: { Component: LayoutSidebarRightCollapseFilled, metadata: LayoutSidebarRightCollapseFilledMetadata },
-    LayoutSidebarRightExpandFilled: { Component: LayoutSidebarRightExpandFilled, metadata: LayoutSidebarRightExpandFilledMetadata },
-    LayoutSidebarRightFilled: { Component: LayoutSidebarRightFilled, metadata: LayoutSidebarRightFilledMetadata },
-    LayoutSidebarFilled: { Component: LayoutSidebarFilled, metadata: LayoutSidebarFilledMetadata },
     LayoutTemplate: { Component: LayoutTemplate, metadata: LayoutTemplateMetadata },
-    LayoutFilled: { Component: LayoutFilled, metadata: LayoutFilledMetadata },
+    Maximize1Rounded: { Component: Maximize1Rounded, metadata: Maximize1RoundedMetadata },
+    Maximize2Rounded: { Component: Maximize2Rounded, metadata: Maximize2RoundedMetadata },
+    Maximize3Rounded: { Component: Maximize3Rounded, metadata: Maximize3RoundedMetadata },
+    Maximize4Rounded: { Component: Maximize4Rounded, metadata: Maximize4RoundedMetadata },
+    MaximizeRounded: { Component: MaximizeRounded, metadata: MaximizeRoundedMetadata },
     Proportions: { Component: Proportions, metadata: ProportionsMetadata },
+    RowHorizontalRounded: { Component: RowHorizontalRounded, metadata: RowHorizontalRoundedMetadata },
+    RowVerticalRounded: { Component: RowVerticalRounded, metadata: RowVerticalRoundedMetadata },
     Rows2: { Component: Rows2, metadata: Rows2Metadata },
     Rows3: { Component: Rows3, metadata: Rows3Metadata },
     Rows4: { Component: Rows4, metadata: Rows4Metadata },
     SeparatorHorizontal: { Component: SeparatorHorizontal, metadata: SeparatorHorizontalMetadata },
     SeparatorVertical: { Component: SeparatorVertical, metadata: SeparatorVerticalMetadata },
+    SliderHorizontal1Rounded: { Component: SliderHorizontal1Rounded, metadata: SliderHorizontal1RoundedMetadata },
+    SliderHorizontalRounded: { Component: SliderHorizontalRounded, metadata: SliderHorizontalRoundedMetadata },
+    SliderVertical1Rounded: { Component: SliderVertical1Rounded, metadata: SliderVertical1RoundedMetadata },
+    SliderVerticalRounded: { Component: SliderVerticalRounded, metadata: SliderVerticalRoundedMetadata },
     StretchHorizontal: { Component: StretchHorizontal, metadata: StretchHorizontalMetadata },
     StretchVertical: { Component: StretchVertical, metadata: StretchVerticalMetadata },
-  },
-  letter: {
-    AArrowDown: { Component: AArrowDown, metadata: AArrowDownMetadata },
-    AArrowUp: { Component: AArrowUp, metadata: AArrowUpMetadata },
-    ALargeSmall: { Component: ALargeSmall, metadata: ALargeSmallMetadata },
-    Ampersand: { Component: Ampersand, metadata: AmpersandMetadata },
-    Ampersands: { Component: Ampersands, metadata: AmpersandsMetadata },
-    AtSign: { Component: AtSign, metadata: AtSignMetadata },
-    Braces: { Component: Braces, metadata: BracesMetadata },
-    Brackets: { Component: Brackets, metadata: BracketsMetadata },
-    CaseLower: { Component: CaseLower, metadata: CaseLowerMetadata },
-    CaseSensitive: { Component: CaseSensitive, metadata: CaseSensitiveMetadata },
-    CaseUpper: { Component: CaseUpper, metadata: CaseUpperMetadata },
-    Dot: { Component: Dot, metadata: DotMetadata },
-    Hash: { Component: Hash, metadata: HashMetadata },
-    Heading1: { Component: Heading1, metadata: Heading1Metadata },
-    Heading2: { Component: Heading2, metadata: Heading2Metadata },
-    Heading3: { Component: Heading3, metadata: Heading3Metadata },
-    Heading4: { Component: Heading4, metadata: Heading4Metadata },
-    Heading5: { Component: Heading5, metadata: Heading5Metadata },
-    Heading6: { Component: Heading6, metadata: Heading6Metadata },
-    Heading: { Component: Heading, metadata: HeadingMetadata },
-    Italic: { Component: Italic, metadata: ItalicMetadata },
-    Languages: { Component: Languages, metadata: LanguagesMetadata },
-    TypeOutline: { Component: TypeOutline, metadata: TypeOutlineMetadata },
-    Type: { Component: Type, metadata: TypeMetadata },
   },
   list: {
     ListCheck: { Component: ListCheck, metadata: ListCheckMetadata },
@@ -8446,8 +8171,19 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
     Tally5: { Component: Tally5, metadata: Tally5Metadata },
   },
   message: {
-    Message2Filled: { Component: Message2Filled, metadata: Message2FilledMetadata },
-    MessageChatbotFilled: { Component: MessageChatbotFilled, metadata: MessageChatbotFilledMetadata },
+    DeviceMessageRounded: { Component: DeviceMessageRounded, metadata: DeviceMessageRoundedMetadata },
+    DirectInboxRounded: { Component: DirectInboxRounded, metadata: DirectInboxRoundedMetadata },
+    DirectNormalRounded: { Component: DirectNormalRounded, metadata: DirectNormalRoundedMetadata },
+    DirectNotificationRounded: { Component: DirectNotificationRounded, metadata: DirectNotificationRoundedMetadata },
+    DirectSendRounded: { Component: DirectSendRounded, metadata: DirectSendRoundedMetadata },
+    DirectRounded: { Component: DirectRounded, metadata: DirectRoundedMetadata },
+    DirectboxDefaultRounded: { Component: DirectboxDefaultRounded, metadata: DirectboxDefaultRoundedMetadata },
+    DirectboxNotifRounded: { Component: DirectboxNotifRounded, metadata: DirectboxNotifRoundedMetadata },
+    DirectboxReceiveRounded: { Component: DirectboxReceiveRounded, metadata: DirectboxReceiveRoundedMetadata },
+    DirectboxSendRounded: { Component: DirectboxSendRounded, metadata: DirectboxSendRoundedMetadata },
+    Message2Rounded: { Component: Message2Rounded, metadata: Message2RoundedMetadata },
+    MessageAdd1Rounded: { Component: MessageAdd1Rounded, metadata: MessageAdd1RoundedMetadata },
+    MessageAddRounded: { Component: MessageAddRounded, metadata: MessageAddRoundedMetadata },
     MessageCircleCheck: { Component: MessageCircleCheck, metadata: MessageCircleCheckMetadata },
     MessageCircleCode: { Component: MessageCircleCode, metadata: MessageCircleCodeMetadata },
     MessageCircleDashed: { Component: MessageCircleDashed, metadata: MessageCircleDashedMetadata },
@@ -8460,8 +8196,13 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
     MessageCircleWarning: { Component: MessageCircleWarning, metadata: MessageCircleWarningMetadata },
     MessageCircleX: { Component: MessageCircleX, metadata: MessageCircleXMetadata },
     MessageCircle: { Component: MessageCircle, metadata: MessageCircleMetadata },
-    MessageCircleFilled: { Component: MessageCircleFilled, metadata: MessageCircleFilledMetadata },
-    MessageReportFilled: { Component: MessageReportFilled, metadata: MessageReportFilledMetadata },
+    MessageCircleRounded: { Component: MessageCircleRounded, metadata: MessageCircleRoundedMetadata },
+    MessageEditRounded: { Component: MessageEditRounded, metadata: MessageEditRoundedMetadata },
+    MessageFavoriteRounded: { Component: MessageFavoriteRounded, metadata: MessageFavoriteRoundedMetadata },
+    MessageMinusRounded: { Component: MessageMinusRounded, metadata: MessageMinusRoundedMetadata },
+    MessageNotifRounded: { Component: MessageNotifRounded, metadata: MessageNotifRoundedMetadata },
+    MessageRemoveRounded: { Component: MessageRemoveRounded, metadata: MessageRemoveRoundedMetadata },
+    MessageSearchRounded: { Component: MessageSearchRounded, metadata: MessageSearchRoundedMetadata },
     MessageSquareCheck: { Component: MessageSquareCheck, metadata: MessageSquareCheckMetadata },
     MessageSquareCode: { Component: MessageSquareCode, metadata: MessageSquareCodeMetadata },
     MessageSquareDashed: { Component: MessageSquareDashed, metadata: MessageSquareDashedMetadata },
@@ -8479,8 +8220,23 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
     MessageSquareWarning: { Component: MessageSquareWarning, metadata: MessageSquareWarningMetadata },
     MessageSquareX: { Component: MessageSquareX, metadata: MessageSquareXMetadata },
     MessageSquare: { Component: MessageSquare, metadata: MessageSquareMetadata },
-    MessageFilled: { Component: MessageFilled, metadata: MessageFilledMetadata },
+    MessageSquareRounded: { Component: MessageSquareRounded, metadata: MessageSquareRoundedMetadata },
+    MessageText1Rounded: { Component: MessageText1Rounded, metadata: MessageText1RoundedMetadata },
+    MessageTextRounded: { Component: MessageTextRounded, metadata: MessageTextRoundedMetadata },
+    MessageTickRounded: { Component: MessageTickRounded, metadata: MessageTickRoundedMetadata },
+    MessageTimeRounded: { Component: MessageTimeRounded, metadata: MessageTimeRoundedMetadata },
+    MessageRounded: { Component: MessageRounded, metadata: MessageRoundedMetadata },
+    Messages1Rounded: { Component: Messages1Rounded, metadata: Messages1RoundedMetadata },
+    Messages2Rounded: { Component: Messages2Rounded, metadata: Messages2RoundedMetadata },
+    Messages3Rounded: { Component: Messages3Rounded, metadata: Messages3RoundedMetadata },
     MessagesSquare: { Component: MessagesSquare, metadata: MessagesSquareMetadata },
+    MessagesRounded: { Component: MessagesRounded, metadata: MessagesRoundedMetadata },
+    SmsEditRounded: { Component: SmsEditRounded, metadata: SmsEditRoundedMetadata },
+    SmsNotificationRounded: { Component: SmsNotificationRounded, metadata: SmsNotificationRoundedMetadata },
+    SmsSearchRounded: { Component: SmsSearchRounded, metadata: SmsSearchRoundedMetadata },
+    SmsStarRounded: { Component: SmsStarRounded, metadata: SmsStarRoundedMetadata },
+    SmsTrackingRounded: { Component: SmsTrackingRounded, metadata: SmsTrackingRoundedMetadata },
+    SmsRounded: { Component: SmsRounded, metadata: SmsRoundedMetadata },
   },
   misc: {
     AutomationDoodle: { Component: AutomationDoodle, metadata: AutomationDoodleMetadata },
@@ -8518,53 +8274,119 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
   },
   multimedia: {
     AudioLines: { Component: AudioLines, metadata: AudioLinesMetadata },
+    AudioSquareRounded: { Component: AudioSquareRounded, metadata: AudioSquareRoundedMetadata },
     AudioWaveform: { Component: AudioWaveform, metadata: AudioWaveformMetadata },
+    Backward10SecondsRounded: { Component: Backward10SecondsRounded, metadata: Backward10SecondsRoundedMetadata },
+    Backward15SecondsRounded: { Component: Backward15SecondsRounded, metadata: Backward15SecondsRoundedMetadata },
+    Backward5SecondsRounded: { Component: Backward5SecondsRounded, metadata: Backward5SecondsRoundedMetadata },
+    BackwardRounded: { Component: BackwardRounded, metadata: BackwardRoundedMetadata },
     CameraOff: { Component: CameraOff, metadata: CameraOffMetadata },
+    CameraSlashRounded: { Component: CameraSlashRounded, metadata: CameraSlashRoundedMetadata },
     Camera: { Component: Camera, metadata: CameraMetadata },
+    CameraRounded: { Component: CameraRounded, metadata: CameraRoundedMetadata },
     Cctv: { Component: Cctv, metadata: CctvMetadata },
     Clapperboard: { Component: Clapperboard, metadata: ClapperboardMetadata },
     Disc2: { Component: Disc2, metadata: Disc2Metadata },
     Disc3: { Component: Disc3, metadata: Disc3Metadata },
     DiscAlbum: { Component: DiscAlbum, metadata: DiscAlbumMetadata },
     Disc: { Component: Disc, metadata: DiscMetadata },
+    Forward10SecondsRounded: { Component: Forward10SecondsRounded, metadata: Forward10SecondsRoundedMetadata },
+    Forward15SecondsRounded: { Component: Forward15SecondsRounded, metadata: Forward15SecondsRoundedMetadata },
+    Forward5SecondsRounded: { Component: Forward5SecondsRounded, metadata: Forward5SecondsRoundedMetadata },
+    GalleryAddRounded: { Component: GalleryAddRounded, metadata: GalleryAddRoundedMetadata },
+    GalleryEditRounded: { Component: GalleryEditRounded, metadata: GalleryEditRoundedMetadata },
+    GalleryFavoriteRounded: { Component: GalleryFavoriteRounded, metadata: GalleryFavoriteRoundedMetadata },
+    GalleryImportRounded: { Component: GalleryImportRounded, metadata: GalleryImportRoundedMetadata },
+    GalleryRemoveRounded: { Component: GalleryRemoveRounded, metadata: GalleryRemoveRoundedMetadata },
+    GallerySlashRounded: { Component: GallerySlashRounded, metadata: GallerySlashRoundedMetadata },
+    GalleryTickRounded: { Component: GalleryTickRounded, metadata: GalleryTickRoundedMetadata },
+    GalleryRounded: { Component: GalleryRounded, metadata: GalleryRoundedMetadata },
     HeadphoneOff: { Component: HeadphoneOff, metadata: HeadphoneOffMetadata },
     Headphones: { Component: Headphones, metadata: HeadphonesMetadata },
     Headset: { Component: Headset, metadata: HeadsetMetadata },
+    ImageRounded: { Component: ImageRounded, metadata: ImageRoundedMetadata },
+    MaximizeCircleRounded: { Component: MaximizeCircleRounded, metadata: MaximizeCircleRoundedMetadata },
     MegaphoneOff: { Component: MegaphoneOff, metadata: MegaphoneOffMetadata },
     Megaphone: { Component: Megaphone, metadata: MegaphoneMetadata },
     MicOff: { Component: MicOff, metadata: MicOffMetadata },
     MicVocal: { Component: MicVocal, metadata: MicVocalMetadata },
     Mic: { Component: Mic, metadata: MicMetadata },
+    Microphone2Rounded: { Component: Microphone2Rounded, metadata: Microphone2RoundedMetadata },
+    MicrophoneSlash1Rounded: { Component: MicrophoneSlash1Rounded, metadata: MicrophoneSlash1RoundedMetadata },
+    MicrophoneSlashRounded: { Component: MicrophoneSlashRounded, metadata: MicrophoneSlashRoundedMetadata },
+    MicrophoneRounded: { Component: MicrophoneRounded, metadata: MicrophoneRoundedMetadata },
+    MiniMusicSqaureRounded: { Component: MiniMusicSqaureRounded, metadata: MiniMusicSqaureRoundedMetadata },
     Music2: { Component: Music2, metadata: Music2Metadata },
     Music3: { Component: Music3, metadata: Music3Metadata },
     Music4: { Component: Music4, metadata: Music4Metadata },
+    MusicCircleRounded: { Component: MusicCircleRounded, metadata: MusicCircleRoundedMetadata },
+    MusicDashboardRounded: { Component: MusicDashboardRounded, metadata: MusicDashboardRoundedMetadata },
+    MusicFilterRounded: { Component: MusicFilterRounded, metadata: MusicFilterRoundedMetadata },
+    MusicLibrary2Rounded: { Component: MusicLibrary2Rounded, metadata: MusicLibrary2RoundedMetadata },
+    MusicPlaylistRounded: { Component: MusicPlaylistRounded, metadata: MusicPlaylistRoundedMetadata },
+    MusicSquareAddRounded: { Component: MusicSquareAddRounded, metadata: MusicSquareAddRoundedMetadata },
+    MusicSquareRemoveRounded: { Component: MusicSquareRemoveRounded, metadata: MusicSquareRemoveRoundedMetadata },
+    MusicSquareSearchRounded: { Component: MusicSquareSearchRounded, metadata: MusicSquareSearchRoundedMetadata },
+    MusicSquareRounded: { Component: MusicSquareRounded, metadata: MusicSquareRoundedMetadata },
     Music: { Component: Music, metadata: MusicMetadata },
+    MusicRounded: { Component: MusicRounded, metadata: MusicRoundedMetadata },
+    MusicnoteRounded: { Component: MusicnoteRounded, metadata: MusicnoteRoundedMetadata },
+    NextRounded: { Component: NextRounded, metadata: NextRoundedMetadata },
+    NoteSquareRounded: { Component: NoteSquareRounded, metadata: NoteSquareRoundedMetadata },
+    PauseCircleRounded: { Component: PauseCircleRounded, metadata: PauseCircleRoundedMetadata },
     Pause: { Component: Pause, metadata: PauseMetadata },
+    PauseRounded: { Component: PauseRounded, metadata: PauseRoundedMetadata },
+    PlayAddRounded: { Component: PlayAddRounded, metadata: PlayAddRoundedMetadata },
+    PlayCircleRounded: { Component: PlayCircleRounded, metadata: PlayCircleRoundedMetadata },
+    PlayCricleRounded: { Component: PlayCricleRounded, metadata: PlayCricleRoundedMetadata },
+    PlayRemoveRounded: { Component: PlayRemoveRounded, metadata: PlayRemoveRoundedMetadata },
     Play: { Component: Play, metadata: PlayMetadata },
-    PlayerEjectFilled: { Component: PlayerEjectFilled, metadata: PlayerEjectFilledMetadata },
-    PlayerPauseFilled: { Component: PlayerPauseFilled, metadata: PlayerPauseFilledMetadata },
-    PlayerPlayFilled: { Component: PlayerPlayFilled, metadata: PlayerPlayFilledMetadata },
-    PlayerRecordFilled: { Component: PlayerRecordFilled, metadata: PlayerRecordFilledMetadata },
-    PlayerSkipBackFilled: { Component: PlayerSkipBackFilled, metadata: PlayerSkipBackFilledMetadata },
-    PlayerSkipForwardFilled: { Component: PlayerSkipForwardFilled, metadata: PlayerSkipForwardFilledMetadata },
-    PlayerStopFilled: { Component: PlayerStopFilled, metadata: PlayerStopFilledMetadata },
-    PlayerTrackNextFilled: { Component: PlayerTrackNextFilled, metadata: PlayerTrackNextFilledMetadata },
-    PlayerTrackPrevFilled: { Component: PlayerTrackPrevFilled, metadata: PlayerTrackPrevFilledMetadata },
-    PlaylistFilled: { Component: PlaylistFilled, metadata: PlaylistFilledMetadata },
+    PlayRounded: { Component: PlayRounded, metadata: PlayRoundedMetadata },
+    PreviousRounded: { Component: PreviousRounded, metadata: PreviousRoundedMetadata },
+    RadioRounded: { Component: RadioRounded, metadata: RadioRoundedMetadata },
+    RecordCircleRounded: { Component: RecordCircleRounded, metadata: RecordCircleRoundedMetadata },
+    RecordRounded: { Component: RecordRounded, metadata: RecordRoundedMetadata },
+    RepeateMusicRounded: { Component: RepeateMusicRounded, metadata: RepeateMusicRoundedMetadata },
+    RepeateOneRounded: { Component: RepeateOneRounded, metadata: RepeateOneRoundedMetadata },
     Rewind: { Component: Rewind, metadata: RewindMetadata },
+    ScreenmirroringRounded: { Component: ScreenmirroringRounded, metadata: ScreenmirroringRoundedMetadata },
     SkipBack: { Component: SkipBack, metadata: SkipBackMetadata },
     SkipForward: { Component: SkipForward, metadata: SkipForwardMetadata },
     StepBack: { Component: StepBack, metadata: StepBackMetadata },
     StepForward: { Component: StepForward, metadata: StepForwardMetadata },
+    StopCircleRounded: { Component: StopCircleRounded, metadata: StopCircleRoundedMetadata },
+    StopRounded: { Component: StopRounded, metadata: StopRoundedMetadata },
+    SubtitleRounded: { Component: SubtitleRounded, metadata: SubtitleRoundedMetadata },
     TvMinimalPlay: { Component: TvMinimalPlay, metadata: TvMinimalPlayMetadata },
     TvMinimal: { Component: TvMinimal, metadata: TvMinimalMetadata },
     Tv: { Component: Tv, metadata: TvMetadata },
+    VideoAddRounded: { Component: VideoAddRounded, metadata: VideoAddRoundedMetadata },
+    VideoCircleRounded: { Component: VideoCircleRounded, metadata: VideoCircleRoundedMetadata },
+    VideoHorizontalRounded: { Component: VideoHorizontalRounded, metadata: VideoHorizontalRoundedMetadata },
+    VideoOctagonRounded: { Component: VideoOctagonRounded, metadata: VideoOctagonRoundedMetadata },
     VideoOff: { Component: VideoOff, metadata: VideoOffMetadata },
+    VideoPlayRounded: { Component: VideoPlayRounded, metadata: VideoPlayRoundedMetadata },
+    VideoRemoveRounded: { Component: VideoRemoveRounded, metadata: VideoRemoveRoundedMetadata },
+    VideoSlashRounded: { Component: VideoSlashRounded, metadata: VideoSlashRoundedMetadata },
+    VideoSquareRounded: { Component: VideoSquareRounded, metadata: VideoSquareRoundedMetadata },
+    VideoTickRounded: { Component: VideoTickRounded, metadata: VideoTickRoundedMetadata },
+    VideoTimeRounded: { Component: VideoTimeRounded, metadata: VideoTimeRoundedMetadata },
+    VideoVerticalRounded: { Component: VideoVerticalRounded, metadata: VideoVerticalRoundedMetadata },
     Video: { Component: Video, metadata: VideoMetadata },
+    VideoRounded: { Component: VideoRounded, metadata: VideoRoundedMetadata },
     Videotape: { Component: Videotape, metadata: VideotapeMetadata },
+    VoiceCricleRounded: { Component: VoiceCricleRounded, metadata: VoiceCricleRoundedMetadata },
+    VoiceSquareRounded: { Component: VoiceSquareRounded, metadata: VoiceSquareRoundedMetadata },
     Volume1: { Component: Volume1, metadata: Volume1Metadata },
     Volume2: { Component: Volume2, metadata: Volume2Metadata },
+    VolumeCrossRounded: { Component: VolumeCrossRounded, metadata: VolumeCrossRoundedMetadata },
+    VolumeHighRounded: { Component: VolumeHighRounded, metadata: VolumeHighRoundedMetadata },
+    VolumeLow1Rounded: { Component: VolumeLow1Rounded, metadata: VolumeLow1RoundedMetadata },
+    VolumeLowRounded: { Component: VolumeLowRounded, metadata: VolumeLowRoundedMetadata },
+    VolumeMuteRounded: { Component: VolumeMuteRounded, metadata: VolumeMuteRoundedMetadata },
     VolumeOff: { Component: VolumeOff, metadata: VolumeOffMetadata },
+    VolumeSlashRounded: { Component: VolumeSlashRounded, metadata: VolumeSlashRoundedMetadata },
+    VolumeUpRounded: { Component: VolumeUpRounded, metadata: VolumeUpRoundedMetadata },
     VolumeX: { Component: VolumeX, metadata: VolumeXMetadata },
     Volume: { Component: Volume, metadata: VolumeMetadata },
   },
@@ -8583,9 +8405,28 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
     Trees: { Component: Trees, metadata: TreesMetadata },
   },
   navigation: {
+    ArrowSquareRounded: { Component: ArrowSquareRounded, metadata: ArrowSquareRoundedMetadata },
+    ArrowRounded: { Component: ArrowRounded, metadata: ArrowRoundedMetadata },
+    DirectDownRounded: { Component: DirectDownRounded, metadata: DirectDownRoundedMetadata },
+    DirectLeftRounded: { Component: DirectLeftRounded, metadata: DirectLeftRoundedMetadata },
+    DirectRightRounded: { Component: DirectRightRounded, metadata: DirectRightRoundedMetadata },
+    DirectUpRounded: { Component: DirectUpRounded, metadata: DirectUpRoundedMetadata },
+    GlobalEditRounded: { Component: GlobalEditRounded, metadata: GlobalEditRoundedMetadata },
+    GlobalRefreshRounded: { Component: GlobalRefreshRounded, metadata: GlobalRefreshRoundedMetadata },
+    GlobalSearchRounded: { Component: GlobalSearchRounded, metadata: GlobalSearchRoundedMetadata },
+    GlobalRounded: { Component: GlobalRounded, metadata: GlobalRoundedMetadata },
+    GpsSlashRounded: { Component: GpsSlashRounded, metadata: GpsSlashRoundedMetadata },
+    GpsRounded: { Component: GpsRounded, metadata: GpsRoundedMetadata },
     LocateFixed: { Component: LocateFixed, metadata: LocateFixedMetadata },
     LocateOff: { Component: LocateOff, metadata: LocateOffMetadata },
     Locate: { Component: Locate, metadata: LocateMetadata },
+    LocationAddRounded: { Component: LocationAddRounded, metadata: LocationAddRoundedMetadata },
+    LocationCrossRounded: { Component: LocationCrossRounded, metadata: LocationCrossRoundedMetadata },
+    LocationMinusRounded: { Component: LocationMinusRounded, metadata: LocationMinusRoundedMetadata },
+    LocationSlashRounded: { Component: LocationSlashRounded, metadata: LocationSlashRoundedMetadata },
+    LocationTickRounded: { Component: LocationTickRounded, metadata: LocationTickRoundedMetadata },
+    LocationRounded: { Component: LocationRounded, metadata: LocationRoundedMetadata },
+    Map1Rounded: { Component: Map1Rounded, metadata: Map1RoundedMetadata },
     MapMinus: { Component: MapMinus, metadata: MapMinusMetadata },
     MapPinCheckInside: { Component: MapPinCheckInside, metadata: MapPinCheckInsideMetadata },
     MapPinCheck: { Component: MapPinCheck, metadata: MapPinCheckMetadata },
@@ -8602,10 +8443,17 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
     MapPinned: { Component: MapPinned, metadata: MapPinnedMetadata },
     MapPlus: { Component: MapPlus, metadata: MapPlusMetadata },
     Map: { Component: Map, metadata: MapMetadata },
+    MapRounded: { Component: MapRounded, metadata: MapRoundedMetadata },
     Navigation2Off: { Component: Navigation2Off, metadata: Navigation2OffMetadata },
     Navigation2: { Component: Navigation2, metadata: Navigation2Metadata },
     NavigationOff: { Component: NavigationOff, metadata: NavigationOffMetadata },
     Navigation: { Component: Navigation, metadata: NavigationMetadata },
+    PictureFrameRounded: { Component: PictureFrameRounded, metadata: PictureFrameRoundedMetadata },
+    Radar2Rounded: { Component: Radar2Rounded, metadata: Radar2RoundedMetadata },
+    RadarRounded: { Component: RadarRounded, metadata: RadarRoundedMetadata },
+    RouteSquareRounded: { Component: RouteSquareRounded, metadata: RouteSquareRoundedMetadata },
+    Routing2Rounded: { Component: Routing2Rounded, metadata: Routing2RoundedMetadata },
+    RoutingRounded: { Component: RoutingRounded, metadata: RoutingRoundedMetadata },
   },
   network: {
     Network: { Component: Network, metadata: NetworkMetadata },
@@ -8630,18 +8478,20 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
     BellDot: { Component: BellDot, metadata: BellDotMetadata },
     BellElectric: { Component: BellElectric, metadata: BellElectricMetadata },
     BellMinus: { Component: BellMinus, metadata: BellMinusMetadata },
-    BellMinusFilled: { Component: BellMinusFilled, metadata: BellMinusFilledMetadata },
     BellOff: { Component: BellOff, metadata: BellOffMetadata },
     BellPlus: { Component: BellPlus, metadata: BellPlusMetadata },
-    BellPlusFilled: { Component: BellPlusFilled, metadata: BellPlusFilledMetadata },
     BellRing: { Component: BellRing, metadata: BellRingMetadata },
-    BellRinging2Filled: { Component: BellRinging2Filled, metadata: BellRinging2FilledMetadata },
-    BellRingingFilled: { Component: BellRingingFilled, metadata: BellRingingFilledMetadata },
-    BellXFilled: { Component: BellXFilled, metadata: BellXFilledMetadata },
-    BellZFilled: { Component: BellZFilled, metadata: BellZFilledMetadata },
     Bell: { Component: Bell, metadata: BellMetadata },
-    BellFilled: { Component: BellFilled, metadata: BellFilledMetadata },
     EthernetPort: { Component: EthernetPort, metadata: EthernetPortMetadata },
+    LampChargeRounded: { Component: LampChargeRounded, metadata: LampChargeRoundedMetadata },
+    LampOnRounded: { Component: LampOnRounded, metadata: LampOnRoundedMetadata },
+    LampSlashRounded: { Component: LampSlashRounded, metadata: LampSlashRoundedMetadata },
+    Notification1Rounded: { Component: Notification1Rounded, metadata: Notification1RoundedMetadata },
+    NotificationBingRounded: { Component: NotificationBingRounded, metadata: NotificationBingRoundedMetadata },
+    NotificationCircleRounded: { Component: NotificationCircleRounded, metadata: NotificationCircleRoundedMetadata },
+    NotificationFavoriteRounded: { Component: NotificationFavoriteRounded, metadata: NotificationFavoriteRoundedMetadata },
+    NotificationStatusRounded: { Component: NotificationStatusRounded, metadata: NotificationStatusRoundedMetadata },
+    NotificationRounded: { Component: NotificationRounded, metadata: NotificationRoundedMetadata },
   },
   others: {
     Accessibility: { Component: Accessibility, metadata: AccessibilityMetadata },
@@ -9251,13 +9101,40 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
     Scan: { Component: Scan, metadata: ScanMetadata },
   },
   security: {
+    AlarmRounded: { Component: AlarmRounded, metadata: AlarmRoundedMetadata },
+    CheckRounded: { Component: CheckRounded, metadata: CheckRoundedMetadata },
+    EyeSlashRounded: { Component: EyeSlashRounded, metadata: EyeSlashRoundedMetadata },
+    EyeRounded: { Component: EyeRounded, metadata: EyeRoundedMetadata },
+    FingerCricleRounded: { Component: FingerCricleRounded, metadata: FingerCricleRoundedMetadata },
+    FingerScanRounded: { Component: FingerScanRounded, metadata: FingerScanRoundedMetadata },
     KeyRound: { Component: KeyRound, metadata: KeyRoundMetadata },
     KeySquare: { Component: KeySquare, metadata: KeySquareMetadata },
+    KeySquareRounded: { Component: KeySquareRounded, metadata: KeySquareRoundedMetadata },
     Key: { Component: Key, metadata: KeyMetadata },
+    KeyRounded: { Component: KeyRounded, metadata: KeyRoundedMetadata },
+    Lock1Rounded: { Component: Lock1Rounded, metadata: Lock1RoundedMetadata },
+    LockCircleRounded: { Component: LockCircleRounded, metadata: LockCircleRoundedMetadata },
     LockKeyholeOpen: { Component: LockKeyholeOpen, metadata: LockKeyholeOpenMetadata },
     LockKeyhole: { Component: LockKeyhole, metadata: LockKeyholeMetadata },
     LockOpen: { Component: LockOpen, metadata: LockOpenMetadata },
+    LockSlashRounded: { Component: LockSlashRounded, metadata: LockSlashRoundedMetadata },
     Lock: { Component: Lock, metadata: LockMetadata },
+    LockRounded: { Component: LockRounded, metadata: LockRoundedMetadata },
+    PasswordCheckRounded: { Component: PasswordCheckRounded, metadata: PasswordCheckRoundedMetadata },
+    ScanBarcodeRounded: { Component: ScanBarcodeRounded, metadata: ScanBarcodeRoundedMetadata },
+    ScanRounded: { Component: ScanRounded, metadata: ScanRoundedMetadata },
+    ScannerRounded: { Component: ScannerRounded, metadata: ScannerRoundedMetadata },
+    ScanningRounded: { Component: ScanningRounded, metadata: ScanningRoundedMetadata },
+    SecuritySafeRounded: { Component: SecuritySafeRounded, metadata: SecuritySafeRoundedMetadata },
+    SecurityUserRounded: { Component: SecurityUserRounded, metadata: SecurityUserRoundedMetadata },
+    SecurityRounded: { Component: SecurityRounded, metadata: SecurityRoundedMetadata },
+    ShieldCrossRounded: { Component: ShieldCrossRounded, metadata: ShieldCrossRoundedMetadata },
+    ShieldSearchRounded: { Component: ShieldSearchRounded, metadata: ShieldSearchRoundedMetadata },
+    ShieldSecurityRounded: { Component: ShieldSecurityRounded, metadata: ShieldSecurityRoundedMetadata },
+    ShieldSlashRounded: { Component: ShieldSlashRounded, metadata: ShieldSlashRoundedMetadata },
+    ShieldTickRounded: { Component: ShieldTickRounded, metadata: ShieldTickRoundedMetadata },
+    ShieldRounded: { Component: ShieldRounded, metadata: ShieldRoundedMetadata },
+    UnlockRounded: { Component: UnlockRounded, metadata: UnlockRoundedMetadata },
   },
   shapes: {
     Cone: { Component: Cone, metadata: ConeMetadata },
@@ -9269,12 +9146,8 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
     ShieldAlert: { Component: ShieldAlert, metadata: ShieldAlertMetadata },
     ShieldBan: { Component: ShieldBan, metadata: ShieldBanMetadata },
     ShieldCheck: { Component: ShieldCheck, metadata: ShieldCheckMetadata },
-    ShieldCheckFilled: { Component: ShieldCheckFilled, metadata: ShieldCheckFilledMetadata },
-    ShieldCheckeredFilled: { Component: ShieldCheckeredFilled, metadata: ShieldCheckeredFilledMetadata },
     ShieldEllipsis: { Component: ShieldEllipsis, metadata: ShieldEllipsisMetadata },
     ShieldHalf: { Component: ShieldHalf, metadata: ShieldHalfMetadata },
-    ShieldHalfFilled: { Component: ShieldHalfFilled, metadata: ShieldHalfFilledMetadata },
-    ShieldLockFilled: { Component: ShieldLockFilled, metadata: ShieldLockFilledMetadata },
     ShieldMinus: { Component: ShieldMinus, metadata: ShieldMinusMetadata },
     ShieldOff: { Component: ShieldOff, metadata: ShieldOffMetadata },
     ShieldPlus: { Component: ShieldPlus, metadata: ShieldPlusMetadata },
@@ -9282,16 +9155,13 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
     ShieldUser: { Component: ShieldUser, metadata: ShieldUserMetadata },
     ShieldX: { Component: ShieldX, metadata: ShieldXMetadata },
     Shield: { Component: Shield, metadata: ShieldMetadata },
-    ShieldFilled: { Component: ShieldFilled, metadata: ShieldFilledMetadata },
   },
   square: {
     SquareActivity: { Component: SquareActivity, metadata: SquareActivityMetadata },
     SquareArrowDownLeft: { Component: SquareArrowDownLeft, metadata: SquareArrowDownLeftMetadata },
     SquareArrowDownRight: { Component: SquareArrowDownRight, metadata: SquareArrowDownRightMetadata },
     SquareArrowDown: { Component: SquareArrowDown, metadata: SquareArrowDownMetadata },
-    SquareArrowDownFilled: { Component: SquareArrowDownFilled, metadata: SquareArrowDownFilledMetadata },
     SquareArrowLeft: { Component: SquareArrowLeft, metadata: SquareArrowLeftMetadata },
-    SquareArrowLeftFilled: { Component: SquareArrowLeftFilled, metadata: SquareArrowLeftFilledMetadata },
     SquareArrowOutDownLeft: { Component: SquareArrowOutDownLeft, metadata: SquareArrowOutDownLeftMetadata },
     SquareArrowOutDownRight: { Component: SquareArrowOutDownRight, metadata: SquareArrowOutDownRightMetadata },
     SquareArrowOutUpLeft: { Component: SquareArrowOutUpLeft, metadata: SquareArrowOutUpLeftMetadata },
@@ -9299,32 +9169,20 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
     SquareArrowRightEnter: { Component: SquareArrowRightEnter, metadata: SquareArrowRightEnterMetadata },
     SquareArrowRightExit: { Component: SquareArrowRightExit, metadata: SquareArrowRightExitMetadata },
     SquareArrowRight: { Component: SquareArrowRight, metadata: SquareArrowRightMetadata },
-    SquareArrowRightFilled: { Component: SquareArrowRightFilled, metadata: SquareArrowRightFilledMetadata },
     SquareArrowUpLeft: { Component: SquareArrowUpLeft, metadata: SquareArrowUpLeftMetadata },
     SquareArrowUpRight: { Component: SquareArrowUpRight, metadata: SquareArrowUpRightMetadata },
     SquareArrowUp: { Component: SquareArrowUp, metadata: SquareArrowUpMetadata },
-    SquareArrowUpFilled: { Component: SquareArrowUpFilled, metadata: SquareArrowUpFilledMetadata },
     SquareAsterisk: { Component: SquareAsterisk, metadata: SquareAsteriskMetadata },
-    SquareAsteriskFilled: { Component: SquareAsteriskFilled, metadata: SquareAsteriskFilledMetadata },
     SquareBottomDashedScissors: { Component: SquareBottomDashedScissors, metadata: SquareBottomDashedScissorsMetadata },
     SquareCenterlineDashedHorizontal: { Component: SquareCenterlineDashedHorizontal, metadata: SquareCenterlineDashedHorizontalMetadata },
     SquareCenterlineDashedVertical: { Component: SquareCenterlineDashedVertical, metadata: SquareCenterlineDashedVerticalMetadata },
     SquareChartGantt: { Component: SquareChartGantt, metadata: SquareChartGanttMetadata },
     SquareCheckBig: { Component: SquareCheckBig, metadata: SquareCheckBigMetadata },
     SquareCheck: { Component: SquareCheck, metadata: SquareCheckMetadata },
-    SquareCheckFilled: { Component: SquareCheckFilled, metadata: SquareCheckFilledMetadata },
     SquareChevronDown: { Component: SquareChevronDown, metadata: SquareChevronDownMetadata },
-    SquareChevronDownFilled: { Component: SquareChevronDownFilled, metadata: SquareChevronDownFilledMetadata },
     SquareChevronLeft: { Component: SquareChevronLeft, metadata: SquareChevronLeftMetadata },
-    SquareChevronLeftFilled: { Component: SquareChevronLeftFilled, metadata: SquareChevronLeftFilledMetadata },
     SquareChevronRight: { Component: SquareChevronRight, metadata: SquareChevronRightMetadata },
-    SquareChevronRightFilled: { Component: SquareChevronRightFilled, metadata: SquareChevronRightFilledMetadata },
     SquareChevronUp: { Component: SquareChevronUp, metadata: SquareChevronUpMetadata },
-    SquareChevronUpFilled: { Component: SquareChevronUpFilled, metadata: SquareChevronUpFilledMetadata },
-    SquareChevronsDownFilled: { Component: SquareChevronsDownFilled, metadata: SquareChevronsDownFilledMetadata },
-    SquareChevronsLeftFilled: { Component: SquareChevronsLeftFilled, metadata: SquareChevronsLeftFilledMetadata },
-    SquareChevronsRightFilled: { Component: SquareChevronsRightFilled, metadata: SquareChevronsRightFilledMetadata },
-    SquareChevronsUpFilled: { Component: SquareChevronsUpFilled, metadata: SquareChevronsUpFilledMetadata },
     SquareCode: { Component: SquareCode, metadata: SquareCodeMetadata },
     SquareDashedBottomCode: { Component: SquareDashedBottomCode, metadata: SquareDashedBottomCodeMetadata },
     SquareDashedBottom: { Component: SquareDashedBottom, metadata: SquareDashedBottomMetadata },
@@ -9334,62 +9192,14 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
     SquareDashed: { Component: SquareDashed, metadata: SquareDashedMetadata },
     SquareDivide: { Component: SquareDivide, metadata: SquareDivideMetadata },
     SquareDot: { Component: SquareDot, metadata: SquareDotMetadata },
-    SquareDotFilled: { Component: SquareDotFilled, metadata: SquareDotFilledMetadata },
     SquareEqual: { Component: SquareEqual, metadata: SquareEqualMetadata },
-    SquareF0Filled: { Component: SquareF0Filled, metadata: SquareF0FilledMetadata },
-    SquareF1Filled: { Component: SquareF1Filled, metadata: SquareF1FilledMetadata },
-    SquareF2Filled: { Component: SquareF2Filled, metadata: SquareF2FilledMetadata },
-    SquareF3Filled: { Component: SquareF3Filled, metadata: SquareF3FilledMetadata },
-    SquareF4Filled: { Component: SquareF4Filled, metadata: SquareF4FilledMetadata },
-    SquareF5Filled: { Component: SquareF5Filled, metadata: SquareF5FilledMetadata },
-    SquareF6Filled: { Component: SquareF6Filled, metadata: SquareF6FilledMetadata },
-    SquareF7Filled: { Component: SquareF7Filled, metadata: SquareF7FilledMetadata },
-    SquareF8Filled: { Component: SquareF8Filled, metadata: SquareF8FilledMetadata },
-    SquareF9Filled: { Component: SquareF9Filled, metadata: SquareF9FilledMetadata },
     SquareFunction: { Component: SquareFunction, metadata: SquareFunctionMetadata },
     SquareKanban: { Component: SquareKanban, metadata: SquareKanbanMetadata },
-    SquareLetterAFilled: { Component: SquareLetterAFilled, metadata: SquareLetterAFilledMetadata },
-    SquareLetterBFilled: { Component: SquareLetterBFilled, metadata: SquareLetterBFilledMetadata },
-    SquareLetterCFilled: { Component: SquareLetterCFilled, metadata: SquareLetterCFilledMetadata },
-    SquareLetterDFilled: { Component: SquareLetterDFilled, metadata: SquareLetterDFilledMetadata },
-    SquareLetterEFilled: { Component: SquareLetterEFilled, metadata: SquareLetterEFilledMetadata },
-    SquareLetterFFilled: { Component: SquareLetterFFilled, metadata: SquareLetterFFilledMetadata },
-    SquareLetterGFilled: { Component: SquareLetterGFilled, metadata: SquareLetterGFilledMetadata },
-    SquareLetterHFilled: { Component: SquareLetterHFilled, metadata: SquareLetterHFilledMetadata },
-    SquareLetterIFilled: { Component: SquareLetterIFilled, metadata: SquareLetterIFilledMetadata },
-    SquareLetterJFilled: { Component: SquareLetterJFilled, metadata: SquareLetterJFilledMetadata },
-    SquareLetterKFilled: { Component: SquareLetterKFilled, metadata: SquareLetterKFilledMetadata },
-    SquareLetterLFilled: { Component: SquareLetterLFilled, metadata: SquareLetterLFilledMetadata },
-    SquareLetterMFilled: { Component: SquareLetterMFilled, metadata: SquareLetterMFilledMetadata },
-    SquareLetterNFilled: { Component: SquareLetterNFilled, metadata: SquareLetterNFilledMetadata },
-    SquareLetterOFilled: { Component: SquareLetterOFilled, metadata: SquareLetterOFilledMetadata },
-    SquareLetterPFilled: { Component: SquareLetterPFilled, metadata: SquareLetterPFilledMetadata },
-    SquareLetterQFilled: { Component: SquareLetterQFilled, metadata: SquareLetterQFilledMetadata },
-    SquareLetterRFilled: { Component: SquareLetterRFilled, metadata: SquareLetterRFilledMetadata },
-    SquareLetterSFilled: { Component: SquareLetterSFilled, metadata: SquareLetterSFilledMetadata },
-    SquareLetterTFilled: { Component: SquareLetterTFilled, metadata: SquareLetterTFilledMetadata },
-    SquareLetterUFilled: { Component: SquareLetterUFilled, metadata: SquareLetterUFilledMetadata },
-    SquareLetterVFilled: { Component: SquareLetterVFilled, metadata: SquareLetterVFilledMetadata },
-    SquareLetterWFilled: { Component: SquareLetterWFilled, metadata: SquareLetterWFilledMetadata },
-    SquareLetterXFilled: { Component: SquareLetterXFilled, metadata: SquareLetterXFilledMetadata },
-    SquareLetterYFilled: { Component: SquareLetterYFilled, metadata: SquareLetterYFilledMetadata },
-    SquareLetterZFilled: { Component: SquareLetterZFilled, metadata: SquareLetterZFilledMetadata },
     SquareLibrary: { Component: SquareLibrary, metadata: SquareLibraryMetadata },
     SquareM: { Component: SquareM, metadata: SquareMMetadata },
     SquareMenu: { Component: SquareMenu, metadata: SquareMenuMetadata },
     SquareMinus: { Component: SquareMinus, metadata: SquareMinusMetadata },
-    SquareMinusFilled: { Component: SquareMinusFilled, metadata: SquareMinusFilledMetadata },
     SquareMousePointer: { Component: SquareMousePointer, metadata: SquareMousePointerMetadata },
-    SquareNumber0Filled: { Component: SquareNumber0Filled, metadata: SquareNumber0FilledMetadata },
-    SquareNumber1Filled: { Component: SquareNumber1Filled, metadata: SquareNumber1FilledMetadata },
-    SquareNumber2Filled: { Component: SquareNumber2Filled, metadata: SquareNumber2FilledMetadata },
-    SquareNumber3Filled: { Component: SquareNumber3Filled, metadata: SquareNumber3FilledMetadata },
-    SquareNumber4Filled: { Component: SquareNumber4Filled, metadata: SquareNumber4FilledMetadata },
-    SquareNumber5Filled: { Component: SquareNumber5Filled, metadata: SquareNumber5FilledMetadata },
-    SquareNumber6Filled: { Component: SquareNumber6Filled, metadata: SquareNumber6FilledMetadata },
-    SquareNumber7Filled: { Component: SquareNumber7Filled, metadata: SquareNumber7FilledMetadata },
-    SquareNumber8Filled: { Component: SquareNumber8Filled, metadata: SquareNumber8FilledMetadata },
-    SquareNumber9Filled: { Component: SquareNumber9Filled, metadata: SquareNumber9FilledMetadata },
     SquareParkingOff: { Component: SquareParkingOff, metadata: SquareParkingOffMetadata },
     SquareParking: { Component: SquareParking, metadata: SquareParkingMetadata },
     SquarePause: { Component: SquarePause, metadata: SquarePauseMetadata },
@@ -9401,61 +9211,7 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
     SquarePlus: { Component: SquarePlus, metadata: SquarePlusMetadata },
     SquarePower: { Component: SquarePower, metadata: SquarePowerMetadata },
     SquareRadical: { Component: SquareRadical, metadata: SquareRadicalMetadata },
-    SquareRotatedFilled: { Component: SquareRotatedFilled, metadata: SquareRotatedFilledMetadata },
     SquareRoundCorner: { Component: SquareRoundCorner, metadata: SquareRoundCornerMetadata },
-    SquareRoundedArrowDownFilled: { Component: SquareRoundedArrowDownFilled, metadata: SquareRoundedArrowDownFilledMetadata },
-    SquareRoundedArrowLeftFilled: { Component: SquareRoundedArrowLeftFilled, metadata: SquareRoundedArrowLeftFilledMetadata },
-    SquareRoundedArrowRightFilled: { Component: SquareRoundedArrowRightFilled, metadata: SquareRoundedArrowRightFilledMetadata },
-    SquareRoundedArrowUpFilled: { Component: SquareRoundedArrowUpFilled, metadata: SquareRoundedArrowUpFilledMetadata },
-    SquareRoundedCheckFilled: { Component: SquareRoundedCheckFilled, metadata: SquareRoundedCheckFilledMetadata },
-    SquareRoundedChevronDownFilled: { Component: SquareRoundedChevronDownFilled, metadata: SquareRoundedChevronDownFilledMetadata },
-    SquareRoundedChevronLeftFilled: { Component: SquareRoundedChevronLeftFilled, metadata: SquareRoundedChevronLeftFilledMetadata },
-    SquareRoundedChevronRightFilled: { Component: SquareRoundedChevronRightFilled, metadata: SquareRoundedChevronRightFilledMetadata },
-    SquareRoundedChevronUpFilled: { Component: SquareRoundedChevronUpFilled, metadata: SquareRoundedChevronUpFilledMetadata },
-    SquareRoundedChevronsDownFilled: { Component: SquareRoundedChevronsDownFilled, metadata: SquareRoundedChevronsDownFilledMetadata },
-    SquareRoundedChevronsLeftFilled: { Component: SquareRoundedChevronsLeftFilled, metadata: SquareRoundedChevronsLeftFilledMetadata },
-    SquareRoundedChevronsRightFilled: { Component: SquareRoundedChevronsRightFilled, metadata: SquareRoundedChevronsRightFilledMetadata },
-    SquareRoundedChevronsUpFilled: { Component: SquareRoundedChevronsUpFilled, metadata: SquareRoundedChevronsUpFilledMetadata },
-    SquareRoundedLetterAFilled: { Component: SquareRoundedLetterAFilled, metadata: SquareRoundedLetterAFilledMetadata },
-    SquareRoundedLetterBFilled: { Component: SquareRoundedLetterBFilled, metadata: SquareRoundedLetterBFilledMetadata },
-    SquareRoundedLetterCFilled: { Component: SquareRoundedLetterCFilled, metadata: SquareRoundedLetterCFilledMetadata },
-    SquareRoundedLetterDFilled: { Component: SquareRoundedLetterDFilled, metadata: SquareRoundedLetterDFilledMetadata },
-    SquareRoundedLetterEFilled: { Component: SquareRoundedLetterEFilled, metadata: SquareRoundedLetterEFilledMetadata },
-    SquareRoundedLetterFFilled: { Component: SquareRoundedLetterFFilled, metadata: SquareRoundedLetterFFilledMetadata },
-    SquareRoundedLetterGFilled: { Component: SquareRoundedLetterGFilled, metadata: SquareRoundedLetterGFilledMetadata },
-    SquareRoundedLetterHFilled: { Component: SquareRoundedLetterHFilled, metadata: SquareRoundedLetterHFilledMetadata },
-    SquareRoundedLetterIFilled: { Component: SquareRoundedLetterIFilled, metadata: SquareRoundedLetterIFilledMetadata },
-    SquareRoundedLetterJFilled: { Component: SquareRoundedLetterJFilled, metadata: SquareRoundedLetterJFilledMetadata },
-    SquareRoundedLetterKFilled: { Component: SquareRoundedLetterKFilled, metadata: SquareRoundedLetterKFilledMetadata },
-    SquareRoundedLetterLFilled: { Component: SquareRoundedLetterLFilled, metadata: SquareRoundedLetterLFilledMetadata },
-    SquareRoundedLetterMFilled: { Component: SquareRoundedLetterMFilled, metadata: SquareRoundedLetterMFilledMetadata },
-    SquareRoundedLetterNFilled: { Component: SquareRoundedLetterNFilled, metadata: SquareRoundedLetterNFilledMetadata },
-    SquareRoundedLetterOFilled: { Component: SquareRoundedLetterOFilled, metadata: SquareRoundedLetterOFilledMetadata },
-    SquareRoundedLetterPFilled: { Component: SquareRoundedLetterPFilled, metadata: SquareRoundedLetterPFilledMetadata },
-    SquareRoundedLetterQFilled: { Component: SquareRoundedLetterQFilled, metadata: SquareRoundedLetterQFilledMetadata },
-    SquareRoundedLetterRFilled: { Component: SquareRoundedLetterRFilled, metadata: SquareRoundedLetterRFilledMetadata },
-    SquareRoundedLetterSFilled: { Component: SquareRoundedLetterSFilled, metadata: SquareRoundedLetterSFilledMetadata },
-    SquareRoundedLetterTFilled: { Component: SquareRoundedLetterTFilled, metadata: SquareRoundedLetterTFilledMetadata },
-    SquareRoundedLetterUFilled: { Component: SquareRoundedLetterUFilled, metadata: SquareRoundedLetterUFilledMetadata },
-    SquareRoundedLetterVFilled: { Component: SquareRoundedLetterVFilled, metadata: SquareRoundedLetterVFilledMetadata },
-    SquareRoundedLetterWFilled: { Component: SquareRoundedLetterWFilled, metadata: SquareRoundedLetterWFilledMetadata },
-    SquareRoundedLetterXFilled: { Component: SquareRoundedLetterXFilled, metadata: SquareRoundedLetterXFilledMetadata },
-    SquareRoundedLetterYFilled: { Component: SquareRoundedLetterYFilled, metadata: SquareRoundedLetterYFilledMetadata },
-    SquareRoundedLetterZFilled: { Component: SquareRoundedLetterZFilled, metadata: SquareRoundedLetterZFilledMetadata },
-    SquareRoundedMinusFilled: { Component: SquareRoundedMinusFilled, metadata: SquareRoundedMinusFilledMetadata },
-    SquareRoundedNumber0Filled: { Component: SquareRoundedNumber0Filled, metadata: SquareRoundedNumber0FilledMetadata },
-    SquareRoundedNumber1Filled: { Component: SquareRoundedNumber1Filled, metadata: SquareRoundedNumber1FilledMetadata },
-    SquareRoundedNumber2Filled: { Component: SquareRoundedNumber2Filled, metadata: SquareRoundedNumber2FilledMetadata },
-    SquareRoundedNumber3Filled: { Component: SquareRoundedNumber3Filled, metadata: SquareRoundedNumber3FilledMetadata },
-    SquareRoundedNumber4Filled: { Component: SquareRoundedNumber4Filled, metadata: SquareRoundedNumber4FilledMetadata },
-    SquareRoundedNumber5Filled: { Component: SquareRoundedNumber5Filled, metadata: SquareRoundedNumber5FilledMetadata },
-    SquareRoundedNumber6Filled: { Component: SquareRoundedNumber6Filled, metadata: SquareRoundedNumber6FilledMetadata },
-    SquareRoundedNumber7Filled: { Component: SquareRoundedNumber7Filled, metadata: SquareRoundedNumber7FilledMetadata },
-    SquareRoundedNumber8Filled: { Component: SquareRoundedNumber8Filled, metadata: SquareRoundedNumber8FilledMetadata },
-    SquareRoundedNumber9Filled: { Component: SquareRoundedNumber9Filled, metadata: SquareRoundedNumber9FilledMetadata },
-    SquareRoundedPlusFilled: { Component: SquareRoundedPlusFilled, metadata: SquareRoundedPlusFilledMetadata },
-    SquareRoundedXFilled: { Component: SquareRoundedXFilled, metadata: SquareRoundedXFilledMetadata },
-    SquareRoundedFilled: { Component: SquareRoundedFilled, metadata: SquareRoundedFilledMetadata },
     SquareScissors: { Component: SquareScissors, metadata: SquareScissorsMetadata },
     SquareSigma: { Component: SquareSigma, metadata: SquareSigmaMetadata },
     SquareSlash: { Component: SquareSlash, metadata: SquareSlashMetadata },
@@ -9469,16 +9225,40 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
     SquareUserRound: { Component: SquareUserRound, metadata: SquareUserRoundMetadata },
     SquareUser: { Component: SquareUser, metadata: SquareUserMetadata },
     SquareX: { Component: SquareX, metadata: SquareXMetadata },
-    SquareXFilled: { Component: SquareXFilled, metadata: SquareXFilledMetadata },
     Square: { Component: Square, metadata: SquareMetadata },
-    SquareFilled: { Component: SquareFilled, metadata: SquareFilledMetadata },
     SquaresExclude: { Component: SquaresExclude, metadata: SquaresExcludeMetadata },
     SquaresIntersect: { Component: SquaresIntersect, metadata: SquaresIntersectMetadata },
     SquaresSubtract: { Component: SquaresSubtract, metadata: SquaresSubtractMetadata },
     SquaresUnite: { Component: SquaresUnite, metadata: SquaresUniteMetadata },
-    SquaresFilled: { Component: SquaresFilled, metadata: SquaresFilledMetadata },
     SquircleDashed: { Component: SquircleDashed, metadata: SquircleDashedMetadata },
     Squircle: { Component: Squircle, metadata: SquircleMetadata },
+  },
+  support: {
+    DislikeRounded: { Component: DislikeRounded, metadata: DislikeRoundedMetadata },
+    HeartAddRounded: { Component: HeartAddRounded, metadata: HeartAddRoundedMetadata },
+    HeartCircleRounded: { Component: HeartCircleRounded, metadata: HeartCircleRoundedMetadata },
+    HeartEditRounded: { Component: HeartEditRounded, metadata: HeartEditRoundedMetadata },
+    HeartRemoveRounded: { Component: HeartRemoveRounded, metadata: HeartRemoveRoundedMetadata },
+    HeartSearchRounded: { Component: HeartSearchRounded, metadata: HeartSearchRoundedMetadata },
+    HeartSlashRounded: { Component: HeartSlashRounded, metadata: HeartSlashRoundedMetadata },
+    HeartTickRounded: { Component: HeartTickRounded, metadata: HeartTickRoundedMetadata },
+    HeartRounded: { Component: HeartRounded, metadata: HeartRoundedMetadata },
+    Like1Rounded: { Component: Like1Rounded, metadata: Like1RoundedMetadata },
+    LikeDislikeRounded: { Component: LikeDislikeRounded, metadata: LikeDislikeRoundedMetadata },
+    LikeShapesRounded: { Component: LikeShapesRounded, metadata: LikeShapesRoundedMetadata },
+    LikeTagRounded: { Component: LikeTagRounded, metadata: LikeTagRoundedMetadata },
+    LikeRounded: { Component: LikeRounded, metadata: LikeRoundedMetadata },
+    LovelyRounded: { Component: LovelyRounded, metadata: LovelyRoundedMetadata },
+    MagicStarRounded: { Component: MagicStarRounded, metadata: MagicStarRoundedMetadata },
+    MedalStarRounded: { Component: MedalStarRounded, metadata: MedalStarRoundedMetadata },
+    MedalRounded: { Component: MedalRounded, metadata: MedalRoundedMetadata },
+    MessageQuestionRounded: { Component: MessageQuestionRounded, metadata: MessageQuestionRoundedMetadata },
+    SmileysRounded: { Component: SmileysRounded, metadata: SmileysRoundedMetadata },
+    Star1Rounded: { Component: Star1Rounded, metadata: Star1RoundedMetadata },
+    StarSlashRounded: { Component: StarSlashRounded, metadata: StarSlashRoundedMetadata },
+    StarRounded: { Component: StarRounded, metadata: StarRoundedMetadata },
+    SupportRounded: { Component: SupportRounded, metadata: SupportRoundedMetadata },
+    UnlimitedRounded: { Component: UnlimitedRounded, metadata: UnlimitedRoundedMetadata },
   },
   table: {
     Table2: { Component: Table2, metadata: Table2Metadata },
@@ -9491,20 +9271,77 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
     Table: { Component: Table, metadata: TableMetadata },
   },
   text: {
+    AArrowDown: { Component: AArrowDown, metadata: AArrowDownMetadata },
+    AArrowUp: { Component: AArrowUp, metadata: AArrowUpMetadata },
+    ALargeSmall: { Component: ALargeSmall, metadata: ALargeSmallMetadata },
+    Ampersand: { Component: Ampersand, metadata: AmpersandMetadata },
+    Ampersands: { Component: Ampersands, metadata: AmpersandsMetadata },
+    AtSign: { Component: AtSign, metadata: AtSignMetadata },
+    AttachCircleRounded: { Component: AttachCircleRounded, metadata: AttachCircleRoundedMetadata },
+    AttachSquareRounded: { Component: AttachSquareRounded, metadata: AttachSquareRoundedMetadata },
+    Braces: { Component: Braces, metadata: BracesMetadata },
+    Brackets: { Component: Brackets, metadata: BracketsMetadata },
+    CaseLower: { Component: CaseLower, metadata: CaseLowerMetadata },
+    CaseSensitive: { Component: CaseSensitive, metadata: CaseSensitiveMetadata },
+    CaseUpper: { Component: CaseUpper, metadata: CaseUpperMetadata },
+    Dot: { Component: Dot, metadata: DotMetadata },
+    FirstlineRounded: { Component: FirstlineRounded, metadata: FirstlineRoundedMetadata },
+    Hash: { Component: Hash, metadata: HashMetadata },
+    Heading1: { Component: Heading1, metadata: Heading1Metadata },
+    Heading2: { Component: Heading2, metadata: Heading2Metadata },
+    Heading3: { Component: Heading3, metadata: Heading3Metadata },
+    Heading4: { Component: Heading4, metadata: Heading4Metadata },
+    Heading5: { Component: Heading5, metadata: Heading5Metadata },
+    Heading6: { Component: Heading6, metadata: Heading6Metadata },
+    Heading: { Component: Heading, metadata: HeadingMetadata },
+    Italic: { Component: Italic, metadata: ItalicMetadata },
+    LanguageCircleRounded: { Component: LanguageCircleRounded, metadata: LanguageCircleRoundedMetadata },
+    LanguageSquareRounded: { Component: LanguageSquareRounded, metadata: LanguageSquareRoundedMetadata },
+    Languages: { Component: Languages, metadata: LanguagesMetadata },
+    Link1Rounded: { Component: Link1Rounded, metadata: Link1RoundedMetadata },
+    Link21Rounded: { Component: Link21Rounded, metadata: Link21RoundedMetadata },
+    Link2Rounded: { Component: Link2Rounded, metadata: Link2RoundedMetadata },
+    LinkCircleRounded: { Component: LinkCircleRounded, metadata: LinkCircleRoundedMetadata },
+    LinkSquareRounded: { Component: LinkSquareRounded, metadata: LinkSquareRoundedMetadata },
+    LinkRounded: { Component: LinkRounded, metadata: LinkRoundedMetadata },
+    Paperclip2Rounded: { Component: Paperclip2Rounded, metadata: Paperclip2RoundedMetadata },
+    PaperclipRounded: { Component: PaperclipRounded, metadata: PaperclipRoundedMetadata },
+    PharagraphspacingRounded: { Component: PharagraphspacingRounded, metadata: PharagraphspacingRoundedMetadata },
+    QuoteDownCircleRounded: { Component: QuoteDownCircleRounded, metadata: QuoteDownCircleRoundedMetadata },
+    QuoteDownSquareRounded: { Component: QuoteDownSquareRounded, metadata: QuoteDownSquareRoundedMetadata },
+    QuoteDownRounded: { Component: QuoteDownRounded, metadata: QuoteDownRoundedMetadata },
+    QuoteUpCircleRounded: { Component: QuoteUpCircleRounded, metadata: QuoteUpCircleRoundedMetadata },
+    QuoteUpSquareRounded: { Component: QuoteUpSquareRounded, metadata: QuoteUpSquareRoundedMetadata },
+    QuoteUpRounded: { Component: QuoteUpRounded, metadata: QuoteUpRoundedMetadata },
     RemoveFormatting: { Component: RemoveFormatting, metadata: RemoveFormattingMetadata },
+    SmallcapsRounded: { Component: SmallcapsRounded, metadata: SmallcapsRoundedMetadata },
     SpellCheck2: { Component: SpellCheck2, metadata: SpellCheck2Metadata },
     SpellCheck: { Component: SpellCheck, metadata: SpellCheckMetadata },
     TextAlignCenter: { Component: TextAlignCenter, metadata: TextAlignCenterMetadata },
     TextAlignEnd: { Component: TextAlignEnd, metadata: TextAlignEndMetadata },
     TextAlignJustify: { Component: TextAlignJustify, metadata: TextAlignJustifyMetadata },
     TextAlignStart: { Component: TextAlignStart, metadata: TextAlignStartMetadata },
+    TextBlockRounded: { Component: TextBlockRounded, metadata: TextBlockRoundedMetadata },
+    TextBoldRounded: { Component: TextBoldRounded, metadata: TextBoldRoundedMetadata },
     TextCursorInput: { Component: TextCursorInput, metadata: TextCursorInputMetadata },
     TextCursor: { Component: TextCursor, metadata: TextCursorMetadata },
     TextInitial: { Component: TextInitial, metadata: TextInitialMetadata },
+    TextItalicRounded: { Component: TextItalicRounded, metadata: TextItalicRoundedMetadata },
     TextQuote: { Component: TextQuote, metadata: TextQuoteMetadata },
     TextSearch: { Component: TextSearch, metadata: TextSearchMetadata },
     TextSelect: { Component: TextSelect, metadata: TextSelectMetadata },
+    TextUnderlineRounded: { Component: TextUnderlineRounded, metadata: TextUnderlineRoundedMetadata },
     TextWrap: { Component: TextWrap, metadata: TextWrapMetadata },
+    TextRounded: { Component: TextRounded, metadata: TextRoundedMetadata },
+    TextalignCenterRounded: { Component: TextalignCenterRounded, metadata: TextalignCenterRoundedMetadata },
+    TextalignJustifycenterRounded: { Component: TextalignJustifycenterRounded, metadata: TextalignJustifycenterRoundedMetadata },
+    TextalignJustifyleftRounded: { Component: TextalignJustifyleftRounded, metadata: TextalignJustifyleftRoundedMetadata },
+    TextalignJustifyrightRounded: { Component: TextalignJustifyrightRounded, metadata: TextalignJustifyrightRoundedMetadata },
+    TextalignLeftRounded: { Component: TextalignLeftRounded, metadata: TextalignLeftRoundedMetadata },
+    TextalignRightRounded: { Component: TextalignRightRounded, metadata: TextalignRightRoundedMetadata },
+    TranslateRounded: { Component: TranslateRounded, metadata: TranslateRoundedMetadata },
+    TypeOutline: { Component: TypeOutline, metadata: TypeOutlineMetadata },
+    Type: { Component: Type, metadata: TypeMetadata },
   },
   time: {
     AlarmClockCheck: { Component: AlarmClockCheck, metadata: AlarmClockCheckMetadata },
@@ -9512,40 +9349,31 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
     AlarmClockOff: { Component: AlarmClockOff, metadata: AlarmClockOffMetadata },
     AlarmClockPlus: { Component: AlarmClockPlus, metadata: AlarmClockPlusMetadata },
     AlarmClock: { Component: AlarmClock, metadata: AlarmClockMetadata },
-    AlarmMinusFilled: { Component: AlarmMinusFilled, metadata: AlarmMinusFilledMetadata },
-    AlarmPlusFilled: { Component: AlarmPlusFilled, metadata: AlarmPlusFilledMetadata },
-    AlarmSnoozeFilled: { Component: AlarmSnoozeFilled, metadata: AlarmSnoozeFilledMetadata },
-    AlarmFilled: { Component: AlarmFilled, metadata: AlarmFilledMetadata },
-    ClockHour10Filled: { Component: ClockHour10Filled, metadata: ClockHour10FilledMetadata },
-    ClockHour11Filled: { Component: ClockHour11Filled, metadata: ClockHour11FilledMetadata },
-    ClockHour12Filled: { Component: ClockHour12Filled, metadata: ClockHour12FilledMetadata },
-    ClockHour1Filled: { Component: ClockHour1Filled, metadata: ClockHour1FilledMetadata },
-    ClockHour2Filled: { Component: ClockHour2Filled, metadata: ClockHour2FilledMetadata },
-    ClockHour3Filled: { Component: ClockHour3Filled, metadata: ClockHour3FilledMetadata },
-    ClockHour4Filled: { Component: ClockHour4Filled, metadata: ClockHour4FilledMetadata },
-    ClockHour5Filled: { Component: ClockHour5Filled, metadata: ClockHour5FilledMetadata },
-    ClockHour6Filled: { Component: ClockHour6Filled, metadata: ClockHour6FilledMetadata },
-    ClockHour7Filled: { Component: ClockHour7Filled, metadata: ClockHour7FilledMetadata },
-    ClockHour8Filled: { Component: ClockHour8Filled, metadata: ClockHour8FilledMetadata },
-    ClockHour9Filled: { Component: ClockHour9Filled, metadata: ClockHour9FilledMetadata },
-    ClockFilled: { Component: ClockFilled, metadata: ClockFilledMetadata },
   },
-  transportation: {
+  transport: {
+    AirplaneSquareRounded: { Component: AirplaneSquareRounded, metadata: AirplaneSquareRoundedMetadata },
+    AirplaneRounded: { Component: AirplaneRounded, metadata: AirplaneRoundedMetadata },
     Ambulance: { Component: Ambulance, metadata: AmbulanceMetadata },
     Bike: { Component: Bike, metadata: BikeMetadata },
     BusFront: { Component: BusFront, metadata: BusFrontMetadata },
     Bus: { Component: Bus, metadata: BusMetadata },
+    BusRounded: { Component: BusRounded, metadata: BusRoundedMetadata },
     CableCar: { Component: CableCar, metadata: CableCarMetadata },
     CarFront: { Component: CarFront, metadata: CarFrontMetadata },
     CarTaxiFront: { Component: CarTaxiFront, metadata: CarTaxiFrontMetadata },
     Car: { Component: Car, metadata: CarMetadata },
+    CarRounded: { Component: CarRounded, metadata: CarRoundedMetadata },
     Caravan: { Component: Caravan, metadata: CaravanMetadata },
+    DrivingRounded: { Component: DrivingRounded, metadata: DrivingRoundedMetadata },
     EvCharger: { Component: EvCharger, metadata: EvChargerMetadata },
     Forklift: { Component: Forklift, metadata: ForkliftMetadata },
+    GasStationRounded: { Component: GasStationRounded, metadata: GasStationRoundedMetadata },
     Motorbike: { Component: Motorbike, metadata: MotorbikeMetadata },
     PlaneLanding: { Component: PlaneLanding, metadata: PlaneLandingMetadata },
     PlaneTakeoff: { Component: PlaneTakeoff, metadata: PlaneTakeoffMetadata },
     Plane: { Component: Plane, metadata: PlaneMetadata },
+    ShipRounded: { Component: ShipRounded, metadata: ShipRoundedMetadata },
+    SmartCarRounded: { Component: SmartCarRounded, metadata: SmartCarRoundedMetadata },
     Tractor: { Component: Tractor, metadata: TractorMetadata },
     TrafficCone: { Component: TrafficCone, metadata: TrafficConeMetadata },
     TrainFrontTunnel: { Component: TrainFrontTunnel, metadata: TrainFrontTunnelMetadata },
@@ -9560,13 +9388,28 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
     Contact: { Component: Contact, metadata: ContactMetadata },
     IdCardLanyard: { Component: IdCardLanyard, metadata: IdCardLanyardMetadata },
     IdCard: { Component: IdCard, metadata: IdCardMetadata },
+    PeopleRounded: { Component: PeopleRounded, metadata: PeopleRoundedMetadata },
+    Profile2userRounded: { Component: Profile2userRounded, metadata: Profile2userRoundedMetadata },
+    ProfileAddRounded: { Component: ProfileAddRounded, metadata: ProfileAddRoundedMetadata },
+    ProfileCircleRounded: { Component: ProfileCircleRounded, metadata: ProfileCircleRoundedMetadata },
+    ProfileDeleteRounded: { Component: ProfileDeleteRounded, metadata: ProfileDeleteRoundedMetadata },
+    ProfileRemoveRounded: { Component: ProfileRemoveRounded, metadata: ProfileRemoveRoundedMetadata },
+    ProfileTickRounded: { Component: ProfileTickRounded, metadata: ProfileTickRoundedMetadata },
+    ProfileRounded: { Component: ProfileRounded, metadata: ProfileRoundedMetadata },
+    TagUserRounded: { Component: TagUserRounded, metadata: TagUserRoundedMetadata },
+    UserAddRounded: { Component: UserAddRounded, metadata: UserAddRoundedMetadata },
     UserCheck: { Component: UserCheck, metadata: UserCheckMetadata },
+    UserCirlceAddRounded: { Component: UserCirlceAddRounded, metadata: UserCirlceAddRoundedMetadata },
     UserCog: { Component: UserCog, metadata: UserCogMetadata },
+    UserEditRounded: { Component: UserEditRounded, metadata: UserEditRoundedMetadata },
     UserKey: { Component: UserKey, metadata: UserKeyMetadata },
     UserLock: { Component: UserLock, metadata: UserLockMetadata },
     UserMinus: { Component: UserMinus, metadata: UserMinusMetadata },
+    UserMinusRounded: { Component: UserMinusRounded, metadata: UserMinusRoundedMetadata },
+    UserOctagonRounded: { Component: UserOctagonRounded, metadata: UserOctagonRoundedMetadata },
     UserPen: { Component: UserPen, metadata: UserPenMetadata },
     UserPlus: { Component: UserPlus, metadata: UserPlusMetadata },
+    UserRemoveRounded: { Component: UserRemoveRounded, metadata: UserRemoveRoundedMetadata },
     UserRoundCheck: { Component: UserRoundCheck, metadata: UserRoundCheckMetadata },
     UserRoundCog: { Component: UserRoundCog, metadata: UserRoundCogMetadata },
     UserRoundKey: { Component: UserRoundKey, metadata: UserRoundKeyMetadata },
@@ -9577,35 +9420,57 @@ export const allIcons: Record<string, Record<string, LogoEntry>> = {
     UserRoundX: { Component: UserRoundX, metadata: UserRoundXMetadata },
     UserRound: { Component: UserRound, metadata: UserRoundMetadata },
     UserSearch: { Component: UserSearch, metadata: UserSearchMetadata },
+    UserSearchRounded: { Component: UserSearchRounded, metadata: UserSearchRoundedMetadata },
+    UserSquareRounded: { Component: UserSquareRounded, metadata: UserSquareRoundedMetadata },
     UserStar: { Component: UserStar, metadata: UserStarMetadata },
+    UserTagRounded: { Component: UserTagRounded, metadata: UserTagRoundedMetadata },
+    UserTickRounded: { Component: UserTickRounded, metadata: UserTickRoundedMetadata },
     UserX: { Component: UserX, metadata: UserXMetadata },
     User: { Component: User, metadata: UserMetadata },
+    UserRounded: { Component: UserRounded, metadata: UserRoundedMetadata },
     UsersRound: { Component: UsersRound, metadata: UsersRoundMetadata },
     Users: { Component: Users, metadata: UsersMetadata },
   },
   weather: {
     VectorDoodle: { Component: VectorDoodle, metadata: VectorDoodleMetadata },
+    CloudCrossRounded: { Component: CloudCrossRounded, metadata: CloudCrossRoundedMetadata },
+    CloudDrizzleRounded: { Component: CloudDrizzleRounded, metadata: CloudDrizzleRoundedMetadata },
+    CloudFogRounded: { Component: CloudFogRounded, metadata: CloudFogRoundedMetadata },
+    CloudLightningRounded: { Component: CloudLightningRounded, metadata: CloudLightningRoundedMetadata },
+    CloudMinusRounded: { Component: CloudMinusRounded, metadata: CloudMinusRoundedMetadata },
+    CloudNotifRounded: { Component: CloudNotifRounded, metadata: CloudNotifRoundedMetadata },
+    CloudPlusRounded: { Component: CloudPlusRounded, metadata: CloudPlusRoundedMetadata },
+    CloudSnowRounded: { Component: CloudSnowRounded, metadata: CloudSnowRoundedMetadata },
+    CloudSunnyRounded: { Component: CloudSunnyRounded, metadata: CloudSunnyRoundedMetadata },
+    CloudRounded: { Component: CloudRounded, metadata: CloudRoundedMetadata },
     CloudyDayDoodle: { Component: CloudyDayDoodle, metadata: CloudyDayDoodleMetadata },
     CloudyNightDoodle: { Component: CloudyNightDoodle, metadata: CloudyNightDoodleMetadata },
+    DropRounded: { Component: DropRounded, metadata: DropRoundedMetadata },
     MoonStar: { Component: MoonStar, metadata: MoonStarMetadata },
     Moon: { Component: Moon, metadata: MoonMetadata },
+    MoonRounded: { Component: MoonRounded, metadata: MoonRoundedMetadata },
     NightDoodle: { Component: NightDoodle, metadata: NightDoodleMetadata },
     RainHeavyDoodle: { Component: RainHeavyDoodle, metadata: RainHeavyDoodleMetadata },
     RainLightDoodle: { Component: RainLightDoodle, metadata: RainLightDoodleMetadata },
     SnowDoodle: { Component: SnowDoodle, metadata: SnowDoodleMetadata },
     SnowflakeDoodle: { Component: SnowflakeDoodle, metadata: SnowflakeDoodleMetadata },
     SnowmanDoodle: { Component: SnowmanDoodle, metadata: SnowmanDoodleMetadata },
+    Sun1Rounded: { Component: Sun1Rounded, metadata: Sun1RoundedMetadata },
     SunDim: { Component: SunDim, metadata: SunDimMetadata },
+    SunFogRounded: { Component: SunFogRounded, metadata: SunFogRoundedMetadata },
     SunMedium: { Component: SunMedium, metadata: SunMediumMetadata },
     SunMoon: { Component: SunMoon, metadata: SunMoonMetadata },
     SunSnow: { Component: SunSnow, metadata: SunSnowMetadata },
     Sun: { Component: Sun, metadata: SunMetadata },
+    SunRounded: { Component: SunRounded, metadata: SunRoundedMetadata },
     SunnyDoodle: { Component: SunnyDoodle, metadata: SunnyDoodleMetadata },
     Sunrise: { Component: Sunrise, metadata: SunriseMetadata },
     Sunset: { Component: Sunset, metadata: SunsetMetadata },
     ThunderstormDoodle: { Component: ThunderstormDoodle, metadata: ThunderstormDoodleMetadata },
     TornadoDoodle: { Component: TornadoDoodle, metadata: TornadoDoodleMetadata },
+    Wind2Rounded: { Component: Wind2Rounded, metadata: Wind2RoundedMetadata },
     WindDoodle: { Component: WindDoodle, metadata: WindDoodleMetadata },
+    WindRounded: { Component: WindRounded, metadata: WindRoundedMetadata },
   },
   zodiac: {
     ZodiacAquarius: { Component: ZodiacAquarius, metadata: ZodiacAquariusMetadata },

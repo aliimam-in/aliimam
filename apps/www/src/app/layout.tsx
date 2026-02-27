@@ -1,11 +1,11 @@
+// src/app/layout.tsx
 import type { Metadata } from "next"
-import { category, keywords, META_THEME_COLORS, siteConfig } from "@/src/lib/config"
 import { fontVariables } from "@/src/lib/fonts"
 import { cn } from "@/src/lib/utils"
-
 import "@/src/styles/globals.css"
-
 import { Provider } from "@/src/components/themes/provider"
+import ClientThemeLayout from "@/src/components/layout/client-layout"
+import { category, keywords, siteConfig } from "../lib/config"
 
 export const metadata: Metadata = {
   title: {
@@ -18,10 +18,7 @@ export const metadata: Metadata = {
   classification: "Web Development, CSS Tools, Design Resources",
   category: Array.isArray(category) ? category.join(", ") : category,
   authors: [
-    {
-      name: "Ali Imam",
-      url: "https://aliimam_in",
-    },
+    { name: "Ali Imam", url: "https://aliimam_in" },
   ],
   creator: "Ali Imam",
   openGraph: {
@@ -61,8 +58,7 @@ export const metadata: Metadata = {
     "apple-mobile-web-app-status-bar-style": "default",
     "apple-mobile-web-app-title": "Ali Imam",
     "msapplication-TileColor": "#000000",
-    "theme-color": "#000000", 
- 
+    "theme-color": "#000000",
     "article:author": "Ali Imam",
     "article:publisher": "https://github.com/aliimam-in",
     "article:section": "Web Development",
@@ -70,7 +66,6 @@ export const metadata: Metadata = {
     "og:updated_time": new Date().toISOString(),
     "og:locale": "en_US",
     "og:type": "website",
-
     "revisit-after": "7 days",
     distribution: "global",
     rating: "general",
@@ -78,37 +73,16 @@ export const metadata: Metadata = {
   },
 }
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode
-}>) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              try {
-                if (localStorage.theme === 'dark' || ((!('theme' in localStorage) || localStorage.theme === 'system') && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-                  document.querySelector('meta[name="theme-color"]').setAttribute('content', '${META_THEME_COLORS.dark}')
-                }
-                if (localStorage.layout) {
-                  document.documentElement.classList.add('layout-' + localStorage.layout)
-                }
-              } catch (_) {}
-            `,
-          }}
-        />
-        <meta name="theme-color" content={META_THEME_COLORS.light} />
+        <meta name="theme-color" content="#ffffff" />
       </head>
-      <body
-        className={cn(
-          "group/body bg-background overscroll-none font-mono antialiased [--footer-height:calc(var(--spacing)*14)] [--header-height:calc(var(--spacing)*14)] xl:[--footer-height:calc(var(--spacing)*24)]",
-          fontVariables
-        )}
-      >
-        <Provider>{children}</Provider>
+      <body className={cn( "group/body bg-background overscroll-none font-mono antialiased [--footer-height:calc(var(--spacing)*14)] [--header-height:calc(var(--spacing)*14)] xl:[--footer-height:calc(var(--spacing)*24)]", fontVariables )}>
+        <Provider>
+          <ClientThemeLayout>{children}</ClientThemeLayout>
+        </Provider>
       </body>
     </html>
   )

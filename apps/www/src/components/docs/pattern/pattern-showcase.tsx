@@ -36,7 +36,7 @@ export default function PatternShowcase({
   const { copyToClipboard, isCopied } = useCopy()
 
   const [searchInput, setSearchInput] = useState<string>("")
-  const [columns, setColumns] = useState<number>(2)
+  const [columns, setColumns] = useState<number>(3)
 
   const handleCopyActive = () => {
     if (!activePattern) return
