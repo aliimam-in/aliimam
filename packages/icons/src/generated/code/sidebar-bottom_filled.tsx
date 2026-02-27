@@ -1,0 +1,40 @@
+/** Auto-generated - Do not edit */
+'use client';
+import React from 'react';
+
+export interface SidebarBottomFilledProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  strokeWidth?: number;
+}
+
+export const SidebarBottomFilled = React.forwardRef<SVGSVGElement, SidebarBottomFilledProps>(
+  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
+    <svg 
+      ref={ref}
+      width={size}
+      height={size} 
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      stroke="none"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
+      <path d="M3.04999 19.87C3.33999 20.29 3.70999 20.66 4.12999 20.95C5.07999 21.64 6.31999 22 7.80999 22H16.19C19.63 22 21.76 20.06 21.97 16.78H2.01999C2.09999 18.01 2.44999 19.05 3.04999 19.87Z" fill="currentColor"/>
+<path d="M20.95 4.13C20.66 3.71 20.29 3.34 19.87 3.05C18.92 2.36 17.68 2 16.19 2H7.81C4.17 2 2 4.17 2 7.81V15.28H22V7.81C22 6.32 21.64 5.08 20.95 4.13ZM15.09 9.56L12.53 12.12C12.24 12.41 11.76 12.41 11.47 12.12L8.91 9.56C8.76 9.41 8.69 9.22 8.69 9.03C8.69 8.84 8.76 8.64 8.91 8.5C9.2 8.2 9.68 8.2 9.97 8.5L12 10.52L14.03 8.49C14.32 8.2 14.8 8.2 15.09 8.49C15.38 8.78 15.38 9.26 15.09 9.56Z" fill="currentColor"/>
+    </svg>
+  )
+);
+SidebarBottomFilled.displayName = "SidebarBottomFilled";
+export const SidebarBottomFilledMetadata = { 
+  id: "sidebar-bottom_filled", 
+  baseId: "sidebar-bottom", 
+  variant: "filled", 
+  name: "Sidebar Bottom", 
+  category: "code", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
+export default SidebarBottomFilled;

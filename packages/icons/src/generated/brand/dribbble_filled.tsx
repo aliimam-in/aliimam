@@ -1,0 +1,44 @@
+/** Auto-generated - Do not edit */
+'use client';
+import React from 'react';
+
+export interface DribbbleFilledProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  strokeWidth?: number;
+}
+
+export const DribbbleFilled = React.forwardRef<SVGSVGElement, DribbbleFilledProps>(
+  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
+    <svg 
+      ref={ref}
+      width={size}
+      height={size} 
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      stroke="none"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
+      <path fillRule="evenodd" clipRule="evenodd" d="M15.88 20.9201C15.91 21.0801 15.82 21.25 15.67 21.31C14.54 21.76 13.3 22 12.02 22C9.80999 22 7.76997 21.2901 6.11997 20.0701C5.97997 19.9701 5.94 19.77 6.03 19.62C6.58 18.64 8.72995 15.4901 13.48 13.7301C13.66 13.6601 13.86 13.75 13.92 13.93C15.11 17.12 15.67 19.8201 15.88 20.9201Z" fill="currentColor"/>
+<path fillRule="evenodd" clipRule="evenodd" d="M21.8202 13.89C21.3602 16.35 19.9801 18.49 18.0501 19.95C17.8401 20.11 17.5401 19.99 17.4901 19.74C17.2801 18.66 16.7701 16.33 15.7901 13.56C15.7201 13.35 15.8602 13.12 16.0802 13.09C18.5702 12.79 20.7502 13.27 21.5702 13.49C21.7402 13.55 21.8502 13.72 21.8202 13.89Z" fill="currentColor"/>
+<path fillRule="evenodd" clipRule="evenodd" d="M21.59 11.8199C20.57 11.6399 17.97 11.2599 15.31 11.5499C15.15 11.5699 15.01 11.4799 14.94 11.3299C14.9 11.2399 14.87 11.1499 14.83 11.0599C14.67 10.6899 14.5 10.3099 14.33 9.9399C14.24 9.7599 14.33 9.53989 14.51 9.45989C17.31 8.24989 18.8699 6.68989 19.4799 5.98989C19.63 5.81989 19.89 5.82991 20.03 6.00991C21.18 7.53991 21.89 9.40989 22 11.4299C22.01 11.6799 21.81 11.8599 21.59 11.8199Z" fill="currentColor"/>
+<path fillRule="evenodd" clipRule="evenodd" d="M18.44 4.79001C17.92 5.42001 16.46 6.91999 13.69 8.01999C13.53 8.08999 13.34 8.01999 13.25 7.85999C11.97 5.53999 10.6099 3.58999 9.97994 2.70999C9.82994 2.49999 9.94997 2.2 10.2 2.16C10.78 2.06 11.39 2.01001 12.01 2.01001C14.43 2.01001 16.66 2.87 18.39 4.31C18.54 4.42 18.56 4.64001 18.44 4.79001Z" fill="currentColor"/>
+<path fillRule="evenodd" clipRule="evenodd" d="M11.02 8.83991C7.23002 9.78991 3.87998 9.91992 2.65998 9.93992C2.42998 9.93992 2.26001 9.71991 2.32001 9.49991C3.04001 6.69991 4.95999 4.35992 7.48999 3.06992C7.63999 2.98992 7.83 3.03991 7.93 3.17991C8.45 3.89991 9.85999 5.92992 11.24 8.31992C11.35 8.51992 11.25 8.77991 11.02 8.83991Z" fill="currentColor"/>
+<path fillRule="evenodd" clipRule="evenodd" d="M12.92 11.6001C13.01 11.7901 12.9 12.0201 12.7 12.0901C8.27001 13.5201 5.62001 17.0701 4.82001 18.2901C4.69001 18.4901 4.41001 18.5001 4.26001 18.3201C2.86001 16.6001 2.01001 14.6301 2.01001 12.2401V12.0601C2.01001 11.8601 2.17 11.7001 2.37 11.7101C3.63 11.7601 7.74001 11.5901 12.01 10.3601C12.17 10.3101 12.35 10.3901 12.42 10.5401C12.59 10.8901 12.76 11.2401 12.92 11.6001Z" fill="currentColor"/>
+    </svg>
+  )
+);
+DribbbleFilled.displayName = "DribbbleFilled";
+export const DribbbleFilledMetadata = { 
+  id: "dribbble_filled", 
+  baseId: "dribbble", 
+  variant: "filled", 
+  name: "Dribbble", 
+  category: "brand", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
+export default DribbbleFilled;

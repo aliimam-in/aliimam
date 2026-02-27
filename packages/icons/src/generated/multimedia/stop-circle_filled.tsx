@@ -1,0 +1,39 @@
+/** Auto-generated - Do not edit */
+'use client';
+import React from 'react';
+
+export interface StopCircleFilledProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  strokeWidth?: number;
+}
+
+export const StopCircleFilled = React.forwardRef<SVGSVGElement, StopCircleFilledProps>(
+  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
+    <svg 
+      ref={ref}
+      width={size}
+      height={size} 
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      stroke="none"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
+      <path d="M11.97 2C6.44997 2 1.96997 6.48 1.96997 12C1.96997 17.52 6.44997 22 11.97 22C17.49 22 21.97 17.52 21.97 12C21.97 6.48 17.5 2 11.97 2ZM16.23 13.23C16.23 14.89 14.89 16.23 13.23 16.23H10.77C9.10997 16.23 7.76997 14.89 7.76997 13.23V10.77C7.76997 9.11 9.10997 7.77 10.77 7.77H13.23C14.89 7.77 16.23 9.11 16.23 10.77V13.23Z" fill="currentColor"/>
+    </svg>
+  )
+);
+StopCircleFilled.displayName = "StopCircleFilled";
+export const StopCircleFilledMetadata = { 
+  id: "stop-circle_filled", 
+  baseId: "stop-circle", 
+  variant: "filled", 
+  name: "Stop Circle", 
+  category: "multimedia", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
+export default StopCircleFilled;

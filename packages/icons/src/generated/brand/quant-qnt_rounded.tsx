@@ -21,14 +21,14 @@ export const QuantQntRounded = React.forwardRef<SVGSVGElement, QuantQntRoundedPr
       {...(strokeWidth !== undefined ? { strokeWidth } : {})}
       {...props}
     >
-      <path d="M12 2L3 7V17L12 22L17 19.5L21 22V17L17 14.8L21 12V7L12 2Z" stroke="#17191C" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M12 6.40002L7 9.20002V14.8L12 17.6L17 14.8V9.20002L12 6.40002Z" stroke="#17191C" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M3 7L7 9.2" stroke="#17191C" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M3 17L7 14.8" stroke="#17191C" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M21 7L17 9.2" stroke="#17191C" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M12 6V2" stroke="#17191C" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M12 22V18" stroke="#17191C" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M17 20V15" stroke="#17191C" strokeWidth="1.5" strokeMiterlimit="10"/>
+      <path d="M12 2L3 7V17L12 22L17 19.5L21 22V17L17 14.8L21 12V7L12 2Z"   strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M12 6.40002L7 9.20002V14.8L12 17.6L17 14.8V9.20002L12 6.40002Z"   strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M3 7L7 9.2"   strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M3 17L7 14.8"   strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M21 7L17 9.2"   strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M12 6V2"   strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M12 22V18"   strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M17 20V15"   strokeMiterlimit="10"/>
     </svg>
   )
 );

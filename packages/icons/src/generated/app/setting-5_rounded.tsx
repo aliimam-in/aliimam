@@ -21,15 +21,15 @@ export const Setting5Rounded = React.forwardRef<SVGSVGElement, Setting5RoundedPr
       {...(strokeWidth !== undefined ? { strokeWidth } : {})}
       {...props}
     >
-      <path d="M19 22V11" stroke="#292D32" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M19 7V2" stroke="#292D32" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M12 22V17" stroke="#292D32" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M12 13V2" stroke="#292D32" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M5 22V11" stroke="#292D32" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M5 7V2" stroke="#292D32" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M3 11H7" stroke="#292D32" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M17 11H21" stroke="#292D32" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M10 13H14" stroke="#292D32" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M19 22V11"   strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M19 7V2"   strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M12 22V17"   strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M12 13V2"   strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M5 22V11"   strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M5 7V2"   strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M3 11H7"   strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M17 11H21"   strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M10 13H14"   strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
     </svg>
   )
 );

@@ -21,8 +21,8 @@ export const VelasVlxRounded = React.forwardRef<SVGSVGElement, VelasVlxRoundedPr
       {...(strokeWidth !== undefined ? { strokeWidth } : {})}
       {...props}
     >
-      <path d="M2 3H22" stroke="#17191C" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M3.99988 6.40002H19.9999C20.8999 6.40002 21.3999 7.40002 20.8999 8.10002L12.8999 20.5C12.4999 21.2 11.4999 21.2 10.9999 20.5L2.99988 8.10002C2.59988 7.30002 3.19988 6.40002 3.99988 6.40002Z" stroke="#17191C" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M2 3H22"   strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M3.99988 6.40002H19.9999C20.8999 6.40002 21.3999 7.40002 20.8999 8.10002L12.8999 20.5C12.4999 21.2 11.4999 21.2 10.9999 20.5L2.99988 8.10002C2.59988 7.30002 3.19988 6.40002 3.99988 6.40002Z"   strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
     </svg>
   )
 );

@@ -21,10 +21,10 @@ export const MaximizeRounded = React.forwardRef<SVGSVGElement, MaximizeRoundedPr
       {...(strokeWidth !== undefined ? { strokeWidth } : {})}
       {...props}
     >
-      <path d="M2 9.98V9C2 4 4 2 9 2H15C20 2 22 4 22 9V15C22 20 20 22 15 22H14" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M13 11L18.01 5.98H14" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M18.01 5.98V9.99" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M11 16.15V18.85C11 21.1 10.1 22 7.85 22H5.15C2.9 22 2 21.1 2 18.85V16.15C2 13.9 2.9 13 5.15 13H7.85C10.1 13 11 13.9 11 16.15Z" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M2 9.98V9C2 4 4 2 9 2H15C20 2 22 4 22 9V15C22 20 20 22 15 22H14"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M13 11L18.01 5.98H14"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M18.01 5.98V9.99"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M11 16.15V18.85C11 21.1 10.1 22 7.85 22H5.15C2.9 22 2 21.1 2 18.85V16.15C2 13.9 2.9 13 5.15 13H7.85C10.1 13 11 13.9 11 16.15Z"   strokeLinecap="round" strokeLinejoin="round"/>
     </svg>
   )
 );

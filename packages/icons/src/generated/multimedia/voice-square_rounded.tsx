@@ -21,12 +21,12 @@ export const VoiceSquareRounded = React.forwardRef<SVGSVGElement, VoiceSquareRou
       {...(strokeWidth !== undefined ? { strokeWidth } : {})}
       {...props}
     >
-      <path d="M6 9.85999V14.15" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M9 8.42999V15.57" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M12 7V17" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M15 8.42999V15.57" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M18 9.85999V14.15" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M6 9.85999V14.15"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M9 8.42999V15.57"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M12 7V17"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M15 8.42999V15.57"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M18 9.85999V14.15"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z"   strokeLinecap="round" strokeLinejoin="round"/>
     </svg>
   )
 );

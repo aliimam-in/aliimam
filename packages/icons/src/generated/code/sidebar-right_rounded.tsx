@@ -21,9 +21,9 @@ export const SidebarRightRounded = React.forwardRef<SVGSVGElement, SidebarRightR
       {...(strokeWidth !== undefined ? { strokeWidth } : {})}
       {...props}
     >
-      <path d="M21.97 15V9C21.97 4 19.97 2 14.97 2H8.97C3.97 2 1.97 4 1.97 9V15C1.97 20 3.97 22 8.97 22H14.97C19.97 22 21.97 20 21.97 15Z" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M14.97 2V22" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M7.97 9.44L10.53 12L7.97 14.56" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M21.97 15V9C21.97 4 19.97 2 14.97 2H8.97C3.97 2 1.97 4 1.97 9V15C1.97 20 3.97 22 8.97 22H14.97C19.97 22 21.97 20 21.97 15Z"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M14.97 2V22"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M7.97 9.44L10.53 12L7.97 14.56"   strokeLinecap="round" strokeLinejoin="round"/>
     </svg>
   )
 );

@@ -1,0 +1,42 @@
+/** Auto-generated - Do not edit */
+'use client';
+import React from 'react';
+
+export interface WindowsFilledProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  strokeWidth?: number;
+}
+
+export const WindowsFilled = React.forwardRef<SVGSVGElement, WindowsFilledProps>(
+  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
+    <svg 
+      ref={ref}
+      width={size}
+      height={size} 
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      stroke="none"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
+      <path fillRule="evenodd" clipRule="evenodd" d="M20.8 2.23998L12.8 3.83998C12.33 3.92998 12 4.33999 12 4.81999V9.99999C12 10.55 12.45 11 13 11H21C21.55 11 22 10.55 22 9.99999V3.21999C22 2.58999 21.42 2.11998 20.8 2.23998Z" fill="currentColor"/>
+<path fillRule="evenodd" clipRule="evenodd" d="M20.8 21.76L12.8 20.16C12.33 20.07 12 19.66 12 19.18V14C12 13.45 12.45 13 13 13H21C21.55 13 22 13.45 22 14V20.78C22 21.41 21.42 21.88 20.8 21.76Z" fill="currentColor"/>
+<path fillRule="evenodd" clipRule="evenodd" d="M8.78998 4.56008L2.78998 5.83007C2.32998 5.93007 2 6.34008 2 6.81008V10.0001C2 10.5501 2.45 11.0001 3 11.0001H9C9.55 11.0001 10 10.5501 10 10.0001V5.53008C10 4.90008 9.40998 4.42008 8.78998 4.56008Z" fill="currentColor"/>
+<path fillRule="evenodd" clipRule="evenodd" d="M8.78998 19.44L2.78998 18.17C2.32998 18.07 2 17.66 2 17.19V14C2 13.45 2.45 13 3 13H9C9.55 13 10 13.45 10 14V18.47C10 19.1 9.40998 19.58 8.78998 19.44Z" fill="currentColor"/>
+    </svg>
+  )
+);
+WindowsFilled.displayName = "WindowsFilled";
+export const WindowsFilledMetadata = { 
+  id: "windows_filled", 
+  baseId: "windows", 
+  variant: "filled", 
+  name: "Windows", 
+  category: "brand", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
+export default WindowsFilled;

@@ -21,7 +21,7 @@ export const ArrowUp3Rounded = React.forwardRef<SVGSVGElement, ArrowUp3RoundedPr
       {...(strokeWidth !== undefined ? { strokeWidth } : {})}
       {...props}
     >
-      <path d="M11.9999 18H9.32992C6.01992 18 4.65992 15.65 6.31992 12.78L7.65992 10.47L8.99992 8.16C10.6599 5.29 13.3699 5.29 15.0299 8.16L16.3699 10.47L17.7099 12.78C19.3699 15.65 18.0099 18 14.6999 18H11.9999Z" stroke="#292D32" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M11.9999 18H9.32992C6.01992 18 4.65992 15.65 6.31992 12.78L7.65992 10.47L8.99992 8.16C10.6599 5.29 13.3699 5.29 15.0299 8.16L16.3699 10.47L17.7099 12.78C19.3699 15.65 18.0099 18 14.6999 18H11.9999Z"   strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
     </svg>
   )
 );

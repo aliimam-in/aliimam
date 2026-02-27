@@ -21,9 +21,9 @@ export const TagCrossRounded = React.forwardRef<SVGSVGElement, TagCrossRoundedPr
       {...(strokeWidth !== undefined ? { strokeWidth } : {})}
       {...props}
     >
-      <path d="M10.28 20.25H17C19.76 20.25 22 18.01 22 15.25V8.75C22 5.99 19.76 3.75 17 3.75H10.28C8.86999 3.75 7.52999 4.34 6.57999 5.39L3.04999 9.27C1.63999 10.82 1.63999 13.18 3.04999 14.73L6.57999 18.61C7.52999 19.66 8.86999 20.25 10.28 20.25Z" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M16 14.47L11.06 9.53" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round"/>
-<path d="M11.06 14.47L16 9.53" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round"/>
+      <path d="M10.28 20.25H17C19.76 20.25 22 18.01 22 15.25V8.75C22 5.99 19.76 3.75 17 3.75H10.28C8.86999 3.75 7.52999 4.34 6.57999 5.39L3.04999 9.27C1.63999 10.82 1.63999 13.18 3.04999 14.73L6.57999 18.61C7.52999 19.66 8.86999 20.25 10.28 20.25Z"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M16 14.47L11.06 9.53"   strokeLinecap="round"/>
+<path d="M11.06 14.47L16 9.53"   strokeLinecap="round"/>
     </svg>
   )
 );

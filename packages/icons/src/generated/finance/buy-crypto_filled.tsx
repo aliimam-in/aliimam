@@ -1,0 +1,40 @@
+/** Auto-generated - Do not edit */
+'use client';
+import React from 'react';
+
+export interface BuyCryptoFilledProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  strokeWidth?: number;
+}
+
+export const BuyCryptoFilled = React.forwardRef<SVGSVGElement, BuyCryptoFilledProps>(
+  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
+    <svg 
+      ref={ref}
+      width={size}
+      height={size} 
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      stroke="none"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
+      <path d="M22 8.5C22 11.76 19.6 14.45 16.48 14.92V14.86C16.17 10.98 13.02 7.83 9.11002 7.52H9.08002C9.55002 4.4 12.24 2 15.5 2C19.09 2 22 4.91 22 8.5Z" fill="currentColor"/>
+<path d="M14.98 14.98C14.73 11.81 12.19 9.27 9.02 9.02C8.85 9.01 8.67 9 8.5 9C4.91 9 2 11.91 2 15.5C2 19.09 4.91 22 8.5 22C12.09 22 15 19.09 15 15.5C15 15.33 14.99 15.15 14.98 14.98ZM9.38 16.38L8.5 18L7.62 16.38L6 15.5L7.62 14.62L8.5 13L9.38 14.62L11 15.5L9.38 16.38Z" fill="currentColor"/>
+    </svg>
+  )
+);
+BuyCryptoFilled.displayName = "BuyCryptoFilled";
+export const BuyCryptoFilledMetadata = { 
+  id: "buy-crypto_filled", 
+  baseId: "buy-crypto", 
+  variant: "filled", 
+  name: "Buy Crypto", 
+  category: "finance", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
+export default BuyCryptoFilled;

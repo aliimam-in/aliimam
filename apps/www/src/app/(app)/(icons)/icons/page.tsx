@@ -11,14 +11,15 @@ import { IconSearch } from "@/src/components/icons/icons/icon-search"
 import { IconsNav } from "@/src/components/icons/icons-nav"
 import { IconGrid } from "@/src/components/icons/icons/main-icons"
 import { useIconFilter } from "@/src/components/icons/icons/icon-filter-context"
-import { Tabs, TabsList, TabsTrigger } from "@/registry/aliimam/ui/tabs" 
+import { Tabs, TabsList, TabsTrigger } from "@/registry/aliimam/ui/tabs"
 
-type VariantTab = "outline" | "filled"  | "doodle"
-
+type VariantTab = "outline" | "filled" | "doodle"
+  | "rounded"
 const VARIANT_TABS: { value: VariantTab; label: string }[] = [
   { value: "outline", label: "Outline" },
-  { value: "filled", label: "Filled" }, 
-   { value: "doodle", label: "Doodle" }, 
+  { value: "filled", label: "Filled" },
+  { value: "rounded", label: "Rounded" },
+  { value: "doodle", label: "Doodle" },
 ]
 
 export default function Page() {
@@ -50,17 +51,17 @@ export default function Page() {
   }, [setCategory])
 
   const handleTabChange = (value: string) => {
-  const tab = value as VariantTab
-  const params = new URLSearchParams()
-  if (tab !== "outline") params.set("tab", tab)
-  const hash = window.location.hash
-  router.push(`/icons${params.size ? `?${params}` : ""}${hash}`, { scroll: false })
-}
+    const tab = value as VariantTab
+    const params = new URLSearchParams()
+    if (tab !== "outline") params.set("tab", tab)
+    const hash = window.location.hash
+    router.push(`/icons${params.size ? `?${params}` : ""}${hash}`, { scroll: false })
+  }
 
   return (
     <div>
       <div className="bg-background sticky top-14 z-40 flex h-14 w-full items-center gap-2 border-b px-4">
-        <IconsNav /> 
+        <IconsNav />
         <div className="ml-auto hidden md:block">
           <IconSearch />
         </div>
@@ -71,7 +72,7 @@ export default function Page() {
                 {label}
               </TabsTrigger>
             ))}
-          </TabsList> 
+          </TabsList>
         </Tabs>
       </div>
 
@@ -83,9 +84,8 @@ export default function Page() {
           </div>
 
           <div
-            className={`relative transition-all duration-300 ${
-              selectedLogo ? "w-fit translate-x-0 opacity-100" : "w-0 translate-x-full opacity-0"
-            }`}
+            className={`relative transition-all duration-300 ${selectedLogo ? "w-fit translate-x-0 opacity-100" : "w-0 translate-x-full opacity-0"
+              }`}
           >
             {selectedLogo && (
               <IconPreview

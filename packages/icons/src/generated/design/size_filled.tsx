@@ -1,0 +1,40 @@
+/** Auto-generated - Do not edit */
+'use client';
+import React from 'react';
+
+export interface SizeFilledProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  strokeWidth?: number;
+}
+
+export const SizeFilled = React.forwardRef<SVGSVGElement, SizeFilledProps>(
+  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
+    <svg 
+      ref={ref}
+      width={size}
+      height={size} 
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      stroke="none"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
+      <path d="M21.97 5.5V9.5C21.97 11.2615 20.6705 12.7232 18.9685 12.9649C18.6951 13.0038 18.47 12.7761 18.47 12.5V12.25C18.47 8.53 15.45 5.5 11.72 5.5H11.47C11.1939 5.5 10.9662 5.27486 11.0054 5.0015C11.2481 3.30678 12.7092 2 14.47 2H18.47C20.41 2 21.97 3.57 21.97 5.5Z" fill="currentColor"/>
+<path d="M11.72 7H10.97H6.97C4.21 7 1.97 9.24 1.97 12V17C1.97 19.76 4.21 22 6.97 22H11.97C14.73 22 16.97 19.76 16.97 17V13V12.25C16.97 9.35 14.62 7 11.72 7Z" fill="currentColor"/>
+    </svg>
+  )
+);
+SizeFilled.displayName = "SizeFilled";
+export const SizeFilledMetadata = { 
+  id: "size_filled", 
+  baseId: "size", 
+  variant: "filled", 
+  name: "Size", 
+  category: "design", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
+export default SizeFilled;

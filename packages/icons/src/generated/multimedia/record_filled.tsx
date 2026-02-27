@@ -1,0 +1,40 @@
+/** Auto-generated - Do not edit */
+'use client';
+import React from 'react';
+
+export interface RecordFilledProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  strokeWidth?: number;
+}
+
+export const RecordFilled = React.forwardRef<SVGSVGElement, RecordFilledProps>(
+  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
+    <svg 
+      ref={ref}
+      width={size}
+      height={size} 
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      stroke="none"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
+      <path d="M19.6299 7.23991C19.9299 7.70991 19.7699 8.33991 19.2899 8.62991L18.6999 8.97991L5.58991 16.8399C5.10991 17.1299 4.47991 16.9699 4.19991 16.4799C3.19991 14.7399 2.74991 12.6199 3.13991 10.3999C3.79991 6.62991 6.89991 3.62991 10.6899 3.08991C14.4399 2.55991 17.8299 4.35991 19.6299 7.23991Z" fill="currentColor"/>
+<path d="M20.8899 13.4301C20.2099 17.6801 16.4499 20.9301 12.1399 21.0001C10.2399 21.0301 8.47991 20.4801 7.01991 19.4901C6.39991 19.0801 6.41991 18.1601 7.05991 17.7801L19.4699 10.4901C20.1199 10.1101 20.9199 10.5501 20.9799 11.3001C21.0299 12.0001 20.9999 12.7101 20.8899 13.4301Z" fill="currentColor"/>
+    </svg>
+  )
+);
+RecordFilled.displayName = "RecordFilled";
+export const RecordFilledMetadata = { 
+  id: "record_filled", 
+  baseId: "record", 
+  variant: "filled", 
+  name: "Record", 
+  category: "multimedia", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
+export default RecordFilled;

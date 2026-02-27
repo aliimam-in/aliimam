@@ -1,0 +1,40 @@
+/** Auto-generated - Do not edit */
+'use client';
+import React from 'react';
+
+export interface Import3FilledProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  strokeWidth?: number;
+}
+
+export const Import3Filled = React.forwardRef<SVGSVGElement, Import3FilledProps>(
+  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
+    <svg 
+      ref={ref}
+      width={size}
+      height={size} 
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      stroke="none"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
+      <path d="M21.14 9.8999H12.68V13.5699L14.25 11.9999C14.54 11.7099 15.02 11.7099 15.31 11.9999C15.6 12.2899 15.6 12.7699 15.31 13.0599L12.46 15.8999C12.17 16.1899 11.69 16.1899 11.4 15.8999L8.55 13.0599C8.4 12.9099 8.33 12.7199 8.33 12.5299C8.33 12.3399 8.41 12.1499 8.56 11.9999C8.85 11.7099 9.33 11.7099 9.62 11.9999L11.18 13.5599V9.8999H2.86C2.38 9.8999 2 10.2799 2 10.7599C2 16.6499 6.11 20.7599 12 20.7599C17.89 20.7599 22 16.6499 22 10.7599C22 10.2799 21.62 9.8999 21.14 9.8999Z" fill="currentColor"/>
+<path d="M12.6799 3.98999C12.6799 3.57999 12.3399 3.23999 11.9299 3.23999C11.5199 3.23999 11.1799 3.57999 11.1799 3.98999V9.88999H12.6799V3.98999Z" fill="currentColor"/>
+    </svg>
+  )
+);
+Import3Filled.displayName = "Import3Filled";
+export const Import3FilledMetadata = { 
+  id: "import-3_filled", 
+  baseId: "import-3", 
+  variant: "filled", 
+  name: "Import 3", 
+  category: "arrows", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
+export default Import3Filled;

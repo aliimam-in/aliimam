@@ -1,0 +1,39 @@
+/** Auto-generated - Do not edit */
+'use client';
+import React from 'react';
+
+export interface XiaomiFilledProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  strokeWidth?: number;
+}
+
+export const XiaomiFilled = React.forwardRef<SVGSVGElement, XiaomiFilledProps>(
+  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
+    <svg 
+      ref={ref}
+      width={size}
+      height={size} 
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      stroke="none"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
+      <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM11.25 15C11.25 15.41 10.91 15.75 10.5 15.75C10.09 15.75 9.75 15.41 9.75 15V12C9.75 11.59 10.09 11.25 10.5 11.25C10.91 11.25 11.25 11.59 11.25 12V15ZM14.25 15C14.25 15.41 13.91 15.75 13.5 15.75C13.09 15.75 12.75 15.41 12.75 15V11C12.75 10.31 12.19 9.75 11.5 9.75H8.25V15C8.25 15.41 7.91 15.75 7.5 15.75C7.09 15.75 6.75 15.41 6.75 15V9C6.75 8.59 7.09 8.25 7.5 8.25H11.5C13.02 8.25 14.25 9.48 14.25 11V15ZM17.25 15C17.25 15.41 16.91 15.75 16.5 15.75C16.09 15.75 15.75 15.41 15.75 15V9C15.75 8.59 16.09 8.25 16.5 8.25C16.91 8.25 17.25 8.59 17.25 9V15Z" fill="currentColor"/>
+    </svg>
+  )
+);
+XiaomiFilled.displayName = "XiaomiFilled";
+export const XiaomiFilledMetadata = { 
+  id: "xiaomi_filled", 
+  baseId: "xiaomi", 
+  variant: "filled", 
+  name: "Xiaomi", 
+  category: "brand", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
+export default XiaomiFilled;

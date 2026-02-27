@@ -21,9 +21,9 @@ export const CelsiusCelRounded = React.forwardRef<SVGSVGElement, CelsiusCelRound
       {...(strokeWidth !== undefined ? { strokeWidth } : {})}
       {...props}
     >
-      <path d="M16.3001 15.3C15.3001 16.6 13.7001 17.5 12.0001 17.5C9.0001 17.5 6.6001 15.1 6.6001 12.1C6.6001 9.09998 9.0001 6.59998 12.0001 6.59998C13.2001 6.59998 14.4001 6.99998 15.3001 7.69998" stroke="#17191C" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M17.4 11.4C18.0627 11.4 18.6 10.8627 18.6 10.2C18.6 9.53726 18.0627 9 17.4 9C16.7372 9 16.2 9.53726 16.2 10.2C16.2 10.8627 16.7372 11.4 17.4 11.4Z" stroke="#17191C" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="#17191C" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M16.3001 15.3C15.3001 16.6 13.7001 17.5 12.0001 17.5C9.0001 17.5 6.6001 15.1 6.6001 12.1C6.6001 9.09998 9.0001 6.59998 12.0001 6.59998C13.2001 6.59998 14.4001 6.99998 15.3001 7.69998"   strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M17.4 11.4C18.0627 11.4 18.6 10.8627 18.6 10.2C18.6 9.53726 18.0627 9 17.4 9C16.7372 9 16.2 9.53726 16.2 10.2C16.2 10.8627 16.7372 11.4 17.4 11.4Z"   strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"   strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
     </svg>
   )
 );

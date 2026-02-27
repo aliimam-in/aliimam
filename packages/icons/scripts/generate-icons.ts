@@ -116,10 +116,13 @@ function extractInnerSVG(svg: string): string {
 }
 
 function convertSvgAttributes(svg: string) {
-  return svg 
-  .replace(/fill=["'](?!none)[^"']*["']/gi, 'fill="currentColor"')
-  
-    .replace(/stroke-width=/g, "strokeWidth=")
+  return svg
+    .replace(/fill=["'](?!none)[^"']*["']/gi, 'fill="currentColor"')
+    .replace(/stroke=["'](?!none)[^"']*["']/gi, "")
+    .replace(/strokeWidth=["'](?!none)[^"']*["']/gi, "")
+
+    .replace(/stroke-width=["'](?!none)[^"']*["']/gi, "")
+    .replace(/stroke-width=/g, "")
     .replace(/stroke-linecap=/g, "strokeLinecap=")
     .replace(/stroke-linejoin=/g, "strokeLinejoin=")
     .replace(/fill-rule=/g, "fillRule=")
@@ -158,7 +161,7 @@ function convertSvgAttributes(svg: string) {
     .replace(/\s*serif:[a-zA-Z-]+=["'][^"']*["']/g, "")
 }
 
-const KNOWN_VARIANTS = new Set(["filled", "rounded" ,"doodle", "outline"])
+const KNOWN_VARIANTS = new Set(["filled", "rounded", "doodle", "outline"])
 
 function parseLogoId(basename: string): { baseId: string; variant: string } {
   const underscoreIndex = basename.lastIndexOf("_")
@@ -213,14 +216,14 @@ const allIconsRaw: LogoJSON[] = []
 const categories = fs
   .readdirSync(LOGOS_DIR)
   .filter((d) => fs.statSync(path.join(LOGOS_DIR, d)).isDirectory())
- 
+
 
 for (const category of categories) {
   const categoryPath = path.join(LOGOS_DIR, category)
   const files = fs.readdirSync(categoryPath).filter((f) => f.endsWith(".svg"))
 
   for (const file of files) {
-   const basename = path.basename(file, ".svg") 
+    const basename = path.basename(file, ".svg")
     const rawSvg = fs.readFileSync(path.join(categoryPath, file), "utf-8")
     const svgContent = convertSvgAttributes(extractInnerSVG(rawSvg))
     const existing = existingMap.get(`${category}/${basename}`)
@@ -293,28 +296,28 @@ for (const category of categories) {
 
   for (const logo of categoryLogos) {
     let defaultFill = 'none'
-let defaultStroke = 'currentColor'
+    let defaultStroke = 'currentColor'
 
-switch (logo.variant) {
-  case 'filled':
-    defaultFill = 'currentColor'
-    defaultStroke = 'none'
-    break
+    switch (logo.variant) {
+      case 'filled':
+        defaultFill = 'currentColor'
+        defaultStroke = 'none'
+        break
 
-  case 'outline':
-    defaultFill = 'none'
-    defaultStroke = 'currentColor'
-    break
+      case 'outline':
+        defaultFill = 'none'
+        defaultStroke = 'currentColor'
+        break
 
-  case 'circle':
-    defaultFill = 'none'
-    defaultStroke = 'currentColor'
-    break
+      case 'circle':
+        defaultFill = 'none'
+        defaultStroke = 'currentColor'
+        break
 
-  default:
-    defaultFill = 'none'
-    defaultStroke = 'currentColor'
-}
+      default:
+        defaultFill = 'none'
+        defaultStroke = 'currentColor'
+    }
 
     const componentName = toComponentName(logo.id)
     const componentCode = `/** Auto-generated - Do not edit */
@@ -425,11 +428,11 @@ allIconsObject += "};\n"
 fs.writeFileSync(
   mainIndexPath,
   mainIndexContent +
-    namedExports +
-    "\n" +
-    internalImports +
-    "\n" +
-    allIconsObject
+  namedExports +
+  "\n" +
+  internalImports +
+  "\n" +
+  allIconsObject
 )
 
 console.log(

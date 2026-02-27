@@ -30,12 +30,13 @@ for (const icons of Object.values(allIcons) as Record<string, any>[]) {
 
 function matchesVariantTab(
   variant: string,
-  tab: "outline" | "filled" | "doodle"
+  tab: "outline" | "filled" | "rounded" | "doodle"
 ): boolean {
   const v = (variant ?? "").toLowerCase()
   if (tab === "outline") return v === "default" || v === "outline" || v === ""
   if (tab === "filled") return v === "filled"
   if (tab === "doodle") return v === "doodle"
+  if (tab === "rounded") return v === "rounded"
   return false
 }
 

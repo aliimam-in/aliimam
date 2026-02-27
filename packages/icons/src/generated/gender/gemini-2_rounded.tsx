@@ -21,12 +21,12 @@ export const Gemini2Rounded = React.forwardRef<SVGSVGElement, Gemini2RoundedProp
       {...(strokeWidth !== undefined ? { strokeWidth } : {})}
       {...props}
     >
-      <path d="M12 22V3" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M15.3 5.29999L12 2L8.69995 5.29999" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M5 7L3 5L1 7" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M23 7L21 5L19 7" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M3 6.03998V11C3 15 5 17 9 17H15C19 17 21 15 21 11V6.03998" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M9 20H15" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M12 22V3"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M15.3 5.29999L12 2L8.69995 5.29999"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M5 7L3 5L1 7"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M23 7L21 5L19 7"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M3 6.03998V11C3 15 5 17 9 17H15C19 17 21 15 21 11V6.03998"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M9 20H15"   strokeLinecap="round" strokeLinejoin="round"/>
     </svg>
   )
 );

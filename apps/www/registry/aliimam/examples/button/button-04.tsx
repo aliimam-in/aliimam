@@ -1,4 +1,4 @@
-import { MailFilled } from "@aliimam/icons"
+import { Mail } from "@aliimam/icons"
 import {
   Apple,
   Bluesky,
@@ -72,7 +72,7 @@ export default function ButtonDemo() {
         Continue with X
       </Button>
       <Button variant={"secondary"}>
-        <MailFilled/>
+        <Mail/>
         Login with email
       </Button>
       <Button variant={"outline"}>

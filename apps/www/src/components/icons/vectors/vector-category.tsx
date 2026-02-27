@@ -9,13 +9,14 @@ import { useVectorFilter } from "./vector-filter-context"
 
 function matchesVariantTab(
   variant: string,
-  tab: "shapes" | "sketch" | "pattern" | "texture"
+  tab: "shapes" | "sketch" | "pattern" | "character" | "texture"
 ): boolean {
   const v = (variant ?? "").toLowerCase()
   if (tab === "shapes") return v === "default" || v === "shapes" || v === ""
   if (tab === "sketch") return v === "sketch"
   if (tab === "pattern") return v === "pattern"
   if (tab === "texture") return v === "texture" 
+  if (tab === "character") return v === "character" 
   return false
 }
 

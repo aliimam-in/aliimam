@@ -21,13 +21,13 @@ export const HashtagDownRounded = React.forwardRef<SVGSVGElement, HashtagDownRou
       {...(strokeWidth !== undefined ? { strokeWidth } : {})}
       {...props}
     >
-      <path d="M22 13V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22H14" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M19 16V22L21 20" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M19 22L17 20" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M9.95002 6.26001L8.90002 15.73" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M13.11 6.26001L12.06 15.73" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M6.53003 9.42001H16" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M6 12.58H15.47" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M22 13V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22H14"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M19 16V22L21 20"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M19 22L17 20"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M9.95002 6.26001L8.90002 15.73"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M13.11 6.26001L12.06 15.73"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M6.53003 9.42001H16"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M6 12.58H15.47"   strokeLinecap="round" strokeLinejoin="round"/>
     </svg>
   )
 );

@@ -21,13 +21,13 @@ export const MicrophoneSlashRounded = React.forwardRef<SVGSVGElement, Microphone
       {...(strokeWidth !== undefined ? { strokeWidth } : {})}
       {...props}
     >
-      <path d="M16 6.3V6C16 3.79 14.21 2 12 2C9.79 2 8 3.79 8 6V11" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M9.04004 14.19C9.77004 15 10.83 15.5 12 15.5C14.21 15.5 16 13.71 16 11.5V11" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M6.78003 16.95C8.15003 18.22 9.98003 19 12 19C16.22 19 19.65 15.57 19.65 11.35V9.65002" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M4.3501 9.65002V11.35C4.3501 12.41 4.5601 13.41 4.9501 14.33" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M20.0699 2.83997L3.92993 18.99" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M11 3V6" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M12 19V22" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M16 6.3V6C16 3.79 14.21 2 12 2C9.79 2 8 3.79 8 6V11"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M9.04004 14.19C9.77004 15 10.83 15.5 12 15.5C14.21 15.5 16 13.71 16 11.5V11"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M6.78003 16.95C8.15003 18.22 9.98003 19 12 19C16.22 19 19.65 15.57 19.65 11.35V9.65002"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M4.3501 9.65002V11.35C4.3501 12.41 4.5601 13.41 4.9501 14.33"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M20.0699 2.83997L3.92993 18.99"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M11 3V6"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M12 19V22"   strokeLinecap="round" strokeLinejoin="round"/>
     </svg>
   )
 );

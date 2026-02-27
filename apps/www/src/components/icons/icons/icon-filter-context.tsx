@@ -9,12 +9,13 @@ type LogoFilterContext = {
   setQuery: (q: string) => void
   category: string | null
   setCategory: (c: string | null) => void
-  variantTab: "outline" | "filled" | "doodle"
-  setVariantTab: (v: "outline" | "filled" | "doodle") => void
+  variantTab: "outline" | "filled" | "rounded" | "doodle"
+  setVariantTab: (v: "outline" | "filled" | "rounded" | "doodle") => void
   counts: {
     filtered: number      
     outline: number        
     filled: number         
+    rounded: number        
     doodle: number        
   }
 }
@@ -24,12 +25,12 @@ const LogoFilterContext = createContext<LogoFilterContext | undefined>(undefined
 export function IconFilterProvider({ children }: { children: React.ReactNode }) {
   const [query, setQuery] = useState("")
   const [category, setCategory] = useState<string | null>(null)
-  const [variantTab, setVariantTab] = useState<"outline" | "filled" | "doodle">("outline")
+  const [variantTab, setVariantTab] = useState<"outline" | "filled" | "rounded" | "doodle">("outline")
 
   const counts = useMemo(() => {
     const q = query.toLowerCase() 
     let filteredCount = 0
-    const variantCounts = { outline: 0, filled: 0, doodle: 0 }
+    const variantCounts = { outline: 0, filled: 0, doodle: 0, rounded: 0 }
 
     Object.entries(allIcons).forEach(([cat, logos]) => {
       Object.values(logos as any).forEach((entry: any) => {
@@ -39,12 +40,14 @@ export function IconFilterProvider({ children }: { children: React.ReactNode }) 
         // 1. Calculate Tab Counts (Ignoring Search/Category filters for tabs usually)
         if (v === "default" || v === "outline" || v === "") variantCounts.outline++
         else if (v === "filled") variantCounts.filled++
-        else if (v === "doodle") variantCounts.doodle++
+        else if (v === "doodle") variantCounts.doodle++ 
+        else if (v === "rounded") variantCounts.rounded++
 
         // 2. Calculate Search/Filtered Count (Specific to current Tab + Search)
         const isCurrentTab = 
           (variantTab === "outline" && (v === "default" || v === "outline" || v === "")) ||
           (variantTab === "filled" && v === "filled") ||
+          (variantTab === "rounded" && v === "rounded") ||
           (variantTab === "doodle" && v === "doodle")
 
         if (isCurrentTab) {

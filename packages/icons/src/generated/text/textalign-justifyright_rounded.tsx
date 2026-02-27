@@ -21,10 +21,10 @@ export const TextalignJustifyrightRounded = React.forwardRef<SVGSVGElement, Text
       {...(strokeWidth !== undefined ? { strokeWidth } : {})}
       {...props}
     >
-      <path d="M12 4.5H21" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M12 9.5H21" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M3 14.5H21" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M3 19.5H21" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M12 4.5H21"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M12 9.5H21"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M3 14.5H21"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M3 19.5H21"   strokeLinecap="round" strokeLinejoin="round"/>
     </svg>
   )
 );

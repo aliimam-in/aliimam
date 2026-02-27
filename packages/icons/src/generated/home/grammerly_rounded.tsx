@@ -21,8 +21,8 @@ export const GrammerlyRounded = React.forwardRef<SVGSVGElement, GrammerlyRounded
       {...(strokeWidth !== undefined ? { strokeWidth } : {})}
       {...props}
     >
-      <path d="M19.07 4.95002C23.04 8.92002 22.97 15.4 18.87 19.29C15.08 22.88 8.92996 22.88 5.12996 19.29C1.01996 15.4 0.94995 8.92002 4.92995 4.95002C8.82995 1.04002 15.17 1.04002 19.07 4.95002Z" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M15.84 16.07C13.72 18.07 10.28 18.07 8.16998 16.07" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M19.07 4.95002C23.04 8.92002 22.97 15.4 18.87 19.29C15.08 22.88 8.92996 22.88 5.12996 19.29C1.01996 15.4 0.94995 8.92002 4.92995 4.95002C8.82995 1.04002 15.17 1.04002 19.07 4.95002Z"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M15.84 16.07C13.72 18.07 10.28 18.07 8.16998 16.07"   strokeLinecap="round" strokeLinejoin="round"/>
     </svg>
   )
 );

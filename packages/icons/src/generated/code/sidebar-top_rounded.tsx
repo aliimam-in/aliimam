@@ -21,9 +21,9 @@ export const SidebarTopRounded = React.forwardRef<SVGSVGElement, SidebarTopRound
       {...(strokeWidth !== undefined ? { strokeWidth } : {})}
       {...props}
     >
-      <path d="M21.97 15V9C21.97 4 19.97 2 14.97 2H8.97C3.97 2 1.97 4 1.97 9V15C1.97 20 3.97 22 8.97 22H14.97C19.97 22 21.97 20 21.97 15Z" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M22 8.5H2" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M14.56 15.5L12 12.94L9.44 15.5" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M21.97 15V9C21.97 4 19.97 2 14.97 2H8.97C3.97 2 1.97 4 1.97 9V15C1.97 20 3.97 22 8.97 22H14.97C19.97 22 21.97 20 21.97 15Z"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M22 8.5H2"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M14.56 15.5L12 12.94L9.44 15.5"   strokeLinecap="round" strokeLinejoin="round"/>
     </svg>
   )
 );

@@ -21,7 +21,7 @@ export const FlashRounded = React.forwardRef<SVGSVGElement, FlashRoundedProps>(
       {...(strokeWidth !== undefined ? { strokeWidth } : {})}
       {...props}
     >
-      <path d="M6.09001 13.28H9.18001V20.48C9.18001 22.16 10.09 22.5 11.2 21.24L18.77 12.64C19.7 11.59 19.31 10.72 17.9 10.72H14.81V3.52C14.81 1.84 13.9 1.5 12.79 2.76L5.22001 11.36C4.30001 12.42 4.69001 13.28 6.09001 13.28Z" stroke="#292D32" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M6.09001 13.28H9.18001V20.48C9.18001 22.16 10.09 22.5 11.2 21.24L18.77 12.64C19.7 11.59 19.31 10.72 17.9 10.72H14.81V3.52C14.81 1.84 13.9 1.5 12.79 2.76L5.22001 11.36C4.30001 12.42 4.69001 13.28 6.09001 13.28Z"   strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
     </svg>
   )
 );

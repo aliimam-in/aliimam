@@ -21,9 +21,9 @@ export const Export1Rounded = React.forwardRef<SVGSVGElement, Export1RoundedProp
       {...(strokeWidth !== undefined ? { strokeWidth } : {})}
       {...props}
     >
-      <path d="M9.32007 6.5L11.8801 3.94L14.4401 6.5" stroke="#292D32" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M11.8799 14.18V4.01" stroke="#292D32" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M4 12C4 16.42 7 20 12 20C17 20 20 16.42 20 12" stroke="#292D32" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M9.32007 6.5L11.8801 3.94L14.4401 6.5"   strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M11.8799 14.18V4.01"   strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M4 12C4 16.42 7 20 12 20C17 20 20 16.42 20 12"   strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
     </svg>
   )
 );

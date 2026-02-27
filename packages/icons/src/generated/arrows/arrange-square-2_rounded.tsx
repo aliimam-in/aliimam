@@ -21,11 +21,11 @@ export const ArrangeSquare2Rounded = React.forwardRef<SVGSVGElement, ArrangeSqua
       {...(strokeWidth !== undefined ? { strokeWidth } : {})}
       {...props}
     >
-      <path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M10.1799 17.15L7.13989 14.11" stroke="#292D32" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M10.1799 6.85V17.15" stroke="#292D32" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M13.8201 6.85L16.8601 9.89" stroke="#292D32" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M13.8201 17.15V6.85" stroke="#292D32" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M10.1799 17.15L7.13989 14.11"   strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M10.1799 6.85V17.15"   strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M13.8201 6.85L16.8601 9.89"   strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M13.8201 17.15V6.85"   strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
     </svg>
   )
 );

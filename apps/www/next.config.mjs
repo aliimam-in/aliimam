@@ -10,8 +10,7 @@ const nextConfig = {
     turbopack: false,
     turbopackFileSystemCacheForDev: true,
   },
-  reactStrictMode: true,
-
+  reactStrictMode: true, 
   outputFileTracingIncludes: {
     "/*": ["./registry/**/*", "./src/content/**/*"],
   },

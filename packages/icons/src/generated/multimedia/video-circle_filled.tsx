@@ -1,0 +1,39 @@
+/** Auto-generated - Do not edit */
+'use client';
+import React from 'react';
+
+export interface VideoCircleFilledProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  strokeWidth?: number;
+}
+
+export const VideoCircleFilled = React.forwardRef<SVGSVGElement, VideoCircleFilledProps>(
+  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
+    <svg 
+      ref={ref}
+      width={size}
+      height={size} 
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      stroke="none"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
+      <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM14.66 13.73L13.38 14.47L12.1 15.21C10.45 16.16 9.1 15.38 9.1 13.48V12V10.52C9.1 8.61 10.45 7.84 12.1 8.79L13.38 9.53L14.66 10.27C16.31 11.22 16.31 12.78 14.66 13.73Z" fill="currentColor"/>
+    </svg>
+  )
+);
+VideoCircleFilled.displayName = "VideoCircleFilled";
+export const VideoCircleFilledMetadata = { 
+  id: "video-circle_filled", 
+  baseId: "video-circle", 
+  variant: "filled", 
+  name: "Video Circle", 
+  category: "multimedia", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
+export default VideoCircleFilled;

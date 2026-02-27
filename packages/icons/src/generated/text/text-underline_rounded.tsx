@@ -21,8 +21,8 @@ export const TextUnderlineRounded = React.forwardRef<SVGSVGElement, TextUnderlin
       {...(strokeWidth !== undefined ? { strokeWidth } : {})}
       {...props}
     >
-      <path d="M5 21H19" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M5 3V10C5 13.87 8.13 17 12 17C15.87 17 19 13.87 19 10V3" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M5 21H19"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M5 3V10C5 13.87 8.13 17 12 17C15.87 17 19 13.87 19 10V3"   strokeLinecap="round" strokeLinejoin="round"/>
     </svg>
   )
 );

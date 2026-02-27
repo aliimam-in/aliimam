@@ -1,3 +1,7 @@
+export { ArchiveAddFilled, ArchiveAddFilledMetadata, type ArchiveAddFilledProps } from './archive-add_filled';
+export { ArchiveMinusFilled, ArchiveMinusFilledMetadata, type ArchiveMinusFilledProps } from './archive-minus_filled';
+export { ArchiveSlashFilled, ArchiveSlashFilledMetadata, type ArchiveSlashFilledProps } from './archive-slash_filled';
+export { ArchiveTickFilled, ArchiveTickFilledMetadata, type ArchiveTickFilledProps } from './archive-tick_filled';
 export { BookA, BookAMetadata, type BookAProps } from './book-a';
 export { BookAlert, BookAlertMetadata, type BookAlertProps } from './book-alert';
 export { BookAudio, BookAudioMetadata, type BookAudioProps } from './book-audio';
@@ -16,7 +20,9 @@ export { BookOpenCheck, BookOpenCheckMetadata, type BookOpenCheckProps } from '.
 export { BookOpenText, BookOpenTextMetadata, type BookOpenTextProps } from './book-open-text';
 export { BookOpen, BookOpenMetadata, type BookOpenProps } from './book-open';
 export { BookPlus, BookPlusMetadata, type BookPlusProps } from './book-plus';
+export { BookSavedFilled, BookSavedFilledMetadata, type BookSavedFilledProps } from './book-saved_filled';
 export { BookSearch, BookSearchMetadata, type BookSearchProps } from './book-search';
+export { BookSquareFilled, BookSquareFilledMetadata, type BookSquareFilledProps } from './book-square_filled';
 export { BookText, BookTextMetadata, type BookTextProps } from './book-text';
 export { BookType, BookTypeMetadata, type BookTypeProps } from './book-type';
 export { BookUp2, BookUp2Metadata, type BookUp2Props } from './book-up-2';
@@ -37,3 +43,8 @@ export { NotebookText, NotebookTextMetadata, type NotebookTextProps } from './no
 export { Notebook, NotebookMetadata, type NotebookProps } from './notebook';
 export { NotepadTextDashed, NotepadTextDashedMetadata, type NotepadTextDashedProps } from './notepad-text-dashed';
 export { NotepadText, NotepadTextMetadata, type NotepadTextProps } from './notepad-text';
+export { ReceiptSquareFilled, ReceiptSquareFilledMetadata, type ReceiptSquareFilledProps } from './receipt-square_filled';
+export { Save2Filled, Save2FilledMetadata, type Save2FilledProps } from './save-2_filled';
+export { SaveAddFilled, SaveAddFilledMetadata, type SaveAddFilledProps } from './save-add_filled';
+export { SaveMinusFilled, SaveMinusFilledMetadata, type SaveMinusFilledProps } from './save-minus_filled';
+export { SaveRemoveFilled, SaveRemoveFilledMetadata, type SaveRemoveFilledProps } from './save-remove_filled';

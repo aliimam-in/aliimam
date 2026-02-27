@@ -21,11 +21,11 @@ export const TaskSquareRounded = React.forwardRef<SVGSVGElement, TaskSquareRound
       {...(strokeWidth !== undefined ? { strokeWidth } : {})}
       {...props}
     >
-      <path d="M12.37 8.88H17.62" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M6.38 8.88L7.13 9.63L9.38 7.38" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M12.37 15.88H17.62" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M6.38 15.88L7.13 16.63L9.38 14.38" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M12.37 8.88H17.62"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M6.38 8.88L7.13 9.63L9.38 7.38"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M12.37 15.88H17.62"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M6.38 15.88L7.13 16.63L9.38 14.38"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z"   strokeLinecap="round" strokeLinejoin="round"/>
     </svg>
   )
 );

@@ -21,12 +21,12 @@ export const Grid8Rounded = React.forwardRef<SVGSVGElement, Grid8RoundedProps>(
       {...(strokeWidth !== undefined ? { strokeWidth } : {})}
       {...props}
     >
-      <path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M2 12H22" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M8.25 12V21.5" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M15.75 22V12" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M8.25 12V2" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M15.75 12V2.54001" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M2 12H22"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M8.25 12V21.5"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M15.75 22V12"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M8.25 12V2"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M15.75 12V2.54001"   strokeLinecap="round" strokeLinejoin="round"/>
     </svg>
   )
 );

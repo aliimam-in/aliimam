@@ -1,0 +1,39 @@
+/** Auto-generated - Do not edit */
+'use client';
+import React from 'react';
+
+export interface RouteSquareFilledProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  strokeWidth?: number;
+}
+
+export const RouteSquareFilled = React.forwardRef<SVGSVGElement, RouteSquareFilledProps>(
+  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
+    <svg 
+      ref={ref}
+      width={size}
+      height={size} 
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      stroke="none"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
+      <path d="M16.19 2H7.81C4.17 2 2 4.17 2 7.81V16.18C2 19.83 4.17 22 7.81 22H16.18C19.82 22 21.99 19.83 21.99 16.19V7.81C22 4.17 19.83 2 16.19 2ZM17.35 9.05L15.01 16.59C14.45 18.38 11.94 18.41 11.35 16.63L10.65 14.56C10.46 13.99 10.01 13.53 9.44 13.35L7.36 12.65C5.6 12.06 5.62 9.53 7.41 8.99L14.95 6.64C16.43 6.19 17.82 7.58 17.35 9.05Z" fill="currentColor"/>
+    </svg>
+  )
+);
+RouteSquareFilled.displayName = "RouteSquareFilled";
+export const RouteSquareFilledMetadata = { 
+  id: "route-square_filled", 
+  baseId: "route-square", 
+  variant: "filled", 
+  name: "Route Square", 
+  category: "navigation", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
+export default RouteSquareFilled;

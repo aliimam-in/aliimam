@@ -21,10 +21,10 @@ export const MobileProgrammingRounded = React.forwardRef<SVGSVGElement, MobilePr
       {...(strokeWidth !== undefined ? { strokeWidth } : {})}
       {...props}
     >
-      <path d="M8.92999 2L8.95999 3.53003C8.97999 4.34003 9.64999 5 10.46 5H13.48C14.31 5 14.98 4.32 14.98 3.5V2" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M17 17L15 19L17 21" stroke="#292D32" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M20 17L22 19L20 21" stroke="#292D32" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M13 22H8C4.5 22 3 20 3 17V7C3 4 4.5 2 8 2H16C19.5 2 21 4 21 7V14" stroke="#292D32" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M8.92999 2L8.95999 3.53003C8.97999 4.34003 9.64999 5 10.46 5H13.48C14.31 5 14.98 4.32 14.98 3.5V2"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M17 17L15 19L17 21"   strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M20 17L22 19L20 21"   strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M13 22H8C4.5 22 3 20 3 17V7C3 4 4.5 2 8 2H16C19.5 2 21 4 21 7V14"   strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
     </svg>
   )
 );

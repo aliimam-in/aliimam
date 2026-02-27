@@ -21,16 +21,16 @@ export const VideoHorizontalRounded = React.forwardRef<SVGSVGElement, VideoHoriz
       {...(strokeWidth !== undefined ? { strokeWidth } : {})}
       {...props}
     >
-      <path d="M22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22H15C20 22 22 20 22 15Z" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M2.52002 17.11H21.48" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M2.52002 7.10999H21.48" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M6.96997 17.11V21.46" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M12 17.11V21.97" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M16.97 17.11V21.52" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M6.96997 2.10999V6.45999" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M12 2.10999V6.96999" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M12 7.03003V18.03" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M16.97 2.10999V6.51999" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22H15C20 22 22 20 22 15Z"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M2.52002 17.11H21.48"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M2.52002 7.10999H21.48"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M6.96997 17.11V21.46"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M12 17.11V21.97"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M16.97 17.11V21.52"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M6.96997 2.10999V6.45999"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M12 2.10999V6.96999"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M12 7.03003V18.03"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M16.97 2.10999V6.51999"   strokeLinecap="round" strokeLinejoin="round"/>
     </svg>
   )
 );

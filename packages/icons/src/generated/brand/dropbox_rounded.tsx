@@ -21,11 +21,11 @@ export const DropboxRounded = React.forwardRef<SVGSVGElement, DropboxRoundedProp
       {...(strokeWidth !== undefined ? { strokeWidth } : {})}
       {...props}
     >
-      <path d="M12 5L7.6 2L2 6L6.4 9L12 5Z" stroke="#17191C" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M12 5L16.4 2L22 6L17.6 9L12 5Z" stroke="#17191C" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M12 14L7.6 17L2 13L6.4 10L12 14Z" stroke="#17191C" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M12 14L16.4 17L22 13L17.6 10L12 14Z" stroke="#17191C" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M19 15.5V18.8L12.4 21.8C12.1 21.9 11.8 21.9 11.6 21.8L5 18.8V15.5" stroke="#17191C" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M12 5L7.6 2L2 6L6.4 9L12 5Z"   strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M12 5L16.4 2L22 6L17.6 9L12 5Z"   strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M12 14L7.6 17L2 13L6.4 10L12 14Z"   strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M12 14L16.4 17L22 13L17.6 10L12 14Z"   strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M19 15.5V18.8L12.4 21.8C12.1 21.9 11.8 21.9 11.6 21.8L5 18.8V15.5"   strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
     </svg>
   )
 );

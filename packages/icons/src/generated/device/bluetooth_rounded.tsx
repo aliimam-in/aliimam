@@ -21,7 +21,7 @@ export const BluetoothRounded = React.forwardRef<SVGSVGElement, BluetoothRounded
       {...(strokeWidth !== undefined ? { strokeWidth } : {})}
       {...props}
     >
-      <path d="M5.64001 18.64L17.99 7.31998C18.5 6.84998 18.49 6.09997 17.95 5.64997L14.1 2.43998C13.1 1.60998 12.28 1.98998 12.28 3.28998V20.71C12.28 22.01 13.1 22.39 14.1 21.56L17.95 18.35C18.49 17.9 18.5 17.15 17.99 16.68L5.64001 5.35996" stroke="#292D32" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M5.64001 18.64L17.99 7.31998C18.5 6.84998 18.49 6.09997 17.95 5.64997L14.1 2.43998C13.1 1.60998 12.28 1.98998 12.28 3.28998V20.71C12.28 22.01 13.1 22.39 14.1 21.56L17.95 18.35C18.49 17.9 18.5 17.15 17.99 16.68L5.64001 5.35996"   strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
     </svg>
   )
 );

@@ -13,11 +13,12 @@ import { VectorGrid } from "@/src/components/icons/vectors/main-vectors"
 import { useVectorFilter } from "@/src/components/icons/vectors/vector-filter-context"
 import { Tabs, TabsList, TabsTrigger } from "@/registry/aliimam/ui/tabs"
 
-type VariantTab = "shapes" | "sketch" | "pattern" | "texture"
+type VariantTab = "shapes" | "sketch" | "pattern" | "texture" | "character"
 
 const VARIANT_TABS: { value: VariantTab; label: string }[] = [
   { value: "shapes", label: "Shapes" },
   { value: "sketch", label: "Sketch" },
+  { value: "character", label: "Character" },
   { value: "pattern", label: "Pattern" }, 
   { value: "texture", label: "Texture" }, 
 ]

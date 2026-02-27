@@ -21,9 +21,9 @@ export const SagittariusRounded = React.forwardRef<SVGSVGElement, SagittariusRou
       {...(strokeWidth !== undefined ? { strokeWidth } : {})}
       {...props}
     >
-      <path d="M12 3H21V12" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M21 3L3 21" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M6.6001 6.59998L17.4001 17.4" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M12 3H21V12"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M21 3L3 21"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M6.6001 6.59998L17.4001 17.4"   strokeLinecap="round" strokeLinejoin="round"/>
     </svg>
   )
 );

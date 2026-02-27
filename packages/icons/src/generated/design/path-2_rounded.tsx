@@ -22,9 +22,9 @@ export const Path2Rounded = React.forwardRef<SVGSVGElement, Path2RoundedProps>(
       {...props}
     >
       <g clipPath="url(#clip0_210_5362)">
-<path d="M9.87001 22H14.16C15.78 22 16.85 20.84 16.53 19.43L15.84 16.35H8.20001L7.51001 19.43C7.20001 20.76 8.34001 22 9.87001 22Z" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M15.83 16.35L18.77 13.74C20.41 12.28 20.48 11.26 19.18 9.60999L13.99 3.03C12.9 1.65 11.12 1.65 10.02 3.03L4.84001 9.60999C3.54001 11.26 3.54001 12.33 5.25001 13.74L8.19001 16.35" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M12.01 2.67004V6.97004" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M9.87001 22H14.16C15.78 22 16.85 20.84 16.53 19.43L15.84 16.35H8.20001L7.51001 19.43C7.20001 20.76 8.34001 22 9.87001 22Z"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M15.83 16.35L18.77 13.74C20.41 12.28 20.48 11.26 19.18 9.60999L13.99 3.03C12.9 1.65 11.12 1.65 10.02 3.03L4.84001 9.60999C3.54001 11.26 3.54001 12.33 5.25001 13.74L8.19001 16.35"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M12.01 2.67004V6.97004"   strokeLinecap="round" strokeLinejoin="round"/>
 </g>
 <defs>
 <clipPath id="clip0_210_5362">

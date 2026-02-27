@@ -21,8 +21,8 @@ export const DiamondsRounded = React.forwardRef<SVGSVGElement, DiamondsRoundedPr
       {...(strokeWidth !== undefined ? { strokeWidth } : {})}
       {...props}
     >
-      <path d="M16.29 2.14999H7.70002C6.00002 2.14999 5.25001 2.99999 4.79001 4.03999L2.23001 9.79999C1.77001 10.84 2.02001 12.39 2.79001 13.23L9.65001 20.77C10.95 22.19 13.07 22.19 14.36 20.77L21.21 13.22C21.98 12.37 22.23 10.83 21.76 9.78999L19.2 4.02999C18.74 2.99999 17.99 2.14999 16.29 2.14999Z" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M3.5 8H20.5" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M16.29 2.14999H7.70002C6.00002 2.14999 5.25001 2.99999 4.79001 4.03999L2.23001 9.79999C1.77001 10.84 2.02001 12.39 2.79001 13.23L9.65001 20.77C10.95 22.19 13.07 22.19 14.36 20.77L21.21 13.22C21.98 12.37 22.23 10.83 21.76 9.78999L19.2 4.02999C18.74 2.99999 17.99 2.14999 16.29 2.14999Z"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M3.5 8H20.5"   strokeLinecap="round" strokeLinejoin="round"/>
     </svg>
   )
 );

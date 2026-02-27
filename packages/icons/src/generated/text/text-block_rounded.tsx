@@ -21,9 +21,9 @@ export const TextBlockRounded = React.forwardRef<SVGSVGElement, TextBlockRounded
       {...(strokeWidth !== undefined ? { strokeWidth } : {})}
       {...props}
     >
-      <path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M7 8.88999C10.15 7.31999 13.85 7.31999 17 8.88999" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M12 16.3V7.92999" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M7 8.88999C10.15 7.31999 13.85 7.31999 17 8.88999"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M12 16.3V7.92999"   strokeLinecap="round" strokeLinejoin="round"/>
     </svg>
   )
 );

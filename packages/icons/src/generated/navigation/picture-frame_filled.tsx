@@ -1,0 +1,41 @@
+/** Auto-generated - Do not edit */
+'use client';
+import React from 'react';
+
+export interface PictureFrameFilledProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  strokeWidth?: number;
+}
+
+export const PictureFrameFilled = React.forwardRef<SVGSVGElement, PictureFrameFilledProps>(
+  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
+    <svg 
+      ref={ref}
+      width={size}
+      height={size} 
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      stroke="none"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
+      <path d="M10.51 11.22L8.31 2.39C8.26 2.16 8.05 2 7.81 2C4.6 2 2 4.6 2 7.81V13.51C2 13.85 2.33 14.1 2.66 14L10.16 11.83C10.42 11.76 10.58 11.49 10.51 11.22Z" fill="currentColor"/>
+<path d="M11.12 13.6801C11.05 13.4001 10.76 13.2301 10.48 13.3101L2.37 15.6701C2.15 15.7401 2 15.9401 2 16.1701V16.1901C2 19.4001 4.6 22.0001 7.81 22.0001H12.53C12.86 22.0001 13.11 21.6901 13.03 21.3601L11.12 13.6801Z" fill="currentColor"/>
+<path d="M16.19 2H10.44C10.11 2 9.85995 2.31 9.93995 2.64L14.68 21.61C14.74 21.84 14.94 22 15.18 22H16.18C19.4 22 22 19.4 22 16.19V7.81C22 4.6 19.4 2 16.19 2Z" fill="currentColor"/>
+    </svg>
+  )
+);
+PictureFrameFilled.displayName = "PictureFrameFilled";
+export const PictureFrameFilledMetadata = { 
+  id: "picture-frame_filled", 
+  baseId: "picture-frame", 
+  variant: "filled", 
+  name: "Picture Frame", 
+  category: "navigation", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
+export default PictureFrameFilled;

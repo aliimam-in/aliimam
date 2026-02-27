@@ -21,11 +21,11 @@ export const PharagraphspacingRounded = React.forwardRef<SVGSVGElement, Pharagra
       {...(strokeWidth !== undefined ? { strokeWidth } : {})}
       {...props}
     >
-      <path d="M3 22H21" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M3 2H21" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M12 6V18" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M14.8299 7.72L11.9999 4.89L9.16992 7.72" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M14.8299 15.89L11.9999 18.72L9.16992 15.89" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M3 22H21"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M3 2H21"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M12 6V18"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M14.8299 7.72L11.9999 4.89L9.16992 7.72"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M14.8299 15.89L11.9999 18.72L9.16992 15.89"   strokeLinecap="round" strokeLinejoin="round"/>
     </svg>
   )
 );

@@ -21,9 +21,9 @@ export const ArchiveSlashRounded = React.forwardRef<SVGSVGElement, ArchiveSlashR
       {...(strokeWidth !== undefined ? { strokeWidth } : {})}
       {...props}
     >
-      <path d="M22 2L2 22" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M20.68 8.71001V19.71C20.68 21.72 19.24 22.57 17.48 21.59L11 17.54" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M3.31995 19.95V5.86C3.31995 3.74 5.04995 2 7.17995 2H16.8299C18.0399 2 19.1199 2.56 19.8299 3.44" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M22 2L2 22"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M20.68 8.71001V19.71C20.68 21.72 19.24 22.57 17.48 21.59L11 17.54"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M3.31995 19.95V5.86C3.31995 3.74 5.04995 2 7.17995 2H16.8299C18.0399 2 19.1199 2.56 19.8299 3.44"   strokeLinecap="round" strokeLinejoin="round"/>
     </svg>
   )
 );

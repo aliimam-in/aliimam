@@ -21,8 +21,8 @@ export const PlayCircleRounded = React.forwardRef<SVGSVGElement, PlayCircleRound
       {...(strokeWidth !== undefined ? { strokeWidth } : {})}
       {...props}
     >
-      <path d="M11.97 22C17.4928 22 21.97 17.5228 21.97 12C21.97 6.47715 17.4928 2 11.97 2C6.44712 2 1.96997 6.47715 1.96997 12C1.96997 17.5228 6.44712 22 11.97 22Z" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M8.73999 12.23V10.56C8.73999 8.48 10.21 7.63 12.01 8.67L13.46 9.51L14.91 10.35C16.71 11.39 16.71 13.09 14.91 14.13L13.46 14.97L12.01 15.81C10.21 16.85 8.73999 16 8.73999 13.92V12.23Z" stroke="#292D32" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M11.97 22C17.4928 22 21.97 17.5228 21.97 12C21.97 6.47715 17.4928 2 11.97 2C6.44712 2 1.96997 6.47715 1.96997 12C1.96997 17.5228 6.44712 22 11.97 22Z"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M8.73999 12.23V10.56C8.73999 8.48 10.21 7.63 12.01 8.67L13.46 9.51L14.91 10.35C16.71 11.39 16.71 13.09 14.91 14.13L13.46 14.97L12.01 15.81C10.21 16.85 8.73999 16 8.73999 13.92V12.23Z"   strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
     </svg>
   )
 );

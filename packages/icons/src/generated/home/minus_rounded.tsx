@@ -21,7 +21,7 @@ export const MinusRounded = React.forwardRef<SVGSVGElement, MinusRoundedProps>(
       {...(strokeWidth !== undefined ? { strokeWidth } : {})}
       {...props}
     >
-      <path d="M6 12H18" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M6 12H18"   strokeLinecap="round" strokeLinejoin="round"/>
     </svg>
   )
 );

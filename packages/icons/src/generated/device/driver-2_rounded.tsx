@@ -21,14 +21,14 @@ export const Driver2Rounded = React.forwardRef<SVGSVGElement, Driver2RoundedProp
       {...(strokeWidth !== undefined ? { strokeWidth } : {})}
       {...props}
     >
-      <path d="M6 6.25V8.25" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M10 6.25V8.25" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M6 16V18" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M10 16V18" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M14 7.25H18" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M14 17H18" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M2 12H22" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M6 6.25V8.25"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M10 6.25V8.25"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M6 16V18"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M10 16V18"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M14 7.25H18"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M14 17H18"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M2 12H22"   strokeLinecap="round" strokeLinejoin="round"/>
     </svg>
   )
 );

@@ -1,0 +1,46 @@
+/** Auto-generated - Do not edit */
+'use client';
+import React from 'react';
+
+export interface SlackFilledProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  strokeWidth?: number;
+}
+
+export const SlackFilled = React.forwardRef<SVGSVGElement, SlackFilledProps>(
+  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
+    <svg 
+      ref={ref}
+      width={size}
+      height={size} 
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      stroke="none"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
+      <path d="M14.5401 1.87988C13.3101 1.87988 12.3101 2.87986 12.3101 4.10986V8.74988C12.3101 9.97988 13.3101 10.9799 14.5401 10.9799C15.7701 10.9799 16.7701 9.97988 16.7701 8.74988V4.10986C16.7701 2.88986 15.7701 1.87988 14.5401 1.87988Z" fill="currentColor"/>
+<path d="M20.18 7.10986C19.11 7.10986 18.24 7.97987 18.24 9.04987V10.6199C18.24 10.8299 18.41 10.9999 18.62 10.9999H20.19C21.26 10.9999 22.13 10.1299 22.13 9.05988C22.13 7.98988 21.25 7.10986 20.18 7.10986Z" fill="currentColor"/>
+<path d="M8.49988 6.98999H3.85988C2.62988 6.98999 1.62988 7.99 1.62988 9.22C1.62988 10.45 2.62988 11.45 3.85988 11.45H8.49988C9.72988 11.45 10.7299 10.45 10.7299 9.22C10.7299 7.99 9.72988 6.98999 8.49988 6.98999Z" fill="currentColor"/>
+<path d="M8.79008 1.62012C7.72008 1.62012 6.8501 2.49012 6.8501 3.56012C6.8501 4.63012 7.72008 5.50012 8.79008 5.50012H10.3601C10.5701 5.50012 10.7401 5.33012 10.7401 5.12012V3.55011C10.7301 2.50011 9.86009 1.62012 8.79008 1.62012Z" fill="currentColor"/>
+<path d="M9.42995 13.03C8.19995 13.03 7.19995 14.03 7.19995 15.26V19.9C7.19995 21.13 8.19995 22.13 9.42995 22.13C10.6599 22.13 11.66 21.13 11.66 19.9V15.26C11.66 14.03 10.6599 13.03 9.42995 13.03Z" fill="currentColor"/>
+<path d="M5.36009 13.03H3.79008C2.72008 13.03 1.8501 13.9 1.8501 14.97C1.8501 16.04 2.72008 16.91 3.79008 16.91C4.86009 16.91 5.73009 16.04 5.73009 14.97V13.4C5.73009 13.2 5.56009 13.03 5.36009 13.03Z" fill="currentColor"/>
+<path d="M20.11 12.5701H15.47C14.24 12.5701 13.24 13.57 13.24 14.8C13.24 16.03 14.24 17.0301 15.47 17.0301H20.11C21.34 17.0301 22.34 16.03 22.34 14.8C22.34 13.57 21.34 12.5701 20.11 12.5701Z" fill="currentColor"/>
+<path d="M15.18 18.47H13.61C13.4 18.47 13.23 18.64 13.23 18.85V20.42C13.23 21.49 14.1 22.36 15.17 22.36C16.24 22.36 17.11 21.49 17.11 20.42C17.12 19.34 16.25 18.47 15.18 18.47Z" fill="currentColor"/>
+    </svg>
+  )
+);
+SlackFilled.displayName = "SlackFilled";
+export const SlackFilledMetadata = { 
+  id: "slack_filled", 
+  baseId: "slack", 
+  variant: "filled", 
+  name: "Slack", 
+  category: "brand", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
+export default SlackFilled;

@@ -9,15 +9,16 @@ type LogoFilterContext = {
   setQuery: (q: string) => void
   category: string | null
   setCategory: (c: string | null) => void
-  variantTab: "shapes" | "sketch" | "pattern" | "texture"
-  setVariantTab: (v: "shapes" | "sketch" | "pattern" | "texture") => void
+  variantTab: "shapes" | "sketch" | "pattern" | "character" | "texture"
+  setVariantTab: (v: "shapes" | "sketch" | "pattern" | "character" | "texture") => void
   color: string
   setColor: (c: string) => void
   counts: {
     filtered: number
     outline: number
-    filled: number
-    circle: number
+    filled: number 
+    character: number
+    texture: number
   }
 }
 
@@ -34,13 +35,13 @@ export function VectorFilterProvider({
   const [category, setCategory] = useState<string | null>(null)
   const [color, setColor] = useState("currentColor")
   const [variantTab, setVariantTab] = useState<
-    "shapes" | "sketch" | "pattern" | "texture"
+    "shapes" | "sketch" | "pattern" | "character" | "texture"
   >("shapes")
 
   const counts = useMemo(() => {
     const q = query.toLowerCase()
     let filteredCount = 0
-    const variantCounts = { outline: 0, filled: 0, circle: 0 }
+    const variantCounts = { outline: 0, filled: 0, character: 0, texture: 0 }
 
     Object.entries(allVectors).forEach(([cat, logos]) => {
       Object.values(logos as any).forEach((entry: any) => {
@@ -50,8 +51,9 @@ export function VectorFilterProvider({
         // 1. Calculate Tab Counts (Ignoring Search/Category filters for tabs usually)
         if (v === "default" || v === "outline" || v === "")
           variantCounts.outline++
-        else if (v === "shapes") variantCounts.filled++
-        else if (v === "sketch") variantCounts.circle++
+        else if (v === "shapes") variantCounts.filled++   
+        else if (v === "character") variantCounts.character++
+        else if (v === "texture") variantCounts.texture++
 
         // 2. Calculate Search/Filtered Count (Specific to current Tab + Search)
         const isCurrentTab =
@@ -59,6 +61,7 @@ export function VectorFilterProvider({
             (v === "default" || v === "shapes" || v === "")) ||
           (variantTab === "sketch" && v === "sketch") ||
           (variantTab === "pattern" && v === "pattern") ||
+          (variantTab === "character" && v === "character") ||
           (variantTab === "texture" && v === "texture")
 
         if (isCurrentTab) {

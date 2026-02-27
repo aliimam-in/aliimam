@@ -21,10 +21,10 @@ export const PathSquareRounded = React.forwardRef<SVGSVGElement, PathSquareRound
       {...(strokeWidth !== undefined ? { strokeWidth } : {})}
       {...props}
     >
-      <path d="M16.75 9.11998L14.9 7.26998C14.2 6.56998 13.24 6.60998 12.77 7.34998L11.74 8.97998L15.03 12.27L16.66 11.24C17.37 10.8 17.41 9.76998 16.75 9.11998Z" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M11.74 8.97999L9.35002 8.83999C8.01002 8.75999 7.55002 9.16999 7.40002 10.44L6.80002 15.51C6.67002 16.58 7.44002 17.34 8.51002 17.22L13.58 16.62C14.85 16.47 15.31 16.01 15.18 14.67L15.04 12.28" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M7.48999 16.52L9.33999 14.67" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M16.75 9.11998L14.9 7.26998C14.2 6.56998 13.24 6.60998 12.77 7.34998L11.74 8.97998L15.03 12.27L16.66 11.24C17.37 10.8 17.41 9.76998 16.75 9.11998Z"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M11.74 8.97999L9.35002 8.83999C8.01002 8.75999 7.55002 9.16999 7.40002 10.44L6.80002 15.51C6.67002 16.58 7.44002 17.34 8.51002 17.22L13.58 16.62C14.85 16.47 15.31 16.01 15.18 14.67L15.04 12.28"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M7.48999 16.52L9.33999 14.67"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z"   strokeLinecap="round" strokeLinejoin="round"/>
     </svg>
   )
 );

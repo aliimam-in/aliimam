@@ -21,8 +21,8 @@ export const RedoRounded = React.forwardRef<SVGSVGElement, RedoRoundedProps>(
       {...(strokeWidth !== undefined ? { strokeWidth } : {})}
       {...props}
     >
-      <path d="M16.8701 18.31H8.87012C6.11012 18.31 3.87012 16.07 3.87012 13.31C3.87012 10.55 6.11012 8.31 8.87012 8.31H19.8701" stroke="#292D32" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M17.5701 10.81L20.1301 8.25L17.5701 5.69" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M16.8701 18.31H8.87012C6.11012 18.31 3.87012 16.07 3.87012 13.31C3.87012 10.55 6.11012 8.31 8.87012 8.31H19.8701"   strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M17.5701 10.81L20.1301 8.25L17.5701 5.69"   strokeLinecap="round" strokeLinejoin="round"/>
     </svg>
   )
 );

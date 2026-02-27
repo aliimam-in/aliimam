@@ -21,10 +21,10 @@ export const SpotifyRounded = React.forwardRef<SVGSVGElement, SpotifyRoundedProp
       {...(strokeWidth !== undefined ? { strokeWidth } : {})}
       {...props}
     >
-      <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="#17191C" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M6.6001 9.29998C10.2001 7.89998 14.3001 8.39998 17.5001 10.6" stroke="#17191C" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M7.8999 12.4C10.5999 11.4 13.5999 11.7 15.8999 13.4" stroke="#17191C" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M8.80005 15.4C10.8 14.6 13 14.9 14.8 16.1" stroke="#17191C" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"   strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M6.6001 9.29998C10.2001 7.89998 14.3001 8.39998 17.5001 10.6"   strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M7.8999 12.4C10.5999 11.4 13.5999 11.7 15.8999 13.4"   strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M8.80005 15.4C10.8 14.6 13 14.9 14.8 16.1"   strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
     </svg>
   )
 );

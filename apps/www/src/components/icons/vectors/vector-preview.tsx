@@ -37,7 +37,7 @@ function getVariants(baseId: string) {
 
 function getInitialVariant(
   variants: { id: string; variant: string }[],
-  variantTab: "shapes" | "sketch" | "pattern" | "texture"
+  variantTab: "shapes" | "sketch" | "pattern" | "character" | "texture"
 ): string {
   if (variantTab === "shapes") {
     return (
@@ -45,6 +45,20 @@ function getInitialVariant(
         (v) =>
           v.variant === "default" || v.variant === "shapes" || v.variant === ""
       )?.variant ??
+      variants[0]?.variant ??
+      "default"
+    )
+  }
+  if (variantTab === "character") {
+    return (
+      variants.find((v) => v.variant === "character")?.variant ??
+      variants[0]?.variant ??
+      "default"
+    )
+  }
+  if (variantTab === "texture") {
+    return (
+      variants.find((v) => v.variant === "texture")?.variant ??
       variants[0]?.variant ??
       "default"
     )

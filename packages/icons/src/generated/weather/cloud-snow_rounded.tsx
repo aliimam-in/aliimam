@@ -21,12 +21,12 @@ export const CloudSnowRounded = React.forwardRef<SVGSVGElement, CloudSnowRounded
       {...(strokeWidth !== undefined ? { strokeWidth } : {})}
       {...props}
     >
-      <path d="M16.61 20C17.95 20.01 19.24 19.51 20.23 18.61C23.5 15.75 21.75 10.01 17.44 9.47001C15.9 0.13001 2.42998 3.67001 5.61998 12.56" stroke="#292D32" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M7.28011 12.97C6.75011 12.7 6.16011 12.56 5.57011 12.57C0.910109 12.9 0.920108 19.68 5.57011 20.01" stroke="#292D32" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M15.8201 9.89001C16.3401 9.63001 16.9001 9.49001 17.4801 9.48001" stroke="#292D32" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M12.9955 18.5H13.0045" stroke="#292D32" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M8.9955 18.5H9.0045" stroke="#292D32" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M10.9955 21.5H11.0045" stroke="#292D32" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M16.61 20C17.95 20.01 19.24 19.51 20.23 18.61C23.5 15.75 21.75 10.01 17.44 9.47001C15.9 0.13001 2.42998 3.67001 5.61998 12.56"   strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M7.28011 12.97C6.75011 12.7 6.16011 12.56 5.57011 12.57C0.910109 12.9 0.920108 19.68 5.57011 20.01"   strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M15.8201 9.89001C16.3401 9.63001 16.9001 9.49001 17.4801 9.48001"   strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M12.9955 18.5H13.0045"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M8.9955 18.5H9.0045"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M10.9955 21.5H11.0045"   strokeLinecap="round" strokeLinejoin="round"/>
     </svg>
   )
 );

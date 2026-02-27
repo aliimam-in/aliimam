@@ -1,6 +1,6 @@
 {
   "name": "@aliimam/vectors",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Custom React vectors library generated from JSON",
   "license": "MIT",
   "source": "./src/index.ts",

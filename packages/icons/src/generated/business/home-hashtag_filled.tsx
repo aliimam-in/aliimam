@@ -1,0 +1,43 @@
+/** Auto-generated - Do not edit */
+'use client';
+import React from 'react';
+
+export interface HomeHashtagFilledProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  strokeWidth?: number;
+}
+
+export const HomeHashtagFilled = React.forwardRef<SVGSVGElement, HomeHashtagFilledProps>(
+  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
+    <svg 
+      ref={ref}
+      width={size}
+      height={size} 
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      stroke="none"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
+      <path d="M12.7 16.8801H13.4C14.55 16.8801 15.49 15.9401 15.49 14.7901V14.0901H12.7V16.8801Z" fill="currentColor"/>
+<path d="M8.51001 14.7901C8.51001 15.9401 9.45001 16.8801 10.6 16.8801H11.3V14.0901H8.51001V14.7901Z" fill="currentColor"/>
+<path d="M8.51001 11.9999V12.6999H11.3V9.90991H10.6C9.45001 9.90991 8.51001 10.8499 8.51001 11.9999Z" fill="currentColor"/>
+<path d="M20.03 6.81994L14.28 2.78994C12.71 1.68994 10.31 1.74994 8.8 2.91994L3.79 6.82994C2.78 7.60994 2 9.20994 2 10.4699V17.3699C2 19.9199 4.07 21.9999 6.61 21.9999H17.38C19.92 21.9999 21.99 19.9299 21.99 17.3799V10.5999C22 9.24994 21.13 7.58994 20.03 6.81994ZM16.88 14.7899C16.88 16.7099 15.31 18.2799 13.39 18.2799H10.6C8.68 18.2799 7.11 16.7199 7.11 14.7899V11.9999C7.11 10.0799 8.68 8.50994 10.6 8.50994H13.39C15.31 8.50994 16.88 10.0699 16.88 11.9999V14.7899Z" fill="currentColor"/>
+<path d="M13.4 9.90991H12.7V12.6999H15.49V11.9999C15.49 10.8499 14.55 9.90991 13.4 9.90991Z" fill="currentColor"/>
+    </svg>
+  )
+);
+HomeHashtagFilled.displayName = "HomeHashtagFilled";
+export const HomeHashtagFilledMetadata = { 
+  id: "home-hashtag_filled", 
+  baseId: "home-hashtag", 
+  variant: "filled", 
+  name: "Home Hashtag", 
+  category: "business", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
+export default HomeHashtagFilled;

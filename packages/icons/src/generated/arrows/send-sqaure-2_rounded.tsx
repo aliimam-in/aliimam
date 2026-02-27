@@ -21,10 +21,10 @@ export const SendSqaure2Rounded = React.forwardRef<SVGSVGElement, SendSqaure2Rou
       {...(strokeWidth !== undefined ? { strokeWidth } : {})}
       {...props}
     >
-      <path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M10.5898 7.67999H14.8298V11.93" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M14.8299 7.67999L9.16992 13.34" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M6 16.51C9.89 17.81 14.11 17.81 18 16.51" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M10.5898 7.67999H14.8298V11.93"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M14.8299 7.67999L9.16992 13.34"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M6 16.51C9.89 17.81 14.11 17.81 18 16.51"   strokeLinecap="round" strokeLinejoin="round"/>
     </svg>
   )
 );

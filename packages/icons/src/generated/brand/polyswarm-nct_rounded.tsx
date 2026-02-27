@@ -21,10 +21,10 @@ export const PolyswarmNctRounded = React.forwardRef<SVGSVGElement, PolyswarmNctR
       {...(strokeWidth !== undefined ? { strokeWidth } : {})}
       {...props}
     >
-      <path d="M9.5 3.20001H14.5C18.3 3.20001 21.5 6.30001 21.5 10.2C21.5 14 18.4 17.2 14.5 17.2H3.5" stroke="#17191C" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M3.19995 6.79999H13.8C15.8 6.79999 17.5 8.49999 17.5 10.5C17.5 12.5 15.8 14.2 13.8 14.2H7.99995" stroke="#17191C" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M8.5 10.8H5.5" stroke="#17191C" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M6.5 20.8H2.5" stroke="#17191C" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M9.5 3.20001H14.5C18.3 3.20001 21.5 6.30001 21.5 10.2C21.5 14 18.4 17.2 14.5 17.2H3.5"   strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M3.19995 6.79999H13.8C15.8 6.79999 17.5 8.49999 17.5 10.5C17.5 12.5 15.8 14.2 13.8 14.2H7.99995"   strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M8.5 10.8H5.5"   strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M6.5 20.8H2.5"   strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
     </svg>
   )
 );

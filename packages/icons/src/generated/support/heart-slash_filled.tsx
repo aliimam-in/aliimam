@@ -1,0 +1,40 @@
+/** Auto-generated - Do not edit */
+'use client';
+import React from 'react';
+
+export interface HeartSlashFilledProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  strokeWidth?: number;
+}
+
+export const HeartSlashFilled = React.forwardRef<SVGSVGElement, HeartSlashFilledProps>(
+  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
+    <svg 
+      ref={ref}
+      width={size}
+      height={size} 
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      stroke="none"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
+      <path d="M22 8.69008C22 9.88008 21.81 10.9801 21.48 12.0001C19.9 17.0001 15.03 19.9901 12.62 20.8101C12.28 20.9301 11.72 20.9301 11.38 20.8101C10.74 20.5901 9.93 20.2201 9.06 19.7001C8.5 19.3701 8.41 18.5901 8.87 18.1301L20.15 6.85008C20.69 6.31008 21.64 6.54008 21.83 7.28008C21.94 7.73008 22 8.20008 22 8.69008Z" fill="currentColor"/>
+<path d="M22.53 1.46994C22.24 1.17994 21.76 1.17994 21.47 1.46994L19.13 3.80994C18.34 3.35994 17.42 3.09994 16.44 3.09994C14.63 3.09994 13.01 3.97994 12 5.32994C10.99 3.97994 9.37 3.09994 7.56 3.09994C4.49 3.09994 2 5.59994 2 8.68994C2 9.87994 2.19 10.9799 2.52 11.9999C3.17 14.0699 4.39 15.7999 5.77 17.1699L1.47 21.4699C1.18 21.7599 1.18 22.2399 1.47 22.5299C1.62 22.6799 1.81 22.7499 2 22.7499C2.19 22.7499 2.38 22.6799 2.53 22.5299L22.53 2.52994C22.82 2.23994 22.82 1.75994 22.53 1.46994Z" fill="currentColor"/>
+    </svg>
+  )
+);
+HeartSlashFilled.displayName = "HeartSlashFilled";
+export const HeartSlashFilledMetadata = { 
+  id: "heart-slash_filled", 
+  baseId: "heart-slash", 
+  variant: "filled", 
+  name: "Heart Slash", 
+  category: "support", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
+export default HeartSlashFilled;

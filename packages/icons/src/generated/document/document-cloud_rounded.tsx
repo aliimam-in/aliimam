@@ -21,10 +21,10 @@ export const DocumentCloudRounded = React.forwardRef<SVGSVGElement, DocumentClou
       {...(strokeWidth !== undefined ? { strokeWidth } : {})}
       {...props}
     >
-      <path d="M14 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M22 10V13" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M22 10H18C15 10 14 9 14 6V2L22 10Z" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M13.76 18.2601C11.41 18.4301 11.41 21.8301 13.76 22.0001H19.32C19.99 22.0001 20.65 21.7501 21.14 21.3001C22.79 19.8601 21.91 16.9801 19.74 16.7101C18.96 12.0201 12.18 13.8001 13.78 18.2701" stroke="#292D32" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M14 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M22 10V13"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M22 10H18C15 10 14 9 14 6V2L22 10Z"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M13.76 18.2601C11.41 18.4301 11.41 21.8301 13.76 22.0001H19.32C19.99 22.0001 20.65 21.7501 21.14 21.3001C22.79 19.8601 21.91 16.9801 19.74 16.7101C18.96 12.0201 12.18 13.8001 13.78 18.2701"   strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
     </svg>
   )
 );

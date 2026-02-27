@@ -1,0 +1,39 @@
+/** Auto-generated - Do not edit */
+'use client';
+import React from 'react';
+
+export interface DiamondsFilledProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  strokeWidth?: number;
+}
+
+export const DiamondsFilled = React.forwardRef<SVGSVGElement, DiamondsFilledProps>(
+  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
+    <svg 
+      ref={ref}
+      width={size}
+      height={size} 
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      stroke="none"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
+      <path d="M21.77 9.7999L20.97 7.9999L19.21 4.0399C18.74 2.9999 18 2.1499 16.3 2.1499H7.70001C6.00001 2.1499 5.26001 2.9999 4.79001 4.0399L3.03001 7.9999L2.23001 9.7999C1.77001 10.8499 2.02001 12.3899 2.79001 13.2399L9.64001 20.7799C10.94 22.2099 13.06 22.2099 14.36 20.7799L21.21 13.2399C21.98 12.3899 22.23 10.8499 21.77 9.7999Z" fill="currentColor"/>
+    </svg>
+  )
+);
+DiamondsFilled.displayName = "DiamondsFilled";
+export const DiamondsFilledMetadata = { 
+  id: "diamonds_filled", 
+  baseId: "diamonds", 
+  variant: "filled", 
+  name: "Diamonds", 
+  category: "app", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
+export default DiamondsFilled;

@@ -1,0 +1,39 @@
+/** Auto-generated - Do not edit */
+'use client';
+import React from 'react';
+
+export interface ToggleOffCircleFilledProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  strokeWidth?: number;
+}
+
+export const ToggleOffCircleFilled = React.forwardRef<SVGSVGElement, ToggleOffCircleFilledProps>(
+  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
+    <svg 
+      ref={ref}
+      width={size}
+      height={size} 
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      stroke="none"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
+      <path d="M13.86 3.86011H10.14C5.65 3.86011 2 7.51011 2 12.0001C2 16.4901 5.65 20.1401 10.14 20.1401H13.86C18.35 20.1401 22 16.4901 22 12.0001C22 7.51011 18.35 3.86011 13.86 3.86011ZM10.14 16.4201C7.7 16.4201 5.72 14.4401 5.72 12.0001C5.72 9.56011 7.7 7.58011 10.14 7.58011C12.58 7.58011 14.56 9.56011 14.56 12.0001C14.56 14.4401 12.58 16.4201 10.14 16.4201Z" fill="currentColor"/>
+    </svg>
+  )
+);
+ToggleOffCircleFilled.displayName = "ToggleOffCircleFilled";
+export const ToggleOffCircleFilledMetadata = { 
+  id: "toggle-off-circle_filled", 
+  baseId: "toggle-off-circle", 
+  variant: "filled", 
+  name: "Toggle Off Circle", 
+  category: "app", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
+export default ToggleOffCircleFilled;

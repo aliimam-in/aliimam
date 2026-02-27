@@ -21,12 +21,12 @@ export const CardRemove1Rounded = React.forwardRef<SVGSVGElement, CardRemove1Rou
       {...(strokeWidth !== undefined ? { strokeWidth } : {})}
       {...props}
     >
-      <path d="M2 8.5H13.5" stroke="#292D32" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M6 16.5H8" stroke="#292D32" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M10.5 16.5H14.5" stroke="#292D32" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M22 12.03V16.11C22 19.62 21.11 20.5 17.56 20.5H6.44C2.89 20.5 2 19.62 2 16.11V7.89C2 4.38 2.89 3.5 6.44 3.5H13.5" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M17.3086 8.18957L21.1886 4.30957" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round"/>
-<path d="M21.1886 8.18957L17.3086 4.30957" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round"/>
+      <path d="M2 8.5H13.5"   strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M6 16.5H8"   strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M10.5 16.5H14.5"   strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M22 12.03V16.11C22 19.62 21.11 20.5 17.56 20.5H6.44C2.89 20.5 2 19.62 2 16.11V7.89C2 4.38 2.89 3.5 6.44 3.5H13.5"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M17.3086 8.18957L21.1886 4.30957"   strokeLinecap="round"/>
+<path d="M21.1886 8.18957L17.3086 4.30957"   strokeLinecap="round"/>
     </svg>
   )
 );

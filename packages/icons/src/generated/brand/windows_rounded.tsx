@@ -21,10 +21,10 @@ export const WindowsRounded = React.forwardRef<SVGSVGElement, WindowsRoundedProp
       {...(strokeWidth !== undefined ? { strokeWidth } : {})}
       {...props}
     >
-      <path fillRule="evenodd" clipRule="evenodd" d="M22 2L12 4V11H22V2Z" stroke="#17191C" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
-<path fillRule="evenodd" clipRule="evenodd" d="M22 22L12 20V13H22V22Z" stroke="#17191C" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
-<path fillRule="evenodd" clipRule="evenodd" d="M10 4.29999L2 5.99999V11H10V4.29999Z" stroke="#17191C" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
-<path fillRule="evenodd" clipRule="evenodd" d="M10 19.7L2 18V13H10V19.7Z" stroke="#17191C" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+      <path fillRule="evenodd" clipRule="evenodd" d="M22 2L12 4V11H22V2Z"   strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+<path fillRule="evenodd" clipRule="evenodd" d="M22 22L12 20V13H22V22Z"   strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+<path fillRule="evenodd" clipRule="evenodd" d="M10 4.29999L2 5.99999V11H10V4.29999Z"   strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+<path fillRule="evenodd" clipRule="evenodd" d="M10 19.7L2 18V13H10V19.7Z"   strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
     </svg>
   )
 );

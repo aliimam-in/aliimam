@@ -21,9 +21,9 @@ export const SortRounded = React.forwardRef<SVGSVGElement, SortRoundedProps>(
       {...(strokeWidth !== undefined ? { strokeWidth } : {})}
       {...props}
     >
-      <path d="M3 7H21" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round"/>
-<path d="M6 12H18" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round"/>
-<path d="M10 17H14" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round"/>
+      <path d="M3 7H21"   strokeLinecap="round"/>
+<path d="M6 12H18"   strokeLinecap="round"/>
+<path d="M10 17H14"   strokeLinecap="round"/>
     </svg>
   )
 );

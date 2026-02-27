@@ -21,12 +21,12 @@ export const SmallcapsRounded = React.forwardRef<SVGSVGElement, SmallcapsRounded
       {...(strokeWidth !== undefined ? { strokeWidth } : {})}
       {...props}
     >
-      <path d="M1.98999 5.93001V4.42001C1.98999 3.40001 2.81999 2.57001 3.83999 2.57001H16.76C17.78 2.57001 18.61 3.40001 18.61 4.42001V5.93001" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M10.3 18.1V3.32001" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M6.8999 18.1H12.4799" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M13.6799 10.34H20.6899C21.4199 10.34 22.0099 10.93 22.0099 11.66V12.46" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M16.0801 21.43V10.87" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M13.9399 21.43H18.2199" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M1.98999 5.93001V4.42001C1.98999 3.40001 2.81999 2.57001 3.83999 2.57001H16.76C17.78 2.57001 18.61 3.40001 18.61 4.42001V5.93001"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M10.3 18.1V3.32001"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M6.8999 18.1H12.4799"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M13.6799 10.34H20.6899C21.4199 10.34 22.0099 10.93 22.0099 11.66V12.46"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M16.0801 21.43V10.87"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M13.9399 21.43H18.2199"   strokeLinecap="round" strokeLinejoin="round"/>
     </svg>
   )
 );

@@ -29,12 +29,13 @@ for (const icons of Object.values(allVectors) as Record<string, any>[]) {
 
 function matchesVariantTab(
   variant: string,
-  tab: "shapes" | "sketch" | "pattern" | "texture"
+  tab: "shapes" | "sketch" | "pattern" | "character" | "texture"
 ): boolean {
   const v = (variant ?? "").toLowerCase()
   if (tab === "shapes") return v === "default" || v === "shapes" || v === ""
   if (tab === "sketch") return v === "sketch"
   if (tab === "pattern") return v === "pattern"
+  if (tab === "character") return v === "character"
   if (tab === "texture") return v === "texture"
   return false
 }
@@ -79,18 +80,29 @@ export function VectorGrid({ selectedLogo, onSelectLogo }: LogoGridProps) {
 
   const filtered = useMemo(() => {
     const q = query.toLowerCase()
-    return allGridEntries.filter(({ baseId, category: cat, tags }) => {
+  
+    const result = allGridEntries.filter(({ baseId, category: cat, tags }) => {
       const matchesQuery =
         !q ||
         baseId.toLowerCase().includes(q) ||
         tags.some((t) => t.toLowerCase().includes(q))
+  
       const matchesCategory = !category || cat === category
+  
       return matchesQuery && matchesCategory
     })
+  
+    // 🔥 Alphabetical sort
+    return result.sort((a, b) =>
+      a.baseId.localeCompare(b.baseId, undefined, {
+        numeric: true,
+        sensitivity: "base",
+      })
+    )
   }, [allGridEntries, query, category])
 
   function getSizeByVariant(
-    tab: "shapes" | "sketch" | "pattern" | "texture"
+    tab: "shapes" | "sketch" | "pattern" | "texture" | "character"
   ) {
     switch (tab) {
       case "shapes":
@@ -100,14 +112,16 @@ export function VectorGrid({ selectedLogo, onSelectLogo }: LogoGridProps) {
       case "pattern":
         return 140
       case "texture":
-        return 140
+        return 100
+      case "character":
+        return 300
       default:
         return 50
     }
   }
 
   function getGridClasses(
-    tab: "shapes" | "sketch" | "pattern" | "texture"
+    tab: "shapes" | "sketch" | "pattern" | "texture" | "character"
   ) {
     switch (tab) {
       case "shapes":
@@ -118,6 +132,8 @@ export function VectorGrid({ selectedLogo, onSelectLogo }: LogoGridProps) {
         return "grid-cols-2 md:grid-cols-4 lg:grid-cols-6"
       case "texture":
         return "grid-cols-2 md:grid-cols-4 lg:grid-cols-6"
+      case "character":
+        return "grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
       default:
         return "grid-cols-2"
     }

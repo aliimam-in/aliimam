@@ -1,0 +1,40 @@
+/** Auto-generated - Do not edit */
+'use client';
+import React from 'react';
+
+export interface ProfileRemoveFilledProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  strokeWidth?: number;
+}
+
+export const ProfileRemoveFilled = React.forwardRef<SVGSVGElement, ProfileRemoveFilledProps>(
+  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
+    <svg 
+      ref={ref}
+      width={size}
+      height={size} 
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      stroke="none"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
+      <path d="M12 2C9.38 2 7.25 4.13 7.25 6.75C7.25 9.32 9.26 11.4 11.88 11.49C11.96 11.48 12.04 11.48 12.1 11.49C12.12 11.49 12.13 11.49 12.15 11.49C12.16 11.49 12.16 11.49 12.17 11.49C14.73 11.4 16.74 9.32 16.75 6.75C16.75 4.13 14.62 2 12 2Z" fill="currentColor"/>
+<path d="M17.08 14.1601C14.29 12.3001 9.73996 12.3001 6.92996 14.1601C5.65996 15.0001 4.95996 16.1501 4.95996 17.3801C4.95996 18.6101 5.65996 19.7501 6.91996 20.5901C8.31996 21.5301 10.16 22.0001 12 22.0001C13.84 22.0001 15.68 21.5301 17.08 20.5901C18.34 19.7401 19.04 18.6001 19.04 17.3601C19.03 16.1401 18.34 14.9901 17.08 14.1601ZM13.83 18.0701H10.18C9.79996 18.0701 9.48996 17.7601 9.48996 17.3801C9.48996 17.0001 9.79996 16.6901 10.18 16.6901H13.83C14.21 16.6901 14.52 17.0001 14.52 17.3801C14.52 17.7601 14.21 18.0701 13.83 18.0701Z" fill="currentColor"/>
+    </svg>
+  )
+);
+ProfileRemoveFilled.displayName = "ProfileRemoveFilled";
+export const ProfileRemoveFilledMetadata = { 
+  id: "profile-remove_filled", 
+  baseId: "profile-remove", 
+  variant: "filled", 
+  name: "Profile Remove", 
+  category: "user", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
+export default ProfileRemoveFilled;

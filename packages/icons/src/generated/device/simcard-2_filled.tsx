@@ -1,0 +1,40 @@
+/** Auto-generated - Do not edit */
+'use client';
+import React from 'react';
+
+export interface Simcard2FilledProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  strokeWidth?: number;
+}
+
+export const Simcard2Filled = React.forwardRef<SVGSVGElement, Simcard2FilledProps>(
+  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
+    <svg 
+      ref={ref}
+      width={size}
+      height={size} 
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      stroke="none"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
+      <path d="M16 12.6899V18.0799C16 20.4199 14.44 21.9699 12.11 21.9699H5.89C3.56 21.9699 2 20.4199 2 18.0799V10.3099C2 7.96992 3.56 6.41992 5.89 6.41992H9.72C10.75 6.41992 11.74 6.82992 12.47 7.55992L14.86 9.93992C15.59 10.6699 16 11.6599 16 12.6899Z" fill="currentColor"/>
+<path d="M22 8.25021V13.6402C22 15.9702 20.44 17.5302 18.11 17.5302H17V12.6902C17 11.4002 16.48 10.1402 15.57 9.23021L13.18 6.85021C12.27 5.94021 11.01 5.42021 9.72002 5.42021H8.02002C8.20002 3.34021 9.71002 1.97021 11.89 1.97021H15.72C16.75 1.97021 17.74 2.38021 18.47 3.11021L20.86 5.50021C21.59 6.23022 22 7.22021 22 8.25021Z" fill="currentColor"/>
+    </svg>
+  )
+);
+Simcard2Filled.displayName = "Simcard2Filled";
+export const Simcard2FilledMetadata = { 
+  id: "simcard-2_filled", 
+  baseId: "simcard-2", 
+  variant: "filled", 
+  name: "Simcard 2", 
+  category: "device", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
+export default Simcard2Filled;

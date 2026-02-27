@@ -21,7 +21,7 @@ export const DirectDownRounded = React.forwardRef<SVGSVGElement, DirectDownRound
       {...(strokeWidth !== undefined ? { strokeWidth } : {})}
       {...props}
     >
-      <path d="M9.17005 19.29L3.07005 7.69999C1.62005 4.94999 4.55005 1.95999 7.33005 3.34999L10.57 4.96999C11.47 5.41999 12.53 5.41999 13.43 4.96999L16.67 3.34999C19.45 1.95999 22.37 4.94999 20.93 7.69999L14.83 19.29C13.63 21.57 10.37 21.57 9.17005 19.29Z" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M9.17005 19.29L3.07005 7.69999C1.62005 4.94999 4.55005 1.95999 7.33005 3.34999L10.57 4.96999C11.47 5.41999 12.53 5.41999 13.43 4.96999L16.67 3.34999C19.45 1.95999 22.37 4.94999 20.93 7.69999L14.83 19.29C13.63 21.57 10.37 21.57 9.17005 19.29Z"   strokeLinecap="round" strokeLinejoin="round"/>
     </svg>
   )
 );

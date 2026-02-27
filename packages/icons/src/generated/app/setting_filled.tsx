@@ -1,0 +1,39 @@
+/** Auto-generated - Do not edit */
+'use client';
+import React from 'react';
+
+export interface SettingFilledProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  strokeWidth?: number;
+}
+
+export const SettingFilled = React.forwardRef<SVGSVGElement, SettingFilledProps>(
+  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (
+    <svg 
+      ref={ref}
+      width={size}
+      height={size} 
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      stroke="none"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      {...(strokeWidth !== undefined ? { strokeWidth } : {})}
+      {...props}
+    >
+      <path d="M18.94 5.41994L13.77 2.42994C12.78 1.85994 11.23 1.85994 10.24 2.42994L5.01996 5.43994C2.94996 6.83994 2.82996 7.04994 2.82996 9.27994V14.7099C2.82996 16.9399 2.94996 17.1599 5.05996 18.5799L10.23 21.5699C10.73 21.8599 11.37 21.9999 12 21.9999C12.63 21.9999 13.27 21.8599 13.76 21.5699L18.98 18.5599C21.05 17.1599 21.17 16.9499 21.17 14.7199V9.27994C21.17 7.04994 21.05 6.83994 18.94 5.41994ZM12 15.2499C10.21 15.2499 8.74996 13.7899 8.74996 11.9999C8.74996 10.2099 10.21 8.74994 12 8.74994C13.79 8.74994 15.25 10.2099 15.25 11.9999C15.25 13.7899 13.79 15.2499 12 15.2499Z" fill="currentColor"/>
+    </svg>
+  )
+);
+SettingFilled.displayName = "SettingFilled";
+export const SettingFilledMetadata = { 
+  id: "setting_filled", 
+  baseId: "setting", 
+  variant: "filled", 
+  name: "Setting", 
+  category: "app", 
+  tags: [], 
+  viewBox: "0 0 24 24" 
+} as const;
+
+export default SettingFilled;

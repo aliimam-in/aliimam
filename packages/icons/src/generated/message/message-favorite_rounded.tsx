@@ -21,11 +21,11 @@ export const MessageFavoriteRounded = React.forwardRef<SVGSVGElement, MessageFav
       {...(strokeWidth !== undefined ? { strokeWidth } : {})}
       {...props}
     >
-      <path d="M22 8V13C22 17 20 19 16 19H15.5C15.19 19 14.89 19.15 14.7 19.4L13.2 21.4C12.54 22.28 11.46 22.28 10.8 21.4L9.3 19.4C9.14 19.18 8.77 19 8.5 19H8C4 19 2 18 2 13V8C2 4 4 2 8 2H12" stroke="#292D32" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M15.2 4.61996C14.87 3.62996 15.26 2.40996 16.34 2.06996C16.9 1.89996 17.6 2.03996 18 2.56996C18.38 2.01996 19.1 1.89996 19.66 2.06996C20.74 2.39996 21.13 3.62996 20.8 4.61996C20.29 6.18996 18.5 6.99996 18 6.99996C17.5 6.99996 15.73 6.19996 15.2 4.61996Z" stroke="#292D32" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M15.9965 11H16.0054" stroke="#292D32" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M11.9955 11H12.0045" stroke="#292D32" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M7.99451 11H8.00349" stroke="#292D32" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M22 8V13C22 17 20 19 16 19H15.5C15.19 19 14.89 19.15 14.7 19.4L13.2 21.4C12.54 22.28 11.46 22.28 10.8 21.4L9.3 19.4C9.14 19.18 8.77 19 8.5 19H8C4 19 2 18 2 13V8C2 4 4 2 8 2H12"   strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M15.2 4.61996C14.87 3.62996 15.26 2.40996 16.34 2.06996C16.9 1.89996 17.6 2.03996 18 2.56996C18.38 2.01996 19.1 1.89996 19.66 2.06996C20.74 2.39996 21.13 3.62996 20.8 4.61996C20.29 6.18996 18.5 6.99996 18 6.99996C17.5 6.99996 15.73 6.19996 15.2 4.61996Z"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M15.9965 11H16.0054"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M11.9955 11H12.0045"   strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M7.99451 11H8.00349"   strokeLinecap="round" strokeLinejoin="round"/>
     </svg>
   )
 );
