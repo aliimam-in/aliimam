@@ -103,7 +103,7 @@ export function LogoPreview({ selectedLogo, onClearSelection }: Props) {
               ))}
             </ToggleGroup>
           </div>
-        )} 
+        )}
 
         <div className="flex flex-wrap items-center justify-between p-2">
           <Link href={`/logos/${selectedLogo}`}>
@@ -140,6 +140,8 @@ export function LogoPreview({ selectedLogo, onClearSelection }: Props) {
           onSizeChange={setSize}
           onColorChange={setColor}
         />
+
+
 
         <LogoDownloadPanel logoName={activeId} size={size} color={color} />
       </div>
@@ -182,27 +184,27 @@ export function LogoPreviewPhone({ selectedLogo, onClearSelection }: Props) {
       </div>
 
       {variants.length > 1 && (
-          <div className="space-y-2">
-            <ToggleGroup
-              type="single"
-              size="sm"
-              variant="outline"
-              value={activeVariant}
-              onValueChange={(val) => val && setActiveVariant(val)}
-              className="w-full flex-wrap"
-            >
-              {variants.map((v) => (
-                <ToggleGroupItem
-                  key={v.id}
-                  value={v.variant}
-                  className="flex-1 text-xs"
-                >
-                  {v.variant}
-                </ToggleGroupItem>
-              ))}
-            </ToggleGroup>
-          </div>
-        )} 
+        <div className="space-y-2 mt-2">
+          <ToggleGroup
+            type="single"
+            size="sm"
+            variant="outline"
+            value={activeVariant}
+            onValueChange={(val) => val && setActiveVariant(val)}
+            className="w-full flex-wrap"
+          >
+            {variants.map((v) => (
+              <ToggleGroupItem
+                key={v.id}
+                value={v.variant}
+                className="flex-1 text-xs"
+              >
+                {v.variant}
+              </ToggleGroupItem>
+            ))}
+          </ToggleGroup>
+        </div>
+      )}
 
       <div className="flex items-center justify-between pt-2">
         <h2 className="w-40 truncate text-sm font-medium">{selectedLogo}</h2>
@@ -233,7 +235,9 @@ export function LogoPreviewPhone({ selectedLogo, onClearSelection }: Props) {
         onSizeChange={setSize}
         onColorChange={setColor}
       />
+       <div className="mt-2">
       <LogoDownloadPanel logoName={activeId} size={size} color={color} />
+      </div>
     </div>
   )
 }

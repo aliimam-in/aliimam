@@ -119,8 +119,9 @@ export function IconViewControlsPanel({
 }: LogoControlsPanelProps) {
   const { variantTab } = useIconFilter()
   const isFilled =
-    activeVariant === "filled" ||
-    activeVariant === "pixel" ||
+    activeVariant === "filled" || 
+    activeVariant === "rounded" ||
+    activeVariant === "doodle" ||
     variantTab === "filled" ||
     variantTab === "doodle"
 

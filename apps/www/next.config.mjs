@@ -5,11 +5,7 @@ const nextConfig = {
   devIndicators: false,
   typescript: {
     ignoreBuildErrors: true,
-  },
-  experimental: {
-    turbopack: false,
-    turbopackFileSystemCacheForDev: true,
-  },
+  }, 
   reactStrictMode: true, 
   outputFileTracingIncludes: {
     "/*": ["./registry/**/*", "./src/content/**/*"],

@@ -29,7 +29,7 @@ interface IconCodeProps {
   size?: number
   color?: string
   strokeWidth?: number
-  variant?: "outline" | "filled" | "pixel"
+  variant?: "outline" | "filled" | "rounded" | "doodle"
 }
 
 export function IconCode({
@@ -253,4 +253,4 @@ import { AliImamAngularModule, ${componentName} } from '${packageName}';
       ))}
     </Tabs>
   )
-}
+} 

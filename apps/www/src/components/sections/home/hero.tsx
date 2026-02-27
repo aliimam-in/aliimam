@@ -1,13 +1,13 @@
 "use client"
 
 import Link from "next/link"
-import Script from "next/script"
 import {
   PageActions,
   PageHeader,
   PageHeaderDescription,
   PageHeaderHeading,
 } from "@/src/components/layout/page-header"
+ 
 
 import { Button } from "@/registry/aliimam/ui/button"
 
@@ -15,7 +15,7 @@ export function Hero() {
   return (
     <div>
       <div className="relative flex h-[calc(100vh-var(--header-height)-var(--footer-height)+5rem)] items-center justify-center overflow-hidden">
-        
+         
         <PageHeader className="relative z-10">
           <PageHeaderHeading>Design without limits</PageHeaderHeading>
           <PageHeaderDescription>

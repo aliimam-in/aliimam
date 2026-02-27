@@ -38,7 +38,7 @@ function getVariants(baseId: string) {
 
 function getInitialVariant(
   variants: { id: string; variant: string }[],
-  variantTab: "outline" | "filled" | "doodle"
+  variantTab: "outline" | "filled" | "doodle" | "rounded"
 ): string {
   if (variantTab === "outline") {
     return (
@@ -151,7 +151,8 @@ export function IconPreview({ selectedLogo, onClearSelection }: Props) {
         <IconDownloadPanel logoName={activeId} size={size} color={color} />
       </div>
 
-      <div className="mt-4 flex flex-col gap-2">
+
+      <div className="mt-2 flex flex-col gap-2">
         <Button asChild variant="outline" className="w-full">
           <Link
             target="_blank"
@@ -200,7 +201,7 @@ export function IconPreviewPhone({ selectedLogo, onClearSelection }: Props) {
       </div>
 
       {variants.length > 1 && (
-        <div className="space-y-2">
+        <div className="space-y-2 mt-2">
           <ToggleGroup
             type="single"
             size="sm"
@@ -253,7 +254,9 @@ export function IconPreviewPhone({ selectedLogo, onClearSelection }: Props) {
         onstrokeWidthChange={setstrokeWidth}
         activeVariant={activeVariant}
       />
-      <IconDownloadPanel logoName={activeId} size={size} color={color} />
+      <div className="mt-2">
+        <IconDownloadPanel logoName={activeId} size={size} color={color} />
+      </div>
     </div>
   )
 }

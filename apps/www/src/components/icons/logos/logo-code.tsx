@@ -254,3 +254,4 @@ import { AliImamAngularModule, ${componentName} } from '${packageName}';
     </Tabs>
   )
 }
+ 

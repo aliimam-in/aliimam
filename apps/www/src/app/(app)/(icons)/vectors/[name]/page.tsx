@@ -140,7 +140,7 @@ export default function LogoDetailPage() {
           </p>
 
           {variants.length > 1 && (
-            <div className="space-y-2">
+            <div className="space-y-2 pb-4">
               <ToggleGroup
                 type="single"
                 size="sm"
