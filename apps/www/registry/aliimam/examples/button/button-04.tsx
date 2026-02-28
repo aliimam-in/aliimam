@@ -3,11 +3,11 @@ import {
   Apple,
   Bluesky,
   Facebook,
-  Github, 
+  Github,
   Instagram,
   LinkedIn,
-  Threads, 
-  Vercel, 
+  Threads,
+  Vercel,
   WhatsApp,
   X,
 } from "@aliimam/logos"
@@ -23,7 +23,7 @@ export default function ButtonDemo() {
       </Button>
       <div className="grid w-full grid-cols-3 gap-3">
         <Button className="w-full" variant="outline" size="icon">
-          <Facebook/>
+          <Facebook />
         </Button>
         <Button className="w-full" variant="outline" size="icon">
           <Github />
@@ -72,11 +72,11 @@ export default function ButtonDemo() {
         Continue with X
       </Button>
       <Button variant={"secondary"}>
-        <Mail/>
+        <Mail />
         Login with email
       </Button>
       <Button variant={"outline"}>
-        <Apple/>
+        <Apple />
         Login with Apple
       </Button>
       <div className="flex items-center gap-2">

@@ -1,6 +1,14 @@
 "use client"
 
-import { ClaudeAI, Cursor, Github, Grok, Nike, OpenAI, Vercel } from "@aliimam/logos"
+import {
+  ClaudeAI,
+  Cursor,
+  Github,
+  Grok,
+  Nike,
+  OpenAI,
+  Vercel,
+} from "@aliimam/logos"
 
 import { Marquee } from "@/registry/aliimam/components/marquee"
 import { Button } from "@/registry/aliimam/ui/button"

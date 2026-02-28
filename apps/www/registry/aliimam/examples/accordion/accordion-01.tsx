@@ -4,7 +4,7 @@ import { cn } from "@/registry/aliimam/lib/utils"
 import {
   Accordion,
   AccordionContent,
-  AccordionItem, 
+  AccordionItem,
   AccordionTrigger,
 } from "@/registry/aliimam/ui/accordion"
 

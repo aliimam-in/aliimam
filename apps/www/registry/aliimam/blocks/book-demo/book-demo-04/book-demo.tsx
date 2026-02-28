@@ -5,8 +5,8 @@ import {
   Apple,
   ClaudeAI,
   Cursor,
-  GoogleGemini,
   Github,
+  GoogleGemini,
   OpenAI,
   Replicate,
 } from "@aliimam/logos"

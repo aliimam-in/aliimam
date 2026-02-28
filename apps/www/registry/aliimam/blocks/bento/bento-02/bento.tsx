@@ -4,7 +4,7 @@ import {
   TrendingDown,
   TrendingUp,
   User,
-} from "@aliimam/icons" 
+} from "@aliimam/icons"
 
 import { ChartArea } from "@/registry/aliimam/blocks/bento/bento-02/chart-area"
 import { CheckboxInTable } from "@/registry/aliimam/blocks/bento/bento-02/checkbox-table"
@@ -133,7 +133,6 @@ export function MinimalBento() {
               <Briefcase size={18} />
               Services
             </div>
-             
 
             <ul className="space-y-4 text-lg leading-tight font-medium md:text-2xl">
               <li>
@@ -166,7 +165,6 @@ export function MinimalBento() {
               <p className="text-muted-foreground mt-2 text-sm">
                 Fintech · SaaS · Creative Agencies · Startups
               </p>
-               
             </div>
 
             <div className="space-y-3">

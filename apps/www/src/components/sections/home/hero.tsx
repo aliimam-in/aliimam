@@ -7,33 +7,32 @@ import {
   PageHeaderDescription,
   PageHeaderHeading,
 } from "@/src/components/layout/page-header"
- 
-
 import { Button } from "@/registry/aliimam/ui/button"
+import { PixelShader } from "@/registry/aliimam/components/pixel-shader"
 
 export function Hero() {
   return (
-    <div>
-      <div className="relative flex h-[calc(100vh-var(--header-height)-var(--footer-height)+5rem)] items-center justify-center overflow-hidden">
-         
-        <PageHeader className="relative z-10">
-          <PageHeaderHeading>Design without limits</PageHeaderHeading>
-          <PageHeaderDescription>
-            I create digital experiences that connect and inspire. I build apps,
-            websites, brands, and products end-to-end.
-          </PageHeaderDescription>
-          <PageActions>
-            <Button size={"xl"} variant={"outline"} asChild>
-              <Link href="/docs">Get Started</Link>
-            </Button>
-            <Button asChild size={"xl"}>
-              <Link target="_blank" href="https://cal.com/aliimam-in/30min">
-                Book a Call
-              </Link>
-            </Button>
-          </PageActions>
-        </PageHeader>
-      </div>
+    <div className="relative flex h-[calc(100vh-var(--header-height)-var(--footer-height)+5rem)] items-center justify-center overflow-hidden">
+
+      <PixelShader />
+
+      <PageHeader className="relative z-10">
+        <PageHeaderHeading>Design without limits</PageHeaderHeading>
+        <PageHeaderDescription>
+          I create digital experiences that connect and inspire. I build apps,
+          websites, brands, and products end-to-end.
+        </PageHeaderDescription>
+        <PageActions>
+          <Button size={"xl"} variant={"outline"} asChild>
+            <Link href="/docs">Get Started</Link>
+          </Button>
+          <Button asChild size={"xl"}>
+            <Link target="_blank" href="https://cal.com/aliimam-in/30min">
+              Book a Call
+            </Link>
+          </Button>
+        </PageActions>
+      </PageHeader>
     </div>
   )
 }

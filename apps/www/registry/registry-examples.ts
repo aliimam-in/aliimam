@@ -1052,4 +1052,69 @@ export const examples: Registry["items"] = [
       },
     ],
   },
+  {
+    title: "Pixel Shader",
+    name: "pixel-shader-01",
+    type: "registry:example",
+    description: "Example showing a simple pixel-shader.",
+    registryDependencies: ["pixel-shader"],
+    files: [
+      {
+        path: "examples/pixel-shader/pixel-shader-01.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    title: "Pixel Shader",
+    name: "pixel-shader-02",
+    type: "registry:example",
+    description: "Example showing a simple pixel-shader.",
+    registryDependencies: ["pixel-shader"],
+    files: [
+      {
+        path: "examples/pixel-shader/pixel-shader-02.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    title: "Pixel Shader",
+    name: "pixel-shader-03",
+    type: "registry:example",
+    description: "Example showing a simple pixel-shader.",
+    registryDependencies: ["pixel-shader"],
+    files: [
+      {
+        path: "examples/pixel-shader/pixel-shader-03.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    title: "Pixel Shader",
+    name: "pixel-shader-04",
+    type: "registry:example",
+    description: "Example showing a simple pixel-shader.",
+    registryDependencies: ["pixel-shader"],
+    files: [
+      {
+        path: "examples/pixel-shader/pixel-shader-04.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    title: "Pixel Shader",
+    name: "pixel-shader-05",
+    type: "registry:example",
+    description: "Example showing a simple pixel-shader.",
+    registryDependencies: ["pixel-shader"],
+    files: [
+      {
+        path: "examples/pixel-shader/pixel-shader-05.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
 ]

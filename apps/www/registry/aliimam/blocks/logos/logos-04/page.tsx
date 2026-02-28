@@ -1,8 +1,8 @@
 import {
   ClaudeAI,
   Cursor,
-  GoogleGemini,
   Github,
+  GoogleGemini,
   GoogleWordmark,
   Grok,
   OpenAI,

@@ -1,12 +1,12 @@
 import {
   ClaudeAIWordmark,
   CursorWordmark,
-  GoogleGeminiWordmark,
   GithubWordmark,
+  GoogleGeminiWordmark,
   GoogleWordmark,
   GrokWordmark,
   OpenAIWordmark,
-  ReplicateWordmark, 
+  ReplicateWordmark,
 } from "@aliimam/logos"
 
 import { EmptyAvatarGroup } from "@/registry/aliimam/blocks/bento/bento-01/empty-avatar"
@@ -117,7 +117,7 @@ export default function BentoExample() {
                   <GoogleGeminiWordmark size={90} />
                   <GithubWordmark size={90} />
                   <GrokWordmark size={100} />
-                  <GoogleWordmark className="mr-16"  size={100} />
+                  <GoogleWordmark className="mr-16" size={100} />
                 </Marquee>
               </div>
             </div>

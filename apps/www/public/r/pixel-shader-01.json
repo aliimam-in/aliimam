@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "pixel-shader-01",
+  "title": "Pixel Shader",
+  "description": "Example showing a simple pixel-shader.",
+  "registryDependencies": [
+    "pixel-shader"
+  ],
+  "files": [
+    {
+      "path": "examples/pixel-shader/pixel-shader-01.tsx",
+      "content": "\"use client\"\n\nimport { PixelShader } from \"@/registry/aliimam/components/pixel-shader\"\n\nexport default function PixelShaderDemo() {\n    return (\n        <div className=\"relative flex h-[calc(100vh-var(--header-height)-var(--footer-height)+5rem)] items-center justify-center overflow-hidden\">\n\n            <PixelShader />\n        </div>\n    )\n}",
+      "type": "registry:example"
+    }
+  ],
+  "type": "registry:example"
+}

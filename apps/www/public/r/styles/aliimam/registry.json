@@ -2120,6 +2120,19 @@
       ]
     },
     {
+      "name": "pixel-shader",
+      "type": "registry:component",
+      "dependencies": [
+        "three"
+      ],
+      "files": [
+        {
+          "path": "registry/aliimam/components/pixel-shader.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
       "name": "shine-border",
       "type": "registry:component",
       "files": [
@@ -3338,6 +3351,81 @@
       "files": [
         {
           "path": "registry/aliimam/examples/typewriter/typewriter-05.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "pixel-shader-01",
+      "type": "registry:example",
+      "title": "Pixel Shader",
+      "description": "Example showing a simple pixel-shader.",
+      "registryDependencies": [
+        "pixel-shader"
+      ],
+      "files": [
+        {
+          "path": "registry/aliimam/examples/pixel-shader/pixel-shader-01.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "pixel-shader-02",
+      "type": "registry:example",
+      "title": "Pixel Shader",
+      "description": "Example showing a simple pixel-shader.",
+      "registryDependencies": [
+        "pixel-shader"
+      ],
+      "files": [
+        {
+          "path": "registry/aliimam/examples/pixel-shader/pixel-shader-02.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "pixel-shader-03",
+      "type": "registry:example",
+      "title": "Pixel Shader",
+      "description": "Example showing a simple pixel-shader.",
+      "registryDependencies": [
+        "pixel-shader"
+      ],
+      "files": [
+        {
+          "path": "registry/aliimam/examples/pixel-shader/pixel-shader-03.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "pixel-shader-04",
+      "type": "registry:example",
+      "title": "Pixel Shader",
+      "description": "Example showing a simple pixel-shader.",
+      "registryDependencies": [
+        "pixel-shader"
+      ],
+      "files": [
+        {
+          "path": "registry/aliimam/examples/pixel-shader/pixel-shader-04.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "pixel-shader-05",
+      "type": "registry:example",
+      "title": "Pixel Shader",
+      "description": "Example showing a simple pixel-shader.",
+      "registryDependencies": [
+        "pixel-shader"
+      ],
+      "files": [
+        {
+          "path": "registry/aliimam/examples/pixel-shader/pixel-shader-05.tsx",
           "type": "registry:example"
         }
       ]

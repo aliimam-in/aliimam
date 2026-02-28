@@ -1,8 +1,8 @@
 import {
   ClaudeAIWordmark,
   CursorWordmark,
-  GoogleGeminiWordmark,
   GithubWordmark,
+  GoogleGeminiWordmark,
   GoogleWordmark,
   GrokWordmark,
   OpenAIWordmark,

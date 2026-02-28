@@ -4,8 +4,8 @@ import { Check } from "@aliimam/icons"
 import {
   ClaudeAIWordmark,
   CursorWordmark,
-  GoogleGeminiWordmark,
   GithubWordmark,
+  GoogleGeminiWordmark,
   OpenAIWordmark,
   ReplicateWordmark,
 } from "@aliimam/logos"

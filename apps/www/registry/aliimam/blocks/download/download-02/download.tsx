@@ -2,12 +2,12 @@
 
 import { ArrowUpRight, Search } from "@aliimam/icons"
 import {
+  Adobe,
   Github,
   GoogleWordmark,
   Grok,
-  OpenAI, 
+  OpenAI,
   Vercel,
-  Adobe,
   X,
 } from "@aliimam/logos"
 

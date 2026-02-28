@@ -132,6 +132,17 @@ export const components: Registry["items"] = [
     ],
   },
   {
+    name: "pixel-shader",
+    type: "registry:component",
+    dependencies: ["three"],
+    files: [
+      {
+        path: "components/pixel-shader.tsx",
+        type: "registry:component",
+      },
+    ],
+  },
+  {
     name: "shine-border",
     type: "registry:component",
     files: [

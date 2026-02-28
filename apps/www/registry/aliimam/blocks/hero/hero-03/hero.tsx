@@ -23,7 +23,10 @@ export default function HeroSection03() {
           <div className="items-center gap-6 md:flex">
             <h1 className="flex text-6xl leading-none font-light tracking-wider md:text-7xl xl:text-[10rem]">
               <span>PR</span>
-              <SquareMousePointer strokeWidth={1.5} className="text-primary size-14 md:size-18 lg:size-20 xl:size-40" />
+              <SquareMousePointer
+                strokeWidth={1.5}
+                className="text-primary size-14 md:size-18 lg:size-20 xl:size-40"
+              />
               <span>DUCTS</span>
             </h1>
             <p className="text-muted-foreground max-w-[250px] pt-8 text-xs leading-5 md:max-w-[180px] md:text-sm">
@@ -36,8 +39,13 @@ export default function HeroSection03() {
             <h1 className="text-6xl leading-none font-light tracking-wider md:flex md:text-7xl xl:text-[10rem]">
               <span>DESIGN</span>
               <div className="">
-                <Heart fill="red" strokeWidth={0} size={140} className="size-14 md:size-18 lg:size-20 xl:size-40" />
-              </div> 
+                <Heart
+                  fill="red"
+                  strokeWidth={0}
+                  size={140}
+                  className="size-14 md:size-18 lg:size-20 xl:size-40"
+                />
+              </div>
               <span>CODE</span>
             </h1>
           </div>

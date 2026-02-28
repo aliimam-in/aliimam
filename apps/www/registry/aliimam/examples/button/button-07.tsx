@@ -18,7 +18,7 @@ export default function ButtonDemo() {
             "text-primary-foreground inline-flex size-full items-center justify-center rounded-sm backdrop-blur-3xl"
           )}
         >
-          <Sun  />
+          <Sun />
         </span>
       </Button>
 

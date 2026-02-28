@@ -8,6 +8,7 @@ import { Pricing } from "@/src/components/sections/home/pricing"
 import { Services } from "@/src/components/sections/home/services"
 import { getBentoBlocks } from "@/src/lib/get-bento-images"
 import { BlocksPageCategory } from "@/src/components/sections/home/categories-section"
+import { Testimonials } from "@/src/components/sections/home/testmonials"
 
 const title = "Design Without Limits"
 const description =
@@ -49,6 +50,7 @@ export default function IndexPage() {
       <Services />
       <Components />
       <BlocksPageCategory/>
+      <Testimonials/>
       <Pricing />
       <FAQs />
       <CallToAction />

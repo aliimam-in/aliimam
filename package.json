@@ -18,7 +18,6 @@
     "registry:build": "pnpm --filter=www registry:build && pnpm lint:fix && pnpm format:write -- --loglevel silent",
     "build:icons": "turbo run build --filter=@aliimam/icons...",
     "build:logos": "turbo run build --filter=@aliimam/logos...",
-    "clean:modules": "pnpm -r exec rm -rf node_modules && rm -rf node_modules",
     "clean:all": "pnpm -r exec rm -rf node_modules && rm -rf node_modules .turbo pnpm-lock.yaml",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
