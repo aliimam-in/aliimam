@@ -23,11 +23,7 @@ const TOP_LEVEL_SECTIONS = [
   {
     name: "Registry",
     href: "/docs/registry",
-  },
-  {
-    name: "LLMs",
-    href: "/llms.txt",
-  },
+  }, 
 ]
 
 const EXCLUDED_SECTIONS = ["(root)"]
@@ -37,6 +33,7 @@ const NEW_COMPONENTS = [
   "components/attraction.mdx",
   "components/bento.mdx",
   "components/border-glow.mdx",
+  "components/pixel-shader.mdx",
   "components/counter-number.mdx",
   "components/typewriter.mdx",
 ]
