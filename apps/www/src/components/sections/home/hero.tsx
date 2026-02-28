@@ -8,17 +8,17 @@ import {
   PageHeaderHeading,
 } from "@/src/components/layout/page-header"
 import { Button } from "@/registry/aliimam/ui/button"
-import { PixelShader } from "@/registry/aliimam/components/pixel-shader"
-
+import { PixelGridShader } from "@/registry/aliimam/components/pixelgrid-shader"
+ 
 export function Hero() {
   return (
     <div className="relative flex h-[calc(100vh-var(--header-height)-var(--footer-height)+5rem)] items-center justify-center overflow-hidden">
-
-      <PixelShader />
+      
+      <PixelGridShader amplitude={1} cursorScale={0.005} cursorSize={0.03} shape="ripple" pxSize={10} cursorMode="ripple" colorFg="#00ff00" className="" />
 
       <PageHeader className="relative z-10">
-        <PageHeaderHeading>Design without limits</PageHeaderHeading>
-        <PageHeaderDescription>
+        <PageHeaderHeading className="max-w-100 md:max-w-full">Design without limits</PageHeaderHeading>
+        <PageHeaderDescription className="max-w-100 md:max-w-full">
           I create digital experiences that connect and inspire. I build apps,
           websites, brands, and products end-to-end.
         </PageHeaderDescription>

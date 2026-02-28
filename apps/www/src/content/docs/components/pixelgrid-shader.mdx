@@ -1,0 +1,106 @@
+---
+title: PixelGrid Shader
+description: Animated WebGL2 pixel-grid dithering shader with multiple shapes and interactive cursor ripple.
+component: true
+---
+
+<ComponentPreview
+  name="pixelgrid-shader-01"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[300px]"
+  description="A customizable SVG dot pattern background."
+  align="start"
+/>
+
+<ComponentPreview
+  name="pixelgrid-shader-02"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[300px]"
+  description="A customizable SVG dot pattern background."
+  align="start"
+/>
+
+<ComponentPreview
+  name="pixelgrid-shader-03"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[300px]"
+  description="A customizable SVG dot pattern background."
+  align="start"
+/>
+
+<ComponentPreview
+  name="pixelgrid-shader-04"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[300px]"
+  description="A customizable SVG dot pattern background."
+  align="start"
+/>
+
+<ComponentPreview
+  name="pixelgrid-shader-05"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[300px]"
+  description="A customizable SVG dot pattern background."
+  align="start"
+/>
+
+<ComponentPreview
+  name="pixelgrid-shader-06"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[300px]"
+  description="A customizable SVG dot pattern background."
+  align="start"
+/>
+
+## Installation
+
+<CodeTabs>
+
+<TabsList>
+  <TabsTrigger value="cli">CLI</TabsTrigger>
+  <TabsTrigger value="manual">Manual</TabsTrigger>
+</TabsList>
+
+<TabsContent value="cli">
+
+```bash
+npx shadcn@latest add https://aliimam.in/r/pixelgrid-shader.json
+```
+
+</TabsContent>
+
+<TabsContent value="manual">
+
+<Steps>
+
+<Step>Copy and paste the following code into your project.</Step>
+
+<ComponentSource name="pixelgrid-shader" title="components/ui/pixelgrid-shader.tsx" />
+
+<Step>Update the import paths to match your project setup.</Step>
+
+</Steps>
+
+</TabsContent>
+
+</CodeTabs>
+
+## Usage
+
+```tsx showLineNumbers
+import { PixelGridShader } from "@/components/ui/pixelgrid-shader"
+```
+
+```tsx showLineNumbers
+<PixelGridShader />
+```
+
+## Props
+| Prop            | Type                                                                 | Default      |
+| --------------- | -------------------------------------------------------------------- | ------------ |
+| `shape`         | `"wave" \| "noise" \| "ripple" \| "swirl" \| "plasma" \| "scan"`    | `"wave"`     |
+| `matrix`        | `"random" \| "bayer2" \| "bayer4" \| "bayer8"`                       | `"bayer8"`   |
+| `pxSize`        | `number`                                                             | `2`          |
+| `amplitude`     | `number`                                                             | `0.15`       |
+| `frequency`     | `number`                                                             | `0.7`        |
+| `speed`         | `number`                                                             | `0.3`        |
+| `rings`         | `number`                                                             | `3`          |
+| `colorFg`       | `string` (HEX)                                                       | `"#E8FF00"`  |
+| `cursorMode`    | `"ripple" \| "erase" \| "burn"`                                      | `"burn"`     |
+| `cursorSize`    | `number`                                                             | `0.3`        |
+| `cursorScale`   | `number`                                                             | `0.2`        |
+| `className`     | `string`                                                             | —            |

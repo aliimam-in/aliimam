@@ -2120,14 +2120,27 @@
       ]
     },
     {
-      "name": "pixel-shader",
+      "name": "ripple-shader",
       "type": "registry:component",
       "dependencies": [
         "three"
       ],
       "files": [
         {
-          "path": "registry/aliimam/components/pixel-shader.tsx",
+          "path": "registry/aliimam/components/ripple-shader.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
+      "name": "pixelgrid-shader",
+      "type": "registry:component",
+      "dependencies": [
+        "three"
+      ],
+      "files": [
+        {
+          "path": "registry/aliimam/components/pixelgrid-shader.tsx",
           "type": "registry:component"
         }
       ]
@@ -3356,76 +3369,166 @@
       ]
     },
     {
-      "name": "pixel-shader-01",
+      "name": "ripple-shader-01",
       "type": "registry:example",
-      "title": "Pixel Shader",
-      "description": "Example showing a simple pixel-shader.",
+      "title": "Ripple Shader",
+      "description": "Example showing a simple ripple-shader.",
       "registryDependencies": [
-        "pixel-shader"
+        "ripple-shader"
       ],
       "files": [
         {
-          "path": "registry/aliimam/examples/pixel-shader/pixel-shader-01.tsx",
+          "path": "registry/aliimam/examples/ripple-shader/ripple-shader-01.tsx",
           "type": "registry:example"
         }
       ]
     },
     {
-      "name": "pixel-shader-02",
+      "name": "ripple-shader-02",
       "type": "registry:example",
-      "title": "Pixel Shader",
-      "description": "Example showing a simple pixel-shader.",
+      "title": "Ripple Shader",
+      "description": "Example showing a simple ripple-shader.",
       "registryDependencies": [
-        "pixel-shader"
+        "ripple-shader"
       ],
       "files": [
         {
-          "path": "registry/aliimam/examples/pixel-shader/pixel-shader-02.tsx",
+          "path": "registry/aliimam/examples/ripple-shader/ripple-shader-02.tsx",
           "type": "registry:example"
         }
       ]
     },
     {
-      "name": "pixel-shader-03",
+      "name": "ripple-shader-03",
       "type": "registry:example",
-      "title": "Pixel Shader",
-      "description": "Example showing a simple pixel-shader.",
+      "title": "Ripple Shader",
+      "description": "Example showing a simple ripple-shader.",
       "registryDependencies": [
-        "pixel-shader"
+        "ripple-shader"
       ],
       "files": [
         {
-          "path": "registry/aliimam/examples/pixel-shader/pixel-shader-03.tsx",
+          "path": "registry/aliimam/examples/ripple-shader/ripple-shader-03.tsx",
           "type": "registry:example"
         }
       ]
     },
     {
-      "name": "pixel-shader-04",
+      "name": "ripple-shader-04",
       "type": "registry:example",
-      "title": "Pixel Shader",
-      "description": "Example showing a simple pixel-shader.",
+      "title": "Ripple Shader",
+      "description": "Example showing a simple ripple-shader.",
       "registryDependencies": [
-        "pixel-shader"
+        "ripple-shader"
       ],
       "files": [
         {
-          "path": "registry/aliimam/examples/pixel-shader/pixel-shader-04.tsx",
+          "path": "registry/aliimam/examples/ripple-shader/ripple-shader-04.tsx",
           "type": "registry:example"
         }
       ]
     },
     {
-      "name": "pixel-shader-05",
+      "name": "ripple-shader-05",
       "type": "registry:example",
-      "title": "Pixel Shader",
-      "description": "Example showing a simple pixel-shader.",
+      "title": "Ripple Shader",
+      "description": "Example showing a simple ripple-shader.",
       "registryDependencies": [
-        "pixel-shader"
+        "ripple-shader"
       ],
       "files": [
         {
-          "path": "registry/aliimam/examples/pixel-shader/pixel-shader-05.tsx",
+          "path": "registry/aliimam/examples/ripple-shader/ripple-shader-05.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "pixelgrid-shader-01",
+      "type": "registry:example",
+      "title": "PixelGrid Shader",
+      "description": "Example showing a simple pixelgrid-shader.",
+      "registryDependencies": [
+        "pixelgrid-shader"
+      ],
+      "files": [
+        {
+          "path": "registry/aliimam/examples/pixelgrid-shader/pixelgrid-shader-01.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "pixelgrid-shader-02",
+      "type": "registry:example",
+      "title": "PixelGrid Shader",
+      "description": "Example showing a simple pixelgrid-shader.",
+      "registryDependencies": [
+        "pixelgrid-shader"
+      ],
+      "files": [
+        {
+          "path": "registry/aliimam/examples/pixelgrid-shader/pixelgrid-shader-02.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "pixelgrid-shader-03",
+      "type": "registry:example",
+      "title": "PixelGrid Shader",
+      "description": "Example showing a simple pixelgrid-shader.",
+      "registryDependencies": [
+        "pixelgrid-shader"
+      ],
+      "files": [
+        {
+          "path": "registry/aliimam/examples/pixelgrid-shader/pixelgrid-shader-03.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "pixelgrid-shader-04",
+      "type": "registry:example",
+      "title": "PixelGrid Shader",
+      "description": "Example showing a simple pixelgrid-shader.",
+      "registryDependencies": [
+        "pixelgrid-shader"
+      ],
+      "files": [
+        {
+          "path": "registry/aliimam/examples/pixelgrid-shader/pixelgrid-shader-04.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "pixelgrid-shader-05",
+      "type": "registry:example",
+      "title": "PixelGrid Shader",
+      "description": "Example showing a simple pixelgrid-shader.",
+      "registryDependencies": [
+        "pixelgrid-shader"
+      ],
+      "files": [
+        {
+          "path": "registry/aliimam/examples/pixelgrid-shader/pixelgrid-shader-05.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "pixelgrid-shader-06",
+      "type": "registry:example",
+      "title": "PixelGrid Shader",
+      "description": "Example showing a simple pixelgrid-shader.",
+      "registryDependencies": [
+        "pixelgrid-shader"
+      ],
+      "files": [
+        {
+          "path": "registry/aliimam/examples/pixelgrid-shader/pixelgrid-shader-06.tsx",
           "type": "registry:example"
         }
       ]

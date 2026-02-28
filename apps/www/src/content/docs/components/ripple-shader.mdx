@@ -1,39 +1,39 @@
 ---
-title: Pixel Shader
-description: Animated interactive pixel grid shader using Three.js and GLSL.
+title: Ripple Shader
+description: Animated interactive ripple grid shader using Three.js and GLSL.
 component: true
 ---
 
 <ComponentPreview
-  name="pixel-shader-01"
+  name="ripple-shader-01"
   className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[300px]"
   description="A customizable SVG dot pattern background."
   align="start"
 />
 
 <ComponentPreview
-  name="pixel-shader-02"
+  name="ripple-shader-02"
   className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[300px]"
   description="A customizable SVG dot pattern background."
   align="start"
 />
 
 <ComponentPreview
-  name="pixel-shader-03"
+  name="ripple-shader-03"
   className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[300px]"
   description="A customizable SVG dot pattern background."
   align="start"
 />
 
 <ComponentPreview
-  name="pixel-shader-04"
+  name="ripple-shader-04"
   className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[300px]"
   description="A customizable SVG dot pattern background."
   align="start"
 />
 
 <ComponentPreview
-  name="pixel-shader-05"
+  name="ripple-shader-05"
   className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[300px]"
   description="A customizable SVG dot pattern background."
   align="start"
@@ -51,7 +51,7 @@ component: true
 <TabsContent value="cli">
 
 ```bash
-npx shadcn@latest add https://aliimam.in/r/pixel-shader.json
+npx shadcn@latest add https://aliimam.in/r/ripple-shader.json
 ```
 
 </TabsContent>
@@ -62,7 +62,7 @@ npx shadcn@latest add https://aliimam.in/r/pixel-shader.json
 
 <Step>Copy and paste the following code into your project.</Step>
 
-<ComponentSource name="pixel-shader" title="components/ui/pixel-shader.tsx" />
+<ComponentSource name="ripple-shader" title="components/ui/ripple-shader.tsx" />
 
 <Step>Update the import paths to match your project setup.</Step>
 
@@ -75,18 +75,18 @@ npx shadcn@latest add https://aliimam.in/r/pixel-shader.json
 ## Usage
 
 ```tsx showLineNumbers
-import { PixelShader } from "@/components/ui/pixel-shader"
+import { RippleShader } from "@/components/ui/ripple-shader"
 ```
 
 ```tsx showLineNumbers
-<PixelShader />
+<RippleShader />
 ```
 
 ## Props
 
 | Prop            | Type     | Default                            |  
 | --------------- | -------- | ---------------------------------- | 
-| `pixelSize`     | `number` | `2`                                |  
+| `rippleSize`     | `number` | `2`                                |  
 | `speed`         | `number` | `0.5`                              | 
 | `waveFrequency` | `number` | `5`                                | 
 | `threshold`     | `number` | `0.8`                              | 

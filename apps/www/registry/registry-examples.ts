@@ -1053,66 +1053,144 @@ export const examples: Registry["items"] = [
     ],
   },
   {
-    title: "Pixel Shader",
-    name: "pixel-shader-01",
+    title: "Ripple Shader",
+    name: "ripple-shader-01",
     type: "registry:example",
-    description: "Example showing a simple pixel-shader.",
-    registryDependencies: ["pixel-shader"],
+    description: "Example showing a simple ripple-shader.",
+    registryDependencies: ["ripple-shader"],
     files: [
       {
-        path: "examples/pixel-shader/pixel-shader-01.tsx",
+        path: "examples/ripple-shader/ripple-shader-01.tsx",
         type: "registry:example",
       },
     ],
   },
   {
-    title: "Pixel Shader",
-    name: "pixel-shader-02",
+    title: "Ripple Shader",
+    name: "ripple-shader-02",
     type: "registry:example",
-    description: "Example showing a simple pixel-shader.",
-    registryDependencies: ["pixel-shader"],
+    description: "Example showing a simple ripple-shader.",
+    registryDependencies: ["ripple-shader"],
     files: [
       {
-        path: "examples/pixel-shader/pixel-shader-02.tsx",
+        path: "examples/ripple-shader/ripple-shader-02.tsx",
         type: "registry:example",
       },
     ],
   },
   {
-    title: "Pixel Shader",
-    name: "pixel-shader-03",
+    title: "Ripple Shader",
+    name: "ripple-shader-03",
     type: "registry:example",
-    description: "Example showing a simple pixel-shader.",
-    registryDependencies: ["pixel-shader"],
+    description: "Example showing a simple ripple-shader.",
+    registryDependencies: ["ripple-shader"],
     files: [
       {
-        path: "examples/pixel-shader/pixel-shader-03.tsx",
+        path: "examples/ripple-shader/ripple-shader-03.tsx",
         type: "registry:example",
       },
     ],
   },
   {
-    title: "Pixel Shader",
-    name: "pixel-shader-04",
+    title: "Ripple Shader",
+    name: "ripple-shader-04",
     type: "registry:example",
-    description: "Example showing a simple pixel-shader.",
-    registryDependencies: ["pixel-shader"],
+    description: "Example showing a simple ripple-shader.",
+    registryDependencies: ["ripple-shader"],
     files: [
       {
-        path: "examples/pixel-shader/pixel-shader-04.tsx",
+        path: "examples/ripple-shader/ripple-shader-04.tsx",
         type: "registry:example",
       },
     ],
   },
   {
-    title: "Pixel Shader",
-    name: "pixel-shader-05",
+    title: "Ripple Shader",
+    name: "ripple-shader-05",
     type: "registry:example",
-    description: "Example showing a simple pixel-shader.",
-    registryDependencies: ["pixel-shader"],
+    description: "Example showing a simple ripple-shader.",
+    registryDependencies: ["ripple-shader"],
     files: [
       {
-        path: "examples/pixel-shader/pixel-shader-05.tsx",
+        path: "examples/ripple-shader/ripple-shader-05.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    title: "PixelGrid Shader",
+    name: "pixelgrid-shader-01",
+    type: "registry:example",
+    description: "Example showing a simple pixelgrid-shader.",
+    registryDependencies: ["pixelgrid-shader"],
+    files: [
+      {
+        path: "examples/pixelgrid-shader/pixelgrid-shader-01.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    title: "PixelGrid Shader",
+    name: "pixelgrid-shader-02",
+    type: "registry:example",
+    description: "Example showing a simple pixelgrid-shader.",
+    registryDependencies: ["pixelgrid-shader"],
+    files: [
+      {
+        path: "examples/pixelgrid-shader/pixelgrid-shader-02.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    title: "PixelGrid Shader",
+    name: "pixelgrid-shader-03",
+    type: "registry:example",
+    description: "Example showing a simple pixelgrid-shader.",
+    registryDependencies: ["pixelgrid-shader"],
+    files: [
+      {
+        path: "examples/pixelgrid-shader/pixelgrid-shader-03.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    title: "PixelGrid Shader",
+    name: "pixelgrid-shader-04",
+    type: "registry:example",
+    description: "Example showing a simple pixelgrid-shader.",
+    registryDependencies: ["pixelgrid-shader"],
+    files: [
+      {
+        path: "examples/pixelgrid-shader/pixelgrid-shader-04.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    title: "PixelGrid Shader",
+    name: "pixelgrid-shader-05",
+    type: "registry:example",
+    description: "Example showing a simple pixelgrid-shader.",
+    registryDependencies: ["pixelgrid-shader"],
+    files: [
+      {
+        path: "examples/pixelgrid-shader/pixelgrid-shader-05.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    title: "PixelGrid Shader",
+    name: "pixelgrid-shader-06",
+    type: "registry:example",
+    description: "Example showing a simple pixelgrid-shader.",
+    registryDependencies: ["pixelgrid-shader"],
+    files: [
+      {
+        path: "examples/pixelgrid-shader/pixelgrid-shader-06.tsx",
         type: "registry:example",
       },
     ],

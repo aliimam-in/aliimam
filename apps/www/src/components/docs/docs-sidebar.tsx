@@ -29,13 +29,10 @@ const TOP_LEVEL_SECTIONS = [
 const EXCLUDED_SECTIONS = ["(root)"]
 const EXCLUDED_PAGES: string[] = []
 
-const NEW_COMPONENTS = [
-  "components/attraction.mdx",
+const NEW_COMPONENTS = [ 
   "components/bento.mdx",
-  "components/border-glow.mdx",
-  "components/pixel-shader.mdx",
-  "components/counter-number.mdx",
-  "components/typewriter.mdx",
+  "components/ripple-shader.mdx",
+  "components/pixelgrid-shader.mdx", 
 ]
 
 export function DocsSidebar({

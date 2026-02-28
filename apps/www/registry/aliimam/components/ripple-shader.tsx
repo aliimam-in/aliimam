@@ -3,7 +3,7 @@
 import { useEffect, useRef } from "react"
 import * as THREE from "three"
 
-interface PixelShaderProps {
+interface RippleShaderProps {
   /** Size of each pixel block. Default: 4 */
   pixelSize?: number
   /** Animation speed multiplier. Default: 1 */
@@ -26,7 +26,7 @@ interface PixelShaderProps {
   className?: string
 }
 
-export function PixelShader({
+export function RippleShader({
   pixelSize = 2,
   speed = 0.5,
   waveFrequency = 5,
@@ -37,7 +37,7 @@ export function PixelShader({
   cursorPush = 0.5,
   color = "#00ff00",
   className = "w-full absolute h-full inset-0",
-}: PixelShaderProps) {
+}: RippleShaderProps) {
   const containerRef = useRef<HTMLDivElement>(null)
   const sceneRef = useRef<{
     renderer: THREE.WebGLRenderer

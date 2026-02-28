@@ -132,12 +132,23 @@ export const components: Registry["items"] = [
     ],
   },
   {
-    name: "pixel-shader",
+    name: "ripple-shader",
     type: "registry:component",
     dependencies: ["three"],
     files: [
       {
-        path: "components/pixel-shader.tsx",
+        path: "components/ripple-shader.tsx",
+        type: "registry:component",
+      },
+    ],
+  },
+  {
+    name: "pixelgrid-shader",
+    type: "registry:component",
+    dependencies: ["three"],
+    files: [
+      {
+        path: "components/pixelgrid-shader.tsx",
         type: "registry:component",
       },
     ],

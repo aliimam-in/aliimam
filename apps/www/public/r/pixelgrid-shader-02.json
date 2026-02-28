@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "pixelgrid-shader-02",
+  "title": "PixelGrid Shader",
+  "description": "Example showing a simple pixelgrid-shader.",
+  "registryDependencies": [
+    "pixelgrid-shader"
+  ],
+  "files": [
+    {
+      "path": "examples/pixelgrid-shader/pixelgrid-shader-02.tsx",
+      "content": "\"use client\"\n\nimport { PixelGridShader } from \"@/registry/aliimam/components/pixelgrid-shader\"\n\nexport default function PixelShaderDemo() {\n  return (\n    <div className=\"relative h-full w-full overflow-hidden border\">\n      <PixelGridShader\n        shape=\"noise\"\n        colorFg=\"#0000ff\" \n      />\n    </div>\n  )\n}\n",
+      "type": "registry:example"
+    }
+  ],
+  "type": "registry:example"
+}

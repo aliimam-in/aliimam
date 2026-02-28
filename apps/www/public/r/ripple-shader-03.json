@@ -1,0 +1,17 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ripple-shader-03",
+  "title": "Ripple Shader",
+  "description": "Example showing a simple ripple-shader.",
+  "registryDependencies": [
+    "ripple-shader"
+  ],
+  "files": [
+    {
+      "path": "examples/ripple-shader/ripple-shader-03.tsx",
+      "content": "\"use client\"\n\nimport { RippleShader } from \"@/registry/aliimam/components/ripple-shader\"\n\nexport default function RippleShaderDemo() {\n  return (\n    <div className=\"relative h-full w-full overflow-hidden border\">\n      <RippleShader\n        pixelSize={5}\n        waveFrequency={100}\n        speed={0.3}\n        threshold={1}\n        grainAmount={0.04}\n        gridOpacity={0.8}\n        cursorPush={0.2}\n        color=\"orange\"\n      />\n    </div>\n  )\n}\n",
+      "type": "registry:example"
+    }
+  ],
+  "type": "registry:example"
+}
