@@ -1576,6 +1576,16 @@
       ]
     },
     {
+      "name": "book",
+      "type": "registry:component",
+      "files": [
+        {
+          "path": "registry/aliimam/components/book.tsx",
+          "type": "registry:component"
+        }
+      ]
+    },
+    {
       "name": "bento",
       "type": "registry:component",
       "files": [
@@ -2046,6 +2056,71 @@
       "files": [
         {
           "path": "registry/aliimam/examples/button/button-08.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "book-01",
+      "type": "registry:example",
+      "title": "Book Demo",
+      "description": "Example showing a simple book.",
+      "registryDependencies": ["book"],
+      "files": [
+        {
+          "path": "registry/aliimam/examples/book/book-01.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "book-02",
+      "type": "registry:example",
+      "title": "Book Demo",
+      "description": "Example showing a simple book.",
+      "registryDependencies": ["book"],
+      "files": [
+        {
+          "path": "registry/aliimam/examples/book/book-02.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "book-03",
+      "type": "registry:example",
+      "title": "Book Demo",
+      "description": "Example showing a simple book.",
+      "registryDependencies": ["book"],
+      "files": [
+        {
+          "path": "registry/aliimam/examples/book/book-03.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "book-04",
+      "type": "registry:example",
+      "title": "Book Demo",
+      "description": "Example showing a simple book.",
+      "registryDependencies": ["book"],
+      "files": [
+        {
+          "path": "registry/aliimam/examples/book/book-04.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "book-05",
+      "type": "registry:example",
+      "title": "Book Demo",
+      "description": "Example showing a simple book.",
+      "registryDependencies": ["book"],
+      "files": [
+        {
+          "path": "registry/aliimam/examples/book/book-05.tsx",
           "type": "registry:example"
         }
       ]

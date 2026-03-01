@@ -1,0 +1,9 @@
+export { Rectangle1Shapes, Rectangle1ShapesMetadata, type Rectangle1ShapesProps } from './rectangle1_shapes';
+export { Rectangle2Shapes, Rectangle2ShapesMetadata, type Rectangle2ShapesProps } from './rectangle2_shapes';
+export { Rectangle3Shapes, Rectangle3ShapesMetadata, type Rectangle3ShapesProps } from './rectangle3_shapes';
+export { Rectangle4Shapes, Rectangle4ShapesMetadata, type Rectangle4ShapesProps } from './rectangle4_shapes';
+export { Rectangle5Shapes, Rectangle5ShapesMetadata, type Rectangle5ShapesProps } from './rectangle5_shapes';
+export { Rectangle6Shapes, Rectangle6ShapesMetadata, type Rectangle6ShapesProps } from './rectangle6_shapes';
+export { Rectangle7Shapes, Rectangle7ShapesMetadata, type Rectangle7ShapesProps } from './rectangle7_shapes';
+export { Rectangle8Shapes, Rectangle8ShapesMetadata, type Rectangle8ShapesProps } from './rectangle8_shapes';
+export { Rectangle9Shapes, Rectangle9ShapesMetadata, type Rectangle9ShapesProps } from './rectangle9_shapes';

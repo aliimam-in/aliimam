@@ -1,0 +1,113 @@
+---
+title: Book
+description: A 3D styled, interactive book component with multiple variants and props.
+component: true
+---
+
+<ComponentPreview
+  name="book-01"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[300px]"
+  description="A customizable SVG dot pattern background."
+  align="start"
+/>
+
+<ComponentPreview
+  name="book-02"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[300px]"
+  description="A customizable SVG dot pattern background."
+  align="start"
+/>
+
+<ComponentPreview
+  name="book-03"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[300px]"
+  description="A customizable SVG dot pattern background."
+  align="start"
+/>
+
+<ComponentPreview
+  name="book-04"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[300px]"
+  description="A customizable SVG dot pattern background."
+  align="start"
+/>
+
+<ComponentPreview
+  name="book-05"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[300px]"
+  description="A customizable SVG dot pattern background."
+  align="start"
+/>
+
+## Installation
+
+<CodeTabs>
+
+<TabsList>
+  <TabsTrigger value="cli">CLI</TabsTrigger>
+  <TabsTrigger value="manual">Manual</TabsTrigger>
+</TabsList>
+
+<TabsContent value="cli">
+
+```bash
+npx shadcn@latest add https://aliimam.in/r/book.json
+```
+
+</TabsContent>
+
+<TabsContent value="manual">
+
+<Steps>
+
+<Step>Copy and paste the following code into your project.</Step>
+
+<ComponentSource name="book" title="components/ui/book.tsx" />
+
+<Step>Update the import paths to match your project setup.</Step>
+
+</Steps>
+
+</TabsContent>
+
+</CodeTabs>
+
+## Usage
+
+```tsx showLineNumbers
+import { Book } from "@/components/ui/book"
+```
+
+```tsx showLineNumbers
+<Book
+  title="The Great Adventure"
+  author="John Doe"
+  spineText="Adventure"
+  bookmark
+  variant="hardcover"
+  animation="hover"
+>
+  <p>This is some content inside the book.</p>
+</Book>
+```
+
+## Props
+
+| Prop           | Type                                                               | Default       |  
+|----------------|--------------------------------------------------------------------|---------------| 
+| `children`     | `React.ReactNode`                                                  | –             |  
+| `title`        | `string`                                                           | –             | 
+| `author`       | `string`                                                           | –             | 
+| `spineText`    | `string`                                                           | –             |  
+| `color`        | `string`                                                           | `#555555`     |  
+| `textColor`    | `string`                                                           | `currentColor`|  
+| `bookmark`     | `boolean`                                                          | `false`       |  
+| `bookmarkColor`| `string`                                                           | `red`         |  
+| `depth`        | `number`                                                           | `5`           |  
+| `variant`      | `"default" \| "simple" \| "hardcover" \| "notebook"`               | `"default"`   | 
+| `illustration` | `React.ReactNode`                                                  | –             | 
+| `width`        | `number`                                                           | –             |  
+| `height`       | `number`                                                           | –             |  
+| `animation`    | `"hover" \| "none"`                                                | `"hover"`     |  
+| `className`    | `string`                                                           | –             |  
+| `...props`     | `div` props                                                        | –             | 

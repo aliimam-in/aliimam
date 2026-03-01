@@ -1,0 +1,10 @@
+export { Number10Shapes, Number10ShapesMetadata, type Number10ShapesProps } from './number10_shapes';
+export { Number1Shapes, Number1ShapesMetadata, type Number1ShapesProps } from './number1_shapes';
+export { Number2Shapes, Number2ShapesMetadata, type Number2ShapesProps } from './number2_shapes';
+export { Number3Shapes, Number3ShapesMetadata, type Number3ShapesProps } from './number3_shapes';
+export { Number4Shapes, Number4ShapesMetadata, type Number4ShapesProps } from './number4_shapes';
+export { Number5Shapes, Number5ShapesMetadata, type Number5ShapesProps } from './number5_shapes';
+export { Number6Shapes, Number6ShapesMetadata, type Number6ShapesProps } from './number6_shapes';
+export { Number7Shapes, Number7ShapesMetadata, type Number7ShapesProps } from './number7_shapes';
+export { Number8Shapes, Number8ShapesMetadata, type Number8ShapesProps } from './number8_shapes';
+export { Number9Shapes, Number9ShapesMetadata, type Number9ShapesProps } from './number9_shapes';

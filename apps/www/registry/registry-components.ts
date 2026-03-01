@@ -12,6 +12,16 @@ export const components: Registry["items"] = [
     ],
   },
   {
+    name: "book",
+    type: "registry:component",
+    files: [
+      {
+        path: "components/book.tsx",
+        type: "registry:component",
+      },
+    ],
+  },
+  {
     name: "bento",
     type: "registry:component",
     files: [

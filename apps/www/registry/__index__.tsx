@@ -1524,6 +1524,24 @@ export const Index: Record<string, any> = {
     categories: undefined,
     meta: undefined,
   },
+  "book": {
+    name: "book",
+    description: "",
+    type: "registry:component",
+    registryDependencies: undefined,
+    files: [{
+      path: "registry/aliimam/components/book.tsx",
+      type: "registry:component",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/aliimam/components/book.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
   "bento": {
     name: "bento",
     description: "",
@@ -2238,6 +2256,96 @@ export const Index: Record<string, any> = {
     }],
     component: React.lazy(async () => {
       const mod = await import("@/registry/aliimam/examples/button/button-08.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "book-01": {
+    name: "book-01",
+    description: "Example showing a simple book.",
+    type: "registry:example",
+    registryDependencies: ["book"],
+    files: [{
+      path: "registry/aliimam/examples/book/book-01.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/aliimam/examples/book/book-01.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "book-02": {
+    name: "book-02",
+    description: "Example showing a simple book.",
+    type: "registry:example",
+    registryDependencies: ["book"],
+    files: [{
+      path: "registry/aliimam/examples/book/book-02.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/aliimam/examples/book/book-02.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "book-03": {
+    name: "book-03",
+    description: "Example showing a simple book.",
+    type: "registry:example",
+    registryDependencies: ["book"],
+    files: [{
+      path: "registry/aliimam/examples/book/book-03.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/aliimam/examples/book/book-03.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "book-04": {
+    name: "book-04",
+    description: "Example showing a simple book.",
+    type: "registry:example",
+    registryDependencies: ["book"],
+    files: [{
+      path: "registry/aliimam/examples/book/book-04.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/aliimam/examples/book/book-04.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "book-05": {
+    name: "book-05",
+    description: "Example showing a simple book.",
+    type: "registry:example",
+    registryDependencies: ["book"],
+    files: [{
+      path: "registry/aliimam/examples/book/book-05.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/aliimam/examples/book/book-05.tsx")
       const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
       return { default: mod.default || mod[exportName] }
     }),

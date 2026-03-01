@@ -321,6 +321,71 @@ export const examples: Registry["items"] = [
     ],
   },
   {
+    name: "book-01",
+    type: "registry:example",
+    title: "Book Demo",
+    description: "Example showing a simple book.",
+    registryDependencies: ["book"],
+    files: [
+      {
+        path: "examples/book/book-01.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    name: "book-02",
+    type: "registry:example",
+    title: "Book Demo",
+    description: "Example showing a simple book.",
+    registryDependencies: ["book"],
+    files: [
+      {
+        path: "examples/book/book-02.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    name: "book-03",
+    type: "registry:example",
+    title: "Book Demo",
+    description: "Example showing a simple book.",
+    registryDependencies: ["book"],
+    files: [
+      {
+        path: "examples/book/book-03.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    name: "book-04",
+    type: "registry:example",
+    title: "Book Demo",
+    description: "Example showing a simple book.",
+    registryDependencies: ["book"],
+    files: [
+      {
+        path: "examples/book/book-04.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    name: "book-05",
+    type: "registry:example",
+    title: "Book Demo",
+    description: "Example showing a simple book.",
+    registryDependencies: ["book"],
+    files: [
+      {
+        path: "examples/book/book-05.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
     name: "border-glow-01",
     type: "registry:example",
     title: "Border Glow Demo",

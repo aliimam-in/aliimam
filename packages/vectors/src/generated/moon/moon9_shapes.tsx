@@ -1,0 +1,47 @@
+
+'use client';
+import React from 'react';
+
+export interface Moon9ShapesProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string; 
+}
+
+export const Moon9Shapes = React.forwardRef<SVGSVGElement, Moon9ShapesProps>(
+  ({ size = 24, className = '', ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      fill="none"
+      viewBox="0 0 24 24"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg" 
+      {...props}
+    >
+      <g clipPath="url(#clip0_2068_394)">
+<path d="M11.9995 24.0001C15.1821 24.0001 18.2344 22.7358 20.4848 20.4854C22.7352 18.2349 23.9995 15.1827 23.9995 12.0001C23.9995 8.81745 22.7352 5.76519 20.4848 3.51474C18.2344 1.2643 15.1821 1.11104e-05 11.9995 1.04908e-05L11.9995 12.0001L11.9995 24.0001Z" fill="currentColor"/>
+<path d="M-0.000488281 24.0001C3.18211 24.0001 6.23436 22.7358 8.48479 20.4854C10.7352 18.2349 11.9995 15.1827 11.9995 12.0001C11.9995 8.81745 10.7352 5.76518 8.48479 3.51473C6.23436 1.26429 3.18211 6.19677e-07 -0.00048542 0L-0.000488281 24.0001Z" fill="currentColor"/>
+</g>
+<defs>
+<clipPath id="clip0_2068_394">
+<rect width="24" height="24" fill="currentColor"/>
+</clipPath>
+</defs>
+    </svg>
+  )
+);
+
+Moon9Shapes.displayName = "Moon9Shapes";
+
+export const Moon9ShapesMetadata = {
+  id: "moon9_shapes",
+  baseId: "moon9",
+  variant: "shapes",
+  name: "Moon9",
+  category: "moon",
+  tags: [],
+  viewBox: "0 0 24 24",
+} as const;
+
+export default Moon9Shapes;

@@ -408,6 +408,34 @@ export { Peep97Character, Peep97CharacterMetadata } from './busts/peep-97_charac
 export { Peep98Character, Peep98CharacterMetadata } from './busts/peep-98_character';
 export { Peep99Character, Peep99CharacterMetadata } from './busts/peep-99_character';
 export { Peep9Character, Peep9CharacterMetadata } from './busts/peep-9_character';
+export { Ellipse10Shapes, Ellipse10ShapesMetadata } from './ellipse/ellipse10_shapes';
+export { Ellipse11Shapes, Ellipse11ShapesMetadata } from './ellipse/ellipse11_shapes';
+export { Ellipse12Shapes, Ellipse12ShapesMetadata } from './ellipse/ellipse12_shapes';
+export { Ellipse1Shapes, Ellipse1ShapesMetadata } from './ellipse/ellipse1_shapes';
+export { Ellipse2Shapes, Ellipse2ShapesMetadata } from './ellipse/ellipse2_shapes';
+export { Ellipse3Shapes, Ellipse3ShapesMetadata } from './ellipse/ellipse3_shapes';
+export { Ellipse4Shapes, Ellipse4ShapesMetadata } from './ellipse/ellipse4_shapes';
+export { Ellipse5Shapes, Ellipse5ShapesMetadata } from './ellipse/ellipse5_shapes';
+export { Ellipse6Shapes, Ellipse6ShapesMetadata } from './ellipse/ellipse6_shapes';
+export { Ellipse7Shapes, Ellipse7ShapesMetadata } from './ellipse/ellipse7_shapes';
+export { Ellipse8Shapes, Ellipse8ShapesMetadata } from './ellipse/ellipse8_shapes';
+export { Ellipse9Shapes, Ellipse9ShapesMetadata } from './ellipse/ellipse9_shapes';
+export { Flower10Shapes, Flower10ShapesMetadata } from './flower/flower10_shapes';
+export { Flower11Shapes, Flower11ShapesMetadata } from './flower/flower11_shapes';
+export { Flower12Shapes, Flower12ShapesMetadata } from './flower/flower12_shapes';
+export { Flower13Shapes, Flower13ShapesMetadata } from './flower/flower13_shapes';
+export { Flower14Shapes, Flower14ShapesMetadata } from './flower/flower14_shapes';
+export { Flower15Shapes, Flower15ShapesMetadata } from './flower/flower15_shapes';
+export { Flower16Shapes, Flower16ShapesMetadata } from './flower/flower16_shapes';
+export { Flower1Shapes, Flower1ShapesMetadata } from './flower/flower1_shapes';
+export { Flower2Shapes, Flower2ShapesMetadata } from './flower/flower2_shapes';
+export { Flower3Shapes, Flower3ShapesMetadata } from './flower/flower3_shapes';
+export { Flower4Shapes, Flower4ShapesMetadata } from './flower/flower4_shapes';
+export { Flower5Shapes, Flower5ShapesMetadata } from './flower/flower5_shapes';
+export { Flower6Shapes, Flower6ShapesMetadata } from './flower/flower6_shapes';
+export { Flower7Shapes, Flower7ShapesMetadata } from './flower/flower7_shapes';
+export { Flower8Shapes, Flower8ShapesMetadata } from './flower/flower8_shapes';
+export { Flower9Shapes, Flower9ShapesMetadata } from './flower/flower9_shapes';
 export { Geometric10Pattern, Geometric10PatternMetadata } from './geometric/geometric10_pattern';
 export { Geometric10Shapes, Geometric10ShapesMetadata } from './geometric/geometric10_shapes';
 export { Geometric11Pattern, Geometric11PatternMetadata } from './geometric/geometric11_pattern';
@@ -504,6 +532,42 @@ export { Geometric8Pattern, Geometric8PatternMetadata } from './geometric/geomet
 export { Geometric8Shapes, Geometric8ShapesMetadata } from './geometric/geometric8_shapes';
 export { Geometric9Pattern, Geometric9PatternMetadata } from './geometric/geometric9_pattern';
 export { Geometric9Shapes, Geometric9ShapesMetadata } from './geometric/geometric9_shapes';
+export { Misc10Shapes, Misc10ShapesMetadata } from './misc/misc10_shapes';
+export { Misc11Shapes, Misc11ShapesMetadata } from './misc/misc11_shapes';
+export { Misc1Shapes, Misc1ShapesMetadata } from './misc/misc1_shapes';
+export { Misc2Shapes, Misc2ShapesMetadata } from './misc/misc2_shapes';
+export { Misc3Shapes, Misc3ShapesMetadata } from './misc/misc3_shapes';
+export { Misc4Shapes, Misc4ShapesMetadata } from './misc/misc4_shapes';
+export { Misc5Shapes, Misc5ShapesMetadata } from './misc/misc5_shapes';
+export { Misc6Shapes, Misc6ShapesMetadata } from './misc/misc6_shapes';
+export { Misc7Shapes, Misc7ShapesMetadata } from './misc/misc7_shapes';
+export { Misc8Shapes, Misc8ShapesMetadata } from './misc/misc8_shapes';
+export { Misc9Shapes, Misc9ShapesMetadata } from './misc/misc9_shapes';
+export { Moon10Shapes, Moon10ShapesMetadata } from './moon/moon10_shapes';
+export { Moon11Shapes, Moon11ShapesMetadata } from './moon/moon11_shapes';
+export { Moon12Shapes, Moon12ShapesMetadata } from './moon/moon12_shapes';
+export { Moon13Shapes, Moon13ShapesMetadata } from './moon/moon13_shapes';
+export { Moon14Shapes, Moon14ShapesMetadata } from './moon/moon14_shapes';
+export { Moon15Shapes, Moon15ShapesMetadata } from './moon/moon15_shapes';
+export { Moon1Shapes, Moon1ShapesMetadata } from './moon/moon1_shapes';
+export { Moon2Shapes, Moon2ShapesMetadata } from './moon/moon2_shapes';
+export { Moon3Shapes, Moon3ShapesMetadata } from './moon/moon3_shapes';
+export { Moon4Shapes, Moon4ShapesMetadata } from './moon/moon4_shapes';
+export { Moon5Shapes, Moon5ShapesMetadata } from './moon/moon5_shapes';
+export { Moon6Shapes, Moon6ShapesMetadata } from './moon/moon6_shapes';
+export { Moon7Shapes, Moon7ShapesMetadata } from './moon/moon7_shapes';
+export { Moon8Shapes, Moon8ShapesMetadata } from './moon/moon8_shapes';
+export { Moon9Shapes, Moon9ShapesMetadata } from './moon/moon9_shapes';
+export { Number10Shapes, Number10ShapesMetadata } from './number/number10_shapes';
+export { Number1Shapes, Number1ShapesMetadata } from './number/number1_shapes';
+export { Number2Shapes, Number2ShapesMetadata } from './number/number2_shapes';
+export { Number3Shapes, Number3ShapesMetadata } from './number/number3_shapes';
+export { Number4Shapes, Number4ShapesMetadata } from './number/number4_shapes';
+export { Number5Shapes, Number5ShapesMetadata } from './number/number5_shapes';
+export { Number6Shapes, Number6ShapesMetadata } from './number/number6_shapes';
+export { Number7Shapes, Number7ShapesMetadata } from './number/number7_shapes';
+export { Number8Shapes, Number8ShapesMetadata } from './number/number8_shapes';
+export { Number9Shapes, Number9ShapesMetadata } from './number/number9_shapes';
 export { Organic10Pattern, Organic10PatternMetadata } from './organic/organic10_pattern';
 export { Organic10Shapes, Organic10ShapesMetadata } from './organic/organic10_shapes';
 export { Organic11Pattern, Organic11PatternMetadata } from './organic/organic11_pattern';
@@ -601,6 +665,23 @@ export { Organic8Pattern, Organic8PatternMetadata } from './organic/organic8_pat
 export { Organic8Shapes, Organic8ShapesMetadata } from './organic/organic8_shapes';
 export { Organic9Pattern, Organic9PatternMetadata } from './organic/organic9_pattern';
 export { Organic9Shapes, Organic9ShapesMetadata } from './organic/organic9_shapes';
+export { Polygon1Shapes, Polygon1ShapesMetadata } from './polygon/polygon1_shapes';
+export { Polygon2Shapes, Polygon2ShapesMetadata } from './polygon/polygon2_shapes';
+export { Polygon3Shapes, Polygon3ShapesMetadata } from './polygon/polygon3_shapes';
+export { Polygon4Shapes, Polygon4ShapesMetadata } from './polygon/polygon4_shapes';
+export { Polygon5Shapes, Polygon5ShapesMetadata } from './polygon/polygon5_shapes';
+export { Polygon6Shapes, Polygon6ShapesMetadata } from './polygon/polygon6_shapes';
+export { Polygon7Shapes, Polygon7ShapesMetadata } from './polygon/polygon7_shapes';
+export { Polygon8Shapes, Polygon8ShapesMetadata } from './polygon/polygon8_shapes';
+export { Rectangle1Shapes, Rectangle1ShapesMetadata } from './rectangle/rectangle1_shapes';
+export { Rectangle2Shapes, Rectangle2ShapesMetadata } from './rectangle/rectangle2_shapes';
+export { Rectangle3Shapes, Rectangle3ShapesMetadata } from './rectangle/rectangle3_shapes';
+export { Rectangle4Shapes, Rectangle4ShapesMetadata } from './rectangle/rectangle4_shapes';
+export { Rectangle5Shapes, Rectangle5ShapesMetadata } from './rectangle/rectangle5_shapes';
+export { Rectangle6Shapes, Rectangle6ShapesMetadata } from './rectangle/rectangle6_shapes';
+export { Rectangle7Shapes, Rectangle7ShapesMetadata } from './rectangle/rectangle7_shapes';
+export { Rectangle8Shapes, Rectangle8ShapesMetadata } from './rectangle/rectangle8_shapes';
+export { Rectangle9Shapes, Rectangle9ShapesMetadata } from './rectangle/rectangle9_shapes';
 export { Scribble100Sketch, Scribble100SketchMetadata } from './scribble/scribble100_sketch';
 export { Scribble101Sketch, Scribble101SketchMetadata } from './scribble/scribble101_sketch';
 export { Scribble102Sketch, Scribble102SketchMetadata } from './scribble/scribble102_sketch';
@@ -812,6 +893,27 @@ export { Star6Shapes, Star6ShapesMetadata } from './stars/star6_shapes';
 export { Star7Shapes, Star7ShapesMetadata } from './stars/star7_shapes';
 export { Star8Shapes, Star8ShapesMetadata } from './stars/star8_shapes';
 export { Star9Shapes, Star9ShapesMetadata } from './stars/star9_shapes';
+export { Traingle10Shapes, Traingle10ShapesMetadata } from './triangle/traingle10_shapes';
+export { Traingle11Shapes, Traingle11ShapesMetadata } from './triangle/traingle11_shapes';
+export { Traingle12Shapes, Traingle12ShapesMetadata } from './triangle/traingle12_shapes';
+export { Traingle13Shapes, Traingle13ShapesMetadata } from './triangle/traingle13_shapes';
+export { Traingle14Shapes, Traingle14ShapesMetadata } from './triangle/traingle14_shapes';
+export { Traingle1Shapes, Traingle1ShapesMetadata } from './triangle/traingle1_shapes';
+export { Traingle2Shapes, Traingle2ShapesMetadata } from './triangle/traingle2_shapes';
+export { Traingle3Shapes, Traingle3ShapesMetadata } from './triangle/traingle3_shapes';
+export { Traingle4Shapes, Traingle4ShapesMetadata } from './triangle/traingle4_shapes';
+export { Traingle5Shapes, Traingle5ShapesMetadata } from './triangle/traingle5_shapes';
+export { Traingle6Shapes, Traingle6ShapesMetadata } from './triangle/traingle6_shapes';
+export { Traingle7Shapes, Traingle7ShapesMetadata } from './triangle/traingle7_shapes';
+export { Traingle8Shapes, Traingle8ShapesMetadata } from './triangle/traingle8_shapes';
+export { Traingle9Shapes, Traingle9ShapesMetadata } from './triangle/traingle9_shapes';
+export { Wheel1Shapes, Wheel1ShapesMetadata } from './wheel/wheel1_shapes';
+export { Wheel2Shapes, Wheel2ShapesMetadata } from './wheel/wheel2_shapes';
+export { Wheel3Shapes, Wheel3ShapesMetadata } from './wheel/wheel3_shapes';
+export { Wheel4Shapes, Wheel4ShapesMetadata } from './wheel/wheel4_shapes';
+export { Wheel5Shapes, Wheel5ShapesMetadata } from './wheel/wheel5_shapes';
+export { Wheel6Shapes, Wheel6ShapesMetadata } from './wheel/wheel6_shapes';
+export { Wheel7Shapes, Wheel7ShapesMetadata } from './wheel/wheel7_shapes';
 
 import { Abstract100Shapes, Abstract100ShapesMetadata } from './abstract/abstract100_shapes';
 import { Abstract101Shapes, Abstract101ShapesMetadata } from './abstract/abstract101_shapes';
@@ -1221,6 +1323,34 @@ import { Peep97Character, Peep97CharacterMetadata } from './busts/peep-97_charac
 import { Peep98Character, Peep98CharacterMetadata } from './busts/peep-98_character';
 import { Peep99Character, Peep99CharacterMetadata } from './busts/peep-99_character';
 import { Peep9Character, Peep9CharacterMetadata } from './busts/peep-9_character';
+import { Ellipse10Shapes, Ellipse10ShapesMetadata } from './ellipse/ellipse10_shapes';
+import { Ellipse11Shapes, Ellipse11ShapesMetadata } from './ellipse/ellipse11_shapes';
+import { Ellipse12Shapes, Ellipse12ShapesMetadata } from './ellipse/ellipse12_shapes';
+import { Ellipse1Shapes, Ellipse1ShapesMetadata } from './ellipse/ellipse1_shapes';
+import { Ellipse2Shapes, Ellipse2ShapesMetadata } from './ellipse/ellipse2_shapes';
+import { Ellipse3Shapes, Ellipse3ShapesMetadata } from './ellipse/ellipse3_shapes';
+import { Ellipse4Shapes, Ellipse4ShapesMetadata } from './ellipse/ellipse4_shapes';
+import { Ellipse5Shapes, Ellipse5ShapesMetadata } from './ellipse/ellipse5_shapes';
+import { Ellipse6Shapes, Ellipse6ShapesMetadata } from './ellipse/ellipse6_shapes';
+import { Ellipse7Shapes, Ellipse7ShapesMetadata } from './ellipse/ellipse7_shapes';
+import { Ellipse8Shapes, Ellipse8ShapesMetadata } from './ellipse/ellipse8_shapes';
+import { Ellipse9Shapes, Ellipse9ShapesMetadata } from './ellipse/ellipse9_shapes';
+import { Flower10Shapes, Flower10ShapesMetadata } from './flower/flower10_shapes';
+import { Flower11Shapes, Flower11ShapesMetadata } from './flower/flower11_shapes';
+import { Flower12Shapes, Flower12ShapesMetadata } from './flower/flower12_shapes';
+import { Flower13Shapes, Flower13ShapesMetadata } from './flower/flower13_shapes';
+import { Flower14Shapes, Flower14ShapesMetadata } from './flower/flower14_shapes';
+import { Flower15Shapes, Flower15ShapesMetadata } from './flower/flower15_shapes';
+import { Flower16Shapes, Flower16ShapesMetadata } from './flower/flower16_shapes';
+import { Flower1Shapes, Flower1ShapesMetadata } from './flower/flower1_shapes';
+import { Flower2Shapes, Flower2ShapesMetadata } from './flower/flower2_shapes';
+import { Flower3Shapes, Flower3ShapesMetadata } from './flower/flower3_shapes';
+import { Flower4Shapes, Flower4ShapesMetadata } from './flower/flower4_shapes';
+import { Flower5Shapes, Flower5ShapesMetadata } from './flower/flower5_shapes';
+import { Flower6Shapes, Flower6ShapesMetadata } from './flower/flower6_shapes';
+import { Flower7Shapes, Flower7ShapesMetadata } from './flower/flower7_shapes';
+import { Flower8Shapes, Flower8ShapesMetadata } from './flower/flower8_shapes';
+import { Flower9Shapes, Flower9ShapesMetadata } from './flower/flower9_shapes';
 import { Geometric10Pattern, Geometric10PatternMetadata } from './geometric/geometric10_pattern';
 import { Geometric10Shapes, Geometric10ShapesMetadata } from './geometric/geometric10_shapes';
 import { Geometric11Pattern, Geometric11PatternMetadata } from './geometric/geometric11_pattern';
@@ -1317,6 +1447,42 @@ import { Geometric8Pattern, Geometric8PatternMetadata } from './geometric/geomet
 import { Geometric8Shapes, Geometric8ShapesMetadata } from './geometric/geometric8_shapes';
 import { Geometric9Pattern, Geometric9PatternMetadata } from './geometric/geometric9_pattern';
 import { Geometric9Shapes, Geometric9ShapesMetadata } from './geometric/geometric9_shapes';
+import { Misc10Shapes, Misc10ShapesMetadata } from './misc/misc10_shapes';
+import { Misc11Shapes, Misc11ShapesMetadata } from './misc/misc11_shapes';
+import { Misc1Shapes, Misc1ShapesMetadata } from './misc/misc1_shapes';
+import { Misc2Shapes, Misc2ShapesMetadata } from './misc/misc2_shapes';
+import { Misc3Shapes, Misc3ShapesMetadata } from './misc/misc3_shapes';
+import { Misc4Shapes, Misc4ShapesMetadata } from './misc/misc4_shapes';
+import { Misc5Shapes, Misc5ShapesMetadata } from './misc/misc5_shapes';
+import { Misc6Shapes, Misc6ShapesMetadata } from './misc/misc6_shapes';
+import { Misc7Shapes, Misc7ShapesMetadata } from './misc/misc7_shapes';
+import { Misc8Shapes, Misc8ShapesMetadata } from './misc/misc8_shapes';
+import { Misc9Shapes, Misc9ShapesMetadata } from './misc/misc9_shapes';
+import { Moon10Shapes, Moon10ShapesMetadata } from './moon/moon10_shapes';
+import { Moon11Shapes, Moon11ShapesMetadata } from './moon/moon11_shapes';
+import { Moon12Shapes, Moon12ShapesMetadata } from './moon/moon12_shapes';
+import { Moon13Shapes, Moon13ShapesMetadata } from './moon/moon13_shapes';
+import { Moon14Shapes, Moon14ShapesMetadata } from './moon/moon14_shapes';
+import { Moon15Shapes, Moon15ShapesMetadata } from './moon/moon15_shapes';
+import { Moon1Shapes, Moon1ShapesMetadata } from './moon/moon1_shapes';
+import { Moon2Shapes, Moon2ShapesMetadata } from './moon/moon2_shapes';
+import { Moon3Shapes, Moon3ShapesMetadata } from './moon/moon3_shapes';
+import { Moon4Shapes, Moon4ShapesMetadata } from './moon/moon4_shapes';
+import { Moon5Shapes, Moon5ShapesMetadata } from './moon/moon5_shapes';
+import { Moon6Shapes, Moon6ShapesMetadata } from './moon/moon6_shapes';
+import { Moon7Shapes, Moon7ShapesMetadata } from './moon/moon7_shapes';
+import { Moon8Shapes, Moon8ShapesMetadata } from './moon/moon8_shapes';
+import { Moon9Shapes, Moon9ShapesMetadata } from './moon/moon9_shapes';
+import { Number10Shapes, Number10ShapesMetadata } from './number/number10_shapes';
+import { Number1Shapes, Number1ShapesMetadata } from './number/number1_shapes';
+import { Number2Shapes, Number2ShapesMetadata } from './number/number2_shapes';
+import { Number3Shapes, Number3ShapesMetadata } from './number/number3_shapes';
+import { Number4Shapes, Number4ShapesMetadata } from './number/number4_shapes';
+import { Number5Shapes, Number5ShapesMetadata } from './number/number5_shapes';
+import { Number6Shapes, Number6ShapesMetadata } from './number/number6_shapes';
+import { Number7Shapes, Number7ShapesMetadata } from './number/number7_shapes';
+import { Number8Shapes, Number8ShapesMetadata } from './number/number8_shapes';
+import { Number9Shapes, Number9ShapesMetadata } from './number/number9_shapes';
 import { Organic10Pattern, Organic10PatternMetadata } from './organic/organic10_pattern';
 import { Organic10Shapes, Organic10ShapesMetadata } from './organic/organic10_shapes';
 import { Organic11Pattern, Organic11PatternMetadata } from './organic/organic11_pattern';
@@ -1414,6 +1580,23 @@ import { Organic8Pattern, Organic8PatternMetadata } from './organic/organic8_pat
 import { Organic8Shapes, Organic8ShapesMetadata } from './organic/organic8_shapes';
 import { Organic9Pattern, Organic9PatternMetadata } from './organic/organic9_pattern';
 import { Organic9Shapes, Organic9ShapesMetadata } from './organic/organic9_shapes';
+import { Polygon1Shapes, Polygon1ShapesMetadata } from './polygon/polygon1_shapes';
+import { Polygon2Shapes, Polygon2ShapesMetadata } from './polygon/polygon2_shapes';
+import { Polygon3Shapes, Polygon3ShapesMetadata } from './polygon/polygon3_shapes';
+import { Polygon4Shapes, Polygon4ShapesMetadata } from './polygon/polygon4_shapes';
+import { Polygon5Shapes, Polygon5ShapesMetadata } from './polygon/polygon5_shapes';
+import { Polygon6Shapes, Polygon6ShapesMetadata } from './polygon/polygon6_shapes';
+import { Polygon7Shapes, Polygon7ShapesMetadata } from './polygon/polygon7_shapes';
+import { Polygon8Shapes, Polygon8ShapesMetadata } from './polygon/polygon8_shapes';
+import { Rectangle1Shapes, Rectangle1ShapesMetadata } from './rectangle/rectangle1_shapes';
+import { Rectangle2Shapes, Rectangle2ShapesMetadata } from './rectangle/rectangle2_shapes';
+import { Rectangle3Shapes, Rectangle3ShapesMetadata } from './rectangle/rectangle3_shapes';
+import { Rectangle4Shapes, Rectangle4ShapesMetadata } from './rectangle/rectangle4_shapes';
+import { Rectangle5Shapes, Rectangle5ShapesMetadata } from './rectangle/rectangle5_shapes';
+import { Rectangle6Shapes, Rectangle6ShapesMetadata } from './rectangle/rectangle6_shapes';
+import { Rectangle7Shapes, Rectangle7ShapesMetadata } from './rectangle/rectangle7_shapes';
+import { Rectangle8Shapes, Rectangle8ShapesMetadata } from './rectangle/rectangle8_shapes';
+import { Rectangle9Shapes, Rectangle9ShapesMetadata } from './rectangle/rectangle9_shapes';
 import { Scribble100Sketch, Scribble100SketchMetadata } from './scribble/scribble100_sketch';
 import { Scribble101Sketch, Scribble101SketchMetadata } from './scribble/scribble101_sketch';
 import { Scribble102Sketch, Scribble102SketchMetadata } from './scribble/scribble102_sketch';
@@ -1625,6 +1808,27 @@ import { Star6Shapes, Star6ShapesMetadata } from './stars/star6_shapes';
 import { Star7Shapes, Star7ShapesMetadata } from './stars/star7_shapes';
 import { Star8Shapes, Star8ShapesMetadata } from './stars/star8_shapes';
 import { Star9Shapes, Star9ShapesMetadata } from './stars/star9_shapes';
+import { Traingle10Shapes, Traingle10ShapesMetadata } from './triangle/traingle10_shapes';
+import { Traingle11Shapes, Traingle11ShapesMetadata } from './triangle/traingle11_shapes';
+import { Traingle12Shapes, Traingle12ShapesMetadata } from './triangle/traingle12_shapes';
+import { Traingle13Shapes, Traingle13ShapesMetadata } from './triangle/traingle13_shapes';
+import { Traingle14Shapes, Traingle14ShapesMetadata } from './triangle/traingle14_shapes';
+import { Traingle1Shapes, Traingle1ShapesMetadata } from './triangle/traingle1_shapes';
+import { Traingle2Shapes, Traingle2ShapesMetadata } from './triangle/traingle2_shapes';
+import { Traingle3Shapes, Traingle3ShapesMetadata } from './triangle/traingle3_shapes';
+import { Traingle4Shapes, Traingle4ShapesMetadata } from './triangle/traingle4_shapes';
+import { Traingle5Shapes, Traingle5ShapesMetadata } from './triangle/traingle5_shapes';
+import { Traingle6Shapes, Traingle6ShapesMetadata } from './triangle/traingle6_shapes';
+import { Traingle7Shapes, Traingle7ShapesMetadata } from './triangle/traingle7_shapes';
+import { Traingle8Shapes, Traingle8ShapesMetadata } from './triangle/traingle8_shapes';
+import { Traingle9Shapes, Traingle9ShapesMetadata } from './triangle/traingle9_shapes';
+import { Wheel1Shapes, Wheel1ShapesMetadata } from './wheel/wheel1_shapes';
+import { Wheel2Shapes, Wheel2ShapesMetadata } from './wheel/wheel2_shapes';
+import { Wheel3Shapes, Wheel3ShapesMetadata } from './wheel/wheel3_shapes';
+import { Wheel4Shapes, Wheel4ShapesMetadata } from './wheel/wheel4_shapes';
+import { Wheel5Shapes, Wheel5ShapesMetadata } from './wheel/wheel5_shapes';
+import { Wheel6Shapes, Wheel6ShapesMetadata } from './wheel/wheel6_shapes';
+import { Wheel7Shapes, Wheel7ShapesMetadata } from './wheel/wheel7_shapes';
 
 
 export const allVectors = {
@@ -2042,6 +2246,38 @@ export const allVectors = {
     Peep99Character: { Component: Peep99Character, metadata: Peep99CharacterMetadata },
     Peep9Character: { Component: Peep9Character, metadata: Peep9CharacterMetadata },
   },
+  ellipse: {
+    Ellipse10Shapes: { Component: Ellipse10Shapes, metadata: Ellipse10ShapesMetadata },
+    Ellipse11Shapes: { Component: Ellipse11Shapes, metadata: Ellipse11ShapesMetadata },
+    Ellipse12Shapes: { Component: Ellipse12Shapes, metadata: Ellipse12ShapesMetadata },
+    Ellipse1Shapes: { Component: Ellipse1Shapes, metadata: Ellipse1ShapesMetadata },
+    Ellipse2Shapes: { Component: Ellipse2Shapes, metadata: Ellipse2ShapesMetadata },
+    Ellipse3Shapes: { Component: Ellipse3Shapes, metadata: Ellipse3ShapesMetadata },
+    Ellipse4Shapes: { Component: Ellipse4Shapes, metadata: Ellipse4ShapesMetadata },
+    Ellipse5Shapes: { Component: Ellipse5Shapes, metadata: Ellipse5ShapesMetadata },
+    Ellipse6Shapes: { Component: Ellipse6Shapes, metadata: Ellipse6ShapesMetadata },
+    Ellipse7Shapes: { Component: Ellipse7Shapes, metadata: Ellipse7ShapesMetadata },
+    Ellipse8Shapes: { Component: Ellipse8Shapes, metadata: Ellipse8ShapesMetadata },
+    Ellipse9Shapes: { Component: Ellipse9Shapes, metadata: Ellipse9ShapesMetadata },
+  },
+  flower: {
+    Flower10Shapes: { Component: Flower10Shapes, metadata: Flower10ShapesMetadata },
+    Flower11Shapes: { Component: Flower11Shapes, metadata: Flower11ShapesMetadata },
+    Flower12Shapes: { Component: Flower12Shapes, metadata: Flower12ShapesMetadata },
+    Flower13Shapes: { Component: Flower13Shapes, metadata: Flower13ShapesMetadata },
+    Flower14Shapes: { Component: Flower14Shapes, metadata: Flower14ShapesMetadata },
+    Flower15Shapes: { Component: Flower15Shapes, metadata: Flower15ShapesMetadata },
+    Flower16Shapes: { Component: Flower16Shapes, metadata: Flower16ShapesMetadata },
+    Flower1Shapes: { Component: Flower1Shapes, metadata: Flower1ShapesMetadata },
+    Flower2Shapes: { Component: Flower2Shapes, metadata: Flower2ShapesMetadata },
+    Flower3Shapes: { Component: Flower3Shapes, metadata: Flower3ShapesMetadata },
+    Flower4Shapes: { Component: Flower4Shapes, metadata: Flower4ShapesMetadata },
+    Flower5Shapes: { Component: Flower5Shapes, metadata: Flower5ShapesMetadata },
+    Flower6Shapes: { Component: Flower6Shapes, metadata: Flower6ShapesMetadata },
+    Flower7Shapes: { Component: Flower7Shapes, metadata: Flower7ShapesMetadata },
+    Flower8Shapes: { Component: Flower8Shapes, metadata: Flower8ShapesMetadata },
+    Flower9Shapes: { Component: Flower9Shapes, metadata: Flower9ShapesMetadata },
+  },
   geometric: {
     Geometric10Pattern: { Component: Geometric10Pattern, metadata: Geometric10PatternMetadata },
     Geometric10Shapes: { Component: Geometric10Shapes, metadata: Geometric10ShapesMetadata },
@@ -2139,6 +2375,48 @@ export const allVectors = {
     Geometric8Shapes: { Component: Geometric8Shapes, metadata: Geometric8ShapesMetadata },
     Geometric9Pattern: { Component: Geometric9Pattern, metadata: Geometric9PatternMetadata },
     Geometric9Shapes: { Component: Geometric9Shapes, metadata: Geometric9ShapesMetadata },
+  },
+  misc: {
+    Misc10Shapes: { Component: Misc10Shapes, metadata: Misc10ShapesMetadata },
+    Misc11Shapes: { Component: Misc11Shapes, metadata: Misc11ShapesMetadata },
+    Misc1Shapes: { Component: Misc1Shapes, metadata: Misc1ShapesMetadata },
+    Misc2Shapes: { Component: Misc2Shapes, metadata: Misc2ShapesMetadata },
+    Misc3Shapes: { Component: Misc3Shapes, metadata: Misc3ShapesMetadata },
+    Misc4Shapes: { Component: Misc4Shapes, metadata: Misc4ShapesMetadata },
+    Misc5Shapes: { Component: Misc5Shapes, metadata: Misc5ShapesMetadata },
+    Misc6Shapes: { Component: Misc6Shapes, metadata: Misc6ShapesMetadata },
+    Misc7Shapes: { Component: Misc7Shapes, metadata: Misc7ShapesMetadata },
+    Misc8Shapes: { Component: Misc8Shapes, metadata: Misc8ShapesMetadata },
+    Misc9Shapes: { Component: Misc9Shapes, metadata: Misc9ShapesMetadata },
+  },
+  moon: {
+    Moon10Shapes: { Component: Moon10Shapes, metadata: Moon10ShapesMetadata },
+    Moon11Shapes: { Component: Moon11Shapes, metadata: Moon11ShapesMetadata },
+    Moon12Shapes: { Component: Moon12Shapes, metadata: Moon12ShapesMetadata },
+    Moon13Shapes: { Component: Moon13Shapes, metadata: Moon13ShapesMetadata },
+    Moon14Shapes: { Component: Moon14Shapes, metadata: Moon14ShapesMetadata },
+    Moon15Shapes: { Component: Moon15Shapes, metadata: Moon15ShapesMetadata },
+    Moon1Shapes: { Component: Moon1Shapes, metadata: Moon1ShapesMetadata },
+    Moon2Shapes: { Component: Moon2Shapes, metadata: Moon2ShapesMetadata },
+    Moon3Shapes: { Component: Moon3Shapes, metadata: Moon3ShapesMetadata },
+    Moon4Shapes: { Component: Moon4Shapes, metadata: Moon4ShapesMetadata },
+    Moon5Shapes: { Component: Moon5Shapes, metadata: Moon5ShapesMetadata },
+    Moon6Shapes: { Component: Moon6Shapes, metadata: Moon6ShapesMetadata },
+    Moon7Shapes: { Component: Moon7Shapes, metadata: Moon7ShapesMetadata },
+    Moon8Shapes: { Component: Moon8Shapes, metadata: Moon8ShapesMetadata },
+    Moon9Shapes: { Component: Moon9Shapes, metadata: Moon9ShapesMetadata },
+  },
+  number: {
+    Number10Shapes: { Component: Number10Shapes, metadata: Number10ShapesMetadata },
+    Number1Shapes: { Component: Number1Shapes, metadata: Number1ShapesMetadata },
+    Number2Shapes: { Component: Number2Shapes, metadata: Number2ShapesMetadata },
+    Number3Shapes: { Component: Number3Shapes, metadata: Number3ShapesMetadata },
+    Number4Shapes: { Component: Number4Shapes, metadata: Number4ShapesMetadata },
+    Number5Shapes: { Component: Number5Shapes, metadata: Number5ShapesMetadata },
+    Number6Shapes: { Component: Number6Shapes, metadata: Number6ShapesMetadata },
+    Number7Shapes: { Component: Number7Shapes, metadata: Number7ShapesMetadata },
+    Number8Shapes: { Component: Number8Shapes, metadata: Number8ShapesMetadata },
+    Number9Shapes: { Component: Number9Shapes, metadata: Number9ShapesMetadata },
   },
   organic: {
     Organic10Pattern: { Component: Organic10Pattern, metadata: Organic10PatternMetadata },
@@ -2238,6 +2516,27 @@ export const allVectors = {
     Organic8Shapes: { Component: Organic8Shapes, metadata: Organic8ShapesMetadata },
     Organic9Pattern: { Component: Organic9Pattern, metadata: Organic9PatternMetadata },
     Organic9Shapes: { Component: Organic9Shapes, metadata: Organic9ShapesMetadata },
+  },
+  polygon: {
+    Polygon1Shapes: { Component: Polygon1Shapes, metadata: Polygon1ShapesMetadata },
+    Polygon2Shapes: { Component: Polygon2Shapes, metadata: Polygon2ShapesMetadata },
+    Polygon3Shapes: { Component: Polygon3Shapes, metadata: Polygon3ShapesMetadata },
+    Polygon4Shapes: { Component: Polygon4Shapes, metadata: Polygon4ShapesMetadata },
+    Polygon5Shapes: { Component: Polygon5Shapes, metadata: Polygon5ShapesMetadata },
+    Polygon6Shapes: { Component: Polygon6Shapes, metadata: Polygon6ShapesMetadata },
+    Polygon7Shapes: { Component: Polygon7Shapes, metadata: Polygon7ShapesMetadata },
+    Polygon8Shapes: { Component: Polygon8Shapes, metadata: Polygon8ShapesMetadata },
+  },
+  rectangle: {
+    Rectangle1Shapes: { Component: Rectangle1Shapes, metadata: Rectangle1ShapesMetadata },
+    Rectangle2Shapes: { Component: Rectangle2Shapes, metadata: Rectangle2ShapesMetadata },
+    Rectangle3Shapes: { Component: Rectangle3Shapes, metadata: Rectangle3ShapesMetadata },
+    Rectangle4Shapes: { Component: Rectangle4Shapes, metadata: Rectangle4ShapesMetadata },
+    Rectangle5Shapes: { Component: Rectangle5Shapes, metadata: Rectangle5ShapesMetadata },
+    Rectangle6Shapes: { Component: Rectangle6Shapes, metadata: Rectangle6ShapesMetadata },
+    Rectangle7Shapes: { Component: Rectangle7Shapes, metadata: Rectangle7ShapesMetadata },
+    Rectangle8Shapes: { Component: Rectangle8Shapes, metadata: Rectangle8ShapesMetadata },
+    Rectangle9Shapes: { Component: Rectangle9Shapes, metadata: Rectangle9ShapesMetadata },
   },
   scribble: {
     Scribble100Sketch: { Component: Scribble100Sketch, metadata: Scribble100SketchMetadata },
@@ -2457,5 +2756,30 @@ export const allVectors = {
     Star7Shapes: { Component: Star7Shapes, metadata: Star7ShapesMetadata },
     Star8Shapes: { Component: Star8Shapes, metadata: Star8ShapesMetadata },
     Star9Shapes: { Component: Star9Shapes, metadata: Star9ShapesMetadata },
+  },
+  triangle: {
+    Traingle10Shapes: { Component: Traingle10Shapes, metadata: Traingle10ShapesMetadata },
+    Traingle11Shapes: { Component: Traingle11Shapes, metadata: Traingle11ShapesMetadata },
+    Traingle12Shapes: { Component: Traingle12Shapes, metadata: Traingle12ShapesMetadata },
+    Traingle13Shapes: { Component: Traingle13Shapes, metadata: Traingle13ShapesMetadata },
+    Traingle14Shapes: { Component: Traingle14Shapes, metadata: Traingle14ShapesMetadata },
+    Traingle1Shapes: { Component: Traingle1Shapes, metadata: Traingle1ShapesMetadata },
+    Traingle2Shapes: { Component: Traingle2Shapes, metadata: Traingle2ShapesMetadata },
+    Traingle3Shapes: { Component: Traingle3Shapes, metadata: Traingle3ShapesMetadata },
+    Traingle4Shapes: { Component: Traingle4Shapes, metadata: Traingle4ShapesMetadata },
+    Traingle5Shapes: { Component: Traingle5Shapes, metadata: Traingle5ShapesMetadata },
+    Traingle6Shapes: { Component: Traingle6Shapes, metadata: Traingle6ShapesMetadata },
+    Traingle7Shapes: { Component: Traingle7Shapes, metadata: Traingle7ShapesMetadata },
+    Traingle8Shapes: { Component: Traingle8Shapes, metadata: Traingle8ShapesMetadata },
+    Traingle9Shapes: { Component: Traingle9Shapes, metadata: Traingle9ShapesMetadata },
+  },
+  wheel: {
+    Wheel1Shapes: { Component: Wheel1Shapes, metadata: Wheel1ShapesMetadata },
+    Wheel2Shapes: { Component: Wheel2Shapes, metadata: Wheel2ShapesMetadata },
+    Wheel3Shapes: { Component: Wheel3Shapes, metadata: Wheel3ShapesMetadata },
+    Wheel4Shapes: { Component: Wheel4Shapes, metadata: Wheel4ShapesMetadata },
+    Wheel5Shapes: { Component: Wheel5Shapes, metadata: Wheel5ShapesMetadata },
+    Wheel6Shapes: { Component: Wheel6Shapes, metadata: Wheel6ShapesMetadata },
+    Wheel7Shapes: { Component: Wheel7Shapes, metadata: Wheel7ShapesMetadata },
   },
 } as const;

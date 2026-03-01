@@ -1,0 +1,46 @@
+
+'use client';
+import React from 'react';
+
+export interface Misc4ShapesProps extends React.SVGProps<SVGSVGElement> {
+  size?: number | string;
+  className?: string; 
+}
+
+export const Misc4Shapes = React.forwardRef<SVGSVGElement, Misc4ShapesProps>(
+  ({ size = 24, className = '', ...props }, ref) => (
+    <svg
+      ref={ref}
+      width={size}
+      height={size}
+      fill="none"
+      viewBox="0 0 24 24"
+      className={className}
+      xmlns="http://www.w3.org/2000/svg" 
+      {...props}
+    >
+      <g clipPath="url(#clip0_2068_657)">
+<path d="M15.1765 14.88L21.8792 14.88C23.5183 14.88 24.5359 13.6657 23.703 12.7038L13.4217 0.8308C12.1435 -0.645258 8.82353 -0.0275737 8.82353 1.68629L8.82353 9.12L2.12076 9.12C0.481741 9.12 -0.535891 10.3343 0.297039 11.2962L10.5783 23.1692C11.8565 24.6453 15.1765 24.0276 15.1765 22.3137L15.1765 14.88Z" fill="currentColor"/>
+</g>
+<defs>
+<clipPath id="clip0_2068_657">
+<rect width="24" height="24" fill="currentColor"/>
+</clipPath>
+</defs>
+    </svg>
+  )
+);
+
+Misc4Shapes.displayName = "Misc4Shapes";
+
+export const Misc4ShapesMetadata = {
+  id: "misc4_shapes",
+  baseId: "misc4",
+  variant: "shapes",
+  name: "Misc4",
+  category: "misc",
+  tags: [],
+  viewBox: "0 0 24 24",
+} as const;
+
+export default Misc4Shapes;

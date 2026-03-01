@@ -9,7 +9,7 @@
   "files": [
     {
       "path": "examples/pixelgrid-shader/pixelgrid-shader-04.tsx",
-      "content": "\"use client\"\n\nimport { PixelGridShader } from \"@/registry/aliimam/components/pixelgrid-shader\"\n\nexport default function PixelShaderDemo() {\n  return (\n    <div className=\"relative h-full w-full overflow-hidden border\">\n      <PixelGridShader \n       shape=\"scan\"\n       colorFg=\"#ff00ff\"  />\n    </div>\n  )\n}\n",
+      "content": "\"use client\"\n\nimport { PixelGridShader } from \"@/registry/aliimam/components/pixelgrid-shader\"\n\nexport default function PixelShaderDemo() {\n  return (\n    <div className=\"relative h-full w-full overflow-hidden border\">\n      <PixelGridShader shape=\"scan\" colorFg=\"#22c55e\" />\n    </div>\n  )\n}\n",
       "type": "registry:example"
     }
   ],

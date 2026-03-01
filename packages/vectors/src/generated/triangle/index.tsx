@@ -1,0 +1,14 @@
+export { Traingle10Shapes, Traingle10ShapesMetadata, type Traingle10ShapesProps } from './traingle10_shapes';
+export { Traingle11Shapes, Traingle11ShapesMetadata, type Traingle11ShapesProps } from './traingle11_shapes';
+export { Traingle12Shapes, Traingle12ShapesMetadata, type Traingle12ShapesProps } from './traingle12_shapes';
+export { Traingle13Shapes, Traingle13ShapesMetadata, type Traingle13ShapesProps } from './traingle13_shapes';
+export { Traingle14Shapes, Traingle14ShapesMetadata, type Traingle14ShapesProps } from './traingle14_shapes';
+export { Traingle1Shapes, Traingle1ShapesMetadata, type Traingle1ShapesProps } from './traingle1_shapes';
+export { Traingle2Shapes, Traingle2ShapesMetadata, type Traingle2ShapesProps } from './traingle2_shapes';
+export { Traingle3Shapes, Traingle3ShapesMetadata, type Traingle3ShapesProps } from './traingle3_shapes';
+export { Traingle4Shapes, Traingle4ShapesMetadata, type Traingle4ShapesProps } from './traingle4_shapes';
+export { Traingle5Shapes, Traingle5ShapesMetadata, type Traingle5ShapesProps } from './traingle5_shapes';
+export { Traingle6Shapes, Traingle6ShapesMetadata, type Traingle6ShapesProps } from './traingle6_shapes';
+export { Traingle7Shapes, Traingle7ShapesMetadata, type Traingle7ShapesProps } from './traingle7_shapes';
+export { Traingle8Shapes, Traingle8ShapesMetadata, type Traingle8ShapesProps } from './traingle8_shapes';
+export { Traingle9Shapes, Traingle9ShapesMetadata, type Traingle9ShapesProps } from './traingle9_shapes';

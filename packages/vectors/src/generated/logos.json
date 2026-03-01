@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2026-02-27T15:35:59.695Z",
+  "lastUpdated": "2026-03-01T08:43:36.716Z",
   "logos": [
     {
       "id": "abstract100_shapes",
@@ -4083,6 +4083,286 @@
       "viewBox": "0 0 240 324"
     },
     {
+      "id": "ellipse10_shapes",
+      "baseId": "ellipse10",
+      "variant": "shapes",
+      "name": "Ellipse10",
+      "path": "./generated/ellipse/ellipse10_shapes.tsx",
+      "category": "ellipse",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "ellipse11_shapes",
+      "baseId": "ellipse11",
+      "variant": "shapes",
+      "name": "Ellipse11",
+      "path": "./generated/ellipse/ellipse11_shapes.tsx",
+      "category": "ellipse",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "ellipse12_shapes",
+      "baseId": "ellipse12",
+      "variant": "shapes",
+      "name": "Ellipse12",
+      "path": "./generated/ellipse/ellipse12_shapes.tsx",
+      "category": "ellipse",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "ellipse1_shapes",
+      "baseId": "ellipse1",
+      "variant": "shapes",
+      "name": "Ellipse1",
+      "path": "./generated/ellipse/ellipse1_shapes.tsx",
+      "category": "ellipse",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "ellipse2_shapes",
+      "baseId": "ellipse2",
+      "variant": "shapes",
+      "name": "Ellipse2",
+      "path": "./generated/ellipse/ellipse2_shapes.tsx",
+      "category": "ellipse",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "ellipse3_shapes",
+      "baseId": "ellipse3",
+      "variant": "shapes",
+      "name": "Ellipse3",
+      "path": "./generated/ellipse/ellipse3_shapes.tsx",
+      "category": "ellipse",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "ellipse4_shapes",
+      "baseId": "ellipse4",
+      "variant": "shapes",
+      "name": "Ellipse4",
+      "path": "./generated/ellipse/ellipse4_shapes.tsx",
+      "category": "ellipse",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "ellipse5_shapes",
+      "baseId": "ellipse5",
+      "variant": "shapes",
+      "name": "Ellipse5",
+      "path": "./generated/ellipse/ellipse5_shapes.tsx",
+      "category": "ellipse",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "ellipse6_shapes",
+      "baseId": "ellipse6",
+      "variant": "shapes",
+      "name": "Ellipse6",
+      "path": "./generated/ellipse/ellipse6_shapes.tsx",
+      "category": "ellipse",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "ellipse7_shapes",
+      "baseId": "ellipse7",
+      "variant": "shapes",
+      "name": "Ellipse7",
+      "path": "./generated/ellipse/ellipse7_shapes.tsx",
+      "category": "ellipse",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "ellipse8_shapes",
+      "baseId": "ellipse8",
+      "variant": "shapes",
+      "name": "Ellipse8",
+      "path": "./generated/ellipse/ellipse8_shapes.tsx",
+      "category": "ellipse",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "ellipse9_shapes",
+      "baseId": "ellipse9",
+      "variant": "shapes",
+      "name": "Ellipse9",
+      "path": "./generated/ellipse/ellipse9_shapes.tsx",
+      "category": "ellipse",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "flower10_shapes",
+      "baseId": "flower10",
+      "variant": "shapes",
+      "name": "Flower10",
+      "path": "./generated/flower/flower10_shapes.tsx",
+      "category": "flower",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "flower11_shapes",
+      "baseId": "flower11",
+      "variant": "shapes",
+      "name": "Flower11",
+      "path": "./generated/flower/flower11_shapes.tsx",
+      "category": "flower",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "flower12_shapes",
+      "baseId": "flower12",
+      "variant": "shapes",
+      "name": "Flower12",
+      "path": "./generated/flower/flower12_shapes.tsx",
+      "category": "flower",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "flower13_shapes",
+      "baseId": "flower13",
+      "variant": "shapes",
+      "name": "Flower13",
+      "path": "./generated/flower/flower13_shapes.tsx",
+      "category": "flower",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "flower14_shapes",
+      "baseId": "flower14",
+      "variant": "shapes",
+      "name": "Flower14",
+      "path": "./generated/flower/flower14_shapes.tsx",
+      "category": "flower",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "flower15_shapes",
+      "baseId": "flower15",
+      "variant": "shapes",
+      "name": "Flower15",
+      "path": "./generated/flower/flower15_shapes.tsx",
+      "category": "flower",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "flower16_shapes",
+      "baseId": "flower16",
+      "variant": "shapes",
+      "name": "Flower16",
+      "path": "./generated/flower/flower16_shapes.tsx",
+      "category": "flower",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "flower1_shapes",
+      "baseId": "flower1",
+      "variant": "shapes",
+      "name": "Flower1",
+      "path": "./generated/flower/flower1_shapes.tsx",
+      "category": "flower",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "flower2_shapes",
+      "baseId": "flower2",
+      "variant": "shapes",
+      "name": "Flower2",
+      "path": "./generated/flower/flower2_shapes.tsx",
+      "category": "flower",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "flower3_shapes",
+      "baseId": "flower3",
+      "variant": "shapes",
+      "name": "Flower3",
+      "path": "./generated/flower/flower3_shapes.tsx",
+      "category": "flower",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "flower4_shapes",
+      "baseId": "flower4",
+      "variant": "shapes",
+      "name": "Flower4",
+      "path": "./generated/flower/flower4_shapes.tsx",
+      "category": "flower",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "flower5_shapes",
+      "baseId": "flower5",
+      "variant": "shapes",
+      "name": "Flower5",
+      "path": "./generated/flower/flower5_shapes.tsx",
+      "category": "flower",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "flower6_shapes",
+      "baseId": "flower6",
+      "variant": "shapes",
+      "name": "Flower6",
+      "path": "./generated/flower/flower6_shapes.tsx",
+      "category": "flower",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "flower7_shapes",
+      "baseId": "flower7",
+      "variant": "shapes",
+      "name": "Flower7",
+      "path": "./generated/flower/flower7_shapes.tsx",
+      "category": "flower",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "flower8_shapes",
+      "baseId": "flower8",
+      "variant": "shapes",
+      "name": "Flower8",
+      "path": "./generated/flower/flower8_shapes.tsx",
+      "category": "flower",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "flower9_shapes",
+      "baseId": "flower9",
+      "variant": "shapes",
+      "name": "Flower9",
+      "path": "./generated/flower/flower9_shapes.tsx",
+      "category": "flower",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
       "id": "geometric10_pattern",
       "baseId": "geometric10",
       "variant": "pattern",
@@ -5041,6 +5321,366 @@
       "category": "geometric",
       "tags": [],
       "viewBox": "0 0 357 713"
+    },
+    {
+      "id": "misc10_shapes",
+      "baseId": "misc10",
+      "variant": "shapes",
+      "name": "Misc10",
+      "path": "./generated/misc/misc10_shapes.tsx",
+      "category": "misc",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "misc11_shapes",
+      "baseId": "misc11",
+      "variant": "shapes",
+      "name": "Misc11",
+      "path": "./generated/misc/misc11_shapes.tsx",
+      "category": "misc",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "misc1_shapes",
+      "baseId": "misc1",
+      "variant": "shapes",
+      "name": "Misc1",
+      "path": "./generated/misc/misc1_shapes.tsx",
+      "category": "misc",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "misc2_shapes",
+      "baseId": "misc2",
+      "variant": "shapes",
+      "name": "Misc2",
+      "path": "./generated/misc/misc2_shapes.tsx",
+      "category": "misc",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "misc3_shapes",
+      "baseId": "misc3",
+      "variant": "shapes",
+      "name": "Misc3",
+      "path": "./generated/misc/misc3_shapes.tsx",
+      "category": "misc",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "misc4_shapes",
+      "baseId": "misc4",
+      "variant": "shapes",
+      "name": "Misc4",
+      "path": "./generated/misc/misc4_shapes.tsx",
+      "category": "misc",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "misc5_shapes",
+      "baseId": "misc5",
+      "variant": "shapes",
+      "name": "Misc5",
+      "path": "./generated/misc/misc5_shapes.tsx",
+      "category": "misc",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "misc6_shapes",
+      "baseId": "misc6",
+      "variant": "shapes",
+      "name": "Misc6",
+      "path": "./generated/misc/misc6_shapes.tsx",
+      "category": "misc",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "misc7_shapes",
+      "baseId": "misc7",
+      "variant": "shapes",
+      "name": "Misc7",
+      "path": "./generated/misc/misc7_shapes.tsx",
+      "category": "misc",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "misc8_shapes",
+      "baseId": "misc8",
+      "variant": "shapes",
+      "name": "Misc8",
+      "path": "./generated/misc/misc8_shapes.tsx",
+      "category": "misc",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "misc9_shapes",
+      "baseId": "misc9",
+      "variant": "shapes",
+      "name": "Misc9",
+      "path": "./generated/misc/misc9_shapes.tsx",
+      "category": "misc",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "moon10_shapes",
+      "baseId": "moon10",
+      "variant": "shapes",
+      "name": "Moon10",
+      "path": "./generated/moon/moon10_shapes.tsx",
+      "category": "moon",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "moon11_shapes",
+      "baseId": "moon11",
+      "variant": "shapes",
+      "name": "Moon11",
+      "path": "./generated/moon/moon11_shapes.tsx",
+      "category": "moon",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "moon12_shapes",
+      "baseId": "moon12",
+      "variant": "shapes",
+      "name": "Moon12",
+      "path": "./generated/moon/moon12_shapes.tsx",
+      "category": "moon",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "moon13_shapes",
+      "baseId": "moon13",
+      "variant": "shapes",
+      "name": "Moon13",
+      "path": "./generated/moon/moon13_shapes.tsx",
+      "category": "moon",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "moon14_shapes",
+      "baseId": "moon14",
+      "variant": "shapes",
+      "name": "Moon14",
+      "path": "./generated/moon/moon14_shapes.tsx",
+      "category": "moon",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "moon15_shapes",
+      "baseId": "moon15",
+      "variant": "shapes",
+      "name": "Moon15",
+      "path": "./generated/moon/moon15_shapes.tsx",
+      "category": "moon",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "moon1_shapes",
+      "baseId": "moon1",
+      "variant": "shapes",
+      "name": "Moon1",
+      "path": "./generated/moon/moon1_shapes.tsx",
+      "category": "moon",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "moon2_shapes",
+      "baseId": "moon2",
+      "variant": "shapes",
+      "name": "Moon2",
+      "path": "./generated/moon/moon2_shapes.tsx",
+      "category": "moon",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "moon3_shapes",
+      "baseId": "moon3",
+      "variant": "shapes",
+      "name": "Moon3",
+      "path": "./generated/moon/moon3_shapes.tsx",
+      "category": "moon",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "moon4_shapes",
+      "baseId": "moon4",
+      "variant": "shapes",
+      "name": "Moon4",
+      "path": "./generated/moon/moon4_shapes.tsx",
+      "category": "moon",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "moon5_shapes",
+      "baseId": "moon5",
+      "variant": "shapes",
+      "name": "Moon5",
+      "path": "./generated/moon/moon5_shapes.tsx",
+      "category": "moon",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "moon6_shapes",
+      "baseId": "moon6",
+      "variant": "shapes",
+      "name": "Moon6",
+      "path": "./generated/moon/moon6_shapes.tsx",
+      "category": "moon",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "moon7_shapes",
+      "baseId": "moon7",
+      "variant": "shapes",
+      "name": "Moon7",
+      "path": "./generated/moon/moon7_shapes.tsx",
+      "category": "moon",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "moon8_shapes",
+      "baseId": "moon8",
+      "variant": "shapes",
+      "name": "Moon8",
+      "path": "./generated/moon/moon8_shapes.tsx",
+      "category": "moon",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "moon9_shapes",
+      "baseId": "moon9",
+      "variant": "shapes",
+      "name": "Moon9",
+      "path": "./generated/moon/moon9_shapes.tsx",
+      "category": "moon",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "number10_shapes",
+      "baseId": "number10",
+      "variant": "shapes",
+      "name": "Number10",
+      "path": "./generated/number/number10_shapes.tsx",
+      "category": "number",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "number1_shapes",
+      "baseId": "number1",
+      "variant": "shapes",
+      "name": "Number1",
+      "path": "./generated/number/number1_shapes.tsx",
+      "category": "number",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "number2_shapes",
+      "baseId": "number2",
+      "variant": "shapes",
+      "name": "Number2",
+      "path": "./generated/number/number2_shapes.tsx",
+      "category": "number",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "number3_shapes",
+      "baseId": "number3",
+      "variant": "shapes",
+      "name": "Number3",
+      "path": "./generated/number/number3_shapes.tsx",
+      "category": "number",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "number4_shapes",
+      "baseId": "number4",
+      "variant": "shapes",
+      "name": "Number4",
+      "path": "./generated/number/number4_shapes.tsx",
+      "category": "number",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "number5_shapes",
+      "baseId": "number5",
+      "variant": "shapes",
+      "name": "Number5",
+      "path": "./generated/number/number5_shapes.tsx",
+      "category": "number",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "number6_shapes",
+      "baseId": "number6",
+      "variant": "shapes",
+      "name": "Number6",
+      "path": "./generated/number/number6_shapes.tsx",
+      "category": "number",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "number7_shapes",
+      "baseId": "number7",
+      "variant": "shapes",
+      "name": "Number7",
+      "path": "./generated/number/number7_shapes.tsx",
+      "category": "number",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "number8_shapes",
+      "baseId": "number8",
+      "variant": "shapes",
+      "name": "Number8",
+      "path": "./generated/number/number8_shapes.tsx",
+      "category": "number",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "number9_shapes",
+      "baseId": "number9",
+      "variant": "shapes",
+      "name": "Number9",
+      "path": "./generated/number/number9_shapes.tsx",
+      "category": "number",
+      "tags": [],
+      "viewBox": "0 0 24 24"
     },
     {
       "id": "organic10_pattern",
@@ -6011,6 +6651,176 @@
       "category": "organic",
       "tags": [],
       "viewBox": "0 0 300 600"
+    },
+    {
+      "id": "polygon1_shapes",
+      "baseId": "polygon1",
+      "variant": "shapes",
+      "name": "Polygon1",
+      "path": "./generated/polygon/polygon1_shapes.tsx",
+      "category": "polygon",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "polygon2_shapes",
+      "baseId": "polygon2",
+      "variant": "shapes",
+      "name": "Polygon2",
+      "path": "./generated/polygon/polygon2_shapes.tsx",
+      "category": "polygon",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "polygon3_shapes",
+      "baseId": "polygon3",
+      "variant": "shapes",
+      "name": "Polygon3",
+      "path": "./generated/polygon/polygon3_shapes.tsx",
+      "category": "polygon",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "polygon4_shapes",
+      "baseId": "polygon4",
+      "variant": "shapes",
+      "name": "Polygon4",
+      "path": "./generated/polygon/polygon4_shapes.tsx",
+      "category": "polygon",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "polygon5_shapes",
+      "baseId": "polygon5",
+      "variant": "shapes",
+      "name": "Polygon5",
+      "path": "./generated/polygon/polygon5_shapes.tsx",
+      "category": "polygon",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "polygon6_shapes",
+      "baseId": "polygon6",
+      "variant": "shapes",
+      "name": "Polygon6",
+      "path": "./generated/polygon/polygon6_shapes.tsx",
+      "category": "polygon",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "polygon7_shapes",
+      "baseId": "polygon7",
+      "variant": "shapes",
+      "name": "Polygon7",
+      "path": "./generated/polygon/polygon7_shapes.tsx",
+      "category": "polygon",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "polygon8_shapes",
+      "baseId": "polygon8",
+      "variant": "shapes",
+      "name": "Polygon8",
+      "path": "./generated/polygon/polygon8_shapes.tsx",
+      "category": "polygon",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "rectangle1_shapes",
+      "baseId": "rectangle1",
+      "variant": "shapes",
+      "name": "Rectangle1",
+      "path": "./generated/rectangle/rectangle1_shapes.tsx",
+      "category": "rectangle",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "rectangle2_shapes",
+      "baseId": "rectangle2",
+      "variant": "shapes",
+      "name": "Rectangle2",
+      "path": "./generated/rectangle/rectangle2_shapes.tsx",
+      "category": "rectangle",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "rectangle3_shapes",
+      "baseId": "rectangle3",
+      "variant": "shapes",
+      "name": "Rectangle3",
+      "path": "./generated/rectangle/rectangle3_shapes.tsx",
+      "category": "rectangle",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "rectangle4_shapes",
+      "baseId": "rectangle4",
+      "variant": "shapes",
+      "name": "Rectangle4",
+      "path": "./generated/rectangle/rectangle4_shapes.tsx",
+      "category": "rectangle",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "rectangle5_shapes",
+      "baseId": "rectangle5",
+      "variant": "shapes",
+      "name": "Rectangle5",
+      "path": "./generated/rectangle/rectangle5_shapes.tsx",
+      "category": "rectangle",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "rectangle6_shapes",
+      "baseId": "rectangle6",
+      "variant": "shapes",
+      "name": "Rectangle6",
+      "path": "./generated/rectangle/rectangle6_shapes.tsx",
+      "category": "rectangle",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "rectangle7_shapes",
+      "baseId": "rectangle7",
+      "variant": "shapes",
+      "name": "Rectangle7",
+      "path": "./generated/rectangle/rectangle7_shapes.tsx",
+      "category": "rectangle",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "rectangle8_shapes",
+      "baseId": "rectangle8",
+      "variant": "shapes",
+      "name": "Rectangle8",
+      "path": "./generated/rectangle/rectangle8_shapes.tsx",
+      "category": "rectangle",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "rectangle9_shapes",
+      "baseId": "rectangle9",
+      "variant": "shapes",
+      "name": "Rectangle9",
+      "path": "./generated/rectangle/rectangle9_shapes.tsx",
+      "category": "rectangle",
+      "tags": [],
+      "viewBox": "0 0 24 24"
     },
     {
       "id": "scribble100_sketch",
@@ -8119,6 +8929,216 @@
       "name": "Star9",
       "path": "./generated/stars/star9_shapes.tsx",
       "category": "stars",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "traingle10_shapes",
+      "baseId": "traingle10",
+      "variant": "shapes",
+      "name": "Traingle10",
+      "path": "./generated/triangle/traingle10_shapes.tsx",
+      "category": "triangle",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "traingle11_shapes",
+      "baseId": "traingle11",
+      "variant": "shapes",
+      "name": "Traingle11",
+      "path": "./generated/triangle/traingle11_shapes.tsx",
+      "category": "triangle",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "traingle12_shapes",
+      "baseId": "traingle12",
+      "variant": "shapes",
+      "name": "Traingle12",
+      "path": "./generated/triangle/traingle12_shapes.tsx",
+      "category": "triangle",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "traingle13_shapes",
+      "baseId": "traingle13",
+      "variant": "shapes",
+      "name": "Traingle13",
+      "path": "./generated/triangle/traingle13_shapes.tsx",
+      "category": "triangle",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "traingle14_shapes",
+      "baseId": "traingle14",
+      "variant": "shapes",
+      "name": "Traingle14",
+      "path": "./generated/triangle/traingle14_shapes.tsx",
+      "category": "triangle",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "traingle1_shapes",
+      "baseId": "traingle1",
+      "variant": "shapes",
+      "name": "Traingle1",
+      "path": "./generated/triangle/traingle1_shapes.tsx",
+      "category": "triangle",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "traingle2_shapes",
+      "baseId": "traingle2",
+      "variant": "shapes",
+      "name": "Traingle2",
+      "path": "./generated/triangle/traingle2_shapes.tsx",
+      "category": "triangle",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "traingle3_shapes",
+      "baseId": "traingle3",
+      "variant": "shapes",
+      "name": "Traingle3",
+      "path": "./generated/triangle/traingle3_shapes.tsx",
+      "category": "triangle",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "traingle4_shapes",
+      "baseId": "traingle4",
+      "variant": "shapes",
+      "name": "Traingle4",
+      "path": "./generated/triangle/traingle4_shapes.tsx",
+      "category": "triangle",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "traingle5_shapes",
+      "baseId": "traingle5",
+      "variant": "shapes",
+      "name": "Traingle5",
+      "path": "./generated/triangle/traingle5_shapes.tsx",
+      "category": "triangle",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "traingle6_shapes",
+      "baseId": "traingle6",
+      "variant": "shapes",
+      "name": "Traingle6",
+      "path": "./generated/triangle/traingle6_shapes.tsx",
+      "category": "triangle",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "traingle7_shapes",
+      "baseId": "traingle7",
+      "variant": "shapes",
+      "name": "Traingle7",
+      "path": "./generated/triangle/traingle7_shapes.tsx",
+      "category": "triangle",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "traingle8_shapes",
+      "baseId": "traingle8",
+      "variant": "shapes",
+      "name": "Traingle8",
+      "path": "./generated/triangle/traingle8_shapes.tsx",
+      "category": "triangle",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "traingle9_shapes",
+      "baseId": "traingle9",
+      "variant": "shapes",
+      "name": "Traingle9",
+      "path": "./generated/triangle/traingle9_shapes.tsx",
+      "category": "triangle",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "wheel1_shapes",
+      "baseId": "wheel1",
+      "variant": "shapes",
+      "name": "Wheel1",
+      "path": "./generated/wheel/wheel1_shapes.tsx",
+      "category": "wheel",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "wheel2_shapes",
+      "baseId": "wheel2",
+      "variant": "shapes",
+      "name": "Wheel2",
+      "path": "./generated/wheel/wheel2_shapes.tsx",
+      "category": "wheel",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "wheel3_shapes",
+      "baseId": "wheel3",
+      "variant": "shapes",
+      "name": "Wheel3",
+      "path": "./generated/wheel/wheel3_shapes.tsx",
+      "category": "wheel",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "wheel4_shapes",
+      "baseId": "wheel4",
+      "variant": "shapes",
+      "name": "Wheel4",
+      "path": "./generated/wheel/wheel4_shapes.tsx",
+      "category": "wheel",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "wheel5_shapes",
+      "baseId": "wheel5",
+      "variant": "shapes",
+      "name": "Wheel5",
+      "path": "./generated/wheel/wheel5_shapes.tsx",
+      "category": "wheel",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "wheel6_shapes",
+      "baseId": "wheel6",
+      "variant": "shapes",
+      "name": "Wheel6",
+      "path": "./generated/wheel/wheel6_shapes.tsx",
+      "category": "wheel",
+      "tags": [],
+      "viewBox": "0 0 24 24"
+    },
+    {
+      "id": "wheel7_shapes",
+      "baseId": "wheel7",
+      "variant": "shapes",
+      "name": "Wheel7",
+      "path": "./generated/wheel/wheel7_shapes.tsx",
+      "category": "wheel",
       "tags": [],
       "viewBox": "0 0 24 24"
     }
