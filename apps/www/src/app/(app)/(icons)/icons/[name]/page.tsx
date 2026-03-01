@@ -120,7 +120,7 @@ export default function LogoDetailPage() {
   }
 
   return (
-    <div className="container flex min-h-[85vh] w-full max-w-6xl flex-col gap-2 p-2 lg:border-x">
+    <div className="container scroll-mt-28 flex min-h-[85vh] w-full max-w-6xl flex-col gap-2 p-2 lg:border-x">
       <div className="flex w-full flex-col gap-3 md:flex-row md:items-end">
         <div className="relative flex h-80 w-80 items-center justify-center border md:h-150 md:w-150">
           <Icons

@@ -23,7 +23,7 @@ export default async function BlocksPage({
   const { categories = [] } = await params
   const blocks = await getAllBlockIds(["registry:block"], categories)
   return (
-    <div className="flex items-stretch xl:w-full">
+    <div className="flex scroll-mt-32 items-stretch xl:w-full">
       <SheetContent className="w-60 pt-6">
         <BlockToc blocks={blocks} />
       </SheetContent>

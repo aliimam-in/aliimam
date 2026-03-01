@@ -19,7 +19,7 @@ const FEATURED_BLOCKS = [
 
 export default async function BlocksPage() {
   return (
-    <div className="relative flex items-stretch justify-center xl:w-full">
+    <div className="relative scroll-mt-32 flex items-stretch justify-center xl:w-full">
       <div className="flex w-full min-w-0 flex-col gap-12 md:gap-24">
         {FEATURED_BLOCKS.map((name) => (
           <BlockDisplay name={name} key={name} />
