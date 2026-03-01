@@ -3,7 +3,7 @@ export const siteConfig = {
   url: "https://aliimam.in",
   ogImage: "https://aliimam.in/og.jpg",
   description:
-    "A collection of Open Source agent and audio components that you can customize, extend, and build on.",
+    "I create digital experiences that connect and inspire. I build apps, websites, brands, and products end-to-end.",
   links: {
     twitter: "https://twitter.com/aliimam_in",
     github: "https://github.com/aliimam-in",

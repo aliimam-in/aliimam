@@ -6,7 +6,7 @@ import { Sheet } from "@/registry/aliimam/ui/sheet"
  
 const title = "Blocks"
 const description =
-  "A collection of building blocks for agents and audio that you can customize and extend."
+"I create digital experiences that connect and inspire. I build apps, websites, brands, and products end-to-end."
 
 export const metadata: Metadata = {
   title,

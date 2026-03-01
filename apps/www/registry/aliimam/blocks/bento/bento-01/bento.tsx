@@ -9,6 +9,8 @@ import {
   ReplicateWordmark,
 } from "@aliimam/logos"
 
+import { Abstract76Shapes } from "@aliimam/vectors"
+
 import { EmptyAvatarGroup } from "@/registry/aliimam/blocks/bento/bento-01/empty-avatar"
 import { FieldHear } from "@/registry/aliimam/blocks/bento/bento-01/hear"
 import { BentoGrid, BentoGridItem } from "@/registry/aliimam/components/bento"
@@ -66,6 +68,7 @@ export default function BentoExample() {
         </BentoGridItem>
 
         <BentoGridItem className="flex h-full flex-col items-center justify-center">
+         <Abstract76Shapes size={160} className="absolute text-primary animate-spin [animation-duration:10s]"/>
           <h1 className="text-primary text-7xl font-bold tracking-tight">Aa</h1>
           <p className="text-muted-foreground mt-2 text-sm">Typography</p>
         </BentoGridItem>
