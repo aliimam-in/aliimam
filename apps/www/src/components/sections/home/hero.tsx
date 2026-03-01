@@ -18,7 +18,7 @@ export function Hero() {
         amplitude={0.15}   
         shape="plasma" 
         pxSize={2}   
-        colorFg="#00ff00" 
+        colorFg="#ff0000" 
         className="" />
 
       <PageHeader className="relative z-10">

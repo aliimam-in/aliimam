@@ -336,7 +336,7 @@ export function Header() {
       {" "}
       <div className="mx-auto flex w-full max-w-7xl items-center justify-between">
         <div className="flex h-14 justify-center">
-          <Vercel size={100} className="h-14" type="wordmark" />
+          <Vercel className="h-14"/>
           <NavigationMenu className="ml-8 hidden lg:flex" viewport={true}>
             <NavigationMenuList>
               <NavigationMenuItem>
