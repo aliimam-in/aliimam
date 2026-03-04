@@ -53,7 +53,7 @@ export default function CallToAction() {
           </div>
 
           <div className="flex flex-wrap justify-center gap-3 pt-6">
-            <Link target="_blank" href="https://cal.com/aliimam-in/30min">
+            <Link target="_blank" href="https://cal.com/aliimam/30min">
               <Button className="h-12 w-40 cursor-pointer">Book a Call</Button>
             </Link>
             <Link href="/blocks">

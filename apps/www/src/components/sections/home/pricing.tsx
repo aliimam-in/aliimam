@@ -89,7 +89,7 @@ export function Pricing() {
                   <div className="flex gap-2">
                     <Button asChild size={"xl"}>
                       <Link
-                        href="https://cal.com/aliimam-in/30min"
+                        href="https://cal.com/aliimam/30min"
                         target="_blank"
                       >
                         Join Today
@@ -97,7 +97,7 @@ export function Pricing() {
                     </Button>
                     <Button asChild variant={"outline"} size={"xl"}>
                       <Link
-                        href="https://cal.com/aliimam-in/30min"
+                        href="https://cal.com/aliimam/30min"
                         target="_blank"
                       >
                         Book a Call

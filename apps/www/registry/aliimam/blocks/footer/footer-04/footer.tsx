@@ -108,7 +108,7 @@ export default function Footer() {
             <h3 className="mb-4 text-lg font-semibold">Follow Us</h3>
             <div className="mb-6 flex gap-6">
               <Link
-                href={"https://www.linkedin.com/aliimam-in"}
+                href={"https://www.linkedin.com/aliimam"}
                 target="_blank"
                 className="text-muted-foreground hover:text-foreground transition-colors"
               >

@@ -94,7 +94,7 @@ const Header = () => {
               <div className="flex w-full flex-col space-y-3 sm:flex-row sm:gap-2 sm:space-y-0">
                 <ModeToggle />
                 <Button asChild className={cn(isScrolled && "lg:hidden")}>
-                  <a target="_blank" href="https://cal.com/aliimam-in/30min">
+                  <a target="_blank" href="https://cal.com/aliimam/30min">
                     <span>Book an Intro call</span>
                   </a>
                 </Button>

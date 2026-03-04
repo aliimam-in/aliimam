@@ -27,7 +27,7 @@ export function Craete() {
               </Link>
             </Button>
             <Button asChild size={"xl"}>
-              <Link target="_blank" href="https://cal.com/aliimam-in/30min">
+              <Link target="_blank" href="https://cal.com/aliimam/30min">
                 Book a Call
               </Link>
             </Button>

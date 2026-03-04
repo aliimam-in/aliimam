@@ -57,7 +57,7 @@ export function SiteHeader() {
             <GitHubLink />
             <ModeSwitcher />
             <Button asChild className="hidden md:block">
-              <Link target="_blank" href="https://cal.com/aliimam-in/30min">
+              <Link target="_blank" href="https://cal.com/aliimam/30min">
                 Book a Call
               </Link>
             </Button>

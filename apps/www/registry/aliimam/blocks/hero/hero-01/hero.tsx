@@ -82,7 +82,7 @@ export default function HeroSection01() {
             websites, brands, and products end-to-end.
           </p>
           <div className="mt-6 flex flex-wrap justify-center gap-3">
-            <Link target="_blank" href="https://cal.com/aliimam-in/30min">
+            <Link target="_blank" href="https://cal.com/aliimam/30min">
               <Button className="h-12 cursor-pointer px-8 md:h-14 md:px-10">
                 Book an Intro Call
               </Button>
