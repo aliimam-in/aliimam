@@ -20,7 +20,7 @@ export function Hero() {
         shape="plasma" 
         pxSize={2}   
         colorFg="#ff0000" 
-        className="hidden" />
+        className="" />
 
       <PageHeader className="relative z-10">
         <PageHeaderHeading className="max-w-100 md:max-w-full">Design without limits</PageHeaderHeading>
