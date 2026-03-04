@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "arrows19_sketch",
+  "type": "registry:ui",
+  "title": "Arrows19",
+  "description": "Arrows19 icon component",
+  "category": "arrows",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/arrows/arrows19_sketch.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Arrows19SketchProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Arrows19Sketch = React.forwardRef<SVGSVGElement, Arrows19SketchProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 500 500\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path fillRule=\"evenodd\" clipRule=\"evenodd\" d=\"M10.7485 63.1369C4.74848 64.4226 3.31991 76.5658 3.60562 124.137C4.31991 238.137 17.7487 254.423 29.6058 314.137C51.6058 424.137 97.3203 453.422 206.749 427.85C209.034 427.279 341.177 381.707 358.891 374.279C371.606 368.85 371.32 368.709 375.606 383.852C377.606 391.138 380.034 398.852 380.891 400.995C385.177 411.995 406.891 408.852 416.034 395.995C430.32 375.709 450.034 358.422 484.32 335.707C503.606 322.85 500.177 320.707 461.463 320.707C426.32 320.707 404.749 317.852 384.32 310.566C350.749 298.423 356.463 308.995 363.177 336.28C365.177 344.423 366.891 351.85 366.891 352.85C366.891 360.85 234.606 402.852 231.606 404.137C120.32 450.137 77.1774 428.707 54.0346 315.707C44.0346 266.565 31.0346 240.136 27.606 154.993C24.1774 72.7081 21.8913 60.7083 10.7485 63.1369Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nArrows19Sketch.displayName = \"Arrows19Sketch\";\n\nexport const Arrows19SketchMetadata = {\n  id: \"arrows19_sketch\",\n  baseId: \"arrows19\",\n  variant: \"sketch\",\n  name: \"Arrows19\",\n  category: \"arrows\",\n  tags: [],\n  viewBox: \"0 0 500 500\",\n} as const;\n\nexport default Arrows19Sketch;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

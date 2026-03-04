@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "Blitz",
+  "type": "registry:ui",
+  "title": "Blitz",
+  "description": "Blitz icon component",
+  "category": "framework",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/framework/Blitz.tsx",
+      "content": "/**\n * Auto-generated logo component: Blitz (default)\n * Category: framework\n * Do not edit manually\n */\n\n'use client';\nimport React from 'react';\n\nexport interface BlitzProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Blitz = React.forwardRef<SVGSVGElement, BlitzProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <g clipPath=\"url(#clip0_2066_402)\">\n<path d=\"M8.06637 11.9809C8.82964 11.981 9.58245 12.1539 10.2654 12.486C10.9484 12.8182 11.5428 13.3005 12.0017 13.8948L16.0128 19.09C16.05 19.1381 16.0724 19.1955 16.0776 19.2555C16.0828 19.3155 16.0705 19.3757 16.0422 19.4292L13.7301 23.7952C13.6191 24.0048 13.3217 24.0293 13.1761 23.8411L4 11.9809H8.06637ZM10.8239 0.127374L20 11.9876H15.9336C15.1704 11.9876 14.4175 11.8147 13.7346 11.4825C13.0516 11.1504 12.4572 10.6681 11.9983 10.0737L7.98719 4.87852C7.95005 4.8304 7.9276 4.77305 7.9224 4.71306C7.9172 4.65306 7.92948 4.59286 7.95781 4.53935L10.2699 0.173242C10.3808 -0.0362402 10.6782 -0.0608493 10.8239 0.127374Z\" fill=\"#6700EB\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2066_402\">\n<rect width=\"16\" height=\"24\" fill=\"white\" transform=\"translate(4)\"/>\n</clipPath>\n</defs>\n    </svg>\n  )\n);\n\nBlitz.displayName = \"Blitz\";\n\nexport const BlitzMetadata = {\n  id: \"Blitz\",\n  baseId: \"Blitz\",\n  variant: \"default\",\n  name: \"Blitz\",\n  category: \"framework\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Blitz;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ellipse12_shapes",
+  "type": "registry:ui",
+  "title": "Ellipse12",
+  "description": "Ellipse12 icon component",
+  "category": "ellipse",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/ellipse/ellipse12_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Ellipse12ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Ellipse12Shapes = React.forwardRef<SVGSVGElement, Ellipse12ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 24 24\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path fillRule=\"evenodd\" clipRule=\"evenodd\" d=\"M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18ZM12 24C18.6274 24 24 18.6274 24 12C24 5.37258 18.6274 0 12 0C5.37258 0 0 5.37258 0 12C0 18.6274 5.37258 24 12 24Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nEllipse12Shapes.displayName = \"Ellipse12Shapes\";\n\nexport const Ellipse12ShapesMetadata = {\n  id: \"ellipse12_shapes\",\n  baseId: \"ellipse12\",\n  variant: \"shapes\",\n  name: \"Ellipse12\",\n  category: \"ellipse\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Ellipse12Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

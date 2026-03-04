@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "Niger_symbols",
+  "type": "registry:ui",
+  "title": "Niger",
+  "description": "Niger icon component",
+  "category": "flags",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/flags/Niger_symbols.tsx",
+      "content": "/**\n * Auto-generated logo component: Niger (symbols)\n * Category: flags\n * Do not edit manually\n */\n\n'use client';\nimport React from 'react';\n\nexport interface NigerSymbolsProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const NigerSymbols = React.forwardRef<SVGSVGElement, NigerSymbolsProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      viewBox=\"0 0 32 32\"\n      fill=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path d=\"M1 11H31V21H1V11Z\" fill=\"white\"/>\n<path d=\"M5 4H27C29.208 4 31 5.792 31 8V12H1V8C1 5.792 2.792 4 5 4Z\" fill=\"#D05B26\"/>\n<path d=\"M27 28L5 28C2.792 28 1 26.208 1 24V20L31 20V24C31 26.208 29.208 28 27 28Z\" fill=\"#50AF3F\"/>\n<path d=\"M16 19C17.6569 19 19 17.6569 19 16C19 14.3431 17.6569 13 16 13C14.3431 13 13 14.3431 13 16C13 17.6569 14.3431 19 16 19Z\" fill=\"#D05B26\"/>\n    </svg>\n  )\n);\n\nNigerSymbols.displayName = \"NigerSymbols\";\n\nexport const NigerSymbolsMetadata = {\n  id: \"Niger_symbols\",\n  baseId: \"Niger\",\n  variant: \"symbols\",\n  name: \"Niger\",\n  category: \"flags\",\n  tags: [],\n  viewBox: \"0 0 32 32\",\n} as const;\n\nexport default NigerSymbols;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

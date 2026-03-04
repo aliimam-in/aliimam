@@ -1,4 +1,4 @@
- 
+
 "use client"
 
 import { useState } from "react"
@@ -12,6 +12,8 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/registry/aliimam/ui/dropdown-menu"
+import { Terminal } from "@aliimam/icons"
+import { useCopyToClipboard } from "@/src/hooks/use-copy-to-clipboard"
 
 interface LogoDownloadPanelProps {
   logoName: string // exact id e.g. "ad" or "ad_filled"
@@ -32,7 +34,7 @@ function getSvgString(size: number, color: string): string | null {
   const resolvedColor = color === "currentColor" ? "black" : color
   return svgStr.replace(/currentColor/g, resolvedColor)
 }
- 
+
 function toPascalCase(name: string): string {
   return (
     name
@@ -44,6 +46,7 @@ function toPascalCase(name: string): string {
 
 export function LogoDownloadPanel({ logoName, size, color }: LogoDownloadPanelProps) {
   const [copiedFormat, setCopiedFormat] = useState<string | null>(null)
+  const { copyToClipboard, isCopied } = useCopyToClipboard()
 
   const download = (format: "svg" | "png" | "jpg") => {
     const svgString = getSvgString(size, color)  // ← color pass karo
@@ -107,7 +110,7 @@ export function LogoDownloadPanel({ logoName, size, color }: LogoDownloadPanelPr
       return
     }
 
-    const svgString = getSvgString(size, color) 
+    const svgString = getSvgString(size, color)
     if (!svgString) return
 
     if (format === "svg") {
@@ -147,66 +150,80 @@ export function LogoDownloadPanel({ logoName, size, color }: LogoDownloadPanelPr
   }
 
   return (
-    <div className="space-y-2">
-      <div className="flex w-full flex-wrap gap-2 md:gap-0">
-        <div className="divide-primary-background/30 flex flex-1 divide-x">
-          <Button
-            variant="outline"
-            onClick={() => copy("svg")}
-            className="flex-1 justify-center"
-          >
-            {copiedFormat === "svg" ? (
-              <Check className="mr-1 opacity-60" size={16} />
-            ) : (
-              <Copy className="mr-1 opacity-60" size={16} />
-            )}
-            Copy
-          </Button>
-          <DropdownMenu>
-            <DropdownMenuTrigger asChild>
-              <Button variant="outline" size="icon" aria-label="Copy options">
-                <ChevronDownIcon size={16} />
-              </Button>
-            </DropdownMenuTrigger>
-            <DropdownMenuContent align="end" side="bottom">
-              <DropdownMenuItem onClick={() => copy("svg")}>
-                SVG {copiedFormat === "svg" && <Check className="ml-2 h-4 w-4" />}
-              </DropdownMenuItem>
-              <DropdownMenuItem onClick={() => copy("png")}>
-                PNG {copiedFormat === "png" && <Check className="ml-2 h-4 w-4" />}
-              </DropdownMenuItem>
-            </DropdownMenuContent>
-          </DropdownMenu>
-        </div>
-
-        <div className="divide-primary-foreground/30 flex flex-1 divide-x pl-2">
-          <Button onClick={() => download("svg")} className="flex-1 justify-center">
-            <Download className="mr-1 opacity-60" size={16} />
-            Download
-          </Button>
-          <DropdownMenu>
-            <DropdownMenuTrigger asChild>
-              <Button size="icon" aria-label="Download options">
-                <ChevronDownIcon size={16} />
-              </Button>
-            </DropdownMenuTrigger>
-            <DropdownMenuContent align="end" side="bottom">
-              <DropdownMenuItem onClick={() => download("svg")}>SVG</DropdownMenuItem>
-              <DropdownMenuItem onClick={() => download("png")}>PNG</DropdownMenuItem>
-              <DropdownMenuItem onClick={() => download("jpg")}>JPG</DropdownMenuItem>
-            </DropdownMenuContent>
-          </DropdownMenu>
-        </div>
+    <div className="grid gap-2 grid-cols-2 w-full">
+      <div className="divide-primary-background/30 flex flex-1 divide-x">
+        <Button
+          variant="outline"
+          onClick={() => copy("svg")}
+          className="justify-center flex-1"
+        >
+          {copiedFormat === "svg" ? (
+            <Check className="mr-1 opacity-60" size={16} />
+          ) : (
+            <Copy className="mr-1 opacity-60" size={16} />
+          )}
+          Copy
+        </Button>
+        <DropdownMenu>
+          <DropdownMenuTrigger asChild>
+            <Button variant="outline" size="icon" aria-label="Copy options">
+              <ChevronDownIcon size={16} />
+            </Button>
+          </DropdownMenuTrigger>
+          <DropdownMenuContent align="end" side="bottom">
+            <DropdownMenuItem onClick={() => copy("svg")}>
+              SVG {copiedFormat === "svg" && <Check className="ml-2 h-4 w-4" />}
+            </DropdownMenuItem>
+            <DropdownMenuItem onClick={() => copy("png")}>
+              PNG {copiedFormat === "png" && <Check className="ml-2 h-4 w-4" />}
+            </DropdownMenuItem>
+          </DropdownMenuContent>
+        </DropdownMenu>
       </div>
 
-      <Button variant="outline" onClick={() => copy("name")} className="w-full">
+      <div className="divide-primary-foreground/30 flex flex-1 divide-x">
+        <Button onClick={() => download("svg")} className="flex-1 justify-center">
+          <Download className="mr-1 opacity-60" size={16} />
+          Download
+        </Button>
+        <DropdownMenu>
+          <DropdownMenuTrigger asChild>
+            <Button size="icon" aria-label="Download options">
+              <ChevronDownIcon size={16} />
+            </Button>
+          </DropdownMenuTrigger>
+          <DropdownMenuContent align="end" side="bottom">
+            <DropdownMenuItem onClick={() => download("svg")}>SVG</DropdownMenuItem>
+            <DropdownMenuItem onClick={() => download("png")}>PNG</DropdownMenuItem>
+            <DropdownMenuItem onClick={() => download("jpg")}>JPG</DropdownMenuItem>
+          </DropdownMenuContent>
+        </DropdownMenu>
+      </div>
+
+
+
+      <Button
+        className="flex-1"
+        onClick={() => {
+          copyToClipboard(
+            `npx shadcn@latest add "https://aliimam.in/r/${logoName}.json"`
+          )
+          toast(`npx shadcn@latest add ${logoName}`)
+        }} 
+      >
+        {isCopied ? <Check /> : <Terminal />}
+        Copy Registry
+      </Button>
+
+      <Button variant="outline" onClick={() => copy("name")} className="flex-1">
         {copiedFormat === "name" ? (
           <Check className="mr-1 opacity-60" size={16} />
         ) : (
           <Copy className="mr-1 opacity-60" size={16} />
         )}
-        Copy Component Name
+        Copy Name
       </Button>
+
     </div>
   )
 }

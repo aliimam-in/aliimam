@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "rectangle9_shapes",
+  "type": "registry:ui",
+  "title": "Rectangle9",
+  "description": "Rectangle9 icon component",
+  "category": "rectangle",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/rectangle/rectangle9_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Rectangle9ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Rectangle9Shapes = React.forwardRef<SVGSVGElement, Rectangle9ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 24 24\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path d=\"M12 16.7613L4.76133 24L0 19.2387L7.23867 12L6.88028e-07 4.76133L4.76133 0L12 7.23867L19.2387 0L24 4.76133L16.7613 12L24 19.2387L19.2387 24L12 16.7613Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nRectangle9Shapes.displayName = \"Rectangle9Shapes\";\n\nexport const Rectangle9ShapesMetadata = {\n  id: \"rectangle9_shapes\",\n  baseId: \"rectangle9\",\n  variant: \"shapes\",\n  name: \"Rectangle9\",\n  category: \"rectangle\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Rectangle9Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "polygon4_shapes",
+  "type": "registry:ui",
+  "title": "Polygon4",
+  "description": "Polygon4 icon component",
+  "category": "polygon",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/polygon/polygon4_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Polygon4ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Polygon4Shapes = React.forwardRef<SVGSVGElement, Polygon4ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 24 24\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <g clipPath=\"url(#clip0_2068_489)\">\n<path d=\"M16.9564 0L23.99 7.01946L24 16.9564L16.9805 23.99L7.04355 24L0.00997986 16.9805L0 7.04355L7.01946 0.00997986L16.9564 0Z\" fill=\"currentColor\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2068_489\">\n<rect width=\"24\" height=\"24\" fill=\"currentColor\"/>\n</clipPath>\n</defs>\n    </svg>\n  )\n);\n\nPolygon4Shapes.displayName = \"Polygon4Shapes\";\n\nexport const Polygon4ShapesMetadata = {\n  id: \"polygon4_shapes\",\n  baseId: \"polygon4\",\n  variant: \"shapes\",\n  name: \"Polygon4\",\n  category: \"polygon\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Polygon4Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

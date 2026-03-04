@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "Tether",
+  "type": "registry:ui",
+  "title": "Tether",
+  "description": "Tether icon component",
+  "category": "crypto",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/crypto/Tether.tsx",
+      "content": "/**\n * Auto-generated logo component: Tether (default)\n * Category: crypto\n * Do not edit manually\n */\n\n'use client';\nimport React from 'react';\n\nexport interface TetherProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Tether = React.forwardRef<SVGSVGElement, TetherProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <g clipPath=\"url(#clip0_2062_2929)\">\n<path fillRule=\"evenodd\" clipRule=\"evenodd\" d=\"M4.3944 1.10314L0.0183571 10.3489C0.001705 10.3833 -0.00357194 10.4222 0.00329797 10.4598C0.0101679 10.4974 0.0288242 10.5318 0.0565388 10.558L11.8752 21.9495C11.9087 21.9819 11.9535 22 12 22C12.0465 22 12.0912 21.9819 12.1248 21.9495L23.9434 10.5587C23.9711 10.5325 23.9898 10.4981 23.9966 10.4605C24.0035 10.4229 23.9982 10.384 23.9816 10.3496L19.6055 1.10385C19.5914 1.0728 19.5687 1.0465 19.5401 1.02808C19.5115 1.00967 19.4783 0.999924 19.4443 1.00001H4.55702C4.52292 0.999587 4.48941 1.0091 4.46056 1.02739C4.4317 1.04569 4.40872 1.072 4.3944 1.10314Z\" fill=\"#50AF95\"/>\n<path fillRule=\"evenodd\" clipRule=\"evenodd\" d=\"M13.5184 11.2984C13.4335 11.3048 12.9951 11.3311 12.0173 11.3311C11.2395 11.3311 10.6873 11.3076 10.4935 11.2984C7.4878 11.1654 5.24427 10.6391 5.24427 10.0089C5.24427 9.3788 7.4878 8.85321 10.4935 8.71808V10.7742C10.6901 10.7884 11.2529 10.8219 12.0307 10.8219C12.964 10.8219 13.4314 10.7827 13.5155 10.7749V8.71951C16.5149 8.85392 18.7535 9.38022 18.7535 10.0089C18.7535 10.6376 16.5156 11.1639 13.5155 11.2977L13.5184 11.2984ZM13.5184 8.50685V6.66694H17.7042V3.86121H6.3077V6.66694H10.4928V8.50614C7.09113 8.66332 4.53296 9.34111 4.53296 10.1533C4.53296 10.9655 7.09113 11.6426 10.4928 11.8005V17.6964H13.5177V11.7983C16.9116 11.6412 19.4655 10.9641 19.4655 10.1526C19.4655 9.34111 16.9137 8.66403 13.5177 8.50614L13.5184 8.50685Z\" fill=\"white\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2062_2929\">\n<rect width=\"24\" height=\"21\" fill=\"white\" transform=\"translate(0 1)\"/>\n</clipPath>\n</defs>\n    </svg>\n  )\n);\n\nTether.displayName = \"Tether\";\n\nexport const TetherMetadata = {\n  id: \"Tether\",\n  baseId: \"Tether\",\n  variant: \"default\",\n  name: \"Tether\",\n  category: \"crypto\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Tether;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

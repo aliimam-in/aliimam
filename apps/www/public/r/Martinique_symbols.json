@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "Martinique_symbols",
+  "type": "registry:ui",
+  "title": "Martinique",
+  "description": "Martinique icon component",
+  "category": "flags",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/flags/Martinique_symbols.tsx",
+      "content": "/**\n * Auto-generated logo component: Martinique (symbols)\n * Category: flags\n * Do not edit manually\n */\n\n'use client';\nimport React from 'react';\n\nexport interface MartiniqueSymbolsProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const MartiniqueSymbols = React.forwardRef<SVGSVGElement, MartiniqueSymbolsProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      viewBox=\"0 0 32 32\"\n      fill=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path d=\"M1 24C1 26.2092 2.7908 28 5 28H27C29.2092 28 31 26.2092 31 24V15H1V24Z\" fill=\"#1E1918\"/>\n<path d=\"M27 4H5C2.7908 4 1 5.7908 1 8V16H31V8C31 5.7908 29.2092 4 27 4Z\" fill=\"#05A84F\"/>\n<path d=\"M2.3157 26.9473L16 15.9999L2.3157 5.05249C1.5128 5.78409 1 6.82809 1 7.99989V23.9999C1 25.1717 1.5128 26.2157 2.3157 26.9473Z\" fill=\"#F0121E\"/>\n    </svg>\n  )\n);\n\nMartiniqueSymbols.displayName = \"MartiniqueSymbols\";\n\nexport const MartiniqueSymbolsMetadata = {\n  id: \"Martinique_symbols\",\n  baseId: \"Martinique\",\n  variant: \"symbols\",\n  name: \"Martinique\",\n  category: \"flags\",\n  tags: [],\n  viewBox: \"0 0 32 32\",\n} as const;\n\nexport default MartiniqueSymbols;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

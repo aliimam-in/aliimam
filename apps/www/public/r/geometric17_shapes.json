@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "geometric17_shapes",
+  "type": "registry:ui",
+  "title": "Geometric17",
+  "description": "Geometric17 icon component",
+  "category": "geometric",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/geometric/geometric17_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Geometric17ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Geometric17Shapes = React.forwardRef<SVGSVGElement, Geometric17ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 357 357\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path d=\"M51.0768 203.316V0.6875C268.725 0.6875 310.856 237.795 304.716 356.349C304.716 222.587 135.623 198.592 51.0768 203.316Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nGeometric17Shapes.displayName = \"Geometric17Shapes\";\n\nexport const Geometric17ShapesMetadata = {\n  id: \"geometric17_shapes\",\n  baseId: \"geometric17\",\n  variant: \"shapes\",\n  name: \"Geometric17\",\n  category: \"geometric\",\n  tags: [],\n  viewBox: \"0 0 357 357\",\n} as const;\n\nexport default Geometric17Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

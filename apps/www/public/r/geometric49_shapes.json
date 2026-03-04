@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "geometric49_shapes",
+  "type": "registry:ui",
+  "title": "Geometric49",
+  "description": "Geometric49 icon component",
+  "category": "geometric",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/geometric/geometric49_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Geometric49ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Geometric49Shapes = React.forwardRef<SVGSVGElement, Geometric49ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 357 357\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path d=\"M188.722 2.02862C180.646 -0.676205 175.704 -0.676205 167.628 2.02862C147.925 8.62705 148.78 50.3847 154.868 91.5838C139.454 52.8949 119.233 16.35 98.8805 20.5326C90.5377 22.2471 86.2634 24.7277 80.6359 31.121C67.1025 46.4962 87.9989 81.3963 113.452 113.594C81.1985 88.2116 46.2526 67.3918 30.9071 80.959C24.5262 86.6005 22.055 90.8802 20.3588 99.2268C16.2492 119.45 52.3141 139.455 90.7426 154.745C49.8179 148.769 8.58214 148.06 2.02862 167.628C-0.676205 175.704 -0.676205 180.646 2.02862 188.722C8.58214 208.29 49.8179 207.58 90.7426 201.605C52.314 216.895 16.249 236.9 20.3587 257.123C22.0548 265.469 24.5261 269.749 30.907 275.391C46.2523 288.958 81.1976 268.138 113.451 242.757C87.9981 274.954 67.1021 309.853 80.6354 325.229C86.2628 331.622 90.5371 334.102 98.8799 335.817C119.233 340 139.454 303.453 154.869 264.764C148.78 305.964 147.925 347.722 167.628 354.321C175.704 357.026 180.646 357.026 188.722 354.321C208.425 347.722 207.569 305.962 201.481 264.761C216.895 303.452 237.117 340 257.47 335.817C265.813 334.102 270.087 331.622 275.715 325.229C289.248 309.853 268.352 274.954 242.9 242.757C275.152 268.138 310.098 288.958 325.443 275.391C331.824 269.749 334.295 265.469 335.991 257.123C340.101 236.9 304.036 216.895 265.608 201.605C306.532 207.58 347.767 208.29 354.321 188.722C357.026 180.646 357.026 175.704 354.321 167.628C347.767 148.06 306.532 148.769 265.608 154.745C304.036 139.455 340.101 119.45 335.991 99.2268C334.295 90.8802 331.824 86.6005 325.443 80.959C310.098 67.3918 275.152 88.2116 242.898 113.594C268.351 81.3962 289.248 46.4962 275.714 31.121C270.087 24.7277 265.812 22.2471 257.47 20.5326C237.117 16.3499 216.895 52.8964 201.481 91.5861C207.569 50.3862 208.424 8.62717 188.722 2.02862Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nGeometric49Shapes.displayName = \"Geometric49Shapes\";\n\nexport const Geometric49ShapesMetadata = {\n  id: \"geometric49_shapes\",\n  baseId: \"geometric49\",\n  variant: \"shapes\",\n  name: \"Geometric49\",\n  category: \"geometric\",\n  tags: [],\n  viewBox: \"0 0 357 357\",\n} as const;\n\nexport default Geometric49Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

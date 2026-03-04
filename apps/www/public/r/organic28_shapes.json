@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "organic28_shapes",
+  "type": "registry:ui",
+  "title": "Organic28",
+  "description": "Organic28 icon component",
+  "category": "organic",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/organic/organic28_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Organic28ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Organic28Shapes = React.forwardRef<SVGSVGElement, Organic28ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 300 300\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path fillRule=\"evenodd\" clipRule=\"evenodd\" d=\"M167.407 19.5571C135.917 17.3137 118.199 16.2604 85.8441 32.3512C23.3098 63.4534 -30.0464 176.668 30.7607 239.626C62.8795 272.879 97.518 275.14 136.784 281.067C157.492 284.195 201.303 275.413 219.918 265.776C242.092 254.297 261.677 244.241 276.514 219.153C337.593 115.866 242.27 19.5571 167.407 19.5571Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nOrganic28Shapes.displayName = \"Organic28Shapes\";\n\nexport const Organic28ShapesMetadata = {\n  id: \"organic28_shapes\",\n  baseId: \"organic28\",\n  variant: \"shapes\",\n  name: \"Organic28\",\n  category: \"organic\",\n  tags: [],\n  viewBox: \"0 0 300 300\",\n} as const;\n\nexport default Organic28Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

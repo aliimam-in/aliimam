@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "Hashnode",
+  "type": "registry:ui",
+  "title": "Hashnode",
+  "description": "Hashnode icon component",
+  "category": "social",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/social/Hashnode.tsx",
+      "content": "/**\n * Auto-generated logo component: Hashnode (default)\n * Category: social\n * Do not edit manually\n */\n\n'use client';\nimport React from 'react';\n\nexport interface HashnodeProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Hashnode = React.forwardRef<SVGSVGElement, HashnodeProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <g clipPath=\"url(#clip0_2066_1345)\">\n<path fillRule=\"evenodd\" clipRule=\"evenodd\" d=\"M1.64862 8.01985C-0.54954 10.218 -0.54954 13.7819 1.64862 15.98L8.01985 22.3513C10.218 24.5494 13.7819 24.5494 15.98 22.3512L22.3513 15.98C24.5494 13.7819 24.5494 10.218 22.3512 8.01985L15.98 1.64862C13.7819 -0.54954 10.218 -0.54954 8.01985 1.64862L1.64862 8.01985ZM11.9999 15.9413C14.1765 15.9413 15.9411 14.1768 15.9411 12.0001C15.9411 9.82345 14.1765 8.05892 11.9999 8.05892C9.82321 8.05892 8.05868 9.82345 8.05868 12.0001C8.05868 14.1768 9.82321 15.9413 11.9999 15.9413Z\" fill=\"#2563EB\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2066_1345\">\n<rect width=\"24\" height=\"24\" fill=\"white\"/>\n</clipPath>\n</defs>\n    </svg>\n  )\n);\n\nHashnode.displayName = \"Hashnode\";\n\nexport const HashnodeMetadata = {\n  id: \"Hashnode\",\n  baseId: \"Hashnode\",\n  variant: \"default\",\n  name: \"Hashnode\",\n  category: \"social\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Hashnode;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

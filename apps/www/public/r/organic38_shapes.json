@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "organic38_shapes",
+  "type": "registry:ui",
+  "title": "Organic38",
+  "description": "Organic38 icon component",
+  "category": "organic",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/organic/organic38_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Organic38ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Organic38Shapes = React.forwardRef<SVGSVGElement, Organic38ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 300 300\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path fillRule=\"evenodd\" clipRule=\"evenodd\" d=\"M104.742 288.464C80.9061 272.573 64.2817 242.537 46.0786 220.289C37.6786 210.021 14.2432 187.988 12 179.764C8.06344 165.331 16.8451 164.458 26 166.289C35.1549 168.12 66.106 195.453 78.0051 195.224C85.5023 195.08 89.5007 188.996 87.2507 178.496C86.7678 176.242 78.5122 160.153 75.4102 151.467C65.3568 123.318 51.1187 97.8542 46.0786 67.6133C44.7242 59.487 39.9434 42.8253 45.043 35.1759C53.3438 22.7248 71.0276 39.9178 74.7196 46.5638C83.2744 61.9617 92.7218 76.6594 100.255 92.8041C104.592 102.096 106.687 112.223 111.298 121.446C113.893 126.635 119.973 142.94 128.552 140.08C129.85 139.647 129.169 137.443 128.897 136.629C125.725 127.111 125.856 107.291 123.751 97.2899C120.961 58.9961 117.751 50.9961 120.961 28.2745C122.571 22.2344 127.006 7.74084 134.763 6.18936C148.109 3.52048 151.304 17.4598 153.398 27.9294C158.899 55.4363 158.312 84.4858 160.644 112.474C160.992 116.639 161.457 142.52 166.511 143.531C172.299 144.688 173.611 120.272 174.447 115.924C180.08 86.6355 187.263 55.8237 202.054 29.6545C204.495 25.3362 214.926 2.79093 223.104 6.8794C234.58 12.6178 235.104 33.3746 233.801 43.8031C230.587 69.517 219.907 93.9505 214.822 119.375C213.38 126.582 209.621 141.251 214.132 148.017C219.574 156.18 226.256 139.294 228.625 135.939C237.632 123.179 246.683 107.414 258.647 97.2899C263.862 92.8776 268.606 86.1007 275.556 90.7334C286.267 97.8748 275.865 124.623 271.76 132.833C256.31 163.732 234.58 190.971 224.484 224.624C220.093 239.26 212.419 269.198 199.983 279.147C175.035 299.104 132.666 307.08 104.742 288.464Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nOrganic38Shapes.displayName = \"Organic38Shapes\";\n\nexport const Organic38ShapesMetadata = {\n  id: \"organic38_shapes\",\n  baseId: \"organic38\",\n  variant: \"shapes\",\n  name: \"Organic38\",\n  category: \"organic\",\n  tags: [],\n  viewBox: \"0 0 300 300\",\n} as const;\n\nexport default Organic38Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "google-tag-manager",
+  "type": "registry:ui",
+  "title": "Google Tag Manager",
+  "description": "Google Tag Manager icon component",
+  "category": "google",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/google/google-tag-manager.tsx",
+      "content": "/**\n * Auto-generated logo component: Google Tag Manager (default)\n * Category: google\n * Do not edit manually\n */\n\n'use client';\nimport React from 'react';\n\nexport interface GoogleTagManagerProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const GoogleTagManager = React.forwardRef<SVGSVGElement, GoogleTagManagerProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      viewBox=\"0 0 256 256\"\n      fill=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <g>\n        <polygon fill=\"#8AB4F8\" points=\"150.261818 245.516364 105.825455 202.185455 201.258182 104.730909 247.265455 149.821818\"></polygon>\n        <path d=\"M150.450909,53.9381818 L106.174545,8.73090909 L9.36,104.629091 C-3.12,117.109091 -3.12,137.341818 9.36,149.836364 L104.72,245.821818 L149.810909,203.64 L77.1563636,127.232727 L150.450909,53.9381818 Z\" fill=\"#4285F4\"></path>\n        <path d=\"M246.625455,105.370909 L150.625455,9.37090909 C138.130909,-3.12363636 117.869091,-3.12363636 105.374545,9.37090909 C92.88,21.8654545 92.88,42.1272727 105.374545,54.6218182 L201.374545,150.621818 C213.869091,163.116364 234.130909,163.116364 246.625455,150.621818 C259.12,138.127273 259.12,117.865455 246.625455,105.370909 Z\" fill=\"#8AB4F8\"></path>\n        <circle fill=\"#246FDB\" cx=\"127.265455\" cy=\"224.730909\" r=\"31.2727273\"></circle>\n    </g>\n    </svg>\n  )\n);\n\nGoogleTagManager.displayName = \"GoogleTagManager\";\n\nexport const GoogleTagManagerMetadata = {\n  id: \"google-tag-manager\",\n  baseId: \"google-tag-manager\",\n  variant: \"default\",\n  name: \"Google Tag Manager\",\n  category: \"google\",\n  tags: [],\n  viewBox: \"0 0 256 256\",\n} as const;\n\nexport default GoogleTagManager;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

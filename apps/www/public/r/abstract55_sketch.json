@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "abstract55_sketch",
+  "type": "registry:ui",
+  "title": "Abstract55",
+  "description": "Abstract55 icon component",
+  "category": "abstract",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/abstract/abstract55_sketch.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Abstract55SketchProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Abstract55Sketch = React.forwardRef<SVGSVGElement, Abstract55SketchProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 446 446\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path fillRule=\"evenodd\" clipRule=\"evenodd\" d=\"M271.298 226.426C265.171 221.19 260.047 220.522 254.254 223.976C251.469 225.647 249.018 226.872 248.684 226.872C248.015 226.872 234.09 201.694 227.406 188.772C221.724 177.52 213.592 171.838 208.245 175.403C204.123 178.077 171.816 258.732 171.816 258.732C171.148 261.072 171.816 263.634 173.487 265.416C182.399 274.997 190.755 273.55 227.295 256.283C244.785 248.039 245.008 247.927 246.567 250.267C248.684 253.275 253.808 255.947 257.485 255.947C260.827 255.947 261.049 254.277 258.71 248.484C256.259 242.58 256.371 242.356 265.951 237.232C275.643 231.773 276.2 230.548 271.298 226.426ZM232.642 235.338C225.623 238.234 205.46 248.373 193.428 253.498C204.011 225.313 207.576 217.403 216.934 197.351C220.053 203.366 221.167 205.483 227.295 216.289C238.101 235.339 237.544 233.333 232.642 235.338Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nAbstract55Sketch.displayName = \"Abstract55Sketch\";\n\nexport const Abstract55SketchMetadata = {\n  id: \"abstract55_sketch\",\n  baseId: \"abstract55\",\n  variant: \"sketch\",\n  name: \"Abstract55\",\n  category: \"abstract\",\n  tags: [],\n  viewBox: \"0 0 446 446\",\n} as const;\n\nexport default Abstract55Sketch;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

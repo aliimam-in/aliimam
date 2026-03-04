@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "Benin_symbols",
+  "type": "registry:ui",
+  "title": "Benin",
+  "description": "Benin icon component",
+  "category": "flags",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/flags/Benin_symbols.tsx",
+      "content": "/**\n * Auto-generated logo component: Benin (symbols)\n * Category: flags\n * Do not edit manually\n */\n\n'use client';\nimport React from 'react';\n\nexport interface BeninSymbolsProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const BeninSymbols = React.forwardRef<SVGSVGElement, BeninSymbolsProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      viewBox=\"0 0 32 32\"\n      fill=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path d=\"M1 24C1 26.209 2.791 28 5 28H27C29.209 28 31 26.209 31 24V15H1V24Z\" fill=\"#D63034\"/>\n<path d=\"M27 4H5C2.791 4 1 5.791 1 8V16H31V8C31 5.791 29.209 4 27 4Z\" fill=\"#F6D44A\"/>\n<path d=\"M5 4H13V28H5C2.792 28 1 26.208 1 24V8C1 5.792 2.792 4 5 4Z\" fill=\"#3B8655\"/>\n    </svg>\n  )\n);\n\nBeninSymbols.displayName = \"BeninSymbols\";\n\nexport const BeninSymbolsMetadata = {\n  id: \"Benin_symbols\",\n  baseId: \"Benin\",\n  variant: \"symbols\",\n  name: \"Benin\",\n  category: \"flags\",\n  tags: [],\n  viewBox: \"0 0 32 32\",\n} as const;\n\nexport default BeninSymbols;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

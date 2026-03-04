@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "arrows30_sketch",
+  "type": "registry:ui",
+  "title": "Arrows30",
+  "description": "Arrows30 icon component",
+  "category": "arrows",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/arrows/arrows30_sketch.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Arrows30SketchProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Arrows30Sketch = React.forwardRef<SVGSVGElement, Arrows30SketchProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 500 500\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path fillRule=\"evenodd\" clipRule=\"evenodd\" d=\"M83.7705 211.495C71.5205 231.87 49.2712 255.87 28.2712 271.62C4.89621 289.12 28.396 292.87 57.396 289.87C77.146 287.87 101.021 288.245 130.396 291.37C138.646 292.245 139.021 290.12 132.646 280.745C116.771 257.62 116.77 259.87 132.52 258.745C145.895 257.745 172.52 260.37 222.52 267.62C239.145 269.995 292.896 277.245 305.271 278.87C362.521 286.745 423.896 278.495 464.521 257.37C496.271 240.87 478.396 226.87 452.271 239.87C420.646 255.745 379.396 264.37 335.146 264.37C318.396 264.37 303.521 262.62 221.396 251.245C135.271 239.245 134.77 240.62 111.271 242.12C109.146 237.745 100.646 219.495 99.1465 215.745C96.1465 207.87 87.3955 205.495 83.7705 211.495Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nArrows30Sketch.displayName = \"Arrows30Sketch\";\n\nexport const Arrows30SketchMetadata = {\n  id: \"arrows30_sketch\",\n  baseId: \"arrows30\",\n  variant: \"sketch\",\n  name: \"Arrows30\",\n  category: \"arrows\",\n  tags: [],\n  viewBox: \"0 0 500 500\",\n} as const;\n\nexport default Arrows30Sketch;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

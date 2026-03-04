@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "moon12_shapes",
+  "type": "registry:ui",
+  "title": "Moon12",
+  "description": "Moon12 icon component",
+  "category": "moon",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/moon/moon12_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Moon12ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Moon12Shapes = React.forwardRef<SVGSVGElement, Moon12ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 24 24\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path fillRule=\"evenodd\" clipRule=\"evenodd\" d=\"M12.0607 12.2291C12.9291 15.0835 15.5823 17.1605 18.7205 17.1605C20.5427 17.1605 22.2013 16.4602 23.442 15.3142C23.5786 15.188 23.8041 15.2464 23.8431 15.4282C23.9463 15.9093 24.0006 16.4085 24.0006 16.9204C24.0006 20.8307 20.8307 24.0006 16.9205 24.0006C13.0102 24.0006 9.84031 20.8307 9.84031 16.9204C9.84031 15.0389 10.5743 13.3287 11.7715 12.0607C8.91716 12.9291 6.84019 15.5823 6.84019 18.7205C6.84019 20.5427 7.5404 22.2013 8.68643 23.442C8.8126 23.5786 8.75426 23.8041 8.57246 23.8431C8.09137 23.9463 7.59213 24.0006 7.08021 24.0006C3.16994 24.0006 4.21141e-05 20.8307 4.17723e-05 16.9205C4.14304e-05 13.0102 3.16994 9.84031 7.08021 9.84031C8.96177 9.84031 10.6719 10.5743 11.94 11.7715C11.0715 8.91716 8.41837 6.84019 5.28012 6.84019C3.45796 6.84019 1.79934 7.5404 0.558665 8.68643C0.42208 8.8126 0.196542 8.75426 0.15754 8.57246C0.0543305 8.09137 0 7.59213 0 7.08021C-3.96479e-07 3.16994 3.1699 4.17386e-05 7.08017 4.15677e-05C10.9904 4.13968e-05 14.1603 3.16994 14.1603 7.08021C14.1603 8.96178 13.4264 10.6719 12.2291 11.94C15.0835 11.0715 17.1605 8.41837 17.1605 5.28012C17.1605 3.45796 16.4602 1.79934 15.3142 0.558665C15.188 0.42208 15.2464 0.196542 15.4282 0.15754C15.9093 0.0543306 16.4085 0 16.9204 0C20.8307 0 24.0006 3.1699 24.0006 7.08017C24.0006 10.9904 20.8307 14.1603 16.9204 14.1603C15.0389 14.1603 13.3287 13.4264 12.0607 12.2291Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nMoon12Shapes.displayName = \"Moon12Shapes\";\n\nexport const Moon12ShapesMetadata = {\n  id: \"moon12_shapes\",\n  baseId: \"moon12\",\n  variant: \"shapes\",\n  name: \"Moon12\",\n  category: \"moon\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Moon12Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

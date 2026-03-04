@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "abstract139_shapes",
+  "type": "registry:ui",
+  "title": "Abstract139",
+  "description": "Abstract139 icon component",
+  "category": "abstract",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/abstract/abstract139_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Abstract139ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Abstract139Shapes = React.forwardRef<SVGSVGElement, Abstract139ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 20 24\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path d=\"M10 0L10.3746 9.70204C10.4018 10.4069 11.1273 10.8416 11.7291 10.5146L20 6L12.1018 11.1874C11.5273 11.5653 11.5273 12.4347 12.1018 12.8126L20 18L11.7291 13.4854C11.1273 13.1584 10.4018 13.5931 10.3746 14.298L10 24L9.62544 14.298C9.59817 13.5931 8.87273 13.1584 8.27091 13.4854L0 18L7.89817 12.8126C8.47272 12.4347 8.47272 11.5653 7.89817 11.1874L0 6L8.27091 10.5146C8.87273 10.8416 9.59817 10.4069 9.62544 9.70204L10 0Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nAbstract139Shapes.displayName = \"Abstract139Shapes\";\n\nexport const Abstract139ShapesMetadata = {\n  id: \"abstract139_shapes\",\n  baseId: \"abstract139\",\n  variant: \"shapes\",\n  name: \"Abstract139\",\n  category: \"abstract\",\n  tags: [],\n  viewBox: \"0 0 20 24\",\n} as const;\n\nexport default Abstract139Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

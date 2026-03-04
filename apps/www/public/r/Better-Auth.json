@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "Better-Auth",
+  "type": "registry:ui",
+  "title": "Better Auth",
+  "description": "Better Auth icon component",
+  "category": "library",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/library/Better-Auth.tsx",
+      "content": "/**\n * Auto-generated logo component: Better Auth (default)\n * Category: library\n * Do not edit manually\n */\n\n'use client';\nimport React from 'react';\n\nexport interface BetterAuthProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const BetterAuth = React.forwardRef<SVGSVGElement, BetterAuthProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <g clipPath=\"url(#clip0_2066_924)\">\n<path d=\"M0 0H24V24H0V0Z\" fill=\"currentColor\"/>\n<path d=\"M3.31201 5.80798H7.48744V18.24H3.31201V5.80798ZM16.2036 5.80798H20.64V18.24H16.2036V5.80798Z\" fill=\"white\"/>\n<path d=\"M20.5095 5.80798V9.81387H12.1326V5.80798H20.5095ZM20.64 14.2341V18.24H12.1326V14.2341H20.64Z\" fill=\"white\"/>\n<path d=\"M12.1325 9.81384V14.2341H7.4873V9.81384H12.1325Z\" fill=\"white\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2066_924\">\n<rect width=\"24\" height=\"24\" fill=\"white\"/>\n</clipPath>\n</defs>\n    </svg>\n  )\n);\n\nBetterAuth.displayName = \"BetterAuth\";\n\nexport const BetterAuthMetadata = {\n  id: \"Better-Auth\",\n  baseId: \"Better-Auth\",\n  variant: \"default\",\n  name: \"Better Auth\",\n  category: \"library\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default BetterAuth;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

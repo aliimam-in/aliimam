@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "wheel6_shapes",
+  "type": "registry:ui",
+  "title": "Wheel6",
+  "description": "Wheel6 icon component",
+  "category": "wheel",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/wheel/wheel6_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Wheel6ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Wheel6Shapes = React.forwardRef<SVGSVGElement, Wheel6ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 24 24\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path d=\"M9.10356 13.2H0V10.8H9.10239L4.30264 6L5.99965 4.30291L10.8 9.10349V0H13.2V9.10336L18.0002 4.3029L19.6972 6L14.8975 10.8H24V13.2H14.8963L19.6972 18.0012L18.0002 19.6983L13.2 14.8978V24H10.8V14.8977L5.99965 19.6983L4.30263 18.0012L9.10356 13.2Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nWheel6Shapes.displayName = \"Wheel6Shapes\";\n\nexport const Wheel6ShapesMetadata = {\n  id: \"wheel6_shapes\",\n  baseId: \"wheel6\",\n  variant: \"shapes\",\n  name: \"Wheel6\",\n  category: \"wheel\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Wheel6Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

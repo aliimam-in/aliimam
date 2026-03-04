@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "Vercel",
+  "type": "registry:ui",
+  "title": "Vercel",
+  "description": "Vercel icon component",
+  "category": "software",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/software/Vercel.tsx",
+      "content": "/**\n * Auto-generated logo component: Vercel (default)\n * Category: software\n * Do not edit manually\n */\n\n'use client';\nimport React from 'react';\n\nexport interface VercelProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Vercel = React.forwardRef<SVGSVGElement, VercelProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path d=\"M12 2L24 22.9721H0L12 2Z\"  fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nVercel.displayName = \"Vercel\";\n\nexport const VercelMetadata = {\n  id: \"Vercel\",\n  baseId: \"Vercel\",\n  variant: \"default\",\n  name: \"Vercel\",\n  category: \"software\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Vercel;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ellipse8_shapes",
+  "type": "registry:ui",
+  "title": "Ellipse8",
+  "description": "Ellipse8 icon component",
+  "category": "ellipse",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/ellipse/ellipse8_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Ellipse8ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Ellipse8Shapes = React.forwardRef<SVGSVGElement, Ellipse8ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 24 24\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path d=\"M16.68 4.68C16.68 7.26469 14.5847 9.36 12 9.36C9.41531 9.36 7.32 7.26469 7.32 4.68C7.32 2.09531 9.41531 0 12 0C14.5847 0 16.68 2.09531 16.68 4.68Z\" fill=\"currentColor\"/>\n<path d=\"M16.68 19.32C16.68 21.9047 14.5847 24 12 24C9.41531 24 7.32 21.9047 7.32 19.32C7.32 16.7353 9.41531 14.64 12 14.64C14.5847 14.64 16.68 16.7353 16.68 19.32Z\" fill=\"currentColor\"/>\n<path d=\"M19.32 16.68C16.7353 16.68 14.64 14.5847 14.64 12C14.64 9.41531 16.7353 7.32 19.32 7.32C21.9047 7.32 24 9.41531 24 12C24 14.5847 21.9047 16.68 19.32 16.68Z\" fill=\"currentColor\"/>\n<path d=\"M4.68 16.68C2.09531 16.68 -1.1298e-07 14.5847 0 12C1.1298e-07 9.41531 2.09531 7.32 4.68 7.32C7.26469 7.32 9.36 9.41531 9.36 12C9.36 14.5847 7.26469 16.68 4.68 16.68Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nEllipse8Shapes.displayName = \"Ellipse8Shapes\";\n\nexport const Ellipse8ShapesMetadata = {\n  id: \"ellipse8_shapes\",\n  baseId: \"ellipse8\",\n  variant: \"shapes\",\n  name: \"Ellipse8\",\n  category: \"ellipse\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Ellipse8Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "number3_shapes",
+  "type": "registry:ui",
+  "title": "Number3",
+  "description": "Number3 icon component",
+  "category": "number",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/number/number3_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Number3ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Number3Shapes = React.forwardRef<SVGSVGElement, Number3ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 24 24\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <g clipPath=\"url(#clip0_2068_919)\">\n<path d=\"M16 2.91409e-07C20.4183 6.411e-07 24 3.22355 24 7.2V8.4C24 12.3755 20.4201 15.5984 16.0033 15.6H24V24H0L3.8147e-07 15.6C3.8147e-07 11.625 3.57918 8.40229 7.99529 8.4H0C2.54313e-07 3.76081 4.17868 -2.25317e-07 9.33333 0L16 2.91409e-07Z\" fill=\"currentColor\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2068_919\">\n<rect width=\"24\" height=\"24\" fill=\"currentColor\"/>\n</clipPath>\n</defs>\n    </svg>\n  )\n);\n\nNumber3Shapes.displayName = \"Number3Shapes\";\n\nexport const Number3ShapesMetadata = {\n  id: \"number3_shapes\",\n  baseId: \"number3\",\n  variant: \"shapes\",\n  name: \"Number3\",\n  category: \"number\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Number3Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

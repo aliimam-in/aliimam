@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "Germany_symbols",
+  "type": "registry:ui",
+  "title": "Germany",
+  "description": "Germany icon component",
+  "category": "flags",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/flags/Germany_symbols.tsx",
+      "content": "/**\n * Auto-generated logo component: Germany (symbols)\n * Category: flags\n * Do not edit manually\n */\n\n'use client';\nimport React from 'react';\n\nexport interface GermanySymbolsProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const GermanySymbols = React.forwardRef<SVGSVGElement, GermanySymbolsProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      viewBox=\"0 0 32 32\"\n      fill=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path d=\"M1 11H31V21H1V11Z\" fill=\"#CC2B1D\"/>\n<path d=\"M5 4H27C29.208 4 31 5.792 31 8V12H1V8C1 5.792 2.792 4 5 4Z\" fill=\"currentColor\"/>\n<path d=\"M27 28L5 28C2.792 28 1 26.208 1 24V20L31 20V24C31 26.208 29.208 28 27 28Z\" fill=\"#F8D147\"/>\n    </svg>\n  )\n);\n\nGermanySymbols.displayName = \"GermanySymbols\";\n\nexport const GermanySymbolsMetadata = {\n  id: \"Germany_symbols\",\n  baseId: \"Germany\",\n  variant: \"symbols\",\n  name: \"Germany\",\n  category: \"flags\",\n  tags: [],\n  viewBox: \"0 0 32 32\",\n} as const;\n\nexport default GermanySymbols;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

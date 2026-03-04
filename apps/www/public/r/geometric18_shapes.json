@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "geometric18_shapes",
+  "type": "registry:ui",
+  "title": "Geometric18",
+  "description": "Geometric18 icon component",
+  "category": "geometric",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/geometric/geometric18_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Geometric18ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Geometric18Shapes = React.forwardRef<SVGSVGElement, Geometric18ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 357 357\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path d=\"M0 356.35H89.0874L0 0V356.35Z\" fill=\"currentColor\"/>\n<path d=\"M178.175 356.35H267.262L178.175 0V356.35Z\" fill=\"currentColor\"/>\n<path d=\"M89.0874 356.35H178.175L89.0874 0V356.35Z\" fill=\"currentColor\"/>\n<path d=\"M267.262 356.35H356.35L267.262 0V356.35Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nGeometric18Shapes.displayName = \"Geometric18Shapes\";\n\nexport const Geometric18ShapesMetadata = {\n  id: \"geometric18_shapes\",\n  baseId: \"geometric18\",\n  variant: \"shapes\",\n  name: \"Geometric18\",\n  category: \"geometric\",\n  tags: [],\n  viewBox: \"0 0 357 357\",\n} as const;\n\nexport default Geometric18Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

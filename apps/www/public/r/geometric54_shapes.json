@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "geometric54_shapes",
+  "type": "registry:ui",
+  "title": "Geometric54",
+  "description": "Geometric54 icon component",
+  "category": "geometric",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/geometric/geometric54_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Geometric54ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Geometric54Shapes = React.forwardRef<SVGSVGElement, Geometric54ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 357 357\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path d=\"M141.973 85.5467C106.123 54.7088 52.0555 58.7967 21.2492 94.6744C-9.51897 130.507 -5.43725 184.493 30.3688 215.293L176.233 340.762L177.378 342.095L177.581 341.921L177.783 342.095L178.928 340.762L324.793 215.293C360.599 184.493 364.681 130.507 333.912 94.6744C303.106 58.7967 249.039 54.7088 213.188 85.5467L177.581 116.175L141.973 85.5467Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nGeometric54Shapes.displayName = \"Geometric54Shapes\";\n\nexport const Geometric54ShapesMetadata = {\n  id: \"geometric54_shapes\",\n  baseId: \"geometric54\",\n  variant: \"shapes\",\n  name: \"Geometric54\",\n  category: \"geometric\",\n  tags: [],\n  viewBox: \"0 0 357 357\",\n} as const;\n\nexport default Geometric54Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

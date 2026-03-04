@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "abstract72_shapes",
+  "type": "registry:ui",
+  "title": "Abstract72",
+  "description": "Abstract72 icon component",
+  "category": "abstract",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/abstract/abstract72_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Abstract72ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Abstract72Shapes = React.forwardRef<SVGSVGElement, Abstract72ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 24 21\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path d=\"M17.1309 20.9982V20.9769H18.9308C21.5863 20.9769 22.2227 19.4004 20.3446 17.4751L16.7049 13.7402C14.1259 11.0961 12.0183 11.9911 12.0183 15.7331L11.9782 21V15.7331C11.9782 11.9929 9.86884 11.0961 7.29163 13.7402L3.65191 17.4751C1.77378 19.4021 2.41026 20.9769 5.06572 20.9769H6.86733V20.9982H0.0017407L12.0009 8.68683L24 20.9982H17.1344H17.1309ZM18.9325 0.0213514H17.1327V0H23.9983L11.9991 12.3114L0 0H6.86559V0.0213514H5.06398C2.40852 0.0213514 1.77204 1.59608 3.65017 3.52313L7.28991 7.258C9.86712 9.90391 11.9765 9.00711 11.9765 5.2669V0L12.0165 5.2669C12.0165 9.00711 14.1259 9.90391 16.7031 7.258L20.3429 3.52313C22.221 1.59608 21.5845 0.0213514 18.9291 0.0213514H18.9325Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nAbstract72Shapes.displayName = \"Abstract72Shapes\";\n\nexport const Abstract72ShapesMetadata = {\n  id: \"abstract72_shapes\",\n  baseId: \"abstract72\",\n  variant: \"shapes\",\n  name: \"Abstract72\",\n  category: \"abstract\",\n  tags: [],\n  viewBox: \"0 0 24 21\",\n} as const;\n\nexport default Abstract72Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

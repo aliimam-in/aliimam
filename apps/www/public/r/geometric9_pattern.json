@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "geometric9_pattern",
+  "type": "registry:ui",
+  "title": "Geometric9",
+  "description": "Geometric9 icon component",
+  "category": "geometric",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/geometric/geometric9_pattern.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Geometric9PatternProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Geometric9Pattern = React.forwardRef<SVGSVGElement, Geometric9PatternProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 500 500\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path d=\"M250 0V8.14941H0V0H250Z\" fill=\"currentColor\"/>\n<path d=\"M0 41.4482V24.7988H250V41.4482H0Z\" fill=\"currentColor\"/>\n<path d=\"M0 74.7471V58.0977H250V74.7471H0Z\" fill=\"currentColor\"/>\n<path d=\"M0 108.046V91.3965H250V108.046H0Z\" fill=\"currentColor\"/>\n<path d=\"M0 141.345V124.695H250V141.345H0Z\" fill=\"currentColor\"/>\n<path d=\"M0 174.644V157.994H250V174.644H0Z\" fill=\"currentColor\"/>\n<path d=\"M0 207.942V191.293H250V207.942H0Z\" fill=\"currentColor\"/>\n<path d=\"M0 241.241V224.592H250V241.241H0Z\" fill=\"currentColor\"/>\n<path d=\"M0 274.54V257.891H250V274.54H0Z\" fill=\"currentColor\"/>\n<path d=\"M0 307.839V291.189H250V307.839H0Z\" fill=\"currentColor\"/>\n<path d=\"M0 341.138V324.488H250V341.138H0Z\" fill=\"currentColor\"/>\n<path d=\"M0 374.436V357.787H250V374.436H0Z\" fill=\"currentColor\"/>\n<path d=\"M0 407.735V391.086H250V407.735H0Z\" fill=\"currentColor\"/>\n<path d=\"M0 441.034V424.385H250V441.034H0Z\" fill=\"currentColor\"/>\n<path d=\"M0 474.333V457.683H250V474.333H0Z\" fill=\"currentColor\"/>\n<path d=\"M250 500H0V491.5H250V500Z\" fill=\"currentColor\"/>\n<path d=\"M500 474.333V490.982H250V474.333H500Z\" fill=\"currentColor\"/>\n<path d=\"M500 441.034V457.683H250V441.034H500Z\" fill=\"currentColor\"/>\n<path d=\"M500 407.735V424.385H250V407.735H500Z\" fill=\"currentColor\"/>\n<path d=\"M500 374.436V391.086H250V374.436H500Z\" fill=\"currentColor\"/>\n<path d=\"M500 341.138V357.787H250V341.138H500Z\" fill=\"currentColor\"/>\n<path d=\"M500 307.839V324.488H250V307.839H500Z\" fill=\"currentColor\"/>\n<path d=\"M500 274.54V291.189H250V274.54H500Z\" fill=\"currentColor\"/>\n<path d=\"M500 241.241V257.891H250V241.241H500Z\" fill=\"currentColor\"/>\n<path d=\"M500 207.942V224.592H250V207.942H500Z\" fill=\"currentColor\"/>\n<path d=\"M500 174.644V191.293H250V174.644H500Z\" fill=\"currentColor\"/>\n<path d=\"M500 141.345V157.994H250V141.345H500Z\" fill=\"currentColor\"/>\n<path d=\"M500 108.046V124.695H250V108.046H500Z\" fill=\"currentColor\"/>\n<path d=\"M500 74.7471V91.3965H250V74.7471H500Z\" fill=\"currentColor\"/>\n<path d=\"M500 41.4482V58.0977H250V41.4482H500Z\" fill=\"currentColor\"/>\n<path d=\"M500 8.14941V24.7988H250V8.14941H500Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nGeometric9Pattern.displayName = \"Geometric9Pattern\";\n\nexport const Geometric9PatternMetadata = {\n  id: \"geometric9_pattern\",\n  baseId: \"geometric9\",\n  variant: \"pattern\",\n  name: \"Geometric9\",\n  category: \"geometric\",\n  tags: [],\n  viewBox: \"0 0 500 500\",\n} as const;\n\nexport default Geometric9Pattern;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

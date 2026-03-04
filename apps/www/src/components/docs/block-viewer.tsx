@@ -197,7 +197,7 @@ function BlockViewerToolbar() {
           size="icon-sm"
           onClick={() => {
             copyToClipboard(
-              `npx shadcn@latest add "https://ui.aliimam.io/r/${item.name}.json"`
+              `npx shadcn@latest add "https://aliimam.in/r/${item.name}.json"`
             )
           }}
         >

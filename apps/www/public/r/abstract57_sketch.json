@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "abstract57_sketch",
+  "type": "registry:ui",
+  "title": "Abstract57",
+  "description": "Abstract57 icon component",
+  "category": "abstract",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/abstract/abstract57_sketch.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Abstract57SketchProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Abstract57Sketch = React.forwardRef<SVGSVGElement, Abstract57SketchProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 446 446\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path d=\"M44.4851 187.132C82.9696 161.61 136.443 155.737 211.185 169.106C278.836 181.056 354.793 174.574 389.024 153.711C412.722 139.33 383.553 133.254 346.284 144.8C303.343 158.168 258.985 159.586 201.866 149.256C119.226 134.47 45.0929 143.584 11.8748 172.751C-5.74708 187.942 23.6224 200.905 44.4851 187.132Z\" fill=\"currentColor\"/>\n<path d=\"M396.111 248.91C323.193 284.154 279.239 272.203 205.106 251.746C148.595 236.149 47.9279 253.569 14.5071 284.964C-5.74792 304.003 13.6971 316.562 39.0159 299.547C90.0585 265.519 166.623 256.404 236.704 275.849C311.445 296.712 359.044 294.484 418.796 267.139C464.573 246.277 428.721 233.111 396.111 248.91Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nAbstract57Sketch.displayName = \"Abstract57Sketch\";\n\nexport const Abstract57SketchMetadata = {\n  id: \"abstract57_sketch\",\n  baseId: \"abstract57\",\n  variant: \"sketch\",\n  name: \"Abstract57\",\n  category: \"abstract\",\n  tags: [],\n  viewBox: \"0 0 446 446\",\n} as const;\n\nexport default Abstract57Sketch;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

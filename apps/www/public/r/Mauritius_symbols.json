@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "Mauritius_symbols",
+  "type": "registry:ui",
+  "title": "Mauritius",
+  "description": "Mauritius icon component",
+  "category": "flags",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/flags/Mauritius_symbols.tsx",
+      "content": "/**\n * Auto-generated logo component: Mauritius (symbols)\n * Category: flags\n * Do not edit manually\n */\n\n'use client';\nimport React from 'react';\n\nexport interface MauritiusSymbolsProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const MauritiusSymbols = React.forwardRef<SVGSVGElement, MauritiusSymbolsProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      viewBox=\"0 0 32 32\"\n      fill=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path d=\"M1 24C1 26.209 2.791 28 5 28H27C29.209 28 31 26.209 31 24V21H1V24Z\" fill=\"#4AA459\"/>\n<path d=\"M1 15H31V22H1V15Z\" fill=\"#F8D849\"/>\n<path d=\"M27 4H5C2.791 4 1 5.791 1 8V11H31V8C31 5.791 29.209 4 27 4Z\" fill=\"#D83B3F\"/>\n<path d=\"M1 10H31V16H1V10Z\" fill=\"#151A69\"/>\n    </svg>\n  )\n);\n\nMauritiusSymbols.displayName = \"MauritiusSymbols\";\n\nexport const MauritiusSymbolsMetadata = {\n  id: \"Mauritius_symbols\",\n  baseId: \"Mauritius\",\n  variant: \"symbols\",\n  name: \"Mauritius\",\n  category: \"flags\",\n  tags: [],\n  viewBox: \"0 0 32 32\",\n} as const;\n\nexport default MauritiusSymbols;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

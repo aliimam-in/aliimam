@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "abstract69_sketch",
+  "type": "registry:ui",
+  "title": "Abstract69",
+  "description": "Abstract69 icon component",
+  "category": "abstract",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/abstract/abstract69_sketch.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Abstract69SketchProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Abstract69Sketch = React.forwardRef<SVGSVGElement, Abstract69SketchProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 446 446\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path fillRule=\"evenodd\" clipRule=\"evenodd\" d=\"M191.09 114.254C142.853 122.61 115.448 181.765 145.972 211.509C151.097 216.522 151.32 216.857 150.317 220.644C144.635 242.702 164.354 273.115 191.09 283.475C195.881 285.369 196.104 285.704 197.441 291.719C209.361 346.084 289.46 345.416 311.629 290.828C318.201 274.564 300.043 269.773 291.353 287.82C270.632 331.045 225.068 334.163 216.825 292.944L216.268 290.048L227.519 289.491C256.707 288.043 275.757 264.425 258.266 251.168C237.88 235.683 203.345 247.493 198.109 271.89C197.218 276.123 197.218 276.123 190.311 270.776C175.16 259.301 160.009 223.095 171.818 226.66C212.814 239.025 254.367 205.939 219.944 188.338C203.79 180.094 181.064 184.438 164.354 199.032C157.447 205.048 156.89 204.714 153.548 193.685C144.413 163.606 172.932 124.392 206.798 120.493C221.726 118.822 207.021 111.469 191.09 114.254ZM210.92 195.022C222.283 201.149 199.112 222.315 183.404 220.198C171.706 218.639 171.149 217.19 179.17 208.501C189.197 197.695 204.125 191.345 210.92 195.022ZM242.893 254.622C250.58 259.97 239.328 275.232 224.846 279.131C216.045 281.47 215.599 281.136 218.05 274.563C223.063 261.64 236.988 250.389 242.893 254.622Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nAbstract69Sketch.displayName = \"Abstract69Sketch\";\n\nexport const Abstract69SketchMetadata = {\n  id: \"abstract69_sketch\",\n  baseId: \"abstract69\",\n  variant: \"sketch\",\n  name: \"Abstract69\",\n  category: \"abstract\",\n  tags: [],\n  viewBox: \"0 0 446 446\",\n} as const;\n\nexport default Abstract69Sketch;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

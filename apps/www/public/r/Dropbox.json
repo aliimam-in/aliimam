@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "Dropbox",
+  "type": "registry:ui",
+  "title": "Dropbox",
+  "description": "Dropbox icon component",
+  "category": "software",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/software/Dropbox.tsx",
+      "content": "/**\n * Auto-generated logo component: Dropbox (default)\n * Category: software\n * Do not edit manually\n */\n\n'use client';\nimport React from 'react';\n\nexport interface DropboxProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Dropbox = React.forwardRef<SVGSVGElement, DropboxProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <g clipPath=\"url(#clip0_2039_487)\">\n<path d=\"M0 0H24V24H0V0Z\" fill=\"#0061FE\"/>\n<path d=\"M8.19381 6L4.38831 8.39062L8.19399 10.7812L12.0001 8.39062L15.8063 10.7812L19.6122 8.39062L15.8061 6L12.0004 8.39062L8.19381 6ZM8.19381 15.5625L4.38831 13.1719L8.19399 10.7812L12.0001 13.1719L8.19418 15.5625H8.19381ZM12.0004 13.1719L15.8063 10.7812L19.612 13.1719L15.8061 15.5625L12.0004 13.1719ZM12.0004 18.75L8.19381 16.3594L12.0001 13.9688L15.8063 16.3594L12.0004 18.75Z\" fill=\"#F7F5F2\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2039_487\">\n<rect width=\"24\" height=\"24\" fill=\"white\"/>\n</clipPath>\n</defs>\n    </svg>\n  )\n);\n\nDropbox.displayName = \"Dropbox\";\n\nexport const DropboxMetadata = {\n  id: \"Dropbox\",\n  baseId: \"Dropbox\",\n  variant: \"default\",\n  name: \"Dropbox\",\n  category: \"software\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Dropbox;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

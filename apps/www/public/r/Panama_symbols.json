@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "Panama_symbols",
+  "type": "registry:ui",
+  "title": "Panama",
+  "description": "Panama icon component",
+  "category": "flags",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/flags/Panama_symbols.tsx",
+      "content": "/**\n * Auto-generated logo component: Panama (symbols)\n * Category: flags\n * Do not edit manually\n */\n\n'use client';\nimport React from 'react';\n\nexport interface PanamaSymbolsProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const PanamaSymbols = React.forwardRef<SVGSVGElement, PanamaSymbolsProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      viewBox=\"0 0 32 32\"\n      fill=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path d=\"M5 4C2.791 4 1 5.791 1 8V16H16V4H5Z\" fill=\"white\"/>\n<path d=\"M31 8C31 5.791 29.209 4 27 4H16V16H31V8Z\" fill=\"#C92D25\"/>\n<path d=\"M5 28C2.791 28 1 26.209 1 24V16H16V28H5Z\" fill=\"#081D53\"/>\n<path d=\"M31 24C31 26.209 29.209 28 27 28H16V16H31V24Z\" fill=\"white\"/>\n<path d=\"M8.812 6.6709L7.986 9.2139H5.312L7.476 10.7859L6.649 13.3289L8.812 11.7569L10.976 13.3289L10.149 10.7859L12.312 9.2139H9.639L8.812 6.6709Z\" fill=\"#081D53\"/>\n<path d=\"M22.937 17.9839L22.111 20.5269H19.437L21.601 22.0979L20.774 24.6409L22.937 23.0699L25.101 24.6409L24.274 22.0979L26.437 20.5269H23.764L22.937 17.9839Z\" fill=\"#C92D25\"/>\n    </svg>\n  )\n);\n\nPanamaSymbols.displayName = \"PanamaSymbols\";\n\nexport const PanamaSymbolsMetadata = {\n  id: \"Panama_symbols\",\n  baseId: \"Panama\",\n  variant: \"symbols\",\n  name: \"Panama\",\n  category: \"flags\",\n  tags: [],\n  viewBox: \"0 0 32 32\",\n} as const;\n\nexport default PanamaSymbols;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "misc4_shapes",
+  "type": "registry:ui",
+  "title": "Misc4",
+  "description": "Misc4 icon component",
+  "category": "misc",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/misc/misc4_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Misc4ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Misc4Shapes = React.forwardRef<SVGSVGElement, Misc4ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 24 24\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <g clipPath=\"url(#clip0_2068_657)\">\n<path d=\"M15.1765 14.88L21.8792 14.88C23.5183 14.88 24.5359 13.6657 23.703 12.7038L13.4217 0.8308C12.1435 -0.645258 8.82353 -0.0275737 8.82353 1.68629L8.82353 9.12L2.12076 9.12C0.481741 9.12 -0.535891 10.3343 0.297039 11.2962L10.5783 23.1692C11.8565 24.6453 15.1765 24.0276 15.1765 22.3137L15.1765 14.88Z\" fill=\"currentColor\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2068_657\">\n<rect width=\"24\" height=\"24\" fill=\"currentColor\"/>\n</clipPath>\n</defs>\n    </svg>\n  )\n);\n\nMisc4Shapes.displayName = \"Misc4Shapes\";\n\nexport const Misc4ShapesMetadata = {\n  id: \"misc4_shapes\",\n  baseId: \"misc4\",\n  variant: \"shapes\",\n  name: \"Misc4\",\n  category: \"misc\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Misc4Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

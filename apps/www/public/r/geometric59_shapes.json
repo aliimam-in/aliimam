@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "geometric59_shapes",
+  "type": "registry:ui",
+  "title": "Geometric59",
+  "description": "Geometric59 icon component",
+  "category": "geometric",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/geometric/geometric59_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Geometric59ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Geometric59Shapes = React.forwardRef<SVGSVGElement, Geometric59ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 713 357\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path fillRule=\"evenodd\" clipRule=\"evenodd\" d=\"M684.824 87.4575C708.029 123.232 697.839 171.044 662.065 194.249L505.658 295.703C468.304 319.932 420.195 319.932 382.841 295.703L268.45 221.503L134.668 308.281C98.893 331.486 51.0807 321.297 27.8756 285.522C4.67056 249.748 14.8601 201.936 50.6345 178.73L207.041 77.2773C244.396 53.0477 292.505 53.0477 329.859 77.2774L444.249 151.477L578.032 64.6986C613.806 41.4936 661.619 51.6831 684.824 87.4575Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nGeometric59Shapes.displayName = \"Geometric59Shapes\";\n\nexport const Geometric59ShapesMetadata = {\n  id: \"geometric59_shapes\",\n  baseId: \"geometric59\",\n  variant: \"shapes\",\n  name: \"Geometric59\",\n  category: \"geometric\",\n  tags: [],\n  viewBox: \"0 0 713 357\",\n} as const;\n\nexport default Geometric59Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

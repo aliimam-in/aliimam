@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "star6_shapes",
+  "type": "registry:ui",
+  "title": "Star6",
+  "description": "Star6 icon component",
+  "category": "stars",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/stars/star6_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Star6ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Star6Shapes = React.forwardRef<SVGSVGElement, Star6ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 24 24\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <g clipPath=\"url(#clip0_2068_127)\">\n<path d=\"M14.4 9.6L12 0L9.6 9.6L0 12L9.6 14.4L12 24L14.4 14.4L24 12L14.4 9.6Z\" fill=\"currentColor\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2068_127\">\n<rect width=\"24\" height=\"24\" fill=\"currentColor\"/>\n</clipPath>\n</defs>\n    </svg>\n  )\n);\n\nStar6Shapes.displayName = \"Star6Shapes\";\n\nexport const Star6ShapesMetadata = {\n  id: \"star6_shapes\",\n  baseId: \"star6\",\n  variant: \"shapes\",\n  name: \"Star6\",\n  category: \"stars\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Star6Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

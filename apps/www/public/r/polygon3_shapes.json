@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "polygon3_shapes",
+  "type": "registry:ui",
+  "title": "Polygon3",
+  "description": "Polygon3 icon component",
+  "category": "polygon",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/polygon/polygon3_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Polygon3ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Polygon3Shapes = React.forwardRef<SVGSVGElement, Polygon3ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 24 24\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <g clipPath=\"url(#clip0_2068_490)\">\n<path d=\"M15.6646 1.57592e-06C16.4921 -0.000829559 17.2861 0.327122 17.8719 0.911711L23.0765 6.10591C23.6623 6.6905 23.9918 7.48384 23.9927 8.3114L24.0001 15.6645C24.0009 16.4921 23.6729 17.2861 23.0884 17.8718L17.8941 23.0765C17.3096 23.6622 16.5162 23.9918 15.6887 23.9926L8.33556 24C7.508 24.0008 6.714 23.6729 6.12823 23.0883L0.923588 17.8941C0.337824 17.3095 0.00827856 16.5162 0.00744743 15.6886L6.26111e-05 8.3355C-0.000768524 7.50793 0.327183 6.71394 0.911772 6.12817L6.10597 0.923527C6.69056 0.337763 7.4839 0.00821753 8.31147 0.00738639L15.6646 1.57592e-06Z\" fill=\"currentColor\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2068_490\">\n<rect width=\"24\" height=\"24\" fill=\"currentColor\"/>\n</clipPath>\n</defs>\n    </svg>\n  )\n);\n\nPolygon3Shapes.displayName = \"Polygon3Shapes\";\n\nexport const Polygon3ShapesMetadata = {\n  id: \"polygon3_shapes\",\n  baseId: \"polygon3\",\n  variant: \"shapes\",\n  name: \"Polygon3\",\n  category: \"polygon\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Polygon3Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

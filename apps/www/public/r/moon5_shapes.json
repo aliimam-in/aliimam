@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "moon5_shapes",
+  "type": "registry:ui",
+  "title": "Moon5",
+  "description": "Moon5 icon component",
+  "category": "moon",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/moon/moon5_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Moon5ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Moon5Shapes = React.forwardRef<SVGSVGElement, Moon5ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 24 24\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <g clipPath=\"url(#clip0_2068_396)\">\n<path d=\"M6.00001 11.7143C6.00001 8.87268 6.94822 6.14746 8.63605 4.13814C10.3239 2.12882 12.6131 1 15 0.999998C17.387 0.999998 19.6762 2.12882 21.364 4.13814C23.0518 6.14746 24 8.87268 24 11.7143L6.00001 11.7143Z\" fill=\"currentColor\"/>\n<path d=\"M0 12.2857C0 15.1273 0.948213 17.8525 2.63604 19.8619C4.32387 21.8712 6.61306 23 9.00001 23C11.387 23 13.6762 21.8712 15.364 19.8619C17.0518 17.8525 18 15.1273 18 12.2857L0 12.2857Z\" fill=\"currentColor\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2068_396\">\n<rect width=\"24\" height=\"24\" fill=\"currentColor\"/>\n</clipPath>\n</defs>\n    </svg>\n  )\n);\n\nMoon5Shapes.displayName = \"Moon5Shapes\";\n\nexport const Moon5ShapesMetadata = {\n  id: \"moon5_shapes\",\n  baseId: \"moon5\",\n  variant: \"shapes\",\n  name: \"Moon5\",\n  category: \"moon\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Moon5Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "Solidity",
+  "type": "registry:ui",
+  "title": "Solidity",
+  "description": "Solidity icon component",
+  "category": "language",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/language/Solidity.tsx",
+      "content": "/**\n * Auto-generated logo component: Solidity (default)\n * Category: language\n * Do not edit manually\n */\n\n'use client';\nimport React from 'react';\n\nexport interface SolidityProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Solidity = React.forwardRef<SVGSVGElement, SolidityProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path opacity=\"0.45\" d=\"M14.285 4.67651L11.872 8.96517H7.04939L9.46073 4.67651H14.285Z\" fill=\"currentColor\"/>\n<path opacity=\"0.6\" d=\"M11.872 8.96517H16.6964L14.285 4.67651H9.46072L11.872 8.96517Z\" fill=\"currentColor\"/>\n<path opacity=\"0.8\" d=\"M9.46073 13.2522L11.872 8.96517L9.46073 4.67651L7.04939 8.96517L9.46073 13.2522Z\" fill=\"currentColor\"/>\n<path opacity=\"0.45\" d=\"M9.48408 19.685L11.8971 15.3964H16.7214L14.3084 19.685H9.48408Z\" fill=\"currentColor\"/>\n<path opacity=\"0.6\" d=\"M11.8971 15.3965H7.07275L9.48406 19.6852H14.3084L11.8971 15.3965Z\" fill=\"currentColor\"/>\n<path opacity=\"0.8\" d=\"M14.3084 11.1094L11.8971 15.3964L14.3084 19.685L16.7214 15.3964L14.3084 11.1094Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nSolidity.displayName = \"Solidity\";\n\nexport const SolidityMetadata = {\n  id: \"Solidity\",\n  baseId: \"Solidity\",\n  variant: \"default\",\n  name: \"Solidity\",\n  category: \"language\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Solidity;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

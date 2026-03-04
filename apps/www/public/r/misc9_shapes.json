@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "misc9_shapes",
+  "type": "registry:ui",
+  "title": "Misc9",
+  "description": "Misc9 icon component",
+  "category": "misc",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/misc/misc9_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Misc9ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Misc9Shapes = React.forwardRef<SVGSVGElement, Misc9ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 24 24\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <g clipPath=\"url(#clip0_2068_655)\">\n<path d=\"M1.01681 9.46607C3.24075 2.74795 8.49977 0.492938 10.7885 0.175654C24.017 -1.65824 26.6659 11.3201 21.5938 18.0283C17.2201 23.8128 9.51725 24.8906 4.89464 23.3895C0.823053 22.0673 -1.43821 16.8823 1.01681 9.46607Z\" fill=\"currentColor\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2068_655\">\n<rect width=\"24\" height=\"24\" fill=\"currentColor\"/>\n</clipPath>\n</defs>\n    </svg>\n  )\n);\n\nMisc9Shapes.displayName = \"Misc9Shapes\";\n\nexport const Misc9ShapesMetadata = {\n  id: \"misc9_shapes\",\n  baseId: \"misc9\",\n  variant: \"shapes\",\n  name: \"Misc9\",\n  category: \"misc\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Misc9Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

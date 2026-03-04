@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "Vue",
+  "type": "registry:ui",
+  "title": "Vue",
+  "description": "Vue icon component",
+  "category": "framework",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/framework/Vue.tsx",
+      "content": "/**\n * Auto-generated logo component: Vue (default)\n * Category: framework\n * Do not edit manually\n */\n\n'use client';\nimport React from 'react';\n\nexport interface VueProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Vue = React.forwardRef<SVGSVGElement, VueProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <g clipPath=\"url(#clip0_2066_388)\">\n<path d=\"M19.2 1H24L12 21.981L0 1H9.18L12 5.86516L14.76 1H19.2Z\" fill=\"#41B883\"/>\n<path d=\"M0 1L12 21.981L24 1H19.2L12 13.5886L4.74 1H0Z\" fill=\"#41B883\"/>\n<path d=\"M4.73999 1L12 13.6494L19.2 1H14.76L12 5.86516L9.17999 1H4.73999Z\" fill=\"#35495E\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2066_388\">\n<rect width=\"24\" height=\"21\" fill=\"white\" transform=\"translate(0 1)\"/>\n</clipPath>\n</defs>\n    </svg>\n  )\n);\n\nVue.displayName = \"Vue\";\n\nexport const VueMetadata = {\n  id: \"Vue\",\n  baseId: \"Vue\",\n  variant: \"default\",\n  name: \"Vue\",\n  category: \"framework\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Vue;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

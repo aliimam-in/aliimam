@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "wheel1_shapes",
+  "type": "registry:ui",
+  "title": "Wheel1",
+  "description": "Wheel1 icon component",
+  "category": "wheel",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/wheel/wheel1_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Wheel1ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Wheel1Shapes = React.forwardRef<SVGSVGElement, Wheel1ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 24 24\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <g clipPath=\"url(#clip0_2068_826)\">\n<path d=\"M14.04 0H9.96L11.4562 10.6872L4.95721 2.07222L2.07221 4.95721L10.6871 11.4562L0 9.96V14.04L10.6872 12.5438L2.07223 19.0428L4.95722 21.9278L11.4562 13.3129L9.96 24H14.04L12.5438 13.3129L19.0428 21.9278L21.9278 19.0428L13.3128 12.5438L24 14.04V9.96L13.3129 11.4562L21.9278 4.95721L19.0428 2.07222L12.5438 10.6872L14.04 0Z\" fill=\"currentColor\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2068_826\">\n<rect width=\"24\" height=\"24\" fill=\"currentColor\"/>\n</clipPath>\n</defs>\n    </svg>\n  )\n);\n\nWheel1Shapes.displayName = \"Wheel1Shapes\";\n\nexport const Wheel1ShapesMetadata = {\n  id: \"wheel1_shapes\",\n  baseId: \"wheel1\",\n  variant: \"shapes\",\n  name: \"Wheel1\",\n  category: \"wheel\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Wheel1Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "organic14_shapes",
+  "type": "registry:ui",
+  "title": "Organic14",
+  "description": "Organic14 icon component",
+  "category": "organic",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/organic/organic14_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Organic14ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Organic14Shapes = React.forwardRef<SVGSVGElement, Organic14ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 300 300\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path d=\"M138.842 60.1208C149.518 41.6542 167.719 24.3235 186.363 14.3476C206.069 3.80301 233.577 3.07749 253.649 8.65281C280.725 16.1739 293.236 36.8038 297.027 66.1838C299.173 82.814 293.561 98.5018 284.355 111.957C259.641 148.077 213.298 155.587 183.85 185.97C168.447 201.862 163.741 222.789 155.775 242.558C152.014 251.889 148.081 257.259 139.825 263.424C131.74 269.46 123.928 275.087 114.917 279.592C82.0835 296.009 7.42129 299.035 3.27017 248.184C1.45582 225.958 10.626 201.195 26.8122 185.86C43.7388 169.825 71.3804 171.844 91.6485 162.592C109.097 154.626 116.316 138.374 120.161 120.642C124.599 100.18 128.201 78.5261 138.842 60.1208Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nOrganic14Shapes.displayName = \"Organic14Shapes\";\n\nexport const Organic14ShapesMetadata = {\n  id: \"organic14_shapes\",\n  baseId: \"organic14\",\n  variant: \"shapes\",\n  name: \"Organic14\",\n  category: \"organic\",\n  tags: [],\n  viewBox: \"0 0 300 300\",\n} as const;\n\nexport default Organic14Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

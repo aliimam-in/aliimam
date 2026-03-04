@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "Flutter",
+  "type": "registry:ui",
+  "title": "Flutter",
+  "description": "Flutter icon component",
+  "category": "framework",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/framework/Flutter.tsx",
+      "content": "/**\n * Auto-generated logo component: Flutter (default)\n * Category: framework\n * Do not edit manually\n */\n\n'use client';\nimport React from 'react';\n\nexport interface FlutterProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Flutter = React.forwardRef<SVGSVGElement, FlutterProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <g clipPath=\"url(#clip0_2066_393)\">\n<path d=\"M13.7266 0L2 11.9621L5.63672 15.5962L20.9258 0H13.7266ZM13.6523 10.9779L7.34375 17.4132L10.9805 21.1987L14.6172 17.489L20.9258 10.9779H13.6523Z\" fill=\"#47C5FB\"/>\n<path d=\"M10.9805 21.1988L13.7266 24.0001H20.9258L14.6172 17.489L10.9805 21.1988Z\" fill=\"#00569E\"/>\n<path d=\"M7.34375 17.4132L10.9062 13.7792L14.6172 17.489L10.9805 21.1987L7.34375 17.4132Z\" fill=\"#00B5F8\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2066_393\">\n<rect width=\"19\" height=\"24\" fill=\"white\" transform=\"translate(2)\"/>\n</clipPath>\n</defs>\n    </svg>\n  )\n);\n\nFlutter.displayName = \"Flutter\";\n\nexport const FlutterMetadata = {\n  id: \"Flutter\",\n  baseId: \"Flutter\",\n  variant: \"default\",\n  name: \"Flutter\",\n  category: \"framework\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Flutter;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

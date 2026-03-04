@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "misc2_shapes",
+  "type": "registry:ui",
+  "title": "Misc2",
+  "description": "Misc2 icon component",
+  "category": "misc",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/misc/misc2_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Misc2ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Misc2Shapes = React.forwardRef<SVGSVGElement, Misc2ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 24 24\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <g clipPath=\"url(#clip0_2068_658)\">\n<path d=\"M18.96 -2.18096e-05C21.7435 -2.19313e-05 24 2.25647 24 5.03998L24 15.84L16.32 15.84L16.32 7.67998L8.16001 7.67998L8.16001 -2.32449e-05L18.96 -2.18096e-05Z\" fill=\"currentColor\"/>\n<path d=\"M5.04 24C2.25649 24 6.92176e-08 21.7435 -5.24537e-08 18.96L-5.24537e-07 8.15999L7.68001 8.15999L7.68001 16.32L15.84 16.32L15.84 24L5.04 24Z\" fill=\"currentColor\"/>\n<path d=\"M3.84 7.67998C1.71923 7.67998 -1.14178e-06 5.96076 -8.81222e-07 3.83998C-8.81222e-07 1.71921 1.71923 -2.29633e-05 3.84 -2.3056e-05C5.96078 -2.31487e-05 7.68001 1.71921 7.68001 3.83998C7.68001 5.96076 5.96078 7.67998 3.84 7.67998Z\" fill=\"currentColor\"/>\n<path d=\"M15.84 12C15.84 9.87921 14.1208 8.15999 12 8.15999C9.87923 8.15999 8.16001 9.87921 8.16001 12C8.16001 14.1208 9.87923 15.84 12 15.84C14.1208 15.84 15.84 14.1208 15.84 12Z\" fill=\"currentColor\"/>\n<path d=\"M24 20.16C24 18.0392 22.2808 16.32 20.16 16.32C18.0392 16.32 16.32 18.0392 16.32 20.16C16.32 22.2808 18.0392 24 20.16 24C22.2808 24 24 22.2808 24 20.16Z\" fill=\"currentColor\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2068_658\">\n<rect width=\"24\" height=\"24\" fill=\"currentColor\"/>\n</clipPath>\n</defs>\n    </svg>\n  )\n);\n\nMisc2Shapes.displayName = \"Misc2Shapes\";\n\nexport const Misc2ShapesMetadata = {\n  id: \"misc2_shapes\",\n  baseId: \"misc2\",\n  variant: \"shapes\",\n  name: \"Misc2\",\n  category: \"misc\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Misc2Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

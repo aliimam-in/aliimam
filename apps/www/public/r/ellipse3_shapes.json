@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ellipse3_shapes",
+  "type": "registry:ui",
+  "title": "Ellipse3",
+  "description": "Ellipse3 icon component",
+  "category": "ellipse",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/ellipse/ellipse3_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Ellipse3ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Ellipse3Shapes = React.forwardRef<SVGSVGElement, Ellipse3ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 24 24\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <g clipPath=\"url(#clip0_2068_769)\">\n<path d=\"M24 3.6C24 5.58822 22.3882 7.2 20.4 7.2C18.4118 7.2 16.8 5.58822 16.8 3.6C16.8 1.61177 18.4118 0 20.4 0C22.3882 0 24 1.61177 24 3.6Z\" fill=\"currentColor\"/>\n<path d=\"M24 20.4C24 22.3882 22.3882 24 20.4 24C18.4118 24 16.8 22.3882 16.8 20.4C16.8 18.4118 18.4118 16.8 20.4 16.8C22.3882 16.8 24 18.4118 24 20.4Z\" fill=\"currentColor\"/>\n<path d=\"M18.12 12C18.12 15.38 15.38 18.12 12 18.12C8.62002 18.12 5.88 15.38 5.88 12C5.88 8.62002 8.62002 5.88 12 5.88C15.38 5.88 18.12 8.62002 18.12 12Z\" fill=\"currentColor\"/>\n<path d=\"M7.2 3.6C7.2 5.58822 5.58822 7.2 3.6 7.2C1.61177 7.2 0 5.58822 0 3.6C0 1.61177 1.61177 0 3.6 0C5.58822 0 7.2 1.61177 7.2 3.6Z\" fill=\"currentColor\"/>\n<path d=\"M7.2 20.4C7.2 22.3882 5.58822 24 3.6 24C1.61177 24 0 22.3882 0 20.4C0 18.4118 1.61177 16.8 3.6 16.8C5.58822 16.8 7.2 18.4118 7.2 20.4Z\" fill=\"currentColor\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2068_769\">\n<rect width=\"24\" height=\"24\" fill=\"currentColor\"/>\n</clipPath>\n</defs>\n    </svg>\n  )\n);\n\nEllipse3Shapes.displayName = \"Ellipse3Shapes\";\n\nexport const Ellipse3ShapesMetadata = {\n  id: \"ellipse3_shapes\",\n  baseId: \"ellipse3\",\n  variant: \"shapes\",\n  name: \"Ellipse3\",\n  category: \"ellipse\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Ellipse3Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

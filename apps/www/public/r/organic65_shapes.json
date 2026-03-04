@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "organic65_shapes",
+  "type": "registry:ui",
+  "title": "Organic65",
+  "description": "Organic65 icon component",
+  "category": "organic",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/organic/organic65_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Organic65ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Organic65Shapes = React.forwardRef<SVGSVGElement, Organic65ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 300 300\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path fillRule=\"evenodd\" clipRule=\"evenodd\" d=\"M117.032 129.993C118.515 128.357 114.669 109.178 113.974 101.534C111.924 78.9953 110.855 56.6346 110.855 33.9526C110.855 25.9384 110.38 13.1339 118.653 8.99848C129.003 3.82394 132.685 24.5745 133.727 29.7927C138.242 52.3595 135.249 99.9554 160.241 112.451C168.929 116.796 236.046 92.2783 245.498 89.5767C257.176 86.2411 264.336 84.8841 274.9 88.4066C280.848 90.3887 280.873 103.944 276.69 106.733C259.809 117.987 238.825 126.184 220.546 135.325C200.923 145.136 189.994 144.228 186.755 170.157C185.035 183.911 191.342 196.307 194.552 209.145C198.258 223.972 200.155 238.255 201.829 253.333C202.982 263.693 204.556 281.8 196.632 289.725C187.181 299.176 177.785 273.929 176.357 268.93C165.707 231.654 164.34 192.725 132.168 168.597C125.348 163.482 112.013 166.748 104.615 168.597C96.5976 170.6 48.0882 189.802 31.8346 192.51C23.0573 193.974 18.0609 182.631 21.4384 175.874C25.001 168.749 41.9217 163.812 48.9911 160.279C58.1352 155.707 67.7123 152.052 77.0625 147.801C90.3507 141.762 110.41 137.305 117.032 129.993Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nOrganic65Shapes.displayName = \"Organic65Shapes\";\n\nexport const Organic65ShapesMetadata = {\n  id: \"organic65_shapes\",\n  baseId: \"organic65\",\n  variant: \"shapes\",\n  name: \"Organic65\",\n  category: \"organic\",\n  tags: [],\n  viewBox: \"0 0 300 300\",\n} as const;\n\nexport default Organic65Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "moon7_shapes",
+  "type": "registry:ui",
+  "title": "Moon7",
+  "description": "Moon7 icon component",
+  "category": "moon",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/moon/moon7_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Moon7ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Moon7Shapes = React.forwardRef<SVGSVGElement, Moon7ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 24 24\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <g clipPath=\"url(#clip0_2068_392)\">\n<path d=\"M22.1006 12C22.4681 12.9028 22.6323 13.9058 22.5699 14.9455C22.4556 16.8532 21.588 18.7283 20.1581 20.1581C18.7283 21.588 16.8532 22.4555 14.9455 22.5699C13.9058 22.6323 12.9028 22.4681 12 22.1006L22.1006 12Z\" fill=\"currentColor\"/>\n<path d=\"M12 1.89943C11.0972 1.53187 10.0942 1.36772 9.05449 1.43006C7.14675 1.54444 5.27171 2.41199 3.84186 3.84185C2.412 5.27171 1.54445 7.14675 1.43007 9.05448C1.36773 10.0942 1.53188 11.0972 1.89944 12L12 1.89943Z\" fill=\"currentColor\"/>\n<path d=\"M7.3382 0.345501C6.70832 0.086147 6.00944 -0.0319846 5.28587 0.00741554C3.95823 0.0797098 2.65625 0.676443 1.66635 1.66635C0.676451 2.65625 0.0797171 3.95823 0.007424 5.28586C-0.031976 6.00943 0.0861566 6.70831 0.345509 7.3382L7.3382 0.345501Z\" fill=\"currentColor\"/>\n<path d=\"M16.6618 23.6545C17.2917 23.9138 17.9906 24.032 18.7141 23.9926C20.0418 23.9203 21.3438 23.3235 22.3337 22.3336C23.3236 21.3437 23.9203 20.0418 23.9926 18.7141C24.032 17.9906 23.9138 17.2917 23.6545 16.6618L16.6618 23.6545Z\" fill=\"currentColor\"/>\n<path d=\"M23.6545 7.3382C23.9139 6.70831 24.032 6.00943 23.9926 5.28586C23.9203 3.95822 23.3236 2.65625 22.3337 1.66634C21.3438 0.676442 20.0418 0.079711 18.7141 0.00741686C17.9906 -0.0319832 17.2917 0.0861485 16.6618 0.345502L23.6545 7.3382Z\" fill=\"currentColor\"/>\n<path d=\"M0.345508 16.6618C0.0861553 17.2917 -0.0319774 17.9906 0.00742263 18.7141C0.0797164 20.0418 0.676451 21.3437 1.66635 22.3336C2.65625 23.3235 3.95823 23.9203 5.28587 23.9926C6.00944 24.032 6.70832 23.9138 7.3382 23.6545L0.345508 16.6618Z\" fill=\"currentColor\"/>\n<path d=\"M12 22.1006C11.0972 22.4681 10.0942 22.6323 9.05449 22.5699C7.14675 22.4555 5.27171 21.588 3.84186 20.1581C2.412 18.7283 1.54445 16.8532 1.43007 14.9455C1.36773 13.9058 1.53188 12.9028 1.89944 12L12 22.1006Z\" fill=\"currentColor\"/>\n<path d=\"M22.1006 12C22.4681 11.0972 22.6323 10.0942 22.5699 9.05448C22.4556 7.14674 21.588 5.27171 20.1581 3.84185C18.7283 2.41199 16.8532 1.54445 14.9455 1.43006C13.9058 1.36772 12.9028 1.53187 12 1.89943L22.1006 12Z\" fill=\"currentColor\"/>\n<path d=\"M17.0503 6.94971C19.8395 9.73891 19.8395 14.2611 17.0503 17.0503C14.2611 19.8395 9.73892 19.8395 6.94972 17.0503C4.16053 14.2611 4.16053 9.73891 6.94972 6.94971C9.73892 4.16052 14.2611 4.16052 17.0503 6.94971Z\" fill=\"currentColor\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2068_392\">\n<rect width=\"24\" height=\"24\" fill=\"currentColor\"/>\n</clipPath>\n</defs>\n    </svg>\n  )\n);\n\nMoon7Shapes.displayName = \"Moon7Shapes\";\n\nexport const Moon7ShapesMetadata = {\n  id: \"moon7_shapes\",\n  baseId: \"moon7\",\n  variant: \"shapes\",\n  name: \"Moon7\",\n  category: \"moon\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Moon7Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

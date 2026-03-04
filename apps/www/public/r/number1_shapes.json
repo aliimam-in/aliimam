@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "number1_shapes",
+  "type": "registry:ui",
+  "title": "Number1",
+  "description": "Number1 icon component",
+  "category": "number",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/number/number1_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Number1ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Number1Shapes = React.forwardRef<SVGSVGElement, Number1ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 24 24\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <g clipPath=\"url(#clip0_2068_920)\">\n<path fillRule=\"evenodd\" clipRule=\"evenodd\" d=\"M12 13.2C12.6627 13.2 13.2 12.6627 13.2 12C13.2 11.3373 12.6627 10.8 12 10.8C11.3373 10.8 10.8 11.3373 10.8 12C10.8 12.6627 11.3373 13.2 12 13.2ZM12 24C18.6274 24 24 18.6274 24 12C24 5.37258 18.6274 0 12 0C5.37258 0 0 5.37258 0 12C0 18.6274 5.37258 24 12 24Z\" fill=\"currentColor\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2068_920\">\n<rect width=\"24\" height=\"24\" fill=\"currentColor\"/>\n</clipPath>\n</defs>\n    </svg>\n  )\n);\n\nNumber1Shapes.displayName = \"Number1Shapes\";\n\nexport const Number1ShapesMetadata = {\n  id: \"number1_shapes\",\n  baseId: \"number1\",\n  variant: \"shapes\",\n  name: \"Number1\",\n  category: \"number\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Number1Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

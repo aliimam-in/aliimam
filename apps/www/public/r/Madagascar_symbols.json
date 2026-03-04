@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "Madagascar_symbols",
+  "type": "registry:ui",
+  "title": "Madagascar",
+  "description": "Madagascar icon component",
+  "category": "flags",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/flags/Madagascar_symbols.tsx",
+      "content": "/**\n * Auto-generated logo component: Madagascar (symbols)\n * Category: flags\n * Do not edit manually\n */\n\n'use client';\nimport React from 'react';\n\nexport interface MadagascarSymbolsProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const MadagascarSymbols = React.forwardRef<SVGSVGElement, MadagascarSymbolsProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      viewBox=\"0 0 32 32\"\n      fill=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path d=\"M27 4H12V16H31V8C31 5.791 29.209 4 27 4Z\" fill=\"#E65143\"/>\n<path d=\"M12 15V28H27C29.209 28 31 26.209 31 24V15H12Z\" fill=\"#3A8343\"/>\n<path d=\"M5 4H13V28H5C2.792 28 1 26.208 1 24V8C1 5.792 2.792 4 5 4Z\" fill=\"white\"/>\n    </svg>\n  )\n);\n\nMadagascarSymbols.displayName = \"MadagascarSymbols\";\n\nexport const MadagascarSymbolsMetadata = {\n  id: \"Madagascar_symbols\",\n  baseId: \"Madagascar\",\n  variant: \"symbols\",\n  name: \"Madagascar\",\n  category: \"flags\",\n  tags: [],\n  viewBox: \"0 0 32 32\",\n} as const;\n\nexport default MadagascarSymbols;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

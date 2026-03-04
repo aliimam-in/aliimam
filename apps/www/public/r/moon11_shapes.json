@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "moon11_shapes",
+  "type": "registry:ui",
+  "title": "Moon11",
+  "description": "Moon11 icon component",
+  "category": "moon",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/moon/moon11_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Moon11ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Moon11Shapes = React.forwardRef<SVGSVGElement, Moon11ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 24 24\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <g clipPath=\"url(#clip0_2068_398)\">\n<path d=\"M24 0C24 13.2548 13.2548 24 0 24C0 10.7452 10.7452 0 24 0Z\" fill=\"currentColor\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2068_398\">\n<rect width=\"24\" height=\"24\" fill=\"currentColor\"/>\n</clipPath>\n</defs>\n    </svg>\n  )\n);\n\nMoon11Shapes.displayName = \"Moon11Shapes\";\n\nexport const Moon11ShapesMetadata = {\n  id: \"moon11_shapes\",\n  baseId: \"moon11\",\n  variant: \"shapes\",\n  name: \"Moon11\",\n  category: \"moon\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Moon11Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

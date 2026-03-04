@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "star1_shapes",
+  "type": "registry:ui",
+  "title": "Star1",
+  "description": "Star1 icon component",
+  "category": "stars",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/stars/star1_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Star1ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Star1Shapes = React.forwardRef<SVGSVGElement, Star1ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 24 24\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <g clipPath=\"url(#clip0_2068_129)\">\n<path fillRule=\"evenodd\" clipRule=\"evenodd\" d=\"M24.0001 12C24.0001 5.37258 18.6275 -8.44363e-06 12.0001 -8.15393e-06C5.37265 -7.86424e-06 6.78529e-05 5.37258 6.814e-05 12C6.84323e-05 18.6274 5.37265 24 12.0001 24C18.6275 24 24.0001 18.6274 24.0001 12ZM13.7757 10.2243C14.7621 11.2106 16.2599 11.4203 19.2554 11.8397L20.4001 12L19.2554 12.1602C16.2599 12.5796 14.7621 12.7893 13.7757 13.7756C12.7894 14.762 12.5797 16.2598 12.1603 19.2553L12.0001 20.4L11.8398 19.2553C11.4204 16.2598 11.2107 14.762 10.2244 13.7756C9.23804 12.7893 7.74027 12.5796 4.74472 12.1602L3.60007 12L4.74473 11.8397C7.74028 11.4203 9.23805 11.2106 10.2244 10.2243C11.2108 9.23794 11.4204 7.74017 11.8398 4.74462L12.0001 3.59999L12.1603 4.74461C12.5797 7.74016 12.7894 9.23794 13.7757 10.2243Z\" fill=\"currentColor\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2068_129\">\n<rect width=\"24\" height=\"24\" fill=\"currentColor\"/>\n</clipPath>\n</defs>\n    </svg>\n  )\n);\n\nStar1Shapes.displayName = \"Star1Shapes\";\n\nexport const Star1ShapesMetadata = {\n  id: \"star1_shapes\",\n  baseId: \"star1\",\n  variant: \"shapes\",\n  name: \"Star1\",\n  category: \"stars\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Star1Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

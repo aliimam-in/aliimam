@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "Costa-Rica_symbols",
+  "type": "registry:ui",
+  "title": "Costa Rica",
+  "description": "Costa Rica icon component",
+  "category": "flags",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/flags/Costa-Rica_symbols.tsx",
+      "content": "/**\n * Auto-generated logo component: Costa Rica (symbols)\n * Category: flags\n * Do not edit manually\n */\n\n'use client';\nimport React from 'react';\n\nexport interface CostaRicaSymbolsProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const CostaRicaSymbols = React.forwardRef<SVGSVGElement, CostaRicaSymbolsProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      viewBox=\"0 0 32 32\"\n      fill=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path d=\"M5 4H27C29.208 4 31 5.792 31 8V9H1V8C1 5.792 2.792 4 5 4Z\" fill=\"#030A85\"/>\n<path d=\"M27 28L5 28C2.792 28 1 26.208 1 24V23L31 23V24C31 26.208 29.208 28 27 28Z\" fill=\"#030A85\"/>\n<path d=\"M1 8H31V13H1V8Z\" fill=\"white\"/>\n<path d=\"M1 19H31V24H1V19Z\" fill=\"white\"/>\n<path d=\"M1 12H31V20H1V12Z\" fill=\"#C93927\"/>\n    </svg>\n  )\n);\n\nCostaRicaSymbols.displayName = \"CostaRicaSymbols\";\n\nexport const CostaRicaSymbolsMetadata = {\n  id: \"Costa-Rica_symbols\",\n  baseId: \"Costa-Rica\",\n  variant: \"symbols\",\n  name: \"Costa Rica\",\n  category: \"flags\",\n  tags: [],\n  viewBox: \"0 0 32 32\",\n} as const;\n\nexport default CostaRicaSymbols;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

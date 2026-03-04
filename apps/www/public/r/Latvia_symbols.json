@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "Latvia_symbols",
+  "type": "registry:ui",
+  "title": "Latvia",
+  "description": "Latvia icon component",
+  "category": "flags",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/flags/Latvia_symbols.tsx",
+      "content": "/**\n * Auto-generated logo component: Latvia (symbols)\n * Category: flags\n * Do not edit manually\n */\n\n'use client';\nimport React from 'react';\n\nexport interface LatviaSymbolsProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const LatviaSymbols = React.forwardRef<SVGSVGElement, LatviaSymbolsProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      viewBox=\"0 0 32 32\"\n      fill=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path d=\"M1 12H31V20H1V12Z\" fill=\"white\"/>\n<path d=\"M5 4H27C29.208 4 31 5.792 31 8V13H1V8C1 5.792 2.792 4 5 4Z\" fill=\"#922A35\"/>\n<path d=\"M27 28L5 28C2.792 28 1 26.208 1 24V19L31 19V24C31 26.208 29.208 28 27 28Z\" fill=\"#922A35\"/>\n    </svg>\n  )\n);\n\nLatviaSymbols.displayName = \"LatviaSymbols\";\n\nexport const LatviaSymbolsMetadata = {\n  id: \"Latvia_symbols\",\n  baseId: \"Latvia\",\n  variant: \"symbols\",\n  name: \"Latvia\",\n  category: \"flags\",\n  tags: [],\n  viewBox: \"0 0 32 32\",\n} as const;\n\nexport default LatviaSymbols;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

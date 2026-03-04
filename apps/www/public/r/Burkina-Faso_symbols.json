@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "Burkina-Faso_symbols",
+  "type": "registry:ui",
+  "title": "Burkina Faso",
+  "description": "Burkina Faso icon component",
+  "category": "flags",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/flags/Burkina-Faso_symbols.tsx",
+      "content": "/**\n * Auto-generated logo component: Burkina Faso (symbols)\n * Category: flags\n * Do not edit manually\n */\n\n'use client';\nimport React from 'react';\n\nexport interface BurkinaFasoSymbolsProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const BurkinaFasoSymbols = React.forwardRef<SVGSVGElement, BurkinaFasoSymbolsProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      viewBox=\"0 0 32 32\"\n      fill=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path d=\"M1 24C1 26.209 2.791 28 5 28H27C29.209 28 31 26.209 31 24V15H1V24Z\" fill=\"#479D52\"/>\n<path d=\"M27 4H5C2.791 4 1 5.791 1 8V16H31V8C31 5.791 29.209 4 27 4Z\" fill=\"#DC3E36\"/>\n<path d=\"M17.743 16.364L20.562 14.315H17.077L16 11L14.923 14.315H11.437L14.257 16.364L13.18 19.678L16 17.63L18.82 19.678L17.743 16.364Z\" fill=\"#FCD116\"/>\n    </svg>\n  )\n);\n\nBurkinaFasoSymbols.displayName = \"BurkinaFasoSymbols\";\n\nexport const BurkinaFasoSymbolsMetadata = {\n  id: \"Burkina-Faso_symbols\",\n  baseId: \"Burkina-Faso\",\n  variant: \"symbols\",\n  name: \"Burkina Faso\",\n  category: \"flags\",\n  tags: [],\n  viewBox: \"0 0 32 32\",\n} as const;\n\nexport default BurkinaFasoSymbols;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

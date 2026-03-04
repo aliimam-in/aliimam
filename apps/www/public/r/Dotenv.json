@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "Dotenv",
+  "type": "registry:ui",
+  "title": "Dotenv",
+  "description": "Dotenv icon component",
+  "category": "devtool",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/devtool/Dotenv.tsx",
+      "content": "/**\n * Auto-generated logo component: Dotenv (default)\n * Category: devtool\n * Do not edit manually\n */\n\n'use client';\nimport React from 'react';\n\nexport interface DotenvProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Dotenv = React.forwardRef<SVGSVGElement, DotenvProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <g clipPath=\"url(#clip0_2066_383)\">\n<path d=\"M24 0H0V24H24V0Z\" fill=\"#09090B\"/>\n<path d=\"M24 0V24H0V0H24ZM10.933 15.89H6.84V21.41H11.038V20.48H7.955V18.977H10.725V18.047H7.955V16.823H10.933V15.889V15.89ZM13.079 15.89H11.995V21.41H13.03V17.81L15.256 21.41H16.374V15.89H15.338V19.576L13.079 15.889V15.89ZM18.196 15.89H16.988L18.961 21.41H20.151L22.127 15.89H20.945L19.593 19.975L18.196 15.889V15.89ZM5.4 19.68H3.72V21.36H5.4V19.68Z\" fill=\"#ECD53F\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2066_383\">\n<rect width=\"24\" height=\"24\" fill=\"white\"/>\n</clipPath>\n</defs>\n    </svg>\n  )\n);\n\nDotenv.displayName = \"Dotenv\";\n\nexport const DotenvMetadata = {\n  id: \"Dotenv\",\n  baseId: \"Dotenv\",\n  variant: \"default\",\n  name: \"Dotenv\",\n  category: \"devtool\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Dotenv;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

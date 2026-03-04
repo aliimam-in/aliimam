@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "star5_shapes",
+  "type": "registry:ui",
+  "title": "Star5",
+  "description": "Star5 icon component",
+  "category": "stars",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/stars/star5_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Star5ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Star5Shapes = React.forwardRef<SVGSVGElement, Star5ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 24 24\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <g clipPath=\"url(#clip0_2068_126)\">\n<path d=\"M13.8156 7.26251L12 0L10.1844 7.26246L5.55128 5.55114L7.26264 10.1843L0 12L7.26256 13.8156L5.55122 18.4488L10.1844 16.7374L12 24L13.8157 16.7374L18.4489 18.4488L16.7376 13.8156L24 12L16.7375 10.1844L18.4489 5.55113L13.8156 7.26251Z\" fill=\"currentColor\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2068_126\">\n<rect width=\"24\" height=\"24\" fill=\"currentColor\"/>\n</clipPath>\n</defs>\n    </svg>\n  )\n);\n\nStar5Shapes.displayName = \"Star5Shapes\";\n\nexport const Star5ShapesMetadata = {\n  id: \"star5_shapes\",\n  baseId: \"star5\",\n  variant: \"shapes\",\n  name: \"Star5\",\n  category: \"stars\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Star5Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

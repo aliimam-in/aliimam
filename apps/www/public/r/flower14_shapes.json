@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "flower14_shapes",
+  "type": "registry:ui",
+  "title": "Flower14",
+  "description": "Flower14 icon component",
+  "category": "flower",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/flower/flower14_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Flower14ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Flower14Shapes = React.forwardRef<SVGSVGElement, Flower14ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 24 24\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <g clipPath=\"url(#clip0_2068_575)\">\n<path d=\"M7.30435 3.2693C9.00651 -1.08977 14.9935 -1.08977 16.6957 3.2693C17.1253 4.36965 18.1301 5.12023 19.2779 5.20026C23.8173 5.51679 25.6778 11.3822 22.1824 14.3855C21.2977 15.1457 20.9142 16.3619 21.1959 17.5134C22.3088 22.0628 17.4548 25.6775 13.5982 23.1876C12.6227 22.5577 11.3773 22.5577 10.4018 23.1876C6.54521 25.6775 1.69122 22.0628 2.80414 17.5134C3.0858 16.3619 2.70228 15.1457 1.81758 14.3855C-1.67782 11.3822 0.182708 5.51679 4.72214 5.20026C5.86986 5.12023 6.87467 4.36965 7.30435 3.2693Z\" fill=\"currentColor\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2068_575\">\n<rect width=\"24\" height=\"24\" fill=\"currentColor\"/>\n</clipPath>\n</defs>\n    </svg>\n  )\n);\n\nFlower14Shapes.displayName = \"Flower14Shapes\";\n\nexport const Flower14ShapesMetadata = {\n  id: \"flower14_shapes\",\n  baseId: \"flower14\",\n  variant: \"shapes\",\n  name: \"Flower14\",\n  category: \"flower\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Flower14Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

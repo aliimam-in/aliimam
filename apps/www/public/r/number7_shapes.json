@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "number7_shapes",
+  "type": "registry:ui",
+  "title": "Number7",
+  "description": "Number7 icon component",
+  "category": "number",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/number/number7_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Number7ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Number7Shapes = React.forwardRef<SVGSVGElement, Number7ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 24 24\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <g clipPath=\"url(#clip0_2068_917)\">\n<path d=\"M0 10.8C-3.8147e-07 4.83533 5.37258 3.97544e-07 12 0L12 10.8L16.6667 10.8C20.7168 10.8 24 13.7549 24 17.4C24 21.0451 20.7168 24 16.6667 24H12C5.37258 24 -3.8147e-07 19.1647 0 13.2V10.8Z\" fill=\"currentColor\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2068_917\">\n<rect width=\"24\" height=\"24\" fill=\"currentColor\"/>\n</clipPath>\n</defs>\n    </svg>\n  )\n);\n\nNumber7Shapes.displayName = \"Number7Shapes\";\n\nexport const Number7ShapesMetadata = {\n  id: \"number7_shapes\",\n  baseId: \"number7\",\n  variant: \"shapes\",\n  name: \"Number7\",\n  category: \"number\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Number7Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

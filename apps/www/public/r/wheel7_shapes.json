@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "wheel7_shapes",
+  "type": "registry:ui",
+  "title": "Wheel7",
+  "description": "Wheel7 icon component",
+  "category": "wheel",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/wheel/wheel7_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Wheel7ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Wheel7Shapes = React.forwardRef<SVGSVGElement, Wheel7ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 24 24\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path d=\"M10.2105 24V13.9359L1.10674 17.0461L0 13.4646L9.10324 10.3545L3.47745 2.21259L6.37371 0L12 8.1426L17.6263 1.08349e-05L20.5225 2.2126L14.8967 10.3545L24 13.4646L22.8933 17.0462L13.7895 13.9359V24H10.2105Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nWheel7Shapes.displayName = \"Wheel7Shapes\";\n\nexport const Wheel7ShapesMetadata = {\n  id: \"wheel7_shapes\",\n  baseId: \"wheel7\",\n  variant: \"shapes\",\n  name: \"Wheel7\",\n  category: \"wheel\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Wheel7Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

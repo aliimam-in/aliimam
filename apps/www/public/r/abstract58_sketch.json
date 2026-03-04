@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "abstract58_sketch",
+  "type": "registry:ui",
+  "title": "Abstract58",
+  "description": "Abstract58 icon component",
+  "category": "abstract",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/abstract/abstract58_sketch.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Abstract58SketchProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Abstract58Sketch = React.forwardRef<SVGSVGElement, Abstract58SketchProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 446 446\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path fillRule=\"evenodd\" clipRule=\"evenodd\" d=\"M224.476 182.861C220.131 184.754 213.893 187.985 210.551 189.99C192.281 200.796 170.446 203.025 163.539 194.893C159.305 189.88 153.735 189.21 153.735 193.667C153.735 201.019 165.098 206.478 180.472 206.478H191.055L185.485 214.276C169.555 236.445 168.106 257.055 181.92 264.073C192.503 269.532 207.766 266.525 237.621 252.822C246.088 248.923 246.756 248.699 245.977 250.816C240.406 265.41 274.273 267.638 289.535 253.713C295.885 247.92 290.426 246.137 281.068 250.927C263.912 259.728 257.117 252.6 269.148 238.34C273.716 232.993 269.148 225.082 239.07 239.119C199.076 257.723 192.392 259.618 191.167 252.822C187.825 233.104 208.545 203.247 234.391 190.659C256.894 179.63 240.072 175.954 224.476 182.861Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nAbstract58Sketch.displayName = \"Abstract58Sketch\";\n\nexport const Abstract58SketchMetadata = {\n  id: \"abstract58_sketch\",\n  baseId: \"abstract58\",\n  variant: \"sketch\",\n  name: \"Abstract58\",\n  category: \"abstract\",\n  tags: [],\n  viewBox: \"0 0 446 446\",\n} as const;\n\nexport default Abstract58Sketch;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

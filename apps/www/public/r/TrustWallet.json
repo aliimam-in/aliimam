@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "TrustWallet",
+  "type": "registry:ui",
+  "title": "TrustWallet",
+  "description": "TrustWallet icon component",
+  "category": "crypto",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/crypto/TrustWallet.tsx",
+      "content": "/**\n * Auto-generated logo component: TrustWallet (default)\n * Category: crypto\n * Do not edit manually\n */\n\n'use client';\nimport React from 'react';\n\nexport interface TrustWalletProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const TrustWallet = React.forwardRef<SVGSVGElement, TrustWalletProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path d=\"M1.03357 3.46872L11.5076 0.00524902V23.9823C4.02607 20.7851 1.03357 14.6577 1.03357 11.1947V3.46872Z\" fill=\"#0500FF\"/>\n    </svg>\n  )\n);\n\nTrustWallet.displayName = \"TrustWallet\";\n\nexport const TrustWalletMetadata = {\n  id: \"TrustWallet\",\n  baseId: \"TrustWallet\",\n  variant: \"default\",\n  name: \"TrustWallet\",\n  category: \"crypto\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default TrustWallet;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

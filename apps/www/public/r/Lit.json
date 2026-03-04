@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "Lit",
+  "type": "registry:ui",
+  "title": "Lit",
+  "description": "Lit icon component",
+  "category": "library",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/library/Lit.tsx",
+      "content": "/**\n * Auto-generated logo component: Lit (default)\n * Category: library\n * Do not edit manually\n */\n\n'use client';\nimport React from 'react';\n\nexport interface LitProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Lit = React.forwardRef<SVGSVGElement, LitProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <g clipPath=\"url(#clip0_2066_903)\">\n<path d=\"M6.75 14.4L8.6742 11.0455L11.5118 9.61194L16.2599 14.41L17.0639 19.0415L16.25 24L11.5 19.2L8.6742 17.2789L6.75 14.4Z\" fill=\"#00E8FF\"/>\n<path d=\"M11.5 19.2V9.60005L16.25 4.80005V14.4L11.5 19.2ZM2 19.2L6.75 24L7.43296 19.4549L6.75 14.4L3.96368 16.1783L2 19.2Z\" fill=\"#283198\"/>\n<path d=\"M6.75 14.4V4.8L11.5 0V9.6L6.75 14.4ZM16.25 24V14.4L21 9.6V19.2L16.25 24ZM2 19.2V9.6L6.75 14.4L2 19.2Z\" fill=\"#324FFF\"/>\n<path d=\"M6.75 24V14.4L11.5 19.2L6.75 24Z\" fill=\"#00FFFF\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2066_903\">\n<rect width=\"19\" height=\"24\" fill=\"white\" transform=\"translate(2)\"/>\n</clipPath>\n</defs>\n    </svg>\n  )\n);\n\nLit.displayName = \"Lit\";\n\nexport const LitMetadata = {\n  id: \"Lit\",\n  baseId: \"Lit\",\n  variant: \"default\",\n  name: \"Lit\",\n  category: \"library\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Lit;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

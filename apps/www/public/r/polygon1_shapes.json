@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "polygon1_shapes",
+  "type": "registry:ui",
+  "title": "Polygon1",
+  "description": "Polygon1 icon component",
+  "category": "polygon",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/polygon/polygon1_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Polygon1ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Polygon1Shapes = React.forwardRef<SVGSVGElement, Polygon1ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 24 24\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <g clipPath=\"url(#clip0_2068_491)\">\n<path d=\"M23.5819 10.2679C24.1394 11.3397 24.1394 12.6603 23.5819 13.7321L19.1423 22.268C18.5848 23.3397 17.5546 24 16.4397 24H7.56035C6.44543 24 5.41521 23.3397 4.85775 22.2679L0.418094 13.7321C-0.139364 12.6603 -0.139365 11.3397 0.418094 10.2679L4.85775 1.73205C5.41521 0.660254 6.44543 -5.40974e-08 7.56035 0L16.4397 4.30837e-07C17.5546 4.84935e-07 18.5848 0.660254 19.1423 1.73205L23.5819 10.2679Z\" fill=\"currentColor\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2068_491\">\n<rect width=\"24\" height=\"24\" fill=\"currentColor\"/>\n</clipPath>\n</defs>\n    </svg>\n  )\n);\n\nPolygon1Shapes.displayName = \"Polygon1Shapes\";\n\nexport const Polygon1ShapesMetadata = {\n  id: \"polygon1_shapes\",\n  baseId: \"polygon1\",\n  variant: \"shapes\",\n  name: \"Polygon1\",\n  category: \"polygon\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Polygon1Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

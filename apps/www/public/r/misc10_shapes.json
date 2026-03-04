@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "misc10_shapes",
+  "type": "registry:ui",
+  "title": "Misc10",
+  "description": "Misc10 icon component",
+  "category": "misc",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/misc/misc10_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Misc10ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Misc10Shapes = React.forwardRef<SVGSVGElement, Misc10ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 24 24\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path d=\"M16.32 0L12 4.32L7.68 3.35704e-07H7.1337e-07V7.68L4.32 12L0 16.32L3.77666e-07 24H7.68L12 19.68L16.32 24H24V16.32L19.68 12L24 7.68V3.35704e-07L16.32 0Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nMisc10Shapes.displayName = \"Misc10Shapes\";\n\nexport const Misc10ShapesMetadata = {\n  id: \"misc10_shapes\",\n  baseId: \"misc10\",\n  variant: \"shapes\",\n  name: \"Misc10\",\n  category: \"misc\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Misc10Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

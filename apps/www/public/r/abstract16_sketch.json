@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "abstract16_sketch",
+  "type": "registry:ui",
+  "title": "Abstract16",
+  "description": "Abstract16 icon component",
+  "category": "abstract",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/abstract/abstract16_sketch.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Abstract16SketchProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Abstract16Sketch = React.forwardRef<SVGSVGElement, Abstract16SketchProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 446 446\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path d=\"M145.24 263.347C140.895 275.378 136.549 275.936 131.648 265.242C127.971 257.332 130.089 236.721 135.214 229.814C139.781 223.576 130.423 220.345 123.516 225.804C112.265 234.605 109.368 262.567 118.725 273.15C133.653 290.195 164.066 280.392 164.066 258.557C164.066 249.088 149.028 252.875 145.24 263.347Z\" fill=\"currentColor\"/>\n<path d=\"M218.319 179.683C211.412 167.429 199.937 169.88 203.391 182.914C207.29 197.396 200.94 210.765 192.808 205.306C185.901 200.627 183.561 193.943 183.45 177.901C184.675 167.763 180.665 158.183 175.763 165.758C159.387 191.269 170.082 215.779 197.821 215.667C216.982 215.556 227.788 196.505 218.319 179.683Z\" fill=\"currentColor\"/>\n<path d=\"M333.955 200.404C331.727 202.075 331.838 204.08 334.512 218.006C337.297 232.488 331.281 238.505 318.692 234.049C307.329 229.927 304.21 236.61 315.239 241.512C325.934 246.191 346.32 242.18 351.111 234.382C359.911 219.9 345.54 191.715 333.955 200.404Z\" fill=\"currentColor\"/>\n<path d=\"M156.156 141.472C160.501 125.653 144.794 121.308 139.113 136.793C135.548 146.374 128.418 152.168 120.174 152.168C108.811 152.168 108.031 132.004 119.171 119.861C131.648 106.047 110.705 107.05 106.805 109.612C94.4398 117.41 88.5355 134.232 93.8828 146.041C103.798 168.21 149.583 164.867 156.156 141.472Z\" fill=\"currentColor\"/>\n<path d=\"M223.889 307.462C222.552 308.91 220.547 312.698 219.433 315.817C212.971 334.087 197.709 331.191 194.367 311.138C193.253 304.566 186.346 303.452 184.23 309.356C174.538 336.984 221.661 349.015 235.475 322.39C242.382 308.799 233.358 297.213 223.889 307.462Z\" fill=\"currentColor\"/>\n<path d=\"M280.481 120.863C280.147 121.308 280.593 124.429 281.595 127.771C289.059 153.95 280.816 164.088 261.209 153.059C252.854 148.38 247.952 150.72 252.519 157.292C263.325 172.666 297.972 167.542 302.205 149.94C306.104 133.675 287.834 109.055 280.481 120.863Z\" fill=\"currentColor\"/>\n<path d=\"M263.771 234.939C261.766 236.499 261.543 237.947 261.543 247.639C261.543 267.803 254.859 271.256 241.713 257.888C233.581 249.644 228.679 249.311 228.679 256.886C228.679 275.825 268.339 280.392 277.474 262.456C284.826 247.64 274.354 226.695 263.771 234.939Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nAbstract16Sketch.displayName = \"Abstract16Sketch\";\n\nexport const Abstract16SketchMetadata = {\n  id: \"abstract16_sketch\",\n  baseId: \"abstract16\",\n  variant: \"sketch\",\n  name: \"Abstract16\",\n  category: \"abstract\",\n  tags: [],\n  viewBox: \"0 0 446 446\",\n} as const;\n\nexport default Abstract16Sketch;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

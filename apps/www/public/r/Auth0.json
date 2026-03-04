@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "Auth0",
+  "type": "registry:ui",
+  "title": "Auth0",
+  "description": "Auth0 icon component",
+  "category": "library",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/library/Auth0.tsx",
+      "content": "/**\n * Auto-generated logo component: Auth0 (default)\n * Category: library\n * Do not edit manually\n */\n\n'use client';\nimport React from 'react';\n\nexport interface Auth0Props extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Auth0 = React.forwardRef<SVGSVGElement, Auth0Props>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path d=\"M21.98 7.448L19.62 0H4.34698L2.01998 7.448C0.667984 11.76 2.04998 16.654 5.83498 19.463L12.007 24L18.164 19.448C21.919 16.638 23.346 11.76 21.979 7.433L15.819 12.013L18.162 19.463L12.005 14.866L5.84698 19.446L8.20498 12.013L2.01698 7.463L9.64698 7.418L12.008 0L14.364 7.404L21.98 7.448Z\" fill=\"#EB5424\"/>\n    </svg>\n  )\n);\n\nAuth0.displayName = \"Auth0\";\n\nexport const Auth0Metadata = {\n  id: \"Auth0\",\n  baseId: \"Auth0\",\n  variant: \"default\",\n  name: \"Auth0\",\n  category: \"library\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Auth0;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

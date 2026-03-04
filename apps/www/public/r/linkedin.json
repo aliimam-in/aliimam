@@ -1,18 +1,18 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-  "name": "linkedin",
+  "name": "LinkedIn",
   "type": "registry:ui",
-  "title": "Linkedin",
-  "description": "Linkedin icon component",
-  "category": "others",
+  "title": "LinkedIn",
+  "description": "LinkedIn icon component",
+  "category": "social",
   "tags": [],
   "dependencies": [],
   "devDependencies": [],
   "registryDependencies": [],
   "files": [
     {
-      "path": "registry/icons/others/linkedin.tsx",
-      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface LinkedinProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Linkedin = React.forwardRef<SVGSVGElement, LinkedinProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z\" />\n  <rect width=\"4\" height=\"12\" x=\"2\" y=\"9\" />\n  <circle cx=\"4\" cy=\"4\" r=\"2\" />\n    </svg>\n  )\n);\nLinkedin.displayName = \"Linkedin\";\nexport const LinkedinMetadata = { \n  id: \"linkedin\", \n  baseId: \"linkedin\", \n  variant: \"default\", \n  name: \"Linkedin\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Linkedin;\n",
+      "path": "registry/icons/social/LinkedIn.tsx",
+      "content": "/**\n * Auto-generated logo component: LinkedIn (default)\n * Category: social\n * Do not edit manually\n */\n\n'use client';\nimport React from 'react';\n\nexport interface LinkedInProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const LinkedIn = React.forwardRef<SVGSVGElement, LinkedInProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <g clipPath=\"url(#clip0_2041_14)\">\n<path d=\"M20.4489 20.4493H16.8929V14.8803C16.8929 13.5523 16.8691 11.8428 15.0434 11.8428C13.1912 11.8428 12.9078 13.2897 12.9078 14.7837V20.449H9.35188V8.99684H12.7656V10.5619H12.8134C13.155 9.97775 13.6487 9.4972 14.2419 9.17142C14.835 8.84564 15.5054 8.68685 16.1817 8.71194C19.7859 8.71194 20.4504 11.0827 20.4504 14.1669L20.4489 20.4493ZM5.33938 7.4315C4.19966 7.43169 3.27557 6.50787 3.27538 5.36816C3.27519 4.22844 4.19891 3.30434 5.33863 3.30416C6.47835 3.30387 7.40244 4.22769 7.40263 5.36741C7.40273 5.91472 7.18541 6.43966 6.79848 6.82675C6.41155 7.21384 5.8867 7.43138 5.33938 7.4315ZM7.11744 20.4494H3.55766V8.99684H7.11735V20.4493L7.11744 20.4494ZM22.2217 0.00162467H1.77079C0.804224 -0.00925033 0.0115684 0.765031 -0.000244141 1.73159V22.2678C0.0111934 23.2348 0.803756 24.0099 1.77069 23.9997H22.2217C23.1907 24.0117 23.9863 23.2367 23.9998 22.2678V1.73C23.986 0.761562 23.1902 -0.0126253 22.2217 3.09196e-05\" fill=\"#0A66C2\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2041_14\">\n<rect width=\"24\" height=\"24\" fill=\"white\"/>\n</clipPath>\n</defs>\n    </svg>\n  )\n);\n\nLinkedIn.displayName = \"LinkedIn\";\n\nexport const LinkedInMetadata = {\n  id: \"LinkedIn\",\n  baseId: \"LinkedIn\",\n  variant: \"default\",\n  name: \"LinkedIn\",\n  category: \"social\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default LinkedIn;\n",
       "type": "registry:ui"
     }
   ]

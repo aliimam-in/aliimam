@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "google-data-studio",
+  "type": "registry:ui",
+  "title": "Google Data Studio",
+  "description": "Google Data Studio icon component",
+  "category": "google",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/google/google-data-studio.tsx",
+      "content": "/**\n * Auto-generated logo component: Google Data Studio (default)\n * Category: google\n * Do not edit manually\n */\n\n'use client';\nimport React from 'react';\n\nexport interface GoogleDataStudioProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const GoogleDataStudio = React.forwardRef<SVGSVGElement, GoogleDataStudioProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      viewBox=\"0 0 256 239\"\n      fill=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <g>\n        <path d=\"M224.021661,173.15874 L131.06335,173.15874 C108.582501,173.15874 95.9932253,188.895334 95.9932253,205.643566 C95.9932253,221.09915 106.671629,238.128393 131.06335,238.128393 L224.021661,238.128393 L224.021661,173.15874 Z\" fill=\"#669DF6\"></path>\n        <ellipse fill=\"#1A73E8\" cx=\"224.021661\" cy=\"205.587364\" rx=\"31.9790077\" ry=\"32.4848268\"></ellipse>\n        <path d=\"M128.028435,86.5512687 L35.0701245,86.5512687 C12.5892755,86.5512687 0,102.287863 0,119.036096 C0,134.491679 10.6784033,151.520922 35.0701245,151.520922 L128.028435,151.520922 L128.028435,86.5512687 Z\" fill=\"#669DF6\"></path>\n        <ellipse fill=\"#1A73E8\" cx=\"128.028435\" cy=\"119.036096\" rx=\"31.9790077\" ry=\"32.4848268\"></ellipse>\n        <path d=\"M224.021661,7.10542736e-15 L131.06335,7.10542736e-15 C108.582501,7.10542736e-15 95.9932253,15.7365943 95.9932253,32.4848268 C95.9932253,47.9404105 106.671629,64.9696537 131.06335,64.9696537 L224.021661,64.9696537 L224.021661,7.10542736e-15 Z\" fill=\"#669DF6\"></path>\n        <ellipse fill=\"#1A73E8\" cx=\"224.021661\" cy=\"32.4848268\" rx=\"31.9790077\" ry=\"32.4848268\"></ellipse>\n    </g>\n    </svg>\n  )\n);\n\nGoogleDataStudio.displayName = \"GoogleDataStudio\";\n\nexport const GoogleDataStudioMetadata = {\n  id: \"google-data-studio\",\n  baseId: \"google-data-studio\",\n  variant: \"default\",\n  name: \"Google Data Studio\",\n  category: \"google\",\n  tags: [],\n  viewBox: \"0 0 256 239\",\n} as const;\n\nexport default GoogleDataStudio;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

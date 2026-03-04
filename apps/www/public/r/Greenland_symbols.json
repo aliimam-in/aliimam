@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "Greenland_symbols",
+  "type": "registry:ui",
+  "title": "Greenland",
+  "description": "Greenland icon component",
+  "category": "flags",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/flags/Greenland_symbols.tsx",
+      "content": "/**\n * Auto-generated logo component: Greenland (symbols)\n * Category: flags\n * Do not edit manually\n */\n\n'use client';\nimport React from 'react';\n\nexport interface GreenlandSymbolsProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const GreenlandSymbols = React.forwardRef<SVGSVGElement, GreenlandSymbolsProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      viewBox=\"0 0 32 32\"\n      fill=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path d=\"M31 8C31 5.7908 29.2092 4 27 4H5C2.7908 4 1 5.7908 1 8V17H31V8Z\" fill=\"white\"/>\n<path d=\"M5 28H27C29.2092 28 31 26.2092 31 24V16H1V24C1 26.2092 2.7908 28 5 28Z\" fill=\"#CA0A2B\"/>\n<path d=\"M11 22C14.3137 22 17 19.3137 17 16C17 12.6863 14.3137 10 11 10C7.68629 10 5 12.6863 5 16C5 19.3137 7.68629 22 11 22Z\" fill=\"white\"/>\n<path d=\"M11 10C7.6863 10 5 12.6863 5 16H17C17 12.6863 14.3137 10 11 10Z\" fill=\"#CA0A2B\"/>\n    </svg>\n  )\n);\n\nGreenlandSymbols.displayName = \"GreenlandSymbols\";\n\nexport const GreenlandSymbolsMetadata = {\n  id: \"Greenland_symbols\",\n  baseId: \"Greenland\",\n  variant: \"symbols\",\n  name: \"Greenland\",\n  category: \"flags\",\n  tags: [],\n  viewBox: \"0 0 32 32\",\n} as const;\n\nexport default GreenlandSymbols;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

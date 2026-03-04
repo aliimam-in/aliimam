@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "abstract122_shapes",
+  "type": "registry:ui",
+  "title": "Abstract122",
+  "description": "Abstract122 icon component",
+  "category": "abstract",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/abstract/abstract122_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Abstract122ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Abstract122Shapes = React.forwardRef<SVGSVGElement, Abstract122ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 24 19\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path d=\"M24 1.45201L21.0209 0L13.0852 6.28568L16.0713 8.62844L20.32 5.26421V13.7462L2.93911 0.0889008L0 1.52523V17.548L2.97911 19L10.8609 12.7561L7.87479 10.4134L3.67998 13.7358V5.32524L21.0522 18.9878L24 17.548V1.45201Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nAbstract122Shapes.displayName = \"Abstract122Shapes\";\n\nexport const Abstract122ShapesMetadata = {\n  id: \"abstract122_shapes\",\n  baseId: \"abstract122\",\n  variant: \"shapes\",\n  name: \"Abstract122\",\n  category: \"abstract\",\n  tags: [],\n  viewBox: \"0 0 24 19\",\n} as const;\n\nexport default Abstract122Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

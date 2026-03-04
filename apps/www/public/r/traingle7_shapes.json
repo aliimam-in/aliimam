@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "traingle7_shapes",
+  "type": "registry:ui",
+  "title": "Traingle7",
+  "description": "Traingle7 icon component",
+  "category": "triangle",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/triangle/traingle7_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Traingle7ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Traingle7Shapes = React.forwardRef<SVGSVGElement, Traingle7ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 24 24\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <g clipPath=\"url(#clip0_2068_223)\">\n<path d=\"M-0.000373094 0L12.0002 12.0002L-0.000427246 24.0004H24.0009L12.0002 12.0002L24.0009 2.09819e-06L-0.000373094 0Z\" fill=\"currentColor\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2068_223\">\n<rect width=\"24\" height=\"24\" fill=\"currentColor\"/>\n</clipPath>\n</defs>\n    </svg>\n  )\n);\n\nTraingle7Shapes.displayName = \"Traingle7Shapes\";\n\nexport const Traingle7ShapesMetadata = {\n  id: \"traingle7_shapes\",\n  baseId: \"traingle7\",\n  variant: \"shapes\",\n  name: \"Traingle7\",\n  category: \"triangle\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Traingle7Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

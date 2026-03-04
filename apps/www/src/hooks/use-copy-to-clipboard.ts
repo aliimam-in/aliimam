@@ -2,7 +2,7 @@
 
 import * as React from "react"
 
-export function useCopyToClipboard({
+export function useCopyToClipboard({ 
   timeout = 2000,
   onCopy,
 }: {

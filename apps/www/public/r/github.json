@@ -1,18 +1,18 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-  "name": "github",
+  "name": "Github",
   "type": "registry:ui",
   "title": "Github",
   "description": "Github icon component",
-  "category": "others",
+  "category": "software",
   "tags": [],
   "dependencies": [],
   "devDependencies": [],
   "registryDependencies": [],
   "files": [
     {
-      "path": "registry/icons/others/github.tsx",
-      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface GithubProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Github = React.forwardRef<SVGSVGElement, GithubProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4\" />\n  <path d=\"M9 18c-4.51 2-5-2-7-2\" />\n    </svg>\n  )\n);\nGithub.displayName = \"Github\";\nexport const GithubMetadata = { \n  id: \"github\", \n  baseId: \"github\", \n  variant: \"default\", \n  name: \"Github\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Github;\n",
+      "path": "registry/icons/software/Github.tsx",
+      "content": "/**\n * Auto-generated logo component: Github (default)\n * Category: software\n * Do not edit manually\n */\n\n'use client';\nimport React from 'react';\n\nexport interface GithubProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Github = React.forwardRef<SVGSVGElement, GithubProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <g clipPath=\"url(#clip0_2039_482)\">\n<path fillRule=\"evenodd\" clipRule=\"evenodd\" d=\"M12 0C5.37 0 0 5.37 0 12C0 17.31 3.435 21.795 8.205 23.385C8.805 23.49 9.03 23.13 9.03 22.815C9.03 22.53 9.015 21.585 9.015 20.58C6 21.135 5.22 19.845 4.98 19.17C4.845 18.825 4.26 17.76 3.75 17.475C3.33 17.25 2.73 16.695 3.735 16.68C4.68 16.665 5.355 17.55 5.58 17.91C6.66 19.725 8.385 19.215 9.075 18.9C9.18 18.12 9.495 17.595 9.84 17.295C7.17 16.995 4.38 15.96 4.38 11.37C4.38 10.065 4.845 8.985 5.61 8.145C5.49 7.845 5.07 6.615 5.73 4.965C5.73 4.965 6.735 4.65 9.03 6.195C9.99 5.925 11.01 5.79 12.03 5.79C13.05 5.79 14.07 5.925 15.03 6.195C17.325 4.635 18.33 4.965 18.33 4.965C18.99 6.615 18.57 7.845 18.45 8.145C19.215 8.985 19.68 10.05 19.68 11.37C19.68 15.975 16.875 16.995 14.205 17.295C14.64 17.67 15.015 18.39 15.015 19.515C15.015 21.12 15 22.41 15 22.815C15 23.13 15.225 23.505 15.825 23.385C20.565 21.795 24 17.295 24 12C24 5.37 18.63 0 12 0Z\" fill=\"currentColor\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2039_482\">\n<rect width=\"24\" height=\"24\" fill=\"currentColor\"/>\n</clipPath>\n</defs>\n    </svg>\n  )\n);\n\nGithub.displayName = \"Github\";\n\nexport const GithubMetadata = {\n  id: \"Github\",\n  baseId: \"Github\",\n  variant: \"default\",\n  name: \"Github\",\n  category: \"software\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Github;\n",
       "type": "registry:ui"
     }
   ]

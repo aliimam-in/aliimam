@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "Tanzania_symbols",
+  "type": "registry:ui",
+  "title": "Tanzania",
+  "description": "Tanzania icon component",
+  "category": "flags",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/flags/Tanzania_symbols.tsx",
+      "content": "/**\n * Auto-generated logo component: Tanzania (symbols)\n * Category: flags\n * Do not edit manually\n */\n\n'use client';\nimport React from 'react';\n\nexport interface TanzaniaSymbolsProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const TanzaniaSymbols = React.forwardRef<SVGSVGElement, TanzaniaSymbolsProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      viewBox=\"0 0 32 32\"\n      fill=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path d=\"M2.316 26.947L29.684 5.053C28.973 4.405 28.037 4 27 4H5C2.791 4 1 5.791 1 8V24C1 25.172 1.513 26.216 2.316 26.947Z\" fill=\"#55B44B\"/>\n<path d=\"M29.684 5.05298L2.31599 26.947C3.02699 27.595 3.96299 28 4.99999 28H27C29.209 28 31 26.209 31 24V7.99998C31 6.82798 30.487 5.78398 29.684 5.05298Z\" fill=\"#4AA2D9\"/>\n<path d=\"M27 4H25.397L1 23.518V24C1 26.209 2.791 28 5 28H6.603L31 8.482V8C31 5.791 29.209 4 27 4Z\" fill=\"#F6D44A\"/>\n<path d=\"M27 4H26.998L1.07401 24.739C1.42101 26.594 3.04401 28 5.00001 28H5.00201L30.926 7.261C30.579 5.406 28.956 4 27 4Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nTanzaniaSymbols.displayName = \"TanzaniaSymbols\";\n\nexport const TanzaniaSymbolsMetadata = {\n  id: \"Tanzania_symbols\",\n  baseId: \"Tanzania\",\n  variant: \"symbols\",\n  name: \"Tanzania\",\n  category: \"flags\",\n  tags: [],\n  viewBox: \"0 0 32 32\",\n} as const;\n\nexport default TanzaniaSymbols;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

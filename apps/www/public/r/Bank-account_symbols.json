@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "Bank-account_symbols",
+  "type": "registry:ui",
+  "title": "Bank Account",
+  "description": "Bank Account icon component",
+  "category": "cards",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/cards/Bank-account_symbols.tsx",
+      "content": "/**\n * Auto-generated logo component: Bank Account (symbols)\n * Category: cards\n * Do not edit manually\n */\n\n'use client';\nimport React from 'react';\n\nexport interface BankAccountSymbolsProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const BankAccountSymbols = React.forwardRef<SVGSVGElement, BankAccountSymbolsProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path d=\"M20.25 5.25H3.75C2.50736 5.25 1.5 6.25736 1.5 7.5V16.5C1.5 17.7426 2.50736 18.75 3.75 18.75H20.25C21.4926 18.75 22.5 17.7426 22.5 16.5V7.5C22.5 6.25736 21.4926 5.25 20.25 5.25Z\" fill=\"#E6E6E6\"/>\n<path opacity=\"0.5\" d=\"M16.125 15.75H7.875C7.6677 15.75 7.5 15.9177 7.5 16.125C7.5 16.3323 7.6677 16.5 7.875 16.5H16.125C16.3323 16.5 16.5 16.3323 16.5 16.125C16.5 15.9177 16.3323 15.75 16.125 15.75Z\" fill=\"#1A1A1A\"/>\n<path opacity=\"0.5\" d=\"M16.2521 10.259L12.6156 7.8347C12.2414 7.5857 11.7587 7.5857 11.3844 7.8347L7.74758 10.259C7.548 10.3923 7.46085 10.6362 7.53038 10.8662C7.59998 11.0958 7.80795 11.25 8.0478 11.25H8.81243V14.25H8.24993C8.04263 14.25 7.87493 14.4177 7.87493 14.625C7.87493 14.8323 8.04263 15 8.24993 15H15.7499C15.9572 15 16.1249 14.8323 16.1249 14.625C16.1249 14.4177 15.9572 14.25 15.7499 14.25H15.1874V11.25H15.9521C16.1919 11.25 16.4 11.0958 16.4695 10.8662C16.5391 10.6362 16.452 10.3923 16.2521 10.259ZM10.6875 14.25H9.5625V11.25H10.6875V14.25ZM12.5625 14.25H11.4375V11.25H12.5625V14.25ZM12 10.125C11.6894 10.125 11.4375 9.87312 11.4375 9.56247C11.4375 9.25182 11.6894 8.99997 12 8.99997C12.3107 8.99997 12.5625 9.25182 12.5625 9.56247C12.5625 9.87312 12.3107 10.125 12 10.125ZM14.4375 14.25H13.3125V11.25H14.4375V14.25Z\" fill=\"#1A1A1A\"/>\n    </svg>\n  )\n);\n\nBankAccountSymbols.displayName = \"BankAccountSymbols\";\n\nexport const BankAccountSymbolsMetadata = {\n  id: \"Bank-account_symbols\",\n  baseId: \"Bank-account\",\n  variant: \"symbols\",\n  name: \"Bank Account\",\n  category: \"cards\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default BankAccountSymbols;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "rectangle6_shapes",
+  "type": "registry:ui",
+  "title": "Rectangle6",
+  "description": "Rectangle6 icon component",
+  "category": "rectangle",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/rectangle/rectangle6_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Rectangle6ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Rectangle6Shapes = React.forwardRef<SVGSVGElement, Rectangle6ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 24 24\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path d=\"M18 5.24537e-07V6L6 6L6 0L18 5.24537e-07Z\" fill=\"currentColor\"/>\n<path d=\"M6 18L6 6L0 6V18H6Z\" fill=\"currentColor\"/>\n<path d=\"M18 18V6H24V18H18Z\" fill=\"currentColor\"/>\n<path d=\"M18 18H6L6 24H18V18Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nRectangle6Shapes.displayName = \"Rectangle6Shapes\";\n\nexport const Rectangle6ShapesMetadata = {\n  id: \"rectangle6_shapes\",\n  baseId: \"rectangle6\",\n  variant: \"shapes\",\n  name: \"Rectangle6\",\n  category: \"rectangle\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Rectangle6Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

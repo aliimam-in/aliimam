@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "abstract49_shapes",
+  "type": "registry:ui",
+  "title": "Abstract49",
+  "description": "Abstract49 icon component",
+  "category": "abstract",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/abstract/abstract49_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Abstract49ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Abstract49Shapes = React.forwardRef<SVGSVGElement, Abstract49ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 24 24\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path d=\"M13.8841 1.92378C12.8428 0.882518 11.1572 0.882518 10.1159 1.92378L1.92377 10.1159C0.882507 11.1572 0.882507 12.8428 1.92377 13.8841L10.1159 22.0762C11.1572 23.1175 12.8428 23.1175 13.8841 22.0762L22.0762 13.8841C23.1175 12.8428 23.1175 11.1572 22.0762 10.1159L13.8841 1.92378ZM12 24L0 12L12 0L24 12L12 24ZM20.4567 6.20787C20.4567 4.73574 19.2642 3.54331 17.7921 3.54331H6.20789C4.73577 3.54331 3.54331 4.73574 3.54331 6.20787V17.7921C3.54331 19.2642 4.73577 20.4567 6.20789 20.4567H17.7921C19.2642 20.4567 20.4567 19.2642 20.4567 17.7921V6.20787ZM3.51498 20.485V3.51496H20.485V20.485H3.51498Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nAbstract49Shapes.displayName = \"Abstract49Shapes\";\n\nexport const Abstract49ShapesMetadata = {\n  id: \"abstract49_shapes\",\n  baseId: \"abstract49\",\n  variant: \"shapes\",\n  name: \"Abstract49\",\n  category: \"abstract\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Abstract49Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

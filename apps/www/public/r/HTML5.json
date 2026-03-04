@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "HTML5",
+  "type": "registry:ui",
+  "title": "HTML5",
+  "description": "HTML5 icon component",
+  "category": "language",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/language/HTML5.tsx",
+      "content": "/**\n * Auto-generated logo component: HTML5 (default)\n * Category: language\n * Do not edit manually\n */\n\n'use client';\nimport React from 'react';\n\nexport interface HTML5Props extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const HTML5 = React.forwardRef<SVGSVGElement, HTML5Props>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <g clipPath=\"url(#clip0_2066_1151)\">\n<path d=\"M2.90487 21.2308L1 0H21.9535L20.0487 21.2308L11.4535 23.6308\" fill=\"#E34F26\"/>\n<path d=\"M11.5 21.7846L18.4226 19.8923L20.0487 1.70764H11.5\" fill=\"#EF652A\"/>\n<path d=\"M11.5 9.60004H8.01548L7.78318 6.92312H11.5V4.3385H4.90265L5.59955 12.2308H11.5V9.60004ZM11.5 16.3847L8.52654 15.6L8.3407 13.5231H5.73893L6.06415 17.6308L11.5 19.1077V16.3847Z\" fill=\"#ECEDEE\"/>\n<path d=\"M11.5 12.2308H14.7058L14.3805 15.6L11.5 16.3847V19.1077L16.8429 17.6308L17.5863 9.60004H11.5V12.2308ZM11.5 4.3385V6.92312H17.8186L18.0509 4.3385H11.5Z\" fill=\"white\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2066_1151\">\n<rect width=\"21\" height=\"24\" fill=\"white\" transform=\"translate(1)\"/>\n</clipPath>\n</defs>\n    </svg>\n  )\n);\n\nHTML5.displayName = \"HTML5\";\n\nexport const HTML5Metadata = {\n  id: \"HTML5\",\n  baseId: \"HTML5\",\n  variant: \"default\",\n  name: \"HTML5\",\n  category: \"language\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default HTML5;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

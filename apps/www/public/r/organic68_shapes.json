@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "organic68_shapes",
+  "type": "registry:ui",
+  "title": "Organic68",
+  "description": "Organic68 icon component",
+  "category": "organic",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/organic/organic68_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Organic68ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Organic68Shapes = React.forwardRef<SVGSVGElement, Organic68ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 300 300\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path fillRule=\"evenodd\" clipRule=\"evenodd\" d=\"M161.572 278.882C132.582 282.721 8.65828 280.143 3.75427 263.953C2.79864 260.797 8.9595 213.487 11.9584 198.12C13.4573 190.44 23.7684 136.241 27.8258 119.424C29.918 110.754 32.5943 102.258 34.7813 93.6148C35.7552 89.766 40.0069 69.2806 41.3019 65.5125C44.4323 56.4065 48.1508 47.541 51.9448 38.7326C54.7638 32.1882 59.6372 20.2564 65.7552 15.0161C70.2322 11.1816 77.4985 10.398 82.7414 10.0751C95.4464 9.2943 108.183 9.25916 120.908 9.1378C140.971 8.94671 161.028 10.292 181.092 10.1861C197.029 10.1021 212.849 6.8024 228.825 7.62882C234.28 7.91107 241.305 8.62273 246.483 10.9806C256.075 15.3483 259.122 26.9166 261.996 36.6596C263.597 42.0833 264.908 47.6041 266.156 53.1337C272.047 79.2427 275.884 106.039 278.905 132.695C279.676 139.495 283.871 183.341 285.895 197.453C289.089 219.729 290.305 219.359 294.342 241.592C295.289 246.811 297.796 258.254 295.207 264.425C291.783 272.582 266.092 273.155 260.995 273.614C226.102 276.761 170.157 277.745 161.572 278.882Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nOrganic68Shapes.displayName = \"Organic68Shapes\";\n\nexport const Organic68ShapesMetadata = {\n  id: \"organic68_shapes\",\n  baseId: \"organic68\",\n  variant: \"shapes\",\n  name: \"Organic68\",\n  category: \"organic\",\n  tags: [],\n  viewBox: \"0 0 300 300\",\n} as const;\n\nexport default Organic68Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

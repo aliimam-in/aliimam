@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "Gabon_symbols",
+  "type": "registry:ui",
+  "title": "Gabon",
+  "description": "Gabon icon component",
+  "category": "flags",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/flags/Gabon_symbols.tsx",
+      "content": "/**\n * Auto-generated logo component: Gabon (symbols)\n * Category: flags\n * Do not edit manually\n */\n\n'use client';\nimport React from 'react';\n\nexport interface GabonSymbolsProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const GabonSymbols = React.forwardRef<SVGSVGElement, GabonSymbolsProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      viewBox=\"0 0 32 32\"\n      fill=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path d=\"M1 11H31V21H1V11Z\" fill=\"#F6D44A\"/>\n<path d=\"M5 4H27C29.208 4 31 5.792 31 8V12H1V8C1 5.792 2.792 4 5 4Z\" fill=\"#479D66\"/>\n<path d=\"M27 28L5 28C2.792 28 1 26.208 1 24V20L31 20V24C31 26.208 29.208 28 27 28Z\" fill=\"#4874C0\"/>\n    </svg>\n  )\n);\n\nGabonSymbols.displayName = \"GabonSymbols\";\n\nexport const GabonSymbolsMetadata = {\n  id: \"Gabon_symbols\",\n  baseId: \"Gabon\",\n  variant: \"symbols\",\n  name: \"Gabon\",\n  category: \"flags\",\n  tags: [],\n  viewBox: \"0 0 32 32\",\n} as const;\n\nexport default GabonSymbols;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

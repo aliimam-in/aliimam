@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "geometric2_pattern",
+  "type": "registry:ui",
+  "title": "Geometric2",
+  "description": "Geometric2 icon component",
+  "category": "geometric",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/geometric/geometric2_pattern.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Geometric2PatternProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Geometric2Pattern = React.forwardRef<SVGSVGElement, Geometric2PatternProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 500 500\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path d=\"M0 333.333H83.3333V416.667H0V333.333Z\" fill=\"currentColor\"/>\n<path d=\"M0 166.667H83.3333V250H0V166.667Z\" fill=\"currentColor\"/>\n<path d=\"M0 8.01375e-06H83.3333V83.3333H0V8.01375e-06Z\" fill=\"currentColor\"/>\n<path d=\"M166.667 416.667V500H83.3333V416.667H166.667Z\" fill=\"currentColor\"/>\n<path d=\"M333.333 416.667V500H250V416.667H333.333Z\" fill=\"currentColor\"/>\n<path d=\"M500 416.667V500H416.667V416.667H500Z\" fill=\"currentColor\"/>\n<path d=\"M250 3.64262e-06V83.3333H166.667V0L250 3.64262e-06Z\" fill=\"currentColor\"/>\n<path d=\"M250 166.667V250L166.667 250V166.667H250Z\" fill=\"currentColor\"/>\n<path d=\"M250 333.333V416.667H166.667V333.333H250Z\" fill=\"currentColor\"/>\n<path d=\"M416.667 3.64262e-06V83.3333H333.333V0L416.667 3.64262e-06Z\" fill=\"currentColor\"/>\n<path d=\"M416.667 166.667V250L333.333 250V166.667H416.667Z\" fill=\"currentColor\"/>\n<path d=\"M416.667 333.333V416.667H333.333V333.333H416.667Z\" fill=\"currentColor\"/>\n<path d=\"M166.667 83.3333V166.667H83.3333V83.3333H166.667Z\" fill=\"currentColor\"/>\n<path d=\"M166.667 250V333.333H83.3333V250H166.667Z\" fill=\"currentColor\"/>\n<path d=\"M333.333 83.3333V166.667H250V83.3333H333.333Z\" fill=\"currentColor\"/>\n<path d=\"M333.333 250V333.333H250V250L333.333 250Z\" fill=\"currentColor\"/>\n<path d=\"M416.667 250L500 250V333.333H416.667V250Z\" fill=\"currentColor\"/>\n<path d=\"M416.667 83.3333H500V166.667H416.667V83.3333Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nGeometric2Pattern.displayName = \"Geometric2Pattern\";\n\nexport const Geometric2PatternMetadata = {\n  id: \"geometric2_pattern\",\n  baseId: \"geometric2\",\n  variant: \"pattern\",\n  name: \"Geometric2\",\n  category: \"geometric\",\n  tags: [],\n  viewBox: \"0 0 500 500\",\n} as const;\n\nexport default Geometric2Pattern;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

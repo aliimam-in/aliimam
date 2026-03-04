@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "Antigua-Barbuda_symbols",
+  "type": "registry:ui",
+  "title": "Antigua Barbuda",
+  "description": "Antigua Barbuda icon component",
+  "category": "flags",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/flags/Antigua-Barbuda_symbols.tsx",
+      "content": "/**\n * Auto-generated logo component: Antigua Barbuda (symbols)\n * Category: flags\n * Do not edit manually\n */\n\n'use client';\nimport React from 'react';\n\nexport interface AntiguaBarbudaSymbolsProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const AntiguaBarbudaSymbols = React.forwardRef<SVGSVGElement, AntiguaBarbudaSymbolsProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      viewBox=\"0 0 32 32\"\n      fill=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path d=\"M27 4H5C2.79086 4 1 5.79086 1 8V24C1 26.2091 2.79086 28 5 28H27C29.2091 28 31 26.2091 31 24V8C31 5.79086 29.2091 4 27 4Z\" fill=\"currentColor\"/>\n<path d=\"M16 17.6579L8.065 15.0129L12.109 14.2389L8.67 11.9759L12.702 12.8079L10.39 9.4019L13.796 11.7139L12.964 7.6819L15.227 11.1209L16.001 7.0769L16.775 11.1209L19.038 7.6819L18.206 11.7139L21.612 9.4019L19.3 12.8079L23.332 11.9759L19.893 14.2389L23.937 15.0129L16.002 17.6579H16Z\" fill=\"#FCD116\"/>\n<path d=\"M2 15H30V20H2V15Z\" fill=\"#0072C6\"/>\n<path d=\"M5 19H27V28H5V19Z\" fill=\"white\"/>\n<path d=\"M1 8.0001V24.0001C1 26.2091 2.791 28.0001 5 28.0001H16L1.922 5.4751C1.355 6.1651 1 7.0371 1 8.0001Z\" fill=\"#CE1126\"/>\n<path d=\"M16 28.0001H27C29.209 28.0001 31 26.2091 31 24.0001V8.0001C31 7.0371 30.646 6.1651 30.078 5.4751L16 28.0001Z\" fill=\"#CE1126\"/>\n    </svg>\n  )\n);\n\nAntiguaBarbudaSymbols.displayName = \"AntiguaBarbudaSymbols\";\n\nexport const AntiguaBarbudaSymbolsMetadata = {\n  id: \"Antigua-Barbuda_symbols\",\n  baseId: \"Antigua-Barbuda\",\n  variant: \"symbols\",\n  name: \"Antigua Barbuda\",\n  category: \"flags\",\n  tags: [],\n  viewBox: \"0 0 32 32\",\n} as const;\n\nexport default AntiguaBarbudaSymbols;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

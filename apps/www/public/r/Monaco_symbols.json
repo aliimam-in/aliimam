@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "Monaco_symbols",
+  "type": "registry:ui",
+  "title": "Monaco",
+  "description": "Monaco icon component",
+  "category": "flags",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/flags/Monaco_symbols.tsx",
+      "content": "/**\n * Auto-generated logo component: Monaco (symbols)\n * Category: flags\n * Do not edit manually\n */\n\n'use client';\nimport React from 'react';\n\nexport interface MonacoSymbolsProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const MonacoSymbols = React.forwardRef<SVGSVGElement, MonacoSymbolsProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      viewBox=\"0 0 32 32\"\n      fill=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path d=\"M31 8C31 5.791 29.209 4 27 4H5C2.791 4 1 5.791 1 8V17H31V8Z\" fill=\"#BE2A2C\"/>\n<path d=\"M5 28H27C29.209 28 31 26.209 31 24V16H1V24C1 26.209 2.791 28 5 28Z\" fill=\"white\"/>\n    </svg>\n  )\n);\n\nMonacoSymbols.displayName = \"MonacoSymbols\";\n\nexport const MonacoSymbolsMetadata = {\n  id: \"Monaco_symbols\",\n  baseId: \"Monaco\",\n  variant: \"symbols\",\n  name: \"Monaco\",\n  category: \"flags\",\n  tags: [],\n  viewBox: \"0 0 32 32\",\n} as const;\n\nexport default MonacoSymbols;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

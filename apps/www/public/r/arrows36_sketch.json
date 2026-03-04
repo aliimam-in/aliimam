@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "arrows36_sketch",
+  "type": "registry:ui",
+  "title": "Arrows36",
+  "description": "Arrows36 icon component",
+  "category": "arrows",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/arrows/arrows36_sketch.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Arrows36SketchProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Arrows36Sketch = React.forwardRef<SVGSVGElement, Arrows36SketchProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 500 500\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path fillRule=\"evenodd\" clipRule=\"evenodd\" d=\"M63.318 59.7455C36.318 88.5455 29.5184 193.345 49.7184 270.144C78.3184 378.744 139.318 413.946 249.718 385.346C308.118 370.346 399.718 343.946 399.718 345.546C399.718 345.946 392.118 356.544 382.718 369.144C352.518 409.544 344.118 431.346 354.518 441.746C358.718 445.946 361.118 443.746 377.718 419.346C377.918 419.146 401.318 383.946 448.118 326.946C475.518 293.346 459.918 293.946 425.518 293.346C389.518 292.546 367.318 289.146 340.718 283.546C325.718 280.346 305.918 273.746 302.918 292.746C300.518 307.946 326.318 320.946 371.318 325.546C389.118 327.346 387.518 328.544 353.318 337.144C336.518 341.344 312.718 347.946 300.518 351.546C166.918 391.746 111.518 366.546 80.7184 251.546C69.7184 210.746 65.1182 131.745 71.5182 99.3451C78.3182 65.5451 74.718 47.7455 63.318 59.7455Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nArrows36Sketch.displayName = \"Arrows36Sketch\";\n\nexport const Arrows36SketchMetadata = {\n  id: \"arrows36_sketch\",\n  baseId: \"arrows36\",\n  variant: \"sketch\",\n  name: \"Arrows36\",\n  category: \"arrows\",\n  tags: [],\n  viewBox: \"0 0 500 500\",\n} as const;\n\nexport default Arrows36Sketch;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

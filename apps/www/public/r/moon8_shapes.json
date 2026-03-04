@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "moon8_shapes",
+  "type": "registry:ui",
+  "title": "Moon8",
+  "description": "Moon8 icon component",
+  "category": "moon",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/moon/moon8_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Moon8ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Moon8Shapes = React.forwardRef<SVGSVGElement, Moon8ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 24 24\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <g clipPath=\"url(#clip0_2068_391)\">\n<path d=\"M20.4849 20.4853C18.2345 22.7357 15.1823 24 11.9997 24V12.027C11.9852 15.3283 9.30453 18 5.99989 18C2.68624 18 1.44844e-07 15.3137 0 12C-1.44844e-07 8.6863 2.68624 6 5.99989 6C9.30453 6 11.9852 8.67171 11.9997 11.973L11.9997 0C15.1823 6.19675e-07 18.2345 1.26428 20.4849 3.51472C22.7353 5.76516 23.9995 8.81741 23.9995 12C23.9995 15.1826 22.7353 18.2349 20.4849 20.4853Z\" fill=\"currentColor\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2068_391\">\n<rect width=\"24\" height=\"24\" fill=\"currentColor\"/>\n</clipPath>\n</defs>\n    </svg>\n  )\n);\n\nMoon8Shapes.displayName = \"Moon8Shapes\";\n\nexport const Moon8ShapesMetadata = {\n  id: \"moon8_shapes\",\n  baseId: \"moon8\",\n  variant: \"shapes\",\n  name: \"Moon8\",\n  category: \"moon\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Moon8Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

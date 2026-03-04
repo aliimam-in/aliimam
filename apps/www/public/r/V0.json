@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "V0",
+  "type": "registry:ui",
+  "title": "V0",
+  "description": "V0 icon component",
+  "category": "software",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/software/V0.tsx",
+      "content": "/**\n * Auto-generated logo component: V0 (default)\n * Category: software\n * Do not edit manually\n */\n\n'use client';\nimport React from 'react';\n\nexport interface V0Props extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const V0 = React.forwardRef<SVGSVGElement, V0Props>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <g clipPath=\"url(#clip0_2041_213)\">\n<path fillRule=\"evenodd\" clipRule=\"evenodd\" d=\"M14.2548 8.25H19.8798C19.9684 8.25 20.0556 8.25615 20.141 8.26805L14.2686 14.1404C14.2564 14.0537 14.25 13.9651 14.25 13.875V8.25H12V13.875C12 16.1532 13.8468 18 16.125 18H21.75V15.75H16.125C16.0348 15.75 15.9464 15.7437 15.8596 15.7314L21.7356 9.85542C21.7482 9.94346 21.7548 10.0335 21.7548 10.125V15.75H24.0048V10.125C24.0048 7.84683 22.158 6 19.8798 6H14.2548V8.25ZM0 7.5V7.50607L7.68787 17.296C8.61178 18.4726 10.5016 17.8193 10.5016 16.3233V7.5H8.25159V14.3708L2.85606 7.5H0Z\" fill=\"currentColor\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2041_213\">\n<rect width=\"24\" height=\"24\" fill=\"currentColor\"/>\n</clipPath>\n</defs>\n    </svg>\n  )\n);\n\nV0.displayName = \"V0\";\n\nexport const V0Metadata = {\n  id: \"V0\",\n  baseId: \"V0\",\n  variant: \"default\",\n  name: \"V0\",\n  category: \"software\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default V0;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

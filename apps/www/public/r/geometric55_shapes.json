@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "geometric55_shapes",
+  "type": "registry:ui",
+  "title": "Geometric55",
+  "description": "Geometric55 icon component",
+  "category": "geometric",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/geometric/geometric55_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Geometric55ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Geometric55Shapes = React.forwardRef<SVGSVGElement, Geometric55ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 357 357\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path d=\"M174.796 351.074L18.7805 261.585L19.2888 91.0608L174.796 1.28027L330.811 91.0608V261.585L174.796 351.074Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nGeometric55Shapes.displayName = \"Geometric55Shapes\";\n\nexport const Geometric55ShapesMetadata = {\n  id: \"geometric55_shapes\",\n  baseId: \"geometric55\",\n  variant: \"shapes\",\n  name: \"Geometric55\",\n  category: \"geometric\",\n  tags: [],\n  viewBox: \"0 0 357 357\",\n} as const;\n\nexport default Geometric55Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

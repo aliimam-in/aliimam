@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ellipse6_shapes",
+  "type": "registry:ui",
+  "title": "Ellipse6",
+  "description": "Ellipse6 icon component",
+  "category": "ellipse",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/ellipse/ellipse6_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Ellipse6ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Ellipse6Shapes = React.forwardRef<SVGSVGElement, Ellipse6ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 24 24\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <g clipPath=\"url(#clip0_2068_767)\">\n<path d=\"M24 3C24 4.65685 22.6569 6 21 6C19.3431 6 18 4.65685 18 3C18 1.34315 19.3431 0 21 0C22.6569 0 24 1.34315 24 3Z\" fill=\"currentColor\"/>\n<path d=\"M24 21C24 22.6569 22.6569 24 21 24C19.3431 24 18 22.6569 18 21C18 19.3431 19.3431 18 21 18C22.6569 18 24 19.3431 24 21Z\" fill=\"currentColor\"/>\n<path d=\"M21 15C22.6569 15 24 13.6569 24 12C24 10.3431 22.6569 9 21 9C19.3431 9 18 10.3431 18 12C18 13.6569 19.3431 15 21 15Z\" fill=\"currentColor\"/>\n<path d=\"M15 21C15 22.6569 13.6569 24 12 24C10.3431 24 9 22.6569 9 21C9 19.3431 10.3431 18 12 18C13.6569 18 15 19.3431 15 21Z\" fill=\"currentColor\"/>\n<path d=\"M12 6C13.6569 6 15 4.65685 15 3C15 1.34315 13.6569 0 12 0C10.3431 0 9 1.34315 9 3C9 4.65685 10.3431 6 12 6Z\" fill=\"currentColor\"/>\n<path d=\"M6 21C6 22.6569 4.65685 24 3 24C1.34315 24 0 22.6569 0 21C0 19.3431 1.34315 18 3 18C4.65685 18 6 19.3431 6 21Z\" fill=\"currentColor\"/>\n<path d=\"M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z\" fill=\"currentColor\"/>\n<path d=\"M6 3C6 4.65685 4.65685 6 3 6C1.34315 6 0 4.65685 0 3C0 1.34315 1.34315 0 3 0C4.65685 0 6 1.34315 6 3Z\" fill=\"currentColor\"/>\n<path d=\"M3 15C4.65685 15 6 13.6569 6 12C6 10.3431 4.65685 9 3 9C1.34315 9 0 10.3431 0 12C0 13.6569 1.34315 15 3 15Z\" fill=\"currentColor\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2068_767\">\n<rect width=\"24\" height=\"24\" fill=\"currentColor\"/>\n</clipPath>\n</defs>\n    </svg>\n  )\n);\n\nEllipse6Shapes.displayName = \"Ellipse6Shapes\";\n\nexport const Ellipse6ShapesMetadata = {\n  id: \"ellipse6_shapes\",\n  baseId: \"ellipse6\",\n  variant: \"shapes\",\n  name: \"Ellipse6\",\n  category: \"ellipse\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Ellipse6Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

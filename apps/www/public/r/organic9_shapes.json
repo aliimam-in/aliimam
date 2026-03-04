@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "organic9_shapes",
+  "type": "registry:ui",
+  "title": "Organic9",
+  "description": "Organic9 icon component",
+  "category": "organic",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/organic/organic9_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Organic9ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Organic9Shapes = React.forwardRef<SVGSVGElement, Organic9ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 300 600\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path fillRule=\"evenodd\" clipRule=\"evenodd\" d=\"M151.963 178.165C156.676 200.482 158.243 227.108 156.676 258.332C154.915 293.421 154.442 372.891 154.191 408.037C154.06 426.419 153.166 444.507 151.963 462.822C151.734 466.312 152.301 475.359 150.504 478.029C144.541 486.886 93.5918 506.218 81.2175 510.906C42.8378 525.446 1.88155 559.848 31.3043 571.208C82.8426 591.106 152.31 578.833 206.136 571.208C220.834 569.126 235.746 567.423 250.274 564.158C254.47 563.214 263.33 561.739 265.016 556.172C267.363 548.416 265.358 536.712 265.358 528.738C265.358 514.692 266.609 500.589 267.757 486.607C272.353 430.628 278.727 330.853 278.727 274.557C278.727 246.29 278.728 189.004 275.595 178.165C270.353 160.029 144.675 143.653 151.963 178.165Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nOrganic9Shapes.displayName = \"Organic9Shapes\";\n\nexport const Organic9ShapesMetadata = {\n  id: \"organic9_shapes\",\n  baseId: \"organic9\",\n  variant: \"shapes\",\n  name: \"Organic9\",\n  category: \"organic\",\n  tags: [],\n  viewBox: \"0 0 300 600\",\n} as const;\n\nexport default Organic9Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

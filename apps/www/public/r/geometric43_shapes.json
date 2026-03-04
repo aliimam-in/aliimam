@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "geometric43_shapes",
+  "type": "registry:ui",
+  "title": "Geometric43",
+  "description": "Geometric43 icon component",
+  "category": "geometric",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/geometric/geometric43_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Geometric43ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Geometric43Shapes = React.forwardRef<SVGSVGElement, Geometric43ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 357 357\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path d=\"M1.73938e-06 177.581C2.2807e-06 267.114 178.175 177.581 178.175 177.581C178.175 177.581 1.19806e-06 88.0481 1.73938e-06 177.581Z\" fill=\"currentColor\"/>\n<path d=\"M356.35 177.581C356.35 267.114 178.175 177.581 178.175 177.581C178.175 177.581 356.35 88.0481 356.35 177.581Z\" fill=\"currentColor\"/>\n<path d=\"M89.0875 331.885C166.625 376.651 178.175 177.581 178.175 177.581C178.175 177.581 11.5498 287.119 89.0875 331.885Z\" fill=\"currentColor\"/>\n<path d=\"M267.262 23.277C344.8 68.0435 178.175 177.581 178.175 177.581C178.175 177.581 189.725 -21.4894 267.262 23.277Z\" fill=\"currentColor\"/>\n<path d=\"M267.262 331.885C189.724 376.651 178.175 177.581 178.175 177.581C178.175 177.581 344.8 287.119 267.262 331.885Z\" fill=\"currentColor\"/>\n<path d=\"M89.0873 23.277C11.5496 68.0435 178.175 177.581 178.175 177.581C178.175 177.581 166.625 -21.4894 89.0873 23.277Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nGeometric43Shapes.displayName = \"Geometric43Shapes\";\n\nexport const Geometric43ShapesMetadata = {\n  id: \"geometric43_shapes\",\n  baseId: \"geometric43\",\n  variant: \"shapes\",\n  name: \"Geometric43\",\n  category: \"geometric\",\n  tags: [],\n  viewBox: \"0 0 357 357\",\n} as const;\n\nexport default Geometric43Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "google-keep",
+  "type": "registry:ui",
+  "title": "Google Keep",
+  "description": "Google Keep icon component",
+  "category": "google",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/google/google-keep.tsx",
+      "content": "/**\n * Auto-generated logo component: Google Keep (default)\n * Category: google\n * Do not edit manually\n */\n\n'use client';\nimport React from 'react';\n\nexport interface GoogleKeepProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const GoogleKeep = React.forwardRef<SVGSVGElement, GoogleKeepProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      viewBox=\"0 0 256 352\"\n      fill=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <g>\n        <path d=\"M232,352 L24,352 C10.72,352 0,341.28 0,328 L0,24 C0,10.72 10.72,0 24,0 L168,0 L256,88 L256,328 C256,341.28 245.28,352 232,352 Z\" fill=\"#FFBA00\"></path>\n        <polygon fill=\"#FF9500\" points=\"168 0 256 88 168 88\"></polygon>\n        <path d=\"M156,236 L156,256 L100,256 L100,236 L156,236 Z M127.92,120.001 L128.69995,120.006966 C157.023272,120.466144 179.84,143.5672 179.84,172 C179.84,190.56 170.12,206.8 155.52,216 L155.52,216 L100.32,216 C85.68,206.8 76,190.56 76,172 C76,143.28 99.28,120 128,120 L127.92,120.001 Z\" fill=\"#FFFFFF\"></path>\n    </g>\n    </svg>\n  )\n);\n\nGoogleKeep.displayName = \"GoogleKeep\";\n\nexport const GoogleKeepMetadata = {\n  id: \"google-keep\",\n  baseId: \"google-keep\",\n  variant: \"default\",\n  name: \"Google Keep\",\n  category: \"google\",\n  tags: [],\n  viewBox: \"0 0 256 352\",\n} as const;\n\nexport default GoogleKeep;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

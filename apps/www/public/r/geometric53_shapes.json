@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "geometric53_shapes",
+  "type": "registry:ui",
+  "title": "Geometric53",
+  "description": "Geometric53 icon component",
+  "category": "geometric",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/geometric/geometric53_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Geometric53ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Geometric53Shapes = React.forwardRef<SVGSVGElement, Geometric53ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 357 357\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path d=\"M4.57764e-05 356.35C98.4032 356.35 178.175 276.578 178.175 178.175H4.57764e-05V356.35Z\" fill=\"currentColor\"/>\n<path d=\"M178.175 178.175C178.175 79.7716 257.946 3.48693e-06 356.35 7.78827e-06L356.35 178.175L178.175 178.175Z\" fill=\"currentColor\"/>\n<path d=\"M178.175 178.175C79.7716 178.175 1.39477e-05 98.4032 3.11531e-05 4.57764e-05L178.175 7.69294e-05L178.175 178.175Z\" fill=\"currentColor\"/>\n<path d=\"M356.349 356.35C356.349 257.946 276.578 178.175 178.175 178.175L178.175 356.35L356.349 356.35Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nGeometric53Shapes.displayName = \"Geometric53Shapes\";\n\nexport const Geometric53ShapesMetadata = {\n  id: \"geometric53_shapes\",\n  baseId: \"geometric53\",\n  variant: \"shapes\",\n  name: \"Geometric53\",\n  category: \"geometric\",\n  tags: [],\n  viewBox: \"0 0 357 357\",\n} as const;\n\nexport default Geometric53Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

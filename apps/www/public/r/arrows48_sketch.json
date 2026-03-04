@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "arrows48_sketch",
+  "type": "registry:ui",
+  "title": "Arrows48",
+  "description": "Arrows48 icon component",
+  "category": "arrows",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/arrows/arrows48_sketch.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Arrows48SketchProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Arrows48Sketch = React.forwardRef<SVGSVGElement, Arrows48SketchProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 500 500\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path fillRule=\"evenodd\" clipRule=\"evenodd\" d=\"M75.7563 31.272C39.3277 40.1291 14.7566 90.7004 25.328 135.415C33.1852 168.557 41.1847 167.414 41.3276 133.129C41.6133 61.986 71.6137 23.1294 111.042 42.9866C139.757 57.558 207.327 119.129 261.184 179.843C269.47 189.128 322.613 245.271 353.327 288.414C372.327 315.128 416.184 370.128 416.184 373.128C416.184 383.414 433.613 382.7 446.184 371.843C451.756 366.986 456.613 363.416 456.899 363.701C458.899 365.701 458.184 457.701 456.184 456.987C456.041 456.987 378.613 439.986 377.899 439.7C376.756 439.271 380.327 434.414 387.613 426.7C400.47 412.843 400.613 412.414 395.47 407.557C393.47 405.7 382.329 390.271 370.9 373.414C293.184 258.843 280.9 243.271 187.329 140.272C130.328 77.5574 96.7566 64.2719 73.1852 95.4147C55.6137 118.7 62.7562 191.558 81.3276 177.987C82.1847 177.273 82.7562 163.986 82.7562 143.414C82.7562 68.272 103.613 67.9863 169.041 141.986C180.47 154.986 200.184 177.128 212.899 191.271C294.899 282.986 291.613 285.271 381.184 406.7C350.756 435.557 338.327 445.416 359.327 448.416C362.899 448.987 379.613 452.844 396.47 456.987C474.613 476.558 474.041 476.557 475.613 451.128C479.184 392.7 472.186 350.13 475.186 347.13C480.186 342.13 473.756 334.987 464.327 334.987C457.613 334.987 454.329 337.128 438.9 350.986C425.329 363.414 429.614 366.414 395.9 320.986C318.186 216.414 293.041 186.7 216.899 109.843C144.184 36.5577 116.756 21.4149 75.7563 31.272Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nArrows48Sketch.displayName = \"Arrows48Sketch\";\n\nexport const Arrows48SketchMetadata = {\n  id: \"arrows48_sketch\",\n  baseId: \"arrows48\",\n  variant: \"sketch\",\n  name: \"Arrows48\",\n  category: \"arrows\",\n  tags: [],\n  viewBox: \"0 0 500 500\",\n} as const;\n\nexport default Arrows48Sketch;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "google-marketing-platform",
+  "type": "registry:ui",
+  "title": "Google Marketing Platform",
+  "description": "Google Marketing Platform icon component",
+  "category": "google",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/google/google-marketing-platform.tsx",
+      "content": "/**\n * Auto-generated logo component: Google Marketing Platform (default)\n * Category: google\n * Do not edit manually\n */\n\n'use client';\nimport React from 'react';\n\nexport interface GoogleMarketingPlatformProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const GoogleMarketingPlatform = React.forwardRef<SVGSVGElement, GoogleMarketingPlatformProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      viewBox=\"0 0 256 256\"\n      fill=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <defs>\n        <linearGradient x1=\"0%\" y1=\"50%\" x2=\"99.999319%\" y2=\"50%\" id=\"linearGradient-1\">\n            <stop stopColor=\"#246FDB\" offset=\"0%\"></stop>\n            <stop stopColor=\"#2973DF\" offset=\"5.52%\"></stop>\n            <stop stopColor=\"#377DEB\" offset=\"27.81%\"></stop>\n            <stop stopColor=\"#3F83F2\" offset=\"54.91%\"></stop>\n            <stop stopColor=\"#4285F4\" offset=\"100%\"></stop>\n        </linearGradient>\n    </defs>\n\t\t<g>\n\t\t\t\t<path d=\"M173.2,82.8 C198.2,107.8 198.2,148.3 173.2,173.3 C160.7,185.8 160.7,206.1 173.2,218.5 C185.7,231 206,231 218.5,218.5 C268.5,168.5 268.5,87.5 218.5,37.5 L173.2,82.8 Z\" fill=\"#EA4335\"></path>\n\t\t\t\t<path d=\"M218.4,37.5 C168.4,-12.5 87.5,-12.5 37.5,37.5 C-12.5,87.5 -12.5,168.5 37.5,218.5 L82.8,173.3 C57.8,148.3 57.8,107.8 82.8,82.8 C107.8,57.8 148.3,57.8 173.3,82.8 C185.8,95.3 206.1,95.3 218.6,82.8 C230.9,70.3 230.9,50 218.4,37.5 Z\" fill=\"url(#linearGradient-1)\"></path>\n\t\t\t\t<path d=\"M218.4,218.5 L173.1,173.3 C148.1,198.3 107.6,198.3 82.6,173.3 L37.3,218.5 C87.5,268.5 168.4,268.5 218.4,218.5 Z\" fill=\"#FBBC04\"></path>\n\t\t\t\t<path d=\"M173.2,173.3 C185.7,160.8 205.9,160.8 218.4,173.3 C230.9,185.8 230.9,206.1 218.4,218.6 C205.9,231.1 185.7,231.1 173.2,218.6 C160.7,206.1 160.7,185.8 173.2,173.3 Z\" fill=\"#EA4335\"></path>\n\t\t\t\t<path d=\"M37.5,173.3 C50,160.8 70.2,160.8 82.7,173.3 C95.2,185.8 95.2,206.1 82.7,218.6 C70.2,231.1 50,231.1 37.5,218.6 C25,206.1 25,185.8 37.5,173.3 Z\" fill=\"#34A853\"></path>\n\t\t</g>\n    </svg>\n  )\n);\n\nGoogleMarketingPlatform.displayName = \"GoogleMarketingPlatform\";\n\nexport const GoogleMarketingPlatformMetadata = {\n  id: \"google-marketing-platform\",\n  baseId: \"google-marketing-platform\",\n  variant: \"default\",\n  name: \"Google Marketing Platform\",\n  category: \"google\",\n  tags: [],\n  viewBox: \"0 0 256 256\",\n} as const;\n\nexport default GoogleMarketingPlatform;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

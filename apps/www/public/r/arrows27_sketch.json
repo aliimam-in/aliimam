@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "arrows27_sketch",
+  "type": "registry:ui",
+  "title": "Arrows27",
+  "description": "Arrows27 icon component",
+  "category": "arrows",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/arrows/arrows27_sketch.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Arrows27SketchProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Arrows27Sketch = React.forwardRef<SVGSVGElement, Arrows27SketchProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 500 500\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path fillRule=\"evenodd\" clipRule=\"evenodd\" d=\"M309.677 66.7275C314.163 69.0983 324.55 100.155 324.55 110.586C324.55 112.957 319.358 116.987 312.275 120.78C300.473 126.706 261.76 150.888 235.321 168.431C198.733 193.087 173.475 235.286 166.866 235.286C118.239 235.286 30.6632 316.128 8.23825 381.795C-17.7276 457.895 24.7615 456.475 38.4527 410.483C56.3927 350.028 89.441 303.563 137.124 271.795C153.175 261.128 153.883 261.6 147.51 277.96C116.351 359.513 221.395 419.253 284.658 355.955C327.147 313.283 295.28 245.48 226.352 231.493C210.536 228.411 247.124 190.479 295.75 159.897C336.587 134.293 333.283 134.767 338.005 151.362C357.832 222.957 373.413 227.225 408.585 171.039C424.4 145.91 454.142 116.275 493.092 87.3523C507.962 76.2098 498.285 70.7575 469.25 73.6025C437.62 76.9215 394.185 72.6545 358.07 63.1715C306.61 50.1325 303.068 63.1715 309.677 66.7275ZM226.588 251.88C273.328 273.218 275.45 344.813 230.128 363.54C201.094 375.633 172.531 322.765 186.458 282.7C197.789 250.695 207.704 243.109 226.588 251.88Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nArrows27Sketch.displayName = \"Arrows27Sketch\";\n\nexport const Arrows27SketchMetadata = {\n  id: \"arrows27_sketch\",\n  baseId: \"arrows27\",\n  variant: \"sketch\",\n  name: \"Arrows27\",\n  category: \"arrows\",\n  tags: [],\n  viewBox: \"0 0 500 500\",\n} as const;\n\nexport default Arrows27Sketch;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

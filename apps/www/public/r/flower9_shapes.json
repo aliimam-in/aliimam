@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "flower9_shapes",
+  "type": "registry:ui",
+  "title": "Flower9",
+  "description": "Flower9 icon component",
+  "category": "flower",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/flower/flower9_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Flower9ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Flower9Shapes = React.forwardRef<SVGSVGElement, Flower9ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 24 24\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path d=\"M6 0C2.68629 0 0 2.68629 0 6C0 9.31371 2.68629 12 6 12C2.68629 12 0 14.6863 0 18C0 21.3137 2.68629 24 6 24H18C21.3137 24 24 21.3137 24 18C24 14.6863 21.3137 12 18 12C21.3137 12 24 9.31371 24 6C24 2.68629 21.3137 0 18 0H6Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nFlower9Shapes.displayName = \"Flower9Shapes\";\n\nexport const Flower9ShapesMetadata = {\n  id: \"flower9_shapes\",\n  baseId: \"flower9\",\n  variant: \"shapes\",\n  name: \"Flower9\",\n  category: \"flower\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Flower9Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "SVG",
+  "type": "registry:ui",
+  "title": "SVG",
+  "description": "SVG icon component",
+  "category": "design",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/design/SVG.tsx",
+      "content": "/**\n * Auto-generated logo component: SVG (default)\n * Category: design\n * Do not edit manually\n */\n\n'use client';\nimport React from 'react';\n\nexport interface SVGProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const SVG = React.forwardRef<SVGSVGElement, SVGProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <g clipPath=\"url(#clip0_2062_3158)\">\n<path d=\"M5.26808 10.7319C5.01727 10.4811 4.69773 10.3103 4.34985 10.2411C4.00197 10.1719 3.64138 10.2074 3.31369 10.3432C2.98599 10.4789 2.7059 10.7088 2.50884 11.0037C2.31178 11.2986 2.2066 11.6453 2.2066 12C2.2066 12.3547 2.31178 12.7015 2.50884 12.9964C2.7059 13.2913 2.98599 13.5211 3.31369 13.6569C3.64138 13.7926 4.00197 13.8281 4.34985 13.7589C4.69773 13.6897 5.01727 13.5189 5.26808 13.2681H18.732C18.9828 13.5189 19.3023 13.6897 19.6502 13.7589C19.9981 13.8281 20.3587 13.7926 20.6864 13.6569C21.0141 13.5211 21.2942 13.2913 21.4912 12.9964C21.6883 12.7015 21.7935 12.3547 21.7935 12C21.7935 11.6453 21.6883 11.2986 21.4912 11.0037C21.2942 10.7088 21.0141 10.4789 20.6864 10.3432C20.3587 10.2074 19.9981 10.1719 19.6502 10.2411C19.3023 10.3103 18.9828 10.4811 18.732 10.7319H5.26808Z\" fill=\"#FFB13B\" stroke=\"currentColor\" strokeWidth=\"38.009\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2062_3158\">\n<rect width=\"24\" height=\"24\" fill=\"currentColor\"/>\n</clipPath>\n</defs>\n    </svg>\n  )\n);\n\nSVG.displayName = \"SVG\";\n\nexport const SVGMetadata = {\n  id: \"SVG\",\n  baseId: \"SVG\",\n  variant: \"default\",\n  name: \"SVG\",\n  category: \"design\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default SVG;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

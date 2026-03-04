@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "rectangle7_shapes",
+  "type": "registry:ui",
+  "title": "Rectangle7",
+  "description": "Rectangle7 icon component",
+  "category": "rectangle",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/rectangle/rectangle7_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Rectangle7ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Rectangle7Shapes = React.forwardRef<SVGSVGElement, Rectangle7ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 24 24\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path d=\"M15.36 3.36L12 0L8.64 3.36L12 6.72L15.36 3.36Z\" fill=\"currentColor\"/>\n<path d=\"M6.72 12L3.36 8.64L0 12L3.36 15.36L6.72 12Z\" fill=\"currentColor\"/>\n<path d=\"M15.36 12L19.68 16.32L16.32 19.68L12 15.36L7.68 19.68L4.32 16.32L8.64 12L4.32 7.68L7.68 4.32L12 8.64L16.32 4.32L19.68 7.68L15.36 12Z\" fill=\"currentColor\"/>\n<path d=\"M20.64 8.64L24 12L20.64 15.36L17.28 12L20.64 8.64Z\" fill=\"currentColor\"/>\n<path d=\"M15.36 20.64L12 17.28L8.64 20.64L12 24L15.36 20.64Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nRectangle7Shapes.displayName = \"Rectangle7Shapes\";\n\nexport const Rectangle7ShapesMetadata = {\n  id: \"rectangle7_shapes\",\n  baseId: \"rectangle7\",\n  variant: \"shapes\",\n  name: \"Rectangle7\",\n  category: \"rectangle\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Rectangle7Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

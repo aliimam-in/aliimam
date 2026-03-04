@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "traingle11_shapes",
+  "type": "registry:ui",
+  "title": "Traingle11",
+  "description": "Traingle11 icon component",
+  "category": "triangle",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/triangle/traingle11_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Traingle11ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Traingle11Shapes = React.forwardRef<SVGSVGElement, Traingle11ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 24 24\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path fillRule=\"evenodd\" clipRule=\"evenodd\" d=\"M12 12L6.08462e-07 5.04L0 18.96L12 12ZM12 12L18.96 0H5.04L12 12ZM12 12L24 5.04V18.96L12 12ZM12 12L18.96 24H5.04L12 12Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nTraingle11Shapes.displayName = \"Traingle11Shapes\";\n\nexport const Traingle11ShapesMetadata = {\n  id: \"traingle11_shapes\",\n  baseId: \"traingle11\",\n  variant: \"shapes\",\n  name: \"Traingle11\",\n  category: \"triangle\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Traingle11Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

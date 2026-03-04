@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "flower5_shapes",
+  "type": "registry:ui",
+  "title": "Flower5",
+  "description": "Flower5 icon component",
+  "category": "flower",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/flower/flower5_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Flower5ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Flower5Shapes = React.forwardRef<SVGSVGElement, Flower5ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 24 24\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <g clipPath=\"url(#clip0_2068_582)\">\n<path d=\"M16.8474 7.15263C21.0602 7.75728 24 9.27361 24 12C24 14.7264 21.0602 16.2427 16.8474 16.8474C16.2427 21.0602 14.7264 24 12 24C9.27361 24 7.75728 21.0602 7.15263 16.8474C2.93978 16.2427 0 14.7264 0 12C2.48619e-07 9.27361 2.93978 7.75728 7.15263 7.15263C7.75728 2.93978 9.27361 0 12 0C14.7264 0 16.2427 2.93978 16.8474 7.15263Z\" fill=\"currentColor\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2068_582\">\n<rect width=\"24\" height=\"24\" fill=\"currentColor\"/>\n</clipPath>\n</defs>\n    </svg>\n  )\n);\n\nFlower5Shapes.displayName = \"Flower5Shapes\";\n\nexport const Flower5ShapesMetadata = {\n  id: \"flower5_shapes\",\n  baseId: \"flower5\",\n  variant: \"shapes\",\n  name: \"Flower5\",\n  category: \"flower\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Flower5Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

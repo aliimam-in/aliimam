@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "Motion",
+  "type": "registry:ui",
+  "title": "Motion",
+  "description": "Motion icon component",
+  "category": "library",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/library/Motion.tsx",
+      "content": "/**\n * Auto-generated logo component: Motion (default)\n * Category: library\n * Do not edit manually\n */\n\n'use client';\nimport React from 'react';\n\nexport interface MotionProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Motion = React.forwardRef<SVGSVGElement, MotionProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <g clipPath=\"url(#clip0_2066_922)\">\n<path d=\"M9.06197 8L4.32 15.993H0L3.7027 9.75175C4.27668 8.78429 5.70902 8 6.90197 8H9.06197ZM19.6558 9.99824C19.6558 8.89463 20.6229 8 21.8158 8C23.0088 8 23.9758 8.89463 23.9758 9.99824C23.9758 11.1018 23.0088 11.9965 21.8158 11.9965C20.6229 11.9965 19.6558 11.1018 19.6558 9.99824ZM9.87196 8H14.192L9.44999 15.993H5.12999L9.87196 8ZM14.9742 8H19.2943L15.5915 14.2412C15.0176 15.2087 13.5852 15.993 12.3923 15.993H10.2323L14.9742 8Z\" fill=\"currentColor\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2066_922\">\n<rect width=\"24\" height=\"8\" fill=\"currentColor\" transform=\"translate(0 8)\"/>\n</clipPath>\n</defs>\n    </svg>\n  )\n);\n\nMotion.displayName = \"Motion\";\n\nexport const MotionMetadata = {\n  id: \"Motion\",\n  baseId: \"Motion\",\n  variant: \"default\",\n  name: \"Motion\",\n  category: \"library\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Motion;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

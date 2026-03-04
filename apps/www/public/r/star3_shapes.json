@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "star3_shapes",
+  "type": "registry:ui",
+  "title": "Star3",
+  "description": "Star3 icon component",
+  "category": "stars",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/stars/star3_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Star3ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Star3Shapes = React.forwardRef<SVGSVGElement, Star3ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 24 24\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <g clipPath=\"url(#clip0_2068_124)\">\n<path d=\"M7.02942 4.2669e-07L12 3.77815L16.9705 0L17.8137 6.18627L24 7.02944L20.2218 12L24 16.9706L17.8137 17.8137L16.9705 24L12 20.2218L7.02942 24L6.18626 17.8137L-1.48321e-05 16.9706L3.77813 12L-1.52588e-05 7.02944L6.18626 6.18627L7.02942 4.2669e-07Z\" fill=\"currentColor\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2068_124\">\n<rect width=\"24\" height=\"24\" fill=\"currentColor\"/>\n</clipPath>\n</defs>\n    </svg>\n  )\n);\n\nStar3Shapes.displayName = \"Star3Shapes\";\n\nexport const Star3ShapesMetadata = {\n  id: \"star3_shapes\",\n  baseId: \"star3\",\n  variant: \"shapes\",\n  name: \"Star3\",\n  category: \"stars\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Star3Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

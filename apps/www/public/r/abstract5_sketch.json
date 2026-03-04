@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "abstract5_sketch",
+  "type": "registry:ui",
+  "title": "Abstract5",
+  "description": "Abstract5 icon component",
+  "category": "abstract",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/abstract/abstract5_sketch.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Abstract5SketchProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Abstract5Sketch = React.forwardRef<SVGSVGElement, Abstract5SketchProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 446 446\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path fillRule=\"evenodd\" clipRule=\"evenodd\" d=\"M204.394 103.754C149.695 115.118 78.2858 191.985 105.802 270.413C132.984 347.949 245.278 372.903 308.666 301.94C338.634 268.296 349.662 237.326 345.429 197.89C341.641 162.352 300.979 113.781 275.023 113.781C268.116 113.781 271.903 118.126 284.492 124.587C366.15 166.586 338.856 280.883 260.095 320.209C171.641 364.435 92.0994 294.587 116.163 205.131C131.982 146.31 185.678 95.9564 258.312 111.998C266.445 113.781 267.447 110.55 261.32 106.985C251.071 100.97 223.778 99.6323 204.394 103.754ZM207.513 180.511C155.376 198.335 169.19 274.757 224.446 274.757C271.458 274.757 289.171 207.47 247.618 186.304C235.141 179.954 231.13 184.856 242.048 193.099C270.232 214.377 259.092 258.381 223.666 265.4C200.717 269.967 182.336 238.886 193.699 214.712C199.826 201.677 214.754 188.866 227.008 186.081C233.692 184.521 234.027 183.185 228.345 180.288C223.443 177.726 214.977 177.837 207.513 180.511Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nAbstract5Sketch.displayName = \"Abstract5Sketch\";\n\nexport const Abstract5SketchMetadata = {\n  id: \"abstract5_sketch\",\n  baseId: \"abstract5\",\n  variant: \"sketch\",\n  name: \"Abstract5\",\n  category: \"abstract\",\n  tags: [],\n  viewBox: \"0 0 446 446\",\n} as const;\n\nexport default Abstract5Sketch;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "rectangle5_shapes",
+  "type": "registry:ui",
+  "title": "Rectangle5",
+  "description": "Rectangle5 icon component",
+  "category": "rectangle",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/rectangle/rectangle5_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Rectangle5ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Rectangle5Shapes = React.forwardRef<SVGSVGElement, Rectangle5ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 24 24\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path d=\"M15.6 0H8.4V8.4H3.14722e-07L0 15.6H8.4V24H15.6V15.6H24V8.4H15.6V0Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nRectangle5Shapes.displayName = \"Rectangle5Shapes\";\n\nexport const Rectangle5ShapesMetadata = {\n  id: \"rectangle5_shapes\",\n  baseId: \"rectangle5\",\n  variant: \"shapes\",\n  name: \"Rectangle5\",\n  category: \"rectangle\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Rectangle5Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

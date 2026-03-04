@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "abstract11_shapes",
+  "type": "registry:ui",
+  "title": "Abstract11",
+  "description": "Abstract11 icon component",
+  "category": "abstract",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/abstract/abstract11_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Abstract11ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Abstract11Shapes = React.forwardRef<SVGSVGElement, Abstract11ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 24 24\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path d=\"M12.1829 20.7276C12.1829 17.1867 13.6133 14.6762 16.4343 13.259C18.5524 12.1962 20.7067 12.1809 20.7276 12.1809V20.7276H12.181H12.1829ZM3.27429 16.2495V12.1829C3.29714 12.1829 5.44953 12.1981 7.56762 13.261C10.3886 14.6762 11.819 17.1886 11.819 20.7295H7.75238C5.2781 20.7295 3.27429 18.7238 3.27429 16.2514V16.2495ZM11.819 3.27238C11.819 6.81333 10.3886 9.32381 7.56762 10.7409C5.44953 11.8038 3.29524 11.819 3.27429 11.819V3.27238H11.821H11.819ZM20.7276 7.75048V11.8171C20.7048 11.8171 18.5524 11.8019 16.4343 10.739C13.6133 9.32381 12.1829 6.81143 12.1829 3.27047H16.2495C18.7238 3.27047 20.7276 5.27619 20.7276 7.74857V7.75048ZM0 0V24H24V0H0Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nAbstract11Shapes.displayName = \"Abstract11Shapes\";\n\nexport const Abstract11ShapesMetadata = {\n  id: \"abstract11_shapes\",\n  baseId: \"abstract11\",\n  variant: \"shapes\",\n  name: \"Abstract11\",\n  category: \"abstract\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Abstract11Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

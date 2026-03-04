@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "star12_shapes",
+  "type": "registry:ui",
+  "title": "Star12",
+  "description": "Star12 icon component",
+  "category": "stars",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/stars/star12_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Star12ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Star12Shapes = React.forwardRef<SVGSVGElement, Star12ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 24 24\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path d=\"M12 24L10.2706 15.3529L5.39996 18.6L8.64702 13.7294L0 12L8.64704 10.2706L5.39996 5.39996L10.2706 8.64705L12 0L13.7294 8.64702L18.6 5.39996L15.3529 10.2706L24 12L15.3529 13.7294L18.6 18.6L13.7294 15.3529L12 24Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nStar12Shapes.displayName = \"Star12Shapes\";\n\nexport const Star12ShapesMetadata = {\n  id: \"star12_shapes\",\n  baseId: \"star12\",\n  variant: \"shapes\",\n  name: \"Star12\",\n  category: \"stars\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Star12Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

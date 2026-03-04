@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "abstract28_sketch",
+  "type": "registry:ui",
+  "title": "Abstract28",
+  "description": "Abstract28 icon component",
+  "category": "abstract",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/abstract/abstract28_sketch.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Abstract28SketchProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Abstract28Sketch = React.forwardRef<SVGSVGElement, Abstract28SketchProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 446 446\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path fillRule=\"evenodd\" clipRule=\"evenodd\" d=\"M211.912 71.6235C159.653 75.877 109.825 102.411 89.9753 137.047C60.2005 188.494 62.6315 369.777 92.8114 373.626C100.103 374.638 100.508 371.398 102.331 309.822C104.154 247.437 101.724 253.919 121.776 258.982C193.884 277.212 314.198 255.539 352.885 217.257C419.321 151.226 333.037 61.9011 211.912 71.6235ZM275.308 93.7021C354.302 110.109 368.684 188.495 298.804 221.916C196.922 270.528 104.964 235.284 104.762 235.284C114.484 183.836 105.977 144.947 161.678 111.932C198.948 89.6511 231.355 84.3848 275.308 93.7021Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nAbstract28Sketch.displayName = \"Abstract28Sketch\";\n\nexport const Abstract28SketchMetadata = {\n  id: \"abstract28_sketch\",\n  baseId: \"abstract28\",\n  variant: \"sketch\",\n  name: \"Abstract28\",\n  category: \"abstract\",\n  tags: [],\n  viewBox: \"0 0 446 446\",\n} as const;\n\nexport default Abstract28Sketch;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

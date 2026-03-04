@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "organic2_shapes",
+  "type": "registry:ui",
+  "title": "Organic2",
+  "description": "Organic2 icon component",
+  "category": "organic",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/organic/organic2_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Organic2ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Organic2Shapes = React.forwardRef<SVGSVGElement, Organic2ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 300 300\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path fillRule=\"evenodd\" clipRule=\"evenodd\" d=\"M15.6149 249.408C15.1239 254.865 14.6884 280.79 16.3153 288.221C17.6073 294.117 56.776 294.059 62.7468 291.931C72.926 288.299 69.9985 216.814 71 204.789C76.0085 144.64 84.0142 76.7954 151.869 59.1666C205.777 45.162 222.004 117.801 226.943 155.263C228.317 165.673 229.205 176.156 229.685 186.647C230.459 203.554 230.247 220.492 230.707 237.41C231.244 257.192 232.226 287.17 241.111 292.535C244.313 294.468 272.526 296.771 282.568 291.931C287.849 289.386 283.431 245.135 280.409 218.558C274.153 163.517 269.584 120.877 252.987 68.5933C236.446 16.4866 183.177 6.70183 153.854 5.79619C74.1975 3.33627 35.9518 81.0542 25.0416 148.289C16.882 198.574 20.1997 198.516 15.6149 249.408Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nOrganic2Shapes.displayName = \"Organic2Shapes\";\n\nexport const Organic2ShapesMetadata = {\n  id: \"organic2_shapes\",\n  baseId: \"organic2\",\n  variant: \"shapes\",\n  name: \"Organic2\",\n  category: \"organic\",\n  tags: [],\n  viewBox: \"0 0 300 300\",\n} as const;\n\nexport default Organic2Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "traingle13_shapes",
+  "type": "registry:ui",
+  "title": "Traingle13",
+  "description": "Traingle13 icon component",
+  "category": "triangle",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/triangle/traingle13_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Traingle13ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Traingle13Shapes = React.forwardRef<SVGSVGElement, Traingle13ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 24 24\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path d=\"M4.8 12V24L0 12L4.8 0V12Z\" fill=\"currentColor\"/>\n<path d=\"M12 0L4.8 12L12 24L19.2 12L12 0Z\" fill=\"currentColor\"/>\n<path d=\"M19.2 12V24L24 12L19.2 0V12Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nTraingle13Shapes.displayName = \"Traingle13Shapes\";\n\nexport const Traingle13ShapesMetadata = {\n  id: \"traingle13_shapes\",\n  baseId: \"traingle13\",\n  variant: \"shapes\",\n  name: \"Traingle13\",\n  category: \"triangle\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Traingle13Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

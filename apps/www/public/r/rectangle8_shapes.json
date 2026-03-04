@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "rectangle8_shapes",
+  "type": "registry:ui",
+  "title": "Rectangle8",
+  "description": "Rectangle8 icon component",
+  "category": "rectangle",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/rectangle/rectangle8_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Rectangle8ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Rectangle8Shapes = React.forwardRef<SVGSVGElement, Rectangle8ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 24 24\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path fillRule=\"evenodd\" clipRule=\"evenodd\" d=\"M18 6H6V18H18V6ZM0 0V24H24V0H0Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nRectangle8Shapes.displayName = \"Rectangle8Shapes\";\n\nexport const Rectangle8ShapesMetadata = {\n  id: \"rectangle8_shapes\",\n  baseId: \"rectangle8\",\n  variant: \"shapes\",\n  name: \"Rectangle8\",\n  category: \"rectangle\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Rectangle8Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

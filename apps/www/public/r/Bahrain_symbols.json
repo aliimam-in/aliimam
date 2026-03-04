@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "Bahrain_symbols",
+  "type": "registry:ui",
+  "title": "Bahrain",
+  "description": "Bahrain icon component",
+  "category": "flags",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/flags/Bahrain_symbols.tsx",
+      "content": "/**\n * Auto-generated logo component: Bahrain (symbols)\n * Category: flags\n * Do not edit manually\n */\n\n'use client';\nimport React from 'react';\n\nexport interface BahrainSymbolsProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const BahrainSymbols = React.forwardRef<SVGSVGElement, BahrainSymbolsProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      viewBox=\"0 0 32 32\"\n      fill=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path d=\"M27 4H9V28H27C29.209 28 31 26.209 31 24V8C31 5.791 29.209 4 27 4Z\" fill=\"#EA3323\"/>\n<path d=\"M10 23.2L16 20.8L10 18.4L16 16L10 13.6L16 11.2L10 8.8L16 6.4L10 4H5C2.791 4 1 5.791 1 8V24C1 26.209 2.791 28 5 28H10L16 25.6L10 23.2Z\" fill=\"white\"/>\n    </svg>\n  )\n);\n\nBahrainSymbols.displayName = \"BahrainSymbols\";\n\nexport const BahrainSymbolsMetadata = {\n  id: \"Bahrain_symbols\",\n  baseId: \"Bahrain\",\n  variant: \"symbols\",\n  name: \"Bahrain\",\n  category: \"flags\",\n  tags: [],\n  viewBox: \"0 0 32 32\",\n} as const;\n\nexport default BahrainSymbols;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

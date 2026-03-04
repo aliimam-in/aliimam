@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "moon13_shapes",
+  "type": "registry:ui",
+  "title": "Moon13",
+  "description": "Moon13 icon component",
+  "category": "moon",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/moon/moon13_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Moon13ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Moon13Shapes = React.forwardRef<SVGSVGElement, Moon13ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 24 24\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path d=\"M0 0C-2.89694e-07 6.62742 5.37258 12 12 12C5.37258 12 0 17.3726 0 24C6.62742 24 12 18.6274 12 12C12 18.6274 17.3726 24 24 24C24 17.3735 18.629 12.0016 12.0029 12C18.629 11.9984 24 6.62645 24 5.24537e-07C17.3726 5.24537e-07 12 5.37258 12 12C12 5.37258 6.62742 2.89694e-07 0 0Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nMoon13Shapes.displayName = \"Moon13Shapes\";\n\nexport const Moon13ShapesMetadata = {\n  id: \"moon13_shapes\",\n  baseId: \"moon13\",\n  variant: \"shapes\",\n  name: \"Moon13\",\n  category: \"moon\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Moon13Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "Mongo-DB",
+  "type": "registry:ui",
+  "title": "Mongo DB",
+  "description": "Mongo DB icon component",
+  "category": "database",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/database/Mongo-DB.tsx",
+      "content": "/**\n * Auto-generated logo component: Mongo DB (default)\n * Category: database\n * Do not edit manually\n */\n\n'use client';\nimport React from 'react';\n\nexport interface MongoDBProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const MongoDB = React.forwardRef<SVGSVGElement, MongoDBProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <g clipPath=\"url(#clip0_2062_3082)\">\n<path d=\"M14.5463 2.67138C13.5576 1.47789 12.7061 0.265696 12.5322 0.0139803C12.5281 0.00956272 12.5231 0.00604561 12.5176 0.00364241C12.5121 0.0012392 12.5061 0 12.5001 0C12.4941 0 12.4882 0.0012392 12.4827 0.00364241C12.4772 0.00604561 12.4722 0.00956272 12.4681 0.0139803C12.2941 0.26574 11.4427 1.47789 10.454 2.67138C1.96733 13.6832 11.7906 21.1147 11.7906 21.1147L11.873 21.1706C11.9462 22.3175 12.1294 23.9679 12.1294 23.9679H12.8618C12.8618 23.9679 13.0448 22.3268 13.1181 21.1707L13.2005 21.1053C13.2096 21.1147 23.0329 13.6833 14.5463 2.67138ZM12.4955 20.9468C12.4955 20.9468 12.0561 20.5645 11.9371 20.3688V20.3501L12.4681 8.35916C12.4681 8.32187 12.523 8.32187 12.523 8.35916L13.054 20.3501V20.3688C12.935 20.5645 12.4955 20.9468 12.4955 20.9468V20.9468Z\" fill=\"#01EC64\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2062_3082\">\n<rect width=\"11\" height=\"24\" fill=\"white\" transform=\"translate(7)\"/>\n</clipPath>\n</defs>\n    </svg>\n  )\n);\n\nMongoDB.displayName = \"MongoDB\";\n\nexport const MongoDBMetadata = {\n  id: \"Mongo-DB\",\n  baseId: \"Mongo-DB\",\n  variant: \"default\",\n  name: \"Mongo DB\",\n  category: \"database\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default MongoDB;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

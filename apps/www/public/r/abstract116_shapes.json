@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "abstract116_shapes",
+  "type": "registry:ui",
+  "title": "Abstract116",
+  "description": "Abstract116 icon component",
+  "category": "abstract",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/abstract/abstract116_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Abstract116ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Abstract116Shapes = React.forwardRef<SVGSVGElement, Abstract116ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 23 23\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path d=\"M16.1248 16.1754C14.9403 17.36 13.3087 18.0901 11.5018 18.0901C9.69497 18.0901 8.06333 17.36 6.87884 16.1754C5.69617 14.9908 4.9643 13.359 4.9643 11.552C4.9643 9.74503 5.69617 8.11324 6.87884 6.92865C8.06333 5.74406 9.69497 5.01396 11.5018 5.01396C13.3087 5.01396 14.9403 5.74406 16.1248 6.92865C17.3093 8.11324 18.0394 9.74503 18.0394 11.552C18.0394 13.359 17.3093 14.9908 16.1248 16.1754ZM18.8606 11.0811C18.627 7.36488 15.643 4.39702 11.9198 4.18712V0H11.0802V4.18712C7.357 4.39702 4.37479 7.36488 4.13935 11.0811H0V11.9207H4.13204C4.31638 15.6844 7.32232 18.7052 11.0802 18.9169V23H11.9198V18.9169C15.6777 18.7052 18.6818 15.6844 18.868 11.9207H23V11.0811H18.8606Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nAbstract116Shapes.displayName = \"Abstract116Shapes\";\n\nexport const Abstract116ShapesMetadata = {\n  id: \"abstract116_shapes\",\n  baseId: \"abstract116\",\n  variant: \"shapes\",\n  name: \"Abstract116\",\n  category: \"abstract\",\n  tags: [],\n  viewBox: \"0 0 23 23\",\n} as const;\n\nexport default Abstract116Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

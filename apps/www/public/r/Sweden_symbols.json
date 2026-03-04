@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "Sweden_symbols",
+  "type": "registry:ui",
+  "title": "Sweden",
+  "description": "Sweden icon component",
+  "category": "flags",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/flags/Sweden_symbols.tsx",
+      "content": "/**\n * Auto-generated logo component: Sweden (symbols)\n * Category: flags\n * Do not edit manually\n */\n\n'use client';\nimport React from 'react';\n\nexport interface SwedenSymbolsProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const SwedenSymbols = React.forwardRef<SVGSVGElement, SwedenSymbolsProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      viewBox=\"0 0 32 32\"\n      fill=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path d=\"M27 4H5C2.79086 4 1 5.79086 1 8V24C1 26.2091 2.79086 28 5 28H27C29.2091 28 31 26.2091 31 24V8C31 5.79086 29.2091 4 27 4Z\" fill=\"#2E69A4\"/>\n<path d=\"M31 14H15V4H11V14H1V18H11V28H15V18H31V14Z\" fill=\"#F7CF46\"/>\n    </svg>\n  )\n);\n\nSwedenSymbols.displayName = \"SwedenSymbols\";\n\nexport const SwedenSymbolsMetadata = {\n  id: \"Sweden_symbols\",\n  baseId: \"Sweden\",\n  variant: \"symbols\",\n  name: \"Sweden\",\n  category: \"flags\",\n  tags: [],\n  viewBox: \"0 0 32 32\",\n} as const;\n\nexport default SwedenSymbols;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

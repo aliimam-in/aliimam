@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "abstract15_sketch",
+  "type": "registry:ui",
+  "title": "Abstract15",
+  "description": "Abstract15 icon component",
+  "category": "abstract",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/abstract/abstract15_sketch.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Abstract15SketchProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Abstract15Sketch = React.forwardRef<SVGSVGElement, Abstract15SketchProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 446 446\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path fillRule=\"evenodd\" clipRule=\"evenodd\" d=\"M372.834 214.263C346.907 209.2 336.982 202.313 328.678 183.881C322.804 171.12 322.804 140.738 328.475 136.282C335.97 130.408 327.26 127.167 304.574 127.167C265.077 127.167 234.492 94.5582 224.972 41.6926C221.934 24.4759 197.021 21.4364 194.793 47.5654C189.324 111.976 155.903 153.702 128.762 130.409C119.039 122.105 102.835 126.561 106.481 136.486C119.039 169.704 90.6825 222.773 58.072 227.026C43.4884 228.849 42.4754 238.569 56.8565 238.569C78.3268 238.569 120.254 294.273 124.103 328.301C126.736 350.379 150.637 340.249 155.093 337.211C178.184 321.817 188.919 331.339 203.502 379.951C213.832 414.992 228.415 426.74 237.125 407.296C262.849 349.771 279.458 331.337 306.397 330.122C326.855 329.312 326.045 330.327 332.526 299.539C338.198 273.005 343.059 260.244 350.756 251.94C358.655 243.433 379.315 231.075 388.025 229.86C406.66 227.024 399.368 219.327 372.834 214.263ZM339.818 230.064C302.751 252.952 304.372 277.056 303.967 317.161L287.763 317.969C264.267 319.387 246.442 330.934 233.074 353.62C228.01 362.127 227.403 361.922 223.149 349.972C204.92 299.74 151.447 311.084 146.383 310.072C145.978 309.261 138.484 266.521 103.848 241.608C90.0745 231.683 90.0747 232.493 102.43 226.822C140.105 209.605 135.446 151.272 135.851 150.057C136.661 149.854 201.68 149.854 213.832 106.103C216.668 96.1782 216.465 96.177 219.706 100.836C221.529 103.266 227.605 110.762 233.682 117.243C253.937 139.321 268.115 138.106 304.777 139.929C304.777 140.942 272.571 198.465 339.818 220.34L350.148 223.783L339.818 230.064Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nAbstract15Sketch.displayName = \"Abstract15Sketch\";\n\nexport const Abstract15SketchMetadata = {\n  id: \"abstract15_sketch\",\n  baseId: \"abstract15\",\n  variant: \"sketch\",\n  name: \"Abstract15\",\n  category: \"abstract\",\n  tags: [],\n  viewBox: \"0 0 446 446\",\n} as const;\n\nexport default Abstract15Sketch;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

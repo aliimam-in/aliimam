@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "moon4_shapes",
+  "type": "registry:ui",
+  "title": "Moon4",
+  "description": "Moon4 icon component",
+  "category": "moon",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/moon/moon4_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Moon4ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Moon4Shapes = React.forwardRef<SVGSVGElement, Moon4ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 24 24\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <g clipPath=\"url(#clip0_2068_395)\">\n<path d=\"M3.24 23.9998C1.15995 20.7238 4.57764e-07 16.4475 0 11.9999C0 7.55239 1.15995 3.27608 3.24 0V23.9998Z\" fill=\"currentColor\"/>\n<path d=\"M24 24C20.8174 24 17.7652 22.7357 15.5147 20.4853C13.2643 18.2349 12 15.1826 12 12C12 8.81741 13.2643 5.76516 15.5147 3.51472C17.7652 1.26428 20.8174 1.14421e-06 24 5.24537e-07L24 24Z\" fill=\"currentColor\"/>\n<path d=\"M7.23472 21.0582C8.46122 22.3675 9.92588 23.3641 11.52 24V0C9.92588 0.635857 8.46122 1.63247 7.23472 2.94178C4.98428 5.34417 3.72 8.6025 3.72 12C3.72 15.3975 4.98428 18.6558 7.23472 21.0582Z\" fill=\"currentColor\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2068_395\">\n<rect width=\"24\" height=\"24\" fill=\"currentColor\"/>\n</clipPath>\n</defs>\n    </svg>\n  )\n);\n\nMoon4Shapes.displayName = \"Moon4Shapes\";\n\nexport const Moon4ShapesMetadata = {\n  id: \"moon4_shapes\",\n  baseId: \"moon4\",\n  variant: \"shapes\",\n  name: \"Moon4\",\n  category: \"moon\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Moon4Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

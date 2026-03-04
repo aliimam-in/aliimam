@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "organic11_shapes",
+  "type": "registry:ui",
+  "title": "Organic11",
+  "description": "Organic11 icon component",
+  "category": "organic",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/organic/organic11_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Organic11ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Organic11Shapes = React.forwardRef<SVGSVGElement, Organic11ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 300 300\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path fillRule=\"evenodd\" clipRule=\"evenodd\" d=\"M182.298 36.3779C161.316 -10.4378 99.3902 10.7658 91.2217 40.4093C78.5082 86.5438 78.6911 133.367 62.2515 176.109C57.676 188.007 47.5954 203.716 37.3477 211.686C25.3454 221.022 11.2954 226.314 5.83721 242.689C0.0719564 259.984 6.85538 279.029 23.6251 287.414C40.6438 295.923 57.243 291.255 71 279.791C84.757 268.327 91.8683 249.296 103.868 249.296C115.868 249.296 120.847 268.621 131 276.741C134.813 279.791 162.667 299.421 182.298 279.791C190.139 271.95 190.906 252.182 203.543 249.296C218.172 245.956 216.947 259.24 234 276.741C251.477 287.227 261.103 283.791 273.68 269.118C287.748 252.704 274.922 230.242 265.548 215.244C251.41 192.623 228.235 176.195 216.249 152.222C198.165 116.054 198.483 72.491 182.298 36.3779Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nOrganic11Shapes.displayName = \"Organic11Shapes\";\n\nexport const Organic11ShapesMetadata = {\n  id: \"organic11_shapes\",\n  baseId: \"organic11\",\n  variant: \"shapes\",\n  name: \"Organic11\",\n  category: \"organic\",\n  tags: [],\n  viewBox: \"0 0 300 300\",\n} as const;\n\nexport default Organic11Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

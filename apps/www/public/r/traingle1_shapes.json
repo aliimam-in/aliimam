@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "traingle1_shapes",
+  "type": "registry:ui",
+  "title": "Traingle1",
+  "description": "Traingle1 icon component",
+  "category": "triangle",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/triangle/traingle1_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Traingle1ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Traingle1Shapes = React.forwardRef<SVGSVGElement, Traingle1ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 24 24\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <g clipPath=\"url(#clip0_2068_230)\">\n<path d=\"M-0.0286255 0.00341797L11.9714 12.0006L11.9714 0.00341797L-0.0286255 0.00341797ZM11.9714 0.00341797L23.9714 12.0006L23.9714 0.00341797L11.9714 0.00341797ZM23.9714 12.0006L11.9714 12.0006L23.9714 23.997V12.0006ZM11.9714 12.0006L-0.0286255 12.0006L11.9714 23.997L11.9714 12.0006Z\" fill=\"currentColor\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2068_230\">\n<rect width=\"24\" height=\"24\" fill=\"currentColor\"/>\n</clipPath>\n</defs>\n    </svg>\n  )\n);\n\nTraingle1Shapes.displayName = \"Traingle1Shapes\";\n\nexport const Traingle1ShapesMetadata = {\n  id: \"traingle1_shapes\",\n  baseId: \"traingle1\",\n  variant: \"shapes\",\n  name: \"Traingle1\",\n  category: \"triangle\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Traingle1Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

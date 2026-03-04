@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "Fast-API",
+  "type": "registry:ui",
+  "title": "Fast API",
+  "description": "Fast API icon component",
+  "category": "framework",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/framework/Fast-API.tsx",
+      "content": "/**\n * Auto-generated logo component: Fast API (default)\n * Category: framework\n * Do not edit manually\n */\n\n'use client';\nimport React from 'react';\n\nexport interface FastAPIProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const FastAPI = React.forwardRef<SVGSVGElement, FastAPIProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <g clipPath=\"url(#clip0_2066_409)\">\n<path d=\"M12 0C5.37469 0 0 5.37469 0 12C0 18.6253 5.37469 24 12 24C18.6253 24 24 18.6253 24 12C24 5.37469 18.6253 0 12 0ZM11.3747 21.6192V14.0922H7.19053L13.2025 2.38078V9.90778H17.2306L11.3747 21.6192Z\" fill=\"#009688\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2066_409\">\n<rect width=\"24\" height=\"24\" fill=\"white\"/>\n</clipPath>\n</defs>\n    </svg>\n  )\n);\n\nFastAPI.displayName = \"FastAPI\";\n\nexport const FastAPIMetadata = {\n  id: \"Fast-API\",\n  baseId: \"Fast-API\",\n  variant: \"default\",\n  name: \"Fast API\",\n  category: \"framework\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default FastAPI;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

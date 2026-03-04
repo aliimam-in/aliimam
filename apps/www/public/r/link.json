@@ -1,18 +1,18 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-  "name": "link",
+  "name": "Link",
   "type": "registry:ui",
   "title": "Link",
   "description": "Link icon component",
-  "category": "others",
+  "category": "crypto",
   "tags": [],
   "dependencies": [],
   "devDependencies": [],
   "registryDependencies": [],
   "files": [
     {
-      "path": "registry/icons/others/link.tsx",
-      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface LinkProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Link = React.forwardRef<SVGSVGElement, LinkProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71\" />\n  <path d=\"M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71\" />\n    </svg>\n  )\n);\nLink.displayName = \"Link\";\nexport const LinkMetadata = { \n  id: \"link\", \n  baseId: \"link\", \n  variant: \"default\", \n  name: \"Link\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Link;\n",
+      "path": "registry/icons/crypto/Link.tsx",
+      "content": "/**\n * Auto-generated logo component: Link (default)\n * Category: crypto\n * Do not edit manually\n */\n\n'use client';\nimport React from 'react';\n\nexport interface LinkProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Link = React.forwardRef<SVGSVGElement, LinkProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <g clipPath=\"url(#clip0_2062_2928)\">\n<path d=\"M12 24C18.6275 24 24 18.6275 24 12C24 5.37258 18.6275 0 12 0C5.37258 0 0 5.37258 0 12C0 18.6275 5.37258 24 12 24Z\" fill=\"#375BD2\"/>\n<path d=\"M12 3L4.20569 7.5V16.5L12 21L19.7942 16.5V7.5L12 3ZM16.4912 14.5932L12 17.186L7.50869 14.5932V9.4068L12 6.8139L16.4912 9.4068V14.5932Z\" fill=\"white\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2062_2928\">\n<rect width=\"24\" height=\"24\" fill=\"white\"/>\n</clipPath>\n</defs>\n    </svg>\n  )\n);\n\nLink.displayName = \"Link\";\n\nexport const LinkMetadata = {\n  id: \"Link\",\n  baseId: \"Link\",\n  variant: \"default\",\n  name: \"Link\",\n  category: \"crypto\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Link;\n",
       "type": "registry:ui"
     }
   ]

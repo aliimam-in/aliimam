@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "Switzerland_symbols",
+  "type": "registry:ui",
+  "title": "Switzerland",
+  "description": "Switzerland icon component",
+  "category": "flags",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/flags/Switzerland_symbols.tsx",
+      "content": "/**\n * Auto-generated logo component: Switzerland (symbols)\n * Category: flags\n * Do not edit manually\n */\n\n'use client';\nimport React from 'react';\n\nexport interface SwitzerlandSymbolsProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const SwitzerlandSymbols = React.forwardRef<SVGSVGElement, SwitzerlandSymbolsProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      viewBox=\"0 0 32 32\"\n      fill=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path d=\"M27 4H5C2.79086 4 1 5.79086 1 8V24C1 26.2091 2.79086 28 5 28H27C29.2091 28 31 26.2091 31 24V8C31 5.79086 29.2091 4 27 4Z\" fill=\"#C93927\"/>\n<path d=\"M14 10H18V22H14V10Z\" fill=\"white\"/>\n<path d=\"M22 14V18H10V14H22Z\" fill=\"white\"/>\n    </svg>\n  )\n);\n\nSwitzerlandSymbols.displayName = \"SwitzerlandSymbols\";\n\nexport const SwitzerlandSymbolsMetadata = {\n  id: \"Switzerland_symbols\",\n  baseId: \"Switzerland\",\n  variant: \"symbols\",\n  name: \"Switzerland\",\n  category: \"flags\",\n  tags: [],\n  viewBox: \"0 0 32 32\",\n} as const;\n\nexport default SwitzerlandSymbols;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

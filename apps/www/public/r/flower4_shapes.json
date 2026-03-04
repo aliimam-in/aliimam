@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "flower4_shapes",
+  "type": "registry:ui",
+  "title": "Flower4",
+  "description": "Flower4 icon component",
+  "category": "flower",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/flower/flower4_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Flower4ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Flower4Shapes = React.forwardRef<SVGSVGElement, Flower4ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 24 24\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <g clipPath=\"url(#clip0_2068_585)\">\n<path d=\"M20.5462 9.71009C22.682 10.1927 24 10.9386 24 12C24 13.0614 22.682 13.8073 20.5463 14.2899C22.1546 15.7758 22.9231 17.0808 22.3924 18C21.8617 18.9192 20.3473 18.9062 18.2563 18.2562C18.9063 20.3472 18.9193 21.8616 18.0001 22.3923C17.0809 22.923 15.7758 22.1545 14.29 20.5461C13.8074 22.6819 13.0614 24 12 24C10.9386 24 10.1927 22.682 9.71009 20.5463C8.22429 22.1545 6.91928 22.923 6.00012 22.3923C5.08093 21.8616 5.09396 20.3472 5.7439 18.2562C3.65296 18.9062 2.1385 18.9192 1.60781 18C1.07712 17.0808 1.84562 15.7758 3.45394 14.29C1.31811 13.8074 -1.80821e-07 13.0614 0 12C4.63951e-08 10.9386 1.31811 10.1926 3.45394 9.71004C1.84562 8.22422 1.07712 6.91918 1.60781 6C2.1385 5.08082 3.65296 5.09384 5.7439 5.74378C5.09396 3.65285 5.08093 2.13839 6.00012 1.6077C6.91928 1.07702 8.22429 1.84548 9.71009 3.45374C10.1927 1.31803 10.9386 0 12 0C13.0614 0 13.8074 1.31811 14.29 3.45394C15.7758 1.84554 17.0809 1.07699 18.0001 1.6077C18.9193 2.13839 18.9063 3.65285 18.2563 5.74378C20.3473 5.09384 21.8617 5.08082 22.3924 6C22.9231 6.91919 22.1546 8.22425 20.5462 9.71009Z\" fill=\"currentColor\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2068_585\">\n<rect width=\"24\" height=\"24\" fill=\"currentColor\"/>\n</clipPath>\n</defs>\n    </svg>\n  )\n);\n\nFlower4Shapes.displayName = \"Flower4Shapes\";\n\nexport const Flower4ShapesMetadata = {\n  id: \"flower4_shapes\",\n  baseId: \"flower4\",\n  variant: \"shapes\",\n  name: \"Flower4\",\n  category: \"flower\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Flower4Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "Algorand",
+  "type": "registry:ui",
+  "title": "Algorand",
+  "description": "Algorand icon component",
+  "category": "crypto",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/crypto/Algorand.tsx",
+      "content": "/**\n * Auto-generated logo component: Algorand (default)\n * Category: crypto\n * Do not edit manually\n */\n\n'use client';\nimport React from 'react';\n\nexport interface AlgorandProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Algorand = React.forwardRef<SVGSVGElement, AlgorandProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <g clipPath=\"url(#clip0_2062_2938)\">\n<path d=\"M12 22.125C18.0061 22.125 22.875 17.2561 22.875 11.25C22.875 5.2439 18.0061 0.375 12 0.375C5.9939 0.375 1.125 5.2439 1.125 11.25C1.125 17.2561 5.9939 22.125 12 22.125Z\" stroke=\"currentColor\" strokeOpacity=\"0.097\"/>\n<path d=\"M7.74889 17.25L13.1648 7.79867L13.9082 10.2412L9.76659 17.25H11.8905L14.5454 12.6836L15.7135 17.25H17.625L15.8197 10.4535L17.094 8.22345H15.1825L14.4392 5.25H12.6338L5.625 17.25H7.74889Z\" fill=\"currentColor\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2062_2938\">\n<rect width=\"24\" height=\"24\" fill=\"currentColor\"/>\n</clipPath>\n</defs>\n    </svg>\n  )\n);\n\nAlgorand.displayName = \"Algorand\";\n\nexport const AlgorandMetadata = {\n  id: \"Algorand\",\n  baseId: \"Algorand\",\n  variant: \"default\",\n  name: \"Algorand\",\n  category: \"crypto\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Algorand;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

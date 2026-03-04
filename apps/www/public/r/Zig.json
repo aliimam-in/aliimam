@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "Zig",
+  "type": "registry:ui",
+  "title": "Zig",
+  "description": "Zig icon component",
+  "category": "language",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/language/Zig.tsx",
+      "content": "/**\n * Auto-generated logo component: Zig (default)\n * Category: language\n * Do not edit manually\n */\n\n'use client';\nimport React from 'react';\n\nexport interface ZigProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Zig = React.forwardRef<SVGSVGElement, ZigProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <g clipPath=\"url(#clip0_2066_1156)\">\n<path d=\"M12.6716 9.43028H6.87016V6.86558H15.2674L20.9914 5L11.3819 14.5723H17.2015V17.1413H8.80384L3.07984 18.9434L12.6716 9.43028ZM0 14.5684V6.86558H5.73968V9.43466H2.58288V14.5727H6.4584L3.87472 17.1417H0V14.5684ZM21.4167 9.43028H17.5407L20.1244 6.86136H24V17.137H18.2603V14.568H21.4206L21.4167 9.43028Z\" fill=\"#F7A41D\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2066_1156\">\n<rect width=\"24\" height=\"14\" fill=\"white\" transform=\"translate(0 5)\"/>\n</clipPath>\n</defs>\n    </svg>\n  )\n);\n\nZig.displayName = \"Zig\";\n\nexport const ZigMetadata = {\n  id: \"Zig\",\n  baseId: \"Zig\",\n  variant: \"default\",\n  name: \"Zig\",\n  category: \"language\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Zig;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

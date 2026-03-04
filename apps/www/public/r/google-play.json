@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "google-play",
+  "type": "registry:ui",
+  "title": "Google Play",
+  "description": "Google Play icon component",
+  "category": "google",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/google/google-play.tsx",
+      "content": "/**\n * Auto-generated logo component: Google Play (default)\n * Category: google\n * Do not edit manually\n */\n\n'use client';\nimport React from 'react';\n\nexport interface GooglePlayProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const GooglePlay = React.forwardRef<SVGSVGElement, GooglePlayProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      viewBox=\"0 0 256 283\"\n      fill=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <title>Google Play</title>\n    <g>\n        <path d=\"M119.553141,134.916362 L1.0599006,259.060547 C3.75619448,268.616998 10.7182836,276.3906 19.9208658,280.119977 C29.1234481,283.849353 39.5331235,283.115716 48.121672,278.132484 L181.448642,202.197919 L119.553141,134.916362 Z\" fill=\"#EA4335\"></path>\n        <path d=\"M239.370822,113.813616 L181.71353,80.7909097 L116.815965,137.741834 L181.978418,202.021326 L239.19423,169.351804 C249.525723,163.942452 256,153.24465 256,141.58271 C256,129.92077 249.525723,119.222968 239.19423,113.813616 L239.370822,113.813616 Z\" fill=\"#FBBC04\"></path>\n        <path d=\"M1.0599006,23.4868015 C0.343633396,26.134699 -0.0127538816,28.8670014 -9.94374397e-15,31.6100341 L-9.94374397e-15,250.937314 C0.00751268399,253.679042 0.363556675,256.408712 1.0599006,259.060547 L123.614758,138.095018 L1.0599006,23.4868015 Z\" fill=\"#4285F4\"></path>\n        <path d=\"M120.436101,141.273674 L181.71353,80.7909097 L48.5631521,4.50316009 C43.5539929,1.56944036 37.8568091,0.0156629668 32.0517989,0 C17.6444261,-0.0284873284 4.97836875,9.53420553 1.0599006,23.3985055 L120.436101,141.273674 Z\" fill=\"#34A853\"></path>\n    </g>\n    </svg>\n  )\n);\n\nGooglePlay.displayName = \"GooglePlay\";\n\nexport const GooglePlayMetadata = {\n  id: \"google-play\",\n  baseId: \"google-play\",\n  variant: \"default\",\n  name: \"Google Play\",\n  category: \"google\",\n  tags: [],\n  viewBox: \"0 0 256 283\",\n} as const;\n\nexport default GooglePlay;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

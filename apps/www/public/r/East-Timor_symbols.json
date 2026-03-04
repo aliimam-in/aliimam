@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "East-Timor_symbols",
+  "type": "registry:ui",
+  "title": "East Timor",
+  "description": "East Timor icon component",
+  "category": "flags",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/flags/East-Timor_symbols.tsx",
+      "content": "/**\n * Auto-generated logo component: East Timor (symbols)\n * Category: flags\n * Do not edit manually\n */\n\n'use client';\nimport React from 'react';\n\nexport interface EastTimorSymbolsProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const EastTimorSymbols = React.forwardRef<SVGSVGElement, EastTimorSymbolsProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      viewBox=\"0 0 32 32\"\n      fill=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path d=\"M27 4H5C2.79086 4 1 5.79086 1 8V24C1 26.2091 2.79086 28 5 28H27C29.2091 28 31 26.2091 31 24V8C31 5.79086 29.2091 4 27 4Z\" fill=\"#C93927\"/>\n<path d=\"M2.433 27.0441L19 16.0001L2.433 4.95605C1.564 5.69005 1 6.77405 1 8.00005V24.0001C1 25.2271 1.564 26.3111 2.433 27.0441Z\" fill=\"#F7CB4F\"/>\n<path d=\"M2.271 26.9111L15 16.0001L2.271 5.08911C1.493 5.81911 1 6.84911 1 8.00011V24.0001C1 25.1511 1.493 26.1811 2.271 26.9111Z\" fill=\"currentColor\"/>\n<path d=\"M7.56904 15.973L8.88304 13.74L6.50804 14.774L4.79104 12.835L5.04004 15.413L2.66504 16.447L5.19404 17.007L5.44404 19.585L6.75704 17.352L9.28704 17.912L7.56904 15.973Z\" fill=\"white\"/>\n    </svg>\n  )\n);\n\nEastTimorSymbols.displayName = \"EastTimorSymbols\";\n\nexport const EastTimorSymbolsMetadata = {\n  id: \"East-Timor_symbols\",\n  baseId: \"East-Timor\",\n  variant: \"symbols\",\n  name: \"East Timor\",\n  category: \"flags\",\n  tags: [],\n  viewBox: \"0 0 32 32\",\n} as const;\n\nexport default EastTimorSymbols;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

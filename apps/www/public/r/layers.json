@@ -1,18 +1,18 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-  "name": "layers",
+  "name": "Layers",
   "type": "registry:ui",
   "title": "Layers",
   "description": "Layers icon component",
-  "category": "layout",
+  "category": "design",
   "tags": [],
   "dependencies": [],
   "devDependencies": [],
   "registryDependencies": [],
   "files": [
     {
-      "path": "registry/icons/layout/layers.tsx",
-      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface LayersProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Layers = React.forwardRef<SVGSVGElement, LayersProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z\" />\n  <path d=\"M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12\" />\n  <path d=\"M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17\" />\n    </svg>\n  )\n);\nLayers.displayName = \"Layers\";\nexport const LayersMetadata = { \n  id: \"layers\", \n  baseId: \"layers\", \n  variant: \"default\", \n  name: \"Layers\", \n  category: \"layout\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Layers;\n",
+      "path": "registry/icons/design/Layers.tsx",
+      "content": "/**\n * Auto-generated logo component: Layers (default)\n * Category: design\n * Do not edit manually\n */\n\n'use client';\nimport React from 'react';\n\nexport interface LayersProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Layers = React.forwardRef<SVGSVGElement, LayersProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      viewBox=\"0 0 23 24\"\n      fill=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <g clipPath=\"url(#clip0_2039_308)\">\n<path d=\"M7.48447e-05 13.6945L0.0575748 4.96865C0.0676373 3.38902 1.15942 2.03484 2.66664 1.73302L10.9948 0.0624719C12.9958 -0.338983 14.853 1.24574 14.8401 3.34247L14.7826 12.0697C14.7718 13.6487 13.68 15.0021 12.1728 15.3047L3.84467 16.9752C1.84367 17.3767 -0.0135814 15.7919 7.48447e-05 13.6945Z\" fill=\"currentColor\" fillOpacity=\"0.2\"/>\n<path d=\"M4.08034 17.1759L4.13784 8.44867C4.14718 6.87049 5.23968 5.51703 6.7469 5.21449L15.0751 3.54467C17.0761 3.14322 18.9333 4.72722 18.9196 6.82467L18.8621 15.5519C18.8521 17.1309 17.7603 18.4843 16.2531 18.7869L7.92493 20.4574C5.92393 20.8581 4.06668 19.2741 4.08034 17.1774V17.1759Z\" fill=\"currentColor\" fillOpacity=\"0.5\"/>\n<path d=\"M8.1607 20.6575L8.2182 11.9302C8.22826 10.3506 9.32004 8.99784 10.8273 8.6953L19.1554 7.02475C21.1564 6.6233 23.0137 8.20802 23 10.3048L22.9425 19.032C22.9324 20.6117 21.8407 21.9651 20.3334 22.2669L12.0053 23.9375C10.0043 24.3389 8.14704 22.7542 8.15998 20.6575H8.1607Z\" fill=\"currentColor\" fillOpacity=\"0.8\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2039_308\">\n<rect width=\"23\" height=\"24\" fill=\"currentColor\"/>\n</clipPath>\n</defs>\n    </svg>\n  )\n);\n\nLayers.displayName = \"Layers\";\n\nexport const LayersMetadata = {\n  id: \"Layers\",\n  baseId: \"Layers\",\n  variant: \"default\",\n  name: \"Layers\",\n  category: \"design\",\n  tags: [],\n  viewBox: \"0 0 23 24\",\n} as const;\n\nexport default Layers;\n",
       "type": "registry:ui"
     }
   ]

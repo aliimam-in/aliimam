@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "organic69_shapes",
+  "type": "registry:ui",
+  "title": "Organic69",
+  "description": "Organic69 icon component",
+  "category": "organic",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/organic/organic69_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Organic69ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Organic69Shapes = React.forwardRef<SVGSVGElement, Organic69ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 300 600\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path fillRule=\"evenodd\" clipRule=\"evenodd\" d=\"M16.5502 157.575C16.5502 156.152 72.7842 282.083 84.5011 319.212C88.9011 333.157 105.697 580.398 106.289 582.123C109.552 591.643 131.942 592.905 146.984 592.537C156.994 592.293 186.098 593.638 193.533 589.177C197.392 586.862 196.961 573.562 197.514 570.137C200.576 551.15 202.154 532.039 205.726 438.057C210.092 407.316 212.227 376.191 217.053 345.535C223.49 304.65 233.181 264.452 241.696 224.004C251.163 179.036 258.454 143.437 269.696 98.8875C273.325 84.5042 279.76 40.7248 283.963 26.5261C290.908 3.06511 238.416 8.00173 217.053 9.39783C191.202 11.0871 213.963 72.5191 193.533 145.398C183.404 181.528 142.501 257.042 142.501 259.396C142.501 259.771 142.875 260.519 142.501 260.519C142.237 260.519 66.895 154.383 54.0126 136.185C33.3111 106.942 8.5167 135.769 16.5502 157.575Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nOrganic69Shapes.displayName = \"Organic69Shapes\";\n\nexport const Organic69ShapesMetadata = {\n  id: \"organic69_shapes\",\n  baseId: \"organic69\",\n  variant: \"shapes\",\n  name: \"Organic69\",\n  category: \"organic\",\n  tags: [],\n  viewBox: \"0 0 300 600\",\n} as const;\n\nexport default Organic69Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

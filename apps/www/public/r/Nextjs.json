@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "Nextjs",
+  "type": "registry:ui",
+  "title": "Nextjs",
+  "description": "Nextjs icon component",
+  "category": "software",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/software/Nextjs.tsx",
+      "content": "/**\n * Auto-generated logo component: Nextjs (default)\n * Category: software\n * Do not edit manually\n */\n\n'use client';\nimport React from 'react';\n\nexport interface NextjsProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Nextjs = React.forwardRef<SVGSVGElement, NextjsProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <g clipPath=\"url(#clip0_2041_253)\">\n<mask id=\"mask0_2041_253\" style={{maskType:'alpha'}} maskUnits=\"userSpaceOnUse\" x=\"0\" y=\"0\" width=\"24\" height=\"24\">\n<path d=\"M12 24C18.6274 24 24 18.6274 24 12C24 5.37258 18.6274 0 12 0C5.37258 0 0 5.37258 0 12C0 18.6274 5.37258 24 12 24Z\" fill=\"currentColor\"/>\n</mask>\n<g mask=\"url(#mask0_2041_253)\">\n<path d=\"M12 23.6C18.4065 23.6 23.6 18.4065 23.6 12C23.6 5.59352 18.4065 0.400024 12 0.400024C5.59352 0.400024 0.400024 5.59352 0.400024 12C0.400024 18.4065 5.59352 23.6 12 23.6Z\" fill=\"currentColor\"/>\n<path d=\"M23.2 12C23.2 5.81441 18.1856 0.8 12 0.8C5.81441 0.8 0.8 5.81441 0.8 12C0.8 18.1856 5.81441 23.2 12 23.2C18.1856 23.2 23.2 18.1856 23.2 12ZM24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12Z\" fill=\"white\"/>\n<path d=\"M19.9344 21.0026L9.21888 7.19995H7.19995V16.796H8.8151V9.2511L18.6665 21.9793C19.111 21.6818 19.5345 21.3553 19.9344 21.0026Z\" fill=\"url(#paint0_linear_2041_253)\"/>\n<path d=\"M16.9334 7.19995H15.3334V16.8H16.9334V7.19995Z\" fill=\"url(#paint1_linear_2041_253)\"/>\n</g>\n</g>\n<defs>\n<linearGradient id=\"paint0_linear_2041_253\" x1=\"14.5333\" y1=\"15.5333\" x2=\"19.2666\" y2=\"21.4\" gradientUnits=\"userSpaceOnUse\">\n<stop stopColor=\"white\"/>\n<stop offset=\"1\" stopColor=\"white\" stopOpacity=\"0\"/>\n</linearGradient>\n<linearGradient id=\"paint1_linear_2041_253\" x1=\"16.1334\" y1=\"7.19995\" x2=\"16.1066\" y2=\"14.25\" gradientUnits=\"userSpaceOnUse\">\n<stop stopColor=\"white\"/>\n<stop offset=\"1\" stopColor=\"white\" stopOpacity=\"0\"/>\n</linearGradient>\n<clipPath id=\"clip0_2041_253\">\n<rect width=\"24\" height=\"24\" fill=\"white\"/>\n</clipPath>\n</defs>\n    </svg>\n  )\n);\n\nNextjs.displayName = \"Nextjs\";\n\nexport const NextjsMetadata = {\n  id: \"Nextjs\",\n  baseId: \"Nextjs\",\n  variant: \"default\",\n  name: \"Nextjs\",\n  category: \"software\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Nextjs;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

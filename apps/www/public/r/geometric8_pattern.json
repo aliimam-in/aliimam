@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "geometric8_pattern",
+  "type": "registry:ui",
+  "title": "Geometric8",
+  "description": "Geometric8 icon component",
+  "category": "geometric",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/geometric/geometric8_pattern.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Geometric8PatternProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Geometric8Pattern = React.forwardRef<SVGSVGElement, Geometric8PatternProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 500 500\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path d=\"M47.5 0H2.5V500H47.5V0Z\" fill=\"currentColor\"/>\n<path d=\"M97.5 0H52.5V500H97.5V0Z\" fill=\"currentColor\"/>\n<path d=\"M147.5 0H102.5V500H147.5V0Z\" fill=\"currentColor\"/>\n<path d=\"M197.5 0H152.5V500H197.5V0Z\" fill=\"currentColor\"/>\n<path d=\"M247.5 0H202.5V500H247.5V0Z\" fill=\"currentColor\"/>\n<path d=\"M297.5 0H252.5V500H297.5V0Z\" fill=\"currentColor\"/>\n<path d=\"M347.5 0H302.5V500H347.5V0Z\" fill=\"currentColor\"/>\n<path d=\"M397.5 0H352.5V500H397.5V0Z\" fill=\"currentColor\"/>\n<path d=\"M447.5 0H402.5V500H447.5V0Z\" fill=\"currentColor\"/>\n<path d=\"M497.5 0H452.5V500H497.5V0Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nGeometric8Pattern.displayName = \"Geometric8Pattern\";\n\nexport const Geometric8PatternMetadata = {\n  id: \"geometric8_pattern\",\n  baseId: \"geometric8\",\n  variant: \"pattern\",\n  name: \"Geometric8\",\n  category: \"geometric\",\n  tags: [],\n  viewBox: \"0 0 500 500\",\n} as const;\n\nexport default Geometric8Pattern;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

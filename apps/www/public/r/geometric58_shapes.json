@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "geometric58_shapes",
+  "type": "registry:ui",
+  "title": "Geometric58",
+  "description": "Geometric58 icon component",
+  "category": "geometric",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/geometric/geometric58_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Geometric58ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Geometric58Shapes = React.forwardRef<SVGSVGElement, Geometric58ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 357 713\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path d=\"M187.084 31.9352V5.40991H169.266V31.9353L145.153 19.0957L138.786 36.9815L169.266 53.2112V70.7463L135.308 52.6647L128.942 70.5505L169.266 92.0221V110.408L127.807 88.3315L121.44 106.217L169.266 131.683V150.301L118.557 123.299L112.19 141.185L169.266 171.577V188.535L112.421 158.267L106.054 176.153L169.266 209.811V223.569L112.421 193.301L106.054 211.187L169.266 244.845V263.433L112.421 233.164L106.054 251.05L169.266 284.708V298.75L112.421 268.482L106.054 286.368L169.266 320.026V335.466L112.421 305.198L106.054 323.084L169.266 356.742V374.98L112.421 344.711L106.054 362.597L169.266 396.256V416.592L112.421 386.323L106.054 404.209L169.266 437.867V452.958L112.421 422.689L106.054 440.575L169.266 474.234V493.637L118.112 466.399L111.745 484.285L169.266 514.913V528.962L126.858 506.38L120.491 524.266L169.266 550.238V566.714L141.986 552.188L135.62 570.074L169.266 587.99L169.266 710.694H187.084L187.084 587.99L220.73 570.074L214.363 552.188L187.084 566.714V550.237L235.859 524.266L229.492 506.38L187.084 528.962V514.913L244.605 484.285L238.238 466.399L187.084 493.637V474.234L250.295 440.575L243.929 422.689L187.084 452.958V437.867L250.295 404.209L243.929 386.323L187.084 416.591V396.255L250.295 362.597L243.929 344.711L187.084 374.98V356.742L250.295 323.084L243.929 305.198L187.084 335.466V320.026L250.295 286.367L243.929 268.482L187.084 298.75V284.708L250.295 251.05L243.929 233.164L187.084 263.432V244.845L250.295 211.187L243.929 193.301L187.084 223.569V209.811L250.295 176.153L243.929 158.267L187.084 188.535V171.577L244.16 141.185L237.793 123.299L187.084 150.301V131.683L234.909 106.217L228.543 88.3315L187.084 110.407V92.022L227.408 70.5504L221.041 52.6646L187.084 70.7462V53.211L217.563 36.9814L211.197 19.0956L187.084 31.9352Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nGeometric58Shapes.displayName = \"Geometric58Shapes\";\n\nexport const Geometric58ShapesMetadata = {\n  id: \"geometric58_shapes\",\n  baseId: \"geometric58\",\n  variant: \"shapes\",\n  name: \"Geometric58\",\n  category: \"geometric\",\n  tags: [],\n  viewBox: \"0 0 357 713\",\n} as const;\n\nexport default Geometric58Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

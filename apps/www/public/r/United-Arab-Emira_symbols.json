@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "United-Arab-Emira_symbols",
+  "type": "registry:ui",
+  "title": "United Arab Emira",
+  "description": "United Arab Emira icon component",
+  "category": "flags",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/flags/United-Arab-Emira_symbols.tsx",
+      "content": "/**\n * Auto-generated logo component: United Arab Emira (symbols)\n * Category: flags\n * Do not edit manually\n */\n\n'use client';\nimport React from 'react';\n\nexport interface UnitedArabEmiraSymbolsProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const UnitedArabEmiraSymbols = React.forwardRef<SVGSVGElement, UnitedArabEmiraSymbolsProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      viewBox=\"0 0 32 32\"\n      fill=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path d=\"M5 4H11V28H5C2.792 28 1 26.208 1 24V8C1 5.792 2.792 4 5 4Z\" fill=\"#EA3323\"/>\n<path d=\"M10 20V28H27C29.209 28 31 26.209 31 24V20H10Z\" fill=\"currentColor\"/>\n<path d=\"M10 11H31V21H10V11Z\" fill=\"white\"/>\n<path d=\"M27 4H10V12H31V8C31 5.791 29.209 4 27 4Z\" fill=\"#317234\"/>\n    </svg>\n  )\n);\n\nUnitedArabEmiraSymbols.displayName = \"UnitedArabEmiraSymbols\";\n\nexport const UnitedArabEmiraSymbolsMetadata = {\n  id: \"United-Arab-Emira_symbols\",\n  baseId: \"United-Arab-Emira\",\n  variant: \"symbols\",\n  name: \"United Arab Emira\",\n  category: \"flags\",\n  tags: [],\n  viewBox: \"0 0 32 32\",\n} as const;\n\nexport default UnitedArabEmiraSymbols;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

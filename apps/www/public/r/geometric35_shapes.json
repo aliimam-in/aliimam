@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "geometric35_shapes",
+  "type": "registry:ui",
+  "title": "Geometric35",
+  "description": "Geometric35 icon component",
+  "category": "geometric",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/geometric/geometric35_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Geometric35ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Geometric35Shapes = React.forwardRef<SVGSVGElement, Geometric35ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 357 357\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path fillRule=\"evenodd\" clipRule=\"evenodd\" d=\"M178.175 24.9446C93.5479 24.9446 24.9444 93.5481 24.9444 178.175C24.9444 262.802 93.5479 331.405 178.175 331.405C262.801 331.405 331.405 262.802 331.405 178.175C331.405 93.5481 262.801 24.9446 178.175 24.9446ZM1.18774 178.175C1.18774 80.4277 80.4275 1.18799 178.175 1.18799C275.922 1.18799 355.162 80.4277 355.162 178.175C355.162 275.922 275.922 355.162 178.175 355.162C80.4275 355.162 1.18774 275.922 1.18774 178.175Z\" fill=\"currentColor\"/>\n<path fillRule=\"evenodd\" clipRule=\"evenodd\" d=\"M178.175 64.1429C115.197 64.1429 64.1429 115.197 64.1429 178.175C64.1429 241.153 115.197 292.207 178.175 292.207C241.153 292.207 292.207 241.153 292.207 178.175C292.207 115.197 241.153 64.1429 178.175 64.1429ZM40.3862 178.175C40.3862 102.076 102.076 40.3862 178.175 40.3862C254.273 40.3862 315.963 102.076 315.963 178.175C315.963 254.273 254.273 315.963 178.175 315.963C102.076 315.963 40.3862 254.273 40.3862 178.175Z\" fill=\"currentColor\"/>\n<path fillRule=\"evenodd\" clipRule=\"evenodd\" d=\"M178.175 108.093C139.469 108.093 108.093 139.47 108.093 178.175C108.093 216.88 139.469 248.257 178.175 248.257C216.88 248.257 248.257 216.88 248.257 178.175C248.257 139.47 216.88 108.093 178.175 108.093ZM84.3359 178.175C84.3359 126.349 126.349 84.3364 178.175 84.3364C230 84.3364 272.013 126.349 272.013 178.175C272.013 230.001 230 272.014 178.175 272.014C126.349 272.014 84.3359 230.001 84.3359 178.175Z\" fill=\"currentColor\"/>\n<path fillRule=\"evenodd\" clipRule=\"evenodd\" d=\"M178.175 152.043C163.742 152.043 152.042 163.743 152.042 178.175C152.042 192.608 163.742 204.307 178.175 204.307C192.607 204.307 204.307 192.608 204.307 178.175C204.307 163.743 192.607 152.043 178.175 152.043ZM128.286 178.175C128.286 150.622 150.622 128.286 178.175 128.286C205.727 128.286 228.063 150.622 228.063 178.175C228.063 205.728 205.727 228.064 178.175 228.064C150.622 228.064 128.286 205.728 128.286 178.175Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nGeometric35Shapes.displayName = \"Geometric35Shapes\";\n\nexport const Geometric35ShapesMetadata = {\n  id: \"geometric35_shapes\",\n  baseId: \"geometric35\",\n  variant: \"shapes\",\n  name: \"Geometric35\",\n  category: \"geometric\",\n  tags: [],\n  viewBox: \"0 0 357 357\",\n} as const;\n\nexport default Geometric35Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

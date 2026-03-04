@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "geometric41_shapes",
+  "type": "registry:ui",
+  "title": "Geometric41",
+  "description": "Geometric41 icon component",
+  "category": "geometric",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/geometric/geometric41_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Geometric41ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Geometric41Shapes = React.forwardRef<SVGSVGElement, Geometric41ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 357 357\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path d=\"M128.646 46.6937C177.448 95.4425 177.866 177.615 177.866 177.615C177.866 177.615 99.1577 180.75 50.3548 132.001C1.55191 83.2526 1.13472 1.07999 1.13472 1.07999C1.13472 1.07999 79.8427 -2.05517 128.646 46.6937Z\" fill=\"currentColor\"/>\n<path d=\"M227.086 46.6937C178.283 95.4425 177.866 177.615 177.866 177.615C177.866 177.615 256.573 180.75 305.376 132.001C354.179 83.2526 354.596 1.07999 354.596 1.07999C354.596 1.07999 275.889 -2.05517 227.086 46.6937Z\" fill=\"currentColor\"/>\n<path d=\"M128.646 308.468C177.448 259.719 177.866 177.547 177.866 177.547C177.866 177.547 99.1577 174.411 50.3548 223.16C1.55191 271.909 1.13472 354.082 1.13472 354.082C1.13472 354.082 79.8427 357.217 128.646 308.468Z\" fill=\"currentColor\"/>\n<path d=\"M227.086 308.468C178.283 259.719 177.866 177.547 177.866 177.547C177.866 177.547 256.573 174.411 305.376 223.16C354.179 271.909 354.596 354.082 354.596 354.082C354.596 354.082 275.889 357.217 227.086 308.468Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nGeometric41Shapes.displayName = \"Geometric41Shapes\";\n\nexport const Geometric41ShapesMetadata = {\n  id: \"geometric41_shapes\",\n  baseId: \"geometric41\",\n  variant: \"shapes\",\n  name: \"Geometric41\",\n  category: \"geometric\",\n  tags: [],\n  viewBox: \"0 0 357 357\",\n} as const;\n\nexport default Geometric41Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

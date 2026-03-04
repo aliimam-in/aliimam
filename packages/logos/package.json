@@ -12,6 +12,7 @@
   "sideEffects": false,
   "scripts": {
     "generate:logos": "tsx scripts/generate-logos.ts",
+    "registry:gen": "tsx scripts/generate-registry.ts",
     "build": "tsup",
     "prepublishOnly": "npm run generate:logos && npm run build"
   },

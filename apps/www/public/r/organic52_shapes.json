@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "organic52_shapes",
+  "type": "registry:ui",
+  "title": "Organic52",
+  "description": "Organic52 icon component",
+  "category": "organic",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/organic/organic52_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Organic52ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Organic52Shapes = React.forwardRef<SVGSVGElement, Organic52ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 600 300\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path d=\"M137.961 199.926C128.58 188.918 113.703 165.309 106.568 153.82C99.4319 142.33 71.5598 168.066 71.5598 168.066C50.2584 183.758 29.1151 204.824 18.6679 215.823C15.3061 219.703 9.42734 220.122 5.54874 216.761C1.67013 213.399 1.25045 207.52 4.61219 203.641C16.138 189.068 41.4151 158.904 65.7952 140.11C80.1905 129.014 94.8399 122.456 106.568 121.995C112.903 121.77 119.204 124.293 125.323 129.325C134.521 136.888 143.89 153.421 154.315 168.784C158.007 174.224 161.792 179.539 166.111 183.753C169.411 186.973 172.809 189.765 177.018 190.469C186.734 192.127 194.705 187.364 202.284 180.861C215.797 169.268 227.937 152.449 240.849 139.331C253.078 126.905 266.142 117.596 280.891 115.435C294.812 113.131 304.738 118.094 312.951 127.061C320.365 135.156 325.977 147.921 332.608 160.686C338.613 172.247 345.425 184.377 360.011 187.374C371.58 189.93 381.131 186.345 389.872 180.494C405.388 170.109 418.674 153.346 432.955 139.956C445.848 127.869 459.563 118.326 474.982 114.976C482.35 113.374 491.251 115.866 500.299 124.131C509.266 132.321 520.39 148.453 537.521 156.281C546.518 160.393 557.396 161.722 570.797 157.344C578.435 154.798 586.703 158.932 589.249 166.568C591.794 174.206 587.661 182.474 580.023 185.019C558.09 192.476 540.205 189.951 525.338 183.378C507.581 175.528 494.388 161.092 484.126 150.738C472.526 139.03 456.46 159.907 447.278 169.305C434.36 182.529 421.594 196.905 407.236 206.48C391.494 216.977 373.997 222.273 353.224 217.501C342.595 214.921 334.076 210.064 327.132 203.597C312.781 190.23 305.748 169.541 297.668 153.82C294.395 147.453 292.018 141.112 284.992 142.089C271.388 144.324 261.215 157.241 250.531 170.284C237.282 186.458 224.083 203.662 208.745 213.105C197.801 219.843 185.798 222.954 172.305 221.105C159.185 219.247 147.65 211.297 137.961 199.926Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nOrganic52Shapes.displayName = \"Organic52Shapes\";\n\nexport const Organic52ShapesMetadata = {\n  id: \"organic52_shapes\",\n  baseId: \"organic52\",\n  variant: \"shapes\",\n  name: \"Organic52\",\n  category: \"organic\",\n  tags: [],\n  viewBox: \"0 0 600 300\",\n} as const;\n\nexport default Organic52Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

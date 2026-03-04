@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ellipse1_shapes",
+  "type": "registry:ui",
+  "title": "Ellipse1",
+  "description": "Ellipse1 icon component",
+  "category": "ellipse",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/ellipse/ellipse1_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Ellipse1ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Ellipse1Shapes = React.forwardRef<SVGSVGElement, Ellipse1ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 24 24\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <g clipPath=\"url(#clip0_2068_771)\">\n<path fillRule=\"evenodd\" clipRule=\"evenodd\" d=\"M0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12Z\" fill=\"currentColor\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2068_771\">\n<rect width=\"24\" height=\"24\" fill=\"currentColor\"/>\n</clipPath>\n</defs>\n    </svg>\n  )\n);\n\nEllipse1Shapes.displayName = \"Ellipse1Shapes\";\n\nexport const Ellipse1ShapesMetadata = {\n  id: \"ellipse1_shapes\",\n  baseId: \"ellipse1\",\n  variant: \"shapes\",\n  name: \"Ellipse1\",\n  category: \"ellipse\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Ellipse1Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "google-palm",
+  "type": "registry:ui",
+  "title": "Google Palm",
+  "description": "Google Palm icon component",
+  "category": "google",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/google/google-palm.tsx",
+      "content": "/**\n * Auto-generated logo component: Google Palm (default)\n * Category: google\n * Do not edit manually\n */\n\n'use client';\nimport React from 'react';\n\nexport interface GooglePalmProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const GooglePalm = React.forwardRef<SVGSVGElement, GooglePalmProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      viewBox=\"0 0 256 229\"\n      fill=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <title>Google PaLM</title>\n    <g>\n        <path d=\"M128,228.5418 L128,228.5418 C137.895187,228.5418 145.909841,220.527146 145.909841,210.631959 L145.909841,55.4133387 L110.090159,55.4133387 L110.090159,210.631959 C110.090159,220.527146 118.104813,228.5418 128,228.5418 Z\" fill=\"#F9AB00\"></path>\n        <path d=\"M199.355791,112.05321 C180.043012,92.7553568 151.193244,88.8450415 128,100.30734 L204.669044,176.976383 C207.833115,180.140455 213.280692,178.886766 214.62393,174.633179 C221.36997,153.275694 216.28059,128.992935 199.355791,112.05321 Z\" fill=\"#5BB974\"></path>\n        <path d=\"M56.6442092,112.05321 C75.9569876,92.7553568 104.806756,88.8450415 128,100.30734 L51.3309565,176.976383 C48.1668846,180.140455 42.719308,178.886766 41.37607,174.633179 C34.6300299,153.275694 39.7194097,128.992935 56.6442092,112.05321 Z\" fill=\"#129EAF\"></path>\n        <path d=\"M193.669416,52.5477642 C163.162987,52.5477642 137.268343,72.5470864 128,100.30734 L249.249622,100.30734 C254.219603,100.30734 257.532924,95.0537863 255.279269,90.6211007 C243.757271,68.0099267 220.504328,52.5477642 193.669416,52.5477642 Z\" fill=\"#AF5CF7\"></path>\n        <path d=\"M140.671212,20.1011026 C119.089854,41.6824607 114.925816,74.1141975 128,100.30734 L213.743363,14.5639768 C217.265632,11.0417081 215.892544,4.98221194 211.161361,3.44495061 C187.012925,-4.39060475 159.640719,1.13159617 140.671212,20.1011026 Z\" fill=\"#FF8BCB\"></path>\n        <path d=\"M115.328788,20.1011026 C136.910146,41.6824607 141.074184,74.1141975 128,100.30734 L42.2566371,14.5639768 C38.7343684,11.0417081 40.1074562,4.98221194 44.8386392,3.44495061 C68.9870745,-4.39060475 96.3592812,1.13159617 115.328788,20.1011026 Z\" fill=\"#FA7B17\"></path>\n        <path d=\"M62.3305837,52.5477642 C92.8370125,52.5477642 118.731657,72.5470864 128,100.30734 L6.75037772,100.30734 C1.7803969,100.30734 -1.53292365,95.0537863 0.720731316,90.6211007 C12.2427289,68.0099267 35.4956722,52.5477642 62.3305837,52.5477642 Z\" fill=\"#4285F4\"></path>\n    </g>\n    </svg>\n  )\n);\n\nGooglePalm.displayName = \"GooglePalm\";\n\nexport const GooglePalmMetadata = {\n  id: \"google-palm\",\n  baseId: \"google-palm\",\n  variant: \"default\",\n  name: \"Google Palm\",\n  category: \"google\",\n  tags: [],\n  viewBox: \"0 0 256 229\",\n} as const;\n\nexport default GooglePalm;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

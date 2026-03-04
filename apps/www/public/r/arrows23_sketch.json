@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "arrows23_sketch",
+  "type": "registry:ui",
+  "title": "Arrows23",
+  "description": "Arrows23 icon component",
+  "category": "arrows",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/arrows/arrows23_sketch.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Arrows23SketchProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Arrows23Sketch = React.forwardRef<SVGSVGElement, Arrows23SketchProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 500 500\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path fillRule=\"evenodd\" clipRule=\"evenodd\" d=\"M454.102 40.6898C416.902 55.6898 343.302 83.2904 340.302 83.2904C331.302 83.2904 325.102 97.2904 335.502 97.2904C339.102 97.2904 368.102 124.89 368.102 128.29C368.102 130.69 99.9032 375.09 34.7032 443.09C5.70311 473.29 37.7028 463.89 54.3028 449.89C125.703 389.69 375.502 148.69 386.902 145.89C388.302 145.49 394.102 150.89 399.902 157.89C416.702 177.69 442.102 183.49 442.102 167.29C442.102 160.69 451.102 130.89 466.302 86.89C474.502 62.49 492.302 25.0898 454.102 40.6898Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nArrows23Sketch.displayName = \"Arrows23Sketch\";\n\nexport const Arrows23SketchMetadata = {\n  id: \"arrows23_sketch\",\n  baseId: \"arrows23\",\n  variant: \"sketch\",\n  name: \"Arrows23\",\n  category: \"arrows\",\n  tags: [],\n  viewBox: \"0 0 500 500\",\n} as const;\n\nexport default Arrows23Sketch;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

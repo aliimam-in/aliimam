@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "scribble7_sketch",
+  "type": "registry:ui",
+  "title": "Scribble7",
+  "description": "Scribble7 icon component",
+  "category": "scribble",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/scribble/scribble7_sketch.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Scribble7SketchProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Scribble7Sketch = React.forwardRef<SVGSVGElement, Scribble7SketchProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 96 96\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <defs></defs><title>scribble final version</title><g id=\"Layer_1\" data-name=\"Layer 1\"><path fill=\"currentColor\"  d=\"M44.81,26A29.21,29.21,0,0,0,59.48,9.31C59.64,8.87,62.24,23.65,71,26.5c0,0-10.6,5.08-13.11,15.14C57.9,41.78,57.29,33.65,44.81,26Z\"/><path fill=\"currentColor\"  d=\"M60.1,73.87A24,24,0,0,0,72.16,60.11c.13-.36,2.26,11.8,9.5,14.14,0,0-8.71,4.18-10.78,12.45C70.85,86.81,70.35,80.13,60.1,73.87Z\"/><path fill=\"currentColor\"  d=\"M14.34,55.39A23.27,23.27,0,0,0,26,42.11c.12-.36,2.19,11.38,9.18,13.64,0,0-8.42,4-10.41,12C24.72,67.88,24.24,61.43,14.34,55.39Z\"/></g>\n    </svg>\n  )\n);\n\nScribble7Sketch.displayName = \"Scribble7Sketch\";\n\nexport const Scribble7SketchMetadata = {\n  id: \"scribble7_sketch\",\n  baseId: \"scribble7\",\n  variant: \"sketch\",\n  name: \"Scribble7\",\n  category: \"scribble\",\n  tags: [],\n  viewBox: \"0 0 96 96\",\n} as const;\n\nexport default Scribble7Sketch;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

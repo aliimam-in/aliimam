@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "google-play-console",
+  "type": "registry:ui",
+  "title": "Google Play Console",
+  "description": "Google Play Console icon component",
+  "category": "google",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/google/google-play-console.tsx",
+      "content": "/**\n * Auto-generated logo component: Google Play Console (default)\n * Category: google\n * Do not edit manually\n */\n\n'use client';\nimport React from 'react';\n\nexport interface GooglePlayConsoleProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const GooglePlayConsole = React.forwardRef<SVGSVGElement, GooglePlayConsoleProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      viewBox=\"0 0 256 283\"\n      fill=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <title>Google Play Console</title>\n    <g>\n        <path d=\"M0,251.172514 L0,31.3252701 C0,7.24403011 26.3675454,-7.80674488 47.4739401,4.24270254 L240.176825,114.161911 C261.274392,126.202531 261.274392,156.286426 240.176825,168.318218 L47.4739401,278.246254 C26.3763728,290.286874 0,275.244927 0,251.172514 Z\" fill=\"#2F80ED\"></path>\n        <path d=\"M192.941225,87.2205822 L91.6905571,145.525784 L72.3584766,111.27534 C70.190947,107.425885 66.5737479,104.603325 62.3128567,103.436579 C58.0466395,102.239185 53.4799324,102.778685 49.6101791,104.937242 L0,132.478836 L0,166.252599 L52.7527456,136.954345 L72.1731005,171.381338 C74.3446492,175.221272 78.0521715,178.090188 82.3423044,179.255409 C86.6652503,180.417606 91.2723262,179.824271 95.1597386,177.604679 L222.663195,104.169256 L192.941225,87.2205822 Z\" fill=\"#CCF6FF\"></path>\n    </g>\n    </svg>\n  )\n);\n\nGooglePlayConsole.displayName = \"GooglePlayConsole\";\n\nexport const GooglePlayConsoleMetadata = {\n  id: \"google-play-console\",\n  baseId: \"google-play-console\",\n  variant: \"default\",\n  name: \"Google Play Console\",\n  category: \"google\",\n  tags: [],\n  viewBox: \"0 0 256 283\",\n} as const;\n\nexport default GooglePlayConsole;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

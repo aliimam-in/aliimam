@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "Hero-UI",
+  "type": "registry:ui",
+  "title": "Hero UI",
+  "description": "Hero UI icon component",
+  "category": "library",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/library/Hero-UI.tsx",
+      "content": "/**\n * Auto-generated logo component: Hero UI (default)\n * Category: library\n * Do not edit manually\n */\n\n'use client';\nimport React from 'react';\n\nexport interface HeroUIProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const HeroUI = React.forwardRef<SVGSVGElement, HeroUIProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <g clipPath=\"url(#clip0_2066_938)\">\n<path d=\"M17.627 0.0269775H6.34573C2.84108 0.0269775 0 2.86806 0 6.37271V17.6537C0 21.1587 2.84108 24.0001 6.34573 24.0001H17.627C21.1317 24.0001 23.9728 21.159 23.9728 17.6543V6.37238C23.9728 2.86806 21.1317 0.0269775 17.627 0.0269775Z\" fill=\"#111111\"/>\n<path d=\"M16.4231 17.0485V6.87606H17.6805V17.0485H16.4231ZM10.2911 17.2606C9.50462 17.2606 8.80992 17.0981 8.20732 16.7731C7.61641 16.4596 7.12468 15.9874 6.78743 15.4097C6.44819 14.821 6.27856 14.1312 6.27856 13.3398V6.88319L7.55024 6.87606V13.2341C7.55024 13.7141 7.63035 14.1335 7.79024 14.4915C7.95532 14.8447 8.17197 15.1389 8.44051 15.3743C8.69939 15.6042 8.99875 15.7839 9.32332 15.9043C9.63408 16.0149 9.96127 16.0722 10.2911 16.0739C10.6239 16.0724 10.9539 16.0126 11.266 15.8971C11.5905 15.7797 11.8901 15.6023 12.1492 15.3743C12.4174 15.1389 12.6318 14.8424 12.792 14.4844C12.9519 14.1263 13.032 13.7096 13.032 13.2341V6.87573H14.3036V13.3395C14.3036 14.126 14.1318 14.8136 13.788 15.4022C13.4564 15.9837 12.9665 16.459 12.3752 16.7728C11.7723 17.0978 11.0779 17.2606 10.2911 17.2606Z\" fill=\"white\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2066_938\">\n<rect width=\"24\" height=\"24\" fill=\"white\"/>\n</clipPath>\n</defs>\n    </svg>\n  )\n);\n\nHeroUI.displayName = \"HeroUI\";\n\nexport const HeroUIMetadata = {\n  id: \"Hero-UI\",\n  baseId: \"Hero-UI\",\n  variant: \"default\",\n  name: \"Hero UI\",\n  category: \"library\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default HeroUI;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

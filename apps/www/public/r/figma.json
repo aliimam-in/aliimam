@@ -1,18 +1,18 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry-item.json",
-  "name": "figma",
+  "name": "Figma",
   "type": "registry:ui",
   "title": "Figma",
   "description": "Figma icon component",
-  "category": "others",
+  "category": "design",
   "tags": [],
   "dependencies": [],
   "devDependencies": [],
   "registryDependencies": [],
   "files": [
     {
-      "path": "registry/icons/others/figma.tsx",
-      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface FigmaProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Figma = React.forwardRef<SVGSVGElement, FigmaProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M5 5.5A3.5 3.5 0 0 1 8.5 2H12v7H8.5A3.5 3.5 0 0 1 5 5.5z\" />\n  <path d=\"M12 2h3.5a3.5 3.5 0 1 1 0 7H12V2z\" />\n  <path d=\"M12 12.5a3.5 3.5 0 1 1 7 0 3.5 3.5 0 1 1-7 0z\" />\n  <path d=\"M5 19.5A3.5 3.5 0 0 1 8.5 16H12v3.5a3.5 3.5 0 1 1-7 0z\" />\n  <path d=\"M5 12.5A3.5 3.5 0 0 1 8.5 9H12v7H8.5A3.5 3.5 0 0 1 5 12.5z\" />\n    </svg>\n  )\n);\nFigma.displayName = \"Figma\";\nexport const FigmaMetadata = { \n  id: \"figma\", \n  baseId: \"figma\", \n  variant: \"default\", \n  name: \"Figma\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Figma;\n",
+      "path": "registry/icons/design/Figma.tsx",
+      "content": "/**\n * Auto-generated logo component: Figma (default)\n * Category: design\n * Do not edit manually\n */\n\n'use client';\nimport React from 'react';\n\nexport interface FigmaProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Figma = React.forwardRef<SVGSVGElement, FigmaProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path d=\"M7.95061 24C10.1313 24 11.9012 22.208 11.9012 20V16H7.95061C5.76988 16 4 17.792 4 20C4 22.208 5.76988 24 7.95061 24Z\" fill=\"#0ACF83\"/>\n<path d=\"M4 12C4 9.79199 5.76988 8 7.95061 8H11.9012V16H7.95061C5.76988 16 4 14.208 4 12Z\" fill=\"#A259FF\"/>\n<path d=\"M4 3.99999C4 1.792 5.76988 0 7.95061 0H11.9012V8.00001H7.95061C5.76988 8.00001 4 6.20799 4 3.99999Z\" fill=\"#F24E1E\"/>\n<path d=\"M11.9012 0H15.8519C18.0326 0 19.8025 1.792 19.8025 3.99999C19.8025 6.20799 18.0326 8.00001 15.8519 8.00001H11.9012V0Z\" fill=\"#FF7262\"/>\n<path d=\"M19.8025 12C19.8025 14.208 18.0326 16 15.8519 16C13.6711 16 11.9012 14.208 11.9012 12C11.9012 9.79199 13.6711 8 15.8519 8C18.0326 8 19.8025 9.79199 19.8025 12Z\" fill=\"#1ABCFE\"/>\n    </svg>\n  )\n);\n\nFigma.displayName = \"Figma\";\n\nexport const FigmaMetadata = {\n  id: \"Figma\",\n  baseId: \"Figma\",\n  variant: \"default\",\n  name: \"Figma\",\n  category: \"design\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Figma;\n",
       "type": "registry:ui"
     }
   ]

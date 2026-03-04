@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "PNPM",
+  "type": "registry:ui",
+  "title": "PNPM",
+  "description": "PNPM icon component",
+  "category": "software",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/software/PNPM.tsx",
+      "content": "/**\n * Auto-generated logo component: PNPM (default)\n * Category: software\n * Do not edit manually\n */\n\n'use client';\nimport React from 'react';\n\nexport interface PNPMProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const PNPM = React.forwardRef<SVGSVGElement, PNPMProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <g clipPath=\"url(#clip0_2039_612)\">\n<path d=\"M23.5611 7.46344H16.2445V0.146362H23.5611V7.46344Z\" fill=\"#F9AD00\"/>\n<path d=\"M15.5113 7.46344H8.1947V0.146362H15.5113V7.46344Z\" fill=\"#F9AD00\"/>\n<path d=\"M7.4631 7.46344H0.146484V0.146362H7.4631V7.46344Z\" fill=\"#F9AD00\"/>\n<path d=\"M23.5611 15.5123H16.2445V8.19519H23.5611V15.5123Z\" fill=\"#F9AD00\"/>\n<path d=\"M15.5113 15.5123H8.1947V8.19519H15.5113V15.5123Z\" fill=\"currentColor\"/>\n<path d=\"M15.5113 23.561H8.1947V16.2439H15.5113V23.561Z\" fill=\"currentColor\"/>\n<path d=\"M23.5611 23.561H16.2445V16.2439H23.5611V23.561Z\" fill=\"currentColor\"/>\n<path d=\"M7.4631 23.561H0.146484V16.2439H7.4631V23.561Z\" fill=\"currentColor\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2039_612\">\n<rect width=\"24\" height=\"24\" fill=\"white\"/>\n</clipPath>\n</defs>\n    </svg>\n  )\n);\n\nPNPM.displayName = \"PNPM\";\n\nexport const PNPMMetadata = {\n  id: \"PNPM\",\n  baseId: \"PNPM\",\n  variant: \"default\",\n  name: \"PNPM\",\n  category: \"software\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default PNPM;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

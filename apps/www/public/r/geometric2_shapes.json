@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "geometric2_shapes",
+  "type": "registry:ui",
+  "title": "Geometric2",
+  "description": "Geometric2 icon component",
+  "category": "geometric",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/geometric/geometric2_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Geometric2ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Geometric2Shapes = React.forwardRef<SVGSVGElement, Geometric2ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 357 357\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path d=\"M46.9194 148.042C46.9194 75.5517 105.684 16.7866 178.175 16.7866C250.665 16.7866 309.43 75.5516 309.43 148.042V356.349H46.9194V148.042Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nGeometric2Shapes.displayName = \"Geometric2Shapes\";\n\nexport const Geometric2ShapesMetadata = {\n  id: \"geometric2_shapes\",\n  baseId: \"geometric2\",\n  variant: \"shapes\",\n  name: \"Geometric2\",\n  category: \"geometric\",\n  tags: [],\n  viewBox: \"0 0 357 357\",\n} as const;\n\nexport default Geometric2Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

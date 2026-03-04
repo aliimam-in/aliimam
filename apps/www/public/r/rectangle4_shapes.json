@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "rectangle4_shapes",
+  "type": "registry:ui",
+  "title": "Rectangle4",
+  "description": "Rectangle4 icon component",
+  "category": "rectangle",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/rectangle/rectangle4_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Rectangle4ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Rectangle4Shapes = React.forwardRef<SVGSVGElement, Rectangle4ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 24 24\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path fillRule=\"evenodd\" clipRule=\"evenodd\" d=\"M24.0009 12.0005L12.0005 0L0 12.0005L12.0005 24.0009L24.0009 12.0005ZM16.8006 11.2002C16.8006 8.9911 15.0097 7.20024 12.8006 7.20024H11.2002C8.9911 7.20024 7.20024 8.9911 7.20024 11.2002V12.8006C7.20024 15.0097 8.9911 16.8006 11.2002 16.8006H12.8006C15.0097 16.8006 16.8006 15.0097 16.8006 12.8006V11.2002Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nRectangle4Shapes.displayName = \"Rectangle4Shapes\";\n\nexport const Rectangle4ShapesMetadata = {\n  id: \"rectangle4_shapes\",\n  baseId: \"rectangle4\",\n  variant: \"shapes\",\n  name: \"Rectangle4\",\n  category: \"rectangle\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Rectangle4Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

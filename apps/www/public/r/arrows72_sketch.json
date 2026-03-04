@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "arrows72_sketch",
+  "type": "registry:ui",
+  "title": "Arrows72",
+  "description": "Arrows72 icon component",
+  "category": "arrows",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/arrows/arrows72_sketch.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Arrows72SketchProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Arrows72Sketch = React.forwardRef<SVGSVGElement, Arrows72SketchProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 500 500\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path d=\"M257.88 256.633C220.63 253.8 218.213 252.3 218.213 254.466C218.213 261.466 225.63 264.132 252.797 267.132C268.797 268.882 272.713 268.633 273.047 266.05C273.797 260.633 268.713 257.467 257.88 256.633Z\" fill=\"currentColor\"/>\n<path d=\"M148.63 244.217C147.797 245.633 150.13 249.467 152.797 251.05C156.463 253.217 198.047 258.383 198.963 256.8C199.963 255.217 198.463 251.467 195.63 248.8C191.963 245.217 150.463 241.217 148.63 244.217Z\" fill=\"currentColor\"/>\n<path d=\"M464.88 220.966C459.13 224.216 450.797 228.8 446.38 231.05C437.547 235.466 436.713 236.716 440.213 239.966C446.463 245.8 484.297 230.633 484.297 222.3C484.213 214.133 477.63 213.716 464.88 220.966Z\" fill=\"currentColor\"/>\n<path d=\"M84.63 241.466C79.7135 243.05 79.1295 242.633 71.8795 231.966C61.0462 215.966 54.0467 224.883 54.0467 226.3C54.0467 231.466 33.0464 260.383 21.213 271.466C9.96304 281.966 15.4634 286.633 34.4634 282.716C63.2134 276.8 97.9633 279.133 101.297 279.55C110.88 280.55 110.547 279.133 97.88 264.633C90.13 255.8 88.9633 253.383 91.9633 252.216C95.7133 250.8 112.463 249.133 121.963 249.216C126.963 249.3 142.629 251.3 132.296 241.633C126.296 236.133 101.547 235.966 84.63 241.466Z\" fill=\"currentColor\"/>\n<path d=\"M317.38 258.05C288.713 260.8 289.13 260.716 293.88 266.133C296.463 269.05 311.963 270.383 326.297 268.883C345.13 266.883 356.13 267.55 349.547 259.383C346.463 255.466 344.63 255.383 317.38 258.05Z\" fill=\"currentColor\"/>\n<path d=\"M386.213 249.632C366.13 256.382 365.463 256.715 367.713 259.215C372.88 264.882 415.047 256.382 415.047 249.632C415.047 241.882 409.297 241.882 386.213 249.632Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\n\nArrows72Sketch.displayName = \"Arrows72Sketch\";\n\nexport const Arrows72SketchMetadata = {\n  id: \"arrows72_sketch\",\n  baseId: \"arrows72\",\n  variant: \"sketch\",\n  name: \"Arrows72\",\n  category: \"arrows\",\n  tags: [],\n  viewBox: \"0 0 500 500\",\n} as const;\n\nexport default Arrows72Sketch;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

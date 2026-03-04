@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "Chile_symbols",
+  "type": "registry:ui",
+  "title": "Chile",
+  "description": "Chile icon component",
+  "category": "flags",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/flags/Chile_symbols.tsx",
+      "content": "/**\n * Auto-generated logo component: Chile (symbols)\n * Category: flags\n * Do not edit manually\n */\n\n'use client';\nimport React from 'react';\n\nexport interface ChileSymbolsProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const ChileSymbols = React.forwardRef<SVGSVGElement, ChileSymbolsProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      viewBox=\"0 0 32 32\"\n      fill=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <path d=\"M1 24C1 26.209 2.791 28 5 28H27C29.209 28 31 26.209 31 24V15H1V24Z\" fill=\"#C73A29\"/>\n<path d=\"M27 4H5C2.791 4 1 5.791 1 8V16H31V8C31 5.791 29.209 4 27 4Z\" fill=\"white\"/>\n<path d=\"M5 4H13V16H1V8C1 5.792 2.792 4 5 4Z\" fill=\"#1435A1\"/>\n<path d=\"M8.14602 10.674L10.001 9.326H7.70802L7.00002 7.146L6.29202 9.326H3.99902L5.85402 10.674L5.14502 12.854L7.00002 11.507L8.85502 12.854L8.14602 10.674Z\" fill=\"white\"/>\n    </svg>\n  )\n);\n\nChileSymbols.displayName = \"ChileSymbols\";\n\nexport const ChileSymbolsMetadata = {\n  id: \"Chile_symbols\",\n  baseId: \"Chile\",\n  variant: \"symbols\",\n  name: \"Chile\",\n  category: \"flags\",\n  tags: [],\n  viewBox: \"0 0 32 32\",\n} as const;\n\nexport default ChileSymbols;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

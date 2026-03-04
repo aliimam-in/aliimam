@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "misc7_shapes",
+  "type": "registry:ui",
+  "title": "Misc7",
+  "description": "Misc7 icon component",
+  "category": "misc",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/misc/misc7_shapes.tsx",
+      "content": "\n'use client';\nimport React from 'react';\n\nexport interface Misc7ShapesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  className?: string; \n}\n\nexport const Misc7Shapes = React.forwardRef<SVGSVGElement, Misc7ShapesProps>(\n  ({ size = 24, className = '', ...props }, ref) => (\n    <svg\n      ref={ref}\n      width={size}\n      height={size}\n      fill=\"none\"\n      viewBox=\"0 0 24 24\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\" \n      {...props}\n    >\n      <g clipPath=\"url(#clip0_2068_651)\">\n<path d=\"M0 0H4.8V4.8H0V0Z\" fill=\"currentColor\"/>\n<path d=\"M4.8 4.8H9.6V9.6H4.8V4.8Z\" fill=\"currentColor\"/>\n<path d=\"M0 9.6H4.8V14.4H0V9.6Z\" fill=\"currentColor\"/>\n<path d=\"M4.8 14.4H9.6V19.2H4.8V14.4Z\" fill=\"currentColor\"/>\n<path d=\"M14.4 4.8H19.2V9.6H14.4V4.8Z\" fill=\"currentColor\"/>\n<path d=\"M9.6 9.6H14.4V14.4H9.6V9.6Z\" fill=\"currentColor\"/>\n<path d=\"M0 19.2H4.8V24H0V19.2Z\" fill=\"currentColor\"/>\n<path d=\"M19.2 9.6H24V14.4H19.2V9.6Z\" fill=\"currentColor\"/>\n<path d=\"M9.6 0H14.4V4.8H9.6V0Z\" fill=\"currentColor\"/>\n<path d=\"M14.4 14.4H19.2V19.2H14.4V14.4Z\" fill=\"currentColor\"/>\n<path d=\"M9.6 19.2H14.4V24H9.6V19.2Z\" fill=\"currentColor\"/>\n<path d=\"M19.2 0H24V4.8H19.2V0Z\" fill=\"currentColor\"/>\n<path d=\"M19.2 19.2H24V24H19.2V19.2Z\" fill=\"currentColor\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_2068_651\">\n<rect width=\"24\" height=\"24\" fill=\"currentColor\"/>\n</clipPath>\n</defs>\n    </svg>\n  )\n);\n\nMisc7Shapes.displayName = \"Misc7Shapes\";\n\nexport const Misc7ShapesMetadata = {\n  id: \"misc7_shapes\",\n  baseId: \"misc7\",\n  variant: \"shapes\",\n  name: \"Misc7\",\n  category: \"misc\",\n  tags: [],\n  viewBox: \"0 0 24 24\",\n} as const;\n\nexport default Misc7Shapes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

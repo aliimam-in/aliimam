@@ -8,21 +8,19 @@ import {
   PageHeaderHeading,
 } from "@/src/components/layout/page-header"
 import { Button } from "@/registry/aliimam/ui/button"
-import { PixelGridShader } from "@/registry/aliimam/components/pixelgrid-shader"
+import { PixelGridShader } from "@/registry/aliimam/components/pixelgrid-shader" 
  
 export function Hero() {
   return (
     <div className="relative flex h-[calc(100vh-var(--header-height)-var(--footer-height)+5rem)] items-center justify-center overflow-hidden">
-
-
-    
+ 
 
       <PixelGridShader 
         amplitude={0.15}   
         shape="plasma" 
         pxSize={2}   
         colorFg="#ff0000" 
-        className="" />
+        className="hidden" />
 
       <PageHeader className="relative z-10">
         <PageHeaderHeading className="max-w-100 md:max-w-full">Design without limits</PageHeaderHeading>
