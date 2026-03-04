@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "blur-1_rounded",
+  "type": "registry:ui",
+  "title": "Blur 1",
+  "description": "Blur 1 icon component",
+  "category": "design",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/design/blur-1_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface Blur1RoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Blur1Rounded = React.forwardRef<SVGSVGElement, Blur1RoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M12.61 2.21C12.25 1.93 11.75 1.93 11.39 2.21C9.49001 3.66 3.87997 8.39 3.90997 13.9C3.90997 18.36 7.54001 22 12.01 22C16.48 22 20.11 18.37 20.11 13.91C20.12 8.48 14.5 3.67 12.61 2.21Z\"   strokeMiterlimit=\"10\"/>\n<path d=\"M12 2V22\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M12 18.96L19.7 15.22\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M12 13.96L19.37 10.38\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M12 8.96001L17.03 6.51001\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nBlur1Rounded.displayName = \"Blur1Rounded\";\nexport const Blur1RoundedMetadata = { \n  id: \"blur-1_rounded\", \n  baseId: \"blur-1\", \n  variant: \"rounded\", \n  name: \"Blur 1\", \n  category: \"design\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Blur1Rounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

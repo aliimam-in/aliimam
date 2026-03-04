@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "locate-fixed",
+  "type": "registry:ui",
+  "title": "Locate Fixed",
+  "description": "Locate Fixed icon component",
+  "category": "navigation",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/navigation/locate-fixed.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface LocateFixedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const LocateFixed = React.forwardRef<SVGSVGElement, LocateFixedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <line x1=\"2\" x2=\"5\" y1=\"12\" y2=\"12\" />\n  <line x1=\"19\" x2=\"22\" y1=\"12\" y2=\"12\" />\n  <line x1=\"12\" x2=\"12\" y1=\"2\" y2=\"5\" />\n  <line x1=\"12\" x2=\"12\" y1=\"19\" y2=\"22\" />\n  <circle cx=\"12\" cy=\"12\" r=\"7\" />\n  <circle cx=\"12\" cy=\"12\" r=\"3\" />\n    </svg>\n  )\n);\nLocateFixed.displayName = \"LocateFixed\";\nexport const LocateFixedMetadata = { \n  id: \"locate-fixed\", \n  baseId: \"locate-fixed\", \n  variant: \"default\", \n  name: \"Locate Fixed\", \n  category: \"navigation\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default LocateFixed;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

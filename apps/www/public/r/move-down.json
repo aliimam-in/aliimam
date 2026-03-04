@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "move-down",
+  "type": "registry:ui",
+  "title": "Move Down",
+  "description": "Move Down icon component",
+  "category": "arrows",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/arrows/move-down.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface MoveDownProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const MoveDown = React.forwardRef<SVGSVGElement, MoveDownProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M8 18L12 22L16 18\" />\n  <path d=\"M12 2V22\" />\n    </svg>\n  )\n);\nMoveDown.displayName = \"MoveDown\";\nexport const MoveDownMetadata = { \n  id: \"move-down\", \n  baseId: \"move-down\", \n  variant: \"default\", \n  name: \"Move Down\", \n  category: \"arrows\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default MoveDown;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

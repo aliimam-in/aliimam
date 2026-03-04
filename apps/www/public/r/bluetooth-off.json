@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "bluetooth-off",
+  "type": "registry:ui",
+  "title": "Bluetooth Off",
+  "description": "Bluetooth Off icon component",
+  "category": "app",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/app/bluetooth-off.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface BluetoothOffProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const BluetoothOff = React.forwardRef<SVGSVGElement, BluetoothOffProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"m17 17-5 5V12l-5 5\" />\n  <path d=\"m2 2 20 20\" />\n  <path d=\"M14.5 9.5 17 7l-5-5v4.5\" />\n    </svg>\n  )\n);\nBluetoothOff.displayName = \"BluetoothOff\";\nexport const BluetoothOffMetadata = { \n  id: \"bluetooth-off\", \n  baseId: \"bluetooth-off\", \n  variant: \"default\", \n  name: \"Bluetooth Off\", \n  category: \"app\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default BluetoothOff;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

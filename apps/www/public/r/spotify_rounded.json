@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "spotify_rounded",
+  "type": "registry:ui",
+  "title": "Spotify",
+  "description": "Spotify icon component",
+  "category": "brand",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/brand/spotify_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface SpotifyRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const SpotifyRounded = React.forwardRef<SVGSVGElement, SpotifyRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M6.6001 9.29998C10.2001 7.89998 14.3001 8.39998 17.5001 10.6\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M7.8999 12.4C10.5999 11.4 13.5999 11.7 15.8999 13.4\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M8.80005 15.4C10.8 14.6 13 14.9 14.8 16.1\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nSpotifyRounded.displayName = \"SpotifyRounded\";\nexport const SpotifyRoundedMetadata = { \n  id: \"spotify_rounded\", \n  baseId: \"spotify\", \n  variant: \"rounded\", \n  name: \"Spotify\", \n  category: \"brand\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default SpotifyRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

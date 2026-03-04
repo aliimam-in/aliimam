@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "file-chart-column",
+  "type": "registry:ui",
+  "title": "File Chart Column",
+  "description": "File Chart Column icon component",
+  "category": "file",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/file/file-chart-column.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface FileChartColumnProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const FileChartColumn = React.forwardRef<SVGSVGElement, FileChartColumnProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z\" />\n  <path d=\"M14 2v5a1 1 0 0 0 1 1h5\" />\n  <path d=\"M8 18v-1\" />\n  <path d=\"M12 18v-6\" />\n  <path d=\"M16 18v-3\" />\n    </svg>\n  )\n);\nFileChartColumn.displayName = \"FileChartColumn\";\nexport const FileChartColumnMetadata = { \n  id: \"file-chart-column\", \n  baseId: \"file-chart-column\", \n  variant: \"default\", \n  name: \"File Chart Column\", \n  category: \"file\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default FileChartColumn;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

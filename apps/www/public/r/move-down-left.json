@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "move-down-left",
+  "type": "registry:ui",
+  "title": "Move Down Left",
+  "description": "Move Down Left icon component",
+  "category": "arrows",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/arrows/move-down-left.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface MoveDownLeftProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const MoveDownLeft = React.forwardRef<SVGSVGElement, MoveDownLeftProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M11 19H5V13\" />\n  <path d=\"M19 5L5 19\" />\n    </svg>\n  )\n);\nMoveDownLeft.displayName = \"MoveDownLeft\";\nexport const MoveDownLeftMetadata = { \n  id: \"move-down-left\", \n  baseId: \"move-down-left\", \n  variant: \"default\", \n  name: \"Move Down Left\", \n  category: \"arrows\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default MoveDownLeft;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

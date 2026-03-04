@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "blend",
+  "type": "registry:ui",
+  "title": "Blend",
+  "description": "Blend icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/blend.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface BlendProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Blend = React.forwardRef<SVGSVGElement, BlendProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <circle cx=\"9\" cy=\"9\" r=\"7\" />\n  <circle cx=\"15\" cy=\"15\" r=\"7\" />\n    </svg>\n  )\n);\nBlend.displayName = \"Blend\";\nexport const BlendMetadata = { \n  id: \"blend\", \n  baseId: \"blend\", \n  variant: \"default\", \n  name: \"Blend\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Blend;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "circle-pile",
+  "type": "registry:ui",
+  "title": "Circle Pile",
+  "description": "Circle Pile icon component",
+  "category": "circle",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/circle/circle-pile.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface CirclePileProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const CirclePile = React.forwardRef<SVGSVGElement, CirclePileProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <circle cx=\"12\" cy=\"19\" r=\"2\" />\n  <circle cx=\"12\" cy=\"5\" r=\"2\" />\n  <circle cx=\"16\" cy=\"12\" r=\"2\" />\n  <circle cx=\"20\" cy=\"19\" r=\"2\" />\n  <circle cx=\"4\" cy=\"19\" r=\"2\" />\n  <circle cx=\"8\" cy=\"12\" r=\"2\" />\n    </svg>\n  )\n);\nCirclePile.displayName = \"CirclePile\";\nexport const CirclePileMetadata = { \n  id: \"circle-pile\", \n  baseId: \"circle-pile\", \n  variant: \"default\", \n  name: \"Circle Pile\", \n  category: \"circle\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default CirclePile;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

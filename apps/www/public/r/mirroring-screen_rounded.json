@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "mirroring-screen_rounded",
+  "type": "registry:ui",
+  "title": "Mirroring Screen",
+  "description": "Mirroring Screen icon component",
+  "category": "device",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/device/mirroring-screen_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface MirroringScreenRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const MirroringScreenRounded = React.forwardRef<SVGSVGElement, MirroringScreenRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M2 9V8C2 5 4 3 7 3H17C20 3 22 5 22 8V16C22 19 20 21 17 21H16\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M3.68994 11.71C8.30994 12.3 11.6999 15.7 12.2999 20.32\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M2.62 15.0699C6.01 15.4999 8.5 18 8.94 21.39\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M1.97998 18.86C3.66998 19.08 4.91998 20.32 5.13998 22.02\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nMirroringScreenRounded.displayName = \"MirroringScreenRounded\";\nexport const MirroringScreenRoundedMetadata = { \n  id: \"mirroring-screen_rounded\", \n  baseId: \"mirroring-screen\", \n  variant: \"rounded\", \n  name: \"Mirroring Screen\", \n  category: \"device\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default MirroringScreenRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "volleyball",
+  "type": "registry:ui",
+  "title": "Volleyball",
+  "description": "Volleyball icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/volleyball.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface VolleyballProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Volleyball = React.forwardRef<SVGSVGElement, VolleyballProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M11.1 7.1a16.55 16.55 0 0 1 10.9 4\" />\n  <path d=\"M12 12a12.6 12.6 0 0 1-8.7 5\" />\n  <path d=\"M16.8 13.6a16.55 16.55 0 0 1-9 7.5\" />\n  <path d=\"M20.7 17a12.8 12.8 0 0 0-8.7-5 13.3 13.3 0 0 1 0-10\" />\n  <path d=\"M6.3 3.8a16.55 16.55 0 0 0 1.9 11.5\" />\n  <circle cx=\"12\" cy=\"12\" r=\"10\" />\n    </svg>\n  )\n);\nVolleyball.displayName = \"Volleyball\";\nexport const VolleyballMetadata = { \n  id: \"volleyball\", \n  baseId: \"volleyball\", \n  variant: \"default\", \n  name: \"Volleyball\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Volleyball;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

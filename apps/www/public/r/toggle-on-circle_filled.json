@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "toggle-on-circle_filled",
+  "type": "registry:ui",
+  "title": "Toggle On Circle",
+  "description": "Toggle On Circle icon component",
+  "category": "app",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/app/toggle-on-circle_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ToggleOnCircleFilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ToggleOnCircleFilled = React.forwardRef<SVGSVGElement, ToggleOnCircleFilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M13.86 3.86011H10.14C5.65 3.86011 2 7.51011 2 12.0001C2 16.4901 5.65 20.1401 10.14 20.1401H13.86C18.35 20.1401 22 16.4901 22 12.0001C22 7.51011 18.35 3.86011 13.86 3.86011ZM13.86 16.4201C11.42 16.4201 9.44 14.4401 9.44 12.0001C9.44 9.56011 11.42 7.58011 13.86 7.58011C16.3 7.58011 18.28 9.56011 18.28 12.0001C18.28 14.4401 16.3 16.4201 13.86 16.4201Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nToggleOnCircleFilled.displayName = \"ToggleOnCircleFilled\";\nexport const ToggleOnCircleFilledMetadata = { \n  id: \"toggle-on-circle_filled\", \n  baseId: \"toggle-on-circle\", \n  variant: \"filled\", \n  name: \"Toggle On Circle\", \n  category: \"app\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ToggleOnCircleFilled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

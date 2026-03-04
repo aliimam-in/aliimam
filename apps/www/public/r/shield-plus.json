@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "shield-plus",
+  "type": "registry:ui",
+  "title": "Shield Plus",
+  "description": "Shield Plus icon component",
+  "category": "shield",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/shield/shield-plus.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ShieldPlusProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ShieldPlus = React.forwardRef<SVGSVGElement, ShieldPlusProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z\" />\n  <path d=\"M9 12h6\" />\n  <path d=\"M12 9v6\" />\n    </svg>\n  )\n);\nShieldPlus.displayName = \"ShieldPlus\";\nexport const ShieldPlusMetadata = { \n  id: \"shield-plus\", \n  baseId: \"shield-plus\", \n  variant: \"default\", \n  name: \"Shield Plus\", \n  category: \"shield\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ShieldPlus;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

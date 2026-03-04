@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "tree-deciduous",
+  "type": "registry:ui",
+  "title": "Tree Deciduous",
+  "description": "Tree Deciduous icon component",
+  "category": "nature",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/nature/tree-deciduous.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface TreeDeciduousProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const TreeDeciduous = React.forwardRef<SVGSVGElement, TreeDeciduousProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M8 19a4 4 0 0 1-2.24-7.32A3.5 3.5 0 0 1 9 6.03V6a3 3 0 1 1 6 0v.04a3.5 3.5 0 0 1 3.24 5.65A4 4 0 0 1 16 19Z\" />\n  <path d=\"M12 19v3\" />\n    </svg>\n  )\n);\nTreeDeciduous.displayName = \"TreeDeciduous\";\nexport const TreeDeciduousMetadata = { \n  id: \"tree-deciduous\", \n  baseId: \"tree-deciduous\", \n  variant: \"default\", \n  name: \"Tree Deciduous\", \n  category: \"nature\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default TreeDeciduous;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

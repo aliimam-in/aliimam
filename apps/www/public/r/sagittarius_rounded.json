@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "sagittarius_rounded",
+  "type": "registry:ui",
+  "title": "Sagittarius",
+  "description": "Sagittarius icon component",
+  "category": "gender",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/gender/sagittarius_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface SagittariusRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const SagittariusRounded = React.forwardRef<SVGSVGElement, SagittariusRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M12 3H21V12\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M21 3L3 21\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M6.6001 6.59998L17.4001 17.4\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nSagittariusRounded.displayName = \"SagittariusRounded\";\nexport const SagittariusRoundedMetadata = { \n  id: \"sagittarius_rounded\", \n  baseId: \"sagittarius\", \n  variant: \"rounded\", \n  name: \"Sagittarius\", \n  category: \"gender\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default SagittariusRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

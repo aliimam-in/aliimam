@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "podcast",
+  "type": "registry:ui",
+  "title": "Podcast",
+  "description": "Podcast icon component",
+  "category": "network",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/network/podcast.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface PodcastProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Podcast = React.forwardRef<SVGSVGElement, PodcastProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M13 17a1 1 0 1 0-2 0l.5 4.5a0.5 0.5 0 0 0 1 0z\" fill=\"currentColor\" />\n  <path d=\"M16.85 18.58a9 9 0 1 0-9.7 0\" />\n  <path d=\"M8 14a5 5 0 1 1 8 0\" />\n  <circle cx=\"12\" cy=\"11\" r=\"1\" fill=\"currentColor\" />\n    </svg>\n  )\n);\nPodcast.displayName = \"Podcast\";\nexport const PodcastMetadata = { \n  id: \"podcast\", \n  baseId: \"podcast\", \n  variant: \"default\", \n  name: \"Podcast\", \n  category: \"network\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Podcast;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ticket-discount_rounded",
+  "type": "registry:ui",
+  "title": "Ticket Discount",
+  "description": "Ticket Discount icon component",
+  "category": "finance",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/finance/ticket-discount_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface TicketDiscountRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const TicketDiscountRounded = React.forwardRef<SVGSVGElement, TicketDiscountRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M19.5 12.5C19.5 11.12 20.62 10 22 10V9C22 5 21 4 17 4H7C3 4 2 5 2 9V9.5C3.38 9.5 4.5 10.62 4.5 12C4.5 13.38 3.38 14.5 2 14.5V15C2 19 3 20 7 20H17C21 20 22 19 22 15C20.62 15 19.5 13.88 19.5 12.5Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M9 14.75L15 8.75\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M14.9945 14.75H15.0035\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M8.99451 9.25H9.00349\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nTicketDiscountRounded.displayName = \"TicketDiscountRounded\";\nexport const TicketDiscountRoundedMetadata = { \n  id: \"ticket-discount_rounded\", \n  baseId: \"ticket-discount\", \n  variant: \"rounded\", \n  name: \"Ticket Discount\", \n  category: \"finance\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default TicketDiscountRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

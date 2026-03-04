@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "database-zap",
+  "type": "registry:ui",
+  "title": "Database Zap",
+  "description": "Database Zap icon component",
+  "category": "app",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/app/database-zap.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface DatabaseZapProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const DatabaseZap = React.forwardRef<SVGSVGElement, DatabaseZapProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <ellipse cx=\"12\" cy=\"5\" rx=\"9\" ry=\"3\" />\n  <path d=\"M3 5V19A9 3 0 0 0 15 21.84\" />\n  <path d=\"M21 5V8\" />\n  <path d=\"M21 12L18 17H22L19 22\" />\n  <path d=\"M3 12A9 3 0 0 0 14.59 14.87\" />\n    </svg>\n  )\n);\nDatabaseZap.displayName = \"DatabaseZap\";\nexport const DatabaseZapMetadata = { \n  id: \"database-zap\", \n  baseId: \"database-zap\", \n  variant: \"default\", \n  name: \"Database Zap\", \n  category: \"app\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default DatabaseZap;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

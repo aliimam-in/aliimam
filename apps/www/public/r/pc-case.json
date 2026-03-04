@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "pc-case",
+  "type": "registry:ui",
+  "title": "Pc Case",
+  "description": "Pc Case icon component",
+  "category": "device",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/device/pc-case.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface PcCaseProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const PcCase = React.forwardRef<SVGSVGElement, PcCaseProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <rect width=\"14\" height=\"20\" x=\"5\" y=\"2\" rx=\"2\" />\n  <path d=\"M15 14h.01\" />\n  <path d=\"M9 6h6\" />\n  <path d=\"M9 10h6\" />\n    </svg>\n  )\n);\nPcCase.displayName = \"PcCase\";\nexport const PcCaseMetadata = { \n  id: \"pc-case\", \n  baseId: \"pc-case\", \n  variant: \"default\", \n  name: \"Pc Case\", \n  category: \"device\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default PcCase;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

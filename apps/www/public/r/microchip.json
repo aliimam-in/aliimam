@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "microchip",
+  "type": "registry:ui",
+  "title": "Microchip",
+  "description": "Microchip icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/microchip.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface MicrochipProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Microchip = React.forwardRef<SVGSVGElement, MicrochipProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M10 12h4\" />\n  <path d=\"M10 17h4\" />\n  <path d=\"M10 7h4\" />\n  <path d=\"M18 12h2\" />\n  <path d=\"M18 18h2\" />\n  <path d=\"M18 6h2\" />\n  <path d=\"M4 12h2\" />\n  <path d=\"M4 18h2\" />\n  <path d=\"M4 6h2\" />\n  <rect x=\"6\" y=\"2\" width=\"12\" height=\"20\" rx=\"2\" />\n    </svg>\n  )\n);\nMicrochip.displayName = \"Microchip\";\nexport const MicrochipMetadata = { \n  id: \"microchip\", \n  baseId: \"microchip\", \n  variant: \"default\", \n  name: \"Microchip\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Microchip;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

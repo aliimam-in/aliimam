@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "zodiac-taurus",
+  "type": "registry:ui",
+  "title": "Zodiac Taurus",
+  "description": "Zodiac Taurus icon component",
+  "category": "zodiac",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/zodiac/zodiac-taurus.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ZodiacTaurusProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ZodiacTaurus = React.forwardRef<SVGSVGElement, ZodiacTaurusProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <circle cx=\"12\" cy=\"15\" r=\"6\" />\n  <path d=\"M18 3A6 6 0 0 1 6 3\" />\n    </svg>\n  )\n);\nZodiacTaurus.displayName = \"ZodiacTaurus\";\nexport const ZodiacTaurusMetadata = { \n  id: \"zodiac-taurus\", \n  baseId: \"zodiac-taurus\", \n  variant: \"default\", \n  name: \"Zodiac Taurus\", \n  category: \"zodiac\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ZodiacTaurus;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

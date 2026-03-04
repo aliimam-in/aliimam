@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "align-horizontal-space-around",
+  "type": "registry:ui",
+  "title": "Align Horizontal Space Around",
+  "description": "Align Horizontal Space Around icon component",
+  "category": "align",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/align/align-horizontal-space-around.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface AlignHorizontalSpaceAroundProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const AlignHorizontalSpaceAround = React.forwardRef<SVGSVGElement, AlignHorizontalSpaceAroundProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <rect width=\"6\" height=\"10\" x=\"9\" y=\"7\" rx=\"2\" />\n  <path d=\"M4 22V2\" />\n  <path d=\"M20 22V2\" />\n    </svg>\n  )\n);\nAlignHorizontalSpaceAround.displayName = \"AlignHorizontalSpaceAround\";\nexport const AlignHorizontalSpaceAroundMetadata = { \n  id: \"align-horizontal-space-around\", \n  baseId: \"align-horizontal-space-around\", \n  variant: \"default\", \n  name: \"Align Horizontal Space Around\", \n  category: \"align\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default AlignHorizontalSpaceAround;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

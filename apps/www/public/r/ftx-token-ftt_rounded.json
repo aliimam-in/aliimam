@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ftx-token-ftt_rounded",
+  "type": "registry:ui",
+  "title": "Ftx Token Ftt",
+  "description": "Ftx Token Ftt icon component",
+  "category": "brand",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/brand/ftx-token-ftt_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface FtxTokenFttRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const FtxTokenFttRounded = React.forwardRef<SVGSVGElement, FtxTokenFttRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M21 2H9C8.4 2 8 2.4 8 3V6C8 6.6 8.4 7 9 7H21C21.6 7 22 6.6 22 6V3C22 2.4 21.6 2 21 2Z\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M12 17H7V22H12V17Z\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M7 9.5H2V14.5H7V9.5Z\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M18 9.59998H9.5V14.3H18V9.59998Z\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nFtxTokenFttRounded.displayName = \"FtxTokenFttRounded\";\nexport const FtxTokenFttRoundedMetadata = { \n  id: \"ftx-token-ftt_rounded\", \n  baseId: \"ftx-token-ftt\", \n  variant: \"rounded\", \n  name: \"Ftx Token Ftt\", \n  category: \"brand\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default FtxTokenFttRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

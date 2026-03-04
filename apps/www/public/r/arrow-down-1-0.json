@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "arrow-down-1-0",
+  "type": "registry:ui",
+  "title": "Arrow Down 1 0",
+  "description": "Arrow Down 1 0 icon component",
+  "category": "arrows",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/arrows/arrow-down-1-0.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ArrowDown10Props extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ArrowDown10 = React.forwardRef<SVGSVGElement, ArrowDown10Props>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"m3 16 4 4 4-4\" />\n  <path d=\"M7 20V4\" />\n  <path d=\"M17 10V4h-2\" />\n  <path d=\"M15 10h4\" />\n  <rect x=\"15\" y=\"14\" width=\"4\" height=\"6\" ry=\"2\" />\n    </svg>\n  )\n);\nArrowDown10.displayName = \"ArrowDown10\";\nexport const ArrowDown10Metadata = { \n  id: \"arrow-down-1-0\", \n  baseId: \"arrow-down-1-0\", \n  variant: \"default\", \n  name: \"Arrow Down 1 0\", \n  category: \"arrows\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ArrowDown10;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

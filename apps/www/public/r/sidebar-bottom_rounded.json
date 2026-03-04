@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "sidebar-bottom_rounded",
+  "type": "registry:ui",
+  "title": "Sidebar Bottom",
+  "description": "Sidebar Bottom icon component",
+  "category": "code",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/code/sidebar-bottom_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface SidebarBottomRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const SidebarBottomRounded = React.forwardRef<SVGSVGElement, SidebarBottomRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M21.97 15V9C21.97 4 19.97 2 14.97 2H8.97C3.97 2 1.97 4 1.97 9V15C1.97 20 3.97 22 8.97 22H14.97C19.97 22 21.97 20 21.97 15Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M22 15.5H2\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M14.56 8.5L12 11.06L9.44 8.5\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nSidebarBottomRounded.displayName = \"SidebarBottomRounded\";\nexport const SidebarBottomRoundedMetadata = { \n  id: \"sidebar-bottom_rounded\", \n  baseId: \"sidebar-bottom\", \n  variant: \"rounded\", \n  name: \"Sidebar Bottom\", \n  category: \"code\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default SidebarBottomRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "funnel-x",
+  "type": "registry:ui",
+  "title": "Funnel X",
+  "description": "Funnel X icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/funnel-x.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface FunnelXProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const FunnelX = React.forwardRef<SVGSVGElement, FunnelXProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M12.531 3H3a1 1 0 0 0-.742 1.67l7.225 7.989A2 2 0 0 1 10 14v6a1 1 0 0 0 .553.895l2 1A1 1 0 0 0 14 21v-7a2 2 0 0 1 .517-1.341l.427-.473\" />\n  <path d=\"m16.5 3.5 5 5\" />\n  <path d=\"m21.5 3.5-5 5\" />\n    </svg>\n  )\n);\nFunnelX.displayName = \"FunnelX\";\nexport const FunnelXMetadata = { \n  id: \"funnel-x\", \n  baseId: \"funnel-x\", \n  variant: \"default\", \n  name: \"Funnel X\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default FunnelX;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

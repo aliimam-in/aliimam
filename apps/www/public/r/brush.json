@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "brush",
+  "type": "registry:ui",
+  "title": "Brush",
+  "description": "Brush icon component",
+  "category": "design",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/design/brush.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface BrushProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Brush = React.forwardRef<SVGSVGElement, BrushProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"m11 10 3 3\" />\n  <path d=\"M6.5 21A3.5 3.5 0 1 0 3 17.5a2.62 2.62 0 0 1-.708 1.792A1 1 0 0 0 3 21z\" />\n  <path d=\"M9.969 17.031 21.378 5.624a1 1 0 0 0-3.002-3.002L6.967 14.031\" />\n    </svg>\n  )\n);\nBrush.displayName = \"Brush\";\nexport const BrushMetadata = { \n  id: \"brush\", \n  baseId: \"brush\", \n  variant: \"default\", \n  name: \"Brush\", \n  category: \"design\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Brush;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

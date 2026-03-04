@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "video-horizontal_rounded",
+  "type": "registry:ui",
+  "title": "Video Horizontal",
+  "description": "Video Horizontal icon component",
+  "category": "multimedia",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/multimedia/video-horizontal_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface VideoHorizontalRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const VideoHorizontalRounded = React.forwardRef<SVGSVGElement, VideoHorizontalRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22H15C20 22 22 20 22 15Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M2.52002 17.11H21.48\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M2.52002 7.10999H21.48\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M6.96997 17.11V21.46\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M12 17.11V21.97\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M16.97 17.11V21.52\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M6.96997 2.10999V6.45999\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M12 2.10999V6.96999\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M12 7.03003V18.03\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M16.97 2.10999V6.51999\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nVideoHorizontalRounded.displayName = \"VideoHorizontalRounded\";\nexport const VideoHorizontalRoundedMetadata = { \n  id: \"video-horizontal_rounded\", \n  baseId: \"video-horizontal\", \n  variant: \"rounded\", \n  name: \"Video Horizontal\", \n  category: \"multimedia\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default VideoHorizontalRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "document-normal_rounded",
+  "type": "registry:ui",
+  "title": "Document Normal",
+  "description": "Document Normal icon component",
+  "category": "document",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/document/document-normal_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface DocumentNormalRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const DocumentNormalRounded = React.forwardRef<SVGSVGElement, DocumentNormalRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M10 6H14C16 6 16 5 16 4C16 2 15 2 14 2H10C9 2 8 2 8 4C8 6 9 6 10 6Z\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M16 4.02002C19.33 4.20002 21 5.43002 21 10V16C21 20 20 22 15 22H9C4 22 3 20 3 16V10C3 5.44002 4.67 4.20002 8 4.02002\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nDocumentNormalRounded.displayName = \"DocumentNormalRounded\";\nexport const DocumentNormalRoundedMetadata = { \n  id: \"document-normal_rounded\", \n  baseId: \"document-normal\", \n  variant: \"rounded\", \n  name: \"Document Normal\", \n  category: \"document\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default DocumentNormalRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

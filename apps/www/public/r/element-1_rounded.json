@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "element-1_rounded",
+  "type": "registry:ui",
+  "title": "Element 1",
+  "description": "Element 1 icon component",
+  "category": "layout",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/layout/element-1_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface Element1RoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Element1Rounded = React.forwardRef<SVGSVGElement, Element1RoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M10.5 19.9V4.1C10.5 2.6 9.86 2 8.27 2H4.23C2.64 2 2 2.6 2 4.1V19.9C2 21.4 2.64 22 4.23 22H8.27C9.86 22 10.5 21.4 10.5 19.9Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M22 10.9V4.1C22 2.6 21.36 2 19.77 2H15.73C14.14 2 13.5 2.6 13.5 4.1V10.9C13.5 12.4 14.14 13 15.73 13H19.77C21.36 13 22 12.4 22 10.9Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M22 19.9V18.1C22 16.6 21.36 16 19.77 16H15.73C14.14 16 13.5 16.6 13.5 18.1V19.9C13.5 21.4 14.14 22 15.73 22H19.77C21.36 22 22 21.4 22 19.9Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nElement1Rounded.displayName = \"Element1Rounded\";\nexport const Element1RoundedMetadata = { \n  id: \"element-1_rounded\", \n  baseId: \"element-1\", \n  variant: \"rounded\", \n  name: \"Element 1\", \n  category: \"layout\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Element1Rounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "git-pull-request-closed",
+  "type": "registry:ui",
+  "title": "Git Pull Request Closed",
+  "description": "Git Pull Request Closed icon component",
+  "category": "code",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/code/git-pull-request-closed.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface GitPullRequestClosedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const GitPullRequestClosed = React.forwardRef<SVGSVGElement, GitPullRequestClosedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <circle cx=\"6\" cy=\"6\" r=\"3\" />\n  <path d=\"M6 9v12\" />\n  <path d=\"m21 3-6 6\" />\n  <path d=\"m21 9-6-6\" />\n  <path d=\"M18 11.5V15\" />\n  <circle cx=\"18\" cy=\"18\" r=\"3\" />\n    </svg>\n  )\n);\nGitPullRequestClosed.displayName = \"GitPullRequestClosed\";\nexport const GitPullRequestClosedMetadata = { \n  id: \"git-pull-request-closed\", \n  baseId: \"git-pull-request-closed\", \n  variant: \"default\", \n  name: \"Git Pull Request Closed\", \n  category: \"code\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default GitPullRequestClosed;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

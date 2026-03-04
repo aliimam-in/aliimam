@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "keyboard",
+  "type": "registry:ui",
+  "title": "Keyboard",
+  "description": "Keyboard icon component",
+  "category": "device",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/device/keyboard.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface KeyboardProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Keyboard = React.forwardRef<SVGSVGElement, KeyboardProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M10 8h.01\" />\n  <path d=\"M12 12h.01\" />\n  <path d=\"M14 8h.01\" />\n  <path d=\"M16 12h.01\" />\n  <path d=\"M18 8h.01\" />\n  <path d=\"M6 8h.01\" />\n  <path d=\"M7 16h10\" />\n  <path d=\"M8 12h.01\" />\n  <rect width=\"20\" height=\"16\" x=\"2\" y=\"4\" rx=\"2\" />\n    </svg>\n  )\n);\nKeyboard.displayName = \"Keyboard\";\nexport const KeyboardMetadata = { \n  id: \"keyboard\", \n  baseId: \"keyboard\", \n  variant: \"default\", \n  name: \"Keyboard\", \n  category: \"device\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Keyboard;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

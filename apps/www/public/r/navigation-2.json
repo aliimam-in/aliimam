@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "navigation-2",
+  "type": "registry:ui",
+  "title": "Navigation 2",
+  "description": "Navigation 2 icon component",
+  "category": "navigation",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/navigation/navigation-2.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface Navigation2Props extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Navigation2 = React.forwardRef<SVGSVGElement, Navigation2Props>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <polygon points=\"12 2 19 21 12 17 5 21 12 2\" />\n    </svg>\n  )\n);\nNavigation2.displayName = \"Navigation2\";\nexport const Navigation2Metadata = { \n  id: \"navigation-2\", \n  baseId: \"navigation-2\", \n  variant: \"default\", \n  name: \"Navigation 2\", \n  category: \"navigation\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Navigation2;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

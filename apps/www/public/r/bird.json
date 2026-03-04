@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "bird",
+  "type": "registry:ui",
+  "title": "Bird",
+  "description": "Bird icon component",
+  "category": "animal",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/animal/bird.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface BirdProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Bird = React.forwardRef<SVGSVGElement, BirdProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M16 7h.01\" />\n  <path d=\"M3.4 18H12a8 8 0 0 0 8-8V7a4 4 0 0 0-7.28-2.3L2 20\" />\n  <path d=\"m20 7 2 .5-2 .5\" />\n  <path d=\"M10 18v3\" />\n  <path d=\"M14 17.75V21\" />\n  <path d=\"M7 18a6 6 0 0 0 3.84-10.61\" />\n    </svg>\n  )\n);\nBird.displayName = \"Bird\";\nexport const BirdMetadata = { \n  id: \"bird\", \n  baseId: \"bird\", \n  variant: \"default\", \n  name: \"Bird\", \n  category: \"animal\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Bird;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "arrange-square-2_rounded",
+  "type": "registry:ui",
+  "title": "Arrange Square 2",
+  "description": "Arrange Square 2 icon component",
+  "category": "arrows",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/arrows/arrange-square-2_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ArrangeSquare2RoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ArrangeSquare2Rounded = React.forwardRef<SVGSVGElement, ArrangeSquare2RoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M10.1799 17.15L7.13989 14.11\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M10.1799 6.85V17.15\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M13.8201 6.85L16.8601 9.89\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M13.8201 17.15V6.85\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nArrangeSquare2Rounded.displayName = \"ArrangeSquare2Rounded\";\nexport const ArrangeSquare2RoundedMetadata = { \n  id: \"arrange-square-2_rounded\", \n  baseId: \"arrange-square-2\", \n  variant: \"rounded\", \n  name: \"Arrange Square 2\", \n  category: \"arrows\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ArrangeSquare2Rounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

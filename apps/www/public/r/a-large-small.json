@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "a-large-small",
+  "type": "registry:ui",
+  "title": "A Large Small",
+  "description": "A Large Small icon component",
+  "category": "text",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/text/a-large-small.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ALargeSmallProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ALargeSmall = React.forwardRef<SVGSVGElement, ALargeSmallProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"m15 16 2.536-7.328a1.02 1.02 1 0 1 1.928 0L22 16\" />\n  <path d=\"M15.697 14h5.606\" />\n  <path d=\"m2 16 4.039-9.69a.5.5 0 0 1 .923 0L11 16\" />\n  <path d=\"M3.304 13h6.392\" />\n    </svg>\n  )\n);\nALargeSmall.displayName = \"ALargeSmall\";\nexport const ALargeSmallMetadata = { \n  id: \"a-large-small\", \n  baseId: \"a-large-small\", \n  variant: \"default\", \n  name: \"A Large Small\", \n  category: \"text\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ALargeSmall;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

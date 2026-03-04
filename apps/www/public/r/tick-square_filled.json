@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "tick-square_filled",
+  "type": "registry:ui",
+  "title": "Tick Square",
+  "description": "Tick Square icon component",
+  "category": "app",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/app/tick-square_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface TickSquareFilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const TickSquareFilled = React.forwardRef<SVGSVGElement, TickSquareFilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M16.19 2H7.81C4.17 2 2 4.17 2 7.81V16.18C2 19.83 4.17 22 7.81 22H16.18C19.82 22 21.99 19.83 21.99 16.19V7.81C22 4.17 19.83 2 16.19 2ZM16.78 9.7L11.11 15.37C10.97 15.51 10.78 15.59 10.58 15.59C10.38 15.59 10.19 15.51 10.05 15.37L7.22 12.54C6.93 12.25 6.93 11.77 7.22 11.48C7.51 11.19 7.99 11.19 8.28 11.48L10.58 13.78L15.72 8.64C16.01 8.35 16.49 8.35 16.78 8.64C17.07 8.93 17.07 9.4 16.78 9.7Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nTickSquareFilled.displayName = \"TickSquareFilled\";\nexport const TickSquareFilledMetadata = { \n  id: \"tick-square_filled\", \n  baseId: \"tick-square\", \n  variant: \"filled\", \n  name: \"Tick Square\", \n  category: \"app\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default TickSquareFilled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

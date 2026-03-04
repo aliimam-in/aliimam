@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "triangle-right",
+  "type": "registry:ui",
+  "title": "Triangle Right",
+  "description": "Triangle Right icon component",
+  "category": "shapes",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/shapes/triangle-right.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface TriangleRightProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const TriangleRight = React.forwardRef<SVGSVGElement, TriangleRightProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M22 18a2 2 0 0 1-2 2H3c-1.1 0-1.3-.6-.4-1.3L20.4 4.3c.9-.7 1.6-.4 1.6.7Z\" />\n    </svg>\n  )\n);\nTriangleRight.displayName = \"TriangleRight\";\nexport const TriangleRightMetadata = { \n  id: \"triangle-right\", \n  baseId: \"triangle-right\", \n  variant: \"default\", \n  name: \"Triangle Right\", \n  category: \"shapes\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default TriangleRight;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

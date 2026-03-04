@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "voicemail",
+  "type": "registry:ui",
+  "title": "Voicemail",
+  "description": "Voicemail icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/voicemail.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface VoicemailProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Voicemail = React.forwardRef<SVGSVGElement, VoicemailProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <circle cx=\"6\" cy=\"12\" r=\"4\" />\n  <circle cx=\"18\" cy=\"12\" r=\"4\" />\n  <line x1=\"6\" x2=\"18\" y1=\"16\" y2=\"16\" />\n    </svg>\n  )\n);\nVoicemail.displayName = \"Voicemail\";\nexport const VoicemailMetadata = { \n  id: \"voicemail\", \n  baseId: \"voicemail\", \n  variant: \"default\", \n  name: \"Voicemail\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Voicemail;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

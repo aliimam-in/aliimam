@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "toggle-off_filled",
+  "type": "registry:ui",
+  "title": "Toggle Off",
+  "description": "Toggle Off icon component",
+  "category": "app",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/app/toggle-off_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ToggleOffFilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ToggleOffFilled = React.forwardRef<SVGSVGElement, ToggleOffFilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M16.65 3.86011H7.35C3.25 3.86011 2 5.11011 2 9.21011V14.7901C2 18.8901 3.25 20.1401 7.35 20.1401H16.65C20.75 20.1401 22 18.8901 22 14.7901V9.21011C22 5.11011 20.75 3.86011 16.65 3.86011ZM14.09 13.1201C14.09 15.3701 13.04 16.4201 10.79 16.4201H8.56C6.31 16.4201 5.26 15.3701 5.26 13.1201V10.8901C5.26 8.64011 6.31 7.59011 8.56 7.59011H10.79C13.04 7.59011 14.09 8.64011 14.09 10.8901V13.1201Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nToggleOffFilled.displayName = \"ToggleOffFilled\";\nexport const ToggleOffFilledMetadata = { \n  id: \"toggle-off_filled\", \n  baseId: \"toggle-off\", \n  variant: \"filled\", \n  name: \"Toggle Off\", \n  category: \"app\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ToggleOffFilled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

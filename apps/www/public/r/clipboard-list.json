@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "clipboard-list",
+  "type": "registry:ui",
+  "title": "Clipboard List",
+  "description": "Clipboard List icon component",
+  "category": "clipboard",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/clipboard/clipboard-list.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ClipboardListProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ClipboardList = React.forwardRef<SVGSVGElement, ClipboardListProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <rect width=\"8\" height=\"4\" x=\"8\" y=\"2\" rx=\"1\" ry=\"1\" />\n  <path d=\"M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2\" />\n  <path d=\"M12 11h4\" />\n  <path d=\"M12 16h4\" />\n  <path d=\"M8 11h.01\" />\n  <path d=\"M8 16h.01\" />\n    </svg>\n  )\n);\nClipboardList.displayName = \"ClipboardList\";\nexport const ClipboardListMetadata = { \n  id: \"clipboard-list\", \n  baseId: \"clipboard-list\", \n  variant: \"default\", \n  name: \"Clipboard List\", \n  category: \"clipboard\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ClipboardList;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

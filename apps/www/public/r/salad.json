@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "salad",
+  "type": "registry:ui",
+  "title": "Salad",
+  "description": "Salad icon component",
+  "category": "food",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/food/salad.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface SaladProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Salad = React.forwardRef<SVGSVGElement, SaladProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M7 21h10\" />\n  <path d=\"M12 21a9 9 0 0 0 9-9H3a9 9 0 0 0 9 9Z\" />\n  <path d=\"M11.38 12a2.4 2.4 0 0 1-.4-4.77 2.4 2.4 0 0 1 3.2-2.77 2.4 2.4 0 0 1 3.47-.63 2.4 2.4 0 0 1 3.37 3.37 2.4 2.4 0 0 1-1.1 3.7 2.51 2.51 0 0 1 .03 1.1\" />\n  <path d=\"m13 12 4-4\" />\n  <path d=\"M10.9 7.25A3.99 3.99 0 0 0 4 10c0 .73.2 1.41.54 2\" />\n    </svg>\n  )\n);\nSalad.displayName = \"Salad\";\nexport const SaladMetadata = { \n  id: \"salad\", \n  baseId: \"salad\", \n  variant: \"default\", \n  name: \"Salad\", \n  category: \"food\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Salad;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

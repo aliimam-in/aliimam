@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "bill_filled",
+  "type": "registry:ui",
+  "title": "Bill",
+  "description": "Bill icon component",
+  "category": "document",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/document/bill_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface BillFilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const BillFilled = React.forwardRef<SVGSVGElement, BillFilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M22 3.25H2C1.59 3.25 1.25 2.91 1.25 2.5C1.25 2.09 1.59 1.75 2 1.75H22C22.41 1.75 22.75 2.09 22.75 2.5C22.75 2.91 22.41 3.25 22 3.25Z\" fill=\"currentColor\"/>\n<path d=\"M3.67001 2.5V14.47C3.67001 15.45 4.13001 16.38 4.92001 16.97L10.13 20.87C11.24 21.7 12.77 21.7 13.88 20.87L19.09 16.97C19.88 16.38 20.34 15.45 20.34 14.47V2.5H3.67001ZM16 13.75H8.00001C7.59001 13.75 7.25001 13.41 7.25001 13C7.25001 12.59 7.59001 12.25 8.00001 12.25H16C16.41 12.25 16.75 12.59 16.75 13C16.75 13.41 16.41 13.75 16 13.75ZM16 8.75H8.00001C7.59001 8.75 7.25001 8.41 7.25001 8C7.25001 7.59 7.59001 7.25 8.00001 7.25H16C16.41 7.25 16.75 7.59 16.75 8C16.75 8.41 16.41 8.75 16 8.75Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nBillFilled.displayName = \"BillFilled\";\nexport const BillFilledMetadata = { \n  id: \"bill_filled\", \n  baseId: \"bill\", \n  variant: \"filled\", \n  name: \"Bill\", \n  category: \"document\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default BillFilled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

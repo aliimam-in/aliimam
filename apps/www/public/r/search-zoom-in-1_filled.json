@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "search-zoom-in-1_filled",
+  "type": "registry:ui",
+  "title": "Search Zoom In 1",
+  "description": "Search Zoom In 1 icon component",
+  "category": "app",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/app/search-zoom-in-1_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface SearchZoomIn1FilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const SearchZoomIn1Filled = React.forwardRef<SVGSVGElement, SearchZoomIn1FilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M21.3001 22.0001C21.1201 22.0001 20.9401 21.9301 20.8101 21.8001L18.9501 19.9401C18.6801 19.6701 18.6801 19.2301 18.9501 18.9501C19.2201 18.6801 19.6601 18.6801 19.9401 18.9501L21.8001 20.8101C22.0701 21.0801 22.0701 21.5201 21.8001 21.8001C21.6601 21.9301 21.4801 22.0001 21.3001 22.0001Z\" fill=\"currentColor\"/>\n<path d=\"M11.5 2C6.26 2 2 6.26 2 11.5C2 16.74 6.26 21 11.5 21C16.74 21 21 16.74 21 11.5C21 6.26 16.74 2 11.5 2ZM14.2 12.45H12.45V14.2C12.45 14.61 12.11 14.95 11.7 14.95C11.29 14.95 10.95 14.61 10.95 14.2V12.45H9.2C8.79 12.45 8.45 12.11 8.45 11.7C8.45 11.29 8.79 10.95 9.2 10.95H10.95V9.2C10.95 8.79 11.29 8.45 11.7 8.45C12.11 8.45 12.45 8.79 12.45 9.2V10.95H14.2C14.61 10.95 14.95 11.29 14.95 11.7C14.95 12.11 14.61 12.45 14.2 12.45Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nSearchZoomIn1Filled.displayName = \"SearchZoomIn1Filled\";\nexport const SearchZoomIn1FilledMetadata = { \n  id: \"search-zoom-in-1_filled\", \n  baseId: \"search-zoom-in-1\", \n  variant: \"filled\", \n  name: \"Search Zoom In 1\", \n  category: \"app\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default SearchZoomIn1Filled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

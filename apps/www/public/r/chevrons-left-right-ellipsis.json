@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "chevrons-left-right-ellipsis",
+  "type": "registry:ui",
+  "title": "Chevrons Left Right Ellipsis",
+  "description": "Chevrons Left Right Ellipsis icon component",
+  "category": "arrows",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/arrows/chevrons-left-right-ellipsis.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ChevronsLeftRightEllipsisProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ChevronsLeftRightEllipsis = React.forwardRef<SVGSVGElement, ChevronsLeftRightEllipsisProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M12 12h.01\" />\n  <path d=\"M16 12h.01\" />\n  <path d=\"m17 7 5 5-5 5\" />\n  <path d=\"m7 7-5 5 5 5\" />\n  <path d=\"M8 12h.01\" />\n    </svg>\n  )\n);\nChevronsLeftRightEllipsis.displayName = \"ChevronsLeftRightEllipsis\";\nexport const ChevronsLeftRightEllipsisMetadata = { \n  id: \"chevrons-left-right-ellipsis\", \n  baseId: \"chevrons-left-right-ellipsis\", \n  variant: \"default\", \n  name: \"Chevrons Left Right Ellipsis\", \n  category: \"arrows\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ChevronsLeftRightEllipsis;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

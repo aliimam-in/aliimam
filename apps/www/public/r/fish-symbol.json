@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "fish-symbol",
+  "type": "registry:ui",
+  "title": "Fish Symbol",
+  "description": "Fish Symbol icon component",
+  "category": "animal",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/animal/fish-symbol.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface FishSymbolProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const FishSymbol = React.forwardRef<SVGSVGElement, FishSymbolProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M2 16s9-15 20-4C11 23 2 8 2 8\" />\n    </svg>\n  )\n);\nFishSymbol.displayName = \"FishSymbol\";\nexport const FishSymbolMetadata = { \n  id: \"fish-symbol\", \n  baseId: \"fish-symbol\", \n  variant: \"default\", \n  name: \"Fish Symbol\", \n  category: \"animal\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default FishSymbol;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

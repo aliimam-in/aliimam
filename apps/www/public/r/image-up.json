@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "image-up",
+  "type": "registry:ui",
+  "title": "Image Up",
+  "description": "Image Up icon component",
+  "category": "design",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/design/image-up.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ImageUpProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ImageUp = React.forwardRef<SVGSVGElement, ImageUpProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M10.3 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v10l-3.1-3.1a2 2 0 0 0-2.814.014L6 21\" />\n  <path d=\"m14 19.5 3-3 3 3\" />\n  <path d=\"M17 22v-5.5\" />\n  <circle cx=\"9\" cy=\"9\" r=\"2\" />\n    </svg>\n  )\n);\nImageUp.displayName = \"ImageUp\";\nexport const ImageUpMetadata = { \n  id: \"image-up\", \n  baseId: \"image-up\", \n  variant: \"default\", \n  name: \"Image Up\", \n  category: \"design\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ImageUp;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

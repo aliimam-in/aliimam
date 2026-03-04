@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "library-big",
+  "type": "registry:ui",
+  "title": "Library Big",
+  "description": "Library Big icon component",
+  "category": "book",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/book/library-big.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface LibraryBigProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const LibraryBig = React.forwardRef<SVGSVGElement, LibraryBigProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <rect width=\"8\" height=\"18\" x=\"3\" y=\"3\" rx=\"1\" />\n  <path d=\"M7 3v18\" />\n  <path d=\"M20.4 18.9c.2.5-.1 1.1-.6 1.3l-1.9.7c-.5.2-1.1-.1-1.3-.6L11.1 5.1c-.2-.5.1-1.1.6-1.3l1.9-.7c.5-.2 1.1.1 1.3.6Z\" />\n    </svg>\n  )\n);\nLibraryBig.displayName = \"LibraryBig\";\nexport const LibraryBigMetadata = { \n  id: \"library-big\", \n  baseId: \"library-big\", \n  variant: \"default\", \n  name: \"Library Big\", \n  category: \"book\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default LibraryBig;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

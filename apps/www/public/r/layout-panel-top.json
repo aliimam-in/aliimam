@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "layout-panel-top",
+  "type": "registry:ui",
+  "title": "Layout Panel Top",
+  "description": "Layout Panel Top icon component",
+  "category": "layout",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/layout/layout-panel-top.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface LayoutPanelTopProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const LayoutPanelTop = React.forwardRef<SVGSVGElement, LayoutPanelTopProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <rect width=\"18\" height=\"7\" x=\"3\" y=\"3\" rx=\"1\" />\n  <rect width=\"7\" height=\"7\" x=\"3\" y=\"14\" rx=\"1\" />\n  <rect width=\"7\" height=\"7\" x=\"14\" y=\"14\" rx=\"1\" />\n    </svg>\n  )\n);\nLayoutPanelTop.displayName = \"LayoutPanelTop\";\nexport const LayoutPanelTopMetadata = { \n  id: \"layout-panel-top\", \n  baseId: \"layout-panel-top\", \n  variant: \"default\", \n  name: \"Layout Panel Top\", \n  category: \"layout\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default LayoutPanelTop;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "forward_filled",
+  "type": "registry:ui",
+  "title": "Forward",
+  "description": "Forward icon component",
+  "category": "multimedia",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/multimedia/forward_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ForwardFilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ForwardFilled = React.forwardRef<SVGSVGElement, ForwardFilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M2 8.34007V15.6601C2 17.1601 3.63 18.1001 4.93 17.3501L8.1 15.5201L11.27 13.6901L11.76 13.4101V10.5901L11.27 10.3101L8.1 8.48007L4.93 6.65007C3.63 5.90007 2 6.84007 2 8.34007Z\" fill=\"currentColor\"/>\n<path d=\"M11.76 8.34007V15.6601C11.76 17.1601 13.39 18.1001 14.68 17.3501L17.86 15.5201L21.03 13.6901C22.32 12.9401 22.32 11.0601 21.03 10.3101L17.86 8.48007L14.68 6.65007C13.39 5.90007 11.76 6.84007 11.76 8.34007Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nForwardFilled.displayName = \"ForwardFilled\";\nexport const ForwardFilledMetadata = { \n  id: \"forward_filled\", \n  baseId: \"forward\", \n  variant: \"filled\", \n  name: \"Forward\", \n  category: \"multimedia\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ForwardFilled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

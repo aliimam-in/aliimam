@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "heater",
+  "type": "registry:ui",
+  "title": "Heater",
+  "description": "Heater icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/heater.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface HeaterProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Heater = React.forwardRef<SVGSVGElement, HeaterProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M11 8c2-3-2-3 0-6\" />\n  <path d=\"M15.5 8c2-3-2-3 0-6\" />\n  <path d=\"M6 10h.01\" />\n  <path d=\"M6 14h.01\" />\n  <path d=\"M10 16v-4\" />\n  <path d=\"M14 16v-4\" />\n  <path d=\"M18 16v-4\" />\n  <path d=\"M20 6a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h3\" />\n  <path d=\"M5 20v2\" />\n  <path d=\"M19 20v2\" />\n    </svg>\n  )\n);\nHeater.displayName = \"Heater\";\nexport const HeaterMetadata = { \n  id: \"heater\", \n  baseId: \"heater\", \n  variant: \"default\", \n  name: \"Heater\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Heater;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

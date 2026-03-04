@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "map-pin-check",
+  "type": "registry:ui",
+  "title": "Map Pin Check",
+  "description": "Map Pin Check icon component",
+  "category": "navigation",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/navigation/map-pin-check.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface MapPinCheckProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const MapPinCheck = React.forwardRef<SVGSVGElement, MapPinCheckProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M19.43 12.935c.357-.967.57-1.955.57-2.935a8 8 0 0 0-16 0c0 4.993 5.539 10.193 7.399 11.799a1 1 0 0 0 1.202 0 32.197 32.197 0 0 0 .813-.728\" />\n  <circle cx=\"12\" cy=\"10\" r=\"3\" />\n  <path d=\"m16 18 2 2 4-4\" />\n    </svg>\n  )\n);\nMapPinCheck.displayName = \"MapPinCheck\";\nexport const MapPinCheckMetadata = { \n  id: \"map-pin-check\", \n  baseId: \"map-pin-check\", \n  variant: \"default\", \n  name: \"Map Pin Check\", \n  category: \"navigation\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default MapPinCheck;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

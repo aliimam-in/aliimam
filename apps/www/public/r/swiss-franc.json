@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "swiss-franc",
+  "type": "registry:ui",
+  "title": "Swiss Franc",
+  "description": "Swiss Franc icon component",
+  "category": "finance",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/finance/swiss-franc.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface SwissFrancProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const SwissFranc = React.forwardRef<SVGSVGElement, SwissFrancProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M10 21V3h8\" />\n  <path d=\"M6 16h9\" />\n  <path d=\"M10 9.5h7\" />\n    </svg>\n  )\n);\nSwissFranc.displayName = \"SwissFranc\";\nexport const SwissFrancMetadata = { \n  id: \"swiss-franc\", \n  baseId: \"swiss-franc\", \n  variant: \"default\", \n  name: \"Swiss Franc\", \n  category: \"finance\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default SwissFranc;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "activity_rounded",
+  "type": "registry:ui",
+  "title": "Activity",
+  "description": "Activity icon component",
+  "category": "business",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/business/activity_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ActivityRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ActivityRounded = React.forwardRef<SVGSVGElement, ActivityRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M7.33008 14.49L9.71008 11.4C10.0501 10.96 10.6801 10.88 11.1201 11.22L12.9501 12.66C13.3901 13 14.0201 12.92 14.3601 12.49L16.6701 9.51001\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nActivityRounded.displayName = \"ActivityRounded\";\nexport const ActivityRoundedMetadata = { \n  id: \"activity_rounded\", \n  baseId: \"activity\", \n  variant: \"rounded\", \n  name: \"Activity\", \n  category: \"business\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ActivityRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

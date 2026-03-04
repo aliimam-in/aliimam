@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "battery-disable_filled",
+  "type": "registry:ui",
+  "title": "Battery Disable",
+  "description": "Battery Disable icon component",
+  "category": "app",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/app/battery-disable_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface BatteryDisableFilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const BatteryDisableFilled = React.forwardRef<SVGSVGElement, BatteryDisableFilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M20.42 8.99998C20.28 8.98998 20.1 8.97998 19.9 8.97998C19.51 8.97998 19.2 9.28998 19.2 9.67998V14.33C19.2 14.72 19.51 15.03 19.9 15.03C20.1 15.03 20.27 15.02 20.44 15.01C22 14.83 22 13.73 22 12.93V11.07C22 10.27 22 9.16998 20.42 8.99998Z\" fill=\"currentColor\"/>\n<path d=\"M18.28 10.14V13.86C18.28 16.81 15.88 19.21 12.93 19.21H9.26C8.47 19.21 7.99 18.34 8.41 17.68L15.67 6.20001C16.03 5.63001 16.84 5.58001 17.29 6.09001C18.01 6.92001 18.28 8.21001 18.28 10.14Z\" fill=\"currentColor\"/>\n<path d=\"M16.4 1.87012C16.05 1.65012 15.59 1.75012 15.37 2.10012L13.66 4.81012C13.43 4.80012 13.19 4.79012 12.93 4.79012H7.35C3.25 4.79012 2 6.04012 2 10.1401V13.8601C2 16.9101 2.7 18.3701 4.74 18.9201L3.37 21.1001C3.15 21.4501 3.25 21.9101 3.6 22.1301C3.72 22.2101 3.86 22.2501 4 22.2501C4.25 22.2501 4.49 22.1301 4.63 21.9001L16.63 2.90012C16.86 2.55012 16.75 2.09012 16.4 1.87012Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nBatteryDisableFilled.displayName = \"BatteryDisableFilled\";\nexport const BatteryDisableFilledMetadata = { \n  id: \"battery-disable_filled\", \n  baseId: \"battery-disable\", \n  variant: \"filled\", \n  name: \"Battery Disable\", \n  category: \"app\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default BatteryDisableFilled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "paperclip-2_rounded",
+  "type": "registry:ui",
+  "title": "Paperclip 2",
+  "description": "Paperclip 2 icon component",
+  "category": "text",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/text/paperclip-2_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface Paperclip2RoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Paperclip2Rounded = React.forwardRef<SVGSVGElement, Paperclip2RoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M12.3299 12.15L9.85993 14.62C8.48993 15.99 8.48993 18.2 9.85993 19.57C11.2299 20.94 13.4399 20.94 14.8099 19.57L18.6999 15.68C21.4299 12.95 21.4299 8.51 18.6999 5.78C15.9699 3.05 11.5299 3.05 8.79993 5.78L4.55993 10.02C2.21993 12.36 2.21993 16.16 4.55993 18.51\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nPaperclip2Rounded.displayName = \"Paperclip2Rounded\";\nexport const Paperclip2RoundedMetadata = { \n  id: \"paperclip-2_rounded\", \n  baseId: \"paperclip-2\", \n  variant: \"rounded\", \n  name: \"Paperclip 2\", \n  category: \"text\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Paperclip2Rounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

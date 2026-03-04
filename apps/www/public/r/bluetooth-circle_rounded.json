@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "bluetooth-circle_rounded",
+  "type": "registry:ui",
+  "title": "Bluetooth Circle",
+  "description": "Bluetooth Circle icon component",
+  "category": "device",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/device/bluetooth-circle_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface BluetoothCircleRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const BluetoothCircleRounded = React.forwardRef<SVGSVGElement, BluetoothCircleRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M8.58997 15.56L15.21 9.49002C15.49 9.24002 15.48 8.84004 15.19 8.60004L13.13 6.88004C12.59 6.43004 12.16 6.64003 12.16 7.34003V16.67C12.16 17.37 12.6 17.57 13.13 17.13L15.19 15.41C15.48 15.17 15.49 14.77 15.21 14.52L8.58997 8.45005\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nBluetoothCircleRounded.displayName = \"BluetoothCircleRounded\";\nexport const BluetoothCircleRoundedMetadata = { \n  id: \"bluetooth-circle_rounded\", \n  baseId: \"bluetooth-circle\", \n  variant: \"rounded\", \n  name: \"Bluetooth Circle\", \n  category: \"device\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default BluetoothCircleRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "chart-column-decreasing",
+  "type": "registry:ui",
+  "title": "Chart Column Decreasing",
+  "description": "Chart Column Decreasing icon component",
+  "category": "chart",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/chart/chart-column-decreasing.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ChartColumnDecreasingProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ChartColumnDecreasing = React.forwardRef<SVGSVGElement, ChartColumnDecreasingProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M13 17V9\" />\n  <path d=\"M18 17v-3\" />\n  <path d=\"M3 3v16a2 2 0 0 0 2 2h16\" />\n  <path d=\"M8 17V5\" />\n    </svg>\n  )\n);\nChartColumnDecreasing.displayName = \"ChartColumnDecreasing\";\nexport const ChartColumnDecreasingMetadata = { \n  id: \"chart-column-decreasing\", \n  baseId: \"chart-column-decreasing\", \n  variant: \"default\", \n  name: \"Chart Column Decreasing\", \n  category: \"chart\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ChartColumnDecreasing;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

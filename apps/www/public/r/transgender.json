@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "transgender",
+  "type": "registry:ui",
+  "title": "Transgender",
+  "description": "Transgender icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/transgender.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface TransgenderProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Transgender = React.forwardRef<SVGSVGElement, TransgenderProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M12 16v6\" />\n  <path d=\"M14 20h-4\" />\n  <path d=\"M18 2h4v4\" />\n  <path d=\"m2 2 7.17 7.17\" />\n  <path d=\"M2 5.355V2h3.357\" />\n  <path d=\"m22 2-7.17 7.17\" />\n  <path d=\"M8 5 5 8\" />\n  <circle cx=\"12\" cy=\"12\" r=\"4\" />\n    </svg>\n  )\n);\nTransgender.displayName = \"Transgender\";\nexport const TransgenderMetadata = { \n  id: \"transgender\", \n  baseId: \"transgender\", \n  variant: \"default\", \n  name: \"Transgender\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Transgender;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

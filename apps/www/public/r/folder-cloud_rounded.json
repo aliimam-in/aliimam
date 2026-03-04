@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "folder-cloud_rounded",
+  "type": "registry:ui",
+  "title": "Folder Cloud",
+  "description": "Folder Cloud icon component",
+  "category": "folder",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/folder/folder-cloud_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface FolderCloudRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const FolderCloudRounded = React.forwardRef<SVGSVGElement, FolderCloudRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M9 22H7C3 22 2 21 2 17V7C2 3 3 2 7 2H8.5C10 2 10.33 2.44001 10.9 3.20001L12.4 5.20001C12.78 5.70001 13 6 14 6H17C21 6 22 7 22 11V13\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M13.7601 18.32C11.4101 18.49 11.4101 21.89 13.7601 22.06H19.3201C19.9901 22.06 20.6501 21.81 21.1401 21.36C22.7901 19.92 21.91 17.04 19.74 16.77C18.96 12.08 12.1801 13.86 13.7801 18.33\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nFolderCloudRounded.displayName = \"FolderCloudRounded\";\nexport const FolderCloudRoundedMetadata = { \n  id: \"folder-cloud_rounded\", \n  baseId: \"folder-cloud\", \n  variant: \"rounded\", \n  name: \"Folder Cloud\", \n  category: \"folder\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default FolderCloudRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

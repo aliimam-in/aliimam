@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "monero-xmr_rounded",
+  "type": "registry:ui",
+  "title": "Monero Xmr",
+  "description": "Monero Xmr icon component",
+  "category": "brand",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/brand/monero-xmr_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface MoneroXmrRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const MoneroXmrRounded = React.forwardRef<SVGSVGElement, MoneroXmrRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M3.1001 15H7.0001V9L12.0001 15L17.0001 9V15H20.9001\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nMoneroXmrRounded.displayName = \"MoneroXmrRounded\";\nexport const MoneroXmrRoundedMetadata = { \n  id: \"monero-xmr_rounded\", \n  baseId: \"monero-xmr\", \n  variant: \"rounded\", \n  name: \"Monero Xmr\", \n  category: \"brand\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default MoneroXmrRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

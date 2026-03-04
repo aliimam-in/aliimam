@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "polygon-matic_rounded",
+  "type": "registry:ui",
+  "title": "Polygon Matic",
+  "description": "Polygon Matic icon component",
+  "category": "brand",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/brand/polygon-matic_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface PolygonMaticRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const PolygonMaticRounded = React.forwardRef<SVGSVGElement, PolygonMaticRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M12 12.1L7.5 14.7L3 12.1V6.89999L7.5 4.29999L12 6.89999V8.49999\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M12 12.1L16.5 9.5L21 12.1V17.3L16.5 19.9L12 17.3V15.6\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nPolygonMaticRounded.displayName = \"PolygonMaticRounded\";\nexport const PolygonMaticRoundedMetadata = { \n  id: \"polygon-matic_rounded\", \n  baseId: \"polygon-matic\", \n  variant: \"rounded\", \n  name: \"Polygon Matic\", \n  category: \"brand\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default PolygonMaticRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

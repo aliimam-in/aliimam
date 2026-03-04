@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "picture-frame_rounded",
+  "type": "registry:ui",
+  "title": "Picture Frame",
+  "description": "Picture Frame icon component",
+  "category": "navigation",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/navigation/picture-frame_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface PictureFrameRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const PictureFrameRounded = React.forwardRef<SVGSVGElement, PictureFrameRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M9 2L13.95 22\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M11.53 12.22L2 15\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nPictureFrameRounded.displayName = \"PictureFrameRounded\";\nexport const PictureFrameRoundedMetadata = { \n  id: \"picture-frame_rounded\", \n  baseId: \"picture-frame\", \n  variant: \"rounded\", \n  name: \"Picture Frame\", \n  category: \"navigation\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default PictureFrameRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

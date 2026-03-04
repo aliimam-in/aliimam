@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "book-key",
+  "type": "registry:ui",
+  "title": "Book Key",
+  "description": "Book Key icon component",
+  "category": "book",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/book/book-key.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface BookKeyProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const BookKey = React.forwardRef<SVGSVGElement, BookKeyProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M13 2H6.5A2.5 2.5 0 0 0 4 4.5v15\" />\n  <path d=\"M17 2v6\" />\n  <path d=\"M17 4h2\" />\n  <path d=\"M20 15.2V21a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20\" />\n  <circle cx=\"17\" cy=\"10\" r=\"2\" />\n    </svg>\n  )\n);\nBookKey.displayName = \"BookKey\";\nexport const BookKeyMetadata = { \n  id: \"book-key\", \n  baseId: \"book-key\", \n  variant: \"default\", \n  name: \"Book Key\", \n  category: \"book\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default BookKey;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

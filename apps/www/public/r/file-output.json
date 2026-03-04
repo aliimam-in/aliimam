@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "file-output",
+  "type": "registry:ui",
+  "title": "File Output",
+  "description": "File Output icon component",
+  "category": "file",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/file/file-output.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface FileOutputProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const FileOutput = React.forwardRef<SVGSVGElement, FileOutputProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M4.226 20.925A2 2 0 0 0 6 22h12a2 2 0 0 0 2-2V8a2.4 2.4 0 0 0-.706-1.706l-3.588-3.588A2.4 2.4 0 0 0 14 2H6a2 2 0 0 0-2 2v3.127\" />\n  <path d=\"M14 2v5a1 1 0 0 0 1 1h5\" />\n  <path d=\"m5 11-3 3\" />\n  <path d=\"m5 17-3-3h10\" />\n    </svg>\n  )\n);\nFileOutput.displayName = \"FileOutput\";\nexport const FileOutputMetadata = { \n  id: \"file-output\", \n  baseId: \"file-output\", \n  variant: \"default\", \n  name: \"File Output\", \n  category: \"file\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default FileOutput;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

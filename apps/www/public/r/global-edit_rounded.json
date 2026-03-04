@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "global-edit_rounded",
+  "type": "registry:ui",
+  "title": "Global Edit",
+  "description": "Global Edit icon component",
+  "category": "navigation",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/navigation/global-edit_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface GlobalEditRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const GlobalEditRounded = React.forwardRef<SVGSVGElement, GlobalEditRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M22 12C22 6.48 17.52 2 12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M7.99998 3H8.99998C7.04998 8.84 7.04998 15.16 8.99998 21H7.99998\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M15 3C15.97 5.92 16.46 8.96 16.46 12\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M3 16V15C5.92 15.97 8.96 16.46 12 16.46\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M3 8.99998C8.84 7.04998 15.16 7.04998 21 8.99998\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M19.21 15.74L15.67 19.2801C15.53 19.4201 15.4 19.68 15.37 19.87L15.18 21.22C15.11 21.71 15.45 22.05 15.94 21.98L17.29 21.79C17.48 21.76 17.75 21.63 17.88 21.49L21.42 17.95C22.03 17.34 22.32 16.63 21.42 15.73C20.53 14.84 19.82 15.13 19.21 15.74Z\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M18.7001 16.25C19.0001 17.33 19.8401 18.17 20.9201 18.47\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nGlobalEditRounded.displayName = \"GlobalEditRounded\";\nexport const GlobalEditRoundedMetadata = { \n  id: \"global-edit_rounded\", \n  baseId: \"global-edit\", \n  variant: \"rounded\", \n  name: \"Global Edit\", \n  category: \"navigation\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default GlobalEditRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

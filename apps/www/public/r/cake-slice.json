@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "cake-slice",
+  "type": "registry:ui",
+  "title": "Cake Slice",
+  "description": "Cake Slice icon component",
+  "category": "food",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/food/cake-slice.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface CakeSliceProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const CakeSlice = React.forwardRef<SVGSVGElement, CakeSliceProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M16 13H3\" />\n  <path d=\"M16 17H3\" />\n  <path d=\"m7.2 7.9-3.388 2.5A2 2 0 0 0 3 12.01V20a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1v-8.654c0-2-2.44-6.026-6.44-8.026a1 1 0 0 0-1.082.057L10.4 5.6\" />\n  <circle cx=\"9\" cy=\"7\" r=\"2\" />\n    </svg>\n  )\n);\nCakeSlice.displayName = \"CakeSlice\";\nexport const CakeSliceMetadata = { \n  id: \"cake-slice\", \n  baseId: \"cake-slice\", \n  variant: \"default\", \n  name: \"Cake Slice\", \n  category: \"food\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default CakeSlice;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

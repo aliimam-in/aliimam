@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "map-pin-check-inside",
+  "type": "registry:ui",
+  "title": "Map Pin Check Inside",
+  "description": "Map Pin Check Inside icon component",
+  "category": "navigation",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/navigation/map-pin-check-inside.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface MapPinCheckInsideProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const MapPinCheckInside = React.forwardRef<SVGSVGElement, MapPinCheckInsideProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0\" />\n  <path d=\"m9 10 2 2 4-4\" />\n    </svg>\n  )\n);\nMapPinCheckInside.displayName = \"MapPinCheckInside\";\nexport const MapPinCheckInsideMetadata = { \n  id: \"map-pin-check-inside\", \n  baseId: \"map-pin-check-inside\", \n  variant: \"default\", \n  name: \"Map Pin Check Inside\", \n  category: \"navigation\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default MapPinCheckInside;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

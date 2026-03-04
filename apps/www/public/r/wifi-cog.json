@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "wifi-cog",
+  "type": "registry:ui",
+  "title": "Wifi Cog",
+  "description": "Wifi Cog icon component",
+  "category": "network",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/network/wifi-cog.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface WifiCogProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const WifiCog = React.forwardRef<SVGSVGElement, WifiCogProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"m14.305 19.53.923-.382\" />\n  <path d=\"m15.228 16.852-.923-.383\" />\n  <path d=\"m16.852 15.228-.383-.923\" />\n  <path d=\"m16.852 20.772-.383.924\" />\n  <path d=\"m19.148 15.228.383-.923\" />\n  <path d=\"m19.53 21.696-.382-.924\" />\n  <path d=\"M2 7.82a15 15 0 0 1 20 0\" />\n  <path d=\"m20.772 16.852.924-.383\" />\n  <path d=\"m20.772 19.148.924.383\" />\n  <path d=\"M5 11.858a10 10 0 0 1 11.5-1.785\" />\n  <path d=\"M8.5 15.429a5 5 0 0 1 2.413-1.31\" />\n  <circle cx=\"18\" cy=\"18\" r=\"3\" />\n    </svg>\n  )\n);\nWifiCog.displayName = \"WifiCog\";\nexport const WifiCogMetadata = { \n  id: \"wifi-cog\", \n  baseId: \"wifi-cog\", \n  variant: \"default\", \n  name: \"Wifi Cog\", \n  category: \"network\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default WifiCog;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "timer-start_rounded",
+  "type": "registry:ui",
+  "title": "Timer Start",
+  "description": "Timer Start icon component",
+  "category": "calendar",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/calendar/timer-start_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface TimerStartRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const TimerStartRounded = React.forwardRef<SVGSVGElement, TimerStartRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M12 8V13\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M12 22C7.17 22 3.25 18.08 3.25 13.25C3.25 8.42 7.17 4.5 12 4.5C16.83 4.5 20.75 8.42 20.75 13.25\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M9 2H15\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M14.9 18.5V17.34C14.9 15.91 15.92 15.32 17.16 16.04L18.16 16.62L19.16 17.2C20.4 17.92 20.4 19.09 19.16 19.81L18.16 20.39L17.16 20.97C15.92 21.69 14.9 21.1 14.9 19.67V18.5Z\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nTimerStartRounded.displayName = \"TimerStartRounded\";\nexport const TimerStartRoundedMetadata = { \n  id: \"timer-start_rounded\", \n  baseId: \"timer-start\", \n  variant: \"rounded\", \n  name: \"Timer Start\", \n  category: \"calendar\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default TimerStartRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

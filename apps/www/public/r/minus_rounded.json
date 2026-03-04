@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "minus_rounded",
+  "type": "registry:ui",
+  "title": "Minus",
+  "description": "Minus icon component",
+  "category": "home",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/home/minus_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface MinusRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const MinusRounded = React.forwardRef<SVGSVGElement, MinusRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M6 12H18\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nMinusRounded.displayName = \"MinusRounded\";\nexport const MinusRoundedMetadata = { \n  id: \"minus_rounded\", \n  baseId: \"minus\", \n  variant: \"rounded\", \n  name: \"Minus\", \n  category: \"home\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default MinusRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

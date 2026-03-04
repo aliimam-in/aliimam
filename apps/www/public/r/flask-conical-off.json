@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "flask-conical-off",
+  "type": "registry:ui",
+  "title": "Flask Conical Off",
+  "description": "Flask Conical Off icon component",
+  "category": "health",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/health/flask-conical-off.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface FlaskConicalOffProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const FlaskConicalOff = React.forwardRef<SVGSVGElement, FlaskConicalOffProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M10 2v2.343\" />\n  <path d=\"M14 2v6.343\" />\n  <path d=\"m2 2 20 20\" />\n  <path d=\"M20 20a2 2 0 0 1-2 2H6a2 2 0 0 1-1.755-2.96l5.227-9.563\" />\n  <path d=\"M6.453 15H15\" />\n  <path d=\"M8.5 2h7\" />\n    </svg>\n  )\n);\nFlaskConicalOff.displayName = \"FlaskConicalOff\";\nexport const FlaskConicalOffMetadata = { \n  id: \"flask-conical-off\", \n  baseId: \"flask-conical-off\", \n  variant: \"default\", \n  name: \"Flask Conical Off\", \n  category: \"health\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default FlaskConicalOff;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

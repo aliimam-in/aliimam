@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "align-vertical-distribute-center",
+  "type": "registry:ui",
+  "title": "Align Vertical Distribute Center",
+  "description": "Align Vertical Distribute Center icon component",
+  "category": "align",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/align/align-vertical-distribute-center.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface AlignVerticalDistributeCenterProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const AlignVerticalDistributeCenter = React.forwardRef<SVGSVGElement, AlignVerticalDistributeCenterProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M22 17h-3\" />\n  <path d=\"M22 7h-5\" />\n  <path d=\"M5 17H2\" />\n  <path d=\"M7 7H2\" />\n  <rect x=\"5\" y=\"14\" width=\"14\" height=\"6\" rx=\"2\" />\n  <rect x=\"7\" y=\"4\" width=\"10\" height=\"6\" rx=\"2\" />\n    </svg>\n  )\n);\nAlignVerticalDistributeCenter.displayName = \"AlignVerticalDistributeCenter\";\nexport const AlignVerticalDistributeCenterMetadata = { \n  id: \"align-vertical-distribute-center\", \n  baseId: \"align-vertical-distribute-center\", \n  variant: \"default\", \n  name: \"Align Vertical Distribute Center\", \n  category: \"align\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default AlignVerticalDistributeCenter;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

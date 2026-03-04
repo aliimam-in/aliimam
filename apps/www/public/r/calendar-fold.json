@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "calendar-fold",
+  "type": "registry:ui",
+  "title": "Calendar Fold",
+  "description": "Calendar Fold icon component",
+  "category": "calendar",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/calendar/calendar-fold.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface CalendarFoldProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const CalendarFold = React.forwardRef<SVGSVGElement, CalendarFoldProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M3 20a2 2 0 0 0 2 2h10a2.4 2.4 0 0 0 1.706-.706l3.588-3.588A2.4 2.4 0 0 0 21 16V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2z\" />\n  <path d=\"M15 22v-5a1 1 0 0 1 1-1h5\" />\n  <path d=\"M8 2v4\" />\n  <path d=\"M16 2v4\" />\n  <path d=\"M3 10h18\" />\n    </svg>\n  )\n);\nCalendarFold.displayName = \"CalendarFold\";\nexport const CalendarFoldMetadata = { \n  id: \"calendar-fold\", \n  baseId: \"calendar-fold\", \n  variant: \"default\", \n  name: \"Calendar Fold\", \n  category: \"calendar\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default CalendarFold;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

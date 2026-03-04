@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "hierarchy-3_filled",
+  "type": "registry:ui",
+  "title": "Hierarchy 3",
+  "description": "Hierarchy 3 icon component",
+  "category": "code",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/code/hierarchy-3_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface Hierarchy3FilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Hierarchy3Filled = React.forwardRef<SVGSVGElement, Hierarchy3FilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M5 8C6.65685 8 8 6.65685 8 5C8 3.34315 6.65685 2 5 2C3.34315 2 2 3.34315 2 5C2 6.65685 3.34315 8 5 8Z\" fill=\"currentColor\"/>\n<path d=\"M19 15C20.6569 15 22 13.6569 22 12C22 10.3431 20.6569 9 19 9C17.3431 9 16 10.3431 16 12C16 13.6569 17.3431 15 19 15Z\" fill=\"currentColor\"/>\n<path d=\"M5 22C6.65685 22 8 20.6569 8 19C8 17.3431 6.65685 16 5 16C3.34315 16 2 17.3431 2 19C2 20.6569 3.34315 22 5 22Z\" fill=\"currentColor\"/>\n<path d=\"M5 16.75C4.59 16.75 4.25 16.41 4.25 16V8C4.25 7.59 4.59 7.25 5 7.25C5.41 7.25 5.75 7.59 5.75 8C5.75 10.19 6.81 11.25 9 11.25H16C16.41 11.25 16.75 11.59 16.75 12C16.75 12.41 16.41 12.75 16 12.75H9C7.64 12.75 6.55 12.4 5.75 11.74V16C5.75 16.41 5.41 16.75 5 16.75Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nHierarchy3Filled.displayName = \"Hierarchy3Filled\";\nexport const Hierarchy3FilledMetadata = { \n  id: \"hierarchy-3_filled\", \n  baseId: \"hierarchy-3\", \n  variant: \"filled\", \n  name: \"Hierarchy 3\", \n  category: \"code\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Hierarchy3Filled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "file-braces-corner",
+  "type": "registry:ui",
+  "title": "File Braces Corner",
+  "description": "File Braces Corner icon component",
+  "category": "file",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/file/file-braces-corner.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface FileBracesCornerProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const FileBracesCorner = React.forwardRef<SVGSVGElement, FileBracesCornerProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M14 22h4a2 2 0 0 0 2-2V8a2.4 2.4 0 0 0-.706-1.706l-3.588-3.588A2.4 2.4 0 0 0 14 2H6a2 2 0 0 0-2 2v6\" />\n  <path d=\"M14 2v5a1 1 0 0 0 1 1h5\" />\n  <path d=\"M5 14a1 1 0 0 0-1 1v2a1 1 0 0 1-1 1 1 1 0 0 1 1 1v2a1 1 0 0 0 1 1\" />\n  <path d=\"M9 22a1 1 0 0 0 1-1v-2a1 1 0 0 1 1-1 1 1 0 0 1-1-1v-2a1 1 0 0 0-1-1\" />\n    </svg>\n  )\n);\nFileBracesCorner.displayName = \"FileBracesCorner\";\nexport const FileBracesCornerMetadata = { \n  id: \"file-braces-corner\", \n  baseId: \"file-braces-corner\", \n  variant: \"default\", \n  name: \"File Braces Corner\", \n  category: \"file\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default FileBracesCorner;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

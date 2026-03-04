@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "lock-open",
+  "type": "registry:ui",
+  "title": "Lock Open",
+  "description": "Lock Open icon component",
+  "category": "security",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/security/lock-open.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface LockOpenProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const LockOpen = React.forwardRef<SVGSVGElement, LockOpenProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <rect width=\"18\" height=\"11\" x=\"3\" y=\"11\" rx=\"2\" ry=\"2\" />\n  <path d=\"M7 11V7a5 5 0 0 1 9.9-1\" />\n    </svg>\n  )\n);\nLockOpen.displayName = \"LockOpen\";\nexport const LockOpenMetadata = { \n  id: \"lock-open\", \n  baseId: \"lock-open\", \n  variant: \"default\", \n  name: \"Lock Open\", \n  category: \"security\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default LockOpen;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

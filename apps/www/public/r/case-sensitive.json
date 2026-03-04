@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "case-sensitive",
+  "type": "registry:ui",
+  "title": "Case Sensitive",
+  "description": "Case Sensitive icon component",
+  "category": "text",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/text/case-sensitive.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface CaseSensitiveProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const CaseSensitive = React.forwardRef<SVGSVGElement, CaseSensitiveProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"m2 16 4.039-9.69a.5.5 0 0 1 .923 0L11 16\" />\n  <path d=\"M22 9v7\" />\n  <path d=\"M3.304 13h6.392\" />\n  <circle cx=\"18.5\" cy=\"12.5\" r=\"3.5\" />\n    </svg>\n  )\n);\nCaseSensitive.displayName = \"CaseSensitive\";\nexport const CaseSensitiveMetadata = { \n  id: \"case-sensitive\", \n  baseId: \"case-sensitive\", \n  variant: \"default\", \n  name: \"Case Sensitive\", \n  category: \"text\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default CaseSensitive;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

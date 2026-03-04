@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "square-check-big",
+  "type": "registry:ui",
+  "title": "Square Check Big",
+  "description": "Square Check Big icon component",
+  "category": "square",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/square/square-check-big.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface SquareCheckBigProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const SquareCheckBig = React.forwardRef<SVGSVGElement, SquareCheckBigProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M21 10.656V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h12.344\" />\n  <path d=\"m9 11 3 3L22 4\" />\n    </svg>\n  )\n);\nSquareCheckBig.displayName = \"SquareCheckBig\";\nexport const SquareCheckBigMetadata = { \n  id: \"square-check-big\", \n  baseId: \"square-check-big\", \n  variant: \"default\", \n  name: \"Square Check Big\", \n  category: \"square\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default SquareCheckBig;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

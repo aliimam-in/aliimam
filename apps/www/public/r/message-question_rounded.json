@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "message-question_rounded",
+  "type": "registry:ui",
+  "title": "Message Question",
+  "description": "Message Question icon component",
+  "category": "support",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/support/message-question_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface MessageQuestionRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const MessageQuestionRounded = React.forwardRef<SVGSVGElement, MessageQuestionRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M17 18.43H13L8.54999 21.39C7.88999 21.83 7 21.36 7 20.56V18.43C4 18.43 2 16.43 2 13.43V7.42993C2 4.42993 4 2.42993 7 2.42993H17C20 2.42993 22 4.42993 22 7.42993V13.43C22 16.43 20 18.43 17 18.43Z\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M12 11.36V11.15C12 10.47 12.42 10.11 12.84 9.82001C13.25 9.54001 13.66 9.18002 13.66 8.52002C13.66 7.60002 12.92 6.85999 12 6.85999C11.08 6.85999 10.34 7.60002 10.34 8.52002\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M11.9955 13.75H12.0045\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nMessageQuestionRounded.displayName = \"MessageQuestionRounded\";\nexport const MessageQuestionRoundedMetadata = { \n  id: \"message-question_rounded\", \n  baseId: \"message-question\", \n  variant: \"rounded\", \n  name: \"Message Question\", \n  category: \"support\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default MessageQuestionRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

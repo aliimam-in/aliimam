@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "star-slash_rounded",
+  "type": "registry:ui",
+  "title": "Star Slash",
+  "description": "Star Slash icon component",
+  "category": "support",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/support/star-slash_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface StarSlashRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const StarSlashRounded = React.forwardRef<SVGSVGElement, StarSlashRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M5.28 18.65L5.85 16.18C5.98 15.6 5.75 14.79 5.33 14.37L2.85 11.89C1.39 10.43 1.86 8.95001 3.9 8.61001L7.09 8.08001C7.62 7.99001 8.26 7.52002 8.5 7.03001L10.26 3.51001C11.21 1.60001 12.77 1.60001 13.73 3.51001L15.49 7.03001C15.6 7.26001 15.81 7.48001 16.04 7.67001\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M20.1 8.60999C22.14 8.94999 22.62 10.43 21.15 11.89L18.67 14.37C18.25 14.79 18.02 15.6 18.15 16.18L18.86 19.25C19.42 21.68 18.13 22.62 15.98 21.35L12.99 19.58C12.45 19.26 11.56 19.26 11.01 19.58L8.02 21.35\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M22 2L2 22\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nStarSlashRounded.displayName = \"StarSlashRounded\";\nexport const StarSlashRoundedMetadata = { \n  id: \"star-slash_rounded\", \n  baseId: \"star-slash\", \n  variant: \"rounded\", \n  name: \"Star Slash\", \n  category: \"support\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default StarSlashRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

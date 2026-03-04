@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "maximize-1_rounded",
+  "type": "registry:ui",
+  "title": "Maximize 1",
+  "description": "Maximize 1 icon component",
+  "category": "layout",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/layout/maximize-1_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface Maximize1RoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Maximize1Rounded = React.forwardRef<SVGSVGElement, Maximize1RoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M2 9V6.5C2 4.01 4.01 2 6.5 2H9\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M15 2H17.5C19.99 2 22 4.01 22 6.5V9\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M22 16V17.5C22 19.99 19.99 22 17.5 22H16\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M9 22H6.5C4.01 22 2 19.99 2 17.5V15\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M18 12V10M6 12H12H18H6ZM6 12V10V12ZM6 12V14V12ZM18 12V14V12Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M12 6H14M12 18V6V18ZM12 18H14H12ZM12 18H10H12ZM12 6H10H12Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nMaximize1Rounded.displayName = \"Maximize1Rounded\";\nexport const Maximize1RoundedMetadata = { \n  id: \"maximize-1_rounded\", \n  baseId: \"maximize-1\", \n  variant: \"rounded\", \n  name: \"Maximize 1\", \n  category: \"layout\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Maximize1Rounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

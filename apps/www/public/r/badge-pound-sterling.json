@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "badge-pound-sterling",
+  "type": "registry:ui",
+  "title": "Badge Pound Sterling",
+  "description": "Badge Pound Sterling icon component",
+  "category": "badge",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/badge/badge-pound-sterling.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface BadgePoundSterlingProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const BadgePoundSterling = React.forwardRef<SVGSVGElement, BadgePoundSterlingProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z\" />\n  <path d=\"M8 12h4\" />\n  <path d=\"M10 16V9.5a2.5 2.5 0 0 1 5 0\" />\n  <path d=\"M8 16h7\" />\n    </svg>\n  )\n);\nBadgePoundSterling.displayName = \"BadgePoundSterling\";\nexport const BadgePoundSterlingMetadata = { \n  id: \"badge-pound-sterling\", \n  baseId: \"badge-pound-sterling\", \n  variant: \"default\", \n  name: \"Badge Pound Sterling\", \n  category: \"badge\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default BadgePoundSterling;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

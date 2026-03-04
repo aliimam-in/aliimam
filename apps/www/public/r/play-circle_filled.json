@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "play-circle_filled",
+  "type": "registry:ui",
+  "title": "Play Circle",
+  "description": "Play Circle icon component",
+  "category": "multimedia",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/multimedia/play-circle_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface PlayCircleFilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const PlayCircleFilled = React.forwardRef<SVGSVGElement, PlayCircleFilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M11.97 2C6.44997 2 1.96997 6.48 1.96997 12C1.96997 17.52 6.44997 22 11.97 22C17.49 22 21.97 17.52 21.97 12C21.97 6.48 17.5 2 11.97 2ZM14.97 14.23L12.07 15.9C11.71 16.11 11.31 16.21 10.92 16.21C10.52 16.21 10.13 16.11 9.76997 15.9C9.04997 15.48 8.61997 14.74 8.61997 13.9V10.55C8.61997 9.72 9.04997 8.97 9.76997 8.55C10.49 8.13 11.35 8.13 12.08 8.55L14.98 10.22C15.7 10.64 16.13 11.38 16.13 12.22C16.13 13.06 15.7 13.81 14.97 14.23Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nPlayCircleFilled.displayName = \"PlayCircleFilled\";\nexport const PlayCircleFilledMetadata = { \n  id: \"play-circle_filled\", \n  baseId: \"play-circle\", \n  variant: \"filled\", \n  name: \"Play Circle\", \n  category: \"multimedia\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default PlayCircleFilled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

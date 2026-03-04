@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "battery-plus",
+  "type": "registry:ui",
+  "title": "Battery Plus",
+  "description": "Battery Plus icon component",
+  "category": "app",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/app/battery-plus.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface BatteryPlusProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const BatteryPlus = React.forwardRef<SVGSVGElement, BatteryPlusProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M10 9v6\" />\n  <path d=\"M12.543 6H16a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-3.605\" />\n  <path d=\"M22 14v-4\" />\n  <path d=\"M7 12h6\" />\n  <path d=\"M7.606 18H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h3.606\" />\n    </svg>\n  )\n);\nBatteryPlus.displayName = \"BatteryPlus\";\nexport const BatteryPlusMetadata = { \n  id: \"battery-plus\", \n  baseId: \"battery-plus\", \n  variant: \"default\", \n  name: \"Battery Plus\", \n  category: \"app\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default BatteryPlus;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

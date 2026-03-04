@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ruler_rounded",
+  "type": "registry:ui",
+  "title": "Ruler",
+  "description": "Ruler icon component",
+  "category": "design",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/design/ruler_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface RulerRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const RulerRounded = React.forwardRef<SVGSVGElement, RulerRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <g clipPath=\"url(#clip0_210_5399)\">\n<path d=\"M5 17H19C21 17 22 16 22 14V10C22 8 21 7 19 7H5C3 7 2 8 2 10V14C2 16 3 17 5 17Z\"   strokeLinecap=\"round\"/>\n<path d=\"M18 7V12\"   strokeLinecap=\"round\"/>\n<path d=\"M6 7V11\"   strokeLinecap=\"round\"/>\n<path d=\"M10.05 7L10 12\"   strokeLinecap=\"round\"/>\n<path d=\"M14 7V10\"   strokeLinecap=\"round\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_210_5399\">\n<rect width=\"24\" height=\"24\" fill=\"currentColor\"/>\n</clipPath>\n</defs>\n    </svg>\n  )\n);\nRulerRounded.displayName = \"RulerRounded\";\nexport const RulerRoundedMetadata = { \n  id: \"ruler_rounded\", \n  baseId: \"ruler\", \n  variant: \"rounded\", \n  name: \"Ruler\", \n  category: \"design\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default RulerRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

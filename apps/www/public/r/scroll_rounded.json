@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "scroll_rounded",
+  "type": "registry:ui",
+  "title": "Scroll",
+  "description": "Scroll icon component",
+  "category": "code",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/code/scroll_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ScrollRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ScrollRounded = React.forwardRef<SVGSVGElement, ScrollRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M9.6 8.97L7.11 11.46C6.82 11.75 6.82 12.24 7.11 12.53L9.6 15.02\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M14.4 8.97L16.89 11.46C17.18 11.75 17.18 12.24 16.89 12.53L14.4 15.02\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nScrollRounded.displayName = \"ScrollRounded\";\nexport const ScrollRoundedMetadata = { \n  id: \"scroll_rounded\", \n  baseId: \"scroll\", \n  variant: \"rounded\", \n  name: \"Scroll\", \n  category: \"code\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ScrollRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

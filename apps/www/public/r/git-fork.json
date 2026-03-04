@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "git-fork",
+  "type": "registry:ui",
+  "title": "Git Fork",
+  "description": "Git Fork icon component",
+  "category": "code",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/code/git-fork.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface GitForkProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const GitFork = React.forwardRef<SVGSVGElement, GitForkProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <circle cx=\"12\" cy=\"18\" r=\"3\" />\n  <circle cx=\"6\" cy=\"6\" r=\"3\" />\n  <circle cx=\"18\" cy=\"6\" r=\"3\" />\n  <path d=\"M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9\" />\n  <path d=\"M12 12v3\" />\n    </svg>\n  )\n);\nGitFork.displayName = \"GitFork\";\nexport const GitForkMetadata = { \n  id: \"git-fork\", \n  baseId: \"git-fork\", \n  variant: \"default\", \n  name: \"Git Fork\", \n  category: \"code\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default GitFork;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

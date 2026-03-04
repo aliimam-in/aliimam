@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "nebulas-nas_filled",
+  "type": "registry:ui",
+  "title": "Nebulas Nas",
+  "description": "Nebulas Nas icon component",
+  "category": "brand",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/brand/nebulas-nas_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface NebulasNasFilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const NebulasNasFilled = React.forwardRef<SVGSVGElement, NebulasNasFilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM13.5 14.75L13.19 14.65L13 15.25L12 18.25L9.5 13.57L9.39999 13.38L6 12.25L8.17999 11.16L10 10.25L10.47 10.04L12 5.25L13.55 8.64999L14.5 10.75L14.09 10.96L18 12.25L13.5 14.75Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nNebulasNasFilled.displayName = \"NebulasNasFilled\";\nexport const NebulasNasFilledMetadata = { \n  id: \"nebulas-nas_filled\", \n  baseId: \"nebulas-nas\", \n  variant: \"filled\", \n  name: \"Nebulas Nas\", \n  category: \"brand\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default NebulasNasFilled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

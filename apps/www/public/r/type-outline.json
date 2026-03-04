@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "type-outline",
+  "type": "registry:ui",
+  "title": "Type Outline",
+  "description": "Type Outline icon component",
+  "category": "text",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/text/type-outline.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface TypeOutlineProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const TypeOutline = React.forwardRef<SVGSVGElement, TypeOutlineProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M14 16.5a.5.5 0 0 0 .5.5h.5a2 2 0 0 1 0 4H9a2 2 0 0 1 0-4h.5a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5V8a2 2 0 0 1-4 0V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v3a2 2 0 0 1-4 0v-.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5Z\" />\n    </svg>\n  )\n);\nTypeOutline.displayName = \"TypeOutline\";\nexport const TypeOutlineMetadata = { \n  id: \"type-outline\", \n  baseId: \"type-outline\", \n  variant: \"default\", \n  name: \"Type Outline\", \n  category: \"text\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default TypeOutline;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

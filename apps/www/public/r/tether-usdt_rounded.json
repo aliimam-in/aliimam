@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "tether-usdt_rounded",
+  "type": "registry:ui",
+  "title": "Tether Usdt",
+  "description": "Tether Usdt icon component",
+  "category": "brand",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/brand/tether-usdt_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface TetherUsdtRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const TetherUsdtRounded = React.forwardRef<SVGSVGElement, TetherUsdtRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M7.46995 3.34998H16.53C17.59 3.34998 18.84 4.11998 19.31 5.06998L21.71 9.88998C22.29 11.05 21.97 12.7 21.02 13.57L14.09 19.86C12.94 20.9 11.07 20.9 9.91996 19.86L2.98996 13.57C2.02996 12.7 1.71996 11.05 2.29996 9.88998L4.69996 5.06998C5.15996 4.11998 6.40996 3.34998 7.46995 3.34998Z\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M12 14.5V8.5\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M8 8.5H16\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nTetherUsdtRounded.displayName = \"TetherUsdtRounded\";\nexport const TetherUsdtRoundedMetadata = { \n  id: \"tether-usdt_rounded\", \n  baseId: \"tether-usdt\", \n  variant: \"rounded\", \n  name: \"Tether Usdt\", \n  category: \"brand\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default TetherUsdtRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

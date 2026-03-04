@@ -13,6 +13,7 @@
   "sideEffects": false,
   "scripts": {
     "generate:icons": "tsx scripts/generate-icons.ts",
+    "registry:gen": "tsx scripts/generate-registry.ts",
     "build": "NODE_OPTIONS='--max-old-space-size=4096' tsup",
     "prepublishOnly": "npm run generate:icons && npm run build"
   },

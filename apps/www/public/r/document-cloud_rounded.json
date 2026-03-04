@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "document-cloud_rounded",
+  "type": "registry:ui",
+  "title": "Document Cloud",
+  "description": "Document Cloud icon component",
+  "category": "document",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/document/document-cloud_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface DocumentCloudRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const DocumentCloudRounded = React.forwardRef<SVGSVGElement, DocumentCloudRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M14 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M22 10V13\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M22 10H18C15 10 14 9 14 6V2L22 10Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M13.76 18.2601C11.41 18.4301 11.41 21.8301 13.76 22.0001H19.32C19.99 22.0001 20.65 21.7501 21.14 21.3001C22.79 19.8601 21.91 16.9801 19.74 16.7101C18.96 12.0201 12.18 13.8001 13.78 18.2701\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nDocumentCloudRounded.displayName = \"DocumentCloudRounded\";\nexport const DocumentCloudRoundedMetadata = { \n  id: \"document-cloud_rounded\", \n  baseId: \"document-cloud\", \n  variant: \"rounded\", \n  name: \"Document Cloud\", \n  category: \"document\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default DocumentCloudRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "file-stack",
+  "type": "registry:ui",
+  "title": "File Stack",
+  "description": "File Stack icon component",
+  "category": "file",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/file/file-stack.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface FileStackProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const FileStack = React.forwardRef<SVGSVGElement, FileStackProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M11 21a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-8a1 1 0 0 1 1-1\" />\n  <path d=\"M16 16a1 1 0 0 1-1 1H9a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1\" />\n  <path d=\"M21 6a2 2 0 0 0-.586-1.414l-2-2A2 2 0 0 0 17 2h-3a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1z\" />\n    </svg>\n  )\n);\nFileStack.displayName = \"FileStack\";\nexport const FileStackMetadata = { \n  id: \"file-stack\", \n  baseId: \"file-stack\", \n  variant: \"default\", \n  name: \"File Stack\", \n  category: \"file\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default FileStack;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "boom-box",
+  "type": "registry:ui",
+  "title": "Boom Box",
+  "description": "Boom Box icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/boom-box.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface BoomBoxProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const BoomBox = React.forwardRef<SVGSVGElement, BoomBoxProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M4 9V5a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v4\" />\n  <path d=\"M8 8v1\" />\n  <path d=\"M12 8v1\" />\n  <path d=\"M16 8v1\" />\n  <rect width=\"20\" height=\"12\" x=\"2\" y=\"9\" rx=\"2\" />\n  <circle cx=\"8\" cy=\"15\" r=\"2\" />\n  <circle cx=\"16\" cy=\"15\" r=\"2\" />\n    </svg>\n  )\n);\nBoomBox.displayName = \"BoomBox\";\nexport const BoomBoxMetadata = { \n  id: \"boom-box\", \n  baseId: \"boom-box\", \n  variant: \"default\", \n  name: \"Boom Box\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default BoomBox;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

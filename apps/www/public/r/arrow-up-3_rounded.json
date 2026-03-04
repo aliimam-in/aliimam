@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "arrow-up-3_rounded",
+  "type": "registry:ui",
+  "title": "Arrow Up 3",
+  "description": "Arrow Up 3 icon component",
+  "category": "arrows",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/arrows/arrow-up-3_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ArrowUp3RoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ArrowUp3Rounded = React.forwardRef<SVGSVGElement, ArrowUp3RoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M11.9999 18H9.32992C6.01992 18 4.65992 15.65 6.31992 12.78L7.65992 10.47L8.99992 8.16C10.6599 5.29 13.3699 5.29 15.0299 8.16L16.3699 10.47L17.7099 12.78C19.3699 15.65 18.0099 18 14.6999 18H11.9999Z\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nArrowUp3Rounded.displayName = \"ArrowUp3Rounded\";\nexport const ArrowUp3RoundedMetadata = { \n  id: \"arrow-up-3_rounded\", \n  baseId: \"arrow-up-3\", \n  variant: \"rounded\", \n  name: \"Arrow Up 3\", \n  category: \"arrows\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ArrowUp3Rounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

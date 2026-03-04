@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "volume",
+  "type": "registry:ui",
+  "title": "Volume",
+  "description": "Volume icon component",
+  "category": "multimedia",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/multimedia/volume.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface VolumeProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Volume = React.forwardRef<SVGSVGElement, VolumeProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z\" />\n    </svg>\n  )\n);\nVolume.displayName = \"Volume\";\nexport const VolumeMetadata = { \n  id: \"volume\", \n  baseId: \"volume\", \n  variant: \"default\", \n  name: \"Volume\", \n  category: \"multimedia\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Volume;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

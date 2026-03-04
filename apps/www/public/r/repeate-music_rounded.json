@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "repeate-music_rounded",
+  "type": "registry:ui",
+  "title": "Repeate Music",
+  "description": "Repeate Music icon component",
+  "category": "multimedia",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/multimedia/repeate-music_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface RepeateMusicRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const RepeateMusicRounded = React.forwardRef<SVGSVGElement, RepeateMusicRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M14 3L16.44 5.34003L8.48999 5.32001C4.91999 5.32001 1.98999 8.25003 1.98999 11.84C1.98999 13.63 2.71998 15.26 3.89998 16.44\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M10.0001 21L7.56006 18.66L15.5101 18.68C19.0801 18.68 22.0101 15.75 22.0101 12.16C22.0101 10.37 21.2801 8.74 20.1001 7.56\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M9 12H15\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nRepeateMusicRounded.displayName = \"RepeateMusicRounded\";\nexport const RepeateMusicRoundedMetadata = { \n  id: \"repeate-music_rounded\", \n  baseId: \"repeate-music\", \n  variant: \"rounded\", \n  name: \"Repeate Music\", \n  category: \"multimedia\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default RepeateMusicRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

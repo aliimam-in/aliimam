@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "pointer-off",
+  "type": "registry:ui",
+  "title": "Pointer Off",
+  "description": "Pointer Off icon component",
+  "category": "cursor",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/cursor/pointer-off.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface PointerOffProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const PointerOff = React.forwardRef<SVGSVGElement, PointerOffProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M10 4.5V4a2 2 0 0 0-2.41-1.957\" />\n  <path d=\"M13.9 8.4a2 2 0 0 0-1.26-1.295\" />\n  <path d=\"M21.7 16.2A8 8 0 0 0 22 14v-3a2 2 0 1 0-4 0v-1a2 2 0 0 0-3.63-1.158\" />\n  <path d=\"m7 15-1.8-1.8a2 2 0 0 0-2.79 2.86L6 19.7a7.74 7.74 0 0 0 6 2.3h2a8 8 0 0 0 5.657-2.343\" />\n  <path d=\"M6 6v8\" />\n  <path d=\"m2 2 20 20\" />\n    </svg>\n  )\n);\nPointerOff.displayName = \"PointerOff\";\nexport const PointerOffMetadata = { \n  id: \"pointer-off\", \n  baseId: \"pointer-off\", \n  variant: \"default\", \n  name: \"Pointer Off\", \n  category: \"cursor\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default PointerOff;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

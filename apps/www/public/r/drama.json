@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "drama",
+  "type": "registry:ui",
+  "title": "Drama",
+  "description": "Drama icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/drama.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface DramaProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Drama = React.forwardRef<SVGSVGElement, DramaProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M10 11h.01\" />\n  <path d=\"M14 6h.01\" />\n  <path d=\"M18 6h.01\" />\n  <path d=\"M6.5 13.1h.01\" />\n  <path d=\"M22 5c0 9-4 12-6 12s-6-3-6-12c0-2 2-3 6-3s6 1 6 3\" />\n  <path d=\"M17.4 9.9c-.8.8-2 .8-2.8 0\" />\n  <path d=\"M10.1 7.1C9 7.2 7.7 7.7 6 8.6c-3.5 2-4.7 3.9-3.7 5.6 4.5 7.8 9.5 8.4 11.2 7.4.9-.5 1.9-2.1 1.9-4.7\" />\n  <path d=\"M9.1 16.5c.3-1.1 1.4-1.7 2.4-1.4\" />\n    </svg>\n  )\n);\nDrama.displayName = \"Drama\";\nexport const DramaMetadata = { \n  id: \"drama\", \n  baseId: \"drama\", \n  variant: \"default\", \n  name: \"Drama\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Drama;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

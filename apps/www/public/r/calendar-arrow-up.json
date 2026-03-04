@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "calendar-arrow-up",
+  "type": "registry:ui",
+  "title": "Calendar Arrow Up",
+  "description": "Calendar Arrow Up icon component",
+  "category": "calendar",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/calendar/calendar-arrow-up.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface CalendarArrowUpProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const CalendarArrowUp = React.forwardRef<SVGSVGElement, CalendarArrowUpProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"m14 18 4-4 4 4\" />\n  <path d=\"M16 2v4\" />\n  <path d=\"M18 22v-8\" />\n  <path d=\"M21 11.343V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h9\" />\n  <path d=\"M3 10h18\" />\n  <path d=\"M8 2v4\" />\n    </svg>\n  )\n);\nCalendarArrowUp.displayName = \"CalendarArrowUp\";\nexport const CalendarArrowUpMetadata = { \n  id: \"calendar-arrow-up\", \n  baseId: \"calendar-arrow-up\", \n  variant: \"default\", \n  name: \"Calendar Arrow Up\", \n  category: \"calendar\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default CalendarArrowUp;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "arrow-up-from-dot",
+  "type": "registry:ui",
+  "title": "Arrow Up From Dot",
+  "description": "Arrow Up From Dot icon component",
+  "category": "arrows",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/arrows/arrow-up-from-dot.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ArrowUpFromDotProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ArrowUpFromDot = React.forwardRef<SVGSVGElement, ArrowUpFromDotProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"m5 9 7-7 7 7\" />\n  <path d=\"M12 16V2\" />\n  <circle cx=\"12\" cy=\"21\" r=\"1\" />\n    </svg>\n  )\n);\nArrowUpFromDot.displayName = \"ArrowUpFromDot\";\nexport const ArrowUpFromDotMetadata = { \n  id: \"arrow-up-from-dot\", \n  baseId: \"arrow-up-from-dot\", \n  variant: \"default\", \n  name: \"Arrow Up From Dot\", \n  category: \"arrows\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ArrowUpFromDot;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

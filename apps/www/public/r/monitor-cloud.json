@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "monitor-cloud",
+  "type": "registry:ui",
+  "title": "Monitor Cloud",
+  "description": "Monitor Cloud icon component",
+  "category": "monitor",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/monitor/monitor-cloud.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface MonitorCloudProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const MonitorCloud = React.forwardRef<SVGSVGElement, MonitorCloudProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M11 13a3 3 0 1 1 2.83-4H14a2 2 0 0 1 0 4z\" />\n  <path d=\"M12 17v4\" />\n  <path d=\"M8 21h8\" />\n  <rect x=\"2\" y=\"3\" width=\"20\" height=\"14\" rx=\"2\" />\n    </svg>\n  )\n);\nMonitorCloud.displayName = \"MonitorCloud\";\nexport const MonitorCloudMetadata = { \n  id: \"monitor-cloud\", \n  baseId: \"monitor-cloud\", \n  variant: \"default\", \n  name: \"Monitor Cloud\", \n  category: \"monitor\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default MonitorCloud;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

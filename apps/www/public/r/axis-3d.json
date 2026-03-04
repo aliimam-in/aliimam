@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "axis-3d",
+  "type": "registry:ui",
+  "title": "Axis 3d",
+  "description": "Axis 3d icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/axis-3d.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface Axis3dProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Axis3d = React.forwardRef<SVGSVGElement, Axis3dProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M13.5 10.5 15 9\" />\n  <path d=\"M4 4v15a1 1 0 0 0 1 1h15\" />\n  <path d=\"M4.293 19.707 6 18\" />\n  <path d=\"m9 15 1.5-1.5\" />\n    </svg>\n  )\n);\nAxis3d.displayName = \"Axis3d\";\nexport const Axis3dMetadata = { \n  id: \"axis-3d\", \n  baseId: \"axis-3d\", \n  variant: \"default\", \n  name: \"Axis 3d\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Axis3d;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

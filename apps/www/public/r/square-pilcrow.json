@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "square-pilcrow",
+  "type": "registry:ui",
+  "title": "Square Pilcrow",
+  "description": "Square Pilcrow icon component",
+  "category": "square",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/square/square-pilcrow.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface SquarePilcrowProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const SquarePilcrow = React.forwardRef<SVGSVGElement, SquarePilcrowProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <rect width=\"18\" height=\"18\" x=\"3\" y=\"3\" rx=\"2\" />\n  <path d=\"M12 12H9.5a2.5 2.5 0 0 1 0-5H17\" />\n  <path d=\"M12 7v10\" />\n  <path d=\"M16 7v10\" />\n    </svg>\n  )\n);\nSquarePilcrow.displayName = \"SquarePilcrow\";\nexport const SquarePilcrowMetadata = { \n  id: \"square-pilcrow\", \n  baseId: \"square-pilcrow\", \n  variant: \"default\", \n  name: \"Square Pilcrow\", \n  category: \"square\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default SquarePilcrow;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

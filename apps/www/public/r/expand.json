@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "expand",
+  "type": "registry:ui",
+  "title": "Expand",
+  "description": "Expand icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/expand.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ExpandProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Expand = React.forwardRef<SVGSVGElement, ExpandProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"m15 15 6 6\" />\n  <path d=\"m15 9 6-6\" />\n  <path d=\"M21 16v5h-5\" />\n  <path d=\"M21 8V3h-5\" />\n  <path d=\"M3 16v5h5\" />\n  <path d=\"m3 21 6-6\" />\n  <path d=\"M3 8V3h5\" />\n  <path d=\"M9 9 3 3\" />\n    </svg>\n  )\n);\nExpand.displayName = \"Expand\";\nexport const ExpandMetadata = { \n  id: \"expand\", \n  baseId: \"expand\", \n  variant: \"default\", \n  name: \"Expand\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Expand;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "bluetooth-connected",
+  "type": "registry:ui",
+  "title": "Bluetooth Connected",
+  "description": "Bluetooth Connected icon component",
+  "category": "app",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/app/bluetooth-connected.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface BluetoothConnectedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const BluetoothConnected = React.forwardRef<SVGSVGElement, BluetoothConnectedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"m7 7 10 10-5 5V2l5 5L7 17\" />\n  <line x1=\"18\" x2=\"21\" y1=\"12\" y2=\"12\" />\n  <line x1=\"3\" x2=\"6\" y1=\"12\" y2=\"12\" />\n    </svg>\n  )\n);\nBluetoothConnected.displayName = \"BluetoothConnected\";\nexport const BluetoothConnectedMetadata = { \n  id: \"bluetooth-connected\", \n  baseId: \"bluetooth-connected\", \n  variant: \"default\", \n  name: \"Bluetooth Connected\", \n  category: \"app\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default BluetoothConnected;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

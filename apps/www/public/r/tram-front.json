@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "tram-front",
+  "type": "registry:ui",
+  "title": "Tram Front",
+  "description": "Tram Front icon component",
+  "category": "transport",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/transport/tram-front.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface TramFrontProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const TramFront = React.forwardRef<SVGSVGElement, TramFrontProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <rect width=\"16\" height=\"16\" x=\"4\" y=\"3\" rx=\"2\" />\n  <path d=\"M4 11h16\" />\n  <path d=\"M12 3v8\" />\n  <path d=\"m8 19-2 3\" />\n  <path d=\"m18 22-2-3\" />\n  <path d=\"M8 15h.01\" />\n  <path d=\"M16 15h.01\" />\n    </svg>\n  )\n);\nTramFront.displayName = \"TramFront\";\nexport const TramFrontMetadata = { \n  id: \"tram-front\", \n  baseId: \"tram-front\", \n  variant: \"default\", \n  name: \"Tram Front\", \n  category: \"transport\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default TramFront;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

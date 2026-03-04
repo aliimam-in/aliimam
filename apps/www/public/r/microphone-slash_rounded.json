@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "microphone-slash_rounded",
+  "type": "registry:ui",
+  "title": "Microphone Slash",
+  "description": "Microphone Slash icon component",
+  "category": "multimedia",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/multimedia/microphone-slash_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface MicrophoneSlashRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const MicrophoneSlashRounded = React.forwardRef<SVGSVGElement, MicrophoneSlashRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M16 6.3V6C16 3.79 14.21 2 12 2C9.79 2 8 3.79 8 6V11\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M9.04004 14.19C9.77004 15 10.83 15.5 12 15.5C14.21 15.5 16 13.71 16 11.5V11\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M6.78003 16.95C8.15003 18.22 9.98003 19 12 19C16.22 19 19.65 15.57 19.65 11.35V9.65002\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M4.3501 9.65002V11.35C4.3501 12.41 4.5601 13.41 4.9501 14.33\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M20.0699 2.83997L3.92993 18.99\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M11 3V6\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M12 19V22\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nMicrophoneSlashRounded.displayName = \"MicrophoneSlashRounded\";\nexport const MicrophoneSlashRoundedMetadata = { \n  id: \"microphone-slash_rounded\", \n  baseId: \"microphone-slash\", \n  variant: \"rounded\", \n  name: \"Microphone Slash\", \n  category: \"multimedia\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default MicrophoneSlashRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

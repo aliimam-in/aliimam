@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "metronome",
+  "type": "registry:ui",
+  "title": "Metronome",
+  "description": "Metronome icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/metronome.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface MetronomeProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Metronome = React.forwardRef<SVGSVGElement, MetronomeProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M12 11.4V9.1\" />\n  <path d=\"m12 17 6.59-6.59\" />\n  <path d=\"m15.05 5.7-.218-.691a3 3 0 0 0-5.663 0L4.418 19.695A1 1 0 0 0 5.37 21h13.253a1 1 0 0 0 .951-1.31L18.45 16.2\" />\n  <circle cx=\"20\" cy=\"9\" r=\"2\" />\n    </svg>\n  )\n);\nMetronome.displayName = \"Metronome\";\nexport const MetronomeMetadata = { \n  id: \"metronome\", \n  baseId: \"metronome\", \n  variant: \"default\", \n  name: \"Metronome\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Metronome;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

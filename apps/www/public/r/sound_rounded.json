@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "sound_rounded",
+  "type": "registry:ui",
+  "title": "Sound",
+  "description": "Sound icon component",
+  "category": "home",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/home/sound_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface SoundRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const SoundRounded = React.forwardRef<SVGSVGElement, SoundRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M3 8.25V15.75\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M7.5 5.75V18.25\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M12 3.25V20.75\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M16.5 5.75V18.25\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M21 8.25V15.75\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nSoundRounded.displayName = \"SoundRounded\";\nexport const SoundRoundedMetadata = { \n  id: \"sound_rounded\", \n  baseId: \"sound\", \n  variant: \"rounded\", \n  name: \"Sound\", \n  category: \"home\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default SoundRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "velas-vlx_filled",
+  "type": "registry:ui",
+  "title": "Velas Vlx",
+  "description": "Velas Vlx icon component",
+  "category": "brand",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/brand/velas-vlx_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface VelasVlxFilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const VelasVlxFilled = React.forwardRef<SVGSVGElement, VelasVlxFilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M21 3.1499H3C2.59 3.1499 2.25 3.4899 2.25 3.8999C2.25 4.3099 2.59 4.6499 3 4.6499H21C21.41 4.6499 21.75 4.3099 21.75 3.8999C21.75 3.4899 21.41 3.1499 21 3.1499Z\" fill=\"currentColor\"/>\n<path d=\"M4.0399 6.23999H19.9699C20.8499 6.23999 21.3799 7.20999 20.8999 7.94999L12.9399 20.34C12.4999 21.02 11.5099 21.02 11.0699 20.34L3.10988 7.94999C2.62988 7.20999 3.1599 6.23999 4.0399 6.23999Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nVelasVlxFilled.displayName = \"VelasVlxFilled\";\nexport const VelasVlxFilledMetadata = { \n  id: \"velas-vlx_filled\", \n  baseId: \"velas-vlx\", \n  variant: \"filled\", \n  name: \"Velas Vlx\", \n  category: \"brand\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default VelasVlxFilled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

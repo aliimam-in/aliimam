@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "signpost-big",
+  "type": "registry:ui",
+  "title": "Signpost Big",
+  "description": "Signpost Big icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/signpost-big.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface SignpostBigProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const SignpostBig = React.forwardRef<SVGSVGElement, SignpostBigProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M10 9H4L2 7l2-2h6\" />\n  <path d=\"M14 5h6l2 2-2 2h-6\" />\n  <path d=\"M10 22V4a2 2 0 1 1 4 0v18\" />\n  <path d=\"M8 22h8\" />\n    </svg>\n  )\n);\nSignpostBig.displayName = \"SignpostBig\";\nexport const SignpostBigMetadata = { \n  id: \"signpost-big\", \n  baseId: \"signpost-big\", \n  variant: \"default\", \n  name: \"Signpost Big\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default SignpostBig;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

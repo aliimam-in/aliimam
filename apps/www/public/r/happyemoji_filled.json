@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "happyemoji_filled",
+  "type": "registry:ui",
+  "title": "Happyemoji",
+  "description": "Happyemoji icon component",
+  "category": "app",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/app/happyemoji_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface HappyemojiFilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const HappyemojiFilled = React.forwardRef<SVGSVGElement, HappyemojiFilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M11.97 2C6.45 2 1.97 6.48 1.97 12C1.97 17.52 6.45 22 11.97 22C17.49 22 21.97 17.52 21.97 12C21.97 6.48 17.5 2 11.97 2ZM17.4 16.43C16.17 18.2 14.15 19.25 12 19.25C9.85 19.25 7.83 18.2 6.6 16.43C6.36 16.09 6.45 15.62 6.79 15.39C7.13 15.15 7.6 15.24 7.83 15.58C8.78 16.94 10.34 17.76 12 17.76C13.66 17.76 15.22 16.95 16.17 15.58C16.41 15.24 16.87 15.16 17.21 15.39C17.56 15.62 17.64 16.09 17.4 16.43Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nHappyemojiFilled.displayName = \"HappyemojiFilled\";\nexport const HappyemojiFilledMetadata = { \n  id: \"happyemoji_filled\", \n  baseId: \"happyemoji\", \n  variant: \"filled\", \n  name: \"Happyemoji\", \n  category: \"app\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default HappyemojiFilled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

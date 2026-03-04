@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "the-graph-grt_rounded",
+  "type": "registry:ui",
+  "title": "The Graph Grt",
+  "description": "The Graph Grt icon component",
+  "category": "brand",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/brand/the-graph-grt_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface TheGraphGrtRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const TheGraphGrtRounded = React.forwardRef<SVGSVGElement, TheGraphGrtRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M11.2999 14C13.1777 14 14.6999 12.4778 14.6999 10.6C14.6999 8.72224 13.1777 7.20001 11.2999 7.20001C9.42213 7.20001 7.8999 8.72224 7.8999 10.6C7.8999 12.4778 9.42213 14 11.2999 14Z\"   strokeMiterlimit=\"10\"/>\n<path d=\"M15.1001 14.8L12.1001 17.8\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M16.5 7.3125V7.3125\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nTheGraphGrtRounded.displayName = \"TheGraphGrtRounded\";\nexport const TheGraphGrtRoundedMetadata = { \n  id: \"the-graph-grt_rounded\", \n  baseId: \"the-graph-grt\", \n  variant: \"rounded\", \n  name: \"The Graph Grt\", \n  category: \"brand\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default TheGraphGrtRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

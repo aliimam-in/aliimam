@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "square-stack",
+  "type": "registry:ui",
+  "title": "Square Stack",
+  "description": "Square Stack icon component",
+  "category": "square",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/square/square-stack.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface SquareStackProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const SquareStack = React.forwardRef<SVGSVGElement, SquareStackProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M4 10c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h4c1.1 0 2 .9 2 2\" />\n  <path d=\"M10 16c-1.1 0-2-.9-2-2v-4c0-1.1.9-2 2-2h4c1.1 0 2 .9 2 2\" />\n  <rect width=\"8\" height=\"8\" x=\"14\" y=\"14\" rx=\"2\" />\n    </svg>\n  )\n);\nSquareStack.displayName = \"SquareStack\";\nexport const SquareStackMetadata = { \n  id: \"square-stack\", \n  baseId: \"square-stack\", \n  variant: \"default\", \n  name: \"Square Stack\", \n  category: \"square\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default SquareStack;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

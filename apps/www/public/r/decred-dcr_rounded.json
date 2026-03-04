@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "decred-dcr_rounded",
+  "type": "registry:ui",
+  "title": "Decred Dcr",
+  "description": "Decred Dcr icon component",
+  "category": "brand",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/brand/decred-dcr_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface DecredDcrRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const DecredDcrRounded = React.forwardRef<SVGSVGElement, DecredDcrRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M5.7 7.7L2 4H7L13 10H8.5C6.6 10 5 11.6 5 13.5C5 15.4 6.6 17 8.5 17H10L13 20H8.5C4.9 20 2 17.1 2 13.5C2 11 3.4 8.8 5.5 7.7H5.7Z\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M18.3 16.3L22 20H17L11 14H15.5C17.4 14 19 12.4 19 10.5C19 8.6 17.4 7 15.5 7H14L11 4H15.5C19.1 4 22 6.9 22 10.5C22 13 20.6 15.2 18.5 16.3H18.3Z\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nDecredDcrRounded.displayName = \"DecredDcrRounded\";\nexport const DecredDcrRoundedMetadata = { \n  id: \"decred-dcr_rounded\", \n  baseId: \"decred-dcr\", \n  variant: \"rounded\", \n  name: \"Decred Dcr\", \n  category: \"brand\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default DecredDcrRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

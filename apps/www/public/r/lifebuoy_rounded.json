@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "lifebuoy_rounded",
+  "type": "registry:ui",
+  "title": "Lifebuoy",
+  "description": "Lifebuoy icon component",
+  "category": "design",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/design/lifebuoy_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface LifebuoyRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const LifebuoyRounded = React.forwardRef<SVGSVGElement, LifebuoyRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M11.97 22C17.4928 22 21.97 17.5228 21.97 12C21.97 6.47715 17.4928 2 11.97 2C6.44712 2 1.96997 6.47715 1.96997 12C1.96997 17.5228 6.44712 22 11.97 22Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M12 16.5C14.4853 16.5 16.5 14.4853 16.5 12C16.5 9.51472 14.4853 7.5 12 7.5C9.51472 7.5 7.5 9.51472 7.5 12C7.5 14.4853 9.51472 16.5 12 16.5Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M4.90002 4.92999L8.44002 8.45999\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M4.90002 19.07L8.44002 15.54\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M19.05 19.07L15.51 15.54\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M19.05 4.92999L15.51 8.45999\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nLifebuoyRounded.displayName = \"LifebuoyRounded\";\nexport const LifebuoyRoundedMetadata = { \n  id: \"lifebuoy_rounded\", \n  baseId: \"lifebuoy\", \n  variant: \"rounded\", \n  name: \"Lifebuoy\", \n  category: \"design\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default LifebuoyRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "location-slash_rounded",
+  "type": "registry:ui",
+  "title": "Location Slash",
+  "description": "Location Slash icon component",
+  "category": "navigation",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/navigation/location-slash_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface LocationSlashRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const LocationSlashRounded = React.forwardRef<SVGSVGElement, LocationSlashRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M10.42 13C9.5 12.46 8.88 11.46 8.88 10.31C8.88 8.59 10.27 7.19 12 7.19C13.15 7.19 14.15 7.81 14.69 8.74\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M5.98995 17.81C4.14995 15.3 2.80995 12.09 3.62995 8.48998C5.27995 1.22998 14.57 0.0599852 18.68 4.97999\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M20.38 8.5C21.53 13.58 18.37 17.88 15.6 20.54C13.59 22.48 10.41 22.48 8.39001 20.54\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M22 2L2 22\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nLocationSlashRounded.displayName = \"LocationSlashRounded\";\nexport const LocationSlashRoundedMetadata = { \n  id: \"location-slash_rounded\", \n  baseId: \"location-slash\", \n  variant: \"rounded\", \n  name: \"Location Slash\", \n  category: \"navigation\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default LocationSlashRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

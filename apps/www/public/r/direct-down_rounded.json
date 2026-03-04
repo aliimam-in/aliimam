@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "direct-down_rounded",
+  "type": "registry:ui",
+  "title": "Direct Down",
+  "description": "Direct Down icon component",
+  "category": "navigation",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/navigation/direct-down_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface DirectDownRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const DirectDownRounded = React.forwardRef<SVGSVGElement, DirectDownRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M9.17005 19.29L3.07005 7.69999C1.62005 4.94999 4.55005 1.95999 7.33005 3.34999L10.57 4.96999C11.47 5.41999 12.53 5.41999 13.43 4.96999L16.67 3.34999C19.45 1.95999 22.37 4.94999 20.93 7.69999L14.83 19.29C13.63 21.57 10.37 21.57 9.17005 19.29Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nDirectDownRounded.displayName = \"DirectDownRounded\";\nexport const DirectDownRoundedMetadata = { \n  id: \"direct-down_rounded\", \n  baseId: \"direct-down\", \n  variant: \"rounded\", \n  name: \"Direct Down\", \n  category: \"navigation\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default DirectDownRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

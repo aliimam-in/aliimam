@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "arrow-left",
+  "type": "registry:ui",
+  "title": "Arrow Left",
+  "description": "Arrow Left icon component",
+  "category": "arrows",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/arrows/arrow-left.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ArrowLeftProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ArrowLeft = React.forwardRef<SVGSVGElement, ArrowLeftProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"m12 19-7-7 7-7\" />\n  <path d=\"M19 12H5\" />\n    </svg>\n  )\n);\nArrowLeft.displayName = \"ArrowLeft\";\nexport const ArrowLeftMetadata = { \n  id: \"arrow-left\", \n  baseId: \"arrow-left\", \n  variant: \"default\", \n  name: \"Arrow Left\", \n  category: \"arrows\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ArrowLeft;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

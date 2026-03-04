@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "forklift",
+  "type": "registry:ui",
+  "title": "Forklift",
+  "description": "Forklift icon component",
+  "category": "transport",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/transport/forklift.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ForkliftProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Forklift = React.forwardRef<SVGSVGElement, ForkliftProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M12 12H5a2 2 0 0 0-2 2v5\" />\n  <path d=\"M15 19h7\" />\n  <path d=\"M16 19V2\" />\n  <path d=\"M6 12V7a2 2 0 0 1 2-2h2.172a2 2 0 0 1 1.414.586l3.828 3.828A2 2 0 0 1 16 10.828\" />\n  <path d=\"M7 19h4\" />\n  <circle cx=\"13\" cy=\"19\" r=\"2\" />\n  <circle cx=\"5\" cy=\"19\" r=\"2\" />\n    </svg>\n  )\n);\nForklift.displayName = \"Forklift\";\nexport const ForkliftMetadata = { \n  id: \"forklift\", \n  baseId: \"forklift\", \n  variant: \"default\", \n  name: \"Forklift\", \n  category: \"transport\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Forklift;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

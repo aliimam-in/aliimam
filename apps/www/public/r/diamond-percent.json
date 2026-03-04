@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "diamond-percent",
+  "type": "registry:ui",
+  "title": "Diamond Percent",
+  "description": "Diamond Percent icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/diamond-percent.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface DiamondPercentProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const DiamondPercent = React.forwardRef<SVGSVGElement, DiamondPercentProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M2.7 10.3a2.41 2.41 0 0 0 0 3.41l7.59 7.59a2.41 2.41 0 0 0 3.41 0l7.59-7.59a2.41 2.41 0 0 0 0-3.41L13.7 2.71a2.41 2.41 0 0 0-3.41 0Z\" />\n  <path d=\"M9.2 9.2h.01\" />\n  <path d=\"m14.5 9.5-5 5\" />\n  <path d=\"M14.7 14.8h.01\" />\n    </svg>\n  )\n);\nDiamondPercent.displayName = \"DiamondPercent\";\nexport const DiamondPercentMetadata = { \n  id: \"diamond-percent\", \n  baseId: \"diamond-percent\", \n  variant: \"default\", \n  name: \"Diamond Percent\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default DiamondPercent;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

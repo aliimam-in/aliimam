@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "shell",
+  "type": "registry:ui",
+  "title": "Shell",
+  "description": "Shell icon component",
+  "category": "animal",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/animal/shell.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ShellProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Shell = React.forwardRef<SVGSVGElement, ShellProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M14 11a2 2 0 1 1-4 0 4 4 0 0 1 8 0 6 6 0 0 1-12 0 8 8 0 0 1 16 0 10 10 0 1 1-20 0 11.93 11.93 0 0 1 2.42-7.22 2 2 0 1 1 3.16 2.44\" />\n    </svg>\n  )\n);\nShell.displayName = \"Shell\";\nexport const ShellMetadata = { \n  id: \"shell\", \n  baseId: \"shell\", \n  variant: \"default\", \n  name: \"Shell\", \n  category: \"animal\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Shell;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

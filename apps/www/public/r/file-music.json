@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "file-music",
+  "type": "registry:ui",
+  "title": "File Music",
+  "description": "File Music icon component",
+  "category": "file",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/file/file-music.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface FileMusicProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const FileMusic = React.forwardRef<SVGSVGElement, FileMusicProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M11.65 22H18a2 2 0 0 0 2-2V8a2.4 2.4 0 0 0-.706-1.706l-3.588-3.588A2.4 2.4 0 0 0 14 2H6a2 2 0 0 0-2 2v10.35\" />\n  <path d=\"M14 2v5a1 1 0 0 0 1 1h5\" />\n  <path d=\"M8 20v-7l3 1.474\" />\n  <circle cx=\"6\" cy=\"20\" r=\"2\" />\n    </svg>\n  )\n);\nFileMusic.displayName = \"FileMusic\";\nexport const FileMusicMetadata = { \n  id: \"file-music\", \n  baseId: \"file-music\", \n  variant: \"default\", \n  name: \"File Music\", \n  category: \"file\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default FileMusic;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

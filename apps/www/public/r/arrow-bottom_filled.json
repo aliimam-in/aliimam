@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "arrow-bottom_filled",
+  "type": "registry:ui",
+  "title": "Arrow Bottom",
+  "description": "Arrow Bottom icon component",
+  "category": "arrows",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/arrows/arrow-bottom_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ArrowBottomFilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ArrowBottomFilled = React.forwardRef<SVGSVGElement, ArrowBottomFilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M9.32993 6H14.6699C17.9899 6 19.3399 8.35 17.6899 11.22L16.9499 12.5C16.7699 12.81 16.4399 13 16.0799 13H7.91993C7.55993 13 7.22993 12.81 7.04993 12.5L6.30992 11.22C4.65992 8.35 6.00993 6 9.32993 6Z\" fill=\"currentColor\"/>\n<path d=\"M8.79006 14H15.2201C15.6101 14 15.8501 14.42 15.6501 14.75L15.0101 15.85C13.3601 18.72 10.6401 18.72 8.99006 15.85L8.35006 14.75C8.16006 14.42 8.40006 14 8.79006 14Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nArrowBottomFilled.displayName = \"ArrowBottomFilled\";\nexport const ArrowBottomFilledMetadata = { \n  id: \"arrow-bottom_filled\", \n  baseId: \"arrow-bottom\", \n  variant: \"filled\", \n  name: \"Arrow Bottom\", \n  category: \"arrows\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ArrowBottomFilled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

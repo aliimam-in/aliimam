@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "document-copy_rounded",
+  "type": "registry:ui",
+  "title": "Document Copy",
+  "description": "Document Copy icon component",
+  "category": "document",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/document/document-copy_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface DocumentCopyRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const DocumentCopyRounded = React.forwardRef<SVGSVGElement, DocumentCopyRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M17 13.4V16.4C17 20.4 15.4 22 11.4 22H7.6C3.6 22 2 20.4 2 16.4V12.6C2 8.6 3.6 7 7.6 7H10.6\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M17 13.4H13.8C11.4 13.4 10.6 12.6 10.6 10.2V7L17 13.4Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M11.6 2H15.6\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M7 5C7 3.34 8.34 2 10 2H12.62\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M22 8V14.19C22 15.74 20.74 17 19.19 17\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M22 8H19C16.75 8 16 7.25 16 5V2L22 8Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nDocumentCopyRounded.displayName = \"DocumentCopyRounded\";\nexport const DocumentCopyRoundedMetadata = { \n  id: \"document-copy_rounded\", \n  baseId: \"document-copy\", \n  variant: \"rounded\", \n  name: \"Document Copy\", \n  category: \"document\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default DocumentCopyRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

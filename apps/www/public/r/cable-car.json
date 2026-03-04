@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "cable-car",
+  "type": "registry:ui",
+  "title": "Cable Car",
+  "description": "Cable Car icon component",
+  "category": "transport",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/transport/cable-car.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface CableCarProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const CableCar = React.forwardRef<SVGSVGElement, CableCarProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M10 3h.01\" />\n  <path d=\"M14 2h.01\" />\n  <path d=\"m2 9 20-5\" />\n  <path d=\"M12 12V6.5\" />\n  <rect width=\"16\" height=\"10\" x=\"4\" y=\"12\" rx=\"3\" />\n  <path d=\"M9 12v5\" />\n  <path d=\"M15 12v5\" />\n  <path d=\"M4 17h16\" />\n    </svg>\n  )\n);\nCableCar.displayName = \"CableCar\";\nexport const CableCarMetadata = { \n  id: \"cable-car\", \n  baseId: \"cable-car\", \n  variant: \"default\", \n  name: \"Cable Car\", \n  category: \"transport\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default CableCar;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

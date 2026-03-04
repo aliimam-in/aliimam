@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "regex",
+  "type": "registry:ui",
+  "title": "Regex",
+  "description": "Regex icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/regex.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface RegexProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Regex = React.forwardRef<SVGSVGElement, RegexProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M17 3v10\" />\n  <path d=\"m12.67 5.5 8.66 5\" />\n  <path d=\"m12.67 10.5 8.66-5\" />\n  <path d=\"M9 17a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v2a2 2 0 0 0 2 2h2a2 2 0 0 0 2-2v-2z\" />\n    </svg>\n  )\n);\nRegex.displayName = \"Regex\";\nexport const RegexMetadata = { \n  id: \"regex\", \n  baseId: \"regex\", \n  variant: \"default\", \n  name: \"Regex\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Regex;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

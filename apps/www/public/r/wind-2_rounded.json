@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "wind-2_rounded",
+  "type": "registry:ui",
+  "title": "Wind 2",
+  "description": "Wind 2 icon component",
+  "category": "weather",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/weather/wind-2_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface Wind2RoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Wind2Rounded = React.forwardRef<SVGSVGElement, Wind2RoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M2 13.1L4.5 11.6C6.04 10.68 7.96 10.68 9.5 11.6C11.04 12.52 12.96 12.52 14.5 11.6C16.04 10.68 17.96 10.68 19.5 11.6L22 13.1\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M2 3.89999L4.5 5.39999C6.04 6.31999 7.96 6.31999 9.5 5.39999C11.04 4.47999 12.96 4.47999 14.5 5.39999C16.04 6.31999 17.96 6.31999 19.5 5.39999L22 3.89999\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M2 20.1L4.5 18.6C6.04 17.68 7.96 17.68 9.5 18.6C11.04 19.52 12.96 19.52 14.5 18.6C16.04 17.68 17.96 17.68 19.5 18.6L22 20.1\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nWind2Rounded.displayName = \"Wind2Rounded\";\nexport const Wind2RoundedMetadata = { \n  id: \"wind-2_rounded\", \n  baseId: \"wind-2\", \n  variant: \"rounded\", \n  name: \"Wind 2\", \n  category: \"weather\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Wind2Rounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

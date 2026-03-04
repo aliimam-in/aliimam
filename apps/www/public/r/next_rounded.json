@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "next_rounded",
+  "type": "registry:ui",
+  "title": "Next",
+  "description": "Next icon component",
+  "category": "multimedia",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/multimedia/next_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface NextRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const NextRounded = React.forwardRef<SVGSVGElement, NextRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M3.76001 7.21999V16.79C3.76001 18.75 5.89 19.98 7.59 19L11.74 16.61L15.89 14.21C17.59 13.23 17.59 10.78 15.89 9.79998L11.74 7.39998L7.59 5.01C5.89 4.03 3.76001 5.24999 3.76001 7.21999Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M20.24 18.18V5.82001\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nNextRounded.displayName = \"NextRounded\";\nexport const NextRoundedMetadata = { \n  id: \"next_rounded\", \n  baseId: \"next\", \n  variant: \"rounded\", \n  name: \"Next\", \n  category: \"multimedia\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default NextRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

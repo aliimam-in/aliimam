@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "export-2_filled",
+  "type": "registry:ui",
+  "title": "Export 2",
+  "description": "Export 2 icon component",
+  "category": "arrows",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/arrows/export-2_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface Export2FilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Export2Filled = React.forwardRef<SVGSVGElement, Export2FilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M21.14 9.8999H12.75V15.3799C12.75 15.7899 12.41 16.1299 12 16.1299C11.59 16.1299 11.25 15.7899 11.25 15.3799V9.8999H2.86C2.38 9.8999 2 10.2799 2 10.7599C2 16.6499 6.11 20.7599 12 20.7599C17.89 20.7599 22 16.6499 22 10.7599C22 10.2799 21.62 9.8999 21.14 9.8999Z\" fill=\"currentColor\"/>\n<path d=\"M12.7499 5.79993L14.3099 7.35993C14.5999 7.64993 15.0799 7.64993 15.3699 7.35993C15.6599 7.06993 15.6599 6.58993 15.3699 6.29993L12.5199 3.45993C12.2299 3.16993 11.7499 3.16993 11.4599 3.45993L8.6199 6.30993C8.4799 6.45993 8.3999 6.64993 8.3999 6.83993C8.3999 7.02993 8.4699 7.21993 8.6199 7.36993C8.9099 7.65993 9.3899 7.65993 9.6799 7.36993L11.2399 5.80993V9.89993H12.7399V5.79993H12.7499Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nExport2Filled.displayName = \"Export2Filled\";\nexport const Export2FilledMetadata = { \n  id: \"export-2_filled\", \n  baseId: \"export-2\", \n  variant: \"filled\", \n  name: \"Export 2\", \n  category: \"arrows\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Export2Filled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

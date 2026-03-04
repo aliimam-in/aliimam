@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "blogger_rounded",
+  "type": "registry:ui",
+  "title": "Blogger",
+  "description": "Blogger icon component",
+  "category": "brand",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/brand/blogger_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface BloggerRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const BloggerRounded = React.forwardRef<SVGSVGElement, BloggerRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M6 9V15C6 17 7 18 9 18H15C17 18 18 17 18 15V12C18 11.4 17.6 11 17 11C16.4 11 16 10.6 16 10V9C16 7 15 6 13 6H9C7 6 6 7 6 9Z\"   strokeMiterlimit=\"10\"/>\n<path d=\"M10 10H12\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M10 14H14\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M15 22H9C4 22 2 20 2 15V9C2 4 4 2 9 2H15C20 2 22 4 22 9V15C22 20 20 22 15 22Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nBloggerRounded.displayName = \"BloggerRounded\";\nexport const BloggerRoundedMetadata = { \n  id: \"blogger_rounded\", \n  baseId: \"blogger\", \n  variant: \"rounded\", \n  name: \"Blogger\", \n  category: \"brand\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default BloggerRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

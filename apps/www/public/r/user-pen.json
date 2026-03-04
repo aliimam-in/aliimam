@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "user-pen",
+  "type": "registry:ui",
+  "title": "User Pen",
+  "description": "User Pen icon component",
+  "category": "user",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/user/user-pen.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface UserPenProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const UserPen = React.forwardRef<SVGSVGElement, UserPenProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M11.5 15H7a4 4 0 0 0-4 4v2\" />\n  <path d=\"M21.378 16.626a1 1 0 0 0-3.004-3.004l-4.01 4.012a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506z\" />\n  <circle cx=\"10\" cy=\"7\" r=\"4\" />\n    </svg>\n  )\n);\nUserPen.displayName = \"UserPen\";\nexport const UserPenMetadata = { \n  id: \"user-pen\", \n  baseId: \"user-pen\", \n  variant: \"default\", \n  name: \"User Pen\", \n  category: \"user\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default UserPen;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

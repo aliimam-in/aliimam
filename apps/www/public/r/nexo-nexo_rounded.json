@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "nexo-nexo_rounded",
+  "type": "registry:ui",
+  "title": "Nexo Nexo",
+  "description": "Nexo Nexo icon component",
+  "category": "brand",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/brand/nexo-nexo_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface NexoNexoRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const NexoNexoRounded = React.forwardRef<SVGSVGElement, NexoNexoRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M12 6L17 3L22 6V18L17 21L7 15V9L17 15V9L12 6Z\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M12 6L7 3L2 6V18L7 21L11.7 17.87\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nNexoNexoRounded.displayName = \"NexoNexoRounded\";\nexport const NexoNexoRoundedMetadata = { \n  id: \"nexo-nexo_rounded\", \n  baseId: \"nexo-nexo\", \n  variant: \"rounded\", \n  name: \"Nexo Nexo\", \n  category: \"brand\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default NexoNexoRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

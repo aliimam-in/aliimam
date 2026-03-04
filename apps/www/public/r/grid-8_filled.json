@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "grid-8_filled",
+  "type": "registry:ui",
+  "title": "Grid 8",
+  "description": "Grid 8 icon component",
+  "category": "layout",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/layout/grid-8_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface Grid8FilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Grid8Filled = React.forwardRef<SVGSVGElement, Grid8FilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M22 7.81003V11.25H16.75V2.03003C20.05 2.23003 22 4.36003 22 7.81003Z\" fill=\"currentColor\"/>\n<path d=\"M22 12.75V16.19C22 19.64 20.05 21.77 16.75 21.97V12.75H22Z\" fill=\"currentColor\"/>\n<path d=\"M7.25 12.75V21.97C3.95 21.77 2 19.64 2 16.19V12.75H7.25Z\" fill=\"currentColor\"/>\n<path d=\"M7.25 2.03003V11.25H2V7.81003C2 4.36003 3.95 2.23003 7.25 2.03003Z\" fill=\"currentColor\"/>\n<path d=\"M15.25 2H8.75V11.25H15.25V2Z\" fill=\"currentColor\"/>\n<path d=\"M15.25 12.75H8.75V22H15.25V12.75Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nGrid8Filled.displayName = \"Grid8Filled\";\nexport const Grid8FilledMetadata = { \n  id: \"grid-8_filled\", \n  baseId: \"grid-8\", \n  variant: \"filled\", \n  name: \"Grid 8\", \n  category: \"layout\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Grid8Filled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

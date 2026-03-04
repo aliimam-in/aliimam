@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "line-dot-right-horizontal",
+  "type": "registry:ui",
+  "title": "Line Dot Right Horizontal",
+  "description": "Line Dot Right Horizontal icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/line-dot-right-horizontal.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface LineDotRightHorizontalProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const LineDotRightHorizontal = React.forwardRef<SVGSVGElement, LineDotRightHorizontalProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M 3 12 L 15 12\" />\n  <circle cx=\"18\" cy=\"12\" r=\"3\" />\n    </svg>\n  )\n);\nLineDotRightHorizontal.displayName = \"LineDotRightHorizontal\";\nexport const LineDotRightHorizontalMetadata = { \n  id: \"line-dot-right-horizontal\", \n  baseId: \"line-dot-right-horizontal\", \n  variant: \"default\", \n  name: \"Line Dot Right Horizontal\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default LineDotRightHorizontal;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

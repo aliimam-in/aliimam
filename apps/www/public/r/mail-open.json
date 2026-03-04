@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "mail-open",
+  "type": "registry:ui",
+  "title": "Mail Open",
+  "description": "Mail Open icon component",
+  "category": "mail",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/mail/mail-open.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface MailOpenProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const MailOpen = React.forwardRef<SVGSVGElement, MailOpenProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M21.2 8.4c.5.38.8.97.8 1.6v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V10a2 2 0 0 1 .8-1.6l8-6a2 2 0 0 1 2.4 0l8 6Z\" />\n  <path d=\"m22 10-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 10\" />\n    </svg>\n  )\n);\nMailOpen.displayName = \"MailOpen\";\nexport const MailOpenMetadata = { \n  id: \"mail-open\", \n  baseId: \"mail-open\", \n  variant: \"default\", \n  name: \"Mail Open\", \n  category: \"mail\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default MailOpen;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

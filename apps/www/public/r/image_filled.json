@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "image_filled",
+  "type": "registry:ui",
+  "title": "Image",
+  "description": "Image icon component",
+  "category": "multimedia",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/multimedia/image_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ImageFilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ImageFilled = React.forwardRef<SVGSVGElement, ImageFilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M22.0199 16.82L18.8899 9.50002C18.3199 8.16002 17.4699 7.40002 16.4999 7.35002C15.5399 7.30002 14.6099 7.97002 13.8999 9.25002L11.9999 12.66C11.5999 13.38 11.0299 13.81 10.4099 13.86C9.77989 13.92 9.14989 13.59 8.63989 12.94L8.41989 12.66C7.70989 11.77 6.82989 11.34 5.92989 11.43C5.02989 11.52 4.25989 12.14 3.74989 13.15L2.01989 16.6C1.39989 17.85 1.45989 19.3 2.18989 20.48C2.91989 21.66 4.18989 22.37 5.57989 22.37H18.3399C19.6799 22.37 20.9299 21.7 21.6699 20.58C22.4299 19.46 22.5499 18.05 22.0199 16.82Z\" fill=\"currentColor\"/>\n<path d=\"M6.97009 8.38012C8.83681 8.38012 10.3501 6.86684 10.3501 5.00012C10.3501 3.13339 8.83681 1.62012 6.97009 1.62012C5.10337 1.62012 3.59009 3.13339 3.59009 5.00012C3.59009 6.86684 5.10337 8.38012 6.97009 8.38012Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nImageFilled.displayName = \"ImageFilled\";\nexport const ImageFilledMetadata = { \n  id: \"image_filled\", \n  baseId: \"image\", \n  variant: \"filled\", \n  name: \"Image\", \n  category: \"multimedia\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ImageFilled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "cone",
+  "type": "registry:ui",
+  "title": "Cone",
+  "description": "Cone icon component",
+  "category": "shapes",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/shapes/cone.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ConeProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Cone = React.forwardRef<SVGSVGElement, ConeProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"m20.9 18.55-8-15.98a1 1 0 0 0-1.8 0l-8 15.98\" />\n  <ellipse cx=\"12\" cy=\"19\" rx=\"9\" ry=\"3\" />\n    </svg>\n  )\n);\nCone.displayName = \"Cone\";\nexport const ConeMetadata = { \n  id: \"cone\", \n  baseId: \"cone\", \n  variant: \"default\", \n  name: \"Cone\", \n  category: \"shapes\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Cone;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

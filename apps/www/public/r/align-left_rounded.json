@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "align-left_rounded",
+  "type": "registry:ui",
+  "title": "Align Left",
+  "description": "Align Left icon component",
+  "category": "layout",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/layout/align-left_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface AlignLeftRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const AlignLeftRounded = React.forwardRef<SVGSVGElement, AlignLeftRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M5.09998 19.25H16.9C18.4 19.25 19 18.61 19 17.02V15.98C19 14.39 18.4 13.75 16.9 13.75H5.09998\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M5.09998 5.25H11.9C13.4 5.25 14 5.89 14 7.48V8.52C14 10.11 13.4 10.75 11.9 10.75H5.09998\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M5 1.98999V21.99\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nAlignLeftRounded.displayName = \"AlignLeftRounded\";\nexport const AlignLeftRoundedMetadata = { \n  id: \"align-left_rounded\", \n  baseId: \"align-left\", \n  variant: \"rounded\", \n  name: \"Align Left\", \n  category: \"layout\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default AlignLeftRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

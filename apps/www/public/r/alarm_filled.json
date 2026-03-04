@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "alarm_filled",
+  "type": "registry:ui",
+  "title": "Alarm",
+  "description": "Alarm icon component",
+  "category": "security",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/security/alarm_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface AlarmFilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const AlarmFilled = React.forwardRef<SVGSVGElement, AlarmFilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M22 21.25H21V15C21 10.03 16.97 6 12 6C7.03 6 3 10.03 3 15V21.25H2C1.59 21.25 1.25 21.59 1.25 22C1.25 22.41 1.59 22.75 2 22.75H22C22.41 22.75 22.75 22.41 22.75 22C22.75 21.59 22.41 21.25 22 21.25Z\" fill=\"currentColor\"/>\n<path d=\"M12 3.75C11.59 3.75 11.25 3.41 11.25 3V2C11.25 1.59 11.59 1.25 12 1.25C12.41 1.25 12.75 1.59 12.75 2V3C12.75 3.41 12.41 3.75 12 3.75Z\" fill=\"currentColor\"/>\n<path d=\"M4.99994 5.74994C4.80994 5.74994 4.61994 5.67994 4.46994 5.52994L3.46994 4.52994C3.17994 4.23994 3.17994 3.75994 3.46994 3.46994C3.75994 3.17994 4.23994 3.17994 4.52994 3.46994L5.52994 4.46994C5.81994 4.75994 5.81994 5.23994 5.52994 5.52994C5.37994 5.67994 5.18994 5.74994 4.99994 5.74994Z\" fill=\"currentColor\"/>\n<path d=\"M18.9999 5.74994C18.8099 5.74994 18.6199 5.67994 18.4699 5.52994C18.1799 5.23994 18.1799 4.75994 18.4699 4.46994L19.4699 3.46994C19.7599 3.17994 20.2399 3.17994 20.5299 3.46994C20.8199 3.75994 20.8199 4.23994 20.5299 4.52994L19.5299 5.52994C19.3799 5.67994 19.1899 5.74994 18.9999 5.74994Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nAlarmFilled.displayName = \"AlarmFilled\";\nexport const AlarmFilledMetadata = { \n  id: \"alarm_filled\", \n  baseId: \"alarm\", \n  variant: \"filled\", \n  name: \"Alarm\", \n  category: \"security\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default AlarmFilled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

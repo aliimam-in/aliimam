@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "smartphone-nfc",
+  "type": "registry:ui",
+  "title": "Smartphone Nfc",
+  "description": "Smartphone Nfc icon component",
+  "category": "network",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/network/smartphone-nfc.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface SmartphoneNfcProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const SmartphoneNfc = React.forwardRef<SVGSVGElement, SmartphoneNfcProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <rect width=\"7\" height=\"12\" x=\"2\" y=\"6\" rx=\"1\" />\n  <path d=\"M13 8.32a7.43 7.43 0 0 1 0 7.36\" />\n  <path d=\"M16.46 6.21a11.76 11.76 0 0 1 0 11.58\" />\n  <path d=\"M19.91 4.1a15.91 15.91 0 0 1 .01 15.8\" />\n    </svg>\n  )\n);\nSmartphoneNfc.displayName = \"SmartphoneNfc\";\nexport const SmartphoneNfcMetadata = { \n  id: \"smartphone-nfc\", \n  baseId: \"smartphone-nfc\", \n  variant: \"default\", \n  name: \"Smartphone Nfc\", \n  category: \"network\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default SmartphoneNfc;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

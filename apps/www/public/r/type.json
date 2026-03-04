@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "type",
+  "type": "registry:ui",
+  "title": "Type",
+  "description": "Type icon component",
+  "category": "text",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/text/type.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface TypeProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Type = React.forwardRef<SVGSVGElement, TypeProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M12 4v16\" />\n  <path d=\"M4 7V5a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v2\" />\n  <path d=\"M9 20h6\" />\n    </svg>\n  )\n);\nType.displayName = \"Type\";\nexport const TypeMetadata = { \n  id: \"type\", \n  baseId: \"type\", \n  variant: \"default\", \n  name: \"Type\", \n  category: \"text\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Type;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

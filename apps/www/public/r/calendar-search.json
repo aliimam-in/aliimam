@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "calendar-search",
+  "type": "registry:ui",
+  "title": "Calendar Search",
+  "description": "Calendar Search icon component",
+  "category": "calendar",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/calendar/calendar-search.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface CalendarSearchProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const CalendarSearch = React.forwardRef<SVGSVGElement, CalendarSearchProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M16 2v4\" />\n  <path d=\"M21 11.75V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h7.25\" />\n  <path d=\"m22 22-1.875-1.875\" />\n  <path d=\"M3 10h18\" />\n  <path d=\"M8 2v4\" />\n  <circle cx=\"18\" cy=\"18\" r=\"3\" />\n    </svg>\n  )\n);\nCalendarSearch.displayName = \"CalendarSearch\";\nexport const CalendarSearchMetadata = { \n  id: \"calendar-search\", \n  baseId: \"calendar-search\", \n  variant: \"default\", \n  name: \"Calendar Search\", \n  category: \"calendar\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default CalendarSearch;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

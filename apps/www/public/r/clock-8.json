@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "clock-8",
+  "type": "registry:ui",
+  "title": "Clock 8",
+  "description": "Clock 8 icon component",
+  "category": "clock",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/clock/clock-8.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface Clock8Props extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Clock8 = React.forwardRef<SVGSVGElement, Clock8Props>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"M12 6v6l-4 2\" />\n    </svg>\n  )\n);\nClock8.displayName = \"Clock8\";\nexport const Clock8Metadata = { \n  id: \"clock-8\", \n  baseId: \"clock-8\", \n  variant: \"default\", \n  name: \"Clock 8\", \n  category: \"clock\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Clock8;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

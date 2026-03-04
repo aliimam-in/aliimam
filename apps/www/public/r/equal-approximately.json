@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "equal-approximately",
+  "type": "registry:ui",
+  "title": "Equal Approximately",
+  "description": "Equal Approximately icon component",
+  "category": "math",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/math/equal-approximately.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface EqualApproximatelyProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const EqualApproximately = React.forwardRef<SVGSVGElement, EqualApproximatelyProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M5 15a6.5 6.5 0 0 1 7 0 6.5 6.5 0 0 0 7 0\" />\n  <path d=\"M5 9a6.5 6.5 0 0 1 7 0 6.5 6.5 0 0 0 7 0\" />\n    </svg>\n  )\n);\nEqualApproximately.displayName = \"EqualApproximately\";\nexport const EqualApproximatelyMetadata = { \n  id: \"equal-approximately\", \n  baseId: \"equal-approximately\", \n  variant: \"default\", \n  name: \"Equal Approximately\", \n  category: \"math\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default EqualApproximately;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

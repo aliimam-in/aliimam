@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "receipt-square_rounded",
+  "type": "registry:ui",
+  "title": "Receipt Square",
+  "description": "Receipt Square icon component",
+  "category": "app",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/app/receipt-square_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ReceiptSquareRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ReceiptSquareRounded = React.forwardRef<SVGSVGElement, ReceiptSquareRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M8.89999 16.53C9.37999 16.01 10.12 16.05 10.54 16.62L11.14 17.42C11.61 18.05 12.39 18.05 12.86 17.42L13.45 16.63C13.87 16.07 14.61 16.03 15.09 16.54C16.14 17.66 16.99 17.29 16.99 15.72V9.09C16.99 6.72 16.43 6.13 14.21 6.13H9.76999C7.54999 6.13 6.98999 6.72 6.98999 9.09V15.72C6.99999 17.27 7.85999 17.64 8.89999 16.53Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nReceiptSquareRounded.displayName = \"ReceiptSquareRounded\";\nexport const ReceiptSquareRoundedMetadata = { \n  id: \"receipt-square_rounded\", \n  baseId: \"receipt-square\", \n  variant: \"rounded\", \n  name: \"Receipt Square\", \n  category: \"app\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ReceiptSquareRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "circle-gauge",
+  "type": "registry:ui",
+  "title": "Circle Gauge",
+  "description": "Circle Gauge icon component",
+  "category": "circle",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/circle/circle-gauge.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface CircleGaugeProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const CircleGauge = React.forwardRef<SVGSVGElement, CircleGaugeProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M15.6 2.7a10 10 0 1 0 5.7 5.7\" />\n  <circle cx=\"12\" cy=\"12\" r=\"2\" />\n  <path d=\"M13.4 10.6 19 5\" />\n    </svg>\n  )\n);\nCircleGauge.displayName = \"CircleGauge\";\nexport const CircleGaugeMetadata = { \n  id: \"circle-gauge\", \n  baseId: \"circle-gauge\", \n  variant: \"default\", \n  name: \"Circle Gauge\", \n  category: \"circle\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default CircleGauge;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

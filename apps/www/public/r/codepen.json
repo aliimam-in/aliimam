@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "codepen",
+  "type": "registry:ui",
+  "title": "Codepen",
+  "description": "Codepen icon component",
+  "category": "code",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/code/codepen.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface CodepenProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Codepen = React.forwardRef<SVGSVGElement, CodepenProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <polygon points=\"12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5 12 2\" />\n  <line x1=\"12\" x2=\"12\" y1=\"22\" y2=\"15.5\" />\n  <polyline points=\"22 8.5 12 15.5 2 8.5\" />\n  <polyline points=\"2 15.5 12 8.5 22 15.5\" />\n  <line x1=\"12\" x2=\"12\" y1=\"2\" y2=\"8.5\" />\n    </svg>\n  )\n);\nCodepen.displayName = \"Codepen\";\nexport const CodepenMetadata = { \n  id: \"codepen\", \n  baseId: \"codepen\", \n  variant: \"default\", \n  name: \"Codepen\", \n  category: \"code\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Codepen;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

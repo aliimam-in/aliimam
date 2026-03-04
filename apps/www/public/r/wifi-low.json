@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "wifi-low",
+  "type": "registry:ui",
+  "title": "Wifi Low",
+  "description": "Wifi Low icon component",
+  "category": "network",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/network/wifi-low.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface WifiLowProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const WifiLow = React.forwardRef<SVGSVGElement, WifiLowProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M12 20h.01\" />\n  <path d=\"M8.5 16.429a5 5 0 0 1 7 0\" />\n    </svg>\n  )\n);\nWifiLow.displayName = \"WifiLow\";\nexport const WifiLowMetadata = { \n  id: \"wifi-low\", \n  baseId: \"wifi-low\", \n  variant: \"default\", \n  name: \"Wifi Low\", \n  category: \"network\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default WifiLow;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

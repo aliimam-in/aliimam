@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "tenx-pay_rounded",
+  "type": "registry:ui",
+  "title": "Tenx Pay",
+  "description": "Tenx Pay icon component",
+  "category": "brand",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/brand/tenx-pay_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface TenxPayRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const TenxPayRounded = React.forwardRef<SVGSVGElement, TenxPayRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M12 12L8.8 8.79999L5.5 12L8.8 15.2L15.2 8.79999L18.5 12L15.2 15.2L12 12Z\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z\"   strokeMiterlimit=\"10\"/>\n    </svg>\n  )\n);\nTenxPayRounded.displayName = \"TenxPayRounded\";\nexport const TenxPayRoundedMetadata = { \n  id: \"tenx-pay_rounded\", \n  baseId: \"tenx-pay\", \n  variant: \"rounded\", \n  name: \"Tenx Pay\", \n  category: \"brand\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default TenxPayRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

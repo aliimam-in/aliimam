@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "note-remove_rounded",
+  "type": "registry:ui",
+  "title": "Note Remove",
+  "description": "Note Remove icon component",
+  "category": "document",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/document/note-remove_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface NoteRemoveRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const NoteRemoveRounded = React.forwardRef<SVGSVGElement, NoteRemoveRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M7 14H12\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M7 5.96002L3.25 2.21002\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M6.96001 2.25L3.21001 6\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M7 10H15\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M10 2H16C19.33 2.18 21 3.41 21 7.99V16\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M3 9.01001V15.98C3 19.99 4 22 9 22H12C12.17 22 14.84 22 15 22\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M21 16L15 22V19C15 17 16 16 18 16H21Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nNoteRemoveRounded.displayName = \"NoteRemoveRounded\";\nexport const NoteRemoveRoundedMetadata = { \n  id: \"note-remove_rounded\", \n  baseId: \"note-remove\", \n  variant: \"rounded\", \n  name: \"Note Remove\", \n  category: \"document\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default NoteRemoveRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

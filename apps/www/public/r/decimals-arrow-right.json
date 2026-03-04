@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "decimals-arrow-right",
+  "type": "registry:ui",
+  "title": "Decimals Arrow Right",
+  "description": "Decimals Arrow Right icon component",
+  "category": "arrows",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/arrows/decimals-arrow-right.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface DecimalsArrowRightProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const DecimalsArrowRight = React.forwardRef<SVGSVGElement, DecimalsArrowRightProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M10 18h10\" />\n  <path d=\"m17 21 3-3-3-3\" />\n  <path d=\"M3 11h.01\" />\n  <rect x=\"15\" y=\"3\" width=\"5\" height=\"8\" rx=\"2.5\" />\n  <rect x=\"6\" y=\"3\" width=\"5\" height=\"8\" rx=\"2.5\" />\n    </svg>\n  )\n);\nDecimalsArrowRight.displayName = \"DecimalsArrowRight\";\nexport const DecimalsArrowRightMetadata = { \n  id: \"decimals-arrow-right\", \n  baseId: \"decimals-arrow-right\", \n  variant: \"default\", \n  name: \"Decimals Arrow Right\", \n  category: \"arrows\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default DecimalsArrowRight;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

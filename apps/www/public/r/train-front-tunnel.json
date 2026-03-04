@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "train-front-tunnel",
+  "type": "registry:ui",
+  "title": "Train Front Tunnel",
+  "description": "Train Front Tunnel icon component",
+  "category": "transport",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/transport/train-front-tunnel.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface TrainFrontTunnelProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const TrainFrontTunnel = React.forwardRef<SVGSVGElement, TrainFrontTunnelProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M2 22V12a10 10 0 1 1 20 0v10\" />\n  <path d=\"M15 6.8v1.4a3 2.8 0 1 1-6 0V6.8\" />\n  <path d=\"M10 15h.01\" />\n  <path d=\"M14 15h.01\" />\n  <path d=\"M10 19a4 4 0 0 1-4-4v-3a6 6 0 1 1 12 0v3a4 4 0 0 1-4 4Z\" />\n  <path d=\"m9 19-2 3\" />\n  <path d=\"m15 19 2 3\" />\n    </svg>\n  )\n);\nTrainFrontTunnel.displayName = \"TrainFrontTunnel\";\nexport const TrainFrontTunnelMetadata = { \n  id: \"train-front-tunnel\", \n  baseId: \"train-front-tunnel\", \n  variant: \"default\", \n  name: \"Train Front Tunnel\", \n  category: \"transport\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default TrainFrontTunnel;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "move-diagonal",
+  "type": "registry:ui",
+  "title": "Move Diagonal",
+  "description": "Move Diagonal icon component",
+  "category": "arrows",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/arrows/move-diagonal.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface MoveDiagonalProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const MoveDiagonal = React.forwardRef<SVGSVGElement, MoveDiagonalProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M11 19H5v-6\" />\n  <path d=\"M13 5h6v6\" />\n  <path d=\"M19 5 5 19\" />\n    </svg>\n  )\n);\nMoveDiagonal.displayName = \"MoveDiagonal\";\nexport const MoveDiagonalMetadata = { \n  id: \"move-diagonal\", \n  baseId: \"move-diagonal\", \n  variant: \"default\", \n  name: \"Move Diagonal\", \n  category: \"arrows\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default MoveDiagonal;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

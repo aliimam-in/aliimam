@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "calendar-circle_rounded",
+  "type": "registry:ui",
+  "title": "Calendar Circle",
+  "description": "Calendar Circle icon component",
+  "category": "calendar",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/calendar/calendar-circle_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface CalendarCircleRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const CalendarCircleRounded = React.forwardRef<SVGSVGElement, CalendarCircleRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M9.89001 5.82999V7.82999\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M14.11 5.82999V7.82999\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M7.53003 10.14H16.47\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M13.5 17.67H10.5C8 17.67 6.5 15.87 6.5 13.67V10.67C6.5 8.47001 8 6.67001 10.5 6.67001H13.5C16 6.67001 17.5 8.47001 17.5 10.67V13.67C17.5 15.87 16 17.67 13.5 17.67Z\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nCalendarCircleRounded.displayName = \"CalendarCircleRounded\";\nexport const CalendarCircleRoundedMetadata = { \n  id: \"calendar-circle_rounded\", \n  baseId: \"calendar-circle\", \n  variant: \"rounded\", \n  name: \"Calendar Circle\", \n  category: \"calendar\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default CalendarCircleRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

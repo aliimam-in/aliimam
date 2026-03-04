@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "chart-area",
+  "type": "registry:ui",
+  "title": "Chart Area",
+  "description": "Chart Area icon component",
+  "category": "chart",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/chart/chart-area.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ChartAreaProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ChartArea = React.forwardRef<SVGSVGElement, ChartAreaProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M3 3v16a2 2 0 0 0 2 2h16\" />\n  <path d=\"M7 11.207a.5.5 0 0 1 .146-.353l2-2a.5.5 0 0 1 .708 0l3.292 3.292a.5.5 0 0 0 .708 0l4.292-4.292a.5.5 0 0 1 .854.353V16a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1z\" />\n    </svg>\n  )\n);\nChartArea.displayName = \"ChartArea\";\nexport const ChartAreaMetadata = { \n  id: \"chart-area\", \n  baseId: \"chart-area\", \n  variant: \"default\", \n  name: \"Chart Area\", \n  category: \"chart\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ChartArea;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "timer-off",
+  "type": "registry:ui",
+  "title": "Timer Off",
+  "description": "Timer Off icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/timer-off.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface TimerOffProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const TimerOff = React.forwardRef<SVGSVGElement, TimerOffProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M10 2h4\" />\n  <path d=\"M4.6 11a8 8 0 0 0 1.7 8.7 8 8 0 0 0 8.7 1.7\" />\n  <path d=\"M7.4 7.4a8 8 0 0 1 10.3 1 8 8 0 0 1 .9 10.2\" />\n  <path d=\"m2 2 20 20\" />\n  <path d=\"M12 12v-2\" />\n    </svg>\n  )\n);\nTimerOff.displayName = \"TimerOff\";\nexport const TimerOffMetadata = { \n  id: \"timer-off\", \n  baseId: \"timer-off\", \n  variant: \"default\", \n  name: \"Timer Off\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default TimerOff;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

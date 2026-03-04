@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "move-left",
+  "type": "registry:ui",
+  "title": "Move Left",
+  "description": "Move Left icon component",
+  "category": "arrows",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/arrows/move-left.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface MoveLeftProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const MoveLeft = React.forwardRef<SVGSVGElement, MoveLeftProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M6 8L2 12L6 16\" />\n  <path d=\"M2 12H22\" />\n    </svg>\n  )\n);\nMoveLeft.displayName = \"MoveLeft\";\nexport const MoveLeftMetadata = { \n  id: \"move-left\", \n  baseId: \"move-left\", \n  variant: \"default\", \n  name: \"Move Left\", \n  category: \"arrows\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default MoveLeft;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

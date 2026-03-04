@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "convertshape_rounded",
+  "type": "registry:ui",
+  "title": "Convertshape",
+  "description": "Convertshape icon component",
+  "category": "layout",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/layout/convertshape_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ConvertshapeRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ConvertshapeRounded = React.forwardRef<SVGSVGElement, ConvertshapeRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M22 5.15V8.85C22 11.1 21.1 12 18.85 12H16.15C13.9 12 13 11.1 13 8.85V5.15C13 2.9 13.9 2 16.15 2H18.85C21.1 2 22 2.9 22 5.15Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M11 15.15V18.85C11 21.1 10.1 22 7.85 22H5.15C2.9 22 2 21.1 2 18.85V15.15C2 12.9 2.9 12 5.15 12H7.85C10.1 12 11 12.9 11 15.15Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M22 15C22 18.87 18.87 22 15 22L16.05 20.25\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M2 9C2 5.13 5.13 2 9 2L7.95 3.75\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nConvertshapeRounded.displayName = \"ConvertshapeRounded\";\nexport const ConvertshapeRoundedMetadata = { \n  id: \"convertshape_rounded\", \n  baseId: \"convertshape\", \n  variant: \"rounded\", \n  name: \"Convertshape\", \n  category: \"layout\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ConvertshapeRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

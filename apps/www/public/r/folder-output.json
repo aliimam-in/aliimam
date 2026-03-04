@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "folder-output",
+  "type": "registry:ui",
+  "title": "Folder Output",
+  "description": "Folder Output icon component",
+  "category": "folder",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/folder/folder-output.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface FolderOutputProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const FolderOutput = React.forwardRef<SVGSVGElement, FolderOutputProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M2 7.5V5a2 2 0 0 1 2-2h3.9a2 2 0 0 1 1.69.9l.81 1.2a2 2 0 0 0 1.67.9H20a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-1.5\" />\n  <path d=\"M2 13h10\" />\n  <path d=\"m5 10-3 3 3 3\" />\n    </svg>\n  )\n);\nFolderOutput.displayName = \"FolderOutput\";\nexport const FolderOutputMetadata = { \n  id: \"folder-output\", \n  baseId: \"folder-output\", \n  variant: \"default\", \n  name: \"Folder Output\", \n  category: \"folder\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default FolderOutput;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "text-italic_rounded",
+  "type": "registry:ui",
+  "title": "Text Italic",
+  "description": "Text Italic icon component",
+  "category": "text",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/text/text-italic_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface TextItalicRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const TextItalicRounded = React.forwardRef<SVGSVGElement, TextItalicRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M9.62012 3H18.8701\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M5.12012 21H14.3701\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M14.25 3L9.75 21\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nTextItalicRounded.displayName = \"TextItalicRounded\";\nexport const TextItalicRoundedMetadata = { \n  id: \"text-italic_rounded\", \n  baseId: \"text-italic\", \n  variant: \"rounded\", \n  name: \"Text Italic\", \n  category: \"text\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default TextItalicRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "mask-3_rounded",
+  "type": "registry:ui",
+  "title": "Mask 3",
+  "description": "Mask 3 icon component",
+  "category": "design",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/design/mask-3_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface Mask3RoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Mask3Rounded = React.forwardRef<SVGSVGElement, Mask3RoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M21.97 12C21.97 14.94 20.69 17.6 18.65 19.41C16.89 21.01 14.56 21.97 12 21.97C6.50003 21.97 2.03003 17.5 2.03003 12C2.03003 6.50003 6.50003 2.03003 12 2.03003C14.56 2.03003 16.89 2.99003 18.65 4.59003C20.69 6.40003 21.97 9.06003 21.97 12Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M11.97 16.39C11.95 18.04 10.72 18.44 9.57003 17.98C7.20003 17.03 5.53003 14.71 5.53003 12C5.53003 9.28999 7.20003 6.97 9.57003 6.01C10.72 5.55 11.95 5.95999 11.97 7.59999V16.39Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nMask3Rounded.displayName = \"Mask3Rounded\";\nexport const Mask3RoundedMetadata = { \n  id: \"mask-3_rounded\", \n  baseId: \"mask-3\", \n  variant: \"rounded\", \n  name: \"Mask 3\", \n  category: \"design\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Mask3Rounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

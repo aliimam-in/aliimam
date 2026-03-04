@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "between-horizontal-start",
+  "type": "registry:ui",
+  "title": "Between Horizontal Start",
+  "description": "Between Horizontal Start icon component",
+  "category": "layout",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/layout/between-horizontal-start.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface BetweenHorizontalStartProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const BetweenHorizontalStart = React.forwardRef<SVGSVGElement, BetweenHorizontalStartProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <rect width=\"13\" height=\"7\" x=\"8\" y=\"3\" rx=\"1\" />\n  <path d=\"m2 9 3 3-3 3\" />\n  <rect width=\"13\" height=\"7\" x=\"8\" y=\"14\" rx=\"1\" />\n    </svg>\n  )\n);\nBetweenHorizontalStart.displayName = \"BetweenHorizontalStart\";\nexport const BetweenHorizontalStartMetadata = { \n  id: \"between-horizontal-start\", \n  baseId: \"between-horizontal-start\", \n  variant: \"default\", \n  name: \"Between Horizontal Start\", \n  category: \"layout\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default BetweenHorizontalStart;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

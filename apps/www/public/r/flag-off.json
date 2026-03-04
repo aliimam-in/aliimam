@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "flag-off",
+  "type": "registry:ui",
+  "title": "Flag Off",
+  "description": "Flag Off icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/flag-off.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface FlagOffProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const FlagOff = React.forwardRef<SVGSVGElement, FlagOffProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M16 16c-3 0-5-2-8-2a6 6 0 0 0-4 1.528\" />\n  <path d=\"m2 2 20 20\" />\n  <path d=\"M4 22V4\" />\n  <path d=\"M7.656 2H8c3 0 5 2 7.333 2q2 0 3.067-.8A1 1 0 0 1 20 4v10.347\" />\n    </svg>\n  )\n);\nFlagOff.displayName = \"FlagOff\";\nexport const FlagOffMetadata = { \n  id: \"flag-off\", \n  baseId: \"flag-off\", \n  variant: \"default\", \n  name: \"Flag Off\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default FlagOff;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

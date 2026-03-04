@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "house-wifi",
+  "type": "registry:ui",
+  "title": "House Wifi",
+  "description": "House Wifi icon component",
+  "category": "building",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/building/house-wifi.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface HouseWifiProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const HouseWifi = React.forwardRef<SVGSVGElement, HouseWifiProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M9.5 13.866a4 4 0 0 1 5 .01\" />\n  <path d=\"M12 17h.01\" />\n  <path d=\"M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z\" />\n  <path d=\"M7 10.754a8 8 0 0 1 10 0\" />\n    </svg>\n  )\n);\nHouseWifi.displayName = \"HouseWifi\";\nexport const HouseWifiMetadata = { \n  id: \"house-wifi\", \n  baseId: \"house-wifi\", \n  variant: \"default\", \n  name: \"House Wifi\", \n  category: \"building\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default HouseWifi;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

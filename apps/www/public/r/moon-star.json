@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "moon-star",
+  "type": "registry:ui",
+  "title": "Moon Star",
+  "description": "Moon Star icon component",
+  "category": "weather",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/weather/moon-star.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface MoonStarProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const MoonStar = React.forwardRef<SVGSVGElement, MoonStarProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M18 5h4\" />\n  <path d=\"M20 3v4\" />\n  <path d=\"M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401\" />\n    </svg>\n  )\n);\nMoonStar.displayName = \"MoonStar\";\nexport const MoonStarMetadata = { \n  id: \"moon-star\", \n  baseId: \"moon-star\", \n  variant: \"default\", \n  name: \"Moon Star\", \n  category: \"weather\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default MoonStar;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

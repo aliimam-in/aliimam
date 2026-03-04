@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "velas-vlx_rounded",
+  "type": "registry:ui",
+  "title": "Velas Vlx",
+  "description": "Velas Vlx icon component",
+  "category": "brand",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/brand/velas-vlx_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface VelasVlxRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const VelasVlxRounded = React.forwardRef<SVGSVGElement, VelasVlxRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M2 3H22\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M3.99988 6.40002H19.9999C20.8999 6.40002 21.3999 7.40002 20.8999 8.10002L12.8999 20.5C12.4999 21.2 11.4999 21.2 10.9999 20.5L2.99988 8.10002C2.59988 7.30002 3.19988 6.40002 3.99988 6.40002Z\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nVelasVlxRounded.displayName = \"VelasVlxRounded\";\nexport const VelasVlxRoundedMetadata = { \n  id: \"velas-vlx_rounded\", \n  baseId: \"velas-vlx\", \n  variant: \"rounded\", \n  name: \"Velas Vlx\", \n  category: \"brand\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default VelasVlxRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

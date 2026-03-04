@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "rail-symbol",
+  "type": "registry:ui",
+  "title": "Rail Symbol",
+  "description": "Rail Symbol icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/rail-symbol.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface RailSymbolProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const RailSymbol = React.forwardRef<SVGSVGElement, RailSymbolProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M5 15h14\" />\n  <path d=\"M5 9h14\" />\n  <path d=\"m14 20-5-5 6-6-5-5\" />\n    </svg>\n  )\n);\nRailSymbol.displayName = \"RailSymbol\";\nexport const RailSymbolMetadata = { \n  id: \"rail-symbol\", \n  baseId: \"rail-symbol\", \n  variant: \"default\", \n  name: \"Rail Symbol\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default RailSymbol;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

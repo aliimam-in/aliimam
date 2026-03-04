@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "hdmi-port",
+  "type": "registry:ui",
+  "title": "Hdmi Port",
+  "description": "Hdmi Port icon component",
+  "category": "device",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/device/hdmi-port.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface HdmiPortProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const HdmiPort = React.forwardRef<SVGSVGElement, HdmiPortProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M22 9a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h1l2 2h12l2-2h1a1 1 0 0 0 1-1Z\" />\n  <path d=\"M7.5 12h9\" />\n    </svg>\n  )\n);\nHdmiPort.displayName = \"HdmiPort\";\nexport const HdmiPortMetadata = { \n  id: \"hdmi-port\", \n  baseId: \"hdmi-port\", \n  variant: \"default\", \n  name: \"Hdmi Port\", \n  category: \"device\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default HdmiPort;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

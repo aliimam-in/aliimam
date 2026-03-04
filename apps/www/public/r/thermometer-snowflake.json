@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "thermometer-snowflake",
+  "type": "registry:ui",
+  "title": "Thermometer Snowflake",
+  "description": "Thermometer Snowflake icon component",
+  "category": "health",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/health/thermometer-snowflake.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ThermometerSnowflakeProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ThermometerSnowflake = React.forwardRef<SVGSVGElement, ThermometerSnowflakeProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"m10 20-1.25-2.5L6 18\" />\n  <path d=\"M10 4 8.75 6.5 6 6\" />\n  <path d=\"M10.585 15H10\" />\n  <path d=\"M2 12h6.5L10 9\" />\n  <path d=\"M20 14.54a4 4 0 1 1-4 0V4a2 2 0 0 1 4 0z\" />\n  <path d=\"m4 10 1.5 2L4 14\" />\n  <path d=\"m7 21 3-6-1.5-3\" />\n  <path d=\"m7 3 3 6h2\" />\n    </svg>\n  )\n);\nThermometerSnowflake.displayName = \"ThermometerSnowflake\";\nexport const ThermometerSnowflakeMetadata = { \n  id: \"thermometer-snowflake\", \n  baseId: \"thermometer-snowflake\", \n  variant: \"default\", \n  name: \"Thermometer Snowflake\", \n  category: \"health\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ThermometerSnowflake;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

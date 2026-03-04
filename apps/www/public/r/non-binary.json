@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "non-binary",
+  "type": "registry:ui",
+  "title": "Non Binary",
+  "description": "Non Binary icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/non-binary.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface NonBinaryProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const NonBinary = React.forwardRef<SVGSVGElement, NonBinaryProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M12 2v10\" />\n  <path d=\"m8.5 4 7 4\" />\n  <path d=\"m8.5 8 7-4\" />\n  <circle cx=\"12\" cy=\"17\" r=\"5\" />\n    </svg>\n  )\n);\nNonBinary.displayName = \"NonBinary\";\nexport const NonBinaryMetadata = { \n  id: \"non-binary\", \n  baseId: \"non-binary\", \n  variant: \"default\", \n  name: \"Non Binary\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default NonBinary;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

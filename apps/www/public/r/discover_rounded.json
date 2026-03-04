@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "discover_rounded",
+  "type": "registry:ui",
+  "title": "Discover",
+  "description": "Discover icon component",
+  "category": "home",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/home/discover_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface DiscoverRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const DiscoverRounded = React.forwardRef<SVGSVGElement, DiscoverRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M17.8 2.1L7.87 4.59C6.42 4.95 4.95 6.42 4.59 7.87L2.1 17.8C1.35 20.8 3.19 22.65 6.2 21.9L16.13 19.42C17.57 19.06 19.05 17.58 19.41 16.14L21.9 6.2C22.65 3.2 20.8 1.35 17.8 2.1Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M12 15.5C13.933 15.5 15.5 13.933 15.5 12C15.5 10.067 13.933 8.5 12 8.5C10.067 8.5 8.5 10.067 8.5 12C8.5 13.933 10.067 15.5 12 15.5Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nDiscoverRounded.displayName = \"DiscoverRounded\";\nexport const DiscoverRoundedMetadata = { \n  id: \"discover_rounded\", \n  baseId: \"discover\", \n  variant: \"rounded\", \n  name: \"Discover\", \n  category: \"home\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default DiscoverRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

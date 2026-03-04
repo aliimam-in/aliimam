@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "phone-outgoing",
+  "type": "registry:ui",
+  "title": "Phone Outgoing",
+  "description": "Phone Outgoing icon component",
+  "category": "communiccation",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/communiccation/phone-outgoing.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface PhoneOutgoingProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const PhoneOutgoing = React.forwardRef<SVGSVGElement, PhoneOutgoingProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"m16 8 6-6\" />\n  <path d=\"M22 8V2h-6\" />\n  <path d=\"M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384\" />\n    </svg>\n  )\n);\nPhoneOutgoing.displayName = \"PhoneOutgoing\";\nexport const PhoneOutgoingMetadata = { \n  id: \"phone-outgoing\", \n  baseId: \"phone-outgoing\", \n  variant: \"default\", \n  name: \"Phone Outgoing\", \n  category: \"communiccation\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default PhoneOutgoing;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

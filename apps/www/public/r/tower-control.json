@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "tower-control",
+  "type": "registry:ui",
+  "title": "Tower Control",
+  "description": "Tower Control icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/tower-control.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface TowerControlProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const TowerControl = React.forwardRef<SVGSVGElement, TowerControlProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M18.2 12.27 20 6H4l1.8 6.27a1 1 0 0 0 .95.73h10.5a1 1 0 0 0 .96-.73Z\" />\n  <path d=\"M8 13v9\" />\n  <path d=\"M16 22v-9\" />\n  <path d=\"m9 6 1 7\" />\n  <path d=\"m15 6-1 7\" />\n  <path d=\"M12 6V2\" />\n  <path d=\"M13 2h-2\" />\n    </svg>\n  )\n);\nTowerControl.displayName = \"TowerControl\";\nexport const TowerControlMetadata = { \n  id: \"tower-control\", \n  baseId: \"tower-control\", \n  variant: \"default\", \n  name: \"Tower Control\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default TowerControl;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

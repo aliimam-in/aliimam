@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "shopping-bag_rounded",
+  "type": "registry:ui",
+  "title": "Shopping Bag",
+  "description": "Shopping Bag icon component",
+  "category": "commerce",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/commerce/shopping-bag_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ShoppingBagRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ShoppingBagRounded = React.forwardRef<SVGSVGElement, ShoppingBagRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M8.39999 6.5H15.6C19 6.5 19.34 8.09 19.57 10.03L20.47 17.53C20.76 19.99 20 22 16.5 22H7.50999C3.99999 22 3.23999 19.99 3.53999 17.53L4.44 10.03C4.66 8.09 4.99999 6.5 8.39999 6.5Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M8 8V4.5C8 3 9 2 10.5 2H13.5C15 2 16 3 16 4.5V8\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M20.41 17.03H8\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nShoppingBagRounded.displayName = \"ShoppingBagRounded\";\nexport const ShoppingBagRoundedMetadata = { \n  id: \"shopping-bag_rounded\", \n  baseId: \"shopping-bag\", \n  variant: \"rounded\", \n  name: \"Shopping Bag\", \n  category: \"commerce\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ShoppingBagRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

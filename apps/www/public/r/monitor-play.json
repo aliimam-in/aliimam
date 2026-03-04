@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "monitor-play",
+  "type": "registry:ui",
+  "title": "Monitor Play",
+  "description": "Monitor Play icon component",
+  "category": "monitor",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/monitor/monitor-play.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface MonitorPlayProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const MonitorPlay = React.forwardRef<SVGSVGElement, MonitorPlayProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M15.033 9.44a.647.647 0 0 1 0 1.12l-4.065 2.352a.645.645 0 0 1-.968-.56V7.648a.645.645 0 0 1 .967-.56z\" />\n  <path d=\"M12 17v4\" />\n  <path d=\"M8 21h8\" />\n  <rect x=\"2\" y=\"3\" width=\"20\" height=\"14\" rx=\"2\" />\n    </svg>\n  )\n);\nMonitorPlay.displayName = \"MonitorPlay\";\nexport const MonitorPlayMetadata = { \n  id: \"monitor-play\", \n  baseId: \"monitor-play\", \n  variant: \"default\", \n  name: \"Monitor Play\", \n  category: \"monitor\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default MonitorPlay;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

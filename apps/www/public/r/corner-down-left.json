@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "corner-down-left",
+  "type": "registry:ui",
+  "title": "Corner Down Left",
+  "description": "Corner Down Left icon component",
+  "category": "arrows",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/arrows/corner-down-left.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface CornerDownLeftProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const CornerDownLeft = React.forwardRef<SVGSVGElement, CornerDownLeftProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M20 4v7a4 4 0 0 1-4 4H4\" />\n  <path d=\"m9 10-5 5 5 5\" />\n    </svg>\n  )\n);\nCornerDownLeft.displayName = \"CornerDownLeft\";\nexport const CornerDownLeftMetadata = { \n  id: \"corner-down-left\", \n  baseId: \"corner-down-left\", \n  variant: \"default\", \n  name: \"Corner Down Left\", \n  category: \"arrows\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default CornerDownLeft;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

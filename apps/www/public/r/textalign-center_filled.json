@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "textalign-center_filled",
+  "type": "registry:ui",
+  "title": "Textalign Center",
+  "description": "Textalign Center icon component",
+  "category": "text",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/text/textalign-center_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface TextalignCenterFilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const TextalignCenterFilled = React.forwardRef<SVGSVGElement, TextalignCenterFilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M21 5.25H3C2.59 5.25 2.25 4.91 2.25 4.5C2.25 4.09 2.59 3.75 3 3.75H21C21.41 3.75 21.75 4.09 21.75 4.5C21.75 4.91 21.41 5.25 21 5.25Z\" fill=\"currentColor\"/>\n<path d=\"M16.74 10.25H7.26001C6.85001 10.25 6.51001 9.91 6.51001 9.5C6.51001 9.09 6.85001 8.75 7.26001 8.75H16.73C17.14 8.75 17.48 9.09 17.48 9.5C17.48 9.91 17.15 10.25 16.74 10.25Z\" fill=\"currentColor\"/>\n<path d=\"M21 15.25H3C2.59 15.25 2.25 14.91 2.25 14.5C2.25 14.09 2.59 13.75 3 13.75H21C21.41 13.75 21.75 14.09 21.75 14.5C21.75 14.91 21.41 15.25 21 15.25Z\" fill=\"currentColor\"/>\n<path d=\"M16.74 20.25H7.26001C6.85001 20.25 6.51001 19.91 6.51001 19.5C6.51001 19.09 6.85001 18.75 7.26001 18.75H16.73C17.14 18.75 17.48 19.09 17.48 19.5C17.48 19.91 17.15 20.25 16.74 20.25Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nTextalignCenterFilled.displayName = \"TextalignCenterFilled\";\nexport const TextalignCenterFilledMetadata = { \n  id: \"textalign-center_filled\", \n  baseId: \"textalign-center\", \n  variant: \"filled\", \n  name: \"Textalign Center\", \n  category: \"text\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default TextalignCenterFilled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

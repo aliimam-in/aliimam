@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "aperture",
+  "type": "registry:ui",
+  "title": "Aperture",
+  "description": "Aperture icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/aperture.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ApertureProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Aperture = React.forwardRef<SVGSVGElement, ApertureProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"m14.31 8 5.74 9.94\" />\n  <path d=\"M9.69 8h11.48\" />\n  <path d=\"m7.38 12 5.74-9.94\" />\n  <path d=\"M9.69 16 3.95 6.06\" />\n  <path d=\"M14.31 16H2.83\" />\n  <path d=\"m16.62 12-5.74 9.94\" />\n    </svg>\n  )\n);\nAperture.displayName = \"Aperture\";\nexport const ApertureMetadata = { \n  id: \"aperture\", \n  baseId: \"aperture\", \n  variant: \"default\", \n  name: \"Aperture\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Aperture;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

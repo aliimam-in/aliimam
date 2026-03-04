@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "git-commit-vertical",
+  "type": "registry:ui",
+  "title": "Git Commit Vertical",
+  "description": "Git Commit Vertical icon component",
+  "category": "code",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/code/git-commit-vertical.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface GitCommitVerticalProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const GitCommitVertical = React.forwardRef<SVGSVGElement, GitCommitVerticalProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M12 3v6\" />\n  <circle cx=\"12\" cy=\"12\" r=\"3\" />\n  <path d=\"M12 15v6\" />\n    </svg>\n  )\n);\nGitCommitVertical.displayName = \"GitCommitVertical\";\nexport const GitCommitVerticalMetadata = { \n  id: \"git-commit-vertical\", \n  baseId: \"git-commit-vertical\", \n  variant: \"default\", \n  name: \"Git Commit Vertical\", \n  category: \"code\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default GitCommitVertical;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

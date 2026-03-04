@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "circle-pound-sterling",
+  "type": "registry:ui",
+  "title": "Circle Pound Sterling",
+  "description": "Circle Pound Sterling icon component",
+  "category": "circle",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/circle/circle-pound-sterling.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface CirclePoundSterlingProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const CirclePoundSterling = React.forwardRef<SVGSVGElement, CirclePoundSterlingProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"M10 16V9.5a1 1 0 0 1 5 0\" />\n  <path d=\"M8 12h4\" />\n  <path d=\"M8 16h7\" />\n    </svg>\n  )\n);\nCirclePoundSterling.displayName = \"CirclePoundSterling\";\nexport const CirclePoundSterlingMetadata = { \n  id: \"circle-pound-sterling\", \n  baseId: \"circle-pound-sterling\", \n  variant: \"default\", \n  name: \"Circle Pound Sterling\", \n  category: \"circle\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default CirclePoundSterling;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

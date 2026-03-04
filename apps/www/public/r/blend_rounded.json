@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "blend_rounded",
+  "type": "registry:ui",
+  "title": "Blend",
+  "description": "Blend icon component",
+  "category": "design",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/design/blend_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface BlendRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const BlendRounded = React.forwardRef<SVGSVGElement, BlendRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M21.97 12C21.97 15.31 19.28 18 15.97 18C14.43 18 13.03 17.42 11.97 16.46C13.2 15.37 13.97 13.77 13.97 12C13.97 10.23 13.2 8.63 11.97 7.54C13.03 6.58 14.43 6 15.97 6C19.28 6 21.97 8.69 21.97 12Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M13.97 12C13.97 13.77 13.2 15.37 11.97 16.46C10.91 17.42 9.50997 18 7.96997 18C4.65997 18 1.96997 15.31 1.96997 12C1.96997 8.69 4.65997 6 7.96997 6C9.50997 6 10.91 6.58 11.97 7.54C13.2 8.63 13.97 10.23 13.97 12Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nBlendRounded.displayName = \"BlendRounded\";\nexport const BlendRoundedMetadata = { \n  id: \"blend_rounded\", \n  baseId: \"blend\", \n  variant: \"rounded\", \n  name: \"Blend\", \n  category: \"design\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default BlendRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

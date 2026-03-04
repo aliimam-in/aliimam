@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "table-2",
+  "type": "registry:ui",
+  "title": "Table 2",
+  "description": "Table 2 icon component",
+  "category": "table",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/table/table-2.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface Table2Props extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Table2 = React.forwardRef<SVGSVGElement, Table2Props>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M9 3H5a2 2 0 0 0-2 2v4m6-6h10a2 2 0 0 1 2 2v4M9 3v18m0 0h10a2 2 0 0 0 2-2V9M9 21H5a2 2 0 0 1-2-2V9m0 0h18\" />\n    </svg>\n  )\n);\nTable2.displayName = \"Table2\";\nexport const Table2Metadata = { \n  id: \"table-2\", \n  baseId: \"table-2\", \n  variant: \"default\", \n  name: \"Table 2\", \n  category: \"table\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Table2;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

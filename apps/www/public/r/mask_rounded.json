@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "mask_rounded",
+  "type": "registry:ui",
+  "title": "Mask",
+  "description": "Mask icon component",
+  "category": "design",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/design/mask_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface MaskRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const MaskRounded = React.forwardRef<SVGSVGElement, MaskRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M19.07 4.93L4.92999 19.07C3.11999 17.26 2 14.76 2 12C2 6.48 6.48 2 12 2C14.76 2 17.26 3.12 19.07 4.93Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M22 12C22 17.52 17.52 22 12 22C9.24 22 6.73999 20.88 4.92999 19.07L19.07 4.92999C20.88 6.73999 22 9.23999 22 12Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M7.76001 16.24L13.41 21.9\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M11.29 12.71L17.87 19.28\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M14.83 9.16998L21.12 15.47\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nMaskRounded.displayName = \"MaskRounded\";\nexport const MaskRoundedMetadata = { \n  id: \"mask_rounded\", \n  baseId: \"mask\", \n  variant: \"rounded\", \n  name: \"Mask\", \n  category: \"design\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default MaskRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

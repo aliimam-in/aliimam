@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "cloud-check",
+  "type": "registry:ui",
+  "title": "Cloud Check",
+  "description": "Cloud Check icon component",
+  "category": "cloud",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/cloud/cloud-check.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface CloudCheckProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const CloudCheck = React.forwardRef<SVGSVGElement, CloudCheckProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"m17 15-5.5 5.5L9 18\" />\n  <path d=\"M5.516 16.07A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 3.501 7.327\" />\n    </svg>\n  )\n);\nCloudCheck.displayName = \"CloudCheck\";\nexport const CloudCheckMetadata = { \n  id: \"cloud-check\", \n  baseId: \"cloud-check\", \n  variant: \"default\", \n  name: \"Cloud Check\", \n  category: \"cloud\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default CloudCheck;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

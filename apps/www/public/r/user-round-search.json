@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "user-round-search",
+  "type": "registry:ui",
+  "title": "User Round Search",
+  "description": "User Round Search icon component",
+  "category": "user",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/user/user-round-search.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface UserRoundSearchProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const UserRoundSearch = React.forwardRef<SVGSVGElement, UserRoundSearchProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <circle cx=\"10\" cy=\"8\" r=\"5\" />\n  <path d=\"M2 21a8 8 0 0 1 10.434-7.62\" />\n  <circle cx=\"18\" cy=\"18\" r=\"3\" />\n  <path d=\"m22 22-1.9-1.9\" />\n    </svg>\n  )\n);\nUserRoundSearch.displayName = \"UserRoundSearch\";\nexport const UserRoundSearchMetadata = { \n  id: \"user-round-search\", \n  baseId: \"user-round-search\", \n  variant: \"default\", \n  name: \"User Round Search\", \n  category: \"user\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default UserRoundSearch;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

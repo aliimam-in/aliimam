@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "user-search",
+  "type": "registry:ui",
+  "title": "User Search",
+  "description": "User Search icon component",
+  "category": "user",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/user/user-search.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface UserSearchProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const UserSearch = React.forwardRef<SVGSVGElement, UserSearchProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <circle cx=\"10\" cy=\"7\" r=\"4\" />\n  <path d=\"M10.3 15H7a4 4 0 0 0-4 4v2\" />\n  <circle cx=\"17\" cy=\"17\" r=\"3\" />\n  <path d=\"m21 21-1.9-1.9\" />\n    </svg>\n  )\n);\nUserSearch.displayName = \"UserSearch\";\nexport const UserSearchMetadata = { \n  id: \"user-search\", \n  baseId: \"user-search\", \n  variant: \"default\", \n  name: \"User Search\", \n  category: \"user\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default UserSearch;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

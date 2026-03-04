@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "additem_rounded",
+  "type": "registry:ui",
+  "title": "Additem",
+  "description": "Additem icon component",
+  "category": "design",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/design/additem_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface AdditemRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const AdditemRounded = React.forwardRef<SVGSVGElement, AdditemRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <g clipPath=\"url(#clip0_210_5287)\">\n<path d=\"M8 16H5.43C3.14 16 2 14.86 2 12.57V5.43C2 3.14 3.14 2 5.43 2H10C12.29 2 13.43 3.14 13.43 5.43\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M18.57 22H14C11.71 22 10.57 20.86 10.57 18.57V11.43C10.57 9.14 11.71 8 14 8H18.57C20.86 8 22 9.14 22 11.43V18.57C22 20.86 20.86 22 18.57 22Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M14.87 15H18.13\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M16.5 16.63V13.37\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_210_5287\">\n<rect width=\"24\" height=\"24\" fill=\"currentColor\"/>\n</clipPath>\n</defs>\n    </svg>\n  )\n);\nAdditemRounded.displayName = \"AdditemRounded\";\nexport const AdditemRoundedMetadata = { \n  id: \"additem_rounded\", \n  baseId: \"additem\", \n  variant: \"rounded\", \n  name: \"Additem\", \n  category: \"design\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default AdditemRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

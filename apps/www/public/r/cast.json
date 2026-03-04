@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "cast",
+  "type": "registry:ui",
+  "title": "Cast",
+  "description": "Cast icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/cast.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface CastProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Cast = React.forwardRef<SVGSVGElement, CastProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M2 8V6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-6\" />\n  <path d=\"M2 12a9 9 0 0 1 8 8\" />\n  <path d=\"M2 16a5 5 0 0 1 4 4\" />\n  <line x1=\"2\" x2=\"2.01\" y1=\"20\" y2=\"20\" />\n    </svg>\n  )\n);\nCast.displayName = \"Cast\";\nexport const CastMetadata = { \n  id: \"cast\", \n  baseId: \"cast\", \n  variant: \"default\", \n  name: \"Cast\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Cast;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

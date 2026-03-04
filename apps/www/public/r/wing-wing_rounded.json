@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "wing-wing_rounded",
+  "type": "registry:ui",
+  "title": "Wing Wing",
+  "description": "Wing Wing icon component",
+  "category": "brand",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/brand/wing-wing_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface WingWingRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const WingWingRounded = React.forwardRef<SVGSVGElement, WingWingRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M16.0001 5H19.5001L22.2001 9.7L17.0001 19L15.1001 15.9L18.7001 9.7L16.0001 5Z\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M9.0001 5H12.5001L15.2001 9.7L10.0001 19L8.1001 15.9L11.7001 9.7L9.0001 5Z\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M1.80005 5H5.30005L8.00005 9.8L6.30005 12.7L1.80005 5Z\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nWingWingRounded.displayName = \"WingWingRounded\";\nexport const WingWingRoundedMetadata = { \n  id: \"wing-wing_rounded\", \n  baseId: \"wing-wing\", \n  variant: \"rounded\", \n  name: \"Wing Wing\", \n  category: \"brand\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default WingWingRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

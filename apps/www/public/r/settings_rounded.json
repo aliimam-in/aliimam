@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "settings_rounded",
+  "type": "registry:ui",
+  "title": "Settings",
+  "description": "Settings icon component",
+  "category": "app",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/app/settings_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface SettingsRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const SettingsRounded = React.forwardRef<SVGSVGElement, SettingsRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M12 16.5C14.4853 16.5 16.5 14.4853 16.5 12C16.5 9.51472 14.4853 7.5 12 7.5C9.51472 7.5 7.5 9.51472 7.5 12C7.5 14.4853 9.51472 16.5 12 16.5Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M2 12H7\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M17 12H22\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nSettingsRounded.displayName = \"SettingsRounded\";\nexport const SettingsRoundedMetadata = { \n  id: \"settings_rounded\", \n  baseId: \"settings\", \n  variant: \"rounded\", \n  name: \"Settings\", \n  category: \"app\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default SettingsRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

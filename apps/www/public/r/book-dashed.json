@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "book-dashed",
+  "type": "registry:ui",
+  "title": "Book Dashed",
+  "description": "Book Dashed icon component",
+  "category": "book",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/book/book-dashed.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface BookDashedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const BookDashed = React.forwardRef<SVGSVGElement, BookDashedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M12 17h1.5\" />\n  <path d=\"M12 22h1.5\" />\n  <path d=\"M12 2h1.5\" />\n  <path d=\"M17.5 22H19a1 1 0 0 0 1-1\" />\n  <path d=\"M17.5 2H19a1 1 0 0 1 1 1v1.5\" />\n  <path d=\"M20 14v3h-2.5\" />\n  <path d=\"M20 8.5V10\" />\n  <path d=\"M4 10V8.5\" />\n  <path d=\"M4 19.5V14\" />\n  <path d=\"M4 4.5A2.5 2.5 0 0 1 6.5 2H8\" />\n  <path d=\"M8 22H6.5a1 1 0 0 1 0-5H8\" />\n    </svg>\n  )\n);\nBookDashed.displayName = \"BookDashed\";\nexport const BookDashedMetadata = { \n  id: \"book-dashed\", \n  baseId: \"book-dashed\", \n  variant: \"default\", \n  name: \"Book Dashed\", \n  category: \"book\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default BookDashed;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

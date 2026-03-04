@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "woman_filled",
+  "type": "registry:ui",
+  "title": "Woman",
+  "description": "Woman icon component",
+  "category": "gender",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/gender/woman_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface WomanFilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const WomanFilled = React.forwardRef<SVGSVGElement, WomanFilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M19 9C19 5.13 15.87 2 12 2C8.13 2 5 5.13 5 9C5 12.62 7.74 15.59 11.25 15.96V18.25H9C8.59 18.25 8.25 18.59 8.25 19C8.25 19.41 8.59 19.75 9 19.75H11.25V22C11.25 22.41 11.59 22.75 12 22.75C12.41 22.75 12.75 22.41 12.75 22V19.75H15C15.41 19.75 15.75 19.41 15.75 19C15.75 18.59 15.41 18.25 15 18.25H12.75V15.96C16.26 15.59 19 12.62 19 9Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nWomanFilled.displayName = \"WomanFilled\";\nexport const WomanFilledMetadata = { \n  id: \"woman_filled\", \n  baseId: \"woman\", \n  variant: \"filled\", \n  name: \"Woman\", \n  category: \"gender\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default WomanFilled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

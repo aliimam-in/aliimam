@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "bookmark-2_filled",
+  "type": "registry:ui",
+  "title": "Bookmark 2",
+  "description": "Bookmark 2 icon component",
+  "category": "education",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/education/bookmark-2_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface Bookmark2FilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Bookmark2Filled = React.forwardRef<SVGSVGElement, Bookmark2FilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M17 4.96V12.08C17 14.07 15.59 14.84 13.86 13.8L12.54 13C12.24 12.82 11.76 12.82 11.46 13L10.14 13.8C8.41 14.84 7 14.07 7 12.08V4.99C7.01 3 8.01 2 10 2H14C15.98 2 16.98 2.99 17 4.96Z\" fill=\"currentColor\"/>\n<path d=\"M22 11.9001V14.9301C22 19.9801 20 22.0001 15 22.0001H9C4 22.0001 2 19.9801 2 14.9301V11.9001C2 9.2101 2.57 7.3801 3.85 6.2601C4.5 5.7101 5.5 6.1901 5.5 7.0401V12.0801C5.5 13.5701 6.11 14.7701 7.17 15.3701C8.24 15.9801 9.6 15.8701 10.92 15.0801L12 14.4301L13.09 15.0801C13.83 15.5301 14.6 15.7601 15.32 15.7601C15.86 15.7601 16.37 15.6301 16.83 15.3701C17.89 14.7701 18.5 13.5701 18.5 12.0801V7.0301C18.5 6.1801 19.51 5.7001 20.15 6.2601C21.43 7.3801 22 9.2101 22 11.9001Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nBookmark2Filled.displayName = \"Bookmark2Filled\";\nexport const Bookmark2FilledMetadata = { \n  id: \"bookmark-2_filled\", \n  baseId: \"bookmark-2\", \n  variant: \"filled\", \n  name: \"Bookmark 2\", \n  category: \"education\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Bookmark2Filled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

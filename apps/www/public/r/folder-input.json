@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "folder-input",
+  "type": "registry:ui",
+  "title": "Folder Input",
+  "description": "Folder Input icon component",
+  "category": "folder",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/folder/folder-input.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface FolderInputProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const FolderInput = React.forwardRef<SVGSVGElement, FolderInputProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M2 9V5a2 2 0 0 1 2-2h3.9a2 2 0 0 1 1.69.9l.81 1.2a2 2 0 0 0 1.67.9H20a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-1\" />\n  <path d=\"M2 13h10\" />\n  <path d=\"m9 16 3-3-3-3\" />\n    </svg>\n  )\n);\nFolderInput.displayName = \"FolderInput\";\nexport const FolderInputMetadata = { \n  id: \"folder-input\", \n  baseId: \"folder-input\", \n  variant: \"default\", \n  name: \"Folder Input\", \n  category: \"folder\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default FolderInput;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

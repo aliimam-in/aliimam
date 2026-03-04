@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "hierarchy-2_rounded",
+  "type": "registry:ui",
+  "title": "Hierarchy 2",
+  "description": "Hierarchy 2 icon component",
+  "category": "code",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/code/hierarchy-2_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface Hierarchy2RoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Hierarchy2Rounded = React.forwardRef<SVGSVGElement, Hierarchy2RoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M5 15V8\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M5.25 22C7.04493 22 8.5 20.5449 8.5 18.75C8.5 16.9551 7.04493 15.5 5.25 15.5C3.45507 15.5 2 16.9551 2 18.75C2 20.5449 3.45507 22 5.25 22Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M5 8C6.65685 8 8 6.65685 8 5C8 3.34315 6.65685 2 5 2C3.34315 2 2 3.34315 2 5C2 6.65685 3.34315 8 5 8Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M19 8C20.6569 8 22 6.65685 22 5C22 3.34315 20.6569 2 19 2C17.3431 2 16 3.34315 16 5C16 6.65685 17.3431 8 19 8Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M5.13 15C5.58 13.25 7.18 11.95 9.07 11.96L12.5 11.97C15.12 11.98 17.35 10.3 18.17 7.95999\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nHierarchy2Rounded.displayName = \"Hierarchy2Rounded\";\nexport const Hierarchy2RoundedMetadata = { \n  id: \"hierarchy-2_rounded\", \n  baseId: \"hierarchy-2\", \n  variant: \"rounded\", \n  name: \"Hierarchy 2\", \n  category: \"code\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Hierarchy2Rounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

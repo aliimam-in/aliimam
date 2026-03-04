@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "alarm-clock-minus",
+  "type": "registry:ui",
+  "title": "Alarm Clock Minus",
+  "description": "Alarm Clock Minus icon component",
+  "category": "time",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/time/alarm-clock-minus.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface AlarmClockMinusProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const AlarmClockMinus = React.forwardRef<SVGSVGElement, AlarmClockMinusProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <circle cx=\"12\" cy=\"13\" r=\"8\" />\n  <path d=\"M5 3 2 6\" />\n  <path d=\"m22 6-3-3\" />\n  <path d=\"M6.38 18.7 4 21\" />\n  <path d=\"M17.64 18.67 20 21\" />\n  <path d=\"M9 13h6\" />\n    </svg>\n  )\n);\nAlarmClockMinus.displayName = \"AlarmClockMinus\";\nexport const AlarmClockMinusMetadata = { \n  id: \"alarm-clock-minus\", \n  baseId: \"alarm-clock-minus\", \n  variant: \"default\", \n  name: \"Alarm Clock Minus\", \n  category: \"time\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default AlarmClockMinus;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

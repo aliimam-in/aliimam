@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "tally-3",
+  "type": "registry:ui",
+  "title": "Tally 3",
+  "description": "Tally 3 icon component",
+  "category": "math",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/math/tally-3.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface Tally3Props extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Tally3 = React.forwardRef<SVGSVGElement, Tally3Props>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M4 4v16\" />\n  <path d=\"M9 4v16\" />\n  <path d=\"M14 4v16\" />\n    </svg>\n  )\n);\nTally3.displayName = \"Tally3\";\nexport const Tally3Metadata = { \n  id: \"tally-3\", \n  baseId: \"tally-3\", \n  variant: \"default\", \n  name: \"Tally 3\", \n  category: \"math\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Tally3;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "mouse-right",
+  "type": "registry:ui",
+  "title": "Mouse Right",
+  "description": "Mouse Right icon component",
+  "category": "cursor",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/cursor/mouse-right.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface MouseRightProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const MouseRight = React.forwardRef<SVGSVGElement, MouseRightProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M12 7.318V10\" />\n  <path d=\"M19 10v5a7 7 0 0 1-14 0V9c0-3.527 2.608-6.515 6-7\" />\n  <circle cx=\"17\" cy=\"4\" r=\"2\" />\n    </svg>\n  )\n);\nMouseRight.displayName = \"MouseRight\";\nexport const MouseRightMetadata = { \n  id: \"mouse-right\", \n  baseId: \"mouse-right\", \n  variant: \"default\", \n  name: \"Mouse Right\", \n  category: \"cursor\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default MouseRight;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

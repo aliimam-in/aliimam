@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "briefcase-conveyor-belt",
+  "type": "registry:ui",
+  "title": "Briefcase Conveyor Belt",
+  "description": "Briefcase Conveyor Belt icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/briefcase-conveyor-belt.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface BriefcaseConveyorBeltProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const BriefcaseConveyorBelt = React.forwardRef<SVGSVGElement, BriefcaseConveyorBeltProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M10 20v2\" />\n  <path d=\"M14 20v2\" />\n  <path d=\"M18 20v2\" />\n  <path d=\"M21 20H3\" />\n  <path d=\"M6 20v2\" />\n  <path d=\"M8 16V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v12\" />\n  <rect x=\"4\" y=\"6\" width=\"16\" height=\"10\" rx=\"2\" />\n    </svg>\n  )\n);\nBriefcaseConveyorBelt.displayName = \"BriefcaseConveyorBelt\";\nexport const BriefcaseConveyorBeltMetadata = { \n  id: \"briefcase-conveyor-belt\", \n  baseId: \"briefcase-conveyor-belt\", \n  variant: \"default\", \n  name: \"Briefcase Conveyor Belt\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default BriefcaseConveyorBelt;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

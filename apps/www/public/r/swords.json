@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "swords",
+  "type": "registry:ui",
+  "title": "Swords",
+  "description": "Swords icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/swords.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface SwordsProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Swords = React.forwardRef<SVGSVGElement, SwordsProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <polyline points=\"14.5 17.5 3 6 3 3 6 3 17.5 14.5\" />\n  <line x1=\"13\" x2=\"19\" y1=\"19\" y2=\"13\" />\n  <line x1=\"16\" x2=\"20\" y1=\"16\" y2=\"20\" />\n  <line x1=\"19\" x2=\"21\" y1=\"21\" y2=\"19\" />\n  <polyline points=\"14.5 6.5 18 3 21 3 21 6 17.5 9.5\" />\n  <line x1=\"5\" x2=\"9\" y1=\"14\" y2=\"18\" />\n  <line x1=\"7\" x2=\"4\" y1=\"17\" y2=\"20\" />\n  <line x1=\"3\" x2=\"5\" y1=\"19\" y2=\"21\" />\n    </svg>\n  )\n);\nSwords.displayName = \"Swords\";\nexport const SwordsMetadata = { \n  id: \"swords\", \n  baseId: \"swords\", \n  variant: \"default\", \n  name: \"Swords\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Swords;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

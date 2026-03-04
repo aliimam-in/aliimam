@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "rows-4",
+  "type": "registry:ui",
+  "title": "Rows 4",
+  "description": "Rows 4 icon component",
+  "category": "layout",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/layout/rows-4.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface Rows4Props extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Rows4 = React.forwardRef<SVGSVGElement, Rows4Props>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <rect width=\"18\" height=\"18\" x=\"3\" y=\"3\" rx=\"2\" />\n  <path d=\"M21 7.5H3\" />\n  <path d=\"M21 12H3\" />\n  <path d=\"M21 16.5H3\" />\n    </svg>\n  )\n);\nRows4.displayName = \"Rows4\";\nexport const Rows4Metadata = { \n  id: \"rows-4\", \n  baseId: \"rows-4\", \n  variant: \"default\", \n  name: \"Rows 4\", \n  category: \"layout\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Rows4;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "brush_filled",
+  "type": "registry:ui",
+  "title": "Brush",
+  "description": "Brush icon component",
+  "category": "design",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/design/brush_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface BrushFilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const BrushFilled = React.forwardRef<SVGSVGElement, BrushFilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M6 2H18C19.1 2 20 2.9 20 4V7.32C20 7.87 19.55 8.32 19 8.32H5C4.45 8.32 4 7.87 4 7.32V4C4 2.9 4.9 2 6 2Z\" fill=\"currentColor\"/>\n<path d=\"M4 10.3201V11.8801C4 12.9601 4.58 13.9601 5.53 14.4901L8.49 16.1601C9.12 16.5101 9.51 17.1801 9.51 17.9001V20.0001C9.51 21.1001 10.41 22.0001 11.51 22.0001H12.51C13.61 22.0001 14.51 21.1001 14.51 20.0001V17.9001C14.51 17.1801 14.9 16.5101 15.53 16.1601L18.49 14.4901C19.43 13.9601 20.02 12.9601 20.02 11.8801V10.3201C20.02 9.77007 19.57 9.32007 19.02 9.32007H5C4.45 9.32007 4 9.76007 4 10.3201Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nBrushFilled.displayName = \"BrushFilled\";\nexport const BrushFilledMetadata = { \n  id: \"brush_filled\", \n  baseId: \"brush\", \n  variant: \"filled\", \n  name: \"Brush\", \n  category: \"design\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default BrushFilled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

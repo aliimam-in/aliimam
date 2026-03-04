@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "shrink",
+  "type": "registry:ui",
+  "title": "Shrink",
+  "description": "Shrink icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/shrink.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ShrinkProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Shrink = React.forwardRef<SVGSVGElement, ShrinkProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"m15 15 6 6m-6-6v4.8m0-4.8h4.8\" />\n  <path d=\"M9 19.8V15m0 0H4.2M9 15l-6 6\" />\n  <path d=\"M15 4.2V9m0 0h4.8M15 9l6-6\" />\n  <path d=\"M9 4.2V9m0 0H4.2M9 9 3 3\" />\n    </svg>\n  )\n);\nShrink.displayName = \"Shrink\";\nexport const ShrinkMetadata = { \n  id: \"shrink\", \n  baseId: \"shrink\", \n  variant: \"default\", \n  name: \"Shrink\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Shrink;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

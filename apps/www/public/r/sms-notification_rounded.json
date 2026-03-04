@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "sms-notification_rounded",
+  "type": "registry:ui",
+  "title": "Sms Notification",
+  "description": "Sms Notification icon component",
+  "category": "message",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/message/sms-notification_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface SmsNotificationRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const SmsNotificationRounded = React.forwardRef<SVGSVGElement, SmsNotificationRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M22 10.5V15.5C22 19 20 20.5 17 20.5H7C4 20.5 2 19 2 15.5V8.5C2 5 4 3.5 7 3.5H14\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M7 9L10.13 11.5C11.16 12.32 12.85 12.32 13.88 11.5L15.06 10.56\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M19.5 8C20.8807 8 22 6.88071 22 5.5C22 4.11929 20.8807 3 19.5 3C18.1193 3 17 4.11929 17 5.5C17 6.88071 18.1193 8 19.5 8Z\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nSmsNotificationRounded.displayName = \"SmsNotificationRounded\";\nexport const SmsNotificationRoundedMetadata = { \n  id: \"sms-notification_rounded\", \n  baseId: \"sms-notification\", \n  variant: \"rounded\", \n  name: \"Sms Notification\", \n  category: \"message\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default SmsNotificationRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

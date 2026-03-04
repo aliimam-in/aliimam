@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "home-hashtag_rounded",
+  "type": "registry:ui",
+  "title": "Home Hashtag",
+  "description": "Home Hashtag icon component",
+  "category": "business",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/business/home-hashtag_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface HomeHashtagRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const HomeHashtagRounded = React.forwardRef<SVGSVGElement, HomeHashtagRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M9.02 2.83998L3.63 7.03998C2.73 7.73998 2 9.22998 2 10.36V17.77C2 20.09 3.89 21.99 6.21 21.99H17.79C20.11 21.99 22 20.09 22 17.78V10.5C22 9.28998 21.19 7.73998 20.2 7.04998L14.02 2.71998C12.62 1.73998 10.37 1.78998 9.02 2.83998Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M10.5 18H13.5C15.15 18 16.5 16.65 16.5 15V12C16.5 10.35 15.15 9 13.5 9H10.5C8.85 9 7.5 10.35 7.5 12V15C7.5 16.65 8.85 18 10.5 18Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M12 9V18\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M7.5 13.5H16.5\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nHomeHashtagRounded.displayName = \"HomeHashtagRounded\";\nexport const HomeHashtagRoundedMetadata = { \n  id: \"home-hashtag_rounded\", \n  baseId: \"home-hashtag\", \n  variant: \"rounded\", \n  name: \"Home Hashtag\", \n  category: \"business\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default HomeHashtagRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

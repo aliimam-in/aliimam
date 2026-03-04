@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "chess-knight",
+  "type": "registry:ui",
+  "title": "Chess Knight",
+  "description": "Chess Knight icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/chess-knight.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ChessKnightProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ChessKnight = React.forwardRef<SVGSVGElement, ChessKnightProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M5 20a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v1a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1z\" />\n  <path d=\"M16.5 18c1-2 2.5-5 2.5-9a7 7 0 0 0-7-7H6.635a1 1 0 0 0-.768 1.64L7 5l-2.32 5.802a2 2 0 0 0 .95 2.526l2.87 1.456\" />\n  <path d=\"m15 5 1.425-1.425\" />\n  <path d=\"m17 8 1.53-1.53\" />\n  <path d=\"M9.713 12.185 7 18\" />\n    </svg>\n  )\n);\nChessKnight.displayName = \"ChessKnight\";\nexport const ChessKnightMetadata = { \n  id: \"chess-knight\", \n  baseId: \"chess-knight\", \n  variant: \"default\", \n  name: \"Chess Knight\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ChessKnight;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

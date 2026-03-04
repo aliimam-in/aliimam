@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "medal_filled",
+  "type": "registry:ui",
+  "title": "Medal",
+  "description": "Medal icon component",
+  "category": "support",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/support/medal_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface MedalFilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const MedalFilled = React.forwardRef<SVGSVGElement, MedalFilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M12 15C15.7279 15 18.75 12.0899 18.75 8.5C18.75 4.91015 15.7279 2 12 2C8.27208 2 5.25 4.91015 5.25 8.5C5.25 12.0899 8.27208 15 12 15Z\" fill=\"currentColor\"/>\n<path d=\"M15.79 15.6101C16.12 15.4401 16.5 15.6901 16.5 16.0601V20.9101C16.5 21.8101 15.87 22.2501 15.09 21.8801L12.41 20.6101C12.18 20.5101 11.82 20.5101 11.59 20.6101L8.91 21.8801C8.13 22.2401 7.5 21.8001 7.5 20.9001L7.52 16.0601C7.52 15.6901 7.91 15.4501 8.23 15.6101C9.36 16.1801 10.64 16.5001 12 16.5001C13.36 16.5001 14.65 16.1801 15.79 15.6101Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nMedalFilled.displayName = \"MedalFilled\";\nexport const MedalFilledMetadata = { \n  id: \"medal_filled\", \n  baseId: \"medal\", \n  variant: \"filled\", \n  name: \"Medal\", \n  category: \"support\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default MedalFilled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

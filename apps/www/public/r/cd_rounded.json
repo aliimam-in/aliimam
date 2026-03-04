@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "cd_rounded",
+  "type": "registry:ui",
+  "title": "Cd",
+  "description": "Cd icon component",
+  "category": "home",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/home/cd_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface CdRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const CdRounded = React.forwardRef<SVGSVGElement, CdRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 22 22\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M10.75 20.75C16.2728 20.75 20.75 16.2728 20.75 10.75C20.75 5.22715 16.2728 0.75 10.75 0.75C5.22715 0.75 0.75 5.22715 0.75 10.75C0.75 16.2728 5.22715 20.75 10.75 20.75Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M10.75 12.75C11.8546 12.75 12.75 11.8546 12.75 10.75C12.75 9.64543 11.8546 8.75 10.75 8.75C9.64543 8.75 8.75 9.64543 8.75 10.75C8.75 11.8546 9.64543 12.75 10.75 12.75Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nCdRounded.displayName = \"CdRounded\";\nexport const CdRoundedMetadata = { \n  id: \"cd_rounded\", \n  baseId: \"cd\", \n  variant: \"rounded\", \n  name: \"Cd\", \n  category: \"home\", \n  tags: [], \n  viewBox: \"0 0 22 22\" \n} as const;\n\nexport default CdRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

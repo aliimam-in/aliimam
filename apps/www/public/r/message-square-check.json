@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "message-square-check",
+  "type": "registry:ui",
+  "title": "Message Square Check",
+  "description": "Message Square Check icon component",
+  "category": "message",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/message/message-square-check.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface MessageSquareCheckProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const MessageSquareCheck = React.forwardRef<SVGSVGElement, MessageSquareCheckProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M22 17a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.7.7 0 0 1 2 21.286V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z\" />\n  <path d=\"m9 11 2 2 4-4\" />\n    </svg>\n  )\n);\nMessageSquareCheck.displayName = \"MessageSquareCheck\";\nexport const MessageSquareCheckMetadata = { \n  id: \"message-square-check\", \n  baseId: \"message-square-check\", \n  variant: \"default\", \n  name: \"Message Square Check\", \n  category: \"message\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default MessageSquareCheck;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

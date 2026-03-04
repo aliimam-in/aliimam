@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "library",
+  "type": "registry:ui",
+  "title": "Library",
+  "description": "Library icon component",
+  "category": "book",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/book/library.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface LibraryProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Library = React.forwardRef<SVGSVGElement, LibraryProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"m16 6 4 14\" />\n  <path d=\"M12 6v14\" />\n  <path d=\"M8 8v12\" />\n  <path d=\"M4 4v16\" />\n    </svg>\n  )\n);\nLibrary.displayName = \"Library\";\nexport const LibraryMetadata = { \n  id: \"library\", \n  baseId: \"library\", \n  variant: \"default\", \n  name: \"Library\", \n  category: \"book\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Library;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "android_filled",
+  "type": "registry:ui",
+  "title": "Android",
+  "description": "Android icon component",
+  "category": "brand",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/brand/android_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface AndroidFilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const AndroidFilled = React.forwardRef<SVGSVGElement, AndroidFilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M11 18V21C11 21.55 10.55 22 10 22C9.45 22 9 21.55 9 21V18H11Z\" fill=\"currentColor\"/>\n<path d=\"M15 18V21C15 21.55 14.55 22 14 22C13.45 22 13 21.55 13 21V18H15Z\" fill=\"currentColor\"/>\n<path d=\"M17 11V16C17 17.1 16.1 18 15 18H9C7.9 18 7 17.1 7 16V11C7 9.9 7.9 9 9 9H15C16.1 9 17 9.9 17 11Z\" fill=\"currentColor\"/>\n<path d=\"M5 11V15C5 15.55 4.55 16 4 16C3.45 16 3 15.55 3 15V11C3 10.45 3.45 10 4 10C4.55 10 5 10.45 5 11Z\" fill=\"currentColor\"/>\n<path d=\"M21 11V15C21 15.55 20.55 16 20 16C19.45 16 19 15.55 19 15V11C19 10.45 19.45 10 20 10C20.55 10 21 10.45 21 11Z\" fill=\"currentColor\"/>\n<path d=\"M9.59998 7.60001H14.4C15.28 7.60001 16 6.88 16 6C16 3.79 14.21 2 12 2C9.79 2 8 3.79 8 6C8 6.88 8.71998 7.60001 9.59998 7.60001Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nAndroidFilled.displayName = \"AndroidFilled\";\nexport const AndroidFilledMetadata = { \n  id: \"android_filled\", \n  baseId: \"android\", \n  variant: \"filled\", \n  name: \"Android\", \n  category: \"brand\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default AndroidFilled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "drop_rounded",
+  "type": "registry:ui",
+  "title": "Drop",
+  "description": "Drop icon component",
+  "category": "weather",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/weather/drop_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface DropRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const DropRounded = React.forwardRef<SVGSVGElement, DropRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M12.61 2.21C12.25 1.93 11.75 1.93 11.39 2.21C9.49004 3.66 3.88003 8.39 3.91003 13.9C3.91003 18.36 7.54004 22 12.01 22C16.48 22 20.11 18.37 20.11 13.91C20.12 8.48 14.5 3.67 12.61 2.21Z\"   strokeMiterlimit=\"10\"/>\n    </svg>\n  )\n);\nDropRounded.displayName = \"DropRounded\";\nexport const DropRoundedMetadata = { \n  id: \"drop_rounded\", \n  baseId: \"drop\", \n  variant: \"rounded\", \n  name: \"Drop\", \n  category: \"weather\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default DropRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "shield-off",
+  "type": "registry:ui",
+  "title": "Shield Off",
+  "description": "Shield Off icon component",
+  "category": "shield",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/shield/shield-off.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ShieldOffProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ShieldOff = React.forwardRef<SVGSVGElement, ShieldOffProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"m2 2 20 20\" />\n  <path d=\"M5 5a1 1 0 0 0-1 1v7c0 5 3.5 7.5 7.67 8.94a1 1 0 0 0 .67.01c2.35-.82 4.48-1.97 5.9-3.71\" />\n  <path d=\"M9.309 3.652A12.252 12.252 0 0 0 11.24 2.28a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1v7a9.784 9.784 0 0 1-.08 1.264\" />\n    </svg>\n  )\n);\nShieldOff.displayName = \"ShieldOff\";\nexport const ShieldOffMetadata = { \n  id: \"shield-off\", \n  baseId: \"shield-off\", \n  variant: \"default\", \n  name: \"Shield Off\", \n  category: \"shield\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ShieldOff;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

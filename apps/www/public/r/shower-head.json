@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "shower-head",
+  "type": "registry:ui",
+  "title": "Shower Head",
+  "description": "Shower Head icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/shower-head.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ShowerHeadProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ShowerHead = React.forwardRef<SVGSVGElement, ShowerHeadProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"m4 4 2.5 2.5\" />\n  <path d=\"M13.5 6.5a4.95 4.95 0 0 0-7 7\" />\n  <path d=\"M15 5 5 15\" />\n  <path d=\"M14 17v.01\" />\n  <path d=\"M10 16v.01\" />\n  <path d=\"M13 13v.01\" />\n  <path d=\"M16 10v.01\" />\n  <path d=\"M11 20v.01\" />\n  <path d=\"M17 14v.01\" />\n  <path d=\"M20 11v.01\" />\n    </svg>\n  )\n);\nShowerHead.displayName = \"ShowerHead\";\nexport const ShowerHeadMetadata = { \n  id: \"shower-head\", \n  baseId: \"shower-head\", \n  variant: \"default\", \n  name: \"Shower Head\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ShowerHead;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

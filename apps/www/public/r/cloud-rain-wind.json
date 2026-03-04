@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "cloud-rain-wind",
+  "type": "registry:ui",
+  "title": "Cloud Rain Wind",
+  "description": "Cloud Rain Wind icon component",
+  "category": "cloud",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/cloud/cloud-rain-wind.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface CloudRainWindProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const CloudRainWind = React.forwardRef<SVGSVGElement, CloudRainWindProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242\" />\n  <path d=\"m9.2 22 3-7\" />\n  <path d=\"m9 13-3 7\" />\n  <path d=\"m17 13-3 7\" />\n    </svg>\n  )\n);\nCloudRainWind.displayName = \"CloudRainWind\";\nexport const CloudRainWindMetadata = { \n  id: \"cloud-rain-wind\", \n  baseId: \"cloud-rain-wind\", \n  variant: \"default\", \n  name: \"Cloud Rain Wind\", \n  category: \"cloud\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default CloudRainWind;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

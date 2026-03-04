@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "square-split-vertical",
+  "type": "registry:ui",
+  "title": "Square Split Vertical",
+  "description": "Square Split Vertical icon component",
+  "category": "square",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/square/square-split-vertical.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface SquareSplitVerticalProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const SquareSplitVertical = React.forwardRef<SVGSVGElement, SquareSplitVerticalProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M5 8V5c0-1 1-2 2-2h10c1 0 2 1 2 2v3\" />\n  <path d=\"M19 16v3c0 1-1 2-2 2H7c-1 0-2-1-2-2v-3\" />\n  <line x1=\"4\" x2=\"20\" y1=\"12\" y2=\"12\" />\n    </svg>\n  )\n);\nSquareSplitVertical.displayName = \"SquareSplitVertical\";\nexport const SquareSplitVerticalMetadata = { \n  id: \"square-split-vertical\", \n  baseId: \"square-split-vertical\", \n  variant: \"default\", \n  name: \"Square Split Vertical\", \n  category: \"square\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default SquareSplitVertical;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

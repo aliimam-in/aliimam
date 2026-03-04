@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "grid-edit_rounded",
+  "type": "registry:ui",
+  "title": "Grid Edit",
+  "description": "Grid Edit icon component",
+  "category": "layout",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/layout/grid-edit_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface GridEditRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const GridEditRounded = React.forwardRef<SVGSVGElement, GridEditRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M22 11V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22H10\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M2.03003 8.5H22\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M2.03003 15.5H12\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M8.51001 21.99V2.01001\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M15.51 11.99V2.01001\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M18.73 14.6701L14.58 18.82C14.42 18.98 14.27 19.29 14.23 19.51L14 21.1C13.92 21.67 14.32 22.08 14.89 21.99L16.48 21.76C16.7 21.73 17.01 21.5701 17.17 21.4101L21.32 17.26C22.03 16.55 22.37 15.7101 21.32 14.6601C20.28 13.6201 19.45 13.9501 18.73 14.6701Z\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M18.14 15.26C18.49 16.52 19.48 17.5 20.74 17.86\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nGridEditRounded.displayName = \"GridEditRounded\";\nexport const GridEditRoundedMetadata = { \n  id: \"grid-edit_rounded\", \n  baseId: \"grid-edit\", \n  variant: \"rounded\", \n  name: \"Grid Edit\", \n  category: \"layout\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default GridEditRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

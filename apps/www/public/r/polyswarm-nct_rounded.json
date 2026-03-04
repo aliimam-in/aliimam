@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "polyswarm-nct_rounded",
+  "type": "registry:ui",
+  "title": "Polyswarm Nct",
+  "description": "Polyswarm Nct icon component",
+  "category": "brand",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/brand/polyswarm-nct_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface PolyswarmNctRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const PolyswarmNctRounded = React.forwardRef<SVGSVGElement, PolyswarmNctRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M9.5 3.20001H14.5C18.3 3.20001 21.5 6.30001 21.5 10.2C21.5 14 18.4 17.2 14.5 17.2H3.5\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M3.19995 6.79999H13.8C15.8 6.79999 17.5 8.49999 17.5 10.5C17.5 12.5 15.8 14.2 13.8 14.2H7.99995\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M8.5 10.8H5.5\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M6.5 20.8H2.5\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nPolyswarmNctRounded.displayName = \"PolyswarmNctRounded\";\nexport const PolyswarmNctRoundedMetadata = { \n  id: \"polyswarm-nct_rounded\", \n  baseId: \"polyswarm-nct\", \n  variant: \"rounded\", \n  name: \"Polyswarm Nct\", \n  category: \"brand\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default PolyswarmNctRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

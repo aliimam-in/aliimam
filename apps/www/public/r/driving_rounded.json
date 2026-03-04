@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "driving_rounded",
+  "type": "registry:ui",
+  "title": "Driving",
+  "description": "Driving icon component",
+  "category": "transport",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/transport/driving_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface DrivingRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const DrivingRounded = React.forwardRef<SVGSVGElement, DrivingRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M14.55 2H9.44995C7.64995 2 7.24996 2.90001 7.01996 4.01001L6.19995 7.92999H17.8L16.9799 4.01001C16.7499 2.90001 16.35 2 14.55 2Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M19.2401 14.3199C19.3201 15.1699 18.6401 15.9 17.7701 15.9H16.4101C15.6301 15.9 15.5201 15.57 15.3801 15.15L15.23 14.7199C15.03 14.1299 14.9001 13.7299 13.8501 13.7299H10.1401C9.10005 13.7299 8.94005 14.1799 8.76005 14.7199L8.61005 15.15C8.47005 15.56 8.36006 15.9 7.58006 15.9H6.22005C5.35005 15.9 4.67005 15.1699 4.75005 14.3199L5.16006 9.89996C5.26006 8.80996 5.47005 7.91992 7.37005 7.91992H16.62C18.52 7.91992 18.7301 8.80996 18.8301 9.89996L19.2401 14.3199Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M6.19997 5.75H5.46997\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M18.53 5.75H17.8\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M7.65015 10.8301H9.82016\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M14.1802 10.8301H16.3502\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M12 17V18\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M12 21V22\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M3 18L2 22\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M21 18L22 22\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nDrivingRounded.displayName = \"DrivingRounded\";\nexport const DrivingRoundedMetadata = { \n  id: \"driving_rounded\", \n  baseId: \"driving\", \n  variant: \"rounded\", \n  name: \"Driving\", \n  category: \"transport\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default DrivingRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

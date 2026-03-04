@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "move-up-right",
+  "type": "registry:ui",
+  "title": "Move Up Right",
+  "description": "Move Up Right icon component",
+  "category": "arrows",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/arrows/move-up-right.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface MoveUpRightProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const MoveUpRight = React.forwardRef<SVGSVGElement, MoveUpRightProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M13 5H19V11\" />\n  <path d=\"M19 5L5 19\" />\n    </svg>\n  )\n);\nMoveUpRight.displayName = \"MoveUpRight\";\nexport const MoveUpRightMetadata = { \n  id: \"move-up-right\", \n  baseId: \"move-up-right\", \n  variant: \"default\", \n  name: \"Move Up Right\", \n  category: \"arrows\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default MoveUpRight;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

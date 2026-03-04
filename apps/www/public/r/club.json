@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "club",
+  "type": "registry:ui",
+  "title": "Club",
+  "description": "Club icon component",
+  "category": "nature",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/nature/club.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ClubProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Club = React.forwardRef<SVGSVGElement, ClubProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M17.28 9.05a5.5 5.5 0 1 0-10.56 0A5.5 5.5 0 1 0 12 17.66a5.5 5.5 0 1 0 5.28-8.6Z\" />\n  <path d=\"M12 17.66L12 22\" />\n    </svg>\n  )\n);\nClub.displayName = \"Club\";\nexport const ClubMetadata = { \n  id: \"club\", \n  baseId: \"club\", \n  variant: \"default\", \n  name: \"Club\", \n  category: \"nature\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Club;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

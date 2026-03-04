@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "table-of-contents",
+  "type": "registry:ui",
+  "title": "Table Of Contents",
+  "description": "Table Of Contents icon component",
+  "category": "table",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/table/table-of-contents.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface TableOfContentsProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const TableOfContents = React.forwardRef<SVGSVGElement, TableOfContentsProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M16 5H3\" />\n  <path d=\"M16 12H3\" />\n  <path d=\"M16 19H3\" />\n  <path d=\"M21 5h.01\" />\n  <path d=\"M21 12h.01\" />\n  <path d=\"M21 19h.01\" />\n    </svg>\n  )\n);\nTableOfContents.displayName = \"TableOfContents\";\nexport const TableOfContentsMetadata = { \n  id: \"table-of-contents\", \n  baseId: \"table-of-contents\", \n  variant: \"default\", \n  name: \"Table Of Contents\", \n  category: \"table\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default TableOfContents;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

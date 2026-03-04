@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "hat-glasses",
+  "type": "registry:ui",
+  "title": "Hat Glasses",
+  "description": "Hat Glasses icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/hat-glasses.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface HatGlassesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const HatGlasses = React.forwardRef<SVGSVGElement, HatGlassesProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M14 18a2 2 0 0 0-4 0\" />\n  <path d=\"m19 11-2.11-6.657a2 2 0 0 0-2.752-1.148l-1.276.61A2 2 0 0 1 12 4H8.5a2 2 0 0 0-1.925 1.456L5 11\" />\n  <path d=\"M2 11h20\" />\n  <circle cx=\"17\" cy=\"18\" r=\"3\" />\n  <circle cx=\"7\" cy=\"18\" r=\"3\" />\n    </svg>\n  )\n);\nHatGlasses.displayName = \"HatGlasses\";\nexport const HatGlassesMetadata = { \n  id: \"hat-glasses\", \n  baseId: \"hat-glasses\", \n  variant: \"default\", \n  name: \"Hat Glasses\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default HatGlasses;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

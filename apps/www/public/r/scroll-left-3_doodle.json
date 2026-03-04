@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "scroll-left-3_doodle",
+  "type": "registry:ui",
+  "title": "Scroll Left 3",
+  "description": "Scroll Left 3 icon component",
+  "category": "hand",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/hand/scroll-left-3_doodle.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ScrollLeft3DoodleProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ScrollLeft3Doodle = React.forwardRef<SVGSVGElement, ScrollLeft3DoodleProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      bplist00�\u0001\u0002XUTI-Data�\u0003\u0004\u0005\u0006\u0007\b_\u0010$com.apple.traditional-mac-plain-text_\u0010\u0016public.utf8-plain-text_\u0010\u0017public.utf16-plain-textO\u0010\u00142-scroll-left_doodle_\u0010\u00142-scroll-left_doodleO\u0010(2\u0000-\u0000s\u0000c\u0000r\u0000o\u0000l\u0000l\u0000-\u0000l\u0000e\u0000f\u0000t\u0000_\u0000d\u0000o\u0000o\u0000d\u0000l\u0000e\u0000\b\u000b\u0014\u001bB[u��\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0001\u0000\u0000\u0000\u0000\u0000\u0000\u0000\t\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000�\n    </svg>\n  )\n);\nScrollLeft3Doodle.displayName = \"ScrollLeft3Doodle\";\nexport const ScrollLeft3DoodleMetadata = { \n  id: \"scroll-left-3_doodle\", \n  baseId: \"scroll-left-3\", \n  variant: \"doodle\", \n  name: \"Scroll Left 3\", \n  category: \"hand\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ScrollLeft3Doodle;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

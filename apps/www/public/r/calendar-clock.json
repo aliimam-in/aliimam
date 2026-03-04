@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "calendar-clock",
+  "type": "registry:ui",
+  "title": "Calendar Clock",
+  "description": "Calendar Clock icon component",
+  "category": "calendar",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/calendar/calendar-clock.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface CalendarClockProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const CalendarClock = React.forwardRef<SVGSVGElement, CalendarClockProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M16 14v2.2l1.6 1\" />\n  <path d=\"M16 2v4\" />\n  <path d=\"M21 7.5V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h3.5\" />\n  <path d=\"M3 10h5\" />\n  <path d=\"M8 2v4\" />\n  <circle cx=\"16\" cy=\"16\" r=\"6\" />\n    </svg>\n  )\n);\nCalendarClock.displayName = \"CalendarClock\";\nexport const CalendarClockMetadata = { \n  id: \"calendar-clock\", \n  baseId: \"calendar-clock\", \n  variant: \"default\", \n  name: \"Calendar Clock\", \n  category: \"calendar\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default CalendarClock;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

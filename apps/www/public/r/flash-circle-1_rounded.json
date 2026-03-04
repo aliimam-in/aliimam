@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "flash-circle-1_rounded",
+  "type": "registry:ui",
+  "title": "Flash Circle 1",
+  "description": "Flash Circle 1 icon component",
+  "category": "design",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/design/flash-circle-1_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface FlashCircle1RoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const FlashCircle1Rounded = React.forwardRef<SVGSVGElement, FlashCircle1RoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M8.67999 11.91L10.33 12.32L9.38 16.1601C9.16 17.0601 9.59998 17.36 10.36 16.83L15.54 13.24C16.17 12.8 16.08 12.29 15.33 12.1L13.68 11.69L14.63 7.85C14.85 6.95 14.41 6.65001 13.65 7.18001L8.47 10.77C7.84 11.21 7.92999 11.72 8.67999 11.91Z\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nFlashCircle1Rounded.displayName = \"FlashCircle1Rounded\";\nexport const FlashCircle1RoundedMetadata = { \n  id: \"flash-circle-1_rounded\", \n  baseId: \"flash-circle-1\", \n  variant: \"rounded\", \n  name: \"Flash Circle 1\", \n  category: \"design\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default FlashCircle1Rounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

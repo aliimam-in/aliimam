@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "recovery-convert_rounded",
+  "type": "registry:ui",
+  "title": "Recovery Convert",
+  "description": "Recovery Convert icon component",
+  "category": "design",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/design/recovery-convert_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface RecoveryConvertRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const RecoveryConvertRounded = React.forwardRef<SVGSVGElement, RecoveryConvertRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 22 22\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M13.35 11.33V14.06C13.35 16.34 12.44 17.25 10.16 17.25H7.44C5.17 17.25 4.25 16.34 4.25 14.06V11.33C4.25 9.06002 5.16 8.15002 7.44 8.15002H10.17C12.44 8.15002 13.35 9.06002 13.35 11.33Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M17.25 7.43V10.16C17.25 12.44 16.34 13.35 14.06 13.35H13.35V11.33C13.35 9.06 12.44 8.15 10.16 8.15H8.15002V7.43C8.15002 5.15 9.06002 4.25 11.34 4.25H14.07C16.34 4.25 17.25 5.16 17.25 7.43Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M20.75 13.75C20.75 17.62 17.62 20.75 13.75 20.75L14.8 19\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M0.75 7.75C0.75 3.88 3.88 0.75 7.75 0.75L6.7 2.5\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nRecoveryConvertRounded.displayName = \"RecoveryConvertRounded\";\nexport const RecoveryConvertRoundedMetadata = { \n  id: \"recovery-convert_rounded\", \n  baseId: \"recovery-convert\", \n  variant: \"rounded\", \n  name: \"Recovery Convert\", \n  category: \"design\", \n  tags: [], \n  viewBox: \"0 0 22 22\" \n} as const;\n\nexport default RecoveryConvertRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

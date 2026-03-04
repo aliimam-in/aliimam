@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "chart-pie",
+  "type": "registry:ui",
+  "title": "Chart Pie",
+  "description": "Chart Pie icon component",
+  "category": "chart",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/chart/chart-pie.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ChartPieProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ChartPie = React.forwardRef<SVGSVGElement, ChartPieProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M21 12c.552 0 1.005-.449.95-.998a10 10 0 0 0-8.953-8.951c-.55-.055-.998.398-.998.95v8a1 1 0 0 0 1 1z\" />\n  <path d=\"M21.21 15.89A10 10 0 1 1 8 2.83\" />\n    </svg>\n  )\n);\nChartPie.displayName = \"ChartPie\";\nexport const ChartPieMetadata = { \n  id: \"chart-pie\", \n  baseId: \"chart-pie\", \n  variant: \"default\", \n  name: \"Chart Pie\", \n  category: \"chart\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ChartPie;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

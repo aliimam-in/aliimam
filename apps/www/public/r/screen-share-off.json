@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "screen-share-off",
+  "type": "registry:ui",
+  "title": "Screen Share Off",
+  "description": "Screen Share Off icon component",
+  "category": "monitor",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/monitor/screen-share-off.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ScreenShareOffProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ScreenShareOff = React.forwardRef<SVGSVGElement, ScreenShareOffProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M13 3H4a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-3\" />\n  <path d=\"M8 21h8\" />\n  <path d=\"M12 17v4\" />\n  <path d=\"m22 3-5 5\" />\n  <path d=\"m17 3 5 5\" />\n    </svg>\n  )\n);\nScreenShareOff.displayName = \"ScreenShareOff\";\nexport const ScreenShareOffMetadata = { \n  id: \"screen-share-off\", \n  baseId: \"screen-share-off\", \n  variant: \"default\", \n  name: \"Screen Share Off\", \n  category: \"monitor\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ScreenShareOff;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

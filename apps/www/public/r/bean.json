@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "bean",
+  "type": "registry:ui",
+  "title": "Bean",
+  "description": "Bean icon component",
+  "category": "food",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/food/bean.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface BeanProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Bean = React.forwardRef<SVGSVGElement, BeanProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M10.165 6.598C9.954 7.478 9.64 8.36 9 9c-.64.64-1.521.954-2.402 1.165A6 6 0 0 0 8 22c7.732 0 14-6.268 14-14a6 6 0 0 0-11.835-1.402Z\" />\n  <path d=\"M5.341 10.62a4 4 0 1 0 5.279-5.28\" />\n    </svg>\n  )\n);\nBean.displayName = \"Bean\";\nexport const BeanMetadata = { \n  id: \"bean\", \n  baseId: \"bean\", \n  variant: \"default\", \n  name: \"Bean\", \n  category: \"food\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Bean;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

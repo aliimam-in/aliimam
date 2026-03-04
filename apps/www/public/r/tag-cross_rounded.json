@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "tag-cross_rounded",
+  "type": "registry:ui",
+  "title": "Tag Cross",
+  "description": "Tag Cross icon component",
+  "category": "home",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/home/tag-cross_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface TagCrossRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const TagCrossRounded = React.forwardRef<SVGSVGElement, TagCrossRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M10.28 20.25H17C19.76 20.25 22 18.01 22 15.25V8.75C22 5.99 19.76 3.75 17 3.75H10.28C8.86999 3.75 7.52999 4.34 6.57999 5.39L3.04999 9.27C1.63999 10.82 1.63999 13.18 3.04999 14.73L6.57999 18.61C7.52999 19.66 8.86999 20.25 10.28 20.25Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M16 14.47L11.06 9.53\"   strokeLinecap=\"round\"/>\n<path d=\"M11.06 14.47L16 9.53\"   strokeLinecap=\"round\"/>\n    </svg>\n  )\n);\nTagCrossRounded.displayName = \"TagCrossRounded\";\nexport const TagCrossRoundedMetadata = { \n  id: \"tag-cross_rounded\", \n  baseId: \"tag-cross\", \n  variant: \"rounded\", \n  name: \"Tag Cross\", \n  category: \"home\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default TagCrossRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

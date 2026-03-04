@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "sort_rounded",
+  "type": "registry:ui",
+  "title": "Sort",
+  "description": "Sort icon component",
+  "category": "home",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/home/sort_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface SortRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const SortRounded = React.forwardRef<SVGSVGElement, SortRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M3 7H21\"   strokeLinecap=\"round\"/>\n<path d=\"M6 12H18\"   strokeLinecap=\"round\"/>\n<path d=\"M10 17H14\"   strokeLinecap=\"round\"/>\n    </svg>\n  )\n);\nSortRounded.displayName = \"SortRounded\";\nexport const SortRoundedMetadata = { \n  id: \"sort_rounded\", \n  baseId: \"sort\", \n  variant: \"rounded\", \n  name: \"Sort\", \n  category: \"home\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default SortRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

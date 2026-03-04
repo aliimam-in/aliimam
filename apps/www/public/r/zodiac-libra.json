@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "zodiac-libra",
+  "type": "registry:ui",
+  "title": "Zodiac Libra",
+  "description": "Zodiac Libra icon component",
+  "category": "zodiac",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/zodiac/zodiac-libra.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ZodiacLibraProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ZodiacLibra = React.forwardRef<SVGSVGElement, ZodiacLibraProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M3 16h6.857c.162-.012.19-.323.038-.38a6 6 0 1 1 4.212 0c-.153.057-.125.368.038.38H21\" />\n  <path d=\"M3 20h18\" />\n    </svg>\n  )\n);\nZodiacLibra.displayName = \"ZodiacLibra\";\nexport const ZodiacLibraMetadata = { \n  id: \"zodiac-libra\", \n  baseId: \"zodiac-libra\", \n  variant: \"default\", \n  name: \"Zodiac Libra\", \n  category: \"zodiac\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ZodiacLibra;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

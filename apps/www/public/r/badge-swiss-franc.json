@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "badge-swiss-franc",
+  "type": "registry:ui",
+  "title": "Badge Swiss Franc",
+  "description": "Badge Swiss Franc icon component",
+  "category": "badge",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/badge/badge-swiss-franc.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface BadgeSwissFrancProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const BadgeSwissFranc = React.forwardRef<SVGSVGElement, BadgeSwissFrancProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z\" />\n  <path d=\"M11 17V8h4\" />\n  <path d=\"M11 12h3\" />\n  <path d=\"M9 16h4\" />\n    </svg>\n  )\n);\nBadgeSwissFranc.displayName = \"BadgeSwissFranc\";\nexport const BadgeSwissFrancMetadata = { \n  id: \"badge-swiss-franc\", \n  baseId: \"badge-swiss-franc\", \n  variant: \"default\", \n  name: \"Badge Swiss Franc\", \n  category: \"badge\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default BadgeSwissFranc;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "sms_rounded",
+  "type": "registry:ui",
+  "title": "Sms",
+  "description": "Sms icon component",
+  "category": "message",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/message/sms_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface SmsRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const SmsRounded = React.forwardRef<SVGSVGElement, SmsRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M17 20.5H7C4 20.5 2 19 2 15.5V8.5C2 5 4 3.5 7 3.5H17C20 3.5 22 5 22 8.5V15.5C22 19 20 20.5 17 20.5Z\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M17 9L13.87 11.5C12.84 12.32 11.15 12.32 10.12 11.5L7 9\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nSmsRounded.displayName = \"SmsRounded\";\nexport const SmsRoundedMetadata = { \n  id: \"sms_rounded\", \n  baseId: \"sms\", \n  variant: \"rounded\", \n  name: \"Sms\", \n  category: \"message\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default SmsRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

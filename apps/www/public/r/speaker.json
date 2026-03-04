@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "speaker",
+  "type": "registry:ui",
+  "title": "Speaker",
+  "description": "Speaker icon component",
+  "category": "device",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/device/speaker.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface SpeakerProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Speaker = React.forwardRef<SVGSVGElement, SpeakerProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <rect width=\"16\" height=\"20\" x=\"4\" y=\"2\" rx=\"2\" />\n  <path d=\"M12 6h.01\" />\n  <circle cx=\"12\" cy=\"14\" r=\"4\" />\n  <path d=\"M12 14h.01\" />\n    </svg>\n  )\n);\nSpeaker.displayName = \"Speaker\";\nexport const SpeakerMetadata = { \n  id: \"speaker\", \n  baseId: \"speaker\", \n  variant: \"default\", \n  name: \"Speaker\", \n  category: \"device\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Speaker;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

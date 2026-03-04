@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "umbrella-off",
+  "type": "registry:ui",
+  "title": "Umbrella Off",
+  "description": "Umbrella Off icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/umbrella-off.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface UmbrellaOffProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const UmbrellaOff = React.forwardRef<SVGSVGElement, UmbrellaOffProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M12 13v7a2 2 0 0 0 4 0\" />\n  <path d=\"M12 2v2\" />\n  <path d=\"M18.656 13h2.336a1 1 0 0 0 .97-1.274 10.284 10.284 0 0 0-12.07-7.51\" />\n  <path d=\"m2 2 20 20\" />\n  <path d=\"M5.961 5.957a10.28 10.28 0 0 0-3.922 5.769A1 1 0 0 0 3 13h10\" />\n    </svg>\n  )\n);\nUmbrellaOff.displayName = \"UmbrellaOff\";\nexport const UmbrellaOffMetadata = { \n  id: \"umbrella-off\", \n  baseId: \"umbrella-off\", \n  variant: \"default\", \n  name: \"Umbrella Off\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default UmbrellaOff;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

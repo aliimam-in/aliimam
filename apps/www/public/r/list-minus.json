@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "list-minus",
+  "type": "registry:ui",
+  "title": "List Minus",
+  "description": "List Minus icon component",
+  "category": "list",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/list/list-minus.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ListMinusProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ListMinus = React.forwardRef<SVGSVGElement, ListMinusProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M16 5H3\" />\n  <path d=\"M11 12H3\" />\n  <path d=\"M16 19H3\" />\n  <path d=\"M21 12h-6\" />\n    </svg>\n  )\n);\nListMinus.displayName = \"ListMinus\";\nexport const ListMinusMetadata = { \n  id: \"list-minus\", \n  baseId: \"list-minus\", \n  variant: \"default\", \n  name: \"List Minus\", \n  category: \"list\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ListMinus;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

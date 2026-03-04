@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "hand-platter",
+  "type": "registry:ui",
+  "title": "Hand Platter",
+  "description": "Hand Platter icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/hand-platter.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface HandPlatterProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const HandPlatter = React.forwardRef<SVGSVGElement, HandPlatterProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M12 3V2\" />\n  <path d=\"m15.4 17.4 3.2-2.8a2 2 0 1 1 2.8 2.9l-3.6 3.3c-.7.8-1.7 1.2-2.8 1.2h-4c-1.1 0-2.1-.4-2.8-1.2l-1.302-1.464A1 1 0 0 0 6.151 19H5\" />\n  <path d=\"M2 14h12a2 2 0 0 1 0 4h-2\" />\n  <path d=\"M4 10h16\" />\n  <path d=\"M5 10a7 7 0 0 1 14 0\" />\n  <path d=\"M5 14v6a1 1 0 0 1-1 1H2\" />\n    </svg>\n  )\n);\nHandPlatter.displayName = \"HandPlatter\";\nexport const HandPlatterMetadata = { \n  id: \"hand-platter\", \n  baseId: \"hand-platter\", \n  variant: \"default\", \n  name: \"Hand Platter\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default HandPlatter;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "mail-search",
+  "type": "registry:ui",
+  "title": "Mail Search",
+  "description": "Mail Search icon component",
+  "category": "mail",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/mail/mail-search.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface MailSearchProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const MailSearch = React.forwardRef<SVGSVGElement, MailSearchProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M22 12.5V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h7.5\" />\n  <path d=\"m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7\" />\n  <path d=\"M18 21a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z\" />\n  <circle cx=\"18\" cy=\"18\" r=\"3\" />\n  <path d=\"m22 22-1.5-1.5\" />\n    </svg>\n  )\n);\nMailSearch.displayName = \"MailSearch\";\nexport const MailSearchMetadata = { \n  id: \"mail-search\", \n  baseId: \"mail-search\", \n  variant: \"default\", \n  name: \"Mail Search\", \n  category: \"mail\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default MailSearch;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

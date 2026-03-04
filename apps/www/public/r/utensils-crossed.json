@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "utensils-crossed",
+  "type": "registry:ui",
+  "title": "Utensils Crossed",
+  "description": "Utensils Crossed icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/utensils-crossed.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface UtensilsCrossedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const UtensilsCrossed = React.forwardRef<SVGSVGElement, UtensilsCrossedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"m16 2-2.3 2.3a3 3 0 0 0 0 4.2l1.8 1.8a3 3 0 0 0 4.2 0L22 8\" />\n  <path d=\"M15 15 3.3 3.3a4.2 4.2 0 0 0 0 6l7.3 7.3c.7.7 2 .7 2.8 0L15 15Zm0 0 7 7\" />\n  <path d=\"m2.1 21.8 6.4-6.3\" />\n  <path d=\"m19 5-7 7\" />\n    </svg>\n  )\n);\nUtensilsCrossed.displayName = \"UtensilsCrossed\";\nexport const UtensilsCrossedMetadata = { \n  id: \"utensils-crossed\", \n  baseId: \"utensils-crossed\", \n  variant: \"default\", \n  name: \"Utensils Crossed\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default UtensilsCrossed;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

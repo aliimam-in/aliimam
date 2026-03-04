@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "previous_filled",
+  "type": "registry:ui",
+  "title": "Previous",
+  "description": "Previous icon component",
+  "category": "multimedia",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/multimedia/previous_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface PreviousFilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const PreviousFilled = React.forwardRef<SVGSVGElement, PreviousFilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M20.24 7.22006V16.7901C20.24 18.7501 18.11 19.9801 16.41 19.0001L12.26 16.6101L8.10996 14.2101C6.40996 13.2301 6.40996 10.7801 8.10996 9.80006L12.26 7.40006L16.41 5.01006C18.11 4.03006 20.24 5.25006 20.24 7.22006Z\" fill=\"currentColor\"/>\n<path d=\"M3.76001 18.9301C3.35001 18.9301 3.01001 18.5901 3.01001 18.1801V5.82007C3.01001 5.41007 3.35001 5.07007 3.76001 5.07007C4.17001 5.07007 4.51001 5.41007 4.51001 5.82007V18.1801C4.51001 18.5901 4.17001 18.9301 3.76001 18.9301Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nPreviousFilled.displayName = \"PreviousFilled\";\nexport const PreviousFilledMetadata = { \n  id: \"previous_filled\", \n  baseId: \"previous\", \n  variant: \"filled\", \n  name: \"Previous\", \n  category: \"multimedia\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default PreviousFilled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

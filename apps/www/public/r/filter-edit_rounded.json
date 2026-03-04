@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "filter-edit_rounded",
+  "type": "registry:ui",
+  "title": "Filter Edit",
+  "description": "Filter Edit icon component",
+  "category": "home",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/home/filter-edit_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface FilterEditRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const FilterEditRounded = React.forwardRef<SVGSVGElement, FilterEditRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M13.41 20.79L12 21.7C10.69 22.51 8.87 21.6 8.87 19.98V14.63C8.87 13.92 8.47 13.01 8.06 12.51L4.21997 8.47C3.70997 7.96 3.31 7.06001 3.31 6.45001V4.13C3.31 2.92 4.22002 2.01001 5.33002 2.01001H18.67C19.78 2.01001 20.69 2.92 20.69 4.03V6.25C20.69 7.06 20.18 8.07001 19.68 8.57001\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M17.08 11.89L13.54 15.43C13.4 15.57 13.27 15.83 13.24 16.02L13.05 17.37C12.98 17.86 13.32 18.2 13.81 18.13L15.1599 17.94C15.3499 17.91 15.62 17.78 15.75 17.64L19.29 14.1C19.9 13.49 20.19 12.78 19.29 11.88C18.4 10.99 17.69 11.28 17.08 11.89Z\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M16.58 12.39C16.88 13.47 17.72 14.31 18.8 14.61\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nFilterEditRounded.displayName = \"FilterEditRounded\";\nexport const FilterEditRoundedMetadata = { \n  id: \"filter-edit_rounded\", \n  baseId: \"filter-edit\", \n  variant: \"rounded\", \n  name: \"Filter Edit\", \n  category: \"home\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default FilterEditRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

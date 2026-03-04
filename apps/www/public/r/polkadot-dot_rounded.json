@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "polkadot-dot_rounded",
+  "type": "registry:ui",
+  "title": "Polkadot Dot",
+  "description": "Polkadot Dot icon component",
+  "category": "brand",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/brand/polkadot-dot_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface PolkadotDotRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const PolkadotDotRounded = React.forwardRef<SVGSVGElement, PolkadotDotRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M5.4 13C4.8 12 4.5 10.8 4.5 9.5C4.5 5.4 7.9 2 12 2C16.1 2 19.5 5.4 19.5 9.5C19.5 13.6 16.1 17 12 17C12 17 9.3 17 8.3 19.2C8.1 19.7 8 20.3 8 21L10 7\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M14 21V21\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nPolkadotDotRounded.displayName = \"PolkadotDotRounded\";\nexport const PolkadotDotRoundedMetadata = { \n  id: \"polkadot-dot_rounded\", \n  baseId: \"polkadot-dot\", \n  variant: \"rounded\", \n  name: \"Polkadot Dot\", \n  category: \"brand\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default PolkadotDotRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ontology-ont_filled",
+  "type": "registry:ui",
+  "title": "Ontology Ont",
+  "description": "Ontology Ont icon component",
+  "category": "brand",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/brand/ontology-ont_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface OntologyOntFilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const OntologyOntFilled = React.forwardRef<SVGSVGElement, OntologyOntFilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M17.9 19.68C16.18 21.18 13.91 22.07 11.42 22C6.24998 21.86 2.21997 17.41 2.21997 12.24V5.21004C2.21997 4.76004 2.75998 4.54003 3.06998 4.86003L17.9 19.68Z\" fill=\"currentColor\"/>\n<path d=\"M6.21997 4.29998C7.92997 2.80998 10.18 1.92998 12.65 1.99998C17.78 2.13998 21.77 6.54997 21.77 11.68V18.64C21.77 19.09 21.23 19.31 20.92 18.99L6.21997 4.29998Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nOntologyOntFilled.displayName = \"OntologyOntFilled\";\nexport const OntologyOntFilledMetadata = { \n  id: \"ontology-ont_filled\", \n  baseId: \"ontology-ont\", \n  variant: \"filled\", \n  name: \"Ontology Ont\", \n  category: \"brand\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default OntologyOntFilled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

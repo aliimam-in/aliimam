@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "calendar-cog",
+  "type": "registry:ui",
+  "title": "Calendar Cog",
+  "description": "Calendar Cog icon component",
+  "category": "calendar",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/calendar/calendar-cog.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface CalendarCogProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const CalendarCog = React.forwardRef<SVGSVGElement, CalendarCogProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"m15.228 16.852-.923-.383\" />\n  <path d=\"m15.228 19.148-.923.383\" />\n  <path d=\"M16 2v4\" />\n  <path d=\"m16.47 14.305.382.923\" />\n  <path d=\"m16.852 20.772-.383.924\" />\n  <path d=\"m19.148 15.228.383-.923\" />\n  <path d=\"m19.53 21.696-.382-.924\" />\n  <path d=\"m20.772 16.852.924-.383\" />\n  <path d=\"m20.772 19.148.924.383\" />\n  <path d=\"M21 10.592V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h6\" />\n  <path d=\"M3 10h18\" />\n  <path d=\"M8 2v4\" />\n  <circle cx=\"18\" cy=\"18\" r=\"3\" />\n    </svg>\n  )\n);\nCalendarCog.displayName = \"CalendarCog\";\nexport const CalendarCogMetadata = { \n  id: \"calendar-cog\", \n  baseId: \"calendar-cog\", \n  variant: \"default\", \n  name: \"Calendar Cog\", \n  category: \"calendar\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default CalendarCog;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

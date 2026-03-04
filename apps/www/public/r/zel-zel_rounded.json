@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "zel-zel_rounded",
+  "type": "registry:ui",
+  "title": "Zel Zel",
+  "description": "Zel Zel icon component",
+  "category": "brand",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/brand/zel-zel_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ZelZelRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ZelZelRounded = React.forwardRef<SVGSVGElement, ZelZelRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M10.5 11.5V14.3L8 15.8L5.5 14.3V11.5L8 10L9.2 10.7L10.5 11.5Z\"   strokeMiterlimit=\"10\" strokeLinejoin=\"round\"/>\n<path d=\"M18.5 11.5V14.3L16 15.8L13.5 14.3V11.5L14.8 10.7L16 10L18.5 11.5Z\"   strokeMiterlimit=\"10\" strokeLinejoin=\"round\"/>\n<path d=\"M14.8 9.29999V10.7L13.5 11.5V13.2L12 14.1L10.5 13.2V11.5L9.19995 10.7V9.29999L12 7.79999L14.8 9.29999Z\"   strokeMiterlimit=\"10\" strokeLinejoin=\"round\"/>\n<path d=\"M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z\"   strokeMiterlimit=\"10\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nZelZelRounded.displayName = \"ZelZelRounded\";\nexport const ZelZelRoundedMetadata = { \n  id: \"zel-zel_rounded\", \n  baseId: \"zel-zel\", \n  variant: \"rounded\", \n  name: \"Zel Zel\", \n  category: \"brand\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ZelZelRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

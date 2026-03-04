@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "chevron-down",
+  "type": "registry:ui",
+  "title": "Chevron Down",
+  "description": "Chevron Down icon component",
+  "category": "arrows",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/arrows/chevron-down.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ChevronDownProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ChevronDown = React.forwardRef<SVGSVGElement, ChevronDownProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"m6 9 6 6 6-6\" />\n    </svg>\n  )\n);\nChevronDown.displayName = \"ChevronDown\";\nexport const ChevronDownMetadata = { \n  id: \"chevron-down\", \n  baseId: \"chevron-down\", \n  variant: \"default\", \n  name: \"Chevron Down\", \n  category: \"arrows\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ChevronDown;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

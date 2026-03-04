@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "dollar-sign",
+  "type": "registry:ui",
+  "title": "Dollar Sign",
+  "description": "Dollar Sign icon component",
+  "category": "finance",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/finance/dollar-sign.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface DollarSignProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const DollarSign = React.forwardRef<SVGSVGElement, DollarSignProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <line x1=\"12\" x2=\"12\" y1=\"2\" y2=\"22\" />\n  <path d=\"M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6\" />\n    </svg>\n  )\n);\nDollarSign.displayName = \"DollarSign\";\nexport const DollarSignMetadata = { \n  id: \"dollar-sign\", \n  baseId: \"dollar-sign\", \n  variant: \"default\", \n  name: \"Dollar Sign\", \n  category: \"finance\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default DollarSign;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

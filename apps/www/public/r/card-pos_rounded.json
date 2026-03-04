@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "card-pos_rounded",
+  "type": "registry:ui",
+  "title": "Card Pos",
+  "description": "Card Pos icon component",
+  "category": "finance",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/finance/card-pos_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface CardPosRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const CardPosRounded = React.forwardRef<SVGSVGElement, CardPosRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M3.92969 15.8792L15.8797 3.9292\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M11.1013 18.279L12.3013 17.079\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M13.793 15.5887L16.183 13.1987\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M3.60127 10.239L10.2413 3.599C12.3613 1.479 13.4213 1.469 15.5213 3.569L20.4313 8.479C22.5313 10.579 22.5213 11.639 20.4013 13.759L13.7613 20.399C11.6413 22.519 10.5813 22.529 8.48127 20.429L3.57127 15.519C1.47127 13.419 1.47127 12.369 3.60127 10.239Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M2 21.9985H22\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nCardPosRounded.displayName = \"CardPosRounded\";\nexport const CardPosRoundedMetadata = { \n  id: \"card-pos_rounded\", \n  baseId: \"card-pos\", \n  variant: \"rounded\", \n  name: \"Card Pos\", \n  category: \"finance\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default CardPosRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

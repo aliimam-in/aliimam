@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "monitor-smartphone",
+  "type": "registry:ui",
+  "title": "Monitor Smartphone",
+  "description": "Monitor Smartphone icon component",
+  "category": "monitor",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/monitor/monitor-smartphone.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface MonitorSmartphoneProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const MonitorSmartphone = React.forwardRef<SVGSVGElement, MonitorSmartphoneProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M18 8V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h8\" />\n  <path d=\"M10 19v-3.96 3.15\" />\n  <path d=\"M7 19h5\" />\n  <rect width=\"6\" height=\"10\" x=\"16\" y=\"12\" rx=\"2\" />\n    </svg>\n  )\n);\nMonitorSmartphone.displayName = \"MonitorSmartphone\";\nexport const MonitorSmartphoneMetadata = { \n  id: \"monitor-smartphone\", \n  baseId: \"monitor-smartphone\", \n  variant: \"default\", \n  name: \"Monitor Smartphone\", \n  category: \"monitor\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default MonitorSmartphone;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

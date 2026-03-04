@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "status_filled",
+  "type": "registry:ui",
+  "title": "Status",
+  "description": "Status icon component",
+  "category": "app",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/app/status_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface StatusFilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const StatusFilled = React.forwardRef<SVGSVGElement, StatusFilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M9 14.2202H3.92C3.31 14.2202 2.75 14.5302 2.43 15.0502C2.11 15.5602 2.08 16.1702 2.34 16.7102C3.57 19.2302 5.79 21.2102 8.43 22.1402C8.61 22.2002 8.81 22.2402 9 22.2402C9.35 22.2402 9.7 22.1302 10 21.9202C10.47 21.5902 10.75 21.0502 10.75 20.4802L10.76 15.9802C10.76 15.5102 10.58 15.0702 10.25 14.7402C9.91 14.4102 9.47 14.2202 9 14.2202Z\" fill=\"currentColor\"/>\n<path d=\"M22.48 9.6C21.36 4.68 17.05 1.25 12 1.25C6.95 1.25 2.64 4.68 1.52 9.6C1.4 10.12 1.52 10.65 1.86 11.07C2.2 11.49 2.7 11.73 3.24 11.73H20.77C21.31 11.73 21.81 11.49 22.15 11.07C22.48 10.65 22.6 10.11 22.48 9.6Z\" fill=\"currentColor\"/>\n<path d=\"M20.06 14.2698L15 14.2598C14.53 14.2598 14.09 14.4398 13.76 14.7698C13.43 15.0998 13.25 15.5398 13.25 16.0098L13.26 20.4898C13.26 21.0598 13.54 21.5998 14.01 21.9298C14.31 22.1398 14.66 22.2498 15.01 22.2498C15.2 22.2498 15.39 22.2198 15.57 22.1498C18.19 21.2298 20.41 19.2598 21.64 16.7698C21.9 16.2398 21.87 15.6198 21.56 15.1198C21.23 14.5798 20.67 14.2698 20.06 14.2698Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nStatusFilled.displayName = \"StatusFilled\";\nexport const StatusFilledMetadata = { \n  id: \"status_filled\", \n  baseId: \"status\", \n  variant: \"filled\", \n  name: \"Status\", \n  category: \"app\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default StatusFilled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

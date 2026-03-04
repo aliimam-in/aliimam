@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "case-lower",
+  "type": "registry:ui",
+  "title": "Case Lower",
+  "description": "Case Lower icon component",
+  "category": "text",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/text/case-lower.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface CaseLowerProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const CaseLower = React.forwardRef<SVGSVGElement, CaseLowerProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M10 9v7\" />\n  <path d=\"M14 6v10\" />\n  <circle cx=\"17.5\" cy=\"12.5\" r=\"3.5\" />\n  <circle cx=\"6.5\" cy=\"12.5\" r=\"3.5\" />\n    </svg>\n  )\n);\nCaseLower.displayName = \"CaseLower\";\nexport const CaseLowerMetadata = { \n  id: \"case-lower\", \n  baseId: \"case-lower\", \n  variant: \"default\", \n  name: \"Case Lower\", \n  category: \"text\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default CaseLower;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "gemini_filled",
+  "type": "registry:ui",
+  "title": "Gemini",
+  "description": "Gemini icon component",
+  "category": "gender",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/gender/gemini_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface GeminiFilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const GeminiFilled = React.forwardRef<SVGSVGElement, GeminiFilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M19.2299 4.18006L19.3599 3.94006C19.5099 3.67006 19.4699 3.33006 19.2699 3.09006C19.0699 2.85006 18.7399 2.77006 18.4399 2.88006C14.2899 4.40006 9.70995 4.40006 5.55995 2.88006C5.25995 2.77006 4.93995 2.85006 4.72995 3.09006C4.52995 3.33006 4.48995 3.66006 4.63995 3.94006L4.76995 4.17006C7.38995 9.16006 7.35995 15.0901 4.66995 20.0501C4.51995 20.3201 4.55995 20.6601 4.75995 20.9001C4.95995 21.1401 5.28995 21.2201 5.57995 21.1101C9.70995 19.6001 14.2699 19.6001 18.4099 21.1101C18.4899 21.1401 18.5799 21.1601 18.6699 21.1601C18.8799 21.1601 19.0899 21.0701 19.2399 20.9001C19.4399 20.6601 19.4799 20.3301 19.3299 20.0501C16.6499 15.0901 16.6099 9.16006 19.2299 4.18006Z\" fill=\"currentColor\"/>\n<path d=\"M18.6999 4.33005C18.3899 4.33005 18.1099 4.14005 17.9999 3.84005C17.8599 3.45005 18.0599 3.02005 18.4399 2.88005C19.5199 2.48005 20.5799 1.97005 21.6199 1.36005C21.9799 1.15005 22.4399 1.27005 22.6499 1.62005C22.8599 1.98005 22.7399 2.44005 22.3899 2.65005C21.2799 3.31005 20.1299 3.86005 18.9699 4.29005C18.8699 4.32005 18.7899 4.33005 18.6999 4.33005Z\" fill=\"currentColor\"/>\n<path d=\"M5.30005 4.32988C5.21005 4.32988 5.13005 4.31988 5.04005 4.27988C3.88005 3.85988 2.73005 3.29988 1.62005 2.63988C1.26005 2.42988 1.14005 1.96988 1.36005 1.61988C1.57005 1.25988 2.03005 1.14988 2.39005 1.35988C3.42005 1.96988 4.49005 2.47988 5.57005 2.87988C5.95005 3.01988 6.15005 3.44988 6.00005 3.83988C5.89005 4.13988 5.60005 4.32988 5.30005 4.32988Z\" fill=\"currentColor\"/>\n<path d=\"M22.0001 22.7499C21.8701 22.7499 21.7401 22.7199 21.6201 22.6399C20.5901 22.0299 19.5201 21.5099 18.4201 21.1099C18.0301 20.9699 17.8301 20.5399 17.9701 20.1499C18.1101 19.7599 18.5401 19.5599 18.9301 19.6999C20.1201 20.1299 21.2801 20.6899 22.3901 21.3499C22.7501 21.5599 22.8601 22.0199 22.6501 22.3799C22.5001 22.6199 22.2501 22.7499 22.0001 22.7499Z\" fill=\"currentColor\"/>\n<path d=\"M2 22.7499C1.75 22.7499 1.5 22.6199 1.36 22.3799C1.15 22.0199 1.26 21.5599 1.62 21.3499C2.73 20.6899 3.89 20.1299 5.08 19.6999C5.47 19.5599 5.9 19.7599 6.04 20.1499C6.18 20.5399 5.98 20.9699 5.59 21.1099C4.49 21.5099 3.41 22.0299 2.39 22.6399C2.26 22.7199 2.13 22.7499 2 22.7499Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nGeminiFilled.displayName = \"GeminiFilled\";\nexport const GeminiFilledMetadata = { \n  id: \"gemini_filled\", \n  baseId: \"gemini\", \n  variant: \"filled\", \n  name: \"Gemini\", \n  category: \"gender\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default GeminiFilled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

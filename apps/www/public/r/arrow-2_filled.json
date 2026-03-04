@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "arrow-2_filled",
+  "type": "registry:ui",
+  "title": "Arrow 2",
+  "description": "Arrow 2 icon component",
+  "category": "arrows",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/arrows/arrow-2_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface Arrow2FilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Arrow2Filled = React.forwardRef<SVGSVGElement, Arrow2FilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M21.75 6.72995C21.75 6.52995 21.67 6.33995 21.53 6.19995L17.81 2.47995C17.52 2.18995 17.04 2.18995 16.75 2.47995C16.46 2.76995 16.46 3.24995 16.75 3.53995L19.2 5.98995H3C2.59 5.98995 2.25 6.32995 2.25 6.73995C2.25 7.14995 2.59 7.47995 3 7.47995H19.19L16.75 9.91995C16.46 10.21 16.46 10.69 16.75 10.98C16.9 11.13 17.09 11.2 17.28 11.2C17.47 11.2 17.66 11.13 17.81 10.98L21.52 7.26995C21.59 7.19995 21.65 7.10995 21.69 7.00995C21.69 6.99995 21.69 6.98995 21.7 6.97995C21.73 6.89995 21.75 6.81995 21.75 6.72995Z\" fill=\"currentColor\"/>\n<path d=\"M21 16.52H4.81L7.25 14.08C7.54 13.79 7.54 13.31 7.25 13.02C6.96 12.73 6.48 12.73 6.19 13.02L2.48 16.73C2.41 16.8 2.35 16.89 2.31 16.99C2.31 17 2.31 17.01 2.3 17.02C2.27 17.1 2.25 17.19 2.25 17.28C2.25 17.48 2.33 17.67 2.47 17.81L6.19 21.53C6.34 21.68 6.53 21.75 6.72 21.75C6.91 21.75 7.1 21.68 7.25 21.53C7.54 21.24 7.54 20.76 7.25 20.47L4.8 18.02H21C21.41 18.02 21.75 17.68 21.75 17.27C21.75 16.86 21.41 16.52 21 16.52Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nArrow2Filled.displayName = \"Arrow2Filled\";\nexport const Arrow2FilledMetadata = { \n  id: \"arrow-2_filled\", \n  baseId: \"arrow-2\", \n  variant: \"filled\", \n  name: \"Arrow 2\", \n  category: \"arrows\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Arrow2Filled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

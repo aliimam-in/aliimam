@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "chart-column-stacked",
+  "type": "registry:ui",
+  "title": "Chart Column Stacked",
+  "description": "Chart Column Stacked icon component",
+  "category": "chart",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/chart/chart-column-stacked.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ChartColumnStackedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ChartColumnStacked = React.forwardRef<SVGSVGElement, ChartColumnStackedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M11 13H7\" />\n  <path d=\"M19 9h-4\" />\n  <path d=\"M3 3v16a2 2 0 0 0 2 2h16\" />\n  <rect x=\"15\" y=\"5\" width=\"4\" height=\"12\" rx=\"1\" />\n  <rect x=\"7\" y=\"8\" width=\"4\" height=\"9\" rx=\"1\" />\n    </svg>\n  )\n);\nChartColumnStacked.displayName = \"ChartColumnStacked\";\nexport const ChartColumnStackedMetadata = { \n  id: \"chart-column-stacked\", \n  baseId: \"chart-column-stacked\", \n  variant: \"default\", \n  name: \"Chart Column Stacked\", \n  category: \"chart\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ChartColumnStacked;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

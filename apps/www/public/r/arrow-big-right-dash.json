@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "arrow-big-right-dash",
+  "type": "registry:ui",
+  "title": "Arrow Big Right Dash",
+  "description": "Arrow Big Right Dash icon component",
+  "category": "arrows",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/arrows/arrow-big-right-dash.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ArrowBigRightDashProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ArrowBigRightDash = React.forwardRef<SVGSVGElement, ArrowBigRightDashProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M11 9a1 1 0 0 0 1-1V5.061a1 1 0 0 1 1.811-.75l6.836 6.836a1.207 1.207 0 0 1 0 1.707l-6.836 6.835a1 1 0 0 1-1.811-.75V16a1 1 0 0 0-1-1H9a1 1 0 0 1-1-1v-4a1 1 0 0 1 1-1z\" />\n  <path d=\"M4 9v6\" />\n    </svg>\n  )\n);\nArrowBigRightDash.displayName = \"ArrowBigRightDash\";\nexport const ArrowBigRightDashMetadata = { \n  id: \"arrow-big-right-dash\", \n  baseId: \"arrow-big-right-dash\", \n  variant: \"default\", \n  name: \"Arrow Big Right Dash\", \n  category: \"arrows\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ArrowBigRightDash;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

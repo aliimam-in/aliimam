@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "badge-japanese-yen",
+  "type": "registry:ui",
+  "title": "Badge Japanese Yen",
+  "description": "Badge Japanese Yen icon component",
+  "category": "badge",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/badge/badge-japanese-yen.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface BadgeJapaneseYenProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const BadgeJapaneseYen = React.forwardRef<SVGSVGElement, BadgeJapaneseYenProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z\" />\n  <path d=\"m9 8 3 3v7\" />\n  <path d=\"m12 11 3-3\" />\n  <path d=\"M9 12h6\" />\n  <path d=\"M9 16h6\" />\n    </svg>\n  )\n);\nBadgeJapaneseYen.displayName = \"BadgeJapaneseYen\";\nexport const BadgeJapaneseYenMetadata = { \n  id: \"badge-japanese-yen\", \n  baseId: \"badge-japanese-yen\", \n  variant: \"default\", \n  name: \"Badge Japanese Yen\", \n  category: \"badge\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default BadgeJapaneseYen;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

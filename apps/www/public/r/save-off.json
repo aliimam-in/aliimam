@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "save-off",
+  "type": "registry:ui",
+  "title": "Save Off",
+  "description": "Save Off icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/save-off.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface SaveOffProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const SaveOff = React.forwardRef<SVGSVGElement, SaveOffProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M13 13H8a1 1 0 0 0-1 1v7\" />\n  <path d=\"M14 8h1\" />\n  <path d=\"M17 21v-4\" />\n  <path d=\"m2 2 20 20\" />\n  <path d=\"M20.41 20.41A2 2 0 0 1 19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 .59-1.41\" />\n  <path d=\"M29.5 11.5s5 5 4 5\" />\n  <path d=\"M9 3h6.2a2 2 0 0 1 1.4.6l3.8 3.8a2 2 0 0 1 .6 1.4V15\" />\n    </svg>\n  )\n);\nSaveOff.displayName = \"SaveOff\";\nexport const SaveOffMetadata = { \n  id: \"save-off\", \n  baseId: \"save-off\", \n  variant: \"default\", \n  name: \"Save Off\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default SaveOff;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

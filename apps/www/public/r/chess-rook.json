@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "chess-rook",
+  "type": "registry:ui",
+  "title": "Chess Rook",
+  "description": "Chess Rook icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/chess-rook.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ChessRookProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ChessRook = React.forwardRef<SVGSVGElement, ChessRookProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M5 20a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v1a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1z\" />\n  <path d=\"M10 2v2\" />\n  <path d=\"M14 2v2\" />\n  <path d=\"m17 18-1-9\" />\n  <path d=\"M6 2v5a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2\" />\n  <path d=\"M6 4h12\" />\n  <path d=\"m7 18 1-9\" />\n    </svg>\n  )\n);\nChessRook.displayName = \"ChessRook\";\nexport const ChessRookMetadata = { \n  id: \"chess-rook\", \n  baseId: \"chess-rook\", \n  variant: \"default\", \n  name: \"Chess Rook\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ChessRook;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

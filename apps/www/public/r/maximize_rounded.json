@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "maximize_rounded",
+  "type": "registry:ui",
+  "title": "Maximize",
+  "description": "Maximize icon component",
+  "category": "layout",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/layout/maximize_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface MaximizeRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const MaximizeRounded = React.forwardRef<SVGSVGElement, MaximizeRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M2 9.98V9C2 4 4 2 9 2H15C20 2 22 4 22 9V15C22 20 20 22 15 22H14\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M13 11L18.01 5.98H14\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M18.01 5.98V9.99\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M11 16.15V18.85C11 21.1 10.1 22 7.85 22H5.15C2.9 22 2 21.1 2 18.85V16.15C2 13.9 2.9 13 5.15 13H7.85C10.1 13 11 13.9 11 16.15Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nMaximizeRounded.displayName = \"MaximizeRounded\";\nexport const MaximizeRoundedMetadata = { \n  id: \"maximize_rounded\", \n  baseId: \"maximize\", \n  variant: \"rounded\", \n  name: \"Maximize\", \n  category: \"layout\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default MaximizeRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

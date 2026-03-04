@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "vegan",
+  "type": "registry:ui",
+  "title": "Vegan",
+  "description": "Vegan icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/vegan.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface VeganProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Vegan = React.forwardRef<SVGSVGElement, VeganProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M16 8q6 0 6-6-6 0-6 6\" />\n  <path d=\"M17.41 3.59a10 10 0 1 0 3 3\" />\n  <path d=\"M2 2a26.6 26.6 0 0 1 10 20c.9-6.82 1.5-9.5 4-14\" />\n    </svg>\n  )\n);\nVegan.displayName = \"Vegan\";\nexport const VeganMetadata = { \n  id: \"vegan\", \n  baseId: \"vegan\", \n  variant: \"default\", \n  name: \"Vegan\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Vegan;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

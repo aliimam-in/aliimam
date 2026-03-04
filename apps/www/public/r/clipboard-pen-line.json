@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "clipboard-pen-line",
+  "type": "registry:ui",
+  "title": "Clipboard Pen Line",
+  "description": "Clipboard Pen Line icon component",
+  "category": "clipboard",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/clipboard/clipboard-pen-line.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ClipboardPenLineProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ClipboardPenLine = React.forwardRef<SVGSVGElement, ClipboardPenLineProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <rect width=\"8\" height=\"4\" x=\"8\" y=\"2\" rx=\"1\" />\n  <path d=\"M8 4H6a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-.5\" />\n  <path d=\"M16 4h2a2 2 0 0 1 1.73 1\" />\n  <path d=\"M8 18h1\" />\n  <path d=\"M21.378 12.626a1 1 0 0 0-3.004-3.004l-4.01 4.012a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506z\" />\n    </svg>\n  )\n);\nClipboardPenLine.displayName = \"ClipboardPenLine\";\nexport const ClipboardPenLineMetadata = { \n  id: \"clipboard-pen-line\", \n  baseId: \"clipboard-pen-line\", \n  variant: \"default\", \n  name: \"Clipboard Pen Line\", \n  category: \"clipboard\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ClipboardPenLine;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

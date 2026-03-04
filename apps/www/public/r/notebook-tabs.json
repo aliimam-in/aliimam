@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "notebook-tabs",
+  "type": "registry:ui",
+  "title": "Notebook Tabs",
+  "description": "Notebook Tabs icon component",
+  "category": "book",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/book/notebook-tabs.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface NotebookTabsProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const NotebookTabs = React.forwardRef<SVGSVGElement, NotebookTabsProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M2 6h4\" />\n  <path d=\"M2 10h4\" />\n  <path d=\"M2 14h4\" />\n  <path d=\"M2 18h4\" />\n  <rect width=\"16\" height=\"20\" x=\"4\" y=\"2\" rx=\"2\" />\n  <path d=\"M15 2v20\" />\n  <path d=\"M15 7h5\" />\n  <path d=\"M15 12h5\" />\n  <path d=\"M15 17h5\" />\n    </svg>\n  )\n);\nNotebookTabs.displayName = \"NotebookTabs\";\nexport const NotebookTabsMetadata = { \n  id: \"notebook-tabs\", \n  baseId: \"notebook-tabs\", \n  variant: \"default\", \n  name: \"Notebook Tabs\", \n  category: \"book\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default NotebookTabs;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

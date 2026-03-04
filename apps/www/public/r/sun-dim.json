@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "sun-dim",
+  "type": "registry:ui",
+  "title": "Sun Dim",
+  "description": "Sun Dim icon component",
+  "category": "weather",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/weather/sun-dim.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface SunDimProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const SunDim = React.forwardRef<SVGSVGElement, SunDimProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <circle cx=\"12\" cy=\"12\" r=\"4\" />\n  <path d=\"M12 4h.01\" />\n  <path d=\"M20 12h.01\" />\n  <path d=\"M12 20h.01\" />\n  <path d=\"M4 12h.01\" />\n  <path d=\"M17.657 6.343h.01\" />\n  <path d=\"M17.657 17.657h.01\" />\n  <path d=\"M6.343 17.657h.01\" />\n  <path d=\"M6.343 6.343h.01\" />\n    </svg>\n  )\n);\nSunDim.displayName = \"SunDim\";\nexport const SunDimMetadata = { \n  id: \"sun-dim\", \n  baseId: \"sun-dim\", \n  variant: \"default\", \n  name: \"Sun Dim\", \n  category: \"weather\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default SunDim;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "mouse-pointer-2-off",
+  "type": "registry:ui",
+  "title": "Mouse Pointer 2 Off",
+  "description": "Mouse Pointer 2 Off icon component",
+  "category": "cursor",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/cursor/mouse-pointer-2-off.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface MousePointer2OffProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const MousePointer2Off = React.forwardRef<SVGSVGElement, MousePointer2OffProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"m15.55 8.45 5.138 2.087a.5.5 0 0 1-.063.947l-6.124 1.58a2 2 0 0 0-1.438 1.435l-1.579 6.126a.5.5 0 0 1-.947.063L8.45 15.551\" />\n  <path d=\"M22 2 2 22\" />\n  <path d=\"m6.816 11.528-2.779-6.84a.495.495 0 0 1 .651-.651l6.84 2.779\" />\n    </svg>\n  )\n);\nMousePointer2Off.displayName = \"MousePointer2Off\";\nexport const MousePointer2OffMetadata = { \n  id: \"mouse-pointer-2-off\", \n  baseId: \"mouse-pointer-2-off\", \n  variant: \"default\", \n  name: \"Mouse Pointer 2 Off\", \n  category: \"cursor\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default MousePointer2Off;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

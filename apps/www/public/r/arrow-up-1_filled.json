@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "arrow-up-1_filled",
+  "type": "registry:ui",
+  "title": "Arrow Up 1",
+  "description": "Arrow Up 1 icon component",
+  "category": "arrows",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/arrows/arrow-up-1_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ArrowUp1FilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ArrowUp1Filled = React.forwardRef<SVGSVGElement, ArrowUp1FilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M18.6801 13.98L15.4701 10.77L13.5101 8.79999C12.6801 7.96999 11.3301 7.96999 10.5001 8.79999L5.32007 13.98C4.64007 14.66 5.13007 15.82 6.08007 15.82H11.6901H17.9201C18.8801 15.82 19.3601 14.66 18.6801 13.98Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nArrowUp1Filled.displayName = \"ArrowUp1Filled\";\nexport const ArrowUp1FilledMetadata = { \n  id: \"arrow-up-1_filled\", \n  baseId: \"arrow-up-1\", \n  variant: \"filled\", \n  name: \"Arrow Up 1\", \n  category: \"arrows\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ArrowUp1Filled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "square-parking-off",
+  "type": "registry:ui",
+  "title": "Square Parking Off",
+  "description": "Square Parking Off icon component",
+  "category": "square",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/square/square-parking-off.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface SquareParkingOffProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const SquareParkingOff = React.forwardRef<SVGSVGElement, SquareParkingOffProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M3.6 3.6A2 2 0 0 1 5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-.59 1.41\" />\n  <path d=\"M3 8.7V19a2 2 0 0 0 2 2h10.3\" />\n  <path d=\"m2 2 20 20\" />\n  <path d=\"M13 13a3 3 0 1 0 0-6H9v2\" />\n  <path d=\"M9 17v-2.3\" />\n    </svg>\n  )\n);\nSquareParkingOff.displayName = \"SquareParkingOff\";\nexport const SquareParkingOffMetadata = { \n  id: \"square-parking-off\", \n  baseId: \"square-parking-off\", \n  variant: \"default\", \n  name: \"Square Parking Off\", \n  category: \"square\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default SquareParkingOff;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

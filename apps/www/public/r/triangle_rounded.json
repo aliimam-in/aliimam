@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "triangle_rounded",
+  "type": "registry:ui",
+  "title": "Triangle",
+  "description": "Triangle icon component",
+  "category": "brand",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/brand/triangle_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface TriangleRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const TriangleRounded = React.forwardRef<SVGSVGElement, TriangleRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M10.8999 2L0.899902 12L10.8999 22V18L4.8999 12L10.8999 6V2Z\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M12.8999 2L22.8999 12L12.8999 22V18L18.8999 12L12.8999 6V2Z\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M10.8999 9L7.8999 12L10.8999 15V9Z\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nTriangleRounded.displayName = \"TriangleRounded\";\nexport const TriangleRoundedMetadata = { \n  id: \"triangle_rounded\", \n  baseId: \"triangle\", \n  variant: \"rounded\", \n  name: \"Triangle\", \n  category: \"brand\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default TriangleRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

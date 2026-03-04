@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "send-to-back",
+  "type": "registry:ui",
+  "title": "Send To Back",
+  "description": "Send To Back icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/send-to-back.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface SendToBackProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const SendToBack = React.forwardRef<SVGSVGElement, SendToBackProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <rect x=\"14\" y=\"14\" width=\"8\" height=\"8\" rx=\"2\" />\n  <rect x=\"2\" y=\"2\" width=\"8\" height=\"8\" rx=\"2\" />\n  <path d=\"M7 14v1a2 2 0 0 0 2 2h1\" />\n  <path d=\"M14 7h1a2 2 0 0 1 2 2v1\" />\n    </svg>\n  )\n);\nSendToBack.displayName = \"SendToBack\";\nexport const SendToBackMetadata = { \n  id: \"send-to-back\", \n  baseId: \"send-to-back\", \n  variant: \"default\", \n  name: \"Send To Back\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default SendToBack;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

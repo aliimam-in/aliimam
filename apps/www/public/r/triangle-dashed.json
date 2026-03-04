@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "triangle-dashed",
+  "type": "registry:ui",
+  "title": "Triangle Dashed",
+  "description": "Triangle Dashed icon component",
+  "category": "shapes",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/shapes/triangle-dashed.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface TriangleDashedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const TriangleDashed = React.forwardRef<SVGSVGElement, TriangleDashedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M10.17 4.193a2 2 0 0 1 3.666.013\" />\n  <path d=\"M14 21h2\" />\n  <path d=\"m15.874 7.743 1 1.732\" />\n  <path d=\"m18.849 12.952 1 1.732\" />\n  <path d=\"M21.824 18.18a2 2 0 0 1-1.835 2.824\" />\n  <path d=\"M4.024 21a2 2 0 0 1-1.839-2.839\" />\n  <path d=\"m5.136 12.952-1 1.732\" />\n  <path d=\"M8 21h2\" />\n  <path d=\"m8.102 7.743-1 1.732\" />\n    </svg>\n  )\n);\nTriangleDashed.displayName = \"TriangleDashed\";\nexport const TriangleDashedMetadata = { \n  id: \"triangle-dashed\", \n  baseId: \"triangle-dashed\", \n  variant: \"default\", \n  name: \"Triangle Dashed\", \n  category: \"shapes\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default TriangleDashed;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "nem-xem_rounded",
+  "type": "registry:ui",
+  "title": "Nem Xem",
+  "description": "Nem Xem icon component",
+  "category": "brand",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/brand/nem-xem_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface NemXemRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const NemXemRounded = React.forwardRef<SVGSVGElement, NemXemRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M2 4.99998C2 4.99998 12 -1.00002 22 4.99998C22 4.99998 22 16 12 22C12 22 2 17 2 4.99998Z\"   strokeMiterlimit=\"10\"/>\n<path d=\"M2.1001 7.09999C5.2001 17.1 12.0001 9.99999 12.0001 9.99999C11.0001 3.99999 16.1001 2.89999 16.1001 2.89999L16.7001 2.79999\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M16.4 18.5C16.4 18.5 19 13 12 10\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nNemXemRounded.displayName = \"NemXemRounded\";\nexport const NemXemRoundedMetadata = { \n  id: \"nem-xem_rounded\", \n  baseId: \"nem-xem\", \n  variant: \"rounded\", \n  name: \"Nem Xem\", \n  category: \"brand\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default NemXemRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

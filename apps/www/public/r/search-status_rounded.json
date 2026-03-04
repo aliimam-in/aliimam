@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "search-status_rounded",
+  "type": "registry:ui",
+  "title": "Search Status",
+  "description": "Search Status icon component",
+  "category": "app",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/app/search-status_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface SearchStatusRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const SearchStatusRounded = React.forwardRef<SVGSVGElement, SearchStatusRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M14 5H20\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M14 8H17\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M21 11.5C21 16.75 16.75 21 11.5 21C6.25 21 2 16.75 2 11.5C2 6.25 6.25 2 11.5 2\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M22 22L20 20\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nSearchStatusRounded.displayName = \"SearchStatusRounded\";\nexport const SearchStatusRoundedMetadata = { \n  id: \"search-status_rounded\", \n  baseId: \"search-status\", \n  variant: \"rounded\", \n  name: \"Search Status\", \n  category: \"app\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default SearchStatusRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

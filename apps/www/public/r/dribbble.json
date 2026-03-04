@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "dribbble",
+  "type": "registry:ui",
+  "title": "Dribbble",
+  "description": "Dribbble icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/dribbble.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface DribbbleProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Dribbble = React.forwardRef<SVGSVGElement, DribbbleProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"M19.13 5.09C15.22 9.14 10 10.44 2.25 10.94\" />\n  <path d=\"M21.75 12.84c-6.62-1.41-12.14 1-16.38 6.32\" />\n  <path d=\"M8.56 2.75c4.37 6 6 9.42 8 17.72\" />\n    </svg>\n  )\n);\nDribbble.displayName = \"Dribbble\";\nexport const DribbbleMetadata = { \n  id: \"dribbble\", \n  baseId: \"dribbble\", \n  variant: \"default\", \n  name: \"Dribbble\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Dribbble;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "door-open",
+  "type": "registry:ui",
+  "title": "Door Open",
+  "description": "Door Open icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/door-open.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface DoorOpenProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const DoorOpen = React.forwardRef<SVGSVGElement, DoorOpenProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M11 20H2\" />\n  <path d=\"M11 4.562v16.157a1 1 0 0 0 1.242.97L19 20V5.562a2 2 0 0 0-1.515-1.94l-4-1A2 2 0 0 0 11 4.561z\" />\n  <path d=\"M11 4H8a2 2 0 0 0-2 2v14\" />\n  <path d=\"M14 12h.01\" />\n  <path d=\"M22 20h-3\" />\n    </svg>\n  )\n);\nDoorOpen.displayName = \"DoorOpen\";\nexport const DoorOpenMetadata = { \n  id: \"door-open\", \n  baseId: \"door-open\", \n  variant: \"default\", \n  name: \"Door Open\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default DoorOpen;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

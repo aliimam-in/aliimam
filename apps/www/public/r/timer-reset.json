@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "timer-reset",
+  "type": "registry:ui",
+  "title": "Timer Reset",
+  "description": "Timer Reset icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/timer-reset.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface TimerResetProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const TimerReset = React.forwardRef<SVGSVGElement, TimerResetProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M10 2h4\" />\n  <path d=\"M12 14v-4\" />\n  <path d=\"M4 13a8 8 0 0 1 8-7 8 8 0 1 1-5.3 14L4 17.6\" />\n  <path d=\"M9 17H4v5\" />\n    </svg>\n  )\n);\nTimerReset.displayName = \"TimerReset\";\nexport const TimerResetMetadata = { \n  id: \"timer-reset\", \n  baseId: \"timer-reset\", \n  variant: \"default\", \n  name: \"Timer Reset\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default TimerReset;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

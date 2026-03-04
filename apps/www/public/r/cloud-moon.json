@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "cloud-moon",
+  "type": "registry:ui",
+  "title": "Cloud Moon",
+  "description": "Cloud Moon icon component",
+  "category": "cloud",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/cloud/cloud-moon.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface CloudMoonProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const CloudMoon = React.forwardRef<SVGSVGElement, CloudMoonProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M13 16a3 3 0 0 1 0 6H7a5 5 0 1 1 4.9-6z\" />\n  <path d=\"M18.376 14.512a6 6 0 0 0 3.461-4.127c.148-.625-.659-.97-1.248-.714a4 4 0 0 1-5.259-5.26c.255-.589-.09-1.395-.716-1.248a6 6 0 0 0-4.594 5.36\" />\n    </svg>\n  )\n);\nCloudMoon.displayName = \"CloudMoon\";\nexport const CloudMoonMetadata = { \n  id: \"cloud-moon\", \n  baseId: \"cloud-moon\", \n  variant: \"default\", \n  name: \"Cloud Moon\", \n  category: \"cloud\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default CloudMoon;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

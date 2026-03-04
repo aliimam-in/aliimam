@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "pizza",
+  "type": "registry:ui",
+  "title": "Pizza",
+  "description": "Pizza icon component",
+  "category": "food",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/food/pizza.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface PizzaProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Pizza = React.forwardRef<SVGSVGElement, PizzaProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"m12 14-1 1\" />\n  <path d=\"m13.75 18.25-1.25 1.42\" />\n  <path d=\"M17.775 5.654a15.68 15.68 0 0 0-12.121 12.12\" />\n  <path d=\"M18.8 9.3a1 1 0 0 0 2.1 7.7\" />\n  <path d=\"M21.964 20.732a1 1 0 0 1-1.232 1.232l-18-5a1 1 0 0 1-.695-1.232A19.68 19.68 0 0 1 15.732 2.037a1 1 0 0 1 1.232.695z\" />\n    </svg>\n  )\n);\nPizza.displayName = \"Pizza\";\nexport const PizzaMetadata = { \n  id: \"pizza\", \n  baseId: \"pizza\", \n  variant: \"default\", \n  name: \"Pizza\", \n  category: \"food\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Pizza;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

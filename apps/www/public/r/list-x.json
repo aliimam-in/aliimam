@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "list-x",
+  "type": "registry:ui",
+  "title": "List X",
+  "description": "List X icon component",
+  "category": "list",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/list/list-x.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ListXProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ListX = React.forwardRef<SVGSVGElement, ListXProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M16 5H3\" />\n  <path d=\"M11 12H3\" />\n  <path d=\"M16 19H3\" />\n  <path d=\"m15.5 9.5 5 5\" />\n  <path d=\"m20.5 9.5-5 5\" />\n    </svg>\n  )\n);\nListX.displayName = \"ListX\";\nexport const ListXMetadata = { \n  id: \"list-x\", \n  baseId: \"list-x\", \n  variant: \"default\", \n  name: \"List X\", \n  category: \"list\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ListX;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

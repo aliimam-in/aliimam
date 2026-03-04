@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "shredder",
+  "type": "registry:ui",
+  "title": "Shredder",
+  "description": "Shredder icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/shredder.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ShredderProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Shredder = React.forwardRef<SVGSVGElement, ShredderProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M4 13V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.706.706l3.588 3.588A2.4 2.4 0 0 1 20 8v5\" />\n  <path d=\"M14 2v5a1 1 0 0 0 1 1h5\" />\n  <path d=\"M10 22v-5\" />\n  <path d=\"M14 19v-2\" />\n  <path d=\"M18 20v-3\" />\n  <path d=\"M2 13h20\" />\n  <path d=\"M6 20v-3\" />\n    </svg>\n  )\n);\nShredder.displayName = \"Shredder\";\nexport const ShredderMetadata = { \n  id: \"shredder\", \n  baseId: \"shredder\", \n  variant: \"default\", \n  name: \"Shredder\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Shredder;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

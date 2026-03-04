@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "okb-okb_filled",
+  "type": "registry:ui",
+  "title": "Okb Okb",
+  "description": "Okb Okb icon component",
+  "category": "brand",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/brand/okb-okb_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface OkbOkbFilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const OkbOkbFilled = React.forwardRef<SVGSVGElement, OkbOkbFilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M17 7C17 9.76 14.76 12 12 12C14.76 12 17 14.24 17 17C19.76 17 22 14.76 22 12C22 9.24 19.76 7 17 7Z\" fill=\"currentColor\"/>\n<path d=\"M12 12C12 14.76 9.76 17 7 17C7 19.76 9.24 22 12 22C14.76 22 17 19.76 17 17C14.24 17 12 14.76 12 12Z\" fill=\"currentColor\"/>\n<path d=\"M12 12C12 9.24 14.24 7 17 7C17 4.24 14.76 2 12 2C9.24 2 7 4.24 7 7C9.76 7 12 9.24 12 12Z\" fill=\"currentColor\"/>\n<path d=\"M12 12C9.24 12 7 9.76 7 7C4.24 7 2 9.24 2 12C2 14.76 4.24 17 7 17C7 14.24 9.24 12 12 12Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nOkbOkbFilled.displayName = \"OkbOkbFilled\";\nexport const OkbOkbFilledMetadata = { \n  id: \"okb-okb_filled\", \n  baseId: \"okb-okb\", \n  variant: \"filled\", \n  name: \"Okb Okb\", \n  category: \"brand\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default OkbOkbFilled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

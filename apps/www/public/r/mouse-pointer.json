@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "mouse-pointer",
+  "type": "registry:ui",
+  "title": "Mouse Pointer",
+  "description": "Mouse Pointer icon component",
+  "category": "cursor",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/cursor/mouse-pointer.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface MousePointerProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const MousePointer = React.forwardRef<SVGSVGElement, MousePointerProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M12.586 12.586 19 19\" />\n  <path d=\"M3.688 3.037a.497.497 0 0 0-.651.651l6.5 15.999a.501.501 0 0 0 .947-.062l1.569-6.083a2 2 0 0 1 1.448-1.479l6.124-1.579a.5.5 0 0 0 .063-.947z\" />\n    </svg>\n  )\n);\nMousePointer.displayName = \"MousePointer\";\nexport const MousePointerMetadata = { \n  id: \"mouse-pointer\", \n  baseId: \"mouse-pointer\", \n  variant: \"default\", \n  name: \"Mouse Pointer\", \n  category: \"cursor\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default MousePointer;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

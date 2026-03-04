@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "crown_rounded",
+  "type": "registry:ui",
+  "title": "Crown",
+  "description": "Crown icon component",
+  "category": "home",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/home/crown_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface CrownRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const CrownRounded = React.forwardRef<SVGSVGElement, CrownRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M2 15.29V5.71C2 4.38 2.77 4.06 3.71 5L6.3 7.59C6.69 7.98 7.33 7.98 7.71 7.59L11.29 4C11.68 3.61 12.32 3.61 12.7 4L16.29 7.59C16.68 7.98 17.32 7.98 17.7 7.59L20.29 5C21.23 4.06 22 4.38 22 5.71V15.3C22 18.3 20 20.3 17 20.3H7C4.24 20.29 2 18.05 2 15.29Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nCrownRounded.displayName = \"CrownRounded\";\nexport const CrownRoundedMetadata = { \n  id: \"crown_rounded\", \n  baseId: \"crown\", \n  variant: \"rounded\", \n  name: \"Crown\", \n  category: \"home\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default CrownRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

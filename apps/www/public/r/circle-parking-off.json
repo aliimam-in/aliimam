@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "circle-parking-off",
+  "type": "registry:ui",
+  "title": "Circle Parking Off",
+  "description": "Circle Parking Off icon component",
+  "category": "circle",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/circle/circle-parking-off.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface CircleParkingOffProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const CircleParkingOff = React.forwardRef<SVGSVGElement, CircleParkingOffProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M12.656 7H13a3 3 0 0 1 2.984 3.307\" />\n  <path d=\"M13 13H9\" />\n  <path d=\"M19.071 19.071A1 1 0 0 1 4.93 4.93\" />\n  <path d=\"m2 2 20 20\" />\n  <path d=\"M8.357 2.687a10 10 0 0 1 12.956 12.956\" />\n  <path d=\"M9 17V9\" />\n    </svg>\n  )\n);\nCircleParkingOff.displayName = \"CircleParkingOff\";\nexport const CircleParkingOffMetadata = { \n  id: \"circle-parking-off\", \n  baseId: \"circle-parking-off\", \n  variant: \"default\", \n  name: \"Circle Parking Off\", \n  category: \"circle\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default CircleParkingOff;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

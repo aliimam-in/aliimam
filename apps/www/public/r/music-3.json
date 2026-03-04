@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "music-3",
+  "type": "registry:ui",
+  "title": "Music 3",
+  "description": "Music 3 icon component",
+  "category": "multimedia",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/multimedia/music-3.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface Music3Props extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Music3 = React.forwardRef<SVGSVGElement, Music3Props>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <circle cx=\"12\" cy=\"18\" r=\"4\" />\n  <path d=\"M16 18V2\" />\n    </svg>\n  )\n);\nMusic3.displayName = \"Music3\";\nexport const Music3Metadata = { \n  id: \"music-3\", \n  baseId: \"music-3\", \n  variant: \"default\", \n  name: \"Music 3\", \n  category: \"multimedia\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Music3;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

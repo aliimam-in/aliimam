@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "phone-forwarded",
+  "type": "registry:ui",
+  "title": "Phone Forwarded",
+  "description": "Phone Forwarded icon component",
+  "category": "communiccation",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/communiccation/phone-forwarded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface PhoneForwardedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const PhoneForwarded = React.forwardRef<SVGSVGElement, PhoneForwardedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M14 6h8\" />\n  <path d=\"m18 2 4 4-4 4\" />\n  <path d=\"M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384\" />\n    </svg>\n  )\n);\nPhoneForwarded.displayName = \"PhoneForwarded\";\nexport const PhoneForwardedMetadata = { \n  id: \"phone-forwarded\", \n  baseId: \"phone-forwarded\", \n  variant: \"default\", \n  name: \"Phone Forwarded\", \n  category: \"communiccation\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default PhoneForwarded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

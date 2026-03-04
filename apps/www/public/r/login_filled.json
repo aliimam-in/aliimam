@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "login_filled",
+  "type": "registry:ui",
+  "title": "Login",
+  "description": "Login icon component",
+  "category": "arrows",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/arrows/login_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface LoginFilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const LoginFilled = React.forwardRef<SVGSVGElement, LoginFilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M10.7599 2C10.2799 2 9.8999 2.38 9.8999 2.86V11.32H13.5699L11.9999 9.75C11.7099 9.46 11.7099 8.98 11.9999 8.69C12.2899 8.4 12.7699 8.4 13.0599 8.69L15.8999 11.54C16.1899 11.83 16.1899 12.31 15.8999 12.6L13.0599 15.45C12.9099 15.6 12.7199 15.67 12.5299 15.67C12.3399 15.67 12.1499 15.6 11.9999 15.45C11.7099 15.16 11.7099 14.68 11.9999 14.39L13.5599 12.83H9.8999V21.16C9.8999 21.63 10.2799 22.02 10.7599 22.02C16.6499 22.02 20.7599 17.91 20.7599 12.02C20.7599 6.13 16.6399 2 10.7599 2Z\" fill=\"currentColor\"/>\n<path d=\"M3.98999 11.3201C3.57999 11.3201 3.23999 11.6601 3.23999 12.0701C3.23999 12.4801 3.57999 12.8201 3.98999 12.8201H9.88999V11.3201H3.98999Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nLoginFilled.displayName = \"LoginFilled\";\nexport const LoginFilledMetadata = { \n  id: \"login_filled\", \n  baseId: \"login\", \n  variant: \"filled\", \n  name: \"Login\", \n  category: \"arrows\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default LoginFilled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -10,7 +10,7 @@ import { getBentoBlocks } from "@/src/lib/get-bento-images"
 import { BlocksPageCategory } from "@/src/components/sections/home/categories-section"
 import { Testimonials } from "@/src/components/sections/home/testmonials"
 import { IconsShowcase } from "@/src/components/sections/home/icons-showcase"
- 
+   
 const title = "Design Without Limits"
 const description =
   "I create digital experiences that connect and inspire. I build apps, websites, brands, and products end-to-end."
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
 export default function IndexPage() {
   const blocks = getBentoBlocks()
   return (
-    <div>  
+    <div>    
       <Hero /> 
       <BentoLanding blocks={blocks} />
       <Services />

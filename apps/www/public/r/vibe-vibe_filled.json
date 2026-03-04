@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "vibe-vibe_filled",
+  "type": "registry:ui",
+  "title": "Vibe Vibe",
+  "description": "Vibe Vibe icon component",
+  "category": "brand",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/brand/vibe-vibe_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface VibeVibeFilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const VibeVibeFilled = React.forwardRef<SVGSVGElement, VibeVibeFilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM9.04999 8.28999C9.12999 8.11999 9.31 8.00999 9.5 8.00999H14.5C14.69 8.00999 14.86 8.11999 14.95 8.28999C15.04 8.45999 15.02 8.66 14.9 8.81L12.4 12.14C12.31 12.27 12.16 12.34 12 12.34C11.84 12.34 11.69 12.27 11.6 12.14L9.09998 8.81C8.98998 8.67 8.96999 8.45999 9.04999 8.28999ZM17.61 10.44L12.61 17.44C12.47 17.64 12.24 17.75 12 17.75C11.76 17.75 11.53 17.63 11.39 17.44L6.39001 10.44C6.15001 10.1 6.23 9.63 6.56 9.39C6.9 9.15 7.36999 9.23 7.60999 9.56L12 15.71L16.39 9.56C16.63 9.22 17.1 9.14 17.44 9.39C17.77 9.63 17.85 10.1 17.61 10.44Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nVibeVibeFilled.displayName = \"VibeVibeFilled\";\nexport const VibeVibeFilledMetadata = { \n  id: \"vibe-vibe_filled\", \n  baseId: \"vibe-vibe\", \n  variant: \"filled\", \n  name: \"Vibe Vibe\", \n  category: \"brand\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default VibeVibeFilled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

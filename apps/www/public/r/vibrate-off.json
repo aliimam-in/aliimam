@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "vibrate-off",
+  "type": "registry:ui",
+  "title": "Vibrate Off",
+  "description": "Vibrate Off icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/vibrate-off.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface VibrateOffProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const VibrateOff = React.forwardRef<SVGSVGElement, VibrateOffProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"m2 8 2 2-2 2 2 2-2 2\" />\n  <path d=\"m22 8-2 2 2 2-2 2 2 2\" />\n  <path d=\"M8 8v10c0 .55.45 1 1 1h6c.55 0 1-.45 1-1v-2\" />\n  <path d=\"M16 10.34V6c0-.55-.45-1-1-1h-4.34\" />\n  <line x1=\"2\" x2=\"22\" y1=\"2\" y2=\"22\" />\n    </svg>\n  )\n);\nVibrateOff.displayName = \"VibrateOff\";\nexport const VibrateOffMetadata = { \n  id: \"vibrate-off\", \n  baseId: \"vibrate-off\", \n  variant: \"default\", \n  name: \"Vibrate Off\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default VibrateOff;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "volume-mute_filled",
+  "type": "registry:ui",
+  "title": "Volume Mute",
+  "description": "Volume Mute icon component",
+  "category": "multimedia",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/multimedia/volume-mute_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface VolumeMuteFilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const VolumeMuteFilled = React.forwardRef<SVGSVGElement, VolumeMuteFilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M17.52 3.77997C16.4 3.15997 14.97 3.31997 13.51 4.22997L10.59 6.05997C10.39 6.17997 10.16 6.24997 9.93 6.24997H9H8.5C6.08 6.24997 4.75 7.57997 4.75 9.99997V14C4.75 16.42 6.08 17.75 8.5 17.75H9H9.93C10.16 17.75 10.39 17.82 10.59 17.94L13.51 19.77C14.39 20.32 15.25 20.59 16.05 20.59C16.57 20.59 17.07 20.47 17.52 20.22C18.63 19.6 19.25 18.31 19.25 16.59V7.40997C19.25 5.68997 18.63 4.39997 17.52 3.77997Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nVolumeMuteFilled.displayName = \"VolumeMuteFilled\";\nexport const VolumeMuteFilledMetadata = { \n  id: \"volume-mute_filled\", \n  baseId: \"volume-mute\", \n  variant: \"filled\", \n  name: \"Volume Mute\", \n  category: \"multimedia\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default VolumeMuteFilled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "loader-pinwheel",
+  "type": "registry:ui",
+  "title": "Loader Pinwheel",
+  "description": "Loader Pinwheel icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/loader-pinwheel.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface LoaderPinwheelProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const LoaderPinwheel = React.forwardRef<SVGSVGElement, LoaderPinwheelProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M22 12a1 1 0 0 1-10 0 1 1 0 0 0-10 0\" />\n  <path d=\"M7 20.7a1 1 0 1 1 5-8.7 1 1 0 1 0 5-8.6\" />\n  <path d=\"M7 3.3a1 1 0 1 1 5 8.6 1 1 0 1 0 5 8.6\" />\n  <circle cx=\"12\" cy=\"12\" r=\"10\" />\n    </svg>\n  )\n);\nLoaderPinwheel.displayName = \"LoaderPinwheel\";\nexport const LoaderPinwheelMetadata = { \n  id: \"loader-pinwheel\", \n  baseId: \"loader-pinwheel\", \n  variant: \"default\", \n  name: \"Loader Pinwheel\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default LoaderPinwheel;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

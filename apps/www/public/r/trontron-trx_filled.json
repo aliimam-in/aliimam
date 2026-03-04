@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "trontron-trx_filled",
+  "type": "registry:ui",
+  "title": "Trontron Trx",
+  "description": "Trontron Trx icon component",
+  "category": "brand",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/brand/trontron-trx_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface TrontronTrxFilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const TrontronTrxFilled = React.forwardRef<SVGSVGElement, TrontronTrxFilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M19.4001 10.53C19.9201 10.43 20.2801 11.02 19.9601 11.44L13.0101 20.29C12.6601 20.74 11.9401 20.45 12.0001 19.89L12.7001 12.29C12.7201 12.04 12.9101 11.83 13.1601 11.78L19.4001 10.53Z\" fill=\"currentColor\"/>\n<path d=\"M21.6401 7.68995C21.8601 7.92995 21.74 8.31995 21.43 8.38996L12.99 10.08C12.44 10.19 12.08 9.51995 12.48 9.11995L17.5001 4.09995C17.7301 3.86995 18.1001 3.87995 18.3201 4.10995L21.6401 7.68995Z\" fill=\"currentColor\"/>\n<path d=\"M14.69 3.19006C15.16 3.25006 15.3501 3.82006 15.0201 4.16006L11.4601 7.72006C11.2501 7.93006 10.91 7.94006 10.68 7.74006L5.34006 2.99006C4.92006 2.62006 5.24001 1.93006 5.79001 2.00006L14.69 3.19006Z\" fill=\"currentColor\"/>\n<path d=\"M10.72 10.0702C10.99 10.3102 11.12 10.6602 11.1 11.0102L10.24 21.4702C10.19 22.0702 9.36003 22.1902 9.14003 21.6302L2.28999 3.96018C2.06999 3.40018 2.75003 2.93018 3.20003 3.33018L10.72 10.0702Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nTrontronTrxFilled.displayName = \"TrontronTrxFilled\";\nexport const TrontronTrxFilledMetadata = { \n  id: \"trontron-trx_filled\", \n  baseId: \"trontron-trx\", \n  variant: \"filled\", \n  name: \"Trontron Trx\", \n  category: \"brand\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default TrontronTrxFilled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

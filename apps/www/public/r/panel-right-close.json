@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "panel-right-close",
+  "type": "registry:ui",
+  "title": "Panel Right Close",
+  "description": "Panel Right Close icon component",
+  "category": "panel",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/panel/panel-right-close.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface PanelRightCloseProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const PanelRightClose = React.forwardRef<SVGSVGElement, PanelRightCloseProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <rect width=\"18\" height=\"18\" x=\"3\" y=\"3\" rx=\"2\" />\n  <path d=\"M15 3v18\" />\n  <path d=\"m8 9 3 3-3 3\" />\n    </svg>\n  )\n);\nPanelRightClose.displayName = \"PanelRightClose\";\nexport const PanelRightCloseMetadata = { \n  id: \"panel-right-close\", \n  baseId: \"panel-right-close\", \n  variant: \"default\", \n  name: \"Panel Right Close\", \n  category: \"panel\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default PanelRightClose;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

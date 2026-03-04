@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "monitor-pause",
+  "type": "registry:ui",
+  "title": "Monitor Pause",
+  "description": "Monitor Pause icon component",
+  "category": "monitor",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/monitor/monitor-pause.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface MonitorPauseProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const MonitorPause = React.forwardRef<SVGSVGElement, MonitorPauseProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M10 13V7\" />\n  <path d=\"M14 13V7\" />\n  <rect width=\"20\" height=\"14\" x=\"2\" y=\"3\" rx=\"2\" />\n  <path d=\"M12 17v4\" />\n  <path d=\"M8 21h8\" />\n    </svg>\n  )\n);\nMonitorPause.displayName = \"MonitorPause\";\nexport const MonitorPauseMetadata = { \n  id: \"monitor-pause\", \n  baseId: \"monitor-pause\", \n  variant: \"default\", \n  name: \"Monitor Pause\", \n  category: \"monitor\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default MonitorPause;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

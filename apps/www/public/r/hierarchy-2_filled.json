@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "hierarchy-2_filled",
+  "type": "registry:ui",
+  "title": "Hierarchy 2",
+  "description": "Hierarchy 2 icon component",
+  "category": "code",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/code/hierarchy-2_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface Hierarchy2FilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Hierarchy2Filled = React.forwardRef<SVGSVGElement, Hierarchy2FilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M18.75 22C20.5449 22 22 20.5449 22 18.75C22 16.9551 20.5449 15.5 18.75 15.5C16.9551 15.5 15.5 16.9551 15.5 18.75C15.5 20.5449 16.9551 22 18.75 22Z\" fill=\"currentColor\"/>\n<path d=\"M19 8C20.6569 8 22 6.65685 22 5C22 3.34315 20.6569 2 19 2C17.3431 2 16 3.34315 16 5C16 6.65685 17.3431 8 19 8Z\" fill=\"currentColor\"/>\n<path d=\"M5 8C6.65685 8 8 6.65685 8 5C8 3.34315 6.65685 2 5 2C3.34315 2 2 3.34315 2 5C2 6.65685 3.34315 8 5 8Z\" fill=\"currentColor\"/>\n<path d=\"M4.83 8.02C5.8 10.8 8.42 12.67 11.37 12.67C11.38 12.67 11.39 12.67 11.4 12.67L14.93 12.66C16.45 12.64 17.81 13.67 18.22 15.15V17C18.22 17.42 18.56 17.76 18.99 17.76C19.41 17.76 19.75 17.42 19.75 17V5.76C19.75 5.34 19.41 5 18.99 5C18.57 5 18.22 5.34 18.22 5.76V12.38C17.34 11.6 16.19 11.12 14.94 11.12C14.93 11.12 14.93 11.12 14.92 11.12L11.39 11.13C11.38 11.13 11.38 11.13 11.37 11.13C9.08 11.13 7.03 9.68 6.28 7.51C6.16 7.2 5.87 7 5.55 7C5.47 7 5.38 7.02 5.3 7.04C4.9 7.18 4.69 7.62 4.83 8.02Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nHierarchy2Filled.displayName = \"Hierarchy2Filled\";\nexport const Hierarchy2FilledMetadata = { \n  id: \"hierarchy-2_filled\", \n  baseId: \"hierarchy-2\", \n  variant: \"filled\", \n  name: \"Hierarchy 2\", \n  category: \"code\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Hierarchy2Filled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

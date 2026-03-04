@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "search-zoom-in_rounded",
+  "type": "registry:ui",
+  "title": "Search Zoom In",
+  "description": "Search Zoom In icon component",
+  "category": "app",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/app/search-zoom-in_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface SearchZoomInRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const SearchZoomInRounded = React.forwardRef<SVGSVGElement, SearchZoomInRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M9.19995 11.7H14.2\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M11.7 14.2V9.20001\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M11.5 21C16.7467 21 21 16.7467 21 11.5C21 6.25329 16.7467 2 11.5 2C6.25329 2 2 6.25329 2 11.5C2 16.7467 6.25329 21 11.5 21Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M22 22L20 20\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nSearchZoomInRounded.displayName = \"SearchZoomInRounded\";\nexport const SearchZoomInRoundedMetadata = { \n  id: \"search-zoom-in_rounded\", \n  baseId: \"search-zoom-in\", \n  variant: \"rounded\", \n  name: \"Search Zoom In\", \n  category: \"app\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default SearchZoomInRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

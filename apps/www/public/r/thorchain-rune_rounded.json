@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "thorchain-rune_rounded",
+  "type": "registry:ui",
+  "title": "Thorchain Rune",
+  "description": "Thorchain Rune icon component",
+  "category": "brand",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/brand/thorchain-rune_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ThorchainRuneRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ThorchainRuneRounded = React.forwardRef<SVGSVGElement, ThorchainRuneRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M12.7 11.7L16.8 15.8C17.3 16.4 17.1 17.3 16.4 17.6L6.10002 21.9C5.00002 22.4 4.10002 21 4.90002 20.2L12.7 11.7ZM12.7 11.7L8.60002 7.59995C8.10002 7.09995 8.30002 6.09995 9.00002 5.79995L17.9 2.09995C19 1.69995 19.9 2.89995 19.2 3.79995L12.7 11.7Z\"   strokeMiterlimit=\"10\"/>\n    </svg>\n  )\n);\nThorchainRuneRounded.displayName = \"ThorchainRuneRounded\";\nexport const ThorchainRuneRoundedMetadata = { \n  id: \"thorchain-rune_rounded\", \n  baseId: \"thorchain-rune\", \n  variant: \"rounded\", \n  name: \"Thorchain Rune\", \n  category: \"brand\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ThorchainRuneRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

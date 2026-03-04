@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "path-2_rounded",
+  "type": "registry:ui",
+  "title": "Path 2",
+  "description": "Path 2 icon component",
+  "category": "design",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/design/path-2_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface Path2RoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Path2Rounded = React.forwardRef<SVGSVGElement, Path2RoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <g clipPath=\"url(#clip0_210_5362)\">\n<path d=\"M9.87001 22H14.16C15.78 22 16.85 20.84 16.53 19.43L15.84 16.35H8.20001L7.51001 19.43C7.20001 20.76 8.34001 22 9.87001 22Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M15.83 16.35L18.77 13.74C20.41 12.28 20.48 11.26 19.18 9.60999L13.99 3.03C12.9 1.65 11.12 1.65 10.02 3.03L4.84001 9.60999C3.54001 11.26 3.54001 12.33 5.25001 13.74L8.19001 16.35\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M12.01 2.67004V6.97004\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_210_5362\">\n<rect width=\"24\" height=\"24\" fill=\"currentColor\"/>\n</clipPath>\n</defs>\n    </svg>\n  )\n);\nPath2Rounded.displayName = \"Path2Rounded\";\nexport const Path2RoundedMetadata = { \n  id: \"path-2_rounded\", \n  baseId: \"path-2\", \n  variant: \"rounded\", \n  name: \"Path 2\", \n  category: \"design\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Path2Rounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

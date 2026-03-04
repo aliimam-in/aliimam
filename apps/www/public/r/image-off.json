@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "image-off",
+  "type": "registry:ui",
+  "title": "Image Off",
+  "description": "Image Off icon component",
+  "category": "design",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/design/image-off.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ImageOffProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ImageOff = React.forwardRef<SVGSVGElement, ImageOffProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <line x1=\"2\" x2=\"22\" y1=\"2\" y2=\"22\" />\n  <path d=\"M10.41 10.41a2 2 0 1 1-2.83-2.83\" />\n  <line x1=\"13.5\" x2=\"6\" y1=\"13.5\" y2=\"21\" />\n  <line x1=\"18\" x2=\"21\" y1=\"12\" y2=\"15\" />\n  <path d=\"M3.59 3.59A1.99 1.99 0 0 0 3 5v14a2 2 0 0 0 2 2h14c.55 0 1.052-.22 1.41-.59\" />\n  <path d=\"M21 15V5a2 2 0 0 0-2-2H9\" />\n    </svg>\n  )\n);\nImageOff.displayName = \"ImageOff\";\nexport const ImageOffMetadata = { \n  id: \"image-off\", \n  baseId: \"image-off\", \n  variant: \"default\", \n  name: \"Image Off\", \n  category: \"design\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ImageOff;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

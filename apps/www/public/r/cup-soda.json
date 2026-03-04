@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "cup-soda",
+  "type": "registry:ui",
+  "title": "Cup Soda",
+  "description": "Cup Soda icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/cup-soda.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface CupSodaProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const CupSoda = React.forwardRef<SVGSVGElement, CupSodaProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"m6 8 1.75 12.28a2 2 0 0 0 2 1.72h4.54a2 2 0 0 0 2-1.72L18 8\" />\n  <path d=\"M5 8h14\" />\n  <path d=\"M7 15a6.47 6.47 0 0 1 5 0 6.47 6.47 0 0 0 5 0\" />\n  <path d=\"m12 8 1-6h2\" />\n    </svg>\n  )\n);\nCupSoda.displayName = \"CupSoda\";\nexport const CupSodaMetadata = { \n  id: \"cup-soda\", \n  baseId: \"cup-soda\", \n  variant: \"default\", \n  name: \"Cup Soda\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default CupSoda;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

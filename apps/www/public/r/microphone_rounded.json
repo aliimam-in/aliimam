@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "microphone_rounded",
+  "type": "registry:ui",
+  "title": "Microphone",
+  "description": "Microphone icon component",
+  "category": "multimedia",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/multimedia/microphone_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface MicrophoneRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const MicrophoneRounded = React.forwardRef<SVGSVGElement, MicrophoneRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M12 19C15.31 19 18 16.31 18 13V8C18 4.69 15.31 2 12 2C8.69 2 6 4.69 6 8V13C6 16.31 8.69 19 12 19Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M3 11V13C3 17.97 7.03 22 12 22C16.97 22 21 17.97 21 13V11\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M9.11011 7.48005C10.8901 6.83005 12.8301 6.83005 14.6101 7.48005\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M10.03 10.48C11.23 10.15 12.5 10.15 13.7 10.48\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nMicrophoneRounded.displayName = \"MicrophoneRounded\";\nexport const MicrophoneRoundedMetadata = { \n  id: \"microphone_rounded\", \n  baseId: \"microphone\", \n  variant: \"rounded\", \n  name: \"Microphone\", \n  category: \"multimedia\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default MicrophoneRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

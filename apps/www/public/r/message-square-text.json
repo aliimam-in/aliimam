@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "message-square-text",
+  "type": "registry:ui",
+  "title": "Message Square Text",
+  "description": "Message Square Text icon component",
+  "category": "message",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/message/message-square-text.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface MessageSquareTextProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const MessageSquareText = React.forwardRef<SVGSVGElement, MessageSquareTextProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M22 17a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 21.286V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z\" />\n  <path d=\"M7 11h10\" />\n  <path d=\"M7 15h6\" />\n  <path d=\"M7 7h8\" />\n    </svg>\n  )\n);\nMessageSquareText.displayName = \"MessageSquareText\";\nexport const MessageSquareTextMetadata = { \n  id: \"message-square-text\", \n  baseId: \"message-square-text\", \n  variant: \"default\", \n  name: \"Message Square Text\", \n  category: \"message\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default MessageSquareText;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

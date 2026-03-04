@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "export_rounded",
+  "type": "registry:ui",
+  "title": "Export",
+  "description": "Export icon component",
+  "category": "arrows",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/arrows/export_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ExportRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ExportRounded = React.forwardRef<SVGSVGElement, ExportRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M16.44 8.9C20.04 9.21 21.51 11.06 21.51 15.11V15.24C21.51 19.71 19.72 21.5 15.25 21.5H8.73998C4.26998 21.5 2.47998 19.71 2.47998 15.24V15.11C2.47998 11.09 3.92998 9.24 7.46998 8.91\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M12 15V3.62\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M15.3499 5.85L11.9999 2.5L8.6499 5.85\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nExportRounded.displayName = \"ExportRounded\";\nexport const ExportRoundedMetadata = { \n  id: \"export_rounded\", \n  baseId: \"export\", \n  variant: \"rounded\", \n  name: \"Export\", \n  category: \"arrows\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ExportRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

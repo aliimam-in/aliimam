@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "voice-cricle_rounded",
+  "type": "registry:ui",
+  "title": "Voice Cricle",
+  "description": "Voice Cricle icon component",
+  "category": "multimedia",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/multimedia/voice-cricle_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface VoiceCricleRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const VoiceCricleRounded = React.forwardRef<SVGSVGElement, VoiceCricleRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M6 9.85999V14.15\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M9 8.42999V15.57\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M12 7V17\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M15 8.42999V15.57\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M18 9.85999V14.15\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nVoiceCricleRounded.displayName = \"VoiceCricleRounded\";\nexport const VoiceCricleRoundedMetadata = { \n  id: \"voice-cricle_rounded\", \n  baseId: \"voice-cricle\", \n  variant: \"rounded\", \n  name: \"Voice Cricle\", \n  category: \"multimedia\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default VoiceCricleRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

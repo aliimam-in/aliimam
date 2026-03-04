@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ticket-expired_filled",
+  "type": "registry:ui",
+  "title": "Ticket Expired",
+  "description": "Ticket Expired icon component",
+  "category": "finance",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/finance/ticket-expired_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface TicketExpiredFilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const TicketExpiredFilled = React.forwardRef<SVGSVGElement, TicketExpiredFilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M19.8501 12.9401C19.8501 13.7401 20.5001 14.4001 21.3001 14.4001C21.6801 14.4001 22.0001 14.7101 22.0001 15.0901C22.0001 18.9301 20.8401 20.0901 17.0001 20.0901H11.7501V18.5001C11.7501 18.1101 11.4501 17.7901 11.0701 17.7601C11.0501 17.7501 11.0201 17.7501 11.0001 17.7501C10.5901 17.7501 10.2501 18.0901 10.2501 18.5001V20.0901H8.49009C6.61009 20.0901 5.64009 18.6801 4.76009 16.5501L4.59009 16.1301C4.45009 15.7701 4.62009 15.3601 4.98009 15.2201C5.35009 15.0801 5.64009 14.7901 5.79009 14.4101C5.95009 14.0401 5.95009 13.6301 5.80009 13.2601C5.48009 12.4901 4.60009 12.1201 3.82009 12.4301C3.65009 12.5101 3.45009 12.5101 3.28009 12.4301C3.11009 12.3601 2.98009 12.2201 2.90009 12.0401L2.75009 11.6401C1.26009 8.02006 1.91009 6.47006 5.53009 4.97006L7.98009 3.96006C8.34009 3.81006 8.75009 3.98006 8.89009 4.34006L11.0701 9.09006C10.6601 9.09006 10.2501 9.42006 10.2501 9.83006V14.1701C10.2501 14.5801 10.5901 14.9201 11.0001 14.9201C11.0201 14.9201 11.0501 14.9201 11.0701 14.9101C11.4501 14.8801 11.7501 14.5601 11.7501 14.1701V9.83006C11.7501 9.44006 11.4501 9.12006 11.0701 9.09006V4.93006H17.0001C20.8401 4.93006 22.0001 6.09006 22.0001 9.93006V10.7801C22.0001 11.1701 21.6801 11.4801 21.3001 11.4801C20.5001 11.4801 19.8501 12.1301 19.8501 12.9401Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nTicketExpiredFilled.displayName = \"TicketExpiredFilled\";\nexport const TicketExpiredFilledMetadata = { \n  id: \"ticket-expired_filled\", \n  baseId: \"ticket-expired\", \n  variant: \"filled\", \n  name: \"Ticket Expired\", \n  category: \"finance\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default TicketExpiredFilled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

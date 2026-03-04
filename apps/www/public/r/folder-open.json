@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "folder-open",
+  "type": "registry:ui",
+  "title": "Folder Open",
+  "description": "Folder Open icon component",
+  "category": "folder",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/folder/folder-open.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface FolderOpenProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const FolderOpen = React.forwardRef<SVGSVGElement, FolderOpenProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"m6 14 1.5-2.9A2 2 0 0 1 9.24 10H20a2 2 0 0 1 1.94 2.5l-1.54 6a2 2 0 0 1-1.95 1.5H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h3.9a2 2 0 0 1 1.69.9l.81 1.2a2 2 0 0 0 1.67.9H18a2 2 0 0 1 2 2v2\" />\n    </svg>\n  )\n);\nFolderOpen.displayName = \"FolderOpen\";\nexport const FolderOpenMetadata = { \n  id: \"folder-open\", \n  baseId: \"folder-open\", \n  variant: \"default\", \n  name: \"Folder Open\", \n  category: \"folder\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default FolderOpen;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

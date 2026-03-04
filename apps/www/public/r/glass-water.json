@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "glass-water",
+  "type": "registry:ui",
+  "title": "Glass Water",
+  "description": "Glass Water icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/glass-water.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface GlassWaterProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const GlassWater = React.forwardRef<SVGSVGElement, GlassWaterProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M5.116 4.104A1 1 0 0 1 6.11 3h11.78a1 1 0 0 1 .994 1.105L17.19 20.21A2 2 0 0 1 15.2 22H8.8a2 2 0 0 1-2-1.79z\" />\n  <path d=\"M6 12a5 5 0 0 1 6 0 5 5 0 0 0 6 0\" />\n    </svg>\n  )\n);\nGlassWater.displayName = \"GlassWater\";\nexport const GlassWaterMetadata = { \n  id: \"glass-water\", \n  baseId: \"glass-water\", \n  variant: \"default\", \n  name: \"Glass Water\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default GlassWater;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "cloud-lightning",
+  "type": "registry:ui",
+  "title": "Cloud Lightning",
+  "description": "Cloud Lightning icon component",
+  "category": "cloud",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/cloud/cloud-lightning.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface CloudLightningProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const CloudLightning = React.forwardRef<SVGSVGElement, CloudLightningProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M6 16.326A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 .5 8.973\" />\n  <path d=\"m13 12-3 5h4l-3 5\" />\n    </svg>\n  )\n);\nCloudLightning.displayName = \"CloudLightning\";\nexport const CloudLightningMetadata = { \n  id: \"cloud-lightning\", \n  baseId: \"cloud-lightning\", \n  variant: \"default\", \n  name: \"Cloud Lightning\", \n  category: \"cloud\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default CloudLightning;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

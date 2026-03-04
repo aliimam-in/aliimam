@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "filter_rounded",
+  "type": "registry:ui",
+  "title": "Filter",
+  "description": "Filter icon component",
+  "category": "home",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/home/filter_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface FilterRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const FilterRounded = React.forwardRef<SVGSVGElement, FilterRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M5.39999 2.10001H18.6C19.7 2.10001 20.6 3.00001 20.6 4.10001V6.30001C20.6 7.10001 20.1 8.10001 19.6 8.60001L15.3 12.4C14.7 12.9 14.3 13.9 14.3 14.7V19C14.3 19.6 13.9 20.4 13.4 20.7L12 21.6C10.7 22.4 8.89999 21.5 8.89999 19.9V14.6C8.89999 13.9 8.49999 13 8.09999 12.5L4.29999 8.50001C3.79999 8.00001 3.39999 7.10001 3.39999 6.50001V4.20001C3.39999 3.00001 4.29999 2.10001 5.39999 2.10001Z\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M10.93 2.10001L6 10\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nFilterRounded.displayName = \"FilterRounded\";\nexport const FilterRoundedMetadata = { \n  id: \"filter_rounded\", \n  baseId: \"filter\", \n  variant: \"rounded\", \n  name: \"Filter\", \n  category: \"home\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default FilterRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

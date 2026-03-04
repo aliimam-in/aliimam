@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "lamp-ceiling",
+  "type": "registry:ui",
+  "title": "Lamp Ceiling",
+  "description": "Lamp Ceiling icon component",
+  "category": "home",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/home/lamp-ceiling.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface LampCeilingProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const LampCeiling = React.forwardRef<SVGSVGElement, LampCeilingProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M12 2v5\" />\n  <path d=\"M14.829 15.998a3 3 0 1 1-5.658 0\" />\n  <path d=\"M20.92 14.606A1 1 0 0 1 20 16H4a1 1 0 0 1-.92-1.394l3-7A1 1 0 0 1 7 7h10a1 1 0 0 1 .92.606z\" />\n    </svg>\n  )\n);\nLampCeiling.displayName = \"LampCeiling\";\nexport const LampCeilingMetadata = { \n  id: \"lamp-ceiling\", \n  baseId: \"lamp-ceiling\", \n  variant: \"default\", \n  name: \"Lamp Ceiling\", \n  category: \"home\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default LampCeiling;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

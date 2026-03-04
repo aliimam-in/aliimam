@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "corner-up-right",
+  "type": "registry:ui",
+  "title": "Corner Up Right",
+  "description": "Corner Up Right icon component",
+  "category": "arrows",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/arrows/corner-up-right.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface CornerUpRightProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const CornerUpRight = React.forwardRef<SVGSVGElement, CornerUpRightProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"m15 14 5-5-5-5\" />\n  <path d=\"M4 20v-7a4 4 0 0 1 4-4h12\" />\n    </svg>\n  )\n);\nCornerUpRight.displayName = \"CornerUpRight\";\nexport const CornerUpRightMetadata = { \n  id: \"corner-up-right\", \n  baseId: \"corner-up-right\", \n  variant: \"default\", \n  name: \"Corner Up Right\", \n  category: \"arrows\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default CornerUpRight;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

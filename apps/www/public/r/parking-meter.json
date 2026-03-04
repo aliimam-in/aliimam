@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "parking-meter",
+  "type": "registry:ui",
+  "title": "Parking Meter",
+  "description": "Parking Meter icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/parking-meter.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ParkingMeterProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ParkingMeter = React.forwardRef<SVGSVGElement, ParkingMeterProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M11 15h2\" />\n  <path d=\"M12 12v3\" />\n  <path d=\"M12 19v3\" />\n  <path d=\"M15.282 19a1 1 0 0 0 .948-.68l2.37-6.988a7 7 0 1 0-13.2 0l2.37 6.988a1 1 0 0 0 .948.68z\" />\n  <path d=\"M9 9a3 3 0 1 1 6 0\" />\n    </svg>\n  )\n);\nParkingMeter.displayName = \"ParkingMeter\";\nexport const ParkingMeterMetadata = { \n  id: \"parking-meter\", \n  baseId: \"parking-meter\", \n  variant: \"default\", \n  name: \"Parking Meter\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ParkingMeter;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

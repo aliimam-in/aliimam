@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "chevron-up",
+  "type": "registry:ui",
+  "title": "Chevron Up",
+  "description": "Chevron Up icon component",
+  "category": "arrows",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/arrows/chevron-up.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ChevronUpProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ChevronUp = React.forwardRef<SVGSVGElement, ChevronUpProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"m18 15-6-6-6 6\" />\n    </svg>\n  )\n);\nChevronUp.displayName = \"ChevronUp\";\nexport const ChevronUpMetadata = { \n  id: \"chevron-up\", \n  baseId: \"chevron-up\", \n  variant: \"default\", \n  name: \"Chevron Up\", \n  category: \"arrows\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ChevronUp;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

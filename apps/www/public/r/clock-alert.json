@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "clock-alert",
+  "type": "registry:ui",
+  "title": "Clock Alert",
+  "description": "Clock Alert icon component",
+  "category": "clock",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/clock/clock-alert.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ClockAlertProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ClockAlert = React.forwardRef<SVGSVGElement, ClockAlertProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M12 6v6l4 2\" />\n  <path d=\"M20 12v5\" />\n  <path d=\"M20 21h.01\" />\n  <path d=\"M21.25 8.2A10 10 0 1 0 16 21.16\" />\n    </svg>\n  )\n);\nClockAlert.displayName = \"ClockAlert\";\nexport const ClockAlertMetadata = { \n  id: \"clock-alert\", \n  baseId: \"clock-alert\", \n  variant: \"default\", \n  name: \"Clock Alert\", \n  category: \"clock\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ClockAlert;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

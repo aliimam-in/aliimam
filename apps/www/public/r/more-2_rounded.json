@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "more-2_rounded",
+  "type": "registry:ui",
+  "title": "More 2",
+  "description": "More 2 icon component",
+  "category": "app",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/app/more-2_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface More2RoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const More2Rounded = React.forwardRef<SVGSVGElement, More2RoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M12 9.32C13.19 9.32 14.16 8.35 14.16 7.16C14.16 5.97 13.19 5 12 5C10.81 5 9.83997 5.97 9.83997 7.16C9.83997 8.35 10.81 9.32 12 9.32Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M6.79 19C7.98 19 8.95 18.03 8.95 16.84C8.95 15.65 7.98 14.68 6.79 14.68C5.6 14.68 4.63 15.65 4.63 16.84C4.63 18.03 5.59 19 6.79 19Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M17.21 19C18.4 19 19.37 18.03 19.37 16.84C19.37 15.65 18.4 14.68 17.21 14.68C16.02 14.68 15.05 15.65 15.05 16.84C15.05 18.03 16.02 19 17.21 19Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nMore2Rounded.displayName = \"More2Rounded\";\nexport const More2RoundedMetadata = { \n  id: \"more-2_rounded\", \n  baseId: \"more-2\", \n  variant: \"rounded\", \n  name: \"More 2\", \n  category: \"app\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default More2Rounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

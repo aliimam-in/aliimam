@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "git-merge-conflict",
+  "type": "registry:ui",
+  "title": "Git Merge Conflict",
+  "description": "Git Merge Conflict icon component",
+  "category": "code",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/code/git-merge-conflict.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface GitMergeConflictProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const GitMergeConflict = React.forwardRef<SVGSVGElement, GitMergeConflictProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M12 6h4a2 2 0 0 1 2 2v7\" />\n  <path d=\"M6 12v9\" />\n  <path d=\"M9 3 3 9\" />\n  <path d=\"M9 9 3 3\" />\n  <circle cx=\"18\" cy=\"18\" r=\"3\" />\n    </svg>\n  )\n);\nGitMergeConflict.displayName = \"GitMergeConflict\";\nexport const GitMergeConflictMetadata = { \n  id: \"git-merge-conflict\", \n  baseId: \"git-merge-conflict\", \n  variant: \"default\", \n  name: \"Git Merge Conflict\", \n  category: \"code\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default GitMergeConflict;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

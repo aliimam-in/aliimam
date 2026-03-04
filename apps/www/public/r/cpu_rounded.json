@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "cpu_rounded",
+  "type": "registry:ui",
+  "title": "Cpu",
+  "description": "Cpu icon component",
+  "category": "device",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/device/cpu_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface CpuRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const CpuRounded = React.forwardRef<SVGSVGElement, CpuRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M9.6 20H14.4C18.4 20 20 18.4 20 14.4V9.6C20 5.6 18.4 4 14.4 4H9.6C5.6 4 4 5.6 4 9.6V14.4C4 18.4 5.6 20 9.6 20Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M10.5 17H13.5C16 17 17 16 17 13.5V10.5C17 8 16 7 13.5 7H10.5C8 7 7 8 7 10.5V13.5C7 16 8 17 10.5 17Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M8.01001 4V2\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M12 4V2\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M16 4V2\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M20 8H22\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M20 12H22\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M20 16H22\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M16 20V22\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M12.01 20V22\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M8.01001 20V22\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M2 8H4\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M2 12H4\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M2 16H4\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nCpuRounded.displayName = \"CpuRounded\";\nexport const CpuRoundedMetadata = { \n  id: \"cpu_rounded\", \n  baseId: \"cpu\", \n  variant: \"rounded\", \n  name: \"Cpu\", \n  category: \"device\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default CpuRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

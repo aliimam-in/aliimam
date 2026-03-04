@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "venus",
+  "type": "registry:ui",
+  "title": "Venus",
+  "description": "Venus icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/venus.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface VenusProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Venus = React.forwardRef<SVGSVGElement, VenusProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M12 15v7\" />\n  <path d=\"M9 19h6\" />\n  <circle cx=\"12\" cy=\"9\" r=\"6\" />\n    </svg>\n  )\n);\nVenus.displayName = \"Venus\";\nexport const VenusMetadata = { \n  id: \"venus\", \n  baseId: \"venus\", \n  variant: \"default\", \n  name: \"Venus\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Venus;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

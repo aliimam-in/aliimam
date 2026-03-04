@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "bank_filled",
+  "type": "registry:ui",
+  "title": "Bank",
+  "description": "Bank icon component",
+  "category": "building",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/building/bank_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface BankFilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const BankFilled = React.forwardRef<SVGSVGElement, BankFilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M22 19V22H2V19C2 18.45 2.45 18 3 18H21C21.55 18 22 18.45 22 19Z\" fill=\"currentColor\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M7 11H5V18H7V11Z\" fill=\"currentColor\"/>\n<path d=\"M11 11H9V18H11V11Z\" fill=\"currentColor\"/>\n<path d=\"M15 11H13V18H15V11Z\" fill=\"currentColor\"/>\n<path d=\"M19 11H17V18H19V11Z\" fill=\"currentColor\"/>\n<path d=\"M23 22.75H1C0.59 22.75 0.25 22.41 0.25 22C0.25 21.59 0.59 21.25 1 21.25H23C23.41 21.25 23.75 21.59 23.75 22C23.75 22.41 23.41 22.75 23 22.75Z\" fill=\"currentColor\"/>\n<path d=\"M21.37 5.75009L12.37 2.15009C12.17 2.07009 11.83 2.07009 11.63 2.15009L2.63 5.75009C2.28 5.89009 2 6.30009 2 6.68009V10.0001C2 10.5501 2.45 11.0001 3 11.0001H21C21.55 11.0001 22 10.5501 22 10.0001V6.68009C22 6.30009 21.72 5.89009 21.37 5.75009ZM12 8.50009C11.17 8.50009 10.5 7.83009 10.5 7.00009C10.5 6.17009 11.17 5.50009 12 5.50009C12.83 5.50009 13.5 6.17009 13.5 7.00009C13.5 7.83009 12.83 8.50009 12 8.50009Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nBankFilled.displayName = \"BankFilled\";\nexport const BankFilledMetadata = { \n  id: \"bank_filled\", \n  baseId: \"bank\", \n  variant: \"filled\", \n  name: \"Bank\", \n  category: \"building\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default BankFilled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "brick-wall-fire",
+  "type": "registry:ui",
+  "title": "Brick Wall Fire",
+  "description": "Brick Wall Fire icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/brick-wall-fire.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface BrickWallFireProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const BrickWallFire = React.forwardRef<SVGSVGElement, BrickWallFireProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M16 3v2.107\" />\n  <path d=\"M17 9c1 3 2.5 3.5 3.5 4.5A5 5 0 0 1 22 17a5 5 0 0 1-10 0c0-.3 0-.6.1-.9a2 2 0 1 0 3.3-2C13 11.5 16 9 17 9\" />\n  <path d=\"M21 8.274V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h3.938\" />\n  <path d=\"M3 15h5.253\" />\n  <path d=\"M3 9h8.228\" />\n  <path d=\"M8 15v6\" />\n  <path d=\"M8 3v6\" />\n    </svg>\n  )\n);\nBrickWallFire.displayName = \"BrickWallFire\";\nexport const BrickWallFireMetadata = { \n  id: \"brick-wall-fire\", \n  baseId: \"brick-wall-fire\", \n  variant: \"default\", \n  name: \"Brick Wall Fire\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default BrickWallFire;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

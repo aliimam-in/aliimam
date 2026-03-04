@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "driver-refresh_rounded",
+  "type": "registry:ui",
+  "title": "Driver Refresh",
+  "description": "Driver Refresh icon component",
+  "category": "device",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/device/driver-refresh_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface DriverRefreshRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const DriverRefreshRounded = React.forwardRef<SVGSVGElement, DriverRefreshRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M6 6.25V8.25\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M22 12V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22H12\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M10 6.25V8.25\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M6 16V18\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M10 16V18\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M14 7.25H18\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M2 12H22\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M21.56 20.33C21 21.3 19.95 21.95 18.75 21.95C16.96 21.95 15.86 20.15 15.86 20.15M15.93 17.09C16.49 16.11 17.54 15.46 18.75 15.46C20.92 15.46 22 17.26 22 17.26M22 15.25V17.25H20M17.86 20.14H15.86V22\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nDriverRefreshRounded.displayName = \"DriverRefreshRounded\";\nexport const DriverRefreshRoundedMetadata = { \n  id: \"driver-refresh_rounded\", \n  baseId: \"driver-refresh\", \n  variant: \"rounded\", \n  name: \"Driver Refresh\", \n  category: \"device\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default DriverRefreshRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

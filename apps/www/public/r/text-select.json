@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "text-select",
+  "type": "registry:ui",
+  "title": "Text Select",
+  "description": "Text Select icon component",
+  "category": "text",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/text/text-select.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface TextSelectProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const TextSelect = React.forwardRef<SVGSVGElement, TextSelectProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M14 21h1\" />\n  <path d=\"M14 3h1\" />\n  <path d=\"M19 3a2 2 0 0 1 2 2\" />\n  <path d=\"M21 14v1\" />\n  <path d=\"M21 19a2 2 0 0 1-2 2\" />\n  <path d=\"M21 9v1\" />\n  <path d=\"M3 14v1\" />\n  <path d=\"M3 9v1\" />\n  <path d=\"M5 21a2 2 0 0 1-2-2\" />\n  <path d=\"M5 3a2 2 0 0 0-2 2\" />\n  <path d=\"M7 12h10\" />\n  <path d=\"M7 16h6\" />\n  <path d=\"M7 8h8\" />\n  <path d=\"M9 21h1\" />\n  <path d=\"M9 3h1\" />\n    </svg>\n  )\n);\nTextSelect.displayName = \"TextSelect\";\nexport const TextSelectMetadata = { \n  id: \"text-select\", \n  baseId: \"text-select\", \n  variant: \"default\", \n  name: \"Text Select\", \n  category: \"text\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default TextSelect;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

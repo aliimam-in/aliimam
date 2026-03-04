@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "square-arrow-out-down-left",
+  "type": "registry:ui",
+  "title": "Square Arrow Out Down Left",
+  "description": "Square Arrow Out Down Left icon component",
+  "category": "square",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/square/square-arrow-out-down-left.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface SquareArrowOutDownLeftProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const SquareArrowOutDownLeft = React.forwardRef<SVGSVGElement, SquareArrowOutDownLeftProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M13 21h6a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v6\" />\n  <path d=\"m3 21 9-9\" />\n  <path d=\"M9 21H3v-6\" />\n    </svg>\n  )\n);\nSquareArrowOutDownLeft.displayName = \"SquareArrowOutDownLeft\";\nexport const SquareArrowOutDownLeftMetadata = { \n  id: \"square-arrow-out-down-left\", \n  baseId: \"square-arrow-out-down-left\", \n  variant: \"default\", \n  name: \"Square Arrow Out Down Left\", \n  category: \"square\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default SquareArrowOutDownLeft;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

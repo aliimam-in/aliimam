@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "chart-scatter",
+  "type": "registry:ui",
+  "title": "Chart Scatter",
+  "description": "Chart Scatter icon component",
+  "category": "chart",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/chart/chart-scatter.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ChartScatterProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ChartScatter = React.forwardRef<SVGSVGElement, ChartScatterProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <circle cx=\"7.5\" cy=\"7.5\" r=\".5\" fill=\"currentColor\" />\n  <circle cx=\"18.5\" cy=\"5.5\" r=\".5\" fill=\"currentColor\" />\n  <circle cx=\"11.5\" cy=\"11.5\" r=\".5\" fill=\"currentColor\" />\n  <circle cx=\"7.5\" cy=\"16.5\" r=\".5\" fill=\"currentColor\" />\n  <circle cx=\"17.5\" cy=\"14.5\" r=\".5\" fill=\"currentColor\" />\n  <path d=\"M3 3v16a2 2 0 0 0 2 2h16\" />\n    </svg>\n  )\n);\nChartScatter.displayName = \"ChartScatter\";\nexport const ChartScatterMetadata = { \n  id: \"chart-scatter\", \n  baseId: \"chart-scatter\", \n  variant: \"default\", \n  name: \"Chart Scatter\", \n  category: \"chart\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ChartScatter;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

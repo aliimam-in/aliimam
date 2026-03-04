@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "blend-2_rounded",
+  "type": "registry:ui",
+  "title": "Blend 2",
+  "description": "Blend 2 icon component",
+  "category": "design",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/design/blend-2_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface Blend2RoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Blend2Rounded = React.forwardRef<SVGSVGElement, Blend2RoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 22 22\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M14.75 7.75C14.75 11.62 11.62 14.75 7.75 14.75C7.43 14.75 7.12 14.73 6.82 14.68C3.39 14.23 0.75 11.3 0.75 7.75C0.75 3.88 3.88 0.75 7.75 0.75C11.3 0.75 14.23 3.39 14.68 6.82C14.73 7.12 14.75 7.43 14.75 7.75Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M20.75 13.75C20.75 17.62 17.62 20.75 13.75 20.75C10.2 20.75 7.27001 18.11 6.82001 14.68C7.12001 14.73 7.43001 14.75 7.75001 14.75C11.62 14.75 14.75 11.62 14.75 7.75001C14.75 7.43001 14.73 7.12001 14.68 6.82001C18.11 7.27001 20.75 10.2 20.75 13.75Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M12.9 12.87L14.21 14.16\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M15.75 10.75L14.75 9.75\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M10.75 15.75L9.75 14.75\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nBlend2Rounded.displayName = \"Blend2Rounded\";\nexport const Blend2RoundedMetadata = { \n  id: \"blend-2_rounded\", \n  baseId: \"blend-2\", \n  variant: \"rounded\", \n  name: \"Blend 2\", \n  category: \"design\", \n  tags: [], \n  viewBox: \"0 0 22 22\" \n} as const;\n\nexport default Blend2Rounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

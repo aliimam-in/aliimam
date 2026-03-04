@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "rat",
+  "type": "registry:ui",
+  "title": "Rat",
+  "description": "Rat icon component",
+  "category": "animal",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/animal/rat.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface RatProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Rat = React.forwardRef<SVGSVGElement, RatProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M13 22H4a2 2 0 0 1 0-4h12\" />\n  <path d=\"M13.236 18a3 3 0 0 0-2.2-5\" />\n  <path d=\"M16 9h.01\" />\n  <path d=\"M16.82 3.94a3 3 0 1 1 3.237 4.868l1.815 2.587a1.5 1.5 0 0 1-1.5 2.1l-2.872-.453a3 3 0 0 0-3.5 3\" />\n  <path d=\"M17 4.988a3 3 0 1 0-5.2 2.052A7 7 0 0 0 4 14.015 4 4 0 0 0 8 18\" />\n    </svg>\n  )\n);\nRat.displayName = \"Rat\";\nexport const RatMetadata = { \n  id: \"rat\", \n  baseId: \"rat\", \n  variant: \"default\", \n  name: \"Rat\", \n  category: \"animal\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Rat;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

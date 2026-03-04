@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "annoyed",
+  "type": "registry:ui",
+  "title": "Annoyed",
+  "description": "Annoyed icon component",
+  "category": "emoji",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/emoji/annoyed.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface AnnoyedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Annoyed = React.forwardRef<SVGSVGElement, AnnoyedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"M8 15h8\" />\n  <path d=\"M8 9h2\" />\n  <path d=\"M14 9h2\" />\n    </svg>\n  )\n);\nAnnoyed.displayName = \"Annoyed\";\nexport const AnnoyedMetadata = { \n  id: \"annoyed\", \n  baseId: \"annoyed\", \n  variant: \"default\", \n  name: \"Annoyed\", \n  category: \"emoji\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Annoyed;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

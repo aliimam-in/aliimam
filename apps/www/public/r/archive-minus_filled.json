@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "archive-minus_filled",
+  "type": "registry:ui",
+  "title": "Archive Minus",
+  "description": "Archive Minus icon component",
+  "category": "book",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/book/archive-minus_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ArchiveMinusFilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ArchiveMinusFilled = React.forwardRef<SVGSVGElement, ArchiveMinusFilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M16.8199 2H7.17995C5.04995 2 3.31995 3.74 3.31995 5.86V19.95C3.31995 21.75 4.60995 22.51 6.18995 21.64L11.0699 18.93C11.5899 18.64 12.4299 18.64 12.9399 18.93L17.8199 21.64C19.3999 22.52 20.6899 21.76 20.6899 19.95V5.86C20.6799 3.74 18.9499 2 16.8199 2ZM14.4999 11.4H9.49995C9.08995 11.4 8.74995 11.06 8.74995 10.65C8.74995 10.24 9.08995 9.9 9.49995 9.9H14.4999C14.9099 9.9 15.2499 10.24 15.2499 10.65C15.2499 11.06 14.9099 11.4 14.4999 11.4Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nArchiveMinusFilled.displayName = \"ArchiveMinusFilled\";\nexport const ArchiveMinusFilledMetadata = { \n  id: \"archive-minus_filled\", \n  baseId: \"archive-minus\", \n  variant: \"filled\", \n  name: \"Archive Minus\", \n  category: \"book\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ArchiveMinusFilled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

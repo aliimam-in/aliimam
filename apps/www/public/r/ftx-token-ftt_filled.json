@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ftx-token-ftt_filled",
+  "type": "registry:ui",
+  "title": "Ftx Token Ftt",
+  "description": "Ftx Token Ftt icon component",
+  "category": "brand",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/brand/ftx-token-ftt_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface FtxTokenFttFilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const FtxTokenFttFilled = React.forwardRef<SVGSVGElement, FtxTokenFttFilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M21 2H9C8.45 2 8 2.45 8 3V6C8 6.55 8.45 7 9 7H21C21.55 7 22 6.55 22 6V3C22 2.45 21.55 2 21 2Z\" fill=\"currentColor\"/>\n<path d=\"M11 17H8C7.45 17 7 17.45 7 18V21C7 21.55 7.45 22 8 22H11C11.55 22 12 21.55 12 21V18C12 17.45 11.55 17 11 17Z\" fill=\"currentColor\"/>\n<path d=\"M6 9.5H3C2.45 9.5 2 9.95 2 10.5V13.5C2 14.05 2.45 14.5 3 14.5H6C6.55 14.5 7 14.05 7 13.5V10.5C7 9.95 6.55 9.5 6 9.5Z\" fill=\"currentColor\"/>\n<path d=\"M17 9.63989H10.5C9.95 9.63989 9.5 10.0899 9.5 10.6399V13.3599C9.5 13.9099 9.95 14.3599 10.5 14.3599H17C17.55 14.3599 18 13.9099 18 13.3599V10.6399C18 10.0899 17.55 9.63989 17 9.63989Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nFtxTokenFttFilled.displayName = \"FtxTokenFttFilled\";\nexport const FtxTokenFttFilledMetadata = { \n  id: \"ftx-token-ftt_filled\", \n  baseId: \"ftx-token-ftt\", \n  variant: \"filled\", \n  name: \"Ftx Token Ftt\", \n  category: \"brand\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default FtxTokenFttFilled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

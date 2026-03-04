@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "test-tubes",
+  "type": "registry:ui",
+  "title": "Test Tubes",
+  "description": "Test Tubes icon component",
+  "category": "health",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/health/test-tubes.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface TestTubesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const TestTubes = React.forwardRef<SVGSVGElement, TestTubesProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M9 2v17.5A2.5 2.5 0 0 1 6.5 22A2.5 2.5 0 0 1 4 19.5V2\" />\n  <path d=\"M20 2v17.5a2.5 2.5 0 0 1-2.5 2.5a2.5 2.5 0 0 1-2.5-2.5V2\" />\n  <path d=\"M3 2h7\" />\n  <path d=\"M14 2h7\" />\n  <path d=\"M9 16H4\" />\n  <path d=\"M20 16h-5\" />\n    </svg>\n  )\n);\nTestTubes.displayName = \"TestTubes\";\nexport const TestTubesMetadata = { \n  id: \"test-tubes\", \n  baseId: \"test-tubes\", \n  variant: \"default\", \n  name: \"Test Tubes\", \n  category: \"health\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default TestTubes;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

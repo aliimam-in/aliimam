@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "check-line",
+  "type": "registry:ui",
+  "title": "Check Line",
+  "description": "Check Line icon component",
+  "category": "design",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/design/check-line.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface CheckLineProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const CheckLine = React.forwardRef<SVGSVGElement, CheckLineProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M20 4L9 15\" />\n  <path d=\"M21 19L3 19\" />\n  <path d=\"M9 15L4 10\" />\n    </svg>\n  )\n);\nCheckLine.displayName = \"CheckLine\";\nexport const CheckLineMetadata = { \n  id: \"check-line\", \n  baseId: \"check-line\", \n  variant: \"default\", \n  name: \"Check Line\", \n  category: \"design\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default CheckLine;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "book-1_rounded",
+  "type": "registry:ui",
+  "title": "Book 1",
+  "description": "Book 1 icon component",
+  "category": "education",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/education/book-1_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface Book1RoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Book1Rounded = React.forwardRef<SVGSVGElement, Book1RoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M22 16.74V4.67C22 3.47 21.02 2.58 19.83 2.68H19.77C17.67 2.86 14.48 3.93 12.7 5.05L12.53 5.16C12.24 5.34 11.76 5.34 11.47 5.16L11.22 5.01C9.44 3.9 6.26 2.84 4.16 2.67C2.97 2.57 2 3.47 2 4.66V16.74C2 17.7 2.78 18.6 3.74 18.72L4.03 18.76C6.2 19.05 9.55 20.15 11.47 21.2L11.51 21.22C11.78 21.37 12.21 21.37 12.47 21.22C14.39 20.16 17.75 19.05 19.93 18.76L20.26 18.72C21.22 18.6 22 17.7 22 16.74Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M12 5.49V20.49\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M7.75 8.49H5.5\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M8.5 11.49H5.5\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nBook1Rounded.displayName = \"Book1Rounded\";\nexport const Book1RoundedMetadata = { \n  id: \"book-1_rounded\", \n  baseId: \"book-1\", \n  variant: \"rounded\", \n  name: \"Book 1\", \n  category: \"education\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Book1Rounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "arrow-square_rounded",
+  "type": "registry:ui",
+  "title": "Arrow Square",
+  "description": "Arrow Square icon component",
+  "category": "navigation",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/navigation/arrow-square_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ArrowSquareRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ArrowSquareRounded = React.forwardRef<SVGSVGElement, ArrowSquareRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M12.1401 15.07V13.11C12.1401 10.59 14.1801 8.53998 16.7101 8.53998H18.6701\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M5.62012 8.54999H7.58014C10.1001 8.54999 12.1501 10.59 12.1501 13.12V13.77V17.25\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M7.14008 6.75L5.34009 8.55L7.14008 10.35\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M16.8601 6.75L18.6601 8.55L16.8601 10.35\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nArrowSquareRounded.displayName = \"ArrowSquareRounded\";\nexport const ArrowSquareRoundedMetadata = { \n  id: \"arrow-square_rounded\", \n  baseId: \"arrow-square\", \n  variant: \"rounded\", \n  name: \"Arrow Square\", \n  category: \"navigation\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ArrowSquareRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

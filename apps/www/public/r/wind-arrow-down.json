@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "wind-arrow-down",
+  "type": "registry:ui",
+  "title": "Wind Arrow Down",
+  "description": "Wind Arrow Down icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/wind-arrow-down.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface WindArrowDownProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const WindArrowDown = React.forwardRef<SVGSVGElement, WindArrowDownProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M10 2v8\" />\n  <path d=\"M12.8 21.6A2 2 0 1 0 14 18H2\" />\n  <path d=\"M17.5 10a2.5 2.5 0 1 1 2 4H2\" />\n  <path d=\"m6 6 4 4 4-4\" />\n    </svg>\n  )\n);\nWindArrowDown.displayName = \"WindArrowDown\";\nexport const WindArrowDownMetadata = { \n  id: \"wind-arrow-down\", \n  baseId: \"wind-arrow-down\", \n  variant: \"default\", \n  name: \"Wind Arrow Down\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default WindArrowDown;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

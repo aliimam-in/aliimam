@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "simcard_rounded",
+  "type": "registry:ui",
+  "title": "Simcard",
+  "description": "Simcard icon component",
+  "category": "device",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/device/simcard_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface SimcardRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const SimcardRounded = React.forwardRef<SVGSVGElement, SimcardRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M19.54 6.53998L16.47 3.46997C15.53 2.52997 14.26 2.01001 12.93 2.01001H8C5 2.01001 3 4.01001 3 7.01001V17.01C3 20.01 5 22.01 8 22.01H16C19 22.01 21 20.01 21 17.01V10.08C21 8.74002 20.47 7.46998 19.54 6.53998Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M9.5 14L7.5 16L9.5 18\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M14.5 14L16.5 16L14.5 18\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nSimcardRounded.displayName = \"SimcardRounded\";\nexport const SimcardRoundedMetadata = { \n  id: \"simcard_rounded\", \n  baseId: \"simcard\", \n  variant: \"rounded\", \n  name: \"Simcard\", \n  category: \"device\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default SimcardRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

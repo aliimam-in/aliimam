@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "scissors-line-dashed",
+  "type": "registry:ui",
+  "title": "Scissors Line Dashed",
+  "description": "Scissors Line Dashed icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/scissors-line-dashed.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ScissorsLineDashedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ScissorsLineDashed = React.forwardRef<SVGSVGElement, ScissorsLineDashedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M5.42 9.42 8 12\" />\n  <circle cx=\"4\" cy=\"8\" r=\"2\" />\n  <path d=\"m14 6-8.58 8.58\" />\n  <circle cx=\"4\" cy=\"16\" r=\"2\" />\n  <path d=\"M10.8 14.8 14 18\" />\n  <path d=\"M16 12h-2\" />\n  <path d=\"M22 12h-2\" />\n    </svg>\n  )\n);\nScissorsLineDashed.displayName = \"ScissorsLineDashed\";\nexport const ScissorsLineDashedMetadata = { \n  id: \"scissors-line-dashed\", \n  baseId: \"scissors-line-dashed\", \n  variant: \"default\", \n  name: \"Scissors Line Dashed\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ScissorsLineDashed;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

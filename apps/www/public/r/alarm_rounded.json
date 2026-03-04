@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "alarm_rounded",
+  "type": "registry:ui",
+  "title": "Alarm",
+  "description": "Alarm icon component",
+  "category": "security",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/security/alarm_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface AlarmRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const AlarmRounded = React.forwardRef<SVGSVGElement, AlarmRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M2 22H22\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M12 6C7.03 6 3 10.03 3 15V22H21V15C21 10.03 16.97 6 12 6Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M12 2V3\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M4 4L5 5\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M20 4L19 5\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nAlarmRounded.displayName = \"AlarmRounded\";\nexport const AlarmRoundedMetadata = { \n  id: \"alarm_rounded\", \n  baseId: \"alarm\", \n  variant: \"rounded\", \n  name: \"Alarm\", \n  category: \"security\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default AlarmRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

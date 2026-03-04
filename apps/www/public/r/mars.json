@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "mars",
+  "type": "registry:ui",
+  "title": "Mars",
+  "description": "Mars icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/mars.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface MarsProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Mars = React.forwardRef<SVGSVGElement, MarsProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M16 3h5v5\" />\n  <path d=\"m21 3-6.75 6.75\" />\n  <circle cx=\"10\" cy=\"14\" r=\"6\" />\n    </svg>\n  )\n);\nMars.displayName = \"Mars\";\nexport const MarsMetadata = { \n  id: \"mars\", \n  baseId: \"mars\", \n  variant: \"default\", \n  name: \"Mars\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Mars;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

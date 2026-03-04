@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "chess-queen",
+  "type": "registry:ui",
+  "title": "Chess Queen",
+  "description": "Chess Queen icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/chess-queen.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ChessQueenProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ChessQueen = React.forwardRef<SVGSVGElement, ChessQueenProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M4 20a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v1a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1z\" />\n  <path d=\"m12.474 5.943 1.567 5.34a1 1 0 0 0 1.75.328l2.616-3.402\" />\n  <path d=\"m20 9-3 9\" />\n  <path d=\"m5.594 8.209 2.615 3.403a1 1 0 0 0 1.75-.329l1.567-5.34\" />\n  <path d=\"M7 18 4 9\" />\n  <circle cx=\"12\" cy=\"4\" r=\"2\" />\n  <circle cx=\"20\" cy=\"7\" r=\"2\" />\n  <circle cx=\"4\" cy=\"7\" r=\"2\" />\n    </svg>\n  )\n);\nChessQueen.displayName = \"ChessQueen\";\nexport const ChessQueenMetadata = { \n  id: \"chess-queen\", \n  baseId: \"chess-queen\", \n  variant: \"default\", \n  name: \"Chess Queen\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ChessQueen;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "language-circle_rounded",
+  "type": "registry:ui",
+  "title": "Language Circle",
+  "description": "Language Circle icon component",
+  "category": "text",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/text/language-circle_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface LanguageCircleRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const LanguageCircleRounded = React.forwardRef<SVGSVGElement, LanguageCircleRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M16.99 8.96002H7.01001\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M12 7.28003V8.96002\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M14.5 8.94C14.5 13.24 11.14 16.72 7 16.72\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M16.9999 16.72C15.1999 16.72 13.6 15.76 12.45 14.25\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nLanguageCircleRounded.displayName = \"LanguageCircleRounded\";\nexport const LanguageCircleRoundedMetadata = { \n  id: \"language-circle_rounded\", \n  baseId: \"language-circle\", \n  variant: \"rounded\", \n  name: \"Language Circle\", \n  category: \"text\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default LanguageCircleRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

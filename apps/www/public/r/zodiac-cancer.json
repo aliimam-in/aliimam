@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "zodiac-cancer",
+  "type": "registry:ui",
+  "title": "Zodiac Cancer",
+  "description": "Zodiac Cancer icon component",
+  "category": "zodiac",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/zodiac/zodiac-cancer.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ZodiacCancerProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ZodiacCancer = React.forwardRef<SVGSVGElement, ZodiacCancerProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M21 14.5A9 6.5 0 0 1 5.5 19\" />\n  <path d=\"M3 9.5A9 6.5 0 0 1 18.5 5\" />\n  <circle cx=\"17.5\" cy=\"14.5\" r=\"3.5\" />\n  <circle cx=\"6.5\" cy=\"9.5\" r=\"3.5\" />\n    </svg>\n  )\n);\nZodiacCancer.displayName = \"ZodiacCancer\";\nexport const ZodiacCancerMetadata = { \n  id: \"zodiac-cancer\", \n  baseId: \"zodiac-cancer\", \n  variant: \"default\", \n  name: \"Zodiac Cancer\", \n  category: \"zodiac\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ZodiacCancer;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

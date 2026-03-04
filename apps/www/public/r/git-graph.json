@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "git-graph",
+  "type": "registry:ui",
+  "title": "Git Graph",
+  "description": "Git Graph icon component",
+  "category": "code",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/code/git-graph.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface GitGraphProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const GitGraph = React.forwardRef<SVGSVGElement, GitGraphProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <circle cx=\"5\" cy=\"6\" r=\"3\" />\n  <path d=\"M5 9v6\" />\n  <circle cx=\"5\" cy=\"18\" r=\"3\" />\n  <path d=\"M12 3v18\" />\n  <circle cx=\"19\" cy=\"6\" r=\"3\" />\n  <path d=\"M16 15.7A9 9 0 0 0 19 9\" />\n    </svg>\n  )\n);\nGitGraph.displayName = \"GitGraph\";\nexport const GitGraphMetadata = { \n  id: \"git-graph\", \n  baseId: \"git-graph\", \n  variant: \"default\", \n  name: \"Git Graph\", \n  category: \"code\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default GitGraph;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "forward-item_filled",
+  "type": "registry:ui",
+  "title": "Forward Item",
+  "description": "Forward Item icon component",
+  "category": "design",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/design/forward-item_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ForwardItemFilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ForwardItemFilled = React.forwardRef<SVGSVGElement, ForwardItemFilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M21.25 5.77V9C21.25 11.1146 20.5422 11.899 18.6307 12.0068C18.355 12.0223 18.13 11.7961 18.13 11.52V10.38C18.13 7.26 16.74 5.87 13.62 5.87H12.48C12.2038 5.87 11.9777 5.64494 11.9932 5.36924C12.101 3.45773 12.8854 2.75 15 2.75H18.23C20.52 2.75 21.25 3.48 21.25 5.77Z\" fill=\"currentColor\"/>\n<path d=\"M16.63 10.3801V13.6201C16.63 15.9001 15.9 16.6301 13.62 16.6301H10.38C8.1 16.6301 7.37 15.9001 7.37 13.6201V10.3801C7.37 8.10012 8.1 7.37012 10.38 7.37012H13.62C15.9 7.37012 16.63 8.10012 16.63 10.3801Z\" fill=\"currentColor\"/>\n<path d=\"M11.52 18.13C11.7961 18.13 12.0223 18.355 12.0068 18.6307C11.899 20.5422 11.1146 21.25 9 21.25H5.77C3.48 21.25 2.75 20.52 2.75 18.23V15C2.75 12.8854 3.45773 12.101 5.36924 11.9932C5.64494 11.9777 5.87 12.2038 5.87 12.48V13.62C5.87 16.74 7.26 18.13 10.38 18.13H11.52Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nForwardItemFilled.displayName = \"ForwardItemFilled\";\nexport const ForwardItemFilledMetadata = { \n  id: \"forward-item_filled\", \n  baseId: \"forward-item\", \n  variant: \"filled\", \n  name: \"Forward Item\", \n  category: \"design\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ForwardItemFilled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

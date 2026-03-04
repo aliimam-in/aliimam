@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "rocking-chair",
+  "type": "registry:ui",
+  "title": "Rocking Chair",
+  "description": "Rocking Chair icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/rocking-chair.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface RockingChairProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const RockingChair = React.forwardRef<SVGSVGElement, RockingChairProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"m15 13 3.708 7.416\" />\n  <path d=\"M3 19a15 15 0 0 0 18 0\" />\n  <path d=\"m3 2 3.21 9.633A2 2 0 0 0 8.109 13H18\" />\n  <path d=\"m9 13-3.708 7.416\" />\n    </svg>\n  )\n);\nRockingChair.displayName = \"RockingChair\";\nexport const RockingChairMetadata = { \n  id: \"rocking-chair\", \n  baseId: \"rocking-chair\", \n  variant: \"default\", \n  name: \"Rocking Chair\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default RockingChair;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

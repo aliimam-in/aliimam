@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "brush-1_rounded",
+  "type": "registry:ui",
+  "title": "Brush 1",
+  "description": "Brush 1 icon component",
+  "category": "design",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/design/brush-1_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface Brush1RoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Brush1Rounded = React.forwardRef<SVGSVGElement, Brush1RoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <g clipPath=\"url(#clip0_210_5323)\">\n<path d=\"M10.97 2H8.96997C3.96997 2 1.96997 4 1.96997 9V15C1.96997 20 3.96997 22 8.96997 22H14.97C19.97 22 21.97 20 21.97 15V13\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M21.88 3.55998C20.65 6.62998 17.56 10.81 14.98 12.88L13.4 14.14C13.2 14.29 13 14.41 12.77 14.5C12.77 14.35 12.76 14.2 12.74 14.04C12.65 13.37 12.35 12.74 11.81 12.21C11.26 11.66 10.6 11.35 9.92 11.26C9.76 11.25 9.6 11.24 9.44 11.25C9.53 11 9.66 10.77 9.83 10.58L11.09 8.99998C13.16 6.41998 17.35 3.30998 20.41 2.07998C20.88 1.89998 21.34 2.03998 21.63 2.32998C21.93 2.62998 22.07 3.08998 21.88 3.55998Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M12.78 14.49C12.78 15.37 12.44 16.21 11.81 16.85C11.32 17.34 10.66 17.68 9.86997 17.78L7.89997 17.99C6.82997 18.11 5.90997 17.2 6.02997 16.11L6.23997 14.14C6.42997 12.39 7.88997 11.27 9.44997 11.24C9.60997 11.23 9.76997 11.24 9.92997 11.25C10.61 11.34 11.27 11.65 11.82 12.2C12.36 12.74 12.66 13.36 12.75 14.03C12.77 14.19 12.78 14.35 12.78 14.49Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M15.82 11.98C15.82 9.89 14.13 8.19 12.03 8.19\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n</g>\n<defs>\n<clipPath id=\"clip0_210_5323\">\n<rect width=\"24\" height=\"24\" fill=\"currentColor\"/>\n</clipPath>\n</defs>\n    </svg>\n  )\n);\nBrush1Rounded.displayName = \"Brush1Rounded\";\nexport const Brush1RoundedMetadata = { \n  id: \"brush-1_rounded\", \n  baseId: \"brush-1\", \n  variant: \"rounded\", \n  name: \"Brush 1\", \n  category: \"design\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Brush1Rounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

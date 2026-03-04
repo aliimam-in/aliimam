@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "windows_rounded",
+  "type": "registry:ui",
+  "title": "Windows",
+  "description": "Windows icon component",
+  "category": "brand",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/brand/windows_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface WindowsRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const WindowsRounded = React.forwardRef<SVGSVGElement, WindowsRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path fillRule=\"evenodd\" clipRule=\"evenodd\" d=\"M22 2L12 4V11H22V2Z\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path fillRule=\"evenodd\" clipRule=\"evenodd\" d=\"M22 22L12 20V13H22V22Z\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path fillRule=\"evenodd\" clipRule=\"evenodd\" d=\"M10 4.29999L2 5.99999V11H10V4.29999Z\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path fillRule=\"evenodd\" clipRule=\"evenodd\" d=\"M10 19.7L2 18V13H10V19.7Z\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nWindowsRounded.displayName = \"WindowsRounded\";\nexport const WindowsRoundedMetadata = { \n  id: \"windows_rounded\", \n  baseId: \"windows\", \n  variant: \"rounded\", \n  name: \"Windows\", \n  category: \"brand\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default WindowsRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

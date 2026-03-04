@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "life-buoy",
+  "type": "registry:ui",
+  "title": "Life Buoy",
+  "description": "Life Buoy icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/life-buoy.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface LifeBuoyProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const LifeBuoy = React.forwardRef<SVGSVGElement, LifeBuoyProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"m4.93 4.93 4.24 4.24\" />\n  <path d=\"m14.83 9.17 4.24-4.24\" />\n  <path d=\"m14.83 14.83 4.24 4.24\" />\n  <path d=\"m9.17 14.83-4.24 4.24\" />\n  <circle cx=\"12\" cy=\"12\" r=\"4\" />\n    </svg>\n  )\n);\nLifeBuoy.displayName = \"LifeBuoy\";\nexport const LifeBuoyMetadata = { \n  id: \"life-buoy\", \n  baseId: \"life-buoy\", \n  variant: \"default\", \n  name: \"Life Buoy\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default LifeBuoy;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

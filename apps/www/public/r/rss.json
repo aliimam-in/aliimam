@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "rss",
+  "type": "registry:ui",
+  "title": "Rss",
+  "description": "Rss icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/rss.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface RssProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Rss = React.forwardRef<SVGSVGElement, RssProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M4 11a9 9 0 0 1 9 9\" />\n  <path d=\"M4 4a16 16 0 0 1 16 16\" />\n  <circle cx=\"5\" cy=\"19\" r=\"1\" />\n    </svg>\n  )\n);\nRss.displayName = \"Rss\";\nexport const RssMetadata = { \n  id: \"rss\", \n  baseId: \"rss\", \n  variant: \"default\", \n  name: \"Rss\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Rss;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

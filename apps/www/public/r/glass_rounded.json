@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "glass_rounded",
+  "type": "registry:ui",
+  "title": "Glass",
+  "description": "Glass icon component",
+  "category": "design",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/design/glass_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface GlassRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const GlassRounded = React.forwardRef<SVGSVGElement, GlassRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M8.15998 22C3.97998 22 3.13998 19.47 4.49998 16.39L8.74998 6.74H8.44998C7.79998 6.74 7.19998 6.48 6.76998 6.05C6.32998 5.62 6.06998 5.02 6.06998 4.37C6.06998 3.07 7.12998 2 8.43998 2H15.55C16.21 2 16.8 2.27 17.23 2.7C17.79 3.26 18.07 4.08 17.86 4.95C17.59 6.03 16.55 6.74 15.44 6.74H15.28L19.5 16.4C20.85 19.48 19.97 22 15.83 22H8.15998Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M5.94 13.12C5.94 13.12 9 13 12 14C15 15 17.83 13.11 17.83 13.11\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nGlassRounded.displayName = \"GlassRounded\";\nexport const GlassRoundedMetadata = { \n  id: \"glass_rounded\", \n  baseId: \"glass\", \n  variant: \"rounded\", \n  name: \"Glass\", \n  category: \"design\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default GlassRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

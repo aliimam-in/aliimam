@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "cloud-change_rounded",
+  "type": "registry:ui",
+  "title": "Cloud Change",
+  "description": "Cloud Change icon component",
+  "category": "device",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/device/cloud-change_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface CloudChangeRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const CloudChangeRounded = React.forwardRef<SVGSVGElement, CloudChangeRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M8.11003 11.85C5.29003 12.05 5.30003 16.15 8.11003 16.35H14.78C15.59 16.36 16.37 16.05 16.97 15.51C18.95 13.78 17.8901 10.31 15.2901 9.98001C14.3601 4.34001 6.21006 6.48 8.14006 11.85\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M2 15C2 18.87 5.13 22 9 22L7.95001 20.25\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M22 9C22 5.13 18.87 2 15 2L16.05 3.75\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nCloudChangeRounded.displayName = \"CloudChangeRounded\";\nexport const CloudChangeRoundedMetadata = { \n  id: \"cloud-change_rounded\", \n  baseId: \"cloud-change\", \n  variant: \"rounded\", \n  name: \"Cloud Change\", \n  category: \"device\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default CloudChangeRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

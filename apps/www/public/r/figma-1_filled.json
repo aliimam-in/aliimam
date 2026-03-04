@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "figma-1_filled",
+  "type": "registry:ui",
+  "title": "Figma 1",
+  "description": "Figma 1 icon component",
+  "category": "brand",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/brand/figma-1_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface Figma1FilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Figma1Filled = React.forwardRef<SVGSVGElement, Figma1FilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M12 12C12 10.9 12.9 10 14 10H12V12Z\" fill=\"currentColor\"/>\n<path d=\"M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM16 12C16 13.1 15.1 14 14 14C12.9 14 12 13.1 12 12V14V16C12 17.1 11.1 18 10 18C8.9 18 8 17.1 8 16C8 14.9 8.9 14 10 14C8.9 14 8 13.1 8 12C8 10.9 8.9 10 10 10C8.9 10 8 9.1 8 8C8 6.9 8.9 6 10 6H12H14C15.1 6 16 6.9 16 8C16 9.1 15.1 10 14 10C15.1 10 16 10.9 16 12Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nFigma1Filled.displayName = \"Figma1Filled\";\nexport const Figma1FilledMetadata = { \n  id: \"figma-1_filled\", \n  baseId: \"figma-1\", \n  variant: \"filled\", \n  name: \"Figma 1\", \n  category: \"brand\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Figma1Filled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

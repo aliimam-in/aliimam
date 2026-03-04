@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "rotate-right_rounded",
+  "type": "registry:ui",
+  "title": "Rotate Right",
+  "description": "Rotate Right icon component",
+  "category": "arrows",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/arrows/rotate-right_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface RotateRightRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const RotateRightRounded = React.forwardRef<SVGSVGElement, RotateRightRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M14.8901 5.08C14.0201 4.82 13.0601 4.65 12.0001 4.65C7.21008 4.65 3.33008 8.53 3.33008 13.32C3.33008 18.12 7.21008 22 12.0001 22C16.7901 22 20.6701 18.12 20.6701 13.33C20.6701 11.55 20.1301 9.89 19.2101 8.51\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M16.13 5.32L13.24 2\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M16.13 5.32L12.76 7.78\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nRotateRightRounded.displayName = \"RotateRightRounded\";\nexport const RotateRightRoundedMetadata = { \n  id: \"rotate-right_rounded\", \n  baseId: \"rotate-right\", \n  variant: \"rounded\", \n  name: \"Rotate Right\", \n  category: \"arrows\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default RotateRightRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

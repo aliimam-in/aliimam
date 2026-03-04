@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "bug-off",
+  "type": "registry:ui",
+  "title": "Bug Off",
+  "description": "Bug Off icon component",
+  "category": "app",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/app/bug-off.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface BugOffProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const BugOff = React.forwardRef<SVGSVGElement, BugOffProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M12 20v-8\" />\n  <path d=\"M12.656 7H14a4 4 0 0 1 4 4v1.344\" />\n  <path d=\"M14.12 3.88 16 2\" />\n  <path d=\"M17.123 17.123A6 6 0 0 1 6 14v-3a4 4 0 0 1 1.72-3.287\" />\n  <path d=\"m2 2 20 20\" />\n  <path d=\"M21 5a4 4 0 0 1-3.55 3.97\" />\n  <path d=\"M22 13h-3.344\" />\n  <path d=\"M3 21a4 4 0 0 1 3.81-4\" />\n  <path d=\"M3 5a4 4 0 0 0 3.55 3.97\" />\n  <path d=\"M6 13H2\" />\n  <path d=\"m8 2 1.88 1.88\" />\n  <path d=\"M9.712 4.06A3 3 0 0 1 15 6v1.13\" />\n    </svg>\n  )\n);\nBugOff.displayName = \"BugOff\";\nexport const BugOffMetadata = { \n  id: \"bug-off\", \n  baseId: \"bug-off\", \n  variant: \"default\", \n  name: \"Bug Off\", \n  category: \"app\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default BugOff;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

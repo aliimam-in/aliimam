@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "dash-dash_rounded",
+  "type": "registry:ui",
+  "title": "Dash Dash",
+  "description": "Dash Dash icon component",
+  "category": "brand",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/brand/dash-dash_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface DashDashRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const DashDashRounded = React.forwardRef<SVGSVGElement, DashDashRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M7.0999 3.5H15.9999C19.9999 3.5 21.9999 6 21.9999 9.5V12C21.9999 17 18.9999 20.5 13.4999 20.5H3.8999L4.9999 16.2H12.3999C15.9999 16.2 17.6999 14 17.6999 10.9V10.7C17.6999 8.9 16.8999 7.7 14.6999 7.7H6.0999L7.0999 3.5Z\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M11.5 10.5H4.3C3.4 10.5 2.6 11.1 2.4 12L2 13.5H9.2C10.1 13.5 10.9 12.9 11.1 12L11.5 10.5Z\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nDashDashRounded.displayName = \"DashDashRounded\";\nexport const DashDashRoundedMetadata = { \n  id: \"dash-dash_rounded\", \n  baseId: \"dash-dash\", \n  variant: \"rounded\", \n  name: \"Dash Dash\", \n  category: \"brand\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default DashDashRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

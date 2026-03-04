@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "heart-circle_filled",
+  "type": "registry:ui",
+  "title": "Heart Circle",
+  "description": "Heart Circle icon component",
+  "category": "support",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/support/heart-circle_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface HeartCircleFilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const HeartCircleFilled = React.forwardRef<SVGSVGElement, HeartCircleFilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12.33 17C12.15 17.06 11.84 17.06 11.66 17C10.1 16.47 6.6 14.24 6.6 10.46C6.6 8.79 7.94 7.44 9.6 7.44C10.58 7.44 11.45 7.91 12 8.65C12.54 7.92 13.42 7.44 14.4 7.44C16.06 7.44 17.4 8.79 17.4 10.46C17.4 14.24 13.9 16.47 12.33 17Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nHeartCircleFilled.displayName = \"HeartCircleFilled\";\nexport const HeartCircleFilledMetadata = { \n  id: \"heart-circle_filled\", \n  baseId: \"heart-circle\", \n  variant: \"filled\", \n  name: \"Heart Circle\", \n  category: \"support\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default HeartCircleFilled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

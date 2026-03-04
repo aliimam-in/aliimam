@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "arrow-left-2_rounded",
+  "type": "registry:ui",
+  "title": "Arrow Left 2",
+  "description": "Arrow Left 2 icon component",
+  "category": "arrows",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/arrows/arrow-left-2_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ArrowLeft2RoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ArrowLeft2Rounded = React.forwardRef<SVGSVGElement, ArrowLeft2RoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M15.5 12H9.5\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M11.5 9L8.5 12L11.5 15\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nArrowLeft2Rounded.displayName = \"ArrowLeft2Rounded\";\nexport const ArrowLeft2RoundedMetadata = { \n  id: \"arrow-left-2_rounded\", \n  baseId: \"arrow-left-2\", \n  variant: \"rounded\", \n  name: \"Arrow Left 2\", \n  category: \"arrows\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ArrowLeft2Rounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

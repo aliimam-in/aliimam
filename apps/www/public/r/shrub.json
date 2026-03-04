@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "shrub",
+  "type": "registry:ui",
+  "title": "Shrub",
+  "description": "Shrub icon component",
+  "category": "nature",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/nature/shrub.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ShrubProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Shrub = React.forwardRef<SVGSVGElement, ShrubProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M12 22v-5.172a2 2 0 0 0-.586-1.414L9.5 13.5\" />\n  <path d=\"M14.5 14.5 12 17\" />\n  <path d=\"M17 8.8A6 6 0 0 1 13.8 20H10A6.5 6.5 0 0 1 7 8a5 5 0 0 1 10 0z\" />\n    </svg>\n  )\n);\nShrub.displayName = \"Shrub\";\nexport const ShrubMetadata = { \n  id: \"shrub\", \n  baseId: \"shrub\", \n  variant: \"default\", \n  name: \"Shrub\", \n  category: \"nature\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Shrub;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

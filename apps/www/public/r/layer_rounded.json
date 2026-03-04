@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "layer_rounded",
+  "type": "registry:ui",
+  "title": "Layer",
+  "description": "Layer icon component",
+  "category": "design",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/design/layer_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface LayerRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const LayerRounded = React.forwardRef<SVGSVGElement, LayerRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M13.01 2.92001L18.91 5.54001C20.61 6.29001 20.61 7.53001 18.91 8.28001L13.01 10.9C12.34 11.2 11.24 11.2 10.57 10.9L4.66999 8.28001C2.96999 7.53001 2.96999 6.29001 4.66999 5.54001L10.57 2.92001C11.24 2.62001 12.34 2.62001 13.01 2.92001Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M3 11C3 11.84 3.63 12.81 4.4 13.15L11.19 16.17C11.71 16.4 12.3 16.4 12.81 16.17L19.6 13.15C20.37 12.81 21 11.84 21 11\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M3 16C3 16.93 3.55 17.77 4.4 18.15L11.19 21.17C11.71 21.4 12.3 21.4 12.81 21.17L19.6 18.15C20.45 17.77 21 16.93 21 16\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nLayerRounded.displayName = \"LayerRounded\";\nexport const LayerRoundedMetadata = { \n  id: \"layer_rounded\", \n  baseId: \"layer\", \n  variant: \"rounded\", \n  name: \"Layer\", \n  category: \"design\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default LayerRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

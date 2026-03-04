@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "tent-tree",
+  "type": "registry:ui",
+  "title": "Tent Tree",
+  "description": "Tent Tree icon component",
+  "category": "building",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/building/tent-tree.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface TentTreeProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const TentTree = React.forwardRef<SVGSVGElement, TentTreeProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <circle cx=\"4\" cy=\"4\" r=\"2\" />\n  <path d=\"m14 5 3-3 3 3\" />\n  <path d=\"m14 10 3-3 3 3\" />\n  <path d=\"M17 14V2\" />\n  <path d=\"M17 14H7l-5 8h20Z\" />\n  <path d=\"M8 14v8\" />\n  <path d=\"m9 14 5 8\" />\n    </svg>\n  )\n);\nTentTree.displayName = \"TentTree\";\nexport const TentTreeMetadata = { \n  id: \"tent-tree\", \n  baseId: \"tent-tree\", \n  variant: \"default\", \n  name: \"Tent Tree\", \n  category: \"building\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default TentTree;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

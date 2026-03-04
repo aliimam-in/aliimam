@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "chart-network",
+  "type": "registry:ui",
+  "title": "Chart Network",
+  "description": "Chart Network icon component",
+  "category": "chart",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/chart/chart-network.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ChartNetworkProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ChartNetwork = React.forwardRef<SVGSVGElement, ChartNetworkProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"m13.11 7.664 1.78 2.672\" />\n  <path d=\"m14.162 12.788-3.324 1.424\" />\n  <path d=\"m20 4-6.06 1.515\" />\n  <path d=\"M3 3v16a2 2 0 0 0 2 2h16\" />\n  <circle cx=\"12\" cy=\"6\" r=\"2\" />\n  <circle cx=\"16\" cy=\"12\" r=\"2\" />\n  <circle cx=\"9\" cy=\"15\" r=\"2\" />\n    </svg>\n  )\n);\nChartNetwork.displayName = \"ChartNetwork\";\nexport const ChartNetworkMetadata = { \n  id: \"chart-network\", \n  baseId: \"chart-network\", \n  variant: \"default\", \n  name: \"Chart Network\", \n  category: \"chart\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ChartNetwork;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

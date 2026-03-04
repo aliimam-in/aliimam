@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "tether-usdt_filled",
+  "type": "registry:ui",
+  "title": "Tether Usdt",
+  "description": "Tether Usdt icon component",
+  "category": "brand",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/brand/tether-usdt_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface TetherUsdtFilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const TetherUsdtFilled = React.forwardRef<SVGSVGElement, TetherUsdtFilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M21.7101 9.90011L19.3101 5.08011C18.8401 4.13011 17.5901 3.36011 16.5301 3.36011H7.4701C6.4101 3.36011 5.1601 4.13011 4.6901 5.08011L2.29009 9.90011C1.71009 11.0601 2.03009 12.7101 2.98009 13.5801L9.9101 19.8701C11.0601 20.9101 12.9301 20.9101 14.0801 19.8701L21.0101 13.5801C21.9701 12.7101 22.2901 11.0501 21.7101 9.90011ZM16.0001 9.25011H12.7501V14.5001C12.7501 14.9101 12.4101 15.2501 12.0001 15.2501C11.5901 15.2501 11.2501 14.9101 11.2501 14.5001V9.25011H8.0001C7.5901 9.25011 7.2501 8.91011 7.2501 8.50011C7.2501 8.09011 7.5901 7.75011 8.0001 7.75011H16.0001C16.4101 7.75011 16.7501 8.09011 16.7501 8.50011C16.7501 8.91011 16.4101 9.25011 16.0001 9.25011Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nTetherUsdtFilled.displayName = \"TetherUsdtFilled\";\nexport const TetherUsdtFilledMetadata = { \n  id: \"tether-usdt_filled\", \n  baseId: \"tether-usdt\", \n  variant: \"filled\", \n  name: \"Tether Usdt\", \n  category: \"brand\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default TetherUsdtFilled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

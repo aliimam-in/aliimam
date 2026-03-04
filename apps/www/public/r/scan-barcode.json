@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "scan-barcode",
+  "type": "registry:ui",
+  "title": "Scan Barcode",
+  "description": "Scan Barcode icon component",
+  "category": "scan",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/scan/scan-barcode.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ScanBarcodeProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ScanBarcode = React.forwardRef<SVGSVGElement, ScanBarcodeProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M3 7V5a2 2 0 0 1 2-2h2\" />\n  <path d=\"M17 3h2a2 2 0 0 1 2 2v2\" />\n  <path d=\"M21 17v2a2 2 0 0 1-2 2h-2\" />\n  <path d=\"M7 21H5a2 2 0 0 1-2-2v-2\" />\n  <path d=\"M8 7v10\" />\n  <path d=\"M12 7v10\" />\n  <path d=\"M17 7v10\" />\n    </svg>\n  )\n);\nScanBarcode.displayName = \"ScanBarcode\";\nexport const ScanBarcodeMetadata = { \n  id: \"scan-barcode\", \n  baseId: \"scan-barcode\", \n  variant: \"default\", \n  name: \"Scan Barcode\", \n  category: \"scan\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ScanBarcode;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

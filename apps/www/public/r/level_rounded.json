@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "level_rounded",
+  "type": "registry:ui",
+  "title": "Level",
+  "description": "Level icon component",
+  "category": "home",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/home/level_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface LevelRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const LevelRounded = React.forwardRef<SVGSVGElement, LevelRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M2.20001 14.02C3.13001 18.58 7.16002 22 12 22C16.82 22 20.84 18.59 21.79 14.05\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M21.81 10.06C20.91 5.46 16.86 2 12 2C7.17002 2 3.14001 5.43001 2.20001 9.98001\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M12 13.5C12.8284 13.5 13.5 12.8284 13.5 12C13.5 11.1716 12.8284 10.5 12 10.5C11.1716 10.5 10.5 11.1716 10.5 12C10.5 12.8284 11.1716 13.5 12 13.5Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nLevelRounded.displayName = \"LevelRounded\";\nexport const LevelRoundedMetadata = { \n  id: \"level_rounded\", \n  baseId: \"level\", \n  variant: \"rounded\", \n  name: \"Level\", \n  category: \"home\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default LevelRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

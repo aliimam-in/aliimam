@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "music-filter_rounded",
+  "type": "registry:ui",
+  "title": "Music Filter",
+  "description": "Music Filter icon component",
+  "category": "multimedia",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/multimedia/music-filter_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface MusicFilterRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const MusicFilterRounded = React.forwardRef<SVGSVGElement, MusicFilterRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M2 3H22\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M2 9H11\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M2 15H8\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M2 21H6\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M11.8399 22C13.0439 22 14.0199 21.024 14.0199 19.82C14.0199 18.616 13.0439 17.64 11.8399 17.64C10.6359 17.64 9.65991 18.616 9.65991 19.82C9.65991 21.024 10.6359 22 11.8399 22Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M22 18.37V9.85999C22 8.04999 20.86 7.79999 19.71 8.10999L15.36 9.3C14.57 9.52 14.02 10.14 14.02 11.05V12.57V13.59V19.82\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M19.8199 20.55C21.0239 20.55 21.9999 19.574 21.9999 18.37C21.9999 17.166 21.0239 16.19 19.8199 16.19C18.6159 16.19 17.6399 17.166 17.6399 18.37C17.6399 19.574 18.6159 20.55 19.8199 20.55Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M14.02 13.6L22 11.42\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nMusicFilterRounded.displayName = \"MusicFilterRounded\";\nexport const MusicFilterRoundedMetadata = { \n  id: \"music-filter_rounded\", \n  baseId: \"music-filter\", \n  variant: \"rounded\", \n  name: \"Music Filter\", \n  category: \"multimedia\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default MusicFilterRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

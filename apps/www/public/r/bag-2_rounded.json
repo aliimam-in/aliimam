@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "bag-2_rounded",
+  "type": "registry:ui",
+  "title": "Bag 2",
+  "description": "Bag 2 icon component",
+  "category": "commerce",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/commerce/bag-2_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface Bag2RoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Bag2Rounded = React.forwardRef<SVGSVGElement, Bag2RoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M7.5 7.67001V6.70001C7.5 4.45001 9.31 2.24001 11.56 2.03001C14.24 1.77001 16.5 3.88001 16.5 6.51001V7.89001\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M9.00001 22H15C19.02 22 19.74 20.39 19.95 18.43L20.7 12.43C20.97 9.99 20.27 8 16 8H8.00001C3.73001 8 3.03001 9.99 3.30001 12.43L4.05001 18.43C4.26001 20.39 4.98001 22 9.00001 22Z\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M15.4955 12H15.5045\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M8.49451 12H8.50349\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nBag2Rounded.displayName = \"Bag2Rounded\";\nexport const Bag2RoundedMetadata = { \n  id: \"bag-2_rounded\", \n  baseId: \"bag-2\", \n  variant: \"rounded\", \n  name: \"Bag 2\", \n  category: \"commerce\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Bag2Rounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

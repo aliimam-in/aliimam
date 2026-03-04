@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "truck-electric",
+  "type": "registry:ui",
+  "title": "Truck Electric",
+  "description": "Truck Electric icon component",
+  "category": "transport",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/transport/truck-electric.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface TruckElectricProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const TruckElectric = React.forwardRef<SVGSVGElement, TruckElectricProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M14 19V7a2 2 0 0 0-2-2H9\" />\n  <path d=\"M15 19H9\" />\n  <path d=\"M19 19h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.62L18.3 9.38a1 1 0 0 0-.78-.38H14\" />\n  <path d=\"M2 13v5a1 1 0 0 0 1 1h2\" />\n  <path d=\"M4 3 2.15 5.15a.495.495 0 0 0 .35.86h2.15a.47.47 0 0 1 .35.86L3 9.02\" />\n  <circle cx=\"17\" cy=\"19\" r=\"2\" />\n  <circle cx=\"7\" cy=\"19\" r=\"2\" />\n    </svg>\n  )\n);\nTruckElectric.displayName = \"TruckElectric\";\nexport const TruckElectricMetadata = { \n  id: \"truck-electric\", \n  baseId: \"truck-electric\", \n  variant: \"default\", \n  name: \"Truck Electric\", \n  category: \"transport\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default TruckElectric;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

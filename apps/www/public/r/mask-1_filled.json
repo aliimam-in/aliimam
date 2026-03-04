@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "mask-1_filled",
+  "type": "registry:ui",
+  "title": "Mask 1",
+  "description": "Mask 1 icon component",
+  "category": "design",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/design/mask-1_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface Mask1FilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Mask1Filled = React.forwardRef<SVGSVGElement, Mask1FilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 17C9.24 17 7 14.76 7 12C7 9.24 9.24 7 12 7C14.76 7 17 9.24 17 12C17 14.76 14.76 17 12 17Z\" fill=\"currentColor\"/>\n<path d=\"M12 7V17C9.24 17 7 14.76 7 12C7 9.24 9.24 7 12 7Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nMask1Filled.displayName = \"Mask1Filled\";\nexport const Mask1FilledMetadata = { \n  id: \"mask-1_filled\", \n  baseId: \"mask-1\", \n  variant: \"filled\", \n  name: \"Mask 1\", \n  category: \"design\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Mask1Filled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

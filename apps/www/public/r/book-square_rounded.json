@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "book-square_rounded",
+  "type": "registry:ui",
+  "title": "Book Square",
+  "description": "Book Square icon component",
+  "category": "app",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/app/book-square_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface BookSquareRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const BookSquareRounded = React.forwardRef<SVGSVGElement, BookSquareRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M18.38 15.27V7.57999C18.38 6.80999 17.76 6.25 17 6.31H16.96C15.62 6.42 13.59 7.11001 12.45 7.82001L12.34 7.89002C12.16 8.00002 11.85 8.00002 11.66 7.89002L11.5 7.79001C10.37 7.08001 8.34 6.40999 7 6.29999C6.24 6.23999 5.62 6.81001 5.62 7.57001V15.27C5.62 15.88 6.11998 16.46 6.72998 16.53L6.90997 16.56C8.28997 16.74 10.43 17.45 11.65 18.12L11.68 18.13C11.85 18.23 12.13 18.23 12.29 18.13C13.51 17.45 15.66 16.75 17.05 16.56L17.26 16.53C17.88 16.46 18.38 15.89 18.38 15.27Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M12 8.10001V17.66\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nBookSquareRounded.displayName = \"BookSquareRounded\";\nexport const BookSquareRoundedMetadata = { \n  id: \"book-square_rounded\", \n  baseId: \"book-square\", \n  variant: \"rounded\", \n  name: \"Book Square\", \n  category: \"app\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default BookSquareRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

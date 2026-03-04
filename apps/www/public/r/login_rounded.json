@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "login_rounded",
+  "type": "registry:ui",
+  "title": "Login",
+  "description": "Login icon component",
+  "category": "arrows",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/arrows/login_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface LoginRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const LoginRounded = React.forwardRef<SVGSVGElement, LoginRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M8.8999 7.56C9.2099 3.96 11.0599 2.49 15.1099 2.49H15.2399C19.7099 2.49 21.4999 4.28 21.4999 8.75V15.27C21.4999 19.74 19.7099 21.53 15.2399 21.53H15.1099C11.0899 21.53 9.2399 20.08 8.9099 16.54\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M2 12H14.88\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M12.6499 8.65L15.9999 12L12.6499 15.35\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nLoginRounded.displayName = \"LoginRounded\";\nexport const LoginRoundedMetadata = { \n  id: \"login_rounded\", \n  baseId: \"login\", \n  variant: \"rounded\", \n  name: \"Login\", \n  category: \"arrows\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default LoginRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

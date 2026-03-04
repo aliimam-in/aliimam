@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "touchpad-off",
+  "type": "registry:ui",
+  "title": "Touchpad Off",
+  "description": "Touchpad Off icon component",
+  "category": "device",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/device/touchpad-off.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface TouchpadOffProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const TouchpadOff = React.forwardRef<SVGSVGElement, TouchpadOffProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M12 20v-6\" />\n  <path d=\"M19.656 14H22\" />\n  <path d=\"M2 14h12\" />\n  <path d=\"m2 2 20 20\" />\n  <path d=\"M20 20H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2\" />\n  <path d=\"M9.656 4H20a2 2 0 0 1 2 2v10.344\" />\n    </svg>\n  )\n);\nTouchpadOff.displayName = \"TouchpadOff\";\nexport const TouchpadOffMetadata = { \n  id: \"touchpad-off\", \n  baseId: \"touchpad-off\", \n  variant: \"default\", \n  name: \"Touchpad Off\", \n  category: \"device\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default TouchpadOff;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

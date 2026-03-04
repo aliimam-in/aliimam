@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "cloud-notif_filled",
+  "type": "registry:ui",
+  "title": "Cloud Notif",
+  "description": "Cloud Notif icon component",
+  "category": "weather",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/weather/cloud-notif_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface CloudNotifFilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const CloudNotifFilled = React.forwardRef<SVGSVGElement, CloudNotifFilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M21.27 8.75977C21.27 9.77977 20.8 10.6998 20.04 11.2998C19.49 11.7498 18.78 12.0198 18.01 12.0198C16.22 12.0198 14.76 10.5598 14.76 8.76977C14.76 7.87977 15.12 7.06977 15.72 6.47977V6.46977C16.31 5.87977 17.12 5.50977 18.01 5.50977C19.81 5.50977 21.27 6.96977 21.27 8.75977Z\" fill=\"currentColor\"/>\n<path d=\"M20.18 18.7298C19.13 19.6898 17.78 20.2198 16.35 20.2198H5.97001C3.23001 20.0198 2.01001 17.9098 2.01001 16.0298C2.01001 14.3498 2.98001 12.4898 5.11001 11.9698C4.18001 8.38985 5.96001 5.88985 8.04001 4.69985C10.1 3.52985 13 3.33985 15.18 4.94985C14.99 5.08985 14.82 5.23985 14.65 5.40985L14.22 5.85985V5.91985C13.6 6.72985 13.26 7.71985 13.26 8.75985C13.26 11.3798 15.4 13.5098 18.02 13.5098C19.1 13.5098 20.15 13.1398 20.97 12.4698C21.12 12.3498 21.27 12.2198 21.4 12.0798C22.39 14.1598 22.25 16.9198 20.18 18.7298Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nCloudNotifFilled.displayName = \"CloudNotifFilled\";\nexport const CloudNotifFilledMetadata = { \n  id: \"cloud-notif_filled\", \n  baseId: \"cloud-notif\", \n  variant: \"filled\", \n  name: \"Cloud Notif\", \n  category: \"weather\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default CloudNotifFilled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

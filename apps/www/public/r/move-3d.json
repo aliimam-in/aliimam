@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "move-3d",
+  "type": "registry:ui",
+  "title": "Move 3d",
+  "description": "Move 3d icon component",
+  "category": "arrows",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/arrows/move-3d.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface Move3dProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Move3d = React.forwardRef<SVGSVGElement, Move3dProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M5 3v16h16\" />\n  <path d=\"m5 19 6-6\" />\n  <path d=\"m2 6 3-3 3 3\" />\n  <path d=\"m18 16 3 3-3 3\" />\n    </svg>\n  )\n);\nMove3d.displayName = \"Move3d\";\nexport const Move3dMetadata = { \n  id: \"move-3d\", \n  baseId: \"move-3d\", \n  variant: \"default\", \n  name: \"Move 3d\", \n  category: \"arrows\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Move3d;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

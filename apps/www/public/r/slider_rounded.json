@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "slider_rounded",
+  "type": "registry:ui",
+  "title": "Slider",
+  "description": "Slider icon component",
+  "category": "home",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/home/slider_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface SliderRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const SliderRounded = React.forwardRef<SVGSVGElement, SliderRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M15 22H9C6.5 22 5 20.2 5 18V6C5 3.8 6.5 2 9 2H15C17.5 2 19 3.8 19 6V18C19 20.2 17.5 22 15 22Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M5 16.01H19\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M2 4V20\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M22 4V20\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nSliderRounded.displayName = \"SliderRounded\";\nexport const SliderRoundedMetadata = { \n  id: \"slider_rounded\", \n  baseId: \"slider\", \n  variant: \"rounded\", \n  name: \"Slider\", \n  category: \"home\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default SliderRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

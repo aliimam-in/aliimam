@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "panel-top-dashed",
+  "type": "registry:ui",
+  "title": "Panel Top Dashed",
+  "description": "Panel Top Dashed icon component",
+  "category": "panel",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/panel/panel-top-dashed.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface PanelTopDashedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const PanelTopDashed = React.forwardRef<SVGSVGElement, PanelTopDashedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <rect width=\"18\" height=\"18\" x=\"3\" y=\"3\" rx=\"2\" />\n  <path d=\"M14 9h1\" />\n  <path d=\"M19 9h2\" />\n  <path d=\"M3 9h2\" />\n  <path d=\"M9 9h1\" />\n    </svg>\n  )\n);\nPanelTopDashed.displayName = \"PanelTopDashed\";\nexport const PanelTopDashedMetadata = { \n  id: \"panel-top-dashed\", \n  baseId: \"panel-top-dashed\", \n  variant: \"default\", \n  name: \"Panel Top Dashed\", \n  category: \"panel\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default PanelTopDashed;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

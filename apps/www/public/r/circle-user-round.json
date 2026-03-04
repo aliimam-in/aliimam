@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "circle-user-round",
+  "type": "registry:ui",
+  "title": "Circle User Round",
+  "description": "Circle User Round icon component",
+  "category": "circle",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/circle/circle-user-round.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface CircleUserRoundProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const CircleUserRound = React.forwardRef<SVGSVGElement, CircleUserRoundProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M18 20a6 6 0 0 0-12 0\" />\n  <circle cx=\"12\" cy=\"10\" r=\"4\" />\n  <circle cx=\"12\" cy=\"12\" r=\"10\" />\n    </svg>\n  )\n);\nCircleUserRound.displayName = \"CircleUserRound\";\nexport const CircleUserRoundMetadata = { \n  id: \"circle-user-round\", \n  baseId: \"circle-user-round\", \n  variant: \"default\", \n  name: \"Circle User Round\", \n  category: \"circle\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default CircleUserRound;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

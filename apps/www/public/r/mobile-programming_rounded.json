@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "mobile-programming_rounded",
+  "type": "registry:ui",
+  "title": "Mobile Programming",
+  "description": "Mobile Programming icon component",
+  "category": "code",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/code/mobile-programming_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface MobileProgrammingRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const MobileProgrammingRounded = React.forwardRef<SVGSVGElement, MobileProgrammingRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M8.92999 2L8.95999 3.53003C8.97999 4.34003 9.64999 5 10.46 5H13.48C14.31 5 14.98 4.32 14.98 3.5V2\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M17 17L15 19L17 21\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M20 17L22 19L20 21\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M13 22H8C4.5 22 3 20 3 17V7C3 4 4.5 2 8 2H16C19.5 2 21 4 21 7V14\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nMobileProgrammingRounded.displayName = \"MobileProgrammingRounded\";\nexport const MobileProgrammingRoundedMetadata = { \n  id: \"mobile-programming_rounded\", \n  baseId: \"mobile-programming\", \n  variant: \"rounded\", \n  name: \"Mobile Programming\", \n  category: \"code\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default MobileProgrammingRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

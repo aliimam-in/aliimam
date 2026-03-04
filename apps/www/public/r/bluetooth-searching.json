@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "bluetooth-searching",
+  "type": "registry:ui",
+  "title": "Bluetooth Searching",
+  "description": "Bluetooth Searching icon component",
+  "category": "app",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/app/bluetooth-searching.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface BluetoothSearchingProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const BluetoothSearching = React.forwardRef<SVGSVGElement, BluetoothSearchingProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"m7 7 10 10-5 5V2l5 5L7 17\" />\n  <path d=\"M20.83 14.83a4 4 0 0 0 0-5.66\" />\n  <path d=\"M18 12h.01\" />\n    </svg>\n  )\n);\nBluetoothSearching.displayName = \"BluetoothSearching\";\nexport const BluetoothSearchingMetadata = { \n  id: \"bluetooth-searching\", \n  baseId: \"bluetooth-searching\", \n  variant: \"default\", \n  name: \"Bluetooth Searching\", \n  category: \"app\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default BluetoothSearching;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

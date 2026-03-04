@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "message-2_filled",
+  "type": "registry:ui",
+  "title": "Message 2",
+  "description": "Message 2 icon component",
+  "category": "message",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/message/message-2_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface Message2FilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Message2Filled = React.forwardRef<SVGSVGElement, Message2FilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M17 2.42993H7C4 2.42993 2 4.42993 2 7.42993V13.4299C2 16.4299 4 18.4299 7 18.4299H11L15.45 21.3899C16.11 21.8299 17 21.3599 17 20.5599V18.4299C20 18.4299 22 16.4299 22 13.4299V7.42993C22 4.42993 20 2.42993 17 2.42993ZM15.5 11.2499H8.5C8.09 11.2499 7.75 10.9099 7.75 10.4999C7.75 10.0899 8.09 9.74993 8.5 9.74993H15.5C15.91 9.74993 16.25 10.0899 16.25 10.4999C16.25 10.9099 15.91 11.2499 15.5 11.2499Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nMessage2Filled.displayName = \"Message2Filled\";\nexport const Message2FilledMetadata = { \n  id: \"message-2_filled\", \n  baseId: \"message-2\", \n  variant: \"filled\", \n  name: \"Message 2\", \n  category: \"message\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Message2Filled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

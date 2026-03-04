@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "parentheses",
+  "type": "registry:ui",
+  "title": "Parentheses",
+  "description": "Parentheses icon component",
+  "category": "math",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/math/parentheses.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ParenthesesProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Parentheses = React.forwardRef<SVGSVGElement, ParenthesesProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M8 21s-4-3-4-9 4-9 4-9\" />\n  <path d=\"M16 3s4 3 4 9-4 9-4 9\" />\n    </svg>\n  )\n);\nParentheses.displayName = \"Parentheses\";\nexport const ParenthesesMetadata = { \n  id: \"parentheses\", \n  baseId: \"parentheses\", \n  variant: \"default\", \n  name: \"Parentheses\", \n  category: \"math\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Parentheses;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

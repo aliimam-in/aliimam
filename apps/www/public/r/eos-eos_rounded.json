@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "eos-eos_rounded",
+  "type": "registry:ui",
+  "title": "Eos Eos",
+  "description": "Eos Eos icon component",
+  "category": "brand",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/brand/eos-eos_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface EosEosRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const EosEosRounded = React.forwardRef<SVGSVGElement, EosEosRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M10.8001 3.40005L7.20007 7.70005C7.10007 7.90005 7.00007 8.20005 6.90007 8.40005L5.20007 17C5.10007 17.6 5.40007 18.3 5.90007 18.6L11.2001 21.6C11.6001 21.8 12.3001 21.8 12.7001 21.6L18.0001 18.6C18.5001 18.3 18.8001 17.6 18.7001 17L17.0001 8.40005C17.0001 8.20005 16.8001 7.90005 16.7001 7.70005L13.1001 3.40005C12.5001 2.60005 11.5001 2.60005 10.8001 3.40005Z\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M16.8 8.5L12.5 20.7C12.3 21.1 11.7 21.1 11.6 20.7L7.19995 8.5\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nEosEosRounded.displayName = \"EosEosRounded\";\nexport const EosEosRoundedMetadata = { \n  id: \"eos-eos_rounded\", \n  baseId: \"eos-eos\", \n  variant: \"rounded\", \n  name: \"Eos Eos\", \n  category: \"brand\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default EosEosRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

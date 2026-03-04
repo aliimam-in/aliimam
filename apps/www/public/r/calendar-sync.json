@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "calendar-sync",
+  "type": "registry:ui",
+  "title": "Calendar Sync",
+  "description": "Calendar Sync icon component",
+  "category": "calendar",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/calendar/calendar-sync.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface CalendarSyncProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const CalendarSync = React.forwardRef<SVGSVGElement, CalendarSyncProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M11 10v4h4\" />\n  <path d=\"m11 14 1.535-1.605a5 5 0 0 1 8 1.5\" />\n  <path d=\"M16 2v4\" />\n  <path d=\"m21 18-1.535 1.605a5 5 0 0 1-8-1.5\" />\n  <path d=\"M21 22v-4h-4\" />\n  <path d=\"M21 8.5V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h4.3\" />\n  <path d=\"M3 10h4\" />\n  <path d=\"M8 2v4\" />\n    </svg>\n  )\n);\nCalendarSync.displayName = \"CalendarSync\";\nexport const CalendarSyncMetadata = { \n  id: \"calendar-sync\", \n  baseId: \"calendar-sync\", \n  variant: \"default\", \n  name: \"Calendar Sync\", \n  category: \"calendar\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default CalendarSync;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

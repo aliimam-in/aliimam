@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "pause-circle_rounded",
+  "type": "registry:ui",
+  "title": "Pause Circle",
+  "description": "Pause Circle icon component",
+  "category": "multimedia",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/multimedia/pause-circle_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface PauseCircleRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const PauseCircleRounded = React.forwardRef<SVGSVGElement, PauseCircleRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M11.97 22C17.4928 22 21.97 17.5228 21.97 12C21.97 6.47715 17.4928 2 11.97 2C6.44712 2 1.96997 6.47715 1.96997 12C1.96997 17.5228 6.44712 22 11.97 22Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M10.72 14.53V9.46999C10.72 8.98999 10.52 8.79999 10.01 8.79999H8.71C8.2 8.79999 8 8.98999 8 9.46999V14.53C8 15.01 8.2 15.2 8.71 15.2H10C10.52 15.2 10.72 15.01 10.72 14.53Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M16 14.53V9.46999C16 8.98999 15.8 8.79999 15.29 8.79999H14C13.49 8.79999 13.29 8.98999 13.29 9.46999V14.53C13.29 15.01 13.49 15.2 14 15.2H15.29C15.8 15.2 16 15.01 16 14.53Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nPauseCircleRounded.displayName = \"PauseCircleRounded\";\nexport const PauseCircleRoundedMetadata = { \n  id: \"pause-circle_rounded\", \n  baseId: \"pause-circle\", \n  variant: \"rounded\", \n  name: \"Pause Circle\", \n  category: \"multimedia\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default PauseCircleRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

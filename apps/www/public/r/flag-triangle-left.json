@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "flag-triangle-left",
+  "type": "registry:ui",
+  "title": "Flag Triangle Left",
+  "description": "Flag Triangle Left icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/flag-triangle-left.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface FlagTriangleLeftProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const FlagTriangleLeft = React.forwardRef<SVGSVGElement, FlagTriangleLeftProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M18 22V2.8a.8.8 0 0 0-1.17-.71L5.45 7.78a.8.8 0 0 0 0 1.44L18 15.5\" />\n    </svg>\n  )\n);\nFlagTriangleLeft.displayName = \"FlagTriangleLeft\";\nexport const FlagTriangleLeftMetadata = { \n  id: \"flag-triangle-left\", \n  baseId: \"flag-triangle-left\", \n  variant: \"default\", \n  name: \"Flag Triangle Left\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default FlagTriangleLeft;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

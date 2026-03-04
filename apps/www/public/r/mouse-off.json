@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "mouse-off",
+  "type": "registry:ui",
+  "title": "Mouse Off",
+  "description": "Mouse Off icon component",
+  "category": "cursor",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/cursor/mouse-off.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface MouseOffProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const MouseOff = React.forwardRef<SVGSVGElement, MouseOffProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M12 6v.343\" />\n  <path d=\"M18.218 18.218A7 7 0 0 1 5 15V9a7 7 0 0 1 .782-3.218\" />\n  <path d=\"M19 13.343V9A7 7 0 0 0 8.56 2.902\" />\n  <path d=\"M22 22 2 2\" />\n    </svg>\n  )\n);\nMouseOff.displayName = \"MouseOff\";\nexport const MouseOffMetadata = { \n  id: \"mouse-off\", \n  baseId: \"mouse-off\", \n  variant: \"default\", \n  name: \"Mouse Off\", \n  category: \"cursor\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default MouseOff;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

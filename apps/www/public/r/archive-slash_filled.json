@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "archive-slash_filled",
+  "type": "registry:ui",
+  "title": "Archive Slash",
+  "description": "Archive Slash icon component",
+  "category": "book",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/book/archive-slash_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ArchiveSlashFilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ArchiveSlashFilled = React.forwardRef<SVGSVGElement, ArchiveSlashFilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M20.1199 3.88L3.38995 20.61C3.33995 20.41 3.31995 20.19 3.31995 19.95V5.86C3.31995 3.74 5.04995 2 7.17995 2H16.8199C18.2199 2 19.4499 2.75 20.1199 3.88Z\" fill=\"currentColor\"/>\n<path d=\"M21.77 2.22988C21.47 1.92988 20.98 1.92988 20.68 2.22988L2.23 20.6899C1.93 20.9899 1.93 21.4799 2.23 21.7799C2.38 21.9199 2.57 21.9999 2.77 21.9999C2.97 21.9999 3.16 21.9199 3.31 21.7699L21.77 3.30988C22.08 3.00988 22.08 2.52988 21.77 2.22988Z\" fill=\"currentColor\"/>\n<path d=\"M19.29 7.71005L11.9 15.1001C11.44 15.5601 11.53 16.3301 12.09 16.6601L19.48 21.0901C20.15 21.4901 20.99 21.0101 20.99 20.2301V8.41005C21 7.52005 19.92 7.08005 19.29 7.71005Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nArchiveSlashFilled.displayName = \"ArchiveSlashFilled\";\nexport const ArchiveSlashFilledMetadata = { \n  id: \"archive-slash_filled\", \n  baseId: \"archive-slash\", \n  variant: \"filled\", \n  name: \"Archive Slash\", \n  category: \"book\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ArchiveSlashFilled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "square-dashed-mouse-pointer",
+  "type": "registry:ui",
+  "title": "Square Dashed Mouse Pointer",
+  "description": "Square Dashed Mouse Pointer icon component",
+  "category": "square",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/square/square-dashed-mouse-pointer.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface SquareDashedMousePointerProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const SquareDashedMousePointer = React.forwardRef<SVGSVGElement, SquareDashedMousePointerProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M12.034 12.681a.498.498 0 0 1 .647-.647l9 3.5a.5.5 0 0 1-.033.943l-3.444 1.068a1 1 0 0 0-.66.66l-1.067 3.443a.5.5 0 0 1-.943.033z\" />\n  <path d=\"M5 3a2 2 0 0 0-2 2\" />\n  <path d=\"M19 3a2 2 0 0 1 2 2\" />\n  <path d=\"M5 21a2 2 0 0 1-2-2\" />\n  <path d=\"M9 3h1\" />\n  <path d=\"M9 21h2\" />\n  <path d=\"M14 3h1\" />\n  <path d=\"M3 9v1\" />\n  <path d=\"M21 9v2\" />\n  <path d=\"M3 14v1\" />\n    </svg>\n  )\n);\nSquareDashedMousePointer.displayName = \"SquareDashedMousePointer\";\nexport const SquareDashedMousePointerMetadata = { \n  id: \"square-dashed-mouse-pointer\", \n  baseId: \"square-dashed-mouse-pointer\", \n  variant: \"default\", \n  name: \"Square Dashed Mouse Pointer\", \n  category: \"square\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default SquareDashedMousePointer;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

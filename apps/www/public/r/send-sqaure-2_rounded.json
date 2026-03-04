@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "send-sqaure-2_rounded",
+  "type": "registry:ui",
+  "title": "Send Sqaure 2",
+  "description": "Send Sqaure 2 icon component",
+  "category": "arrows",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/arrows/send-sqaure-2_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface SendSqaure2RoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const SendSqaure2Rounded = React.forwardRef<SVGSVGElement, SendSqaure2RoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M10.5898 7.67999H14.8298V11.93\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M14.8299 7.67999L9.16992 13.34\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M6 16.51C9.89 17.81 14.11 17.81 18 16.51\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nSendSqaure2Rounded.displayName = \"SendSqaure2Rounded\";\nexport const SendSqaure2RoundedMetadata = { \n  id: \"send-sqaure-2_rounded\", \n  baseId: \"send-sqaure-2\", \n  variant: \"rounded\", \n  name: \"Send Sqaure 2\", \n  category: \"arrows\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default SendSqaure2Rounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

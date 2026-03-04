@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "teacher_filled",
+  "type": "registry:ui",
+  "title": "Teacher",
+  "description": "Teacher icon component",
+  "category": "education",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/education/teacher_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface TeacherFilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const TeacherFilled = React.forwardRef<SVGSVGElement, TeacherFilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M16.83 15.6399C17.5 15.1999 18.38 15.6799 18.38 16.4799V17.7699C18.38 19.0399 17.39 20.3999 16.2 20.7999L13.01 21.8599C12.45 22.0499 11.54 22.0499 10.99 21.8599L7.8 20.7999C6.6 20.3999 5.62 19.0399 5.62 17.7699V16.4699C5.62 15.6799 6.5 15.1999 7.16 15.6299L9.22 16.9699C10.01 17.4999 11.01 17.7599 12.01 17.7599C13.01 17.7599 14.01 17.4999 14.8 16.9699L16.83 15.6399Z\" fill=\"currentColor\"/>\n<path d=\"M19.98 6.46006L13.99 2.53006C12.91 1.82006 11.13 1.82006 10.05 2.53006L4.03002 6.46006C2.10002 7.71006 2.10002 10.5401 4.03002 11.8001L5.63002 12.8401L10.05 15.7201C11.13 16.4301 12.91 16.4301 13.99 15.7201L18.38 12.8401L19.75 11.9401V15.0001C19.75 15.4101 20.09 15.7501 20.5 15.7501C20.91 15.7501 21.25 15.4101 21.25 15.0001V10.0801C21.65 8.79006 21.24 7.29006 19.98 6.46006Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nTeacherFilled.displayName = \"TeacherFilled\";\nexport const TeacherFilledMetadata = { \n  id: \"teacher_filled\", \n  baseId: \"teacher\", \n  variant: \"filled\", \n  name: \"Teacher\", \n  category: \"education\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default TeacherFilled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

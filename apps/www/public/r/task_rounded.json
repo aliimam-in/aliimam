@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "task_rounded",
+  "type": "registry:ui",
+  "title": "Task",
+  "description": "Task icon component",
+  "category": "document",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/document/task_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface TaskRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const TaskRounded = React.forwardRef<SVGSVGElement, TaskRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M11 19.5H21\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M11 12.5H21\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M11 5.5H21\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M3 5.5L4 6.5L7 3.5\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M3 12.5L4 13.5L7 10.5\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M3 19.5L4 20.5L7 17.5\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nTaskRounded.displayName = \"TaskRounded\";\nexport const TaskRoundedMetadata = { \n  id: \"task_rounded\", \n  baseId: \"task\", \n  variant: \"rounded\", \n  name: \"Task\", \n  category: \"document\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default TaskRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

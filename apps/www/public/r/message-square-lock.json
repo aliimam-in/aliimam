@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "message-square-lock",
+  "type": "registry:ui",
+  "title": "Message Square Lock",
+  "description": "Message Square Lock icon component",
+  "category": "message",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/message/message-square-lock.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface MessageSquareLockProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const MessageSquareLock = React.forwardRef<SVGSVGElement, MessageSquareLockProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M22 8.5V5a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v16.286a.71.71 0 0 0 1.212.502l2.202-2.202A2 2 0 0 1 6.828 19H10\" />\n  <path d=\"M20 15v-2a2 2 0 0 0-4 0v2\" />\n  <rect x=\"14\" y=\"15\" width=\"8\" height=\"5\" rx=\"1\" />\n    </svg>\n  )\n);\nMessageSquareLock.displayName = \"MessageSquareLock\";\nexport const MessageSquareLockMetadata = { \n  id: \"message-square-lock\", \n  baseId: \"message-square-lock\", \n  variant: \"default\", \n  name: \"Message Square Lock\", \n  category: \"message\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default MessageSquareLock;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

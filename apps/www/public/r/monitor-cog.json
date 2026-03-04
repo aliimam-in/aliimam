@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "monitor-cog",
+  "type": "registry:ui",
+  "title": "Monitor Cog",
+  "description": "Monitor Cog icon component",
+  "category": "monitor",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/monitor/monitor-cog.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface MonitorCogProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const MonitorCog = React.forwardRef<SVGSVGElement, MonitorCogProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M12 17v4\" />\n  <path d=\"m14.305 7.53.923-.382\" />\n  <path d=\"m15.228 4.852-.923-.383\" />\n  <path d=\"m16.852 3.228-.383-.924\" />\n  <path d=\"m16.852 8.772-.383.923\" />\n  <path d=\"m19.148 3.228.383-.924\" />\n  <path d=\"m19.53 9.696-.382-.924\" />\n  <path d=\"m20.772 4.852.924-.383\" />\n  <path d=\"m20.772 7.148.924.383\" />\n  <path d=\"M22 13v2a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7\" />\n  <path d=\"M8 21h8\" />\n  <circle cx=\"18\" cy=\"6\" r=\"3\" />\n    </svg>\n  )\n);\nMonitorCog.displayName = \"MonitorCog\";\nexport const MonitorCogMetadata = { \n  id: \"monitor-cog\", \n  baseId: \"monitor-cog\", \n  variant: \"default\", \n  name: \"Monitor Cog\", \n  category: \"monitor\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default MonitorCog;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "maximize-circle_rounded",
+  "type": "registry:ui",
+  "title": "Maximize Circle",
+  "description": "Maximize Circle icon component",
+  "category": "multimedia",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/multimedia/maximize-circle_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface MaximizeCircleRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const MaximizeCircleRounded = React.forwardRef<SVGSVGElement, MaximizeCircleRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M17 3H21V7\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M15 9L21 3\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M7 21H3V17\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M9 15L3 21\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M14.02 2.20001C13.37 2.07001 12.69 2 12 2C6.48 2 2 6.48 2 12C2 12.69 2.07001 13.36 2.20001 14\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M9.97998 21.8C10.63 21.93 11.31 22 12 22C17.52 22 22 17.52 22 12C22 11.32 21.93 10.65 21.8 10\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nMaximizeCircleRounded.displayName = \"MaximizeCircleRounded\";\nexport const MaximizeCircleRoundedMetadata = { \n  id: \"maximize-circle_rounded\", \n  baseId: \"maximize-circle\", \n  variant: \"rounded\", \n  name: \"Maximize Circle\", \n  category: \"multimedia\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default MaximizeCircleRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

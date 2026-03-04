@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "clover",
+  "type": "registry:ui",
+  "title": "Clover",
+  "description": "Clover icon component",
+  "category": "nature",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/nature/clover.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface CloverProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Clover = React.forwardRef<SVGSVGElement, CloverProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M16.17 7.83 2 22\" />\n  <path d=\"M4.02 12a2.827 2.827 0 1 1 3.81-4.17A2.827 2.827 0 1 1 12 4.02a2.827 2.827 0 1 1 4.17 3.81A2.827 2.827 0 1 1 19.98 12a2.827 2.827 0 1 1-3.81 4.17A2.827 2.827 0 1 1 12 19.98a2.827 2.827 0 1 1-4.17-3.81A1 1 0 1 1 4 12\" />\n  <path d=\"m7.83 7.83 8.34 8.34\" />\n    </svg>\n  )\n);\nClover.displayName = \"Clover\";\nexport const CloverMetadata = { \n  id: \"clover\", \n  baseId: \"clover\", \n  variant: \"default\", \n  name: \"Clover\", \n  category: \"nature\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Clover;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

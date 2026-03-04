@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "grid-2x2-x",
+  "type": "registry:ui",
+  "title": "Grid 2x2 X",
+  "description": "Grid 2x2 X icon component",
+  "category": "layout",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/layout/grid-2x2-x.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface Grid2x2XProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Grid2x2X = React.forwardRef<SVGSVGElement, Grid2x2XProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M12 3v17a1 1 0 0 1-1 1H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v6a1 1 0 0 1-1 1H3\" />\n  <path d=\"m16 16 5 5\" />\n  <path d=\"m16 21 5-5\" />\n    </svg>\n  )\n);\nGrid2x2X.displayName = \"Grid2x2X\";\nexport const Grid2x2XMetadata = { \n  id: \"grid-2x2-x\", \n  baseId: \"grid-2x2-x\", \n  variant: \"default\", \n  name: \"Grid 2x2 X\", \n  category: \"layout\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Grid2x2X;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "next_filled",
+  "type": "registry:ui",
+  "title": "Next",
+  "description": "Next icon component",
+  "category": "multimedia",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/multimedia/next_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface NextFilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const NextFilled = React.forwardRef<SVGSVGElement, NextFilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M3.76001 7.22006V16.7901C3.76001 18.7501 5.89001 19.9801 7.59001 19.0001L11.74 16.6101L15.89 14.2101C17.59 13.2301 17.59 10.7801 15.89 9.80006L11.74 7.40006L7.59001 5.01006C5.89001 4.03006 3.76001 5.25006 3.76001 7.22006Z\" fill=\"currentColor\"/>\n<path d=\"M20.24 18.9301C19.83 18.9301 19.49 18.5901 19.49 18.1801V5.82007C19.49 5.41007 19.83 5.07007 20.24 5.07007C20.65 5.07007 20.99 5.41007 20.99 5.82007V18.1801C20.99 18.5901 20.66 18.9301 20.24 18.9301Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nNextFilled.displayName = \"NextFilled\";\nexport const NextFilledMetadata = { \n  id: \"next_filled\", \n  baseId: \"next\", \n  variant: \"filled\", \n  name: \"Next\", \n  category: \"multimedia\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default NextFilled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

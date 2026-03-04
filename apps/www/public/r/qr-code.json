@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "qr-code",
+  "type": "registry:ui",
+  "title": "Qr Code",
+  "description": "Qr Code icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/qr-code.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface QrCodeProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const QrCode = React.forwardRef<SVGSVGElement, QrCodeProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <rect width=\"5\" height=\"5\" x=\"3\" y=\"3\" rx=\"1\" />\n  <rect width=\"5\" height=\"5\" x=\"16\" y=\"3\" rx=\"1\" />\n  <rect width=\"5\" height=\"5\" x=\"3\" y=\"16\" rx=\"1\" />\n  <path d=\"M21 16h-3a2 2 0 0 0-2 2v3\" />\n  <path d=\"M21 21v.01\" />\n  <path d=\"M12 7v3a2 2 0 0 1-2 2H7\" />\n  <path d=\"M3 12h.01\" />\n  <path d=\"M12 3h.01\" />\n  <path d=\"M12 16v.01\" />\n  <path d=\"M16 12h1\" />\n  <path d=\"M21 12v.01\" />\n  <path d=\"M12 21v-1\" />\n    </svg>\n  )\n);\nQrCode.displayName = \"QrCode\";\nexport const QrCodeMetadata = { \n  id: \"qr-code\", \n  baseId: \"qr-code\", \n  variant: \"default\", \n  name: \"Qr Code\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default QrCode;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "package-minus",
+  "type": "registry:ui",
+  "title": "Package Minus",
+  "description": "Package Minus icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/package-minus.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface PackageMinusProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const PackageMinus = React.forwardRef<SVGSVGElement, PackageMinusProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M12 22V12\" />\n  <path d=\"M16 17h6\" />\n  <path d=\"M21 13V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.729l7 4a2 2 0 0 0 2 .001l1.675-.955\" />\n  <path d=\"M3.29 7 12 12l8.71-5\" />\n  <path d=\"m7.5 4.27 8.997 5.148\" />\n    </svg>\n  )\n);\nPackageMinus.displayName = \"PackageMinus\";\nexport const PackageMinusMetadata = { \n  id: \"package-minus\", \n  baseId: \"package-minus\", \n  variant: \"default\", \n  name: \"Package Minus\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default PackageMinus;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

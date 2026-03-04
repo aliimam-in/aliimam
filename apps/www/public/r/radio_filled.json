@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "radio_filled",
+  "type": "registry:ui",
+  "title": "Radio",
+  "description": "Radio icon component",
+  "category": "multimedia",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/multimedia/radio_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface RadioFilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const RadioFilled = React.forwardRef<SVGSVGElement, RadioFilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M7.75 2V5H7C6.74 5 6.49 5.01 6.25 5.05V2C6.25 1.59 6.59 1.25 7 1.25C7.41 1.25 7.75 1.59 7.75 2Z\" fill=\"currentColor\"/>\n<path d=\"M17 5H7C6.74 5 6.49 5.01 6.25 5.05C3.67 5.35 2 7.26 2 10V17C2 20 4 22 7 22H17C20 22 22 20 22 17V10C22 7 20 5 17 5ZM7.88 16C6.5 16 5.38 14.88 5.38 13.5C5.38 12.12 6.5 11 7.88 11C9.26 11 10.38 12.12 10.38 13.5C10.38 14.88 9.26 16 7.88 16ZM14.38 16.25H13.88C13.47 16.25 13.13 15.91 13.13 15.5C13.13 15.09 13.47 14.75 13.88 14.75H14.38C14.79 14.75 15.13 15.09 15.13 15.5C15.13 15.91 14.79 16.25 14.38 16.25ZM17.88 16.25H17.38C16.97 16.25 16.63 15.91 16.63 15.5C16.63 15.09 16.97 14.75 17.38 14.75H17.88C18.29 14.75 18.63 15.09 18.63 15.5C18.63 15.91 18.29 16.25 17.88 16.25ZM17.88 12.25H13.88C13.47 12.25 13.13 11.91 13.13 11.5C13.13 11.09 13.47 10.75 13.88 10.75H17.88C18.29 10.75 18.63 11.09 18.63 11.5C18.63 11.91 18.29 12.25 17.88 12.25Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nRadioFilled.displayName = \"RadioFilled\";\nexport const RadioFilledMetadata = { \n  id: \"radio_filled\", \n  baseId: \"radio\", \n  variant: \"filled\", \n  name: \"Radio\", \n  category: \"multimedia\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default RadioFilled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

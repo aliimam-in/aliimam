@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "zodiac-leo",
+  "type": "registry:ui",
+  "title": "Zodiac Leo",
+  "description": "Zodiac Leo icon component",
+  "category": "zodiac",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/zodiac/zodiac-leo.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ZodiacLeoProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ZodiacLeo = React.forwardRef<SVGSVGElement, ZodiacLeoProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M10 16c0-4-3-4.5-3-8a5 5 0 0 1 10 0c0 3.466-3 6.196-3 10a3 3 0 0 0 6 0\" />\n  <circle cx=\"7\" cy=\"16\" r=\"3\" />\n    </svg>\n  )\n);\nZodiacLeo.displayName = \"ZodiacLeo\";\nexport const ZodiacLeoMetadata = { \n  id: \"zodiac-leo\", \n  baseId: \"zodiac-leo\", \n  variant: \"default\", \n  name: \"Zodiac Leo\", \n  category: \"zodiac\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ZodiacLeo;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

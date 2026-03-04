@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "list-check",
+  "type": "registry:ui",
+  "title": "List Check",
+  "description": "List Check icon component",
+  "category": "list",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/list/list-check.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ListCheckProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ListCheck = React.forwardRef<SVGSVGElement, ListCheckProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M16 5H3\" />\n  <path d=\"M16 12H3\" />\n  <path d=\"M11 19H3\" />\n  <path d=\"m15 18 2 2 4-4\" />\n    </svg>\n  )\n);\nListCheck.displayName = \"ListCheck\";\nexport const ListCheckMetadata = { \n  id: \"list-check\", \n  baseId: \"list-check\", \n  variant: \"default\", \n  name: \"List Check\", \n  category: \"list\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ListCheck;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

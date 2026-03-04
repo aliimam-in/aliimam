@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "align-left_filled",
+  "type": "registry:ui",
+  "title": "Align Left",
+  "description": "Align Left icon component",
+  "category": "layout",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/layout/align-left_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface AlignLeftFilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const AlignLeftFilled = React.forwardRef<SVGSVGElement, AlignLeftFilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M19.38 15.98V17.02C19.38 18.61 18.78 19.25 17.26 19.25H5.38V13.75H17.26C18.78 13.75 19.38 14.39 19.38 15.98Z\" fill=\"currentColor\"/>\n<path d=\"M14.38 7.48V8.52C14.38 10.11 13.77 10.75 12.26 10.75H5.38V5.25H12.26C13.77 5.25 14.38 5.89 14.38 7.48Z\" fill=\"currentColor\"/>\n<path d=\"M5.37998 22C4.96998 22 4.62998 21.66 4.62998 21.25V2.75C4.61998 2.33 4.95998 2 5.37998 2C5.79998 2 6.12998 2.34 6.12998 2.75V21.25C6.11998 21.66 5.78998 22 5.37998 22Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nAlignLeftFilled.displayName = \"AlignLeftFilled\";\nexport const AlignLeftFilledMetadata = { \n  id: \"align-left_filled\", \n  baseId: \"align-left\", \n  variant: \"filled\", \n  name: \"Align Left\", \n  category: \"layout\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default AlignLeftFilled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

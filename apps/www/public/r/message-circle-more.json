@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "message-circle-more",
+  "type": "registry:ui",
+  "title": "Message Circle More",
+  "description": "Message Circle More icon component",
+  "category": "message",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/message/message-circle-more.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface MessageCircleMoreProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const MessageCircleMore = React.forwardRef<SVGSVGElement, MessageCircleMoreProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719\" />\n  <path d=\"M8 12h.01\" />\n  <path d=\"M12 12h.01\" />\n  <path d=\"M16 12h.01\" />\n    </svg>\n  )\n);\nMessageCircleMore.displayName = \"MessageCircleMore\";\nexport const MessageCircleMoreMetadata = { \n  id: \"message-circle-more\", \n  baseId: \"message-circle-more\", \n  variant: \"default\", \n  name: \"Message Circle More\", \n  category: \"message\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default MessageCircleMore;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "mail-minus",
+  "type": "registry:ui",
+  "title": "Mail Minus",
+  "description": "Mail Minus icon component",
+  "category": "mail",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/mail/mail-minus.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface MailMinusProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const MailMinus = React.forwardRef<SVGSVGElement, MailMinusProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M22 15V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h8\" />\n  <path d=\"m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7\" />\n  <path d=\"M16 19h6\" />\n    </svg>\n  )\n);\nMailMinus.displayName = \"MailMinus\";\nexport const MailMinusMetadata = { \n  id: \"mail-minus\", \n  baseId: \"mail-minus\", \n  variant: \"default\", \n  name: \"Mail Minus\", \n  category: \"mail\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default MailMinus;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

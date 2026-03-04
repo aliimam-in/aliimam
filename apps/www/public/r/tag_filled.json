@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "tag_filled",
+  "type": "registry:ui",
+  "title": "Tag",
+  "description": "Tag icon component",
+  "category": "finance",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/finance/tag_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface TagFilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const TagFilled = React.forwardRef<SVGSVGElement, TagFilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M19.83 8.70005L15.3 4.17005C14.35 3.22005 13.04 2.71005 11.7 2.78005L6.69998 3.02005C4.69998 3.11005 3.10998 4.70005 3.00998 6.69005L2.76998 11.69C2.70998 13.03 3.20998 14.34 4.15998 15.29L8.68997 19.82C10.55 21.68 13.57 21.68 15.44 19.82L19.83 15.43C21.7 13.58 21.7 10.56 19.83 8.70005ZM9.49998 12.38C7.90998 12.38 6.61998 11.09 6.61998 9.50005C6.61998 7.91005 7.90998 6.62005 9.49998 6.62005C11.09 6.62005 12.38 7.91005 12.38 9.50005C12.38 11.09 11.09 12.38 9.49998 12.38Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nTagFilled.displayName = \"TagFilled\";\nexport const TagFilledMetadata = { \n  id: \"tag_filled\", \n  baseId: \"tag\", \n  variant: \"filled\", \n  name: \"Tag\", \n  category: \"finance\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default TagFilled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

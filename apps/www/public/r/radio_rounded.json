@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "radio_rounded",
+  "type": "registry:ui",
+  "title": "Radio",
+  "description": "Radio icon component",
+  "category": "multimedia",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/multimedia/radio_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface RadioRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const RadioRounded = React.forwardRef<SVGSVGElement, RadioRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M17 5H7C4 5 2 7 2 10V17C2 20 4 22 7 22H17C20 22 22 20 22 17V10C22 7 20 5 17 5Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M7 2V5\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M8.5 16C9.88071 16 11 14.8807 11 13.5C11 12.1193 9.88071 11 8.5 11C7.11929 11 6 12.1193 6 13.5C6 14.8807 7.11929 16 8.5 16Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M14.5 11H18.5\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M14.5 15H15\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M18 15H18.5\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nRadioRounded.displayName = \"RadioRounded\";\nexport const RadioRoundedMetadata = { \n  id: \"radio_rounded\", \n  baseId: \"radio\", \n  variant: \"rounded\", \n  name: \"Radio\", \n  category: \"multimedia\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default RadioRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

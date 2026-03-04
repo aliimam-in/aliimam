@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "security-safe_filled",
+  "type": "registry:ui",
+  "title": "Security Safe",
+  "description": "Security Safe icon component",
+  "category": "security",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/security/security-safe_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface SecuritySafeFilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const SecuritySafeFilled = React.forwardRef<SVGSVGElement, SecuritySafeFilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M20.91 11.1198V6.72982C20.91 5.90982 20.29 4.97982 19.52 4.66982L13.95 2.38982C12.7 1.87982 11.29 1.87982 10.04 2.38982L4.46997 4.66982C3.70997 4.97982 3.08997 5.90982 3.08997 6.72982V11.1198C3.08997 16.0098 6.63997 20.5898 11.49 21.9298C11.82 22.0198 12.18 22.0198 12.51 21.9298C17.36 20.5898 20.91 16.0098 20.91 11.1198ZM12.75 12.8698V15.4998C12.75 15.9098 12.41 16.2498 12 16.2498C11.59 16.2498 11.25 15.9098 11.25 15.4998V12.8698C10.24 12.5498 9.49997 11.6098 9.49997 10.4998C9.49997 9.11982 10.62 7.99982 12 7.99982C13.38 7.99982 14.5 9.11982 14.5 10.4998C14.5 11.6198 13.76 12.5498 12.75 12.8698Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nSecuritySafeFilled.displayName = \"SecuritySafeFilled\";\nexport const SecuritySafeFilledMetadata = { \n  id: \"security-safe_filled\", \n  baseId: \"security-safe\", \n  variant: \"filled\", \n  name: \"Security Safe\", \n  category: \"security\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default SecuritySafeFilled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

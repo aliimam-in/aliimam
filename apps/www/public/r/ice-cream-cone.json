@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ice-cream-cone",
+  "type": "registry:ui",
+  "title": "Ice Cream Cone",
+  "description": "Ice Cream Cone icon component",
+  "category": "food",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/food/ice-cream-cone.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface IceCreamConeProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const IceCreamCone = React.forwardRef<SVGSVGElement, IceCreamConeProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"m7 11 4.08 10.35a1 1 0 0 0 1.84 0L17 11\" />\n  <path d=\"M17 7A5 5 0 0 0 7 7\" />\n  <path d=\"M17 7a2 2 0 0 1 0 4H7a2 2 0 0 1 0-4\" />\n    </svg>\n  )\n);\nIceCreamCone.displayName = \"IceCreamCone\";\nexport const IceCreamConeMetadata = { \n  id: \"ice-cream-cone\", \n  baseId: \"ice-cream-cone\", \n  variant: \"default\", \n  name: \"Ice Cream Cone\", \n  category: \"food\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default IceCreamCone;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

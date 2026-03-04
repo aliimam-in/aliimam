@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "roller-coaster",
+  "type": "registry:ui",
+  "title": "Roller Coaster",
+  "description": "Roller Coaster icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/roller-coaster.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface RollerCoasterProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const RollerCoaster = React.forwardRef<SVGSVGElement, RollerCoasterProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M6 19V5\" />\n  <path d=\"M10 19V6.8\" />\n  <path d=\"M14 19v-7.8\" />\n  <path d=\"M18 5v4\" />\n  <path d=\"M18 19v-6\" />\n  <path d=\"M22 19V9\" />\n  <path d=\"M2 19V9a4 4 0 0 1 4-4c2 0 4 1.33 6 4s4 4 6 4a4 4 0 1 0-3-6.65\" />\n    </svg>\n  )\n);\nRollerCoaster.displayName = \"RollerCoaster\";\nexport const RollerCoasterMetadata = { \n  id: \"roller-coaster\", \n  baseId: \"roller-coaster\", \n  variant: \"default\", \n  name: \"Roller Coaster\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default RollerCoaster;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

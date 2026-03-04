@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "bubble_filled",
+  "type": "registry:ui",
+  "title": "Bubble",
+  "description": "Bubble icon component",
+  "category": "app",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/app/bubble_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface BubbleFilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const BubbleFilled = React.forwardRef<SVGSVGElement, BubbleFilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M15.59 1.75C12.62 1.75 10.21 4.16 10.21 7.13C10.21 10.1 12.62 12.51 15.59 12.51C18.56 12.51 20.97 10.1 20.97 7.13C20.97 4.16 18.56 1.75 15.59 1.75Z\" fill=\"currentColor\"/>\n<path d=\"M6.36 13.0298C4.53 13.0298 3.03 14.5198 3.03 16.3598C3.03 18.1998 4.52 19.6898 6.36 19.6898C8.19 19.6898 9.69 18.1998 9.69 16.3598C9.69 14.5198 8.19 13.0298 6.36 13.0298Z\" fill=\"currentColor\"/>\n<path d=\"M16.62 16.6201C15.07 16.6201 13.81 17.8801 13.81 19.4301C13.81 20.9801 15.07 22.2401 16.62 22.2401C18.17 22.2401 19.43 20.9801 19.43 19.4301C19.43 17.8801 18.17 16.6201 16.62 16.6201Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nBubbleFilled.displayName = \"BubbleFilled\";\nexport const BubbleFilledMetadata = { \n  id: \"bubble_filled\", \n  baseId: \"bubble\", \n  variant: \"filled\", \n  name: \"Bubble\", \n  category: \"app\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default BubbleFilled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

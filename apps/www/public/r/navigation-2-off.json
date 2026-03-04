@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "navigation-2-off",
+  "type": "registry:ui",
+  "title": "Navigation 2 Off",
+  "description": "Navigation 2 Off icon component",
+  "category": "navigation",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/navigation/navigation-2-off.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface Navigation2OffProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Navigation2Off = React.forwardRef<SVGSVGElement, Navigation2OffProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M9.31 9.31 5 21l7-4 7 4-1.17-3.17\" />\n  <path d=\"M14.53 8.88 12 2l-1.17 3.17\" />\n  <line x1=\"2\" x2=\"22\" y1=\"2\" y2=\"22\" />\n    </svg>\n  )\n);\nNavigation2Off.displayName = \"Navigation2Off\";\nexport const Navigation2OffMetadata = { \n  id: \"navigation-2-off\", \n  baseId: \"navigation-2-off\", \n  variant: \"default\", \n  name: \"Navigation 2 Off\", \n  category: \"navigation\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Navigation2Off;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

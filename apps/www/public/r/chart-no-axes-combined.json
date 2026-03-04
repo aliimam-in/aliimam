@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "chart-no-axes-combined",
+  "type": "registry:ui",
+  "title": "Chart No Axes Combined",
+  "description": "Chart No Axes Combined icon component",
+  "category": "chart",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/chart/chart-no-axes-combined.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ChartNoAxesCombinedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ChartNoAxesCombined = React.forwardRef<SVGSVGElement, ChartNoAxesCombinedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M12 16v5\" />\n  <path d=\"M16 14v7\" />\n  <path d=\"M20 10v11\" />\n  <path d=\"m22 3-8.646 8.646a.5.5 0 0 1-.708 0L9.354 8.354a.5.5 0 0 0-.707 0L2 15\" />\n  <path d=\"M4 18v3\" />\n  <path d=\"M8 14v7\" />\n    </svg>\n  )\n);\nChartNoAxesCombined.displayName = \"ChartNoAxesCombined\";\nexport const ChartNoAxesCombinedMetadata = { \n  id: \"chart-no-axes-combined\", \n  baseId: \"chart-no-axes-combined\", \n  variant: \"default\", \n  name: \"Chart No Axes Combined\", \n  category: \"chart\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ChartNoAxesCombined;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

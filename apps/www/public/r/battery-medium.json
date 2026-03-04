@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "battery-medium",
+  "type": "registry:ui",
+  "title": "Battery Medium",
+  "description": "Battery Medium icon component",
+  "category": "app",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/app/battery-medium.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface BatteryMediumProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const BatteryMedium = React.forwardRef<SVGSVGElement, BatteryMediumProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M10 14v-4\" />\n  <path d=\"M22 14v-4\" />\n  <path d=\"M6 14v-4\" />\n  <rect x=\"2\" y=\"6\" width=\"16\" height=\"12\" rx=\"2\" />\n    </svg>\n  )\n);\nBatteryMedium.displayName = \"BatteryMedium\";\nexport const BatteryMediumMetadata = { \n  id: \"battery-medium\", \n  baseId: \"battery-medium\", \n  variant: \"default\", \n  name: \"Battery Medium\", \n  category: \"app\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default BatteryMedium;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

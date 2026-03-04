@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "circle-arrow-up",
+  "type": "registry:ui",
+  "title": "Circle Arrow Up",
+  "description": "Circle Arrow Up icon component",
+  "category": "circle",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/circle/circle-arrow-up.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface CircleArrowUpProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const CircleArrowUp = React.forwardRef<SVGSVGElement, CircleArrowUpProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"m16 12-4-4-4 4\" />\n  <path d=\"M12 16V8\" />\n    </svg>\n  )\n);\nCircleArrowUp.displayName = \"CircleArrowUp\";\nexport const CircleArrowUpMetadata = { \n  id: \"circle-arrow-up\", \n  baseId: \"circle-arrow-up\", \n  variant: \"default\", \n  name: \"Circle Arrow Up\", \n  category: \"circle\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default CircleArrowUp;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

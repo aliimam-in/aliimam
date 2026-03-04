@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "banknote-arrow-down",
+  "type": "registry:ui",
+  "title": "Banknote Arrow Down",
+  "description": "Banknote Arrow Down icon component",
+  "category": "finance",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/finance/banknote-arrow-down.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface BanknoteArrowDownProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const BanknoteArrowDown = React.forwardRef<SVGSVGElement, BanknoteArrowDownProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M12 18H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5\" />\n  <path d=\"m16 19 3 3 3-3\" />\n  <path d=\"M18 12h.01\" />\n  <path d=\"M19 16v6\" />\n  <path d=\"M6 12h.01\" />\n  <circle cx=\"12\" cy=\"12\" r=\"2\" />\n    </svg>\n  )\n);\nBanknoteArrowDown.displayName = \"BanknoteArrowDown\";\nexport const BanknoteArrowDownMetadata = { \n  id: \"banknote-arrow-down\", \n  baseId: \"banknote-arrow-down\", \n  variant: \"default\", \n  name: \"Banknote Arrow Down\", \n  category: \"finance\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default BanknoteArrowDown;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

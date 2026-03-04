@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "map_rounded",
+  "type": "registry:ui",
+  "title": "Map",
+  "description": "Map icon component",
+  "category": "navigation",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/navigation/map_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface MapRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const MapRounded = React.forwardRef<SVGSVGElement, MapRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M22 9.00002V15C22 17.5 21.5 19.25 20.38 20.38L14 14L21.73 6.27002C21.91 7.06002 22 7.96002 22 9.00002Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M21.73 6.27L6.26999 21.73C3.25999 21.04 2 18.96 2 15V9C2 4 4 2 9 2H15C18.96 2 21.04 3.26 21.73 6.27Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M20.38 20.38C19.25 21.5 17.5 22 15 22H9.00003C7.96003 22 7.06002 21.91 6.27002 21.73L14 14L20.38 20.38Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M6.24002 7.98C6.92002 5.05 11.32 5.05 12 7.98C12.39 9.7 11.31 11.16 10.36 12.06C9.67001 12.72 8.58003 12.72 7.88003 12.06C6.93003 11.16 5.84002 9.7 6.24002 7.98Z\"  />\n<path d=\"M9.0946 8.70001H9.10359\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nMapRounded.displayName = \"MapRounded\";\nexport const MapRoundedMetadata = { \n  id: \"map_rounded\", \n  baseId: \"map\", \n  variant: \"rounded\", \n  name: \"Map\", \n  category: \"navigation\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default MapRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

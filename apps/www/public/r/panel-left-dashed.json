@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "panel-left-dashed",
+  "type": "registry:ui",
+  "title": "Panel Left Dashed",
+  "description": "Panel Left Dashed icon component",
+  "category": "panel",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/panel/panel-left-dashed.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface PanelLeftDashedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const PanelLeftDashed = React.forwardRef<SVGSVGElement, PanelLeftDashedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <rect width=\"18\" height=\"18\" x=\"3\" y=\"3\" rx=\"2\" />\n  <path d=\"M9 14v1\" />\n  <path d=\"M9 19v2\" />\n  <path d=\"M9 3v2\" />\n  <path d=\"M9 9v1\" />\n    </svg>\n  )\n);\nPanelLeftDashed.displayName = \"PanelLeftDashed\";\nexport const PanelLeftDashedMetadata = { \n  id: \"panel-left-dashed\", \n  baseId: \"panel-left-dashed\", \n  variant: \"default\", \n  name: \"Panel Left Dashed\", \n  category: \"panel\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default PanelLeftDashed;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "satellite-dish",
+  "type": "registry:ui",
+  "title": "Satellite Dish",
+  "description": "Satellite Dish icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/satellite-dish.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface SatelliteDishProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const SatelliteDish = React.forwardRef<SVGSVGElement, SatelliteDishProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M4 10a7.31 7.31 0 0 0 10 10Z\" />\n  <path d=\"m9 15 3-3\" />\n  <path d=\"M17 13a6 6 0 0 0-6-6\" />\n  <path d=\"M21 13A10 10 0 0 0 11 3\" />\n    </svg>\n  )\n);\nSatelliteDish.displayName = \"SatelliteDish\";\nexport const SatelliteDishMetadata = { \n  id: \"satellite-dish\", \n  baseId: \"satellite-dish\", \n  variant: \"default\", \n  name: \"Satellite Dish\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default SatelliteDish;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

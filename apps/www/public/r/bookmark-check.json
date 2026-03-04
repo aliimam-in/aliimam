@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "bookmark-check",
+  "type": "registry:ui",
+  "title": "Bookmark Check",
+  "description": "Bookmark Check icon component",
+  "category": "book",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/book/bookmark-check.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface BookmarkCheckProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const BookmarkCheck = React.forwardRef<SVGSVGElement, BookmarkCheckProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M17 3a2 2 0 0 1 2 2v15a1 1 0 0 1-1.496.868l-4.512-2.578a2 2 0 0 0-1.984 0l-4.512 2.578A1 1 0 0 1 5 20V5a2 2 0 0 1 2-2z\" />\n  <path d=\"m9 10 2 2 4-4\" />\n    </svg>\n  )\n);\nBookmarkCheck.displayName = \"BookmarkCheck\";\nexport const BookmarkCheckMetadata = { \n  id: \"bookmark-check\", \n  baseId: \"bookmark-check\", \n  variant: \"default\", \n  name: \"Bookmark Check\", \n  category: \"book\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default BookmarkCheck;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

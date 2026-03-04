@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "align-horizontal-justify-center",
+  "type": "registry:ui",
+  "title": "Align Horizontal Justify Center",
+  "description": "Align Horizontal Justify Center icon component",
+  "category": "align",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/align/align-horizontal-justify-center.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface AlignHorizontalJustifyCenterProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const AlignHorizontalJustifyCenter = React.forwardRef<SVGSVGElement, AlignHorizontalJustifyCenterProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <rect width=\"6\" height=\"14\" x=\"2\" y=\"5\" rx=\"2\" />\n  <rect width=\"6\" height=\"10\" x=\"16\" y=\"7\" rx=\"2\" />\n  <path d=\"M12 2v20\" />\n    </svg>\n  )\n);\nAlignHorizontalJustifyCenter.displayName = \"AlignHorizontalJustifyCenter\";\nexport const AlignHorizontalJustifyCenterMetadata = { \n  id: \"align-horizontal-justify-center\", \n  baseId: \"align-horizontal-justify-center\", \n  variant: \"default\", \n  name: \"Align Horizontal Justify Center\", \n  category: \"align\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default AlignHorizontalJustifyCenter;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "language-square_rounded",
+  "type": "registry:ui",
+  "title": "Language Square",
+  "description": "Language Square icon component",
+  "category": "text",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/text/language-square_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface LanguageSquareRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const LanguageSquareRounded = React.forwardRef<SVGSVGElement, LanguageSquareRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M16.99 8.96002H7.01001\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M12 7.28003V8.96002\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M14.5 8.94C14.5 13.24 11.14 16.72 7 16.72\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M16.9999 16.72C15.1999 16.72 13.6 15.76 12.45 14.25\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nLanguageSquareRounded.displayName = \"LanguageSquareRounded\";\nexport const LanguageSquareRoundedMetadata = { \n  id: \"language-square_rounded\", \n  baseId: \"language-square\", \n  variant: \"rounded\", \n  name: \"Language Square\", \n  category: \"text\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default LanguageSquareRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

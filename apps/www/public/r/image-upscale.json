@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "image-upscale",
+  "type": "registry:ui",
+  "title": "Image Upscale",
+  "description": "Image Upscale icon component",
+  "category": "design",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/design/image-upscale.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ImageUpscaleProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ImageUpscale = React.forwardRef<SVGSVGElement, ImageUpscaleProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M16 3h5v5\" />\n  <path d=\"M17 21h2a2 2 0 0 0 2-2\" />\n  <path d=\"M21 12v3\" />\n  <path d=\"m21 3-5 5\" />\n  <path d=\"M3 7V5a2 2 0 0 1 2-2\" />\n  <path d=\"m5 21 4.144-4.144a1.21 1.21 0 0 1 1.712 0L13 19\" />\n  <path d=\"M9 3h3\" />\n  <rect x=\"3\" y=\"11\" width=\"10\" height=\"10\" rx=\"1\" />\n    </svg>\n  )\n);\nImageUpscale.displayName = \"ImageUpscale\";\nexport const ImageUpscaleMetadata = { \n  id: \"image-upscale\", \n  baseId: \"image-upscale\", \n  variant: \"default\", \n  name: \"Image Upscale\", \n  category: \"design\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ImageUpscale;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

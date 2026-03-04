@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "monitor-recorder_rounded",
+  "type": "registry:ui",
+  "title": "Monitor Recorder",
+  "description": "Monitor Recorder icon component",
+  "category": "device",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/device/monitor-recorder_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface MonitorRecorderRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const MonitorRecorderRounded = React.forwardRef<SVGSVGElement, MonitorRecorderRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M22 11.89V12.78C22 16.34 21.11 17.22 17.56 17.22H6.44C2.89 17.22 2 16.33 2 12.78V6.44C2 2.89 2.89 2 6.44 2H8\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M12 17.22V22\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M2 13H22\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M7.5 22H16.5\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M17.86 9.37001H13.1C11.72 9.37001 11.26 8.45001 11.26 7.53001V4.01001C11.26 2.91001 12.16 2.01001 13.26 2.01001H17.86C18.88 2.01001 19.7 2.83001 19.7 3.85001V7.53001C19.7 8.55001 18.88 9.37001 17.86 9.37001Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M20.91 7.91998L19.7 7.06998V4.30998L20.91 3.45998C21.51 3.04998 22 3.29998 22 4.02998V7.35998C22 8.08998 21.51 8.33998 20.91 7.91998Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nMonitorRecorderRounded.displayName = \"MonitorRecorderRounded\";\nexport const MonitorRecorderRoundedMetadata = { \n  id: \"monitor-recorder_rounded\", \n  baseId: \"monitor-recorder\", \n  variant: \"rounded\", \n  name: \"Monitor Recorder\", \n  category: \"device\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default MonitorRecorderRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

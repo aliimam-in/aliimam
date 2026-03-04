@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "list-music",
+  "type": "registry:ui",
+  "title": "List Music",
+  "description": "List Music icon component",
+  "category": "list",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/list/list-music.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ListMusicProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ListMusic = React.forwardRef<SVGSVGElement, ListMusicProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M16 5H3\" />\n  <path d=\"M11 12H3\" />\n  <path d=\"M11 19H3\" />\n  <path d=\"M21 16V5\" />\n  <circle cx=\"18\" cy=\"16\" r=\"3\" />\n    </svg>\n  )\n);\nListMusic.displayName = \"ListMusic\";\nexport const ListMusicMetadata = { \n  id: \"list-music\", \n  baseId: \"list-music\", \n  variant: \"default\", \n  name: \"List Music\", \n  category: \"list\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ListMusic;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

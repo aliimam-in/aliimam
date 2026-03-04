@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "venetian-mask",
+  "type": "registry:ui",
+  "title": "Venetian Mask",
+  "description": "Venetian Mask icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/venetian-mask.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface VenetianMaskProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const VenetianMask = React.forwardRef<SVGSVGElement, VenetianMaskProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M18 11c-1.5 0-2.5.5-3 2\" />\n  <path d=\"M4 6a2 2 0 0 0-2 2v4a5 5 0 0 0 5 5 8 8 0 0 1 5 2 8 8 0 0 1 5-2 5 5 0 0 0 5-5V8a2 2 0 0 0-2-2h-3a8 8 0 0 0-5 2 8 8 0 0 0-5-2z\" />\n  <path d=\"M6 11c1.5 0 2.5.5 3 2\" />\n    </svg>\n  )\n);\nVenetianMask.displayName = \"VenetianMask\";\nexport const VenetianMaskMetadata = { \n  id: \"venetian-mask\", \n  baseId: \"venetian-mask\", \n  variant: \"default\", \n  name: \"Venetian Mask\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default VenetianMask;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

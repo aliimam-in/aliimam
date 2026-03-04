@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "mail-warning",
+  "type": "registry:ui",
+  "title": "Mail Warning",
+  "description": "Mail Warning icon component",
+  "category": "mail",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/mail/mail-warning.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface MailWarningProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const MailWarning = React.forwardRef<SVGSVGElement, MailWarningProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M22 10.5V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v12c0 1.1.9 2 2 2h12.5\" />\n  <path d=\"m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7\" />\n  <path d=\"M20 14v4\" />\n  <path d=\"M20 22v.01\" />\n    </svg>\n  )\n);\nMailWarning.displayName = \"MailWarning\";\nexport const MailWarningMetadata = { \n  id: \"mail-warning\", \n  baseId: \"mail-warning\", \n  variant: \"default\", \n  name: \"Mail Warning\", \n  category: \"mail\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default MailWarning;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

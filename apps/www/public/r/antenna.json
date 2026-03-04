@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "antenna",
+  "type": "registry:ui",
+  "title": "Antenna",
+  "description": "Antenna icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/antenna.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface AntennaProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Antenna = React.forwardRef<SVGSVGElement, AntennaProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M2 12 7 2\" />\n  <path d=\"m7 12 5-10\" />\n  <path d=\"m12 12 5-10\" />\n  <path d=\"m17 12 5-10\" />\n  <path d=\"M4.5 7h15\" />\n  <path d=\"M12 16v6\" />\n    </svg>\n  )\n);\nAntenna.displayName = \"Antenna\";\nexport const AntennaMetadata = { \n  id: \"antenna\", \n  baseId: \"antenna\", \n  variant: \"default\", \n  name: \"Antenna\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Antenna;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

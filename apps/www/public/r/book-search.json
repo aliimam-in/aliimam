@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "book-search",
+  "type": "registry:ui",
+  "title": "Book Search",
+  "description": "Book Search icon component",
+  "category": "book",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/book/book-search.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface BookSearchProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const BookSearch = React.forwardRef<SVGSVGElement, BookSearchProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M11 22H5.5a1 1 0 0 1 0-5h4.501\" />\n  <path d=\"m21 22-1.879-1.878\" />\n  <path d=\"M3 19.5v-15A2.5 2.5 0 0 1 5.5 2H18a1 1 0 0 1 1 1v8\" />\n  <circle cx=\"17\" cy=\"18\" r=\"3\" />\n    </svg>\n  )\n);\nBookSearch.displayName = \"BookSearch\";\nexport const BookSearchMetadata = { \n  id: \"book-search\", \n  baseId: \"book-search\", \n  variant: \"default\", \n  name: \"Book Search\", \n  category: \"book\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default BookSearch;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

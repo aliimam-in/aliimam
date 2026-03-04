@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "chrome_rounded",
+  "type": "registry:ui",
+  "title": "Chrome",
+  "description": "Chrome icon component",
+  "category": "home",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/home/chrome_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ChromeRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ChromeRounded = React.forwardRef<SVGSVGElement, ChromeRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M12 16C14.21 16 16 14.21 16 12C16 9.79 14.21 8 12 8C9.79 8 8 9.79 8 12C8 14.21 9.79 16 12 16Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M21.17 8C18.15 7.34 15.02 7.34 12 8\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M3.95 6.06L3.97 6.12C4.98 9.01 6.53 11.69 8.54 14\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M10.88 21.94C12.94 19.67 14.49 16.99 15.43 14.08L15.46 14\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nChromeRounded.displayName = \"ChromeRounded\";\nexport const ChromeRoundedMetadata = { \n  id: \"chrome_rounded\", \n  baseId: \"chrome\", \n  variant: \"rounded\", \n  name: \"Chrome\", \n  category: \"home\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ChromeRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

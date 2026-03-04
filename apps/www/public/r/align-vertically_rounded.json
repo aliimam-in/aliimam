@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "align-vertically_rounded",
+  "type": "registry:ui",
+  "title": "Align Vertically",
+  "description": "Align Vertically icon component",
+  "category": "layout",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/layout/align-vertically_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface AlignVerticallyRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const AlignVerticallyRounded = React.forwardRef<SVGSVGElement, AlignVerticallyRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M17.4 19.25H6.6C5.1 19.25 4.5 18.61 4.5 17.02V15.98C4.5 14.39 5.1 13.75 6.6 13.75H17.4C18.9 13.75 19.5 14.39 19.5 15.98V17.02C19.5 18.61 18.9 19.25 17.4 19.25Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M15.4 10.75H8.6C7.1 10.75 6.5 10.11 6.5 8.52V7.48C6.5 5.89 7.1 5.25 8.6 5.25H15.4C16.9 5.25 17.5 5.89 17.5 7.48V8.52C17.5 10.11 16.9 10.75 15.4 10.75Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M12 22V19.6\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M12 13V11\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M12 2V4.69\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nAlignVerticallyRounded.displayName = \"AlignVerticallyRounded\";\nexport const AlignVerticallyRoundedMetadata = { \n  id: \"align-vertically_rounded\", \n  baseId: \"align-vertically\", \n  variant: \"rounded\", \n  name: \"Align Vertically\", \n  category: \"layout\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default AlignVerticallyRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

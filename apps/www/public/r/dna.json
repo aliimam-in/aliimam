@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "dna",
+  "type": "registry:ui",
+  "title": "Dna",
+  "description": "Dna icon component",
+  "category": "health",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/health/dna.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface DnaProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Dna = React.forwardRef<SVGSVGElement, DnaProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"m10 16 1.5 1.5\" />\n  <path d=\"m14 8-1.5-1.5\" />\n  <path d=\"M15 2c-1.798 1.998-2.518 3.995-2.807 5.993\" />\n  <path d=\"m16.5 10.5 1 1\" />\n  <path d=\"m17 6-2.891-2.891\" />\n  <path d=\"M2 15c6.667-6 13.333 0 20-6\" />\n  <path d=\"m20 9 .891.891\" />\n  <path d=\"M3.109 14.109 4 15\" />\n  <path d=\"m6.5 12.5 1 1\" />\n  <path d=\"m7 18 2.891 2.891\" />\n  <path d=\"M9 22c1.798-1.998 2.518-3.995 2.807-5.993\" />\n    </svg>\n  )\n);\nDna.displayName = \"Dna\";\nexport const DnaMetadata = { \n  id: \"dna\", \n  baseId: \"dna\", \n  variant: \"default\", \n  name: \"Dna\", \n  category: \"health\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Dna;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "lamp-slash_rounded",
+  "type": "registry:ui",
+  "title": "Lamp Slash",
+  "description": "Lamp Slash icon component",
+  "category": "notification",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/notification/lamp-slash_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface LampSlashRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const LampSlashRounded = React.forwardRef<SVGSVGElement, LampSlashRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M20.0301 2.47998L4.18005 18.33\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M5.24996 13.0001C4.82996 12.0301 4.57996 10.9801 4.57996 9.90005C4.57996 4.99005 8.79996 1.12005 13.6 2.17005C15.06 2.49005 16.36 3.27005 17.36 4.35005\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M19.06 7.30005C20.28 11.18 18.31 15.08 15.52 16.87V18.03C15.52 18.32 15.62 18.99 14.62 18.99H9.42003C8.39003 18.99 8.52003 18.56 8.52003 18.03V16.87C8.04003 16.57 7.59003 16.2 7.16003 15.77\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M8.5 22C10.79 21.35 13.21 21.35 15.5 22\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nLampSlashRounded.displayName = \"LampSlashRounded\";\nexport const LampSlashRoundedMetadata = { \n  id: \"lamp-slash_rounded\", \n  baseId: \"lamp-slash\", \n  variant: \"rounded\", \n  name: \"Lamp Slash\", \n  category: \"notification\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default LampSlashRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "textalign-justifycenter_rounded",
+  "type": "registry:ui",
+  "title": "Textalign Justifycenter",
+  "description": "Textalign Justifycenter icon component",
+  "category": "text",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/text/textalign-justifycenter_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface TextalignJustifycenterRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const TextalignJustifycenterRounded = React.forwardRef<SVGSVGElement, TextalignJustifycenterRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M3 4.5H21\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M3 9.5H21\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M3 14.5H21\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M3 19.5H21\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nTextalignJustifycenterRounded.displayName = \"TextalignJustifycenterRounded\";\nexport const TextalignJustifycenterRoundedMetadata = { \n  id: \"textalign-justifycenter_rounded\", \n  baseId: \"textalign-justifycenter\", \n  variant: \"rounded\", \n  name: \"Textalign Justifycenter\", \n  category: \"text\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default TextalignJustifycenterRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

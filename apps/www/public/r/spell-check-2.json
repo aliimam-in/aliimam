@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "spell-check-2",
+  "type": "registry:ui",
+  "title": "Spell Check 2",
+  "description": "Spell Check 2 icon component",
+  "category": "text",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/text/spell-check-2.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface SpellCheck2Props extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const SpellCheck2 = React.forwardRef<SVGSVGElement, SpellCheck2Props>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"m6 16 6-12 6 12\" />\n  <path d=\"M8 12h8\" />\n  <path d=\"M4 21c1.1 0 1.1-1 2.3-1s1.1 1 2.3 1c1.1 0 1.1-1 2.3-1 1.1 0 1.1 1 2.3 1 1.1 0 1.1-1 2.3-1 1.1 0 1.1 1 2.3 1 1.1 0 1.1-1 2.3-1\" />\n    </svg>\n  )\n);\nSpellCheck2.displayName = \"SpellCheck2\";\nexport const SpellCheck2Metadata = { \n  id: \"spell-check-2\", \n  baseId: \"spell-check-2\", \n  variant: \"default\", \n  name: \"Spell Check 2\", \n  category: \"text\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default SpellCheck2;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

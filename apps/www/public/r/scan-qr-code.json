@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "scan-qr-code",
+  "type": "registry:ui",
+  "title": "Scan Qr Code",
+  "description": "Scan Qr Code icon component",
+  "category": "scan",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/scan/scan-qr-code.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ScanQrCodeProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ScanQrCode = React.forwardRef<SVGSVGElement, ScanQrCodeProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M17 12v4a1 1 0 0 1-1 1h-4\" />\n  <path d=\"M17 3h2a2 2 0 0 1 2 2v2\" />\n  <path d=\"M17 8V7\" />\n  <path d=\"M21 17v2a2 2 0 0 1-2 2h-2\" />\n  <path d=\"M3 7V5a2 2 0 0 1 2-2h2\" />\n  <path d=\"M7 17h.01\" />\n  <path d=\"M7 21H5a2 2 0 0 1-2-2v-2\" />\n  <rect x=\"7\" y=\"7\" width=\"5\" height=\"5\" rx=\"1\" />\n    </svg>\n  )\n);\nScanQrCode.displayName = \"ScanQrCode\";\nexport const ScanQrCodeMetadata = { \n  id: \"scan-qr-code\", \n  baseId: \"scan-qr-code\", \n  variant: \"default\", \n  name: \"Scan Qr Code\", \n  category: \"scan\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ScanQrCode;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

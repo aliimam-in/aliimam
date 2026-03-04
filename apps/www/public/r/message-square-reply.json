@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "message-square-reply",
+  "type": "registry:ui",
+  "title": "Message Square Reply",
+  "description": "Message Square Reply icon component",
+  "category": "message",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/message/message-square-reply.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface MessageSquareReplyProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const MessageSquareReply = React.forwardRef<SVGSVGElement, MessageSquareReplyProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M22 17a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 21.286V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z\" />\n  <path d=\"m10 8-3 3 3 3\" />\n  <path d=\"M17 14v-1a2 2 0 0 0-2-2H7\" />\n    </svg>\n  )\n);\nMessageSquareReply.displayName = \"MessageSquareReply\";\nexport const MessageSquareReplyMetadata = { \n  id: \"message-square-reply\", \n  baseId: \"message-square-reply\", \n  variant: \"default\", \n  name: \"Message Square Reply\", \n  category: \"message\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default MessageSquareReply;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "path-2_filled",
+  "type": "registry:ui",
+  "title": "Path 2",
+  "description": "Path 2 icon component",
+  "category": "design",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/design/path-2_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface Path2FilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Path2Filled = React.forwardRef<SVGSVGElement, Path2FilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M14.15 22.0001H9.82998C8.28998 22.0001 7.14998 20.7501 7.44998 19.4201L7.96998 17.1001C8.06998 16.6401 8.47998 16.3201 8.94998 16.3201H15.04C15.51 16.3201 15.91 16.6401 16.02 17.1001L16.54 19.4101C16.86 20.8401 15.79 22.0001 14.15 22.0001Z\" fill=\"currentColor\"/>\n<path d=\"M18.82 13.69L17.75 14.63C17.38 14.95 16.91 15.13 16.43 15.13H7.59001C7.10001 15.13 6.62001 14.95 6.26001 14.62L5.21001 13.68C3.49001 12.27 3.48001 11.19 4.80001 9.53L10.03 2.92C10.0665 2.87094 10.1041 2.82374 10.1425 2.77836C10.5834 2.25735 11.27 2.70487 11.27 3.38743V6.86C11.26 7.29 11.6 7.63 12.02 7.62C12.44 7.63 12.77 7.29 12.78 6.86V3.38743C12.78 2.70487 13.4564 2.2676 13.909 2.77848C13.9465 2.82077 13.9835 2.8646 14.02 2.91L19.23 9.53C20.53 11.19 20.48 12.22 18.82 13.69Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nPath2Filled.displayName = \"Path2Filled\";\nexport const Path2FilledMetadata = { \n  id: \"path-2_filled\", \n  baseId: \"path-2\", \n  variant: \"filled\", \n  name: \"Path 2\", \n  category: \"design\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Path2Filled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

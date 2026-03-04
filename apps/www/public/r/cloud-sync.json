@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "cloud-sync",
+  "type": "registry:ui",
+  "title": "Cloud Sync",
+  "description": "Cloud Sync icon component",
+  "category": "cloud",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/cloud/cloud-sync.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface CloudSyncProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const CloudSync = React.forwardRef<SVGSVGElement, CloudSyncProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"m17 18-1.535 1.605a5 5 0 0 1-8-1.5\" />\n  <path d=\"M17 22v-4h-4\" />\n  <path d=\"M20.996 15.251A4.5 4.5 0 0 0 17.495 8h-1.79a7 7 0 1 0-12.709 5.607\" />\n  <path d=\"M7 10v4h4\" />\n  <path d=\"m7 14 1.535-1.605a5 5 0 0 1 8 1.5\" />\n    </svg>\n  )\n);\nCloudSync.displayName = \"CloudSync\";\nexport const CloudSyncMetadata = { \n  id: \"cloud-sync\", \n  baseId: \"cloud-sync\", \n  variant: \"default\", \n  name: \"Cloud Sync\", \n  category: \"cloud\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default CloudSync;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

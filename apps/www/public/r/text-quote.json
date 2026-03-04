@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "text-quote",
+  "type": "registry:ui",
+  "title": "Text Quote",
+  "description": "Text Quote icon component",
+  "category": "text",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/text/text-quote.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface TextQuoteProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const TextQuote = React.forwardRef<SVGSVGElement, TextQuoteProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M17 5H3\" />\n  <path d=\"M21 12H8\" />\n  <path d=\"M21 19H8\" />\n  <path d=\"M3 12v7\" />\n    </svg>\n  )\n);\nTextQuote.displayName = \"TextQuote\";\nexport const TextQuoteMetadata = { \n  id: \"text-quote\", \n  baseId: \"text-quote\", \n  variant: \"default\", \n  name: \"Text Quote\", \n  category: \"text\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default TextQuote;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

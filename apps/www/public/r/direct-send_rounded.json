@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "direct-send_rounded",
+  "type": "registry:ui",
+  "title": "Direct Send",
+  "description": "Direct Send icon component",
+  "category": "message",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/message/direct-send_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface DirectSendRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const DirectSendRounded = React.forwardRef<SVGSVGElement, DirectSendRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M12 9V2L10 4\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M12 2L14 4\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M1.97998 13H6.38998C6.76998 13 7.10998 13.21 7.27998 13.55L8.44998 15.89C8.78998 16.57 9.47998 17 10.24 17H13.77C14.53 17 15.22 16.57 15.56 15.89L16.73 13.55C16.9 13.21 17.25 13 17.62 13H21.98\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M7 5.13C3.46 5.65 2 7.73 2 12V15C2 20 4 22 9 22H15C20 22 22 20 22 15V12C22 7.73 20.54 5.65 17 5.13\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nDirectSendRounded.displayName = \"DirectSendRounded\";\nexport const DirectSendRoundedMetadata = { \n  id: \"direct-send_rounded\", \n  baseId: \"direct-send\", \n  variant: \"rounded\", \n  name: \"Direct Send\", \n  category: \"message\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default DirectSendRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

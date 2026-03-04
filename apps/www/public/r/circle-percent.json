@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "circle-percent",
+  "type": "registry:ui",
+  "title": "Circle Percent",
+  "description": "Circle Percent icon component",
+  "category": "circle",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/circle/circle-percent.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface CirclePercentProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const CirclePercent = React.forwardRef<SVGSVGElement, CirclePercentProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"m15 9-6 6\" />\n  <path d=\"M9 9h.01\" />\n  <path d=\"M15 15h.01\" />\n    </svg>\n  )\n);\nCirclePercent.displayName = \"CirclePercent\";\nexport const CirclePercentMetadata = { \n  id: \"circle-percent\", \n  baseId: \"circle-percent\", \n  variant: \"default\", \n  name: \"Circle Percent\", \n  category: \"circle\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default CirclePercent;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

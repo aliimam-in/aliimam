@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "volume-low_filled",
+  "type": "registry:ui",
+  "title": "Volume Low",
+  "description": "Volume Low icon component",
+  "category": "multimedia",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/multimedia/volume-low_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface VolumeLowFilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const VolumeLowFilled = React.forwardRef<SVGSVGElement, VolumeLowFilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M22 12.75H18C17.59 12.75 17.25 12.41 17.25 12C17.25 11.59 17.59 11.25 18 11.25H22C22.41 11.25 22.75 11.59 22.75 12C22.75 12.41 22.41 12.75 22 12.75Z\" fill=\"currentColor\"/>\n<path d=\"M14.02 3.77997C12.9 3.15997 11.47 3.31997 10.01 4.22997L7.09 6.05997C6.89 6.17997 6.66 6.24997 6.43 6.24997H5.5H5C2.58 6.24997 1.25 7.57997 1.25 9.99997V14C1.25 16.42 2.58 17.75 5 17.75H5.5H6.43C6.66 17.75 6.89 17.82 7.09 17.94L10.01 19.77C10.89 20.32 11.75 20.59 12.55 20.59C13.07 20.59 13.57 20.47 14.02 20.22C15.13 19.6 15.75 18.31 15.75 16.59V7.40997C15.75 5.68997 15.13 4.39997 14.02 3.77997Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nVolumeLowFilled.displayName = \"VolumeLowFilled\";\nexport const VolumeLowFilledMetadata = { \n  id: \"volume-low_filled\", \n  baseId: \"volume-low\", \n  variant: \"filled\", \n  name: \"Volume Low\", \n  category: \"multimedia\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default VolumeLowFilled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

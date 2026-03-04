@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "a-arrow-down",
+  "type": "registry:ui",
+  "title": "A Arrow Down",
+  "description": "A Arrow Down icon component",
+  "category": "text",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/text/a-arrow-down.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface AArrowDownProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const AArrowDown = React.forwardRef<SVGSVGElement, AArrowDownProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"m14 12 4 4 4-4\" />\n  <path d=\"M18 16V7\" />\n  <path d=\"m2 16 4.039-9.69a.5.5 0 0 1 .923 0L11 16\" />\n  <path d=\"M3.304 13h6.392\" />\n    </svg>\n  )\n);\nAArrowDown.displayName = \"AArrowDown\";\nexport const AArrowDownMetadata = { \n  id: \"a-arrow-down\", \n  baseId: \"a-arrow-down\", \n  variant: \"default\", \n  name: \"A Arrow Down\", \n  category: \"text\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default AArrowDown;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

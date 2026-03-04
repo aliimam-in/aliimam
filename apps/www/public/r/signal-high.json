@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "signal-high",
+  "type": "registry:ui",
+  "title": "Signal High",
+  "description": "Signal High icon component",
+  "category": "network",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/network/signal-high.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface SignalHighProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const SignalHigh = React.forwardRef<SVGSVGElement, SignalHighProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M2 20h.01\" />\n  <path d=\"M7 20v-4\" />\n  <path d=\"M12 20v-8\" />\n  <path d=\"M17 20V8\" />\n    </svg>\n  )\n);\nSignalHigh.displayName = \"SignalHigh\";\nexport const SignalHighMetadata = { \n  id: \"signal-high\", \n  baseId: \"signal-high\", \n  variant: \"default\", \n  name: \"Signal High\", \n  category: \"network\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default SignalHigh;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

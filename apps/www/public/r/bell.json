@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "bell",
+  "type": "registry:ui",
+  "title": "Bell",
+  "description": "Bell icon component",
+  "category": "notification",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/notification/bell.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface BellProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Bell = React.forwardRef<SVGSVGElement, BellProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M10.268 21a2 2 0 0 0 3.464 0\" />\n  <path d=\"M3.262 15.326A1 1 0 0 0 4 17h16a1 1 0 0 0 .74-1.673C19.41 13.956 18 12.499 18 8A6 6 0 0 0 6 8c0 4.499-1.411 5.956-2.738 7.326\" />\n    </svg>\n  )\n);\nBell.displayName = \"Bell\";\nexport const BellMetadata = { \n  id: \"bell\", \n  baseId: \"bell\", \n  variant: \"default\", \n  name: \"Bell\", \n  category: \"notification\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Bell;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

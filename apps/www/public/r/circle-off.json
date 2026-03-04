@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "circle-off",
+  "type": "registry:ui",
+  "title": "Circle Off",
+  "description": "Circle Off icon component",
+  "category": "circle",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/circle/circle-off.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface CircleOffProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const CircleOff = React.forwardRef<SVGSVGElement, CircleOffProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"m2 2 20 20\" />\n  <path d=\"M8.35 2.69A10 10 0 0 1 21.3 15.65\" />\n  <path d=\"M19.08 19.08A10 10 0 1 1 4.92 4.92\" />\n    </svg>\n  )\n);\nCircleOff.displayName = \"CircleOff\";\nexport const CircleOffMetadata = { \n  id: \"circle-off\", \n  baseId: \"circle-off\", \n  variant: \"default\", \n  name: \"Circle Off\", \n  category: \"circle\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default CircleOff;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "card-edit_rounded",
+  "type": "registry:ui",
+  "title": "Card Edit",
+  "description": "Card Edit icon component",
+  "category": "finance",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/finance/card-edit_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface CardEditRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const CardEditRounded = React.forwardRef<SVGSVGElement, CardEditRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M1.99609 8.5H11.4961\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M5.99609 16.5H7.99609\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M10.4961 16.5H14.4961\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M21.9961 12.03V16.11C21.9961 19.62 21.1061 20.5 17.5561 20.5H6.43609C2.88609 20.5 1.99609 19.62 1.99609 16.11V7.89C1.99609 4.38 2.88609 3.5 6.43609 3.5H14.4961\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M19.0761 4.13L15.3661 7.84C15.2261 7.98 15.0861 8.26 15.0561 8.46L14.8561 9.88C14.7861 10.39 15.1461 10.75 15.6561 10.68L17.0761 10.48C17.2761 10.45 17.5561 10.31 17.6961 10.17L21.4061 6.46C22.0461 5.82 22.3461 5.08 21.4061 4.14C20.4561 3.19 19.7161 3.49 19.0761 4.13Z\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M18.5461 4.65997C18.8661 5.78997 19.7461 6.66997 20.8661 6.97997\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nCardEditRounded.displayName = \"CardEditRounded\";\nexport const CardEditRoundedMetadata = { \n  id: \"card-edit_rounded\", \n  baseId: \"card-edit\", \n  variant: \"rounded\", \n  name: \"Card Edit\", \n  category: \"finance\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default CardEditRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

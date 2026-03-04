@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "calendar-plus",
+  "type": "registry:ui",
+  "title": "Calendar Plus",
+  "description": "Calendar Plus icon component",
+  "category": "calendar",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/calendar/calendar-plus.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface CalendarPlusProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const CalendarPlus = React.forwardRef<SVGSVGElement, CalendarPlusProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M16 19h6\" />\n  <path d=\"M16 2v4\" />\n  <path d=\"M19 16v6\" />\n  <path d=\"M21 12.598V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h8.5\" />\n  <path d=\"M3 10h18\" />\n  <path d=\"M8 2v4\" />\n    </svg>\n  )\n);\nCalendarPlus.displayName = \"CalendarPlus\";\nexport const CalendarPlusMetadata = { \n  id: \"calendar-plus\", \n  baseId: \"calendar-plus\", \n  variant: \"default\", \n  name: \"Calendar Plus\", \n  category: \"calendar\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default CalendarPlus;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "panel-top-open",
+  "type": "registry:ui",
+  "title": "Panel Top Open",
+  "description": "Panel Top Open icon component",
+  "category": "panel",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/panel/panel-top-open.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface PanelTopOpenProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const PanelTopOpen = React.forwardRef<SVGSVGElement, PanelTopOpenProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <rect width=\"18\" height=\"18\" x=\"3\" y=\"3\" rx=\"2\" />\n  <path d=\"M3 9h18\" />\n  <path d=\"m15 14-3 3-3-3\" />\n    </svg>\n  )\n);\nPanelTopOpen.displayName = \"PanelTopOpen\";\nexport const PanelTopOpenMetadata = { \n  id: \"panel-top-open\", \n  baseId: \"panel-top-open\", \n  variant: \"default\", \n  name: \"Panel Top Open\", \n  category: \"panel\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default PanelTopOpen;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

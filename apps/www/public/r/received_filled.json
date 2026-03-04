@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "received_filled",
+  "type": "registry:ui",
+  "title": "Received",
+  "description": "Received icon component",
+  "category": "arrows",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/arrows/received_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ReceivedFilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ReceivedFilled = React.forwardRef<SVGSVGElement, ReceivedFilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M4.71 18.1899C4.81 18.2299 4.9 18.2499 5 18.2499H15.27C15.68 18.2499 16.02 17.9099 16.02 17.4999C16.02 17.0899 15.68 16.7499 15.27 16.7499H6.81L19.53 4.02994C19.82 3.73994 19.82 3.25994 19.53 2.96994C19.24 2.67994 18.76 2.67994 18.47 2.96994L5.75 15.6899V7.22994C5.75 6.81994 5.41 6.47994 5 6.47994C4.59 6.47994 4.25 6.81994 4.25 7.22994V17.4999C4.25 17.5999 4.27 17.6899 4.31 17.7899C4.38 17.9699 4.53 18.1199 4.71 18.1899Z\" fill=\"currentColor\"/>\n<path d=\"M20.5 21.25H3.5C3.09 21.25 2.75 21.59 2.75 22C2.75 22.41 3.09 22.75 3.5 22.75H20.5C20.91 22.75 21.25 22.41 21.25 22C21.25 21.59 20.91 21.25 20.5 21.25Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nReceivedFilled.displayName = \"ReceivedFilled\";\nexport const ReceivedFilledMetadata = { \n  id: \"received_filled\", \n  baseId: \"received\", \n  variant: \"filled\", \n  name: \"Received\", \n  category: \"arrows\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ReceivedFilled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

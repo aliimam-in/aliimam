@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "dai-dai_filled",
+  "type": "registry:ui",
+  "title": "Dai Dai",
+  "description": "Dai Dai icon component",
+  "category": "brand",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/brand/dai-dai_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface DaiDaiFilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const DaiDaiFilled = React.forwardRef<SVGSVGElement, DaiDaiFilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M12 7.75H8.75V9.25H15.21C14.43 8.34 13.29 7.75 12 7.75Z\" fill=\"currentColor\"/>\n<path d=\"M16.25 12C16.25 11.56 16.16 11.15 16.04 10.75H8.75V13.25H16.04C16.16 12.85 16.25 12.44 16.25 12Z\" fill=\"currentColor\"/>\n<path d=\"M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM18.52 14.75H17.05C16.07 16.54 14.18 17.75 12 17.75H8C7.59 17.75 7.25 17.41 7.25 17V14.75H6.47998C6.06998 14.75 5.72998 14.41 5.72998 14C5.72998 13.59 6.06998 13.25 6.47998 13.25H7.25V10.75H6.47998C6.06998 10.75 5.72998 10.41 5.72998 10C5.72998 9.59 6.06998 9.25 6.47998 9.25H7.25V7C7.25 6.59 7.59 6.25 8 6.25H12C14.18 6.25 16.07 7.46 17.05 9.25H18.52C18.93 9.25 19.27 9.59 19.27 10C19.27 10.41 18.93 10.75 18.52 10.75H17.61C17.7 11.15 17.75 11.57 17.75 12C17.75 12.43 17.7 12.85 17.61 13.25H18.52C18.93 13.25 19.27 13.59 19.27 14C19.27 14.41 18.93 14.75 18.52 14.75Z\" fill=\"currentColor\"/>\n<path d=\"M8.75 16.25H12C13.29 16.25 14.43 15.66 15.21 14.75H8.75V16.25Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nDaiDaiFilled.displayName = \"DaiDaiFilled\";\nexport const DaiDaiFilledMetadata = { \n  id: \"dai-dai_filled\", \n  baseId: \"dai-dai\", \n  variant: \"filled\", \n  name: \"Dai Dai\", \n  category: \"brand\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default DaiDaiFilled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "mailbox",
+  "type": "registry:ui",
+  "title": "Mailbox",
+  "description": "Mailbox icon component",
+  "category": "mail",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/mail/mailbox.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface MailboxProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Mailbox = React.forwardRef<SVGSVGElement, MailboxProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M22 17a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V9.5C2 7 4 5 6.5 5H18c2.2 0 4 1.8 4 4v8Z\" />\n  <polyline points=\"15,9 18,9 18,11\" />\n  <path d=\"M6.5 5C9 5 11 7 11 9.5V17a2 2 0 0 1-2 2\" />\n  <line x1=\"6\" x2=\"7\" y1=\"10\" y2=\"10\" />\n    </svg>\n  )\n);\nMailbox.displayName = \"Mailbox\";\nexport const MailboxMetadata = { \n  id: \"mailbox\", \n  baseId: \"mailbox\", \n  variant: \"default\", \n  name: \"Mailbox\", \n  category: \"mail\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Mailbox;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -71,6 +71,7 @@
     "@types/three": "^0.180.0",
     "@upstash/redis": "^1.35.6",
     "@vercel/analytics": "^1.4.1",
+    "@vercel/blob": "^2.2.0",
     "@vercel/speed-insights": "^1.3.1",
     "ai": "^5.0.59",
     "change-case": "^5.4.4",

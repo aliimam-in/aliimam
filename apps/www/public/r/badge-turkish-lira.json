@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "badge-turkish-lira",
+  "type": "registry:ui",
+  "title": "Badge Turkish Lira",
+  "description": "Badge Turkish Lira icon component",
+  "category": "badge",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/badge/badge-turkish-lira.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface BadgeTurkishLiraProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const BadgeTurkishLira = React.forwardRef<SVGSVGElement, BadgeTurkishLiraProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M11 7v10a5 5 0 0 0 5-5\" />\n  <path d=\"m15 8-6 3\" />\n  <path d=\"M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76\" />\n    </svg>\n  )\n);\nBadgeTurkishLira.displayName = \"BadgeTurkishLira\";\nexport const BadgeTurkishLiraMetadata = { \n  id: \"badge-turkish-lira\", \n  baseId: \"badge-turkish-lira\", \n  variant: \"default\", \n  name: \"Badge Turkish Lira\", \n  category: \"badge\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default BadgeTurkishLira;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

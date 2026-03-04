@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "undo_rounded",
+  "type": "registry:ui",
+  "title": "Undo",
+  "description": "Undo icon component",
+  "category": "arrows",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/arrows/undo_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface UndoRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const UndoRounded = React.forwardRef<SVGSVGElement, UndoRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M7.12988 18.31H15.1299C17.8899 18.31 20.1299 16.07 20.1299 13.31C20.1299 10.55 17.8899 8.31 15.1299 8.31H4.12988\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M6.43012 10.81L3.87012 8.25L6.43012 5.69\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nUndoRounded.displayName = \"UndoRounded\";\nexport const UndoRoundedMetadata = { \n  id: \"undo_rounded\", \n  baseId: \"undo\", \n  variant: \"rounded\", \n  name: \"Undo\", \n  category: \"arrows\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default UndoRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

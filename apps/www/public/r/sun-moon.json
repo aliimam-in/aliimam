@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "sun-moon",
+  "type": "registry:ui",
+  "title": "Sun Moon",
+  "description": "Sun Moon icon component",
+  "category": "weather",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/weather/sun-moon.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface SunMoonProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const SunMoon = React.forwardRef<SVGSVGElement, SunMoonProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M12 2v2\" />\n  <path d=\"M14.837 16.385a6 6 0 1 1-7.223-7.222c.624-.147.97.66.715 1.248a4 4 0 0 0 5.26 5.259c.589-.255 1.396.09 1.248.715\" />\n  <path d=\"M16 12a4 4 0 0 0-4-4\" />\n  <path d=\"m19 5-1.256 1.256\" />\n  <path d=\"M20 12h2\" />\n    </svg>\n  )\n);\nSunMoon.displayName = \"SunMoon\";\nexport const SunMoonMetadata = { \n  id: \"sun-moon\", \n  baseId: \"sun-moon\", \n  variant: \"default\", \n  name: \"Sun Moon\", \n  category: \"weather\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default SunMoon;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

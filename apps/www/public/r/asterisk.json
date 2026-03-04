@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "asterisk",
+  "type": "registry:ui",
+  "title": "Asterisk",
+  "description": "Asterisk icon component",
+  "category": "math",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/math/asterisk.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface AsteriskProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Asterisk = React.forwardRef<SVGSVGElement, AsteriskProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M12 6v12\" />\n  <path d=\"M17.196 9 6.804 15\" />\n  <path d=\"m6.804 9 10.392 6\" />\n    </svg>\n  )\n);\nAsterisk.displayName = \"Asterisk\";\nexport const AsteriskMetadata = { \n  id: \"asterisk\", \n  baseId: \"asterisk\", \n  variant: \"default\", \n  name: \"Asterisk\", \n  category: \"math\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Asterisk;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "speech",
+  "type": "registry:ui",
+  "title": "Speech",
+  "description": "Speech icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/speech.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface SpeechProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Speech = React.forwardRef<SVGSVGElement, SpeechProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M8.8 20v-4.1l1.9.2a2.3 2.3 0 0 0 2.164-2.1V8.3A5.37 5.37 0 0 0 2 8.25c0 2.8.656 3.054 1 4.55a5.77 5.77 0 0 1 .029 2.758L2 20\" />\n  <path d=\"M19.8 17.8a7.5 7.5 0 0 0 .003-10.603\" />\n  <path d=\"M17 15a3.5 3.5 0 0 0-.025-4.975\" />\n    </svg>\n  )\n);\nSpeech.displayName = \"Speech\";\nexport const SpeechMetadata = { \n  id: \"speech\", \n  baseId: \"speech\", \n  variant: \"default\", \n  name: \"Speech\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Speech;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

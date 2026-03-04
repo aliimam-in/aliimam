@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "cookie",
+  "type": "registry:ui",
+  "title": "Cookie",
+  "description": "Cookie icon component",
+  "category": "food",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/food/cookie.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface CookieProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Cookie = React.forwardRef<SVGSVGElement, CookieProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M12 2a10 10 0 1 0 10 10 4 4 0 0 1-5-5 4 4 0 0 1-5-5\" />\n  <path d=\"M8.5 8.5v.01\" />\n  <path d=\"M16 15.5v.01\" />\n  <path d=\"M12 12v.01\" />\n  <path d=\"M11 17v.01\" />\n  <path d=\"M7 14v.01\" />\n    </svg>\n  )\n);\nCookie.displayName = \"Cookie\";\nexport const CookieMetadata = { \n  id: \"cookie\", \n  baseId: \"cookie\", \n  variant: \"default\", \n  name: \"Cookie\", \n  category: \"food\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Cookie;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

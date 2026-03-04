@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "wine-off",
+  "type": "registry:ui",
+  "title": "Wine Off",
+  "description": "Wine Off icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/wine-off.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface WineOffProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const WineOff = React.forwardRef<SVGSVGElement, WineOffProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M8 22h8\" />\n  <path d=\"M7 10h3m7 0h-1.343\" />\n  <path d=\"M12 15v7\" />\n  <path d=\"M7.307 7.307A12.33 12.33 0 0 0 7 10a5 5 0 0 0 7.391 4.391M8.638 2.981C8.75 2.668 8.872 2.34 9 2h6c1.5 4 2 6 2 8 0 .407-.05.809-.145 1.198\" />\n  <line x1=\"2\" x2=\"22\" y1=\"2\" y2=\"22\" />\n    </svg>\n  )\n);\nWineOff.displayName = \"WineOff\";\nexport const WineOffMetadata = { \n  id: \"wine-off\", \n  baseId: \"wine-off\", \n  variant: \"default\", \n  name: \"Wine Off\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default WineOff;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

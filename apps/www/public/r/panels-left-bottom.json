@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "panels-left-bottom",
+  "type": "registry:ui",
+  "title": "Panels Left Bottom",
+  "description": "Panels Left Bottom icon component",
+  "category": "panel",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/panel/panels-left-bottom.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface PanelsLeftBottomProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const PanelsLeftBottom = React.forwardRef<SVGSVGElement, PanelsLeftBottomProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <rect width=\"18\" height=\"18\" x=\"3\" y=\"3\" rx=\"2\" />\n  <path d=\"M9 3v18\" />\n  <path d=\"M9 15h12\" />\n    </svg>\n  )\n);\nPanelsLeftBottom.displayName = \"PanelsLeftBottom\";\nexport const PanelsLeftBottomMetadata = { \n  id: \"panels-left-bottom\", \n  baseId: \"panels-left-bottom\", \n  variant: \"default\", \n  name: \"Panels Left Bottom\", \n  category: \"panel\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default PanelsLeftBottom;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

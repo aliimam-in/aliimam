@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "unlink",
+  "type": "registry:ui",
+  "title": "Unlink",
+  "description": "Unlink icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/unlink.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface UnlinkProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Unlink = React.forwardRef<SVGSVGElement, UnlinkProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"m18.84 12.25 1.72-1.71h-.02a5.004 5.004 0 0 0-.12-7.07 5.006 5.006 0 0 0-6.95 0l-1.72 1.71\" />\n  <path d=\"m5.17 11.75-1.71 1.71a5.004 5.004 0 0 0 .12 7.07 5.006 5.006 0 0 0 6.95 0l1.71-1.71\" />\n  <line x1=\"8\" x2=\"8\" y1=\"2\" y2=\"5\" />\n  <line x1=\"2\" x2=\"5\" y1=\"8\" y2=\"8\" />\n  <line x1=\"16\" x2=\"16\" y1=\"19\" y2=\"22\" />\n  <line x1=\"19\" x2=\"22\" y1=\"16\" y2=\"16\" />\n    </svg>\n  )\n);\nUnlink.displayName = \"Unlink\";\nexport const UnlinkMetadata = { \n  id: \"unlink\", \n  baseId: \"unlink\", \n  variant: \"default\", \n  name: \"Unlink\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Unlink;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

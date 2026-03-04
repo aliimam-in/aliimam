@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "copy-slash",
+  "type": "registry:ui",
+  "title": "Copy Slash",
+  "description": "Copy Slash icon component",
+  "category": "clipboard",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/clipboard/copy-slash.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface CopySlashProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const CopySlash = React.forwardRef<SVGSVGElement, CopySlashProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <line x1=\"12\" x2=\"18\" y1=\"18\" y2=\"12\" />\n  <rect width=\"14\" height=\"14\" x=\"8\" y=\"8\" rx=\"2\" ry=\"2\" />\n  <path d=\"M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2\" />\n    </svg>\n  )\n);\nCopySlash.displayName = \"CopySlash\";\nexport const CopySlashMetadata = { \n  id: \"copy-slash\", \n  baseId: \"copy-slash\", \n  variant: \"default\", \n  name: \"Copy Slash\", \n  category: \"clipboard\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default CopySlash;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "direct-down_filled",
+  "type": "registry:ui",
+  "title": "Direct Down",
+  "description": "Direct Down icon component",
+  "category": "navigation",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/navigation/direct-down_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface DirectDownFilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const DirectDownFilled = React.forwardRef<SVGSVGElement, DirectDownFilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M17.02 2.71996L13.54 4.45996C12.57 4.93996 11.44 4.93996 10.47 4.45996L6.97997 2.70996C3.99997 1.21996 0.849974 4.43996 2.40997 7.38996L3.22997 8.92996C3.33997 9.13996 3.51997 9.30996 3.73997 9.40996L16.39 15.1C16.91 15.33 17.52 15.12 17.78 14.62L21.59 7.37996C23.14 4.43996 20 1.21996 17.02 2.71996Z\" fill=\"currentColor\"/>\n<path d=\"M15.6 16.31L7.31996 12.58C6.38996 12.16 5.44996 13.16 5.92996 14.06L8.96996 19.83C10.26 22.28 13.76 22.28 15.05 19.83L16.12 17.79C16.4 17.24 16.16 16.57 15.6 16.31Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nDirectDownFilled.displayName = \"DirectDownFilled\";\nexport const DirectDownFilledMetadata = { \n  id: \"direct-down_filled\", \n  baseId: \"direct-down\", \n  variant: \"filled\", \n  name: \"Direct Down\", \n  category: \"navigation\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default DirectDownFilled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

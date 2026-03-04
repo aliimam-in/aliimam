@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "laptop-minimal-check",
+  "type": "registry:ui",
+  "title": "Laptop Minimal Check",
+  "description": "Laptop Minimal Check icon component",
+  "category": "device",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/device/laptop-minimal-check.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface LaptopMinimalCheckProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const LaptopMinimalCheck = React.forwardRef<SVGSVGElement, LaptopMinimalCheckProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M2 20h20\" />\n  <path d=\"m9 10 2 2 4-4\" />\n  <rect x=\"3\" y=\"4\" width=\"18\" height=\"12\" rx=\"2\" />\n    </svg>\n  )\n);\nLaptopMinimalCheck.displayName = \"LaptopMinimalCheck\";\nexport const LaptopMinimalCheckMetadata = { \n  id: \"laptop-minimal-check\", \n  baseId: \"laptop-minimal-check\", \n  variant: \"default\", \n  name: \"Laptop Minimal Check\", \n  category: \"device\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default LaptopMinimalCheck;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

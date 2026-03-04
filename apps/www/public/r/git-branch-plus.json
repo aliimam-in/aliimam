@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "git-branch-plus",
+  "type": "registry:ui",
+  "title": "Git Branch Plus",
+  "description": "Git Branch Plus icon component",
+  "category": "code",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/code/git-branch-plus.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface GitBranchPlusProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const GitBranchPlus = React.forwardRef<SVGSVGElement, GitBranchPlusProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M6 3v12\" />\n  <path d=\"M18 9a3 3 0 1 0 0-6 3 3 0 0 0 0 6z\" />\n  <path d=\"M6 21a3 3 0 1 0 0-6 3 3 0 0 0 0 6z\" />\n  <path d=\"M15 6a9 9 0 0 0-9 9\" />\n  <path d=\"M18 15v6\" />\n  <path d=\"M21 18h-6\" />\n    </svg>\n  )\n);\nGitBranchPlus.displayName = \"GitBranchPlus\";\nexport const GitBranchPlusMetadata = { \n  id: \"git-branch-plus\", \n  baseId: \"git-branch-plus\", \n  variant: \"default\", \n  name: \"Git Branch Plus\", \n  category: \"code\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default GitBranchPlus;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

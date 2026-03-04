@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "webhook-off",
+  "type": "registry:ui",
+  "title": "Webhook Off",
+  "description": "Webhook Off icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/webhook-off.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface WebhookOffProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const WebhookOff = React.forwardRef<SVGSVGElement, WebhookOffProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M17 17h-5c-1.09-.02-1.94.92-2.5 1.9A3 3 0 1 1 2.57 15\" />\n  <path d=\"M9 3.4a4 4 0 0 1 6.52.66\" />\n  <path d=\"m6 17 3.1-5.8a2.5 2.5 0 0 0 .057-2.05\" />\n  <path d=\"M20.3 20.3a4 4 0 0 1-2.3.7\" />\n  <path d=\"M18.6 13a4 4 0 0 1 3.357 3.414\" />\n  <path d=\"m12 6 .6 1\" />\n  <path d=\"m2 2 20 20\" />\n    </svg>\n  )\n);\nWebhookOff.displayName = \"WebhookOff\";\nexport const WebhookOffMetadata = { \n  id: \"webhook-off\", \n  baseId: \"webhook-off\", \n  variant: \"default\", \n  name: \"Webhook Off\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default WebhookOff;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

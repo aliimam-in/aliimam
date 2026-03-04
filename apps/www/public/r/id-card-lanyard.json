@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "id-card-lanyard",
+  "type": "registry:ui",
+  "title": "Id Card Lanyard",
+  "description": "Id Card Lanyard icon component",
+  "category": "user",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/user/id-card-lanyard.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface IdCardLanyardProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const IdCardLanyard = React.forwardRef<SVGSVGElement, IdCardLanyardProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M13.5 8h-3\" />\n  <path d=\"m15 2-1 2h3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h3\" />\n  <path d=\"M16.899 22A5 5 0 0 0 7.1 22\" />\n  <path d=\"m9 2 3 6\" />\n  <circle cx=\"12\" cy=\"15\" r=\"3\" />\n    </svg>\n  )\n);\nIdCardLanyard.displayName = \"IdCardLanyard\";\nexport const IdCardLanyardMetadata = { \n  id: \"id-card-lanyard\", \n  baseId: \"id-card-lanyard\", \n  variant: \"default\", \n  name: \"Id Card Lanyard\", \n  category: \"user\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default IdCardLanyard;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

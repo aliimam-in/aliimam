@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "group-3_rounded",
+  "type": "registry:ui",
+  "title": "Group 3",
+  "description": "Group 3 icon component",
+  "category": "design",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/design/group-3_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface Group3RoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Group3Rounded = React.forwardRef<SVGSVGElement, Group3RoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M6 2H18C19.1 2 20 2.9 20 4V8.32001H4V4C4 2.9 4.9 2 6 2Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M4 8.32001V11.88C4 12.96 4.58003 13.96 5.53003 14.49L8.48999 16.16C9.11999 16.51 9.51001 17.18 9.51001 17.9V20C9.51001 21.1 10.41 22 11.51 22H12.51C13.61 22 14.51 21.1 14.51 20V17.9C14.51 17.18 14.9 16.51 15.53 16.16L18.49 14.49C19.43 13.96 20.02 12.96 20.02 11.88V8.32001H4Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nGroup3Rounded.displayName = \"Group3Rounded\";\nexport const Group3RoundedMetadata = { \n  id: \"group-3_rounded\", \n  baseId: \"group-3\", \n  variant: \"rounded\", \n  name: \"Group 3\", \n  category: \"design\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Group3Rounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

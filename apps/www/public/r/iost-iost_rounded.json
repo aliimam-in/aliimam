@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "iost-iost_rounded",
+  "type": "registry:ui",
+  "title": "Iost Iost",
+  "description": "Iost Iost icon component",
+  "category": "brand",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/brand/iost-iost_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface IostIostRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const IostIostRounded = React.forwardRef<SVGSVGElement, IostIostRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M11 2.59999L4.5 6.39999C3.9 6.79999 3.5 7.39999 3.5 8.09999V15.8C3.5 16.5 3.9 17.2 4.5 17.5L11 21.3C11.6 21.7 12.4 21.7 13 21.3L19.5 17.5C20.1 17.1 20.5 16.5 20.5 15.8V8.09999C20.5 7.39999 20.1 6.69999 19.5 6.39999L13 2.59999C12.4 2.19999 11.6 2.19999 11 2.59999Z\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M17 9L12 6L7 9L17 15L12 18L7 15\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M11.5 10L9.5 12\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M14.5 12L12.5 14\"   strokeMiterlimit=\"10\" strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nIostIostRounded.displayName = \"IostIostRounded\";\nexport const IostIostRoundedMetadata = { \n  id: \"iost-iost_rounded\", \n  baseId: \"iost-iost\", \n  variant: \"rounded\", \n  name: \"Iost Iost\", \n  category: \"brand\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default IostIostRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

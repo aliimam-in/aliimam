@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "message-circle_filled",
+  "type": "registry:ui",
+  "title": "Message Circle",
+  "description": "Message Circle icon component",
+  "category": "message",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/message/message-circle_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface MessageCircleFilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const MessageCircleFilled = React.forwardRef<SVGSVGElement, MessageCircleFilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM17.25 12.81C17.25 12.98 17.24 13.14 17.22 13.3C17.07 15.07 16.02 15.95 14.1 15.95H13.84C13.68 15.95 13.52 16.03 13.42 16.16L12.63 17.21C12.28 17.68 11.72 17.68 11.37 17.21L10.58 16.16C10.49 16.05 10.3 15.95 10.16 15.95H9.9C7.81 15.95 6.75 15.43 6.75 12.8V10.17C6.75 8.25 7.64 7.2 9.4 7.05C9.56 7.04 9.73 7.04 9.9 7.04H14.1C16.19 7.04 17.25 8.09 17.25 10.19V12.81Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nMessageCircleFilled.displayName = \"MessageCircleFilled\";\nexport const MessageCircleFilledMetadata = { \n  id: \"message-circle_filled\", \n  baseId: \"message-circle\", \n  variant: \"filled\", \n  name: \"Message Circle\", \n  category: \"message\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default MessageCircleFilled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

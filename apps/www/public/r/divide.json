@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "divide",
+  "type": "registry:ui",
+  "title": "Divide",
+  "description": "Divide icon component",
+  "category": "math",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/math/divide.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface DivideProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Divide = React.forwardRef<SVGSVGElement, DivideProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <circle cx=\"12\" cy=\"6\" r=\"1\" />\n  <line x1=\"5\" x2=\"19\" y1=\"12\" y2=\"12\" />\n  <circle cx=\"12\" cy=\"18\" r=\"1\" />\n    </svg>\n  )\n);\nDivide.displayName = \"Divide\";\nexport const DivideMetadata = { \n  id: \"divide\", \n  baseId: \"divide\", \n  variant: \"default\", \n  name: \"Divide\", \n  category: \"math\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Divide;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

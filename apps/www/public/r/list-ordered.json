@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "list-ordered",
+  "type": "registry:ui",
+  "title": "List Ordered",
+  "description": "List Ordered icon component",
+  "category": "list",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/list/list-ordered.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ListOrderedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ListOrdered = React.forwardRef<SVGSVGElement, ListOrderedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M11 5h10\" />\n  <path d=\"M11 12h10\" />\n  <path d=\"M11 19h10\" />\n  <path d=\"M4 4h1v5\" />\n  <path d=\"M4 9h2\" />\n  <path d=\"M6.5 20H3.4c0-1 2.6-1.925 2.6-3.5a1.5 1.5 0 0 0-2.6-1.02\" />\n    </svg>\n  )\n);\nListOrdered.displayName = \"ListOrdered\";\nexport const ListOrderedMetadata = { \n  id: \"list-ordered\", \n  baseId: \"list-ordered\", \n  variant: \"default\", \n  name: \"List Ordered\", \n  category: \"list\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ListOrdered;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

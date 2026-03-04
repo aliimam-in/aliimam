@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "shapes_filled",
+  "type": "registry:ui",
+  "title": "Shapes",
+  "description": "Shapes icon component",
+  "category": "design",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/design/shapes_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ShapesFilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ShapesFilled = React.forwardRef<SVGSVGElement, ShapesFilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M13.43 14.9999H4.4C2.58 14.9999 1.42 13.0499 2.3 11.4499L4.63 7.20994L6.81 3.23994C7.72 1.58994 10.1 1.58994 11.01 3.23994L13.2 7.20994L14.25 9.11994L15.53 11.4499C16.41 13.0499 15.25 14.9999 13.43 14.9999Z\" fill=\"currentColor\"/>\n<path d=\"M22.65 16C22.65 19.59 19.74 22.5 16.15 22.5C13.1 22.5 10.55 20.41 9.83999 17.57C9.76999 17.27 9.99999 17 10.31 17H14.08C15.47 17 16.73 16.28 17.44 15.09C18.14 13.89 18.17 12.45 17.49 11.23L16.99 10.31C16.8 9.96995 17.07 9.55995 17.45 9.62995C20.41 10.23 22.65 12.85 22.65 16Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nShapesFilled.displayName = \"ShapesFilled\";\nexport const ShapesFilledMetadata = { \n  id: \"shapes_filled\", \n  baseId: \"shapes\", \n  variant: \"filled\", \n  name: \"Shapes\", \n  category: \"design\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ShapesFilled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

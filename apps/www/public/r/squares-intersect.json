@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "squares-intersect",
+  "type": "registry:ui",
+  "title": "Squares Intersect",
+  "description": "Squares Intersect icon component",
+  "category": "square",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/square/squares-intersect.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface SquaresIntersectProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const SquaresIntersect = React.forwardRef<SVGSVGElement, SquaresIntersectProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M10 22a2 2 0 0 1-2-2\" />\n  <path d=\"M14 2a2 2 0 0 1 2 2\" />\n  <path d=\"M16 22h-2\" />\n  <path d=\"M2 10V8\" />\n  <path d=\"M2 4a2 2 0 0 1 2-2\" />\n  <path d=\"M20 8a2 2 0 0 1 2 2\" />\n  <path d=\"M22 14v2\" />\n  <path d=\"M22 20a2 2 0 0 1-2 2\" />\n  <path d=\"M4 16a2 2 0 0 1-2-2\" />\n  <path d=\"M8 10a2 2 0 0 1 2-2h5a1 1 0 0 1 1 1v5a2 2 0 0 1-2 2H9a1 1 0 0 1-1-1z\" />\n  <path d=\"M8 2h2\" />\n    </svg>\n  )\n);\nSquaresIntersect.displayName = \"SquaresIntersect\";\nexport const SquaresIntersectMetadata = { \n  id: \"squares-intersect\", \n  baseId: \"squares-intersect\", \n  variant: \"default\", \n  name: \"Squares Intersect\", \n  category: \"square\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default SquaresIntersect;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

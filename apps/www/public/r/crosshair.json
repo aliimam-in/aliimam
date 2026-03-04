@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "crosshair",
+  "type": "registry:ui",
+  "title": "Crosshair",
+  "description": "Crosshair icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/crosshair.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface CrosshairProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Crosshair = React.forwardRef<SVGSVGElement, CrosshairProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <line x1=\"22\" x2=\"18\" y1=\"12\" y2=\"12\" />\n  <line x1=\"6\" x2=\"2\" y1=\"12\" y2=\"12\" />\n  <line x1=\"12\" x2=\"12\" y1=\"6\" y2=\"2\" />\n  <line x1=\"12\" x2=\"12\" y1=\"22\" y2=\"18\" />\n    </svg>\n  )\n);\nCrosshair.displayName = \"Crosshair\";\nexport const CrosshairMetadata = { \n  id: \"crosshair\", \n  baseId: \"crosshair\", \n  variant: \"default\", \n  name: \"Crosshair\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Crosshair;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

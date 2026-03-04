@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "hex-hex_rounded",
+  "type": "registry:ui",
+  "title": "Hex Hex",
+  "description": "Hex Hex icon component",
+  "category": "brand",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/brand/hex-hex_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface HexHexRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const HexHexRounded = React.forwardRef<SVGSVGElement, HexHexRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M17 3.29999H7L2 12L7 20.7H17L22 12L17 3.29999Z\"   strokeMiterlimit=\"10\"/>\n<path d=\"M10.9001 14H7.0001L5.1001 17.3L7.0001 20.7H10.9001L12.8001 17.3L10.9001 14Z\"   strokeMiterlimit=\"10\"/>\n<path d=\"M14.2999 8H6.9999L3.3999 14.3L6.9999 20.7H14.2999L17.9999 14.3L14.2999 8Z\"   strokeMiterlimit=\"10\"/>\n    </svg>\n  )\n);\nHexHexRounded.displayName = \"HexHexRounded\";\nexport const HexHexRoundedMetadata = { \n  id: \"hex-hex_rounded\", \n  baseId: \"hex-hex\", \n  variant: \"rounded\", \n  name: \"Hex Hex\", \n  category: \"brand\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default HexHexRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

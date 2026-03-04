@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "clock-1",
+  "type": "registry:ui",
+  "title": "Clock 1",
+  "description": "Clock 1 icon component",
+  "category": "clock",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/clock/clock-1.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface Clock1Props extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Clock1 = React.forwardRef<SVGSVGElement, Clock1Props>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <circle cx=\"12\" cy=\"12\" r=\"10\" />\n  <path d=\"M12 6v6l2-4\" />\n    </svg>\n  )\n);\nClock1.displayName = \"Clock1\";\nexport const Clock1Metadata = { \n  id: \"clock-1\", \n  baseId: \"clock-1\", \n  variant: \"default\", \n  name: \"Clock 1\", \n  category: \"clock\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Clock1;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

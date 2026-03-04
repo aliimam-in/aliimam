@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "map-pin-house",
+  "type": "registry:ui",
+  "title": "Map Pin House",
+  "description": "Map Pin House icon component",
+  "category": "navigation",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/navigation/map-pin-house.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface MapPinHouseProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const MapPinHouse = React.forwardRef<SVGSVGElement, MapPinHouseProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M15 22a1 1 0 0 1-1-1v-4a1 1 0 0 1 .445-.832l3-2a1 1 0 0 1 1.11 0l3 2A1 1 0 0 1 22 17v4a1 1 0 0 1-1 1z\" />\n  <path d=\"M18 10a8 8 0 0 0-16 0c0 4.993 5.539 10.193 7.399 11.799a1 1 0 0 0 .601.2\" />\n  <path d=\"M18 22v-3\" />\n  <circle cx=\"10\" cy=\"10\" r=\"3\" />\n    </svg>\n  )\n);\nMapPinHouse.displayName = \"MapPinHouse\";\nexport const MapPinHouseMetadata = { \n  id: \"map-pin-house\", \n  baseId: \"map-pin-house\", \n  variant: \"default\", \n  name: \"Map Pin House\", \n  category: \"navigation\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default MapPinHouse;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

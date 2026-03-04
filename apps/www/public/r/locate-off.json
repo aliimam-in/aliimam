@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "locate-off",
+  "type": "registry:ui",
+  "title": "Locate Off",
+  "description": "Locate Off icon component",
+  "category": "navigation",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/navigation/locate-off.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface LocateOffProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const LocateOff = React.forwardRef<SVGSVGElement, LocateOffProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M12 19v3\" />\n  <path d=\"M12 2v3\" />\n  <path d=\"M18.89 13.24a7 7 0 0 0-8.13-8.13\" />\n  <path d=\"M19 12h3\" />\n  <path d=\"M2 12h3\" />\n  <path d=\"m2 2 20 20\" />\n  <path d=\"M7.05 7.05a7 7 0 0 0 9.9 9.9\" />\n    </svg>\n  )\n);\nLocateOff.displayName = \"LocateOff\";\nexport const LocateOffMetadata = { \n  id: \"locate-off\", \n  baseId: \"locate-off\", \n  variant: \"default\", \n  name: \"Locate Off\", \n  category: \"navigation\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default LocateOff;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

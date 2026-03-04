@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "component_filled",
+  "type": "registry:ui",
+  "title": "Component",
+  "description": "Component icon component",
+  "category": "design",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/design/component_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ComponentFilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ComponentFilled = React.forwardRef<SVGSVGElement, ComponentFilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M20.95 14.55L14.56 20.94C13.16 22.34 10.86 22.34 9.45001 20.94L3.06001 14.55C1.66001 13.15 1.66001 10.85 3.06001 9.44L9.45001 3.05C10.85 1.65 13.15 1.65 14.56 3.05L20.95 9.44C22.35 10.85 22.35 13.15 20.95 14.55Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nComponentFilled.displayName = \"ComponentFilled\";\nexport const ComponentFilledMetadata = { \n  id: \"component_filled\", \n  baseId: \"component\", \n  variant: \"filled\", \n  name: \"Component\", \n  category: \"design\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ComponentFilled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

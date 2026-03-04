@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "tent",
+  "type": "registry:ui",
+  "title": "Tent",
+  "description": "Tent icon component",
+  "category": "building",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/building/tent.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface TentProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Tent = React.forwardRef<SVGSVGElement, TentProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M3.5 21 14 3\" />\n  <path d=\"M20.5 21 10 3\" />\n  <path d=\"M15.5 21 12 15l-3.5 6\" />\n  <path d=\"M2 21h20\" />\n    </svg>\n  )\n);\nTent.displayName = \"Tent\";\nexport const TentMetadata = { \n  id: \"tent\", \n  baseId: \"tent\", \n  variant: \"default\", \n  name: \"Tent\", \n  category: \"building\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Tent;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

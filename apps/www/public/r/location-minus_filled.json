@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "location-minus_filled",
+  "type": "registry:ui",
+  "title": "Location Minus",
+  "description": "Location Minus icon component",
+  "category": "navigation",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/navigation/location-minus_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface LocationMinusFilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const LocationMinusFilled = React.forwardRef<SVGSVGElement, LocationMinusFilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M20.62 8.7C19.58 4.07 15.54 2 12 2C12 2 12 2 11.99 2C8.45999 2 4.42999 4.07 3.37999 8.69C2.19999 13.85 5.35999 18.22 8.21999 20.98C9.27999 22 10.64 22.51 12 22.51C13.36 22.51 14.72 22 15.77 20.98C18.63 18.22 21.79 13.86 20.62 8.7ZM14.75 11.75H9.24999C8.83999 11.75 8.49999 11.41 8.49999 11C8.49999 10.59 8.83999 10.25 9.24999 10.25H14.75C15.16 10.25 15.5 10.59 15.5 11C15.5 11.41 15.16 11.75 14.75 11.75Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nLocationMinusFilled.displayName = \"LocationMinusFilled\";\nexport const LocationMinusFilledMetadata = { \n  id: \"location-minus_filled\", \n  baseId: \"location-minus\", \n  variant: \"filled\", \n  name: \"Location Minus\", \n  category: \"navigation\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default LocationMinusFilled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

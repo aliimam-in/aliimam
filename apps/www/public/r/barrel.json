@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "barrel",
+  "type": "registry:ui",
+  "title": "Barrel",
+  "description": "Barrel icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/barrel.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface BarrelProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Barrel = React.forwardRef<SVGSVGElement, BarrelProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M10 3a41 41 0 0 0 0 18\" />\n  <path d=\"M14 3a41 41 0 0 1 0 18\" />\n  <path d=\"M17 3a2 2 0 0 1 1.68.92 15.25 15.25 0 0 1 0 16.16A2 2 0 0 1 17 21H7a2 2 0 0 1-1.68-.92 15.25 15.25 0 0 1 0-16.16A2 2 0 0 1 7 3z\" />\n  <path d=\"M3.84 17h16.32\" />\n  <path d=\"M3.84 7h16.32\" />\n    </svg>\n  )\n);\nBarrel.displayName = \"Barrel\";\nexport const BarrelMetadata = { \n  id: \"barrel\", \n  baseId: \"barrel\", \n  variant: \"default\", \n  name: \"Barrel\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Barrel;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "brain-cog",
+  "type": "registry:ui",
+  "title": "Brain Cog",
+  "description": "Brain Cog icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/brain-cog.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface BrainCogProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const BrainCog = React.forwardRef<SVGSVGElement, BrainCogProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"m10.852 14.772-.383.923\" />\n  <path d=\"m10.852 9.228-.383-.923\" />\n  <path d=\"m13.148 14.772.382.924\" />\n  <path d=\"m13.531 8.305-.383.923\" />\n  <path d=\"m14.772 10.852.923-.383\" />\n  <path d=\"m14.772 13.148.923.383\" />\n  <path d=\"M17.598 6.5A3 3 0 1 0 12 5a3 3 0 0 0-5.63-1.446 3 3 0 0 0-.368 1.571 4 4 0 0 0-2.525 5.771\" />\n  <path d=\"M17.998 5.125a4 4 0 0 1 2.525 5.771\" />\n  <path d=\"M19.505 10.294a4 4 0 0 1-1.5 7.706\" />\n  <path d=\"M4.032 17.483A4 4 0 0 0 11.464 20c.18-.311.892-.311 1.072 0a4 4 0 0 0 7.432-2.516\" />\n  <path d=\"M4.5 10.291A4 4 0 0 0 6 18\" />\n  <path d=\"M6.002 5.125a3 3 0 0 0 .4 1.375\" />\n  <path d=\"m9.228 10.852-.923-.383\" />\n  <path d=\"m9.228 13.148-.923.383\" />\n  <circle cx=\"12\" cy=\"12\" r=\"3\" />\n    </svg>\n  )\n);\nBrainCog.displayName = \"BrainCog\";\nexport const BrainCogMetadata = { \n  id: \"brain-cog\", \n  baseId: \"brain-cog\", \n  variant: \"default\", \n  name: \"Brain Cog\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default BrainCog;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

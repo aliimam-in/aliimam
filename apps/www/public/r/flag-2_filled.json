@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "flag-2_filled",
+  "type": "registry:ui",
+  "title": "Flag 2",
+  "description": "Flag 2 icon component",
+  "category": "app",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/app/flag-2_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface Flag2FilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Flag2Filled = React.forwardRef<SVGSVGElement, Flag2FilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M15.2 7.16L7.2 3.7V2.75C7.2 2.34 6.86 2 6.45 2C6.04 2 5.7 2.34 5.7 2.75V21.25C5.7 21.66 6.04 22 6.45 22C6.86 22 7.2 21.66 7.2 21.25V17.29L15.42 13.23C15.42 13.23 15.42 13.23 15.43 13.23C17.09 12.37 17.98 11.26 17.93 10.09C17.88 8.92 16.91 7.88 15.2 7.16Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nFlag2Filled.displayName = \"Flag2Filled\";\nexport const Flag2FilledMetadata = { \n  id: \"flag-2_filled\", \n  baseId: \"flag-2\", \n  variant: \"filled\", \n  name: \"Flag 2\", \n  category: \"app\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Flag2Filled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

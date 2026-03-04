@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "gemini_rounded",
+  "type": "registry:ui",
+  "title": "Gemini",
+  "description": "Gemini icon component",
+  "category": "gender",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/gender/gemini_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface GeminiRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const GeminiRounded = React.forwardRef<SVGSVGElement, GeminiRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M2 2C8.16 5.69 15.84 5.69 22 2\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M2 22C8.16 18.31 15.84 18.31 22 22\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M5.30005 3.58002L5.43005 3.82001C8.17005 9.03001 8.12005 15.25 5.33005 20.41\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M18.67 20.41C15.89 15.25 15.84 9.03001 18.57 3.82001L18.7 3.58002\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nGeminiRounded.displayName = \"GeminiRounded\";\nexport const GeminiRoundedMetadata = { \n  id: \"gemini_rounded\", \n  baseId: \"gemini\", \n  variant: \"rounded\", \n  name: \"Gemini\", \n  category: \"gender\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default GeminiRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

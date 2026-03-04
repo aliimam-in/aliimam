@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "chevrons-left",
+  "type": "registry:ui",
+  "title": "Chevrons Left",
+  "description": "Chevrons Left icon component",
+  "category": "arrows",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/arrows/chevrons-left.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface ChevronsLeftProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const ChevronsLeft = React.forwardRef<SVGSVGElement, ChevronsLeftProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"m11 17-5-5 5-5\" />\n  <path d=\"m18 17-5-5 5-5\" />\n    </svg>\n  )\n);\nChevronsLeft.displayName = \"ChevronsLeft\";\nexport const ChevronsLeftMetadata = { \n  id: \"chevrons-left\", \n  baseId: \"chevrons-left\", \n  variant: \"default\", \n  name: \"Chevrons Left\", \n  category: \"arrows\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default ChevronsLeft;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "user-round-check",
+  "type": "registry:ui",
+  "title": "User Round Check",
+  "description": "User Round Check icon component",
+  "category": "user",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/user/user-round-check.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface UserRoundCheckProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const UserRoundCheck = React.forwardRef<SVGSVGElement, UserRoundCheckProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M2 21a8 8 0 0 1 13.292-6\" />\n  <circle cx=\"10\" cy=\"8\" r=\"5\" />\n  <path d=\"m16 19 2 2 4-4\" />\n    </svg>\n  )\n);\nUserRoundCheck.displayName = \"UserRoundCheck\";\nexport const UserRoundCheckMetadata = { \n  id: \"user-round-check\", \n  baseId: \"user-round-check\", \n  variant: \"default\", \n  name: \"User Round Check\", \n  category: \"user\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default UserRoundCheck;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

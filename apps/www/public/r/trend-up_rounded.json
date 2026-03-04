@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "trend-up_rounded",
+  "type": "registry:ui",
+  "title": "Trend Up",
+  "description": "Trend Up icon component",
+  "category": "business",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/business/trend-up_rounded.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface TrendUpRoundedProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const TrendUpRounded = React.forwardRef<SVGSVGElement, TrendUpRoundedProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M16.5 9.5L12.3 13.7L10.7 11.3L7.5 14.5\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M14.5 9.5H16.5V11.5\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n<path d=\"M9 22H15C20 22 22 20 22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22Z\"   strokeLinecap=\"round\" strokeLinejoin=\"round\"/>\n    </svg>\n  )\n);\nTrendUpRounded.displayName = \"TrendUpRounded\";\nexport const TrendUpRoundedMetadata = { \n  id: \"trend-up_rounded\", \n  baseId: \"trend-up\", \n  variant: \"rounded\", \n  name: \"Trend Up\", \n  category: \"business\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default TrendUpRounded;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "briefcase-business",
+  "type": "registry:ui",
+  "title": "Briefcase Business",
+  "description": "Briefcase Business icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/briefcase-business.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface BriefcaseBusinessProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const BriefcaseBusiness = React.forwardRef<SVGSVGElement, BriefcaseBusinessProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M12 12h.01\" />\n  <path d=\"M16 6V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2\" />\n  <path d=\"M22 13a18.15 18.15 0 0 1-20 0\" />\n  <rect width=\"20\" height=\"14\" x=\"2\" y=\"6\" rx=\"2\" />\n    </svg>\n  )\n);\nBriefcaseBusiness.displayName = \"BriefcaseBusiness\";\nexport const BriefcaseBusinessMetadata = { \n  id: \"briefcase-business\", \n  baseId: \"briefcase-business\", \n  variant: \"default\", \n  name: \"Briefcase Business\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default BriefcaseBusiness;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

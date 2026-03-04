@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "celo-celo_filled",
+  "type": "registry:ui",
+  "title": "Celo Celo",
+  "description": "Celo Celo icon component",
+  "category": "brand",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/brand/celo-celo_filled.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface CeloCeloFilledProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const CeloCeloFilled = React.forwardRef<SVGSVGElement, CeloCeloFilledProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"currentColor\"\n      stroke=\"none\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M9 22C12.866 22 16 18.866 16 15C16 11.134 12.866 8 9 8C5.13401 8 2 11.134 2 15C2 18.866 5.13401 22 9 22Z\" fill=\"currentColor\"/>\n<path d=\"M22.0001 9C22.0001 11.74 20.4301 14.11 18.1401 15.25C17.8301 15.41 17.4801 15.16 17.4501 14.82C17.1101 10.37 13.6001 6.89 9.18007 6.55C8.83007 6.52 8.59008 6.17 8.75008 5.86C9.89008 3.57 12.2601 2 15.0001 2C18.8701 2 22.0001 5.13 22.0001 9Z\" fill=\"currentColor\"/>\n    </svg>\n  )\n);\nCeloCeloFilled.displayName = \"CeloCeloFilled\";\nexport const CeloCeloFilledMetadata = { \n  id: \"celo-celo_filled\", \n  baseId: \"celo-celo\", \n  variant: \"filled\", \n  name: \"Celo Celo\", \n  category: \"brand\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default CeloCeloFilled;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "cloud-cog",
+  "type": "registry:ui",
+  "title": "Cloud Cog",
+  "description": "Cloud Cog icon component",
+  "category": "cloud",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/cloud/cloud-cog.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface CloudCogProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const CloudCog = React.forwardRef<SVGSVGElement, CloudCogProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"m10.852 19.772-.383.924\" />\n  <path d=\"m13.148 14.228.383-.923\" />\n  <path d=\"M13.148 19.772a3 3 0 1 0-2.296-5.544l-.383-.923\" />\n  <path d=\"m13.53 20.696-.382-.924a3 3 0 1 1-2.296-5.544\" />\n  <path d=\"m14.772 15.852.923-.383\" />\n  <path d=\"m14.772 18.148.923.383\" />\n  <path d=\"M4.2 15.1a7 7 0 1 1 9.93-9.858A7 7 0 0 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.2\" />\n  <path d=\"m9.228 15.852-.923-.383\" />\n  <path d=\"m9.228 18.148-.923.383\" />\n    </svg>\n  )\n);\nCloudCog.displayName = \"CloudCog\";\nexport const CloudCogMetadata = { \n  id: \"cloud-cog\", \n  baseId: \"cloud-cog\", \n  variant: \"default\", \n  name: \"Cloud Cog\", \n  category: \"cloud\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default CloudCog;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "lamp-floor",
+  "type": "registry:ui",
+  "title": "Lamp Floor",
+  "description": "Lamp Floor icon component",
+  "category": "home",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/home/lamp-floor.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface LampFloorProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const LampFloor = React.forwardRef<SVGSVGElement, LampFloorProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M12 10v12\" />\n  <path d=\"M17.929 7.629A1 1 0 0 1 17 9H7a1 1 0 0 1-.928-1.371l2-5A1 1 0 0 1 9 2h6a1 1 0 0 1 .928.629z\" />\n  <path d=\"M9 22h6\" />\n    </svg>\n  )\n);\nLampFloor.displayName = \"LampFloor\";\nexport const LampFloorMetadata = { \n  id: \"lamp-floor\", \n  baseId: \"lamp-floor\", \n  variant: \"default\", \n  name: \"Lamp Floor\", \n  category: \"home\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default LampFloor;\n",
+      "type": "registry:ui"
+    }
+  ]
+}

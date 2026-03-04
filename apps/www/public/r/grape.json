@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "grape",
+  "type": "registry:ui",
+  "title": "Grape",
+  "description": "Grape icon component",
+  "category": "others",
+  "tags": [],
+  "dependencies": [],
+  "devDependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/icons/others/grape.tsx",
+      "content": "/** Auto-generated - Do not edit */\n'use client';\nimport React from 'react';\n\nexport interface GrapeProps extends React.SVGProps<SVGSVGElement> {\n  size?: number | string;\n  strokeWidth?: number;\n}\n\nexport const Grape = React.forwardRef<SVGSVGElement, GrapeProps>(\n  ({ size = 24, className = '', strokeWidth = 1, ...props }, ref) => (\n    <svg \n      ref={ref}\n      width={size}\n      height={size} \n      viewBox=\"0 0 24 24\"\n      fill=\"none\"\n      stroke=\"currentColor\"\n      className={className}\n      xmlns=\"http://www.w3.org/2000/svg\"\n      {...(strokeWidth !== undefined ? { strokeWidth } : {})}\n      {...props}\n    >\n      <path d=\"M22 5V2l-5.89 5.89\" />\n  <circle cx=\"16.6\" cy=\"15.89\" r=\"3\" />\n  <circle cx=\"8.11\" cy=\"7.4\" r=\"3\" />\n  <circle cx=\"12.35\" cy=\"11.65\" r=\"3\" />\n  <circle cx=\"13.91\" cy=\"5.85\" r=\"3\" />\n  <circle cx=\"18.15\" cy=\"10.09\" r=\"3\" />\n  <circle cx=\"6.56\" cy=\"13.2\" r=\"3\" />\n  <circle cx=\"10.8\" cy=\"17.44\" r=\"3\" />\n  <circle cx=\"5\" cy=\"19\" r=\"3\" />\n    </svg>\n  )\n);\nGrape.displayName = \"Grape\";\nexport const GrapeMetadata = { \n  id: \"grape\", \n  baseId: \"grape\", \n  variant: \"default\", \n  name: \"Grape\", \n  category: \"others\", \n  tags: [], \n  viewBox: \"0 0 24 24\" \n} as const;\n\nexport default Grape;\n",
+      "type": "registry:ui"
+    }
+  ]
+}
