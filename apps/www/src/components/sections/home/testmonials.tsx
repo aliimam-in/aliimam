@@ -7,9 +7,9 @@ import { Masonary } from "../../ui/masonary"
 
 const allTweets = [
     "https://x.com/learnframer/status/1986146849020125484",
-    "https://x.com/opencutapp/status/2029297075716784521",
     "https://x.com/stephenhaney/status/1966609181361729770",
     "https://x.com/xn1cklas/status/2027423354852954564",
+    "https://x.com/opencutapp/status/2029297075716784521",
     "https://x.com/jakub_works/status/1958186156249485664",
     "https://x.com/CherubinV47534/status/1914771532100043078",
     "https://x.com/M8ker_com/status/1846950174641316122",

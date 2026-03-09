@@ -1,9 +1,5 @@
-import { Metadata } from "next"
-import {
-  PageHeader,
-  PageHeaderDescription,
-  PageHeaderHeading,
-} from "@/src/components/layout/page-header"
+import { Metadata } from "next" 
+import { Works } from "@/src/components/sections/works/works"
 
 const title = "Works"
 const description = "Coming Soon!"
@@ -37,13 +33,8 @@ export const metadata: Metadata = {
 
 export default function IndexPage() {
   return (
-    <div className="flex flex-1 flex-col">
-      <div className="relative flex h-screen items-center justify-center overflow-hidden">
-        <PageHeader className="relative z-10">
-          <PageHeaderHeading>{title}</PageHeaderHeading>
-          <PageHeaderDescription>{description}</PageHeaderDescription>
-        </PageHeader>
-      </div>
+    <div className="container"> 
+      <Works />
     </div>
   )
 }
