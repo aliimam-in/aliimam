@@ -2,6 +2,16 @@ import { type Registry } from "shadcn/schema"
 
 export const components: Registry["items"] = [
   {
+    name: "dithered-swirl",
+    type: "registry:component",
+    files: [
+      {
+        path: "components/shaders/dithered-swirl.tsx",
+        type: "registry:component",
+      },
+    ],
+  },
+  {
     name: "attraction",
     type: "registry:component",
     files: [

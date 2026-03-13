@@ -10,7 +10,7 @@ export default function BookDemo() {
         spineText="Notes 2026"
         pages={180}
       >
-        <div className="text-white pl-3 text-end text-2xl">
+        <div className="pl-3 text-end text-2xl text-white">
           Personal sketches & ideas.
         </div>
       </Book>

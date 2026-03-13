@@ -2,6 +2,66 @@ import { type Registry } from "shadcn/schema"
 
 export const examples: Registry["items"] = [
   {
+    name: "dithered-swirl-01",
+    type: "registry:example",
+    title: "Dithered Swirl Demo",
+    description: "Animated dithering swirl canvas background.",
+    files: [
+      {
+        path: "examples/shaders/dithered-swirl/dithered-swirl-01.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    name: "dithered-swirl-02",
+    type: "registry:example",
+    title: "Dithered Swirl Demo",
+    description: "Animated dithering swirl canvas background.",
+    files: [
+      {
+        path: "examples/shaders/dithered-swirl/dithered-swirl-02.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    name: "dithered-swirl-03",
+    type: "registry:example",
+    title: "Dithered Swirl Demo",
+    description: "Animated dithering swirl canvas background.",
+    files: [
+      {
+        path: "examples/shaders/dithered-swirl/dithered-swirl-03.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    name: "dithered-swirl-04",
+    type: "registry:example",
+    title: "Dithered Swirl Demo",
+    description: "Animated dithering swirl canvas background.",
+    files: [
+      {
+        path: "examples/shaders/dithered-swirl/dithered-swirl-04.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    name: "dithered-swirl-05",
+    type: "registry:example",
+    title: "Dithered Swirl Demo",
+    description: "Animated dithering swirl canvas background.",
+    files: [
+      {
+        path: "examples/shaders/dithered-swirl/dithered-swirl-05.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
     name: "accordion-01",
     type: "registry:example",
     title: "Accordion Demo",

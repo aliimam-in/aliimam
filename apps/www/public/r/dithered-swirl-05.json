@@ -1,0 +1,14 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "dithered-swirl-05",
+  "title": "Dithered Swirl Demo",
+  "description": "Animated dithering swirl canvas background.",
+  "files": [
+    {
+      "path": "examples/shaders/dithered-swirl/dithered-swirl-05.tsx",
+      "content": "\"use client\"\n \nimport { DitheredSwirl } from \"@/registry/aliimam/components/shaders/dithered-swirl\"\n\nexport default function DitheredSwirlDemo() {\n  return (\n    <div className=\"relative h-full w-full overflow-hidden border\">\n      <DitheredSwirl />\n    </div>\n  )\n}\n",
+      "type": "registry:example"
+    }
+  ],
+  "type": "registry:example"
+}

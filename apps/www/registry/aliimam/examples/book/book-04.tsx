@@ -1,5 +1,6 @@
-import { Book } from "@/registry/aliimam/components/book"
 import { BookOpen } from "@aliimam/icons"
+
+import { Book } from "@/registry/aliimam/components/book"
 
 export default function BookDemo() {
   return (
@@ -15,7 +16,7 @@ export default function BookDemo() {
         bookmarkColor="#ff4d4f"
         pages={320}
       >
-        <p className="text-xs pl-3 text-white/80">
+        <p className="pl-3 text-xs text-white/80">
           A complete guide to scalable UI architecture.
         </p>
       </Book>

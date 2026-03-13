@@ -1,5 +1,6 @@
-import { Book } from "@/registry/aliimam/components/book"
 import { ClaudeAI } from "@aliimam/logos"
+
+import { Book } from "@/registry/aliimam/components/book"
 
 export default function BookDemo() {
   return (
@@ -7,7 +8,7 @@ export default function BookDemo() {
       <Book depth={3} color="#fff200" variant="notebook" textColor="black">
         <div className="mt-8 space-y-2 text-center text-black">
           <div className="flex justify-center">
-            <ClaudeAI/>
+            <ClaudeAI />
           </div>
           <h1 className="pt-2 text-2xl leading-6 font-bold tracking-tighter">
             Designs <br /> Without Limits

@@ -1,5 +1,6 @@
-import { Book } from "@/registry/aliimam/components/book"
 import { Vercel } from "@aliimam/logos"
+
+import { Book } from "@/registry/aliimam/components/book"
 
 export default function BookDemo() {
   return (
@@ -17,7 +18,7 @@ export default function BookDemo() {
       >
         <div className="-mt-4 space-y-2 text-center text-black">
           <div className="flex justify-center">
-            <Vercel/>
+            <Vercel />
           </div>
           <h1 className="pt-2 text-3xl leading-8 font-bold tracking-tighter">
             Designs <br /> Without Limits

@@ -9,7 +9,7 @@
   "files": [
     {
       "path": "examples/book/book-01.tsx",
-      "content": "import { Book } from \"@/registry/aliimam/components/book\";\n\nexport default function BookDemo() {\n    return (\n        <div className=\"flex h-full items-center justify-center\">\n            <Book author=\"Ali\" textColor=\"white\">\n                <div className=\"space-y-2 pl-3 text-white\">\n\n                    <h1 className=\"pt-2 text-3xl leading-7 font-semibold\">\n                        Learn <br /> Designs\n                    </h1>\n                    <p className=\"text-xs leading-3 opacity-70\">\n                        A Practical Handbook for Visual Consistency & Creativity\n                    </p>\n                </div>\n            </Book>\n        </div>\n    )\n}\n",
+      "content": "import { Book } from \"@/registry/aliimam/components/book\"\nimport { Apple } from \"@aliimam/logos\"\n\nexport default function BookDemo() {\n  return (\n    <div className=\"flex h-full items-center justify-center\">\n      <Book author=\"ALI\" textColor=\"white\"> \n        <div className=\"space-y-4 pl-3 text-white\">\n        <Apple/>\n          <h1 className=\"pt-2 text-3xl leading-7 font-semibold\">\n            Learn <br /> Designs\n          </h1>\n          <p className=\"text-xs leading-3 opacity-70\">\n            A Practical Handbook for Visual Consistency & Creativity\n          </p>\n        </div>\n      </Book>\n    </div>\n  )\n}\n",
       "type": "registry:example"
     }
   ],

@@ -1506,6 +1506,24 @@ export const Index: Record<string, any> = {
     categories: ["contact-us"],
     meta: {"iframeHeight":"2300px"},
   },
+  "dithered-swirl": {
+    name: "dithered-swirl",
+    description: "",
+    type: "registry:component",
+    registryDependencies: undefined,
+    files: [{
+      path: "registry/aliimam/components/shaders/dithered-swirl.tsx",
+      type: "registry:component",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/aliimam/components/shaders/dithered-swirl.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
   "attraction": {
     name: "attraction",
     description: "",
@@ -1824,6 +1842,96 @@ export const Index: Record<string, any> = {
     }],
     component: React.lazy(async () => {
       const mod = await import("@/registry/aliimam/components/typewriter.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "dithered-swirl-01": {
+    name: "dithered-swirl-01",
+    description: "Animated dithering swirl canvas background.",
+    type: "registry:example",
+    registryDependencies: undefined,
+    files: [{
+      path: "registry/aliimam/examples/shaders/dithered-swirl/dithered-swirl-01.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/aliimam/examples/shaders/dithered-swirl/dithered-swirl-01.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "dithered-swirl-02": {
+    name: "dithered-swirl-02",
+    description: "Animated dithering swirl canvas background.",
+    type: "registry:example",
+    registryDependencies: undefined,
+    files: [{
+      path: "registry/aliimam/examples/shaders/dithered-swirl/dithered-swirl-02.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/aliimam/examples/shaders/dithered-swirl/dithered-swirl-02.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "dithered-swirl-03": {
+    name: "dithered-swirl-03",
+    description: "Animated dithering swirl canvas background.",
+    type: "registry:example",
+    registryDependencies: undefined,
+    files: [{
+      path: "registry/aliimam/examples/shaders/dithered-swirl/dithered-swirl-03.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/aliimam/examples/shaders/dithered-swirl/dithered-swirl-03.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "dithered-swirl-04": {
+    name: "dithered-swirl-04",
+    description: "Animated dithering swirl canvas background.",
+    type: "registry:example",
+    registryDependencies: undefined,
+    files: [{
+      path: "registry/aliimam/examples/shaders/dithered-swirl/dithered-swirl-04.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/aliimam/examples/shaders/dithered-swirl/dithered-swirl-04.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "dithered-swirl-05": {
+    name: "dithered-swirl-05",
+    description: "Animated dithering swirl canvas background.",
+    type: "registry:example",
+    registryDependencies: undefined,
+    files: [{
+      path: "registry/aliimam/examples/shaders/dithered-swirl/dithered-swirl-05.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/aliimam/examples/shaders/dithered-swirl/dithered-swirl-05.tsx")
       const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
       return { default: mod.default || mod[exportName] }
     }),
