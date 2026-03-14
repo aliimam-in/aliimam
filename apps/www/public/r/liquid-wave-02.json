@@ -1,0 +1,14 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "liquid-wave-02",
+  "title": "liquid wave Demo",
+  "description": "Animated liquid wave canvas background.",
+  "files": [
+    {
+      "path": "examples/shaders/liquid-wave/liquid-wave-02.tsx",
+      "content": "\"use client\"\n\nimport { LiquidWave } from \"@/registry/aliimam/components/shaders/liquid-wave\"\n\nexport default function LiquidWaveDemo() {\n  return (\n    <div className=\"relative h-full w-full overflow-hidden border\">\n      <LiquidWave />\n    </div>\n  )\n}\n",
+      "type": "registry:example"
+    }
+  ],
+  "type": "registry:example"
+}

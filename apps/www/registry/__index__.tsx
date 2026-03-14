@@ -1782,12 +1782,12 @@ export const Index: Record<string, any> = {
     type: "registry:component",
     registryDependencies: undefined,
     files: [{
-      path: "registry/aliimam/components/ripple-shader.tsx",
+      path: "registry/aliimam/components/shaders/ripple-shader.tsx",
       type: "registry:component",
       target: ""
     }],
     component: React.lazy(async () => {
-      const mod = await import("@/registry/aliimam/components/ripple-shader.tsx")
+      const mod = await import("@/registry/aliimam/components/shaders/ripple-shader.tsx")
       const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
       return { default: mod.default || mod[exportName] }
     }),
@@ -1800,12 +1800,12 @@ export const Index: Record<string, any> = {
     type: "registry:component",
     registryDependencies: undefined,
     files: [{
-      path: "registry/aliimam/components/pixelgrid-shader.tsx",
+      path: "registry/aliimam/components/shaders/pixelgrid-shader.tsx",
       type: "registry:component",
       target: ""
     }],
     component: React.lazy(async () => {
-      const mod = await import("@/registry/aliimam/components/pixelgrid-shader.tsx")
+      const mod = await import("@/registry/aliimam/components/shaders/pixelgrid-shader.tsx")
       const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
       return { default: mod.default || mod[exportName] }
     }),
@@ -1932,6 +1932,96 @@ export const Index: Record<string, any> = {
     }],
     component: React.lazy(async () => {
       const mod = await import("@/registry/aliimam/examples/shaders/dithered-swirl/dithered-swirl-05.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "liquid-wave-01": {
+    name: "liquid-wave-01",
+    description: "Animated liquid wave canvas background.",
+    type: "registry:example",
+    registryDependencies: undefined,
+    files: [{
+      path: "registry/aliimam/examples/shaders/liquid-wave/liquid-wave-01.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/aliimam/examples/shaders/liquid-wave/liquid-wave-01.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "liquid-wave-02": {
+    name: "liquid-wave-02",
+    description: "Animated liquid wave canvas background.",
+    type: "registry:example",
+    registryDependencies: undefined,
+    files: [{
+      path: "registry/aliimam/examples/shaders/liquid-wave/liquid-wave-02.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/aliimam/examples/shaders/liquid-wave/liquid-wave-02.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "liquid-wave-03": {
+    name: "liquid-wave-03",
+    description: "Animated liquid wave canvas background.",
+    type: "registry:example",
+    registryDependencies: undefined,
+    files: [{
+      path: "registry/aliimam/examples/shaders/liquid-wave/liquid-wave-03.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/aliimam/examples/shaders/liquid-wave/liquid-wave-03.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "liquid-wave-04": {
+    name: "liquid-wave-04",
+    description: "Animated liquid wave canvas background.",
+    type: "registry:example",
+    registryDependencies: undefined,
+    files: [{
+      path: "registry/aliimam/examples/shaders/liquid-wave/liquid-wave-04.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/aliimam/examples/shaders/liquid-wave/liquid-wave-04.tsx")
+      const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
+      return { default: mod.default || mod[exportName] }
+    }),
+    categories: undefined,
+    meta: undefined,
+  },
+  "liquid-wave-05": {
+    name: "liquid-wave-05",
+    description: "Animated liquid wave canvas background.",
+    type: "registry:example",
+    registryDependencies: undefined,
+    files: [{
+      path: "registry/aliimam/examples/shaders/liquid-wave/liquid-wave-05.tsx",
+      type: "registry:example",
+      target: ""
+    }],
+    component: React.lazy(async () => {
+      const mod = await import("@/registry/aliimam/examples/shaders/liquid-wave/liquid-wave-05.tsx")
       const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
       return { default: mod.default || mod[exportName] }
     }),
@@ -3474,12 +3564,12 @@ export const Index: Record<string, any> = {
     type: "registry:example",
     registryDependencies: ["ripple-shader"],
     files: [{
-      path: "registry/aliimam/examples/ripple-shader/ripple-shader-01.tsx",
+      path: "registry/aliimam/examples/shaders/ripple-shader/ripple-shader-01.tsx",
       type: "registry:example",
       target: ""
     }],
     component: React.lazy(async () => {
-      const mod = await import("@/registry/aliimam/examples/ripple-shader/ripple-shader-01.tsx")
+      const mod = await import("@/registry/aliimam/examples/shaders/ripple-shader/ripple-shader-01.tsx")
       const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
       return { default: mod.default || mod[exportName] }
     }),
@@ -3492,12 +3582,12 @@ export const Index: Record<string, any> = {
     type: "registry:example",
     registryDependencies: ["ripple-shader"],
     files: [{
-      path: "registry/aliimam/examples/ripple-shader/ripple-shader-02.tsx",
+      path: "registry/aliimam/examples/shaders/ripple-shader/ripple-shader-02.tsx",
       type: "registry:example",
       target: ""
     }],
     component: React.lazy(async () => {
-      const mod = await import("@/registry/aliimam/examples/ripple-shader/ripple-shader-02.tsx")
+      const mod = await import("@/registry/aliimam/examples/shaders/ripple-shader/ripple-shader-02.tsx")
       const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
       return { default: mod.default || mod[exportName] }
     }),
@@ -3510,12 +3600,12 @@ export const Index: Record<string, any> = {
     type: "registry:example",
     registryDependencies: ["ripple-shader"],
     files: [{
-      path: "registry/aliimam/examples/ripple-shader/ripple-shader-03.tsx",
+      path: "registry/aliimam/examples/shaders/ripple-shader/ripple-shader-03.tsx",
       type: "registry:example",
       target: ""
     }],
     component: React.lazy(async () => {
-      const mod = await import("@/registry/aliimam/examples/ripple-shader/ripple-shader-03.tsx")
+      const mod = await import("@/registry/aliimam/examples/shaders/ripple-shader/ripple-shader-03.tsx")
       const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
       return { default: mod.default || mod[exportName] }
     }),
@@ -3528,12 +3618,12 @@ export const Index: Record<string, any> = {
     type: "registry:example",
     registryDependencies: ["ripple-shader"],
     files: [{
-      path: "registry/aliimam/examples/ripple-shader/ripple-shader-04.tsx",
+      path: "registry/aliimam/examples/shaders/ripple-shader/ripple-shader-04.tsx",
       type: "registry:example",
       target: ""
     }],
     component: React.lazy(async () => {
-      const mod = await import("@/registry/aliimam/examples/ripple-shader/ripple-shader-04.tsx")
+      const mod = await import("@/registry/aliimam/examples/shaders/ripple-shader/ripple-shader-04.tsx")
       const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
       return { default: mod.default || mod[exportName] }
     }),
@@ -3546,12 +3636,12 @@ export const Index: Record<string, any> = {
     type: "registry:example",
     registryDependencies: ["ripple-shader"],
     files: [{
-      path: "registry/aliimam/examples/ripple-shader/ripple-shader-05.tsx",
+      path: "registry/aliimam/examples/shaders/ripple-shader/ripple-shader-05.tsx",
       type: "registry:example",
       target: ""
     }],
     component: React.lazy(async () => {
-      const mod = await import("@/registry/aliimam/examples/ripple-shader/ripple-shader-05.tsx")
+      const mod = await import("@/registry/aliimam/examples/shaders/ripple-shader/ripple-shader-05.tsx")
       const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
       return { default: mod.default || mod[exportName] }
     }),
@@ -3564,12 +3654,12 @@ export const Index: Record<string, any> = {
     type: "registry:example",
     registryDependencies: ["pixelgrid-shader"],
     files: [{
-      path: "registry/aliimam/examples/pixelgrid-shader/pixelgrid-shader-01.tsx",
+      path: "registry/aliimam/examples/shaders/pixelgrid-shader/pixelgrid-shader-01.tsx",
       type: "registry:example",
       target: ""
     }],
     component: React.lazy(async () => {
-      const mod = await import("@/registry/aliimam/examples/pixelgrid-shader/pixelgrid-shader-01.tsx")
+      const mod = await import("@/registry/aliimam/examples/shaders/pixelgrid-shader/pixelgrid-shader-01.tsx")
       const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
       return { default: mod.default || mod[exportName] }
     }),
@@ -3582,12 +3672,12 @@ export const Index: Record<string, any> = {
     type: "registry:example",
     registryDependencies: ["pixelgrid-shader"],
     files: [{
-      path: "registry/aliimam/examples/pixelgrid-shader/pixelgrid-shader-02.tsx",
+      path: "registry/aliimam/examples/shaders/pixelgrid-shader/pixelgrid-shader-02.tsx",
       type: "registry:example",
       target: ""
     }],
     component: React.lazy(async () => {
-      const mod = await import("@/registry/aliimam/examples/pixelgrid-shader/pixelgrid-shader-02.tsx")
+      const mod = await import("@/registry/aliimam/examples/shaders/pixelgrid-shader/pixelgrid-shader-02.tsx")
       const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
       return { default: mod.default || mod[exportName] }
     }),
@@ -3600,12 +3690,12 @@ export const Index: Record<string, any> = {
     type: "registry:example",
     registryDependencies: ["pixelgrid-shader"],
     files: [{
-      path: "registry/aliimam/examples/pixelgrid-shader/pixelgrid-shader-03.tsx",
+      path: "registry/aliimam/examples/shaders/pixelgrid-shader/pixelgrid-shader-03.tsx",
       type: "registry:example",
       target: ""
     }],
     component: React.lazy(async () => {
-      const mod = await import("@/registry/aliimam/examples/pixelgrid-shader/pixelgrid-shader-03.tsx")
+      const mod = await import("@/registry/aliimam/examples/shaders/pixelgrid-shader/pixelgrid-shader-03.tsx")
       const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
       return { default: mod.default || mod[exportName] }
     }),
@@ -3618,12 +3708,12 @@ export const Index: Record<string, any> = {
     type: "registry:example",
     registryDependencies: ["pixelgrid-shader"],
     files: [{
-      path: "registry/aliimam/examples/pixelgrid-shader/pixelgrid-shader-04.tsx",
+      path: "registry/aliimam/examples/shaders/pixelgrid-shader/pixelgrid-shader-04.tsx",
       type: "registry:example",
       target: ""
     }],
     component: React.lazy(async () => {
-      const mod = await import("@/registry/aliimam/examples/pixelgrid-shader/pixelgrid-shader-04.tsx")
+      const mod = await import("@/registry/aliimam/examples/shaders/pixelgrid-shader/pixelgrid-shader-04.tsx")
       const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
       return { default: mod.default || mod[exportName] }
     }),
@@ -3636,12 +3726,12 @@ export const Index: Record<string, any> = {
     type: "registry:example",
     registryDependencies: ["pixelgrid-shader"],
     files: [{
-      path: "registry/aliimam/examples/pixelgrid-shader/pixelgrid-shader-05.tsx",
+      path: "registry/aliimam/examples/shaders/pixelgrid-shader/pixelgrid-shader-05.tsx",
       type: "registry:example",
       target: ""
     }],
     component: React.lazy(async () => {
-      const mod = await import("@/registry/aliimam/examples/pixelgrid-shader/pixelgrid-shader-05.tsx")
+      const mod = await import("@/registry/aliimam/examples/shaders/pixelgrid-shader/pixelgrid-shader-05.tsx")
       const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
       return { default: mod.default || mod[exportName] }
     }),
@@ -3654,12 +3744,12 @@ export const Index: Record<string, any> = {
     type: "registry:example",
     registryDependencies: ["pixelgrid-shader"],
     files: [{
-      path: "registry/aliimam/examples/pixelgrid-shader/pixelgrid-shader-06.tsx",
+      path: "registry/aliimam/examples/shaders/pixelgrid-shader/pixelgrid-shader-06.tsx",
       type: "registry:example",
       target: ""
     }],
     component: React.lazy(async () => {
-      const mod = await import("@/registry/aliimam/examples/pixelgrid-shader/pixelgrid-shader-06.tsx")
+      const mod = await import("@/registry/aliimam/examples/shaders/pixelgrid-shader/pixelgrid-shader-06.tsx")
       const exportName = Object.keys(mod).find(key => typeof mod[key] === 'function' || typeof mod[key] === 'object') || item.name
       return { default: mod.default || mod[exportName] }
     }),

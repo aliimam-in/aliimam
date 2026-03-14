@@ -6,7 +6,7 @@
   "files": [
     {
       "path": "examples/shaders/dithered-swirl/dithered-swirl-03.tsx",
-      "content": "\"use client\"\n \nimport { DitheredSwirl } from \"@/registry/aliimam/components/shaders/dithered-swirl\"\n\nexport default function DitheredSwirlDemo() {\n  return (\n    <div className=\"relative h-full w-full overflow-hidden border\">\n      <DitheredSwirl />\n    </div>\n  )\n}\n",
+      "content": "\"use client\"\n\nimport { DitheredSwirl } from \"@/registry/aliimam/components/shaders/dithered-swirl\"\n\nexport default function DitheredSwirlDemo() {\n  return (\n    <div className=\"relative h-full w-full overflow-hidden border\">\n      <DitheredSwirl\n        fg=\"#ff00ff\"\n        ac=\"#00ff00\"\n        acMix={1}\n        threshold={10 / 200}\n        intensity={0}\n        scale={10}\n      />\n    </div>\n  )\n}\n",
       "type": "registry:example"
     }
   ],

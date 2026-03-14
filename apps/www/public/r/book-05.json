@@ -9,7 +9,7 @@
   "files": [
     {
       "path": "examples/book/book-05.tsx",
-      "content": "import { Book } from \"@/registry/aliimam/components/book\"\n\nexport default function BookDemo() {\n  return (\n    <div className=\"flex h-full items-center justify-center\">\n      <Book\n        variant=\"notebook\"\n        color=\"#0000ff\"\n        textColor=\"#ffffff\"\n        spineText=\"Notes 2026\"\n        pages={180}\n      >\n        <div className=\"text-white pl-3 text-end text-2xl\">\n          Personal sketches & ideas.\n        </div>\n      </Book>\n    </div>\n  )\n}\n",
+      "content": "import { Book } from \"@/registry/aliimam/components/book\"\n\nexport default function BookDemo() {\n  return (\n    <div className=\"flex h-full items-center justify-center\">\n      <Book\n        variant=\"notebook\"\n        color=\"#0000ff\"\n        textColor=\"#ffffff\"\n        spineText=\"Notes 2026\"\n        pages={180}\n      >\n        <div className=\"pl-3 text-end text-2xl text-white\">\n          Personal sketches & ideas.\n        </div>\n      </Book>\n    </div>\n  )\n}\n",
       "type": "registry:example"
     }
   ],

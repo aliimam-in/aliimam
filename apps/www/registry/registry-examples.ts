@@ -62,6 +62,66 @@ export const examples: Registry["items"] = [
     ],
   },
   {
+    name: "liquid-wave-01",
+    type: "registry:example",
+    title: "liquid wave Demo",
+    description: "Animated liquid wave canvas background.",
+    files: [
+      {
+        path: "examples/shaders/liquid-wave/liquid-wave-01.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    name: "liquid-wave-02",
+    type: "registry:example",
+    title: "liquid wave Demo",
+    description: "Animated liquid wave canvas background.",
+    files: [
+      {
+        path: "examples/shaders/liquid-wave/liquid-wave-02.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    name: "liquid-wave-03",
+    type: "registry:example",
+    title: "liquid wave Demo",
+    description: "Animated liquid wave canvas background.",
+    files: [
+      {
+        path: "examples/shaders/liquid-wave/liquid-wave-03.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    name: "liquid-wave-04",
+    type: "registry:example",
+    title: "liquid wave Demo",
+    description: "Animated liquid wave canvas background.",
+    files: [
+      {
+        path: "examples/shaders/liquid-wave/liquid-wave-04.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
+    name: "liquid-wave-05",
+    type: "registry:example",
+    title: "liquid wave Demo",
+    description: "Animated liquid wave canvas background.",
+    files: [
+      {
+        path: "examples/shaders/liquid-wave/liquid-wave-05.tsx",
+        type: "registry:example",
+      },
+    ],
+  },
+  {
     name: "accordion-01",
     type: "registry:example",
     title: "Accordion Demo",
@@ -1185,7 +1245,7 @@ export const examples: Registry["items"] = [
     registryDependencies: ["ripple-shader"],
     files: [
       {
-        path: "examples/ripple-shader/ripple-shader-01.tsx",
+        path: "examples/shaders/ripple-shader/ripple-shader-01.tsx",
         type: "registry:example",
       },
     ],
@@ -1198,7 +1258,7 @@ export const examples: Registry["items"] = [
     registryDependencies: ["ripple-shader"],
     files: [
       {
-        path: "examples/ripple-shader/ripple-shader-02.tsx",
+        path: "examples/shaders/ripple-shader/ripple-shader-02.tsx",
         type: "registry:example",
       },
     ],
@@ -1211,7 +1271,7 @@ export const examples: Registry["items"] = [
     registryDependencies: ["ripple-shader"],
     files: [
       {
-        path: "examples/ripple-shader/ripple-shader-03.tsx",
+        path: "examples/shaders/ripple-shader/ripple-shader-03.tsx",
         type: "registry:example",
       },
     ],
@@ -1224,7 +1284,7 @@ export const examples: Registry["items"] = [
     registryDependencies: ["ripple-shader"],
     files: [
       {
-        path: "examples/ripple-shader/ripple-shader-04.tsx",
+        path: "examples/shaders/ripple-shader/ripple-shader-04.tsx",
         type: "registry:example",
       },
     ],
@@ -1237,7 +1297,7 @@ export const examples: Registry["items"] = [
     registryDependencies: ["ripple-shader"],
     files: [
       {
-        path: "examples/ripple-shader/ripple-shader-05.tsx",
+        path: "examples/shaders/ripple-shader/ripple-shader-05.tsx",
         type: "registry:example",
       },
     ],
@@ -1250,7 +1310,7 @@ export const examples: Registry["items"] = [
     registryDependencies: ["pixelgrid-shader"],
     files: [
       {
-        path: "examples/pixelgrid-shader/pixelgrid-shader-01.tsx",
+        path: "examples/shaders/pixelgrid-shader/pixelgrid-shader-01.tsx",
         type: "registry:example",
       },
     ],
@@ -1263,7 +1323,7 @@ export const examples: Registry["items"] = [
     registryDependencies: ["pixelgrid-shader"],
     files: [
       {
-        path: "examples/pixelgrid-shader/pixelgrid-shader-02.tsx",
+        path: "examples/shaders/pixelgrid-shader/pixelgrid-shader-02.tsx",
         type: "registry:example",
       },
     ],
@@ -1276,7 +1336,7 @@ export const examples: Registry["items"] = [
     registryDependencies: ["pixelgrid-shader"],
     files: [
       {
-        path: "examples/pixelgrid-shader/pixelgrid-shader-03.tsx",
+        path: "examples/shaders/pixelgrid-shader/pixelgrid-shader-03.tsx",
         type: "registry:example",
       },
     ],
@@ -1289,7 +1349,7 @@ export const examples: Registry["items"] = [
     registryDependencies: ["pixelgrid-shader"],
     files: [
       {
-        path: "examples/pixelgrid-shader/pixelgrid-shader-04.tsx",
+        path: "examples/shaders/pixelgrid-shader/pixelgrid-shader-04.tsx",
         type: "registry:example",
       },
     ],
@@ -1302,7 +1362,7 @@ export const examples: Registry["items"] = [
     registryDependencies: ["pixelgrid-shader"],
     files: [
       {
-        path: "examples/pixelgrid-shader/pixelgrid-shader-05.tsx",
+        path: "examples/shaders/pixelgrid-shader/pixelgrid-shader-05.tsx",
         type: "registry:example",
       },
     ],
@@ -1315,7 +1375,7 @@ export const examples: Registry["items"] = [
     registryDependencies: ["pixelgrid-shader"],
     files: [
       {
-        path: "examples/pixelgrid-shader/pixelgrid-shader-06.tsx",
+        path: "examples/shaders/pixelgrid-shader/pixelgrid-shader-06.tsx",
         type: "registry:example",
       },
     ],

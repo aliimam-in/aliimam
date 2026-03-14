@@ -9,7 +9,7 @@ export default function DitheredSwirlDemo() {
         fg="#ff0000"
         ac="#00ff00"
         acMix={0.5}
-        acMode="blend" 
+        acMode="blend"
         intensity={20}
       />
     </div>

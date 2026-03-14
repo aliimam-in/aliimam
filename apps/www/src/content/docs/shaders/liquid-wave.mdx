@@ -1,0 +1,103 @@
+---
+title: Liquid Wave
+description: Animated liquid wave shader with ordered dithering and accent color blending.
+component: true
+---
+
+<ComponentPreview
+  name="liquid-wave-01"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[300px]"
+  description="A customizable SVG dot pattern background."
+  align="start"
+/>
+
+<ComponentPreview
+  name="liquid-wave-02"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[300px]"
+  description="A customizable SVG dot pattern background."
+  align="start"
+/>
+
+<ComponentPreview
+  name="liquid-wave-03"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[300px]"
+  description="A customizable SVG dot pattern background."
+  align="start"
+/>
+
+<ComponentPreview
+  name="liquid-wave-04"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[300px]"
+  description="A customizable SVG dot pattern background."
+  align="start"
+/>
+
+<ComponentPreview
+  name="liquid-wave-05"
+  className="[&_.preview>[data-orientation=vertical]]:sm:max-w-[90%] **:[.preview]:min-h-[300px]"
+  description="A customizable SVG dot pattern background."
+  align="start"
+/>
+
+## Installation
+
+<CodeTabs>
+
+<TabsList>
+  <TabsTrigger value="cli">CLI</TabsTrigger>
+  <TabsTrigger value="manual">Manual</TabsTrigger>
+</TabsList>
+
+<TabsContent value="cli">
+
+```bash
+npx shadcn@latest add https://aliimam.in/r/liquid-wave.json
+```
+
+</TabsContent>
+
+<TabsContent value="manual">
+
+<Steps>
+
+<Step>Copy and paste the following code into your project.</Step>
+
+<ComponentSource name="liquid-wave" title="components/ui/liquid-wave.tsx" />
+
+<Step>Update the import paths to match your project setup.</Step>
+
+</Steps>
+
+</TabsContent>
+
+</CodeTabs>
+
+## Usage
+
+```tsx showLineNumbers
+import { LiquidWave } from "@/components/ui/liquid-wave"
+```
+
+```tsx showLineNumbers
+<LiquidWave /> 
+```
+
+## Props
+
+| Prop        | Type                             | Default       | Description              |
+| ----------- | -------------------------------- | ------------- | ------------------------ |
+| `width`     | number                           | `1000`        | Canvas width             |
+| `height`    | number                           | `1000`        | Canvas height            |
+| `fg`        | string                           | `#ff0000`     | Foreground color         |
+| `bg`        | string                           | `transparent` | Background color         |
+| `ac`        | string                           | `#00ff00`     | Accent color             |
+| `pixelSize` | number                           | `2`           | Dithering pixel size     |
+| `threshold` | number                           | `0.51`        | Dither threshold         |
+| `spread`    | number                           | `0.5`         | Pattern spread           |
+| `acMix`     | number                           | `0`           | Accent blending strength |
+| `acMode`    | `"blend" \| "hard" \| "pattern"` | `"blend"`     | Accent rendering mode    |
+| `speed`     | number                           | `1`           | Animation speed          |
+| `twist`     | number                           | `0`           | Swirl twist intensity    |
+| `scale`     | number                           | `10`          | Pattern frequency        |
+| `className` | string                           | —             | Additional CSS classes   |
+| `style`     | React.CSSProperties              | —             | Inline styles            |

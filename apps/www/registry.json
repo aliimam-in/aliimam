@@ -1721,7 +1721,7 @@
       "dependencies": ["three"],
       "files": [
         {
-          "path": "registry/aliimam/components/ripple-shader.tsx",
+          "path": "registry/aliimam/components/shaders/ripple-shader.tsx",
           "type": "registry:component"
         }
       ]
@@ -1732,7 +1732,7 @@
       "dependencies": ["three"],
       "files": [
         {
-          "path": "registry/aliimam/components/pixelgrid-shader.tsx",
+          "path": "registry/aliimam/components/shaders/pixelgrid-shader.tsx",
           "type": "registry:component"
         }
       ]
@@ -1813,6 +1813,66 @@
       "files": [
         {
           "path": "registry/aliimam/examples/shaders/dithered-swirl/dithered-swirl-05.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "liquid-wave-01",
+      "type": "registry:example",
+      "title": "liquid wave Demo",
+      "description": "Animated liquid wave canvas background.",
+      "files": [
+        {
+          "path": "registry/aliimam/examples/shaders/liquid-wave/liquid-wave-01.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "liquid-wave-02",
+      "type": "registry:example",
+      "title": "liquid wave Demo",
+      "description": "Animated liquid wave canvas background.",
+      "files": [
+        {
+          "path": "registry/aliimam/examples/shaders/liquid-wave/liquid-wave-02.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "liquid-wave-03",
+      "type": "registry:example",
+      "title": "liquid wave Demo",
+      "description": "Animated liquid wave canvas background.",
+      "files": [
+        {
+          "path": "registry/aliimam/examples/shaders/liquid-wave/liquid-wave-03.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "liquid-wave-04",
+      "type": "registry:example",
+      "title": "liquid wave Demo",
+      "description": "Animated liquid wave canvas background.",
+      "files": [
+        {
+          "path": "registry/aliimam/examples/shaders/liquid-wave/liquid-wave-04.tsx",
+          "type": "registry:example"
+        }
+      ]
+    },
+    {
+      "name": "liquid-wave-05",
+      "type": "registry:example",
+      "title": "liquid wave Demo",
+      "description": "Animated liquid wave canvas background.",
+      "files": [
+        {
+          "path": "registry/aliimam/examples/shaders/liquid-wave/liquid-wave-05.tsx",
           "type": "registry:example"
         }
       ]
@@ -2931,7 +2991,7 @@
       "registryDependencies": ["ripple-shader"],
       "files": [
         {
-          "path": "registry/aliimam/examples/ripple-shader/ripple-shader-01.tsx",
+          "path": "registry/aliimam/examples/shaders/ripple-shader/ripple-shader-01.tsx",
           "type": "registry:example"
         }
       ]
@@ -2944,7 +3004,7 @@
       "registryDependencies": ["ripple-shader"],
       "files": [
         {
-          "path": "registry/aliimam/examples/ripple-shader/ripple-shader-02.tsx",
+          "path": "registry/aliimam/examples/shaders/ripple-shader/ripple-shader-02.tsx",
           "type": "registry:example"
         }
       ]
@@ -2957,7 +3017,7 @@
       "registryDependencies": ["ripple-shader"],
       "files": [
         {
-          "path": "registry/aliimam/examples/ripple-shader/ripple-shader-03.tsx",
+          "path": "registry/aliimam/examples/shaders/ripple-shader/ripple-shader-03.tsx",
           "type": "registry:example"
         }
       ]
@@ -2970,7 +3030,7 @@
       "registryDependencies": ["ripple-shader"],
       "files": [
         {
-          "path": "registry/aliimam/examples/ripple-shader/ripple-shader-04.tsx",
+          "path": "registry/aliimam/examples/shaders/ripple-shader/ripple-shader-04.tsx",
           "type": "registry:example"
         }
       ]
@@ -2983,7 +3043,7 @@
       "registryDependencies": ["ripple-shader"],
       "files": [
         {
-          "path": "registry/aliimam/examples/ripple-shader/ripple-shader-05.tsx",
+          "path": "registry/aliimam/examples/shaders/ripple-shader/ripple-shader-05.tsx",
           "type": "registry:example"
         }
       ]
@@ -2996,7 +3056,7 @@
       "registryDependencies": ["pixelgrid-shader"],
       "files": [
         {
-          "path": "registry/aliimam/examples/pixelgrid-shader/pixelgrid-shader-01.tsx",
+          "path": "registry/aliimam/examples/shaders/pixelgrid-shader/pixelgrid-shader-01.tsx",
           "type": "registry:example"
         }
       ]
@@ -3009,7 +3069,7 @@
       "registryDependencies": ["pixelgrid-shader"],
       "files": [
         {
-          "path": "registry/aliimam/examples/pixelgrid-shader/pixelgrid-shader-02.tsx",
+          "path": "registry/aliimam/examples/shaders/pixelgrid-shader/pixelgrid-shader-02.tsx",
           "type": "registry:example"
         }
       ]
@@ -3022,7 +3082,7 @@
       "registryDependencies": ["pixelgrid-shader"],
       "files": [
         {
-          "path": "registry/aliimam/examples/pixelgrid-shader/pixelgrid-shader-03.tsx",
+          "path": "registry/aliimam/examples/shaders/pixelgrid-shader/pixelgrid-shader-03.tsx",
           "type": "registry:example"
         }
       ]
@@ -3035,7 +3095,7 @@
       "registryDependencies": ["pixelgrid-shader"],
       "files": [
         {
-          "path": "registry/aliimam/examples/pixelgrid-shader/pixelgrid-shader-04.tsx",
+          "path": "registry/aliimam/examples/shaders/pixelgrid-shader/pixelgrid-shader-04.tsx",
           "type": "registry:example"
         }
       ]
@@ -3048,7 +3108,7 @@
       "registryDependencies": ["pixelgrid-shader"],
       "files": [
         {
-          "path": "registry/aliimam/examples/pixelgrid-shader/pixelgrid-shader-05.tsx",
+          "path": "registry/aliimam/examples/shaders/pixelgrid-shader/pixelgrid-shader-05.tsx",
           "type": "registry:example"
         }
       ]
@@ -3061,7 +3121,7 @@
       "registryDependencies": ["pixelgrid-shader"],
       "files": [
         {
-          "path": "registry/aliimam/examples/pixelgrid-shader/pixelgrid-shader-06.tsx",
+          "path": "registry/aliimam/examples/shaders/pixelgrid-shader/pixelgrid-shader-06.tsx",
           "type": "registry:example"
         }
       ]

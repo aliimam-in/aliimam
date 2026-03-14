@@ -8,8 +8,8 @@
   ],
   "files": [
     {
-      "path": "examples/ripple-shader/ripple-shader-02.tsx",
-      "content": "\"use client\"\n\nimport { RippleShader } from \"@/registry/aliimam/components/ripple-shader\"\n\nexport default function RippleShaderDemo() {\n  return (\n    <div className=\"relative h-full w-full overflow-hidden border\">\n      <RippleShader\n        pixelSize={1}\n        speed={1}\n        waveFrequency={10}\n        threshold={0.7}\n        grainAmount={0.3}\n        gridOpacity={0.5}\n        cursorRadius={0.25}\n        cursorPush={0.08}\n        color=\"#0000ff\"\n      />\n    </div>\n  )\n}\n",
+      "path": "examples/shaders/ripple-shader/ripple-shader-02.tsx",
+      "content": "\"use client\"\n\nimport { RippleShader } from \"@/registry/aliimam/components/shaders/ripple-shader\"\n\nexport default function RippleShaderDemo() {\n  return (\n    <div className=\"relative h-full w-full overflow-hidden border\">\n      <RippleShader\n        pixelSize={1}\n        speed={1}\n        waveFrequency={10}\n        threshold={0.7}\n        grainAmount={0.3}\n        gridOpacity={0.5}\n        cursorRadius={0.25}\n        cursorPush={0.08}\n        color=\"#0000ff\"\n      />\n    </div>\n  )\n}\n",
       "type": "registry:example"
     }
   ],

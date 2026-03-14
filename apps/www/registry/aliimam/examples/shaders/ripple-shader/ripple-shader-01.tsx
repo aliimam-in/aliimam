@@ -1,6 +1,6 @@
 "use client"
 
-import { RippleShader } from "@/registry/aliimam/components/ripple-shader"
+import { RippleShader } from "@/registry/aliimam/components/shaders/ripple-shader"
 
 export default function RippleShaderDemo() {
   return (

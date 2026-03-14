@@ -1,5 +1,4 @@
 "use client"
-"use client"
 
 import { useEffect, useRef } from "react"
 
@@ -7,26 +6,37 @@ type RGBA = [number, number, number, number]
 type PatternType = "bayer4" | "bayer8"
 type AcMode = "blend" | "hard" | "pattern"
 
-interface DitheredSwirlProps {
+interface LiquidWaveProps {
   width?: number
   height?: number
+  /** Foreground color — hex or "transparent". Default: "#ffffff" */
   fg?: string
+  /** Background color — hex or "transparent". Default: "transparent" */
   bg?: string
+  /** Accent color — hex or "transparent". Default: "#00ffaa" */
   ac?: string
+  /** Dither pixel block size. Default: 2 */
   pixelSize?: number
+  /** Dither threshold 0–1. Default: 0.502 */
   threshold?: number
+  /** Dither spread 0–1. Default: 0.5 */
   spread?: number
+  /** Accent mix 0–1. Default: 0 */
   acMix?: number
+  /** Accent blend mode. Default: "blend" */
   acMode?: AcMode
+  /** Bayer matrix size. Default: "bayer4" */
   patternType?: PatternType
+  /** Animation speed multiplier. Default: 0.9 */
   speed?: number
+  /** Wave amplitude 0–100. Default: 76 */
   intensity?: number
+  /** Pattern frequency / zoom. Default: 7 */
   scale?: number
   className?: string
   style?: React.CSSProperties
 }
 
-// Returns [r, g, b, a] — a=0 for "transparent", a=255 for hex
 function parseColor(hex: string): RGBA {
   if (!hex || hex === "transparent") return [0, 0, 0, 0]
   const h = hex.replace("#", "")
@@ -71,24 +81,24 @@ function makeBayer8() {
   return (x: number, y: number) => m[y & 7][x & 7]
 }
 
-export function DitheredSwirl({
+export function LiquidWave({
   width = 800,
   height = 800,
-  fg = "#ff00ff",
+  fg = "#ff0000",
   bg = "transparent",
   ac = "#00ffaa",
   pixelSize = 2,
-  threshold = 150 / 250,
+  threshold = 128 / 255,
   spread = 0.5,
   acMix = 0,
   acMode = "blend",
   patternType = "bayer4",
-  speed = 1,
-  intensity = 0,
-  scale = 2,
+  speed = 0.9,
+  intensity = 76,
+  scale = 7,
   className,
   style,
-}: DitheredSwirlProps) {
+}: LiquidWaveProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null)
   const rafRef = useRef<number>(0)
 
@@ -140,25 +150,22 @@ export function DitheredSwirl({
       const p = propsRef.current
       t += 0.016 * p.speed
 
-      const pattern = p.patternType === "bayer8" ? makeBayer8() : makeBayer4()
-
-      const cx = W / 2,
-        cy = H / 2
-      const maxR = Math.sqrt(cx * cx + cy * cy)
-      const twist = (p.intensity / 50) * 4
-
+      // Liquid wave effect
+      const amp = p.intensity / 50
       for (let y = 0; y < H; y++) {
         for (let x = 0; x < W; x++) {
-          const dx = x - cx,
-            dy = y - cy
-          const dist = Math.sqrt(dx * dx + dy * dy) / maxR
-          const angle = Math.atan2(dy, dx) + dist * twist * Math.sin(t * 2)
-          const v =
-            (Math.sin(angle * p.scale + t * 3) * 0.5 + 0.5) * (1 - dist * 0.3)
+          const nx = (x / W) * p.scale
+          const ny = (y / H) * p.scale
+          const wave1 = Math.sin(nx * 3 + t * 1.5) * Math.cos(ny * 2 - t * 0.7)
+          const wave2 = Math.sin((nx + ny) * 2 - t * 1.2) * 0.5
+          const wave3 = Math.cos(nx * 1.5 - ny * 3 + t * 0.8) * 0.3
+          const v = (wave1 + wave2 + wave3) * amp * 0.4 + 0.5
           buf[y * W + x] = clamp01(v)
         }
       }
 
+      // Dither + color pass
+      const pattern = p.patternType === "bayer8" ? makeBayer8() : makeBayer4()
       const img = ctx.createImageData(W, H)
       const d = img.data
       const halfZone = p.acMix * 0.45

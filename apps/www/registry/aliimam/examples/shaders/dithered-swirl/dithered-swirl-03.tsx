@@ -8,8 +8,8 @@ export default function DitheredSwirlDemo() {
       <DitheredSwirl
         fg="#ff00ff"
         ac="#00ff00"
-        acMix={1} 
-        threshold={10/200}
+        acMix={1}
+        threshold={10 / 200}
         intensity={0}
         scale={10}
       />

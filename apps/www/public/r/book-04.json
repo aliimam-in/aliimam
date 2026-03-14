@@ -9,7 +9,7 @@
   "files": [
     {
       "path": "examples/book/book-04.tsx",
-      "content": "import { Book } from \"@/registry/aliimam/components/book\"\nimport { BookOpen } from \"@aliimam/icons\"\n\nexport default function BookDemo() {\n  return (\n    <div className=\"flex h-full items-center justify-center\">\n      <Book\n        variant=\"hardcover\"\n        color=\"#1e293b\"\n        textColor=\"#ffffff\"\n        title=\"Design Systems\"\n        author=\"Ali Imam\"\n        illustration={<BookOpen size={48} className=\"text-white\" />}\n        bookmark\n        bookmarkColor=\"#ff4d4f\"\n        pages={320}\n      >\n        <p className=\"text-xs pl-3 text-white/80\">\n          A complete guide to scalable UI architecture.\n        </p>\n      </Book>\n    </div>\n  )\n}\n",
+      "content": "import { BookOpen } from \"@aliimam/icons\"\n\nimport { Book } from \"@/registry/aliimam/components/book\"\n\nexport default function BookDemo() {\n  return (\n    <div className=\"flex h-full items-center justify-center\">\n      <Book\n        variant=\"hardcover\"\n        color=\"#1e293b\"\n        textColor=\"#ffffff\"\n        title=\"Design Systems\"\n        author=\"Ali Imam\"\n        illustration={<BookOpen size={48} className=\"text-white\" />}\n        bookmark\n        bookmarkColor=\"#ff4d4f\"\n        pages={320}\n      >\n        <p className=\"pl-3 text-xs text-white/80\">\n          A complete guide to scalable UI architecture.\n        </p>\n      </Book>\n    </div>\n  )\n}\n",
       "type": "registry:example"
     }
   ],

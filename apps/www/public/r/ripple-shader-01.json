@@ -8,8 +8,8 @@
   ],
   "files": [
     {
-      "path": "examples/ripple-shader/ripple-shader-01.tsx",
-      "content": "\"use client\"\n\nimport { RippleShader } from \"@/registry/aliimam/components/ripple-shader\"\n\nexport default function RippleShaderDemo() {\n  return (\n    <div className=\"relative h-full w-full overflow-hidden border\">\n      <RippleShader />\n    </div>\n  )\n}\n",
+      "path": "examples/shaders/ripple-shader/ripple-shader-01.tsx",
+      "content": "\"use client\"\n\nimport { RippleShader } from \"@/registry/aliimam/components/shaders/ripple-shader\"\n\nexport default function RippleShaderDemo() {\n  return (\n    <div className=\"relative h-full w-full overflow-hidden border\">\n      <RippleShader />\n    </div>\n  )\n}\n",
       "type": "registry:example"
     }
   ],

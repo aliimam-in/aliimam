@@ -1,6 +1,6 @@
 "use client"
 
-import { PixelGridShader } from "@/registry/aliimam/components/pixelgrid-shader"
+import { PixelGridShader } from "@/registry/aliimam/components/shaders/pixelgrid-shader"
 
 export default function PixelShaderDemo() {
   return (
