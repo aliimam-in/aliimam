@@ -5,13 +5,12 @@ import { DitheredSwirl } from "@/registry/aliimam/components/shaders/dithered-sw
 export default function DitheredSwirlDemo() {
   return (
     <div className="relative h-full w-full overflow-hidden border">
-      <DitheredSwirl
-  fg="#00ffff"
-  ac="#ff00ff"
-  acMix={0.6}
-  acMode="pattern"
-  pixelSize={4}
-/>
+      <DitheredSwirl 
+        spread={0.3}
+        fg="#0022ff"
+        scale={3}
+        threshold={0.3}
+      />
     </div>
   )
 }
