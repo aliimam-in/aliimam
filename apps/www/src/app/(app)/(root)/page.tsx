@@ -10,6 +10,9 @@ import { getBentoBlocks } from "@/src/lib/get-bento-images"
 import { BlocksPageCategory } from "@/src/components/sections/home/categories-section"
 import { Testimonials } from "@/src/components/sections/home/testmonials"
 import { IconsShowcase } from "@/src/components/sections/home/icons-showcase"
+import { AboutMe } from "@/src/components/sections/home/about-me"
+import { AboutAI } from "@/src/components/sections/home/about-ai"
+import { Clients } from "@/src/components/sections/home/clients"
    
 const title = "Design Without Limits"
 const description =
@@ -47,6 +50,9 @@ export default function IndexPage() {
   return (
     <div>    
       <Hero /> 
+      <AboutMe />
+      <AboutAI/> 
+      <Clients />
       <BentoLanding blocks={blocks} />
       <Services />
       <Components />

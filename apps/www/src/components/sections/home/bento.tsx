@@ -47,11 +47,12 @@ export function BentoLanding({ blocks = [] }: { blocks?: BentoBlock[] }) {
   }
 
   return (
-    <section className="border-y">
+    <section className="border-b">
       <div className="container">
         <div className="bg-foreground">
           <Marquee
             pauseOnHover
+            reverse
             speed="slow"
             className="[mask-image:linear-gradient(to_right,transparent,black_8%,black_92%,transparent)] py-1"
           >
