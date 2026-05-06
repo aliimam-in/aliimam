@@ -41,7 +41,12 @@ export function CallToAction() {
               </Button>
             </Link>
           </div>
-        </div>
+        </div><h1
+          className="w-full text-center tracking-tighter border-y mt-10 font-black 
+             text-[clamp(1rem,18vw,20rem)] leading-none"
+        >
+          HIRE ME
+        </h1>
       </div>
     </section>
   )
