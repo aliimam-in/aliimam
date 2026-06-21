@@ -10,14 +10,18 @@
     "cssVariables": true
   },
   "iconLibrary": "lucide",
-  "aliases": {
-    "components": "@/components",
-    "hooks": "@/hooks",
-    "lib": "@/lib",
-    "utils": "@workspace/ui/lib/utils",
-    "ui": "@workspace/ui/components"
-  },
   "rtl": true,
   "menuColor": "default-translucent",
-  "menuAccent": "subtle"
+  "menuAccent": "subtle",
+  "aliases": {
+    "components": "@/components",
+    "utils": "@workspace/ui/lib/utils",
+    "ui": "@workspace/ui/components",
+    "lib": "@/lib",
+    "hooks": "@/hooks"
+  },
+  "registries": {
+    "@efferd": "https://efferd.com/r/{name}.json",
+    "@magicui": "https://magicui.design/r/{name}"
+  }
 }
