@@ -11,7 +11,7 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@workspace/ui/Components/accordion"
+} from "@workspace/ui/components/accordion"
 
 export function FAQs() {
   const faqItems = [
