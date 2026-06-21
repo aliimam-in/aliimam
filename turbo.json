@@ -12,7 +12,7 @@
         "SPOTIFY_CLIENT_ID",
         "SPOTIFY_CLIENT_SECRET",
         "SPOTIFY_REFRESH_TOKEN"
-      ],
+      ]
     },
     "lint": {
       "dependsOn": ["^lint"]
