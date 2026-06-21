@@ -5,7 +5,7 @@ import { Metadata } from "next"
 
 const title = "Works"
 const description =
-  "I create digital experiences that connect and inspire. I build apps, websites, brands, and products end-to-end."
+  "I create digital experiences that connect and inspire. I build apps, websites, brands, and products end-to-end. "
 
 export const dynamic = "force-static"
 export const revalidate = false
