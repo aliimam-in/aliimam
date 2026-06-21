@@ -5,8 +5,9 @@ import "@workspace/ui/globals.css"
 import { ThemeProvider } from "@/components/layout/theme-provider"
 import { cn } from "@workspace/ui/lib/utils";
 import { category, keywords, siteConfig } from "@/lib/config";
+import { Provider } from "@/components/common/provider";
 
-const geist = Geist({subsets:['latin'],variable:'--font-sans'})
+const geist = Geist({ subsets: ['latin'], variable: '--font-sans' })
 
 const fontMono = Geist_Mono({
   subsets: ["latin"],
@@ -91,7 +92,7 @@ export default function RootLayout({
       className={cn("antialiased", fontMono.variable, "font-sans", geist.variable)}
     >
       <body>
-        <ThemeProvider>{children}</ThemeProvider>
+        <Provider>{children}</Provider>
       </body>
     </html>
   )
