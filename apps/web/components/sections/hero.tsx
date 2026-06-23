@@ -24,7 +24,7 @@ export function Hero() {
         </PageHeaderDescription>
         <div className="flex gap-1 items-center">
           <Button>
-            <Link href="https://old.aliimam.in/works">Check Old Site</Link>
+            <Link href="https://aliimam.vercel.app/works">Check Old Site</Link>
           </Button>
           <Button>
             <Link target="_blank" href="https://cal.com/aliimam/30min">

@@ -36,7 +36,7 @@ export function AboutAI() {
           </div>
           <div className="mt-10 flex gap-1 items-center">
             <Button variant={"outline"}>
-              <Link href="https://old.aliimam.in/works">
+              <Link href="https://aliimam.vercel.app/works">
                 See All My Works
               </Link>
             </Button>
